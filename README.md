@@ -4,6 +4,13 @@ This is an automated, AI-readable repository aggregating my verified professiona
 
 ## Microsoft Learn Credentials
 
+# My GitHub Profile
+
+Welcome to my portfolio! Here is my live learning history:
+
+<!-- MS_LEARN_START -->
+<!-- MS_LEARN_END -->
+
 *(This section will be automatically updated by our GitHub automation once we upload the JSON file)*
 
 
