@@ -1,5 +1,6 @@
 import os
 import json
+import re
 from datetime import datetime
 
 # We target the already-repaired file directly in your repo
@@ -23,6 +24,24 @@ def clean_uid(uid):
         return ""
     parts = uid.replace("applied-skill.", "").replace("learn.wwl.", "").split("-")
     return " ".join(parts).title()
+
+def parse_date(x):
+    """Robustly parse ISO dates with varying sub-second precision and timezone offsets to naive datetimes."""
+    if not x or not isinstance(x, dict):
+        return datetime.min
+    date_str = x.get("grantedOn", "")
+    if not date_str:
+        return datetime.min
+    try:
+        # Strip trailing timezone offsets (Z, +00:00, -05:00) so datetimes are purely naive
+        clean_str = re.sub(r'(Z|[+-]\d{2}:?\d{2})$', '', date_str)
+        # Normalize fractional seconds to exactly 6 digits (microseconds)
+        if '.' in clean_str:
+            base, frac = clean_str.split('.')
+            clean_str = f"{base}.{frac[:6].ljust(6, '0')}"
+        return datetime.fromisoformat(clean_str)
+    except Exception:
+        return datetime.min
 
 def main():
     print(f"Opening data file: {JSON_PATH}...")
@@ -56,13 +75,7 @@ def main():
         total_xp = xp_profile.get("totalXp", xp_profile.get("xp", "0"))
         current_level = xp_profile.get("level", "0")
 
-    # Sort achievements by date earned (newest first)
-    def parse_date(x):
-        try:
-            return datetime.fromisoformat(x.get("grantedOn", "").replace("Z", "+00:00"))
-        except:
-            return datetime.min
-
+    # Sort achievements by date earned (newest first) using our robust datetime parser
     sorted_achievements = sorted(achievements, key=parse_date, reverse=True)
 
     # 2. Extract Verifiable Credentials (Applied Skills & Certifications)
