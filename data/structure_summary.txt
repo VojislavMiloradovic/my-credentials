@@ -1,16 +1,23 @@
-File Name: microsoft-learn.json
-Data Type: dict
+=== DEEP INSPECTION SUMMARY ===
 
-=== TOP LEVEL KEYS ===
-- Attachments: bool
-- Assessments: NoneType
-- LearnCompanion: dict (Length: 2)
-- Q&A: dict (Length: 4)
-- Lists: NoneType
-- VerifiableCredentials: dict (Length: 2)
-- Certifications: NoneType
-- SkillAssessment: dict (Length: 5)
-- TechProfile: dict (Length: 26)
-- NextSteps: dict (Length: 3)
-- XP: dict (Length: 2)
-- Progress: dict (Length: 3)
+--- VERIFIABLE CREDENTIALS ---
+Keys in VerifiableCredentials: ['docsId', 'userCredentials']
+Key 'docsId' is of type str
+Key 'userCredentials' is of type list
+  - Number of items: 6
+  - Sample of first item:
+{
+  "credentialId": "ABC20116B56C7F9F",
+  "userId": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759",
+  "sourceUid": "applied-skill.generate-reports-with-ai-research-agents",
+  "sourceType": "Modern",
+  "awardedOn": "2026-03-25T16:21:33+00:00",
+  "credentialStatus": "Active"
+}
+
+========================================
+
+--- TECH PROFILE KEYS ---
+All 26 TechProfile keys: ['email', 'locale', 'country', 'contactPointTopicSetting', 'isInstructor', 'isChallengeAdmin', 'isQnaModerator', 'source', 'authenticationModes', 'transcriptSettings', 'certificationSettings', 'qnaEmailPreferences', 'sharingId', 'legalName', 'userId', 'userName', 'displayName', 'avatarUrl', 'avatarThumbnailUrl', 'isPrivate', 'affiliations', 'followerCount', 'followingCount', 'answersAccepted', 'reputationPoints', 'createdOn']
+
+Target keys found in TechProfile: []
