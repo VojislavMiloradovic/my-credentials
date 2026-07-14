@@ -1,14 +1,1626 @@
 {
   "profile_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_badges": 2,
+  "total_badges": 324,
   "badges": [
     {
-      "title": "Earn the Introductory Skill Badge by completing the Implement Speech and Language Solutions with Pre-trained APIs course, where you learn how to use speech related API tools to synthesise and transcribe speech.",
-      "image_url": null
+      "title": "Developing Containerized Applications on Google CloudEarned Jul 13, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/wAyTzqH4JMPz47%2F2vWT%2FLbiAeaZf6P0s%2B7x8PpFv1C0%3D",
+      "description": "Developing Containerized Applications on Google CloudEarned Jul 13, 2026 EDT"
     },
     {
-      "title": "Complete the introductory Orchestrate Multi-Agent Workflows with Gemini Enterprise skill badge to demonstrate skills in the following: using agentic assistants powered by Gemini Enterprise to unify data across first- and third-party sources, develop multimedia marketing materials, and automate business actions across systems.\n\nSkill badges validate your practical knowledge on specific products through hands-on labs and challenge assessments. Earn a badge by completing a course or jump straight into the challenge lab to get your badge today. Badges prove your proficiency, enhance your professional profile, and ultimately lead to increased career opportunities. Visit your profile to track badges you’ve earned.",
-      "image_url": null
+      "title": "Developing Applications with Cloud Run Functions on Google CloudEarned Jul 12, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/H1TlyAwC5D%2BxojkEv8YL8ZhfjLf9U3haMXCMiODB5VM%3D",
+      "description": "Developing Applications with Cloud Run Functions on Google CloudEarned Jul 12, 2026 EDT"
+    },
+    {
+      "title": "Build a Data Warehouse with BigQueryEarned Jul 10, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/PUSiCmSF%2Bb3bUaIYgmjZAxsxo0ALtju8g3OMu9MR8Fw%3D",
+      "description": "Build a Data Warehouse with BigQueryEarned Jul 10, 2026 EDT"
+    },
+    {
+      "title": "Arcade Trail: Google Workspace AdministrationEarned Jul  8, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/SvjRrwcuQgvvF3lyFisnTEe%2Bcn0qmZ%2F43k4QxEfNsCk%3D",
+      "description": "Arcade Trail: Google Workspace AdministrationEarned Jul  8, 2026 EDT"
+    },
+    {
+      "title": "Safe SpacesEarned Jul  7, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/hTa6j2HXNRR2X1a00Gwd%2BQQ9sMOlAvYd%2BP4%2BmTlcUkY%3D",
+      "description": "Safe SpacesEarned Jul  7, 2026 EDT"
+    },
+    {
+      "title": "Optimize Costs for Google Kubernetes EngineEarned Jul  7, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/HericulAgqoO5iEbCxvzeXLJiX%2F4r9KeW3xrI9AKXHw%3D",
+      "description": "Optimize Costs for Google Kubernetes EngineEarned Jul  7, 2026 EDT"
+    },
+    {
+      "title": "Mitigate Threats and Vulnerabilities with Security Command CenterEarned Jul  3, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/aM1mN0gSEvrDIrNI62BU5QPavPuCk%2Fi3jLHBRc31ZTc%3D",
+      "description": "Mitigate Threats and Vulnerabilities with Security Command CenterEarned Jul  3, 2026 EDT"
+    },
+    {
+      "title": "Build Infrastructure with Terraform on Google CloudEarned Jul  2, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/V5hy7oPDiKov68Q4kTcuuA%2BMHNMX3Z0my4mncKPPGvY%3D",
+      "description": "Build Infrastructure with Terraform on Google CloudEarned Jul  2, 2026 EDT"
+    },
+    {
+      "title": "Set Up an App Dev Environment on Google CloudEarned Jun 30, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/Je38dFSeXh1I3XpoWJYmQ7%2BRKX6ChB2GaGQweuw0kQI%3D",
+      "description": "Set Up an App Dev Environment on Google CloudEarned Jun 30, 2026 EDT"
+    },
+    {
+      "title": "Implement Speech and Language Solutions with Pre-trained APIsEarned Jun 28, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/W%2FApgdYs%2Bn4QOYhy42XW40XtBAuCpET%2FsIo2XoBiDEo%3D",
+      "description": "Implement Speech and Language Solutions with Pre-trained APIsEarned Jun 28, 2026 EDT"
+    },
+    {
+      "title": "Arcade Voyage: Identity Management and Pre-trained AI APIsEarned Jun 28, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/ruCyHO8Xuzk2LHFOBpFSi8kbi7iMf09Kkt0wd7HHJM4%3D",
+      "description": "Arcade Voyage: Identity Management and Pre-trained AI APIsEarned Jun 28, 2026 EDT"
+    },
+    {
+      "title": "Configure Service Accounts and IAM Roles for Google CloudEarned Jun 26, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/I1TlsJ7q%2BHAYAI14j1n1efZUJjzOX30ktybTOXCXTQE%3D",
+      "description": "Configure Service Accounts and IAM Roles for Google CloudEarned Jun 26, 2026 EDT"
+    },
+    {
+      "title": "Building No-Code Apps with AppSheet: AutomationEarned Jun 25, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/h7Y8qR2hlSqftQ4bGG4DkzOyXhnddyl8guwmeXiMhZo%3D",
+      "description": "Building No-Code Apps with AppSheet: AutomationEarned Jun 25, 2026 EDT"
+    },
+    {
+      "title": "Applying Advanced LookML Concepts in LookerEarned Jun 23, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/e5538I7uFqX6L2ZBmAl8cHpysQQYbGeUHjp62M1RhuE%3D",
+      "description": "Applying Advanced LookML Concepts in LookerEarned Jun 23, 2026 EDT"
+    },
+    {
+      "title": "Understanding LookML in LookerEarned Jun 23, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/zfRRCT3pk0br3wZ2pTHM5L%2FITKmIZ2WhiFzbdYRstfs%3D",
+      "description": "Understanding LookML in LookerEarned Jun 23, 2026 EDT"
+    },
+    {
+      "title": "Using the Google Cloud Speech APIEarned Jun 23, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/sugwT79SbI2u2hS9K4Pxd%2FXn7aFbHvZhTPhy4LaCMQg%3D",
+      "description": "Using the Google Cloud Speech APIEarned Jun 23, 2026 EDT"
+    },
+    {
+      "title": "Use APIs to Work with Cloud StorageEarned Jun 21, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/IxQNo3BEvRrPJ7gHFoaeqNT6p9lYF3VojGrMuKzmV5Q%3D",
+      "description": "Use APIs to Work with Cloud StorageEarned Jun 21, 2026 EDT"
+    },
+    {
+      "title": "The Basics of Google Cloud ComputeEarned Jun 21, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/9lB99Ij%2BMz%2FyOV0484V995beQHBMMCw0kimBFfZVtcM%3D",
+      "description": "The Basics of Google Cloud ComputeEarned Jun 21, 2026 EDT"
+    },
+    {
+      "title": "Customer Experience Agent Studio: FundamentalsEarned Jun 21, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/%2FKOR7jqKUK16H%2BL5RE9%2F6dSkJ09OeR07EG0lO0zRKW8%3D",
+      "description": "Customer Experience Agent Studio: FundamentalsEarned Jun 21, 2026 EDT"
+    },
+    {
+      "title": "Troubleshooting with AI Using Cloud Assist InvestigationsEarned Jun 19, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/mydyfqMGrwMI8GaKZBUQWMe3fImoPwv8LIOcm0Ufm6w%3D",
+      "description": "Troubleshooting with AI Using Cloud Assist InvestigationsEarned Jun 19, 2026 EDT"
+    },
+    {
+      "title": "Store, Process, and Manage Data on Google Cloud - ConsoleEarned Jun 17, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/%2FQCXEzViv64XY8tyFtMCHw7onppQaikKcCSnSEFbay0%3D",
+      "description": "Store, Process, and Manage Data on Google Cloud - ConsoleEarned Jun 17, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bootcamp: How to Use Gemini for Marketing 201Earned Jun 15, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/FKKeH4BvuHxrVToqFdB1pFwwiBNsN6TmkleTFlf20X8%3D",
+      "description": "AI Boost Bootcamp: How to Use Gemini for Marketing 201Earned Jun 15, 2026 EDT"
+    },
+    {
+      "title": "Organize and Govern Data with Knowledge CatalogEarned Jun 13, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/RirU8RWY5PjdV0EU8bdob75oXyFU52Jyf%2FdRH6hC3Nc%3D",
+      "description": "Organize and Govern Data with Knowledge CatalogEarned Jun 13, 2026 EDT"
+    },
+    {
+      "title": "Essential Google Cloud CLI ToolsEarned Jun 13, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/OqjoZqKWLcQKma%2By4IeqqCw8kyxUY9XzHyZybWcvfsc%3D",
+      "description": "Essential Google Cloud CLI ToolsEarned Jun 13, 2026 EDT"
+    },
+    {
+      "title": "Managing Cloud Infrastructure with TerraformEarned Jun 12, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/KcMuK0okDaoPDIVlKXW1JXuVL0%2BaaF%2B4jU5EV%2Fp1T1w%3D",
+      "description": "Managing Cloud Infrastructure with TerraformEarned Jun 12, 2026 EDT"
+    },
+    {
+      "title": "Google Cloud EssentialsEarned Jun 10, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/nBCXiMStbMaPo%2Byl1KWY8sTS%2ByLk7bsEeOgbtehKXdc%3D",
+      "description": "Google Cloud EssentialsEarned Jun 10, 2026 EDT"
+    },
+    {
+      "title": "Analyzing and Visualizing Data in LookerEarned Jun  3, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/2oGkUabZRalXPrfe0ae%2Bxev%2FBUhqIQ0%2BXtDO9tToF1w%3D",
+      "description": "Analyzing and Visualizing Data in LookerEarned Jun  3, 2026 EDT"
+    },
+    {
+      "title": "Developing Data Models with LookMLEarned May 30, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/OMJ1cHExY4FFSMRVvocz7r7IrFcHPpzTx8DZ8V7IwfM%3D",
+      "description": "Developing Data Models with LookMLEarned May 30, 2026 EDT"
+    },
+    {
+      "title": "Introduction to Data Analytics on Google CloudEarned May 26, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/URJ0BFWgzlLBkCO6kSOyXGd3Idd44d6tC4Dqn6SKeiw%3D",
+      "description": "Introduction to Data Analytics on Google CloudEarned May 26, 2026 EDT"
+    },
+    {
+      "title": "Manage Data Models in LookerEarned May 25, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/RsPaPRhQGncKX%2FwsgqXFQ6uLP6FJyAQBuuDIu0suG24%3D",
+      "description": "Manage Data Models in LookerEarned May 25, 2026 EDT"
+    },
+    {
+      "title": "App Building with AppSheetEarned May 24, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/XquEIaBaj3QxuMhRhkj8KVCID36E5dhww1MDqsGTz8M%3D",
+      "description": "App Building with AppSheetEarned May 24, 2026 EDT"
+    },
+    {
+      "title": "Analyze BigQuery Data in Connected SheetsEarned May 24, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/t9dqycKsjvFNl4cstZfSxr2eH65dyfh0rr7ZEowcePI%3D",
+      "description": "Analyze BigQuery Data in Connected SheetsEarned May 24, 2026 EDT"
+    },
+    {
+      "title": "Build Real World AI Applications with Gemini and ImagenEarned May 23, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/%2Bmecg9qpw1KC7TdvTfiu24QxstL5mbXW2jCt1WtPPyI%3D",
+      "description": "Build Real World AI Applications with Gemini and ImagenEarned May 23, 2026 EDT"
+    },
+    {
+      "title": "Website Modernization with Generative AI on Google CloudEarned May 21, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/yu7jw9J7H%2B%2FSs94vSOtgoB0BnOlVNqGdb1HXHjCt%2BTk%3D",
+      "description": "Website Modernization with Generative AI on Google CloudEarned May 21, 2026 EDT"
+    },
+    {
+      "title": "Data Governance with Dataplex Universal CatalogEarned May 19, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/nbziKS3tNdY5IpyQx7P4A9%2FyWcKNn5nPs5aPO0w79LA%3D",
+      "description": "Data Governance with Dataplex Universal CatalogEarned May 19, 2026 EDT"
+    },
+    {
+      "title": "Boost Productivity with Gemini in BigQueryEarned May 18, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/zGObxybCPO3KxHYTI0mJSIVcv%2BcNZ5NVguJtsGYBS5g%3D",
+      "description": "Boost Productivity with Gemini in BigQueryEarned May 18, 2026 EDT"
+    },
+    {
+      "title": "Accelerate App Development with Gemini CLIEarned May 18, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/85%2FpBlS78Gy%2FyP6TDNUKsCxnO99HoVclBVTlEdjGJzk%3D",
+      "description": "Accelerate App Development with Gemini CLIEarned May 18, 2026 EDT"
+    },
+    {
+      "title": "Working with Notebooks in Vertex AIEarned May 15, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/Wieyz%2B82zzc%2FCTpAR9V31rwM0k3R%2FYlCneDXcHN1UU0%3D",
+      "description": "Working with Notebooks in Vertex AIEarned May 15, 2026 EDT"
+    },
+    {
+      "title": "Select a Google Cloud Database for Your ApplicationsEarned May 15, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/UgIeE2S%2FcMzFuzJ3KV25TkGtPCpdcR5qlmUUu7wDMms%3D",
+      "description": "Select a Google Cloud Database for Your ApplicationsEarned May 15, 2026 EDT"
+    },
+    {
+      "title": "Build AI Agents with Enterprise DatabasesEarned May 15, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/ILFBCQ3%2FX2fxmmDbiYMRqPXcStcK3hDvWuyyDaMVUSw%3D",
+      "description": "Build AI Agents with Enterprise DatabasesEarned May 15, 2026 EDT"
+    },
+    {
+      "title": "Looker Studio EssentialsEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/EODQcP4%2BFjCnUBj6o2Ttf4q1jB78Y7gVsZ9ovfh58CQ%3D",
+      "description": "Looker Studio EssentialsEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: Presentations in Seconds with Nano Banana ProEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/js5T1SVtpuhiXpJVe8xtnYfm8AxG8BOwypU3%2B9PRhs8%3D",
+      "description": "AI Boost Bites: Presentations in Seconds with Nano Banana ProEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: Become a Homework Hero for Your KidsEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/zyS7EmEF56v1FFU9KBe4Zd7uDpnd1p1l0m5Zi%2F9RHos%3D",
+      "description": "AI Boost Bites: Become a Homework Hero for Your KidsEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: Productivity On the Go with NotebookLMEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/d9kLdfoXXwKyWVWhfbDiXqqatNtbCwdpDqbKigYZua8%3D",
+      "description": "AI Boost Bites: Productivity On the Go with NotebookLMEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: How Google's L&D Uses AI to build Training ProgramsEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/97As3VpU0jKPx6lu%2B%2Fk9rsrOJkq3s8Unrabkasqdt14%3D",
+      "description": "AI Boost Bites: How Google's L&D Uses AI to build Training ProgramsEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: Build Charts with a PromptEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/vCcj7XVrli0VCv6ZmEWEEf6nVQntg9KNe2PngthZQi0%3D",
+      "description": "AI Boost Bites: Build Charts with a PromptEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: The Recruiter's Playbook in GmailEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/vYPaVHI%2FNJG0q0crh1zkqP1Ovy%2FgDcqSy1sAkhwxBno%3D",
+      "description": "AI Boost Bites: The Recruiter's Playbook in GmailEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: Triage a Crisis with GeminiEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/GUM3YzrJC23iHd8Jcp2koNML29p7jKVW8HESXDrz2Xg%3D",
+      "description": "AI Boost Bites: Triage a Crisis with GeminiEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: How Google's L&D Uses AI for StrategyEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/ICbxfpXv27ogjSBVdYY%2B%2BIzIBuLzCyQO59YvAOkD9M4%3D",
+      "description": "AI Boost Bites: How Google's L&D Uses AI for StrategyEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: Bring your photos to life with AIEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/dqV4rn9A6Gkc3ztIZznOxE9jh01UgLHssj5fdDYKqVY%3D",
+      "description": "AI Boost Bites: Bring your photos to life with AIEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: Build an AI Support BotEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/zbO1g7PW1bF51aeXwfYYWOTr2UF%2BgLmeMzzpQlL%2BdcA%3D",
+      "description": "AI Boost Bites: Build an AI Support BotEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: Build Your AI Strategic PartnerEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/Sip4gevrAezAtb9irkSY6p4Hp4OKOx41oYJ4yo9Yzb0%3D",
+      "description": "AI Boost Bites: Build Your AI Strategic PartnerEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: Build a Custom AI TeammateEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/me55DL%2BWUsZcWWIZ9W4BcMX2zXErbGYMTdkMKK3Mfc0%3D",
+      "description": "AI Boost Bites: Build a Custom AI TeammateEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: Your Personal AI Study PartnerEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/EAmY5aKax1vkMA4DsqhwF%2Bh863cJIlkC1Jc6T%2FT%2Bl4w%3D",
+      "description": "AI Boost Bites: Your Personal AI Study PartnerEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: Shareable GemsEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/C6htH3BSM8Gm%2Frs5MKXJ0hgPNglT%2BfTzXIVC%2Fj0dzoY%3D",
+      "description": "AI Boost Bites: Shareable GemsEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bites: Your AI Chart DetectiveEarned May 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/zgqZIqS%2BlI3U2VzaqkyPLCt7oIf50%2F8ffHCLqKblegU%3D",
+      "description": "AI Boost Bites: Your AI Chart DetectiveEarned May 14, 2026 EDT"
+    },
+    {
+      "title": "Innovating with Data and Google CloudEarned May 12, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/qWxDSCRd139dJBY1ewzddZUNE8AF1ed8iCDB%2FQJNFrU%3D",
+      "description": "Innovating with Data and Google CloudEarned May 12, 2026 EDT"
+    },
+    {
+      "title": "Build a Certification Study Guide: PCDOE Exam PrepEarned May  7, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/lNGjuEzS%2BQnCTKXVMYdE2YYWdiHauL65lqn4KIKicoQ%3D",
+      "description": "Build a Certification Study Guide: PCDOE Exam PrepEarned May  7, 2026 EDT"
+    },
+    {
+      "title": "Machine Learning Operations (MLOps): Getting StartedEarned May  5, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/eyBanzGQrS4Cu6ehcSTcfpX0wMTAXCfBNwBHfJ%2FwNBc%3D",
+      "description": "Machine Learning Operations (MLOps): Getting StartedEarned May  5, 2026 EDT"
+    },
+    {
+      "title": "Chronicle SOAR Fundamentals - LocalesEarned May  5, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/ENIzfFxPYJiMdNREL7v599B2k5%2BwRTxu7uSruGsu9Y8%3D",
+      "description": "Chronicle SOAR Fundamentals - LocalesEarned May  5, 2026 EDT"
+    },
+    {
+      "title": "Introduction to Vertex AI StudioEarned May  5, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/vRDTuK%2BEWvMNr%2BRMjnXhrxqum6X%2FfUuYurBBS3Cqf%2B0%3D",
+      "description": "Introduction to Vertex AI StudioEarned May  5, 2026 EDT"
+    },
+    {
+      "title": "Google Workspace EssentialsEarned May  5, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/OyyXuT4%2FMh9Ju9Z22MRPzAhSEPSnZvcJyQvoT9P2wxM%3D",
+      "description": "Google Workspace EssentialsEarned May  5, 2026 EDT"
+    },
+    {
+      "title": "Streamline App Development with Gemini Code AssistEarned May  4, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/DU7jGKfCF5KYIa7SbJA4EOvrmC36xLIs4rkyF0TEtPs%3D",
+      "description": "Streamline App Development with Gemini Code AssistEarned May  4, 2026 EDT"
+    },
+    {
+      "title": "Develop AI-Powered Prototypes in Google AI StudioEarned May  2, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/XemqcUvTQE65dglOn1zBWtA5uhoWQulCF%2BY82SW%2FnjA%3D",
+      "description": "Develop AI-Powered Prototypes in Google AI StudioEarned May  2, 2026 EDT"
+    },
+    {
+      "title": "Build a Certification Study Guide: PCD Exam PrepEarned May  2, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/qCwSoBuMVQhbL12XDvHN3eOgxYRHfBKtya9U52s1q14%3D",
+      "description": "Build a Certification Study Guide: PCD Exam PrepEarned May  2, 2026 EDT"
+    },
+    {
+      "title": "Google Cloud Database Migrations: HomogeneousEarned May  2, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/Uv9%2FSWXv7BjbHy7X5EZqU7WMwsL1Z7XjsjOdi2C75j0%3D",
+      "description": "Google Cloud Database Migrations: HomogeneousEarned May  2, 2026 EDT"
+    },
+    {
+      "title": "AI-powered Database Management with GeminiEarned May  1, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/LH6TB%2BYPRDf15GSRnJIhkGHSc54Fu63mIKGhlwYniSQ%3D",
+      "description": "AI-powered Database Management with GeminiEarned May  1, 2026 EDT"
+    },
+    {
+      "title": "Agentic Strategy: Discover, Design, and PrototypeEarned May  1, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/YBkSk%2B0au4EETB%2F%2FEujAcku9t80Wau5coBDZ32mNzFk%3D",
+      "description": "Agentic Strategy: Discover, Design, and PrototypeEarned May  1, 2026 EDT"
+    },
+    {
+      "title": "Running Oracle Workloads on Google Cloud: FundamentalsEarned May  1, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/L3K%2Bd5Oe49otZ737qpMCvn5wQqZ1AvW6yKUh1aCt%2FDo%3D",
+      "description": "Running Oracle Workloads on Google Cloud: FundamentalsEarned May  1, 2026 EDT"
+    },
+    {
+      "title": "Add Agent Guardrails with CallbacksEarned May  1, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/2Trlb9oYSH9YT%2FE%2FyfMKo2uPAjdGySzcwNQLIUYibKU%3D",
+      "description": "Add Agent Guardrails with CallbacksEarned May  1, 2026 EDT"
+    },
+    {
+      "title": "AI Boost Bootcamp: How to Use Gemini at Work 101Earned May  1, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/%2FU2jPdjOhNNlWuikaFv9Ccme%2F3zH4dCvMeOc9oFfMqE%3D",
+      "description": "AI Boost Bootcamp: How to Use Gemini at Work 101Earned May  1, 2026 EDT"
+    },
+    {
+      "title": "Human-Centered AIEarned May  1, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/LAbree8XMHUv%2BzjuQy%2B3Cm9WXcSq2cNb%2FvdNHPT00L0%3D",
+      "description": "Human-Centered AIEarned May  1, 2026 EDT"
+    },
+    {
+      "title": "Fundamentals of Google's Arm-based Axion ProcessorsEarned Apr 29, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/oY9FvfSvFf%2Fp1Ex0DZyyW7u2Fkl%2B3RrTQmv1FrPvkSc%3D",
+      "description": "Fundamentals of Google's Arm-based Axion ProcessorsEarned Apr 29, 2026 EDT"
+    },
+    {
+      "title": "Digital Sovereignty with Google CloudEarned Apr 29, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/66izOFGUxH5tpPmswoM1n4DD7dzJDGCsoYpmAs31yAc%3D",
+      "description": "Digital Sovereignty with Google CloudEarned Apr 29, 2026 EDT"
+    },
+    {
+      "title": "Build and Deploy Agents in ProductionEarned Apr 29, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/XwEuBgZlrgenIiGeW4fIkS3R1YUqVXoWYG87NZu8apg%3D",
+      "description": "Build and Deploy Agents in ProductionEarned Apr 29, 2026 EDT"
+    },
+    {
+      "title": "Preparing for your Professional Cloud Database Engineer JourneyEarned Apr 28, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/lqSLn8H2UItd4TtuUjJTD5tGNLpJU9TBubU33qNffOo%3D",
+      "description": "Preparing for your Professional Cloud Database Engineer JourneyEarned Apr 28, 2026 EDT"
+    },
+    {
+      "title": "Generate and Edit Media in Agent PlatformEarned Apr 27, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/3VHwlmtOB%2Bl9busvQhzLZn16tqERDI3W4Wa4NFOPBgU%3D",
+      "description": "Generate and Edit Media in Agent PlatformEarned Apr 27, 2026 EDT"
+    },
+    {
+      "title": "Security Command Center: Vulnerabilities and MisconfigurationsEarned Apr 27, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/4EO4cbqc75ho3LD9nr2YTEMil6YLlPxteIU9RY0Oc6I%3D",
+      "description": "Security Command Center: Vulnerabilities and MisconfigurationsEarned Apr 27, 2026 EDT"
+    },
+    {
+      "title": "Migrating to Google Cloud: FundamentalsEarned Apr 27, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/KmY0Q7p0VMstD87apSLAUOy1hm%2BB9wxtVpa4EKgHsUU%3D",
+      "description": "Migrating to Google Cloud: FundamentalsEarned Apr 27, 2026 EDT"
+    },
+    {
+      "title": "Google Cloud Database Migrations: StrategyEarned Apr 27, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/zLD%2FqcHHp406sOKzRZiZhkXmVBEyoHUZqVmT8x1eO%2Bs%3D",
+      "description": "Google Cloud Database Migrations: StrategyEarned Apr 27, 2026 EDT"
+    },
+    {
+      "title": "Liftoff with Google Antigravity: Build a Video Game with AIEarned Apr 26, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/VPWGWiS7Y%2Bv0rZV5X1cJST%2B2ZQTKRBL9M%2BpeDuurN2E%3D",
+      "description": "Liftoff with Google Antigravity: Build a Video Game with AIEarned Apr 26, 2026 EDT"
+    },
+    {
+      "title": "Google AI for Finance ProfessionalsEarned Apr 26, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/ui2Ps5IbpObtla%2FJ2WQY6VC5cF9CEPRIsF0BUJKNzIg%3D",
+      "description": "Google AI for Finance ProfessionalsEarned Apr 26, 2026 EDT"
+    },
+    {
+      "title": "Orchestrate Multi-agent Workflows with Gemini EnterpriseEarned Apr 26, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/j%2FyAaQUb0bYU13DwpFQEik%2BKqoR%2BDmiCmkxzJp5f7SU%3D",
+      "description": "Orchestrate Multi-agent Workflows with Gemini EnterpriseEarned Apr 26, 2026 EDT"
+    },
+    {
+      "title": "L300 Google Distributed Cloud air-gappedEarned Apr 25, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/WzgwTmrniInOjKb8Ii0WMzSfEyQz5YJ8vzfO1K68d%2Bg%3D",
+      "description": "L300 Google Distributed Cloud air-gappedEarned Apr 25, 2026 EDT"
+    },
+    {
+      "title": "Looker Studio Pro EssentialsEarned Apr 24, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/wNd2qYA7vRpHipffzqZiuDVRdzhzGcVb78SKFzY5i1A%3D",
+      "description": "Looker Studio Pro EssentialsEarned Apr 24, 2026 EDT"
+    },
+    {
+      "title": "Responsible AI for Digital Leaders with Google CloudEarned Apr 24, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/SroOspLYLDGxMepEsA283SdjtjjKVsJrw8Cz0vVTJh0%3D",
+      "description": "Responsible AI for Digital Leaders with Google CloudEarned Apr 24, 2026 EDT"
+    },
+    {
+      "title": "Unleash Team Potential: Assess Learning Needs Using GenAIEarned Apr 24, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/qfya64jvyfwsCN14mkQR4asUuX1QjVkcK0DGthzoEeQ%3D",
+      "description": "Unleash Team Potential: Assess Learning Needs Using GenAIEarned Apr 24, 2026 EDT"
+    },
+    {
+      "title": "Introduction to Reliable Deep LearningEarned Apr 23, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/oYN6r54fs14CqmLMoMrniuu0uJgo1QKHcDpB1qHHpiE%3D",
+      "description": "Introduction to Reliable Deep LearningEarned Apr 23, 2026 EDT"
+    },
+    {
+      "title": "Introduction to Security in the World of AIEarned Apr 23, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/20dDFY9yOm5pQNnh9IuaukKcbHY%2BvZrYzlUnkT1t6Us%3D",
+      "description": "Introduction to Security in the World of AIEarned Apr 23, 2026 EDT"
+    },
+    {
+      "title": "[DEPRECATED] Google Cloud: Prompt Engineering GuideEarned Apr 23, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/XG7YcUxurM6j1isLPt%2BK2RQGRlw1xYyfZWr6xqLII58%3D",
+      "description": "[DEPRECATED] Google Cloud: Prompt Engineering GuideEarned Apr 23, 2026 EDT"
+    },
+    {
+      "title": "Future-Proof Your AI Learning StrategyEarned Apr 23, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/1L%2FejhOb2IyRb6t1RmuFjJs029%2BaImLygGqXMHJ04l4%3D",
+      "description": "Future-Proof Your AI Learning StrategyEarned Apr 23, 2026 EDT"
+    },
+    {
+      "title": "Introduction to Google Distributed Cloud SandboxEarned Apr 22, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/m%2BvV7K9yMg5CaMQAvQoUF9CeBTOUaIjz5PX88ZNEt3g%3D",
+      "description": "Introduction to Google Distributed Cloud SandboxEarned Apr 22, 2026 EDT"
+    },
+    {
+      "title": "Google Cloud Security for the Public SectorEarned Apr 21, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/Mo8HF97Asuk6kzBrV4oVuNvuRJYJFfrbfGVEcT3KgCA%3D",
+      "description": "Google Cloud Security for the Public SectorEarned Apr 21, 2026 EDT"
+    },
+    {
+      "title": "Accelerate Knowledge Exchange with Gemini EnterpriseEarned Apr 20, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/p4dLL7l3SFKxZHSWwku%2F1QCxQa8A49R6pb1S4QIbjTc%3D",
+      "description": "Accelerate Knowledge Exchange with Gemini EnterpriseEarned Apr 20, 2026 EDT"
+    },
+    {
+      "title": "Build a Certification Study Guide: PSOE Exam PrepEarned Apr 18, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/HRr6N4o62tBay%2BTcnSWnueqFTiSPt7kKAX6DPNtZxjA%3D",
+      "description": "Build a Certification Study Guide: PSOE Exam PrepEarned Apr 18, 2026 EDT"
+    },
+    {
+      "title": "Gemini for end-to-end SDLCEarned Apr 18, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/8WAx69Kk1nJNoipzoi0vmesqTSEsQlKcbiSUJW0VeOA%3D",
+      "description": "Gemini for end-to-end SDLCEarned Apr 18, 2026 EDT"
+    },
+    {
+      "title": "Implement Cloud Next Generation FirewallEarned Apr 18, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/0BnA3oprfivgJIdXIvRSxHAJWqliqrtPdifl6im1nYo%3D",
+      "description": "Implement Cloud Next Generation FirewallEarned Apr 18, 2026 EDT"
+    },
+    {
+      "title": "Quiz: GDC Air-Gapped Practitioner FundamentalsEarned Apr 17, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/iM7sjuw3i9ddc5GNlQoQeWoz%2BxaT65uS7dPx02tA0Xw%3D",
+      "description": "Quiz: GDC Air-Gapped Practitioner FundamentalsEarned Apr 17, 2026 EDT"
+    },
+    {
+      "title": "Machine Learning Operations (MLOps) with Agent Platform: Model EvaluationEarned Apr 16, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/ZOb7So5SVvLtNYi62lecamlNxQN4rAZnKKM2plibgwA%3D",
+      "description": "Machine Learning Operations (MLOps) with Agent Platform: Model EvaluationEarned Apr 16, 2026 EDT"
+    },
+    {
+      "title": "Introduction to Google Security Operations: Unified SecOpsEarned Apr 15, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/j3ytSAt0eMwbr0VstwTO%2F2Jxk3JOboisUtqMBgqtDKs%3D",
+      "description": "Introduction to Google Security Operations: Unified SecOpsEarned Apr 15, 2026 EDT"
+    },
+    {
+      "title": "Responsible AI for Developers: Interpretability & TransparencyEarned Apr 14, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/nth0OPM4uuNaPbd68cLVgPLWjn3IniVHeREws5XZjko%3D",
+      "description": "Responsible AI for Developers: Interpretability & TransparencyEarned Apr 14, 2026 EDT"
+    },
+    {
+      "title": "Architecting and Installing the Apigee Hybrid API PlatformEarned Apr 13, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/3VLvY8ix0HD0eWx831LF%2Fr7ZqabCTsKac06%2BhqrnbXw%3D",
+      "description": "Architecting and Installing the Apigee Hybrid API PlatformEarned Apr 13, 2026 EDT"
+    },
+    {
+      "title": "GKE Routing and IP Address ManagementEarned Apr 12, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/3PU2cOJnLgLzyD%2Fritm2Yknxa4bamZ%2BqLURVUpxlygc%3D",
+      "description": "GKE Routing and IP Address ManagementEarned Apr 12, 2026 EDT"
+    },
+    {
+      "title": "Deploy Your First AgentEarned Apr 11, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/1Xnmcb9mPAiTS25HuGEYxI6E3stewvMug6%2FF5sIAAmc%3D",
+      "description": "Deploy Your First AgentEarned Apr 11, 2026 EDT"
+    },
+    {
+      "title": "Orchestrate Complex Multi-Agent WorkflowsEarned Apr 11, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/%2F4GJSRbOgaD2hQVq%2B58P7BF8OV4g9rAanqUNA6AguPQ%3D",
+      "description": "Orchestrate Complex Multi-Agent WorkflowsEarned Apr 11, 2026 EDT"
+    },
+    {
+      "title": "Coordinate Multiple AgentsEarned Apr 11, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/eQdi6zpSvhNsJC7P1F8BDV6CGy5RxAX8lLYuJdZHdKY%3D",
+      "description": "Coordinate Multiple AgentsEarned Apr 11, 2026 EDT"
+    },
+    {
+      "title": "Introduction to GKE NetworkingEarned Apr 11, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/XzzYcZHKq7BrxVXZ4KH2mg%2BRbUGv%2B1QzxpTw9Vh5sOs%3D",
+      "description": "Introduction to GKE NetworkingEarned Apr 11, 2026 EDT"
+    },
+    {
+      "title": "Network Observability on Google CloudEarned Apr 10, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/XmVono210uduEESaHiAt8X2UOpx1dVPZKWHkQI%2F0Qqc%3D",
+      "description": "Network Observability on Google CloudEarned Apr 10, 2026 EDT"
+    },
+    {
+      "title": "Agent Assist and its Gen AI CapabilitiesEarned Apr 10, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/qPzWvCiU1adWrd8dRV7t3ofTgKUOG4c3dWG7rEzuvs8%3D",
+      "description": "Agent Assist and its Gen AI CapabilitiesEarned Apr 10, 2026 EDT"
+    },
+    {
+      "title": "Architect Gemini Enterprise for Customer ExperienceEarned Apr 10, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/ZXg%2B4U7BZRgMVSZAj2uwxeY9mGWGLQAMfFLG954BKxo%3D",
+      "description": "Architect Gemini Enterprise for Customer ExperienceEarned Apr 10, 2026 EDT"
+    },
+    {
+      "title": "Create Your First Gemini Enterprise ApplicationEarned Apr  9, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/PpY0xkr%2BgQvzN9BWSjPCQDSVoHvfBnrRTm2DY06N%2BnQ%3D",
+      "description": "Create Your First Gemini Enterprise ApplicationEarned Apr  9, 2026 EDT"
+    },
+    {
+      "title": "Enterprise Agents and Use CasesEarned Apr  9, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/e%2B%2FPYFSmVhRO03c6pLQZCCkY3jQsoBbI32sIHScUeuY%3D",
+      "description": "Enterprise Agents and Use CasesEarned Apr  9, 2026 EDT"
+    },
+    {
+      "title": "Introduction to AI AgentsEarned Apr  9, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/7xFCpXl6c41wp0LLllrB7TUvpcYBIcfIbPMjsKESjGQ%3D",
+      "description": "Introduction to AI AgentsEarned Apr  9, 2026 EDT"
+    },
+    {
+      "title": "Manage Agent Memory and StateEarned Apr  8, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/c%2Bq9x%2BPrVUQq7jHdhWqCF0Nz8hqRbGcwXBMgbxcPaow%3D",
+      "description": "Manage Agent Memory and StateEarned Apr  8, 2026 EDT"
+    },
+    {
+      "title": "Add Agent Capabilities With ToolsEarned Apr  8, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/L5chlskL%2BWug%2B3wcDW7uzQdeweKIigHu1IaD3UO643E%3D",
+      "description": "Add Agent Capabilities With ToolsEarned Apr  8, 2026 EDT"
+    },
+    {
+      "title": "Build Agents with Agent Development Kit (ADK)Earned Apr  8, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/Sh638u810kH66zcsdEpJdY%2Bac4t%2FWrAuYhDgxpo%2F2t0%3D",
+      "description": "Build Agents with Agent Development Kit (ADK)Earned Apr  8, 2026 EDT"
+    },
+    {
+      "title": "Optimize Agent BehaviorEarned Apr  7, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/MupRp8JPAmQXv9mywaQXnuZ47dn7WZyOKN8lwTpD9bY%3D",
+      "description": "Optimize Agent BehaviorEarned Apr  7, 2026 EDT"
+    },
+    {
+      "title": "Build Your First Agent with Agent Development Kit (ADK)Earned Apr  7, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/BkhO4P7tVlJiOZ7MNdKg7o%2BttHOcJHBBHz%2BqeGsR7N4%3D",
+      "description": "Build Your First Agent with Agent Development Kit (ADK)Earned Apr  7, 2026 EDT"
+    },
+    {
+      "title": "Agent FundamentalsEarned Apr  7, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/FCphf6qHBAlDaes%2FXtC7lcqPLRMiXIPeH7b7GU8SJ3o%3D",
+      "description": "Agent FundamentalsEarned Apr  7, 2026 EDT"
+    },
+    {
+      "title": "Create Agents with Generative PlaybooksEarned Apr  7, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/kF8nQ5mSi45jmkGYoJu9zdRzxYNjllmCgHCWF3V2Gvg%3D",
+      "description": "Create Agents with Generative PlaybooksEarned Apr  7, 2026 EDT"
+    },
+    {
+      "title": "Getting Started with Security Command Center EnterpriseEarned Apr  6, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/awDs%2BlZX7zUGVL%2BCWwMY%2BxGn%2B1MrIHToikynj%2FCEfwE%3D",
+      "description": "Getting Started with Security Command Center EnterpriseEarned Apr  6, 2026 EDT"
+    },
+    {
+      "title": "Unlock Insights with NotebookLMEarned Apr  5, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/0OwtDw9cy00esoL7NyiWZxxrUzs6RzhziUvQD6lcZsc%3D",
+      "description": "Unlock Insights with NotebookLMEarned Apr  5, 2026 EDT"
+    },
+    {
+      "title": "Introduction to reCAPTCHAEarned Apr  5, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/RQM7goFF%2BdDO6G8hN7qDT%2F9iBEqEa7%2F3uvu%2FZEDYlEE%3D",
+      "description": "Introduction to reCAPTCHAEarned Apr  5, 2026 EDT"
+    },
+    {
+      "title": "Introduction to Gemini EnterpriseEarned Apr  4, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/IjYKiBDxUoTf58IWSFpkRwDY0GXcFUCxQM8o%2FkWxKZU%3D",
+      "description": "Introduction to Gemini EnterpriseEarned Apr  4, 2026 EDT"
+    },
+    {
+      "title": "Responsible AI for Developers: Fairness & BiasEarned Apr  3, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/QJp8tH1aufjpJrxzogJVNOsUrN6TMNWd3AGQdmxnh%2F0%3D",
+      "description": "Responsible AI for Developers: Fairness & BiasEarned Apr  3, 2026 EDT"
+    },
+    {
+      "title": "Introduction to Data Analytics in Google CloudEarned Apr  3, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/%2BInP8Vd%2BzZtousQFcT%2BDrdSR0zs4cS74%2F%2BM7wjv4pK4%3D",
+      "description": "Introduction to Data Analytics in Google CloudEarned Apr  3, 2026 EDT"
+    },
+    {
+      "title": "Google DeepMind: 07 Accelerate Your ModelEarned Apr  2, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/iMB%2BmAePnRoyV6SsAPf%2BpE5BI%2FwjbG6yyYatqStUB20%3D",
+      "description": "Google DeepMind: 07 Accelerate Your ModelEarned Apr  2, 2026 EDT"
+    },
+    {
+      "title": "Google DeepMind: 05 Fine-Tune Your ModelEarned Apr  2, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/YxrUVYEAwVE04lc%2BJDwOFaXn%2BUUv6b%2Fuk6AmrgB75fU%3D",
+      "description": "Google DeepMind: 05 Fine-Tune Your ModelEarned Apr  2, 2026 EDT"
+    },
+    {
+      "title": "Web and Mobile Anti-fraud DefenseEarned Apr  2, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/zjZASN5yLFaBxDyTm%2B7TRzSOj77mq79BcVHsjxT5dok%3D",
+      "description": "Web and Mobile Anti-fraud DefenseEarned Apr  2, 2026 EDT"
+    },
+    {
+      "title": "Google Threat IntelligenceEarned Apr  1, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/D1vltJAWmgLVgOiRPQ9f3zhhEh6bd7KXatk%2BvGLfUsM%3D",
+      "description": "Google Threat IntelligenceEarned Apr  1, 2026 EDT"
+    },
+    {
+      "title": "Security Command Center: Identify and Prioritize RisksEarned Mar 30, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/3ZijaCoFrFtbrzSx1DJCswi4Ot9EqzycN9B87lbQ39w%3D",
+      "description": "Security Command Center: Identify and Prioritize RisksEarned Mar 30, 2026 EDT"
+    },
+    {
+      "title": "Deploy and Scale AI Models with Cloud RunEarned Mar 30, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/6ZDX%2BW1AZnaFpO5lLlthas3gcLpTin%2FX52%2BPitJL%2FZ8%3D",
+      "description": "Deploy and Scale AI Models with Cloud RunEarned Mar 30, 2026 EDT"
+    },
+    {
+      "title": "Configure Gemini Code Assist for OrganizationsEarned Mar 30, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/mfRUQy6uW0nSEFNVUmpiRe8pLqRwiyKnVJBcuOoatHY%3D",
+      "description": "Configure Gemini Code Assist for OrganizationsEarned Mar 30, 2026 EDT"
+    },
+    {
+      "title": "Secure GKE with Cloud Next Generation FirewallEarned Mar 29, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/M4VM2%2B6izye4pj2NS9XPXydNinJKnKTAyoQ0Qdw%2Fiqc%3D",
+      "description": "Secure GKE with Cloud Next Generation FirewallEarned Mar 29, 2026 EDT"
+    },
+    {
+      "title": "Create Embeddings, Vector Search, and RAG with BigQueryEarned Mar 29, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/cvzx07nngN020MJSQOUm9SHkBLQdfoPD1CWMyiyHF%2B8%3D",
+      "description": "Create Embeddings, Vector Search, and RAG with BigQueryEarned Mar 29, 2026 EDT"
+    },
+    {
+      "title": "Introduction to SecOps on GDCEarned Mar 27, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/KMHiDnYd7AK2tYoYwCyJ8wXM2%2BFdennCtHHrvt5TVpQ%3D",
+      "description": "Introduction to SecOps on GDCEarned Mar 27, 2026 EDT"
+    },
+    {
+      "title": "Model Armor: Securing AI DeploymentsEarned Mar 27, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/XIa%2F%2Ffn8C0onBFXCyfnjG%2BdWexEicvmuC4MLemRkg5s%3D",
+      "description": "Model Armor: Securing AI DeploymentsEarned Mar 27, 2026 EDT"
+    },
+    {
+      "title": "AI Services and GDC Deployments and OperationsEarned Mar 26, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/OiTO5XmtoJe8HBCHOgMxZ0zwlW7ef%2FRDvu0kP9fjA8U%3D",
+      "description": "AI Services and GDC Deployments and OperationsEarned Mar 26, 2026 EDT"
+    },
+    {
+      "title": "Compute, Network, and Storage Services Configuration in GDCEarned Mar 26, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/13P3piMRxsMn0TdQllbNaDeRFZzGadzcybdMYT%2BA8xk%3D",
+      "description": "Compute, Network, and Storage Services Configuration in GDCEarned Mar 26, 2026 EDT"
+    },
+    {
+      "title": "GDC Platform IntroductionEarned Mar 26, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/mI%2F5tw%2B7eNKMBvmPzqZ0Q6zIt0eGSrh95dBbY%2BwxiZs%3D",
+      "description": "GDC Platform IntroductionEarned Mar 26, 2026 EDT"
+    },
+    {
+      "title": "SecOps on GDC for Tier 1 and Tier 2 AnalystsEarned Mar 25, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/64dEJjYXBmYvvNrUs3Uu4xldglcSwsot%2BV54LYP9SUM%3D",
+      "description": "SecOps on GDC for Tier 1 and Tier 2 AnalystsEarned Mar 25, 2026 EDT"
+    },
+    {
+      "title": "SecOps on GDC for Tier 3 AnalystsEarned Mar 25, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/GYmysc6FQVelU23u3a5EuDy7QkM9L1EMhEhPqUcClFE%3D",
+      "description": "SecOps on GDC for Tier 3 AnalystsEarned Mar 25, 2026 EDT"
+    },
+    {
+      "title": "Quiz: GDC Air-Gapped Security Operator FundamentalsEarned Mar 25, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/HA5UCTFtNKz9jxlMCO19HYb2KOIldQnVvWXnvjuPAPg%3D",
+      "description": "Quiz: GDC Air-Gapped Security Operator FundamentalsEarned Mar 25, 2026 EDT"
+    },
+    {
+      "title": "Conversational AI on Vertex AI and Dialogflow CXEarned Mar 22, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/z7V%2B3EWAmr4lylvc6O2QCaS%2BTmamd6ynvvnph5uYGpo%3D",
+      "description": "Conversational AI on Vertex AI and Dialogflow CXEarned Mar 22, 2026 EDT"
+    },
+    {
+      "title": "Gemini for Security EngineersEarned Mar 22, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/GELejS5bzw7jQe2ecRO1l995z4RpnzGADs71AC%2FDbJw%3D",
+      "description": "Gemini for Security EngineersEarned Mar 22, 2026 EDT"
+    },
+    {
+      "title": "Gemini for Cloud ArchitectsEarned Mar 22, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/HZZa%2FmPkGq%2FngWHgXJnV5tpHtn7Ge3Wh7gp2mY483BM%3D",
+      "description": "Gemini for Cloud ArchitectsEarned Mar 22, 2026 EDT"
+    },
+    {
+      "title": "Building No-Code Apps with AppSheet: ImplementationEarned Mar 21, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/Yvej7hXh2ooF4naklTi8Qm%2FwGhm1IrRyp3SrI10wP5g%3D",
+      "description": "Building No-Code Apps with AppSheet: ImplementationEarned Mar 21, 2026 EDT"
+    },
+    {
+      "title": "Gemini for Application DevelopersEarned Mar 20, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/I2R8Fn4LkbXd5l%2F5TJ0H8JeJRSeDN%2F13kq1bG%2Fxnhao%3D",
+      "description": "Gemini for Application DevelopersEarned Mar 20, 2026 EDT"
+    },
+    {
+      "title": "Introduction Google Security Operations (SOAR)Earned Mar 19, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/vteC0ZpdDq82lB3N8Pg1WCf9SNTcixt4XVNHwKiFh%2FE%3D",
+      "description": "Introduction Google Security Operations (SOAR)Earned Mar 19, 2026 EDT"
+    },
+    {
+      "title": "Google Security Operations - SOAR DeveloperEarned Mar 19, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/TE8HC2ASYmCjqKIdFalv1HBhABhcOCFRf88UkSR7Z4U%3D",
+      "description": "Google Security Operations - SOAR DeveloperEarned Mar 19, 2026 EDT"
+    },
+    {
+      "title": "Google Security Operations - SOAR AnalystEarned Mar 19, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/%2FN0XK0nLHd8k4cHAW0AvvzdFi693PBm5fihTZZhMRms%3D",
+      "description": "Google Security Operations - SOAR AnalystEarned Mar 19, 2026 EDT"
+    },
+    {
+      "title": "Introduction to Google Security Operations (SIEM)Earned Mar 19, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/25gTvxl7oEBrBwltnLJQF%2F6ZCEFyqTNznTgGQVEgh9c%3D",
+      "description": "Introduction to Google Security Operations (SIEM)Earned Mar 19, 2026 EDT"
+    },
+    {
+      "title": "Google Cloud AI and ML Solutions for the Public SectorEarned Mar 16, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/A22xEIIKb%2F%2FCX17kk9fcJLXw%2BtXwuY91ciEvSRBrqVk%3D",
+      "description": "Google Cloud AI and ML Solutions for the Public SectorEarned Mar 16, 2026 EDT"
+    },
+    {
+      "title": "Introduction to LookerEarned Mar 10, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/trCZwK0Hdr%2FpsCC0BqzQUWJ97KmXJYa662iHvG4E1wk%3D",
+      "description": "Introduction to LookerEarned Mar 10, 2026 EDT"
+    },
+    {
+      "title": "Networking in Google Cloud: Load BalancingEarned Mar  9, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/6%2BCJtqsn%2FN53c0F%2Fk0ivmCIH4Y%2BHFO6oIzz8TmjYC7U%3D",
+      "description": "Networking in Google Cloud: Load BalancingEarned Mar  9, 2026 EDT"
+    },
+    {
+      "title": "Networking in Google Cloud: Routing and AddressingEarned Mar  8, 2026 EDT",
+      "image_url": "https://cdn.qwiklabs.com/nioPJ3TK3xA23zZ%2BbYn6XAUP5W3S15ySAuzQudyq4jA%3D",
+      "description": "Networking in Google Cloud: Routing and AddressingEarned Mar  8, 2026 EDT"
+    },
+    {
+      "title": "Networking in Google Cloud: Network ArchitectureEarned Mar  7, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/ER%2FqHNoUAqqOF27Q9IPTRaO4Vbky6d1VTI2esCI0qqI%3D",
+      "description": "Networking in Google Cloud: Network ArchitectureEarned Mar  7, 2026 EST"
+    },
+    {
+      "title": "Networking in Google Cloud: Hybrid and MulticloudEarned Mar  7, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/uoX%2BGoqnKTjzktqwZny1kDdntLkMnbZt2IXK%2Fq1kjCg%3D",
+      "description": "Networking in Google Cloud: Hybrid and MulticloudEarned Mar  7, 2026 EST"
+    },
+    {
+      "title": "Gemini for Network EngineersEarned Mar  3, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/Gri4KDDHep6iRdyM8gAPImuSCH0O0UTgj6MTb8DpAIQ%3D",
+      "description": "Gemini for Network EngineersEarned Mar  3, 2026 EST"
+    },
+    {
+      "title": "Plan Your Cloud Next Generation Firewall NeedsEarned Mar  1, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/QZFAD0SvH61muQbjLmoqT%2FgqWPw6NaSTFyohNnDolsU%3D",
+      "description": "Plan Your Cloud Next Generation Firewall NeedsEarned Mar  1, 2026 EST"
+    },
+    {
+      "title": "Introduction to Cloud Next Generation FirewallEarned Mar  1, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/%2BNPiWnLvi3OoI1DZAwSq6gNvInrRxKmop%2Fxlnin63uA%3D",
+      "description": "Introduction to Cloud Next Generation FirewallEarned Mar  1, 2026 EST"
+    },
+    {
+      "title": "Build a Certification Study Guide: PMLEEarned Feb 25, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/2XdKdz8MbuoS0wr4jsV2n37N%2Bot07%2BbgPdZVqvCe%2BNQ%3D",
+      "description": "Build a Certification Study Guide: PMLEEarned Feb 25, 2026 EST"
+    },
+    {
+      "title": "Serverless Data Processing with Dataflow: Develop PipelinesEarned Feb 24, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/NDcdaRB%2FbDVBUVwD1VGs8ucPdwx0VjAU%2FoTjhEj9KzE%3D",
+      "description": "Serverless Data Processing with Dataflow: Develop PipelinesEarned Feb 24, 2026 EST"
+    },
+    {
+      "title": "Serverless Data Processing with Dataflow: FoundationsEarned Feb 24, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/TDCyYZj8sgCvu5iPpMyIDOgTilxvQDe15BajvYjMhec%3D",
+      "description": "Serverless Data Processing with Dataflow: FoundationsEarned Feb 24, 2026 EST"
+    },
+    {
+      "title": "Building No-Code Apps with AppSheet: FoundationsEarned Jan 19, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/uIpVWOfVaqxkYaelk%2FTDg1flJNaOHTuwD9DA24Agk7o%3D",
+      "description": "Building No-Code Apps with AppSheet: FoundationsEarned Jan 19, 2026 EST"
+    },
+    {
+      "title": "Google Cloud Computing Foundations: Infrastructure in Google CloudEarned Jan 17, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/5gTJ1A69jkF3DqOrP4CNZcgB2219G46Tz2zx741LFFc%3D",
+      "description": "Google Cloud Computing Foundations: Infrastructure in Google CloudEarned Jan 17, 2026 EST"
+    },
+    {
+      "title": "Google Cloud Computing Foundations: Cloud Computing FundamentalsEarned Jan 14, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/MK46L8xVTE%2BI3pPuzQrsmHuFOM1Brwe1dHcHcOHVJeQ%3D",
+      "description": "Google Cloud Computing Foundations: Cloud Computing FundamentalsEarned Jan 14, 2026 EST"
+    },
+    {
+      "title": "Security Practices with Google Security Operations - SIEMEarned Jan  4, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/2KbA98htSUpj4mleSTE0b5dtPOMInjxco5zGOTlGxNw%3D",
+      "description": "Security Practices with Google Security Operations - SIEMEarned Jan  4, 2026 EST"
+    },
+    {
+      "title": "Configure and Maintain CCaaS as an AdminEarned Jan  4, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/0dxJo8LJSSGtiUPGDQOFCMPldpYXI6SOg%2FyjgTDfwcU%3D",
+      "description": "Configure and Maintain CCaaS as an AdminEarned Jan  4, 2026 EST"
+    },
+    {
+      "title": "Change Management for Google WorkspaceEarned Jan  3, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/vdProbomGDxMsDvAX%2B%2FhmXnhL%2FA1Bgfuyf9cn7XKsJY%3D",
+      "description": "Change Management for Google WorkspaceEarned Jan  3, 2026 EST"
+    },
+    {
+      "title": "Build a Certification Study Guide: PCNE Exam PrepEarned Jan  2, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/LXMU8NK3AwOZjUs9j7QrwxqSY4b82zuq5sSt5w1kY4c%3D",
+      "description": "Build a Certification Study Guide: PCNE Exam PrepEarned Jan  2, 2026 EST"
+    },
+    {
+      "title": "Manage Functions and Reporting with CCaaSEarned Jan  2, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/V6BjyZGtBr%2BJEhUYZ3xY53H85MPM7S6C3iwKk4uPSvE%3D",
+      "description": "Manage Functions and Reporting with CCaaSEarned Jan  2, 2026 EST"
+    },
+    {
+      "title": "Build a Certification Study Guide: PCA Exam PrepEarned Jan  1, 2026 EST",
+      "image_url": "https://cdn.qwiklabs.com/ddhE353oJj6WPO1%2BFEGC1Fck4%2BN3Rog0T5yIH231wgg%3D",
+      "description": "Build a Certification Study Guide: PCA Exam PrepEarned Jan  1, 2026 EST"
+    },
+    {
+      "title": "Handle Consumer Interactions with CCaaSEarned Dec 31, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/%2FygXktz6i6gxqZmDYYWdJbQqPGmVPUH4G6808Vqqz2I%3D",
+      "description": "Handle Consumer Interactions with CCaaSEarned Dec 31, 2025 EST"
+    },
+    {
+      "title": "Machine Learning Operations (MLOps)  for Generative AIEarned Dec 31, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/BVV%2Fj%2F0h1ZRwMel0M0Ip3uZcNXd%2FzeWEqkZLZ2umN3E%3D",
+      "description": "Machine Learning Operations (MLOps)  for Generative AIEarned Dec 31, 2025 EST"
+    },
+    {
+      "title": "Hybrid Cloud Infrastructure Foundations with AnthosEarned Dec 31, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/6f6iHDO6SAjsVVrDw17rARGLZ%2FcECrTvd2RSbXt%2Fb0o%3D",
+      "description": "Hybrid Cloud Infrastructure Foundations with AnthosEarned Dec 31, 2025 EST"
+    },
+    {
+      "title": "Preparing for your Professional Data Engineer JourneyEarned Dec 30, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/InVizhEiKCF2YMBHFeE6LznYaaCqBOaUbQaFT7MEZ1k%3D",
+      "description": "Preparing for your Professional Data Engineer JourneyEarned Dec 30, 2025 EST"
+    },
+    {
+      "title": "Managing and Securing the Apigee Hybrid API PlatformEarned Dec 30, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/y445B6m0%2F2ETfowti083iHcztw1HMyp%2FiRioPatTK5c%3D",
+      "description": "Managing and Securing the Apigee Hybrid API PlatformEarned Dec 30, 2025 EST"
+    },
+    {
+      "title": "Preparing for Your Professional Cloud Security Engineer JourneyEarned Dec 30, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/2AaP%2BRt5aPsemvHC3HcU3hXRjVBGkgrHUdwcvM9soG8%3D",
+      "description": "Preparing for Your Professional Cloud Security Engineer JourneyEarned Dec 30, 2025 EST"
+    },
+    {
+      "title": "Upgrading and Monitoring the Apigee Hybrid API PlatformEarned Dec 29, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/idcLTELVg8PIzfpLv0nRCOSE4fOUn63ScZaaGqYV3Xs%3D",
+      "description": "Upgrading and Monitoring the Apigee Hybrid API PlatformEarned Dec 29, 2025 EST"
+    },
+    {
+      "title": "Build a Certification Study Guide: ACE Exam PrepEarned Dec 29, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/h%2BPMYMQF6Z39Z9u74W0NPiTRq%2Bh43WZbJl98%2Br1S3Ek%3D",
+      "description": "Build a Certification Study Guide: ACE Exam PrepEarned Dec 29, 2025 EST"
+    },
+    {
+      "title": "Developing a Google SRE CultureEarned Dec 29, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/0VkisKkC7b9rlHYO0JkLd3fqVWdgaq%2BLDMn0IsVllxo%3D",
+      "description": "Developing a Google SRE CultureEarned Dec 29, 2025 EST"
+    },
+    {
+      "title": "Managing Change when Moving to Google CloudEarned Dec 28, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/D1S2NhkrHe51ZFNHTpC5vebrzuq0RKjjtjnZvapYqNk%3D",
+      "description": "Managing Change when Moving to Google CloudEarned Dec 28, 2025 EST"
+    },
+    {
+      "title": "Deploying SAP on Google CloudEarned Dec 28, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/0xFlNTExj5NZiHciw6SYD2qaCpY4Xp7FWGLXeQHtKtY%3D",
+      "description": "Deploying SAP on Google CloudEarned Dec 28, 2025 EST"
+    },
+    {
+      "title": "The Modern Data Platform and LookMLEarned Dec 27, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/Qg7C09oqmPdzlkyLhuXfZi%2FwnMpcXNhOp7ePpLADkzw%3D",
+      "description": "The Modern Data Platform and LookMLEarned Dec 27, 2025 EST"
+    },
+    {
+      "title": "Introduction to Cloud IdentityEarned Dec 27, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/qahOBm2tlWmQsp83hDK1jRlZk8PqltRFx9dM5D2aGiY%3D",
+      "description": "Introduction to Cloud IdentityEarned Dec 27, 2025 EST"
+    },
+    {
+      "title": "AppSheet AdministrationEarned Dec 26, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/BPGDCZcUNcYPOtWUc8mYDUbfyCsg%2B57Ycp8bLidZAfE%3D",
+      "description": "AppSheet AdministrationEarned Dec 26, 2025 EST"
+    },
+    {
+      "title": "[DEPRECATED] SOAR FundamentalsEarned Dec 26, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/qO%2BEopyzCiiUiBddYTEaOzJWazBxTE0xOkMzMzcjpwE%3D",
+      "description": "[DEPRECATED] SOAR FundamentalsEarned Dec 26, 2025 EST"
+    },
+    {
+      "title": "Introduction to Security in the World of AIEarned Dec 25, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/aEtKcbo%2BCwuAME0uBnEqZ35kHWiosmU4pfld0VW93g4%3D",
+      "description": "Introduction to Security in the World of AIEarned Dec 25, 2025 EST"
+    },
+    {
+      "title": "Generative AI for HealthcareEarned Dec 25, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/mmfor4woxSsR5y%2FrPooyq9YOqKKkE%2BUaYbZZ9my3NW4%3D",
+      "description": "Generative AI for HealthcareEarned Dec 25, 2025 EST"
+    },
+    {
+      "title": "MySQL to Cloud SpannerEarned Dec 25, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/pouHVCRzWq%2FFO8q91HbiYHsYH1mUwHBxgDufvqNOg0w%3D",
+      "description": "MySQL to Cloud SpannerEarned Dec 25, 2025 EST"
+    },
+    {
+      "title": "Design Foundations for Streaming with Google CloudEarned Dec 25, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/32LCUgCP%2B2tCT1Ao3JesxxEL%2FHntu0TFgyN6xitGddI%3D",
+      "description": "Design Foundations for Streaming with Google CloudEarned Dec 25, 2025 EST"
+    },
+    {
+      "title": "Planetary Scale Earth Observation with Google Earth EngineEarned Dec 24, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/7AfSgM7ZsmwLd3dFkVRE0blv3sbN03L6Pj%2FBXfvRPKY%3D",
+      "description": "Planetary Scale Earth Observation with Google Earth EngineEarned Dec 24, 2025 EST"
+    },
+    {
+      "title": "Enterprise Search on Generative AI App BuilderEarned Dec 24, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/zJrfESEnZbL%2BxuD4DabYvpheVUrJByD0Hz%2BvTi3w8kA%3D",
+      "description": "Enterprise Search on Generative AI App BuilderEarned Dec 24, 2025 EST"
+    },
+    {
+      "title": "Security Command Center FundamentalsEarned Dec 24, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/TYcRMDXNCji%2FUHMmCydjEu15COSwFY9fSQW72Rb61Hw%3D",
+      "description": "Security Command Center FundamentalsEarned Dec 24, 2025 EST"
+    },
+    {
+      "title": "Google DeepMind: 04 Discover The Transformer ArchitectureEarned Dec 23, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/34h2yX22%2FTdOiKGd%2BJpYh9qm5Hi4bsyrnfgLzq27hP8%3D",
+      "description": "Google DeepMind: 04 Discover The Transformer ArchitectureEarned Dec 23, 2025 EST"
+    },
+    {
+      "title": "Google DeepMind: 03 Design And Train Neural NetworksEarned Dec 23, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/d4Aup3HV%2FF1i%2BG2tSUptCU6EnXPAk8gADyiMiUVUv%2Fc%3D",
+      "description": "Google DeepMind: 03 Design And Train Neural NetworksEarned Dec 23, 2025 EST"
+    },
+    {
+      "title": "Google DeepMind: 02 Represent Your Language DataEarned Dec 23, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/St7gOw%2BufGtjdocI0KIZ9gPuQ18%2BjFUXxuKFZUJVwYw%3D",
+      "description": "Google DeepMind: 02 Represent Your Language DataEarned Dec 23, 2025 EST"
+    },
+    {
+      "title": "Google DeepMind: 01 Build Your Own Small Language ModelEarned Dec 23, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/7BVm0KpcAQysTGGQgGa84RLalTuvBKshbtw%2FYjbnc%2BA%3D",
+      "description": "Google DeepMind: 01 Build Your Own Small Language ModelEarned Dec 23, 2025 EST"
+    },
+    {
+      "title": "AppSheet Team HierarchyEarned Dec 23, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/8oNCbsb6cO4TNe4Rr9VyxG%2BVmFTMw9HrSqdS%2FYD37nU%3D",
+      "description": "AppSheet Team HierarchyEarned Dec 23, 2025 EST"
+    },
+    {
+      "title": "Encoder-Decoder ArchitectureEarned Dec 22, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/Prr3MGVsNdS%2BBG3njgnVm%2FEHB9bHbOVFgGOc8GNEDXY%3D",
+      "description": "Encoder-Decoder ArchitectureEarned Dec 22, 2025 EST"
+    },
+    {
+      "title": "Create Image Captioning ModelsEarned Dec 22, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/Ui1kcXdT1Khcxvj%2F4vvCjR25XInQKfb9B2VdC9ghkCc%3D",
+      "description": "Create Image Captioning ModelsEarned Dec 22, 2025 EST"
+    },
+    {
+      "title": "Transformer Models and BERT ModelEarned Dec 22, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/aqCwzAlqlI9eEIw7aveXblG5VDKQj270l6RSLwNmwUo%3D",
+      "description": "Transformer Models and BERT ModelEarned Dec 22, 2025 EST"
+    },
+    {
+      "title": "Attention MechanismEarned Dec 22, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/CyCbNDlPSGkFwzzVYMf9HiPW8XY5cJfLT3jGMVcw7%2Bo%3D",
+      "description": "Attention MechanismEarned Dec 22, 2025 EST"
+    },
+    {
+      "title": "Introduction to Image GenerationEarned Dec 22, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/j5ngMFMxi3u%2B1au5KWPEefoZlYRw5zGb5ykLd%2BilYk4%3D",
+      "description": "Introduction to Image GenerationEarned Dec 22, 2025 EST"
+    },
+    {
+      "title": "Supervised Fine-tuning for GeminiEarned Dec 21, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/BSVLt9uJ%2F2rjY3FgUeCcRCu38k1q1uyCrUQ4F1yW5H0%3D",
+      "description": "Supervised Fine-tuning for GeminiEarned Dec 21, 2025 EST"
+    },
+    {
+      "title": "Implementing Cloud Load Balancing for Compute EngineEarned Dec 20, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/65Pd0zpjzRHMv49XZZhvHJkbQK2xACKFY1ldTPWsJL8%3D",
+      "description": "Implementing Cloud Load Balancing for Compute EngineEarned Dec 20, 2025 EST"
+    },
+    {
+      "title": "Google Security Operations - Deep DiveEarned Dec 19, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/hxPJrJVfw5sEHrmke%2FahnThvuvXzl5gmx%2F94wS2E0zA%3D",
+      "description": "Google Security Operations - Deep DiveEarned Dec 19, 2025 EST"
+    },
+    {
+      "title": "Google Security Operations - FundamentalsEarned Dec 19, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/Vn8obezRkW7XylEKUmTypU6J9gi4LzDThv7MxBbvJWY%3D",
+      "description": "Google Security Operations - FundamentalsEarned Dec 19, 2025 EST"
+    },
+    {
+      "title": "AI Infrastructure: Networking TechniquesEarned Dec 18, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/90r8KCxK4oL8K6%2FwcPR%2BoqRrMf0ecnSJIMWtpKcp0uU%3D",
+      "description": "AI Infrastructure: Networking TechniquesEarned Dec 18, 2025 EST"
+    },
+    {
+      "title": "AI Infrastructure: Storage OptionsEarned Dec 18, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/fbpZhP%2Bvb%2BnM5Z8T%2BvBqAWAmd7%2FxvjkYc%2BAwx5SvlHg%3D",
+      "description": "AI Infrastructure: Storage OptionsEarned Dec 18, 2025 EST"
+    },
+    {
+      "title": "AI Infrastructure: Deployment TypesEarned Dec 18, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/GNTCHYxUsqpfgD3B9d1tjnI6giwuhhQz9dAF48tXzqg%3D",
+      "description": "AI Infrastructure: Deployment TypesEarned Dec 18, 2025 EST"
+    },
+    {
+      "title": "Put It All Together: Prepare for a Cloud Security Analyst JobEarned Dec 17, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/B00HORYAtkkP3DqBBvc2aR%2B4Hq7ITWKGFBTfZf4oIVM%3D",
+      "description": "Put It All Together: Prepare for a Cloud Security Analyst JobEarned Dec 17, 2025 EST"
+    },
+    {
+      "title": "Detect, Respond, and Recover from Cloud Cybersecurity AttacksEarned Dec 16, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/WcP8QdTeSbPVYF6y4HbE90gMUMBvh%2B5VVyGdzJPJjRg%3D",
+      "description": "Detect, Respond, and Recover from Cloud Cybersecurity AttacksEarned Dec 16, 2025 EST"
+    },
+    {
+      "title": "[DEPRECATED] Webhook fundamentalsEarned Dec 12, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/QTEyAddm%2Fr0vcnSB2cFRFKJamQVxAis2l1NCDBxCnm8%3D",
+      "description": "[DEPRECATED] Webhook fundamentalsEarned Dec 12, 2025 EST"
+    },
+    {
+      "title": "Conversation Design FundamentalsEarned Dec 11, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/Svzo6RgH6Y46lAzDPma0th1gZjyIYyKUqxzIW20srYY%3D",
+      "description": "Conversation Design FundamentalsEarned Dec 11, 2025 EST"
+    },
+    {
+      "title": "[DEPRECATED] Agent Summarization (Custom)Earned Dec  9, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/RxGkM6XYMESjXTQP1gK%2BjsTP9egf0TmIL%2FtXgwDPRH4%3D",
+      "description": "[DEPRECATED] Agent Summarization (Custom)Earned Dec  9, 2025 EST"
+    },
+    {
+      "title": "Conversational AI and its Engagement FrameworkEarned Dec  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/Pzs43y%2FAmDdLtokHDLdkDQf5IPIgwaKYFfXloplSfFE%3D",
+      "description": "Conversational AI and its Engagement FrameworkEarned Dec  7, 2025 EST"
+    },
+    {
+      "title": "Conversational InsightsEarned Dec  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/7pl5aZZGVoMw18nFzGfs3JXuouVWIX0fwzpdn9ytm%2Fg%3D",
+      "description": "Conversational InsightsEarned Dec  7, 2025 EST"
+    },
+    {
+      "title": "How to Use TPUs for InferenceEarned Dec  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/JgPRhq41EzENxiYuPxIxIjltIQ5N%2B12dUJ2WhSSJBHk%3D",
+      "description": "How to Use TPUs for InferenceEarned Dec  7, 2025 EST"
+    },
+    {
+      "title": "Architecting an AI Inference StackEarned Dec  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/ycNP3ECYwlCmnK%2BsmzhkgFqNonyaBZd9Hnmm6iLfB7Q%3D",
+      "description": "Architecting an AI Inference StackEarned Dec  7, 2025 EST"
+    },
+    {
+      "title": "Google Workspace TroubleshootingEarned Dec  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/q6jcObo2nq%2BECEMNhwWFG6nUmzpvIToyj%2ByHtteWBgk%3D",
+      "description": "Google Workspace TroubleshootingEarned Dec  6, 2025 EST"
+    },
+    {
+      "title": "Google Workspace SecurityEarned Dec  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/32Xdki1cjBc6MogWGFwB4oajJloymxU6wAG2itdk%2F8g%3D",
+      "description": "Google Workspace SecurityEarned Dec  6, 2025 EST"
+    },
+    {
+      "title": "Google Workspace Data GovernanceEarned Dec  5, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/6CntZYzUygwf4sDyStbUyctVxQsZlJn74gdNWVEO1Zg%3D",
+      "description": "Google Workspace Data GovernanceEarned Dec  5, 2025 EST"
+    },
+    {
+      "title": "Google Workspace Core ServicesEarned Dec  5, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/r23nuKeuYdWtKiPHt7JIHTMbdM0mjJAQw%2BCzRmHT%2Bxg%3D",
+      "description": "Google Workspace Core ServicesEarned Dec  5, 2025 EST"
+    },
+    {
+      "title": "Google Workspace User and Resource ManagementEarned Dec  4, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/0i6utW3BHaH3%2Bpf5bJCyVH995qWC1%2FkBnKm64cZfoi0%3D",
+      "description": "Google Workspace User and Resource ManagementEarned Dec  4, 2025 EST"
+    },
+    {
+      "title": "Cloud Security Risks: Identify and Protect Against ThreatsEarned Dec  3, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/iIgbpBIC3Kd9mIykr2o%2B%2BJphczGgjYD%2Bp56u18xDbjE%3D",
+      "description": "Cloud Security Risks: Identify and Protect Against ThreatsEarned Dec  3, 2025 EST"
+    },
+    {
+      "title": "Strategies for Cloud Security Risk ManagementEarned Nov 28, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/jlTuGx0ZJYoiNYYoLXAjnlTze8sOQ53KvFGPrnEG60w%3D",
+      "description": "Strategies for Cloud Security Risk ManagementEarned Nov 28, 2025 EST"
+    },
+    {
+      "title": "Introduction to Security Principles in Cloud ComputingEarned Nov 26, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/PEHXMQoLo3Dyjo6V2nBAqvvHU%2FqZwAy00UtNyjg4f5c%3D",
+      "description": "Introduction to Security Principles in Cloud ComputingEarned Nov 26, 2025 EST"
+    },
+    {
+      "title": "Create Engaging Video with Google VidsEarned Nov 24, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/3PlA7v%2BrL%2BgGy8VVcQSSdl1xBrcl6UAv2%2F5mb9DBvo0%3D",
+      "description": "Create Engaging Video with Google VidsEarned Nov 24, 2025 EST"
+    },
+    {
+      "title": "Gemini in Google DriveEarned Nov 24, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/guXFK0%2FAKg2alSu4KZVAV1V7ISwSAS4OtuDnqwxZvjg%3D",
+      "description": "Gemini in Google DriveEarned Nov 24, 2025 EST"
+    },
+    {
+      "title": "Gemini in Google MeetEarned Nov 24, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/lzwhT%2FKibTcOaxpMuVEzveqtVDqXiHijRQdOweJji3c%3D",
+      "description": "Gemini in Google MeetEarned Nov 24, 2025 EST"
+    },
+    {
+      "title": "Gemini in Google SheetsEarned Nov 24, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/109ug6%2BPFupjW0rGPUnBeQdN1MaOxCPE1LD1qOixH8s%3D",
+      "description": "Gemini in Google SheetsEarned Nov 24, 2025 EST"
+    },
+    {
+      "title": "Gemini in Google SlidesEarned Nov 24, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/60tVkxt9czU0eYXv%2FmOvHnGjuu%2BARV8kT9%2BeR3C7bUg%3D",
+      "description": "Gemini in Google SlidesEarned Nov 24, 2025 EST"
+    },
+    {
+      "title": "Gemini in Google DocsEarned Nov 24, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/wtjw5NEucZzwoGCQ%2FyutJO%2BWt2lXiP6NwA%2BUwlqjsVo%3D",
+      "description": "Gemini in Google DocsEarned Nov 24, 2025 EST"
+    },
+    {
+      "title": "Gemini in GmailEarned Nov 24, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/YAZeXuEAcCQLNV8NL8GXb4pljrdZDRkKOs2d7IHIIaQ%3D",
+      "description": "Gemini in GmailEarned Nov 24, 2025 EST"
+    },
+    {
+      "title": "Google Workspace with Gemini: Foundations of Your AI WorkflowEarned Nov 24, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/R2LoC7jlj1X8R7CjUe95UFHX0gyqu3Ay%2FM3wLg6aR%2B8%3D",
+      "description": "Google Workspace with Gemini: Foundations of Your AI WorkflowEarned Nov 24, 2025 EST"
+    },
+    {
+      "title": "AI Infrastructure: Cloud TPUsEarned Nov 23, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/nxqh8Fvkt4ZwKgk3uwAdG19QIW%2BvqP1Z%2FbEkl24Dz9g%3D",
+      "description": "AI Infrastructure: Cloud TPUsEarned Nov 23, 2025 EST"
+    },
+    {
+      "title": "AI Infrastructure: Cloud GPUsEarned Nov 23, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/nFCv4DxNi%2Bo6MQdfUuBN%2B8JbuVNrpGw5LTcNjG1c2zQ%3D",
+      "description": "AI Infrastructure: Cloud GPUsEarned Nov 23, 2025 EST"
+    },
+    {
+      "title": "AI Infrastructure: Introduction to AI HypercomputerEarned Nov 23, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/I%2B5ooleY1pm1BtqhLvH4kvDTQvhO%2BqOhyLqbPnZv5GA%3D",
+      "description": "AI Infrastructure: Introduction to AI HypercomputerEarned Nov 23, 2025 EST"
+    },
+    {
+      "title": "Use Functions, Formulas, and Charts in Google SheetsEarned Nov 23, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/0G14HiieShpIQWSv%2Fmz%2FHONOtEtCljUWKGMYyfEnsC4%3D",
+      "description": "Use Functions, Formulas, and Charts in Google SheetsEarned Nov 23, 2025 EST"
+    },
+    {
+      "title": "Implement Cloud Collaboration and Productivity WorkflowsEarned Nov 19, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/N55TLuzmt8vKvKQ9B1z%2BbQzBlgcJgIgxw93zK%2BuKz8c%3D",
+      "description": "Implement Cloud Collaboration and Productivity WorkflowsEarned Nov 19, 2025 EST"
+    },
+    {
+      "title": "Google Sheets - Advanced TopicsEarned Nov 15, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/Q0ego2DgZF7LEZ4AIOutnbq3RK18QrgKcLkVe4WOYqE%3D",
+      "description": "Google Sheets - Advanced TopicsEarned Nov 15, 2025 EST"
+    },
+    {
+      "title": "Google ChatEarned Nov 14, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/%2Bd0%2B9R99Bb8QtUICdLWqLeNUPO4DOvbCJ%2F8kMMhNIDY%3D",
+      "description": "Google ChatEarned Nov 14, 2025 EST"
+    },
+    {
+      "title": "Google MeetEarned Nov 14, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/mtBbtjN1PAIhVkKSWevKmn8ow6UAeCjHNXk9Q9sii18%3D",
+      "description": "Google MeetEarned Nov 14, 2025 EST"
+    },
+    {
+      "title": "Google SlidesEarned Nov 13, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/INOFCPA9YY6aOZ0m61AIWCUbue8nBT3DFHvXOk6rKWo%3D",
+      "description": "Google SlidesEarned Nov 13, 2025 EST"
+    },
+    {
+      "title": "Google SheetsEarned Nov 13, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/lfBCNiYyEEZZ5zPc8yYZZx3wKVq51Ob7yuC%2BJXBHUMM%3D",
+      "description": "Google SheetsEarned Nov 13, 2025 EST"
+    },
+    {
+      "title": "Google DocsEarned Nov 12, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/MIbyCercVU9uAhKOg467ve1hhz4OMuPpquoDHRIMVw0%3D",
+      "description": "Google DocsEarned Nov 12, 2025 EST"
+    },
+    {
+      "title": "Google DriveEarned Nov 12, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/A2lV6FqS%2BrG2dMpiHE%2B%2Bb9%2Bm6npJCtm97NmUf7Kne60%3D",
+      "description": "Google DriveEarned Nov 12, 2025 EST"
+    },
+    {
+      "title": "Google CalendarEarned Nov 11, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/KBUmdKmUZnXzSp4VES%2BJZflloMVPmqgPgFCQ%2B039xfI%3D",
+      "description": "Google CalendarEarned Nov 11, 2025 EST"
+    },
+    {
+      "title": "GmailEarned Nov 11, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/xh6Z%2BpqdPIAWcit4U%2BCtkxWEMCBKrqjXgbubYhNjaFQ%3D",
+      "description": "GmailEarned Nov 11, 2025 EST"
+    },
+    {
+      "title": "Gen AI Agents: Transform Your OrganizationEarned Nov 10, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/EFGPECr6937xLaP3rj21MfvRCQQ8o%2FbLcZgk%2B2Mbi7c%3D",
+      "description": "Gen AI Agents: Transform Your OrganizationEarned Nov 10, 2025 EST"
+    },
+    {
+      "title": "Gen AI Apps: Transform Your WorkEarned Nov  9, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/oE8fPBN%2BQBA4e7gDPs2XUdivPfPLSrIehSbHGLIaMaI%3D",
+      "description": "Gen AI Apps: Transform Your WorkEarned Nov  9, 2025 EST"
+    },
+    {
+      "title": "Gen AI: Navigate the LandscapeEarned Nov  9, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/rkkCi6FqHjJxw7TtieuLca7uuAtG%2BejNDqMcytLoWmY%3D",
+      "description": "Gen AI: Navigate the LandscapeEarned Nov  9, 2025 EST"
+    },
+    {
+      "title": "Gen AI: Unlock Foundational ConceptsEarned Nov  9, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/t9pJPUWqd3%2FEqnaTfSnyxULZi2vr8crknhXKhAZklZQ%3D",
+      "description": "Gen AI: Unlock Foundational ConceptsEarned Nov  9, 2025 EST"
+    },
+    {
+      "title": "Gen AI: Beyond the ChatbotEarned Nov  8, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/XxhohP6MA4%2BWXyzxeXNIWnxxdFF1JsXp73TfSHq7h8w%3D",
+      "description": "Gen AI: Beyond the ChatbotEarned Nov  8, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Advanced Analysis in SheetsEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/Mvm3fVq9wNPbD18KSavBge%2F7BAEqCA0PBnNJKBLGDo0%3D",
+      "description": "AI Boost Bites: Advanced Analysis in SheetsEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Notes to Sheets with GeminiEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/UtTzuA%2BEMiCpGbOQ0o%2FVwGHFXOaerR0I7Nyfliq69Ng%3D",
+      "description": "AI Boost Bites: Notes to Sheets with GeminiEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Gemini Calendar Hacks in GmailEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/P7x51m2%2Bq9cdRKiIKnVv2Ex4r151hLx19i2zVnWnXHE%3D",
+      "description": "AI Boost Bites: Gemini Calendar Hacks in GmailEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Build Slides Fast with GeminiEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/e53D4jXyRkho1Q5y1JpWoBxDOG%2FNIMTcCfohXjiuoU8%3D",
+      "description": "AI Boost Bites: Build Slides Fast with GeminiEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Talk to Your Data in SheetsEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/juHa9Iyaq93il3e1lXd2pENUD7j%2FS1%2FpU93hbQHIQXA%3D",
+      "description": "AI Boost Bites: Talk to Your Data in SheetsEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: AI Magic in a Sheets CellEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/fCar2tT5H%2BCfIGmFUC3yS0Wqn4lOoYg80qxswWQTMiE%3D",
+      "description": "AI Boost Bites: AI Magic in a Sheets CellEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Create ‘What If’ Scenarios with AIEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/oI44gvkzJsRAoRwr27uik6R7TlbK6IIqU17oygPKe0Q%3D",
+      "description": "AI Boost Bites: Create ‘What If’ Scenarios with AIEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Become a Creative Mashup ArtistEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/Q4NU16PHnMZT1gv%2FNLktZwthKnGF%2FOncadx6prRNXDA%3D",
+      "description": "AI Boost Bites: Become a Creative Mashup ArtistEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Become an AI Art Director for Your WorldEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/v5NyWNFdNLvbQB382WkEOn%2FXEEknN2AjdkcqY21%2BX2U%3D",
+      "description": "AI Boost Bites: Become an AI Art Director for Your WorldEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Create the Perfect PortraitEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/nMy4XWOu3iDhorzpljJcNH9g1iMH6atVI7Im%2BX6RmBo%3D",
+      "description": "AI Boost Bites: Create the Perfect PortraitEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Research Hacks with NotebookLMEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/QnMrsZVGxlKRTBXYgibnFidS4Bm3XUG4uRc0%2FcFyhcU%3D",
+      "description": "AI Boost Bites: Research Hacks with NotebookLMEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Find the Story in Your DataEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/0ENaohMg5NF58FLM1EKmbcBCWe8utR6JvFweczvikF8%3D",
+      "description": "AI Boost Bites: Find the Story in Your DataEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Streamline Event Planning with AIEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/29cYZ0Z0zjFQUFZPBdLzxtSNxCMg7E0DwiSm%2FasjR9k%3D",
+      "description": "AI Boost Bites: Streamline Event Planning with AIEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Supercharge Research with GeminiEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/QCD6qqT%2B%2FQ30G4CsV2u8BDzGZLmj5JJdziaeugF09%2BQ%3D",
+      "description": "AI Boost Bites: Supercharge Research with GeminiEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Make Any Big Purchase with ConfidenceEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/rO9aGKQKCBKB2sGCJIPQcCRVun1RNbtRyswLhNdUViU%3D",
+      "description": "AI Boost Bites: Make Any Big Purchase with ConfidenceEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Animated Charts with GeminiEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/B9NwADnwxT%2F2Ox06LkGwllQXK5n8sYxYco6AitOsa5E%3D",
+      "description": "AI Boost Bites: Animated Charts with GeminiEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Turn Your Ideas into Animated ArtEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/nELM7maJy2gnbDkZPpiBtiCulbT6ZSZSk%2FQJQb90izA%3D",
+      "description": "AI Boost Bites: Turn Your Ideas into Animated ArtEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Your Personal AI TutorEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/AuLQ1FEl093O58CyWdGPf4%2BG8NvRdJXJLe5YDi1Vsh8%3D",
+      "description": "AI Boost Bites: Your Personal AI TutorEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Gamify Your Study GuidesEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/%2FCX5yCny46yTm0P8pFP9wRPZJldf2RyUsNKz%2FSS6WN4%3D",
+      "description": "AI Boost Bites: Gamify Your Study GuidesEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Get Your Competitor's Playbook in MinutesEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/jN83C3C564BTnoEFB3c4hHVbIAerjkOMR9GLmHT7UgQ%3D",
+      "description": "AI Boost Bites: Get Your Competitor's Playbook in MinutesEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Build a Personalized Weather AppEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/cwN3xKY3gOBgOhN3GYYA02OLiO6Eyq3oDg0Prc0EfFs%3D",
+      "description": "AI Boost Bites: Build a Personalized Weather AppEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Create a 3D Solar SystemEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/PuTER%2B9UCnPwdtE9FYd57am08S9C6T85bOVS%2FqvwZRk%3D",
+      "description": "AI Boost Bites: Create a 3D Solar SystemEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Create Your Own Productivity ToolsEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/oAk8KVgG3dPCgOZfTCQ2VF7QaZ%2FHpVNaQjfftp%2BX%2By4%3D",
+      "description": "AI Boost Bites: Create Your Own Productivity ToolsEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Guided Learning with GeminiEarned Nov  7, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/WzJVR4Ra3vwRUl%2FgSsEfAg8wKePaHTD5IUu%2BT%2BGfRBg%3D",
+      "description": "AI Boost Bites: Guided Learning with GeminiEarned Nov  7, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Create Your Own Retro Arcade GameEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/77xMsnOKfqYkDQRaajEihlf7nmmugzv5ORrNtUWx68I%3D",
+      "description": "AI Boost Bites: Create Your Own Retro Arcade GameEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Become a \"Vibe DJ\"Earned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/E9jbszfpImxp0pgFZnfCFD45RCAiei7g%2FpdarSyD4F0%3D",
+      "description": "AI Boost Bites: Become a \"Vibe DJ\"Earned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Create Your Ultimate College Scouting ReportEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/cC%2BYltmo4EBJeUY5zqr0mRAE6AswaIVTxdwKYn2wReo%3D",
+      "description": "AI Boost Bites: Create Your Ultimate College Scouting ReportEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: One-Click Campaign VisualsEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/fPyfuy6wXS5bWAWyWch%2FgiiCHYrROhgBkfP1O8JrIgc%3D",
+      "description": "AI Boost Bites: One-Click Campaign VisualsEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: From Napkin Sketch to Functional AppEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/0xPYJPaO%2FGUkm%2FIBpBqlLIGcY%2BmdL7RyMhz1uXvWlso%3D",
+      "description": "AI Boost Bites: From Napkin Sketch to Functional AppEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: NotebookLM ReportsEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/wMG4qZeYKWVp3NFJl4wb%2BVPyhXDasUuEzIskfv2LgYE%3D",
+      "description": "AI Boost Bites: NotebookLM ReportsEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Your Personal Feedback AgentEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/IIEOvvtuXEXTRoUW4wuNrYMIQuzLnBWRuUYwzgdhtjI%3D",
+      "description": "AI Boost Bites: Your Personal Feedback AgentEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Presentation Scripts with GeminiEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/Kx%2B%2BpkDKzg9megCwXOn5MfkKj9MNDcouWnVoQwCX%2FdM%3D",
+      "description": "AI Boost Bites: Presentation Scripts with GeminiEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Project NotebooksEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/Xn4Orf6MbJr9eljlnLQEzLq8gGtvfvyYRQgtwv7%2F%2Fkk%3D",
+      "description": "AI Boost Bites: Project NotebooksEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: NotebookLM for Market ResearchEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/nQ4b0CiXm7m2XUvzzaWKmx7659vihFPyTKWZAq44ubE%3D",
+      "description": "AI Boost Bites: NotebookLM for Market ResearchEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: NotebookLM Video OverviewsEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/OgEKKA6lK1kMMYWRVX0WJAMuteS44UB8IRD4SuamxJU%3D",
+      "description": "AI Boost Bites: NotebookLM Video OverviewsEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Discover Sources in NotebookLMEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/lmE%2BtIwpWmqaKkFhz%2BmG1p2rcP8he2lN8lHU%2BmxGZ4M%3D",
+      "description": "AI Boost Bites: Discover Sources in NotebookLMEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: NotebookLM Mind MapsEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/lY3dvoYQhE%2BDRnTHhHq0byo1Mv3NSNwSwcDyRC4zUUQ%3D",
+      "description": "AI Boost Bites: NotebookLM Mind MapsEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Intro to NotebookLMEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/LfphJE4ffS8gMf1%2Favz7ZvrsZPwFZ1CjxSQEQ4LZR84%3D",
+      "description": "AI Boost Bites: Intro to NotebookLMEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Email Content CreationEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/hebgtvz8tlnaoha5CYFrSG1D08LS5WX1LAucQRHkdjQ%3D",
+      "description": "AI Boost Bites: Email Content CreationEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Create Docs in SecondsEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/m3RGonNoaiqg65yFpO6v1xPR8ovDrrnZNqWI0i1s9YQ%3D",
+      "description": "AI Boost Bites: Create Docs in SecondsEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: AI Power-Ups for Google WorkspaceEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/ydX8SIVF3NS1pN246f9PtJjGf5EmnyrlnQMNYJ9X0zQ%3D",
+      "description": "AI Boost Bites: AI Power-Ups for Google WorkspaceEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Tame Your Inbox with AIEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/GovfqO0LLP29A0CGYWOopTjGbUmv2j3rv8dIqALv2J4%3D",
+      "description": "AI Boost Bites: Tame Your Inbox with AIEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Gemini Slide SummariesEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/tZobx%2FFQAl1nfDYMRhUg95mlYBI51n1Gfghld39%2FAp0%3D",
+      "description": "AI Boost Bites: Gemini Slide SummariesEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: No-Code Sheets & ScriptsEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/1g0gpiB8XR0%2Ft0yObuq99ZvwqDzBTbpEEZtV0MRDzWw%3D",
+      "description": "AI Boost Bites: No-Code Sheets & ScriptsEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Amplify Exec Voices with AIEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/b5V%2FIhsctZ78FMGa3uYoqf8vjr63N9wzGzPoFwui25k%3D",
+      "description": "AI Boost Bites: Amplify Exec Voices with AIEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Exec Summaries with Gemini GemsEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/3bxJs0CERuRoHFv4lUX7J5aPRv%2F58RluvEDcQDZHCWA%3D",
+      "description": "AI Boost Bites: Exec Summaries with Gemini GemsEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Automate tasks with Gemini and Apps ScriptEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/ifSp1k5lkn1JqxI7fz1oGAxqrfoHzEKdGOmOLII%2FNd0%3D",
+      "description": "AI Boost Bites: Automate tasks with Gemini and Apps ScriptEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: \"Eat the Frog\" with NotebookLMEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/zu4IlrPPX7ty%2B11bWNvvFGqAOiXbOmRbJsnREnkJhyg%3D",
+      "description": "AI Boost Bites: \"Eat the Frog\" with NotebookLMEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Gemini Image-to-Sheets HackEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/%2BrIpa83CQUzIpdsu0Dc5zXJiXx%2F%2BTKSi35dsTzzE2T4%3D",
+      "description": "AI Boost Bites: Gemini Image-to-Sheets HackEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Poke Holes in Your StrategyEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/MR2VThssybuWq3Epa%2F0ZuVnpclfk4onY3igsHP28Azw%3D",
+      "description": "AI Boost Bites: Poke Holes in Your StrategyEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: NotebookLM for Competitive EdgeEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/lQEE5iqPEa%2BAIhmJmB769uyFwmwIoLvz0Bln5Fk5zvI%3D",
+      "description": "AI Boost Bites: NotebookLM for Competitive EdgeEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Personalization with customized promptsEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/ZwYG3SlROXHvUoDMKccD%2BlEMrAQJtDMpjUPoGa%2BjMI4%3D",
+      "description": "AI Boost Bites: Personalization with customized promptsEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: TL;DR with Gemini in Docs & DriveEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/5S5xEoPuikFEU0g0TBxTIrNB%2BM9olkl2ulABU4FVuHI%3D",
+      "description": "AI Boost Bites: TL;DR with Gemini in Docs & DriveEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Prompting like a Pro with Google WorkspaceEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/hsgoaIaNDljV9yZPQ6UPN67yG0FAtTJ4V7uERoiZDUY%3D",
+      "description": "AI Boost Bites: Prompting like a Pro with Google WorkspaceEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Content Generation with Gemini Made EasyEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/9UrQECS5xwTQbTYNrh3RfL88dWAH0t33na6sbZj09eM%3D",
+      "description": "AI Boost Bites: Content Generation with Gemini Made EasyEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Customer insights with NotebookLMEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/jTe812NsVw%2Bb5UyKo0JrVrNf%2FLNy0cLrnNZbz4ymjzg%3D",
+      "description": "AI Boost Bites: Customer insights with NotebookLMEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "AI Boost Bites: Gemini Gems – Your ultimate marketing sidekickEarned Nov  6, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/WPXAhcv9U7hTrwB7bp86uMEyMViSQ0anOtY7xszxDkU%3D",
+      "description": "AI Boost Bites: Gemini Gems – Your ultimate marketing sidekickEarned Nov  6, 2025 EST"
+    },
+    {
+      "title": "Responsible AI: Applying AI Principles with Google CloudEarned Nov  5, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/IgXVSozEvIRc2M2FF%2B8ZSP29nFoAewHzQvabBFEPHTM%3D",
+      "description": "Responsible AI: Applying AI Principles with Google CloudEarned Nov  5, 2025 EST"
+    },
+    {
+      "title": "Prompt Design in Agent PlatformEarned Nov  4, 2025 EST",
+      "image_url": "https://cdn.qwiklabs.com/K016syGJEESRFO3png1glwKitOKTR%2B18CzOm5tn3oLI%3D",
+      "description": "Prompt Design in Agent PlatformEarned Nov  4, 2025 EST"
+    },
+    {
+      "title": "Introduction to Responsible AIEarned Oct 31, 2025 EDT",
+      "image_url": "https://cdn.qwiklabs.com/RV0XLMKJOc1vq9CQ6rcMquorhDw4XasPcP2QRT3iuVA%3D",
+      "description": "Introduction to Responsible AIEarned Oct 31, 2025 EDT"
+    },
+    {
+      "title": "Introduction to Large Language ModelsEarned Oct 30, 2025 EDT",
+      "image_url": "https://cdn.qwiklabs.com/T7axgDk%2BIsxSCt0WQg0Dfx8E0%2FoSv0E7UE2QF1C7eHU%3D",
+      "description": "Introduction to Large Language ModelsEarned Oct 30, 2025 EDT"
+    },
+    {
+      "title": "Introduction to Generative AIEarned Oct 30, 2025 EDT",
+      "image_url": "https://cdn.qwiklabs.com/1IjA1paFzxAwvhaEuCNYzcrZkNyM%2FRWnfSQue%2BwKv3M%3D",
+      "description": "Introduction to Generative AIEarned Oct 30, 2025 EDT"
+    },
+    {
+      "title": "Scaling with Google Cloud OperationsEarned Sep 17, 2025 EDT",
+      "image_url": "https://cdn.qwiklabs.com/W89TjRQ0%2BJ9BS4kVQc3tqjJJrG20hbP3qIh5y6qegOM%3D",
+      "description": "Scaling with Google Cloud OperationsEarned Sep 17, 2025 EDT"
+    },
+    {
+      "title": "Trust and Security with Google CloudEarned Sep 14, 2025 EDT",
+      "image_url": "https://cdn.qwiklabs.com/40DWgR6ckA%2FXi0LsQN8eB%2FkNoiWgT0TxC6GTa00d%2Bj0%3D",
+      "description": "Trust and Security with Google CloudEarned Sep 14, 2025 EDT"
+    },
+    {
+      "title": "Modernize Infrastructure and Applications with Google CloudEarned Sep 13, 2025 EDT",
+      "image_url": "https://cdn.qwiklabs.com/jlifW5L5RBFmN7cKHUHRt0RzZCNwc7r1C8m4kAM7qMU%3D",
+      "description": "Modernize Infrastructure and Applications with Google CloudEarned Sep 13, 2025 EDT"
+    },
+    {
+      "title": "Innovating with Google Cloud Artificial IntelligenceEarned Sep 12, 2025 EDT",
+      "image_url": "https://cdn.qwiklabs.com/SC6UVmdeE73p3qS2iV3AqxIM1%2FuQ7ZsoStMBrtfZ6to%3D",
+      "description": "Innovating with Google Cloud Artificial IntelligenceEarned Sep 12, 2025 EDT"
+    },
+    {
+      "title": "Exploring Data Transformation with Google CloudEarned Sep 11, 2025 EDT",
+      "image_url": "https://cdn.qwiklabs.com/cjGVnoF%2FOdfhTVoDqKjUZhwt7oXFDcBmdki6VS4jkUk%3D",
+      "description": "Exploring Data Transformation with Google CloudEarned Sep 11, 2025 EDT"
+    },
+    {
+      "title": "Digital Transformation with Google CloudEarned Sep  6, 2025 EDT",
+      "image_url": "https://cdn.qwiklabs.com/6xUK2PRpVXBXPfceAsFMtLwhoEfwpXtmN5ityJjCdjU%3D",
+      "description": "Digital Transformation with Google CloudEarned Sep  6, 2025 EDT"
     }
   ]
 }
