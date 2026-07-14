@@ -79,6 +79,12 @@ Showing the latest 50 of 4,675 total achievements. The complete list is fully ar
 - **Mount Azure NetApp Files volumes** (Modules | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/modules/mount-azure-netapp-files-volumes/))
 <!-- MS_LEARN_END -->
 
+## Google Skills Credentials
+
+<!-- GOOGLE_SKILLS_START -->
+<!-- GOOGLE_SKILLS_END -->
+
+
 *(This section will be automatically updated by our GitHub automation once we upload the JSON file)*
 
 
