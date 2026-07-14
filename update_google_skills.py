@@ -18,13 +18,12 @@ def parse_badge_text(raw_text):
     text = re.sub(r'\s+', ' ', raw_text).strip()
     
     # Look for the transition 'Earned <Month>'
-    # This regex splits before "Earned" if it's preceded by characters
     match = re.search(r"^(.*?)(Earned\s+[A-Za-z]{3}\s+\d{1,2},\s+\d{4}.*)$", text)
     
     if match:
         title = match.group(1).strip()
         date_earned = match.group(2).strip()
-        # Remove timezone abbreviation at the end (e.g. "EDT", "UTC") for a cleaner look
+        # Remove timezone abbreviation at the end (e.g. "EDT", "UTC")
         date_earned = re.sub(r'\s+[A-Z]{3,4}$', '', date_earned)
         return title, date_earned
     
@@ -79,8 +78,7 @@ def fetch_skills():
             seen.add(b["title"].lower())
             unique_badges.append(b)
 
-    # Sort badges so latest earned are on top (optional, but looks great!)
-    # We try to sort using the parsed date. Fallback to default order if it fails.
+    # Sort badges so latest earned are on top
     try:
         from datetime import datetime
         def get_sort_key(x):
@@ -122,62 +120,21 @@ def update_readme(badges):
             badge_md += f"| {img_tag} | **{b['title']}** | *{b['date_earned']}* |\n"
         badge_md += "\n"
 
-    # Robust tag matching (ignores line ending differences like \r\n vs \n)
+    # Robust tag matching
     start_tag = "<!-- GOOGLE_SKILLS_START -->"
     end_tag = "<!-- GOOGLE_SKILLS_END -->"
     
     if start_tag in readme_content and end_tag in readme_content:
-        # Split on the start tag
         parts_before = readme_content.split(start_tag)[0]
-        # Split the remaining part on the end tag
         parts_after = readme_content.split(end_tag)[1]
         
-        # Reconstruct the file
         new_readme = f"{parts_before}{start_tag}{badge_md}{end_tag}{parts_after}"
         
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(new_readme)
         print("Successfully updated README.md with the structured badge table!")
     else:
-        print("Could not find the exact HTML comments in README.md. Please make sure they are exactly:")
-        print("<!-- GOOGLE_SKILLS_START -->")
-        print("<!-- GOOGLE_SKILLS_END -->")
-
-if __name__ == "__main__":
-    fetch_skills()    update_readme(unique_badges)
-
-def update_readme(badges):
-    try:
-        with open("README.md", "r", encoding="utf-8") as f:
-            readme_content = f.read()
-    except FileNotFoundError:
-        print("README.md not found. Skipping README update.")
-        return
-
-    # Generate Markdown table
-    if not badges:
-        badge_md = "\n*No Google Skills badges detected dynamically yet (checking daily).*\n"
-    else:
-        badge_md = f"\n### Google Cloud Skills Boost ({len(badges)} Badges)\n\n"
-        badge_md += "| Badge | Title |\n|---|---|\n"
-        for b in badges:
-            # Render badge icon or fallback to medal emoji
-            img_tag = f"<img src='{b['image_url']}' width='45' />" if b['image_url'] else "🏅"
-            badge_md += f"| {img_tag} | **{b['title']}** |\n"
-        badge_md += "\n"
-
-    # Match the placeholder comments
-    pattern = r"<!-- GOOGLE_SKILLS_START -->.*?<!-- GOOGLE_SKILLS_END -->"
-    replacement = f"<!-- GOOGLE_SKILLS_START -->{badge_md}<!-- GOOGLE_SKILLS_END -->"
-    
-    new_readme, count = re.subn(pattern, replacement, readme_content, flags=re.DOTALL)
-    
-    if count > 0:
-        with open("README.md", "w", encoding="utf-8") as f:
-            f.write(new_readme)
-        print("Successfully updated README.md with new badge list!")
-    else:
-        print("Could not find <!-- GOOGLE_SKILLS_START --> and <!-- GOOGLE_SKILLS_END --> tags in README.md.")
+        print("Could not find the exact HTML comments in README.md.")
 
 if __name__ == "__main__":
     fetch_skills()
