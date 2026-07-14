@@ -25,16 +25,15 @@ jobs:
       run: python update_ms_learn.py
 
     - name: Commit and Push Changes
-      uses: actions/github-script@v7
-      with:
-        script: |
-          const exec = require('@actions/exec');
-          await exec.exec('git config --global user.name "github-actions[bot]"');
-          await exec.exec('git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"');
-          await exec.exec('git add README.md data/all_achievements.md');
-          try {
-            await exec.exec('git commit -m "docs(profile): sync latest AI-readable credentials and achievements archive"');
-            await exec.exec('git push');
-          } catch (error) {
-            console.log("No changes to commit.");
-          }
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add README.md data/all_achievements.md
+        
+        # Check if there are actual changes staged before committing
+        if ! git diff --cached --exit-code; then
+          git commit -m "docs(profile): sync latest AI-readable credentials and achievements archive"
+          git push
+        else
+          echo "No changes to commit. Everything is up to date."
+        fi
