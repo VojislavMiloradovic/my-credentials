@@ -2,130 +2,110 @@ import os
 import json
 from datetime import datetime
 
-# Configuration
-DATA_DIR = "./ms_learn_data"
-COMBINED_FILE = "microsoft_learn_profile.json"  # If merged
-README_PATH = "./README.md"
+# We target the already-repaired file directly in your repo
+JSON_PATH = "data/microsoft-learn.json"
+README_PATH = "README.md"
+ALL_ACHIEVEMENTS_PATH = "data/all_achievements.md"
+
 MARKER_START = "<!-- MS_LEARN_START -->"
 MARKER_END = "<!-- MS_LEARN_END -->"
-BASE_URL = "https://learn.microsoft.com"
 
-def load_json(filepath):
-    if os.path.exists(filepath):
-        try:
-            with open(filepath, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception as e:
-            print(f"Warning: Failed to load {filepath}: {e}")
-    return None
+def format_num(val):
+    """Safely format numbers with commas, handling strings and None gracefully."""
+    try:
+        return f"{int(val):,}"
+    except (ValueError, TypeError):
+        return str(val) if val is not None else "0"
+
+def clean_uid(uid):
+    """Convert raw UIDs like 'applied-skill.generate-reports' into clean, AI-readable titles."""
+    if not uid:
+        return ""
+    parts = uid.replace("applied-skill.", "").replace("learn.wwl.", "").split("-")
+    return " ".join(parts).title()
 
 def main():
-    # 1. Load data defensively from combined or separate files
-    print("Loading Microsoft Learn data...")
-    combined = load_json(COMBINED_FILE)
-    
-    if combined:
-        progress = combined.get("Progress", {})
-        xp_data = combined.get("XP", {})
-        skills = combined.get("SkillAssessment", {})
-        creds = combined.get("VerifiableCredentials", {})
-    else:
-        progress = load_json(os.path.join(DATA_DIR, "Progress.json")) or {}
-        xp_data = load_json(os.path.join(DATA_DIR, "XP.json")) or {}
-        skills = load_json(os.path.join(DATA_DIR, "SkillAssessment.json")) or {}
-        creds = load_json(os.path.join(DATA_DIR, "VerifiableCredentials.json")) or {}
+    print(f"Opening data file: {JSON_PATH}...")
+    if not os.path.exists(JSON_PATH):
+        print(f"❌ Error: {JSON_PATH} not found!")
+        return
 
-    # Extract metrics
-    completed_items = progress.get("completedLearningItems", [])
+    with open(JSON_PATH, "r", encoding="utf-8") as f:
+        try:
+            data = json.load(f)
+        except Exception as e:
+            print(f"❌ Error parsing JSON: {e}")
+            return
+
+    # Extract sections defensively
+    progress = data.get("Progress", {}) or {}
+    xp_data = data.get("XP", {}) or {}
+    skills = data.get("SkillAssessment", {}) or {}
+    creds = data.get("VerifiableCredentials", {}) or {}
+
+    # 1. Gather High-Level Stats
+    completed_units = progress.get("completedLearningItems", [])
     learning_paths = progress.get("learningPathPasses", [])
     modules = progress.get("moduleAssessments", [])
-    achievements = xp_data.get("achievements", [])
+    achievements = xp_data.get("achievements", []) or []
     
-    # Safely get XP values
-    xp_profile = xp_data.get("xp", {})
-    total_xp = "N/A"
-    current_level = "N/A"
+    xp_profile = xp_data.get("xp", {}) or {}
+    total_xp = "0"
+    current_level = "0"
     if isinstance(xp_profile, dict):
-        total_xp = xp_profile.get("totalXp", xp_profile.get("xp", "N/A"))
-        current_level = xp_profile.get("level", "N/A")
+        total_xp = xp_profile.get("totalXp", xp_profile.get("xp", "0"))
+        current_level = xp_profile.get("level", "0")
 
-    print(f"Found {len(achievements)} achievements, {len(learning_paths)} learning paths, and {len(modules)} modules.")
-
-    # Sort achievements by granted date (newest first)
-    def get_granted_date(x):
+    # Sort achievements by date earned (newest first)
+    def parse_date(x):
         try:
             return datetime.fromisoformat(x.get("grantedOn", "").replace("Z", "+00:00"))
         except:
             return datetime.min
-            
-    sorted_achievements = sorted(achievements, key=get_granted_date, reverse=True)
 
-    # 2. Build the Markdown Showcase
+    sorted_achievements = sorted(achievements, key=parse_date, reverse=True)
+
+    # 2. Extract Verifiable Credentials (Applied Skills & Certifications)
+    user_creds = creds.get("userCredentials", []) or []
+    verifiable_list = []
+    for cred in user_creds:
+        name = clean_uid(cred.get("sourceUid", ""))
+        cred_id = cred.get("credentialId", "N/A")
+        raw_date = cred.get("awardedOn", "")
+        date_earned = raw_date.split("T")[0] if "T" in raw_date else raw_date
+        status = cred.get("credentialStatus", "Active")
+        verifiable_list.append(f"- **{name}** (Credential ID: `{cred_id}` | Earned: {date_earned} | Status: {status})")
+
+    # 3. Build AI-Optimized Markdown for the main README.md
     md = []
-    md.append("## 🏆 Microsoft Learn Portfolio")
-    
-    # Stats Banner Table
-    md.append("\n### 📊 Learning Stats\n")
-    md.append("| 🟢 Total XP | ⭐ Level | 🛣️ Learning Paths | 📦 Modules | 📝 Completed Units |")
-    md.append("| :--- | :--- | :--- | :--- | :--- |")
-    md.append(f"| **{total_xp:,}** | **{current_level}** | **{len(learning_paths):,}** | **{len(modules):,}** | **{len(completed_items):,}** |\n")
+    md.append("### Microsoft Learn Summary")
+    md.append(f"- **Total Experience Points (XP):** {format_num(total_xp)}")
+    md.append(f"- **Current Learning Level:** {current_level}")
+    md.append(f"- **Completed Learning Paths:** {format_num(len(learning_paths))}")
+    md.append(f"- **Completed Modules:** {format_num(len(modules))}")
+    md.append(f"- **Completed Individual Units:** {format_num(len(completed_units))}\n")
 
-    # High-Value Skills & Creds / Labs
-    lab_reports = skills.get("labSessionScoreReports", [])
-    passed_labs = [lab for lab in lab_reports if lab.get("passed") or lab.get("scored") == "Passed"]
-    
-    if passed_labs:
-        md.append("### 🛠️ Passed Applied Skills & Assessment Labs\n")
-        md.append("| Lab Assessment | Completed Date | Score |")
-        md.append("| :--- | :--- | :--- |")
-        for lab in passed_labs[:10]:  # Show top 10
-            title = lab.get("labProfileName", "Interactive Assessment")
-            date_str = lab.get("endTime", "").split("T")[0]
-            score = lab.get("score", "Passed")
-            md.append(f"| **{title}** | {date_str} | `{score}%` |")
-        md.append("\n")
+    if verifiable_list:
+        md.append("### Verifiable Applied Skills & Credentials")
+        md.extend(verifiable_list)
+        md.append("")
 
-    # Beautiful Recent Badges Grid (12 items)
-    md.append("### 🏅 Recent Achievements\n")
-    md.append("<table>")
-    cols = 4
-    recent_badges = sorted_achievements[:12]
+    md.append("### Recent Achievements & Completed Badges")
+    md.append(f"Showing the latest 50 of {format_num(len(sorted_achievements))} total achievements. The complete list is fully archived and searchable in our [complete achievements archive](./data/all_achievements.md).\n")
     
-    for i in range(0, len(recent_badges), cols):
-        row_items = recent_badges[i:i+cols]
-        # Image row
-        md.append("  <tr>")
-        for item in row_items:
-            img_path = item.get("imageUrl", "/learn/achievements/generic-badge.svg")
-            img_url = img_path if img_path.startswith("http") else f"{BASE_URL}{img_path}"
-            title = item.get("title", "Module Badge")
-            md.append(f'    <td align="center" width="180px"><img src="{img_url}" width="80px" alt="{title}"/><br/><strong>{title}</strong></td>')
-        # Pad empty columns if row is short
-        if len(row_items) < cols:
-            for _ in range(cols - len(row_items)):
-                md.append('    <td width="180px"></td>')
-        md.append("  </tr>")
+    for item in sorted_achievements[:50]:
+        title = item.get("title", "Completed Module")
+        cat = item.get("category", "module").title()
+        raw_date = item.get("grantedOn", "")
+        date = raw_date.split("T")[0] if "T" in raw_date else raw_date
+        verify_url = item.get("url", "")
+        if verify_url and not verify_url.startswith("http"):
+            verify_url = f"https://learn.microsoft.com{verify_url}"
         
-    md.append("</table>\n")
+        md.append(f"- **{title}** ({cat} | Earned: {date} | [Verify Credential]({verify_url}))")
 
-    # Collapsible Backlog for search engines and deep dive
-    if len(sorted_achievements) > 12:
-        md.append("<details>")
-        md.append(f"<summary>🔍 Click to view remaining {len(sorted_achievements) - 12:,} Achievements & Badges</summary>\n")
-        md.append("| Title | Category | Earned On | Profile Link |")
-        md.append("| :--- | :--- | :--- | :--- |")
-        for item in sorted_achievements[12:]:
-            title = item.get("title", "Module Completer")
-            cat = item.get("category", "module").title()
-            date = item.get("grantedOn", "").split("T")[0]
-            raw_url = item.get("url", "")
-            url = raw_url if raw_url.startswith("http") else f"{BASE_URL}{raw_url}"
-            md.append(f"| {title} | {cat} | {date} | [Verify]({url}) |")
-        md.append("\n</details>\n")
-
-    # 3. Write updates directly into README
+    # 4. Update the README.md file safely
     if not os.path.exists(README_PATH):
-        print(f"No {README_PATH} found, generating a brand new one...")
         with open(README_PATH, "w", encoding="utf-8") as f:
             f.write(f"{MARKER_START}\n{MARKER_END}\n")
 
@@ -133,14 +113,12 @@ def main():
         readme_content = f.read()
 
     if MARKER_START not in readme_content or MARKER_END not in readme_content:
-        print("Markers not found in README. Append them to target the injection.")
-        # Automatically inject markers at the end of the README if they don't exist
         readme_content += f"\n\n{MARKER_START}\n{MARKER_END}\n"
 
     split_start = readme_content.split(MARKER_START)
     split_end = split_start[1].split(MARKER_END)
     
-    new_readme = (
+    updated_readme = (
         split_start[0] + 
         MARKER_START + "\n" + 
         "\n".join(md) + "\n" + 
@@ -149,9 +127,33 @@ def main():
     )
 
     with open(README_PATH, "w", encoding="utf-8") as f:
-        f.write(new_readme)
+        f.write(updated_readme)
+    print("README.md updated successfully!")
+
+    # 5. Write the COMPLETE backlog of all achievements to data/all_achievements.md
+    print(f"Generating complete archive in {ALL_ACHIEVEMENTS_PATH}...")
+    archive_md = []
+    archive_md.append("# Complete Microsoft Learn Achievements Archive\n")
+    archive_md.append(f"This document contains a complete, chronological record of all {format_num(len(sorted_achievements))} achievements earned on Microsoft Learn. This file is highly structured to allow LLMs, search engine indexes, and automated parsers to easily read, index, and verify historical credentials.\n")
+    archive_md.append("| Achievement Title | Category | Date Earned | Verification Link |")
+    archive_md.append("| :--- | :--- | :--- | :--- |")
+
+    for item in sorted_achievements:
+        title = item.get("title", "Completed Module")
+        cat = item.get("category", "module").title()
+        raw_date = item.get("grantedOn", "")
+        date = raw_date.split("T")[0] if "T" in raw_date else raw_date
+        verify_url = item.get("url", "")
+        if verify_url and not verify_url.startswith("http"):
+            verify_url = f"https://learn.microsoft.com{verify_url}"
         
-    print("README.md updated successfully with your latest credentials! 🎉")
+        # Clean up text for markdown table safety
+        title_clean = title.replace("|", "\\|")
+        archive_md.append(f"| {title_clean} | {cat} | {date} | [Verify]({verify_url}) |")
+
+    with open(ALL_ACHIEVEMENTS_PATH, "w", encoding="utf-8") as f:
+        f.write("\n".join(archive_md))
+    print("Complete archive file updated successfully!")
 
 if __name__ == "__main__":
     main()
