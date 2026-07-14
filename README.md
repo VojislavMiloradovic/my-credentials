@@ -10,11 +10,11 @@ Welcome to my portfolio! Here is my live learning history:
 
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
-- **Total Experience Points (XP):** 5,788,350
+- **Total Experience Points (XP):** 5,836,775
 - **Current Learning Level:** 0
-- **Completed Learning Paths:** 495
-- **Completed Modules:** 2,535
-- **Completed Individual Units:** 34,323
+- **Completed Learning Paths:** 502
+- **Completed Modules:** 2,559
+- **Completed Individual Units:** 34,603
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -25,8 +25,47 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing the latest 50 of 4,675 total achievements. The complete list is fully archived and searchable in our [complete achievements archive](./data/all_achievements.md).
+Showing the latest 50 of 4,713 total achievements. The complete list is fully archived and searchable in our [complete achievements archive](./data/all_achievements.md).
 
+- **Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/automate-identity-lifecycle-workflows/))
+- **Analyze requirements for AI-powered business solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/analyze-requirements-ai-powered-business-solutions/))
+- **Architect AI solutions for business productivity** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/architect-agentic-ai-business-solutions/))
+- **Introduction to agentic AI business solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/introduction-agentic-ai-business-solution-architecture/))
+- **Manage testing AI-powered business solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/manage-testing-ai-powered-business-solutions/))
+- **Evaluate costs and benefits of AI solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/evaluate-costs-benefits-ai-powered-business-solution/))
+- **Design extensibility of AI solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/design-extensibility-ai-solutions/))
+- **Monitor, analyze, and tune AI agents** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/analyze-monitor-tune-ai-powered-business-solutions/))
+- **Design overall AI strategy for business solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/design-overall-ai-strategy-business-solutions/))
+- **Optimize DevOps with AI agents on Azure** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/optimize-devops-ai-agents-azure/))
+- **Introduction to agentic DevOps using Microsoft tools on Azure** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/introduction-agentic-devops-microsoft-tools-azure/))
+- **Interactive case study: Securing endpoints and infrastructure** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/case-study-endpoints-infrastructure/))
+- **Design security solutions for infrastructure** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/sc-100-design-security-solutions-infrastructure/))
+- **Design security operations, identity, and compliance capabilities** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/sc-100-design-operations-identity-compliance-capabilities/))
+- **Interactive case study: Modernizing user access control and threat resilience** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/case-study-access-control-threat-resilience/))
+- **Prepare AI-ready analytics data in Microsoft Fabric** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/prepare-ai-ready-analytics-data/))
+- **Prepare the semantic layer for AI in Microsoft Fabric** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/fabric-prepare-semantic-layer/))
+- **Optimize semantic model performance** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/optimize-semantic-model-performance/))
+- **Design and manage semantic models in Microsoft Fabric** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/design-manage-semantic-models-fabric/))
+- **Enforce semantic model security** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/enforce-semantic-model-security/))
+- **Design responsible AI security, governance, risk management, and compliance** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/design-responsible-ai-security-governance-risk-management-compliance/))
+- **Design AI agents for business solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/design-ai-agents-business-solutions/))
+- **Editor workflow foundations** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/powerscribe-one-editor-workflow-foundations/))
+- **Introduction to the editor role in PowerScribe One** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/powerscribe-one-introduction-editor-role/))
+- **Edit and finalize dictated reports in PowerScribe One** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/powerscribe-one-editor-edit-finalize-dictated-reports/))
+- **Build Study Guides in Copilot Notebooks** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/build-study-guides-copilot-notebooks/))
+- **Managing Azure NetApp Files** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/manage-azure-netapp-files/))
+- **Manage SMB volumes in Azure NetApp Files** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/manage-smb-volumes-azure-netapp-files/))
+- **Create and manage AutoText in PowerScribe One** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/powerscribe-one-create-manage-autotext/))
+- **Advanced AutoText for providers** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/powerscribe-one-advanced-autotext-for-providers/))
+- **AutoText efficiency tools in PowerScribe One** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/powerscribe-one-autotext-efficiency-tool/))
+- **Introduction to navigating the modern Contact Center** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/introduction-navigating-modern-contact-center/))
+- **Explore Dynamics 365 Contact Center** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/explore-dynamics-365-contact-center/))
+- **Describe work allocation capabilities** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-work-allocation-capabilities/))
+- **Describe Dynamics 365 Contact Center supervisor experience** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-dynamics-365-contact-center-supervisor-experience/))
+- **Describe Dynamics 365 Contact Center representative experience** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-dynamics-365-contact-center-representative-experience/))
+- **Describe warehouse management in Dynamics 365 Supply Chain Management** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-warehouse-management-dynamics-365/))
+- **Introduction to supply chain management in Dynamics 365** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/introduction-supply-chain-management-dynamics-365/))
+- **Describe sales processes in Dynamics 365 Supply Chain Management** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-sales-processes-dynamics-365-supply-chain-management/))
 - **Describe inventory management in Dynamics 365 Supply Chain Management** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-inventory-management-supply-chain-management/))
 - **Describe inventory costing and master planning in Dynamics 365 Supply Chain Management** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-inventory-costing-master-planning-dynamics-365-supply-chain-management/))
 - **Describe core capabilities of Dynamics 365 Supply Chain Management** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-core-capabilities-supply-chain-management/))
@@ -38,45 +77,6 @@ Showing the latest 50 of 4,675 total achievements. The complete list is fully ar
 - **Enhance video and audio with Windows Studio Effects** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/windows-studio-effects/))
 - **Secure AI agents with Microsoft Purview data security controls** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/purview-ai-agent-data-security/))
 - **Optimize your Windows gaming experience with the Xbox app** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/optimize-windows-gaming/))
-- **Describe procurement processes in Dynamics 365 Supply Chain Management** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-procurement-processes-dynamics-365/))
-- **Active Directory sites, topology, and replication** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/active-directory-site-replication/))
-- **Describe manufacturing processes in Dynamics 365 Supply Chain Management** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-manufacturing-processes-dynamics-365-supply-chain-management/))
-- **Understand Active Directory Group Policy security settings** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/understand-active-directory-security-policies/))
-- **Interactive case study: Securing apps and data** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/case-study-apps-data/))
-- **Design security solutions for applications and data** (Learningpaths | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/paths/sc-100-design-security-solutions-applications-data/))
-- **Design data models and optimize performance in Azure DocumentDB** (Learningpaths | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/paths/design-data-models-optimize-performance-azure-documentdb/))
-- **Recognize and avoid schema design anti-patterns in Azure DocumentDB** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/recognize-avoid-schema-design-anti-patterns-azure-documentdb/))
-- **Query and manipulate data in Azure DocumentDB** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/query-manipulate-data-azure-documentdb/))
-- **Optimize query performance using indexes in Azure DocumentDB** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/optimize-query-performance-indexes-azure-documentdb/))
-- **Model data relationships in Azure DocumentDB** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/model-data-relationships-azure-documentdb/))
-- **Introduction to Azure DocumentDB** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/introduction-azure-documentdb/))
-- **Create and configure an Azure DocumentDB cluster** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/create-configure-azure-documentdb-cluster/))
-- **Build applications with Azure DocumentDB SDKs** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/build-applications-azure-documentdb-sdks/))
-- **Apply schema design patterns in Azure DocumentDB** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/apply-schema-design-patterns-azure-documentdb/))
-- **Govern agents using Agent 365** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/agent-365-govern/))
-- **Explore Microsoft Agent 365** (Learningpaths | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/paths/agent-365-solutions/))
-- **Interactive case study: Modernizing identity and data security** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/case-study-identity-data-security/))
-- **Accelerate Azure SQL tasks with Microsoft Copilot** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/use-copilot-administer-azure-sql/))
-- **Improve meeting collaboration with Facilitator in Microsoft Teams** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/facilitator-in-microsoft-teams/))
-- **Get started with Transact-SQL programming** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/get-started-transact-sql-programming/))
-- **Program with Transact-SQL** (Learningpaths | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/paths/program-transact-sql/))
-- **AZ-400: Design and implement a release strategy** (Learningpaths | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/paths/az-400-design-implement-release-strategy/))
-- **Create a Release Pipeline** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/create-release-pipeline-devops/))
-- **Manage volume access for Azure NetApp Files** (Modules | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/modules/manage-volume-access-azure-netapp-files/))
-- **Work smarter with Copilot prompts for IT professionals** (Modules | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/modules/work-smarter-copilot-it/))
-- **Integrate agents with enterprise systems in Microsoft Copilot Studio** (Learningpaths | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/paths/integrate-agents-enterprise-systems-copilot-studio/))
-- **Integrate agents with external systems via MCP in Microsoft Copilot Studio** (Modules | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/modules/integrate-agents-external-systems-mcp-copilot-studio/))
-- **Ground agents with enterprise knowledge using connectors and Azure AI Search in Microsoft Copilot Studio** (Modules | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/modules/ground-agents-enterprise-knowledge-connectors-azure-ai-search-copilot-studio/))
-- **Automate desktop and web tasks with computer use in Copilot Studio** (Modules | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/modules/automate-desktop-web-tasks-computer-use-copilot-studio/))
-- **Automate tasks and workflows in Microsoft Copilot Studio** (Learningpaths | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/paths/automate-tasks-workflows-copilot-studio/))
-- **Personalize your PC faster with Agent in Settings** (Modules | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/modules/agent-in-settings/))
-- **Work smarter with Copilot prompts for Operations professionals** (Modules | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/modules/work-smarter-copilot-operations/))
-- **Replace passwords with secure authentication methods** (Modules | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/modules/passwordless-authentication/))
-- **Use Microsoft 365 to stay productive throughout your school day** (Modules | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/modules/microsoft-365-school-productivity/))
-- **Get ready to work with Microsoft 365 Copilot** (Modules | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/modules/get-ready-work-microsoft-365-copilot/))
-- **Draft, analyze, and present with Microsoft 365 Copilot** (Learningpaths | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/paths/draft-analyze-present-microsoft-365-copilot/))
-- **Work smarter with Copilot prompts for marketing professionals** (Modules | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/modules/work-smarter-copilot-marketing/))
-- **Mount Azure NetApp Files volumes** (Modules | Earned: 2026-07-11 | [Verify Credential](https://learn.microsoft.com/training/modules/mount-azure-netapp-files-volumes/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials
