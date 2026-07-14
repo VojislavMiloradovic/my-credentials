@@ -1,0 +1,31 @@
+name: Update MS Learn Profile
+
+on:
+  push:
+    paths:
+      - 'ms_learn_data/**'
+      - 'microsoft_learn_profile.json'
+  workflow_dispatch: # Allows manual trigger from UI
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-style: '3.x'
+
+    - name: Run Profile Parser
+      run: python update_ms_learn.py
+
+    - name: Commit and Push Changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "docs(profile): sync latest Microsoft Learn credentials and stats"
