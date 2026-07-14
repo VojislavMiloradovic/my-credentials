@@ -1,6 +1,8 @@
 # Professional Credentials & Achievements
 
+Hello, I'm Vojislav Miloradović.
 This is an automated, AI-readable repository aggregating my verified professional credentials, certifications, and learning achievements.
+Links to human-readable profiles of me from which those are aggregated are at the end of this file.
 
 ## Microsoft Learn Credentials
 
