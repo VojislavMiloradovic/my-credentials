@@ -5,35 +5,30 @@ from bs4 import BeautifulSoup
 
 URL = "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b"
 
-def clean_title(raw_text):
+def parse_badge_text(raw_text):
     """
-    Cleans up the long descriptive text to extract only the actual badge title.
+    Splits messy scraped text like:
+    "Digital Transformation with Google CloudEarned Sep  6, 2025 EDT"
+    into a clean title and a formatted earned date.
     """
     if not raw_text:
-        return ""
+        return "Unknown Badge", ""
     
-    # Strip whitespace/newlines
-    text = raw_text.replace('\n', ' ').strip()
+    # Standardize whitespace
+    text = re.sub(r'\s+', ' ', raw_text).strip()
     
-    # Google Skills descriptions often start with words like 'Earn the...', 'Complete the...' 
-    # Let's extract the actual course title by focusing on the capitalized words or using regex patterns.
-    patterns = [
-        r"(?:Complete|Earn) the (?:introductory|advanced|intermediate)?\s*(.*?)\s*(?:skill badge|course) to demonstrate",
-        r"(?:Complete|Earn) the (?:introductory|advanced|intermediate)?\s*(.*?)\s*(?:skill badge|course), where",
-        r"^(.*?)(?:\. Complete|\. Earn|\. This course|\. Skill badges|\?)"
-    ]
+    # Look for the transition 'Earned <Month>'
+    # This regex splits before "Earned" if it's preceded by characters
+    match = re.search(r"^(.*?)(Earned\s+[A-Za-z]{3}\s+\d{1,2},\s+\d{4}.*)$", text)
     
-    for pattern in patterns:
-        match = re.search(pattern, text, re.IGNORECASE)
-        if match:
-            candidate = match.group(1).strip()
-            # Clean up trailing punctuation if any
-            candidate = re.sub(r'[\.,]$', '', candidate)
-            return candidate
-            
-    # Fallback to a simple sentence split
-    parts = text.split('.')
-    return parts[0].strip() if parts else text
+    if match:
+        title = match.group(1).strip()
+        date_earned = match.group(2).strip()
+        # Remove timezone abbreviation at the end (e.g. "EDT", "UTC") for a cleaner look
+        date_earned = re.sub(r'\s+[A-Z]{3,4}$', '', date_earned)
+        return title, date_earned
+    
+    return text, ""
 
 def fetch_skills():
     headers = {
@@ -46,44 +41,54 @@ def fetch_skills():
     soup = BeautifulSoup(response.text, 'html.parser')
     badges = []
     
-    # Target typical Google profile badge elements
-    # Sometimes they reside in 'ql-badge' elements or custom tags
+    # Target Google profile badge containers
     badge_elements = soup.find_all("div", class_="profile-badge") or soup.find_all("div", class_="badge-card")
     
     if not badge_elements:
-        # Fallback to any div containing text that looks like a badge
-        badge_elements = [div for div in soup.find_all("div") if div.find("p") and ("skill badge" in div.get_text().lower() or "earned" in div.get_text().lower())]
+        # Fallback to general cards
+        badge_elements = [div for div in soup.find_all("div") if div.find("p") and ("earned" in div.get_text().lower() or "skill badge" in div.get_text().lower())]
 
     for elem in badge_elements:
-        # 1. Grab image
+        # 1. Grab image URL
         img_elem = elem.find("img")
         img_url = None
         if img_elem:
-            # Check for standard src, then lazy-loaded src variants
             img_url = img_elem.get("src") or img_elem.get("data-src") or img_elem.get("srcset")
-            if img_url and "," in img_url:  # Clean up srcset arrays if present
+            if img_url and "," in img_url:
                 img_url = img_url.split(",")[0].strip().split(" ")[0]
 
-        # 2. Grab and clean title
-        # Look for headers, then paragraphs
+        # 2. Grab and clean text
         text_elem = elem.find("h3") or elem.find("h4") or elem.find("p") or elem
-        raw_text = text_elem.get_text(strip=True) if text_elem else ""
+        raw_text = text_elem.get_text(" ", strip=True) if text_elem else ""
         
-        title = clean_title(raw_text)
-        if title:
-            badges.append({
-                "title": title,
-                "image_url": img_url,
-                "description": raw_text[:200] + "..." if len(raw_text) > 200 else raw_text
-            })
+        # Only parse if it looks like a valid credential
+        if "earned" in raw_text.lower():
+            title, date_earned = parse_badge_text(raw_text)
+            if title:
+                badges.append({
+                    "title": title,
+                    "date_earned": date_earned,
+                    "image_url": img_url
+                })
 
-    # Deduplicate based on title
+    # Deduplicate by title
     unique_badges = []
     seen = set()
     for b in badges:
         if b["title"].lower() not in seen:
             seen.add(b["title"].lower())
             unique_badges.append(b)
+
+    # Sort badges so latest earned are on top (optional, but looks great!)
+    # We try to sort using the parsed date. Fallback to default order if it fails.
+    try:
+        from datetime import datetime
+        def get_sort_key(x):
+            date_str = x["date_earned"].replace("Earned ", "")
+            return datetime.strptime(date_str, "%b %d, %Y")
+        unique_badges.sort(key=get_sort_key, reverse=True)
+    except Exception:
+        pass
 
     # 1. Save cleaned JSON data
     profile_data = {
@@ -97,6 +102,49 @@ def fetch_skills():
 
     # 2. Update README.md
     update_readme(unique_badges)
+
+def update_readme(badges):
+    try:
+        with open("README.md", "r", encoding="utf-8") as f:
+            readme_content = f.read()
+    except FileNotFoundError:
+        print("README.md not found. Skipping README update.")
+        return
+
+    # Generate Markdown table
+    if not badges:
+        badge_md = "\n*No Google Skills badges detected dynamically yet (checking daily).*\n"
+    else:
+        badge_md = f"\n### Google Cloud Skills Boost ({len(badges)} Badges)\n\n"
+        badge_md += "| Badge | Credential | Date Earned |\n|---|---|---|\n"
+        for b in badges:
+            img_tag = f"<img src=\"{b['image_url']}\" width=\"40\" />" if b['image_url'] else "🏅"
+            badge_md += f"| {img_tag} | **{b['title']}** | *{b['date_earned']}* |\n"
+        badge_md += "\n"
+
+    # Robust tag matching (ignores line ending differences like \r\n vs \n)
+    start_tag = "<!-- GOOGLE_SKILLS_START -->"
+    end_tag = "<!-- GOOGLE_SKILLS_END -->"
+    
+    if start_tag in readme_content and end_tag in readme_content:
+        # Split on the start tag
+        parts_before = readme_content.split(start_tag)[0]
+        # Split the remaining part on the end tag
+        parts_after = readme_content.split(end_tag)[1]
+        
+        # Reconstruct the file
+        new_readme = f"{parts_before}{start_tag}{badge_md}{end_tag}{parts_after}"
+        
+        with open("README.md", "w", encoding="utf-8") as f:
+            f.write(new_readme)
+        print("Successfully updated README.md with the structured badge table!")
+    else:
+        print("Could not find the exact HTML comments in README.md. Please make sure they are exactly:")
+        print("<!-- GOOGLE_SKILLS_START -->")
+        print("<!-- GOOGLE_SKILLS_END -->")
+
+if __name__ == "__main__":
+    fetch_skills()    update_readme(unique_badges)
 
 def update_readme(badges):
     try:
