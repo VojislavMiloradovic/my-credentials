@@ -1,23 +1,141 @@
-=== DEEP INSPECTION SUMMARY ===
-
---- VERIFIABLE CREDENTIALS ---
-Keys in VerifiableCredentials: ['docsId', 'userCredentials']
-Key 'docsId' is of type str
-Key 'userCredentials' is of type list
-  - Number of items: 6
-  - Sample of first item:
-{
-  "credentialId": "ABC20116B56C7F9F",
-  "userId": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759",
-  "sourceUid": "applied-skill.generate-reports-with-ai-research-agents",
-  "sourceType": "Modern",
-  "awardedOn": "2026-03-25T16:21:33+00:00",
-  "credentialStatus": "Active"
-}
+=== DEEP INSPECTION - PHASE 2 ===
 
 ========================================
+ROOT KEY: Progress
+========================================
+Type: dict
+Keys inside Progress: ['completedLearningItems', 'learningPathPasses', 'moduleAssessments']
 
---- TECH PROFILE KEYS ---
-All 26 TechProfile keys: ['email', 'locale', 'country', 'contactPointTopicSetting', 'isInstructor', 'isChallengeAdmin', 'isQnaModerator', 'source', 'authenticationModes', 'transcriptSettings', 'certificationSettings', 'qnaEmailPreferences', 'sharingId', 'legalName', 'userId', 'userName', 'displayName', 'avatarUrl', 'avatarThumbnailUrl', 'isPrivate', 'affiliations', 'followerCount', 'followingCount', 'answersAccepted', 'reputationPoints', 'createdOn']
+  - Sub-key 'completedLearningItems': list (Length: 34323)
+    * Sample first item in list:
+{
+    "title": "learn.wwl.get-started-ai-fundamentals.introduction-ai",
+    "type": "unit",
+    "completedAt": "2025-11-05T23:05:35.335719Z"
+}
 
-Target keys found in TechProfile: []
+  - Sub-key 'learningPathPasses': list (Length: 495)
+    * Sample first item in list:
+{
+    "id": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759|learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts",
+    "userId": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759",
+    "learningPathUid": "learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts",
+    "passedOn": "2025-11-06T00:34:39.6914547+00:00"
+}
+
+  - Sub-key 'moduleAssessments': list (Length: 2535)
+    * Sample first item in list:
+{
+    "moduleUid": "learn.wwl.get-started-ai-fundamentals",
+    "moduleAssessmentPassed": true,
+    "moduleAssessmentPassedOn": "2025-11-05T23:34:40.2040227Z",
+    "moduleAssessmentPreviousAttempts": [
+        {
+            "questionsToPass": 3,
+            "questionsToTake": 3,
+            "questionsAnsweredCorrectly": 3,
+            "sessionEndDate": "2025-11-05T23:34:40.2040227Z",
+            "passCriteria": 100
+        }
+    ]
+}
+
+
+
+========================================
+ROOT KEY: LearnCompanion
+========================================
+Type: dict
+Keys inside LearnCompanion: ['memories', 'conversations']
+
+  - Sub-key 'memories': list (Length: 0)
+
+  - Sub-key 'conversations': list (Length: 0)
+
+
+
+========================================
+ROOT KEY: XP
+========================================
+Type: dict
+Keys inside XP: ['xp', 'achievements']
+
+  - Sub-key 'xp': dict (Length: 9)
+    * Sample of sub-key 'docsId':
+"bddd159a-3c62-4e6b-ab42-c1a3bceaa759"
+
+  - Sub-key 'achievements': list (Length: 4675)
+    * Sample first item in list:
+{
+    "category": "modules",
+    "typeId": "learn.wwl.describe-inventory-management-supply-chain-management.badge",
+    "userId": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759",
+    "id": "EG94SBRP",
+    "title": "Describe inventory management in Dynamics 365 Supply Chain Management",
+    "imageUrl": "/learn/achievements/generic-badge.svg",
+    "locale": "en-us",
+    "verified": true,
+    "source": "Progress",
+    "grantedOn": "2026-07-13T13:00:39.78Z",
+    "url": "/training/modules/describe-inventory-management-supply-chain-management/",
+    "milestoneEligible": true,
+    "version": 111516
+}
+
+
+
+========================================
+ROOT KEY: SkillAssessment
+========================================
+Type: dict
+Keys inside SkillAssessment: ['userAssessmentChoices', 'userSessionAssessmentScores', 'userSessionQuestionnaireScores', 'labSessions', 'labSessionScoreReports']
+
+  - Sub-key 'userAssessmentChoices': list (Length: 0)
+
+  - Sub-key 'userSessionAssessmentScores': list (Length: 0)
+
+  - Sub-key 'userSessionQuestionnaireScores': list (Length: 0)
+
+  - Sub-key 'labSessions': list (Length: 11)
+    * Sample first item in list:
+{
+    "labSessionId": "effba1a1-4ed2-49ff-8677-125043b56c04",
+    "userId": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759",
+    "labId": "187083",
+    "appliedskilluid": "applied-skill.get-started-with-classes-properties-and-methods-in-c-sharp",
+    "instanceId": "60709241",
+    "labUrl": "https://labclient.labondemand.com/access/e27267cf-0234-4402-b2a2-3349277a0405",
+    "scored": "Cancelled",
+    "createdAt": "2026-04-10T18:07:46.977Z",
+    "expiresAt": "2026-04-10T20:08:46Z",
+    "estimatedReadyAt": "2026-04-10T18:10:14.977Z"
+}
+
+  - Sub-key 'labSessionScoreReports': list (Length: 8)
+    * Sample first item in list:
+{
+    "labSessionId": "e61b0117-79be-4f98-a4c7-4d9a1ef72741",
+    "labInstanceId": "60747892",
+    "labProfileName": "APL-7008: Create agents in Microsoft Copilot Studio",
+    "userId": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759",
+    "startTime": "2026-04-10T18:12:41Z",
+    "endTime": "2026-04-10T18:30:05Z",
+    "activityGroupResults": [
+        {
+            "id": "11d9169a-2c5b-4120-a043-f6256137b025",
+            "name": "Manage variables and entities",
+            "scoreValueTotal": 2.0,
+            "aggregateScore": 0.0,
+            "studyGuideUids": "learn-bizapps.power-virtual-agents-entities\r\n",
+            "passed": false,
+            "activityResults": [
+                {
+                    "activityId": "35e2b2b9-61db-4188-b62b-bd8a934efb0d",
+                    "activityName": "CS-04-01",
+                    "scored": true,
+                    "score": 0.0,
+                    "passed": false,
+                    "scriptResult": "Configure the variable\n---------------------
+    ... [TRUNCATED] ...
+
+
