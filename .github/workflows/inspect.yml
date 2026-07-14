@@ -1,10 +1,10 @@
 name: Inspect Microsoft Learn Data
 
 on:
-  workflow_dispatch: # Allows us to run this manually with a single click!
+  workflow_dispatch:
 
 permissions:
-  contents: write # Gives the action permission to commit the output file back to your repo
+  contents: write
 
 jobs:
   inspect:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-level: '3.10'
+          python-version: '3.10'
 
       - name: Run Inspector Script
         run: python inspect_data.py
@@ -25,6 +25,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/structure_summary.txt
-          git commit -m "chore: auto-generate JSON structure summary" || echo "No changes to commit"
+          git add data/ # This will now grab BOTH the summary and the repaired JSON!
+          git commit -m "chore: auto-repair JSON and update structure summary" || echo "No changes to commit"
           git push
