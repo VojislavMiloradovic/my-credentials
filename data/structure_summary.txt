@@ -1,0 +1,16 @@
+File Name: microsoft-learn.json
+Data Type: dict
+
+=== TOP LEVEL KEYS ===
+- Attachments: bool
+- Assessments: NoneType
+- LearnCompanion: dict (Length: 2)
+- Q&A: dict (Length: 4)
+- Lists: NoneType
+- VerifiableCredentials: dict (Length: 2)
+- Certifications: NoneType
+- SkillAssessment: dict (Length: 5)
+- TechProfile: dict (Length: 26)
+- NextSteps: dict (Length: 3)
+- XP: dict (Length: 2)
+- Progress: dict (Length: 3)
