@@ -2,7 +2,6 @@ import os
 import json
 
 def inspect_json():
-    # Find any JSON file in the data folder
     data_dir = "data"
     json_files = [f for f in os.listdir(data_dir) if f.endswith('.json')]
     
@@ -13,42 +12,33 @@ def inspect_json():
     file_path = os.path.join(data_dir, json_files[0])
     print(f"Reading {file_path}...")
     
-    with open(file_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            print("Success! JSON parsed perfectly.")
+    except json.JSONDecodeError as e:
+        print(f"\n❌ JSON Syntax Error detected: {e}")
+        print(f"Error is on Line {e.lineno}, Column {e.colno}\n")
         
-    summary = []
-    summary.append(f"File Name: {json_files[0]}")
-    summary.append(f"Data Type: {type(data).__name__}\n")
-    
-    if isinstance(data, dict):
-        summary.append("=== TOP LEVEL KEYS ===")
-        for key, val in data.items():
-            val_type = type(val).__name__
-            length_info = f" (Length: {len(val)})" if hasattr(val, '__len__') and not isinstance(val, str) else ""
-            summary.append(f"- {key}: {val_type}{length_info}")
+        # Pull context lines around the error to show us exactly what broke
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                lines = f.readlines()
             
-            # If it's a list, let's inspect the first item
-            if isinstance(val, list) and len(val) > 0:
-                first_item = val[0]
-                summary.append(f"  * Sample item type: {type(first_item).__name__}")
-                if isinstance(first_item, dict):
-                    summary.append(f"  * Sample keys: {list(first_item.keys())}")
-                    # Give a tiny preview of string values (truncated)
-                    preview = {k: (str(v)[:100] + '...' if len(str(v)) > 100 else v) for k, v in first_item.items()}
-                    summary.append(f"  * Sample data preview: {json.dumps(preview, indent=4)}")
-                summary.append("") # Spacer
-                
-    elif isinstance(data, list):
-        summary.append(f"Root is a List of {len(data)} items.")
-        if len(data) > 0:
-            first_item = data[0]
-            summary.append(f"Sample item keys: {list(first_item.keys()) if isinstance(first_item, dict) else type(first_item).__name__}")
-
-    # Write summary to a file
-    output_path = os.path.join(data_dir, "structure_summary.txt")
-    with open(output_path, 'w', encoding='utf-8') as out:
-        out.write("\n".join(summary))
-    print(f"Summary written to {output_path}")
+            start_line = max(0, e.lineno - 10)
+            end_line = min(len(lines), e.lineno + 10)
+            
+            print("--- CONTEXT LINES (Look for the 👉) ---")
+            for i in range(start_line, end_line):
+                line_num = i + 1
+                prefix = "👉 " if line_num == e.lineno else "   "
+                print(f"{prefix}{line_num:4d}: {lines[i].rstrip()}")
+            print("--------------------------------------")
+        except Exception as read_err:
+            print(f"Could not read file context: {read_err}")
+        
+        # Keep the error raised so the Action registers the failure but yields our print logs
+        raise e
 
 if __name__ == "__main__":
     inspect_json()
