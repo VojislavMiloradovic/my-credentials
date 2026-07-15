@@ -448,10 +448,11 @@ Showing the latest 50 of 4,713 total achievements. The complete list is fully ar
 | Stat | Level / Value |
 | :--- | :--- |
 | **Builder Level** | 12 |
-| **Reputation Level** | 4 |
-| **Pets Unlocked** | 3 |
+| **Reputation Level** | 95 |
+| **Pets Unlocked** | 17 |
 | **Vehicles Unlocked** | 2 |
-| **Role** | Cloud Practitioner / Solutions Architect |
+| **Role** | Cloud Practitioner / Generative AI Practitioner |
+| **Total Solutions Built** | 20 |
 
 
 #### Recent AWS Achievements
