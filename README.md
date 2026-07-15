@@ -10,13 +10,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
-- **Total Experience Points (XP):** 5,836,775
+- **Total Experience Points (XP):** 5,851,475
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,820
+- **Badges Earned (Profile):** 3,821
 - **Trophies Earned (Profile):** 893
 - **Completed Learning Paths (Active Tracker):** 502
-- **Completed Modules (Active Tracker):** 2,559
-- **Completed Individual Units:** 34,603
+- **Completed Modules (Active Tracker):** 2,560
+- **Completed Individual Units:** 34,746
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -27,8 +27,9 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing the latest 50 of 4,713 total achievements. The complete list is fully archived and searchable in our [complete achievements archive](./data/all_achievements.md).
+Showing the latest 50 of 4,714 total achievements. The complete list is fully archived and searchable in our [complete achievements archive](./data/all_achievements.md).
 
+- **Get started with 5G on Surface for Business devices** (Modules | Earned: 2026-07-15 | [Verify Credential](https://learn.microsoft.com/training/modules/surface-5g/))
 - **Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/automate-identity-lifecycle-workflows/))
 - **Analyze requirements for AI-powered business solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/analyze-requirements-ai-powered-business-solutions/))
 - **Architect AI solutions for business productivity** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/architect-agentic-ai-business-solutions/))
@@ -65,8 +66,8 @@ Showing the latest 50 of 4,713 total achievements. The complete list is fully ar
 - **Describe work allocation capabilities** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-work-allocation-capabilities/))
 - **Describe Dynamics 365 Contact Center supervisor experience** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-dynamics-365-contact-center-supervisor-experience/))
 - **Describe Dynamics 365 Contact Center representative experience** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-dynamics-365-contact-center-representative-experience/))
-- **Describe warehouse management in Dynamics 365 Supply Chain Management** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-warehouse-management-dynamics-365/))
 - **Introduction to supply chain management in Dynamics 365** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/introduction-supply-chain-management-dynamics-365/))
+- **Describe warehouse management in Dynamics 365 Supply Chain Management** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-warehouse-management-dynamics-365/))
 - **Describe sales processes in Dynamics 365 Supply Chain Management** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-sales-processes-dynamics-365-supply-chain-management/))
 - **Describe inventory management in Dynamics 365 Supply Chain Management** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-inventory-management-supply-chain-management/))
 - **Describe inventory costing and master planning in Dynamics 365 Supply Chain Management** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/describe-inventory-costing-master-planning-dynamics-365-supply-chain-management/))
@@ -78,7 +79,6 @@ Showing the latest 50 of 4,713 total achievements. The complete list is fully ar
 - **Retrace your steps with Recall (preview)** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/recall-preview/))
 - **Enhance video and audio with Windows Studio Effects** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/windows-studio-effects/))
 - **Secure AI agents with Microsoft Purview data security controls** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/purview-ai-agent-data-security/))
-- **Optimize your Windows gaming experience with the Xbox app** (Modules | Earned: 2026-07-13 | [Verify Credential](https://learn.microsoft.com/training/modules/optimize-windows-gaming/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials
