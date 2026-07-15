@@ -5,6 +5,16 @@ from bs4 import BeautifulSoup
 
 URL = "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b"
 
+# --- 1. INTERNAL STATS (Update these counts whenever you make progress!) ---
+INTERNAL_STATS = {
+    "Course": 330,
+    "Check": 1769,
+    "Classroom": 0,
+    "Game": 3,
+    "Lab": 219,
+    "Lesson": 4830
+}
+
 def parse_badge_text(raw_text):
     """
     Splits messy scraped text like:
@@ -38,6 +48,21 @@ def fetch_skills():
         raise Exception(f"Failed to load page: Status {response.status_code}")
 
     soup = BeautifulSoup(response.text, 'html.parser')
+    
+    # --- 2. SCRAPE TOTAL POINTS FROM PUBLIC PROFILE ---
+    total_points = "188,404"  # Default fallback
+    try:
+        # Search the page text for strings like "188,404 points" or "188404 points"
+        points_match = re.search(r'\b(\d{1,3}(?:[,\.]\d{3})+|\d{4,9})\s*(?:points|pts)\b', soup.get_text(), re.IGNORECASE)
+        if points_match:
+            raw_points = points_match.group(1).strip().replace(".", ",")
+            if "," not in raw_points and raw_points.isdigit():
+                total_points = f"{int(raw_points):,}"
+            else:
+                total_points = raw_points
+    except Exception as e:
+        print(f"Could not dynamically scrape points: {e}")
+
     badges = []
     
     # Target Google profile badge containers
@@ -64,10 +89,21 @@ def fetch_skills():
         if "earned" in raw_text.lower():
             title, date_earned = parse_badge_text(raw_text)
             if title:
+                # 3. Grab badge-specific verification link (if available, else fallback to profile URL)
+                link_elem = elem if elem.name == "a" else elem.find("a")
+                badge_url = URL
+                if link_elem and link_elem.get("href"):
+                    href = link_elem.get("href")
+                    if href.startswith("/"):
+                        badge_url = f"https://www.skills.google{href}"
+                    elif href.startswith("http"):
+                        badge_url = href
+
                 badges.append({
                     "title": title,
                     "date_earned": date_earned,
-                    "image_url": img_url
+                    "image_url": img_url,
+                    "verification_url": badge_url
                 })
 
     # Deduplicate by title
@@ -84,24 +120,27 @@ def fetch_skills():
         def get_sort_key(x):
             date_str = x["date_earned"].replace("Earned ", "")
             return datetime.strptime(date_str, "%b %d, %Y")
+            
         unique_badges.sort(key=get_sort_key, reverse=True)
     except Exception:
         pass
 
-    # 1. Save cleaned JSON data
+    # 4. Save cleaned JSON data
     profile_data = {
         "profile_url": URL,
+        "total_points": total_points,
+        "internal_stats": INTERNAL_STATS,
         "total_badges": len(unique_badges),
         "badges": unique_badges
     }
     with open("google_skills.json", "w", encoding="utf-8") as f:
         json.dump(profile_data, f, indent=2, ensure_ascii=False)
-    print(f"Updated google_skills.json with {len(unique_badges)} badges.")
+    print(f"Updated google_skills.json with {len(unique_badges)} badges and {total_points} points.")
 
-    # 2. Update README.md
-    update_readme(unique_badges)
+    # 5. Update README.md
+    update_readme(unique_badges, total_points)
 
-def update_readme(badges):
+def update_readme(badges, total_points):
     try:
         with open("README.md", "r", encoding="utf-8") as f:
             readme_content = f.read()
@@ -109,18 +148,31 @@ def update_readme(badges):
         print("README.md not found. Skipping README update.")
         return
 
-    # Generate Markdown table
+    # Generate the complete Markdown section
+    badge_md = f"\n### Google Cloud Skills Boost ({len(badges)} Badges)\n\n"
+    badge_md += f"**Public Profile:** [Verify Profile]({URL})  \n"
+    badge_md += f"**Total Lifetime Points:** {total_points}\n\n"
+    
+    # Render Internal Stats Table
+    badge_md += "#### Platform Progress Summary\n"
+    badge_md += "| Metric | Count |\n|---|---|\n"
+    for metric, count in INTERNAL_STATS.items():
+        badge_md += f"| **{metric}** | {count:,} |\n"
+    badge_md += "\n"
+
+    # Render Badges List
     if not badges:
-        badge_md = "\n*No Google Skills badges detected dynamically yet (checking daily).*\n"
+        badge_md += "*No Google Skills badges detected dynamically yet (checking daily).*\n"
     else:
-        badge_md = f"\n### Google Cloud Skills Boost ({len(badges)} Badges)\n\n"
-        badge_md += "| Badge | Credential | Date Earned |\n|---|---|---|\n"
+        badge_md += "#### Earned Badges\n"
+        badge_md += "| Badge | Credential | Date Earned | Verification |\n|:---:|---|:---:|:---:|\n"
         for b in badges:
             img_tag = f"<img src=\"{b['image_url']}\" width=\"40\" />" if b['image_url'] else "🏅"
-            badge_md += f"| {img_tag} | **{b['title']}** | *{b['date_earned']}* |\n"
+            v_url = b.get("verification_url", URL)
+            badge_md += f"| {img_tag} | **{b['title']}** | *{b['date_earned']}* | [Verify Credential]({v_url}) |\n"
         badge_md += "\n"
 
-    # Robust tag matching
+    # Robust tag matching and replacement
     start_tag = "<!-- GOOGLE_SKILLS_START -->"
     end_tag = "<!-- GOOGLE_SKILLS_END -->"
     
@@ -132,9 +184,9 @@ def update_readme(badges):
         
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(new_readme)
-        print("Successfully updated README.md with the structured badge table!")
+        print("Successfully updated README.md with the structured progress summary and badge table!")
     else:
-        print("Could not find the exact HTML comments in README.md.")
+        print("Could not find the exact HTML comments <!-- GOOGLE_SKILLS_START --> and <!-- GOOGLE_SKILLS_END --> in README.md.")
 
 if __name__ == "__main__":
     fetch_skills()
