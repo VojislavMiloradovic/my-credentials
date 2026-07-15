@@ -438,8 +438,8 @@ Showing the latest 50 of 4,714 total achievements. The complete list is fully ar
 #### Platform Progress Summary
 | Metric | Count |
 | :--- | :--- |
-| **Total Completed Activities** | 420 |
-| **Digital Courses** | 375 |
+| **Total Completed Activities** | 430 |
+| **Digital Courses** | 385 |
 | **Self-Paced Builder Labs** | 13 |
 | **In-Game Simulations (Cloud Quest)** | 32 |
 
@@ -460,16 +460,16 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 
 | Activity Title | Type | Date Completed | Duration |
 | :--- | :--- | :--- | :--- |
-| **Amazon Q Developer Transformation** | Digital Course | *March 9, 2026* | 30 minutes |
-| **Amazon Simple Notification Service (SNS) Getting Started** | Digital Course | *March 9, 2026* | 1 hour |
 | **AWS Billing and Cost Management** | Digital Course | *March 9, 2026* | 20 minutes |
-| **AWS Lambda Foundations** | Digital Course | *March 9, 2026* | 2 hours |
+| **Amazon Simple Notification Service (SNS) Getting Started** | Digital Course | *March 9, 2026* | 1 hour |
 | **AWS X-Ray Getting Started** | Digital Course | *March 9, 2026* | 1 hour |
-| **[RETIRED] AWS Fargate - Overview** | Digital Course | *March 8, 2026* | 10 minutes |
-| **[RETIRED] Introduction to Amazon CloudFront** | Digital Course | *March 8, 2026* | 10 minutes |
-| **Amazon Quick Sight Getting Started** | Digital Course | *March 8, 2026* | 1 hour |
+| **AWS Lambda Foundations** | Digital Course | *March 9, 2026* | 2 hours |
+| **Amazon Q Developer Transformation** | Digital Course | *March 9, 2026* | 30 minutes |
 | **Amazon SageMaker Unified Studio Foundations** | Digital Course | *March 8, 2026* | 1 hour |
 | **Introduction to AI-Driven Development Lifecycle** | Digital Course | *March 8, 2026* | 15 minutes |
+| **[RETIRED] AWS Fargate - Overview** | Digital Course | *March 8, 2026* | 10 minutes |
+| **[RETIRED] Introduction to Amazon CloudFront** | Digital Course | *March 8, 2026* | 10 minutes |
+| **Introduction to Amazon Connect Health** | Digital Course | *March 8, 2026* | 45 minutes |
 
 <!-- AWS_SKILLS_END -->
 
