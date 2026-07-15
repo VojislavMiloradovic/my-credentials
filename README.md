@@ -432,6 +432,44 @@ Showing the latest 50 of 4,713 total achievements. The complete list is fully ar
 ## Amazon Web Services Credentials
 
 <!-- AWS_SKILLS_START -->
+### AWS Skill Builder Summary
+**Public Profile:** [Verify AWS Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)  
+
+#### Platform Progress Summary
+| Metric | Count |
+| :--- | :--- |
+| **Total Completed Activities** | 424 |
+| **Digital Courses** | 0 |
+| **Self-Paced Builder Labs** | 5 |
+| **In-Game Simulations (Cloud Quest)** | 32 |
+
+
+#### AWS Cloud Quest Stats
+| Stat | Level / Value |
+| :--- | :--- |
+| **Builder Level** | 12 |
+| **Reputation Level** | 4 |
+| **Pets Unlocked** | 3 |
+| **Vehicles Unlocked** | 2 |
+| **Role** | Cloud Practitioner / Solutions Architect |
+
+
+#### Recent AWS Achievements
+Showing the latest 10 activities. See the complete log of completed trainings in our [AWS achievements archive](./data/aws_achievements.md).
+
+| Activity Title | Type | Date Completed | Duration |
+| :--- | :--- | :--- | :--- |
+| **Generated on: 15. јул 2026.** | Training | ** | N/A |
+| **Total rows: 421** | Training | ** | N/A |
+| **Title** | Training | ** | N/A |
+| **[RETIRED] AWS Fargate - Overview** | Training | ** | N/A |
+| **[RETIRED] Build a migration assessment with AWS Transform** | Training | ** | N/A |
+| **[RETIRED] Building with MultiModal Knowledge Bases in AWS Bedrock** | Training | ** | N/A |
+| **[RETIRED] Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2)** | Training | ** | N/A |
+| **[RETIRED] Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service** | Training | ** | N/A |
+| **[RETIRED] How Orchestration Works with AI Agents** | Training | ** | N/A |
+| **[RETIRED] Introduction to Amazon CloudFront** | Training | ** | N/A |
+
 <!-- AWS_SKILLS_END -->
 
 *(This section will be automatically updated by our GitHub automation once we upload the JSON file)*
