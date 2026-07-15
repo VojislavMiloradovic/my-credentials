@@ -429,6 +429,10 @@ Showing the latest 50 of 4,713 total achievements. The complete list is fully ar
 
 <!-- GOOGLE_SKILLS_END -->
 
+## Amazon Web Services Credentials
+
+<!-- AWS_SKILLS_START -->
+<!-- AWS_SKILLS_END -->
 
 *(This section will be automatically updated by our GitHub automation once we upload the JSON file)*
 
