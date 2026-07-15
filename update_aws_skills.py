@@ -15,10 +15,11 @@ MARKER_END = "<!-- AWS_SKILLS_END -->"
 # Update these manually in this script when you hit new milestones!
 CLOUD_QUEST_STATS = {
     "Builder Level": 12,
-    "Reputation Level": 4,
-    "Pets Unlocked": 3,
+    "Reputation Level": 95,
+    "Pets Unlocked": 17,
     "Vehicles Unlocked": 2,
-    "Role": "Cloud Practitioner / Solutions Architect"
+    "Role": "Cloud Practitioner / Generative AI Practitioner",
+    "Total Solutions Built": 20
 }
 
 def normalize_header(header):
