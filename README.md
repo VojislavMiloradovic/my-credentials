@@ -11,9 +11,11 @@ Welcome to my portfolio! Here is my live learning history:
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
 - **Total Experience Points (XP):** 5,836,775
-- **Current Learning Level:** 0
-- **Completed Learning Paths:** 502
-- **Completed Modules:** 2,559
+- **Current Learning Level:** Level 20
+- **Badges Earned (Profile):** 3,820
+- **Trophies Earned (Profile):** 893
+- **Completed Learning Paths (Active Tracker):** 502
+- **Completed Modules (Active Tracker):** 2,559
 - **Completed Individual Units:** 34,603
 
 ### Verifiable Applied Skills & Credentials
