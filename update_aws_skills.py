@@ -52,7 +52,6 @@ def find_column_indices(headers):
             if "name" in norm:
                 mapping["title"] = i
                 break
-        # Ultimate fallback to first column
         if mapping["title"] is None and len(headers) > 0:
             mapping["title"] = 0
             
@@ -62,7 +61,6 @@ def parse_csv_date(date_str):
     """Standardize different CSV date strings into ISO format (YYYY-MM-DD)."""
     if not date_str:
         return ""
-    # Try common CSV date formats
     for fmt in ("%Y-%m-%d", "%m/%d/%Y", "%d/%m/%Y", "%Y-%m-%dT%H:%M:%S", "%b %d, %Y", "%d.%m.%Y"):
         try:
             return datetime.strptime(date_str.strip(), fmt).strftime("%Y-%m-%d")
@@ -70,8 +68,28 @@ def parse_csv_date(date_str):
             continue
     return date_str.strip()
 
+def is_garbage_row(title):
+    """Identify and filter out metadata, headers, or footers parsed as courses."""
+    title_lower = title.lower().strip()
+    if not title_lower:
+        return True
+    
+    trash_keywords = [
+        "generated on", "total rows", "report name", "filter", 
+        "aws skill builder", "activity name", "activity title", 
+        "confidential", "copyright", "page ", "export", "run date"
+    ]
+    if any(k in title_lower for k in trash_keywords):
+        return True
+        
+    # If the title is literally just the column header text
+    if title_lower in ["title", "activity name", "name", "subject", "training name"]:
+        return True
+        
+    return False
+
 def main():
-    # 1. Dynamically locate the CSV file (handling casing, typos like .cvs, and paths)
+    # 1. Locate the CSV file
     possible_names = [
         "data/aws-training-activity.csv",
         "data/aws-training-activity.cvs",
@@ -88,89 +106,113 @@ def main():
 
     if not csv_path:
         print("❌ Error: AWS Training CSV file not found!")
-        print("Looking inside 'data/' directory to help you debug:")
-        if os.path.exists("data"):
-            print(f"Contents of 'data/': {os.listdir('data')}")
-        else:
-            print("'data/' directory does not even exist in the workspace!")
-        print("Please ensure your uploaded CSV is named exactly 'aws-training-activity.csv' (or .cvs) and placed inside the 'data/' folder.")
         sys.exit(1)
 
     print(f"✅ Found AWS data file at: {csv_path}")
 
-    # 2. Detect delimiter (handles European Excel exports which use semicolons ';')
-    delimiter = ","
+    # 2. Read lines to skip metadata and find the TRUE header row
     try:
         with open(csv_path, "r", encoding="utf-8-sig") as f:
-            first_line = f.readline()
-            if ";" in first_line and first_line.count(";") > first_line.count(","):
-                delimiter = ";"
-                print("ℹ️ Detected semicolon (;) delimiter (likely a European Excel CSV export).")
-            else:
-                print("ℹ️ Detected standard comma (,) delimiter.")
+            lines = f.readlines()
     except Exception as e:
-        print(f"❌ Error reading file to check delimiter: {e}")
+        print(f"❌ Error reading CSV file: {e}")
         sys.exit(1)
 
-    activities = []
+    header_idx = -1
+    delimiter = ","
     
-    # 3. Read and parse CSV
-    with open(csv_path, mode="r", encoding="utf-8-sig") as f:
-        reader = csv.reader(f, delimiter=delimiter)
-        try:
-            headers = next(reader)
-        except StopIteration:
-            print("❌ Error: AWS CSV file is completely empty.")
-            sys.exit(1)
+    # Scan for a line containing recognizable table headers
+    for idx, line in enumerate(lines):
+        line_lower = line.lower()
+        if any(kw in line_lower for kw in ["activity name", "activity title", "course name", "training name", "completion date", "completed on", "title"]):
+            header_idx = idx
+            if ";" in line and line.count(";") > line.count(","):
+                delimiter = ";"
+            break
             
-        print(f"ℹ️ Row headers found in CSV: {headers}")
-        col_map = find_column_indices(headers)
-        print(f"ℹ️ Mapped Columns -> Title: Index {col_map['title']}, Date: Index {col_map['date']}, Type: Index {col_map['type']}, Duration: Index {col_map['duration']}")
+    if header_idx == -1:
+        # Fallback: find the first line with multiple columns
+        for idx, line in enumerate(lines):
+            if "," in line or ";" in line:
+                header_idx = idx
+                if ";" in line and line.count(";") > line.count(","):
+                    delimiter = ";"
+                break
+                
+    if header_idx == -1:
+        print("❌ Error: Could not locate table headers in CSV.")
+        sys.exit(1)
+
+    print(f"ℹ️ Actual table headers found on Line {header_idx + 1}. Using delimiter: '{delimiter}'")
+
+    # 3. Parse data starting from the discovered header row
+    clean_csv_lines = lines[header_idx:]
+    reader = csv.reader(clean_csv_lines, delimiter=delimiter)
+    
+    try:
+        headers = next(reader)
+    except StopIteration:
+        print("❌ Error: Header parsing failed.")
+        sys.exit(1)
+
+    col_map = find_column_indices(headers)
+    print(f"ℹ️ Column Mapping -> Title: {col_map['title']}, Date: {col_map['date']}, Type: {col_map['type']}, Duration: {col_map['duration']}")
+
+    activities = []
+    courses_count = 0
+    labs_count = 0
+    games_count = 0
+
+    for row_num, row in enumerate(reader, start=header_idx + 2):
+        if not row:
+            continue
+            
+        max_idx = max(filter(lambda x: x is not None, col_map.values()))
+        if len(row) <= max_idx:
+            continue
+            
+        title = row[col_map["title"]].strip()
         
-        # Verify required columns exist
-        if col_map["title"] is None:
-            print("❌ Error: Could not detect an 'Activity Title' or 'Name' column in your CSV.")
-            print(f"Headers present: {headers}")
-            sys.exit(1)
-
-        for row_num, row in enumerate(reader, start=2):
-            if not row:
-                continue
-            # Handle potential short rows defensively
-            max_idx = max(filter(lambda x: x is not None, col_map.values()))
-            if len(row) <= max_idx:
-                print(f"⚠️ Warning: Row {row_num} is shorter than expected index. Skipping: {row}")
-                continue
-                
-            title = row[col_map["title"]].strip()
-            if not title:
-                continue
-                
-            raw_date = row[col_map["date"]].strip() if col_map["date"] is not None else ""
-            date_completed = parse_csv_date(raw_date)
+        # Skip metadata/header replicas
+        if is_garbage_row(title):
+            continue
             
-            activity_type = row[col_map["type"]].strip() if col_map["type"] is not None else "Training"
-            duration = row[col_map["duration"]].strip() if col_map["duration"] is not None else "N/A"
-            
-            activities.append({
-                "title": title,
-                "date": date_completed,
-                "type": activity_type,
-                "duration": duration
-            })
+        raw_date = row[col_map["date"]].strip() if col_map["date"] is not None else ""
+        date_completed = parse_csv_date(raw_date)
+        
+        raw_type = row[col_map["type"]].strip() if col_map["type"] is not None else "Training"
+        duration = row[col_map["duration"]].strip() if col_map["duration"] is not None else "N/A"
+        if not duration or duration.lower() == "null":
+            duration = "N/A"
 
-    print(f"✅ Successfully parsed {len(activities)} AWS activities from CSV.")
+        # --- SMART CLASSIFICATION ENGINE ---
+        is_lab = any(k in raw_type.lower() or k in title.lower() for k in ["lab", "hands-on", "builder lab", "sandbox"])
+        is_game = any(k in raw_type.lower() or k in title.lower() for k in ["game", "quest", "simulearn", "simulation"])
+
+        if is_game:
+            games_count += 1
+            display_type = "Game / Quest"
+        elif is_lab:
+            labs_count += 1
+            display_type = "Self-Paced Lab"
+        else:
+            courses_count += 1
+            display_type = "Digital Course"
+
+        activities.append({
+            "title": title,
+            "date": date_completed,
+            "type": display_type,
+            "duration": duration
+        })
+
+    print(f"✅ Successfully parsed {len(activities)} valid AWS activities.")
 
     # Sort achievements (newest completed first)
     activities.sort(key=lambda x: x["date"] or "0000-00-00", reverse=True)
-
-    # Calculate summary metrics
     total_completions = len(activities)
-    labs_count = sum(1 for a in activities if "lab" in a["type"].lower() or "lab" in a["title"].lower())
-    courses_count = sum(1 for a in activities if "course" in a["type"].lower() or "digital" in a["type"].lower() or "e-learning" in a["type"].lower())
-    games_count = sum(1 for a in activities if any(k in a["type"].lower() or k in a["title"].lower() for k in ["game", "quest", "simulearn"]))
 
-    # Build Markdown Summary for the README.md
+    # 4. Build Markdown Summary for the README.md
     md = []
     md.append("### AWS Skill Builder Summary")
     md.append(f"**Public Profile:** [Verify AWS Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)  \n")
@@ -210,15 +252,15 @@ def main():
             new_readme = f"{parts_before}{MARKER_START}\n" + "\n".join(md) + f"{MARKER_END}{parts_after}"
             with open(README_PATH, "w", encoding="utf-8") as f:
                 f.write(new_readme)
-            print("✅ Successfully updated README.md with AWS data!")
+            print("✅ Successfully updated README.md with clean AWS data!")
         else:
-            print("⚠️ Error: Could not find AWS HTML tags (<!-- AWS_SKILLS_START --> / <!-- AWS_SKILLS_END -->) in README.md.")
+            print("❌ Error: Could not find AWS HTML tags in README.md.")
             sys.exit(1)
     else:
-        print("❌ Error: README.md not found in the workspace.")
+        print("❌ Error: README.md not found.")
         sys.exit(1)
 
-    # Write Complete Log to data/aws_achievements.md
+    # 5. Write Complete Log to data/aws_achievements.md
     print(f"Generating complete AWS archive in {AWS_ACHIEVEMENTS_PATH}...")
     archive_md = []
     archive_md.append("# Complete AWS Skill Builder Achievements Archive\n")
@@ -228,10 +270,8 @@ def main():
 
     for act in activities:
         title_clean = act["title"].replace("|", "\\|")
-        # Every completed training comes with a cert (though not all are Credly badges)
         archive_md.append(f"| {title_clean} | {act['type']} | {act['date']} | {act['duration']} | 🎓 Available on Profile |")
 
-    # Ensure the data directory exists (just in case)
     os.makedirs(os.path.dirname(AWS_ACHIEVEMENTS_PATH), exist_ok=True)
     with open(AWS_ACHIEVEMENTS_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(archive_md))
