@@ -269,7 +269,7 @@ Showing the latest 50 of 4,713 total achievements. The complete list is fully ar
 | <img src="https://cdn.qwiklabs.com/h%2BPMYMQF6Z39Z9u74W0NPiTRq%2Bh43WZbJl98%2Br1S3Ek%3D" width="40" /> | **Build a Certification Study Guide: ACE Exam Prep** | *Earned Dec 29, 2025* |
 | <img src="https://cdn.qwiklabs.com/0VkisKkC7b9rlHYO0JkLd3fqVWdgaq%2BLDMn0IsVllxo%3D" width="40" /> | **Developing a Google SRE Culture** | *Earned Dec 29, 2025* |
 | <img src="https://cdn.qwiklabs.com/D1S2NhkrHe51ZFNHTpC5vebrzuq0RKjjtjnZvapYqNk%3D" width="40" /> | **Managing Change when Moving to Google Cloud** | *Earned Dec 28, 2025* |
-| <img src="https://cdn.qwiklabs.com/0xFlNTExj5NZiHciw6SYD2qaCpY4Xp7FWGLXeQHtKtY%3D" width="40" /> | **Deploying SAP on Google Cloud** | *Earned Dec 28, 2025* |
+| <img src="https://cdn.qwiklabs.com/0xFlNTExj5NZiHciw6SYD2qaCpY4Xp7FWGLXeQHtKtY%3D" width="40" /> | **Running SAP Workloads on Google Cloud: Fundamentals** | *Earned Dec 28, 2025* |
 | <img src="https://cdn.qwiklabs.com/Qg7C09oqmPdzlkyLhuXfZi%2FwnMpcXNhOp7ePpLADkzw%3D" width="40" /> | **The Modern Data Platform and LookML** | *Earned Dec 27, 2025* |
 | <img src="https://cdn.qwiklabs.com/qahOBm2tlWmQsp83hDK1jRlZk8PqltRFx9dM5D2aGiY%3D" width="40" /> | **Introduction to Cloud Identity** | *Earned Dec 27, 2025* |
 | <img src="https://cdn.qwiklabs.com/BPGDCZcUNcYPOtWUc8mYDUbfyCsg%2B57Ycp8bLidZAfE%3D" width="40" /> | **AppSheet Administration** | *Earned Dec 26, 2025* |
