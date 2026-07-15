@@ -438,9 +438,9 @@ Showing the latest 50 of 4,713 total achievements. The complete list is fully ar
 #### Platform Progress Summary
 | Metric | Count |
 | :--- | :--- |
-| **Total Completed Activities** | 424 |
-| **Digital Courses** | 0 |
-| **Self-Paced Builder Labs** | 5 |
+| **Total Completed Activities** | 420 |
+| **Digital Courses** | 375 |
+| **Self-Paced Builder Labs** | 13 |
 | **In-Game Simulations (Cloud Quest)** | 32 |
 
 
@@ -459,16 +459,16 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 
 | Activity Title | Type | Date Completed | Duration |
 | :--- | :--- | :--- | :--- |
-| **Generated on: 15. јул 2026.** | Training | ** | N/A |
-| **Total rows: 421** | Training | ** | N/A |
-| **Title** | Training | ** | N/A |
-| **[RETIRED] AWS Fargate - Overview** | Training | ** | N/A |
-| **[RETIRED] Build a migration assessment with AWS Transform** | Training | ** | N/A |
-| **[RETIRED] Building with MultiModal Knowledge Bases in AWS Bedrock** | Training | ** | N/A |
-| **[RETIRED] Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2)** | Training | ** | N/A |
-| **[RETIRED] Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service** | Training | ** | N/A |
-| **[RETIRED] How Orchestration Works with AI Agents** | Training | ** | N/A |
-| **[RETIRED] Introduction to Amazon CloudFront** | Training | ** | N/A |
+| **Amazon Q Developer Transformation** | Digital Course | *March 9, 2026* | 30 minutes |
+| **Amazon Simple Notification Service (SNS) Getting Started** | Digital Course | *March 9, 2026* | 1 hour |
+| **AWS Billing and Cost Management** | Digital Course | *March 9, 2026* | 20 minutes |
+| **AWS Lambda Foundations** | Digital Course | *March 9, 2026* | 2 hours |
+| **AWS X-Ray Getting Started** | Digital Course | *March 9, 2026* | 1 hour |
+| **[RETIRED] AWS Fargate - Overview** | Digital Course | *March 8, 2026* | 10 minutes |
+| **[RETIRED] Introduction to Amazon CloudFront** | Digital Course | *March 8, 2026* | 10 minutes |
+| **Amazon Quick Sight Getting Started** | Digital Course | *March 8, 2026* | 1 hour |
+| **Amazon SageMaker Unified Studio Foundations** | Digital Course | *March 8, 2026* | 1 hour |
+| **Introduction to AI-Driven Development Lifecycle** | Digital Course | *March 8, 2026* | 15 minutes |
 
 <!-- AWS_SKILLS_END -->
 
