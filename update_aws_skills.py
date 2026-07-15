@@ -15,8 +15,8 @@ MARKER_END = "<!-- AWS_SKILLS_END -->"
 # Update these manually in this script when you hit new milestones!
 CLOUD_QUEST_STATS = {
     "Builder Level": 12,
-    "Reputation Level": 95,
-    "Pets Unlocked": 17,
+    "Reputation Level": 4,
+    "Pets Unlocked": 3,
     "Vehicles Unlocked": 2,
     "Role": "Cloud Practitioner / Solutions Architect"
 }
@@ -236,81 +236,6 @@ def main():
     with open(AWS_ACHIEVEMENTS_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(archive_md))
     print("✅ Complete AWS Archive updated successfully!")
-
-if __name__ == "__main__":
-    main()            })
-
-    # Sort achievements (newest completed first)
-    activities.sort(key=lambda x: x["date"] or "0000-00-00", reverse=True)
-
-    # Calculate summary metrics
-    total_completions = len(activities)
-    labs_count = sum(1 for a in activities if "lab" in a["type"].lower())
-    courses_count = sum(1 for a in activities if "course" in a["type"].lower() or "digital" in a["type"].lower())
-    games_count = sum(1 for a in activities if "game" in a["type"].lower() or "quest" in a["type"].lower())
-
-    # Build Markdown Summary for the README.md
-    md = []
-    md.append("### AWS Skill Builder Summary")
-    md.append(f"**Public Profile:** [Verify AWS Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)  \n")
-    
-    md.append("#### Platform Progress Summary")
-    md.append("| Metric | Count |")
-    md.append("| :--- | :--- |")
-    md.append(f"| **Total Completed Activities** | {total_completions:,} |")
-    md.append(f"| **Digital Courses** | {courses_count:,} |")
-    md.append(f"| **Self-Paced Builder Labs** | {labs_count:,} |")
-    md.append(f"| **In-Game Simulations (Cloud Quest)** | {games_count:,} |")
-    md.append("\n")
-
-    md.append("#### AWS Cloud Quest Stats")
-    md.append("| Stat | Level / Value |")
-    md.append("| :--- | :--- |")
-    for key, val in CLOUD_QUEST_STATS.items():
-        md.append(f"| **{key}** | {val} |")
-    md.append("\n")
-
-    md.append("#### Recent AWS Achievements")
-    md.append(f"Showing the latest 10 activities. See the complete log of completed trainings in our [AWS achievements archive](./data/aws_achievements.md).\n")
-    md.append("| Activity Title | Type | Date Completed | Duration |")
-    md.append("| :--- | :--- | :--- | :--- |")
-    for act in activities[:10]:
-        md.append(f"| **{act['title']}** | {act['type']} | *{act['date']}* | {act['duration']} |")
-    md.append("\n")
-
-    # Update README.md
-    if os.path.exists(README_PATH):
-        with open(README_PATH, "r", encoding="utf-8") as f:
-            readme_content = f.read()
-
-        if MARKER_START in readme_content and MARKER_END in readme_content:
-            parts_before = readme_content.split(MARKER_START)[0]
-            parts_after = readme_content.split(MARKER_END)[1]
-            new_readme = f"{parts_before}{MARKER_START}\n" + "\n".join(md) + f"{MARKER_END}{parts_after}"
-            with open(README_PATH, "w", encoding="utf-8") as f:
-                f.write(new_readme)
-            print("Successfully updated README.md with AWS data!")
-        else:
-            print("Could not find AWS HTML tags in README.md.")
-    else:
-        print("README.md not found.")
-
-    # Write Complete Log to data/aws_achievements.md
-    print(f"Generating complete AWS archive in {AWS_ACHIEVEMENTS_PATH}...")
-    archive_md = []
-    archive_md.append("# Complete AWS Skill Builder Achievements Archive\n")
-    archive_md.append(f"This document contains a complete, historical audit trail of all {total_completions} AWS learning items, digital courses, games, and labs completed on AWS Skill Builder.\n")
-    archive_md.append("| Activity Title | Type | Date Completed | Duration | Certificate |")
-    archive_md.append("| :--- | :--- | :--- | :--- | :--- |")
-
-    for act in activities:
-        title_clean = act["title"].replace("|", "\\|")
-        # Every completed training comes with a cert (though not all are Credly badges)
-        archive_md.append(f"| {title_clean} | {act['type']} | {act['date']} | {act['duration']} | 🎓 Available on Profile |")
-
-    with open(AWS_ACHIEVEMENTS_PATH, "w", encoding="utf-8") as f:
-        f.write("\n".join(archive_md))
-    print("Complete AWS Archive updated successfully!")
 
 if __name__ == "__main__":
     main()
