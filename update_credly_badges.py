@@ -4,6 +4,7 @@ import time
 import requests
 
 USERNAME = "vojislavmiloradovic"
+USER_ID = "752aee40-7358-4ade-9a49-81e8b6f49225"
 README_PATH = "README.md"
 
 # Dynamically check for folder casing so we never fail on Linux runners
@@ -16,38 +17,42 @@ ARCHIVE_PATH = os.path.join(ARCHIVE_DIR, "credly-badges.md")
 MARKER_START = "<!-- CREDLY_BADGES_START -->"
 MARKER_END = "<!-- CREDLY_BADGES_END -->"
 
-def fetch_paginated_data(endpoint_name, headers):
-    """Utility to fetch all pages of data from a given Credly user endpoint."""
+def fetch_paginated_data(url_template, headers, page_size=48):
+    """Utility to fetch all pages of data from a given Credly API template."""
     all_items = []
     page = 1
     total_pages = 1
     
-    print(f"📡 Fetching '{endpoint_name}' for '{USERNAME}'...")
-    
     while page <= total_pages:
-        url = f"https://www.credly.com/users/{USERNAME}/{endpoint_name}?page={page}"
-        print(f"   -> Fetching page {page} of {total_pages}...")
+        url = url_template.format(page=page, page_size=page_size)
+        print(f"   -> Fetching {url}...")
         
         try:
             response = requests.get(url, headers=headers, timeout=15)
             response.raise_for_status()
             data = response.json()
         except Exception as e:
-            print(f"❌ Error fetching {endpoint_name} page {page}: {e}")
+            print(f"❌ Error fetching page {page}: {e}")
             break
 
         page_items = data.get("data", [])
         if not page_items:
+            print(f"⚠️ Page {page} returned no data. Stopping fetch.")
             break
 
         all_items.extend(page_items)
 
-        # Update total pages from metadata
+        # Determine total pages dynamically from metadata, or fallback to page size comparison
         metadata = data.get("metadata", {})
-        total_pages = metadata.get("total_pages", total_pages)
+        if "total_pages" in metadata:
+            total_pages = metadata["total_pages"]
+        elif len(page_items) < page_size:
+            total_pages = page
+        else:
+            total_pages = max(total_pages, page + 1)
         
         page += 1
-        time.sleep(0.5)
+        time.sleep(0.5)  # Respectful delay
         
     return all_items
 
@@ -57,12 +62,16 @@ def main():
         "Accept": "application/json"
     }
 
-    # 1. Fetch Native Badges
-    native_raw = fetch_paginated_data("badges.json", headers)
+    # 1. Fetch Native Badges (via public profile endpoint)
+    print(f"📡 Fetching native badges for '{USERNAME}'...")
+    native_url_template = "https://www.credly.com/users/" + USERNAME + "/badges.json?page={page}"
+    native_raw = fetch_paginated_data(native_url_template, headers)
     print(f"✅ Found {len(native_raw)} native platform badges.")
 
-    # 2. Fetch External/Other Badges
-    external_raw = fetch_paginated_data("external_badges.json", headers)
+    # 2. Fetch External/Other Open Badges (via the user-discovered v1 endpoint)
+    print(f"📡 Fetching external open badges for User UUID: '{USER_ID}'...")
+    external_url_template = "https://www.credly.com/api/v1/users/" + USER_ID + "/external_badges/open_badges/public?page={page}&page_size={page_size}"
+    external_raw = fetch_paginated_data(external_url_template, headers)
     print(f"✅ Found {len(external_raw)} external/imported badges.")
 
     badges = []
@@ -97,39 +106,66 @@ def main():
             "skills": badge_skills
         })
 
-    # Process External Badges (Defensively parsed)
+    # Process External Open Badges (Defensively parsed to handle standard Open Badges JSON keys)
     for item in external_raw:
-        # Check standard fields, with fallbacks for nested template structures
-        name = item.get("title") or item.get("name")
+        # 1. Find Title/Name
+        name = item.get("name") or item.get("title")
+        if not name and "badge" in item:
+            badge_obj = item.get("badge", {})
+            if isinstance(badge_obj, dict):
+                name = badge_obj.get("name") or badge_obj.get("title")
         if not name and "badge_template" in item:
             name = item.get("badge_template", {}).get("name") or item.get("badge_template", {}).get("title")
+        if not name and "badge_class" in item:
+            name = item.get("badge_class", {}).get("name") or item.get("badge_class", {}).get("title")
         name = name or "Unknown Certification"
 
-        issuer_name = item.get("issuer") or item.get("issuer_name")
+        # 2. Find Issuer Name
+        issuer_name = None
+        if "issuer" in item:
+            issuer_obj = item.get("issuer")
+            if isinstance(issuer_obj, dict):
+                issuer_name = issuer_obj.get("name") or issuer_obj.get("summary")
+            else:
+                issuer_name = str(issuer_obj)
+        if not issuer_name:
+            issuer_name = item.get("issuer_name")
+        if not issuer_name and "badge" in item:
+            badge_obj = item.get("badge", {})
+            if isinstance(badge_obj, dict):
+                issuer_obj = badge_obj.get("issuer", {})
+                if isinstance(issuer_obj, dict):
+                    issuer_name = issuer_obj.get("name") or issuer_obj.get("summary")
         if not issuer_name and "badge_template" in item:
             template = item.get("badge_template", {})
             issuer_obj = template.get("issuer", {})
-            issuer_name = issuer_obj.get("summary") if isinstance(issuer_obj, dict) else str(issuer_obj)
+            if isinstance(issuer_obj, dict):
+                issuer_name = issuer_obj.get("summary") or issuer_obj.get("name")
+        if not issuer_name and "badge_class" in item:
+            badge_class = item.get("badge_class", {})
+            issuer_obj = badge_class.get("issuer", {})
+            if isinstance(issuer_obj, dict):
+                issuer_name = issuer_obj.get("name") or issuer_obj.get("summary")
+        
         issuer_name = issuer_name or "Third-Party Issuer"
 
-        issued_at = item.get("issued_at_date") or item.get("issued_at") or item.get("earned_at") or "N/A"
-        
-        # Clean up timestamp strings to just dates (YYYY-MM-DD) if possible
+        # 3. Find Earned/Issued Date
+        issued_at = item.get("issued_at_date") or item.get("issued_at") or item.get("issued_on") or item.get("earned_at") or "N/A"
         if issued_at and "T" in issued_at:
             issued_at = issued_at.split("T")[0]
 
-        # External certifications usually don't link to a unique credly verification page,
-        # so we point to your public profile for manual verification.
-        verify_url = f"https://www.credly.com/users/{USERNAME}"
+        # External badges redirect users back to the profile or standard assertion URL if available
+        verify_url = item.get("verification_url") or item.get("assertion_url") or f"https://www.credly.com/users/{USERNAME}"
 
-        # Parse skills if available
-        raw_skills = item.get("skills", []) or item.get("badge_template", {}).get("skills", [])
+        # 4. Find Mapped Skills
+        raw_skills = item.get("skills", []) or item.get("badge_template", {}).get("skills", []) or item.get("badge", {}).get("skills", []) or item.get("badge_class", {}).get("skills", [])
         badge_skills = []
-        for s in raw_skills:
-            skill_name = s.get("name") if isinstance(s, dict) else str(s)
-            if skill_name:
-                badge_skills.append(skill_name)
-                all_skills_set.add(skill_name)
+        if isinstance(raw_skills, list):
+            for s in raw_skills:
+                skill_name = s.get("name") if isinstance(s, dict) else str(s)
+                if skill_name:
+                    badge_skills.append(skill_name)
+                    all_skills_set.add(skill_name)
 
         badges.append({
             "name": name,
@@ -140,18 +176,17 @@ def main():
             "skills": badge_skills
         })
 
-    # Sort all unified badges chronologically (newest first)
+    # Sort all unified credentials chronologically (newest first)
     badges.sort(key=lambda x: x["date"] or "0000-00-00", reverse=True)
 
     total_badges = len(badges)
     unique_skills = sorted(list(all_skills_set))
     total_skills = len(unique_skills)
 
-    # Count breakdowns
     native_count = sum(1 for b in badges if b["type"] == "Credly Verified")
     external_count = sum(1 for b in badges if b["type"] == "External/Imported")
 
-    # 1. Update main README.md
+    # Update main README.md
     readme_md = []
     readme_md.append("### Credly Verified Credentials\n")
     readme_md.append(f"**Public Profile:** [Verify Credly Profile](https://www.credly.com/users/{USERNAME})  \n")
@@ -175,11 +210,11 @@ def main():
             new_content = f"{before}{MARKER_START}\n" + "".join(readme_md) + f"{MARKER_END}{after}"
             with open(README_PATH, "w", encoding="utf-8") as f:
                 f.write(new_content)
-            print("✅ Successfully updated README.md with unified Credly metadata!")
+            print("✅ Successfully updated README.md with clean unified metadata!")
         else:
             print("❌ Error: Credly markers not found in README.md.")
     
-    # 2. Update archives/credly-badges.md
+    # Update archives/credly-badges.md
     archive_md = []
     archive_md.append("# Complete Credly Badges & Mapped Skills Archive\n")
     archive_md.append(f"This document represents a unified, verifiable list of all {total_badges} digital credentials ({native_count} native, {external_count} external) and {total_skills} mapped professional skills parsed from my [public Credly profile](https://www.credly.com/users/{USERNAME}).\n\n")
