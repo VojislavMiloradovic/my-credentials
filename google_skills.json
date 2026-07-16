@@ -1,6 +1,6 @@
 {
   "profile_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_points": "188,404",
+  "total_points": "188,418",
   "internal_stats": {
     "Course": 330,
     "Check": 1769,
@@ -9,8 +9,20 @@
     "Lab": 219,
     "Lesson": 4830
   },
-  "total_badges": 324,
+  "total_badges": 326,
   "badges": [
+    {
+      "title": "Build a Data Mesh with Knowledge Catalog",
+      "date_earned": "Earned Jul 16, 2026",
+      "image_url": "https://cdn.qwiklabs.com/57Km4VtqMZ1aNHtmNLCkRTas4r0vcu7f%2BlQvUO9epME%3D",
+      "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597616"
+    },
+    {
+      "title": "Arcade Simulator: Data Mesh Architect",
+      "date_earned": "Earned Jul 16, 2026",
+      "image_url": "https://cdn.qwiklabs.com/CgRBQEUg7YhxATsCkLKSbBscILvZP2S09yOmIJNnw%2Bk%3D",
+      "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597578"
+    },
     {
       "title": "Deploy and Monitor in Google Cloud for AWS Professionals",
       "date_earned": "Earned Jul 15, 2026",

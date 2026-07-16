@@ -84,10 +84,10 @@ Showing the latest 50 of 4,714 total achievements. The complete list is fully ar
 ## Google Skills Credentials
 
 <!-- GOOGLE_SKILLS_START -->
-### Google Cloud Skills Boost (324 Badges)
+### Google Cloud Skills Boost (326 Badges)
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
-**Total Lifetime Points:** 188,404
+**Total Lifetime Points:** 188,418
 
 #### Platform Progress Summary
 | Metric | Count |
@@ -102,6 +102,8 @@ Showing the latest 50 of 4,714 total achievements. The complete list is fully ar
 #### Earned Badges
 | Badge | Credential | Date Earned | Verification |
 |:---:|---|:---:|:---:|
+| <img src="https://cdn.qwiklabs.com/57Km4VtqMZ1aNHtmNLCkRTas4r0vcu7f%2BlQvUO9epME%3D" width="40" /> | **Build a Data Mesh with Knowledge Catalog** | *Earned Jul 16, 2026* | [Verify Credential](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597616) |
+| <img src="https://cdn.qwiklabs.com/CgRBQEUg7YhxATsCkLKSbBscILvZP2S09yOmIJNnw%2Bk%3D" width="40" /> | **Arcade Simulator: Data Mesh Architect** | *Earned Jul 16, 2026* | [Verify Credential](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597578) |
 | <img src="https://cdn.qwiklabs.com/gqP5eOJUQIMrIB9zIACns%2F65zylp3K7RCJuHj%2FKMEuQ%3D" width="40" /> | **Deploy and Monitor in Google Cloud for AWS Professionals** | *Earned Jul 15, 2026* | [Verify Credential](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25533410) |
 | <img src="https://cdn.qwiklabs.com/wAyTzqH4JMPz47%2F2vWT%2FLbiAeaZf6P0s%2B7x8PpFv1C0%3D" width="40" /> | **Developing Containerized Applications on Google Cloud** | *Earned Jul 13, 2026* | [Verify Credential](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25498091) |
 | <img src="https://cdn.qwiklabs.com/H1TlyAwC5D%2BxojkEv8YL8ZhfjLf9U3haMXCMiODB5VM%3D" width="40" /> | **Developing Applications with Cloud Run Functions on Google Cloud** | *Earned Jul 12, 2026* | [Verify Credential](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25465700) |
