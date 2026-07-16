@@ -121,6 +121,12 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 
 <!-- AWS_SKILLS_END -->
 
+
+## Credly Credentials
+
+<!-- CREDLY_BADGES_START -->
+<!-- CREDLY_BADGES_END -->
+
 *(This section will be automatically updated by our GitHub automation once we upload the JSON file)*
 
 
