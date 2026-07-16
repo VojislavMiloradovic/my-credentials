@@ -125,6 +125,27 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 ## Credly Credentials
 
 <!-- CREDLY_BADGES_START -->
+### Credly Verified Credentials
+**Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)  
+**Total Verified Badges:** 48  
+**Total Verified Skills Mapped:** 266
+
+#### Latest Earned Credentials
+| Date Earned | Credential Name | Issuer |
+|:---:|---|---|
+| *2026-07-16* | **Build a Data Mesh with Dataplex Skill Badge** | issued by Google Cloud |
+| *2026-07-15* | **AWS Educate Getting Started with Storage - Training Badge** | issued by Amazon Web Services Training and Certification |
+| *2026-07-15* | **Building AI-Powered Search with MongoDB Vector Search** | issued by MongoDB |
+| *2026-07-15* | **Cloud Tech Professional Disaster Recovery** | issued by Acronis |
+| *2026-07-15* | **Strategic Cybersecurity Management** | issued by AttackIQ |
+| *2026-07-14* | **Acronis Cyber Protect – Endpoint Management Basics** | issued by Acronis |
+| *2026-07-14* | **AWS Knowledge: AI Basics - Training Badge** | issued by Amazon Web Services Training and Certification |
+| *2026-07-14* | **FIPS Frontrunner** | issued by Chainguard |
+| *2026-07-14* | **From Relational Model (SQL) to MongoDB's Document Model** | issued by MongoDB |
+| *2026-07-14* | **Uniting Threat and Risk Management with NIST 800-53 and MITRE ATT&CK** | issued by AttackIQ |
+
+👉 **[View all 48 badges and 266 verified skills in the full archive](./archives/credly-badges.md)**
+
 <!-- CREDLY_BADGES_END -->
 
 *(This section will be automatically updated by our GitHub automation once we upload the JSON file)*
