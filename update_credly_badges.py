@@ -1,11 +1,12 @@
 import os
 import sys
+import time
 import requests
 
 USERNAME = "vojislavmiloradovic"
 README_PATH = "README.md"
 
-# 1. Dynamically check for folder casing so we never fail on Linux runners
+# Dynamically check for folder casing so we never fail on Linux runners
 ARCHIVE_DIR = "archives"
 if os.path.isdir("Archives"):
     ARCHIVE_DIR = "Archives"
@@ -16,29 +17,48 @@ MARKER_START = "<!-- CREDLY_BADGES_START -->"
 MARKER_END = "<!-- CREDLY_BADGES_END -->"
 
 def main():
-    url = f"https://www.credly.com/users/{USERNAME}/badges.json"
-    print(f"📡 Fetching public Credly profile for '{USERNAME}'...")
-    
-    # Send browser-like headers to prevent Cloudflare from blocking the GitHub runner
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Accept": "application/json"
     }
-    
-    try:
-        response = requests.get(url, headers=headers, timeout=15)
-        response.raise_for_status()
-        data = response.json()
-    except Exception as e:
-        print(f"❌ Error fetching Credly data: {e}")
-        sys.exit(1)
 
-    badges_raw = data.get("data", [])
+    badges_raw = []
+    page = 1
+    total_pages = 1  # Will be updated dynamically on the first request
+
+    print(f"📡 Initiating multi-page fetch for '{USERNAME}' on Credly...")
+
+    while page <= total_pages:
+        url = f"https://www.credly.com/users/{USERNAME}/badges.json?page={page}"
+        print(f"   -> Fetching page {page} of {total_pages}...")
+        
+        try:
+            response = requests.get(url, headers=headers, timeout=15)
+            response.raise_for_status()
+            data = response.json()
+        except Exception as e:
+            print(f"❌ Error fetching page {page}: {e}")
+            sys.exit(1)
+
+        page_badges = data.get("data", [])
+        if not page_badges:
+            print(f"⚠️ Page {page} returned no data. Stopping fetch.")
+            break
+
+        badges_raw.extend(page_badges)
+
+        # Dynamically determine the true total pages from the response metadata
+        metadata = data.get("metadata", {})
+        total_pages = metadata.get("total_pages", total_pages)
+        
+        page += 1
+        time.sleep(0.5)  # Respectful delay between pages
+
     if not badges_raw:
         print("❌ No public badges found on your profile.")
         sys.exit(1)
 
-    print(f"✅ Found {len(badges_raw)} badges!")
+    print(f"✅ Successfully downloaded all {len(badges_raw)} badges!")
 
     badges = []
     all_skills_set = set()
@@ -71,11 +91,14 @@ def main():
             "skills": badge_skills
         })
 
+    # Sort badges newest first
+    badges.sort(key=lambda x: x["date"] or "0000-00-00", reverse=True)
+
     total_badges = len(badges)
     unique_skills = sorted(list(all_skills_set))
     total_skills = len(unique_skills)
 
-    # Generate clean text-only README metadata
+    # 1. Generate clean text-only README metadata
     readme_md = []
     readme_md.append("### Credly Verified Credentials\n")
     readme_md.append(f"**Public Profile:** [Verify Credly Profile](https://www.credly.com/users/{USERNAME})  \n")
@@ -104,7 +127,7 @@ def main():
         else:
             print("❌ Error: Credly markers not found in README.md.")
     
-    # Generate structured archives file
+    # 2. Generate structured archives file
     archive_md = []
     archive_md.append("# Complete Credly Badges & Mapped Skills Archive\n")
     archive_md.append(f"This document represents a verifiable list of all {total_badges} digital credentials and {total_skills} mapped professional skills parsed directly from my [public Credly profile](https://www.credly.com/users/{USERNAME}).\n\n")
