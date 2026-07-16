@@ -7,11 +7,11 @@ URL = "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b153
 
 # --- 1. INTERNAL STATS (Update these counts whenever you make progress!) ---
 INTERNAL_STATS = {
-    "Course": 330,
+    "Course": 331,
     "Check": 1769,
     "Classroom": 0,
-    "Game": 3,
-    "Lab": 219,
+    "Game": 4,
+    "Lab": 223,
     "Lesson": 4830
 }
 
