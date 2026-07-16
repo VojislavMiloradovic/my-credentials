@@ -11,29 +11,6 @@ These skill keywords are programmatically extracted from metadata verified by is
 ## Verified Credentials Archive
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 |:---:|---|---|:---:|:---:|
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
-| N/A | **Unknown Certification** | Third-Party Issuer | `External/Imported` | [Verify](https://www.credly.com/users/vojislavmiloradovic) |
 | 2026-07-16 | **Build a Data Mesh with Dataplex Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/68710fa4-e750-49a8-b542-5ed9e47c7e7b) |
 | 2026-07-15 | **AWS Educate Getting Started with Storage - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/c0cd9a0e-d2c9-4c72-9e6f-87b5cedde8a7) |
 | 2026-07-15 | **Building AI-Powered Search with MongoDB Vector Search** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/106d3801-84c1-4057-8474-6450f2a84b33) |
@@ -209,6 +186,7 @@ These skill keywords are programmatically extracted from metadata verified by is
 | 2026-06-08 | **SKF100: Understanding the OWASP® Top 10 Security Threats** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/8a0199ec-ff1c-4b87-a185-92cf277719e6) |
 | 2026-06-07 | **AWS Knowledge: Amazon Braket - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/8a9f2e87-0407-4376-8b09-d10fa0b6a6b9) |
 | 2026-06-07 | **LFS101: Introduction to Linux** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/e0a7c437-4f29-4111-96d2-2c8f15eb14cc) |
+| 2026-06-07 | **Google Play Academy - Store Listing Certificate** | Google Play Academy | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/1473fa50-8b83-4ccf-a376-6cd671db8b80) |
 | 2026-06-06 | **AWS Knowledge: Networking Core - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/80648322-ee54-4e43-9d4b-f311dcc569cd) |
 | 2026-06-06 | **Intelligent Diagramming** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/a5b0658c-f2cb-4aa4-85db-5d2c8eefa144) |
 | 2026-06-06 | **Radical Product Thinking: Vision Setting** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/d38891c5-dcb5-4e3d-b354-9b2fcf1d072b) |
@@ -330,6 +308,8 @@ These skill keywords are programmatically extracted from metadata verified by is
 | 2026-05-11 | **Manage BYOD via Identity-Aware Integration** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/959093f9-1e07-4096-be63-35d61fbe8113) |
 | 2026-05-11 | **Manage Network Zones** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/81d0acf7-f9e1-43d7-97b1-9ca812002a92) |
 | 2026-05-11 | **Secure AI Workflows with Auth0 for AI Agents** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/ed47f33d-7002-4feb-a1d2-c682ec20879d) |
+| 2026-05-11 | **Display & Video 360 Certification Exam** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/0658506c-3b28-4deb-9088-ab7d34d70ff9) |
+| 2026-05-11 | **Privacy for Agencies and Partners Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/ce77e9e9-f2c5-4ff4-a2bb-3e5ab37134c3) |
 | 2026-05-10 | **Define a Secure Policy Structure** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/c2ff8b68-4187-4799-b8b5-27c9fa37ef45) |
 | 2026-05-10 | **Define Your Users in Okta** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/3901feb8-cf8a-4873-9608-66a84f5981a6) |
 | 2026-05-10 | **Manage User Profiles in UD** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/23833ee2-c157-450c-963c-0eae083fefea) |
@@ -392,9 +372,11 @@ These skill keywords are programmatically extracted from metadata verified by is
 | 2026-04-22 | **Apply AI: Analyze Customer Reviews** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/6d85c6c9-351b-42fe-a3ad-27598dd34dec) |
 | 2026-04-22 | **Discovering Extended Warehouse Management with SAP S/4HANA - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/57c930ea-4372-4144-a8d3-92e615d6f439) |
 | 2026-04-22 | **Enterprise Design Thinking Practitioner** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/b18e17a2-6952-4d85-8adf-5eb5a0dfb366) |
+| 2026-04-22 | **Google Ads Video Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/2359f6e3-1f9d-486a-a89f-f60927b57349) |
 | 2026-04-21 | **Explorations into Mindfulness** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/58226aca-cc26-41a3-8ed7-1ef7e7880114) |
 | 2026-04-21 | **Linux Unhatched** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/4c3ee7b3-330b-437b-8e6a-91d96bca1b45) |
 | 2026-04-21 | **Transition from SAP Solution Manager to SAP Cloud ALM - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/e95d01e6-d813-4038-bc38-8e396c4b88bc) |
+| 2026-04-21 | **Google Ads Creative Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/72c8a75b-85e1-4619-b34b-61adaa5a68c9) |
 | 2026-04-20 | **AWS Knowledge: Amazon Connect Fundamentals - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/cb6a4e9e-b375-4e40-bf27-7f3d4ad252d5) |
 | 2026-04-20 | **Explore Emerging Tech** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/67d065a9-5177-45e1-b94d-72bc4b493ca0) |
 | 2026-04-20 | **Introduction to Greenhouse Gas Accounting for IT** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/1b2c72f1-8e6b-4d6a-8e87-4c3a404a6250) |
@@ -402,6 +384,7 @@ These skill keywords are programmatically extracted from metadata verified by is
 | 2026-04-19 | **AI Fundamentals: Foundations for Understanding AI** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/2a493aff-eb08-4456-8683-8b9d1d7c5eef) |
 | 2026-04-19 | **AWS Knowledge: AWS Transform Fundamentals – Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/54d81ecb-6fd5-4ff9-aba6-6acaa59cdcec) |
 | 2026-04-19 | **Introduction to IoT** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/9fd72888-3b11-4f02-b53a-1506890ed015) |
+| 2026-04-19 | **Google Ads Display Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/aaa06037-984b-436d-a969-138478771e90) |
 | 2026-04-18 | **Digital Awareness** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/9edc3f97-91e5-4d5d-b674-27e822964fb4) |
 | 2026-04-18 | **Modernizing Integration with SAP Integration Suite - SAP Learning MOOC - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/f3166cf7-82ab-4871-8b96-7ed8cbf350e6) |
 | 2026-04-18 | **Understanding SAP’s 2026 Go-to-Market Direction for Partners - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/cccb34bc-a8ae-4c85-8a7f-793cd28bfa1b) |
@@ -428,6 +411,23 @@ These skill keywords are programmatically extracted from metadata verified by is
 | 2026-04-06 | **AI Literacy** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/551e7ae7-9b80-409b-901c-b0a1f9ec07b6) |
 | 2026-04-06 | **Applying a Human-Centered Approach to Identify and Define Business AI Use Cases - Record of Course Completion** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/5d816ed5-4a21-44b4-bd1f-969c61d9fb19) |
 | 2026-04-05 | **Provisioning and Implementing Joule - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/68d24b44-8104-4e53-9742-256adacb3627) |
+| 2026-04-01 | **Campaign manager 360 Certification Exam** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/c9bfd359-05b1-4751-8872-a99c43f4883b) |
+| 2026-03-30 | **Conversion Optimization Certification Exam** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/3c4afa84-5637-4c3b-b3fc-6e6c26e48d35) |
+| 2026-03-26 | **Grow Offline Sales Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/2d2774cb-bf2e-47c5-a286-86de5cc1bcd8) |
+| 2026-03-25 | **Microsoft Applied Skills: Generate reports with AI research agents** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/ABC20116B56C7F9F?sharingId=4883E92AA6332B3F) |
+| 2026-03-24 | **Search Ads 360 Certification Exam** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/5b477ad2-43c6-4789-af30-137f9f87f4c6) |
+| 2026-03-23 | **Google Ads Apps Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/2d3974a2-6a69-4b66-8886-350d7b1626d5) |
+| 2026-03-21 | **Microsoft Applied Skills: Get started with identities and access using Microsoft Entra** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/27BB90F5B956E0C8?sharingId=4883E92AA6332B3F) |
+| 2026-03-20 | **Google Ads Measurement Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/3eec0163-8804-4d17-bde0-d08e6c76d74c) |
+| 2026-03-18 | **Microsoft Applied Skills: Get started with Azure management tasks** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B7C5DF765FB52CEA?sharingId=4883E92AA6332B3F) |
+| 2026-03-17 | **AI-Powered Shopping ads Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/09192bf8-4cca-4947-86c8-58a0b29d6511) |
+| 2026-03-16 | **AI-Powered Performance Ads Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/1583f933-2a97-47bc-b442-8ad614e6982d) |
+| 2026-03-16 | **Microsoft Applied Skills: Get started with cloud security and monitoring tasks** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/1EBB80C496C2DDF1?sharingId=4883E92AA6332B3F) |
+| 2026-03-15 | **Google Ads Search Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/f0f3a46f-f6a1-4145-8fb5-2c2bb41a761f) |
+| 2026-03-15 | **Microsoft Applied Skills: Streamline business workflows with AI chat** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/CE7FBB459ADAB331?sharingId=4883E92AA6332B3F) |
+| 2026-03-14 | **Microsoft Applied Skills: Create an AI agent** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/DC86763A7069ABBF?sharingId=4883E92AA6332B3F) |
+| 2026-03-12 | **Google Analytics Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/c845a7b6-cef3-4e66-87e2-481771d889ed) |
+| 2026-02-07 | **Oracle Cloud Success Navigator Essentials** | Oracle | `External/Imported` | [Verify](https://catalog-education.oracle.com/pls/certview/sharebadge?id=E11489205EF3BEE917EAFE29D12203DA2526C300DB291B1D3B7F3E1F84C70D87) |
 | 2025-12-20 | **Implement Load Balancing on Compute Engine Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/a081bb3e-083d-4ccc-a074-c7b7e2d15a1b) |
 | 2025-12-18 | **Google Cloud Cybersecurity Certificate** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/5afda7ea-c36e-4393-a74b-05f06757c049) |
 | 2025-11-24 | **Use Functions, Formulas, and Charts in Google Sheets Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/e8a7950a-9042-4809-bf7a-3f01ca2d03dc) |
