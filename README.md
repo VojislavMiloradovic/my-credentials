@@ -127,8 +127,8 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 <!-- CREDLY_BADGES_START -->
 ### Credly Verified Credentials
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)  
-**Total Verified Badges:** 48  
-**Total Verified Skills Mapped:** 266
+**Total Verified Badges:** 399  
+**Total Verified Skills Mapped:** 1628
 
 #### Latest Earned Credentials
 | Date Earned | Credential Name | Issuer |
@@ -144,7 +144,7 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 | *2026-07-14* | **From Relational Model (SQL) to MongoDB's Document Model** | issued by MongoDB |
 | *2026-07-14* | **Uniting Threat and Risk Management with NIST 800-53 and MITRE ATT&CK** | issued by AttackIQ |
 
-👉 **[View all 48 badges and 266 verified skills in the full archive](./archives/credly-badges.md)**
+👉 **[View all 399 badges and 1628 verified skills in the full archive](./archives/credly-badges.md)**
 
 <!-- CREDLY_BADGES_END -->
 
