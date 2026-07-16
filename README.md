@@ -127,24 +127,24 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 <!-- CREDLY_BADGES_START -->
 ### Credly Verified Credentials
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)  
-**Total Portfolio Credentials:** 399 (399 Credly Verified, 0 External/Imported)  
-**Total Verified Skills Mapped:** 1628
+**Total Portfolio Credentials:** 422 (399 Credly Verified, 23 External/Imported)  
+**Total Verified Skills Mapped:** 1715
 
 #### Latest Earned Credentials
 | Date Earned | Credential Name | Issuer | Verification Type |
 |:---:|---|---|:---:|
-| *2026-07-16* | **Build a Data Mesh with Dataplex Skill Badge** | issued by Google Cloud | `Credly Verified` |
-| *2026-07-15* | **AWS Educate Getting Started with Storage - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` |
-| *2026-07-15* | **Building AI-Powered Search with MongoDB Vector Search** | issued by MongoDB | `Credly Verified` |
-| *2026-07-15* | **Cloud Tech Professional Disaster Recovery** | issued by Acronis | `Credly Verified` |
-| *2026-07-15* | **Strategic Cybersecurity Management** | issued by AttackIQ | `Credly Verified` |
-| *2026-07-14* | **Acronis Cyber Protect – Endpoint Management Basics** | issued by Acronis | `Credly Verified` |
-| *2026-07-14* | **AWS Knowledge: AI Basics - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` |
-| *2026-07-14* | **FIPS Frontrunner** | issued by Chainguard | `Credly Verified` |
-| *2026-07-14* | **From Relational Model (SQL) to MongoDB's Document Model** | issued by MongoDB | `Credly Verified` |
-| *2026-07-14* | **Uniting Threat and Risk Management with NIST 800-53 and MITRE ATT&CK** | issued by AttackIQ | `Credly Verified` |
+| *N/A* | **Unknown Certification** | Third-Party Issuer | `External/Imported` |
+| *N/A* | **Unknown Certification** | Third-Party Issuer | `External/Imported` |
+| *N/A* | **Unknown Certification** | Third-Party Issuer | `External/Imported` |
+| *N/A* | **Unknown Certification** | Third-Party Issuer | `External/Imported` |
+| *N/A* | **Unknown Certification** | Third-Party Issuer | `External/Imported` |
+| *N/A* | **Unknown Certification** | Third-Party Issuer | `External/Imported` |
+| *N/A* | **Unknown Certification** | Third-Party Issuer | `External/Imported` |
+| *N/A* | **Unknown Certification** | Third-Party Issuer | `External/Imported` |
+| *N/A* | **Unknown Certification** | Third-Party Issuer | `External/Imported` |
+| *N/A* | **Unknown Certification** | Third-Party Issuer | `External/Imported` |
 
-👉 **[View all 399 credentials and 1628 verified skills in the full archive](./archives/credly-badges.md)**
+👉 **[View all 422 credentials and 1715 verified skills in the full archive](./archives/credly-badges.md)**
 
 <!-- CREDLY_BADGES_END -->
 
