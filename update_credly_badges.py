@@ -106,59 +106,22 @@ def main():
             "skills": badge_skills
         })
 
-    # Process External Open Badges (Defensively parsed to handle standard Open Badges JSON keys)
+# Process External Open Badges (Corrected for Credly's internal API payload structure)
     for item in external_raw:
-        # 1. Find Title/Name
-        name = item.get("name") or item.get("title")
-        if not name and "badge" in item:
-            badge_obj = item.get("badge", {})
-            if isinstance(badge_obj, dict):
-                name = badge_obj.get("name") or badge_obj.get("title")
-        if not name and "badge_template" in item:
-            name = item.get("badge_template", {}).get("name") or item.get("badge_template", {}).get("title")
-        if not name and "badge_class" in item:
-            name = item.get("badge_class", {}).get("name") or item.get("badge_class", {}).get("title")
-        name = name or "Unknown Certification"
-
-        # 2. Find Issuer Name
-        issuer_name = None
-        if "issuer" in item:
-            issuer_obj = item.get("issuer")
-            if isinstance(issuer_obj, dict):
-                issuer_name = issuer_obj.get("name") or issuer_obj.get("summary")
-            else:
-                issuer_name = str(issuer_obj)
-        if not issuer_name:
-            issuer_name = item.get("issuer_name")
-        if not issuer_name and "badge" in item:
-            badge_obj = item.get("badge", {})
-            if isinstance(badge_obj, dict):
-                issuer_obj = badge_obj.get("issuer", {})
-                if isinstance(issuer_obj, dict):
-                    issuer_name = issuer_obj.get("name") or issuer_obj.get("summary")
-        if not issuer_name and "badge_template" in item:
-            template = item.get("badge_template", {})
-            issuer_obj = template.get("issuer", {})
-            if isinstance(issuer_obj, dict):
-                issuer_name = issuer_obj.get("summary") or issuer_obj.get("name")
-        if not issuer_name and "badge_class" in item:
-            badge_class = item.get("badge_class", {})
-            issuer_obj = badge_class.get("issuer", {})
-            if isinstance(issuer_obj, dict):
-                issuer_name = issuer_obj.get("name") or issuer_obj.get("summary")
+        ext = item.get("external_badge", {})
         
-        issuer_name = issuer_name or "Third-Party Issuer"
-
-        # 3. Find Earned/Issued Date
-        issued_at = item.get("issued_at_date") or item.get("issued_at") or item.get("issued_on") or item.get("earned_at") or "N/A"
+        # 1. Extract Core Metadata
+        name = ext.get("badge_name") or item.get("name") or "Unknown Certification"
+        issuer_name = ext.get("issuer_name") or item.get("issuer") or "Third-Party Issuer"
+        
+        issued_at = ext.get("issued_at_date") or item.get("issued_at_date") or "N/A"
         if issued_at and "T" in issued_at:
             issued_at = issued_at.split("T")[0]
 
-        # External badges redirect users back to the profile or standard assertion URL if available
-        verify_url = item.get("verification_url") or item.get("assertion_url") or f"https://www.credly.com/users/{USERNAME}"
+        verify_url = ext.get("badge_url") or item.get("verification_url") or f"https://www.credly.com/users/{USERNAME}"
 
-        # 4. Find Mapped Skills
-        raw_skills = item.get("skills", []) or item.get("badge_template", {}).get("skills", []) or item.get("badge", {}).get("skills", []) or item.get("badge_class", {}).get("skills", [])
+        # 2. Extract Skills (Root level list of dictionaries)
+        raw_skills = item.get("skills", [])
         badge_skills = []
         if isinstance(raw_skills, list):
             for s in raw_skills:
