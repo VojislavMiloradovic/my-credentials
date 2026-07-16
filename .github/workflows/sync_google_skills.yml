@@ -31,13 +31,13 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Add both files that might have changed
-          git add google_skills.json README.md
+          # Track both README, json, and the newly generated archive markdown
+          git add google_skills.json README.md archives/google-cloud-skills.md
           
           # Check if there are any changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "auto: update google skills credentials and README"
+            git commit -m "auto: update google skills credentials, README, and archive"
             git push
           fi
