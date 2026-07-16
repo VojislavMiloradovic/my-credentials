@@ -3,10 +3,10 @@ import json
 import re
 from datetime import datetime
 
-# We target the already-repaired file directly in your repo
+# Direct targeting to clean archives path
 JSON_PATH = "data/microsoft-learn.json"
 README_PATH = "README.md"
-ALL_ACHIEVEMENTS_PATH = "data/all_achievements.md"
+ALL_ACHIEVEMENTS_PATH = "archives/microsoft-learn.md"
 
 MARKER_START = "<!-- MS_LEARN_START -->"
 MARKER_END = "<!-- MS_LEARN_END -->"
@@ -148,9 +148,10 @@ def main():
         md.append("")
 
     md.append("### Recent Achievements & Completed Badges")
-    md.append(f"Showing the latest 50 of {format_num(len(sorted_achievements))} total achievements. The complete list is fully archived and searchable in our [complete achievements archive](./data/all_achievements.md).\n")
+    # Reduced README count from 50 to 10
+    md.append(f"Showing the latest 10 of {format_num(len(sorted_achievements))} total achievements. The complete list is fully archived and searchable in our [complete achievements archive](./archives/microsoft-learn.md).\n")
     
-    for item in sorted_achievements[:50]:
+    for item in sorted_achievements[:10]: # Limit to latest 10
         title = item.get("title", "Completed Module")
         cat = item.get("category", "module").title()
         raw_date = item.get("grantedOn", "")
@@ -187,8 +188,10 @@ def main():
         f.write(updated_readme)
     print("README.md updated successfully!")
 
-    # 5. Write the COMPLETE backlog of all achievements to data/all_achievements.md
+    # 5. Write the COMPLETE backlog of all achievements to archives/microsoft-learn.md
     print(f"Generating complete archive in {ALL_ACHIEVEMENTS_PATH}...")
+    os.makedirs("archives", exist_ok=True) # Ensure directory exists
+    
     archive_md = []
     archive_md.append("# Complete Microsoft Learn Achievements Archive\n")
     archive_md.append(f"This document contains a complete, chronological record of all {format_num(len(sorted_achievements))} achievements earned on Microsoft Learn. This file is highly structured to allow LLMs, search engine indexes, and automated parsers to easily read, index, and verify historical credentials.\n")
