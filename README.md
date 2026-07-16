@@ -92,11 +92,11 @@ Showing the latest 50 of 4,714 total achievements. The complete list is fully ar
 #### Platform Progress Summary
 | Metric | Count |
 |---|---|
-| **Course** | 330 |
+| **Course** | 331 |
 | **Check** | 1,769 |
 | **Classroom** | 0 |
-| **Game** | 3 |
-| **Lab** | 219 |
+| **Game** | 4 |
+| **Lab** | 223 |
 | **Lesson** | 4,830 |
 
 #### Earned Badges
