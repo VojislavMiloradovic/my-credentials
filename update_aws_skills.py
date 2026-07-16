@@ -6,7 +6,7 @@ from datetime import datetime
 
 # File Paths
 README_PATH = "README.md"
-AWS_ACHIEVEMENTS_PATH = "data/aws_achievements.md"
+AWS_ACHIEVEMENTS_PATH = "archives/aws-skills.md" # Updated to archives directory
 
 MARKER_START = "<!-- AWS_SKILLS_START -->"
 MARKER_END = "<!-- AWS_SKILLS_END -->"
@@ -235,7 +235,8 @@ def main():
     md.append("\n")
 
     md.append("#### Recent AWS Achievements")
-    md.append(f"Showing the latest 10 activities. See the complete log of completed trainings in our [AWS achievements archive](./data/aws_achievements.md).\n")
+    # Updated text link below to target the archives/ folder
+    md.append(f"Showing the latest 10 activities. See the complete log of completed trainings in our [AWS achievements archive](./archives/aws-skills.md).\n")
     md.append("| Activity Title | Type | Date Completed | Duration |")
     md.append("| :--- | :--- | :--- | :--- |")
     for act in activities[:10]:
@@ -261,7 +262,7 @@ def main():
         print("❌ Error: README.md not found.")
         sys.exit(1)
 
-    # 5. Write Complete Log to data/aws_achievements.md
+    # 5. Write Complete Log to archives/aws-skills.md
     print(f"Generating complete AWS archive in {AWS_ACHIEVEMENTS_PATH}...")
     archive_md = []
     archive_md.append("# Complete AWS Skill Builder Achievements Archive\n")
@@ -272,6 +273,9 @@ def main():
     for act in activities:
         title_clean = act["title"].replace("|", "\\|")
         archive_md.append(f"| {title_clean} | {act['type']} | {act['date']} | {act['duration']} | 🎓 Available on Profile |")
+
+    # Clean back-to-readme navigation
+    archive_md.append("\n\n[← Back to README](../README.md)\n")
 
     os.makedirs(os.path.dirname(AWS_ACHIEVEMENTS_PATH), exist_ok=True)
     with open(AWS_ACHIEVEMENTS_PATH, "w", encoding="utf-8") as f:
