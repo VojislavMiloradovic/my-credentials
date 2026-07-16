@@ -3,8 +3,8 @@ name: Update MS Learn Profile
 on:
   push:
     paths:
-      - 'data/microsoft-learn.json' # Triggers immediately when you update the json file
-  workflow_dispatch: # Allows you to run it manually with a single click
+      - 'data/microsoft-learn.json'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -28,7 +28,8 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add README.md data/all_achievements.md
+        # Track the new archive location
+        git add README.md archives/microsoft-learn.md
         
         # Check if there are actual changes staged before committing
         if ! git diff --cached --exit-code; then
