@@ -2,7 +2,7 @@ name: Sync Credly Profile
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight to keep everything up to date
+    - cron: '0 0 * * *' # Runs daily at midnight
   workflow_dispatch:
 
 jobs:
@@ -30,7 +30,12 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md archives/credly-badges.md
+          
+          # Stage the updated README
+          git add README.md
+          
+          # Stage the credly-badges.md file, automatically adapting to whichever casing folder exists
+          git add archives/credly-badges.md || git add Archives/credly-badges.md
           
           if git diff --staged --quiet; then
             echo "No changes to commit"
