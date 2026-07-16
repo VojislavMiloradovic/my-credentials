@@ -104,7 +104,7 @@ Showing the latest 10 of 4,714 total achievements. The complete list is fully ar
 
 
 #### Recent AWS Achievements
-Showing the latest 10 activities. See the complete log of completed trainings in our [AWS achievements archive](./data/aws_achievements.md).
+Showing the latest 10 activities. See the complete log of completed trainings in our [AWS achievements archive](./archives/aws-skills.md).
 
 | Activity Title | Type | Date Completed | Duration |
 | :--- | :--- | :--- | :--- |
