@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import requests
 from bs4 import BeautifulSoup
@@ -137,10 +138,30 @@ def fetch_skills():
         json.dump(profile_data, f, indent=2, ensure_ascii=False)
     print(f"Updated google_skills.json with {len(unique_badges)} badges and {total_points} points.")
 
-    # 5. Update README.md
-    update_readme(unique_badges, total_points)
+    # 5. Update README.md and generate the full archives markdown
+    update_readme_and_archive(unique_badges, total_points)
 
-def update_readme(badges, total_points):
+def update_readme_and_archive(badges, total_points):
+    # 1. Ensure archives directory exists
+    os.makedirs("archives", exist_ok=True)
+    
+    # 2. Write the full badge archive file (Clean & Compact)
+    archive_path = "archives/google-cloud-skills.md"
+    archive_md = f"# Google Cloud Skills Boost — Full Credentials Archive\n\n"
+    archive_md += f"**Public Profile:** [Verify Profile]({URL})  \n"
+    archive_md += f"**Total Lifetime Points:** {total_points}  \n"
+    archive_md += f"**Total Badges:** {len(badges)}\n\n"
+    archive_md += "#### All Earned Badges\n"
+    archive_md += "| Date Earned | Badge Title |\n|:---:|---|\n"
+    for b in badges:
+        archive_md += f"| *{b['date_earned']}* | **{b['title']}** |\n"
+    archive_md += "\n\n[← Back to README](../README.md)\n"
+    
+    with open(archive_path, "w", encoding="utf-8") as f:
+        f.write(archive_md)
+    print(f"Successfully generated full archive at {archive_path}")
+
+    # 3. Handle README updates
     try:
         with open("README.md", "r", encoding="utf-8") as f:
             readme_content = f.read()
@@ -148,7 +169,7 @@ def update_readme(badges, total_points):
         print("README.md not found. Skipping README update.")
         return
 
-    # Generate the complete Markdown section
+    # Generate the curated Markdown section for README
     badge_md = f"\n### Google Cloud Skills Boost ({len(badges)} Badges)\n\n"
     badge_md += f"**Public Profile:** [Verify Profile]({URL})  \n"
     badge_md += f"**Total Lifetime Points:** {total_points}\n\n"
@@ -160,17 +181,17 @@ def update_readme(badges, total_points):
         badge_md += f"| **{metric}** | {count:,} |\n"
     badge_md += "\n"
 
-    # Render Badges List
+    # Render curated Badges List (Max 10)
     if not badges:
         badge_md += "*No Google Skills badges detected dynamically yet (checking daily).*\n"
     else:
-        badge_md += "#### Earned Badges\n"
-        badge_md += "| Badge | Credential | Date Earned | Verification |\n|:---:|---|:---:|:---:|\n"
-        for b in badges:
-            img_tag = f"<img src=\"{b['image_url']}\" width=\"40\" />" if b['image_url'] else "🏅"
-            v_url = b.get("verification_url", URL)
-            badge_md += f"| {img_tag} | **{b['title']}** | *{b['date_earned']}* | [Verify Credential]({v_url}) |\n"
+        badge_md += "#### Latest Earned Badges\n"
+        badge_md += "| Date Earned | Badge Title |\n|:---:|---|\n"
+        # Only take the first 10 badges
+        for b in badges[:10]:
+            badge_md += f"| *{b['date_earned']}* | **{b['title']}** |\n"
         badge_md += "\n"
+        badge_md += f"👉 **[View all {len(badges)} earned badges in the full archive](./archives/google-cloud-skills.md)**\n\n"
 
     # Robust tag matching and replacement
     start_tag = "<!-- GOOGLE_SKILLS_START -->"
@@ -184,7 +205,7 @@ def update_readme(badges, total_points):
         
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(new_readme)
-        print("Successfully updated README.md with the structured progress summary and badge table!")
+        print("Successfully updated README.md with the curated summary and latest badges!")
     else:
         print("Could not find the exact HTML comments <!-- GOOGLE_SKILLS_START --> and <!-- GOOGLE_SKILLS_END --> in README.md.")
 
