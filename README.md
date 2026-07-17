@@ -10,13 +10,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
-- **Total Experience Points (XP):** 5,851,475
+- **Total Experience Points (XP):** 5,857,975
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,821
+- **Badges Earned (Profile):** 3,823
 - **Trophies Earned (Profile):** 893
-- **Completed Learning Paths (Active Tracker):** 502
-- **Completed Modules (Active Tracker):** 2,560
-- **Completed Individual Units:** 34,746
+- **Completed Learning Paths (Active Tracker):** 503
+- **Completed Modules (Active Tracker):** 2,565
+- **Completed Individual Units:** 34,791
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -27,18 +27,18 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing the latest 10 of 4,714 total achievements. The complete list is fully archived and searchable in our [complete achievements archive](./archives/microsoft-learn.md).
+Showing the latest 10 of 4,716 total achievements. The complete list is fully archived and searchable in our [complete achievements archive](./archives/microsoft-learn.md).
 
+- **Customize a canvas app in Power Apps** (Modules | Earned: 2026-07-17 | [Verify Credential](https://learn.microsoft.com/training/modules/customize-apps-in-powerapps/))
+- **Learn the basics of Power BI Desktop, Power Automate, and PowerApps** (Learningpaths | Earned: 2026-07-17 | [Verify Credential](https://learn.microsoft.com/training/paths/power-platform-introduction/))
+- **Get started with Power Apps canvas apps** (Modules | Earned: 2026-07-17 | [Verify Credential](https://learn.microsoft.com/training/modules/get-started-with-powerapps/))
+- **Define and create business rules in Dataverse** (Modules | Earned: 2026-07-17 | [Verify Credential](https://learn.microsoft.com/training/modules/define-create-business-rules/))
+- **Design a single-domain Active Directory forest** (Modules | Earned: 2026-07-17 | [Verify Credential](https://learn.microsoft.com/training/modules/design-single-domain-active-directory-forest/))
+- **Design a multi-domain Active Directory forest** (Modules | Earned: 2026-07-17 | [Verify Credential](https://learn.microsoft.com/training/modules/design-multi-domain-forest-trust/))
 - **Get started with 5G on Surface for Business devices** (Modules | Earned: 2026-07-15 | [Verify Credential](https://learn.microsoft.com/training/modules/surface-5g/))
 - **Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/automate-identity-lifecycle-workflows/))
 - **Analyze requirements for AI-powered business solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/analyze-requirements-ai-powered-business-solutions/))
 - **Architect AI solutions for business productivity** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/architect-agentic-ai-business-solutions/))
-- **Introduction to agentic AI business solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/introduction-agentic-ai-business-solution-architecture/))
-- **Manage testing AI-powered business solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/manage-testing-ai-powered-business-solutions/))
-- **Evaluate costs and benefits of AI solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/evaluate-costs-benefits-ai-powered-business-solution/))
-- **Design extensibility of AI solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/design-extensibility-ai-solutions/))
-- **Monitor, analyze, and tune AI agents** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/analyze-monitor-tune-ai-powered-business-solutions/))
-- **Design overall AI strategy for business solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/design-overall-ai-strategy-business-solutions/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials
