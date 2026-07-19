@@ -162,18 +162,18 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 #### Recent Certifications
 Showing the latest 10 items. View complete historical logs in [LinkedIn Certifications archive](./archives/linkedin-certifications.md).
 
-| Date Issued | Certification Title | Issuing Authority | Expiry | Verification |
-| :---: | :--- | :--- | :---: | :--- |
-| *2026-07* | **Secure Software Delivery Skill Badge** | Google | - | [Verify Record](https://www.credly.com/badges/2cf13bdf-9555-4bac-a807-2f80b52ddb56/linked_in_profile) |
-| *2026-07* | **Arcade Base Camp July 2026** | Google | - | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25679839?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| *2026-07* | **Nano Tips for Building a LinkedIn Presence as an Early Career Professional with Lindsay Rosenthal** | LinkedIn | - | [Verify Record](https://www.linkedin.com/learning/certificates/8bd70cb8dc6dec4ce59d87920e0e6184e94fbbfc79bc4712ebb9cdf206c5960d) |
-| *2026-07* | **Small Business Marketing** | LinkedIn | - | [Verify Record](https://www.linkedin.com/learning/certificates/94db99f46d47baf611df7e9cc96772d22004fc6b9875cd832a541e35feac1513) |
-| *2026-07* | **Building RAG Apps Using MongoDB** | MongoDB | - | [Verify Record](https://www.credly.com/badges/647d5577-f948-4a84-9093-7b511bca6ecb/linked_in_profile) |
-| *2026-07* | **Top ATT&CK Techniques** | AttackIQ | - | [Verify Record](https://www.credly.com/badges/61cec03c-1282-4a54-b48f-2c31d5a043f1/linked_in_profile) |
-| *2026-07* | **BDR Basic Course** | Acronis | 2027-07 | [Verify Record](https://www.credly.com/badges/eecab10e-35f3-446c-9503-a4b15c76acf8/linked_in_profile) |
-| *2026-07* | **Build a Data Mesh with Knowledge Catalog** | Google | - | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597616?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| *2026-07* | **Arcade Simulator: Data Mesh Architect** | Google | - | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597578?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| *2026-07* | **Leading the Shift: Creating the new field of data for social impact \| data.org** | LinkedIn | - | [Verify Record](https://www.linkedin.com/learning/certificates/19c7c31ad1b900e39f878eceff224ed84d4fe56be28f0a20b8ee1197b6562f61) |
+| Date | Certification Title | Issuing Authority | Credentials Reference |
+| :---: | :--- | :--- | :--- |
+| *2026-07* | **Secure Software Delivery Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2cf13bdf-9555-4bac-a807-2f80b52ddb56/linked_in_profile) |
+| *2026-07* | **Arcade Base Camp July 2026** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25679839?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| *2026-07* | **Nano Tips for Building a LinkedIn Presence as an Early Career Professional with Lindsay Rosenthal** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8bd70cb8dc6dec4ce59d87920e0e6184e94fbbfc79bc4712ebb9cdf206c5960d) |
+| *2026-07* | **Small Business Marketing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/94db99f46d47baf611df7e9cc96772d22004fc6b9875cd832a541e35feac1513) |
+| *2026-07* | **Building RAG Apps Using MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/647d5577-f948-4a84-9093-7b511bca6ecb/linked_in_profile) |
+| *2026-07* | **Top ATT&CK Techniques** | AttackIQ | [Verify Record](https://www.credly.com/badges/61cec03c-1282-4a54-b48f-2c31d5a043f1/linked_in_profile) |
+| *2026-07* | **BDR Basic Course** | Acronis | [Verify Record](https://www.credly.com/badges/eecab10e-35f3-446c-9503-a4b15c76acf8/linked_in_profile) |
+| *2026-07* | **Build a Data Mesh with Knowledge Catalog** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597616?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| *2026-07* | **Arcade Simulator: Data Mesh Architect** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597578?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| *2026-07* | **Leading the Shift: Creating the new field of data for social impact \| data.org** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/19c7c31ad1b900e39f878eceff224ed84d4fe56be28f0a20b8ee1197b6562f61) |
 
 <!-- LINKEDIN_END -->
 
