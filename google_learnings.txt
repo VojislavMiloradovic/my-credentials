@@ -1,0 +1,4612 @@
+check_circle_outline You have this badge!
+Учење
+Theming in Compose with Material 3
+26. мај 2026.
+
+Using Secret Manager with Python
+26. мај 2026.
+
+Lesson 10: Advanced RecyclerView use cases
+6. јун 2026.
+
+MDC-103 Web: Material Theming with Color, Shape, Elevation and Type (Web)
+24. мај 2026.
+
+Serverless AI: EmbeddingGemma with Cloud Run
+10. јун 2026.
+
+Applied ML with Keras
+27. јун 2026.
+
+Add Sign in with Google to an iOS app
+20. мај 2026.
+
+Build a Realtime Trading App with Firebase SQL Connect (web)
+21. мај 2026.
+
+Android Views and Compose in Views
+29. јун 2026.
+
+Learn AI
+31. мај 2026.
+
+Writing Synthetic Monitoring Tests for your services using Gemini
+9. јун 2026.
+
+Introduction to SQL
+30. јун 2026.
+
+Approximate location
+20. мај 2026.
+
+App Mod Workshop
+23. мај 2026.
+
+Build Event-Driven AI Agents with Eventarc, Cloud Run and ADK
+20. јун 2026.
+
+Build Multimodal Apps and Custom Managed Agents with the Gemini Interactions Java SDK
+7. јун 2026.
+
+Controlling media through MediaSession
+7. јун 2026.
+
+Using IPv6 Static Routes next hop instance (untagged and tagged), next hop address and next hop gateway
+24. мај 2026.
+
+Agents CLI in Agent Platform: From Development to Production
+20. мај 2026.
+
+Cloud Run private access to Cloud Storage Global endpoint and Regional endpoint
+23. мај 2026.
+
+App Distribution and Monetization quiz
+7. јун 2026.
+
+Create your first Android app
+6. јун 2026.
+
+MDC-101 Android: Material Components (MDC) Basics (Java)
+5. јун 2026.
+
+TensorFlow.js: Build a comment spam detection system
+6. јун 2026.
+
+Learn how to invoke authenticated Cloud Run functions
+26. мај 2026.
+
+Protect yourself from online harassment
+5. јун 2026.
+
+Vertex AI online prediction baseline testing with HEY
+26. мај 2026.
+
+Cloud Function to Automate CSV data import into Google Sheets
+22. јун 2026.
+
+Local Development with the Firebase Emulator Suite
+31. мај 2026.
+
+Create an Art Space app
+6. јун 2026.
+
+Activity Recognition Transition API Codelab
+20. мај 2026.
+
+Schedule tasks with WorkManager
+30. јун 2026.
+
+Migrating from Compute Engine to Kubernetes Engine with Migrate for Anthos
+9. јун 2026.
+
+Anthos Service Mesh Workshop: Lab Guide - Japanese
+20. мај 2026.
+
+Building Beautiful Transitions with Material Motion for Android
+26. мај 2026.
+
+Implement Material Design with Material Components for Flutter quiz
+2. јун 2026.
+
+Convolutional neural networks, with Keras and TPUs
+26. мај 2026.
+
+Getting started with Vector Embeddings with AlloyDB AI
+23. мај 2026.
+
+Data to Generative AI with Spanner and Vertex AI Imagen API
+22. јун 2026.
+
+InnerLoop Development with Python
+24. мај 2026.
+
+Build a serverless ecommerce web app with Python, Cloud Run, Cloud SQL, and Firebase
+7. јул 2026.
+
+Build a no-code app using the native AppSheet database
+10. јун 2026.
+
+Create a Cloud Run service with a sidecar
+9. јун 2026.
+
+Apply responsible AI principles when building remote sensing datasets, such as Dynamic World
+20. мај 2026.
+
+Power your Agentic System with HTAP in AlloyDB
+24. мај 2026.
+
+Set up and manage Firebase projects and products via Terraform
+21. мај 2026.
+
+Apply Material Design to Android apps in Kotlin
+7. јун 2026.
+
+Build an Itinerary Planning Agent with ADK and Google Maps Grounding
+23. мај 2026.
+
+Using the Text-to-Speech API with Node.js
+9. јун 2026.
+
+Building Change Data Capture using Dataproc and Cloud Pub/Sub
+22. јун 2026.
+
+Analyzing Movie Posters in BigQuery with Remote Models
+20. мај 2026.
+
+MDC-101 Android: Material Components (MDC) Basics (Kotlin)
+27. мај 2026.
+
+Navigation in Jetpack Compose
+30. јун 2026.
+
+Vertex AI Workbench: Train a TensorFlow model with data from BigQuery
+30. мај 2026.
+
+Bookshelf Analytics: Use Gemini to build a Java Cloud Run Application that takes BigQuery data to the web
+20. мај 2026.
+
+Using TLS for Secure Online Predictions with Vertex AI
+24. мај 2026.
+
+Navigate between screens with Compose
+6. јун 2026.
+
+Project: Create a Bookshelf App
+6. јун 2026.
+
+Build Apps with Flutter quiz
+2. јун 2026.
+
+Call Vision API Product Search backend on Android
+5. јун 2026.
+
+Configure ABAP SDK authentication using tokens for SAP hosted on Compute Engine VM and execute Address validation API
+10. јун 2026.
+
+Building a gRPC service with C#
+22. јун 2026.
+
+Add push notifications to an iOS app
+21. мај 2026.
+
+Fundamentals of Apps Script with Google Sheets #5: Chart and Present Data in Slides
+29. јун 2026.
+
+Agentverse - The Guardian's Bastion - Secure scalable Inference for AgentOps
+20. мај 2026.
+
+Getting started with Vector Embeddings in Cloud SQL for MySQL
+23. мај 2026.
+
+Get data from the internet
+6. јун 2026.
+
+Migrating from Google App Engine Java app to Cloud Run with Jib
+10. јун 2026.
+
+Triggering a DAG with Node.JS and Google Cloud Functions
+18. јун 2026.
+
+Create an online banking application with Spanner
+22. јун 2026.
+
+Load and display images from the internet
+6. јун 2026.
+
+Navigation in Jetpack Compose
+6. јун 2026.
+
+Practical observability techniques for Generative AI application in Go
+9. јун 2026.
+
+Running a Hadoop wordcount job on a Managed Apache Spark cluster
+27. мај 2026.
+
+Frontend Experiences with ADK and A2UI
+21. мај 2026.
+
+Authoring Google Antigravity Skills
+20. мај 2026.
+
+Background Work with WorkManager - Java
+20. мај 2026.
+
+Use SQL to read and write to a database
+6. јун 2026.
+
+Host and scale a web app in Google Cloud with Compute Engine
+9. јун 2026.
+
+Build Actions for Google Assistant using Actions Builder (Level 1)
+5. јун 2026.
+
+Add Compose to a View-based app
+20. мај 2026.
+
+Build your own "Bargaining Shopkeeper" Agent with Gemini 3 and ADK
+21. мај 2026.
+
+MDC-103 Flutter: Material Theming with Color, Shape, Elevation, and Type
+24. мај 2026.
+
+Protect your Firestore data with Firebase Security Rules
+3. јун 2026.
+
+Deploy a full stack Next.js application to Cloud Run with Firestore using the Node.js Admin SDK
+9. јун 2026.
+
+Calculate Revenue Buckets for SKAd Network Conversion Value Schema
+22. јун 2026.
+
+Scene Semantics and Geospatial Depth quiz
+2. јун 2026.
+
+AlloyDB Quick Setup Lab
+20. мај 2026.
+
+Implement Material Design in web apps
+29. јун 2026.
+
+Building watch faces for Wear OS
+5. јун 2026.
+
+Foundational Governance with Knowledge Catalog Universal Catalog: Getting Started
+24. мај 2026.
+
+Theming in Compose with Material 3
+24. мај 2026.
+
+Using External HTTP(s) Hybrid load balancer to reach a Network Endpoint Group
+10. јун 2026.
+
+Module 4: Migrate from Google App Engine to Cloud Run with Docker
+9. јун 2026.
+
+Troubleshoot with Gemini CodeLab
+27. мај 2026.
+
+Google Pay API for Web quiz
+2. јун 2026.
+
+Spring Boot on Google Cloud Quiz
+2. јун 2026.
+
+Deploy a basic "Google Translate" Express.js app on App Engine, Cloud Functions, and Cloud Run
+7. јун 2026.
+
+Get to know Cloud Firestore
+2. јул 2026.
+
+Activity embedding
+5. јун 2026.
+
+Incorporating generative AI into your game development process with Gemini and Gemma AI
+3. јун 2026.
+
+Make your first Google Health API call
+27. мај 2026.
+
+Vertex AI:Use custom prediction routines with Sklearn to pre process and post process data for predictions
+26. мај 2026.
+
+How to deploy all the JavaScript frameworks to Cloud Run
+26. мај 2026.
+
+Create no code agents with Gemini Enterprise
+21. мај 2026.
+
+Agent First Workflows - From prompt to production
+21. мај 2026.
+
+Implement passkeys with form autofill in a web app
+5. јун 2026.
+
+IP addressing options IPv4 and IPv6
+24. мај 2026.
+
+Gemini in Java with Vertex AI and LangChain4j
+9. јун 2026.
+
+Interacting with UI and state
+6. јун 2026.
+
+Manage FHIR Data from Android App with OHS and Google Cloud
+24. мај 2026.
+
+Basics of Kotlin Multiplatform Pathway
+3. јун 2026.
+
+Configuring Eventarc to trigger Workflows that integrate with GKE Autopilot and Pub/Sub
+24. мај 2026.
+
+Gemini CLI Deep-Dive
+23. мај 2026.
+
+Measuring Interaction to Next Paint (INP)
+27. мај 2026.
+
+Create a custom text classification model, and update your apps with it
+2. јун 2026.
+
+LiteRT CLI 101: Streamline your Edge AI Workflows
+7. јун 2026.
+
+Build robust, distributed leaderboards with Cloud Firestore quiz
+31. мај 2026.
+
+Create multi agent system with ADK, deploy in Agent Runtime and get started with A2A protocol
+18. мај 2026.
+
+Engage your web app's users with push notifications
+29. јун 2026.
+
+Lab: Service Extensions on Media CDN
+7. јун 2026.
+
+Building a Kotlin extensions library
+20. јун 2026.
+
+App Actions with Google Assistant quiz
+27. јун 2026.
+
+Make the Most of Experimentation: Manage Machine Learning Experiments with Vertex AI
+30. мај 2026.
+
+Automatically Deploy Generative AI Go Web Application from Version Control to Cloud Run
+20. мај 2026.
+
+View Interoperability in Compose
+5. јун 2026.
+
+Hands-on with Gemini CLI
+18. мај 2026.
+
+API Key Management and Security
+24. јун 2026.
+
+Google Ads with Google Analytics for Firebase custom events - iOS
+24. мај 2026.
+
+Reverse ETL from Databricks to Spanner using BQ
+24. мај 2026.
+
+Learn Performance
+25. јун 2026.
+
+Go further with image classification
+27. јун 2026.
+
+Developing LLM Apps with the Vertex AI SDK
+23. мај 2026.
+
+Build a product image search backend with Vision API Product Search
+5. јун 2026.
+
+Firebase and Flutter Pathway Quiz
+3. јун 2026.
+
+Before you begin
+20. мај 2026.
+
+Cloud Armor Preconfigured WAF Rules Codelab
+9. јун 2026.
+
+From Prototypes to Agents with ADK
+23. мај 2026.
+
+Testing for Accessibility
+24. мај 2026.
+
+Developing Containers with Dockerfiles
+24. мај 2026.
+
+Wear OS
+29. јун 2026.
+
+Automatic Code Evaluation with Agent Sandbox on GKE
+26. мај 2026.
+
+Cloud Spanner: Graph Intelligence using Spanner Graph Algorithms
+21. мај 2026.
+
+Create AI evaluations
+25. јун 2026.
+
+Cloud Engineering's AI Toolkit: Platform Engineering on GKE using Gemini
+23. мај 2026.
+
+Boost your web apps with Fugu APIs
+29. јун 2026.
+
+Jetpack Compose basics
+24. мај 2026.
+
+Movie Rating prediction with Vertex AI AutoML
+7. јун 2026.
+
+Getting started with Managed Active Directory
+10. јун 2026.
+
+codelabs.developers.google.com/alloydb-omni-vm-deployment
+22. јун 2026.
+
+Web Capabilities codelab
+26. мај 2026.
+
+MDC-102 Web: Material Structure and Layout (Web)
+5. јун 2026.
+
+Cache data from a Spring Boot app with Memorystore
+2. јун 2026.
+
+Understand a Unity game's crashes using advanced Crashlytics features
+3. јун 2026.
+
+Agentverse - The Summoner's Concord - Architecting Multi-Agent Systems
+20. мај 2026.
+
+Engage Wear OS users in new ways with the Ongoing Activity API
+5. јун 2026.
+
+Cloud Run and serverless computing quiz
+2. јун 2026.
+
+BigQuery Performance Test Codelab
+20. мај 2026.
+
+Getting Started with Cloud Run functions (HTTP)
+9. јун 2026.
+
+Get started with text classification for web
+6. јун 2026.
+
+Deploy ADK agents to Google Kubernetes Engine (GKE)
+21. мај 2026.
+
+Use classes and objects in Kotlin
+6. јун 2026.
+
+Cloud Spanner: Create a gaming leaderboard with Java
+7. јун 2026.
+
+Call Vertex AI LLM from your ABAP environment with ABAP SDK for Google Cloud
+10. јун 2026.
+
+Getting started with Cloud Functions
+9. јун 2026.
+
+Build a Match 3 Arcade Game With Gemini and Antigravity
+18. јун 2026.
+
+Looker PSC Southbound HTTPS Internet NEG SMTP
+26. мај 2026.
+
+AdMob+Firebase 101 Unity: Setup & Analytics Basics
+20. мај 2026.
+
+Build with Google Maps Platform and AI
+2. јул 2026.
+
+Applied ML with Keras
+7. јул 2026.
+
+Create an AR game using Unity's AR Foundation
+10. јун 2026.
+
+Alerts: Uptime Checks to Pub/Sub Topics
+20. мај 2026.
+
+Add a map to your website (JavaScript)
+27. јун 2026.
+
+Deploy a basic "Google Translate" app on Python 3 Cloud Run (Docker)
+9. јун 2026.
+
+Build a Location Intelligence ADK Agent with MCP servers for BigQuery and Google Maps
+21. мај 2026.
+
+Go further with object detection
+29. јун 2026.
+
+codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata
+21. мај 2026.
+
+Get started with regression in iOS apps
+5. јун 2026.
+
+Schedule tasks with WorkManager
+6. јун 2026.
+
+Build a Patent Search Assistant with AlloyDB and Vertex AI Agent Builder - Part 2
+27. мај 2026.
+
+Detect objects in images to build a visual product search with ML Kit: Android
+2. јун 2026.
+
+Build and deploy an ADK agent that uses an MCP server on Cloud Run
+24. мај 2026.
+
+Use Looker's Self Service BI features
+24. јун 2026.
+
+Getting started with gRPC-Rust
+10. јун 2026.
+
+Views in Compose
+29. јун 2026.
+
+Lesson 4: Build your first Android app
+30. јун 2026.
+
+Similarity Search with Spanner and Vertex AI
+24. мај 2026.
+
+Optical Character Recognition (OCR) with Document AI (Python)
+9. јун 2026.
+
+How to use Cloud Run functions and Gemini to summarize a text file uploaded to a Cloud Storage bucket
+24. мај 2026.
+
+Agent Engine PSC Explicit Proxy
+21. мај 2026.
+
+Introduction to SQL
+6. јун 2026.
+
+InnerLoop Development using Cloud Workstations with Python
+26. мај 2026.
+
+Getting Started with Event-driven Cloud Run functions
+9. јун 2026.
+
+Integrate a Custom Model into your App
+2. јун 2026.
+
+Deploy LangChain Agent on Cloud Run
+27. мај 2026.
+
+Private Service Connect - Using PSC Backends to access regional Google APIs
+10. јун 2026.
+
+Build Powerful, Stateful, E2E AI Agent Apps in Java with ADK, AlloyDB & Gemini!!
+20. јун 2026.
+
+Lesson 9: App architecture (persistence)
+30. јун 2026.
+
+Write automated tests
+6. јун 2026.
+
+Modern Android App Architecture quiz
+6. јун 2026.
+
+TensorFlow.js: Convert a Python SavedModel to TensorFlow.js format
+27. мај 2026.
+
+Build Voice Bots for Android with Dialogflow Essentials & Flutter
+9. јун 2026.
+
+Modern Android App Architecture
+30. јун 2026.
+
+Android developer tools quiz
+7. јун 2026.
+
+Data Science with Spark
+22. јун 2026.
+
+A Tour of Gemini Code Assist Standard and Enterprise for Developers in Google Cloud Shell Editor
+18. мај 2026.
+
+Advanced Load Balancing Optimizations Codelab
+20. мај 2026.
+
+Spring Boot application with Cloud Datastore
+2. јун 2026.
+
+Wagtail on Cloud Run
+9. јун 2026.
+
+Get started with the Streetscape Geometry and Rooftop anchors APIs in ARCore
+2. јун 2026.
+
+Make a smart webcam in JavaScript with a TensorFlow.js pre-trained Machine Learning model
+24. мај 2026.
+
+Way Back Home - Level 1: Pinpoint Location
+20. јун 2026.
+
+How to deploy a secure Genkit MCP server on Cloud Run
+24. мај 2026.
+
+Google Pay API for Web 201: Advanced
+2. јун 2026.
+
+Load and display images from the internet
+6. јун 2026.
+
+Create a custom object detection web app with MediaPipe
+30. мај 2026.
+
+Hello Cloud Run with C#
+7. јун 2026.
+
+Connecting to CloudSQL via Private Service Connect (Terraform)
+9. јун 2026.
+
+Get started with image classification in web apps
+29. јун 2026.
+
+ADK Crash Course - From Beginner To Expert
+16. мај 2026.
+
+Get started with audio classification
+30. јун 2026.
+
+Passkey integration on the server-side and user-experience upgrades
+5. јун 2026.
+
+Learn Images
+25. јун 2026.
+
+Track Autofill Behavior with Google Analytics 4
+9. јун 2026.
+
+Cast-enable an Android TV app
+7. јун 2026.
+
+Learn Testing
+25. јун 2026.
+
+Vertex AI: Use autopackaging to fine tune Bert with Hugging Face on Vertex AI Training
+7. јун 2026.
+
+Getting started with the Web Serial API
+24. мај 2026.
+
+Build a simple Android navigation app with Google Maps Platform Navigation SDK
+26. мај 2026.
+
+Deterministic generative AI with Gemini function calling in Java
+24. мај 2026.
+
+MDC-104 Android: Material Advanced Components (Kotlin)
+7. јун 2026.
+
+Adding AdMob ads to a Flutter app
+20. мај 2026.
+
+Build a Match 3 Arcade Game With Gemini CLI
+20. јун 2026.
+
+Advanced RAG Techniques
+20. мај 2026.
+
+Live Streaming on Google Cloud with Media CDN and Live Streaming API
+21. мај 2026.
+
+Enable Private Service Connect on existing Cloud SQL instance running PSA (Terraform)
+24. мај 2026.
+
+Firebase App Check for Apple platforms
+3. јун 2026.
+
+Kotlin fundamentals
+6. јун 2026.
+
+Automatically Deploy Generative AI Angular Web Application from Version Control to Cloud Run
+20. мај 2026.
+
+One Million Vectors, Zero Loops: Generating Embeddings at Scale with AlloyDB
+23. мај 2026.
+
+Project: Create a 30 Days App
+6. јун 2026.
+
+Develop locally with Firebase quiz
+31. мај 2026.
+
+Create an interactive Dice Roller app
+24. мај 2026.
+
+Architecture Components
+6. јун 2026.
+
+VPC Service Controls Basic Tutorial II - Troubleshooting Egress Violation
+26. мај 2026.
+
+Build web apps backed by Cloud Firestore
+2. јул 2026.
+
+Add adaptive layouts to a view-based Android app with Compose
+20. мај 2026.
+
+Migration from Apache Kafka to Pubsub
+9. јун 2026.
+
+AI-Assisted Data Science with BigQuery
+18. мај 2026.
+
+MDC-103 Android: Material Theming with Color, Elevation and Type (Kotlin)
+7. јун 2026.
+
+Misadventures in Kubernetes: The Kinda Hard Way
+2. јул 2026.
+
+Agent Evaluation with Gemini Agent Eval API
+26. мај 2026.
+
+Build convolutional neural networks (CNNs) to enhance computer vision
+7. јун 2026.
+
+Implement Material Design with Material Components for Flutter
+25. јун 2026.
+
+Google Pay API: Vibe-code checkout page with MCP servers and Antigravity
+14. јул 2026.
+
+Build a custom pre-trained Audio Classification model
+6. јун 2026.
+
+Using the Vision API with Python
+9. јун 2026.
+
+Use convolutional neural networks (CNNs) with complex images
+7. јун 2026.
+
+Onboard and launch a location
+25. јун 2026.
+
+Upskill your org in ML/AI with Kaggle
+27. мај 2026.
+
+Go further with product image search
+29. јун 2026.
+
+TensorFlow.js - Audio recognition using transfer learning
+26. мај 2026.
+
+Vertex AI: Multi-Worker Training and Transfer Learning with TensorFlow
+7. јун 2026.
+
+Vibe-code a kids game with Gemini and publish with Firebase!
+9. јун 2026.
+
+Cloud Run jobs
+2. јун 2026.
+
+Deploy a website with Cloud Run
+9. јун 2026.
+
+Build beautiful apps
+6. јун 2026.
+
+Design a dark theme with Material and Figma
+9. јун 2026.
+
+Dialogflow CX: Build a retail virtual agent
+9. јун 2026.
+
+Analytics with the Data Agent Kit and Antigravity IDE
+24. јун 2026.
+
+How to generate image from Vertex AI and Upload to Google Ads
+26. мај 2026.
+
+Analyze product purchase drop-offs in Google Play Billing
+20. мај 2026.
+
+On-device Large Language Models with Keras and TensorFlow Lite
+24. мај 2026.
+
+Cloud Spanner with Hibernate ORM
+9. јун 2026.
+
+Pic-a-daily: Lab 2—Create thumbnails of pictures
+9. јун 2026.
+
+How to install Oracle database on GCE via Workload Manager
+23. мај 2026.
+
+Practical observability techniques for Generative AI application in Java
+9. јун 2026.
+
+Fundamentals of Apps Script with Google Sheets
+29. јун 2026.
+
+Getting started with the Gemini API and Web Apps
+31. мај 2026.
+
+Architecture Components
+6. јун 2026.
+
+Build a Smart Shopping Assistant with AlloyDB and Vertex AI Agent Builder - Part 1
+7. јун 2026.
+
+Developing an Accessibility Service for Android
+9. јун 2026.
+
+Customer Identity Resolution with BigQuery Graph
+14. јул 2026.
+
+Building a Serverless Data Pipeline: IoT to Analytics
+22. јун 2026.
+
+Keras and modern convnets, on TPUs
+26. мај 2026.
+
+Passkeys on Android and other platforms
+7. јул 2026.
+
+Get data from the internet
+6. јун 2026.
+
+Retrieving Credentials/Secrets from Secret Manager with Spring Boot
+9. јун 2026.
+
+Practice: Classes and Collections
+6. јун 2026.
+
+Debugging the Smart Home
+18. мај 2026.
+
+Deploying and Running n8n on Google Cloud Run
+23. мај 2026.
+
+Cloud Spanner: Create a gaming leaderboard with C#
+9. јун 2026.
+
+Extend an Android app to Google Assistant with App Actions (Level 2)
+5. јун 2026.
+
+Lesson 12: Repository pattern and WorkManager
+2. јул 2026.
+
+Bringing the power of Python to BigQuery with managed UDFs
+18. јун 2026.
+
+Battle Jamón - A Microservices Battle Ground
+20. мај 2026.
+
+Bookshelf builder: Use Gemini to build a Java Cloud Function for a Gemini application
+20. мај 2026.
+
+Enhance and secure your Cloud-to-cloud integrations
+18. мај 2026.
+
+Build a no-code universal employee helpdesk app with Vertex AI Search
+20. јун 2026.
+
+Make your first Google Health API call using OAuth2 Playground
+10. јул 2026.
+
+Gemini API Firebase Extensions: Quickly enhance your app with generative AI
+29. јун 2026.
+
+TensorFlow.js: Make your own "Teachable Machine" using transfer learning with TensorFlow.js
+7. јун 2026.
+
+Slack Command Automation
+27. мај 2026.
+
+Connecting to Private AlloyDB instance from application running on GKE Autopilot
+27. мај 2026.
+
+Understanding Skaffold
+30. мај 2026.
+
+Use collections in Kotlin
+6. јун 2026.
+
+Building a Google-quality Search System with Vertex AI
+20. јун 2026.
+
+Set up and navigate your first Google project
+2. јун 2026.
+
+Build cross-platform apps with Angular
+29. јун 2026.
+
+Next ‘26 Keynote: Fabric of Unified Intelligence
+21. мај 2026.
+
+Passwordless login on the web with passkeys
+29. јун 2026.
+
+PySpark for Natural Language Processing on Dataproc
+26. мај 2026.
+
+Plan and Build Apps with Gemini CLI Conductor
+21. мај 2026.
+
+How to host a LLM in a sidecar for a Cloud Run function
+9. јун 2026.
+
+Getting started with Cloud Run jobs
+2. јун 2026.
+
+Fundamentals of Apps Script with Google Sheets #2: Spreadsheets, Sheets, and Ranges
+29. јун 2026.
+
+Battle One - A Microservices Battle Ground
+20. мај 2026.
+
+Context Caching in BigQuery: Fast, Cost-Effective, and Grounded Gen AI for Big Data
+21. мај 2026.
+
+Add predictive back animations
+20. мај 2026.
+
+Quiz: Build maintainable and scalable web apps with Angular
+5. јун 2026.
+
+Add chat-related features to an Android app with the Messaging and People APIs
+20. мај 2026.
+
+Use Document AI to Intelligently Process your Handwritten Forms (Node.js)
+9. јун 2026.
+
+Deploy your containerized agent on Agent Runtime
+10. јул 2026.
+
+Visualize data on Google Maps Platform
+29. јун 2026.
+
+Build an AI Agent with Google ADK
+10. јун 2026.
+
+Introduction to Flame with Flutter
+9. јун 2026.
+
+ADK with Multimodal Tool Interaction : Part 1 ( Custom Tool with Model Callbacks )
+18. мај 2026.
+
+Get started with audio classification
+30. јун 2026.
+
+Deploy an Enterprise Governance-Aware Agent with MCP and Cloud Run
+21. мај 2026.
+
+Integrate Gemini Enterprise Agents with Google Workspace
+21. мај 2026.
+
+Deploy a Lustre Parallel File System on GCP
+26. мај 2026.
+
+Add Firebase to your Flutter app
+22. јун 2026.
+
+Use nullability in Kotlin
+6. јун 2026.
+
+Partitioning and Clustering in BigQuery
+9. јун 2026.
+
+Building AI Agents with ADK: The Foundation
+21. мај 2026.
+
+Cloud Armor NamedIP List
+10. јун 2026.
+
+How to Run Transformers.js on Cloud Run GPUs
+24. мај 2026.
+
+Streetscape Geometry and Rooftop anchors
+25. јун 2026.
+
+Create a Generative Chat App with Vertex AI Conversation
+22. јун 2026.
+
+Create an accessible and personalized theme and brand with Material Design 3
+22. јун 2026.
+
+Local Development with Cloud Functions for Node.js using Visual Studio Code
+26. мај 2026.
+
+Build your first WebAuthn app
+5. јун 2026.
+
+Deploy an Application with Gemini CLI and CI/CD Skills
+21. мај 2026.
+
+Build gen AI features powered by your data with Genkit
+2. јун 2026.
+
+More Kotlin fundamentals
+6. јун 2026.
+
+Android 11—Week 10—Games and media quiz
+7. јун 2026.
+
+Add a map to your Android app (Kotlin)
+5. јун 2026.
+
+MDC-102 Android: Material Structure and Layout (Java)
+5. јун 2026.
+
+Practice: Build a grid
+6. јун 2026.
+
+Create fast and stable apps with Firebase
+27. јун 2026.
+
+Cloud Firestore iOS Codelab
+22. јун 2026.
+
+Agentspace to Zonal NEG self-hosted database
+20. мај 2026.
+
+Using the Natural Language API with C#
+9. јун 2026.
+
+Google Cloud MCP for AlloyDB for AI Agents
+3. јул 2026.
+
+Building Beautiful Transitions with Material Motion for Flutter
+2. јун 2026.
+
+Build an Android App with Views
+5. јун 2026.
+
+Build a Travel Agent using MCP Toolbox for Databases and Agent Development Kit (ADK)
+21. мај 2026.
+
+How to deploy a Generative UI website on Cloud Run
+24. мај 2026.
+
+GenAI agent for Sales Order Automation
+9. јун 2026.
+
+How to Transact Digital Assets with Multi-Party Computation and Confidential Space
+7. јун 2026.
+
+Build your own Current Place picker for Android (Java)
+5. јун 2026.
+
+Advanced Android in Kotlin 04.1: Android Google Maps
+5. јун 2026.
+
+Image Data Classification with BigQuery ML
+18. јун 2026.
+
+Learn Forms
+25. јун 2026.
+
+Optimizing the price of retail products
+7. јун 2026.
+
+Trace AI Agent Decisions with BigQuery Graph
+20. јун 2026.
+
+Bring Google's Places data into your Android app
+25. јун 2026.
+
+Achieve instant navigations with the Speculation Rules API
+20. мај 2026.
+
+Developing with Cloud Code
+24. мај 2026.
+
+Prototype to Production: Distributed training on Vertex AI
+7. јун 2026.
+
+Reverse ETL from Snowflake to Spanner using CSV
+7. јун 2026.
+
+MCP Toolbox for Databases: Making BigQuery datasets available to MCP clients
+21. мај 2026.
+
+Learn to program neural networks with TensorFlow
+2. јул 2026.
+
+Lesson 13: App UI design
+6. јун 2026.
+
+Build a custom, responsive chatbot in Google Cloud
+2. јул 2026.
+
+Build with Firebase Data Connect (iOS / Swift)
+20. јун 2026.
+
+Install and use Cloud Tools for PowerShell
+9. јун 2026.
+
+Google Ads with Google Analytics for Firebase custom events - Android
+9. јун 2026.
+
+Location-based features in Android
+9. јул 2026.
+
+Codelab - Building GraphRAG Agents with ADK
+21. мај 2026.
+
+Using the Text-to-Speech API with Python
+9. јун 2026.
+
+Build an Android app with Jetpack Compose and Firebase
+3. јун 2026.
+
+Module 2: Inspect
+5. јун 2026.
+
+Store and access data using keys with DataStore
+6. јун 2026.
+
+Build maintainable and scalable web apps with Angular
+29. јун 2026.
+
+Connect a Spring Boot app to Cloud SQL
+2. јун 2026.
+
+Hackathon Challenge Lab
+21. мај 2026.
+
+Build a Hybrid AI Chat App on GKE with Gemma and Gemini
+9. јун 2026.
+
+Lesson 1: Kotlin basics
+6. јун 2026.
+
+Evolve compiled code with AlphaEvolve on Cloud Run
+10. јул 2026.
+
+Create a basic app for audio classification
+6. јун 2026.
+
+Create a widget with Glance
+5. јун 2026.
+
+VPC Service Controls - BigQuery Protection Codelab I
+24. мај 2026.
+
+Monitor new features with Firebase Performance Monitoring
+3. јун 2026.
+
+Cloud Armor and TCP/SSL Proxy Load Balancers - Rate limiting and IP Deny list Codelab
+9. јун 2026.
+
+Higher-order functions with collections
+6. јун 2026.
+
+Building an Accessible Multimodal AI Agent: Voice, Vision, and Conversation
+22. јун 2026.
+
+Improve your website's identity forms
+29. јун 2026.
+
+Android Jetpack quiz
+7. јун 2026.
+
+Deploy a basic "Google Translate" app on Python 2 Cloud Run (Docker)
+9. јун 2026.
+
+How to Migrate from Firebase Studio to Antigravity
+9. јун 2026.
+
+Use BigQuery Remote Functions to ask questions to Vertex AI Visual Question Answering (VQA) in a SQL query
+26. мај 2026.
+
+Fine-tune Open Source LLMs on Google Cloud
+9. јун 2026.
+
+Agent Gateway egress from Agent Runtime to VPC network
+9. јул 2026.
+
+Measure load time and screen rendering with Firebase Performance Monitoring
+3. јун 2026.
+
+Hands-on with Google Apps Script: Accessing Google Sheets, Maps, and Gmail in 4 lines of code!
+10. јун 2026.
+
+Visualize your AI assistant memory with Gemini and Cloud SQL pgvector
+24. јун 2026.
+
+Write unit tests for ViewModel
+6. јун 2026.
+
+Deploy Apps quickly with Application Design Center
+21. мај 2026.
+
+Vertex AI Pipelines PSC Interface Explicit Proxy
+30. мај 2026.
+
+Private Service Connect Interface
+26. мај 2026.
+
+Deploy an Auto-Scaling HPC Cluster with Slurm
+24. мај 2026.
+
+MDC-102 Android: Material Structure and Layout (Kotlin)
+7. јун 2026.
+
+Plan and Build Apps with Conductor Plugin
+17. јул 2026.
+
+Android 11 - Week 2 - Machine Learning
+2. јул 2026.
+
+GenAI Agent in Slack for Q&A over docs and actions with API calls
+26. мај 2026.
+
+Explicit Chaining of GCP L7 Load Balancers with PSC
+24. мај 2026.
+
+TensorFlow.js: Use Firebase Hosting to deploy and host a machine learning model at scale
+26. мај 2026.
+
+Getting Started with MCP, ADK and A2A
+9. јун 2026.
+
+Prompt Encryption SDK Codelab
+21. мај 2026.
+
+Animations in Flutter
+20. мај 2026.
+
+Raise engagement on Android TV by integrating with the Play Next row
+7. јун 2026.
+
+Build a fast checkout experience on the web with Google Pay
+7. јун 2026.
+
+Build a serverless Ecommerce web app with Python, Cloud Run, Cloud SQL, and Firebase
+5. јун 2026.
+
+Route Datadog monitoring alerts to Google Cloud with Eventarc (Part 1)
+9. јун 2026.
+
+GKE Autopilot clusters with TPUs, GKE managed DRANET and Gemma 4
+18. јун 2026.
+
+Lesson 2: Functions
+30. јун 2026.
+
+Getting Started with Cloud Shell & gcloud
+9. јун 2026.
+
+Build an interactive poll app for Google Chat with Node.js
+3. јун 2026.
+
+Bigquery ML for Fraud Detection in Credit card transactions using console
+20. мај 2026.
+
+Build a basic layout
+6. јун 2026.
+
+Using revisions in Cloud Run functions for Traffic Splitting, Gradual Rollouts, and Rollbacks
+26. мај 2026.
+
+Using the Video Intelligence API with C#
+7. јун 2026.
+
+Practice: Build Sports app
+6. јун 2026.
+
+Optimize application costs with Gemini Cloud Assist
+21. мај 2026.
+
+How to automatically deploy your changes from GitHub to Cloud Run using Cloud Build
+27. мај 2026.
+
+Test the Cupcake App
+6. јун 2026.
+
+Database as a Tool: Agentic RAG with ADK, MCP Toolbox, and Cloud SQL
+21. мај 2026.
+
+Store and access data using keys with DataStore
+30. јун 2026.
+
+Lesson 4: Build your first Android app
+6. јун 2026.
+
+Use Room for data persistence
+6. јун 2026.
+
+Agentspace Custom Domain
+20. мај 2026.
+
+Build a microservice-based ecommerce web application with Kubernetes
+7. јул 2026.
+
+Introduction to Coroutines in Android Studio
+6. јун 2026.
+
+Code Review Automation with GenAI
+27. мај 2026.
+
+Basic Color Harmonization in Android Views
+20. мај 2026.
+
+Vibecode and Deploy a Frontend for an ADK agent
+27. јун 2026.
+
+Boost your web apps with Fugu APIs
+5. јун 2026.
+
+Connect your application to AlloyDB data and deploy on Cloud Run
+23. мај 2026.
+
+Connecting Cloud Spanner with GKE Autopilot
+9. јун 2026.
+
+Google Pay API for Flutter on Android
+10. јун 2026.
+
+Sign and verify data with Cloud KMS (Asymmetric)
+26. мај 2026.
+
+Per-Instance Weighted Network Load Balancing
+27. мај 2026.
+
+Way Back Home - Building an ADK Bi-Directional Streaming Agent
+22. јун 2026.
+
+Google Ads with Google Analytics for Firebase custom events - Unity
+26. мај 2026.
+
+Trigger Cloud Run with Eventarc events
+9. јун 2026.
+
+Quiz - Onboard and launch a location
+2. јун 2026.
+
+Build an Image Generation App with Imagen and Mesop in Cloud Shell
+27. мај 2026.
+
+Use Procurement Document AI to Parse your Invoices using AI Platform Notebooks
+26. мај 2026.
+
+Introduction to testing with Gemini Code Assist
+26. мај 2026.
+
+Vertex AI Pipelines PSC Interface SWP
+7. јун 2026.
+
+AlloyDB Agentic RAG Application with MCP Toolbox
+20. мај 2026.
+
+How to create a Private Services Connect for CloudSQL
+24. мај 2026.
+
+Go further with image classification
+2. јун 2026.
+
+Building Personalized Agents with ADK, MCP, and Memory Bank
+20. јун 2026.
+
+Passkey integration on the server-side and user-experience upgrades
+29. јун 2026.
+
+ARCore Raw Depth
+20. мај 2026.
+
+Build engaging cross-platform experiences with Firebase and Flutter
+27. јун 2026.
+
+Connect your application to Cloud SQL data and deploy on Cloud Run
+23. мај 2026.
+
+Private Service Connect Interface Managed Services
+24. мај 2026.
+
+Build a Multi-Language Code Auditor with Parallel Antigravity Agents
+18. јун 2026.
+
+Getting Started with CameraX
+7. јун 2026.
+
+Serverless MEAN Stack Application on MongoDB Atlas and Cloud Run
+24. мај 2026.
+
+Activity embedding
+29. јун 2026.
+
+Connect GitHub to Google Cloud with Developer Connect
+21. мај 2026.
+
+Accelerated Machine Learning with Google Cloud and NVIDIA
+25. јун 2026.
+
+Build and launch an ASP.NET Core app from Google Cloud Shell
+10. јун 2026.
+
+Effectively engage users with Firebase
+7. јул 2026.
+
+Getting Started with Agent2Agent (A2A) Protocol: A Purchasing Concierge and Remote Seller Agent Interactions on Cloud Run and Agent Engine
+23. мај 2026.
+
+Create passes on Android using the Google Wallet API
+22. јун 2026.
+
+Deploy Multihost TPU vLLM Inferencing with Ray on GKE
+24. мај 2026.
+
+Empower Your Gmail Inbox with Google Cloud Functions
+27. мај 2026.
+
+Generative AI for Video Analytics with Vertex AI
+27. мај 2026.
+
+Build Actions for Google Assistant
+29. јун 2026.
+
+Private Service Connect for Google APIs
+10. јун 2026.
+
+Migrating to Jetpack Compose
+24. мај 2026.
+
+Deploy Disaggregated TPU vLLM Inferencing with llm-d on GKE
+21. мај 2026.
+
+Add push notifications to a web app
+20. мај 2026.
+
+Secure Serverless Application with Identity Aware Proxy (IAP)
+7. јун 2026.
+
+Document AI: Human in the Loop
+9. јун 2026.
+
+Build a Google Workspace AI Agent with ADK and MCP
+21. мај 2026.
+
+Managed Service for Apache Spark
+24. мај 2026.
+
+Managed Service for Apache Spark
+24. мај 2026.
+
+Cloud Spanner Getting Started with Games Development
+9. јун 2026.
+
+Vertex AI: Training and serving a custom model
+30. мај 2026.
+
+AI Agent End to End - Workshop
+18. мај 2026.
+
+How to create a Private Service Connect for AlloyDB
+26. мај 2026.
+
+Using Private Service Connect to publish and consume services with GKE
+10. јун 2026.
+
+Build Agentic AI Applications in Java with LangChain4j and Google GenAI
+7. јун 2026.
+
+Deploy a full stack JavaScript application to Cloud Run with Cloud SQL for PostgreSQL
+9. јун 2026.
+
+Distributed tracing with Spring Cloud Sleuth and Cloud Trace
+2. јун 2026.
+
+Protect your app from abuse with App Check
+7. јул 2026.
+
+How to Host a single-turn ADK Agent on a Cloud Run worker pool
+24. мај 2026.
+
+Getting started with Cloud Run functions
+9. јун 2026.
+
+Manage FHIR resources using FHIR Engine Library
+21. мај 2026.
+
+Adapt for different screen sizes
+30. јун 2026.
+
+Build an AI-powered customer support agent using Firebase AI Logic
+21. мај 2026.
+
+Getting Stylish with Gemini Code Assist
+24. мај 2026.
+
+Releasing with Cloud Deploy
+30. мај 2026.
+
+Accelerated Data Analytics with Google Cloud and NVIDIA
+21. мај 2026.
+
+(Deprecated) People: Conversations and Bubbles
+7. јун 2026.
+
+Drag and Drop in Compose
+24. мај 2026.
+
+Android 11 - Week 3 - Privacy, Trust and Security
+2. јул 2026.
+
+Hands-on: Create a TV guide action for the Google Assistant with Dialogflow and Actions on Google
+9. јун 2026.
+
+Advanced Authentication features
+3. јун 2026.
+
+How to use App Engine Memcache in Flask apps (Module 12)
+10. јун 2026.
+
+Google Pay API for Jetpack Compose on Android
+9. јун 2026.
+
+Tools Make an Agent: From Zero to Assistant with ADK
+21. мај 2026.
+
+Module 11: Migrating from Google App Engine to Cloud Functions
+10. јун 2026.
+
+Hello Cloud Run with Python (Gradio)
+24. мај 2026.
+
+Getting started with Spec Driven Development in Antigravity
+23. мај 2026.
+
+Build Agentic AI App That Your Customer can Interact with via Telegram
+26. мај 2026.
+
+Build a chat app with the Conversational Analytics API for Looker and BigQuery
+20. јун 2026.
+
+MDC-101 Web: Material Components (MDC) Basics (Web)
+26. мај 2026.
+
+AI Magic Wand with TensorFlow Lite for Microcontrollers and Arduino
+18. мај 2026.
+
+Using the Text-to-Speech API with C#
+9. јун 2026.
+
+Android 11—Week 9—Large screens quiz
+7. јун 2026.
+
+Run your first app on the Android Emulator
+6. јун 2026.
+
+Android VTS v10.0 Codelab (2019 Version)
+20. мај 2026.
+
+Add Chat to your AppSheet apps
+18. мај 2026.
+
+Runtime Security Insights
+27. мај 2026.
+
+Pic-a-daily: Lab 4—Create a web frontend
+9. јун 2026.
+
+Building a Real-Time Surplus Engine with Gemini 3 Flash & AlloyDB
+23. мај 2026.
+
+Using Gemini Code Assist to explore and enhance AI Summarization Jump Start Solution
+9. јун 2026.
+
+Lesson 6: App navigation
+6. јун 2026.
+
+Cronet Basics
+22. јун 2026.
+
+How to run LLM inference on Cloud Run GPUs with vLLM
+21. мај 2026.
+
+Enable local fulfillment for Cloud-to-cloud integrations
+18. мај 2026.
+
+Quality Controlled RAG with AlloyDB's latest Vector Search Features!
+7. јун 2026.
+
+Basics of Kotlin Multiplatform
+7. јул 2026.
+
+Access Google APIs from on-premises hosts using IPv6 addresses
+20. мај 2026.
+
+Accelerated Mobile Pages Foundations
+18. мај 2026.
+
+Building Applications in the AI Era
+10. јун 2026.
+
+Add keyboard, mouse, trackpad, and stylus support with Jetpack Compose
+20. мај 2026.
+
+Firebase Cross Device Codelab
+3. јун 2026.
+
+Use Confidential Space with protected resources that aren't stored with a cloud provider
+27. мај 2026.
+
+Get started with mobile text classification
+27. јун 2026.
+
+Secure Agent Commerce with AP2 and UCP
+21. мај 2026.
+
+Android Testing Codelab
+20. мај 2026.
+
+Codelab - Managing Kubernetes with kubectl-ai, an AI powered Kubernetes Assistant
+24. мај 2026.
+
+Pic-a-daily: Lab 1—Store and analyse pictures
+9. јун 2026.
+
+Using Google Gemini File Search Tool for RAG
+26. мај 2026.
+
+Cloud Armor for NLB/VM with User Defined Rules
+10. јун 2026.
+
+Introduction to programming in Kotlin
+30. јун 2026.
+
+Build AI-powered web apps with Firebase Extensions for the Gemini API
+5. јун 2026.
+
+Ingest CSV (Comma-separated values) data to BigQuery using Cloud Data Fusion - Real time ingestion
+26. мај 2026.
+
+Measure performance with web-vitals.js, Google Analytics and BigQuery
+26. мај 2026.
+
+Use Remote Config to update your Unity game without a release quiz
+3. јун 2026.
+
+Recognize Flowers with TensorFlow Lite on Android
+24. мај 2026.
+
+Alerts: Log-Based Errors to Pub/Sub Topics
+20. мај 2026.
+
+Building a Simple Travel Agent with ADK and Gemini CLI
+21. мај 2026.
+
+How to Use Cloud Run with Gemini Function Calling
+26. мај 2026.
+
+Build a Patent Search App with AlloyDB, Vector Search & Vertex AI!
+20. јун 2026.
+
+Accelerated data-driven development with MCP Toolbox for AlloyDB using Gemini CLI on Cloud Run
+20. мај 2026.
+
+Deploying a Confidential Space Workload with MIGs using Autoscaling, Autohealing and Image Updates
+24. мај 2026.
+
+Receive location updates in Android with Kotlin
+27. мај 2026.
+
+Module 3: Migrate from Google Cloud NDB to Cloud Datastore
+10. јун 2026.
+
+Deploy a full stack Angular application to Cloud Run with Cloud SQL for PostgreSQL using the Cloud SQL Node.js Connector
+9. јун 2026.
+
+Getting Started with gRPC-Python - Streaming
+10. јун 2026.
+
+How to run batch inference on Cloud Run jobs
+24. мај 2026.
+
+Code Lab: NCC VPC as a Spoke
+7. јун 2026.
+
+Starting Android Accessibility
+31. мај 2026.
+
+Testing in Jetpack Compose
+24. мај 2026.
+
+Migrating from Google App Engine Java app to Cloud Run with Docker
+9. јун 2026.
+
+Learn Images
+31. мај 2026.
+
+Build leaderboards with Firestore
+31. мај 2026.
+
+Battle Jamón Terms and Conditions
+20. мај 2026.
+
+Controlling media through MediaSession
+26. мај 2026.
+
+Building Beautiful Transitions with Material Motion for Android
+6. јун 2026.
+
+Design and preview your app icons
+21. мај 2026.
+
+Securing a Multi-Agent System
+24. јун 2026.
+
+Build a complete integration with Health Connect
+20. јун 2026.
+
+Integrate Test Lab into your CI/CD system
+3. јун 2026.
+
+Migrate from App Engine Memcache to Cloud Memorystore (Module 13)
+10. јун 2026.
+
+Build an Interactive Canvas Action for Google Assistant with Actions Builder
+10. јун 2026.
+
+Serving Gemma 3 with vLLM on Cloud Run
+24. јун 2026.
+
+Reverse ETL from Databricks to Spanner using CSV
+26. мај 2026.
+
+Accessibility, testing, and performance
+6. јун 2026.
+
+Deploy a JavaScript application to Cloud Run with AlloyDB
+9. јун 2026.
+
+Code Review and Security Analysis with Gemini CLI with Extensions
+22. јун 2026.
+
+Analyze ADK Agent execution with the BigQuery Agent Analytics Plugin
+21. мај 2026.
+
+Learn Privacy
+25. јун 2026.
+
+Vertex AI Vision Motion Filter
+7. јун 2026.
+
+Speed Up Data Analytics on GPUs
+25. јун 2026.
+
+Add a button to an app
+30. јун 2026.
+
+Accelerating Development with Gemini Code Assist
+20. мај 2026.
+
+Lesson 8: App architecture (UI layer)
+6. јун 2026.
+
+Create No Code Agent using Agent Platform Agent Builder
+2. јул 2026.
+
+Spring Boot application with Cloud Spanner
+9. јун 2026.
+
+Get started with AlphaEvolve on Google Cloud
+10. јул 2026.
+
+Save preferences locally with DataStore
+6. јун 2026.
+
+Visualize data with Google Maps Platform and deck.gl
+5. јун 2026.
+
+Agentverse - The Scholar's Grimoire - Building Knowledge Engines with RAG
+20. мај 2026.
+
+Add Play Integrity to your Android application
+20. мај 2026.
+
+How to deploy a FastAPI chatbot app to Cloud Run using Gemini
+9. јун 2026.
+
+Codelab: Spanner MCP Server
+7. јун 2026.
+
+Building Persistent AI Agents with ADK and CloudSQL
+20. јун 2026.
+
+Improve the user experience of your Android app
+5. јун 2026.
+
+Configure, implement, and verify Android App Links
+22. јун 2026.
+
+Install Android 11 GSI for App Testing
+7. јун 2026.
+
+TPU Dynamic Slicing on GKE with Kueue and LeaderWorkerSet
+18. јун 2026.
+
+Build an Intelligent Ecommerce Catalog with Multi-database Persistence
+21. мај 2026.
+
+More Kotlin fundamentals
+30. јун 2026.
+
+How to deploy a secure MCP server on Cloud Run
+21. мај 2026.
+
+Languages quiz
+2. јул 2026.
+
+Composite Health for Private Service Connect
+7. јун 2026.
+
+Get started with Google Workspace MCP and Gemini CLI
+21. мај 2026.
+
+Search for and select Google APIs
+30. мај 2026.
+
+Display the first 100 files & folders in your Google Drive
+9. јун 2026.
+
+Setting up custom cost controls for BigQuery
+10. јун 2026.
+
+Lesson 7: Activity and fragment lifecycles
+6. јун 2026.
+
+Compose essentials
+5. јун 2026.
+
+GitLab - Code Review Automation with GenAI
+27. мај 2026.
+
+Turn Dark Data into Structured Gold
+23. мај 2026.
+
+Pic-a-daily: Lab 5—Cleanup after image deletion
+7. јун 2026.
+
+Visualizing dynamic color in your app
+7. јун 2026.
+
+How to use App Engine Task Queue (pull tasks) in Flask apps (Module 18)
+10. јун 2026.
+
+Preventing Violence Against Women Online - Google for Developers
+29. јун 2026.
+
+Create Your Own Executive Assistant with Agent Development Kit
+23. мај 2026.
+
+Automatically Deploy Generative AI Svelte Web Application from Version Control to Cloud Run
+20. мај 2026.
+
+MDC-102 Android: Material Structure and Layout (Java)
+24. мај 2026.
+
+ADK: From Basics to Multi-Tool Agents
+18. мај 2026.
+
+Cloud Armor and TCP/SSL Proxy Load Balancers - Rate limiting and IP Deny list Codelab
+27. мај 2026.
+
+Migrating to Variable fonts
+24. мај 2026.
+
+Continuous deployment to Google Kubernetes Engine (GKE) with Cloud Build
+22. јун 2026.
+
+Creating a multiplayer crossword with Gemini, Flutter, and Firebase
+3. јун 2026.
+
+Next ‘26 Developer Keynote: Enhancing Agents with Memory
+21. мај 2026.
+
+Dependency management with Artifact Registry
+26. мај 2026.
+
+Route Datadog monitoring alerts to Google Cloud with Eventarc (Part 2)
+9. јун 2026.
+
+Codelab: Cloud Run Day 2025 - Setup
+23. мај 2026.
+
+Build an animated responsive app layout with Material 3
+7. јун 2026.
+
+Build a Brick Viewer with lit-element
+24. мај 2026.
+
+Module 4: Audit
+5. јун 2026.
+
+Preprocessing BigQuery Data with PySpark on Dataproc
+26. мај 2026.
+
+Bookshelf Analytics: Use Gemini to build SQL applications with BigQuery and Generative AI
+20. мај 2026.
+
+Cymbal Transit: A multi agent system using LangChain4J and MCP Toolbox Java SDK
+21. мај 2026.
+
+Send Web events to GA4 using Measurement Protocol
+9. јун 2026.
+
+Add Firebase Phone Number Verification to your Android app
+20. мај 2026.
+
+Privacy and security quiz
+7. јун 2026.
+
+Functions
+6. јун 2026.
+
+HTTP Cloud Functions in Python
+10. јун 2026.
+
+MDC-111 Android: Incorporating Material Components into your codebase (Java)
+26. мај 2026.
+
+Engage users with your Action for Google Assistant
+10. јун 2026.
+
+clasp - The Apps Script CLI
+9. јун 2026.
+
+Use Room for data persistence
+6. јун 2026.
+
+Build a simple app with text composables
+6. јун 2026.
+
+Private Service Connect - Using PSC Backends to Access a Producer Service
+10. јун 2026.
+
+Quiz: Use MFA, blocking functions, and cross-service Security Rules
+3. јун 2026.
+
+Sentiment analysis using Gemini AI with ABAP SDK
+10. јун 2026.
+
+Build a Fast Checkout Experience on Android with Google Pay
+7. јун 2026.
+
+Lesson 12: Repository pattern and WorkManager
+6. јун 2026.
+
+Recognize, Identify Language and Translate text with ML Kit and CameraX: Android
+26. мај 2026.
+
+Cloud Function for content summarization using PaLM Vertex AI API and Google Cloud Storage
+26. мај 2026.
+
+Apache Spark and Jupyter Notebooks on Managed Service for Apache Spark
+20. мај 2026.
+
+Spanner & BigQuery: Real-Time Fraud Defense Shield
+24. мај 2026.
+
+Prototype to Production: Training custom models with Vertex AI
+7. јун 2026.
+
+Pic-a-daily: Lab 1—Store and analyse pictures (Java)
+9. јун 2026.
+
+How to connect your Android device
+6. јун 2026.
+
+Cloud Run Starter Tutorial
+10. јун 2026.
+
+Code Generation Agent on GKE
+21. мај 2026.
+
+MDC-102 Web: Material Structure and Layout (Web)
+24. мај 2026.
+
+Migration from Cassandra to Bigtable with a Dual-Write Proxy
+10. јун 2026.
+
+Cloud Foundation Toolkit 101
+9. јун 2026.
+
+Getting Started with Google Antigravity
+21. мај 2026.
+
+Raw data to forecasting in seconds with AI agents
+21. мај 2026.
+
+Build a custom, responsive chatbot on Google Cloud quiz
+7. јун 2026.
+
+Build a full-stack Dart app with Cloud Functions for Firebase
+21. мај 2026.
+
+Module 1: Ask
+5. јун 2026.
+
+Real-Time IoT Data Processing using Dataproc and Google Managed Service for Apache Kafka
+24. мај 2026.
+
+Adaptive apps
+20. мај 2026.
+
+Getting started with Hybrid Search in AlloyDB
+21. мај 2026.
+
+Connect smart home devices to the Google Assistant
+18. мај 2026.
+
+Detecting and Editing Visual Objects with Gemini and Nano Banana
+21. мај 2026.
+
+Building a cross-cloud open data lakehouse
+21. мај 2026.
+
+Build, containerize, and deploy Spring Boot apps on Google Cloud quiz
+2. јун 2026.
+
+Building a Multi-Agent System
+21. мај 2026.
+
+Create your first Tile in Wear OS
+5. јун 2026.
+
+Private Service Connect Mutability Codelab
+9. јун 2026.
+
+Lesson 5: Layouts
+30. јун 2026.
+
+Agent Gateway egress from Agent Runtime to external MCP
+7. јул 2026.
+
+Use MFA, blocking functions, and cross-service Security Rules
+7. јул 2026.
+
+Connecting to Cloud SQL: Compute Engine, Private IP and Cloud SQL Proxy
+9. јун 2026.
+
+Looker PSC Northbound Regional External L7 ALB
+26. мај 2026.
+
+Deploy ASP.NET Core app to Google Kubernetes Engine with Istio (Part 2)
+22. јун 2026.
+
+MDC-104 Android: Material Advanced Components (Java)
+26. мај 2026.
+
+Build QA Test Planner Agent using ADK, MCP, and Gemini 2.5 Flash with Thinking Mode
+20. јун 2026.
+
+Compatibility quiz
+7. јун 2026.
+
+Unlock new markets with regional product pricing
+26. мај 2026.
+
+End-to-End Migration: Sharded on-prem MySQL to Cloud Spanner (GoogleSQL)
+24. мај 2026.
+
+(Deprecated) Build an app that runs on a work profile
+6. јун 2026.
+
+Building Agents with Retrieval-Augmented Generation
+23. мај 2026.
+
+Message your users with Firebase Cloud Messaging and Firebase In-App Messaging on Android quiz
+31. мај 2026.
+
+Calculate a custom tip
+6. јун 2026.
+
+Getting started with the Gemini API and Web apps
+22. јун 2026.
+
+Create a Cloud Run worker pool for Pull-based Pub/Sub Subscriptions
+9. јун 2026.
+
+Lesson 11: Connect to the internet
+30. јун 2026.
+
+Persist data with Room
+6. јун 2026.
+
+Hello Cloud Run with Python (Streamlit)
+24. мај 2026.
+
+Your first Flutter app
+2. јун 2026.
+
+Android 11—Week 9—TV
+2. јул 2026.
+
+Movie Rating Prediction with BQML using SQL
+7. јун 2026.
+
+Building a gRPC service with Java
+22. јун 2026.
+
+Pic-a-daily: Store and Analyze Pictures with Google Native Java Client Libraries
+9. јун 2026.
+
+Create a custom text-classification model with TensorFlow Lite Model Maker
+5. јун 2026.
+
+Deploy Applications from Gemini CLI and Antigravity to Cloud Run using MCP Server
+22. јун 2026.
+
+Get started with object detection in Android apps quiz
+29. јун 2026.
+
+Use Spring Boot to quickly create apps for Google Cloud
+25. јун 2026.
+
+Document AI Workbench - Custom Document Extractor
+9. јун 2026.
+
+Deploying Imagen to Cloud Run
+24. мај 2026.
+
+Use the ARCore Depth API for immersive augmented reality experiences
+9. јун 2026.
+
+Agent Starter Pack with the ADK for Go
+21. мај 2026.
+
+Adding an AdMob app open ad to a Unity app
+20. мај 2026.
+
+Scene Semantics and Geospatial Depth
+25. јун 2026.
+
+Firebase Testing Pathway Quiz
+3. јун 2026.
+
+Cloud Firestore Android Codelab
+22. јун 2026.
+
+Create Custom Visualizations in Data Studio
+27. мај 2026.
+
+Measure Core Web Vitals field data with Ad metrics
+24. мај 2026.
+
+Build Multi-Agent Systems with ADK
+23. мај 2026.
+
+Codelab - Build a contextual Yoga Poses recommender app with Firestore, Vector Search, Langchain and Gemini (Python version)
+7. јун 2026.
+
+Build a Q&A App with Multi-Modal RAG using Gemini Pro
+7. јун 2026.
+
+Follow Material Design guidelines for Android apps in Java
+5. јун 2026.
+
+Add Firebase to your Flutter app quiz
+31. мај 2026.
+
+How to use 1-click Identity Aware Proxy (IAP) with Cloud Run
+9. јун 2026.
+
+MDC-102 Android: Material Structure and Layout (Kotlin)
+6. јун 2026.
+
+Update your app to use a spam filtering Machine Learning model
+2. јун 2026.
+
+Get started with the Scene Semantics and Geospatial Depth APIs in ARCore
+2. јун 2026.
+
+Automated Classification of Data Uploaded to Cloud Storage with the DLP API and Cloud Functions
+20. мај 2026.
+
+Prototyping models in AI Platform Notebooks
+26. мај 2026.
+
+Android Views and Compose in Views
+5. јун 2026.
+
+Triggering Workflows with Eventarc
+26. мај 2026.
+
+AlloyDB Quick Setup Lab
+21. мај 2026.
+
+Pic-a-daily: Lab 3—Create a collage of most recent pictures
+9. јун 2026.
+
+Time Series Forecasting with Vertex AI and BigQuery ML
+26. мај 2026.
+
+Build and Deploy to Google Cloud with Antigravity
+21. мај 2026.
+
+Machine learning quiz
+7. јун 2026.
+
+Dev to Prod in Three Easy Steps with Cloud Run
+9. јун 2026.
+
+Practical observability techniques for Generative AI application in Python
+9. јун 2026.
+
+Learn HTML
+31. мај 2026.
+
+Advanced WorkManager and Testing
+20. мај 2026.
+
+Cloud NGFW Essentials for Load Balancers
+26. мај 2026.
+
+Use convolutional neural networks (CNNs) with large datasets to avoid overfitting
+7. јун 2026.
+
+Module 3: Answer
+5. јун 2026.
+
+Track Events in a WebView with Google Analytics for Firebase
+27. мај 2026.
+
+Add Nearby Messages to your app
+20. мај 2026.
+
+Deploy from AI Studio to Cloud Run
+26. мај 2026.
+
+Lesson 11: Connect to the internet
+6. јун 2026.
+
+Create and use functions in Kotlin
+6. јун 2026.
+
+Hierarchical Firewall Policy with IAM-governed tags
+10. јун 2026.
+
+Implement Subscription replacements with Google Play Billing
+21. мај 2026.
+
+Build a handwritten digit classifier app with TensorFlow Lite
+20. јун 2026.
+
+Draw a Website: Transform your imagination into a website using Gemini models!
+24. мај 2026.
+
+Creating text prompts with Google AI Studio and the Gemini LLM
+22. јун 2026.
+
+Introduction to Coroutines in Kotlin Playground
+6. јун 2026.
+
+Add Rewarded Video Ads to your Android App
+20. мај 2026.
+
+Build Actions for Google Assistant using the Actions SDK (Level 1)
+10. јун 2026.
+
+Triggering Event Processing from Cloud Storage using Eventarc and Cloud Run functions
+7. јун 2026.
+
+Protect your app from abuse with App Check quiz
+3. јун 2026.
+
+Create an iOS app to predict values
+5. јун 2026.
+
+Use Coral Edge TPUs to run TFlite models in Node with TensorFlow.js
+30. мај 2026.
+
+Integrating Remote Config on Android Codelab
+26. мај 2026.
+
+Build, train, and deploy an XGBoost model on Cloud AI Platform
+20. јун 2026.
+
+Add Firestore Vector Search to your mobile apps with Firebase Extensions
+20. мај 2026.
+
+Change the app icon
+6. јун 2026.
+
+Practice: Build Amphibians app
+6. јун 2026.
+
+Build a handwritten digit classifier Android app with MediaPipe Tasks
+20. јун 2026.
+
+Run Gromacs Molecular Dynamics Simulations with Fluid Numerics' Slurm-GCP
+24. мај 2026.
+
+Add images to your Android app
+20. мај 2026.
+
+Create Data Studio Community Visualizations with dscc-gen
+9. јун 2026.
+
+Build and Evaluate BigQuery Agents using Agent Development Kit (ADK) and GenAI Eval Service
+23. мај 2026.
+
+Build a Supply Chain Orchestrator with ADK, AlloyDB, and Vertex AI Memory Bank
+21. мај 2026.
+
+Duet AI Technical Hands On Workshop Guide for Developers Codelab
+9. јун 2026.
+
+Build user-adaptive interfaces with preference media queries
+26. мај 2026.
+
+Build a frontend Django client for a Dialogflow app
+7. јун 2026.
+
+Getting started with Hybrid Search in AlloyDB
+21. мај 2026.
+
+Build a microservice-based ecommerce web application with Kubernetes
+5. јун 2026.
+
+Deploy a full stack Next.js application to Cloud Run with Cloud SQL for PostgreSQL using the Cloud SQL Node.js Connector
+9. јун 2026.
+
+JIRA User Stories Implementation with GenAI
+26. мај 2026.
+
+Using Cloud NAT NAT rules
+9. јун 2026.
+
+Build a Patent Search App with Spanner, Vector Search & Gemini 1.0 Pro!
+20. јун 2026.
+
+Add pre-order offers for one-time products
+20. мај 2026.
+
+Get started with text classification in Flutter apps quiz
+5. јун 2026.
+
+How to host Ollama as a worker pool for inference
+24. мај 2026.
+
+Getting Started with gRPC-Go - Streaming
+10. јун 2026.
+
+Learn Android XR Fundamentals: Part 2 - Orbiters and Spatial Environments
+21. мај 2026.
+
+Smart home Actions for the Google Assistant quiz
+25. јун 2026.
+
+Designing with accessible colors
+24. мај 2026.
+
+Add Gemini capabilities to your Android app
+20. мај 2026.
+
+Data Cards Playbook: Transparent documentation for responsible AI quiz
+5. јун 2026.
+
+Getting started with Google AI Studio and the Gemini API using Node.js
+25. јун 2026.
+
+Migrate existing apps to Room KMP
+3. јун 2026.
+
+TensorFlow.js — Handwritten digit recognition with CNNs
+26. мај 2026.
+
+Buffer HTTP requests with Cloud Tasks
+20. јун 2026.
+
+Accelerated Machine Learning with Google Cloud and NVIDIA
+21. мај 2026.
+
+How to fine tune a LLM using Cloud Run Jobs
+21. мај 2026.
+
+Build a scrollable list
+6. јун 2026.
+
+Introduction to the Conversational Analytics in BigQuery
+24. јун 2026.
+
+Android 11—Week 6—Jetpack
+2. јул 2026.
+
+Codelab - Build a contextual Yoga Poses recommender app with Firestore, Vector Search, Langchain and Gemini (Node.js version)
+7. јун 2026.
+
+Migrate from App Engine Task Queue Push Tasks to Cloud Tasks (Module 8)
+10. јун 2026.
+
+Project: Create a My City app
+6. јун 2026.
+
+Building with Google Antigravity
+21. мај 2026.
+
+Antigravity CLI on GCE with a Private Service Connect endpoint
+26. мај 2026.
+
+Stop online violence against women quiz
+5. јун 2026.
+
+Lesson 1.1 - Get started
+30. јун 2026.
+
+Using the Speech-to-Text API with Node.js
+9. јун 2026.
+
+Build a modern three-tier architecture web application with Cloud Run
+27. јун 2026.
+
+Deploy and Update a .NET Core app in Google Kubernetes Engine
+9. јун 2026.
+
+Installing and Setting-up MCP Toolbox for Databases for your Gen AI & Agentic Applications on AlloyDB
+21. мај 2026.
+
+People and identity quiz
+2. јул 2026.
+
+Improve the user experience of an Android app
+29. јун 2026.
+
+Get started with comment-spam detection
+30. јун 2026.
+
+Defending Edge Cache with Cloud Armor
+9. јун 2026.
+
+Material's Communication Principles: Intro to UX Writing
+27. мај 2026.
+
+How to use AI Agent Skills (with Gemini CLI and Agent Skills for Firebase)
+18. јун 2026.
+
+Practice: Add a ViewModel to Dessert Clicker
+6. јун 2026.
+
+Rate Limiting with Cloud Armor
+10. јун 2026.
+
+Lesson 7: Activity and fragment lifecycles
+30. јун 2026.
+
+How to connect a Go application on Cloud Run to a Cloud SQL for PostgreSQL database
+7. јун 2026.
+
+Introduction to serverless orchestration with Workflows
+9. јун 2026.
+
+Android 11—Week 11—Modern UI quiz
+6. јун 2026.
+
+Get started with Google Maps Platform - web
+27. јун 2026.
+
+Multimodal Video Transcription with Gemini
+9. јун 2026.
+
+Create a transcript of your business meetings using Google Docs & Machine Learning
+9. јун 2026.
+
+Build real-time web apps with Firebase and Angular
+29. јун 2026.
+
+AlloyDB AI Operators and Reranking
+20. мај 2026.
+
+Download and install Android Studio
+6. јун 2026.
+
+Android 11—Week 8—App distribution and monetization
+2. јул 2026.
+
+Bitbucket - Code Review Automation with GenAI
+20. мај 2026.
+
+Using textembedding-gecko@003 for Vector Embeddings
+26. мај 2026.
+
+How to Build an MCP Server with Gemini CLI and Go
+23. мај 2026.
+
+Analyze Drug Interactions with BigQuery Graph
+18. јун 2026.
+
+Fine-tune Gemini on Vertex AI
+23. мај 2026.
+
+AlloyDB Omni and EmbeddingGemma on Kubernetes.
+20. мај 2026.
+
+Detect objects in images with ML Kit: Android
+2. јун 2026.
+
+Scale Reinforcement Learning with GKE and Managed Lustre
+23. мај 2026.
+
+How to Interact with APIs Using Function Calling in Gemini
+9. јун 2026.
+
+Getting Started with Antigravity IDE
+7. јул 2026.
+
+🛡️ Build a Secure Agent with Model Armor and Identity
+20. јун 2026.
+
+How to do local testing of an ADK agent that writes to a Google Sheet before deploying to Cloud Run
+30. јун 2026.
+
+Say hello to the "Hello, World" of machine learning
+7. јун 2026.
+
+Add a button to an app
+6. јун 2026.
+
+Capture media with WebRTC quiz
+29. јун 2026.
+
+Android App Resizing
+20. мај 2026.
+
+Access files in Cloud Storage with the Spring Resource abstraction
+20. мај 2026.
+
+Maximize Your Play Billing Integration
+26. мај 2026.
+
+Go further with audio classification
+6. јун 2026.
+
+Cloud Run and serverless computing
+27. јун 2026.
+
+Get started with Google Maps Platform quiz
+27. јун 2026.
+
+Advanced Android in Kotlin 03.2: Animation with MotionLayout
+20. мај 2026.
+
+Private Service Connect 66
+7. јун 2026.
+
+Evaluating Single LLM Outputs With Vertex AI Evaluation
+23. мај 2026.
+
+Codelab - Build a Movie Recommendation Chatbot using Neo4j and Vertex AI
+7. јун 2026.
+
+Advanced State and Side Effects in Jetpack Compose
+20. мај 2026.
+
+Grant access to your project with IAM
+24. мај 2026.
+
+ViewModel and State in Compose
+6. јун 2026.
+
+Build an Android app with Jetpack Compose and Firebase
+27. јун 2026.
+
+Your first WebGPU app
+30. мај 2026.
+
+Automatically Deploy Generative AI Next.js Web Application from Version Control to Cloud Run
+20. мај 2026.
+
+Building a secure agent system with Model Armor
+21. мај 2026.
+
+Scale Distributed Data Processing with GKE to build a Knowledge Graph in BigQuery
+23. мај 2026.
+
+Build an appointment scheduler with Dialogflow
+20. јун 2026.
+
+Measure a web page's Core Web Vitals with the web-vitals library
+5. јун 2026.
+
+Get data from the internet
+6. јун 2026.
+
+Getting started with Angular Signals
+10. јун 2026.
+
+Bot Management with Google Cloud Armor + reCAPTCHA
+20. јун 2026.
+
+Local to Cloud: Full-Stack App Migration with Gemini CLI and Cloud SQL MCP
+21. мај 2026.
+
+Securing ML models and Intellectual Property using Confidential Space
+24. мај 2026.
+
+Connect AppSheet with Apps Script
+10. јун 2026.
+
+Generating Consistent Imagery with Gemini Nano Banana
+18. мај 2026.
+
+Get started with Google Maps Platform for iOS
+7. јул 2026.
+
+Integrate Vertex AI Agents with Google Workspace
+21. мај 2026.
+
+AdMob+Firebase 102 Unity: Fine-tune the app behavior without an app update
+20. мај 2026.
+
+Build and launch a Spring Boot Java app from Cloud Shell
+2. јун 2026.
+
+(Deprecated) Using Hilt in your Android app
+7. јун 2026.
+
+User authentication with Identity-Aware Proxy
+24. мај 2026.
+
+Agentverse - The Shadowblade's Codex - Vibecoding with Gemini CLI
+20. мај 2026.
+
+Trusted Space codelab
+24. мај 2026.
+
+Calculate Pi on Compute Engine
+22. јун 2026.
+
+Getting Started with gRPC-Java - Streaming
+10. јун 2026.
+
+Deploying a Confidential Space Workload with MIGs using Autoscaling, Autohealing and Image Updates
+7. јул 2026.
+
+Chaos Engineering on GKE Using Litmus
+22. јун 2026.
+
+Fundamentals of Apps Script with Google Sheets #3: Working with Data
+29. јун 2026.
+
+Android 11—Week 7—Developer tools
+2. јул 2026.
+
+Creating a multiplayer crossword with Gemini, Flutter, and Firebase
+2. јун 2026.
+
+Using the Speech-to-Text API with C#
+9. јун 2026.
+
+Revision 2025 Q4: Learn how to simplify auth journeys using Credential Manager API in your Android app
+3. јун 2026.
+
+Develop Java Apps on Google Cloud - Google for Developers
+27. јун 2026.
+
+Layouts, theming, and animation
+29. јун 2026.
+
+Vibe Coding with AlloyDB: From 0 to Prod with Antigravity
+3. јул 2026.
+
+Building a board game with TensorFlow Agents and Flutter
+22. јун 2026.
+
+Instrument your Unity game with Firebase Remote Config
+3. јун 2026.
+
+Build multi-cluster GKE Inference Gateway, with TPUs , Cloud Storage FUSE and managed DRANET
+7. јун 2026.
+
+Cloud Spanner with Terraform
+7. јун 2026.
+
+Build a word puzzle with Flutter
+2. јун 2026.
+
+From vibe checks to data-driven Agent Evaluation
+21. мај 2026.
+
+Code Lab: NCC Gateway with PANW SSE
+22. јун 2026.
+
+Advanced activity embedding
+20. мај 2026.
+
+Accessing multi-regional MongoDB Atlas with Private Service Connect
+20. мај 2026.
+
+Vertex AI: Hyperparameter Tuning
+7. јун 2026.
+
+Use FCM and FIAM to send messages to users
+31. мај 2026.
+
+Accelerate Spark with Managed Service for Apache Spark and Lightning Engine
+18. мај 2026.
+
+Using BigQuery with Python
+10. јун 2026.
+
+Connect Gemini CLI to Looker with MCP Toolbox
+22. јун 2026.
+
+Build the Data Foundation with Knowledge Catalog Metadata
+24. мај 2026.
+
+Interacting with UI and state
+30. јун 2026.
+
+Author LookML with Agentic Coding Tools
+20. мај 2026.
+
+Supply Chain Traceability with BigQuery Graph
+21. мај 2026.
+
+How to create a Private Service Connect for Cloud SQL
+26. мај 2026.
+
+Sign in with Google button for Web
+26. мај 2026.
+
+Running custom model training on Vertex Pipelines
+30. мај 2026.
+
+Use Gemini CLI Security Extension for GitHub PR reviews
+23. мај 2026.
+
+Building Stateful and Personalized Agents with ADK
+20. јун 2026.
+
+Build an Event-Driven Data Agent with BigQuery and ADK
+21. мај 2026.
+
+Build an event-driven orchestration with Eventarc and Workflows
+20. јун 2026.
+
+Learn how to implement Sign in With Google on your Android app
+7. јун 2026.
+
+Build a Slack bot with Node.js on Cloud Run
+9. јун 2026.
+
+Integrate fundamental AI concepts in Google Chat apps
+10. јун 2026.
+
+Create fast and stable apps with Firebase quiz
+3. јун 2026.
+
+Practice Problems: Kotlin Basics
+6. јун 2026.
+
+Build Customer 360 recommendation applications with BigQuery Graph
+21. мај 2026.
+
+InnerLoop Development with NodeJS
+27. мај 2026.
+
+Get started with Firebase in C++
+7. јун 2026.
+
+Learn Android XR Fundamentals: Part 1 - Spaces and Spatial Panels
+21. мај 2026.
+
+Cloud Data Loss Prevention Overview
+9. јун 2026.
+
+Build apps with Android Enterprise
+30. јун 2026.
+
+Looker PSC Southbound HTTPS Internet NEG
+26. мај 2026.
+
+Get to know Firebase for Flutter
+31. мај 2026.
+
+Automated UI Testing with Antigravity (AGY) CLI, BrowserMCP, Playwright, and the Browser Agent
+18. јун 2026.
+
+TensorFlow.js: Retrain a comment spam detection model to handle edge cases
+6. јун 2026.
+
+Prepare to grow with tips using Google Analytics for Firebase integrations with Ads
+9. јун 2026.
+
+Build and deploy a custom object detection model with TensorFlow Lite (Android)
+5. јун 2026.
+
+Build and Deploy Multimodal Assistant on Cloud with Gemini (Python)
+26. мај 2026.
+
+🪐 Build & Ship an AI App with Antigravity
+21. мај 2026.
+
+Building a Governed Iceberg Lakehouse with Google Cloud Lakehouse and Knowledge Catalog
+21. мај 2026.
+
+ADK: From Basics to Multi-Tool Agents
+18. мај 2026.
+
+Adding Google Maps to a Flutter app
+20. мај 2026.
+
+Explore GKE NodeLocal DNSCache
+24. мај 2026.
+
+Build a Multi-agent App with MCP Toolbox for AlloyDB & ADK
+21. мај 2026.
+
+Use Remote Config to update your Unity game without a release
+27. јун 2026.
+
+Vertex AI Vision Occupancy Analytics App With Event Management
+7. јун 2026.
+
+Codelab: Build a Chrome Extension in JavaScript using Gemini
+26. мај 2026.
+
+External HTTPs LB with Advanced Traffic Management (Envoy) Codelab
+7. јун 2026.
+
+Build robust, distributed leaderboards with Cloud Firestore
+31. мај 2026.
+
+Learn Forms
+31. мај 2026.
+
+Get predictions from a pre-trained TensorFlow image model on Vertex AI
+7. јун 2026.
+
+App Check Web Codelab
+20. мај 2026.
+
+Pic-a-daily: Lab 1—Store and analyze pictures (Native Java)
+9. јун 2026.
+
+Go further with audio classification
+30. јун 2026.
+
+Compute private statistics with PipelineDP
+9. јун 2026.
+
+Get Started with Firebase Studio
+9. јун 2026.
+
+How to use AI Agent Skills (with Antigravity CLI and Agent Skills for Firebase)
+18. јун 2026.
+
+Go on vacation with a Google Chat app
+3. јун 2026.
+
+Passkeys for Android
+3. јун 2026.
+
+Lesson 9: App architecture (persistence)
+6. јун 2026.
+
+Hands-on with Antigravity CLI
+17. јун 2026.
+
+Send and receive notifications for a Flutter app using Firebase Cloud Messaging
+3. јун 2026.
+
+Quick guide to Gemini CLI
+23. мај 2026.
+
+Introduction to Query Insights for Cloud SQL
+18. јун 2026.
+
+Firebase Performance Monitoring for web
+3. јун 2026.
+
+Document AI Workbench - Uptraining
+9. јун 2026.
+
+Intro to state in Compose
+24. мај 2026.
+
+Deploying Open Models on GKE
+27. мај 2026.
+
+Accelerating Development with Gemini CLI
+20. мај 2026.
+
+Calculate a custom tip
+22. јун 2026.
+
+Agentspace Custom Domain, WIF Support
+20. мај 2026.
+
+BigQuery UI Navigation and Data Exploration Codelab
+20. мај 2026.
+
+Advanced Android 09.1: Google Maps
+20. мај 2026.
+
+GitHub - Code Review Automation with GenAI
+27. мај 2026.
+
+Vertex AI Vision Queue Detection App
+27. мај 2026.
+
+Getting Started with gRPC-Rust - Streaming
+9. јун 2026.
+
+Connecting to Cloud SQL: Public IP and authorized networks
+9. јун 2026.
+
+Gemini extensions quiz
+5. јун 2026.
+
+Receive location updates in Android with Kotlin
+5. јун 2026.
+
+Securing Software Supply
+7. јун 2026.
+
+Google Pay API for Web 101: Basics
+2. јун 2026.
+
+Add Firebase to your Flutter app: Advanced
+27. јун 2026.
+
+Anthropic Claude Opus 4.6 and Gemini 3.1 on Vertex AI with python sdk via Private Service Connect endpoint
+20. мај 2026.
+
+InnerLoop Development using Cloud Workstations with NodeJS
+26. мај 2026.
+
+Getting started with Spanner Vector Search
+20. јун 2026.
+
+Get Started with Unity and Google Play Games for PC
+10. јун 2026.
+
+Get started with Google Maps Platform for Android
+27. јун 2026.
+
+Using Notebooks with Google Cloud Dataflow
+9. јун 2026.
+
+Go further with comment spam detection
+30. јун 2026.
+
+Mastering KCC Operations with Google Antigravity
+24. јун 2026.
+
+Build a Smart Shopping Assistant with AlloyDB and Vertex AI Agent Builder - Part 2
+30. мај 2026.
+
+Build a Generative UI (GenUI) App
+18. мај 2026.
+
+Compose for Wear OS Codelab
+5. јун 2026.
+
+Artifact Registry Deep Dive
+20. мај 2026.
+
+Quiz: Get started with Google Maps Platform for Android
+5. јун 2026.
+
+Advanced Android in Kotlin 04.1: Android Google Maps
+20. мај 2026.
+
+Automatically Deploy Generative AI Python Web Application from Version Control to Cloud Run
+20. мај 2026.
+
+Run inference using a Gemma model on Cloud Run with RTX 6000 Pro GPU
+9. јун 2026.
+
+Build Autonomous Developer Pipelines using agents.md and skills.md in Antigravity
+21. мај 2026.
+
+Spring Native on Google Cloud
+27. мај 2026.
+
+Customizing Material color
+27. мај 2026.
+
+Codelab: Gemini to accelerate test driven development
+7. јун 2026.
+
+Learn Privacy
+31. мај 2026.
+
+Deploy and run a container with Cloud Run on Node.js
+9. јун 2026.
+
+Android 11 - Week 4 - Compatibility
+2. јул 2026.
+
+Using the Video Intelligence API with Python
+9. јун 2026.
+
+Understand your game's crashes using advanced Crashlytics features
+27. јун 2026.
+
+Building Trusted AI Products with the PAIR Guidebook
+20. јун 2026.
+
+Deploy an ASP.NET Core app to App Engine
+10. јун 2026.
+
+Build convolutions and perform pooling
+7. јун 2026.
+
+Multimodal Embeddings in AlloyDB
+23. мај 2026.
+
+Lesson 5: Layouts
+6. јун 2026.
+
+Build a contextual Yoga Poses recommender app with Firestore, Vector Search and Gemini 2.0 (Java version)!
+24. мај 2026.
+
+Codelab: Service Extensions on Cloud CDN and Global External Application Load Balancer
+22. јун 2026.
+
+Creating AlloyDB database with Cloud Run Job
+24. мај 2026.
+
+Get started with object detection
+2. јун 2026.
+
+Modern convnets, squeezenet, Xception, with Keras and TPUs
+26. мај 2026.
+
+Securing cross-cloud agentic enterprise deployments
+21. мај 2026.
+
+Building Trustable AI at 100 MPH
+21. мај 2026.
+
+Creating and Linking AdWords and Merchant Center Sub-accounts
+26. мај 2026.
+
+Building Knowledge Graphs with Gemini
+23. мај 2026.
+
+Turn your big data into insights using Google Sheets and Slides
+9. јун 2026.
+
+Connecting to Fully Managed Databases from Cloud Run
+26. мај 2026.
+
+Create a Flutter app to classify texts
+5. јун 2026.
+
+Understand your game's crashes using advanced Crashlytics features quiz
+3. јун 2026.
+
+Pic-a-daily: Lab 6—Orchestration with Workflows
+9. јун 2026.
+
+Scale Agents with CrewAI, LangGraph, A2A, and ADK
+24. јун 2026.
+
+Intro to Programming
+6. јун 2026.
+
+Private Service Connect 64
+7. јун 2026.
+
+Securely Deploying to Cloud Run
+7. јун 2026.
+
+Building a financial ML model with the What-If Tool and Vertex AI
+7. јун 2026.
+
+Serving AVIF Images
+10. јун 2026.
+
+Building AI Agents with ADK: Data Analyst Agent
+23. мај 2026.
+
+Cloud Spanner: Your First Database
+9. јун 2026.
+
+Build and test a parked app for Android Automotive OS: Support audio while driving
+20. јун 2026.
+
+Create a custom model for your image classifier
+2. јун 2026.
+
+Lesson 6: App navigation
+30. јун 2026.
+
+Use function types and lambda expressions in Kotlin
+6. јун 2026.
+
+Training and hyperparameter tuning a PyTorch model on Cloud AI Platform
+27. мај 2026.
+
+Go further with product image search
+5. јун 2026.
+
+Building a Unified Data Lakehouse for AI with Apache Iceberg and Lakehouse
+21. мај 2026.
+
+Embed Looker with Conversational Analytics
+27. мај 2026.
+
+Practical observability techniques for Generative AI application in Javascript
+7. јун 2026.
+
+MDC-102 Flutter: Material Structure and Layout
+2. јун 2026.
+
+MDC-103 Android: Material theming with Color, Motion and Type (Java)
+26. мај 2026.
+
+Use Vertex AI Search on PDFs (unstructured data) in Cloud Storage from a Cloud Run service
+24. мај 2026.
+
+Generics, objects, and extensions
+6. јун 2026.
+
+Spanner & BigQuery: Real-Time Fraud Defense Shield
+21. мај 2026.
+
+Deploy a Micronaut application containerized with Jib to Google Kubernetes Engine
+10. јун 2026.
+
+Vertex AI create a secure user-managed notebook
+26. мај 2026.
+
+Quiz: Bring Google's Places data into your Android app
+31. мај 2026.
+
+Scale your Video Insights Pipeline with Cloud Run Jobs, BigQuery, and Gemini
+23. мај 2026.
+
+Lesson 1: Kotlin basics
+30. јун 2026.
+
+CSS knowledge quiz
+31. мај 2026.
+
+Next ‘26 Developer Keynote: Debugging Agents At Scale
+21. мај 2026.
+
+Quiz: Add Firebase to your Flutter app: Advanced
+3. јун 2026.
+
+Django CMS on Cloud Run
+7. јун 2026.
+
+Train a comment-spam detection model with TensorFlow Lite Model Maker
+5. јун 2026.
+
+Android 11—Week 11—Modern UI
+2. јул 2026.
+
+Incorporating generative AI into your game development process with Gemini and Gemma AI
+7. јул 2026.
+
+Learn PWA
+31. мај 2026.
+
+Exploratory data analysis of Iowa liquor sales using the BigQuery DataFrames package
+9. јун 2026.
+
+How to connect a Node.js application on Cloud Run to a Cloud SQL for PostgreSQL database
+9. јун 2026.
+
+Build and Deploy a Pet Passport Agent on Cloud Run
+21. мај 2026.
+
+Launching Google Ads Campaigns with Google Analytics Custom Events and Flutter
+9. јун 2026.
+
+ADK Agentic Pattern with Memory & MCP
+18. мај 2026.
+
+Create passes on Web using the Google Wallet API
+22. јун 2026.
+
+Build apps with Flutter
+27. јун 2026.
+
+MDC-104 Flutter: Material Advanced Components
+26. мај 2026.
+
+Get to know Firebase for web
+31. мај 2026.
+
+Design-to-Code with Antigravity and Stitch MCP
+23. мај 2026.
+
+Capture and process health data with Structured Data Capture Library
+21. мај 2026.
+
+Build with Firebase Data Connect (Android)
+20. јун 2026.
+
+Project: Create a Business Card app
+24. мај 2026.
+
+Learn Testing
+31. мај 2026.
+
+Learn JavaScript
+25. јун 2026.
+
+Build an adaptive app with dynamic navigation
+24. мај 2026.
+
+Architecture and state
+5. јун 2026.
+
+Basic layouts in Compose
+20. мај 2026.
+
+Effectively engage users with Firebase quiz
+3. јун 2026.
+
+Go further with object detection
+29. јун 2026.
+
+Build more accessible Angular apps
+20. јун 2026.
+
+Vibecode and Secure an AI Agent Lifecycle with Antigravity and TDD
+17. јун 2026.
+
+Run the WRF Weather Forecasting Model with Fluid Numerics' Slurm-GCP
+24. мај 2026.
+
+Lesson 3: Classes and Objects
+6. јун 2026.
+
+Before you begin
+20. мај 2026.
+
+Deploy an AI model on GKE with NVIDIA NIM
+26. мај 2026.
+
+Vertex AI Workbench: Build an image classification model with transfer learning and the notebook executor
+30. мај 2026.
+
+Transform and Load Google Forms Survey Responses into BigQuery
+26. мај 2026.
+
+Use the debugger in Android Studio
+6. јун 2026.
+
+Make your Android app accessible
+31. мај 2026.
+
+Serverless Data Transformation with Apache Spark in BigQuery Studio Notebooks
+27. мај 2026.
+
+Specialized Processors with Document AI (Python)
+9. јун 2026.
+
+The Private Vault: Building "Zero Trust Intelligence" with AlloyDB Row-Level Security
+23. мај 2026.
+
+Learn Accessibility
+25. јун 2026.
+
+Events for Cloud Run for Anthos Codelab
+9. јун 2026.
+
+Introduction to ADK Gemini Live API Toolkit
+26. мај 2026.
+
+Cloud Spanner Game Trading Post
+9. јун 2026.
+
+Extending support for App Engine bundled services: Part 1 (Module 17)
+10. јун 2026.
+
+Build an AI-Powered Vehicle Marketplace with BigQuery and Gemini Models
+21. мај 2026.
+
+On-Device Image Segmentation in C++ with LiteRT
+21. мај 2026.
+
+Evaluate RAG Systems with Vertex AI
+23. мај 2026.
+
+Deploy a Spring Boot Java app to Kubernetes on Google Kubernetes Engine
+2. јун 2026.
+
+Recognize, Identify Language and Translate text with ML Kit and CameraX: Android
+7. јун 2026.
+
+Getting started with Spanner Vector Search
+7. јун 2026.
+
+Using the Vision API with C#
+9. јун 2026.
+
+Automatically Deploy Generative AI Go with Genkit Web Application from Version Control to Cloud Run
+20. мај 2026.
+
+Your first multicast push message using FCM topics
+3. јун 2026.
+
+Build a frontend Django client for a Dialogflow app
+10. јун 2026.
+
+Serverless Web APIs Workshop
+27. мај 2026.
+
+Advanced WorkManager
+20. мај 2026.
+
+How to use Ollama as a sidecar with Cloud Run GPUs and Open WebUI as a frontend ingress container
+26. мај 2026.
+
+Accessibility, testing, and performance
+30. јун 2026.
+
+Android 11—Week 9—Large Screens
+2. јул 2026.
+
+Build apps for Google Chat
+27. јун 2026.
+
+Using the Translation API with Python
+9. јун 2026.
+
+Sign in with Google One Tap prompt for Web
+9. јун 2026.
+
+From Web Component to Lit Element
+26. мај 2026.
+
+Leveraging the Gemini Pro Vision model for image understanding, multimodal prompts and accessibility
+31. мај 2026.
+
+Build real-time web apps with Firebase and Angular
+5. јун 2026.
+
+Signed container image codelab
+24. мај 2026.
+
+Get started with text classification in Flutter apps
+29. јун 2026.
+
+Image archiving, analysis, and report generation Google Workspace & Google Cloud
+9. јун 2026.
+
+Adding a Home Screen widget to your Flutter App
+20. мај 2026.
+
+Build a Sports Shop Agent AI Assistant with ADK, MCP Toolbox and AlloyDB
+21. мај 2026.
+
+Launch your to-do web app with AI
+27. јун 2026.
+
+Increase intent coverage and handle errors gracefully with generative fallback
+9. јун 2026.
+
+Connect Looker Cloud over hybrid networking
+22. јун 2026.
+
+Using Classes and Objects in Kotlin
+6. јун 2026.
+
+Real-time Retail Recommendations with Spanner AI and Graph
+24. јун 2026.
+
+Improve your website with Web Vitals
+29. јун 2026.
+
+Automatically Deploy Generative AI Node.js Genkit Web Application from Version Control to Cloud Run
+20. мај 2026.
+
+Android 11—Week 10—Games and media
+2. јул 2026.
+
+Build a computer vision model with TensorFlow
+7. јун 2026.
+
+Your first program in Kotlin
+6. јун 2026.
+
+Vibecode an ADK 2.0 Ambient Agent with Antigravity and Agents CLI
+13. јун 2026.
+
+Agent Engine (ADK) PSC SWP Integration
+21. мај 2026.
+
+Creating IPv6-only VM instances and enabling NAT64/DNS64
+22. јун 2026.
+
+Stages of the Activity lifecycle
+6. јун 2026.
+
+Build apps for Google Chat with Gemini
+10. јун 2026.
+
+Zero ETL Data Federation from BigQuery to AlloyDB
+23. мај 2026.
+
+Agents at Scale: Multi-Agent Architecture with A2A Protocol on Agent Runtime and ADK Integration
+20. мај 2026.
+
+🎬 Build & Deploy an AI Motion Lab with Gemini, Veo & Cloud Run
+21. мај 2026.
+
+How to Schedule a Cloud Run Job within a VPC Service Controls perimeter
+7. јун 2026.
+
+Intro to Vertex Pipelines
+7. јун 2026.
+
+Vertex AI: Building a fraud detection model with AutoML
+7. јун 2026.
+
+Practice: Water Me! app
+6. јун 2026.
+
+Getting Started with DNS Armor's Advanced Threat Detection
+26. мај 2026.
+
+(Deprecated) Converting to Kotlin
+7. јун 2026.
+
+Get started with object detection
+25. јун 2026.
+
+How to use Gemini to explore and enhance an existing application
+9. јун 2026.
+
+AI-powered content search
+29. јун 2026.
+
+Accelerated Mobile Pages Advanced Concepts
+20. мај 2026.
+
+How to Use Cloud Run Jobs & Video Intelligence APIs to process videos
+24. мај 2026.
+
+Connect to on-prem services over Hybrid Networking using Private Service Connect and Hybrid NEG with Internal HTTP(s) load balancer
+24. мај 2026.
+
+Practice: Build Superheroes app
+6. јун 2026.
+
+Setup Android Studio
+30. јун 2026.
+
+Add a map to your iOS app (Swift)
+3. јун 2026.
+
+How to use Baseline in your project
+27. мај 2026.
+
+Add a scrollable list
+20. мај 2026.
+
+Android fundamentals 02.2: Activity lifecycle and state
+20. мај 2026.
+
+Build a Fraud Detection model on Cloud AI Platform with TensorFlow Enterprise and BigQuery
+9. јун 2026.
+
+Evolve LLM fine-tuning hyperparameters with AlphaEvolve on GKE
+10. јул 2026.
+
+Vibe Code with Gemini in Google AI Studio
+23. мај 2026.
+
+Getting Started with Google MCP Servers
+23. мај 2026.
+
+Apps Script: Vibe-code a Gmail add-on with Gemini CLI and MCP servers
+20. мај 2026.
+
+Practice: Build Bus Schedule app
+6. јун 2026.
+
+Trigger Kubernetes services with Eventarc events
+9. јун 2026.
+
+Handle edge-to-edge enforcements in Android 15
+5. јун 2026.
+
+Get started with Perspective API
+5. јун 2026.
+
+Encrypt and decrypt data with Cloud KMS
+9. јун 2026.
+
+MDC-103 Android: Material Theming with Color, Elevation and Type (Kotlin)
+26. мај 2026.
+
+LLM on Android with Keras and TensorFlow Lite
+29. јун 2026.
+
+Automatically Deploy Generative AI Java Web Application from Version Control to Cloud Run
+20. мај 2026.
+
+Getting started with Spanner Cassandra Adapter
+26. мај 2026.
+
+Building AI Agents with Vertex AI Agent Builder
+22. јун 2026.
+
+Combine layers of Firebase Security to protect your app
+27. јун 2026.
+
+Spec-Driven Development with Antigravity CLI — Structured Agent Workflows with Skills and MCP
+9. јул 2026.
+
+Looker PSC Southbound HTTPS Internet NEG Gitlab Self-Managed
+27. мај 2026.
+
+Modern Web Guidance 101
+25. јун 2026.
+
+Deploy a basic "Google Translate" app on Python 3 Cloud Functions
+9. јун 2026.
+
+Build an AI-powered outfit recommendation app with AlloyDB and serverless runtimes
+7. јун 2026.
+
+MDC-101 Android: Material Components (MDC) Basics (Java)
+24. мај 2026.
+
+Intent to Infrastructure: Agent-Driven Migration to GKE
+24. јун 2026.
+
+Build a modern three-tier architecture web application with Cloud Run
+5. јун 2026.
+
+Build a photo restoration app using Genkit Go and Nano Banana Pro
+21. мај 2026.
+
+Fine-Tuning Large Language Models: How Vertex AI Takes LLMs to the Next Level
+21. мај 2026.
+
+Lesson 10: Advanced RecyclerView use cases
+30. јун 2026.
+
+AI-powered content search
+29. јун 2026.
+
+Next ‘26 Developer Keynote: Building ADK Agents with Skills and Tools
+21. мај 2026.
+
+AdMob+Firebase 102 Android: Fine-tune the app behavior without an app update
+20. мај 2026.
+
+Add a map to your iOS app (Objective-C)
+3. јун 2026.
+
+Cloud DNS ResourceRecordSets API
+10. јун 2026.
+
+Using Cloud NAT Dynamic Port Allocation
+9. јун 2026.
+
+AI Speech Recognition with TensorFlow Lite for Microcontrollers and SparkFun Edge
+18. мај 2026.
+
+Compose essentials
+29. јун 2026.
+
+Integrate the Vision API with Dialogflow
+7. јун 2026.
+
+MDC-101 Flutter: Material Components Basics
+26. мај 2026.
+
+Google Workspace MCP servers in Google Antigravity 2.0, IDE, and/or CLI
+21. мај 2026.
+
+Create a simple website that classifies images
+29. јун 2026.
+
+Launch your web-based video game with AI
+10. јул 2026.
+
+Introduction to Compose for TV
+24. мај 2026.
+
+Private Service Connect with automatic DNS configuration
+30. мај 2026.
+
+Build your first Computer Vision App on Android or iOS
+5. јун 2026.
+
+codelabs.developers.google.com/codelabs/otel-cloudtrace
+26. мај 2026.
+
+Using Vertex ML Metadata with Pipelines
+7. јун 2026.
+
+Securing AI Applications
+23. мај 2026.
+
+Enable real-time communication with WebRTC
+5. јун 2026.
+
+Go further with comment spam detection
+6. јун 2026.
+
+Getting started with Google AI Studio, Gemini API and NodeJS
+31. мај 2026.
+
+Secure shared data in use with Confidential Space
+24. мај 2026.
+
+Chat App with PaLM API on Cloud Run
+26. мај 2026.
+
+Google Pay API for React Native on Android
+10. јун 2026.
+
+Instrument for better performance in your app in Go (part 2: profiler)
+10. јун 2026.
+
+Introduction to Cloud Operations Suite
+10. јун 2026.
+
+Visualize Clinical Data using Looker
+9. јун 2026.
+
+The ultimate Cloud Run guide from zero to production demo walkthrough
+21. мај 2026.
+
+Quiz: Get started with Google Maps Platform for iOS
+3. јун 2026.
+
+Analyze and visualize credit card transaction data in Bigtable using BigQuery and Looker
+10. јун 2026.
+
+Build with Firebase Data Connect (web)
+20. јун 2026.
+
+Read and update data with Room
+6. јун 2026.
+
+🤖 Build a Multimodal AI Agent with Graph RAG, ADK & Memory Bank
+21. мај 2026.
+
+Build an AutoML Forecasting Model with Vertex AI
+20. јун 2026.
+
+Query the Wikipedia dataset in BigQuery
+10. јун 2026.
+
+Layouts, theming, and animation
+5. јун 2026.
+
+Integrating Magento with Cloud Spanner
+24. мај 2026.
+
+Adaptive layouts
+6. јун 2026.
+
+Deploying Secure AI Agents on GKE
+21. мај 2026.
+
+Using the Natural Language API with Python
+9. јун 2026.
+
+Set up Android Studio
+6. јун 2026.
+
+Build cross-platform apps with Angular
+29. јун 2026.
+
+Django on Cloud Run
+9. јун 2026.
+
+High-Performance Distributed RL on GKE Standard: The Complete Guide
+24. јун 2026.
+
+LLM on Android with Keras and TensorFlow Lite
+29. јун 2026.
+
+Use Stackdriver Logging and Stackdriver Trace for Cloud Functions
+9. јун 2026.
+
+Intro to Inference: How to Run AI Models on a GPU
+27. јун 2026.
+
+Build beautiful apps
+30. јун 2026.
+
+Build your first web app with Firebase
+25. јун 2026.
+
+Practical performance problem solving in Jetpack Compose
+6. јун 2026.
+
+Prototype to Production: Getting predictions from custom trained models
+30. мај 2026.
+
+Jetpack Compose Navigation
+24. мај 2026.
+
+Deploy ASP.NET app to Windows Server on Compute Engine
+22. јун 2026.
+
+Simple Animation with Jetpack Compose
+24. мај 2026.
+
+Publish an event to Cloud Pub/Sub using ABAP SDK for Google Cloud
+9. јун 2026.
+
+Ingest CSV data to BigQuery using Cloud Data Fusion - Batch ingestion
+10. јун 2026.
+
+Improve app performance with Baseline Profiles
+10. јун 2026.
+
+Streetscape Geometry and Rooftop anchors quiz
+2. јун 2026.
+
+Customizing Machine Learning Models: the easy way
+26. мај 2026.
+
+Recognize text and facial features with ML Kit: Android
+26. мај 2026.
+
+Microservice Rainbow Rumpus
+24. мај 2026.
+
+Test your app with Firebase and Continuous Integration
+7. јул 2026.
+
+Build a basic layout
+30. јун 2026.
+
+Explaining a fraud detection model with Cloud AI Platform
+9. јун 2026.
+
+Getting started with App Engine (Python 3)
+10. јун 2026.
+
+Views in Compose
+5. јун 2026.
+
+Learn AI
+25. јун 2026.
+
+Implement Material Design in Web Apps quiz
+5. јун 2026.
+
+Module 5: Migrate from Google App Engine to Cloud Run with Cloud Buildpacks
+10. јун 2026.
+
+Message your users with FCM and FIAM on Android
+31. мај 2026.
+
+Build Intelligent & Secure Agents with AlloyDB
+21. мај 2026.
+
+AdMob+Firebase 101 Android: Setup & Analytics Basics
+20. мај 2026.
+
+Pairs/triples, collections, constants, and writing extension functions
+6. јун 2026.
+
+Build Actions for Google Assistant using Actions Builder (Level 2)
+5. јун 2026.
+
+Learn to prototype Responsible AI with the PAIR Guidebook and MakerSuite
+26. мај 2026.
+
+Prompting with images and text using the Gemini API for accessibility
+31. мај 2026.
+
+Learn PWA
+25. јун 2026.
+
+On-Device Image Generation on Android with MediaPipe
+30. мај 2026.
+
+Learn how to invoke authenticated Cloud Functions
+27. мај 2026.
+
+Bumble Gemini Enterprise Day 1 Value Workshop
+21. мај 2026.
+
+Run inference of Gemma 4 model on Cloud Run with RTX 6000 Pro GPU with vLLM
+9. јул 2026.
+
+Gemini for Developers
+21. мај 2026.
+
+Get started with the Google Pay API for Web
+25. јун 2026.
+
+Deploy and Validate GKE NFO Multi-Network & High Performance Interface
+9. јун 2026.
+
+TCP Proxy Codelab - Rate limiting and IP Deny list with TCP Proxy Load balancer
+7. јун 2026.
+
+Analyzing Movie Posters in BigQuery with Remote Models
+20. мај 2026.
+
+Fundamentals of Apps Script with Google Sheets #4: Data Formatting
+29. јун 2026.
+
+Agentic Workflows inside Google Workspace: Build a Google Docs Agent with ADK
+18. мај 2026.
+
+ARCore Cloud Anchors with persistent Cloud Anchors
+20. мај 2026.
+
+Build and test a parked app for Android Automotive OS
+24. мај 2026.
+
+Lesson 13: App UI design
+2. јул 2026.
+
+Google Pay quiz
+2. јул 2026.
+
+Hello Cloud Run with Python
+9. јун 2026.
+
+Scaling with Kustomize
+30. мај 2026.
+
+Showcase of building a secure agent: protect access and data
+24. јун 2026.
+
+Call APIs from a Google Cloud project
+2. јун 2026.
+
+Firebase Security Pathway Quiz
+3. јун 2026.
+
+Android Privacy Codelab
+20. мај 2026.
+
+Spec-Driven ADK Agent Development with Antigravity and Spec-kit
+21. мај 2026.
+
+Launch your portfolio website with AI
+2. јул 2026.
+
+Messaging with Spring Integration and Google Cloud Pub/Sub
+2. јун 2026.
+
+Automating legacy modernization at scale using agentic pipelines and Antigravity
+10. јун 2026.
+
+State in Jetpack Compose
+24. мај 2026.
+
+Adding dynamic color to your app
+20. мај 2026.
+
+Build and deploy a model with Vertex AI
+20. јун 2026.
+
+Gating Deployments with Binary Auth
+24. мај 2026.
+
+Encrypt Resources Easily with Cloud KMS Autokey
+9. јун 2026.
+
+Load and display images from the internet
+6. јун 2026.
+
+Accessibility in Jetpack Compose
+20. мај 2026.
+
+Hello Cloud Run with Python (FastAPI)
+24. мај 2026.
+
+Anthos Service Mesh Workshop: Lab Guide
+20. мај 2026.
+
+Learn Performance
+31. мај 2026.
+
+Kotlin fundamentals
+30. јун 2026.
+
+Building a Production AI Code Review Assistant with Google ADK
+20. јун 2026.
+
+How to upload and serve images using Cloud Storage, Firestore and Cloud Run
+24. мај 2026.
+
+Use Pulumi on Google Cloud with YAML
+27. мај 2026.
+
+Learn JavaScript
+31. мај 2026.
+
+Learn HTML
+25. јун 2026.
+
+Getting started with Spanner Graph
+26. мај 2026.
+
+Optimizing 3D data with Draco Geometry Compression
+9. јун 2026.
+
+Module 2: Migrate from App Engine ndb to Cloud NDB
+10. јун 2026.
+
+Deploy, Manage, and Observe ADK Agent on Cloud Run
+23. мај 2026.
+
+Deploy Windows Server with ASP.NET Framework to Compute Engine
+22. јун 2026.
+
+Asynchronous invocation of agentic AI application using events
+20. мај 2026.
+
+Private Service Connect for Google APIs
+9. јун 2026.
+
+Toy Store Search App with Cloud Databases, Serverless Runtimes and Open Source Integrations
+21. мај 2026.
+
+(Deprecated) Use Kotlin Coroutines in your Android App
+7. јун 2026.
+
+Securing a Workplace Safety Detection System
+21. мај 2026.
+
+Using the Speech-to-Text API with Python
+9. јун 2026.
+
+Update your app to support future predictive back gesture
+26. мај 2026.
+
+Create a video scene-by-scene image description service using Cloud Run, Video Intelligence API, and Vertex AI
+27. мај 2026.
+
+Adding an AdMob banner and native inline ads to a Flutter app
+20. мај 2026.
+
+Get insights from structured and unstructured data using the AI-capable BigQuery DataFrames package
+10. јун 2026.
+
+Cloud Function that wraps the PaLM Text Bison Models
+30. мај 2026.
+
+Informed decision making using Dialogflow CX generators and data stores
+9. јун 2026.
+
+Cloud Firestore Web Codelab
+22. јун 2026.
+
+Measure Core Web Vitals with the PageSpeed Insights API and Chrome UX (CrUX) Report API
+5. јун 2026.
+
+Agentspace Hybrid NEG to Cross Cloud self-hosted database
+20. мај 2026.
+
+Governing agentic workloads with Agent Gateway on Gemini Enterprise Agent Platform
+21. мај 2026.
+
+Connecting to Cloud SQL with Cloud Functions
+9. јун 2026.
+
+Build a Multi-Agent Marathon Planner with ADK and A2A
+21. мај 2026.
+
+Vibe Coding AI Agents: Managing the Agent Lifecycle with Agents CLI and ADK 2.0
+18. јун 2026.
+
+Practice: Click behavior
+6. јун 2026.
+
+codelabs.developers.google.com/alloydb-omni-vm-ha-deployment
+22. јун 2026.
+
+How to configure a Cloud Run service to access an internal Cloud Run service using direct VPC egress
+26. мај 2026.
+
+Build Rich Agentic Interfaces with ADK and A2UI
+18. јун 2026.
+
+Accelerating Development with Antigravity CLI
+18. јун 2026.
+
+MDC-103 Android: Material theming with Color, Motion and Type (Java)
+5. јун 2026.
+
+MDC-101 Web: Material Components (MDC) Basics (Web)
+5. јун 2026.
+
+Provisioning and Using a Managed Hadoop/Spark Cluster with Cloud Dataproc (Command Line)
+10. јун 2026.
+
+(Deprecated) Android Paging Advanced codelab
+7. јун 2026.
+
+Connect AlloyDB to Oracle through Google VPN
+22. јун 2026.
+
+Deploy a basic "Google Translate" app on Python 2 App Engine
+9. јун 2026.
+
+Visualizing DNS Armor's Advanced Threat Detection Logs using Log Based Metrics and Custom Dashboard
+24. мај 2026.
+
+Add repository and Manual DI
+20. мај 2026.
+
+Build a scrollable list
+30. јун 2026.
+
+Vertex AI: Co-host models on the same VM for predictions
+7. јун 2026.
+
+Vertex AI Vision Traffic Monitoring App
+7. јун 2026.
+
+Firebase MCP in Firebase Studio
+9. јун 2026.
+
+Automatically Deploy Generative AI Node.js Web Application from Version Control to Cloud Run
+20. мај 2026.
+
+Building a Multi-Agent System using Gemini and Gemma models
+21. мај 2026.
+
+Performance Monitoring of Feature Rollouts
+3. јун 2026.
+
+Learn CSS
+25. јун 2026.
+
+Build an app with an adaptive layout
+6. јун 2026.
+
+Multi-agent App with ADK, Agent Engine and AlloyDB
+23. мај 2026.
+
+Create Spark ML models with Managed Service for Apache Spark
+26. мај 2026.
+
+Build and deploy an ADK agent on Cloud Run
+20. јун 2026.
+
+Architecture and state
+5. јун 2026.
+
+Accelerating analytical queries with columnar engine in AlloyDB Omni.
+20. мај 2026.
+
+Google Developer Knowledge MCP server in Google Antigravity 2.0, IDE, and/or CLI
+18. јун 2026.
+
+Deploy Faster Generative AI models with NVIDIA NIM on GKE
+31. мај 2026.
+
+Looker PSC Northbound Regional Internal L7 ALB
+27. мај 2026.
+
+Add a scrollable list
+20. мај 2026.
+
+Autoscale Cloud Run worker pools based on the Pub/Sub queue volume using CREMA
+24. мај 2026.
+
+Project: Create a Flight Search app
+6. јун 2026.
+
+Programmatic Data Quality with Dataplex and Generative AI
+18. јун 2026.
+
+Building Trustworthy Charity Agents with Google ADK and AP2
+20. јун 2026.
+
+Get started with mobile text classification
+2. јун 2026.
+
+Read BigQuery ML predictions in SAP using ABAP SDK for Google Cloud
+10. јун 2026.
+
+Form factors
+6. јун 2026.
+
+Connecting to Private CloudSQL from Cloud Run
+26. мај 2026.
+
+Background Work with WorkManager
+20. мај 2026.
+
+Getting started with Standalone Components
+10. јун 2026.
+
+Debugging the Local Home
+18. мај 2026.
+
+ADK with Multimodal Tool Interaction : Part 2 ( MCP Toolset with Tool Callbacks )
+18. мај 2026.
+
+Build your first web app with Firebase quiz
+31. мај 2026.
+
+Can you create AI evaluations?
+31. мај 2026.
+
+Build a simple iOS navigation app in Swift with Google Maps Platform Navigation SDK
+24. мај 2026.
+
+A Beginner's Workshop for Antigravity CLI & ADK (Build Your First AI Companion)
+24. мај 2026.
+
+Real time communication with WebRTC
+24. мај 2026.
+
+Gesture Navigation and the edge-to-edge experience
+9. јун 2026.
+
+Lab 3: Prototype to Production - Deploy Your ADK Agent to Cloud Run with GPU
+24. мај 2026.
+
+Lab 1: Ingest and Govern Logistics Data
+13. јун 2026.
+
+Getting Started with Gemini CLI Extensions
+23. мај 2026.
+
+Implement A/B tests for your Unity game with Firebase Remote Config
+3. јун 2026.
+
+Module 6: Migrate from Cloud Datastore to Cloud Firestore
+10. јун 2026.
+
+Adding WebView to your Flutter app
+9. јун 2026.
+
+Improve your website's identity forms quiz
+29. јун 2026.
+
+Kotlin basics
+6. јун 2026.
+
+Build a Story Component with lit-element
+26. мај 2026.
+
+Build AI Agents with the Agent Development Kit (ADK) for Java
+24. мај 2026.
+
+Receive an event from Cloud Pub/Sub in SAP using ABAP SDK for Google Cloud
+9. јун 2026.
+
+Learn Responsive Design
+25. јун 2026.
+
+Using Private Service Connect for Google APIs to Access Gemini over a Hybrid Connection
+10. јун 2026.
+
+CodeLab: Dynamic Route Exchange with NCC
+21. мај 2026.
+
+Extend dynamic shortcuts to Google Assistant with App Actions
+3. јун 2026.
+
+Analyze Clinical Data using BigQuery and AI Platform Notebooks
+21. мај 2026.
+
+Get started with image product search
+27. јун 2026.
+
+Form factors
+30. јун 2026.
+
+Introduction to Gemini 2.5 Pro on Google Cloud
+26. мај 2026.
+
+Practice: Add navigation
+6. јун 2026.
+
+App Onboarding
+20. мај 2026.
+
+Building MLOps Workflows with Airflow 2 on GKE
+20. јун 2026.
+
+Securing Infrastructure for AI Applications
+23. мај 2026.
+
+GenAI - Image Generation from keywords
+26. мај 2026.
+
+Form Parsing with Document AI (Python)
+9. јун 2026.
+
+Introduction to ARCore Recording and Playback API
+10. јун 2026.
+
+Passwordless login on the web with passkeys
+5. јун 2026.
+
+Configure a Cloud Run service to access both an internal Cloud Run service and public Internet
+26. мај 2026.
+
+Building a fullstack movie recommendation system
+27. мај 2026.
+
+Build an Autonomous Supply Chain with Gemini 3 Flash & AlloyDB AI
+21. мај 2026.
+
+Build Actions for Google Assistant
+5. јун 2026.
+
+Legal Eagles in the Cloud: Hacking the Court System (Legally) with Google
+26. мај 2026.
+
+Deploy a Spring Boot app to App Engine standard environment
+2. јун 2026.
+
+Deploy a JavaScript application to Cloud Run with Cloud SQL for PostgreSQL
+9. јун 2026.
+
+VPC Service Controls Basic Tutorial I
+24. мај 2026.
+
+Containerize a Spring Boot Kotlin app and deploy it to Cloud Run
+2. јун 2026.
+
+End-to-End Migration: CloudSQL Database to Cloud Spanner (GoogleSQL)
+7. јун 2026.
+
+Get started with scroll-driven animations in CSS
+7. јун 2026.
+
+Deploy ASP.NET Core app to Google Kubernetes Engine with Istio (Part 1)
+10. јун 2026.
+
+How to deploy a gradio frontend app that calls a backend ADK agent, both running on Cloud Run
+9. јун 2026.
+
+Data Cards Playbook: Transparent documentation for responsible AI
+29. јун 2026.
+
+Dive into Dart's patterns and records
+9. јун 2026.
+
+Build a Google Trends Analyst Agent with BigQuery MCP
+21. мај 2026.
+
+Using BigQuery with Node.js
+10. јун 2026.
+
+Building a Real-Time Surplus Engine with Gemini 3 Flash & Cloud SQL
+23. мај 2026.
+
+Way Back Home - Event-Driven Architecture with Google ADK, A2A, and Kafka
+20. јун 2026.
+
+Lesson 8: App architecture (UI layer)
+30. јун 2026.
+
+Build a Managed Tech Digest Agent with the Gemini API
+30. јун 2026.
+
+Battle Peach - A Microservices Battle Ground
+20. мај 2026.
+
+MDC-104 Android: Material Advanced Components (Java)
+5. јун 2026.
+
+Display nearby places in AR on Android (Kotlin)
+25. јун 2026.
+
+Practice: Kotlin Fundamentals
+6. јун 2026.
+
+Encrypt Cloud Functions using Customer-managed Encryption Keys (CMEK)
+30. мај 2026.
+
+Build an Android app with Firebase and Jetpack Compose
+20. јун 2026.
+
+Automate UI Testing with Gemini CLI, BrowserMCP and Playwright
+20. мај 2026.
+
+Computing Private Statistics with Privacy on Beam
+24. мај 2026.
+
+CEL-Go Codelab: Fast, safe, embedded expressions
+9. јун 2026.
+
+Build & deploy a dynamic hybrid retail search with AlloyDB, Gemini and Cloud Run
+21. мај 2026.
+
+Build a Google Workspace Add-on with Node.js and Cloud Run
+27. мај 2026.
+
+Building AI Agents with ADK: Empowering with Tools
+21. мај 2026.
+
+Deploy ASP.NET Core app to Kubernetes on Google Kubernetes Engine
+10. јун 2026.
+
+Build a Quiz Generator with GenAI and Cloud Run
+20. јун 2026.
+
+Track Events in a WebView with Google Analytics
+9. јун 2026.
+
+Build a Multi-Agent Creative Studio with Google's Agent Stack: ADK, A2A, MCP on Cloud Run & Agent Runtime
+21. мај 2026.
+
+Monitoring Outages for Smart Home
+18. мај 2026.
+
+Make email more actionable with Google Workspace Add-ons
+9. јун 2026.
+
+Lesson 2: Functions
+6. јун 2026.
+
+Learn Accessibility
+31. мај 2026.
+
+MDC-103 Web: Material Theming with Color, Shape, Elevation and Type (Web)
+5. јун 2026.
+
+Leveraging the Gemini Pro Vision model for image understanding, multimodal prompts and accessibility
+27. јун 2026.
+
+Lab 3: Uncovering Lost Cargo with BigQuery Graph and Conversational Analytics
+13. јун 2026.
+
+Analyzing a financial ML model deployed on Cloud AI Platform with the What-if Tool
+20. мај 2026.
+
+Analyze production performance with Cloud Profiler
+20. мај 2026.
+
+Use Apps Script in Google Workspace
+9. јул 2026.
+
+MDC-111 Web: Incorporating Material Components into your codebase (Web)
+24. мај 2026.
+
+Monitor new features with Firebase Performance Monitoring
+7. јул 2026.
+
+Using Document AI Warehouse to Ingest, Process, and Search Documents
+9. јун 2026.
+
+Looker PSC Southbound SSH Internet NEG
+26. мај 2026.
+
+Cloud Spanner: Create a gaming leaderboard with Go
+9. јун 2026.
+
+Get started with regression in iOS apps
+29. јун 2026.
+
+Build a Comment Spam Machine Learning model
+2. јун 2026.
+
+Create and use variables in Kotlin
+6. јун 2026.
+
+InnerLoop Development with Java - SpringBoot
+24. мај 2026.
+
+Recognize text and facial features ML Kit: iOS
+26. мај 2026.
+
+Build a Kotlin Spring Application with Google Cloud Platform
+9. јун 2026.
+
+Build enterprise apps on Android quiz
+6. јун 2026.
+
+TensorFlow.js Training in Node.js Codelab
+24. мај 2026.
+
+Automate Google Workspace tasks with the Gemini API
+20. мај 2026.
+
+Capture media with WebRTC
+9. јул 2026.
+
+Using the Translation API with C#
+9. јун 2026.
+
+Developing with Cloud Workstations and Cloud Code
+27. мај 2026.
+
+Text Summarizer app with Vertex AI and Svelte Kit
+30. мај 2026.
+
+Connect and visualize all your data in Data Studio
+18. јун 2026.
+
+Build an augmented reality (AR) app using the WebXR Device API
+10. јун 2026.
+
+Get started with object detection in Android apps
+29. јун 2026.
+
+Write conditionals in Kotlin
+6. јун 2026.
+
+Cloud IDS
+10. јун 2026.
+
+Multi-Agent Systems with Agent2Agent
+21. мај 2026.
+
+Build a list-detail layout with activity embedding and Material Design
+5. јун 2026.
+
+Lab 2: Data Analysis & Multimodal Insights
+13. јун 2026.
+
+Add instant navigation and seamless page transitions to a web app
+20. мај 2026.
+
+Create and deploy low code ADK (Agent Deployment Kit) agents using ADK Visual Builder
+23. мај 2026.
+
+Build and Deploy an AI-Powered Agent Diet Planner with Streamlit, Gemini Pro, Vertex AI and BigQuery
+9. јун 2026.
+
+Lesson 3: Classes and Objects
+2. јул 2026.
+
+Generative AI text generation in Java with PaLM and LangChain4J
+9. јун 2026.
+
+Understand fulfillment by integrating Dialogflow with Calendar
+10. јун 2026.
+
+Level Up Your Game: Google Play Games Services setup in Unreal
+9. јул 2026.
+
+Deploy a full stack Angular application to Cloud Run with Firestore using the Node.js Admin SDK
+7. јун 2026.
+
+Fundamentals of Apps Script with Google Sheets #1: Macros & Custom Functions
+29. јун 2026.
+
+Securing Data Used for AI Applications
+23. мај 2026.
+
+Master Data Management Simplified: Match & Merge with Generative AI!
+24. мај 2026.
+
+Using revisions in Cloud Run for Traffic Splitting, Gradual Rollouts, and Rollbacks
+9. јун 2026.
+
+👗 Build a Virtual Fitting Room & AI Stylist with Flutter, ADK Go & Gemini
+21. мај 2026.
+
+ARCore Augmented Images
+18. мај 2026.
+
+Build a basic messaging style app
+2. јун 2026.
+
+Develop locally with Firebase
+2. јул 2026.
+
+Command and control: Orchestrate app development with Gemini and MCP
+25. јун 2026.
+
+MDC-104 Android: Material Advanced Components (Kotlin)
+26. мај 2026.
+
+Adding in-app purchases to your Flutter app
+20. мај 2026.
+
+Connect Your Agentforce Sales Agent to Gemini Enterprise
+21. мај 2026.
+
+Android 11—Week 9—TV quiz
+7. јун 2026.
+
+Lab: NCC Site to Site with flexiWAN SD-WAN Appliance
+26. мај 2026.
+
+Visualize data on Google Maps Platform quiz
+5. јун 2026.
+
+Code Customization with Gemini Code Assist Enterprise
+9. јун 2026.
+
+PSC Producer Endpoint-Based Access Control
+24. мај 2026.
+
+Chat With Your Data using BigQuery Agents & Antigravity IDE
+26. мај 2026.
+
+Get started with image classification in web apps
+29. јун 2026.
+
+Learn Responsive Design
+31. мај 2026.
+
+Create an Android app to detect objects within images
+29. јун 2026.
+
+Hands-on: Create a TV guide Google Chat with Google Workspace and Dialogflow
+9. јун 2026.
+
+Encrypt and decrypt data with Cloud KMS (Asymmetric)
+9. јун 2026.
+
+Agent Gateway egress from Agent Runtime to Google MCP
+27. јун 2026.
+
+PSC-I RDMA VPC Multi-NIC Deployment Guide
+30. јун 2026.
+
+Visualizing your BigQuery Data in Data Studio
+10. јун 2026.
+
+Animating elements in Jetpack Compose
+20. мај 2026.
+
+Engage your web app's users with push notifications quiz
+5. јун 2026.
+
+Access Gemini 3 Pro chat using python sdk via Private Service Connect endpoint
+18. мај 2026.
+
+Material Theming with Jetpack Compose
+24. мај 2026.
+
+Get started with image classification
+5. јун 2026.
+
+Generate Google Slides presentations from Big Data in Node.js
+24. мај 2026.
+
+Build adaptive apps with Jetpack Compose
+6. јун 2026.
+
+Practice: Compose Basics
+6. јун 2026.
+
+Build a Gemini powered Flutter app
+20. јун 2026.
+
+Build Actions for Google Assistant using Actions SDK (Level 2)
+20. јун 2026.
+
+Generative AI powered chat with users and docs in Java with PaLM and LangChain4J
+9. јун 2026.
+
+Development Environment
+24. мај 2026.
+
+Control a PLAYBULB candle with Web Bluetooth
+22. јун 2026.
+
+Stateful Data Science Agent on Agent Engine
+21. мај 2026.
+
+Platform Engineering AI with GKE and Gemini CLI
+21. мај 2026.
+
+Ingest FHIR (Fast Healthcare Interoperability Resources) to BigQuery
+9. јун 2026.
+
+Looker PSC Southbound access to Cloud SQL PSC
+26. мај 2026.
+
+Get started with mobile image classification
+5. јун 2026.
+
+Aidemy: Building Multi-Agent Systems with LangGraph, EDA, and Generative AI on Google Cloud
+20. мај 2026.
