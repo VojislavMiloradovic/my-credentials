@@ -11,6 +11,14 @@ GDEV_ARCHIVE_PATH = "archives/google-developer.md"
 MARKER_START = "<!-- GOOGLE_DEVELOPER_START -->"
 MARKER_END = "<!-- GOOGLE_DEVELOPER_END -->"
 
+def safely_extract_string(element):
+    """Safely extracts a string from potential nested lists returned by Google's RPC response."""
+    if isinstance(element, list):
+        if len(element) > 0:
+            return safely_extract_string(element[0])
+        return ""
+    return str(element) if element is not None else ""
+
 def fetch_gdev_badges_rpc():
     """Requests Google's batch RPC execution framework using the precise structural matrix."""
     url = "https://me.developers.google.com/_/GoogleDeveloperProfile/data/batchexecute"
@@ -26,7 +34,7 @@ def fetch_gdev_badges_rpc():
         "rt": "c"
     }
     
-    # We substitute "me" with your public internal profile ID to allow access without login cookies
+    # Substituting "me" with your public internal profile ID to allow access without login cookies
     profile_id = "110772055890077594470"
     
     # Replicating the exact multi-nested stringified JSON arrays Google expects inside the body
@@ -71,20 +79,20 @@ def fetch_gdev_badges_rpc():
                     badge_matrix = json.loads(inner_str_payload)
                     
                     for item in badge_matrix:
-                        if len(item) > 6:
-                            # Direct index mapping based on Google's array definition format
-                            title = item[2] or "Untitled Badge"
-                            desc = item[3] or ""
-                            icon_path = item[4] or ""
+                        if len(item) > 4:
+                            # Use defensive extraction to gracefully pull array properties out safely
+                            title = safely_extract_string(item[2]) or "Untitled Badge"
+                            desc = safely_extract_string(item[3])
+                            icon_path = safely_extract_string(item[4])
                             
                             if icon_path and icon_path.startswith("/"):
                                 icon_url = f"https://developers.google.com{icon_path}"
                             else:
-                                icon_url = icon_path or ""
+                                icon_url = icon_path
                                 
                             # Epoch values are held inside the array cluster at index position 6
                             date_str = "N/A"
-                            if isinstance(item[6], list) and len(item[6]) > 0:
+                            if len(item) > 6 and isinstance(item[6], list) and len(item[6]) > 0:
                                 epoch_seconds = item[6][0]
                                 date_str = datetime.fromtimestamp(epoch_seconds, tz=timezone.utc).strftime('%Y-%m-%d')
                             
