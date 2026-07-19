@@ -8,10 +8,69 @@ from urllib.parse import unquote
 
 README_PATH = "README.md"
 GDEV_ARCHIVE_PATH = "archives/google-developer.md"
-ACTIVITY_JSON_PATH = "google_activity.json"
+LEARNINGS_TXT_PATH = "google_learnings.txt"
 
 MARKER_START = "<!-- GOOGLE_DEVELOPER_START -->"
 MARKER_END = "<!-- GOOGLE_DEVELOPER_END -->"
+
+# Cyrillic locale mapper to standardize dates into pure ISO formats
+SERBIAN_MONTHS = {
+    'јан': '01', 'јануар': '01', 'јануара': '01',
+    'феб': '02', 'фебруар': '02', 'фебруара': '02',
+    'мар': '03', 'март': '03', 'марта': '03',
+    'апр': '04', 'април': '04', 'априла': '04',
+    'мај': '05', 'маја': '05',
+    'јун': '06', 'јуна': '06',
+    'јул': '07', 'јула': '07',
+    'авг': '08', 'август': '08', 'августа': '08',
+    'сеп': '09', 'септембар': '09', 'септембара': '09',
+    'окт': '10', 'октобар': '10', 'октобара': '10',
+    'нов': '11', 'новембар': '11', 'новембара': '11',
+    'дец': '12', 'децембар': '12', 'децембара': '12'
+}
+
+def parse_local_learnings_txt():
+    """Parses raw text pasted from the Google Developer learnings subpage."""
+    if not os.path.exists(LEARNINGS_TXT_PATH):
+        return []
+    
+    print(f"📂 Processing local activity file: {LEARNINGS_TXT_PATH}...")
+    with open(LEARNINGS_TXT_PATH, "r", encoding="utf-8") as f:
+        lines = [line.strip() for line in f.readlines() if line.strip()]
+        
+    learnings = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        # Regex to catch dates like "26. мај 2026." or "6. јун 2026."
+        date_match = re.match(r'^(\d+)\.\s+([^\s\d]+)\s+(\d{4})\.?$', line)
+        if date_match and i > 0:
+            day = date_match.group(1).zfill(2)
+            month_str = date_match.group(2).lower().replace('.', '')
+            year = date_match.group(3)
+            
+            month_num = "00"
+            for k, v in SERBIAN_MONTHS.items():
+                if month_str.startswith(k):
+                    month_num = v
+                    break
+                    
+            iso_date = f"{year}-{month_num}-{day}"
+            
+            # Extract title context while accounting for layout line shifts
+            title = lines[i-1]
+            if title in ["Учење", "check_circle_outline You have this badge!"] and i > 1:
+                title = lines[i-2]
+                
+            if title not in ["Учење", "check_circle_outline You have this badge!"] and not title.startswith("http"):
+                if not any(l['title'] == title for l in learnings):
+                    learnings.append({
+                        "title": title.strip(),
+                        "date": iso_date,
+                        "description": "Verified Google Developer granular learning activity module milestone."
+                    })
+        i += 1
+    return learnings
 
 def analyze_badge_list(lst, parsed_badges):
     """Deeply inspects an active data block list to extract paired award badges and timestamps."""
@@ -21,6 +80,8 @@ def analyze_badge_list(lst, parsed_badges):
     def walk(element):
         if isinstance(element, str):
             strings.append(element)
+            if element.isdigit():  # Fixes stringified integers from Google RPC response
+                numbers.append(float(element))
         elif isinstance(element, (int, float)):
             numbers.append(element)
         elif isinstance(element, list):
@@ -36,13 +97,12 @@ def analyze_badge_list(lst, parsed_badges):
     if not award_strs:
         return False
         
-    # Locate valid Unix timestamp boundaries matching realistic calendar years
     epoch = None
     for num in numbers:
-        if 946684800 <= num <= 2500000000:  # Seconds format
+        if 946684800 <= num <= 2500000000:
             epoch = num
             break
-        elif 946684800000 <= num <= 2500000000000:  # Milliseconds format
+        elif 946684800000 <= num <= 2500000000000:
             epoch = num / 1000.0
             break
             
@@ -78,7 +138,6 @@ def analyze_badge_list(lst, parsed_badges):
     return True
 
 def find_badges_in_matrix(data, parsed_badges):
-    """Traverses down the matrix hierarchy layers ensuring item context remains intact."""
     if isinstance(data, list):
         analyze_badge_list(data, parsed_badges)
         for item in data:
@@ -88,9 +147,7 @@ def find_badges_in_matrix(data, parsed_badges):
             find_badges_in_matrix(val, parsed_badges)
 
 def fetch_gdev_badges_rpc():
-    """Requests Google's batch RPC execution framework using the precise structural matrix."""
     url = "https://me.developers.google.com/_/GoogleDeveloperProfile/data/batchexecute"
-    
     params = {
         "rpcids": "gQeJTc,RwSpuf",
         "source-path": "/u/vojislavmiloradovic",
@@ -124,7 +181,6 @@ def fetch_gdev_badges_rpc():
     try:
         response = requests.post(url, params=params, data=payload, headers=headers, timeout=15)
         if response.status_code != 200:
-            print(f"❌ Server returned unexpected gateway code: {response.status_code}")
             return None
             
         raw_text = response.text
@@ -146,47 +202,32 @@ def fetch_gdev_badges_rpc():
                                         pass
                 except:
                     continue
-                    
         return parsed_badges
-    except Exception as network_error:
-        print(f"❌ Connection pipeline failure: {network_error}")
+    except Exception:
         return None
 
 def main():
-    badges = fetch_gdev_badges_rpc()
-    if not badges:
+    public_badges = fetch_gdev_badges_rpc()
+    if not public_badges:
         print("❌ Error: Failed to extract structured badges via public RPC handshake.")
         sys.exit(1)
         
-    total_public_badges = len(badges)
-    total_codelabs_completed = 0
+    total_public = len(public_badges)
+    public_badges.sort(key=lambda x: x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00", reverse=True)
     
-    # Optional local file integration check to include verbose activity log records safely
-    if os.path.exists(ACTIVITY_JSON_PATH):
-        try:
-            with open(ACTIVITY_JSON_PATH, "r", encoding="utf-8") as f:
-                activity_data = json.load(f)
-                
-            # Assume activity file contains a list of tracking elements or an explicit counter key
-            if isinstance(activity_data, list):
-                total_codelabs_completed = len(activity_data)
-                for entry in activity_data:
-                    title = entry.get("title", "Completed Codelab Task").title()
-                    if not any(b['title'] == title for b in badges):
-                        badges.append({
-                            "title": title,
-                            "description": entry.get("description", "Verified custom learning module activity completion log record."),
-                            "date": entry.get("date", "N/A")
-                        })
-            elif isinstance(activity_data, dict):
-                total_codelabs_completed = activity_data.get("total_codelabs", 0) or activity_data.get("count", 0)
-            print(f"📂 Integrated offline history profile: Found {total_codelabs_completed} verbose codelab rows.")
-        except Exception as file_err:
-            print(f"⚠️ Activity log integration parsing note: {file_err}")
+    # Process local text dump file if populated by the user
+    detailed_learnings = parse_local_learnings_txt()
+    total_detailed = len(detailed_learnings)
+    detailed_learnings.sort(key=lambda x: x.get("date", "0000-00-00"), reverse=True)
+    
+    # Combined master list initialization for top 10 snapshot display logic
+    combined_feed = []
+    combined_feed.extend(public_badges)
+    for dl in detailed_learnings:
+        if not any(b['title'] == dl['title'] for b in combined_feed):
+            combined_feed.append(dl)
+    combined_feed.sort(key=lambda x: x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00", reverse=True)
 
-    # Sort chronologically, gracefully preserving N/A entries below recent milestones
-    badges.sort(key=lambda x: x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00", reverse=True)
-    
     # 1. Update Main Repository README.md Container
     md = []
     md.append("### Google Developer Profile Summary")
@@ -195,17 +236,17 @@ def main():
     md.append("#### Platform Progress")
     md.append("| Metric | Count |")
     md.append("| :--- | :--- |")
-    md.append(f"| **Total Milestones & Milestone Badges** | {total_public_badges:,} |")
-    if total_codelabs_completed > 0:
-        md.append(f"| **Total Codelabs Completed** | {total_codelabs_completed:,} |")
+    md.append(f"| **Total Milestones & Milestone Badges** | {total_public:,} |")
+    if total_detailed > 0:
+        md.append(f"| **Total Codelabs & Learning Activities** | {total_detailed:,} |")
     md.append("\n")
 
     md.append("#### Latest Achievements")
-    md.append("Showing the latest 10 items. View complete historical logs in [Google Developer archive](./archives/google-developer.md).\n")
-    md.append("| Date Earned | Badge Title | Description |")
+    md.append("Showing the latest 10 merged activities. View complete historical logs in [Google Developer archive](./archives/google-developer.md).\n")
+    md.append("| Date Earned | Title | Description |")
     md.append("| :---: | :--- | :--- |")
     
-    for badge in badges[:10]:
+    for badge in combined_feed[:10]:
         clean_desc = badge['description'].replace("|", "\\|").replace("\n", " ")
         clean_title = badge['title'].replace("|", "\\|")
         md.append(f"| *{badge['date']}* | **{clean_title}** | {clean_desc} |")
@@ -223,24 +264,34 @@ def main():
                 f.write(new_readme)
             print("✅ Main README.md container updated dynamically.")
 
-    # 2. Update Master Historical Archive Log File
+    # 2. Update Master Historical Archive Log File with separate layout blocks
     archive_md = []
     archive_md.append("# Complete Google Developer Badges Archive\n")
-    archive_md.append(f"Historical record tracking platform achievements earned.\n")
+    archive_md.append(f"Historical verified record tracking all achievements.\n\n")
+    
+    archive_md.append(f"## Milestone & Pathway Badges ({total_public})\n")
     archive_md.append("| Date Earned | Badge Title | Description |")
     archive_md.append("| :---: | :--- | :--- |")
-
-    for badge in badges:
+    for badge in public_badges:
         clean_desc = badge['description'].replace("|", "\\|").replace("\n", " ")
         clean_title = badge['title'].replace("|", "\\|")
         archive_md.append(f"| {badge['date']} | **{clean_title}** | {clean_desc} |")
+        
+    if total_detailed > 0:
+        archive_md.append(f"\n## Detailed Learning Activities & Codelabs ({total_detailed})\n")
+        archive_md.append("| Date Earned | Codelab / Activity Title | Description |")
+        archive_md.append("| :---: | :--- | :--- |")
+        for badge in detailed_learnings:
+            clean_desc = badge['description'].replace("|", "\\|").replace("\n", " ")
+            clean_title = badge['title'].replace("|", "\\|")
+            archive_md.append(f"| {badge['date']} | **{clean_title}** | {clean_desc} |")
 
     archive_md.append("\n\n[← Back to README](../README.md)\n")
 
     os.makedirs(os.path.dirname(GDEV_ARCHIVE_PATH), exist_ok=True)
     with open(GDEV_ARCHIVE_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(archive_md))
-    print("✅ Comprehensive historical asset archive refreshed successfully!")
+    print("✅ Comprehensive historical asset archive split and refreshed successfully!")
 
 if __name__ == "__main__":
     main()
