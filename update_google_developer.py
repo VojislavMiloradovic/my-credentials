@@ -19,6 +19,23 @@ def safely_extract_string(element):
         return ""
     return str(element) if element is not None else ""
 
+def safely_extract_epoch(element):
+    """Extracts a numeric epoch value from string, float, int, or nested list layers."""
+    if isinstance(element, list):
+        if len(element) > 0:
+            return safely_extract_epoch(element[0])
+        return None
+    if element is None:
+        return None
+    try:
+        num = float(element)
+        # Handle millisecond precision timestamps (13 digits) by converting to seconds
+        if num > 100000000000:
+            num /= 1000.0
+        return num
+    except (ValueError, TypeError):
+        return None
+
 def fetch_gdev_badges_rpc():
     """Requests Google's batch RPC execution framework using the precise structural matrix."""
     url = "https://me.developers.google.com/_/GoogleDeveloperProfile/data/batchexecute"
@@ -90,11 +107,12 @@ def fetch_gdev_badges_rpc():
                             else:
                                 icon_url = icon_path
                                 
-                            # Epoch values are held inside the array cluster at index position 6
+                            # Safe numeric extraction prevents string-type conversion failures
                             date_str = "N/A"
-                            if len(item) > 6 and isinstance(item[6], list) and len(item[6]) > 0:
-                                epoch_seconds = item[6][0]
-                                date_str = datetime.fromtimestamp(epoch_seconds, tz=timezone.utc).strftime('%Y-%m-%d')
+                            if len(item) > 6:
+                                epoch_seconds = safely_extract_epoch(item[6])
+                                if epoch_seconds is not None:
+                                    date_str = datetime.fromtimestamp(epoch_seconds, tz=timezone.utc).strftime('%Y-%m-%d')
                             
                             parsed_badges.append({
                                 "title": title.strip(),
