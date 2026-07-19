@@ -157,15 +157,24 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 #### Platform Progress
 | Metric | Count |
 | :--- | :--- |
-| **Total Badges Earned** | 1 |
+| **Total Badges Earned** | 170 |
 
 
 #### Latest Badges
 Showing the latest 10 achievements. View complete historical logs in [Google Developer archive](./archives/google-developer.md).
 
-| Date Earned | Icon | Badge Title | Description |
-| :---: | :---: | :--- | :--- |
-| *N/A* | <img src="profiles/110772055890077594470/awards/developers.google.com%2Fprofile%2Fbadges%2Fplaylists%2Fandroid%2Fandroid-development-with-kotlin-8" width="32" height="32" /> | **profiles/110772055890077594470/awards/developers.google.com%2Fprofile%2Fbadges%2Fcommunity%2Fgdg%2Fchapter%2Fmember%2Fgdg-belgrade** | profiles/110772055890077594470/awards/developers.google.com%2Fprofile%2Fbadges%2Fplaylists%2Fandroid%2Fandroid-basics-compose-unit-2-pathway-1 |
+| Date Earned | Badge Title | Description |
+| :---: | :--- | :--- |
+| *N/A* | **Android Basics Compose Unit 8 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 2). |
+| *N/A* | **Engage Users With Firebase** | Official Google Developer platform achievement (Learning Pathway: engage users with firebase). |
+| *N/A* | **GDG Belgrade** | Official Google Developer platform achievement (Community: gdg belgrade). |
+| *N/A* | **Android Basics Compose Unit 2 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 2 pathway 1). |
+| *N/A* | **Android Development With Kotlin 8** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 8). |
+| *N/A* | **Android Basics Compose Unit 4 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 4 pathway 2). |
+| *N/A* | **Gear** | Official Google Developer platform achievement (Community: gear). |
+| *N/A* | **Firebase Android Jetpack** | Official Google Developer platform achievement (Learning Pathway: firebase android jetpack). |
+| *N/A* | **Jetpack Compose For Android Developers 1** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 1). |
+| *N/A* | **Android Basics Compose Unit 5 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 5 pathway 1). |
 
 <!-- GOOGLE_DEVELOPER_END -->
 
