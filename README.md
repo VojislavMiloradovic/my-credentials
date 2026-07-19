@@ -148,6 +148,11 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 
 <!-- CREDLY_BADGES_END -->
 
+## Google Developer Credentials
+
+<!-- GOOGLE_DEVELOPER_START -->
+<!-- GOOGLE_DEVELOPER_END -->
+
 *(This section will be automatically updated by our GitHub automation once we upload the JSON file)*
 
 
