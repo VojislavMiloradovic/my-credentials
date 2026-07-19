@@ -108,16 +108,16 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 
 | Activity Title | Type | Date Completed | Duration |
 | :--- | :--- | :--- | :--- |
-| **Amazon Q Developer Transformation** | Digital Course | *March 9, 2026* | 30 minutes |
-| **Amazon Simple Notification Service (SNS) Getting Started** | Digital Course | *March 9, 2026* | 1 hour |
-| **AWS Billing and Cost Management** | Digital Course | *March 9, 2026* | 20 minutes |
-| **AWS Lambda Foundations** | Digital Course | *March 9, 2026* | 2 hours |
-| **AWS X-Ray Getting Started** | Digital Course | *March 9, 2026* | 1 hour |
-| **[RETIRED] AWS Fargate - Overview** | Digital Course | *March 8, 2026* | 10 minutes |
-| **[RETIRED] Introduction to Amazon CloudFront** | Digital Course | *March 8, 2026* | 10 minutes |
-| **Amazon Quick Sight Getting Started** | Digital Course | *March 8, 2026* | 1 hour |
-| **Amazon SageMaker Unified Studio Foundations** | Digital Course | *March 8, 2026* | 1 hour |
-| **Introduction to AI-Driven Development Lifecycle** | Digital Course | *March 8, 2026* | 15 minutes |
+| **AWS Batch Getting Started** | Digital Course | *2026-07-17* | 1 hour 30 minutes |
+| **AWS Cloud Practitioner Power Hour - Overview and Cloud Concepts** | Digital Course | *2026-07-17* | 1 hour 30 minutes |
+| **AWS File Storage Services Getting Started** | Digital Course | *2026-07-17* | 1 hour 55 minutes |
+| **Getting Started with AWS Auto Scaling** | Digital Course | *2026-07-17* | 1 hour 30 minutes |
+| **Instance Isolation with Elastic Network Interfaces** | Digital Course | *2026-07-17* | 1 hour 10 minutes |
+| **AgentCore Evaluation on Amazon Bedrock** | Digital Course | *2026-07-16* | 1 hour 15 minutes |
+| **Amazon Aurora Service Primer** | Digital Course | *2026-07-16* | 20 minutes |
+| **Amazon Keyspaces Getting Started** | Digital Course | *2026-07-16* | 1 hour |
+| **Amazon Neptune Getting Started** | Digital Course | *2026-07-16* | 1 hour |
+| **Amazon Redshift Service Primer** | Digital Course | *2026-07-16* | 20 minutes |
 
 <!-- AWS_SKILLS_END -->
 
