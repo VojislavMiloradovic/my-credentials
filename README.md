@@ -152,6 +152,29 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 ## Linkedin Credentials
 
 <!-- LINKEDIN_START -->
+### LinkedIn Professional Certifications Summary
+#### Progress Metrics
+| Metric | Count |
+| :--- | :--- |
+| **Total External Certifications Verified** | 1,227 |
+
+
+#### Recent Certifications
+Showing the latest 10 items. View complete historical logs in [LinkedIn Certifications archive](./archives/linkedin-certifications.md).
+
+| Date | Certification Title | Issuing Authority | Credentials Reference |
+| :---: | :--- | :--- | :--- |
+| *2029-07* | **Cloud FinOps** | Intel | [Verify Record](https://www.credly.com/badges/1a4b9280-a856-4f4b-868b-b1a727ce03fb/linked_in_profile) |
+| *2029-06* | **Google Play Academy - Store Listing Certificate** | Google Play Academy | [Verify Record](https://www.credential.net/1473fa50-8b83-4ccf-a376-6cd671db8b80) |
+| *2029-06* | **Cloud Deployments** | Intel | [Verify Record](https://www.credly.com/badges/c7e60f6c-4fb8-4ea1-88a8-50668e31a696/linked_in_profile) |
+| *2029-05* | **Cloud Principles** | Intel | [Verify Record](https://www.credly.com/badges/54b1f225-a2f7-4999-b4f6-a8a319e1434d/linked_in_profile) |
+| *2029-04* | **AI for Networking** | Cisco | [Verify Record](https://www.credly.com/badges/4653aa94-2493-4d57-8d12-8d26c7f43003/linked_in_profile) |
+| *2028-01* | **Intel® Xeon® 6 Processor Family Essentials** | Intel | [Verify Record](https://www.credly.com/badges/11bd816c-b1e7-4b97-8c4b-ca8c88793e1e/linked_in_profile) |
+| *2028-01* | **Principles of AI Transformation** | Intel | [Verify Record](https://www.credly.com/badges/dea04841-c966-4353-9ede-2aa009ec2426/linked_in_profile) |
+| *2027-12* | **Intel® Gaudi® AI Accelerator** | Intel | [Verify Record](https://www.credly.com/badges/f38defb3-960c-421e-af23-fe3699697623/linked_in_profile) |
+| *2027-12* | **AI on Intel® Xeon® Processors** | Intel | [Verify Record](https://www.credly.com/badges/868a09ec-ec7b-4c1f-97e3-aad9d4c6cfa9/linked_in_profile) |
+| *2027-11* | **Agents & Agentic AI Fundamentals** | Intel | [Verify Record](https://www.credly.com/badges/65342bd4-19df-45dc-9b32-f68a21c5be0d/linked_in_profile) |
+
 <!-- LINKEDIN_END -->
 
 
