@@ -127,12 +127,13 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 <!-- CREDLY_BADGES_START -->
 ### Credly Verified Credentials
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)  
-**Total Portfolio Credentials:** 425 (402 Credly Verified, 23 External/Imported)  
-**Total Verified Skills Mapped:** 1717
+**Total Portfolio Credentials:** 426 (403 Credly Verified, 23 External/Imported)  
+**Total Verified Skills Mapped:** 1718
 
 #### Latest Earned Credentials
 | Date Earned | Credential Name | Issuer | Verification Type |
 |:---:|---|---|:---:|
+| *2026-07-19* | **Secure Software Delivery Skill Badge** | issued by Google Cloud | `Credly Verified` |
 | *2026-07-17* | **BDR Basic Course** | issued by Acronis | `Credly Verified` |
 | *2026-07-17* | **Building RAG Apps Using MongoDB** | issued by MongoDB | `Credly Verified` |
 | *2026-07-17* | **Top ATT&CK Techniques** | issued by AttackIQ | `Credly Verified` |
@@ -142,9 +143,8 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 | *2026-07-15* | **Cloud Tech Professional Disaster Recovery** | issued by Acronis | `Credly Verified` |
 | *2026-07-15* | **Strategic Cybersecurity Management** | issued by AttackIQ | `Credly Verified` |
 | *2026-07-14* | **Acronis Cyber Protect – Endpoint Management Basics** | issued by Acronis | `Credly Verified` |
-| *2026-07-14* | **AWS Knowledge: AI Basics - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` |
 
-👉 **[View all 425 credentials and 1717 verified skills in the full archive](./archives/credly-badges.md)**
+👉 **[View all 426 credentials and 1718 verified skills in the full archive](./archives/credly-badges.md)**
 
 <!-- CREDLY_BADGES_END -->
 
