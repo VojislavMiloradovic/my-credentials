@@ -209,7 +209,6 @@ Showing the latest 10 merged activities. View complete historical logs in [Googl
 
 <!-- GOOGLE_DEVELOPER_END -->
 
-*(This section will be automatically updated by our GitHub automation once we upload the JSON file)*
 
 
 ## Other Profiles
