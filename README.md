@@ -151,6 +151,22 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 ## Google Developer Credentials
 
 <!-- GOOGLE_DEVELOPER_START -->
+### Google Developer Profile Summary
+**Public Profile:** [Verify Developer Profile](https://g.dev/vojislavmiloradovic)  
+
+#### Platform Progress
+| Metric | Count |
+| :--- | :--- |
+| **Total Badges Earned** | 1 |
+
+
+#### Latest Badges
+Showing the latest 10 achievements. View complete historical logs in [Google Developer archive](./archives/google-developer.md).
+
+| Date Earned | Icon | Badge Title | Description |
+| :---: | :---: | :--- | :--- |
+| *N/A* | <img src="profiles/110772055890077594470/awards/developers.google.com%2Fprofile%2Fbadges%2Fplaylists%2Fandroid%2Fandroid-development-with-kotlin-8" width="32" height="32" /> | **profiles/110772055890077594470/awards/developers.google.com%2Fprofile%2Fbadges%2Fcommunity%2Fgdg%2Fchapter%2Fmember%2Fgdg-belgrade** | profiles/110772055890077594470/awards/developers.google.com%2Fprofile%2Fbadges%2Fplaylists%2Fandroid%2Fandroid-basics-compose-unit-2-pathway-1 |
+
 <!-- GOOGLE_DEVELOPER_END -->
 
 *(This section will be automatically updated by our GitHub automation once we upload the JSON file)*
