@@ -162,18 +162,18 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 #### Recent Certifications
 Showing the latest 10 items. View complete historical logs in [LinkedIn Certifications archive](./archives/linkedin-certifications.md).
 
-| Date | Certification Title | Issuing Authority | Credentials Reference |
-| :---: | :--- | :--- | :--- |
-| *2029-07* | **Cloud FinOps** | Intel | [Verify Record](https://www.credly.com/badges/1a4b9280-a856-4f4b-868b-b1a727ce03fb/linked_in_profile) |
-| *2029-06* | **Google Play Academy - Store Listing Certificate** | Google Play Academy | [Verify Record](https://www.credential.net/1473fa50-8b83-4ccf-a376-6cd671db8b80) |
-| *2029-06* | **Cloud Deployments** | Intel | [Verify Record](https://www.credly.com/badges/c7e60f6c-4fb8-4ea1-88a8-50668e31a696/linked_in_profile) |
-| *2029-05* | **Cloud Principles** | Intel | [Verify Record](https://www.credly.com/badges/54b1f225-a2f7-4999-b4f6-a8a319e1434d/linked_in_profile) |
-| *2029-04* | **AI for Networking** | Cisco | [Verify Record](https://www.credly.com/badges/4653aa94-2493-4d57-8d12-8d26c7f43003/linked_in_profile) |
-| *2028-01* | **Intel® Xeon® 6 Processor Family Essentials** | Intel | [Verify Record](https://www.credly.com/badges/11bd816c-b1e7-4b97-8c4b-ca8c88793e1e/linked_in_profile) |
-| *2028-01* | **Principles of AI Transformation** | Intel | [Verify Record](https://www.credly.com/badges/dea04841-c966-4353-9ede-2aa009ec2426/linked_in_profile) |
-| *2027-12* | **Intel® Gaudi® AI Accelerator** | Intel | [Verify Record](https://www.credly.com/badges/f38defb3-960c-421e-af23-fe3699697623/linked_in_profile) |
-| *2027-12* | **AI on Intel® Xeon® Processors** | Intel | [Verify Record](https://www.credly.com/badges/868a09ec-ec7b-4c1f-97e3-aad9d4c6cfa9/linked_in_profile) |
-| *2027-11* | **Agents & Agentic AI Fundamentals** | Intel | [Verify Record](https://www.credly.com/badges/65342bd4-19df-45dc-9b32-f68a21c5be0d/linked_in_profile) |
+| Date Issued | Certification Title | Issuing Authority | Expiry | Verification |
+| :---: | :--- | :--- | :---: | :--- |
+| *2026-07* | **Secure Software Delivery Skill Badge** | Google | - | [Verify Record](https://www.credly.com/badges/2cf13bdf-9555-4bac-a807-2f80b52ddb56/linked_in_profile) |
+| *2026-07* | **Arcade Base Camp July 2026** | Google | - | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25679839?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| *2026-07* | **Nano Tips for Building a LinkedIn Presence as an Early Career Professional with Lindsay Rosenthal** | LinkedIn | - | [Verify Record](https://www.linkedin.com/learning/certificates/8bd70cb8dc6dec4ce59d87920e0e6184e94fbbfc79bc4712ebb9cdf206c5960d) |
+| *2026-07* | **Small Business Marketing** | LinkedIn | - | [Verify Record](https://www.linkedin.com/learning/certificates/94db99f46d47baf611df7e9cc96772d22004fc6b9875cd832a541e35feac1513) |
+| *2026-07* | **Building RAG Apps Using MongoDB** | MongoDB | - | [Verify Record](https://www.credly.com/badges/647d5577-f948-4a84-9093-7b511bca6ecb/linked_in_profile) |
+| *2026-07* | **Top ATT&CK Techniques** | AttackIQ | - | [Verify Record](https://www.credly.com/badges/61cec03c-1282-4a54-b48f-2c31d5a043f1/linked_in_profile) |
+| *2026-07* | **BDR Basic Course** | Acronis | 2027-07 | [Verify Record](https://www.credly.com/badges/eecab10e-35f3-446c-9503-a4b15c76acf8/linked_in_profile) |
+| *2026-07* | **Build a Data Mesh with Knowledge Catalog** | Google | - | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597616?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| *2026-07* | **Arcade Simulator: Data Mesh Architect** | Google | - | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597578?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| *2026-07* | **Leading the Shift: Creating the new field of data for social impact \| data.org** | LinkedIn | - | [Verify Record](https://www.linkedin.com/learning/certificates/19c7c31ad1b900e39f878eceff224ed84d4fe56be28f0a20b8ee1197b6562f61) |
 
 <!-- LINKEDIN_END -->
 
