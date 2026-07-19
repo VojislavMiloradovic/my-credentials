@@ -17,9 +17,9 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/models/setup-python@v5
+      uses: actions/setup-python@v5
       with:
-        python-base: '3.x'
+        python-version: '3.x'
 
     - name: Install Dependencies
       run: |
