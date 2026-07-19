@@ -44,13 +44,11 @@ def parse_certifications_csv():
         if not content.strip():
             return []
             
-        # Dynamically evaluate if the CSV layout utilizes traditional commas or copy-pasted tabs
         delimiter = '\t' if '\t' in content.splitlines()[0] else ','
         f.seek(0)
         
         reader = csv.DictReader(f, delimiter=delimiter)
-        for row in reader:
-            # Check for name fields safely across different spelling configurations
+        for idx, row in enumerate(reader):
             name = row.get('Name') or row.get('name')
             if not name:
                 continue
@@ -59,19 +57,27 @@ def parse_certifications_csv():
             url = row.get('Url') or row.get('url') or ""
             license_num = row.get('License Number') or row.get('license number') or ""
             
-            # Prioritize completion dates, fallback to started dates if finished is empty
-            finished = row.get('Finished On') or row.get('finished on')
+            # LinkedIn quirk: 'Started On' = Issue Date, 'Finished On' = Expiration Date
             started = row.get('Started On') or row.get('started on')
-            raw_date = finished if (finished and finished.strip()) else started
+            finished = row.get('Finished On') or row.get('finished on')
             
-            iso_date = parse_linkedin_date(raw_date)
+            issued_date = parse_linkedin_date(started)
+            expiry_date = parse_linkedin_date(finished)
+            
+            # Defensive fallback: If only 'Finished On' exists, assume it was meant as the completion date
+            if issued_date == "N/A" and expiry_date != "N/A":
+                issued_date = expiry_date
+                expiry_date = "N/A"
             
             certs.append({
                 "name": name.strip(),
                 "authority": authority.strip(),
-                "date": iso_date,
+                "issued": issued_date,
+                "expiry": expiry_date,
                 "url": url.strip(),
-                "license": license_num.strip()
+                "license": license_num.strip(),
+                # Tagging the exact row order for advanced tie-breaker sorting
+                "original_order": idx
             })
             
     return certs
@@ -85,8 +91,15 @@ def main():
     total_certs = len(certs)
     print(f"✅ Successfully extracted {total_certs} credential entities from file.")
     
-    # Sort chronologically, putting N/A records gracefully at the base line
-    certs.sort(key=lambda x: x.get("date", "0000-00") if x.get("date") != "N/A" else "0000-00", reverse=True)
+    # Advanced Sorting: Chronological by issue date.
+    # Tie-breaker: If months match, prioritize items closer to the bottom of the CSV (which are newer).
+    certs.sort(
+        key=lambda x: (
+            x.get("issued") if x.get("issued") != "N/A" else "0000-00",
+            x.get("original_order")
+        ), 
+        reverse=True
+    )
     
     # 1. Generate token-optimized entry snapshot block for README.md
     md = []
@@ -99,14 +112,15 @@ def main():
     
     md.append("#### Recent Certifications")
     md.append("Showing the latest 10 items. View complete historical logs in [LinkedIn Certifications archive](./archives/linkedin-certifications.md).\n")
-    md.append("| Date | Certification Title | Issuing Authority | Credentials Reference |")
-    md.append("| :---: | :--- | :--- | :--- |")
+    md.append("| Date Issued | Certification Title | Issuing Authority | Expiry | Verification |")
+    md.append("| :---: | :--- | :--- | :---: | :--- |")
     
     for c in certs[:10]:
         clean_name = c['name'].replace("|", "\\|")
         clean_auth = c['authority'].replace("|", "\\|")
+        expiry_display = c['expiry'] if c['expiry'] != "N/A" else "-"
         ref = f"[Verify Record]({c['url']})" if c['url'] else (c['license'] if c['license'] else "N/A")
-        md.append(f"| *{c['date']}* | **{clean_name}** | {clean_auth} | {ref} |")
+        md.append(f"| *{c['issued']}* | **{clean_name}** | {clean_auth} | {expiry_display} | {ref} |")
     md.append("\n")
     
     if os.path.exists(README_PATH):
@@ -125,14 +139,15 @@ def main():
     archive_md = []
     archive_md.append("# Master LinkedIn Certifications History Log\n")
     archive_md.append(f"Historical record cataloging all {total_certs} verified external professional credentials.\n\n")
-    archive_md.append("| Date Completed | Certification Title | Issuing Authority | Verification Reference |")
-    archive_md.append("| :---: | :--- | :--- | :--- |")
+    archive_md.append("| Date Issued | Certification Title | Issuing Authority | Expiry Date | Verification Reference |")
+    archive_md.append("| :---: | :--- | :--- | :---: | :--- |")
     
     for c in certs:
         clean_name = c['name'].replace("|", "\\|")
         clean_auth = c['authority'].replace("|", "\\|")
+        expiry_display = c['expiry'] if c['expiry'] != "N/A" else "-"
         ref = f"[Verify Record]({c['url']})" if c['url'] else (c['license'] if c['license'] else "Verified Account Entry")
-        archive_md.append(f"| {c['date']} | **{clean_name}** | {clean_auth} | {ref} |")
+        archive_md.append(f"| {c['issued']} | **{clean_name}** | {clean_auth} | {expiry_display} | {ref} |")
         
     archive_md.append("\n\n[← Back to README](../README.md)\n")
     
