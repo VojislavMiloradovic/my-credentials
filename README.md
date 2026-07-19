@@ -44,10 +44,10 @@ Showing the latest 10 of 4,716 total achievements. The complete list is fully ar
 ## Google Skills Credentials
 
 <!-- GOOGLE_SKILLS_START -->
-### Google Cloud Skills Boost (326 Badges)
+### Google Cloud Skills Boost (328 Badges)
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
-**Total Lifetime Points:** 188,418
+**Total Lifetime Points:** 188,439
 
 #### Platform Progress Summary
 | Metric | Count |
@@ -62,6 +62,8 @@ Showing the latest 10 of 4,716 total achievements. The complete list is fully ar
 #### Latest Earned Badges
 | Date Earned | Badge Title |
 |:---:|---|
+| *Earned Jul 19, 2026* | **Secure Software Delivery** |
+| *Earned Jul 19, 2026* | **Arcade Base Camp July 2026** |
 | *Earned Jul 16, 2026* | **Build a Data Mesh with Knowledge Catalog** |
 | *Earned Jul 16, 2026* | **Arcade Simulator: Data Mesh Architect** |
 | *Earned Jul 15, 2026* | **Deploy and Monitor in Google Cloud for AWS Professionals** |
@@ -70,10 +72,8 @@ Showing the latest 10 of 4,716 total achievements. The complete list is fully ar
 | *Earned Jul 10, 2026* | **Build a Data Warehouse with BigQuery** |
 | *Earned Jul 8, 2026* | **Arcade Trail: Google Workspace Administration** |
 | *Earned Jul 7, 2026* | **Safe Spaces** |
-| *Earned Jul 7, 2026* | **Optimize Costs for Google Kubernetes Engine** |
-| *Earned Jul 3, 2026* | **Mitigate Threats and Vulnerabilities with Security Command Center** |
 
-👉 **[View all 326 earned badges in the full archive](./archives/google-cloud-skills.md)**
+👉 **[View all 328 earned badges in the full archive](./archives/google-cloud-skills.md)**
 
 <!-- GOOGLE_SKILLS_END -->
 
