@@ -1,0 +1,40 @@
+name: Sync LinkedIn Profile Credentials Archive
+
+on:
+  push:
+    paths:
+      - 'data/Certifications.csv'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-refresh-linkedin:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository Assets
+        uses: actions/checkout@v4
+
+      - name: Initialize Runtime Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Process Profile Certifications Matrix
+        run: |
+          python update_linkedin.py
+
+      - name: Commit and Push Updated Archive Layout Elements
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md archives/linkedin-certifications.md
+          if git diff --staged --quiet; then
+            echo "No structural modification variants identified. Skipping commit sequence."
+          else
+            git commit -m "automation: dynamically synchronize verified linkedin credentials history record entries"
+            git push
+          fi
