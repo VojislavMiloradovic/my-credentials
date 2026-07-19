@@ -1,5 +1,7 @@
 import os
 import sys
+import re
+import json
 import requests
 
 README_PATH = "README.md"
@@ -12,34 +14,67 @@ def main():
     username = "vojislavmiloradovic"
     url = f"https://developers.google.com/profile/u/{username}"
     
-    print(f"📡 Fetching Google Developer profile from hidden API...")
+    print(f"📡 Fetching Google Developer profile...")
+    
+    # Simulating a modern browser request to prevent security firewalls or 403 blocks
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "max-age=0"
     }
     
     try:
         response = requests.get(url, headers=headers)
         if response.status_code != 200:
             print(f"❌ Failed to fetch profile. Status code: {response.status_code}")
+            print("📋 Response Context Snippet:")
+            print(response.text[:600])
             sys.exit(1)
-        
-        data = response.json()
+            
+        content_type = response.headers.get("Content-Type", "")
+        badges = []
+
+        # Scenario A: The URL acts as a clean JSON endpoint
+        if "application/json" in content_type:
+            data = response.json()
+            badges = data.get("badges", [])
+            
+        # Scenario B: The URL serves the raw HTML document shell (Caused the JSONDecodeError)
+        else:
+            print("ℹ️ Server returned HTML page. Extracting data via string parsing...")
+            html_content = response.text
+            
+            # Look for common hydration patterns where Google embeds data inside script blocks
+            # Checks for 'window.__INITIAL_DATA__ = {...};' or 'initialData = {...};'
+            match = re.search(r'(?:__INITIAL_DATA__|initialData)\s*=\s*(\{.*?\});', html_content)
+            
+            if match:
+                try:
+                    payload = json.loads(match.group(1))
+                    badges = payload.get("badges", [])
+                except json.JSONDecodeError as je:
+                    print(f"⚠️ Matched structural state script tag, but JSON parsing failed: {je}")
+            
+            # Fallback if structural patterns change or if profile is completely dynamic
+            if not badges:
+                print("❌ HTML structure parsed, but no explicit badge payload was extracted.")
+                print("📋 Raw content header sample to audit page structure:")
+                print(html_content[:800])
+                print("\n💡 Action Item: Inspect the text dump above in your workflow log to confirm the correct XHR data script target.")
+                sys.exit(1)
+
     except Exception as e:
         print(f"❌ Error communicating with endpoint: {e}")
         sys.exit(1)
-
-    # Extract user profile information out of response payload
-    profile = data.get("profile", {})
-    badges = data.get("badges", [])
-    
+        
     total_badges = len(badges)
-    print(f"✅ Found {total_badges} Google Developer badges.")
+    print(f"✅ Successfully found and processed {total_badges} Google Developer badges.")
 
-    # Sort badges by award date (newest first)
-    # The API returns timestamps or formatted dates; handle fallback safely
+    # Sort badges safely by award date string (newest first)
     badges.sort(key=lambda x: x.get("awarded_date", "0000-00-00"), reverse=True)
 
-    # 1. Build Markdown Section for Main README.md
+    # 1. Build Markdown Table Summary for the README.md
     md = []
     md.append("### Google Developer Profile Summary")
     md.append(f"**Public Profile:** [Verify Developer Profile](https://g.dev/{username})  \n")
@@ -62,7 +97,7 @@ def main():
         md.append(f"| *{date}* | **{title}** | {desc} |")
     md.append("\n")
 
-    # Update Main README.md
+    # Inject update into Main README.md
     if os.path.exists(README_PATH):
         with open(README_PATH, "r", encoding="utf-8") as f:
             readme_content = f.read()
@@ -75,10 +110,10 @@ def main():
                 f.write(new_readme)
             print("✅ Successfully updated README.md with Google Developer achievements!")
         else:
-            print("ℹ️ Setup note: Add the HTML comment markers to your README to inject the data.")
+            print("⚠️ Setup notice: Missing structural HTML comment markers inside README.md.")
     
-    # 2. Generate Complete Archive File
-    print(f"Generating comprehensive archive in {GDEV_ARCHIVE_PATH}...")
+    # 2. Build In-Depth Historical Log File
+    print(f"Generating comprehensive archive log in {GDEV_ARCHIVE_PATH}...")
     archive_md = []
     archive_md.append("# Complete Google Developer Badges Archive\n")
     archive_md.append(f"Historical record of all {total_badges} learning badges earned on the Google Developer platform.\n")
@@ -97,7 +132,7 @@ def main():
     os.makedirs(os.path.dirname(GDEV_ARCHIVE_PATH), exist_ok=True)
     with open(GDEV_ARCHIVE_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(archive_md))
-    print("✅ Google Developer archive synchronized successfully!")
+    print("✅ Complete Google Developer archive synchronized successfully!")
 
 if __name__ == "__main__":
     main()
