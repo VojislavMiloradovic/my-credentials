@@ -1,7 +1,5 @@
 import os
 import sys
-import re
-import json
 import requests
 
 README_PATH = "README.md"
@@ -10,66 +8,55 @@ GDEV_ARCHIVE_PATH = "archives/google-developer.md"
 MARKER_START = "<!-- GOOGLE_DEVELOPER_START -->"
 MARKER_END = "<!-- GOOGLE_DEVELOPER_END -->"
 
-def main():
-    username = "vojislavmiloradovic"
-    url = f"https://developers.google.com/profile/u/{username}"
+def fetch_gdev_json(username):
+    """Cycle through internal Google Developer XHR endpoints to retrieve the live JSON payload."""
+    # These are the actual backend paths the client application calls to hydrate the profile UI
+    endpoints = [
+        f"https://developers.google.com/site-api/developer-profile/u/{username}",
+        f"https://developers.google.com/site-api/profiles/u/{username}",
+        f"https://developers.google.com/site-api/developer-profile?username={username}"
+    ]
     
-    print(f"📡 Fetching Google Developer profile...")
-    
-    # Simulating a modern browser request to prevent security firewalls or 403 blocks
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Cache-Control": "max-age=0"
+        "Accept": "application/json",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": f"https://developers.google.com/profile/u/{username}"
     }
     
-    try:
-        response = requests.get(url, headers=headers)
-        if response.status_code != 200:
-            print(f"❌ Failed to fetch profile. Status code: {response.status_code}")
-            print("📋 Response Context Snippet:")
-            print(response.text[:600])
-            sys.exit(1)
+    for url in endpoints:
+        print(f"📡 Testing internal data endpoint: {url}")
+        try:
+            response = requests.get(url, headers=headers, timeout=15)
+            if response.status_code == 200 and "application/json" in response.headers.get("Content-Type", ""):
+                data = response.json()
+                # Confirm we received an active profile state or badge array
+                if "badges" in data or "profile" in data or "earnedBadges" in data:
+                    print(f"✅ Successful JSON handshake established.")
+                    return data
+            print(f"ℹ️ Endpoint returned status {response.status_code} or unexpected content type.")
+        except Exception as e:
+            print(f"⚠️ Connection attempt to endpoint failed: {e}")
+            continue
             
-        content_type = response.headers.get("Content-Type", "")
-        badges = []
+    return None
 
-        # Scenario A: The URL acts as a clean JSON endpoint
-        if "application/json" in content_type:
-            data = response.json()
-            badges = data.get("badges", [])
-            
-        # Scenario B: The URL serves the raw HTML document shell (Caused the JSONDecodeError)
-        else:
-            print("ℹ️ Server returned HTML page. Extracting data via string parsing...")
-            html_content = response.text
-            
-            # Look for common hydration patterns where Google embeds data inside script blocks
-            # Checks for 'window.__INITIAL_DATA__ = {...};' or 'initialData = {...};'
-            match = re.search(r'(?:__INITIAL_DATA__|initialData)\s*=\s*(\{.*?\});', html_content)
-            
-            if match:
-                try:
-                    payload = json.loads(match.group(1))
-                    badges = payload.get("badges", [])
-                except json.JSONDecodeError as je:
-                    print(f"⚠️ Matched structural state script tag, but JSON parsing failed: {je}")
-            
-            # Fallback if structural patterns change or if profile is completely dynamic
-            if not badges:
-                print("❌ HTML structure parsed, but no explicit badge payload was extracted.")
-                print("📋 Raw content header sample to audit page structure:")
-                print(html_content[:800])
-                print("\n💡 Action Item: Inspect the text dump above in your workflow log to confirm the correct XHR data script target.")
-                sys.exit(1)
-
-    except Exception as e:
-        print(f"❌ Error communicating with endpoint: {e}")
+def main():
+    username = "vojislavmiloradovic"
+    
+    # Extract the live backend JSON data payload
+    data = fetch_gdev_json(username)
+    
+    if not data:
+        print("❌ Error: All internal Google Developer API data paths returned unparsable responses.")
+        print("💡 The profile may be set to private, or Google's backend API routing rules have shifted.")
         sys.exit(1)
-        
+
+    # Adaptive normalization to find the badge array regardless of minor schema variations
+    badges = data.get("badges", []) or data.get("earnedBadges", []) or data.get("profile", {}).get("badges", [])
+    
     total_badges = len(badges)
-    print(f"✅ Successfully found and processed {total_badges} Google Developer badges.")
+    print(f"✅ Successfully processed {total_badges} Google Developer profile badges.")
 
     # Sort badges safely by award date string (newest first)
     badges.sort(key=lambda x: x.get("awarded_date", "0000-00-00"), reverse=True)
@@ -91,10 +78,14 @@ def main():
     md.append("| :---: | :--- | :--- |")
     
     for badge in badges[:10]:
-        date = badge.get("awarded_date", "N/A")
+        date_raw = badge.get("awarded_date", "N/A")
+        # Clean up full ISO timestamps (YYYY-MM-DDTHH:MM:SSZ) down to standard YYYY-MM-DD strings
+        if date_raw and "T" in str(date_raw):
+            date_raw = str(date_raw).split("T")[0]
+            
         title = badge.get("title", "Untitled Badge")
         desc = badge.get("description", "").replace("\n", " ")
-        md.append(f"| *{date}* | **{title}** | {desc} |")
+        md.append(f"| *{date_raw}* | **{title}** | {desc} |")
     md.append("\n")
 
     # Inject update into Main README.md
@@ -121,11 +112,14 @@ def main():
     archive_md.append("| :---: | :--- | :--- | :--- |")
 
     for badge in badges:
-        date = badge.get("awarded_date", "N/A")
+        date_raw = badge.get("awarded_date", "N/A")
+        if date_raw and "T" in str(date_raw):
+            date_raw = str(date_raw).split("T")[0]
+            
         title = badge.get("title", "Untitled Badge").replace("|", "\\|")
         desc = badge.get("description", "").replace("|", "\\|").replace("\n", " ")
         url = badge.get("badge_url", "🎓 Profile Verified")
-        archive_md.append(f"| {date} | **{title}** | {desc} | [Link]({url}) |")
+        archive_md.append(f"| {date_raw} | **{title}** | {desc} | [Link]({url}) |")
 
     archive_md.append("\n\n[← Back to README](../README.md)\n")
 
