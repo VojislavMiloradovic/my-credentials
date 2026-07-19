@@ -8,7 +8,7 @@ from urllib.parse import unquote
 
 README_PATH = "README.md"
 GDEV_ARCHIVE_PATH = "archives/google-developer.md"
-LEARNINGS_TXT_PATH = "google_learnings.txt"
+LEARNINGS_TXT_PATH = "data/google_learnings.txt"
 
 MARKER_START = "<!-- GOOGLE_DEVELOPER_START -->"
 MARKER_END = "<!-- GOOGLE_DEVELOPER_END -->"
