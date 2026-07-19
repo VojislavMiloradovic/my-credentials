@@ -8,81 +8,84 @@ from urllib.parse import unquote
 
 README_PATH = "README.md"
 GDEV_ARCHIVE_PATH = "archives/google-developer.md"
+ACTIVITY_JSON_PATH = "google_activity.json"
 
 MARKER_START = "<!-- GOOGLE_DEVELOPER_START -->"
 MARKER_END = "<!-- GOOGLE_DEVELOPER_END -->"
 
-def extract_badges_recursively(data, parsed_badges):
-    """Recursively scans the unmarshalled JSON structure to locate and extract badge objects."""
-    if isinstance(data, str):
-        if "/awards/" in data:
-            parts = data.split("/awards/")
-            if len(parts) > 1:
-                badge_path = unquote(parts[1])
-                slug = badge_path.split("/")[-1]
+def analyze_badge_list(lst, parsed_badges):
+    """Deeply inspects an active data block list to extract paired award badges and timestamps."""
+    strings = []
+    numbers = []
+    
+    def walk(element):
+        if isinstance(element, str):
+            strings.append(element)
+        elif isinstance(element, (int, float)):
+            numbers.append(element)
+        elif isinstance(element, list):
+            for x in element:
+                walk(x)
+        elif isinstance(element, dict):
+            for x in element.values():
+                walk(x)
                 
-                # Format clean, token-efficient text titles for AI readability
-                title = slug.replace("-", " ").replace("_", " ").title()
-                title = title.replace("Gdg", "GDG").replace("Gcp", "GCP").replace("Aws", "AWS")
-                
-                category = "Community" if "community" in badge_path else "Learning Pathway"
-                description = f"Official Google Developer platform achievement ({category}: {slug.replace('-', ' ')})."
-                
-                if not any(b['title'] == title for b in parsed_badges):
-                    parsed_badges.append({
-                        "title": title,
-                        "description": description,
-                        "date": "N/A"
-                    })
-                    
-    elif isinstance(data, list):
-        # Look for instances where a timestamp signature is grouped alongside an award string
-        has_award = False
-        potential_epoch = None
+    walk(lst)
+    
+    award_strs = [s for s in strings if "/awards/" in s]
+    if not award_strs:
+        return False
         
-        for item in data:
-            if isinstance(item, str) and "/awards/" in item:
-                has_award = True
-            if isinstance(item, list) and len(item) == 1 and isinstance(item[0], (int, float)):
-                potential_epoch = item[0]
-            elif isinstance(item, (int, float)) and 1000000000 <= item <= 2000000000:
-                potential_epoch = item
-                
-        if has_award:
-            for item in data:
-                if isinstance(item, str) and "/awards/" in item:
-                    parts = item.split("/awards/")
-                    if len(parts) > 1:
-                        badge_path = unquote(parts[1])
-                        slug = badge_path.split("/")[-1]
-                        title = slug.replace("-", " ").replace("_", " ").title()
-                        title = title.replace("Gdg", "GDG").replace("Gcp", "GCP").replace("Aws", "AWS")
-                        
-                        date_str = "N/A"
-                        if potential_epoch:
-                            try:
-                                if potential_epoch > 100000000000:
-                                    potential_epoch /= 1000.0
-                                date_str = datetime.fromtimestamp(potential_epoch, tz=timezone.utc).strftime('%Y-%m-%d')
-                            except:
-                                pass
-                                
-                        category = "Community" if "community" in badge_path else "Learning Pathway"
-                        description = f"Official Google Developer platform achievement ({category}: {slug.replace('-', ' ')})."
-                        
-                        if not any(b['title'] == title for b in parsed_badges):
-                            parsed_badges.append({
-                                "title": title,
-                                "description": description,
-                                "date": date_str
-                            })
-                            
-        for item in data:
-            extract_badges_recursively(item, parsed_badges)
+    # Locate valid Unix timestamp boundaries matching realistic calendar years
+    epoch = None
+    for num in numbers:
+        if 946684800 <= num <= 2500000000:  # Seconds format
+            epoch = num
+            break
+        elif 946684800000 <= num <= 2500000000000:  # Milliseconds format
+            epoch = num / 1000.0
+            break
             
+    date_str = "N/A"
+    if epoch:
+        try:
+            date_str = datetime.fromtimestamp(epoch, tz=timezone.utc).strftime('%Y-%m-%d')
+        except:
+            pass
+            
+    for award_str in award_strs:
+        parts = award_str.split("/awards/")
+        if len(parts) > 1:
+            badge_path = unquote(parts[1])
+            slug = badge_path.split("/")[-1].split("?")[0]
+            
+            title = slug.replace("-", " ").replace("_", " ").title()
+            title = title.replace("Gdg", "GDG").replace("Gcp", "GCP").replace("Aws", "AWS")
+            
+            category = "Community" if "community" in badge_path else "Learning Pathway"
+            description = f"Official Google Developer platform achievement ({category}: {slug.replace('-', ' ')})."
+            
+            existing = next((b for b in parsed_badges if b['title'] == title), None)
+            if existing:
+                if existing['date'] == "N/A" and date_str != "N/A":
+                    existing['date'] = date_str
+            else:
+                parsed_badges.append({
+                    "title": title,
+                    "description": description,
+                    "date": date_str
+                })
+    return True
+
+def find_badges_in_matrix(data, parsed_badges):
+    """Traverses down the matrix hierarchy layers ensuring item context remains intact."""
+    if isinstance(data, list):
+        analyze_badge_list(data, parsed_badges)
+        for item in data:
+            find_badges_in_matrix(item, parsed_badges)
     elif isinstance(data, dict):
-        for value in data.values():
-            extract_badges_recursively(value, parsed_badges)
+        for val in data.values():
+            find_badges_in_matrix(val, parsed_badges)
 
 def fetch_gdev_badges_rpc():
     """Requests Google's batch RPC execution framework using the precise structural matrix."""
@@ -99,7 +102,6 @@ def fetch_gdev_badges_rpc():
     }
     
     profile_id = "110772055890077594470"
-    
     f_req_structure = [[
         ["gQeJTc", f"[\"{profile_id}\"]", None, "3"],
         ["RwSpuf", f"[\"{profile_id}\"]", None, "4"]
@@ -128,7 +130,6 @@ def fetch_gdev_badges_rpc():
         raw_text = response.text
         parsed_badges = []
         
-        # Parse text chunks looking for serialized sub-JSON payloads across all batch headers
         for line in raw_text.splitlines():
             if "gQeJTc" in line or "RwSpuf" in line:
                 clean_line = re.sub(r'^\d+', '', line).strip()
@@ -140,32 +141,53 @@ def fetch_gdev_badges_rpc():
                                 if isinstance(element, str) and (element.startswith("[") or element.startswith("{")):
                                     try:
                                         badge_matrix = json.loads(element)
-                                        extract_badges_recursively(badge_matrix, parsed_badges)
+                                        find_badges_in_matrix(badge_matrix, parsed_badges)
                                     except:
                                         pass
-                except Exception:
+                except:
                     continue
                     
         return parsed_badges
-
     except Exception as network_error:
         print(f"❌ Connection pipeline failure: {network_error}")
         return None
 
 def main():
     badges = fetch_gdev_badges_rpc()
-    
     if not badges:
-        print("❌ Error: Failed to extract a valid structured badge collection using the RPC handshake.")
+        print("❌ Error: Failed to extract structured badges via public RPC handshake.")
         sys.exit(1)
         
-    total_badges = len(badges)
-    print(f"✅ Successfully compiled {total_badges} active Google Developer profile achievements.")
+    total_public_badges = len(badges)
+    total_codelabs_completed = 0
     
-    # Sort chronologically, dropping N/A instances to the bottom gracefully
+    # Optional local file integration check to include verbose activity log records safely
+    if os.path.exists(ACTIVITY_JSON_PATH):
+        try:
+            with open(ACTIVITY_JSON_PATH, "r", encoding="utf-8") as f:
+                activity_data = json.load(f)
+                
+            # Assume activity file contains a list of tracking elements or an explicit counter key
+            if isinstance(activity_data, list):
+                total_codelabs_completed = len(activity_data)
+                for entry in activity_data:
+                    title = entry.get("title", "Completed Codelab Task").title()
+                    if not any(b['title'] == title for b in badges):
+                        badges.append({
+                            "title": title,
+                            "description": entry.get("description", "Verified custom learning module activity completion log record."),
+                            "date": entry.get("date", "N/A")
+                        })
+            elif isinstance(activity_data, dict):
+                total_codelabs_completed = activity_data.get("total_codelabs", 0) or activity_data.get("count", 0)
+            print(f"📂 Integrated offline history profile: Found {total_codelabs_completed} verbose codelab rows.")
+        except Exception as file_err:
+            print(f"⚠️ Activity log integration parsing note: {file_err}")
+
+    # Sort chronologically, gracefully preserving N/A entries below recent milestones
     badges.sort(key=lambda x: x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00", reverse=True)
     
-    # 1. Update Main Repository README.md Layout Container (AI Optimized, No Images)
+    # 1. Update Main Repository README.md Container
     md = []
     md.append("### Google Developer Profile Summary")
     md.append("**Public Profile:** [Verify Developer Profile](https://g.dev/vojislavmiloradovic)  \n")
@@ -173,11 +195,13 @@ def main():
     md.append("#### Platform Progress")
     md.append("| Metric | Count |")
     md.append("| :--- | :--- |")
-    md.append(f"| **Total Badges Earned** | {total_badges:,} |")
+    md.append(f"| **Total Milestones & Milestone Badges** | {total_public_badges:,} |")
+    if total_codelabs_completed > 0:
+        md.append(f"| **Total Codelabs Completed** | {total_codelabs_completed:,} |")
     md.append("\n")
 
-    md.append("#### Latest Badges")
-    md.append("Showing the latest 10 achievements. View complete historical logs in [Google Developer archive](./archives/google-developer.md).\n")
+    md.append("#### Latest Achievements")
+    md.append("Showing the latest 10 items. View complete historical logs in [Google Developer archive](./archives/google-developer.md).\n")
     md.append("| Date Earned | Badge Title | Description |")
     md.append("| :---: | :--- | :--- |")
     
@@ -198,13 +222,11 @@ def main():
             with open(README_PATH, "w", encoding="utf-8") as f:
                 f.write(new_readme)
             print("✅ Main README.md container updated dynamically.")
-        else:
-            print("⚠️ Setup notice: Structural comment markers missing inside README.md target boundaries.")
 
     # 2. Update Master Historical Archive Log File
     archive_md = []
     archive_md.append("# Complete Google Developer Badges Archive\n")
-    archive_md.append(f"Historical record tracking all {total_badges} platform achievements earned.\n")
+    archive_md.append(f"Historical record tracking platform achievements earned.\n")
     archive_md.append("| Date Earned | Badge Title | Description |")
     archive_md.append("| :---: | :--- | :--- |")
 
