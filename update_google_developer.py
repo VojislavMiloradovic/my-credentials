@@ -12,25 +12,32 @@ MARKER_START = "<!-- GOOGLE_DEVELOPER_START -->"
 MARKER_END = "<!-- GOOGLE_DEVELOPER_END -->"
 
 def fetch_gdev_badges_rpc():
-    """Directly requests Google's internal batch RPC endpoint and extracts the badge matrix."""
+    """Requests Google's batch RPC execution framework using the precise structural matrix."""
     url = "https://me.developers.google.com/_/GoogleDeveloperProfile/data/batchexecute"
     
-    # Mirroring the precise parameters captured from the live session
+    # URL Query Parameters matching the layout requirement rules
     params = {
         "rpcids": "gQeJTc,RwSpuf",
         "source-path": "/u/vojislavmiloradovic",
         "bl": "boq_gdp-builders-ui_20260713.05_p0",
+        "f.sid": "8705607390718843222",
         "hl": "en",
+        "_reqid": "252198",
         "rt": "c"
     }
     
-    # Replicating form body expectations for standard boq processing architectures
+    # We substitute "me" with your public internal profile ID to allow access without login cookies
+    profile_id = "110772055890077594470"
+    
+    # Replicating the exact multi-nested stringified JSON arrays Google expects inside the body
+    f_req_structure = [[
+        ["gQeJTc", f"[\"{profile_id}\"]", None, "3"],
+        ["RwSpuf", f"[\"{profile_id}\"]", None, "4"]
+    ]]
+    
     payload = {
-        "rpcids": "gQeJTc,RwSpuf",
-        "source-path": "/u/vojislavmiloradovic",
-        "bl": "boq_gdp-builders-ui_20260713.05_p0",
-        "hl": "en",
-        "rt": "c"
+        "f.req": json.dumps(f_req_structure),
+        "at": "AFAd0eBgurpIT_evlsPSzRjypGkH:1784464194335"
     }
     
     headers = {
@@ -41,7 +48,7 @@ def fetch_gdev_badges_rpc():
         "Referer": "https://developers.google.com/profile/u/vojislavmiloradovic"
     }
     
-    print(f"📡 Dispatching targeted RPC request to: {url}")
+    print(f"📡 Dispatching structured RPC batch execution request...")
     try:
         response = requests.post(url, params=params, data=payload, headers=headers, timeout=15)
         if response.status_code != 200:
@@ -49,37 +56,36 @@ def fetch_gdev_badges_rpc():
             return None
             
         raw_text = response.text
-        
-        # Locate the structural data fragment containing the target RPC component
         parsed_badges = []
+        
+        # Track down the data vector line containing the identifier key token
         for line in raw_text.splitlines():
             if "gQeJTc" in line:
-                # Strip out any size-prefixed stream digits at the start of the data line block
+                # Remove framework stream length size-prefixes from the front of the data row
                 clean_line = re.sub(r'^\d+', '', line).strip()
                 
                 try:
                     outer_data = json.loads(clean_line)
-                    # Google envelopes the dataset into a serialized string literal inside the outer matrix
+                    # Extract the nested stringified payload block located at position index 2
                     inner_str_payload = outer_data[0][2]
                     badge_matrix = json.loads(inner_str_payload)
                     
                     for item in badge_matrix:
-                        # Safeguard extraction patterns to ensure reliability against structure variations
-                        if len(item) > 4:
-                            title = item[2] or (item[1][0] if isinstance(item[1], list) else "Untitled Badge")
-                            desc = item[3] or (item[1][1] if isinstance(item[1], list) else "")
-                            icon_path = item[4] or (item[1][2] if isinstance(item[1], list) else "")
+                        if len(item) > 6:
+                            # Direct index mapping based on Google's array definition format
+                            title = item[2] or "Untitled Badge"
+                            desc = item[3] or ""
+                            icon_path = item[4] or ""
                             
-                            # Build absolute path for assets using Google's root domain asset bucket
                             if icon_path and icon_path.startswith("/"):
                                 icon_url = f"https://developers.google.com{icon_path}"
                             else:
                                 icon_url = icon_path or ""
                                 
-                            # Extract epoch millisecond/second collections handled within index 7 arrays
+                            # Epoch values are held inside the array cluster at index position 6
                             date_str = "N/A"
-                            if len(item) > 7 and isinstance(item[7], list) and len(item[7]) > 0:
-                                epoch_seconds = item[7][0]
+                            if isinstance(item[6], list) and len(item[6]) > 0:
+                                epoch_seconds = item[6][0]
                                 date_str = datetime.fromtimestamp(epoch_seconds, tz=timezone.utc).strftime('%Y-%m-%d')
                             
                             parsed_badges.append({
@@ -89,7 +95,7 @@ def fetch_gdev_badges_rpc():
                                 "date": date_str
                             })
                 except Exception as parse_error:
-                    print(f"⚠️ Internal parse warning (skipping line segment): {parse_error}")
+                    print(f"⚠️ Internal parse warning (skipping fragment block): {parse_error}")
                     continue
                     
         return parsed_badges
@@ -108,10 +114,10 @@ def main():
     total_badges = len(badges)
     print(f"✅ Successfully compiled {total_badges} active Google Developer profile achievements.")
     
-    # Organize chronologically (newest first)
+    # Sort chronologically (newest first)
     badges.sort(key=lambda x: x.get("date", "0000-00-00"), reverse=True)
     
-    # 1. Generate Main README Markdown
+    # 1. Update Main Repository README.md Layout Container
     md = []
     md.append("### Google Developer Profile Summary")
     md.append("**Public Profile:** [Verify Developer Profile](https://g.dev/vojislavmiloradovic)  \n")
@@ -129,13 +135,11 @@ def main():
     
     for badge in badges[:10]:
         icon_display = f"<img src=\"{badge['icon_url']}\" width=\"32\" height=\"32\" />" if badge['icon_url'] else "🎓"
-        # Clean potential markdown layout syntax table breaks within descriptions
         clean_desc = badge['description'].replace("|", "\\|").replace("\n", " ")
         clean_title = badge['title'].replace("|", "\\|")
         md.append(f"| *{badge['date']}* | {icon_display} | **{clean_title}** | {clean_desc} |")
     md.append("\n")
 
-    # Sync additions into target repository README.md layout container zones
     if os.path.exists(README_PATH):
         with open(README_PATH, "r", encoding="utf-8") as f:
             readme_content = f.read()
@@ -150,7 +154,7 @@ def main():
         else:
             print("⚠️ Setup notice: Structural comment markers missing inside README.md target boundaries.")
 
-    # 2. Generate Master Historical Archive Log File
+    # 2. Update Master Historical Archive Log File
     archive_md = []
     archive_md.append("# Complete Google Developer Badges Archive\n")
     archive_md.append(f"Historical record tracking all {total_badges} platform achievements earned.\n")
