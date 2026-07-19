@@ -4,6 +4,7 @@ import re
 import json
 import requests
 from datetime import datetime, timezone
+from urllib.parse import unquote
 
 README_PATH = "README.md"
 GDEV_ARCHIVE_PATH = "archives/google-developer.md"
@@ -11,36 +12,82 @@ GDEV_ARCHIVE_PATH = "archives/google-developer.md"
 MARKER_START = "<!-- GOOGLE_DEVELOPER_START -->"
 MARKER_END = "<!-- GOOGLE_DEVELOPER_END -->"
 
-def safely_extract_string(element):
-    """Safely extracts a string from potential nested lists returned by Google's RPC response."""
-    if isinstance(element, list):
-        if len(element) > 0:
-            return safely_extract_string(element[0])
-        return ""
-    return str(element) if element is not None else ""
-
-def safely_extract_epoch(element):
-    """Extracts a numeric epoch value from string, float, int, or nested list layers."""
-    if isinstance(element, list):
-        if len(element) > 0:
-            return safely_extract_epoch(element[0])
-        return None
-    if element is None:
-        return None
-    try:
-        num = float(element)
-        # Handle millisecond precision timestamps (13 digits) by converting to seconds
-        if num > 100000000000:
-            num /= 1000.0
-        return num
-    except (ValueError, TypeError):
-        return None
+def extract_badges_recursively(data, parsed_badges):
+    """Recursively scans the unmarshalled JSON structure to locate and extract badge objects."""
+    if isinstance(data, str):
+        if "/awards/" in data:
+            parts = data.split("/awards/")
+            if len(parts) > 1:
+                badge_path = unquote(parts[1])
+                slug = badge_path.split("/")[-1]
+                
+                # Format clean, token-efficient text titles for AI readability
+                title = slug.replace("-", " ").replace("_", " ").title()
+                title = title.replace("Gdg", "GDG").replace("Gcp", "GCP").replace("Aws", "AWS")
+                
+                category = "Community" if "community" in badge_path else "Learning Pathway"
+                description = f"Official Google Developer platform achievement ({category}: {slug.replace('-', ' ')})."
+                
+                if not any(b['title'] == title for b in parsed_badges):
+                    parsed_badges.append({
+                        "title": title,
+                        "description": description,
+                        "date": "N/A"
+                    })
+                    
+    elif isinstance(data, list):
+        # Look for instances where a timestamp signature is grouped alongside an award string
+        has_award = False
+        potential_epoch = None
+        
+        for item in data:
+            if isinstance(item, str) and "/awards/" in item:
+                has_award = True
+            if isinstance(item, list) and len(item) == 1 and isinstance(item[0], (int, float)):
+                potential_epoch = item[0]
+            elif isinstance(item, (int, float)) and 1000000000 <= item <= 2000000000:
+                potential_epoch = item
+                
+        if has_award:
+            for item in data:
+                if isinstance(item, str) and "/awards/" in item:
+                    parts = item.split("/awards/")
+                    if len(parts) > 1:
+                        badge_path = unquote(parts[1])
+                        slug = badge_path.split("/")[-1]
+                        title = slug.replace("-", " ").replace("_", " ").title()
+                        title = title.replace("Gdg", "GDG").replace("Gcp", "GCP").replace("Aws", "AWS")
+                        
+                        date_str = "N/A"
+                        if potential_epoch:
+                            try:
+                                if potential_epoch > 100000000000:
+                                    potential_epoch /= 1000.0
+                                date_str = datetime.fromtimestamp(potential_epoch, tz=timezone.utc).strftime('%Y-%m-%d')
+                            except:
+                                pass
+                                
+                        category = "Community" if "community" in badge_path else "Learning Pathway"
+                        description = f"Official Google Developer platform achievement ({category}: {slug.replace('-', ' ')})."
+                        
+                        if not any(b['title'] == title for b in parsed_badges):
+                            parsed_badges.append({
+                                "title": title,
+                                "description": description,
+                                "date": date_str
+                            })
+                            
+        for item in data:
+            extract_badges_recursively(item, parsed_badges)
+            
+    elif isinstance(data, dict):
+        for value in data.values():
+            extract_badges_recursively(value, parsed_badges)
 
 def fetch_gdev_badges_rpc():
     """Requests Google's batch RPC execution framework using the precise structural matrix."""
     url = "https://me.developers.google.com/_/GoogleDeveloperProfile/data/batchexecute"
     
-    # URL Query Parameters matching the layout requirement rules
     params = {
         "rpcids": "gQeJTc,RwSpuf",
         "source-path": "/u/vojislavmiloradovic",
@@ -51,10 +98,8 @@ def fetch_gdev_badges_rpc():
         "rt": "c"
     }
     
-    # Substituting "me" with your public internal profile ID to allow access without login cookies
     profile_id = "110772055890077594470"
     
-    # Replicating the exact multi-nested stringified JSON arrays Google expects inside the body
     f_req_structure = [[
         ["gQeJTc", f"[\"{profile_id}\"]", None, "3"],
         ["RwSpuf", f"[\"{profile_id}\"]", None, "4"]
@@ -83,45 +128,22 @@ def fetch_gdev_badges_rpc():
         raw_text = response.text
         parsed_badges = []
         
-        # Track down the data vector line containing the identifier key token
+        # Parse text chunks looking for serialized sub-JSON payloads across all batch headers
         for line in raw_text.splitlines():
-            if "gQeJTc" in line:
-                # Remove framework stream length size-prefixes from the front of the data row
+            if "gQeJTc" in line or "RwSpuf" in line:
                 clean_line = re.sub(r'^\d+', '', line).strip()
-                
                 try:
                     outer_data = json.loads(clean_line)
-                    # Extract the nested stringified payload block located at position index 2
-                    inner_str_payload = outer_data[0][2]
-                    badge_matrix = json.loads(inner_str_payload)
-                    
-                    for item in badge_matrix:
-                        if len(item) > 4:
-                            # Use defensive extraction to gracefully pull array properties out safely
-                            title = safely_extract_string(item[2]) or "Untitled Badge"
-                            desc = safely_extract_string(item[3])
-                            icon_path = safely_extract_string(item[4])
-                            
-                            if icon_path and icon_path.startswith("/"):
-                                icon_url = f"https://developers.google.com{icon_path}"
-                            else:
-                                icon_url = icon_path
-                                
-                            # Safe numeric extraction prevents string-type conversion failures
-                            date_str = "N/A"
-                            if len(item) > 6:
-                                epoch_seconds = safely_extract_epoch(item[6])
-                                if epoch_seconds is not None:
-                                    date_str = datetime.fromtimestamp(epoch_seconds, tz=timezone.utc).strftime('%Y-%m-%d')
-                            
-                            parsed_badges.append({
-                                "title": title.strip(),
-                                "description": desc.strip(),
-                                "icon_url": icon_url,
-                                "date": date_str
-                            })
-                except Exception as parse_error:
-                    print(f"⚠️ Internal parse warning (skipping fragment block): {parse_error}")
+                    for chunk in outer_data:
+                        if isinstance(chunk, list):
+                            for element in chunk:
+                                if isinstance(element, str) and (element.startswith("[") or element.startswith("{")):
+                                    try:
+                                        badge_matrix = json.loads(element)
+                                        extract_badges_recursively(badge_matrix, parsed_badges)
+                                    except:
+                                        pass
+                except Exception:
                     continue
                     
         return parsed_badges
@@ -140,10 +162,10 @@ def main():
     total_badges = len(badges)
     print(f"✅ Successfully compiled {total_badges} active Google Developer profile achievements.")
     
-    # Sort chronologically (newest first)
-    badges.sort(key=lambda x: x.get("date", "0000-00-00"), reverse=True)
+    # Sort chronologically, dropping N/A instances to the bottom gracefully
+    badges.sort(key=lambda x: x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00", reverse=True)
     
-    # 1. Update Main Repository README.md Layout Container
+    # 1. Update Main Repository README.md Layout Container (AI Optimized, No Images)
     md = []
     md.append("### Google Developer Profile Summary")
     md.append("**Public Profile:** [Verify Developer Profile](https://g.dev/vojislavmiloradovic)  \n")
@@ -156,14 +178,13 @@ def main():
 
     md.append("#### Latest Badges")
     md.append("Showing the latest 10 achievements. View complete historical logs in [Google Developer archive](./archives/google-developer.md).\n")
-    md.append("| Date Earned | Icon | Badge Title | Description |")
-    md.append("| :---: | :---: | :--- | :--- |")
+    md.append("| Date Earned | Badge Title | Description |")
+    md.append("| :---: | :--- | :--- |")
     
     for badge in badges[:10]:
-        icon_display = f"<img src=\"{badge['icon_url']}\" width=\"32\" height=\"32\" />" if badge['icon_url'] else "🎓"
         clean_desc = badge['description'].replace("|", "\\|").replace("\n", " ")
         clean_title = badge['title'].replace("|", "\\|")
-        md.append(f"| *{badge['date']}* | {icon_display} | **{clean_title}** | {clean_desc} |")
+        md.append(f"| *{badge['date']}* | **{clean_title}** | {clean_desc} |")
     md.append("\n")
 
     if os.path.exists(README_PATH):
@@ -184,14 +205,13 @@ def main():
     archive_md = []
     archive_md.append("# Complete Google Developer Badges Archive\n")
     archive_md.append(f"Historical record tracking all {total_badges} platform achievements earned.\n")
-    archive_md.append("| Date Earned | Icon | Badge Title | Description |")
-    archive_md.append("| :---: | :---: | :--- | :--- |")
+    archive_md.append("| Date Earned | Badge Title | Description |")
+    archive_md.append("| :---: | :--- | :--- |")
 
     for badge in badges:
-        icon_display = f"<img src=\"{badge['icon_url']}\" width=\"32\" height=\"32\" />" if badge['icon_url'] else "🎓"
         clean_desc = badge['description'].replace("|", "\\|").replace("\n", " ")
         clean_title = badge['title'].replace("|", "\\|")
-        archive_md.append(f"| {badge['date']} | {icon_display} | **{clean_title}** | {clean_desc} |")
+        archive_md.append(f"| {badge['date']} | **{clean_title}** | {clean_desc} |")
 
     archive_md.append("\n\n[← Back to README](../README.md)\n")
 
