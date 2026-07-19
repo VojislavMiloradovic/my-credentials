@@ -158,23 +158,24 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 170 |
+| **Total Codelabs & Learning Activities** | 1,431 |
 
 
 #### Latest Achievements
-Showing the latest 10 items. View complete historical logs in [Google Developer archive](./archives/google-developer.md).
+Showing the latest 10 merged activities. View complete historical logs in [Google Developer archive](./archives/google-developer.md).
 
-| Date Earned | Badge Title | Description |
+| Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| *2026-06-05* | **Android Basics Compose Unit 8 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 2). |
-| *2026-06-05* | **Engage Users With Firebase** | Official Google Developer platform achievement (Learning Pathway: engage users with firebase). |
-| *2026-06-05* | **GDG Belgrade** | Official Google Developer platform achievement (Community: gdg belgrade). |
-| *2026-06-05* | **Android Basics Compose Unit 2 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 2 pathway 1). |
-| *2026-06-05* | **Android Development With Kotlin 8** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 8). |
-| *2026-06-05* | **Android Basics Compose Unit 4 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 4 pathway 2). |
-| *2026-06-05* | **Gear** | Official Google Developer platform achievement (Community: gear). |
-| *2026-06-05* | **Firebase Android Jetpack** | Official Google Developer platform achievement (Learning Pathway: firebase android jetpack). |
-| *2026-06-05* | **Jetpack Compose For Android Developers 1** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 1). |
-| *2026-06-05* | **Android Basics Compose Unit 5 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 5 pathway 1). |
+| *2026-07-17* | **Plan and Build Apps with Conductor Plugin** | Verified Google Developer granular learning activity module milestone. |
+| *2026-07-14* | **Google Pay API: Vibe-code checkout page with MCP servers and Antigravity** | Verified Google Developer granular learning activity module milestone. |
+| *2026-07-14* | **Customer Identity Resolution with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
+| *2026-07-10* | **Make your first Google Health API call using OAuth2 Playground** | Verified Google Developer granular learning activity module milestone. |
+| *2026-07-10* | **Deploy your containerized agent on Agent Runtime** | Verified Google Developer granular learning activity module milestone. |
+| *2026-07-10* | **Evolve compiled code with AlphaEvolve on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
+| *2026-07-10* | **Get started with AlphaEvolve on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
+| *2026-07-10* | **Evolve LLM fine-tuning hyperparameters with AlphaEvolve on GKE** | Verified Google Developer granular learning activity module milestone. |
+| *2026-07-10* | **Launch your web-based video game with AI** | Verified Google Developer granular learning activity module milestone. |
+| *2026-07-09* | **Location-based features in Android** | Verified Google Developer granular learning activity module milestone. |
 
 <!-- GOOGLE_DEVELOPER_END -->
 
