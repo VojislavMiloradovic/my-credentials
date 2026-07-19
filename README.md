@@ -148,6 +148,13 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 
 <!-- CREDLY_BADGES_END -->
 
+
+## Linkedin Credentials
+
+<!-- LINKEDIN_START -->
+<!-- LINKEDIN_END -->
+
+
 ## Google Developer Credentials
 
 <!-- GOOGLE_DEVELOPER_START -->
