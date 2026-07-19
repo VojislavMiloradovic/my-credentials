@@ -6,13 +6,12 @@ from datetime import datetime
 
 # File Paths
 README_PATH = "README.md"
-AWS_ACHIEVEMENTS_PATH = "archives/aws-skills.md" # Updated to archives directory
+AWS_ACHIEVEMENTS_PATH = "archives/aws-skills.md" 
 
 MARKER_START = "<!-- AWS_SKILLS_START -->"
 MARKER_END = "<!-- AWS_SKILLS_END -->"
 
 # --- 1. AWS CLOUD QUEST & SIMULEARN STATS ---
-# Update these manually in this script when you hit new milestones!
 CLOUD_QUEST_STATS = {
     "Builder Level": 12,
     "Reputation Level": 95,
@@ -32,21 +31,16 @@ def find_column_indices(headers):
     
     for i, h in enumerate(headers):
         norm = normalize_header(h)
-        # Match title / name fields
         if any(keyword in norm for keyword in ["title", "activityname", "coursename", "subject", "learningobject", "trainingname"]):
-            if "type" not in norm:  # avoid matching 'activitytype'
+            if "type" not in norm: 
                 mapping["title"] = i
-        # Match date fields
         if any(keyword in norm for keyword in ["date", "completedon", "completiondate", "finished", "grantedon", "awardedon"]):
             mapping["date"] = i
-        # Match type fields
         if any(keyword in norm for keyword in ["type", "activitytype", "deliverymethod", "category"]):
             mapping["type"] = i
-        # Match duration fields
         if any(keyword in norm for keyword in ["duration", "hours", "time", "length"]):
             mapping["duration"] = i
 
-    # Broad fallback for title if not yet resolved
     if mapping["title"] is None:
         for i, h in enumerate(headers):
             norm = normalize_header(h)
@@ -62,11 +56,28 @@ def parse_csv_date(date_str):
     """Standardize different CSV date strings into ISO format (YYYY-MM-DD)."""
     if not date_str:
         return ""
-    for fmt in ("%Y-%m-%d", "%m/%d/%Y", "%d/%m/%Y", "%Y-%m-%dT%H:%M:%S", "%b %d, %Y", "%d.%m.%Y"):
+    
+    # Clean up double spaces or trailing periods if any
+    cleaned_date = re.sub(r'\s+', ' ', date_str.strip())
+    
+    # Added %B for full month names (e.g., "March 9, 2026")
+    formats = (
+        "%Y-%m-%d", 
+        "%B %d, %Y", 
+        "%b %d, %Y", 
+        "%m/%d/%Y", 
+        "%d/%m/%Y", 
+        "%Y-%m-%dT%H:%M:%S", 
+        "%d.%m.%Y"
+    )
+    
+    for fmt in formats:
         try:
-            return datetime.strptime(date_str.strip(), fmt).strftime("%Y-%m-%d")
+            return datetime.strptime(cleaned_date, fmt).strftime("%Y-%m-%d")
         except ValueError:
             continue
+            
+    print(f"⚠️ Warning: Could not parse date format for value: '{date_str}'")
     return date_str.strip()
 
 def is_garbage_row(title):
@@ -83,14 +94,12 @@ def is_garbage_row(title):
     if any(k in title_lower for k in trash_keywords):
         return True
         
-    # If the title is literally just the column header text
     if title_lower in ["title", "activity name", "name", "subject", "training name"]:
         return True
         
     return False
 
 def main():
-    # 1. Locate the CSV file
     possible_names = [
         "data/aws-training-activity.csv",
         "data/aws-training-activity.cvs",
@@ -111,7 +120,6 @@ def main():
 
     print(f"✅ Found AWS data file at: {csv_path}")
 
-    # 2. Read lines to skip metadata and find the TRUE header row
     try:
         with open(csv_path, "r", encoding="utf-8-sig") as f:
             lines = f.readlines()
@@ -122,7 +130,6 @@ def main():
     header_idx = -1
     delimiter = ","
     
-    # Scan for a line containing recognizable table headers
     for idx, line in enumerate(lines):
         line_lower = line.lower()
         if any(kw in line_lower for kw in ["activity name", "activity title", "course name", "training name", "completion date", "completed on", "title"]):
@@ -132,7 +139,6 @@ def main():
             break
             
     if header_idx == -1:
-        # Fallback: find the first line with multiple columns
         for idx, line in enumerate(lines):
             if "," in line or ";" in line:
                 header_idx = idx
@@ -146,7 +152,6 @@ def main():
 
     print(f"ℹ️ Actual table headers found on Line {header_idx + 1}. Using delimiter: '{delimiter}'")
 
-    # 3. Parse data starting from the discovered header row
     clean_csv_lines = lines[header_idx:]
     reader = csv.reader(clean_csv_lines, delimiter=delimiter)
     
@@ -174,7 +179,6 @@ def main():
             
         title = row[col_map["title"]].strip()
         
-        # Skip metadata/header replicas
         if is_garbage_row(title):
             continue
             
@@ -186,7 +190,6 @@ def main():
         if not duration or duration.lower() == "null":
             duration = "N/A"
 
-        # --- SMART CLASSIFICATION ENGINE ---
         is_lab = any(k in raw_type.lower() or k in title.lower() for k in ["lab", "hands-on", "builder lab", "sandbox"])
         is_game = any(k in raw_type.lower() or k in title.lower() for k in ["game", "quest", "simulearn", "simulation"])
 
@@ -209,7 +212,7 @@ def main():
 
     print(f"✅ Successfully parsed {len(activities)} valid AWS activities.")
 
-    # Sort achievements (newest completed first)
+    # Sort achievements correctly now that dates are standardized into YYYY-MM-DD strings
     activities.sort(key=lambda x: x["date"] or "0000-00-00", reverse=True)
     total_completions = len(activities)
 
@@ -235,11 +238,11 @@ def main():
     md.append("\n")
 
     md.append("#### Recent AWS Achievements")
-    # Updated text link below to target the archives/ folder
     md.append(f"Showing the latest 10 activities. See the complete log of completed trainings in our [AWS achievements archive](./archives/aws-skills.md).\n")
     md.append("| Activity Title | Type | Date Completed | Duration |")
     md.append("| :--- | :--- | :--- | :--- |")
     for act in activities[:10]:
+        # Enforcing consistent ISO date display in README.md matches your Credly section
         md.append(f"| **{act['title']}** | {act['type']} | *{act['date']}* | {act['duration']} |")
     md.append("\n")
 
@@ -274,7 +277,6 @@ def main():
         title_clean = act["title"].replace("|", "\\|")
         archive_md.append(f"| {title_clean} | {act['type']} | {act['date']} | {act['duration']} | 🎓 Available on Profile |")
 
-    # Clean back-to-readme navigation
     archive_md.append("\n\n[← Back to README](../README.md)\n")
 
     os.makedirs(os.path.dirname(AWS_ACHIEVEMENTS_PATH), exist_ok=True)
