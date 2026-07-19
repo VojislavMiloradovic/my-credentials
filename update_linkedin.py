@@ -2,7 +2,6 @@ import os
 import sys
 import csv
 import re
-from datetime import datetime
 
 README_PATH = "README.md"
 LINKEDIN_ARCHIVE_PATH = "archives/linkedin-certifications.md"
@@ -17,7 +16,7 @@ MONTH_MAP = {
 }
 
 def parse_linkedin_date(date_str):
-    """Standardizes LinkedIn date strings (e.g., 'Feb 2026') into AI-scannable YYYY-MM formats."""
+    """Standardizes LinkedIn date strings (e.g., 'Feb 2026') into YYYY-MM formats."""
     if not date_str or str(date_str).strip().lower() in ['null', 'none', '']:
         return "N/A"
     
@@ -32,13 +31,15 @@ def parse_linkedin_date(date_str):
     return "N/A"
 
 def parse_certifications_csv():
-    """Reads and parses the LinkedIn certifications dump defensively with automatic delimiter sniffing."""
+    """Reads and parses the LinkedIn certifications dump defensively with column-swap auto-correction."""
     if not os.path.exists(CERTIFICATIONS_CSV_PATH):
         print(f"❌ Error: Target file missing at expected path: {CERTIFICATIONS_CSV_PATH}")
         return []
 
     certs = []
-    # Open with utf-8-sig to cleanly discard explicit Byte Order Mark configurations automatically
+    # Current date threshold constraint to filter out future expiration overflows
+    current_year_month = "2026-07"
+
     with open(CERTIFICATIONS_CSV_PATH, mode='r', encoding='utf-8-sig') as f:
         content = f.read()
         if not content.strip():
@@ -57,26 +58,29 @@ def parse_certifications_csv():
             url = row.get('Url') or row.get('url') or ""
             license_num = row.get('License Number') or row.get('license number') or ""
             
-            # LinkedIn quirk: 'Started On' = Issue Date, 'Finished On' = Expiration Date
             started = row.get('Started On') or row.get('started on')
             finished = row.get('Finished On') or row.get('finished on')
             
             issued_date = parse_linkedin_date(started)
             expiry_date = parse_linkedin_date(finished)
             
-            # Defensive fallback: If only 'Finished On' exists, assume it was meant as the completion date
-            if issued_date == "N/A" and expiry_date != "N/A":
-                issued_date = expiry_date
-                expiry_date = "N/A"
+            # Auto-Correction Engine: If the issue date falls in the future, it is an expiration milestone.
+            if issued_date != "N/A" and issued_date > current_year_month:
+                if expiry_date != "N/A" and expiry_date <= current_year_month:
+                    # Columns are completely inverted for this record
+                    issued_date, expiry_date = expiry_date, issued_date
+                else:
+                    # No past/present date available; shift the future date to expiry and use the row context
+                    expiry_date = issued_date
+                    # Fallback to the current month window since it was added to the active log period
+                    issued_date = current_year_month
             
             certs.append({
                 "name": name.strip(),
                 "authority": authority.strip(),
                 "issued": issued_date,
-                "expiry": expiry_date,
                 "url": url.strip(),
                 "license": license_num.strip(),
-                # Tagging the exact row order for advanced tie-breaker sorting
                 "original_order": idx
             })
             
@@ -85,23 +89,19 @@ def parse_certifications_csv():
 def main():
     certs = parse_certifications_csv()
     if not certs:
-        print("❌ Process termination: No rows extracted from Certifications.csv profile asset.")
+        print("❌ Process termination: No rows extracted from Certifications.csv.")
         sys.exit(1)
         
     total_certs = len(certs)
-    print(f"✅ Successfully extracted {total_certs} credential entities from file.")
+    print(f"✅ Successfully extracted {total_certs} credential entities.")
     
-    # Advanced Sorting: Chronological by issue date.
-    # Tie-breaker: If months match, prioritize items closer to the bottom of the CSV (which are newer).
-    certs.sort(
-        key=lambda x: (
-            x.get("issued") if x.get("issued") != "N/A" else "0000-00",
-            x.get("original_order")
-        ), 
-        reverse=True
-    )
+    # Stable Sorting Architecture:
+    # Pass 1: Sort by original CSV row index descending (puts newer additions at the bottom of the file on top)
+    certs.sort(key=lambda x: x["original_order"], reverse=True)
+    # Pass 2: Sort by standardized date string descending (keeps newest months at the peak)
+    certs.sort(key=lambda x: x.get("issued") if x.get("issued") != "N/A" else "0000-00", reverse=True)
     
-    # 1. Generate token-optimized entry snapshot block for README.md
+    # 1. Update main README.md snapshot block
     md = []
     md.append("### LinkedIn Professional Certifications Summary")
     md.append(f"#### Progress Metrics")
@@ -112,15 +112,14 @@ def main():
     
     md.append("#### Recent Certifications")
     md.append("Showing the latest 10 items. View complete historical logs in [LinkedIn Certifications archive](./archives/linkedin-certifications.md).\n")
-    md.append("| Date Issued | Certification Title | Issuing Authority | Expiry | Verification |")
-    md.append("| :---: | :--- | :--- | :---: | :--- |")
+    md.append("| Date | Certification Title | Issuing Authority | Credentials Reference |")
+    md.append("| :---: | :--- | :--- | :--- |")
     
     for c in certs[:10]:
         clean_name = c['name'].replace("|", "\\|")
         clean_auth = c['authority'].replace("|", "\\|")
-        expiry_display = c['expiry'] if c['expiry'] != "N/A" else "-"
         ref = f"[Verify Record]({c['url']})" if c['url'] else (c['license'] if c['license'] else "N/A")
-        md.append(f"| *{c['issued']}* | **{clean_name}** | {clean_auth} | {expiry_display} | {ref} |")
+        md.append(f"| *{c['issued']}* | **{clean_name}** | {clean_auth} | {ref} |")
     md.append("\n")
     
     if os.path.exists(README_PATH):
@@ -135,19 +134,18 @@ def main():
                 f.write(new_readme)
             print("✅ Main README.md targets updated successfully.")
             
-    # 2. Update Complete Archive Log Document File
+    # 2. Update comprehensive historical archive log
     archive_md = []
     archive_md.append("# Master LinkedIn Certifications History Log\n")
     archive_md.append(f"Historical record cataloging all {total_certs} verified external professional credentials.\n\n")
-    archive_md.append("| Date Issued | Certification Title | Issuing Authority | Expiry Date | Verification Reference |")
-    archive_md.append("| :---: | :--- | :--- | :---: | :--- |")
+    archive_md.append("| Date Completed | Certification Title | Issuing Authority | Verification Reference |")
+    archive_md.append("| :---: | :--- | :--- | :--- |")
     
     for c in certs:
         clean_name = c['name'].replace("|", "\\|")
         clean_auth = c['authority'].replace("|", "\\|")
-        expiry_display = c['expiry'] if c['expiry'] != "N/A" else "-"
         ref = f"[Verify Record]({c['url']})" if c['url'] else (c['license'] if c['license'] else "Verified Account Entry")
-        archive_md.append(f"| {c['issued']} | **{clean_name}** | {clean_auth} | {expiry_display} | {ref} |")
+        archive_md.append(f"| {c['issued']} | **{clean_name}** | {clean_auth} | {ref} |")
         
     archive_md.append("\n\n[← Back to README](../README.md)\n")
     
