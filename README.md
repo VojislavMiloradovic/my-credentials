@@ -10,13 +10,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
-- **Total Experience Points (XP):** 5,857,975
+- **Total Experience Points (XP):** 5,870,650
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,823
-- **Trophies Earned (Profile):** 893
-- **Completed Learning Paths (Active Tracker):** 503
-- **Completed Modules (Active Tracker):** 2,565
-- **Completed Individual Units:** 34,791
+- **Badges Earned (Profile):** 3,827
+- **Trophies Earned (Profile):** 897
+- **Completed Learning Paths (Active Tracker):** 507
+- **Completed Modules (Active Tracker):** 2,574
+- **Completed Individual Units:** 34,857
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -27,18 +27,18 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing the latest 10 of 4,716 total achievements. The complete list is fully archived and searchable in our [complete achievements archive](./archives/microsoft-learn.md).
+Showing the latest 10 of 4,724 total achievements. The complete list is fully archived and searchable in our [complete achievements archive](./archives/microsoft-learn.md).
 
-- **Customize a canvas app in Power Apps** (Modules | Earned: 2026-07-17 | [Verify Credential](https://learn.microsoft.com/training/modules/customize-apps-in-powerapps/))
-- **Learn the basics of Power BI Desktop, Power Automate, and PowerApps** (Learningpaths | Earned: 2026-07-17 | [Verify Credential](https://learn.microsoft.com/training/paths/power-platform-introduction/))
-- **Get started with Power Apps canvas apps** (Modules | Earned: 2026-07-17 | [Verify Credential](https://learn.microsoft.com/training/modules/get-started-with-powerapps/))
-- **Define and create business rules in Dataverse** (Modules | Earned: 2026-07-17 | [Verify Credential](https://learn.microsoft.com/training/modules/define-create-business-rules/))
-- **Design a single-domain Active Directory forest** (Modules | Earned: 2026-07-17 | [Verify Credential](https://learn.microsoft.com/training/modules/design-single-domain-active-directory-forest/))
-- **Design a multi-domain Active Directory forest** (Modules | Earned: 2026-07-17 | [Verify Credential](https://learn.microsoft.com/training/modules/design-multi-domain-forest-trust/))
-- **Get started with 5G on Surface for Business devices** (Modules | Earned: 2026-07-15 | [Verify Credential](https://learn.microsoft.com/training/modules/surface-5g/))
-- **Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/automate-identity-lifecycle-workflows/))
-- **Analyze requirements for AI-powered business solutions** (Modules | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/modules/analyze-requirements-ai-powered-business-solutions/))
-- **Architect AI solutions for business productivity** (Learningpaths | Earned: 2026-07-14 | [Verify Credential](https://learn.microsoft.com/training/paths/architect-agentic-ai-business-solutions/))
+- **Craft effective prompts in Microsoft 365 Copilot** (Modules | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/modules/craft-effective-prompts-copilot/))
+- **MS-4021 Copilot Immersion Experience** (Learningpaths | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/paths/copilot-immersion-experience/))
+- **Get started with the Dynamics 365 Sales mobile app** (Modules | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/modules/get-started-sales-mobile-app/))
+- **Generate and qualify leads using AI in Dynamics 365 Sales** (Learningpaths | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/paths/generate-qualify-leads-ai-sales/))
+- **Engage with customers through text messages in Dynamics 365 Sales** (Modules | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/modules/engage-customers-text-messages/))
+- **Set up and configure Dynamics 365 Sales** (Modules | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/modules/configure-dynamics-365-sales/))
+- **Configure Dynamics 365 Sales for AI-powered selling** (Learningpaths | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/paths/configure-sales-ai-selling/))
+- **Get started with Dynamics 365 Sales** (Modules | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/modules/sales-get-started/))
+- **Create powerful customer experiences for organizations with Dynamics 365 apps** (Modules | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/modules/create-powerful-customer-experiences-organizations/))
+- **Secure Windows Server on-premises and hybrid infrastructures** (Learningpaths | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/paths/secure-windows-server-premises-hybrid-infrastructures/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials
