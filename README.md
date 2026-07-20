@@ -127,24 +127,24 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 <!-- CREDLY_BADGES_START -->
 ### Credly Verified Credentials
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)  
-**Total Portfolio Credentials:** 428 (405 Credly Verified, 23 External/Imported)  
-**Total Verified Skills Mapped:** 1720
+**Total Portfolio Credentials:** 432 (409 Credly Verified, 23 External/Imported)  
+**Total Verified Skills Mapped:** 1732
 
 #### Latest Earned Credentials
 | Date Earned | Credential Name | Issuer | Verification Type |
 |:---:|---|---|:---:|
 | *2026-07-20* | **Acronis Cyber Protect – Sales Pro** | issued by Acronis | `Credly Verified` |
+| *2026-07-20* | **Acronis Cyber Protect – Tech Pro** | issued by Acronis | `Credly Verified` |
+| *2026-07-20* | **Building AI Agents with MongoDB** | issued by MongoDB | `Credly Verified` |
+| *2026-07-20* | **CRUD Operations in MongoDB** | issued by MongoDB | `Credly Verified` |
+| *2026-07-20* | **Foundations of AI Security** | issued by AttackIQ | `Credly Verified` |
 | *2026-07-20* | **Introduction to EASY Framework for Threat Intelligence** | issued by AttackIQ | `Credly Verified` |
 | *2026-07-19* | **Secure Software Delivery Skill Badge** | issued by Google Cloud | `Credly Verified` |
 | *2026-07-17* | **BDR Basic Course** | issued by Acronis | `Credly Verified` |
 | *2026-07-17* | **Building RAG Apps Using MongoDB** | issued by MongoDB | `Credly Verified` |
 | *2026-07-17* | **Top ATT&CK Techniques** | issued by AttackIQ | `Credly Verified` |
-| *2026-07-16* | **Build a Data Mesh with Dataplex Skill Badge** | issued by Google Cloud | `Credly Verified` |
-| *2026-07-15* | **AWS Educate Getting Started with Storage - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` |
-| *2026-07-15* | **Building AI-Powered Search with MongoDB Vector Search** | issued by MongoDB | `Credly Verified` |
-| *2026-07-15* | **Cloud Tech Professional Disaster Recovery** | issued by Acronis | `Credly Verified` |
 
-👉 **[View all 428 credentials and 1720 verified skills in the full archive](./archives/credly-badges.md)**
+👉 **[View all 432 credentials and 1732 verified skills in the full archive](./archives/credly-badges.md)**
 
 <!-- CREDLY_BADGES_END -->
 
