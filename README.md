@@ -86,8 +86,8 @@ Showing the latest 10 of 4,716 total achievements. The complete list is fully ar
 #### Platform Progress Summary
 | Metric | Count |
 | :--- | :--- |
-| **Total Completed Activities** | 435 |
-| **Digital Courses** | 390 |
+| **Total Completed Activities** | 443 |
+| **Digital Courses** | 398 |
 | **Self-Paced Builder Labs** | 13 |
 | **In-Game Simulations (Cloud Quest)** | 32 |
 
@@ -108,16 +108,16 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 
 | Activity Title | Type | Date Completed | Duration |
 | :--- | :--- | :--- | :--- |
+| **AWS CodeArtifact Getting Started** | Digital Course | *2026-07-20* | 1 hour 30 minutes |
+| **AWS CodeDeploy Getting Started** | Digital Course | *2026-07-20* | 2 hours |
+| **AWS for SAP - Generative AI Fundamentals** | Digital Course | *2026-07-20* | 1 hour 15 minutes |
+| **AWS Lake Formation Getting Started** | Digital Course | *2026-07-20* | 1 hour 30 minutes |
+| **Exploring Amazon Nova models using Amazon Bedrock** | Digital Course | *2026-07-20* | 2 hours |
+| **Getting Started with Amazon Verified Permissions** | Digital Course | *2026-07-20* | 1 hour 30 minutes |
+| **Introduction to Amazon Connect Decisions** | Digital Course | *2026-07-20* | 1 hour 30 minutes |
+| **Using AWS Solutions: AWS Cloud Migration Factory** | Digital Course | *2026-07-20* | 1 hour 30 minutes |
 | **AWS Batch Getting Started** | Digital Course | *2026-07-17* | 1 hour 30 minutes |
 | **AWS Cloud Practitioner Power Hour - Overview and Cloud Concepts** | Digital Course | *2026-07-17* | 1 hour 30 minutes |
-| **AWS File Storage Services Getting Started** | Digital Course | *2026-07-17* | 1 hour 55 minutes |
-| **Getting Started with AWS Auto Scaling** | Digital Course | *2026-07-17* | 1 hour 30 minutes |
-| **Instance Isolation with Elastic Network Interfaces** | Digital Course | *2026-07-17* | 1 hour 10 minutes |
-| **AgentCore Evaluation on Amazon Bedrock** | Digital Course | *2026-07-16* | 1 hour 15 minutes |
-| **Amazon Aurora Service Primer** | Digital Course | *2026-07-16* | 20 minutes |
-| **Amazon Keyspaces Getting Started** | Digital Course | *2026-07-16* | 1 hour |
-| **Amazon Neptune Getting Started** | Digital Course | *2026-07-16* | 1 hour |
-| **Amazon Redshift Service Primer** | Digital Course | *2026-07-16* | 20 minutes |
 
 <!-- AWS_SKILLS_END -->
 

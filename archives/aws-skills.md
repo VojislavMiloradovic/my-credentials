@@ -1,9 +1,17 @@
 # Complete AWS Skill Builder Achievements Archive
 
-This document contains a complete, historical audit trail of all 435 AWS learning items, digital courses, games, and labs completed on AWS Skill Builder.
+This document contains a complete, historical audit trail of all 443 AWS learning items, digital courses, games, and labs completed on AWS Skill Builder.
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| AWS CodeArtifact Getting Started | Digital Course | 2026-07-20 | 1 hour 30 minutes | 🎓 Available on Profile |
+| AWS CodeDeploy Getting Started | Digital Course | 2026-07-20 | 2 hours | 🎓 Available on Profile |
+| AWS for SAP - Generative AI Fundamentals | Digital Course | 2026-07-20 | 1 hour 15 minutes | 🎓 Available on Profile |
+| AWS Lake Formation Getting Started | Digital Course | 2026-07-20 | 1 hour 30 minutes | 🎓 Available on Profile |
+| Exploring Amazon Nova models using Amazon Bedrock | Digital Course | 2026-07-20 | 2 hours | 🎓 Available on Profile |
+| Getting Started with Amazon Verified Permissions | Digital Course | 2026-07-20 | 1 hour 30 minutes | 🎓 Available on Profile |
+| Introduction to Amazon Connect Decisions | Digital Course | 2026-07-20 | 1 hour 30 minutes | 🎓 Available on Profile |
+| Using AWS Solutions: AWS Cloud Migration Factory | Digital Course | 2026-07-20 | 1 hour 30 minutes | 🎓 Available on Profile |
 | AWS Batch Getting Started | Digital Course | 2026-07-17 | 1 hour 30 minutes | 🎓 Available on Profile |
 | AWS Cloud Practitioner Power Hour - Overview and Cloud Concepts | Digital Course | 2026-07-17 | 1 hour 30 minutes | 🎓 Available on Profile |
 | AWS File Storage Services Getting Started | Digital Course | 2026-07-17 | 1 hour 55 minutes | 🎓 Available on Profile |
