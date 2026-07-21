@@ -4,14 +4,12 @@ import re
 import sys
 from datetime import datetime
 
-# File Paths
 README_PATH = "README.md"
 AWS_ACHIEVEMENTS_PATH = "archives/aws-skills.md" 
 
 MARKER_START = "<!-- AWS_SKILLS_START -->"
 MARKER_END = "<!-- AWS_SKILLS_END -->"
 
-# --- 1. AWS CLOUD QUEST & SIMULEARN STATS ---
 CLOUD_QUEST_STATS = {
     "Builder Level": 12,
     "Reputation Level": 95,
@@ -22,11 +20,9 @@ CLOUD_QUEST_STATS = {
 }
 
 def normalize_header(header):
-    """Clean headers to easily find matching fields despite capitalization or extra spaces."""
     return "".join(header.lower().split()).replace("_", "").replace("-", "")
 
 def find_column_indices(headers):
-    """Dynamically map column headers to standard fields."""
     mapping = {"title": None, "date": None, "type": None, "duration": None}
     
     for i, h in enumerate(headers):
@@ -53,15 +49,14 @@ def find_column_indices(headers):
     return mapping
 
 def parse_csv_date(date_str):
-    """Standardize different CSV date strings into ISO format (YYYY-MM-DD)."""
+    """Standardize CSV date strings into strict ISO formats (YYYY-MM-DD or YYYY-MM)."""
     if not date_str:
-        return ""
+        return "N/A"
     
-    # Clean up double spaces or trailing periods if any
     cleaned_date = re.sub(r'\s+', ' ', date_str.strip())
     
-    # Added %B for full month names (e.g., "March 9, 2026")
-    formats = (
+    # Check YYYY-MM-DD formats first
+    full_formats = (
         "%Y-%m-%d", 
         "%B %d, %Y", 
         "%b %d, %Y", 
@@ -70,18 +65,23 @@ def parse_csv_date(date_str):
         "%Y-%m-%dT%H:%M:%S", 
         "%d.%m.%Y"
     )
-    
-    for fmt in formats:
+    for fmt in full_formats:
         try:
             return datetime.strptime(cleaned_date, fmt).strftime("%Y-%m-%d")
         except ValueError:
             continue
+
+    # Check YYYY-MM formats if day is missing
+    month_formats = ("%B %Y", "%b %Y", "%Y-%m")
+    for fmt in month_formats:
+        try:
+            return datetime.strptime(cleaned_date, fmt).strftime("%Y-%m")
+        except ValueError:
+            continue
             
-    print(f"⚠️ Warning: Could not parse date format for value: '{date_str}'")
     return date_str.strip()
 
 def is_garbage_row(title):
-    """Identify and filter out metadata, headers, or footers parsed as courses."""
     title_lower = title.lower().strip()
     if not title_lower:
         return True
@@ -118,14 +118,8 @@ def main():
         print("❌ Error: AWS Training CSV file not found!")
         sys.exit(1)
 
-    print(f"✅ Found AWS data file at: {csv_path}")
-
-    try:
-        with open(csv_path, "r", encoding="utf-8-sig") as f:
-            lines = f.readlines()
-    except Exception as e:
-        print(f"❌ Error reading CSV file: {e}")
-        sys.exit(1)
+    with open(csv_path, "r", encoding="utf-8-sig") as f:
+        lines = f.readlines()
 
     header_idx = -1
     delimiter = ","
@@ -147,29 +141,19 @@ def main():
                 break
                 
     if header_idx == -1:
-        print("❌ Error: Could not locate table headers in CSV.")
         sys.exit(1)
-
-    print(f"ℹ️ Actual table headers found on Line {header_idx + 1}. Using delimiter: '{delimiter}'")
 
     clean_csv_lines = lines[header_idx:]
     reader = csv.reader(clean_csv_lines, delimiter=delimiter)
-    
-    try:
-        headers = next(reader)
-    except StopIteration:
-        print("❌ Error: Header parsing failed.")
-        sys.exit(1)
-
+    headers = next(reader)
     col_map = find_column_indices(headers)
-    print(f"ℹ️ Column Mapping -> Title: {col_map['title']}, Date: {col_map['date']}, Type: {col_map['type']}, Duration: {col_map['duration']}")
 
     activities = []
     courses_count = 0
     labs_count = 0
     games_count = 0
 
-    for row_num, row in enumerate(reader, start=header_idx + 2):
+    for row in reader:
         if not row:
             continue
             
@@ -178,7 +162,6 @@ def main():
             continue
             
         title = row[col_map["title"]].strip()
-        
         if is_garbage_row(title):
             continue
             
@@ -210,13 +193,9 @@ def main():
             "duration": duration
         })
 
-    print(f"✅ Successfully parsed {len(activities)} valid AWS activities.")
-
-    # Sort achievements correctly now that dates are standardized into YYYY-MM-DD strings
     activities.sort(key=lambda x: x["date"] or "0000-00-00", reverse=True)
     total_completions = len(activities)
 
-    # 4. Build Markdown Summary for the README.md
     md = []
     md.append("### AWS Skill Builder Summary")
     md.append(f"**Public Profile:** [Verify AWS Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)  \n")
@@ -242,11 +221,9 @@ def main():
     md.append("| Activity Title | Type | Date Completed | Duration |")
     md.append("| :--- | :--- | :--- | :--- |")
     for act in activities[:10]:
-        # Enforcing consistent ISO date display in README.md matches your Credly section
         md.append(f"| **{act['title']}** | {act['type']} | *{act['date']}* | {act['duration']} |")
     md.append("\n")
 
-    # Update README.md
     if os.path.exists(README_PATH):
         with open(README_PATH, "r", encoding="utf-8") as f:
             readme_content = f.read()
@@ -257,19 +234,10 @@ def main():
             new_readme = f"{parts_before}{MARKER_START}\n" + "\n".join(md) + f"{MARKER_END}{parts_after}"
             with open(README_PATH, "w", encoding="utf-8") as f:
                 f.write(new_readme)
-            print("✅ Successfully updated README.md with clean AWS data!")
-        else:
-            print("❌ Error: Could not find AWS HTML tags in README.md.")
-            sys.exit(1)
-    else:
-        print("❌ Error: README.md not found.")
-        sys.exit(1)
 
-    # 5. Write Complete Log to archives/aws-skills.md
-    print(f"Generating complete AWS archive in {AWS_ACHIEVEMENTS_PATH}...")
     archive_md = []
     archive_md.append("# Complete AWS Skill Builder Achievements Archive\n")
-    archive_md.append(f"This document contains a complete, historical audit trail of all {total_completions} AWS learning items, digital courses, games, and labs completed on AWS Skill Builder.\n")
+    archive_md.append(f"This document contains a complete, historical audit trail of all {total_completions} AWS learning items completed on AWS Skill Builder.\n")
     archive_md.append("| Activity Title | Type | Date Completed | Duration | Certificate |")
     archive_md.append("| :--- | :--- | :--- | :--- | :--- |")
 
@@ -282,7 +250,6 @@ def main():
     os.makedirs(os.path.dirname(AWS_ACHIEVEMENTS_PATH), exist_ok=True)
     with open(AWS_ACHIEVEMENTS_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(archive_md))
-    print("✅ Complete AWS Archive updated successfully!")
 
 if __name__ == "__main__":
     main()
