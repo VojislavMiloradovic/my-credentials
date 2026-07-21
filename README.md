@@ -144,7 +144,7 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 | *2026-07-17* | **BDR Basic Course** | issued by Acronis | `Credly Verified` |
 | *2026-07-17* | **Building RAG Apps Using MongoDB** | issued by MongoDB | `Credly Verified` |
 
-👉 **[View all 433 credentials and 1733 verified skills in the full archive](./archives/credly-badges.md)**
+👉 **[View Platform Index](./archives/credly-badges-index.md)** ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md) | [Complete Monolith](./archives/credly-badges-complete.md))
 
 <!-- CREDLY_BADGES_END -->
 
