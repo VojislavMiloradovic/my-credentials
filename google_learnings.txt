@@ -870,8 +870,14 @@ Practice: Classes and Collections
 Debugging the Smart Home
 18. мај 2026.
 
+Build and publish your first Android app with AI Studio
+21. јул 2026.
+
 Deploying and Running n8n on Google Cloud Run
 23. мај 2026.
+
+Supercharge Code Quality and Security: AI-Assisted Checks with Antigravity CLI and SDK
+21. јул 2026.
 
 Cloud Spanner: Create a gaming leaderboard with C#
 9. јун 2026.
@@ -2301,6 +2307,9 @@ Triggering Event Processing from Cloud Storage using Eventarc and Cloud Run func
 Protect your app from abuse with App Check quiz
 3. јун 2026.
 
+Build a Zero-Code Multi-Agent System with Agent Studio
+21. јул 2026.
+
 Create an iOS app to predict values
 5. јун 2026.
 
@@ -2772,7 +2781,7 @@ Build an Event-Driven Data Agent with BigQuery and ADK
 Build an event-driven orchestration with Eventarc and Workflows
 20. јун 2026.
 
-Learn how to implement Sign in With Google on your Android app
+Learn how to implement Sign in with Google in your Android app
 7. јун 2026.
 
 Build a Slack bot with Node.js on Cloud Run
