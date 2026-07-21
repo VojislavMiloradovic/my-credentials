@@ -1,11 +1,15 @@
 import json
 import os
 import re
+import glob
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
 URL = "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b"
+ARCHIVE_DIR = "archives"
+PLATFORM_PREFIX = "google-cloud-skills"
+RAW_BASE = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
 
 INTERNAL_STATS = {
     "Course": 331,
@@ -17,21 +21,17 @@ INTERNAL_STATS = {
 }
 
 def to_iso_date(raw_date_str):
-    """Converts strings like 'Earned Jul 21, 2026 EDT' into strict ISO format (YYYY-MM-DD or YYYY-MM)."""
     if not raw_date_str:
         return "N/A"
-    
     clean = re.sub(r'^Earned\s+', '', raw_date_str, flags=re.IGNORECASE)
     clean = re.sub(r'\s+[A-Z]{3,4}$', '', clean).strip()
     
-    # Try YYYY-MM-DD parsing
     for fmt in ("%b %d, %Y", "%B %d, %Y", "%Y-%m-%d"):
         try:
             return datetime.strptime(clean, fmt).strftime("%Y-%m-%d")
         except ValueError:
             continue
             
-    # Try YYYY-MM parsing
     for fmt in ("%b %Y", "%B %Y", "%Y-%m"):
         try:
             return datetime.strptime(clean, fmt).strftime("%Y-%m")
@@ -43,16 +43,21 @@ def to_iso_date(raw_date_str):
 def parse_badge_text(raw_text):
     if not raw_text:
         return "Unknown Badge", "N/A"
-    
     text = re.sub(r'\s+', ' ', raw_text).strip()
     match = re.search(r"^(.*?)(Earned\s+[A-Za-z]{3}\s+\d{1,2},\s+\d{4}.*)$", text)
-    
     if match:
         title = match.group(1).strip()
         raw_date = match.group(2).strip()
         return title, to_iso_date(raw_date)
-    
     return text, "N/A"
+
+def clean_old_chunks():
+    pattern = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-*-part-*.md")
+    for f in glob.glob(pattern):
+        try:
+            os.remove(f)
+        except OSError:
+            pass
 
 def fetch_skills():
     headers = {
@@ -134,22 +139,132 @@ def fetch_skills():
     update_readme_and_archive(unique_badges, total_points)
 
 def update_readme_and_archive(badges, total_points):
-    os.makedirs("archives", exist_ok=True)
+    os.makedirs(ARCHIVE_DIR, exist_ok=True)
+    clean_old_chunks()
     
-    archive_path = "archives/google-cloud-skills.md"
-    archive_md = f"# Google Cloud Skills Boost — Full Credentials Archive\n\n"
-    archive_md += f"**Public Profile:** [Verify Profile]({URL})  \n"
-    archive_md += f"**Total Lifetime Points:** {total_points}  \n"
-    archive_md += f"**Total Badges:** {len(badges)}\n\n"
-    archive_md += "#### All Earned Badges\n"
-    archive_md += "| Date Earned | Badge Title |\n|:---:|---|\n"
-    for b in badges:
-        archive_md += f"| {b['date_earned']} | **{b['title']}** |\n"
-    archive_md += "\n\n[← Back to README](../README.md)\n"
-    
-    with open(archive_path, "w", encoding="utf-8") as f:
-        f.write(archive_md)
+    now_ym = datetime.now().strftime("%Y-%m")
 
+    # 1. Monolithic Complete File
+    monolith_filename = f"{PLATFORM_PREFIX}-complete.md"
+    monolith_path = os.path.join(ARCHIVE_DIR, monolith_filename)
+    
+    mono_md = f"# Google Cloud Skills Boost — Full Credentials Archive\n\n"
+    mono_md += f"**Public Profile:** [Verify Profile]({URL})  \n"
+    mono_md += f"**Total Lifetime Points:** {total_points}  \n"
+    mono_md += f"**Total Badges:** {len(badges)}\n\n"
+    mono_md += "#### All Earned Badges\n"
+    mono_md += "| Date Earned | Badge Title |\n|:---:|---|\n"
+    
+    formatted_rows = []
+    for b in badges:
+        row = f"| {b['date_earned']} | **{b['title']}** |"
+        formatted_rows.append((row, b['date_earned']))
+        mono_md += f"{row}\n"
+        
+    mono_md += f"\n\n[← Back to Index](./{PLATFORM_PREFIX}-index.md) | [← README](../README.md)\n"
+    
+    with open(monolith_path, "w", encoding="utf-8") as f:
+        f.write(mono_md)
+
+    # 2. Chunking Logic (~10 KB per chunk)
+    chunks = []
+    current_chunk_rows = []
+    current_chunk_bytes = 0
+    MAX_BYTES = 9500
+
+    for row_text, row_date in formatted_rows:
+        row_len = len(row_text.encode("utf-8")) + 1
+        if current_chunk_bytes + row_len > MAX_BYTES and current_chunk_rows:
+            chunks.append(current_chunk_rows)
+            current_chunk_rows = []
+            current_chunk_bytes = 0
+        current_chunk_rows.append((row_text, row_date))
+        current_chunk_bytes += row_len
+    if current_chunk_rows:
+        chunks.append(current_chunk_rows)
+
+    total_chunks = len(chunks)
+    chunk_meta = []
+
+    for i, chunk_rows in enumerate(chunks, start=1):
+        chunk_filename = f"{PLATFORM_PREFIX}-{now_ym}-part-{i:02d}.md"
+        chunk_path = os.path.join(ARCHIVE_DIR, chunk_filename)
+        
+        start_date = chunk_rows[-1][1]
+        end_date = chunk_rows[0][1]
+        
+        prev_link = f"[{PLATFORM_PREFIX}-{now_ym}-part-{i-1:02d}.md]({PLATFORM_PREFIX}-{now_ym}-part-{i-1:02d}.md)" if i > 1 else "None"
+        next_link = f"[{PLATFORM_PREFIX}-{now_ym}-part-{i+1:02d}.md]({PLATFORM_PREFIX}-{now_ym}-part-{i+1:02d}.md)" if i < total_chunks else "None"
+        
+        c_md = []
+        c_md.append("---")
+        c_md.append(f"archive_platform: Google Cloud Skills Boost")
+        c_md.append(f"chunk_part: {i} of {total_chunks}")
+        c_md.append(f"date_range: {start_date} to {end_date}")
+        c_md.append(f"total_entries: {len(chunk_rows)}")
+        c_md.append(f"raw_url: {RAW_BASE}/{chunk_filename}")
+        c_md.append("---\n")
+        
+        c_md.append(f"# Google Cloud Skills — Part {i:02d}\n")
+        c_md.append(f"> **Navigation:** Prev: {prev_link} | [Index](./{PLATFORM_PREFIX}-index.md) | Next: {next_link} | [Complete Archive](./{monolith_filename})\n")
+        c_md.append("| Date Earned | Badge Title |")
+        c_md.append("| :---: | :--- |")
+        
+        for r_text, _ in chunk_rows:
+            c_md.append(r_text)
+            
+        c_md.append(f"\n---\n> **Navigation:** Prev: {prev_link} | [Index](./{PLATFORM_PREFIX}-index.md) | Next: {next_link}\n")
+        
+        content = "\n".join(c_md)
+        with open(chunk_path, "w", encoding="utf-8") as f:
+            f.write(content)
+            
+        file_size_kb = round(len(content.encode("utf-8")) / 1024, 2)
+        est_tokens = int(len(content) / 4)
+        chunk_meta.append({
+            "filename": chunk_filename,
+            "part": i,
+            "date_range": f"{start_date} to {end_date}",
+            "size_kb": file_size_kb,
+            "tokens": est_tokens,
+            "entries": len(chunk_rows),
+            "raw_url": f"{RAW_BASE}/{chunk_filename}"
+        })
+
+    # 3. Master Platform Index File
+    index_filename = f"{PLATFORM_PREFIX}-index.md"
+    index_path = os.path.join(ARCHIVE_DIR, index_filename)
+    
+    mono_bytes = os.path.getsize(monolith_path) if os.path.exists(monolith_path) else 0
+    mono_kb = round(mono_bytes / 1024, 2)
+    mono_tokens = int(mono_bytes / 4)
+
+    idx_md = []
+    idx_md.append(f"# Google Cloud Skills Archive Index\n")
+    idx_md.append(f"This directory provides chunked, AI-readable historical records for Google Cloud Skills Boost badges.\n")
+    idx_md.append(f"## Archive Overview\n")
+    idx_md.append(f"- **Total Badges Archived:** {len(badges)}")
+    idx_md.append(f"- **Monolithic File Size:** ~{mono_kb} KB (~{mono_tokens:,} tokens)")
+    idx_md.append(f"- **Total Chunk Parts:** {total_chunks} chunk(s)\n")
+    
+    idx_md.append(f"### Monolithic Archive (Complete)\n")
+    idx_md.append(f"| File Name | Size (KB) | Est. Tokens | Recommended For | Direct Raw URL |")
+    idx_md.append(f"| :--- | :---: | :---: | :--- | :--- |")
+    idx_md.append(f"| [`{monolith_filename}`](./{monolith_filename}) | {mono_kb} KB | ~{mono_tokens:,} | Large Context Windows (>100k tokens) | [Raw Link]({RAW_BASE}/{monolith_filename}) |\n")
+    
+    idx_md.append(f"### Chunked Archive Parts (~10 KB Slices)\n")
+    idx_md.append(f"| Part | File Name | Date Range | Entries | Size (KB) | Est. Tokens | Direct Raw URL |")
+    idx_md.append(f"| :---: | :--- | :---: | :---: | :---: | :---: | :--- |")
+    
+    for cm in chunk_meta:
+        idx_md.append(f"| Part {cm['part']:02d} | [`{cm['filename']}`](./{cm['filename']}) | `{cm['date_range']}` | {cm['entries']} | {cm['size_kb']} KB | ~{cm['tokens']} | [Raw URL]({cm['raw_url']}) |")
+
+    idx_md.append(f"\n\n[← Back to Main README](../README.md)\n")
+    
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(idx_md))
+
+    # 4. Update README.md
     try:
         with open("README.md", "r", encoding="utf-8") as f:
             readme_content = f.read()
@@ -166,6 +281,9 @@ def update_readme_and_archive(badges, total_points):
         badge_md += f"| **{metric}** | {count:,} |\n"
     badge_md += "\n"
 
+    latest_chunk_raw = chunk_meta[0]['raw_url'] if chunk_meta else f"{RAW_BASE}/{monolith_filename}"
+    index_raw = f"{RAW_BASE}/{index_filename}"
+
     if not badges:
         badge_md += "*No Google Skills badges detected dynamically yet (checking daily).*\n"
     else:
@@ -174,7 +292,7 @@ def update_readme_and_archive(badges, total_points):
         for b in badges[:10]:
             badge_md += f"| *{b['date_earned']}* | **{b['title']}** |\n"
         badge_md += "\n"
-        badge_md += f"👉 **[View all {len(badges)} earned badges in the full archive](./archives/google-cloud-skills.md)**\n\n"
+        badge_md += f"👉 **[View Platform Index](./archives/{index_filename})** ([Raw Index]({index_raw}) | [Part 01 Raw]({latest_chunk_raw}) | [Complete Monolith](./archives/{monolith_filename}))\n\n"
 
     start_tag = "<!-- GOOGLE_SKILLS_START -->"
     end_tag = "<!-- GOOGLE_SKILLS_END -->"
