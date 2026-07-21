@@ -73,7 +73,7 @@ Showing the latest 10 of 4,724 total achievements. The complete list is fully ar
 | *2026-07-10* | **Build a Data Warehouse with BigQuery** |
 | *2026-07-08* | **Arcade Trail: Google Workspace Administration** |
 
-👉 **[View all 329 earned badges in the full archive](./archives/google-cloud-skills.md)**
+👉 **[View Platform Index](./archives/google-cloud-skills-index.md)** ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-01.md) | [Complete Monolith](./archives/google-cloud-skills-complete.md))
 
 <!-- GOOGLE_SKILLS_END -->
 
