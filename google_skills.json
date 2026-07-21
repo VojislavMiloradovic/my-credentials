@@ -1,6 +1,6 @@
 {
   "profile_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_points": "188,439",
+  "total_points": "188,447",
   "internal_stats": {
     "Course": 331,
     "Check": 1769,
@@ -9,8 +9,14 @@
     "Lab": 223,
     "Lesson": 4830
   },
-  "total_badges": 328,
+  "total_badges": 329,
   "badges": [
+    {
+      "title": "Build Serverless Applications with Cloud Run Functions",
+      "date_earned": "Earned Jul 21, 2026",
+      "image_url": "https://cdn.qwiklabs.com/%2Ff3SH1GNwC%2FfixyFGKxWzLPoCWJaYgPIZn9VFiePj6Q%3D",
+      "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25752565"
+    },
     {
       "title": "Secure Software Delivery",
       "date_earned": "Earned Jul 19, 2026",

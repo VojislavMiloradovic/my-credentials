@@ -1,12 +1,13 @@
 # Google Cloud Skills Boost — Full Credentials Archive
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
-**Total Lifetime Points:** 188,439  
-**Total Badges:** 328
+**Total Lifetime Points:** 188,447  
+**Total Badges:** 329
 
 #### All Earned Badges
 | Date Earned | Badge Title |
 |:---:|---|
+| *Earned Jul 21, 2026* | **Build Serverless Applications with Cloud Run Functions** |
 | *Earned Jul 19, 2026* | **Secure Software Delivery** |
 | *Earned Jul 19, 2026* | **Arcade Base Camp July 2026** |
 | *Earned Jul 16, 2026* | **Build a Data Mesh with Knowledge Catalog** |
