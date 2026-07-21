@@ -13,7 +13,6 @@ LEARNINGS_TXT_PATH = "data/google_learnings.txt"
 MARKER_START = "<!-- GOOGLE_DEVELOPER_START -->"
 MARKER_END = "<!-- GOOGLE_DEVELOPER_END -->"
 
-# Cyrillic locale mapper to standardize dates into pure ISO formats
 SERBIAN_MONTHS = {
     'јан': '01', 'јануар': '01', 'јануара': '01',
     'феб': '02', 'фебруар': '02', 'фебруара': '02',
@@ -30,11 +29,9 @@ SERBIAN_MONTHS = {
 }
 
 def parse_local_learnings_txt():
-    """Parses raw text pasted from the Google Developer learnings subpage."""
     if not os.path.exists(LEARNINGS_TXT_PATH):
         return []
     
-    print(f"📂 Processing local activity file: {LEARNINGS_TXT_PATH}...")
     with open(LEARNINGS_TXT_PATH, "r", encoding="utf-8") as f:
         lines = [line.strip() for line in f.readlines() if line.strip()]
         
@@ -42,7 +39,6 @@ def parse_local_learnings_txt():
     i = 0
     while i < len(lines):
         line = lines[i]
-        # Regex to catch dates like "26. мај 2026." or "6. јун 2026."
         date_match = re.match(r'^(\d+)\.\s+([^\s\d]+)\s+(\d{4})\.?$', line)
         if date_match and i > 0:
             day = date_match.group(1).zfill(2)
@@ -57,7 +53,6 @@ def parse_local_learnings_txt():
                     
             iso_date = f"{year}-{month_num}-{day}"
             
-            # Extract title context while accounting for layout line shifts
             title = lines[i-1]
             if title in ["Учење", "check_circle_outline You have this badge!"] and i > 1:
                 title = lines[i-2]
@@ -73,14 +68,13 @@ def parse_local_learnings_txt():
     return learnings
 
 def analyze_badge_list(lst, parsed_badges):
-    """Deeply inspects an active data block list to extract paired award badges and timestamps."""
     strings = []
     numbers = []
     
     def walk(element):
         if isinstance(element, str):
             strings.append(element)
-            if element.isdigit():  # Fixes stringified integers from Google RPC response
+            if element.isdigit():
                 numbers.append(float(element))
         elif isinstance(element, (int, float)):
             numbers.append(element)
@@ -110,7 +104,7 @@ def analyze_badge_list(lst, parsed_badges):
     if epoch:
         try:
             date_str = datetime.fromtimestamp(epoch, tz=timezone.utc).strftime('%Y-%m-%d')
-        except:
+        except Exception:
             pass
             
     for award_str in award_strs:
@@ -177,7 +171,6 @@ def fetch_gdev_badges_rpc():
         "Referer": "https://developers.google.com/profile/u/vojislavmiloradovic"
     }
     
-    print(f"📡 Dispatching structured RPC batch execution request...")
     try:
         response = requests.post(url, params=params, data=payload, headers=headers, timeout=15)
         if response.status_code != 200:
@@ -198,9 +191,9 @@ def fetch_gdev_badges_rpc():
                                     try:
                                         badge_matrix = json.loads(element)
                                         find_badges_in_matrix(badge_matrix, parsed_badges)
-                                    except:
+                                    except Exception:
                                         pass
-                except:
+                except Exception:
                     continue
         return parsed_badges
     except Exception:
@@ -209,18 +202,15 @@ def fetch_gdev_badges_rpc():
 def main():
     public_badges = fetch_gdev_badges_rpc()
     if not public_badges:
-        print("❌ Error: Failed to extract structured badges via public RPC handshake.")
         sys.exit(1)
         
     total_public = len(public_badges)
     public_badges.sort(key=lambda x: x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00", reverse=True)
     
-    # Process local text dump file if populated by the user
     detailed_learnings = parse_local_learnings_txt()
     total_detailed = len(detailed_learnings)
     detailed_learnings.sort(key=lambda x: x.get("date", "0000-00-00"), reverse=True)
     
-    # Combined master list initialization for top 10 snapshot display logic
     combined_feed = []
     combined_feed.extend(public_badges)
     for dl in detailed_learnings:
@@ -228,7 +218,6 @@ def main():
             combined_feed.append(dl)
     combined_feed.sort(key=lambda x: x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00", reverse=True)
 
-    # 1. Update Main Repository README.md Container
     md = []
     md.append("### Google Developer Profile Summary")
     md.append("**Public Profile:** [Verify Developer Profile](https://g.dev/vojislavmiloradovic)  \n")
@@ -262,9 +251,7 @@ def main():
             new_readme = f"{parts_before}{MARKER_START}\n" + "\n".join(md) + f"{MARKER_END}{parts_after}"
             with open(README_PATH, "w", encoding="utf-8") as f:
                 f.write(new_readme)
-            print("✅ Main README.md container updated dynamically.")
 
-    # 2. Update Master Historical Archive Log File with separate layout blocks
     archive_md = []
     archive_md.append("# Complete Google Developer Badges Archive\n")
     archive_md.append(f"Historical verified record tracking all achievements.\n\n")
@@ -291,7 +278,6 @@ def main():
     os.makedirs(os.path.dirname(GDEV_ARCHIVE_PATH), exist_ok=True)
     with open(GDEV_ARCHIVE_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(archive_md))
-    print("✅ Comprehensive historical asset archive split and refreshed successfully!")
 
 if __name__ == "__main__":
     main()
