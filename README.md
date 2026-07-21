@@ -104,7 +104,7 @@ Showing the latest 10 of 4,724 total achievements. The complete list is fully ar
 
 
 #### Recent AWS Achievements
-Showing the latest 10 activities. See the complete log of completed trainings in our [AWS achievements archive](./archives/aws-skills.md).
+Showing latest 10 activities. View the full dataset via the [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md), or the [Monolithic Complete File](./archives/aws-skills-complete.md).
 
 | Activity Title | Type | Date Completed | Duration |
 | :--- | :--- | :--- | :--- |
