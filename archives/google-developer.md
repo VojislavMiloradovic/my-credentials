@@ -178,10 +178,13 @@ Historical verified record tracking all achievements.
 | 2026-06-05 | **Springboot** | Official Google Developer platform achievement (Learning Pathway: springboot). |
 | 2026-06-05 | **Intro To Flutter** | Official Google Developer platform achievement (Learning Pathway: intro to flutter). |
 
-## Detailed Learning Activities & Codelabs (1431)
+## Detailed Learning Activities & Codelabs (1434)
 
 | Date Earned | Codelab / Activity Title | Description |
 | :---: | :--- | :--- |
+| 2026-07-21 | **Build and publish your first Android app with AI Studio** | Verified Google Developer granular learning activity module milestone. |
+| 2026-07-21 | **Supercharge Code Quality and Security: AI-Assisted Checks with Antigravity CLI and SDK** | Verified Google Developer granular learning activity module milestone. |
+| 2026-07-21 | **Build a Zero-Code Multi-Agent System with Agent Studio** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-17 | **Plan and Build Apps with Conductor Plugin** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-14 | **Google Pay API: Vibe-code checkout page with MCP servers and Antigravity** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-14 | **Customer Identity Resolution with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
@@ -766,7 +769,7 @@ Historical verified record tracking all achievements.
 | 2026-06-07 | **Build multi-cluster GKE Inference Gateway, with TPUs , Cloud Storage FUSE and managed DRANET** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Cloud Spanner with Terraform** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Vertex AI: Hyperparameter Tuning** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Learn how to implement Sign in With Google on your Android app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Learn how to implement Sign in with Google in your Android app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Get started with Firebase in C++** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Vertex AI Vision Occupancy Analytics App With Event Management** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **External HTTPs LB with Advanced Traffic Management (Envoy) Codelab** | Verified Google Developer granular learning activity module milestone. |

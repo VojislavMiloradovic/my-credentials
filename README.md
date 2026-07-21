@@ -188,7 +188,7 @@ Showing the latest 10 items. View complete historical logs in [LinkedIn Certific
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 170 |
-| **Total Codelabs & Learning Activities** | 1,431 |
+| **Total Codelabs & Learning Activities** | 1,434 |
 
 
 #### Latest Achievements
@@ -196,6 +196,9 @@ Showing the latest 10 merged activities. View complete historical logs in [Googl
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| *2026-07-21* | **Build and publish your first Android app with AI Studio** | Verified Google Developer granular learning activity module milestone. |
+| *2026-07-21* | **Supercharge Code Quality and Security: AI-Assisted Checks with Antigravity CLI and SDK** | Verified Google Developer granular learning activity module milestone. |
+| *2026-07-21* | **Build a Zero-Code Multi-Agent System with Agent Studio** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-17* | **Plan and Build Apps with Conductor Plugin** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-14* | **Google Pay API: Vibe-code checkout page with MCP servers and Antigravity** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-14* | **Customer Identity Resolution with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
@@ -203,9 +206,6 @@ Showing the latest 10 merged activities. View complete historical logs in [Googl
 | *2026-07-10* | **Deploy your containerized agent on Agent Runtime** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-10* | **Evolve compiled code with AlphaEvolve on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-10* | **Get started with AlphaEvolve on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
-| *2026-07-10* | **Evolve LLM fine-tuning hyperparameters with AlphaEvolve on GKE** | Verified Google Developer granular learning activity module milestone. |
-| *2026-07-10* | **Launch your web-based video game with AI** | Verified Google Developer granular learning activity module milestone. |
-| *2026-07-09* | **Location-based features in Android** | Verified Google Developer granular learning activity module milestone. |
 
 <!-- GOOGLE_DEVELOPER_END -->
 
