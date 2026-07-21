@@ -27,7 +27,7 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing the latest 10 of 4,724 total achievements. The complete list is fully archived and searchable in our [complete achievements archive](./archives/microsoft-learn.md).
+Showing latest 10 of 4,724 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 - **Craft effective prompts in Microsoft 365 Copilot** (Modules | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/modules/craft-effective-prompts-copilot/))
 - **MS-4021 Copilot Immersion Experience** (Learningpaths | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/paths/copilot-immersion-experience/))
