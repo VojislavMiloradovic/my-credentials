@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 8 of 9
-date_range: 2026-04-10 to 2026-04-28
-total_entries: 49
+date_range: 2026-04-11 to 2026-04-28
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-08.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-04-28 | **Discovering the Environment - Health & Safety modules in SAP S/4HANA - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/be365a34-511e-41b3-8c57-59c6d7e311f2) |
 | 2026-04-28 | **Operating Systems Basics** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/fde02823-1e05-4382-a844-cdb966fb7c47) |
 | 2026-04-27 | **AI Fundamentals: Language and Vision in AI** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/df76354f-505a-4cbb-a33c-31dcac6a0e8e) |
 | 2026-04-27 | **Get Coding with Snap! - Building Up to AI - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/c3b1cde6-921c-45f5-8143-5465c7de9e6c) |
@@ -59,8 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-12 | **Make Agentic AI Work for You** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/0162b3cd-2bf0-4a6e-8335-3ece7487f265) |
 | 2026-04-11 | **AI for Networking** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/44ef5ed4-03e3-4047-b5c4-341d35a52ee7) |
 | 2026-04-11 | **Digital Mindset** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/c6b89299-f4da-4b4d-93de-a136065eee33) |
-| 2026-04-10 | **Administering SAP Sustainability Control Tower - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/7fe3c2ec-d068-4278-a1d6-e3ce744ac608) |
-| 2026-04-10 | **Create Your First Gemini Enterprise Application** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/f68cab03-5280-4436-bf1d-989b1bbc30c8) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-09.md](credly-badges-2026-07-part-09.md)

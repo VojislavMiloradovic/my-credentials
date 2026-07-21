@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 5 of 9
-date_range: 2026-05-22 to 2026-06-05
+date_range: 2026-05-23 to 2026-06-05
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-05.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-05 | **Preparing for SAS Viya Deployment** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/4af7b7bd-7dba-40ab-93b2-0890561ec829) |
 | 2026-06-05 | **SAS Analytics Pro: Deployment and Configuration** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/bb1c9967-6387-4a7f-b848-4dfdbb0ff2e1) |
 | 2026-06-05 | **SAS SQL Essentials Knowledge Badge** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/941d23c2-923c-43b8-9598-97e81961b113) |
 | 2026-06-05 | **SAS Viya Advanced Topics in Authentication - OIDC and SAML** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/7c025534-4c80-48de-a2e5-c0be01217e37) |
@@ -64,7 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-23 | **ZEDEDA Certified Edge Computing Associate (ZCEA)** | issued by ZEDEDA | `Credly Verified` | [Verify](https://www.credly.com/badges/26649e2a-0f74-463a-a67c-7796888e7477) |
 | 2026-05-23 | **ZEDEDA Edge Orchestration Essentials** | issued by ZEDEDA | `Credly Verified` | [Verify](https://www.credly.com/badges/d481756e-959f-471c-8d68-3f0ebd5d3775) |
 | 2026-05-23 | **Zendesk AI** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/bb199d4e-b23f-4d9a-866e-30894f16bce0) |
-| 2026-05-22 | **Advanced SAS Viya Customizations** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/d094444a-85eb-4889-bf7f-6345d541fe10) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md)

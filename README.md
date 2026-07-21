@@ -127,8 +127,8 @@ Showing latest 10 activities. View the full dataset via the [Platform Archive In
 <!-- CREDLY_BADGES_START -->
 ### Credly Verified Credentials
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)  
-**Total Portfolio Credentials:** 433 (410 Credly Verified, 23 External/Imported)  
-**Total Verified Skills Mapped:** 1733
+**Total Portfolio Credentials:** 434 (411 Credly Verified, 23 External/Imported)  
+**Total Verified Skills Mapped:** 1734
 
 #### Latest Earned Credentials
 | Date Earned | Credential Name | Issuer | Verification Type |

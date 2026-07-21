@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 6 of 9
-date_range: 2026-05-11 to 2026-05-22
+date_range: 2026-05-13 to 2026-05-22
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-06.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-05-22 | **Advanced SAS Viya Customizations** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/d094444a-85eb-4889-bf7f-6345d541fe10) |
 | 2026-05-22 | **Advanced Topics in Encryption on SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/de2613ac-bbe1-4354-b7c4-1feff6973aee) |
 | 2026-05-22 | **Alternative Methods for SAS Viya Deployment** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/b2b266a2-e5d8-4f66-bde8-d393798e262f) |
 | 2026-05-22 | **Explore Fashion Functions and Business Processes in SAP S/4HANA for Fashion and Vertical Business - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/8dd999cd-6dd2-4d3c-933d-fab1ee2d5672) |
@@ -61,7 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-13 | **Exploring the SAP Enterprise Architecture Framework Foundation - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/0c8bfe33-0de4-4a95-b445-5296b7c26fe4) |
 | 2026-05-13 | **Getting Started with Concur Invoice Standard Edition for Administrators - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/4400b51d-b867-40de-baa1-9ba06079b1e9) |
 | 2026-05-13 | **Getting Started with Web Development - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/c84a5ab3-92bb-46c7-bb07-9c679979d525) |
-| 2026-05-11 | **AI Everywhere - AI PCs** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/02330493-3ee5-46c5-b1f2-d62e5a3e770e) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md)

@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-13 | **LFS116: PyTorch and Deep Learning for Decision Makers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/d6f30813-946b-4574-ad72-b49738d949ed) |
 | 2026-06-13 | **LFS180: Introduction to DevSecOps for Managers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/49eca85f-9355-4b7c-8ce5-584c49d63fbe) |
 | 2026-06-13 | **Manage Users and Groups** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/ebd64f91-cf5d-4006-9e87-3d411d9760e5) |
 | 2026-06-13 | **Organize Users with Groups** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/1783bc8c-6c64-44b3-901c-95e0cfacac79) |
@@ -60,7 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **AWS Knowledge: Serverless - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/f9330cf1-b091-4b44-b8b1-31fc37561492) |
 | 2026-06-05 | **Integrate with Active Directory** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/8a2cdb72-66f2-4151-ac05-087b4eaa0986) |
 | 2026-06-05 | **Optimize Device Security and Management** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/9bf4e9ce-ebbf-4d65-9aec-ffd109e1bc06) |
-| 2026-06-05 | **Preparing for SAS Viya Deployment** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/4af7b7bd-7dba-40ab-93b2-0890561ec829) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md)

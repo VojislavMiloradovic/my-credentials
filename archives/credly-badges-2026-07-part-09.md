@@ -2,7 +2,7 @@
 archive_platform: Credly Verified Credentials
 chunk_part: 9 of 9
 date_range: 2025-11-04 to 2026-04-10
-total_entries: 31
+total_entries: 33
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-09.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-04-10 | **Administering SAP Sustainability Control Tower - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/7fe3c2ec-d068-4278-a1d6-e3ce744ac608) |
+| 2026-04-10 | **Create Your First Gemini Enterprise Application** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/f68cab03-5280-4436-bf1d-989b1bbc30c8) |
 | 2026-04-10 | **Getting Started with Generative AI** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/9897db5e-5da6-4cc6-8c14-d522e680c531) |
 | 2026-04-10 | **Getting Started with SAP Sustainability Data Exchange - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/1749200c-61e9-4682-94e5-fed5ffbf6fba) |
 | 2026-04-09 | **Getting Started with Cybersecurity** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/348c7425-9d82-4ce6-b383-bcac6d7e3659) |

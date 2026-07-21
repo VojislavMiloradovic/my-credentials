@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 7 of 9
-date_range: 2026-04-28 to 2026-05-11
+date_range: 2026-04-29 to 2026-05-11
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-07.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-05-11 | **AI Everywhere - AI PCs** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/02330493-3ee5-46c5-b1f2-d62e5a3e770e) |
 | 2026-05-11 | **Authenticate with Auth0 Social and Enterprise Connections** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/4e66fc9a-4aae-44ed-be1d-91c71ac934c5) |
 | 2026-05-11 | **Getting Started with Concur Expense Standard Edition for Administrators - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/ce034733-a09d-4b7f-818f-c321dc339316) |
 | 2026-05-11 | **Manage BYOD via Identity-Aware Integration** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/959093f9-1e07-4096-be63-35d61fbe8113) |
@@ -61,7 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-30 | **Data Analytics Essentials** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/6d1f9932-8ffd-41e3-afa7-408a16583946) |
 | 2026-04-29 | **Integrating SAP Sales Cloud and SAP Service Cloud Version 2 with SAP S/4HANA - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/bc3b65e3-dadf-41d4-93cf-0b4300a4a566) |
 | 2026-04-29 | **Team Essentials for Designing AI Solutions** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/96aa8020-2271-4ecf-b55c-ee395f00b871) |
-| 2026-04-28 | **Discovering the Environment - Health & Safety modules in SAP S/4HANA - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/be365a34-511e-41b3-8c57-59c6d7e311f2) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md)

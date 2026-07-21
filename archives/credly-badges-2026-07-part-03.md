@@ -45,6 +45,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-18 | **LFS183: Introduction to Zero Trust** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/ea7570fb-d863-4cbf-8329-ee746d40980a) |
 | 2026-06-18 | **Protect Your API Endpoints with Auth0** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/7a85c1f9-c3ec-42d2-a898-8ca954ed58bf) |
 | 2026-06-18 | **Secure Applications with Auth0 Attack Protection** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/eb46f4ee-e054-47be-bdec-ce97fa77fcd6) |
+| 2026-06-18 | **ZEDEDA Certified Edge Orchestration Professional (ZCEP)** | issued by ZEDEDA | `Credly Verified` | [Verify](https://www.credly.com/badges/353991f9-77e3-4db3-9e33-3ea865e695ff) |
 | 2026-06-17 | **Store, Process, and Manage Data on Google Cloud - Console Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/59bdf724-fa62-4fae-b148-cb57e28e3fb0) |
 | 2026-06-16 | **LFC111: Open Source Technical Documentation Essentials** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/5facc7f1-04b9-4b75-b174-44e85cd84aea) |
 | 2026-06-16 | **LFQ102: Quantum Computing Essentials For Senior Leaders** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/683ddef1-be3c-47d2-b4d5-c9ec0b3b555c) |
@@ -59,7 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-13 | **Get Started with Dataplex Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/716e37e5-9b04-4615-a6bb-b7a3129f6aa9) |
 | 2026-06-13 | **LFC104: Ethics for Open Source Development** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/8b3acbeb-abe6-47c1-b8ad-32364d6439d0) |
 | 2026-06-13 | **LFC194: Implementing Open Source License Compliance Management** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/34ba4e1b-3e3b-41a4-87cf-4c8bd3242a62) |
-| 2026-06-13 | **LFS116: PyTorch and Deep Learning for Decision Makers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/d6f30813-946b-4574-ad72-b49738d949ed) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md)
