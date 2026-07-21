@@ -127,12 +127,13 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 <!-- CREDLY_BADGES_START -->
 ### Credly Verified Credentials
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)  
-**Total Portfolio Credentials:** 432 (409 Credly Verified, 23 External/Imported)  
-**Total Verified Skills Mapped:** 1732
+**Total Portfolio Credentials:** 433 (410 Credly Verified, 23 External/Imported)  
+**Total Verified Skills Mapped:** 1733
 
 #### Latest Earned Credentials
 | Date Earned | Credential Name | Issuer | Verification Type |
 |:---:|---|---|:---:|
+| *2026-07-21* | **Cloud Functions: 3 Ways Skill Badge** | issued by Google Cloud | `Credly Verified` |
 | *2026-07-20* | **Acronis Cyber Protect – Sales Pro** | issued by Acronis | `Credly Verified` |
 | *2026-07-20* | **Acronis Cyber Protect – Tech Pro** | issued by Acronis | `Credly Verified` |
 | *2026-07-20* | **Building AI Agents with MongoDB** | issued by MongoDB | `Credly Verified` |
@@ -142,9 +143,8 @@ Showing the latest 10 activities. See the complete log of completed trainings in
 | *2026-07-19* | **Secure Software Delivery Skill Badge** | issued by Google Cloud | `Credly Verified` |
 | *2026-07-17* | **BDR Basic Course** | issued by Acronis | `Credly Verified` |
 | *2026-07-17* | **Building RAG Apps Using MongoDB** | issued by MongoDB | `Credly Verified` |
-| *2026-07-17* | **Top ATT&CK Techniques** | issued by AttackIQ | `Credly Verified` |
 
-👉 **[View all 432 credentials and 1732 verified skills in the full archive](./archives/credly-badges.md)**
+👉 **[View all 433 credentials and 1733 verified skills in the full archive](./archives/credly-badges.md)**
 
 <!-- CREDLY_BADGES_END -->
 
