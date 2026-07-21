@@ -1,14 +1,14 @@
 ---
-archive_platform: Google Developer Profile
+archive_platform: Google Developer Profile (Milestone & Pathway Badges)
 chunk_part: 2 of 3
 date_range: 2026-06-05 to 2026-06-05
 total_entries: 67
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-07-part-02.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-07-part-02.md
 ---
 
-# Google Developer Profile — Part 02
+# Google Developer Profile: Milestone & Pathway Badges — Part 02
 
-> **Navigation:** Prev: [google-developer-2026-07-part-01.md](google-developer-2026-07-part-01.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-07-part-03.md](google-developer-2026-07-part-03.md) | [Complete Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-badges-2026-07-part-01.md](google-developer-badges-2026-07-part-01.md) | [Index](./google-developer-index.md) | Next: [google-developer-badges-2026-07-part-03.md](google-developer-badges-2026-07-part-03.md) | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
@@ -81,4 +81,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Learn Privacy** | Official Google Developer platform achievement (Learning Pathway: learn privacy). |
 
 ---
-> **Navigation:** Prev: [google-developer-2026-07-part-01.md](google-developer-2026-07-part-01.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-07-part-03.md](google-developer-2026-07-part-03.md)
+> **Navigation:** Prev: [google-developer-badges-2026-07-part-01.md](google-developer-badges-2026-07-part-01.md) | [Index](./google-developer-index.md) | Next: [google-developer-badges-2026-07-part-03.md](google-developer-badges-2026-07-part-03.md)

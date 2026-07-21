@@ -1,14 +1,14 @@
 ---
-archive_platform: Google Developer Profile
+archive_platform: Google Developer Profile (Milestone & Pathway Badges)
 chunk_part: 1 of 3
 date_range: 2026-06-05 to 2026-06-05
 total_entries: 66
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-07-part-01.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-07-part-01.md
 ---
 
-# Google Developer Profile — Part 01
+# Google Developer Profile: Milestone & Pathway Badges — Part 01
 
-> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-2026-07-part-02.md](google-developer-2026-07-part-02.md) | [Complete Archive](./google-developer-complete.md)
+> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-badges-2026-07-part-02.md](google-developer-badges-2026-07-part-02.md) | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
@@ -80,4 +80,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Regression Ios** | Official Google Developer platform achievement (Learning Pathway: regression iOS). |
 
 ---
-> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-2026-07-part-02.md](google-developer-2026-07-part-02.md)
+> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-badges-2026-07-part-02.md](google-developer-badges-2026-07-part-02.md)

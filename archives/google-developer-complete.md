@@ -1,4 +1,4 @@
-# Complete Google Developer Badges Archive
+# Complete Google Developer Badges & Activity Archive
 
 Historical verified record tracking all achievements.
 
