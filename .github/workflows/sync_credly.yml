@@ -27,7 +27,7 @@ jobs:
 
       - name: Run Credly Sync Script
         run: |
-          python sync_credly.py
+          python update_credly_badges.py
 
       - name: Commit and Push Changes
         run: |
