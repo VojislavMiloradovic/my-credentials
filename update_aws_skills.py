@@ -2,10 +2,13 @@ import os
 import csv
 import re
 import sys
+import glob
 from datetime import datetime
 
 README_PATH = "README.md"
-AWS_ACHIEVEMENTS_PATH = "archives/aws-skills.md" 
+ARCHIVE_DIR = "archives"
+PLATFORM_PREFIX = "aws-skills"
+RAW_BASE = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
 
 MARKER_START = "<!-- AWS_SKILLS_START -->"
 MARKER_END = "<!-- AWS_SKILLS_END -->"
@@ -49,21 +52,13 @@ def find_column_indices(headers):
     return mapping
 
 def parse_csv_date(date_str):
-    """Standardize CSV date strings into strict ISO formats (YYYY-MM-DD or YYYY-MM)."""
     if not date_str:
         return "N/A"
     
     cleaned_date = re.sub(r'\s+', ' ', date_str.strip())
     
-    # Check YYYY-MM-DD formats first
     full_formats = (
-        "%Y-%m-%d", 
-        "%B %d, %Y", 
-        "%b %d, %Y", 
-        "%m/%d/%Y", 
-        "%d/%m/%Y", 
-        "%Y-%m-%dT%H:%M:%S", 
-        "%d.%m.%Y"
+        "%Y-%m-%d", "%B %d, %Y", "%b %d, %Y", "%m/%d/%Y", "%d/%m/%Y", "%Y-%m-%dT%H:%M:%S", "%d.%m.%Y"
     )
     for fmt in full_formats:
         try:
@@ -71,7 +66,6 @@ def parse_csv_date(date_str):
         except ValueError:
             continue
 
-    # Check YYYY-MM formats if day is missing
     month_formats = ("%B %Y", "%b %Y", "%Y-%m")
     for fmt in month_formats:
         try:
@@ -99,6 +93,14 @@ def is_garbage_row(title):
         
     return False
 
+def clean_old_chunks():
+    pattern = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-*-part-*.md")
+    for f in glob.glob(pattern):
+        try:
+            os.remove(f)
+        except OSError:
+            pass
+
 def main():
     possible_names = [
         "data/aws-training-activity.csv",
@@ -117,6 +119,9 @@ def main():
     if not csv_path:
         print("❌ Error: AWS Training CSV file not found!")
         sys.exit(1)
+
+    os.makedirs(ARCHIVE_DIR, exist_ok=True)
+    clean_old_chunks()
 
     with open(csv_path, "r", encoding="utf-8-sig") as f:
         lines = f.readlines()
@@ -195,7 +200,128 @@ def main():
 
     activities.sort(key=lambda x: x["date"] or "0000-00-00", reverse=True)
     total_completions = len(activities)
+    now_ym = datetime.now().strftime("%Y-%m")
 
+    # 1. Monolithic Complete Archive
+    monolith_filename = f"{PLATFORM_PREFIX}-complete.md"
+    monolith_path = os.path.join(ARCHIVE_DIR, monolith_filename)
+
+    archive_md = []
+    archive_md.append("# Complete AWS Skill Builder Achievements Archive\n")
+    archive_md.append(f"This document contains a complete, historical audit trail of all {total_completions} AWS learning items completed on AWS Skill Builder.\n")
+    archive_md.append("| Activity Title | Type | Date Completed | Duration | Certificate |")
+    archive_md.append("| :--- | :--- | :--- | :--- | :--- |")
+
+    formatted_rows = []
+    for act in activities:
+        title_clean = act["title"].replace("|", "\\|")
+        row = f"| {title_clean} | {act['type']} | {act['date']} | {act['duration']} | 🎓 Available on Profile |"
+        formatted_rows.append((row, act['date']))
+        archive_md.append(row)
+
+    archive_md.append(f"\n\n[← Back to Index](./{PLATFORM_PREFIX}-index.md) | [← README](../README.md)\n")
+    with open(monolith_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(archive_md))
+
+    # 2. Chunking Logic (~10 KB limit per file)
+    chunks = []
+    current_chunk_rows = []
+    current_chunk_bytes = 0
+    MAX_BYTES = 9500
+
+    for row_text, row_date in formatted_rows:
+        row_len = len(row_text.encode("utf-8")) + 1
+        if current_chunk_bytes + row_len > MAX_BYTES and current_chunk_rows:
+            chunks.append(current_chunk_rows)
+            current_chunk_rows = []
+            current_chunk_bytes = 0
+        current_chunk_rows.append((row_text, row_date))
+        current_chunk_bytes += row_len
+    if current_chunk_rows:
+        chunks.append(current_chunk_rows)
+
+    total_chunks = len(chunks)
+    chunk_meta = []
+
+    for i, chunk_rows in enumerate(chunks, start=1):
+        chunk_filename = f"{PLATFORM_PREFIX}-{now_ym}-part-{i:02d}.md"
+        chunk_path = os.path.join(ARCHIVE_DIR, chunk_filename)
+        
+        start_date = chunk_rows[-1][1]
+        end_date = chunk_rows[0][1]
+        
+        prev_link = f"[{PLATFORM_PREFIX}-{now_ym}-part-{i-1:02d}.md]({PLATFORM_PREFIX}-{now_ym}-part-{i-1:02d}.md)" if i > 1 else "None"
+        next_link = f"[{PLATFORM_PREFIX}-{now_ym}-part-{i+1:02d}.md]({PLATFORM_PREFIX}-{now_ym}-part-{i+1:02d}.md)" if i < total_chunks else "None"
+        
+        c_md = []
+        c_md.append("---")
+        c_md.append(f"archive_platform: AWS Skill Builder")
+        c_md.append(f"chunk_part: {i} of {total_chunks}")
+        c_md.append(f"date_range: {start_date} to {end_date}")
+        c_md.append(f"total_entries: {len(chunk_rows)}")
+        c_md.append(f"raw_url: {RAW_BASE}/{chunk_filename}")
+        c_md.append("---\n")
+        
+        c_md.append(f"# AWS Skill Builder Achievements — Part {i:02d}\n")
+        c_md.append(f"> **Navigation:** Prev: {prev_link} | [Index](./{PLATFORM_PREFIX}-index.md) | Next: {next_link} | [Complete Archive](./{monolith_filename})\n")
+        c_md.append("| Activity Title | Type | Date Completed | Duration | Certificate |")
+        c_md.append("| :--- | :--- | :--- | :--- | :--- |")
+        
+        for r_text, _ in chunk_rows:
+            c_md.append(r_text)
+            
+        c_md.append(f"\n---\n> **Navigation:** Prev: {prev_link} | [Index](./{PLATFORM_PREFIX}-index.md) | Next: {next_link}\n")
+        
+        content = "\n".join(c_md)
+        with open(chunk_path, "w", encoding="utf-8") as f:
+            f.write(content)
+            
+        file_size_kb = round(len(content.encode("utf-8")) / 1024, 2)
+        est_tokens = int(len(content) / 4)
+        chunk_meta.append({
+            "filename": chunk_filename,
+            "part": i,
+            "date_range": f"{start_date} to {end_date}",
+            "size_kb": file_size_kb,
+            "tokens": est_tokens,
+            "entries": len(chunk_rows),
+            "raw_url": f"{RAW_BASE}/{chunk_filename}"
+        })
+
+    # 3. Master Platform Index File
+    index_filename = f"{PLATFORM_PREFIX}-index.md"
+    index_path = os.path.join(ARCHIVE_DIR, index_filename)
+    
+    mono_bytes = os.path.getsize(monolith_path) if os.path.exists(monolith_path) else 0
+    mono_kb = round(mono_bytes / 1024, 2)
+    mono_tokens = int(mono_bytes / 4)
+
+    idx_md = []
+    idx_md.append(f"# AWS Skill Builder Archive Index\n")
+    idx_md.append(f"This directory provides chunked, AI-readable historical records for AWS Skill Builder training activities.\n")
+    idx_md.append(f"## Archive Overview\n")
+    idx_md.append(f"- **Total Activities Archived:** {total_completions}")
+    idx_md.append(f"- **Monolithic File Size:** ~{mono_kb} KB (~{mono_tokens:,} tokens)")
+    idx_md.append(f"- **Total Chunk Parts:** {total_chunks} chunk(s)\n")
+    
+    idx_md.append(f"### Monolithic Archive (Complete)\n")
+    idx_md.append(f"| File Name | Size (KB) | Est. Tokens | Recommended For | Direct Raw URL |")
+    idx_md.append(f"| :--- | :---: | :---: | :--- | :--- |")
+    idx_md.append(f"| [`{monolith_filename}`](./{monolith_filename}) | {mono_kb} KB | ~{mono_tokens:,} | Large Context Windows (>100k tokens) | [Raw Link]({RAW_BASE}/{monolith_filename}) |\n")
+    
+    idx_md.append(f"### Chunked Archive Parts (~10 KB Slices)\n")
+    idx_md.append(f"| Part | File Name | Date Range | Entries | Size (KB) | Est. Tokens | Direct Raw URL |")
+    idx_md.append(f"| :---: | :--- | :---: | :---: | :---: | :---: | :--- |")
+    
+    for cm in chunk_meta:
+        idx_md.append(f"| Part {cm['part']:02d} | [`{cm['filename']}`](./{cm['filename']}) | `{cm['date_range']}` | {cm['entries']} | {cm['size_kb']} KB | ~{cm['tokens']} | [Raw URL]({cm['raw_url']}) |")
+
+    idx_md.append(f"\n\n[← Back to Main README](../README.md)\n")
+    
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(idx_md))
+
+    # 4. Update README.md
     md = []
     md.append("### AWS Skill Builder Summary")
     md.append(f"**Public Profile:** [Verify AWS Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)  \n")
@@ -216,8 +342,11 @@ def main():
         md.append(f"| **{key}** | {val} |")
     md.append("\n")
 
+    latest_chunk_raw = chunk_meta[0]['raw_url'] if chunk_meta else f"{RAW_BASE}/{monolith_filename}"
+    index_raw = f"{RAW_BASE}/{index_filename}"
+
     md.append("#### Recent AWS Achievements")
-    md.append(f"Showing the latest 10 activities. See the complete log of completed trainings in our [AWS achievements archive](./archives/aws-skills.md).\n")
+    md.append(f"Showing latest 10 activities. View the full dataset via the [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({latest_chunk_raw}), or the [Monolithic Complete File](./archives/{monolith_filename}).\n")
     md.append("| Activity Title | Type | Date Completed | Duration |")
     md.append("| :--- | :--- | :--- | :--- |")
     for act in activities[:10]:
@@ -234,22 +363,6 @@ def main():
             new_readme = f"{parts_before}{MARKER_START}\n" + "\n".join(md) + f"{MARKER_END}{parts_after}"
             with open(README_PATH, "w", encoding="utf-8") as f:
                 f.write(new_readme)
-
-    archive_md = []
-    archive_md.append("# Complete AWS Skill Builder Achievements Archive\n")
-    archive_md.append(f"This document contains a complete, historical audit trail of all {total_completions} AWS learning items completed on AWS Skill Builder.\n")
-    archive_md.append("| Activity Title | Type | Date Completed | Duration | Certificate |")
-    archive_md.append("| :--- | :--- | :--- | :--- | :--- |")
-
-    for act in activities:
-        title_clean = act["title"].replace("|", "\\|")
-        archive_md.append(f"| {title_clean} | {act['type']} | {act['date']} | {act['duration']} | 🎓 Available on Profile |")
-
-    archive_md.append("\n\n[← Back to README](../README.md)\n")
-
-    os.makedirs(os.path.dirname(AWS_ACHIEVEMENTS_PATH), exist_ok=True)
-    with open(AWS_ACHIEVEMENTS_PATH, "w", encoding="utf-8") as f:
-        f.write("\n".join(archive_md))
 
 if __name__ == "__main__":
     main()
