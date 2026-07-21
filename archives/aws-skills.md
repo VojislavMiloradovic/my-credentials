@@ -1,6 +1,6 @@
 # Complete AWS Skill Builder Achievements Archive
 
-This document contains a complete, historical audit trail of all 443 AWS learning items, digital courses, games, and labs completed on AWS Skill Builder.
+This document contains a complete, historical audit trail of all 443 AWS learning items completed on AWS Skill Builder.
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
