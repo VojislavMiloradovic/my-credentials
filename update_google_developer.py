@@ -2,13 +2,16 @@ import os
 import sys
 import re
 import json
+import glob
 import requests
 from datetime import datetime, timezone
 from urllib.parse import unquote
 
 README_PATH = "README.md"
-GDEV_ARCHIVE_PATH = "archives/google-developer.md"
+ARCHIVE_DIR = "archives"
+PLATFORM_PREFIX = "google-developer"
 LEARNINGS_TXT_PATH = "data/google_learnings.txt"
+RAW_BASE = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
 
 MARKER_START = "<!-- GOOGLE_DEVELOPER_START -->"
 MARKER_END = "<!-- GOOGLE_DEVELOPER_END -->"
@@ -27,6 +30,14 @@ SERBIAN_MONTHS = {
     'нов': '11', 'новембар': '11', 'новембара': '11',
     'дец': '12', 'децембар': '12', 'децембара': '12'
 }
+
+def clean_old_chunks():
+    pattern = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-*-part-*.md")
+    for f in glob.glob(pattern):
+        try:
+            os.remove(f)
+        except OSError:
+            pass
 
 def parse_local_learnings_txt():
     if not os.path.exists(LEARNINGS_TXT_PATH):
@@ -52,7 +63,6 @@ def parse_local_learnings_txt():
                     break
                     
             iso_date = f"{year}-{month_num}-{day}"
-            
             title = lines[i-1]
             if title in ["Учење", "check_circle_outline You have this badge!"] and i > 1:
                 title = lines[i-2]
@@ -86,7 +96,6 @@ def analyze_badge_list(lst, parsed_badges):
                 walk(x)
                 
     walk(lst)
-    
     award_strs = [s for s in strings if "/awards/" in s]
     if not award_strs:
         return False
@@ -151,18 +160,15 @@ def fetch_gdev_badges_rpc():
         "_reqid": "252198",
         "rt": "c"
     }
-    
     profile_id = "110772055890077594470"
     f_req_structure = [[
         ["gQeJTc", f"[\"{profile_id}\"]", None, "3"],
         ["RwSpuf", f"[\"{profile_id}\"]", None, "4"]
     ]]
-    
     payload = {
         "f.req": json.dumps(f_req_structure),
         "at": "AFAd0eBgurpIT_evlsPSzRjypGkH:1784464194335"
     }
-    
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
@@ -203,7 +209,10 @@ def main():
     public_badges = fetch_gdev_badges_rpc()
     if not public_badges:
         sys.exit(1)
-        
+
+    os.makedirs(ARCHIVE_DIR, exist_ok=True)
+    clean_old_chunks()
+
     total_public = len(public_badges)
     public_badges.sort(key=lambda x: x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00", reverse=True)
     
@@ -218,6 +227,143 @@ def main():
             combined_feed.append(dl)
     combined_feed.sort(key=lambda x: x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00", reverse=True)
 
+    now_ym = datetime.now().strftime("%Y-%m")
+
+    # 1. Monolithic Complete Archive
+    monolith_filename = f"{PLATFORM_PREFIX}-complete.md"
+    monolith_path = os.path.join(ARCHIVE_DIR, monolith_filename)
+
+    archive_md = []
+    archive_md.append("# Complete Google Developer Badges Archive\n")
+    archive_md.append(f"Historical verified record tracking all achievements.\n\n")
+    
+    formatted_rows = []
+    
+    archive_md.append(f"## Milestone & Pathway Badges ({total_public})\n")
+    archive_md.append("| Date Earned | Badge Title | Description |")
+    archive_md.append("| :---: | :--- | :--- |")
+    for badge in public_badges:
+        clean_desc = badge['description'].replace("|", "\\|").replace("\n", " ")
+        clean_title = badge['title'].replace("|", "\\|")
+        row = f"| {badge['date']} | **{clean_title}** | {clean_desc} |"
+        formatted_rows.append((row, badge['date']))
+        archive_md.append(row)
+        
+    if total_detailed > 0:
+        archive_md.append(f"\n## Detailed Learning Activities & Codelabs ({total_detailed})\n")
+        archive_md.append("| Date Earned | Codelab / Activity Title | Description |")
+        archive_md.append("| :---: | :--- | :--- |")
+        for badge in detailed_learnings:
+            clean_desc = badge['description'].replace("|", "\\|").replace("\n", " ")
+            clean_title = badge['title'].replace("|", "\\|")
+            row = f"| {badge['date']} | **{clean_title}** | {clean_desc} |"
+            archive_md.append(row)
+
+    archive_md.append(f"\n\n[← Back to Index](./{PLATFORM_PREFIX}-index.md) | [← README](../README.md)\n")
+    with open(monolith_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(archive_md))
+
+    # 2. Chunking Logic (~10 KB limit per file)
+    chunks = []
+    current_chunk_rows = []
+    current_chunk_bytes = 0
+    MAX_BYTES = 9500
+
+    for row_text, row_date in formatted_rows:
+        row_len = len(row_text.encode("utf-8")) + 1
+        if current_chunk_bytes + row_len > MAX_BYTES and current_chunk_rows:
+            chunks.append(current_chunk_rows)
+            current_chunk_rows = []
+            current_chunk_bytes = 0
+        current_chunk_rows.append((row_text, row_date))
+        current_chunk_bytes += row_len
+    if current_chunk_rows:
+        chunks.append(current_chunk_rows)
+
+    total_chunks = len(chunks)
+    chunk_meta = []
+
+    for i, chunk_rows in enumerate(chunks, start=1):
+        chunk_filename = f"{PLATFORM_PREFIX}-{now_ym}-part-{i:02d}.md"
+        chunk_path = os.path.join(ARCHIVE_DIR, chunk_filename)
+        
+        start_date = chunk_rows[-1][1]
+        end_date = chunk_rows[0][1]
+        
+        prev_link = f"[{PLATFORM_PREFIX}-{now_ym}-part-{i-1:02d}.md]({PLATFORM_PREFIX}-{now_ym}-part-{i-1:02d}.md)" if i > 1 else "None"
+        next_link = f"[{PLATFORM_PREFIX}-{now_ym}-part-{i+1:02d}.md]({PLATFORM_PREFIX}-{now_ym}-part-{i+1:02d}.md)" if i < total_chunks else "None"
+        
+        c_md = []
+        c_md.append("---")
+        c_md.append(f"archive_platform: Google Developer Profile")
+        c_md.append(f"chunk_part: {i} of {total_chunks}")
+        c_md.append(f"date_range: {start_date} to {end_date}")
+        c_md.append(f"total_entries: {len(chunk_rows)}")
+        c_md.append(f"raw_url: {RAW_BASE}/{chunk_filename}")
+        c_md.append("---\n")
+        
+        c_md.append(f"# Google Developer Profile — Part {i:02d}\n")
+        c_md.append(f"> **Navigation:** Prev: {prev_link} | [Index](./{PLATFORM_PREFIX}-index.md) | Next: {next_link} | [Complete Archive](./{monolith_filename})\n")
+        c_md.append("| Date Earned | Title | Description |")
+        c_md.append("| :---: | :--- | :--- |")
+        
+        for r_text, _ in chunk_rows:
+            c_md.append(r_text)
+            
+        c_md.append(f"\n---\n> **Navigation:** Prev: {prev_link} | [Index](./{PLATFORM_PREFIX}-index.md) | Next: {next_link}\n")
+        
+        content = "\n".join(c_md)
+        with open(chunk_path, "w", encoding="utf-8") as f:
+            f.write(content)
+            
+        file_size_kb = round(len(content.encode("utf-8")) / 1024, 2)
+        est_tokens = int(len(content) / 4)
+        chunk_meta.append({
+            "filename": chunk_filename,
+            "part": i,
+            "date_range": f"{start_date} to {end_date}",
+            "size_kb": file_size_kb,
+            "tokens": est_tokens,
+            "entries": len(chunk_rows),
+            "raw_url": f"{RAW_BASE}/{chunk_filename}"
+        })
+
+    # 3. Master Platform Index File
+    index_filename = f"{PLATFORM_PREFIX}-index.md"
+    index_path = os.path.join(ARCHIVE_DIR, index_filename)
+    
+    mono_bytes = os.path.getsize(monolith_path) if os.path.exists(monolith_path) else 0
+    mono_kb = round(mono_bytes / 1024, 2)
+    mono_tokens = int(mono_bytes / 4)
+
+    idx_md = []
+    idx_md.append(f"# Google Developer Archive Index\n")
+    idx_md.append(f"This directory provides chunked, AI-readable historical records for Google Developer achievements.\n")
+    idx_md.append(f"## Archive Overview\n")
+    idx_md.append(f"- **Total Public Badges:** {total_public}")
+    if total_detailed > 0:
+        idx_md.append(f"- **Total Detailed Activities:** {total_detailed}")
+    idx_md.append(f"- **Monolithic File Size:** ~{mono_kb} KB (~{mono_tokens:,} tokens)")
+    idx_md.append(f"- **Total Chunk Parts:** {total_chunks} chunk(s)\n")
+    
+    idx_md.append(f"### Monolithic Archive (Complete)\n")
+    idx_md.append(f"| File Name | Size (KB) | Est. Tokens | Recommended For | Direct Raw URL |")
+    idx_md.append(f"| :--- | :---: | :---: | :--- | :--- |")
+    idx_md.append(f"| [`{monolith_filename}`](./{monolith_filename}) | {mono_kb} KB | ~{mono_tokens:,} | Large Context Windows (>100k tokens) | [Raw Link]({RAW_BASE}/{monolith_filename}) |\n")
+    
+    idx_md.append(f"### Chunked Archive Parts (~10 KB Slices)\n")
+    idx_md.append(f"| Part | File Name | Date Range | Entries | Size (KB) | Est. Tokens | Direct Raw URL |")
+    idx_md.append(f"| :---: | :--- | :---: | :---: | :---: | :---: | :--- |")
+    
+    for cm in chunk_meta:
+        idx_md.append(f"| Part {cm['part']:02d} | [`{cm['filename']}`](./{cm['filename']}) | `{cm['date_range']}` | {cm['entries']} | {cm['size_kb']} KB | ~{cm['tokens']} | [Raw URL]({cm['raw_url']}) |")
+
+    idx_md.append(f"\n\n[← Back to Main README](../README.md)\n")
+    
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(idx_md))
+
+    # 4. Update README.md
     md = []
     md.append("### Google Developer Profile Summary")
     md.append("**Public Profile:** [Verify Developer Profile](https://g.dev/vojislavmiloradovic)  \n")
@@ -230,8 +376,11 @@ def main():
         md.append(f"| **Total Codelabs & Learning Activities** | {total_detailed:,} |")
     md.append("\n")
 
+    latest_chunk_raw = chunk_meta[0]['raw_url'] if chunk_meta else f"{RAW_BASE}/{monolith_filename}"
+    index_raw = f"{RAW_BASE}/{index_filename}"
+
     md.append("#### Latest Achievements")
-    md.append("Showing the latest 10 merged activities. View complete historical logs in [Google Developer archive](./archives/google-developer.md).\n")
+    md.append(f"Showing latest 10 merged activities. View the full dataset via the [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({latest_chunk_raw}), or the [Monolithic Complete File](./archives/{monolith_filename}).\n")
     md.append("| Date Earned | Title | Description |")
     md.append("| :---: | :--- | :--- |")
     
@@ -251,33 +400,6 @@ def main():
             new_readme = f"{parts_before}{MARKER_START}\n" + "\n".join(md) + f"{MARKER_END}{parts_after}"
             with open(README_PATH, "w", encoding="utf-8") as f:
                 f.write(new_readme)
-
-    archive_md = []
-    archive_md.append("# Complete Google Developer Badges Archive\n")
-    archive_md.append(f"Historical verified record tracking all achievements.\n\n")
-    
-    archive_md.append(f"## Milestone & Pathway Badges ({total_public})\n")
-    archive_md.append("| Date Earned | Badge Title | Description |")
-    archive_md.append("| :---: | :--- | :--- |")
-    for badge in public_badges:
-        clean_desc = badge['description'].replace("|", "\\|").replace("\n", " ")
-        clean_title = badge['title'].replace("|", "\\|")
-        archive_md.append(f"| {badge['date']} | **{clean_title}** | {clean_desc} |")
-        
-    if total_detailed > 0:
-        archive_md.append(f"\n## Detailed Learning Activities & Codelabs ({total_detailed})\n")
-        archive_md.append("| Date Earned | Codelab / Activity Title | Description |")
-        archive_md.append("| :---: | :--- | :--- |")
-        for badge in detailed_learnings:
-            clean_desc = badge['description'].replace("|", "\\|").replace("\n", " ")
-            clean_title = badge['title'].replace("|", "\\|")
-            archive_md.append(f"| {badge['date']} | **{clean_title}** | {clean_desc} |")
-
-    archive_md.append("\n\n[← Back to README](../README.md)\n")
-
-    os.makedirs(os.path.dirname(GDEV_ARCHIVE_PATH), exist_ok=True)
-    with open(GDEV_ARCHIVE_PATH, "w", encoding="utf-8") as f:
-        f.write("\n".join(archive_md))
 
 if __name__ == "__main__":
     main()
