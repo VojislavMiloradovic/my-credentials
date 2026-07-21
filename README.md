@@ -61,17 +61,17 @@ Showing the latest 10 of 4,724 total achievements. The complete list is fully ar
 
 #### Latest Earned Badges
 | Date Earned | Badge Title |
-|:---:|---|
-| *Earned Jul 21, 2026* | **Build Serverless Applications with Cloud Run Functions** |
-| *Earned Jul 19, 2026* | **Secure Software Delivery** |
-| *Earned Jul 19, 2026* | **Arcade Base Camp July 2026** |
-| *Earned Jul 16, 2026* | **Build a Data Mesh with Knowledge Catalog** |
-| *Earned Jul 16, 2026* | **Arcade Simulator: Data Mesh Architect** |
-| *Earned Jul 15, 2026* | **Deploy and Monitor in Google Cloud for AWS Professionals** |
-| *Earned Jul 13, 2026* | **Developing Containerized Applications on Google Cloud** |
-| *Earned Jul 12, 2026* | **Developing Applications with Cloud Run Functions on Google Cloud** |
-| *Earned Jul 10, 2026* | **Build a Data Warehouse with BigQuery** |
-| *Earned Jul 8, 2026* | **Arcade Trail: Google Workspace Administration** |
+|:---:|---| 
+| *2026-07-21* | **Build Serverless Applications with Cloud Run Functions** |
+| *2026-07-19* | **Secure Software Delivery** |
+| *2026-07-19* | **Arcade Base Camp July 2026** |
+| *2026-07-16* | **Build a Data Mesh with Knowledge Catalog** |
+| *2026-07-16* | **Arcade Simulator: Data Mesh Architect** |
+| *2026-07-15* | **Deploy and Monitor in Google Cloud for AWS Professionals** |
+| *2026-07-13* | **Developing Containerized Applications on Google Cloud** |
+| *2026-07-12* | **Developing Applications with Cloud Run Functions on Google Cloud** |
+| *2026-07-10* | **Build a Data Warehouse with BigQuery** |
+| *2026-07-08* | **Arcade Trail: Google Workspace Administration** |
 
 👉 **[View all 329 earned badges in the full archive](./archives/google-cloud-skills.md)**
 

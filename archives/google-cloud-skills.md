@@ -7,335 +7,335 @@
 #### All Earned Badges
 | Date Earned | Badge Title |
 |:---:|---|
-| *Earned Jul 21, 2026* | **Build Serverless Applications with Cloud Run Functions** |
-| *Earned Jul 19, 2026* | **Secure Software Delivery** |
-| *Earned Jul 19, 2026* | **Arcade Base Camp July 2026** |
-| *Earned Jul 16, 2026* | **Build a Data Mesh with Knowledge Catalog** |
-| *Earned Jul 16, 2026* | **Arcade Simulator: Data Mesh Architect** |
-| *Earned Jul 15, 2026* | **Deploy and Monitor in Google Cloud for AWS Professionals** |
-| *Earned Jul 13, 2026* | **Developing Containerized Applications on Google Cloud** |
-| *Earned Jul 12, 2026* | **Developing Applications with Cloud Run Functions on Google Cloud** |
-| *Earned Jul 10, 2026* | **Build a Data Warehouse with BigQuery** |
-| *Earned Jul 8, 2026* | **Arcade Trail: Google Workspace Administration** |
-| *Earned Jul 7, 2026* | **Safe Spaces** |
-| *Earned Jul 7, 2026* | **Optimize Costs for Google Kubernetes Engine** |
-| *Earned Jul 3, 2026* | **Mitigate Threats and Vulnerabilities with Security Command Center** |
-| *Earned Jul 2, 2026* | **Build Infrastructure with Terraform on Google Cloud** |
-| *Earned Jun 30, 2026* | **Set Up an App Dev Environment on Google Cloud** |
-| *Earned Jun 28, 2026* | **Implement Speech and Language Solutions with Pre-trained APIs** |
-| *Earned Jun 28, 2026* | **Arcade Voyage: Identity Management and Pre-trained AI APIs** |
-| *Earned Jun 26, 2026* | **Configure Service Accounts and IAM Roles for Google Cloud** |
-| *Earned Jun 25, 2026* | **Building No-Code Apps with AppSheet: Automation** |
-| *Earned Jun 23, 2026* | **Applying Advanced LookML Concepts in Looker** |
-| *Earned Jun 23, 2026* | **Understanding LookML in Looker** |
-| *Earned Jun 23, 2026* | **Using the Google Cloud Speech API** |
-| *Earned Jun 21, 2026* | **Use APIs to Work with Cloud Storage** |
-| *Earned Jun 21, 2026* | **The Basics of Google Cloud Compute** |
-| *Earned Jun 21, 2026* | **Customer Experience Agent Studio: Fundamentals** |
-| *Earned Jun 19, 2026* | **Troubleshooting with AI Using Cloud Assist Investigations** |
-| *Earned Jun 17, 2026* | **Store, Process, and Manage Data on Google Cloud - Console** |
-| *Earned Jun 15, 2026* | **AI Boost Bootcamp: How to Use Gemini for Marketing 201** |
-| *Earned Jun 13, 2026* | **Organize and Govern Data with Knowledge Catalog** |
-| *Earned Jun 13, 2026* | **Essential Google Cloud CLI Tools** |
-| *Earned Jun 12, 2026* | **Managing Cloud Infrastructure with Terraform** |
-| *Earned Jun 10, 2026* | **Google Cloud Essentials** |
-| *Earned Jun 3, 2026* | **Analyzing and Visualizing Data in Looker** |
-| *Earned May 30, 2026* | **Developing Data Models with LookML** |
-| *Earned May 26, 2026* | **Introduction to Data Analytics on Google Cloud** |
-| *Earned May 25, 2026* | **Manage Data Models in Looker** |
-| *Earned May 24, 2026* | **App Building with AppSheet** |
-| *Earned May 24, 2026* | **Analyze BigQuery Data in Connected Sheets** |
-| *Earned May 23, 2026* | **Build Real World AI Applications with Gemini and Imagen** |
-| *Earned May 21, 2026* | **Website Modernization with Generative AI on Google Cloud** |
-| *Earned May 19, 2026* | **Data Governance with Dataplex Universal Catalog** |
-| *Earned May 18, 2026* | **Boost Productivity with Gemini in BigQuery** |
-| *Earned May 18, 2026* | **Accelerate App Development with Gemini CLI** |
-| *Earned May 15, 2026* | **Working with Notebooks in Vertex AI** |
-| *Earned May 15, 2026* | **Select a Google Cloud Database for Your Applications** |
-| *Earned May 15, 2026* | **Build AI Agents with Enterprise Databases** |
-| *Earned May 14, 2026* | **Looker Studio Essentials** |
-| *Earned May 14, 2026* | **AI Boost Bites: Presentations in Seconds with Nano Banana Pro** |
-| *Earned May 14, 2026* | **AI Boost Bites: Become a Homework Hero for Your Kids** |
-| *Earned May 14, 2026* | **AI Boost Bites: Productivity On the Go with NotebookLM** |
-| *Earned May 14, 2026* | **AI Boost Bites: How Google's L&D Uses AI to build Training Programs** |
-| *Earned May 14, 2026* | **AI Boost Bites: Build Charts with a Prompt** |
-| *Earned May 14, 2026* | **AI Boost Bites: The Recruiter's Playbook in Gmail** |
-| *Earned May 14, 2026* | **AI Boost Bites: Triage a Crisis with Gemini** |
-| *Earned May 14, 2026* | **AI Boost Bites: How Google's L&D Uses AI for Strategy** |
-| *Earned May 14, 2026* | **AI Boost Bites: Bring your photos to life with AI** |
-| *Earned May 14, 2026* | **AI Boost Bites: Build an AI Support Bot** |
-| *Earned May 14, 2026* | **AI Boost Bites: Build Your AI Strategic Partner** |
-| *Earned May 14, 2026* | **AI Boost Bites: Build a Custom AI Teammate** |
-| *Earned May 14, 2026* | **AI Boost Bites: Your Personal AI Study Partner** |
-| *Earned May 14, 2026* | **AI Boost Bites: Shareable Gems** |
-| *Earned May 14, 2026* | **AI Boost Bites: Your AI Chart Detective** |
-| *Earned May 12, 2026* | **Innovating with Data and Google Cloud** |
-| *Earned May 7, 2026* | **Build a Certification Study Guide: PCDOE Exam Prep** |
-| *Earned May 5, 2026* | **Machine Learning Operations (MLOps): Getting Started** |
-| *Earned May 5, 2026* | **Chronicle SOAR Fundamentals - Locales** |
-| *Earned May 5, 2026* | **Introduction to Vertex AI Studio** |
-| *Earned May 5, 2026* | **Google Workspace Essentials** |
-| *Earned May 4, 2026* | **Streamline App Development with Gemini Code Assist** |
-| *Earned May 2, 2026* | **Develop AI-Powered Prototypes in Google AI Studio** |
-| *Earned May 2, 2026* | **Build a Certification Study Guide: PCD Exam Prep** |
-| *Earned May 2, 2026* | **Google Cloud Database Migrations: Homogeneous** |
-| *Earned May 1, 2026* | **AI-powered Database Management with Gemini** |
-| *Earned May 1, 2026* | **Agentic Strategy: Discover, Design, and Prototype** |
-| *Earned May 1, 2026* | **Running Oracle Workloads on Google Cloud: Fundamentals** |
-| *Earned May 1, 2026* | **Add Agent Guardrails with Callbacks** |
-| *Earned May 1, 2026* | **AI Boost Bootcamp: How to Use Gemini at Work 101** |
-| *Earned May 1, 2026* | **Human-Centered AI** |
-| *Earned Apr 29, 2026* | **Fundamentals of Google's Arm-based Axion Processors** |
-| *Earned Apr 29, 2026* | **Digital Sovereignty with Google Cloud** |
-| *Earned Apr 29, 2026* | **Build and Deploy Agents in Production** |
-| *Earned Apr 28, 2026* | **Preparing for your Professional Cloud Database Engineer Journey** |
-| *Earned Apr 27, 2026* | **Generate and Edit Media in Agent Platform** |
-| *Earned Apr 27, 2026* | **Security Command Center: Vulnerabilities and Misconfigurations** |
-| *Earned Apr 27, 2026* | **Migrating to Google Cloud: Fundamentals** |
-| *Earned Apr 27, 2026* | **Google Cloud Database Migrations: Strategy** |
-| *Earned Apr 26, 2026* | **Liftoff with Google Antigravity: Build a Video Game with AI** |
-| *Earned Apr 26, 2026* | **Google AI for Finance Professionals** |
-| *Earned Apr 26, 2026* | **Orchestrate Multi-agent Workflows with Gemini Enterprise** |
-| *Earned Apr 25, 2026* | **L300 Google Distributed Cloud air-gapped** |
-| *Earned Apr 24, 2026* | **Looker Studio Pro Essentials** |
-| *Earned Apr 24, 2026* | **Responsible AI for Digital Leaders with Google Cloud** |
-| *Earned Apr 24, 2026* | **Unleash Team Potential: Assess Learning Needs Using GenAI** |
-| *Earned Apr 23, 2026* | **Introduction to Reliable Deep Learning** |
-| *Earned Apr 23, 2026* | **Introduction to Security in the World of AI** |
-| *Earned Apr 23, 2026* | **[DEPRECATED] Google Cloud: Prompt Engineering Guide** |
-| *Earned Apr 23, 2026* | **Future-Proof Your AI Learning Strategy** |
-| *Earned Apr 22, 2026* | **Introduction to Google Distributed Cloud Sandbox** |
-| *Earned Apr 21, 2026* | **Google Cloud Security for the Public Sector** |
-| *Earned Apr 20, 2026* | **Accelerate Knowledge Exchange with Gemini Enterprise** |
-| *Earned Apr 18, 2026* | **Build a Certification Study Guide: PSOE Exam Prep** |
-| *Earned Apr 18, 2026* | **Gemini for end-to-end SDLC** |
-| *Earned Apr 18, 2026* | **Implement Cloud Next Generation Firewall** |
-| *Earned Apr 17, 2026* | **Quiz: GDC Air-Gapped Practitioner Fundamentals** |
-| *Earned Apr 16, 2026* | **Machine Learning Operations (MLOps) with Agent Platform: Model Evaluation** |
-| *Earned Apr 15, 2026* | **Introduction to Google Security Operations: Unified SecOps** |
-| *Earned Apr 14, 2026* | **Responsible AI for Developers: Interpretability & Transparency** |
-| *Earned Apr 13, 2026* | **Architecting and Installing the Apigee Hybrid API Platform** |
-| *Earned Apr 12, 2026* | **GKE Routing and IP Address Management** |
-| *Earned Apr 11, 2026* | **Deploy Your First Agent** |
-| *Earned Apr 11, 2026* | **Orchestrate Complex Multi-Agent Workflows** |
-| *Earned Apr 11, 2026* | **Coordinate Multiple Agents** |
-| *Earned Apr 11, 2026* | **Introduction to GKE Networking** |
-| *Earned Apr 10, 2026* | **Network Observability on Google Cloud** |
-| *Earned Apr 10, 2026* | **Agent Assist and its Gen AI Capabilities** |
-| *Earned Apr 10, 2026* | **Architect Gemini Enterprise for Customer Experience** |
-| *Earned Apr 9, 2026* | **Create Your First Gemini Enterprise Application** |
-| *Earned Apr 9, 2026* | **Enterprise Agents and Use Cases** |
-| *Earned Apr 9, 2026* | **Introduction to AI Agents** |
-| *Earned Apr 8, 2026* | **Manage Agent Memory and State** |
-| *Earned Apr 8, 2026* | **Add Agent Capabilities With Tools** |
-| *Earned Apr 8, 2026* | **Build Agents with Agent Development Kit (ADK)** |
-| *Earned Apr 7, 2026* | **Optimize Agent Behavior** |
-| *Earned Apr 7, 2026* | **Build Your First Agent with Agent Development Kit (ADK)** |
-| *Earned Apr 7, 2026* | **Agent Fundamentals** |
-| *Earned Apr 7, 2026* | **Create Agents with Generative Playbooks** |
-| *Earned Apr 6, 2026* | **Getting Started with Security Command Center Enterprise** |
-| *Earned Apr 5, 2026* | **Unlock Insights with NotebookLM** |
-| *Earned Apr 5, 2026* | **Introduction to reCAPTCHA** |
-| *Earned Apr 4, 2026* | **Introduction to Gemini Enterprise** |
-| *Earned Apr 3, 2026* | **Responsible AI for Developers: Fairness & Bias** |
-| *Earned Apr 3, 2026* | **Introduction to Data Analytics in Google Cloud** |
-| *Earned Apr 2, 2026* | **Google DeepMind: 07 Accelerate Your Model** |
-| *Earned Apr 2, 2026* | **Google DeepMind: 05 Fine-Tune Your Model** |
-| *Earned Apr 2, 2026* | **Web and Mobile Anti-fraud Defense** |
-| *Earned Apr 1, 2026* | **Google Threat Intelligence** |
-| *Earned Mar 30, 2026* | **Security Command Center: Identify and Prioritize Risks** |
-| *Earned Mar 30, 2026* | **Deploy and Scale AI Models with Cloud Run** |
-| *Earned Mar 30, 2026* | **Configure Gemini Code Assist for Organizations** |
-| *Earned Mar 29, 2026* | **Secure GKE with Cloud Next Generation Firewall** |
-| *Earned Mar 29, 2026* | **Create Embeddings, Vector Search, and RAG with BigQuery** |
-| *Earned Mar 27, 2026* | **Introduction to SecOps on GDC** |
-| *Earned Mar 27, 2026* | **Model Armor: Securing AI Deployments** |
-| *Earned Mar 26, 2026* | **AI Services and GDC Deployments and Operations** |
-| *Earned Mar 26, 2026* | **Compute, Network, and Storage Services Configuration in GDC** |
-| *Earned Mar 26, 2026* | **GDC Platform Introduction** |
-| *Earned Mar 25, 2026* | **SecOps on GDC for Tier 1 and Tier 2 Analysts** |
-| *Earned Mar 25, 2026* | **SecOps on GDC for Tier 3 Analysts** |
-| *Earned Mar 25, 2026* | **Quiz: GDC Air-Gapped Security Operator Fundamentals** |
-| *Earned Mar 22, 2026* | **Conversational AI on Vertex AI and Dialogflow CX** |
-| *Earned Mar 22, 2026* | **Gemini for Security Engineers** |
-| *Earned Mar 22, 2026* | **Gemini for Cloud Architects** |
-| *Earned Mar 21, 2026* | **Building No-Code Apps with AppSheet: Implementation** |
-| *Earned Mar 20, 2026* | **Gemini for Application Developers** |
-| *Earned Mar 19, 2026* | **Introduction Google Security Operations (SOAR)** |
-| *Earned Mar 19, 2026* | **Google Security Operations - SOAR Developer** |
-| *Earned Mar 19, 2026* | **Google Security Operations - SOAR Analyst** |
-| *Earned Mar 19, 2026* | **Introduction to Google Security Operations (SIEM)** |
-| *Earned Mar 16, 2026* | **Google Cloud AI and ML Solutions for the Public Sector** |
-| *Earned Mar 10, 2026* | **Introduction to Looker** |
-| *Earned Mar 9, 2026* | **Networking in Google Cloud: Load Balancing** |
-| *Earned Mar 8, 2026* | **Networking in Google Cloud: Routing and Addressing** |
-| *Earned Mar 7, 2026* | **Networking in Google Cloud: Network Architecture** |
-| *Earned Mar 7, 2026* | **Networking in Google Cloud: Hybrid and Multicloud** |
-| *Earned Mar 3, 2026* | **Gemini for Network Engineers** |
-| *Earned Mar 1, 2026* | **Plan Your Cloud Next Generation Firewall Needs** |
-| *Earned Mar 1, 2026* | **Introduction to Cloud Next Generation Firewall** |
-| *Earned Feb 25, 2026* | **Build a Certification Study Guide: PMLE** |
-| *Earned Feb 24, 2026* | **Serverless Data Processing with Dataflow: Develop Pipelines** |
-| *Earned Feb 24, 2026* | **Serverless Data Processing with Dataflow: Foundations** |
-| *Earned Jan 19, 2026* | **Building No-Code Apps with AppSheet: Foundations** |
-| *Earned Jan 17, 2026* | **Google Cloud Computing Foundations: Infrastructure in Google Cloud** |
-| *Earned Jan 14, 2026* | **Google Cloud Computing Foundations: Cloud Computing Fundamentals** |
-| *Earned Jan 4, 2026* | **Security Practices with Google Security Operations - SIEM** |
-| *Earned Jan 4, 2026* | **Configure and Maintain CCaaS as an Admin** |
-| *Earned Jan 3, 2026* | **Change Management for Google Workspace** |
-| *Earned Jan 2, 2026* | **Build a Certification Study Guide: PCNE Exam Prep** |
-| *Earned Jan 2, 2026* | **Manage Functions and Reporting with CCaaS** |
-| *Earned Jan 1, 2026* | **Build a Certification Study Guide: PCA Exam Prep** |
-| *Earned Dec 31, 2025* | **Handle Consumer Interactions with CCaaS** |
-| *Earned Dec 31, 2025* | **Machine Learning Operations (MLOps) for Generative AI** |
-| *Earned Dec 31, 2025* | **Hybrid Cloud Infrastructure Foundations with Anthos** |
-| *Earned Dec 30, 2025* | **Preparing for your Professional Data Engineer Journey** |
-| *Earned Dec 30, 2025* | **Managing and Securing the Apigee Hybrid API Platform** |
-| *Earned Dec 30, 2025* | **Preparing for Your Professional Cloud Security Engineer Journey** |
-| *Earned Dec 29, 2025* | **Upgrading and Monitoring the Apigee Hybrid API Platform** |
-| *Earned Dec 29, 2025* | **Build a Certification Study Guide: ACE Exam Prep** |
-| *Earned Dec 29, 2025* | **Developing a Google SRE Culture** |
-| *Earned Dec 28, 2025* | **Managing Change when Moving to Google Cloud** |
-| *Earned Dec 28, 2025* | **Running SAP Workloads on Google Cloud: Fundamentals** |
-| *Earned Dec 27, 2025* | **The Modern Data Platform and LookML** |
-| *Earned Dec 27, 2025* | **Introduction to Cloud Identity** |
-| *Earned Dec 26, 2025* | **AppSheet Administration** |
-| *Earned Dec 26, 2025* | **[DEPRECATED] SOAR Fundamentals** |
-| *Earned Dec 25, 2025* | **Generative AI for Healthcare** |
-| *Earned Dec 25, 2025* | **MySQL to Cloud Spanner** |
-| *Earned Dec 25, 2025* | **Design Foundations for Streaming with Google Cloud** |
-| *Earned Dec 24, 2025* | **Planetary Scale Earth Observation with Google Earth Engine** |
-| *Earned Dec 24, 2025* | **Enterprise Search on Generative AI App Builder** |
-| *Earned Dec 24, 2025* | **Security Command Center Fundamentals** |
-| *Earned Dec 23, 2025* | **Google DeepMind: 04 Discover The Transformer Architecture** |
-| *Earned Dec 23, 2025* | **Google DeepMind: 03 Design And Train Neural Networks** |
-| *Earned Dec 23, 2025* | **Google DeepMind: 02 Represent Your Language Data** |
-| *Earned Dec 23, 2025* | **Google DeepMind: 01 Build Your Own Small Language Model** |
-| *Earned Dec 23, 2025* | **AppSheet Team Hierarchy** |
-| *Earned Dec 22, 2025* | **Encoder-Decoder Architecture** |
-| *Earned Dec 22, 2025* | **Create Image Captioning Models** |
-| *Earned Dec 22, 2025* | **Transformer Models and BERT Model** |
-| *Earned Dec 22, 2025* | **Attention Mechanism** |
-| *Earned Dec 22, 2025* | **Introduction to Image Generation** |
-| *Earned Dec 21, 2025* | **Supervised Fine-tuning for Gemini** |
-| *Earned Dec 20, 2025* | **Implementing Cloud Load Balancing for Compute Engine** |
-| *Earned Dec 19, 2025* | **Google Security Operations - Deep Dive** |
-| *Earned Dec 19, 2025* | **Google Security Operations - Fundamentals** |
-| *Earned Dec 18, 2025* | **AI Infrastructure: Networking Techniques** |
-| *Earned Dec 18, 2025* | **AI Infrastructure: Storage Options** |
-| *Earned Dec 18, 2025* | **AI Infrastructure: Deployment Types** |
-| *Earned Dec 17, 2025* | **Put It All Together: Prepare for a Cloud Security Analyst Job** |
-| *Earned Dec 16, 2025* | **Detect, Respond, and Recover from Cloud Cybersecurity Attacks** |
-| *Earned Dec 12, 2025* | **[DEPRECATED] Webhook fundamentals** |
-| *Earned Dec 11, 2025* | **Conversation Design Fundamentals** |
-| *Earned Dec 9, 2025* | **[DEPRECATED] Agent Summarization (Custom)** |
-| *Earned Dec 7, 2025* | **Conversational AI and its Engagement Framework** |
-| *Earned Dec 7, 2025* | **Conversational Insights** |
-| *Earned Dec 7, 2025* | **How to Use TPUs for Inference** |
-| *Earned Dec 7, 2025* | **Architecting an AI Inference Stack** |
-| *Earned Dec 6, 2025* | **Google Workspace Troubleshooting** |
-| *Earned Dec 6, 2025* | **Google Workspace Security** |
-| *Earned Dec 5, 2025* | **Google Workspace Data Governance** |
-| *Earned Dec 5, 2025* | **Google Workspace Core Services** |
-| *Earned Dec 4, 2025* | **Google Workspace User and Resource Management** |
-| *Earned Dec 3, 2025* | **Cloud Security Risks: Identify and Protect Against Threats** |
-| *Earned Nov 28, 2025* | **Strategies for Cloud Security Risk Management** |
-| *Earned Nov 26, 2025* | **Introduction to Security Principles in Cloud Computing** |
-| *Earned Nov 24, 2025* | **Create Engaging Video with Google Vids** |
-| *Earned Nov 24, 2025* | **Gemini in Google Drive** |
-| *Earned Nov 24, 2025* | **Gemini in Google Meet** |
-| *Earned Nov 24, 2025* | **Gemini in Google Sheets** |
-| *Earned Nov 24, 2025* | **Gemini in Google Slides** |
-| *Earned Nov 24, 2025* | **Gemini in Google Docs** |
-| *Earned Nov 24, 2025* | **Gemini in Gmail** |
-| *Earned Nov 24, 2025* | **Google Workspace with Gemini: Foundations of Your AI Workflow** |
-| *Earned Nov 23, 2025* | **AI Infrastructure: Cloud TPUs** |
-| *Earned Nov 23, 2025* | **AI Infrastructure: Cloud GPUs** |
-| *Earned Nov 23, 2025* | **AI Infrastructure: Introduction to AI Hypercomputer** |
-| *Earned Nov 23, 2025* | **Use Functions, Formulas, and Charts in Google Sheets** |
-| *Earned Nov 19, 2025* | **Implement Cloud Collaboration and Productivity Workflows** |
-| *Earned Nov 15, 2025* | **Google Sheets - Advanced Topics** |
-| *Earned Nov 14, 2025* | **Google Chat** |
-| *Earned Nov 14, 2025* | **Google Meet** |
-| *Earned Nov 13, 2025* | **Google Slides** |
-| *Earned Nov 13, 2025* | **Google Sheets** |
-| *Earned Nov 12, 2025* | **Google Docs** |
-| *Earned Nov 12, 2025* | **Google Drive** |
-| *Earned Nov 11, 2025* | **Google Calendar** |
-| *Earned Nov 11, 2025* | **Gmail** |
-| *Earned Nov 10, 2025* | **Gen AI Agents: Transform Your Organization** |
-| *Earned Nov 9, 2025* | **Gen AI Apps: Transform Your Work** |
-| *Earned Nov 9, 2025* | **Gen AI: Navigate the Landscape** |
-| *Earned Nov 9, 2025* | **Gen AI: Unlock Foundational Concepts** |
-| *Earned Nov 8, 2025* | **Gen AI: Beyond the Chatbot** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Advanced Analysis in Sheets** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Notes to Sheets with Gemini** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Gemini Calendar Hacks in Gmail** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Build Slides Fast with Gemini** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Talk to Your Data in Sheets** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: AI Magic in a Sheets Cell** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Create ‘What If’ Scenarios with AI** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Become a Creative Mashup Artist** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Become an AI Art Director for Your World** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Create the Perfect Portrait** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Research Hacks with NotebookLM** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Find the Story in Your Data** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Streamline Event Planning with AI** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Supercharge Research with Gemini** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Make Any Big Purchase with Confidence** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Animated Charts with Gemini** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Turn Your Ideas into Animated Art** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Your Personal AI Tutor** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Gamify Your Study Guides** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Get Your Competitor's Playbook in Minutes** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Build a Personalized Weather App** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Create a 3D Solar System** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Create Your Own Productivity Tools** |
-| *Earned Nov 7, 2025* | **AI Boost Bites: Guided Learning with Gemini** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Create Your Own Retro Arcade Game** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Become a "Vibe DJ"** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Create Your Ultimate College Scouting Report** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: One-Click Campaign Visuals** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: From Napkin Sketch to Functional App** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: NotebookLM Reports** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Your Personal Feedback Agent** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Presentation Scripts with Gemini** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Project Notebooks** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: NotebookLM for Market Research** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: NotebookLM Video Overviews** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Discover Sources in NotebookLM** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: NotebookLM Mind Maps** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Intro to NotebookLM** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Email Content Creation** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Create Docs in Seconds** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: AI Power-Ups for Google Workspace** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Tame Your Inbox with AI** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Gemini Slide Summaries** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: No-Code Sheets & Scripts** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Amplify Exec Voices with AI** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Exec Summaries with Gemini Gems** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Automate tasks with Gemini and Apps Script** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: "Eat the Frog" with NotebookLM** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Gemini Image-to-Sheets Hack** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Poke Holes in Your Strategy** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: NotebookLM for Competitive Edge** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Personalization with customized prompts** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: TL;DR with Gemini in Docs & Drive** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Prompting like a Pro with Google Workspace** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Content Generation with Gemini Made Easy** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Customer insights with NotebookLM** |
-| *Earned Nov 6, 2025* | **AI Boost Bites: Gemini Gems – Your ultimate marketing sidekick** |
-| *Earned Nov 5, 2025* | **Responsible AI: Applying AI Principles with Google Cloud** |
-| *Earned Nov 4, 2025* | **Prompt Design in Agent Platform** |
-| *Earned Oct 31, 2025* | **Introduction to Responsible AI** |
-| *Earned Oct 30, 2025* | **Introduction to Large Language Models** |
-| *Earned Oct 30, 2025* | **Introduction to Generative AI** |
-| *Earned Sep 17, 2025* | **Scaling with Google Cloud Operations** |
-| *Earned Sep 14, 2025* | **Trust and Security with Google Cloud** |
-| *Earned Sep 13, 2025* | **Modernize Infrastructure and Applications with Google Cloud** |
-| *Earned Sep 12, 2025* | **Innovating with Google Cloud Artificial Intelligence** |
-| *Earned Sep 11, 2025* | **Exploring Data Transformation with Google Cloud** |
-| *Earned Sep 6, 2025* | **Digital Transformation with Google Cloud** |
+| 2026-07-21 | **Build Serverless Applications with Cloud Run Functions** |
+| 2026-07-19 | **Secure Software Delivery** |
+| 2026-07-19 | **Arcade Base Camp July 2026** |
+| 2026-07-16 | **Build a Data Mesh with Knowledge Catalog** |
+| 2026-07-16 | **Arcade Simulator: Data Mesh Architect** |
+| 2026-07-15 | **Deploy and Monitor in Google Cloud for AWS Professionals** |
+| 2026-07-13 | **Developing Containerized Applications on Google Cloud** |
+| 2026-07-12 | **Developing Applications with Cloud Run Functions on Google Cloud** |
+| 2026-07-10 | **Build a Data Warehouse with BigQuery** |
+| 2026-07-08 | **Arcade Trail: Google Workspace Administration** |
+| 2026-07-07 | **Safe Spaces** |
+| 2026-07-07 | **Optimize Costs for Google Kubernetes Engine** |
+| 2026-07-03 | **Mitigate Threats and Vulnerabilities with Security Command Center** |
+| 2026-07-02 | **Build Infrastructure with Terraform on Google Cloud** |
+| 2026-06-30 | **Set Up an App Dev Environment on Google Cloud** |
+| 2026-06-28 | **Implement Speech and Language Solutions with Pre-trained APIs** |
+| 2026-06-28 | **Arcade Voyage: Identity Management and Pre-trained AI APIs** |
+| 2026-06-26 | **Configure Service Accounts and IAM Roles for Google Cloud** |
+| 2026-06-25 | **Building No-Code Apps with AppSheet: Automation** |
+| 2026-06-23 | **Applying Advanced LookML Concepts in Looker** |
+| 2026-06-23 | **Understanding LookML in Looker** |
+| 2026-06-23 | **Using the Google Cloud Speech API** |
+| 2026-06-21 | **Use APIs to Work with Cloud Storage** |
+| 2026-06-21 | **The Basics of Google Cloud Compute** |
+| 2026-06-21 | **Customer Experience Agent Studio: Fundamentals** |
+| 2026-06-19 | **Troubleshooting with AI Using Cloud Assist Investigations** |
+| 2026-06-17 | **Store, Process, and Manage Data on Google Cloud - Console** |
+| 2026-06-15 | **AI Boost Bootcamp: How to Use Gemini for Marketing 201** |
+| 2026-06-13 | **Organize and Govern Data with Knowledge Catalog** |
+| 2026-06-13 | **Essential Google Cloud CLI Tools** |
+| 2026-06-12 | **Managing Cloud Infrastructure with Terraform** |
+| 2026-06-10 | **Google Cloud Essentials** |
+| 2026-06-03 | **Analyzing and Visualizing Data in Looker** |
+| 2026-05-30 | **Developing Data Models with LookML** |
+| 2026-05-26 | **Introduction to Data Analytics on Google Cloud** |
+| 2026-05-25 | **Manage Data Models in Looker** |
+| 2026-05-24 | **App Building with AppSheet** |
+| 2026-05-24 | **Analyze BigQuery Data in Connected Sheets** |
+| 2026-05-23 | **Build Real World AI Applications with Gemini and Imagen** |
+| 2026-05-21 | **Website Modernization with Generative AI on Google Cloud** |
+| 2026-05-19 | **Data Governance with Dataplex Universal Catalog** |
+| 2026-05-18 | **Boost Productivity with Gemini in BigQuery** |
+| 2026-05-18 | **Accelerate App Development with Gemini CLI** |
+| 2026-05-15 | **Working with Notebooks in Vertex AI** |
+| 2026-05-15 | **Select a Google Cloud Database for Your Applications** |
+| 2026-05-15 | **Build AI Agents with Enterprise Databases** |
+| 2026-05-14 | **Looker Studio Essentials** |
+| 2026-05-14 | **AI Boost Bites: Presentations in Seconds with Nano Banana Pro** |
+| 2026-05-14 | **AI Boost Bites: Become a Homework Hero for Your Kids** |
+| 2026-05-14 | **AI Boost Bites: Productivity On the Go with NotebookLM** |
+| 2026-05-14 | **AI Boost Bites: How Google's L&D Uses AI to build Training Programs** |
+| 2026-05-14 | **AI Boost Bites: Build Charts with a Prompt** |
+| 2026-05-14 | **AI Boost Bites: The Recruiter's Playbook in Gmail** |
+| 2026-05-14 | **AI Boost Bites: Triage a Crisis with Gemini** |
+| 2026-05-14 | **AI Boost Bites: How Google's L&D Uses AI for Strategy** |
+| 2026-05-14 | **AI Boost Bites: Bring your photos to life with AI** |
+| 2026-05-14 | **AI Boost Bites: Build an AI Support Bot** |
+| 2026-05-14 | **AI Boost Bites: Build Your AI Strategic Partner** |
+| 2026-05-14 | **AI Boost Bites: Build a Custom AI Teammate** |
+| 2026-05-14 | **AI Boost Bites: Your Personal AI Study Partner** |
+| 2026-05-14 | **AI Boost Bites: Shareable Gems** |
+| 2026-05-14 | **AI Boost Bites: Your AI Chart Detective** |
+| 2026-05-12 | **Innovating with Data and Google Cloud** |
+| 2026-05-07 | **Build a Certification Study Guide: PCDOE Exam Prep** |
+| 2026-05-05 | **Machine Learning Operations (MLOps): Getting Started** |
+| 2026-05-05 | **Chronicle SOAR Fundamentals - Locales** |
+| 2026-05-05 | **Introduction to Vertex AI Studio** |
+| 2026-05-05 | **Google Workspace Essentials** |
+| 2026-05-04 | **Streamline App Development with Gemini Code Assist** |
+| 2026-05-02 | **Develop AI-Powered Prototypes in Google AI Studio** |
+| 2026-05-02 | **Build a Certification Study Guide: PCD Exam Prep** |
+| 2026-05-02 | **Google Cloud Database Migrations: Homogeneous** |
+| 2026-05-01 | **AI-powered Database Management with Gemini** |
+| 2026-05-01 | **Agentic Strategy: Discover, Design, and Prototype** |
+| 2026-05-01 | **Running Oracle Workloads on Google Cloud: Fundamentals** |
+| 2026-05-01 | **Add Agent Guardrails with Callbacks** |
+| 2026-05-01 | **AI Boost Bootcamp: How to Use Gemini at Work 101** |
+| 2026-05-01 | **Human-Centered AI** |
+| 2026-04-29 | **Fundamentals of Google's Arm-based Axion Processors** |
+| 2026-04-29 | **Digital Sovereignty with Google Cloud** |
+| 2026-04-29 | **Build and Deploy Agents in Production** |
+| 2026-04-28 | **Preparing for your Professional Cloud Database Engineer Journey** |
+| 2026-04-27 | **Generate and Edit Media in Agent Platform** |
+| 2026-04-27 | **Security Command Center: Vulnerabilities and Misconfigurations** |
+| 2026-04-27 | **Migrating to Google Cloud: Fundamentals** |
+| 2026-04-27 | **Google Cloud Database Migrations: Strategy** |
+| 2026-04-26 | **Liftoff with Google Antigravity: Build a Video Game with AI** |
+| 2026-04-26 | **Google AI for Finance Professionals** |
+| 2026-04-26 | **Orchestrate Multi-agent Workflows with Gemini Enterprise** |
+| 2026-04-25 | **L300 Google Distributed Cloud air-gapped** |
+| 2026-04-24 | **Looker Studio Pro Essentials** |
+| 2026-04-24 | **Responsible AI for Digital Leaders with Google Cloud** |
+| 2026-04-24 | **Unleash Team Potential: Assess Learning Needs Using GenAI** |
+| 2026-04-23 | **Introduction to Reliable Deep Learning** |
+| 2026-04-23 | **Introduction to Security in the World of AI** |
+| 2026-04-23 | **[DEPRECATED] Google Cloud: Prompt Engineering Guide** |
+| 2026-04-23 | **Future-Proof Your AI Learning Strategy** |
+| 2026-04-22 | **Introduction to Google Distributed Cloud Sandbox** |
+| 2026-04-21 | **Google Cloud Security for the Public Sector** |
+| 2026-04-20 | **Accelerate Knowledge Exchange with Gemini Enterprise** |
+| 2026-04-18 | **Build a Certification Study Guide: PSOE Exam Prep** |
+| 2026-04-18 | **Gemini for end-to-end SDLC** |
+| 2026-04-18 | **Implement Cloud Next Generation Firewall** |
+| 2026-04-17 | **Quiz: GDC Air-Gapped Practitioner Fundamentals** |
+| 2026-04-16 | **Machine Learning Operations (MLOps) with Agent Platform: Model Evaluation** |
+| 2026-04-15 | **Introduction to Google Security Operations: Unified SecOps** |
+| 2026-04-14 | **Responsible AI for Developers: Interpretability & Transparency** |
+| 2026-04-13 | **Architecting and Installing the Apigee Hybrid API Platform** |
+| 2026-04-12 | **GKE Routing and IP Address Management** |
+| 2026-04-11 | **Deploy Your First Agent** |
+| 2026-04-11 | **Orchestrate Complex Multi-Agent Workflows** |
+| 2026-04-11 | **Coordinate Multiple Agents** |
+| 2026-04-11 | **Introduction to GKE Networking** |
+| 2026-04-10 | **Network Observability on Google Cloud** |
+| 2026-04-10 | **Agent Assist and its Gen AI Capabilities** |
+| 2026-04-10 | **Architect Gemini Enterprise for Customer Experience** |
+| 2026-04-09 | **Create Your First Gemini Enterprise Application** |
+| 2026-04-09 | **Enterprise Agents and Use Cases** |
+| 2026-04-09 | **Introduction to AI Agents** |
+| 2026-04-08 | **Manage Agent Memory and State** |
+| 2026-04-08 | **Add Agent Capabilities With Tools** |
+| 2026-04-08 | **Build Agents with Agent Development Kit (ADK)** |
+| 2026-04-07 | **Optimize Agent Behavior** |
+| 2026-04-07 | **Build Your First Agent with Agent Development Kit (ADK)** |
+| 2026-04-07 | **Agent Fundamentals** |
+| 2026-04-07 | **Create Agents with Generative Playbooks** |
+| 2026-04-06 | **Getting Started with Security Command Center Enterprise** |
+| 2026-04-05 | **Unlock Insights with NotebookLM** |
+| 2026-04-05 | **Introduction to reCAPTCHA** |
+| 2026-04-04 | **Introduction to Gemini Enterprise** |
+| 2026-04-03 | **Responsible AI for Developers: Fairness & Bias** |
+| 2026-04-03 | **Introduction to Data Analytics in Google Cloud** |
+| 2026-04-02 | **Google DeepMind: 07 Accelerate Your Model** |
+| 2026-04-02 | **Google DeepMind: 05 Fine-Tune Your Model** |
+| 2026-04-02 | **Web and Mobile Anti-fraud Defense** |
+| 2026-04-01 | **Google Threat Intelligence** |
+| 2026-03-30 | **Security Command Center: Identify and Prioritize Risks** |
+| 2026-03-30 | **Deploy and Scale AI Models with Cloud Run** |
+| 2026-03-30 | **Configure Gemini Code Assist for Organizations** |
+| 2026-03-29 | **Secure GKE with Cloud Next Generation Firewall** |
+| 2026-03-29 | **Create Embeddings, Vector Search, and RAG with BigQuery** |
+| 2026-03-27 | **Introduction to SecOps on GDC** |
+| 2026-03-27 | **Model Armor: Securing AI Deployments** |
+| 2026-03-26 | **AI Services and GDC Deployments and Operations** |
+| 2026-03-26 | **Compute, Network, and Storage Services Configuration in GDC** |
+| 2026-03-26 | **GDC Platform Introduction** |
+| 2026-03-25 | **SecOps on GDC for Tier 1 and Tier 2 Analysts** |
+| 2026-03-25 | **SecOps on GDC for Tier 3 Analysts** |
+| 2026-03-25 | **Quiz: GDC Air-Gapped Security Operator Fundamentals** |
+| 2026-03-22 | **Conversational AI on Vertex AI and Dialogflow CX** |
+| 2026-03-22 | **Gemini for Security Engineers** |
+| 2026-03-22 | **Gemini for Cloud Architects** |
+| 2026-03-21 | **Building No-Code Apps with AppSheet: Implementation** |
+| 2026-03-20 | **Gemini for Application Developers** |
+| 2026-03-19 | **Introduction Google Security Operations (SOAR)** |
+| 2026-03-19 | **Google Security Operations - SOAR Developer** |
+| 2026-03-19 | **Google Security Operations - SOAR Analyst** |
+| 2026-03-19 | **Introduction to Google Security Operations (SIEM)** |
+| 2026-03-16 | **Google Cloud AI and ML Solutions for the Public Sector** |
+| 2026-03-10 | **Introduction to Looker** |
+| 2026-03-09 | **Networking in Google Cloud: Load Balancing** |
+| 2026-03-08 | **Networking in Google Cloud: Routing and Addressing** |
+| 2026-03-07 | **Networking in Google Cloud: Network Architecture** |
+| 2026-03-07 | **Networking in Google Cloud: Hybrid and Multicloud** |
+| 2026-03-03 | **Gemini for Network Engineers** |
+| 2026-03-01 | **Plan Your Cloud Next Generation Firewall Needs** |
+| 2026-03-01 | **Introduction to Cloud Next Generation Firewall** |
+| 2026-02-25 | **Build a Certification Study Guide: PMLE** |
+| 2026-02-24 | **Serverless Data Processing with Dataflow: Develop Pipelines** |
+| 2026-02-24 | **Serverless Data Processing with Dataflow: Foundations** |
+| 2026-01-19 | **Building No-Code Apps with AppSheet: Foundations** |
+| 2026-01-17 | **Google Cloud Computing Foundations: Infrastructure in Google Cloud** |
+| 2026-01-14 | **Google Cloud Computing Foundations: Cloud Computing Fundamentals** |
+| 2026-01-04 | **Security Practices with Google Security Operations - SIEM** |
+| 2026-01-04 | **Configure and Maintain CCaaS as an Admin** |
+| 2026-01-03 | **Change Management for Google Workspace** |
+| 2026-01-02 | **Build a Certification Study Guide: PCNE Exam Prep** |
+| 2026-01-02 | **Manage Functions and Reporting with CCaaS** |
+| 2026-01-01 | **Build a Certification Study Guide: PCA Exam Prep** |
+| 2025-12-31 | **Handle Consumer Interactions with CCaaS** |
+| 2025-12-31 | **Machine Learning Operations (MLOps) for Generative AI** |
+| 2025-12-31 | **Hybrid Cloud Infrastructure Foundations with Anthos** |
+| 2025-12-30 | **Preparing for your Professional Data Engineer Journey** |
+| 2025-12-30 | **Managing and Securing the Apigee Hybrid API Platform** |
+| 2025-12-30 | **Preparing for Your Professional Cloud Security Engineer Journey** |
+| 2025-12-29 | **Upgrading and Monitoring the Apigee Hybrid API Platform** |
+| 2025-12-29 | **Build a Certification Study Guide: ACE Exam Prep** |
+| 2025-12-29 | **Developing a Google SRE Culture** |
+| 2025-12-28 | **Managing Change when Moving to Google Cloud** |
+| 2025-12-28 | **Running SAP Workloads on Google Cloud: Fundamentals** |
+| 2025-12-27 | **The Modern Data Platform and LookML** |
+| 2025-12-27 | **Introduction to Cloud Identity** |
+| 2025-12-26 | **AppSheet Administration** |
+| 2025-12-26 | **[DEPRECATED] SOAR Fundamentals** |
+| 2025-12-25 | **Generative AI for Healthcare** |
+| 2025-12-25 | **MySQL to Cloud Spanner** |
+| 2025-12-25 | **Design Foundations for Streaming with Google Cloud** |
+| 2025-12-24 | **Planetary Scale Earth Observation with Google Earth Engine** |
+| 2025-12-24 | **Enterprise Search on Generative AI App Builder** |
+| 2025-12-24 | **Security Command Center Fundamentals** |
+| 2025-12-23 | **Google DeepMind: 04 Discover The Transformer Architecture** |
+| 2025-12-23 | **Google DeepMind: 03 Design And Train Neural Networks** |
+| 2025-12-23 | **Google DeepMind: 02 Represent Your Language Data** |
+| 2025-12-23 | **Google DeepMind: 01 Build Your Own Small Language Model** |
+| 2025-12-23 | **AppSheet Team Hierarchy** |
+| 2025-12-22 | **Encoder-Decoder Architecture** |
+| 2025-12-22 | **Create Image Captioning Models** |
+| 2025-12-22 | **Transformer Models and BERT Model** |
+| 2025-12-22 | **Attention Mechanism** |
+| 2025-12-22 | **Introduction to Image Generation** |
+| 2025-12-21 | **Supervised Fine-tuning for Gemini** |
+| 2025-12-20 | **Implementing Cloud Load Balancing for Compute Engine** |
+| 2025-12-19 | **Google Security Operations - Deep Dive** |
+| 2025-12-19 | **Google Security Operations - Fundamentals** |
+| 2025-12-18 | **AI Infrastructure: Networking Techniques** |
+| 2025-12-18 | **AI Infrastructure: Storage Options** |
+| 2025-12-18 | **AI Infrastructure: Deployment Types** |
+| 2025-12-17 | **Put It All Together: Prepare for a Cloud Security Analyst Job** |
+| 2025-12-16 | **Detect, Respond, and Recover from Cloud Cybersecurity Attacks** |
+| 2025-12-12 | **[DEPRECATED] Webhook fundamentals** |
+| 2025-12-11 | **Conversation Design Fundamentals** |
+| 2025-12-09 | **[DEPRECATED] Agent Summarization (Custom)** |
+| 2025-12-07 | **Conversational AI and its Engagement Framework** |
+| 2025-12-07 | **Conversational Insights** |
+| 2025-12-07 | **How to Use TPUs for Inference** |
+| 2025-12-07 | **Architecting an AI Inference Stack** |
+| 2025-12-06 | **Google Workspace Troubleshooting** |
+| 2025-12-06 | **Google Workspace Security** |
+| 2025-12-05 | **Google Workspace Data Governance** |
+| 2025-12-05 | **Google Workspace Core Services** |
+| 2025-12-04 | **Google Workspace User and Resource Management** |
+| 2025-12-03 | **Cloud Security Risks: Identify and Protect Against Threats** |
+| 2025-11-28 | **Strategies for Cloud Security Risk Management** |
+| 2025-11-26 | **Introduction to Security Principles in Cloud Computing** |
+| 2025-11-24 | **Create Engaging Video with Google Vids** |
+| 2025-11-24 | **Gemini in Google Drive** |
+| 2025-11-24 | **Gemini in Google Meet** |
+| 2025-11-24 | **Gemini in Google Sheets** |
+| 2025-11-24 | **Gemini in Google Slides** |
+| 2025-11-24 | **Gemini in Google Docs** |
+| 2025-11-24 | **Gemini in Gmail** |
+| 2025-11-24 | **Google Workspace with Gemini: Foundations of Your AI Workflow** |
+| 2025-11-23 | **AI Infrastructure: Cloud TPUs** |
+| 2025-11-23 | **AI Infrastructure: Cloud GPUs** |
+| 2025-11-23 | **AI Infrastructure: Introduction to AI Hypercomputer** |
+| 2025-11-23 | **Use Functions, Formulas, and Charts in Google Sheets** |
+| 2025-11-19 | **Implement Cloud Collaboration and Productivity Workflows** |
+| 2025-11-15 | **Google Sheets - Advanced Topics** |
+| 2025-11-14 | **Google Chat** |
+| 2025-11-14 | **Google Meet** |
+| 2025-11-13 | **Google Slides** |
+| 2025-11-13 | **Google Sheets** |
+| 2025-11-12 | **Google Docs** |
+| 2025-11-12 | **Google Drive** |
+| 2025-11-11 | **Google Calendar** |
+| 2025-11-11 | **Gmail** |
+| 2025-11-10 | **Gen AI Agents: Transform Your Organization** |
+| 2025-11-09 | **Gen AI Apps: Transform Your Work** |
+| 2025-11-09 | **Gen AI: Navigate the Landscape** |
+| 2025-11-09 | **Gen AI: Unlock Foundational Concepts** |
+| 2025-11-08 | **Gen AI: Beyond the Chatbot** |
+| 2025-11-07 | **AI Boost Bites: Advanced Analysis in Sheets** |
+| 2025-11-07 | **AI Boost Bites: Notes to Sheets with Gemini** |
+| 2025-11-07 | **AI Boost Bites: Gemini Calendar Hacks in Gmail** |
+| 2025-11-07 | **AI Boost Bites: Build Slides Fast with Gemini** |
+| 2025-11-07 | **AI Boost Bites: Talk to Your Data in Sheets** |
+| 2025-11-07 | **AI Boost Bites: AI Magic in a Sheets Cell** |
+| 2025-11-07 | **AI Boost Bites: Create ‘What If’ Scenarios with AI** |
+| 2025-11-07 | **AI Boost Bites: Become a Creative Mashup Artist** |
+| 2025-11-07 | **AI Boost Bites: Become an AI Art Director for Your World** |
+| 2025-11-07 | **AI Boost Bites: Create the Perfect Portrait** |
+| 2025-11-07 | **AI Boost Bites: Research Hacks with NotebookLM** |
+| 2025-11-07 | **AI Boost Bites: Find the Story in Your Data** |
+| 2025-11-07 | **AI Boost Bites: Streamline Event Planning with AI** |
+| 2025-11-07 | **AI Boost Bites: Supercharge Research with Gemini** |
+| 2025-11-07 | **AI Boost Bites: Make Any Big Purchase with Confidence** |
+| 2025-11-07 | **AI Boost Bites: Animated Charts with Gemini** |
+| 2025-11-07 | **AI Boost Bites: Turn Your Ideas into Animated Art** |
+| 2025-11-07 | **AI Boost Bites: Your Personal AI Tutor** |
+| 2025-11-07 | **AI Boost Bites: Gamify Your Study Guides** |
+| 2025-11-07 | **AI Boost Bites: Get Your Competitor's Playbook in Minutes** |
+| 2025-11-07 | **AI Boost Bites: Build a Personalized Weather App** |
+| 2025-11-07 | **AI Boost Bites: Create a 3D Solar System** |
+| 2025-11-07 | **AI Boost Bites: Create Your Own Productivity Tools** |
+| 2025-11-07 | **AI Boost Bites: Guided Learning with Gemini** |
+| 2025-11-06 | **AI Boost Bites: Create Your Own Retro Arcade Game** |
+| 2025-11-06 | **AI Boost Bites: Become a "Vibe DJ"** |
+| 2025-11-06 | **AI Boost Bites: Create Your Ultimate College Scouting Report** |
+| 2025-11-06 | **AI Boost Bites: One-Click Campaign Visuals** |
+| 2025-11-06 | **AI Boost Bites: From Napkin Sketch to Functional App** |
+| 2025-11-06 | **AI Boost Bites: NotebookLM Reports** |
+| 2025-11-06 | **AI Boost Bites: Your Personal Feedback Agent** |
+| 2025-11-06 | **AI Boost Bites: Presentation Scripts with Gemini** |
+| 2025-11-06 | **AI Boost Bites: Project Notebooks** |
+| 2025-11-06 | **AI Boost Bites: NotebookLM for Market Research** |
+| 2025-11-06 | **AI Boost Bites: NotebookLM Video Overviews** |
+| 2025-11-06 | **AI Boost Bites: Discover Sources in NotebookLM** |
+| 2025-11-06 | **AI Boost Bites: NotebookLM Mind Maps** |
+| 2025-11-06 | **AI Boost Bites: Intro to NotebookLM** |
+| 2025-11-06 | **AI Boost Bites: Email Content Creation** |
+| 2025-11-06 | **AI Boost Bites: Create Docs in Seconds** |
+| 2025-11-06 | **AI Boost Bites: AI Power-Ups for Google Workspace** |
+| 2025-11-06 | **AI Boost Bites: Tame Your Inbox with AI** |
+| 2025-11-06 | **AI Boost Bites: Gemini Slide Summaries** |
+| 2025-11-06 | **AI Boost Bites: No-Code Sheets & Scripts** |
+| 2025-11-06 | **AI Boost Bites: Amplify Exec Voices with AI** |
+| 2025-11-06 | **AI Boost Bites: Exec Summaries with Gemini Gems** |
+| 2025-11-06 | **AI Boost Bites: Automate tasks with Gemini and Apps Script** |
+| 2025-11-06 | **AI Boost Bites: "Eat the Frog" with NotebookLM** |
+| 2025-11-06 | **AI Boost Bites: Gemini Image-to-Sheets Hack** |
+| 2025-11-06 | **AI Boost Bites: Poke Holes in Your Strategy** |
+| 2025-11-06 | **AI Boost Bites: NotebookLM for Competitive Edge** |
+| 2025-11-06 | **AI Boost Bites: Personalization with customized prompts** |
+| 2025-11-06 | **AI Boost Bites: TL;DR with Gemini in Docs & Drive** |
+| 2025-11-06 | **AI Boost Bites: Prompting like a Pro with Google Workspace** |
+| 2025-11-06 | **AI Boost Bites: Content Generation with Gemini Made Easy** |
+| 2025-11-06 | **AI Boost Bites: Customer insights with NotebookLM** |
+| 2025-11-06 | **AI Boost Bites: Gemini Gems – Your ultimate marketing sidekick** |
+| 2025-11-05 | **Responsible AI: Applying AI Principles with Google Cloud** |
+| 2025-11-04 | **Prompt Design in Agent Platform** |
+| 2025-10-31 | **Introduction to Responsible AI** |
+| 2025-10-30 | **Introduction to Large Language Models** |
+| 2025-10-30 | **Introduction to Generative AI** |
+| 2025-09-17 | **Scaling with Google Cloud Operations** |
+| 2025-09-14 | **Trust and Security with Google Cloud** |
+| 2025-09-13 | **Modernize Infrastructure and Applications with Google Cloud** |
+| 2025-09-12 | **Innovating with Google Cloud Artificial Intelligence** |
+| 2025-09-11 | **Exploring Data Transformation with Google Cloud** |
+| 2025-09-06 | **Digital Transformation with Google Cloud** |
 
 
 [← Back to README](../README.md)
