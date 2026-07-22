@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 1 of 6
-date_range: 2026-06-22 to 2026-07-20
-total_entries: 76
+date_range: 2026-06-22 to 2026-07-22
+total_entries: 77
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| AI Agents: Cognitive Upgrade and Business Efficiency | Digital Course | 2026-07-22 | 3 hours | 🎓 Available on Profile |
+| AWS Cloud for absolute beginners | Digital Course | 2026-07-22 | 3 hours | 🎓 Available on Profile |
+| AWS Technical Essentials | Digital Course | 2026-07-22 | 4 hours | 🎓 Available on Profile |
+| Data Engineering on AWS - Foundations | Digital Course | 2026-07-22 | 4 hours | 🎓 Available on Profile |
 | AWS CodeArtifact Getting Started | Digital Course | 2026-07-20 | 1 hour 30 minutes | 🎓 Available on Profile |
 | AWS CodeDeploy Getting Started | Digital Course | 2026-07-20 | 2 hours | 🎓 Available on Profile |
 | AWS for SAP - Generative AI Fundamentals | Digital Course | 2026-07-20 | 1 hour 15 minutes | 🎓 Available on Profile |
@@ -85,9 +89,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Automating with AI/ML for Small Business Owners | Digital Course | 2026-06-22 | 7 minutes | 🎓 Available on Profile |
 | Cloud Migration for Small Business Owners | Digital Course | 2026-06-22 | 6 minutes | 🎓 Available on Profile |
 | Cybersecurity for Small Business Owners | Digital Course | 2026-06-22 | 8 minutes | 🎓 Available on Profile |
-| Differentiation for Independent Software Vendors (ISV) | Digital Course | 2026-06-22 | 15 minutes | 🎓 Available on Profile |
-| Getting started with Amazon Connect Customer's agentic CX designer | Digital Course | 2026-06-22 | 3 hours | 🎓 Available on Profile |
-| Introduction to Amazon EC2 G7 Instances | Digital Course | 2026-06-22 | 30 minutes | 🎓 Available on Profile |
 
 ---
 > **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md)

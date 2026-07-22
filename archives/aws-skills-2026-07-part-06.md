@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 6 of 6
-date_range: - to 2026-02-09
-total_entries: 49
+date_range: - to 2026-02-10
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-06.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| Amazon Q Developer Getting Started | Digital Course | 2026-02-10 | 1 hour | 🎓 Available on Profile |
+| AWS Transform for mainframe Fundamentals | Digital Course | 2026-02-10 | 45 minutes | 🎓 Available on Profile |
+| Introduction to AWS Elemental MediaConnect | Digital Course | 2026-02-10 | 1 hour | 🎓 Available on Profile |
+| [RETIRED] Introduction to AWS WAF | Digital Course | 2026-02-09 | 15 minutes | 🎓 Available on Profile |
 | AWS Application Migration Service Getting Started | Digital Course | 2026-02-09 | 45 minutes | 🎓 Available on Profile |
 | Introduction to Amazon CloudWatch Logs Insights | Digital Course | 2026-02-08 | 15 minutes | 🎓 Available on Profile |
 | Fundamentals of Generative AI | Digital Course | 2026-02-07 | 3 hours | 🎓 Available on Profile |

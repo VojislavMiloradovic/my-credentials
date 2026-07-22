@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 4 of 6
-date_range: 2026-03-08 to 2026-03-18
+date_range: 2026-03-08 to 2026-03-19
 total_entries: 80
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-04.md
 ---
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| AWS Cloud Economics for Healthcare | Digital Course | 2026-03-19 | 1 hour 20 minutes | 🎓 Available on Profile |
+| AWS Cloud Essentials for Business Leaders | Digital Course | 2026-03-19 | 2 hours | 🎓 Available on Profile |
+| AWS Config Getting Started | Digital Course | 2026-03-19 | 1 hour 30 minutes | 🎓 Available on Profile |
+| Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English) | Digital Course | 2026-03-19 | 1 hour | 🎓 Available on Profile |
 | AgentCore Browser: Secure and Scalable Web Automation with Amazon Bedrock | Self-Paced Lab | 2026-03-18 | 40 minutes | 🎓 Available on Profile |
 | Amazon Connect: Introduction to the Administrative Interface | Digital Course | 2026-03-18 | 1 hour 30 minutes | 🎓 Available on Profile |
 | Amazon SageMaker Unified Studio - Administrator Fundamentals | Digital Course | 2026-03-18 | 1 hour 30 minutes | 🎓 Available on Profile |
@@ -88,10 +92,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | AWS Lambda Foundations | Digital Course | 2026-03-09 | 2 hours | 🎓 Available on Profile |
 | AWS X-Ray Getting Started | Digital Course | 2026-03-09 | 1 hour | 🎓 Available on Profile |
 | [RETIRED] AWS Fargate - Overview | Digital Course | 2026-03-08 | 10 minutes | 🎓 Available on Profile |
-| [RETIRED] Introduction to Amazon CloudFront | Digital Course | 2026-03-08 | 10 minutes | 🎓 Available on Profile |
-| Amazon Quick Sight Getting Started | Digital Course | 2026-03-08 | 1 hour | 🎓 Available on Profile |
-| Amazon SageMaker Unified Studio Foundations | Digital Course | 2026-03-08 | 1 hour | 🎓 Available on Profile |
-| Introduction to AI-Driven Development Lifecycle | Digital Course | 2026-03-08 | 15 minutes | 🎓 Available on Profile |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-03.md](aws-skills-2026-07-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-05.md](aws-skills-2026-07-part-05.md)

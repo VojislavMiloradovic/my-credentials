@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 5 of 6
-date_range: 2026-02-09 to 2026-03-08
+date_range: 2026-02-10 to 2026-03-08
 total_entries: 83
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-05.md
 ---
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| [RETIRED] Introduction to Amazon CloudFront | Digital Course | 2026-03-08 | 10 minutes | 🎓 Available on Profile |
+| Amazon Quick Sight Getting Started | Digital Course | 2026-03-08 | 1 hour | 🎓 Available on Profile |
+| Amazon SageMaker Unified Studio Foundations | Digital Course | 2026-03-08 | 1 hour | 🎓 Available on Profile |
+| Introduction to AI-Driven Development Lifecycle | Digital Course | 2026-03-08 | 15 minutes | 🎓 Available on Profile |
 | Introduction to Amazon Connect Health | Digital Course | 2026-03-08 | 45 minutes | 🎓 Available on Profile |
 | Introduction to SageMaker Unified Studio - Local IDE VS Code and Kiro Integration | Digital Course | 2026-03-08 | 30 minutes | 🎓 Available on Profile |
 | Amazon Connect Getting Started | Digital Course | 2026-03-07 | 1 hour | 🎓 Available on Profile |
@@ -91,10 +95,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Amazon Connect - Troubleshooting | Digital Course | 2026-02-11 | 1 hour | 🎓 Available on Profile |
 | Data Modeling for Amazon ElastiCache for Redis | Digital Course | 2026-02-11 | 45 minutes | 🎓 Available on Profile |
 | [RETIRING - 2026-08-03] Amazon WorkMail Getting Started | Digital Course | 2026-02-10 | 1 hour | 🎓 Available on Profile |
-| Amazon Q Developer Getting Started | Digital Course | 2026-02-10 | 1 hour | 🎓 Available on Profile |
-| AWS Transform for mainframe Fundamentals | Digital Course | 2026-02-10 | 45 minutes | 🎓 Available on Profile |
-| Introduction to AWS Elemental MediaConnect | Digital Course | 2026-02-10 | 1 hour | 🎓 Available on Profile |
-| [RETIRED] Introduction to AWS WAF | Digital Course | 2026-02-09 | 15 minutes | 🎓 Available on Profile |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-04.md](aws-skills-2026-07-part-04.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-06.md](aws-skills-2026-07-part-06.md)
