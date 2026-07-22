@@ -1,6 +1,6 @@
 ﻿Complete Training Activity List
-Generated on: 20. јул 2026.
-Total rows: 444
+Generated on: 22. јул 2026.
+Total rows: 448
 
 Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
 [RETIRED] AWS Fargate - Overview,Digital course,Retired,0,-,"March 8, 2026","March 8, 2026","March 8, 2026",10 minutes,Fundamental,English
@@ -37,6 +37,7 @@ A day in the life of CxO with Amazon Quick,Digital course,Completed,0,-,"July 14
 A leader's guide to advanced team structures in an agentic world - AWS re:Invent 2025,Digital course,Completed,0,-,"June 2, 2026","June 2, 2026","June 2, 2026",1 hour,Fundamental,English
 AgentCore Browser: Secure and Scalable Web Automation with Amazon Bedrock,Digital course,Completed,0,-,"March 18, 2026","March 18, 2026","March 18, 2026",40 minutes,Fundamental,English
 AgentCore Evaluation on Amazon Bedrock,Digital course,Completed,0,-,"July 16, 2026","July 16, 2026","July 16, 2026",1 hour 15 minutes,Fundamental,English
+AI Agents: Cognitive Upgrade and Business Efficiency,Digital course,Completed,100,-,"July 22, 2026","July 22, 2026","July 22, 2026",3 hours,Fundamental,English
 AI Driven Development Lifecycle Knowledge Badge Assessment,AWS Assessment,Completed,92.5,-,"June 22, 2026","June 22, 2026","June 22, 2026",1 hour,Fundamental,English
 AI for Everyone: Your First Practical Steps,Digital course,Completed,100,-,"July 14, 2026","July 14, 2026","July 14, 2026",1 hour,Fundamental,English
 Amazon API Gateway for Serverless Applications,Digital course,Completed,0,-,"March 22, 2026","March 22, 2026","March 22, 2026",2 hours,Fundamental,English
@@ -149,6 +150,7 @@ AWS Cloud Economics for Startups,Digital course,Completed,0,-,"February 27, 2026
 AWS Cloud Essentials for Business Leaders,Digital course,Completed,0,-,"March 19, 2026","March 19, 2026","March 19, 2026",2 hours,Fundamental,English
 AWS Cloud Essentials for Business Leaders (Financial Services),Digital course,Completed,0,-,"March 29, 2026","March 29, 2026","March 29, 2026",2 hours,Fundamental,English
 AWS Cloud Essentials for Business Leaders - Telecommunications,Digital course,Completed,0,-,"March 21, 2026","March 21, 2026","March 21, 2026",2 hours,Fundamental,English
+AWS Cloud for absolute beginners,Digital course,Completed,0,-,"July 22, 2026","July 22, 2026","July 22, 2026",3 hours,Fundamental,English
 AWS Cloud Practitioner Essentials,Digital course,Completed,100,-,"April 15, 2026","April 15, 2026","April 15, 2026",12 hours 45 minutes,Fundamental,English
 AWS Cloud Practitioner Power Hour - Overview and Cloud Concepts,Digital course,Completed,0,-,"July 17, 2026","July 17, 2026","July 17, 2026",1 hour 30 minutes,Fundamental,English
 AWS Cloud Quest: Cloud Practitioner,AWS Cloud Quest,Completed,0,-,"May 17, 2026","May 17, 2026","May 25, 2026",12 hours,Fundamental,English
@@ -242,6 +244,7 @@ AWS Skill Builder Learner Guide,Digital course,Completed,0,-,"April 26, 2026","A
 AWS Snowball Getting Started,Digital course,Completed,0,-,"February 26, 2026","February 26, 2026","February 26, 2026",1 hour,Fundamental,English
 AWS Step Functions Getting Started,Digital course,Completed,0,-,"March 24, 2026","March 24, 2026","March 24, 2026",1 hour,Fundamental,English
 AWS Storage Services - Portfolio Introduction,Digital course,Completed,0,-,"January 26, 2026","January 26, 2026","January 26, 2026",40 minutes,Fundamental,English
+AWS Technical Essentials,Digital course,Completed,0,-,"July 22, 2026","July 22, 2026","July 22, 2026",4 hours,Fundamental,English
 "AWS Tools to Develop, Run, and Modernize .NET Workloads",Digital course,Completed,0,-,"March 7, 2026","March 7, 2026","March 7, 2026",1 hour,Fundamental,English
 AWS Trainium Development Environment Setup,Digital course,Completed,0,-,"April 8, 2026","April 8, 2026","April 8, 2026",1 hour,Fundamental,English
 AWS Transfer Family Getting Started,Digital course,Completed,0,-,"February 25, 2026","February 25, 2026","February 25, 2026",1 hour,Fundamental,English
@@ -273,6 +276,7 @@ Compute Knowledge Badge Assessment,Digital course,Completed,93.33333333333333,-,
 Cost Optimization Solutions for FinOps (Part 2),Digital course,Completed,0,-,"March 4, 2026","March 4, 2026","March 4, 2026",1 hour,Intermediate,English
 Customization in Amazon Q Developer,Digital course,Completed,0,-,"April 25, 2026","April 25, 2026","April 25, 2026",30 minutes,Fundamental,English
 Cybersecurity for Small Business Owners,Digital course,Completed,0,-,"June 22, 2026","June 22, 2026","June 22, 2026",8 minutes,Fundamental,English
+Data Engineering on AWS - Foundations,Digital course,Completed,0,-,"July 22, 2026","July 22, 2026","July 22, 2026",4 hours,Fundamental,English
 Data Migration Knowledge Badge Assessment,Digital course,Completed,83.33333333333333,-,"June 15, 2026","June 15, 2026","June 15, 2026",1 hour 30 minutes,Intermediate,English
 Data Modeling for Amazon ElastiCache for Redis,Digital course,Completed,0,-,"February 11, 2026","February 11, 2026","February 11, 2026",45 minutes,Intermediate,English
 Data Protection and Disaster Recovery Knowledge Badge Assessment,Digital course,Completed,93.33333333333333,-,"June 24, 2026","June 24, 2026","June 24, 2026",1 hour 30 minutes,Intermediate,English
