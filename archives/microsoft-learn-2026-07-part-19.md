@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 19 of 89
-date_range: 2026-04-29 to 2026-05-02
-total_entries: 53
+date_range: 2026-04-29 to 2026-05-04
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-19.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Build cross-platform multi-agent solutions using the Agent2Agent protocol in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/training/modules/build-cross-platform-multi-agent-solutions-agent2agent-copilot-studio/) |
+| Configure platform-level security for Azure SQL | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/training/modules/configure-azure-sql-platform-security/) |
+| Implement security for Azure SQL databases | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/training/paths/implement-azure-sql-database-security/) |
+| Configure auditing for Azure SQL Database and SQL Managed Instance | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/training/modules/configure-azure-sql-auditing/) |
+| Qualify leads using the Sales Qualification Agent in Dynamics 365 Sales | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/training/modules/sales-qualification-agent-dynamics-365-sales/) |
+| Close deals using AI agents in Dynamics 365 Sales | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/training/modules/close-deals-using-ai-agents-dynamics-365-sales/) |
+| Analyze sales performance using AI, forecasting, and dashboards in Dynamics 365 Sales | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/training/modules/analyze-forecast-sales-performance-dynamics-365-sales/) |
+| Implement Microsoft Defender for Databases | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/training/modules/implement-defender-databases/) |
 | Transform data using notebooks in Microsoft Fabric | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/training/modules/fabric-transform-data-notebooks/) |
 | Transform data using T-SQL in Microsoft Fabric | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/training/modules/fabric-transform-data-tsql/) |
 | Transform data using Dataflows Gen2 in Microsoft Fabric | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/training/modules/fabric-transform-data-dataflows/) |
@@ -56,15 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage fixed asset maintenance and insurances in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/training/paths/manage-fixed-assets-maintenance-insurances/) |
 | Register maintenance costs in Dynamics 365 Business Central | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/register-maintenance-costs/) |
 | Manage nonprofit fundraising and engagement with Microsoft for Nonprofits | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/training/paths/nonprofit-fundraising-engagement/) |
-| Manage memberships in Fundraising and Engagement | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/manage-membership-fundraising-engagement/) |
-| Foster health team collaboration with Microsoft for Healthcare | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/training/paths/healthcare-health-team/) |
-| Home health in Microsoft for Healthcare | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/home-health/) |
-| Manage events in Fundraising and Engagement | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/manage-events-fundraising-engagement/) |
-| Moves management to raise major gifts with Fundraising and Engagement | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/moves-management/) |
-| Set up insurances in Dynamics 365 Business Central | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/set-up-insurances/) |
-| Extend Universal Resource Scheduling with Dynamics 365 Project Operations | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/extend-universal-resource-scheduling/) |
-| Extend Dynamics 365 Project Operations | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/training/paths/extend-project-operations/) |
-| Publish metrics data for audit disclosures using Compliance Manager | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/sustainability-audit-disclosures/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-18.md](microsoft-learn-2026-07-part-18.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-20.md](microsoft-learn-2026-07-part-20.md)

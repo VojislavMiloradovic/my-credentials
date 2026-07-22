@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 3 of 89
-date_range: 2026-07-05 to 2026-07-11
-total_entries: 48
+date_range: 2026-07-08 to 2026-07-11
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-03.md
 ---
 
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Integrate agents with enterprise systems in Microsoft Copilot Studio | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/training/paths/integrate-agents-enterprise-systems-copilot-studio/) |
+| Integrate agents with external systems via MCP in Microsoft Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/integrate-agents-external-systems-mcp-copilot-studio/) |
+| Ground agents with enterprise knowledge using connectors and Azure AI Search in Microsoft Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/ground-agents-enterprise-knowledge-connectors-azure-ai-search-copilot-studio/) |
+| Automate desktop and web tasks with computer use in Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/automate-desktop-web-tasks-computer-use-copilot-studio/) |
+| Automate tasks and workflows in Microsoft Copilot Studio | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/training/paths/automate-tasks-workflows-copilot-studio/) |
+| Personalize your PC faster with Agent in Settings | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/agent-in-settings/) |
+| Work smarter with Copilot prompts for Operations professionals | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/work-smarter-copilot-operations/) |
+| Replace passwords with secure authentication methods | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/passwordless-authentication/) |
+| Use Microsoft 365 to stay productive throughout your school day | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/microsoft-365-school-productivity/) |
+| Get ready to work with Microsoft 365 Copilot | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/get-ready-work-microsoft-365-copilot/) |
 | Draft, analyze, and present with Microsoft 365 Copilot | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/training/paths/draft-analyze-present-microsoft-365-copilot/) |
 | Work smarter with Copilot prompts for marketing professionals | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/work-smarter-copilot-marketing/) |
 | Mount Azure NetApp Files volumes | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/mount-azure-netapp-files-volumes/) |
@@ -51,15 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Use the planning and deployment checklist for SAP workloads on Azure | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/use-sap-workload-planning-deployment-checklist/) |
 | Explore SAP HANA on Azure (Large Instances) | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/training/paths/explore-sap-hana-azure-large-instances/) |
 | Identify SAP HANA on Azure (Large Instances) certified offerings | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/identify-sap-hana-azure-large-instances-certified-offerings/) |
-| Implement high availability for SAP workloads in Azure | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/implement-high-availability-for-sap-workloads-azure/) |
-| Access Microsoft Sustainability Manager data | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/access-cloud-sustainability/) |
-| Implement business continuity, disaster recovery, and backup for SAP HANA on Azure (Large Instances) | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/implement-business-continuity-disaster-recovery-backup/) |
-| Plan SAP HANA on Azure (Large Instances) high availability and disaster recovery | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/plan-sap-hana-azure-large-instances-high-availability-disaster-recovery-4/) |
-| Migrate very large databases (VLDB) to Azure for SAP | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/migrate-very-large-databases-to-azure/) |
-| Set up the Teams Assignments LTI® app in learning management systems | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/set-up-teams-assignments-lti-app-learning-management-systems/) |
-| Explore advanced integration and interoperability in Microsoft for Healthcare | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/training/paths/healthcare-advanced-integration-interoperability/) |
-| Integration and interoperability solution for healthcare and life sciences | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/healthcare-interoperability/) |
-| Build enterprise-grade tool ecosystems with MCP and Microsoft Foundry | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/training/modules/aaai-build-enterprise-tool-ecosystems-mcp-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-02.md](microsoft-learn-2026-07-part-02.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-04.md](microsoft-learn-2026-07-part-04.md)

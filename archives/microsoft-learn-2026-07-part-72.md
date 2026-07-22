@@ -13,6 +13,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
 | Introduction to the core capabilities of Microsoft Dynamics 365 finance and operations apps | Learningpaths | 2025-12-21 | [Verify](https://learn.microsoft.com/training/paths/explore-dynamics-365-finance-operations-apps/) |
+| Describe reporting and integration capabilities in finance and operations apps | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/training/modules/describe-report-integration-use-finance-operations-apps/) |
 | Describe Dynamics 365 Finance core capabilities | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/training/modules/explore-microsoft-dynamics-365-finance-core-capabilities/) |
 | Discover and use Web APIs with Power Apps | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/training/modules/discover-web-apis-power-apps/) |
 | Introduction to Azure Kubernetes Service | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-kubernetes-service/) |
@@ -63,10 +64,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Advanced lessons in psychological safety | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/training/modules/viva-glint-advanced-psychological-safety/) |
 | Understand hybrid data platform on SQL Server 2025 | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/training/modules/understand-hybrid-data-platform-sql-server-2022/) |
 | Configure your data in finance and operations apps | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/training/modules/configure-your-data-dynamics-365-finance-operations-apps/) |
-| Understand and share your Viva Glint results | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/training/paths/viva-glint-understand-and-share-results/) |
 | Navigate your Viva Glint results | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/training/modules/viva-glint-navigate-viva-glint-results/) |
+| Understand and share your Viva Glint results | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/training/paths/viva-glint-understand-and-share-results/) |
 | Describe the basics of Azure for business | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/training/modules/describe-basics-azure-business/) |
-| Introduction to Azure OpenAI managed identity authentication with Python | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/training/modules/intro-azure-openai-managed-identity-auth-python/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-71.md](microsoft-learn-2026-07-part-71.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-73.md](microsoft-learn-2026-07-part-73.md)

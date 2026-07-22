@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 25 of 89
-date_range: 2026-04-12 to 2026-04-16
-total_entries: 50
+date_range: 2026-04-13 to 2026-04-17
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-25.md
 ---
 
@@ -12,7 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Implement Azure Load Testing | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/training/modules/implement-azure-load-testing/) |
+| Request and follow up with product changes in Dynamics 365 Supply Chain Management | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/training/modules/request-changes-products-engineering-change-management-supply-chain-management/) |
+| Set up warehouse tasks in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-17 | [Verify](https://learn.microsoft.com/training/paths/set-up-warehouse-tasks/) |
+| Pick and ship items in Dynamics 365 Business Central | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/training/modules/pick-ship-items/) |
+| Implement GitHub Actions | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/training/modules/implement-github-actions/) |
+| Manage internal warehouse processes in Dynamics 365 Business Central | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/training/modules/manage-internal-warehouse-processes/) |
+| Troubleshoot business continuity with Microsoft Azure | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/training/modules/business-continuity/) |
+| Intelligent budget proposal in Dynamics 365 Finance | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/training/modules/intelligent-budget-proposal-finance/) |
+| Ensure app and website compatibility with Microsoft Edge | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/training/modules/ensure-app-website-compatibility-with-microsoft-edge/) |
 | Create fixed asset and related records in Dynamics 365 Business Central | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/training/modules/fixed-asset-related-records/) |
+| Create fixed assets in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/training/paths/create-fixed-assets/) |
 | Migrate to vCore-based Azure Cosmos DB for MongoDB | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/training/modules/migrate-vcore-based-azure-cosmos-db-mongodb/) |
 | Post sales and purchase invoices in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/training/paths/post-sales-purchase-invoices-dynamics-365-business-central/) |
 | Send and receive electronic documents in Dynamics 365 Business Central | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/training/modules/electronic-documents-dynamics-365-business-central/) |
@@ -53,15 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with Connected Field Service for Dynamics 365 and Azure IoT | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/get-started-with-connected-field-service/) |
 | Configure and manage fixed assets and Asset leasing in Dynamics 365 Finance | Learningpaths | 2026-04-13 | [Verify](https://learn.microsoft.com/training/paths/configure-manage-fixed-assets-dyn365-finance/) |
 | Set up Asset leasing in Dynamics 365 Finance | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/setup-asset-leasing-finance/) |
-| Challenge project - Manage customers in Business Central | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/challenge-manage-customers-business-central/) |
-| Validate your Business Central Functional Consultant skills | Learningpaths | 2026-04-13 | [Verify](https://learn.microsoft.com/training/paths/validate-business-central-functional-consultant-skills/) |
-| Prevent data loss | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/m365-security-data-loss/) |
-| Explore Microsoft Graph scenarios for ASP.NET Core development | Learningpaths | 2026-04-13 | [Verify](https://learn.microsoft.com/training/paths/m365-msgraph-dotnet-core-scenarios/) |
-| Show a user's emails in an ASP.NET Core app with Microsoft Graph | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/msgraph-dotnet-core-show-user-emails/) |
-| Remotely monitor and service equipment with Connected Field Service for Dynamics 365 and Azure IoT | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/remotely-monitor-and-service-customer-equipment/) |
-| Create cost accounting reports in Dynamics 365 Business Central | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/cost-accounting-reports-dynamics-365-business-central/) |
-| Configure the projects setup in Dynamics 365 Business Central | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/configure-jobs-setup/) |
-| Close a fiscal year in Dynamics 365 Business Central | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/training/modules/close-fiscal-year-dynamics-365-business-central/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-24.md](microsoft-learn-2026-07-part-24.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-26.md](microsoft-learn-2026-07-part-26.md)

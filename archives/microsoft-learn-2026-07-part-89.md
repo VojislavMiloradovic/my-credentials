@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 89 of 89
 date_range: 2025-11-05 to 2025-11-07
-total_entries: 31
+total_entries: 30
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-89.md
 ---
 
@@ -12,7 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Describe Azure identity, access, and security | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/training/modules/describe-azure-identity-access-security/) |
 | Introduction to Cloud Infrastructure: Describe Azure architecture and services | Learningpaths | 2025-11-07 | [Verify](https://learn.microsoft.com/training/paths/azure-fundamentals-describe-azure-architecture-services/) |
 | Plan and prepare to develop AI solutions on Azure | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/training/modules/prepare-azure-ai-development/) |
 | Implement a responsible generative AI solution in Azure AI Foundry | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/training/modules/responsible-ai-studio/) |

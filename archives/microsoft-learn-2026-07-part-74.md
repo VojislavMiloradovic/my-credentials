@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Query and modify data with Transact-SQL | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/training/paths/get-started-querying-with-transact-sql/) |
 | Modify data with T-SQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/training/modules/modify-data-with-transact-sql/) |
 | Write Subqueries in T-SQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/training/modules/write-subqueries/) |
 | Introduction to infrastructure as code using Bicep | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/training/modules/introduction-to-infrastructure-as-code-using-bicep/) |
@@ -22,8 +23,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | A guide to artificial intelligence | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/training/modules/a-guide-to-artificial-intelligence/) |
 | Create a SaaS offer for the commercial marketplace | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/training/modules/create-saas-offer-commercial-marketplace/) |
 | Intro to Azure DNS Private Resolver | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-dns-private-resolver/) |
-| Introduction to Azure Database for MySQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-database-for-mysql/) |
 | Azure Database for MySQL | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/training/paths/introduction-to-azure-database-for-mysql/) |
+| Introduction to Azure Database for MySQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-database-for-mysql/) |
 | Develop on a remote machine using SSH in Visual Studio Code | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/training/modules/develop-on-remote-machine/) |
 | Get started with Dynamics 365 Intelligent Order Management | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/training/modules/get-started-intelligent-order-management/) |
 | Implement inheritance and polymorphism | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/training/paths/implement-inheritance-polymorphism/) |
@@ -68,7 +69,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Describe the finance and operations apps | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/training/modules/get-introduced-finance-operations-apps/) |
 | Build a to-do list with Blazor | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/training/modules/build-blazor-todo-list/) |
 | Secure and isolate access to Azure resources by using network security groups and service endpoints | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/) |
-| Sort and filter results in T-SQL | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/training/modules/sort-filter-queries/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-73.md](microsoft-learn-2026-07-part-73.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-75.md](microsoft-learn-2026-07-part-75.md)

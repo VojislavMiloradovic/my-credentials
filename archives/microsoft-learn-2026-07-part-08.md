@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 8 of 89
-date_range: 2026-06-13 to 2026-06-20
-total_entries: 54
+date_range: 2026-06-16 to 2026-06-22
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-08.md
 ---
 
@@ -12,7 +12,19 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Design solutions for securing privileged access | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/training/modules/design-solutions-secure-privileged-access/) |
+| Manage meetings and calling in Microsoft Teams | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/training/paths/manage-meetings-calling-microsoft-teams/) |
+| Configure, deploy, and manage Teams devices | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/training/modules/configure-deploy-manage-teams-devices/) |
+| Solution Architect series: Implement project governance for Power Platform and Dynamics 365 | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/training/modules/project-governannce/) |
+| Design solutions for identity and access management | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/training/modules/design-solutions-identity-access-management/) |
+| Solution architect series: Explore robotic process automation | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/training/modules/robotic-process-automation/) |
+| Configure and manage voice users | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/training/modules/configure-manage-voice-users/) |
+| AZ-400: Implement security and validate code bases for compliance | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/training/paths/az-400-implement-security-validate-code-bases-compliance/) |
+| Software Composition Analysis | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/training/modules/software-composition-analysis/) |
+| Implement Bicep | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/training/modules/implement-bicep/) |
+| Integrate with Dataverse and Azure | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/training/paths/integrate-dataverse-azure/) |
 | Integrate Dataverse Azure solutions | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/training/modules/integrate-dataverse-azure-solutions/) |
+| Integrate with Power Platform and Dataverse | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/training/paths/integrate-power-platform-dataverse/) |
 | Migrate, consolidate, and secure artifacts | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/training/modules/migrate-consolidating-secure-artifacts/) |
 | Introduction to deployment patterns | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/training/modules/introduction-to-deployment-patterns/) |
 | AZ-400: Implement a secure continuous deployment using Azure Pipelines | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/training/paths/az-400-implement-secure-continuous-deployment/) |
@@ -55,17 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Integrate with identity management systems | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/training/modules/integrate-identity-management-systems/) |
 | Create Azure Resources Using Azure CLI | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/training/modules/create-azure-resources-by-using-azure-cli/) |
 | Explore Power Automate architecture | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/training/modules/power-automate-architecture/) |
-| Automate inspection of health | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/training/modules/automate-inspection-health/) |
-| Implement and monitor the integration of enterprise apps for SSO | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/training/modules/implement-monitor-integration-of-enterprise-apps-for-sso/) |
-| Propose a solution as a Solution Architect for Microsoft Power Platform and Dynamics 365 | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/training/modules/propose-solution/) |
-| Architect solutions for Dynamics 365 and Microsoft Power Platform | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/training/paths/become-solution-architect/) |
-| Introduction to Zero Trust and best practice frameworks | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/training/modules/introduction-zero-trust-best-practice-frameworks/) |
-| Introduction to GitHub Packages | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/training/modules/introduction-github-packages/) |
-| Discover customer needs as a Solution Architect for Dynamics 365 and Microsoft Power Platform | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/training/modules/discover-customer-needs/) |
-| Work with requirements for Microsoft Power Platform and Dynamics 365 | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/training/modules/work-with-requirements/) |
-| Design Dynamics 365 Solutions | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/training/paths/design-dynamics-365-solutions/) |
-| Plan for Microsoft Teams Phone | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/training/modules/plan-teams-phone-system/) |
-| Design security solutions that align with the Cloud Adoption Framework (CAF) and Well-Architected Framework (WAF) | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/training/modules/design-solutions-align-cloud-adoption-framework-well-architected-framework/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-07.md](microsoft-learn-2026-07-part-07.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-09.md](microsoft-learn-2026-07-part-09.md)

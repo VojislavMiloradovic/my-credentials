@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 1 of 89
-date_range: 2026-07-14 to 2026-07-20
-total_entries: 54
+date_range: 2026-07-14 to 2026-07-22
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md
 ---
 
@@ -12,6 +12,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Build intelligent apps and portals with Microsoft Power Apps | Learningpaths | 2026-07-22 | [Verify](https://learn.microsoft.com/training/paths/build-apps-portals-power-apps/) |
+| Explore Power Pages design studio | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/training/modules/power-pages-studio/) |
+| Core components of Power Pages | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/training/modules/power-pages-intro/) |
+| Create and manage canvas apps with Power Apps | Learningpaths | 2026-07-22 | [Verify](https://learn.microsoft.com/training/paths/create-manage-canvas-apps-power-apps/) |
+| Publish, share, and maintain a canvas app | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/training/modules/publish-share-maintain-app/) |
+| From prompts to goals | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/training/modules/from-prompts-to-goals/) |
+| Troubleshoot Active Directory Domain Services replication | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/training/modules/troubleshoot-active-directory-replication/) |
+| Work smarter with Copilot prompts for finance professionals | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/training/modules/work-smarter-copilot-finance/) |
+| Manage application volume groups for SAP HANA in Azure NetApp Files | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/training/modules/manage-application-volume-groups-sap-hana-azure-netapp-files/) |
+| Work smarter with Copilot prompts for legal professionals | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/training/modules/work-smarter-copilot-legal/) |
+| Understand features of Copilot Studio agents | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/training/modules/understand-features-copilot-studio-agents/) |
+| Manage volume capacity and performance for Azure NetApp Files | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/training/modules/manage-volume-capacity-performance-azure-netapp-files/) |
 | Craft effective prompts in Microsoft 365 Copilot | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/training/modules/craft-effective-prompts-copilot/) |
 | MS-4021 Copilot Immersion Experience | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/training/paths/copilot-immersion-experience/) |
 | Get started with the Dynamics 365 Sales mobile app | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/training/modules/get-started-sales-mobile-app/) |
@@ -33,8 +45,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design a multi-domain Active Directory forest | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/training/modules/design-multi-domain-forest-trust/) |
 | Get started with 5G on Surface for Business devices | Modules | 2026-07-15 | [Verify](https://learn.microsoft.com/training/modules/surface-5g/) |
 | Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/automate-identity-lifecycle-workflows/) |
-| Architect AI solutions for business productivity | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/training/paths/architect-agentic-ai-business-solutions/) |
 | Analyze requirements for AI-powered business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/analyze-requirements-ai-powered-business-solutions/) |
+| Architect AI solutions for business productivity | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/training/paths/architect-agentic-ai-business-solutions/) |
 | Introduction to agentic AI business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/introduction-agentic-ai-business-solution-architecture/) |
 | Manage testing AI-powered business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/manage-testing-ai-powered-business-solutions/) |
 | Evaluate costs and benefits of AI solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/evaluate-costs-benefits-ai-powered-business-solution/) |
@@ -55,17 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design responsible AI security, governance, risk management, and compliance | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/design-responsible-ai-security-governance-risk-management-compliance/) |
 | Design AI agents for business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/design-ai-agents-business-solutions/) |
 | Editor workflow foundations | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/training/paths/powerscribe-one-editor-workflow-foundations/) |
-| Introduction to the editor role in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/powerscribe-one-introduction-editor-role/) |
-| Edit and finalize dictated reports in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/powerscribe-one-editor-edit-finalize-dictated-reports/) |
-| Build Study Guides in Copilot Notebooks | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/build-study-guides-copilot-notebooks/) |
-| Managing Azure NetApp Files | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/training/paths/manage-azure-netapp-files/) |
-| Manage SMB volumes in Azure NetApp Files | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/manage-smb-volumes-azure-netapp-files/) |
-| Create and manage AutoText in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/powerscribe-one-create-manage-autotext/) |
-| Advanced AutoText for providers | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/training/paths/powerscribe-one-advanced-autotext-for-providers/) |
-| AutoText efficiency tools in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/powerscribe-one-autotext-efficiency-tool/) |
-| Introduction to navigating the modern Contact Center | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/training/paths/introduction-navigating-modern-contact-center/) |
-| Explore Dynamics 365 Contact Center | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/explore-dynamics-365-contact-center/) |
-| Describe work allocation capabilities | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/describe-work-allocation-capabilities/) |
 
 ---
 > **Navigation:** Prev: None | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-02.md](microsoft-learn-2026-07-part-02.md)

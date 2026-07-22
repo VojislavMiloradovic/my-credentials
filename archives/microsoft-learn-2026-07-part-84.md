@@ -12,8 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Explore Microsoft 365 security foundations | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/training/modules/explore-microsoft-365-security-foundations/) |
-| Protect and govern Microsoft 365 data | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/training/modules/protect-govern-data-microsoft-365/) |
 | Hotpatch updates for Windows client devices | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/training/modules/hotpatch-updates/) |
 | Introduction to Microsoft 365 core services and admin controls | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/training/modules/introduction-microsoft-365-core-services-admin-control/) |
 | Store and iterate through sequences of data using Arrays and the foreach statement in C# | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/training/modules/csharp-arrays/) |
@@ -41,8 +39,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design a dream destination using Microsoft Copilot | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/training/modules/design-dream-destination-ai-copilot/) |
 | Introduction to Microsoft Azure Data relational data in Azure | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/training/paths/azure-data-fundamentals-explore-relational-data/) |
 | Explore relational database services in Azure | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/training/modules/explore-provision-deploy-relational-database-offerings-azure/) |
-| Write your first code using C# (Get started with C#, Part 1) | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/training/paths/get-started-c-sharp-part-1/) |
 | Guided project - Calculate final GPA | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/training/modules/guided-project-calculate-final-gpa/) |
+| Write your first code using C# (Get started with C#, Part 1) | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/training/paths/get-started-c-sharp-part-1/) |
 | Work smarter in Excel with Copilot Chat | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/training/modules/work-smarter-excel/) |
 | Manage email efficiently with Microsoft Outlook and Copilot Chat | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/training/modules/manage-email-efficiently/) |
 | Manage your calendar in new Outlook for Windows | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/training/modules/manage-calendar-new-outlook-windows/) |
@@ -68,6 +66,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with data science in Microsoft Fabric | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/training/modules/get-started-data-science-fabric/) |
 | Transform learning with 21st century learning design | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/training/modules/transform-learning-21st-century-learning-design/) |
 | Copilot+ PC Accreditation 2025 | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/training/paths/copilot-plus-pc-accreditation-2025/) |
+| Copilot+ PC overview | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/training/modules/copilot-pc-overview/) |
+| Surface Pro for Business with Snapdragon® X Elite and Plus processors | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/training/modules/surface-business-snapdragon/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-83.md](microsoft-learn-2026-07-part-83.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-85.md](microsoft-learn-2026-07-part-85.md)

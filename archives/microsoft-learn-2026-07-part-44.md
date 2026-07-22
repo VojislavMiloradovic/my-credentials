@@ -12,12 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Manage virtualization and containers in a hybrid environment | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/training/paths/manage-virtualization-containers-hybrid-environment/) |
+| Plan and deploy Windows Server IaaS Virtual Machines | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/plan-deploy-windows-server-iaas-virtual-machines/) |
+| Guided Project - Azure Files and Azure Blobs | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/guided-project-azure-files-azure-blobs/) |
+| Secure storage for Azure Files and Azure Blob Storage | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/training/paths/implement-storage-azure-files-azure-blob-storage/) |
+| Examine the Microsoft 365 Copilot design | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/examine-microsoft-365-copilot-design/) |
 | Configure SIEM security operations using Microsoft Sentinel | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/training/paths/configure-security-information-event-management-operations-using-microsoft-sentinel/) |
 | Configure SIEM security operations using Microsoft Sentinel | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/configure-siem-security-operations-using-microsoft-sentinel/) |
 | Manage Windows Server settings using PowerShell cmdlets | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/manage-windows-server-settings-use-powershell-cmdlets/) |
 | Power Pages solution explorer - Online workshop | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/power-pages-solution-explorer-online-workshop/) |
-| Shape data in a Power Apps canvas app | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/shape-data/) |
 | Work with data in a Power Apps canvas app | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/training/paths/work-with-data-in-a-canvas-app/) |
+| Shape data in a Power Apps canvas app | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/shape-data/) |
 | Configure storage and file services | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/training/paths/configure-storage-file-services/) |
 | Implement a hybrid file server infrastructure | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/implement-hybrid-file-server-infrastructure/) |
 | Examine the enterprise desktop | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/examine-enterprise-desktop/) |
@@ -56,13 +61,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with accounts receivable daily procedures in Dynamics 365 Finance | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/accounts-receivable-daily-procedures-dyn365-finance/) |
 | Challenge project - Architecting solutions for a new product line for customers | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/challenge-project-architecting-solutions-for-new-product-line-for-customers/) |
 | Configure monitoring for applications | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/configure-monitoring-applications/) |
-| Protect your on-premises infrastructure from disasters with Azure Site Recovery | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/protect-on-premises-infrastructure-with-azure-site-recovery/) |
 | Architect migration, business continuity, and disaster recovery in Azure | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/training/paths/architect-migration-bcdr/) |
-| MS-102 Implement threat protection by using Microsoft Defender XDR | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/training/paths/implement-threat-protection-use-microsoft-365-defender/) |
-| Explore threat intelligence in Microsoft Defender XDR | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/explore-threat-intelligence-microsoft-365-defender/) |
-| Add a layout to a report in Dynamics 365 Business Central | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/add-layout-report/) |
-| Enable semantic search in Azure Database for PostgreSQL | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/enable-semantic-search-azure-database-postgresql/) |
-| Work with Knowledge Management Solutions in Dynamics 365 Customer Service | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/training/paths/work-with-knowledge-management-solutions-in-microsoft-dynamics-365-for-customer-service/) |
+| Protect your on-premises infrastructure from disasters with Azure Site Recovery | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/protect-on-premises-infrastructure-with-azure-site-recovery/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-43.md](microsoft-learn-2026-07-part-43.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-45.md](microsoft-learn-2026-07-part-45.md)

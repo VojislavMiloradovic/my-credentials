@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 13 of 89
-date_range: 2026-05-24 to 2026-05-30
+date_range: 2026-05-25 to 2026-05-30
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-13.md
 ---
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Integrate SQL solutions with Azure services | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/training/modules/integrate-sql-solutions-azure-services/) |
+| Implement SQL solutions by using AI-assisted tools | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/training/modules/design-implement-sql-solutions-ai-assisted-tools/) |
+| Design and implement database objects with SQL | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/training/modules/design-implement-database-objects/) |
+| Optimize database performance | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/training/modules/optimize-database-performance/) |
+| Implement data security and compliance with SQL | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/training/modules/implement-data-security-compliance/) |
+| Monitor and optimize Dynamics 365 Contact Center with AI-driven insights | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/training/paths/monitor-optimize-dynamics-365-contact-center/) |
+| Reach customers first with proactive engagement in Dynamics 365 Contact Center | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/training/modules/reach-customers-proactive-engagement-contact-center/) |
+| Monitor and manage agents with Microsoft Agent 365 | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/training/modules/agent-365-monitor-manage/) |
+| Get started with Claude in Microsoft Foundry | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/training/modules/claude-in-foundry/) |
+| Implement Microsoft Teams for Education in your school (Partner Success Series) | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/training/modules/implement-microsoft-teams-education-school/) |
 | Implement Microsoft Copilot in your school (Partner Success Series) | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/training/modules/implement-microsoft-copilot-school-partner-success-series/) |
 | Extend Microsoft Teams with Learning Management Systems (Partner Success Series) | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/training/modules/extend-microsoft-teams-learning-management-systems/) |
 | Deploy Microsoft 365 for Education with the Microsoft Education Solution Guide (Partner Success Series) | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/training/modules/deploy-microsoft-education-solution-guide/) |
@@ -54,16 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build secure agents for public sector services | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/training/modules/build-secure-agents-public-sector-services/) |
 | Optimize staffing with workforce management in Dynamics 365 Contact Center | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/training/modules/optimize-staffing-workforce-management-contact-center/) |
 | Troubleshoot device and policy issues using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/training/modules/troubleshoot-intune-devices/) |
-| Plan and implement device enrollment using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/training/modules/plan-implement-device-enrollment/) |
-| Monitor and maintain devices using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/training/modules/monitor-maintain-devices-intune/) |
-| Manage Windows updates and lifecycle using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/manage-windows-updates-intune/) |
-| Maintain tenant health and support readiness | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/maintain-tenant-health/) |
-| Implement reporting and data visibility using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/implement-reporting-data-visibility/) |
-| Deploy Windows devices using Windows Autopilot | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/deploy-windows-autopilot/) |
-| Configure device profiles and policy management using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/configure-device-profiles-intune/) |
-| Configure Microsoft Entra ID for device and policy management | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/configure-entraid-device-management/) |
-| Apply RBAC and admin delegation in Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/apply-rbac-admin-delegation/) |
-| Administer device identity and authentication using Microsoft Entra ID | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/device-identity-authentication-entra-id/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-12.md](microsoft-learn-2026-07-part-12.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-14.md](microsoft-learn-2026-07-part-14.md)

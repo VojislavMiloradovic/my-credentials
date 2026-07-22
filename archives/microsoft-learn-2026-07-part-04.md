@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 4 of 89
-date_range: 2026-07-02 to 2026-07-05
-total_entries: 50
+date_range: 2026-07-02 to 2026-07-08
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-04.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Implement high availability for SAP workloads in Azure | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/implement-high-availability-for-sap-workloads-azure/) |
+| Access Microsoft Sustainability Manager data | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/access-cloud-sustainability/) |
+| Implement business continuity, disaster recovery, and backup for SAP HANA on Azure (Large Instances) | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/implement-business-continuity-disaster-recovery-backup/) |
+| Plan SAP HANA on Azure (Large Instances) high availability and disaster recovery | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/plan-sap-hana-azure-large-instances-high-availability-disaster-recovery-4/) |
+| Migrate very large databases (VLDB) to Azure for SAP | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/migrate-very-large-databases-to-azure/) |
+| Set up the Teams Assignments LTI® app in learning management systems | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/set-up-teams-assignments-lti-app-learning-management-systems/) |
+| Explore advanced integration and interoperability in Microsoft for Healthcare | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/training/paths/healthcare-advanced-integration-interoperability/) |
+| Integration and interoperability solution for healthcare and life sciences | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/training/modules/healthcare-interoperability/) |
+| Build enterprise-grade tool ecosystems with MCP and Microsoft Foundry | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/training/modules/aaai-build-enterprise-tool-ecosystems-mcp-azure/) |
 | Apply task decomposition and agent collaboration strategies in Microsoft Foundry | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/training/modules/aaai-apply-task-decomposition-multi-agent-azure/) |
 | Extend the healthcare data model in Dataverse | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/training/modules/healthcare-extend-data-model/) |
 | Static analyzers | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/training/modules/static-analyzers/) |
@@ -41,8 +50,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Continuously validate and test mission-critical workloads | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/training/modules/continuous-validate-test-mission-critical-workloads/) |
 | Explore Azure Center for SAP solutions | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/training/modules/explore-azure-center-sap-solutions/) |
 | Azure Stack Hub | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/training/modules/azure-stack-hub/) |
-| Get tips and tricks for teaching DP-100: Designing and implementing a data science solution on Azure | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/training/modules/get-tips-tricks-for-teaching-dp-100-designing-implementing-data-science-solution/) |
 | Prepare to teach DP-100 Designing and Implementing a Data Science Solution on Azure | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/training/paths/prepare-to-teach-dp-100-designing-implementing-data-science-solution-azure/) |
+| Get tips and tricks for teaching DP-100: Designing and implementing a data science solution on Azure | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/training/modules/get-tips-tricks-for-teaching-dp-100-designing-implementing-data-science-solution/) |
 | Manage SAP HANA on Azure (Large Instances) | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/training/modules/manage-sap-hana-azure-large-instances/) |
 | Explore migration options for SAP on Azure | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/training/modules/explore-migration-options/) |
 | Configure the Azure Enhanced Monitoring Extension for SAP | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/training/modules/configure-azure-enhanced-monitoring-extension-for-sap/) |
@@ -52,16 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Azure Stack Hub PowerShell | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/training/modules/azure-stack-hub-powershell/) |
 | Prepare to teach DP-203: Microsoft Azure Data Engineering | Learningpaths | 2026-07-02 | [Verify](https://learn.microsoft.com/training/paths/get-tips-tricks-for-teaching-dp-203-microsoft-azure-data-engineering-academic-programs/) |
 | Get tips and tricks for teaching DP-203: Microsoft Azure Data Engineering in academic programs | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/training/modules/microsoft-azure-data-engineering-academic-programs/) |
-| Examine SAP HANA on Azure (Large Instances) sample architecture | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/training/modules/examine-sap-hana-azure-large-instances-sample-architecture/) |
-| Configure and use lean manufacturing in Dynamics 365 Supply Chain Management | Learningpaths | 2026-07-02 | [Verify](https://learn.microsoft.com/training/paths/configure-use-lean-manufacturing-dyn365-supply-chain-mgmt/) |
-| Configure activity-based subcontracting and production flow costing in Dynamics 365 Supply Chain Management | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/training/modules/configure-subcontracting-flow-dyn365-supply-chain-mgmt/) |
-| Microsoft Learn for Educator Program Open House | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/training/modules/microsoft-learn-for-educator-program-open-house/) |
-| Explore licensing, pricing, and support for SAP on Azure virtual machines | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/training/modules/explore-licensing-pricing-support/) |
-| Begin your Microsoft Learn for Educators Journey | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/training/modules/begin-your-microsoft-learn-educators-journey/) |
-| Troubleshoot Apps and Channels | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/training/modules/troubleshoot-apps-channels/) |
-| Troubleshoot file sharing | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/training/modules/troubleshoot-file-sharing/) |
-| Troubleshoot authentication and access control issues in Microsoft Azure | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/training/modules/troubleshoot-authentication-access-control/) |
-| Azure Support Engineer for Connectivity Specialty | Learningpaths | 2026-07-02 | [Verify](https://learn.microsoft.com/training/paths/azure-support-engineer-for-connectivity-specialty/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-03.md](microsoft-learn-2026-07-part-03.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-05.md](microsoft-learn-2026-07-part-05.md)

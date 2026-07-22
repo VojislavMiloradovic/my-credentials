@@ -12,15 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Apply Information Barriers in education | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/training/modules/apply-information-barriers-education/) |
 | Engage learners through games with MakeCode Arcade | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/training/modules/engage-learners-through-games-with-makecode-arcade/) |
 | Build a 3D mobile app with Power Apps in mixed reality | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/training/modules/power-apps-tutorial/) |
 | Introduction to Viva Pulse | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/training/modules/viva-pulse-introduction/) |
 | Introduction to Azure OpenAI Managed Identity Authentication with Java | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/training/modules/intro-azure-openai-managed-identity-auth-java/) |
 | Choose the correct HDInsight Configuration to build open source analytics solutions. | Modules | 2025-12-07 | [Verify]() |
 | Perform Zero ETL analytics with HDInsight Interactive Query | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/training/modules/perform-zero-etl-analytics-hdinsight-interactive-query/) |
-| Define a Microsoft AI strategy to create business value in sustainability | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/training/modules/define-microsoft-ai-strategy-sustainability/) |
 | Discover AI for leaders in sustainability | Learningpaths | 2025-12-06 | [Verify](https://learn.microsoft.com/training/paths/discover-microsoft-ai-leaders-sustainability/) |
+| Define a Microsoft AI strategy to create business value in sustainability | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/training/modules/define-microsoft-ai-strategy-sustainability/) |
 | Monitor your Azure virtual machines with Azure Monitor | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/training/modules/monitor-azure-vm-using-diagnostic-data/) |
 | Review the principles of code debugging and exception handling | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/) |
 | Guided project - Debug and handle exceptions in a C# console application using Visual Studio Code | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/) |
@@ -41,8 +40,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Maintain a secure repository by using GitHub best practices | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/training/modules/maintain-secure-repository-github/) |
 | Challenge project - Debug a C# console application using Visual Studio Code | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/training/modules/challenge-project-debug-c-sharp-console-application/) |
 | Manage and control traffic flow in your Azure deployment with routes | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/training/modules/control-network-traffic-flow-with-routes/) |
-| Work with variable data in C# console applications (Get started with C#, Part 4) | Learningpaths | 2025-12-05 | [Verify](https://learn.microsoft.com/training/paths/get-started-c-sharp-part-4/) |
 | Challenge project - Work with variable data in C# | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/training/modules/challenge-project-work-variable-data-c-sharp/) |
+| Work with variable data in C# console applications (Get started with C#, Part 4) | Learningpaths | 2025-12-05 | [Verify](https://learn.microsoft.com/training/paths/get-started-c-sharp-part-4/) |
 | Deliver Results with your Viva Glint Executive Consultation (EC) | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/training/modules/viva-glint-deliver-results-executive-consultation/) |
 | Get tips and tricks for teaching MB-220: Microsoft Dynamics 365 Marketing Functional Consultant | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/training/modules/get-tips-tricks-teach-mb-220-marketing-functional-consultant/) |
 | Understand Viva Glint’s approach to 360 feedback | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/training/modules/viva-glint-understand-viva-glint-approach-360-feedback/) |
@@ -64,6 +63,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build flows to manage user information | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/training/modules/manage-user-information/) |
 | Management, troubleshooting, and support for Intune for Education (Partner Success Series)   | Modules | 2025-12-04 | [Verify]() |
 | Explore Azure Database for MySQL - Flexible Server features that support mission-critical workloads | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/training/modules/explore-azure-database-for-mysql-features-that-support-mission-critical-workloads/) |
+| Choose a deployment scenario for HoloLens device management | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/training/modules/choose-deployment-strategy-hololens/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-78.md](microsoft-learn-2026-07-part-78.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-80.md](microsoft-learn-2026-07-part-80.md)

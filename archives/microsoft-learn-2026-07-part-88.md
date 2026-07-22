@@ -12,7 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Introduction to information security and compliance in Microsoft Purview | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/m365-compliance-information-governance/) |
 | GitHub Copilot Across Environments: IDE, Chat, GitHub.com, and Command Line Techniques | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/github-copilot-across-environments/) |
 | Describe the core features of Microsoft Security Copilot | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/security-copilot-describe-core-features/) |
 | Develop a multi-agent solution with Azure AI Foundry Agent Service | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/develop-multi-agent-azure-ai-foundry/) |
@@ -21,8 +20,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Azure Bastion | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-bastion/) |
 | Secure Microsoft Entra users with multifactor authentication | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/secure-aad-users-with-mfa/) |
 | Manage Microsoft Entra Identity Protection | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/manage-azure-active-directory-identity-protection/) |
-| Develop computer vision solutions in Azure | Learningpaths | 2025-11-11 | [Verify](https://learn.microsoft.com/training/paths/create-computer-vision-solutions-azure-ai/) |
 | Generate images with AI | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/generate-images-azure-openai/) |
+| Develop computer vision solutions in Azure | Learningpaths | 2025-11-11 | [Verify](https://learn.microsoft.com/training/paths/create-computer-vision-solutions-azure-ai/) |
 | Develop a vision-enabled generative AI application | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/develop-generative-ai-vision-apps/) |
 | Create vision models with Azure AI Custom Vision | Learningpaths | 2025-11-11 | [Verify](https://learn.microsoft.com/training/paths/create-models-custom-vision/) |
 | Detect objects in images | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/detect-objects-images/) |
@@ -48,8 +47,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Work with Delta Lake tables in Microsoft Fabric | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/training/modules/work-delta-lake-tables-fabric/) |
 | Write your first C# code | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/csharp-write-first/) |
 | Use Eventstream in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/explore-event-streams-microsoft-fabric/) |
-| Introduction to AI Skills for nonprofits | Learningpaths | 2025-11-09 | [Verify](https://learn.microsoft.com/training/paths/introduction-to-ai-skills-for-nonprofits/) |
 | Explore the possibilities with Microsoft 365 Copilot | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/explore-possibilities-microsoft-365-copilot/) |
+| Introduction to AI Skills for nonprofits | Learningpaths | 2025-11-09 | [Verify](https://learn.microsoft.com/training/paths/introduction-to-ai-skills-for-nonprofits/) |
 | Secure data access in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/secure-data-access-in-fabric/) |
 | AI Fluency | Learningpaths | 2025-11-09 | [Verify](https://learn.microsoft.com/training/paths/ai-fluency/) |
 | Boost your productivity with Microsoft Copilot | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/boost-productivity-with-copilot/) |
@@ -71,6 +70,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Microsoft 365 Copilot | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/training/modules/introduction-microsoft-365-copilot/) |
 | Develop an AI app with the Azure AI Foundry SDK | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/training/modules/ai-foundry-sdk/) |
 | Choose and deploy models from the model catalog in Azure AI Foundry portal | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/training/modules/explore-models-azure-ai-studio/) |
+| Describe Azure identity, access, and security | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/training/modules/describe-azure-identity-access-security/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-87.md](microsoft-learn-2026-07-part-87.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-89.md](microsoft-learn-2026-07-part-89.md)

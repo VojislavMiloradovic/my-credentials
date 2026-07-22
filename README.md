@@ -10,13 +10,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
-- **Total Experience Points (XP):** 5,870,650
+- **Total Experience Points (XP):** 5,884,275
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,827
-- **Trophies Earned (Profile):** 897
-- **Completed Learning Paths (Active Tracker):** 507
-- **Completed Modules (Active Tracker):** 2,574
-- **Completed Individual Units:** 34,857
+- **Badges Earned (Profile):** 3,834
+- **Trophies Earned (Profile):** 898
+- **Completed Learning Paths (Active Tracker):** 509
+- **Completed Modules (Active Tracker):** 2,584
+- **Completed Individual Units:** 34,944
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -27,18 +27,18 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,724 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,732 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
-- **Craft effective prompts in Microsoft 365 Copilot** (Modules | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/modules/craft-effective-prompts-copilot/))
-- **MS-4021 Copilot Immersion Experience** (Learningpaths | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/paths/copilot-immersion-experience/))
-- **Get started with the Dynamics 365 Sales mobile app** (Modules | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/modules/get-started-sales-mobile-app/))
-- **Generate and qualify leads using AI in Dynamics 365 Sales** (Learningpaths | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/paths/generate-qualify-leads-ai-sales/))
-- **Engage with customers through text messages in Dynamics 365 Sales** (Modules | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/modules/engage-customers-text-messages/))
-- **Set up and configure Dynamics 365 Sales** (Modules | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/modules/configure-dynamics-365-sales/))
-- **Configure Dynamics 365 Sales for AI-powered selling** (Learningpaths | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/paths/configure-sales-ai-selling/))
-- **Get started with Dynamics 365 Sales** (Modules | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/modules/sales-get-started/))
-- **Create powerful customer experiences for organizations with Dynamics 365 apps** (Modules | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/modules/create-powerful-customer-experiences-organizations/))
-- **Secure Windows Server on-premises and hybrid infrastructures** (Learningpaths | Earned: 2026-07-20 | [Verify Credential](https://learn.microsoft.com/training/paths/secure-windows-server-premises-hybrid-infrastructures/))
+- **Build intelligent apps and portals with Microsoft Power Apps** (Learningpaths | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/paths/build-apps-portals-power-apps/))
+- **Explore Power Pages design studio** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/power-pages-studio/))
+- **Core components of Power Pages** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/power-pages-intro/))
+- **Create and manage canvas apps with Power Apps** (Learningpaths | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/paths/create-manage-canvas-apps-power-apps/))
+- **Publish, share, and maintain a canvas app** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/publish-share-maintain-app/))
+- **From prompts to goals** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/from-prompts-to-goals/))
+- **Troubleshoot Active Directory Domain Services replication** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/troubleshoot-active-directory-replication/))
+- **Work smarter with Copilot prompts for finance professionals** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/work-smarter-copilot-finance/))
+- **Manage application volume groups for SAP HANA in Azure NetApp Files** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/manage-application-volume-groups-sap-hana-azure-netapp-files/))
+- **Work smarter with Copilot prompts for legal professionals** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/work-smarter-copilot-legal/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

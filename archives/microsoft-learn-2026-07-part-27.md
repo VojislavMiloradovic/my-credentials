@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 27 of 89
-date_range: 2026-04-05 to 2026-04-09
+date_range: 2026-04-06 to 2026-04-09
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-27.md
 ---
@@ -12,9 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Work with fixed assets master data in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/fixed-assets-master-data/) |
+| Sync items and inventory in Shopify and Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/sync-items-shopify-dynamics-365-business-central/) |
+| Create resource template for Azure Cosmos DB for NoSQL | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/create-resource-template-for-azure-cosmos-db-sql-api/) |
+| Manage an Azure Cosmos DB for NoSQL solution using DevOps practices | Learningpaths | 2026-04-09 | [Verify](https://learn.microsoft.com/training/paths/manage-cosmos-db-sql-api-solution-using-devops-practices/) |
+| Work with essential development standards for Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-09 | [Verify](https://learn.microsoft.com/training/paths/essential-development-standards/) |
+| Use document standards in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/use-document-standards-business-central/) |
+| Work with master data in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/work-with-master-data-business-central/) |
+| Create accessible web apps by using ASP.NET Core | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/aspnet-core-accessibility/) |
 | Process foreign currency payments in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/foreign-currencies-dynamics-365-business-central/) |
-| Implement and manage data privacy with Microsoft Priva | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/training/paths/priva-data-privacy-solutions/) |
 | Manage Microsoft Priva Subject Rights Requests | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/training/modules/priva-subject-rights-requests/) |
+| Implement and manage data privacy with Microsoft Priva | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/training/paths/priva-data-privacy-solutions/) |
 | Boost K-12 school cybersecurity leadership with Microsoft tools | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/training/modules/boost-school-cybersecurity-leadership-microsoft-tools/) |
 | Troubleshoot connectivity issues with virtual machines in Microsoft Azure | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/training/modules/troubleshoot-connectivity-issues-virtual-machines-azure/) |
 | Create and process fixed kanbans in Dynamics 365 Supply Chain Management | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/training/modules/create-process-fixed-kanbans-dyn365-supply-chain-mgmt/) |
@@ -53,14 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement Azure Cosmos DB for NoSQL point operations | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/training/modules/implement-azure-cosmos-db-sql-api-point-operations/) |
 | Set up a production bill of materials in Dynamics 365 Business Central | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/training/modules/production-bill-materials/) |
 | Define and track individual goals in Dynamics 365 Sales and Customer Service | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/training/modules/define-track-goals-in-dynamics-365/) |
-| Implement goal management in Dynamics 365 Sales and Customer Service | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/training/paths/apply-goal-management-dynamics-365/) |
-| Forecast your cash flow in Dynamics 365 Business Central | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/training/modules/forecast-cash-flow-dynamics-365-business-central/) |
-| Posting prepayment invoices for sales and purchase orders in Dynamics 365 Business Central | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/training/modules/prepayment-invoices-dynamics-365-business-central/) |
-| Enhance Dynamics 365 Sales with tools and apps | Learningpaths | 2026-04-05 | [Verify](https://learn.microsoft.com/training/paths/enhance-tools-apps-sales/) |
-| Ingest data into Customer Insights - Data | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/training/modules/ingest-data-customer-insights/) |
-| Troubleshoot network security issues with Microsoft Azure | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/training/modules/troubleshoot-network-security-issues/) |
-| Set up project task lines in Dynamics 365 Business Central | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/training/modules/set-up-job-task-lines/) |
-| Design and implement a replication strategy for Azure Cosmos DB for NoSQL | Learningpaths | 2026-04-05 | [Verify](https://learn.microsoft.com/training/paths/design-implement-replication-strategy-cosmos-db-sql-api/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-26.md](microsoft-learn-2026-07-part-26.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-28.md](microsoft-learn-2026-07-part-28.md)

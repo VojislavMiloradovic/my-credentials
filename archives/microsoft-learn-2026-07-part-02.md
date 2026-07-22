@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 2 of 89
 date_range: 2026-07-11 to 2026-07-14
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-02.md
 ---
 
@@ -12,10 +12,21 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Introduction to the editor role in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/powerscribe-one-introduction-editor-role/) |
+| Edit and finalize dictated reports in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/powerscribe-one-editor-edit-finalize-dictated-reports/) |
+| Build Study Guides in Copilot Notebooks | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/build-study-guides-copilot-notebooks/) |
+| Managing Azure NetApp Files | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/training/paths/manage-azure-netapp-files/) |
+| Manage SMB volumes in Azure NetApp Files | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/manage-smb-volumes-azure-netapp-files/) |
+| Create and manage AutoText in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/powerscribe-one-create-manage-autotext/) |
+| Advanced AutoText for providers | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/training/paths/powerscribe-one-advanced-autotext-for-providers/) |
+| AutoText efficiency tools in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/powerscribe-one-autotext-efficiency-tool/) |
+| Introduction to navigating the modern Contact Center | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/training/paths/introduction-navigating-modern-contact-center/) |
+| Explore Dynamics 365 Contact Center | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/explore-dynamics-365-contact-center/) |
+| Describe work allocation capabilities | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/describe-work-allocation-capabilities/) |
 | Describe Dynamics 365 Contact Center supervisor experience | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/describe-dynamics-365-contact-center-supervisor-experience/) |
 | Describe Dynamics 365 Contact Center representative experience | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/describe-dynamics-365-contact-center-representative-experience/) |
-| Introduction to supply chain management in Dynamics 365 | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/training/paths/introduction-supply-chain-management-dynamics-365/) |
 | Describe warehouse management in Dynamics 365 Supply Chain Management | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/describe-warehouse-management-dynamics-365/) |
+| Introduction to supply chain management in Dynamics 365 | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/training/paths/introduction-supply-chain-management-dynamics-365/) |
 | Describe sales processes in Dynamics 365 Supply Chain Management | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/training/modules/describe-sales-processes-dynamics-365-supply-chain-management/) |
 | Describe inventory management in Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/training/modules/describe-inventory-management-supply-chain-management/) |
 | Describe inventory costing and master planning in Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/training/modules/describe-inventory-costing-master-planning-dynamics-365-supply-chain-management/) |
@@ -54,16 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create a Release Pipeline | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/training/modules/create-release-pipeline-devops/) |
 | Manage volume access for Azure NetApp Files | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/manage-volume-access-azure-netapp-files/) |
 | Work smarter with Copilot prompts for IT professionals | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/work-smarter-copilot-it/) |
-| Integrate agents with external systems via MCP in Microsoft Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/integrate-agents-external-systems-mcp-copilot-studio/) |
-| Integrate agents with enterprise systems in Microsoft Copilot Studio | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/training/paths/integrate-agents-enterprise-systems-copilot-studio/) |
-| Ground agents with enterprise knowledge using connectors and Azure AI Search in Microsoft Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/ground-agents-enterprise-knowledge-connectors-azure-ai-search-copilot-studio/) |
-| Automate desktop and web tasks with computer use in Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/automate-desktop-web-tasks-computer-use-copilot-studio/) |
-| Automate tasks and workflows in Microsoft Copilot Studio | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/training/paths/automate-tasks-workflows-copilot-studio/) |
-| Personalize your PC faster with Agent in Settings | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/agent-in-settings/) |
-| Work smarter with Copilot prompts for Operations professionals | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/work-smarter-copilot-operations/) |
-| Replace passwords with secure authentication methods | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/passwordless-authentication/) |
-| Use Microsoft 365 to stay productive throughout your school day | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/microsoft-365-school-productivity/) |
-| Get ready to work with Microsoft 365 Copilot | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/training/modules/get-ready-work-microsoft-365-copilot/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-01.md](microsoft-learn-2026-07-part-01.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-03.md](microsoft-learn-2026-07-part-03.md)

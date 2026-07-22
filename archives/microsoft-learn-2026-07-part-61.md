@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 61 of 89
-date_range: 2026-01-05 to 2026-01-09
+date_range: 2026-01-06 to 2026-01-10
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-61.md
 ---
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Teaching and learning - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/teaching-learning-education-transformation-framework/) |
+| Leadership and policy - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/leadership-policy-education-transformation-framework/) |
+| Intelligent environments - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/intelligent-environments-education-transformation-framework/) |
+| Get tips and tricks for teaching AZ-900 Microsoft Azure Fundamentals | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/get-tips-tricks-teach-az-900-microsoft-azure-ai-fundamentals/) |
 | Store and retrieve JSON files | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/training/modules/store-retrieve-json-files/) |
 | Access local files asynchronously | Learningpaths | 2026-01-09 | [Verify](https://learn.microsoft.com/training/paths/access-local-files-asynchronously/) |
 | Implement asynchronous tasks | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/training/modules/implement-asynchronous-tasks/) |
@@ -31,8 +35,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage your organization with Dynamics 365 Human Resources | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/training/modules/manage-organization/) |
 | Manage personnel with Dynamics 365 Human Resources | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/manage-personnel/) |
 | Introduction to Azure hybrid cloud services | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-hybrid-services/) |
-| Design an accident tracking app in Power Apps | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/training/paths/design-accident-tracking/) |
 | Build the Dataverse table schema for the model-driven app | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/build-dataverse-table-structure/) |
+| Design an accident tracking app in Power Apps | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/training/paths/design-accident-tracking/) |
 | Transform a business process to a model-driven app | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/model-driven-app-solution/) |
 | Customize views and forms for model-driven apps | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/customize-view-forms/) |
 | Deploy to multiple Azure environments by using JSON ARM template features | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/modify-azure-resource-manager-template-reuse/) |
@@ -63,10 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build a bot by using Teams Toolkit for Visual Studio Code | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/teams-toolkit-vsc-create-bot/) |
 | Expand the capabilities for Java apps on Azure | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/training/paths/expand-capabilities-java-azure/) |
 | Sign in users with Microsoft Entra ID in a Java web app | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/azure-java-app-enable-authentication-authorization/) |
-| Deploy a Jakarta EE application to Azure | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/deploy-java-ee-app-to-jboss-app-service/) |
-| Architect API integration in Azure | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/training/paths/architect-api-integration/) |
-| Manage your generative AI APIs with Azure API Management | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/api-management/) |
-| Implement generative AI guardrails with Azure AI Content Safety | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/training/modules/moderate-content-detect-harm-azure-ai-content-safety/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-60.md](microsoft-learn-2026-07-part-60.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-62.md](microsoft-learn-2026-07-part-62.md)

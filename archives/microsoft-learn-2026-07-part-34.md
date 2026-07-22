@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 34 of 89
-date_range: 2026-03-09 to 2026-03-12
-total_entries: 54
+date_range: 2026-03-10 to 2026-03-12
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-34.md
 ---
 
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Insights for SAP using unified analytics and AI platform | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/insights-sap-use-unified-analytics-ai-platform/) |
+| Explore Microsoft Dev Box deployment guidelines and best practices | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/explore-microsoft-dev-box-deployment-guidelines-best-practices/) |
+| Explore Microsoft Dev Box and improve developer productivity | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/training/paths/explore-microsoft-dev-box-improve-developer-productivity/) |
+| Monitoring Java applications on Azure | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/monitor-java-azure/) |
+| Work with the Windows PowerShell pipeline | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/training/paths/work-windows-powershell-pipeline/) |
+| Pass pipeline objects | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/pass-pipeline-objects/) |
+| Deploy and use SDOH datasets transformations for analytics | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/healthcare-sdoh-transformations/) |
 | Introduction to Power Pages administration | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/power-pages-admin-intro/) |
 | Extend finance and operations apps | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/training/paths/extending-finance-operations/) |
 | Extend elements in finance and operations apps | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/extend-elements-finance-operations/) |
@@ -44,8 +51,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with project sales management in Dynamics 365 Project Operations | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/training/modules/get-started-project-sales-management/) |
 | Manage Microsoft Purview Audit (Standard) | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/training/modules/manage-microsoft-purview-audit-standard/) |
 | Create text messages and push notifications in Dynamics 365 Customer Insights - Journeys | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/training/modules/create-text-messages-push-notifications/) |
-| Implement a data modeling and partitioning strategy for Azure Cosmos DB for NoSQL | Learningpaths | 2026-03-11 | [Verify](https://learn.microsoft.com/training/paths/implement-modeling-partitioning-azure-cosmos-db-sql-api/) |
 | Implement a non-relational data model | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/training/modules/implement-non-relational-data-model/) |
+| Implement a data modeling and partitioning strategy for Azure Cosmos DB for NoSQL | Learningpaths | 2026-03-11 | [Verify](https://learn.microsoft.com/training/paths/implement-modeling-partitioning-azure-cosmos-db-sql-api/) |
 | Deploy a model with GitHub Actions | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/training/modules/deploy-model-github-actions/) |
 | Work with web services in Dynamics 365 Business Central | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/training/modules/work-with-web-services/) |
 | Create forms in Dynamics 365 Customer Insights - Journeys | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/training/modules/create-forms-customer-insights-journeys/) |
@@ -60,12 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Time entries and modern approvals  infrastructure in Dynamics 365 Project Operations | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/training/modules/time-entries-modern-approvals/) |
 | Configure warehouse management in Dynamics 365 Supply Chain Management | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/training/modules/configure-warehouse-management-dyn365-supply-chain-mgmt/) |
 | Use events and triggers in Dynamics 365 Business Central | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/training/modules/events-triggers/) |
-| Get started with discrete manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/training/modules/get-started-discrete-manufacturing-dyn365-supply-chain-mgmt/) |
-| Debug and deploy your extension in Dynamics 365 Business Central | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/training/modules/debug-deploy-extension/) |
-| Discover the foundation of customizing Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-10 | [Verify](https://learn.microsoft.com/training/paths/foundation-customize-business-central/) |
-| Learn about the data management foundation in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/training/paths/data-management-foundation-business-central/) |
-| Introduction to the basics of file management in Dynamics 365 Business Central | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/training/modules/introduction-basics-file-management/) |
-| Use system catalogs and system views in PostgreSQL | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/training/modules/use-system-catalogs-system-views-postgresql/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-33.md](microsoft-learn-2026-07-part-33.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-35.md](microsoft-learn-2026-07-part-35.md)

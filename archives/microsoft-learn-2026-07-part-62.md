@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 62 of 89
-date_range: 2026-01-03 to 2026-01-05
-total_entries: 56
+date_range: 2026-01-04 to 2026-01-06
+total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-62.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Deploy a Jakarta EE application to Azure | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/deploy-java-ee-app-to-jboss-app-service/) |
+| Architect API integration in Azure | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/training/paths/architect-api-integration/) |
+| Manage your generative AI APIs with Azure API Management | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/api-management/) |
+| Implement generative AI guardrails with Azure AI Content Safety | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/training/modules/moderate-content-detect-harm-azure-ai-content-safety/) |
 | Sell through the commercial marketplace | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/training/paths/sell-through-commercial-marketplace/) |
 | Go to market through the commercial marketplace | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/training/modules/go-to-market-commercial-marketplace/) |
 | Overview of Dynamics 365 Sales Professional | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/training/modules/overview-d365-sales-professional/) |
@@ -54,7 +58,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Minecraft Trainer Academy: Train educators to teach with Minecraft Education in the classroom | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/training/modules/minecraft-trainer-academy-minecraft-education-classroom/) |
 | Automate multi-container Kubernetes deployments with Azure Pipelines | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/training/modules/deploy-kubernetes/) |
 | Automate Docker container deployments with Azure Pipelines | Modules | 2026-01-04 | [Verify]() |
-| Introduction to Graph connectors | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/training/modules/introduction-graph-connectors/) |
+| Introduction to Graph connectors | Modules | 2026-01-04 | [Verify]() |
 | Configure a JavaScript application to retrieve Microsoft 365 data by using Microsoft Graph | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/training/modules/msgraph-javascript-app/) |
 | Microsoft Graph Fundamentals | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/training/paths/m365-msgraph-fundamentals/) |
 | Run nonfunctional tests in Azure Pipelines | Modules | 2026-01-04 | [Verify]() |
@@ -65,9 +69,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build programs using Python coding in Minecraft with Azure Notebooks | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/training/modules/build-programs-use-python-coding-minecraft-azure-notebooks/) |
 | Minecraft Python coding academy | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/training/paths/minecraft-python-coding-academy/) |
 | Testing with Pytest | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/training/modules/test-python-with-pytest/) |
-| Get started using Power Platform with finance and operations apps | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/training/paths/get-started-power-platform-with-finance-operations/) |
-| Set up and build mobile experiences for finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/training/modules/mobile-experiences-finance-operations/) |
-| Work with workflows in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/training/modules/create-use-workflows-finance-operations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-61.md](microsoft-learn-2026-07-part-61.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-63.md](microsoft-learn-2026-07-part-63.md)

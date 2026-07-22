@@ -25,8 +25,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Naming and branding | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/training/modules/name-brand/) |
 | Plan your first agent - Online workshop | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/training/modules/plan-first-chatbot-online-workshop/) |
 | Empower your workforce with Microsoft 365 Copilot: HR Use Case | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/training/modules/empower-workforce-copilot-hr/) |
-| Build an initial agent with Microsoft Copilot Studio | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/training/modules/create-copilots-copilot-studio/) |
 | Enhance agents with autonomous capabilities | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/training/paths/enhance-autonomous-agents/) |
+| Build an initial agent with Microsoft Copilot Studio | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/training/modules/create-copilots-copilot-studio/) |
 | Microsoft Intune fundamentals | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/training/paths/endpoint-manager-fundamentals/) |
 | Understand Conditional Access policies using Microsoft Intune | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/training/modules/policy-security-management-using-microsoft-endpoint-manager/) |
 | Build community with Teams and OneNote | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/training/modules/build-community-teams-onenote/) |

@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 75 of 89
 date_range: 2025-12-14 to 2025-12-16
-total_entries: 55
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-75.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Sort and filter results in T-SQL | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/training/modules/sort-filter-queries/) |
 | Accessibility best practices for gaming hardware | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/training/modules/hardware-devices/) |
 | Create a Holographic Remoting app to visualize 3D content on HoloLens 2 | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/training/modules/pc-holographic-remoting-tutorials/) |
 | Protect your Azure Virtual Desktop deployment by using Azure Firewall | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/training/modules/protect-virtual-desktop-deployment-azure-firewall/) |
@@ -41,8 +42,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Azure Machine Learning monitoring | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/training/modules/monitor-azure-machine-learning/) |
 | Monitor AI workloads on Azure | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/training/paths/monitor-ai-workloads-on-azure/) |
 | Publish and access reports in Power BI service – Online workshop | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/training/modules/publish-access-reports/) |
-| Describe the foundations of Dynamics 365 customer engagement apps | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/training/modules/navigate-dynamics-customer-engagement-apps/) |
 | Explore the core capabilities of Microsoft Dynamics 365 customer engagement apps | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/training/paths/examine-core-capabilities-of-microsoft-dynamics-365-customer-engagement-apps/) |
+| Describe the foundations of Dynamics 365 customer engagement apps | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/training/modules/navigate-dynamics-customer-engagement-apps/) |
 | Create and manage environments in Dataverse | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/training/modules/create-manage-environments/) |
 | Transition to and prepare for fundamentals-level security, compliance, and identity course | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/training/modules/transition-prepare-fundamentals-level-security-compliance-identity/) |
 | Learn inclusive marketing principles | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/training/modules/inclusive-marketing/) |

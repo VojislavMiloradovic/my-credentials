@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 26 of 89
-date_range: 2026-04-09 to 2026-04-12
-total_entries: 49
+date_range: 2026-04-09 to 2026-04-13
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-26.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Challenge project - Manage customers in Business Central | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/challenge-manage-customers-business-central/) |
+| Validate your Business Central Functional Consultant skills | Learningpaths | 2026-04-13 | [Verify](https://learn.microsoft.com/training/paths/validate-business-central-functional-consultant-skills/) |
+| Prevent data loss | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/m365-security-data-loss/) |
+| Explore Microsoft Graph scenarios for ASP.NET Core development | Learningpaths | 2026-04-13 | [Verify](https://learn.microsoft.com/training/paths/m365-msgraph-dotnet-core-scenarios/) |
+| Show a user's emails in an ASP.NET Core app with Microsoft Graph | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/msgraph-dotnet-core-show-user-emails/) |
+| Remotely monitor and service equipment with Connected Field Service for Dynamics 365 and Azure IoT | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/remotely-monitor-and-service-customer-equipment/) |
+| Create cost accounting reports in Dynamics 365 Business Central | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/cost-accounting-reports-dynamics-365-business-central/) |
+| Configure the projects setup in Dynamics 365 Business Central | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/training/modules/configure-jobs-setup/) |
+| Close a fiscal year in Dynamics 365 Business Central | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/training/modules/close-fiscal-year-dynamics-365-business-central/) |
 | Investigate threats by using audit features in Microsoft Defender XDR and Microsoft Purview Standard | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/training/modules/investigate-threats-using-audit-in-microsoft-365-defender-microsoft-purview-standard/) |
 | Use multiple currencies in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-12 | [Verify](https://learn.microsoft.com/training/paths/use-multiple-currencies-dynamics-365-business-central/) |
 | Set up an additional reporting currency in Dynamics 365 Business Central | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/training/modules/additional-reporting-currency-dynamics-365-business-central/) |
@@ -53,14 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Securely connect to SAP on Azure | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/protect-azure-for-sap-workloads/) |
 | Control inventory at multiple locations in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/control-inventory-multiple-locations/) |
 | Download and upload files in a JavaScript app with Microsoft Graph | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/msgraph-manage-files/) |
-| Work with fixed assets master data in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/fixed-assets-master-data/) |
-| Sync items and inventory in Shopify and Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/sync-items-shopify-dynamics-365-business-central/) |
-| Manage an Azure Cosmos DB for NoSQL solution using DevOps practices | Learningpaths | 2026-04-09 | [Verify](https://learn.microsoft.com/training/paths/manage-cosmos-db-sql-api-solution-using-devops-practices/) |
-| Create resource template for Azure Cosmos DB for NoSQL | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/create-resource-template-for-azure-cosmos-db-sql-api/) |
-| Work with essential development standards for Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-09 | [Verify](https://learn.microsoft.com/training/paths/essential-development-standards/) |
-| Use document standards in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/use-document-standards-business-central/) |
-| Work with master data in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/work-with-master-data-business-central/) |
-| Create accessible web apps by using ASP.NET Core | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/training/modules/aspnet-core-accessibility/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-25.md](microsoft-learn-2026-07-part-25.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-27.md](microsoft-learn-2026-07-part-27.md)

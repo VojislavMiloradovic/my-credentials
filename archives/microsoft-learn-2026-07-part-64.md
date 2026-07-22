@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 64 of 89
 date_range: 2025-12-31 to 2026-01-02
-total_entries: 57
+total_entries: 58
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-64.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| The importance of psychological safety for managers | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/viva-glint-psychological-safety/) |
+| Design for accessibility in Dynamics 365 | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/design-accessibility-dynamics-365/) |
+| Introduction to Azure Files | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/introduction-to-azure-files/) |
+| Microsoft for Healthcare Overview | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/healthcare-overview/) |
 | Introduction to custom engine agents | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/copilot-custom-engine-agents-intro/) |
 | Build and manage an agent | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/build-manage-no-code-copilot-agent-sharepoint/) |
 | Transform your everyday business processes with agents | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/training/paths/implement-no-code-copilot-agents-microsoft-365-sharepoint/) |
@@ -66,9 +70,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build mobile and desktop apps with .NET MAUI | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/training/paths/build-apps-with-dotnet-maui/) |
 | Create multi-page .NET MAUI apps with tab and flyout navigation | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/training/modules/create-multi-page-apps/) |
 | Design consistent .NET MAUI XAML pages by using shared resources | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/training/modules/use-shared-resources/) |
-| Design an MVVM viewmodel for .NET MAUI | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/training/modules/design-mvvm-viewmodel/) |
-| Create a UI that uses data binding in .NET MAUI. | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/training/modules/separate-ui-and-logic-with-data-binding/) |
-| Customize layout in .NET MAUI XAML pages | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/training/modules/customize-xaml-pages-layout/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-63.md](microsoft-learn-2026-07-part-63.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-65.md](microsoft-learn-2026-07-part-65.md)

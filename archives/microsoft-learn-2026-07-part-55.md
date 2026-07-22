@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 55 of 89
 date_range: 2026-01-24 to 2026-01-25
-total_entries: 54
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-55.md
 ---
 
@@ -12,11 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Explore identity in Microsoft Entra ID | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/training/modules/explore-identity-azure-active-directory/) |
+| Implement Azure Key Vault | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/training/modules/implement-azure-key-vault/) |
+| Enroll devices using Microsoft Intune | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/training/modules/enroll-devices-use-intune/) |
+| Apply filters on functions | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/training/modules/combine-prompts-functions/) |
 | Develop solutions that use Blob storage | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/training/paths/develop-solutions-that-use-blob-storage/) |
+| Explore Azure Blob storage | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/training/modules/explore-azure-blob-storage/) |
 | Manage identity for projects, pipelines, and agents | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/training/modules/manage-identity-projects-pipelines-agents/) |
 | Manage resources in Azure | Learningpaths | 2026-01-25 | [Verify]() |
-| Control and organize Azure resources with Azure Resource Manager | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/training/modules/control-and-organize-with-azure-resource-manager/) |
 | Implement resource management security in Azure | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/training/paths/implement-resource-mgmt-security/) |
+| Control and organize Azure resources with Azure Resource Manager | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/training/modules/control-and-organize-with-azure-resource-manager/) |
 | Work with entities and variables in Microsoft Copilot Studio | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/training/modules/power-virtual-agents-entities/) |
 | Introduction to AD DS | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/training/modules/introduction-to-ad-ds/) |
 | Implement Azure App Configuration | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/training/modules/implement-azure-app-configuration/) |
@@ -49,8 +54,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Enroll devices using Microsoft Configuration Manager | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/enroll-devices-use-endpoint-configuration-manager/) |
 | Build social and emotional skills in your classroom community with Reflect | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/build-sel-skills-with-reflect/) |
 | Learning Accelerators for educators | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/training/paths/learning-accelerators-for-educators/) |
-| Get started with data engineering on Azure | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/training/paths/get-started-data-engineering/) |
 | Introduction to data engineering on Azure | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/introduction-to-data-engineering-azure/) |
+| Get started with data engineering on Azure | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/training/paths/get-started-data-engineering/) |
 | Guided project - Administer Active Directory Domain Services | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/guided-project-administer-active-directory-domain-services/) |
 | Guided project - Accelerate app development using GitHub Copilot tools | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/guided-project-accelerate-app-development-using-github-copilot-tools/) |
 | Generate documentation using GitHub Copilot tools | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/generate-documentation-using-github-copilot-tools/) |
@@ -62,10 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Maintain an Azure AI Search solution | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/maintain-azure-cognitive-search-solution/) |
 | Implement knowledge mining with Azure AI Search | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/training/paths/implement-knowledge-mining-azure-cognitive-search/) |
 | Create an Azure AI Search solution | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/create-azure-cognitive-search-solution/) |
-| Govern data in Microsoft Fabric with Purview | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/fabric-data-governance-purview/) |
-| Administer and govern Microsoft Fabric | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/training/paths/microsoft-fabric-admin-governance/) |
-| OneNote Staff Notebook: Tools for staff collaboration | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/onenote-staff-notebook/) |
-| Search data outside the Azure platform in Azure AI Search using Azure Data Factory | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/search-data-outside-azure-platform-cognitive-search/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-54.md](microsoft-learn-2026-07-part-54.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-56.md](microsoft-learn-2026-07-part-56.md)

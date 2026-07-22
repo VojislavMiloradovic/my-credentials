@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Independent learning with math tools in OneNote | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/independent-learning-math-tools-onenote/) |
+| OneNote for educators | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/training/paths/onenote-teacher-academy/) |
+| Understand Windows Server IaaS Virtual Machine cost management | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/understand-windows-server-iaas-vm-cost-management/) |
+| Introduction to Azure database administration | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/training/paths/introduction-to-azure-database-administration/) |
+| Prepare to maintain SQL Server-based databases on Azure | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/prepare-to-maintain-sql-databases-azure/) |
 | Implement Windows Server failover clustering | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/implement-windows-server-failover-cluster/) |
 | Integrate desktop flows with Outlook connector in Power Automate for desktop | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/integrate-flow-outlook/) |
 | Manage Microsoft Defender in Windows client | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/manage-defender-windows-client/) |
@@ -22,15 +27,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement Windows Server File Server high availability | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/implement-windows-server-file-server-high-availability/) |
 | Use Dataverse choice columns with formulas | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/choice-columns-formulas/) |
 | Configure and manage Hyper-V | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/configure-manage-hyper-v/) |
-| Explore Microsoft Intune Suite | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/explore-microsoft-intune-suite/) |
 | MD-102 Deploy using cloud based tools | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/training/paths/deploy-cloud-based-tools/) |
+| Explore Microsoft Intune Suite | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/explore-microsoft-intune-suite/) |
 | Perform custom updates in a Power Apps canvas app | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/perform-custom-updates-powerapps-canvas-app/) |
 | Deploy IaaS solutions with Azure SQL | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/deploy-iaas-solutions-with-azure-sql/) |
 | Deploy Microsoft 365 Apps for enterprise | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/training/modules/deploy-microsoft-365-apps-enterprise/) |
 | Deploy using the Microsoft Deployment Toolkit | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/training/modules/deploy-microsoft-deployment-toolkit/) |
 | Manage GitHub Actions in the enterprise | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/training/modules/manage-github-actions-enterprise/) |
-| Build great solutions with the Microsoft Azure Well-Architected Framework | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/training/paths/azure-well-architected-framework/) |
 | Microsoft Azure Well-Architected Framework - Reliability | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/training/modules/azure-well-architected-reliability/) |
+| Build great solutions with the Microsoft Azure Well-Architected Framework | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/training/paths/azure-well-architected-framework/) |
 | Search and investigate with Microsoft Purview Audit | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/training/modules/purview-audit-search-investigate/) |
 | Mitigate threats using Microsoft Defender for Endpoint | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/training/paths/sc-200-mitigate-threats-using-microsoft-defender-for-endpoint/) |
 | Perform evidence and entities investigations using Microsoft Defender for Endpoint | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/training/modules/perform-evidence-entities-investigations-microsoft-defender-for-endpoint/) |
@@ -59,13 +64,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage secure user access in Microsoft 365 | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/training/modules/manage-secure-access-microsoft-365/) |
 | Get started with cloud native apps and containerized deployments | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/training/modules/get-started-cloud-native-apps-containerized-deployments/) |
 | Deploy cloud-native apps using Azure Container Apps | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/training/paths/deploy-cloud-native-applications-to-azure-container-apps/) |
-| Create and manage canvas apps with Power Apps | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/training/paths/create-manage-canvas-apps-power-apps/) |
 | Guided Project - Create and manage canvas apps with Power Apps | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/training/modules/guided-project-create-manage-canvas-apps/) |
 | Explore and analyze data with Python | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/training/modules/explore-analyze-data-with-python/) |
-| Upgrade and migrate Windows Server IaaS virtual machines | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/training/modules/upgrade-migrate-windows-server-iaas-virtual-machines/) |
-| Dyslexia training, in partnership with Made By Dyslexia | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/training/paths/dyslexia-training/) |
-| Dyslexia Teaching: Part 1, In partnership with Made By Dyslexia | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/training/modules/dyslexia-teaching-part-1/) |
-| Windows Server file servers and storage management | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/training/paths/windows-server-file-servers-storage-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-51.md](microsoft-learn-2026-07-part-51.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-53.md](microsoft-learn-2026-07-part-53.md)

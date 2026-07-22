@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 46 of 89
 date_range: 2026-02-11 to 2026-02-12
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-46.md
 ---
 
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Master, supplemental and personal data in Business Central | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/master-supplemental-personal-data-dynamics-365-business-central/) |
+| Secure Azure Database for PostgreSQL | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/secure-azure-database-for-postgresql/) |
+| Service representative collaboration in Dynamics 365 Customer Service | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/agent-collaboration/) |
+| Translate Text with Azure Translator and Azure Database for PostgreSQL | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/translate-text-azure-ai-translator-azure-database-postgresql/) |
+| Manage identities in Microsoft Entra ID | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/manage-identities-azure-active-directory/) |
+| Manage user profiles | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/manage-user-profiles/) |
 | Search and filter knowledge articles by using Dynamics 365 Customer Service | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/search-filter-knowledge-articles/) |
 | Work with performance and monitoring tools in finance and operations apps | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/performance-monitoring-finance-operations/) |
 | Set up and work with inventory control in Dynamics 365 Supply Chain Management | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/training/modules/set-up-work-inventory-control/) |
@@ -59,11 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Develop an ASP.NET Core web app that consumes an API | Learningpaths | 2026-02-11 | [Verify](https://learn.microsoft.com/training/paths/develop-asp-core-api/) |
 | Render API responses in ASP.NET Core Blazor Web apps | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/render-api-responses-razor-pages/) |
 | Set up dimensions in Dynamics 365 Business Central | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/dimensions-dynamics-365-business-central/) |
-| Implement app protection by using Microsoft Defender for Cloud Apps | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/implement-app-protection-use-microsoft-defender-cloud-apps/) |
-| Implement threat protection by using Microsoft Defender for Office 365 | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/implement-threat-protection-use-microsoft-defender-office-365/) |
-| Set up email in Dynamics 365 Business Central | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/set-up-email/) |
-| Set up number series and trail codes in Dynamics 365 Business Central | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/number-series-trail-codes-dynamics-365-business-central/) |
-| Explore security solutions in Microsoft Defender XDR | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/explore-security-solutions-microsoft-365-defender/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-45.md](microsoft-learn-2026-07-part-45.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-47.md](microsoft-learn-2026-07-part-47.md)

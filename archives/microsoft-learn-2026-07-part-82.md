@@ -12,7 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Challenge project - Develop branching and looping structures in C# | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/) |
 | Organize content, create assignments, and assess learners' understanding in Teams | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/training/modules/organize-content-create-assignments-assess-learners-understanding-teams/) |
 | Introduction to project FarmVibes.AI | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/training/research/introduction-to-project-farmvibes-ai/) |
 | Technical foundations of SaaS | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/training/saas/saas-technical-foundations/) |
@@ -45,26 +44,27 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Assemble learners and staff with Microsoft Teams meetings | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/assemble-learners-staff-microsoft-teams-meetings/) |
 | Use tools in Copilot Studio - Online workshop | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/copilot-tools-online-workshop/) |
 | Perform a Windows 11 device readiness assessment | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/windows-11-readiness-assessment/) |
-| Explore the business value of generative AI solutions | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/training/paths/explore-business-value-generative-ai-solutions/) |
 | Build effective generative AI solutions in your organization | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/build-effective-generative-ai-solutions-organization/) |
-| Explore prebuilt Microsoft 365 Copilot agents | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/explore-prebuilt-microsoft-365-copilot-agents/) |
+| Explore the business value of generative AI solutions | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/training/paths/explore-business-value-generative-ai-solutions/) |
 | Enhance your productivity with prebuilt Microsoft 365 Copilot agents | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/training/paths/enhance-productivity-prebuilt-agents/) |
+| Explore prebuilt Microsoft 365 Copilot agents | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/explore-prebuilt-microsoft-365-copilot-agents/) |
 | Introduction to declarative agents for Microsoft 365 Copilot | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/copilot-declarative-agent-intro/) |
 | Monitor and maintain Microsoft 365 Copilot connectors | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/monitor-maintain-microsoft-365-copilot-connectors/) |
 | Build your first Microsoft 365 Copilot connector using Visual Studio Code | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/build-your-first-microsoft-365-copilot-connector/) |
 | Drive business value with Microsoft Copilot solutions | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/business-value-microsoft-copilot-solutions/) |
 | Windows 11 and cloud-native concepts: myths, realities, and best practices | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/cloud-native-myths/) |
 | Introduction to AI speech concepts | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/introduction-ai-speech/) |
-| Analyze and visualize data using Microsoft 365 Copilot | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/analyze-visualize-data-copilot/) |
 | Transform business workflows with generative AI | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/training/paths/transform-business-workflows-with-ai/) |
+| Analyze and visualize data using Microsoft 365 Copilot | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/training/modules/analyze-visualize-data-copilot/) |
 | Iterate through a code block using for statement in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/training/modules/csharp-for/) |
 | Branch the flow of code using the switch-case construct in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/training/modules/csharp-switch-case/) |
 | Explore Azure Storage for non-relational data | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/training/modules/explore-provision-deploy-non-relational-data-services-azure/) |
 | Introduction to Microsoft Azure Data non-relational data in Azure | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/training/paths/azure-data-fundamentals-explore-non-relational-data/) |
 | Introduction to Azure Load Balancer | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-load-balancer/) |
-| Guided project - Develop foreach and if-elseif-else structures to process array data in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/) |
 | Create and run simple C# console applications (Get started with C#, Part 2) | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/training/paths/get-started-c-sharp-part-2/) |
+| Guided project - Develop foreach and if-elseif-else structures to process array data in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/) |
 | Build your first workflow with Power Automate and Dataverse for Teams | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/training/modules/build-first-workflow/) |
+| Create apps, copilots, flows, and more with Microsoft Dataverse and Teams | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/training/paths/work-power-platform-teams/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-81.md](microsoft-learn-2026-07-part-81.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-83.md](microsoft-learn-2026-07-part-83.md)

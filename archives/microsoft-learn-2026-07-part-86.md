@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 86 of 89
 date_range: 2025-11-15 to 2025-11-19
-total_entries: 54
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-86.md
 ---
 
@@ -12,10 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Choose the best Microsoft 365 Copilot extensibility path for your scenario | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/choose-microsoft-365-copilot-extensibility-path/) |
-| Introduction to developing AI agents | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/introduction-develop-ai-agents/) |
-| Combining data from multiple tables: SQL Joins Explained | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/azure-databases/postgresql/basic-sql-join-tables/) |
 | Azure Database for PostgreSQL Tutorials | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/training/paths/playground-learning/) |
+| Combining data from multiple tables: SQL Joins Explained | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/azure-databases/postgresql/basic-sql-join-tables/) |
 | Filtering data: The WHERE clause and subqueries | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/azure-databases/postgresql/basic-sql-where-clause-subqueries/) |
 | Getting started: An introduction to SQL and reading data | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/azure-databases/postgresql/basic-sql-simple-select/) |
 | Organizing data: Using LIMIT, OFFSET, and ORDER BY clauses | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/azure-databases/postgresql/basic-sql-limit-offset-order-by/) |
@@ -66,6 +64,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Explore fundamental relational data concepts | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/training/modules/explore-relational-data-offerings/) |
 | Allow users to reset their password with Microsoft Entra self-service password reset | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/training/modules/allow-users-reset-their-password/) |
 | MS-900 Introduction to Microsoft 365: Describe Microsoft 365 apps and services | Learningpaths | 2025-11-15 | [Verify](https://learn.microsoft.com/training/paths/describe-microsoft-365-core-services-concepts/) |
+| Describe the device and cloud endpoint management concepts and deployment options in Microsoft 365 | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/training/modules/describe-endpoint-modernization-management-concepts-deployment-options/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-85.md](microsoft-learn-2026-07-part-85.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-87.md](microsoft-learn-2026-07-part-87.md)

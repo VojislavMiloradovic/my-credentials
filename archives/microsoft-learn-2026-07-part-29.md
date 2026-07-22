@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 29 of 89
 date_range: 2026-03-26 to 2026-04-01
-total_entries: 53
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-29.md
 ---
 
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Guided project: Share files securely | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-share-files-securely/) |
+| Introduction to cloud infrastructure: Apply Azure skills in guided projects | Learningpaths | 2026-04-01 | [Verify](https://learn.microsoft.com/training/paths/introduction-cloud-infrastructure-apply-azure-skills-guided-projects/) |
+| Guided project: Set up cost guardrails in Azure | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-cost-guardrails/) |
+| Guided project: Organize and protect resources with tags and locks | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-organize-resources-tags-locks/) |
+| Guided project: Monitor Azure with Service Health and Activity Log alerts | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-monitor-service-health-activity-alerts/) |
+| Guided project: Manage Azure resources with Cloud Shell and the Azure CLI | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-manage-resources-cloud-shell-cli/) |
+| Guided project: Deploy a static website with Azure Blob Storage | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-deploy-static-website-blob-storage/) |
 | Guided Project: Build a simple website endpoint with Azure Functions | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-build-basic-website-endpoint-with-functions/) |
 | Guided Project: Set up new employee access (Entra ID and RBAC) | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-new-employee-access/) |
 | Introduction to natural language processing with TensorFlow | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/intro-natural-language-processing-tensorflow/) |
@@ -57,14 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Explore Azure networking for SAP RISE | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/explore-azure-networking-sap-rise/) |
 | AZ-104: Manage identities and governance in Azure | Learningpaths | 2026-03-26 | [Verify](https://learn.microsoft.com/training/paths/az-104-manage-identities-governance/) |
 | Azure Policy initiatives | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/sovereignty-policy-initiatives/) |
-| Describe Azure networking services | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/describe-azure-networking-services/) |
-| Introduction to SQL Server 2025 data virtualization | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/sql-server-data-virtualization/) |
-| Introduction to Microsoft Foundry on Windows | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/introduction-microsoft-foundry-windows/) |
-| Dragon Copilot (physicians) create prompts | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/dragon-copilot-create-prompts/) |
-| Develop sales skills with AI agents | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/agent-speed-skills-sales/) |
-| Explore role-based AI agent skills for business users | Learningpaths | 2026-03-26 | [Verify](https://learn.microsoft.com/training/paths/explore-role-based-ai-agent-skills-business-users/) |
-| Develop marketing skills with AI agents | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/agent-speed-skills-marketing/) |
-| Develop finance skills with AI agents | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/agent-speed-skills-finance/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-28.md](microsoft-learn-2026-07-part-28.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-30.md](microsoft-learn-2026-07-part-30.md)

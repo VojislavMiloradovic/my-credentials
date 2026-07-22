@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 10 of 89
-date_range: 2026-06-06 to 2026-06-08
-total_entries: 54
+date_range: 2026-06-07 to 2026-06-09
+total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-10.md
 ---
 
@@ -12,6 +12,19 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Design network solutions | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/training/modules/design-network-solutions/) |
+| Design an application architecture | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/training/modules/design-application-architecture/) |
+| Introduction to GitHub Actions | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/training/modules/introduction-to-github-actions/) |
+| Explore Azure Pipelines | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/training/modules/explore-azure-pipelines/) |
+| Plan to foster inner source | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/training/modules/plan-fostering-inner-source/) |
+| AZ-400: Development for Enterprise DevOps | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/training/paths/az-400-work-git-for-enterprise-devops/) |
+| Explore Git hooks | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/training/modules/explore-git-hooks/) |
+| Design a data storage solution for relational data | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/training/modules/design-data-storage-solution-for-relational-data/) |
+| Power Platform Robotic Process Automation overview | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/training/paths/power-platform-robotic-process-automation-overview/) |
+| Introduction to Microsoft Power Platform developer resources | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/training/modules/introduction-power-platform-developer-resources/) |
+| Manage and configure repositories | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/training/modules/manage-git-repositories/) |
+| Design a solution to log and monitor Azure resources | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/training/modules/design-solution-to-log-monitor-azure-resources/) |
+| Identify technical debt | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/training/modules/identify-technical-debt/) |
 | Design and implement branch strategies and workflows | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/training/modules/manage-git-branches-workflows/) |
 | Create machine learning models | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/training/paths/create-machine-learn-models/) |
 | Train and evaluate deep learning models | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/training/modules/train-evaluate-deep-learn-models/) |
@@ -56,16 +69,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Simplify complex conditionals using GitHub Copilot Agent | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/training/modules/simplify-complex-conditionals-github-copilot-agent/) |
 | Improve code performance using GitHub Copilot Agent | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/training/modules/improve-code-performance-github-copilot-agent/) |
 | Azure Devops to GitHub Enterprise Migrations Part III - Migration Testing and Production Migration | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/training/modules/ado-github-migrations-3/) |
-| Azure Devops to GitHub Enterprise Migrations Part II - Source Environment Assessment and Target Environment Setup | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/training/modules/ado-github-migrations-2/) |
-| Azure DevOps to GitHub Enterprise Migrations Part IV - Post-Migration Stabilization, Enablement, and Operations | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/ado-github-migrations-four/) |
-| Enhance AI solutions with Azure Managed Redis | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/training/paths/enhance-ai-solutions-azure-managed-redis/) |
-| Implement event messaging with Azure Managed Redis | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/implement-event-messaging-azure-managed-redis/) |
-| Implement data operations in Azure Managed Redis | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/implement-data-operations-azure-managed-redis/) |
-| Implement vector storage in Azure Managed Redis | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/implement-vector-storage-azure-managed-redis/) |
-| Deploy and monitor applications on Azure Kubernetes Service | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/training/paths/deploy-monitor-apps-azure-kubernetes-service/) |
-| Configure applications on Azure Kubernetes Service | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/configure-apps-azure-kubernetes-service/) |
-| Enhance endpoint security with Microsoft Intune and Microsoft Security Copilot | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/training/paths/enhance-endpoint-security-microsoft-intune-copilot/) |
-| Prepare Microsoft Entra ID and Intune for device management | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/prepare-microsoft-entra-id-intune-device-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-09.md](microsoft-learn-2026-07-part-09.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-11.md](microsoft-learn-2026-07-part-11.md)

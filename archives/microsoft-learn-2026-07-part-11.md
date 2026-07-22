@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 11 of 89
-date_range: 2026-06-01 to 2026-06-06
+date_range: 2026-06-02 to 2026-06-07
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-11.md
 ---
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Azure Devops to GitHub Enterprise Migrations Part II - Source Environment Assessment and Target Environment Setup | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/training/modules/ado-github-migrations-2/) |
+| Azure DevOps to GitHub Enterprise Migrations Part IV - Post-Migration Stabilization, Enablement, and Operations | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/ado-github-migrations-four/) |
+| Enhance AI solutions with Azure Managed Redis | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/training/paths/enhance-ai-solutions-azure-managed-redis/) |
+| Implement event messaging with Azure Managed Redis | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/implement-event-messaging-azure-managed-redis/) |
+| Implement data operations in Azure Managed Redis | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/implement-data-operations-azure-managed-redis/) |
+| Implement vector storage in Azure Managed Redis | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/implement-vector-storage-azure-managed-redis/) |
+| Deploy and monitor applications on Azure Kubernetes Service | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/training/paths/deploy-monitor-apps-azure-kubernetes-service/) |
+| Configure applications on Azure Kubernetes Service | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/configure-apps-azure-kubernetes-service/) |
+| Enhance endpoint security with Microsoft Intune and Microsoft Security Copilot | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/training/paths/enhance-endpoint-security-microsoft-intune-copilot/) |
+| Prepare Microsoft Entra ID and Intune for device management | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/prepare-microsoft-entra-id-intune-device-management/) |
 | Harden endpoints and monitor security with Microsoft Intune and Defender for Endpoint | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/harden-endpoints-monitor-security-intune-defender-endpoint/) |
 | Enroll and validate devices with Microsoft Intune | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/enroll-validate-devices-microsoft-intune/) |
 | Configure and secure devices with Microsoft Intune policies | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/training/modules/configure-secure-devices-intune-policies/) |
@@ -54,16 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Protect information in a Microsoft 365 Copilot environment using Microsoft Purview | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/training/paths/purview-protect-microsoft-365-copilot-environment/) |
 | Develop agents and applications using agentic programming tools | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/training/paths/create-embed-custom-code-agents/) |
 | Implement spec-driven development using the GitHub Spec Kit | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/training/modules/spec-driven-development-github-spec-kit-enterprise-developers/) |
-| Optimize vector search in Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/training/modules/optimize-vector-search-azure-database-postgresql/) |
-| Develop AI solutions with Azure Database for PostgreSQL | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/training/paths/develop-ai-solutions-azure-database-postgresql/) |
-| Implement vector search with Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/training/modules/implement-vector-search-azure-database-postgresql/) |
-| Build and query with Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/training/modules/build-query-azure-database-postgresql/) |
-| Reduce data exposure risk with Data Security Posture Management in Microsoft Purview | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/training/paths/purview-data-security-posture-management/) |
-| Understand data security posture management in Microsoft Purview | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/training/modules/purview-data-security-posture-management-understand/) |
-| Implement application protection and security using Microsoft Intune | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/training/modules/implement-application-protection-intune/) |
-| Implement Microsoft Defender for Endpoint using Microsoft Intune | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/training/modules/implement-defender-endpoint-intune/) |
-| Manage AI-ready infrastructure | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/training/paths/manage-ai-ready-infrastructure/) |
-| Manage monitoring for AI-Ready Infrastructure | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/training/modules/manage-monitoring-ai-ready-infrastructure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-10.md](microsoft-learn-2026-07-part-10.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-12.md](microsoft-learn-2026-07-part-12.md)

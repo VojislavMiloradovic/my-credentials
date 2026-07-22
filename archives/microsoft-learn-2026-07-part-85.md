@@ -12,8 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Copilot+ PC overview | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/training/modules/copilot-pc-overview/) |
-| Surface Pro for Business with Snapdragon® X Elite and Plus processors | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/training/modules/surface-business-snapdragon/) |
 | Turbocharge business impact with Copilot+ PC | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/training/modules/business-impact-copilot-pc/) |
 | Microsoft Education for K-12 Accreditation 2025 | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/training/paths/microsoft-education-k-12-accreditation-2025/) |
 | Microsoft Education for K-12 IT professionals | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/training/modules/microsoft-education-k-12-it-pros/) |
@@ -47,8 +45,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build your first Windows App by using WinUI & Windows App SDK | Modules | 2025-11-20 | [Verify]() |
 | Craft a compelling product pitch using AI | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/training/modules/craft-compelling-product-pitch-using-ai/) |
 | Get ready for AI in education with Microsoft | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/training/modules/get-ready-ai-education-microsoft/) |
-| Introduction to Microsoft Azure Management tasks | Learningpaths | 2025-11-20 | [Verify](https://learn.microsoft.com/training/paths/introduction-microsoft-azure-management-tasks/) |
 | Guided project – Update and maintain resources | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/training/modules/guided-project-update-maintain-resources/) |
+| Introduction to Microsoft Azure Management tasks | Learningpaths | 2025-11-20 | [Verify](https://learn.microsoft.com/training/paths/introduction-microsoft-azure-management-tasks/) |
 | Describe Microsoft Azure resources management | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/training/modules/describe-microsoft-azure-resources-management/) |
 | Animate the impossible - 2D/3D motion techniques with Sora | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/training/modules/animate-impossible/) |
 | Guided project - Calculate and print student grades | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/guided-project-calculate-print-student-grades/) |
@@ -61,13 +59,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Breathing life into stories - character and dialogue creation with Azure | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/breathing-life-into-stories/) |
 | Forging Voices from Data - Custom AI Training with Azure OpenAI Studio | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/forging-voices-from-data/) |
 | The Architecture of Thought - Dialogue Systems with Azure OpenAI Studio | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/architecture-of-thought/) |
-| Define a Microsoft AI strategy to create business value in nonprofit | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/define-microsoft-ai-strategy-create-business-value-nonprofit/) |
 | Discover AI for leaders in nonprofit | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/training/paths/discover-ai-leaders-nonprofit/) |
+| Define a Microsoft AI strategy to create business value in nonprofit | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/define-microsoft-ai-strategy-create-business-value-nonprofit/) |
 | Enhance your LinkedIn profile with Microsoft Copilot and ace your interview | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/enhance-linkedin-profile-with-copilot-ace-your-interview/) |
 | Build a model-driven app | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/build-model-driven-app/) |
-| Choose a custom AI agent development path | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/choose-ai-agent-development-path/) |
 | Build a foundation to build AI agents and extend Microsoft 365 Copilot | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/training/paths/build-foundation-extend-microsoft-365-copilot/) |
+| Choose a custom AI agent development path | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/choose-ai-agent-development-path/) |
 | Introduction to Microsoft AI agent solutions | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/introduction-microsoft-ai-agent-solutions/) |
+| Choose the best Microsoft 365 Copilot extensibility path for your scenario | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/choose-microsoft-365-copilot-extensibility-path/) |
+| Introduction to developing AI agents | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/training/modules/introduction-develop-ai-agents/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-84.md](microsoft-learn-2026-07-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-86.md](microsoft-learn-2026-07-part-86.md)

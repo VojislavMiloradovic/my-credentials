@@ -12,7 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Create methods in C# console applications (Get started with C#, Part 5) | Learningpaths | 2025-12-10 | [Verify](https://learn.microsoft.com/training/paths/get-started-c-sharp-part-5/) |
 | Earn credit toward the SDS Professional badge | Modules | 2025-12-10 | [Verify]() |
 | School Data Sync professional for education partners | Learningpaths | 2025-12-10 | [Verify](https://learn.microsoft.com/training/paths/school-data-sync-professional-for-education-partners/) |
 | SharePoint Embedded - overview & configuration | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/training/modules/sharepoint-embedded-setup/) |
@@ -51,8 +50,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create C# methods that return values | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/training/modules/create-c-sharp-methods-return-values/) |
 | Get started with Microsoft 365 Copilot Chat | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/training/modules/get-started-microsoft-365-copilot-business-chat/) |
 | Deploy and consume models with Azure Machine Learning | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/training/paths/deploy-consume-models-azure-machine-learning/) |
-| Deploy a model to a managed online endpoint | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/training/modules/deploy-model-managed-online-endpoint/) |
 | Train and manage a machine learning model with Azure Machine Learning | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/training/paths/train-deploy-machine-learning-model/) |
+| Deploy a model to a managed online endpoint | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/training/modules/deploy-model-managed-online-endpoint/) |
 | Manage and review models in Azure Machine Learning | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/training/paths/manage-review-models-azure-machine-learning/) |
 | Create and explore the Responsible AI dashboard for a model in Azure Machine Learning | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/training/modules/manage-compare-models-azure-machine-learning/) |
 | Implement exception handling in C# console applications | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/) |
@@ -67,6 +66,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to application resiliency in Azure | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/training/modules/introduction-application-resiliency-azure/) |
 | Prepare for Intune for Education (Partner Success Series) | Modules | 2025-12-07 | [Verify]() |
 | Ingest ESG value chain data | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/training/modules/sustainability-environmental-social-governance-value-solution/) |
+| Apply Information Barriers in education | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/training/modules/apply-information-barriers-education/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-77.md](microsoft-learn-2026-07-part-77.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-79.md](microsoft-learn-2026-07-part-79.md)

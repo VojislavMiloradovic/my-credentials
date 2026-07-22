@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Upgrade and migrate Windows Server IaaS virtual machines | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/training/modules/upgrade-migrate-windows-server-iaas-virtual-machines/) |
+| Dyslexia training, in partnership with Made By Dyslexia | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/training/paths/dyslexia-training/) |
+| Dyslexia Teaching: Part 1, In partnership with Made By Dyslexia | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/training/modules/dyslexia-teaching-part-1/) |
+| Windows Server file servers and storage management | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/training/paths/windows-server-file-servers-storage-management/) |
 | Implement Storage Spaces and Storage Spaces Direct | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/training/modules/implement-storage-spaces-storage-spaces-direct/) |
 | Microsoft Azure Well-Architected Framework - Performance Efficiency | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/training/modules/azure-well-architected-performance-efficiency/) |
 | Implement user authentication and authorization | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/training/paths/az-204-implement-authentication-authorization/) |
@@ -45,8 +49,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create a canvas app in Power Apps | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/training/paths/create-powerapps/) |
 | Navigation in a canvas app in Power Apps | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/training/modules/navigation-canvas-app/) |
 | Generate inventory and compliance reports | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/training/modules/inventory-complinace-reports/) |
-| Get started using Dataverse | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/training/paths/get-started-cds/) |
 | Connect to other data in a Power Apps canvas app | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/training/modules/connect-to-other-data-in-powerapps-canvas-app/) |
+| Get started using Dataverse | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/training/paths/get-started-cds/) |
 | Explore Azure Databricks | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/training/modules/explore-azure-databricks/) |
 | Develop generative AI apps with Azure OpenAI and Semantic Kernel | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/training/paths/develop-ai-agents-azure-open-ai-semantic-kernel-sdk/) |
 | Build your kernel | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/training/modules/build-your-kernel/) |
@@ -60,15 +64,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement device compliance | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/training/modules/implement-device-compliance/) |
 | Utilize Vulnerability Management in Microsoft Defender for Endpoint | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/training/modules/use-threat-vulnerability-management-microsoft-defender-for-endpoint/) |
 | Manage Windows 365 | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/training/modules/manage-windows-365/) |
-| Manage topics in Microsoft Copilot Studio | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/training/modules/manage-power-virtual-agents-topics/) |
 | Create agents in Microsoft Copilot Studio | Learningpaths | 2026-01-28 | [Verify](https://learn.microsoft.com/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/) |
+| Manage topics in Microsoft Copilot Studio | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/training/modules/manage-power-virtual-agents-topics/) |
 | Implement Windows security enhancements with Microsoft Defender for Endpoint | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/training/modules/implement-windows-10-security-enhancements-with-microsoft-defender-for-endpoint/) |
 | Implement scale and high availability with Windows Server VM | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/training/modules/implement-scale-high-availability-windows-server-virtual-machine/) |
 | Deploy and update applications | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/training/modules/deploy-applications/) |
-| Implement authentication by using the Microsoft Authentication Library | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/training/modules/implement-authentication-by-using-microsoft-authentication-library/) |
-| Defend against threats with Microsoft 365 | Learningpaths | 2026-01-28 | [Verify](https://learn.microsoft.com/training/paths/m365-security-threat-protection/) |
-| Protect against threats with Microsoft Defender for Endpoint | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/training/modules/m365-security-threat-protect/) |
-| Explore Microsoft Graph | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/training/modules/microsoft-graph/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-52.md](microsoft-learn-2026-07-part-52.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-54.md](microsoft-learn-2026-07-part-54.md)

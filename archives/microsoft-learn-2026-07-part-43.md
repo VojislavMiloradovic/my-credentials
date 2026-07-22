@@ -12,10 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Help service reps be more productive in Dynamics 365 Customer Service | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/training/paths/agents-help-customer-service/) |
+| Introduction to report components in Dynamics 365 Business Central | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/introduction-report-components/) |
+| Manage access and security for Azure Virtual Desktop | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/training/paths/manage-access-security/) |
+| Manage access for Azure Virtual Desktop | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/manage-access/) |
+| Set up dual-write in finance and operations apps | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/set-up-dual-write-finance-operations/) |
+| Explore data integration concepts in finance and operations apps | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/integration-patterns-finance-operations/) |
 | Create smart assist solutions in Contact Center for Dynamics 365 Customer Service | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/create-smart-assist-omnichannel/) |
-| Implement and operate an on-premises and hybrid networking infrastructure | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/training/paths/implement-operate-premises-hybrid/) |
+| Help service reps be more productive in Dynamics 365 Customer Service | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/training/paths/agents-help-customer-service/) |
 | Implement IP Address Management | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/implement-ip-address-management/) |
+| Implement and operate an on-premises and hybrid networking infrastructure | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/training/paths/implement-operate-premises-hybrid/) |
 | Protect, monitor, and tune a migrated database | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/protect-monitor-tuning-migrated-database/) |
 | Configure monitoring for virtual machines | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/configure-monitoring-virtual-machines/) |
 | Work with codeunits in Dynamics 365 Business Central | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/work-with-codeunits/) |
@@ -23,8 +28,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Certify and create an open-source Microsoft Power Platform custom connector | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/open-source-connectors/) |
 | OCR technologies in Power Automate for desktop | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/pad-ocr/) |
 | Handle events with Azure Functions and Azure Cosmos DB for NoSQL change feed | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/handle-events-azure-functions-azure-cosmos-db-sql-api-change-feed/) |
-| Challenge project - Build applications and automation solutions | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/challenge-project-build-applications-automation-solutions/) |
 | Validate your Power Platform Functional Consultant skills | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/training/paths/validate-power-platform-functional-consultant-skills/) |
+| Challenge project - Build applications and automation solutions | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/challenge-project-build-applications-automation-solutions/) |
 | Use report triggers, functions, and processing-only reports in Dynamics 365 Business Central | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/understand-report-triggers-functions/) |
 | Explore finance and operations apps integration concepts | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/explore-finance-operations-apps-integration-concepts/) |
 | Work with accounts payable daily procedures in Dynamics 365 Finance | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/work-accounts-payable-daily-finance/) |
@@ -58,11 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with the SharePoint Framework | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/sharepoint-spfx-get-started/) |
 | Manage Azure PaaS tasks using automation | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/manage-azure-paas-resources-using-automated-methods/) |
 | Deploy and configure Windows Server IaaS Virtual Machine | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/training/paths/deploy-configure-windows-server-iaas-virtual-machine/) |
-| Plan and deploy Windows Server IaaS Virtual Machines | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/plan-deploy-windows-server-iaas-virtual-machines/) |
-| Manage virtualization and containers in a hybrid environment | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/training/paths/manage-virtualization-containers-hybrid-environment/) |
-| Guided Project - Azure Files and Azure Blobs | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/guided-project-azure-files-azure-blobs/) |
-| Secure storage for Azure Files and Azure Blob Storage | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/training/paths/implement-storage-azure-files-azure-blob-storage/) |
-| Examine the Microsoft 365 Copilot design | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/examine-microsoft-365-copilot-design/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-42.md](microsoft-learn-2026-07-part-42.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-44.md](microsoft-learn-2026-07-part-44.md)

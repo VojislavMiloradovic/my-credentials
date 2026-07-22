@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 20 of 89
-date_range: 2026-04-26 to 2026-04-29
-total_entries: 52
+date_range: 2026-04-27 to 2026-04-29
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-20.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Manage memberships in Fundraising and Engagement | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/manage-membership-fundraising-engagement/) |
+| Foster health team collaboration with Microsoft for Healthcare | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/training/paths/healthcare-health-team/) |
+| Home health in Microsoft for Healthcare | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/home-health/) |
+| Manage events in Fundraising and Engagement | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/manage-events-fundraising-engagement/) |
+| Moves management to raise major gifts with Fundraising and Engagement | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/moves-management/) |
+| Set up insurances in Dynamics 365 Business Central | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/set-up-insurances/) |
+| Extend Dynamics 365 Project Operations | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/training/paths/extend-project-operations/) |
+| Extend Universal Resource Scheduling with Dynamics 365 Project Operations | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/extend-universal-resource-scheduling/) |
+| Publish metrics data for audit disclosures using Compliance Manager | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/sustainability-audit-disclosures/) |
 | Manage healthcare data with Care Management in Microsoft for Healthcare | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/healthcare-care-management/) |
 | Convert prospects in Dynamics 365 Sales to customers in Dynamics 365 Supply Chain Management | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/convert-prospects-sales-customers/) |
 | The value of genuine Windows | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/training/modules/value-genuine-windows/) |
@@ -56,14 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Migrating Cassandra and MongoDB workloads to Cosmos DB | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/training/paths/migrate-cassandra-mongo-db-workloads-to-cosmos-db/) |
 | Introduction to open source database migration to Azure Cosmos DB | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/training/modules/introduction-open-source-database-migration-azure-cosmos-db/) |
 | Set up maintenance information in Dynamics 365 Business Central | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/training/modules/set-up-maintenance-information/) |
-| Manage engagement opportunities with Volunteer Management | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/training/modules/manage-engagement-opportunities-volunteer-management/) |
-| Configure settings for Volunteer Management | Modules | 2026-04-27 | [Verify]() |
-| Work with Demand planning in Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/training/paths/work-with-demand-planning-supply-chain/) |
-| Set up and use demand planning in Dynamics 365 Supply Chain Management | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/training/modules/set-up-use-demand-planning/) |
-| Manage constituents in Fundraising and Engagement for Microsoft for Nonprofits | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/training/modules/manage-constituents-fundraising-engagement/) |
-| Get started with the Asset Management mobile app in Dynamics 365 Supply Chain Management | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/training/modules/get-started-asset-mobile/) |
-| Build an app by using the FHIRlink connector | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/training/modules/healthcare-build-fhir-link-connector/) |
-| Receive and put-away items in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-26 | [Verify](https://learn.microsoft.com/training/paths/receive-put-away-items-whse/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-19.md](microsoft-learn-2026-07-part-19.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-21.md](microsoft-learn-2026-07-part-21.md)

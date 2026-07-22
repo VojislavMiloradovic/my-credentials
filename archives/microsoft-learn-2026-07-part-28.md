@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 28 of 89
-date_range: 2026-04-01 to 2026-04-05
-total_entries: 50
+date_range: 2026-04-01 to 2026-04-06
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-28.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Implement goal management in Dynamics 365 Sales and Customer Service | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/training/paths/apply-goal-management-dynamics-365/) |
+| Forecast your cash flow in Dynamics 365 Business Central | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/training/modules/forecast-cash-flow-dynamics-365-business-central/) |
+| Posting prepayment invoices for sales and purchase orders in Dynamics 365 Business Central | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/training/modules/prepayment-invoices-dynamics-365-business-central/) |
+| Enhance Dynamics 365 Sales with tools and apps | Learningpaths | 2026-04-05 | [Verify](https://learn.microsoft.com/training/paths/enhance-tools-apps-sales/) |
+| Ingest data into Customer Insights - Data | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/training/modules/ingest-data-customer-insights/) |
+| Troubleshoot network security issues with Microsoft Azure | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/training/modules/troubleshoot-network-security-issues/) |
+| Set up project task lines in Dynamics 365 Business Central | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/training/modules/set-up-job-task-lines/) |
+| Design and implement a replication strategy for Azure Cosmos DB for NoSQL | Learningpaths | 2026-04-05 | [Verify](https://learn.microsoft.com/training/paths/design-implement-replication-strategy-cosmos-db-sql-api/) |
 | Use consistency models in Azure Cosmos DB for NoSQL | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/training/modules/use-consistency-models-azure-cosmos-db-sql-api/) |
 | Create sales sequences with Sales Insights | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/training/modules/sales-sequence/) |
 | Demand Driven Material Requirements Planning in Dynamics 365 Supply Chain Management | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/training/modules/demand-driven-material-requirements-planning/) |
@@ -55,13 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to computer vision with TensorFlow | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/training/modules/intro-computer-vision-tensorflow/) |
 | AI for nonprofits by Microsoft Elevate and NetHope | Learningpaths | 2026-04-01 | [Verify](https://learn.microsoft.com/training/paths/ai-nonprofits-microsoft-elevate-nethope/) |
 | Use AI for nonprofit role-based tasks, tools, and workflows | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/use-ai-nonprofit-role-base-tasks-tools-workflows/) |
-| Guided project: Share files securely | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-share-files-securely/) |
-| Introduction to cloud infrastructure: Apply Azure skills in guided projects | Learningpaths | 2026-04-01 | [Verify](https://learn.microsoft.com/training/paths/introduction-cloud-infrastructure-apply-azure-skills-guided-projects/) |
-| Guided project: Set up cost guardrails in Azure | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-cost-guardrails/) |
-| Guided project: Organize and protect resources with tags and locks | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-organize-resources-tags-locks/) |
-| Guided project: Monitor Azure with Service Health and Activity Log alerts | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-monitor-service-health-activity-alerts/) |
-| Guided project: Manage Azure resources with Cloud Shell and the Azure CLI | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-manage-resources-cloud-shell-cli/) |
-| Guided project: Deploy a static website with Azure Blob Storage | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/training/modules/guided-project-deploy-static-website-blob-storage/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-27.md](microsoft-learn-2026-07-part-27.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-29.md](microsoft-learn-2026-07-part-29.md)

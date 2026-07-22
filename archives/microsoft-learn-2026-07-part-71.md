@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 71 of 89
 date_range: 2025-12-21 to 2025-12-23
-total_entries: 55
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-71.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Linux on Azure | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/training/paths/azure-linux/) |
+| Describe accounts payable and accounts receivable in Dynamics 365 Finance | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/training/modules/explore-accounts-payable-accounts-receivable-microsoft/) |
 | Create agents with Microsoft Copilot Studio - Online Workshop | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/training/paths/power-virtual-agents-workshop/) |
 | Build Power Automate flows for your agent - Online workshop | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/training/modules/build-flows-chatbot-online-workshop/) |
 | Automating email handling in Power Automate for desktop | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/training/modules/pad-email/) |
@@ -38,8 +40,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Azure for Researchers part 2: Cloud Security and Cost Management | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/training/paths/researcher-cloud-security-cost-management/) |
 | Introduction to analyzing costs and creating budgets with Microsoft Cost Management | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/training/modules/analyze-costs-create-budgets-azure-cost-management/) |
 | Connect commands into a pipeline | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/training/modules/connect-commands/) |
-| Explore Dynamics 365 Field Service | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/training/modules/explore-dynamics-365-field-service/) |
 | Explore the fundamentals of Microsoft Dynamics 365 Field Service | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/training/paths/learn-fundamentals-of-microsoft-dynamics-365-field-service/) |
+| Explore Dynamics 365 Field Service | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/training/modules/explore-dynamics-365-field-service/) |
 | Approach your data-flow diagram with the right threat model focus | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/training/modules/tm-approach-your-data-flow-diagram-with-the-right-threat-model-focus/) |
 | Automate Azure tasks with Azure PowerShell | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/training/modules/automate-azure-tasks-with-powershell/) |
 | Get started with Dynamics 365 Human Resources | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/training/modules/introduction-human-resources/) |
@@ -66,7 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Azure Functions | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/training/modules/intro-azure-functions/) |
 | Start your free Dynamics 365 Business Central trial | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/training/modules/trial-dynamics-365-business-central/) |
 | Use Microsoft Word and Excel templates with Dataverse | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/training/modules/use-word-excel-dataverse/) |
-| Describe reporting and integration capabilities in finance and operations apps | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/training/modules/describe-report-integration-use-finance-operations-apps/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-70.md](microsoft-learn-2026-07-part-70.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-72.md](microsoft-learn-2026-07-part-72.md)

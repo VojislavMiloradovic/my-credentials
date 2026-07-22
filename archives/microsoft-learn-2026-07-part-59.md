@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 59 of 89
 date_range: 2026-01-12 to 2026-01-15
-total_entries: 53
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-59.md
 ---
 
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Describe the business benefits of Azure | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/training/modules/describe-business-benefits-azure/) |
+| Gaming accessibility fundamentals | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/training/paths/gaming-accessibility-fundamentals/) |
+| Gaming assistive technologies | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/training/modules/gaming-assistive-technologies/) |
+| Get tips and tricks for teaching SC-900: Microsoft Security, Compliance, and Identity Fundamentals | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/training/modules/get-tips-tricks-teach-sc-900-security-compliance-identity-fundamentals/) |
+| Implement classes, properties, and methods | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/training/paths/implement-classes-properties-and-methods/) |
 | Manage class implementations | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/training/modules/manage-class-implementations/) |
 | Manage application data | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/training/paths/manage-application-data/) |
 | Get started with dates, times, and time zones | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/training/modules/get-started-with-dates-times-time-zones/) |
@@ -24,8 +29,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Azure Virtual Machine Scale Sets | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-virtual-machine-scale-sets/) |
 | Get started with Finance insights in Dynamics 365 Finance | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/training/modules/get-started-finance-insights/) |
 | Secure your infrastructure with threat modeling | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/training/modules/threat-modeling-enterprise-infrastructure/) |
-| Process mining for the data wrangler | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/training/paths/process-mining-data-wrangler/) |
 | Transform and load event log data for process mining | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/training/modules/transform-load-event-log/) |
+| Process mining for the data wrangler | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/training/paths/process-mining-data-wrangler/) |
 | Manage secrets in Java applications - Zero Trust and Zero Secrets | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/training/modules/manage-secrets-java-applications-zero-trust/) |
 | Describe the purpose and use of source control | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/training/paths/describe-purpose-use-source-control/) |
 | Explain how a source control system helps manage files | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/training/modules/explain-control-system-helps-manage-files/) |
@@ -61,10 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Identify the language of text with AI Builder | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/get-started-with-ai-builder-language-detection/) |
 | Explore quantum superposition with Q# | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/explore-superposition/) |
 | Create Power Platform solutions with AI and Copilot | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/training/paths/copilot-solutions/) |
-| Build a Power Pages website for a real estate solution with Copilot in Power Pages | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/build-website-real-estate-power-pages-copilot/) |
-| Create a copilot for a real estate solution using natural language in Copilot Studio | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/create-copilot-real-estate-natural-language/) |
-| Minecraft Esports Teacher Academy | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/training/paths/minecraft-esports-teacher-academy/) |
-| Host a head-to-head challenge in Minecraft Education | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/host-head-to-head-challenge-minecraft-esports/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-58.md](microsoft-learn-2026-07-part-58.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-60.md](microsoft-learn-2026-07-part-60.md)

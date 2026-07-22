@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 35 of 89
-date_range: 2026-03-07 to 2026-03-09
+date_range: 2026-03-07 to 2026-03-10
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-35.md
 ---
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Get started with discrete manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/training/modules/get-started-discrete-manufacturing-dyn365-supply-chain-mgmt/) |
+| Debug and deploy your extension in Dynamics 365 Business Central | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/training/modules/debug-deploy-extension/) |
+| Discover the foundation of customizing Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-10 | [Verify](https://learn.microsoft.com/training/paths/foundation-customize-business-central/) |
+| Learn about the data management foundation in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/training/paths/data-management-foundation-business-central/) |
+| Introduction to the basics of file management in Dynamics 365 Business Central | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/training/modules/introduction-basics-file-management/) |
+| Use system catalogs and system views in PostgreSQL | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/training/modules/use-system-catalogs-system-views-postgresql/) |
 | Work with Azure Boards for project management in Business Central | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/training/modules/work-azure-boards/) |
 | Design a data partitioning strategy | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/training/modules/design-data-partitioning-strategy/) |
 | Understand data protection and resiliency in Azure NetApp Files | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/training/modules/azure-netapp-files-data-protection/) |
@@ -56,12 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Run high-performance computing (HPC) applications on Azure | Learningpaths | 2026-03-07 | [Verify](https://learn.microsoft.com/training/paths/run-high-performance-computing-applications-azure/) |
 | Use best practices to secure and govern Microsoft Power Platform environments | Learningpaths | 2026-03-07 | [Verify](https://learn.microsoft.com/training/paths/best-practices-environments/) |
 | Manage environmental changes in Microsoft Power Platform | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/training/modules/manage-environmental-changes/) |
-| Promising sales order delivery in Dynamics 365 Business Central | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) |
-| Sell items and services in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-07 | [Verify](https://learn.microsoft.com/training/paths/sell-items-services-dynamics-365-business-central/) |
-| Embed surveys in your website with Dynamics 365 Customer Voice | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/training/modules/embed-surveys/) |
-| Validate and release product configuration models in Dynamics 365 Supply Chain Management | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/training/modules/validate-release-production-configuration/) |
-| Set up Trade in Microsoft Dynamics 365 Business Central | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/training/modules/trade-set-up-dynamics-365-business-central/) |
-| Get started with Trade in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-07 | [Verify](https://learn.microsoft.com/training/paths/trade-get-started-dynamics-365-business-central/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-34.md](microsoft-learn-2026-07-part-34.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-36.md](microsoft-learn-2026-07-part-36.md)

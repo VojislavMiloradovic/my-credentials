@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 50 of 89
-date_range: 2026-02-04 to 2026-02-07
-total_entries: 54
+date_range: 2026-02-05 to 2026-02-07
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-50.md
 ---
 
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Threat response with Microsoft Sentinel playbooks | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/training/modules/threat-response-sentinel-playbooks/) |
+| Plan and implement advanced security for compute | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/training/modules/advanced-security-compute/) |
+| Protect compute, storage, and databases | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/training/paths/secure-compute-storage-databases/) |
+| Set up financial dimensions in Dynamics 365 Finance | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/training/modules/set-up-financial-dimensions-finance/) |
+| Train and evaluate regression models | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/training/modules/train-evaluate-regression-models/) |
+| Query, visualize, and monitor data in Microsoft Sentinel | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/training/modules/query-data-sentinel/) |
 | Review Windows PowerShell | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/training/modules/review-windows-powershell/) |
 | Connect Windows hosts to Microsoft Sentinel | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/training/modules/connect-windows-hosts-to-azure-sentinel/) |
 | Configure and manage threat protection by using Microsoft Defender for Cloud | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/training/modules/microsoft-defender-cloud-threat-protection/) |
@@ -61,11 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage and monitor Windows Server event logs | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/training/modules/manage-monitor-event-logs/) |
 | MD-102 Manage authentication and compliance | Learningpaths | 2026-02-05 | [Verify](https://learn.microsoft.com/training/paths/authentication-compliance/) |
 | Protect identities in Microsoft Entra ID | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/training/modules/protect-identities-azure-acative-directory/) |
-| Get started with security roles in Dataverse | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/training/modules/get-started-security-roles/) |
-| Connect non-Azure resources to Microsoft Defender for Cloud | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/connect-non-azure-machines-to-azure-defender/) |
-| Use the Teams connector in Power Automate | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/use-teams-connector/) |
-| Plan and implement data platform resources | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/training/paths/plan-implement-data-platform-resources/) |
-| Migrate SQL Server workloads to Azure SQL Managed Instance | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/migrate-sql-workloads-azure-managed-instances/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-49.md](microsoft-learn-2026-07-part-49.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-51.md](microsoft-learn-2026-07-part-51.md)

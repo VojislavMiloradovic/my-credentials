@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Promising sales order delivery in Dynamics 365 Business Central | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) |
+| Sell items and services in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-07 | [Verify](https://learn.microsoft.com/training/paths/sell-items-services-dynamics-365-business-central/) |
+| Embed surveys in your website with Dynamics 365 Customer Voice | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/training/modules/embed-surveys/) |
+| Validate and release product configuration models in Dynamics 365 Supply Chain Management | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/training/modules/validate-release-production-configuration/) |
+| Set up Trade in Microsoft Dynamics 365 Business Central | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/training/modules/trade-set-up-dynamics-365-business-central/) |
+| Get started with Trade in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-07 | [Verify](https://learn.microsoft.com/training/paths/trade-get-started-dynamics-365-business-central/) |
 | Create customer Power BI reports in Dynamics 365 Customer Voice | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/training/modules/create-customer-power-bi-reports/) |
 | Get started with warehouse management in Dynamics 365 Business Central | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/training/modules/get-started-warehouse-management/) |
 | Use an Azure Machine Learning job for automation | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/training/modules/use-azure-machine-learn-job-for-automation/) |
@@ -57,12 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Set up inventory planning in Dynamics 365 Business Central | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/training/modules/set-up-inventory-planning-dynamics-365-business-central/) |
 | Work with linting and unit testing in GitHub Actions | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/training/modules/work-linting-unit-test-github-actions/) |
 | Manage relationships with relationship selling in Dynamics 365 Sales | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/training/modules/manage-relationships-social-selling-dynamics-365-sales/) |
-| Manage customer returns in Dynamics 365 Business Central | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/training/modules/manage-customer-returns-dynamics-365-business-central/) |
-| Customize and configure the Dynamics 365 Field Service Mobile application | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/training/modules/configure-field-service-mobile/) |
-| Set up products for production for discrete manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/training/modules/set-up-products-production-discrete-manufacturing/) |
-| Reconcile bank accounts in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/training/paths/reconcile-bank-accounts-dynamics-365-business-central/) |
-| Use the payment reconciliation journal in Dynamics 365 Business Central | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/training/modules/use-journals-dynamics-365-business-central/) |
-| Use functions and modules in Windows PowerShell scripts | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/training/modules/use-functions-modules-windows-powershell-scripts/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-35.md](microsoft-learn-2026-07-part-35.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-37.md](microsoft-learn-2026-07-part-37.md)

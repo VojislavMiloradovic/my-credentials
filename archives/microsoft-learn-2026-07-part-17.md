@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 17 of 89
-date_range: 2026-05-06 to 2026-05-11
-total_entries: 55
+date_range: 2026-05-08 to 2026-05-12
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-17.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Secure and govern Unity Catalog objects in Azure Databricks | Learningpaths | 2026-05-12 | [Verify](https://learn.microsoft.com/training/paths/azure-databricks-data-engineer-secure-govern-unity-catalog/) |
+| Secure Unity Catalog objects | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/training/modules/secure-unity-catalog-objects/) |
+| Secure Azure OpenAI with content safety controls | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/training/modules/secure-azure-openai-content-safety-controls/) |
+| Ingest data into Unity Catalog | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/training/modules/ingest-data-into-unity-catalog/) |
+| Implement development lifecycle processes in Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/training/modules/implement-development-lifecycle-processes-in-azure-databricks/) |
+| Deploy and maintain data pipelines and workloads with Azure Databricks | Learningpaths | 2026-05-11 | [Verify](https://learn.microsoft.com/training/paths/azure-databricks-data-engineer-deploy-maintain-data-pipelines-workloads/) |
+| Implement and manage data quality constraints with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/training/modules/implement-manage-data-quality-constraints-unity-catalog/) |
+| Implement Lakeflow Jobs with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/training/modules/implement-lakeflow-jobs/) |
 | Design and implement data pipelines with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/training/modules/design-implement-data-pipelines/) |
 | Create and organize objects in Unity Catalog | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/training/modules/create-and-organize-objects-in-unity-catalog/) |
 | Configure security controls and remediate recommendations in Defender for Cloud | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/training/modules/configure-defender-cloud-security-controls/) |
@@ -58,15 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Dragon Copilot (physicians) practical application exercises summary | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/training/modules/dragon-copilot-practical-applications-summary/) |
 | Dragon Copilot (physicians) introduction to practical application exercises | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/training/modules/dragon-copilot-welcome-to-practical-applications/) |
 | Understand AI agents and prompting | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/training/modules/understand-ai-agents-prompting/) |
-| Turn information into decisions with AI agents | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/training/modules/turn-info-into-decisions-ai-agents/) |
-| Experience Security Copilot through guided simulations | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/training/modules/security-copilot-interactive-guides/) |
-| Enhance ESG Reporting with social and governance data | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/sustainability-track-social-governance-data/) |
-| Secure and harden Internet Information Services | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/secure-harden-internet-information-services/) |
-| Orchestrate configuration of prebuilt agents and apps | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/orchestrate-configuration-prebuilt-agents-apps/) |
-| Design ALM process for AI-powered business solutions | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/design-alm-process-ai-powered-business-solutions/) |
-| Accelerate development with GitHub Copilot Cloud Agent | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/github-copilot-code-agent/) |
-| Develop a text analysis agent with the Azure Language MCP server | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/develop-text-analysis-agent-language-mcp/) |
-| Dragon Copilot (nurses) troubleshooting | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/dragon-nurses-troubleshoot-issues/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-16.md](microsoft-learn-2026-07-part-16.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-18.md](microsoft-learn-2026-07-part-18.md)

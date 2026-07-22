@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Intercompany accounting in Dynamics 365 Finance | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/intercompany-accounting-dyn365-finance/) |
+| Set up the chart of accounts in Dynamics 365 Business Central | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/chart-accounts-dynamics-365-business-central/) |
+| Power Pages maintenance and troubleshooting | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/power-pages-maintenance-troubleshooting/) |
+| Mitigate threats using Microsoft Purview | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/training/paths/sc-200-mitigate-threats-using-microsoft-purview/) |
+| Audit and search activity in Microsoft Purview | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/training/paths/purview-audit-search/) |
 | Manage investigations with Microsoft Purview eDiscovery | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/training/paths/purview-ediscovery-manage-investigations/) |
 | Search for content with Microsoft Purview eDiscovery | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/purview-ediscovery-search/) |
 | Monitor and optimize operational resources in Azure SQL | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/training/paths/monitor-optimize-operational-resources-sql-server/) |
@@ -46,11 +51,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage chat, teams, channels, and apps in Microsoft Teams | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/training/paths/manage-chat-teams-channels-apps-microsoft-teams/) |
 | Configure ledger allocations and accruals in Dynamics 365 Finance | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/configure-ledger-allocations-accruals-dyn365-finance/) |
 | Introduction to Dataverse for developers | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/introduction-dataverse-developers/) |
-| Create and publish custom GitHub actions | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/create-custom-github-actions/) |
 | Automate your workflow with GitHub Actions Part 2 of 2 | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/training/paths/github-actions-2/) |
+| Create and publish custom GitHub actions | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/create-custom-github-actions/) |
 | Examine Microsoft  Secure Score | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/examine-microsoft-secure-score/) |
-| Define a Microsoft AI strategy to create business value in finance | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/define-microsoft-ai-strategy-finance/) |
 | Discover AI for leaders in finance | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/training/paths/discover-microsoft-ai-leaders-financial-industry/) |
+| Define a Microsoft AI strategy to create business value in finance | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/define-microsoft-ai-strategy-finance/) |
 | Use Power Apps Instrumentation with Application Insights | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/instrumentation-app-insights/) |
 | Explore data management practices in Microsoft 365 | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/explore-data-management-practices/) |
 | Optimize app load time | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/optimize-app-load-time/) |
@@ -61,11 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Enroll devices using Microsoft Intune | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/enroll-devices-use-microsoft-intune/) |
 | Manage synchronized identities | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/manage-synchronized/) |
 | Manage collaboration experiences for chat and channels | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/manage-collaboration-experiences-for-chat-channels/) |
-| Respond to data loss prevention alerts using Microsoft 365 | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/respond-to-data-loss-prevention-alerts-microsoft-365/) |
-| Visualize real-time data with Azure Stream Analytics and Power BI | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/visualize-real-time-data-azure-stream-analytics-power-bi/) |
-| Azure Virtual Desktop Architecture | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/training/modules/azure-virtual-desktop-architecture/) |
-| Plan an Azure Virtual Desktop implementation | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/training/paths/plan-azure-virtual-desktop-implementation/) |
-| Manage Windows Servers and workloads in a hybrid environment | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/training/paths/manage-windows-servers-workloads-hybrid-environment/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-47.md](microsoft-learn-2026-07-part-47.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-49.md](microsoft-learn-2026-07-part-49.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 16 of 89
-date_range: 2026-05-11 to 2026-05-17
+date_range: 2026-05-12 to 2026-05-17
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-16.md
 ---
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Segment and isolate Azure workloads using network security controls | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/segment-isolate-workloads-network-security-controls/) |
+| Secure remote and hybrid connectivity using VPN gateways and Microsoft Entra Private Access | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/secure-hybrid-connectivity-azure/) |
+| Protect backup data with Azure Backup security features | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/protect-backup-data-azure-backup-security/) |
+| Plan and implement Azure Bastion | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/plan-implement-azure-bastion/) |
+| Configure trusted launch security features for Azure virtual machines | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/configure-trusted-launch-azure-virtual-machines/) |
+| Modern management with Cloud-native Windows Accreditation 2026 | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/training/paths/modern-management-with-cloud-native-windows-accreditation-2026/) |
+| Introduction to Microsoft Entra ID | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/introduction-to-entra-id-2026/) |
+| Device management with Microsoft Intune | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/microsoft-intune-2026/) |
 | Apply responsible AI creation principles in the classroom, developed in partnership with ISTE+ASCD | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/apply-responsible-ai-creation-principles-classroom/) |
 | Create and engage with AI | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/training/paths/create-engage-ai/) |
 | Hotpatch updates for Windows client devices | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/hotpatch-updates-2026/) |
@@ -56,14 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Dragon Copilot basics for physicians | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/training/modules/dragon-copilot-basics-for-physicians/) |
 | Understand Azure Databricks Integrations | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/training/modules/understand-azure-databricks-integrations/) |
 | Select and Configure Compute in Azure Databricks | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/training/modules/select-and-configure-compute/) |
-| Secure and govern Unity Catalog objects in Azure Databricks | Learningpaths | 2026-05-12 | [Verify](https://learn.microsoft.com/training/paths/azure-databricks-data-engineer-secure-govern-unity-catalog/) |
-| Secure Unity Catalog objects | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/training/modules/secure-unity-catalog-objects/) |
-| Secure Azure OpenAI with content safety controls | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/training/modules/secure-azure-openai-content-safety-controls/) |
-| Ingest data into Unity Catalog | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/training/modules/ingest-data-into-unity-catalog/) |
-| Deploy and maintain data pipelines and workloads with Azure Databricks | Learningpaths | 2026-05-11 | [Verify](https://learn.microsoft.com/training/paths/azure-databricks-data-engineer-deploy-maintain-data-pipelines-workloads/) |
-| Implement development lifecycle processes in Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/training/modules/implement-development-lifecycle-processes-in-azure-databricks/) |
-| Implement and manage data quality constraints with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/training/modules/implement-manage-data-quality-constraints-unity-catalog/) |
-| Implement Lakeflow Jobs with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/training/modules/implement-lakeflow-jobs/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-15.md](microsoft-learn-2026-07-part-15.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-17.md](microsoft-learn-2026-07-part-17.md)

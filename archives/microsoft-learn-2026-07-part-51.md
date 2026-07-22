@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 51 of 89
-date_range: 2026-02-02 to 2026-02-04
+date_range: 2026-02-02 to 2026-02-05
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-51.md
 ---
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Get started with security roles in Dataverse | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/training/modules/get-started-security-roles/) |
+| Connect non-Azure resources to Microsoft Defender for Cloud | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/connect-non-azure-machines-to-azure-defender/) |
+| Use the Teams connector in Power Automate | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/use-teams-connector/) |
+| Plan and implement data platform resources | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/training/paths/plan-implement-data-platform-resources/) |
+| Migrate SQL Server workloads to Azure SQL Managed Instance | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/migrate-sql-workloads-azure-managed-instances/) |
 | Implement sensitivity labels | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/implement-sensitivity-labels-microsoft-365/) |
 | Prepare security and compliance to support Microsoft 365 Copilot | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/training/paths/prepare-security-compliance-support-microsoft-365-copilot/) |
 | Review CIM and WMI | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/review-common-information-model-windows-management-instrumentation/) |
@@ -19,8 +24,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement Microsoft Purview Data Loss Prevention | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/implement-data-loss-prevention-policies-microsoft-365/) |
 | Guided Project: Deploy and administer Linux virtual machines on Azure | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/guided-project-deploy-administer-linux-virtual-machines-azure/) |
 | Reduce complexity in your data model with Dataverse table relationships | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/reduce-complexity-dataverse-table/) |
-| Create queries for Microsoft Sentinel using Kusto Query Language (KQL) | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/training/paths/sc-200-utilize-kql-for-azure-sentinel/) |
 | Construct KQL statements for Microsoft Sentinel | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/construct-kusto-query-language-statements/) |
+| Create queries for Microsoft Sentinel using Kusto Query Language (KQL) | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/training/paths/sc-200-utilize-kql-for-azure-sentinel/) |
 | Automation in Microsoft Sentinel | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/automation-microsoft-sentinel/) |
 | Implement Windows Server IaaS VM networking | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/training/paths/implement-windows-server-iaas-virtual-machine-networking/) |
 | Implement Windows Server IaaS VM network security | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/training/modules/implement-windows-server-iaas-virtual-machine-network-security/) |
@@ -60,11 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Work with data source limits (delegation limits) in a Power Apps canvas app | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/work-with-data-source-limits-powerapps-canvas-app/) |
 | Connect Azure assets to Microsoft Defender for Cloud | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/connect-azure-assets-to-azure-defender/) |
 | Build multi-table statements using KQL | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/build-multi-table-statements-kusto-query-language/) |
-| OneNote for educators | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/training/paths/onenote-teacher-academy/) |
-| Independent learning with math tools in OneNote | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/independent-learning-math-tools-onenote/) |
-| Understand Windows Server IaaS Virtual Machine cost management | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/understand-windows-server-iaas-vm-cost-management/) |
-| Introduction to Azure database administration | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/training/paths/introduction-to-azure-database-administration/) |
-| Prepare to maintain SQL Server-based databases on Azure | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/training/modules/prepare-to-maintain-sql-databases-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-50.md](microsoft-learn-2026-07-part-50.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-52.md](microsoft-learn-2026-07-part-52.md)

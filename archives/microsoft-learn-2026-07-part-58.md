@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 58 of 89
 date_range: 2026-01-15 to 2026-01-18
-total_entries: 57
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-58.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Implement information protection and data loss prevention by using Microsoft Purview | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/training/paths/purview-implement-information-protection-data-loss-prevention/) |
+| Prevent data loss with Microsoft Purview | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/m365-compliance-information-prevent-data-loss/) |
+| Implement information protection and data loss prevention with Microsoft Purview | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/purview-exercise-information-protection-data-loss-prevention/) |
+| Enhance Power BI report designs for the user experience | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/power-bi-effective-user-experience/) |
 | Apply sensitivity labels for data protection | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/apply-manage-sensitivity-labels/) |
 | MD-102 Explore endpoint management | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/training/paths/explore-endpoint-management/) |
 | Manage Microsoft Entra identities | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/manage-azure-active-directory-identities/) |
@@ -64,11 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Extend Microsoft 365 Copilot in TypeScript | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/training/paths/copilot-m365-extensibility-typescript/) |
 | Get started with Microsoft 365 Copilot extensibility | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/training/modules/copilot-extensibility-intro/) |
 | Get to know Microsoft Azure cloud platform: An overview for business professionals | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/training/paths/get-know-microsoft-azure-cloud-platform-business-professionals/) |
-| Describe the business benefits of Azure | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/training/modules/describe-business-benefits-azure/) |
-| Gaming accessibility fundamentals | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/training/paths/gaming-accessibility-fundamentals/) |
-| Gaming assistive technologies | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/training/modules/gaming-assistive-technologies/) |
-| Get tips and tricks for teaching SC-900: Microsoft Security, Compliance, and Identity Fundamentals | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/training/modules/get-tips-tricks-teach-sc-900-security-compliance-identity-fundamentals/) |
-| Implement classes, properties, and methods | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/training/paths/implement-classes-properties-and-methods/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-57.md](microsoft-learn-2026-07-part-57.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-59.md](microsoft-learn-2026-07-part-59.md)

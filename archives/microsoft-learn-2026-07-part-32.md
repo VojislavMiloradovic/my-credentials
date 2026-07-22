@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 32 of 89
-date_range: 2026-03-15 to 2026-03-18
+date_range: 2026-03-16 to 2026-03-19
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-32.md
 ---
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| The Microsoft and SAP partnership | Modules | 2026-03-19 | [Verify](https://learn.microsoft.com/training/modules/microsoft-sap-partnership/) |
+| Introduction to test automation in Business Central | Modules | 2026-03-19 | [Verify](https://learn.microsoft.com/training/modules/introduction-test-automation/) |
+| Empowering higher education with Copilot+ PCs, Windows 11 Pro, and Microsoft 365 | Modules | 2026-03-19 | [Verify](https://learn.microsoft.com/training/modules/microsoft-higher-education/) |
+| Customize an indexing policy in Azure Cosmos DB for NoSQL | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/training/modules/choose-indexes-azure-cosmos-db-sql-api/) |
+| Optimize query and operation performance in Azure Cosmos DB for NoSQL | Learningpaths | 2026-03-18 | [Verify](https://learn.microsoft.com/training/paths/optimize-query-performance-azure-cosmos-db-sql-api/) |
+| Manage customers in Dynamics 365 Customer Insights - Journeys | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/training/modules/manage-customers/) |
+| Work with Dynamics 365 Customer Insights - Data | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/training/modules/working-with-customer-insights/) |
 | Work with capacity planning in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/training/modules/capacity-plan-asset-management/) |
 | Configure process manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/training/modules/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) |
 | Get started with Dynamics 365 Customer Insights - Data | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/training/modules/get-started-customer-data-platform/) |
@@ -55,13 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Optimize Azure Virtual Desktop | Modules | 2026-03-16 | [Verify](https://learn.microsoft.com/training/modules/m365-optimize-wvd/) |
 | Manipulate data by using code in Dynamics 365 Business Central | Modules | 2026-03-16 | [Verify](https://learn.microsoft.com/training/modules/manipulate-data-via-code/) |
 | Get started with Dynamics 365 Commerce | Learningpaths | 2026-03-16 | [Verify](https://learn.microsoft.com/training/paths/get-started-dynamics-365-commerce/) |
-| Chat integrations with Dynamics 365 Commerce | Modules | 2026-03-16 | [Verify](https://learn.microsoft.com/training/modules/chat-integrations-commerce/) |
-| Configure the Azure Cosmos DB for NoSQL SDK | Modules | 2026-03-16 | [Verify](https://learn.microsoft.com/training/modules/configure-azure-cosmos-db-sql-api-sdk/) |
-| Process purchase orders in Dynamics 365 Supply Chain Management | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/training/modules/process-purchase-orders-dyn365-supply-chain-mgmt/) |
-| Use Azure Pipelines for CI/CD with Business Central | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/training/modules/use-azure-pipelines/) |
-| Administer and configure Dynamics 365 Sales Professional | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/training/modules/administer-configure-d365-sales-professional/) |
-| Work with Dynamics 365 Sales Professional | Learningpaths | 2026-03-15 | [Verify](https://learn.microsoft.com/training/paths/working-with-dynamics-sales-professional/) |
-| Work with subcontracts in Dynamics 365 Project Operations | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/training/modules/work-with-subcontracts/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-31.md](microsoft-learn-2026-07-part-31.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-33.md](microsoft-learn-2026-07-part-33.md)

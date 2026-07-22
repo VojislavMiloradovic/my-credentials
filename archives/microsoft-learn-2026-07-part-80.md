@@ -12,7 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Choose a deployment scenario for HoloLens device management | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/training/modules/choose-deployment-strategy-hololens/) |
 | Microsoft for Healthcare training environment preparation | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/training/modules/training-environment-preparation-healthcare/) |
 | Creating and configuring a HDInsight cluster. | Modules | 2025-12-04 | [Verify]() |
 | Configure and style Microsoft Graph Toolkit components by using attributes and CSS | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/training/modules/msgraph-toolkit-customize-part-one/) |
@@ -25,8 +24,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Run a training script as a command job in Azure Machine Learning | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/training/modules/run-training-script-command-job-azure-machine-learning/) |
 | Choose the correct data type in your C# code | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/training/modules/csharp-choose-data-type/) |
 | Empower your workforce with Microsoft 365 Copilot: Challenge Use Case | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/training/modules/empower-workforce-copilot-challenge/) |
-| Deepen educational experiences with the 21CLD ICT for learning dimension | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/training/modules/deepen-educational-experiences/) |
 | 21st century learning design | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/training/paths/21st-century-learning-design/) |
+| Deepen educational experiences with the 21CLD ICT for learning dimension | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/training/modules/deepen-educational-experiences/) |
 | Integrate your project with PWABuilder | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/training/modules/integrate-with-pwabuilder/) |
 | Implement Azure Database for MySQL Flexible Server features that support mission-critical workloads | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/training/modules/implement-azure-database-for-mysql-features-that-support-mission-critical-workloads/) |
 | Design a program launch strategy | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/training/modules/academic-program-certifications-design-program-launch/) |
@@ -38,8 +37,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Microsoft for Manufacturing overview | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/training/modules/manufacturing-overview/) |
 | Customize a SUSE Linux Enterprise Server virtual machine on Azure | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/training/modules/customize-suse-linux-enterprise-server-azure/) |
 | Extend Microsoft Viva Connections with web parts | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/training/modules/viva-connections-extend-with-web-parts/) |
-| Overview of Retail data solutions in Microsoft Fabric | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/training/modules/retail-data-solutions-overview/) |
 | Get started with Microsoft for Retail | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/training/paths/get-started-retail/) |
+| Overview of Retail data solutions in Microsoft Fabric | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/training/modules/retail-data-solutions-overview/) |
 | Experiment with Azure Machine Learning | Learningpaths | 2025-12-02 | [Verify](https://learn.microsoft.com/training/paths/automate-machine-learning-model-selection-azure-machine-learning/) |
 | Find the best classification model with Automated Machine Learning | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/training/modules/find-best-classification-model-automated-machine-learning/) |
 | Track model training in Jupyter notebooks with MLflow | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/training/modules/track-model-training-jupyter-notebooks-mlflow/) |
@@ -68,6 +67,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Beyond School Data Sync basics | Modules | 2025-12-01 | [Verify]() |
 | Deploy a simple Java web app to Azure App Service | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/training/modules/create-hello-world-app-service/) |
 | Role of an OKR Champion | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/training/modules/role-of-champion/) |
+| Overview of Microsoft for Retail | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/training/modules/retail-cloud-overview/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-79.md](microsoft-learn-2026-07-part-79.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-81.md](microsoft-learn-2026-07-part-81.md)

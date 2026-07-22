@@ -12,19 +12,21 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Governance for process mining | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/governance-process-mining/) |
+| Create your first desktop flow - Online workshop | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/create-first-desktop-flow-online-workshop/) |
 | Computational thinking and its importance in education | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/computational-thinking-importance-education/) |
 | Define a Microsoft AI strategy to create business value in manufacturing | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/define-microsoft-ai-strategy-manufacturing/) |
 | Discover AI for leaders in manufacturing | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/training/paths/discover-microsoft-ai-leaders-manufacturing/) |
 | Developing in the Windows Subsystem for Linux with Visual Studio Code | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/developing-in-wsl/) |
-| Work with different technologies in Power Automate for desktop | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/training/paths/pad-work-different-technologies/) |
 | Control file and folder handling in Power Automate for desktop | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/pad-files-folders-handling/) |
+| Work with different technologies in Power Automate for desktop | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/training/paths/pad-work-different-technologies/) |
 | Exploring basic computer concepts | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/training/paths/explore-basic-computer-concepts/) |
 | Investigate the history of app development | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/training/modules/investigate-history-app-development/) |
 | Explore computers | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/training/modules/explore-computers/) |
 | Discover the basics of computing | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/training/modules/discover-basics-computing/) |
 | Explore security | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/training/modules/explore-security/) |
-| Purchase Azure savings plan for compute  | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/training/modules/azure-savings-plan-for-compute/) |
 | Control Azure spending and manage bills with Microsoft Cost Management + Billing | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/training/paths/control-spending-manage-bills/) |
+| Purchase Azure savings plan for compute  | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/training/modules/azure-savings-plan-for-compute/) |
 | Configure and manage costs as a Microsoft partner by using Microsoft Cost Management | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/training/modules/manage-costs-partner-cost-management/) |
 | Optimize Azure costs with data analysis in Power BI | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/training/modules/optimize-costs-data-analysis-powerbi/) |
 | Microsoft Azure Well-Architected Framework - Cost Optimization | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/training/modules/azure-well-architected-cost-optimization/) |
@@ -64,8 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Envision a successful adoption of Microsoft 365 Copilot | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/phase-one-envision/) |
 | Explore user enablement strategies for adopting Microsoft 365 Copilot | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/explore-microsoft-adoption-framework/) |
 | Extend and optimize Microsoft 365 Copilot in your organization | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/extend-optimize-copilot-m365/) |
-| Use Power Automate for desktop to interact with windows and applications | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/pad-ui-automation/) |
-| Deploy a containerized application on Azure Kubernetes Service | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/aks-deploy-container-app/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-67.md](microsoft-learn-2026-07-part-67.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-69.md](microsoft-learn-2026-07-part-69.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 87 of 89
-date_range: 2025-11-12 to 2025-11-15
+date_range: 2025-11-11 to 2025-11-15
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-87.md
 ---
@@ -12,9 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Describe the device and cloud endpoint management concepts and deployment options in Microsoft 365 | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/training/modules/describe-endpoint-modernization-management-concepts-deployment-options/) |
-| Deploy Azure infrastructure by using JSON ARM templates | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/training/modules/create-azure-resource-manager-template-vs-code/) |
 | AZ-104: Prerequisites for Azure administrators | Learningpaths | 2025-11-15 | [Verify](https://learn.microsoft.com/training/paths/az-104-administrator-prerequisites/) |
+| Deploy Azure infrastructure by using JSON ARM templates | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/training/modules/create-azure-resource-manager-template-vs-code/) |
 | Install and configure Visual Studio Code | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/training/modules/install-configure-visual-studio-code/) |
 | MS-900 Introduction to Microsoft 365: Describe Microsoft 365 security and compliance capabilities | Learningpaths | 2025-11-15 | [Verify](https://learn.microsoft.com/training/paths/m365-security-compliance-capabilities/) |
 | Describe the function and identity types of Microsoft Entra ID | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/training/modules/explore-basic-services-identity-types/) |
@@ -66,6 +65,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Store and retrieve data using literal and variable values in C# | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/training/modules/csharp-literals-variables/) |
 | Explore core data concepts | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/training/modules/explore-core-data-concepts/) |
 | Introduction to Microsoft Azure Data core data concepts | Learningpaths | 2025-11-12 | [Verify](https://learn.microsoft.com/training/paths/azure-data-fundamentals-explore-core-data-concepts/) |
+| Introduction to information security and compliance in Microsoft Purview | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/m365-compliance-information-governance/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-86.md](microsoft-learn-2026-07-part-86.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-88.md](microsoft-learn-2026-07-part-88.md)

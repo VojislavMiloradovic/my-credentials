@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 30 of 89
-date_range: 2026-03-22 to 2026-03-25
-total_entries: 50
+date_range: 2026-03-22 to 2026-03-26
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-30.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Describe Azure networking services | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/describe-azure-networking-services/) |
+| Introduction to SQL Server 2025 data virtualization | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/sql-server-data-virtualization/) |
+| Introduction to Microsoft Foundry on Windows | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/introduction-microsoft-foundry-windows/) |
+| Dragon Copilot (physicians) create prompts | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/dragon-copilot-create-prompts/) |
+| Develop sales skills with AI agents | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/agent-speed-skills-sales/) |
+| Explore role-based AI agent skills for business users | Learningpaths | 2026-03-26 | [Verify](https://learn.microsoft.com/training/paths/explore-role-based-ai-agent-skills-business-users/) |
+| Develop marketing skills with AI agents | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/agent-speed-skills-marketing/) |
+| Develop finance skills with AI agents | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/training/modules/agent-speed-skills-finance/) |
 | Deploying Resource Scheduling Optimization | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/training/modules/deploy-resource-scheduling-optimization/) |
 | Set up Microsoft Defender for Cloud | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/training/modules/set-up-microsoft-defender-cloud/) |
 | Build an Assisted Setup in Dynamics 365 Business Central | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/training/modules/build-assisted-setup/) |
@@ -55,13 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create and process event kanban rules in Dynamics 365 Supply Chain Management | Modules | 2026-03-23 | [Verify](https://learn.microsoft.com/training/modules/create-process-event-kanban-rules-dyn365-supply-chain-mgmt/) |
 | Review the features and tools for Azure Cloud Shell | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/review-features-tools-for-azure-cloud-shell/) |
 | Get started with cost accounting in Dynamics 365 Business Central | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/cost-accounting-dynamics-365-business-central/) |
-| Best practices for Java apps on Azure | Learningpaths | 2026-03-22 | [Verify](https://learn.microsoft.com/training/paths/best-practices-java-azure/) |
-| Rapidly develop and deploy Java apps using GitHub Actions or Azure Pipelines | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/deploy-java-azure-pipeline-terraform/) |
-| Configure and work with discrete manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/configure-work-discrete-manufacturing/) |
-| Use Application Lifecycle Management for Business Central | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/use-application-lifecycle/) |
-| Get started with Azure SQL Database for modern application development | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/get-started-sql-database-application-development/) |
-| Get started with copilot in Dynamics 365 Project Operations | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/get-started-copilot-project-operations/) |
-| Get started with the features in Dynamics 365 Project Operations | Learningpaths | 2026-03-22 | [Verify](https://learn.microsoft.com/training/paths/get-started-features-project-operations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-29.md](microsoft-learn-2026-07-part-29.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-31.md](microsoft-learn-2026-07-part-31.md)

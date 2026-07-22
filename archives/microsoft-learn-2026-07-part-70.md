@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Bring more of your data to Microsoft Search | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/microsoft-search-connectors/) |
+| Monitor and troubleshoot Windows client performance | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/monitor-troubleshoot-windows-client-performance/) |
 | MD-100 Support the Windows client environment | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/training/paths/support-windows-client-environment/) |
 | Explore support and diagnostic tools | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/explore-support-diagnostic-tools/) |
 | Explore Windows architecture | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/explore-windows-architecture/) |
@@ -66,8 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Stage a web app deployment for testing and rollback by using App Service deployment slots | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/training/modules/stage-deploy-app-service-deployment-slots/) |
 | Deploy a website with Azure virtual machines | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/training/paths/deploy-a-website-with-azure-virtual-machines/) |
 | Build and run a web application with the MEAN stack on an Azure Linux virtual machine | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/training/modules/build-a-web-app-with-mean-on-a-linux-vm/) |
-| Linux on Azure | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/training/paths/azure-linux/) |
-| Describe accounts payable and accounts receivable in Dynamics 365 Finance | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/training/modules/explore-accounts-payable-accounts-receivable-microsoft/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-69.md](microsoft-learn-2026-07-part-69.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-71.md](microsoft-learn-2026-07-part-71.md)

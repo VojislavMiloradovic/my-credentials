@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 33 of 89
-date_range: 2026-03-12 to 2026-03-15
+date_range: 2026-03-12 to 2026-03-16
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-33.md
 ---
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Chat integrations with Dynamics 365 Commerce | Modules | 2026-03-16 | [Verify](https://learn.microsoft.com/training/modules/chat-integrations-commerce/) |
+| Configure the Azure Cosmos DB for NoSQL SDK | Modules | 2026-03-16 | [Verify](https://learn.microsoft.com/training/modules/configure-azure-cosmos-db-sql-api-sdk/) |
+| Process purchase orders in Dynamics 365 Supply Chain Management | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/training/modules/process-purchase-orders-dyn365-supply-chain-mgmt/) |
+| Use Azure Pipelines for CI/CD with Business Central | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/training/modules/use-azure-pipelines/) |
+| Administer and configure Dynamics 365 Sales Professional | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/training/modules/administer-configure-d365-sales-professional/) |
+| Work with Dynamics 365 Sales Professional | Learningpaths | 2026-03-15 | [Verify](https://learn.microsoft.com/training/paths/working-with-dynamics-sales-professional/) |
+| Work with subcontracts in Dynamics 365 Project Operations | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/training/modules/work-with-subcontracts/) |
 | Configure and work with warehouse management in Dynamics 365 Supply Chain Management | Learningpaths | 2026-03-15 | [Verify](https://learn.microsoft.com/training/paths/configure-work-warehouse-management-dyn365-supply-chain-mgmt/) |
 | Warehouse management mobile device configuration using Dynamics 365 Supply Chain Management | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/training/modules/warehouse-mobile-configuration-supply-chain-management/) |
 | Configure bookable resources in Dynamics 365 Field Service | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/training/modules/configure-bookable-resources-urs-dynamics-field-service/) |
@@ -55,13 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Set up warehouse management in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/training/paths/set-up-warehouse-management/) |
 | Set up zones and bins in Dynamics 365 Business Central | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/set-up-zones-bins/) |
 | Work with Copilot to enrich commerce operations in Dynamics 365 Commerce | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/copilot-enrich-commerce-operations/) |
-| Insights for SAP using unified analytics and AI platform | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/insights-sap-use-unified-analytics-ai-platform/) |
-| Explore Microsoft Dev Box deployment guidelines and best practices | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/explore-microsoft-dev-box-deployment-guidelines-best-practices/) |
-| Explore Microsoft Dev Box and improve developer productivity | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/training/paths/explore-microsoft-dev-box-improve-developer-productivity/) |
-| Monitoring Java applications on Azure | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/monitor-java-azure/) |
-| Work with the Windows PowerShell pipeline | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/training/paths/work-windows-powershell-pipeline/) |
-| Pass pipeline objects | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/pass-pipeline-objects/) |
-| Deploy and use SDOH datasets transformations for analytics | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/training/modules/healthcare-sdoh-transformations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-32.md](microsoft-learn-2026-07-part-32.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-34.md](microsoft-learn-2026-07-part-34.md)

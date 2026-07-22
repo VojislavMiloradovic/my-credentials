@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 18 of 89
-date_range: 2026-05-02 to 2026-05-06
-total_entries: 51
+date_range: 2026-05-04 to 2026-05-08
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-18.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Turn information into decisions with AI agents | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/training/modules/turn-info-into-decisions-ai-agents/) |
+| Experience Security Copilot through guided simulations | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/training/modules/security-copilot-interactive-guides/) |
+| Enhance ESG Reporting with social and governance data | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/sustainability-track-social-governance-data/) |
+| Secure and harden Internet Information Services | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/secure-harden-internet-information-services/) |
+| Orchestrate configuration of prebuilt agents and apps | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/orchestrate-configuration-prebuilt-agents-apps/) |
+| Design ALM process for AI-powered business solutions | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/design-alm-process-ai-powered-business-solutions/) |
+| Accelerate development with GitHub Copilot Cloud Agent | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/github-copilot-code-agent/) |
+| Develop a text analysis agent with the Azure Language MCP server | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/develop-text-analysis-agent-language-mcp/) |
+| Dragon Copilot (nurses) troubleshooting | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/dragon-nurses-troubleshoot-issues/) |
 | Connect IoT devices to Azure AI Speech using Azure Functions | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/connecting-iot-devices-cognitive-services-azure-functions/) |
 | Analyze AI identity risks using Microsoft Defender XDR | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/analyze-ai-identity-risks-defender-xdr/) |
 | Manage AI thoughtfully, developed in partnership with ISTE+ASCD | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/training/modules/manage-ai-thoughtfully/) |
@@ -34,8 +43,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Dragon Copilot (nurses)- How to train and coach basic functionality | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/training/modules/dragon-nurses-coach-basic-skills/) |
 | Enable Defender for AI Services workload protection in Microsoft Defender for Cloud | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/training/modules/implement-defender-cloud-ai-services/) |
 | Get started with Microsoft Agent 365 | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/training/modules/agent-365-get-started/) |
-| Introduction to AI literacy | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/training/paths/introduction-ai-literacy/) |
 | Elevate Educator - Expert (AI) | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/training/paths/elevate-educator-expert-ai/) |
+| Introduction to AI literacy | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/training/paths/introduction-ai-literacy/) |
 | Elevate Educator - Explorer (AI) | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/training/paths/elevate-educator-explorer-ai/) |
 | Build a reflective AI practice over time | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/training/modules/build-reflective-ai-practice-over-time/) |
 | Build with AI as a creative partner, developed in partnership with ISTE+ASCD | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/training/modules/build-with-ai-creative-partner/) |
@@ -55,14 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Delegate agent tasks using child agents in Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/training/modules/delegate-agent-tasks-child-agents-copilot-studio/) |
 | Build multi-agent solutions using connected agents in Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/training/modules/build-multi-agent-solutions-connected-agents-copilot-studio/) |
 | Take action in external systems using connector and REST API agent tools in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/training/modules/take-action-external-systems-connector-rest-api-tools-copilot-studio/) |
-| Build cross-platform multi-agent solutions using the Agent2Agent protocol in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/training/modules/build-cross-platform-multi-agent-solutions-agent2agent-copilot-studio/) |
-| Configure platform-level security for Azure SQL | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/training/modules/configure-azure-sql-platform-security/) |
-| Implement security for Azure SQL databases | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/training/paths/implement-azure-sql-database-security/) |
-| Configure auditing for Azure SQL Database and SQL Managed Instance | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/training/modules/configure-azure-sql-auditing/) |
-| Qualify leads using the Sales Qualification Agent in Dynamics 365 Sales | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/training/modules/sales-qualification-agent-dynamics-365-sales/) |
-| Close deals using AI agents in Dynamics 365 Sales | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/training/modules/close-deals-using-ai-agents-dynamics-365-sales/) |
-| Analyze sales performance using AI, forecasting, and dashboards in Dynamics 365 Sales | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/training/modules/analyze-forecast-sales-performance-dynamics-365-sales/) |
-| Implement Microsoft Defender for Databases | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/training/modules/implement-defender-databases/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-17.md](microsoft-learn-2026-07-part-17.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-19.md](microsoft-learn-2026-07-part-19.md)

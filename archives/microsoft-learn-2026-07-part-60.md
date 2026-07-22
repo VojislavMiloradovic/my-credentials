@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Build a Power Pages website for a real estate solution with Copilot in Power Pages | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/build-website-real-estate-power-pages-copilot/) |
+| Create a copilot for a real estate solution using natural language in Copilot Studio | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/create-copilot-real-estate-natural-language/) |
+| Host a head-to-head challenge in Minecraft Education | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/host-head-to-head-challenge-minecraft-esports/) |
+| Minecraft Esports Teacher Academy | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/training/paths/minecraft-esports-teacher-academy/) |
 | Build challenges in Minecraft esports | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/build-challenges-minecraft-esports/) |
 | Minecraft in esports | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/minecraft-esports/) |
 | Get started with development in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/training/paths/development-get-started-business-central/) |
@@ -26,14 +30,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Secure Network Infrastructure with Azure network security | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/training/paths/secure-networking-infrastructure/) |
 | Introduction to Azure Firewall Manager | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-firewall-manager/) |
 | Explore concepts of data analytics | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/explore-concepts-of-data-analytics/) |
-| Work remotely with the Minecraft Student Ambassador program | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/work-remotely-minecraft-student-ambassador-program/) |
 | Minecraft Student Ambassador program | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/training/paths/minecraft-student-ambassador-program/) |
+| Work remotely with the Minecraft Student Ambassador program | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/work-remotely-minecraft-student-ambassador-program/) |
 | Keep students safe in the Minecraft Student Ambassador program | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/keep-students-safe-minecraft-student-ambassador-program/) |
 | Plan your year in the Minecraft Student Ambassador program | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/plan-your-year/) |
 | Work with your IT team and the Minecraft Student Ambassador program | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/work-with-it-team-minecraft-student-ambassador-program/) |
 | Become a Microsoft Learn contributor | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/become-learn-contributor/) |
-| Microsoft for Sustainability overview | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/cloud-sustainability-overview/) |
 | Get started with Microsoft for Sustainability | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/training/paths/get-started-sustainability/) |
+| Microsoft for Sustainability overview | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/cloud-sustainability-overview/) |
 | Evaluating generative AI applications | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/evaluate-generative-ai-apps/) |
 | Evaluate generative AI applications | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/training/paths/evaluate-generative-ai-apps/) |
 | Implement class properties and methods | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/implement-class-properties-methods/) |
@@ -51,8 +55,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Add new objects to Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/add-new-objects/) |
 | Introduction to the development process in Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/introduction-development-process/) |
 | Initialize data during extension installation in Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/initialize-data-extension-installation/) |
-| Identify vulnerabilities that ransomware can exploit | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/ransomware-identify-entry-points/) |
 | Examine ransomware and extortion-based threats | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/training/paths/ransomware-basics/) |
+| Identify vulnerabilities that ransomware can exploit | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/ransomware-identify-entry-points/) |
 | Define ransomware and extortion-based security threats | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/ransomware-extortion-based-threats/) |
 | Recover from ransomware attacks | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/ransomware-recover/) |
 | Choose a budgeting tool that fits your preferences and financial goals | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/choose-budgeting-tool/) |
@@ -63,10 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Understand how Azure NetApp Files provides volumes as a service | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/azure-netapp-files-volumes-service/) |
 | Education Transformation Framework | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/training/paths/education-transformation-framework/) |
 | Student and school success - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/student-school-success-education-transformation-framework/) |
-| Teaching and learning - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/teaching-learning-education-transformation-framework/) |
-| Leadership and policy - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/leadership-policy-education-transformation-framework/) |
-| Intelligent environments - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/intelligent-environments-education-transformation-framework/) |
-| Get tips and tricks for teaching AZ-900 Microsoft Azure Fundamentals | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/get-tips-tricks-teach-az-900-microsoft-azure-ai-fundamentals/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-59.md](microsoft-learn-2026-07-part-59.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-61.md](microsoft-learn-2026-07-part-61.md)

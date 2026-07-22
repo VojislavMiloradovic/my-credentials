@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 31 of 89
-date_range: 2026-03-18 to 2026-03-22
+date_range: 2026-03-19 to 2026-03-22
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-31.md
 ---
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Best practices for Java apps on Azure | Learningpaths | 2026-03-22 | [Verify](https://learn.microsoft.com/training/paths/best-practices-java-azure/) |
+| Rapidly develop and deploy Java apps using GitHub Actions or Azure Pipelines | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/deploy-java-azure-pipeline-terraform/) |
+| Configure and work with discrete manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/configure-work-discrete-manufacturing/) |
+| Use Application Lifecycle Management for Business Central | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/use-application-lifecycle/) |
+| Get started with Azure SQL Database for modern application development | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/get-started-sql-database-application-development/) |
+| Get started with copilot in Dynamics 365 Project Operations | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/get-started-copilot-project-operations/) |
+| Get started with the features in Dynamics 365 Project Operations | Learningpaths | 2026-03-22 | [Verify](https://learn.microsoft.com/training/paths/get-started-features-project-operations/) |
 | Get started with Engineering Change Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/get-started-engineering-change-management/) |
 | Set up engineering change management for Dynamics 365 Supply Chain Management | Learningpaths | 2026-03-22 | [Verify](https://learn.microsoft.com/training/paths/set-up-engineering-change-management/) |
 | Get started with source control in finance and operations apps | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/training/modules/get-started-source-control-finance-operations/) |
@@ -54,13 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Use master planning in Dynamics 365 Supply Chain Management | Modules | 2026-03-19 | [Verify](https://learn.microsoft.com/training/modules/use-master-planning/) |
 | Connect to Azure Cosmos DB for NoSQL with the SDK | Learningpaths | 2026-03-19 | [Verify](https://learn.microsoft.com/training/paths/connect-to-azure-cosmos-db-sql-api-sdk/) |
 | Use the Azure Cosmos DB for NoSQL SDK | Modules | 2026-03-19 | [Verify](https://learn.microsoft.com/training/modules/use-azure-cosmos-db-sql-api-sdk/) |
-| The Microsoft and SAP partnership | Modules | 2026-03-19 | [Verify](https://learn.microsoft.com/training/modules/microsoft-sap-partnership/) |
-| Introduction to test automation in Business Central | Modules | 2026-03-19 | [Verify](https://learn.microsoft.com/training/modules/introduction-test-automation/) |
-| Empowering higher education with Copilot+ PCs, Windows 11 Pro, and Microsoft 365 | Modules | 2026-03-19 | [Verify](https://learn.microsoft.com/training/modules/microsoft-higher-education/) |
-| Customize an indexing policy in Azure Cosmos DB for NoSQL | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/training/modules/choose-indexes-azure-cosmos-db-sql-api/) |
-| Optimize query and operation performance in Azure Cosmos DB for NoSQL | Learningpaths | 2026-03-18 | [Verify](https://learn.microsoft.com/training/paths/optimize-query-performance-azure-cosmos-db-sql-api/) |
-| Manage customers in Dynamics 365 Customer Insights - Journeys | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/training/modules/manage-customers/) |
-| Work with Dynamics 365 Customer Insights - Data | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/training/modules/working-with-customer-insights/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-30.md](microsoft-learn-2026-07-part-30.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-32.md](microsoft-learn-2026-07-part-32.md)

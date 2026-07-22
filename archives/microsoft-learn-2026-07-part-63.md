@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 63 of 89
 date_range: 2026-01-02 to 2026-01-03
-total_entries: 53
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-63.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Get started using Power Platform with finance and operations apps | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/training/paths/get-started-power-platform-with-finance-operations/) |
+| Set up and build mobile experiences for finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/training/modules/mobile-experiences-finance-operations/) |
+| Work with workflows in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/training/modules/create-use-workflows-finance-operations/) |
 | Set up batch jobs in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/training/modules/setup-batch-jobs-finance-operations/) |
 | Plan and implement security in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/training/modules/plan-implement-security-finance-operations/) |
 | Plan and implement legal entities in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/training/modules/plan-implement-legal-entities-finance-operations/) |
@@ -41,10 +44,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Enrich the learning experience in the Microsoft Edge browser | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/training/paths/enrich-learning-experience-microsoft-edge-browser/) |
 | Stay organized and find resources with Microsoft Edge | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/training/modules/stay-organized-find-resources-classroom-microsoft-edge/) |
 | Set up Microsoft Edge for learning and teaching | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/training/modules/set-up-microsoft-edge-learning-teaching/) |
-| Monitor hybrid virtual machines, containers, and network resources | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/training/paths/monitor-hybrid-virtual-machines-containers-network/) |
 | Design and implement network monitoring | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/training/modules/design-implement-network-monitoring/) |
-| Monitor your hybrid and multicloud machines through Azure Arc-enabled servers | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/training/modules/monitor-azure-arc-enabled-servers/) |
+| Monitor hybrid virtual machines, containers, and network resources | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/training/paths/monitor-hybrid-virtual-machines-containers-network/) |
 | Bring Azure innovation to your hybrid environments with Azure Arc | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/training/paths/manage-hybrid-infrastructure-with-azure-arc/) |
+| Monitor your hybrid and multicloud machines through Azure Arc-enabled servers | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/training/modules/monitor-azure-arc-enabled-servers/) |
 | Operationalize your Azure Data Factory or Azure Synapse Pipeline | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/operationalize-azure-data-factory-pipelines/) |
 | Data integration at scale with Azure Data Factory or Azure Synapse Pipeline | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/training/paths/data-integration-scale-azure-data-factory/) |
 | Execute existing SSIS packages in Azure Data Factory or Azure Synapse Pipeline | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/execute-existing-ssis-packages-azure-data-factory/) |
@@ -61,10 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Publish an Angular, React, Svelte, or Vue JavaScript app with Azure Static Web Apps | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/publish-app-service-static-web-app-api/) |
 | Build psychological safety | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/training/paths/viva-glint-build-psychological-safety/) |
 | Learn the basics of psychological safety | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/viva-glint-basics-psychological-safety/) |
-| The importance of psychological safety for managers | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/viva-glint-psychological-safety/) |
-| Design for accessibility in Dynamics 365 | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/design-accessibility-dynamics-365/) |
-| Introduction to Azure Files | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/introduction-to-azure-files/) |
-| Microsoft for Healthcare Overview | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/training/modules/healthcare-overview/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-62.md](microsoft-learn-2026-07-part-62.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-64.md](microsoft-learn-2026-07-part-64.md)

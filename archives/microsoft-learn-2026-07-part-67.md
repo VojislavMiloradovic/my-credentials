@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Get to know the project team for Dynamics 365 implementations | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/project-team-dynamics-365-implementation/) |
+| Discover the Dynamics 365 landscape | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/discover-dynamics-365-landscape/) |
 | Search, filter, sort, and select data in Business Central | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/search-filter-sort-data-dynamics-365-business-central/) |
 | Get started with Dynamics 365 Contact Center | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/get-started-contact-center/) |
 | Streamline nonprofit program management with Microsoft Copilot | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/streamline-nonprofit-program-management-with-microsoft-copilot/) |
@@ -45,8 +47,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | MD-100 Troubleshoot hardware and drivers | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/training/paths/troubleshoot-hardware-drivers/) |
 | Explore physical hardware troubleshooting | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/explore-physical-hardware-troubleshooting/) |
 | Troubleshoot Windows startup | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/troubleshoot-windows-startup/) |
-| AI security fundamentals | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/training/paths/ai-security-fundamentals/) |
 | Introduction to AI security testing | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/introduction-ai-security-testing/) |
+| AI security fundamentals | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/training/paths/ai-security-fundamentals/) |
 | Fundamentals of AI security | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/fundamentals-ai-security/) |
 | Define a Microsoft AI strategy to create business value in retail | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/define-microsoft-ai-strategy-retail/) |
 | Discover AI for leaders in retail | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/training/paths/discover-microsoft-ai-leaders-retail/) |
@@ -54,8 +56,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design an IP addressing schema for your Azure deployment | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/design-ip-addressing-for-azure/) |
 | Uncover new data insights with AI | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/uncover-new-data-insights-ai/) |
 | Introduction to Azure Machine Learning authentication and authorization | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/intro-azure-machine-learning-auth/) |
-| Manage the lifecycle of your projects on GitHub | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/training/paths/manage-project-lifecycle-github/) |
 | Automate DevOps processes by using GitHub Apps | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/automate-devops-github-apps/) |
+| Manage the lifecycle of your projects on GitHub | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/training/paths/manage-project-lifecycle-github/) |
 | Build community-driven software projects on GitHub | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/training/paths/build-community-driven-projects-github/) |
 | Create an open-source program by using GitHub best practices | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/create-open-source-program-github/) |
 | Get started with production control in Dynamics 365 Supply Chain Management | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/get-started-production-control-dyn365-supply-chain-mgmt/) |
@@ -64,8 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Automate scheduling with Microsoft Bookings | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/automate-scheduling-microsoft-bookings/) |
 | Improve application scalability and resiliency by using Azure Load Balancer | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/improve-app-scalability-resiliency-with-load-balancer/) |
 | Process mining for the process owner | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/training/paths/process-mining-process-owner/) |
-| Governance for process mining | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/governance-process-mining/) |
-| Create your first desktop flow - Online workshop | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/training/modules/create-first-desktop-flow-online-workshop/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-66.md](microsoft-learn-2026-07-part-66.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-68.md](microsoft-learn-2026-07-part-68.md)

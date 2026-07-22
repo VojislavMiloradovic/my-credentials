@@ -29,8 +29,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with AI in Microsoft Foundry | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/training/modules/get-started-ai-in-foundry/) |
 | Contribute to an open-source project on GitHub | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/training/modules/contribute-open-source/) |
 | Work smarter with Microsoft 365 Copilot Chat | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/training/modules/work-smarter-with-microsoft-365-copilot-chat/) |
-| Describe the concepts of cybersecurity | Learningpaths | 2025-12-11 | [Verify](https://learn.microsoft.com/training/paths/describe-basic-concepts-of-cybersecurity/) |
 | Describe device-based threats and security controls | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/training/modules/describe-device-based-threats-security-controls/) |
+| Describe the concepts of cybersecurity | Learningpaths | 2025-12-11 | [Verify](https://learn.microsoft.com/training/paths/describe-basic-concepts-of-cybersecurity/) |
 | Describe network-based threats and mitigations | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/training/modules/describe-network-based-threats-mitigations/) |
 | Guided project - Embrace responsible AI | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/training/modules/embrace-responsible-ai/) |
 | Responsible use of artificial intelligence in education | Learningpaths | 2025-12-11 | [Verify](https://learn.microsoft.com/training/paths/responsible-use-of-artificial-intelligence-in-education/) |
@@ -38,8 +38,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Microsoft's Responsible AI Approach | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/training/modules/introduction-to-microsofts-responsible-ai-approach/) |
 | Describe authentication and authorization in cybersecurity | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/training/modules/describe-authentication-authorization-cybersecurity/) |
 | Manage an InnerSource program by using GitHub | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/training/modules/manage-innersource-program-github/) |
-| Explore and configure the Azure Machine Learning workspace | Learningpaths | 2025-12-11 | [Verify](https://learn.microsoft.com/training/paths/explore-azure-machine-learning-workspace/) |
 | Explore Azure Machine Learning workspace resources and assets | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/training/modules/explore-azure-machine-learning-workspace-resources-assets/) |
+| Explore and configure the Azure Machine Learning workspace | Learningpaths | 2025-12-11 | [Verify](https://learn.microsoft.com/training/paths/explore-azure-machine-learning-workspace/) |
 | Train and track machine learning models with MLflow in Microsoft Fabric | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/training/modules/train-track-model-fabric/) |
 | Manage repository changes by using pull requests on GitHub | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/training/modules/manage-changes-pull-requests-github/) |
 | Apply AI Builder Text Recognition in the transportation industry | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/training/modules/apply-ai-builder-text-recognition-transportation-industry/) |
@@ -59,12 +59,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Describe application-based threats and how to protect against them | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/training/modules/describe-application-based-threats-security-controls/) |
 | Empower your workforce with Microsoft 365 Copilot: IT Use Case | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/training/modules/enhance-prompting-copilot-it/) |
 | Benefits of Microsoft Intune | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/training/modules/benefits-microsoft-endpoint-manager/) |
-| Publish, share, and maintain a canvas app | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/training/modules/publish-share-maintain-app/) |
 | Empower your workforce with Microsoft 365 Copilot: Executives Use Case | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/training/modules/empower-workforce-copilot-executives/) |
 | Create your first agent in Microsoft Copilot Studio - Online workshop | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/training/modules/power-virtual-agents-create-online-workshop/) |
 | Secure your Azure Storage account | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/training/modules/secure-azure-storage-account/) |
 | Understand Microsoft 365 encryption | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/training/modules/audit-encryption/) |
 | Write your first C# method | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/training/modules/write-first-c-sharp-method/) |
+| Create methods in C# console applications (Get started with C#, Part 5) | Learningpaths | 2025-12-10 | [Verify](https://learn.microsoft.com/training/paths/get-started-c-sharp-part-5/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-76.md](microsoft-learn-2026-07-part-76.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-78.md](microsoft-learn-2026-07-part-78.md)

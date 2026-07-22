@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 66 of 89
 date_range: 2025-12-28 to 2025-12-29
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-66.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| MD-100 Configure data access and usage | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/training/paths/configure-data-access-usage/) |
+| Configure and manage file access | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/training/modules/configure-manage-file-access/) |
+| Explore Windows client file systems | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/training/modules/explore-windows-client-file-systems/) |
 | Manage user files | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/training/modules/manage-user-files/) |
 | MD-100 Troubleshoot the Windows client operating system and apps | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/training/paths/troubleshoot-windows-client-operating-system-apps/) |
 | Troubleshoot operating system service issues | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/training/modules/troubleshoot-operating-system-service-issues/) |
@@ -45,16 +48,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Improve your reliability with modern operations practices: Incident response | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/improve-reliability-incidents/) |
 | Simulate mouse and keyboard actions by using Power Automate for desktop | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/pad-mouse-keyboard/) |
 | Use input and output variables - Online workshop | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/use-input-output-online-workshop/) |
-| Introduction to Azure Virtual WAN | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/introduction-azure-virtual-wan/) |
 | Introduction to key Azure network security services | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/training/paths/introduction-azure-networking-services/) |
+| Introduction to Azure Virtual WAN | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/introduction-azure-virtual-wan/) |
 | Choose the best service level of Azure NetApp Files for your high-performance computing (HPC) applications | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/choose-service-level-azure-netapp-files-hpc-applications/) |
 | Create a UI in a .NET MAUI app by using XAML | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/create-user-interface-xaml/) |
 | Challenge Project — Create a Business Model for your startup using Microsoft Copilot | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/challenge-project-use-generative-ai-to-create-business-model-startup/) |
 | Challenge project – Ideate with Microsoft Copilot | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/challenge-project-ideate-business-with-ai/) |
 | Configure User Account Control | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/configure-user-account-control/) |
 | Introduction to Azure VPN Gateway | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-vpn-gateway/) |
-| Extend Microsoft 365 Copilot with Copilot connectors using Visual Studio Code | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/training/paths/extend-microsoft-365-copilot-connectors-visual-studio-code/) |
 | Add custom knowledge to declarative agents using Copilot connectors and Visual Studio Code | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/copilot-declarative-agent-graph-connector-vsc/) |
+| Extend Microsoft 365 Copilot with Copilot connectors using Visual Studio Code | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/training/paths/extend-microsoft-365-copilot-connectors-visual-studio-code/) |
 | Combine Power Automate desktop and cloud flows | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/pad-powerautomate/) |
 | Explore application troubleshooting | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/explore-application-troubleshooting/) |
 | Employ file recovery in Windows client | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/employ-file-recovery-windows-client/) |
@@ -62,8 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement a code workflow in your build pipeline by using Git and GitHub | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/implement-code-workflow/) |
 | Learn the fundamentals of Dynamics 365 projects | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/training/paths/learn-fundamentals-dynamics-365-projects/) |
 | Determine the implementation approach for your Dynamics 365 project | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/determine-implementation-approach-dynamics-365/) |
-| Get to know the project team for Dynamics 365 implementations | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/project-team-dynamics-365-implementation/) |
-| Discover the Dynamics 365 landscape | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/training/modules/discover-dynamics-365-landscape/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-65.md](microsoft-learn-2026-07-part-65.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-67.md](microsoft-learn-2026-07-part-67.md)

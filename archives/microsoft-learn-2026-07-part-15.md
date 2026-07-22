@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 15 of 89
 date_range: 2026-05-17 to 2026-05-19
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-15.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Automate AI evaluations with Microsoft Foundry and GitHub Actions | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/training/modules/automated-evaluation-genaiops/) |
+| Maximize the Cost Efficiency of AI Agents on Azure | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/training/paths/maximize-cost-efficiency-ai-agents/) |
+| Understand the key cost drivers of AI agents | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/training/modules/ai-agent-cost-structure/) |
+| Maximize cost efficiency by choosing the right AI agent development approach on Azure | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/training/modules/maximize-cost-efficiency-ai-agent-development/) |
+| Manage and optimize AI agent investments on Azure | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/training/modules/manage-optimize-agent-investment-azure/) |
+| Implement best practices to empower AI agent efficiency and ensure long-term success | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/training/modules/adopt-ai-agent-best-practice/) |
+| Identify and Prioritize High-Impact AI Agent Use Cases | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/training/modules/identify-ai-agent-use-case/) |
+| Forecast the return on investment (ROI) of AI agents | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/training/modules/forecast-agent-return-investment/) |
+| Architect scalable and cost-efficient AI agent solutions on Azure | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/training/modules/architect-scalable-ai-agent-solutions/) |
 | Optimize Azure reliability by using Azure SRE Agent | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/training/modules/optimize-azure-reliability-with-sre-agent/) |
 | Prepare and process data with Azure Databricks | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/training/paths/azure-databricks-data-engineer-prepare-process-data/) |
 | Design and implement data modeling with Azure Databricks | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/training/modules/design-implement-data-modeling-unity-catalog/) |
@@ -56,14 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement network security controls in Azure | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/training/paths/implement-network-security-controls-azure/) |
 | Dragon Copilot - nurse leaders adoption and reinforcement | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/nurse-leaders-adoption/) |
 | Dragon Copilot nurse leaders 101 | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/training/paths/dragon-copilot-for-nurse-leaders/) |
-| Segment and isolate Azure workloads using network security controls | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/segment-isolate-workloads-network-security-controls/) |
-| Secure remote and hybrid connectivity using VPN gateways and Microsoft Entra Private Access | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/secure-hybrid-connectivity-azure/) |
-| Protect backup data with Azure Backup security features | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/protect-backup-data-azure-backup-security/) |
-| Plan and implement Azure Bastion | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/plan-implement-azure-bastion/) |
-| Configure trusted launch security features for Azure virtual machines | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/configure-trusted-launch-azure-virtual-machines/) |
-| Modern management with Cloud-native Windows Accreditation 2026 | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/training/paths/modern-management-with-cloud-native-windows-accreditation-2026/) |
-| Introduction to Microsoft Entra ID | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/introduction-to-entra-id-2026/) |
-| Device management with Microsoft Intune | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/training/modules/microsoft-intune-2026/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-14.md](microsoft-learn-2026-07-part-14.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-16.md](microsoft-learn-2026-07-part-16.md)

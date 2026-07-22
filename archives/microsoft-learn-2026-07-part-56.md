@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 56 of 89
 date_range: 2026-01-20 to 2026-01-24
-total_entries: 57
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-56.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Govern data in Microsoft Fabric with Purview | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/fabric-data-governance-purview/) |
+| Administer and govern Microsoft Fabric | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/training/paths/microsoft-fabric-admin-governance/) |
+| OneNote Staff Notebook: Tools for staff collaboration | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/onenote-staff-notebook/) |
+| Search data outside the Azure platform in Azure AI Search using Azure Data Factory | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/search-data-outside-azure-platform-cognitive-search/) |
 | Manage security in Active Directory | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/manage-security-active-directory/) |
 | Perform search reranking with semantic ranking in Azure AI Search | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/training/modules/use-semantic-search/) |
 | Defend against cyberthreats with Microsoft Defender XDR | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/training/paths/sc-5004-defend-against-cyberthreats-defender/) |
@@ -56,19 +60,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Analyze text with Azure Language | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/training/modules/analyze-text-ai-language/) |
 | Create question answering solutions with Azure Language | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/training/modules/create-question-answer-solution-ai-language/) |
 | Develop an AI agent with Microsoft Agent Framework | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/training/modules/develop-ai-agent-with-semantic-kernel/) |
-| GitHub fundamentals - Administration basics and product features Part 1 of 2 | Learningpaths | 2026-01-21 | [Verify](https://learn.microsoft.com/training/paths/github-administration-products/) |
 | Introduction to GitHub administration | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/training/modules/github-introduction-administration/) |
+| GitHub fundamentals - Administration basics and product features Part 1 of 2 | Learningpaths | 2026-01-21 | [Verify](https://learn.microsoft.com/training/paths/github-administration-products/) |
 | Configure Azure Blob Storage | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/training/modules/configure-blob-storage/) |
 | Custom named entity recognition | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/training/modules/custom-name-entity-recognition/) |
 | Translate text with Azure Translator service | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/training/modules/translate-text-with-translator-service/) |
 | Translate speech with the Azure Speech service | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/training/modules/translate-speech-speech-service/) |
 | Configure network security groups | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/training/modules/configure-network-security-groups/) |
 | Configure Azure Files | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/training/modules/configure-azure-files-file-sync/) |
-| Create custom text classification solutions | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/training/modules/custom-text-classification/) |
-| Create speech-enabled apps with Microsoft Foundry | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/training/modules/create-speech-enabled-apps/) |
-| Implement a data warehouse with Microsoft Fabric | Learningpaths | 2026-01-20 | [Verify](https://learn.microsoft.com/training/paths/work-with-data-warehouses-using-microsoft-fabric/) |
-| Monitor a Microsoft Fabric data warehouse | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/training/modules/monitor-fabric-data-warehouse/) |
-| Manage meetings and events experiences | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/training/modules/manage-meetings-virtual-events-experiences/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-55.md](microsoft-learn-2026-07-part-55.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-57.md](microsoft-learn-2026-07-part-57.md)

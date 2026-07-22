@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 57 of 89
 date_range: 2026-01-18 to 2026-01-20
-total_entries: 56
+total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-57.md
 ---
 
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Create custom text classification solutions | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/training/modules/custom-text-classification/) |
+| Create speech-enabled apps with Microsoft Foundry | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/training/modules/create-speech-enabled-apps/) |
+| Implement a data warehouse with Microsoft Fabric | Learningpaths | 2026-01-20 | [Verify](https://learn.microsoft.com/training/paths/work-with-data-warehouses-using-microsoft-fabric/) |
+| Monitor a Microsoft Fabric data warehouse | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/training/modules/monitor-fabric-data-warehouse/) |
+| Manage meetings and events experiences | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/training/modules/manage-meetings-virtual-events-experiences/) |
 | Configure BYOD spaces and bookable desks | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/training/modules/configure-byod-spaces-bookable-desks/) |
 | Use DAX in semantic models | Learningpaths | 2026-01-20 | [Verify](https://learn.microsoft.com/training/paths/dax-power-bi/) |
 | Create DAX calculations in semantic models | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/training/modules/dax-power-bi-create-calculations/) |
@@ -43,8 +48,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Perform analytics in Power BI | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/training/modules/perform-analytics-power-bi/) |
 | Understand the Transformer architecture and explore large language models in Azure Machine Learning | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/explore-foundation-models-in-model-catalog/) |
 | Work with generative artificial intelligence (AI) models in Azure Machine Learning | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/training/paths/work-with-generative-models-azure-machine-learning/) |
-| Govern and protect sensitive information in the age of AI | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/training/paths/purview-protect-govern-ai/) |
 | Manage compliance with Microsoft Purview for Microsoft 365 Copilot | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/purview-ai-data-compliance/) |
+| Govern and protect sensitive information in the age of AI | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/training/paths/purview-protect-govern-ai/) |
 | Explore PostgreSQL architecture | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/explore-postgresql-architecture/) |
 | Create and manage Insider Risk Management policies | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/purview-create-manage-insider-risk-policy/) |
 | Create dashboards in Power BI | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/create-dashboards-power-bi/) |
@@ -64,10 +69,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Identify and mitigate AI data security risks | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/purview-identify-mitigate-ai-risks/) |
 | Scope report design requirements | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/power-bi-effective-requirements/) |
 | Learn how Microsoft supports data discovery, classification, and protection as part of a cybersecurity solution | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/training/paths/data-identification-cybersecurity/) |
-| Implement information protection and data loss prevention by using Microsoft Purview | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/training/paths/purview-implement-information-protection-data-loss-prevention/) |
-| Prevent data loss with Microsoft Purview | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/m365-compliance-information-prevent-data-loss/) |
-| Implement information protection and data loss prevention with Microsoft Purview | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/purview-exercise-information-protection-data-loss-prevention/) |
-| Enhance Power BI report designs for the user experience | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/training/modules/power-bi-effective-user-experience/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-56.md](microsoft-learn-2026-07-part-56.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-58.md](microsoft-learn-2026-07-part-58.md)
