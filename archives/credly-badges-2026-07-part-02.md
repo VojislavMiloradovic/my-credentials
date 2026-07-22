@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 2 of 9
-date_range: 2026-06-25 to 2026-07-07
+date_range: 2026-06-26 to 2026-07-08
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-02.md
 ---
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-08 | **data.world Steward Certification** | issued by data.world from ServiceNow | `Credly Verified` | [Verify](https://www.credly.com/badges/cf76fba1-5658-4a88-9c91-84a057fcdd7b) |
+| 2026-07-08 | **Foundations of Operationalizing MITRE ATT&CK v13** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/e9bc6726-6c10-4a41-a8dd-a10398dec90f) |
+| 2026-07-08 | **Navigate the Celonis Studio** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/f61a2862-8623-4198-86f9-a8817a002424) |
 | 2026-07-07 | **Optimize Costs for Google Kubernetes Engine Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/d67f5f9f-c9c7-4c0a-a241-1bcb73da59ab) |
 | 2026-07-05 | **Acronis Cyber Protect – Cybersecurity Basics** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/ea106045-3407-4d0e-abd4-9f25b1173d2a) |
 | 2026-07-05 | **Act on Recommended Tasks** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/fe48bdbf-8db5-4635-9660-aea9fd95e9a4) |
@@ -61,9 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-26 | **AWS Knowledge: Media & Entertainment: Direct-to-Consumer and Broadcast Foundations - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/3b24da57-1197-413e-8fa4-fdb2fe314113) |
 | 2026-06-26 | **Chainguard Container Crusader** | issued by Chainguard | `Credly Verified` | [Verify](https://www.credly.com/badges/bc36c287-1124-4591-99a8-02051ffa7402) |
 | 2026-06-26 | **Cloud Tech Professional Advanced Backup** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/73990582-085d-46e4-a7b9-537fdb44401e) |
-| 2026-06-26 | **LFC101: Inclusive Speaker Orientation** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/ad970f8a-3675-4caa-b4bf-70a3b661751f) |
-| 2026-06-26 | **LFD114: Porting Software to RISC-V** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/bb54e8cf-48fd-49a8-8cfc-6e4e182504e3) |
-| 2026-06-25 | **AI Threat Tamer** | issued by Chainguard | `Credly Verified` | [Verify](https://www.credly.com/badges/db97c86e-63ee-4b06-9267-97b0214b660b) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-01.md](credly-badges-2026-07-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md)

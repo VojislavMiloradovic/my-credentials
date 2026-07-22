@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 4 of 9
-date_range: 2026-06-05 to 2026-06-13
+date_range: 2026-06-06 to 2026-06-13
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-04.md
 ---
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-13 | **Get Started with Dataplex Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/716e37e5-9b04-4615-a6bb-b7a3129f6aa9) |
+| 2026-06-13 | **LFC104: Ethics for Open Source Development** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/8b3acbeb-abe6-47c1-b8ad-32364d6439d0) |
+| 2026-06-13 | **LFC194: Implementing Open Source License Compliance Management** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/34ba4e1b-3e3b-41a4-87cf-4c8bd3242a62) |
 | 2026-06-13 | **LFS116: PyTorch and Deep Learning for Decision Makers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/d6f30813-946b-4574-ad72-b49738d949ed) |
 | 2026-06-13 | **LFS180: Introduction to DevSecOps for Managers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/49eca85f-9355-4b7c-8ce5-584c49d63fbe) |
 | 2026-06-13 | **Manage Users and Groups** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/ebd64f91-cf5d-4006-9e87-3d411d9760e5) |
@@ -58,9 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-06 | **SAS Programming for R Users** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/f4d3ea95-4342-432c-b7d0-467bec8195b5) |
 | 2026-06-06 | **SAS SpeedyStore: Architect and Deploy the SAS Viya Platform with SingleStore** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/0c7b5ada-1b12-40b5-ac53-df39416579ec) |
 | 2026-06-06 | **Using SAS Asset and Liability Management** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/4c315e16-b6f9-4d03-807c-0cfb8b9f89a2) |
-| 2026-06-05 | **AWS Knowledge: Serverless - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/f9330cf1-b091-4b44-b8b1-31fc37561492) |
-| 2026-06-05 | **Integrate with Active Directory** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/8a2cdb72-66f2-4151-ac05-087b4eaa0986) |
-| 2026-06-05 | **Optimize Device Security and Management** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/9bf4e9ce-ebbf-4d65-9aec-ffd109e1bc06) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md)

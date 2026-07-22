@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 1 of 9
-date_range: 2026-07-08 to 2026-07-21
+date_range: 2026-07-08 to 2026-07-22
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md
 ---
@@ -12,7 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-22 | **Extending ATT&CK with ATT&CK Workbench** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/1a455d6f-de65-420a-a531-f26d2562538b) |
 | 2026-07-21 | **Cloud Functions: 3 Ways Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/f57106b4-cf01-4ad0-a05a-67f322da7411) |
+| 2026-07-21 | **Cloud Sales Pro - Archival Storage** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/f158f922-f150-4b0b-8690-da627a5aea91) |
+| 2026-07-21 | **Cloud Sales Pro - Backup** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/8792dd40-33ba-45a4-8a3b-68f57d1ec0d3) |
 | 2026-07-20 | **Acronis Cyber Protect – Sales Pro** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/a2071cbe-5c63-4b7e-9b49-306f58c74a30) |
 | 2026-07-20 | **Acronis Cyber Protect – Tech Pro** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/0d5fac3c-48d7-4e36-bb6c-bed01e8304d9) |
 | 2026-07-20 | **Building AI Agents with MongoDB** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/445b664c-c048-4f35-99ed-087e1d1ffc15) |
@@ -60,9 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-08 | **data.world Admin Certification** | issued by data.world from ServiceNow | `Credly Verified` | [Verify](https://www.credly.com/badges/fa194f5e-7087-4936-ba7b-043ed46f68ac) |
 | 2026-07-08 | **data.world End User Certification** | issued by data.world from ServiceNow | `Credly Verified` | [Verify](https://www.credly.com/badges/d521cb54-db11-4d81-b284-d7d231b20e87) |
 | 2026-07-08 | **data.world Foundations** | issued by data.world from ServiceNow | `Credly Verified` | [Verify](https://www.credly.com/badges/3476c45c-4176-49ad-9051-123760a950ff) |
-| 2026-07-08 | **data.world Steward Certification** | issued by data.world from ServiceNow | `Credly Verified` | [Verify](https://www.credly.com/badges/cf76fba1-5658-4a88-9c91-84a057fcdd7b) |
-| 2026-07-08 | **Foundations of Operationalizing MITRE ATT&CK v13** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/e9bc6726-6c10-4a41-a8dd-a10398dec90f) |
-| 2026-07-08 | **Navigate the Celonis Studio** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/f61a2862-8623-4198-86f9-a8817a002424) |
 
 ---
 > **Navigation:** Prev: None | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md)

@@ -127,22 +127,22 @@ Showing latest 10 activities. View the full dataset via the [Platform Archive In
 <!-- CREDLY_BADGES_START -->
 ### Credly Verified Credentials
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)  
-**Total Portfolio Credentials:** 434 (411 Credly Verified, 23 External/Imported)  
-**Total Verified Skills Mapped:** 1734
+**Total Portfolio Credentials:** 437 (414 Credly Verified, 23 External/Imported)  
+**Total Verified Skills Mapped:** 1738
 
 #### Latest Earned Credentials
 | Date Earned | Credential Name | Issuer | Verification Type |
 |:---:|---|---|:---:|
+| *2026-07-22* | **Extending ATT&CK with ATT&CK Workbench** | issued by AttackIQ | `Credly Verified` |
 | *2026-07-21* | **Cloud Functions: 3 Ways Skill Badge** | issued by Google Cloud | `Credly Verified` |
+| *2026-07-21* | **Cloud Sales Pro - Archival Storage** | issued by Acronis | `Credly Verified` |
+| *2026-07-21* | **Cloud Sales Pro - Backup** | issued by Acronis | `Credly Verified` |
 | *2026-07-20* | **Acronis Cyber Protect – Sales Pro** | issued by Acronis | `Credly Verified` |
 | *2026-07-20* | **Acronis Cyber Protect – Tech Pro** | issued by Acronis | `Credly Verified` |
 | *2026-07-20* | **Building AI Agents with MongoDB** | issued by MongoDB | `Credly Verified` |
 | *2026-07-20* | **CRUD Operations in MongoDB** | issued by MongoDB | `Credly Verified` |
 | *2026-07-20* | **Foundations of AI Security** | issued by AttackIQ | `Credly Verified` |
 | *2026-07-20* | **Introduction to EASY Framework for Threat Intelligence** | issued by AttackIQ | `Credly Verified` |
-| *2026-07-19* | **Secure Software Delivery Skill Badge** | issued by Google Cloud | `Credly Verified` |
-| *2026-07-17* | **BDR Basic Course** | issued by Acronis | `Credly Verified` |
-| *2026-07-17* | **Building RAG Apps Using MongoDB** | issued by MongoDB | `Credly Verified` |
 
 👉 **[View Platform Index](./archives/credly-badges-index.md)** ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md) | [Complete Monolith](./archives/credly-badges-complete.md))
 

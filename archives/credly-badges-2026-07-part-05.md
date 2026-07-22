@@ -2,7 +2,7 @@
 archive_platform: Credly Verified Credentials
 chunk_part: 5 of 9
 date_range: 2026-05-23 to 2026-06-05
-total_entries: 53
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-05.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-05 | **AWS Knowledge: Serverless - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/f9330cf1-b091-4b44-b8b1-31fc37561492) |
+| 2026-06-05 | **Integrate with Active Directory** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/8a2cdb72-66f2-4151-ac05-087b4eaa0986) |
+| 2026-06-05 | **Optimize Device Security and Management** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/9bf4e9ce-ebbf-4d65-9aec-ffd109e1bc06) |
 | 2026-06-05 | **Preparing for SAS Viya Deployment** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/4af7b7bd-7dba-40ab-93b2-0890561ec829) |
 | 2026-06-05 | **SAS Analytics Pro: Deployment and Configuration** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/bb1c9967-6387-4a7f-b848-4dfdbb0ff2e1) |
 | 2026-06-05 | **SAS SQL Essentials Knowledge Badge** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/941d23c2-923c-43b8-9598-97e81961b113) |
@@ -61,10 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-24 | **Planning in Lucidspark** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/8939bb50-c3b9-4409-8fe8-61e9a4ea9534) |
 | 2026-05-24 | **Zendesk Agent** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/a24705fc-d14b-47ec-b272-094a661740ce) |
 | 2026-05-23 | **Build Real World AI Applications with Gemini and Imagen Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/c15777e9-c57b-40fa-9c22-0f9eba0add17) |
-| 2026-05-23 | **Omnichannel Agent** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/c2de9e8a-fc12-4b9c-ab62-8c6d7e1f9cb5) |
-| 2026-05-23 | **ZEDEDA Certified Edge Computing Associate (ZCEA)** | issued by ZEDEDA | `Credly Verified` | [Verify](https://www.credly.com/badges/26649e2a-0f74-463a-a67c-7796888e7477) |
-| 2026-05-23 | **ZEDEDA Edge Orchestration Essentials** | issued by ZEDEDA | `Credly Verified` | [Verify](https://www.credly.com/badges/d481756e-959f-471c-8d68-3f0ebd5d3775) |
-| 2026-05-23 | **Zendesk AI** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/bb199d4e-b23f-4d9a-866e-30894f16bce0) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md)

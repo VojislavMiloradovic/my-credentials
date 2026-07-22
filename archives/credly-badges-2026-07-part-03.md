@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 3 of 9
-date_range: 2026-06-13 to 2026-06-24
+date_range: 2026-06-13 to 2026-06-26
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-03.md
 ---
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-26 | **LFC101: Inclusive Speaker Orientation** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/ad970f8a-3675-4caa-b4bf-70a3b661751f) |
+| 2026-06-26 | **LFD114: Porting Software to RISC-V** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/bb54e8cf-48fd-49a8-8cfc-6e4e182504e3) |
+| 2026-06-25 | **AI Threat Tamer** | issued by Chainguard | `Credly Verified` | [Verify](https://www.credly.com/badges/db97c86e-63ee-4b06-9267-97b0214b660b) |
 | 2026-06-24 | **AWS Knowledge: Data Protection & Disaster Recovery - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/b0648167-39ae-4aca-b7dd-cc83c7ade7da) |
 | 2026-06-24 | **Chainguard Vulnslayer** | issued by Chainguard | `Credly Verified` | [Verify](https://www.credly.com/badges/c4a36cd5-da9e-4d5c-b281-7ad49c7e0a75) |
 | 2026-06-24 | **Cloud Sales Fundamentals** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/f38a3c55-4e53-4eb5-8eb8-5a98e428fff7) |
@@ -57,9 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-15 | **Cloud Deployments** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/c7e60f6c-4fb8-4ea1-88a8-50668e31a696) |
 | 2026-06-13 | **AI on Intel® Xeon® Processors** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/868a09ec-ec7b-4c1f-97e3-aad9d4c6cfa9) |
 | 2026-06-13 | **AWS Knowledge: Block Storage - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/62acad1e-85b7-4c83-99d4-55b512552814) |
-| 2026-06-13 | **Get Started with Dataplex Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/716e37e5-9b04-4615-a6bb-b7a3129f6aa9) |
-| 2026-06-13 | **LFC104: Ethics for Open Source Development** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/8b3acbeb-abe6-47c1-b8ad-32364d6439d0) |
-| 2026-06-13 | **LFC194: Implementing Open Source License Compliance Management** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/34ba4e1b-3e3b-41a4-87cf-4c8bd3242a62) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md)

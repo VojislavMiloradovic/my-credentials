@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 6 of 9
-date_range: 2026-05-13 to 2026-05-22
-total_entries: 50
+date_range: 2026-05-13 to 2026-05-23
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-06.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-05-23 | **Omnichannel Agent** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/c2de9e8a-fc12-4b9c-ab62-8c6d7e1f9cb5) |
+| 2026-05-23 | **ZEDEDA Certified Edge Computing Associate (ZCEA)** | issued by ZEDEDA | `Credly Verified` | [Verify](https://www.credly.com/badges/26649e2a-0f74-463a-a67c-7796888e7477) |
+| 2026-05-23 | **ZEDEDA Edge Orchestration Essentials** | issued by ZEDEDA | `Credly Verified` | [Verify](https://www.credly.com/badges/d481756e-959f-471c-8d68-3f0ebd5d3775) |
+| 2026-05-23 | **Zendesk AI** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/bb199d4e-b23f-4d9a-866e-30894f16bce0) |
 | 2026-05-22 | **Advanced SAS Viya Customizations** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/d094444a-85eb-4889-bf7f-6345d541fe10) |
 | 2026-05-22 | **Advanced Topics in Encryption on SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/de2613ac-bbe1-4354-b7c4-1feff6973aee) |
 | 2026-05-22 | **Alternative Methods for SAS Viya Deployment** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/b2b266a2-e5d8-4f66-bde8-d393798e262f) |
@@ -59,9 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-13 | **Discovering the Basics of SAP S/4HANA Project System - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/7a491257-c680-4bca-889f-bbe5e4a3d5b8) |
 | 2026-05-13 | **Discover Retail Functions and Business Processes in SAP S/4HANA Retail - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/077682ea-5d92-4493-b959-a95d2d31f096) |
 | 2026-05-13 | **Exploring SAP SuccessFactors Embedded Launch Activities for IT Manager - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/a8b69ec8-799d-4838-8719-0eb2ad05b03b) |
-| 2026-05-13 | **Exploring the SAP Enterprise Architecture Framework Foundation - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/0c8bfe33-0de4-4a95-b445-5296b7c26fe4) |
-| 2026-05-13 | **Getting Started with Concur Invoice Standard Edition for Administrators - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/4400b51d-b867-40de-baa1-9ba06079b1e9) |
-| 2026-05-13 | **Getting Started with Web Development - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/c84a5ab3-92bb-46c7-bb07-9c679979d525) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md)

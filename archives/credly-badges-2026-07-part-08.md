@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 8 of 9
-date_range: 2026-04-11 to 2026-04-28
+date_range: 2026-04-12 to 2026-04-30
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-08.md
 ---
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-04-30 | **Data Analytics Essentials** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/6d1f9932-8ffd-41e3-afa7-408a16583946) |
+| 2026-04-29 | **Integrating SAP Sales Cloud and SAP Service Cloud Version 2 with SAP S/4HANA - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/bc3b65e3-dadf-41d4-93cf-0b4300a4a566) |
+| 2026-04-29 | **Team Essentials for Designing AI Solutions** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/96aa8020-2271-4ecf-b55c-ee395f00b871) |
 | 2026-04-28 | **Discovering the Environment - Health & Safety modules in SAP S/4HANA - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/be365a34-511e-41b3-8c57-59c6d7e311f2) |
 | 2026-04-28 | **Operating Systems Basics** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/fde02823-1e05-4382-a844-cdb966fb7c47) |
 | 2026-04-27 | **AI Fundamentals: Language and Vision in AI** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/df76354f-505a-4cbb-a33c-31dcac6a0e8e) |
@@ -57,9 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-13 | **Generative AI Essentials: Using LLMs to Work with Data** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/2e249462-a23b-4c37-8eea-c279927629c8) |
 | 2026-04-13 | **Introduction to Cybersecurity** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/61438657-9227-4fe2-a571-673adf92bae0) |
 | 2026-04-12 | **AWS Knowledge: AWS Graviton - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/013b5a15-4ea6-47a4-9812-bcb52372bb1f) |
-| 2026-04-12 | **Make Agentic AI Work for You** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/0162b3cd-2bf0-4a6e-8335-3ece7487f265) |
-| 2026-04-11 | **AI for Networking** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/44ef5ed4-03e3-4047-b5c4-341d35a52ee7) |
-| 2026-04-11 | **Digital Mindset** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/c6b89299-f4da-4b4d-93de-a136065eee33) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-09.md](credly-badges-2026-07-part-09.md)
