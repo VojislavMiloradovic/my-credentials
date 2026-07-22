@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 4 of 6
-date_range: 2026-03-08 to 2026-03-19
+date_range: 2026-03-09 to 2026-03-20
 total_entries: 80
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-04.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| Getting Started with AWS Storage | Digital Course | 2026-03-20 | 3 hours 15 minutes | 🎓 Available on Profile |
 | AWS Cloud Economics for Healthcare | Digital Course | 2026-03-19 | 1 hour 20 minutes | 🎓 Available on Profile |
 | AWS Cloud Essentials for Business Leaders | Digital Course | 2026-03-19 | 2 hours | 🎓 Available on Profile |
 | AWS Config Getting Started | Digital Course | 2026-03-19 | 1 hour 30 minutes | 🎓 Available on Profile |
@@ -91,7 +92,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | AWS Billing and Cost Management | Digital Course | 2026-03-09 | 20 minutes | 🎓 Available on Profile |
 | AWS Lambda Foundations | Digital Course | 2026-03-09 | 2 hours | 🎓 Available on Profile |
 | AWS X-Ray Getting Started | Digital Course | 2026-03-09 | 1 hour | 🎓 Available on Profile |
-| [RETIRED] AWS Fargate - Overview | Digital Course | 2026-03-08 | 10 minutes | 🎓 Available on Profile |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-03.md](aws-skills-2026-07-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-05.md](aws-skills-2026-07-part-05.md)

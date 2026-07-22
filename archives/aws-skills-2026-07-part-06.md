@@ -2,7 +2,7 @@
 archive_platform: AWS Skill Builder
 chunk_part: 6 of 6
 date_range: - to 2026-02-10
-total_entries: 53
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-06.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| [RETIRING - 2026-08-03] Amazon WorkMail Getting Started | Digital Course | 2026-02-10 | 1 hour | 🎓 Available on Profile |
 | Amazon Q Developer Getting Started | Digital Course | 2026-02-10 | 1 hour | 🎓 Available on Profile |
 | AWS Transform for mainframe Fundamentals | Digital Course | 2026-02-10 | 45 minutes | 🎓 Available on Profile |
 | Introduction to AWS Elemental MediaConnect | Digital Course | 2026-02-10 | 1 hour | 🎓 Available on Profile |

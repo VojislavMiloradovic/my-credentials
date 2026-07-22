@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 3 of 6
-date_range: 2026-03-20 to 2026-04-20
-total_entries: 77
+date_range: 2026-03-20 to 2026-04-21
+total_entries: 78
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-03.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| Understanding Placement Groups | Digital Course | 2026-04-21 | 10 minutes | 🎓 Available on Profile |
+| Amazon Connect Fundamentals Assessment | Digital Course | 2026-04-20 | 1 hour | 🎓 Available on Profile |
 | Amazon Connect Operations | Digital Course | 2026-04-20 | 1 hour | 🎓 Available on Profile |
 | Amazon ElastiCache Getting Started | Digital Course | 2026-04-20 | 1 hour | 🎓 Available on Profile |
 | AWS CloudFormation Stacks - Troubleshooting | Digital Course | 2026-04-20 | 30 minutes | 🎓 Available on Profile |
@@ -88,7 +90,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Cloud Essentials for Business Leaders – Healthcare and Life Sciences | Digital Course | 2026-03-21 | 1 hour 30 minutes | 🎓 Available on Profile |
 | Machine Learning Essentials for Business and Technical Decision Makers | Digital Course | 2026-03-21 | 1 hour 30 minutes | 🎓 Available on Profile |
 | Amazon DynamoDB Getting Started | Digital Course | 2026-03-20 | 1 hour | 🎓 Available on Profile |
-| Getting Started with AWS Storage | Digital Course | 2026-03-20 | 3 hours 15 minutes | 🎓 Available on Profile |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-04.md](aws-skills-2026-07-part-04.md)

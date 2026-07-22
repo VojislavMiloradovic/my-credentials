@@ -1,13 +1,15 @@
 # Complete AWS Skill Builder Achievements Archive
 
-This document contains a complete, historical audit trail of all 447 AWS learning items completed on AWS Skill Builder.
+This document contains a complete, historical audit trail of all 449 AWS learning items completed on AWS Skill Builder.
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
 | AI Agents: Cognitive Upgrade and Business Efficiency | Digital Course | 2026-07-22 | 3 hours | 🎓 Available on Profile |
 | AWS Cloud for absolute beginners | Digital Course | 2026-07-22 | 3 hours | 🎓 Available on Profile |
+| AWS Cloud for Finance Professionals | Digital Course | 2026-07-22 | 17 hours | 🎓 Available on Profile |
 | AWS Technical Essentials | Digital Course | 2026-07-22 | 4 hours | 🎓 Available on Profile |
 | Data Engineering on AWS - Foundations | Digital Course | 2026-07-22 | 4 hours | 🎓 Available on Profile |
+| Introduction to Building with AWS Databases | Digital Course | 2026-07-22 | 3 hours | 🎓 Available on Profile |
 | AWS CodeArtifact Getting Started | Digital Course | 2026-07-20 | 1 hour 30 minutes | 🎓 Available on Profile |
 | AWS CodeDeploy Getting Started | Digital Course | 2026-07-20 | 2 hours | 🎓 Available on Profile |
 | AWS for SAP - Generative AI Fundamentals | Digital Course | 2026-07-20 | 1 hour 15 minutes | 🎓 Available on Profile |
