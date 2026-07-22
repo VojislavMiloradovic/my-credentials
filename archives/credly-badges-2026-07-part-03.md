@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 3 of 9
-date_range: 2026-06-13 to 2026-06-26
+date_range: 2026-06-16 to 2026-06-27
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-03.md
 ---
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-27 | **Cloud Tech Associate Advanced Disaster Recovery** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937) |
+| 2026-06-27 | **Configure Service Accounts and IAM Roles for Google Cloud Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/ddaa4bce-2772-4181-9a7c-21252929399d) |
+| 2026-06-27 | **Get Started with Auth0 Tenants** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/a626c5ef-b24c-4dce-be69-548d51377e78) |
+| 2026-06-27 | **Monitor KPIs in Analysis Dashboards** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/d23419cf-0b96-4003-8c51-d0156b673365) |
+| 2026-06-27 | **Monitor KPIs in Execution Apps** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/648e7ea8-11ed-42ec-8bb2-68235dd7841a) |
+| 2026-06-27 | **Process Automation Basics** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/8da97b58-6d1d-46ef-bad3-34ed67aa3baa) |
+| 2026-06-26 | **AWS Knowledge: Media & Entertainment: Direct-to-Consumer and Broadcast Foundations - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/3b24da57-1197-413e-8fa4-fdb2fe314113) |
+| 2026-06-26 | **Chainguard Container Crusader** | issued by Chainguard | `Credly Verified` | [Verify](https://www.credly.com/badges/bc36c287-1124-4591-99a8-02051ffa7402) |
+| 2026-06-26 | **Cloud Tech Professional Advanced Backup** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/73990582-085d-46e4-a7b9-537fdb44401e) |
 | 2026-06-26 | **LFC101: Inclusive Speaker Orientation** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/ad970f8a-3675-4caa-b4bf-70a3b661751f) |
 | 2026-06-26 | **LFD114: Porting Software to RISC-V** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/bb54e8cf-48fd-49a8-8cfc-6e4e182504e3) |
 | 2026-06-25 | **AI Threat Tamer** | issued by Chainguard | `Credly Verified` | [Verify](https://www.credly.com/badges/db97c86e-63ee-4b06-9267-97b0214b660b) |
@@ -51,15 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-18 | **ZEDEDA Certified Edge Orchestration Professional (ZCEP)** | issued by ZEDEDA | `Credly Verified` | [Verify](https://www.credly.com/badges/353991f9-77e3-4db3-9e33-3ea865e695ff) |
 | 2026-06-17 | **Store, Process, and Manage Data on Google Cloud - Console Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/59bdf724-fa62-4fae-b148-cb57e28e3fb0) |
 | 2026-06-16 | **LFC111: Open Source Technical Documentation Essentials** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/5facc7f1-04b9-4b75-b174-44e85cd84aea) |
-| 2026-06-16 | **LFQ102: Quantum Computing Essentials For Senior Leaders** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/683ddef1-be3c-47d2-b4d5-c9ec0b3b555c) |
-| 2026-06-16 | **LFS142: Introduction to Backstage - Developer Portals Made Easy** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/f2f210d4-5cef-47a1-9a3d-44a366d69611) |
-| 2026-06-16 | **LFS145: Introduction to Protocol Buffers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/d4a11de5-0492-4f95-a860-7c0c6453f0f1) |
-| 2026-06-16 | **Planning and Configuration Best Practices** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/9ec90075-322d-4d98-a00c-30601b34e08e) |
-| 2026-06-16 | **Sign in Your Users and Secure Sessions with Okta** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/ef1ac823-96a7-427d-b8f2-77a6cffd32de) |
-| 2026-06-15 | **AWS Knowledge: Data Migration - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/b74d15f7-a10b-4c58-91a9-1a42a728b7ab) |
-| 2026-06-15 | **Cloud Deployments** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/c7e60f6c-4fb8-4ea1-88a8-50668e31a696) |
-| 2026-06-13 | **AI on Intel® Xeon® Processors** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/868a09ec-ec7b-4c1f-97e3-aad9d4c6cfa9) |
-| 2026-06-13 | **AWS Knowledge: Block Storage - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/62acad1e-85b7-4c83-99d4-55b512552814) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md)

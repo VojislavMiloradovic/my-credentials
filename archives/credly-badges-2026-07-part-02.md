@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 2 of 9
-date_range: 2026-06-26 to 2026-07-08
-total_entries: 52
+date_range: 2026-06-27 to 2026-07-09
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-02.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-09 | **Principles of AI Transformation** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/dea04841-c966-4353-9ede-2aa009ec2426) |
+| 2026-07-09 | **Well-Architected Proficient** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/5956f2ee-34a1-400c-8d10-a6a9d75a08a8) |
+| 2026-07-08 | **AWS Educate Introduction to Generative AI - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/126fcf1c-a7ce-4076-bfb5-8841cd2aac83) |
+| 2026-07-08 | **AWS SimuLearn - Cloud Practitioner - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/aa421d7a-9775-4459-8d87-e4d986e3b999) |
+| 2026-07-08 | **Cloud Sales Associate Advanced Data Loss Prevention** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/bd93bca0-6c3e-42d1-a6d1-8e9664e4c079) |
+| 2026-07-08 | **data.world Admin Certification** | issued by data.world from ServiceNow | `Credly Verified` | [Verify](https://www.credly.com/badges/fa194f5e-7087-4936-ba7b-043ed46f68ac) |
+| 2026-07-08 | **data.world End User Certification** | issued by data.world from ServiceNow | `Credly Verified` | [Verify](https://www.credly.com/badges/d521cb54-db11-4d81-b284-d7d231b20e87) |
+| 2026-07-08 | **data.world Foundations** | issued by data.world from ServiceNow | `Credly Verified` | [Verify](https://www.credly.com/badges/3476c45c-4176-49ad-9051-123760a950ff) |
 | 2026-07-08 | **data.world Steward Certification** | issued by data.world from ServiceNow | `Credly Verified` | [Verify](https://www.credly.com/badges/cf76fba1-5658-4a88-9c91-84a057fcdd7b) |
 | 2026-07-08 | **Foundations of Operationalizing MITRE ATT&CK v13** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/e9bc6726-6c10-4a41-a8dd-a10398dec90f) |
 | 2026-07-08 | **Navigate the Celonis Studio** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/f61a2862-8623-4198-86f9-a8817a002424) |
@@ -55,15 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-28 | **Cloud Speech API: 3 Ways Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5) |
 | 2026-06-27 | **AWS Knowledge: Migration Foundations - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/c6d0351c-5227-4931-8bec-3d4789d4fe0e) |
 | 2026-06-27 | **Celonis Foundations** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/e2811911-4464-4eb1-9981-681c751363bf) |
-| 2026-06-27 | **Cloud Tech Associate Advanced Disaster Recovery** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937) |
-| 2026-06-27 | **Configure Service Accounts and IAM Roles for Google Cloud Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/ddaa4bce-2772-4181-9a7c-21252929399d) |
-| 2026-06-27 | **Get Started with Auth0 Tenants** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/a626c5ef-b24c-4dce-be69-548d51377e78) |
-| 2026-06-27 | **Monitor KPIs in Analysis Dashboards** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/d23419cf-0b96-4003-8c51-d0156b673365) |
-| 2026-06-27 | **Monitor KPIs in Execution Apps** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/648e7ea8-11ed-42ec-8bb2-68235dd7841a) |
-| 2026-06-27 | **Process Automation Basics** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/8da97b58-6d1d-46ef-bad3-34ed67aa3baa) |
-| 2026-06-26 | **AWS Knowledge: Media & Entertainment: Direct-to-Consumer and Broadcast Foundations - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/3b24da57-1197-413e-8fa4-fdb2fe314113) |
-| 2026-06-26 | **Chainguard Container Crusader** | issued by Chainguard | `Credly Verified` | [Verify](https://www.credly.com/badges/bc36c287-1124-4591-99a8-02051ffa7402) |
-| 2026-06-26 | **Cloud Tech Professional Advanced Backup** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/73990582-085d-46e4-a7b9-537fdb44401e) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-01.md](credly-badges-2026-07-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 6 of 9
-date_range: 2026-05-13 to 2026-05-23
-total_entries: 51
+date_range: 2026-05-15 to 2026-05-24
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-06.md
 ---
 
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-05-24 | **Analyze BigQuery Data in Connected Sheets Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/57dcab2e-a6d0-4084-b2c0-fb0d9d5874e2) |
+| 2026-05-24 | **App Building with AppSheet Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/75c5a6f3-45b1-4e12-a503-827174a7883a) |
+| 2026-05-24 | **Basics in Lucidspark** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/caae3887-6d97-4075-aa20-ecdb7bd5c9b8) |
+| 2026-05-24 | **Brainstorming in Lucidspark** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/095dc216-b8de-4d9e-ab3e-056e8987391e) |
+| 2026-05-24 | **Foundational Support** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/041aad51-b3a7-4616-a261-ddfa3d2533b1) |
+| 2026-05-24 | **Lucidspark Fundamentals** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/6df46a0d-8010-49f6-b01e-cf9d383932ff) |
+| 2026-05-24 | **Meetings in Lucidspark** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/11d085db-69be-4f5c-bada-7a742281fff1) |
+| 2026-05-24 | **Planning in Lucidspark** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/8939bb50-c3b9-4409-8fe8-61e9a4ea9534) |
+| 2026-05-24 | **Zendesk Agent** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/a24705fc-d14b-47ec-b272-094a661740ce) |
+| 2026-05-23 | **Build Real World AI Applications with Gemini and Imagen Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/c15777e9-c57b-40fa-9c22-0f9eba0add17) |
 | 2026-05-23 | **Omnichannel Agent** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/c2de9e8a-fc12-4b9c-ab62-8c6d7e1f9cb5) |
 | 2026-05-23 | **ZEDEDA Certified Edge Computing Associate (ZCEA)** | issued by ZEDEDA | `Credly Verified` | [Verify](https://www.credly.com/badges/26649e2a-0f74-463a-a67c-7796888e7477) |
 | 2026-05-23 | **ZEDEDA Edge Orchestration Essentials** | issued by ZEDEDA | `Credly Verified` | [Verify](https://www.credly.com/badges/d481756e-959f-471c-8d68-3f0ebd5d3775) |
@@ -54,15 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-15 | **Digital Adoption Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/7245de95-83f1-4f30-b301-0d61c8576780) |
 | 2026-05-15 | **Exploring SAP Sports One - Training Management - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/83726026-289c-43c8-829d-e7cb31ae928f) |
 | 2026-05-15 | **Foundations of Risk and Asset Liability Management Knowledge Badge** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/5328bcd2-a3eb-4848-97d6-1943f04e2219) |
-| 2026-05-15 | **Generative AI Using SAS** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/1cb2917f-14d8-4bec-a32a-9cdcd52cad31) |
-| 2026-05-15 | **Responsible Innovation and Trustworthy AI** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/760eeeb8-81c2-4af5-ba16-8a3e19cc2619) |
-| 2026-05-15 | **Statistics 1: Introduction to ANOVA, Regression, and Logistic Regression** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/e3ce2619-792f-4d85-9ed2-41865bbd6eec) |
-| 2026-05-13 | **AWS Cloud Quest: Generative AI Practitioner - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/dd512726-96fc-471a-9058-503bc93a3f74) |
-| 2026-05-13 | **Cloud Principles** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/54b1f225-a2f7-4999-b4f6-a8a319e1434d) |
-| 2026-05-13 | **Cyber Threat Management** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/7a429d33-ffb2-4b04-b7e8-aadd7c3854cb) |
-| 2026-05-13 | **Discovering the Basics of SAP S/4HANA Project System - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/7a491257-c680-4bca-889f-bbe5e4a3d5b8) |
-| 2026-05-13 | **Discover Retail Functions and Business Processes in SAP S/4HANA Retail - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/077682ea-5d92-4493-b959-a95d2d31f096) |
-| 2026-05-13 | **Exploring SAP SuccessFactors Embedded Launch Activities for IT Manager - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/a8b69ec8-799d-4838-8719-0eb2ad05b03b) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 4 of 9
-date_range: 2026-06-06 to 2026-06-13
-total_entries: 49
+date_range: 2026-06-07 to 2026-06-16
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-04.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-16 | **LFQ102: Quantum Computing Essentials For Senior Leaders** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/683ddef1-be3c-47d2-b4d5-c9ec0b3b555c) |
+| 2026-06-16 | **LFS142: Introduction to Backstage - Developer Portals Made Easy** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/f2f210d4-5cef-47a1-9a3d-44a366d69611) |
+| 2026-06-16 | **LFS145: Introduction to Protocol Buffers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/d4a11de5-0492-4f95-a860-7c0c6453f0f1) |
+| 2026-06-16 | **Planning and Configuration Best Practices** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/9ec90075-322d-4d98-a00c-30601b34e08e) |
+| 2026-06-16 | **Sign in Your Users and Secure Sessions with Okta** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/ef1ac823-96a7-427d-b8f2-77a6cffd32de) |
+| 2026-06-15 | **AWS Knowledge: Data Migration - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/b74d15f7-a10b-4c58-91a9-1a42a728b7ab) |
+| 2026-06-15 | **Cloud Deployments** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/c7e60f6c-4fb8-4ea1-88a8-50668e31a696) |
+| 2026-06-13 | **AI on Intel® Xeon® Processors** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/868a09ec-ec7b-4c1f-97e3-aad9d4c6cfa9) |
+| 2026-06-13 | **AWS Knowledge: Block Storage - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/62acad1e-85b7-4c83-99d4-55b512552814) |
 | 2026-06-13 | **Get Started with Dataplex Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/716e37e5-9b04-4615-a6bb-b7a3129f6aa9) |
 | 2026-06-13 | **LFC104: Ethics for Open Source Development** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/8b3acbeb-abe6-47c1-b8ad-32364d6439d0) |
 | 2026-06-13 | **LFC194: Implementing Open Source License Compliance Management** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/34ba4e1b-3e3b-41a4-87cf-4c8bd3242a62) |
@@ -51,16 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-08 | **SKF100: Understanding the OWASP® Top 10 Security Threats** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/8a0199ec-ff1c-4b87-a185-92cf277719e6) |
 | 2026-06-07 | **AWS Knowledge: Amazon Braket - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/8a9f2e87-0407-4376-8b09-d10fa0b6a6b9) |
 | 2026-06-07 | **LFS101: Introduction to Linux** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/e0a7c437-4f29-4111-96d2-2c8f15eb14cc) |
-| 2026-06-07 | **Google Play Academy - Store Listing Certificate** | Google Play Academy | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/1473fa50-8b83-4ccf-a376-6cd671db8b80) |
-| 2026-06-06 | **AWS Knowledge: Networking Core - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/80648322-ee54-4e43-9d4b-f311dcc569cd) |
-| 2026-06-06 | **Intelligent Diagramming** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/a5b0658c-f2cb-4aa4-85db-5d2c8eefa144) |
-| 2026-06-06 | **Radical Product Thinking: Vision Setting** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/d38891c5-dcb5-4e3d-b354-9b2fcf1d072b) |
-| 2026-06-06 | **SAS Container Runtime: Architecture and Deployment on Azure Cloud** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/d36604cf-46f7-4b9b-931f-918f54c15973) |
-| 2026-06-06 | **SAS Grid Manager Overview** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/78784a3b-7ed5-4a8b-95ce-1e287726c4c5) |
-| 2026-06-06 | **SAS Programming 1: Essentials** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/74736e55-a08c-4746-b4ca-9244487498d3) |
-| 2026-06-06 | **SAS Programming for R Users** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/f4d3ea95-4342-432c-b7d0-467bec8195b5) |
-| 2026-06-06 | **SAS SpeedyStore: Architect and Deploy the SAS Viya Platform with SingleStore** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/0c7b5ada-1b12-40b5-ac53-df39416579ec) |
-| 2026-06-06 | **Using SAS Asset and Liability Management** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/4c315e16-b6f9-4d03-807c-0cfb8b9f89a2) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md)

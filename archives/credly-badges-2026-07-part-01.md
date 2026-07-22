@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 1 of 9
-date_range: 2026-07-08 to 2026-07-22
+date_range: 2026-07-09 to 2026-07-22
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md
 ---
@@ -12,7 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-22 | **AI and Innovation: How MongoDB Enables a Resilient AI Strategy** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/eb31b07d-b515-4678-aad1-792c118e67dc) |
+| 2026-07-22 | **AWS Educate Getting Started with Databases - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/da4e7c34-8a7a-4418-86f2-eb9db7a34148) |
 | 2026-07-22 | **Extending ATT&CK with ATT&CK Workbench** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/1a455d6f-de65-420a-a531-f26d2562538b) |
+| 2026-07-22 | **Foundations of Cyber Threat Intelligence** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/7de6eae2-567f-4628-9a07-b832ea35db92) |
+| 2026-07-22 | **MongoDB Advanced Schema Design Patterns and Anti-patterns Skill Badge** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/e467dede-3af7-4e52-94b6-024d53997597) |
+| 2026-07-22 | **MongoDB Aggregation Fundamentals** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/9e2386d0-6962-447d-9cab-1efb8c45bb56) |
+| 2026-07-22 | **MongoDB Query Optimization Techniques** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/adc22d84-9e52-40b6-8f56-09b163398c09) |
+| 2026-07-22 | **MongoDB Schema Design Optimization Skill Badge** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/526ac37a-cf81-4031-82ad-ea72351d42b8) |
+| 2026-07-22 | **MongoDB Schema Design Patterns and Anti-patterns Skill Badge** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/79327255-4ed3-4b0f-8b1e-9982a0ab1051) |
 | 2026-07-21 | **Cloud Functions: 3 Ways Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/f57106b4-cf01-4ad0-a05a-67f322da7411) |
 | 2026-07-21 | **Cloud Sales Pro - Archival Storage** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/f158f922-f150-4b0b-8690-da627a5aea91) |
 | 2026-07-21 | **Cloud Sales Pro - Backup** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/8792dd40-33ba-45a4-8a3b-68f57d1ec0d3) |
@@ -55,14 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-09 | **Intel® Xeon® 6 Processor Family Essentials** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/11bd816c-b1e7-4b97-8c4b-ca8c88793e1e) |
 | 2026-07-09 | **Make Basics** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/eb9617cb-496e-443f-ada3-faa52bfcf0a4) |
 | 2026-07-09 | **Make Foundation** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/0d4bdacd-4259-4da2-b840-2ac5ae64f097) |
-| 2026-07-09 | **Principles of AI Transformation** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/dea04841-c966-4353-9ede-2aa009ec2426) |
-| 2026-07-09 | **Well-Architected Proficient** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/5956f2ee-34a1-400c-8d10-a6a9d75a08a8) |
-| 2026-07-08 | **AWS Educate Introduction to Generative AI - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/126fcf1c-a7ce-4076-bfb5-8841cd2aac83) |
-| 2026-07-08 | **AWS SimuLearn - Cloud Practitioner - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/aa421d7a-9775-4459-8d87-e4d986e3b999) |
-| 2026-07-08 | **Cloud Sales Associate Advanced Data Loss Prevention** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/bd93bca0-6c3e-42d1-a6d1-8e9664e4c079) |
-| 2026-07-08 | **data.world Admin Certification** | issued by data.world from ServiceNow | `Credly Verified` | [Verify](https://www.credly.com/badges/fa194f5e-7087-4936-ba7b-043ed46f68ac) |
-| 2026-07-08 | **data.world End User Certification** | issued by data.world from ServiceNow | `Credly Verified` | [Verify](https://www.credly.com/badges/d521cb54-db11-4d81-b284-d7d231b20e87) |
-| 2026-07-08 | **data.world Foundations** | issued by data.world from ServiceNow | `Credly Verified` | [Verify](https://www.credly.com/badges/3476c45c-4176-49ad-9051-123760a950ff) |
 
 ---
 > **Navigation:** Prev: None | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 7 of 9
-date_range: 2026-04-30 to 2026-05-13
+date_range: 2026-05-06 to 2026-05-15
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-07.md
 ---
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-05-15 | **Generative AI Using SAS** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/1cb2917f-14d8-4bec-a32a-9cdcd52cad31) |
+| 2026-05-15 | **Responsible Innovation and Trustworthy AI** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/760eeeb8-81c2-4af5-ba16-8a3e19cc2619) |
+| 2026-05-15 | **Statistics 1: Introduction to ANOVA, Regression, and Logistic Regression** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/e3ce2619-792f-4d85-9ed2-41865bbd6eec) |
+| 2026-05-13 | **AWS Cloud Quest: Generative AI Practitioner - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/dd512726-96fc-471a-9058-503bc93a3f74) |
+| 2026-05-13 | **Cloud Principles** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/54b1f225-a2f7-4999-b4f6-a8a319e1434d) |
+| 2026-05-13 | **Cyber Threat Management** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/7a429d33-ffb2-4b04-b7e8-aadd7c3854cb) |
+| 2026-05-13 | **Discovering the Basics of SAP S/4HANA Project System - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/7a491257-c680-4bca-889f-bbe5e4a3d5b8) |
+| 2026-05-13 | **Discover Retail Functions and Business Processes in SAP S/4HANA Retail - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/077682ea-5d92-4493-b959-a95d2d31f096) |
+| 2026-05-13 | **Exploring SAP SuccessFactors Embedded Launch Activities for IT Manager - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/a8b69ec8-799d-4838-8719-0eb2ad05b03b) |
 | 2026-05-13 | **Exploring the SAP Enterprise Architecture Framework Foundation - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/0c8bfe33-0de4-4a95-b445-5296b7c26fe4) |
 | 2026-05-13 | **Getting Started with Concur Invoice Standard Edition for Administrators - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/4400b51d-b867-40de-baa1-9ba06079b1e9) |
 | 2026-05-13 | **Getting Started with Web Development - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/c84a5ab3-92bb-46c7-bb07-9c679979d525) |
@@ -53,15 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-06 | **Dashboards Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/3ada1a37-c791-4d66-860b-36b7c30ec4c3) |
 | 2026-05-06 | **Explore Identity Foundations** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/bef6ae97-3d40-441b-a5fd-168016f17b32) |
 | 2026-05-06 | **LLM Observability Metrics & Traces Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5) |
-| 2026-05-05 | **Exploring SAP SuccessFactors Embedded Launch Activities for Business User - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/cc432e30-9613-4886-b82d-dd8b9ed936f3) |
-| 2026-05-05 | **Project Management Fundamentals** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/544641c1-b718-4173-ac14-39c1b0656aea) |
-| 2026-05-04 | **IT Customer Support Basics** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/66dd5194-76bb-456f-b199-db61a26524a3) |
-| 2026-05-03 | **Administering and Using Responsible Design and Production for the Circular Economy - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/408da580-5ac3-4bb4-9b61-6593a033c23d) |
-| 2026-05-03 | **AWS Knowledge: AWS for Games: Cloud Game Development - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/8b31cd8d-4eed-4e24-81d8-93c68a08138e) |
-| 2026-05-02 | **AWS Knowledge: AWS End User Computing - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/a380090e-c32c-4c12-bbae-2dc04f50f619) |
-| 2026-05-02 | **Introducing SAP Ariba Category Management Fundamentals - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/584b0ef0-334b-429f-97b0-c5769c878484) |
-| 2026-05-02 | **Quantum Enigmas** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/70c32b77-453a-4fe5-9f8f-76fefc4c6890) |
-| 2026-04-30 | **Applying Supply Chain Execution in SAP S/4HANA Cloud Private Edition - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/4a8483c8-7e9e-4bd6-ac58-4fa107a9a535) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md)

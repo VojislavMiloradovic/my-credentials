@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 5 of 9
-date_range: 2026-05-23 to 2026-06-05
+date_range: 2026-05-25 to 2026-06-07
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-05.md
 ---
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-07 | **Google Play Academy - Store Listing Certificate** | Google Play Academy | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/1473fa50-8b83-4ccf-a376-6cd671db8b80) |
+| 2026-06-06 | **AWS Knowledge: Networking Core - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/80648322-ee54-4e43-9d4b-f311dcc569cd) |
+| 2026-06-06 | **Intelligent Diagramming** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/a5b0658c-f2cb-4aa4-85db-5d2c8eefa144) |
+| 2026-06-06 | **Radical Product Thinking: Vision Setting** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/d38891c5-dcb5-4e3d-b354-9b2fcf1d072b) |
+| 2026-06-06 | **SAS Container Runtime: Architecture and Deployment on Azure Cloud** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/d36604cf-46f7-4b9b-931f-918f54c15973) |
+| 2026-06-06 | **SAS Grid Manager Overview** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/78784a3b-7ed5-4a8b-95ce-1e287726c4c5) |
+| 2026-06-06 | **SAS Programming 1: Essentials** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/74736e55-a08c-4746-b4ca-9244487498d3) |
+| 2026-06-06 | **SAS Programming for R Users** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/f4d3ea95-4342-432c-b7d0-467bec8195b5) |
+| 2026-06-06 | **SAS SpeedyStore: Architect and Deploy the SAS Viya Platform with SingleStore** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/0c7b5ada-1b12-40b5-ac53-df39416579ec) |
+| 2026-06-06 | **Using SAS Asset and Liability Management** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/4c315e16-b6f9-4d03-807c-0cfb8b9f89a2) |
 | 2026-06-05 | **AWS Knowledge: Serverless - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/f9330cf1-b091-4b44-b8b1-31fc37561492) |
 | 2026-06-05 | **Integrate with Active Directory** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/8a2cdb72-66f2-4151-ac05-087b4eaa0986) |
 | 2026-06-05 | **Optimize Device Security and Management** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/9bf4e9ce-ebbf-4d65-9aec-ffd109e1bc06) |
@@ -54,16 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-25 | **Process diagrams in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/c082e966-a48a-41cc-8cf0-80ef478133db) |
 | 2026-05-25 | **Product Management Basics Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/9ed3741c-eb44-4f66-854b-7808ab8091a9) |
 | 2026-05-25 | **Technical systems in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/c2e33131-b3af-496b-97bb-9e34f365fa0e) |
-| 2026-05-24 | **Analyze BigQuery Data in Connected Sheets Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/57dcab2e-a6d0-4084-b2c0-fb0d9d5874e2) |
-| 2026-05-24 | **App Building with AppSheet Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/75c5a6f3-45b1-4e12-a503-827174a7883a) |
-| 2026-05-24 | **Basics in Lucidspark** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/caae3887-6d97-4075-aa20-ecdb7bd5c9b8) |
-| 2026-05-24 | **Brainstorming in Lucidspark** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/095dc216-b8de-4d9e-ab3e-056e8987391e) |
-| 2026-05-24 | **Foundational Support** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/041aad51-b3a7-4616-a261-ddfa3d2533b1) |
-| 2026-05-24 | **Lucidspark Fundamentals** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/6df46a0d-8010-49f6-b01e-cf9d383932ff) |
-| 2026-05-24 | **Meetings in Lucidspark** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/11d085db-69be-4f5c-bada-7a742281fff1) |
-| 2026-05-24 | **Planning in Lucidspark** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/8939bb50-c3b9-4409-8fe8-61e9a4ea9534) |
-| 2026-05-24 | **Zendesk Agent** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/a24705fc-d14b-47ec-b272-094a661740ce) |
-| 2026-05-23 | **Build Real World AI Applications with Gemini and Imagen Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/c15777e9-c57b-40fa-9c22-0f9eba0add17) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md)
