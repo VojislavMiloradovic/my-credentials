@@ -1,6 +1,6 @@
 ﻿Complete Training Activity List
 Generated on: 22. јул 2026.
-Total rows: 448
+Total rows: 450
 
 Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
 [RETIRED] AWS Fargate - Overview,Digital course,Retired,0,-,"March 8, 2026","March 8, 2026","March 8, 2026",10 minutes,Fundamental,English
@@ -151,6 +151,7 @@ AWS Cloud Essentials for Business Leaders,Digital course,Completed,0,-,"March 19
 AWS Cloud Essentials for Business Leaders (Financial Services),Digital course,Completed,0,-,"March 29, 2026","March 29, 2026","March 29, 2026",2 hours,Fundamental,English
 AWS Cloud Essentials for Business Leaders - Telecommunications,Digital course,Completed,0,-,"March 21, 2026","March 21, 2026","March 21, 2026",2 hours,Fundamental,English
 AWS Cloud for absolute beginners,Digital course,Completed,0,-,"July 22, 2026","July 22, 2026","July 22, 2026",3 hours,Fundamental,English
+AWS Cloud for Finance Professionals,Digital course,Completed,0,-,"July 22, 2026","July 22, 2026","July 22, 2026",17 hours,Fundamental,English
 AWS Cloud Practitioner Essentials,Digital course,Completed,100,-,"April 15, 2026","April 15, 2026","April 15, 2026",12 hours 45 minutes,Fundamental,English
 AWS Cloud Practitioner Power Hour - Overview and Cloud Concepts,Digital course,Completed,0,-,"July 17, 2026","July 17, 2026","July 17, 2026",1 hour 30 minutes,Fundamental,English
 AWS Cloud Quest: Cloud Practitioner,AWS Cloud Quest,Completed,0,-,"May 17, 2026","May 17, 2026","May 25, 2026",12 hours,Fundamental,English
@@ -391,6 +392,7 @@ Introduction to AWS Transform - continuous modernization,Digital course,Complete
 Introduction to AWS Transform custom,Digital course,Completed,0,-,"March 25, 2026","March 25, 2026","March 25, 2026",1 hour,Fundamental,English
 Introduction to AWS Transform for full-stack Windows modernization,Digital course,Completed,0,-,"March 25, 2026","March 25, 2026","March 25, 2026",1 hour,Fundamental,English
 Introduction to Building apps in Amazon Quick,Digital course,Completed,0,-,"April 30, 2026","April 30, 2026","April 30, 2026",45 minutes,Fundamental,English
+Introduction to Building with AWS Databases,Digital course,Completed,0,-,"July 22, 2026","July 22, 2026","July 22, 2026",3 hours,Fundamental,English
 Introduction to Container Basics,Digital course,Completed,0,-,"July 14, 2026","July 14, 2026","July 14, 2026",45 minutes,Fundamental,English
 Introduction to Containers,Digital course,Completed,0,-,"January 16, 2026","January 16, 2026","January 16, 2026",15 minutes,Intermediate,English
 Introduction to Custom Agents in Amazon Quick,Digital course,Completed,0,-,"June 18, 2026","June 18, 2026","June 18, 2026",15 minutes,Fundamental,English
