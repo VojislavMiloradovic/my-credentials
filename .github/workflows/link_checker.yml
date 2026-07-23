@@ -1,0 +1,40 @@
+name: Link Health Checker
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Automatically runs every Sunday at 00:00 UTC
+  workflow_dispatch: # Enables manual triggers from the Actions tab
+
+permissions:
+  contents: read
+  issues: write # Allows lychee to automatically open a GitHub Issue if dead links are found
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Restore Lychee Cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: lychee-${{ runner.os }}-${{ github.sha }}
+          restore-keys: |
+            lychee-${{ runner.os }}-
+
+      - name: Run Lychee Link Checker
+        uses: lycheeververse/lychee-action@v2
+        with:
+          args: >
+            --verbose
+            --no-progress
+            --accept 200,204,301,302
+            --cache
+            --max-cache-age 1d
+            --exclude "(linkedin.com|credly.com)"
+            "README.md" "llms.txt" "archives/*.md"
+          fail: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
