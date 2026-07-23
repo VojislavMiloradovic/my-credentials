@@ -1,12 +1,14 @@
 # Google Cloud Skills Boost — Full Credentials Archive
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
-**Total Lifetime Points:** 192,567  
-**Total Badges:** 331
+**Total Lifetime Points:** 192,777  
+**Total Badges:** 333
 
 #### All Earned Badges
 | Date Earned | Badge Title |
 |:---:|---|
+| 2026-07-23 | **Configure VPC Routes and Addresses** |
+| 2026-07-23 | **Set Up Multiple Network Interfaces** |
 | 2026-07-23 | **Orchestrate Workflows with the Data Agent Kit** |
 | 2026-07-23 | **Arcade Adventure: Low-Code Development** |
 | 2026-07-21 | **Build Serverless Applications with Cloud Run Functions** |

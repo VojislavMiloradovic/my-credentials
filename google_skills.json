@@ -1,16 +1,28 @@
 {
   "profile_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_points": "192,567",
+  "total_points": "192,777",
   "internal_stats": {
-    "Course": 331,
-    "Check": 1769,
+    "Course": 337,
+    "Check": 1782,
     "Classroom": 0,
-    "Game": 4,
-    "Lab": 223,
-    "Lesson": 4830
+    "Game": 6,
+    "Lab": 237,
+    "Lesson": 4847
   },
-  "total_badges": 331,
+  "total_badges": 333,
   "badges": [
+    {
+      "title": "Configure VPC Routes and Addresses",
+      "date_earned": "2026-07-23",
+      "image_url": "https://cdn.qwiklabs.com/H8KQR7qQ%2FZBCZ30rRko1MPt8vD73cUJrJb0Egza320E%3D",
+      "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25829594"
+    },
+    {
+      "title": "Set Up Multiple Network Interfaces",
+      "date_earned": "2026-07-23",
+      "image_url": "https://cdn.qwiklabs.com/wlqc63PefEJxv%2BK95b0y9K9TUjYOE9acCvRneCP3WYc%3D",
+      "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25828763"
+    },
     {
       "title": "Orchestrate Workflows with the Data Agent Kit",
       "date_earned": "2026-07-23",

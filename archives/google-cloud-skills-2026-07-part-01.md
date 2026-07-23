@@ -1,7 +1,7 @@
 ---
 archive_platform: Google Cloud Skills Boost
 chunk_part: 1 of 3
-date_range: 2026-03-27 to 2026-07-23
+date_range: 2026-03-29 to 2026-07-23
 total_entries: 145
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-01.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Badge Title |
 | :---: | :--- |
+| 2026-07-23 | **Configure VPC Routes and Addresses** |
+| 2026-07-23 | **Set Up Multiple Network Interfaces** |
 | 2026-07-23 | **Orchestrate Workflows with the Data Agent Kit** |
 | 2026-07-23 | **Arcade Adventure: Low-Code Development** |
 | 2026-07-21 | **Build Serverless Applications with Cloud Run Functions** |
@@ -155,8 +157,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-03-30 | **Configure Gemini Code Assist for Organizations** |
 | 2026-03-29 | **Secure GKE with Cloud Next Generation Firewall** |
 | 2026-03-29 | **Create Embeddings, Vector Search, and RAG with BigQuery** |
-| 2026-03-27 | **Introduction to SecOps on GDC** |
-| 2026-03-27 | **Model Armor: Securing AI Deployments** |
 
 ---
 > **Navigation:** Prev: None | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-07-part-02.md](google-cloud-skills-2026-07-part-02.md)

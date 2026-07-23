@@ -44,24 +44,26 @@ Showing latest 10 of 4,732 achievements. View the full dataset via the [Platform
 ## Google Skills Credentials
 
 <!-- GOOGLE_SKILLS_START -->
-### Google Cloud Skills Boost (331 Badges)
+### Google Cloud Skills Boost (333 Badges)
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
-**Total Lifetime Points:** 192,567
+**Total Lifetime Points:** 192,777
 
 #### Platform Progress Summary
 | Metric | Count |
 |---|---|
-| **Course** | 331 |
-| **Check** | 1,769 |
+| **Course** | 337 |
+| **Check** | 1,782 |
 | **Classroom** | 0 |
-| **Game** | 4 |
-| **Lab** | 223 |
-| **Lesson** | 4,830 |
+| **Game** | 6 |
+| **Lab** | 237 |
+| **Lesson** | 4,847 |
 
 #### Latest Earned Badges
 | Date Earned | Badge Title |
 |:---:|---| 
+| *2026-07-23* | **Configure VPC Routes and Addresses** |
+| *2026-07-23* | **Set Up Multiple Network Interfaces** |
 | *2026-07-23* | **Orchestrate Workflows with the Data Agent Kit** |
 | *2026-07-23* | **Arcade Adventure: Low-Code Development** |
 | *2026-07-21* | **Build Serverless Applications with Cloud Run Functions** |
@@ -70,8 +72,6 @@ Showing latest 10 of 4,732 achievements. View the full dataset via the [Platform
 | *2026-07-16* | **Build a Data Mesh with Knowledge Catalog** |
 | *2026-07-16* | **Arcade Simulator: Data Mesh Architect** |
 | *2026-07-15* | **Deploy and Monitor in Google Cloud for AWS Professionals** |
-| *2026-07-13* | **Developing Containerized Applications on Google Cloud** |
-| *2026-07-12* | **Developing Applications with Cloud Run Functions on Google Cloud** |
 
 👉 **[View Platform Index](./archives/google-cloud-skills-index.md)** ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-01.md) | [Complete Monolith](./archives/google-cloud-skills-complete.md))
 
