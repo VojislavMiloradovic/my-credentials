@@ -73,7 +73,7 @@ def parse_local_learnings_txt():
                 title = lines[i-2]
                 
             if title not in ["Учење", "check_circle_outline You have this badge!"] and not title.startswith("http"):
-                if not any(l['title'] == title for l in learnings):
+                if not any(item['title'] == title for item in learnings):
                     learnings.append({
                         "title": title.strip(),
                         "date": iso_date,
