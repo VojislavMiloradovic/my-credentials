@@ -26,6 +26,9 @@ jobs:
         run: |
           python update_linkedin.py
 
+      - name: Generate JSON-LD Linked Data
+        run: python generate_jsonld.py
+
       - name: Generate LLMs.txt Directory Files
         run: python generate_llms_txt.py
 
@@ -34,5 +37,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --staged --quiet || git commit -m "chore: auto-update credentials and llms.txt"
+          git diff --staged --quiet || git commit -m "chore: auto-update platform data, json-ld, and llms.txt"
           git push
