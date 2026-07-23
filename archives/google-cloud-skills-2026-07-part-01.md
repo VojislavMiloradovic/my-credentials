@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Cloud Skills Boost
 chunk_part: 1 of 3
-date_range: 2026-03-26 to 2026-07-21
-total_entries: 144
+date_range: 2026-03-26 to 2026-07-23
+total_entries: 145
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-01.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Badge Title |
 | :---: | :--- |
+| 2026-07-23 | **Arcade Adventure: Low-Code Development** |
 | 2026-07-21 | **Build Serverless Applications with Cloud Run Functions** |
 | 2026-07-19 | **Secure Software Delivery** |
 | 2026-07-19 | **Arcade Base Camp July 2026** |

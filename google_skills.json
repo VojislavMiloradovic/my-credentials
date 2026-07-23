@@ -9,8 +9,14 @@
     "Lab": 223,
     "Lesson": 4830
   },
-  "total_badges": 329,
+  "total_badges": 330,
   "badges": [
+    {
+      "title": "Arcade Adventure: Low-Code Development",
+      "date_earned": "2026-07-23",
+      "image_url": "https://cdn.qwiklabs.com/KtdOPfym2Rxb9FB9xohg2oddAb9%2FQSQ2BKThxhesMmI%3D",
+      "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25819783"
+    },
     {
       "title": "Build Serverless Applications with Cloud Run Functions",
       "date_earned": "2026-07-21",
