@@ -1,6 +1,7 @@
 import os
 import re
 import glob
+from datetime import datetime, timezone
 
 ARCHIVE_DIR = "archives"
 README_PATH = "README.md"
@@ -16,8 +17,11 @@ def get_token_estimate(text_content):
 def generate_llms_txt():
     """Generates the standard-compliant llms.txt sitemap for AI agents."""
     
+    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    
     lines = []
     lines.append("# Vojislav Miloradovic - Machine-Readable Credentials Archive\n")
+    lines.append(f"> **Last Generated:** {now_utc}")
     lines.append("> Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.\n")
     
     lines.append("## Platform Master Indexes")
@@ -77,11 +81,15 @@ def generate_llms_txt():
 
 def generate_llms_full_txt():
     """Generates a single concatenated dataset file for large-context models."""
+
+    now_utc_full = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     
     full_content = []
     full_content.append("================================================================================")
     full_content.append(" VOJISLAV MILORADOVIC — CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)")
     full_content.append("================================================================================\n")
+
+    full_content.append(f"> **Last Generated:** {now_utc_full}")
     
     # 1. Include Root README
     if os.path.exists(README_PATH):
