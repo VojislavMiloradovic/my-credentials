@@ -7,6 +7,9 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: write # Required to allow GitHub Actions to commit fixes back to main
+
 jobs:
   security-and-health:
     runs-on: ubuntu-latest
@@ -14,7 +17,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Required for Gitleaks to inspect commit history
+          fetch-depth: 0 # Required for Gitleaks & git auto-commit
 
       # 1. Scan for exposed secrets (uses .gitleaks.toml allowlist)
       - name: Gitleaks Secret Scan
@@ -28,13 +31,20 @@ jobs:
         with:
           python-version: '3.10'
 
-      # 3. Lint Python scripts for syntax errors & bad imports
-      - name: Run Ruff Linter
+      # 3. Auto-fix Python linter warnings (strips extraneous f-prefixes)
+      - name: Run Ruff Linter and Auto-Fix
         run: |
           pip install ruff
-          ruff check --ignore F541 *.py
+          ruff check --fix *.py
 
-      # 4. Verify syntax integrity of raw JSON data files
+      # 4. Commit and push cleaned Python files back to the repo
+      - name: Commit Ruff Cleanups
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "style: auto-fix Python linter warnings via Ruff [skip ci]"
+          file_pattern: "*.py"
+
+      # 5. Verify syntax integrity of raw JSON data files
       - name: Validate Data JSON Integrity
         run: |
           python -c "
