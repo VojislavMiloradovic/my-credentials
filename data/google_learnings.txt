@@ -2886,7 +2886,7 @@ Go further with audio classification
 Compute private statistics with PipelineDP
 9. јун 2026.
 
-Get Started with Firebase Studio
+firebase.google.com/codelabs/firebase-studio-intro
 9. јун 2026.
 
 How to use AI Agent Skills (with Antigravity CLI and Agent Skills for Firebase)
@@ -3449,6 +3449,9 @@ Agents at Scale: Multi-Agent Architecture with A2A Protocol on Agent Runtime and
 
 🎬 Build & Deploy an AI Motion Lab with Gemini, Veo & Cloud Run
 21. мај 2026.
+
+Level Up Your Game: Google Play Games Services Setup in Unity
+23. јул 2026.
 
 How to Schedule a Cloud Run Job within a VPC Service Controls perimeter
 7. јун 2026.
@@ -4062,7 +4065,7 @@ Vertex AI: Co-host models on the same VM for predictions
 Vertex AI Vision Traffic Monitoring App
 7. јун 2026.
 
-Firebase MCP in Firebase Studio
+firebase.google.com/codelabs/firebase-mcp-in-studio
 9. јун 2026.
 
 Automatically Deploy Generative AI Node.js Web Application from Version Control to Cloud Run
@@ -4113,7 +4116,7 @@ Autoscale Cloud Run worker pools based on the Pub/Sub queue volume using CREMA
 Project: Create a Flight Search app
 6. јун 2026.
 
-Programmatic Data Quality with Dataplex and Generative AI
+Programmatic data quality with Knowledge Catalog and generative AI
 18. јун 2026.
 
 Building Trustworthy Charity Agents with Google ADK and AP2
