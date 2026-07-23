@@ -70,8 +70,11 @@ def generate_llms_txt():
         raw_url = f"{RAW_BASE_ROOT}/{ARCHIVE_DIR}/{filename}"
         lines.append(f"- [{platform_key} Latest Slice](./{ARCHIVE_DIR}/{filename}): Most recent achievements for {platform_key}. Raw: {raw_url}")
 
+    lines.append("\n## Structured Machine-Readable Data")
+    lines.append("- [Schema.org JSON-LD Credentials](./credentials.jsonld): Semantic linked data representation of all achievements. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.jsonld")
+
     lines.append("\n## Full Consolidated Export")
-    lines.append(f"- [llms-full.txt](./{LLMS_FULL_PATH}): Single file combining the repository overview and all complete platform datasets. Raw: {RAW_BASE_ROOT}/{LLMS_FULL_PATH}\n")
+    lines.append(f"- [llms-full.txt](./{LLMS_FULL_PATH}): Single file combining the repository overview, all complete platform datasets, and linked data. Raw: {RAW_BASE_ROOT}/{LLMS_FULL_PATH}\n")
 
     content = "\n".join(lines)
     with open(LLMS_TXT_PATH, "w", encoding="utf-8") as f:
