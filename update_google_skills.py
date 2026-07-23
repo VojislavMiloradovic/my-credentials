@@ -12,12 +12,12 @@ PLATFORM_PREFIX = "google-cloud-skills"
 RAW_BASE = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
 
 INTERNAL_STATS = {
-    "Course": 331,
-    "Check": 1769,
+    "Course": 337,
+    "Check": 1782,
     "Classroom": 0,
-    "Game": 4,
-    "Lab": 223,
-    "Lesson": 4830
+    "Game": 6,
+    "Lab": 237,
+    "Lesson": 4847
 }
 
 def to_iso_date(raw_date_str):
