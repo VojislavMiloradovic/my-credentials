@@ -91,16 +91,17 @@ def generate_llms_full_txt():
         full_content.append("--- END FILE: README.md ---\n\n")
 
     # 2. Include Complete / Monolithic Datasets from Archives
-    monolith_files = sorted(glob.glob(os.path.join(ARCHIVE_DIR, "*-complete.md")))
-    standalone_files = sorted(glob.glob(os.path.join(ARCHIVE_DIR, "*.md")))
+    all_md_files = sorted(glob.glob(os.path.join(ARCHIVE_DIR, "*.md")))
+    monolith_files = [f for f in all_md_files if f.endswith("-complete.md")]
+    standalone_files = [f for f in all_md_files if not f.endswith("-complete.md") and not f.endswith("-index.md") and "-part-" not in f]
     
-    included_files = set()
+    seen_files = set()
     for filepath in monolith_files + standalone_files:
         filename = os.path.basename(filepath)
-        if filename.endswith("-index.md") or "-part-" in filename or filename in included_files:
+        if filename in seen_files:
             continue
             
-        included_files.add(filename)
+        seen_files.add(filename)
         full_content.append(f"--- BEGIN FILE: {ARCHIVE_DIR}/{filename} ---")
         with open(filepath, "r", encoding="utf-8") as f:
             full_content.append(f.read())
