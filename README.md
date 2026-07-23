@@ -230,7 +230,80 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
     "@type": "Person",
     "name": "Vojislav Miloradovic",
     "url": "https://github.com/VojislavMiloradovic/my-credentials",
-    "hasCredential": [ ... ]
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Generate Reports With Ai Research Agents",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "Microsoft"
+        },
+        "identifier": "ABC20116B56C7F9F",
+        "dateCreated": "2026-03-25",
+        "url": "https://learn.microsoft.com/users/vojislavmiloradovic/"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Get Started With Identities And Access Using Microsoft Entra",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "Microsoft"
+        },
+        "identifier": "27BB90F5B956E0C8",
+        "dateCreated": "2026-03-21",
+        "url": "https://learn.microsoft.com/users/vojislavmiloradovic/"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Get Started With Azure Management Tasks",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "Microsoft"
+        },
+        "identifier": "B7C5DF765FB52CEA",
+        "dateCreated": "2026-03-18",
+        "url": "https://learn.microsoft.com/users/vojislavmiloradovic/"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Get Started With Cloud Security And Monitoring Tasks",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "Microsoft"
+        },
+        "identifier": "1EBB80C496C2DDF1",
+        "dateCreated": "2026-03-16",
+        "url": "https://learn.microsoft.com/users/vojislavmiloradovic/"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Streamline Business Workflows With Ai Chat",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "Microsoft"
+        },
+        "identifier": "CE7FBB459ADAB331",
+        "dateCreated": "2026-03-15",
+        "url": "https://learn.microsoft.com/users/vojislavmiloradovic/"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Create An Ai Agent",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "Microsoft"
+        },
+        "identifier": "DC86763A7069ABBF",
+        "dateCreated": "2026-03-14",
+        "url": "https://learn.microsoft.com/users/vojislavmiloradovic/"
+      }
+    ]
   }
 }
 </script>
