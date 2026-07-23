@@ -2,7 +2,7 @@
 archive_platform: Google Cloud Skills Boost
 chunk_part: 1 of 3
 date_range: 2026-03-26 to 2026-07-21
-total_entries: 146
+total_entries: 144
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-01.md
 ---
 
@@ -61,17 +61,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-14 | **Looker Studio Essentials** |
 | 2026-05-14 | **AI Boost Bites: Presentations in Seconds with Nano Banana Pro** |
 | 2026-05-14 | **AI Boost Bites: Become a Homework Hero for Your Kids** |
-| 2026-05-14 | **AI Boost Bites: Productivity On the Go with NotebookLM** |
-| 2026-05-14 | **AI Boost Bites: How Google's L&D Uses AI to build Training Programs** |
+| 2026-05-14 | **[Deprecated] AI Boost Bites: Productivity On the Go with NotebookLM** |
+| 2026-05-14 | **[DEPRECATED] AI Boost Bites: How Google's L&D Uses AI to build Training Programs** |
 | 2026-05-14 | **AI Boost Bites: Build Charts with a Prompt** |
 | 2026-05-14 | **AI Boost Bites: The Recruiter's Playbook in Gmail** |
 | 2026-05-14 | **AI Boost Bites: Triage a Crisis with Gemini** |
-| 2026-05-14 | **AI Boost Bites: How Google's L&D Uses AI for Strategy** |
+| 2026-05-14 | **[DEPRECATED] AI Boost Bites: How Google's L&D Uses AI for Strategy** |
 | 2026-05-14 | **AI Boost Bites: Bring your photos to life with AI** |
-| 2026-05-14 | **AI Boost Bites: Build an AI Support Bot** |
+| 2026-05-14 | **[DEPRECATED] AI Boost Bites: Build an AI Support Bot** |
 | 2026-05-14 | **AI Boost Bites: Build Your AI Strategic Partner** |
-| 2026-05-14 | **AI Boost Bites: Build a Custom AI Teammate** |
-| 2026-05-14 | **AI Boost Bites: Your Personal AI Study Partner** |
+| 2026-05-14 | **[Deprecated] AI Boost Bites: Build a Custom AI Teammate** |
+| 2026-05-14 | **[Deprecated] AI Boost Bites: Your Personal AI Study Partner** |
 | 2026-05-14 | **AI Boost Bites: Shareable Gems** |
 | 2026-05-14 | **AI Boost Bites: Your AI Chart Detective** |
 | 2026-05-12 | **Innovating with Data and Google Cloud** |
@@ -156,8 +156,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-03-27 | **Introduction to SecOps on GDC** |
 | 2026-03-27 | **Model Armor: Securing AI Deployments** |
 | 2026-03-26 | **AI Services and GDC Deployments and Operations** |
-| 2026-03-26 | **Compute, Network, and Storage Services Configuration in GDC** |
-| 2026-03-26 | **GDC Platform Introduction** |
 
 ---
 > **Navigation:** Prev: None | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-07-part-02.md](google-cloud-skills-2026-07-part-02.md)

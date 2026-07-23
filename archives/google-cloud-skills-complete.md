@@ -56,17 +56,17 @@
 | 2026-05-14 | **Looker Studio Essentials** |
 | 2026-05-14 | **AI Boost Bites: Presentations in Seconds with Nano Banana Pro** |
 | 2026-05-14 | **AI Boost Bites: Become a Homework Hero for Your Kids** |
-| 2026-05-14 | **AI Boost Bites: Productivity On the Go with NotebookLM** |
-| 2026-05-14 | **AI Boost Bites: How Google's L&D Uses AI to build Training Programs** |
+| 2026-05-14 | **[Deprecated] AI Boost Bites: Productivity On the Go with NotebookLM** |
+| 2026-05-14 | **[DEPRECATED] AI Boost Bites: How Google's L&D Uses AI to build Training Programs** |
 | 2026-05-14 | **AI Boost Bites: Build Charts with a Prompt** |
 | 2026-05-14 | **AI Boost Bites: The Recruiter's Playbook in Gmail** |
 | 2026-05-14 | **AI Boost Bites: Triage a Crisis with Gemini** |
-| 2026-05-14 | **AI Boost Bites: How Google's L&D Uses AI for Strategy** |
+| 2026-05-14 | **[DEPRECATED] AI Boost Bites: How Google's L&D Uses AI for Strategy** |
 | 2026-05-14 | **AI Boost Bites: Bring your photos to life with AI** |
-| 2026-05-14 | **AI Boost Bites: Build an AI Support Bot** |
+| 2026-05-14 | **[DEPRECATED] AI Boost Bites: Build an AI Support Bot** |
 | 2026-05-14 | **AI Boost Bites: Build Your AI Strategic Partner** |
-| 2026-05-14 | **AI Boost Bites: Build a Custom AI Teammate** |
-| 2026-05-14 | **AI Boost Bites: Your Personal AI Study Partner** |
+| 2026-05-14 | **[Deprecated] AI Boost Bites: Build a Custom AI Teammate** |
+| 2026-05-14 | **[Deprecated] AI Boost Bites: Your Personal AI Study Partner** |
 | 2026-05-14 | **AI Boost Bites: Shareable Gems** |
 | 2026-05-14 | **AI Boost Bites: Your AI Chart Detective** |
 | 2026-05-12 | **Innovating with Data and Google Cloud** |
@@ -274,11 +274,11 @@
 | 2025-11-07 | **AI Boost Bites: Build Slides Fast with Gemini** |
 | 2025-11-07 | **AI Boost Bites: Talk to Your Data in Sheets** |
 | 2025-11-07 | **AI Boost Bites: AI Magic in a Sheets Cell** |
-| 2025-11-07 | **AI Boost Bites: Create ‘What If’ Scenarios with AI** |
+| 2025-11-07 | **[DEPRECATED] AI Boost Bites: Create ‘What If’ Scenarios with AI** |
 | 2025-11-07 | **AI Boost Bites: Become a Creative Mashup Artist** |
 | 2025-11-07 | **AI Boost Bites: Become an AI Art Director for Your World** |
 | 2025-11-07 | **AI Boost Bites: Create the Perfect Portrait** |
-| 2025-11-07 | **AI Boost Bites: Research Hacks with NotebookLM** |
+| 2025-11-07 | **[DEPRECATED] AI Boost Bites: Research Hacks with NotebookLM** |
 | 2025-11-07 | **AI Boost Bites: Find the Story in Your Data** |
 | 2025-11-07 | **AI Boost Bites: Streamline Event Planning with AI** |
 | 2025-11-07 | **AI Boost Bites: Supercharge Research with Gemini** |
@@ -302,13 +302,13 @@
 | 2025-11-06 | **AI Boost Bites: Presentation Scripts with Gemini** |
 | 2025-11-06 | **AI Boost Bites: Project Notebooks** |
 | 2025-11-06 | **AI Boost Bites: NotebookLM for Market Research** |
-| 2025-11-06 | **AI Boost Bites: NotebookLM Video Overviews** |
+| 2025-11-06 | **[Deprecated]AI Boost Bites: NotebookLM Video Overviews** |
 | 2025-11-06 | **AI Boost Bites: Discover Sources in NotebookLM** |
-| 2025-11-06 | **AI Boost Bites: NotebookLM Mind Maps** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM Mind Maps** |
 | 2025-11-06 | **AI Boost Bites: Intro to NotebookLM** |
 | 2025-11-06 | **AI Boost Bites: Email Content Creation** |
 | 2025-11-06 | **AI Boost Bites: Create Docs in Seconds** |
-| 2025-11-06 | **AI Boost Bites: AI Power-Ups for Google Workspace** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: AI Power-Ups for Google Workspace** |
 | 2025-11-06 | **AI Boost Bites: Tame Your Inbox with AI** |
 | 2025-11-06 | **AI Boost Bites: Gemini Slide Summaries** |
 | 2025-11-06 | **AI Boost Bites: No-Code Sheets & Scripts** |
@@ -323,7 +323,7 @@
 | 2025-11-06 | **AI Boost Bites: TL;DR with Gemini in Docs & Drive** |
 | 2025-11-06 | **AI Boost Bites: Prompting like a Pro with Google Workspace** |
 | 2025-11-06 | **AI Boost Bites: Content Generation with Gemini Made Easy** |
-| 2025-11-06 | **AI Boost Bites: Customer insights with NotebookLM** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: Customer insights with NotebookLM** |
 | 2025-11-06 | **AI Boost Bites: Gemini Gems – Your ultimate marketing sidekick** |
 | 2025-11-05 | **Responsible AI: Applying AI Principles with Google Cloud** |
 | 2025-11-04 | **Prompt Design in Agent Platform** |

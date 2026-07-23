@@ -1,7 +1,7 @@
 ---
 archive_platform: Google Cloud Skills Boost
 chunk_part: 2 of 3
-date_range: 2025-11-06 to 2026-03-25
+date_range: 2025-11-06 to 2026-03-26
 total_entries: 152
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-02.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Badge Title |
 | :---: | :--- |
+| 2026-03-26 | **Compute, Network, and Storage Services Configuration in GDC** |
+| 2026-03-26 | **GDC Platform Introduction** |
 | 2026-03-25 | **SecOps on GDC for Tier 1 and Tier 2 Analysts** |
 | 2026-03-25 | **SecOps on GDC for Tier 3 Analysts** |
 | 2026-03-25 | **Quiz: GDC Air-Gapped Security Operator Fundamentals** |
@@ -133,11 +135,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-11-07 | **AI Boost Bites: Build Slides Fast with Gemini** |
 | 2025-11-07 | **AI Boost Bites: Talk to Your Data in Sheets** |
 | 2025-11-07 | **AI Boost Bites: AI Magic in a Sheets Cell** |
-| 2025-11-07 | **AI Boost Bites: Create ‘What If’ Scenarios with AI** |
+| 2025-11-07 | **[DEPRECATED] AI Boost Bites: Create ‘What If’ Scenarios with AI** |
 | 2025-11-07 | **AI Boost Bites: Become a Creative Mashup Artist** |
 | 2025-11-07 | **AI Boost Bites: Become an AI Art Director for Your World** |
 | 2025-11-07 | **AI Boost Bites: Create the Perfect Portrait** |
-| 2025-11-07 | **AI Boost Bites: Research Hacks with NotebookLM** |
+| 2025-11-07 | **[DEPRECATED] AI Boost Bites: Research Hacks with NotebookLM** |
 | 2025-11-07 | **AI Boost Bites: Find the Story in Your Data** |
 | 2025-11-07 | **AI Boost Bites: Streamline Event Planning with AI** |
 | 2025-11-07 | **AI Boost Bites: Supercharge Research with Gemini** |
@@ -161,9 +163,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-11-06 | **AI Boost Bites: Presentation Scripts with Gemini** |
 | 2025-11-06 | **AI Boost Bites: Project Notebooks** |
 | 2025-11-06 | **AI Boost Bites: NotebookLM for Market Research** |
-| 2025-11-06 | **AI Boost Bites: NotebookLM Video Overviews** |
-| 2025-11-06 | **AI Boost Bites: Discover Sources in NotebookLM** |
-| 2025-11-06 | **AI Boost Bites: NotebookLM Mind Maps** |
+| 2025-11-06 | **[Deprecated]AI Boost Bites: NotebookLM Video Overviews** |
 
 ---
 > **Navigation:** Prev: [google-cloud-skills-2026-07-part-01.md](google-cloud-skills-2026-07-part-01.md) | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-07-part-03.md](google-cloud-skills-2026-07-part-03.md)
