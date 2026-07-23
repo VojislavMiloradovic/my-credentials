@@ -12,8 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Pic-a-daily: Lab 1—Store and analyze pictures (Native Java)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Compute private statistics with PipelineDP** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Get Started with Firebase Studio** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-09 | **firebase.google.com/codelabs/firebase-studio-intro** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Document AI Workbench - Uptraining** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Getting Started with gRPC-Rust - Streaming** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Connecting to Cloud SQL: Public IP and authorized networks** | Verified Google Developer granular learning activity module milestone. |
@@ -55,7 +56,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-09 | **Informed decision making using Dialogflow CX generators and data stores** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Connecting to Cloud SQL with Cloud Functions** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Deploy a basic "Google Translate" app on Python 2 App Engine** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Firebase MCP in Firebase Studio** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-09 | **firebase.google.com/codelabs/firebase-mcp-in-studio** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Gesture Navigation and the edge-to-edge experience** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Adding WebView to your Flutter app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Receive an event from Cloud Pub/Sub in SAP using ABAP SDK for Google Cloud** | Verified Google Developer granular learning activity module milestone. |
@@ -74,7 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-09 | **Generative AI text generation in Java with PaLM and LangChain4J** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Using revisions in Cloud Run for Traffic Splitting, Gradual Rollouts, and Rollbacks** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Code Customization with Gemini Code Assist Enterprise** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Hands-on: Create a TV guide Google Chat with Google Workspace and Dialogflow** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-07.md](google-developer-activities-2026-07-part-07.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-09.md](google-developer-activities-2026-07-part-09.md)

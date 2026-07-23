@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 23 of 23
 date_range: 2026-05-16 to 2026-05-18
-total_entries: 8
+total_entries: 11
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-23.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-18 | **Accelerate Spark with Managed Service for Apache Spark and Lightning Engine** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-18 | **Build a Generative UI (GenUI) App** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-18 | **ADK Agentic Pattern with Memory & MCP** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-18 | **AI Speech Recognition with TensorFlow Lite for Microcontrollers and SparkFun Edge** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-18 | **Agentic Workflows inside Google Workspace: Build a Google Docs Agent with ADK** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-18 | **Debugging the Local Home** | Verified Google Developer granular learning activity module milestone. |

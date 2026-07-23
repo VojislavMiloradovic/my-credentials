@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-23 | **Multi-agent App with ADK, Agent Engine and AlloyDB** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-23 | **Getting Started with Gemini CLI Extensions** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-23 | **Securing Infrastructure for AI Applications** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Building a Real-Time Surplus Engine with Gemini 3 Flash & Cloud SQL** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Create and deploy low code ADK (Agent Deployment Kit) agents using ADK Visual Builder** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Securing Data Used for AI Applications** | Verified Google Developer granular learning activity module milestone. |
@@ -72,9 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-21 | **Build and Deploy to Google Cloud with Antigravity** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Implement Subscription replacements with Google Play Billing** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Build a Supply Chain Orchestrator with ADK, AlloyDB, and Vertex AI Memory Bank** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-21 | **Learn Android XR Fundamentals: Part 2 - Orbiters and Spatial Environments** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-21 | **How to fine tune a LLM using Cloud Run Jobs** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-21 | **Building with Google Antigravity** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-18.md](google-developer-activities-2026-07-part-18.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-20.md](google-developer-activities-2026-07-part-20.md)

@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-26 | **Build user-adaptive interfaces with preference media queries** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-26 | **JIRA User Stories Implementation with GenAI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **TensorFlow.js — Handwritten digit recognition with CNNs** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Antigravity CLI on GCE with a Private Service Connect endpoint** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Using textembedding-gecko@003 for Vector Embeddings** | Verified Google Developer granular learning activity module milestone. |
@@ -73,8 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-24 | **Jetpack Compose basics** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Build and deploy an ADK agent that uses an MCP server on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Similarity Search with Spanner and Vertex AI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **How to use Cloud Run functions and Gemini to summarize a text file uploaded to a Cloud Storage bucket** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Make a smart webcam in JavaScript with a TensorFlow.js pre-trained Machine Learning model** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-15.md](google-developer-activities-2026-07-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-17.md](google-developer-activities-2026-07-part-17.md)

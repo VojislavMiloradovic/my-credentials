@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-18 | **TPU Dynamic Slicing on GKE with Kueue and LeaderWorkerSet** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **How to use AI Agent Skills (with Gemini CLI and Agent Skills for Firebase)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **Analyze Drug Interactions with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **Automated UI Testing with Antigravity (AGY) CLI, BrowserMCP, Playwright, and the Browser Agent** | Verified Google Developer granular learning activity module milestone. |
@@ -21,7 +22,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-18 | **Build Rich Agentic Interfaces with ADK and A2UI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **Accelerating Development with Antigravity CLI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **Google Developer Knowledge MCP server in Google Antigravity 2.0, IDE, and/or CLI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-18 | **Programmatic Data Quality with Dataplex and Generative AI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-18 | **Programmatic data quality with Knowledge Catalog and generative AI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **Connect and visualize all your data in Data Studio** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-17 | **Hands-on with Antigravity CLI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-17 | **Vibecode and Secure an AI Agent Lifecycle with Antigravity and TDD** | Verified Google Developer granular learning activity module milestone. |
@@ -74,7 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-10 | **Integrate fundamental AI concepts in Google Chat apps** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Get Started with Unity and Google Play Games for PC** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Deploy an ASP.NET Core app to App Engine** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-10 | **Serving AVIF Images** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-04.md](google-developer-activities-2026-07-part-04.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-06.md](google-developer-activities-2026-07-part-06.md)

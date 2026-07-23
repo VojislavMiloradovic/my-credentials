@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-07 | **Say hello to the "Hello, World" of machine learning** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Private Service Connect 66** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Codelab - Build a Movie Recommendation Chatbot using Neo4j and Vertex AI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **(Deprecated) Using Hilt in your Android app** | Verified Google Developer granular learning activity module milestone. |
@@ -80,7 +81,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-06 | **Write unit tests for ViewModel** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Build a basic layout** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Practice: Build Sports app** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Test the Cupcake App** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-09.md](google-developer-activities-2026-07-part-09.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-11.md](google-developer-activities-2026-07-part-11.md)

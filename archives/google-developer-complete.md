@@ -178,10 +178,11 @@ Historical verified record tracking all achievements.
 | 2026-06-05 | **Springboot** | Official Google Developer platform achievement (Learning Pathway: springboot). |
 | 2026-06-05 | **Intro To Flutter** | Official Google Developer platform achievement (Learning Pathway: intro to flutter). |
 
-## Detailed Learning Activities & Codelabs (1434)
+## Detailed Learning Activities & Codelabs (1435)
 
 | Date Earned | Codelab / Activity Title | Description |
 | :---: | :--- | :--- |
+| 2026-07-23 | **Level Up Your Game: Google Play Games Services Setup in Unity** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-21 | **Build and publish your first Android app with AI Studio** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-21 | **Supercharge Code Quality and Security: AI-Assisted Checks with Antigravity CLI and SDK** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-21 | **Build a Zero-Code Multi-Agent System with Agent Studio** | Verified Google Developer granular learning activity module milestone. |
@@ -457,7 +458,7 @@ Historical verified record tracking all achievements.
 | 2026-06-18 | **Build Rich Agentic Interfaces with ADK and A2UI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **Accelerating Development with Antigravity CLI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **Google Developer Knowledge MCP server in Google Antigravity 2.0, IDE, and/or CLI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-18 | **Programmatic Data Quality with Dataplex and Generative AI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-18 | **Programmatic data quality with Knowledge Catalog and generative AI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **Connect and visualize all your data in Data Studio** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-17 | **Hands-on with Antigravity CLI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-17 | **Vibecode and Secure an AI Agent Lifecycle with Antigravity and TDD** | Verified Google Developer granular learning activity module milestone. |
@@ -638,7 +639,7 @@ Historical verified record tracking all achievements.
 | 2026-06-09 | **Prepare to grow with tips using Google Analytics for Firebase integrations with Ads** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Pic-a-daily: Lab 1—Store and analyze pictures (Native Java)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Compute private statistics with PipelineDP** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Get Started with Firebase Studio** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-09 | **firebase.google.com/codelabs/firebase-studio-intro** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Document AI Workbench - Uptraining** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Getting Started with gRPC-Rust - Streaming** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Connecting to Cloud SQL: Public IP and authorized networks** | Verified Google Developer granular learning activity module milestone. |
@@ -680,7 +681,7 @@ Historical verified record tracking all achievements.
 | 2026-06-09 | **Informed decision making using Dialogflow CX generators and data stores** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Connecting to Cloud SQL with Cloud Functions** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Deploy a basic "Google Translate" app on Python 2 App Engine** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Firebase MCP in Firebase Studio** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-09 | **firebase.google.com/codelabs/firebase-mcp-in-studio** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Gesture Navigation and the edge-to-edge experience** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Adding WebView to your Flutter app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Receive an event from Cloud Pub/Sub in SAP using ABAP SDK for Google Cloud** | Verified Google Developer granular learning activity module milestone. |

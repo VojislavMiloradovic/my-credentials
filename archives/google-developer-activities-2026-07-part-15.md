@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-27 | **Serverless Web APIs Workshop** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-27 | **How to use Baseline in your project** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **Looker PSC Southbound HTTPS Internet NEG Gitlab Self-Managed** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **Learn how to invoke authenticated Cloud Functions** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **Use Pulumi on Google Cloud with YAML** | Verified Google Developer granular learning activity module milestone. |
@@ -72,8 +74,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-26 | **Cloud NGFW Essentials for Load Balancers** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Deploy from AI Studio to Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Integrating Remote Config on Android Codelab** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-26 | **Build user-adaptive interfaces with preference media queries** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-26 | **JIRA User Stories Implementation with GenAI** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-14.md](google-developer-activities-2026-07-part-14.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-16.md](google-developer-activities-2026-07-part-16.md)

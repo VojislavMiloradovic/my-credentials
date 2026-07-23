@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-06 | **Test the Cupcake App** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Use Room for data persistence** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Introduction to Coroutines in Android Studio** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Run your first app on the Android Emulator** | Verified Google Developer granular learning activity module milestone. |
@@ -83,7 +84,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Extend an Android app to Google Assistant with App Actions (Level 2)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Quiz: Build maintainable and scalable web apps with Angular** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Build your first WebAuthn app** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-05 | **Add a map to your Android app (Kotlin)** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-10.md](google-developer-activities-2026-07-part-10.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-12.md](google-developer-activities-2026-07-part-12.md)

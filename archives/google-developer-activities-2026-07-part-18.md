@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-24 | **State in Jetpack Compose** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Gating Deployments with Binary Auth** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Hello Cloud Run with Python (FastAPI)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **How to upload and serve images using Cloud Storage, Firestore and Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Visualizing DNS Armor's Advanced Threat Detection Logs using Log Based Metrics and Custom Dashboard** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Autoscale Cloud Run worker pools based on the Pub/Sub queue volume using CREMA** | Verified Google Developer granular learning activity module milestone. |
@@ -72,9 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-23 | **Getting Started with Google MCP Servers** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Securing AI Applications** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Deploy, Manage, and Observe ADK Agent on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Multi-agent App with ADK, Agent Engine and AlloyDB** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Getting Started with Gemini CLI Extensions** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Securing Infrastructure for AI Applications** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-17.md](google-developer-activities-2026-07-part-17.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-19.md](google-developer-activities-2026-07-part-19.md)

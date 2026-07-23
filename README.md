@@ -188,7 +188,7 @@ Showing latest 10 items. View the full dataset via the [Platform Archive Index](
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 170 |
-| **Total Codelabs & Learning Activities** | 1,434 |
+| **Total Codelabs & Learning Activities** | 1,435 |
 
 
 #### Latest Achievements
@@ -196,6 +196,7 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| *2026-07-23* | **Level Up Your Game: Google Play Games Services Setup in Unity** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-21* | **Build and publish your first Android app with AI Studio** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-21* | **Supercharge Code Quality and Security: AI-Assisted Checks with Antigravity CLI and SDK** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-21* | **Build a Zero-Code Multi-Agent System with Agent Studio** | Verified Google Developer granular learning activity module milestone. |
@@ -205,7 +206,6 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 | *2026-07-10* | **Make your first Google Health API call using OAuth2 Playground** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-10* | **Deploy your containerized agent on Agent Runtime** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-10* | **Evolve compiled code with AlphaEvolve on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| *2026-07-10* | **Get started with AlphaEvolve on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
 
 <!-- GOOGLE_DEVELOPER_END -->
 

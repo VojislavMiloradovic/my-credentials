@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 13 of 23
 date_range: 2026-05-31 to 2026-06-03
-total_entries: 67
+total_entries: 66
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-13.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-03 | **Send and receive notifications for a Flutter app using Firebase Cloud Messaging** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Firebase Performance Monitoring for web** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Understand your game's crashes using advanced Crashlytics features quiz** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Quiz: Add Firebase to your Flutter app: Advanced** | Verified Google Developer granular learning activity module milestone. |
@@ -77,8 +78,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-31 | **Use FCM and FIAM to send messages to users** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Get to know Firebase for Flutter** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Build robust, distributed leaderboards with Cloud Firestore** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-31 | **Quiz: Bring Google's Places data into your Android app** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-31 | **CSS knowledge quiz** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-12.md](google-developer-activities-2026-07-part-12.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-14.md](google-developer-activities-2026-07-part-14.md)

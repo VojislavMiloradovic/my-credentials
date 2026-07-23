@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-30 | **Lesson 11: Connect to the internet** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Lesson 1.1 - Get started** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-30 | **Get started with comment-spam detection** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-30 | **How to do local testing of an ADK agent that writes to a Google Sheet before deploying to Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-30 | **Build apps with Android Enterprise** | Verified Google Developer granular learning activity module milestone. |
@@ -77,8 +79,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-27 | **Build apps for Google Chat** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-27 | **Launch your to-do web app with AI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-27 | **Combine layers of Firebase Security to protect your app** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-27 | **Intro to Inference: How to Run AI Models on a GPU** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-27 | **Get started with image product search** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-01.md](google-developer-activities-2026-07-part-01.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-03.md](google-developer-activities-2026-07-part-03.md)

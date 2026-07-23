@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-20 | **Analyzing Movie Posters in BigQuery with Remote Models** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-20 | **Bookshelf Analytics: Use Gemini to build a Java Cloud Run Application that takes BigQuery data to the web** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-20 | **Agentverse - The Guardian's Bastion - Secure scalable Inference for AgentOps** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Authoring Google Antigravity Skills** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Background Work with WorkManager - Java** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Add Compose to a View-based app** | Verified Google Developer granular learning activity module milestone. |
@@ -74,9 +77,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-20 | **Advanced Android in Kotlin 03.2: Animation with MotionLayout** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Advanced State and Side Effects in Jetpack Compose** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Automatically Deploy Generative AI Next.js Web Application from Version Control to Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **AdMob+Firebase 102 Unity: Fine-tune the app behavior without an app update** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **Agentverse - The Shadowblade's Codex - Vibecoding with Gemini CLI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **Advanced activity embedding** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-20.md](google-developer-activities-2026-07-part-20.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-22.md](google-developer-activities-2026-07-part-22.md)

@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Add a map to your Android app (Kotlin)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **MDC-102 Android: Material Structure and Layout (Java)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Build an Android App with Views** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Build your own Current Place picker for Android (Java)** | Verified Google Developer granular learning activity module milestone. |
@@ -77,7 +78,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-03 | **Create fast and stable apps with Firebase quiz** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Go on vacation with a Google Chat app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Passkeys for Android** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-03 | **Send and receive notifications for a Flutter app using Firebase Cloud Messaging** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-11.md](google-developer-activities-2026-07-part-11.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-13.md](google-developer-activities-2026-07-part-13.md)

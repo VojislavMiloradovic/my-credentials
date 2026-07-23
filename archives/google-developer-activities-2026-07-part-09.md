@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Hands-on: Create a TV guide Google Chat with Google Workspace and Dialogflow** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Encrypt and decrypt data with Cloud KMS (Asymmetric)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Generative AI powered chat with users and docs in Java with PaLM and LangChain4J** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Ingest FHIR (Fast Healthcare Interoperability Resources) to BigQuery** | Verified Google Developer granular learning activity module milestone. |
@@ -74,7 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-07 | **Build a frontend Django client for a Dialogflow app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Codelab - Build a contextual Yoga Poses recommender app with Firestore, Vector Search, Langchain and Gemini (Node.js version)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **How to connect a Go application on Cloud Run to a Cloud SQL for PostgreSQL database** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Say hello to the "Hello, World" of machine learning** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-08.md](google-developer-activities-2026-07-part-08.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-10.md](google-developer-activities-2026-07-part-10.md)
