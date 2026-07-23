@@ -34,17 +34,19 @@ def generate_llms_txt():
     lines.append("\n## Complete Monolithic Datasets")
     lines.append("Recommended for models with large context windows (>100k tokens).\n")
     
-    # 2. Monolith Archives
-    monolith_files = sorted(glob.glob(os.path.join(ARCHIVE_DIR, "*-complete.md")))
-    # Add standalone single files if they exist (e.g. credly-certifications.md)
-    standalone_files = sorted(glob.glob(os.path.join(ARCHIVE_DIR, "*.md")))
+    # Track seen filenames to avoid duplicates
+    seen_files = set()
     
-    for mono in monolith_files + standalone_files:
-        filename = os.path.basename(mono)
-        if filename.endswith("-index.md") or "-part-" in filename:
+    all_md_files = sorted(glob.glob(os.path.join(ARCHIVE_DIR, "*.md")))
+    monolith_files = [f for f in all_md_files if f.endswith("-complete.md")]
+    standalone_files = [f for f in all_md_files if not f.endswith("-complete.md") and not f.endswith("-index.md") and "-part-" not in f]
+
+    for filepath in monolith_files + standalone_files:
+        filename = os.path.basename(filepath)
+        if filename in seen_files:
             continue
+        seen_files.add(filename)
         
-        filepath = os.path.join(ARCHIVE_DIR, filename)
         size_kb = round(os.path.getsize(filepath) / 1024, 2)
         with open(filepath, "r", encoding="utf-8") as f:
             tokens = get_token_estimate(f.read())
