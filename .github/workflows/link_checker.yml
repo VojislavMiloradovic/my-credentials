@@ -25,7 +25,7 @@ jobs:
             lychee-${{ runner.os }}-
 
       - name: Run Lychee Link Checker
-        uses: lycheeververse/lychee-action@v2
+        uses: lycheeverse/lychee-action@v2
         with:
           args: >
             --verbose
