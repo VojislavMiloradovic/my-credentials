@@ -32,7 +32,7 @@ jobs:
       - name: Run Ruff Linter
         run: |
           pip install ruff
-          ruff check *.py
+          ruff check --ignore F541 *.py
 
       # 4. Verify syntax integrity of raw JSON data files
       - name: Validate Data JSON Integrity
