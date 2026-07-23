@@ -148,7 +148,7 @@ def update_readme_and_archive(badges, total_points):
     monolith_filename = f"{PLATFORM_PREFIX}-complete.md"
     monolith_path = os.path.join(ARCHIVE_DIR, monolith_filename)
     
-    mono_md = f"# Google Cloud Skills Boost — Full Credentials Archive\n\n"
+    mono_md = "# Google Cloud Skills Boost — Full Credentials Archive\n\n"
     mono_md += f"**Public Profile:** [Verify Profile]({URL})  \n"
     mono_md += f"**Total Lifetime Points:** {total_points}  \n"
     mono_md += f"**Total Badges:** {len(badges)}\n\n"
@@ -198,7 +198,7 @@ def update_readme_and_archive(badges, total_points):
         
         c_md = []
         c_md.append("---")
-        c_md.append(f"archive_platform: Google Cloud Skills Boost")
+        c_md.append("archive_platform: Google Cloud Skills Boost")
         c_md.append(f"chunk_part: {i} of {total_chunks}")
         c_md.append(f"date_range: {start_date} to {end_date}")
         c_md.append(f"total_entries: {len(chunk_rows)}")
@@ -240,26 +240,26 @@ def update_readme_and_archive(badges, total_points):
     mono_tokens = int(mono_bytes / 4)
 
     idx_md = []
-    idx_md.append(f"# Google Cloud Skills Archive Index\n")
-    idx_md.append(f"This directory provides chunked, AI-readable historical records for Google Cloud Skills Boost badges.\n")
-    idx_md.append(f"## Archive Overview\n")
+    idx_md.append("# Google Cloud Skills Archive Index\n")
+    idx_md.append("This directory provides chunked, AI-readable historical records for Google Cloud Skills Boost badges.\n")
+    idx_md.append("## Archive Overview\n")
     idx_md.append(f"- **Total Badges Archived:** {len(badges)}")
     idx_md.append(f"- **Monolithic File Size:** ~{mono_kb} KB (~{mono_tokens:,} tokens)")
     idx_md.append(f"- **Total Chunk Parts:** {total_chunks} chunk(s)\n")
     
-    idx_md.append(f"### Monolithic Archive (Complete)\n")
-    idx_md.append(f"| File Name | Size (KB) | Est. Tokens | Recommended For | Direct Raw URL |")
-    idx_md.append(f"| :--- | :---: | :---: | :--- | :--- |")
+    idx_md.append("### Monolithic Archive (Complete)\n")
+    idx_md.append("| File Name | Size (KB) | Est. Tokens | Recommended For | Direct Raw URL |")
+    idx_md.append("| :--- | :---: | :---: | :--- | :--- |")
     idx_md.append(f"| [`{monolith_filename}`](./{monolith_filename}) | {mono_kb} KB | ~{mono_tokens:,} | Large Context Windows (>100k tokens) | [Raw Link]({RAW_BASE}/{monolith_filename}) |\n")
     
-    idx_md.append(f"### Chunked Archive Parts (~10 KB Slices)\n")
-    idx_md.append(f"| Part | File Name | Date Range | Entries | Size (KB) | Est. Tokens | Direct Raw URL |")
-    idx_md.append(f"| :---: | :--- | :---: | :---: | :---: | :---: | :--- |")
+    idx_md.append("### Chunked Archive Parts (~10 KB Slices)\n")
+    idx_md.append("| Part | File Name | Date Range | Entries | Size (KB) | Est. Tokens | Direct Raw URL |")
+    idx_md.append("| :---: | :--- | :---: | :---: | :---: | :---: | :--- |")
     
     for cm in chunk_meta:
         idx_md.append(f"| Part {cm['part']:02d} | [`{cm['filename']}`](./{cm['filename']}) | `{cm['date_range']}` | {cm['entries']} | {cm['size_kb']} KB | ~{cm['tokens']} | [Raw URL]({cm['raw_url']}) |")
 
-    idx_md.append(f"\n\n[← Back to Main README](../README.md)\n")
+    idx_md.append("\n\n[← Back to Main README](../README.md)\n")
     
     with open(index_path, "w", encoding="utf-8") as f:
         f.write("\n".join(idx_md))
