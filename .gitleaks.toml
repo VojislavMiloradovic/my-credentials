@@ -1,0 +1,9 @@
+title = "Gitleaks Configuration"
+
+[allowlist]
+  description = "Ignore temporary lab/VM session keys in Microsoft Learn export data"
+  paths = [
+    '''data/microsoft-learn.json''',
+    '''ms_learn_data/Progress.json''',
+    '''ms_learn_data/.*'''
+  ]
