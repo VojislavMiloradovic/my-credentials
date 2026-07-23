@@ -1,5 +1,7 @@
 # Professional Credentials & Achievements
 
+> **For AI Agents / LLMs:** See [llms.txt](./llms.txt) for an AI-native directory index, [llms-full.txt](./llms-full.txt) for the complete consolidated context, or [credentials.jsonld](./credentials.jsonld) for Schema.org linked data.
+
 Hello, I'm Vojislav Miloradović.
 This is an automated, AI-readable repository aggregating my verified professional credentials, certifications, and learning achievements.
 Links to human-readable profiles of me from which those are aggregated are at the end of this file.
@@ -218,3 +220,18 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 * [Credly](https://www.credly.com/users/vojislavmiloradovic)
 * [LinkedIn](https://www.linkedin.com/in/vojislavmiloradovic)
 * [Google Developer](https://g.dev/VojislavMiloradovic)
+
+<!-- JSONLD_START -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Vojislav Miloradovic",
+    "url": "https://github.com/VojislavMiloradovic/my-credentials",
+    "hasCredential": [ ... ]
+  }
+}
+</script>
+<!-- JSONLD_END -->
