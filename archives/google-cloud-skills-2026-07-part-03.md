@@ -2,7 +2,7 @@
 archive_platform: Google Cloud Skills Boost
 chunk_part: 3 of 3
 date_range: 2025-09-06 to 2025-11-06
-total_entries: 36
+total_entries: 37
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-03.md
 ---
 
@@ -12,12 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Badge Title |
 | :---: | :--- |
-| 2025-11-06 | **AI Boost Bites: Project Notebooks** |
-| 2025-11-06 | **AI Boost Bites: NotebookLM for Market Research** |
+| 2025-11-06 | **AI Boost Bites: Presentation Scripts with Gemini** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: Project Notebooks** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM for Market Research** |
 | 2025-11-06 | **[Deprecated]AI Boost Bites: NotebookLM Video Overviews** |
-| 2025-11-06 | **AI Boost Bites: Discover Sources in NotebookLM** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: Discover Sources in NotebookLM** |
 | 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM Mind Maps** |
-| 2025-11-06 | **AI Boost Bites: Intro to NotebookLM** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: Intro to NotebookLM** |
 | 2025-11-06 | **AI Boost Bites: Email Content Creation** |
 | 2025-11-06 | **AI Boost Bites: Create Docs in Seconds** |
 | 2025-11-06 | **[DEPRECATED] AI Boost Bites: AI Power-Ups for Google Workspace** |
@@ -27,10 +28,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-11-06 | **AI Boost Bites: Amplify Exec Voices with AI** |
 | 2025-11-06 | **AI Boost Bites: Exec Summaries with Gemini Gems** |
 | 2025-11-06 | **AI Boost Bites: Automate tasks with Gemini and Apps Script** |
-| 2025-11-06 | **AI Boost Bites: "Eat the Frog" with NotebookLM** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: "Eat the Frog" with NotebookLM** |
 | 2025-11-06 | **AI Boost Bites: Gemini Image-to-Sheets Hack** |
 | 2025-11-06 | **AI Boost Bites: Poke Holes in Your Strategy** |
-| 2025-11-06 | **AI Boost Bites: NotebookLM for Competitive Edge** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM for Competitive Edge** |
 | 2025-11-06 | **AI Boost Bites: Personalization with customized prompts** |
 | 2025-11-06 | **AI Boost Bites: TL;DR with Gemini in Docs & Drive** |
 | 2025-11-06 | **AI Boost Bites: Prompting like a Pro with Google Workspace** |

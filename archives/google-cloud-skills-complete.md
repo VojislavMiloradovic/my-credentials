@@ -283,7 +283,7 @@
 | 2025-11-07 | **AI Boost Bites: Become an AI Art Director for Your World** |
 | 2025-11-07 | **AI Boost Bites: Create the Perfect Portrait** |
 | 2025-11-07 | **[DEPRECATED] AI Boost Bites: Research Hacks with NotebookLM** |
-| 2025-11-07 | **AI Boost Bites: Find the Story in Your Data** |
+| 2025-11-07 | **[DEPRECATED] AI Boost Bites: Find the Story in Your Data** |
 | 2025-11-07 | **AI Boost Bites: Streamline Event Planning with AI** |
 | 2025-11-07 | **AI Boost Bites: Supercharge Research with Gemini** |
 | 2025-11-07 | **AI Boost Bites: Make Any Big Purchase with Confidence** |
@@ -301,15 +301,15 @@
 | 2025-11-06 | **AI Boost Bites: Create Your Ultimate College Scouting Report** |
 | 2025-11-06 | **AI Boost Bites: One-Click Campaign Visuals** |
 | 2025-11-06 | **AI Boost Bites: From Napkin Sketch to Functional App** |
-| 2025-11-06 | **AI Boost Bites: NotebookLM Reports** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM Reports** |
 | 2025-11-06 | **AI Boost Bites: Your Personal Feedback Agent** |
 | 2025-11-06 | **AI Boost Bites: Presentation Scripts with Gemini** |
-| 2025-11-06 | **AI Boost Bites: Project Notebooks** |
-| 2025-11-06 | **AI Boost Bites: NotebookLM for Market Research** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: Project Notebooks** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM for Market Research** |
 | 2025-11-06 | **[Deprecated]AI Boost Bites: NotebookLM Video Overviews** |
-| 2025-11-06 | **AI Boost Bites: Discover Sources in NotebookLM** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: Discover Sources in NotebookLM** |
 | 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM Mind Maps** |
-| 2025-11-06 | **AI Boost Bites: Intro to NotebookLM** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: Intro to NotebookLM** |
 | 2025-11-06 | **AI Boost Bites: Email Content Creation** |
 | 2025-11-06 | **AI Boost Bites: Create Docs in Seconds** |
 | 2025-11-06 | **[DEPRECATED] AI Boost Bites: AI Power-Ups for Google Workspace** |
@@ -319,10 +319,10 @@
 | 2025-11-06 | **AI Boost Bites: Amplify Exec Voices with AI** |
 | 2025-11-06 | **AI Boost Bites: Exec Summaries with Gemini Gems** |
 | 2025-11-06 | **AI Boost Bites: Automate tasks with Gemini and Apps Script** |
-| 2025-11-06 | **AI Boost Bites: "Eat the Frog" with NotebookLM** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: "Eat the Frog" with NotebookLM** |
 | 2025-11-06 | **AI Boost Bites: Gemini Image-to-Sheets Hack** |
 | 2025-11-06 | **AI Boost Bites: Poke Holes in Your Strategy** |
-| 2025-11-06 | **AI Boost Bites: NotebookLM for Competitive Edge** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM for Competitive Edge** |
 | 2025-11-06 | **AI Boost Bites: Personalization with customized prompts** |
 | 2025-11-06 | **AI Boost Bites: TL;DR with Gemini in Docs & Drive** |
 | 2025-11-06 | **AI Boost Bites: Prompting like a Pro with Google Workspace** |
