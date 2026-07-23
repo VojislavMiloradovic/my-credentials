@@ -1,141 +1,159 @@
 import os
+import re
 import json
 import glob
 
-DATA_DIR = "data"
+ARCHIVE_DIR = "archives"
 README_PATH = "README.md"
 JSONLD_PATH = "credentials.jsonld"
 
 MARKER_START = "<!-- JSONLD_START -->"
 MARKER_END = "<!-- JSONLD_END -->"
 
-TITLE_KEYS = ["title", "name", "badgetitle", "coursetitle", "activitytitle", "certificationtitle", "displayname"]
-DATE_KEYS = ["awardedon", "issuedon", "grantedon", "completedon", "completeddate", "date", "earneddate", "issued_at", "created_at"]
-URL_KEYS = ["url", "badgeurl", "verificationurl", "link", "badge_url", "credential_url"]
-ID_KEYS = ["credentialid", "badgeid", "id", "identifier", "sourceuid"]
+def clean_str(s):
+    if not s:
+        return ""
+    # Strip markdown bold/italic formatting and code backticks
+    return re.sub(r"[\*\_`]", "", str(s)).strip()
 
-def deep_find_value(obj, target_keys):
-    """Recursively search a nested dict or list for matching target keys."""
-    if isinstance(obj, dict):
-        # 1. Check direct keys first
-        for k, v in obj.items():
-            if k.lower() in target_keys and v:
-                if isinstance(v, (str, int, float)):
-                    return str(v)
-        # 2. Check nested dicts/lists
-        for v in obj.values():
-            if isinstance(v, (dict, list)):
-                res = deep_find_value(v, target_keys)
-                if res:
-                    return res
-    elif isinstance(obj, list):
-        for item in obj:
-            res = deep_find_value(item, target_keys)
-            if res:
-                return res
-    return None
-
-def find_all_credential_dicts(data):
-    """Finds all dictionary objects inside JSON data that represent a badge/credential/activity."""
-    items = []
-
-    def recurse(node):
-        if isinstance(node, list):
-            for elem in node:
-                recurse(elem)
-        elif isinstance(node, dict):
-            title_found = deep_find_value(node, TITLE_KEYS)
-            if title_found and len(title_found) > 2:
-                items.append(node)
-            else:
-                for v in node.values():
-                    if isinstance(v, (dict, list)):
-                        recurse(v)
-
-    recurse(data)
-    return items
-
-def parse_credential_item(item, default_issuer):
-    title = deep_find_value(item, TITLE_KEYS)
-    if not title:
-        return None
-
-    # Clean up Microsoft raw source UIDs if present
-    if "applied-skill" in str(title) or "learn.wwl" in str(title):
-        title = " ".join(str(title).replace("applied-skill.", "").replace("learn.wwl.", "").split("-")).title()
-
-    date_earned = deep_find_value(item, DATE_KEYS) or ""
-    if date_earned and "T" in str(date_earned):
-        date_earned = str(date_earned).split("T")[0]
-
-    url = deep_find_value(item, URL_KEYS) or ""
-    cred_id = deep_find_value(item, ID_KEYS) or ""
-
-    c_obj = {
-        "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "Badge/Certification",
-        "name": str(title).strip(),
-        "recognizedBy": {
-            "@type": "Organization",
-            "name": default_issuer
-        }
-    }
-
-    if cred_id and str(cred_id) != "N/A":
-        c_obj["identifier"] = str(cred_id)
-    if date_earned:
-        c_obj["dateCreated"] = str(date_earned)
-    if url and str(url).startswith("http"):
-        c_obj["url"] = str(url)
-
-    return c_obj
-
-def extract_all_credentials():
+def parse_archive_monoliths():
+    """Parses standardized complete markdown archives across all platforms into JSON-LD objects."""
     credentials = []
 
-    if not os.path.exists(DATA_DIR):
-        print(f"⚠️ Directory '{DATA_DIR}' not found.")
+    if not os.path.exists(ARCHIVE_DIR):
+        print(f"⚠️ Archive directory '{ARCHIVE_DIR}' not found.")
         return credentials
 
-    json_files = sorted(glob.glob(os.path.join(DATA_DIR, "*.json")))
-    print(f"🔍 Found {len(json_files)} JSON file(s) in '{DATA_DIR}':")
+    monolith_files = sorted(glob.glob(os.path.join(ARCHIVE_DIR, "*-complete.md")))
+    print(f"🔍 Found {len(monolith_files)} complete archive dataset(s) in '{ARCHIVE_DIR}':")
 
-    for json_file in json_files:
-        filename = os.path.basename(json_file)
-        platform_name = filename.replace(".json", "").replace("-", " ").title()
+    for filepath in monolith_files:
+        filename = os.path.basename(filepath)
+        platform_name = filename.replace("-complete.md", "").replace("-", " ").title()
+        count = 0
 
-        try:
-            with open(json_file, "r", encoding="utf-8") as f:
-                data = json.load(f)
+        with open(filepath, "r", encoding="utf-8") as f:
+            lines = f.readlines()
 
-            candidate_dicts = find_all_credential_dicts(data)
-            added_from_file = 0
+        for line in lines:
+            line_str = line.strip()
+            if not line_str:
+                continue
 
-            for item in candidate_dicts:
-                parsed = parse_credential_item(item, platform_name)
-                if parsed:
-                    credentials.append(parsed)
-                    added_from_file += 1
+            # -----------------------------------------------------------------
+            # 1. Parse Table Rows (| col1 | col2 | col3 |)
+            # -----------------------------------------------------------------
+            if line_str.startswith("|") and line_str.endswith("|"):
+                # Skip table header and separator rows
+                if "---" in line_str or "Date" in line_str or "Metric" in line_str or "Stat" in line_str:
+                    continue
 
-            print(f"  ├─ 📄 {filename}: Parsed {added_from_file} credential(s)")
+                cols = [c.strip() for c in line_str.split("|")[1:-1]]
+                if not cols or len(cols) < 2:
+                    continue
 
-        except Exception as e:
-            print(f"  ├─ ⚠️ Error parsing {filename}: {e}")
+                title = ""
+                date_earned = ""
+                url = ""
+                issuer = platform_name
+
+                for col in cols:
+                    # Extract verification URL
+                    link_match = re.search(r"\[([^\]]+)\]\((https?://[^\)]+)\)", col)
+                    if link_match:
+                        if not url:
+                            url = link_match.group(2)
+                        if not title and "Verify" not in link_match.group(1):
+                            title = clean_str(link_match.group(1))
+
+                    # Extract bold text title
+                    bold_match = re.search(r"\*\*([^*]+)\*\*", col)
+                    if bold_match and not title:
+                        title = clean_str(bold_match.group(1))
+
+                    # Extract ISO / Year-Month dates
+                    date_match = re.search(r"\b(20\d{2}-\d{2}(-\d{2})?)\b", col)
+                    if date_match and not date_earned:
+                        date_earned = date_match.group(1)
+
+                    # Extract explicit issuer if specified (e.g., Credly "issued by XYZ")
+                    if "issued by" in col.lower():
+                        issuer = col.replace("issued by", "").replace("`", "").strip()
+
+                if title:
+                    c_obj = {
+                        "@type": "EducationalOccupationalCredential",
+                        "credentialCategory": "Badge/Certification",
+                        "name": clean_str(title),
+                        "recognizedBy": {
+                            "@type": "Organization",
+                            "name": clean_str(issuer)
+                        }
+                    }
+                    if date_earned:
+                        c_obj["dateCreated"] = date_earned
+                    if url:
+                        c_obj["url"] = url
+
+                    credentials.append(c_obj)
+                    count += 1
+
+            # -----------------------------------------------------------------
+            # 2. Parse Bullet Points (- **Title** ...)
+            # -----------------------------------------------------------------
+            elif line_str.startswith("- ") or line_str.startswith("* "):
+                bold_match = re.search(r"\*\*([^*]+)\*\*", line_str)
+                if not bold_match:
+                    continue
+
+                title = clean_str(bold_match.group(1))
+
+                # Extract date
+                date_match = re.search(r"\b(20\d{2}-\d{2}(-\d{2})?)\b", line_str)
+                date_earned = date_match.group(1) if date_match else ""
+
+                # Extract link
+                link_match = re.search(r"\((https?://[^\)]+)\)", line_str)
+                url = link_match.group(1) if link_match else ""
+
+                # Extract Credential ID if present
+                id_match = re.search(r"Credential ID:\s*`?([A-Za-z0-9]+)`?", line_str, re.IGNORECASE)
+                cred_id = id_match.group(1) if id_match else ""
+
+                c_obj = {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Badge/Certification",
+                    "name": title,
+                    "recognizedBy": {
+                        "@type": "Organization",
+                        "name": platform_name
+                    }
+                }
+                if cred_id:
+                    c_obj["identifier"] = cred_id
+                if date_earned:
+                    c_obj["dateCreated"] = date_earned
+                if url:
+                    c_obj["url"] = url
+
+                credentials.append(c_obj)
+                count += 1
+
+        print(f"  ├─ 📄 {filename}: Extracted {count} credential(s)")
 
     return credentials
 
 def cleanup_readme():
-    """Removes embedded JSON-LD script blocks from README.md to keep it clean."""
+    """Ensures README.md stays clean without embedded script blocks."""
     if not os.path.exists(README_PATH):
         return
 
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Fix character encoding issues if present
+    # Repair name encoding if needed
     content = content.replace("Vojislav Miloradoviﾄ", "Vojislav Miloradović")
 
-    # Remove embedded script tags between markers
     if MARKER_START in content and MARKER_END in content:
         split_start = content.split(MARKER_START)
         split_end = split_start[1].split(MARKER_END)
@@ -147,7 +165,8 @@ def cleanup_readme():
     print(f"🧹 Ensured {README_PATH} is clean of embedded script blocks.")
 
 def main():
-    credentials = extract_all_credentials()
+    credentials = parse_archive_monoliths()
+
     payload = {
         "@context": "https://schema.org",
         "@type": "ProfilePage",
@@ -162,7 +181,7 @@ def main():
     with open(JSONLD_PATH, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Successfully generated {JSONLD_PATH} with {len(credentials)} total credential(s).")
+    print(f"\n✅ Successfully generated {JSONLD_PATH} with {len(credentials)} total credential(s).")
     cleanup_readme()
 
 if __name__ == "__main__":
