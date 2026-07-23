@@ -1,0 +1,47 @@
+name: Security & Repository Health Checks
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  security-and-health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Required for Gitleaks to inspect commit history
+
+      # 1. Scan for exposed secrets (uses .gitleaks.toml allowlist)
+      - name: Gitleaks Secret Scan
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 3. Lint Python scripts for syntax errors & bad imports
+      - name: Run Ruff Linter
+        run: |
+          pip install ruff
+          ruff check *.py
+
+      # 4. Verify syntax integrity of raw JSON data files
+      - name: Validate Data JSON Integrity
+        run: |
+          python -c "
+          import glob, json
+          json_files = glob.glob('data/*.json')
+          for f in json_files:
+              with open(f, 'r', encoding='utf-8') as fp:
+                  json.load(fp)
+          print(f'✅ Successfully validated syntax for {len(json_files)} JSON file(s).')
+          "
