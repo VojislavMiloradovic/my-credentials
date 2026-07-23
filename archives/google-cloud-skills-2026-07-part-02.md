@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Badge Title |
 | :---: | :--- |
+| 2026-03-26 | **AI Services and GDC Deployments and Operations** |
 | 2026-03-26 | **Compute, Network, and Storage Services Configuration in GDC** |
 | 2026-03-26 | **GDC Platform Introduction** |
 | 2026-03-25 | **SecOps on GDC for Tier 1 and Tier 2 Analysts** |
@@ -163,7 +164,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-11-06 | **AI Boost Bites: Presentation Scripts with Gemini** |
 | 2025-11-06 | **AI Boost Bites: Project Notebooks** |
 | 2025-11-06 | **AI Boost Bites: NotebookLM for Market Research** |
-| 2025-11-06 | **[Deprecated]AI Boost Bites: NotebookLM Video Overviews** |
 
 ---
 > **Navigation:** Prev: [google-cloud-skills-2026-07-part-01.md](google-cloud-skills-2026-07-part-01.md) | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-07-part-03.md](google-cloud-skills-2026-07-part-03.md)

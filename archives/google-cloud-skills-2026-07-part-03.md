@@ -2,7 +2,7 @@
 archive_platform: Google Cloud Skills Boost
 chunk_part: 3 of 3
 date_range: 2025-09-06 to 2025-11-06
-total_entries: 33
+total_entries: 34
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-03.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Badge Title |
 | :---: | :--- |
+| 2025-11-06 | **[Deprecated]AI Boost Bites: NotebookLM Video Overviews** |
 | 2025-11-06 | **AI Boost Bites: Discover Sources in NotebookLM** |
 | 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM Mind Maps** |
 | 2025-11-06 | **AI Boost Bites: Intro to NotebookLM** |

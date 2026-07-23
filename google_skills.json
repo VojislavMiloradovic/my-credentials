@@ -1,6 +1,6 @@
 {
   "profile_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_points": "188,447",
+  "total_points": "192,567",
   "internal_stats": {
     "Course": 331,
     "Check": 1769,
@@ -9,8 +9,14 @@
     "Lab": 223,
     "Lesson": 4830
   },
-  "total_badges": 330,
+  "total_badges": 331,
   "badges": [
+    {
+      "title": "Orchestrate Workflows with the Data Agent Kit",
+      "date_earned": "2026-07-23",
+      "image_url": "https://cdn.qwiklabs.com/1KwKU6fBs5G2yqXoNiATcXl2mq7PhBd24940799B%2BS8%3D",
+      "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25826281"
+    },
     {
       "title": "Arcade Adventure: Low-Code Development",
       "date_earned": "2026-07-23",
