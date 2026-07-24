@@ -30,9 +30,11 @@ jobs:
           args: >
             --verbose
             --no-progress
-            --accept 200,204,301,302
+            --accept 200,204,301,302,429
+            --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+            --max-concurrency 10
             --cache
-            --max-cache-age 1d
+            --max-cache-age 7d
             --exclude "(linkedin.com|credly.com)"
             "README.md" "llms.txt" "archives/*.md"
           fail: false

@@ -19,6 +19,21 @@ def format_num(val):
     except (ValueError, TypeError):
         return str(val) if val is not None else "0"
 
+def format_verify_url(raw_url):
+    if not raw_url or not isinstance(raw_url, str):
+        return ""
+    clean = raw_url.strip()
+    if not clean:
+        return ""
+    if not clean.startswith("http"):
+        if clean.startswith("/"):
+            clean = f"https://learn.microsoft.com/en-us{clean}"
+        else:
+            clean = f"https://learn.microsoft.com/en-us/{clean}"
+    elif "learn.microsoft.com/training/" in clean:
+        clean = clean.replace("learn.microsoft.com/training/", "learn.microsoft.com/en-us/training/")
+    return clean
+
 def clean_uid(uid):
     if not uid:
         return ""
@@ -147,10 +162,9 @@ def main():
         title = item.get("title", "Completed Module").replace("|", "\\|")
         cat = item.get("category", "module").title()
         date = clean_iso_date(item.get("grantedOn", ""))
-        verify_url = item.get("url", "")
-        if verify_url and not verify_url.startswith("http"):
-            verify_url = f"https://learn.microsoft.com{verify_url}"
-        row = f"| {title} | {cat} | {date} | [Verify]({verify_url}) |"
+        verify_url = format_verify_url(item.get("url", ""))
+        verify_cell = f"[Verify]({verify_url})" if verify_url else "N/A"
+        row = f"| {title} | {cat} | {date} | {verify_cell} |"
         formatted_rows.append((row, date))
         mono_md.append(row)
 
@@ -282,10 +296,9 @@ def main():
         title = item.get("title", "Completed Module")
         cat = item.get("category", "module").title()
         date = clean_iso_date(item.get("grantedOn", ""))
-        verify_url = item.get("url", "")
-        if verify_url and not verify_url.startswith("http"):
-            verify_url = f"https://learn.microsoft.com{verify_url}"
-        md.append(f"- **{title}** ({cat} | Earned: {date} | [Verify Credential]({verify_url}))")
+        verify_url = format_verify_url(item.get("url", ""))
+        verify_str = f" | [Verify Credential]({verify_url})" if verify_url else ""
+        md.append(f"- **{title}** ({cat} | Earned: {date}{verify_str})")
 
     if not os.path.exists(README_PATH):
         with open(README_PATH, "w", encoding="utf-8") as f:
