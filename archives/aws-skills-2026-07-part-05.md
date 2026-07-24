@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 5 of 6
-date_range: 2026-02-11 to 2026-03-08
+date_range: 2026-02-13 to 2026-03-09
 total_entries: 83
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-05.md
 ---
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| Amazon Simple Notification Service (SNS) Getting Started | Digital Course | 2026-03-09 | 1 hour | 🎓 Available on Profile |
+| AWS Billing and Cost Management | Digital Course | 2026-03-09 | 20 minutes | 🎓 Available on Profile |
+| AWS Lambda Foundations | Digital Course | 2026-03-09 | 2 hours | 🎓 Available on Profile |
+| AWS X-Ray Getting Started | Digital Course | 2026-03-09 | 1 hour | 🎓 Available on Profile |
 | [RETIRED] AWS Fargate - Overview | Digital Course | 2026-03-08 | 10 minutes | 🎓 Available on Profile |
 | [RETIRED] Introduction to Amazon CloudFront | Digital Course | 2026-03-08 | 10 minutes | 🎓 Available on Profile |
 | Amazon Quick Sight Getting Started | Digital Course | 2026-03-08 | 1 hour | 🎓 Available on Profile |
@@ -91,10 +95,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Security, Compliance, and Governance for AI Solutions | Digital Course | 2026-02-15 | 1 hour | 🎓 Available on Profile |
 | AWS Foundations: Machine Learning Basics | Digital Course | 2026-02-14 | 30 minutes | 🎓 Available on Profile |
 | Developing Generative Artificial Intelligence Solutions | Digital Course | 2026-02-13 | 1 hour | 🎓 Available on Profile |
-| Foundations of Prompt Engineering | Digital Course | 2026-02-13 | 4 hours | 🎓 Available on Profile |
-| Introduction to Amazon Quick Suite | Digital Course | 2026-02-12 | 1 hour 10 minutes | 🎓 Available on Profile |
-| Amazon Connect - Troubleshooting | Digital Course | 2026-02-11 | 1 hour | 🎓 Available on Profile |
-| Data Modeling for Amazon ElastiCache for Redis | Digital Course | 2026-02-11 | 45 minutes | 🎓 Available on Profile |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-04.md](aws-skills-2026-07-part-04.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-06.md](aws-skills-2026-07-part-06.md)

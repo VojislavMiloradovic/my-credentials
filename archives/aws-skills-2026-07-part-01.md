@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 1 of 6
-date_range: 2026-06-22 to 2026-07-22
+date_range: 2026-06-24 to 2026-07-24
 total_entries: 77
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md
 ---
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| AWS Certification Subject Matter Expert Training | Digital Course | 2026-07-24 | 2 hours 30 minutes | 🎓 Available on Profile |
+| Cloud Audit Academy - Cloud Agnostic | Digital Course | 2026-07-24 | 3 hours | 🎓 Available on Profile |
+| Threat Modeling for Builders Workshop | Digital Course | 2026-07-24 | 6 hours | 🎓 Available on Profile |
 | AI Agents: Cognitive Upgrade and Business Efficiency | Digital Course | 2026-07-22 | 3 hours | 🎓 Available on Profile |
 | AWS Cloud for absolute beginners | Digital Course | 2026-07-22 | 3 hours | 🎓 Available on Profile |
 | AWS Cloud for Finance Professionals | Digital Course | 2026-07-22 | 17 hours | 🎓 Available on Profile |
@@ -86,9 +89,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | [RETIRING - 2026-08-05] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases | Digital Course | 2026-06-24 | 1 hour | 🎓 Available on Profile |
 | Amazon WorkSpaces Migrations - Horizon on WorkSpaces Core | Digital Course | 2026-06-24 | 1 hour | 🎓 Available on Profile |
 | Amazon WorkSpaces Migrations — Additional Partner Offerings on WorkSpaces Core | Digital Course | 2026-06-24 | 1 hour | 🎓 Available on Profile |
-| Data Protection and Disaster Recovery Knowledge Badge Assessment | Digital Course | 2026-06-24 | 1 hour 30 minutes | 🎓 Available on Profile |
-| AI Driven Development Lifecycle Knowledge Badge Assessment | Digital Course | 2026-06-22 | 1 hour | 🎓 Available on Profile |
-| Automating with AI/ML for Small Business Owners | Digital Course | 2026-06-22 | 7 minutes | 🎓 Available on Profile |
 
 ---
 > **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md)

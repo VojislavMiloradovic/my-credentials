@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 3 of 6
-date_range: 2026-03-20 to 2026-04-21
+date_range: 2026-03-21 to 2026-04-22
 total_entries: 78
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-03.md
 ---
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| Selecting your Data Migration Strategy with AWS | Digital Course | 2026-04-22 | 30 minutes | 🎓 Available on Profile |
+| Understanding Amazon EBS Volume Encryption | Digital Course | 2026-04-22 | 2 minutes | 🎓 Available on Profile |
+| Introduction to AWS Auto Scaling | Digital Course | 2026-04-21 | 17 minutes | 🎓 Available on Profile |
 | Understanding Placement Groups | Digital Course | 2026-04-21 | 10 minutes | 🎓 Available on Profile |
 | Amazon Connect Fundamentals Assessment | Digital Course | 2026-04-20 | 1 hour | 🎓 Available on Profile |
 | Amazon Connect Operations | Digital Course | 2026-04-20 | 1 hour | 🎓 Available on Profile |
@@ -87,9 +90,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | AWS Cloud Essentials for Business Leaders - Telecommunications | Digital Course | 2026-03-21 | 2 hours | 🎓 Available on Profile |
 | AWS Security Incident Response Overview | Digital Course | 2026-03-21 | 1 hour 40 minutes | 🎓 Available on Profile |
 | AWS SimuLearn: Secure Conversational AI with Guardrails | Game / Quest | 2026-03-21 | 1 hour | 🎓 Available on Profile |
-| Cloud Essentials for Business Leaders – Healthcare and Life Sciences | Digital Course | 2026-03-21 | 1 hour 30 minutes | 🎓 Available on Profile |
-| Machine Learning Essentials for Business and Technical Decision Makers | Digital Course | 2026-03-21 | 1 hour 30 minutes | 🎓 Available on Profile |
-| Amazon DynamoDB Getting Started | Digital Course | 2026-03-20 | 1 hour | 🎓 Available on Profile |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-04.md](aws-skills-2026-07-part-04.md)

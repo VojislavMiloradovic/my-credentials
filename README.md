@@ -88,8 +88,8 @@ Showing latest 10 of 4,732 achievements. View the full dataset via the [Platform
 #### Platform Progress Summary
 | Metric | Count |
 | :--- | :--- |
-| **Total Completed Activities** | 449 |
-| **Digital Courses** | 404 |
+| **Total Completed Activities** | 452 |
+| **Digital Courses** | 407 |
 | **Self-Paced Builder Labs** | 13 |
 | **In-Game Simulations (Cloud Quest)** | 32 |
 
@@ -110,6 +110,9 @@ Showing latest 10 activities. View the full dataset via the [Platform Archive In
 
 | Activity Title | Type | Date Completed | Duration |
 | :--- | :--- | :--- | :--- |
+| **AWS Certification Subject Matter Expert Training** | Digital Course | *2026-07-24* | 2 hours 30 minutes |
+| **Cloud Audit Academy - Cloud Agnostic** | Digital Course | *2026-07-24* | 3 hours |
+| **Threat Modeling for Builders Workshop** | Digital Course | *2026-07-24* | 6 hours |
 | **AI Agents: Cognitive Upgrade and Business Efficiency** | Digital Course | *2026-07-22* | 3 hours |
 | **AWS Cloud for absolute beginners** | Digital Course | *2026-07-22* | 3 hours |
 | **AWS Cloud for Finance Professionals** | Digital Course | *2026-07-22* | 17 hours |
@@ -117,9 +120,6 @@ Showing latest 10 activities. View the full dataset via the [Platform Archive In
 | **Data Engineering on AWS - Foundations** | Digital Course | *2026-07-22* | 4 hours |
 | **Introduction to Building with AWS Databases** | Digital Course | *2026-07-22* | 3 hours |
 | **AWS CodeArtifact Getting Started** | Digital Course | *2026-07-20* | 1 hour 30 minutes |
-| **AWS CodeDeploy Getting Started** | Digital Course | *2026-07-20* | 2 hours |
-| **AWS for SAP - Generative AI Fundamentals** | Digital Course | *2026-07-20* | 1 hour 15 minutes |
-| **AWS Lake Formation Getting Started** | Digital Course | *2026-07-20* | 1 hour 30 minutes |
 
 <!-- AWS_SKILLS_END -->
 

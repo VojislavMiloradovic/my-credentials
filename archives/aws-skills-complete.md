@@ -1,9 +1,12 @@
 # Complete AWS Skill Builder Achievements Archive
 
-This document contains a complete, historical audit trail of all 449 AWS learning items completed on AWS Skill Builder.
+This document contains a complete, historical audit trail of all 452 AWS learning items completed on AWS Skill Builder.
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| AWS Certification Subject Matter Expert Training | Digital Course | 2026-07-24 | 2 hours 30 minutes | 🎓 Available on Profile |
+| Cloud Audit Academy - Cloud Agnostic | Digital Course | 2026-07-24 | 3 hours | 🎓 Available on Profile |
+| Threat Modeling for Builders Workshop | Digital Course | 2026-07-24 | 6 hours | 🎓 Available on Profile |
 | AI Agents: Cognitive Upgrade and Business Efficiency | Digital Course | 2026-07-22 | 3 hours | 🎓 Available on Profile |
 | AWS Cloud for absolute beginners | Digital Course | 2026-07-22 | 3 hours | 🎓 Available on Profile |
 | AWS Cloud for Finance Professionals | Digital Course | 2026-07-22 | 17 hours | 🎓 Available on Profile |
