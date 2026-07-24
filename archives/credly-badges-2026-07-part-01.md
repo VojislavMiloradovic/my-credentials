@@ -15,6 +15,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-24 | **AWS Educate Getting Started with Networking - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/95dadb7d-8f0b-4520-b945-c7b41292f126) |
 | 2026-07-24 | **Cloud Sales Pro - Email Security** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/1ae5dbfc-3538-41eb-b208-8cd3fa60648a) |
 | 2026-07-24 | **Cloud Sales Pro - Entra ID Backup** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/00d5b48a-6926-43c6-842d-3585215523fe) |
+| 2026-07-24 | **menuPass Emulation Plan Execution** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/6fd90ef1-aa26-4e52-bdd8-e499e96f3644) |
 | 2026-07-22 | **AI and Innovation: How MongoDB Enables a Resilient AI Strategy** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/eb31b07d-b515-4678-aad1-792c118e67dc) |
 | 2026-07-22 | **AWS Educate Getting Started with Databases - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/da4e7c34-8a7a-4418-86f2-eb9db7a34148) |
 | 2026-07-22 | **Extending ATT&CK with ATT&CK Workbench** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/1a455d6f-de65-420a-a531-f26d2562538b) |
@@ -62,7 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-10 | **Build a Data Warehouse with BigQuery Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/58efd57f-8763-430e-9c85-9ae21b4be53c) |
 | 2026-07-09 | **Cloud FinOps** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/1a4b9280-a856-4f4b-868b-b1a727ce03fb) |
 | 2026-07-09 | **Cloud Tech Associate Advanced Data Loss Prevention** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/1e7b88fd-f5b2-4563-9cb8-6815ee1dfedc) |
-| 2026-07-09 | **Foundations of Purple Teaming** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/1ae8e7ed-2bc5-48c6-87e3-c8a427c96c86) |
 
 ---
 > **Navigation:** Prev: None | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md)

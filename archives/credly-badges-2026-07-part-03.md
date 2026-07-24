@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 3 of 10
-date_range: 2026-06-18 to 2026-06-27
-total_entries: 48
+date_range: 2026-06-18 to 2026-06-28
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-03.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-28 | **Cloud Speech API: 3 Ways Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5) |
 | 2026-06-27 | **AWS Knowledge: Migration Foundations - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/c6d0351c-5227-4931-8bec-3d4789d4fe0e) |
 | 2026-06-27 | **Celonis Foundations** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/e2811911-4464-4eb1-9981-681c751363bf) |
 | 2026-06-27 | **Cloud Tech Associate Advanced Disaster Recovery** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937) |

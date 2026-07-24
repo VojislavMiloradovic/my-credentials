@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 2 of 10
-date_range: 2026-06-28 to 2026-07-09
+date_range: 2026-06-29 to 2026-07-09
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-02.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-09 | **Foundations of Purple Teaming** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/1ae8e7ed-2bc5-48c6-87e3-c8a427c96c86) |
 | 2026-07-09 | **Intel® Xeon® 6 Processor Family Essentials** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/11bd816c-b1e7-4b97-8c4b-ca8c88793e1e) |
 | 2026-07-09 | **Make Basics** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/eb9617cb-496e-443f-ada3-faa52bfcf0a4) |
 | 2026-07-09 | **Make Foundation** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/0d4bdacd-4259-4da2-b840-2ac5ae64f097) |
@@ -63,7 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-29 | **Implement Passwordless Authentication** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/b5aeea2a-0424-47c4-87d4-ea6a6acd3bad) |
 | 2026-06-29 | **Manage Your Tenant with Auth0 MCP Server** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/c9da5f3b-b75b-43d4-9e6d-d291b9504fe3) |
 | 2026-06-29 | **Review and Interpret Analyses** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/25472282-590d-4f27-9fda-6f344e2fd901) |
-| 2026-06-28 | **Cloud Speech API: 3 Ways Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-01.md](credly-badges-2026-07-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md)
