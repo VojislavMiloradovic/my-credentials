@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 5 of 9
+chunk_part: 5 of 10
 date_range: 2026-05-25 to 2026-06-07
-total_entries: 52
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-05.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-07 | **AWS Knowledge: Amazon Braket - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/8a9f2e87-0407-4376-8b09-d10fa0b6a6b9) |
+| 2026-06-07 | **LFS101: Introduction to Linux** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/e0a7c437-4f29-4111-96d2-2c8f15eb14cc) |
 | 2026-06-07 | **Google Play Academy - Store Listing Certificate** | Google Play Academy | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/1473fa50-8b83-4ccf-a376-6cd671db8b80) |
 | 2026-06-06 | **AWS Knowledge: Networking Core - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/80648322-ee54-4e43-9d4b-f311dcc569cd) |
 | 2026-06-06 | **Intelligent Diagramming** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/a5b0658c-f2cb-4aa4-85db-5d2c8eefa144) |
@@ -61,9 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-25 | **Engaging Stakeholders for Success** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/0fcc81f0-1d05-4360-b9d0-8fc80be31895) |
 | 2026-05-25 | **Lucidchart Fundamentals** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/964323c2-0693-4faf-a973-7324c4736657) |
 | 2026-05-25 | **Org charts in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/1884360b-cb1c-4b7a-a83f-e084d0994093) |
-| 2026-05-25 | **Process diagrams in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/c082e966-a48a-41cc-8cf0-80ef478133db) |
-| 2026-05-25 | **Product Management Basics Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/9ed3741c-eb44-4f66-854b-7808ab8091a9) |
-| 2026-05-25 | **Technical systems in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/c2e33131-b3af-496b-97bb-9e34f365fa0e) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md)

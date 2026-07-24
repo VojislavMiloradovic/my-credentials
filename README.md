@@ -129,12 +129,15 @@ Showing latest 10 activities. View the full dataset via the [Platform Archive In
 <!-- CREDLY_BADGES_START -->
 ### Credly Verified Credentials
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)  
-**Total Portfolio Credentials:** 445 (422 Credly Verified, 23 External/Imported)  
+**Total Portfolio Credentials:** 448 (425 Credly Verified, 23 External/Imported)  
 **Total Verified Skills Mapped:** 1761
 
 #### Latest Earned Credentials
 | Date Earned | Credential Name | Issuer | Verification Type |
 |:---:|---|---|:---:|
+| *2026-07-24* | **AWS Educate Getting Started with Networking - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` |
+| *2026-07-24* | **Cloud Sales Pro - Email Security** | issued by Acronis | `Credly Verified` |
+| *2026-07-24* | **Cloud Sales Pro - Entra ID Backup** | issued by Acronis | `Credly Verified` |
 | *2026-07-22* | **AI and Innovation: How MongoDB Enables a Resilient AI Strategy** | issued by MongoDB | `Credly Verified` |
 | *2026-07-22* | **AWS Educate Getting Started with Databases - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` |
 | *2026-07-22* | **Extending ATT&CK with ATT&CK Workbench** | issued by AttackIQ | `Credly Verified` |
@@ -142,9 +145,6 @@ Showing latest 10 activities. View the full dataset via the [Platform Archive In
 | *2026-07-22* | **MongoDB Advanced Schema Design Patterns and Anti-patterns Skill Badge** | issued by MongoDB | `Credly Verified` |
 | *2026-07-22* | **MongoDB Aggregation Fundamentals** | issued by MongoDB | `Credly Verified` |
 | *2026-07-22* | **MongoDB Query Optimization Techniques** | issued by MongoDB | `Credly Verified` |
-| *2026-07-22* | **MongoDB Schema Design Optimization Skill Badge** | issued by MongoDB | `Credly Verified` |
-| *2026-07-22* | **MongoDB Schema Design Patterns and Anti-patterns Skill Badge** | issued by MongoDB | `Credly Verified` |
-| *2026-07-21* | **Cloud Functions: 3 Ways Skill Badge** | issued by Google Cloud | `Credly Verified` |
 
 👉 **[View Platform Index](./archives/credly-badges-index.md)** ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md) | [Complete Monolith](./archives/credly-badges-complete.md))
 

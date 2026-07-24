@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 3 of 9
-date_range: 2026-06-16 to 2026-06-27
+chunk_part: 3 of 10
+date_range: 2026-06-18 to 2026-06-27
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-03.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-27 | **AWS Knowledge: Migration Foundations - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/c6d0351c-5227-4931-8bec-3d4789d4fe0e) |
+| 2026-06-27 | **Celonis Foundations** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/e2811911-4464-4eb1-9981-681c751363bf) |
 | 2026-06-27 | **Cloud Tech Associate Advanced Disaster Recovery** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937) |
 | 2026-06-27 | **Configure Service Accounts and IAM Roles for Google Cloud Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/ddaa4bce-2772-4181-9a7c-21252929399d) |
 | 2026-06-27 | **Get Started with Auth0 Tenants** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/a626c5ef-b24c-4dce-be69-548d51377e78) |
@@ -58,8 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-18 | **Protect Your API Endpoints with Auth0** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/7a85c1f9-c3ec-42d2-a898-8ca954ed58bf) |
 | 2026-06-18 | **Secure Applications with Auth0 Attack Protection** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/eb46f4ee-e054-47be-bdec-ce97fa77fcd6) |
 | 2026-06-18 | **ZEDEDA Certified Edge Orchestration Professional (ZCEP)** | issued by ZEDEDA | `Credly Verified` | [Verify](https://www.credly.com/badges/353991f9-77e3-4db3-9e33-3ea865e695ff) |
-| 2026-06-17 | **Store, Process, and Manage Data on Google Cloud - Console Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/59bdf724-fa62-4fae-b148-cb57e28e3fb0) |
-| 2026-06-16 | **LFC111: Open Source Technical Documentation Essentials** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/5facc7f1-04b9-4b75-b174-44e85cd84aea) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md)

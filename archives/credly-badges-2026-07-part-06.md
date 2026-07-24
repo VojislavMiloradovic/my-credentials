@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 6 of 9
-date_range: 2026-05-15 to 2026-05-24
+chunk_part: 6 of 10
+date_range: 2026-05-15 to 2026-05-25
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-06.md
 ---
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-05-25 | **Process diagrams in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/c082e966-a48a-41cc-8cf0-80ef478133db) |
+| 2026-05-25 | **Product Management Basics Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/9ed3741c-eb44-4f66-854b-7808ab8091a9) |
+| 2026-05-25 | **Technical systems in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/c2e33131-b3af-496b-97bb-9e34f365fa0e) |
 | 2026-05-24 | **Analyze BigQuery Data in Connected Sheets Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/57dcab2e-a6d0-4084-b2c0-fb0d9d5874e2) |
 | 2026-05-24 | **App Building with AppSheet Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/75c5a6f3-45b1-4e12-a503-827174a7883a) |
 | 2026-05-24 | **Basics in Lucidspark** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/caae3887-6d97-4075-aa20-ecdb7bd5c9b8) |
@@ -61,9 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-17 | **Setting up SAP Mobile Start with SAP S/4HANA on SAP Build Work Zone - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/07157e87-17e7-4a62-9599-6da52e400954) |
 | 2026-05-15 | **AI for Product Management** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/1f9721c8-f066-45c5-b673-61955c346c47) |
 | 2026-05-15 | **AI Foundations Knowledge Badge** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/5750e670-88f4-4a63-af78-a7af6e9aa394) |
-| 2026-05-15 | **Digital Adoption Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/7245de95-83f1-4f30-b301-0d61c8576780) |
-| 2026-05-15 | **Exploring SAP Sports One - Training Management - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/83726026-289c-43c8-829d-e7cb31ae928f) |
-| 2026-05-15 | **Foundations of Risk and Asset Liability Management Knowledge Badge** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/5328bcd2-a3eb-4848-97d6-1943f04e2219) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md)

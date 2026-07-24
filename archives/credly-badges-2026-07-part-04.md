@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 4 of 9
-date_range: 2026-06-07 to 2026-06-16
+chunk_part: 4 of 10
+date_range: 2026-06-08 to 2026-06-17
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-04.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-17 | **Store, Process, and Manage Data on Google Cloud - Console Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/59bdf724-fa62-4fae-b148-cb57e28e3fb0) |
+| 2026-06-16 | **LFC111: Open Source Technical Documentation Essentials** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/5facc7f1-04b9-4b75-b174-44e85cd84aea) |
 | 2026-06-16 | **LFQ102: Quantum Computing Essentials For Senior Leaders** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/683ddef1-be3c-47d2-b4d5-c9ec0b3b555c) |
 | 2026-06-16 | **LFS142: Introduction to Backstage - Developer Portals Made Easy** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/f2f210d4-5cef-47a1-9a3d-44a366d69611) |
 | 2026-06-16 | **LFS145: Introduction to Protocol Buffers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/d4a11de5-0492-4f95-a860-7c0c6453f0f1) |
@@ -58,8 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-08 | **LFS158: Introduction to Kubernetes** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/85746ca0-36fc-4ba0-b753-d0dce904b02d) |
 | 2026-06-08 | **Process Accelerator Badge** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/66e95c6f-7100-4007-ae22-1fc36a1d638d) |
 | 2026-06-08 | **SKF100: Understanding the OWASP® Top 10 Security Threats** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/8a0199ec-ff1c-4b87-a185-92cf277719e6) |
-| 2026-06-07 | **AWS Knowledge: Amazon Braket - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/8a9f2e87-0407-4376-8b09-d10fa0b6a6b9) |
-| 2026-06-07 | **LFS101: Introduction to Linux** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/e0a7c437-4f29-4111-96d2-2c8f15eb14cc) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md)

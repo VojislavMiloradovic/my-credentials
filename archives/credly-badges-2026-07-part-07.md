@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 7 of 9
+chunk_part: 7 of 10
 date_range: 2026-05-06 to 2026-05-15
-total_entries: 50
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-07.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-05-15 | **Digital Adoption Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/7245de95-83f1-4f30-b301-0d61c8576780) |
+| 2026-05-15 | **Exploring SAP Sports One - Training Management - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/83726026-289c-43c8-829d-e7cb31ae928f) |
+| 2026-05-15 | **Foundations of Risk and Asset Liability Management Knowledge Badge** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/5328bcd2-a3eb-4848-97d6-1943f04e2219) |
 | 2026-05-15 | **Generative AI Using SAS** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/1cb2917f-14d8-4bec-a32a-9cdcd52cad31) |
 | 2026-05-15 | **Responsible Innovation and Trustworthy AI** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/760eeeb8-81c2-4af5-ba16-8a3e19cc2619) |
 | 2026-05-15 | **Statistics 1: Introduction to ANOVA, Regression, and Logistic Regression** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/e3ce2619-792f-4d85-9ed2-41865bbd6eec) |
@@ -60,8 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-06 | **Configuration Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/a71f14fd-df65-47c9-9527-109add5f04d5) |
 | 2026-05-06 | **Core Skills Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/9cfe8da1-05a9-4242-9dfc-8e91c87f9fe3) |
 | 2026-05-06 | **Dashboards Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/3ada1a37-c791-4d66-860b-36b7c30ec4c3) |
-| 2026-05-06 | **Explore Identity Foundations** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/bef6ae97-3d40-441b-a5fd-168016f17b32) |
-| 2026-05-06 | **LLM Observability Metrics & Traces Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md)

@@ -1,17 +1,19 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 9 of 9
-date_range: 2025-11-04 to 2026-04-18
-total_entries: 46
+chunk_part: 9 of 10
+date_range: 2025-11-20 to 2026-04-18
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-09.md
 ---
 
 # Credly Verified Badges — Part 09
 
-> **Navigation:** Prev: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md) | [Index](./credly-badges-index.md) | Next: None | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-10.md](credly-badges-2026-07-part-10.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-04-18 | **Digital Awareness** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/9edc3f97-91e5-4d5d-b674-27e822964fb4) |
+| 2026-04-18 | **Modernizing Integration with SAP Integration Suite - SAP Learning MOOC - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/f3166cf7-82ab-4871-8b96-7ed8cbf350e6) |
 | 2026-04-18 | **Understanding SAP’s 2026 Go-to-Market Direction for Partners - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/cccb34bc-a8ae-4c85-8a7f-793cd28bfa1b) |
 | 2026-04-18 | **Using Computer and Mobile Devices** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/156370e6-b39b-4f49-a04e-cdb1fb215489) |
 | 2026-04-17 | **Introduction to Modern AI** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/8d48ad0b-4e3a-4d75-889d-90f586263f0e) |
@@ -57,7 +59,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-12-18 | **Google Cloud Cybersecurity Certificate** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/5afda7ea-c36e-4393-a74b-05f06757c049) |
 | 2025-11-24 | **Use Functions, Formulas, and Charts in Google Sheets Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/e8a7950a-9042-4809-bf7a-3f01ca2d03dc) |
 | 2025-11-20 | **Get Started with Google Workspace Tools Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/62ee81aa-da62-41ba-a1cd-234030dc68d9) |
-| 2025-11-04 | **Prompt Design in Vertex AI Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/cd1cec47-b40b-4395-bdb0-bc859fc3d4d7) |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md) | [Index](./credly-badges-index.md) | Next: None
+> **Navigation:** Prev: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-10.md](credly-badges-2026-07-part-10.md)

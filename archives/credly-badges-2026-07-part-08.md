@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 8 of 9
-date_range: 2026-04-18 to 2026-05-05
+chunk_part: 8 of 10
+date_range: 2026-04-19 to 2026-05-06
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-08.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-05-06 | **Explore Identity Foundations** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/bef6ae97-3d40-441b-a5fd-168016f17b32) |
+| 2026-05-06 | **LLM Observability Metrics & Traces Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5) |
 | 2026-05-05 | **Exploring SAP SuccessFactors Embedded Launch Activities for Business User - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/cc432e30-9613-4886-b82d-dd8b9ed936f3) |
 | 2026-05-05 | **Project Management Fundamentals** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/544641c1-b718-4173-ac14-39c1b0656aea) |
 | 2026-05-04 | **IT Customer Support Basics** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/66dd5194-76bb-456f-b199-db61a26524a3) |
@@ -57,8 +59,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-19 | **AWS Knowledge: AWS Transform Fundamentals – Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/54d81ecb-6fd5-4ff9-aba6-6acaa59cdcec) |
 | 2026-04-19 | **Introduction to IoT** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/9fd72888-3b11-4f02-b53a-1506890ed015) |
 | 2026-04-19 | **Google Ads Display Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/aaa06037-984b-436d-a969-138478771e90) |
-| 2026-04-18 | **Digital Awareness** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/9edc3f97-91e5-4d5d-b674-27e822964fb4) |
-| 2026-04-18 | **Modernizing Integration with SAP Integration Suite - SAP Learning MOOC - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/f3166cf7-82ab-4871-8b96-7ed8cbf350e6) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-09.md](credly-badges-2026-07-part-09.md)
