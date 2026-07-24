@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 90 of 92
-date_range: 2025-11-11 to 2025-11-15
-total_entries: 53
+chunk_part: 90 of 93
+date_range: 2025-11-13 to 2025-11-16
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-90.md
 ---
 
@@ -12,12 +12,35 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Introduction to Azure virtual machines | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machines/) |
+| MS-900 Introduction to Microsoft 365: Describe Microsoft 365 pricing, licensing, and support | Learningpaths | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-licensing-service-support/) |
+| Describe support offerings for Microsoft 365 services | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-support-offerings-for-microsoft-365-services/) |
+| Describe Microsoft 365 pricing, licensing, and billing options | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-licensing-options-available-microsoft-365/) |
+| Configure virtual networks | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/) |
+| Introduction to Azure Network Watcher | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-network-watcher/) |
+| Configure code scanning on GitHub | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/) |
+| Code with GitHub Codespaces | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/) |
+| Introduction to GitHub Copilot Business | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot-for-business/) |
+| Introduction to security, compliance, and identity concepts | Learningpaths | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-concepts-of-security-compliance-identity/) |
+| Describe security and compliance concepts | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-security-concepts-methodologies/) |
+| Explore fundamentals of large-scale analytics | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/) |
+| Introduction to Microsoft Azure Data analytics in Azure | Learningpaths | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-data-warehouse-analytics/) |
+| Explore fundamentals of real-time analytics | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/) |
+| Manage your work with GitHub Projects | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/) |
+| AZ-305 Microsoft Azure Architect Design Prerequisites | Learningpaths | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-architect-design-prerequisites/) |
+| Introduction to the Microsoft Azure Well-Architected Framework | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-introduction/) |
+| Introduction to the Microsoft Cloud Adoption Framework | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/) |
+| Explore fundamental relational data concepts | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-relational-data-offerings/) |
+| Allow users to reset their password with Microsoft Entra self-service password reset | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/allow-users-reset-their-password/) |
+| MS-900 Introduction to Microsoft 365: Describe Microsoft 365 apps and services | Learningpaths | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-microsoft-365-core-services-concepts/) |
+| Describe the device and cloud endpoint management concepts and deployment options in Microsoft 365 | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-endpoint-modernization-management-concepts-deployment-options/) |
+| AZ-104: Prerequisites for Azure administrators | Learningpaths | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/) |
 | Deploy Azure infrastructure by using JSON ARM templates | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/) |
 | Install and configure Visual Studio Code | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/install-configure-visual-studio-code/) |
 | MS-900 Introduction to Microsoft 365: Describe Microsoft 365 security and compliance capabilities | Learningpaths | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-security-compliance-capabilities/) |
 | Describe the function and identity types of Microsoft Entra ID | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-basic-services-identity-types/) |
-| Scale AI in your organization | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-ai/) |
 | Transform your business with AI | Learningpaths | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-your-business-with-microsoft-ai/) |
+| Scale AI in your organization | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-ai/) |
 | Leverage AI tools and resources for your business | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/leverage-ai-tools/) |
 | Create business value with AI | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-business-value/) |
 | Collaborating with Microsoft Teams | Learningpaths | 2025-11-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/teamwork-specialist/) |
@@ -41,30 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Connect a cloud flow to desktop flows in Power Automate for desktop | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-cloud-desktop-flow/) |
 | Define input and output parameters in Power Automate | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/input-parameters/) |
 | Build your first Power Automate for desktop flow | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-desktop-flow/) |
-| Administer a Microsoft Fabric environment | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-fabric/) |
-| Manage a Microsoft Fabric environment | Learningpaths | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-microsoft-fabric-environment/) |
-| Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cicd-in-fabric/) |
-| Introduction to Microsoft Defender for Endpoint | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-introduction-defender-endpoint/) |
-| Describe the embedded experiences of Microsoft Security Copilot | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-embedded-experiences/) |
-| Perform basic operations on numbers in C# | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-basic-operations/) |
-| Using GitHub Copilot with JavaScript | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-javascript/) |
-| Explore fundamentals of data visualization | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/) |
-| Using GitHub Copilot with Python | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/) |
-| Describe access management capabilities of Microsoft Entra | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-access-management-capabilities/) |
-| Perform basic string formatting in C# | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-basic-formatting/) |
-| Craft effective prompts for Microsoft 365 Copilot | Learningpaths | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/craft-effective-prompts-copilot-microsoft-365/) |
-| Edit and transform content with Microsoft 365 Copilot | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/edit-transform-content-with-microsoft-copilot-microsoft-365/) |
-| Summarize and simplify information with Microsoft 365 Copilot | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/summarize-simplify-information-with-microsoft-copilot-microsoft-365/) |
-| Describe productivity solutions of Microsoft 365 | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-productivity-solutions-microsoft-365/) |
-| Describe the analytics and administrative capabilities available in Microsoft 365 | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-analytics-capabilities-microsoft-365/) |
-| Ask questions and analyze content with Microsoft 365 Copilot | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/ask-analyze-content-with-microsoft-copilot-microsoft-365/) |
-| Describe collaboration solutions of Microsoft 365 | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-collaboration-solutions-microsoft-365/) |
-| Get started with Microsoft 365 Copilot | Learningpaths | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-microsoft-365-copilot/) |
-| Optimize and extend Microsoft 365 Copilot | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-and-extend-microsoft-365-copilot/) |
-| Store and retrieve data using literal and variable values in C# | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-literals-variables/) |
-| Explore core data concepts | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/) |
-| Introduction to Microsoft Azure Data core data concepts | Learningpaths | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-core-data-concepts/) |
-| Introduction to information security and compliance in Microsoft Purview | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-governance/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-89.md](microsoft-learn-2026-07-part-89.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-91.md](microsoft-learn-2026-07-part-91.md)

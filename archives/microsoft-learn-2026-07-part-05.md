@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 5 of 92
-date_range: 2026-06-29 to 2026-07-05
+chunk_part: 5 of 93
+date_range: 2026-07-01 to 2026-07-05
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-05.md
 ---
@@ -12,6 +12,30 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Build mission-critical workloads on Azure | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-mission-critical-workloads/) |
+| Get started with Environmental, social, and governance reporting | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sustainability-esg-reporting/) |
+| External ESG Reporting in Sustainability Manager | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-external-esg-reporting/) |
+| Perform backups and restores for SAP workloads on Azure | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-backups-restores/) |
+| Deploy single-instance implementations of SAP on Azure (2-tier and 3-tier) | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-single-instance-implementations-2-tier-3-tier/) |
+| Explore integration and interoperability in Microsoft for Healthcare | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-integration-interoperability/) |
+| Explore remote management for SAP on Azure | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-remote-management/) |
+| Monitor and troubleshoot SAP HANA on Azure (Large Instances) | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-sap-hana-azure-large-instances/) |
+| Explore identity services for SAP on Azure | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-identity-services/) |
+| Challenge Project - Design a mission-critical web application | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-mission-critical/) |
+| Implement and deploy SAP HANA on Azure (Large Instances) | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-deploy-sap-hana-azure-large-instances/) |
+| Configure and troubleshoot Microsoft Teams clients and services | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-troubleshoot-microsoft-teams-clients-services/) |
+| Troubleshoot Microsoft Teams | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-microsoft-365-teams/) |
+| Monitor and troubleshoot Azure for SAP workloads | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-troubleshoot-azure-for-sap-workloads/) |
+| Explore monitoring requirements of Azure for SAP workloads | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-monitoring-requirements-of-azure-for-sap-workloads/) |
+| Continuously validate and test mission-critical workloads | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/continuous-validate-test-mission-critical-workloads/) |
+| Explore Azure Center for SAP solutions | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-center-sap-solutions/) |
+| Azure Stack Hub | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-stack-hub/) |
+| Prepare to teach DP-100 Designing and Implementing a Data Science Solution on Azure | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-to-teach-dp-100-designing-implementing-data-science-solution-azure/) |
+| Get tips and tricks for teaching DP-100: Designing and implementing a data science solution on Azure | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teaching-dp-100-designing-implementing-data-science-solution/) |
+| Manage SAP HANA on Azure (Large Instances) | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-sap-hana-azure-large-instances/) |
+| Explore migration options for SAP on Azure | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-migration-options/) |
+| Configure the Azure Enhanced Monitoring Extension for SAP | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-enhanced-monitoring-extension-for-sap/) |
+| Prepare to teach AI-102 Designing and Implementing a Microsoft Azure AI Solution in the classroom | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-ai-102-microsoft-design-implement-azure/) |
 | Get tips and tricks for teaching AI-102 Designing and Implementing a Microsoft Azure AI Solution | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-ai-102-design-implement-microsoft-azure-ai-solution/) |
 | Training, certification, Course planning Microsoft Learn Educators | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/training-certification-course-planning-microsoft-learn-educators/) |
 | Azure Stack Hub PowerShell | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-stack-hub-powershell/) |
@@ -37,30 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Deploy and manage resources in Azure by using JSON ARM templates | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-resource-manager-templates/) |
 | Extend Bicep and ARM templates using deployment scripts | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-resource-manager-template-deployment-scripts/) |
 | Explore healthcare data solutions in Microsoft Fabric | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-healthcare-data-solutions/) |
-| Ingest clinical data in FHIR into healthcare data solutions in Microsoft Fabric | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-fhir-data-ingestion/) |
-| Prepare to teach PL-300: Microsoft Power BI Data Analyst | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-to-teach-pl-300-microsoft-power-bi-data-analyst/) |
-| Get tips and tricks for teaching PL-300: Microsoft Power BI Data Analyst in academic programs | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-pl-300-microsoft-power-bi-data-analyst/) |
-| Configure and use cash and bank management, and sales tax in Dynamics 365 Finance | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-cash-bank-management-tax-dyn365-finance/) |
-| Configure and process postdated checks in Dynamics 365 Finance | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-process-postdated-checks-dyn365-finance/) |
-| Get started with Azure Quantum | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/quantum-computing-fundamentals/) |
-| Teleport entangled qubits with Q# | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-entanglement/) |
-| Troubleshoot Microsoft Teams Voice Issues | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-microsoft-teams-voice-issues/) |
-| Azure key and certificate management | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/sovereignty-key-management/) |
-| Get started with Microsoft for Sovereignty | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sovereignty/) |
-| Introduce troubleshooting Microsoft Teams | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduce-troubleshoot-microsoft-teams/) |
-| Create tables, views, and temporary objects | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-tables-views-temporary-objects/) |
-| Write advanced Transact-SQL queries | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/write-advanced-transact-sql-queries/) |
-| Azure NetApp Files fundamentals | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-netapp-files/) |
-| Understand and tune Azure NetApp Files performance | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-performance/) |
-| Transform data by implementing pivot, unpivot, rollup, and cube | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-data-by-implementing-pivot-unpivot-rollup-cube/) |
-| Write queries that use window functions | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-queries-that-use-window-functions/) |
-| Examine SAP S/4HANA on Azure virtual machines | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-sap-s4hana-azure-virtual-machines/) |
-| Implement transactions with Transact-SQL | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-transactions-transact-sql/) |
-| Combine query results with set operators | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/combine-query-results-set-operators/) |
-| Connect to finance and operations apps | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/connect-finance-operations/) |
-| Manage data sources with external data stores in finance and operations apps | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/external-data-sources-finance-operations/) |
-| Integrate finance and operations apps with Microsoft Power Platform | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-finance-operations-apps-power-platform/) |
-| Work with tools and best practices to integrate finance and operations apps with Microsoft Power Platform | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/tools-finance-operations-power-platform/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-04.md](microsoft-learn-2026-07-part-04.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-06.md](microsoft-learn-2026-07-part-06.md)

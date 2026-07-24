@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 3 of 92
-date_range: 2026-07-08 to 2026-07-13
-total_entries: 48
+chunk_part: 3 of 93
+date_range: 2026-07-09 to 2026-07-13
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-03.md
 ---
 
@@ -12,12 +12,38 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Retrace your steps with Recall (preview) | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/recall-preview/) |
+| Enhance video and audio with Windows Studio Effects | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-studio-effects/) |
+| Secure AI agents with Microsoft Purview data security controls | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-agent-data-security/) |
+| Optimize your Windows gaming experience with the Xbox app | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-windows-gaming/) |
+| Describe procurement processes in Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-procurement-processes-dynamics-365/) |
+| Active Directory sites, topology, and replication | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-site-replication/) |
+| Describe manufacturing processes in Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-manufacturing-processes-dynamics-365-supply-chain-management/) |
+| Understand Active Directory Group Policy security settings | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-security-policies/) |
+| Design security solutions for applications and data | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-security-solutions-applications-data/) |
+| Interactive case study: Securing apps and data | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-apps-data/) |
+| Design data models and optimize performance in Azure DocumentDB | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-data-models-optimize-performance-azure-documentdb/) |
+| Recognize and avoid schema design anti-patterns in Azure DocumentDB | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/recognize-avoid-schema-design-anti-patterns-azure-documentdb/) |
+| Query and manipulate data in Azure DocumentDB | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-manipulate-data-azure-documentdb/) |
+| Optimize query performance using indexes in Azure DocumentDB | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-indexes-azure-documentdb/) |
+| Model data relationships in Azure DocumentDB | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/model-data-relationships-azure-documentdb/) |
+| Introduction to Azure DocumentDB | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-documentdb/) |
+| Create and configure an Azure DocumentDB cluster | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-configure-azure-documentdb-cluster/) |
+| Build applications with Azure DocumentDB SDKs | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-applications-azure-documentdb-sdks/) |
+| Apply schema design patterns in Azure DocumentDB | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-schema-design-patterns-azure-documentdb/) |
+| Govern agents using Agent 365 | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-365-govern/) |
+| Explore Microsoft Agent 365 | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/agent-365-solutions/) |
+| Interactive case study: Modernizing identity and data security | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-identity-data-security/) |
+| Accelerate Azure SQL tasks with Microsoft Copilot | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-copilot-administer-azure-sql/) |
+| Improve meeting collaboration with Facilitator in Microsoft Teams | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/facilitator-in-microsoft-teams/) |
+| Program with Transact-SQL | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/program-transact-sql/) |
+| Get started with Transact-SQL programming | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-transact-sql-programming/) |
 | AZ-400: Design and implement a release strategy | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-release-strategy/) |
 | Create a Release Pipeline | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/) |
 | Manage volume access for Azure NetApp Files | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-volume-access-azure-netapp-files/) |
 | Work smarter with Copilot prompts for IT professionals | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-it/) |
-| Integrate agents with enterprise systems in Microsoft Copilot Studio | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-agents-enterprise-systems-copilot-studio/) |
 | Integrate agents with external systems via MCP in Microsoft Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-agents-external-systems-mcp-copilot-studio/) |
+| Integrate agents with enterprise systems in Microsoft Copilot Studio | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-agents-enterprise-systems-copilot-studio/) |
 | Ground agents with enterprise knowledge using connectors and Azure AI Search in Microsoft Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-agents-enterprise-knowledge-connectors-azure-ai-search-copilot-studio/) |
 | Automate desktop and web tasks with computer use in Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-desktop-web-tasks-computer-use-copilot-studio/) |
 | Automate tasks and workflows in Microsoft Copilot Studio | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-tasks-workflows-copilot-studio/) |
@@ -37,29 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Scale responsible AI governance with Azure AI Content Safety and Microsoft Foundry | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-scale-responsible-ai-governance-multi-agent/) |
 | Optimize multi-agent performance and cost in Microsoft Foundry | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-optimize-multi-agent-performance-cost-azure/) |
 | Monitor, evaluate, and operate multi-agent AI solutions in Azure | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-4-monitor-evaluate-operate-multi-agent-ai-solutions-azure/) |
-| Implement distributed observability for multi-agent solutions with OpenTelemetry | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-distributed-observability-multi-agent-opentelemetry/) |
-| Architect production-grade multi-agent AI solutions in Azure | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-1-architect-production-grade-multi-agent-ai-solutions/) |
-| Implement advanced multi-agent orchestration patterns in Microsoft Foundry | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-multi-agent-orchestration-azure-ai-foundry/) |
-| Build production-grade multi-agent capabilities with Microsoft Foundry | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-2-build-production-grade-multi-agent-capabilities-microsoft-foundry/) |
-| Implement advanced RAG pipelines with Azure AI Search and Microsoft Foundry | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-advanced-rag-azure-ai-search/) |
-| Implement CI/CD pipelines for multi-agent systems with GitHub Actions | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-cicd-multi-agent-systems-github-actions/) |
-| Govern the enterprise agent lifecycle in Microsoft Foundry | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-govern-enterprise-agent-lifecycle-azure/) |
-| Design stateful agentic loops with Microsoft Foundry Agent Service | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-agentic-loops-azure-ai-agent-service/) |
-| Design multi-agent memory architectures with Azure Cosmos DB | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-multi-agent-memory-azure-cosmos-db/) |
-| Design human-in-the-loop approval workflows with Power Automate and Microsoft Teams | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-human-in-loop-approval-workflows/) |
-| Design evaluation frameworks for multi-agent solutions with Microsoft Foundry | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-evaluation-frameworks-multi-agent-azure/) |
-| Design enterprise-scale agent communication with A2A in Azure | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-enterprise-agent-communication-a2a/) |
-| Design advanced prompting strategies for production AI agents | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-advanced-prompt-production-agents/) |
-| Debug and respond to production multi-agent incidents in Azure | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-debug-production-multi-agent-incidents-azure/) |
-| Extend Microsoft for Sustainability | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-sustainability/) |
-| Extend Sustainability Manager for building complex Scope 3 calculations | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-complex-calculations/) |
-| Get started with Text Analytics for health | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-text-analytics/) |
-| Work with Text Analytics for health API | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-health-text-analytics/) |
-| Migrate voice services from Skype for Business Server to Teams | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-voice-services-from-skype-for-business-server-to-teams/) |
-| Automate Deployment of SAP on Azure | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-deployment-of-sap-azure/) |
-| Ensure business continuity and implement disaster recovery for SAP solutions on Azure​ | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/ensure-business-continuity-implement-disaster-recovery/) |
-| Implement disaster recovery for SAP workloads in Azure | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-disaster-recovery-for-sap-workloads-azure/) |
-| Overview of Azure Stack Hub | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/overview-of-azure-stack-hub/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-02.md](microsoft-learn-2026-07-part-02.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-04.md](microsoft-learn-2026-07-part-04.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 29 of 92
-date_range: 2026-04-01 to 2026-04-05
-total_entries: 49
+chunk_part: 29 of 93
+date_range: 2026-04-03 to 2026-04-07
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-29.md
 ---
 
@@ -12,6 +12,30 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Use Artificial Intelligence in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-artificial-intelligence/) |
+| Predict late payments for sales documents in Dynamics 365 Business Central | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/predict-late-payments-sales-documents/) |
+| Create a unified customer profile in Dynamics 365 Customer Insights - Data | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/unified-customer-profile/) |
+| Troubleshoot platform-as-a-service issues in Microsoft Azure | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-platform-service-issues/) |
+| Measure performance in Azure Cosmos DB for NoSQL | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/measure-performance-azure-cosmos-db-sql-api/) |
+| Monitor and troubleshoot an Azure Cosmos DB for NoSQL solution | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-troubleshoot-azure-cosmos-db-sql-api-solution/) |
+| Use Docker in your Business Central development process | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-docker-business-central/) |
+| Continuous integration with Azure DevOps for Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/continuous-integration/) |
+| Work with Asset Management for Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-asset-management-dyn365-supply-chain-mgmt/) |
+| Work with warranties in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/warranties-asset-management/) |
+| Configure Asset Management for Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-asset-management-dyn365-supply-chain-mgmt/) |
+| Set up assets in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-assets-asset-management/) |
+| Customize indexes in Azure Cosmos DB for NoSQL | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-indexes-azure-cosmos-db-sql-api/) |
+| Define and implement an indexing strategy for Azure Cosmos DB for NoSQL | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/define-implement-indexing-strategy-cosmos-db-sql-api/) |
+| Access and manage data with the Azure Cosmos DB for NoSQL SDKs | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/access-manage-data-azure-cosmos-db-sql-api-sdks/) |
+| Implement Azure Cosmos DB for NoSQL point operations | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-cosmos-db-sql-api-point-operations/) |
+| Set up a production bill of materials in Dynamics 365 Business Central | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/production-bill-materials/) |
+| Define and track individual goals in Dynamics 365 Sales and Customer Service | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-track-goals-in-dynamics-365/) |
+| Implement goal management in Dynamics 365 Sales and Customer Service | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/apply-goal-management-dynamics-365/) |
+| Forecast your cash flow in Dynamics 365 Business Central | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/forecast-cash-flow-dynamics-365-business-central/) |
+| Posting prepayment invoices for sales and purchase orders in Dynamics 365 Business Central | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepayment-invoices-dynamics-365-business-central/) |
+| Enhance Dynamics 365 Sales with tools and apps | Learningpaths | 2026-04-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-tools-apps-sales/) |
+| Ingest data into Customer Insights - Data | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-customer-insights/) |
+| Troubleshoot network security issues with Microsoft Azure | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-network-security-issues/) |
 | Set up project task lines in Dynamics 365 Business Central | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-job-task-lines/) |
 | Design and implement a replication strategy for Azure Cosmos DB for NoSQL | Learningpaths | 2026-04-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-implement-replication-strategy-cosmos-db-sql-api/) |
 | Use consistency models in Azure Cosmos DB for NoSQL | Modules | 2026-04-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-consistency-models-azure-cosmos-db-sql-api/) |
@@ -36,31 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Query configuration information by using CIM and WMI | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-configuration-information/) |
 | Query and manipulate repository objects by using CIM and WMI methods | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-manipulate-repository-objects/) |
 | Configure multi-region write in Azure Cosmos DB for NoSQL | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-multi-region-write-azure-cosmos-db-sql-api/) |
-| Introduction to manufacturing in Dynamics 365 Business Central | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacturing-introduction/) |
-| Implement security in Azure Cosmos DB for NoSQL | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-azure-cosmos-db-sql-api/) |
-| Know where to leverage AI in your classroom | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/know-where-leverage-ai-classroom/) |
-| Microsoft Education technology and AI learning concepts | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-education-ai-learning/) |
-| Develop generative AI apps that use tools | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-generative-ai-tools/) |
-| Assemble items in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/assemble-items-dynamics-365-business-central/) |
-| Assemble for a project in Dynamics 365 Business Central | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/assemble-projects/) |
-| Create and manage work orders in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-work-orders-asset-management/) |
-| Manage cloud resources by using Windows PowerShell | Learningpaths | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-cloud-resources-use-windows-powershell/) |
-| Manage Azure resources with Windows PowerShell | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-resources-windows-powershell/) |
-| Apply principles of Zero Trust to Microsoft Copilots | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-principles-zero-trust-microsoft-copilot/) |
-| Manage Microsoft 365 Copilot administration | Learningpaths | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-microsoft-365-copilot-administration/) |
-| Implement the data process model in Dynamics 365 Business Central | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-process-model-business-central/) |
-| Understand data warehouse developer features of Azure Synapse Analytics | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-data-warehouse-developer-features-of-azure-synapse-analytics/) |
-| Troubleshoot VPN gateways in Microsoft Azure | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-vpn-gateways/) |
-| Work with projects and resources in Dynamics 365 Business Central | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-jobs-and-resources/) |
-| Work with landed cost in Dynamics 365 Supply Chain Management | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-landed-cost-supply-chain-management/) |
-| Set up and work with landed cost in Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/setup-work-landed-cost-dyn365-supply-chain-mgmt/) |
-| Introduction to computer vision with TensorFlow | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-computer-vision-tensorflow/) |
-| AI for nonprofits by Microsoft Elevate and NetHope | Learningpaths | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-nonprofits-microsoft-elevate-nethope/) |
-| Use AI for nonprofit role-based tasks, tools, and workflows | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-nonprofit-role-base-tasks-tools-workflows/) |
-| Guided project: Share files securely | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-share-files-securely/) |
-| Introduction to cloud infrastructure: Apply Azure skills in guided projects | Learningpaths | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-cloud-infrastructure-apply-azure-skills-guided-projects/) |
-| Guided project: Set up cost guardrails in Azure | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-cost-guardrails/) |
-| Guided project: Organize and protect resources with tags and locks | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-organize-resources-tags-locks/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-28.md](microsoft-learn-2026-07-part-28.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-30.md](microsoft-learn-2026-07-part-30.md)

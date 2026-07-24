@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 12 of 92
-date_range: 2026-05-31 to 2026-06-04
-total_entries: 51
+chunk_part: 12 of 93
+date_range: 2026-06-02 to 2026-06-06
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-12.md
 ---
 
@@ -12,6 +12,32 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Enhance endpoint security with Microsoft Intune and Microsoft Security Copilot | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-endpoint-security-microsoft-intune-copilot/) |
+| Prepare Microsoft Entra ID and Intune for device management | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-microsoft-entra-id-intune-device-management/) |
+| Harden endpoints and monitor security with Microsoft Intune and Defender for Endpoint | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-endpoints-monitor-security-intune-defender-endpoint/) |
+| Enroll and validate devices with Microsoft Intune | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-validate-devices-microsoft-intune/) |
+| Configure and secure devices with Microsoft Intune policies | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-devices-intune-policies/) |
+| Accelerate endpoint remediation and response with Microsoft Security Copilot | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/accelerate-endpoint-remediation-response-security-copilot/) |
+| Analyze advanced device signals with Microsoft Intune Suite | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-advanced-device-signals/) |
+| Explore Windows 365 for cloud PC deployment | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-365-intune/) |
+| Manage capacity pool for Azure NetApp Files | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-capacity-pool-azure-netapp-files/) |
+| Deliver zero-touch Windows 11 Pro deployments | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-zero-touch/) |
+| Take action on content with Click to Do | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/click-to-do/) |
+| Monitor and troubleshoot applications on Azure Kubernetes Service | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-apps-azure-kubernetes-service/) |
+| Protect data and control access with Microsoft Intune and Conditional Access | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-data-control-access-intune-conditional-access/) |
+| Introduction to finance in Dynamics 365 | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-finance-dynamics-365/) |
+| Describe accounts payables and receivables in Dynamics 365 Finance | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-account-payables-account-receivables/) |
+| Implement container application hosting on Azure | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-container-app-hosting-azure/) |
+| Store and manage containers in Azure Container Registry | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/store-manage-containers-azure-container-registry/) |
+| AI in special education | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-in-special-education/) |
+| Streamline administrative tasks with AI tools | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/streamline-administrative-tasks-ai/) |
+| Integrate Azure Virtual Desktop with Microsoft Intune | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-azure-virtual-desktop-intune/) |
+| Implement Remote Help scenarios using Microsoft Intune | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-remote-help/) |
+| Explore Microsoft Intune Suite capabilities | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-intune-suite-capabilities/) |
+| Explore Azure Virtual Desktop | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-virtual-desktop/) |
+| Evaluate Endpoint Privilege Management with Microsoft Intune | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-endpoint-privilege-management/) |
+| Configure and manage Windows 365 with Microsoft Intune | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-windows-365-intune/) |
+| Resident radiologist workflow foundations | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-resident-radiologist-workflow-foundations/) |
 | Resident learning and feedback tools | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-resident-learning-feedback-tools/) |
 | Basic reporting in PowerScribe One for residents | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-resident-basic-reporting/) |
 | Manage Active Directory for Azure NetApp Files | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/managing-azure-netapp-files-manage-active-directory/) |
@@ -36,33 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build and query with Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-database-postgresql/) |
 | Reduce data exposure risk with Data Security Posture Management in Microsoft Purview | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-data-security-posture-management/) |
 | Understand data security posture management in Microsoft Purview | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-posture-management-understand/) |
-| Implement application protection and security using Microsoft Intune | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-protection-intune/) |
-| Implement Microsoft Defender for Endpoint using Microsoft Intune | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-endpoint-intune/) |
-| Manage AI-ready infrastructure | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-ai-ready-infrastructure/) |
-| Manage monitoring for AI-Ready Infrastructure | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitoring-ai-ready-infrastructure/) |
-| Apply governance controls to AI-ready workloads | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
-| Govern AI-ready infrastructure | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/govern-ai-ready-infrastructure/) |
-| Develop AI solutions with Azure Cosmos DB for NoSQL | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-cosmos-db/) |
-| Build queries for Azure Cosmos DB for NoSQL | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-cosmos-db/) |
-| Optimize query performance for Azure Cosmos DB for NoSQL | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-azure-cosmos-db/) |
-| Implement vector search on Azure Cosmos DB for NoSQL | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-search-azure-cosmos-db/) |
-| Protect and govern AI ready infrastructure with Azure | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-govern-ai-ready-infrastructure-azure/) |
-| Manage secure AI-ready infrastructure | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secure-ai-ready-infrastructure/) |
-| Implement resilient AI-ready infrastructure | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-resilient-ai-ready-infrastructure/) |
-| Secure AI-ready infrastructure | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-ai-ready-infrastructure/) |
-| Implement identity-based security for Azure Machine Learning workspaces | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-identity-based-security-azure-machine-learning/) |
-| Use agent flows in Copilot Studio | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-agent-flows/) |
-| Implement security controls for Azure AI-ready infrastructure | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-azure-ai-ready-infrastructure/) |
-| Understand identity architecture for AI workloads | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/entra-ai-understand/) |
-| Integrate backend services for AI solutions | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-backend-services-ai-solutions/) |
-| Queue and process AI operations with Azure Service Bus | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/queue-process-operations-service-bus/) |
-| Develop event-driven AI workflows with Azure Event Grid | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/event-driven-workflows-event-grid/) |
-| Enforce compliance and remediate security issues by using Microsoft Intune | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-compliance-intune/) |
-| Develop AI-enabled apps using the GitHub Copilot SDK | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-ai-enabled-apps-using-github-copilot-sdk/) |
-| Build serverless AI backends with Azure Functions | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-backends-azure-functions/) |
-| Manage application settings with Azure App Configuration | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-app-settings-app-config/) |
-| Manage application secrets and configuration for AI solutions | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-app-secrets-configuration/) |
-| Manage application secrets with Azure Key Vault | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-app-secrets-key-vault/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-11.md](microsoft-learn-2026-07-part-11.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-13.md](microsoft-learn-2026-07-part-13.md)

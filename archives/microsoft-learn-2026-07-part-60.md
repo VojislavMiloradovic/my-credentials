@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 60 of 92
-date_range: 2026-01-15 to 2026-01-18
-total_entries: 55
+chunk_part: 60 of 93
+date_range: 2026-01-16 to 2026-01-18
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-60.md
 ---
 
@@ -12,6 +12,31 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Work with generative artificial intelligence (AI) models in Azure Machine Learning | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-generative-models-azure-machine-learning/) |
+| Govern and protect sensitive information in the age of AI | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-govern-ai/) |
+| Manage compliance with Microsoft Purview for Microsoft 365 Copilot | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-data-compliance/) |
+| Explore PostgreSQL architecture | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-postgresql-architecture/) |
+| Create and manage Insider Risk Management policies | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-create-manage-insider-risk-policy/) |
+| Manage and secure Power BI | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-secure-power-bi/) |
+| Create dashboards in Power BI | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/) |
+| Choose a content distribution method | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-content-distribution-method/) |
+| Manage semantic models in Power BI | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-datasets-power-bi/) |
+| Manage workspaces in Power BI service | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-workspaces-power-bi-service/) |
+| Secure data access in Power BI | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/row-level-security-power-bi/) |
+| Deploy applications to Azure Kubernetes Service | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-applications-azure-kubernetes-service/) |
+| Modify DAX filter context in semantic models | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-modify-filter/) |
+| Prepare for Microsoft Purview Insider Risk Management | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-prepare-insider-risk-management/) |
+| Understand Microsoft Purview Insider Risk Management | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-explore-insider-risk-management/) |
+| Manage AI data security challenges with Microsoft Purview | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-data-security/) |
+| Implement Adaptive Protection in Insider Risk Management | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-irm-adaptive-protection/) |
+| Optimize a model for performance in Power BI | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/) |
+| Drive higher utilization of your Java apps - autoscaling | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/autoscale-java-azure/) |
+| Identify and mitigate AI data security risks | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-identify-mitigate-ai-risks/) |
+| Scope report design requirements | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-requirements/) |
+| Learn how Microsoft supports data discovery, classification, and protection as part of a cybersecurity solution | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-identification-cybersecurity/) |
+| Implement information protection and data loss prevention by using Microsoft Purview | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-information-protection-data-loss-prevention/) |
+| Prevent data loss with Microsoft Purview | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-prevent-data-loss/) |
+| Implement information protection and data loss prevention with Microsoft Purview | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-exercise-information-protection-data-loss-prevention/) |
 | Enhance Power BI report designs for the user experience | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/) |
 | Apply sensitivity labels for data protection | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-manage-sensitivity-labels/) |
 | MD-102 Explore endpoint management | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-endpoint-management/) |
@@ -40,33 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with GitHub Copilot | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-github-copilot/) |
 | Describe general ledger and cash and bank management processes in Dynamics 365 Finance | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-general-ledger-cash-bank-management/) |
 | Personalize learning for students with disabilities using AI | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/personalize-learning-students-disabilities-using-ai/) |
-| Build agent-driven workflows using Microsoft Foundry | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-agent-workflows-microsoft-foundry/) |
-| Apply AI tools in special education environments | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-special-education/) |
-| Support multilingual and accessible family communication | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-multilingual-accessible-family-communication/) |
-| Teach information literacy with Search Coach and Search Progress | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-information-literacy-search-coach-search-progress/) |
-| Understand Data Security Investigations | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-investigations-understand/) |
-| Introduction to Azure HDInsight | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-hdinsight/) |
-| Implement interfaces | Learningpaths | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-interfaces-new/) |
-| Apply interfaces in code | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-interfaces-code/) |
-| Null safety in C# | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-null-safety/) |
-| Take your first steps with F# | Learningpaths | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/fsharp-first-steps/) |
-| Write your first F# code | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/fsharp-first-steps/) |
-| Understand and plan data loss prevention | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-understand-plan/) |
-| Security and management for Windows 11 Pro | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-management/) |
-| Process receipts with AI Builder | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-receipt-processing/) |
-| Ride the Wakelet wave! | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/ride-wakelet-wave/) |
-| Enhance productivity with Power Automate and the Office 365 Outlook Connector | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-productivity/) |
-| Discover interfaces | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-interfaces/) |
-| Introduction to Azure Communication Services | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-communication-services/) |
-| Explore Azure Synapse Studio | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-synapse-studio/) |
-| Create vendor invoice for resource non-stocked deployment in Dynamics 365 Project Operations | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vendor-invoice-resource-non-stocked/) |
-| Introduction to Viva Learning | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-learning-introduction/) |
-| Extend Microsoft 365 Copilot in .NET | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility/) |
-| Extend Microsoft 365 Copilot in TypeScript | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility-typescript/) |
-| Get started with Microsoft 365 Copilot extensibility | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-extensibility-intro/) |
-| Get to know Microsoft Azure cloud platform: An overview for business professionals | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-know-microsoft-azure-cloud-platform-business-professionals/) |
-| Describe the business benefits of Azure | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-benefits-azure/) |
-| Gaming accessibility fundamentals | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/gaming-accessibility-fundamentals/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-59.md](microsoft-learn-2026-07-part-59.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-61.md](microsoft-learn-2026-07-part-61.md)

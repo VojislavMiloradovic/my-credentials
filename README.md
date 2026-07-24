@@ -12,13 +12,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
-- **Total Experience Points (XP):** 5,884,275
+- **Total Experience Points (XP):** 5,920,875
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,834
+- **Badges Earned (Profile):** 3,860
 - **Trophies Earned (Profile):** 898
 - **Completed Learning Paths (Active Tracker):** 509
-- **Completed Modules (Active Tracker):** 2,584
-- **Completed Individual Units:** 34,944
+- **Completed Modules (Active Tracker):** 2,610
+- **Completed Individual Units:** 35,206
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -29,18 +29,18 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,732 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,758 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
-- **Build intelligent apps and portals with Microsoft Power Apps** (Learningpaths | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/build-apps-portals-power-apps/))
-- **Explore Power Pages design studio** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/power-pages-studio/))
-- **Core components of Power Pages** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/power-pages-intro/))
-- **Create and manage canvas apps with Power Apps** (Learningpaths | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/create-manage-canvas-apps-power-apps/))
-- **Publish, share, and maintain a canvas app** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/publish-share-maintain-app/))
-- **From prompts to goals** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/from-prompts-to-goals/))
-- **Troubleshoot Active Directory Domain Services replication** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/troubleshoot-active-directory-replication/))
-- **Work smarter with Copilot prompts for finance professionals** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-finance/))
-- **Manage application volume groups for SAP HANA in Azure NetApp Files** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/manage-application-volume-groups-sap-hana-azure-netapp-files/))
-- **Work smarter with Copilot prompts for legal professionals** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-legal/))
+- **Manage application volume groups for Oracle in Azure NetApp Files** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/manage-application-volume-groups-oracle-azure-netapp-files/))
+- **Ensure availability and resilience in Power Platform** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/ensure-availability-resilience/))
+- **Deliver solutions with pipelines in Power Platform** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/deliver-solutions-pipelines/))
+- **Configure the Dataverse security model in Power Platform** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/configure-dataverse-security-model/))
+- **Audit and retain Dataverse data in Power Platform** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/audit-retain-dataverse-data/))
+- **Streamline development workflows with Windows 11** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/windows-for-developers/))
+- **Secure email and collaboration with Microsoft Defender for Office 365** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/secure-email-collaboration-defender-office365/))
+- **Provision and brand a Microsoft 365 tenant** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/provision-brand-microsoft-365-tenant/))
+- **Prevent data loss and govern the data lifecycle with Microsoft Purview** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/prevent-data-loss-lifecycle-purview/))
+- **Monitor and optimize Microsoft 365 AI services** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/monitor-optimize-m365-ai-services/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

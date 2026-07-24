@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 51 of 92
-date_range: 2026-02-07 to 2026-02-08
-total_entries: 53
+chunk_part: 51 of 93
+date_range: 2026-02-08 to 2026-02-09
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-51.md
 ---
 
@@ -12,6 +12,31 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Manage device authentication | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-device-authentication/) |
+| Register apps using Microsoft Entra ID | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-apps-use-microsoft-entra-id/) |
+| Enroll devices using Microsoft Intune | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-devices-use-microsoft-intune/) |
+| Manage synchronized identities | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-synchronized/) |
+| Manage collaboration experiences for chat and channels | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-collaboration-experiences-for-chat-channels/) |
+| Respond to data loss prevention alerts using Microsoft 365 | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/respond-to-data-loss-prevention-alerts-microsoft-365/) |
+| Visualize real-time data with Azure Stream Analytics and Power BI | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/visualize-real-time-data-azure-stream-analytics-power-bi/) |
+| Azure Virtual Desktop Architecture | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-desktop-architecture/) |
+| Plan an Azure Virtual Desktop implementation | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-azure-virtual-desktop-implementation/) |
+| Manage Windows Servers and workloads in a hybrid environment | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-windows-servers-workloads-hybrid-environment/) |
+| Perform post-installation configuration of Windows Server | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-post-installation-configuration-of-windows-server/) |
+| Implement a Data Analytics Solution with Azure Databricks | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-engineer-azure-databricks/) |
+| Build Lakeflow Declarative Pipelines | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-data-pipeline-with-delta-live-tables/) |
+| Create formulas to change behaviors in a Power Apps canvas app | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/author-basic-formula-change-behaviors-powerapps/) |
+| Use Monitor to troubleshoot Power Apps | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-to-troubleshoot/) |
+| Describe performance monitoring | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-performance-monitoring/) |
+| Authentication and user management in Power Pages | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-authentication-user-management/) |
+| Perform general ledger daily procedures in Dynamics 365 Finance | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/general-ledger-daily-procedures-dyn365-finance/) |
+| Design for user identities and profiles | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-user-identities-profiles/) |
+| Prepare for identity synchronization to Microsoft 365 | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-synchronization-microsoft-365/) |
+| Manage hybrid workloads with Azure Arc | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-hybrid-workloads-azure-arc/) |
+| Use approval workflows in Dynamics 365 Business Central | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-approval-workflows/) |
+| Set up ledgers and journals in Dynamics 365 Finance | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ledgers-journals-dyn365-finance/) |
+| Deploy workloads with Lakeflow Jobs | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-workloads-with-databricks-workflows/) |
+| Create and publish agents with Microsoft Copilot Studio | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-power-virtual-agents/) |
 | Build effective agents with Microsoft Copilot Studio | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-effective-bots/) |
 | Explore compliance in Microsoft 365 | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-plan-compliance-microsoft-365/) |
 | GitHub administration for enterprise support and adoption | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-administration-for-enterprise-support-adoption/) |
@@ -39,32 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Automate your workflow with GitHub Actions Part 1 of 2 | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-actions/) |
 | Connect logs to Microsoft Sentinel | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-connect-logs-to-azure-sentinel/) |
 | Connect data to Microsoft Sentinel using data connectors | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-data-to-azure-sentinel-with-data-connectors/) |
-| Monitor Windows Server performance | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-windows-server-performance/) |
-| Design the Azure Virtual Desktop architecture | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-azure-virtual-desktop-architecture/) |
-| Build and optimize cloud flows in Power Automate | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-optimize-cloud-flows-power-automate/) |
-| Troubleshoot slow-running flows in Power Automate | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-slow-flows/) |
-| Build and store container images with Azure Container Registry | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-and-store-container-images/) |
-| Administer containers in Azure | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/administer-containers-in-azure/) |
-| Architect modern applications in Azure | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-modern-apps/) |
-| Threat response with Microsoft Sentinel playbooks | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/threat-response-sentinel-playbooks/) |
-| Plan and implement advanced security for compute | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-security-compute/) |
-| Protect compute, storage, and databases | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-compute-storage-databases/) |
-| Set up financial dimensions in Dynamics 365 Finance | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-financial-dimensions-finance/) |
-| Train and evaluate regression models | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-evaluate-regression-models/) |
-| Query, visualize, and monitor data in Microsoft Sentinel | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-data-sentinel/) |
-| Review Windows PowerShell | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/review-windows-powershell/) |
-| Connect Windows hosts to Microsoft Sentinel | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-windows-hosts-to-azure-sentinel/) |
-| Configure and manage threat protection by using Microsoft Defender for Cloud | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-defender-cloud-threat-protection/) |
-| Migrate SQL Server workloads to Azure Virtual Machine | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-sql-workloads-azure-virtual-machines/) |
-| Identify threats with Behavioral Analytics | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-entity-behavior-analytics-azure-sentinel/) |
-| Manage content in Microsoft Sentinel | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-content-microsoft-sentinel/) |
-| Manage security posture by using Microsoft Defender for Cloud | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-defender-cloud-security-posture/) |
-| Connect syslog data sources to Microsoft Sentinel | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-syslog-data-sources-to-azure-sentinel/) |
-| Manage tenant health and services in Microsoft 365 | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-tenant-services-microsoft-365/) |
-| Create a relationship between tables in Dataverse | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-relationship-between-cds-entities/) |
-| Threat detection with Microsoft Sentinel analytics | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-data-in-sentinel/) |
-| Implement directory synchronization tools | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-synchronization-tools/) |
-| Enroll devices using Microsoft Endpoint Configuration Manager | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-devices-using-microsoft-endpoint-configuration-manager/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-50.md](microsoft-learn-2026-07-part-50.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-52.md](microsoft-learn-2026-07-part-52.md)

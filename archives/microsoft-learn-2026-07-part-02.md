@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 2 of 92
-date_range: 2026-07-13 to 2026-07-14
+chunk_part: 2 of 93
+date_range: 2026-07-13 to 2026-07-17
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-02.md
 ---
@@ -12,6 +12,32 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Get started with Power Apps canvas apps | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps/) |
+| Define and create business rules in Dataverse | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-create-business-rules/) |
+| Design a single-domain Active Directory forest | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-single-domain-active-directory-forest/) |
+| Design a multi-domain Active Directory forest | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-domain-forest-trust/) |
+| Get started with 5G on Surface for Business devices | Modules | 2026-07-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-5g/) |
+| Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-identity-lifecycle-workflows/) |
+| Analyze requirements for AI-powered business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-requirements-ai-powered-business-solutions/) |
+| Architect AI solutions for business productivity | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-agentic-ai-business-solutions/) |
+| Introduction to agentic AI business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-agentic-ai-business-solution-architecture/) |
+| Manage testing AI-powered business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-testing-ai-powered-business-solutions/) |
+| Evaluate costs and benefits of AI solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-costs-benefits-ai-powered-business-solution/) |
+| Design extensibility of AI solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-extensibility-ai-solutions/) |
+| Monitor, analyze, and tune AI agents | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-monitor-tune-ai-powered-business-solutions/) |
+| Design overall AI strategy for business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-overall-ai-strategy-business-solutions/) |
+| Optimize DevOps with AI agents on Azure | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/optimize-devops-ai-agents-azure/) |
+| Introduction to agentic DevOps using Microsoft tools on Azure | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-agentic-devops-microsoft-tools-azure/) |
+| Interactive case study: Securing endpoints and infrastructure | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-endpoints-infrastructure/) |
+| Design security solutions for infrastructure | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-security-solutions-infrastructure/) |
+| Design security operations, identity, and compliance capabilities | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-operations-identity-compliance-capabilities/) |
+| Interactive case study: Modernizing user access control and threat resilience | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-access-control-threat-resilience/) |
+| Prepare AI-ready analytics data in Microsoft Fabric | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-ai-ready-analytics-data/) |
+| Prepare the semantic layer for AI in Microsoft Fabric | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/fabric-prepare-semantic-layer/) |
+| Optimize semantic model performance | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-semantic-model-performance/) |
+| Design and manage semantic models in Microsoft Fabric | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-manage-semantic-models-fabric/) |
+| Enforce semantic model security | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-semantic-model-security/) |
+| Design responsible AI security, governance, risk management, and compliance | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-responsible-ai-security-governance-risk-management-compliance/) |
 | Design AI agents for business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ai-agents-business-solutions/) |
 | Editor workflow foundations | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-editor-workflow-foundations/) |
 | Introduction to the editor role in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-introduction-editor-role/) |
@@ -27,8 +53,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Describe work allocation capabilities | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-work-allocation-capabilities/) |
 | Describe Dynamics 365 Contact Center supervisor experience | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-contact-center-supervisor-experience/) |
 | Describe Dynamics 365 Contact Center representative experience | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-contact-center-representative-experience/) |
-| Describe warehouse management in Dynamics 365 Supply Chain Management | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-warehouse-management-dynamics-365/) |
 | Introduction to supply chain management in Dynamics 365 | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-supply-chain-management-dynamics-365/) |
+| Describe warehouse management in Dynamics 365 Supply Chain Management | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-warehouse-management-dynamics-365/) |
 | Describe sales processes in Dynamics 365 Supply Chain Management | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sales-processes-dynamics-365-supply-chain-management/) |
 | Describe inventory management in Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-management-supply-chain-management/) |
 | Describe inventory costing and master planning in Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-costing-master-planning-dynamics-365-supply-chain-management/) |
@@ -37,32 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage dual volumes in Azure NetApp Files | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-netapp-files-dual-volumes/) |
 | Use Live Captions in Windows to better understand audio | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/live-captions/) |
 | Use the Copilot+ PC Hub to get started with Copilot+ PCs | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-pc-hub-adoption/) |
-| Retrace your steps with Recall (preview) | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/recall-preview/) |
-| Enhance video and audio with Windows Studio Effects | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-studio-effects/) |
-| Secure AI agents with Microsoft Purview data security controls | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-agent-data-security/) |
-| Optimize your Windows gaming experience with the Xbox app | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-windows-gaming/) |
-| Describe procurement processes in Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-procurement-processes-dynamics-365/) |
-| Active Directory sites, topology, and replication | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-site-replication/) |
-| Describe manufacturing processes in Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-manufacturing-processes-dynamics-365-supply-chain-management/) |
-| Understand Active Directory Group Policy security settings | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-security-policies/) |
-| Interactive case study: Securing apps and data | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-apps-data/) |
-| Design security solutions for applications and data | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-security-solutions-applications-data/) |
-| Design data models and optimize performance in Azure DocumentDB | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-data-models-optimize-performance-azure-documentdb/) |
-| Recognize and avoid schema design anti-patterns in Azure DocumentDB | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/recognize-avoid-schema-design-anti-patterns-azure-documentdb/) |
-| Query and manipulate data in Azure DocumentDB | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-manipulate-data-azure-documentdb/) |
-| Optimize query performance using indexes in Azure DocumentDB | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-indexes-azure-documentdb/) |
-| Model data relationships in Azure DocumentDB | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/model-data-relationships-azure-documentdb/) |
-| Introduction to Azure DocumentDB | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-documentdb/) |
-| Create and configure an Azure DocumentDB cluster | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-configure-azure-documentdb-cluster/) |
-| Build applications with Azure DocumentDB SDKs | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-applications-azure-documentdb-sdks/) |
-| Apply schema design patterns in Azure DocumentDB | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-schema-design-patterns-azure-documentdb/) |
-| Govern agents using Agent 365 | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-365-govern/) |
-| Explore Microsoft Agent 365 | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/agent-365-solutions/) |
-| Interactive case study: Modernizing identity and data security | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-identity-data-security/) |
-| Accelerate Azure SQL tasks with Microsoft Copilot | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-copilot-administer-azure-sql/) |
-| Improve meeting collaboration with Facilitator in Microsoft Teams | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/facilitator-in-microsoft-teams/) |
-| Program with Transact-SQL | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/program-transact-sql/) |
-| Get started with Transact-SQL programming | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-transact-sql-programming/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-01.md](microsoft-learn-2026-07-part-01.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-03.md](microsoft-learn-2026-07-part-03.md)

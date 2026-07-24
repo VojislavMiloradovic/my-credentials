@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 66 of 92
-date_range: 2025-12-31 to 2026-01-02
-total_entries: 56
+chunk_part: 66 of 93
+date_range: 2026-01-01 to 2026-01-03
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-66.md
 ---
 
@@ -12,6 +12,31 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Set up the Shopify connector in Dynamics 365 Business Central | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/shopify-connector-setup/) |
+| Get started with the Shopify connector in Dynamics 365 Business Central | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-shopify-dynamics-365-business-central/) |
+| Establish the guiding principles and core components of Zero Trust | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/zero-trust-principles/) |
+| Protect data with Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-data/) |
+| Protect infrastructure with Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-infrastructure/) |
+| Describe application access in Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-applications/) |
+| Secure endpoints with Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-endpoints/) |
+| Manage networks with Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-networks/) |
+| Intro to Azure Service Health | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-service-health/) |
+| Research and learn using Microsoft Edge | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/research-learn-using-microsoft-edge/) |
+| Enrich the learning experience in the Microsoft Edge browser | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/enrich-learning-experience-microsoft-edge-browser/) |
+| Stay organized and find resources with Microsoft Edge | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/stay-organized-find-resources-classroom-microsoft-edge/) |
+| Set up Microsoft Edge for learning and teaching | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-microsoft-edge-learning-teaching/) |
+| Design and implement network monitoring | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-network-monitoring/) |
+| Monitor hybrid virtual machines, containers, and network resources | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-hybrid-virtual-machines-containers-network/) |
+| Monitor your hybrid and multicloud machines through Azure Arc-enabled servers | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-azure-arc-enabled-servers/) |
+| Bring Azure innovation to your hybrid environments with Azure Arc | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-hybrid-infrastructure-with-azure-arc/) |
+| Operationalize your Azure Data Factory or Azure Synapse Pipeline | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/operationalize-azure-data-factory-pipelines/) |
+| Data integration at scale with Azure Data Factory or Azure Synapse Pipeline | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-integration-scale-azure-data-factory/) |
+| Execute existing SSIS packages in Azure Data Factory or Azure Synapse Pipeline | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/execute-existing-ssis-packages-azure-data-factory/) |
+| Orchestrate data movement and transformation in Azure Data Factory or Azure Synapse Pipeline | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-data-movement-transformation-azure-data-factory/) |
+| Populate slowly changing dimensions in Azure Synapse Analytics pipelines | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines/) |
+| Petabyte-scale ingestion with Azure Data Factory or Azure Synapse Pipeline | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/petabyte-scale-ingestion-azure-data-factory/) |
+| Perform code-free transformation at scale with Azure Data Factory or Azure Synapse Pipeline | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-free-transformation-scale/) |
+| Get started with process mining in Power Automate | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-process-advisor/) |
 | Create Power BI reports with Power Automate Process Mining | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-reports-process-mining/) |
 | Analyze processes with the Power Automate Process Mining desktop app | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-processes-process-mining/) |
 | Get started with the Power Automate Process Mining desktop app | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-mining-desktop-app/) |
@@ -40,34 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Accelerate nonprofit funding solutions with Microsoft Copilot | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/accelerate-nonprofit-funding-solutions-microsoft-copilot/) |
 | Manage agents for Microsoft 365 Copilot | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-agents-microsoft-365-copilot/) |
 | Introduction to the Microsoft Viva suite | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-suite-introduction/) |
-| Manage Authentication, Authorization, and RBAC for AI workloads on Azure | Learningpaths | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-iam-for-ai-workloads-on-azure/) |
-| Secure Azure OpenAI authentication and authorization | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-openai-authentication-authorization/) |
-| Add intelligence to a real estate solution with AI Builder's GPT prompts | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-intelligence-ai-copilot/) |
-| Build flows for a real estate solution using Copilot in Power Automate | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-real-estate-power-automate-copilot/) |
-| Build a Power Apps canvas app for a real estate solution with Copilot in Power Apps | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-canvas-app-real-estate-power-apps-copilot/) |
-| Build a Power Apps canvas app for a real estate solution with data from Excel | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-canvas-app-real-estate-excel/) |
-| Introduction to Power Apps cards | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-apps-cards/) |
-| Set up low-code plug-ins | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-low-code/) |
-| Power the classroom with SharePoint | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-classroom-sharepoint/) |
-| Update Windows clients | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/update-windows-clients/) |
-| MD-100 Manage apps and Windows updates | Learningpaths | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-apps-windows-updates/) |
-| Manage the Microsoft Edge browser | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-edge-browser/) |
-| Manage Universal Windows Platform apps | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-universal-windows-platform-apps/) |
-| Provide apps to users | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/provide-apps-users/) |
-| Explore the Windows servicing model | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-servicing-model/) |
-| Understand Microsoft datacenter security | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-physical-security/) |
-| Learn how Microsoft safeguards customer data | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/audit-safeguard-customer-data/) |
-| Understand Microsoft Online Services subprocessor management | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-subprocessor-management/) |
-| Understand Microsoft 365 privacy | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-privacy/) |
-| Understand Microsoft Online Services security development and operation | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-security-development-operation/) |
-| Understand Microsoft Online Services resiliency and continuity | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-resiliency-continuity/) |
-| Understand Microsoft 365 vulnerability management | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-vulnerability-management/) |
-| Understand Microsoft 365 audit logging and monitoring | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-logging-monitoring/) |
-| Understand Microsoft 365 identity and access management | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-identity-access-management/) |
-| Understand Microsoft Online Services security incident management | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-incident-management/) |
-| Understand Microsoft 365 cloud architecture | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-architecture/) |
-| Understand Microsoft 365 governance | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-governance/) |
-| Understand Microsoft 365 risk management | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-risk-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-65.md](microsoft-learn-2026-07-part-65.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-67.md](microsoft-learn-2026-07-part-67.md)
