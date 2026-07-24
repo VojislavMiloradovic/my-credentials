@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 5 of 10
-date_range: 2026-05-25 to 2026-06-07
+date_range: 2026-05-27 to 2026-06-08
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-05.md
 ---
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-08 | **LFD137: Open Source Contribution in Finance** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/07bb1039-dd83-4aab-a319-d18af966d01a) |
+| 2026-06-08 | **LFQ101: Fundamentals of Quantum Computing** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/dbaa0c7b-652d-4505-a80a-4d8dd2551426) |
+| 2026-06-08 | **LFS118: Ethical Principles for Conversational AI** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/c18e2ce0-83e2-4e77-ba8e-2daa7a2cddfa) |
+| 2026-06-08 | **LFS158: Introduction to Kubernetes** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/85746ca0-36fc-4ba0-b753-d0dce904b02d) |
+| 2026-06-08 | **Process Accelerator Badge** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/66e95c6f-7100-4007-ae22-1fc36a1d638d) |
+| 2026-06-08 | **SKF100: Understanding the OWASP® Top 10 Security Threats** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/8a0199ec-ff1c-4b87-a185-92cf277719e6) |
 | 2026-06-07 | **AWS Knowledge: Amazon Braket - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/8a9f2e87-0407-4376-8b09-d10fa0b6a6b9) |
 | 2026-06-07 | **LFS101: Introduction to Linux** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/e0a7c437-4f29-4111-96d2-2c8f15eb14cc) |
 | 2026-06-07 | **Google Play Academy - Store Listing Certificate** | Google Play Academy | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/1473fa50-8b83-4ccf-a376-6cd671db8b80) |
@@ -57,12 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-27 | **Architecture and Administration for SAS Workload Management on SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/8ab110d2-4f48-4270-a365-2d39a121015c) |
 | 2026-05-27 | **Deploying SAS Event Stream Processing on SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/23f9cee5-1e7b-4c04-9819-ca58eaa54c81) |
 | 2026-05-27 | **Deploying SAS Grid Manager for Platform** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/b96c02e5-ee74-4756-a24d-5109b66c2d93) |
-| 2026-05-26 | **Manage Data Models in Looker Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/eb5fb255-8dfa-4798-9894-3d7342f2c28a) |
-| 2026-05-25 | **AWS Cloud Quest: Cloud Practitioner - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/732fc941-03ee-436a-adf5-5ccd23c8c309) |
-| 2026-05-25 | **Basics in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/51e91ad5-5d40-4d85-8cde-7828857f37b5) |
-| 2026-05-25 | **Engaging Stakeholders for Success** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/0fcc81f0-1d05-4360-b9d0-8fc80be31895) |
-| 2026-05-25 | **Lucidchart Fundamentals** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/964323c2-0693-4faf-a973-7324c4736657) |
-| 2026-05-25 | **Org charts in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/1884360b-cb1c-4b7a-a83f-e084d0994093) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md)

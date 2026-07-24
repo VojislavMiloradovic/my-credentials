@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 9 of 10
-date_range: 2025-11-20 to 2026-04-18
+date_range: 2026-03-14 to 2026-04-20
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-09.md
 ---
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-04-20 | **Introduction to Greenhouse Gas Accounting for IT** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/1b2c72f1-8e6b-4d6a-8e87-4c3a404a6250) |
+| 2026-04-20 | **Working with Invoice Pay in Concur Invoice Professional - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/6a8ba215-f454-4b26-91ef-5ff968b721f7) |
+| 2026-04-19 | **AI Fundamentals: Foundations for Understanding AI** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/2a493aff-eb08-4456-8683-8b9d1d7c5eef) |
+| 2026-04-19 | **AWS Knowledge: AWS Transform Fundamentals – Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/54d81ecb-6fd5-4ff9-aba6-6acaa59cdcec) |
+| 2026-04-19 | **Introduction to IoT** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/9fd72888-3b11-4f02-b53a-1506890ed015) |
+| 2026-04-19 | **Google Ads Display Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/aaa06037-984b-436d-a969-138478771e90) |
 | 2026-04-18 | **Digital Awareness** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/9edc3f97-91e5-4d5d-b674-27e822964fb4) |
 | 2026-04-18 | **Modernizing Integration with SAP Integration Suite - SAP Learning MOOC - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/f3166cf7-82ab-4871-8b96-7ed8cbf350e6) |
 | 2026-04-18 | **Understanding SAP’s 2026 Go-to-Market Direction for Partners - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/cccb34bc-a8ae-4c85-8a7f-793cd28bfa1b) |
@@ -53,12 +59,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-03-15 | **Google Ads Search Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/f0f3a46f-f6a1-4145-8fb5-2c2bb41a761f) |
 | 2026-03-15 | **Microsoft Applied Skills: Streamline business workflows with AI chat** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/CE7FBB459ADAB331?sharingId=4883E92AA6332B3F) |
 | 2026-03-14 | **Microsoft Applied Skills: Create an AI agent** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/DC86763A7069ABBF?sharingId=4883E92AA6332B3F) |
-| 2026-03-12 | **Google Analytics Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/c845a7b6-cef3-4e66-87e2-481771d889ed) |
-| 2026-02-07 | **Oracle Cloud Success Navigator Essentials** | Oracle | `External/Imported` | [Verify](https://catalog-education.oracle.com/pls/certview/sharebadge?id=E11489205EF3BEE917EAFE29D12203DA2526C300DB291B1D3B7F3E1F84C70D87) |
-| 2025-12-20 | **Implement Load Balancing on Compute Engine Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/a081bb3e-083d-4ccc-a074-c7b7e2d15a1b) |
-| 2025-12-18 | **Google Cloud Cybersecurity Certificate** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/5afda7ea-c36e-4393-a74b-05f06757c049) |
-| 2025-11-24 | **Use Functions, Formulas, and Charts in Google Sheets Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/e8a7950a-9042-4809-bf7a-3f01ca2d03dc) |
-| 2025-11-20 | **Get Started with Google Workspace Tools Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/62ee81aa-da62-41ba-a1cd-234030dc68d9) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-10.md](credly-badges-2026-07-part-10.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 8 of 10
-date_range: 2026-04-19 to 2026-05-06
-total_entries: 47
+date_range: 2026-04-20 to 2026-05-08
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-08.md
 ---
 
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-05-08 | **Secure Your RAG Pipelines with Auth0 Fine-Grained Access** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/a39802d7-ae30-4c95-ae7d-434cc1243233) |
+| 2026-05-08 | **Securing AI Agents** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0) |
+| 2026-05-06 | **Agents & Agentic AI Fundamentals** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/65342bd4-19df-45dc-9b32-f68a21c5be0d) |
+| 2026-05-06 | **Applying SAP S/4HANA Product Engineering - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/9c1dab10-70e9-4bd3-b9fa-9f2eead26a00) |
+| 2026-05-06 | **Configuration Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/a71f14fd-df65-47c9-9527-109add5f04d5) |
+| 2026-05-06 | **Core Skills Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/9cfe8da1-05a9-4242-9dfc-8e91c87f9fe3) |
+| 2026-05-06 | **Dashboards Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/3ada1a37-c791-4d66-860b-36b7c30ec4c3) |
 | 2026-05-06 | **Explore Identity Foundations** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/bef6ae97-3d40-441b-a5fd-168016f17b32) |
 | 2026-05-06 | **LLM Observability Metrics & Traces Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5) |
 | 2026-05-05 | **Exploring SAP SuccessFactors Embedded Launch Activities for Business User - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/cc432e30-9613-4886-b82d-dd8b9ed936f3) |
@@ -53,12 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-21 | **Google Ads Creative Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/72c8a75b-85e1-4619-b34b-61adaa5a68c9) |
 | 2026-04-20 | **AWS Knowledge: Amazon Connect Fundamentals - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/cb6a4e9e-b375-4e40-bf27-7f3d4ad252d5) |
 | 2026-04-20 | **Explore Emerging Tech** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/67d065a9-5177-45e1-b94d-72bc4b493ca0) |
-| 2026-04-20 | **Introduction to Greenhouse Gas Accounting for IT** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/1b2c72f1-8e6b-4d6a-8e87-4c3a404a6250) |
-| 2026-04-20 | **Working with Invoice Pay in Concur Invoice Professional - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/6a8ba215-f454-4b26-91ef-5ff968b721f7) |
-| 2026-04-19 | **AI Fundamentals: Foundations for Understanding AI** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/2a493aff-eb08-4456-8683-8b9d1d7c5eef) |
-| 2026-04-19 | **AWS Knowledge: AWS Transform Fundamentals – Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/54d81ecb-6fd5-4ff9-aba6-6acaa59cdcec) |
-| 2026-04-19 | **Introduction to IoT** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/9fd72888-3b11-4f02-b53a-1506890ed015) |
-| 2026-04-19 | **Google Ads Display Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/aaa06037-984b-436d-a969-138478771e90) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-09.md](credly-badges-2026-07-part-09.md)

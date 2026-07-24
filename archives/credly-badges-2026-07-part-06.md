@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 6 of 10
-date_range: 2026-05-15 to 2026-05-25
+date_range: 2026-05-17 to 2026-05-26
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-06.md
 ---
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-05-26 | **Manage Data Models in Looker Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/eb5fb255-8dfa-4798-9894-3d7342f2c28a) |
+| 2026-05-25 | **AWS Cloud Quest: Cloud Practitioner - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/732fc941-03ee-436a-adf5-5ccd23c8c309) |
+| 2026-05-25 | **Basics in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/51e91ad5-5d40-4d85-8cde-7828857f37b5) |
+| 2026-05-25 | **Engaging Stakeholders for Success** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/0fcc81f0-1d05-4360-b9d0-8fc80be31895) |
+| 2026-05-25 | **Lucidchart Fundamentals** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/964323c2-0693-4faf-a973-7324c4736657) |
+| 2026-05-25 | **Org charts in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/1884360b-cb1c-4b7a-a83f-e084d0994093) |
 | 2026-05-25 | **Process diagrams in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/c082e966-a48a-41cc-8cf0-80ef478133db) |
 | 2026-05-25 | **Product Management Basics Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/9ed3741c-eb44-4f66-854b-7808ab8091a9) |
 | 2026-05-25 | **Technical systems in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/c2e33131-b3af-496b-97bb-9e34f365fa0e) |
@@ -58,12 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-19 | **SAS Viya Overview** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/2fdf77a8-806b-4cf7-bbd3-a87225b74bac) |
 | 2026-05-17 | **Cybersecurity Fundamentals** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/07b5c2dc-a9ed-433c-bc25-63c34d575fa9) |
 | 2026-05-17 | **Data Literacy Essentials** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31) |
-| 2026-05-17 | **Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/2f421b3d-277a-4bc8-8120-3a07438a5962) |
-| 2026-05-17 | **Introduction to Statistical Concepts** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/c503a241-0ce2-4131-878d-d2695680bde2) |
-| 2026-05-17 | **Overview of the IFRS 17 Standard** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/85b05775-f078-4b2e-9a1c-8987a14c0162) |
-| 2026-05-17 | **Setting up SAP Mobile Start with SAP S/4HANA on SAP Build Work Zone - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/07157e87-17e7-4a62-9599-6da52e400954) |
-| 2026-05-15 | **AI for Product Management** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/1f9721c8-f066-45c5-b673-61955c346c47) |
-| 2026-05-15 | **AI Foundations Knowledge Badge** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/5750e670-88f4-4a63-af78-a7af6e9aa394) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md)

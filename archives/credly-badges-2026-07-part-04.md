@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 4 of 10
-date_range: 2026-06-08 to 2026-06-17
-total_entries: 48
+date_range: 2026-06-08 to 2026-06-18
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-04.md
 ---
 
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-18 | **LFC112: Creating Effective Documentation for Developers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/74c24889-addb-48cd-8539-b9484742e114) |
+| 2026-06-18 | **LFC114: Remote Work at Scale** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/e180e574-1bfe-4afb-a7ff-dce17455e64c) |
+| 2026-06-18 | **LFS147: Introduction to AI/ML Toolkits with Kubeflow** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/53e07dd4-10c5-4a02-97e3-904a594ed3a6) |
+| 2026-06-18 | **LFS183: Introduction to Zero Trust** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/ea7570fb-d863-4cbf-8329-ee746d40980a) |
+| 2026-06-18 | **Protect Your API Endpoints with Auth0** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/7a85c1f9-c3ec-42d2-a898-8ca954ed58bf) |
+| 2026-06-18 | **Secure Applications with Auth0 Attack Protection** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/eb46f4ee-e054-47be-bdec-ce97fa77fcd6) |
+| 2026-06-18 | **ZEDEDA Certified Edge Orchestration Professional (ZCEP)** | issued by ZEDEDA | `Credly Verified` | [Verify](https://www.credly.com/badges/353991f9-77e3-4db3-9e33-3ea865e695ff) |
 | 2026-06-17 | **Store, Process, and Manage Data on Google Cloud - Console Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/59bdf724-fa62-4fae-b148-cb57e28e3fb0) |
 | 2026-06-16 | **LFC111: Open Source Technical Documentation Essentials** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/5facc7f1-04b9-4b75-b174-44e85cd84aea) |
 | 2026-06-16 | **LFQ102: Quantum Computing Essentials For Senior Leaders** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/683ddef1-be3c-47d2-b4d5-c9ec0b3b555c) |
@@ -54,12 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-08 | **LFC108: Cybersecurity Essentials** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/c07d5735-c22b-40c9-bece-11d75cd3ab0d) |
 | 2026-06-08 | **LFD102: A Beginner's Guide to Open Source Software Development** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/2b1cbc35-8af4-467d-bb34-8f081afb8ef0) |
 | 2026-06-08 | **LFD116: Software Engineering Basics for Embedded Systems** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/bf5261b3-1ed7-4acf-958a-5f937e4ca8e0) |
-| 2026-06-08 | **LFD137: Open Source Contribution in Finance** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/07bb1039-dd83-4aab-a319-d18af966d01a) |
-| 2026-06-08 | **LFQ101: Fundamentals of Quantum Computing** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/dbaa0c7b-652d-4505-a80a-4d8dd2551426) |
-| 2026-06-08 | **LFS118: Ethical Principles for Conversational AI** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/c18e2ce0-83e2-4e77-ba8e-2daa7a2cddfa) |
-| 2026-06-08 | **LFS158: Introduction to Kubernetes** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/85746ca0-36fc-4ba0-b753-d0dce904b02d) |
-| 2026-06-08 | **Process Accelerator Badge** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/66e95c6f-7100-4007-ae22-1fc36a1d638d) |
-| 2026-06-08 | **SKF100: Understanding the OWASP® Top 10 Security Threats** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/8a0199ec-ff1c-4b87-a185-92cf277719e6) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md)
