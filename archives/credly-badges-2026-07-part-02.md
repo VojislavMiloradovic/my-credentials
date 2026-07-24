@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 2 of 10
-date_range: 2026-06-28 to 2026-07-09
+date_range: 2026-06-29 to 2026-07-11
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-02.md
 ---
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-11 | **AWS Educate Introduction to Cloud 101 - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/d4422463-a5e9-4133-ac19-c9af85817a0b) |
+| 2026-07-11 | **Foundations of Breach & Attack Simulation** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/2df6ac75-abd5-4cdb-85ef-eb44b383b890) |
+| 2026-07-11 | **Make Advanced** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/18807af5-07e1-4aec-aa9a-1ba7aa9ad7ff) |
+| 2026-07-11 | **Make Intermediate** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/e0e50130-c575-43db-8cee-0e89a09f6f86) |
+| 2026-07-10 | **Build a Data Warehouse with BigQuery Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/58efd57f-8763-430e-9c85-9ae21b4be53c) |
+| 2026-07-09 | **Cloud FinOps** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/1a4b9280-a856-4f4b-868b-b1a727ce03fb) |
+| 2026-07-09 | **Cloud Tech Associate Advanced Data Loss Prevention** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/1e7b88fd-f5b2-4563-9cb8-6815ee1dfedc) |
+| 2026-07-09 | **Foundations of Purple Teaming** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/1ae8e7ed-2bc5-48c6-87e3-c8a427c96c86) |
 | 2026-07-09 | **Intel® Xeon® 6 Processor Family Essentials** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/11bd816c-b1e7-4b97-8c4b-ca8c88793e1e) |
 | 2026-07-09 | **Make Basics** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/eb9617cb-496e-443f-ada3-faa52bfcf0a4) |
 | 2026-07-09 | **Make Foundation** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/0d4bdacd-4259-4da2-b840-2ac5ae64f097) |
@@ -56,14 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-30 | **Set Up an App Dev Environment on Google Cloud Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/43021c74-b7bc-4226-a740-e9ffa98089d7) |
 | 2026-06-30 | **Write PQL Queries** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/4d55a0a8-12a1-4bd6-b480-04adeaa7e320) |
 | 2026-06-29 | **Academic Process Mining Fundamentals** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/20201bb7-c784-40de-99ab-d72dc8147145) |
-| 2026-06-29 | **Celonis AI Foundations** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/584ca505-5e6b-4d33-ae7e-be95f464c2eb) |
-| 2026-06-29 | **Cloud Tech Associate Advanced Management** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/30b95128-ad8f-470c-85e7-e00a4ceba43b) |
-| 2026-06-29 | **Create and Deliver Demos** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/b65bf69a-ce07-487d-b439-fafad1ee79d9) |
-| 2026-06-29 | **Deliver Business Value with Celonis** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/897bc772-848b-40cc-8a6e-315c76aec649) |
-| 2026-06-29 | **Implement Passwordless Authentication** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/b5aeea2a-0424-47c4-87d4-ea6a6acd3bad) |
-| 2026-06-29 | **Manage Your Tenant with Auth0 MCP Server** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/c9da5f3b-b75b-43d4-9e6d-d291b9504fe3) |
-| 2026-06-29 | **Review and Interpret Analyses** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/25472282-590d-4f27-9fda-6f344e2fd901) |
-| 2026-06-28 | **Cloud Speech API: 3 Ways Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-01.md](credly-badges-2026-07-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md)

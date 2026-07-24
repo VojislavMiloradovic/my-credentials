@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 3 of 10
-date_range: 2026-06-18 to 2026-06-27
-total_entries: 48
+date_range: 2026-06-18 to 2026-06-29
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-03.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-29 | **Celonis AI Foundations** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/584ca505-5e6b-4d33-ae7e-be95f464c2eb) |
+| 2026-06-29 | **Cloud Tech Associate Advanced Management** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/30b95128-ad8f-470c-85e7-e00a4ceba43b) |
+| 2026-06-29 | **Create and Deliver Demos** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/b65bf69a-ce07-487d-b439-fafad1ee79d9) |
+| 2026-06-29 | **Deliver Business Value with Celonis** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/897bc772-848b-40cc-8a6e-315c76aec649) |
+| 2026-06-29 | **Implement Passwordless Authentication** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/b5aeea2a-0424-47c4-87d4-ea6a6acd3bad) |
+| 2026-06-29 | **Manage Your Tenant with Auth0 MCP Server** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/c9da5f3b-b75b-43d4-9e6d-d291b9504fe3) |
+| 2026-06-29 | **Review and Interpret Analyses** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/25472282-590d-4f27-9fda-6f344e2fd901) |
+| 2026-06-28 | **Cloud Speech API: 3 Ways Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5) |
 | 2026-06-27 | **AWS Knowledge: Migration Foundations - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/c6d0351c-5227-4931-8bec-3d4789d4fe0e) |
 | 2026-06-27 | **Celonis Foundations** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/e2811911-4464-4eb1-9981-681c751363bf) |
 | 2026-06-27 | **Cloud Tech Associate Advanced Disaster Recovery** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937) |
@@ -53,13 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-20 | **M365 Basic Course** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/ddd3f99a-a3bd-44e6-8916-3b27b50cc8e4) |
 | 2026-06-18 | **AWS Knowledge: Amazon EKS - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/a56b19c1-ecf5-4bf0-b66e-1849a18b9722) |
 | 2026-06-18 | **Intro to Acronis** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/9e744ff2-c093-46d2-adba-97b5f1c92be2) |
-| 2026-06-18 | **LFC112: Creating Effective Documentation for Developers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/74c24889-addb-48cd-8539-b9484742e114) |
-| 2026-06-18 | **LFC114: Remote Work at Scale** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/e180e574-1bfe-4afb-a7ff-dce17455e64c) |
-| 2026-06-18 | **LFS147: Introduction to AI/ML Toolkits with Kubeflow** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/53e07dd4-10c5-4a02-97e3-904a594ed3a6) |
-| 2026-06-18 | **LFS183: Introduction to Zero Trust** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/ea7570fb-d863-4cbf-8329-ee746d40980a) |
-| 2026-06-18 | **Protect Your API Endpoints with Auth0** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/7a85c1f9-c3ec-42d2-a898-8ca954ed58bf) |
-| 2026-06-18 | **Secure Applications with Auth0 Attack Protection** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/eb46f4ee-e054-47be-bdec-ce97fa77fcd6) |
-| 2026-06-18 | **ZEDEDA Certified Edge Orchestration Professional (ZCEP)** | issued by ZEDEDA | `Credly Verified` | [Verify](https://www.credly.com/badges/353991f9-77e3-4db3-9e33-3ea865e695ff) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md)

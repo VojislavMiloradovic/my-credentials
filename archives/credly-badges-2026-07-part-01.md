@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 1 of 10
-date_range: 2026-07-09 to 2026-07-24
+date_range: 2026-07-11 to 2026-07-24
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md
 ---
@@ -15,6 +15,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-24 | **AWS Educate Getting Started with Networking - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/95dadb7d-8f0b-4520-b945-c7b41292f126) |
 | 2026-07-24 | **Cloud Sales Pro - Email Security** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/1ae5dbfc-3538-41eb-b208-8cd3fa60648a) |
 | 2026-07-24 | **Cloud Sales Pro - Entra ID Backup** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/00d5b48a-6926-43c6-842d-3585215523fe) |
+| 2026-07-24 | **Mapping MITRE ATT&CK to CVE for Impact** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/8f620453-4525-4c45-9107-5a24f2bf89a5) |
+| 2026-07-24 | **Memory for AI Applications with MongoDB** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/17cc10c2-1879-4741-8660-896581fc660d) |
+| 2026-07-24 | **menuPass Emulation Plan Execution** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/6fd90ef1-aa26-4e52-bdd8-e499e96f3644) |
+| 2026-07-24 | **MongoDB Indexing Design Fundamentals** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/cd687719-8495-41e0-a74d-61cd2ab6f12e) |
+| 2026-07-24 | **MongoDB Overview: Core Concepts and Architecture** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/ec006874-acdf-4095-abab-5b6657054fc1) |
+| 2026-07-24 | **MongoDB Sharding Strategies** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/ec69041f-6f70-4cab-b52f-dc3b9a64132f) |
+| 2026-07-24 | **Securing MongoDB Atlas: Authentication & Authorization** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/c92a6b9b-e628-42f2-b33c-d51f189a3f3c) |
+| 2026-07-24 | **Securing MongoDB Self-Managed: Authentication & Authorization** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/ccb3958d-00b6-4cf5-abf2-9481f3f12197) |
 | 2026-07-22 | **AI and Innovation: How MongoDB Enables a Resilient AI Strategy** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/eb31b07d-b515-4678-aad1-792c118e67dc) |
 | 2026-07-22 | **AWS Educate Getting Started with Databases - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/da4e7c34-8a7a-4418-86f2-eb9db7a34148) |
 | 2026-07-22 | **Extending ATT&CK with ATT&CK Workbench** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/1a455d6f-de65-420a-a531-f26d2562538b) |
@@ -55,14 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-12 | **AWS Educate Machine Learning Foundations - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/fabe8a28-df63-4218-8d33-551e91c305bb) |
 | 2026-07-11 | **AI Agent Builder** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/fee7b9ad-5767-4aa5-add5-8805f835bd06) |
 | 2026-07-11 | **AI Automation Explorer** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/99c4064f-40d2-4f1b-8378-0d00d4c74be8) |
-| 2026-07-11 | **AWS Educate Introduction to Cloud 101 - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/d4422463-a5e9-4133-ac19-c9af85817a0b) |
-| 2026-07-11 | **Foundations of Breach & Attack Simulation** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/2df6ac75-abd5-4cdb-85ef-eb44b383b890) |
-| 2026-07-11 | **Make Advanced** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/18807af5-07e1-4aec-aa9a-1ba7aa9ad7ff) |
-| 2026-07-11 | **Make Intermediate** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/e0e50130-c575-43db-8cee-0e89a09f6f86) |
-| 2026-07-10 | **Build a Data Warehouse with BigQuery Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/58efd57f-8763-430e-9c85-9ae21b4be53c) |
-| 2026-07-09 | **Cloud FinOps** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/1a4b9280-a856-4f4b-868b-b1a727ce03fb) |
-| 2026-07-09 | **Cloud Tech Associate Advanced Data Loss Prevention** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/1e7b88fd-f5b2-4563-9cb8-6815ee1dfedc) |
-| 2026-07-09 | **Foundations of Purple Teaming** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/1ae8e7ed-2bc5-48c6-87e3-c8a427c96c86) |
 
 ---
 > **Navigation:** Prev: None | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md)
