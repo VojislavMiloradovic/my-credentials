@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 88 of 89
-date_range: 2025-11-07 to 2025-11-11
-total_entries: 59
+chunk_part: 88 of 92
+date_range: 2025-11-19 to 2025-11-21
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-88.md
 ---
 
@@ -12,65 +12,60 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| GitHub Copilot Across Environments: IDE, Chat, GitHub.com, and Command Line Techniques | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/github-copilot-across-environments/) |
-| Describe the core features of Microsoft Security Copilot | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/security-copilot-describe-core-features/) |
-| Develop a multi-agent solution with Azure AI Foundry Agent Service | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/develop-multi-agent-azure-ai-foundry/) |
-| Develop AI agents with the Azure AI Foundry extension in Visual Studio Code | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/develop-ai-agents-vs-code/) |
-| Develop an AI agent with Azure AI Foundry Agent Service | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/develop-ai-agent-azure/) |
-| Introduction to Azure Bastion | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-bastion/) |
-| Secure Microsoft Entra users with multifactor authentication | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/secure-aad-users-with-mfa/) |
-| Manage Microsoft Entra Identity Protection | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/manage-azure-active-directory-identity-protection/) |
-| Generate images with AI | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/generate-images-azure-openai/) |
-| Develop computer vision solutions in Azure | Learningpaths | 2025-11-11 | [Verify](https://learn.microsoft.com/training/paths/create-computer-vision-solutions-azure-ai/) |
-| Develop a vision-enabled generative AI application | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/develop-generative-ai-vision-apps/) |
-| Create vision models with Azure AI Custom Vision | Learningpaths | 2025-11-11 | [Verify](https://learn.microsoft.com/training/paths/create-models-custom-vision/) |
-| Detect objects in images | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/detect-objects-images/) |
-| Classify images | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/classify-images/) |
-| Detect, analyze, and recognize faces | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/detect-analyze-recognize-faces/) |
-| Get started with prompt flow to develop language model apps in the Azure AI Foundry | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/get-started-prompt-flow-ai-studio/) |
-| Introduction to Microsoft Defender XDR threat protection | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/introduction-microsoft-365-threat-protection/) |
-| Integrate custom tools into your agent | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/build-agent-with-custom-tools/) |
-| Read text in images | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/read-text-images-documents-with-computer-vision-service/) |
-| Analyze images | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/training/modules/analyze-images/) |
-| Management and customization considerations with GitHub Copilot | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/training/modules/github-copilot-management-and-customizations/) |
-| Explore data roles and services | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/training/modules/explore-roles-responsibilities-world-of-data/) |
-| Evaluate generative AI performance in Azure AI Foundry portal | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/training/modules/evaluate-models-azure-ai-studio/) |
-| Analyze video | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/training/modules/analyze-video/) |
-| Explore Windows Editions | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/training/modules/explore-windows-editions/) |
-| What is Microsoft 365? | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/training/modules/what-is-m365/) |
-| Using advanced GitHub Copilot features | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/training/modules/advanced-github-copilot/) |
-| GitHub responsible AI | Learningpaths | 2025-11-10 | [Verify](https://learn.microsoft.com/training/paths/github-responsible-ai/) |
-| Embrace responsible AI principles and practices | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/training/modules/embrace-responsible-ai-principles-practices/) |
-| Explore fundamentals of Azure Cosmos DB | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/training/modules/explore-non-relational-data-stores-azure/) |
-| Responsible AI with GitHub Copilot | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/training/modules/responsible-ai-with-github-copilot/) |
-| Introduction to prompt engineering with GitHub Copilot | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/training/modules/introduction-prompt-engineering-with-github-copilot/) |
-| Work with Delta Lake tables in Microsoft Fabric | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/training/modules/work-delta-lake-tables-fabric/) |
-| Write your first C# code | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/csharp-write-first/) |
-| Use Eventstream in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/explore-event-streams-microsoft-fabric/) |
-| Explore the possibilities with Microsoft 365 Copilot | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/explore-possibilities-microsoft-365-copilot/) |
-| Introduction to AI Skills for nonprofits | Learningpaths | 2025-11-09 | [Verify](https://learn.microsoft.com/training/paths/introduction-to-ai-skills-for-nonprofits/) |
-| Secure data access in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/secure-data-access-in-fabric/) |
-| AI Fluency | Learningpaths | 2025-11-09 | [Verify](https://learn.microsoft.com/training/paths/ai-fluency/) |
-| Boost your productivity with Microsoft Copilot | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/boost-productivity-with-copilot/) |
-| Explore AI basics | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/explore-ai-basics/) |
-| Get started with Microsoft Copilot | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/get-started-with-copilot/) |
-| Understand Microsoft Entra ID | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/understand-azure-active-directory/) |
-| Introduction to Copilot in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/introduction-to-copilot-fabric/) |
-| Monitor activities in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/monitor-fabric-items/) |
-| Describe Microsoft Security Copilot | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/security-copilot-getting-started/) |
-| Embark on your AI journey with free AI tools from Microsoft Education | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/training/modules/embark-ai-journey-free-ai-tools-microsoft-education/) |
-| Develop a RAG-based solution with your own data using Azure AI Foundry | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/training/modules/build-copilot-ai-studio/) |
-| Introduction to AI Agent Service Security Controls | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/training/modules/intro-ai-agent-service-security-controls/) |
-| Explore internet search and beyond | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/training/modules/explore-internet-search-beyond/) |
-| Explore AI for All | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/training/modules/explore-ai-for-all/) |
-| Get started with Microsoft data analytics | Learningpaths | 2025-11-08 | [Verify](https://learn.microsoft.com/training/paths/data-analytics-microsoft/) |
-| Introduction to end-to-end analytics using Microsoft Fabric | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/training/modules/introduction-end-analytics-use-microsoft-fabric/) |
-| Explore responsible AI | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/training/modules/responsible-ai/) |
-| Enhance teaching and learning with Microsoft 365 Copilot Chat | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/training/modules/enhance-teaching-learning-microsoft-copilot/) |
-| Introduction to Microsoft 365 Copilot | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/training/modules/introduction-microsoft-365-copilot/) |
-| Develop an AI app with the Azure AI Foundry SDK | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/training/modules/ai-foundry-sdk/) |
-| Choose and deploy models from the model catalog in Azure AI Foundry portal | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/training/modules/explore-models-azure-ai-studio/) |
-| Describe Azure identity, access, and security | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/training/modules/describe-azure-identity-access-security/) |
+| Demonstrate the capabilities of Microsoft Power Apps | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/demonstrate-capabilities-power-apps/) |
+| Identify basic Microsoft Power Apps capabilities | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-basic-microsoft-power-apps-capabilities/) |
+| What's new with Windows 11 Pro | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-pro/) |
+| Powerful security designed for AI | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerful-security-designed-for-ai/) |
+| Introducing Copilot+ PC business users | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-pc-business-users/) |
+| Introduction to Microsoft Education for K-12 | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-k12-education/) |
+| Microsoft Education for K-12 administrators | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-education-k12-admin/) |
+| Microsoft Education for K-12 educators | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-education-k-12-educators/) |
+| Prepare for the future of AI with Copilot+ PCs | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-for-the-future-of-ai/) |
+| Why Windows 11 Pro, why now | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/why-windows-now/) |
+| Work smarter and streamline workflows with Security Copilot in the Surface Management Portal | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-management-portal/) |
+| Customize new Outlook for Windows | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-new-outlook-windows/) |
+| Describe the capabilities of Microsoft Power Pages | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-capabilities-microsoft-power-pages/) |
+| Build a canvas app | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-canvas-app/) |
+| AI workload governance and DLP | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-workloads-governance/) |
+| Govern AI services with Azure Policy | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-ai-azure-policy/) |
+| Guide AI workload operations with an AI Center of Excellence | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/guide-ai-operations-center-excellence/) |
+| Introduction to Microsoft Copilot in Azure | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-copilot-azure/) |
+| Secure your cloud apps and services with Microsoft Defender for Cloud Apps | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/) |
+| Introduction to Microsoft Surface Laptop for Business | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-surface-laptop-business/) |
+| Prevent data exfiltration from Azure AI Workloads | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/prevent-azure-machine-learning-data-exfiltration/) |
+| Restrict Azure Machine Learning workspace network traffic | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/restrict-azure-machine-learning-workspace-network/) |
+| Manage Network Access for AI workloads | Learningpaths | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-network-access-ai-workloads/) |
+| Introduction to vibe coding | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-vibe-coding/) |
+| Get started with Cosmos DB in Microsoft Fabric | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-cosmos-db-nosql-fabric/) |
+| Build your first Windows App by using WinUI & Windows App SDK | Modules | 2025-11-20 | N/A |
+| Craft a compelling product pitch using AI | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/craft-compelling-product-pitch-using-ai/) |
+| Get ready for AI in education with Microsoft | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-ready-ai-education-microsoft/) |
+| Guided project – Update and maintain resources | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-update-maintain-resources/) |
+| Introduction to Microsoft Azure Management tasks | Learningpaths | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-microsoft-azure-management-tasks/) |
+| Describe Microsoft Azure resources management | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-microsoft-azure-resources-management/) |
+| Animate the impossible - 2D/3D motion techniques with Sora | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/animate-impossible/) |
+| Guided project - Calculate and print student grades | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-calculate-print-student-grades/) |
+| Load data into a Microsoft Fabric data warehouse | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/load-data-into-microsoft-fabric-data-warehouse/) |
+| Build the vision - visual content creation with Copilot, Designer & Clipchamp | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-vision/) |
+| Design the vision - storyboard with Copilot & Designer | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-vision/) |
+| Perfect the cut - postproduction and enhancement with Microsoft Clipchamp | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/perfect-cut/) |
+| Polish the vision - smart postproduction with Copilot, Clipchamp & Designer | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/polish-vision/) |
+| Sketch the future - AI concept art with Microsoft Copilot and Designer | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/sketch-future/) |
+| Breathing life into stories - character and dialogue creation with Azure | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/breathing-life-into-stories/) |
+| Forging Voices from Data - Custom AI Training with Azure OpenAI Studio | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/forging-voices-from-data/) |
+| The Architecture of Thought - Dialogue Systems with Azure OpenAI Studio | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/architecture-of-thought/) |
+| Discover AI for leaders in nonprofit | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-ai-leaders-nonprofit/) |
+| Define a Microsoft AI strategy to create business value in nonprofit | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-create-business-value-nonprofit/) |
+| Enhance your LinkedIn profile with Microsoft Copilot and ace your interview | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-linkedin-profile-with-copilot-ace-your-interview/) |
+| Build a model-driven app | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-model-driven-app/) |
+| Build a foundation to build AI agents and extend Microsoft 365 Copilot | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-foundation-extend-microsoft-365-copilot/) |
+| Choose a custom AI agent development path | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-ai-agent-development-path/) |
+| Introduction to Microsoft AI agent solutions | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-ai-agent-solutions/) |
+| Choose the best Microsoft 365 Copilot extensibility path for your scenario | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-microsoft-365-copilot-extensibility-path/) |
+| Introduction to developing AI agents | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-develop-ai-agents/) |
+| Azure Database for PostgreSQL Tutorials | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/playground-learning/) |
+| Combining data from multiple tables: SQL Joins Explained | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-join-tables/) |
+| Filtering data: The WHERE clause and subqueries | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-where-clause-subqueries/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-87.md](microsoft-learn-2026-07-part-87.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-89.md](microsoft-learn-2026-07-part-89.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 61 of 89
-date_range: 2026-01-06 to 2026-01-10
-total_entries: 55
+chunk_part: 61 of 92
+date_range: 2026-01-12 to 2026-01-15
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-61.md
 ---
 
@@ -12,61 +12,58 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Teaching and learning - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/teaching-learning-education-transformation-framework/) |
-| Leadership and policy - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/leadership-policy-education-transformation-framework/) |
-| Intelligent environments - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/intelligent-environments-education-transformation-framework/) |
-| Get tips and tricks for teaching AZ-900 Microsoft Azure Fundamentals | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/get-tips-tricks-teach-az-900-microsoft-azure-ai-fundamentals/) |
-| Store and retrieve JSON files | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/training/modules/store-retrieve-json-files/) |
-| Access local files asynchronously | Learningpaths | 2026-01-09 | [Verify](https://learn.microsoft.com/training/paths/access-local-files-asynchronously/) |
-| Implement asynchronous tasks | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/training/modules/implement-asynchronous-tasks/) |
-| Create and manage events | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/training/modules/create-manage-events/) |
-| Secure AI in schools with Microsoft Security | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/training/modules/secure-ai-schools-microsoft-security/) |
-| Create, customize, and manage an HPC cluster in Azure with Azure CycleCloud | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/training/modules/azure-cyclecloud-high-performance-computing/) |
-| Mixed Reality design | Learningpaths | 2026-01-09 | [Verify](https://learn.microsoft.com/training/paths/mixed-reality-design/) |
-| Challenge project - Building an Augmented Reality app for HoloLens 2 | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/training/modules/challenge-project-building-augmented-reality-app-hololens-2/) |
-| Develop search strategies with Search Coach and Search Progress | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/training/modules/develop-search-strategies-search-coach-search-progress/) |
-| Microsoft for Sovereignty overview | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/training/modules/sovereignty-overview/) |
-| Microsoft Sustainability Manager concepts | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/training/modules/work-cloud-sustainability/) |
-| Get started with Microsoft Sustainability Manager | Learningpaths | 2026-01-08 | [Verify](https://learn.microsoft.com/training/paths/get-started-sustainability-manager/) |
-| Extend existing table and page objects in Dynamics 365 Business Central | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/training/modules/extend-tables-page-objects/) |
-| Designing for mixed reality | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/training/modules/intro-to-mixed-reality-design/) |
-| Build your first canvas app with Power Apps | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/training/modules/build-first-canvas-app/) |
-| Create benefit plans in Dynamics 365 Human Resources | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/training/modules/benefits-management/) |
-| Manage your organization with Dynamics 365 Human Resources | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/training/modules/manage-organization/) |
-| Manage personnel with Dynamics 365 Human Resources | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/manage-personnel/) |
-| Introduction to Azure hybrid cloud services | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-hybrid-services/) |
-| Build the Dataverse table schema for the model-driven app | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/build-dataverse-table-structure/) |
-| Design an accident tracking app in Power Apps | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/training/paths/design-accident-tracking/) |
-| Transform a business process to a model-driven app | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/model-driven-app-solution/) |
-| Customize views and forms for model-driven apps | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/customize-view-forms/) |
-| Deploy to multiple Azure environments by using JSON ARM template features | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/modify-azure-resource-manager-template-reuse/) |
-| Create your first Q# program with the Quantum Development Kit | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/qsharp-create-first-quantum-development-kit/) |
-| Connect to virtual machines through the Azure portal by using Azure Bastion | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/connect-vm-with-azure-bastion/) |
-| Introduction to building copilots for startups | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/intro-to-copilots-for-startups/) |
-| An AI toolbox for trainers | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/training/paths/ai-toolbox-for-trainers/) |
-| Training with AI tools | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/training-with-ai-tools/) |
-| Use AI tools to create an inclusive learning environment | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/use-ai-tools-to-create-inclusive-learning-environment/) |
-| Implement AI tools into a training environment | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/implement-ai-tools-into-training-environment/) |
-| Streamline training plans with AI tools | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/streamline-training-plans-with-ai-tools/) |
-| Contribute to Microsoft Learn documentation in your browser | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/contribute-to-docs-browser/) |
-| Introduction to Microsoft Viva Glint | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/viva-glint-introduction-viva-glint/) |
-| Send Dynamics 365 Customer Voice surveys | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/send-customer-voice-surveys/) |
-| Create a survey project with Dynamics 365 Customer Voice | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/work-customer-voice-projects/) |
-| Create customer surveys with Dynamics 365 Customer Voice | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/create-customer-voice-surveys/) |
-| Apply a budgeting method to manage money effectively | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/apply-budgeting-method/) |
-| Collaborate faster using Microsoft Teams for higher education staff | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/training/modules/collaborate-faster-microsoft-teams-higher-education-staff/) |
-| Continuous deployment for machine learning | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/continuous-deployment-for-machine-learning/) |
-| Introduction to machine learning operations (MLOps) | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/training/paths/introduction-machine-learn-operations/) |
-| Automate machine learning workflows | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/automate-machine-learning-workflows/) |
-| Introduction to DevOps principles for machine learning | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/introduction-development-operations-principles-for-machine-learn/) |
-| Source control for machine learning projects | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/source-control-for-machine-learning-projects/) |
-| Get started with Power Apps and SharePoint | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/get-started-power-apps-sharepoint/) |
-| Build and deploy apps for Microsoft Teams using Teams Toolkit for Visual Studio Code | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/training/paths/m365-teams-toolkit-vsc/) |
-| Deploy a Microsoft Teams app to Azure by using Teams Toolkit for Visual Studio Code | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/teams-toolkit-vsc-deploy-apps/) |
-| Get started building apps for Microsoft Teams by using Teams Toolkit for Visual Studio Code | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/teams-toolkit-vsc-introduction/) |
-| Build a bot by using Teams Toolkit for Visual Studio Code | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/teams-toolkit-vsc-create-bot/) |
-| Expand the capabilities for Java apps on Azure | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/training/paths/expand-capabilities-java-azure/) |
-| Sign in users with Microsoft Entra ID in a Java web app | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/training/modules/azure-java-app-enable-authentication-authorization/) |
+| Gaming assistive technologies | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/gaming-assistive-technologies/) |
+| Get tips and tricks for teaching SC-900: Microsoft Security, Compliance, and Identity Fundamentals | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-sc-900-security-compliance-identity-fundamentals/) |
+| Implement classes, properties, and methods | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-classes-properties-and-methods/) |
+| Manage class implementations | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-class-implementations/) |
+| Manage application data | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-application-data/) |
+| Get started with dates, times, and time zones | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-dates-times-time-zones/) |
+| Introduction to Microsoft Defender for IoT | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-microsoft-defender-iot/) |
+| Create compensation plans in Dynamics 365 Human Resources | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-compensation-plans/) |
+| Manage leave and absence in Dynamics 365 Human Resources | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/hr-leave-absence/) |
+| Configure your user interface in finance and operations apps | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-your-ui-dynamics-365-finance-operations-apps/) |
+| Configure apps in finance and operations | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/config-d365-finance-operations-apps/) |
+| Deploy Healthcare Data Solutions in Microsoft Fabric and ingest sample data | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-sample-data-ingestion/) |
+| Introduction to Azure Virtual Machine Scale Sets | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machine-scale-sets/) |
+| Get started with Finance insights in Dynamics 365 Finance | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-finance-insights/) |
+| Secure your infrastructure with threat modeling | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/threat-modeling-enterprise-infrastructure/) |
+| Transform and load event log data for process mining | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-load-event-log/) |
+| Process mining for the data wrangler | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-mining-data-wrangler/) |
+| Manage secrets in Java applications - Zero Trust and Zero Secrets | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secrets-java-applications-zero-trust/) |
+| Describe the purpose and use of source control | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-purpose-use-source-control/) |
+| Explain how a source control system helps manage files | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/explain-control-system-helps-manage-files/) |
+| Guided Project –  Use GitHub to manage file updates | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-github-manage-file-updates/) |
+| Implement generative AI guardrails in Azure AI Foundry | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/moderate-content-detect-harm-azure-ai-content-safety-studio/) |
+| Operationalize AI responsibly with Azure AI Foundry | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/operationalize-ai-responsibly/) |
+| Measure and mitigate risks for a generative AI app in Azure AI Foundry | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/measure-mitigate-risks-azure-ai-studio/) |
+| Develop object-oriented code in finance and operations apps | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-object-oriented-code-finance-operations/) |
+| Deploy and use OMOP transformations for analytics | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-omop-transformations/) |
+| Design resilient code with interfaces | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-resilient-code-interfaces/) |
+| Choose the best Azure Quantum option for your needs | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-the-best-azure-quantum/) |
+| Get started with configuration and personalization in finance and operations apps | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduce-configure-personalization-dynamics-365-finance-operations-apps/) |
+| Set up non-stocked materials and track usage on projects with Dynamics 365 Project Operations | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-non-stocked-material-track-usage/) |
+| Introduce AI and data science in STEM education with FarmBeats for Students | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduce-ai-data-science-stem-farmbeats-students/) |
+| Get tips and tricks for teaching DP-900 Microsoft Azure Data Fundamentals | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-dp-900-microsoft-azure-data-fundamentals/) |
+| Describe the concepts behind Microsoft Entra Verified ID | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-verified-id-concepts/) |
+| Get started with cost accounting in Dynamics 365 Finance | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-cost-accounting-dyn365-finance/) |
+| Get started with cost accounting for supply chains in Dynamics 365 Finance | Learningpaths | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) |
+| Get started with Microsoft 365 Copilot for Service | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-copilot-for-service/) |
+| Add Azure AI services to your mixed reality project | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-speech-services-tutorials-mrtk/) |
+| HoloLens 2 fundamentals: develop mixed reality applications | Learningpaths | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/beginner-hololens-2-tutorials/) |
+| Enable eye tracking and voice commands for objects on the HoloLens 2 | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-eye-tracking-voice-commands/) |
+| Getting started with 3D object interaction | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-object-interaction/) |
+| Introduction to the Mixed Reality Toolkit-Set Up Your Project and Use Hand Interaction | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-mrtk-tutorials/) |
+| Place a Mars Rover object in the scene and work with grids and intelligent object tracking | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/place-scene-objects/) |
+| AI Center of Excellence | Learningpaths | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-center-excellence/) |
+| Introduction to AI Landing Zones | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-ai-landing-zones/) |
+| Build an autonomous agent in Copilot Studio | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/autonomous-agent/) |
+| Manage models in AI Builder | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-models/) |
+| Identify key phrases with AI Builder | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-key-phrase-extraction/) |
+| Detect objects with AI Builder | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-object-detection/) |
+| Analyze the sentiment of text with AI Builder | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-sentiment-analysis/) |
+| Identify the language of text with AI Builder | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-language-detection/) |
+| Explore quantum superposition with Q# | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-superposition/) |
+| Create Power Platform solutions with AI and Copilot | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-solutions/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-60.md](microsoft-learn-2026-07-part-60.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-62.md](microsoft-learn-2026-07-part-62.md)

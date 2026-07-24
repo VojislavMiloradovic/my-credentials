@@ -31,16 +31,16 @@ Welcome to my portfolio! Here is my live learning history:
 ### Recent Achievements & Completed Badges
 Showing latest 10 of 4,732 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
-- **Build intelligent apps and portals with Microsoft Power Apps** (Learningpaths | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/paths/build-apps-portals-power-apps/))
-- **Explore Power Pages design studio** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/power-pages-studio/))
-- **Core components of Power Pages** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/power-pages-intro/))
-- **Create and manage canvas apps with Power Apps** (Learningpaths | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/paths/create-manage-canvas-apps-power-apps/))
-- **Publish, share, and maintain a canvas app** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/publish-share-maintain-app/))
-- **From prompts to goals** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/from-prompts-to-goals/))
-- **Troubleshoot Active Directory Domain Services replication** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/troubleshoot-active-directory-replication/))
-- **Work smarter with Copilot prompts for finance professionals** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/work-smarter-copilot-finance/))
-- **Manage application volume groups for SAP HANA in Azure NetApp Files** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/manage-application-volume-groups-sap-hana-azure-netapp-files/))
-- **Work smarter with Copilot prompts for legal professionals** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/training/modules/work-smarter-copilot-legal/))
+- **Build intelligent apps and portals with Microsoft Power Apps** (Learningpaths | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/build-apps-portals-power-apps/))
+- **Explore Power Pages design studio** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/power-pages-studio/))
+- **Core components of Power Pages** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/power-pages-intro/))
+- **Create and manage canvas apps with Power Apps** (Learningpaths | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/create-manage-canvas-apps-power-apps/))
+- **Publish, share, and maintain a canvas app** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/publish-share-maintain-app/))
+- **From prompts to goals** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/from-prompts-to-goals/))
+- **Troubleshoot Active Directory Domain Services replication** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/troubleshoot-active-directory-replication/))
+- **Work smarter with Copilot prompts for finance professionals** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-finance/))
+- **Manage application volume groups for SAP HANA in Azure NetApp Files** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/manage-application-volume-groups-sap-hana-azure-netapp-files/))
+- **Work smarter with Copilot prompts for legal professionals** (Modules | Earned: 2026-07-22 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-legal/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

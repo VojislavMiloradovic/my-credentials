@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 14 of 89
-date_range: 2026-05-19 to 2026-05-25
-total_entries: 54
+chunk_part: 14 of 92
+date_range: 2026-05-22 to 2026-05-29
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-14.md
 ---
 
@@ -12,60 +12,58 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Plan and implement device enrollment using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/training/modules/plan-implement-device-enrollment/) |
-| Monitor and maintain devices using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/training/modules/monitor-maintain-devices-intune/) |
-| Manage Windows updates and lifecycle using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/manage-windows-updates-intune/) |
-| Maintain tenant health and support readiness | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/maintain-tenant-health/) |
-| Implement reporting and data visibility using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/implement-reporting-data-visibility/) |
-| Deploy Windows devices using Windows Autopilot | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/deploy-windows-autopilot/) |
-| Configure device profiles and policy management using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/configure-device-profiles-intune/) |
-| Configure Microsoft Entra ID for device and policy management | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/configure-entraid-device-management/) |
-| Apply RBAC and admin delegation in Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/apply-rbac-admin-delegation/) |
-| Administer device identity and authentication using Microsoft Entra ID | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/device-identity-authentication-entra-id/) |
-| Tailor the agent workspace with experience profiles in Dynamics 365 Contact Center | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/configure-experience-profiles-contact-center/) |
-| Accelerate service delivery with productivity tools in Dynamics 365 Contact Center | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/configure-productivity-tools-contact-center/) |
-| School Data Sync for IT Admins (Partner Success Series) | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/school-data-sync-it-admins/) |
-| Explore lead generation in Dynamics 365 | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/explore-lead-generation-dynamics-365/) |
-| Choose the best Windows 11 edition built for your organization’s needs | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/choose-best-windows-11-edition/) |
-| Accelerate your storage migration, modernization, and innovation journey to Azure | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/azure-storage-migration/) |
-| Understand endpoint management strategies and Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/training/modules/understand-intune-strategies/) |
-| Choose data stores in Microsoft Fabric | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/choose-data-store-fabric/) |
-| Secure developer AI environments with Microsoft Purview | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/purview-ai-developer-apps/) |
-| Secure access to resources by using Microsoft Entra | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/training/paths/secure-access-resources-entra/) |
-| Manage and implement authentication methods in Microsoft Entra ID | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/manage-implement-authentication-methods/) |
-| Govern AI ready workloads with Microsoft Foundry | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/govern-ai-ready-workloads-microsoft-foundry/) |
-| Translate text and speech with Microsoft Foundry Tools | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/translate-text-speech/) |
-| Develop natural language solutions in Azure | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/training/paths/develop-language-solutions-azure-ai/) |
-| Configure channels in Dynamics 365 Contact Center | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/training/paths/configure-channels-dynamics-365-contact-center/) |
-| Configure the voice channel in Dynamics 365 Contact Center | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/configure-voice-channel-contact-center/) |
-| Configure advanced settings for channels in Dynamics 365 Contact Center | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/configure-advanced-channel-settings-contact-center/) |
-| Multi-Agent Systems and Orchestration | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/multi-agent-systems-orchestration/) |
-| Memory, State, and Evaluation | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/memory-state-evaluation/) |
-| Governance, guardrails, and operations | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/governance-guardrails-operations/) |
-| Introduction to Microsoft Surface Pro for Business, 13-inch (12th Edition) | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/introduction-surface-pro-12th-edition/) |
-| Microsoft Productivity Accreditation 2026 | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/training/paths/microsoft-productivity-accreditation-2026/) |
-| Introduction to Microsoft Office Home 2024 | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/office-home-2024/) |
-| Explore how to negotiate deal terms and address objections in Dynamics 365 Sales | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/explore-negotiate-deals-terms-dynamics-365-sales/) |
-| Copilot for all the ways you work | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/copilot-productivity-workflows/) |
-| Describe how to close customer deals in Dynamics 365 | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/training/modules/describe-close-customer-deals/) |
-| Secure Microsoft Foundry environments | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/azure-ai-foundry-secure-environment/) |
-| Run governed AI workloads with Microsoft Foundry | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/run-governed-ai-workloads-microsoft-foundry/) |
-| Manage prompts for agents in Microsoft Foundry with GitHub | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/prompt-versioning-genaiops/) |
-| Operationalize generative AI applications (GenAIOps) | Learningpaths | 2026-05-20 | [Verify](https://learn.microsoft.com/training/paths/operationalize-gen-ai-apps/) |
-| Implement secure AI-ready infrastructure with Azure services | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/implement-secure-ai-ready-infrastructure-azure-services/) |
-| Explore AI governance for AI ready infrastructure | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/explore-ai-governance-ai-ready-infrastructure/) |
-| Develop a speech agent with the Azure Speech MCP server | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/develop-speech-agent-speech-mcp/) |
-| Configure AI-ready infrastructure with Microsoft Foundry | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/configure-ai-ready-infrastructure-microsoft-foundry/) |
-| Leverage quality reporting tools in PowerScribe One | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/powerscribe-one-leverage-quality-reporting-tools/) |
-| Configure chat and digital channels in Dynamics 365 Contact Center | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/configure-chat-digital-channels-contact-center/) |
-| Manage and design with AI | Learningpaths | 2026-05-20 | [Verify](https://learn.microsoft.com/training/paths/manage-design-ai/) |
-| Develop understanding with the Study and Learn Agent in the Microsoft 365 Copilot app | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/develop-understanding-study-learn-agent-copilot-app/) |
-| Introduction to Microsoft Surface Laptop for Business, 13-inch (1st Edition) | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/introduction-surface-laptop-13-1st-edition/) |
-| Introduction to Azure Functions in IoT solutions | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/intro-azure-functions-iot/) |
-| Discover faster insights with Improved Windows Search | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/improved-windows-search/) |
-| introduction-surface-laptop-8th-edition | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/introduction-surface-laptop-8th-edition/) |
-| Introduction to Azure IoT Edge | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/training/modules/introduction-iot-edge/) |
-| Write advanced T-SQL code | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/training/modules/write-advanced-sql-code/) |
+| Attending radiologist workflow foundations | Learningpaths | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-attending-radiologist-workflow-foundations/) |
+| AutoText foundations | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-autotext-foundations/) |
+| Deploy and manage Agent 365 in education (Partner Success Series) | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-agent-365-education/) |
+| Explore lead qualification in Dynamics 365 | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-lead-qualification-dynamics-365/) |
+| Implement CI/CD by using SQL Database Projects | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cicd-sql-database-projects/) |
+| Implement AI capabilities in database solutions | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-capabilities-database-solutions/) |
+| Design and implement models and embeddings with SQL | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-models-embeddings-with-sql/) |
+| Design and implement intelligent search with SQL | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-intelligent-search-with-sql/) |
+| Design and implement RAG with SQL | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-rag-with-sql/) |
+| Manage accounts receivable | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-accounts-receivable-credit-collections-revenue-recognition/) |
+| Implement cost management in Dynamics 365 Finance | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cost-management/) |
+| Customer and vendor netting in Dynamics 365 Finance | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/netting-customer-vendor/) |
+| Configure financial management | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-configure-financial-management-work-general-ledger/) |
+| Manage Azure DevOps by using MCP Server | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-ado-mcp-server/) |
+| Manage Azure Boards by using GitHub Copilot integration | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-boards-using-github-copilot/) |
+| Extract data with Azure Document Intelligence | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-data-with-document-intelligence/) |
+| Extract insights from visual data on Azure | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/insight-visual-data/) |
+| Design dimensional models for analytics in Microsoft Fabric | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dimensional-models-fabric/) |
+| Design and transform analytics data in Microsoft Fabric | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-transform-analytics-data/) |
+| Build secure agents for public sector services | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-secure-agents-public-sector-services/) |
+| Optimize staffing with workforce management in Dynamics 365 Contact Center | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-staffing-workforce-management-contact-center/) |
+| Troubleshoot device and policy issues using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-intune-devices/) |
+| Plan and implement device enrollment using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-device-enrollment/) |
+| Monitor and maintain devices using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-devices-intune/) |
+| Manage Windows updates and lifecycle using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-updates-intune/) |
+| Maintain tenant health and support readiness | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-tenant-health/) |
+| Implement reporting and data visibility using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-reporting-data-visibility/) |
+| Deploy Windows devices using Windows Autopilot | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-windows-autopilot/) |
+| Configure device profiles and policy management using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-device-profiles-intune/) |
+| Configure Microsoft Entra ID for device and policy management | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-entraid-device-management/) |
+| Apply RBAC and admin delegation in Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-rbac-admin-delegation/) |
+| Administer device identity and authentication using Microsoft Entra ID | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/device-identity-authentication-entra-id/) |
+| Tailor the agent workspace with experience profiles in Dynamics 365 Contact Center | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-experience-profiles-contact-center/) |
+| Accelerate service delivery with productivity tools in Dynamics 365 Contact Center | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-productivity-tools-contact-center/) |
+| School Data Sync for IT Admins (Partner Success Series) | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/school-data-sync-it-admins/) |
+| Explore lead generation in Dynamics 365 | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-lead-generation-dynamics-365/) |
+| Choose the best Windows 11 edition built for your organization’s needs | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-best-windows-11-edition/) |
+| Accelerate your storage migration, modernization, and innovation journey to Azure | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-storage-migration/) |
+| Understand endpoint management strategies and Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-intune-strategies/) |
+| Choose data stores in Microsoft Fabric | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-data-store-fabric/) |
+| Secure developer AI environments with Microsoft Purview | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-developer-apps/) |
+| Secure access to resources by using Microsoft Entra | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-access-resources-entra/) |
+| Manage and implement authentication methods in Microsoft Entra ID | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/) |
+| Govern AI ready workloads with Microsoft Foundry | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-ai-ready-workloads-microsoft-foundry/) |
+| Translate text and speech with Microsoft Foundry Tools | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/translate-text-speech/) |
+| Develop natural language solutions in Azure | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/) |
+| Configure channels in Dynamics 365 Contact Center | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-channels-dynamics-365-contact-center/) |
+| Configure the voice channel in Dynamics 365 Contact Center | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-voice-channel-contact-center/) |
+| Configure advanced settings for channels in Dynamics 365 Contact Center | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-advanced-channel-settings-contact-center/) |
+| Multi-Agent Systems and Orchestration | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/) |
+| Memory, State, and Evaluation | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/memory-state-evaluation/) |
+| Governance, guardrails, and operations | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/governance-guardrails-operations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-13.md](microsoft-learn-2026-07-part-13.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-15.md](microsoft-learn-2026-07-part-15.md)

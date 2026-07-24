@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 60 of 89
-date_range: 2026-01-10 to 2026-01-12
+chunk_part: 60 of 92
+date_range: 2026-01-15 to 2026-01-18
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-60.md
 ---
@@ -12,61 +12,61 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Build a Power Pages website for a real estate solution with Copilot in Power Pages | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/build-website-real-estate-power-pages-copilot/) |
-| Create a copilot for a real estate solution using natural language in Copilot Studio | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/create-copilot-real-estate-natural-language/) |
-| Host a head-to-head challenge in Minecraft Education | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/host-head-to-head-challenge-minecraft-esports/) |
-| Minecraft Esports Teacher Academy | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/training/paths/minecraft-esports-teacher-academy/) |
-| Build challenges in Minecraft esports | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/build-challenges-minecraft-esports/) |
-| Minecraft in esports | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/minecraft-esports/) |
-| Get started with development in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/training/paths/development-get-started-business-central/) |
-| Introduction to assisted setup and tooltips in Dynamics 365 Business Central | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/assisted-setup-tooltips/) |
-| Get tips and tricks for teaching AI-900 Microsoft Azure AI Fundamentals | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/get-tips-tricks-teach-ai-900-microsoft-azure-ai-fundamentals/) |
-| Challenge project - Microsoft Copilot for Prototyping and MVP Creation | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/challenge-project-generative-ai-for-prototyping-and-mvp-creation/) |
-| Design a Modern Data Warehouse using Azure Synapse Analytics | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/design-modern-data-warehouse-using-azure-synapse-analytics/) |
-| Get started with Dynamics 365 Commerce channels | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/get-started-commerce-channels/) |
-| Get started with B2B e-commerce in Dynamics 365 Commerce | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/get-started-business-to-business-commerce/) |
-| Get started with Delegates | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/get-started-delegates/) |
-| Implement delegates and events | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/training/paths/delegates-events-exceptions/) |
-| Introduction to Secure Network Infrastructure with Azure network security | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/training/paths/secure-networking-infrastructure/) |
-| Introduction to Azure Firewall Manager | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-firewall-manager/) |
-| Explore concepts of data analytics | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/explore-concepts-of-data-analytics/) |
-| Minecraft Student Ambassador program | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/training/paths/minecraft-student-ambassador-program/) |
-| Work remotely with the Minecraft Student Ambassador program | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/work-remotely-minecraft-student-ambassador-program/) |
-| Keep students safe in the Minecraft Student Ambassador program | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/keep-students-safe-minecraft-student-ambassador-program/) |
-| Plan your year in the Minecraft Student Ambassador program | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/plan-your-year/) |
-| Work with your IT team and the Minecraft Student Ambassador program | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/work-with-it-team-minecraft-student-ambassador-program/) |
-| Become a Microsoft Learn contributor | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/become-learn-contributor/) |
-| Get started with Microsoft for Sustainability | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/training/paths/get-started-sustainability/) |
-| Microsoft for Sustainability overview | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/cloud-sustainability-overview/) |
-| Evaluating generative AI applications | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/evaluate-generative-ai-apps/) |
-| Evaluate generative AI applications | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/training/paths/evaluate-generative-ai-apps/) |
-| Implement class properties and methods | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/implement-class-properties-methods/) |
-| Get started with classes and objects | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/get-started-classes-objects/) |
-| Remote development with Visual Studio Code | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/training/paths/remote-development-vs-code/) |
-| Use a Docker container as a development environment with Visual Studio Code | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/use-docker-container-dev-env-vs-code/) |
-| Design with inclusivity in mind | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/inclusive-design-principles/) |
-| Get started with Azure Advisor | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/get-started-azure-advisor/) |
-| Get to know your Dynamics 365 customers | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/get-know-dynamics-365-customers/) |
-| Streamline SharePoint processes with Power Automate | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/streamline-processes/) |
-| Support building mathematics skills with Math Progress | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/training/modules/support-building-mathematics-skills-math-progress/) |
-| Enabling digital transformation | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/enable-digital-transformation/) |
-| Explore the Windows Package Manager tool | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/explore-windows-package-manager-tool/) |
-| Extend functionality by using events in Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/extend-functionality-using-events/) |
-| Add new objects to Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/add-new-objects/) |
-| Introduction to the development process in Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/introduction-development-process/) |
-| Initialize data during extension installation in Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/initialize-data-extension-installation/) |
-| Examine ransomware and extortion-based threats | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/training/paths/ransomware-basics/) |
-| Identify vulnerabilities that ransomware can exploit | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/ransomware-identify-entry-points/) |
-| Define ransomware and extortion-based security threats | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/ransomware-extortion-based-threats/) |
-| Recover from ransomware attacks | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/ransomware-recover/) |
-| Choose a budgeting tool that fits your preferences and financial goals | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/choose-budgeting-tool/) |
-| Introduction to budgeting for students | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/training/paths/introduction-budgeting-for-students/) |
-| Introduction to budgeting for students | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/intro-to-budgeting-for-students/) |
-| Create a personalized savings plan to work toward a financial goal | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/create-personalized-savings-plan/) |
-| Understand Azure NetApp Files essentials | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/azure-netapp-files-essentials/) |
-| Understand how Azure NetApp Files provides volumes as a service | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/azure-netapp-files-volumes-service/) |
-| Education Transformation Framework | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/training/paths/education-transformation-framework/) |
-| Student and school success - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/training/modules/student-school-success-education-transformation-framework/) |
+| Enhance Power BI report designs for the user experience | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/) |
+| Apply sensitivity labels for data protection | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-manage-sensitivity-labels/) |
+| MD-102 Explore endpoint management | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-endpoint-management/) |
+| Manage Microsoft Entra identities | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-active-directory-identities/) |
+| Mitigate threats using Microsoft Defender XDR | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-365-defender/) |
+| Safeguard your environment with Microsoft Defender for Identity | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-threat-safeguard/) |
+| Guided project - Deploy and manage a container app using Azure Container Apps | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-container-app-using-azure-container-apps/) |
+| Explore the Enterprise Desktop | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-enterprise-desktop/) |
+| Create and configure sensitivity labels with Microsoft Purview | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-protect-information/) |
+| Remediate risks with Microsoft Defender for Office 365 | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-threat-remediate/) |
+| Mitigate incidents using Microsoft Defender | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/mitigate-incidents-microsoft-365-defender/) |
+| Create and manage sensitive information types | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-sensitive-information-types/) |
+| Design Power BI reports | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/) |
+| Develop generative AI apps in Azure | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-custom-copilots-ai-studio/) |
+| Fine-tune a language model with Microsoft Foundry | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/finetune-model-copilot-ai-studio/) |
+| Create visual calculations in Power BI Desktop | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-visual-calculations/) |
+| Implement a Lakehouse with Microsoft Fabric | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-lakehouse-microsoft-fabric/) |
+| Ingest data with Microsoft Fabric | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/ingest-data-with-microsoft-fabric/) |
+| Ingest Data with Dataflows Gen2 in Microsoft Fabric | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/) |
+| Orchestrate a multi-agent solution using the Microsoft Agent Framework | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/) |
+| Prepare data for analysis with Power BI | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-data-power-bi/) |
+| Choose a Power BI model framework | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/) |
+| Organize a Fabric lakehouse using medallion architecture design | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-medallion-architecture/) |
+| Clean, transform, and load data in Power BI | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/clean-data-power-bi/) |
+| Get data in Power BI | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-data/) |
+| Get started with GitHub Copilot | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-github-copilot/) |
+| Describe general ledger and cash and bank management processes in Dynamics 365 Finance | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-general-ledger-cash-bank-management/) |
+| Personalize learning for students with disabilities using AI | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/personalize-learning-students-disabilities-using-ai/) |
+| Build agent-driven workflows using Microsoft Foundry | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-agent-workflows-microsoft-foundry/) |
+| Apply AI tools in special education environments | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-special-education/) |
+| Support multilingual and accessible family communication | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-multilingual-accessible-family-communication/) |
+| Teach information literacy with Search Coach and Search Progress | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-information-literacy-search-coach-search-progress/) |
+| Understand Data Security Investigations | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-investigations-understand/) |
+| Introduction to Azure HDInsight | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-hdinsight/) |
+| Implement interfaces | Learningpaths | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-interfaces-new/) |
+| Apply interfaces in code | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-interfaces-code/) |
+| Null safety in C# | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-null-safety/) |
+| Take your first steps with F# | Learningpaths | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/fsharp-first-steps/) |
+| Write your first F# code | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/fsharp-first-steps/) |
+| Understand and plan data loss prevention | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-understand-plan/) |
+| Security and management for Windows 11 Pro | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-management/) |
+| Process receipts with AI Builder | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-receipt-processing/) |
+| Ride the Wakelet wave! | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/ride-wakelet-wave/) |
+| Enhance productivity with Power Automate and the Office 365 Outlook Connector | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-productivity/) |
+| Discover interfaces | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-interfaces/) |
+| Introduction to Azure Communication Services | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-communication-services/) |
+| Explore Azure Synapse Studio | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-synapse-studio/) |
+| Create vendor invoice for resource non-stocked deployment in Dynamics 365 Project Operations | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vendor-invoice-resource-non-stocked/) |
+| Introduction to Viva Learning | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-learning-introduction/) |
+| Extend Microsoft 365 Copilot in .NET | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility/) |
+| Extend Microsoft 365 Copilot in TypeScript | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility-typescript/) |
+| Get started with Microsoft 365 Copilot extensibility | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-extensibility-intro/) |
+| Get to know Microsoft Azure cloud platform: An overview for business professionals | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-know-microsoft-azure-cloud-platform-business-professionals/) |
+| Describe the business benefits of Azure | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-benefits-azure/) |
+| Gaming accessibility fundamentals | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/gaming-accessibility-fundamentals/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-59.md](microsoft-learn-2026-07-part-59.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-61.md](microsoft-learn-2026-07-part-61.md)

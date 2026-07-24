@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 47 of 89
-date_range: 2026-02-10 to 2026-02-11
-total_entries: 52
+chunk_part: 47 of 92
+date_range: 2026-02-12 to 2026-02-12
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-47.md
 ---
 
@@ -12,58 +12,55 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Implement app protection by using Microsoft Defender for Cloud Apps | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/implement-app-protection-use-microsoft-defender-cloud-apps/) |
-| Implement threat protection by using Microsoft Defender for Office 365 | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/implement-threat-protection-use-microsoft-defender-office-365/) |
-| Set up email in Dynamics 365 Business Central | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/set-up-email/) |
-| Set up number series and trail codes in Dynamics 365 Business Central | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/number-series-trail-codes-dynamics-365-business-central/) |
-| Explore security solutions in Microsoft Defender XDR | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/explore-security-solutions-microsoft-365-defender/) |
-| Manage identity and access in Microsoft 365 | Learningpaths | 2026-02-11 | [Verify](https://learn.microsoft.com/training/paths/explore-security-metrics-microsoft-365-defender/) |
-| Set up posting groups in Dynamics 365 Business Central | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/posting-groups-dynamics-365-business-central/) |
-| Introduction to Microsoft Power Platform security and governance | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/security-governance-intro/) |
-| Introduction to Azure Cosmos DB for NoSQL | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/introduction-to-azure-cosmos-db-sql-api/) |
-| Protect data in-transit and at rest | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/protect-data-transit-rest/) |
-| Examine threat vectors and data breaches | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/examine-threat-vectors-data-breaches/) |
-| Explore retention in Microsoft 365 | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/explore-retention-policies-labels-microsoft-365/) |
-| MS-102 Explore data governance in Microsoft 365 | Learningpaths | 2026-02-11 | [Verify](https://learn.microsoft.com/training/paths/explore-data-governance-microsoft-365/) |
-| Implement endpoint protection by using Microsoft Defender for Endpoint | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/implement-endpoint-protection-use-microsoft-defender-endpoint/) |
-| Set up and work with outbound operations using inventory management in Dynamics 365 Supply Chain Management | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/set-up-work-outbound-inventory-management/) |
-| Create workflows in Dynamics 365 Business Central | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/create-workflows/) |
-| Administer Power Pages | Learningpaths | 2026-02-11 | [Verify](https://learn.microsoft.com/training/paths/administer-power-pages/) |
-| Power Pages administration | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/power-pages-administration/) |
-| Explore the technical architecture of finance and operations apps | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/explore-technical-architecture-finance-operations/) |
-| Explore design and deployment considerations for finance and operations apps | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/design-deployment-finance-operations/) |
-| Explore Power Pages design studio data and security features | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/power-pages-studio-data-security/) |
-| Manage permissions and administration for Dataverse | Learningpaths | 2026-02-11 | [Verify](https://learn.microsoft.com/training/paths/manage-permissions-administration-common-data-service/) |
-| Get started with security concepts in Dataverse | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/get-started-security-concepts/) |
-| Integrate Dynamics 365 Business Central with Outlook | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/email-integration-dynamics-365-business-central/) |
-| Prepare to migrate VMware resources to Azure by deploying Azure VMware Solution | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/deploy-azure-vmware-solution/) |
-| Build basic code components with the Power Apps Component Framework | Learningpaths | 2026-02-11 | [Verify](https://learn.microsoft.com/training/paths/build-basic-code-components-power-apps-component-framework/) |
-| Get started with Power Apps component framework | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/get-started-power-apps-component-framework/) |
-| Write your first query with Kusto Query Language | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/write-first-query-kusto-query-language/) |
-| Introduction to Azure Data Explorer | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-data-explorer/) |
-| Understand Microsoft Fabric IQ fundamentals | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/training/modules/understand-fabric-iq-fundamentals/) |
-| Evaluate performance improvements | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/evaluate-performance-improvements/) |
-| Implement Windows Server hybrid cloud management, monitoring, and security | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/training/paths/implement-windows-server-hybrid-cloud-management-monitoring-security/) |
-| Manage Azure updates | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/manage-azure-updates/) |
-| Interact with an ASP.NET Core minimal API | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/interact-api/) |
-| Migrate to Azure Database for PostgreSQL flexible server | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/migrate-azure-database-postgresql-flexible-server/) |
-| MS-102 Implement identity synchronization | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/training/paths/implement-identity-synchronization/) |
-| Explore identity synchronization | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/explore-identity-synchronization/) |
-| Use advanced data options and connectors in Power Apps | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/training/paths/advanced-data-options-and-connectors/) |
-| Use custom connectors in a Power Apps canvas app | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/use-custom-connectors-in-powerapps-canvas-app/) |
-| Power Pages styling workspace - Online workshop | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/power-pages-styling-workspace-online-workshop/) |
-| Integrate Dynamics 365 Remote Assist with Dynamics 365 Field Service | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/integrate-remote-assist/) |
-| Understand concepts of data analytics | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/understand-concepts-of-data-analytics/) |
-| Summarize data with Foundry Tools and Azure database for PostgreSQL | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/summarize-data-azure-ai-services-azure-database-postgresql/) |
-| Configure database authentication and authorization | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/configure-database-authentication-authorization/) |
-| Implement HTTP operations in ASP.NET Core Blazor Web apps | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/implement-http-operations-asp-razor/) |
-| Examine data governance solutions in Microsoft Purview | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/examine-data-governance-solutions-microsoft-purview/) |
-| Configure and use the general ledger in Dynamics 365 Finance | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/training/paths/configure-use-general-ledger-dyn365-finance/) |
-| Configure and perform periodic processes in Dynamics 365 Finance | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/configure-periodic-processes-dyn365-finance/) |
-| Implement and manage storage for Azure Virtual Desktop | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/implement-manage-storage-azure-virtual-desktop/) |
-| Integrate Dynamics 365 Business Central with Teams | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/business-central-teams-integration/) |
-| Create and manage model-driven apps with Power Apps and Dataverse | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/training/paths/create-manage-model-driven-apps/) |
-| Guided Project - Create and manage model-driven apps with Power Apps and Dataverse | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/training/modules/guided-project-create-manage-model-driven-apps/) |
+| Orchestrate containers on Windows Server using Kubernetes | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-containers-windows-server-using-kubernetes/) |
+| Manage leads with Dynamics 365 Sales | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-leads-dynamics-365-sales/) |
+| Prepare your organization for Microsoft 365 Copilot | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-your-organization-microsoft-365-copilot/) |
+| Examine data security and compliance in Microsoft 365 Copilot | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-data-security-microsoft-365-copilot/) |
+| Implement a secure environment for a database service | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-secure-environment-database-service/) |
+| Implement compliance controls for sensitive data | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-compliance-controls-sensitive-data/) |
+| Set up and work with inbound operations using inventory management in Dynamics 365 Supply Chain Management | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-work-inbound-inventory-management/) |
+| Create and process journal entries in Dynamics 365 Business Central | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-process-journal-entries-dynamics-365-business-central/) |
+| GitHub Advanced Security Part 1 of 2 | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-advanced-security/) |
+| Configure Dependabot security updates on your GitHub repo | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-dependabot-security-updates-on-github-repo/) |
+| Set up Power Pages security | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-configure-security/) |
+| Power Pages data workspace - Online workshop | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-data-workspace-online-workshop/) |
+| Complete the report request page in Dynamics 365 Business Central | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/complete-report-request-page/) |
+| Configure cash and bank management in Dynamics 365 Finance | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-cash-bank-management-dyn365-finance/) |
+| Use Microsoft Dynamics 365 Customer Service queues to manage case workloads | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/using-dynamics-365-queues-to-manage-case-workloads/) |
+| Set up financial management in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-financial-management-dynamics-365-business-central/) |
+| Set up general ledger configuration options in Dynamics 365 Business Central | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-configure-general-ledger-setup/) |
+| Secure Windows Server user accounts | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-windows-server-user-accounts/) |
+| Implement and manage networking for Azure Virtual Desktop | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-networking-azure-virtual-desktop/) |
+| Work with analytics and reporting in finance and operations apps | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-analytics-reporting-finance-operations/) |
+| Deploy and configure Microsoft Dynamics 365 Business Central | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-dynamics-365-business-central/) |
+| Administer Dynamics 365 Business Central online | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/admin-online-dynamics-365-business-central/) |
+| Extract insights using Azure Language and Azure Database for PostgreSQL | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-insights-using-azure-ai-language-azure-database-postgresq/) |
+| Power Pages workspace setup - Online workshop | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-workspace-setup-online-workshop/) |
+| Work like a pro with data in Business Central | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-pro-data-dynamics-365-business-central/) |
+| Master, supplemental and personal data in Business Central | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/master-supplemental-personal-data-dynamics-365-business-central/) |
+| Secure Azure Database for PostgreSQL | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-database-for-postgresql/) |
+| Service representative collaboration in Dynamics 365 Customer Service | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-collaboration/) |
+| Translate Text with Azure Translator and Azure Database for PostgreSQL | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/translate-text-azure-ai-translator-azure-database-postgresql/) |
+| Manage identities in Microsoft Entra ID | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-identities-azure-active-directory/) |
+| Manage user profiles | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-user-profiles/) |
+| Search and filter knowledge articles by using Dynamics 365 Customer Service | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/search-filter-knowledge-articles/) |
+| Work with performance and monitoring tools in finance and operations apps | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/performance-monitoring-finance-operations/) |
+| Set up and work with inventory control in Dynamics 365 Supply Chain Management | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-work-inventory-control/) |
+| Perform sentiment analysis and opinion mining with Azure Database for PostgreSQL | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-sentiment-analysis-opinion-mining-azure-database-postgresql/) |
+| Implement Retrieval Augmented Generation (RAG) with Azure Databricks | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/retrieval-augmented-generation-azure-databricks/) |
+| Integrate SharePoint and Power Automate | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-power-automate/) |
+| Best practices for email in SharePoint and Power Automate | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/best-practices-email/) |
+| Power Pages workspace site design - Online workshop | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-workspace-site-design-online-workshop/) |
+| Detect and address communication risks with Microsoft Purview Communication Compliance | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-insider-prepare-communication-compliance/) |
+| Develop a security and compliance plan | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-develop-security-compliance-plan/) |
+| Architect secure infrastructure in Azure | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-secure-infrastructure/) |
+| Monitor and report on security events in Microsoft Entra ID | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-report-aad-security-events/) |
+| Set up taxes in Dynamics 365 Finance | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-taxes-finance/) |
+| Adopt FinOps on Azure | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/adopt-finops-on-azure/) |
+| Author a basic formula that uses tables and records in a Power Apps canvas app | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/author-basic-formula-tables-records-powerapps/) |
+| Use basic formulas to make better Power Apps canvas apps | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-basic-formulas-powerapps-canvas-app/) |
+| Tune queries in Azure Database for PostgreSQL | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/tune-queries-azure-database-for-postgresql/) |
+| Work with taxes in Dynamics 365 Finance | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-taxes-finance/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-46.md](microsoft-learn-2026-07-part-46.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-48.md](microsoft-learn-2026-07-part-48.md)

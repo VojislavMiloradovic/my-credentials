@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 69 of 89
-date_range: 2025-12-24 to 2025-12-25
-total_entries: 56
+chunk_part: 69 of 92
+date_range: 2025-12-27 to 2025-12-28
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-69.md
 ---
 
@@ -12,62 +12,58 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Use Power Automate for desktop to interact with windows and applications | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/pad-ui-automation/) |
-| Deploy a containerized application on Azure Kubernetes Service | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/aks-deploy-container-app/) |
-| Introduction to Kubernetes on Azure | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/training/paths/intro-to-kubernetes-on-azure/) |
-| Tailoring trainings with AI | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/tailoring-trainings-with-ai/) |
-| Design a machine learning operations solution | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/design-machine-learning-operations-solution/) |
-| Manage process mining projects | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/manage-process-mining/) |
-| Build .NET applications with C# | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/training/paths/build-dotnet-applications-csharp/) |
-| Interactively debug .NET apps with the Visual Studio Code debugger | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/dotnet-debug/) |
-| From inbox to impact: Improve your email workflows with AI | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/from-inbox-impact-improve-your-email-workflows-ai/) |
-| Microsoft Learn for Educators course planning | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/microsoft-learn-educators-course-plan/) |
-| Hyperautomation with insights from process mining | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/hyperautomation-process-mining/) |
-| Work with files and directories in a .NET app | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/dotnet-files/) |
-| Troubleshoot device driver failures | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/troubleshoot-device-driver-failures/) |
-| Integrate a Power Apps app with Power Automate - Online Workshop | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/integrate-power-apps-online-workshop/) |
-| Create a machine ordering app with Power Apps - Online Workshop | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/training/paths/power-apps-online-workshop/) |
-| Manage cases with Dynamics 365 Customer Service workspace | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/manage-cases-customer-service-workspace/) |
-| Build a scalable application with Virtual Machine Scale Sets | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/training/modules/build-app-with-scale-sets/) |
-| Architect compute infrastructure in Azure | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/training/paths/architect-compute-infrastructure/) |
-| Digitally transform with Dynamics 365 | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/digitally-transform-with-dynamics-365/) |
-| Onboard to Microsoft Learn for Educators program | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/onboard-microsoft-learn-educators-program/) |
-| Automate GitHub by using GitHub Script | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/automate-github-using-github-script/) |
-| Automate an approval process in Power Automate | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/approvals-power-automate/) |
-| Introduction to Microsoft Dynamics 365 Supply Chain Management | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/training/paths/explore-microsoft-dynamics-365-supply-chain-management/) |
-| Describe Dynamics 365 Supply Chain Management core capabilities | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/identify-general-capabilities-of-microsoft-dynamics/) |
-| Enhance nonprofit volunteer management with Microsoft Copilot | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/enhance-nonprofit-volunteer-management-microsoft-copilot/) |
-| Create a Dataverse table for the machine ordering app  - Online workshop | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/dataverse-lab-manual-online-workshop/) |
-| Create a model-driven Power Apps app for machine ordering - Online Workshop | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/power-apps-model-driven-apps-online-workshop/) |
-| Introduction to Azure Bot Service and Bot Framework Composer | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/intro-to-bot-service-bot-framework-composer/) |
-| Document and test your Power Apps application | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/document-test-powerapps-app/) |
-| Deliver engaging and accessible virtual events with Microsoft Teams and Microsoft 365 | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/training/paths/m365-virtual-events-fundamentals/) |
-| Bringing it all together for engaging virtual events in Microsoft 365 | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/m365-bring-all-together-engaging-virtual-events/) |
-| Design a successful virtual event using Microsoft 365 | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/m365-design-successful-virtual-events/) |
-| Introduction to delivering virtual events using Microsoft Teams and Microsoft 365 | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/m365-introduction-deliver-virtual-events-using-microsoft-teams/) |
-| Discover AI for leaders in healthcare | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/training/paths/discover-microsoft-ai-leaders-healthcare-industry/) |
-| Define a Microsoft AI strategy to create business value in healthcare | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/define-microsoft-ai-strategy-healthcare/) |
-| Foundations of user experience and design thinking | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/ux-design/) |
-| Get started with Azure Stream Analytics | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/introduction-to-data-streaming/) |
-| Evaluate deployment methods | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/evaluate-deployment-methods/) |
-| MD-100 Install the Windows client | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/training/paths/install-windows-client/) |
-| Align requirements with cloud types and service models in Azure | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/align-requirements-in-azure/) |
-| Leverage data for action with Microsoft Education Insights | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/leverage-data-for-action-microsoft-insights/) |
-| Deploy and refine your app like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/deploy-refine-app/) |
-| Think like a Maker series: Plan and deploy your Power App | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/training/paths/plan-deploy/) |
-| Test your app like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/test-app/) |
-| Make your app like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/make-app/) |
-| Design your app like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/design-app/) |
-| Plan your project like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/plan-app-project/) |
-| Introduction to Azure Firewall | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/introduction-azure-firewall/) |
-| Introduction to Microsoft Defender XDR | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/defender-introduction/) |
-| Microsoft Search fundamentals | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/training/paths/microsoft-search-fundamentals/) |
-| Increase Microsoft Search adoption, monitor usage, and maintain answers | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/microsoft-search-adoption-usage-maintain/) |
-| Manage access, add entry points, and review Microsoft Search feedback | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/microsoft-search-manage-access-entry-points-feedback/) |
-| Use and customize Microsoft Search for schools | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/microsoft-search-edu/) |
-| Create and customize Microsoft Search answers | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/microsoft-search-create-customize-answers/) |
-| Assign admins and plan content for Microsoft Search | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/microsoft-search-assign-admin-plan/) |
-| Introduction to Microsoft Search | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/training/modules/microsoft-search-intro/) |
+| Challenge Project — Create a Business Model for your startup using Microsoft Copilot | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-use-generative-ai-to-create-business-model-startup/) |
+| Challenge project – Ideate with Microsoft Copilot | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-ideate-business-with-ai/) |
+| Configure User Account Control | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-user-account-control/) |
+| Introduction to Azure VPN Gateway | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-vpn-gateway/) |
+| Add custom knowledge to declarative agents using Copilot connectors and Visual Studio Code | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-graph-connector-vsc/) |
+| Extend Microsoft 365 Copilot with Copilot connectors using Visual Studio Code | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-microsoft-365-copilot-connectors-visual-studio-code/) |
+| Combine Power Automate desktop and cloud flows | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-powerautomate/) |
+| Explore application troubleshooting | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-application-troubleshooting/) |
+| Employ file recovery in Windows client | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/employ-file-recovery-windows-client/) |
+| Build your first declarative agent for Microsoft 365 Copilot by using Visual Studio Code | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agents-build-your-first/) |
+| Implement a code workflow in your build pipeline by using Git and GitHub | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-code-workflow/) |
+| Learn the fundamentals of Dynamics 365 projects | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-dynamics-365-projects/) |
+| Determine the implementation approach for your Dynamics 365 project | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/determine-implementation-approach-dynamics-365/) |
+| Get to know the project team for Dynamics 365 implementations | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-team-dynamics-365-implementation/) |
+| Discover the Dynamics 365 landscape | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-dynamics-365-landscape/) |
+| Search, filter, sort, and select data in Business Central | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/search-filter-sort-data-dynamics-365-business-central/) |
+| Get started with Dynamics 365 Contact Center | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-contact-center/) |
+| Streamline nonprofit program management with Microsoft Copilot | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/streamline-nonprofit-program-management-with-microsoft-copilot/) |
+| Intro to Azure Policy | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-policy/) |
+| Introduction to Azure DNS | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-dns/) |
+| Introduction to Azure network foundation services | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-network-foundation-services/) |
+| Recognize text with AI Builder | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-text-recognition/) |
+| Use AI-powered tools for training | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-powered-tools-for-teaching/) |
+| Introduction to artificial intelligence for trainers | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-artificial-intelligence-for-trainers/) |
+| Architect network infrastructure in Azure | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-network-infrastructure/) |
+| Distribute your services across Azure virtual networks and integrate them by using virtual network peering | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-vnets-with-vnet-peering/) |
+| Manage users and groups | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-users-groups/) |
+| Choose the right Azure service for deploying your Java application | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/java-target-destinations/) |
+| Optimize business processes with Microsoft 365 Copilot | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/optimize-business-processes-with-ai/) |
+| Unlock productivity and unleash creativity with AI powered chat | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/unlock-productivity-unleash-creativity-ai-powered-chat/) |
+| Prepare to teach MB-920: Microsoft Dynamics 365 Fundamentals (ERP) | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-mb-920-microsoft-dynamics-365-fundamentals/) |
+| Learn best practices from Microsoft Technical Trainers | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-best-practices-from-microsoft-technical-trainers/) |
+| Personalize the Microsoft Dynamics 365 Business Central user interface | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/personalize-ui-dynamics-365-business-central/) |
+| Introduce DevOps Dojo: Create efficiencies that support your business | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/devops-dojo-white-belt-foundation/) |
+| Explain DevOps Continuous Delivery and Continuous Quality | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explain-devops-continous-delivery-quality/) |
+| Analyze DevOps Continuous Planning and Continuous Integration | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-devops-continuous-planning-intergration/) |
+| Introduce the foundation pillars of DevOps: Culture and Lean Product | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduce-foundation-pillars-devops/) |
+| Define the foundation pillars of DevOps: Architecture and Technology | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-foundation-pillars/) |
+| Manage your education devices with Microsoft 365 | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-manage-education-devices/) |
+| Deploy and enroll your education devices | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/education-deploy-devices/) |
+| Manage devices used for education | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/education-manage-devices/) |
+| Manage scoped administration and delegation with Microsoft Intune and Intune for Education | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/education-manage-admin/) |
+| Integrate data with Azure Data Factory or Azure Synapse Pipeline | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-integration-azure-data-factory/) |
+| Communicate using message boxes in Power Automate for desktop flows | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-message-boxes/) |
+| Troubleshoot physical failures on Windows clients | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-physical-failures-windows-clients/) |
+| MD-100 Troubleshoot hardware and drivers | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-hardware-drivers/) |
+| Explore physical hardware troubleshooting | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-physical-hardware-troubleshooting/) |
+| Troubleshoot Windows startup | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-windows-startup/) |
+| Introduction to AI security testing | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-security-testing/) |
+| AI security fundamentals | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-security-fundamentals/) |
+| Fundamentals of AI security | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/fundamentals-ai-security/) |
+| Define a Microsoft AI strategy to create business value in retail | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-retail/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-68.md](microsoft-learn-2026-07-part-68.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-70.md](microsoft-learn-2026-07-part-70.md)

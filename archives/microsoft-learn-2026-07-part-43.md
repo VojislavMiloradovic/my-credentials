@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 43 of 89
-date_range: 2026-02-13 to 2026-02-15
+chunk_part: 43 of 92
+date_range: 2026-02-18 to 2026-02-25
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-43.md
 ---
@@ -12,57 +12,57 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Introduction to report components in Dynamics 365 Business Central | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/introduction-report-components/) |
-| Manage access and security for Azure Virtual Desktop | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/training/paths/manage-access-security/) |
-| Manage access for Azure Virtual Desktop | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/manage-access/) |
-| Set up dual-write in finance and operations apps | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/set-up-dual-write-finance-operations/) |
-| Explore data integration concepts in finance and operations apps | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/integration-patterns-finance-operations/) |
-| Create smart assist solutions in Contact Center for Dynamics 365 Customer Service | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/create-smart-assist-omnichannel/) |
-| Help service reps be more productive in Dynamics 365 Customer Service | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/training/paths/agents-help-customer-service/) |
-| Implement IP Address Management | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/implement-ip-address-management/) |
-| Implement and operate an on-premises and hybrid networking infrastructure | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/training/paths/implement-operate-premises-hybrid/) |
-| Protect, monitor, and tune a migrated database | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/protect-monitor-tuning-migrated-database/) |
-| Configure monitoring for virtual machines | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/configure-monitoring-virtual-machines/) |
-| Work with codeunits in Dynamics 365 Business Central | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/work-with-codeunits/) |
-| Extend reports in Dynamics 365 Business Central | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/report-extensibility/) |
-| Certify and create an open-source Microsoft Power Platform custom connector | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/open-source-connectors/) |
-| OCR technologies in Power Automate for desktop | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/pad-ocr/) |
-| Handle events with Azure Functions and Azure Cosmos DB for NoSQL change feed | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/handle-events-azure-functions-azure-cosmos-db-sql-api-change-feed/) |
-| Validate your Power Platform Functional Consultant skills | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/training/paths/validate-power-platform-functional-consultant-skills/) |
-| Challenge project - Build applications and automation solutions | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/challenge-project-build-applications-automation-solutions/) |
-| Use report triggers, functions, and processing-only reports in Dynamics 365 Business Central | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/understand-report-triggers-functions/) |
-| Explore finance and operations apps integration concepts | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/explore-finance-operations-apps-integration-concepts/) |
-| Work with accounts payable daily procedures in Dynamics 365 Finance | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/work-accounts-payable-daily-finance/) |
-| MS-4010 - Extend Microsoft 365 Copilot with declarative agents by using Visual Studio Code | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/training/paths/build-plugins-connectors-microsoft-copilot-microsoft-365/) |
-| Extend declarative agents for Microsoft 365 Copilot with API plugins using Visual Studio Code | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/training/paths/copilot-microsoft-365-declarative-agents-api-plugins-visual-studio-code/) |
-| Authenticate your API plugin for declarative agents with secured APIs | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/copilot-declarative-agent-api-plugin-auth/) |
-| Set up virtual entities in finance and operations apps | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/set-up-virtual-entities-finance-operations/) |
-| Power Pages workspace data components - Online workshop | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/power-pages-workspace-data-components-online-workshop/) |
-| Analyze list data using data analysis mode in Business Central | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/analyze-list-data/) |
-| Configure monitoring for virtual networks | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/configure-monitoring-virtual-networks/) |
-| Build a mobile and desktop app with Blazor Hybrid and .NET MAUI | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/build-blazor-hybrid/) |
-| Advanced command bar concepts | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/command-bar-advanced/) |
-| Implement hybrid network infrastructure | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/implement-hybrid-network-infrastructure/) |
-| Add reports to Tell Me and substitute a report in Dynamics 365 Business Central | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/training/modules/add-reports-tell-me/) |
-| Guided Project - Create document process model and email approval with AI Builder and Power Automate | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/guided-project-document-process-model-email-approval-ai-builder/) |
-| Implement AI models with Microsoft Power Platform AI Builder | Learningpaths | 2026-02-14 | [Verify](https://learn.microsoft.com/training/paths/implement-ai-models-microsoft-power-platform-ai-builder/) |
-| Use Adaptive Cards to show data in API plugins for declarative agents | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/copilot-declarative-agent-action-api-plugin-adaptive-cards-vsc/) |
-| Explore the test framework and tools in finance and operations apps | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/explore-test-framework-tools-finance-operations/) |
-| Introduction to developing with finance and operations apps | Learningpaths | 2026-02-14 | [Verify](https://learn.microsoft.com/training/paths/introduction-develop-finance-operations/) |
-| Explore reporting tools in finance and operations apps | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/explore-reporting-tools-finance-operations/) |
-| Configure electronic reporting in Dynamics 365 Finance | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/configure-electronic-reporting-finance-operations/) |
-| Configure and work with analytics and reporting in finance and operations apps | Learningpaths | 2026-02-14 | [Verify](https://learn.microsoft.com/training/paths/configure-analytics-reporting-finance-operations/) |
-| Get started with Power Fx functions | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/get-started-power-fx/) |
-| Create purchase documents in Dynamics 365 Business Central | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/create-purchase-documents-dynamics-365-business-central/) |
-| Configure updates of Azure Arc-enabled servers by using Azure Update Manager | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/configure-updates-azure-arc-enabled-servers/) |
-| Configure and migrate to Azure Database for PostgreSQL | Learningpaths | 2026-02-14 | [Verify](https://learn.microsoft.com/training/paths/microsoft-learn-azure-database-for-postgresql/) |
-| Procedures and functions in PostgreSQL | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/procedures-functions-postgresql/) |
-| Manage access for external users | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/manage-access-for-external-users/) |
-| Understand retention in Microsoft Purview | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/purview-understand-retention/) |
-| Work order management in Dynamics 365 Field Service | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/implement-work-order-management-agreements-inventory-and-purchasing/) |
-| Get started with the SharePoint Framework | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/training/modules/sharepoint-spfx-get-started/) |
-| Manage Azure PaaS tasks using automation | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/training/modules/manage-azure-paas-resources-using-automated-methods/) |
-| Deploy and configure Windows Server IaaS Virtual Machine | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/training/paths/deploy-configure-windows-server-iaas-virtual-machine/) |
+| Introduction and prerequisites for Power Pages - Online workshop | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-introduction-online-workshop/) |
+| Manage settings for a local Windows machine using PowerShell cmdlets | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-settings-for-local-windows-machine-use-powershell-cmdlets/) |
+| Consume an Azure Cosmos DB for NoSQL change feed using the SDK | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/consume-azure-cosmos-db-sql-api-change-feed-use-sdk/) |
+| Automate database tasks for Azure SQL | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-tasks-sql-server/) |
+| Automate database deployment | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-automatic-deployment-azure-sql-database/) |
+| Deploy new devices | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-new-devices/) |
+| Process sales orders with Dynamics 365 Sales | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-sales-orders-dynamics-365-sales/) |
+| Get started with language models in Azure Databricks | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-language-models-databricks/) |
+| Review responsible AI principles for language models in Azure Databricks | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-language-models-azure-databricks/) |
+| Work with scripting constructs in Windows PowerShell | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-script-constructs-windows-powershell/) |
+| Set up and use Intelligent OCR for vendor invoices in Dynamics 365 Finance | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/ocr-vendor-invoices-finance/) |
+| Deploy and manage Azure Arc-enabled Servers | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-azure-arc-enabled-servers/) |
+| Guided exercise - Manage on-premises Windows servers by using Azure Arc | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-exercise-manage-on-premises-azure-arc/) |
+| Perform a bank reconciliation in Dynamics 365 Business Central | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/bank-reconciliation-dynamics-365-business-central/) |
+| Monitor and manage performance and health | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-manage-performance-health/) |
+| Monitor and maintain an Azure Virtual Desktop infrastructure | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-maintain-azure-virtual-desktop-infrastructure/) |
+| Manage sales prices in Dynamics 365 Business Central | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-sales-prices-dynamics-365-business-central/) |
+| Set up Apple Message for Business and Google Business Messages as channels in Dynamics 365 Customer Service | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-apple-message-business-google-business-messages/) |
+| Work with reports in Dynamics 365 Business Central | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-reports/) |
+| Build reports for Microsoft Dynamics 365 Business Central | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-reports/) |
+| Implement security for Microsoft Teams | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-for-microsoft-teams/) |
+| Manage and organize your product catalog with Dynamics 365 Sales | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-organize-product-catalog-dynamics-365-sales/) |
+| Enable Defender for Cloud on your Azure subscription | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-defender-cloud-azure-subscription/) |
+| Implement and manage Microsoft 365 retention and recovery | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-retention-recovery/) |
+| Implement and manage Microsoft 365 retention and recovery | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-retention/) |
+| Configure Microsoft Defender for Cloud for Azure Arc-enabled servers | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-defender-cloud-azure-arc-enabled-servers/) |
+| Use advanced Windows PowerShell remoting techniques | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-advanced-windows-powershell-remoting-techniques/) |
+| Set up accounts receivable in Dynamics 365 Finance | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-accounts-receivable-dyn365-finance/) |
+| Use SQL Warehouses in Azure Databricks | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-sql-warehouses-azure-databricks/) |
+| Implement a Windows Server hybrid cloud infrastructure | Learningpaths | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-hybrid-cloud-infrastructure/) |
+| Migrate on-premises Windows Server instances to Azure IaaS virtual machines | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-premises-windows-server-instances-azure-iaas-virtual-machines/) |
+| Build enterprise AI agents with Java and Spring | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-enterprise-ai-agents-with-java-spring/) |
+| Windows Server Network Infrastructure | Learningpaths | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-network-infrastructure/) |
+| Secure Windows Server DNS | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-windows-server-domain-name-system/) |
+| Implement and manage FSLogix | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-fslogix/) |
+| Post periodic journal entries in Dynamics 365 Business Central | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/periodic-journal-entries-dynamics-365-business-central/) |
+| Use journals in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-journals-dynamics-365-business-central/) |
+| Update Windows client | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/update-windows-client/) |
+| Configure alerts and responses | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-alerts-responses/) |
+| Create sales documents in Dynamics 365 Business Central | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-sales-documents-dynamics-365-business-central/) |
+| Common command bar scenarios | Modules | 2026-02-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/command-bar-scenarios/) |
+| Customize the command bar in Power Apps | Learningpaths | 2026-02-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/command-bar-power-apps/) |
+| Introduction to GitHub Copilot app modernization | Modules | 2026-02-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-github-copilot-app-modernization/) |
+| Get started with speech in Azure | Modules | 2026-02-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-speech-azure/) |
+| Introduction to Arm on Microsoft Surface | Modules | 2026-02-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/introducton-to-arm-surface/) |
+| Introduction to Azure Arc-enabled VMware vSphere | Modules | 2026-02-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-arc-enabled-vmware-vsphere/) |
+| Implement mobile application management | Modules | 2026-02-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-mobile-application-management/) |
+| Implement retention, eDiscovery, and Communication compliance in Microsoft Purview | Learningpaths | 2026-02-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-retention-ediscovery-communication-compliance/) |
+| Implement and manage retention with Microsoft Purview | Modules | 2026-02-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-implement-manage-retention/) |
+| Get started with Microsoft Power Platform for app makers | Modules | 2026-02-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-power-platform-app-makers/) |
+| Plan a transition to modern management | Modules | 2026-02-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-transition-modern-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-42.md](microsoft-learn-2026-07-part-42.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-44.md](microsoft-learn-2026-07-part-44.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 81 of 89
-date_range: 2025-11-28 to 2025-12-01
-total_entries: 53
+chunk_part: 81 of 92
+date_range: 2025-12-06 to 2025-12-09
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-81.md
 ---
 
@@ -12,59 +12,58 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Run Petabyte level OSS NoSQL databases with HDInsight HBase | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/training/modules/run-petabyte-level-oss-nosql-databases-hdinsight-hbase/) |
-| Get started with enterprise scale data management and analytics scenario | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/training/modules/data-management-analytics/) |
-| Develop products with screen reader support | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/training/modules/develop-products-with-screen-reader-support/) |
-| Common education configurations for Intune (Partner Success Series) | Modules | 2025-12-01 | [Verify]() |
-| Collaborate with colleagues with staff and PLC teams in Microsoft Teams | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/collaborate-colleagues-staff-plc-teams-microsoft-teams/) |
-| Perform operations on arrays using helper methods in C# | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/csharp-arrays-operations/) |
-| Explore developer tools for workspace interaction | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/explore-developer-tools-for-workspace-interaction/) |
-| Innovate learning with the 21CLD real-world problem solving and innovation dimension | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/innovate-learning-21cld/) |
-| Convert data types using casting and conversion techniques in C# | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/csharp-convert-cast/) |
-| Enhance creativity to advance learning with Windows 11 and Microsoft 365 tools | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/enhance-creativity-advance-learning-windows-11-microsoft-365-tools/) |
-| Manage Microsoft 365 Copilot extensibility | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/manage-microsoft-365-copilot-extensibility/) |
-| Prepare for Microsoft 365 Copilot extensibility | Learningpaths | 2025-11-30 | [Verify](https://learn.microsoft.com/training/paths/prepare-microsoft-365-copilot-extensibility/) |
-| Microsoft 365 Copilot extensibility fundamentals | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/microsoft-copilot-extensibility-fundamentals/) |
-| Increase productivity with Office, OneNote, and Microsoft Edge browser in Windows 11 | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/increase-productivity-office-onenote-edge-browser-windows-11/) |
-| Work with environments in Azure Machine Learning | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/work-environments-azure-machine-learning/) |
-| Practice collaborative skills with the 21CLD collaboration dimension | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/practice-collaborative-skills-21cld-collaboration/) |
-| Manage data with School Data Sync | Modules | 2025-11-30 | [Verify]() |
-| Introduction to School Data Sync | Modules | 2025-11-30 | [Verify]() |
-| Introduction to using Managed Identity to authenticate to Azure OpenAI with .NET | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/intro-azure-openai-managed-identity-auth-dotnet/) |
-| Discover Microsoft safety guidelines for responsible conversational AI development | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/secure-responsible-conversational-ai/) |
-| Choose a distribution channel for a HoloLens app | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/choose-distribution-hololens-app/) |
-| Validation of Teams apps extensible across Microsoft 365 | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/microsoft-teams-extend-app-365/) |
-| Add significant value to your Teams app | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/microsoft-teams-significant-app-value/) |
-| Configure settings for Fundraising and Engagement | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/configure-settings-fundraising-engagement/) |
-| Get started with AI-powered information extraction in Azure | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/ai-information-extraction/) |
-| Describe Microsoft Security Copilot agents | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/training/modules/security-copilot-describe-agents/) |
-| Enhance security operations by using Microsoft Security Copilot | Learningpaths | 2025-11-30 | [Verify](https://learn.microsoft.com/training/paths/security-copilot-and-ai/) |
-| Add logic to C# console applications (Get started with C#, Part 3) | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/training/paths/get-started-c-sharp-part-3/) |
-| Guided project - Develop conditional branching and looping structures in C# | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/) |
-| Secure a Microsoft Fabric data warehouse | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/secure-data-warehouse-in-microsoft-fabric/) |
-| Introduction to Azure Application Gateway | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/intro-to-azure-application-gateway/) |
-| Communicate effectively on GitHub using Markdown | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/communicate-using-markdown/) |
-| GitHub Foundations Part 1 of 2 | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/training/paths/github-foundations/) |
-| Implement Real-Time Intelligence with Microsoft Fabric | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/training/paths/explore-real-time-analytics-microsoft-fabric/) |
-| Create Real-Time Dashboards with Microsoft Fabric | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/create-real-time-dashboards-microsoft-fabric/) |
-| Minecraft 101: Craft a game-based learning classroom | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/craft-game-based-learning-classroom/) |
-| Empower your workforce with Microsoft 365 Copilot: Legal Use Case | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/empower-workforce-microsoft-365-copilot-legal-use-case/) |
-| Describe the best practices for datacenter operations | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/describe-best-practices-datacenter-operations/) |
-| Introduction to Datacenter | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/training/paths/introduction-to-datacenter/) |
-| Describe the sustainability practices in datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/describe-sustainability-practices-datacenters/) |
-| Identify key hardware and IT infrastructure components of datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/identify-key-hardware-it-infrastructure-components/) |
-| Learn about datacenter design, architecture, and infrastructure management | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/learn-about-datacenter-design/) |
-| Understand the purpose and evolution of datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/understand-purpose-evolution-datacenters/) |
-| Empower your workforce with Microsoft 365 Copilot: Customer Service Use Case | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/empower-workforce-microsoft-365-copilot-customer-service-use-case/) |
-| Learn about contributing to local economies through datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/learn-contributing-local-economies-through-datacenters/) |
-| Empower your workforce with Microsoft 365 Copilot: Communications Use Case | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/modules/empower-workforce-microsoft-365-copilot-communications-use-case/) |
-| Foundations of SaaS | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/training/saas/saas-foundations/) |
-| Copilot Foundations | Learningpaths | 2025-11-28 | [Verify](https://learn.microsoft.com/training/paths/copilot-foundations/) |
-| Get started with Microsoft Copilot Studio | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/training/modules/power-virtual-agents-bots/) |
-| Build a digital learning hub with Class Teams | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/training/modules/build-digital-learning-hub-class-teams/) |
-| Evaluate Boolean expressions to make decisions in C# | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/training/modules/csharp-evaluate-boolean-expressions/) |
-| Embed 21st century skills with 21st century learning design | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/training/modules/embed-21st-century-skills-21st-century-learning-design/) |
-| Challenge project - Develop branching and looping structures in C# | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/) |
+| Create and throw exceptions in C# console applications | Modules | 2025-12-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-throw-exceptions-c-sharp/) |
+| Describe basic cybersecurity threats, attacks, and mitigations | Modules | 2025-12-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-basic-cybersecurity-threats-attacks-mitigations/) |
+| Use hierarchies and DAX in your first data model - Online workshop | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-hierarchies-dax-first-data-model/) |
+| Challenge project - Create a mini-game | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game/) |
+| Introduction to the Open source Analytics Offering | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-open-source-analytics-offering/) |
+| Introduction to PWABuilder | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-pwabuilder/) |
+| Get started with Fundraising and Engagement in Microsoft for Nonprofits | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-fundraising-engagement/) |
+| Develop keyboard-accessible products | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-keyboard-accessible-products/) |
+| Challenge project - Build a speech translator app | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-speech-translator-app/) |
+| Integrate external content with Microsoft 365 Copilot using Copilot connectors built with TypeScript | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-graph-connectors-typescript/) |
+| Introduction to Azure API Center | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-api-center/) |
+| Academic session transition with School Data Sync | Modules | 2025-12-08 | N/A |
+| School Data Sync advanced for education partners | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/school-data-sync-advanced-education-partners/) |
+| Connect Microsoft 365 Copilot to your external data in real-time with message extension plugins built with TypeScript and Visual Studio Code | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-message-extension-plugins-typescript/) |
+| HoloLens Fundamentals | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/hololens-fundamentals/) |
+| Introduction to HoloLens | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-hololens/) |
+| Activate AI with the Microsoft Education AI Toolkit | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/activate-ai-microsoft-education-ai-toolkit/) |
+| Create C# methods that return values | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-c-sharp-methods-return-values/) |
+| Get started with Microsoft 365 Copilot Chat | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-microsoft-365-copilot-business-chat/) |
+| Deploy and consume models with Azure Machine Learning | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-consume-models-azure-machine-learning/) |
+| Train and manage a machine learning model with Azure Machine Learning | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/train-deploy-machine-learning-model/) |
+| Deploy a model to a managed online endpoint | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-model-managed-online-endpoint/) |
+| Manage and review models in Azure Machine Learning | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-review-models-azure-machine-learning/) |
+| Create and explore the Responsible AI dashboard for a model in Azure Machine Learning | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-compare-models-azure-machine-learning/) |
+| Implement exception handling in C# console applications | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-exception-handling-c-sharp/) |
+| Deploy a model to a batch endpoint | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-model-batch-endpoint/) |
+| Data visualization and reports in Power BI - Online workshop | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-visualization-reports-power-bi/) |
+| Preprocess data with Data Wrangler in Microsoft Fabric | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/preprocess-data-with-data-wrangler-microsoft-fabric/) |
+| Describe concepts of cryptography | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-concepts-of-cryptography/) |
+| Explore the benefits of a Change Agents Program for public sector organizations | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-benefits-change-agents-program-public-sector-organizations/) |
+| Create C# methods with parameters | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-c-sharp-methods-parameters/) |
+| Build your first data model and explore the data by using Power BI - Online workshop | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-data-model/) |
+| Implement the Visual Studio Code debugging tools for C# | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-visual-studio-code-debugging-tools/) |
+| Introduction to application resiliency in Azure | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-application-resiliency-azure/) |
+| Prepare for Intune for Education (Partner Success Series) | Modules | 2025-12-07 | N/A |
+| Ingest ESG value chain data | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-environmental-social-governance-value-solution/) |
+| Apply Information Barriers in education | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-information-barriers-education/) |
+| Engage learners through games with MakeCode Arcade | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/engage-learners-through-games-with-makecode-arcade/) |
+| Build a 3D mobile app with Power Apps in mixed reality | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-tutorial/) |
+| Introduction to Viva Pulse | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-pulse-introduction/) |
+| Introduction to Azure OpenAI Managed Identity Authentication with Java | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-openai-managed-identity-auth-java/) |
+| Choose the correct HDInsight Configuration to build open source analytics solutions. | Modules | 2025-12-07 | N/A |
+| Perform Zero ETL analytics with HDInsight Interactive Query | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-zero-etl-analytics-hdinsight-interactive-query/) |
+| Discover AI for leaders in sustainability | Learningpaths | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-sustainability/) |
+| Define a Microsoft AI strategy to create business value in sustainability | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-sustainability/) |
+| Monitor your Azure virtual machines with Azure Monitor | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-azure-vm-using-diagnostic-data/) |
+| Review the principles of code debugging and exception handling | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/review-principles-code-debugging-exception-handling-c-sharp/) |
+| Guided project - Debug and handle exceptions in a C# console application using Visual Studio Code | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/) |
+| Explore data for data science with notebooks in Microsoft Fabric | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-data-for-data-science-microsoft-fabric/) |
+| Learn the basics of web accessibility | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/web-development-101-accessibility/) |
+| Connect data with School Data Sync | Modules | 2025-12-06 | N/A |
+| Manage Windows updates for cloud-connected devices by using the Microsoft Graph PowerShell SDK | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-updates-cloud-devices/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-80.md](microsoft-learn-2026-07-part-80.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-82.md](microsoft-learn-2026-07-part-82.md)
