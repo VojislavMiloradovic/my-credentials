@@ -143,7 +143,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-07 | **Agent Fundamentals** |
 | 2026-04-07 | **Create Agents with Generative Playbooks** |
 | 2026-04-06 | **Getting Started with Security Command Center Enterprise** |
-| 2026-04-05 | **Unlock Insights with NotebookLM** |
+| 2026-04-05 | **Unlock Insights with Gemini Notebook** |
 | 2026-04-05 | **Introduction to reCAPTCHA** |
 | 2026-04-04 | **Introduction to Gemini Enterprise** |
 | 2026-04-03 | **Responsible AI for Developers: Fairness & Bias** |

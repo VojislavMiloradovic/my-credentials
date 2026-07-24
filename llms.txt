@@ -1,6 +1,6 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-07-23 20:54 UTC
+> **Last Generated:** 2026-07-24 01:23 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Platform Master Indexes
@@ -18,7 +18,7 @@ Recommended for models with large context windows (>100k tokens).
 
 - [Aws Skills Complete](./archives/aws-skills-complete.md): Full dataset (~52.57 KB, ~13,117 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
 - [Credly Badges Complete](./archives/credly-badges-complete.md): Full dataset (~124.64 KB, ~31,878 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-complete.md
-- [Google Cloud Skills Complete](./archives/google-cloud-skills-complete.md): Full dataset (~21.38 KB, ~5,469 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-complete.md
+- [Google Cloud Skills Complete](./archives/google-cloud-skills-complete.md): Full dataset (~21.38 KB, ~5,471 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-complete.md
 - [Google Developer Complete](./archives/google-developer-complete.md): Full dataset (~227.81 KB, ~58,296 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md
 - [Linkedin Certifications Complete](./archives/linkedin-certifications-complete.md): Full dataset (~252.05 KB, ~64,511 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md
 - [Microsoft Learn Complete](./archives/microsoft-learn-complete.md): Full dataset (~814.62 KB, ~208,530 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
