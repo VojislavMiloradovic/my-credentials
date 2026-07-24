@@ -1,0 +1,10 @@
+[lint]
+ignore = [
+    "BLE001",  # Allow general Exception catching in scrapers/updaters
+    "DTZ005",  # Allow naive datetime.now()
+    "DTZ007",  # Allow naive datetime.strptime()
+    "DTZ901",  # Allow naive datetime.min
+    "S110",    # Allow try-except-pass blocks in fallback handlers
+    "S112",    # Allow try-except-continue loops
+    "TRY002",  # Allow raising standard Exception in fetch errors
+]

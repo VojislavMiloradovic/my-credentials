@@ -1,8 +1,8 @@
-import os
-import sys
 import csv
-import re
 import glob
+import os
+import re
+import sys
 from datetime import datetime
 
 README_PATH = "README.md"

@@ -1,11 +1,12 @@
-import os
-import sys
-import re
-import json
 import glob
-import requests
+import json
+import os
+import re
+import sys
 from datetime import datetime, timezone
 from urllib.parse import unquote
+
+import requests
 
 README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
@@ -49,7 +50,7 @@ def parse_local_learnings_txt():
         return []
     
     with open(LEARNINGS_TXT_PATH, "r", encoding="utf-8") as f:
-        lines = [line.strip() for line in f.readlines() if line.strip()]
+        lines = [line.strip() for line in f if line.strip()]
         
     learnings = []
     i = 0
@@ -72,9 +73,12 @@ def parse_local_learnings_txt():
             if title in ["Учење", "check_circle_outline You have this badge!"] and i > 1:
                 title = lines[i-2]
                 
-            if title not in ["Учење", "check_circle_outline You have this badge!"] and not title.startswith("http"):
-                if not any(item['title'] == title for item in learnings):
-                    learnings.append({
+            if (
+                title not in ["Учење", "check_circle_outline You have this badge!"]
+                and not title.startswith("http")
+                and not any(item['title'] == title for item in learnings)
+            ):
+                learnings.append({
                         "title": title.strip(),
                         "date": iso_date,
                         "description": "Verified Google Developer granular learning activity module milestone."
@@ -198,7 +202,7 @@ def fetch_gdev_badges_rpc():
                     for chunk in outer_data:
                         if isinstance(chunk, list):
                             for element in chunk:
-                                if isinstance(element, str) and (element.startswith("[") or element.startswith("{")):
+                                if isinstance(element, str) and (element.startswith(("[", "{"))):
                                     try:
                                         badge_matrix = json.loads(element)
                                         find_badges_in_matrix(badge_matrix, parsed_badges)

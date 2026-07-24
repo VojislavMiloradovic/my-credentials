@@ -1,7 +1,7 @@
-import os
-import json
-import re
 import glob
+import json
+import os
+import re
 from datetime import datetime
 
 JSON_PATH = "data/microsoft-learn.json"

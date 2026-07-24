@@ -1,8 +1,8 @@
-import os
 import csv
+import glob
+import os
 import re
 import sys
-import glob
 from datetime import datetime
 
 README_PATH = "README.md"
@@ -30,9 +30,8 @@ def find_column_indices(headers):
     
     for i, h in enumerate(headers):
         norm = normalize_header(h)
-        if any(keyword in norm for keyword in ["title", "activityname", "coursename", "subject", "learningobject", "trainingname"]):
-            if "type" not in norm: 
-                mapping["title"] = i
+        if any(keyword in norm for keyword in ["title", "activityname", "coursename", "subject", "learningobject", "trainingname"]) and "type" not in norm:
+            mapping["title"] = i
         if any(keyword in norm for keyword in ["date", "completedon", "completiondate", "finished", "grantedon", "awardedon"]):
             mapping["date"] = i
         if any(keyword in norm for keyword in ["type", "activitytype", "deliverymethod", "category"]):
@@ -88,10 +87,7 @@ def is_garbage_row(title):
     if any(k in title_lower for k in trash_keywords):
         return True
         
-    if title_lower in ["title", "activity name", "name", "subject", "training name"]:
-        return True
-        
-    return False
+    return title_lower in ["title", "activity name", "name", "subject", "training name"]
 
 def clean_old_chunks():
     pattern = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-*-part-*.md")

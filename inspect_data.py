@@ -1,5 +1,6 @@
-import os
 import json
+import os
+
 
 def deep_inspect_remaining():
     data_dir = "data"
@@ -47,7 +48,7 @@ def deep_inspect_remaining():
                     summary.append(item_str)
                 # Sample dictionaries
                 elif isinstance(sub_val, dict) and len(sub_val) > 0:
-                    first_k = list(sub_val.keys())[0]
+                    first_k = next(iter(sub_val.keys()))
                     item_str = json.dumps(sub_val[first_k], indent=4)
                     if len(item_str) > 1000:
                         item_str = item_str[:1000] + "\n    ... [TRUNCATED] ..."

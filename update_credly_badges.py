@@ -1,9 +1,10 @@
-import os
-import time
-import re
 import glob
-import requests
+import os
+import re
+import time
 from datetime import datetime
+
+import requests
 
 USERNAME = "vojislavmiloradovic"
 USER_ID = "752aee40-7358-4ade-9a49-81e8b6f49225"
@@ -139,7 +140,7 @@ def main():
     badges.sort(key=lambda x: x["date"] or "0000-00-00", reverse=True)
 
     total_badges = len(badges)
-    unique_skills = sorted(list(all_skills_set))
+    unique_skills = sorted(all_skills_set)
     total_skills = len(unique_skills)
     native_count = sum(1 for b in badges if b["type"] == "Credly Verified")
     external_count = sum(1 for b in badges if b["type"] == "External/Imported")

@@ -1,7 +1,7 @@
+import glob
+import json
 import os
 import re
-import json
-import glob
 
 ARCHIVE_DIR = "archives"
 README_PATH = "README.md"
@@ -101,7 +101,7 @@ def parse_archive_monoliths():
             # -----------------------------------------------------------------
             # 2. Parse Bullet Points (- **Title** ...)
             # -----------------------------------------------------------------
-            elif line_str.startswith("- ") or line_str.startswith("* "):
+            elif line_str.startswith(("- ", "* ")):
                 bold_match = re.search(r"\*\*([^*]+)\*\*", line_str)
                 if not bold_match:
                     continue

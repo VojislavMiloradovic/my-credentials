@@ -1,10 +1,11 @@
+import glob
 import json
 import os
 import re
-import glob
+from datetime import datetime
+
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
 
 URL = "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b"
 ARCHIVE_DIR = "archives"
