@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 6 of 6
-date_range: - to 2026-02-13
-total_entries: 58
+date_range: - to 2026-02-18
+total_entries: 64
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-06.md
 ---
 
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| [RETIRED] Use MCP to create AI Agents | Digital Course | 2026-02-18 | 27 minutes | 🎓 Available on Profile |
+| Deep Dive: Amazon Elastic Block Store (Amazon EBS) Cost Optimization | Digital Course | 2026-02-18 | 30 minutes | 🎓 Available on Profile |
+| [RETIRING - 2026-08-10] Amazon Q Business Getting Started | Digital Course | 2026-02-15 | 45 minutes | 🎓 Available on Profile |
+| Security, Compliance, and Governance for AI Solutions | Digital Course | 2026-02-15 | 1 hour | 🎓 Available on Profile |
+| AWS Foundations: Machine Learning Basics | Digital Course | 2026-02-14 | 30 minutes | 🎓 Available on Profile |
+| Developing Generative Artificial Intelligence Solutions | Digital Course | 2026-02-13 | 1 hour | 🎓 Available on Profile |
 | Foundations of Prompt Engineering | Digital Course | 2026-02-13 | 4 hours | 🎓 Available on Profile |
 | Introduction to Amazon Quick Suite | Digital Course | 2026-02-12 | 1 hour 10 minutes | 🎓 Available on Profile |
 | Amazon Connect - Troubleshooting | Digital Course | 2026-02-11 | 1 hour | 🎓 Available on Profile |

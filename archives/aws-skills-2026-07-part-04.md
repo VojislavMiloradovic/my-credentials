@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 4 of 6
-date_range: 2026-03-09 to 2026-03-21
+date_range: 2026-03-11 to 2026-03-21
 total_entries: 79
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-04.md
 ---
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| Amazon Nova 2 Sonic: Next-Generation Conversational AI | Digital Course | 2026-03-21 | 45 minutes | 🎓 Available on Profile |
+| An Executive's Guide to Generative AI Success | Digital Course | 2026-03-21 | 1 hour 30 minutes | 🎓 Available on Profile |
+| AWS Cloud Economics for Banking | Digital Course | 2026-03-21 | 1 hour 30 minutes | 🎓 Available on Profile |
+| AWS Cloud Essentials for Business Leaders - Telecommunications | Digital Course | 2026-03-21 | 2 hours | 🎓 Available on Profile |
+| AWS Security Incident Response Overview | Digital Course | 2026-03-21 | 1 hour 40 minutes | 🎓 Available on Profile |
+| AWS SimuLearn: Secure Conversational AI with Guardrails | Game / Quest | 2026-03-21 | 1 hour | 🎓 Available on Profile |
 | Cloud Essentials for Business Leaders – Healthcare and Life Sciences | Digital Course | 2026-03-21 | 1 hour 30 minutes | 🎓 Available on Profile |
 | Machine Learning Essentials for Business and Technical Decision Makers | Digital Course | 2026-03-21 | 1 hour 30 minutes | 🎓 Available on Profile |
 | Amazon DynamoDB Getting Started | Digital Course | 2026-03-20 | 1 hour | 🎓 Available on Profile |
@@ -85,12 +91,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | AWS CloudTrail Lake Getting Started | Digital Course | 2026-03-11 | 1 hour | 🎓 Available on Profile |
 | AWS Security Incident Response - User Training | Digital Course | 2026-03-11 | 1 hour | 🎓 Available on Profile |
 | Media Glossary | Digital Course | 2026-03-11 | 30 minutes | 🎓 Available on Profile |
-| Migrating VMware Workloads to AWS | Digital Course | 2026-03-11 | 1 hour | 🎓 Available on Profile |
-| [RETIRING - 2026-08-04] Using Amazon Q to Enhance Applications and Developer Productivity | Digital Course | 2026-03-10 | 3 hours 30 minutes | 🎓 Available on Profile |
-| AWS CloudTrail Getting Started | Digital Course | 2026-03-10 | 1 hour | 🎓 Available on Profile |
-| AWS Simple Queue Service (SQS) Getting Started | Digital Course | 2026-03-10 | 1 hour | 🎓 Available on Profile |
-| Monitor .NET applications using Amazon CloudWatch Application Signals | Digital Course | 2026-03-10 | 1 hour | 🎓 Available on Profile |
-| Amazon Q Developer Transformation | Digital Course | 2026-03-09 | 30 minutes | 🎓 Available on Profile |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-03.md](aws-skills-2026-07-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-05.md](aws-skills-2026-07-part-05.md)

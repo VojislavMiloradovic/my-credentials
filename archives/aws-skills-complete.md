@@ -1,9 +1,15 @@
 # Complete AWS Skill Builder Achievements Archive
 
-This document contains a complete, historical audit trail of all 452 AWS learning items completed on AWS Skill Builder.
+This document contains a complete, historical audit trail of all 458 AWS learning items completed on AWS Skill Builder.
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| AI-DLC Foundations: Evolution | Digital Course | 2026-07-25 | 12 minutes | 🎓 Available on Profile |
+| Amazon Connect Outbound Communications Advanced Campaign Management | Digital Course | 2026-07-25 | 45 minutes | 🎓 Available on Profile |
+| Automated Security Response in AWS: Disabling Compromised Active Directory Users | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
+| Cloud Financial Management: FinOps for GenAI | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
+| GitOps for Amazon EKS Automation | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
+| Query Amazon Aurora PostgreSQL using Amazon Bedrock Knowledge Bases structured data | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
 | AWS Certification Subject Matter Expert Training | Digital Course | 2026-07-24 | 2 hours 30 minutes | 🎓 Available on Profile |
 | Cloud Audit Academy - Cloud Agnostic | Digital Course | 2026-07-24 | 3 hours | 🎓 Available on Profile |
 | Threat Modeling for Builders Workshop | Digital Course | 2026-07-24 | 6 hours | 🎓 Available on Profile |

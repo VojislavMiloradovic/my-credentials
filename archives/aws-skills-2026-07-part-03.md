@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 3 of 6
-date_range: 2026-03-21 to 2026-04-22
-total_entries: 78
+date_range: 2026-03-21 to 2026-04-25
+total_entries: 79
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-03.md
 ---
 
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| Prompt Engineering with Amazon Q Developer | Digital Course | 2026-04-25 | 30 minutes | 🎓 Available on Profile |
+| Setup Amazon Q Developer | Digital Course | 2026-04-25 | 20 minutes | 🎓 Available on Profile |
+| Amazon DynamoDB for Serverless Architectures | Digital Course | 2026-04-24 | 2 hours | 🎓 Available on Profile |
+| Introduction to Amazon CloudFront - Part 1 | Digital Course | 2026-04-23 | 30 minutes | 🎓 Available on Profile |
+| Differences Between Security Groups and NACLs | Digital Course | 2026-04-22 | 7 minutes | 🎓 Available on Profile |
+| Introduction to the AWS Sustainability service | Digital Course | 2026-04-22 | 45 minutes | 🎓 Available on Profile |
+| Protecting Your Instance with Security Groups | Digital Course | 2026-04-22 | 10 minutes | 🎓 Available on Profile |
 | Selecting your Data Migration Strategy with AWS | Digital Course | 2026-04-22 | 30 minutes | 🎓 Available on Profile |
 | Understanding Amazon EBS Volume Encryption | Digital Course | 2026-04-22 | 2 minutes | 🎓 Available on Profile |
 | Introduction to AWS Auto Scaling | Digital Course | 2026-04-21 | 17 minutes | 🎓 Available on Profile |
@@ -84,12 +91,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Amazon API Gateway for Serverless Applications | Digital Course | 2026-03-22 | 2 hours | 🎓 Available on Profile |
 | Amazon Connect Chat and Messaging Fundamentals | Digital Course | 2026-03-22 | 1 hour 10 minutes | 🎓 Available on Profile |
 | Amazon Connect Agent Applications Fundamentals | Digital Course | 2026-03-21 | 1 hour 13 minutes | 🎓 Available on Profile |
-| Amazon Nova 2 Sonic: Next-Generation Conversational AI | Digital Course | 2026-03-21 | 45 minutes | 🎓 Available on Profile |
-| An Executive's Guide to Generative AI Success | Digital Course | 2026-03-21 | 1 hour 30 minutes | 🎓 Available on Profile |
-| AWS Cloud Economics for Banking | Digital Course | 2026-03-21 | 1 hour 30 minutes | 🎓 Available on Profile |
-| AWS Cloud Essentials for Business Leaders - Telecommunications | Digital Course | 2026-03-21 | 2 hours | 🎓 Available on Profile |
-| AWS Security Incident Response Overview | Digital Course | 2026-03-21 | 1 hour 40 minutes | 🎓 Available on Profile |
-| AWS SimuLearn: Secure Conversational AI with Guardrails | Game / Quest | 2026-03-21 | 1 hour | 🎓 Available on Profile |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-04.md](aws-skills-2026-07-part-04.md)

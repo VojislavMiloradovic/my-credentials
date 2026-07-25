@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 2 of 6
-date_range: 2026-04-22 to 2026-06-24
-total_entries: 77
+date_range: 2026-04-25 to 2026-06-26
+total_entries: 75
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-02.md
 ---
 
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| Making Better Decisions with Data for Small Business Owners | Digital Course | 2026-06-26 | 9 minutes | 🎓 Available on Profile |
+| Media & Entertainment: Direct-to-Consumer and Broadcast Foundations Knowledge Badge Assessment | Digital Course | 2026-06-26 | 1 hour 30 minutes | 🎓 Available on Profile |
+| [RETIRING - 2026-08-05] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases | Digital Course | 2026-06-24 | 1 hour | 🎓 Available on Profile |
+| Amazon WorkSpaces Migrations - Horizon on WorkSpaces Core | Digital Course | 2026-06-24 | 1 hour | 🎓 Available on Profile |
+| Amazon WorkSpaces Migrations — Additional Partner Offerings on WorkSpaces Core | Digital Course | 2026-06-24 | 1 hour | 🎓 Available on Profile |
 | Data Protection and Disaster Recovery Knowledge Badge Assessment | Digital Course | 2026-06-24 | 1 hour 30 minutes | 🎓 Available on Profile |
 | AI Driven Development Lifecycle Knowledge Badge Assessment | Digital Course | 2026-06-22 | 1 hour | 🎓 Available on Profile |
 | Automating with AI/ML for Small Business Owners | Digital Course | 2026-06-22 | 7 minutes | 🎓 Available on Profile |
@@ -82,13 +87,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | GitLab Duo with Amazon Q | Self-Paced Lab | 2026-04-25 | 30 minutes | 🎓 Available on Profile |
 | Introduction to Amazon Q Developer (Technical) | Digital Course | 2026-04-25 | 15 minutes | 🎓 Available on Profile |
 | Managing Operations on AWS with Amazon Q Developer | Digital Course | 2026-04-25 | 30 minutes | 🎓 Available on Profile |
-| Prompt Engineering with Amazon Q Developer | Digital Course | 2026-04-25 | 30 minutes | 🎓 Available on Profile |
-| Setup Amazon Q Developer | Digital Course | 2026-04-25 | 20 minutes | 🎓 Available on Profile |
-| Amazon DynamoDB for Serverless Architectures | Digital Course | 2026-04-24 | 2 hours | 🎓 Available on Profile |
-| Introduction to Amazon CloudFront - Part 1 | Digital Course | 2026-04-23 | 30 minutes | 🎓 Available on Profile |
-| Differences Between Security Groups and NACLs | Digital Course | 2026-04-22 | 7 minutes | 🎓 Available on Profile |
-| Introduction to the AWS Sustainability service | Digital Course | 2026-04-22 | 45 minutes | 🎓 Available on Profile |
-| Protecting Your Instance with Security Groups | Digital Course | 2026-04-22 | 10 minutes | 🎓 Available on Profile |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-01.md](aws-skills-2026-07-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-03.md](aws-skills-2026-07-part-03.md)

@@ -2,7 +2,7 @@
  VOJISLAV MILORADOVIC — CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ================================================================================
 
-> **Last Generated:** 2026-07-25 02:31 UTC
+> **Last Generated:** 2026-07-25 11:10 UTC
 --- BEGIN FILE: README.md ---
 # Professional Credentials & Achievements
 
@@ -94,8 +94,8 @@ Showing latest 10 of 4,758 achievements. View the full dataset via the [Platform
 #### Platform Progress Summary
 | Metric | Count |
 | :--- | :--- |
-| **Total Completed Activities** | 452 |
-| **Digital Courses** | 407 |
+| **Total Completed Activities** | 458 |
+| **Digital Courses** | 413 |
 | **Self-Paced Builder Labs** | 13 |
 | **In-Game Simulations (Cloud Quest)** | 32 |
 
@@ -116,16 +116,16 @@ Showing latest 10 activities. View the full dataset via the [Platform Archive In
 
 | Activity Title | Type | Date Completed | Duration |
 | :--- | :--- | :--- | :--- |
+| **AI-DLC Foundations: Evolution** | Digital Course | *2026-07-25* | 12 minutes |
+| **Amazon Connect Outbound Communications Advanced Campaign Management** | Digital Course | *2026-07-25* | 45 minutes |
+| **Automated Security Response in AWS: Disabling Compromised Active Directory Users** | Digital Course | *2026-07-25* | 1 hour |
+| **Cloud Financial Management: FinOps for GenAI** | Digital Course | *2026-07-25* | 1 hour |
+| **GitOps for Amazon EKS Automation** | Digital Course | *2026-07-25* | 1 hour |
+| **Query Amazon Aurora PostgreSQL using Amazon Bedrock Knowledge Bases structured data** | Digital Course | *2026-07-25* | 1 hour |
 | **AWS Certification Subject Matter Expert Training** | Digital Course | *2026-07-24* | 2 hours 30 minutes |
 | **Cloud Audit Academy - Cloud Agnostic** | Digital Course | *2026-07-24* | 3 hours |
 | **Threat Modeling for Builders Workshop** | Digital Course | *2026-07-24* | 6 hours |
 | **AI Agents: Cognitive Upgrade and Business Efficiency** | Digital Course | *2026-07-22* | 3 hours |
-| **AWS Cloud for absolute beginners** | Digital Course | *2026-07-22* | 3 hours |
-| **AWS Cloud for Finance Professionals** | Digital Course | *2026-07-22* | 17 hours |
-| **AWS Technical Essentials** | Digital Course | *2026-07-22* | 4 hours |
-| **Data Engineering on AWS - Foundations** | Digital Course | *2026-07-22* | 4 hours |
-| **Introduction to Building with AWS Databases** | Digital Course | *2026-07-22* | 3 hours |
-| **AWS CodeArtifact Getting Started** | Digital Course | *2026-07-20* | 1 hour 30 minutes |
 
 <!-- AWS_SKILLS_END -->
 
@@ -233,10 +233,16 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 --- BEGIN FILE: archives/aws-skills-complete.md ---
 # Complete AWS Skill Builder Achievements Archive
 
-This document contains a complete, historical audit trail of all 452 AWS learning items completed on AWS Skill Builder.
+This document contains a complete, historical audit trail of all 458 AWS learning items completed on AWS Skill Builder.
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| AI-DLC Foundations: Evolution | Digital Course | 2026-07-25 | 12 minutes | 🎓 Available on Profile |
+| Amazon Connect Outbound Communications Advanced Campaign Management | Digital Course | 2026-07-25 | 45 minutes | 🎓 Available on Profile |
+| Automated Security Response in AWS: Disabling Compromised Active Directory Users | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
+| Cloud Financial Management: FinOps for GenAI | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
+| GitOps for Amazon EKS Automation | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
+| Query Amazon Aurora PostgreSQL using Amazon Bedrock Knowledge Bases structured data | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
 | AWS Certification Subject Matter Expert Training | Digital Course | 2026-07-24 | 2 hours 30 minutes | 🎓 Available on Profile |
 | Cloud Audit Academy - Cloud Agnostic | Digital Course | 2026-07-24 | 3 hours | 🎓 Available on Profile |
 | Threat Modeling for Builders Workshop | Digital Course | 2026-07-24 | 6 hours | 🎓 Available on Profile |

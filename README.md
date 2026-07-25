@@ -88,8 +88,8 @@ Showing latest 10 of 4,758 achievements. View the full dataset via the [Platform
 #### Platform Progress Summary
 | Metric | Count |
 | :--- | :--- |
-| **Total Completed Activities** | 452 |
-| **Digital Courses** | 407 |
+| **Total Completed Activities** | 458 |
+| **Digital Courses** | 413 |
 | **Self-Paced Builder Labs** | 13 |
 | **In-Game Simulations (Cloud Quest)** | 32 |
 
@@ -110,16 +110,16 @@ Showing latest 10 activities. View the full dataset via the [Platform Archive In
 
 | Activity Title | Type | Date Completed | Duration |
 | :--- | :--- | :--- | :--- |
+| **AI-DLC Foundations: Evolution** | Digital Course | *2026-07-25* | 12 minutes |
+| **Amazon Connect Outbound Communications Advanced Campaign Management** | Digital Course | *2026-07-25* | 45 minutes |
+| **Automated Security Response in AWS: Disabling Compromised Active Directory Users** | Digital Course | *2026-07-25* | 1 hour |
+| **Cloud Financial Management: FinOps for GenAI** | Digital Course | *2026-07-25* | 1 hour |
+| **GitOps for Amazon EKS Automation** | Digital Course | *2026-07-25* | 1 hour |
+| **Query Amazon Aurora PostgreSQL using Amazon Bedrock Knowledge Bases structured data** | Digital Course | *2026-07-25* | 1 hour |
 | **AWS Certification Subject Matter Expert Training** | Digital Course | *2026-07-24* | 2 hours 30 minutes |
 | **Cloud Audit Academy - Cloud Agnostic** | Digital Course | *2026-07-24* | 3 hours |
 | **Threat Modeling for Builders Workshop** | Digital Course | *2026-07-24* | 6 hours |
 | **AI Agents: Cognitive Upgrade and Business Efficiency** | Digital Course | *2026-07-22* | 3 hours |
-| **AWS Cloud for absolute beginners** | Digital Course | *2026-07-22* | 3 hours |
-| **AWS Cloud for Finance Professionals** | Digital Course | *2026-07-22* | 17 hours |
-| **AWS Technical Essentials** | Digital Course | *2026-07-22* | 4 hours |
-| **Data Engineering on AWS - Foundations** | Digital Course | *2026-07-22* | 4 hours |
-| **Introduction to Building with AWS Databases** | Digital Course | *2026-07-22* | 3 hours |
-| **AWS CodeArtifact Getting Started** | Digital Course | *2026-07-20* | 1 hour 30 minutes |
 
 <!-- AWS_SKILLS_END -->
 

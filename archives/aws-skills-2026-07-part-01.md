@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 1 of 6
-date_range: 2026-06-24 to 2026-07-24
-total_entries: 77
+date_range: 2026-06-26 to 2026-07-25
+total_entries: 78
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md
 ---
 
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity Title | Type | Date Completed | Duration | Certificate |
 | :--- | :--- | :--- | :--- | :--- |
+| AI-DLC Foundations: Evolution | Digital Course | 2026-07-25 | 12 minutes | 🎓 Available on Profile |
+| Amazon Connect Outbound Communications Advanced Campaign Management | Digital Course | 2026-07-25 | 45 minutes | 🎓 Available on Profile |
+| Automated Security Response in AWS: Disabling Compromised Active Directory Users | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
+| Cloud Financial Management: FinOps for GenAI | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
+| GitOps for Amazon EKS Automation | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
+| Query Amazon Aurora PostgreSQL using Amazon Bedrock Knowledge Bases structured data | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
 | AWS Certification Subject Matter Expert Training | Digital Course | 2026-07-24 | 2 hours 30 minutes | 🎓 Available on Profile |
 | Cloud Audit Academy - Cloud Agnostic | Digital Course | 2026-07-24 | 3 hours | 🎓 Available on Profile |
 | Threat Modeling for Builders Workshop | Digital Course | 2026-07-24 | 6 hours | 🎓 Available on Profile |
@@ -84,11 +90,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Migration Foundations Knowledge Badge Assessment | Digital Course | 2026-06-27 | 1 hour 30 minutes | 🎓 Available on Profile |
 | AWS Observability | Digital Course | 2026-06-26 | 5 hours | 🎓 Available on Profile |
 | Introduction to AWS Solutions | Digital Course | 2026-06-26 | 45 minutes | 🎓 Available on Profile |
-| Making Better Decisions with Data for Small Business Owners | Digital Course | 2026-06-26 | 9 minutes | 🎓 Available on Profile |
-| Media & Entertainment: Direct-to-Consumer and Broadcast Foundations Knowledge Badge Assessment | Digital Course | 2026-06-26 | 1 hour 30 minutes | 🎓 Available on Profile |
-| [RETIRING - 2026-08-05] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases | Digital Course | 2026-06-24 | 1 hour | 🎓 Available on Profile |
-| Amazon WorkSpaces Migrations - Horizon on WorkSpaces Core | Digital Course | 2026-06-24 | 1 hour | 🎓 Available on Profile |
-| Amazon WorkSpaces Migrations — Additional Partner Offerings on WorkSpaces Core | Digital Course | 2026-06-24 | 1 hour | 🎓 Available on Profile |
 
 ---
 > **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md)
