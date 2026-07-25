@@ -92,7 +92,7 @@
 | 2026-04-29 | **Fundamentals of Google's Arm-based Axion Processors** |
 | 2026-04-29 | **Digital Sovereignty with Google Cloud** |
 | 2026-04-29 | **Build and Deploy Agents in Production** |
-| 2026-04-28 | **Preparing for your Professional Cloud Database Engineer Journey** |
+| 2026-04-28 | **Build a Certification Study Guide: PCDBE Exam Prep** |
 | 2026-04-27 | **Generate and Edit Media in Agent Platform** |
 | 2026-04-27 | **Security Command Center: Vulnerabilities and Misconfigurations** |
 | 2026-04-27 | **Migrating to Google Cloud: Fundamentals** |
@@ -166,7 +166,7 @@
 | 2026-03-21 | **Building No-Code Apps with AppSheet: Implementation** |
 | 2026-03-20 | **Gemini for Application Developers** |
 | 2026-03-19 | **Introduction Google Security Operations (SOAR)** |
-| 2026-03-19 | **Google Security Operations - SOAR Developer** |
+| 2026-03-19 | **[DEPRECATED] Google Security Operations - SOAR Developer** |
 | 2026-03-19 | **Google Security Operations - SOAR Analyst** |
 | 2026-03-19 | **Introduction to Google Security Operations (SIEM)** |
 | 2026-03-16 | **Google Cloud AI and ML Solutions for the Public Sector** |

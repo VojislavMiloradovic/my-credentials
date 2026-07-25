@@ -26,7 +26,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-03-21 | **Building No-Code Apps with AppSheet: Implementation** |
 | 2026-03-20 | **Gemini for Application Developers** |
 | 2026-03-19 | **Introduction Google Security Operations (SOAR)** |
-| 2026-03-19 | **Google Security Operations - SOAR Developer** |
+| 2026-03-19 | **[DEPRECATED] Google Security Operations - SOAR Developer** |
 | 2026-03-19 | **Google Security Operations - SOAR Analyst** |
 | 2026-03-19 | **Introduction to Google Security Operations (SIEM)** |
 | 2026-03-16 | **Google Cloud AI and ML Solutions for the Public Sector** |

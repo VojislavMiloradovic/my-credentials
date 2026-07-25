@@ -97,7 +97,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-29 | **Fundamentals of Google's Arm-based Axion Processors** |
 | 2026-04-29 | **Digital Sovereignty with Google Cloud** |
 | 2026-04-29 | **Build and Deploy Agents in Production** |
-| 2026-04-28 | **Preparing for your Professional Cloud Database Engineer Journey** |
+| 2026-04-28 | **Build a Certification Study Guide: PCDBE Exam Prep** |
 | 2026-04-27 | **Generate and Edit Media in Agent Platform** |
 | 2026-04-27 | **Security Command Center: Vulnerabilities and Misconfigurations** |
 | 2026-04-27 | **Migrating to Google Cloud: Fundamentals** |
