@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Start developing for finance and operations apps by using Visual Studio | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-visual-studio-finance-operations/) |
+| Set up and work in the finance and operations apps developer environment | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/finance-operations-developer-environment/) |
+| Build data models in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-tables-finance-operations/) |
+| Transform development workflows with T-SQL in SQL Server 2025 | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sql-server-2022-t-sql-enhancements/) |
+| Explore SQL Server 2025 capabilities | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-sql-server-2022-capabilities/) |
+| Get started with SQL Server 2025 | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-sql-server-2022/) |
 | Set up the Shopify connector in Dynamics 365 Business Central | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/shopify-connector-setup/) |
 | Get started with the Shopify connector in Dynamics 365 Business Central | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-shopify-dynamics-365-business-central/) |
 | Establish the guiding principles and core components of Zero Trust | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/zero-trust-principles/) |
@@ -25,8 +31,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Enrich the learning experience in the Microsoft Edge browser | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/enrich-learning-experience-microsoft-edge-browser/) |
 | Stay organized and find resources with Microsoft Edge | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/stay-organized-find-resources-classroom-microsoft-edge/) |
 | Set up Microsoft Edge for learning and teaching | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-microsoft-edge-learning-teaching/) |
-| Design and implement network monitoring | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-network-monitoring/) |
 | Monitor hybrid virtual machines, containers, and network resources | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-hybrid-virtual-machines-containers-network/) |
+| Design and implement network monitoring | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-network-monitoring/) |
 | Monitor your hybrid and multicloud machines through Azure Arc-enabled servers | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-azure-arc-enabled-servers/) |
 | Bring Azure innovation to your hybrid environments with Azure Arc | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-hybrid-infrastructure-with-azure-arc/) |
 | Operationalize your Azure Data Factory or Azure Synapse Pipeline | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/operationalize-azure-data-factory-pipelines/) |
@@ -59,12 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to infrastructure as code using Terraform | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/terraform-introduction-to-infrastructure-as-code/) |
 | Introduction to quantum computing with Azure Quantum | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-quantum/) |
 | Explore advanced configuration methods | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-advanced-configuration-methods/) |
-| MD-100 Configure post-installation settings and personalization | Learningpaths | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-post-installation-settings-personalization/) |
-| Explore common configuration options | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-common-configuration-options/) |
-| Manage drivers and device peripherals | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-drivers-device-peripherals/) |
-| Accelerate nonprofit funding solutions with Microsoft Copilot | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/accelerate-nonprofit-funding-solutions-microsoft-copilot/) |
-| Manage agents for Microsoft 365 Copilot | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-agents-microsoft-365-copilot/) |
-| Introduction to the Microsoft Viva suite | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-suite-introduction/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-65.md](microsoft-learn-2026-07-part-65.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-67.md](microsoft-learn-2026-07-part-67.md)

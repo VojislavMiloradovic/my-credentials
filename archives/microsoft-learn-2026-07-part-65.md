@@ -12,13 +12,19 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Describe governmental cloud strategy | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-governmental-cloud-strategy/) |
+| Describe the government and its structure | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-government-its-structure/) |
+| Describe Cloud Business Case Analysis | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-cloud-business-case-analysis/) |
+| Get started with subscription billing in Dynamics 365 Finance | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-subscription-billing-finance/) |
+| Introduction to the development environment for Dynamics 365 Business Central | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-development-environment/) |
+| Design a Power Apps canvas app by using Figma | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-canvas-app-figma/) |
 | Evaluate requirements for Dynamics 365 projects | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-requirements-dynamics-365-projects/) |
 | Implement API Management | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-api-management/) |
 | Explore API Management | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-api-management/) |
 | Secure outbound internet connectivity for Azure VMware Solution | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-vmware-solution/) |
 | Introduction to the Partner Success Series | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-partner-success-series/) |
-| Introduction to Azure hybrid connectivity services | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-hybrid-connectivity-services/) |
 | Introduction to Azure ExpressRoute | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-expressroute/) |
+| Introduction to Azure hybrid connectivity services | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-hybrid-connectivity-services/) |
 | Introduction to Azure Advisor | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-advisor/) |
 | Power Automate: Automation - Online Workshop | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
 | Create subflows and web automation with Power Automate for desktop - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-subflows-web-automation-online-workshop/) |
@@ -41,10 +47,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Run nonfunctional tests in Azure Pipelines | Modules | 2026-01-04 | N/A |
 | Interact with data in Blazor web apps | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-with-data-blazor-web-apps/) |
 | Build a Connect Four game with Blazor | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-connect-four/) |
-| Transition to Python in Minecraft Education | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-python-minecraft-education-edition/) |
 | Minecraft block coding academy | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-block-coding-academy/) |
-| Build programs using Python coding in Minecraft with Azure Notebooks | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-programs-use-python-coding-minecraft-azure-notebooks/) |
+| Transition to Python in Minecraft Education | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-python-minecraft-education-edition/) |
 | Minecraft Python coding academy | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-python-coding-academy/) |
+| Build programs using Python coding in Minecraft with Azure Notebooks | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-programs-use-python-coding-minecraft-azure-notebooks/) |
 | Testing with Pytest | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-python-with-pytest/) |
 | Get started using Power Platform with finance and operations apps | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-power-platform-with-finance-operations/) |
 | Set up and build mobile experiences for finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/mobile-experiences-finance-operations/) |
@@ -59,12 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create classes in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-classes-finance-operations/) |
 | Build forms and optimize form performance in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-forms-optimize-finance-operations/) |
 | Build extended data types and enumerations for finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-edt-enums-finance-operations/) |
-| Start developing for finance and operations apps by using Visual Studio | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-visual-studio-finance-operations/) |
-| Set up and work in the finance and operations apps developer environment | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/finance-operations-developer-environment/) |
-| Build data models in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-tables-finance-operations/) |
-| Transform development workflows with T-SQL in SQL Server 2025 | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sql-server-2022-t-sql-enhancements/) |
-| Explore SQL Server 2025 capabilities | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-sql-server-2022-capabilities/) |
-| Get started with SQL Server 2025 | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-sql-server-2022/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-64.md](microsoft-learn-2026-07-part-64.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-66.md](microsoft-learn-2026-07-part-66.md)

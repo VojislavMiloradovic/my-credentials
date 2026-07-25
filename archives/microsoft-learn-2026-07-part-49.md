@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Configure Copilot in Dynamics 365 Customer Service | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-copilot/) |
+| Integrate Power Automate flows and Dataverse | Learningpaths | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dataverse-power-automate/) |
+| Extend Dataverse with Power Automate | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-dataverse-power-automate/) |
+| Set up general journal templates in Dynamics 365 Business Central | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/general-journal-templates-dynamics-365-business-central/) |
+| Understand client-server communication in PostgreSQL | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-client-server-communication-postgresql/) |
+| Migrate Linux and PostgreSQL Workloads to Azure | Learningpaths | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-linux-postgres-azure/) |
+| Get started with generative AI in Azure Database for PostgreSQL | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-generative-ai-azure-database-postgresql/) |
+| Develop an ASP.NET Core web app that consumes an API | Learningpaths | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-asp-core-api/) |
 | Render API responses in ASP.NET Core Blazor Web apps | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/render-api-responses-razor-pages/) |
 | Set up dimensions in Dynamics 365 Business Central | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/dimensions-dynamics-365-business-central/) |
 | Implement app protection by using Microsoft Defender for Cloud Apps | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-app-protection-use-microsoft-defender-cloud-apps/) |
@@ -55,14 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Use custom connectors in a Power Apps canvas app | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-custom-connectors-in-powerapps-canvas-app/) |
 | Power Pages styling workspace - Online workshop | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-styling-workspace-online-workshop/) |
 | Integrate Dynamics 365 Remote Assist with Dynamics 365 Field Service | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-remote-assist/) |
-| Understand concepts of data analytics | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-concepts-of-data-analytics/) |
-| Summarize data with Foundry Tools and Azure database for PostgreSQL | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/summarize-data-azure-ai-services-azure-database-postgresql/) |
-| Configure database authentication and authorization | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-database-authentication-authorization/) |
-| Implement HTTP operations in ASP.NET Core Blazor Web apps | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-http-operations-asp-razor/) |
-| Examine data governance solutions in Microsoft Purview | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-data-governance-solutions-microsoft-purview/) |
-| Configure and perform periodic processes in Dynamics 365 Finance | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-periodic-processes-dyn365-finance/) |
-| Configure and use the general ledger in Dynamics 365 Finance | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-general-ledger-dyn365-finance/) |
-| Implement and manage storage for Azure Virtual Desktop | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-storage-azure-virtual-desktop/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-48.md](microsoft-learn-2026-07-part-48.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-50.md](microsoft-learn-2026-07-part-50.md)

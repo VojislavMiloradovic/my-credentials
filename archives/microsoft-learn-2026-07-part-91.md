@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Describe the authentication capabilities of Microsoft Entra ID | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-authentication-capabilities/) |
+| Work with real-time data in an Eventhouse in Microsoft Fabric | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-data-kql-database-microsoft-fabric/) |
+| Introduction to GitHub | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/) |
+| Introduction to Git | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-git/) |
+| Connect a cloud flow to desktop flows in Power Automate for desktop | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-cloud-desktop-flow/) |
+| Define input and output parameters in Power Automate | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/input-parameters/) |
+| Build your first Power Automate for desktop flow | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-desktop-flow/) |
 | Administer a Microsoft Fabric environment | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-fabric/) |
 | Manage a Microsoft Fabric environment | Learningpaths | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-microsoft-fabric-environment/) |
 | Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cicd-in-fabric/) |
@@ -59,13 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Management and customization considerations with GitHub Copilot | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-management-and-customizations/) |
 | Explore data roles and services | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/) |
 | Evaluate generative AI performance in Azure AI Foundry portal | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-models-azure-ai-studio/) |
-| Analyze video | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-video/) |
-| Explore Windows Editions | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-editions/) |
-| What is Microsoft 365? | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-is-m365/) |
-| Using advanced GitHub Copilot features | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-github-copilot/) |
-| GitHub responsible AI | Learningpaths | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-responsible-ai/) |
-| Embrace responsible AI principles and practices | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/) |
-| Explore fundamentals of Azure Cosmos DB | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-non-relational-data-stores-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-90.md](microsoft-learn-2026-07-part-90.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-92.md](microsoft-learn-2026-07-part-92.md)

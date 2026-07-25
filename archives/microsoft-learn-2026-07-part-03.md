@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Use Azure Databricks Genie in Microsoft Teams and Copilot Studio | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-databricks-genie-teams-copilot-studio/) |
+| Manage dual volumes in Azure NetApp Files | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-netapp-files-dual-volumes/) |
+| Use Live Captions in Windows to better understand audio | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/live-captions/) |
+| Use the Copilot+ PC Hub to get started with Copilot+ PCs | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-pc-hub-adoption/) |
 | Retrace your steps with Recall (preview) | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/recall-preview/) |
 | Enhance video and audio with Windows Studio Effects | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-studio-effects/) |
 | Secure AI agents with Microsoft Purview data security controls | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-agent-data-security/) |
@@ -59,10 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Understand Windows Server service accounts | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-windows-service-accounts/) |
 | Introduction to small form factor deployments of Azure Local (preview) | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-small-form-factor/) |
 | Secure multi-agent systems with Azure zero-trust architecture | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-secure-multi-agent-systems-azure-zero-trust/) |
-| Deploy and govern enterprise agentic AI solutions on Azure | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-3-deploy-govern-agentic-ai-solutions-azure/) |
-| Scale responsible AI governance with Azure AI Content Safety and Microsoft Foundry | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-scale-responsible-ai-governance-multi-agent/) |
-| Optimize multi-agent performance and cost in Microsoft Foundry | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-optimize-multi-agent-performance-cost-azure/) |
-| Monitor, evaluate, and operate multi-agent AI solutions in Azure | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-4-monitor-evaluate-operate-multi-agent-ai-solutions-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-02.md](microsoft-learn-2026-07-part-02.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-04.md](microsoft-learn-2026-07-part-04.md)

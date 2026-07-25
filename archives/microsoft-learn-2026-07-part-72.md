@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Introduction to Kubernetes on Azure | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-kubernetes-on-azure/) |
+| Tailoring trainings with AI | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/tailoring-trainings-with-ai/) |
+| Design a machine learning operations solution | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-machine-learning-operations-solution/) |
+| Manage process mining projects | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-process-mining/) |
+| Interactively debug .NET apps with the Visual Studio Code debugger | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-debug/) |
+| Build .NET applications with C# | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-dotnet-applications-csharp/) |
+| From inbox to impact: Improve your email workflows with AI | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/from-inbox-impact-improve-your-email-workflows-ai/) |
+| Microsoft Learn for Educators course planning | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-learn-educators-course-plan/) |
 | Hyperautomation with insights from process mining | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/hyperautomation-process-mining/) |
 | Work with files and directories in a .NET app | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-files/) |
 | Troubleshoot device driver failures | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-device-driver-failures/) |
@@ -58,14 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create and customize Microsoft Search answers | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-search-create-customize-answers/) |
 | Assign admins and plan content for Microsoft Search | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-search-assign-admin-plan/) |
 | Introduction to Microsoft Search | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-search-intro/) |
-| Bring more of your data to Microsoft Search | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-search-connectors/) |
-| Monitor and troubleshoot Windows client performance | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-windows-client-performance/) |
-| MD-100 Support the Windows client environment | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/support-windows-client-environment/) |
-| Explore support and diagnostic tools | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-support-diagnostic-tools/) |
-| Explore Windows architecture | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-architecture/) |
-| Describe the manufacturing process in Dynamics 365 Supply Chain Management | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-manufacturing-strategies-microsoft-dynamics/) |
-| Export data from Dataverse and use Microsoft Excel to edit records | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/export-dataverse-excel/) |
-| Use Power Query to load data in Dataverse | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-power-query/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-71.md](microsoft-learn-2026-07-part-71.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-73.md](microsoft-learn-2026-07-part-73.md)

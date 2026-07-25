@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 14 of 93
-date_range: 2026-05-24 to 2026-05-30
+date_range: 2026-05-25 to 2026-05-30
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-14.md
 ---
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Integrate SQL solutions with Azure services | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sql-solutions-azure-services/) |
+| Secure, optimize, and deploy database solutions | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-optimize-deploy-database-solutions/) |
+| Implement SQL solutions by using AI-assisted tools | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/) |
+| Design and implement database objects with SQL | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-database-objects/) |
+| Optimize database performance | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-database-performance/) |
+| Implement data security and compliance with SQL | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-security-compliance/) |
 | Monitor and optimize Dynamics 365 Contact Center with AI-driven insights | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-optimize-dynamics-365-contact-center/) |
 | Reach customers first with proactive engagement in Dynamics 365 Contact Center | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/reach-customers-proactive-engagement-contact-center/) |
 | Monitor and manage agents with Microsoft Agent 365 | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-365-monitor-manage/) |
@@ -57,12 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design dimensional models for analytics in Microsoft Fabric | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dimensional-models-fabric/) |
 | Design and transform analytics data in Microsoft Fabric | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-transform-analytics-data/) |
 | Build secure agents for public sector services | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-secure-agents-public-sector-services/) |
-| Optimize staffing with workforce management in Dynamics 365 Contact Center | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-staffing-workforce-management-contact-center/) |
-| Troubleshoot device and policy issues using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-intune-devices/) |
-| Plan and implement device enrollment using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-device-enrollment/) |
-| Monitor and maintain devices using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-devices-intune/) |
-| Manage Windows updates and lifecycle using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-updates-intune/) |
-| Maintain tenant health and support readiness | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-tenant-health/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-13.md](microsoft-learn-2026-07-part-13.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-15.md](microsoft-learn-2026-07-part-15.md)

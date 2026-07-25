@@ -12,13 +12,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
-- **Total Experience Points (XP):** 5,920,875
+- **Total Experience Points (XP):** 5,925,275
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,860
+- **Badges Earned (Profile):** 3,863
 - **Trophies Earned (Profile):** 898
 - **Completed Learning Paths (Active Tracker):** 509
-- **Completed Modules (Active Tracker):** 2,610
-- **Completed Individual Units:** 35,206
+- **Completed Modules (Active Tracker):** 2,613
+- **Completed Individual Units:** 35,238
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -29,8 +29,11 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,758 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,761 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
+- **Secure AI agents and workloads on Windows** (Modules | Earned: 2026-07-25 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/secure-ai-agents-windows/))
+- **Work on repeat** (Modules | Earned: 2026-07-25 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/work-on-repeat/))
+- **Provision and govern identities in Microsoft Entra** (Modules | Earned: 2026-07-25 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/provision-govern-identities-entra/))
 - **Manage application volume groups for Oracle in Azure NetApp Files** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/manage-application-volume-groups-oracle-azure-netapp-files/))
 - **Ensure availability and resilience in Power Platform** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/ensure-availability-resilience/))
 - **Deliver solutions with pipelines in Power Platform** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/deliver-solutions-pipelines/))
@@ -38,9 +41,6 @@ Showing latest 10 of 4,758 achievements. View the full dataset via the [Platform
 - **Audit and retain Dataverse data in Power Platform** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/audit-retain-dataverse-data/))
 - **Streamline development workflows with Windows 11** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/windows-for-developers/))
 - **Secure email and collaboration with Microsoft Defender for Office 365** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/secure-email-collaboration-defender-office365/))
-- **Provision and brand a Microsoft 365 tenant** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/provision-brand-microsoft-365-tenant/))
-- **Prevent data loss and govern the data lifecycle with Microsoft Purview** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/prevent-data-loss-lifecycle-purview/))
-- **Monitor and optimize Microsoft 365 AI services** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/monitor-optimize-m365-ai-services/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

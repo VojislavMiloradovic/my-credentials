@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 79 of 93
-date_range: 2025-12-13 to 2025-12-14
-total_entries: 54
+date_range: 2025-12-13 to 2025-12-15
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-79.md
 ---
 
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Design degree program curricula that implement certification | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/academic-program-certifications-design-program-curricula/) |
+| Implement certifications in academic programs | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/academic-program-certifications/) |
+| Introduction to gaming and disability | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-gaming/) |
+| Introduction to .NET | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-introduction/) |
+| Work with choices in Dataverse | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/working-with-option-sets/) |
+| How to build your first model-driven app with Dataverse | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-model-driven-app-dataverse/) |
+| Create a web API with ASP.NET Core controllers | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-web-api-aspnet-core/) |
 | Build an early-stage startup | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/startups/) |
 | Startup fundamentals | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/fundamentals/) |
 | Prioritize your issues and apply security controls | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-prioritize-your-issues-and-apply-security-controls/) |
@@ -60,12 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Dyslexia Awareness: Part 1, in partnership with Made By Dyslexia | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-awareness-part-1/) |
 | Introduction to DevOps | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/) |
 | Understand app management using Microsoft Intune | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/app-management-using-microsoft-endpoint-manager/) |
-| Create a Windows virtual machine in Azure | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-windows-virtual-machine-in-azure/) |
-| Learn about the Microsoft Viva Glint 360 feedback program | Learningpaths | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-360-feedback program/) |
-| Get to know Microsoft Viva Glint 360 Feedback | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-get-to-know-viva-glint-360-feedback/) |
-| Personalize your remote development workflow with Visual Studio Code | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/personalize-remote-development-workflow/) |
-| Develop products with accessible color and contrast | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-products-with-accessible-color-contrast/) |
-| Get tips and tricks for teaching PL-100 Microsoft Power Platform App Maker | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-pl-100-microsoft-power-platform-app-maker/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-78.md](microsoft-learn-2026-07-part-78.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-80.md](microsoft-learn-2026-07-part-80.md)

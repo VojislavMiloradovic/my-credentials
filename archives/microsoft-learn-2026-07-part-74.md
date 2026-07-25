@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 74 of 93
-date_range: 2025-12-21 to 2025-12-22
-total_entries: 53
+date_range: 2025-12-21 to 2025-12-23
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-74.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Deploy a website with Azure virtual machines | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-a-website-with-azure-virtual-machines/) |
+| Build and run a web application with the MEAN stack on an Azure Linux virtual machine | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-a-web-app-with-mean-on-a-linux-vm/) |
+| Linux on Azure | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-linux/) |
+| Describe accounts payable and accounts receivable in Dynamics 365 Finance | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-accounts-payable-accounts-receivable-microsoft/) |
+| Create agents with Microsoft Copilot Studio - Online Workshop | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-virtual-agents-workshop/) |
+| Build Power Automate flows for your agent - Online workshop | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flows-chatbot-online-workshop/) |
+| Automating email handling in Power Automate for desktop | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-email/) |
+| Manage secrets in your server apps with Azure Key Vault | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secrets-with-azure-key-vault/) |
 | Connect your on-premises network to Azure with VPN Gateway | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-on-premises-network-with-vpn-gateway/) |
 | Build your first ASP.NET Core web app | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-aspnet-core-web-app/) |
 | Build web pages with HTML and CSS for beginners | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-web-pages-html-css-for-beginners/) |
@@ -58,13 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Develop with DevOps | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-with-devops/) |
 | Store application data with Azure Blob Storage | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/store-app-data-with-azure-blob-storage/) |
 | Store data in Azure | Learningpaths | 2025-12-21 | N/A |
-| Publish and manage your APIs with Azure API Management | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-manage-apis-with-azure-api-management/) |
-| Introduction to Azure Functions | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-functions/) |
-| Start your free Dynamics 365 Business Central trial | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/trial-dynamics-365-business-central/) |
-| Use Microsoft Word and Excel templates with Dataverse | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-word-excel-dataverse/) |
-| Describe reporting and integration capabilities in finance and operations apps | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-report-integration-use-finance-operations-apps/) |
-| Introduction to the core capabilities of Microsoft Dynamics 365 finance and operations apps | Learningpaths | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-dynamics-365-finance-operations-apps/) |
-| Describe Dynamics 365 Finance core capabilities | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-dynamics-365-finance-core-capabilities/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-73.md](microsoft-learn-2026-07-part-73.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-75.md](microsoft-learn-2026-07-part-75.md)
