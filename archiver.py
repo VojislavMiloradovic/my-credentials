@@ -4,8 +4,9 @@ from datetime import datetime, timezone
 
 RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
 
+
 def clean_old_chunks(archive_dir: str, platform_prefix: str) -> None:
-    """Remove existing chunk files for the platform before generating new ones."""
+    """Removes existing slice files for a given platform prefix."""
     pattern = os.path.join(archive_dir, f"{platform_prefix}-*-part-*.md")
     for f in glob.glob(pattern):
         try:
@@ -13,92 +14,72 @@ def clean_old_chunks(archive_dir: str, platform_prefix: str) -> None:
         except OSError:
             pass
 
-def update_readme_section(
-    readme_path: str,
-    marker_start: str,
-    marker_end: str,
-    content_lines: list[str]
-) -> None:
-    """Inject content lines between marker tags in README.md."""
-    if not os.path.exists(readme_path):
-        with open(readme_path, "w", encoding="utf-8") as f:
-            f.write(f"{marker_start}\n{marker_end}\n")
-
-    with open(readme_path, "r", encoding="utf-8") as f:
-        readme_content = f.read()
-
-    if marker_start not in readme_content or marker_end not in readme_content:
-        readme_content += f"\n\n{marker_start}\n{marker_end}\n"
-
-    split_start = readme_content.split(marker_start)
-    split_end = split_start[1].split(marker_end)
-
-    updated_readme = (
-        split_start[0] +
-        marker_start + "\n" +
-        "\n".join(content_lines) + "\n" +
-        marker_end +
-        split_end[1]
-    )
-
-    with open(readme_path, "w", encoding="utf-8") as f:
-        f.write(updated_readme)
 
 def generate_platform_archive(
     platform_prefix: str,
     platform_name: str,
     table_headers: list[str],
     table_alignments: list[str],
-    formatted_rows: list[tuple[str, str]],  # List of tuples: (row_markdown_text, date_earned_str)
+    formatted_rows: list[tuple[str, str]],
     readme_lines: list[str],
     marker_start: str,
     marker_end: str,
     archive_dir: str = "archives",
     readme_path: str = "README.md",
-    max_bytes: int = 9500,
-    raw_base_url: str = RAW_BASE_DEFAULT
-) -> dict:
-    """Generates monolith, chunked parts, master index, and updates the README."""
+    raw_base_url: str = RAW_BASE_DEFAULT,
+    extra_monolith_header_md: str = "",
+) -> None:
+    """Generates monolithic archive, ~10KB slice archives, platform index,
+
+    and updates README markers cleanly.
+    """
     os.makedirs(archive_dir, exist_ok=True)
     clean_old_chunks(archive_dir, platform_prefix)
 
-    now_ym = datetime.now(timezone.utc).strftime("%Y-%m")
     total_entries = len(formatted_rows)
-    header_row = "| " + " | ".join(table_headers) + " |"
-    align_row = "| " + " | ".join(table_alignments) + " |"
-    table_header_lines = [header_row, align_row]
+    now_ym = datetime.now(timezone.utc).strftime("%Y-%m")
 
-    # 1. Complete Monolith File
+    # 1. Monolithic Complete File
     monolith_filename = f"{platform_prefix}-complete.md"
     monolith_path = os.path.join(archive_dir, monolith_filename)
 
-    mono_md = [
-        f"# Complete {platform_name} Achievements Archive\n",
-        f"This document contains a complete, chronological record of all {total_entries:,} achievements earned on {platform_name}.\n"
+    header_line = "| " + " | ".join(table_headers) + " |"
+    align_line = "| " + " | ".join(table_alignments) + " |"
+
+    archive_md = [
+        f"# Complete {platform_name} Archive\n\n",
+        f"This document represents a unified, verifiable list of all {total_entries} records.\n\n",
     ]
-    mono_md.extend(table_header_lines)
+
+    if extra_monolith_header_md:
+        archive_md.append(extra_monolith_header_md)
+
+    archive_md.append("## Verified Records Archive\n\n")
+    archive_md.append(f"{header_line}\n{align_line}\n")
 
     for row_text, _ in formatted_rows:
-        mono_md.append(row_text)
+        archive_md.append(f"{row_text}\n")
 
-    mono_md.append(f"\n\n[← Back to Index](./{platform_prefix}-index.md) | [← README](../README.md)\n")
+    archive_md.append(f"\n\n[← Back to Index](./{platform_prefix}-index.md) | [← README](../README.md)\n")
 
     with open(monolith_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(mono_md))
+        f.write("".join(archive_md))
 
-    # 2. Chunking Logic (~10 KB limits)
+    # 2. Chunking Logic (~10 KB limit per file)
     chunks = []
     current_chunk_rows = []
     current_chunk_bytes = 0
+    MAX_BYTES = 9500
 
     for row_text, row_date in formatted_rows:
-        row_len = len(row_text.encode("utf-8")) + 1
-        if current_chunk_bytes + row_len > max_bytes and current_chunk_rows:
+        row_len = len(row_text.encode("utf-8"))
+        if current_chunk_bytes + row_len > MAX_BYTES and current_chunk_rows:
             chunks.append(current_chunk_rows)
             current_chunk_rows = []
             current_chunk_bytes = 0
         current_chunk_rows.append((row_text, row_date))
         current_chunk_bytes += row_len
+
     if current_chunk_rows:
         chunks.append(current_chunk_rows)
 
@@ -112,8 +93,16 @@ def generate_platform_archive(
         start_date = chunk_rows[-1][1]
         end_date = chunk_rows[0][1]
 
-        prev_link = f"[{platform_prefix}-{now_ym}-part-{i-1:02d}.md]({platform_prefix}-{now_ym}-part-{i-1:02d}.md)" if i > 1 else "None"
-        next_link = f"[{platform_prefix}-{now_ym}-part-{i+1:02d}.md]({platform_prefix}-{now_ym}-part-{i+1:02d}.md)" if i < total_chunks else "None"
+        prev_link = (
+            f"[{platform_prefix}-{now_ym}-part-{i-1:02d}.md]({platform_prefix}-{now_ym}-part-{i-1:02d}.md)"
+            if i > 1
+            else "None"
+        )
+        next_link = (
+            f"[{platform_prefix}-{now_ym}-part-{i+1:02d}.md]({platform_prefix}-{now_ym}-part-{i+1:02d}.md)"
+            if i < total_chunks
+            else "None"
+        )
 
         c_md = [
             "---",
@@ -123,13 +112,14 @@ def generate_platform_archive(
             f"total_entries: {len(chunk_rows)}",
             f"raw_url: {raw_base_url}/{chunk_filename}",
             "---\n",
-            f"# {platform_name} Achievements — Part {i:02d}\n",
-            f"> **Navigation:** Prev: {prev_link} | [Index](./{platform_prefix}-index.md) | Next: {next_link} | [Complete Archive](./{monolith_filename})\n"
+            f"# {platform_name} — Part {i:02d}\n",
+            f"> **Navigation:** Prev: {prev_link} | [Index](./{platform_prefix}-index.md) | Next: {next_link} | [Complete Archive](./{monolith_filename})\n",
+            header_line,
+            align_line,
         ]
-        c_md.extend(table_header_lines)
 
         for r_text, _ in chunk_rows:
-            c_md.append(r_text)
+            c_md.append(r_text.strip())
 
         c_md.append(f"\n---\n> **Navigation:** Prev: {prev_link} | [Index](./{platform_prefix}-index.md) | Next: {next_link}\n")
 
@@ -146,10 +136,10 @@ def generate_platform_archive(
             "size_kb": file_size_kb,
             "tokens": est_tokens,
             "entries": len(chunk_rows),
-            "raw_url": f"{raw_base_url}/{chunk_filename}"
+            "raw_url": f"{raw_base_url}/{chunk_filename}",
         })
 
-    # 3. Platform Master Index
+    # 3. Master Platform Index File
     index_filename = f"{platform_prefix}-index.md"
     index_path = os.path.join(archive_dir, index_filename)
 
@@ -158,10 +148,10 @@ def generate_platform_archive(
     mono_tokens = int(mono_bytes / 4)
 
     idx_md = [
-        f"# {platform_name} Archive Index\n",
-        f"This directory provides chunked, AI-readable historical records for {platform_name} achievements. Large language models and AI scrapers can utilize raw links to consume precise date segments without exceeding context fetch limits.\n",
+        f"# {platform_name} Index\n",
+        f"This directory provides chunked, AI-readable historical records for {platform_name}.\n",
         "## Archive Overview\n",
-        f"- **Total Achievements Archived:** {total_entries:,}",
+        f"- **Total Records Archived:** {total_entries}",
         f"- **Monolithic File Size:** ~{mono_kb} KB (~{mono_tokens:,} tokens)",
         f"- **Total Chunk Parts:** {total_chunks} chunk(s)\n",
         "### Monolithic Archive (Complete)\n",
@@ -170,24 +160,29 @@ def generate_platform_archive(
         f"| [`{monolith_filename}`](./{monolith_filename}) | {mono_kb} KB | ~{mono_tokens:,} | Large Context Windows (>100k tokens) | [Raw Link]({raw_base_url}/{monolith_filename}) |\n",
         "### Chunked Archive Parts (~10 KB Slices)\n",
         "| Part | File Name | Date Range | Entries | Size (KB) | Est. Tokens | Direct Raw URL |",
-        "| :---: | :--- | :---: | :---: | :---: | :---: | :--- |"
+        "| :---: | :--- | :---: | :---: | :---: | :---: | :--- |",
     ]
 
     for cm in chunk_meta:
-        idx_md.append(f"| Part {cm['part']:02d} | [`{cm['filename']}`](./{cm['filename']}) | `{cm['date_range']}` | {cm['entries']} | {cm['size_kb']} KB | ~{cm['tokens']} | [Raw URL]({cm['raw_url']}) |")
+        idx_md.append(
+            f"| Part {cm['part']:02d} | [`{cm['filename']}`](./{cm['filename']}) | `{cm['date_range']}` | {cm['entries']} | {cm['size_kb']} KB | ~{cm['tokens']} | [Raw URL]({cm['raw_url']}) |"
+        )
 
     idx_md.append("\n\n[← Back to Main README](../README.md)\n")
 
     with open(index_path, "w", encoding="utf-8") as f:
         f.write("\n".join(idx_md))
 
-    # 4. Inject README content
-    update_readme_section(readme_path, marker_start, marker_end, readme_lines)
+    # 4. Update README.md
+    if os.path.exists(readme_path):
+        with open(readme_path, "r", encoding="utf-8") as f:
+            content = f.read()
 
-    return {
-        "index_filename": index_filename,
-        "monolith_filename": monolith_filename,
-        "chunk_meta": chunk_meta,
-        "total_chunks": total_chunks,
-        "total_entries": total_entries
-    }
+        if marker_start in content and marker_end in content:
+            before = content.split(marker_start)[0]
+            after = content.split(marker_end)[1]
+            new_block = "\n".join(readme_lines) + "\n"
+            new_content = f"{before}{marker_start}\n{new_block}{marker_end}{after}"
+
+            with open(readme_path, "w", encoding="utf-8") as f:
+                f.write(new_content)
