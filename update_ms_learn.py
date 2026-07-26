@@ -1,8 +1,9 @@
+from datetime import datetime
 import json
 import os
 import re
-from datetime import datetime
-from archiver import generate_platform_archive, RAW_BASE_DEFAULT
+
+from archiver import RAW_BASE_DEFAULT, generate_platform_archive
 
 JSON_PATH = "data/microsoft-learn.json"
 README_PATH = "README.md"
