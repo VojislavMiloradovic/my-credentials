@@ -1,9 +1,9 @@
-import os
 import re
 import time
 from datetime import datetime, timezone
 
 import requests
+
 from archiver import RAW_BASE_DEFAULT, generate_platform_archive
 
 USERNAME = "vojislavmiloradovic"
