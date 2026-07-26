@@ -2,7 +2,7 @@
 archive_platform: AWS Skill Builder
 chunk_part: 1 of 2
 date_range: N/A to N/A
-total_entries: 263
+total_entries: 296
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md
 ---
 
@@ -10,271 +10,304 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 > **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md) | [Complete Archive](./aws-skills-complete.md)
 
-| Activity / Course Title | Type | Date Earned | Duration |
+| Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
-| AWS Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
+| Course | Course | N/A | N/A |
 
 ---
 > **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md)

@@ -85,19 +85,25 @@ Showing latest 10 of 4,761 achievements. View the full dataset via the [Platform
 ### AWS Skill Builder Summary
 - **Total Completed Courses/Activities:** 462
 
+### AWS Cloud Quest Status
+- **Role:** Cloud Practitioner / Generative AI Practitioner
+- **Builder Level:** 12 | **Reputation Level:** 95
+- **Total Solutions Built:** 20
+- **Pets Unlocked:** 17 | **Vehicles Unlocked:** 2
+
 ### Recent AWS Learning Activities
 Showing latest 10 of 462 activities. View the full dataset via the [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md), or the [Monolithic Complete File](./archives/aws-skills-complete.md).
 
-- **AWS Course** (Course | Earned: N/A)
-- **AWS Course** (Course | Earned: N/A)
-- **AWS Course** (Course | Earned: N/A)
-- **AWS Course** (Course | Earned: N/A)
-- **AWS Course** (Course | Earned: N/A)
-- **AWS Course** (Course | Earned: N/A)
-- **AWS Course** (Course | Earned: N/A)
-- **AWS Course** (Course | Earned: N/A)
-- **AWS Course** (Course | Earned: N/A)
-- **AWS Course** (Course | Earned: N/A)
+- **Course** (Course | Earned: N/A)
+- **Course** (Course | Earned: N/A)
+- **Course** (Course | Earned: N/A)
+- **Course** (Course | Earned: N/A)
+- **Course** (Course | Earned: N/A)
+- **Course** (Course | Earned: N/A)
+- **Course** (Course | Earned: N/A)
+- **Course** (Course | Earned: N/A)
+- **Course** (Course | Earned: N/A)
+- **Course** (Course | Earned: N/A)
 <!-- AWS_SKILLS_END -->
 
 
