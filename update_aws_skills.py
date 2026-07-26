@@ -84,15 +84,15 @@ def parse_and_clean_date(raw_date_str: str) -> tuple[datetime, str]:
 
 
 def load_csv_rows(filepath: str) -> list[dict]:
-    """Loads CSV rows auto-detecting comma, tab, or semicolon delimiters."""
+    """Loads CSV rows auto-detecting delimiter strictly from the header line."""
     with open(filepath, "r", encoding="utf-8-sig") as f:
-        sample = f.read(4096)
+        header_line = f.readline()
         f.seek(0)
 
         delimiter = ","
-        if "\t" in sample and sample.count("\t") > sample.count(","):
+        if header_line.count("\t") > header_line.count(",") and header_line.count("\t") > header_line.count(";"):
             delimiter = "\t"
-        elif ";" in sample and sample.count(";") > sample.count(","):
+        elif header_line.count(";") > header_line.count(",") and header_line.count(";") > header_line.count("\t"):
             delimiter = ";"
 
         reader = csv.DictReader(f, delimiter=delimiter)
@@ -142,7 +142,6 @@ def main():
     index_raw = f"{RAW_BASE_DEFAULT}/{index_filename}"
     latest_chunk_raw = f"{RAW_BASE_DEFAULT}/{PLATFORM_PREFIX}-{now_ym}-part-01.md"
 
-    # Construct full Markdown summary block including Cloud Quest statistics
     md = [
         "### AWS Skill Builder Summary",
         f"- **Total Completed Courses/Activities:** {len(sorted_data):,}\n",
