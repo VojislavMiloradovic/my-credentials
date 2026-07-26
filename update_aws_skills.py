@@ -90,7 +90,7 @@ def read_file_safely(filepath: str) -> str:
     with open(filepath, "rb") as f:
         raw = f.read()
 
-    if raw.startswith(b"\xff\xfe") or raw.startswith(b"\xfe\xff") or b"\x00" in raw:
+    if raw.startswith((b"\xff\xfe", b"\xfe\xff")) or b"\x00" in raw:
         try:
             return raw.decode("utf-16", errors="replace")
         except Exception:
