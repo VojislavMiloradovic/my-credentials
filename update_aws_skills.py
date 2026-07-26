@@ -25,8 +25,9 @@ def get_field(row: dict, possible_keys: list[str], default: str = "") -> str:
     row_norm = {str(k).strip().lower(): str(v).strip() for k, v in row.items() if k is not None}
     for key in possible_keys:
         norm_k = key.strip().lower()
-        if norm_k in row_norm and row_norm[norm_k]:
-            return row_norm[norm_k]
+        val = row_norm.get(norm_k)
+        if val:
+            return val
 
     return default
 
