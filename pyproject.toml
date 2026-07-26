@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-credentials"
+version = "0.1.0"
+description = "Automated profile sync and AI-readable archives for learning achievements."
+requires-python = ">=3.10"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # Pyflakes
+    "I",   # isort (import sorting)
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "DTZ", # flake8-datetimez (enforces timezone-aware datetimes)
+]
+
+# Suppressions for naive datetimes (DTZ005, DTZ007) and broad exception handling (BLE001, S110, TRY002) removed.
+ignore = []
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
