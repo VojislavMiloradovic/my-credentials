@@ -81,15 +81,16 @@ def build_readme_lines(badges, total_points):
             lines.append(f"| *{b['date_earned']}* | **{b['title']}** |")
         lines.append("")
 
-    # Construct dynamic raw links for footer
+    # Construct local relative and raw GitHub URLs
     now_ym = datetime.now(timezone.utc).strftime("%Y-%m")
+    local_index = f"./archives/{PLATFORM_PREFIX}-index.md"
+    local_monolith = f"./archives/{PLATFORM_PREFIX}-complete.md"
     raw_index = f"{RAW_BASE_URL}/{PLATFORM_PREFIX}-index.md"
     raw_part1 = f"{RAW_BASE_URL}/{PLATFORM_PREFIX}-{now_ym}-part-01.md"
-    raw_monolith = f"{RAW_BASE_URL}/{PLATFORM_PREFIX}-complete.md"
 
     lines.append(
-        f"👉 **View Platform Index** ([Raw Index]({raw_index}) | "
-        f"[Part 01 Raw]({raw_part1}) | [Complete Monolith]({raw_monolith}))\n"
+        f"👉 [View Platform Index]({local_index}) ([Raw Index]({raw_index}) | "
+        f"[Part 01 Raw]({raw_part1}) | [Complete Monolith]({local_monolith}))\n"
     )
 
     return lines
