@@ -1,0 +1,58 @@
+name: Reusable Platform Sync Workflow
+
+on:
+  workflow_call:
+    inputs:
+      script_name:
+        description: "Python script to execute for platform sync (e.g., update_ms_learn.py)"
+        required: true
+        type: string
+      commit_message:
+        description: "Git commit message for changes"
+        required: false
+        type: string
+        default: "chore: auto-update platform data, json-ld, and llms.txt"
+      python_version:
+        description: "Python version to set up"
+        required: false
+        type: string
+        default: "3.10"
+
+permissions:
+  contents: write
+
+jobs:
+  sync-platform:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ inputs.python_version }}
+
+      - name: Install Dependencies
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run Platform Script
+        run: python ${{ inputs.script_name }}
+
+      - name: Generate JSON-LD Linked Data
+        run: python generate_jsonld.py
+
+      - name: Generate LLMs.txt Directory Files
+        run: python generate_llms_txt.py
+
+      - name: Commit and Push Changes (Rebase Safe)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --staged --quiet; then
+            git commit -m "${{ inputs.commit_message }}"
+            git pull --rebase origin main
+            git push
+          fi
