@@ -1,6 +1,6 @@
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 
 import requests
 from bs4 import BeautifulSoup
@@ -13,6 +13,7 @@ PLATFORM_PREFIX = "google-cloud-skills"
 PLATFORM_NAME = "Google Cloud Skills Boost"
 START_TAG = "<!-- GOOGLE_SKILLS_START -->"
 END_TAG = "<!-- GOOGLE_SKILLS_END -->"
+RAW_BASE_URL = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
 
 INTERNAL_STATS = {
     "Course": 346,
@@ -79,6 +80,17 @@ def build_readme_lines(badges, total_points):
         for b in badges[:10]:
             lines.append(f"| *{b['date_earned']}* | **{b['title']}** |")
         lines.append("")
+
+    # Construct dynamic raw links for footer
+    now_ym = datetime.now(timezone.utc).strftime("%Y-%m")
+    raw_index = f"{RAW_BASE_URL}/{PLATFORM_PREFIX}-index.md"
+    raw_part1 = f"{RAW_BASE_URL}/{PLATFORM_PREFIX}-{now_ym}-part-01.md"
+    raw_monolith = f"{RAW_BASE_URL}/{PLATFORM_PREFIX}-complete.md"
+
+    lines.append(
+        f"👉 **View Platform Index** ([Raw Index]({raw_index}) | "
+        f"[Part 01 Raw]({raw_part1}) | [Complete Monolith]({raw_monolith}))\n"
+    )
 
     return lines
 
@@ -187,7 +199,6 @@ def fetch_skills():
     with open("google_skills.json", "w", encoding="utf-8") as f:
         json.dump(profile_data, f, indent=2, ensure_ascii=False)
 
-    # Formatted rows expects tuples of (row_markdown_text, row_date)
     formatted_rows = [
         (f"| {b['date_earned']} | **{b['title']}** |", b["date_earned"])
         for b in unique_badges
@@ -200,7 +211,6 @@ def fetch_skills():
         f"**Total Lifetime Points:** {total_points}\n\n"
     )
 
-    # Call archiver.py using its exact signature
     generate_platform_archive(
         platform_prefix=PLATFORM_PREFIX,
         platform_name=PLATFORM_NAME,
