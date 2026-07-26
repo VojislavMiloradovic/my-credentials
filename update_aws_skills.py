@@ -23,25 +23,43 @@ CLOUD_QUEST_STATS = {
     "Total Solutions Built": 20,
 }
 
+MONTH_MAP = {
+    "jan": "01", "feb": "02", "mar": "03", "apr": "04",
+    "may": "05", "jun": "06", "jul": "07", "aug": "08",
+    "sep": "09", "oct": "10", "nov": "11", "dec": "12",
+    "january": "01", "february": "02", "march": "03", "april": "04",
+    "june": "06", "july": "07", "august": "08", "september": "09",
+    "october": "10", "november": "11", "december": "12",
+}
+
 
 def get_field(row: dict, possible_keys: list[str], default: str = "") -> str:
-    """Case-insensitive and whitespace-resilient column accessor."""
-    norm_row = {
-        str(k).strip().lower(): str(v).strip()
-        for k, v in row.items()
-        if k is not None and v is not None
-    }
+    """Case-insensitive, whitespace-resilient, and quote-safe column accessor."""
+    norm_row = {}
+    for k, v in row.items():
+        if k is not None and v is not None:
+            clean_k = str(k).strip(" \t\n\r\"'").lower()
+            clean_v = str(v).strip(" \t\n\r\"'")
+            if clean_v:
+                norm_row[clean_k] = clean_v
 
     for key in possible_keys:
-        val = norm_row.get(key.strip().lower())
+        target = key.strip().lower()
+        val = norm_row.get(target)
         if val:
             return val
+
+    for key in possible_keys:
+        target = key.strip().lower()
+        for k, v in norm_row.items():
+            if target in k:
+                return v
 
     return default
 
 
 def parse_and_clean_date(raw_date_str: str) -> tuple[datetime, str]:
-    """Parses raw date strings (including 'Feb 2026') into a timezone-aware datetime and formatted string."""
+    """Parses raw date strings into a timezone-aware datetime and formatted string in a locale-independent manner."""
     min_date = datetime.min.replace(tzinfo=timezone.utc)
     if not raw_date_str or not isinstance(raw_date_str, str):
         return min_date, "N/A"
@@ -50,26 +68,38 @@ def parse_and_clean_date(raw_date_str: str) -> tuple[datetime, str]:
     if not clean_str:
         return min_date, "N/A"
 
+    # 1. Locale-independent month name check (e.g. "Feb 2026", "March 2026")
+    month_year_match = re.match(r"^([a-zA-Z]+)\s+(\d{4})$", clean_str)
+    if month_year_match:
+        m_name, y_str = month_year_match.groups()
+        m_num = MONTH_MAP.get(m_name.lower())
+        if m_num:
+            formatted = f"{y_str}-{m_num}"
+            try:
+                dt = datetime.strptime(f"{formatted}-01", "%Y-%m-%d").replace(tzinfo=timezone.utc)
+                return dt, formatted
+            except ValueError:
+                pass
+
+    # 2. Standard numeric date formats (YYYY-MM-DD, MM/DD/YYYY, YYYY-MM)
     date_formats = [
-        "%b %Y",  # Handles "Feb 2026", "Mar 2026"
-        "%B %Y",  # Handles "February 2026"
         "%Y-%m-%d",
+        "%Y-%m",
         "%m/%d/%Y",
         "%d/%m/%Y",
         "%Y/%m/%d",
-        "%b %d, %Y",
-        "%B %d, %Y",
     ]
 
     for fmt in date_formats:
         try:
             dt = datetime.strptime(clean_str, fmt).replace(tzinfo=timezone.utc)
-            if fmt in ("%b %Y", "%B %Y"):
+            if fmt == "%Y-%m":
                 return dt, dt.strftime("%Y-%m")
             return dt, dt.strftime("%Y-%m-%d")
         except ValueError:
             continue
 
+    # 3. Regex fallback for YYYY-MM-DD or YYYY/MM/DD
     match = re.search(r"(\d{4})[-/](\d{1,2})[-/](\d{1,2})", clean_str)
     if match:
         y, m, d = match.groups()
@@ -84,19 +114,47 @@ def parse_and_clean_date(raw_date_str: str) -> tuple[datetime, str]:
 
 
 def load_csv_rows(filepath: str) -> list[dict]:
-    """Loads CSV rows auto-detecting delimiter strictly from the header line."""
-    with open(filepath, "r", encoding="utf-8-sig") as f:
-        header_line = f.readline()
-        f.seek(0)
+    """Fail-safe CSV loader that handles line endings, encodings, and delimiter detection."""
+    content = ""
+    for enc in ["utf-8-sig", "utf-8", "latin-1", "cp1252"]:
+        try:
+            with open(filepath, "r", encoding=enc) as f:
+                content = f.read()
+            break
+        except UnicodeDecodeError:
+            continue
 
-        delimiter = ","
-        if header_line.count("\t") > header_line.count(",") and header_line.count("\t") > header_line.count(";"):
-            delimiter = "\t"
-        elif header_line.count(";") > header_line.count(",") and header_line.count(";") > header_line.count("\t"):
-            delimiter = ";"
+    if not content.strip():
+        return []
 
-        reader = csv.DictReader(f, delimiter=delimiter)
-        return list(reader)
+    lines = [line for line in content.replace("\r\n", "\n").replace("\r", "\n").split("\n") if line.strip()]
+    if not lines:
+        return []
+
+    header_line = lines[0]
+    counts = {
+        ",": header_line.count(","),
+        "\t": header_line.count("\t"),
+        ";": header_line.count(";"),
+        "|": header_line.count("|"),
+    }
+    best_delim = max(counts, key=counts.get)
+    delimiter = best_delim if counts[best_delim] > 0 else ","
+
+    reader = csv.DictReader(lines, delimiter=delimiter)
+    rows = list(reader)
+
+    # Secondary check: If single-column key detected, attempt fallback splitting
+    if rows and len(rows[0]) == 1:
+        single_key = list(rows[0].keys())[0]
+        for alt_delim in [",", "\t", ";", "|"]:
+            if alt_delim in single_key and alt_delim != delimiter:
+                alt_reader = csv.DictReader(lines, delimiter=alt_delim)
+                alt_rows = list(alt_reader)
+                if alt_rows and len(alt_rows[0]) > 1:
+                    return alt_rows
+
+    return rows
 
 
 def main():
