@@ -76,7 +76,7 @@ Showing latest 10 of 4,761 achievements. View the full dataset via the [Platform
 | *2026-07-19* | **Secure Software Delivery** |
 | *2026-07-19* | **Arcade Base Camp July 2026** |
 
-👉 **View Platform Index** ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-01.md) | [Complete Monolith](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-complete.md))
+👉 [View Platform Index](./archives/google-cloud-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-01.md) | [Complete Monolith](./archives/google-cloud-skills-complete.md))
 
 <!-- GOOGLE_SKILLS_END -->
 
