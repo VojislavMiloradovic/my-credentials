@@ -1965,6 +1965,9 @@ MDC-111 Android: Incorporating Material Components into your codebase (Java)
 Engage users with your Action for Google Assistant
 10. јун 2026.
 
+Going Multimodal with Agent Development Kit: Personal Expense Assistant with Gemini 2.5, Firestore and Cloud Run
+26. јул 2026.
+
 clasp - The Apps Script CLI
 9. јун 2026.
 
@@ -2748,7 +2751,7 @@ Using BigQuery with Python
 Connect Gemini CLI to Looker with MCP Toolbox
 22. јун 2026.
 
-Build the Data Foundation with Knowledge Catalog Metadata
+Build a data foundation with Knowledge Catalog metadata
 24. мај 2026.
 
 Interacting with UI and state
