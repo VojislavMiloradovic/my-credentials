@@ -24,12 +24,11 @@ CLOUD_QUEST_STATS = {
 }
 
 MONTH_MAP = {
-    "jan": "01", "feb": "02", "mar": "03", "apr": "04",
-    "may": "05", "jun": "06", "jul": "07", "aug": "08",
-    "sep": "09", "oct": "10", "nov": "11", "dec": "12",
-    "january": "01", "february": "02", "march": "03", "april": "04",
-    "june": "06", "july": "07", "august": "08", "september": "09",
-    "october": "10", "november": "11", "december": "12",
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+    "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
+    "january": 1, "february": 2, "march": 3, "april": 4,
+    "june": 6, "july": 7, "august": 8, "september": 9,
+    "october": 10, "november": 11, "december": 12,
 }
 
 
@@ -48,20 +47,43 @@ def parse_and_clean_date(raw_date_str: str) -> tuple[datetime, str]:
     if not clean_str:
         return min_date, "N/A"
 
-    # 1. Month Year string (e.g. "Feb 2026", "March 2026")
-    match = re.match(r"^([a-zA-Z]+)\s+(\d{4})$", clean_str)
-    if match:
-        m_name, y_str = match.groups()
+    # 1. Full text date: "March 8, 2026" or "Mar 8 2026"
+    match_full = re.match(r"^([a-zA-Z]+)\s+(\d{1,2}),?\s+(\d{4})$", clean_str)
+    if match_full:
+        m_name, d_str, y_str = match_full.groups()
         m_num = MONTH_MAP.get(m_name.lower())
         if m_num:
-            formatted = f"{y_str}-{m_num}"
             try:
-                dt = datetime.strptime(f"{formatted}-01", "%Y-%m-%d").replace(tzinfo=timezone.utc)
-                return dt, formatted
+                dt = datetime(int(y_str), m_num, int(d_str), tzinfo=timezone.utc)
+                return dt, dt.strftime("%Y-%m-%d")
             except ValueError:
                 pass
 
-    # 2. Standard numeric formats
+    # 2. Day-first text date: "8 March 2026"
+    match_day = re.match(r"^(\d{1,2})\s+([a-zA-Z]+),?\s+(\d{4})$", clean_str)
+    if match_day:
+        d_str, m_name, y_str = match_day.groups()
+        m_num = MONTH_MAP.get(m_name.lower())
+        if m_num:
+            try:
+                dt = datetime(int(y_str), m_num, int(d_str), tzinfo=timezone.utc)
+                return dt, dt.strftime("%Y-%m-%d")
+            except ValueError:
+                pass
+
+    # 3. Month Year string (e.g. "Feb 2026", "March 2026")
+    match_my = re.match(r"^([a-zA-Z]+)\s+(\d{4})$", clean_str)
+    if match_my:
+        m_name, y_str = match_my.groups()
+        m_num = MONTH_MAP.get(m_name.lower())
+        if m_num:
+            try:
+                dt = datetime(int(y_str), m_num, 1, tzinfo=timezone.utc)
+                return dt, dt.strftime("%Y-%m")
+            except ValueError:
+                pass
+
+    # 4. Standard numeric formats
     for fmt in ["%Y-%m-%d", "%Y-%m", "%m/%d/%Y", "%d/%m/%Y", "%Y/%m/%d"]:
         try:
             dt = datetime.strptime(clean_str, fmt).replace(tzinfo=timezone.utc)
@@ -71,14 +93,13 @@ def parse_and_clean_date(raw_date_str: str) -> tuple[datetime, str]:
         except ValueError:
             continue
 
-    # 3. Regex fallback
+    # 5. Regex numeric fallback
     date_match = re.search(r"(\d{4})[-/](\d{1,2})[-/](\d{1,2})", clean_str)
     if date_match:
         y, m, d = date_match.groups()
-        formatted = f"{y}-{int(m):02d}-{int(d):02d}"
         try:
-            dt = datetime.strptime(formatted, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-            return dt, formatted
+            dt = datetime(int(y), int(m), int(d), tzinfo=timezone.utc)
+            return dt, dt.strftime("%Y-%m-%d")
         except ValueError:
             pass
 
@@ -112,7 +133,6 @@ def load_csv_rows(filepath: str) -> list[dict]:
     if not lines:
         return []
 
-    # Find the line that actually looks like a CSV header
     header_idx = 0
     for i, line in enumerate(lines[:10]):
         line_lower = line.lower()
@@ -147,7 +167,6 @@ def load_csv_rows(filepath: str) -> list[dict]:
             clean_val = val.strip(" \t\n\r\"'")
             if col_i < len(headers) and headers[col_i]:
                 row_dict[headers[col_i]] = clean_val
-            # Store positional backup key
             row_dict[f"__col_{col_i}"] = clean_val
 
         rows.append(row_dict)
@@ -176,7 +195,6 @@ def extract_row_fields(row: dict) -> tuple[str, str, str, str]:
                 title = v
                 break
 
-    # Positional Fallback: Column 0 is Title
     if not title:
         title = row.get("__col_0", "Course")
 
@@ -199,11 +217,10 @@ def extract_row_fields(row: dict) -> tuple[str, str, str, str]:
                 type_val = v
                 break
 
-    # Positional Fallback: Column 2 is Authority / Type
     if not type_val:
         type_val = row.get("__col_2", "Course")
 
-    # 3. Date Extraction
+    # 3. Date Extraction (Prioritizing completion dates over start dates)
     raw_date = ""
     date_candidates = []
     for k, v in row.items():
@@ -213,7 +230,7 @@ def extract_row_fields(row: dict) -> tuple[str, str, str, str]:
         if "started" in nk or "completion" in nk or "finished" in nk or "date" in nk or "earned" in nk:
             date_candidates.append((nk, v))
 
-    for pattern in ["started", "completion", "earned", "finished", "date"]:
+    for pattern in ["completion", "finished", "earned", "date", "started"]:
         for nk, v in date_candidates:
             if pattern in nk and v:
                 raw_date = v
@@ -221,9 +238,8 @@ def extract_row_fields(row: dict) -> tuple[str, str, str, str]:
         if raw_date:
             break
 
-    # Positional Fallback: Column 3 (Started On) or Column 4 (Finished On)
     if not raw_date:
-        raw_date = row.get("__col_3", "") or row.get("__col_4", "")
+        raw_date = row.get("__col_4", "") or row.get("__col_3", "")
 
     # 4. Duration Extraction
     duration = ""
