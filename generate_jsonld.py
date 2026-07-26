@@ -3,6 +3,7 @@ import json
 import os
 import re
 import sys
+
 import jsonschema
 
 ARCHIVE_DIR = "archives"
@@ -37,19 +38,19 @@ JSONLD_SCHEMA = {
                                 "type": "object",
                                 "properties": {
                                     "@type": {"type": "string"},
-                                    "name": {"type": "string"}
+                                    "name": {"type": "string"},
                                 },
-                                "required": ["@type", "name"]
-                            }
+                                "required": ["@type", "name"],
+                            },
                         },
-                        "required": ["@type", "name", "recognizedBy"]
-                    }
-                }
+                        "required": ["@type", "name", "recognizedBy"],
+                    },
+                },
             },
-            "required": ["@type", "name", "hasCredential"]
-        }
+            "required": ["@type", "name", "hasCredential"],
+        },
     },
-    "required": ["@context", "@type", "mainEntity"]
+    "required": ["@context", "@type", "mainEntity"],
 }
 
 
@@ -144,8 +145,8 @@ def parse_archive_monoliths():
                         "name": clean_str(title),
                         "recognizedBy": {
                             "@type": "Organization",
-                            "name": clean_str(issuer)
-                        }
+                            "name": clean_str(issuer),
+                        },
                     }
                     if date_earned:
                         c_obj["dateCreated"] = date_earned
@@ -183,8 +184,8 @@ def parse_archive_monoliths():
                     "name": title,
                     "recognizedBy": {
                         "@type": "Organization",
-                        "name": platform_name
-                    }
+                        "name": platform_name,
+                    },
                 }
                 if cred_id:
                     c_obj["identifier"] = cred_id
@@ -233,8 +234,8 @@ def main():
             "@type": "Person",
             "name": "Vojislav Miloradović",
             "url": "https://github.com/VojislavMiloradovic/my-credentials",
-            "hasCredential": credentials
-        }
+            "hasCredential": credentials,
+        },
     }
 
     # Data Integrity & Validation Step
