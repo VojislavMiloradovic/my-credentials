@@ -43,11 +43,9 @@ def main():
         print(f"❌ Error: {CSV_PATH} not found!")
         return
 
-    rows = []
     with open(CSV_PATH, "r", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
-        for r in reader:
-            rows.append(r)
+        rows = list(reader)
 
     sorted_rows = sorted(rows, key=parse_date, reverse=True)
 
