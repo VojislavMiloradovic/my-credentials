@@ -6,11 +6,11 @@ import requests
 from bs4 import BeautifulSoup
 
 # Reusable archive manager
-from archiver import create_platform_archive
+from archiver import generate_platform_archive
 
 URL = "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b"
 PLATFORM_PREFIX = "google-cloud-skills"
-PLATFORM_TITLE = "Google Cloud Skills Boost"
+PLATFORM_NAME = "Google Cloud Skills Boost"
 START_TAG = "<!-- GOOGLE_SKILLS_START -->"
 END_TAG = "<!-- GOOGLE_SKILLS_END -->"
 
@@ -55,6 +55,32 @@ def parse_badge_text(raw_text):
         raw_date = match.group(2).strip()
         return title, to_iso_date(raw_date)
     return text, "N/A"
+
+
+def build_readme_lines(badges, total_points):
+    lines = [
+        f"\n### Google Cloud Skills Boost ({len(badges)} Badges)\n",
+        f"**Public Profile:** [Verify Profile]({URL})  ",
+        f"**Total Lifetime Points:** {total_points}\n",
+        "#### Platform Progress Summary",
+        "| Metric | Count |",
+        "|---|---|",
+    ]
+    for metric, count in INTERNAL_STATS.items():
+        lines.append(f"| **{metric}** | {count:,} |")
+    lines.append("")
+
+    if not badges:
+        lines.append("*No Google Skills badges detected dynamically yet (checking daily).*")
+    else:
+        lines.append("#### Latest Earned Badges")
+        lines.append("| Date Earned | Badge Title |")
+        lines.append("|:---:|---|")
+        for b in badges[:10]:
+            lines.append(f"| *{b['date_earned']}* | **{b['title']}** |")
+        lines.append("")
+
+    return lines
 
 
 def fetch_skills():
@@ -161,56 +187,31 @@ def fetch_skills():
     with open("google_skills.json", "w", encoding="utf-8") as f:
         json.dump(profile_data, f, indent=2, ensure_ascii=False)
 
-    # 1. Format entries for archiving
-    entries = [
-        {
-            "date": b["date_earned"],
-            "row": f"| {b['date_earned']} | **{b['title']}** |",
-        }
+    # Formatted rows expects tuples of (row_markdown_text, row_date)
+    formatted_rows = [
+        (f"| {b['date_earned']} | **{b['title']}** |", b["date_earned"])
         for b in unique_badges
     ]
 
-    # 2. Build platform-specific section for README.md
-    readme_section = build_readme_section(unique_badges, total_points)
+    readme_lines = build_readme_lines(unique_badges, total_points)
 
-    # 3. Offload monolith, chunking, indexing, and README injection to archiver.py
-    create_platform_archive(
-        platform_prefix=PLATFORM_PREFIX,
-        platform_title=PLATFORM_TITLE,
-        profile_url=URL,
-        meta_info={
-            "Total Lifetime Points": total_points,
-            "Total Badges": len(unique_badges),
-        },
-        table_header="| Date Earned | Badge Title |\n|:---:|---|",
-        entries=entries,
-        readme_section=readme_section,
-        start_tag=START_TAG,
-        end_tag=END_TAG,
+    extra_monolith_header = (
+        f"**Public Profile:** [Verify Profile]({URL})  \n"
+        f"**Total Lifetime Points:** {total_points}\n\n"
     )
 
-
-def build_readme_section(badges, total_points):
-    badge_md = f"\n### Google Cloud Skills Boost ({len(badges)} Badges)\n\n"
-    badge_md += f"**Public Profile:** [Verify Profile]({URL})  \n"
-    badge_md += f"**Total Lifetime Points:** {total_points}\n\n"
-
-    badge_md += "#### Platform Progress Summary\n"
-    badge_md += "| Metric | Count |\n|---|---|\n"
-    for metric, count in INTERNAL_STATS.items():
-        badge_md += f"| **{metric}** | {count:,} |\n"
-    badge_md += "\n"
-
-    if not badges:
-        badge_md += "*No Google Skills badges detected dynamically yet (checking daily).*\n"
-    else:
-        badge_md += "#### Latest Earned Badges\n"
-        badge_md += "| Date Earned | Badge Title |\n|:---:|---| \n"
-        for b in badges[:10]:
-            badge_md += f"| *{b['date_earned']}* | **{b['title']}** |\n"
-        badge_md += "\n"
-
-    return badge_md
+    # Call archiver.py using its exact signature
+    generate_platform_archive(
+        platform_prefix=PLATFORM_PREFIX,
+        platform_name=PLATFORM_NAME,
+        table_headers=["Date Earned", "Badge Title"],
+        table_alignments=[":---:", "---"],
+        formatted_rows=formatted_rows,
+        readme_lines=readme_lines,
+        marker_start=START_TAG,
+        marker_end=END_TAG,
+        extra_monolith_header_md=extra_monolith_header,
+    )
 
 
 if __name__ == "__main__":
