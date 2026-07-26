@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 10 of 10
-date_range: 2025-11-04 to 2026-03-12
-total_entries: 7
+date_range: 2025-11-04 to 2026-03-15
+total_entries: 9
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-10.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-03-15 | **Microsoft Applied Skills: Streamline business workflows with AI chat** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/CE7FBB459ADAB331?sharingId=4883E92AA6332B3F) |
+| 2026-03-14 | **Microsoft Applied Skills: Create an AI agent** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/DC86763A7069ABBF?sharingId=4883E92AA6332B3F) |
 | 2026-03-12 | **Google Analytics Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/c845a7b6-cef3-4e66-87e2-481771d889ed) |
 | 2026-02-07 | **Oracle Cloud Success Navigator Essentials** | Oracle | `External/Imported` | [Verify](https://catalog-education.oracle.com/pls/certview/sharebadge?id=E11489205EF3BEE917EAFE29D12203DA2526C300DB291B1D3B7F3E1F84C70D87) |
 | 2025-12-20 | **Implement Load Balancing on Compute Engine Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/a081bb3e-083d-4ccc-a074-c7b7e2d15a1b) |

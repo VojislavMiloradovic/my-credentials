@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 9 of 10
-date_range: 2026-03-14 to 2026-04-20
+date_range: 2026-03-15 to 2026-04-20
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-09.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-04-20 | **AWS Knowledge: Amazon Connect Fundamentals - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/cb6a4e9e-b375-4e40-bf27-7f3d4ad252d5) |
+| 2026-04-20 | **Explore Emerging Tech** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/67d065a9-5177-45e1-b94d-72bc4b493ca0) |
 | 2026-04-20 | **Introduction to Greenhouse Gas Accounting for IT** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/1b2c72f1-8e6b-4d6a-8e87-4c3a404a6250) |
 | 2026-04-20 | **Working with Invoice Pay in Concur Invoice Professional - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/6a8ba215-f454-4b26-91ef-5ff968b721f7) |
 | 2026-04-19 | **AI Fundamentals: Foundations for Understanding AI** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/2a493aff-eb08-4456-8683-8b9d1d7c5eef) |
@@ -57,8 +59,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-03-16 | **AI-Powered Performance Ads Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/1583f933-2a97-47bc-b442-8ad614e6982d) |
 | 2026-03-16 | **Microsoft Applied Skills: Get started with cloud security and monitoring tasks** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/1EBB80C496C2DDF1?sharingId=4883E92AA6332B3F) |
 | 2026-03-15 | **Google Ads Search Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/f0f3a46f-f6a1-4145-8fb5-2c2bb41a761f) |
-| 2026-03-15 | **Microsoft Applied Skills: Streamline business workflows with AI chat** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/CE7FBB459ADAB331?sharingId=4883E92AA6332B3F) |
-| 2026-03-14 | **Microsoft Applied Skills: Create an AI agent** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/DC86763A7069ABBF?sharingId=4883E92AA6332B3F) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-10.md](credly-badges-2026-07-part-10.md)

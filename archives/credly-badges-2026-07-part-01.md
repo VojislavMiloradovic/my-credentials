@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 1 of 10
-date_range: 2026-07-11 to 2026-07-24
-total_entries: 51
+date_range: 2026-07-12 to 2026-07-26
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-26 | **Protect Sensitive Data with Data Loss Prevention Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/5cc3e16f-1432-408b-baf1-5a82c6d65229) |
 | 2026-07-24 | **AWS Educate Getting Started with Networking - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/95dadb7d-8f0b-4520-b945-c7b41292f126) |
 | 2026-07-24 | **Cloud Sales Pro - Email Security** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/1ae5dbfc-3538-41eb-b208-8cd3fa60648a) |
 | 2026-07-24 | **Cloud Sales Pro - Entra ID Backup** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/00d5b48a-6926-43c6-842d-3585215523fe) |
@@ -61,8 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-12 | **Acronis Cyber Frame Basic** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/82c5caa9-aa5c-4d6b-ae63-fb14b8b8dd4a) |
 | 2026-07-12 | **Acronis Cyber Protect – Backup and Recovery Basics** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/6fb18152-a9ab-41af-9013-ed28413e1c46) |
 | 2026-07-12 | **AWS Educate Machine Learning Foundations - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/fabe8a28-df63-4218-8d33-551e91c305bb) |
-| 2026-07-11 | **AI Agent Builder** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/fee7b9ad-5767-4aa5-add5-8805f835bd06) |
-| 2026-07-11 | **AI Automation Explorer** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/99c4064f-40d2-4f1b-8378-0d00d4c74be8) |
 
 ---
 > **Navigation:** Prev: None | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md)

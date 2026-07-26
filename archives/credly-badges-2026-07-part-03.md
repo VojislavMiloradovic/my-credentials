@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 3 of 10
-date_range: 2026-06-18 to 2026-06-29
+date_range: 2026-06-20 to 2026-06-30
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-03.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-30 | **Write PQL Queries** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/4d55a0a8-12a1-4bd6-b480-04adeaa7e320) |
+| 2026-06-29 | **Academic Process Mining Fundamentals** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/20201bb7-c784-40de-99ab-d72dc8147145) |
 | 2026-06-29 | **Celonis AI Foundations** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/584ca505-5e6b-4d33-ae7e-be95f464c2eb) |
 | 2026-06-29 | **Cloud Tech Associate Advanced Management** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/30b95128-ad8f-470c-85e7-e00a4ceba43b) |
 | 2026-06-29 | **Create and Deliver Demos** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/b65bf69a-ce07-487d-b439-fafad1ee79d9) |
@@ -59,8 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-20 | **LFS120: Conversational AI: Ensuring Compliance and Mitigating Risks** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/63f7d08a-0b8e-4020-bd2a-987bd528444a) |
 | 2026-06-20 | **LFS148: Getting Started with OpenTelemetry** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/85321abd-62c6-4b89-8d3f-a6ca51383a27) |
 | 2026-06-20 | **M365 Basic Course** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/ddd3f99a-a3bd-44e6-8916-3b27b50cc8e4) |
-| 2026-06-18 | **AWS Knowledge: Amazon EKS - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/a56b19c1-ecf5-4bf0-b66e-1849a18b9722) |
-| 2026-06-18 | **Intro to Acronis** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/9e744ff2-c093-46d2-adba-97b5f1c92be2) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md)

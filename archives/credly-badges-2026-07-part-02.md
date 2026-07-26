@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 2 of 10
-date_range: 2026-06-29 to 2026-07-11
+date_range: 2026-06-30 to 2026-07-11
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-02.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-11 | **AI Agent Builder** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/fee7b9ad-5767-4aa5-add5-8805f835bd06) |
+| 2026-07-11 | **AI Automation Explorer** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/99c4064f-40d2-4f1b-8378-0d00d4c74be8) |
 | 2026-07-11 | **AWS Educate Introduction to Cloud 101 - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/d4422463-a5e9-4133-ac19-c9af85817a0b) |
 | 2026-07-11 | **Foundations of Breach & Attack Simulation** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/2df6ac75-abd5-4cdb-85ef-eb44b383b890) |
 | 2026-07-11 | **Make Advanced** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/18807af5-07e1-4aec-aa9a-1ba7aa9ad7ff) |
@@ -62,8 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-30 | **Get Data into Celonis** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/81a7aff4-f3b9-4a3e-9a17-b3a01fe5a8a8) |
 | 2026-06-30 | **Process Mining - From Theory to Execution** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/98d698c4-3ab6-4280-a13c-decb2a975a90) |
 | 2026-06-30 | **Set Up an App Dev Environment on Google Cloud Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/43021c74-b7bc-4226-a740-e9ffa98089d7) |
-| 2026-06-30 | **Write PQL Queries** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/4d55a0a8-12a1-4bd6-b480-04adeaa7e320) |
-| 2026-06-29 | **Academic Process Mining Fundamentals** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/20201bb7-c784-40de-99ab-d72dc8147145) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-01.md](credly-badges-2026-07-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md)
