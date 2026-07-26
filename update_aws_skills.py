@@ -14,18 +14,26 @@ PLATFORM_NAME = "AWS Skill Builder"
 MARKER_START = "<!-- AWS_SKILLS_START -->"
 MARKER_END = "<!-- AWS_SKILLS_END -->"
 
+CLOUD_QUEST_STATS = {
+    "Builder Level": 12,
+    "Reputation Level": 95,
+    "Pets Unlocked": 17,
+    "Vehicles Unlocked": 2,
+    "Role": "Cloud Practitioner / Generative AI Practitioner",
+    "Total Solutions Built": 20,
+}
+
 
 def get_field(row: dict, possible_keys: list[str], default: str = "") -> str:
     """Case-insensitive and whitespace-resilient column accessor."""
-    for key in possible_keys:
-        val = row.get(key)
-        if val is not None and str(val).strip():
-            return str(val).strip()
+    norm_row = {
+        str(k).strip().lower(): str(v).strip()
+        for k, v in row.items()
+        if k is not None and v is not None
+    }
 
-    row_norm = {str(k).strip().lower(): str(v).strip() for k, v in row.items() if k is not None}
     for key in possible_keys:
-        norm_k = key.strip().lower()
-        val = row_norm.get(norm_k)
+        val = norm_row.get(key.strip().lower())
         if val:
             return val
 
@@ -33,16 +41,18 @@ def get_field(row: dict, possible_keys: list[str], default: str = "") -> str:
 
 
 def parse_and_clean_date(raw_date_str: str) -> tuple[datetime, str]:
-    """Parses raw date strings into a timezone-aware datetime and formatted YYYY-MM-DD string."""
+    """Parses raw date strings (including 'Feb 2026') into a timezone-aware datetime and formatted string."""
     min_date = datetime.min.replace(tzinfo=timezone.utc)
     if not raw_date_str or not isinstance(raw_date_str, str):
         return min_date, "N/A"
 
-    clean_str = raw_date_str.split("T")[0].strip()
+    clean_str = raw_date_str.split("T")[0].strip(" \t\n\r\"'")
     if not clean_str:
         return min_date, "N/A"
 
     date_formats = [
+        "%b %Y",  # Handles "Feb 2026", "Mar 2026"
+        "%B %Y",  # Handles "February 2026"
         "%Y-%m-%d",
         "%m/%d/%Y",
         "%d/%m/%Y",
@@ -54,6 +64,8 @@ def parse_and_clean_date(raw_date_str: str) -> tuple[datetime, str]:
     for fmt in date_formats:
         try:
             dt = datetime.strptime(clean_str, fmt).replace(tzinfo=timezone.utc)
+            if fmt in ("%b %Y", "%B %Y"):
+                return dt, dt.strftime("%Y-%m")
             return dt, dt.strftime("%Y-%m-%d")
         except ValueError:
             continue
@@ -71,31 +83,38 @@ def parse_and_clean_date(raw_date_str: str) -> tuple[datetime, str]:
     return min_date, clean_str if clean_str else "N/A"
 
 
+def load_csv_rows(filepath: str) -> list[dict]:
+    """Loads CSV rows auto-detecting comma, tab, or semicolon delimiters."""
+    with open(filepath, "r", encoding="utf-8-sig") as f:
+        sample = f.read(4096)
+        f.seek(0)
+
+        delimiter = ","
+        if "\t" in sample and sample.count("\t") > sample.count(","):
+            delimiter = "\t"
+        elif ";" in sample and sample.count(";") > sample.count(","):
+            delimiter = ";"
+
+        reader = csv.DictReader(f, delimiter=delimiter)
+        return list(reader)
+
+
 def main():
     if not os.path.exists(CSV_PATH):
         print(f"❌ Error: {CSV_PATH} not found!")
         return
 
-    with open(CSV_PATH, "r", encoding="utf-8-sig") as f:
-        reader = csv.DictReader(f)
-        rows = list(reader)
+    rows = load_csv_rows(CSV_PATH)
 
-    title_keys = [
-        "Activity Name",
-        "Activity Title",
-        "Course Name",
-        "Title",
-        "Name",
-        "Transcript Item Name",
-        "Transcript Item",
-    ]
-    type_keys = ["Type", "Activity Type", "Category", "Item Type"]
-    date_keys = ["Completion Date", "Completed Date", "Completion Date (UTC)", "Completed On", "Date", "Completion"]
+    title_keys = ["Name", "Activity Name", "Activity Title", "Course Name", "Title", "Transcript Item Name"]
+    type_keys = ["Authority", "Type", "Activity Type", "Category", "Item Type"]
+    date_keys = ["Finished On", "Started On", "Completion Date", "Completed Date", "Date"]
     duration_keys = ["Duration", "Duration (Hours)", "Hours", "Time Spent", "Length"]
 
     parsed_data = []
+
     for r in rows:
-        title = get_field(r, title_keys, default="AWS Course")
+        title = get_field(r, title_keys, default="Course")
         type_val = get_field(r, type_keys, default="Course").title()
         raw_date = get_field(r, date_keys, default="")
         dt, formatted_date = parse_and_clean_date(raw_date)
@@ -123,9 +142,15 @@ def main():
     index_raw = f"{RAW_BASE_DEFAULT}/{index_filename}"
     latest_chunk_raw = f"{RAW_BASE_DEFAULT}/{PLATFORM_PREFIX}-{now_ym}-part-01.md"
 
+    # Construct full Markdown summary block including Cloud Quest statistics
     md = [
         "### AWS Skill Builder Summary",
         f"- **Total Completed Courses/Activities:** {len(sorted_data):,}\n",
+        "### AWS Cloud Quest Status",
+        f"- **Role:** {CLOUD_QUEST_STATS['Role']}",
+        f"- **Builder Level:** {CLOUD_QUEST_STATS['Builder Level']} | **Reputation Level:** {CLOUD_QUEST_STATS['Reputation Level']}",
+        f"- **Total Solutions Built:** {CLOUD_QUEST_STATS['Total Solutions Built']}",
+        f"- **Pets Unlocked:** {CLOUD_QUEST_STATS['Pets Unlocked']} | **Vehicles Unlocked:** {CLOUD_QUEST_STATS['Vehicles Unlocked']}\n",
         "### Recent AWS Learning Activities",
         f"Showing latest 10 of {len(sorted_data):,} activities. View the full dataset via the [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({latest_chunk_raw}), or the [Monolithic Complete File](./archives/{monolith_filename}).\n",
     ]
@@ -136,7 +161,7 @@ def main():
     generate_platform_archive(
         platform_prefix=PLATFORM_PREFIX,
         platform_name=PLATFORM_NAME,
-        table_headers=["Activity / Course Title", "Type", "Date Earned", "Duration"],
+        table_headers=["Activity / Course Title", "Type / Authority", "Date Earned", "Duration"],
         table_alignments=[":---", ":---", ":---:", ":---:"],
         formatted_rows=formatted_rows,
         readme_lines=md,
