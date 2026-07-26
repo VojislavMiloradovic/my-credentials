@@ -83,7 +83,7 @@ Showing latest 10 of 4,761 achievements. View the full dataset via the [Platform
 
 <!-- AWS_SKILLS_START -->
 ### AWS Skill Builder Summary
-- **Total Completed Courses/Activities:** 462
+- **Total Completed Courses/Activities:** 459
 
 ### AWS Cloud Quest Status
 - **Role:** Cloud Practitioner / Generative AI Practitioner
@@ -92,18 +92,18 @@ Showing latest 10 of 4,761 achievements. View the full dataset via the [Platform
 - **Pets Unlocked:** 17 | **Vehicles Unlocked:** 2
 
 ### Recent AWS Learning Activities
-Showing latest 10 of 462 activities. View the full dataset via the [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md), or the [Monolithic Complete File](./archives/aws-skills-complete.md).
+Showing latest 10 of 459 activities. View the full dataset via the [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md), or the [Monolithic Complete File](./archives/aws-skills-complete.md).
 
-- **Course** (Course | Earned: N/A)
-- **Course** (Course | Earned: N/A)
-- **Course** (Course | Earned: N/A)
-- **Course** (Course | Earned: N/A)
-- **Course** (Course | Earned: N/A)
-- **Course** (Course | Earned: N/A)
-- **Course** (Course | Earned: N/A)
-- **Course** (Course | Earned: N/A)
-- **Course** (Course | Earned: N/A)
-- **Course** (Course | Earned: N/A)
+- **[RETIRED] AWS Fargate - Overview** (Digital Course | Earned: March 8, 2026)
+- **[RETIRED] Build a migration assessment with AWS Transform** (Digital Course | Earned: February 1, 2026)
+- **[RETIRED] Building with MultiModal Knowledge Bases in AWS Bedrock** (Digital Course | Earned: May 24, 2026)
+- **[RETIRED] Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2)** (Digital Course | Earned: February 28, 2026)
+- **[RETIRED] Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service** (Digital Course | Earned: June 29, 2026)
+- **[RETIRED] How Orchestration Works with AI Agents** (Digital Course | Earned: January 29, 2026)
+- **[RETIRED] Introduction to Amazon CloudFront** (Digital Course | Earned: March 8, 2026)
+- **[RETIRED] Introduction to AWS Global Accelerator** (Digital Course | Earned: March 14, 2026)
+- **[RETIRED] Introduction to AWS Mainframe Modernization Replatform with NTT Data UniKix** (Digital Course | Earned: March 11, 2026)
+- **[RETIRED] Introduction to AWS Security Token Services (STS)** (Digital Course | Earned: February 2, 2026)
 <!-- AWS_SKILLS_END -->
 
 
