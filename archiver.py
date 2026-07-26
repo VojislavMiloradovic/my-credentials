@@ -1,6 +1,6 @@
 import glob
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 
 RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
 
@@ -62,7 +62,7 @@ def generate_platform_archive(
     os.makedirs(archive_dir, exist_ok=True)
     clean_old_chunks(archive_dir, platform_prefix)
 
-    now_ym = datetime.now().strftime("%Y-%m")
+    now_ym = datetime.now(timezone.utc).strftime("%Y-%m")
     total_entries = len(formatted_rows)
     header_row = "| " + " | ".join(table_headers) + " |"
     align_row = "| " + " | ".join(table_alignments) + " |"
