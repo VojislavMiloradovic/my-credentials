@@ -2,6 +2,8 @@ import glob
 import json
 import os
 import re
+import sys
+import jsonschema
 
 ARCHIVE_DIR = "archives"
 README_PATH = "README.md"
@@ -10,11 +12,66 @@ JSONLD_PATH = "credentials.jsonld"
 MARKER_START = "<!-- JSONLD_START -->"
 MARKER_END = "<!-- JSONLD_END -->"
 
+# JSON-LD Schema definition matching Schema.org ProfilePage & Person entity structure
+JSONLD_SCHEMA = {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "@context": {"type": "string"},
+        "@type": {"type": "string"},
+        "mainEntity": {
+            "type": "object",
+            "properties": {
+                "@type": {"type": "string"},
+                "name": {"type": "string"},
+                "url": {"type": "string"},
+                "hasCredential": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "@type": {"type": "string"},
+                            "credentialCategory": {"type": "string"},
+                            "name": {"type": "string"},
+                            "recognizedBy": {
+                                "type": "object",
+                                "properties": {
+                                    "@type": {"type": "string"},
+                                    "name": {"type": "string"}
+                                },
+                                "required": ["@type", "name"]
+                            }
+                        },
+                        "required": ["@type", "name", "recognizedBy"]
+                    }
+                }
+            },
+            "required": ["@type", "name", "hasCredential"]
+        }
+    },
+    "required": ["@context", "@type", "mainEntity"]
+}
+
+
 def clean_str(s):
     if not s:
         return ""
     # Strip markdown bold/italic formatting and code backticks
     return re.sub(r"[\*\_`]", "", str(s)).strip()
+
+
+def validate_jsonld(payload):
+    """Validates generated JSON-LD object against the defined schema before writing."""
+    try:
+        jsonschema.validate(instance=payload, schema=JSONLD_SCHEMA)
+        print("✓ JSON-LD Schema Validation Passed successfully.")
+    except jsonschema.exceptions.ValidationError as e:
+        print(f"❌ JSON-LD Validation Error: {e.message}", file=sys.stderr)
+        sys.exit(1)
+    except jsonschema.exceptions.SchemaError as e:
+        print(f"❌ JSON Schema Error: {e.message}", file=sys.stderr)
+        sys.exit(1)
+
 
 def parse_archive_monoliths():
     """Parses standardized complete markdown archives across all platforms into JSON-LD objects."""
@@ -143,6 +200,7 @@ def parse_archive_monoliths():
 
     return credentials
 
+
 def cleanup_readme():
     """Ensures README.md stays clean without embedded script blocks."""
     if not os.path.exists(README_PATH):
@@ -164,6 +222,7 @@ def cleanup_readme():
 
     print(f"🧹 Ensured {README_PATH} is clean of embedded script blocks.")
 
+
 def main():
     credentials = parse_archive_monoliths()
 
@@ -178,11 +237,15 @@ def main():
         }
     }
 
+    # Data Integrity & Validation Step
+    validate_jsonld(payload)
+
     with open(JSONLD_PATH, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
 
     print(f"\n✅ Successfully generated {JSONLD_PATH} with {len(credentials)} total credential(s).")
     cleanup_readme()
+
 
 if __name__ == "__main__":
     main()
