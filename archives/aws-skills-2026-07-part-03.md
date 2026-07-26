@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 3 of 5
-date_range: May 2, 2026 to March 16, 2026
-total_entries: 101
+date_range: 2026-03-13 to 2026-04-07
+total_entries: 103
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-03.md
 ---
 
@@ -12,107 +12,109 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
-| AWS Identity and Access Management (IAM) - Troubleshooting | Digital Course | March 16, 2026 | 1 hour |
-| AWS Identity and Access Management - Architecture and Terminology | Digital Course | April 7, 2026 | 15 minutes |
-| AWS Identity and Access Management - Basics | Digital Course | April 7, 2026 | 15 minutes |
-| AWS Identity and Access Management - Cognito Getting Started | Digital Course | February 25, 2026 | 1 hour |
-| AWS Identity and Access Management - Identity Center Getting Started | Digital Course | February 27, 2026 | 1 hour |
-| AWS Interconnect - last mile Connectivity Essentials | Digital Course | April 16, 2026 | 45 minutes |
-| AWS Interconnect - multicloud Connectivity Essentials | Digital Course | April 16, 2026 | 1 hour |
-| AWS IPv6 Fundamentals and VPC Connectivity | Digital Course | February 28, 2026 | 1 hour |
-| AWS Lake Formation Getting Started | Digital Course | July 20, 2026 | 1 hour 30 minutes |
-| AWS Lambda Foundations | Digital Course | March 9, 2026 | 2 hours |
-| AWS Lambda Getting Started | Digital Course | March 12, 2026 | 1 hour |
-| AWS Migration Evaluator Getting Started | Digital Course | July 14, 2026 | 45 minutes |
-| AWS Networking Basics | Digital Course | April 27, 2026 | 2 hours |
-| AWS Observability | Digital Course | June 26, 2026 | 5 hours |
-| AWS Organizations Getting Started | Digital Course | March 15, 2026 | 1 hour |
-| AWS Secrets Manager Getting Started | Digital Course | March 15, 2026 | 1 hour |
-| AWS Security Champion Badge Assessment | Digital Course | June 29, 2026 | 1 hour 30 minutes |
-| AWS Security Hub Extended | Digital Course | February 27, 2026 | 15 minutes |
-| AWS Security Incident Response - User Training | Digital Course | March 11, 2026 | 1 hour |
-| AWS Security Incident Response Overview | Digital Course | March 21, 2026 | 1 hour 40 minutes |
-| AWS Security – Encryption Fundamentals | Digital Course | March 18, 2026 | 1 hour 20 minutes |
-| AWS Shared Responsibility Model | Digital Course | April 20, 2026 | 5 minutes |
-| AWS Simple Queue Service (SQS) Getting Started | Digital Course | March 10, 2026 | 1 hour |
-| AWS SimuLearn: AI Practitioner | Learning Plan | July 2, 2026 | 10 hours |
-| AWS SimuLearn: AI-Assisted Development with Kiro | Aws Simulearn | May 5, 2026 | 1 hour |
-| AWS SimuLearn: Auto-Healing and Scaling Applications | Aws Simulearn | July 8, 2026 | 1 hour |
-| AWS SimuLearn: Build and Understand Code with Amazon Q | Aws Simulearn | March 24, 2026 | 1 hour |
-| AWS SimuLearn: Cloud Computing Essentials | Aws Simulearn | January 16, 2026 | 1 hour |
-| AWS SimuLearn: Cloud Economics | Aws Simulearn | July 8, 2026 | 1 hour |
-| AWS SimuLearn: Cloud First Steps | Aws Simulearn | January 21, 2026 | 1 hour |
-| AWS SimuLearn: Cloud Practitioner | Learning Plan | July 5, 2026 | 12 hours |
-| AWS SimuLearn: Computing Solutions | Aws Simulearn | April 1, 2026 | 1 hour |
-| AWS SimuLearn: Connecting VPCs | Aws Simulearn | March 30, 2026 | 1 hour |
-| AWS SimuLearn: Core Security Concepts | Aws Simulearn | July 8, 2026 | 1 hour |
-| AWS SimuLearn: Create an AI Smart Assistant | Aws Simulearn | July 2, 2026 | 1 hour |
-| AWS SimuLearn: Create an Enterprise Knowledge Assistant | Aws Simulearn | March 17, 2026 | 1 hour |
-| AWS SimuLearn: Databases in Practice | Aws Simulearn | July 8, 2026 | 1 hour |
-| AWS SimuLearn: Explore the Amazon Bedrock Playgrounds | Aws Simulearn | March 1, 2026 | 1 hour |
-| AWS SimuLearn: File Systems in the Cloud | Aws Simulearn | January 18, 2026 | 1 hour |
-| AWS SimuLearn: First NoSQL Database | Aws Simulearn | March 7, 2026 | 1 hour |
-| AWS SimuLearn: Generate Code for a Webpage | Aws Simulearn | March 18, 2026 | 1 hour |
-| AWS SimuLearn: Get Started with Generative AI | Aws Simulearn | July 2, 2026 | 1 hour |
-| AWS SimuLearn: Highly Available Web Applications | Aws Simulearn | July 8, 2026 | 1 hour |
-| AWS SimuLearn: Networking Concepts | Aws Simulearn | July 5, 2026 | 1 hour |
-| AWS SimuLearn: Secure Conversational AI with Guardrails | Aws Simulearn | March 21, 2026 | 1 hour |
-| AWS SimuLearn: Use AI Services with Amazon SageMaker | Aws Simulearn | July 2, 2026 | 1 hour |
-| AWS Skill Builder Learner Guide | Digital Course | April 26, 2026 | 15 minutes |
-| AWS Snowball Getting Started | Digital Course | February 26, 2026 | 1 hour |
-| AWS Step Functions Getting Started | Digital Course | March 24, 2026 | 1 hour |
-| AWS Storage Services - Portfolio Introduction | Digital Course | January 26, 2026 | 40 minutes |
-| AWS Technical Essentials | Digital Course | July 22, 2026 | 4 hours |
-| AWS Tools to Develop, Run, and Modernize .NET Workloads | Digital Course | March 7, 2026 | 1 hour |
-| AWS Trainium Development Environment Setup | Digital Course | April 8, 2026 | 1 hour |
-| AWS Transfer Family Getting Started | Digital Course | February 25, 2026 | 1 hour |
-| AWS Transform for .NET Getting Started | Digital Course | February 25, 2026 | 1 hour |
-| AWS Transform for mainframe Fundamentals | Digital Course | February 10, 2026 | 45 minutes |
-| AWS Transform for VMware Getting Started | Digital Course | March 27, 2026 | 1 hour |
-| AWS Transform Fundamentals Knowledge Badge Assessment | Aws Assessment | April 19, 2026 | 1 hour |
-| AWS Transform Knowledge Badge Readiness Path | Learning Plan | April 19, 2026 | 6 hours 40 minutes |
-| AWS Well-Architected Foundations | Digital Course | July 9, 2026 | 3 hours |
-| AWS Wickr Getting Started | Digital Course | February 27, 2026 | 30 minutes |
-| AWS X-Ray Getting Started | Digital Course | March 9, 2026 | 1 hour |
-| Block Storage Knowledge Badge Assessment | Aws Assessment | June 13, 2026 | 1 hour 30 minutes |
-| Build Strands Agents with SageMaker AI models and MLflow | Digital Course | June 29, 2026 | 45 minutes |
-| Build With Amazon DocumentDB (with MongoDB compatibility) | Digital Course | March 15, 2026 | 1 hour |
-| Building a Generative AI-Ready Organization | Digital Course | January 19, 2026 | 1 hour |
-| Building AI Agent Harnesses with Strands Agents | Digital Course | July 16, 2026 | 2 hours |
-| Building the Mainframe Modernization Business Case | Digital Course | July 14, 2026 | 1 hour |
-| Choosing Serverless Containers for .NET | Digital Course | March 5, 2026 | 1 hour |
-| Cloud Audit Academy - Cloud Agnostic | Digital Course | July 24, 2026 | 3 hours |
-| Cloud Essentials - Knowledge Badge Readiness Path  (includes Labs) | Learning Plan | April 15, 2026 | 21 hours 55 minutes |
-| Cloud Essentials for Business Leaders – Healthcare and Life Sciences | Digital Course | March 21, 2026 | 1 hour 30 minutes |
-| Cloud Essentials Knowledge Badge Assessment | Digital Course | April 15, 2026 | 1 hour 30 minutes |
-| Cloud Financial Management: FinOps for GenAI | Digital Course | July 25, 2026 | 1 hour |
-| Cloud for CMOs | Digital Course | February 27, 2026 | 8 minutes |
-| Cloud for Risk and Compliance Executives | Digital Course | January 24, 2026 | 11 minutes |
-| Cloud for Small Business Owners | Digital Course | January 28, 2026 | 13 minutes |
-| Cloud Game Development Knowledge Badge Assessment | Digital Course | May 4, 2026 | 1 hour 30 minutes |
-| Cloud Migration for Small Business Owners | Digital Course | June 22, 2026 | 6 minutes |
-| Compute Cost Optimization Services | Digital Course | February 23, 2026 | 30 minutes |
-| Compute Knowledge Badge Assessment | Digital Course | June 4, 2026 | 1 hour 30 minutes |
-| Cost Optimization Solutions for FinOps (Part 2) | Digital Course | March 4, 2026 | 1 hour |
-| Customization in Amazon Q Developer | Digital Course | April 25, 2026 | 30 minutes |
-| Cybersecurity for Small Business Owners | Digital Course | June 22, 2026 | 8 minutes |
-| Data Engineering on AWS - Foundations | Digital Course | July 22, 2026 | 4 hours |
-| Data Migration Knowledge Badge Assessment | Digital Course | June 15, 2026 | 1 hour 30 minutes |
-| Data Modeling for Amazon ElastiCache for Redis | Digital Course | February 11, 2026 | 45 minutes |
-| Data Protection and Disaster Recovery Knowledge Badge Assessment | Digital Course | June 24, 2026 | 1 hour 30 minutes |
-| Deep Dive: Amazon Elastic Block Store (Amazon EBS) Cost Optimization | Digital Course | February 18, 2026 | 30 minutes |
-| Deep Dive: Managing and Monitoring Amazon Elastic Block Store (Amazon EBS) | Digital Course | March 4, 2026 | 1 hour |
-| Deploying custom Terraform to LZA-Managed Accounts with AFT | Digital Course | June 29, 2026 | 45 minutes |
-| Deploying Serverless Applications | Digital Course | May 4, 2026 | 1 hour 30 minutes |
-| Developing Generative Artificial Intelligence Solutions | Digital Course | February 13, 2026 | 1 hour |
-| Developing Machine Learning Solutions | Digital Course | July 14, 2026 | 1 hour |
-| Differences Between Security Groups and NACLs | Digital Course | April 22, 2026 | 7 minutes |
-| Differentiation for Independent Software Vendors (ISV) | Digital Course | June 22, 2026 | 15 minutes |
-| Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English) | Certification Exam Preparation | March 19, 2026 | 1 hour |
-| Elastic Load Balancing (ELB) Getting Started | Digital Course | March 24, 2026 | 1 hour |
-| End User Computing on AWS - Introductory Course | Digital Course | May 2, 2026 | 1 hour |
-| End User Computing on AWS - Service Architecture | Digital Course | May 2, 2026 | 1 hour 30 minutes |
-| End User Computing on AWS Knowledge Badge Assessment | Aws Assessment | May 2, 2026 | 1 hour 30 minutes |
+| AWS Identity and Access Management - Architecture and Terminology | Digital Course | 2026-04-07 | 15 minutes |
+| AWS Identity and Access Management - Basics | Digital Course | 2026-04-07 | 15 minutes |
+| Amazon EC2 Auto Scaling Getting Started | Digital Course | 2026-04-06 | 1 hour |
+| AWS Elemental Statmux | Digital Course | 2026-04-06 | 1 hour |
+| Amazon EKS Anywhere Getting Started | Digital Course | 2026-04-05 | 1 hour |
+| Getting Started with AWS IoT | Digital Course | 2026-04-05 | 35 minutes |
+| Introduction to AWS Neuron | Digital Course | 2026-04-05 | 30 minutes |
+| AWS Elemental Live - Foundations | Digital Course | 2026-04-04 | 2 hours |
+| Getting Started with Cloud Acquisition | Digital Course | 2026-04-04 | 1 hour 20 minutes |
+| [RETIRING - 2026-08-04] Building a Machine Learning Ready Organization | Digital Course | 2026-04-03 | 30 minutes |
+| AWS Foundations: How Amazon SageMaker Can Help | Digital Course | 2026-04-03 | 30 minutes |
+| Understanding AWS Networking Gateways | Digital Course | 2026-04-03 | 30 minutes |
+| Application Load Balancer Getting Started | Digital Course | 2026-04-02 | 1 hour |
+| Gateway Load Balancer Getting Started | Digital Course | 2026-04-02 | 1 hour |
+| Network Load Balancer (NLB) Getting Started | Digital Course | 2026-04-02 | 1 hour |
+| Video Streaming Concepts: AWS Media Services | Digital Course | 2026-04-02 | 1 hour |
+| AWS SimuLearn: Computing Solutions | Aws Simulearn | 2026-04-01 | 1 hour |
+| AWS SimuLearn: Connecting VPCs | Aws Simulearn | 2026-03-30 | 1 hour |
+| Amazon Transcribe Getting Started | Digital Course | 2026-03-29 | 1 hour 30 minutes |
+| AWS Cloud Essentials for Business Leaders (Financial Services) | Digital Course | 2026-03-29 | 2 hours |
+| From Punch Card to Cloud: A Brief History of Mainframe Modernization | Digital Course | 2026-03-29 | 45 minutes |
+| Amazon Simple Storage Service (Amazon S3) Essentials - Beyond the Basics | Digital Course | 2026-03-27 | 1 hour |
+| AWS Transform for VMware Getting Started | Digital Course | 2026-03-27 | 1 hour |
+| AWS AI Chips - Trainium and Inferentia Fundamentals | Digital Course | 2026-03-25 | 30 minutes |
+| Getting Started with AWS Transform | Digital Course | 2026-03-25 | 45 minutes |
+| Introduction to AWS Transform custom | Digital Course | 2026-03-25 | 1 hour |
+| Introduction to AWS Transform for full-stack Windows modernization | Digital Course | 2026-03-25 | 1 hour |
+| Amazon ECS Getting Started | Digital Course | 2026-03-24 | 1 hour |
+| AWS Fargate Getting Started | Digital Course | 2026-03-24 | 1 hour |
+| AWS SimuLearn: Build and Understand Code with Amazon Q | Aws Simulearn | 2026-03-24 | 1 hour |
+| AWS Step Functions Getting Started | Digital Course | 2026-03-24 | 1 hour |
+| Elastic Load Balancing (ELB) Getting Started | Digital Course | 2026-03-24 | 1 hour |
+| Amazon Elastic Block Store (Amazon EBS) Primer | Digital Course | 2026-03-23 | 1 hour 30 minutes |
+| Planning Large Scale Data Migrations to AWS | Digital Course | 2026-03-23 | 1 hour |
+| [RETIRING - 2026-08-04] CloudEndure Migration Training - Technical | Digital Course | 2026-03-22 | 2 hours |
+| Amazon API Gateway for Serverless Applications | Digital Course | 2026-03-22 | 2 hours |
+| Amazon Connect Chat and Messaging Fundamentals | Digital Course | 2026-03-22 | 1 hour 10 minutes |
+| Amazon Connect Agent Applications Fundamentals | Digital Course | 2026-03-21 | 1 hour 13 minutes |
+| Amazon Nova 2 Sonic: Next-Generation Conversational AI | Digital Course | 2026-03-21 | 45 minutes |
+| An Executive's Guide to Generative AI Success | Digital Course | 2026-03-21 | 1 hour 30 minutes |
+| AWS Cloud Economics for Banking | Digital Course | 2026-03-21 | 1 hour 30 minutes |
+| AWS Cloud Essentials for Business Leaders - Telecommunications | Digital Course | 2026-03-21 | 2 hours |
+| AWS Security Incident Response Overview | Digital Course | 2026-03-21 | 1 hour 40 minutes |
+| AWS SimuLearn: Secure Conversational AI with Guardrails | Aws Simulearn | 2026-03-21 | 1 hour |
+| Cloud Essentials for Business Leaders – Healthcare and Life Sciences | Digital Course | 2026-03-21 | 1 hour 30 minutes |
+| Machine Learning Essentials for Business and Technical Decision Makers | Digital Course | 2026-03-21 | 1 hour 30 minutes |
+| Amazon DynamoDB Getting Started | Digital Course | 2026-03-20 | 1 hour |
+| Getting Started with AWS Storage | Digital Course | 2026-03-20 | 3 hours 15 minutes |
+| AWS Cloud Economics for Healthcare | Digital Course | 2026-03-19 | 1 hour 20 minutes |
+| AWS Cloud Essentials for Business Leaders | Digital Course | 2026-03-19 | 2 hours |
+| AWS Config Getting Started | Digital Course | 2026-03-19 | 1 hour 30 minutes |
+| AWS Database Offerings | Digital Course | 2026-03-19 | 4 hours |
+| Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English) | Certification Exam Preparation | 2026-03-19 | 1 hour |
+| AgentCore Browser: Secure and Scalable Web Automation with Amazon Bedrock | Digital Course | 2026-03-18 | 40 minutes |
+| Amazon Connect: Introduction to the Administrative Interface | Digital Course | 2026-03-18 | 1 hour 30 minutes |
+| Amazon SageMaker Unified Studio - Administrator Fundamentals | Digital Course | 2026-03-18 | 1 hour 30 minutes |
+| AWS Security – Encryption Fundamentals | Digital Course | 2026-03-18 | 1 hour 20 minutes |
+| AWS SimuLearn: Generate Code for a Webpage | Aws Simulearn | 2026-03-18 | 1 hour |
+| Fundamentals of Analytics on AWS – Part 1 | Digital Course | 2026-03-18 | 2 hours |
+| Fundamentals of Analytics on AWS – Part 2 | Digital Course | 2026-03-18 | 1 hour 30 minutes |
+| [RETIRING - 2026-08-03] Amazon EKS Pre-assessment | Digital Course | 2026-03-17 | 30 minutes |
+| [RETIRING - 2026-08-11] Planning an Orchestration System | Digital Course | 2026-03-17 | 13 minutes |
+| AWS SimuLearn: Create an Enterprise Knowledge Assistant | Aws Simulearn | 2026-03-17 | 1 hour |
+| Getting Started with Bottlerocket | Digital Course | 2026-03-17 | 1 hour |
+| Introduction to AWS AI Factories | Digital Course | 2026-03-17 | 30 minutes |
+| SaaS Business Fundamentals | Digital Course | 2026-03-17 | 1 hour |
+| Amazon DocumentDB (with MongoDB Compatibility) Getting Started | Digital Course | 2026-03-16 | 1 hour |
+| Amazon DynamoDB - Data Modeling Techniques | Digital Course | 2026-03-16 | 1 hour |
+| Amazon DynamoDB - Troubleshooting | Digital Course | 2026-03-16 | 45 minutes |
+| AWS Database Migration Service Best Practices - Planning | Digital Course | 2026-03-16 | 1 hour |
+| AWS Glue Getting Started | Digital Course | 2026-03-16 | 1 hour |
+| AWS Identity and Access Management (IAM) - Troubleshooting | Digital Course | 2026-03-16 | 1 hour |
+| Getting into the Serverless Mindset | Digital Course | 2026-03-16 | 30 minutes |
+| Getting Started with Amazon Route 53 Global Resolver | Digital Course | 2026-03-16 | 1 hour |
+| How to Find Hidden Data Relationships in Your S3 Data - with Amazon Neptune | Digital Course | 2026-03-16 | 1 hour |
+| Introduction to Amazon Connect Conversational Analytics for Email | Digital Course | 2026-03-16 | 30 minutes |
+| Amazon Connect - Troubleshooting with Amazon CloudWatch | Digital Course | 2026-03-15 | 1 hour |
+| Amazon Connect Foundations | Digital Course | 2026-03-15 | 1 hour |
+| Amazon Connect: Creating and Managing Amazon Connect Instances | Digital Course | 2026-03-15 | 1 hour |
+| Amazon Connect: Implementing Chat in Connect | Digital Course | 2026-03-15 | 1 hour |
+| Amazon EKS Deployment Options | Digital Course | 2026-03-15 | 35 minutes |
+| Amazon RDS for Oracle Getting Started | Digital Course | 2026-03-15 | 1 hour |
+| AWS CloudFormation Getting Started | Digital Course | 2026-03-15 | 1 hour |
+| AWS Organizations Getting Started | Digital Course | 2026-03-15 | 1 hour |
+| AWS Secrets Manager Getting Started | Digital Course | 2026-03-15 | 1 hour |
+| Build With Amazon DocumentDB (with MongoDB compatibility) | Digital Course | 2026-03-15 | 1 hour |
+| Fundamentals of Amazon Aurora | Digital Course | 2026-03-15 | 1 hour |
+| Introduction to Amazon Connect and the Connect Control Panel (CCP) | Digital Course | 2026-03-15 | 45 minutes |
+| Performance Tuning on Amazon DocumentDB | Digital Course | 2026-03-15 | 1 hour |
+| Spec-Driven Development with Kiro | Digital Course | 2026-03-15 | 1 hour |
+| [RETIRED] Introduction to AWS Global Accelerator | Digital Course | 2026-03-14 | 8 minutes |
+| [RETIRED] Succeeding in the Cloud- Rethinking your Levers | Digital Course | 2026-03-14 | 45 minutes |
+| [RETIRING - 2026-08-04] Introduction to AWS Service Catalog | Digital Course | 2026-03-14 | 30 minutes |
+| Amazon Application Recovery Controller Getting Started | Digital Course | 2026-03-14 | 1 hour |
+| Amazon Connect Introduction | Digital Course | 2026-03-14 | 15 minutes |
+| Amazon Elastic Kubernetes Service (EKS) Getting Started | Digital Course | 2026-03-14 | 1 hour |
+| AWS Control Tower Getting Started | Digital Course | 2026-03-14 | 1 hour |
+| Installing AWS Outposts Servers | Digital Course | 2026-03-14 | 10 minutes |
+| Introduction to Amazon API Gateway | Aws Builder Lab | 2026-03-14 | 1 hour |
+| Introduction to Amazon CloudFront | Aws Builder Lab | 2026-03-14 | 1 hour |
+| Introduction to Amazon EC2 | Aws Builder Lab | 2026-03-14 | 1 hour |
+| Introduction to AWS Key Management Service | Aws Builder Lab | 2026-03-14 | 1 hour |
+| Introduction to Amazon Simple Storage Service (S3) | Aws Builder Lab | 2026-03-13 | 1 hour |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-04.md](aws-skills-2026-07-part-04.md)
