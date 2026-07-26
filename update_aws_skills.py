@@ -146,7 +146,7 @@ def load_csv_rows(filepath: str) -> list[dict]:
 
     # Secondary check: If single-column key detected, attempt fallback splitting
     if rows and len(rows[0]) == 1:
-        single_key = list(rows[0].keys())[0]
+        single_key = next(iter(rows[0].keys()))
         for alt_delim in [",", "\t", ";", "|"]:
             if alt_delim in single_key and alt_delim != delimiter:
                 alt_reader = csv.DictReader(lines, delimiter=alt_delim)
