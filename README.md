@@ -83,44 +83,21 @@ Showing latest 10 of 4,761 achievements. View the full dataset via the [Platform
 
 <!-- AWS_SKILLS_START -->
 ### AWS Skill Builder Summary
-**Public Profile:** [Verify AWS Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)  
+- **Total Completed Courses/Activities:** 462
 
-#### Platform Progress Summary
-| Metric | Count |
-| :--- | :--- |
-| **Total Completed Activities** | 458 |
-| **Digital Courses** | 413 |
-| **Self-Paced Builder Labs** | 13 |
-| **In-Game Simulations (Cloud Quest)** | 32 |
+### Recent AWS Learning Activities
+Showing latest 10 of 462 activities. View the full dataset via the [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md), or the [Monolithic Complete File](./archives/aws-skills-complete.md).
 
-
-#### AWS Cloud Quest Stats
-| Stat | Level / Value |
-| :--- | :--- |
-| **Builder Level** | 12 |
-| **Reputation Level** | 95 |
-| **Pets Unlocked** | 17 |
-| **Vehicles Unlocked** | 2 |
-| **Role** | Cloud Practitioner / Generative AI Practitioner |
-| **Total Solutions Built** | 20 |
-
-
-#### Recent AWS Achievements
-Showing latest 10 activities. View the full dataset via the [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md), or the [Monolithic Complete File](./archives/aws-skills-complete.md).
-
-| Activity Title | Type | Date Completed | Duration |
-| :--- | :--- | :--- | :--- |
-| **AI-DLC Foundations: Evolution** | Digital Course | *2026-07-25* | 12 minutes |
-| **Amazon Connect Outbound Communications Advanced Campaign Management** | Digital Course | *2026-07-25* | 45 minutes |
-| **Automated Security Response in AWS: Disabling Compromised Active Directory Users** | Digital Course | *2026-07-25* | 1 hour |
-| **Cloud Financial Management: FinOps for GenAI** | Digital Course | *2026-07-25* | 1 hour |
-| **GitOps for Amazon EKS Automation** | Digital Course | *2026-07-25* | 1 hour |
-| **Query Amazon Aurora PostgreSQL using Amazon Bedrock Knowledge Bases structured data** | Digital Course | *2026-07-25* | 1 hour |
-| **AWS Certification Subject Matter Expert Training** | Digital Course | *2026-07-24* | 2 hours 30 minutes |
-| **Cloud Audit Academy - Cloud Agnostic** | Digital Course | *2026-07-24* | 3 hours |
-| **Threat Modeling for Builders Workshop** | Digital Course | *2026-07-24* | 6 hours |
-| **AI Agents: Cognitive Upgrade and Business Efficiency** | Digital Course | *2026-07-22* | 3 hours |
-
+- **AWS Course** (Course | Earned: N/A)
+- **AWS Course** (Course | Earned: N/A)
+- **AWS Course** (Course | Earned: N/A)
+- **AWS Course** (Course | Earned: N/A)
+- **AWS Course** (Course | Earned: N/A)
+- **AWS Course** (Course | Earned: N/A)
+- **AWS Course** (Course | Earned: N/A)
+- **AWS Course** (Course | Earned: N/A)
+- **AWS Course** (Course | Earned: N/A)
+- **AWS Course** (Course | Earned: N/A)
 <!-- AWS_SKILLS_END -->
 
 

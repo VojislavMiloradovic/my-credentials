@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
-chunk_part: 1 of 6
-date_range: 2026-06-26 to 2026-07-25
-total_entries: 78
+chunk_part: 1 of 2
+date_range: N/A to N/A
+total_entries: 263
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md
 ---
 
@@ -10,86 +10,271 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 > **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md) | [Complete Archive](./aws-skills-complete.md)
 
-| Activity Title | Type | Date Completed | Duration | Certificate |
-| :--- | :--- | :--- | :--- | :--- |
-| AI-DLC Foundations: Evolution | Digital Course | 2026-07-25 | 12 minutes | 🎓 Available on Profile |
-| Amazon Connect Outbound Communications Advanced Campaign Management | Digital Course | 2026-07-25 | 45 minutes | 🎓 Available on Profile |
-| Automated Security Response in AWS: Disabling Compromised Active Directory Users | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
-| Cloud Financial Management: FinOps for GenAI | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
-| GitOps for Amazon EKS Automation | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
-| Query Amazon Aurora PostgreSQL using Amazon Bedrock Knowledge Bases structured data | Digital Course | 2026-07-25 | 1 hour | 🎓 Available on Profile |
-| AWS Certification Subject Matter Expert Training | Digital Course | 2026-07-24 | 2 hours 30 minutes | 🎓 Available on Profile |
-| Cloud Audit Academy - Cloud Agnostic | Digital Course | 2026-07-24 | 3 hours | 🎓 Available on Profile |
-| Threat Modeling for Builders Workshop | Digital Course | 2026-07-24 | 6 hours | 🎓 Available on Profile |
-| AI Agents: Cognitive Upgrade and Business Efficiency | Digital Course | 2026-07-22 | 3 hours | 🎓 Available on Profile |
-| AWS Cloud for absolute beginners | Digital Course | 2026-07-22 | 3 hours | 🎓 Available on Profile |
-| AWS Cloud for Finance Professionals | Digital Course | 2026-07-22 | 17 hours | 🎓 Available on Profile |
-| AWS Technical Essentials | Digital Course | 2026-07-22 | 4 hours | 🎓 Available on Profile |
-| Data Engineering on AWS - Foundations | Digital Course | 2026-07-22 | 4 hours | 🎓 Available on Profile |
-| Introduction to Building with AWS Databases | Digital Course | 2026-07-22 | 3 hours | 🎓 Available on Profile |
-| AWS CodeArtifact Getting Started | Digital Course | 2026-07-20 | 1 hour 30 minutes | 🎓 Available on Profile |
-| AWS CodeDeploy Getting Started | Digital Course | 2026-07-20 | 2 hours | 🎓 Available on Profile |
-| AWS for SAP - Generative AI Fundamentals | Digital Course | 2026-07-20 | 1 hour 15 minutes | 🎓 Available on Profile |
-| AWS Lake Formation Getting Started | Digital Course | 2026-07-20 | 1 hour 30 minutes | 🎓 Available on Profile |
-| Exploring Amazon Nova models using Amazon Bedrock | Digital Course | 2026-07-20 | 2 hours | 🎓 Available on Profile |
-| Getting Started with Amazon Verified Permissions | Digital Course | 2026-07-20 | 1 hour 30 minutes | 🎓 Available on Profile |
-| Introduction to Amazon Connect Decisions | Digital Course | 2026-07-20 | 1 hour 30 minutes | 🎓 Available on Profile |
-| Using AWS Solutions: AWS Cloud Migration Factory | Digital Course | 2026-07-20 | 1 hour 30 minutes | 🎓 Available on Profile |
-| AWS Batch Getting Started | Digital Course | 2026-07-17 | 1 hour 30 minutes | 🎓 Available on Profile |
-| AWS Cloud Practitioner Power Hour - Overview and Cloud Concepts | Digital Course | 2026-07-17 | 1 hour 30 minutes | 🎓 Available on Profile |
-| AWS File Storage Services Getting Started | Digital Course | 2026-07-17 | 1 hour 55 minutes | 🎓 Available on Profile |
-| Getting Started with AWS Auto Scaling | Digital Course | 2026-07-17 | 1 hour 30 minutes | 🎓 Available on Profile |
-| Instance Isolation with Elastic Network Interfaces | Digital Course | 2026-07-17 | 1 hour 10 minutes | 🎓 Available on Profile |
-| AgentCore Evaluation on Amazon Bedrock | Digital Course | 2026-07-16 | 1 hour 15 minutes | 🎓 Available on Profile |
-| Amazon Aurora Service Primer | Digital Course | 2026-07-16 | 20 minutes | 🎓 Available on Profile |
-| Amazon Keyspaces Getting Started | Digital Course | 2026-07-16 | 1 hour | 🎓 Available on Profile |
-| Amazon Neptune Getting Started | Digital Course | 2026-07-16 | 1 hour | 🎓 Available on Profile |
-| Amazon Redshift Service Primer | Digital Course | 2026-07-16 | 20 minutes | 🎓 Available on Profile |
-| AWS CodeBuild Getting Started | Digital Course | 2026-07-16 | 1 hour 30 minutes | 🎓 Available on Profile |
-| AWS End User Messaging SMS Foundations | Digital Course | 2026-07-16 | 1 hour 30 minutes | 🎓 Available on Profile |
-| Building AI Agent Harnesses with Strands Agents | Digital Course | 2026-07-16 | 2 hours | 🎓 Available on Profile |
-| Getting Started with Amazon MemoryDB for Redis | Digital Course | 2026-07-16 | 1 hour | 🎓 Available on Profile |
-| Integrating WhatsApp Business Messaging with AWS: Foundations for Developers | Digital Course | 2026-07-16 | 1 hour 30 minutes | 🎓 Available on Profile |
-| A Day in the Life of an Everyday User with Amazon Quick | Digital Course | 2026-07-14 | 20 minutes | 🎓 Available on Profile |
-| A day in the life of CxO with Amazon Quick | Digital Course | 2026-07-14 | 25 minutes | 🎓 Available on Profile |
-| AI for Everyone: Your First Practical Steps | Digital Course | 2026-07-14 | 1 hour | 🎓 Available on Profile |
-| Amazon SageMaker AI Getting Started | Digital Course | 2026-07-14 | 1 hour | 🎓 Available on Profile |
-| Amazon Textract Getting Started | Digital Course | 2026-07-14 | 1 hour | 🎓 Available on Profile |
-| AWS Migration Evaluator Getting Started | Digital Course | 2026-07-14 | 45 minutes | 🎓 Available on Profile |
-| Building the Mainframe Modernization Business Case | Digital Course | 2026-07-14 | 1 hour | 🎓 Available on Profile |
-| Developing Machine Learning Solutions | Digital Course | 2026-07-14 | 1 hour | 🎓 Available on Profile |
-| Getting Started with Amazon Aurora DSQL | Digital Course | 2026-07-14 | 1 hour | 🎓 Available on Profile |
-| Introducing Intelligent Cost Explanations in AWS Cost Explorer | Digital Course | 2026-07-14 | 45 minutes | 🎓 Available on Profile |
-| Introduction to Amazon OpenSearch optimized for log analytics | Digital Course | 2026-07-14 | 30 minutes | 🎓 Available on Profile |
-| Introduction to AWS Inferentia and Amazon EC2 Inf1 Instances | Digital Course | 2026-07-14 | 15 minutes | 🎓 Available on Profile |
-| Introduction to AWS Lambda MicroVMs | Digital Course | 2026-07-14 | 45 minutes | 🎓 Available on Profile |
-| Introduction to AWS Management Console | Digital Course | 2026-07-14 | 30 minutes | 🎓 Available on Profile |
-| Introduction to AWS Media Services by Use Case | Digital Course | 2026-07-14 | 45 minutes | 🎓 Available on Profile |
-| Introduction to Container Basics | Digital Course | 2026-07-14 | 45 minutes | 🎓 Available on Profile |
-| Kiro in Action: A Developer's Walkthrough | Digital Course | 2026-07-14 | 45 minutes | 🎓 Available on Profile |
-| Planning and Validating Mainframe Modernization with AWS | Digital Course | 2026-07-14 | 1 hour | 🎓 Available on Profile |
-| Simplify AWS Control Tower governance with enhanced AWS CloudFormation Hooks | Digital Course | 2026-07-14 | 45 minutes | 🎓 Available on Profile |
-| AWS Well-Architected Foundations | Digital Course | 2026-07-09 | 3 hours | 🎓 Available on Profile |
-| AWS SimuLearn: Auto-Healing and Scaling Applications | Game / Quest | 2026-07-08 | 1 hour | 🎓 Available on Profile |
-| AWS SimuLearn: Cloud Economics | Game / Quest | 2026-07-08 | 1 hour | 🎓 Available on Profile |
-| AWS SimuLearn: Cloud Practitioner | Game / Quest | 2026-07-08 | 12 hours | 🎓 Available on Profile |
-| AWS SimuLearn: Core Security Concepts | Game / Quest | 2026-07-08 | 1 hour | 🎓 Available on Profile |
-| AWS SimuLearn: Databases in Practice | Game / Quest | 2026-07-08 | 1 hour | 🎓 Available on Profile |
-| AWS SimuLearn: Highly Available Web Applications | Game / Quest | 2026-07-08 | 1 hour | 🎓 Available on Profile |
-| AWS SimuLearn: Networking Concepts | Game / Quest | 2026-07-05 | 1 hour | 🎓 Available on Profile |
-| AWS SimuLearn: AI Practitioner | Game / Quest | 2026-07-02 | 10 hours | 🎓 Available on Profile |
-| AWS SimuLearn: Create an AI Smart Assistant | Game / Quest | 2026-07-02 | 1 hour | 🎓 Available on Profile |
-| AWS SimuLearn: Get Started with Generative AI | Game / Quest | 2026-07-02 | 1 hour | 🎓 Available on Profile |
-| AWS SimuLearn: Use AI Services with Amazon SageMaker | Game / Quest | 2026-07-02 | 1 hour | 🎓 Available on Profile |
-| Amazon QuickSight Advanced Business Intelligence Authoring (Part 1) | Digital Course | 2026-06-30 | 1 hour 30 minutes | 🎓 Available on Profile |
-| Amazon QuickSight Advanced Business Intelligence Authoring (Part 2) | Digital Course | 2026-06-30 | 1 hour 30 minutes | 🎓 Available on Profile |
-| [RETIRED] Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service | Game / Quest | 2026-06-29 | 45 minutes | 🎓 Available on Profile |
-| Build Strands Agents with SageMaker AI models and MLflow | Digital Course | 2026-06-29 | 45 minutes | 🎓 Available on Profile |
-| Deploying custom Terraform to LZA-Managed Accounts with AFT | Digital Course | 2026-06-29 | 45 minutes | 🎓 Available on Profile |
-| How the Amazon AMET Payments team accelerates test case generation with Strands Agents | Digital Course | 2026-06-29 | 45 minutes | 🎓 Available on Profile |
-| Migration Foundations Knowledge Badge Assessment | Digital Course | 2026-06-27 | 1 hour 30 minutes | 🎓 Available on Profile |
-| AWS Observability | Digital Course | 2026-06-26 | 5 hours | 🎓 Available on Profile |
-| Introduction to AWS Solutions | Digital Course | 2026-06-26 | 45 minutes | 🎓 Available on Profile |
+| Activity / Course Title | Type | Date Earned | Duration |
+| :--- | :--- | :---: | :---: |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
+| AWS Course | Course | N/A | N/A |
 
 ---
 > **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md)
