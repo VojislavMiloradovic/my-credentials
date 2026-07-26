@@ -46,24 +46,27 @@ Showing latest 10 of 4,761 achievements. View the full dataset via the [Platform
 ## Google Skills Credentials
 
 <!-- GOOGLE_SKILLS_START -->
-### Google Cloud Skills Boost (333 Badges)
+### Google Cloud Skills Boost (336 Badges)
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
-**Total Lifetime Points:** 192,777
+**Total Lifetime Points:** 197,789
 
 #### Platform Progress Summary
 | Metric | Count |
 |---|---|
-| **Course** | 337 |
-| **Check** | 1,782 |
+| **Course** | 346 |
+| **Check** | 1,832 |
 | **Classroom** | 0 |
 | **Game** | 6 |
-| **Lab** | 237 |
+| **Lab** | 238 |
 | **Lesson** | 4,847 |
 
 #### Latest Earned Badges
 | Date Earned | Badge Title |
 |:---:|---| 
+| *2026-07-26* | **Get Started with Sensitive Data Protection** |
+| *2026-07-26* | **Gemini in Google Chat** |
+| *2026-07-26* | **Scaling Data Science with Agents** |
 | *2026-07-23* | **Configure VPC Routes and Addresses** |
 | *2026-07-23* | **Set Up Multiple Network Interfaces** |
 | *2026-07-23* | **Orchestrate Workflows with the Data Agent Kit** |
@@ -71,9 +74,6 @@ Showing latest 10 of 4,761 achievements. View the full dataset via the [Platform
 | *2026-07-21* | **Build Serverless Applications with Cloud Run Functions** |
 | *2026-07-19* | **Secure Software Delivery** |
 | *2026-07-19* | **Arcade Base Camp July 2026** |
-| *2026-07-16* | **Build a Data Mesh with Knowledge Catalog** |
-| *2026-07-16* | **Arcade Simulator: Data Mesh Architect** |
-| *2026-07-15* | **Deploy and Monitor in Google Cloud for AWS Professionals** |
 
 👉 **[View Platform Index](./archives/google-cloud-skills-index.md)** ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-01.md) | [Complete Monolith](./archives/google-cloud-skills-complete.md))
 

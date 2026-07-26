@@ -1,7 +1,7 @@
 ---
 archive_platform: Google Cloud Skills Boost
 chunk_part: 1 of 3
-date_range: 2026-03-29 to 2026-07-23
+date_range: 2026-03-30 to 2026-07-26
 total_entries: 145
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-01.md
 ---
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Badge Title |
 | :---: | :--- |
+| 2026-07-26 | **Get Started with Sensitive Data Protection** |
+| 2026-07-26 | **Gemini in Google Chat** |
+| 2026-07-26 | **Scaling Data Science with Agents** |
 | 2026-07-23 | **Configure VPC Routes and Addresses** |
 | 2026-07-23 | **Set Up Multiple Network Interfaces** |
 | 2026-07-23 | **Orchestrate Workflows with the Data Agent Kit** |
@@ -154,9 +157,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-01 | **Google Threat Intelligence** |
 | 2026-03-30 | **Security Command Center: Identify and Prioritize Risks** |
 | 2026-03-30 | **Deploy and Scale AI Models with Cloud Run** |
-| 2026-03-30 | **Configure Gemini Code Assist for Organizations** |
-| 2026-03-29 | **Secure GKE with Cloud Next Generation Firewall** |
-| 2026-03-29 | **Create Embeddings, Vector Search, and RAG with BigQuery** |
 
 ---
 > **Navigation:** Prev: None | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-07-part-02.md](google-cloud-skills-2026-07-part-02.md)

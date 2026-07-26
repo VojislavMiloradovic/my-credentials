@@ -1,16 +1,34 @@
 {
   "profile_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_points": "192,777",
+  "total_points": "197,789",
   "internal_stats": {
-    "Course": 337,
-    "Check": 1782,
+    "Course": 346,
+    "Check": 1832,
     "Classroom": 0,
     "Game": 6,
-    "Lab": 237,
+    "Lab": 238,
     "Lesson": 4847
   },
-  "total_badges": 333,
+  "total_badges": 336,
   "badges": [
+    {
+      "title": "Get Started with Sensitive Data Protection",
+      "date_earned": "2026-07-26",
+      "image_url": "https://cdn.qwiklabs.com/1EPEhYwumPaRgNN6c2RmdB0YK4bMyjxKdXR9O3mcko0%3D",
+      "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25946097"
+    },
+    {
+      "title": "Gemini in Google Chat",
+      "date_earned": "2026-07-26",
+      "image_url": "https://cdn.qwiklabs.com/N%2FK%2FWUjUhMYmurFBmI%2Bgnvo35F57WV8Z91LA7t%2B4Uhk%3D",
+      "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25939305"
+    },
+    {
+      "title": "Scaling Data Science with Agents",
+      "date_earned": "2026-07-26",
+      "image_url": "https://cdn.qwiklabs.com/LOJ6oKqmvR5HiejFUBQjHTG1eyyAYMDmjrxCMqHTir8%3D",
+      "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25938520"
+    },
     {
       "title": "Configure VPC Routes and Addresses",
       "date_earned": "2026-07-23",
