@@ -33,28 +33,18 @@ MONTH_MAP = {
 }
 
 
-def get_field(row: dict, possible_keys: list[str], default: str = "") -> str:
-    """Case-insensitive column accessor."""
-    clean_row = {}
-    for k, v in row.items():
-        if k and v:
-            clean_row[str(k).strip().lower()] = str(v).strip()
-
-    for key in possible_keys:
-        target = key.strip().lower()
-        if target in clean_row:
-            return clean_row[target]
-
-    return default
+def norm_key(s: str) -> str:
+    """Normalizes string keys by stripping all non-alphanumeric characters."""
+    return re.sub(r"[^a-z0-9]", "", str(s).lower())
 
 
 def parse_and_clean_date(raw_date_str: str) -> tuple[datetime, str]:
-    """Parses raw date strings into a timezone-aware datetime and formatted string."""
+    """Parses raw date strings into a timezone-aware datetime and formatted string in a locale-independent manner."""
     min_date = datetime.min.replace(tzinfo=timezone.utc)
     if not raw_date_str or not isinstance(raw_date_str, str):
         return min_date, "N/A"
 
-    clean_str = raw_date_str.strip()
+    clean_str = raw_date_str.split("T")[0].strip(" \t\n\r\"'")
     if not clean_str:
         return min_date, "N/A"
 
@@ -81,21 +71,174 @@ def parse_and_clean_date(raw_date_str: str) -> tuple[datetime, str]:
         except ValueError:
             continue
 
-    return min_date, clean_str
+    # 3. Regex fallback
+    date_match = re.search(r"(\d{4})[-/](\d{1,2})[-/](\d{1,2})", clean_str)
+    if date_match:
+        y, m, d = date_match.groups()
+        formatted = f"{y}-{int(m):02d}-{int(d):02d}"
+        try:
+            dt = datetime.strptime(formatted, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+            return dt, formatted
+        except ValueError:
+            pass
+
+    return min_date, clean_str if clean_str else "N/A"
+
+
+def read_file_safely(filepath: str) -> str:
+    """Reads file content handling UTF-8 BOM, UTF-16, and various encodings safely."""
+    with open(filepath, "rb") as f:
+        raw = f.read()
+
+    if raw.startswith(b"\xff\xfe") or raw.startswith(b"\xfe\xff") or b"\x00" in raw:
+        try:
+            return raw.decode("utf-16", errors="replace")
+        except Exception:
+            pass
+
+    for enc in ["utf-8-sig", "utf-8", "cp1252", "latin-1"]:
+        try:
+            return raw.decode(enc)
+        except UnicodeDecodeError:
+            continue
+
+    return raw.decode("latin-1", errors="replace")
 
 
 def load_csv_rows(filepath: str) -> list[dict]:
-    """Loads CSV rows cleanly using Python's standard csv.DictReader."""
-    for enc in ["utf-8-sig", "utf-8", "latin-1"]:
-        try:
-            with open(filepath, "r", encoding=enc) as f:
-                reader = csv.DictReader(f)
-                rows = [row for row in reader if row]
-                if rows:
-                    return rows
-        except Exception:
+    """Fail-safe CSV loader that creates dictionary headers and positional backup keys."""
+    content = read_file_safely(filepath)
+    lines = [line.strip() for line in content.replace("\r\n", "\n").replace("\r", "\n").split("\n") if line.strip()]
+    if not lines:
+        return []
+
+    # Find the line that actually looks like a CSV header
+    header_idx = 0
+    for i, line in enumerate(lines[:10]):
+        line_lower = line.lower()
+        if "name" in line_lower or "title" in line_lower or "authority" in line_lower or "started" in line_lower:
+            header_idx = i
+            break
+
+    data_lines = lines[header_idx:]
+    header_line = lines[header_idx]
+
+    counts = {
+        ",": header_line.count(","),
+        "\t": header_line.count("\t"),
+        ";": header_line.count(";"),
+    }
+    delimiter = max(counts, key=counts.get) if max(counts.values()) > 0 else ","
+
+    reader = csv.reader(data_lines, delimiter=delimiter)
+    raw_rows = list(reader)
+    if not raw_rows:
+        return []
+
+    headers = [h.strip(" \t\n\r\"'\ufeff") for h in raw_rows[0]]
+    rows = []
+
+    for row in raw_rows[1:]:
+        if not row or not any(field.strip() for field in row):
             continue
-    return []
+
+        row_dict = {}
+        for col_i, val in enumerate(row):
+            clean_val = val.strip(" \t\n\r\"'")
+            if col_i < len(headers) and headers[col_i]:
+                row_dict[headers[col_i]] = clean_val
+            # Store positional backup key
+            row_dict[f"__col_{col_i}"] = clean_val
+
+        rows.append(row_dict)
+
+    return rows
+
+
+def extract_row_fields(row: dict) -> tuple[str, str, str, str]:
+    """Extracts title, authority/type, date, and duration with header and positional fallbacks."""
+    # 1. Title Extraction
+    title = ""
+    for k, v in row.items():
+        if k.startswith("__col_") or not v:
+            continue
+        nk = norm_key(k)
+        if nk in ["name", "title", "coursename", "activityname", "transcriptitemname", "activitytitle"]:
+            title = v
+            break
+
+    if not title:
+        for k, v in row.items():
+            if k.startswith("__col_") or not v:
+                continue
+            nk = norm_key(k)
+            if "name" in nk or "title" in nk or "course" in nk:
+                title = v
+                break
+
+    # Positional Fallback: Column 0 is Title
+    if not title:
+        title = row.get("__col_0", "Course")
+
+    # 2. Type / Authority Extraction
+    type_val = ""
+    for k, v in row.items():
+        if k.startswith("__col_") or not v:
+            continue
+        nk = norm_key(k)
+        if nk in ["authority", "type", "activitytype", "category", "itemtype", "provider", "issuer"]:
+            type_val = v
+            break
+
+    if not type_val:
+        for k, v in row.items():
+            if k.startswith("__col_") or not v:
+                continue
+            nk = norm_key(k)
+            if "authority" in nk or "type" in nk or "category" in nk or "provider" in nk or "issuer" in nk:
+                type_val = v
+                break
+
+    # Positional Fallback: Column 2 is Authority / Type
+    if not type_val:
+        type_val = row.get("__col_2", "Course")
+
+    # 3. Date Extraction
+    raw_date = ""
+    date_candidates = []
+    for k, v in row.items():
+        if k.startswith("__col_") or not v:
+            continue
+        nk = norm_key(k)
+        if "started" in nk or "completion" in nk or "finished" in nk or "date" in nk or "earned" in nk:
+            date_candidates.append((nk, v))
+
+    for pattern in ["started", "completion", "earned", "finished", "date"]:
+        for nk, v in date_candidates:
+            if pattern in nk and v:
+                raw_date = v
+                break
+        if raw_date:
+            break
+
+    # Positional Fallback: Column 3 (Started On) or Column 4 (Finished On)
+    if not raw_date:
+        raw_date = row.get("__col_3", "") or row.get("__col_4", "")
+
+    # 4. Duration Extraction
+    duration = ""
+    for k, v in row.items():
+        if k.startswith("__col_") or not v:
+            continue
+        nk = norm_key(k)
+        if "duration" in nk or "hours" in nk or "time" in nk or "length" in nk:
+            duration = v
+            break
+
+    if not duration:
+        duration = row.get("__col_5", "N/A") if len(row) > 5 and not row.get("__col_5", "").isalnum() else "N/A"
+
+    return title, type_val.title(), raw_date, duration
 
 
 def main():
@@ -104,24 +247,15 @@ def main():
         return
 
     rows = load_csv_rows(CSV_PATH)
-
-    title_keys = ["Name", "Activity Name", "Activity Title", "Course Name", "Title"]
-    type_keys = ["Authority", "Type", "Activity Type", "Category"]
-    date_keys = ["Finished On", "Started On", "Completion Date", "Completed Date", "Date"]
-    duration_keys = ["Duration", "Hours", "Time Spent"]
-
     parsed_data = []
 
     for r in rows:
-        title = get_field(r, title_keys, default="Course")
-        type_val = get_field(r, type_keys, default="Course").title()
-        raw_date = get_field(r, date_keys, default="")
+        title, type_val, raw_date, duration = extract_row_fields(r)
         dt, formatted_date = parse_and_clean_date(raw_date)
-        duration = get_field(r, duration_keys, default="N/A")
 
         parsed_data.append({
             "title": title,
-            "type": type_val,
+            "type": type_val if type_val else "Course",
             "dt": dt,
             "date_str": formatted_date,
             "duration": duration,
