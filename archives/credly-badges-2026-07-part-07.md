@@ -6,14 +6,12 @@ total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-07.md
 ---
 
-# Credly Verified Badges — Part 07
+# Credly Verified Credentials — Part 07
 
 > **Navigation:** Prev: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
-| 2026-05-17 | **Cybersecurity Fundamentals** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/07b5c2dc-a9ed-433c-bc25-63c34d575fa9) |
-| 2026-05-17 | **Data Literacy Essentials** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31) |
 | 2026-05-17 | **Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/2f421b3d-277a-4bc8-8120-3a07438a5962) |
 | 2026-05-17 | **Introduction to Statistical Concepts** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/c503a241-0ce2-4131-878d-d2695680bde2) |
 | 2026-05-17 | **Overview of the IFRS 17 Standard** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/85b05775-f078-4b2e-9a1c-8987a14c0162) |
@@ -62,6 +60,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-08 | **Log Management Fundamentals** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/bb1f9ed7-1194-4b2f-98ec-3919dfccd7df) |
 | 2026-05-08 | **Log Querying & Analytics Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/a621b498-451c-4f52-ab24-2af344bc773d) |
 | 2026-05-08 | **Managing Company Administration in Legacy Concur Travel - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/ec23d781-1dce-4c64-9a2c-1199a7650f19) |
+| 2026-05-08 | **Okta for AI Agents** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/692470a1-f212-48bf-a7b7-79e824c6f06f) |
+| 2026-05-08 | **Secure Your AI Agents to Act on the Behalf of Users** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/bd7cf46e-660f-406b-9547-69b0c0b9d822) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md)

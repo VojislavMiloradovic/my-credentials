@@ -111,13 +111,15 @@ Showing latest 10 of 459 activities. View the full dataset via the [Platform Arc
 
 <!-- CREDLY_BADGES_START -->
 ### Credly Verified Credentials
-**Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)  
-**Total Portfolio Credentials:** 457 (434 Credly Verified, 23 External/Imported)  
-**Total Verified Skills Mapped:** 1789
+- **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
+- **Total Portfolio Credentials:** 457 (434 Credly Verified, 23 External/Imported)
+- **Total Verified Skills Mapped:** 1789
 
 #### Latest Earned Credentials
+Showing latest 10 of 457 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
+
 | Date Earned | Credential Name | Issuer | Verification Type |
-|:---:|---|---|:---:|
+| :---: | :--- | :--- | :---: |
 | *2026-07-26* | **Protect Sensitive Data with Data Loss Prevention Skill Badge** | issued by Google Cloud | `Credly Verified` |
 | *2026-07-24* | **AWS Educate Getting Started with Networking - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` |
 | *2026-07-24* | **Cloud Sales Pro - Email Security** | issued by Acronis | `Credly Verified` |
@@ -128,9 +130,6 @@ Showing latest 10 of 459 activities. View the full dataset via the [Platform Arc
 | *2026-07-24* | **MongoDB Indexing Design Fundamentals** | issued by MongoDB | `Credly Verified` |
 | *2026-07-24* | **MongoDB Overview: Core Concepts and Architecture** | issued by MongoDB | `Credly Verified` |
 | *2026-07-24* | **MongoDB Sharding Strategies** | issued by MongoDB | `Credly Verified` |
-
-👉 **[View Platform Index](./archives/credly-badges-index.md)** ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md) | [Complete Monolith](./archives/credly-badges-complete.md))
-
 <!-- CREDLY_BADGES_END -->
 
 

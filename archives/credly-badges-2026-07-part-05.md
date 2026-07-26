@@ -6,14 +6,12 @@ total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-05.md
 ---
 
-# Credly Verified Badges — Part 05
+# Credly Verified Credentials — Part 05
 
 > **Navigation:** Prev: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
-| 2026-06-08 | **LFD102: A Beginner's Guide to Open Source Software Development** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/2b1cbc35-8af4-467d-bb34-8f081afb8ef0) |
-| 2026-06-08 | **LFD116: Software Engineering Basics for Embedded Systems** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/bf5261b3-1ed7-4acf-958a-5f937e4ca8e0) |
 | 2026-06-08 | **LFD137: Open Source Contribution in Finance** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/07bb1039-dd83-4aab-a319-d18af966d01a) |
 | 2026-06-08 | **LFQ101: Fundamentals of Quantum Computing** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/dbaa0c7b-652d-4505-a80a-4d8dd2551426) |
 | 2026-06-08 | **LFS118: Ethical Principles for Conversational AI** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/c18e2ce0-83e2-4e77-ba8e-2daa7a2cddfa) |
@@ -63,6 +61,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-31 | **Zendesk Knowledge** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/80fd12ea-5a76-4bf2-aab2-4c5ea7531b3a) |
 | 2026-05-30 | **Foundations of Insurance and the IFRS 17 Standard Knowledge Badge** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/0b8945bd-0f24-49bf-b36a-8b9c790b9002) |
 | 2026-05-27 | **Architecture and Administration for SAS Workload Management on SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/8ab110d2-4f48-4270-a365-2d39a121015c) |
+| 2026-05-27 | **Deploying SAS Event Stream Processing on SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/23f9cee5-1e7b-4c04-9819-ca58eaa54c81) |
+| 2026-05-27 | **Deploying SAS Grid Manager for Platform** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/b96c02e5-ee74-4756-a24d-5109b66c2d93) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md)

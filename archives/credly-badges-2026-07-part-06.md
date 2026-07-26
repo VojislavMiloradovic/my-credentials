@@ -1,19 +1,17 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 6 of 10
-date_range: 2026-05-19 to 2026-05-27
+date_range: 2026-05-17 to 2026-05-26
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-06.md
 ---
 
-# Credly Verified Badges — Part 06
+# Credly Verified Credentials — Part 06
 
 > **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
-| 2026-05-27 | **Deploying SAS Event Stream Processing on SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/23f9cee5-1e7b-4c04-9819-ca58eaa54c81) |
-| 2026-05-27 | **Deploying SAS Grid Manager for Platform** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/b96c02e5-ee74-4756-a24d-5109b66c2d93) |
 | 2026-05-26 | **Manage Data Models in Looker Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/eb5fb255-8dfa-4798-9894-3d7342f2c28a) |
 | 2026-05-25 | **AWS Cloud Quest: Cloud Practitioner - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/732fc941-03ee-436a-adf5-5ccd23c8c309) |
 | 2026-05-25 | **Basics in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/51e91ad5-5d40-4d85-8cde-7828857f37b5) |
@@ -64,6 +62,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-19 | **Modern Data Science with SAS Viya Workbench: Unified Development with SAS, Python, and R** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/a0be387e-762c-4126-96bb-f1e42b60e922) |
 | 2026-05-19 | **SAS 9 Administration: Getting Started** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/db55699d-258e-4a61-870c-0d66d5f6166f) |
 | 2026-05-19 | **SAS Viya Overview** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/2fdf77a8-806b-4cf7-bbd3-a87225b74bac) |
+| 2026-05-17 | **Cybersecurity Fundamentals** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/07b5c2dc-a9ed-433c-bc25-63c34d575fa9) |
+| 2026-05-17 | **Data Literacy Essentials** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md)

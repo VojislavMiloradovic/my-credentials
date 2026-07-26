@@ -6,14 +6,12 @@ total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-04.md
 ---
 
-# Credly Verified Badges — Part 04
+# Credly Verified Credentials — Part 04
 
 > **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
-| 2026-06-18 | **AWS Knowledge: Amazon EKS - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/a56b19c1-ecf5-4bf0-b66e-1849a18b9722) |
-| 2026-06-18 | **Intro to Acronis** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/9e744ff2-c093-46d2-adba-97b5f1c92be2) |
 | 2026-06-18 | **LFC112: Creating Effective Documentation for Developers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/74c24889-addb-48cd-8539-b9484742e114) |
 | 2026-06-18 | **LFC114: Remote Work at Scale** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/e180e574-1bfe-4afb-a7ff-dce17455e64c) |
 | 2026-06-18 | **LFS147: Introduction to AI/ML Toolkits with Kubeflow** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/53e07dd4-10c5-4a02-97e3-904a594ed3a6) |
@@ -61,6 +59,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-08 | **Creative Facilitation** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/6df66de9-9678-4f5a-bc36-1c4d7b220100) |
 | 2026-06-08 | **LFC102: Inclusive Open Source Community Orientation** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/eb937342-cd3c-4993-8e44-91f0bf12f83c) |
 | 2026-06-08 | **LFC108: Cybersecurity Essentials** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/c07d5735-c22b-40c9-bece-11d75cd3ab0d) |
+| 2026-06-08 | **LFD102: A Beginner's Guide to Open Source Software Development** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/2b1cbc35-8af4-467d-bb34-8f081afb8ef0) |
+| 2026-06-08 | **LFD116: Software Engineering Basics for Embedded Systems** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/bf5261b3-1ed7-4acf-958a-5f937e4ca8e0) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md)
