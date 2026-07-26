@@ -1,7 +1,7 @@
-from datetime import datetime
 import json
 import os
 import re
+from datetime import datetime
 
 from archiver import RAW_BASE_DEFAULT, generate_platform_archive
 
