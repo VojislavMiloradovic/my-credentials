@@ -1,7 +1,7 @@
 import json
 import os
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 
 from archiver import RAW_BASE_DEFAULT, generate_platform_archive
 
@@ -51,19 +51,23 @@ def clean_iso_date(raw_date_str):
     return clean if clean else "N/A"
 
 def parse_date(x):
+    min_date = datetime.min.replace(tzinfo=timezone.utc)
     if not x or not isinstance(x, dict):
-        return datetime.min
+        return min_date
     date_str = x.get("grantedOn", "")
     if not date_str:
-        return datetime.min
+        return min_date
     try:
         clean_str = re.sub(r'(Z|[+-]\d{2}:?\d{2})$', '', date_str)
         if '.' in clean_str:
             base, frac = clean_str.split('.')
             clean_str = f"{base}.{frac[:6].ljust(6, '0')}"
-        return datetime.fromisoformat(clean_str)
-    except Exception:
-        return datetime.min
+        dt = datetime.fromisoformat(clean_str)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    except (ValueError, TypeError):
+        return min_date
 
 def resolve_level(xp_profile, xp_data, total_xp):
     for source in [xp_profile, xp_data]:
@@ -81,7 +85,7 @@ def resolve_level(xp_profile, xp_data, total_xp):
         xp_int = int(total_xp)
         if xp_int >= 5000000:
             return "20"
-    except Exception:
+    except (ValueError, TypeError):
         pass
 
     return "20"
@@ -94,7 +98,7 @@ def main():
     with open(JSON_PATH, "r", encoding="utf-8") as f:
         try:
             data = json.load(f)
-        except Exception as e:
+        except json.JSONDecodeError as e:
             print(f"❌ Error parsing JSON: {e}")
             return
 
@@ -165,7 +169,8 @@ def main():
     index_filename = f"{PLATFORM_PREFIX}-index.md"
     monolith_filename = f"{PLATFORM_PREFIX}-complete.md"
     index_raw = f"{RAW_BASE_DEFAULT}/{index_filename}"
-    latest_chunk_raw = f"{RAW_BASE_DEFAULT}/{PLATFORM_PREFIX}-{datetime.now().strftime('%Y-%m')}-part-01.md"
+    now_ym = datetime.now(timezone.utc).strftime("%Y-%m")
+    latest_chunk_raw = f"{RAW_BASE_DEFAULT}/{PLATFORM_PREFIX}-{now_ym}-part-01.md"
 
     md.append("### Recent Achievements & Completed Badges")
     md.append(f"Showing latest 10 of {format_num(len(sorted_achievements))} achievements. View the full dataset via the [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({latest_chunk_raw}), or the [Monolithic Complete File](./archives/{monolith_filename}).\n")
