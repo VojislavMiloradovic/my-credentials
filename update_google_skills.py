@@ -13,11 +13,11 @@ PLATFORM_PREFIX = "google-cloud-skills"
 RAW_BASE = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
 
 INTERNAL_STATS = {
-    "Course": 337,
-    "Check": 1782,
+    "Course": 346,
+    "Check": 1832,
     "Classroom": 0,
     "Game": 6,
-    "Lab": 237,
+    "Lab": 238,
     "Lesson": 4847
 }
 
