@@ -1,20 +1,17 @@
 ---
 archive_platform: Google Cloud Skills Boost
 chunk_part: 2 of 3
-date_range: 2025-11-06 to 2026-03-30
-total_entries: 151
+date_range: 2025-11-06 to 2026-03-27
+total_entries: 153
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-02.md
 ---
 
-# Google Cloud Skills — Part 02
+# Google Cloud Skills Boost — Part 02
 
 > **Navigation:** Prev: [google-cloud-skills-2026-07-part-01.md](google-cloud-skills-2026-07-part-01.md) | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-07-part-03.md](google-cloud-skills-2026-07-part-03.md) | [Complete Archive](./google-cloud-skills-complete.md)
 
 | Date Earned | Badge Title |
-| :---: | :--- |
-| 2026-03-30 | **Configure Gemini Code Assist for Organizations** |
-| 2026-03-29 | **Secure GKE with Cloud Next Generation Firewall** |
-| 2026-03-29 | **Create Embeddings, Vector Search, and RAG with BigQuery** |
+| :---: | --- |
 | 2026-03-27 | **Introduction to SecOps on GDC** |
 | 2026-03-27 | **Model Armor: Securing AI Deployments** |
 | 2026-03-26 | **AI Services and GDC Deployments and Operations** |
@@ -163,6 +160,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-11-06 | **AI Boost Bites: Become a "Vibe DJ"** |
 | 2025-11-06 | **AI Boost Bites: Create Your Ultimate College Scouting Report** |
 | 2025-11-06 | **AI Boost Bites: One-Click Campaign Visuals** |
+| 2025-11-06 | **AI Boost Bites: From Napkin Sketch to Functional App** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM Reports** |
+| 2025-11-06 | **AI Boost Bites: Your Personal Feedback Agent** |
+| 2025-11-06 | **AI Boost Bites: Presentation Scripts with Gemini** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: Project Notebooks** |
 
 ---
 > **Navigation:** Prev: [google-cloud-skills-2026-07-part-01.md](google-cloud-skills-2026-07-part-01.md) | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-07-part-03.md](google-cloud-skills-2026-07-part-03.md)

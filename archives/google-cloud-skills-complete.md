@@ -1,12 +1,14 @@
-# Google Cloud Skills Boost — Full Credentials Archive
+# Complete Google Cloud Skills Boost Archive
+
+This document represents a unified, verifiable list of all 336 records.
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
-**Total Lifetime Points:** 197,789  
-**Total Badges:** 336
+**Total Lifetime Points:** 197,789
 
-#### All Earned Badges
+## Verified Records Archive
+
 | Date Earned | Badge Title |
-|:---:|---|
+| :---: | --- |
 | 2026-07-26 | **Get Started with Sensitive Data Protection** |
 | 2026-07-26 | **Gemini in Google Chat** |
 | 2026-07-26 | **Scaling Data Science with Agents** |
