@@ -1,19 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 4 of 93
+chunk_part: 4 of 92
 date_range: 2026-07-05 to 2026-07-09
-total_entries: 47
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-04.md
 ---
 
-# Microsoft Learn Achievements — Part 04
+# Microsoft Learn — Part 04
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-03.md](microsoft-learn-2026-07-part-03.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-05.md](microsoft-learn-2026-07-part-05.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Deploy and govern enterprise agentic AI solutions on Azure | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-3-deploy-govern-agentic-ai-solutions-azure/) |
-| Scale responsible AI governance with Azure AI Content Safety and Microsoft Foundry | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-scale-responsible-ai-governance-multi-agent/) |
 | Optimize multi-agent performance and cost in Microsoft Foundry | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-optimize-multi-agent-performance-cost-azure/) |
 | Monitor, evaluate, and operate multi-agent AI solutions in Azure | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-4-monitor-evaluate-operate-multi-agent-ai-solutions-azure/) |
 | Implement distributed observability for multi-agent solutions with OpenTelemetry | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-distributed-observability-multi-agent-opentelemetry/) |
@@ -59,6 +57,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Deploy SAP on Azure | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-sap-azure/) |
 | Implement high availability in SAP NetWeaver with AnyDB on Azure virtual machines | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ha-sap-netweaver-anydb/) |
 | Clinical document structuring to FHIR | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-text-analytics-fhir/) |
+| Examine backup security licensing and support considerations for SAP HANA on Azure (Large Instances) | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/backup-security-licensing-support-considerations-sap-hana-azure/) |
+| Plan SAP HANA on Azure (Large Instances) deployments | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-sap-hana-azure-large-instances-deployments/) |
+| Explore governance and manageability for SAP on Azure | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-governance-manageability/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-03.md](microsoft-learn-2026-07-part-03.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-05.md](microsoft-learn-2026-07-part-05.md)

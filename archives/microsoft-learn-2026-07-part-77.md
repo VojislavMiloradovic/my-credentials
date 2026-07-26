@@ -1,45 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 77 of 93
-date_range: 2025-12-16 to 2025-12-18
-total_entries: 55
+chunk_part: 77 of 92
+date_range: 2025-12-15 to 2025-12-17
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-77.md
 ---
 
-# Microsoft Learn Achievements — Part 77
+# Microsoft Learn — Part 77
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-76.md](microsoft-learn-2026-07-part-76.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-78.md](microsoft-learn-2026-07-part-78.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Describe Dynamics 365 Field Service scheduling capabilities and related apps | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-scheduling-process/) |
-| Create accessible AI experiences | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-accessible-solutions-using-ai-innovations/) |
-| Accessibility fundamentals | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/accessibility-fundamental/) |
-| Accessibility evaluation and testing | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/accessibility-evaluation-and-testing/) |
-| Create a threat model using data-flow diagram elements | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-create-a-threat-model-using-foundational-data-flow-diagram-elements/) |
-| Introduction to threat modeling | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-introduction-to-threat-modeling/) |
-| Use recommended tools to create a data-flow diagram | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-use-recommended-tools-to-create-a-data-flow-diagram/) |
-| Use built-in functions and GROUP BY in Transact-SQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-built-functions-transact-sql/) |
-| Query and modify data with Transact-SQL | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/) |
-| Modify data with T-SQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/modify-data-with-transact-sql/) |
-| Write Subqueries in T-SQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-subqueries/) |
-| Introduction to infrastructure as code using Bicep | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-infrastructure-as-code-using-bicep/) |
-| Provisioning a Linux virtual machine in Microsoft Azure | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-linux-virtual-machine-in-azure/) |
-| Introduce coding in Minecraft Education | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduce-coding-minecraft-education-edition/) |
-| Take your first steps with Power Automate for desktop | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-first-steps/) |
-| Create accessible content | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-accessible-content/) |
-| A guide to artificial intelligence | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/a-guide-to-artificial-intelligence/) |
-| Create a SaaS offer for the commercial marketplace | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-saas-offer-commercial-marketplace/) |
-| Intro to Azure DNS Private Resolver | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-dns-private-resolver/) |
-| Introduction to Azure Database for MySQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-database-for-mysql/) |
-| Azure Database for MySQL | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-azure-database-for-mysql/) |
-| Develop on a remote machine using SSH in Visual Studio Code | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-on-remote-machine/) |
-| Get started with Dynamics 365 Intelligent Order Management | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-intelligent-order-management/) |
-| Implement inheritance and polymorphism | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-inheritance-polymorphism/) |
-| Implement class inheritance | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-class-inheritance/) |
-| Combine external applications for more customized productions with Microsoft 365 | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-combine-external-applications-customized-productions/) |
-| Deploy updates for Windows client and Microsoft 365 apps | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-deploy/) |
-| Get started with AI Builder licensing | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-licensing/) |
 | Introduction to Azure Private Link | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-private-link/) |
 | Introduction to Azure Front Door | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-front-door/) |
 | Introduction to Site Reliability Engineering (SRE) | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-site-reliability-engineering/) |
@@ -67,6 +39,33 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create an Azure Storage account | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-storage-account/) |
 | Azure for Researchers part 1: Introduction to Cloud Computing | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/researcher-introduction-to-cloud-computing/) |
 | Load/export data and create data views in Dataverse | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/load-export-data-create-data-views/) |
+| Describe Dynamics 365 Customer Insights - Data | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-marketing-capabilities-2/) |
+| Combine multiple tables with JOINs in T-SQL | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-multiple-tables-with-joins/) |
+| Introduction to Docker containers | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-docker-containers/) |
+| Choose a data storage approach in Azure | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-storage-approach-in-azure/) |
+| Dyslexia and technology, in partnership with Made By Dyslexia | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-technology/) |
+| Accessibility, special education, and learning: Support equity in learning | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/accessibility-special-education-online-learning-equity/) |
+| Introduction to Azure Virtual Networks | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-virtual-networks/) |
+| Describe the finance and operations apps | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-introduced-finance-operations-apps/) |
+| Build a to-do list with Blazor | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-blazor-todo-list/) |
+| Secure and isolate access to Azure resources by using network security groups and service endpoints | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/) |
+| Sort and filter results in T-SQL | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/sort-filter-queries/) |
+| Accessibility best practices for gaming hardware | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/hardware-devices/) |
+| Create a Holographic Remoting app to visualize 3D content on HoloLens 2 | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/pc-holographic-remoting-tutorials/) |
+| Protect your Azure Virtual Desktop deployment by using Azure Firewall | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-virtual-desktop-deployment-azure-firewall/) |
+| Change how documents look in Business Central | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/change-documents-dynamics-365-business-central/) |
+| Get tips and tricks for teaching PL-200: Microsoft Power Platform Functional Consultant | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teaching-microsoft-power-platform-functional-consultant/) |
+| Apply Viva Glint’s modern approach to engagement for better results | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-engagement/) |
+| Empower action for better results with Viva Glint | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-empower-action-better-results-viva-glint/) |
+| Edit code using any device with Visual Studio Code for the Web | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/edit-code-using-any-device/) |
+| AI in Microsoft Teams for Education (Partner Success Series) | Modules | 2025-12-16 | N/A |
+| Teams for education partners (Partner Success Series) | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/teams-education-partners/) |
+| Introduction to Azure Site Recovery | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-site-recovery/) |
+| Explore cybersecurity careers with Minecraft Education-Cyber Defender: Tower Defense | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/cybersecurity-careers-minecraft-education-cyber-defender/) |
+| Introduction to integration with Dynamics 365 Customer Engagement apps | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-integration-customer-engagement-apps/) |
+| Create and manage columns within a table in Dataverse | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-fields-within-entity/) |
+| Introduction to Transact-SQL | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-transact-sql/) |
+| Build your first web app with Blazor | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-blazor-web-app/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-76.md](microsoft-learn-2026-07-part-76.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-78.md](microsoft-learn-2026-07-part-78.md)

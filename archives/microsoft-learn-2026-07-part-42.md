@@ -1,34 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 42 of 93
-date_range: 2026-02-26 to 2026-03-01
-total_entries: 53
+chunk_part: 42 of 92
+date_range: 2026-02-26 to 2026-02-28
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-42.md
 ---
 
-# Microsoft Learn Achievements — Part 42
+# Microsoft Learn — Part 42
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-41.md](microsoft-learn-2026-07-part-41.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-43.md](microsoft-learn-2026-07-part-43.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Configure and use budget planning in Dynamics 365 Finance | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-use-budget-planning-dyn365-finance/) |
-| Manage Cloud PCs and Virtual Desktops | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-virtual-desktops/) |
-| Schedule services with Customer Service scheduling | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/schedule-customer-service-scheduling/) |
-| Administer applications | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-applications/) |
-| Support learning environments with instructional leadership | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-learn-environments-instructional-leadership/) |
-| Implementation recommendations for Microsoft Power Platform environments | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implementation-recommendations/) |
-| Tune hyperparameters in Azure Databricks | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/hyperparameters-azure-databricks/) |
-| Configure bins on the location card in Dynamics 365 Business Central | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-bins-location/) |
-| Manage Microsoft Defender for Endpoint | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-defender-endpoint/) |
-| Fine-tune language models with Azure Databricks | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/fine-tune-azure-databricks/) |
-| Configure Azure Cosmos DB for NoSQL | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-cosmos-db-sql-api/) |
-| Connect and engage with customers with Omnichannel for Dynamics 365 Customer Service | Learningpaths | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-customer-service-omnichannel/) |
-| Get started with Omnichannel for Customer Service | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/getting-started-omnichannel/) |
-| Create custom procedures in Dynamics 365 Business Central | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-custom-functions/) |
-| Enter payments in the cash receipt journal and the payment journal in Dynamics 365 Business Central | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/enter-payments-dynamics-365-business-central/) |
-| Build journeys with Dynamics 365 Customer Insights - Journeys | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-journeys-marketing/) |
-| Install and configure apps on a session host | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/install-configure-apps-session-host/) |
 | Manage user environments and apps for Azure Virtual Desktop | Learningpaths | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-user-environments-apps/) |
 | Develop an AI app with the Microsoft Foundry SDK | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/foundry-sdk/) |
 | Work with accounts receivable in Dynamics 365 Finance | Learningpaths | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-accounts-receivable-dyn365-finance/) |
@@ -65,6 +48,22 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Guided Project – Deploy and configure Azure Monitor | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-deploy-configure-azure-monitor/) |
 | Monitor device profiles | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-device-profiles/) |
 | Optimize performance with Spark and Delta Live Tables | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-performance-with-spark-and-delta-live-tables/) |
+| Introduction to tools for declarative agents in Copilot Studio | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-studio-actions/) |
+| Create triggers for custom connectors for Microsoft Power Platform | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-triggers-custom-connectors/) |
+| Configure scaling in Azure Kubernetes Service | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-scaling-azure-kubernetes-service/) |
+| Set up and use budget control in Dynamics 365 Finance | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-use-budget-control-finance/) |
+| Integrate an agent for Contact Center and Dynamics 365 Customer Service | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/omnichannel-power-virtual-agents/) |
+| Integrate Azure Cosmos DB for NoSQL with Azure services | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-azure-cosmos-db-sql-api-azure-services/) |
+| Search Azure Cosmos DB for NoSQL data with Azure Cognitive Search | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/search-azure-cosmos-db-sql-api-data-azure-cognitive-search/) |
+| Enable organizational access | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-organizational-access/) |
+| Protect identities in Microsoft Entra ID | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-identities-azure-active-directory/) |
+| Plan and manage your Microsoft Power Platform environment | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-manage-environment/) |
+| Introduction to open-source database migration on Azure | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-open-source-database-migration-azure/) |
+| Common Linux server configurations | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/common-linux-server-configurations/) |
+| Process credit and collections in Dynamics 365 Finance | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-credit-collections-dyn365-finance/) |
+| Work with accounting distributions, invoice validations, and settlements in Dynamics 365 Finance | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/accounting-distributions-invoice-validation-dyn365-finance/) |
+| Introduction to integrating Dataverse with Dynamics 365 Business Central | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-dataverse-integrate/) |
+| Extend and modify an existing page in Dynamics 365 Business Central | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-modify-existing-pages/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-41.md](microsoft-learn-2026-07-part-41.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-43.md](microsoft-learn-2026-07-part-43.md)

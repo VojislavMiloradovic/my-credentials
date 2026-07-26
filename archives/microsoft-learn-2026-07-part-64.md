@@ -1,39 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 64 of 93
-date_range: 2026-01-05 to 2026-01-08
+chunk_part: 64 of 92
+date_range: 2026-01-04 to 2026-01-07
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-64.md
 ---
 
-# Microsoft Learn Achievements — Part 64
+# Microsoft Learn — Part 64
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-63.md](microsoft-learn-2026-07-part-63.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-65.md](microsoft-learn-2026-07-part-65.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Create benefit plans in Dynamics 365 Human Resources | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/benefits-management/) |
-| Manage your organization with Dynamics 365 Human Resources | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-organization/) |
-| Manage personnel with Dynamics 365 Human Resources | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-personnel/) |
-| Introduction to Azure hybrid cloud services | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-hybrid-services/) |
-| Design an accident tracking app in Power Apps | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-accident-tracking/) |
-| Build the Dataverse table schema for the model-driven app | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-dataverse-table-structure/) |
-| Transform a business process to a model-driven app | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/model-driven-app-solution/) |
-| Customize views and forms for model-driven apps | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-view-forms/) |
-| Deploy to multiple Azure environments by using JSON ARM template features | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/modify-azure-resource-manager-template-reuse/) |
-| Create your first Q# program with the Quantum Development Kit | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/qsharp-create-first-quantum-development-kit/) |
-| Connect to virtual machines through the Azure portal by using Azure Bastion | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-vm-with-azure-bastion/) |
-| Introduction to building copilots for startups | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-copilots-for-startups/) |
-| An AI toolbox for trainers | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-toolbox-for-trainers/) |
-| Training with AI tools | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/training-with-ai-tools/) |
-| Use AI tools to create an inclusive learning environment | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-tools-to-create-inclusive-learning-environment/) |
-| Implement AI tools into a training environment | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ai-tools-into-training-environment/) |
-| Streamline training plans with AI tools | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/streamline-training-plans-with-ai-tools/) |
-| Contribute to Microsoft Learn documentation in your browser | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/contribute-to-docs-browser/) |
-| Introduction to Microsoft Viva Glint | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-introduction-viva-glint/) |
-| Send Dynamics 365 Customer Voice surveys | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-customer-voice-surveys/) |
-| Create a survey project with Dynamics 365 Customer Voice | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-customer-voice-projects/) |
-| Create customer surveys with Dynamics 365 Customer Voice | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-customer-voice-surveys/) |
 | Apply a budgeting method to manage money effectively | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-budgeting-method/) |
 | Collaborate faster using Microsoft Teams for higher education staff | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/collaborate-faster-microsoft-teams-higher-education-staff/) |
 | Continuous deployment for machine learning | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/continuous-deployment-for-machine-learning/) |
@@ -65,6 +43,28 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Increase educator adoption of Reflect | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/increase-educator-adoption-reflect/) |
 | Introduction to the Microsoft commercial marketplace | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-commercial-marketplace/) |
 | Describe significant government strategy actions | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-significant-government-strategy-actions/) |
+| Describe governmental cloud strategy | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-governmental-cloud-strategy/) |
+| Describe the government and its structure | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-government-its-structure/) |
+| Describe Cloud Business Case Analysis | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-cloud-business-case-analysis/) |
+| Get started with subscription billing in Dynamics 365 Finance | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-subscription-billing-finance/) |
+| Introduction to the development environment for Dynamics 365 Business Central | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-development-environment/) |
+| Design a Power Apps canvas app by using Figma | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-canvas-app-figma/) |
+| Evaluate requirements for Dynamics 365 projects | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-requirements-dynamics-365-projects/) |
+| Implement API Management | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-api-management/) |
+| Explore API Management | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-api-management/) |
+| Secure outbound internet connectivity for Azure VMware Solution | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-vmware-solution/) |
+| Introduction to the Partner Success Series | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-partner-success-series/) |
+| Introduction to Azure ExpressRoute | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-expressroute/) |
+| Introduction to Azure hybrid connectivity services | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-hybrid-connectivity-services/) |
+| Introduction to Azure Advisor | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-advisor/) |
+| Power Automate: Automation - Online Workshop | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
+| Create subflows and web automation with Power Automate for desktop - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-subflows-web-automation-online-workshop/) |
+| Integrate with Microsoft Teams to get approvals - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-teams-approval-online-workshop/) |
+| Add an AI model to process invoice forms - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-ai-model-process-invoice-online-workshop/) |
+| Integrate with cloud flows - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-cloud-flows-online-workshop/) |
+| Use Outlook email to trigger desktop flows and pass inputs - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/outlook-flows-online-workshop/) |
+| Get started with Microsoft for Healthcare | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/healthcare-in-a-day/) |
+| Integration and interoperability in Microsoft for Healthcare solution overview | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-interoperability-overview/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-63.md](microsoft-learn-2026-07-part-63.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-65.md](microsoft-learn-2026-07-part-65.md)

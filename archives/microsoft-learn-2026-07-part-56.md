@@ -1,38 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 56 of 93
-date_range: 2026-01-26 to 2026-01-31
-total_entries: 55
+chunk_part: 56 of 92
+date_range: 2026-01-25 to 2026-01-28
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-56.md
 ---
 
-# Microsoft Learn Achievements — Part 56
+# Microsoft Learn — Part 56
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-55.md](microsoft-learn-2026-07-part-55.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-57.md](microsoft-learn-2026-07-part-57.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Create a canvas app in Power Apps | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-powerapps/) |
-| Navigation in a canvas app in Power Apps | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigation-canvas-app/) |
-| Generate inventory and compliance reports | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/inventory-complinace-reports/) |
-| Get started using Dataverse | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-cds/) |
-| Connect to other data in a Power Apps canvas app | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-to-other-data-in-powerapps-canvas-app/) |
-| Explore Azure Databricks | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-databricks/) |
-| Develop generative AI apps with Azure OpenAI and Semantic Kernel | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure-open-ai-semantic-kernel-sdk/) |
-| Build your kernel | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-kernel/) |
-| Windows 11 Pro Accreditation 2026 | Learningpaths | 2026-01-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-11-pro-accreditation-2026/) |
-| Resilient foundations with Windows 11 Pro | Modules | 2026-01-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/resilient-foundations-windows-11/) |
-| How Windows enables AI and agents | Modules | 2026-01-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/how-windows-enables-ai-agents/) |
-| Cloud-powered experiences on Windows 11 Pro | Modules | 2026-01-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-powered-experiences-windows-11-pro/) |
-| Get started with spec-driven development and GitHub Spec Kit | Modules | 2026-01-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/spec-driven-development-github-spec-kit-greenfield-intro/) |
-| MD-102 Configure profiles for user and devices | Learningpaths | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-profiles-user-device/) |
-| Execute device profiles | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/execute-device-profiles/) |
-| Implement device compliance | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-compliance/) |
-| Utilize Vulnerability Management in Microsoft Defender for Endpoint | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-threat-vulnerability-management-microsoft-defender-for-endpoint/) |
-| Manage Windows 365 | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-365/) |
-| Create agents in Microsoft Copilot Studio | Learningpaths | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/) |
-| Manage topics in Microsoft Copilot Studio | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-power-virtual-agents-topics/) |
-| Implement Windows security enhancements with Microsoft Defender for Endpoint | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-10-security-enhancements-with-microsoft-defender-for-endpoint/) |
 | Implement scale and high availability with Windows Server VM | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-scale-high-availability-windows-server-virtual-machine/) |
 | Deploy and update applications | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-applications/) |
 | Implement authentication by using the Microsoft Authentication Library | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-authentication-by-using-microsoft-authentication-library/) |
@@ -67,6 +46,25 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage container images in Azure Container Registry | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/) |
 | Implement containerized solutions | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-iaas-solutions/) |
 | Create a model-driven application in Power Apps | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-app-models-business-processes/) |
+| Configure forms, charts, and dashboards in model-driven apps | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-model-driven-apps-customer-engagement-apps/) |
+| Automate the configuration of Windows Server IaaS Virtual Machines | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-configuration-of-windows-server-iaas-virtual-machines/) |
+| Implement and manage Microsoft Purview Insider Risk Management | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-insider-risk-management/) |
+| Investigate insider risk alerts and related activity | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-insider-risk-investigate-alerts/) |
+| Write data in a Power Apps canvas app | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-data/) |
+| Audit the security of Windows Server IaaS Virtual Machines | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-security-of-windows-server-iaas-virtual-machines/) |
+| Implement secure Azure solutions | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-secure-cloud-solutions/) |
+| Implement managed identities | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-managed-identities/) |
+| Configure secure access to Azure Repos from pipelines | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-access-azure-repos-from-pipelines/) |
+| Scale and manage deployed container apps | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-manage-deployed-container-apps/) |
+| Configure client connectivity to Microsoft 365 | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-client-connectivity-microsoft-365/) |
+| Extend a pipeline to use multiple templates | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-pipeline-use-multiple-templates/) |
+| Configure Azure Container Registry for container app deployments | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-container-registry-container-app-deployments/) |
+| Configure pipelines to securely use variables and parameters | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-pipelines-securely-use-variables-parameters/) |
+| Configure a container app in Azure Container Apps | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-container-app-azure-container-apps/) |
+| MD-102 Execute device enrollment | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/execute-device-enrollment/) |
+| Manage device authentication | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-device-authentication/) |
+| Configure and validate permissions | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-validate-permissions/) |
+| Configure continuous deployment for container apps | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-continuous-deployment-container-apps/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-55.md](microsoft-learn-2026-07-part-55.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-57.md](microsoft-learn-2026-07-part-57.md)

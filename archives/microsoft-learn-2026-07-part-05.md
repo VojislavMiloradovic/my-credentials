@@ -1,20 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 5 of 93
-date_range: 2026-07-02 to 2026-07-05
-total_entries: 48
+chunk_part: 5 of 92
+date_range: 2026-07-01 to 2026-07-05
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-05.md
 ---
 
-# Microsoft Learn Achievements — Part 05
+# Microsoft Learn — Part 05
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-04.md](microsoft-learn-2026-07-part-04.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-06.md](microsoft-learn-2026-07-part-06.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Examine backup security licensing and support considerations for SAP HANA on Azure (Large Instances) | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/backup-security-licensing-support-considerations-sap-hana-azure/) |
-| Plan SAP HANA on Azure (Large Instances) deployments | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-sap-hana-azure-large-instances-deployments/) |
-| Explore governance and manageability for SAP on Azure | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-governance-manageability/) |
 | Explore the foundations of identity and governance for SAP on Azure | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-foundations-of-identity-governance/) |
 | Design a health model for your mission-critical workload | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-health-model-mission-critical-workload/) |
 | Build mission-critical workloads on Azure | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-mission-critical-workloads/) |
@@ -60,6 +57,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Troubleshoot issues signing into Microsoft Teams | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-issues-signing-into-microsoft-teams/) |
 | Troubleshoot Federation Issues | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-federation-issues/) |
 | Examine SAP NetWeaver with AnyDB on Azure virtual machines | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-sap-netweaver-anydb/) |
+| Explore Azure for SAP workloads | Learningpaths | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-azure-for-sap-workloads/) |
+| Connect Power Platform to SAP on Azure | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-power-platform-to-sap-azure/) |
+| Troubleshoot Microsoft Teams meetings live events and messaging | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-microsoft-teams-meetings-live-events-messaging/) |
+| Deploy and manage resources in Azure by using JSON ARM templates | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-resource-manager-templates/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-04.md](microsoft-learn-2026-07-part-04.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-06.md](microsoft-learn-2026-07-part-06.md)

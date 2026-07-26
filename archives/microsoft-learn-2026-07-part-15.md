@@ -1,25 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 15 of 93
-date_range: 2026-05-20 to 2026-05-25
-total_entries: 51
+chunk_part: 15 of 92
+date_range: 2026-05-19 to 2026-05-24
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-15.md
 ---
 
-# Microsoft Learn Achievements — Part 15
+# Microsoft Learn — Part 15
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-14.md](microsoft-learn-2026-07-part-14.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-16.md](microsoft-learn-2026-07-part-16.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Optimize staffing with workforce management in Dynamics 365 Contact Center | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-staffing-workforce-management-contact-center/) |
-| Troubleshoot device and policy issues using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-intune-devices/) |
-| Plan and implement device enrollment using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-device-enrollment/) |
-| Monitor and maintain devices using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-devices-intune/) |
-| Manage Windows updates and lifecycle using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-updates-intune/) |
-| Maintain tenant health and support readiness | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-tenant-health/) |
-| Implement reporting and data visibility using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-reporting-data-visibility/) |
-| Deploy Windows devices using Windows Autopilot | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-windows-autopilot/) |
 | Configure device profiles and policy management using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-device-profiles-intune/) |
 | Configure Microsoft Entra ID for device and policy management | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-entraid-device-management/) |
 | Apply RBAC and admin delegation in Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-rbac-admin-delegation/) |
@@ -63,6 +55,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage and design with AI | Learningpaths | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-design-ai/) |
 | Develop understanding with the Study and Learn Agent in the Microsoft 365 Copilot app | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-understanding-study-learn-agent-copilot-app/) |
 | Introduction to Microsoft Surface Laptop for Business, 13-inch (1st Edition) | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-surface-laptop-13-1st-edition/) |
+| Introduction to Azure Functions in IoT solutions | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-functions-iot/) |
+| Discover faster insights with Improved Windows Search | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/improved-windows-search/) |
+| introduction-surface-laptop-8th-edition | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-surface-laptop-8th-edition/) |
+| Introduction to Azure IoT Edge | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-iot-edge/) |
+| Write advanced T-SQL code | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-advanced-sql-code/) |
+| Automate AI evaluations with Microsoft Foundry and GitHub Actions | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/automated-evaluation-genaiops/) |
+| Maximize the Cost Efficiency of AI Agents on Azure | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/maximize-cost-efficiency-ai-agents/) |
+| Understand the key cost drivers of AI agents | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-agent-cost-structure/) |
+| Maximize cost efficiency by choosing the right AI agent development approach on Azure | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/maximize-cost-efficiency-ai-agent-development/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-14.md](microsoft-learn-2026-07-part-14.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-16.md](microsoft-learn-2026-07-part-16.md)

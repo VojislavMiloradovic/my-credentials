@@ -1,32 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 41 of 93
-date_range: 2026-03-01 to 2026-03-02
-total_entries: 51
+chunk_part: 41 of 92
+date_range: 2026-02-28 to 2026-03-01
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-41.md
 ---
 
-# Microsoft Learn Achievements — Part 41
+# Microsoft Learn — Part 41
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-40.md](microsoft-learn-2026-07-part-40.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-42.md](microsoft-learn-2026-07-part-42.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Estimate purchase order receipt dates in Dynamics 365 Business Central | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/estimate-receipt-dates-dynamics-365-business-central/) |
-| Validate your app maker skills | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-app-maker-skills/) |
-| Challenge Project - Build a booking requests app with Power Apps and Power Automate | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-booking-requests-app-with-power-apps-power-automate/) |
-| Deploy an Azure Kubernetes Service cluster | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-azure-kubernetes-service-cluster/) |
-| Work with class extensions in finance and operations apps | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/class-extensions-finance-operations/) |
-| MD-101 Deploy using cloud based tools | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-use-cloud-based-tools/) |
-| Implement dynamic deployment methods | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dynamic-deployment-methods/) |
-| Get started with project management in Dynamics 365 Project Operations | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-project-management/) |
-| Implement change tracking and file integrity monitoring for Windows IaaS VMs | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-change-tracking-file-integrity-monitoring/) |
-| Implement Windows Server IaaS VM Security | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-iaas-virtual-machine-security/) |
-| Explore just-in-time virtual machine access | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/just-in-time-access/) |
-| Set up and use discrete manufacturing resources in Dynamics 365 Supply Chain Management | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-discrete-manufacturing-resources/) |
-| Set up payment reconciliation journals in Dynamics 365 Business Central | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/reconciliation-journals-dynamics-365-business-central/) |
-| Introduction to Microsoft Power Platform and Business Central | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-business-central/) |
-| Trigger Azure Machine Learning jobs with GitHub Actions | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/trigger-azure-machine-learn-jobs-github-actions/) |
 | Service adoption framework - Phase 3, Scale | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-service-adoption-scale/) |
 | MD-101 Deploy using on-premises based tools | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-use-premises-based-tools/) |
 | Assess deployment readiness | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/assess-deployment-readiness/) |
@@ -63,6 +48,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Work with entitlements and permission sets in Dynamics 365 Business Central | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-entitlements-permission-sets/) |
 | Implement Generative AI engineering with Azure Databricks | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-generative-ai-engineering-azure-databricks/) |
 | Implement LLMOps in Azure Databricks | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-llmops-azure-databricks/) |
+| Configure and use budget planning in Dynamics 365 Finance | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-use-budget-planning-dyn365-finance/) |
+| Manage Cloud PCs and Virtual Desktops | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-virtual-desktops/) |
+| Schedule services with Customer Service scheduling | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/schedule-customer-service-scheduling/) |
+| Administer applications | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-applications/) |
+| Support learning environments with instructional leadership | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-learn-environments-instructional-leadership/) |
+| Implementation recommendations for Microsoft Power Platform environments | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implementation-recommendations/) |
+| Tune hyperparameters in Azure Databricks | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/hyperparameters-azure-databricks/) |
+| Configure bins on the location card in Dynamics 365 Business Central | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-bins-location/) |
+| Manage Microsoft Defender for Endpoint | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-defender-endpoint/) |
+| Fine-tune language models with Azure Databricks | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/fine-tune-azure-databricks/) |
+| Configure Azure Cosmos DB for NoSQL | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-cosmos-db-sql-api/) |
+| Connect and engage with customers with Omnichannel for Dynamics 365 Customer Service | Learningpaths | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-customer-service-omnichannel/) |
+| Get started with Omnichannel for Customer Service | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/getting-started-omnichannel/) |
+| Create custom procedures in Dynamics 365 Business Central | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-custom-functions/) |
+| Enter payments in the cash receipt journal and the payment journal in Dynamics 365 Business Central | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/enter-payments-dynamics-365-business-central/) |
+| Build journeys with Dynamics 365 Customer Insights - Journeys | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-journeys-marketing/) |
+| Install and configure apps on a session host | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/install-configure-apps-session-host/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-40.md](microsoft-learn-2026-07-part-40.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-42.md](microsoft-learn-2026-07-part-42.md)

@@ -1,43 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 86 of 93
-date_range: 2025-11-25 to 2025-11-27
+chunk_part: 86 of 92
+date_range: 2025-11-23 to 2025-11-26
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-86.md
 ---
 
-# Microsoft Learn Achievements — Part 86
+# Microsoft Learn — Part 86
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-85.md](microsoft-learn-2026-07-part-85.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-87.md](microsoft-learn-2026-07-part-87.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Build effective generative AI solutions in your organization | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-effective-generative-ai-solutions-organization/) |
-| Explore the business value of generative AI solutions | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-business-value-generative-ai-solutions/) |
-| Enhance your productivity with prebuilt Microsoft 365 Copilot agents | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-productivity-prebuilt-agents/) |
-| Explore prebuilt Microsoft 365 Copilot agents | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-prebuilt-microsoft-365-copilot-agents/) |
-| Introduction to declarative agents for Microsoft 365 Copilot | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-intro/) |
-| Monitor and maintain Microsoft 365 Copilot connectors | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-microsoft-365-copilot-connectors/) |
-| Build your first Microsoft 365 Copilot connector using Visual Studio Code | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-microsoft-365-copilot-connector/) |
-| Drive business value with Microsoft Copilot solutions | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-value-microsoft-copilot-solutions/) |
-| Windows 11 and cloud-native concepts: myths, realities, and best practices | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-native-myths/) |
-| Introduction to AI speech concepts | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/) |
-| Transform business workflows with generative AI | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-workflows-with-ai/) |
-| Analyze and visualize data using Microsoft 365 Copilot | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-visualize-data-copilot/) |
-| Iterate through a code block using for statement in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-for/) |
-| Branch the flow of code using the switch-case construct in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-switch-case/) |
-| Introduction to Microsoft Azure Data non-relational data in Azure | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-non-relational-data/) |
-| Explore Azure Storage for non-relational data | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/) |
-| Introduction to Azure Load Balancer | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-load-balancer/) |
-| Guided project - Develop foreach and if-elseif-else structures to process array data in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-arrays-iteration-selection/) |
-| Create and run simple C# console applications (Get started with C#, Part 2) | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-2/) |
-| Build your first workflow with Power Automate and Dataverse for Teams | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-workflow/) |
-| Create apps, copilots, flows, and more with Microsoft Dataverse and Teams | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-power-platform-teams/) |
-| Begin Python coding in Minecraft with MakeCode and Azure Notebooks | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/begin-python-coding-minecraft-makecode-azure-notebooks/) |
-| Define the role you want Microsoft 365 Copilot to play in your business workflow | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-copilot-role-business-workflow/) |
-| Draft and refine business content using Microsoft 365 Copilot | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/draft-refine-business-content/) |
-| Employ Copilot Chat as your AI assistant | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/employ-copilot-assistant/) |
-| Manage meetings and collaboration using Microsoft 365 Copilot | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-meetings-collaboration/) |
 | What is generative AI? | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-generative-ai/) |
 | Unlock productivity with generative AI | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/generative-ai-productivity/) |
 | Keep Microsoft 365 secure after Windows 10 end of support | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-10-end-of-support-impact-microsoft-365/) |
@@ -64,6 +38,32 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Demonstrate the capabilities of Microsoft Power Pages | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/demonstrate-capabilities-microsoft-power-pages/) |
 | Create a Microsoft Power Pages site | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-microsoft-power-pages-site/) |
 | Describe Microsoft Dataverse | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-microsoft-dataverse/) |
+| Manage the Microsoft Power Platform environment | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-microsoft-power-platform-environment/) |
+| Describe the business value of Microsoft Power Platform | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-business-value-microsoft-power-platform/) |
+| Describe the business value of Microsoft Power Platform services | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-value-microsoft-power-platform-services/) |
+| Describe the business value of extending business solutions by using Microsoft Power Platform | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-value-extend-business-solutions-microsoft-power-platform/) |
+| Create readable code with conventions, whitespace, and comments in C# | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-readable-code/) |
+| Add decision logic to your code using `if`, `else`, and `else if` statements in C# | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-if-elseif-else/) |
+| Accessibility: Build the foundation for inclusive learning  | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/accessibility-build-foundation-inclusive-learning/) |
+| Call methods from the .NET Class Library using C# | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-call-methods/) |
+| Get started with OneNote for education | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-onenote/) |
+| Introduction to Microsoft security solutions | Learningpaths | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-capabilities-of-microsoft-security-solutions/) |
+| Describe the security management capabilities in Azure | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-security-management-capabilities-of-azure/) |
+| Empower every student with an inclusive classroom | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-every-student-with-inclusive-classroom/) |
+| Identify Microsoft Power Automate components | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-microsoft-power-automate-components/) |
+| Summarize sales data using Copilot in Excel | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/summarize-sales-data/) |
+| Windows 10 EOS Calculator usage guide | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-10-end-of-support-calculator-usage-guide/) |
+| Explore Microsoft 365 Copilot and agent administration | Learningpaths | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-copilot-agent-administration/) |
+| Perform basic administrative tasks for Microsoft 365 Copilot | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-admin-tasks-microsoft-365-copilot/) |
+| Explore Microsoft 365 Copilot and agents | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-365-copilot-agents/) |
+| Perform basic administrative tasks for Microsoft 365 Copilot agents | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-admin-tasks-microsoft-365-copilot-agents/) |
+| Draft a campaign brief using Copilot in Word | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/draft-a-campaign-brief/) |
+| Explore Microsoft 365 administration | Learningpaths | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-administration/) |
+| Explore Microsoft 365 security foundations | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-365-security-foundations/) |
+| Protect and govern Microsoft 365 data | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-govern-data-microsoft-365/) |
+| Hotpatch updates for Windows client devices | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/hotpatch-updates/) |
+| Introduction to Microsoft 365 core services and admin controls | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-365-core-services-admin-control/) |
+| Store and iterate through sequences of data using Arrays and the foreach statement in C# | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-arrays/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-85.md](microsoft-learn-2026-07-part-85.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-87.md](microsoft-learn-2026-07-part-87.md)

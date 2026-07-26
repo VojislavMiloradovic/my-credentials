@@ -1,31 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 37 of 93
-date_range: 2026-03-06 to 2026-03-09
+chunk_part: 37 of 92
+date_range: 2026-03-06 to 2026-03-08
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-37.md
 ---
 
-# Microsoft Learn Achievements — Part 37
+# Microsoft Learn — Part 37
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-36.md](microsoft-learn-2026-07-part-36.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-38.md](microsoft-learn-2026-07-part-38.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Implement integrated cache in Azure Cosmos DB for NoSQL | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-integrated-cache/) |
-| Provision and deploy Windows 365 Cloud PCs | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-windows-365-cloud-pcs/) |
-| Introduction to SAP on Microsoft Cloud | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sap-microsoft-cloud/) |
-| Work with entitlements and service level agreements in Dynamics 365 Customer Service | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-entitlements-and-slas-in-microsoft-dynamics-365-for-customer-service/) |
-| Create and manage entitlements in Microsoft Dynamics 365 Customer Service | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/creating-and-managing-entitlements-in-dynamics-365/) |
-| Inbound warehouse operations using Dynamics 365 Supply Chain Management | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/inbound-operations-supply-chain-management/) |
-| Azure security for Azure NetApp Files | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-security/) |
-| Get started with unified routing for Dynamics 365 Customer Service | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-unified-routing/) |
-| Teach AP Computer Science Principles with the Microsoft MakeCode curriculum | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-ap-computer-science-principles-makecode/) |
-| Execute queries and build a Generative AI application with Azure Cosmos DB | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/execute-queries-azure-cosmos-db-sql-api/) |
-| Query the Azure Cosmos DB for NoSQL | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-azure-cosmos-db-sql-api/) |
-| Implement interfaces in Dynamics 365 Business Central | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-interfaces/) |
-| Create surveys with Dynamics 365 Customer Voice | Learningpaths | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-surveys/) |
-| Automate Dynamics 365 Customer Voice surveys with Power Automate | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-customer-voice-surveys/) |
 | Customize the schedule board in Dynamics 365 Field Service | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-the-schedule-board-urs-dynamics-field-service/) |
 | Troubleshoot scripts and handle errors in Windows PowerShell | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-scripts-handle-errors-windows-powershell/) |
 | Create and modify scripts by using Windows PowerShell | Learningpaths | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-modify-script-use-windows-powershell/) |
@@ -60,6 +46,20 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create customer Power BI reports in Dynamics 365 Customer Voice | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-customer-power-bi-reports/) |
 | Get started with warehouse management in Dynamics 365 Business Central | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-warehouse-management/) |
 | Use an Azure Machine Learning job for automation | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-machine-learn-job-for-automation/) |
+| Manage consent in Dynamics 365 Customer Insights - Journeys | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-consent/) |
+| Migrate open-source databases to Azure | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-open-source-workloads/) |
+| Migrate on-premises PostgreSQL databases to Azure Database for PostgreSQL | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-on-premises-postgresql-databases/) |
+| Build Generative AI applications with Azure Cosmos DB | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-generative-ai-applications-with-azure-cosmos-db-nosql/) |
+| Develop systems with organizational leadership | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-systems-with-organizational-leadership/) |
+| Use methods to accept user inputs in Windows PowerShell scripts | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-methods-to-accept-user-inputs-windows-powershell-scripts/) |
+| Get started with inventory management in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-inventory-management/) |
+| Adjust inventory in Dynamics 365 Business Central | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/adjust-inventory/) |
+| Customize high-performance computing clusters deployed with Azure CycleCloud | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-clusters-azure-cyclecloud/) |
+| Import data in different formats for use in scripts by using Windows PowerShell cmdlets | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/import-data-different-formats-for-use-scripts/) |
+| Use Azure Functions with Dynamics 365 Business Central | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-functions/) |
+| Measure index performance in Azure Cosmos DB for NoSQL | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/measure-index-azure-cosmos-db-sql-api/) |
+| Use application development best practices in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-application-development-business-central/) |
+| Introduction to application types in Business Central | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-types/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-36.md](microsoft-learn-2026-07-part-36.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-38.md](microsoft-learn-2026-07-part-38.md)

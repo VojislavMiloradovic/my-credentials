@@ -1,29 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 30 of 93
-date_range: 2026-03-30 to 2026-04-03
-total_entries: 48
+chunk_part: 30 of 92
+date_range: 2026-03-29 to 2026-04-02
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-30.md
 ---
 
-# Microsoft Learn Achievements — Part 30
+# Microsoft Learn — Part 30
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-29.md](microsoft-learn-2026-07-part-29.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-31.md](microsoft-learn-2026-07-part-31.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Identify functional table types and characteristics in Dynamics 365 Business Central | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-table-types/) |
-| Review domain authentication, email best practices, data protection and privacy in Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/review-authentication-dynamics-365-marketing/) |
-| Query management information by using Common Information Model and Windows Management Instrumentation | Learningpaths | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/query-use-common-information-model-windows-management/) |
-| Query configuration information by using CIM and WMI | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-configuration-information/) |
-| Query and manipulate repository objects by using CIM and WMI methods | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-manipulate-repository-objects/) |
-| Configure multi-region write in Azure Cosmos DB for NoSQL | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-multi-region-write-azure-cosmos-db-sql-api/) |
-| Introduction to manufacturing in Dynamics 365 Business Central | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacturing-introduction/) |
-| Implement security in Azure Cosmos DB for NoSQL | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-azure-cosmos-db-sql-api/) |
-| Know where to leverage AI in your classroom | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/know-where-leverage-ai-classroom/) |
-| Microsoft Education technology and AI learning concepts | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-education-ai-learning/) |
-| Develop generative AI apps that use tools | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-generative-ai-tools/) |
-| Assemble items in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/assemble-items-dynamics-365-business-central/) |
 | Assemble for a project in Dynamics 365 Business Central | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/assemble-projects/) |
 | Create and manage work orders in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-work-orders-asset-management/) |
 | Manage cloud resources by using Windows PowerShell | Learningpaths | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-cloud-resources-use-windows-powershell/) |
@@ -60,6 +48,19 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Configure and manage procurement and vendors in Dynamics 365 Supply Chain Management | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) |
 | Work with intercompany trade in Dynamics 365 Supply Chain Management | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-intercompany-trade/) |
 | Configure and manage sales, and customers in Dynamics 365 Supply Chain Management | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-sales-customers-dyn365-supply-chain-mgmt/) |
+| Transfer general ledger entries to cost accounting in Dynamics 365 Business Central | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/transfer-gl-entries-dynamics-365-business-central/) |
+| Sync customers to Shopify and Dynamics 365 Business Central | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/synchronize-customers-shopify/) |
+| Work with segments in Dynamics 365 Sales accelerator | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-segments-sales/) |
+| Plan to deploy the Microsoft Sentinel solution for SAP | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-microsoft-sentinel-deployment-sap/) |
+| Adjust exchange rates in Dynamics 365 Business Central | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/adjust-exchange-rates-dynamics-365-business-central/) |
+| Introduction to migrating from Amazon Web Services to Microsoft Azure | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-migrating-aws-to-azure/) |
+| Optimize data warehouse query performance in Azure Synapse Analytics | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-data-warehouse-query-performance-azure-synapse-analytics/) |
+| Monitor responses and events in Azure Cosmos DB for NoSQL | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-responses-events-azure-cosmos-db-sql-api/) |
+| Set up landed cost in Dynamics 365 Supply Chain Management | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-landed-cost-supply-chain-management/) |
+| Access a user's calendar events in an ASP.NET Core app with Microsoft Graph | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-dotnet-core-access-user-events/) |
+| Explore data manipulation options in Azure SQL Database | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-data-manipulation-azure-sql-database/) |
+| Get started with Azure Health Data Services | Learningpaths | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-health-data-services/) |
+| Work with medical imaging data and DICOM | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/medical-imaging-data/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-29.md](microsoft-learn-2026-07-part-29.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-31.md](microsoft-learn-2026-07-part-31.md)

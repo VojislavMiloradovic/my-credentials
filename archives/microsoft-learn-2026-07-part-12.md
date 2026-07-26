@@ -1,24 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 12 of 93
+chunk_part: 12 of 92
 date_range: 2026-06-02 to 2026-06-06
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-12.md
 ---
 
-# Microsoft Learn Achievements — Part 12
+# Microsoft Learn — Part 12
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-11.md](microsoft-learn-2026-07-part-11.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-13.md](microsoft-learn-2026-07-part-13.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Implement event messaging with Azure Managed Redis | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-event-messaging-azure-managed-redis/) |
-| Implement data operations in Azure Managed Redis | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-operations-azure-managed-redis/) |
-| Implement vector storage in Azure Managed Redis | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-storage-azure-managed-redis/) |
-| Deploy and monitor applications on Azure Kubernetes Service | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-monitor-apps-azure-kubernetes-service/) |
-| Configure applications on Azure Kubernetes Service | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-apps-azure-kubernetes-service/) |
-| Enhance endpoint security with Microsoft Intune and Microsoft Security Copilot | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-endpoint-security-microsoft-intune-copilot/) |
-| Prepare Microsoft Entra ID and Intune for device management | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-microsoft-entra-id-intune-device-management/) |
 | Harden endpoints and monitor security with Microsoft Intune and Defender for Endpoint | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-endpoints-monitor-security-intune-defender-endpoint/) |
 | Enroll and validate devices with Microsoft Intune | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-validate-devices-microsoft-intune/) |
 | Configure and secure devices with Microsoft Intune policies | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-devices-intune-policies/) |
@@ -62,6 +55,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Develop agents and applications using agentic programming tools | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-embed-custom-code-agents/) |
 | Implement spec-driven development using the GitHub Spec Kit | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/spec-driven-development-github-spec-kit-enterprise-developers/) |
 | Optimize vector search in Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-vector-search-azure-database-postgresql/) |
+| Develop AI solutions with Azure Database for PostgreSQL | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-database-postgresql/) |
+| Implement vector search with Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-search-azure-database-postgresql/) |
+| Build and query with Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-database-postgresql/) |
+| Reduce data exposure risk with Data Security Posture Management in Microsoft Purview | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-data-security-posture-management/) |
+| Understand data security posture management in Microsoft Purview | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-posture-management-understand/) |
+| Implement application protection and security using Microsoft Intune | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-protection-intune/) |
+| Implement Microsoft Defender for Endpoint using Microsoft Intune | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-endpoint-intune/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-11.md](microsoft-learn-2026-07-part-11.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-13.md](microsoft-learn-2026-07-part-13.md)

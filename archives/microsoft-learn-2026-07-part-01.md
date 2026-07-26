@@ -1,12 +1,12 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 1 of 93
+chunk_part: 1 of 92
 date_range: 2026-07-20 to 2026-07-25
-total_entries: 53
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md
 ---
 
-# Microsoft Learn Achievements — Part 01
+# Microsoft Learn — Part 01
 
 > **Navigation:** Prev: None | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-02.md](microsoft-learn-2026-07-part-02.md) | [Complete Archive](./microsoft-learn-complete.md)
 
@@ -65,6 +65,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Secure Windows Server on-premises and hybrid infrastructures | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-windows-server-premises-hybrid-infrastructures/) |
 | Hardening Windows Server | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-windows-server/) |
 | Plan an AI agent solution | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-design-ai-agent-solution/) |
+| Choose tools and services for your agent on Microsoft's agent platform | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-solutions-microsoft-agent-platform/) |
 
 ---
 > **Navigation:** Prev: None | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-02.md](microsoft-learn-2026-07-part-02.md)

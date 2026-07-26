@@ -1,21 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 7 of 93
-date_range: 2026-06-24 to 2026-06-27
-total_entries: 51
+chunk_part: 7 of 92
+date_range: 2026-06-22 to 2026-06-27
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-07.md
 ---
 
-# Microsoft Learn Achievements — Part 07
+# Microsoft Learn — Part 07
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-06.md](microsoft-learn-2026-07-part-06.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-08.md](microsoft-learn-2026-07-part-08.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Use Success by Design for Dynamics 365 solutions | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-success-design/) |
-| Prepare to teach AZ-500 Microsoft Azure Security Technologies | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-500-microsoft-azure-security-technologies/) |
-| Get tips and tricks for teaching AZ-500 Microsoft Azure Security Technologies | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-az-500-microsoft-azure-security-technologies/) |
-| Integration design for Dynamics 365 solutions | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/integration/) |
 | Get tips and tricks for teaching AZ-104 Microsoft Azure Administrator | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-az-104-microsoft-azure-administrator/) |
 | Prepare to teach AZ-104 Microsoft Azure Administrator in the classroom | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-104-microsoft-azure-administrator/) |
 | Post go-live strategy for Dynamics 365 solutions | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/post-go-live-dynamics-365/) |
@@ -63,6 +59,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design solutions for regulatory compliance | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-regulatory-compliance/) |
 | Design solutions for network security | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-network-security/) |
 | Design solutions for security posture management in hybrid and multicloud environments | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-security-posture-management-hybrid-multicloud-environments/) |
+| Evaluate solutions for securing Microsoft 365 | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-microsoft-365/) |
+| Solution architect series: Model security for Power Platform solutions | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/model-security/) |
+| Solution Architect: Design Microsoft Power Platform solutions | Learningpaths | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/solution-architect-data/) |
+| Explore package dependencies | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/) |
+| AZ-400: Design and implement a dependency management strategy | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-dependency-management-strategy/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-06.md](microsoft-learn-2026-07-part-06.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-08.md](microsoft-learn-2026-07-part-08.md)

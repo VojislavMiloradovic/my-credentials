@@ -1,31 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 38 of 93
+chunk_part: 38 of 92
 date_range: 2026-03-05 to 2026-03-06
-total_entries: 49
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-38.md
 ---
 
-# Microsoft Learn Achievements — Part 38
+# Microsoft Learn — Part 38
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-37.md](microsoft-learn-2026-07-part-37.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-39.md](microsoft-learn-2026-07-part-39.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Manage consent in Dynamics 365 Customer Insights - Journeys | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-consent/) |
-| Migrate open-source databases to Azure | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-open-source-workloads/) |
-| Migrate on-premises PostgreSQL databases to Azure Database for PostgreSQL | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-on-premises-postgresql-databases/) |
-| Build Generative AI applications with Azure Cosmos DB | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-generative-ai-applications-with-azure-cosmos-db-nosql/) |
-| Develop systems with organizational leadership | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-systems-with-organizational-leadership/) |
-| Use methods to accept user inputs in Windows PowerShell scripts | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-methods-to-accept-user-inputs-windows-powershell-scripts/) |
-| Get started with inventory management in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-inventory-management/) |
-| Adjust inventory in Dynamics 365 Business Central | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/adjust-inventory/) |
-| Customize high-performance computing clusters deployed with Azure CycleCloud | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-clusters-azure-cyclecloud/) |
-| Import data in different formats for use in scripts by using Windows PowerShell cmdlets | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/import-data-different-formats-for-use-scripts/) |
-| Use Azure Functions with Dynamics 365 Business Central | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-functions/) |
-| Measure index performance in Azure Cosmos DB for NoSQL | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/measure-index-azure-cosmos-db-sql-api/) |
-| Use application development best practices in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-application-development-business-central/) |
-| Introduction to application types in Business Central | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-types/) |
 | Introduction to the Microsoft service adoption framework | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-service-adoption-intro/) |
 | Use the Microsoft service adoption framework to drive adoption in your enterprise | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-service-adoption/) |
 | Extend Microsoft 365 Copilot in Copilot Studio | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-microsoft-365-copilot-studio/) |
@@ -61,6 +47,21 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Use the payment reconciliation journal in Dynamics 365 Business Central | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-journals-dynamics-365-business-central/) |
 | Use functions and modules in Windows PowerShell scripts | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-functions-modules-windows-powershell-scripts/) |
 | Select, sort, and measure objects using the pipeline | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/select-sort-measure-objects-use-pipeline/) |
+| Use checks to pay vendors in Dynamics 365 Business Central | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-checks-dynamics-365-business-central/) |
+| Process customer and vendor payments in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) |
+| Manage returns to vendors in Dynamics 365 Business Central | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-vendor-returns-dynamics-365-business-central/) |
+| Configure Microsoft Dynamics 365 Field Service | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-configure-microsoft-dynamics-365-for-field-service/) |
+| Extend declarative agents with prompt tools in Copilot Studio | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-declarative-agents-prompt-actions-copilot-studio/) |
+| Work with fixed asset deprecation and disposal in Dynamics 365 Finance | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/fixed-asset-deprecation-disposal-finance/) |
+| Suggest vendor payments in Dynamics 365 Business Central | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/suggest-vendor-payments-dynamics-365-business-central/) |
+| Understand Microsoft Priva | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/priva-understand-priva/) |
+| MD-101 Manage Windows client security | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-security-windows/) |
+| Manage Microsoft Defender in Windows client | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-defender-windows-client/) |
+| Implement test automation techniques in Business Central | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-automation/) |
+| Connect to Microsoft Power Platform services with finance and operations apps | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-power-platform-finance-operations/) |
+| Set up discounts for your customers in Dynamics 365 Business Central | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/customer-discounts-dynamics-365-business-central/) |
+| Manage site reliability | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-site-reliability/) |
+| Create visualizations for Dynamics 365 Customer Service | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/customer-service-visualizations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-37.md](microsoft-learn-2026-07-part-37.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-39.md](microsoft-learn-2026-07-part-39.md)

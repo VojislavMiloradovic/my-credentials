@@ -1,29 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 26 of 93
-date_range: 2026-04-15 to 2026-04-18
+chunk_part: 26 of 92
+date_range: 2026-04-14 to 2026-04-18
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-26.md
 ---
 
-# Microsoft Learn Achievements — Part 26
+# Microsoft Learn — Part 26
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-25.md](microsoft-learn-2026-07-part-25.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-27.md](microsoft-learn-2026-07-part-27.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Configure fixed assets setup pages in Dynamics 365 Business Central | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-fixed-asset-setup-pages/) |
-| Set up fixed assets management in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-fixed-assets-management/) |
-| Set up project planning lines in Dynamics 365 Business Central | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-job-planning-lines/) |
-| Build Microsoft Teams customization using the SharePoint Framework | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-teams-dev/) |
-| Explore your deployment options for Microsoft Edge | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-deployment-options-microsoft-edge/) |
-| Use Microsoft Graph and non-Microsoft APIs | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-graph-3rd-party-apis/) |
-| Deploy your AI Copilot with Azure Kubernetes | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-your-ai-copilot-azure-kubernetes/) |
-| Troubleshoot cloud and hybrid connectivity in Microsoft Azure | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-hybrid-connectivity/) |
-| Manage emails, segments, and journeys in Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-emails-journey/) |
-| Set up responsibility centers in Dynamics 365 Business Central | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-responsibility-centers/) |
-| Set up organization and reference data | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-setup-organization/) |
-| Work with Expense management in Dynamics 365 Project Operations | Learningpaths | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-expense-management/) |
 | Create and process expense reports in Dynamics 365 Project Operations | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-process-expense-reports/) |
 | Manage product version information in Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-product-version-engineering-change-management/) |
 | Manage changes in formulas and their ingredients in Dynamics 365 Supply Chain Management | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-changes-formulas-ingredients/) |
@@ -61,6 +49,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Configure fixed asset depreciations in Dynamics 365 Business Central | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-fixed-asset-depreciations/) |
 | Sync and fulfill Shopify sales orders in Dynamics 365 Business Central | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-sales-orders-dynamics-365-business-central/) |
 | Use the Shopify connector in Dynamics 365 Business Central | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-shopify-connector-dynamics-365-business-central/) |
+| Set up a water sustainability solution by using Microsoft Sustainability Manager | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-water-solution/) |
+| Set up a water and waste sustainability solution using Microsoft Sustainability Manager | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-sustainability-water-waste-solution/) |
+| Troubleshoot name resolution issues in Microsoft Azure | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/name-resolution-issues/) |
+| Set up project posting groups in Dynamics 365 Business Central | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-job-posting-groups/) |
+| Set up projects and resources in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-jobs-resources/) |
+| Set up basic warehouse tasks in Dynamics 365 Business Central | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-basic-warehouse-tasks/) |
+| Visualize ontology data with Microsoft Fabric IQ (preview) | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/visualize-ontology-fabric-iq/) |
+| Microsoft tenant setup for Surface Portal access | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-portal-onboarding-guide/) |
+| Set up items for tracking in Dynamics 365 Business Central | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-tracking-items/) |
+| Set up time sheets in Dynamics 365 Business Central | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-timesheets/) |
+| Enable Windows Server Extended Security Updates by using Azure Arc | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-arc-esu-windows-server/) |
+| Set up a company with multiple locations in Dynamics 365 Business Central | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-company-multiple-locations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-25.md](microsoft-learn-2026-07-part-25.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-27.md](microsoft-learn-2026-07-part-27.md)

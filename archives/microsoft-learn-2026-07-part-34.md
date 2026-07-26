@@ -1,29 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 34 of 93
-date_range: 2026-03-15 to 2026-03-17
+chunk_part: 34 of 92
+date_range: 2026-03-14 to 2026-03-17
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-34.md
 ---
 
-# Microsoft Learn Achievements — Part 34
+# Microsoft Learn — Part 34
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-33.md](microsoft-learn-2026-07-part-33.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-35.md](microsoft-learn-2026-07-part-35.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Set up and use features for resource/non-stocked based scenarios in Dynamics 365 Project Operations | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-use-features-resource-non-stocked-project-operations/) |
-| Revenue recognition in Dynamics 365 Project Operations | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-recognition/) |
-| Manage maintenance requests in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-maintenance-requests/) |
-| Set up inventory replenishment in Dynamics 365 Business Central | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-inventory-replenishment-dynamics-365-business-central/) |
-| Replenish items in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/replenish-items-dynamics-365-business-central/) |
-| Assemble to order in Dynamics 365 Business Central | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/assemble-to-order-dynamics-365-business-central/) |
-| Develop web parts with the SharePoint Framework | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-web-parts/) |
-| Schedule crews, facilities, and resource pooling in Dynamics 365 Field Service | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/schedule-resource-pools-crew-and-facilities-urs-dynamics-field-service/) |
-| Get started with resource management in Dynamics 365 Project Operations | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-project-resource-management/) |
-| Ship assemble-to-order items from the warehouse in Dynamics 365 Business Central | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/ship-assemble-to-order-items/) |
-| Deploy and analyze using care management analytics | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-care-management-analytics/) |
-| Work with real-time features in Dynamics 365 Customer Insights - Journeys | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-real-time-marketing/) |
 | Extend real-time marketing capabilities within Dynamics 365 Customer Insights - Journeys | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-real-time-marketing-capabilities/) |
 | Configure and use agreements in Dynamics 365 Supply Chain Management | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-use-agreements-dyn365-supply-chain-mgmt/) |
 | Manage Microsoft Power Platform deployments | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/designing-power-platform-deployments/) |
@@ -60,6 +48,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Set up cost and sales prices for time, expense, and materials in Dynamics 365 Project Operations | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-cost-sales-price/) |
 | Extend Dynamics 365 Customer Service | Learningpaths | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-customer-service/) |
 | Create custom apps for Dynamics 365 Customer Service | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-apps-customer-service/) |
+| Create fixed asset classes, subclasses, and locations in Dynamics 365 Business Central | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-classes-subclasses-locations/) |
+| Ingest DICOM data into healthcare data solutions in Microsoft Fabric | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-dicom-ingestion/) |
+| Access REST services from within Dynamics 365 Business Central | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/access-rest-services/) |
+| Identify and configure batch attributes for process manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-configure-batch-attributes-process-manufacturing-dyn365-supply-chain-mgmt/) |
+| Set up intercompany trade in Dynamics 365 Supply Chain Management | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-intercompany-trade/) |
+| Deploy and configure Sales in Microsoft 365 Copilot | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/sales-copilot-deploy-configure/) |
+| Use Dynamics 365 Copilot for Sales | Learningpaths | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-copilot-sales/) |
+| Configure and manage vendor collaboration in Dynamics 365 Supply Chain Management | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-vendor-collaboration-dyn365-supply-chain-mgmt/) |
+| Managing estimation and sales process using Dynamics 365 Project Operations | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-estimations-project-operations/) |
+| Set up functional locations in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-functional-locations-asset-management/) |
+| Validate your Dynamics 365 customer experience analyst skills | Learningpaths | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-your-dynamics-365-customer-experience-analyst-skills/) |
+| Challenge project - Configure a Dynamics 365 customer experience solution | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-configure-dynamics-365-customer-experience-solution/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-33.md](microsoft-learn-2026-07-part-33.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-35.md](microsoft-learn-2026-07-part-35.md)

@@ -1,21 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 6 of 93
-date_range: 2026-06-27 to 2026-07-02
+chunk_part: 6 of 92
+date_range: 2026-06-27 to 2026-07-01
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-06.md
 ---
 
-# Microsoft Learn Achievements — Part 06
+# Microsoft Learn — Part 06
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-05.md](microsoft-learn-2026-07-part-05.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-07.md](microsoft-learn-2026-07-part-07.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Explore Azure for SAP workloads | Learningpaths | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-azure-for-sap-workloads/) |
-| Connect Power Platform to SAP on Azure | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-power-platform-to-sap-azure/) |
-| Troubleshoot Microsoft Teams meetings live events and messaging | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-microsoft-teams-meetings-live-events-messaging/) |
-| Deploy and manage resources in Azure by using JSON ARM templates | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-resource-manager-templates/) |
 | Extend Bicep and ARM templates using deployment scripts | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-resource-manager-template-deployment-scripts/) |
 | Explore healthcare data solutions in Microsoft Fabric | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-healthcare-data-solutions/) |
 | Ingest clinical data in FHIR into healthcare data solutions in Microsoft Fabric | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-fhir-data-ingestion/) |
@@ -64,6 +60,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Extend Power Pages websites | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-extend/) |
 | Extend Power Pages | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-power-pages/) |
 | Cutover strategy for Dynamics 365 solutions | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/cutover-strategy-dynamics-365/) |
+| Use Success by Design for Dynamics 365 solutions | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-success-design/) |
+| Prepare to teach AZ-500 Microsoft Azure Security Technologies | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-500-microsoft-azure-security-technologies/) |
+| Get tips and tricks for teaching AZ-500 Microsoft Azure Security Technologies | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-az-500-microsoft-azure-security-technologies/) |
+| Integration design for Dynamics 365 solutions | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/integration/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-05.md](microsoft-learn-2026-07-part-05.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-07.md](microsoft-learn-2026-07-part-07.md)

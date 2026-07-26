@@ -1,27 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 19 of 93
+chunk_part: 19 of 92
 date_range: 2026-05-04 to 2026-05-08
-total_entries: 52
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-19.md
 ---
 
-# Microsoft Learn Achievements — Part 19
+# Microsoft Learn — Part 19
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-18.md](microsoft-learn-2026-07-part-18.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-20.md](microsoft-learn-2026-07-part-20.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Build knowledge-enhanced AI agents with Foundry IQ | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-foundry-iq/) |
-| Analyze images with Content Understanding | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-images-with-content-understanding/) |
-| Analyze and debug your generative AI app with tracing | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/tracing-generative-ai-app/) |
-| Secure access for Microsoft Entra Agent Identity | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-access-entra-agent-identity/) |
-| Manage agents using Microsoft Agent 365 | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-agents-microsoft-agent-365/) |
-| Choose the right moment to modernize Windows Server | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-the-right-moment/) |
-| Dragon Copilot (physicians) practical application exercises | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-physicians-practical-application-exercises/) |
-| Dragon Copilot (physicians) practical application exercises summary | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-practical-applications-summary/) |
-| Dragon Copilot (physicians) introduction to practical application exercises | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-welcome-to-practical-applications/) |
-| Understand AI agents and prompting | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-ai-agents-prompting/) |
 | Turn information into decisions with AI agents | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/turn-info-into-decisions-ai-agents/) |
 | Experience Security Copilot through guided simulations | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-interactive-guides/) |
 | Enhance ESG Reporting with social and governance data | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-track-social-governance-data/) |
@@ -64,6 +54,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with Fabric IQ | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-fabric-iq/) |
 | Design agent conversations and responses using topics in Microsoft Copilot Studio | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-agent-conversations-responses-topics-copilot-studio/) |
 | Take action from agent conversations using topics and tools in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/take-action-agent-topics-tools-flows-copilot-studio/) |
+| Generate AI-powered agent responses using generative answers in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-ai-powered-responses-generative-answers-copilot-studio/) |
+| Deliver rich agent responses using Adaptive Cards in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/deliver-rich-agent-responses-adaptive-cards-copilot-studio/) |
+| Automate workflows using agent flows in Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-workflows-agent-flows-copilot-studio/) |
+| Introduction to Microsoft Entra Agent ID | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-entra-agent-id/) |
+| Design multi-agent solutions in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-agent-solutions-copilot-studio/) |
+| Design and build multi-agent solutions in Microsoft Copilot Studio | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-build-multi-agent-solutions-copilot-studio/) |
+| Design integration strategies for agents in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-enterprise-integration-strategies-agents-copilot-studio/) |
+| Delegate agent tasks using child agents in Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/delegate-agent-tasks-child-agents-copilot-studio/) |
+| Build multi-agent solutions using connected agents in Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-multi-agent-solutions-connected-agents-copilot-studio/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-18.md](microsoft-learn-2026-07-part-18.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-20.md](microsoft-learn-2026-07-part-20.md)

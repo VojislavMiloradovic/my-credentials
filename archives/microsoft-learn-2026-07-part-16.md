@@ -1,26 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 16 of 93
-date_range: 2026-05-17 to 2026-05-20
+chunk_part: 16 of 92
+date_range: 2026-05-17 to 2026-05-19
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-16.md
 ---
 
-# Microsoft Learn Achievements — Part 16
+# Microsoft Learn — Part 16
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-15.md](microsoft-learn-2026-07-part-15.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-17.md](microsoft-learn-2026-07-part-17.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Introduction to Azure Functions in IoT solutions | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-functions-iot/) |
-| Discover faster insights with Improved Windows Search | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/improved-windows-search/) |
-| introduction-surface-laptop-8th-edition | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-surface-laptop-8th-edition/) |
-| Introduction to Azure IoT Edge | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-iot-edge/) |
-| Write advanced T-SQL code | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-advanced-sql-code/) |
-| Automate AI evaluations with Microsoft Foundry and GitHub Actions | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/automated-evaluation-genaiops/) |
-| Maximize the Cost Efficiency of AI Agents on Azure | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/maximize-cost-efficiency-ai-agents/) |
-| Understand the key cost drivers of AI agents | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-agent-cost-structure/) |
-| Maximize cost efficiency by choosing the right AI agent development approach on Azure | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/maximize-cost-efficiency-ai-agent-development/) |
 | Manage and optimize AI agent investments on Azure | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-optimize-agent-investment-azure/) |
 | Implement best practices to empower AI agent efficiency and ensure long-term success | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/adopt-ai-agent-best-practice/) |
 | Identify and Prioritize High-Impact AI Agent Use Cases | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-ai-agent-use-case/) |
@@ -63,6 +54,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Set up and configure an Azure Databricks environment | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-set-up-configure-environment/) |
 | Understand Azure Databricks architecture | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-databricks-architecture/) |
 | Dragon Copilot 101 for nurse champions | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-for-nurse-champions/) |
+| Understand the nurse champion role for Dragon Copilot | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-welcome-to-nurse-champion/) |
+| Enforce governance with Azure Policy and resource locks | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-governance-azure-policy-resource-locks/) |
+| Enforce security governance and regulatory compliance | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-governance-compliance/) |
+| Eliminate public network exposure of Azure PaaS services | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/eliminate-public-exposure-paas-private-link/) |
+| Implement network security controls in Azure | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-network-security-controls-azure/) |
+| Dragon Copilot - nurse leaders adoption and reinforcement | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/nurse-leaders-adoption/) |
+| Dragon Copilot nurse leaders 101 | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-for-nurse-leaders/) |
+| Segment and isolate Azure workloads using network security controls | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/segment-isolate-workloads-network-security-controls/) |
+| Secure remote and hybrid connectivity using VPN gateways and Microsoft Entra Private Access | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-hybrid-connectivity-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-15.md](microsoft-learn-2026-07-part-15.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-17.md](microsoft-learn-2026-07-part-17.md)

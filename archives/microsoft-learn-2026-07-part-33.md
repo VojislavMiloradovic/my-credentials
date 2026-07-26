@@ -1,29 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 33 of 93
-date_range: 2026-03-17 to 2026-03-21
+chunk_part: 33 of 92
+date_range: 2026-03-17 to 2026-03-20
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-33.md
 ---
 
-# Microsoft Learn Achievements — Part 33
+# Microsoft Learn — Part 33
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-32.md](microsoft-learn-2026-07-part-32.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-34.md](microsoft-learn-2026-07-part-34.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Set up currencies and exchange rates in Dynamics 365 Business Central | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/currencies-exchange-rates-dynamics-365-business-central/) |
-| Invoicing customers in Dynamics 365 Business Central | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/invoicing-customers-dynamics-365-business-central/) |
-| Process bulk data in Azure Cosmos DB for NoSQL | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-bulk-data-azure-cosmos-db-sql-api/) |
-| Route and distribute work with unified routing in Dynamics 365 Customer Service | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/route-distribute-work/) |
-| Perform basic identity and access tasks | Learningpaths | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/perform-basic-identity-access-tasks/) |
-| Create, configure, and manage identities | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/) |
-| Configure and use process manufacturing in Dynamics 365 Supply Chain Management | Learningpaths | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) |
-| Configure formulas for process manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-formulas-process-manufacturing/) |
-| Work with Microsoft Power Platform tenants, environments, subscriptions, and Dynamics 365 apps | Learningpaths | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/implementing-customer-engagement-apps/) |
-| Administer Microsoft Power Platform subscriptions | Modules | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/administrating-power-platform-subscriptions/) |
-| Create journals for fixed assets in Dynamics 365 Business Central | Modules | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-journals/) |
-| Prepare to teach AP Computer Science Principles with Microsoft MakeCode Arcade | Modules | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-teach-ap-computer-science-principles-microsoft-makecode-arcade/) |
 | Configure the procure-to-purchase process in Dynamics 365 Supply Chain Management | Modules | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-procure-purchase/) |
 | Manage transportation management in Dynamics 365 Supply Chain Management | Modules | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-transportation-management-dyn365-supply-chain-mgmt/) |
 | Configure and work with transportation management in Dynamics 365 Supply Chain Management | Learningpaths | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/) |
@@ -60,6 +48,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | MD-015 Implement Windows 365 Cloud PCs | Learningpaths | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-365-cloud-pcs/) |
 | Explore Windows 365 Cloud PC management options | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-365-cloud-pc-management/) |
 | Get started with Connected Customer Service for Dynamics 365 and Azure IoT | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-connected-customer-service/) |
+| Set up and use features for resource/non-stocked based scenarios in Dynamics 365 Project Operations | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-use-features-resource-non-stocked-project-operations/) |
+| Revenue recognition in Dynamics 365 Project Operations | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-recognition/) |
+| Manage maintenance requests in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-maintenance-requests/) |
+| Set up inventory replenishment in Dynamics 365 Business Central | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-inventory-replenishment-dynamics-365-business-central/) |
+| Replenish items in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/replenish-items-dynamics-365-business-central/) |
+| Assemble to order in Dynamics 365 Business Central | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/assemble-to-order-dynamics-365-business-central/) |
+| Develop web parts with the SharePoint Framework | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-web-parts/) |
+| Schedule crews, facilities, and resource pooling in Dynamics 365 Field Service | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/schedule-resource-pools-crew-and-facilities-urs-dynamics-field-service/) |
+| Get started with resource management in Dynamics 365 Project Operations | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-project-resource-management/) |
+| Ship assemble-to-order items from the warehouse in Dynamics 365 Business Central | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/ship-assemble-to-order-items/) |
+| Deploy and analyze using care management analytics | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-care-management-analytics/) |
+| Work with real-time features in Dynamics 365 Customer Insights - Journeys | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-real-time-marketing/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-32.md](microsoft-learn-2026-07-part-32.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-34.md](microsoft-learn-2026-07-part-34.md)

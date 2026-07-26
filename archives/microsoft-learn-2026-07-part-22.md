@@ -1,28 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 22 of 93
-date_range: 2026-04-25 to 2026-04-27
-total_entries: 52
+chunk_part: 22 of 92
+date_range: 2026-04-24 to 2026-04-27
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-22.md
 ---
 
-# Microsoft Learn Achievements — Part 22
+# Microsoft Learn — Part 22
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-21.md](microsoft-learn-2026-07-part-21.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-23.md](microsoft-learn-2026-07-part-23.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Manage outbound serial and lot numbers in Dynamics 365 Business Central | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-outbound-serial-lot-numbers/) |
-| Use serial and lot numbers in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-serial-lot-numbers/) |
-| Use Service Management in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-service-management-business-central/) |
-| Process service in Dynamics 365 Business Central | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-service/) |
-| Transfer, split, and combine fixed assets in Dynamics 365 Business Central | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/transfer-split-combine-fixed-assets/) |
-| Reclassify fixed assets in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/reclassify-fixed-assets/) |
-| Configure costing sheets in Dynamics 365 Supply Chain Management | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-costing-sheets/) |
-| Trace serial and lot numbers in Dynamics 365 Business Central | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/trace-serial-lot-numbers/) |
-| Get started with payment integrations in Power Pages | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-payment-integrations/) |
-| Get Started with Power Pages | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-pages-get-started/) |
-| Set up Dynamics 365 Intelligent Order Management | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-intelligent-order-management/) |
 | Use application lifecycle management in Dynamics 365 Intelligent Order Management | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/lifecycle-management-intelligent-order-management/) |
 | Migrating Cassandra and MongoDB workloads to Cosmos DB | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-cassandra-mongo-db-workloads-to-cosmos-db/) |
 | Introduction to open source database migration to Azure Cosmos DB | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-open-source-database-migration-azure-cosmos-db/) |
@@ -64,6 +53,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage warehouse processes in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-warehouse-processes/) |
 | Move items in Dynamics 365 Business Central | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/move-items/) |
 | Work with Dynamics 365 Sales insights | Learningpaths | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-sales-insights/) |
+| Configure Sales Insights | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configuring-sales-insights/) |
+| Gather customer feedback with Dynamics 365 Customer Voice | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/customer-voice-service-feedback/) |
+| Manage advanced fixed assets transactions in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-advanced-fixed-assets-transactions/) |
+| Correct entries in Dynamics 365 Business Central | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/correct-entries/) |
+| Improve customer relationships using effective account management with Dynamics 365 Customer Voice | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-customer-relationships/) |
+| Forecast by using demand planning in Dynamics 365 Supply Chain Management | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/forecast-using-demand-planning/) |
+| Promote events, manage registration and check-ins, and review results in Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/promote-events-dynamics-365-marketing/) |
+| Work with revenue recognition in Dynamics 365 Finance | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-recognition-finance/) |
+| Deploy and configure Microsoft Edge and Microsoft Search for all your devices | Learningpaths | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-microsoft-edge-search-for-devices/) |
+| Explore the Microsoft Search user experience and how to enable and configure it for your devices | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-search-user-experience/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-21.md](microsoft-learn-2026-07-part-21.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-23.md](microsoft-learn-2026-07-part-23.md)

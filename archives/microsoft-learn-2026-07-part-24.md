@@ -1,27 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 24 of 93
+chunk_part: 24 of 92
 date_range: 2026-04-20 to 2026-04-22
-total_entries: 51
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-24.md
 ---
 
-# Microsoft Learn Achievements — Part 24
+# Microsoft Learn — Part 24
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-23.md](microsoft-learn-2026-07-part-23.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-25.md](microsoft-learn-2026-07-part-25.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Use item journals in the warehouse in Dynamics 365 Business Central | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-item-journals-warehouse/) |
-| Work with service items in Dynamics 365 Business Central | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-work-service-items/) |
-| Use warehouse management only mode in Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-warehouse-management-only-mode/) |
-| Get started with Warehouse management only mode in Dynamics 365 Supply Chain Management | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-warehouse-management-only-mode/) |
-| Work with service orders in Dynamics 365 Business Central | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-orders/) |
-| Build your first deployment stack | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-deployment-stack/) |
-| Receive orders in Dynamics 365 Business Central | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/receive-orders/) |
-| Produce items in the warehouse in Dynamics 365 Business Central | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/produce-items-warehouse/) |
-| Guided project: Build and Deploy your own AI Copilot | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-build-deploy-your-own-ai-copilot/) |
-| Migrate on-premises MongoDB databases to Cosmos DB | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-on-premises-mongodb-databases-azure-database-mongodb/) |
 | Manage website visits, redirect URLs, and social postings in Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-websites-redirects-social/) |
 | Work with outbound marketing features in Dynamics 365 Customer Insights - Journeys | Learningpaths | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-core-features-marketing/) |
 | Work with service orders in Dynamics 365 Supply Chain Management | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-orders-supply-chain-management/) |
@@ -63,6 +53,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Index fixed assets in Dynamics 365 Business Central | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/index-fixed-assets/) |
 | Understand client-server communication in MySQL | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-client-server-communication-mysql/) |
 | Work with MySQL Databases on Azure | Learningpaths | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-mysql-databases-azure/) |
+| Work with Warehouse management only mode in Dynamics 365 Supply Chain Management | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-warehouse-management-only-mode/) |
+| Understand concurrency in MySQL | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-concurrency-mysql/) |
+| Work with service order dispatching in Dynamics 365 Supply Chain Management | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-order-dispatching/) |
+| Extend Microsoft SharePoint – Associate | Learningpaths | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-sharepoint-associate/) |
+| Deploy SharePoint Framework Components to Production | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-deployment/) |
+| Build a Fabric data agent with an ontology | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-fabric-data-agent-ontology/) |
+| Record fixed asset opening transactions in Dynamics 365 Business Central | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/record-fixed-assets-opening-transactions/) |
+| Close a project in Dynamics 365 Business Central | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-job/) |
+| Ingest emissions activity data | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-data-ingestion/) |
+| Challenge project - Create products and set up a product catalog | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-products-set-up-product-catalog/) |
+| Validate your Dynamics 365 Sales Functional Consultant skills | Learningpaths | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-dynamics-365-sales-functional-consultant-skills/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-23.md](microsoft-learn-2026-07-part-23.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-25.md](microsoft-learn-2026-07-part-25.md)

@@ -1,31 +1,17 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 36 of 93
-date_range: 2026-03-09 to 2026-03-12
+chunk_part: 36 of 92
+date_range: 2026-03-08 to 2026-03-12
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-36.md
 ---
 
-# Microsoft Learn Achievements — Part 36
+# Microsoft Learn — Part 36
 
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-35.md](microsoft-learn-2026-07-part-35.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-37.md](microsoft-learn-2026-07-part-37.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Set up put-away templates in Dynamics 365 Business Central | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/put-away-templates/) |
-| Monitor your generative AI application | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-generative-ai-app/) |
-| Get started and use functionality in Microsoft Dynamics 365 Human Resources | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-use-human-resources/) |
-| Set up and use Employee self service and Manager self service  in Dynamics 365 Human Resources | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-self-service/) |
-| Advanced project planning and task scheduling capabilities in Dynamics 365 Project Operations | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-project-planning-task-scheduling/) |
-| Work with the costing sheet in Dynamics 365 Supply Chain Management | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-costing-sheet-dyn365-supply-chain-mgmt/) |
-| Outbound warehouse operations using Dynamics 365 Supply Chain Management | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/outbound-operations-supply-chain-management/) |
-| Evaluate strategies for migrating to Azure SQL | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-strategies-for-migrating-to-azure-sql/) |
-| Work with cash and bank management in Dynamics 365 Finance | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-cash-bank-dyn365-dyn365-finance/) |
-| Bring AI to your business with AI Builder | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/bring-ai/) |
-| Use text generation in AI Builder | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-text-generation/) |
-| Leadership in the modern workplace | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/leadership-modern-workplace/) |
-| Create an inclusive environment with cultural leadership | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-inclusive-environment-cultural-leadership/) |
-| Manage Apps in Windows 365 Cloud PCs | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-apps-windows-365-cloud-pcs/) |
 | Get started with Java on Azure | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-java-azure/) |
 | Containerize and deploy a Java app to Azure | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/containerize-deploy-java-app-aks/) |
 | MS-101 Manage content search and investigations in Microsoft 365 | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-content-search-investigations-microsoft-365/) |
@@ -63,6 +49,20 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Understand data protection and resiliency in Azure NetApp Files | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-data-protection/) |
 | Implement a data engineering solution with Azure Databricks | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer/) |
 | Perform incremental processing with spark structured streaming | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-incremental-processing-with-spark-structured-streaming/) |
+| Implement integrated cache in Azure Cosmos DB for NoSQL | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-integrated-cache/) |
+| Provision and deploy Windows 365 Cloud PCs | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-windows-365-cloud-pcs/) |
+| Introduction to SAP on Microsoft Cloud | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sap-microsoft-cloud/) |
+| Work with entitlements and service level agreements in Dynamics 365 Customer Service | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-entitlements-and-slas-in-microsoft-dynamics-365-for-customer-service/) |
+| Create and manage entitlements in Microsoft Dynamics 365 Customer Service | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/creating-and-managing-entitlements-in-dynamics-365/) |
+| Inbound warehouse operations using Dynamics 365 Supply Chain Management | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/inbound-operations-supply-chain-management/) |
+| Azure security for Azure NetApp Files | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-security/) |
+| Get started with unified routing for Dynamics 365 Customer Service | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-unified-routing/) |
+| Teach AP Computer Science Principles with the Microsoft MakeCode curriculum | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-ap-computer-science-principles-makecode/) |
+| Execute queries and build a Generative AI application with Azure Cosmos DB | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/execute-queries-azure-cosmos-db-sql-api/) |
+| Query the Azure Cosmos DB for NoSQL | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-azure-cosmos-db-sql-api/) |
+| Implement interfaces in Dynamics 365 Business Central | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-interfaces/) |
+| Create surveys with Dynamics 365 Customer Voice | Learningpaths | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-surveys/) |
+| Automate Dynamics 365 Customer Voice surveys with Power Automate | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-customer-voice-surveys/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-35.md](microsoft-learn-2026-07-part-35.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-37.md](microsoft-learn-2026-07-part-37.md)
