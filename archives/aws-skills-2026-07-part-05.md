@@ -6,25 +6,25 @@ total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-05.md
 ---
 
-# AWS Skill Builder Achievements — Part 05
+# AWS Skill Builder — Part 05
 
 > **Navigation:** Prev: [aws-skills-2026-07-part-04.md](aws-skills-2026-07-part-04.md) | [Index](./aws-skills-index.md) | Next: None | [Complete Archive](./aws-skills-complete.md)
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Introduction to AWS Elemental MediaConnect | Digital Course | 2026-02-10 | 1 hour |
 | Amazon Q Developer Getting Started | Digital Course | 2026-02-10 | 1 hour |
 | AWS Transform for mainframe Fundamentals | Digital Course | 2026-02-10 | 45 minutes |
-| Introduction to AWS Elemental MediaConnect | Digital Course | 2026-02-10 | 1 hour |
+| AWS Transform MGN Getting Started | Digital Course | 2026-02-09 | 45 minutes |
 | [RETIRED] Introduction to AWS WAF | Digital Course | 2026-02-09 | 15 minutes |
-| AWS Application Migration Service Getting Started | Digital Course | 2026-02-09 | 45 minutes |
 | Introduction to Amazon CloudWatch Logs Insights | Digital Course | 2026-02-08 | 15 minutes |
 | Fundamentals of Generative AI | Digital Course | 2026-02-07 | 3 hours |
 | [RETIRING - 2026-08-04] Introduction to Robotics on AWS | Digital Course | 2026-02-06 | 30 minutes |
 | Introduction to Decoupled Applications | Digital Course | 2026-02-05 | 20 minutes |
 | Amazon Connect Instance Fundamentals | Digital Course | 2026-02-04 | 35 minutes |
-| Essentials of Prompt Engineering | Digital Course | 2026-02-03 | 1 hour |
 | Introduction to Amazon Athena | Digital Course | 2026-02-03 | 10 minutes |
 | Sustainability Strategies with Generative AI | Digital Course | 2026-02-03 | 20 minutes |
+| Essentials of Prompt Engineering | Digital Course | 2026-02-03 | 1 hour |
 | [RETIRED] Introduction to AWS Security Token Services (STS) | Digital Course | 2026-02-02 | 20 minutes |
 | [RETIRED] Build a migration assessment with AWS Transform | Digital Course | 2026-02-01 | 10 minutes |
 | AWS for Media & Entertainment Content Production Security Essentials | Digital Course | 2026-02-01 | 15 minutes |
@@ -34,8 +34,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Cloud for Small Business Owners | Digital Course | 2026-01-28 | 13 minutes |
 | Amazon RDS Service Primer | Digital Course | 2026-01-27 | 20 minutes |
 | AWS Storage Services - Portfolio Introduction | Digital Course | 2026-01-26 | 40 minutes |
-| AWS Block Storage Services Getting Started | Digital Course | 2026-01-25 | 35 minutes |
 | Introduction to AWS Identity and Access Management (IAM) | Digital Course | 2026-01-25 | 10 minutes |
+| AWS Block Storage Services Getting Started | Digital Course | 2026-01-25 | 35 minutes |
 | Amazon FSx Getting Started | Digital Course | 2026-01-24 | 1 hour |
 | Cloud for Risk and Compliance Executives | Digital Course | 2026-01-24 | 11 minutes |
 | Amazon Security Lake Getting Started | Digital Course | 2026-01-23 | 1 hour |
@@ -43,21 +43,21 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | AWS SimuLearn: Cloud First Steps | Aws Simulearn | 2026-01-21 | 1 hour |
 | AWS Foundations: Getting Started with the AWS Cloud Essentials | Digital Course | 2026-01-20 | 1 hour |
 | Building a Generative AI-Ready Organization | Digital Course | 2026-01-19 | 1 hour |
-| AWS Compute Services Overview | Digital Course | 2026-01-18 | 40 minutes |
 | AWS SimuLearn: File Systems in the Cloud | Aws Simulearn | 2026-01-18 | 1 hour |
-| [RETIRING - 2026-08-10] Amazon Q Introduction | Digital Course | 2026-01-17 | 15 minutes |
+| AWS Compute Services Overview | Digital Course | 2026-01-18 | 40 minutes |
 | Introduction to the AWS Cloud Adoption Framework (CAF) | Digital Course | 2026-01-17 | 45 minutes |
 | The Cloud Architect Role in the AWS Cloud | Digital Course | 2026-01-17 | 10 minutes |
+| [RETIRING - 2026-08-10] Amazon Q Introduction | Digital Course | 2026-01-17 | 15 minutes |
 | AWS SimuLearn: Cloud Computing Essentials | Aws Simulearn | 2026-01-16 | 1 hour |
 | Introduction to Containers | Digital Course | 2026-01-16 | 15 minutes |
 | Planning a Generative AI Project | Digital Course | 2026-01-15 | 1 hour |
 | Exploring Artificial Intelligence Use Cases and Applications | Digital Course | 2026-01-14 | 1 hour |
 | Responsible Artificial Intelligence Practices | Digital Course | 2026-01-13 | 1 hour |
 | Generative AI for Executives | Digital Course | 2026-01-12 | 50 minutes |
-| AWS Command Line Interface (CLI) Basics | Digital Course | 2026-01-11 | 7 minutes |
 | Introduction to Machine Learning: Art of the Possible | Digital Course | 2026-01-11 | 30 minutes |
-| Fundamentals of Machine Learning and Artificial Intelligence | Digital Course | 2026-01-09 | 1 hour |
+| AWS Command Line Interface (CLI) Basics | Digital Course | 2026-01-11 | 7 minutes |
 | Getting Started with DevOps on AWS | Digital Course | 2026-01-09 | 1 hour |
+| Fundamentals of Machine Learning and Artificial Intelligence | Digital Course | 2026-01-09 | 1 hour |
 | Introduction to Generative AI - Art of the Possible | Digital Course | 2026-01-07 | 1 hour |
 | Job Roles in the Cloud | Digital Course | 2026-01-06 | 30 minutes |
 
