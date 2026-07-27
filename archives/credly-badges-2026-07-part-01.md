@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 1 of 10
-date_range: 2026-07-11 to 2026-07-26
+date_range: 2026-07-14 to 2026-07-27
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md
 ---
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-27 | **AWS Educate Getting Started with Cloud Ops - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/c1b15993-b012-43a3-bdcb-946d4ee73452) |
+| 2026-07-27 | **Beyond Atomic Testing with Attack Flows** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/bb201075-aef3-4e05-b357-f024ab834146) |
+| 2026-07-27 | **Building GenAI Applications with MongoDB** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/4bd6f004-be81-4cc2-bc6a-8c12d1a51a4c) |
+| 2026-07-27 | **Cloud Sales Pro - Security Posture Management** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/b785897b-343d-4e17-b23b-2435c7fec78d) |
+| 2026-07-27 | **Monitoring MongoDB with Built-in Tools** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/adc19ddf-d4cd-43e0-ba42-9321bcf43590) |
+| 2026-07-27 | **MSP Academy: Automation** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/d16d9c70-9200-49b5-8a1f-706919b48e24) |
+| 2026-07-27 | **Optimizing MongoDB Performance with Tuning Tools** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/82776add-b997-4015-8224-59cadac439e9) |
+| 2026-07-27 | **Search with MongoDB** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/2e01c42a-77e8-4636-9168-5cfac204a43f) |
+| 2026-07-27 | **Secure Digital Transformation - Best Practices and Strategies** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/fe38aea0-445e-4345-b9df-c59a044f5362) |
+| 2026-07-27 | **Using Voyage Models with MongoDB** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/ff0f8b49-ec79-420e-854b-6f4f5d7b29e5) |
 | 2026-07-26 | **Protect Sensitive Data with Data Loss Prevention Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/5cc3e16f-1432-408b-baf1-5a82c6d65229) |
 | 2026-07-24 | **AWS Educate Getting Started with Networking - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/95dadb7d-8f0b-4520-b945-c7b41292f126) |
 | 2026-07-24 | **Cloud Sales Pro - Email Security** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/1ae5dbfc-3538-41eb-b208-8cd3fa60648a) |
@@ -53,16 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-15 | **Strategic Cybersecurity Management** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/e0cfb483-3bab-4f21-b48e-896e6e02a2de) |
 | 2026-07-14 | **Acronis Cyber Protect – Endpoint Management Basics** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/e9ff04b3-1b9b-40be-a241-a663e3a6a251) |
 | 2026-07-14 | **AWS Knowledge: AI Basics - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/fbb02508-656a-4241-b49c-182dcd8f43ee) |
-| 2026-07-14 | **FIPS Frontrunner** | issued by Chainguard | `Credly Verified` | [Verify](https://www.credly.com/badges/93ad4964-81b4-45ad-b613-688f0505a759) |
-| 2026-07-14 | **From Relational Model (SQL) to MongoDB's Document Model** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/b4e44a5b-2f20-4388-91fa-0e84a1dff433) |
-| 2026-07-14 | **Uniting Threat and Risk Management with NIST 800-53 and MITRE ATT&CK** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/5a3154e0-56dc-49d6-bd27-035a773fc3eb) |
-| 2026-07-13 | **Introduction To FIN6 Emulation Plans** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/5f450636-c464-4b68-8bb8-3dadf9ef77b3) |
-| 2026-07-13 | **MongoDB Basics for Students** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/d1bad48d-237a-4939-ae0f-3d4e3fca7386) |
-| 2026-07-13 | **OPSWAT Introduction to Critical Infrastructure Protection (ICIP)** | issued by OPSWAT | `Credly Verified` | [Verify](https://www.credly.com/badges/0a4d5c94-1c92-4035-a997-a6b86369a0f8) |
-| 2026-07-12 | **Acronis Cyber Frame Basic** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/82c5caa9-aa5c-4d6b-ae63-fb14b8b8dd4a) |
-| 2026-07-12 | **Acronis Cyber Protect – Backup and Recovery Basics** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/6fb18152-a9ab-41af-9013-ed28413e1c46) |
-| 2026-07-12 | **AWS Educate Machine Learning Foundations - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/fabe8a28-df63-4218-8d33-551e91c305bb) |
-| 2026-07-11 | **AI Agent Builder** | issued by Make | `Credly Verified` | [Verify](https://www.credly.com/badges/fee7b9ad-5767-4aa5-add5-8805f835bd06) |
 
 ---
 > **Navigation:** Prev: None | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md)

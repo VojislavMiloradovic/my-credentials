@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 3 of 10
-date_range: 2026-06-18 to 2026-06-29
-total_entries: 50
+date_range: 2026-06-21 to 2026-07-02
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-03.md
 ---
 
@@ -12,6 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-02 | **Manage Change and Scale Adoption** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/06895ebe-457b-40c8-8c8d-336b96da8ac4) |
+| 2026-07-02 | **Process Automation Concepts** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/da7e7652-ed54-4938-b484-e509978ae444) |
+| 2026-07-02 | **Process Mining Audit Professional** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/f2f7155c-98d7-40ee-8c4d-6a6fd43667ab) |
+| 2026-07-02 | **Use and Interpret Views** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/98c3a33b-f27a-4850-84b1-dd59f013f830) |
+| 2026-07-01 | **Discovering Entrepreneurship** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/e0ae2fb9-9f66-424a-a990-8cca00679943) |
+| 2026-06-30 | **Build Action Flows** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/44ae4fe8-2731-49a9-9f56-d1570fe1929e) |
+| 2026-06-30 | **Cloud Tech Associate Advanced Security + EDR** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/d10714da-78fa-47cd-8697-29e5f9154317) |
+| 2026-06-30 | **Get Data into Celonis** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/81a7aff4-f3b9-4a3e-9a17-b3a01fe5a8a8) |
+| 2026-06-30 | **Process Mining - From Theory to Execution** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/98d698c4-3ab6-4280-a13c-decb2a975a90) |
+| 2026-06-30 | **Set Up an App Dev Environment on Google Cloud Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/43021c74-b7bc-4226-a740-e9ffa98089d7) |
+| 2026-06-30 | **Write PQL Queries** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/4d55a0a8-12a1-4bd6-b480-04adeaa7e320) |
 | 2026-06-29 | **Academic Process Mining Fundamentals** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/20201bb7-c784-40de-99ab-d72dc8147145) |
 | 2026-06-29 | **Celonis AI Foundations** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/584ca505-5e6b-4d33-ae7e-be95f464c2eb) |
 | 2026-06-29 | **Cloud Tech Associate Advanced Management** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/30b95128-ad8f-470c-85e7-e00a4ceba43b) |
@@ -52,16 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-22 | **LFS184: Introduction to JavaScript Security** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/adbfc39b-1a5a-4225-80bc-0ee44b06bcd5) |
 | 2026-06-22 | **Use APIs to Work with Cloud Storage Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/3a261bec-3e3f-41ca-b362-3eaf9f06bd90) |
 | 2026-06-21 | **The Basics of Google Cloud Compute Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/1add8a23-2f6c-4308-bcd7-39c83fcc42f6) |
-| 2026-06-20 | **AWS Knowledge: Amazon ECS - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/6b61161d-dd36-4991-b23a-8ec2b7c96368) |
-| 2026-06-20 | **Brand Your Okta Customer Identity Experience** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/ef277f59-d9a8-464c-88be-5e92dcb590a2) |
-| 2026-06-20 | **Implement B2C Self-Service Registration with Okta** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/50cbbb61-b545-4f07-b122-39494ae2b6f6) |
-| 2026-06-20 | **LFC120: Leading High-Performance Working Group Meetings** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/d1bc4d63-e2c5-4d32-b281-089f9b653a12) |
-| 2026-06-20 | **LFD141: IT Specification Basics for New Developers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/bbc99675-45d1-4af8-b9df-90f47260bd68) |
-| 2026-06-20 | **LFS120: Conversational AI: Ensuring Compliance and Mitigating Risks** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/63f7d08a-0b8e-4020-bd2a-987bd528444a) |
-| 2026-06-20 | **LFS148: Getting Started with OpenTelemetry** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/85321abd-62c6-4b89-8d3f-a6ca51383a27) |
-| 2026-06-20 | **M365 Basic Course** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/ddd3f99a-a3bd-44e6-8916-3b27b50cc8e4) |
-| 2026-06-18 | **AWS Knowledge: Amazon EKS - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/a56b19c1-ecf5-4bf0-b66e-1849a18b9722) |
-| 2026-06-18 | **Intro to Acronis** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/9e744ff2-c093-46d2-adba-97b5f1c92be2) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md)

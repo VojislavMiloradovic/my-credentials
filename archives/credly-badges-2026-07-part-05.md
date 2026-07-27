@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 5 of 10
-date_range: 2026-05-27 to 2026-06-08
-total_entries: 51
+date_range: 2026-06-01 to 2026-06-09
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-05.md
 ---
 
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-09 | **LFS157: Introduction to Serverless on Kubernetes** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/b7b7ca0d-9eb3-42a1-9e11-70c2260d2b4e) |
+| 2026-06-09 | **LFS182: Securing Your Software Supply Chain with Sigstore** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/78826580-a3a7-4213-be79-3233321f3d3e) |
+| 2026-06-09 | **Verified Lucid Admin** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/81693063-e75b-457f-90c9-ae13044ef9e1) |
+| 2026-06-08 | **AWS Knowledge: File Storage - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/517a628a-d90a-48b8-858b-8c81048bbf5d) |
+| 2026-06-08 | **Cloud Accelerator Badge** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/a10ab236-0af0-45ad-a9f0-694426ba3f8d) |
+| 2026-06-08 | **Creative Facilitation** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/6df66de9-9678-4f5a-bc36-1c4d7b220100) |
+| 2026-06-08 | **LFC102: Inclusive Open Source Community Orientation** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/eb937342-cd3c-4993-8e44-91f0bf12f83c) |
+| 2026-06-08 | **LFC108: Cybersecurity Essentials** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/c07d5735-c22b-40c9-bece-11d75cd3ab0d) |
+| 2026-06-08 | **LFD102: A Beginner's Guide to Open Source Software Development** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/2b1cbc35-8af4-467d-bb34-8f081afb8ef0) |
+| 2026-06-08 | **LFD116: Software Engineering Basics for Embedded Systems** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/bf5261b3-1ed7-4acf-958a-5f937e4ca8e0) |
 | 2026-06-08 | **LFD137: Open Source Contribution in Finance** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/07bb1039-dd83-4aab-a319-d18af966d01a) |
 | 2026-06-08 | **LFQ101: Fundamentals of Quantum Computing** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/dbaa0c7b-652d-4505-a80a-4d8dd2551426) |
 | 2026-06-08 | **LFS118: Ethical Principles for Conversational AI** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/c18e2ce0-83e2-4e77-ba8e-2daa7a2cddfa) |
@@ -52,17 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-02 | **Manual SAS Viya Deployment** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/0a5e2982-bdb6-498f-8ec6-979b3c0db919) |
 | 2026-06-02 | **Post-Deployment Steps for SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/bbb58e7e-7844-4128-99e3-1dbf678dcccc) |
 | 2026-06-01 | **Product Analytics Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/383af23e-ddf1-4106-9b5d-3fde0bacdf16) |
-| 2026-06-01 | **Product Discovery Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/7f76121b-ff69-474a-a1ad-09e88993b145) |
-| 2026-06-01 | **Product-led Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/4813afed-be74-43f4-a69e-9a6482970fa2) |
-| 2026-06-01 | **Session and Token Management Best Practices** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/1b01f351-59a3-42a9-a39e-2c5e22b1ef8c) |
-| 2026-05-31 | **Explore / analytics** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/bad7e351-594a-4376-9e73-28c1ad57817b) |
-| 2026-05-31 | **Messaging** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/a65a8496-8f64-4d2c-b4c7-4a3d9b161301) |
-| 2026-05-31 | **Talk / voice** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/82c8ca9b-bbde-4b58-b8dc-57dc834fada4) |
-| 2026-05-31 | **Zendesk Knowledge** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/80fd12ea-5a76-4bf2-aab2-4c5ea7531b3a) |
-| 2026-05-30 | **Foundations of Insurance and the IFRS 17 Standard Knowledge Badge** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/0b8945bd-0f24-49bf-b36a-8b9c790b9002) |
-| 2026-05-27 | **Architecture and Administration for SAS Workload Management on SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/8ab110d2-4f48-4270-a365-2d39a121015c) |
-| 2026-05-27 | **Deploying SAS Event Stream Processing on SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/23f9cee5-1e7b-4c04-9819-ca58eaa54c81) |
-| 2026-05-27 | **Deploying SAS Grid Manager for Platform** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/b96c02e5-ee74-4756-a24d-5109b66c2d93) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md)

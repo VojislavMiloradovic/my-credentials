@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 4 of 10
-date_range: 2026-06-08 to 2026-06-18
+date_range: 2026-06-09 to 2026-06-20
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-04.md
 ---
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-20 | **AWS Knowledge: Amazon ECS - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/6b61161d-dd36-4991-b23a-8ec2b7c96368) |
+| 2026-06-20 | **Brand Your Okta Customer Identity Experience** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/ef277f59-d9a8-464c-88be-5e92dcb590a2) |
+| 2026-06-20 | **Implement B2C Self-Service Registration with Okta** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/50cbbb61-b545-4f07-b122-39494ae2b6f6) |
+| 2026-06-20 | **LFC120: Leading High-Performance Working Group Meetings** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/d1bc4d63-e2c5-4d32-b281-089f9b653a12) |
+| 2026-06-20 | **LFD141: IT Specification Basics for New Developers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/bbc99675-45d1-4af8-b9df-90f47260bd68) |
+| 2026-06-20 | **LFS120: Conversational AI: Ensuring Compliance and Mitigating Risks** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/63f7d08a-0b8e-4020-bd2a-987bd528444a) |
+| 2026-06-20 | **LFS148: Getting Started with OpenTelemetry** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/85321abd-62c6-4b89-8d3f-a6ca51383a27) |
+| 2026-06-20 | **M365 Basic Course** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/ddd3f99a-a3bd-44e6-8916-3b27b50cc8e4) |
+| 2026-06-18 | **AWS Knowledge: Amazon EKS - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/a56b19c1-ecf5-4bf0-b66e-1849a18b9722) |
+| 2026-06-18 | **Intro to Acronis** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/9e744ff2-c093-46d2-adba-97b5f1c92be2) |
 | 2026-06-18 | **LFC112: Creating Effective Documentation for Developers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/74c24889-addb-48cd-8539-b9484742e114) |
 | 2026-06-18 | **LFC114: Remote Work at Scale** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/e180e574-1bfe-4afb-a7ff-dce17455e64c) |
 | 2026-06-18 | **LFS147: Introduction to AI/ML Toolkits with Kubeflow** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/53e07dd4-10c5-4a02-97e3-904a594ed3a6) |
@@ -51,16 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-09 | **LFD103: A Beginner's Guide to Linux Kernel Development** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/014a781e-7a70-47a0-b79d-c6080bbef63d) |
 | 2026-06-09 | **LFD121: Developing Secure Software** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/21cf0189-83ae-4159-abd9-f2eecf3bd6a9) |
 | 2026-06-09 | **LFD125: Security for Software Development Managers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/c0a1f565-7255-4a8b-8a99-c447b22e0023) |
-| 2026-06-09 | **LFS157: Introduction to Serverless on Kubernetes** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/b7b7ca0d-9eb3-42a1-9e11-70c2260d2b4e) |
-| 2026-06-09 | **LFS182: Securing Your Software Supply Chain with Sigstore** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/78826580-a3a7-4213-be79-3233321f3d3e) |
-| 2026-06-09 | **Verified Lucid Admin** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/81693063-e75b-457f-90c9-ae13044ef9e1) |
-| 2026-06-08 | **AWS Knowledge: File Storage - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/517a628a-d90a-48b8-858b-8c81048bbf5d) |
-| 2026-06-08 | **Cloud Accelerator Badge** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/a10ab236-0af0-45ad-a9f0-694426ba3f8d) |
-| 2026-06-08 | **Creative Facilitation** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/6df66de9-9678-4f5a-bc36-1c4d7b220100) |
-| 2026-06-08 | **LFC102: Inclusive Open Source Community Orientation** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/eb937342-cd3c-4993-8e44-91f0bf12f83c) |
-| 2026-06-08 | **LFC108: Cybersecurity Essentials** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/c07d5735-c22b-40c9-bece-11d75cd3ab0d) |
-| 2026-06-08 | **LFD102: A Beginner's Guide to Open Source Software Development** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/2b1cbc35-8af4-467d-bb34-8f081afb8ef0) |
-| 2026-06-08 | **LFD116: Software Engineering Basics for Embedded Systems** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/bf5261b3-1ed7-4acf-958a-5f937e4ca8e0) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md)

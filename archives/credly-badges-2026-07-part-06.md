@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 6 of 10
-date_range: 2026-05-17 to 2026-05-26
-total_entries: 52
+date_range: 2026-05-19 to 2026-06-01
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-06.md
 ---
 
@@ -12,6 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-01 | **Product Discovery Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/7f76121b-ff69-474a-a1ad-09e88993b145) |
+| 2026-06-01 | **Product-led Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/4813afed-be74-43f4-a69e-9a6482970fa2) |
+| 2026-06-01 | **Session and Token Management Best Practices** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/1b01f351-59a3-42a9-a39e-2c5e22b1ef8c) |
+| 2026-05-31 | **Explore / analytics** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/bad7e351-594a-4376-9e73-28c1ad57817b) |
+| 2026-05-31 | **Messaging** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/a65a8496-8f64-4d2c-b4c7-4a3d9b161301) |
+| 2026-05-31 | **Talk / voice** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/82c8ca9b-bbde-4b58-b8dc-57dc834fada4) |
+| 2026-05-31 | **Zendesk Knowledge** | issued by Zendesk | `Credly Verified` | [Verify](https://www.credly.com/badges/80fd12ea-5a76-4bf2-aab2-4c5ea7531b3a) |
+| 2026-05-30 | **Foundations of Insurance and the IFRS 17 Standard Knowledge Badge** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/0b8945bd-0f24-49bf-b36a-8b9c790b9002) |
+| 2026-05-27 | **Architecture and Administration for SAS Workload Management on SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/8ab110d2-4f48-4270-a365-2d39a121015c) |
+| 2026-05-27 | **Deploying SAS Event Stream Processing on SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/23f9cee5-1e7b-4c04-9819-ca58eaa54c81) |
+| 2026-05-27 | **Deploying SAS Grid Manager for Platform** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/b96c02e5-ee74-4756-a24d-5109b66c2d93) |
 | 2026-05-26 | **Manage Data Models in Looker Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/eb5fb255-8dfa-4798-9894-3d7342f2c28a) |
 | 2026-05-25 | **AWS Cloud Quest: Cloud Practitioner - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/732fc941-03ee-436a-adf5-5ccd23c8c309) |
 | 2026-05-25 | **Basics in Lucidchart** | issued by Lucid Software | `Credly Verified` | [Verify](https://www.credly.com/badges/51e91ad5-5d40-4d85-8cde-7828857f37b5) |
@@ -54,16 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-19 | **Agentic AI - How to with SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/5fe72598-ffcd-4c5c-8b30-319831d7d2bd) |
 | 2026-05-19 | **Discovering the Basics of SAP S/4HANA Portfolio and Project Management - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/d3c10832-4cf4-4d04-939b-bbcc1dcc9f1e) |
 | 2026-05-19 | **GenAI - Client to Cloud Fundamentals** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/bbd4f4ac-6aba-480f-b77c-9b8f79b65bdd) |
-| 2026-05-19 | **Getting Started with SAS and Kubernetes** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/1a509b1d-9a06-410c-8916-eac5b639fe28) |
-| 2026-05-19 | **Introduction to Authentication Protocols** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/843836d7-d464-422e-bb40-5d76c77c3bde) |
-| 2026-05-19 | **Introduction to Web Design** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/3fc971ca-8531-4e28-b6f8-6eecdf8354b3) |
-| 2026-05-19 | **Mastering AML Compliance: Safeguarding the Financial Sector** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/dc24612b-9d31-4ece-b66a-7198e4b05f76) |
-| 2026-05-19 | **Mastering Financial Fraud Prevention: Safeguarding Assets & Integrity** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/24877ce6-89fc-430e-b0bd-cc255519b9b3) |
-| 2026-05-19 | **Modern Data Science with SAS Viya Workbench: Unified Development with SAS, Python, and R** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/a0be387e-762c-4126-96bb-f1e42b60e922) |
-| 2026-05-19 | **SAS 9 Administration: Getting Started** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/db55699d-258e-4a61-870c-0d66d5f6166f) |
-| 2026-05-19 | **SAS Viya Overview** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/2fdf77a8-806b-4cf7-bbd3-a87225b74bac) |
-| 2026-05-17 | **Cybersecurity Fundamentals** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/07b5c2dc-a9ed-433c-bc25-63c34d575fa9) |
-| 2026-05-17 | **Data Literacy Essentials** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md)
