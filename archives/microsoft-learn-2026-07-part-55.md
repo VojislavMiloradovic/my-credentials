@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 55 of 92
-date_range: 2026-01-28 to 2026-01-31
-total_entries: 56
+date_range: 2026-01-29 to 2026-02-01
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-55.md
 ---
 
@@ -12,15 +12,19 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Manage secure user access in Microsoft 365 | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secure-access-microsoft-365/) |
+| Get started with cloud native apps and containerized deployments | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-cloud-native-apps-containerized-deployments/) |
+| Deploy cloud-native apps using Azure Container Apps | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-cloud-native-applications-to-azure-container-apps/) |
+| Guided Project - Create and manage canvas apps with Power Apps | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-manage-canvas-apps/) |
 | Explore and analyze data with Python | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-analyze-data-with-python/) |
 | Upgrade and migrate Windows Server IaaS virtual machines | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/upgrade-migrate-windows-server-iaas-virtual-machines/) |
 | Dyslexia training, in partnership with Made By Dyslexia | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/dyslexia-training/) |
 | Dyslexia Teaching: Part 1, In partnership with Made By Dyslexia | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-teaching-part-1/) |
-| Implement Storage Spaces and Storage Spaces Direct | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-storage-spaces-storage-spaces-direct/) |
 | Windows Server file servers and storage management | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-file-servers-storage-management/) |
+| Implement Storage Spaces and Storage Spaces Direct | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-storage-spaces-storage-spaces-direct/) |
 | Microsoft Azure Well-Architected Framework - Performance Efficiency | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-performance-efficiency/) |
-| Implement user authentication and authorization | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-authentication-authorization/) |
 | Explore the Microsoft identity platform | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-identity-platform/) |
+| Implement user authentication and authorization | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-authentication-authorization/) |
 | Implement endpoint data loss prevention (DLP) with Microsoft Purview | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-implement-endpoint-dlp/) |
 | Deploy using Microsoft Configuration Manager | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-configuration-manager/) |
 | Implement Windows Server iSCSI | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-iscsi/) |
@@ -63,11 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | MD-102 Configure profiles for user and devices | Learningpaths | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-profiles-user-device/) |
 | Execute device profiles | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/execute-device-profiles/) |
 | Implement device compliance | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-compliance/) |
-| Utilize Vulnerability Management in Microsoft Defender for Endpoint | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-threat-vulnerability-management-microsoft-defender-for-endpoint/) |
-| Manage Windows 365 | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-365/) |
-| Create agents in Microsoft Copilot Studio | Learningpaths | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/) |
-| Manage topics in Microsoft Copilot Studio | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-power-virtual-agents-topics/) |
-| Implement Windows security enhancements with Microsoft Defender for Endpoint | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-10-security-enhancements-with-microsoft-defender-for-endpoint/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-54.md](microsoft-learn-2026-07-part-54.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-56.md](microsoft-learn-2026-07-part-56.md)

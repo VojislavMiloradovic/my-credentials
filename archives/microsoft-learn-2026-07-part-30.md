@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 30 of 92
-date_range: 2026-03-29 to 2026-04-02
+date_range: 2026-03-29 to 2026-04-03
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-30.md
 ---
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Implement security in Azure Cosmos DB for NoSQL | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-azure-cosmos-db-sql-api/) |
+| Know where to leverage AI in your classroom | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/know-where-leverage-ai-classroom/) |
+| Microsoft Education technology and AI learning concepts | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-education-ai-learning/) |
+| Develop generative AI apps that use tools | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-generative-ai-tools/) |
+| Assemble items in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/assemble-items-dynamics-365-business-central/) |
 | Assemble for a project in Dynamics 365 Business Central | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/assemble-projects/) |
 | Create and manage work orders in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-work-orders-asset-management/) |
 | Manage cloud resources by using Windows PowerShell | Learningpaths | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-cloud-resources-use-windows-powershell/) |
@@ -56,11 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to migrating from Amazon Web Services to Microsoft Azure | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-migrating-aws-to-azure/) |
 | Optimize data warehouse query performance in Azure Synapse Analytics | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-data-warehouse-query-performance-azure-synapse-analytics/) |
 | Monitor responses and events in Azure Cosmos DB for NoSQL | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-responses-events-azure-cosmos-db-sql-api/) |
-| Set up landed cost in Dynamics 365 Supply Chain Management | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-landed-cost-supply-chain-management/) |
-| Access a user's calendar events in an ASP.NET Core app with Microsoft Graph | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-dotnet-core-access-user-events/) |
-| Explore data manipulation options in Azure SQL Database | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-data-manipulation-azure-sql-database/) |
-| Get started with Azure Health Data Services | Learningpaths | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-health-data-services/) |
-| Work with medical imaging data and DICOM | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/medical-imaging-data/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-29.md](microsoft-learn-2026-07-part-29.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-31.md](microsoft-learn-2026-07-part-31.md)

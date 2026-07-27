@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 56 of 92
-date_range: 2026-01-25 to 2026-01-28
+date_range: 2026-01-26 to 2026-01-29
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-56.md
 ---
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Utilize Vulnerability Management in Microsoft Defender for Endpoint | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-threat-vulnerability-management-microsoft-defender-for-endpoint/) |
+| Manage Windows 365 | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-365/) |
+| Manage topics in Microsoft Copilot Studio | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-power-virtual-agents-topics/) |
+| Create agents in Microsoft Copilot Studio | Learningpaths | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/) |
+| Implement Windows security enhancements with Microsoft Defender for Endpoint | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-10-security-enhancements-with-microsoft-defender-for-endpoint/) |
 | Implement scale and high availability with Windows Server VM | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-scale-high-availability-windows-server-virtual-machine/) |
 | Deploy and update applications | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-applications/) |
 | Implement authentication by using the Microsoft Authentication Library | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-authentication-by-using-microsoft-authentication-library/) |
@@ -31,8 +36,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Use AI Builder in Power Automate | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-power-automate/) |
 | Implement virtual machine host security in Azure | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-host-security/) |
 | Learn how Microsoft supports secure software development as part of a cybersecurity solution | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-software-development-for-cybersecurity/) |
-| Microsoft Azure Well-Architected Framework - Security | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/) |
 | Secure your cloud applications in Azure | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-your-cloud-apps/) |
+| Microsoft Azure Well-Architected Framework - Security | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/) |
 | Work with Power Automate error handling and expressions | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/templates-error-handling-expressions-power-automate/) |
 | Best practices for error handling in Power Automate flows | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/error-handling/) |
 | Maintain user profiles | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-user-profiles/) |
@@ -60,11 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Extend a pipeline to use multiple templates | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-pipeline-use-multiple-templates/) |
 | Configure Azure Container Registry for container app deployments | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-container-registry-container-app-deployments/) |
 | Configure pipelines to securely use variables and parameters | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-pipelines-securely-use-variables-parameters/) |
-| Configure a container app in Azure Container Apps | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-container-app-azure-container-apps/) |
-| MD-102 Execute device enrollment | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/execute-device-enrollment/) |
-| Manage device authentication | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-device-authentication/) |
-| Configure and validate permissions | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-validate-permissions/) |
-| Configure continuous deployment for container apps | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-continuous-deployment-container-apps/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-55.md](microsoft-learn-2026-07-part-55.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-57.md](microsoft-learn-2026-07-part-57.md)

@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Integrate Dynamics 365 Sales with Dynamics 365 Business Central using Dataverse | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dynamics-365-sales-business-central-dataverse/) |
+| Sync sales orders from and to Dynamics 365 Business Central and Dynamics 365 Sales | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-sales-orders-business-central/) |
+| Introduction to Azure Data Share | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-data-share/) |
+| Share data with Azure Data Share | Learningpaths | 2026-04-29 | N/A |
 | Manage fixed asset maintenance and insurances in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-fixed-assets-maintenance-insurances/) |
 | Register maintenance costs in Dynamics 365 Business Central | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-maintenance-costs/) |
 | Manage nonprofit fundraising and engagement with Microsoft for Nonprofits | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/nonprofit-fundraising-engagement/) |
@@ -60,10 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Transfer, split, and combine fixed assets in Dynamics 365 Business Central | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/transfer-split-combine-fixed-assets/) |
 | Reclassify fixed assets in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/reclassify-fixed-assets/) |
 | Configure costing sheets in Dynamics 365 Supply Chain Management | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-costing-sheets/) |
-| Trace serial and lot numbers in Dynamics 365 Business Central | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/trace-serial-lot-numbers/) |
-| Get started with payment integrations in Power Pages | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-payment-integrations/) |
-| Get Started with Power Pages | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-pages-get-started/) |
-| Set up Dynamics 365 Intelligent Order Management | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-intelligent-order-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-20.md](microsoft-learn-2026-07-part-20.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-22.md](microsoft-learn-2026-07-part-22.md)

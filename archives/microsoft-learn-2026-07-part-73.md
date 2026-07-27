@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 73 of 92
-date_range: 2025-12-22 to 2025-12-23
+date_range: 2025-12-22 to 2025-12-24
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-73.md
 ---
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Introduction to AI in Azure | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/) |
+| Introduction to large language models | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-large-language-models/) |
+| Settle competing commits by using merge conflict resolution on GitHub | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/resolve-merge-conflicts-github/) |
+| Describe inventory and warehousing capabilities in Dynamics 365 Supply Chain Management | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-warehouse-inventory-management-capabilities/) |
+| What is Microsoft Graph? | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-intro-overview/) |
+| Fundamentals of computer networking | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/network-fundamentals/) |
+| Understanding Low Code as a Traditional Developer | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/understanding-low-code-as-a-traditional-developer/) |
+| Draft impactful documents using AI | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/draft-impactful-documents-using-ai/) |
 | Introduction to Microsoft Learn for Educators program | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-learn-educators-program/) |
 | Configure and manage shared folders | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-shared-folders/) |
 | Microsoft Learn for Educators Course Preparation | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-learn-educators-course-preparation/) |
@@ -23,8 +31,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Customize ASP.NET Core behavior with middleware | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/aspnetcore-middleware/) |
 | Understand data concepts | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/understand-data-concepts/) |
 | Understand data roles, services, and products | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-data-roles-services-products/) |
-| Operate with DevOps | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/operate-with-devops/) |
 | DevOps foundations: The core principles and practices | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/devops-foundations-core-principles-practices/) |
+| Operate with DevOps | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/operate-with-devops/) |
 | Manage and monitor data warehouse activities in Azure Synapse Analytics | Modules | 2025-12-23 | N/A |
 | Write your first PowerShell code | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/powershell-write-first/) |
 | Automate administrative tasks by using PowerShell | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/powershell/) |
@@ -58,14 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to becoming a business applications professional | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-business-applications-professional/) |
 | Evaluate Windows client installation methods | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-windows-client-installation-methods/) |
 | Introduction to Azure Logic Apps | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-logic-apps/) |
-| Guided Project - Create and manage automated processes with Power Automate | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-automated-processes-with-power-automate/) |
-| Create and Manage Automated Processes by using Power Automate | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-automated-processes-by-using-power-automate/) |
-| Describe the general ledger in Dynamics 365 Finance | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-general-ledger-dynamics-365/) |
-| Support social and emotional learning with Microsoft tools | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-social-emotional-learning/) |
-| Get started with AI Builder | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder/) |
-| Get started with Dynamics 365 Customer Service | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-dynamics-365-for-customer-service/) |
-| Navigate finance and operations apps | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigate-finance-operations/) |
-| Web automation in Power Automate for desktop | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-web/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-72.md](microsoft-learn-2026-07-part-72.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-74.md](microsoft-learn-2026-07-part-74.md)

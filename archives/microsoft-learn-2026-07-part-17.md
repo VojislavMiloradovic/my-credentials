@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 17 of 92
-date_range: 2026-05-12 to 2026-05-17
+date_range: 2026-05-13 to 2026-05-17
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-17.md
 ---
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Dragon Copilot nurse leaders 101 | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-for-nurse-leaders/) |
+| Segment and isolate Azure workloads using network security controls | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/segment-isolate-workloads-network-security-controls/) |
+| Secure remote and hybrid connectivity using VPN gateways and Microsoft Entra Private Access | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-hybrid-connectivity-azure/) |
 | Protect backup data with Azure Backup security features | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-backup-data-azure-backup-security/) |
 | Plan and implement Azure Bastion | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-azure-bastion/) |
 | Configure trusted launch security features for Azure virtual machines | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-trusted-launch-azure-virtual-machines/) |
@@ -60,9 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design and deliver interactive lessons with Microsoft Learning Zone | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-deliver-interactive-lessons-microsoft-learning-zone/) |
 | Understand the AI Literacy Framework, in partnership with ISTE+ASCD | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-ai-literacy-framework/) |
 | Dragon Copilot basics for physicians | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-basics-for-physicians/) |
-| Understand Azure Databricks Integrations | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-databricks-integrations/) |
-| Select and Configure Compute in Azure Databricks | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/select-and-configure-compute/) |
-| Secure and govern Unity Catalog objects in Azure Databricks | Learningpaths | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-secure-govern-unity-catalog/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-16.md](microsoft-learn-2026-07-part-16.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-18.md](microsoft-learn-2026-07-part-18.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 77 of 92
-date_range: 2025-12-15 to 2025-12-17
+date_range: 2025-12-16 to 2025-12-18
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-77.md
 ---
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Develop on a remote machine using SSH in Visual Studio Code | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-on-remote-machine/) |
+| Get started with Dynamics 365 Intelligent Order Management | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-intelligent-order-management/) |
+| Implement inheritance and polymorphism | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-inheritance-polymorphism/) |
+| Implement class inheritance | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-class-inheritance/) |
+| Combine external applications for more customized productions with Microsoft 365 | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-combine-external-applications-customized-productions/) |
+| Deploy updates for Windows client and Microsoft 365 apps | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-deploy/) |
+| Get started with AI Builder licensing | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-licensing/) |
 | Introduction to Azure Private Link | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-private-link/) |
 | Introduction to Azure Front Door | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-front-door/) |
 | Introduction to Site Reliability Engineering (SRE) | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-site-reliability-engineering/) |
@@ -36,8 +43,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Transition your business to Azure | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-your-business-azure/) |
 | Dynamics 365 Finance capabilities | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-finance-core-capabilities/) |
 | Describe expense tracking, asset control, and budgeting processes in Microsoft Dynamics 365 Finance | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-expense-management-fixed-asset-management/) |
-| Create an Azure Storage account | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-storage-account/) |
 | Azure for Researchers part 1: Introduction to Cloud Computing | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/researcher-introduction-to-cloud-computing/) |
+| Create an Azure Storage account | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-storage-account/) |
 | Load/export data and create data views in Dataverse | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/load-export-data-create-data-views/) |
 | Describe Dynamics 365 Customer Insights - Data | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-marketing-capabilities-2/) |
 | Combine multiple tables with JOINs in T-SQL | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-multiple-tables-with-joins/) |
@@ -59,13 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Empower action for better results with Viva Glint | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-empower-action-better-results-viva-glint/) |
 | Edit code using any device with Visual Studio Code for the Web | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/edit-code-using-any-device/) |
 | AI in Microsoft Teams for Education (Partner Success Series) | Modules | 2025-12-16 | N/A |
-| Teams for education partners (Partner Success Series) | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/teams-education-partners/) |
-| Introduction to Azure Site Recovery | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-site-recovery/) |
-| Explore cybersecurity careers with Minecraft Education-Cyber Defender: Tower Defense | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/cybersecurity-careers-minecraft-education-cyber-defender/) |
-| Introduction to integration with Dynamics 365 Customer Engagement apps | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-integration-customer-engagement-apps/) |
-| Create and manage columns within a table in Dataverse | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-fields-within-entity/) |
-| Introduction to Transact-SQL | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-transact-sql/) |
-| Build your first web app with Blazor | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-blazor-web-app/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-76.md](microsoft-learn-2026-07-part-76.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-78.md](microsoft-learn-2026-07-part-78.md)

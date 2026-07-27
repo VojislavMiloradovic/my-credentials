@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 74 of 92
 date_range: 2025-12-21 to 2025-12-22
-total_entries: 53
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-74.md
 ---
 
@@ -12,17 +12,25 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Guided Project - Create and manage automated processes with Power Automate | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-automated-processes-with-power-automate/) |
+| Create and Manage Automated Processes by using Power Automate | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-automated-processes-by-using-power-automate/) |
+| Describe the general ledger in Dynamics 365 Finance | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-general-ledger-dynamics-365/) |
+| Support social and emotional learning with Microsoft tools | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-social-emotional-learning/) |
+| Get started with AI Builder | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder/) |
+| Get started with Dynamics 365 Customer Service | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-dynamics-365-for-customer-service/) |
+| Navigate finance and operations apps | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigate-finance-operations/) |
+| Web automation in Power Automate for desktop | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-web/) |
 | Azure for Researchers part 2: Cloud Security and Cost Management | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/researcher-cloud-security-cost-management/) |
 | Introduction to analyzing costs and creating budgets with Microsoft Cost Management | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-costs-create-budgets-azure-cost-management/) |
 | Connect commands into a pipeline | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-commands/) |
-| Explore Dynamics 365 Field Service | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-field-service/) |
 | Explore the fundamentals of Microsoft Dynamics 365 Field Service | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-of-microsoft-dynamics-365-field-service/) |
+| Explore Dynamics 365 Field Service | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-field-service/) |
 | Approach your data-flow diagram with the right threat model focus | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-approach-your-data-flow-diagram-with-the-right-threat-model-focus/) |
 | Automate Azure tasks with Azure PowerShell | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-azure-tasks-with-powershell/) |
 | Get started with Dynamics 365 Human Resources | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-human-resources/) |
 | Optimize Microsoft Intune for Microsoft Security Copilot Integration | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-microsoft-intune-microsoft-copilot-security-integration/) |
-| Introduction to generative AI for trainers | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-generative-ai-for-trainers/) |
 | Use Microsoft Copilot to create training materials | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-copilot-to-create-training-materials/) |
+| Introduction to generative AI for trainers | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-generative-ai-for-trainers/) |
 | Introduction to Linux on Azure | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-linux-on-azure/) |
 | Customize Microsoft Dynamics 365 Business Central | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-dynamics-365-business-central/) |
 | Extract information from business cards with AI Builder | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-business-card-reader/) |
@@ -43,8 +51,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Azure Functions | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-functions/) |
 | Start your free Dynamics 365 Business Central trial | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/trial-dynamics-365-business-central/) |
 | Use Microsoft Word and Excel templates with Dataverse | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-word-excel-dataverse/) |
-| Introduction to the core capabilities of Microsoft Dynamics 365 finance and operations apps | Learningpaths | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-dynamics-365-finance-operations-apps/) |
 | Describe reporting and integration capabilities in finance and operations apps | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-report-integration-use-finance-operations-apps/) |
+| Introduction to the core capabilities of Microsoft Dynamics 365 finance and operations apps | Learningpaths | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-dynamics-365-finance-operations-apps/) |
 | Describe Dynamics 365 Finance core capabilities | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-dynamics-365-finance-core-capabilities/) |
 | Discover and use Web APIs with Power Apps | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-web-apis-power-apps/) |
 | Introduction to Azure Kubernetes Service | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-kubernetes-service/) |
@@ -58,13 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Meet your ambassadors in the Minecraft Student Ambassador program | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/meet-ambassadors-minecraft-student-ambassador-program/) |
 | Grow your Minecraft esports program | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/grow-your-minecraft-esports-program/) |
 | Deploy applications using Microsoft Intune and Intune for Education | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/education-deploy-applications/) |
-| Get tips and tricks for teaching PL-900 Microsoft Power-platform Fundamentals | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-pl-900-microsoft-power-platform-fundamentals/) |
-| Integrate Azure Cloud Services to your Unity project on HoloLens 2 | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-cloud-services-tutorials/) |
-| Proforma invoicing and corrections in Dynamics 365 Project Operations | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/proforma-invoicing-corrections/) |
-| Link your Dataverse environment to Microsoft Fabric | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/link-dataverse-fabric/) |
-| Create a multimodal analysis solution with Azure Content Understanding | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/) |
-| Get tips and tricks for teaching MB-910: Microsoft Dynamics 365 Fundamentals (CRM) | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-910-dynamics-365-fundamentals/) |
-| Estimate physical resource requirements for quantum algorithms with the Azure Quantum Resource Estimator | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/estimate-resources-quantum-algorithms/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-73.md](microsoft-learn-2026-07-part-73.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-75.md](microsoft-learn-2026-07-part-75.md)

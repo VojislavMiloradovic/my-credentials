@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 82 of 92
-date_range: 2025-12-03 to 2025-12-06
+date_range: 2025-12-04 to 2025-12-07
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-82.md
 ---
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Perform Zero ETL analytics with HDInsight Interactive Query | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-zero-etl-analytics-hdinsight-interactive-query/) |
+| Define a Microsoft AI strategy to create business value in sustainability | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-sustainability/) |
+| Discover AI for leaders in sustainability | Learningpaths | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-sustainability/) |
+| Monitor your Azure virtual machines with Azure Monitor | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-azure-vm-using-diagnostic-data/) |
+| Review the principles of code debugging and exception handling | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/review-principles-code-debugging-exception-handling-c-sharp/) |
 | Guided project - Debug and handle exceptions in a C# console application using Visual Studio Code | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/) |
 | Explore data for data science with notebooks in Microsoft Fabric | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-data-for-data-science-microsoft-fabric/) |
 | Learn the basics of web accessibility | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/web-development-101-accessibility/) |
@@ -30,8 +35,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Maintain a secure repository by using GitHub best practices | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/) |
 | Challenge project - Debug a C# console application using Visual Studio Code | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-debug-c-sharp-console-application/) |
 | Manage and control traffic flow in your Azure deployment with routes | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-network-traffic-flow-with-routes/) |
-| Work with variable data in C# console applications (Get started with C#, Part 4) | Learningpaths | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-4/) |
 | Challenge project - Work with variable data in C# | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-work-variable-data-c-sharp/) |
+| Work with variable data in C# console applications (Get started with C#, Part 4) | Learningpaths | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-4/) |
 | Deliver Results with your Viva Glint Executive Consultation (EC) | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-deliver-results-executive-consultation/) |
 | Get tips and tricks for teaching MB-220: Microsoft Dynamics 365 Marketing Functional Consultant | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-220-marketing-functional-consultant/) |
 | Understand Viva Glint’s approach to 360 feedback | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-understand-viva-glint-approach-360-feedback/) |
@@ -58,11 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Creating and configuring a HDInsight cluster. | Modules | 2025-12-04 | N/A |
 | Configure and style Microsoft Graph Toolkit components by using attributes and CSS | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-toolkit-customize-part-one/) |
 | Upload images to Azure Blob Storage from a static web app | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/blob-storage-image-upload-static-web-apps/) |
-| Extend Microsoft Viva Connections with application customizers | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-extend-with-app-customizers/) |
-| Configure and manage a Microsoft Viva Glint 360 feedback program | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-configure-manage-viva-glint-360-feedback-program/) |
-| Customize the presentation of Microsoft Graph Toolkit components by using templates | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-toolkit-customize-part-two/) |
-| Manage users and groups in Microsoft Entra ID | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-users-and-groups-in-aad/) |
-| Manage identity and access in Microsoft Entra ID | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-identity-and-access/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-81.md](microsoft-learn-2026-07-part-81.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-83.md](microsoft-learn-2026-07-part-83.md)

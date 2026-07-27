@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Perform cross-document transactional operations with the Azure Cosmos DB for NoSQL | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-cross-document-transactional-operations-azure-cosmos-db-sql-api/) |
+| Calculate and post VAT settlements in Dynamics 365 Business Central | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/settlements-dynamics-365-business-central/) |
+| Deploy and configure Internet Information Services | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-configure-internet-information-services/) |
+| Deploy applications by using MSIX app attach for Azure Virtual Desktop | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-wvd-application-management/) |
 | Use Microsoft Teams Assignments in learning management systems | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-microsoft-teams-assignments-learning-management-systems/) |
 | Create classroom communities using social and emotional practices | Learningpaths | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-classroom-communities-social-emotional-practices/) |
 | Bring social emotional learning to your classroom with Reflect and eTwinz | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/become-reflective-educator-reflect-etwinz/) |
@@ -55,10 +59,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create, configure, and manage identities | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/) |
 | Configure and use process manufacturing in Dynamics 365 Supply Chain Management | Learningpaths | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) |
 | Configure formulas for process manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-formulas-process-manufacturing/) |
-| Work with Microsoft Power Platform tenants, environments, subscriptions, and Dynamics 365 apps | Learningpaths | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/implementing-customer-engagement-apps/) |
-| Administer Microsoft Power Platform subscriptions | Modules | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/administrating-power-platform-subscriptions/) |
-| Create journals for fixed assets in Dynamics 365 Business Central | Modules | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-journals/) |
-| Prepare to teach AP Computer Science Principles with Microsoft MakeCode Arcade | Modules | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-teach-ap-computer-science-principles-microsoft-makecode-arcade/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-31.md](microsoft-learn-2026-07-part-31.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-33.md](microsoft-learn-2026-07-part-33.md)

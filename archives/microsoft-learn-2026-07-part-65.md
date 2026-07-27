@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Integrate with Microsoft Teams to get approvals - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-teams-approval-online-workshop/) |
+| Add an AI model to process invoice forms - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-ai-model-process-invoice-online-workshop/) |
+| Integrate with cloud flows - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-cloud-flows-online-workshop/) |
+| Use Outlook email to trigger desktop flows and pass inputs - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/outlook-flows-online-workshop/) |
+| Get started with Microsoft for Healthcare | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/healthcare-in-a-day/) |
+| Integration and interoperability in Microsoft for Healthcare solution overview | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-interoperability-overview/) |
 | Microsoft for Healthcare data model for Dataverse | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-data-model/) |
 | Build a 3D Scene for mixed reality in Unity | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-3d-scene-mixed-reality-unity/) |
 | Set up a mixed reality project for Azure Digital Twins in Unity | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-mixed-reality-azure-digital-twins-unity/) |
@@ -60,12 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Intro to Azure Service Health | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-service-health/) |
 | Research and learn using Microsoft Edge | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/research-learn-using-microsoft-edge/) |
 | Enrich the learning experience in the Microsoft Edge browser | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/enrich-learning-experience-microsoft-edge-browser/) |
-| Stay organized and find resources with Microsoft Edge | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/stay-organized-find-resources-classroom-microsoft-edge/) |
-| Set up Microsoft Edge for learning and teaching | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-microsoft-edge-learning-teaching/) |
-| Monitor hybrid virtual machines, containers, and network resources | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-hybrid-virtual-machines-containers-network/) |
-| Design and implement network monitoring | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-network-monitoring/) |
-| Monitor your hybrid and multicloud machines through Azure Arc-enabled servers | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-azure-arc-enabled-servers/) |
-| Bring Azure innovation to your hybrid environments with Azure Arc | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-hybrid-infrastructure-with-azure-arc/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-64.md](microsoft-learn-2026-07-part-64.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-66.md](microsoft-learn-2026-07-part-66.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 67 of 92
-date_range: 2025-12-29 to 2025-12-31
-total_entries: 56
+date_range: 2025-12-30 to 2026-01-01
+total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-67.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| MD-100 Manage apps and Windows updates | Learningpaths | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-apps-windows-updates/) |
+| Manage the Microsoft Edge browser | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-edge-browser/) |
+| Manage Universal Windows Platform apps | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-universal-windows-platform-apps/) |
+| Provide apps to users | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/provide-apps-users/) |
+| Explore the Windows servicing model | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-servicing-model/) |
+| Learn how Microsoft safeguards customer data | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/audit-safeguard-customer-data/) |
+| Understand Microsoft datacenter security | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-physical-security/) |
+| Understand Microsoft Online Services subprocessor management | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-subprocessor-management/) |
 | Understand Microsoft 365 privacy | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-privacy/) |
 | Understand Microsoft Online Services security development and operation | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-security-development-operation/) |
 | Understand Microsoft Online Services resiliency and continuity | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-resiliency-continuity/) |
@@ -37,8 +45,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Customize layout in .NET MAUI XAML pages | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-xaml-pages-layout/) |
 | Collaborate with others with Markdown and GitHub Pages | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/collaborate-markdown-github-pages/) |
 | Create and host web sites by using GitHub Pages | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-host-web-sites-github-pages/) |
-| Implement Dynamics 365 Projects | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-dynamics-365-projects/) |
 | Application lifecycle management for Dynamics 365 | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-lifecycle-management-dynamics-365/) |
+| Implement Dynamics 365 Projects | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-dynamics-365-projects/) |
 | Test your Dynamics 365 implementation | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-dynamics-365-implementation/) |
 | Document your Dynamics 365 solution for the customer | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-dynamics-365-solution-customer/) |
 | Design the Dynamics 365 deployment | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dynamics-365-deployment/) |
@@ -61,13 +69,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | User interface essentials in Dynamics 365 Business Central | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/user-interface-dynamics-365-business-central/) |
 | Teach cybersecurity concepts with Minecraft Education | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-cybersecurity-concepts-minecraft-education/) |
 | Guide to Secure .NET Development with OWASP Top 10 | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/owasp-top-10-for-dotnet-developers/) |
-| Design a machine learning solution | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-machine-learning-solution/) |
-| Design a data ingestion strategy for machine learning projects | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-ingestion-strategy-for-machine-learning-projects/) |
-| Upload, download, and manage data with Azure Storage Explorer | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/upload-download-and-manage-data-with-azure-storage-explorer/) |
-| Architect storage infrastructure in Azure | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-storage-infrastructure/) |
-| Digital citizenship: Prepare today's learners for online success | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/digital-citizenship-prepare-todays-learners/) |
-| Employ remote management | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/employ-remote-management/) |
-| MD-100 Configure networking on Windows clients | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-networking-windows-clients/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-66.md](microsoft-learn-2026-07-part-66.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-68.md](microsoft-learn-2026-07-part-68.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 83 of 92
-date_range: 2025-11-30 to 2025-12-03
+date_range: 2025-12-01 to 2025-12-04
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-83.md
 ---
@@ -12,11 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Extend Microsoft Viva Connections with application customizers | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-extend-with-app-customizers/) |
+| Configure and manage a Microsoft Viva Glint 360 feedback program | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-configure-manage-viva-glint-360-feedback-program/) |
+| Customize the presentation of Microsoft Graph Toolkit components by using templates | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-toolkit-customize-part-two/) |
+| Manage identity and access in Microsoft Entra ID | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-identity-and-access/) |
+| Manage users and groups in Microsoft Entra ID | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-users-and-groups-in-aad/) |
 | Run a training script as a command job in Azure Machine Learning | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-training-script-command-job-azure-machine-learning/) |
 | Choose the correct data type in your C# code | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-choose-data-type/) |
 | Empower your workforce with Microsoft 365 Copilot: Challenge Use Case | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-challenge/) |
-| 21st century learning design | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/21st-century-learning-design/) |
 | Deepen educational experiences with the 21CLD ICT for learning dimension | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/deepen-educational-experiences/) |
+| 21st century learning design | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/21st-century-learning-design/) |
 | Integrate your project with PWABuilder | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-with-pwabuilder/) |
 | Implement Azure Database for MySQL Flexible Server features that support mission-critical workloads | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-database-for-mysql-features-that-support-mission-critical-workloads/) |
 | Design a program launch strategy | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/academic-program-certifications-design-program-launch/) |
@@ -28,10 +33,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Microsoft for Manufacturing overview | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacturing-overview/) |
 | Customize a SUSE Linux Enterprise Server virtual machine on Azure | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-suse-linux-enterprise-server-azure/) |
 | Extend Microsoft Viva Connections with web parts | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-extend-with-web-parts/) |
-| Overview of Retail data solutions in Microsoft Fabric | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/retail-data-solutions-overview/) |
 | Get started with Microsoft for Retail | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-retail/) |
-| Experiment with Azure Machine Learning | Learningpaths | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-machine-learning-model-selection-azure-machine-learning/) |
+| Overview of Retail data solutions in Microsoft Fabric | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/retail-data-solutions-overview/) |
 | Find the best classification model with Automated Machine Learning | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/find-best-classification-model-automated-machine-learning/) |
+| Experiment with Azure Machine Learning | Learningpaths | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-machine-learning-model-selection-azure-machine-learning/) |
 | Track model training in Jupyter notebooks with MLflow | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/track-model-training-jupyter-notebooks-mlflow/) |
 | Track model training with MLflow in jobs | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-models-training-mlflow-jobs/) |
 | Modify the content of strings using built-in string data type methods in C# | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-modify-content/) |
@@ -62,11 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Run Petabyte level OSS NoSQL databases with HDInsight HBase | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-petabyte-level-oss-nosql-databases-hdinsight-hbase/) |
 | Get started with enterprise scale data management and analytics scenario | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-management-analytics/) |
 | Develop products with screen reader support | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-products-with-screen-reader-support/) |
-| Common education configurations for Intune (Partner Success Series) | Modules | 2025-12-01 | N/A |
-| Collaborate with colleagues with staff and PLC teams in Microsoft Teams | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/collaborate-colleagues-staff-plc-teams-microsoft-teams/) |
-| Perform operations on arrays using helper methods in C# | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-arrays-operations/) |
-| Explore developer tools for workspace interaction | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-developer-tools-for-workspace-interaction/) |
-| Innovate learning with the 21CLD real-world problem solving and innovation dimension | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/innovate-learning-21cld/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-82.md](microsoft-learn-2026-07-part-82.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-84.md](microsoft-learn-2026-07-part-84.md)

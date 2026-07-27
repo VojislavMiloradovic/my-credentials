@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 3 of 92
 date_range: 2026-07-09 to 2026-07-13
-total_entries: 51
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-03.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Use Azure Databricks Genie in Microsoft Teams and Copilot Studio | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-databricks-genie-teams-copilot-studio/) |
+| Manage dual volumes in Azure NetApp Files | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-netapp-files-dual-volumes/) |
 | Use Live Captions in Windows to better understand audio | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/live-captions/) |
 | Use the Copilot+ PC Hub to get started with Copilot+ PCs | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-pc-hub-adoption/) |
 | Retrace your steps with Recall (preview) | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/recall-preview/) |
@@ -44,8 +46,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create a Release Pipeline | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/) |
 | Manage volume access for Azure NetApp Files | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-volume-access-azure-netapp-files/) |
 | Work smarter with Copilot prompts for IT professionals | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-it/) |
-| Integrate agents with external systems via MCP in Microsoft Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-agents-external-systems-mcp-copilot-studio/) |
 | Integrate agents with enterprise systems in Microsoft Copilot Studio | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-agents-enterprise-systems-copilot-studio/) |
+| Integrate agents with external systems via MCP in Microsoft Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-agents-external-systems-mcp-copilot-studio/) |
 | Ground agents with enterprise knowledge using connectors and Azure AI Search in Microsoft Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-agents-enterprise-knowledge-connectors-azure-ai-search-copilot-studio/) |
 | Automate desktop and web tasks with computer use in Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-desktop-web-tasks-computer-use-copilot-studio/) |
 | Automate tasks and workflows in Microsoft Copilot Studio | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-tasks-workflows-copilot-studio/) |
@@ -62,7 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to small form factor deployments of Azure Local (preview) | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-small-form-factor/) |
 | Secure multi-agent systems with Azure zero-trust architecture | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-secure-multi-agent-systems-azure-zero-trust/) |
 | Deploy and govern enterprise agentic AI solutions on Azure | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-3-deploy-govern-agentic-ai-solutions-azure/) |
-| Scale responsible AI governance with Azure AI Content Safety and Microsoft Foundry | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-scale-responsible-ai-governance-multi-agent/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-02.md](microsoft-learn-2026-07-part-02.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-04.md](microsoft-learn-2026-07-part-04.md)

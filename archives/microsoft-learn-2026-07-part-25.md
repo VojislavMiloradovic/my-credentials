@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 25 of 92
 date_range: 2026-04-18 to 2026-04-20
-total_entries: 50
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-25.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Ingest emissions activity data | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-data-ingestion/) |
+| Challenge project - Create products and set up a product catalog | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-products-set-up-product-catalog/) |
+| Validate your Dynamics 365 Sales Functional Consultant skills | Learningpaths | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-dynamics-365-sales-functional-consultant-skills/) |
 | Implement Azure Backup for SAP HANA workloads on Azure VMs | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-backup-sap-workloads-azure-virtual-machines/) |
 | Optimize costs by using Azure Hybrid Benefit | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-costs-using-azure-hybrid-benefit/) |
 | Plan information barriers | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-insider-plan-information-barriers/) |
@@ -58,10 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Use Microsoft Graph and non-Microsoft APIs | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-graph-3rd-party-apis/) |
 | Deploy your AI Copilot with Azure Kubernetes | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-your-ai-copilot-azure-kubernetes/) |
 | Troubleshoot cloud and hybrid connectivity in Microsoft Azure | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-hybrid-connectivity/) |
-| Manage emails, segments, and journeys in Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-emails-journey/) |
-| Set up responsibility centers in Dynamics 365 Business Central | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-responsibility-centers/) |
-| Set up organization and reference data | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-setup-organization/) |
-| Work with Expense management in Dynamics 365 Project Operations | Learningpaths | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-expense-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-24.md](microsoft-learn-2026-07-part-24.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-26.md](microsoft-learn-2026-07-part-26.md)

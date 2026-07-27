@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 54 of 92
-date_range: 2026-01-31 to 2026-02-02
+date_range: 2026-02-01 to 2026-02-02
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-54.md
 ---
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Work with data source limits (delegation limits) in a Power Apps canvas app | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-data-source-limits-powerapps-canvas-app/) |
+| Connect Azure assets to Microsoft Defender for Cloud | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-azure-assets-to-azure-defender/) |
+| Build multi-table statements using KQL | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-multi-table-statements-kusto-query-language/) |
+| Independent learning with math tools in OneNote | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/independent-learning-math-tools-onenote/) |
 | OneNote for educators | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/onenote-teacher-academy/) |
 | Understand Windows Server IaaS Virtual Machine cost management | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-windows-server-iaas-vm-cost-management/) |
 | Introduction to Azure database administration | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-azure-database-administration/) |
@@ -39,14 +43,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Mitigate threats using Microsoft Defender for Endpoint | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-defender-for-endpoint/) |
 | Perform evidence and entities investigations using Microsoft Defender for Endpoint | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-evidence-entities-investigations-microsoft-defender-for-endpoint/) |
 | Plan a transition to modern endpoint management | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-transition-modern-endpoint-management/) |
-| Configure a project and repository structure to support secure pipelines | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-project-repository-structure-support-secure-pipelines/) |
 | Implement security through a pipeline using Azure DevOps | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-security-through-pipeline-using-devops/) |
+| Configure a project and repository structure to support secure pipelines | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-project-repository-structure-support-secure-pipelines/) |
 | Manage Microsoft Defender for Cloud Apps | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-defender-cloud-apps/) |
 | Get started with chart of accounts in Dynamics 365 Finance | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-chart-accounts-finance/) |
 | Guided project - Create an AI travel agent | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-ai-travel-agent/) |
 | Use watchlists in Microsoft Sentinel | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-watchlists-azure-sentinel/) |
-| Classify and protect on-premises data with Microsoft Purview | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-protect-on-premises-data/) |
 | Implement Microsoft Purview Information Protection | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-information-protection/) |
+| Classify and protect on-premises data with Microsoft Purview | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-protect-on-premises-data/) |
 | Run containers on Windows Server | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-containers-windows-server/) |
 | Perform actions on a device using Microsoft Defender for Endpoint | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-actions-device-microsoft-defender-for-endpoint/) |
 | Manage Microsoft Entra application access | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-application-access-microsoft-entra-id/) |
@@ -60,10 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with managing Microsoft Teams | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-managing-microsoft-teams/) |
 | Monitor your Microsoft Teams environment | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-your-microsoft-teams-environment/) |
 | Manage AD DS domain controllers and FSMO roles | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-active-directory-domain-services-flexible-single-master-operation-roles/) |
-| Manage secure user access in Microsoft 365 | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secure-access-microsoft-365/) |
-| Get started with cloud native apps and containerized deployments | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-cloud-native-apps-containerized-deployments/) |
-| Deploy cloud-native apps using Azure Container Apps | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-cloud-native-applications-to-azure-container-apps/) |
-| Guided Project - Create and manage canvas apps with Power Apps | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-manage-canvas-apps/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-53.md](microsoft-learn-2026-07-part-53.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-55.md](microsoft-learn-2026-07-part-55.md)

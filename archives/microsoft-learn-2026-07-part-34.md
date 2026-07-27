@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 34 of 92
 date_range: 2026-03-14 to 2026-03-17
-total_entries: 48
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-34.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Get started with resource management in Dynamics 365 Project Operations | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-project-resource-management/) |
+| Ship assemble-to-order items from the warehouse in Dynamics 365 Business Central | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/ship-assemble-to-order-items/) |
+| Deploy and analyze using care management analytics | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-care-management-analytics/) |
+| Work with real-time features in Dynamics 365 Customer Insights - Journeys | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-real-time-marketing/) |
 | Extend real-time marketing capabilities within Dynamics 365 Customer Insights - Journeys | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-real-time-marketing-capabilities/) |
 | Configure and use agreements in Dynamics 365 Supply Chain Management | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-use-agreements-dyn365-supply-chain-mgmt/) |
 | Manage Microsoft Power Platform deployments | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/designing-power-platform-deployments/) |
@@ -57,9 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Use Dynamics 365 Copilot for Sales | Learningpaths | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-copilot-sales/) |
 | Configure and manage vendor collaboration in Dynamics 365 Supply Chain Management | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-vendor-collaboration-dyn365-supply-chain-mgmt/) |
 | Managing estimation and sales process using Dynamics 365 Project Operations | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-estimations-project-operations/) |
-| Set up functional locations in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-functional-locations-asset-management/) |
-| Validate your Dynamics 365 customer experience analyst skills | Learningpaths | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-your-dynamics-365-customer-experience-analyst-skills/) |
-| Challenge project - Configure a Dynamics 365 customer experience solution | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-configure-dynamics-365-customer-experience-solution/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-33.md](microsoft-learn-2026-07-part-33.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-35.md](microsoft-learn-2026-07-part-35.md)

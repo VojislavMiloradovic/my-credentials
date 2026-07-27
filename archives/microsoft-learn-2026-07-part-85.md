@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 85 of 92
 date_range: 2025-11-26 to 2025-11-28
-total_entries: 51
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-85.md
 ---
 
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Technical foundations of SaaS | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/saas/saas-technical-foundations/) |
+| Plan and manage Surface for Business deployments | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-manage-surface-business/) |
+| Introduction to AI-powered information extraction concepts | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/) |
+| Build AI-powered solutions using SQL Server 2025 | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-ai-solutions-sql-server/) |
+| Get started with computer vision in Azure | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-computer-vision-azure/) |
 | Get started with generative AI in Azure | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-generative-ai-azure/) |
 | Get started with natural language processing in Azure | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-language-azure/) |
 | Introduction to Microsoft Surface Laptop for Business (Intel) | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-surface-laptop-business-intel/) |
@@ -47,8 +52,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Drive business value with Microsoft Copilot solutions | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-value-microsoft-copilot-solutions/) |
 | Windows 11 and cloud-native concepts: myths, realities, and best practices | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-native-myths/) |
 | Introduction to AI speech concepts | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/) |
-| Transform business workflows with generative AI | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-workflows-with-ai/) |
 | Analyze and visualize data using Microsoft 365 Copilot | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-visualize-data-copilot/) |
+| Transform business workflows with generative AI | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-workflows-with-ai/) |
 | Iterate through a code block using for statement in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-for/) |
 | Branch the flow of code using the switch-case construct in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-switch-case/) |
 | Introduction to Microsoft Azure Data non-relational data in Azure | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-non-relational-data/) |
@@ -59,10 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build your first workflow with Power Automate and Dataverse for Teams | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-workflow/) |
 | Create apps, copilots, flows, and more with Microsoft Dataverse and Teams | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-power-platform-teams/) |
 | Begin Python coding in Minecraft with MakeCode and Azure Notebooks | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/begin-python-coding-minecraft-makecode-azure-notebooks/) |
-| Define the role you want Microsoft 365 Copilot to play in your business workflow | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-copilot-role-business-workflow/) |
-| Draft and refine business content using Microsoft 365 Copilot | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/draft-refine-business-content/) |
-| Employ Copilot Chat as your AI assistant | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/employ-copilot-assistant/) |
-| Manage meetings and collaboration using Microsoft 365 Copilot | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-meetings-collaboration/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-84.md](microsoft-learn-2026-07-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-86.md](microsoft-learn-2026-07-part-86.md)

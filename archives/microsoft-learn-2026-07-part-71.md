@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Countdown to successful family-teacher conferences | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/countdown-successful-family-teacher-conferences/) |
+| Use a database with minimal API, Entity Framework Core, and ASP.NET Core | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-web-api-minimal-database/) |
+| Challenge project - Add image analysis and generation capabilities to your application | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-add-image-analysis-generation-to-app/) |
+| Manage software delivery by using a release based workflow on GitHub | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/release-based-workflow-github/) |
+| Govern your hybrid and multicloud machines through Azure Arc-enabled servers | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-azure-arc-enabled-servers/) |
+| The inclusive classroom: Find the correct learning tools to help all students achieve more | Learningpaths | 2025-12-26 | N/A |
+| Differentiation in the classroom using the built-in tools in Office 365 and Windows | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/differentiation-classroom-built-in-tools-office-365-windows/) |
 | Introduction to Dynamics 365 Commerce | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/dynamics-365-commerce-introduction/) |
 | Plan and deploy Azure Arc-enabled servers at scale | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-deploy-azure-arc-enabled-servers/) |
 | Manage Windows Server file servers | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-server-file-servers/) |
@@ -53,18 +60,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Integrate a Power Apps app with Power Automate - Online Workshop | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-power-apps-online-workshop/) |
 | Create a machine ordering app with Power Apps - Online Workshop | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-apps-online-workshop/) |
 | Manage cases with Dynamics 365 Customer Service workspace | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-cases-customer-service-workspace/) |
-| Build a scalable application with Virtual Machine Scale Sets | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-app-with-scale-sets/) |
 | Architect compute infrastructure in Azure | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-compute-infrastructure/) |
+| Build a scalable application with Virtual Machine Scale Sets | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-app-with-scale-sets/) |
 | Digitally transform with Dynamics 365 | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/digitally-transform-with-dynamics-365/) |
 | Onboard to Microsoft Learn for Educators program | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/onboard-microsoft-learn-educators-program/) |
 | Automate GitHub by using GitHub Script | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-github-using-github-script/) |
-| Automate an approval process in Power Automate | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/approvals-power-automate/) |
-| Introduction to Microsoft Dynamics 365 Supply Chain Management | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-microsoft-dynamics-365-supply-chain-management/) |
-| Describe Dynamics 365 Supply Chain Management core capabilities | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-general-capabilities-of-microsoft-dynamics/) |
-| Enhance nonprofit volunteer management with Microsoft Copilot | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-nonprofit-volunteer-management-microsoft-copilot/) |
-| Create a Dataverse table for the machine ordering app  - Online workshop | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/dataverse-lab-manual-online-workshop/) |
-| Create a model-driven Power Apps app for machine ordering - Online Workshop | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-model-driven-apps-online-workshop/) |
-| Introduction to Azure Bot Service and Bot Framework Composer | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-bot-service-bot-framework-composer/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-70.md](microsoft-learn-2026-07-part-70.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-72.md](microsoft-learn-2026-07-part-72.md)

@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Describe collaboration solutions of Microsoft 365 | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-collaboration-solutions-microsoft-365/) |
+| Get started with Microsoft 365 Copilot | Learningpaths | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-microsoft-365-copilot/) |
+| Optimize and extend Microsoft 365 Copilot | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-and-extend-microsoft-365-copilot/) |
+| Store and retrieve data using literal and variable values in C# | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-literals-variables/) |
+| Explore core data concepts | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/) |
 | Introduction to Microsoft Azure Data core data concepts | Learningpaths | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-core-data-concepts/) |
 | Introduction to information security and compliance in Microsoft Purview | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-governance/) |
 | GitHub Copilot Across Environments: IDE, Chat, GitHub.com, and Command Line Techniques | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-across-environments/) |
@@ -22,8 +27,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Azure Bastion | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-bastion/) |
 | Secure Microsoft Entra users with multifactor authentication | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-aad-users-with-mfa/) |
 | Manage Microsoft Entra Identity Protection | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-active-directory-identity-protection/) |
-| Generate images with AI | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/) |
 | Develop computer vision solutions in Azure | Learningpaths | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/) |
+| Generate images with AI | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/) |
 | Develop a vision-enabled generative AI application | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-vision-apps/) |
 | Create vision models with Azure AI Custom Vision | Learningpaths | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-models-custom-vision/) |
 | Detect objects in images | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/detect-objects-images/) |
@@ -64,11 +69,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Develop a RAG-based solution with your own data using Azure AI Foundry | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/) |
 | Introduction to AI Agent Service Security Controls | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-ai-agent-service-security-controls/) |
 | Explore internet search and beyond | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-internet-search-beyond/) |
-| Explore AI for All | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-ai-for-all/) |
-| Get started with Microsoft data analytics | Learningpaths | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/) |
-| Introduction to end-to-end analytics using Microsoft Fabric | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/) |
-| Explore responsible AI | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-ai/) |
-| Enhance teaching and learning with Microsoft 365 Copilot Chat | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-teaching-learning-microsoft-copilot/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-90.md](microsoft-learn-2026-07-part-90.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-92.md](microsoft-learn-2026-07-part-92.md)

@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 92 of 92
 date_range: 2025-11-05 to 2025-11-08
-total_entries: 34
+total_entries: 39
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-92.md
 ---
 
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Explore AI for All | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-ai-for-all/) |
+| Get started with Microsoft data analytics | Learningpaths | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/) |
+| Introduction to end-to-end analytics using Microsoft Fabric | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/) |
+| Explore responsible AI | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-ai/) |
+| Enhance teaching and learning with Microsoft 365 Copilot Chat | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-teaching-learning-microsoft-copilot/) |
 | Introduction to Microsoft 365 Copilot | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-365-copilot/) |
 | Develop an AI app with the Azure AI Foundry SDK | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-foundry-sdk/) |
 | Choose and deploy models from the model catalog in Azure AI Foundry portal | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/) |

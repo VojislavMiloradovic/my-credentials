@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 84 of 92
-date_range: 2025-11-28 to 2025-11-30
+date_range: 2025-11-28 to 2025-12-01
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-84.md
 ---
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Common education configurations for Intune (Partner Success Series) | Modules | 2025-12-01 | N/A |
+| Collaborate with colleagues with staff and PLC teams in Microsoft Teams | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/collaborate-colleagues-staff-plc-teams-microsoft-teams/) |
+| Perform operations on arrays using helper methods in C# | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-arrays-operations/) |
+| Explore developer tools for workspace interaction | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-developer-tools-for-workspace-interaction/) |
+| Innovate learning with the 21CLD real-world problem solving and innovation dimension | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/innovate-learning-21cld/) |
 | Convert data types using casting and conversion techniques in C# | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-convert-cast/) |
 | Enhance creativity to advance learning with Windows 11 and Microsoft 365 tools | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-creativity-advance-learning-windows-11-microsoft-365-tools/) |
 | Manage Microsoft 365 Copilot extensibility | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-365-copilot-extensibility/) |
@@ -35,14 +40,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Guided project - Develop conditional branching and looping structures in C# | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-develop-conditional-branching-looping/) |
 | Secure a Microsoft Fabric data warehouse | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-data-warehouse-in-microsoft-fabric/) |
 | Introduction to Azure Application Gateway | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway/) |
-| GitHub Foundations Part 1 of 2 | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-foundations/) |
 | Communicate effectively on GitHub using Markdown | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/) |
+| GitHub Foundations Part 1 of 2 | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-foundations/) |
 | Implement Real-Time Intelligence with Microsoft Fabric | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-real-time-analytics-microsoft-fabric/) |
 | Create Real-Time Dashboards with Microsoft Fabric | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-real-time-dashboards-microsoft-fabric/) |
 | Minecraft 101: Craft a game-based learning classroom | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/craft-game-based-learning-classroom/) |
 | Empower your workforce with Microsoft 365 Copilot: Legal Use Case | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-microsoft-365-copilot-legal-use-case/) |
-| Describe the best practices for datacenter operations | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-best-practices-datacenter-operations/) |
 | Introduction to Datacenter | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-datacenter/) |
+| Describe the best practices for datacenter operations | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-best-practices-datacenter-operations/) |
 | Describe the sustainability practices in datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sustainability-practices-datacenters/) |
 | Identify key hardware and IT infrastructure components of datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-key-hardware-it-infrastructure-components/) |
 | Learn about datacenter design, architecture, and infrastructure management | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-about-datacenter-design/) |
@@ -59,11 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Challenge project - Develop branching and looping structures in C# | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/) |
 | Organize content, create assignments, and assess learners' understanding in Teams | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/organize-content-create-assignments-assess-learners-understanding-teams/) |
 | Introduction to project FarmVibes.AI | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/research/introduction-to-project-farmvibes-ai/) |
-| Technical foundations of SaaS | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/saas/saas-technical-foundations/) |
-| Plan and manage Surface for Business deployments | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-manage-surface-business/) |
-| Introduction to AI-powered information extraction concepts | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/) |
-| Build AI-powered solutions using SQL Server 2025 | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-ai-solutions-sql-server/) |
-| Get started with computer vision in Azure | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-computer-vision-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-83.md](microsoft-learn-2026-07-part-83.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-85.md](microsoft-learn-2026-07-part-85.md)

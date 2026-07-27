@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 61 of 92
-date_range: 2026-01-13 to 2026-01-15
-total_entries: 51
+date_range: 2026-01-13 to 2026-01-16
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-61.md
 ---
 
@@ -12,13 +12,20 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Take your first steps with F# | Learningpaths | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/fsharp-first-steps/) |
+| Write your first F# code | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/fsharp-first-steps/) |
+| Understand and plan data loss prevention | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-understand-plan/) |
+| Security and management for Windows 11 Pro | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-management/) |
+| Process receipts with AI Builder | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-receipt-processing/) |
+| Ride the Wakelet wave! | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/ride-wakelet-wave/) |
+| Enhance productivity with Power Automate and the Office 365 Outlook Connector | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-productivity/) |
 | Discover interfaces | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-interfaces/) |
 | Introduction to Azure Communication Services | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-communication-services/) |
 | Explore Azure Synapse Studio | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-synapse-studio/) |
 | Create vendor invoice for resource non-stocked deployment in Dynamics 365 Project Operations | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vendor-invoice-resource-non-stocked/) |
 | Introduction to Viva Learning | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-learning-introduction/) |
-| Extend Microsoft 365 Copilot in TypeScript | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility-typescript/) |
 | Extend Microsoft 365 Copilot in .NET | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility/) |
+| Extend Microsoft 365 Copilot in TypeScript | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility-typescript/) |
 | Get started with Microsoft 365 Copilot extensibility | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-extensibility-intro/) |
 | Get to know Microsoft Azure cloud platform: An overview for business professionals | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-know-microsoft-azure-cloud-platform-business-professionals/) |
 | Describe the business benefits of Azure | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-benefits-azure/) |
@@ -38,8 +45,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Azure Virtual Machine Scale Sets | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machine-scale-sets/) |
 | Get started with Finance insights in Dynamics 365 Finance | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-finance-insights/) |
 | Secure your infrastructure with threat modeling | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/threat-modeling-enterprise-infrastructure/) |
-| Process mining for the data wrangler | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-mining-data-wrangler/) |
 | Transform and load event log data for process mining | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-load-event-log/) |
+| Process mining for the data wrangler | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-mining-data-wrangler/) |
 | Manage secrets in Java applications - Zero Trust and Zero Secrets | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secrets-java-applications-zero-trust/) |
 | Describe the purpose and use of source control | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-purpose-use-source-control/) |
 | Explain how a source control system helps manage files | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/explain-control-system-helps-manage-files/) |
@@ -57,12 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get tips and tricks for teaching DP-900 Microsoft Azure Data Fundamentals | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-dp-900-microsoft-azure-data-fundamentals/) |
 | Describe the concepts behind Microsoft Entra Verified ID | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-verified-id-concepts/) |
 | Get started with cost accounting in Dynamics 365 Finance | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-cost-accounting-dyn365-finance/) |
-| Get started with cost accounting for supply chains in Dynamics 365 Finance | Learningpaths | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) |
-| Get started with Microsoft 365 Copilot for Service | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-copilot-for-service/) |
-| HoloLens 2 fundamentals: develop mixed reality applications | Learningpaths | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/beginner-hololens-2-tutorials/) |
-| Add Azure AI services to your mixed reality project | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-speech-services-tutorials-mrtk/) |
-| Enable eye tracking and voice commands for objects on the HoloLens 2 | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-eye-tracking-voice-commands/) |
-| Getting started with 3D object interaction | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-object-interaction/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-60.md](microsoft-learn-2026-07-part-60.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-62.md](microsoft-learn-2026-07-part-62.md)

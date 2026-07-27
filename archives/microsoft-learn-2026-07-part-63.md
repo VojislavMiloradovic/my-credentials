@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 63 of 92
-date_range: 2026-01-07 to 2026-01-10
+date_range: 2026-01-07 to 2026-01-11
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-63.md
 ---
@@ -12,9 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Support building mathematics skills with Math Progress | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-building-mathematics-skills-math-progress/) |
+| Enabling digital transformation | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-digital-transformation/) |
+| Explore the Windows Package Manager tool | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-package-manager-tool/) |
+| Extend functionality by using events in Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-functionality-using-events/) |
+| Add new objects to Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-new-objects/) |
+| Introduction to the development process in Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-development-process/) |
 | Initialize data during extension installation in Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/initialize-data-extension-installation/) |
-| Examine ransomware and extortion-based threats | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/ransomware-basics/) |
 | Identify vulnerabilities that ransomware can exploit | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-identify-entry-points/) |
+| Examine ransomware and extortion-based threats | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/ransomware-basics/) |
 | Define ransomware and extortion-based security threats | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-extortion-based-threats/) |
 | Recover from ransomware attacks | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-recover/) |
 | Choose a budgeting tool that fits your preferences and financial goals | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-budgeting-tool/) |
@@ -23,8 +29,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create a personalized savings plan to work toward a financial goal | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-personalized-savings-plan/) |
 | Understand Azure NetApp Files essentials | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-essentials/) |
 | Understand how Azure NetApp Files provides volumes as a service | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-volumes-service/) |
-| Student and school success - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/student-school-success-education-transformation-framework/) |
 | Education Transformation Framework | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/education-transformation-framework/) |
+| Student and school success - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/student-school-success-education-transformation-framework/) |
 | Teaching and learning - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/teaching-learning-education-transformation-framework/) |
 | Leadership and policy - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/leadership-policy-education-transformation-framework/) |
 | Intelligent environments - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-environments-education-transformation-framework/) |
@@ -48,24 +54,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage your organization with Dynamics 365 Human Resources | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-organization/) |
 | Manage personnel with Dynamics 365 Human Resources | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-personnel/) |
 | Introduction to Azure hybrid cloud services | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-hybrid-services/) |
-| Design an accident tracking app in Power Apps | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-accident-tracking/) |
 | Build the Dataverse table schema for the model-driven app | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-dataverse-table-structure/) |
+| Design an accident tracking app in Power Apps | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-accident-tracking/) |
 | Transform a business process to a model-driven app | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/model-driven-app-solution/) |
 | Customize views and forms for model-driven apps | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-view-forms/) |
 | Deploy to multiple Azure environments by using JSON ARM template features | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/modify-azure-resource-manager-template-reuse/) |
 | Create your first Q# program with the Quantum Development Kit | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/qsharp-create-first-quantum-development-kit/) |
 | Connect to virtual machines through the Azure portal by using Azure Bastion | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-vm-with-azure-bastion/) |
 | Introduction to building copilots for startups | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-copilots-for-startups/) |
-| An AI toolbox for trainers | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-toolbox-for-trainers/) |
 | Training with AI tools | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/training-with-ai-tools/) |
+| An AI toolbox for trainers | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-toolbox-for-trainers/) |
 | Use AI tools to create an inclusive learning environment | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-tools-to-create-inclusive-learning-environment/) |
 | Implement AI tools into a training environment | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ai-tools-into-training-environment/) |
-| Streamline training plans with AI tools | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/streamline-training-plans-with-ai-tools/) |
-| Contribute to Microsoft Learn documentation in your browser | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/contribute-to-docs-browser/) |
-| Introduction to Microsoft Viva Glint | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-introduction-viva-glint/) |
-| Send Dynamics 365 Customer Voice surveys | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-customer-voice-surveys/) |
-| Create a survey project with Dynamics 365 Customer Voice | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-customer-voice-projects/) |
-| Create customer surveys with Dynamics 365 Customer Voice | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-customer-voice-surveys/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-62.md](microsoft-learn-2026-07-part-62.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-64.md](microsoft-learn-2026-07-part-64.md)

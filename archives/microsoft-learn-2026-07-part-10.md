@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 10 of 92
-date_range: 2026-06-08 to 2026-06-13
-total_entries: 54
+date_range: 2026-06-09 to 2026-06-13
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-10.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| View, troubleshoot, and improve app performance for Power Apps canvas apps | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/improve-app-performance/) |
+| Complete testing and performance checks in a Power Apps canvas app | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/testing-performance-checks-powerapps/) |
 | Use advance techniques in canvas apps to perform custom updates and optimization | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-advance-techniques-canvas-apps-custom-updates-optimization/) |
 | Security monitoring and governance | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/) |
 | Perform fit gap analysis | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/fit-gap-analysis/) |
@@ -63,9 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Power Platform Robotic Process Automation overview | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-platform-robotic-process-automation-overview/) |
 | Introduction to Microsoft Power Platform developer resources | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-developer-resources/) |
 | Manage and configure repositories | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/) |
-| Design a solution to log and monitor Azure resources | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-to-log-monitor-azure-resources/) |
-| Identify technical debt | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/) |
-| Design and implement branch strategies and workflows | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-09.md](microsoft-learn-2026-07-part-09.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-11.md](microsoft-learn-2026-07-part-11.md)

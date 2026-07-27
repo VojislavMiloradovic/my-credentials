@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 41 of 92
-date_range: 2026-02-28 to 2026-03-01
-total_entries: 53
+date_range: 2026-02-28 to 2026-03-02
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-41.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Set up and use discrete manufacturing resources in Dynamics 365 Supply Chain Management | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-discrete-manufacturing-resources/) |
+| Set up payment reconciliation journals in Dynamics 365 Business Central | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/reconciliation-journals-dynamics-365-business-central/) |
+| Introduction to Microsoft Power Platform and Business Central | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-business-central/) |
+| Trigger Azure Machine Learning jobs with GitHub Actions | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/trigger-azure-machine-learn-jobs-github-actions/) |
 | Service adoption framework - Phase 3, Scale | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-service-adoption-scale/) |
 | MD-101 Deploy using on-premises based tools | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-use-premises-based-tools/) |
 | Assess deployment readiness | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/assess-deployment-readiness/) |
@@ -25,8 +29,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Work with queries in Dynamics 365 Business Central | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-queries/) |
 | Windows Server high availability | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-high-availability/) |
 | Windows Server Hyper-V and Virtualization | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-hyper-v-virtualization/) |
-| Implement Hyper-V Replica | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hyper-v-replica/) |
 | Implement disaster recovery in Windows Server on-premises and hybrid environments | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-disaster-recovery-windows-server-premises/) |
+| Implement Hyper-V Replica | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hyper-v-replica/) |
 | Set up and use production control for discrete manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-production-control-discrete-manufacturing/) |
 | Get started with the Dynamics 365 Field Service Mobile application | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-mobile-app/) |
 | Define agreements in Dynamics 365 Field Service | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-agreements/) |
@@ -39,8 +43,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Update clients using Windows Update for Business | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/update-clients-use-windows-update-business/) |
 | Create a canvas app based on Business Central data | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-canvas-app/) |
 | Inspections in Dynamics 365 Field Service | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/inspections/) |
-| Prepare the environment for a Microsoft Teams deployment | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-environment-for-microsoft-teams-deployment/) |
 | Plan and configure network settings for Microsoft Teams | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-configure-network-settings-for-microsoft-teams/) |
+| Prepare the environment for a Microsoft Teams deployment | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-environment-for-microsoft-teams-deployment/) |
 | Implement device profiles | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-profiles/) |
 | MD-101 Configure user and device profiles | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-user-device-profiles/) |
 | Work with tables in Dynamics 365 Business Central | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-tables/) |
@@ -60,11 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Fine-tune language models with Azure Databricks | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/fine-tune-azure-databricks/) |
 | Configure Azure Cosmos DB for NoSQL | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-cosmos-db-sql-api/) |
 | Connect and engage with customers with Omnichannel for Dynamics 365 Customer Service | Learningpaths | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-customer-service-omnichannel/) |
-| Get started with Omnichannel for Customer Service | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/getting-started-omnichannel/) |
-| Create custom procedures in Dynamics 365 Business Central | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-custom-functions/) |
-| Enter payments in the cash receipt journal and the payment journal in Dynamics 365 Business Central | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/enter-payments-dynamics-365-business-central/) |
-| Build journeys with Dynamics 365 Customer Insights - Journeys | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-journeys-marketing/) |
-| Install and configure apps on a session host | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/install-configure-apps-session-host/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-40.md](microsoft-learn-2026-07-part-40.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-42.md](microsoft-learn-2026-07-part-42.md)

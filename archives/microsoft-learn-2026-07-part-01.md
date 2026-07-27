@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 1 of 92
-date_range: 2026-07-20 to 2026-07-25
+date_range: 2026-07-20 to 2026-07-27
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Protect information with Microsoft Purview information protection | Modules | 2026-07-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-information-purview/) |
+| Govern SharePoint and OneDrive for Microsoft 365 Copilot | Modules | 2026-07-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-sharepoint-onedrive-copilot/) |
 | Secure AI agents and workloads on Windows | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-ai-agents-windows/) |
 | Work on repeat | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-on-repeat/) |
 | Provision and govern identities in Microsoft Entra | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-govern-identities-entra/) |
@@ -64,8 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create powerful customer experiences for organizations with Dynamics 365 apps | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-powerful-customer-experiences-organizations/) |
 | Secure Windows Server on-premises and hybrid infrastructures | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-windows-server-premises-hybrid-infrastructures/) |
 | Hardening Windows Server | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-windows-server/) |
-| Plan an AI agent solution | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-design-ai-agent-solution/) |
-| Choose tools and services for your agent on Microsoft's agent platform | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-solutions-microsoft-agent-platform/) |
 
 ---
 > **Navigation:** Prev: None | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-02.md](microsoft-learn-2026-07-part-02.md)

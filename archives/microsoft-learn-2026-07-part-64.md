@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Streamline training plans with AI tools | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/streamline-training-plans-with-ai-tools/) |
+| Contribute to Microsoft Learn documentation in your browser | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/contribute-to-docs-browser/) |
+| Introduction to Microsoft Viva Glint | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-introduction-viva-glint/) |
+| Send Dynamics 365 Customer Voice surveys | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-customer-voice-surveys/) |
+| Create a survey project with Dynamics 365 Customer Voice | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-customer-voice-projects/) |
+| Create customer surveys with Dynamics 365 Customer Voice | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-customer-voice-surveys/) |
 | Apply a budgeting method to manage money effectively | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-budgeting-method/) |
 | Collaborate faster using Microsoft Teams for higher education staff | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/collaborate-faster-microsoft-teams-higher-education-staff/) |
 | Continuous deployment for machine learning | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/continuous-deployment-for-machine-learning/) |
@@ -24,8 +30,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Deploy a Microsoft Teams app to Azure by using Teams Toolkit for Visual Studio Code | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-deploy-apps/) |
 | Get started building apps for Microsoft Teams by using Teams Toolkit for Visual Studio Code | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-introduction/) |
 | Build a bot by using Teams Toolkit for Visual Studio Code | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-create-bot/) |
-| Sign in users with Microsoft Entra ID in a Java web app | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-java-app-enable-authentication-authorization/) |
 | Expand the capabilities for Java apps on Azure | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/expand-capabilities-java-azure/) |
+| Sign in users with Microsoft Entra ID in a Java web app | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-java-app-enable-authentication-authorization/) |
 | Deploy a Jakarta EE application to Azure | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-java-ee-app-to-jboss-app-service/) |
 | Architect API integration in Azure | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-api-integration/) |
 | Manage your generative AI APIs with Azure API Management | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/api-management/) |
@@ -57,14 +63,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Azure ExpressRoute | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-expressroute/) |
 | Introduction to Azure hybrid connectivity services | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-hybrid-connectivity-services/) |
 | Introduction to Azure Advisor | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-advisor/) |
-| Power Automate: Automation - Online Workshop | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
 | Create subflows and web automation with Power Automate for desktop - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-subflows-web-automation-online-workshop/) |
-| Integrate with Microsoft Teams to get approvals - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-teams-approval-online-workshop/) |
-| Add an AI model to process invoice forms - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-ai-model-process-invoice-online-workshop/) |
-| Integrate with cloud flows - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-cloud-flows-online-workshop/) |
-| Use Outlook email to trigger desktop flows and pass inputs - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/outlook-flows-online-workshop/) |
-| Get started with Microsoft for Healthcare | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/healthcare-in-a-day/) |
-| Integration and interoperability in Microsoft for Healthcare solution overview | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-interoperability-overview/) |
+| Power Automate: Automation - Online Workshop | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-63.md](microsoft-learn-2026-07-part-63.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-65.md](microsoft-learn-2026-07-part-65.md)

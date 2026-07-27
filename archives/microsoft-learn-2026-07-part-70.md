@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 70 of 92
 date_range: 2025-12-26 to 2025-12-27
-total_entries: 53
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-70.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Analyze DevOps Continuous Planning and Continuous Integration | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-devops-continuous-planning-intergration/) |
+| Introduce the foundation pillars of DevOps: Culture and Lean Product | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduce-foundation-pillars-devops/) |
+| Define the foundation pillars of DevOps: Architecture and Technology | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-foundation-pillars/) |
+| Manage your education devices with Microsoft 365 | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-manage-education-devices/) |
+| Deploy and enroll your education devices | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/education-deploy-devices/) |
+| Manage devices used for education | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/education-manage-devices/) |
+| Manage scoped administration and delegation with Microsoft Intune and Intune for Education | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/education-manage-admin/) |
+| Integrate data with Azure Data Factory or Azure Synapse Pipeline | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-integration-azure-data-factory/) |
 | Communicate using message boxes in Power Automate for desktop flows | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-message-boxes/) |
 | Troubleshoot physical failures on Windows clients | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-physical-failures-windows-clients/) |
 | MD-100 Troubleshoot hardware and drivers | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-hardware-drivers/) |
@@ -26,8 +34,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design an IP addressing schema for your Azure deployment | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ip-addressing-for-azure/) |
 | Uncover new data insights with AI | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/uncover-new-data-insights-ai/) |
 | Introduction to Azure Machine Learning authentication and authorization | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-machine-learning-auth/) |
-| Manage the lifecycle of your projects on GitHub | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-project-lifecycle-github/) |
 | Automate DevOps processes by using GitHub Apps | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-devops-github-apps/) |
+| Manage the lifecycle of your projects on GitHub | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-project-lifecycle-github/) |
 | Build community-driven software projects on GitHub | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-community-driven-projects-github/) |
 | Create an open-source program by using GitHub best practices | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-open-source-program-github/) |
 | Get started with production control in Dynamics 365 Supply Chain Management | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-production-control-dyn365-supply-chain-mgmt/) |
@@ -39,8 +47,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Governance for process mining | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/governance-process-mining/) |
 | Create your first desktop flow - Online workshop | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-first-desktop-flow-online-workshop/) |
 | Computational thinking and its importance in education | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/computational-thinking-importance-education/) |
-| Discover AI for leaders in manufacturing | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-manufacturing/) |
 | Define a Microsoft AI strategy to create business value in manufacturing | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-manufacturing/) |
+| Discover AI for leaders in manufacturing | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-manufacturing/) |
 | Developing in the Windows Subsystem for Linux with Visual Studio Code | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/developing-in-wsl/) |
 | Control file and folder handling in Power Automate for desktop | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-files-folders-handling/) |
 | Work with different technologies in Power Automate for desktop | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-work-different-technologies/) |
@@ -58,13 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Automate the processing of documents with the AI Builder prepackaged solution | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-ai-builder-document-automation/) |
 | Get started with AI Builder prediction | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-prediction/) |
 | Use AI Builder models in Power Apps | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-builder/) |
-| Countdown to successful family-teacher conferences | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/countdown-successful-family-teacher-conferences/) |
-| Use a database with minimal API, Entity Framework Core, and ASP.NET Core | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-web-api-minimal-database/) |
-| Challenge project - Add image analysis and generation capabilities to your application | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-add-image-analysis-generation-to-app/) |
-| Manage software delivery by using a release based workflow on GitHub | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/release-based-workflow-github/) |
-| Govern your hybrid and multicloud machines through Azure Arc-enabled servers | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-azure-arc-enabled-servers/) |
-| The inclusive classroom: Find the correct learning tools to help all students achieve more | Learningpaths | 2025-12-26 | N/A |
-| Differentiation in the classroom using the built-in tools in Office 365 and Windows | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/differentiation-classroom-built-in-tools-office-365-windows/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-69.md](microsoft-learn-2026-07-part-69.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-71.md](microsoft-learn-2026-07-part-71.md)

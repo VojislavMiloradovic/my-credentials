@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 20 of 92
 date_range: 2026-04-29 to 2026-05-04
-total_entries: 50
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-20.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Design integration strategies for agents in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-enterprise-integration-strategies-agents-copilot-studio/) |
+| Delegate agent tasks using child agents in Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/delegate-agent-tasks-child-agents-copilot-studio/) |
+| Build multi-agent solutions using connected agents in Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-multi-agent-solutions-connected-agents-copilot-studio/) |
 | Take action in external systems using connector and REST API agent tools in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/take-action-external-systems-connector-rest-api-tools-copilot-studio/) |
 | Build cross-platform multi-agent solutions using the Agent2Agent protocol in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cross-platform-multi-agent-solutions-agent2agent-copilot-studio/) |
 | Configure platform-level security for Azure SQL | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-sql-platform-security/) |
@@ -58,10 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Upgrade from AX 2012 to Dynamics 365 Finance | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/upgrade-ax-finance-operations/) |
 | Set up metrics and alerts for Customer Voice surveys | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/metrics-alerts-voice-surveys/) |
 | Build a model-driven app by using virtual health data tables | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-interoperability-build-application/) |
-| Integrate Dynamics 365 Sales with Dynamics 365 Business Central using Dataverse | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dynamics-365-sales-business-central-dataverse/) |
-| Sync sales orders from and to Dynamics 365 Business Central and Dynamics 365 Sales | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-sales-orders-business-central/) |
-| Introduction to Azure Data Share | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-data-share/) |
-| Share data with Azure Data Share | Learningpaths | 2026-04-29 | N/A |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-19.md](microsoft-learn-2026-07-part-19.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-21.md](microsoft-learn-2026-07-part-21.md)

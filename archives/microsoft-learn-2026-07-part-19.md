@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Dragon Copilot (physicians) practical application exercises summary | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-practical-applications-summary/) |
+| Dragon Copilot (physicians) introduction to practical application exercises | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-welcome-to-practical-applications/) |
+| Understand AI agents and prompting | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-ai-agents-prompting/) |
 | Turn information into decisions with AI agents | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/turn-info-into-decisions-ai-agents/) |
 | Experience Security Copilot through guided simulations | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-interactive-guides/) |
 | Enhance ESG Reporting with social and governance data | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-track-social-governance-data/) |
@@ -60,9 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Microsoft Entra Agent ID | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-entra-agent-id/) |
 | Design multi-agent solutions in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-agent-solutions-copilot-studio/) |
 | Design and build multi-agent solutions in Microsoft Copilot Studio | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-build-multi-agent-solutions-copilot-studio/) |
-| Design integration strategies for agents in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-enterprise-integration-strategies-agents-copilot-studio/) |
-| Delegate agent tasks using child agents in Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/delegate-agent-tasks-child-agents-copilot-studio/) |
-| Build multi-agent solutions using connected agents in Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-multi-agent-solutions-connected-agents-copilot-studio/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-18.md](microsoft-learn-2026-07-part-18.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-20.md](microsoft-learn-2026-07-part-20.md)

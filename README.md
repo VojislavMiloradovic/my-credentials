@@ -12,13 +12,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
-- **Total Experience Points (XP):** 5,925,275
+- **Total Experience Points (XP):** 5,928,675
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,863
+- **Badges Earned (Profile):** 3,865
 - **Trophies Earned (Profile):** 898
 - **Completed Learning Paths (Active Tracker):** 509
-- **Completed Modules (Active Tracker):** 2,613
-- **Completed Individual Units:** 35,238
+- **Completed Modules (Active Tracker):** 2,615
+- **Completed Individual Units:** 35,264
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -29,8 +29,10 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,761 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,763 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
+- **Protect information with Microsoft Purview information protection** (Modules | Earned: 2026-07-27 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/protect-information-purview/))
+- **Govern SharePoint and OneDrive for Microsoft 365 Copilot** (Modules | Earned: 2026-07-27 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/govern-sharepoint-onedrive-copilot/))
 - **Secure AI agents and workloads on Windows** (Modules | Earned: 2026-07-25 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/secure-ai-agents-windows/))
 - **Work on repeat** (Modules | Earned: 2026-07-25 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/work-on-repeat/))
 - **Provision and govern identities in Microsoft Entra** (Modules | Earned: 2026-07-25 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/provision-govern-identities-entra/))
@@ -39,8 +41,6 @@ Showing latest 10 of 4,761 achievements. View the full dataset via the [Platform
 - **Deliver solutions with pipelines in Power Platform** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/deliver-solutions-pipelines/))
 - **Configure the Dataverse security model in Power Platform** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/configure-dataverse-security-model/))
 - **Audit and retain Dataverse data in Power Platform** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/audit-retain-dataverse-data/))
-- **Streamline development workflows with Windows 11** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/windows-for-developers/))
-- **Secure email and collaboration with Microsoft Defender for Office 365** (Modules | Earned: 2026-07-24 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/secure-email-collaboration-defender-office365/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

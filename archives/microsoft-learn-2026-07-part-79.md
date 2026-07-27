@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Naming and branding | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/name-brand/) |
+| Plan your first agent - Online workshop | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-first-chatbot-online-workshop/) |
+| Empower your workforce with Microsoft 365 Copilot: HR Use Case | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-hr/) |
+| Build an initial agent with Microsoft Copilot Studio | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilots-copilot-studio/) |
+| Enhance agents with autonomous capabilities | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-autonomous-agents/) |
+| Understand Conditional Access policies using Microsoft Intune | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/policy-security-management-using-microsoft-endpoint-manager/) |
+| Microsoft Intune fundamentals | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/endpoint-manager-fundamentals/) |
 | Build community with Teams and OneNote | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-community-teams-onenote/) |
 | Use a framework to identify threats and find ways to reduce or eliminate risk | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-use-a-framework-to-identify-threats-and-find-ways-to-reduce-or-eliminate-risk/) |
 | Describe shared activities and integration options in Dynamics 365 customer engagement apps | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-common-activities-integration-options/) |
@@ -58,13 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create tables in Dataverse | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps-common-data-service/) |
 | Learn OKR essentials with Viva Goals | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-goals-okr-essentials/) |
 | Advance your security posture with Microsoft Intune from chip to cloud | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-advance-organization-security-posture/) |
-| Get started with Microsoft Viva Connections | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-get-started/) |
-| Integrate external content with Microsoft 365 Copilot using Copilot connectors built with .NET | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-graph-connectors/) |
-| Make the most of a mentor meeting | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/mentor-meeting/) |
-| Microsoft Teams in the education space (Partner Success Series) | Modules | 2025-12-11 | N/A |
-| Define academic and industry requirements for implementing certifications in degree programs | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/academic-program-certifications-define-requirements/) |
-| Extract data from passports and US driver licenses | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-ai-builder-identity-document-reader/) |
-| Introduction to Teams for Education (Partner Success Series) | Modules | 2025-12-11 | N/A |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-78.md](microsoft-learn-2026-07-part-78.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-80.md](microsoft-learn-2026-07-part-80.md)

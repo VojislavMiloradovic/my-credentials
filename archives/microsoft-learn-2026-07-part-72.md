@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 72 of 92
-date_range: 2025-12-23 to 2025-12-24
-total_entries: 55
+date_range: 2025-12-24 to 2025-12-24
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-72.md
 ---
 
@@ -12,21 +12,28 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Automate an approval process in Power Automate | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/approvals-power-automate/) |
+| Introduction to Microsoft Dynamics 365 Supply Chain Management | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-microsoft-dynamics-365-supply-chain-management/) |
+| Describe Dynamics 365 Supply Chain Management core capabilities | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-general-capabilities-of-microsoft-dynamics/) |
+| Enhance nonprofit volunteer management with Microsoft Copilot | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-nonprofit-volunteer-management-microsoft-copilot/) |
+| Create a Dataverse table for the machine ordering app  - Online workshop | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/dataverse-lab-manual-online-workshop/) |
+| Create a model-driven Power Apps app for machine ordering - Online Workshop | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-model-driven-apps-online-workshop/) |
+| Introduction to Azure Bot Service and Bot Framework Composer | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-bot-service-bot-framework-composer/) |
 | Document and test your Power Apps application | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-test-powerapps-app/) |
-| Deliver engaging and accessible virtual events with Microsoft Teams and Microsoft 365 | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-virtual-events-fundamentals/) |
 | Bringing it all together for engaging virtual events in Microsoft 365 | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-bring-all-together-engaging-virtual-events/) |
+| Deliver engaging and accessible virtual events with Microsoft Teams and Microsoft 365 | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-virtual-events-fundamentals/) |
 | Design a successful virtual event using Microsoft 365 | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-design-successful-virtual-events/) |
 | Introduction to delivering virtual events using Microsoft Teams and Microsoft 365 | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-introduction-deliver-virtual-events-using-microsoft-teams/) |
 | Discover AI for leaders in healthcare | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-healthcare-industry/) |
 | Define a Microsoft AI strategy to create business value in healthcare | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-healthcare/) |
 | Foundations of user experience and design thinking | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/ux-design/) |
 | Get started with Azure Stream Analytics | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-data-streaming/) |
-| MD-100 Install the Windows client | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/install-windows-client/) |
 | Evaluate deployment methods | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-deployment-methods/) |
+| MD-100 Install the Windows client | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/install-windows-client/) |
 | Align requirements with cloud types and service models in Azure | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/align-requirements-in-azure/) |
 | Leverage data for action with Microsoft Education Insights | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/leverage-data-for-action-microsoft-insights/) |
-| Think like a Maker series: Plan and deploy your Power App | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-deploy/) |
 | Deploy and refine your app like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-refine-app/) |
+| Think like a Maker series: Plan and deploy your Power App | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-deploy/) |
 | Test your app like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-app/) |
 | Make your app like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/make-app/) |
 | Design your app like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-app/) |
@@ -58,15 +65,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Make your meetings more productive with AI | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/make-your-meetings-more-productive-ai/) |
 | Email with Power Automate | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/email-power-automate/) |
 | Process custom documents with AI Builder | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-form-processing/) |
-| Introduction to AI in Azure | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/) |
 | Get started with machine learning in Azure | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/) |
-| Introduction to large language models | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-large-language-models/) |
-| Settle competing commits by using merge conflict resolution on GitHub | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/resolve-merge-conflicts-github/) |
-| Describe inventory and warehousing capabilities in Dynamics 365 Supply Chain Management | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-warehouse-inventory-management-capabilities/) |
-| What is Microsoft Graph? | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-intro-overview/) |
-| Fundamentals of computer networking | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/network-fundamentals/) |
-| Understanding Low Code as a Traditional Developer | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/understanding-low-code-as-a-traditional-developer/) |
-| Draft impactful documents using AI | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/draft-impactful-documents-using-ai/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-71.md](microsoft-learn-2026-07-part-71.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-73.md](microsoft-learn-2026-07-part-73.md)

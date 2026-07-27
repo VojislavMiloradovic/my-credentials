@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 47 of 92
 date_range: 2026-02-12 to 2026-02-12
-total_entries: 50
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-47.md
 ---
 
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Create knowledge management solutions in Dynamics 365 Customer Service | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/creating-and-designing-knowledge-management-solutions/) |
+| Extend and manage Microsoft Copilot Studio agents | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-virtual-agents-enhance/) |
+| Use Azure AI Services for Language in a Microsoft Copilot Studio | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/cognitive-service-power-virtual-agents/) |
+| Work with inventory management operations in Dynamics 365 Supply Chain Management | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-inventory-management/) |
+| Functional Consultant skills | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/functional-consultant-skills/) |
 | Work with cases in Dynamics 365 Customer Service | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-cases-in-dynamics-365-for-customer-service/) |
 | Create or update records automatically in Customer Service Hub | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/auto-create-records-hub/) |
 | Use knowledge articles to resolve Dynamics 365 Customer Service cases | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/consuming-knowledge-articles-for-case-resolutions/) |
@@ -26,8 +31,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create custom experiences for service representatives with agent experience profiles in Customer Service | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/agents-app-profile-manager/) |
 | Run Azure Databricks Notebooks with Azure Data Factory | Modules | 2026-02-12 | N/A |
 | Introduction to Azure Virtual Desktop | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-wvd-intro/) |
-| Get started with Azure Cosmos DB for NoSQL | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-azure-cosmos-db-sql-api/) |
 | Try Azure Cosmos DB for NoSQL | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/try-azure-cosmos-db-sql-api/) |
+| Get started with Azure Cosmos DB for NoSQL | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-azure-cosmos-db-sql-api/) |
 | Orchestrate containers on Windows Server using Kubernetes | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-containers-windows-server-using-kubernetes/) |
 | Manage leads with Dynamics 365 Sales | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-leads-dynamics-365-sales/) |
 | Prepare your organization for Microsoft 365 Copilot | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-your-organization-microsoft-365-copilot/) |
@@ -48,8 +53,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Secure Windows Server user accounts | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-windows-server-user-accounts/) |
 | Implement and manage networking for Azure Virtual Desktop | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-networking-azure-virtual-desktop/) |
 | Work with analytics and reporting in finance and operations apps | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-analytics-reporting-finance-operations/) |
-| Administer Dynamics 365 Business Central online | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/admin-online-dynamics-365-business-central/) |
 | Deploy and configure Microsoft Dynamics 365 Business Central | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-dynamics-365-business-central/) |
+| Administer Dynamics 365 Business Central online | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/admin-online-dynamics-365-business-central/) |
 | Extract insights using Azure Language and Azure Database for PostgreSQL | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-insights-using-azure-ai-language-azure-database-postgresq/) |
 | Power Pages workspace setup - Online workshop | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-workspace-setup-online-workshop/) |
 | Master, supplemental and personal data in Business Central | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/master-supplemental-personal-data-dynamics-365-business-central/) |
@@ -58,10 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Service representative collaboration in Dynamics 365 Customer Service | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-collaboration/) |
 | Translate Text with Azure Translator and Azure Database for PostgreSQL | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/translate-text-azure-ai-translator-azure-database-postgresql/) |
 | Manage identities in Microsoft Entra ID | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-identities-azure-active-directory/) |
-| Manage user profiles | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-user-profiles/) |
-| Search and filter knowledge articles by using Dynamics 365 Customer Service | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/search-filter-knowledge-articles/) |
-| Work with performance and monitoring tools in finance and operations apps | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/performance-monitoring-finance-operations/) |
-| Set up and work with inventory control in Dynamics 365 Supply Chain Management | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-work-inventory-control/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-46.md](microsoft-learn-2026-07-part-46.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-48.md](microsoft-learn-2026-07-part-48.md)

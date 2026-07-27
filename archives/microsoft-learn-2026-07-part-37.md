@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 37 of 92
-date_range: 2026-03-06 to 2026-03-08
-total_entries: 48
+date_range: 2026-03-06 to 2026-03-09
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-37.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Query the Azure Cosmos DB for NoSQL | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-azure-cosmos-db-sql-api/) |
+| Implement interfaces in Dynamics 365 Business Central | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-interfaces/) |
+| Create surveys with Dynamics 365 Customer Voice | Learningpaths | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-surveys/) |
+| Automate Dynamics 365 Customer Voice surveys with Power Automate | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-customer-voice-surveys/) |
 | Customize the schedule board in Dynamics 365 Field Service | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-the-schedule-board-urs-dynamics-field-service/) |
 | Troubleshoot scripts and handle errors in Windows PowerShell | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-scripts-handle-errors-windows-powershell/) |
 | Create and modify scripts by using Windows PowerShell | Learningpaths | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-modify-script-use-windows-powershell/) |
@@ -57,9 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Customize high-performance computing clusters deployed with Azure CycleCloud | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-clusters-azure-cyclecloud/) |
 | Import data in different formats for use in scripts by using Windows PowerShell cmdlets | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/import-data-different-formats-for-use-scripts/) |
 | Use Azure Functions with Dynamics 365 Business Central | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-functions/) |
-| Measure index performance in Azure Cosmos DB for NoSQL | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/measure-index-azure-cosmos-db-sql-api/) |
-| Use application development best practices in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-application-development-business-central/) |
-| Introduction to application types in Business Central | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-types/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-36.md](microsoft-learn-2026-07-part-36.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-38.md](microsoft-learn-2026-07-part-38.md)

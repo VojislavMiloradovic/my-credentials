@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 13 of 92
-date_range: 2026-05-30 to 2026-06-01
+date_range: 2026-05-30 to 2026-06-02
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-13.md
 ---
@@ -12,10 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Understand data security posture management in Microsoft Purview | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-posture-management-understand/) |
+| Implement application protection and security using Microsoft Intune | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-protection-intune/) |
+| Implement Microsoft Defender for Endpoint using Microsoft Intune | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-endpoint-intune/) |
 | Manage AI-ready infrastructure | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-ai-ready-infrastructure/) |
 | Manage monitoring for AI-Ready Infrastructure | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitoring-ai-ready-infrastructure/) |
-| Govern AI-ready infrastructure | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/govern-ai-ready-infrastructure/) |
 | Apply governance controls to AI-ready workloads | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
+| Govern AI-ready infrastructure | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/govern-ai-ready-infrastructure/) |
 | Develop AI solutions with Azure Cosmos DB for NoSQL | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-cosmos-db/) |
 | Build queries for Azure Cosmos DB for NoSQL | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-cosmos-db/) |
 | Optimize query performance for Azure Cosmos DB for NoSQL | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-azure-cosmos-db/) |
@@ -56,14 +59,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Configure GitHub Copilot instructions and create custom agents | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-customize-github-copilot-visual-studio-code/) |
 | Explore SQL Server 2025 capabilities | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-sql-server-capabilities/) |
 | Transform development workflows with T-SQL in SQL Server 2025 | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sql-server-t-sql-enhancements/) |
-| Integrate SQL solutions with Azure services | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sql-solutions-azure-services/) |
 | Secure, optimize, and deploy database solutions | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-optimize-deploy-database-solutions/) |
+| Integrate SQL solutions with Azure services | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sql-solutions-azure-services/) |
 | Implement SQL solutions by using AI-assisted tools | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/) |
 | Design and implement database objects with SQL | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-database-objects/) |
 | Optimize database performance | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-database-performance/) |
-| Implement data security and compliance with SQL | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-security-compliance/) |
-| Monitor and optimize Dynamics 365 Contact Center with AI-driven insights | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-optimize-dynamics-365-contact-center/) |
-| Reach customers first with proactive engagement in Dynamics 365 Contact Center | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/reach-customers-proactive-engagement-contact-center/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-12.md](microsoft-learn-2026-07-part-12.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-14.md](microsoft-learn-2026-07-part-14.md)

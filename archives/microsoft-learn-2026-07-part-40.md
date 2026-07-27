@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 40 of 92
-date_range: 2026-03-01 to 2026-03-04
+date_range: 2026-03-02 to 2026-03-04
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-40.md
 ---
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Post purchase item charges in Dynamics 365 Business Central | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/post-purchase-item-charges-dynamics-365-business-central/) |
+| Explore Azure for SAP databases | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-databases/) |
+| Learn about application performance and monitoring in Business Central | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-performance-monitor/) |
+| Enumerate objects in the pipeline | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/enumerate-objects-pipeline/) |
 | Create a Log Analytics workspace | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-log-analytics-workspace-microsoft-defender-cloud/) |
 | Migrate on-premises MySQL databases to Azure Database for MySQL | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-on-premises-mysql-databases/) |
 | Incident types in Dynamics 365 Field Service | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/incident-types/) |
@@ -59,10 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement change tracking and file integrity monitoring for Windows IaaS VMs | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-change-tracking-file-integrity-monitoring/) |
 | Implement Windows Server IaaS VM Security | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-iaas-virtual-machine-security/) |
 | Explore just-in-time virtual machine access | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/just-in-time-access/) |
-| Set up and use discrete manufacturing resources in Dynamics 365 Supply Chain Management | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-discrete-manufacturing-resources/) |
-| Set up payment reconciliation journals in Dynamics 365 Business Central | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/reconciliation-journals-dynamics-365-business-central/) |
-| Introduction to Microsoft Power Platform and Business Central | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-business-central/) |
-| Trigger Azure Machine Learning jobs with GitHub Actions | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/trigger-azure-machine-learn-jobs-github-actions/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-39.md](microsoft-learn-2026-07-part-39.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-41.md](microsoft-learn-2026-07-part-41.md)

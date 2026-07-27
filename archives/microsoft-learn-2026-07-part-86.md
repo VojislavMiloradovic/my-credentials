@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 86 of 92
-date_range: 2025-11-23 to 2025-11-26
+date_range: 2025-11-24 to 2025-11-26
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-86.md
 ---
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Define the role you want Microsoft 365 Copilot to play in your business workflow | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-copilot-role-business-workflow/) |
+| Draft and refine business content using Microsoft 365 Copilot | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/draft-refine-business-content/) |
+| Employ Copilot Chat as your AI assistant | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/employ-copilot-assistant/) |
+| Manage meetings and collaboration using Microsoft 365 Copilot | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-meetings-collaboration/) |
 | What is generative AI? | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-generative-ai/) |
 | Unlock productivity with generative AI | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/generative-ai-productivity/) |
 | Keep Microsoft 365 secure after Windows 10 end of support | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-10-end-of-support-impact-microsoft-365/) |
@@ -60,10 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Draft a campaign brief using Copilot in Word | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/draft-a-campaign-brief/) |
 | Explore Microsoft 365 administration | Learningpaths | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-administration/) |
 | Explore Microsoft 365 security foundations | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-365-security-foundations/) |
-| Protect and govern Microsoft 365 data | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-govern-data-microsoft-365/) |
-| Hotpatch updates for Windows client devices | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/hotpatch-updates/) |
-| Introduction to Microsoft 365 core services and admin controls | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-365-core-services-admin-control/) |
-| Store and iterate through sequences of data using Arrays and the foreach statement in C# | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-arrays/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-85.md](microsoft-learn-2026-07-part-85.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-87.md](microsoft-learn-2026-07-part-87.md)

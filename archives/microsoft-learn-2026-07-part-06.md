@@ -12,11 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Troubleshoot Microsoft Teams meetings live events and messaging | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-microsoft-teams-meetings-live-events-messaging/) |
+| Deploy and manage resources in Azure by using JSON ARM templates | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-resource-manager-templates/) |
 | Extend Bicep and ARM templates using deployment scripts | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-resource-manager-template-deployment-scripts/) |
 | Explore healthcare data solutions in Microsoft Fabric | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-healthcare-data-solutions/) |
 | Ingest clinical data in FHIR into healthcare data solutions in Microsoft Fabric | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-fhir-data-ingestion/) |
-| Get tips and tricks for teaching PL-300: Microsoft Power BI Data Analyst in academic programs | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-pl-300-microsoft-power-bi-data-analyst/) |
 | Prepare to teach PL-300: Microsoft Power BI Data Analyst | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-to-teach-pl-300-microsoft-power-bi-data-analyst/) |
+| Get tips and tricks for teaching PL-300: Microsoft Power BI Data Analyst in academic programs | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-pl-300-microsoft-power-bi-data-analyst/) |
 | Configure and process postdated checks in Dynamics 365 Finance | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-process-postdated-checks-dyn365-finance/) |
 | Configure and use cash and bank management, and sales tax in Dynamics 365 Finance | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-cash-bank-management-tax-dyn365-finance/) |
 | Teleport entangled qubits with Q# | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-entanglement/) |
@@ -34,14 +36,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Examine SAP S/4HANA on Azure virtual machines | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-sap-s4hana-azure-virtual-machines/) |
 | Implement transactions with Transact-SQL | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-transactions-transact-sql/) |
 | Combine query results with set operators | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/combine-query-results-set-operators/) |
-| Manage data sources with external data stores in finance and operations apps | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/external-data-sources-finance-operations/) |
 | Connect to finance and operations apps | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/connect-finance-operations/) |
+| Manage data sources with external data stores in finance and operations apps | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/external-data-sources-finance-operations/) |
 | Integrate finance and operations apps with Microsoft Power Platform | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-finance-operations-apps-power-platform/) |
 | Work with tools and best practices to integrate finance and operations apps with Microsoft Power Platform | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/tools-finance-operations-power-platform/) |
 | Harmonize business concepts between finance and operations apps and Microsoft Power Platform | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/harmonize-business-concepts-finance-operations-power-platform/) |
 | Discover common terms and meanings for SAP on Azure | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-common-terms-meanings/) |
-| Monitor and troubleshoot Teams collaboration communications systems | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-teams-phone-system/) |
 | MS-721 Manage Teams collaboration communications systems | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-teams-voice/) |
+| Monitor and troubleshoot Teams collaboration communications systems | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-teams-phone-system/) |
 | Work with integration tools in finance and operations apps | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-implementation-tools-finance-operations/) |
 | Work with asynchronous integrations in finance and operations apps | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-integrations-finance-operations/) |
 | Explore Azure for SAP workloads | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-sap-workloads/) |
@@ -62,8 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Cutover strategy for Dynamics 365 solutions | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/cutover-strategy-dynamics-365/) |
 | Use Success by Design for Dynamics 365 solutions | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-success-design/) |
 | Prepare to teach AZ-500 Microsoft Azure Security Technologies | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-500-microsoft-azure-security-technologies/) |
-| Get tips and tricks for teaching AZ-500 Microsoft Azure Security Technologies | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-az-500-microsoft-azure-security-technologies/) |
-| Integration design for Dynamics 365 solutions | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/integration/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-05.md](microsoft-learn-2026-07-part-05.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-07.md](microsoft-learn-2026-07-part-07.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 36 of 92
-date_range: 2026-03-08 to 2026-03-12
+date_range: 2026-03-09 to 2026-03-12
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-36.md
 ---
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Use text generation in AI Builder | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-text-generation/) |
+| Leadership in the modern workplace | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/leadership-modern-workplace/) |
+| Create an inclusive environment with cultural leadership | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-inclusive-environment-cultural-leadership/) |
+| Manage Apps in Windows 365 Cloud PCs | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-apps-windows-365-cloud-pcs/) |
 | Get started with Java on Azure | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-java-azure/) |
 | Containerize and deploy a Java app to Azure | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/containerize-deploy-java-app-aks/) |
 | MS-101 Manage content search and investigations in Microsoft 365 | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-content-search-investigations-microsoft-365/) |
@@ -22,8 +26,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with project sales management in Dynamics 365 Project Operations | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-project-sales-management/) |
 | Manage Microsoft Purview Audit (Standard) | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-purview-audit-standard/) |
 | Create text messages and push notifications in Dynamics 365 Customer Insights - Journeys | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-text-messages-push-notifications/) |
-| Implement a data modeling and partitioning strategy for Azure Cosmos DB for NoSQL | Learningpaths | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-modeling-partitioning-azure-cosmos-db-sql-api/) |
 | Implement a non-relational data model | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-non-relational-data-model/) |
+| Implement a data modeling and partitioning strategy for Azure Cosmos DB for NoSQL | Learningpaths | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-modeling-partitioning-azure-cosmos-db-sql-api/) |
 | Deploy a model with GitHub Actions | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-model-github-actions/) |
 | Work with web services in Dynamics 365 Business Central | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-web-services/) |
 | Create forms in Dynamics 365 Customer Insights - Journeys | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-forms-customer-insights-journeys/) |
@@ -59,10 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with unified routing for Dynamics 365 Customer Service | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-unified-routing/) |
 | Teach AP Computer Science Principles with the Microsoft MakeCode curriculum | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-ap-computer-science-principles-makecode/) |
 | Execute queries and build a Generative AI application with Azure Cosmos DB | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/execute-queries-azure-cosmos-db-sql-api/) |
-| Query the Azure Cosmos DB for NoSQL | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-azure-cosmos-db-sql-api/) |
-| Implement interfaces in Dynamics 365 Business Central | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-interfaces/) |
-| Create surveys with Dynamics 365 Customer Voice | Learningpaths | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-surveys/) |
-| Automate Dynamics 365 Customer Voice surveys with Power Automate | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-customer-voice-surveys/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-35.md](microsoft-learn-2026-07-part-35.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-37.md](microsoft-learn-2026-07-part-37.md)

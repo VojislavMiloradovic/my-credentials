@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 29 of 92
-date_range: 2026-04-02 to 2026-04-06
-total_entries: 49
+date_range: 2026-04-03 to 2026-04-07
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-29.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Predict late payments for sales documents in Dynamics 365 Business Central | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/predict-late-payments-sales-documents/) |
+| Create a unified customer profile in Dynamics 365 Customer Insights - Data | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/unified-customer-profile/) |
+| Troubleshoot platform-as-a-service issues in Microsoft Azure | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-platform-service-issues/) |
+| Measure performance in Azure Cosmos DB for NoSQL | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/measure-performance-azure-cosmos-db-sql-api/) |
 | Monitor and troubleshoot an Azure Cosmos DB for NoSQL solution | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-troubleshoot-azure-cosmos-db-sql-api-solution/) |
 | Continuous integration with Azure DevOps for Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/continuous-integration/) |
 | Use Docker in your Business Central development process | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-docker-business-central/) |
@@ -56,11 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Query and manipulate repository objects by using CIM and WMI methods | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-manipulate-repository-objects/) |
 | Configure multi-region write in Azure Cosmos DB for NoSQL | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-multi-region-write-azure-cosmos-db-sql-api/) |
 | Introduction to manufacturing in Dynamics 365 Business Central | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacturing-introduction/) |
-| Implement security in Azure Cosmos DB for NoSQL | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-azure-cosmos-db-sql-api/) |
-| Know where to leverage AI in your classroom | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/know-where-leverage-ai-classroom/) |
-| Microsoft Education technology and AI learning concepts | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-education-ai-learning/) |
-| Develop generative AI apps that use tools | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-generative-ai-tools/) |
-| Assemble items in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/assemble-items-dynamics-365-business-central/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-28.md](microsoft-learn-2026-07-part-28.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-30.md](microsoft-learn-2026-07-part-30.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 78 of 92
-date_range: 2025-12-14 to 2025-12-15
+date_range: 2025-12-14 to 2025-12-16
 total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-78.md
 ---
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Teams for education partners (Partner Success Series) | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/teams-education-partners/) |
+| Introduction to Azure Site Recovery | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-site-recovery/) |
+| Explore cybersecurity careers with Minecraft Education-Cyber Defender: Tower Defense | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/cybersecurity-careers-minecraft-education-cyber-defender/) |
+| Introduction to integration with Dynamics 365 Customer Engagement apps | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-integration-customer-engagement-apps/) |
+| Create and manage columns within a table in Dataverse | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-fields-within-entity/) |
+| Introduction to Transact-SQL | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-transact-sql/) |
+| Build your first web app with Blazor | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-blazor-web-app/) |
 | Build accessible SharePoint sites | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-accessible-sharepoint-sites/) |
 | Manage apps in Power Apps | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-apps-in-powerapps/) |
 | Interact, share, and collaborate Power BI dashboards – Online workshop | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-share-power-bi/) |
@@ -38,8 +45,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Troubleshoot Web App Down Scenarios with App Service Diagnostics | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-web-app-down-scenarios-app-service-diagnostics/) |
 | Introduction to AI Center of Excellence | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-ai-center-excellence/) |
 | Discover Microsoft guidelines for responsible conversational AI development | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-conversational-ai/) |
-| Design degree program curricula that implement certification | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/academic-program-certifications-design-program-curricula/) |
 | Implement certifications in academic programs | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/academic-program-certifications/) |
+| Design degree program curricula that implement certification | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/academic-program-certifications-design-program-curricula/) |
 | Introduction to gaming and disability | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-gaming/) |
 | Introduction to .NET | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-introduction/) |
 | Work with choices in Dataverse | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/working-with-option-sets/) |
@@ -61,13 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create effective prompts for generative AI training tools | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-prompts-for-generative-ai-training-tools/) |
 | Empower your workforce with Microsoft 365 Copilot: Marketing Use Case | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-marketing/) |
 | Empower your workforce with Microsoft 365 Copilot Use Cases | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/empower-workforce-copilot-use-cases/) |
-| Naming and branding | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/name-brand/) |
-| Plan your first agent - Online workshop | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-first-chatbot-online-workshop/) |
-| Empower your workforce with Microsoft 365 Copilot: HR Use Case | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-hr/) |
-| Build an initial agent with Microsoft Copilot Studio | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilots-copilot-studio/) |
-| Enhance agents with autonomous capabilities | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-autonomous-agents/) |
-| Understand Conditional Access policies using Microsoft Intune | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/policy-security-management-using-microsoft-endpoint-manager/) |
-| Microsoft Intune fundamentals | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/endpoint-manager-fundamentals/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-77.md](microsoft-learn-2026-07-part-77.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-79.md](microsoft-learn-2026-07-part-79.md)

@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Copilot+ PC Accreditation 2025 | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-plus-pc-accreditation-2025/) |
+| Copilot+ PC overview | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-pc-overview/) |
+| Surface Pro for Business with Snapdragon® X Elite and Plus processors | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-business-snapdragon/) |
+| Turbocharge business impact with Copilot+ PC | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-impact-copilot-pc/) |
+| Microsoft Education for K-12 Accreditation 2025 | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-education-k-12-accreditation-2025/) |
 | Microsoft Education for K-12 IT professionals | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-education-k-12-it-pros/) |
 | Compose and send mail in new Outlook for Windows | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/compose-send-mail-new-outlook-windows/) |
 | Introduction to AI agent orchestration patterns | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-orchestration-patterns/) |
@@ -36,8 +41,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Secure your cloud apps and services with Microsoft Defender for Cloud Apps | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/) |
 | Introduction to Microsoft Surface Laptop for Business | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-surface-laptop-business/) |
 | Prevent data exfiltration from Azure AI Workloads | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/prevent-azure-machine-learning-data-exfiltration/) |
-| Manage Network Access for AI workloads | Learningpaths | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-network-access-ai-workloads/) |
 | Restrict Azure Machine Learning workspace network traffic | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/restrict-azure-machine-learning-workspace-network/) |
+| Manage Network Access for AI workloads | Learningpaths | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-network-access-ai-workloads/) |
 | Introduction to vibe coding | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-vibe-coding/) |
 | Get started with Cosmos DB in Microsoft Fabric | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-cosmos-db-nosql-fabric/) |
 | Build your first Windows App by using WinUI & Windows App SDK | Modules | 2025-11-20 | N/A |
@@ -62,11 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Enhance your LinkedIn profile with Microsoft Copilot and ace your interview | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-linkedin-profile-with-copilot-ace-your-interview/) |
 | Build a model-driven app | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-model-driven-app/) |
 | Build a foundation to build AI agents and extend Microsoft 365 Copilot | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-foundation-extend-microsoft-365-copilot/) |
-| Choose a custom AI agent development path | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-ai-agent-development-path/) |
-| Introduction to Microsoft AI agent solutions | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-ai-agent-solutions/) |
-| Choose the best Microsoft 365 Copilot extensibility path for your scenario | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-microsoft-365-copilot-extensibility-path/) |
-| Introduction to developing AI agents | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-develop-ai-agents/) |
-| Azure Database for PostgreSQL Tutorials | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/playground-learning/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-87.md](microsoft-learn-2026-07-part-87.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-89.md](microsoft-learn-2026-07-part-89.md)

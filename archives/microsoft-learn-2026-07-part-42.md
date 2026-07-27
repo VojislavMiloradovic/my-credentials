@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 42 of 92
 date_range: 2026-02-26 to 2026-02-28
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-42.md
 ---
 
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Get started with Omnichannel for Customer Service | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/getting-started-omnichannel/) |
+| Create custom procedures in Dynamics 365 Business Central | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-custom-functions/) |
+| Enter payments in the cash receipt journal and the payment journal in Dynamics 365 Business Central | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/enter-payments-dynamics-365-business-central/) |
+| Build journeys with Dynamics 365 Customer Insights - Journeys | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-journeys-marketing/) |
+| Install and configure apps on a session host | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/install-configure-apps-session-host/) |
 | Manage user environments and apps for Azure Virtual Desktop | Learningpaths | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-user-environments-apps/) |
 | Develop an AI app with the Microsoft Foundry SDK | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/foundry-sdk/) |
 | Work with accounts receivable in Dynamics 365 Finance | Learningpaths | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-accounts-receivable-dyn365-finance/) |
@@ -44,8 +49,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Train a machine learning model in Azure Databricks | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/machine-learning-azure-databricks/) |
 | Evaluate language models with Azure Databricks | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-language-models-azure-databricks/) |
 | Implement streaming architecture patterns with Delta Live Tables | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-streaming-architecture-patterns-with-delta-live-tables/) |
-| Deploy and configure Azure Monitor | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-azure-monitor/) |
 | Guided Project – Deploy and configure Azure Monitor | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-deploy-configure-azure-monitor/) |
+| Deploy and configure Azure Monitor | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-azure-monitor/) |
 | Monitor device profiles | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-device-profiles/) |
 | Optimize performance with Spark and Delta Live Tables | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-performance-with-spark-and-delta-live-tables/) |
 | Introduction to tools for declarative agents in Copilot Studio | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-studio-actions/) |
@@ -60,10 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Plan and manage your Microsoft Power Platform environment | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-manage-environment/) |
 | Introduction to open-source database migration on Azure | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-open-source-database-migration-azure/) |
 | Common Linux server configurations | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/common-linux-server-configurations/) |
-| Process credit and collections in Dynamics 365 Finance | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-credit-collections-dyn365-finance/) |
-| Work with accounting distributions, invoice validations, and settlements in Dynamics 365 Finance | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/accounting-distributions-invoice-validation-dyn365-finance/) |
-| Introduction to integrating Dataverse with Dynamics 365 Business Central | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-dataverse-integrate/) |
-| Extend and modify an existing page in Dynamics 365 Business Central | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-modify-existing-pages/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-41.md](microsoft-learn-2026-07-part-41.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-43.md](microsoft-learn-2026-07-part-43.md)

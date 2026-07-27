@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 35 of 92
 date_range: 2026-03-12 to 2026-03-14
-total_entries: 52
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-35.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Set up functional locations in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-functional-locations-asset-management/) |
+| Validate your Dynamics 365 customer experience analyst skills | Learningpaths | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-your-dynamics-365-customer-experience-analyst-skills/) |
+| Challenge project - Configure a Dynamics 365 customer experience solution | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-configure-dynamics-365-customer-experience-solution/) |
 | Experiment with Azure Machine Learning | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/experiment-azure-machine-learning/) |
 | End-to-end machine learning operations (MLOps) with Azure Machine Learning | Learningpaths | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-first-machine-operations-workflow/) |
 | Manage Microsoft 365 Copilot | Modules | 2026-03-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-365-copilot/) |
@@ -60,10 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Evaluate strategies for migrating to Azure SQL | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-strategies-for-migrating-to-azure-sql/) |
 | Work with cash and bank management in Dynamics 365 Finance | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-cash-bank-dyn365-dyn365-finance/) |
 | Bring AI to your business with AI Builder | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/bring-ai/) |
-| Use text generation in AI Builder | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-text-generation/) |
-| Leadership in the modern workplace | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/leadership-modern-workplace/) |
-| Create an inclusive environment with cultural leadership | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-inclusive-environment-cultural-leadership/) |
-| Manage Apps in Windows 365 Cloud PCs | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-apps-windows-365-cloud-pcs/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-34.md](microsoft-learn-2026-07-part-34.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-36.md](microsoft-learn-2026-07-part-36.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 66 of 92
-date_range: 2025-12-31 to 2026-01-02
-total_entries: 54
+date_range: 2026-01-01 to 2026-01-03
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-66.md
 ---
 
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Stay organized and find resources with Microsoft Edge | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/stay-organized-find-resources-classroom-microsoft-edge/) |
+| Set up Microsoft Edge for learning and teaching | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-microsoft-edge-learning-teaching/) |
+| Monitor hybrid virtual machines, containers, and network resources | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-hybrid-virtual-machines-containers-network/) |
+| Design and implement network monitoring | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-network-monitoring/) |
+| Bring Azure innovation to your hybrid environments with Azure Arc | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-hybrid-infrastructure-with-azure-arc/) |
+| Monitor your hybrid and multicloud machines through Azure Arc-enabled servers | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-azure-arc-enabled-servers/) |
 | Operationalize your Azure Data Factory or Azure Synapse Pipeline | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/operationalize-azure-data-factory-pipelines/) |
 | Data integration at scale with Azure Data Factory or Azure Synapse Pipeline | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-integration-scale-azure-data-factory/) |
 | Execute existing SSIS packages in Azure Data Factory or Azure Synapse Pipeline | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/execute-existing-ssis-packages-azure-data-factory/) |
@@ -58,14 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Set up low-code plug-ins | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-low-code/) |
 | Power the classroom with SharePoint | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-classroom-sharepoint/) |
 | Update Windows clients | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/update-windows-clients/) |
-| MD-100 Manage apps and Windows updates | Learningpaths | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-apps-windows-updates/) |
-| Manage the Microsoft Edge browser | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-edge-browser/) |
-| Manage Universal Windows Platform apps | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-universal-windows-platform-apps/) |
-| Provide apps to users | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/provide-apps-users/) |
-| Explore the Windows servicing model | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-servicing-model/) |
-| Learn how Microsoft safeguards customer data | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/audit-safeguard-customer-data/) |
-| Understand Microsoft datacenter security | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-physical-security/) |
-| Understand Microsoft Online Services subprocessor management | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-subprocessor-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-65.md](microsoft-learn-2026-07-part-65.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-67.md](microsoft-learn-2026-07-part-67.md)

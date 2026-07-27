@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 2 of 92
-date_range: 2026-07-13 to 2026-07-17
+date_range: 2026-07-13 to 2026-07-20
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-02.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Plan an AI agent solution | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-design-ai-agent-solution/) |
+| Choose tools and services for your agent on Microsoft's agent platform | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-solutions-microsoft-agent-platform/) |
 | Customize a canvas app in Power Apps | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-apps-in-powerapps/) |
 | Learn the basics of Power BI Desktop, Power Automate, and PowerApps | Learningpaths | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-platform-introduction/) |
 | Get started with Power Apps canvas apps | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps/) |
@@ -55,14 +57,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Describe work allocation capabilities | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-work-allocation-capabilities/) |
 | Describe Dynamics 365 Contact Center supervisor experience | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-contact-center-supervisor-experience/) |
 | Describe Dynamics 365 Contact Center representative experience | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-contact-center-representative-experience/) |
-| Introduction to supply chain management in Dynamics 365 | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-supply-chain-management-dynamics-365/) |
 | Describe warehouse management in Dynamics 365 Supply Chain Management | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-warehouse-management-dynamics-365/) |
+| Introduction to supply chain management in Dynamics 365 | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-supply-chain-management-dynamics-365/) |
 | Describe sales processes in Dynamics 365 Supply Chain Management | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sales-processes-dynamics-365-supply-chain-management/) |
 | Describe inventory management in Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-management-supply-chain-management/) |
 | Describe inventory costing and master planning in Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-costing-master-planning-dynamics-365-supply-chain-management/) |
 | Describe core capabilities of Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-core-capabilities-supply-chain-management/) |
-| Use Azure Databricks Genie in Microsoft Teams and Copilot Studio | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-databricks-genie-teams-copilot-studio/) |
-| Manage dual volumes in Azure NetApp Files | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-netapp-files-dual-volumes/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-01.md](microsoft-learn-2026-07-part-01.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-03.md](microsoft-learn-2026-07-part-03.md)

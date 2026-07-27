@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 57 of 92
-date_range: 2026-01-24 to 2026-01-25
+date_range: 2026-01-24 to 2026-01-26
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-57.md
 ---
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Configure a container app in Azure Container Apps | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-container-app-azure-container-apps/) |
+| MD-102 Execute device enrollment | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/execute-device-enrollment/) |
+| Manage device authentication | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-device-authentication/) |
+| Configure and validate permissions | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-validate-permissions/) |
+| Configure continuous deployment for container apps | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-continuous-deployment-container-apps/) |
 | Configure secure access to pipeline resources | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-access-pipeline-resources/) |
 | Troubleshoot solutions by using Application Insights | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-instrument-solutions-support-monitoring-logging/) |
 | Monitor app performance | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-app-performance/) |
@@ -44,8 +49,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Run prompts with Semantic Kernel | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-plugins-semantic-kernel/) |
 | Create Semantic Kernel plugins | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/give-your-ai-agent-skills/) |
 | Run container images in Azure Container Instances | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-run-container-images-azure-container-instances/) |
-| Accelerate app development by using GitHub Copilot | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/accelerate-app-development-using-github-copilot/) |
 | Develop code features using GitHub Copilot tools | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-code-features-using-github-copilot-tools/) |
+| Accelerate app development by using GitHub Copilot | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/accelerate-app-development-using-github-copilot/) |
 | Administer Active Directory Domain Services | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/administer-active-directory-domain-services/) |
 | Deploy and manage Active Directory Domain Services domain controllers | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-active-directory-domain-services-domain-controllers/) |
 | Implement Group Policy Objects | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-group-policy-objects/) |
@@ -61,11 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with data engineering on Azure | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-data-engineering/) |
 | Introduction to data engineering on Azure | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-data-engineering-azure/) |
 | Guided project - Administer Active Directory Domain Services | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-administer-active-directory-domain-services/) |
-| Guided project - Accelerate app development using GitHub Copilot tools | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-accelerate-app-development-using-github-copilot-tools/) |
-| Generate documentation using GitHub Copilot tools | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-documentation-using-github-copilot-tools/) |
-| Implement code improvements using GitHub Copilot tools | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-code-improvements-using-github-copilot-tools/) |
-| Foundations of a modern public sector security operations center | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/foundations-modern-public-sector-security-operations-center/) |
-| Implement Azure App Service web apps | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-azure-app-service-web-apps/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-56.md](microsoft-learn-2026-07-part-56.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-58.md](microsoft-learn-2026-07-part-58.md)

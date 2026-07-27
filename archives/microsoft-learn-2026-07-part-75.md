@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 75 of 92
 date_range: 2025-12-19 to 2025-12-21
-total_entries: 54
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-75.md
 ---
 
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Get tips and tricks for teaching PL-900 Microsoft Power-platform Fundamentals | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-pl-900-microsoft-power-platform-fundamentals/) |
+| Integrate Azure Cloud Services to your Unity project on HoloLens 2 | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-cloud-services-tutorials/) |
+| Proforma invoicing and corrections in Dynamics 365 Project Operations | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/proforma-invoicing-corrections/) |
+| Link your Dataverse environment to Microsoft Fabric | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/link-dataverse-fabric/) |
+| Create a multimodal analysis solution with Azure Content Understanding | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/) |
+| Get tips and tricks for teaching MB-910: Microsoft Dynamics 365 Fundamentals (CRM) | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-910-dynamics-365-fundamentals/) |
+| Estimate physical resource requirements for quantum algorithms with the Azure Quantum Resource Estimator | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/estimate-resources-quantum-algorithms/) |
 | Describe shared features in finance and operations apps | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-shared-features/) |
 | Describe the finance and operations apps | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-finance-operations-apps/) |
 | Secure your identities by using Microsoft Entra ID | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-ad/) |
@@ -42,8 +49,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Advanced lessons in psychological safety | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-advanced-psychological-safety/) |
 | Understand hybrid data platform on SQL Server 2025 | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-hybrid-data-platform-sql-server-2022/) |
 | Configure your data in finance and operations apps | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-your-data-dynamics-365-finance-operations-apps/) |
-| Understand and share your Viva Glint results | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-understand-and-share-results/) |
 | Navigate your Viva Glint results | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-navigate-viva-glint-results/) |
+| Understand and share your Viva Glint results | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-understand-and-share-results/) |
 | Describe the basics of Azure for business | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-basics-azure-business/) |
 | Introduction to Azure OpenAI managed identity authentication with Python | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-openai-managed-identity-auth-python/) |
 | Describe reporting and integration capabilities in finance apps | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-report-integration/) |
@@ -52,20 +59,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage general ledger and cash and bank management processes in Dynamics 365 Finance | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-general-ledger-cash-bank-management/) |
 | Discover Microsoft Intune essentials | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-microsoft-intune-essentials/) |
 | Create images with generative AI | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-images-with-generative-ai/) |
-| Explore the fundamentals of Microsoft Dynamics 365 Customer Insights | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-of-microsoft-dynamics-365-marketing/) |
 | Explore Dynamics 365 Customer Insights - Journeys | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-marketing/) |
+| Explore the fundamentals of Microsoft Dynamics 365 Customer Insights | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-of-microsoft-dynamics-365-marketing/) |
 | Get started with Power Automate for desktop | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-get-started/) |
 | Power Automate for desktop development essentials | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-power-automate-desktop-development-essentials/) |
 | Design a SQL Server migration strategy | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-data-platform-modernization/) |
 | Connect and share cloud flow to desktop flows in Power Automate for desktop | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/connect-share-cloud-flow-desktop-flows-power-automate/) |
-| Share a cloud flow with Power Automate | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/share-cloud-flow/) |
-| Build a mobile-optimized app from Power Apps | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-mobile-optimized/) |
-| Upload your project by using GitHub best practices | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/upload-project-github/) |
-| Adjust process behavior using conditional actions with Power Automate for desktop | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-conditionals/) |
-| Migrate your repository by using GitHub best practices | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-repository-github/) |
-| Discover DevOps | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-devops/) |
-| Support reading fluency practice with Reading Progress | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-reading-fluency-practice-with-reading-progress/) |
-| Build continuous integration workflows by using GitHub Actions | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-actions-ci/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-74.md](microsoft-learn-2026-07-part-74.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-76.md](microsoft-learn-2026-07-part-76.md)

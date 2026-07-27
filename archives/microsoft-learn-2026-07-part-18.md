@@ -12,11 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Understand Azure Databricks Integrations | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-databricks-integrations/) |
+| Select and Configure Compute in Azure Databricks | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/select-and-configure-compute/) |
+| Secure and govern Unity Catalog objects in Azure Databricks | Learningpaths | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-secure-govern-unity-catalog/) |
 | Secure Unity Catalog objects | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-unity-catalog-objects/) |
 | Secure Azure OpenAI with content safety controls | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-openai-content-safety-controls/) |
 | Ingest data into Unity Catalog | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-into-unity-catalog/) |
-| Implement development lifecycle processes in Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-development-lifecycle-processes-in-azure-databricks/) |
 | Deploy and maintain data pipelines and workloads with Azure Databricks | Learningpaths | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-deploy-maintain-data-pipelines-workloads/) |
+| Implement development lifecycle processes in Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-development-lifecycle-processes-in-azure-databricks/) |
 | Implement and manage data quality constraints with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-data-quality-constraints-unity-catalog/) |
 | Implement Lakeflow Jobs with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-lakeflow-jobs/) |
 | Design and implement data pipelines with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-data-pipelines/) |
@@ -62,9 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage agents using Microsoft Agent 365 | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-agents-microsoft-agent-365/) |
 | Choose the right moment to modernize Windows Server | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-the-right-moment/) |
 | Dragon Copilot (physicians) practical application exercises | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-physicians-practical-application-exercises/) |
-| Dragon Copilot (physicians) practical application exercises summary | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-practical-applications-summary/) |
-| Dragon Copilot (physicians) introduction to practical application exercises | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-welcome-to-practical-applications/) |
-| Understand AI agents and prompting | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-ai-agents-prompting/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-17.md](microsoft-learn-2026-07-part-17.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-19.md](microsoft-learn-2026-07-part-19.md)

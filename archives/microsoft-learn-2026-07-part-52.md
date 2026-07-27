@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 52 of 92
-date_range: 2026-02-04 to 2026-02-07
+date_range: 2026-02-05 to 2026-02-07
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-52.md
 ---
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Threat response with Microsoft Sentinel playbooks | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/threat-response-sentinel-playbooks/) |
+| Plan and implement advanced security for compute | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-security-compute/) |
+| Protect compute, storage, and databases | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-compute-storage-databases/) |
+| Set up financial dimensions in Dynamics 365 Finance | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-financial-dimensions-finance/) |
 | Train and evaluate regression models | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-evaluate-regression-models/) |
 | Query, visualize, and monitor data in Microsoft Sentinel | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-data-sentinel/) |
 | Review Windows PowerShell | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/review-windows-powershell/) |
@@ -37,10 +41,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Hunt for threats using notebooks in Microsoft Sentinel | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-threat-hunting-sentinel-with-notebooks/) |
 | Configure and manage security monitoring and automation solutions | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-monitoring-automation-solutions/) |
 | Threat hunting with Microsoft Sentinel | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/hunt-threats-sentinel/) |
-| Get started with custom connectors for Microsoft Power Platform | Learningpaths | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-custom-connectors-microsoft-power-platform/) |
 | Create Microsoft Power Platform OpenAPI custom connectors | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-connectors-open-api/) |
-| Automate a business process with expressions and Dataverse actions using Power Automate | Learningpaths | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-business-process-expressions-dataverse-actions/) |
+| Get started with custom connectors for Microsoft Power Platform | Learningpaths | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-custom-connectors-microsoft-power-platform/) |
 | Use Dataverse triggers and actions in Power Automate | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-dataverse-triggers-actions/) |
+| Automate a business process with expressions and Dataverse actions using Power Automate | Learningpaths | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-business-process-expressions-dataverse-actions/) |
 | Configure policy templates for custom connectors in Microsoft Power Platform | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/policy-templates-custom-connectors/) |
 | Train and evaluate clustering models | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-evaluate-cluster-models/) |
 | Create fiscal calendars, years, and periods in Dynamics 365 Finance | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-fiscal-calendars-years-periods-dyn365-finance/) |
@@ -61,10 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Customize the command bar | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/command-bar-customize/) |
 | Plan for cloud workload protections using Microsoft Defender for Cloud | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-is-azure-defender/) |
 | Manage and monitor Windows Server event logs | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitor-event-logs/) |
-| MD-102 Manage authentication and compliance | Learningpaths | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/authentication-compliance/) |
-| Protect identities in Microsoft Entra ID | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-identities-azure-acative-directory/) |
-| Get started with security roles in Dataverse | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-security-roles/) |
-| Connect non-Azure resources to Microsoft Defender for Cloud | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-non-azure-machines-to-azure-defender/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-51.md](microsoft-learn-2026-07-part-51.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-53.md](microsoft-learn-2026-07-part-53.md)

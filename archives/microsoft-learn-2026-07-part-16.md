@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Maximize the Cost Efficiency of AI Agents on Azure | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/maximize-cost-efficiency-ai-agents/) |
+| Understand the key cost drivers of AI agents | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-agent-cost-structure/) |
+| Maximize cost efficiency by choosing the right AI agent development approach on Azure | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/maximize-cost-efficiency-ai-agent-development/) |
 | Manage and optimize AI agent investments on Azure | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-optimize-agent-investment-azure/) |
 | Implement best practices to empower AI agent efficiency and ensure long-term success | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/adopt-ai-agent-best-practice/) |
 | Identify and Prioritize High-Impact AI Agent Use Cases | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-ai-agent-use-case/) |
@@ -28,8 +31,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Administer Internet Information Services | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/administer-internet-information-services/) |
 | Configure Internet Information Services websites and applications | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-website-application/) |
 | Dragon Copilot AI Ambassador - Champion level | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-champion-level/) |
-| Dragon Copilot AI Ambassador - Ambassador level | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-ambassador-level/) |
 | Dragon Copilot (physicians) trainer essentials | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-trainer-essentials/) |
+| Dragon Copilot AI Ambassador - Ambassador level | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-ambassador-level/) |
 | Dragon Copilot (physicians) how to train enhanced skills | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-how-to-train-enhanced-skills/) |
 | Dragon Copilot (physicians) how to train basics | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-how-to-train-basics/) |
 | Work smarter with Copilot in Microsoft Fabric | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-smarter-with-copilot-in-microsoft-fabric/) |
@@ -60,9 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Eliminate public network exposure of Azure PaaS services | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/eliminate-public-exposure-paas-private-link/) |
 | Implement network security controls in Azure | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-network-security-controls-azure/) |
 | Dragon Copilot - nurse leaders adoption and reinforcement | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/nurse-leaders-adoption/) |
-| Dragon Copilot nurse leaders 101 | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-for-nurse-leaders/) |
-| Segment and isolate Azure workloads using network security controls | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/segment-isolate-workloads-network-security-controls/) |
-| Secure remote and hybrid connectivity using VPN gateways and Microsoft Entra Private Access | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-hybrid-connectivity-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-15.md](microsoft-learn-2026-07-part-15.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-17.md](microsoft-learn-2026-07-part-17.md)

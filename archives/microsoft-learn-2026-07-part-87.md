@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 87 of 92
-date_range: 2025-11-21 to 2025-11-23
-total_entries: 55
+date_range: 2025-11-21 to 2025-11-24
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-87.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Protect and govern Microsoft 365 data | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-govern-data-microsoft-365/) |
+| Hotpatch updates for Windows client devices | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/hotpatch-updates/) |
+| Introduction to Microsoft 365 core services and admin controls | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-365-core-services-admin-control/) |
+| Store and iterate through sequences of data using Arrays and the foreach statement in C# | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-arrays/) |
 | Get started with Microsoft Teams for Education | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-microsoft-teams-education/) |
 | Describe core infrastructure security services in Azure | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-basic-security-capabilities-azure/) |
 | Describe security capabilities of Microsoft Sentinel | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-security-capabilities-of-azure-sentinel/) |
@@ -62,11 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Write DAX formulas for semantic models | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-write-formulas/) |
 | Get started with data science in Microsoft Fabric | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-data-science-fabric/) |
 | Transform learning with 21st century learning design | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-learning-21st-century-learning-design/) |
-| Copilot+ PC Accreditation 2025 | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-plus-pc-accreditation-2025/) |
-| Copilot+ PC overview | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-pc-overview/) |
-| Surface Pro for Business with Snapdragon® X Elite and Plus processors | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-business-snapdragon/) |
-| Turbocharge business impact with Copilot+ PC | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-impact-copilot-pc/) |
-| Microsoft Education for K-12 Accreditation 2025 | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-education-k-12-accreditation-2025/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-86.md](microsoft-learn-2026-07-part-86.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-88.md](microsoft-learn-2026-07-part-88.md)

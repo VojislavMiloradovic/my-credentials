@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Work with revenue recognition in Dynamics 365 Finance | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-recognition-finance/) |
+| Deploy and configure Microsoft Edge and Microsoft Search for all your devices | Learningpaths | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-microsoft-edge-search-for-devices/) |
+| Explore the Microsoft Search user experience and how to enable and configure it for your devices | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-search-user-experience/) |
 | Guided project - Create and manage segments with Dynamics 365 Customer Insights - Data | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-manage-segments-d365-customer-insights-data/) |
 | Create and manage segments in Dynamics 365 Customer Insights - Data | Learningpaths | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-segments-d365-customer-insights-data/) |
 | Enable patients to access the Patient Access portal | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/patient-access-service-center/) |
@@ -41,8 +44,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Guided lab for Dynamics 365 Intelligent Order Management | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-lab-intelligent-order-management/) |
 | Build reports and review insights | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-insights-reporting/) |
 | Set up Service Management in Dynamics 365 Business Central | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-service-management/) |
-| Process financial periodic activities in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) |
 | Send finance charge memos to customers in Dynamics 365 Business Central | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-memos-dynamics-365-business-central/) |
+| Process financial periodic activities in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) |
 | Process Intrastat in Dynamics 365 Business Central | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-intrastat-dynamics-365-business-central/) |
 | Troubleshooting Windows Containers | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-windows-containers/) |
 | Creating service orders and support requests in Surface portals | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-portal-service-support/) |
@@ -58,9 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Work with service orders in Dynamics 365 Business Central | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-orders/) |
 | Build your first deployment stack | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-deployment-stack/) |
 | Receive orders in Dynamics 365 Business Central | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/receive-orders/) |
-| Produce items in the warehouse in Dynamics 365 Business Central | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/produce-items-warehouse/) |
-| Guided project: Build and Deploy your own AI Copilot | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-build-deploy-your-own-ai-copilot/) |
-| Migrate on-premises MongoDB databases to Cosmos DB | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-on-premises-mongodb-databases-azure-database-mongodb/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-22.md](microsoft-learn-2026-07-part-22.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-24.md](microsoft-learn-2026-07-part-24.md)
