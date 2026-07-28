@@ -84,7 +84,7 @@ Showing latest 10 of 4,763 achievements. View the full dataset via the [Platform
 
 <!-- AWS_SKILLS_START -->
 ### AWS Skill Builder Summary
-- **Total Completed Courses/Activities:** 464
+- **Total Completed Courses/Activities:** 466
 
 ### AWS Cloud Quest Status
 - **Role:** Cloud Practitioner / Generative AI Practitioner
@@ -93,18 +93,18 @@ Showing latest 10 of 4,763 achievements. View the full dataset via the [Platform
 - **Pets Unlocked:** 17 | **Vehicles Unlocked:** 2
 
 ### Recent AWS Learning Activities
-Showing latest 10 of 464 activities. View the full dataset via the [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md), or the [Monolithic Complete File](./archives/aws-skills-complete.md).
+Showing latest 10 of 466 activities. View the full dataset via the [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md), or the [Monolithic Complete File](./archives/aws-skills-complete.md).
 
-- **Amazon Quick for IT Professionals** (Digital Course | Earned: 2026-07-28)
-- **Referencing Your Own Secrets in Amazon Bedrock AgentCore Identity** (Digital Course | Earned: 2026-07-28)
+- **Accelerate Generative AI Inference on Amazon SageMaker AI with G7e Instances** (Digital Course | Earned: 2026-07-28)
 - **Amazon Managed Blockchain Getting Started** (Digital Course | Earned: 2026-07-28)
+- **Amazon Quick for IT Professionals** (Digital Course | Earned: 2026-07-28)
+- **Building intelligent event agents using Amazon Bedrock AgentCore and Amazon Bedrock Knowledge Bases** (Digital Course | Earned: 2026-07-28)
+- **Referencing Your Own Secrets in Amazon Bedrock AgentCore Identity** (Digital Course | Earned: 2026-07-28)
 - **A leader's guide to accelerating large-scale migration - AWS re:Invent 2025** (Digital Course | Earned: 2026-07-27)
 - **Amazon Quick for Operations Professionals** (Digital Course | Earned: 2026-07-27)
-- **Cloud Financial Management: FinOps for GenAI** (Digital Course | Earned: 2026-07-25)
-- **Automated Security Response in AWS: Disabling Compromised Active Directory Users** (Digital Course | Earned: 2026-07-25)
 - **AI-DLC Foundations: Evolution** (Digital Course | Earned: 2026-07-25)
-- **GitOps for Amazon EKS Automation** (Digital Course | Earned: 2026-07-25)
 - **Amazon Connect Outbound Communications Advanced Campaign Management** (Digital Course | Earned: 2026-07-25)
+- **Automated Security Response in AWS: Disabling Compromised Active Directory Users** (Digital Course | Earned: 2026-07-25)
 <!-- AWS_SKILLS_END -->
 
 
