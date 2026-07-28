@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-02 | **Cloud Sales Associate Advanced Management** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/7a16d6a7-7f4a-43e0-8ddb-fbcb300a8822) |
 | 2026-07-02 | **Configure Database Integration for Okta Privileged Access** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/eb355e8c-609f-45e9-94dd-f86b7788027e) |
 | 2026-07-02 | **Manage Change and Scale Adoption** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/06895ebe-457b-40c8-8c8d-336b96da8ac4) |
 | 2026-07-02 | **Process Automation Concepts** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/da7e7652-ed54-4938-b484-e509978ae444) |
@@ -62,7 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-22 | **LFD140: GitHub for Open Standards Development** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/3d6db85f-b193-4d6c-9431-9c78f1f8e253) |
 | 2026-06-22 | **LFEL1004: Authentication & Authorization for Web/API** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/697a5045-42c3-4df6-be0a-660972953e02) |
 | 2026-06-22 | **LFS184: Introduction to JavaScript Security** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/adbfc39b-1a5a-4225-80bc-0ee44b06bcd5) |
-| 2026-06-22 | **Use APIs to Work with Cloud Storage Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/3a261bec-3e3f-41ca-b362-3eaf9f06bd90) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md)

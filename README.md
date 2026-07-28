@@ -113,14 +113,15 @@ Showing latest 10 of 466 activities. View the full dataset via the [Platform Arc
 <!-- CREDLY_BADGES_START -->
 ### Credly Verified Credentials
 - **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
-- **Total Portfolio Credentials:** 468 (445 Credly Verified, 23 External/Imported)
-- **Total Verified Skills Mapped:** 1809
+- **Total Portfolio Credentials:** 469 (446 Credly Verified, 23 External/Imported)
+- **Total Verified Skills Mapped:** 1814
 
 #### Latest Earned Credentials
-Showing latest 10 of 468 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
+Showing latest 10 of 469 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| *2026-07-28* | **Optimizing and Maintaining MongoDB Cluster Reliability** | issued by MongoDB | `Credly Verified` |
 | *2026-07-27* | **AWS Educate Getting Started with Cloud Ops - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` |
 | *2026-07-27* | **Beyond Atomic Testing with Attack Flows** | issued by AttackIQ | `Credly Verified` |
 | *2026-07-27* | **Building GenAI Applications with MongoDB** | issued by MongoDB | `Credly Verified` |
@@ -130,7 +131,6 @@ Showing latest 10 of 468 credentials. View the full dataset via the [Platform Ar
 | *2026-07-27* | **MSP Academy: Automation** | issued by Acronis | `Credly Verified` |
 | *2026-07-27* | **Optimizing MongoDB Performance with Tuning Tools** | issued by MongoDB | `Credly Verified` |
 | *2026-07-27* | **Search with MongoDB** | issued by MongoDB | `Credly Verified` |
-| *2026-07-27* | **Secure Digital Transformation - Best Practices and Strategies** | issued by AttackIQ | `Credly Verified` |
 <!-- CREDLY_BADGES_END -->
 
 

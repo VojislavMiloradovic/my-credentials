@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-05-09 | **Implementing SAP S/4HANA Cloud for Group Reporting - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/edb638dc-fb67-4321-ac1f-be6461909fe4) |
 | 2026-05-09 | **Implement Phishing-Resistant Authentication** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/c34fa8f3-05dc-434e-884f-8058eb03679f) |
 | 2026-05-09 | **Kubernetes Monitoring Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/775a311d-54f3-4e38-9e60-3da0c5149df4) |
 | 2026-05-09 | **Site Reliability Engineer Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/82670fe2-987b-43c4-8023-09500fa4696b) |
@@ -60,7 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-24 | **Apply AI: Update Your Resume** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/431a017f-982f-4aa5-a394-03fff17bed23) |
 | 2026-04-23 | **Agile Explorer** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/673d3787-e37f-499d-9ac5-cc5398103dd7) |
 | 2026-04-23 | **Exploring SAP S/4HANA Supply Chain for Transportation Management - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/10fe693c-8271-488f-8ccf-36e6c4f74901) |
-| 2026-04-23 | **Exploring SAP SuccessFactors Embedded Launch Activities for Project Manager - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/87204098-710e-49b0-8a64-5c1183a78d70) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-09.md](credly-badges-2026-07-part-09.md)

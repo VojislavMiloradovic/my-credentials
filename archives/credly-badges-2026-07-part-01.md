@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 1 of 10
-date_range: 2026-07-14 to 2026-07-27
+date_range: 2026-07-15 to 2026-07-28
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-28 | **Optimizing and Maintaining MongoDB Cluster Reliability** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/ef5db49e-1ab5-4ea0-ba70-bf16383e600f) |
 | 2026-07-27 | **AWS Educate Getting Started with Cloud Ops - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/c1b15993-b012-43a3-bdcb-946d4ee73452) |
 | 2026-07-27 | **Beyond Atomic Testing with Attack Flows** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/bb201075-aef3-4e05-b357-f024ab834146) |
 | 2026-07-27 | **Building GenAI Applications with MongoDB** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/4bd6f004-be81-4cc2-bc6a-8c12d1a51a4c) |
@@ -62,7 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-15 | **Building AI-Powered Search with MongoDB Vector Search** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/106d3801-84c1-4057-8474-6450f2a84b33) |
 | 2026-07-15 | **Cloud Tech Professional Disaster Recovery** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/b1960c54-6ac1-4206-8631-f489b925b6eb) |
 | 2026-07-15 | **Strategic Cybersecurity Management** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/e0cfb483-3bab-4f21-b48e-896e6e02a2de) |
-| 2026-07-14 | **Acronis Cyber Protect – Endpoint Management Basics** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/e9ff04b3-1b9b-40be-a241-a663e3a6a251) |
 
 ---
 > **Navigation:** Prev: None | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md)

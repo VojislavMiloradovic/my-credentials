@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-05-19 | **Discovering the Basics of SAP S/4HANA Portfolio and Project Management - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/d3c10832-4cf4-4d04-939b-bbcc1dcc9f1e) |
 | 2026-05-19 | **GenAI - Client to Cloud Fundamentals** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/bbd4f4ac-6aba-480f-b77c-9b8f79b65bdd) |
 | 2026-05-19 | **Getting Started with SAS and Kubernetes** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/1a509b1d-9a06-410c-8916-eac5b639fe28) |
 | 2026-05-19 | **Introduction to Authentication Protocols** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/843836d7-d464-422e-bb40-5d76c77c3bde) |
@@ -61,7 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-09 | **Backend Engineer Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/aac771f0-c159-47dd-a82f-f7f1169e7811) |
 | 2026-05-09 | **Digital Trust for All** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/617235ff-34bf-4063-8972-bdad6126ad11) |
 | 2026-05-09 | **Frontend Engineer Learning Path** | issued by Datadog | `Credly Verified` | [Verify](https://www.credly.com/badges/e8ec0d30-25e8-4a3b-8747-3a43181664a7) |
-| 2026-05-09 | **Implementing SAP S/4HANA Cloud for Group Reporting - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/edb638dc-fb67-4321-ac1f-be6461909fe4) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md)

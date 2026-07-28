@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 10 of 10
-date_range: 2025-11-04 to 2026-03-20
-total_entries: 15
+date_range: 2025-11-04 to 2026-03-21
+total_entries: 16
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-10.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-03-21 | **Microsoft Applied Skills: Get started with identities and access using Microsoft Entra** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/27BB90F5B956E0C8?sharingId=4883E92AA6332B3F) |
 | 2026-03-20 | **Google Ads Measurement Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/3eec0163-8804-4d17-bde0-d08e6c76d74c) |
 | 2026-03-18 | **Microsoft Applied Skills: Get started with Azure management tasks** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B7C5DF765FB52CEA?sharingId=4883E92AA6332B3F) |
 | 2026-03-17 | **AI-Powered Shopping ads Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/09192bf8-4cca-4947-86c8-58a0b29d6511) |

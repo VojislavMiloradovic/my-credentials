@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-14 | **Acronis Cyber Protect – Endpoint Management Basics** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/e9ff04b3-1b9b-40be-a241-a663e3a6a251) |
 | 2026-07-14 | **AWS Knowledge: AI Basics - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/fbb02508-656a-4241-b49c-182dcd8f43ee) |
 | 2026-07-14 | **FIPS Frontrunner** | issued by Chainguard | `Credly Verified` | [Verify](https://www.credly.com/badges/93ad4964-81b4-45ad-b613-688f0505a759) |
 | 2026-07-14 | **From Relational Model (SQL) to MongoDB's Document Model** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/b4e44a5b-2f20-4388-91fa-0e84a1dff433) |
@@ -62,7 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-03 | **Mitigate Threats and Vulnerabilities with Security Command Center Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/0daa2483-3793-42a7-afb0-4d338d3725bc) |
 | 2026-07-02 | **AWS SimuLearn - AI Practitioner - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/bf88d187-0e8f-44cc-bec9-7e9e69115951) |
 | 2026-07-02 | **Build Infrastructure with Terraform on Google Cloud Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/35059bf2-e867-46eb-95b6-5ef733207698) |
-| 2026-07-02 | **Cloud Sales Associate Advanced Management** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/7a16d6a7-7f4a-43e0-8ddb-fbcb300a8822) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-01.md](credly-badges-2026-07-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md)

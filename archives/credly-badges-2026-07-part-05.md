@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-09 | **LFD121: Developing Secure Software** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/21cf0189-83ae-4159-abd9-f2eecf3bd6a9) |
 | 2026-06-09 | **LFD125: Security for Software Development Managers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/c0a1f565-7255-4a8b-8a99-c447b22e0023) |
 | 2026-06-09 | **LFS157: Introduction to Serverless on Kubernetes** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/b7b7ca0d-9eb3-42a1-9e11-70c2260d2b4e) |
 | 2026-06-09 | **LFS182: Securing Your Software Supply Chain with Sigstore** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/78826580-a3a7-4213-be79-3233321f3d3e) |
@@ -61,7 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-02 | **Deploying SAS Grid Manager** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/a0ad62be-1ecc-43c0-92ca-35437a0dd09b) |
 | 2026-06-02 | **Deploying SAS Viya from a Mirrored Registry** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/da51d4a3-2800-400d-a88d-d189bf53cc7e) |
 | 2026-06-02 | **Manual SAS Viya Deployment** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/0a5e2982-bdb6-498f-8ec6-979b3c0db919) |
-| 2026-06-02 | **Post-Deployment Steps for SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/bbb58e7e-7844-4128-99e3-1dbf678dcccc) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md)

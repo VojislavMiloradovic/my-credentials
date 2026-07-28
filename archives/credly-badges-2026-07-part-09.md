@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 9 of 10
-date_range: 2026-03-21 to 2026-04-22
+date_range: 2026-03-23 to 2026-04-23
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-09.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-04-23 | **Exploring SAP SuccessFactors Embedded Launch Activities for Project Manager - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/87204098-710e-49b0-8a64-5c1183a78d70) |
 | 2026-04-22 | **Apply AI: Analyze Customer Reviews** | issued by Cisco | `Credly Verified` | [Verify](https://www.credly.com/badges/6d85c6c9-351b-42fe-a3ad-27598dd34dec) |
 | 2026-04-22 | **Discovering Extended Warehouse Management with SAP S/4HANA - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/57c930ea-4372-4144-a8d3-92e615d6f439) |
 | 2026-04-22 | **Enterprise Design Thinking Practitioner** | issued by IBM SkillsBuild | `Credly Verified` | [Verify](https://www.credly.com/badges/b18e17a2-6952-4d85-8adf-5eb5a0dfb366) |
@@ -60,7 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-03-25 | **Microsoft Applied Skills: Generate reports with AI research agents** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/ABC20116B56C7F9F?sharingId=4883E92AA6332B3F) |
 | 2026-03-24 | **Search Ads 360 Certification Exam** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/5b477ad2-43c6-4789-af30-137f9f87f4c6) |
 | 2026-03-23 | **Google Ads Apps Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/2d3974a2-6a69-4b66-8886-350d7b1626d5) |
-| 2026-03-21 | **Microsoft Applied Skills: Get started with identities and access using Microsoft Entra** | Microsoft | `External/Imported` | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/27BB90F5B956E0C8?sharingId=4883E92AA6332B3F) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-10.md](credly-badges-2026-07-part-10.md)
