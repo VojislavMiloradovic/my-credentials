@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 17 of 92
-date_range: 2026-05-13 to 2026-05-17
-total_entries: 51
+date_range: 2026-05-14 to 2026-05-19
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-17.md
 ---
 
@@ -12,6 +12,24 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Implement Microsoft Defender for Storage | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-storage/) |
+| Configure network security for Azure Storage | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-network-security-azure-storage/) |
+| Object detection on Edge devices with Live Video Analytics using YOLO model | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/object-detection-iot-edge-live-video-analytics/) |
+| Review resident approved reports | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-review-drafts/) |
+| Get started with PowerScribe One | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-attending-get-started/) |
+| Basic reporting in PowerScribe One for attendings | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-attendings-basic-reporting/) |
+| AutoText in daily reporting for attendings | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-autotext-daily-reporting/) |
+| AutoText foundations | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-attendings-autotext-foundations/) |
+| Identify customer needs and explore relationships | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-customer-needs-explore-relationships/) |
+| Set up and configure an Azure Databricks environment | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-set-up-configure-environment/) |
+| Understand Azure Databricks architecture | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-databricks-architecture/) |
+| Dragon Copilot 101 for nurse champions | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-for-nurse-champions/) |
+| Understand the nurse champion role for Dragon Copilot | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-welcome-to-nurse-champion/) |
+| Enforce security governance and regulatory compliance | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-governance-compliance/) |
+| Enforce governance with Azure Policy and resource locks | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-governance-azure-policy-resource-locks/) |
+| Eliminate public network exposure of Azure PaaS services | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/eliminate-public-exposure-paas-private-link/) |
+| Implement network security controls in Azure | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-network-security-controls-azure/) |
+| Dragon Copilot - nurse leaders adoption and reinforcement | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/nurse-leaders-adoption/) |
 | Dragon Copilot nurse leaders 101 | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-for-nurse-leaders/) |
 | Segment and isolate Azure workloads using network security controls | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/segment-isolate-workloads-network-security-controls/) |
 | Secure remote and hybrid connectivity using VPN gateways and Microsoft Entra Private Access | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-hybrid-connectivity-azure/) |
@@ -46,23 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to implementing Dynamics 365 Contact Center | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-implement-dynamics-365-contact-center/) |
 | Coach and support advanced use of Dragon Copilot (nurses) | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-coach-and-support-advanced-use/) |
 | Configure queues in Dynamics 365 Contact Center | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-queues-contact-center/) |
-| Configure Dynamics 365 Contact Center core capabilities | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-core-capabilities-contact-center/) |
-| Configure AI agents and Copilot in Dynamics 365 Contact Center | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-copilot-contact-center/) |
-| Implement security controls for Azure Kubernetes Service | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-kubernetes/) |
-| Implement security controls for Azure Container Registry, Container Instances, and Container Apps | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-containers/) |
-| Implement security controls for Azure App Services and Web Application Firewall | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-web-application-firewall/) |
-| Detect container risks using Microsoft Defender for Containers | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/detect-container-risks-defender-containers/) |
-| Implement API backend security using Azure API Management | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-interface-security-management/) |
-| Troubleshoot and support peers using Dragon Copilot (nurses) | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-troubleshoot-and-support-peers/) |
-| When to evaluate Azure Local for private cloud scenarios | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-azure-local/) |
-| Configure routing in Dynamics 365 Contact Center | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-routing-contact-center/) |
-| Implement Microsoft Defender for Servers | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-microsoft-defender-servers/) |
-| Develop secure IoT Solutions for Azure Sphere with IoT Hub | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-secure-iot-solutions-azure-sphere-iot-hub/) |
-| Create an image recognition solution with Azure IoT Edge, Azure AI Custom Vision, and Azure Speech | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-image-recognition-solution-iot-edge-cognitive-services/) |
-| Develop secure IoT solutions for Azure Sphere, Azure RTOS and Azure IoT Central | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-secure-iot-solutions-azure-sphere-iot-central/) |
-| Design and deliver interactive lessons with Microsoft Learning Zone | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-deliver-interactive-lessons-microsoft-learning-zone/) |
-| Understand the AI Literacy Framework, in partnership with ISTE+ASCD | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-ai-literacy-framework/) |
-| Dragon Copilot basics for physicians | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-basics-for-physicians/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-16.md](microsoft-learn-2026-07-part-16.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-18.md](microsoft-learn-2026-07-part-18.md)

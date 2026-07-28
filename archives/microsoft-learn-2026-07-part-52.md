@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 52 of 92
-date_range: 2026-02-05 to 2026-02-07
+date_range: 2026-02-05 to 2026-02-08
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-52.md
 ---
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Connect logs to Microsoft Sentinel | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-connect-logs-to-azure-sentinel/) |
+| Connect data to Microsoft Sentinel using data connectors | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-data-to-azure-sentinel-with-data-connectors/) |
+| Monitor Windows Server performance | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-windows-server-performance/) |
+| Design the Azure Virtual Desktop architecture | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-azure-virtual-desktop-architecture/) |
+| Build and optimize cloud flows in Power Automate | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-optimize-cloud-flows-power-automate/) |
+| Troubleshoot slow-running flows in Power Automate | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-slow-flows/) |
+| Build and store container images with Azure Container Registry | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-and-store-container-images/) |
+| Administer containers in Azure | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/administer-containers-in-azure/) |
+| Architect modern applications in Azure | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-modern-apps/) |
 | Threat response with Microsoft Sentinel playbooks | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/threat-response-sentinel-playbooks/) |
 | Plan and implement advanced security for compute | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-security-compute/) |
 | Protect compute, storage, and databases | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-compute-storage-databases/) |
@@ -41,8 +50,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Hunt for threats using notebooks in Microsoft Sentinel | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-threat-hunting-sentinel-with-notebooks/) |
 | Configure and manage security monitoring and automation solutions | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-monitoring-automation-solutions/) |
 | Threat hunting with Microsoft Sentinel | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/hunt-threats-sentinel/) |
-| Create Microsoft Power Platform OpenAPI custom connectors | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-connectors-open-api/) |
 | Get started with custom connectors for Microsoft Power Platform | Learningpaths | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-custom-connectors-microsoft-power-platform/) |
+| Create Microsoft Power Platform OpenAPI custom connectors | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-connectors-open-api/) |
 | Use Dataverse triggers and actions in Power Automate | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-dataverse-triggers-actions/) |
 | Automate a business process with expressions and Dataverse actions using Power Automate | Learningpaths | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-business-process-expressions-dataverse-actions/) |
 | Configure policy templates for custom connectors in Microsoft Power Platform | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/policy-templates-custom-connectors/) |
@@ -56,15 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Examine email protection in Microsoft 365 | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-exchange-online-protection/) |
 | Connect Common Event Format logs to Microsoft Sentinel | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-common-event-format-logs-to-azure-sentinel/) |
 | Manage sensitive data and security policies within GitHub | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-sensitive-data-security-policies/) |
-| Assess deployment readiness | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/deployment-readiness/) |
-| MD-102 Deploy using on-premises based tools | Learningpaths | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-on-premise-based-tools/) |
-| Manage Safe Attachments | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-safe-attachments-microsoft-365/) |
-| Train and evaluate classification models | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-evaluate-classification-models/) |
-| Run a Power Automate for desktop flow in unattended mode | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/flow-unattended-mode/) |
-| Automate processes with Robotic Process Automation and Power Automate for desktop | Learningpaths | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-automation-flow/) |
-| Customize the command bar | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/command-bar-customize/) |
-| Plan for cloud workload protections using Microsoft Defender for Cloud | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-is-azure-defender/) |
-| Manage and monitor Windows Server event logs | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitor-event-logs/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-51.md](microsoft-learn-2026-07-part-51.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-53.md](microsoft-learn-2026-07-part-53.md)

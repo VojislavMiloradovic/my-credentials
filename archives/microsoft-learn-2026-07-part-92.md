@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 92 of 92
-date_range: 2025-11-05 to 2025-11-08
-total_entries: 39
+date_range: 2025-11-05 to 2025-11-09
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-92.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Understand Microsoft Entra ID | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/) |
+| Introduction to Copilot in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-copilot-fabric/) |
+| Monitor activities in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-fabric-items/) |
+| Describe Microsoft Security Copilot | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-getting-started/) |
+| Embark on your AI journey with free AI tools from Microsoft Education | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/embark-ai-journey-free-ai-tools-microsoft-education/) |
+| Develop a RAG-based solution with your own data using Azure AI Foundry | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/) |
+| Introduction to AI Agent Service Security Controls | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-ai-agent-service-security-controls/) |
+| Explore internet search and beyond | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-internet-search-beyond/) |
 | Explore AI for All | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-ai-for-all/) |
 | Get started with Microsoft data analytics | Learningpaths | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/) |
 | Introduction to end-to-end analytics using Microsoft Fabric | Modules | 2025-11-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/) |
@@ -26,8 +34,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement a responsible generative AI solution in Azure AI Foundry | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/) |
 | Get started with AI agent development on Azure | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/) |
 | Introduction to GitHub Copilot | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/) |
-| Introduction to Cloud Infrastructure: Describe Azure management and governance | Learningpaths | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/) |
 | Describe cost management in Azure | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/) |
+| Introduction to Cloud Infrastructure: Describe Azure management and governance | Learningpaths | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/) |
 | Describe Azure storage services | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/) |
 | Describe features and tools in Azure for governance and compliance | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/) |
 | Discover data analysis | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-analytics-microsoft/) |

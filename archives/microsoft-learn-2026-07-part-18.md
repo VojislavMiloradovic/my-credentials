@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 18 of 92
-date_range: 2026-05-08 to 2026-05-12
-total_entries: 53
+date_range: 2026-05-09 to 2026-05-14
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-18.md
 ---
 
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Configure Dynamics 365 Contact Center core capabilities | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-core-capabilities-contact-center/) |
+| Configure AI agents and Copilot in Dynamics 365 Contact Center | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-copilot-contact-center/) |
+| Implement security controls for Azure Kubernetes Service | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-kubernetes/) |
+| Implement security controls for Azure Container Registry, Container Instances, and Container Apps | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-containers/) |
+| Implement security controls for Azure App Services and Web Application Firewall | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-web-application-firewall/) |
+| Detect container risks using Microsoft Defender for Containers | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/detect-container-risks-defender-containers/) |
+| Implement API backend security using Azure API Management | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-interface-security-management/) |
+| Troubleshoot and support peers using Dragon Copilot (nurses) | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-troubleshoot-and-support-peers/) |
+| When to evaluate Azure Local for private cloud scenarios | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-azure-local/) |
+| Configure routing in Dynamics 365 Contact Center | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-routing-contact-center/) |
+| Implement Microsoft Defender for Servers | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-microsoft-defender-servers/) |
+| Develop secure IoT Solutions for Azure Sphere with IoT Hub | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-secure-iot-solutions-azure-sphere-iot-hub/) |
+| Create an image recognition solution with Azure IoT Edge, Azure AI Custom Vision, and Azure Speech | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-image-recognition-solution-iot-edge-cognitive-services/) |
+| Develop secure IoT solutions for Azure Sphere, Azure RTOS and Azure IoT Central | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-secure-iot-solutions-azure-sphere-iot-central/) |
+| Design and deliver interactive lessons with Microsoft Learning Zone | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-deliver-interactive-lessons-microsoft-learning-zone/) |
+| Understand the AI Literacy Framework, in partnership with ISTE+ASCD | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-ai-literacy-framework/) |
+| Dragon Copilot basics for physicians | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-basics-for-physicians/) |
 | Understand Azure Databricks Integrations | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-databricks-integrations/) |
 | Select and Configure Compute in Azure Databricks | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/select-and-configure-compute/) |
 | Secure and govern Unity Catalog objects in Azure Databricks | Learningpaths | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-secure-govern-unity-catalog/) |
@@ -46,25 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Govern Unity Catalog objects | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-unity-catalog-objects/) |
 | Identify AI data risks using Microsoft Purview Data Security Posture Management | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-ai-data-risks-purview/) |
 | Build intelligent agents in Microsoft Copilot Studio | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-studio-knowledge/) |
-| Turn business ideas into Power Platform solutions with Plans | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/turn-business-ideas-power-platform-solutions-plans/) |
-| Develop AI agents on Azure | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/) |
-| Integrate your agent with Microsoft 365 | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-foundry-agent-with-m365/) |
-| Develop AI agents on Azure (deprecated) | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-on-azure/) |
-| Integrate MCP Tools with Azure AI Agents | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/) |
-| Develop computer vision solutions with Microsoft Foundry | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-computer-vision-with-foundry/) |
-| Generate videos with Microsoft Foundry | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-video-with-foundry/) |
-| Evaluate and optimize AI agents through structured experiments | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-optimize-agents/) |
-| Discover Azure AI Agents with A2A | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/) |
-| Develop AI agents with Microsoft Foundry and Visual Studio Code | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-azure-vs-code/) |
-| Create an Azure Content Understanding client application | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-content-ai-api/) |
-| Develop AI information extraction solutions in Azure | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-extract-information/) |
-| Build knowledge-enhanced AI agents with Foundry IQ | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-foundry-iq/) |
-| Analyze images with Content Understanding | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-images-with-content-understanding/) |
-| Analyze and debug your generative AI app with tracing | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/tracing-generative-ai-app/) |
-| Secure access for Microsoft Entra Agent Identity | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-access-entra-agent-identity/) |
-| Manage agents using Microsoft Agent 365 | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-agents-microsoft-agent-365/) |
-| Choose the right moment to modernize Windows Server | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-the-right-moment/) |
-| Dragon Copilot (physicians) practical application exercises | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-physicians-practical-application-exercises/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-17.md](microsoft-learn-2026-07-part-17.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-19.md](microsoft-learn-2026-07-part-19.md)

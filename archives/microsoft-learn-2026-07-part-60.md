@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Work with generative artificial intelligence (AI) models in Azure Machine Learning | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-generative-models-azure-machine-learning/) |
+| Govern and protect sensitive information in the age of AI | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-govern-ai/) |
+| Manage compliance with Microsoft Purview for Microsoft 365 Copilot | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-data-compliance/) |
+| Explore PostgreSQL architecture | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-postgresql-architecture/) |
+| Create and manage Insider Risk Management policies | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-create-manage-insider-risk-policy/) |
+| Manage and secure Power BI | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-secure-power-bi/) |
+| Create dashboards in Power BI | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/) |
+| Choose a content distribution method | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-content-distribution-method/) |
 | Manage semantic models in Power BI | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-datasets-power-bi/) |
 | Manage workspaces in Power BI service | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-workspaces-power-bi-service/) |
 | Secure data access in Power BI | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/row-level-security-power-bi/) |
@@ -33,8 +41,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Apply sensitivity labels for data protection | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-manage-sensitivity-labels/) |
 | MD-102 Explore endpoint management | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-endpoint-management/) |
 | Manage Microsoft Entra identities | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-active-directory-identities/) |
-| Mitigate threats using Microsoft Defender XDR | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-365-defender/) |
 | Safeguard your environment with Microsoft Defender for Identity | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-threat-safeguard/) |
+| Mitigate threats using Microsoft Defender XDR | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-365-defender/) |
 | Guided project - Deploy and manage a container app using Azure Container Apps | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-container-app-using-azure-container-apps/) |
 | Explore the Enterprise Desktop | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-enterprise-desktop/) |
 | Create and configure sensitivity labels with Microsoft Purview | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-protect-information/) |
@@ -58,14 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Describe general ledger and cash and bank management processes in Dynamics 365 Finance | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-general-ledger-cash-bank-management/) |
 | Personalize learning for students with disabilities using AI | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/personalize-learning-students-disabilities-using-ai/) |
 | Build agent-driven workflows using Microsoft Foundry | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-agent-workflows-microsoft-foundry/) |
-| Apply AI tools in special education environments | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-special-education/) |
-| Support multilingual and accessible family communication | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-multilingual-accessible-family-communication/) |
-| Teach information literacy with Search Coach and Search Progress | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-information-literacy-search-coach-search-progress/) |
-| Understand Data Security Investigations | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-investigations-understand/) |
-| Introduction to Azure HDInsight | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-hdinsight/) |
-| Implement interfaces | Learningpaths | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-interfaces-new/) |
-| Apply interfaces in code | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-interfaces-code/) |
-| Null safety in C# | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-null-safety/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-59.md](microsoft-learn-2026-07-part-59.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-61.md](microsoft-learn-2026-07-part-61.md)

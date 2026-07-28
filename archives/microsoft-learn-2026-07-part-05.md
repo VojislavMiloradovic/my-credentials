@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 5 of 92
-date_range: 2026-07-02 to 2026-07-05
-total_entries: 49
+date_range: 2026-07-02 to 2026-07-08
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-05.md
 ---
 
@@ -12,6 +12,22 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Implement high availability for SAP workloads in Azure | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-high-availability-for-sap-workloads-azure/) |
+| Access Microsoft Sustainability Manager data | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/access-cloud-sustainability/) |
+| Implement business continuity, disaster recovery, and backup for SAP HANA on Azure (Large Instances) | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-business-continuity-disaster-recovery-backup/) |
+| Plan SAP HANA on Azure (Large Instances) high availability and disaster recovery | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-sap-hana-azure-large-instances-high-availability-disaster-recovery-4/) |
+| Migrate very large databases (VLDB) to Azure for SAP | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-very-large-databases-to-azure/) |
+| Set up the Teams Assignments LTIÂ® app in learning management systems | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-teams-assignments-lti-app-learning-management-systems/) |
+| Explore advanced integration and interoperability in Microsoft for Healthcare | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/healthcare-advanced-integration-interoperability/) |
+| Integration and interoperability solution for healthcare and life sciences | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-interoperability/) |
+| Build enterprise-grade tool ecosystems with MCP and Microsoft Foundry | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-build-enterprise-tool-ecosystems-mcp-azure/) |
+| Apply task decomposition and agent collaboration strategies in Microsoft Foundry | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-apply-task-decomposition-multi-agent-azure/) |
+| Extend the healthcare data model in Dataverse | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-extend-data-model/) |
+| Static analyzers | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/static-analyzers/) |
+| Deploy SAP on Azure | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-sap-azure/) |
+| Implement high availability in SAP NetWeaver with AnyDB on Azure virtual machines | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ha-sap-netweaver-anydb/) |
+| Clinical document structuring to FHIR | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-text-analytics-fhir/) |
+| Examine backup security licensing and support considerations for SAP HANA on Azure (Large Instances) | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/backup-security-licensing-support-considerations-sap-hana-azure/) |
 | Plan SAP HANA on Azure (Large Instances) deployments | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-sap-hana-azure-large-instances-deployments/) |
 | Explore governance and manageability for SAP on Azure | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-governance-manageability/) |
 | Explore the foundations of identity and governance for SAP on Azure | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-foundations-of-identity-governance/) |
@@ -44,23 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Training, certification, Course planning Microsoft Learn Educators | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/training-certification-course-planning-microsoft-learn-educators/) |
 | Azure Stack Hub PowerShell | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-stack-hub-powershell/) |
 | Prepare to teach DP-203: Microsoft Azure Data Engineering | Learningpaths | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-tips-tricks-for-teaching-dp-203-microsoft-azure-data-engineering-academic-programs/) |
-| Get tips and tricks for teaching DP-203: Microsoft Azure Data Engineering in academic programs | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-azure-data-engineering-academic-programs/) |
-| Examine SAP HANA on Azure (Large Instances) sample architecture | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-sap-hana-azure-large-instances-sample-architecture/) |
-| Configure and use lean manufacturing in Dynamics 365 Supply Chain Management | Learningpaths | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-lean-manufacturing-dyn365-supply-chain-mgmt/) |
-| Configure activity-based subcontracting and production flow costing in Dynamics 365 Supply Chain Management | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-subcontracting-flow-dyn365-supply-chain-mgmt/) |
-| Microsoft Learn for Educator Program Open House | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-learn-for-educator-program-open-house/) |
-| Explore licensing, pricing, and support for SAP on Azure virtual machines | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-licensing-pricing-support/) |
-| Begin your Microsoft Learn for Educators Journey | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/begin-your-microsoft-learn-educators-journey/) |
-| Troubleshoot Apps and Channels | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-apps-channels/) |
-| Troubleshoot file sharing | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-file-sharing/) |
-| Azure Support Engineer for Connectivity Specialty | Learningpaths | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-support-engineer-for-connectivity-specialty/) |
-| Troubleshoot authentication and access control issues in Microsoft Azure | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-authentication-access-control/) |
-| Close out a Microsoft Learn for Educators course | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-out-microsoft-learn-educators-course/) |
-| Troubleshoot issues signing into Microsoft Teams | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-issues-signing-into-microsoft-teams/) |
-| Troubleshoot Federation Issues | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-federation-issues/) |
-| Examine SAP NetWeaver with AnyDB on Azure virtual machines | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-sap-netweaver-anydb/) |
-| Explore Azure for SAP workloads | Learningpaths | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-azure-for-sap-workloads/) |
-| Connect Power Platform to SAP on Azure | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-power-platform-to-sap-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-04.md](microsoft-learn-2026-07-part-04.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-06.md](microsoft-learn-2026-07-part-06.md)

@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 61 of 92
 date_range: 2026-01-13 to 2026-01-16
-total_entries: 52
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-61.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Apply AI tools in special education environments | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-special-education/) |
+| Support multilingual and accessible family communication | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-multilingual-accessible-family-communication/) |
+| Teach information literacy with Search Coach and Search Progress | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-information-literacy-search-coach-search-progress/) |
+| Understand Data Security Investigations | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-investigations-understand/) |
+| Introduction to Azure HDInsight | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-hdinsight/) |
+| Implement interfaces | Learningpaths | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-interfaces-new/) |
+| Apply interfaces in code | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-interfaces-code/) |
+| Null safety in C# | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-null-safety/) |
 | Take your first steps with F# | Learningpaths | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/fsharp-first-steps/) |
 | Write your first F# code | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/fsharp-first-steps/) |
 | Understand and plan data loss prevention | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-understand-plan/) |
@@ -24,8 +32,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Explore Azure Synapse Studio | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-synapse-studio/) |
 | Create vendor invoice for resource non-stocked deployment in Dynamics 365 Project Operations | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vendor-invoice-resource-non-stocked/) |
 | Introduction to Viva Learning | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-learning-introduction/) |
-| Extend Microsoft 365 Copilot in .NET | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility/) |
 | Extend Microsoft 365 Copilot in TypeScript | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility-typescript/) |
+| Extend Microsoft 365 Copilot in .NET | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility/) |
 | Get started with Microsoft 365 Copilot extensibility | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-extensibility-intro/) |
 | Get to know Microsoft Azure cloud platform: An overview for business professionals | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-know-microsoft-azure-cloud-platform-business-professionals/) |
 | Describe the business benefits of Azure | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-benefits-azure/) |
@@ -50,7 +58,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage secrets in Java applications - Zero Trust and Zero Secrets | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secrets-java-applications-zero-trust/) |
 | Describe the purpose and use of source control | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-purpose-use-source-control/) |
 | Explain how a source control system helps manage files | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/explain-control-system-helps-manage-files/) |
-| Guided Project –  Use GitHub to manage file updates | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-github-manage-file-updates/) |
+| Guided Project â€“  Use GitHub to manage file updates | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-github-manage-file-updates/) |
 | Implement generative AI guardrails in Azure AI Foundry | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/moderate-content-detect-harm-azure-ai-content-safety-studio/) |
 | Operationalize AI responsibly with Azure AI Foundry | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/operationalize-ai-responsibly/) |
 | Measure and mitigate risks for a generative AI app in Azure AI Foundry | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/measure-mitigate-risks-azure-ai-studio/) |
@@ -58,12 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Deploy and use OMOP transformations for analytics | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-omop-transformations/) |
 | Design resilient code with interfaces | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-resilient-code-interfaces/) |
 | Choose the best Azure Quantum option for your needs | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-the-best-azure-quantum/) |
-| Get started with configuration and personalization in finance and operations apps | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduce-configure-personalization-dynamics-365-finance-operations-apps/) |
-| Set up non-stocked materials and track usage on projects with Dynamics 365 Project Operations | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-non-stocked-material-track-usage/) |
-| Introduce AI and data science in STEM education with FarmBeats for Students | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduce-ai-data-science-stem-farmbeats-students/) |
-| Get tips and tricks for teaching DP-900 Microsoft Azure Data Fundamentals | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-dp-900-microsoft-azure-data-fundamentals/) |
-| Describe the concepts behind Microsoft Entra Verified ID | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-verified-id-concepts/) |
-| Get started with cost accounting in Dynamics 365 Finance | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-cost-accounting-dyn365-finance/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-60.md](microsoft-learn-2026-07-part-60.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-62.md](microsoft-learn-2026-07-part-62.md)

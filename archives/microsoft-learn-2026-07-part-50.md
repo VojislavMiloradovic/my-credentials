@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 50 of 92
 date_range: 2026-02-09 to 2026-02-10
-total_entries: 53
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-50.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Configure and perform periodic processes in Dynamics 365 Finance | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-periodic-processes-dyn365-finance/) |
+| Configure and use the general ledger in Dynamics 365 Finance | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-general-ledger-dyn365-finance/) |
+| Implement and manage storage for Azure Virtual Desktop | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-storage-azure-virtual-desktop/) |
+| Integrate Dynamics 365 Business Central with Teams | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-teams-integration/) |
+| Create and manage model-driven apps with Power Apps and Dataverse | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-model-driven-apps/) |
+| Guided Project - Create and manage model-driven apps with Power Apps and Dataverse | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-manage-model-driven-apps/) |
+| Intercompany accounting in Dynamics 365 Finance | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/intercompany-accounting-dyn365-finance/) |
+| Set up the chart of accounts in Dynamics 365 Business Central | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/chart-accounts-dynamics-365-business-central/) |
 | Power Pages maintenance and troubleshooting | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-maintenance-troubleshooting/) |
 | Mitigate threats using Microsoft Purview | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-purview/) |
 | Audit and search activity in Microsoft Purview | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-audit-search/) |
@@ -21,8 +29,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Configure databases for optimal performance | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-databases-for-optimal-performance/) |
 | Strengthen security posture using Microsoft Defender for Cloud and Microsoft Sentinel | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-azure-using-microsoft-defender-cloud-sentinel/) |
 | Implement and manage enforcement of cloud governance policies | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-enforcement-cloud-governance-policies/) |
-| Visualize, import, and export Microsoft Dataverse data | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/visualize-import-export-dataverse/) |
 | Use Azure and external tools to manipulate data | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-dataverse/) |
+| Visualize, import, and export Microsoft Dataverse data | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/visualize-import-export-dataverse/) |
 | Configure and manage Hyper-V virtual machines | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-hyper-v-virtual-machines/) |
 | Examine Privileged Identity Management in Microsoft Entra ID | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-privileged-identity-management/) |
 | Explore performance-based database design | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-performance-based-design/) |
@@ -45,8 +53,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Ingest streaming data using Azure Stream Analytics and Azure Synapse Analytics | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-streaming-data-use-azure-stream-analytics-synapse/) |
 | Extend plug-ins in Power Platform | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-plug-ins/) |
 | Explore Microsoft Entra ID | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-active-directory/) |
-| Manage chat, teams, channels, and apps in Microsoft Teams | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-chat-teams-channels-apps-microsoft-teams/) |
 | Create and manage teams | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-teams/) |
+| Manage chat, teams, channels, and apps in Microsoft Teams | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-chat-teams-channels-apps-microsoft-teams/) |
 | Configure ledger allocations and accruals in Dynamics 365 Finance | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ledger-allocations-accruals-dyn365-finance/) |
 | Introduction to Dataverse for developers | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-dataverse-developers/) |
 | Create and publish custom GitHub actions | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-custom-github-actions/) |
@@ -56,15 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Define a Microsoft AI strategy to create business value in finance | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-finance/) |
 | Use Power Apps Instrumentation with Application Insights | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/instrumentation-app-insights/) |
 | Explore data management practices in Microsoft 365 | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-data-management-practices/) |
-| Optimize app load time | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-app-load-time/) |
-| Explore Microsoft Purview Data Loss Prevention | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-examine-data-loss-prevention-microsoft-365/) |
-| MD-101 Implement device enrollment | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-device-enrollment/) |
-| Manage device authentication | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-device-authentication/) |
-| Register apps using Microsoft Entra ID | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-apps-use-microsoft-entra-id/) |
-| Enroll devices using Microsoft Intune | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-devices-use-microsoft-intune/) |
-| Manage synchronized identities | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-synchronized/) |
-| Manage collaboration experiences for chat and channels | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-collaboration-experiences-for-chat-channels/) |
-| Respond to data loss prevention alerts using Microsoft 365 | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/respond-to-data-loss-prevention-alerts-microsoft-365/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-49.md](microsoft-learn-2026-07-part-49.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-51.md](microsoft-learn-2026-07-part-51.md)

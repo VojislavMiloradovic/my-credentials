@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Implement class properties and methods | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-class-properties-methods/) |
+| Get started with classes and objects | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-classes-objects/) |
+| Remote development with Visual Studio Code | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/remote-development-vs-code/) |
+| Use a Docker container as a development environment with Visual Studio Code | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-docker-container-dev-env-vs-code/) |
+| Design with inclusivity in mind | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/inclusive-design-principles/) |
+| Get started with Azure Advisor | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-azure-advisor/) |
+| Get to know your Dynamics 365 customers | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-know-dynamics-365-customers/) |
+| Streamline SharePoint processes with Power Automate | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/streamline-processes/) |
 | Support building mathematics skills with Math Progress | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-building-mathematics-skills-math-progress/) |
 | Enabling digital transformation | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-digital-transformation/) |
 | Explore the Windows Package Manager tool | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-package-manager-tool/) |
@@ -19,8 +27,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Add new objects to Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-new-objects/) |
 | Introduction to the development process in Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-development-process/) |
 | Initialize data during extension installation in Dynamics 365 Business Central | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/initialize-data-extension-installation/) |
-| Identify vulnerabilities that ransomware can exploit | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-identify-entry-points/) |
 | Examine ransomware and extortion-based threats | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/ransomware-basics/) |
+| Identify vulnerabilities that ransomware can exploit | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-identify-entry-points/) |
 | Define ransomware and extortion-based security threats | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-extortion-based-threats/) |
 | Recover from ransomware attacks | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-recover/) |
 | Choose a budgeting tool that fits your preferences and financial goals | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-budgeting-tool/) |
@@ -58,14 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design an accident tracking app in Power Apps | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-accident-tracking/) |
 | Transform a business process to a model-driven app | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/model-driven-app-solution/) |
 | Customize views and forms for model-driven apps | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-view-forms/) |
-| Deploy to multiple Azure environments by using JSON ARM template features | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/modify-azure-resource-manager-template-reuse/) |
-| Create your first Q# program with the Quantum Development Kit | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/qsharp-create-first-quantum-development-kit/) |
-| Connect to virtual machines through the Azure portal by using Azure Bastion | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-vm-with-azure-bastion/) |
-| Introduction to building copilots for startups | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-copilots-for-startups/) |
-| Training with AI tools | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/training-with-ai-tools/) |
-| An AI toolbox for trainers | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-toolbox-for-trainers/) |
-| Use AI tools to create an inclusive learning environment | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-tools-to-create-inclusive-learning-environment/) |
-| Implement AI tools into a training environment | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ai-tools-into-training-environment/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-62.md](microsoft-learn-2026-07-part-62.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-64.md](microsoft-learn-2026-07-part-64.md)

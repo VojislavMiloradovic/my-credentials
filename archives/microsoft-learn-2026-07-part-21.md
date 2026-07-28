@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 21 of 92
-date_range: 2026-04-27 to 2026-04-29
+date_range: 2026-04-28 to 2026-04-30
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-21.md
 ---
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Manage keys and secrets in Azure Key Vault | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-keys-secrets-key-vault/) |
+| Manage certificates and monitor Azure Key Vault | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-certificates-monitor-key-vault/) |
+| Configure and secure Azure Key Vault | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-key-vault/) |
+| Use GitHub Copilot plan mode for cloud operations tasks | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-plan-mode-cloud-ops/) |
+| Assess data security posture in Microsoft Purview | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-dspm-assess-data-security-posture/) |
+| Understand security operations centers (SOCs) to manage cybersecurity | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-security-operations-centers-manage-cybersecurity/) |
+| Build a cybersecurity career with SOC best practices | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cybersecurity-career-soc-best-practices/) |
+| Analyze cybersecurity incidents with Security Copilot | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-cybersecurity-incidents-security-copilot/) |
+| Introduction to Windows 365 | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-windows-365/) |
+| Optimize generative AI model performance with Microsoft Foundry | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-generative-ai-model-performance/) |
+| Configure workload identities and permissions for AI environments | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-entra-ai-configure-workload-identities/) |
+| Minecraft Connections: Integrate across the curriculum | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/minecraft-connections-integrate-across-curriculum/) |
+| Guided project â€“ Build a sample app to evaluate Microsoft Entra External ID for seamless and secure sign-up and sign-in for consumers and business customers | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/entra-external-identities/) |
+| Guided project - Add sign-up in an Android mobile app and iOS/macOS app using native authentication | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-entra-external-native-authentication/) |
+| Upgrade from AX 2012 to Dynamics 365 Finance | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/upgrade-ax-finance-operations/) |
+| Set up metrics and alerts for Customer Voice surveys | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/metrics-alerts-voice-surveys/) |
+| Build a model-driven app by using virtual health data tables | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-interoperability-build-application/) |
 | Integrate Dynamics 365 Sales with Dynamics 365 Business Central using Dataverse | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dynamics-365-sales-business-central-dataverse/) |
 | Sync sales orders from and to Dynamics 365 Business Central and Dynamics 365 Sales | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-sales-orders-business-central/) |
 | Introduction to Azure Data Share | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-data-share/) |
@@ -47,23 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Set up Field Service integration with Dynamics 365 Business Central | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-field-service-integration/) |
 | Introduction to integrating Dynamics 365 Sales with Dynamics 365 Business Central | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sales-business-central/) |
 | Process gifts in Fundraising and Engagement | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-gifts/) |
-| Manage designations and campaigns in Fundraising and Engagement | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/nonprofit-designations/) |
-| Build and sell Microsoft Teams apps in Microsoft AppSource and the Microsoft Teams store | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/msteams-monetize-apps/) |
-| Text Analytics for health overview | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-text-analytics/) |
-| Integrate procurement between Dynamics 365 Supply Chain Management and Dynamics 365 Field Service | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/procurement-field-service-supply-chain-management/) |
-| Manage and engage with volunteers in Microsoft for Nonprofits | Learningpaths | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/volunteer-management-nonprofit/) |
-| Onboard and approve volunteers with Volunteer Management | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/onboard-approve-volunteer-management/) |
-| Integrate Volunteer Management and Volunteer Engagement with Microsoft for Nonprofits | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-volunteer-management-engagement-cloud-nonprofit/) |
-| Integrate and use Field Service with Dynamics 365 Business Central | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-field-service/) |
-| Configure BOM costing and reporting in Dynamics 365 Supply Chain Management | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-bill-material-costing-reporting/) |
-| Use Dynamics 365 Sales from Dynamics 365 Business Central | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-sales-business-central/) |
-| Manage outbound serial and lot numbers in Dynamics 365 Business Central | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-outbound-serial-lot-numbers/) |
-| Use serial and lot numbers in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-serial-lot-numbers/) |
-| Use Service Management in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-service-management-business-central/) |
-| Process service in Dynamics 365 Business Central | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-service/) |
-| Transfer, split, and combine fixed assets in Dynamics 365 Business Central | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/transfer-split-combine-fixed-assets/) |
-| Reclassify fixed assets in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/reclassify-fixed-assets/) |
-| Configure costing sheets in Dynamics 365 Supply Chain Management | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-costing-sheets/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-20.md](microsoft-learn-2026-07-part-20.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-22.md](microsoft-learn-2026-07-part-22.md)

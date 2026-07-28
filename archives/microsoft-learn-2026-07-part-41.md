@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Deploy an Azure Kubernetes Service cluster | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-azure-kubernetes-service-cluster/) |
+| Work with class extensions in finance and operations apps | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/class-extensions-finance-operations/) |
+| Implement dynamic deployment methods | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dynamic-deployment-methods/) |
+| MD-101 Deploy using cloud based tools | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-use-cloud-based-tools/) |
+| Get started with project management in Dynamics 365 Project Operations | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-project-management/) |
+| Implement change tracking and file integrity monitoring for Windows IaaS VMs | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-change-tracking-file-integrity-monitoring/) |
+| Implement Windows Server IaaS VM Security | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-iaas-virtual-machine-security/) |
+| Explore just-in-time virtual machine access | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/just-in-time-access/) |
 | Set up and use discrete manufacturing resources in Dynamics 365 Supply Chain Management | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-discrete-manufacturing-resources/) |
 | Set up payment reconciliation journals in Dynamics 365 Business Central | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/reconciliation-journals-dynamics-365-business-central/) |
 | Introduction to Microsoft Power Platform and Business Central | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-business-central/) |
@@ -29,8 +37,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Work with queries in Dynamics 365 Business Central | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-queries/) |
 | Windows Server high availability | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-high-availability/) |
 | Windows Server Hyper-V and Virtualization | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-hyper-v-virtualization/) |
-| Implement disaster recovery in Windows Server on-premises and hybrid environments | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-disaster-recovery-windows-server-premises/) |
 | Implement Hyper-V Replica | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hyper-v-replica/) |
+| Implement disaster recovery in Windows Server on-premises and hybrid environments | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-disaster-recovery-windows-server-premises/) |
 | Set up and use production control for discrete manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-production-control-discrete-manufacturing/) |
 | Get started with the Dynamics 365 Field Service Mobile application | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-mobile-app/) |
 | Define agreements in Dynamics 365 Field Service | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-agreements/) |
@@ -56,14 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage Cloud PCs and Virtual Desktops | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-virtual-desktops/) |
 | Schedule services with Customer Service scheduling | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/schedule-customer-service-scheduling/) |
 | Administer applications | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-applications/) |
-| Support learning environments with instructional leadership | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-learn-environments-instructional-leadership/) |
-| Implementation recommendations for Microsoft Power Platform environments | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implementation-recommendations/) |
-| Tune hyperparameters in Azure Databricks | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/hyperparameters-azure-databricks/) |
-| Configure bins on the location card in Dynamics 365 Business Central | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-bins-location/) |
-| Manage Microsoft Defender for Endpoint | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-defender-endpoint/) |
-| Fine-tune language models with Azure Databricks | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/fine-tune-azure-databricks/) |
-| Configure Azure Cosmos DB for NoSQL | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-cosmos-db-sql-api/) |
-| Connect and engage with customers with Omnichannel for Dynamics 365 Customer Service | Learningpaths | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-customer-service-omnichannel/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-40.md](microsoft-learn-2026-07-part-40.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-42.md](microsoft-learn-2026-07-part-42.md)

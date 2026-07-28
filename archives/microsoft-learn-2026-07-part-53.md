@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 53 of 92
-date_range: 2026-02-02 to 2026-02-05
-total_entries: 52
+date_range: 2026-02-03 to 2026-02-05
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-53.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Assess deployment readiness | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/deployment-readiness/) |
+| MD-102 Deploy using on-premises based tools | Learningpaths | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-on-premise-based-tools/) |
+| Manage Safe Attachments | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-safe-attachments-microsoft-365/) |
+| Train and evaluate classification models | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-evaluate-classification-models/) |
+| Run a Power Automate for desktop flow in unattended mode | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/flow-unattended-mode/) |
+| Automate processes with Robotic Process Automation and Power Automate for desktop | Learningpaths | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-automation-flow/) |
+| Customize the command bar | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/command-bar-customize/) |
+| Plan for cloud workload protections using Microsoft Defender for Cloud | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-is-azure-defender/) |
+| Manage and monitor Windows Server event logs | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitor-event-logs/) |
 | MD-102 Manage authentication and compliance | Learningpaths | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/authentication-compliance/) |
 | Protect identities in Microsoft Entra ID | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-identities-azure-acative-directory/) |
 | Get started with security roles in Dataverse | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-security-roles/) |
@@ -26,8 +35,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement Microsoft Purview Data Loss Prevention | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-loss-prevention-policies-microsoft-365/) |
 | Guided Project: Deploy and administer Linux virtual machines on Azure | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-deploy-administer-linux-virtual-machines-azure/) |
 | Reduce complexity in your data model with Dataverse table relationships | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/reduce-complexity-dataverse-table/) |
-| Construct KQL statements for Microsoft Sentinel | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/construct-kusto-query-language-statements/) |
 | Create queries for Microsoft Sentinel using Kusto Query Language (KQL) | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-utilize-kql-for-azure-sentinel/) |
+| Construct KQL statements for Microsoft Sentinel | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/construct-kusto-query-language-statements/) |
 | Automation in Microsoft Sentinel | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/automation-microsoft-sentinel/) |
 | Implement Windows Server IaaS VM networking | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-iaas-virtual-machine-networking/) |
 | Implement Windows Server IaaS VM network security | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-iaas-virtual-machine-network-security/) |
@@ -46,24 +55,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Monitor Windows Server IaaS Virtual Machines and hybrid instances | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-windows-server-iaas-virtual-machines-hybrid-instances/) |
 | Plan and implement security for storage | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-storage/) |
 | Plan and implement security for Azure SQL Database and Azure SQL Managed Instance | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-azure-sql-database-azure-sql-managed-instance/) |
-| Design and implement network security | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-network-security-monitoring/) |
 | AZ-700 Design and Implement Microsoft Azure Network Solutions | Learningpaths | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-implement-microsoft-azure-networking-solutions-az-700/) |
+| Design and implement network security | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-network-security-monitoring/) |
 | Understand the command syntax in Windows PowerShell | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-command-syntax-windows-powershell/) |
 | Design and implement private access to Azure Services | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-private-access-to-azure-services/) |
 | Load balance non-HTTP(S) traffic in Azure | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/load-balancing-non-https-traffic-azure/) |
 | Connect Microsoft services to Microsoft Sentinel | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-microsoft-services-to-azure-sentinel/) |
 | Use Apache Spark in Azure Databricks | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-apache-spark-azure-databricks/) |
-| Manage data security for Microsoft 365 Copilot | Learningpaths | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-data-security-copilot-microsoft-365/) |
 | Manage permissions, roles, and role groups in Microsoft 365 | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-roles-groups-microsoft-365/) |
+| Manage data security for Microsoft 365 Copilot | Learningpaths | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-data-security-copilot-microsoft-365/) |
 | Deploy PaaS solutions with Azure SQL | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-paas-solutions-with-azure-sql/) |
-| Manage security controls for identity and access | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-security-controls-identity-access/) |
-| Protect identity and access in Azure | Learningpaths | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-identity-access/) |
-| Analyze query results using KQL | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-results-kusto-query-language/) |
-| Integrate Microsoft Defender XDR with Microsoft Sentinel | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-microsoft-defender-xdr-with-microsoft-sentinel/) |
-| Configure your Microsoft Sentinel environment | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-configure-azure-sentinel-environment/) |
-| Plan and implement security for private access to Azure resources | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-private-access-azure-resources/) |
-| Work with Power Automate for desktop | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-work/) |
-| Configure exception and error handling in Power Automate for desktop | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-exception-handling/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-52.md](microsoft-learn-2026-07-part-52.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-54.md](microsoft-learn-2026-07-part-54.md)

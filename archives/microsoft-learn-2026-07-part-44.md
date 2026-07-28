@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 44 of 92
-date_range: 2026-02-15 to 2026-02-24
+date_range: 2026-02-15 to 2026-02-25
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-44.md
 ---
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Manage and organize your product catalog with Dynamics 365 Sales | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-organize-product-catalog-dynamics-365-sales/) |
+| Enable Defender for Cloud on your Azure subscription | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-defender-cloud-azure-subscription/) |
+| Implement and manage Microsoft 365 retention and recovery | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-retention/) |
+| Implement and manage Microsoft 365 retention and recovery | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-retention-recovery/) |
+| Configure Microsoft Defender for Cloud for Azure Arc-enabled servers | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-defender-cloud-azure-arc-enabled-servers/) |
+| Use advanced Windows PowerShell remoting techniques | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-advanced-windows-powershell-remoting-techniques/) |
+| Set up accounts receivable in Dynamics 365 Finance | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-accounts-receivable-dyn365-finance/) |
+| Use SQL Warehouses in Azure Databricks | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-sql-warehouses-azure-databricks/) |
 | Implement a Windows Server hybrid cloud infrastructure | Learningpaths | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-hybrid-cloud-infrastructure/) |
 | Migrate on-premises Windows Server instances to Azure IaaS virtual machines | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-premises-windows-server-instances-azure-iaas-virtual-machines/) |
 | Build enterprise AI agents with Java and Spring | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-enterprise-ai-agents-with-java-spring/) |
@@ -55,14 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Identify security vulnerabilities in your codebase by using CodeQL | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/codebase-representation-codeql/) |
 | Implement multilingual reports in Dynamics 365 Business Central | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-multilanguage-reports/) |
 | Manage Azure Arc-enabled servers by using scripting | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-arc-enabled-servers-scripting/) |
-| Introduction to report components in Dynamics 365 Business Central | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-report-components/) |
-| Manage access for Azure Virtual Desktop | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-access/) |
-| Manage access and security for Azure Virtual Desktop | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-access-security/) |
-| Set up dual-write in finance and operations apps | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-dual-write-finance-operations/) |
-| Explore data integration concepts in finance and operations apps | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/integration-patterns-finance-operations/) |
-| Help service reps be more productive in Dynamics 365 Customer Service | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/agents-help-customer-service/) |
-| Create smart assist solutions in Contact Center for Dynamics 365 Customer Service | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-smart-assist-omnichannel/) |
-| Implement IP Address Management | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ip-address-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-43.md](microsoft-learn-2026-07-part-43.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-45.md](microsoft-learn-2026-07-part-45.md)

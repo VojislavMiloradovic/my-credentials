@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Explore Microsoft 365 Copilot and agent administration | Learningpaths | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-copilot-agent-administration/) |
+| Perform basic administrative tasks for Microsoft 365 Copilot | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-admin-tasks-microsoft-365-copilot/) |
+| Explore Microsoft 365 Copilot and agents | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-365-copilot-agents/) |
+| Perform basic administrative tasks for Microsoft 365 Copilot agents | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-admin-tasks-microsoft-365-copilot-agents/) |
+| Draft a campaign brief using Copilot in Word | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/draft-a-campaign-brief/) |
+| Explore Microsoft 365 administration | Learningpaths | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-administration/) |
+| Explore Microsoft 365 security foundations | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-365-security-foundations/) |
 | Protect and govern Microsoft 365 data | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-govern-data-microsoft-365/) |
 | Hotpatch updates for Windows client devices | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/hotpatch-updates/) |
 | Introduction to Microsoft 365 core services and admin controls | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-365-core-services-admin-control/) |
@@ -59,13 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Windows Server 2025 | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-windows-server-2025/) |
 | Key features and innovations in Windows Server 2025 | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-server-2025-features-explained/) |
 | Device deployment with Windows Autopilot | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-autopilot/) |
-| Introduction to cost management for AI workloads | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-cost-management-ai/) |
-| Introduction to natural language processing concepts | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-language/) |
-| Describe Microsoft Power Platform administration and governance | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-microsoft-power-platform-administration-governance/) |
-| Organize your inbox in new Outlook for Windows | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/organize-your-inbox-new-outlook-windows/) |
-| Write DAX formulas for semantic models | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-write-formulas/) |
-| Get started with data science in Microsoft Fabric | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-data-science-fabric/) |
-| Transform learning with 21st century learning design | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-learning-21st-century-learning-design/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-86.md](microsoft-learn-2026-07-part-86.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-88.md](microsoft-learn-2026-07-part-88.md)

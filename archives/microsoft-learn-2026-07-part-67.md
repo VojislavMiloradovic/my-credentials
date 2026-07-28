@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 67 of 92
 date_range: 2025-12-30 to 2026-01-01
-total_entries: 57
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-67.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Add intelligence to a real estate solution with AI Builder's GPT prompts | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-intelligence-ai-copilot/) |
+| Build flows for a real estate solution using Copilot in Power Automate | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-real-estate-power-automate-copilot/) |
+| Build a Power Apps canvas app for a real estate solution with Copilot in Power Apps | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-canvas-app-real-estate-power-apps-copilot/) |
+| Build a Power Apps canvas app for a real estate solution with data from Excel | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-canvas-app-real-estate-excel/) |
+| Introduction to Power Apps cards | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-apps-cards/) |
+| Set up low-code plug-ins | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-low-code/) |
+| Power the classroom with SharePoint | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-classroom-sharepoint/) |
+| Update Windows clients | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/update-windows-clients/) |
 | MD-100 Manage apps and Windows updates | Learningpaths | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-apps-windows-updates/) |
 | Manage the Microsoft Edge browser | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-edge-browser/) |
 | Manage Universal Windows Platform apps | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-universal-windows-platform-apps/) |
@@ -60,15 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with Expense management in Dynamics 365 Project Operations | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-expense-management/) |
 | MD-100 Configure storage on Windows clients | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-storage-windows-clients/) |
 | Implement Storage Spaces | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-storage-spaces/) |
-| Manage storage on Windows clients | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-storage-windows-clients/) |
-| Maintain disks and volumes | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-disks-volumes/) |
-| Increase educator adoption of search tools | Modules | 2025-12-30 | N/A |
-| Challenge project - Build a minigame with GitHub Copilot and Python | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/) |
-| Extract invoice data with AI Builder’s prebuilt model | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-invoice-processing/) |
-| Work with the Microsoft Dynamics 365 Business Central user interface | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-user-interface-dynamics-365-business-central/) |
-| User interface essentials in Dynamics 365 Business Central | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/user-interface-dynamics-365-business-central/) |
-| Teach cybersecurity concepts with Minecraft Education | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-cybersecurity-concepts-minecraft-education/) |
-| Guide to Secure .NET Development with OWASP Top 10 | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/owasp-top-10-for-dotnet-developers/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-66.md](microsoft-learn-2026-07-part-66.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-68.md](microsoft-learn-2026-07-part-68.md)

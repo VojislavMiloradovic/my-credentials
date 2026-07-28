@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 71 of 92
-date_range: 2025-12-24 to 2025-12-26
+date_range: 2025-12-25 to 2025-12-26
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-71.md
 ---
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Control Azure spending and manage bills with Microsoft Cost Management + Billing | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/control-spending-manage-bills/) |
+| Configure and manage costs as a Microsoft partner by using Microsoft Cost Management | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-costs-partner-cost-management/) |
+| Optimize Azure costs with data analysis in Power BI | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-costs-data-analysis-powerbi/) |
+| Microsoft Azure Well-Architected Framework - Cost Optimization | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/) |
+| Save money with Azure Reserved Instances | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/save-money-with-azure-reserved-instances/) |
+| Automate the processing of documents with the AI Builder prepackaged solution | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-ai-builder-document-automation/) |
+| Get started with AI Builder prediction | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-prediction/) |
+| Use AI Builder models in Power Apps | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-builder/) |
 | Countdown to successful family-teacher conferences | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/countdown-successful-family-teacher-conferences/) |
 | Use a database with minimal API, Entity Framework Core, and ASP.NET Core | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-web-api-minimal-database/) |
 | Challenge project - Add image analysis and generation capabilities to your application | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-add-image-analysis-generation-to-app/) |
@@ -45,26 +53,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Explore user enablement strategies for adopting Microsoft 365 Copilot | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-adoption-framework/) |
 | Extend and optimize Microsoft 365 Copilot in your organization | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-optimize-copilot-m365/) |
 | Use Power Automate for desktop to interact with windows and applications | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-ui-automation/) |
-| Deploy a containerized application on Azure Kubernetes Service | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/aks-deploy-container-app/) |
 | Introduction to Kubernetes on Azure | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-kubernetes-on-azure/) |
+| Deploy a containerized application on Azure Kubernetes Service | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/aks-deploy-container-app/) |
 | Tailoring trainings with AI | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/tailoring-trainings-with-ai/) |
 | Design a machine learning operations solution | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-machine-learning-operations-solution/) |
 | Manage process mining projects | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-process-mining/) |
-| Interactively debug .NET apps with the Visual Studio Code debugger | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-debug/) |
 | Build .NET applications with C# | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-dotnet-applications-csharp/) |
+| Interactively debug .NET apps with the Visual Studio Code debugger | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-debug/) |
 | From inbox to impact: Improve your email workflows with AI | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/from-inbox-impact-improve-your-email-workflows-ai/) |
 | Microsoft Learn for Educators course planning | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-learn-educators-course-plan/) |
 | Hyperautomation with insights from process mining | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/hyperautomation-process-mining/) |
 | Work with files and directories in a .NET app | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-files/) |
 | Troubleshoot device driver failures | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-device-driver-failures/) |
-| Integrate a Power Apps app with Power Automate - Online Workshop | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-power-apps-online-workshop/) |
-| Create a machine ordering app with Power Apps - Online Workshop | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-apps-online-workshop/) |
-| Manage cases with Dynamics 365 Customer Service workspace | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-cases-customer-service-workspace/) |
-| Architect compute infrastructure in Azure | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-compute-infrastructure/) |
-| Build a scalable application with Virtual Machine Scale Sets | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-app-with-scale-sets/) |
-| Digitally transform with Dynamics 365 | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/digitally-transform-with-dynamics-365/) |
-| Onboard to Microsoft Learn for Educators program | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/onboard-microsoft-learn-educators-program/) |
-| Automate GitHub by using GitHub Script | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-github-using-github-script/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-70.md](microsoft-learn-2026-07-part-70.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-72.md](microsoft-learn-2026-07-part-72.md)

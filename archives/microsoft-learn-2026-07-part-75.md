@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Hybrid learning: A model for the future of learning | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/hybrid-learning-a-new-model-for-the-future-of-learning/) |
+| Use CSS styles in a webpage | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-css-styles/) |
+| Use Azure Synapse serverless SQL pool to query files in a data lake | Modules | 2025-12-21 | N/A |
+| Get tips and tricks for teaching MS-900 Microsoft 365 Fundamentals | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-ms-900-microsoft-365-fundamentals/) |
+| Meet your ambassadors in the Minecraft Student Ambassador program | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/meet-ambassadors-minecraft-student-ambassador-program/) |
+| Grow your Minecraft esports program | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/grow-your-minecraft-esports-program/) |
+| Deploy applications using Microsoft Intune and Intune for Education | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/education-deploy-applications/) |
 | Get tips and tricks for teaching PL-900 Microsoft Power-platform Fundamentals | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-pl-900-microsoft-power-platform-fundamentals/) |
 | Integrate Azure Cloud Services to your Unity project on HoloLens 2 | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-cloud-services-tutorials/) |
 | Proforma invoicing and corrections in Dynamics 365 Project Operations | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/proforma-invoicing-corrections/) |
@@ -58,13 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Explore case management in Dynamics 365 Contact Center | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-case-management/) |
 | Manage general ledger and cash and bank management processes in Dynamics 365 Finance | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-general-ledger-cash-bank-management/) |
 | Discover Microsoft Intune essentials | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-microsoft-intune-essentials/) |
-| Create images with generative AI | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-images-with-generative-ai/) |
-| Explore Dynamics 365 Customer Insights - Journeys | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-marketing/) |
-| Explore the fundamentals of Microsoft Dynamics 365 Customer Insights | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-of-microsoft-dynamics-365-marketing/) |
-| Get started with Power Automate for desktop | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-get-started/) |
-| Power Automate for desktop development essentials | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-power-automate-desktop-development-essentials/) |
-| Design a SQL Server migration strategy | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-data-platform-modernization/) |
-| Connect and share cloud flow to desktop flows in Power Automate for desktop | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/connect-share-cloud-flow-desktop-flows-power-automate/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-74.md](microsoft-learn-2026-07-part-74.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-76.md](microsoft-learn-2026-07-part-76.md)

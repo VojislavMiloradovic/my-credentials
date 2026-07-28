@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Create methods in C# console applications (Get started with C#, Part 5) | Learningpaths | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-5/) |
+| Write your first C# method | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-first-c-sharp-method/) |
+| Earn credit toward the SDS Professional badge | Modules | 2025-12-10 | N/A |
+| School Data Sync professional for education partners | Learningpaths | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/school-data-sync-professional-for-education-partners/) |
+| SharePoint Embedded - overview & configuration | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-embedded-setup/) |
+| Create a large language model deployment | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/large-language-model-deployment/) |
+| Prepare for a successful Viva Glint results rollout | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-prepare-successful-results-rollout/) |
+| Introduction to Polyglot Notebooks | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/polyglot-notebooks/) |
 | Learn how to set up Viva Glint | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-learn-how-setup-viva-glint/) |
 | Introduction to Azure Incident Readiness | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-incident-readiness/) |
 | Intune for education partners (Partner Success Series) | Learningpaths | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/intune-education-partners/) |
@@ -21,7 +29,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Understand device management using Microsoft Intune | Modules | 2025-12-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-devices-with-microsoft-endpoint-manager/) |
 | Import custom visuals and add bookmarks to a report in Power BI - Online workshop | Modules | 2025-12-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/import-custom-visuals/) |
 | Introduction to GitHub Advanced Security | Modules | 2025-12-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-github-advanced-security/) |
-| Introduction and prerequisites for Power BI – Online workshop | Modules | 2025-12-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-power-bi/) |
+| Introduction and prerequisites for Power BI â€“ Online workshop | Modules | 2025-12-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-power-bi/) |
 | Write effective prompts to achieve optimal results | Modules | 2025-12-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-effective-prompts-do-more-prompting/) |
 | Debug C# console applications (Get started with C#, Part 6) | Learningpaths | 2025-12-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-6/) |
 | Create and throw exceptions in C# console applications | Modules | 2025-12-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-throw-exceptions-c-sharp/) |
@@ -46,8 +54,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Deploy and consume models with Azure Machine Learning | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-consume-models-azure-machine-learning/) |
 | Train and manage a machine learning model with Azure Machine Learning | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/train-deploy-machine-learning-model/) |
 | Deploy a model to a managed online endpoint | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-model-managed-online-endpoint/) |
-| Manage and review models in Azure Machine Learning | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-review-models-azure-machine-learning/) |
 | Create and explore the Responsible AI dashboard for a model in Azure Machine Learning | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-compare-models-azure-machine-learning/) |
+| Manage and review models in Azure Machine Learning | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-review-models-azure-machine-learning/) |
 | Implement exception handling in C# console applications | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-exception-handling-c-sharp/) |
 | Deploy a model to a batch endpoint | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-model-batch-endpoint/) |
 | Data visualization and reports in Power BI - Online workshop | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-visualization-reports-power-bi/) |
@@ -58,14 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build your first data model and explore the data by using Power BI - Online workshop | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-data-model/) |
 | Implement the Visual Studio Code debugging tools for C# | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-visual-studio-code-debugging-tools/) |
 | Introduction to application resiliency in Azure | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-application-resiliency-azure/) |
-| Prepare for Intune for Education (Partner Success Series) | Modules | 2025-12-07 | N/A |
-| Ingest ESG value chain data | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-environmental-social-governance-value-solution/) |
-| Apply Information Barriers in education | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-information-barriers-education/) |
-| Engage learners through games with MakeCode Arcade | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/engage-learners-through-games-with-makecode-arcade/) |
-| Build a 3D mobile app with Power Apps in mixed reality | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-tutorial/) |
-| Introduction to Viva Pulse | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-pulse-introduction/) |
-| Introduction to Azure OpenAI Managed Identity Authentication with Java | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-openai-managed-identity-auth-java/) |
-| Choose the correct HDInsight Configuration to build open source analytics solutions. | Modules | 2025-12-07 | N/A |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-80.md](microsoft-learn-2026-07-part-80.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-82.md](microsoft-learn-2026-07-part-82.md)

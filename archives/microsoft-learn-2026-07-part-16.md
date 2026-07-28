@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 16 of 92
-date_range: 2026-05-17 to 2026-05-19
+date_range: 2026-05-19 to 2026-05-20
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-16.md
 ---
@@ -12,6 +12,24 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Run governed AI workloads with Microsoft Foundry | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-governed-ai-workloads-microsoft-foundry/) |
+| Manage prompts for agents in Microsoft Foundry with GitHub | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/prompt-versioning-genaiops/) |
+| Operationalize generative AI applications (GenAIOps) | Learningpaths | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/operationalize-gen-ai-apps/) |
+| Implement secure AI-ready infrastructure with Azure services | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-secure-ai-ready-infrastructure-azure-services/) |
+| Explore AI governance for AI ready infrastructure | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-ai-governance-ai-ready-infrastructure/) |
+| Develop a speech agent with the Azure Speech MCP server | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-speech-agent-speech-mcp/) |
+| Configure AI-ready infrastructure with Microsoft Foundry | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ai-ready-infrastructure-microsoft-foundry/) |
+| Leverage quality reporting tools in PowerScribe One | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-leverage-quality-reporting-tools/) |
+| Configure chat and digital channels in Dynamics 365 Contact Center | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-chat-digital-channels-contact-center/) |
+| Develop understanding with the Study and Learn Agent in the Microsoft 365 Copilot app | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-understanding-study-learn-agent-copilot-app/) |
+| Manage and design with AI | Learningpaths | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-design-ai/) |
+| Introduction to Microsoft Surface Laptop for Business, 13-inch (1st Edition) | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-surface-laptop-13-1st-edition/) |
+| Introduction to Azure Functions in IoT solutions | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-functions-iot/) |
+| Discover faster insights with Improved Windows Search | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/improved-windows-search/) |
+| introduction-surface-laptop-8th-edition | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-surface-laptop-8th-edition/) |
+| Introduction to Azure IoT Edge | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-iot-edge/) |
+| Write advanced T-SQL code | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-advanced-sql-code/) |
+| Automate AI evaluations with Microsoft Foundry and GitHub Actions | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/automated-evaluation-genaiops/) |
 | Maximize the Cost Efficiency of AI Agents on Azure | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/maximize-cost-efficiency-ai-agents/) |
 | Understand the key cost drivers of AI agents | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-agent-cost-structure/) |
 | Maximize cost efficiency by choosing the right AI agent development approach on Azure | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/maximize-cost-efficiency-ai-agent-development/) |
@@ -31,8 +49,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Administer Internet Information Services | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/administer-internet-information-services/) |
 | Configure Internet Information Services websites and applications | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-website-application/) |
 | Dragon Copilot AI Ambassador - Champion level | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-champion-level/) |
-| Dragon Copilot (physicians) trainer essentials | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-trainer-essentials/) |
 | Dragon Copilot AI Ambassador - Ambassador level | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-ambassador-level/) |
+| Dragon Copilot (physicians) trainer essentials | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-trainer-essentials/) |
 | Dragon Copilot (physicians) how to train enhanced skills | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-how-to-train-enhanced-skills/) |
 | Dragon Copilot (physicians) how to train basics | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-how-to-train-basics/) |
 | Work smarter with Copilot in Microsoft Fabric | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-smarter-with-copilot-in-microsoft-fabric/) |
@@ -45,24 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement security and manage access for Azure Storage | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-storage-account-security/) |
 | Implement security for Azure Storage for the cloud and AI security engineer | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-azure-storage-security/) |
 | Implement automation rules and playbooks in Microsoft Sentinel | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-automation-rules-playbooks-sentinel/) |
-| Implement Microsoft Defender for Storage | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-storage/) |
-| Configure network security for Azure Storage | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-network-security-azure-storage/) |
-| Object detection on Edge devices with Live Video Analytics using YOLO model | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/object-detection-iot-edge-live-video-analytics/) |
-| Review resident approved reports | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-review-drafts/) |
-| Get started with PowerScribe One | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-attending-get-started/) |
-| Basic reporting in PowerScribe One for attendings | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-attendings-basic-reporting/) |
-| AutoText in daily reporting for attendings | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-autotext-daily-reporting/) |
-| AutoText foundations | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-attendings-autotext-foundations/) |
-| Identify customer needs and explore relationships | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-customer-needs-explore-relationships/) |
-| Set up and configure an Azure Databricks environment | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-set-up-configure-environment/) |
-| Understand Azure Databricks architecture | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-databricks-architecture/) |
-| Dragon Copilot 101 for nurse champions | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-for-nurse-champions/) |
-| Understand the nurse champion role for Dragon Copilot | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-welcome-to-nurse-champion/) |
-| Enforce governance with Azure Policy and resource locks | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-governance-azure-policy-resource-locks/) |
-| Enforce security governance and regulatory compliance | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-governance-compliance/) |
-| Eliminate public network exposure of Azure PaaS services | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/eliminate-public-exposure-paas-private-link/) |
-| Implement network security controls in Azure | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-network-security-controls-azure/) |
-| Dragon Copilot - nurse leaders adoption and reinforcement | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/nurse-leaders-adoption/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-15.md](microsoft-learn-2026-07-part-15.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-17.md](microsoft-learn-2026-07-part-17.md)

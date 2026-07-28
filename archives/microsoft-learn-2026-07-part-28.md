@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Set up pipeline environments in Microsoft Power Platform | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-pipeline-environments/) |
+| Simplify Microsoft Power Platform deployments by using pipelines | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/simplify-power-platform-deployments/) |
+| Create resources in Dynamics 365 Business Central | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-resources/) |
+| Unlock customer intent with Dynamics 365 Customer Insights - Data | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-customer-insights/) |
+| Configure and administer Customer Insights - Data | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-customer-data-platform/) |
+| Explore Microsoft Graph scenarios for JavaScript development | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-scenarios/) |
+| Show a user's emails in a JavaScript app with Microsoft Graph | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-show-user-emails/) |
+| Explore archiving and records management in Microsoft 365 | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-archiving-records-management/) |
+| Use warehouse management for manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacture-warehouse-mgmt-dyn365-supply-chain-mgmt/) |
 | Use warehouse management in manufacturing in Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-warehouse-manufacturing-dyn365-supply-chain-mgmt/) |
 | Discover Power Apps for Educators and reclaim your time 101 | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-power-apps-educators-reclaim-time/) |
 | Identify Exceptions with Connected Field Service for Dynamics 365 and Azure IoT | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-exceptions-with-connected-field-service/) |
@@ -21,7 +30,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Troubleshoot routing, traffic control and load balancing in Microsoft Azure | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-routing-traffic-control-load-balancing/) |
 | Explore the architecture of Dynamics 365 Project Operations | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-architecture-project-operations/) |
 | Deploy Dynamics 365 Project Operations | Learningpaths | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-project-operations/) |
-| Extend the SharePoint user interface with SharePoint Framework extensions | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-extensions/) |
 | Introduction to Surface Management and Support Portals | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-surface-portals/) |
 | Windows ecosystems for modern work: The Windows advantage | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-ecosystems-modern-work/) |
 | Getting started with Surface Management Portal | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/getting-started-surface-management-portal/) |
@@ -37,8 +45,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Work with master data in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-master-data-business-central/) |
 | Create accessible web apps by using ASP.NET Core | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aspnet-core-accessibility/) |
 | Process foreign currency payments in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/foreign-currencies-dynamics-365-business-central/) |
-| Manage Microsoft Priva Subject Rights Requests | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/priva-subject-rights-requests/) |
 | Implement and manage data privacy with Microsoft Priva | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/priva-data-privacy-solutions/) |
+| Manage Microsoft Priva Subject Rights Requests | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/priva-subject-rights-requests/) |
 | Boost K-12 school cybersecurity leadership with Microsoft tools | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/boost-school-cybersecurity-leadership-microsoft-tools/) |
 | Troubleshoot connectivity issues with virtual machines in Microsoft Azure | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-connectivity-issues-virtual-machines-azure/) |
 | Create and process fixed kanbans in Dynamics 365 Supply Chain Management | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-process-fixed-kanbans-dyn365-supply-chain-mgmt/) |
@@ -52,14 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage Internet Information Services | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-internet-information-services/) |
 | Secure K-12 school IT practices and systems with Microsoft tools | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-k-12-school-it-practices-systems-microsoft-tools/) |
 | Work with assignment rules in Dynamics 365 Sales accelerator | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-sales-assignment-rules/) |
-| Set up lean manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-lean-manufacturing-dyn365-supply-chain-mgmt/) |
-| Set up onboarding experiences in Dynamics 365 Business Central | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-onboarding-experiences/) |
-| Set up fixed asset posting groups in Dynamics 365 Business Central | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/posting-groups-setup/) |
-| Manage assets and content settings in Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-assets-content-settings/) |
-| Access a user's calendar events in a JavaScript app with Microsoft Graph | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-access-user-events/) |
-| Write management scripts for Azure Cosmos DB for NoSQL | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-scripts-for-azure-cosmos-db-sql-api/) |
-| Send notifications in Dynamics 365 Business Central | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-notifications/) |
-| Use Artificial Intelligence in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-artificial-intelligence/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-27.md](microsoft-learn-2026-07-part-27.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-29.md](microsoft-learn-2026-07-part-29.md)

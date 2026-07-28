@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Migrate Linux and PostgreSQL Workloads to Azure | Learningpaths | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-linux-postgres-azure/) |
+| Get started with generative AI in Azure Database for PostgreSQL | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-generative-ai-azure-database-postgresql/) |
+| Render API responses in ASP.NET Core Blazor Web apps | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/render-api-responses-razor-pages/) |
+| Develop an ASP.NET Core web app that consumes an API | Learningpaths | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-asp-core-api/) |
+| Set up dimensions in Dynamics 365 Business Central | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/dimensions-dynamics-365-business-central/) |
+| Implement app protection by using Microsoft Defender for Cloud Apps | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-app-protection-use-microsoft-defender-cloud-apps/) |
+| Implement threat protection by using Microsoft Defender for Office 365 | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-threat-protection-use-microsoft-defender-office-365/) |
+| Set up email in Dynamics 365 Business Central | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-email/) |
 | Set up number series and trail codes in Dynamics 365 Business Central | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/number-series-trail-codes-dynamics-365-business-central/) |
 | Explore security solutions in Microsoft Defender XDR | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-security-solutions-microsoft-365-defender/) |
 | Manage identity and access in Microsoft 365 | Learningpaths | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-security-metrics-microsoft-365-defender/) |
@@ -55,14 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Configure database authentication and authorization | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-database-authentication-authorization/) |
 | Implement HTTP operations in ASP.NET Core Blazor Web apps | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-http-operations-asp-razor/) |
 | Examine data governance solutions in Microsoft Purview | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-data-governance-solutions-microsoft-purview/) |
-| Configure and use the general ledger in Dynamics 365 Finance | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-general-ledger-dyn365-finance/) |
-| Configure and perform periodic processes in Dynamics 365 Finance | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-periodic-processes-dyn365-finance/) |
-| Implement and manage storage for Azure Virtual Desktop | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-storage-azure-virtual-desktop/) |
-| Integrate Dynamics 365 Business Central with Teams | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-teams-integration/) |
-| Create and manage model-driven apps with Power Apps and Dataverse | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-model-driven-apps/) |
-| Guided Project - Create and manage model-driven apps with Power Apps and Dataverse | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-manage-model-driven-apps/) |
-| Intercompany accounting in Dynamics 365 Finance | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/intercompany-accounting-dyn365-finance/) |
-| Set up the chart of accounts in Dynamics 365 Business Central | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/chart-accounts-dynamics-365-business-central/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-48.md](microsoft-learn-2026-07-part-48.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-50.md](microsoft-learn-2026-07-part-50.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 14 of 92
-date_range: 2026-05-24 to 2026-05-30
+date_range: 2026-05-25 to 2026-05-31
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-14.md
 ---
@@ -12,6 +12,24 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| GitHub Enterprise Server fundamentals for developers | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-enterprise-server-developer-fundamentals/) |
+| Observe and troubleshoot apps on Azure | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/observe-troubleshoot-apps/) |
+| Instrument an app with OpenTelemetry | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/instrument-app-opentelemetry/) |
+| Analyze app telemetry with logs and metrics | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-telemetry-logs-metrics/) |
+| Resolve GitHub issues using GitHub Copilot Agent | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/apl-2014-github-issues/) |
+| Resolve GitHub issues using GitHub Copilot Agent | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/resolve-github-issues-github-copilot-agent/) |
+| Resolve GitHub Secret Scanning alerts using GitHub Copilot Agent | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/apl-2015-github-secret-scanning/) |
+| Resolve GitHub Secret Scanning alerts using GitHub Copilot Agent | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/resolve-github-secret-scanning-alerts-github-copilot-agent/) |
+| Design and develop database solutions | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-develop-database-solutions/) |
+| Implement programmability objects with SQL | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-programmability-objects/) |
+| Configure GitHub Copilot instructions and create custom agents | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-customize-github-copilot-visual-studio-code/) |
+| Explore SQL Server 2025 capabilities | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-sql-server-capabilities/) |
+| Transform development workflows with T-SQL in SQL Server 2025 | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sql-server-t-sql-enhancements/) |
+| Integrate SQL solutions with Azure services | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sql-solutions-azure-services/) |
+| Secure, optimize, and deploy database solutions | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-optimize-deploy-database-solutions/) |
+| Implement SQL solutions by using AI-assisted tools | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/) |
+| Design and implement database objects with SQL | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-database-objects/) |
+| Optimize database performance | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-database-performance/) |
 | Implement data security and compliance with SQL | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-security-compliance/) |
 | Monitor and optimize Dynamics 365 Contact Center with AI-driven insights | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-optimize-dynamics-365-contact-center/) |
 | Reach customers first with proactive engagement in Dynamics 365 Contact Center | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/reach-customers-proactive-engagement-contact-center/) |
@@ -45,24 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement CI/CD by using SQL Database Projects | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cicd-sql-database-projects/) |
 | Implement AI capabilities in database solutions | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-capabilities-database-solutions/) |
 | Design and implement models and embeddings with SQL | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-models-embeddings-with-sql/) |
-| Design and implement intelligent search with SQL | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-intelligent-search-with-sql/) |
-| Design and implement RAG with SQL | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-rag-with-sql/) |
-| Manage accounts receivable | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-accounts-receivable-credit-collections-revenue-recognition/) |
-| Implement cost management in Dynamics 365 Finance | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cost-management/) |
-| Customer and vendor netting in Dynamics 365 Finance | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/netting-customer-vendor/) |
-| Configure financial management | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-configure-financial-management-work-general-ledger/) |
-| Manage Azure DevOps by using MCP Server | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-ado-mcp-server/) |
-| Manage Azure Boards by using GitHub Copilot integration | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-boards-using-github-copilot/) |
-| Extract data with Azure Document Intelligence | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-data-with-document-intelligence/) |
-| Extract insights from visual data on Azure | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/insight-visual-data/) |
-| Design dimensional models for analytics in Microsoft Fabric | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dimensional-models-fabric/) |
-| Design and transform analytics data in Microsoft Fabric | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-transform-analytics-data/) |
-| Build secure agents for public sector services | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-secure-agents-public-sector-services/) |
-| Optimize staffing with workforce management in Dynamics 365 Contact Center | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-staffing-workforce-management-contact-center/) |
-| Troubleshoot device and policy issues using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-intune-devices/) |
-| Plan and implement device enrollment using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-device-enrollment/) |
-| Monitor and maintain devices using Microsoft Intune | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-devices-intune/) |
-| Manage Windows updates and lifecycle using Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-updates-intune/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-13.md](microsoft-learn-2026-07-part-13.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-15.md](microsoft-learn-2026-07-part-15.md)

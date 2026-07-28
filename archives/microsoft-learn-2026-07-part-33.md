@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 33 of 92
-date_range: 2026-03-17 to 2026-03-20
+date_range: 2026-03-17 to 2026-03-21
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-33.md
 ---
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Process bulk data in Azure Cosmos DB for NoSQL | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-bulk-data-azure-cosmos-db-sql-api/) |
+| Route and distribute work with unified routing in Dynamics 365 Customer Service | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/route-distribute-work/) |
+| Perform basic identity and access tasks | Learningpaths | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/perform-basic-identity-access-tasks/) |
+| Create, configure, and manage identities | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/) |
+| Configure and use process manufacturing in Dynamics 365 Supply Chain Management | Learningpaths | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) |
+| Configure formulas for process manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-formulas-process-manufacturing/) |
 | Work with Microsoft Power Platform tenants, environments, subscriptions, and Dynamics 365 apps | Learningpaths | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/implementing-customer-engagement-apps/) |
 | Administer Microsoft Power Platform subscriptions | Modules | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/administrating-power-platform-subscriptions/) |
 | Create journals for fixed assets in Dynamics 365 Business Central | Modules | 2026-03-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-journals/) |
@@ -54,12 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with Connected Customer Service for Dynamics 365 and Azure IoT | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-connected-customer-service/) |
 | Set up and use features for resource/non-stocked based scenarios in Dynamics 365 Project Operations | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-use-features-resource-non-stocked-project-operations/) |
 | Revenue recognition in Dynamics 365 Project Operations | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-recognition/) |
-| Manage maintenance requests in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-maintenance-requests/) |
-| Set up inventory replenishment in Dynamics 365 Business Central | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-inventory-replenishment-dynamics-365-business-central/) |
-| Replenish items in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/replenish-items-dynamics-365-business-central/) |
-| Assemble to order in Dynamics 365 Business Central | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/assemble-to-order-dynamics-365-business-central/) |
-| Develop web parts with the SharePoint Framework | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-web-parts/) |
-| Schedule crews, facilities, and resource pooling in Dynamics 365 Field Service | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/schedule-resource-pools-crew-and-facilities-urs-dynamics-field-service/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-32.md](microsoft-learn-2026-07-part-32.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-34.md](microsoft-learn-2026-07-part-34.md)

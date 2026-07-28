@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 20 of 92
-date_range: 2026-04-29 to 2026-05-04
+date_range: 2026-04-30 to 2026-05-05
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-20.md
 ---
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Elevate Educator - Expert (AI) | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/elevate-educator-expert-ai/) |
+| Introduction to AI literacy | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-ai-literacy/) |
+| Elevate Educator - Explorer (AI) | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/elevate-educator-explorer-ai/) |
+| Build a reflective AI practice over time | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reflective-ai-practice-over-time/) |
+| Build with AI as a creative partner, developed in partnership with ISTE+ASCD | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-with-ai-creative-partner/) |
+| Discover unprotected assets and vulnerabilities by using Microsoft Defender External Attack Surface Management | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-external-assets-vulnerabilities/) |
+| Enable and configure workload protection plans in Microsoft Defender for Cloud | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-configure-workload-protection-plans/) |
+| Create an ontology with Fabric IQ | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-ontology-with-fabric-iq/) |
+| Get started with Fabric IQ | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-fabric-iq/) |
+| Design agent conversations and responses using topics in Microsoft Copilot Studio | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-agent-conversations-responses-topics-copilot-studio/) |
+| Take action from agent conversations using topics and tools in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/take-action-agent-topics-tools-flows-copilot-studio/) |
+| Generate AI-powered agent responses using generative answers in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-ai-powered-responses-generative-answers-copilot-studio/) |
+| Deliver rich agent responses using Adaptive Cards in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/deliver-rich-agent-responses-adaptive-cards-copilot-studio/) |
+| Automate workflows using agent flows in Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-workflows-agent-flows-copilot-studio/) |
+| Introduction to Microsoft Entra Agent ID | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-entra-agent-id/) |
+| Design multi-agent solutions in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-agent-solutions-copilot-studio/) |
+| Design and build multi-agent solutions in Microsoft Copilot Studio | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-build-multi-agent-solutions-copilot-studio/) |
 | Design integration strategies for agents in Microsoft Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-enterprise-integration-strategies-agents-copilot-studio/) |
 | Delegate agent tasks using child agents in Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/delegate-agent-tasks-child-agents-copilot-studio/) |
 | Build multi-agent solutions using connected agents in Copilot Studio | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-multi-agent-solutions-connected-agents-copilot-studio/) |
@@ -44,23 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to student security operations centers (SOCs) | Learningpaths | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-student-security-operations-centers/) |
 | Explore SOC tools and technologies with Microsoft Security | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-tools-technologies-microsoft-security/) |
 | Protect Azure Key Vault with Microsoft Defender for Cloud | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/defend-key-vault-defender-cloud/) |
-| Manage keys and secrets in Azure Key Vault | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-keys-secrets-key-vault/) |
-| Manage certificates and monitor Azure Key Vault | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-certificates-monitor-key-vault/) |
-| Configure and secure Azure Key Vault | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-key-vault/) |
-| Use GitHub Copilot plan mode for cloud operations tasks | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-plan-mode-cloud-ops/) |
-| Assess data security posture in Microsoft Purview | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-dspm-assess-data-security-posture/) |
-| Understand security operations centers (SOCs) to manage cybersecurity | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-security-operations-centers-manage-cybersecurity/) |
-| Build a cybersecurity career with SOC best practices | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cybersecurity-career-soc-best-practices/) |
-| Analyze cybersecurity incidents with Security Copilot | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-cybersecurity-incidents-security-copilot/) |
-| Introduction to Windows 365 | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-windows-365/) |
-| Optimize generative AI model performance with Microsoft Foundry | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-generative-ai-model-performance/) |
-| Configure workload identities and permissions for AI environments | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-entra-ai-configure-workload-identities/) |
-| Minecraft Connections: Integrate across the curriculum | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/minecraft-connections-integrate-across-curriculum/) |
-| Guided project – Build a sample app to evaluate Microsoft Entra External ID for seamless and secure sign-up and sign-in for consumers and business customers | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/entra-external-identities/) |
-| Guided project - Add sign-up in an Android mobile app and iOS/macOS app using native authentication | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-entra-external-native-authentication/) |
-| Upgrade from AX 2012 to Dynamics 365 Finance | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/upgrade-ax-finance-operations/) |
-| Set up metrics and alerts for Customer Voice surveys | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/metrics-alerts-voice-surveys/) |
-| Build a model-driven app by using virtual health data tables | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-interoperability-build-application/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-19.md](microsoft-learn-2026-07-part-19.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-21.md](microsoft-learn-2026-07-part-21.md)

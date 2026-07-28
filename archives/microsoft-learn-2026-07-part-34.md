@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 34 of 92
 date_range: 2026-03-14 to 2026-03-17
-total_entries: 49
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-34.md
 ---
 
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Manage maintenance requests in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-maintenance-requests/) |
+| Set up inventory replenishment in Dynamics 365 Business Central | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-inventory-replenishment-dynamics-365-business-central/) |
+| Replenish items in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/replenish-items-dynamics-365-business-central/) |
+| Assemble to order in Dynamics 365 Business Central | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/assemble-to-order-dynamics-365-business-central/) |
+| Schedule crews, facilities, and resource pooling in Dynamics 365 Field Service | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/schedule-resource-pools-crew-and-facilities-urs-dynamics-field-service/) |
 | Get started with resource management in Dynamics 365 Project Operations | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-project-resource-management/) |
 | Ship assemble-to-order items from the warehouse in Dynamics 365 Business Central | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/ship-assemble-to-order-items/) |
 | Deploy and analyze using care management analytics | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-care-management-analytics/) |
@@ -55,12 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create fixed asset classes, subclasses, and locations in Dynamics 365 Business Central | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-classes-subclasses-locations/) |
 | Ingest DICOM data into healthcare data solutions in Microsoft Fabric | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-dicom-ingestion/) |
 | Access REST services from within Dynamics 365 Business Central | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/access-rest-services/) |
-| Identify and configure batch attributes for process manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-configure-batch-attributes-process-manufacturing-dyn365-supply-chain-mgmt/) |
-| Set up intercompany trade in Dynamics 365 Supply Chain Management | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-intercompany-trade/) |
-| Deploy and configure Sales in Microsoft 365 Copilot | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/sales-copilot-deploy-configure/) |
-| Use Dynamics 365 Copilot for Sales | Learningpaths | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-copilot-sales/) |
-| Configure and manage vendor collaboration in Dynamics 365 Supply Chain Management | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-vendor-collaboration-dyn365-supply-chain-mgmt/) |
-| Managing estimation and sales process using Dynamics 365 Project Operations | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-estimations-project-operations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-33.md](microsoft-learn-2026-07-part-33.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-35.md](microsoft-learn-2026-07-part-35.md)

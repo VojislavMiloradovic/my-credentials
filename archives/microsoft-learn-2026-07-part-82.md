@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 82 of 92
 date_range: 2025-12-04 to 2025-12-07
-total_entries: 51
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-82.md
 ---
 
@@ -12,9 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Prepare for Intune for Education (Partner Success Series) | Modules | 2025-12-07 | N/A |
+| Ingest ESG value chain data | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-environmental-social-governance-value-solution/) |
+| Apply Information Barriers in education | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-information-barriers-education/) |
+| Engage learners through games with MakeCode Arcade | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/engage-learners-through-games-with-makecode-arcade/) |
+| Build a 3D mobile app with Power Apps in mixed reality | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-tutorial/) |
+| Introduction to Viva Pulse | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-pulse-introduction/) |
+| Introduction to Azure OpenAI Managed Identity Authentication with Java | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-openai-managed-identity-auth-java/) |
+| Choose the correct HDInsight Configuration to build open source analytics solutions. | Modules | 2025-12-07 | N/A |
 | Perform Zero ETL analytics with HDInsight Interactive Query | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-zero-etl-analytics-hdinsight-interactive-query/) |
-| Define a Microsoft AI strategy to create business value in sustainability | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-sustainability/) |
 | Discover AI for leaders in sustainability | Learningpaths | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-sustainability/) |
+| Define a Microsoft AI strategy to create business value in sustainability | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-sustainability/) |
 | Monitor your Azure virtual machines with Azure Monitor | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-azure-vm-using-diagnostic-data/) |
 | Review the principles of code debugging and exception handling | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/review-principles-code-debugging-exception-handling-c-sharp/) |
 | Guided project - Debug and handle exceptions in a C# console application using Visual Studio Code | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/) |
@@ -35,11 +43,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Maintain a secure repository by using GitHub best practices | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/) |
 | Challenge project - Debug a C# console application using Visual Studio Code | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-debug-c-sharp-console-application/) |
 | Manage and control traffic flow in your Azure deployment with routes | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-network-traffic-flow-with-routes/) |
-| Challenge project - Work with variable data in C# | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-work-variable-data-c-sharp/) |
 | Work with variable data in C# console applications (Get started with C#, Part 4) | Learningpaths | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-4/) |
+| Challenge project - Work with variable data in C# | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-work-variable-data-c-sharp/) |
 | Deliver Results with your Viva Glint Executive Consultation (EC) | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-deliver-results-executive-consultation/) |
 | Get tips and tricks for teaching MB-220: Microsoft Dynamics 365 Marketing Functional Consultant | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-220-marketing-functional-consultant/) |
-| Understand Viva Glint’s approach to 360 feedback | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-understand-viva-glint-approach-360-feedback/) |
+| Understand Viva Glintâ€™s approach to 360 feedback | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-understand-viva-glint-approach-360-feedback/) |
 | Enhance communication using Power Automate and the Office 365 Users Connector | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-communication/) |
 | Get started with Sustainability data solutions in Microsoft Fabric | Learningpaths | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sustainability-data-solutions/) |
 | Sustainability data solutions overview | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-data-solutions-overview/) |
@@ -56,13 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Guided project - Work with variable data in C# | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-work-variable-data-c-sharp/) |
 | Run pipelines in Azure Machine Learning | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-pipelines-azure-machine-learning/) |
 | Build flows to manage user information | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-user-information/) |
-| Management, troubleshooting, and support for Intune for Education (Partner Success Series)   | Modules | 2025-12-04 | N/A |
-| Explore Azure Database for MySQL - Flexible Server features that support mission-critical workloads | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-database-for-mysql-features-that-support-mission-critical-workloads/) |
-| Choose a deployment scenario for HoloLens device management | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-deployment-strategy-hololens/) |
-| Microsoft for Healthcare training environment preparation | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/training-environment-preparation-healthcare/) |
-| Creating and configuring a HDInsight cluster. | Modules | 2025-12-04 | N/A |
-| Configure and style Microsoft Graph Toolkit components by using attributes and CSS | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-toolkit-customize-part-one/) |
-| Upload images to Azure Blob Storage from a static web app | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/blob-storage-image-upload-static-web-apps/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-81.md](microsoft-learn-2026-07-part-81.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-83.md](microsoft-learn-2026-07-part-83.md)

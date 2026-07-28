@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 65 of 92
-date_range: 2026-01-03 to 2026-01-04
-total_entries: 54
+date_range: 2026-01-03 to 2026-01-05
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-65.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Explore API Management | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-api-management/) |
+| Secure outbound internet connectivity for Azure VMware Solution | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-vmware-solution/) |
+| Introduction to the Partner Success Series | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-partner-success-series/) |
+| Introduction to Azure ExpressRoute | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-expressroute/) |
+| Introduction to Azure hybrid connectivity services | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-hybrid-connectivity-services/) |
+| Introduction to Azure Advisor | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-advisor/) |
+| Power Automate: Automation - Online Workshop | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
+| Create subflows and web automation with Power Automate for desktop - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-subflows-web-automation-online-workshop/) |
 | Integrate with Microsoft Teams to get approvals - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-teams-approval-online-workshop/) |
 | Add an AI model to process invoice forms - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-ai-model-process-invoice-online-workshop/) |
 | Integrate with cloud flows - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-cloud-flows-online-workshop/) |
@@ -33,8 +41,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build a Connect Four game with Blazor | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-connect-four/) |
 | Minecraft block coding academy | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-block-coding-academy/) |
 | Transition to Python in Minecraft Education | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-python-minecraft-education-edition/) |
-| Minecraft Python coding academy | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-python-coding-academy/) |
 | Build programs using Python coding in Minecraft with Azure Notebooks | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-programs-use-python-coding-minecraft-azure-notebooks/) |
+| Minecraft Python coding academy | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-python-coding-academy/) |
 | Testing with Pytest | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-python-with-pytest/) |
 | Get started using Power Platform with finance and operations apps | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-power-platform-with-finance-operations/) |
 | Set up and build mobile experiences for finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/mobile-experiences-finance-operations/) |
@@ -57,15 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with SQL Server 2025 | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-sql-server-2022/) |
 | Set up the Shopify connector in Dynamics 365 Business Central | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/shopify-connector-setup/) |
 | Get started with the Shopify connector in Dynamics 365 Business Central | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-shopify-dynamics-365-business-central/) |
-| Establish the guiding principles and core components of Zero Trust | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/zero-trust-principles/) |
-| Protect data with Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-data/) |
-| Protect infrastructure with Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-infrastructure/) |
-| Describe application access in Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-applications/) |
-| Secure endpoints with Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-endpoints/) |
-| Manage networks with Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-networks/) |
-| Intro to Azure Service Health | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-service-health/) |
-| Research and learn using Microsoft Edge | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/research-learn-using-microsoft-edge/) |
-| Enrich the learning experience in the Microsoft Edge browser | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/enrich-learning-experience-microsoft-edge-browser/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-64.md](microsoft-learn-2026-07-part-64.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-66.md](microsoft-learn-2026-07-part-66.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 24 of 92
-date_range: 2026-04-20 to 2026-04-22
-total_entries: 52
+date_range: 2026-04-21 to 2026-04-23
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-24.md
 ---
 
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Send finance charge memos to customers in Dynamics 365 Business Central | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-memos-dynamics-365-business-central/) |
+| Process financial periodic activities in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) |
+| Process Intrastat in Dynamics 365 Business Central | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-intrastat-dynamics-365-business-central/) |
+| Troubleshooting Windows Containers | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-windows-containers/) |
+| Creating service orders and support requests in Surface portals | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-portal-service-support/) |
+| Manage projects in Dynamics 365 Customer Voice | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-projects-customer-voice/) |
+| Replicate and monitor an Azure Cosmos DB for MongoDB account | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/replicate-monitor-azure-cosmos-db-api-mongodb-account/) |
+| Perform advanced streaming data transformations with Apache Spark and Kafka in Azure HDInsight | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-advanced-streaming-data-transformations-with-spark-kafka/) |
+| Automate Azure Virtual Desktop management tasks | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-azure-virtual-desktop-management-tasks/) |
+| Work with service agreements in Dynamics 365 Supply Chain Management | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-agreements/) |
+| Use item journals in the warehouse in Dynamics 365 Business Central | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-item-journals-warehouse/) |
+| Work with service items in Dynamics 365 Business Central | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-work-service-items/) |
+| Use warehouse management only mode in Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-warehouse-management-only-mode/) |
+| Get started with Warehouse management only mode in Dynamics 365 Supply Chain Management | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-warehouse-management-only-mode/) |
+| Work with service orders in Dynamics 365 Business Central | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-orders/) |
+| Build your first deployment stack | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-deployment-stack/) |
+| Receive orders in Dynamics 365 Business Central | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/receive-orders/) |
 | Produce items in the warehouse in Dynamics 365 Business Central | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/produce-items-warehouse/) |
 | Guided project: Build and Deploy your own AI Copilot | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-build-deploy-your-own-ai-copilot/) |
 | Migrate on-premises MongoDB databases to Cosmos DB | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-on-premises-mongodb-databases-azure-database-mongodb/) |
@@ -46,24 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Explore Surface cloud management scenarios | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-surface-cloud-management-scenarios/) |
 | Allocate costs in Dynamics 365 Business Central | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/allocate-costs-dynamics-365-business-central/) |
 | Use cost accounting in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-cost-accounting-dynamics-365-business-central/) |
-| Set up and work with Finance insights in Dynamics 365 Finance | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/setup-work-finance-insights/) |
-| Use customer payment predictions in Dynamics 365 Finance | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-customer-payment-predictions-finance/) |
-| Troubleshooting Surface Portal access issues | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshooting-surface-portal-access/) |
-| Prepare to deploy updates for Windows client and Microsoft 365 apps | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-windows/) |
-| Revenue and expense deferrals in Dynamics 365 Finance | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-expense-deferrals/) |
-| Explore Microsoft Purview Message Encryption | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-purview-message-encryption/) |
-| Plan to deploy Microsoft Defender for IoT to monitor operational technology (OT) networks | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-iot-plan-deployment/) |
-| Index fixed assets in Dynamics 365 Business Central | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/index-fixed-assets/) |
-| Understand client-server communication in MySQL | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-client-server-communication-mysql/) |
-| Work with MySQL Databases on Azure | Learningpaths | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-mysql-databases-azure/) |
-| Work with Warehouse management only mode in Dynamics 365 Supply Chain Management | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-warehouse-management-only-mode/) |
-| Understand concurrency in MySQL | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-concurrency-mysql/) |
-| Work with service order dispatching in Dynamics 365 Supply Chain Management | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-order-dispatching/) |
-| Deploy SharePoint Framework Components to Production | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-deployment/) |
-| Extend Microsoft SharePoint – Associate | Learningpaths | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-sharepoint-associate/) |
-| Build a Fabric data agent with an ontology | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-fabric-data-agent-ontology/) |
-| Record fixed asset opening transactions in Dynamics 365 Business Central | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/record-fixed-assets-opening-transactions/) |
-| Close a project in Dynamics 365 Business Central | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-job/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-23.md](microsoft-learn-2026-07-part-23.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-25.md](microsoft-learn-2026-07-part-25.md)

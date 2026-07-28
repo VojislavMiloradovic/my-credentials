@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 64 of 92
-date_range: 2026-01-04 to 2026-01-07
+date_range: 2026-01-05 to 2026-01-07
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-64.md
 ---
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Deploy to multiple Azure environments by using JSON ARM template features | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/modify-azure-resource-manager-template-reuse/) |
+| Create your first Q# program with the Quantum Development Kit | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/qsharp-create-first-quantum-development-kit/) |
+| Connect to virtual machines through the Azure portal by using Azure Bastion | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-vm-with-azure-bastion/) |
+| Introduction to building copilots for startups | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-copilots-for-startups/) |
+| An AI toolbox for trainers | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-toolbox-for-trainers/) |
+| Training with AI tools | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/training-with-ai-tools/) |
+| Use AI tools to create an inclusive learning environment | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-tools-to-create-inclusive-learning-environment/) |
+| Implement AI tools into a training environment | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ai-tools-into-training-environment/) |
 | Streamline training plans with AI tools | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/streamline-training-plans-with-ai-tools/) |
 | Contribute to Microsoft Learn documentation in your browser | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/contribute-to-docs-browser/) |
 | Introduction to Microsoft Viva Glint | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-introduction-viva-glint/) |
@@ -30,14 +38,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Deploy a Microsoft Teams app to Azure by using Teams Toolkit for Visual Studio Code | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-deploy-apps/) |
 | Get started building apps for Microsoft Teams by using Teams Toolkit for Visual Studio Code | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-introduction/) |
 | Build a bot by using Teams Toolkit for Visual Studio Code | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-create-bot/) |
-| Expand the capabilities for Java apps on Azure | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/expand-capabilities-java-azure/) |
 | Sign in users with Microsoft Entra ID in a Java web app | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-java-app-enable-authentication-authorization/) |
+| Expand the capabilities for Java apps on Azure | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/expand-capabilities-java-azure/) |
 | Deploy a Jakarta EE application to Azure | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-java-ee-app-to-jboss-app-service/) |
 | Architect API integration in Azure | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-api-integration/) |
 | Manage your generative AI APIs with Azure API Management | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/api-management/) |
 | Implement generative AI guardrails with Azure AI Content Safety | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/moderate-content-detect-harm-azure-ai-content-safety/) |
-| Sell through the commercial marketplace | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/sell-through-commercial-marketplace/) |
 | Go to market through the commercial marketplace | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/go-to-market-commercial-marketplace/) |
+| Sell through the commercial marketplace | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/sell-through-commercial-marketplace/) |
 | Overview of Dynamics 365 Sales Professional | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/overview-d365-sales-professional/) |
 | Stay current with Windows devices and Microsoft 365 Apps | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-stay-current/) |
 | Plan to deploy updates for Windows clients and Microsoft 365 apps | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-plan/) |
@@ -57,14 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design a Power Apps canvas app by using Figma | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-canvas-app-figma/) |
 | Evaluate requirements for Dynamics 365 projects | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-requirements-dynamics-365-projects/) |
 | Implement API Management | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-api-management/) |
-| Explore API Management | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-api-management/) |
-| Secure outbound internet connectivity for Azure VMware Solution | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-vmware-solution/) |
-| Introduction to the Partner Success Series | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-partner-success-series/) |
-| Introduction to Azure ExpressRoute | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-expressroute/) |
-| Introduction to Azure hybrid connectivity services | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-hybrid-connectivity-services/) |
-| Introduction to Azure Advisor | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-advisor/) |
-| Create subflows and web automation with Power Automate for desktop - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-subflows-web-automation-online-workshop/) |
-| Power Automate: Automation - Online Workshop | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-63.md](microsoft-learn-2026-07-part-63.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-65.md](microsoft-learn-2026-07-part-65.md)

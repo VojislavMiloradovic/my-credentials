@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 66 of 92
 date_range: 2026-01-01 to 2026-01-03
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-66.md
 ---
 
@@ -12,10 +12,19 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Establish the guiding principles and core components of Zero Trust | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/zero-trust-principles/) |
+| Protect data with Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-data/) |
+| Protect infrastructure with Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-infrastructure/) |
+| Describe application access in Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-applications/) |
+| Secure endpoints with Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-endpoints/) |
+| Manage networks with Zero Trust | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-networks/) |
+| Intro to Azure Service Health | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-service-health/) |
+| Research and learn using Microsoft Edge | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/research-learn-using-microsoft-edge/) |
+| Enrich the learning experience in the Microsoft Edge browser | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/enrich-learning-experience-microsoft-edge-browser/) |
 | Stay organized and find resources with Microsoft Edge | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/stay-organized-find-resources-classroom-microsoft-edge/) |
 | Set up Microsoft Edge for learning and teaching | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-microsoft-edge-learning-teaching/) |
-| Monitor hybrid virtual machines, containers, and network resources | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-hybrid-virtual-machines-containers-network/) |
 | Design and implement network monitoring | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-network-monitoring/) |
+| Monitor hybrid virtual machines, containers, and network resources | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-hybrid-virtual-machines-containers-network/) |
 | Bring Azure innovation to your hybrid environments with Azure Arc | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-hybrid-infrastructure-with-azure-arc/) |
 | Monitor your hybrid and multicloud machines through Azure Arc-enabled servers | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-azure-arc-enabled-servers/) |
 | Operationalize your Azure Data Factory or Azure Synapse Pipeline | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/operationalize-azure-data-factory-pipelines/) |
@@ -56,14 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to the Microsoft Viva suite | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-suite-introduction/) |
 | Manage Authentication, Authorization, and RBAC for AI workloads on Azure | Learningpaths | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-iam-for-ai-workloads-on-azure/) |
 | Secure Azure OpenAI authentication and authorization | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-openai-authentication-authorization/) |
-| Add intelligence to a real estate solution with AI Builder's GPT prompts | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-intelligence-ai-copilot/) |
-| Build flows for a real estate solution using Copilot in Power Automate | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-real-estate-power-automate-copilot/) |
-| Build a Power Apps canvas app for a real estate solution with Copilot in Power Apps | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-canvas-app-real-estate-power-apps-copilot/) |
-| Build a Power Apps canvas app for a real estate solution with data from Excel | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-canvas-app-real-estate-excel/) |
-| Introduction to Power Apps cards | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-apps-cards/) |
-| Set up low-code plug-ins | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-low-code/) |
-| Power the classroom with SharePoint | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-classroom-sharepoint/) |
-| Update Windows clients | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/update-windows-clients/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-65.md](microsoft-learn-2026-07-part-65.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-67.md](microsoft-learn-2026-07-part-67.md)

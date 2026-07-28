@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 1 of 92
-date_range: 2026-07-20 to 2026-07-27
-total_entries: 54
+date_range: 2026-07-22 to 2026-07-28
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md
 ---
 
@@ -12,6 +12,25 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Go beyond Keras: Customize with TensorFlow | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-machine-learning-tensorflow/) |
+| TensorFlow fundamentals | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/tensorflow-fundamentals/) |
+| Introduction to TensorFlow using Keras | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-machine-learning-keras/) |
+| Build Microsoft Teams customization using the SharePoint Framework | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-teams-dev/) |
+| Extend Microsoft SharePoint â€“ Associate | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-sharepoint-associate/) |
+| Deploy SharePoint Framework Components to Production | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-deployment/) |
+| Use Microsoft Graph and non-Microsoft APIs | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-graph-3rd-party-apis/) |
+| Create Adaptive Card Extensions (ACE) for Microsoft Viva Connections | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-adaptive-card-extension-card-types/) |
+| Extend Microsoft Viva Connections | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-extend-viva-connections/) |
+| Extend the SharePoint user interface with SharePoint Framework extensions | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-extensions/) |
+| Work with SharePoint Content using the SharePoint Framework | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-spcontent/) |
+| Enable SharePoint Framework web part configuration with property panes | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-web-part-property-pane/) |
+| Develop web parts with the SharePoint Framework | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-web-parts/) |
+| Get started with the SharePoint Framework | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-get-started/) |
+| Build applications on the cloud | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-build-apps-cloud/) |
+| Develop a Site Reliability Engineering (SRE) strategy | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-develop-sre-strategy/) |
+| Scale your cloud resources with elasticity | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-cloud-elasticity/) |
+| Monitor cloud resources | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-monitor-cloud-resources/) |
+| Develop an instrumentation strategy | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-develop-instrumentation-strategy/) |
 | Protect information with Microsoft Purview information protection | Modules | 2026-07-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-information-purview/) |
 | Govern SharePoint and OneDrive for Microsoft 365 Copilot | Modules | 2026-07-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-sharepoint-onedrive-copilot/) |
 | Secure AI agents and workloads on Windows | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-ai-agents-windows/) |
@@ -48,24 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Core components of Power Pages | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-intro/) |
 | Create and manage canvas apps with Power Apps | Learningpaths | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-canvas-apps-power-apps/) |
 | Publish, share, and maintain a canvas app | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-share-maintain-app/) |
-| From prompts to goals | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/from-prompts-to-goals/) |
-| Troubleshoot Active Directory Domain Services replication | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-active-directory-replication/) |
-| Work smarter with Copilot prompts for finance professionals | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-finance/) |
-| Manage application volume groups for SAP HANA in Azure NetApp Files | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-application-volume-groups-sap-hana-azure-netapp-files/) |
-| Work smarter with Copilot prompts for legal professionals | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-legal/) |
-| Understand features of Copilot Studio agents | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-features-copilot-studio-agents/) |
-| Manage volume capacity and performance for Azure NetApp Files | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-volume-capacity-performance-azure-netapp-files/) |
-| Craft effective prompts in Microsoft 365 Copilot | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/craft-effective-prompts-copilot/) |
-| MS-4021 Copilot Immersion Experience | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-immersion-experience/) |
-| Get started with the Dynamics 365 Sales mobile app | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-sales-mobile-app/) |
-| Generate and qualify leads using AI in Dynamics 365 Sales | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/generate-qualify-leads-ai-sales/) |
-| Engage with customers through text messages in Dynamics 365 Sales | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/engage-customers-text-messages/) |
-| Set up and configure Dynamics 365 Sales | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-dynamics-365-sales/) |
-| Configure Dynamics 365 Sales for AI-powered selling | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-sales-ai-selling/) |
-| Get started with Dynamics 365 Sales | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/sales-get-started/) |
-| Create powerful customer experiences for organizations with Dynamics 365 apps | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-powerful-customer-experiences-organizations/) |
-| Secure Windows Server on-premises and hybrid infrastructures | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-windows-server-premises-hybrid-infrastructures/) |
-| Hardening Windows Server | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-windows-server/) |
 
 ---
 > **Navigation:** Prev: None | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-02.md](microsoft-learn-2026-07-part-02.md)

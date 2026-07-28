@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 73 of 92
 date_range: 2025-12-22 to 2025-12-24
-total_entries: 54
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-73.md
 ---
 
@@ -12,7 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Build effective presentations with AI | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/present-copilot-microsoft-powerpoint/) |
+| Describe identities in Zero Trust | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-identities/) |
+| Introduction to Zero Trust | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-introduction/) |
+| Configure services with dependency injection in ASP.NET Core | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-dependency-injection/) |
+| Make your meetings more productive with AI | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/make-your-meetings-more-productive-ai/) |
+| Email with Power Automate | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/email-power-automate/) |
+| Process custom documents with AI Builder | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-form-processing/) |
 | Introduction to AI in Azure | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/) |
+| Get started with machine learning in Azure | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/) |
 | Introduction to large language models | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-large-language-models/) |
 | Settle competing commits by using merge conflict resolution on GitHub | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/resolve-merge-conflicts-github/) |
 | Describe inventory and warehousing capabilities in Dynamics 365 Supply Chain Management | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-warehouse-inventory-management-capabilities/) |
@@ -59,13 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build your first ASP.NET Core web app | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-aspnet-core-web-app/) |
 | Build web pages with HTML and CSS for beginners | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-web-pages-html-css-for-beginners/) |
 | Build your first HTML webpage | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-html-webpage/) |
-| Prevent ransomware and extortion-based attacks | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-prevent-attacks/) |
-| Get started with Microsoft Dynamics 365 Business Central | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-dynamics-365-business-central/) |
-| Introduction to the capabilities of Microsoft Dynamics 365 Business Central | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-dynamics-365-business-central/) |
-| Boost sales performance with Microsoft 365 Copilot for Sales | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/boost-sales-performance/) |
-| Introduction to becoming a business applications professional | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-business-applications-professional/) |
-| Evaluate Windows client installation methods | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-windows-client-installation-methods/) |
-| Introduction to Azure Logic Apps | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-logic-apps/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-72.md](microsoft-learn-2026-07-part-72.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-74.md](microsoft-learn-2026-07-part-74.md)

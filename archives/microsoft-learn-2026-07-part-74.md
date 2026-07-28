@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Prevent ransomware and extortion-based attacks | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-prevent-attacks/) |
+| Get started with Microsoft Dynamics 365 Business Central | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-dynamics-365-business-central/) |
+| Introduction to the capabilities of Microsoft Dynamics 365 Business Central | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-dynamics-365-business-central/) |
+| Boost sales performance with Microsoft 365 Copilot for Sales | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/boost-sales-performance/) |
+| Introduction to becoming a business applications professional | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-business-applications-professional/) |
+| Evaluate Windows client installation methods | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-windows-client-installation-methods/) |
+| Introduction to Azure Logic Apps | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-logic-apps/) |
 | Guided Project - Create and manage automated processes with Power Automate | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-automated-processes-with-power-automate/) |
 | Create and Manage Automated Processes by using Power Automate | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-automated-processes-by-using-power-automate/) |
 | Describe the general ledger in Dynamics 365 Finance | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-general-ledger-dynamics-365/) |
@@ -23,8 +30,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Azure for Researchers part 2: Cloud Security and Cost Management | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/researcher-cloud-security-cost-management/) |
 | Introduction to analyzing costs and creating budgets with Microsoft Cost Management | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-costs-create-budgets-azure-cost-management/) |
 | Connect commands into a pipeline | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-commands/) |
-| Explore the fundamentals of Microsoft Dynamics 365 Field Service | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-of-microsoft-dynamics-365-field-service/) |
 | Explore Dynamics 365 Field Service | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-field-service/) |
+| Explore the fundamentals of Microsoft Dynamics 365 Field Service | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-of-microsoft-dynamics-365-field-service/) |
 | Approach your data-flow diagram with the right threat model focus | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-approach-your-data-flow-diagram-with-the-right-threat-model-focus/) |
 | Automate Azure tasks with Azure PowerShell | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-azure-tasks-with-powershell/) |
 | Get started with Dynamics 365 Human Resources | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-human-resources/) |
@@ -59,13 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with data concepts | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-data-concepts/) |
 | Get started with SQL Database in Microsoft Fabric | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-sql-database-microsoft-fabric/) |
 | Explore the Windows client | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-client/) |
-| Hybrid learning: A model for the future of learning | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/hybrid-learning-a-new-model-for-the-future-of-learning/) |
-| Use CSS styles in a webpage | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-css-styles/) |
-| Use Azure Synapse serverless SQL pool to query files in a data lake | Modules | 2025-12-21 | N/A |
-| Get tips and tricks for teaching MS-900 Microsoft 365 Fundamentals | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-ms-900-microsoft-365-fundamentals/) |
-| Meet your ambassadors in the Minecraft Student Ambassador program | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/meet-ambassadors-minecraft-student-ambassador-program/) |
-| Grow your Minecraft esports program | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/grow-your-minecraft-esports-program/) |
-| Deploy applications using Microsoft Intune and Intune for Education | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/education-deploy-applications/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-73.md](microsoft-learn-2026-07-part-73.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-75.md](microsoft-learn-2026-07-part-75.md)

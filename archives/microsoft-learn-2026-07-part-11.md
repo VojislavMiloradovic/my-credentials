@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 11 of 92
-date_range: 2026-06-06 to 2026-06-09
-total_entries: 53
+date_range: 2026-06-07 to 2026-06-11
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-11.md
 ---
 
@@ -12,6 +12,25 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| AZ-305: Design data storage solutions | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-data-storage-solutions/) |
+| Design a data storage solution for non-relational data | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/) |
+| Implement initial configuration of Microsoft Entra ID | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-initial-configuration-of-azure-active-directory/) |
+| Design authentication and authorization solutions | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/) |
+| Design a solution for backup and disaster recovery | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/) |
+| AZ-305: Design business continuity solutions | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/) |
+| Use imperative development techniques for canvas apps in Power Apps | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-imperative-dev-techniques-powerapps-canvas-app/) |
+| Design data integration | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-integration/) |
+| Design network solutions | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-network-solutions/) |
+| Design an application architecture | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-application-architecture/) |
+| Introduction to GitHub Actions | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/) |
+| Explore Azure Pipelines | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/) |
+| Plan to foster inner source | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/) |
+| AZ-400: Development for Enterprise DevOps | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-work-git-for-enterprise-devops/) |
+| Explore Git hooks | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/) |
+| Design a data storage solution for relational data | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/) |
+| Power Platform Robotic Process Automation overview | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-platform-robotic-process-automation-overview/) |
+| Introduction to Microsoft Power Platform developer resources | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-developer-resources/) |
+| Manage and configure repositories | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/) |
 | Design a solution to log and monitor Azure resources | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-to-log-monitor-azure-resources/) |
 | Identify technical debt | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/) |
 | Design and implement branch strategies and workflows | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/) |
@@ -48,23 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Leveling up code reviews and pull requests with GitHub Copilot | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/) |
 | Azure Local Accreditation 2025 | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-local-accreditation-2025/) |
 | Hyperconverged Infrastructure (HCI) Stack | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/hci-stack/) |
-| Operate hybrid infrastructure with Azure Local | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/operate-hybrid-infrastructure-with-azure-local/) |
-| Hybrid cloud integration with Azure Local | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/hybrid-cloud-integration-with-azure-local/) |
-| GitHub Copilot Fundamentals Part 1 of 2 | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot/) |
-| Introduction to Copilot Spaces | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-spaces/) |
-| Perform code maintenance tasks using GitHub Copilot Agent | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/perform-code-maintenance-tasks-github-copilot-agent/) |
-| Consolidate duplicate logic using GitHub Copilot Agent | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/consolidate-duplicate-logic-github-copilot-agent/) |
-| Refactor large functions using GitHub Copilot Agent | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/refactor-large-functions-github-copilot/) |
-| Simplify complex conditionals using GitHub Copilot Agent | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/simplify-complex-conditionals-github-copilot-agent/) |
-| Improve code performance using GitHub Copilot Agent | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-code-performance-github-copilot-agent/) |
-| Azure Devops to GitHub Enterprise Migrations Part III - Migration Testing and Production Migration | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-3/) |
-| Azure Devops to GitHub Enterprise Migrations Part II - Source Environment Assessment and Target Environment Setup | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-2/) |
-| Azure DevOps to GitHub Enterprise Migrations Part IV - Post-Migration Stabilization, Enablement, and Operations | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-four/) |
-| Enhance AI solutions with Azure Managed Redis | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-ai-solutions-azure-managed-redis/) |
-| Implement event messaging with Azure Managed Redis | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-event-messaging-azure-managed-redis/) |
-| Implement data operations in Azure Managed Redis | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-operations-azure-managed-redis/) |
-| Implement vector storage in Azure Managed Redis | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-storage-azure-managed-redis/) |
-| Deploy and monitor applications on Azure Kubernetes Service | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-monitor-apps-azure-kubernetes-service/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-10.md](microsoft-learn-2026-07-part-10.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-12.md](microsoft-learn-2026-07-part-12.md)

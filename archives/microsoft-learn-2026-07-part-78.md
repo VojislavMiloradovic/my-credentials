@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 78 of 92
 date_range: 2025-12-14 to 2025-12-16
-total_entries: 56
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-78.md
 ---
 
@@ -12,7 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Protect your Azure Virtual Desktop deployment by using Azure Firewall | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-virtual-desktop-deployment-azure-firewall/) |
+| Change how documents look in Business Central | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/change-documents-dynamics-365-business-central/) |
+| Get tips and tricks for teaching PL-200: Microsoft Power Platform Functional Consultant | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teaching-microsoft-power-platform-functional-consultant/) |
+| Apply Viva Glintâ€™s modern approach to engagement for better results | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-engagement/) |
+| Empower action for better results with Viva Glint | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-empower-action-better-results-viva-glint/) |
+| Edit code using any device with Visual Studio Code for the Web | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/edit-code-using-any-device/) |
 | Teams for education partners (Partner Success Series) | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/teams-education-partners/) |
+| AI in Microsoft Teams for Education (Partner Success Series) | Modules | 2025-12-16 | N/A |
 | Introduction to Azure Site Recovery | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-site-recovery/) |
 | Explore cybersecurity careers with Minecraft Education-Cyber Defender: Tower Defense | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/cybersecurity-careers-minecraft-education-cyber-defender/) |
 | Introduction to integration with Dynamics 365 Customer Engagement apps | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-integration-customer-engagement-apps/) |
@@ -21,8 +28,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build your first web app with Blazor | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-blazor-web-app/) |
 | Build accessible SharePoint sites | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-accessible-sharepoint-sites/) |
 | Manage apps in Power Apps | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-apps-in-powerapps/) |
-| Interact, share, and collaborate Power BI dashboards – Online workshop | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-share-power-bi/) |
 | Dashboard in a Day - Online workshop | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/dashboard-in-a-day/) |
+| Interact, share, and collaborate Power BI dashboards â€“ Online workshop | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-share-power-bi/) |
 | Discover commands in PowerShell | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-commands/) |
 | Introduction to accessibility | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-accessibility/) |
 | Generate Power Automate for desktop flows by recording | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-power-automate-desktop-recording-features/) |
@@ -31,7 +38,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Plan your Linux environment in Azure | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-your-linux-environment-in-azure/) |
 | Introduction to Azure Machine Learning monitoring | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-azure-machine-learning/) |
 | Monitor AI workloads on Azure | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-ai-workloads-on-azure/) |
-| Publish and access reports in Power BI service – Online workshop | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-access-reports/) |
+| Publish and access reports in Power BI service â€“ Online workshop | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-access-reports/) |
 | Describe the foundations of Dynamics 365 customer engagement apps | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigate-dynamics-customer-engagement-apps/) |
 | Explore the core capabilities of Microsoft Dynamics 365 customer engagement apps | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/examine-core-capabilities-of-microsoft-dynamics-365-customer-engagement-apps/) |
 | Create and manage environments in Dataverse | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-environments/) |
@@ -59,15 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | The Principles of Sustainable Software Engineering | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainable-software-engineering-overview/) |
 | Work smarter with AI | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-smarter-with-ai/) |
 | Work smarter with AI using Microsoft Copilot | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-copilot-business-users/) |
-| Empower school leaders and educators with Windows 11 | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-101/) |
-| Fundraising for your startup | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/fundraising/) |
-| The path to revenue | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue/) |
-| How to pitch your company | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/pitch-company/) |
-| Validate your startup idea with customers | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/validate-idea/) |
-| Build your team | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-team/) |
-| Create effective prompts for generative AI training tools | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-prompts-for-generative-ai-training-tools/) |
-| Empower your workforce with Microsoft 365 Copilot: Marketing Use Case | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-marketing/) |
-| Empower your workforce with Microsoft 365 Copilot Use Cases | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/empower-workforce-copilot-use-cases/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-77.md](microsoft-learn-2026-07-part-77.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-79.md](microsoft-learn-2026-07-part-79.md)

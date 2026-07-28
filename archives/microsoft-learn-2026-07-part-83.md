@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 83 of 92
 date_range: 2025-12-01 to 2025-12-04
-total_entries: 55
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-83.md
 ---
 
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Management, troubleshooting, and support for Intune for Education (Partner Success Series)   | Modules | 2025-12-04 | N/A |
+| Explore Azure Database for MySQL - Flexible Server features that support mission-critical workloads | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-database-for-mysql-features-that-support-mission-critical-workloads/) |
+| Choose a deployment scenario for HoloLens device management | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-deployment-strategy-hololens/) |
+| Microsoft for Healthcare training environment preparation | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/training-environment-preparation-healthcare/) |
+| Creating and configuring a HDInsight cluster. | Modules | 2025-12-04 | N/A |
+| Configure and style Microsoft Graph Toolkit components by using attributes and CSS | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-toolkit-customize-part-one/) |
+| Upload images to Azure Blob Storage from a static web app | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/blob-storage-image-upload-static-web-apps/) |
 | Extend Microsoft Viva Connections with application customizers | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-extend-with-app-customizers/) |
 | Configure and manage a Microsoft Viva Glint 360 feedback program | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-configure-manage-viva-glint-360-feedback-program/) |
 | Customize the presentation of Microsoft Graph Toolkit components by using templates | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-toolkit-customize-part-two/) |
@@ -33,8 +40,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Microsoft for Manufacturing overview | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacturing-overview/) |
 | Customize a SUSE Linux Enterprise Server virtual machine on Azure | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-suse-linux-enterprise-server-azure/) |
 | Extend Microsoft Viva Connections with web parts | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-extend-with-web-parts/) |
-| Get started with Microsoft for Retail | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-retail/) |
 | Overview of Retail data solutions in Microsoft Fabric | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/retail-data-solutions-overview/) |
+| Get started with Microsoft for Retail | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-retail/) |
 | Find the best classification model with Automated Machine Learning | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/find-best-classification-model-automated-machine-learning/) |
 | Experiment with Azure Machine Learning | Learningpaths | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-machine-learning-model-selection-azure-machine-learning/) |
 | Track model training in Jupyter notebooks with MLflow | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/track-model-training-jupyter-notebooks-mlflow/) |
@@ -58,15 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Develop learner executive function with the 21CLD self-regulation dimension | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-learner-executive-function/) |
 | Host your domain on Azure DNS | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/host-domain-azure-dns/) |
 | Improve communication skills with the 21CLD skilled communication dimension | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-communication-skills-21cld/) |
-| Develop accessible resize and reflow | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-accessible-resize-reflow/) |
-| Validate and monitor data health in School Data Sync | Modules | 2025-12-01 | N/A |
-| Beyond School Data Sync basics | Modules | 2025-12-01 | N/A |
-| Deploy a simple Java web app to Azure App Service | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-hello-world-app-service/) |
-| Role of an OKR Champion | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/role-of-champion/) |
-| Overview of Microsoft for Retail | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/retail-cloud-overview/) |
-| Run Petabyte level OSS NoSQL databases with HDInsight HBase | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-petabyte-level-oss-nosql-databases-hdinsight-hbase/) |
-| Get started with enterprise scale data management and analytics scenario | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-management-analytics/) |
-| Develop products with screen reader support | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-products-with-screen-reader-support/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-82.md](microsoft-learn-2026-07-part-82.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-84.md](microsoft-learn-2026-07-part-84.md)

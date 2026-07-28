@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 13 of 92
-date_range: 2026-05-30 to 2026-06-02
-total_entries: 52
+date_range: 2026-05-31 to 2026-06-02
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-13.md
 ---
 
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Implement generative AI agents with Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-generative-ai-agents-azure-postgresql/) |
+| Build RAG applications with Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-rag-applications-azure-database-postgresql/) |
+| Deploy containers to Azure App Service | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-containers-azure-app-service/) |
+| Deploy and manage apps on Azure Container Apps | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-apps-azure-container-apps/) |
+| Scale containers in Azure Container Apps | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-containers-azure-container-apps/) |
+| Manage containers in Azure Container Apps | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-containers-azure-container-apps/) |
+| Deploy containers to Azure Container Apps | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-containers-azure-container-apps/) |
+| Implement and manage Microsoft Purview Data Loss Prevention | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-manage-dlp/) |
+| Create and manage data loss prevention policies | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-create-manage-policies/) |
+| Protect information in a Microsoft 365 Copilot environment using Microsoft Purview | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-microsoft-365-copilot-environment/) |
+| Develop agents and applications using agentic programming tools | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-embed-custom-code-agents/) |
+| Implement spec-driven development using the GitHub Spec Kit | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/spec-driven-development-github-spec-kit-enterprise-developers/) |
+| Optimize vector search in Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-vector-search-azure-database-postgresql/) |
+| Develop AI solutions with Azure Database for PostgreSQL | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-database-postgresql/) |
+| Implement vector search with Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-search-azure-database-postgresql/) |
+| Build and query with Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-database-postgresql/) |
+| Reduce data exposure risk with Data Security Posture Management in Microsoft Purview | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-data-security-posture-management/) |
 | Understand data security posture management in Microsoft Purview | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-posture-management-understand/) |
 | Implement application protection and security using Microsoft Intune | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-protection-intune/) |
 | Implement Microsoft Defender for Endpoint using Microsoft Intune | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-endpoint-intune/) |
@@ -46,24 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement security for AI | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-security/) |
 | Configure and manage guardrails in Microsoft Foundry | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-ai-foundry-configure-manage-guardrails/) |
 | GitHub Enterprise Server fundamentals for developers | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-enterprise-server-repository-workflows/) |
-| GitHub Enterprise Server fundamentals for developers | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-enterprise-server-developer-fundamentals/) |
-| Observe and troubleshoot apps on Azure | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/observe-troubleshoot-apps/) |
-| Instrument an app with OpenTelemetry | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/instrument-app-opentelemetry/) |
-| Analyze app telemetry with logs and metrics | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-telemetry-logs-metrics/) |
-| Resolve GitHub issues using GitHub Copilot Agent | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/apl-2014-github-issues/) |
-| Resolve GitHub issues using GitHub Copilot Agent | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/resolve-github-issues-github-copilot-agent/) |
-| Resolve GitHub Secret Scanning alerts using GitHub Copilot Agent | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/apl-2015-github-secret-scanning/) |
-| Resolve GitHub Secret Scanning alerts using GitHub Copilot Agent | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/resolve-github-secret-scanning-alerts-github-copilot-agent/) |
-| Design and develop database solutions | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-develop-database-solutions/) |
-| Implement programmability objects with SQL | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-programmability-objects/) |
-| Configure GitHub Copilot instructions and create custom agents | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-customize-github-copilot-visual-studio-code/) |
-| Explore SQL Server 2025 capabilities | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-sql-server-capabilities/) |
-| Transform development workflows with T-SQL in SQL Server 2025 | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sql-server-t-sql-enhancements/) |
-| Secure, optimize, and deploy database solutions | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-optimize-deploy-database-solutions/) |
-| Integrate SQL solutions with Azure services | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sql-solutions-azure-services/) |
-| Implement SQL solutions by using AI-assisted tools | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/) |
-| Design and implement database objects with SQL | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-database-objects/) |
-| Optimize database performance | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-database-performance/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-12.md](microsoft-learn-2026-07-part-12.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-14.md](microsoft-learn-2026-07-part-14.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 2 of 92
-date_range: 2026-07-13 to 2026-07-20
-total_entries: 51
+date_range: 2026-07-14 to 2026-07-22
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-02.md
 ---
 
@@ -12,6 +12,24 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| From prompts to goals | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/from-prompts-to-goals/) |
+| Troubleshoot Active Directory Domain Services replication | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-active-directory-replication/) |
+| Work smarter with Copilot prompts for finance professionals | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-finance/) |
+| Manage application volume groups for SAP HANA in Azure NetApp Files | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-application-volume-groups-sap-hana-azure-netapp-files/) |
+| Work smarter with Copilot prompts for legal professionals | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-legal/) |
+| Understand features of Copilot Studio agents | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-features-copilot-studio-agents/) |
+| Manage volume capacity and performance for Azure NetApp Files | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-volume-capacity-performance-azure-netapp-files/) |
+| Craft effective prompts in Microsoft 365 Copilot | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/craft-effective-prompts-copilot/) |
+| MS-4021 Copilot Immersion Experience | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-immersion-experience/) |
+| Get started with the Dynamics 365 Sales mobile app | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-sales-mobile-app/) |
+| Generate and qualify leads using AI in Dynamics 365 Sales | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/generate-qualify-leads-ai-sales/) |
+| Engage with customers through text messages in Dynamics 365 Sales | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/engage-customers-text-messages/) |
+| Set up and configure Dynamics 365 Sales | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-dynamics-365-sales/) |
+| Configure Dynamics 365 Sales for AI-powered selling | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-sales-ai-selling/) |
+| Get started with Dynamics 365 Sales | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/sales-get-started/) |
+| Create powerful customer experiences for organizations with Dynamics 365 apps | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-powerful-customer-experiences-organizations/) |
+| Secure Windows Server on-premises and hybrid infrastructures | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-windows-server-premises-hybrid-infrastructures/) |
+| Hardening Windows Server | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-windows-server/) |
 | Plan an AI agent solution | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-design-ai-agent-solution/) |
 | Choose tools and services for your agent on Microsoft's agent platform | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-solutions-microsoft-agent-platform/) |
 | Customize a canvas app in Power Apps | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-apps-in-powerapps/) |
@@ -22,8 +40,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design a multi-domain Active Directory forest | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-domain-forest-trust/) |
 | Get started with 5G on Surface for Business devices | Modules | 2026-07-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-5g/) |
 | Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-identity-lifecycle-workflows/) |
-| Architect AI solutions for business productivity | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-agentic-ai-business-solutions/) |
 | Analyze requirements for AI-powered business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-requirements-ai-powered-business-solutions/) |
+| Architect AI solutions for business productivity | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-agentic-ai-business-solutions/) |
 | Introduction to agentic AI business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-agentic-ai-business-solution-architecture/) |
 | Manage testing AI-powered business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-testing-ai-powered-business-solutions/) |
 | Evaluate costs and benefits of AI solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-costs-benefits-ai-powered-business-solution/) |
@@ -46,23 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Editor workflow foundations | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-editor-workflow-foundations/) |
 | Introduction to the editor role in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-introduction-editor-role/) |
 | Edit and finalize dictated reports in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-editor-edit-finalize-dictated-reports/) |
-| Build Study Guides in Copilot Notebooks | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-study-guides-copilot-notebooks/) |
-| Managing Azure NetApp Files | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-azure-netapp-files/) |
-| Manage SMB volumes in Azure NetApp Files | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-smb-volumes-azure-netapp-files/) |
-| Create and manage AutoText in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-create-manage-autotext/) |
-| Advanced AutoText for providers | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-advanced-autotext-for-providers/) |
-| AutoText efficiency tools in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-autotext-efficiency-tool/) |
-| Introduction to navigating the modern Contact Center | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-navigating-modern-contact-center/) |
-| Explore Dynamics 365 Contact Center | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-contact-center/) |
-| Describe work allocation capabilities | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-work-allocation-capabilities/) |
-| Describe Dynamics 365 Contact Center supervisor experience | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-contact-center-supervisor-experience/) |
-| Describe Dynamics 365 Contact Center representative experience | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-contact-center-representative-experience/) |
-| Describe warehouse management in Dynamics 365 Supply Chain Management | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-warehouse-management-dynamics-365/) |
-| Introduction to supply chain management in Dynamics 365 | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-supply-chain-management-dynamics-365/) |
-| Describe sales processes in Dynamics 365 Supply Chain Management | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sales-processes-dynamics-365-supply-chain-management/) |
-| Describe inventory management in Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-management-supply-chain-management/) |
-| Describe inventory costing and master planning in Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-costing-master-planning-dynamics-365-supply-chain-management/) |
-| Describe core capabilities of Dynamics 365 Supply Chain Management | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-core-capabilities-supply-chain-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-01.md](microsoft-learn-2026-07-part-01.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-03.md](microsoft-learn-2026-07-part-03.md)

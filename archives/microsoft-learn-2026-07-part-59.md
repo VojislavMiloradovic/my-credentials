@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 59 of 92
-date_range: 2026-01-18 to 2026-01-21
-total_entries: 56
+date_range: 2026-01-18 to 2026-01-22
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-59.md
 ---
 
@@ -12,13 +12,20 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Deploy the Microsoft Defender for Endpoint environment | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-defender-for-endpoints-environment/) |
+| Manage apps for Microsoft Teams | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-apps-for-microsoft-teams/) |
+| AZ-104: Configure and manage virtual networks for Azure administrators | Learningpaths | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-manage-virtual-networks/) |
+| Configure Azure Virtual Network peering | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-vnet-peering/) |
+| Extract data from forms with Azure Document intelligence | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/) |
+| Use prebuilt Document intelligence models | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-prebuilt-form-recognizer-models/) |
+| Configure Azure Storage security | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-storage-security/) |
 | Develop an Azure AI Voice Live agent | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-voice-live-agent/) |
 | Develop an audio-enabled generative AI application | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-audio-apps/) |
 | Analyze text with Azure Language | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/) |
 | Create question answering solutions with Azure Language | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/) |
 | Develop an AI agent with Microsoft Agent Framework | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-with-semantic-kernel/) |
-| Introduction to GitHub administration | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/) |
 | GitHub fundamentals - Administration basics and product features Part 1 of 2 | Learningpaths | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-administration-products/) |
+| Introduction to GitHub administration | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/) |
 | Configure Azure Blob Storage | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/) |
 | Custom named entity recognition | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-name-entity-recognition/) |
 | Translate text with Azure Translator service | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/) |
@@ -60,14 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design effective reports in Power BI | Learningpaths | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-bi-effective/) |
 | Perform analytics in Power BI | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/) |
 | Understand the Transformer architecture and explore large language models in Azure Machine Learning | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-foundation-models-in-model-catalog/) |
-| Work with generative artificial intelligence (AI) models in Azure Machine Learning | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-generative-models-azure-machine-learning/) |
-| Govern and protect sensitive information in the age of AI | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-govern-ai/) |
-| Manage compliance with Microsoft Purview for Microsoft 365 Copilot | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-data-compliance/) |
-| Explore PostgreSQL architecture | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-postgresql-architecture/) |
-| Create and manage Insider Risk Management policies | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-create-manage-insider-risk-policy/) |
-| Create dashboards in Power BI | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/) |
-| Manage and secure Power BI | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-secure-power-bi/) |
-| Choose a content distribution method | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-content-distribution-method/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-58.md](microsoft-learn-2026-07-part-58.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-60.md](microsoft-learn-2026-07-part-60.md)

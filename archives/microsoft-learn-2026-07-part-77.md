@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 77 of 92
 date_range: 2025-12-16 to 2025-12-18
-total_entries: 54
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-77.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Introduce coding in Minecraft Education | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduce-coding-minecraft-education-edition/) |
+| Take your first steps with Power Automate for desktop | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-first-steps/) |
+| Create accessible content | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-accessible-content/) |
+| A guide to artificial intelligence | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/a-guide-to-artificial-intelligence/) |
+| Create a SaaS offer for the commercial marketplace | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-saas-offer-commercial-marketplace/) |
+| Intro to Azure DNS Private Resolver | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-dns-private-resolver/) |
+| Introduction to Azure Database for MySQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-database-for-mysql/) |
+| Azure Database for MySQL | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-azure-database-for-mysql/) |
 | Develop on a remote machine using SSH in Visual Studio Code | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-on-remote-machine/) |
 | Get started with Dynamics 365 Intelligent Order Management | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-intelligent-order-management/) |
 | Implement inheritance and polymorphism | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-inheritance-polymorphism/) |
@@ -59,13 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Sort and filter results in T-SQL | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/sort-filter-queries/) |
 | Accessibility best practices for gaming hardware | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/hardware-devices/) |
 | Create a Holographic Remoting app to visualize 3D content on HoloLens 2 | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/pc-holographic-remoting-tutorials/) |
-| Protect your Azure Virtual Desktop deployment by using Azure Firewall | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-virtual-desktop-deployment-azure-firewall/) |
-| Change how documents look in Business Central | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/change-documents-dynamics-365-business-central/) |
-| Get tips and tricks for teaching PL-200: Microsoft Power Platform Functional Consultant | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teaching-microsoft-power-platform-functional-consultant/) |
-| Apply Viva Glint’s modern approach to engagement for better results | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-engagement/) |
-| Empower action for better results with Viva Glint | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-empower-action-better-results-viva-glint/) |
-| Edit code using any device with Visual Studio Code for the Web | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/edit-code-using-any-device/) |
-| AI in Microsoft Teams for Education (Partner Success Series) | Modules | 2025-12-16 | N/A |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-76.md](microsoft-learn-2026-07-part-76.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-78.md](microsoft-learn-2026-07-part-78.md)

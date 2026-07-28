@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 27 of 92
-date_range: 2026-04-11 to 2026-04-14
+date_range: 2026-04-11 to 2026-04-15
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-27.md
 ---
@@ -12,6 +12,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Implement Azure Monitoring for SAP workloads on Azure VMs | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-monitoring-sap-workloads-azure-virtual-machines/) |
+| Configure fixed asset depreciations in Dynamics 365 Business Central | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-fixed-asset-depreciations/) |
+| Sync and fulfill Shopify sales orders in Dynamics 365 Business Central | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-sales-orders-dynamics-365-business-central/) |
+| Use the Shopify connector in Dynamics 365 Business Central | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-shopify-connector-dynamics-365-business-central/) |
+| Set up a water sustainability solution by using Microsoft Sustainability Manager | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-water-solution/) |
+| Set up a water and waste sustainability solution using Microsoft Sustainability Manager | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-sustainability-water-waste-solution/) |
+| Troubleshoot name resolution issues in Microsoft Azure | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/name-resolution-issues/) |
+| Set up project posting groups in Dynamics 365 Business Central | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-job-posting-groups/) |
+| Set up projects and resources in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-jobs-resources/) |
+| Set up basic warehouse tasks in Dynamics 365 Business Central | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-basic-warehouse-tasks/) |
+| Visualize ontology data with Microsoft Fabric IQ (preview) | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/visualize-ontology-fabric-iq/) |
+| Microsoft tenant setup for Surface Portal access | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-portal-onboarding-guide/) |
 | Set up items for tracking in Dynamics 365 Business Central | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-tracking-items/) |
 | Set up time sheets in Dynamics 365 Business Central | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-timesheets/) |
 | Enable Windows Server Extended Security Updates by using Azure Arc | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-arc-esu-windows-server/) |
@@ -21,7 +33,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Examine and Configure Surface Security Options | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-configure-surface-security-options/) |
 | Microsoft security and management solutions in education | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-management-education/) |
 | Getting started with Surface Support Portal | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/getting-started-surface-support-portal/) |
-| AI‑enhanced K‑12 institutional concepts | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/k-12-ai-education/) |
+| AIâ€‘enhanced Kâ€‘12 institutional concepts | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/k-12-ai-education/) |
 | Create a new project in Dynamics 365 Business Central | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-new-job/) |
 | Set up main assets and asset components in Dynamics 365 Business Central | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-main-assets-components/) |
 | Get started with Connected Field Service for Dynamics 365 and Azure IoT | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-connected-field-service/) |
@@ -49,18 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Set up Dynamics 365 Customer Insights - Journeys and configure advanced settings | Learningpaths | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-marketing/) |
 | Build an end to end data governance and master data management stack with Microsoft Purview and CluedIn | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/building-end-to-end-data-governance-master-data-stack-with-microsoft-purview-cluedin/) |
 | Create cost accounting master data in Dynamics 365 Business Central | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/master-data-dynamics-365-business-central/) |
-| Simplify Microsoft Power Platform deployments by using pipelines | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/simplify-power-platform-deployments/) |
-| Set up pipeline environments in Microsoft Power Platform | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-pipeline-environments/) |
-| Create resources in Dynamics 365 Business Central | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-resources/) |
-| Extend Microsoft Viva Connections | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-extend-viva-connections/) |
-| Create Adaptive Card Extensions (ACE) for Microsoft Viva Connections | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-adaptive-card-extension-card-types/) |
-| Unlock customer intent with Dynamics 365 Customer Insights - Data | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-customer-insights/) |
-| Configure and administer Customer Insights - Data | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-customer-data-platform/) |
-| Enable SharePoint Framework web part configuration with property panes | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-web-part-property-pane/) |
-| Explore Microsoft Graph scenarios for JavaScript development | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-scenarios/) |
-| Show a user's emails in a JavaScript app with Microsoft Graph | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-show-user-emails/) |
-| Explore archiving and records management in Microsoft 365 | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-archiving-records-management/) |
-| Use warehouse management for manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacture-warehouse-mgmt-dyn365-supply-chain-mgmt/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-26.md](microsoft-learn-2026-07-part-26.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-28.md](microsoft-learn-2026-07-part-28.md)

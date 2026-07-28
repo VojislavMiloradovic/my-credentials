@@ -12,12 +12,19 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Forging Voices from Data - Custom AI Training with Azure OpenAI Studio | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/forging-voices-from-data/) |
+| The Architecture of Thought - Dialogue Systems with Azure OpenAI Studio | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/architecture-of-thought/) |
+| Discover AI for leaders in nonprofit | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-ai-leaders-nonprofit/) |
+| Define a Microsoft AI strategy to create business value in nonprofit | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-create-business-value-nonprofit/) |
+| Enhance your LinkedIn profile with Microsoft Copilot and ace your interview | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-linkedin-profile-with-copilot-ace-your-interview/) |
+| Build a model-driven app | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-model-driven-app/) |
 | Choose a custom AI agent development path | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-ai-agent-development-path/) |
+| Build a foundation to build AI agents and extend Microsoft 365 Copilot | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-foundation-extend-microsoft-365-copilot/) |
 | Introduction to Microsoft AI agent solutions | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-ai-agent-solutions/) |
 | Choose the best Microsoft 365 Copilot extensibility path for your scenario | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-microsoft-365-copilot-extensibility-path/) |
 | Introduction to developing AI agents | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-develop-ai-agents/) |
-| Azure Database for PostgreSQL Tutorials | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/playground-learning/) |
 | Combining data from multiple tables: SQL Joins Explained | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-join-tables/) |
+| Azure Database for PostgreSQL Tutorials | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/playground-learning/) |
 | Filtering data: The WHERE clause and subqueries | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-where-clause-subqueries/) |
 | Getting started: An introduction to SQL and reading data | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-simple-select/) |
 | Organizing data: Using LIMIT, OFFSET, and ORDER BY clauses | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-limit-offset-order-by/) |
@@ -39,8 +46,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build cybersecurity resilience in K-12 classrooms with Microsoft tools | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cybersecurity-resilience-k-12-classrooms-microsoft-tools/) |
 | Best practices for Azure migration and modernization | Learningpaths | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/best-practices-azure-migration/) |
 | Accelerate your migration, modernization, and innovation journey to Azure | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/accelerate-azure-migration-journey/) |
-| AZ-104: Monitor and back up Azure resources | Learningpaths | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-monitor-backup-resources/) |
 | Protect your virtual machines by using Azure Backup | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-virtual-machines-with-azure-backup/) |
+| AZ-104: Monitor and back up Azure resources | Learningpaths | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-monitor-backup-resources/) |
 | Introduction to Azure Backup | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-backup/) |
 | Get started with Power Automate | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-flows/) |
 | Introduction to Microsoft Intune | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-endpoint-manager/) |
@@ -57,13 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Code with GitHub Codespaces | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/) |
 | Introduction to GitHub Copilot Business | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot-for-business/) |
 | Introduction to security, compliance, and identity concepts | Learningpaths | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-concepts-of-security-compliance-identity/) |
-| Describe security and compliance concepts | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-security-concepts-methodologies/) |
-| Introduction to Microsoft Azure Data analytics in Azure | Learningpaths | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-data-warehouse-analytics/) |
-| Explore fundamentals of large-scale analytics | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/) |
-| Explore fundamentals of real-time analytics | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/) |
-| Manage your work with GitHub Projects | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/) |
-| AZ-305 Microsoft Azure Architect Design Prerequisites | Learningpaths | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-architect-design-prerequisites/) |
-| Introduction to the Microsoft Azure Well-Architected Framework | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-introduction/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-88.md](microsoft-learn-2026-07-part-88.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-90.md](microsoft-learn-2026-07-part-90.md)

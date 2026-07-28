@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 10 of 92
-date_range: 2026-06-09 to 2026-06-13
-total_entries: 53
+date_range: 2026-06-11 to 2026-06-16
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-10.md
 ---
 
@@ -12,6 +12,24 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Plan and implement entitlement management | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-entitlement-management/) |
+| Solution Architect series: Power Platform architecture | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-platform-architecture/) |
+| Introduction to Secure DevOps | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/) |
+| Create Azure Resources by using Azure Resource Manager templates | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/) |
+| Integrate with identity management systems | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/) |
+| Create Azure Resources Using Azure CLI | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/) |
+| Explore Power Automate architecture | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-automate-architecture/) |
+| Automate inspection of health | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/) |
+| Implement and monitor the integration of enterprise apps for SSO | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-monitor-integration-of-enterprise-apps-for-sso/) |
+| Propose a solution as a Solution Architect for Microsoft Power Platform and Dynamics 365 | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/propose-solution/) |
+| Architect solutions for Dynamics 365 and Microsoft Power Platform | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/become-solution-architect/) |
+| Introduction to Zero Trust and best practice frameworks | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-zero-trust-best-practice-frameworks/) |
+| Introduction to GitHub Packages | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/) |
+| Discover customer needs as a Solution Architect for Dynamics 365 and Microsoft Power Platform | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-customer-needs/) |
+| Work with requirements for Microsoft Power Platform and Dynamics 365 | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-requirements/) |
+| Design Dynamics 365 Solutions | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-dynamics-365-solutions/) |
+| Plan for Microsoft Teams Phone | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-teams-phone-system/) |
+| Design security solutions that align with the Cloud Adoption Framework (CAF) and Well-Architected Framework (WAF) | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-align-cloud-adoption-framework-well-architected-framework/) |
 | View, troubleshoot, and improve app performance for Power Apps canvas apps | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/improve-app-performance/) |
 | Complete testing and performance checks in a Power Apps canvas app | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/testing-performance-checks-powerapps/) |
 | Use advance techniques in canvas apps to perform custom updates and optimization | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-advance-techniques-canvas-apps-custom-updates-optimization/) |
@@ -46,25 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Secure AI identity infrastructure with Microsoft Entra | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/entra-ai-secure-workloads/) |
 | Plan, implement, and administer Conditional Access | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-administer-conditional-access/) |
 | Manage Azure Pipeline agents and pools | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/) |
-| AZ-305: Design data storage solutions | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-data-storage-solutions/) |
-| Design a data storage solution for non-relational data | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/) |
-| Implement initial configuration of Microsoft Entra ID | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-initial-configuration-of-azure-active-directory/) |
-| Design authentication and authorization solutions | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/) |
-| Design a solution for backup and disaster recovery | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/) |
-| AZ-305: Design business continuity solutions | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/) |
-| Use imperative development techniques for canvas apps in Power Apps | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-imperative-dev-techniques-powerapps-canvas-app/) |
-| Design data integration | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-integration/) |
-| Design network solutions | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-network-solutions/) |
-| Design an application architecture | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-application-architecture/) |
-| Introduction to GitHub Actions | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/) |
-| Explore Azure Pipelines | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/) |
-| Plan to foster inner source | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/) |
-| AZ-400: Development for Enterprise DevOps | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-work-git-for-enterprise-devops/) |
-| Explore Git hooks | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/) |
-| Design a data storage solution for relational data | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/) |
-| Power Platform Robotic Process Automation overview | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-platform-robotic-process-automation-overview/) |
-| Introduction to Microsoft Power Platform developer resources | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-developer-resources/) |
-| Manage and configure repositories | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-09.md](microsoft-learn-2026-07-part-09.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-11.md](microsoft-learn-2026-07-part-11.md)

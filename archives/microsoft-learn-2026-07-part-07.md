@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 7 of 92
-date_range: 2026-06-24 to 2026-06-27
-total_entries: 52
+date_range: 2026-06-26 to 2026-06-29
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-07.md
 ---
 
@@ -12,6 +12,25 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Work with asynchronous integrations in finance and operations apps | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-integrations-finance-operations/) |
+| Explore Azure for SAP workloads | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-sap-workloads/) |
+| Code scanning with GitHub CodeQL | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-scanning-with-github-codeql/) |
+| GitHub Advanced Security Part 2 of 2 | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-advanced-security-2/) |
+| Explore the foundations of IaaS for SAP on Azure | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-foundations-of-iaas/) |
+| Explore Azure for SAP storage | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-storage/) |
+| Work with extensions for finance and operations apps and Microsoft Power Platform | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/extensions-finance-operations-power-platform/) |
+| Implement the Data management package API for finance and operations apps | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-package-api-finance-operations/) |
+| Integrate finance and operations apps with Microsoft Azure | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-azure-finance-operations/) |
+| Identify SAP-certified configurations | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-sap-certified-configurations/) |
+| Implement error handling with Transact-SQL | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-error-handling-transact-sql/) |
+| Implement common integration features in finance and operations apps | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-common-integration-features-finance-ops/) |
+| Configure your organization in finance and operations apps | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-your-organization-finance-ops/) |
+| Explore Azure for SAP networking | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-networking/) |
+| Extend Power Pages websites | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-extend/) |
+| Extend Power Pages | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-power-pages/) |
+| Use Success by Design for Dynamics 365 solutions | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-success-design/) |
+| Cutover strategy for Dynamics 365 solutions | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/cutover-strategy-dynamics-365/) |
+| Prepare to teach AZ-500 Microsoft Azure Security Technologies | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-500-microsoft-azure-security-technologies/) |
 | Get tips and tricks for teaching AZ-500 Microsoft Azure Security Technologies | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-az-500-microsoft-azure-security-technologies/) |
 | Integration design for Dynamics 365 solutions | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/integration/) |
 | Get tips and tricks for teaching AZ-104 Microsoft Azure Administrator | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-az-104-microsoft-azure-administrator/) |
@@ -23,8 +42,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement finance and operations apps | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-finance-operations/) |
 | Use Lifecycle Services to design and plan an implementation of finance and operations apps | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-lcs-design-plan-implementation-finance-operations/) |
 | Design and plan an implementation of finance and operations apps | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-plan-implementation-finance-operations/) |
-| Design and Implement Platform Engineering | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/designing-implementing-platform-engineering/) |
 | Implement Developer Self-Service | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-developer-self-service/) |
+| Design and Implement Platform Engineering | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/designing-implementing-platform-engineering/) |
 | Specify requirements for securing SaaS, PaaS, and IaaS services | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/specify-requirements-securing-saas-paas-iaas-services/) |
 | Create stored procedures and user-defined functions | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-stored-procedures-table-valued-functions/) |
 | Implement a performance strategy for Dynamics 365 solutions | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/solution-performance/) |
@@ -46,24 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement Tools to Track Usage and Flow | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/) |
 | AZ-400: Implement continuous feedback | Learningpaths | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-continuous-feedback/) |
 | Build expertise with Power Automate desktop app | Learningpaths | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-build-expertise/) |
-| Active Directory handling in Power Automate for desktop | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-active-directory/) |
-| Design solutions for securing an organization's data | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-organization-data/) |
-| Design solutions for securing applications | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-applications/) |
-| Review the security model for your Dynamics 365 solutions | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/fast-track-security/) |
-| Learn best practices from Microsoft Technical Trainers | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-best-practices-from-microsoft-technical-trainers-for-az-104/) |
-| Extend Teams Phone with additional services | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-teams-phone-system-additional-services/) |
-| MS-721 Plan and design Teams collaboration communications systems | Learningpaths | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-configure-teams-voice/) |
-| Design solutions for securing server and client endpoints | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-securing-server-client-endpoints/) |
-| Access Dataverse in Power Pages websites | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-dataverse/) |
-| Foundations of Platform Engineering | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/foundations-platform-engineering/) |
-| Configure and deploy Teams Phone with Direct Routing | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-deploy-direct-routing/) |
-| Plan and optimize network performance for Teams media | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-optimize-network-performance-for-teams-phone-system/) |
-| Design solutions for regulatory compliance | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-regulatory-compliance/) |
-| Design solutions for network security | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-network-security/) |
-| Design solutions for security posture management in hybrid and multicloud environments | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-security-posture-management-hybrid-multicloud-environments/) |
-| Evaluate solutions for securing Microsoft 365 | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-microsoft-365/) |
-| Solution architect series: Model security for Power Platform solutions | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/model-security/) |
-| Solution Architect: Design Microsoft Power Platform solutions | Learningpaths | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/solution-architect-data/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-06.md](microsoft-learn-2026-07-part-06.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-08.md](microsoft-learn-2026-07-part-08.md)

@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 68 of 92
 date_range: 2025-12-29 to 2025-12-30
-total_entries: 54
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-68.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Manage storage on Windows clients | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-storage-windows-clients/) |
+| Maintain disks and volumes | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-disks-volumes/) |
+| Increase educator adoption of search tools | Modules | 2025-12-30 | N/A |
+| Challenge project - Build a minigame with GitHub Copilot and Python | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/) |
+| Extract invoice data with AI Builderâ€™s prebuilt model | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-invoice-processing/) |
+| User interface essentials in Dynamics 365 Business Central | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/user-interface-dynamics-365-business-central/) |
+| Work with the Microsoft Dynamics 365 Business Central user interface | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-user-interface-dynamics-365-business-central/) |
+| Teach cybersecurity concepts with Minecraft Education | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-cybersecurity-concepts-minecraft-education/) |
+| Guide to Secure .NET Development with OWASP Top 10 | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/owasp-top-10-for-dotnet-developers/) |
 | Design a data ingestion strategy for machine learning projects | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-ingestion-strategy-for-machine-learning-projects/) |
 | Design a machine learning solution | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-machine-learning-solution/) |
 | Upload, download, and manage data with Azure Storage Explorer | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/upload-download-and-manage-data-with-azure-storage-explorer/) |
@@ -38,8 +47,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Deploy a Java web app to a Tomcat server on Azure App Service | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-java-webapp-to-app-service-linux/) |
 | Develop confident presenters with Speaker Progress | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-confident-presenters-speaker-progress/) |
 | Get started with Asset Management for Dynamics 365 Supply Chain Management | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-asset-management/) |
-| Create cloud native apps with Azure and open-source software | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-cloud-native-apps-with-azure-open-source/) |
 | Orchestrate containers for cloud-native apps with AKS | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-native-apps-orchestrate-containers/) |
+| Create cloud native apps with Azure and open-source software | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-cloud-native-apps-with-azure-open-source/) |
 | Introduction to cloud-native apps on Azure | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-cloud-native-apps/) |
 | MD-100 Configure data access and usage | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-data-access-usage/) |
 | Configure and manage file access | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-file-access/) |
@@ -58,14 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Explore device encryption features | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-device-encryption-features/) |
 | Explore malware and threat protection | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-malware-threat-protection/) |
 | Explore Microsoft Defender | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-defender/) |
-| Implement compliance in a cloud-native .NET 8 application | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-compliance-cloud-native-applications/) |
-| Implement observability in a cloud-native .NET 8 application with OpenTelemetry | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-observability-cloud-native-app-with-opentelemetry/) |
-| Implement resiliency in a cloud-native .NET microservice | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microservices-resiliency-aspnet-core/) |
-| Deploy a .NET microservice to Kubernetes | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-deploy-microservices-kubernetes/) |
-| Build your first microservice with .NET | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-microservices/) |
-| Access user photo information by using Microsoft Graph | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-user-photo-information/) |
-| Build your first action for declarative agents with API plugin by using Visual Studio Code | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-action-api-plugin-vsc/) |
-| Explore and modify information in Business Central | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-modify-info-dynamics-365-business-central/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-67.md](microsoft-learn-2026-07-part-67.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-69.md](microsoft-learn-2026-07-part-69.md)
