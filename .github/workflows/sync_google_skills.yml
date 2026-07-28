@@ -23,6 +23,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install requests beautifulsoup4
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run Scraper
         run: python update_google_skills.py
