@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 3 of 10
-date_range: 2026-06-21 to 2026-07-02
+date_range: 2026-06-22 to 2026-07-02
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-03.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-02 | **Configure Database Integration for Okta Privileged Access** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/eb355e8c-609f-45e9-94dd-f86b7788027e) |
 | 2026-07-02 | **Manage Change and Scale Adoption** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/06895ebe-457b-40c8-8c8d-336b96da8ac4) |
 | 2026-07-02 | **Process Automation Concepts** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/da7e7652-ed54-4938-b484-e509978ae444) |
 | 2026-07-02 | **Process Mining Audit Professional** | issued by Celonis | `Credly Verified` | [Verify](https://www.credly.com/badges/f2f7155c-98d7-40ee-8c4d-6a6fd43667ab) |
@@ -62,7 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-22 | **LFEL1004: Authentication & Authorization for Web/API** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/697a5045-42c3-4df6-be0a-660972953e02) |
 | 2026-06-22 | **LFS184: Introduction to JavaScript Security** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/adbfc39b-1a5a-4225-80bc-0ee44b06bcd5) |
 | 2026-06-22 | **Use APIs to Work with Cloud Storage Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/3a261bec-3e3f-41ca-b362-3eaf9f06bd90) |
-| 2026-06-21 | **The Basics of Google Cloud Compute Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/1add8a23-2f6c-4308-bcd7-39c83fcc42f6) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md)

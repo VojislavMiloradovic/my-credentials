@@ -16,6 +16,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-27 | **Beyond Atomic Testing with Attack Flows** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/bb201075-aef3-4e05-b357-f024ab834146) |
 | 2026-07-27 | **Building GenAI Applications with MongoDB** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/4bd6f004-be81-4cc2-bc6a-8c12d1a51a4c) |
 | 2026-07-27 | **Cloud Sales Pro - Security Posture Management** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/b785897b-343d-4e17-b23b-2435c7fec78d) |
+| 2026-07-27 | **Develop AI-Powered Prototypes in Google AI Studio** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/7b6fb557-985b-4680-85ca-5d9a3fd287d0) |
 | 2026-07-27 | **Monitoring MongoDB with Built-in Tools** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/adc19ddf-d4cd-43e0-ba42-9321bcf43590) |
 | 2026-07-27 | **MSP Academy: Automation** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/d16d9c70-9200-49b5-8a1f-706919b48e24) |
 | 2026-07-27 | **Optimizing MongoDB Performance with Tuning Tools** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/82776add-b997-4015-8224-59cadac439e9) |
@@ -62,7 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-15 | **Cloud Tech Professional Disaster Recovery** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/b1960c54-6ac1-4206-8631-f489b925b6eb) |
 | 2026-07-15 | **Strategic Cybersecurity Management** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/e0cfb483-3bab-4f21-b48e-896e6e02a2de) |
 | 2026-07-14 | **Acronis Cyber Protect – Endpoint Management Basics** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/e9ff04b3-1b9b-40be-a241-a663e3a6a251) |
-| 2026-07-14 | **AWS Knowledge: AI Basics - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/fbb02508-656a-4241-b49c-182dcd8f43ee) |
 
 ---
 > **Navigation:** Prev: None | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md)

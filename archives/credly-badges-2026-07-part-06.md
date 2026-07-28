@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-01 | **Product Analytics Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/383af23e-ddf1-4106-9b5d-3fde0bacdf16) |
 | 2026-06-01 | **Product Discovery Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/7f76121b-ff69-474a-a1ad-09e88993b145) |
 | 2026-06-01 | **Product-led Certification** | issued by Pendo | `Credly Verified` | [Verify](https://www.credly.com/badges/4813afed-be74-43f4-a69e-9a6482970fa2) |
 | 2026-06-01 | **Session and Token Management Best Practices** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/1b01f351-59a3-42a9-a39e-2c5e22b1ef8c) |
@@ -64,7 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-20 | **NASA Open Science 101** | issued by NASA Open Science | `Credly Verified` | [Verify](https://www.credly.com/badges/b367bbf7-307f-40f3-82ac-975d987f525f) |
 | 2026-05-19 | **Agentic AI - How to with SAS Viya** | issued by SAS | `Credly Verified` | [Verify](https://www.credly.com/badges/5fe72598-ffcd-4c5c-8b30-319831d7d2bd) |
 | 2026-05-19 | **Discovering the Basics of SAP S/4HANA Portfolio and Project Management - Record of Achievement** | issued by SAP | `Credly Verified` | [Verify](https://www.credly.com/badges/d3c10832-4cf4-4d04-939b-bbcc1dcc9f1e) |
-| 2026-05-19 | **GenAI - Client to Cloud Fundamentals** | issued by Intel | `Credly Verified` | [Verify](https://www.credly.com/badges/bbd4f4ac-6aba-480f-b77c-9b8f79b65bdd) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md)

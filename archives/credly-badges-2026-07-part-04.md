@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 4 of 10
-date_range: 2026-06-09 to 2026-06-20
+date_range: 2026-06-09 to 2026-06-21
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-04.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-06-21 | **The Basics of Google Cloud Compute Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/1add8a23-2f6c-4308-bcd7-39c83fcc42f6) |
 | 2026-06-20 | **AWS Knowledge: Amazon ECS - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/6b61161d-dd36-4991-b23a-8ec2b7c96368) |
 | 2026-06-20 | **Brand Your Okta Customer Identity Experience** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/ef277f59-d9a8-464c-88be-5e92dcb590a2) |
 | 2026-06-20 | **Implement B2C Self-Service Registration with Okta** | issued by Okta | `Credly Verified` | [Verify](https://www.credly.com/badges/50cbbb61-b545-4f07-b122-39494ae2b6f6) |
@@ -60,7 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-09 | **LFC193: Introduction to Open Source Licensing Compliance Management** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/ee58bb5f-4568-48b1-a075-98982a829a7a) |
 | 2026-06-09 | **LFD103: A Beginner's Guide to Linux Kernel Development** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/014a781e-7a70-47a0-b79d-c6080bbef63d) |
 | 2026-06-09 | **LFD121: Developing Secure Software** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/21cf0189-83ae-4159-abd9-f2eecf3bd6a9) |
-| 2026-06-09 | **LFD125: Security for Software Development Managers** | issued by The Linux Foundation | `Credly Verified` | [Verify](https://www.credly.com/badges/c0a1f565-7255-4a8b-8a99-c447b22e0023) |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md)
