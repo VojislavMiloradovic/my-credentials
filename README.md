@@ -47,10 +47,10 @@ Showing latest 10 of 4,771 achievements. View the full dataset via the [Platform
 
 <!-- GOOGLE_SKILLS_START -->
 
-### Google Cloud Skills Boost (336 Badges)
+### Google Cloud Skills Boost (338 Badges)
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
-**Total Lifetime Points:** 197,789
+**Total Lifetime Points:** 197,807
 
 #### Platform Progress Summary
 | Metric | Count |
@@ -65,6 +65,8 @@ Showing latest 10 of 4,771 achievements. View the full dataset via the [Platform
 #### Latest Earned Badges
 | Date Earned | Badge Title |
 |:---:|---|
+| *2026-07-29* | **Analyze Images with the Cloud Vision API** |
+| *2026-07-29* | **Build Event-Driven Applications with Eventarc** |
 | *2026-07-26* | **Get Started with Sensitive Data Protection** |
 | *2026-07-26* | **Gemini in Google Chat** |
 | *2026-07-26* | **Scaling Data Science with Agents** |
@@ -73,8 +75,6 @@ Showing latest 10 of 4,771 achievements. View the full dataset via the [Platform
 | *2026-07-23* | **Orchestrate Workflows with the Data Agent Kit** |
 | *2026-07-23* | **Arcade Adventure: Low-Code Development** |
 | *2026-07-21* | **Build Serverless Applications with Cloud Run Functions** |
-| *2026-07-19* | **Secure Software Delivery** |
-| *2026-07-19* | **Arcade Base Camp July 2026** |
 
 👉 [View Platform Index](./archives/google-cloud-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-01.md) | [Complete Monolith](./archives/google-cloud-skills-complete.md))
 

@@ -1,6 +1,6 @@
 {
   "profile_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_points": "197,789",
+  "total_points": "197,807",
   "internal_stats": {
     "Course": 346,
     "Check": 1832,
@@ -9,8 +9,20 @@
     "Lab": 238,
     "Lesson": 4847
   },
-  "total_badges": 336,
+  "total_badges": 338,
   "badges": [
+    {
+      "title": "Analyze Images with the Cloud Vision API",
+      "date_earned": "2026-07-29",
+      "image_url": "https://cdn.qwiklabs.com/Vs%2FtJZhYzE6dd3YNzb6wUuDBOe2n1LLSlR%2FKyP9U4RA%3D",
+      "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26066863"
+    },
+    {
+      "title": "Build Event-Driven Applications with Eventarc",
+      "date_earned": "2026-07-29",
+      "image_url": "https://cdn.qwiklabs.com/DyDpXxEyGg%2BAfTsXk1gjJ5gOHd74IicKsGE1fgQBuG8%3D",
+      "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26065872"
+    },
     {
       "title": "Get Started with Sensitive Data Protection",
       "date_earned": "2026-07-26",
