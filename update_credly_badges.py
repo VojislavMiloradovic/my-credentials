@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 update_credly_badges.py
 -----------------------
