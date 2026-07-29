@@ -49,7 +49,7 @@ HEADERS = {
 
 
 def normalize_date(raw_date: Any) -> str | None:
-    """Extracts YYYY-MM-DD from ISO strings, UNIX timestamps, or numeric strings."""
+    """Extracts YYYY-MM-DD from ISO strings, UNIX timestamps, or formatted date strings."""
     if raw_date is None or raw_date == "" or raw_date == "N/A" or raw_date == "None":
         return None
 
@@ -77,10 +77,24 @@ def normalize_date(raw_date: Any) -> str | None:
         except (ValueError, OSError, OverflowError):
             return None
 
-    # Handle ISO strings e.g. "2025-11-20T14:30:00Z"
+    # Handle standard ISO string splits e.g. "2026-03-25T14:30:00Z"
     parts = s_date.split("T")[0].split(" ")[0]
     if len(parts) == 10 and parts[4] == "-" and parts[7] == "-":
         return parts
+
+    # Parse common human-readable date strings (e.g., "Feb 7, 2026", "March 15, 2026")
+    for fmt in (
+        "%b %d, %Y",
+        "%B %d, %Y",
+        "%d %b %Y",
+        "%d %B %Y",
+        "%Y-%m-%d",
+    ):
+        try:
+            dt = datetime.strptime(s_date, fmt)
+            return dt.strftime("%Y-%m-%d")
+        except ValueError:
+            pass
 
     try:
         dt = datetime.fromisoformat(s_date.replace("Z", "+00:00"))
@@ -92,91 +106,109 @@ def normalize_date(raw_date: Any) -> str | None:
 
 
 def extract_title(item: dict[str, Any]) -> str:
-    """Deeply extracts title across native and external open badge payloads."""
-    # Direct item keys
-    for k in ("title", "name", "badge_name", "badge_template_name"):
-        val = item.get(k)
-        if isinstance(val, str) and val.strip() and val.strip() != "External Badge":
-            return val.strip()
+    """Deeply extracts title across native and Open Badges v2 payload structures."""
+    GENERIC_TITLES = {"external badge", "external credential", "badge", "credential"}
+    candidates = []
 
-    # Nested badge object
+    # 1. Check Open Badges v2 badge_class object
+    bc = item.get("badge_class")
+    if isinstance(bc, dict):
+        candidates.extend([bc.get("name"), bc.get("title")])
+
+    # 2. Check direct item keys
+    for k in ("title", "name", "badge_name", "badge_template_name"):
+        candidates.append(item.get(k))
+
+    # 3. Check badge object
     badge = item.get("badge")
     if isinstance(badge, dict):
-        for k in ("name", "title"):
-            val = badge.get(k)
-            if isinstance(val, str) and val.strip():
-                return val.strip()
+        candidates.extend([badge.get("name"), badge.get("title")])
+        badge_bc = badge.get("badge_class")
+        if isinstance(badge_bc, dict):
+            candidates.extend([badge_bc.get("name"), badge_bc.get("title")])
 
-    # Nested badge_template object
+    # 4. Check badge_template object
     bt = item.get("badge_template")
     if isinstance(bt, dict):
-        for k in ("name", "title"):
-            val = bt.get(k)
-            if isinstance(val, str) and val.strip():
-                return val.strip()
+        candidates.extend([bt.get("name"), bt.get("title")])
 
-    # Nested assertion object
+    # 5. Check assertion object
     assertion = item.get("assertion")
     if isinstance(assertion, dict):
-        b = assertion.get("badge")
-        if isinstance(b, dict):
-            val = b.get("name") or b.get("title")
-            if isinstance(val, str) and val.strip():
-                return val.strip()
-        val = assertion.get("name") or assertion.get("title")
-        if isinstance(val, str) and val.strip():
-            return val.strip()
+        candidates.extend([assertion.get("name"), assertion.get("title")])
+        a_badge = assertion.get("badge")
+        if isinstance(a_badge, dict):
+            candidates.extend([a_badge.get("name"), a_badge.get("title")])
+            a_bc = a_badge.get("badge_class")
+            if isinstance(a_bc, dict):
+                candidates.extend([a_bc.get("name"), a_bc.get("title")])
 
-    return item.get("title") or item.get("name") or "External Credential"
+    for cand in candidates:
+        if isinstance(cand, str) and cand.strip():
+            clean = cand.strip()
+            if clean.lower() not in GENERIC_TITLES:
+                return clean
+
+    return "External Credential"
 
 
 def extract_issuer(item: dict[str, Any]) -> str:
     """Deeply extracts issuer name across native and external open badge payloads."""
-    # Direct keys
+    GENERIC_ISSUERS = {"external issuer", "credly issuer", "credly", "issuer"}
+    candidates = []
+
+    # 1. Check badge_class issuer
+    bc = item.get("badge_class")
+    if isinstance(bc, dict):
+        bc_issuer = bc.get("issuer")
+        if isinstance(bc_issuer, dict):
+            candidates.extend([bc_issuer.get("name"), bc_issuer.get("title")])
+        elif isinstance(bc_issuer, str):
+            candidates.append(bc_issuer)
+
+    # 2. Direct keys
     for k in ("issuer_name", "issuer_organization_name"):
-        val = item.get(k)
-        if isinstance(val, str) and val.strip() and val.strip() != "External Issuer":
-            return val.strip()
+        candidates.append(item.get(k))
 
-    if isinstance(item.get("issuer"), str) and item["issuer"].strip():
-        return item["issuer"].strip()
-
-    # Direct issuer dict
-    issuer = item.get("issuer")
-    if isinstance(issuer, dict):
-        val = issuer.get("name")
-        if isinstance(val, str) and val.strip():
-            return val.strip()
-        entities = issuer.get("entities", [])
+    raw_issuer = item.get("issuer")
+    if isinstance(raw_issuer, str):
+        candidates.append(raw_issuer)
+    elif isinstance(raw_issuer, dict):
+        candidates.append(raw_issuer.get("name"))
+        entities = raw_issuer.get("entities", [])
         if isinstance(entities, list) and entities and isinstance(entities[0], dict):
             ent = entities[0].get("entity")
-            if isinstance(ent, dict) and ent.get("name"):
-                return str(ent.get("name")).strip()
+            if isinstance(ent, dict):
+                candidates.append(ent.get("name"))
 
-    # Nested in badge or badge_template
+    # 3. Check badge / badge_template
     for parent_key in ("badge", "badge_template"):
         parent = item.get(parent_key)
         if isinstance(parent, dict):
             p_issuer = parent.get("issuer")
-            if isinstance(p_issuer, str) and p_issuer.strip():
-                return p_issuer.strip()
-            if isinstance(p_issuer, dict):
-                val = p_issuer.get("name")
-                if isinstance(val, str) and val.strip():
-                    return val.strip()
+            if isinstance(p_issuer, str):
+                candidates.append(p_issuer)
+            elif isinstance(p_issuer, dict):
+                candidates.append(p_issuer.get("name"))
 
-    # Nested in assertion
+    # 4. Check assertion
     assertion = item.get("assertion")
     if isinstance(assertion, dict):
-        b = assertion.get("badge")
-        if isinstance(b, dict):
-            iss = b.get("issuer")
-            if isinstance(iss, dict) and iss.get("name"):
-                return str(iss.get("name")).strip()
-            if isinstance(iss, str) and iss.strip():
-                return iss.strip()
+        a_badge = assertion.get("badge")
+        if isinstance(a_badge, dict):
+            iss = a_badge.get("issuer")
+            if isinstance(iss, dict):
+                candidates.append(iss.get("name"))
+            elif isinstance(iss, str):
+                candidates.append(iss)
 
-    return "Credly Issuer"
+    for cand in candidates:
+        if isinstance(cand, str) and cand.strip():
+            clean = cand.strip()
+            if clean.lower() not in GENERIC_ISSUERS:
+                return clean
+
+    return "External Issuer"
 
 
 def extract_date(item: dict[str, Any]) -> str:
@@ -192,10 +224,19 @@ def extract_date(item: dict[str, Any]) -> str:
         item.get("updated_at"),
     ]
 
+    bc = item.get("badge_class")
+    if isinstance(bc, dict):
+        candidates.extend([
+            bc.get("issued_at"),
+            bc.get("issued_on"),
+            bc.get("issuedOn"),
+        ])
+
     assertion = item.get("assertion")
     if isinstance(assertion, dict):
         candidates.extend([
             assertion.get("issuedOn"),
+            assertion.get("issued_on"),
             assertion.get("issued_at"),
             assertion.get("issued_at_date"),
         ])
@@ -206,6 +247,7 @@ def extract_date(item: dict[str, Any]) -> str:
             badge.get("issued_at"),
             badge.get("issued_at_date"),
             badge.get("issuedOn"),
+            badge.get("issued_on"),
         ])
 
     for c in candidates:
@@ -267,6 +309,7 @@ def extract_skills(item: dict[str, Any]) -> list[str]:
     raw_skills = (
         item.get("skills")
         or (item.get("badge_template", {}).get("skills") if isinstance(item.get("badge_template"), dict) else None)
+        or (item.get("badge_class", {}).get("skills") if isinstance(item.get("badge_class"), dict) else None)
         or (item.get("badge", {}).get("skills") if isinstance(item.get("badge"), dict) else None)
     )
 
