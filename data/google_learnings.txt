@@ -876,7 +876,7 @@ Build and publish your first Android app with AI Studio
 Deploying and Running n8n on Google Cloud Run
 23. мај 2026.
 
-Supercharge Code Quality and Security: AI-Assisted Checks with Antigravity CLI and SDK
+Supercharge Code Quality: AI-Assisted Code Review with Antigravity CLI and SDK
 21. јул 2026.
 
 Cloud Spanner: Create a gaming leaderboard with C#
@@ -1385,6 +1385,9 @@ Use Procurement Document AI to Parse your Invoices using AI Platform Notebooks
 
 Introduction to testing with Gemini Code Assist
 26. мај 2026.
+
+Optimizing Unity Games for Large Screens and Foldables
+29. јул 2026.
 
 Vertex AI Pipelines PSC Interface SWP
 7. јун 2026.
@@ -3302,6 +3305,9 @@ Serverless Data Transformation with Apache Spark in BigQuery Studio Notebooks
 
 Specialized Processors with Document AI (Python)
 9. јун 2026.
+
+OSS Kubernetes on GCE with TPUs, DRA (OSS) and Gemma 4
+29. јул 2026.
 
 The Private Vault: Building "Zero Trust Intelligence" with AlloyDB Row-Level Security
 23. мај 2026.
