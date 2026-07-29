@@ -6,10 +6,10 @@ saves output to credly_badges.json, generates platform archives,
 and updates README.md via archiver helper.
 """
 
-from datetime import datetime, timezone
 import json
 import logging
 import os
+from datetime import datetime, timezone
 from typing import Any
 
 import requests
