@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 6 of 9
-date_range: 2026-05-19 to 2026-06-02
-total_entries: 57
+date_range: 2026-05-15 to 2026-05-25
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-06.md
 ---
 
@@ -12,26 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-06-02 | [Post-Deployment Steps for SAS Viya](https://www.credly.com/badges/bbb58e7e-7844-4128-99e3-1dbf678dcccc/public_url) | SAS | Credly Verified |
-| 2026-06-01 | [Product Analytics Certification](https://www.credly.com/badges/383af23e-ddf1-4106-9b5d-3fde0bacdf16/public_url) | Pendo | Credly Verified |
-| 2026-06-01 | [Product Discovery Certification](https://www.credly.com/badges/7f76121b-ff69-474a-a1ad-09e88993b145/public_url) | Pendo | Credly Verified |
-| 2026-06-01 | [Product-led Certification](https://www.credly.com/badges/4813afed-be74-43f4-a69e-9a6482970fa2/public_url) | Pendo | Credly Verified |
-| 2026-06-01 | [Session and Token Management Best Practices](https://www.credly.com/badges/1b01f351-59a3-42a9-a39e-2c5e22b1ef8c/public_url) | Okta | Credly Verified |
-| 2026-05-31 | [Explore / analytics](https://www.credly.com/badges/bad7e351-594a-4376-9e73-28c1ad57817b/public_url) | Zendesk | Credly Verified |
-| 2026-05-31 | [Messaging](https://www.credly.com/badges/a65a8496-8f64-4d2c-b4c7-4a3d9b161301/public_url) | Zendesk | Credly Verified |
-| 2026-05-31 | [Talk / voice](https://www.credly.com/badges/82c8ca9b-bbde-4b58-b8dc-57dc834fada4/public_url) | Zendesk | Credly Verified |
-| 2026-05-31 | [Zendesk Knowledge](https://www.credly.com/badges/80fd12ea-5a76-4bf2-aab2-4c5ea7531b3a/public_url) | Zendesk | Credly Verified |
-| 2026-05-30 | [Foundations of Insurance and the IFRS 17 Standard Knowledge Badge](https://www.credly.com/badges/0b8945bd-0f24-49bf-b36a-8b9c790b9002/public_url) | SAS | Credly Verified |
-| 2026-05-27 | [Architecture and Administration for SAS Workload Management on SAS Viya](https://www.credly.com/badges/8ab110d2-4f48-4270-a365-2d39a121015c/public_url) | SAS | Credly Verified |
-| 2026-05-27 | [Deploying SAS Event Stream Processing on SAS Viya](https://www.credly.com/badges/23f9cee5-1e7b-4c04-9819-ca58eaa54c81/public_url) | SAS | Credly Verified |
-| 2026-05-27 | [Deploying SAS Grid Manager for Platform](https://www.credly.com/badges/b96c02e5-ee74-4756-a24d-5109b66c2d93/public_url) | SAS | Credly Verified |
-| 2026-05-26 | [Manage Data Models in Looker Skill Badge](https://www.credly.com/badges/eb5fb255-8dfa-4798-9894-3d7342f2c28a/public_url) | Google Cloud | Credly Verified |
-| 2026-05-25 | [AWS Cloud Quest: Cloud Practitioner - Training Badge](https://www.credly.com/badges/732fc941-03ee-436a-adf5-5ccd23c8c309/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-05-25 | [Basics in Lucidchart](https://www.credly.com/badges/51e91ad5-5d40-4d85-8cde-7828857f37b5/public_url) | Lucid Software | Credly Verified |
-| 2026-05-25 | [Engaging Stakeholders for Success](https://www.credly.com/badges/0fcc81f0-1d05-4360-b9d0-8fc80be31895/public_url) | Cisco | Credly Verified |
-| 2026-05-25 | [Lucidchart Fundamentals](https://www.credly.com/badges/964323c2-0693-4faf-a973-7324c4736657/public_url) | Lucid Software | Credly Verified |
-| 2026-05-25 | [Org charts in Lucidchart](https://www.credly.com/badges/1884360b-cb1c-4b7a-a83f-e084d0994093/public_url) | Lucid Software | Credly Verified |
-| 2026-05-25 | [Process diagrams in Lucidchart](https://www.credly.com/badges/c082e966-a48a-41cc-8cf0-80ef478133db/public_url) | Lucid Software | Credly Verified |
 | 2026-05-25 | [Product Management Basics Certification](https://www.credly.com/badges/9ed3741c-eb44-4f66-854b-7808ab8091a9/public_url) | Pendo | Credly Verified |
 | 2026-05-25 | [Technical systems in Lucidchart](https://www.credly.com/badges/c2e33131-b3af-496b-97bb-9e34f365fa0e/public_url) | Lucid Software | Credly Verified |
 | 2026-05-24 | [Analyze BigQuery Data in Connected Sheets Skill Badge](https://www.credly.com/badges/57dcab2e-a6d0-4084-b2c0-fb0d9d5874e2/public_url) | Google Cloud | Credly Verified |
@@ -69,6 +49,25 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-19 | [GenAI - Client to Cloud Fundamentals](https://www.credly.com/badges/bbd4f4ac-6aba-480f-b77c-9b8f79b65bdd/public_url) | Intel | Credly Verified |
 | 2026-05-19 | [Getting Started with SAS and Kubernetes](https://www.credly.com/badges/1a509b1d-9a06-410c-8916-eac5b639fe28/public_url) | SAS | Credly Verified |
 | 2026-05-19 | [Introduction to Authentication Protocols](https://www.credly.com/badges/843836d7-d464-422e-bb40-5d76c77c3bde/public_url) | SAS | Credly Verified |
+| 2026-05-19 | [Introduction to Web Design](https://www.credly.com/badges/3fc971ca-8531-4e28-b6f8-6eecdf8354b3/public_url) | SAS | Credly Verified |
+| 2026-05-19 | [Mastering AML Compliance: Safeguarding the Financial Sector](https://www.credly.com/badges/dc24612b-9d31-4ece-b66a-7198e4b05f76/public_url) | SAS | Credly Verified |
+| 2026-05-19 | [Mastering Financial Fraud Prevention: Safeguarding Assets & Integrity](https://www.credly.com/badges/24877ce6-89fc-430e-b0bd-cc255519b9b3/public_url) | SAS | Credly Verified |
+| 2026-05-19 | [Modern Data Science with SAS Viya Workbench: Unified Development with SAS, Python, and R](https://www.credly.com/badges/a0be387e-762c-4126-96bb-f1e42b60e922/public_url) | SAS | Credly Verified |
+| 2026-05-19 | [SAS 9 Administration: Getting Started](https://www.credly.com/badges/db55699d-258e-4a61-870c-0d66d5f6166f/public_url) | SAS | Credly Verified |
+| 2026-05-19 | [SAS Viya Overview](https://www.credly.com/badges/2fdf77a8-806b-4cf7-bbd3-a87225b74bac/public_url) | SAS | Credly Verified |
+| 2026-05-17 | [Cybersecurity Fundamentals](https://www.credly.com/badges/07b5c2dc-a9ed-433c-bc25-63c34d575fa9/public_url) | IBM SkillsBuild | Credly Verified |
+| 2026-05-17 | [Data Literacy Essentials](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31/public_url) | SAS | Credly Verified |
+| 2026-05-17 | [Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity](https://www.credly.com/badges/2f421b3d-277a-4bc8-8120-3a07438a5962/public_url) | Okta | Credly Verified |
+| 2026-05-17 | [Introduction to Statistical Concepts](https://www.credly.com/badges/c503a241-0ce2-4131-878d-d2695680bde2/public_url) | SAS | Credly Verified |
+| 2026-05-17 | [Overview of the IFRS 17 Standard](https://www.credly.com/badges/85b05775-f078-4b2e-9a1c-8987a14c0162/public_url) | SAS | Credly Verified |
+| 2026-05-17 | [Setting up SAP Mobile Start with SAP S/4HANA on SAP Build Work Zone - Record of Achievement](https://www.credly.com/badges/07157e87-17e7-4a62-9599-6da52e400954/public_url) | SAP | Credly Verified |
+| 2026-05-15 | [AI for Product Management](https://www.credly.com/badges/1f9721c8-f066-45c5-b673-61955c346c47/public_url) | Pendo | Credly Verified |
+| 2026-05-15 | [AI Foundations Knowledge Badge](https://www.credly.com/badges/5750e670-88f4-4a63-af78-a7af6e9aa394/public_url) | SAS | Credly Verified |
+| 2026-05-15 | [Digital Adoption Certification](https://www.credly.com/badges/7245de95-83f1-4f30-b301-0d61c8576780/public_url) | Pendo | Credly Verified |
+| 2026-05-15 | [Exploring SAP Sports One - Training Management - Record of Achievement](https://www.credly.com/badges/83726026-289c-43c8-829d-e7cb31ae928f/public_url) | SAP | Credly Verified |
+| 2026-05-15 | [Foundations of Risk and Asset Liability Management Knowledge Badge](https://www.credly.com/badges/5328bcd2-a3eb-4848-97d6-1943f04e2219/public_url) | SAS | Credly Verified |
+| 2026-05-15 | [Generative AI Using SAS](https://www.credly.com/badges/1cb2917f-14d8-4bec-a32a-9cdcd52cad31/public_url) | SAS | Credly Verified |
+| 2026-05-15 | [Responsible Innovation and Trustworthy AI](https://www.credly.com/badges/760eeeb8-81c2-4af5-ba16-8a3e19cc2619/public_url) | SAS | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md)

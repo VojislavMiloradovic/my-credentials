@@ -127,14 +127,14 @@ Showing latest 10 of 471 credentials. View the full dataset via the [Platform Ar
 | :---: | :--- | :--- | :---: |
 | 2026-07-29 | [Analyze Images with the Cloud Vision API Skill Badge](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url) | Google Cloud | Credly Verified |
 | 2026-07-29 | [Get Started with Eventarc Skill Badge](https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e/public_url) | Google Cloud | Credly Verified |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/f25607a9-7c89-4d0b-b9a5-b82953885053/public_url) | External Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/dc865649-88b4-41fe-bfd1-300a94547c2a/public_url) | External Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/4be898f4-3ff3-4463-a408-9fc502930d00/public_url) | External Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/0cfb05df-7c70-45c8-b92d-ad2d00dd09f6/public_url) | External Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/e1950bc8-936b-46da-b334-adad0802aa11/public_url) | External Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/c47cffbd-b734-4fb2-af2f-ba098430ab6c/public_url) | External Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/ba0c138d-b0e9-433c-8007-2f4f8b980c68/public_url) | External Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/421f017a-89cf-4028-a42c-6691ffcb691e/public_url) | External Issuer | External/Imported |
+| 2026-07-28 | [Optimizing and Maintaining MongoDB Cluster Reliability](https://www.credly.com/badges/ef5db49e-1ab5-4ea0-ba70-bf16383e600f/public_url) | MongoDB | Credly Verified |
+| 2026-07-27 | [AWS Educate Getting Started with Cloud Ops - Training Badge](https://www.credly.com/badges/c1b15993-b012-43a3-bdcb-946d4ee73452/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-07-27 | [Beyond Atomic Testing with Attack Flows](https://www.credly.com/badges/bb201075-aef3-4e05-b357-f024ab834146/public_url) | AttackIQ | Credly Verified |
+| 2026-07-27 | [Building GenAI Applications with MongoDB](https://www.credly.com/badges/4bd6f004-be81-4cc2-bc6a-8c12d1a51a4c/public_url) | MongoDB | Credly Verified |
+| 2026-07-27 | [Cloud Sales Pro - Security Posture Management](https://www.credly.com/badges/b785897b-343d-4e17-b23b-2435c7fec78d/public_url) | Acronis | Credly Verified |
+| 2026-07-27 | [Develop AI-Powered Prototypes in Google AI Studio](https://www.credly.com/badges/7b6fb557-985b-4680-85ca-5d9a3fd287d0/public_url) | Google Cloud | Credly Verified |
+| 2026-07-27 | [Monitoring MongoDB with Built-in Tools](https://www.credly.com/badges/adc19ddf-d4cd-43e0-ba42-9321bcf43590/public_url) | MongoDB | Credly Verified |
+| 2026-07-27 | [MSP Academy: Automation](https://www.credly.com/badges/d16d9c70-9200-49b5-8a1f-706919b48e24/public_url) | Acronis | Credly Verified |
 <!-- CREDLY_BADGES_END -->
 
 
