@@ -116,12 +116,12 @@ Showing latest 10 of 466 activities. View the full dataset via the [Platform Arc
 [Credly Verified Credentials](https://www.credly.com/users/vojislavmiloradovic/badges)
 
 Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic/badges)
-**Total Portfolio Credentials:** 215 (192 Credly Verified, 23 External/Imported)
-**Total Verified Skills Mapped:** 856
+**Total Portfolio Credentials:** 471 (448 Credly Verified, 23 External/Imported)
+**Total Verified Skills Mapped:** 1817
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 215 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
+Showing latest 10 of 471 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
