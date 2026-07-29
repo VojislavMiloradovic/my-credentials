@@ -1,0 +1,2040 @@
+{
+  "user_username": "vojislavmiloradovic",
+  "user_id": "752aee40-7358-4ade-9a49-81e8b6f49225",
+  "total_count": 71,
+  "native_count": 48,
+  "external_count": 23,
+  "badges": [
+    {
+      "id": "b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be",
+      "title": "Analyze Images with the Cloud Vision API Skill Badge",
+      "issuer": "Google Cloud",
+      "issued_at": "2026-07-29",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/bb8edfd1-9d69-48a3-bf81-3ab830caf393/image.png",
+      "verify_url": "https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "API",
+        "Cloud Vision API",
+        "Image Processing"
+      ]
+    },
+    {
+      "id": "e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e",
+      "title": "Get Started with Eventarc Skill Badge",
+      "issuer": "Google Cloud",
+      "issued_at": "2026-07-29",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/5aa8a83f-22d6-4aa2-9a65-f95290187ce3/image.png",
+      "verify_url": "https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Cloud Run",
+        "Cloud Storage",
+        "EventArc",
+        "Pub/sub"
+      ]
+    },
+    {
+      "id": "ef5db49e-1ab5-4ea0-ba70-bf16383e600f",
+      "title": "Optimizing and Maintaining MongoDB Cluster Reliability",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-28",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/46a27b55-bad9-4255-b90e-c3ba5096d1a8/blob",
+      "verify_url": "https://www.credly.com/badges/ef5db49e-1ab5-4ea0-ba70-bf16383e600f/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Backup Replication",
+        "Cluster Analysis",
+        "Cluster IP",
+        "Database Administration",
+        "Databases",
+        "Database Tuning",
+        "Data Maintenance",
+        "Failover",
+        "MongoDB",
+        "NoSQL Databases",
+        "Replicate",
+        "Scalability"
+      ]
+    },
+    {
+      "id": "c1b15993-b012-43a3-bdcb-946d4ee73452",
+      "title": "AWS Educate Getting Started with Cloud Ops - Training Badge",
+      "issuer": "Amazon Web Services Training and Certification",
+      "issued_at": "2026-07-27",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/4251ab91-6d67-47da-801c-855c0bbc6cc3/blob",
+      "verify_url": "https://www.credly.com/badges/c1b15993-b012-43a3-bdcb-946d4ee73452/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "AWS Cloud",
+        "AWS Cloud Ops",
+        "Cloud Operations"
+      ]
+    },
+    {
+      "id": "bb201075-aef3-4e05-b357-f024ab834146",
+      "title": "Beyond Atomic Testing with Attack Flows",
+      "issuer": "AttackIQ",
+      "issued_at": "2026-07-27",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/8e228e0c-167c-499b-8d8b-39f23d8d1789/Beyond_Atomic_Testing_with_Attack_Flows.png",
+      "verify_url": "https://www.credly.com/badges/bb201075-aef3-4e05-b357-f024ab834146/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "AttackIQ Platform",
+        "Breach & Attack Simulation",
+        "MITRE ATT&CK",
+        "Security Control Testing"
+      ]
+    },
+    {
+      "id": "4bd6f004-be81-4cc2-bc6a-8c12d1a51a4c",
+      "title": "Building GenAI Applications with MongoDB",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-27",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/5bca6dc6-1e23-4f72-9368-dbc0cbf8b5cc/blob",
+      "verify_url": "https://www.credly.com/badges/4bd6f004-be81-4cc2-bc6a-8c12d1a51a4c/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Large Language Models (LLMs)",
+        "RAG",
+        "Retrieval Augmented Generation",
+        "Vector Search"
+      ]
+    },
+    {
+      "id": "b785897b-343d-4e17-b23b-2435c7fec78d",
+      "title": "Cloud Sales Pro - Security Posture Management",
+      "issuer": "Acronis",
+      "issued_at": "2026-07-27",
+      "expires_at": "2027-07-27",
+      "image_url": "https://images.credly.com/images/d25c682e-ddc1-4103-bc19-e7fecfa85f4e/blob",
+      "verify_url": "https://www.credly.com/badges/b785897b-343d-4e17-b23b-2435c7fec78d/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Cloud Backup",
+        "Cloud-Based Testing",
+        "Cloud Computing",
+        "Cloud Data Management",
+        "Cloud Security",
+        "Cloud Services"
+      ]
+    },
+    {
+      "id": "7b6fb557-985b-4680-85ca-5d9a3fd287d0",
+      "title": "Develop AI-Powered Prototypes in Google AI Studio",
+      "issuer": "Google Cloud",
+      "issued_at": "2026-07-27",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/0dc89ffa-b235-4298-93f9-e152b06a5166/blob",
+      "verify_url": "https://www.credly.com/badges/7b6fb557-985b-4680-85ca-5d9a3fd287d0/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Artificial General Intelligence",
+        "Artificial Intelligence Applications",
+        "Generative AI",
+        "Image Analysis",
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "id": "adc19ddf-d4cd-43e0-ba42-9321bcf43590",
+      "title": "Monitoring MongoDB with Built-in Tools",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-27",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/2b4f2381-9223-4c09-b6e7-c0a17d0045c4/blob",
+      "verify_url": "https://www.credly.com/badges/adc19ddf-d4cd-43e0-ba42-9321bcf43590/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Alarm Monitoring",
+        "Database Administration",
+        "Database Deployment Management",
+        "Databases",
+        "Database Tuning",
+        "MongoDB",
+        "NoSQL Databases",
+        "Observability",
+        "OPS",
+        "Performance Management",
+        "Performance Metrics",
+        "Performance Reporting",
+        "Warning Systems"
+      ]
+    },
+    {
+      "id": "d16d9c70-9200-49b5-8a1f-706919b48e24",
+      "title": "MSP Academy: Automation",
+      "issuer": "Acronis",
+      "issued_at": "2026-07-27",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/56c00490-6c15-4f50-89d5-103d2250370e/image.png",
+      "verify_url": "https://www.credly.com/badges/d16d9c70-9200-49b5-8a1f-706919b48e24/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Automation",
+        "Cybersecurity",
+        "PSA",
+        "Reporting"
+      ]
+    },
+    {
+      "id": "82776add-b997-4015-8224-59cadac439e9",
+      "title": "Optimizing MongoDB Performance with Tuning Tools",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-27",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/c1636efe-f81c-4d6b-932b-8129d7fbc3c2/blob",
+      "verify_url": "https://www.credly.com/badges/82776add-b997-4015-8224-59cadac439e9/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Database Administration",
+        "Database Analysis",
+        "Database Queries",
+        "Databases",
+        "Database Systems",
+        "Database Tuning",
+        "Data Caching",
+        "Essentials plus",
+        "Memory Management",
+        "MongoDB",
+        "OPS",
+        "Performance",
+        "Performance Tuning",
+        "Query Optimization",
+        "Query Tuning",
+        "System Monitoring",
+        "System Monitors"
+      ]
+    },
+    {
+      "id": "2e01c42a-77e8-4636-9168-5cfac204a43f",
+      "title": "Search with MongoDB",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-27",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/b4ac66fd-9972-436e-b01e-c04aee2466de/blob",
+      "verify_url": "https://www.credly.com/badges/2e01c42a-77e8-4636-9168-5cfac204a43f/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Database Queries",
+        "Databases",
+        "Full-Text Search",
+        "Information Retrieval",
+        "Lucene",
+        "MongoDB",
+        "Organic Search",
+        "Query Optimization",
+        "Query Tuning",
+        "Search Algorithms"
+      ]
+    },
+    {
+      "id": "fe38aea0-445e-4345-b9df-c59a044f5362",
+      "title": "Secure Digital Transformation - Best Practices and Strategies",
+      "issuer": "AttackIQ",
+      "issued_at": "2026-07-27",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/eb4e49fc-4246-45bb-95dc-4bd55224f0da/image.png",
+      "verify_url": "https://www.credly.com/badges/fe38aea0-445e-4345-b9df-c59a044f5362/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Cybersecurity For Managers",
+        "Digital Transformation",
+        "Digital Transformation Management",
+        "digital transformation security",
+        "Security Leadership"
+      ]
+    },
+    {
+      "id": "ff0f8b49-ec79-420e-854b-6f4f5d7b29e5",
+      "title": "Using Voyage Models with MongoDB",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-27",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/71458173-b969-4924-9d0e-84ae1afe5561/blob",
+      "verify_url": "https://www.credly.com/badges/ff0f8b49-ec79-420e-854b-6f4f5d7b29e5/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "GenAI",
+        "MongoDB",
+        "NoSQL Databases",
+        "Voyage"
+      ]
+    },
+    {
+      "id": "5cc3e16f-1432-408b-baf1-5a82c6d65229",
+      "title": "Protect Sensitive Data with Data Loss Prevention Skill Badge",
+      "issuer": "Google Cloud",
+      "issued_at": "2026-07-26",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/81b8d708-19b5-4381-8ee1-576dcb20f536/image.png",
+      "verify_url": "https://www.credly.com/badges/5cc3e16f-1432-408b-baf1-5a82c6d65229/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "API",
+        "Data loss",
+        "Data Loss Prevention",
+        "Data Security"
+      ]
+    },
+    {
+      "id": "95dadb7d-8f0b-4520-b945-c7b41292f126",
+      "title": "AWS Educate Getting Started with Networking - Training Badge",
+      "issuer": "Amazon Web Services Training and Certification",
+      "issued_at": "2026-07-24",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/f5095707-7683-4886-940c-3e8e4a2085ca/blob",
+      "verify_url": "https://www.credly.com/badges/95dadb7d-8f0b-4520-b945-c7b41292f126/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "AWS Cloud",
+        "AWS Networking"
+      ]
+    },
+    {
+      "id": "1ae5dbfc-3538-41eb-b208-8cd3fa60648a",
+      "title": "Cloud Sales Pro - Email Security",
+      "issuer": "Acronis",
+      "issued_at": "2026-07-24",
+      "expires_at": "2027-07-24",
+      "image_url": "https://images.credly.com/images/bea86fca-90d7-45e9-9a87-73206945ac2e/blob",
+      "verify_url": "https://www.credly.com/badges/1ae5dbfc-3538-41eb-b208-8cd3fa60648a/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Cloud-Based Testing",
+        "Cloud Computing",
+        "Cloud Data Management",
+        "Cloud Security",
+        "Cloud Services"
+      ]
+    },
+    {
+      "id": "00d5b48a-6926-43c6-842d-3585215523fe",
+      "title": "Cloud Sales Pro - Entra ID Backup",
+      "issuer": "Acronis",
+      "issued_at": "2026-07-24",
+      "expires_at": "2027-07-24",
+      "image_url": "https://images.credly.com/images/7df55ae8-f9b1-4555-ba15-ee9bfeaf8124/blob",
+      "verify_url": "https://www.credly.com/badges/00d5b48a-6926-43c6-842d-3585215523fe/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Academic Achievement",
+        "Academic Standards",
+        "Backup And Recovery",
+        "Backup Systems",
+        "Cloud Backup",
+        "GRE",
+        "Instrument Rating",
+        "Rubrics"
+      ]
+    },
+    {
+      "id": "8f620453-4525-4c45-9107-5a24f2bf89a5",
+      "title": "Mapping MITRE ATT&CK to CVE for Impact",
+      "issuer": "AttackIQ",
+      "issued_at": "2026-07-24",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/fdd38700-45db-42ab-8cde-b2468fc21163/Mapping_MITRE_ATT_CK_to_CVE_for_Impact.png",
+      "verify_url": "https://www.credly.com/badges/8f620453-4525-4c45-9107-5a24f2bf89a5/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Analysis Of Cyber Threat Intelligence",
+        "Cyber Threat Intelligence",
+        "MITRE ATT&CK",
+        "MITRE ATT&CK Mapping"
+      ]
+    },
+    {
+      "id": "17cc10c2-1879-4741-8660-896581fc660d",
+      "title": "Memory for AI Applications with MongoDB",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-24",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/205bd33f-a6e5-4f00-8d1d-9c981b68e241/blob",
+      "verify_url": "https://www.credly.com/badges/17cc10c2-1879-4741-8660-896581fc660d/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "AI Agents",
+        "Developer",
+        "GenAI",
+        "Memory Management",
+        "MongoDB",
+        "Vector Databases",
+        "Voyage"
+      ]
+    },
+    {
+      "id": "6fd90ef1-aa26-4e52-bdd8-e499e96f3644",
+      "title": "menuPass Emulation Plan Execution",
+      "issuer": "AttackIQ",
+      "issued_at": "2026-07-24",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/ae41f1b0-c9c4-40bc-b625-4b693a7c60c3/menuPass_Emulation_Plan_Execution.png",
+      "verify_url": "https://www.credly.com/badges/6fd90ef1-aa26-4e52-bdd8-e499e96f3644/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Cyber Threat Intelligence",
+        "MITRE ATT&CK",
+        "Purple Team",
+        "Threat Emulation",
+        "Threat Informed Defense"
+      ]
+    },
+    {
+      "id": "cd687719-8495-41e0-a74d-61cd2ab6f12e",
+      "title": "MongoDB Indexing Design Fundamentals",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-24",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/27213be6-415d-411f-a69a-0171ca2c89f5/blob",
+      "verify_url": "https://www.credly.com/badges/cd687719-8495-41e0-a74d-61cd2ab6f12e/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Benchmarking",
+        "Indexes",
+        "Indexing",
+        "MongoDB",
+        "NoSQL Databases",
+        "Query Optimization",
+        "Query Tuning"
+      ]
+    },
+    {
+      "id": "ec006874-acdf-4095-abab-5b6657054fc1",
+      "title": "MongoDB Overview: Core Concepts and Architecture",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-24",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/0b4c54ef-b1d8-4aa7-a658-230b74dec7f6/blob",
+      "verify_url": "https://www.credly.com/badges/ec006874-acdf-4095-abab-5b6657054fc1/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Architecture Frameworks",
+        "Database Architecture",
+        "Database Schemas",
+        "Data Structures",
+        "Developer",
+        "Distributed Systems",
+        "MongoDB",
+        "NoSQL Databases",
+        "OPS",
+        "Scalability",
+        "Sharding",
+        "Systems Architecture"
+      ]
+    },
+    {
+      "id": "ec69041f-6f70-4cab-b52f-dc3b9a64132f",
+      "title": "MongoDB Sharding Strategies",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-24",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/014a5b40-118f-41ed-8f19-9b19437e12fb/blob",
+      "verify_url": "https://www.credly.com/badges/ec69041f-6f70-4cab-b52f-dc3b9a64132f/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Cluster Development",
+        "Computer Clusters",
+        "Database Architecture",
+        "Database Tuning",
+        "Data Exchange",
+        "Data Management",
+        "Data Sharing",
+        "MongoDB",
+        "NoSQL Databases",
+        "Scalability",
+        "Sharding",
+        "Web Scalability"
+      ]
+    },
+    {
+      "id": "c92a6b9b-e628-42f2-b33c-d51f189a3f3c",
+      "title": "Securing MongoDB Atlas: Authentication & Authorization",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-24",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/464ed8fc-5af5-48d5-8cfa-33b91f0c714d/blob",
+      "verify_url": "https://www.credly.com/badges/c92a6b9b-e628-42f2-b33c-d51f189a3f3c/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Access Control",
+        "Atlas",
+        "Authentication",
+        "Authentication Protocols",
+        "Databases",
+        "Database Security",
+        "Database Systems",
+        "MongoDB",
+        "Role-Based Access Control (RBAC)",
+        "Role Hierarchy",
+        "Security",
+        "User Account Management",
+        "User Management"
+      ]
+    },
+    {
+      "id": "ccb3958d-00b6-4cf5-abf2-9481f3f12197",
+      "title": "Securing MongoDB Self-Managed: Authentication & Authorization",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-24",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/0a588ba1-5414-46f4-8fb6-7f646fe363e8/blob",
+      "verify_url": "https://www.credly.com/badges/ccb3958d-00b6-4cf5-abf2-9481f3f12197/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Access Control",
+        "Authentication",
+        "Authentication Protocols",
+        "Database Administration",
+        "Database Development",
+        "Databases",
+        "Database Security",
+        "Developer",
+        "Identity And Access Management (IAM)",
+        "MongoDB",
+        "Role-Based Access Control (RBAC)",
+        "Security",
+        "User Account Management",
+        "User Management"
+      ]
+    },
+    {
+      "id": "eb31b07d-b515-4678-aad1-792c118e67dc",
+      "title": "AI and Innovation: How MongoDB Enables a Resilient AI Strategy",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-22",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/c8a24500-d484-4e48-825a-de40b4c5c948/blob",
+      "verify_url": "https://www.credly.com/badges/eb31b07d-b515-4678-aad1-792c118e67dc/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "AI Agents",
+        "Artificial Intelligence (AI)",
+        "Artificial Intelligence Applications",
+        "Data Maintenance",
+        "Data Processing",
+        "GenAI",
+        "MongoDB",
+        "NoSQL Databases",
+        "Real Time Data",
+        "Retrieval Augmented Generation (RAG)"
+      ]
+    },
+    {
+      "id": "da4e7c34-8a7a-4418-86f2-eb9db7a34148",
+      "title": "AWS Educate Getting Started with Databases - Training Badge",
+      "issuer": "Amazon Web Services Training and Certification",
+      "issued_at": "2026-07-22",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/a08cf90b-9838-4f6c-82bd-8db85fb89dd5/blob",
+      "verify_url": "https://www.credly.com/badges/da4e7c34-8a7a-4418-86f2-eb9db7a34148/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "AWS Cloud",
+        "AWS Databases"
+      ]
+    },
+    {
+      "id": "1a455d6f-de65-420a-a531-f26d2562538b",
+      "title": "Extending ATT&CK with ATT&CK Workbench",
+      "issuer": "AttackIQ",
+      "issued_at": "2026-07-22",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/0518a655-5bfa-4882-8107-29711d31a837/Extending_ATT_CK_with_ATT_CK_Workbench.png",
+      "verify_url": "https://www.credly.com/badges/1a455d6f-de65-420a-a531-f26d2562538b/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "ATT&CK Workbench",
+        "Cyber Threat Intelligence",
+        "MITRE ATT&CK",
+        "Threat-Informed Defense"
+      ]
+    },
+    {
+      "id": "7de6eae2-567f-4628-9a07-b832ea35db92",
+      "title": "Foundations of Cyber Threat Intelligence",
+      "issuer": "AttackIQ",
+      "issued_at": "2026-07-22",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/5a77473d-f363-4cb2-9e93-4ca4de1f3bd2/image.png",
+      "verify_url": "https://www.credly.com/badges/7de6eae2-567f-4628-9a07-b832ea35db92/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Cyber Threat Intelligence",
+        "Threat Intelligence",
+        "Threat Intelligence Analyst"
+      ]
+    },
+    {
+      "id": "e467dede-3af7-4e52-94b6-024d53997597",
+      "title": "MongoDB Advanced Schema Design Patterns and Anti-patterns Skill Badge",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-22",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/592afcf7-1323-4dc4-af0d-0c3cad726e95/blob",
+      "verify_url": "https://www.credly.com/badges/e467dede-3af7-4e52-94b6-024d53997597/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Antipatterns",
+        "Approximation",
+        "Case Sensitivity",
+        "Data Modeling",
+        "Data Normalization",
+        "Massive Number of Collections",
+        "MongoDB",
+        "Schema Lifecycle",
+        "Schema Patterns",
+        "Schema Versioning",
+        "Unnecessary Indexes"
+      ]
+    },
+    {
+      "id": "9e2386d0-6962-447d-9cab-1efb8c45bb56",
+      "title": "MongoDB Aggregation Fundamentals",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-22",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/ca2735bc-3fbb-4536-839d-90d6047585d3/blob",
+      "verify_url": "https://www.credly.com/badges/9e2386d0-6962-447d-9cab-1efb8c45bb56/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Developer",
+        "Essentials",
+        "MongoDB",
+        "queryaggregation"
+      ]
+    },
+    {
+      "id": "adc22d84-9e52-40b6-8f56-09b163398c09",
+      "title": "MongoDB Query Optimization Techniques",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-22",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/e3d619cf-ce1f-4b75-ad4f-78c68cbbae51/blob",
+      "verify_url": "https://www.credly.com/badges/adc22d84-9e52-40b6-8f56-09b163398c09/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Developer",
+        "Essentials plus",
+        "Query"
+      ]
+    },
+    {
+      "id": "526ac37a-cf81-4031-82ad-ea72351d42b8",
+      "title": "MongoDB Schema Design Optimization Skill Badge",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-22",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/9aa3a2f5-20ad-4ba3-b7ac-dbc13f4db5db/blob",
+      "verify_url": "https://www.credly.com/badges/526ac37a-cf81-4031-82ad-ea72351d42b8/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Bucket",
+        "Course Evaluations",
+        "Data Analysis",
+        "Data Literacy",
+        "Data Modeling",
+        "Data Models",
+        "Data Validation",
+        "Outlier",
+        "Performance",
+        "Schema.org",
+        "Schema Patterns",
+        "Subset"
+      ]
+    },
+    {
+      "id": "79327255-4ed3-4b0f-8b1e-9982a0ab1051",
+      "title": "MongoDB Schema Design Patterns and Anti-patterns Skill Badge",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-22",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/71a08fbf-178b-4342-9b17-a5239942846c/blob",
+      "verify_url": "https://www.credly.com/badges/79327255-4ed3-4b0f-8b1e-9982a0ab1051/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Databases",
+        "Database Schemas",
+        "Database Tuning",
+        "Data Modeling",
+        "MongoDB",
+        "NoSQL Databases",
+        "Performance",
+        "Schema Patterns"
+      ]
+    },
+    {
+      "id": "f57106b4-cf01-4ad0-a05a-67f322da7411",
+      "title": "Cloud Functions: 3 Ways Skill Badge",
+      "issuer": "Google Cloud",
+      "issued_at": "2026-07-21",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/12ca3878-2560-4d84-a3a5-c317db9ca549/image.png",
+      "verify_url": "https://www.credly.com/badges/f57106b4-cf01-4ad0-a05a-67f322da7411/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Cloud Functions",
+        "Cloud Storage",
+        "Google Cloud Console"
+      ]
+    },
+    {
+      "id": "f158f922-f150-4b0b-8690-da627a5aea91",
+      "title": "Cloud Sales Pro - Archival Storage",
+      "issuer": "Acronis",
+      "issued_at": "2026-07-21",
+      "expires_at": "2027-07-21",
+      "image_url": "https://images.credly.com/images/87db2799-e720-4060-b11e-3767a612d492/blob",
+      "verify_url": "https://www.credly.com/badges/f158f922-f150-4b0b-8690-da627a5aea91/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Academic Achievement",
+        "Academic Standards",
+        "Archival Description",
+        "Cloud Computing",
+        "Cloud Data Management",
+        "Cloud Services",
+        "Cloud Storage",
+        "GRE",
+        "Rubrics",
+        "Self Evaluation"
+      ]
+    },
+    {
+      "id": "8792dd40-33ba-45a4-8a3b-68f57d1ec0d3",
+      "title": "Cloud Sales Pro - Backup",
+      "issuer": "Acronis",
+      "issued_at": "2026-07-21",
+      "expires_at": "2027-07-21",
+      "image_url": "https://images.credly.com/images/2b3f6534-7848-47a2-a903-ea3857de74df/blob",
+      "verify_url": "https://www.credly.com/badges/8792dd40-33ba-45a4-8a3b-68f57d1ec0d3/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Cloud Backup",
+        "Cloud-Based Testing",
+        "Cloud Storage"
+      ]
+    },
+    {
+      "id": "a2071cbe-5c63-4b7e-9b49-306f58c74a30",
+      "title": "Acronis Cyber Protect – Sales Pro",
+      "issuer": "Acronis",
+      "issued_at": "2026-07-20",
+      "expires_at": "2027-07-20",
+      "image_url": "https://images.credly.com/images/7b8d79f5-2faa-449e-a109-9c4f1fc7e2fc/blob",
+      "verify_url": "https://www.credly.com/badges/a2071cbe-5c63-4b7e-9b49-306f58c74a30/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Acronis Cyber Protect Home Office",
+        "Antivirus Software",
+        "AT&T Cybersecurity",
+        "Cyber Defense",
+        "Cyber Resilience",
+        "Cybersecurity",
+        "Cyber Warfare",
+        "Software Protection"
+      ]
+    },
+    {
+      "id": "0d5fac3c-48d7-4e36-bb6c-bed01e8304d9",
+      "title": "Acronis Cyber Protect – Tech Pro",
+      "issuer": "Acronis",
+      "issued_at": "2026-07-20",
+      "expires_at": "2027-07-20",
+      "image_url": "https://images.credly.com/images/68c8eb4c-fe05-456f-837f-1ba43e2488c8/blob",
+      "verify_url": "https://www.credly.com/badges/0d5fac3c-48d7-4e36-bb6c-bed01e8304d9/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Academic Achievement",
+        "Academic Standards",
+        "Antivirus Software",
+        "Cyber Defense",
+        "Cybersecurity",
+        "GRE",
+        "Instrument Rating",
+        "Rubrics"
+      ]
+    },
+    {
+      "id": "445b664c-c048-4f35-99ed-087e1d1ffc15",
+      "title": "Building AI Agents with MongoDB",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-20",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/252ed95c-8043-44f5-ae1f-6f5a6cf313c4/blob",
+      "verify_url": "https://www.credly.com/badges/445b664c-c048-4f35-99ed-087e1d1ffc15/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "AI Agents",
+        "Artificial Intelligence (AI)",
+        "Automated Artificial Intelligence (AutoAI)",
+        "Data Management",
+        "Decision Analysis",
+        "Decision Making",
+        "Decisiveness",
+        "GenAI",
+        "MongoDB",
+        "NoSQL Databases"
+      ]
+    },
+    {
+      "id": "9fd53140-ed9f-49c4-ba08-46f3b86499ad",
+      "title": "CRUD Operations in MongoDB",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-20",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/d8f7a9d6-dad9-40cc-b389-a343d2d72a9e/blob",
+      "verify_url": "https://www.credly.com/badges/9fd53140-ed9f-49c4-ba08-46f3b86499ad/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Ad-Hoc Queries",
+        "CRUD",
+        "Data Administration",
+        "Database Queries",
+        "Databases",
+        "Data Management",
+        "Data Retrieval",
+        "MongoDB",
+        "NoSQL Databases",
+        "Query Optimization",
+        "Query Tuning"
+      ]
+    },
+    {
+      "id": "fa327098-5494-4463-84bc-6429f541bf76",
+      "title": "Foundations of AI Security",
+      "issuer": "AttackIQ",
+      "issued_at": "2026-07-20",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/fc7a7fc0-856d-48db-804f-ea33d158daf0/image.png",
+      "verify_url": "https://www.credly.com/badges/fa327098-5494-4463-84bc-6429f541bf76/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "AI Risk Management",
+        "Artificial Intelligence",
+        "MITRE ATLAS",
+        "OWASP",
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "351d4db6-cd03-429e-a629-0765c3c78ba0",
+      "title": "Introduction to EASY Framework for Threat Intelligence",
+      "issuer": "AttackIQ",
+      "issued_at": "2026-07-20",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/520816ca-7acb-4bdc-b03e-31185a6285b0/Introduction_to_the_EASY_Framework.png",
+      "verify_url": "https://www.credly.com/badges/351d4db6-cd03-429e-a629-0765c3c78ba0/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "CTI",
+        "Cybersecurity",
+        "Cyber Threat Intelligence",
+        "Threat Intelligence Analyst"
+      ]
+    },
+    {
+      "id": "2cf13bdf-9555-4bac-a807-2f80b52ddb56",
+      "title": "Secure Software Delivery Skill Badge",
+      "issuer": "Google Cloud",
+      "issued_at": "2026-07-19",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/dd932e71-6255-4c38-b873-7c2f6a44c1f6/blob",
+      "verify_url": "https://www.credly.com/badges/2cf13bdf-9555-4bac-a807-2f80b52ddb56/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Cloud Build",
+        "DevSecOps",
+        "GKE"
+      ]
+    },
+    {
+      "id": "eecab10e-35f3-446c-9503-a4b15c76acf8",
+      "title": "BDR Basic Course",
+      "issuer": "Acronis",
+      "issued_at": "2026-07-17",
+      "expires_at": "2027-07-17",
+      "image_url": "https://images.credly.com/images/64214804-03d5-42c3-b6d4-5fec157120c1/blob",
+      "verify_url": "https://www.credly.com/badges/eecab10e-35f3-446c-9503-a4b15c76acf8/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Backup",
+        "Backup And Recovery",
+        "Backup Systems",
+        "Disaster Recovery"
+      ]
+    },
+    {
+      "id": "647d5577-f948-4a84-9093-7b511bca6ecb",
+      "title": "Building RAG Apps Using MongoDB",
+      "issuer": "MongoDB",
+      "issued_at": "2026-07-17",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/2aff887d-ee1e-479f-b26f-dcb20d647bd6/blob",
+      "verify_url": "https://www.credly.com/badges/647d5577-f948-4a84-9093-7b511bca6ecb/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "GenAI",
+        "MongoDB",
+        "RAG"
+      ]
+    },
+    {
+      "id": "61cec03c-1282-4a54-b48f-2c31d5a043f1",
+      "title": "Top ATT&CK Techniques",
+      "issuer": "AttackIQ",
+      "issued_at": "2026-07-17",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/de20214a-9510-4822-8505-29d4c9dbb592/image.png",
+      "verify_url": "https://www.credly.com/badges/61cec03c-1282-4a54-b48f-2c31d5a043f1/public_url",
+      "type": "Native Credly",
+      "skills": [
+        "Cybersecurity",
+        "MITRE ATT&CK",
+        "Threat-Informed Defense",
+        "Threat Intelligence Analyst"
+      ]
+    },
+    {
+      "id": "f25607a9-7c89-4d0b-b9a5-b82953885053",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "4498af1d-5e4e-43de-8712-7ca8c16d253b",
+          "faethm_id": "FS008279",
+          "name": "Best Practices",
+          "url": "/skills/FS008279"
+        },
+        {
+          "id": "75e8aa68-7ae4-4008-91f5-f539f9ad724d",
+          "faethm_id": "FS001335",
+          "name": "Cloud Computing",
+          "url": "/skills/FS001335"
+        },
+        {
+          "id": "7859932c-379f-47a8-8d62-dd993ecc2155",
+          "faethm_id": "FS001339",
+          "name": "Cloud Infrastructure",
+          "url": "/skills/FS001339"
+        },
+        {
+          "id": "3fa3de80-9c99-4c0f-bed1-5c6207bb5433",
+          "faethm_id": "FS001576",
+          "name": "Configuration Management",
+          "url": "/skills/FS001576"
+        },
+        {
+          "id": "e9adb1cb-eea5-4227-8b27-785dc6621109",
+          "faethm_id": "FS001741",
+          "name": "Course Evaluations",
+          "url": "/skills/FS001741"
+        },
+        {
+          "id": "41b974b6-48ec-4663-bf1d-8a0ad91f2b73",
+          "faethm_id": "FS008405",
+          "name": "Database Deployment Management",
+          "url": "/skills/FS008405"
+        },
+        {
+          "id": "6ce67b82-d99d-40c1-9d99-fd084502a7df",
+          "faethm_id": "FS004098",
+          "name": "Key Performance Indicators (KPIs)",
+          "url": "/skills/FS004098"
+        },
+        {
+          "id": "6b5ef049-d852-4cc5-980a-b49a6000bf35",
+          "faethm_id": "FS005286",
+          "name": "Oracle Applications",
+          "url": "/skills/FS005286"
+        },
+        {
+          "id": "61849274-0b7f-4d9c-a39e-046abf35439c",
+          "faethm_id": "FS005290",
+          "name": "Oracle Database (Oracle)",
+          "url": "/skills/FS005290"
+        },
+        {
+          "id": "aec6efb8-a43f-47a1-ba25-206cff9c98ff",
+          "faethm_id": "FS005935",
+          "name": "Project Management",
+          "url": "/skills/FS005935"
+        },
+        {
+          "id": "e2532604-eeeb-4382-bfe1-fe96050f423d",
+          "faethm_id": "FS006064",
+          "name": "Quality Driven Personality",
+          "url": "/skills/FS006064"
+        },
+        {
+          "id": "abded169-b6ba-4420-90d1-5e64598ebcc2",
+          "faethm_id": "FS006354",
+          "name": "Results Focused",
+          "url": "/skills/FS006354"
+        },
+        {
+          "id": "a7fe0118-55da-4abc-ab39-a76eb0e2c50d",
+          "faethm_id": "FS007012",
+          "name": "Stakeholder Engagement",
+          "url": "/skills/FS007012"
+        },
+        {
+          "id": "566a0fc9-ddbc-47d9-b7aa-d0bc9e977b39",
+          "faethm_id": "FS007014",
+          "name": "Stakeholder Management",
+          "url": "/skills/FS007014"
+        },
+        {
+          "id": "12cc3784-1469-4010-927c-3c1de22f6ca0",
+          "faethm_id": "FS007249",
+          "name": "System Deployment",
+          "url": "/skills/FS007249"
+        }
+      ]
+    },
+    {
+      "id": "dc865649-88b4-41fe-bfd1-300a94547c2a",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "6b586330-25cb-4cbf-b48a-a5cdf8b082ab",
+          "faethm_id": "FS003296",
+          "name": "Google Ads",
+          "url": "/skills/FS003296"
+        },
+        {
+          "id": "1aed9561-781a-46ee-9f3b-ca86622a6d0e",
+          "faethm_id": "FS008318",
+          "name": "Google Search",
+          "url": "/skills/FS008318"
+        },
+        {
+          "id": "aa9c7458-f31a-48de-a173-34ba2cb2b779",
+          "faethm_id": "FS007091",
+          "name": "Storytelling",
+          "url": "/skills/FS007091"
+        }
+      ]
+    },
+    {
+      "id": "4be898f4-3ff3-4463-a408-9fc502930d00",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "7be01381-82eb-4ddf-a7a2-bf73f08684a9",
+          "faethm_id": "FS000855",
+          "name": "Budgeting",
+          "url": "/skills/FS000855"
+        },
+        {
+          "id": "fdafb9bd-b6ee-478d-8a78-c95f6810325a",
+          "faethm_id": "FS000846",
+          "name": "Brokerage",
+          "url": "/skills/FS000846"
+        },
+        {
+          "id": "931ca90b-29ff-4a96-9c9d-1cd0f6a59df9",
+          "faethm_id": "FS003950",
+          "name": "Inventory Control",
+          "url": "/skills/FS003950"
+        },
+        {
+          "id": "2991009f-d521-4119-b200-193d7da2cbef",
+          "faethm_id": "FS003953",
+          "name": "Inventory Management",
+          "url": "/skills/FS003953"
+        },
+        {
+          "id": "25ec792d-4b95-4bb5-ab86-fe00857a8881",
+          "faethm_id": "FS009883",
+          "name": "Securities",
+          "url": "/skills/FS009883"
+        }
+      ]
+    },
+    {
+      "id": "0cfb05df-7c70-45c8-b92d-ad2d00dd09f6",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "29c2a7da-ddea-42f9-a842-9e73a27a2fdb",
+          "faethm_id": "FS009781",
+          "name": "Advertising",
+          "url": "/skills/FS009781"
+        },
+        {
+          "id": "9950d505-ce25-4997-bc35-73bc9cac28a4",
+          "faethm_id": "FS001575",
+          "name": "Confidentiality",
+          "url": "/skills/FS001575"
+        },
+        {
+          "id": "9a6e950c-24cf-4ec0-8afa-ef06d4c7b04f",
+          "faethm_id": "FS001615",
+          "name": "Consumer Privacy",
+          "url": "/skills/FS001615"
+        },
+        {
+          "id": "cdad13ef-654d-4065-815c-5d3290f694a4",
+          "faethm_id": "FS003758",
+          "name": "Information Privacy",
+          "url": "/skills/FS003758"
+        },
+        {
+          "id": "b92b7936-53ff-42c4-88e2-5a5e9e22c811",
+          "faethm_id": "FS005523",
+          "name": "Personal Integrity",
+          "url": "/skills/FS005523"
+        },
+        {
+          "id": "2a89454b-7ff7-49d8-93be-8a86bfece331",
+          "faethm_id": "FS005799",
+          "name": "Privacy Impact Assessments (PIA)",
+          "url": "/skills/FS005799"
+        }
+      ]
+    },
+    {
+      "id": "e1950bc8-936b-46da-b334-adad0802aa11",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "29c2a7da-ddea-42f9-a842-9e73a27a2fdb",
+          "faethm_id": "FS009781",
+          "name": "Advertising",
+          "url": "/skills/FS009781"
+        },
+        {
+          "id": "6b586330-25cb-4cbf-b48a-a5cdf8b082ab",
+          "faethm_id": "FS003296",
+          "name": "Google Ads",
+          "url": "/skills/FS003296"
+        },
+        {
+          "id": "d8d3be4a-6c88-4865-9161-67c553565763",
+          "faethm_id": "FS007801",
+          "name": "Video Advertising",
+          "url": "/skills/FS007801"
+        },
+        {
+          "id": "3b6998e2-fc2d-459c-af85-e91165968760",
+          "faethm_id": "FS008333",
+          "name": "YouTube",
+          "url": "/skills/FS008333"
+        },
+        {
+          "id": "368fb0b7-f43f-4245-a41b-6dd0056db536",
+          "faethm_id": "FS008508",
+          "name": "YouTube Advertising",
+          "url": "/skills/FS008508"
+        }
+      ]
+    },
+    {
+      "id": "c47cffbd-b734-4fb2-af2f-ba098430ab6c",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "29c2a7da-ddea-42f9-a842-9e73a27a2fdb",
+          "faethm_id": "FS009781",
+          "name": "Advertising",
+          "url": "/skills/FS009781"
+        },
+        {
+          "id": "af26389c-97a9-462d-90f7-0b4a529f1356",
+          "faethm_id": "FS000138",
+          "name": "Advertising Campaign Management",
+          "url": "/skills/FS000138"
+        },
+        {
+          "id": "8f6088bd-ce4c-4a90-9681-a2bd64ab6474",
+          "faethm_id": "FS000140",
+          "name": "Advertising Management",
+          "url": "/skills/FS000140"
+        },
+        {
+          "id": "ff8f2b13-ded5-4c1d-bb50-9f93112d7b30",
+          "faethm_id": "FS006589",
+          "name": "Search Advertising",
+          "url": "/skills/FS006589"
+        },
+        {
+          "id": "b91db97a-87d6-49f1-bd4a-5b39c43e410f",
+          "faethm_id": "FS010049",
+          "name": "AdWords",
+          "url": "/skills/FS010049"
+        },
+        {
+          "id": "05315e73-cc52-4954-abbc-cdfc1dc7bc6b",
+          "faethm_id": "FS001760",
+          "name": "Creativity",
+          "url": "/skills/FS001760"
+        },
+        {
+          "id": "5a9ef346-3582-4783-a2c8-2d9960306964",
+          "faethm_id": "FS002242",
+          "name": "Display Advertising",
+          "url": "/skills/FS002242"
+        },
+        {
+          "id": "d8d3be4a-6c88-4865-9161-67c553565763",
+          "faethm_id": "FS007801",
+          "name": "Video Advertising",
+          "url": "/skills/FS007801"
+        }
+      ]
+    },
+    {
+      "id": "ba0c138d-b0e9-433c-8007-2f4f8b980c68",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "abded169-b6ba-4420-90d1-5e64598ebcc2",
+          "faethm_id": "FS006354",
+          "name": "Results Focused",
+          "url": "/skills/FS006354"
+        },
+        {
+          "id": "f719e74f-b3ed-4b86-a01a-881638549913",
+          "faethm_id": "FS002178",
+          "name": "Digital Marketing",
+          "url": "/skills/FS002178"
+        },
+        {
+          "id": "56aa7dbc-6a9a-42ce-b495-4b14ce67841c",
+          "faethm_id": "FS002471",
+          "name": "Electronic Displays",
+          "url": "/skills/FS002471"
+        },
+        {
+          "id": "8a7cdea5-7974-4ca5-90a7-cc25d0a88062",
+          "faethm_id": "FS004261",
+          "name": "LED Displays",
+          "url": "/skills/FS004261"
+        }
+      ]
+    },
+    {
+      "id": "421f017a-89cf-4028-a42c-6691ffcb691e",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "29c2a7da-ddea-42f9-a842-9e73a27a2fdb",
+          "faethm_id": "FS009781",
+          "name": "Advertising",
+          "url": "/skills/FS009781"
+        },
+        {
+          "id": "8a70c2ad-823e-40a8-8364-01d4c2e2e9c4",
+          "faethm_id": "FS001381",
+          "name": "Collaboration",
+          "url": "/skills/FS001381"
+        },
+        {
+          "id": "835a69ef-7883-44be-9bab-3c2634e914a6",
+          "faethm_id": "FS004774",
+          "name": "Microsoft Active Directory (AD)",
+          "url": "/skills/FS004774"
+        },
+        {
+          "id": "7339a2c6-b1af-4afb-8ecb-66f3eaa6e558",
+          "faethm_id": "FS005407",
+          "name": "Partner Relationship Management (PRM)",
+          "url": "/skills/FS005407"
+        },
+        {
+          "id": "15725612-597f-42e8-a4c8-e0fbab3fd444",
+          "faethm_id": "FS005815",
+          "name": "Problem Management",
+          "url": "/skills/FS005815"
+        },
+        {
+          "id": "85891507-bcc3-45ae-88c8-e23345f3603c",
+          "faethm_id": "FS005816",
+          "name": "Problem Solving",
+          "url": "/skills/FS005816"
+        },
+        {
+          "id": "e08b5a45-fb4b-4f07-b118-59f6335f513f",
+          "faethm_id": "FS006315",
+          "name": "Reservations",
+          "url": "/skills/FS006315"
+        },
+        {
+          "id": "884ce7dd-b191-4eef-9639-4af9ac4b5bc8",
+          "faethm_id": "FS008600",
+          "name": "Tag Management Systems",
+          "url": "/skills/FS008600"
+        },
+        {
+          "id": "6f8d9a91-f069-455a-b3ca-95cc3a8711dd",
+          "faethm_id": "FS008307",
+          "name": "Troubleshooting",
+          "url": "/skills/FS008307"
+        }
+      ]
+    },
+    {
+      "id": "a743db39-9018-4998-9501-971101c04773",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "8a70c2ad-823e-40a8-8364-01d4c2e2e9c4",
+          "faethm_id": "FS001381",
+          "name": "Collaboration",
+          "url": "/skills/FS001381"
+        },
+        {
+          "id": "96e9a7b4-8131-4391-bdf8-228f2c29de29",
+          "faethm_id": "FS004873",
+          "name": "Mobile Banking",
+          "url": "/skills/FS004873"
+        },
+        {
+          "id": "f20c6eb6-f641-4084-acce-1809e5c10c86",
+          "faethm_id": "FS004879",
+          "name": "Mobile Marketing",
+          "url": "/skills/FS004879"
+        },
+        {
+          "id": "c6a35da8-bf4a-483c-9f3c-30a54b39345a",
+          "faethm_id": "FS005526",
+          "name": "Personalization",
+          "url": "/skills/FS005526"
+        },
+        {
+          "id": "76cf8a01-0548-4c9d-bcfa-8e6c886866b2",
+          "faethm_id": "FS007707",
+          "name": "User Analysis",
+          "url": "/skills/FS007707"
+        }
+      ]
+    },
+    {
+      "id": "02560a5b-0632-4af4-9e7f-af18c8af97c5",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "abbb8742-7b15-4dba-81a8-0c12f9d5c0ec",
+          "faethm_id": "FS005219",
+          "name": "Online Sales",
+          "url": "/skills/FS005219"
+        },
+        {
+          "id": "26817af7-44fe-4fb6-8c84-24e49a1b64a7",
+          "faethm_id": "FS009707",
+          "name": "Persistence",
+          "url": "/skills/FS009707"
+        },
+        {
+          "id": "f3f858ad-9387-409a-a148-8b41c5e7535b",
+          "faethm_id": "FS006478",
+          "name": "Sales Enablement",
+          "url": "/skills/FS006478"
+        },
+        {
+          "id": "8697f0fa-6323-4bf0-8eef-a14fe406b0bf",
+          "faethm_id": "FS006648",
+          "name": "Self Motivation",
+          "url": "/skills/FS006648"
+        },
+        {
+          "id": "afb5abff-fd73-442c-be6a-c12930d17ada",
+          "faethm_id": "FS006646",
+          "name": "Self Starter",
+          "url": "/skills/FS006646"
+        }
+      ]
+    },
+    {
+      "id": "67de0992-c745-4374-94dc-9fef9db41b46",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": []
+    },
+    {
+      "id": "505fe7cb-514d-42ec-a4d4-12dd4fd077a3",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": []
+    },
+    {
+      "id": "86f079db-8bc7-41b8-b882-bae4d1eef82e",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "29c2a7da-ddea-42f9-a842-9e73a27a2fdb",
+          "faethm_id": "FS009781",
+          "name": "Advertising",
+          "url": "/skills/FS009781"
+        },
+        {
+          "id": "0d9d48af-7f37-4526-ba5c-cb53ef686653",
+          "faethm_id": "FS000456",
+          "name": "Artificial Intelligence (AI)",
+          "url": "/skills/FS000456"
+        },
+        {
+          "id": "6b586330-25cb-4cbf-b48a-a5cdf8b082ab",
+          "faethm_id": "FS003296",
+          "name": "Google Ads",
+          "url": "/skills/FS003296"
+        },
+        {
+          "id": "af26389c-97a9-462d-90f7-0b4a529f1356",
+          "faethm_id": "FS000138",
+          "name": "Advertising Campaign Management",
+          "url": "/skills/FS000138"
+        },
+        {
+          "id": "8f6088bd-ce4c-4a90-9681-a2bd64ab6474",
+          "faethm_id": "FS000140",
+          "name": "Advertising Management",
+          "url": "/skills/FS000140"
+        },
+        {
+          "id": "6ac7e9c4-a480-4294-878f-51359bd05a0d",
+          "faethm_id": "FS000518",
+          "name": "Audience Development",
+          "url": "/skills/FS000518"
+        },
+        {
+          "id": "c3ff627d-24a5-4cad-86cb-b4c1d699e19c",
+          "faethm_id": "FS001679",
+          "name": "Conversion Tracking",
+          "url": "/skills/FS001679"
+        },
+        {
+          "id": "78f94cc3-be6b-459e-8908-2c25121744a3",
+          "faethm_id": "FS001857",
+          "name": "Customer Service",
+          "url": "/skills/FS001857"
+        },
+        {
+          "id": "47e6ea53-df45-4ef8-9fab-c71868827041",
+          "faethm_id": "FS003297",
+          "name": "Google Analytics",
+          "url": "/skills/FS003297"
+        },
+        {
+          "id": "c3ccc2f1-ff36-4303-8dd4-f1ec902d7d0c",
+          "faethm_id": "FS005496",
+          "name": "Performance Measurement",
+          "url": "/skills/FS005496"
+        },
+        {
+          "id": "283b15d8-c9f2-4aec-aa81-04d10e07ce88",
+          "faethm_id": "FS006304",
+          "name": "Reputational Damage",
+          "url": "/skills/FS006304"
+        },
+        {
+          "id": "ff8f2b13-ded5-4c1d-bb50-9f93112d7b30",
+          "faethm_id": "FS006589",
+          "name": "Search Advertising",
+          "url": "/skills/FS006589"
+        }
+      ]
+    },
+    {
+      "id": "d35ad67f-e7ab-43e6-9d0e-91474c7bb9c1",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "29c2a7da-ddea-42f9-a842-9e73a27a2fdb",
+          "faethm_id": "FS009781",
+          "name": "Advertising",
+          "url": "/skills/FS009781"
+        },
+        {
+          "id": "1aed9561-781a-46ee-9f3b-ca86622a6d0e",
+          "faethm_id": "FS008318",
+          "name": "Google Search",
+          "url": "/skills/FS008318"
+        },
+        {
+          "id": "c9cb931e-f423-466b-bbdc-e90c0305a8c8",
+          "faethm_id": "FS003312",
+          "name": "Google Shopping",
+          "url": "/skills/FS003312"
+        },
+        {
+          "id": "39fdaac5-eca0-4bac-8433-f561ba3f62c8",
+          "faethm_id": "FS004708",
+          "name": "Merchant Services",
+          "url": "/skills/FS004708"
+        },
+        {
+          "id": "887dc70f-f758-4585-a9e4-e46e3bb009e0",
+          "faethm_id": "FS008366",
+          "name": "Outreach",
+          "url": "/skills/FS008366"
+        },
+        {
+          "id": "3ba78d82-1326-492f-84a3-8320653e91dc",
+          "faethm_id": "FS009665",
+          "name": "Policy Advocacy",
+          "url": "/skills/FS009665"
+        },
+        {
+          "id": "f28fcbcb-ebf5-4463-9f64-eaaacb4cc9fc",
+          "faethm_id": "FS006359",
+          "name": "Retail Industry",
+          "url": "/skills/FS006359"
+        },
+        {
+          "id": "dceb4506-9443-4478-83cc-d3c3413ecc27",
+          "faethm_id": "FS008313",
+          "name": "Shopping",
+          "url": "/skills/FS008313"
+        }
+      ]
+    },
+    {
+      "id": "b6bcfa90-7621-47d1-b062-12086ff61bd3",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "29c2a7da-ddea-42f9-a842-9e73a27a2fdb",
+          "faethm_id": "FS009781",
+          "name": "Advertising",
+          "url": "/skills/FS009781"
+        },
+        {
+          "id": "e39b22f8-9342-4723-b1d2-8728a0b706d2",
+          "faethm_id": "FS000454",
+          "name": "Artificial General Intelligence",
+          "url": "/skills/FS000454"
+        },
+        {
+          "id": "0d9d48af-7f37-4526-ba5c-cb53ef686653",
+          "faethm_id": "FS000456",
+          "name": "Artificial Intelligence (AI)",
+          "url": "/skills/FS000456"
+        },
+        {
+          "id": "87b67461-54b6-47e9-b673-f931ab1be5c6",
+          "faethm_id": "FS000391",
+          "name": "Artificial Intelligence Applications",
+          "url": "/skills/FS000391"
+        },
+        {
+          "id": "7be01381-82eb-4ddf-a7a2-bf73f08684a9",
+          "faethm_id": "FS000855",
+          "name": "Budgeting",
+          "url": "/skills/FS000855"
+        },
+        {
+          "id": "d3764fce-f806-4014-9c35-f7b24c88f3da",
+          "faethm_id": "FS009767",
+          "name": "Budget Management",
+          "url": "/skills/FS009767"
+        },
+        {
+          "id": "92064e3d-84cf-4056-9e20-4c2f6d0bfe1a",
+          "faethm_id": "FS001474",
+          "name": "Compensation Analysis",
+          "url": "/skills/FS001474"
+        },
+        {
+          "id": "d0ca7571-a861-41d8-bd4c-6c4a7b08dd93",
+          "faethm_id": "FS002769",
+          "name": "Explanation Of Benefits (EOB)",
+          "url": "/skills/FS002769"
+        },
+        {
+          "id": "6b586330-25cb-4cbf-b48a-a5cdf8b082ab",
+          "faethm_id": "FS003296",
+          "name": "Google Ads",
+          "url": "/skills/FS003296"
+        },
+        {
+          "id": "5620fb91-bb69-4387-9d09-f45ff2630221",
+          "faethm_id": "FS005810",
+          "name": "Proactivity",
+          "url": "/skills/FS005810"
+        }
+      ]
+    },
+    {
+      "id": "16a8e370-ea24-421f-9398-9598b2043487",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "6b586330-25cb-4cbf-b48a-a5cdf8b082ab",
+          "faethm_id": "FS003296",
+          "name": "Google Ads",
+          "url": "/skills/FS003296"
+        },
+        {
+          "id": "1aed9561-781a-46ee-9f3b-ca86622a6d0e",
+          "faethm_id": "FS008318",
+          "name": "Google Search",
+          "url": "/skills/FS008318"
+        },
+        {
+          "id": "c9cb931e-f423-466b-bbdc-e90c0305a8c8",
+          "faethm_id": "FS003312",
+          "name": "Google Shopping",
+          "url": "/skills/FS003312"
+        },
+        {
+          "id": "ff8f2b13-ded5-4c1d-bb50-9f93112d7b30",
+          "faethm_id": "FS006589",
+          "name": "Search Advertising",
+          "url": "/skills/FS006589"
+        },
+        {
+          "id": "08e0bf3d-d27d-4d8a-ab6f-5d5dfd1504f8",
+          "faethm_id": "FS000712",
+          "name": "Bidding",
+          "url": "/skills/FS000712"
+        },
+        {
+          "id": "f719e74f-b3ed-4b86-a01a-881638549913",
+          "faethm_id": "FS002178",
+          "name": "Digital Marketing",
+          "url": "/skills/FS002178"
+        },
+        {
+          "id": "5f0a3115-3120-4534-916a-21c96324ea1b",
+          "faethm_id": "FS002194",
+          "name": "Digital Strategy",
+          "url": "/skills/FS002194"
+        },
+        {
+          "id": "bbbff299-90a6-4408-bd98-29a3556107ba",
+          "faethm_id": "FS002197",
+          "name": "Digital Transformation",
+          "url": "/skills/FS002197"
+        },
+        {
+          "id": "fb9c8f3c-c9ab-49bd-8d7a-24f96acc8d01",
+          "faethm_id": "FS003316",
+          "name": "Google Trends",
+          "url": "/skills/FS003316"
+        },
+        {
+          "id": "dc38ef9a-1062-433a-b0e0-27c5aeb4cc48",
+          "faethm_id": "FS006591",
+          "name": "Search Engine Marketing (SEM)",
+          "url": "/skills/FS006591"
+        },
+        {
+          "id": "34236ab2-4ac9-40ea-afed-320b01c6fb85",
+          "faethm_id": "FS006592",
+          "name": "Search Engine Optimization (SEO)",
+          "url": "/skills/FS006592"
+        }
+      ]
+    },
+    {
+      "id": "942d3c95-0f94-48c8-b50f-8933b8f42488",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "1aed9561-781a-46ee-9f3b-ca86622a6d0e",
+          "faethm_id": "FS008318",
+          "name": "Google Search",
+          "url": "/skills/FS008318"
+        },
+        {
+          "id": "47e6ea53-df45-4ef8-9fab-c71868827041",
+          "faethm_id": "FS003297",
+          "name": "Google Analytics",
+          "url": "/skills/FS003297"
+        },
+        {
+          "id": "08052b66-824e-43c4-8c37-438944bd1bee",
+          "faethm_id": "FS008262",
+          "name": "Asset Management",
+          "url": "/skills/FS008262"
+        },
+        {
+          "id": "c5e07011-af29-4710-b31b-5800ee485f2e",
+          "faethm_id": "FS001905",
+          "name": "Data Collection",
+          "url": "/skills/FS001905"
+        },
+        {
+          "id": "7d50d9bb-e385-4dc8-8215-62bddef27c05",
+          "faethm_id": "FS001934",
+          "name": "Data Literacy",
+          "url": "/skills/FS001934"
+        },
+        {
+          "id": "3bcfd929-ec20-41d4-8773-d92709112b4a",
+          "faethm_id": "FS003747",
+          "name": "Information Gathering",
+          "url": "/skills/FS003747"
+        },
+        {
+          "id": "35da3e45-9f5a-4fc8-a5db-ccee6c0baaab",
+          "faethm_id": "FS005962",
+          "name": "Property Maintenance",
+          "url": "/skills/FS005962"
+        },
+        {
+          "id": "011f7cbe-9432-4bfe-a9ea-ef35d5f51d21",
+          "faethm_id": "FS005963",
+          "name": "Property Management",
+          "url": "/skills/FS005963"
+        },
+        {
+          "id": "6692890d-a0e6-4e92-a3fc-4969451d737f",
+          "faethm_id": "FS005964",
+          "name": "Property Management Systems",
+          "url": "/skills/FS005964"
+        },
+        {
+          "id": "6c70a948-aaaf-479e-b4a3-57a0f3523d02",
+          "faethm_id": "FS006157",
+          "name": "Real Estate",
+          "url": "/skills/FS006157"
+        },
+        {
+          "id": "e90147d7-da31-4384-819a-4dec601c9c4e",
+          "faethm_id": "FS006163",
+          "name": "Real Property",
+          "url": "/skills/FS006163"
+        },
+        {
+          "id": "3090d2d9-edb7-4948-a233-1013c9db1cab",
+          "faethm_id": "FS006300",
+          "name": "Reporting Tools",
+          "url": "/skills/FS006300"
+        }
+      ]
+    },
+    {
+      "id": "0798db5e-8759-4719-861b-65b9f5e26eda",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "0d9d48af-7f37-4526-ba5c-cb53ef686653",
+          "faethm_id": "FS000456",
+          "name": "Artificial Intelligence (AI)",
+          "url": "/skills/FS000456"
+        },
+        {
+          "id": "9bf4ff27-d264-4d03-86b5-c685004cf64e",
+          "faethm_id": "FS009859",
+          "name": "AI Agents",
+          "url": "/skills/FS009859"
+        },
+        {
+          "id": "fd6f9452-65b8-4bb5-81e8-ab60669889d0",
+          "faethm_id": "FS009732",
+          "name": "Generative AI",
+          "url": "/skills/FS009732"
+        },
+        {
+          "id": "70141f87-4330-48b2-98ec-98c4250b7be8",
+          "faethm_id": "FS006298",
+          "name": "Report Generators",
+          "url": "/skills/FS006298"
+        }
+      ]
+    },
+    {
+      "id": "f8cba5d0-02d9-4dcc-b3d2-c7a2aa6ba989",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "bca3b7bf-4a05-4a0d-89c9-2c94380ba4ed",
+          "faethm_id": "FS004773",
+          "name": "Microsoft Access",
+          "url": "/skills/FS004773"
+        },
+        {
+          "id": "bc1e77f6-4760-4d7f-8f09-b44fb1223f68",
+          "faethm_id": "FS010033",
+          "name": "Microsoft Identity Manager",
+          "url": "/skills/FS010033"
+        }
+      ]
+    },
+    {
+      "id": "f5b2a49a-c5f3-477c-9559-aae528f15eeb",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "e3d6df07-01c4-46b0-90e8-53cf1a762aa9",
+          "faethm_id": "FS010017",
+          "name": "Azure App Service",
+          "url": "/skills/FS010017"
+        },
+        {
+          "id": "fcaf4e66-0779-415c-a468-5d29c9e6aede",
+          "faethm_id": "FS010092",
+          "name": "Azure Functions",
+          "url": "/skills/FS010092"
+        },
+        {
+          "id": "bf04237d-a307-4fe1-a301-fee6cc4fa4a0",
+          "faethm_id": "FS004775",
+          "name": "Microsoft Azure",
+          "url": "/skills/FS004775"
+        },
+        {
+          "id": "c913ec94-b7cf-4fc7-a50c-814f2d625afe",
+          "faethm_id": "FS008457",
+          "name": "Microsoft Azure Cloud Services",
+          "url": "/skills/FS008457"
+        }
+      ]
+    },
+    {
+      "id": "196240f1-dcb7-4939-bbbb-0438d313b173",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "bf04237d-a307-4fe1-a301-fee6cc4fa4a0",
+          "faethm_id": "FS004775",
+          "name": "Microsoft Azure",
+          "url": "/skills/FS004775"
+        },
+        {
+          "id": "c913ec94-b7cf-4fc7-a50c-814f2d625afe",
+          "faethm_id": "FS008457",
+          "name": "Microsoft Azure Cloud Services",
+          "url": "/skills/FS008457"
+        },
+        {
+          "id": "75e8aa68-7ae4-4008-91f5-f539f9ad724d",
+          "faethm_id": "FS001335",
+          "name": "Cloud Computing",
+          "url": "/skills/FS001335"
+        },
+        {
+          "id": "c16a26e0-8891-4c0b-8db9-8072b3f792b4",
+          "faethm_id": "FS001341",
+          "name": "Cloud Security",
+          "url": "/skills/FS001341"
+        },
+        {
+          "id": "b95d7f9b-d22a-44cc-97f1-813624d525fc",
+          "faethm_id": "FS010103",
+          "name": "Cloud Services",
+          "url": "/skills/FS010103"
+        }
+      ]
+    },
+    {
+      "id": "28825145-668c-4dfd-af0c-7723fb77576e",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "0d9d48af-7f37-4526-ba5c-cb53ef686653",
+          "faethm_id": "FS000456",
+          "name": "Artificial Intelligence (AI)",
+          "url": "/skills/FS000456"
+        },
+        {
+          "id": "433bdfdf-127b-4353-a67c-3b1569eeae34",
+          "faethm_id": "FS008232",
+          "name": "Microsoft 365",
+          "url": "/skills/FS008232"
+        },
+        {
+          "id": "dd307287-1a1b-4ddb-88fa-81b5e937be52",
+          "faethm_id": "FS004795",
+          "name": "Microsoft Excel",
+          "url": "/skills/FS004795"
+        },
+        {
+          "id": "a8b192ed-9c08-49d8-ade1-d518e569df8f",
+          "faethm_id": "FS004799",
+          "name": "Microsoft Excel Services",
+          "url": "/skills/FS004799"
+        },
+        {
+          "id": "7012114f-0507-4e12-be9e-197e9ade9a8e",
+          "faethm_id": "FS004803",
+          "name": "Microsoft Office",
+          "url": "/skills/FS004803"
+        },
+        {
+          "id": "184ecd4a-3b5b-4f5a-be52-0b1086feaceb",
+          "faethm_id": "FS004810",
+          "name": "Microsoft Outlook",
+          "url": "/skills/FS004810"
+        },
+        {
+          "id": "dc65f025-fded-40b1-a2b4-16b5ef726cf0",
+          "faethm_id": "FS004813",
+          "name": "Microsoft PowerPoint",
+          "url": "/skills/FS004813"
+        },
+        {
+          "id": "028f6479-1340-4c48-9ddb-5d763833cb25",
+          "faethm_id": "FS004825",
+          "name": "Microsoft Word",
+          "url": "/skills/FS004825"
+        }
+      ]
+    },
+    {
+      "id": "934b4141-bcf6-4834-a982-327f1ea3e893",
+      "title": "External Badge",
+      "issuer": "External Issuer",
+      "issued_at": null,
+      "expires_at": null,
+      "image_url": null,
+      "verify_url": null,
+      "type": "External Open Badge",
+      "skills": [
+        {
+          "id": "0d9d48af-7f37-4526-ba5c-cb53ef686653",
+          "faethm_id": "FS000456",
+          "name": "Artificial Intelligence (AI)",
+          "url": "/skills/FS000456"
+        },
+        {
+          "id": "fd6f9452-65b8-4bb5-81e8-ab60669889d0",
+          "faethm_id": "FS009732",
+          "name": "Generative AI",
+          "url": "/skills/FS009732"
+        }
+      ]
+    }
+  ]
+}
