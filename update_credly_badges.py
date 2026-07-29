@@ -1,9 +1,9 @@
 """
 update_credly_badges.py
 -----------------------
-Fetches native Credly badges and external Open Badges, merges them,
+Fetches all native Credly badges and external Open Badges, merges them,
 saves output to credly_badges.json, generates platform archives,
-and updates README.md via archive_utils.
+and updates README.md via archiver/archive_utils.
 """
 
 import json
@@ -13,10 +13,15 @@ from typing import Any
 
 import requests
 
-try:
-    from archive_utils import generate_platform_archive
-except ImportError:
-    generate_platform_archive = None
+# Fallback import handling for archiver module
+generate_platform_archive = None
+for module_name in ("archiver", "archiver_2", "archive_utils"):
+    try:
+        mod = __import__(module_name, fromlist=["generate_platform_archive"])
+        generate_platform_archive = getattr(mod, "generate_platform_archive")
+        break
+    except ImportError:
+        continue
 
 # Configure logging
 logging.basicConfig(
@@ -51,16 +56,15 @@ def normalize_date(raw_date: str | None) -> str | None:
 
 
 def fetch_native_badges(username: str) -> list[dict[str, Any]]:
-    """Fetches native Credly badges via unauthenticated profile route with pagination."""
+    """Fetches native Credly badges via unauthenticated profile route across all pages."""
     badges = []
     page = 1
-    page_size = 100
 
     logger.info(f"🔄 Starting native badge fetch for user '{username}'...")
 
     while True:
         url = f"https://www.credly.com/users/{username}/badges.json"
-        params = {"page": page, "page_size": page_size}
+        params = {"page": page}
 
         try:
             response = requests.get(url, headers=HEADERS, params=params, timeout=15)
@@ -119,13 +123,15 @@ def fetch_native_badges(username: str) -> list[dict[str, Any]]:
                 }
                 badges.append(parsed_badge)
 
+            # Check pagination metadata directly from Credly API response
             metadata = data.get("metadata", {})
             total_pages = metadata.get("total_pages")
-            if total_pages and page >= total_pages:
-                break
-
-            if len(raw_badges) < page_size:
-                break
+            if total_pages is not None:
+                if page >= total_pages:
+                    break
+            else:
+                if len(raw_badges) == 0:
+                    break
 
             page += 1
 
@@ -133,7 +139,7 @@ def fetch_native_badges(username: str) -> list[dict[str, Any]]:
             logger.error(f"❌ Failed to fetch native badges on page {page}: {e}")
             break
 
-    logger.info(f"✅ Finished native badge fetch: {len(badges)} native badges total.")
+    logger.info(f"✅ Finished native badge fetch: {len(badges)} native badges total across {page} page(s).")
     return badges
 
 
@@ -250,9 +256,9 @@ def merge_and_save_badges(
 
 
 def build_archives_and_readme(badges: list[dict[str, Any]]) -> None:
-    """Generates markdown archive files and updates README.md via archive_utils."""
+    """Generates markdown archive files and updates README.md via archiver helper."""
     if not generate_platform_archive:
-        logger.warning("⚠️ archive_utils module not available. Skipping archive generation.")
+        logger.error("❌ Archiver module could not be imported. Please verify archiver.py exists.")
         return
 
     # Sort badges descending by date
