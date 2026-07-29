@@ -116,25 +116,25 @@ Showing latest 10 of 466 activities. View the full dataset via the [Platform Arc
 [Credly Verified Credentials](https://www.credly.com/users/vojislavmiloradovic/badges)
 
 Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic/badges)
-**Total Portfolio Credentials:** 471 (448 Credly Verified, 23 External/Imported)
-**Total Verified Skills Mapped:** 1817
+**Total Portfolio Credentials:** 215 (192 Credly Verified, 23 External/Imported)
+**Total Verified Skills Mapped:** 856
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 471 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
+Showing latest 10 of 215 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-07-29 | [Analyze Images with the Cloud Vision API Skill Badge](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url) | Google Cloud | Credly Verified |
 | 2026-07-29 | [Get Started with Eventarc Skill Badge](https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e/public_url) | Google Cloud | Credly Verified |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/f25607a9-7c89-4d0b-b9a5-b82953885053/public_url) | Credly Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/dc865649-88b4-41fe-bfd1-300a94547c2a/public_url) | Credly Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/4be898f4-3ff3-4463-a408-9fc502930d00/public_url) | Credly Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/0cfb05df-7c70-45c8-b92d-ad2d00dd09f6/public_url) | Credly Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/e1950bc8-936b-46da-b334-adad0802aa11/public_url) | Credly Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/c47cffbd-b734-4fb2-af2f-ba098430ab6c/public_url) | Credly Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/ba0c138d-b0e9-433c-8007-2f4f8b980c68/public_url) | Credly Issuer | External/Imported |
-| 2026-07-29 | [External Credential](https://www.credly.com/badges/421f017a-89cf-4028-a42c-6691ffcb691e/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/f25607a9-7c89-4d0b-b9a5-b82953885053/public_url) | External Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/dc865649-88b4-41fe-bfd1-300a94547c2a/public_url) | External Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/4be898f4-3ff3-4463-a408-9fc502930d00/public_url) | External Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/0cfb05df-7c70-45c8-b92d-ad2d00dd09f6/public_url) | External Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/e1950bc8-936b-46da-b334-adad0802aa11/public_url) | External Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/c47cffbd-b734-4fb2-af2f-ba098430ab6c/public_url) | External Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/ba0c138d-b0e9-433c-8007-2f4f8b980c68/public_url) | External Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/421f017a-89cf-4028-a42c-6691ffcb691e/public_url) | External Issuer | External/Imported |
 <!-- CREDLY_BADGES_END -->
 
 

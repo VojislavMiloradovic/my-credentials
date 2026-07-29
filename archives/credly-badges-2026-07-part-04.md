@@ -1,14 +1,14 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 4 of 9
-date_range: 2026-06-11 to 2026-06-24
-total_entries: 53
+chunk_part: 4 of 4
+date_range: 2026-06-13 to 2026-06-24
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-04.md
 ---
 
 # Credly Verified Credentials — Part 04
 
-> **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: None | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -58,13 +58,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-13 | [LFS180: Introduction to DevSecOps for Managers](https://www.credly.com/badges/49eca85f-9355-4b7c-8ce5-584c49d63fbe/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-13 | [Manage Users and Groups](https://www.credly.com/badges/ebd64f91-cf5d-4006-9e87-3d411d9760e5/public_url) | Okta | Credly Verified |
 | 2026-06-13 | [Organize Users with Groups](https://www.credly.com/badges/1783bc8c-6c64-44b3-901c-95e0cfacac79/public_url) | Okta | Credly Verified |
-| 2026-06-11 | [AWS Knowledge: Events and Workflows - Training Badge](https://www.credly.com/badges/35c9dfd3-ab0b-4125-baf2-a67f19f960c7/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-06-11 | [Intel® Gaudi® AI Accelerator](https://www.credly.com/badges/f38defb3-960c-421e-af23-fe3699697623/public_url) | Intel | Credly Verified |
-| 2026-06-11 | [LFD110: Introduction to RISC-V](https://www.credly.com/badges/ca3fb10f-24a2-4c82-a275-82ca9f08193a/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-11 | [LFD133: Introduction to WebAssembly](https://www.credly.com/badges/8473781e-b134-4cb1-850b-c72985f5822d/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-11 | [LFS144: Introduction to Istio](https://www.credly.com/badges/bb9b403f-05c9-47c8-8e63-e7a2c4eef99b/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-11 | [LFS146: Introduction to Cilium](https://www.credly.com/badges/d6703f61-4648-41b6-9949-01827cbd6c78/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-11 | [Tech Fundamentals](https://www.credly.com/badges/b006a1c2-03c5-426f-9b4a-b667e033047d/public_url) | Acronis | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md)
+> **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: None
