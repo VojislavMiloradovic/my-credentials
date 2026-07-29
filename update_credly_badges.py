@@ -1,8 +1,9 @@
 """
 update_credly_badges.py
 -----------------------
-Fetches both native Credly badges and external Open Badges for a profile
-using public endpoints, merges them, and saves the output to a JSON file.
+Fetches native Credly badges and external Open Badges, merges them,
+saves output to credly_badges.json, generates platform archives,
+and updates README.md via archive_utils.
 """
 
 import json
@@ -11,6 +12,11 @@ import os
 from typing import Any
 
 import requests
+
+try:
+    from archive_utils import generate_platform_archive
+except ImportError:
+    generate_platform_archive = None
 
 # Configure logging
 logging.basicConfig(
@@ -45,10 +51,7 @@ def normalize_date(raw_date: str | None) -> str | None:
 
 
 def fetch_native_badges(username: str) -> list[dict[str, Any]]:
-    """
-    Fetches native Credly badges via the unauthenticated JSON profile route with pagination.
-    Endpoint: https://www.credly.com/users/{username}/badges.json
-    """
+    """Fetches native Credly badges via unauthenticated profile route with pagination."""
     badges = []
     page = 1
     page_size = 100
@@ -116,7 +119,6 @@ def fetch_native_badges(username: str) -> list[dict[str, Any]]:
                 }
                 badges.append(parsed_badge)
 
-            # Pagination check via API metadata
             metadata = data.get("metadata", {})
             total_pages = metadata.get("total_pages")
             if total_pages and page >= total_pages:
@@ -136,10 +138,7 @@ def fetch_native_badges(username: str) -> list[dict[str, Any]]:
 
 
 def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
-    """
-    Fetches public external/imported Open Badges for the user UUID.
-    Endpoint: https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public
-    """
+    """Fetches public external/imported Open Badges for user UUID."""
     url = f"https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public"
     logger.info("🔄 Fetching external open badges from public endpoint...")
 
@@ -218,8 +217,8 @@ def merge_and_save_badges(
     native_badges: list[dict[str, Any]],
     external_badges: list[dict[str, Any]],
     output_filepath: str,
-):
-    """Combines native and external badges, deduplicates, and saves output JSON."""
+) -> list[dict[str, Any]]:
+    """Combines native and external badges, deduplicates, and saves JSON."""
     all_badges = native_badges + external_badges
 
     unique_badges = []
@@ -247,12 +246,98 @@ def merge_and_save_badges(
     except OSError as e:
         logger.error(f"❌ Failed to write output file '{output_filepath}': {e}")
 
+    return unique_badges
+
+
+def build_archives_and_readme(badges: list[dict[str, Any]]) -> None:
+    """Generates markdown archive files and updates README.md via archive_utils."""
+    if not generate_platform_archive:
+        logger.warning("⚠️ archive_utils module not available. Skipping archive generation.")
+        return
+
+    # Sort badges descending by date
+    sorted_badges = sorted(
+        badges,
+        key=lambda b: str(b.get("issued_at") or ""),
+        reverse=True,
+    )
+
+    all_skills = set()
+    formatted_rows = []
+
+    for b in sorted_badges:
+        date_str = b.get("issued_at") or "N/A"
+        title = b.get("title") or "Unknown Credential"
+        verify_url = b.get("verify_url")
+        issuer = b.get("issuer") or "Credly"
+        v_type = b.get("type") or "Credly Verified"
+
+        for skill in b.get("skills", []):
+            if skill:
+                all_skills.add(skill)
+
+        name_cell = f"[{title}]({verify_url})" if verify_url else title
+        row_text = f"| {date_str} | {name_cell} | {issuer} | {v_type} |"
+        formatted_rows.append((row_text, date_str))
+
+    native_count = sum(1 for b in sorted_badges if b.get("type") == "Credly Verified")
+    external_count = sum(1 for b in sorted_badges if b.get("type") == "External/Imported")
+    total_count = len(sorted_badges)
+    total_skills = len(all_skills)
+
+    # Detect markers in README.md
+    marker_start = "<!-- CREDLY_START -->"
+    marker_end = "<!-- CREDLY_END -->"
+    if os.path.exists("README.md"):
+        with open("README.md", "r", encoding="utf-8") as f:
+            content = f.read()
+        if "<!-- CREDLY_BADGES_START -->" in content:
+            marker_start = "<!-- CREDLY_BADGES_START -->"
+            marker_end = "<!-- CREDLY_BADGES_END -->"
+
+    readme_lines = [
+        "### Credly Credentials",
+        "",
+        "[Credly Verified Credentials](https://www.credly.com/users/vojislavmiloradovic/badges)",
+        "",
+        "Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic/badges)",
+        f"**Total Portfolio Credentials:** {total_count} ({native_count} Credly Verified, {external_count} External/Imported)",
+        f"**Total Verified Skills Mapped:** {total_skills}",
+        "",
+        "#### Latest Earned Credentials",
+        "",
+        f"Showing latest 10 of {total_count} credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).",
+        "",
+        "| Date Earned | Credential Name | Issuer | Verification Type |",
+        "| :---: | :--- | :--- | :---: |",
+    ]
+
+    for row_text, _ in formatted_rows[:10]:
+        readme_lines.append(row_text)
+
+    headers = ["Date Earned", "Credential Name", "Issuer", "Verification Type"]
+    alignments = [":---:", ":---", ":---", ":---:"]
+
+    logger.info("🔄 Generating archive files and updating README.md...")
+    generate_platform_archive(
+        platform_prefix="credly-badges",
+        platform_name="Credly Verified Credentials",
+        table_headers=headers,
+        table_alignments=alignments,
+        formatted_rows=formatted_rows,
+        readme_lines=readme_lines,
+        marker_start=marker_start,
+        marker_end=marker_end,
+    )
+    logger.info("✅ Archives and README.md updated successfully.")
+
 
 def main():
     logger.info("Starting Credly Sync Script...")
     native_badges = fetch_native_badges(CREDLY_USERNAME)
     external_badges = fetch_external_badges(CREDLY_USER_ID)
-    merge_and_save_badges(native_badges, external_badges, OUTPUT_FILE)
+    unique_badges = merge_and_save_badges(native_badges, external_badges, OUTPUT_FILE)
+    build_archives_and_readme(unique_badges)
     logger.info("Sync completed successfully.")
 
 
