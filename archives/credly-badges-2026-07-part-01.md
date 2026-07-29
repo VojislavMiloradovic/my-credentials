@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 1 of 10
-date_range: 2026-07-15 to 2026-07-28
+chunk_part: 1 of 2
+date_range: 2026-05-11 to 2026-07-29
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Title | Verified Issuer | Type | Verification Link |
 | :---: | :--- | :--- | :---: | :---: |
+| 2026-07-29 | **Analyze Images with the Cloud Vision API Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be) |
+| 2026-07-29 | **Get Started with Eventarc Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e) |
 | 2026-07-28 | **Optimizing and Maintaining MongoDB Cluster Reliability** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/ef5db49e-1ab5-4ea0-ba70-bf16383e600f) |
 | 2026-07-27 | **AWS Educate Getting Started with Cloud Ops - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/c1b15993-b012-43a3-bdcb-946d4ee73452) |
 | 2026-07-27 | **Beyond Atomic Testing with Attack Flows** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/bb201075-aef3-4e05-b357-f024ab834146) |
@@ -58,11 +60,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-17 | **BDR Basic Course** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/eecab10e-35f3-446c-9503-a4b15c76acf8) |
 | 2026-07-17 | **Building RAG Apps Using MongoDB** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/647d5577-f948-4a84-9093-7b511bca6ecb) |
 | 2026-07-17 | **Top ATT&CK Techniques** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/61cec03c-1282-4a54-b48f-2c31d5a043f1) |
-| 2026-07-16 | **Build a Data Mesh with Dataplex Skill Badge** | issued by Google Cloud | `Credly Verified` | [Verify](https://www.credly.com/badges/68710fa4-e750-49a8-b542-5ed9e47c7e7b) |
-| 2026-07-15 | **AWS Educate Getting Started with Storage - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` | [Verify](https://www.credly.com/badges/c0cd9a0e-d2c9-4c72-9e6f-87b5cedde8a7) |
-| 2026-07-15 | **Building AI-Powered Search with MongoDB Vector Search** | issued by MongoDB | `Credly Verified` | [Verify](https://www.credly.com/badges/106d3801-84c1-4057-8474-6450f2a84b33) |
-| 2026-07-15 | **Cloud Tech Professional Disaster Recovery** | issued by Acronis | `Credly Verified` | [Verify](https://www.credly.com/badges/b1960c54-6ac1-4206-8631-f489b925b6eb) |
-| 2026-07-15 | **Strategic Cybersecurity Management** | issued by AttackIQ | `Credly Verified` | [Verify](https://www.credly.com/badges/e0cfb483-3bab-4f21-b48e-896e6e02a2de) |
+| 2026-06-07 | **Google Play Academy - Store Listing Certificate** | Google Play Academy | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/1473fa50-8b83-4ccf-a376-6cd671db8b80) |
+| 2026-05-11 | **Display & Video 360 Certification Exam** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/0658506c-3b28-4deb-9088-ab7d34d70ff9) |
+| 2026-05-11 | **Privacy for Agencies and Partners Certification** | Skillshop | `External/Imported` | [Verify](https://api.accredible.com/v1/obi/badge_assertions/ce77e9e9-f2c5-4ff4-a2bb-3e5ab37134c3) |
 
 ---
 > **Navigation:** Prev: None | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md)
