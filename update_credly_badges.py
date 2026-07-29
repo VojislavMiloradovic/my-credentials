@@ -1,209 +1,225 @@
-import math
-import re
-import time
-from datetime import datetime, timezone
-
+import json
+import logging
+import os
 import requests
 
-from archiver import RAW_BASE_DEFAULT, generate_platform_archive
+from typing import List, Dict, Any
 
-USERNAME = "vojislavmiloradovic"
-USER_ID = "752aee40-7358-4ade-9a49-81e8b6f49225"
-README_PATH = "README.md"
-ARCHIVE_DIR = "archives"
-PLATFORM_PREFIX = "credly-badges"
-PLATFORM_NAME = "Credly Verified Credentials"
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S"
+)
+logger = logging.getLogger("credly_updater")
 
-MARKER_START = "<!-- CREDLY_BADGES_START -->"
-MARKER_END = "<!-- CREDLY_BADGES_END -->"
+# Profile Identifiers (can be overridden via environment variables)
+CREDLY_USERNAME = os.getenv("CREDLY_USERNAME", "vojislavmiloradovic")
+CREDLY_USER_ID = os.getenv("CREDLY_USER_ID", "752aee40-7358-4ade-9a49-81e8b6f49225")
+OUTPUT_FILE = os.getenv("OUTPUT_FILE", "credly_badges.json")
+
+# Default headers emulating standard browser requests to pass CDN checks
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
 
-def normalize_iso_date(raw_date: str) -> str:
-    """Extracts ISO date string (YYYY-MM-DD or YYYY-MM) from raw string."""
-    if not raw_date or raw_date == "N/A":
-        return "N/A"
-    clean = str(raw_date).split("T")[0].strip(" \t\n\r\"'")
-    match = re.search(r"^\d{4}-\d{2}(-\d{2})?", clean)
-    if match:
-        return match.group(0)
-    return clean if clean else "N/A"
-
-
-def fetch_paginated_data(url_template: str, headers: dict, page_size: int = 100) -> list[dict]:
-    """Fetches paginated JSON data from Credly API endpoints safely."""
-    all_items = []
+def fetch_native_badges(username: str) -> List[Dict[str, Any]]:
+    """
+    Fetches native Credly badges via the unauthenticated JSON profile route with pagination.
+    Endpoint: https://www.credly.com/users/{username}/badges.json
+    """
+    badges = []
     page = 1
-    total_pages = 1
+    page_size = 100
 
-    while page <= total_pages:
-        url = url_template.format(page=page, page_size=page_size)
+    logger.info(f"🔄 Starting native badge fetch for user '{username}'...")
+
+    while True:
+        url = f"https://www.credly.com/users/{username}/badges.json"
+        params = {"page": page, "page_size": page_size}
+
         try:
-            response = requests.get(url, headers=headers, timeout=15)
+            response = requests.get(url, headers=HEADERS, params=params, timeout=15)
             response.raise_for_status()
             data = response.json()
-        except Exception as e:
-            print(f"⚠️ Warning: Request failed for page {page} on URL {url}: {e}")
+
+            raw_badges = data.get("data", [])
+            if not raw_badges:
+                logger.info(f"  No more native badges found on page {page}.")
+                break
+
+            logger.info(f"  Page {page}: Retrieved {len(raw_badges)} native badges.")
+
+            for badge in raw_badges:
+                badge_template = badge.get("badge_template", {})
+
+                # Extract Issuer safely
+                issuer_entities = badge.get("issuer", {}).get("entities", [])
+                issuer_name = (
+                    issuer_entities[0].get("entity", {}).get("name")
+                    if issuer_entities and isinstance(issuer_entities[0], dict)
+                    else "Credly"
+                )
+
+                # Extract Skills safely
+                skills = [
+                    s.get("name")
+                    for s in badge_template.get("skills", [])
+                    if isinstance(s, dict) and s.get("name")
+                ]
+
+                badge_id = badge.get("id")
+
+                parsed_badge = {
+                    "id": badge_id,
+                    "title": badge_template.get("name") or badge.get("name"),
+                    "issuer": issuer_name,
+                    "issued_at": badge.get("issued_at_date") or badge.get("issued_at"),
+                    "expires_at": badge.get("expires_at_date") or badge.get("expires_at"),
+                    "image_url": badge_template.get("image_url") or badge.get("image_url"),
+                    "verify_url": f"https://www.credly.com/badges/{badge_id}/public_url" if badge_id else None,
+                    "type": "Native Credly",
+                    "skills": skills,
+                }
+                badges.append(parsed_badge)
+
+            # Pagination check via API metadata
+            metadata = data.get("metadata", {})
+            total_pages = metadata.get("total_pages")
+            if total_pages and page >= total_pages:
+                break
+
+            # Fallback pagination check
+            if len(raw_badges) < page_size:
+                break
+
+            page += 1
+
+        except requests.exceptions.RequestException as e:
+            logger.error(f"❌ Failed to fetch native badges on page {page}: {e}")
             break
 
-        page_items = data.get("data", [])
-        if not page_items:
-            break
+    logger.info(f"✅ Finished native badge fetch: {len(badges)} native badges total.")
+    return badges
 
-        all_items.extend(page_items)
-        metadata = data.get("metadata", {})
-        
-        # Determine total_pages accurately using available metadata fields
-        if metadata.get("total_pages") is not None:
-            total_pages = metadata["total_pages"]
-        elif metadata.get("total_count") is not None:
-            total_pages = math.ceil(metadata["total_count"] / page_size)
-        elif len(page_items) < page_size:
-            total_pages = page
-        else:
-            total_pages = max(total_pages, page + 1)
 
-        page += 1
-        time.sleep(0.3)
+def fetch_external_badges(user_id: str) -> List[Dict[str, Any]]:
+    """
+    Fetches public external/imported Open Badges for the user UUID.
+    Endpoint: https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public
+    """
+    url = f"https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public"
+    logger.info(f"🔄 Fetching external open badges from public endpoint...")
 
-    return all_items
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=15)
+        response.raise_for_status()
+        data = response.json()
+
+        raw_external = (
+            data.get("data", [])
+            if isinstance(data, dict)
+            else (data if isinstance(data, list) else [])
+        )
+        logger.info(f"  Retrieved {len(raw_external)} external open badges.")
+
+        parsed_external = []
+        for item in raw_external:
+            if not isinstance(item, dict):
+                continue
+
+            badge_info = item.get("badge", {}) if isinstance(item.get("badge"), dict) else {}
+            assertion = item.get("assertion", {}) if isinstance(item.get("assertion"), dict) else {}
+
+            title = (
+                badge_info.get("name")
+                or assertion.get("badge", {}).get("name")
+                or item.get("title")
+                or "External Badge"
+            )
+
+            issuer_name = (
+                badge_info.get("issuer", {}).get("name")
+                or assertion.get("badge", {}).get("issuer", {}).get("name")
+                or item.get("issuer_name")
+                or "External Issuer"
+            )
+
+            issued_at = (
+                assertion.get("issuedOn")
+                or item.get("issued_at")
+                or item.get("issued_at_date")
+            )
+
+            badge_id = item.get("id") or item.get("uuid")
+
+            parsed_external.append({
+                "id": badge_id,
+                "title": title,
+                "issuer": issuer_name,
+                "issued_at": issued_at,
+                "expires_at": item.get("expires_at"),
+                "image_url": badge_info.get("image") or item.get("image_url"),
+                "verify_url": item.get("verify_url") or assertion.get("id"),
+                "type": "External Open Badge",
+                "skills": item.get("skills", []),
+            })
+
+        logger.info(f"✅ Successfully parsed {len(parsed_external)} external badges.")
+        return parsed_external
+
+    except requests.exceptions.RequestException as e:
+        logger.warning(f"⚠️ Warning: Failed to fetch external badges: {e}")
+        return []
+
+
+def merge_and_save_badges(
+    native_badges: List[Dict[str, Any]],
+    external_badges: List[Dict[str, Any]],
+    output_filepath: str
+):
+    """Combines native and external badges, deduplicates, and saves output JSON."""
+    all_badges = native_badges + external_badges
+
+    unique_badges = []
+    seen = set()
+
+    for badge in all_badges:
+        key = badge.get("id") or f"{badge.get('title')}-{badge.get('issuer')}"
+        if key not in seen:
+            seen.add(key)
+            unique_badges.append(badge)
+
+    payload = {
+        "user_username": CREDLY_USERNAME,
+        "user_id": CREDLY_USER_ID,
+        "total_count": len(unique_badges),
+        "native_count": len(native_badges),
+        "external_count": len(external_badges),
+        "badges": unique_badges,
+    }
+
+    try:
+        with open(output_filepath, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+        logger.info(f"🎉 Output written to '{output_filepath}' ({len(unique_badges)} total badges).")
+    except IOError as e:
+        logger.error(f"❌ Failed to write output file '{output_filepath}': {e}")
 
 
 def main():
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "application/json",
-    }
-
-    print("🔄 Fetching Credly badges...")
-    # Updated native URL template to official API v1 endpoint with explicit page_size
-    native_url_template = f"https://www.credly.com/api/v1/users/{USER_ID}/badges?page={{page}}&page_size={{page_size}}"
-    native_raw = fetch_paginated_data(native_url_template, headers, page_size=100)
-
-    external_url_template = f"https://www.credly.com/api/v1/users/{USER_ID}/external_badges/open_badges/public?page={{page}}&page_size={{page_size}}"
-    external_raw = fetch_paginated_data(external_url_template, headers, page_size=100)
-
-    badges = []
-    all_skills_set = set()
-
-    # 1. Process Native Credly Badges
-    for item in native_raw:
-        badge_id = item.get("id")
-        issued_at = normalize_iso_date(item.get("issued_at_date") or item.get("issued_at", "N/A"))
-
-        template = item.get("badge_template", {})
-        name = template.get("name", "Unknown Badge")
-
-        raw_skills = template.get("skills", [])
-        badge_skills = []
-        for s in raw_skills:
-            skill_name = s.get("name") if isinstance(s, dict) else str(s)
-            if skill_name:
-                badge_skills.append(skill_name)
-                all_skills_set.add(skill_name)
-
-        issuer = template.get("issuer", {})
-        issuer_name = issuer.get("summary") or issuer.get("name") or "Verified Issuer"
-        verify_url = f"https://www.credly.com/badges/{badge_id}"
-
-        badges.append({
-            "name": name,
-            "issuer": issuer_name,
-            "date": issued_at,
-            "verify": verify_url,
-            "type": "Credly Verified",
-            "skills": badge_skills,
-        })
-
-    # 2. Process External / Imported Badges
-    for item in external_raw:
-        ext = item.get("external_badge", {})
-        name = ext.get("badge_name") or item.get("name") or "Unknown Certification"
-        issuer_name = ext.get("issuer_name") or item.get("issuer") or "Third-Party Issuer"
-        issued_at = normalize_iso_date(ext.get("issued_at_date") or item.get("issued_at_date") or "N/A")
-
-        verify_url = ext.get("badge_url") or item.get("verification_url") or f"https://www.credly.com/users/{USERNAME}"
-
-        raw_skills = item.get("skills", [])
-        badge_skills = []
-        if isinstance(raw_skills, list):
-            for s in raw_skills:
-                skill_name = s.get("name") if isinstance(s, dict) else str(s)
-                if skill_name:
-                    badge_skills.append(skill_name)
-                    all_skills_set.add(skill_name)
-
-        badges.append({
-            "name": name,
-            "issuer": issuer_name,
-            "date": issued_at,
-            "verify": verify_url,
-            "type": "External/Imported",
-            "skills": badge_skills,
-        })
-
-    # 3. Sort Badges Descending by Date
-    badges.sort(key=lambda x: x["date"] if x["date"] != "N/A" else "0000-00-00", reverse=True)
-
-    total_badges = len(badges)
-    unique_skills = sorted(all_skills_set)
-    total_skills = len(unique_skills)
-    native_count = sum(1 for b in badges if b["type"] == "Credly Verified")
-    external_count = sum(1 for b in badges if b["type"] == "External/Imported")
-
-    # 4. Format Rows for Monolith & Chunked Archives
-    formatted_rows = []
-    for b in badges:
-        clean_name = b["name"].replace("|", "\\|")
-        clean_issuer = b["issuer"].replace("|", "\\|")
-        row_text = f"| {b['date']} | **{clean_name}** | {clean_issuer} | `{b['type']}` | [Verify]({b['verify']}) |"
-        formatted_rows.append((row_text, b["date"]))
-
-    # 5. Build README content block
-    now_ym = datetime.now(timezone.utc).strftime("%Y-%m")
-    index_filename = f"{PLATFORM_PREFIX}-index.md"
-    monolith_filename = f"{PLATFORM_PREFIX}-complete.md"
-    index_raw = f"{RAW_BASE_DEFAULT}/{index_filename}"
-    latest_chunk_raw = f"{RAW_BASE_DEFAULT}/{PLATFORM_PREFIX}-{now_ym}-part-01.md"
-
-    readme_lines = [
-        "### Credly Verified Credentials",
-        f"- **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/{USERNAME})",
-        f"- **Total Portfolio Credentials:** {total_badges} ({native_count} Credly Verified, {external_count} External/Imported)",
-        f"- **Total Verified Skills Mapped:** {total_skills}\n",
-        "#### Latest Earned Credentials",
-        f"Showing latest 10 of {total_badges:,} credentials. View the full dataset via the [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({latest_chunk_raw}), or the [Monolithic Complete File](./archives/{monolith_filename}).\n",
-        "| Date Earned | Credential Name | Issuer | Verification Type |",
-        "| :---: | :--- | :--- | :---: |",
-    ]
-
-    for b in badges[:10]:
-        clean_name = b["name"].replace("|", "\\|")
-        clean_issuer = b["issuer"].replace("|", "\\|")
-        readme_lines.append(f"| *{b['date']}* | **{clean_name}** | {clean_issuer} | `{b['type']}` |")
-
-    # Extra Skills Section inserted prior to table in Monolith
-    skills_monolith_header = (
-        "## Mapped Professional Skills\n\n"
-        + ", ".join([f"`{skill}`" for skill in unique_skills])
-        + "\n\n---\n\n"
-    )
-
-    # 6. Delegate generation and README insertion to archiver module
-    generate_platform_archive(
-        platform_prefix=PLATFORM_PREFIX,
-        platform_name=PLATFORM_NAME,
-        table_headers=["Date Earned", "Credential Title", "Verified Issuer", "Type", "Verification Link"],
-        table_alignments=[":---:", ":---", ":---", ":---:", ":---:"],
-        formatted_rows=formatted_rows,
-        readme_lines=readme_lines,
-        marker_start=MARKER_START,
-        marker_end=MARKER_END,
-        archive_dir=ARCHIVE_DIR,
-        readme_path=README_PATH,
-        extra_monolith_header_md=skills_monolith_header,
-    )
-
-    print(f"✅ Successfully updated Credly badges archive & README! Total badges: {total_badges} ({native_count} native, {external_count} external)")
+    logger.info("Starting Credly Sync Script...")
+    native_badges = fetch_native_badges(CREDLY_USERNAME)
+    external_badges = fetch_external_badges(CREDLY_USER_ID)
+    merge_and_save_badges(native_badges, external_badges, OUTPUT_FILE)
+    logger.info("Sync completed successfully.")
 
 
 if __name__ == "__main__":
