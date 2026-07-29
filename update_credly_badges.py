@@ -37,6 +37,13 @@ HEADERS = {
 }
 
 
+def normalize_date(raw_date: str | None) -> str | None:
+    """Extracts YYYY-MM-DD from ISO or timestamp strings."""
+    if not raw_date:
+        return None
+    return str(raw_date).split("T")[0]
+
+
 def fetch_native_badges(username: str) -> list[dict[str, Any]]:
     """
     Fetches native Credly badges via the unauthenticated JSON profile route with pagination.
@@ -83,16 +90,28 @@ def fetch_native_badges(username: str) -> list[dict[str, Any]]:
                 ]
 
                 badge_id = badge.get("id")
+                title = badge_template.get("name") or badge.get("name")
+                issued_at = normalize_date(badge.get("issued_at_date") or badge.get("issued_at"))
+                expires_at = normalize_date(badge.get("expires_at_date") or badge.get("expires_at"))
+                image_url = badge_template.get("image_url") or badge.get("image_url")
+                verify_url = f"https://www.credly.com/badges/{badge_id}/public_url" if badge_id else None
 
                 parsed_badge = {
                     "id": badge_id,
-                    "title": badge_template.get("name") or badge.get("name"),
+                    "title": title,
+                    "name": title,
                     "issuer": issuer_name,
-                    "issued_at": badge.get("issued_at_date") or badge.get("issued_at"),
-                    "expires_at": badge.get("expires_at_date") or badge.get("expires_at"),
-                    "image_url": badge_template.get("image_url") or badge.get("image_url"),
-                    "verify_url": f"https://www.credly.com/badges/{badge_id}/public_url" if badge_id else None,
-                    "type": "Native Credly",
+                    "issuer_name": issuer_name,
+                    "issued_at": issued_at,
+                    "issued_at_date": issued_at,
+                    "date": issued_at,
+                    "expires_at": expires_at,
+                    "image_url": image_url,
+                    "image": image_url,
+                    "verify_url": verify_url,
+                    "url": verify_url,
+                    "type": "Credly Verified",
+                    "verification_type": "Credly Verified",
                     "skills": skills,
                 }
                 badges.append(parsed_badge)
@@ -103,7 +122,6 @@ def fetch_native_badges(username: str) -> list[dict[str, Any]]:
             if total_pages and page >= total_pages:
                 break
 
-            # Fallback pagination check
             if len(raw_badges) < page_size:
                 break
 
@@ -159,23 +177,32 @@ def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
                 or "External Issuer"
             )
 
-            issued_at = (
+            issued_at = normalize_date(
                 assertion.get("issuedOn")
                 or item.get("issued_at")
                 or item.get("issued_at_date")
             )
 
             badge_id = item.get("id") or item.get("uuid")
+            image_url = badge_info.get("image") or item.get("image_url")
+            verify_url = item.get("verify_url") or assertion.get("id")
 
             parsed_external.append({
                 "id": badge_id,
                 "title": title,
+                "name": title,
                 "issuer": issuer_name,
+                "issuer_name": issuer_name,
                 "issued_at": issued_at,
-                "expires_at": item.get("expires_at"),
-                "image_url": badge_info.get("image") or item.get("image_url"),
-                "verify_url": item.get("verify_url") or assertion.get("id"),
-                "type": "External Open Badge",
+                "issued_at_date": issued_at,
+                "date": issued_at,
+                "expires_at": normalize_date(item.get("expires_at")),
+                "image_url": image_url,
+                "image": image_url,
+                "verify_url": verify_url,
+                "url": verify_url,
+                "type": "External/Imported",
+                "verification_type": "External/Imported",
                 "skills": item.get("skills", []),
             })
 
