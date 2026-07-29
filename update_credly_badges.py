@@ -90,11 +90,12 @@ def fetch_native_badges(username: str) -> list[dict[str, Any]]:
                 )
 
                 # Extract Skills safely
-                skills = [
-                    s.get("name")
-                    for s in badge_template.get("skills", [])
-                    if isinstance(s, dict) and s.get("name")
-                ]
+                skills = []
+                for s in badge_template.get("skills", []):
+                    if isinstance(s, str) and s.strip():
+                        skills.append(s.strip())
+                    elif isinstance(s, dict) and s.get("name"):
+                        skills.append(str(s.get("name")).strip())
 
                 badge_id = badge.get("id")
                 title = badge_template.get("name") or badge.get("name")
@@ -192,6 +193,16 @@ def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
             image_url = badge_info.get("image") or item.get("image_url")
             verify_url = item.get("verify_url") or assertion.get("id")
 
+            # Extract Skills safely
+            raw_skills = item.get("skills", [])
+            skills = []
+            if isinstance(raw_skills, list):
+                for s in raw_skills:
+                    if isinstance(s, str) and s.strip():
+                        skills.append(s.strip())
+                    elif isinstance(s, dict) and s.get("name"):
+                        skills.append(str(s.get("name")).strip())
+
             parsed_external.append({
                 "id": badge_id,
                 "title": title,
@@ -208,7 +219,7 @@ def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
                 "url": verify_url,
                 "type": "External/Imported",
                 "verification_type": "External/Imported",
-                "skills": item.get("skills", []),
+                "skills": skills,
             })
 
         logger.info(f"✅ Successfully parsed {len(parsed_external)} external badges.")
@@ -279,8 +290,10 @@ def build_archives_and_readme(badges: list[dict[str, Any]]) -> None:
         v_type = b.get("type") or "Credly Verified"
 
         for skill in b.get("skills", []):
-            if skill:
-                all_skills.add(skill)
+            if isinstance(skill, str) and skill.strip():
+                all_skills.add(skill.strip())
+            elif isinstance(skill, dict) and skill.get("name"):
+                all_skills.add(str(skill.get("name")).strip())
 
         name_cell = f"[{title}]({verify_url})" if verify_url else title
         row_text = f"| {date_str} | {name_cell} | {issuer} | {v_type} |"
