@@ -113,24 +113,24 @@ Showing latest 10 of 466 activities. View the full dataset via the [Platform Arc
 <!-- CREDLY_BADGES_START -->
 ### Credly Verified Credentials
 - **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
-- **Total Portfolio Credentials:** 71 (48 Credly Verified, 23 External/Imported)
-- **Total Verified Skills Mapped:** 286
+- **Total Portfolio Credentials:** 23 (0 Credly Verified, 23 External/Imported)
+- **Total Verified Skills Mapped:** 111
 
 #### Latest Earned Credentials
-Showing latest 10 of 71 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
+Showing latest 10 of 23 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| *2026-07-29* | **Analyze Images with the Cloud Vision API Skill Badge** | issued by Google Cloud | `Credly Verified` |
-| *2026-07-29* | **Get Started with Eventarc Skill Badge** | issued by Google Cloud | `Credly Verified` |
-| *2026-07-28* | **Optimizing and Maintaining MongoDB Cluster Reliability** | issued by MongoDB | `Credly Verified` |
-| *2026-07-27* | **AWS Educate Getting Started with Cloud Ops - Training Badge** | issued by Amazon Web Services Training and Certification | `Credly Verified` |
-| *2026-07-27* | **Beyond Atomic Testing with Attack Flows** | issued by AttackIQ | `Credly Verified` |
-| *2026-07-27* | **Building GenAI Applications with MongoDB** | issued by MongoDB | `Credly Verified` |
-| *2026-07-27* | **Cloud Sales Pro - Security Posture Management** | issued by Acronis | `Credly Verified` |
-| *2026-07-27* | **Develop AI-Powered Prototypes in Google AI Studio** | issued by Google Cloud | `Credly Verified` |
-| *2026-07-27* | **Monitoring MongoDB with Built-in Tools** | issued by MongoDB | `Credly Verified` |
-| *2026-07-27* | **MSP Academy: Automation** | issued by Acronis | `Credly Verified` |
+| *2026-06-07* | **Google Play Academy - Store Listing Certificate** | Google Play Academy | `External/Imported` |
+| *2026-05-11* | **Display & Video 360 Certification Exam** | Skillshop | `External/Imported` |
+| *2026-05-11* | **Privacy for Agencies and Partners Certification** | Skillshop | `External/Imported` |
+| *2026-04-22* | **Google Ads Video Certification** | Skillshop | `External/Imported` |
+| *2026-04-21* | **Google Ads Creative Certification** | Skillshop | `External/Imported` |
+| *2026-04-19* | **Google Ads Display Certification** | Skillshop | `External/Imported` |
+| *2026-04-01* | **Campaign manager 360 Certification Exam** | Skillshop | `External/Imported` |
+| *2026-03-30* | **Conversion Optimization Certification Exam** | Skillshop | `External/Imported` |
+| *2026-03-26* | **Grow Offline Sales Certification** | Skillshop | `External/Imported` |
+| *2026-03-25* | **Microsoft Applied Skills: Generate reports with AI research agents** | Microsoft | `External/Imported` |
 <!-- CREDLY_BADGES_END -->
 
 
