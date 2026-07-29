@@ -145,7 +145,7 @@ Showing latest 10 of 471 credentials. View the full dataset via the [Platform Ar
 #### Progress Metrics
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,227 |
+| **Total External Certifications Verified** | 1,285 |
 
 
 #### Recent Certifications
@@ -153,16 +153,16 @@ Showing latest 10 items. View the full dataset via the [Platform Archive Index](
 
 | Date | Certification Title | Issuing Authority | Credentials Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-07* | **Secure Software Delivery Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2cf13bdf-9555-4bac-a807-2f80b52ddb56/linked_in_profile) |
-| *2026-07* | **Arcade Base Camp July 2026** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25679839?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| *2026-07* | **Nano Tips for Building a LinkedIn Presence as an Early Career Professional with Lindsay Rosenthal** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8bd70cb8dc6dec4ce59d87920e0e6184e94fbbfc79bc4712ebb9cdf206c5960d) |
-| *2026-07* | **Small Business Marketing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/94db99f46d47baf611df7e9cc96772d22004fc6b9875cd832a541e35feac1513) |
-| *2026-07* | **Building RAG Apps Using MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/647d5577-f948-4a84-9093-7b511bca6ecb/linked_in_profile) |
-| *2026-07* | **Top ATT&CK Techniques** | AttackIQ | [Verify Record](https://www.credly.com/badges/61cec03c-1282-4a54-b48f-2c31d5a043f1/linked_in_profile) |
-| *2026-07* | **BDR Basic Course** | Acronis | [Verify Record](https://www.credly.com/badges/eecab10e-35f3-446c-9503-a4b15c76acf8/linked_in_profile) |
-| *2026-07* | **Build a Data Mesh with Knowledge Catalog** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597616?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| *2026-07* | **Arcade Simulator: Data Mesh Architect** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597578?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| *2026-07* | **Leading the Shift: Creating the new field of data for social impact \| data.org** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/19c7c31ad1b900e39f878eceff224ed84d4fe56be28f0a20b8ee1197b6562f61) |
+| *2026-07* | **Cloud Sales Pro - Protected 365** | Acronis | [Verify Record](https://www.credly.com/badges/da80423d-93c4-4353-949e-47fe38205bb8/linked_in_profile) |
+| *2026-07* | **Cloud Sales Professional MDR** | Acronis | [Verify Record](https://www.credly.com/badges/6efa11ee-1073-454d-962f-8288a8b69bf7/linked_in_profile) |
+| *2026-07* | **Analyze Images with the Cloud Vision API** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26066863?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| *2026-07* | **Build Event-Driven Applications with Eventarc** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26065872?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| *2026-07* | **Optimizing and Maintaining MongoDB Cluster Reliability** | MongoDB | [Verify Record](https://www.credly.com/badges/ef5db49e-1ab5-4ea0-ba70-bf16383e600f/linked_in_profile) |
+| *2026-07* | **Monitoring MongoDB with Built-in Tools** | MongoDB | [Verify Record](https://www.credly.com/badges/adc19ddf-d4cd-43e0-ba42-9321bcf43590/linked_in_profile) |
+| *2026-07* | **Optimizing MongoDB Performance with Tuning Tools** | MongoDB | [Verify Record](https://www.credly.com/badges/82776add-b997-4015-8224-59cadac439e9/linked_in_profile) |
+| *2026-07* | **Using Voyage Models with MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/ff0f8b49-ec79-420e-854b-6f4f5d7b29e5/linked_in_profile) |
+| *2026-07* | **Building GenAI Applications with MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/4bd6f004-be81-4cc2-bc6a-8c12d1a51a4c/linked_in_profile) |
+| *2026-07* | **Search with MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/2e01c42a-77e8-4636-9168-5cfac204a43f/linked_in_profile) |
 
 <!-- LINKEDIN_END -->
 

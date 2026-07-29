@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 8 of 28
+chunk_part: 8 of 29
 date_range: 2026-06 to 2026-06
-total_entries: 44
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-08.md
 ---
 
@@ -12,50 +12,51 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **LFD114: Porting Software to RISC-V** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/bb54e8cf-48fd-49a8-8cfc-6e4e182504e3/linked_in_profile) |
-| 2026-06 | **LFC101: Inclusive Speaker Orientation** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/ad970f8a-3675-4caa-b4bf-70a3b661751f/linked_in_profile) |
-| 2026-06 | **Cloud Tech Professional Advanced Backup** | Acronis | [Verify Record](https://www.credly.com/badges/73990582-085d-46e4-a7b9-537fdb44401e/linked_in_profile) |
-| 2026-06 | **AWS Knowledge: Media & Entertainment: Direct-to-Consumer and Broadcast Foundations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/3b24da57-1197-413e-8fa4-fdb2fe314113/linked_in_profile) |
-| 2026-06 | **Navigating Generative AI Ethics: Guided by Transparency, Accountability, and Responsibility Principles by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b398f70ada9b3d88b2634d17d8a0f252c6b4dbe8b855d7c76fdf6775e2e6a6e5) |
-| 2026-06 | **Guided Lab: Model Context Protocol (MCP) for Data Science Models** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5fbdf576432de68c2bd93ffe313d691df7667c8c987fb5c6f175a9b17fa76035) |
-| 2026-06 | **How to Build a Strong Professional Brand on LinkedIn with LinkedIn Career Expert Andrew Seaman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/77c955cf6a957a2c07a8f9ca816ca6c2cbf145813ee5e40cbc0a38f5b3c7d84c) |
-| 2026-06 | **How to Generate Marketing Leads with AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2dbfc20cdac1b57e1da0bbc7057fe047a6b9b6e1b557997ed2cd24d0355d2c89) |
-| 2026-06 | **Future-Proofing Your Career** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e687441c5c58363cd0962f01f3f8ca9276b6848397e73a0e0f702792a52e7811) |
-| 2026-06 | **What to Post on LinkedIn to Stand Out** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1d5ef438d0141d90b05a26d68abc6c00961c225fecc708e32836cfcdbb700faf) |
-| 2026-06 | **Leading the Shift: AI and analytics on and off the court \| NBA** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/785ef8b28a1c0d2ea8dede1ec18e62f5ceeaea375837160d55c470288be6dcc2) |
-| 2026-06 | **Leading the Shift: Data doesn't just fuel generative AI-it goes both ways \| dentsu** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4e99ac7f026e4e3236e05de6a7b4b22eba448675938455a0e14dedf677e6b93d) |
-| 2026-06 | **Data Impact with DJ Patil** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/89be6687009e2858241f7a5a20d46110a852fe7f450fa66f804df6fca85e618f) |
-| 2026-06 | **Building No-Code Apps with AppSheet: Automation** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25137908?utm_medium=social) |
-| 2026-06 | **Nano Tips to Use AI to Be a More Effective Manager with Ashley Herd** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/079ff2be33c670cf824d6bff1c6d60af67ad12f8f67ae70aff4f0d528b6c022a) |
-| 2026-06 | **Automating Your Work with Custom GPTs (No Code Required) (2025)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2cf33f14c1f4b0732358bbe8397a7d3dc153d9292be3d9c881db5f9bee8a1d35) |
-| 2026-06 | **Become a Generative AI Power Prompter and Content Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/71276e4169e0da01412f33a3990cc3eddb8da44346fda1213c625f56d2f21ef7) |
-| 2026-06 | **Governing AI Agents: Visibility and Control** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6f49e14bbfef9df3d8e495a6802cd7face18ba633b038fefae9f74cf73e0dac7) |
-| 2026-06 | **Governing Agentic AI Systems by All Tech Is Human** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0da5ec3fb8ebb31aee341f54983a88f7cc28e48fdee12190e9f8ecfd12d17f63) |
-| 2026-06 | **Agentic AI: Building Data-First AI Agents** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/411dee8caf309fac0e10b2fa9d1f653f92bbacff4b3d0ee0b58af78d87c2a003) |
-| 2026-06 | **How to Land a Board Seat with Baroness Dambisa Moyo** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4a7955d1c4143caf4136602c369195c33045e8f7c6dc98ead3ecf1148c24fe55) |
-| 2026-06 | **The AI Agent Landscape: Use Cases, Risks, and Impact** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c1aa8b882b1dbb11602ba0a0183ac045e7749a31a61a2910624a3d4efde38a08) |
-| 2026-06 | **Model Context Protocol (MCP) for Beginners by Microsoft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/59acefd098a532176b330202b4de68f53b74d18652119b6a20a241951ed7a2b0) |
-| 2026-06 | **Agentic AI Business Strategy: A Conversation with Charlene Li** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4458a15d853857f28f55af0c3965bd593f9853b10ac6e00231c197094ef12496) |
-| 2026-06 | **Vulnerability Management Certificate** | Chainguard | [Verify Record](https://verify.skilljar.com/c/kdb9ts7odhps) |
-| 2026-06 | **Chainguard Vulnslayer** | Chainguard | [Verify Record](https://www.credly.com/badges/c4a36cd5-da9e-4d5c-b281-7ad49c7e0a75/linked_in_profile) |
-| 2026-06 | **LFS162: Introduction to DevOps and Site Reliability Engineering** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/f817c27f-3003-4fbe-a870-f0edbf0fb604/linked_in_profile) |
-| 2026-06 | **LFC191: Open Source Licensing Basics for Software Developers** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/b3e5eab0-8654-434e-a86c-23f8481036ff/linked_in_profile) |
-| 2026-06 | **LFS114: Introduction to free5GC** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/b602ddb6-a1da-4519-aa64-2757df49381e/linked_in_profile) |
-| 2026-06 | **LFS140: Feature Flagging with OpenFeature** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/0ff9afda-beba-4e6e-a90f-dfba868a5631/linked_in_profile) |
-| 2026-06 | **Cloud Sales Fundamentals** | Acronis | [Verify Record](https://www.credly.com/badges/f38a3c55-4e53-4eb5-8eb8-5a98e428fff7/linked_in_profile) |
-| 2026-06 | **AWS Knowledge: Data Protection & Disaster Recovery - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b0648167-39ae-4aca-b7dd-cc83c7ade7da/linked_in_profile) |
-| 2026-06 | **Applying Advanced LookML Concepts in Looker** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25096906?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **Understanding LookML in Looker** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25096293?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **Customer Experience Agent Studio: Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25048886?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **Troubleshooting with AI Using Cloud Assist Investigations** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25020466?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **AI Boost Bootcamp: How to Use Gemini for Marketing 201** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24914097?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **Essential Google Cloud CLI Tools** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24880145?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **Managing Cloud Infrastructure with Terraform** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24879428?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **Google Cloud Essentials** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24830932?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **Analyzing and Visualizing Data in Looker** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24658131?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **DJ Patil on Data Science: The Ask Me Anything Conversations** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0acbba7b2cf62360a44793259109fac10273ad7c3ed0516f9126862949567c76) |
-| 2026-06 | **Using the Google Cloud Speech API** | Google | [Verify Record](https://www.credly.com/badges/858557c5-7a5b-430b-9068-9712aaa334a9/linked_in_profile) |
-| 2026-06 | **Chainguard AI/ML Guardian** | Chainguard | [Verify Record](https://www.credly.com/badges/d2cacfac-d281-4064-b53b-574c5e6aeb63/linked_in_profile) |
+| 2026-06 | **AI Fluency: Generative AI for Career Growth and Job Search by Microsoft and NAWB** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9d697e6d062b3dfd9fa19cd6b386ba7bf8c0ef80b9b7fe281be67c19df93932f) |
+| 2026-06 | **AI Fluency: Generative AI for Workforce Agency Administrators by Microsoft and NAWB** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f2c1ee6ae0c4c71f9af8a92fe7be726eee4f1d2f0e112cb5c920dbfa7b225276) |
+| 2026-06 | **Get Started with Auth0 Tenants** | Okta | [Verify Record](https://www.credly.com/badges/a626c5ef-b24c-4dce-be69-548d51377e78/linked_in_profile) |
+| 2026-06 | **Nano Tips for Navigating Corporate Culture with Watchen Nyanue** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8ded0b8ada19903a6cd4a4a6ebdcf6a155b4dd3e6f071f0bea7c4b3df1aba6ce) |
+| 2026-06 | **Process Automation Basics** | Celonis | [Verify Record](https://www.credly.com/badges/8da97b58-6d1d-46ef-bad3-34ed67aa3baa/linked_in_profile) |
+| 2026-06 | **Monitor KPIs in Execution Apps** | Celonis | [Verify Record](https://www.credly.com/badges/648e7ea8-11ed-42ec-8bb2-68235dd7841a/linked_in_profile) |
+| 2026-06 | **Monitor KPIs in Analysis Dashboards** | Celonis | [Verify Record](https://www.credly.com/badges/d23419cf-0b96-4003-8c51-d0156b673365/linked_in_profile) |
+| 2026-06 | **Celonis Foundations** | Celonis | [Verify Record](https://www.credly.com/badges/e2811911-4464-4eb1-9981-681c751363bf/linked_in_profile) |
+| 2026-06 | **Nano Tips To Improve Adaptability and Flexibility with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/39e0f33e8ed9d6becf8c93eb8ce821fb4dd3ac4d9de29982514705d342eef74d) |
+| 2026-06 | **Nano Tips for Digital Networking with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7c1d2eb3c0d57562c6ce9d9e20a3e32258a2d14a20591a04ea7771d122f2a811) |
+| 2026-06 | **Cloud Tech Associate Advanced Disaster Recovery** | Acronis | [Verify Record](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937/linked_in_profile) |
+| 2026-06 | **AWS Knowledge: Migration Foundations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c6d0351c-5227-4931-8bec-3d4789d4fe0e/linked_in_profile) |
+| 2026-06 | **How to Evaluate a Job Offer's Benefits Package** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/61d903e771dcc60fa36d6c5a2dadcbf1869f97340dfd6ee6792ce088eb278fcc) |
+| 2026-06 | **Nano Tips for Effortless Conversations with Shadé Zahrai and Jefferson Fisher** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0bfd90fd1c2be378fde459a28b0dc78498c1fc127fea3a88e6b9c69e2c33e169) |
+| 2026-06 | **Nano Tips for Leading with Positivity with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/833890872bdf5c98127fb8816d206244d41051d4ac02ce4e825ed81e8dbbfae9) |
+| 2026-06 | **A Standalone Project: Perform Data Analytics to Find Trends through Visualization** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a778b6a9f7ff19c0252f1969d443e7ca096e35c81ad998f62377ca23279650d5) |
+| 2026-06 | **Harnessing AI in the Recruiting Lifecycle** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/574b2e278ebca2d97b14730b09dbf4b4cd446df9079de43da562ee54d3fd0cd9) |
+| 2026-06 | **Boosting Your Negotiation Skills with Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/89025fad23b3dca0ebd46500cd6df3f584e27735204ea9c23eeac130ec4ac260) |
+| 2026-06 | **Build with AI: Create an Agent with GPT-OSS** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f79baa51ac1f6f09381a7aeb00e5e48d7641e0e13e339129d4d3a50b019d8325) |
+| 2026-06 | **Agentic Artificial Intelligence: Harnessing AI Agents to Reinvent Business, Work, and Life** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ef16d1a547f6e3dbc675749db607699961b1ac9cc6f3caa8d45d02d5379cd743) |
+| 2026-06 | **Agentic AI: Tools and Strategies for the Super Agent Future** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d7c01042b07c62842e2851737449a8384fc8243b5e24b2b77b8ece28b24dc987) |
+| 2026-06 | **Building AI Agents: From Zero to Production by Microsoft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3673fc1b227c9bce4657197fe26e881d62d28c1a82be1e9d92fd747b6f552e9a) |
+| 2026-06 | **Introduction to Agentic AI Governance** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ac8b2404a936a3ecad4a40bf104354785a4fc35090dd939e22487021757c0611) |
+| 2026-06 | **Creative Inspirations: Dale Herigstad & Schematic, Interactive Design Agency** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/05fea599c23965884afed901289c519f23b4a23bffe29d64521f867b12d26129) |
+| 2026-06 | **Creative Inspirations: tokidoki, Character Illustrator** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8e4378e6a6c6e4a78f44a6a9bfc949e0df9c077f7f6354125665f68b75a2cce1) |
+| 2026-06 | **Adobe Firefly's AI-Driven Business Solutions: A Conversation with Bart Van de Wiele** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/aee391125c3b31f76c10001cc8b7a5a644d57eb56037bc9537734aa6c8797e11) |
+| 2026-06 | **Douglas Kirkland on Photography: A Conversation with Gerd Ludwig** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e9fb4813da2598e0cd1c84b5444a93d5fe3d62f9c8b5343ecec2280ea441fffd) |
+| 2026-06 | **Configure Service Accounts and IAM Roles for Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/ddaa4bce-2772-4181-9a7c-21252929399d/linked_in_profile) |
+| 2026-06 | **Photography: First Steps** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7ea706156e4a86c692556656e996a309f605896c63ef1448ad376d7f6a91bec2) |
+| 2026-06 | **Creative Inspirations: Natalie Fobes, Photographer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1c7b962ec6768c30c7c33cf8af998ef38caf13650d4cea70ca92bcee183478ca) |
+| 2026-06 | **Jason Seiler: Digital and Traditional Painter** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a86b78580f34b94a87911aeeedbaa96a692249f46ad3bc3ea9063f7df66cd3ee) |
+| 2026-06 | **Creative Inspirations: Ze Frank, Comedic Digital Savant** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ddd3eabf293adab70f5f5f47d0585343966665c1ba319ef646df16066348ea1a) |
+| 2026-06 | **Creative Inspirations: New Deal Studios, Visual Effects** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/555b724502f78cacc720ccdaa90591611fcc4aa0ad89ad22244483bd29e125ed) |
+| 2026-06 | **The Creative Spark: Beeple, Everyday Artist** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dd7e54523d7cba5559d65c8093d8b4b727b4a6b84b48f074b368e78030cc2e2f) |
+| 2026-06 | **Adonna Khare Large Scale Art** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/65059155a1eac2538a0e3756c614aeab77b389276577de9f2151696e33a53694) |
+| 2026-06 | **Concert Motion Graphics with Ghost Town Media** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f95715809ab192246a18cee30a04c7d10767c27e313d214ca5816a4a4e9a3a0b) |
+| 2026-06 | **Darin McGowan: The Storyboard Artist's Life** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/591c412c042afd7aacb61b16c1d54745aad83647cd67c5998c981d0c307afcaa) |
+| 2026-06 | **Lindsey Pollard: Supervising Animation Director** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ded866784fb20d5b3a85dbf3d5e76ff43b2c4630191f339c75f13c378796f56c) |
+| 2026-06 | **A Standalone Project: Measure Noise Pollution with IoT Sensors to Provide Real-Time Data** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/59e076f85d62ddc20d6a2f1df7c4363c690d42d08fc6d19b5dfb7baf8ddc4d1a) |
+| 2026-06 | **The Creative Spark: Michael Langan, Experimental Filmmaker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fa2c8e9473a168239524acb8771ae297745835b21014a4efa0be46832cb591a3) |
+| 2026-06 | **Optimize Your LinkedIn Profile to Stand Out with Yrbenka Arthus and Andrew Seaman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1fe5cc46c7bc6f33644450ce45812deb3011c1cb9131a46cfa312a474f987fc7) |
+| 2026-06 | **Projection Mapping Union Station's History** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0ee9750220610560020caace1a2741f779c46457198c617f143953c1d00c9618) |
+| 2026-06 | **Scanimate: The Origins of Computer Motion Graphics** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c1018dbbc4b5589031f48ebac9d0dab468a9108d7508c44ff18c093f2948ce16) |
+| 2026-06 | **Bonnie Siegler: Designing Her Design Career** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/29c026f424b50b9af715ab07e2554250400f006d0fc825f644e9ed2fbde46cb4) |
+| 2026-06 | **The Creative Spark: James White, Visual Artist and Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ef033b0e3503b633dd824b3597fdf47c419a34201c5e93c9732c5040f19034ee) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-07.md](linkedin-certifications-2026-07-part-07.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-09.md](linkedin-certifications-2026-07-part-09.md)
