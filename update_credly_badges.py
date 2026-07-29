@@ -1,3 +1,4 @@
+import math
 import re
 import time
 from datetime import datetime, timezone
@@ -28,7 +29,7 @@ def normalize_iso_date(raw_date: str) -> str:
     return clean if clean else "N/A"
 
 
-def fetch_paginated_data(url_template: str, headers: dict, page_size: int = 48) -> list[dict]:
+def fetch_paginated_data(url_template: str, headers: dict, page_size: int = 100) -> list[dict]:
     """Fetches paginated JSON data from Credly API endpoints safely."""
     all_items = []
     page = 1
@@ -50,8 +51,12 @@ def fetch_paginated_data(url_template: str, headers: dict, page_size: int = 48) 
 
         all_items.extend(page_items)
         metadata = data.get("metadata", {})
-        if "total_pages" in metadata:
+        
+        # Determine total_pages accurately using available metadata fields
+        if metadata.get("total_pages") is not None:
             total_pages = metadata["total_pages"]
+        elif metadata.get("total_count") is not None:
+            total_pages = math.ceil(metadata["total_count"] / page_size)
         elif len(page_items) < page_size:
             total_pages = page
         else:
@@ -70,11 +75,12 @@ def main():
     }
 
     print("🔄 Fetching Credly badges...")
-    native_url_template = f"https://www.credly.com/users/{USERNAME}/badges.json?page={{page}}"
-    native_raw = fetch_paginated_data(native_url_template, headers)
+    # Updated native URL template to official API v1 endpoint with explicit page_size
+    native_url_template = f"https://www.credly.com/api/v1/users/{USER_ID}/badges?page={{page}}&page_size={{page_size}}"
+    native_raw = fetch_paginated_data(native_url_template, headers, page_size=100)
 
     external_url_template = f"https://www.credly.com/api/v1/users/{USER_ID}/external_badges/open_badges/public?page={{page}}&page_size={{page_size}}"
-    external_raw = fetch_paginated_data(external_url_template, headers)
+    external_raw = fetch_paginated_data(external_url_template, headers, page_size=100)
 
     badges = []
     all_skills_set = set()
@@ -96,7 +102,7 @@ def main():
                 all_skills_set.add(skill_name)
 
         issuer = template.get("issuer", {})
-        issuer_name = issuer.get("summary") or "Verified Issuer"
+        issuer_name = issuer.get("summary") or issuer.get("name") or "Verified Issuer"
         verify_url = f"https://www.credly.com/badges/{badge_id}"
 
         badges.append({
@@ -197,7 +203,7 @@ def main():
         extra_monolith_header_md=skills_monolith_header,
     )
 
-    print("✅ Successfully updated Credly badges archive & README!")
+    print(f"✅ Successfully updated Credly badges archive & README! Total badges: {total_badges} ({native_count} native, {external_count} external)")
 
 
 if __name__ == "__main__":
