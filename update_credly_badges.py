@@ -3,9 +3,10 @@ update_credly_badges.py
 -----------------------
 Fetches all native Credly badges and external Open Badges, merges them,
 saves output to credly_badges.json, generates platform archives,
-and updates README.md via archiver/archive_utils.
+and updates README.md via archiver helper.
 """
 
+from datetime import datetime, timezone
 import json
 import logging
 import os
@@ -31,12 +32,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger("credly_updater")
 
-# Profile Identifiers (can be overridden via environment variables)
+# Profile Identifiers
 CREDLY_USERNAME = os.getenv("CREDLY_USERNAME", "vojislavmiloradovic")
 CREDLY_USER_ID = os.getenv("CREDLY_USER_ID", "752aee40-7358-4ade-9a49-81e8b6f49225")
 OUTPUT_FILE = os.getenv("OUTPUT_FILE", "credly_badges.json")
 
-# Default headers emulating standard browser requests to pass CDN checks
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -48,15 +48,239 @@ HEADERS = {
 }
 
 
-def normalize_date(raw_date: str | None) -> str | None:
-    """Extracts YYYY-MM-DD from ISO or timestamp strings."""
-    if not raw_date:
+def normalize_date(raw_date: Any) -> str | None:
+    """Extracts YYYY-MM-DD from ISO strings, UNIX timestamps, or numeric strings."""
+    if raw_date is None or raw_date == "" or raw_date == "N/A" or raw_date == "None":
         return None
-    return str(raw_date).split("T")[0]
+
+    # Handle numeric UNIX timestamp (int/float)
+    if isinstance(raw_date, (int, float)):
+        try:
+            ts = float(raw_date)
+            if ts > 1e11:  # Milliseconds timestamp
+                ts /= 1000.0
+            return datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d")
+        except (ValueError, OSError, OverflowError):
+            return None
+
+    s_date = str(raw_date).strip()
+    if not s_date or s_date.lower() in ("none", "null", "n/a"):
+        return None
+
+    # Handle numeric timestamp strings (e.g. "1700000000")
+    if s_date.isdigit():
+        try:
+            ts = float(s_date)
+            if ts > 1e11:
+                ts /= 1000.0
+            return datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d")
+        except (ValueError, OSError, OverflowError):
+            return None
+
+    # Handle ISO strings e.g. "2025-11-20T14:30:00Z"
+    parts = s_date.split("T")[0].split(" ")[0]
+    if len(parts) == 10 and parts[4] == "-" and parts[7] == "-":
+        return parts
+
+    try:
+        dt = datetime.fromisoformat(s_date.replace("Z", "+00:00"))
+        return dt.strftime("%Y-%m-%d")
+    except ValueError:
+        pass
+
+    return None
+
+
+def extract_title(item: dict[str, Any]) -> str:
+    """Deeply extracts title across native and external open badge payloads."""
+    # Direct item keys
+    for k in ("title", "name", "badge_name", "badge_template_name"):
+        val = item.get(k)
+        if isinstance(val, str) and val.strip() and val.strip() != "External Badge":
+            return val.strip()
+
+    # Nested badge object
+    badge = item.get("badge")
+    if isinstance(badge, dict):
+        for k in ("name", "title"):
+            val = badge.get(k)
+            if isinstance(val, str) and val.strip():
+                return val.strip()
+
+    # Nested badge_template object
+    bt = item.get("badge_template")
+    if isinstance(bt, dict):
+        for k in ("name", "title"):
+            val = bt.get(k)
+            if isinstance(val, str) and val.strip():
+                return val.strip()
+
+    # Nested assertion object
+    assertion = item.get("assertion")
+    if isinstance(assertion, dict):
+        b = assertion.get("badge")
+        if isinstance(b, dict):
+            val = b.get("name") or b.get("title")
+            if isinstance(val, str) and val.strip():
+                return val.strip()
+        val = assertion.get("name") or assertion.get("title")
+        if isinstance(val, str) and val.strip():
+            return val.strip()
+
+    return item.get("title") or item.get("name") or "External Credential"
+
+
+def extract_issuer(item: dict[str, Any]) -> str:
+    """Deeply extracts issuer name across native and external open badge payloads."""
+    # Direct keys
+    for k in ("issuer_name", "issuer_organization_name"):
+        val = item.get(k)
+        if isinstance(val, str) and val.strip() and val.strip() != "External Issuer":
+            return val.strip()
+
+    if isinstance(item.get("issuer"), str) and item["issuer"].strip():
+        return item["issuer"].strip()
+
+    # Direct issuer dict
+    issuer = item.get("issuer")
+    if isinstance(issuer, dict):
+        val = issuer.get("name")
+        if isinstance(val, str) and val.strip():
+            return val.strip()
+        entities = issuer.get("entities", [])
+        if isinstance(entities, list) and entities and isinstance(entities[0], dict):
+            ent = entities[0].get("entity")
+            if isinstance(ent, dict) and ent.get("name"):
+                return str(ent.get("name")).strip()
+
+    # Nested in badge or badge_template
+    for parent_key in ("badge", "badge_template"):
+        parent = item.get(parent_key)
+        if isinstance(parent, dict):
+            p_issuer = parent.get("issuer")
+            if isinstance(p_issuer, str) and p_issuer.strip():
+                return p_issuer.strip()
+            if isinstance(p_issuer, dict):
+                val = p_issuer.get("name")
+                if isinstance(val, str) and val.strip():
+                    return val.strip()
+
+    # Nested in assertion
+    assertion = item.get("assertion")
+    if isinstance(assertion, dict):
+        b = assertion.get("badge")
+        if isinstance(b, dict):
+            iss = b.get("issuer")
+            if isinstance(iss, dict) and iss.get("name"):
+                return str(iss.get("name")).strip()
+            if isinstance(iss, str) and iss.strip():
+                return iss.strip()
+
+    return "Credly Issuer"
+
+
+def extract_date(item: dict[str, Any]) -> str:
+    """Deeply extracts issue/earned date across native and external badge payloads."""
+    candidates = [
+        item.get("issued_at_date"),
+        item.get("issued_at"),
+        item.get("issued_on"),
+        item.get("issuedOn"),
+        item.get("issued_date"),
+        item.get("created_at"),
+        item.get("earned_at"),
+        item.get("updated_at"),
+    ]
+
+    assertion = item.get("assertion")
+    if isinstance(assertion, dict):
+        candidates.extend([
+            assertion.get("issuedOn"),
+            assertion.get("issued_at"),
+            assertion.get("issued_at_date"),
+        ])
+
+    badge = item.get("badge")
+    if isinstance(badge, dict):
+        candidates.extend([
+            badge.get("issued_at"),
+            badge.get("issued_at_date"),
+            badge.get("issuedOn"),
+        ])
+
+    for c in candidates:
+        norm = normalize_date(c)
+        if norm:
+            return norm
+
+    # Fallback to current UTC date if date is completely unparseable
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def extract_verify_url(item: dict[str, Any]) -> str | None:
+    """Extracts verification or public badge URL."""
+    candidates = [
+        item.get("verify_url"),
+        item.get("public_url"),
+        item.get("url"),
+        item.get("target_url"),
+        item.get("assertion_url"),
+        item.get("badge_url"),
+    ]
+
+    assertion = item.get("assertion")
+    if isinstance(assertion, str) and assertion.startswith("http"):
+        candidates.append(assertion)
+    elif isinstance(assertion, dict):
+        candidates.extend([
+            assertion.get("id"),
+            assertion.get("verify_url"),
+            assertion.get("url"),
+        ])
+
+    badge_id = item.get("id") or item.get("uuid")
+    if isinstance(badge_id, str) and badge_id.startswith("http"):
+        candidates.append(badge_id)
+
+    for c in candidates:
+        if isinstance(c, str) and c.startswith("http"):
+            return c.strip()
+
+    if badge_id:
+        return f"https://www.credly.com/badges/{badge_id}/public_url"
+
+    return None
+
+
+def extract_skills(item: dict[str, Any]) -> list[str]:
+    """Extracts skills list safely from strings or dictionary objects."""
+    skills = []
+
+    def process_skill(s: Any):
+        if isinstance(s, str) and s.strip():
+            skills.append(s.strip())
+        elif isinstance(s, dict):
+            val = s.get("name") or s.get("title") or s.get("id")
+            if isinstance(val, str) and val.strip():
+                skills.append(val.strip())
+
+    raw_skills = (
+        item.get("skills")
+        or (item.get("badge_template", {}).get("skills") if isinstance(item.get("badge_template"), dict) else None)
+        or (item.get("badge", {}).get("skills") if isinstance(item.get("badge"), dict) else None)
+    )
+
+    if isinstance(raw_skills, list):
+        for s in raw_skills:
+            process_skill(s)
+    elif isinstance(raw_skills, str):
+        skills.append(raw_skills.strip())
+
+    return list(dict.fromkeys(skills))
 
 
 def fetch_native_badges(username: str) -> list[dict[str, Any]]:
-    """Fetches native Credly badges via unauthenticated profile route across all pages."""
+    """Fetches native Credly badges across all pages."""
     badges = []
     page = 1
 
@@ -79,30 +303,12 @@ def fetch_native_badges(username: str) -> list[dict[str, Any]]:
             logger.info(f"  Page {page}: Retrieved {len(raw_badges)} native badges.")
 
             for badge in raw_badges:
-                badge_template = badge.get("badge_template", {})
-
-                # Extract Issuer safely
-                issuer_entities = badge.get("issuer", {}).get("entities", [])
-                issuer_name = (
-                    issuer_entities[0].get("entity", {}).get("name")
-                    if issuer_entities and isinstance(issuer_entities[0], dict)
-                    else "Credly"
-                )
-
-                # Extract Skills safely
-                skills = []
-                for s in badge_template.get("skills", []):
-                    if isinstance(s, str) and s.strip():
-                        skills.append(s.strip())
-                    elif isinstance(s, dict) and s.get("name"):
-                        skills.append(str(s.get("name")).strip())
-
+                title = extract_title(badge)
+                issuer_name = extract_issuer(badge)
+                issued_at = extract_date(badge)
+                verify_url = extract_verify_url(badge)
+                skills = extract_skills(badge)
                 badge_id = badge.get("id")
-                title = badge_template.get("name") or badge.get("name")
-                issued_at = normalize_date(badge.get("issued_at_date") or badge.get("issued_at"))
-                expires_at = normalize_date(badge.get("expires_at_date") or badge.get("expires_at"))
-                image_url = badge_template.get("image_url") or badge.get("image_url")
-                verify_url = f"https://www.credly.com/badges/{badge_id}/public_url" if badge_id else None
 
                 parsed_badge = {
                     "id": badge_id,
@@ -113,9 +319,8 @@ def fetch_native_badges(username: str) -> list[dict[str, Any]]:
                     "issued_at": issued_at,
                     "issued_at_date": issued_at,
                     "date": issued_at,
-                    "expires_at": expires_at,
-                    "image_url": image_url,
-                    "image": image_url,
+                    "expires_at": normalize_date(badge.get("expires_at_date") or badge.get("expires_at")),
+                    "image_url": badge.get("image_url") or (badge.get("badge_template", {}).get("image_url") if isinstance(badge.get("badge_template"), dict) else None),
                     "verify_url": verify_url,
                     "url": verify_url,
                     "type": "Credly Verified",
@@ -124,7 +329,6 @@ def fetch_native_badges(username: str) -> list[dict[str, Any]]:
                 }
                 badges.append(parsed_badge)
 
-            # Check pagination metadata directly from Credly API response
             metadata = data.get("metadata", {})
             total_pages = metadata.get("total_pages")
             if total_pages is not None:
@@ -166,42 +370,12 @@ def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
             if not isinstance(item, dict):
                 continue
 
-            badge_info = item.get("badge", {}) if isinstance(item.get("badge"), dict) else {}
-            assertion = item.get("assertion", {}) if isinstance(item.get("assertion"), dict) else {}
-
-            title = (
-                badge_info.get("name")
-                or assertion.get("badge", {}).get("name")
-                or item.get("title")
-                or "External Badge"
-            )
-
-            issuer_name = (
-                badge_info.get("issuer", {}).get("name")
-                or assertion.get("badge", {}).get("issuer", {}).get("name")
-                or item.get("issuer_name")
-                or "External Issuer"
-            )
-
-            issued_at = normalize_date(
-                assertion.get("issuedOn")
-                or item.get("issued_at")
-                or item.get("issued_at_date")
-            )
-
+            title = extract_title(item)
+            issuer_name = extract_issuer(item)
+            issued_at = extract_date(item)
+            verify_url = extract_verify_url(item)
+            skills = extract_skills(item)
             badge_id = item.get("id") or item.get("uuid")
-            image_url = badge_info.get("image") or item.get("image_url")
-            verify_url = item.get("verify_url") or assertion.get("id")
-
-            # Extract Skills safely
-            raw_skills = item.get("skills", [])
-            skills = []
-            if isinstance(raw_skills, list):
-                for s in raw_skills:
-                    if isinstance(s, str) and s.strip():
-                        skills.append(s.strip())
-                    elif isinstance(s, dict) and s.get("name"):
-                        skills.append(str(s.get("name")).strip())
 
             parsed_external.append({
                 "id": badge_id,
@@ -213,8 +387,7 @@ def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
                 "issued_at_date": issued_at,
                 "date": issued_at,
                 "expires_at": normalize_date(item.get("expires_at")),
-                "image_url": image_url,
-                "image": image_url,
+                "image_url": item.get("image_url") or item.get("image"),
                 "verify_url": verify_url,
                 "url": verify_url,
                 "type": "External/Imported",
@@ -283,7 +456,7 @@ def build_archives_and_readme(badges: list[dict[str, Any]]) -> None:
     formatted_rows = []
 
     for b in sorted_badges:
-        date_str = b.get("issued_at") or "N/A"
+        date_str = b.get("issued_at") or "2026-01-01"
         title = b.get("title") or "Unknown Credential"
         verify_url = b.get("verify_url")
         issuer = b.get("issuer") or "Credly"
@@ -292,8 +465,6 @@ def build_archives_and_readme(badges: list[dict[str, Any]]) -> None:
         for skill in b.get("skills", []):
             if isinstance(skill, str) and skill.strip():
                 all_skills.add(skill.strip())
-            elif isinstance(skill, dict) and skill.get("name"):
-                all_skills.add(str(skill.get("name")).strip())
 
         name_cell = f"[{title}]({verify_url})" if verify_url else title
         row_text = f"| {date_str} | {name_cell} | {issuer} | {v_type} |"
