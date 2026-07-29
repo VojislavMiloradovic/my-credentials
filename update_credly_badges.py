@@ -392,12 +392,12 @@ def fetch_native_badges(username: str) -> list[dict[str, Any]]:
 
 
 def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
-    """Fetches public external/imported Open Badges for user UUID."""
+    """Fetches public external/imported Open Badges from Credly endpoint."""
     url = f"https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public"
     logger.info("🔄 Fetching external open badges from public endpoint...")
 
     try:
-        response = requests.get(url, headers=HEADERS, timeout=15)
+        response = requests.get(url, headers=HEADERS, timeout=30)
         response.raise_for_status()
         data = response.json()
 
@@ -413,12 +413,45 @@ def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
             if not isinstance(item, dict):
                 continue
 
-            title = extract_title(item)
-            issuer_name = extract_issuer(item)
-            issued_at = extract_date(item)
-            verify_url = extract_verify_url(item)
-            skills = extract_skills(item)
-            badge_id = item.get("id") or item.get("uuid")
+            # Extract from nested 'external_badge' dictionary
+            ext_badge = item.get("external_badge") or {}
+            
+            title = (
+                ext_badge.get("badge_name")
+                or ext_badge.get("name")
+                or item.get("title")
+                or "External Credential"
+            )
+            
+            issuer_name = (
+                ext_badge.get("issuer_name")
+                or item.get("issuer_name")
+                or "External Issuer"
+            )
+
+            issued_at = (
+                ext_badge.get("issued_at_date")
+                or ext_badge.get("issued_at")
+                or item.get("issued_at")
+            )
+            normalized_date = normalize_date(issued_at)
+
+            expires_at = normalize_date(
+                ext_badge.get("expires_at_date") or ext_badge.get("expires_at")
+            )
+
+            verify_url = (
+                ext_badge.get("badge_url")
+                or ext_badge.get("badge_id")
+                or item.get("verify_url")
+            )
+
+            image_url = ext_badge.get("image_url") or item.get("image_url")
+            badge_id = item.get("id") or ext_badge.get("credly_record_id")
+
+            # Parse skills from external_badge or top level item
+            skills_raw = ext_badge.get("skills", []) or item.get("skills", [])
+            skills = [s.get("name") for s in skills_raw if isinstance(s, dict) and s.get("name")]
 
             parsed_external.append({
                 "id": badge_id,
@@ -426,11 +459,11 @@ def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
                 "name": title,
                 "issuer": issuer_name,
                 "issuer_name": issuer_name,
-                "issued_at": issued_at,
-                "issued_at_date": issued_at,
-                "date": issued_at,
-                "expires_at": normalize_date(item.get("expires_at")),
-                "image_url": item.get("image_url") or item.get("image"),
+                "issued_at": normalized_date,
+                "issued_at_date": normalized_date,
+                "date": normalized_date,
+                "expires_at": expires_at,
+                "image_url": image_url,
                 "verify_url": verify_url,
                 "url": verify_url,
                 "type": "External/Imported",
