@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-22 | **Cloud Firestore Android Codelab** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-22 | **Creating text prompts with Google AI Studio and the Gemini LLM** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-22 | **Calculate Pi on Compute Engine** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-22 | **Chaos Engineering on GKE Using Litmus** | Verified Google Developer granular learning activity module milestone. |
@@ -75,7 +76,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-18 | **Build a Match 3 Arcade Game With Gemini and Antigravity** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **Bringing the power of Python to BigQuery with managed UDFs** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **Image Data Classification with BigQuery ML** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-18 | **GKE Autopilot clusters with TPUs, GKE managed DRANET and Gemma 4** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-03.md](google-developer-activities-2026-07-part-03.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-05.md](google-developer-activities-2026-07-part-05.md)

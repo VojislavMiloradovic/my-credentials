@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 20 of 23
 date_range: 2026-05-20 to 2026-05-21
-total_entries: 61
+total_entries: 62
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-20.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-21 | **Implement Subscription replacements with Google Play Billing** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-21 | **Build a Supply Chain Orchestrator with ADK, AlloyDB, and Vertex AI Memory Bank** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Learn Android XR Fundamentals: Part 2 - Orbiters and Spatial Environments** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **How to fine tune a LLM using Cloud Run Jobs** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Building with Google Antigravity** | Verified Google Developer granular learning activity module milestone. |
@@ -72,7 +74,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-20 | **Agents CLI in Agent Platform: From Development to Production** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Activity Recognition Transition API Codelab** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Anthos Service Mesh Workshop: Lab Guide - Japanese** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **Apply responsible AI principles when building remote sensing datasets, such as Dynamic World** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-19.md](google-developer-activities-2026-07-part-19.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-21.md](google-developer-activities-2026-07-part-21.md)

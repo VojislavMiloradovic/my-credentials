@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 23 of 23
 date_range: 2026-05-16 to 2026-05-18
-total_entries: 11
+total_entries: 13
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-23.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-18 | **Connect smart home devices to the Google Assistant** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-18 | **Generating Consistent Imagery with Gemini Nano Banana** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-18 | **Accelerate Spark with Managed Service for Apache Spark and Lightning Engine** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-18 | **Build a Generative UI (GenUI) App** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-18 | **ADK Agentic Pattern with Memory & MCP** | Verified Google Developer granular learning activity module milestone. |

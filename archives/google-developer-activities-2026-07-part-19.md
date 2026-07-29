@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 19 of 23
 date_range: 2026-05-21 to 2026-05-23
-total_entries: 63
+total_entries: 64
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-19.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-23 | **Getting Started with Google MCP Servers** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-23 | **Securing AI Applications** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-23 | **Deploy, Manage, and Observe ADK Agent on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Multi-agent App with ADK, Agent Engine and AlloyDB** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Getting Started with Gemini CLI Extensions** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Securing Infrastructure for AI Applications** | Verified Google Developer granular learning activity module milestone. |
@@ -73,8 +76,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-21 | **Building a Multi-Agent System** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Agent Starter Pack with the ADK for Go** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Build and Deploy to Google Cloud with Antigravity** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-21 | **Implement Subscription replacements with Google Play Billing** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-21 | **Build a Supply Chain Orchestrator with ADK, AlloyDB, and Vertex AI Memory Bank** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-18.md](google-developer-activities-2026-07-part-18.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-20.md](google-developer-activities-2026-07-part-20.md)

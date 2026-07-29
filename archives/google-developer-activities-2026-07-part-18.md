@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-24 | **Simple Animation with Jetpack Compose** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Microservice Rainbow Rumpus** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Build and test a parked app for Android Automotive OS** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **State in Jetpack Compose** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Gating Deployments with Binary Auth** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Hello Cloud Run with Python (FastAPI)** | Verified Google Developer granular learning activity module milestone. |
@@ -72,9 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-23 | **Evaluate RAG Systems with Vertex AI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Zero ETL Data Federation from BigQuery to AlloyDB** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Vibe Code with Gemini in Google AI Studio** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Getting Started with Google MCP Servers** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Securing AI Applications** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Deploy, Manage, and Observe ADK Agent on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-17.md](google-developer-activities-2026-07-part-17.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-19.md](google-developer-activities-2026-07-part-19.md)

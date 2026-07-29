@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-26 | **Cloud NGFW Essentials for Load Balancers** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-26 | **Deploy from AI Studio to Cloud Run** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-26 | **Integrating Remote Config on Android Codelab** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Build user-adaptive interfaces with preference media queries** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **JIRA User Stories Implementation with GenAI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **TensorFlow.js — Handwritten digit recognition with CNNs** | Verified Google Developer granular learning activity module milestone. |
@@ -72,9 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-24 | **Reverse ETL from Databricks to Spanner using BQ** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Testing for Accessibility** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Developing Containers with Dockerfiles** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Jetpack Compose basics** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Build and deploy an ADK agent that uses an MCP server on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Similarity Search with Spanner and Vertex AI** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-15.md](google-developer-activities-2026-07-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-17.md](google-developer-activities-2026-07-part-17.md)

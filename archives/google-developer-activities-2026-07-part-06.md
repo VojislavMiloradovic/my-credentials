@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-10 | **Get Started with Unity and Google Play Games for PC** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Deploy an ASP.NET Core app to App Engine** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Serving AVIF Images** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Deploy a Micronaut application containerized with Jib to Google Kubernetes Engine** | Verified Google Developer granular learning activity module milestone. |
@@ -74,7 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-09 | **Developing an Accessibility Service for Android** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Retrieving Credentials/Secrets from Secret Manager with Spring Boot** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Cloud Spanner: Create a gaming leaderboard with C#** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **How to host a LLM in a sidecar for a Cloud Run function** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-05.md](google-developer-activities-2026-07-part-05.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-07.md](google-developer-activities-2026-07-part-07.md)

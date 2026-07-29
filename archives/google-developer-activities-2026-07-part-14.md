@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-31 | **Use FCM and FIAM to send messages to users** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Get to know Firebase for Flutter** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Build robust, distributed leaderboards with Cloud Firestore** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Quiz: Bring Google's Places data into your Android app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **CSS knowledge quiz** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Learn PWA** | Verified Google Developer granular learning activity module milestone. |
@@ -74,9 +77,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-27 | **Vertex AI Vision Queue Detection App** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **Spring Native on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **Customizing Material color** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Training and hyperparameter tuning a PyTorch model on Cloud AI Platform** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Embed Looker with Conversational Analytics** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Serverless Data Transformation with Apache Spark in BigQuery Studio Notebooks** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-13.md](google-developer-activities-2026-07-part-13.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-15.md](google-developer-activities-2026-07-part-15.md)

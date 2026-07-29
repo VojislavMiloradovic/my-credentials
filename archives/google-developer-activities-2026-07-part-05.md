@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-18 | **GKE Autopilot clusters with TPUs, GKE managed DRANET and Gemma 4** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **Build a Multi-Language Code Auditor with Parallel Antigravity Agents** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **TPU Dynamic Slicing on GKE with Kueue and LeaderWorkerSet** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **How to use AI Agent Skills (with Gemini CLI and Agent Skills for Firebase)** | Verified Google Developer granular learning activity module milestone. |
@@ -74,7 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-10 | **Getting Started with gRPC-Java - Streaming** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Using BigQuery with Python** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Integrate fundamental AI concepts in Google Chat apps** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-10 | **Get Started with Unity and Google Play Games for PC** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-04.md](google-developer-activities-2026-07-part-04.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-06.md](google-developer-activities-2026-07-part-06.md)

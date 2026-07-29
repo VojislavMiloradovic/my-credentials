@@ -178,14 +178,16 @@ Historical verified record tracking all achievements.
 | 2026-06-05 | **Springboot** | Official Google Developer platform achievement (Learning Pathway: springboot). |
 | 2026-06-05 | **Intro To Flutter** | Official Google Developer platform achievement (Learning Pathway: intro to flutter). |
 
-## Detailed Learning Activities & Codelabs (1436)
+## Detailed Learning Activities & Codelabs (1438)
 
 | Date Earned | Codelab / Activity Title | Description |
 | :---: | :--- | :--- |
+| 2026-07-29 | **Optimizing Unity Games for Large Screens and Foldables** | Verified Google Developer granular learning activity module milestone. |
+| 2026-07-29 | **OSS Kubernetes on GCE with TPUs, DRA (OSS) and Gemma 4** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-26 | **Going Multimodal with Agent Development Kit: Personal Expense Assistant with Gemini 2.5, Firestore and Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-23 | **Level Up Your Game: Google Play Games Services Setup in Unity** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-21 | **Build and publish your first Android app with AI Studio** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-21 | **Supercharge Code Quality and Security: AI-Assisted Checks with Antigravity CLI and SDK** | Verified Google Developer granular learning activity module milestone. |
+| 2026-07-21 | **Supercharge Code Quality: AI-Assisted Code Review with Antigravity CLI and SDK** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-21 | **Build a Zero-Code Multi-Agent System with Agent Studio** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-17 | **Plan and Build Apps with Conductor Plugin** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-14 | **Google Pay API: Vibe-code checkout page with MCP servers and Antigravity** | Verified Google Developer granular learning activity module milestone. |

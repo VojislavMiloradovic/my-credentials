@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 22 of 23
 date_range: 2026-05-18 to 2026-05-20
-total_entries: 64
+total_entries: 63
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-22.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-20 | **Automatically Deploy Generative AI Next.js Web Application from Version Control to Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **AdMob+Firebase 102 Unity: Fine-tune the app behavior without an app update** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Agentverse - The Shadowblade's Codex - Vibecoding with Gemini CLI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Advanced activity embedding** | Verified Google Developer granular learning activity module milestone. |
@@ -74,8 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-18 | **Enable local fulfillment for Cloud-to-cloud integrations** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-18 | **Accelerated Mobile Pages Foundations** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-18 | **ADK: From Basics to Multi-Tool Agents** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-18 | **Connect smart home devices to the Google Assistant** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-18 | **Generating Consistent Imagery with Gemini Nano Banana** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-21.md](google-developer-activities-2026-07-part-21.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-23.md](google-developer-activities-2026-07-part-23.md)

@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-24 | **Jetpack Compose basics** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Build and deploy an ADK agent that uses an MCP server on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Similarity Search with Spanner and Vertex AI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **How to use Cloud Run functions and Gemini to summarize a text file uploaded to a Cloud Storage bucket** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Make a smart webcam in JavaScript with a TensorFlow.js pre-trained Machine Learning model** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **How to deploy a secure Genkit MCP server on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
@@ -73,9 +76,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-24 | **Secure shared data in use with Confidential Space** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Integrating Magento with Cloud Spanner** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Jetpack Compose Navigation** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Simple Animation with Jetpack Compose** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Microservice Rainbow Rumpus** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Build and test a parked app for Android Automotive OS** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-16.md](google-developer-activities-2026-07-part-16.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-18.md](google-developer-activities-2026-07-part-18.md)

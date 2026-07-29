@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-06 | **Write unit tests for ViewModel** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Build a basic layout** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Practice: Build Sports app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Test the Cupcake App** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Use Room for data persistence** | Verified Google Developer granular learning activity module milestone. |
@@ -82,8 +84,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Engage Wear OS users in new ways with the Ongoing Activity API** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Get started with regression in iOS apps** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Passkey integration on the server-side and user-experience upgrades** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-05 | **Extend an Android app to Google Assistant with App Actions (Level 2)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-05 | **Quiz: Build maintainable and scalable web apps with Angular** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-10.md](google-developer-activities-2026-07-part-10.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-12.md](google-developer-activities-2026-07-part-12.md)

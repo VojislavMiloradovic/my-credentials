@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 10 of 23
 date_range: 2026-06-06 to 2026-06-07
-total_entries: 69
+total_entries: 68
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-10.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-07 | **Codelab - Build a contextual Yoga Poses recommender app with Firestore, Vector Search, Langchain and Gemini (Node.js version)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **How to connect a Go application on Cloud Run to a Cloud SQL for PostgreSQL database** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Say hello to the "Hello, World" of machine learning** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Private Service Connect 66** | Verified Google Developer granular learning activity module milestone. |
@@ -79,8 +80,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-06 | **Lesson 1: Kotlin basics** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Create a basic app for audio classification** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Higher-order functions with collections** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Write unit tests for ViewModel** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Build a basic layout** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-09.md](google-developer-activities-2026-07-part-09.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-11.md](google-developer-activities-2026-07-part-11.md)

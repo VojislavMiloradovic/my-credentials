@@ -173,7 +173,7 @@ Showing latest 10 items. View the full dataset via the [Platform Archive Index](
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 170 |
-| **Total Codelabs & Learning Activities** | 1,436 |
+| **Total Codelabs & Learning Activities** | 1,438 |
 
 
 #### Latest Achievements
@@ -181,16 +181,16 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| *2026-07-29* | **Optimizing Unity Games for Large Screens and Foldables** | Verified Google Developer granular learning activity module milestone. |
+| *2026-07-29* | **OSS Kubernetes on GCE with TPUs, DRA (OSS) and Gemma 4** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-26* | **Going Multimodal with Agent Development Kit: Personal Expense Assistant with Gemini 2.5, Firestore and Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-23* | **Level Up Your Game: Google Play Games Services Setup in Unity** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-21* | **Build and publish your first Android app with AI Studio** | Verified Google Developer granular learning activity module milestone. |
-| *2026-07-21* | **Supercharge Code Quality and Security: AI-Assisted Checks with Antigravity CLI and SDK** | Verified Google Developer granular learning activity module milestone. |
+| *2026-07-21* | **Supercharge Code Quality: AI-Assisted Code Review with Antigravity CLI and SDK** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-21* | **Build a Zero-Code Multi-Agent System with Agent Studio** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-17* | **Plan and Build Apps with Conductor Plugin** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-14* | **Google Pay API: Vibe-code checkout page with MCP servers and Antigravity** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-14* | **Customer Identity Resolution with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
-| *2026-07-10* | **Make your first Google Health API call using OAuth2 Playground** | Verified Google Developer granular learning activity module milestone. |
-| *2026-07-10* | **Deploy your containerized agent on Agent Runtime** | Verified Google Developer granular learning activity module milestone. |
 
 <!-- GOOGLE_DEVELOPER_END -->
 

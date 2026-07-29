@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 12 of 23
 date_range: 2026-06-03 to 2026-06-05
-total_entries: 66
+total_entries: 65
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-12.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Extend an Android app to Google Assistant with App Actions (Level 2)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Quiz: Build maintainable and scalable web apps with Angular** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Build your first WebAuthn app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Add a map to your Android app (Kotlin)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **MDC-102 Android: Material Structure and Layout (Java)** | Verified Google Developer granular learning activity module milestone. |
@@ -75,9 +77,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-03 | **Protect your app from abuse with App Check quiz** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Migrate existing apps to Room KMP** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Revision 2025 Q4: Learn how to simplify auth journeys using Credential Manager API in your Android app** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-03 | **Instrument your Unity game with Firebase Remote Config** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-03 | **Create fast and stable apps with Firebase quiz** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-03 | **Go on vacation with a Google Chat app** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-11.md](google-developer-activities-2026-07-part-11.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-13.md](google-developer-activities-2026-07-part-13.md)
