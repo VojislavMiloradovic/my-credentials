@@ -1,15 +1,23 @@
+#!/usr/bin/env python3
+"""
+update_credly_badges.py
+-----------------------
+Fetches both native Credly badges and external Open Badges for a profile
+using public endpoints, merges them, and saves the output to a JSON file.
+"""
+
 import json
 import logging
 import os
-import requests
+from typing import Any
 
-from typing import List, Dict, Any
+import requests
 
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S"
+    datefmt="%Y-%m-%d %H:%M:%S",
 )
 logger = logging.getLogger("credly_updater")
 
@@ -30,7 +38,7 @@ HEADERS = {
 }
 
 
-def fetch_native_badges(username: str) -> List[Dict[str, Any]]:
+def fetch_native_badges(username: str) -> list[dict[str, Any]]:
     """
     Fetches native Credly badges via the unauthenticated JSON profile route with pagination.
     Endpoint: https://www.credly.com/users/{username}/badges.json
@@ -110,13 +118,13 @@ def fetch_native_badges(username: str) -> List[Dict[str, Any]]:
     return badges
 
 
-def fetch_external_badges(user_id: str) -> List[Dict[str, Any]]:
+def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
     """
     Fetches public external/imported Open Badges for the user UUID.
     Endpoint: https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public
     """
     url = f"https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public"
-    logger.info(f"🔄 Fetching external open badges from public endpoint...")
+    logger.info("🔄 Fetching external open badges from public endpoint...")
 
     try:
         response = requests.get(url, headers=HEADERS, timeout=15)
@@ -181,9 +189,9 @@ def fetch_external_badges(user_id: str) -> List[Dict[str, Any]]:
 
 
 def merge_and_save_badges(
-    native_badges: List[Dict[str, Any]],
-    external_badges: List[Dict[str, Any]],
-    output_filepath: str
+    native_badges: list[dict[str, Any]],
+    external_badges: list[dict[str, Any]],
+    output_filepath: str,
 ):
     """Combines native and external badges, deduplicates, and saves output JSON."""
     all_badges = native_badges + external_badges
@@ -210,7 +218,7 @@ def merge_and_save_badges(
         with open(output_filepath, "w", encoding="utf-8") as f:
             json.dump(payload, f, indent=2, ensure_ascii=False)
         logger.info(f"🎉 Output written to '{output_filepath}' ({len(unique_badges)} total badges).")
-    except IOError as e:
+    except OSError as e:
         logger.error(f"❌ Failed to write output file '{output_filepath}': {e}")
 
 
