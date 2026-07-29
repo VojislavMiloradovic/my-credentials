@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 4 of 23
 date_range: 2026-06-18 to 2026-06-22
-total_entries: 63
+total_entries: 64
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-04.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-22 | **Creating text prompts with Google AI Studio and the Gemini LLM** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-22 | **Calculate Pi on Compute Engine** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-22 | **Chaos Engineering on GKE Using Litmus** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-22 | **Building a board game with TensorFlow Agents and Flutter** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-22 | **Code Lab: NCC Gateway with PANW SSE** | Verified Google Developer granular learning activity module milestone. |
@@ -74,7 +76,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-18 | **Bringing the power of Python to BigQuery with managed UDFs** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **Image Data Classification with BigQuery ML** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-18 | **GKE Autopilot clusters with TPUs, GKE managed DRANET and Gemma 4** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-18 | **Build a Multi-Language Code Auditor with Parallel Antigravity Agents** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-03.md](google-developer-activities-2026-07-part-03.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-05.md](google-developer-activities-2026-07-part-05.md)

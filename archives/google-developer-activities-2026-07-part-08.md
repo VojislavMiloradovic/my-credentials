@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Prepare to grow with tips using Google Analytics for Firebase integrations with Ads** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Pic-a-daily: Lab 1—Store and analyze pictures (Native Java)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Compute private statistics with PipelineDP** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **firebase.google.com/codelabs/firebase-studio-intro** | Verified Google Developer granular learning activity module milestone. |
@@ -74,7 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-09 | **Build and Deploy an AI-Powered Agent Diet Planner with Streamlit, Gemini Pro, Vertex AI and BigQuery** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Generative AI text generation in Java with PaLM and LangChain4J** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Using revisions in Cloud Run for Traffic Splitting, Gradual Rollouts, and Rollbacks** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Code Customization with Gemini Code Assist Enterprise** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-07.md](google-developer-activities-2026-07-part-07.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-09.md](google-developer-activities-2026-07-part-09.md)

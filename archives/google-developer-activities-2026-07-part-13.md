@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 13 of 23
 date_range: 2026-05-31 to 2026-06-03
-total_entries: 66
+total_entries: 67
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-13.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-03 | **Passkeys for Android** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Send and receive notifications for a Flutter app using Firebase Cloud Messaging** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Firebase Performance Monitoring for web** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Understand your game's crashes using advanced Crashlytics features quiz** | Verified Google Developer granular learning activity module milestone. |

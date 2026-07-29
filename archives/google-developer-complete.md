@@ -178,10 +178,11 @@ Historical verified record tracking all achievements.
 | 2026-06-05 | **Springboot** | Official Google Developer platform achievement (Learning Pathway: springboot). |
 | 2026-06-05 | **Intro To Flutter** | Official Google Developer platform achievement (Learning Pathway: intro to flutter). |
 
-## Detailed Learning Activities & Codelabs (1435)
+## Detailed Learning Activities & Codelabs (1436)
 
 | Date Earned | Codelab / Activity Title | Description |
 | :---: | :--- | :--- |
+| 2026-07-26 | **Going Multimodal with Agent Development Kit: Personal Expense Assistant with Gemini 2.5, Firestore and Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-23 | **Level Up Your Game: Google Play Games Services Setup in Unity** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-21 | **Build and publish your first Android app with AI Studio** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-21 | **Supercharge Code Quality and Security: AI-Assisted Checks with Antigravity CLI and SDK** | Verified Google Developer granular learning activity module milestone. |
@@ -1271,7 +1272,7 @@ Historical verified record tracking all achievements.
 | 2026-05-24 | **Securing ML models and Intellectual Property using Confidential Space** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **User authentication with Identity-Aware Proxy** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Trusted Space codelab** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Build the Data Foundation with Knowledge Catalog Metadata** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Build a data foundation with Knowledge Catalog metadata** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Explore GKE NodeLocal DNSCache** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Intro to state in Compose** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Build a contextual Yoga Poses recommender app with Firestore, Vector Search and Gemini 2.0 (Java version)!** | Verified Google Developer granular learning activity module milestone. |

@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Use Document AI to Intelligently Process your Handwritten Forms (Node.js)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Introduction to Flame with Flutter** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Partitioning and Clustering in BigQuery** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Using the Natural Language API with C#** | Verified Google Developer granular learning activity module milestone. |
@@ -74,7 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-09 | **Using the Speech-to-Text API with C#** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Build a Slack bot with Node.js on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Cloud Data Loss Prevention Overview** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Prepare to grow with tips using Google Analytics for Firebase integrations with Ads** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-activities-2026-07-part-06.md](google-developer-activities-2026-07-part-06.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-08.md](google-developer-activities-2026-07-part-08.md)

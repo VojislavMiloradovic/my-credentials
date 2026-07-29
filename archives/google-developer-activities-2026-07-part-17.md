@@ -57,7 +57,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-24 | **Securing ML models and Intellectual Property using Confidential Space** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **User authentication with Identity-Aware Proxy** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Trusted Space codelab** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Build the Data Foundation with Knowledge Catalog Metadata** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Build a data foundation with Knowledge Catalog metadata** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Explore GKE NodeLocal DNSCache** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Intro to state in Compose** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Build a contextual Yoga Poses recommender app with Firestore, Vector Search and Gemini 2.0 (Java version)!** | Verified Google Developer granular learning activity module milestone. |
