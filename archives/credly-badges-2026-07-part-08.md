@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 8 of 9
-date_range: 2026-04-10 to 2026-04-30
+date_range: 2026-04-19 to 2026-05-08
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-08.md
 ---
@@ -12,6 +12,25 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-08 | [Secure Your AI Agents to Act on the Behalf of Users](https://www.credly.com/badges/bd7cf46e-660f-406b-9547-69b0c0b9d822/public_url) | Okta | Credly Verified |
+| 2026-05-08 | [Secure Your RAG Pipelines with Auth0 Fine-Grained Access](https://www.credly.com/badges/a39802d7-ae30-4c95-ae7d-434cc1243233/public_url) | Okta | Credly Verified |
+| 2026-05-08 | [Securing AI Agents](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0/public_url) | Okta | Credly Verified |
+| 2026-05-06 | [Agents & Agentic AI Fundamentals](https://www.credly.com/badges/65342bd4-19df-45dc-9b32-f68a21c5be0d/public_url) | Intel | Credly Verified |
+| 2026-05-06 | [Applying SAP S/4HANA Product Engineering - Record of Achievement](https://www.credly.com/badges/9c1dab10-70e9-4bd3-b9fa-9f2eead26a00/public_url) | SAP | Credly Verified |
+| 2026-05-06 | [Configuration Learning Path](https://www.credly.com/badges/a71f14fd-df65-47c9-9527-109add5f04d5/public_url) | Datadog | Credly Verified |
+| 2026-05-06 | [Core Skills Learning Path](https://www.credly.com/badges/9cfe8da1-05a9-4242-9dfc-8e91c87f9fe3/public_url) | Datadog | Credly Verified |
+| 2026-05-06 | [Dashboards Learning Path](https://www.credly.com/badges/3ada1a37-c791-4d66-860b-36b7c30ec4c3/public_url) | Datadog | Credly Verified |
+| 2026-05-06 | [Explore Identity Foundations](https://www.credly.com/badges/bef6ae97-3d40-441b-a5fd-168016f17b32/public_url) | Okta | Credly Verified |
+| 2026-05-06 | [LLM Observability Metrics & Traces Learning Path](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/public_url) | Datadog | Credly Verified |
+| 2026-05-05 | [Exploring SAP SuccessFactors Embedded Launch Activities for Business User - Record of Achievement](https://www.credly.com/badges/cc432e30-9613-4886-b82d-dd8b9ed936f3/public_url) | SAP | Credly Verified |
+| 2026-05-05 | [Project Management Fundamentals](https://www.credly.com/badges/544641c1-b718-4173-ac14-39c1b0656aea/public_url) | IBM SkillsBuild | Credly Verified |
+| 2026-05-04 | [IT Customer Support Basics](https://www.credly.com/badges/66dd5194-76bb-456f-b199-db61a26524a3/public_url) | Cisco | Credly Verified |
+| 2026-05-03 | [Administering and Using Responsible Design and Production for the Circular Economy - Record of Achievement](https://www.credly.com/badges/408da580-5ac3-4bb4-9b61-6593a033c23d/public_url) | SAP | Credly Verified |
+| 2026-05-03 | [AWS Knowledge: AWS for Games: Cloud Game Development - Training Badge](https://www.credly.com/badges/8b31cd8d-4eed-4e24-81d8-93c68a08138e/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-05-02 | [AWS Knowledge: AWS End User Computing - Training Badge](https://www.credly.com/badges/a380090e-c32c-4c12-bbae-2dc04f50f619/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-05-02 | [Introducing SAP Ariba Category Management Fundamentals - Record of Achievement](https://www.credly.com/badges/584b0ef0-334b-429f-97b0-c5769c878484/public_url) | SAP | Credly Verified |
+| 2026-05-02 | [Quantum Enigmas](https://www.credly.com/badges/70c32b77-453a-4fe5-9f8f-76fefc4c6890/public_url) | IBM SkillsBuild | Credly Verified |
+| 2026-04-30 | [Applying Supply Chain Execution in SAP S/4HANA Cloud Private Edition - Record of Achievement](https://www.credly.com/badges/4a8483c8-7e9e-4bd6-ac58-4fa107a9a535/public_url) | SAP | Credly Verified |
 | 2026-04-30 | [Data Analytics Essentials](https://www.credly.com/badges/6d1f9932-8ffd-41e3-afa7-408a16583946/public_url) | Cisco | Credly Verified |
 | 2026-04-29 | [Integrating SAP Sales Cloud and SAP Service Cloud Version 2 with SAP S/4HANA - Record of Achievement](https://www.credly.com/badges/bc3b65e3-dadf-41d4-93cf-0b4300a4a566/public_url) | SAP | Credly Verified |
 | 2026-04-29 | [Team Essentials for Designing AI Solutions](https://www.credly.com/badges/96aa8020-2271-4ecf-b55c-ee395f00b871/public_url) | IBM SkillsBuild | Credly Verified |
@@ -45,25 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-19 | [AI Fundamentals: Foundations for Understanding AI](https://www.credly.com/badges/2a493aff-eb08-4456-8683-8b9d1d7c5eef/public_url) | IBM SkillsBuild | Credly Verified |
 | 2026-04-19 | [AWS Knowledge: AWS Transform Fundamentals – Training Badge](https://www.credly.com/badges/54d81ecb-6fd5-4ff9-aba6-6acaa59cdcec/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-04-19 | [Introduction to IoT](https://www.credly.com/badges/9fd72888-3b11-4f02-b53a-1506890ed015/public_url) | Cisco | Credly Verified |
-| 2026-04-18 | [Digital Awareness](https://www.credly.com/badges/9edc3f97-91e5-4d5d-b674-27e822964fb4/public_url) | Cisco | Credly Verified |
-| 2026-04-18 | [Modernizing Integration with SAP Integration Suite - SAP Learning MOOC - Record of Achievement](https://www.credly.com/badges/f3166cf7-82ab-4871-8b96-7ed8cbf350e6/public_url) | SAP | Credly Verified |
-| 2026-04-18 | [Understanding SAP’s 2026 Go-to-Market Direction for Partners - Record of Achievement](https://www.credly.com/badges/cccb34bc-a8ae-4c85-8a7f-793cd28bfa1b/public_url) | SAP | Credly Verified |
-| 2026-04-18 | [Using Computer and Mobile Devices](https://www.credly.com/badges/156370e6-b39b-4f49-a04e-cdb1fb215489/public_url) | Cisco | Credly Verified |
-| 2026-04-17 | [Introduction to Modern AI](https://www.credly.com/badges/8d48ad0b-4e3a-4d75-889d-90f586263f0e/public_url) | Cisco | Credly Verified |
-| 2026-04-16 | [Working in a Digital World: Professional Skills](https://www.credly.com/badges/a3eadc8d-e260-4d4f-bc57-b00d05ff0a50/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-15 | [AWS Knowledge: Cloud Essentials - Training Badge](https://www.credly.com/badges/91a86ab7-370c-47ea-9dde-6e2b0dec08db/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-04-15 | [Getting Started with Artificial Intelligence](https://www.credly.com/badges/51934455-5098-41bd-a21e-2d31f5e06517/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-14 | [Computer Hardware Basics](https://www.credly.com/badges/4695e6c2-7860-4cda-9e31-55851d12e3da/public_url) | Cisco | Credly Verified |
-| 2026-04-13 | [Generative AI Essentials: Using LLMs to Work with Data](https://www.credly.com/badges/2e249462-a23b-4c37-8eea-c279927629c8/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-13 | [Introduction to Cybersecurity](https://www.credly.com/badges/61438657-9227-4fe2-a571-673adf92bae0/public_url) | Cisco | Credly Verified |
-| 2026-04-12 | [AWS Knowledge: AWS Graviton - Training Badge](https://www.credly.com/badges/013b5a15-4ea6-47a4-9812-bcb52372bb1f/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-04-12 | [Make Agentic AI Work for You](https://www.credly.com/badges/0162b3cd-2bf0-4a6e-8335-3ece7487f265/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-11 | [AI for Networking](https://www.credly.com/badges/44ef5ed4-03e3-4047-b5c4-341d35a52ee7/public_url) | Cisco | Credly Verified |
-| 2026-04-11 | [Digital Mindset](https://www.credly.com/badges/c6b89299-f4da-4b4d-93de-a136065eee33/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-10 | [Administering SAP Sustainability Control Tower - Record of Achievement](https://www.credly.com/badges/7fe3c2ec-d068-4278-a1d6-e3ce744ac608/public_url) | SAP | Credly Verified |
-| 2026-04-10 | [Create Your First Gemini Enterprise Application](https://www.credly.com/badges/f68cab03-5280-4436-bf1d-989b1bbc30c8/public_url) | Google Cloud | Credly Verified |
-| 2026-04-10 | [Getting Started with Generative AI](https://www.credly.com/badges/9897db5e-5da6-4cc6-8c14-d522e680c531/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-10 | [Getting Started with SAP Sustainability Data Exchange - Record of Achievement](https://www.credly.com/badges/1749200c-61e9-4682-94e5-fed5ffbf6fba/public_url) | SAP | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-09.md](credly-badges-2026-07-part-09.md)

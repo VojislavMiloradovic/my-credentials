@@ -8,6 +8,29 @@ This document represents a unified, verifiable list of all 471 records.
 | :---: | :--- | :--- | :---: |
 | 2026-07-29 | [Analyze Images with the Cloud Vision API Skill Badge](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url) | Google Cloud | Credly Verified |
 | 2026-07-29 | [Get Started with Eventarc Skill Badge](https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e/public_url) | Google Cloud | Credly Verified |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/f25607a9-7c89-4d0b-b9a5-b82953885053/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/dc865649-88b4-41fe-bfd1-300a94547c2a/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/4be898f4-3ff3-4463-a408-9fc502930d00/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/0cfb05df-7c70-45c8-b92d-ad2d00dd09f6/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/e1950bc8-936b-46da-b334-adad0802aa11/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/c47cffbd-b734-4fb2-af2f-ba098430ab6c/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/ba0c138d-b0e9-433c-8007-2f4f8b980c68/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/421f017a-89cf-4028-a42c-6691ffcb691e/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/a743db39-9018-4998-9501-971101c04773/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/02560a5b-0632-4af4-9e7f-af18c8af97c5/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/67de0992-c745-4374-94dc-9fef9db41b46/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/505fe7cb-514d-42ec-a4d4-12dd4fd077a3/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/86f079db-8bc7-41b8-b882-bae4d1eef82e/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/d35ad67f-e7ab-43e6-9d0e-91474c7bb9c1/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/b6bcfa90-7621-47d1-b062-12086ff61bd3/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/16a8e370-ea24-421f-9398-9598b2043487/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/942d3c95-0f94-48c8-b50f-8933b8f42488/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/0798db5e-8759-4719-861b-65b9f5e26eda/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/f8cba5d0-02d9-4dcc-b3d2-c7a2aa6ba989/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/f5b2a49a-c5f3-477c-9559-aae528f15eeb/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/196240f1-dcb7-4939-bbbb-0438d313b173/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/28825145-668c-4dfd-af0c-7723fb77576e/public_url) | Credly Issuer | External/Imported |
+| 2026-07-29 | [External Credential](https://www.credly.com/badges/934b4141-bcf6-4834-a982-327f1ea3e893/public_url) | Credly Issuer | External/Imported |
 | 2026-07-28 | [Optimizing and Maintaining MongoDB Cluster Reliability](https://www.credly.com/badges/ef5db49e-1ab5-4ea0-ba70-bf16383e600f/public_url) | MongoDB | Credly Verified |
 | 2026-07-27 | [AWS Educate Getting Started with Cloud Ops - Training Badge](https://www.credly.com/badges/c1b15993-b012-43a3-bdcb-946d4ee73452/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-07-27 | [Beyond Atomic Testing with Attack Flows](https://www.credly.com/badges/bb201075-aef3-4e05-b357-f024ab834146/public_url) | AttackIQ | Credly Verified |
@@ -454,29 +477,6 @@ This document represents a unified, verifiable list of all 471 records.
 | 2025-11-24 | [Use Functions, Formulas, and Charts in Google Sheets Skill Badge](https://www.credly.com/badges/e8a7950a-9042-4809-bf7a-3f01ca2d03dc/public_url) | Google Cloud | Credly Verified |
 | 2025-11-20 | [Get Started with Google Workspace Tools Skill Badge](https://www.credly.com/badges/62ee81aa-da62-41ba-a1cd-234030dc68d9/public_url) | Google Cloud | Credly Verified |
 | 2025-11-04 | [Prompt Design in Vertex AI Skill Badge](https://www.credly.com/badges/cd1cec47-b40b-4395-bdb0-bc859fc3d4d7/public_url) | Google Cloud | Credly Verified |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
-| N/A | External Badge | External Issuer | External/Imported |
 
 
 [← Back to Index](./credly-badges-index.md) | [← README](../README.md)
