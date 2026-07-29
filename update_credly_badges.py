@@ -18,9 +18,9 @@ generate_platform_archive = None
 for module_name in ("archiver", "archiver_2", "archive_utils"):
     try:
         mod = __import__(module_name, fromlist=["generate_platform_archive"])
-        generate_platform_archive = getattr(mod, "generate_platform_archive")
+        generate_platform_archive = mod.generate_platform_archive
         break
-    except ImportError:
+    except (ImportError, AttributeError):
         continue
 
 # Configure logging
