@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 5 of 5
-date_range: 2026-01-06 to 2026-02-11
-total_entries: 50
+date_range: 2026-01-06 to 2026-02-23
+total_entries: 61
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-05.md
 ---
 
@@ -12,6 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Compute Cost Optimization Services | Digital Course | 2026-02-23 | 30 minutes |
+| Getting Started with Amazon Augmented AI | Digital Course | 2026-02-23 | 1 hour |
+| [RETIRED] Use MCP to create AI Agents | Digital Course | 2026-02-18 | 27 minutes |
+| Deep Dive: Amazon Elastic Block Store (Amazon EBS) Cost Optimization | Digital Course | 2026-02-18 | 30 minutes |
+| [RETIRING - 2026-08-10] Amazon Q Business Getting Started | Digital Course | 2026-02-15 | 45 minutes |
+| Security, Compliance, and Governance for AI Solutions | Digital Course | 2026-02-15 | 1 hour |
+| AWS Foundations: Machine Learning Basics | Digital Course | 2026-02-14 | 30 minutes |
+| Developing Generative Artificial Intelligence Solutions | Digital Course | 2026-02-13 | 1 hour |
+| Foundations of Prompt Engineering | Digital Course | 2026-02-13 | 4 hours |
+| Introduction to Amazon Quick Suite | Digital Course | 2026-02-12 | 1 hour 10 minutes |
+| Amazon Connect - Troubleshooting | Digital Course | 2026-02-11 | 1 hour |
 | Data Modeling for Amazon ElastiCache for Redis | Digital Course | 2026-02-11 | 45 minutes |
 | [RETIRING - 2026-08-03] Amazon WorkMail Getting Started | Digital Course | 2026-02-10 | 1 hour |
 | Amazon Q Developer Getting Started | Digital Course | 2026-02-10 | 1 hour |

@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 2 of 5
-date_range: 2026-04-10 to 2026-06-20
+date_range: 2026-04-15 to 2026-06-24
 total_entries: 101
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-02.md
 ---
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Amazon WorkSpaces Migrations — Additional Partner Offerings on WorkSpaces Core | Digital Course | 2026-06-24 | 1 hour |
+| Data Protection and Disaster Recovery Knowledge Badge Assessment | Digital Course | 2026-06-24 | 1 hour 30 minutes |
+| AI Driven Development Lifecycle Knowledge Badge Assessment | Aws Assessment | 2026-06-22 | 1 hour |
+| Automating with AI/ML for Small Business Owners | Digital Course | 2026-06-22 | 7 minutes |
+| Cloud Migration for Small Business Owners | Digital Course | 2026-06-22 | 6 minutes |
+| Cybersecurity for Small Business Owners | Digital Course | 2026-06-22 | 8 minutes |
+| Differentiation for Independent Software Vendors (ISV) | Digital Course | 2026-06-22 | 15 minutes |
+| Getting started with Amazon Connect Customer's agentic CX designer | Digital Course | 2026-06-22 | 3 hours |
+| Introduction to Amazon EC2 G7 Instances | Digital Course | 2026-06-22 | 30 minutes |
 | Amazon ECS Knowledge Badge Assessment | Aws Assessment | 2026-06-20 | 1 hour 30 minutes |
 | Amazon EKS Knowledge Badge Assessment | Digital Course | 2026-06-18 | 1 hour 30 minutes |
 | Getting Started with Amazon Bedrock Managed Knowledge Bases | Digital Course | 2026-06-18 | 1 hour |
@@ -104,15 +113,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | AWS Interconnect - last mile Connectivity Essentials | Digital Course | 2026-04-16 | 45 minutes |
 | AWS Interconnect - multicloud Connectivity Essentials | Digital Course | 2026-04-16 | 1 hour |
 | AWS Cloud Practitioner Essentials | Digital Course | 2026-04-15 | 12 hours 45 minutes |
-| Cloud Essentials - Knowledge Badge Readiness Path  (includes Labs) | Learning Plan | 2026-04-15 | 21 hours 55 minutes |
-| Cloud Essentials Knowledge Badge Assessment | Digital Course | 2026-04-15 | 1 hour 30 minutes |
-| [RETIRING - 2026-08-03] AWS Panorama - Building Edge Computer Vision (CV) Applications | Digital Course | 2026-04-14 | 1 hour 30 minutes |
-| SaaS Technical Fundamentals | Digital Course | 2026-04-13 | 1 hour 30 minutes |
-| AWS Graviton - Knowledge Badge Readiness Path | Learning Plan | 2026-04-12 | 2 hours 30 minutes |
-| AWS Graviton: Performance and Migration Best Practices | Digital Course | 2026-04-12 | 2 hours 30 minutes |
-| Getting Started with AWS RTB Fabric | Digital Course | 2026-04-11 | 1 hour |
-| Transform live video for mobile audiences with AWS Elemental Inference | Digital Course | 2026-04-11 | 1 hour |
-| AWS Graviton Processors Fundamentals | Digital Course | 2026-04-10 | 30 minutes |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-01.md](aws-skills-2026-07-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-03.md](aws-skills-2026-07-part-03.md)

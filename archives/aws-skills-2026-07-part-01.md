@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 1 of 5
-date_range: 2026-06-22 to 2026-07-28
+date_range: 2026-06-24 to 2026-07-30
 total_entries: 100
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md
 ---
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Amazon Connect AI Self-Service Capabilities | Digital Course | 2026-07-30 | 1 hour |
+| Amazon Connect Flow Modules and Step-by-Step Guides | Digital Course | 2026-07-30 | 1 hour |
+| AWS for SAP Cloud ERP Essentials | Digital Course | 2026-07-30 | 1 hour |
+| AWS Transit Gateway - Troubleshooting | Digital Course | 2026-07-30 | 1 hour |
+| Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore | Digital Course | 2026-07-30 | 45 minutes |
+| Introducing OpenTelemetry and PromQL support in Amazon CloudWatch | Digital Course | 2026-07-30 | 45 minutes |
+| Kick off Nova customization experiments using Nova Forge SDK | Digital Course | 2026-07-30 | 1 hour |
+| Penetration Testing for Everyone: Autonomous Security with AWS Security Agent | Digital Course | 2026-07-30 | 1 hour |
+| VectorDB vs GraphDB for Gen AI Agents | Digital Course | 2026-07-30 | 1 hour |
 | Accelerate Generative AI Inference on Amazon SageMaker AI with G7e Instances | Digital Course | 2026-07-28 | 45 minutes |
 | Amazon Managed Blockchain Getting Started | Digital Course | 2026-07-28 | 1 hour |
 | Amazon Quick for IT Professionals | Digital Course | 2026-07-28 | 1 hour |
@@ -103,15 +112,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Media & Entertainment: Direct-to-Consumer and Broadcast Foundations Knowledge Badge Assessment | Digital Course | 2026-06-26 | 1 hour 30 minutes |
 | [RETIRING - 2026-08-05] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases | Digital Course | 2026-06-24 | 1 hour |
 | Amazon WorkSpaces Migrations - Horizon on WorkSpaces Core | Digital Course | 2026-06-24 | 1 hour |
-| Amazon WorkSpaces Migrations — Additional Partner Offerings on WorkSpaces Core | Digital Course | 2026-06-24 | 1 hour |
-| Data Protection and Disaster Recovery Knowledge Badge Assessment | Digital Course | 2026-06-24 | 1 hour 30 minutes |
-| AI Driven Development Lifecycle Knowledge Badge Assessment | Aws Assessment | 2026-06-22 | 1 hour |
-| Automating with AI/ML for Small Business Owners | Digital Course | 2026-06-22 | 7 minutes |
-| Cloud Migration for Small Business Owners | Digital Course | 2026-06-22 | 6 minutes |
-| Cybersecurity for Small Business Owners | Digital Course | 2026-06-22 | 8 minutes |
-| Differentiation for Independent Software Vendors (ISV) | Digital Course | 2026-06-22 | 15 minutes |
-| Getting started with Amazon Connect Customer's agentic CX designer | Digital Course | 2026-06-22 | 3 hours |
-| Introduction to Amazon EC2 G7 Instances | Digital Course | 2026-06-22 | 30 minutes |
 
 ---
 > **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md)

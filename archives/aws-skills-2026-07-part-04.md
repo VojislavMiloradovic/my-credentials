@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 4 of 5
-date_range: 2026-02-11 to 2026-03-14
+date_range: 2026-02-25 to 2026-03-15
 total_entries: 111
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-04.md
 ---
@@ -12,6 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Performance Tuning on Amazon DocumentDB | Digital Course | 2026-03-15 | 1 hour |
+| Spec-Driven Development with Kiro | Digital Course | 2026-03-15 | 1 hour |
+| [RETIRED] Introduction to AWS Global Accelerator | Digital Course | 2026-03-14 | 8 minutes |
+| [RETIRED] Succeeding in the Cloud- Rethinking your Levers | Digital Course | 2026-03-14 | 45 minutes |
+| [RETIRING - 2026-08-04] Introduction to AWS Service Catalog | Digital Course | 2026-03-14 | 30 minutes |
+| Amazon Application Recovery Controller Getting Started | Digital Course | 2026-03-14 | 1 hour |
+| Amazon Connect Introduction | Digital Course | 2026-03-14 | 15 minutes |
+| Amazon Elastic Kubernetes Service (EKS) Getting Started | Digital Course | 2026-03-14 | 1 hour |
+| AWS Control Tower Getting Started | Digital Course | 2026-03-14 | 1 hour |
+| Installing AWS Outposts Servers | Digital Course | 2026-03-14 | 10 minutes |
+| Introduction to Amazon API Gateway | Aws Builder Lab | 2026-03-14 | 1 hour |
 | Introduction to Amazon CloudFront | Aws Builder Lab | 2026-03-14 | 1 hour |
 | Introduction to Amazon EC2 | Aws Builder Lab | 2026-03-14 | 1 hour |
 | Introduction to AWS Key Management Service | Aws Builder Lab | 2026-03-14 | 1 hour |
@@ -112,17 +123,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Explore the value and benefits of SAP Cloud ERP on AWS | Digital Course | 2026-02-25 | 1 hour |
 | Generative BI with Amazon Q in Quicksight - Getting Started | Digital Course | 2026-02-25 | 1 hour |
 | Introduction to Esri on AWS | Digital Course | 2026-02-25 | 1 hour |
-| Compute Cost Optimization Services | Digital Course | 2026-02-23 | 30 minutes |
-| Getting Started with Amazon Augmented AI | Digital Course | 2026-02-23 | 1 hour |
-| [RETIRED] Use MCP to create AI Agents | Digital Course | 2026-02-18 | 27 minutes |
-| Deep Dive: Amazon Elastic Block Store (Amazon EBS) Cost Optimization | Digital Course | 2026-02-18 | 30 minutes |
-| [RETIRING - 2026-08-10] Amazon Q Business Getting Started | Digital Course | 2026-02-15 | 45 minutes |
-| Security, Compliance, and Governance for AI Solutions | Digital Course | 2026-02-15 | 1 hour |
-| AWS Foundations: Machine Learning Basics | Digital Course | 2026-02-14 | 30 minutes |
-| Developing Generative Artificial Intelligence Solutions | Digital Course | 2026-02-13 | 1 hour |
-| Foundations of Prompt Engineering | Digital Course | 2026-02-13 | 4 hours |
-| Introduction to Amazon Quick Suite | Digital Course | 2026-02-12 | 1 hour 10 minutes |
-| Amazon Connect - Troubleshooting | Digital Course | 2026-02-11 | 1 hour |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-03.md](aws-skills-2026-07-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-05.md](aws-skills-2026-07-part-05.md)

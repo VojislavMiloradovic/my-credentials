@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 3 of 5
-date_range: 2026-03-14 to 2026-04-09
-total_entries: 104
+date_range: 2026-03-15 to 2026-04-15
+total_entries: 102
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-03.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Cloud Essentials - Knowledge Badge Readiness Path  (includes Labs) | Learning Plan | 2026-04-15 | 21 hours 55 minutes |
+| Cloud Essentials Knowledge Badge Assessment | Digital Course | 2026-04-15 | 1 hour 30 minutes |
+| [RETIRING - 2026-08-03] AWS Panorama - Building Edge Computer Vision (CV) Applications | Digital Course | 2026-04-14 | 1 hour 30 minutes |
+| SaaS Technical Fundamentals | Digital Course | 2026-04-13 | 1 hour 30 minutes |
+| AWS Graviton - Knowledge Badge Readiness Path | Learning Plan | 2026-04-12 | 2 hours 30 minutes |
+| AWS Graviton: Performance and Migration Best Practices | Digital Course | 2026-04-12 | 2 hours 30 minutes |
+| Getting Started with AWS RTB Fabric | Digital Course | 2026-04-11 | 1 hour |
+| Transform live video for mobile audiences with AWS Elemental Inference | Digital Course | 2026-04-11 | 1 hour |
+| AWS Graviton Processors Fundamentals | Digital Course | 2026-04-10 | 30 minutes |
 | AWS for Media & Entertainment Post-Production Workflow Essentials | Digital Course | 2026-04-09 | 20 minutes |
 | AWS Trainium Development Environment Setup | Digital Course | 2026-04-08 | 1 hour |
 | Introduction to Amazon VPC Lattice | Digital Course | 2026-04-08 | 15 minutes |
@@ -105,17 +114,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build With Amazon DocumentDB (with MongoDB compatibility) | Digital Course | 2026-03-15 | 1 hour |
 | Fundamentals of Amazon Aurora | Digital Course | 2026-03-15 | 1 hour |
 | Introduction to Amazon Connect and the Connect Control Panel (CCP) | Digital Course | 2026-03-15 | 45 minutes |
-| Performance Tuning on Amazon DocumentDB | Digital Course | 2026-03-15 | 1 hour |
-| Spec-Driven Development with Kiro | Digital Course | 2026-03-15 | 1 hour |
-| [RETIRED] Introduction to AWS Global Accelerator | Digital Course | 2026-03-14 | 8 minutes |
-| [RETIRED] Succeeding in the Cloud- Rethinking your Levers | Digital Course | 2026-03-14 | 45 minutes |
-| [RETIRING - 2026-08-04] Introduction to AWS Service Catalog | Digital Course | 2026-03-14 | 30 minutes |
-| Amazon Application Recovery Controller Getting Started | Digital Course | 2026-03-14 | 1 hour |
-| Amazon Connect Introduction | Digital Course | 2026-03-14 | 15 minutes |
-| Amazon Elastic Kubernetes Service (EKS) Getting Started | Digital Course | 2026-03-14 | 1 hour |
-| AWS Control Tower Getting Started | Digital Course | 2026-03-14 | 1 hour |
-| Installing AWS Outposts Servers | Digital Course | 2026-03-14 | 10 minutes |
-| Introduction to Amazon API Gateway | Aws Builder Lab | 2026-03-14 | 1 hour |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-04.md](aws-skills-2026-07-part-04.md)

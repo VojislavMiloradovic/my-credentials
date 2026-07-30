@@ -1,11 +1,20 @@
 # Complete AWS Skill Builder Archive
 
-This document represents a unified, verifiable list of all 466 records.
+This document represents a unified, verifiable list of all 475 records.
 
 ## Verified Records Archive
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Amazon Connect AI Self-Service Capabilities | Digital Course | 2026-07-30 | 1 hour |
+| Amazon Connect Flow Modules and Step-by-Step Guides | Digital Course | 2026-07-30 | 1 hour |
+| AWS for SAP Cloud ERP Essentials | Digital Course | 2026-07-30 | 1 hour |
+| AWS Transit Gateway - Troubleshooting | Digital Course | 2026-07-30 | 1 hour |
+| Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore | Digital Course | 2026-07-30 | 45 minutes |
+| Introducing OpenTelemetry and PromQL support in Amazon CloudWatch | Digital Course | 2026-07-30 | 45 minutes |
+| Kick off Nova customization experiments using Nova Forge SDK | Digital Course | 2026-07-30 | 1 hour |
+| Penetration Testing for Everyone: Autonomous Security with AWS Security Agent | Digital Course | 2026-07-30 | 1 hour |
+| VectorDB vs GraphDB for Gen AI Agents | Digital Course | 2026-07-30 | 1 hour |
 | Accelerate Generative AI Inference on Amazon SageMaker AI with G7e Instances | Digital Course | 2026-07-28 | 45 minutes |
 | Amazon Managed Blockchain Getting Started | Digital Course | 2026-07-28 | 1 hour |
 | Amazon Quick for IT Professionals | Digital Course | 2026-07-28 | 1 hour |
