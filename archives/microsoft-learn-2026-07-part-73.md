@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 73 of 92
-date_range: 2025-12-22 to 2025-12-24
+chunk_part: 73 of 93
+date_range: 2025-12-23 to 2025-12-24
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-73.md
 ---
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Explore support and diagnostic tools | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-support-diagnostic-tools/) |
+| Explore Windows architecture | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-architecture/) |
+| Describe the manufacturing process in Dynamics 365 Supply Chain Management | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-manufacturing-strategies-microsoft-dynamics/) |
+| Export data from Dataverse and use Microsoft Excel to edit records | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/export-dataverse-excel/) |
+| Use Power Query to load data in Dataverse | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-power-query/) |
+| Build your first end-to-end test with Playwright | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-with-playwright/) |
+| Describe the sales and procurement processes in Dynamics 365 Supply Chain Management | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sales-procurement-processes-dynamics-365/) |
+| Examine Windows client editions and requirements | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-windows-client-editions-requirements/) |
 | Build effective presentations with AI | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/present-copilot-microsoft-powerpoint/) |
 | Describe identities in Zero Trust | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-identities/) |
 | Introduction to Zero Trust | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/zero-trust-introduction/) |
@@ -19,8 +27,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Make your meetings more productive with AI | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/make-your-meetings-more-productive-ai/) |
 | Email with Power Automate | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/email-power-automate/) |
 | Process custom documents with AI Builder | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-form-processing/) |
-| Introduction to AI in Azure | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/) |
 | Get started with machine learning in Azure | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/) |
+| Introduction to AI in Azure | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/) |
 | Introduction to large language models | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-large-language-models/) |
 | Settle competing commits by using merge conflict resolution on GitHub | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/resolve-merge-conflicts-github/) |
 | Describe inventory and warehousing capabilities in Dynamics 365 Supply Chain Management | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-warehouse-inventory-management-capabilities/) |
@@ -59,14 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build and run a web application with the MEAN stack on an Azure Linux virtual machine | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-a-web-app-with-mean-on-a-linux-vm/) |
 | Linux on Azure | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-linux/) |
 | Describe accounts payable and accounts receivable in Dynamics 365 Finance | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-accounts-payable-accounts-receivable-microsoft/) |
-| Create agents with Microsoft Copilot Studio - Online Workshop | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-virtual-agents-workshop/) |
-| Build Power Automate flows for your agent - Online workshop | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flows-chatbot-online-workshop/) |
-| Automating email handling in Power Automate for desktop | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-email/) |
-| Manage secrets in your server apps with Azure Key Vault | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secrets-with-azure-key-vault/) |
-| Connect your on-premises network to Azure with VPN Gateway | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-on-premises-network-with-vpn-gateway/) |
-| Build your first ASP.NET Core web app | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-aspnet-core-web-app/) |
-| Build web pages with HTML and CSS for beginners | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-web-pages-html-css-for-beginners/) |
-| Build your first HTML webpage | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-html-webpage/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-72.md](microsoft-learn-2026-07-part-72.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-74.md](microsoft-learn-2026-07-part-74.md)

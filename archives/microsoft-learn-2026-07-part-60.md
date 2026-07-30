@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 60 of 92
-date_range: 2026-01-16 to 2026-01-18
-total_entries: 54
+chunk_part: 60 of 93
+date_range: 2026-01-17 to 2026-01-19
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-60.md
 ---
 
@@ -12,13 +12,21 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Prepare on-premises workloads for migration to Azure | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-onpremises-workloads-migration-azure/) |
+| Migrate on-premises workloads to Azure | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-on-premises-workloads-azure/) |
+| Developer use cases for AI with GitHub Copilot | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) |
+| Develop unit tests using GitHub Copilot tools | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-unit-tests-using-github-copilot-tools/) |
+| Use AI responsibly with Microsoft Foundry Content Safety | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-content-safety/) |
+| Design effective reports in Power BI | Learningpaths | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-bi-effective/) |
+| Perform analytics in Power BI | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/) |
+| Understand the Transformer architecture and explore large language models in Azure Machine Learning | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-foundation-models-in-model-catalog/) |
 | Work with generative artificial intelligence (AI) models in Azure Machine Learning | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-generative-models-azure-machine-learning/) |
-| Govern and protect sensitive information in the age of AI | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-govern-ai/) |
 | Manage compliance with Microsoft Purview for Microsoft 365 Copilot | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-data-compliance/) |
+| Govern and protect sensitive information in the age of AI | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-govern-ai/) |
 | Explore PostgreSQL architecture | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-postgresql-architecture/) |
 | Create and manage Insider Risk Management policies | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-create-manage-insider-risk-policy/) |
-| Manage and secure Power BI | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-secure-power-bi/) |
 | Create dashboards in Power BI | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/) |
+| Manage and secure Power BI | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-secure-power-bi/) |
 | Choose a content distribution method | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-content-distribution-method/) |
 | Manage semantic models in Power BI | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-datasets-power-bi/) |
 | Manage workspaces in Power BI service | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-workspaces-power-bi-service/) |
@@ -57,15 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Ingest data with Microsoft Fabric | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/ingest-data-with-microsoft-fabric/) |
 | Ingest Data with Dataflows Gen2 in Microsoft Fabric | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/) |
 | Orchestrate a multi-agent solution using the Microsoft Agent Framework | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/) |
-| Prepare data for analysis with Power BI | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-data-power-bi/) |
-| Choose a Power BI model framework | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/) |
-| Organize a Fabric lakehouse using medallion architecture design | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-medallion-architecture/) |
-| Clean, transform, and load data in Power BI | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/clean-data-power-bi/) |
-| Get data in Power BI | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-data/) |
-| Get started with GitHub Copilot | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-github-copilot/) |
-| Describe general ledger and cash and bank management processes in Dynamics 365 Finance | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-general-ledger-cash-bank-management/) |
-| Personalize learning for students with disabilities using AI | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/personalize-learning-students-disabilities-using-ai/) |
-| Build agent-driven workflows using Microsoft Foundry | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-agent-workflows-microsoft-foundry/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-59.md](microsoft-learn-2026-07-part-59.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-61.md](microsoft-learn-2026-07-part-61.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 11 of 92
-date_range: 2026-06-07 to 2026-06-11
-total_entries: 55
+chunk_part: 11 of 93
+date_range: 2026-06-08 to 2026-06-11
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-11.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Manage user authentication | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-user-authentication/) |
+| Implement an authentication and access management solution | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-authentication-access-management-solution/) |
+| Design solutions that align with the Microsoft Cybersecurity Reference Architecture (MCRA) and Microsoft cloud security benchmark (MCSB) | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-microsoft-cybersecurity-cloud-security-benchmark/) |
+| Use developer tools to extend Power Platform | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/developer-tools-extend/) |
+| Learn continuous integration with GitHub Actions | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/) |
+| Secure AI identity infrastructure with Microsoft Entra | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/entra-ai-secure-workloads/) |
+| Plan, implement, and administer Conditional Access | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-administer-conditional-access/) |
+| Manage Azure Pipeline agents and pools | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/) |
 | AZ-305: Design data storage solutions | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-data-storage-solutions/) |
 | Design a data storage solution for non-relational data | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/) |
 | Implement initial configuration of Microsoft Entra ID | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-initial-configuration-of-azure-active-directory/) |
@@ -58,15 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to Azure DevOps to GitHub migration | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-ado-to-github-migration/) |
 | Secure and govern Microsoft 365 Copilot interactions with Microsoft Purview | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-secure-govern-copilot-interactions/) |
 | Secure AI interactions and environments with Microsoft Purview | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-ai/) |
-| Understand How to Secure AI Data with Microsoft Purview | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-understand-risks/) |
-| Secure Microsoft 365 Copilot interactions with Microsoft Purview | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-secure-copilot/) |
-| Secure enterprise and browser-based AI apps with Microsoft Purview | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-secure-enterprise-other/) |
-| GitHub Copilot Fundamentals Part 2 of 2 | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
-| Introduction to MCP Server | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/mcp-server/) |
-| Understand how Microsoft Purview Unified Catalog unifies your data estate | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-unified-catalog-understand/) |
-| Leveling up code reviews and pull requests with GitHub Copilot | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/) |
-| Azure Local Accreditation 2025 | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-local-accreditation-2025/) |
-| Hyperconverged Infrastructure (HCI) Stack | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/hci-stack/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-10.md](microsoft-learn-2026-07-part-10.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-12.md](microsoft-learn-2026-07-part-12.md)

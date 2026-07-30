@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 35 of 92
-date_range: 2026-03-12 to 2026-03-14
-total_entries: 50
+chunk_part: 35 of 93
+date_range: 2026-03-12 to 2026-03-15
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-35.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Configure bookable resources in Dynamics 365 Field Service | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-bookable-resources-urs-dynamics-field-service/) |
+| Set up versioned products in Dynamics 365 Supply Chain Management | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-versioned-products-engineering-change-management/) |
+| Configure engineering change management for Dynamics 365 Supply Chain Management | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-engineering-change-management/) |
+| Set up cost and sales prices for time, expense, and materials in Dynamics 365 Project Operations | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-cost-sales-price/) |
+| Extend Dynamics 365 Customer Service | Learningpaths | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-customer-service/) |
+| Create custom apps for Dynamics 365 Customer Service | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-apps-customer-service/) |
+| Create fixed asset classes, subclasses, and locations in Dynamics 365 Business Central | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-classes-subclasses-locations/) |
+| Ingest DICOM data into healthcare data solutions in Microsoft Fabric | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-dicom-ingestion/) |
+| Access REST services from within Dynamics 365 Business Central | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/access-rest-services/) |
 | Identify and configure batch attributes for process manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-configure-batch-attributes-process-manufacturing-dyn365-supply-chain-mgmt/) |
 | Set up intercompany trade in Dynamics 365 Supply Chain Management | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-intercompany-trade/) |
 | Deploy and configure Sales in Microsoft 365 Copilot | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/sales-copilot-deploy-configure/) |
@@ -52,16 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Pass pipeline objects | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/pass-pipeline-objects/) |
 | Deploy and use SDOH datasets transformations for analytics | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-sdoh-transformations/) |
 | Introduction to Power Pages administration | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-admin-intro/) |
-| Extend finance and operations apps | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/extending-finance-operations/) |
-| Extend elements in finance and operations apps | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-elements-finance-operations/) |
-| Manage Microsoft Teams by using Windows PowerShell | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-teams-use-windows-powershell/) |
-| Get started with Customer Service Insights | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-customer-service-insights/) |
-| Work with Customer Service Insights | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-customer-service-insights/) |
-| Secure SAP on Microsoft Cloud | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-sap-microsoft-cloud/) |
-| Deploy and use CMS Claims data transformations | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-claims-transformations/) |
-| Set up put-away templates in Dynamics 365 Business Central | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/put-away-templates/) |
-| Monitor your generative AI application | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-generative-ai-app/) |
-| Get started and use functionality in Microsoft Dynamics 365 Human Resources | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-use-human-resources/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-34.md](microsoft-learn-2026-07-part-34.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-36.md](microsoft-learn-2026-07-part-36.md)

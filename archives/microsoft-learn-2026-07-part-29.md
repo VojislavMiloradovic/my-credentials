@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 29 of 92
-date_range: 2026-04-04 to 2026-04-07
+chunk_part: 29 of 93
+date_range: 2026-04-04 to 2026-04-08
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-29.md
 ---
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Create financial reports in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-financial-reports-dynamics-365-business-central/) |
+| Use dimensions in your financial reports in Dynamics 365 Business Central | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dimensions-financial-reports-dynamics-365-business-central/) |
+| Set up a waste sustainability solution by using Microsoft Sustainability Manager | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-waste-solution/) |
+| Connect educators and learners with Canvas and Microsoft 365 | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-faculty-learners-canvas-microsoft-365/) |
+| Tailor roles and design the UI for Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/tailor-roles-design-ui/) |
+| Develop a Role Center in Dynamics 365 Business Central | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-role-center/) |
+| Process sales and purchases in foreign currencies in Dynamics 365 Business Central | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-foreign-currency-payments-dynamics-365-business-central/) |
+| Manage Internet Information Services | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-internet-information-services/) |
+| Secure K-12 school IT practices and systems with Microsoft tools | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-k-12-school-it-practices-systems-microsoft-tools/) |
+| Work with assignment rules in Dynamics 365 Sales accelerator | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-sales-assignment-rules/) |
 | Set up lean manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-lean-manufacturing-dyn365-supply-chain-mgmt/) |
 | Set up onboarding experiences in Dynamics 365 Business Central | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-onboarding-experiences/) |
 | Set up fixed asset posting groups in Dynamics 365 Business Central | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/posting-groups-setup/) |
@@ -25,8 +35,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Troubleshoot platform-as-a-service issues in Microsoft Azure | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-platform-service-issues/) |
 | Measure performance in Azure Cosmos DB for NoSQL | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/measure-performance-azure-cosmos-db-sql-api/) |
 | Monitor and troubleshoot an Azure Cosmos DB for NoSQL solution | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-troubleshoot-azure-cosmos-db-sql-api-solution/) |
-| Continuous integration with Azure DevOps for Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/continuous-integration/) |
 | Use Docker in your Business Central development process | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-docker-business-central/) |
+| Continuous integration with Azure DevOps for Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/continuous-integration/) |
 | Work with Asset Management for Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-asset-management-dyn365-supply-chain-mgmt/) |
 | Work with warranties in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/warranties-asset-management/) |
 | Configure Asset Management for Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-asset-management-dyn365-supply-chain-mgmt/) |
@@ -51,16 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Master planning in Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/master-planning-supply-chain-management/) |
 | Expand query and transaction functionality in Azure Cosmos DB for NoSQL | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/expand-query-transaction-functionality-azure-cosmos-db-sql-api/) |
 | Plan and prepare a GenAIOps solution | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-prepare-genaiops/) |
-| Generate text and conversations with .NET and Azure OpenAI Completions | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/open-ai-dotnet-text-completions/) |
-| Use Resource Scheduling Optimization for Dynamics 365 Field Service | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/leveraging-resource-scheduling-optimization/) |
-| Universal Resource Scheduling in Microsoft Dynamics 365 Field Service | Learningpaths | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/universal-resource-scheduling/) |
-| Set up Finance insights in Dynamics 365 Finance | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-finance-insights/) |
-| Pick and ship items from the warehouse in Dynamics 365 Business Central | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/pick-ship-items-warehouse/) |
-| Pick and ship items in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/pick-ship-items-business-central/) |
-| Ship cross-docked items in Dynamics 365 Business Central | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/ship-cross-docked-items/) |
-| Gain insights using Dynamics 365 Customer Insights - Data Preparation | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-data-preparation/) |
-| Perform a VAT rate change in Dynamics 365 Business Central | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/rate-change-dynamics-365-business-central/) |
-| Manage forms and pages in Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-forms-pages-subscriptions/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-28.md](microsoft-learn-2026-07-part-28.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-30.md](microsoft-learn-2026-07-part-30.md)

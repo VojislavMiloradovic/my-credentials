@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 65 of 92
+chunk_part: 65 of 93
 date_range: 2026-01-03 to 2026-01-05
-total_entries: 53
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-65.md
 ---
 
@@ -12,14 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Describe significant government strategy actions | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-significant-government-strategy-actions/) |
+| Describe governmental cloud strategy | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-governmental-cloud-strategy/) |
+| Describe the government and its structure | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-government-its-structure/) |
+| Describe Cloud Business Case Analysis | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-cloud-business-case-analysis/) |
+| Get started with subscription billing in Dynamics 365 Finance | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-subscription-billing-finance/) |
+| Introduction to the development environment for Dynamics 365 Business Central | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-development-environment/) |
+| Design a Power Apps canvas app by using Figma | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-canvas-app-figma/) |
+| Evaluate requirements for Dynamics 365 projects | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-requirements-dynamics-365-projects/) |
+| Implement API Management | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-api-management/) |
 | Explore API Management | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-api-management/) |
 | Secure outbound internet connectivity for Azure VMware Solution | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-vmware-solution/) |
 | Introduction to the Partner Success Series | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-partner-success-series/) |
-| Introduction to Azure ExpressRoute | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-expressroute/) |
 | Introduction to Azure hybrid connectivity services | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-hybrid-connectivity-services/) |
+| Introduction to Azure ExpressRoute | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-expressroute/) |
 | Introduction to Azure Advisor | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-advisor/) |
-| Power Automate: Automation - Online Workshop | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
 | Create subflows and web automation with Power Automate for desktop - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-subflows-web-automation-online-workshop/) |
+| Power Automate: Automation - Online Workshop | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
 | Integrate with Microsoft Teams to get approvals - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-teams-approval-online-workshop/) |
 | Add an AI model to process invoice forms - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-ai-model-process-invoice-online-workshop/) |
 | Integrate with cloud flows - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-cloud-flows-online-workshop/) |
@@ -39,7 +48,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Run nonfunctional tests in Azure Pipelines | Modules | 2026-01-04 | N/A |
 | Interact with data in Blazor web apps | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-with-data-blazor-web-apps/) |
 | Build a Connect Four game with Blazor | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-connect-four/) |
-| Minecraft block coding academy | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-block-coding-academy/) |
+| Minecraft block coding academy | Learningpaths | 2026-01-04 | N/A |
 | Transition to Python in Minecraft Education | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-python-minecraft-education-edition/) |
 | Build programs using Python coding in Minecraft with Azure Notebooks | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-programs-use-python-coding-minecraft-azure-notebooks/) |
 | Minecraft Python coding academy | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-python-coding-academy/) |
@@ -57,14 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create classes in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-classes-finance-operations/) |
 | Build forms and optimize form performance in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-forms-optimize-finance-operations/) |
 | Build extended data types and enumerations for finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-edt-enums-finance-operations/) |
-| Start developing for finance and operations apps by using Visual Studio | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-visual-studio-finance-operations/) |
-| Set up and work in the finance and operations apps developer environment | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/finance-operations-developer-environment/) |
-| Build data models in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-tables-finance-operations/) |
-| Transform development workflows with T-SQL in SQL Server 2025 | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sql-server-2022-t-sql-enhancements/) |
-| Explore SQL Server 2025 capabilities | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-sql-server-2022-capabilities/) |
-| Get started with SQL Server 2025 | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-sql-server-2022/) |
-| Set up the Shopify connector in Dynamics 365 Business Central | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/shopify-connector-setup/) |
-| Get started with the Shopify connector in Dynamics 365 Business Central | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-shopify-dynamics-365-business-central/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-64.md](microsoft-learn-2026-07-part-64.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-66.md](microsoft-learn-2026-07-part-66.md)

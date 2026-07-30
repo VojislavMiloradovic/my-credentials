@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 26 of 92
-date_range: 2026-04-15 to 2026-04-18
+chunk_part: 26 of 93
+date_range: 2026-04-16 to 2026-04-19
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-26.md
 ---
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Get started with the implementation of Dynamics 365 Intelligent Order Management | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-implement-intelligent-order-management/) |
+| Explore MySQL Architecture | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-mysql-architecture/) |
+| Access and interpret analytics with Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/access-interpret-analytics-marketing/) |
+| Guided project - Create and manage journeys with Dynamics 365 Customer Insights | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-manage-journeys-dynamics-365-customer-insights/) |
+| Create and manage journeys with Dynamics 365 Customer Insights | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-journeys-dynamics-365-customer-insights/) |
+| Manage a company with multiple locations in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-multiple-locations/) |
+| Transfer items in Dynamics 365 Business Central | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/transfer-items/) |
+| Set up and use the sales accelerator capabilities in Dynamics 365 Sales | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/sales-accelerator/) |
+| Set up Sales accelerator in Dynamics 365 Sales | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-sales-accelerator/) |
+| Get started with Service Management in Dynamics 365 Business Central | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-service-management/) |
 | Evaluate marketing initiatives with analytics in Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-insights-marketing/) |
 | Set up Warehouse management only mode in Dynamics 365 Supply Chain Management | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-warehouse-management-only-mode/) |
 | Investigate threats using audit in Microsoft Defender XDR and Microsoft Purview (Premium) | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/investigate-threats-using-audit-in-microsoft-365-defender-microsoft-purview-premium/) |
@@ -51,16 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Migrate to vCore-based Azure Cosmos DB for MongoDB | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-vcore-based-azure-cosmos-db-mongodb/) |
 | Post sales and purchase invoices in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/post-sales-purchase-invoices-dynamics-365-business-central/) |
 | Send and receive electronic documents in Dynamics 365 Business Central | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/electronic-documents-dynamics-365-business-central/) |
-| Calculate project WIP in Dynamics 365 Business Central | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/calculate-job-wip/) |
-| Build your own AI copilot with vCore-based Azure Cosmos DB for MongoDB and Azure OpenAI | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-ai-copilot-vcore-based-azure-cosmos-db-mongodb/) |
-| Process incoming documents in Dynamics 365 Business Central | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/incoming-documents-dynamics-365-business-central/) |
-| Receive and put away inventory items in Dynamics 365 Business Central | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/receive-put-away-items/) |
-| Intelligent cash flow in Dynamics 365 Finance | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-cash-flow-finance/) |
-| Using IoT Central with Connected Field Service for Dynamics 365 | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/using-iot-central-with-connected-field-service/) |
-| Deliver remote desktops and apps with Azure Virtual Desktop | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-wvd/) |
-| Business continuity and disaster recovery for Azure Virtual Desktop | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-continuity-disaster-recovery-azure-virtual-desktop/) |
-| Create a vendor invoice for lite deployment in Dynamics 365 Project Operations | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vendor-invoice-lite-deployment/) |
-| Set up and use features with lite deployment in Dynamics 365 Project Operations | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-use-features-lite-deployment-project-operations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-25.md](microsoft-learn-2026-07-part-25.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-27.md](microsoft-learn-2026-07-part-27.md)

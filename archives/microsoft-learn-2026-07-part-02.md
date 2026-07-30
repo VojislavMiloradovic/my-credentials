@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 2 of 92
-date_range: 2026-07-14 to 2026-07-22
-total_entries: 52
+chunk_part: 2 of 93
+date_range: 2026-07-14 to 2026-07-24
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-02.md
 ---
 
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Govern AI-enabled resources in Power Platform | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-ai-enabled-resources/) |
+| Manage data protection with Azure NetApp Files | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-data-protection-azure-netapp-files/) |
+| Build your first cloud-based developer workstation using Windows 365 | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cloud-developer-workstation/) |
+| Drive adoption and transform culture in Power Platform | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/drive-adoption-transform-culture/) |
+| Work smarter with Copilot prompts for sales professionals | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-sales/) |
+| Build intelligent apps and portals with Microsoft Power Apps | Learningpaths | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-apps-portals-power-apps/) |
+| Explore Power Pages design studio | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-studio/) |
+| Core components of Power Pages | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-intro/) |
+| Create and manage canvas apps with Power Apps | Learningpaths | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-canvas-apps-power-apps/) |
+| Publish, share, and maintain a canvas app | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-share-maintain-app/) |
 | From prompts to goals | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/from-prompts-to-goals/) |
 | Troubleshoot Active Directory Domain Services replication | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-active-directory-replication/) |
 | Work smarter with Copilot prompts for finance professionals | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-finance/) |
@@ -40,8 +50,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design a multi-domain Active Directory forest | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-domain-forest-trust/) |
 | Get started with 5G on Surface for Business devices | Modules | 2026-07-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-5g/) |
 | Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-identity-lifecycle-workflows/) |
-| Analyze requirements for AI-powered business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-requirements-ai-powered-business-solutions/) |
 | Architect AI solutions for business productivity | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-agentic-ai-business-solutions/) |
+| Analyze requirements for AI-powered business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-requirements-ai-powered-business-solutions/) |
 | Introduction to agentic AI business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-agentic-ai-business-solution-architecture/) |
 | Manage testing AI-powered business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-testing-ai-powered-business-solutions/) |
 | Evaluate costs and benefits of AI solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-costs-benefits-ai-powered-business-solution/) |
@@ -55,15 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design security operations, identity, and compliance capabilities | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-operations-identity-compliance-capabilities/) |
 | Interactive case study: Modernizing user access control and threat resilience | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-access-control-threat-resilience/) |
 | Prepare AI-ready analytics data in Microsoft Fabric | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-ai-ready-analytics-data/) |
-| Prepare the semantic layer for AI in Microsoft Fabric | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/fabric-prepare-semantic-layer/) |
-| Optimize semantic model performance | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-semantic-model-performance/) |
-| Design and manage semantic models in Microsoft Fabric | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-manage-semantic-models-fabric/) |
-| Enforce semantic model security | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-semantic-model-security/) |
-| Design responsible AI security, governance, risk management, and compliance | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-responsible-ai-security-governance-risk-management-compliance/) |
-| Design AI agents for business solutions | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ai-agents-business-solutions/) |
-| Editor workflow foundations | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-editor-workflow-foundations/) |
-| Introduction to the editor role in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-introduction-editor-role/) |
-| Edit and finalize dictated reports in PowerScribe One | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-editor-edit-finalize-dictated-reports/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-01.md](microsoft-learn-2026-07-part-01.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-03.md](microsoft-learn-2026-07-part-03.md)

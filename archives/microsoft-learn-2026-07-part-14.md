@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 14 of 92
-date_range: 2026-05-25 to 2026-05-31
-total_entries: 51
+chunk_part: 14 of 93
+date_range: 2026-05-30 to 2026-05-31
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-14.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Manage application secrets and configuration for AI solutions | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-app-secrets-configuration/) |
+| Manage application secrets with Azure Key Vault | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-app-secrets-key-vault/) |
+| Protect Microsoft Foundry solutions by using Microsoft Defender for Cloud | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/defender-for-cloud-ai-foundry-protect/) |
+| Understand how Microsoft Defender for Cloud supports AI security and governance in Azure | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-for-cloud-ai-understand-protections/) |
+| Protect AI workloads with Microsoft Defender for Cloud | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-for-cloud-ai-protect-workloads/) |
+| Implement security for AI | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-security/) |
+| Configure and manage guardrails in Microsoft Foundry | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-ai-foundry-configure-manage-guardrails/) |
+| GitHub Enterprise Server fundamentals for developers | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-enterprise-server-repository-workflows/) |
 | GitHub Enterprise Server fundamentals for developers | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-enterprise-server-developer-fundamentals/) |
 | Observe and troubleshoot apps on Azure | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/observe-troubleshoot-apps/) |
 | Instrument an app with OpenTelemetry | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/instrument-app-opentelemetry/) |
@@ -25,8 +33,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Configure GitHub Copilot instructions and create custom agents | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-customize-github-copilot-visual-studio-code/) |
 | Explore SQL Server 2025 capabilities | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-sql-server-capabilities/) |
 | Transform development workflows with T-SQL in SQL Server 2025 | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sql-server-t-sql-enhancements/) |
-| Integrate SQL solutions with Azure services | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sql-solutions-azure-services/) |
 | Secure, optimize, and deploy database solutions | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-optimize-deploy-database-solutions/) |
+| Integrate SQL solutions with Azure services | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sql-solutions-azure-services/) |
 | Implement SQL solutions by using AI-assisted tools | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/) |
 | Design and implement database objects with SQL | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-database-objects/) |
 | Optimize database performance | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-database-performance/) |
@@ -54,15 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to sales in Dynamics 365 | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-sales-dynamics-365/) |
 | Describe sales account management in Dynamics 365 | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sales-account-management-dynamics-365/) |
 | Manage NFS volumes in Azure NetApp Files | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-nfs-volumes-azure-netapp-files/) |
-| Explore forecasting, pipeline management, and analytics in Dynamics 365 Sales | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-forecasting-pipeline-analytics-dynamics-365-sales/) |
-| Guide assessment with Copilot in Microsoft Teams | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/guide-assessment-copilot-microsoft-teams/) |
-| Attending radiologist workflow foundations | Learningpaths | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-attending-radiologist-workflow-foundations/) |
-| AutoText foundations | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-autotext-foundations/) |
-| Deploy and manage Agent 365 in education (Partner Success Series) | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-agent-365-education/) |
-| Explore lead qualification in Dynamics 365 | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-lead-qualification-dynamics-365/) |
-| Implement CI/CD by using SQL Database Projects | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cicd-sql-database-projects/) |
-| Implement AI capabilities in database solutions | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-capabilities-database-solutions/) |
-| Design and implement models and embeddings with SQL | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-models-embeddings-with-sql/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-13.md](microsoft-learn-2026-07-part-13.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-15.md](microsoft-learn-2026-07-part-15.md)

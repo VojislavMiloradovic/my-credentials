@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 10 of 92
-date_range: 2026-06-11 to 2026-06-16
+chunk_part: 10 of 93
+date_range: 2026-06-11 to 2026-06-18
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-10.md
 ---
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Monitor and maintain Microsoft Entra ID | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-azure-active-directory/) |
+| Explore release strategy recommendations | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/) |
+| Plan, implement, and manage access review | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-manage-access-review/) |
+| Configure auto attendants and call queues | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-auto-attendants-call-queues/) |
+| Plan and implement privileged access | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-privileged-access/) |
+| Manage alerts, blameless retrospectives and a just culture | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/) |
+| Design solutions that align with security best practices and priorities | Learningpaths | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-solutions-best-practices-priorities/) |
+| Design a resiliency strategy for ransomware and other attacks based on Microsoft Security Best Practices | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-resiliency-strategy-common-cyberthreats-like-ransomware/) |
 | Plan and implement entitlement management | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-entitlement-management/) |
 | Solution Architect series: Power Platform architecture | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-platform-architecture/) |
 | Introduction to Secure DevOps | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/) |
@@ -56,14 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Advanced Canvas App Development in Power Apps: Mastering Formulas and Development Techniques | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/advanced-canvas-app-development-mastering-formulas-techniques/) |
 | Create formulas that use tables, records, and collections in a canvas app in Power Apps | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/author-advanced-formulas-powerapps/) |
 | Use advanced formula techniques and custom updates in Power Platform | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/understand-advanced-topics/) |
-| Manage user authentication | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-user-authentication/) |
-| Implement an authentication and access management solution | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-authentication-access-management-solution/) |
-| Design solutions that align with the Microsoft Cybersecurity Reference Architecture (MCRA) and Microsoft cloud security benchmark (MCSB) | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-microsoft-cybersecurity-cloud-security-benchmark/) |
-| Use developer tools to extend Power Platform | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/developer-tools-extend/) |
-| Learn continuous integration with GitHub Actions | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/) |
-| Secure AI identity infrastructure with Microsoft Entra | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/entra-ai-secure-workloads/) |
-| Plan, implement, and administer Conditional Access | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-administer-conditional-access/) |
-| Manage Azure Pipeline agents and pools | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-09.md](microsoft-learn-2026-07-part-09.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-11.md](microsoft-learn-2026-07-part-11.md)

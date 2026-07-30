@@ -12,13 +12,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
-- **Total Experience Points (XP):** 5,949,725
+- **Total Experience Points (XP):** 5,961,425
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,870
+- **Badges Earned (Profile):** 3,879
 - **Trophies Earned (Profile):** 901
 - **Completed Learning Paths (Active Tracker):** 511
-- **Completed Modules (Active Tracker):** 2,624
-- **Completed Individual Units:** 35,343
+- **Completed Modules (Active Tracker):** 2,633
+- **Completed Individual Units:** 35,424
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -29,18 +29,18 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,771 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,780 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
-- **Go beyond Keras: Customize with TensorFlow** (Modules | Earned: 2026-07-28 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/intro-machine-learning-tensorflow/))
-- **TensorFlow fundamentals** (Learningpaths | Earned: 2026-07-28 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/tensorflow-fundamentals/))
-- **Introduction to TensorFlow using Keras** (Modules | Earned: 2026-07-28 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/intro-machine-learning-keras/))
-- **Build Microsoft Teams customization using the SharePoint Framework** (Modules | Earned: 2026-07-28 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-teams-dev/))
-- **Extend Microsoft SharePoint â€“ Associate** (Learningpaths | Earned: 2026-07-28 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/m365-sharepoint-associate/))
-- **Deploy SharePoint Framework Components to Production** (Modules | Earned: 2026-07-28 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-deployment/))
-- **Use Microsoft Graph and non-Microsoft APIs** (Modules | Earned: 2026-07-28 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-graph-3rd-party-apis/))
-- **Create Adaptive Card Extensions (ACE) for Microsoft Viva Connections** (Modules | Earned: 2026-07-28 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-adaptive-card-extension-card-types/))
-- **Extend Microsoft Viva Connections** (Learningpaths | Earned: 2026-07-28 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/m365-extend-viva-connections/))
-- **Extend the SharePoint user interface with SharePoint Framework extensions** (Modules | Earned: 2026-07-28 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-extensions/))
+- **Managing Azure NetApp Files** (Learningpaths | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/manage-azure-netapp-files/))
+- **Troubleshoot Azure NetApp Files** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/troubleshoot-azure-netapp-files/))
+- **Manage operations and monitoring in Power Platform** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/manage-operations-monitoring/))
+- **Extend ALM with Git and CI/CD in Power Platform** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/extend-alm-git-cicd/))
+- **Capture and inspect Windows Server network traffic with Packet Monitor** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/understand-windows-packet-monitor/))
+- **Manage Azure NetApp Files security** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/manage-azure-netapp-files-security/))
+- **Understand the Active Directory Domain Services schema** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-schema/))
+- **Create, communicate, and analyze with Surface and Microsoft 365** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/create-analyze-surface/))
+- **Understand the Active Directory Domain Services database and SYSVOL** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-database/))
+- **Work smarter with Copilot prompts for human resources professionals** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-hr/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

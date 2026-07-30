@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 31 of 92
-date_range: 2026-03-24 to 2026-03-30
+chunk_part: 31 of 93
+date_range: 2026-03-25 to 2026-03-30
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-31.md
 ---
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Create journals for projects in Dynamics 365 Business Central | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-journals-for-jobs/) |
+| Develop data-driven applications by using Azure SQL Database | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-data-driven-app-sql-db/) |
+| Develop a data API for Azure SQL Database | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-data-api-azure-sql-database/) |
+| Set up maintenance requests in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-maintenance-asset-management/) |
+| Manage external connections with Customer Insights - Data | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-third-party-connections/) |
+| Implement CI/CD for IoT Edge | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cicd-iot-edge/) |
+| Configure and manage procurement and vendors in Dynamics 365 Supply Chain Management | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) |
+| Work with intercompany trade in Dynamics 365 Supply Chain Management | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-intercompany-trade/) |
+| Configure and manage sales, and customers in Dynamics 365 Supply Chain Management | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-sales-customers-dyn365-supply-chain-mgmt/) |
+| Transfer general ledger entries to cost accounting in Dynamics 365 Business Central | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/transfer-gl-entries-dynamics-365-business-central/) |
 | Sync customers to Shopify and Dynamics 365 Business Central | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/synchronize-customers-shopify/) |
 | Work with segments in Dynamics 365 Sales accelerator | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-segments-sales/) |
 | Plan to deploy the Microsoft Sentinel solution for SAP | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-microsoft-sentinel-deployment-sap/) |
@@ -54,16 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Set up Microsoft Defender for Cloud | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-microsoft-defender-cloud/) |
 | Build an Assisted Setup in Dynamics 365 Business Central | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-assisted-setup/) |
 | Set up work orders in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-work-orders-asset-management/) |
-| Implement and manage Microsoft Purview Privacy Risk Management | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/priva-privacy-risk-management/) |
-| Predictions in Dynamics 365 Customer Insights - Data | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/predictions-in-customer-insights-data/) |
-| Set up your training environment | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-setup-environment/) |
-| Implement backup and restore for Azure Cosmos DB for NoSQL | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-backup-restore-for-azure-cosmos-db-sql-api/) |
-| Register and report consumption in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-report-consumption-asset-management/) |
-| Get started with finance agents | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-copilot-for-finance/) |
-| Work with maintenance budgets in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintenance-budget-asset-management/) |
-| Configure replication and manage failovers in Azure Cosmos DB | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-replication-manage-failovers-azure-cosmos-db/) |
-| Configure administrative roles in Microsoft 365 | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-administrative-microsoft-365/) |
-| Use variables, arrays, and hash tables in Windows PowerShell scripts | Learningpaths | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-variables-arrays-hash-tables-windows-powershell/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-30.md](microsoft-learn-2026-07-part-30.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-32.md](microsoft-learn-2026-07-part-32.md)

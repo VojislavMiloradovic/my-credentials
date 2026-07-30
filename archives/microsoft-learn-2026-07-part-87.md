@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 87 of 92
+chunk_part: 87 of 93
 date_range: 2025-11-21 to 2025-11-24
-total_entries: 54
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-87.md
 ---
 
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Add decision logic to your code using `if`, `else`, and `else if` statements in C# | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-if-elseif-else/) |
+| Accessibility: Build the foundation for inclusive learning  | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/accessibility-build-foundation-inclusive-learning/) |
+| Call methods from the .NET Class Library using C# | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-call-methods/) |
+| Get started with OneNote for education | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-onenote/) |
+| Introduction to Microsoft security solutions | Learningpaths | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-capabilities-of-microsoft-security-solutions/) |
+| Describe the security management capabilities in Azure | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-security-management-capabilities-of-azure/) |
+| Empower every student with an inclusive classroom | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-every-student-with-inclusive-classroom/) |
+| Identify Microsoft Power Automate components | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-microsoft-power-automate-components/) |
+| Summarize sales data using Copilot in Excel | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/summarize-sales-data/) |
+| Windows 10 EOS Calculator usage guide | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-10-end-of-support-calculator-usage-guide/) |
 | Explore Microsoft 365 Copilot and agent administration | Learningpaths | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-copilot-agent-administration/) |
 | Perform basic administrative tasks for Microsoft 365 Copilot | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-admin-tasks-microsoft-365-copilot/) |
 | Explore Microsoft 365 Copilot and agents | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-365-copilot-agents/) |
@@ -47,25 +57,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design a dream destination using Microsoft Copilot | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dream-destination-ai-copilot/) |
 | Introduction to Microsoft Azure Data relational data in Azure | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-relational-data/) |
 | Explore relational database services in Azure | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/) |
-| Guided project - Calculate final GPA | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-calculate-final-gpa/) |
 | Write your first code using C# (Get started with C#, Part 1) | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-1/) |
+| Guided project - Calculate final GPA | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-calculate-final-gpa/) |
 | Work smarter in Excel with Copilot Chat | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-excel/) |
 | Manage email efficiently with Microsoft Outlook and Copilot Chat | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-email-efficiently/) |
 | Manage your calendar in new Outlook for Windows | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-calendar-new-outlook-windows/) |
 | A new generation of Windows experiences | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-experiences/) |
 | Introduction to Azure Local | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local/) |
 | Microsoft 365 Copilot and Copilot agents | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-and-copilot-agents/) |
-| Understand the Extended Security Updates (ESU) program for Windows 10 | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-esu-program/) |
-| Unlock the power of Microsoft agents | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/unlock-power-microsoft-agents/) |
-| Build your first declarative agent using TypeSpec | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-declarative-agent-using-typespec/) |
-| Introduction to Copilot connectors | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-connectors/) |
-| Introduction to Windows IoT | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-windows-iot/) |
-| Key features and innovations in Windows Server 2025 | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-server-features/) |
-| Windows Server 2025 Accreditation 2025 | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-2025-accreditation-2025/) |
-| Azure integrations and benefits in Windows Server 2025 | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-integrations-and-benefits/) |
-| Introduction to Windows Server 2025 | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-windows-server-2025/) |
-| Key features and innovations in Windows Server 2025 | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-server-2025-features-explained/) |
-| Device deployment with Windows Autopilot | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-autopilot/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-86.md](microsoft-learn-2026-07-part-86.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-88.md](microsoft-learn-2026-07-part-88.md)

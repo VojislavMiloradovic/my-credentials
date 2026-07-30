@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 20 of 92
-date_range: 2026-04-30 to 2026-05-05
+chunk_part: 20 of 93
+date_range: 2026-05-02 to 2026-05-05
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-20.md
 ---
@@ -12,8 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Elevate Educator - Expert (AI) | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/elevate-educator-expert-ai/) |
+| Connect hybrid and multicloud environments to Microsoft Defender for Cloud | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-hybrid-multicloud-environments-defender/) |
+| Configure Microsoft Defender Vulnerability Management settings for Azure VMs | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-defender-vulnerability-management/) |
+| Tooling, MCP, and Agent Execution Environments | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/) |
+| Foundations of Agentic AI in GitHub | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/) |
+| Designing Agent Architecture and SDLC Integration | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/) |
+| How to coach care out loud | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-coach-care-out-loud/) |
+| Dragon Copilot (nurses)- How to train and coach basic functionality | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-coach-basic-skills/) |
+| Enable Defender for AI Services workload protection in Microsoft Defender for Cloud | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-cloud-ai-services/) |
+| Get started with Microsoft Agent 365 | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-365-get-started/) |
 | Introduction to AI literacy | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-ai-literacy/) |
+| Elevate Educator - Expert (AI) | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/elevate-educator-expert-ai/) |
 | Elevate Educator - Explorer (AI) | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/elevate-educator-explorer-ai/) |
 | Build a reflective AI practice over time | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reflective-ai-practice-over-time/) |
 | Build with AI as a creative partner, developed in partnership with ISTE+ASCD | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-with-ai-creative-partner/) |
@@ -52,15 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design semantic models for scale in Microsoft Fabric | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-semantic-models-scale/) |
 | Welcome to Dragon Copilot (nurses) learn to train | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-learn-to-train-welcome/) |
 | Extend Dynamics 365 apps with Power Platform and Copilot Studio | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-dynamics365-apps-power-platform/) |
-| Investigate data security risks with Microsoft Purview Data Security Posture Management | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-posture-management-investigate-risks/) |
-| Configure workspaces for Microsoft Security Copilot | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-security-copilot-workspaces/) |
-| Manage plugins and agents in Microsoft Security Copilot | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-plugins-agents-security-copilot/) |
-| Transition from traditional ops to agentic DevOps workflows | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-traditional-ops-agent-automation/) |
-| Develop generative AI apps in Azure | Learningpaths | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-generative-ai-apps/) |
-| Select, deploy, and evaluate Microsoft Foundry models | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/model-catalog-evaluate/) |
-| Introduction to student security operations centers (SOCs) | Learningpaths | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-student-security-operations-centers/) |
-| Explore SOC tools and technologies with Microsoft Security | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-tools-technologies-microsoft-security/) |
-| Protect Azure Key Vault with Microsoft Defender for Cloud | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/defend-key-vault-defender-cloud/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-19.md](microsoft-learn-2026-07-part-19.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-21.md](microsoft-learn-2026-07-part-21.md)

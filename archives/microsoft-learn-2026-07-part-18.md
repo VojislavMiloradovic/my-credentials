@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 18 of 92
-date_range: 2026-05-09 to 2026-05-14
+chunk_part: 18 of 93
+date_range: 2026-05-09 to 2026-05-15
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-18.md
 ---
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Prompt with purpose, in partnership with ISTE+ASCD | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/prompt-with-purpose/) |
+| Get more done with Copilot Cowork | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/delegate-work-copilot-cowork/) |
+| Design AI for good, in partnership with ISTE+ASCD | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ai-for-good/) |
+| Choose the best Office productivity option for stable and evolving workflows | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/office-home-business-2024/) |
+| Introduction to Azure Sphere | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-sphere/) |
+| Centralize and enforce traffic inspection using Azure Firewall | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/centralize-traffic-inspection-azure-firewall/) |
+| Introduction to implementing Dynamics 365 Contact Center | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-implement-dynamics-365-contact-center/) |
+| Coach and support advanced use of Dragon Copilot (nurses) | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-coach-and-support-advanced-use/) |
+| Configure queues in Dynamics 365 Contact Center | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-queues-contact-center/) |
 | Configure Dynamics 365 Contact Center core capabilities | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-core-capabilities-contact-center/) |
 | Configure AI agents and Copilot in Dynamics 365 Contact Center | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-copilot-contact-center/) |
 | Implement security controls for Azure Kubernetes Service | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-kubernetes/) |
@@ -35,8 +44,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Secure Unity Catalog objects | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-unity-catalog-objects/) |
 | Secure Azure OpenAI with content safety controls | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-openai-content-safety-controls/) |
 | Ingest data into Unity Catalog | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-into-unity-catalog/) |
-| Deploy and maintain data pipelines and workloads with Azure Databricks | Learningpaths | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-deploy-maintain-data-pipelines-workloads/) |
 | Implement development lifecycle processes in Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-development-lifecycle-processes-in-azure-databricks/) |
+| Deploy and maintain data pipelines and workloads with Azure Databricks | Learningpaths | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-deploy-maintain-data-pipelines-workloads/) |
 | Implement and manage data quality constraints with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-data-quality-constraints-unity-catalog/) |
 | Implement Lakeflow Jobs with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-lakeflow-jobs/) |
 | Design and implement data pipelines with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-data-pipelines/) |
@@ -54,15 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Enable real-time protection for Copilot Studio agents | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-protection-copilot-studio-agents/) |
 | Configure AI Gateway security in Microsoft Foundry | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ai-gateway-security-foundry/) |
 | Welcome to Dragon Copilot for nurse leaders | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurse-leaders-welcome/) |
-| Scale how you work by creating AI agents | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-work-creating-ai-agents/) |
-| Use GitHub Copilot for cloud operations | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-github-copilot-cloud-operations/) |
-| Optimize and fine-tune AI agents for production | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-finetune-agents/) |
-| Dragon Copilot - nurse leaders essentials | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurse-leaders-essentials/) |
-| Design AI-powered business solutions with Microsoft Power Platform | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ai-powered-solutions-power-platform/) |
-| Monitor, troubleshoot and optimize workloads in Azure Databricks | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-optimize-workloads-azure-databricks/) |
-| Govern Unity Catalog objects | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-unity-catalog-objects/) |
-| Identify AI data risks using Microsoft Purview Data Security Posture Management | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-ai-data-risks-purview/) |
-| Build intelligent agents in Microsoft Copilot Studio | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-studio-knowledge/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-17.md](microsoft-learn-2026-07-part-17.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-19.md](microsoft-learn-2026-07-part-19.md)

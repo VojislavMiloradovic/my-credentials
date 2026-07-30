@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 9 of 92
-date_range: 2026-06-16 to 2026-06-22
+chunk_part: 9 of 93
+date_range: 2026-06-18 to 2026-06-22
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-09.md
 ---
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Design solutions for security operations | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-security-operations/) |
+| Develop using X++ for Finance and operations apps | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-x-plus-plus-finance-operations/) |
+| Validate your skills architecting solutions for customers and products | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-your-skills-architecting-solutions-for-customers-products/) |
+| Implement application lifecycle management in finance and operations apps | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-lifecycle-finance-operations/) |
+| Solution Architect series: Implement integrations with Power Platform | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrations/) |
+| AZ-400: Manage infrastructure as code using Azure and DSC | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-manage-infrastructure-as-code-using-azure/) |
+| Explore Azure Automation with DevOps | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/) |
+| Implement access management for apps | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-access-management-for-apps/) |
 | Implement app registration | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-app-registration/) |
 | Understand package management | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-package-management/) |
 | Solution Architect series: Testing and go-live | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-test-process/) |
@@ -28,8 +36,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Software Composition Analysis | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/) |
 | Implement Bicep | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-bicep/) |
 | Integrate with Dataverse and Azure | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dataverse-azure/) |
-| Integrate with Power Platform and Dataverse | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-power-platform-dataverse/) |
 | Integrate Dataverse Azure solutions | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-dataverse-azure-solutions/) |
+| Integrate with Power Platform and Dataverse | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-power-platform-dataverse/) |
 | Migrate, consolidate, and secure artifacts | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/) |
 | Introduction to deployment patterns | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/) |
 | AZ-400: Implement a secure continuous deployment using Azure Pipelines | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-secure-continuous-deployment/) |
@@ -57,14 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Solution architect series: Explore Microsoft Copilot Studio | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/architect-power-virtual-agents/) |
 | Plan and implement an identity governance strategy | Learningpaths | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-implement-identity-governance-strategy/) |
 | Configure and govern entitlement with Microsoft Entra ID | Learningpaths | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-entitlement-microsoft-entra-id/) |
-| Monitor and maintain Microsoft Entra ID | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-azure-active-directory/) |
-| Explore release strategy recommendations | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/) |
-| Plan, implement, and manage access review | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-manage-access-review/) |
-| Configure auto attendants and call queues | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-auto-attendants-call-queues/) |
-| Plan and implement privileged access | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-privileged-access/) |
-| Manage alerts, blameless retrospectives and a just culture | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/) |
-| Design solutions that align with security best practices and priorities | Learningpaths | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-solutions-best-practices-priorities/) |
-| Design a resiliency strategy for ransomware and other attacks based on Microsoft Security Best Practices | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-resiliency-strategy-common-cyberthreats-like-ransomware/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-08.md](microsoft-learn-2026-07-part-08.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-10.md](microsoft-learn-2026-07-part-10.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 68 of 92
+chunk_part: 68 of 93
 date_range: 2025-12-29 to 2025-12-30
-total_entries: 55
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-68.md
 ---
 
@@ -12,11 +12,20 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Deploy Spring microservices to Azure | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-spring-cloud-workshop/) |
+| Deploy a Quarkus application to Azure Container Apps | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-java-quarkus-azure-container-app-postgres/) |
+| Introduction to Java on Azure | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-java-azure/) |
+| Create a multistage pipeline by using Azure Pipelines | Modules | 2025-12-30 | N/A |
+| Get started with AI | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai/) |
+| Get started with development using X++ in finance and operations apps | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-xpp-finance-operations/) |
+| Get started with Expense management in Dynamics 365 Project Operations | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-expense-management/) |
+| MD-100 Configure storage on Windows clients | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-storage-windows-clients/) |
+| Implement Storage Spaces | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-storage-spaces/) |
 | Manage storage on Windows clients | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-storage-windows-clients/) |
 | Maintain disks and volumes | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-disks-volumes/) |
 | Increase educator adoption of search tools | Modules | 2025-12-30 | N/A |
 | Challenge project - Build a minigame with GitHub Copilot and Python | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/) |
-| Extract invoice data with AI Builderâ€™s prebuilt model | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-invoice-processing/) |
+| Extract invoice data with AI Builder’s prebuilt model | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-invoice-processing/) |
 | User interface essentials in Dynamics 365 Business Central | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/user-interface-dynamics-365-business-central/) |
 | Work with the Microsoft Dynamics 365 Business Central user interface | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-user-interface-dynamics-365-business-central/) |
 | Teach cybersecurity concepts with Minecraft Education | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-cybersecurity-concepts-minecraft-education/) |
@@ -47,26 +56,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Deploy a Java web app to a Tomcat server on Azure App Service | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-java-webapp-to-app-service-linux/) |
 | Develop confident presenters with Speaker Progress | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-confident-presenters-speaker-progress/) |
 | Get started with Asset Management for Dynamics 365 Supply Chain Management | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-asset-management/) |
-| Orchestrate containers for cloud-native apps with AKS | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-native-apps-orchestrate-containers/) |
 | Create cloud native apps with Azure and open-source software | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-cloud-native-apps-with-azure-open-source/) |
+| Orchestrate containers for cloud-native apps with AKS | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-native-apps-orchestrate-containers/) |
 | Introduction to cloud-native apps on Azure | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-cloud-native-apps/) |
-| MD-100 Configure data access and usage | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-data-access-usage/) |
 | Configure and manage file access | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-file-access/) |
+| MD-100 Configure data access and usage | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-data-access-usage/) |
 | Explore Windows client file systems | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-client-file-systems/) |
 | Manage user files | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-user-files/) |
 | MD-100 Troubleshoot the Windows client operating system and apps | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-windows-client-operating-system-apps/) |
 | Troubleshoot operating system service issues | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-operating-system-service-issues/) |
 | Use alternative interfaces for Dynamics 365 Business Central | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/alternative-interfaces-dynamics-365-business-central/) |
-| Transform your business applications with fusion development | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-applications-with-fusion-development/) |
 | Integrate OpenAPI-enabled Web APIs with Azure API Management through Visual Studio | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-openapi-enabled-web-api-with-apim-and-visual-studio/) |
-| Build a Power Apps component | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-apps-component/) |
-| Transform business software authoring with fusion development teams | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-business-software-authoring-with-fusion-dev/) |
-| MD-100 Configure threat protection | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-threat-protection/) |
-| Explore advanced protection methods | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-advanced-protection-methods/) |
-| Explore connection security rules | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-connection-security-rules/) |
-| Explore device encryption features | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-device-encryption-features/) |
-| Explore malware and threat protection | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-malware-threat-protection/) |
-| Explore Microsoft Defender | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-defender/) |
+| Transform your business applications with fusion development | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-applications-with-fusion-development/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-67.md](microsoft-learn-2026-07-part-67.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-69.md](microsoft-learn-2026-07-part-69.md)

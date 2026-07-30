@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 67 of 92
+chunk_part: 67 of 93
 date_range: 2025-12-30 to 2026-01-01
-total_entries: 56
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-67.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| MD-100 Configure post-installation settings and personalization | Learningpaths | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-post-installation-settings-personalization/) |
+| Explore common configuration options | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-common-configuration-options/) |
+| Manage drivers and device peripherals | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-drivers-device-peripherals/) |
+| Accelerate nonprofit funding solutions with Microsoft Copilot | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/accelerate-nonprofit-funding-solutions-microsoft-copilot/) |
+| Manage agents for Microsoft 365 Copilot | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-agents-microsoft-365-copilot/) |
+| Introduction to the Microsoft Viva suite | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-suite-introduction/) |
+| Manage Authentication, Authorization, and RBAC for AI workloads on Azure | Learningpaths | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-iam-for-ai-workloads-on-azure/) |
+| Secure Azure OpenAI authentication and authorization | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-openai-authentication-authorization/) |
 | Add intelligence to a real estate solution with AI Builder's GPT prompts | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-intelligence-ai-copilot/) |
 | Build flows for a real estate solution using Copilot in Power Automate | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-real-estate-power-automate-copilot/) |
 | Build a Power Apps canvas app for a real estate solution with Copilot in Power Apps | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-canvas-app-real-estate-power-apps-copilot/) |
@@ -25,8 +33,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage Universal Windows Platform apps | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-universal-windows-platform-apps/) |
 | Provide apps to users | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/provide-apps-users/) |
 | Explore the Windows servicing model | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-servicing-model/) |
-| Learn how Microsoft safeguards customer data | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/audit-safeguard-customer-data/) |
 | Understand Microsoft datacenter security | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-physical-security/) |
+| Learn how Microsoft safeguards customer data | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/audit-safeguard-customer-data/) |
 | Understand Microsoft Online Services subprocessor management | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-subprocessor-management/) |
 | Understand Microsoft 365 privacy | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-privacy/) |
 | Understand Microsoft Online Services security development and operation | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-security-development-operation/) |
@@ -53,21 +61,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Customize layout in .NET MAUI XAML pages | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-xaml-pages-layout/) |
 | Collaborate with others with Markdown and GitHub Pages | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/collaborate-markdown-github-pages/) |
 | Create and host web sites by using GitHub Pages | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-host-web-sites-github-pages/) |
-| Application lifecycle management for Dynamics 365 | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-lifecycle-management-dynamics-365/) |
 | Implement Dynamics 365 Projects | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-dynamics-365-projects/) |
+| Application lifecycle management for Dynamics 365 | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-lifecycle-management-dynamics-365/) |
 | Test your Dynamics 365 implementation | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-dynamics-365-implementation/) |
 | Document your Dynamics 365 solution for the customer | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-dynamics-365-solution-customer/) |
 | Design the Dynamics 365 deployment | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dynamics-365-deployment/) |
 | Present Business Applications designs to stakeholders | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/present-business-applications-designs/) |
-| Deploy Spring microservices to Azure | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-spring-cloud-workshop/) |
-| Deploy a Quarkus application to Azure Container Apps | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-java-quarkus-azure-container-app-postgres/) |
-| Introduction to Java on Azure | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-java-azure/) |
-| Create a multistage pipeline by using Azure Pipelines | Modules | 2025-12-30 | N/A |
-| Get started with AI | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai/) |
-| Get started with development using X++ in finance and operations apps | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-xpp-finance-operations/) |
-| Get started with Expense management in Dynamics 365 Project Operations | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-expense-management/) |
-| MD-100 Configure storage on Windows clients | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-storage-windows-clients/) |
-| Implement Storage Spaces | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-storage-spaces/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-66.md](microsoft-learn-2026-07-part-66.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-68.md](microsoft-learn-2026-07-part-68.md)

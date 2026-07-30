@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 83 of 92
-date_range: 2025-12-01 to 2025-12-04
+chunk_part: 83 of 93
+date_range: 2025-12-02 to 2025-12-05
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-83.md
 ---
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Connect Microsoft 365 Copilot to your external data in real-time with message extension plugins built with .NET and Visual Studio | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-message-extension-plugins/) |
+| Get started with AI Builder entity extraction | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-entity-extraction/) |
+| Register an MLflow model in Azure Machine Learning | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-mlflow-model-azure-machine-learning/) |
+| Microsoft 365 Education teacher academy | Learningpaths | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-365-education-teacher-academy/) |
+| Create authentic assessments with Microsoft Forms | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-authentic-assessments-microsoft-forms/) |
+| Access and prepare data for Power BI Desktop - Online workshop | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/access-prepare-power-bi/) |
+| Guided project - Work with variable data in C# | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-work-variable-data-c-sharp/) |
+| Run pipelines in Azure Machine Learning | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-pipelines-azure-machine-learning/) |
+| Build flows to manage user information | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-user-information/) |
 | Management, troubleshooting, and support for Intune for Education (Partner Success Series)   | Modules | 2025-12-04 | N/A |
 | Explore Azure Database for MySQL - Flexible Server features that support mission-critical workloads | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-database-for-mysql-features-that-support-mission-critical-workloads/) |
 | Choose a deployment scenario for HoloLens device management | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-deployment-strategy-hololens/) |
@@ -22,8 +31,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Extend Microsoft Viva Connections with application customizers | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-extend-with-app-customizers/) |
 | Configure and manage a Microsoft Viva Glint 360 feedback program | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-configure-manage-viva-glint-360-feedback-program/) |
 | Customize the presentation of Microsoft Graph Toolkit components by using templates | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-toolkit-customize-part-two/) |
-| Manage identity and access in Microsoft Entra ID | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-identity-and-access/) |
 | Manage users and groups in Microsoft Entra ID | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-users-and-groups-in-aad/) |
+| Manage identity and access in Microsoft Entra ID | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-identity-and-access/) |
 | Run a training script as a command job in Azure Machine Learning | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-training-script-command-job-azure-machine-learning/) |
 | Choose the correct data type in your C# code | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-choose-data-type/) |
 | Empower your workforce with Microsoft 365 Copilot: Challenge Use Case | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-challenge/) |
@@ -56,15 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Extend Microsoft Viva Connections with Adaptive Card Extensions | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-extend-with-adaptive-card-extensions/) |
 | Deploy a Spring Boot app to Azure Container Apps | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/java-spring-on-azure-container-apps/) |
 | Build an AI-powered workplace helper app | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-ai-powered-workplace-helper-app/) |
-| Introduction to Azure OpenAI managed identity authentication with JavaScript | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-openai-managed-identity-auth-javascript/) |
-| Choose a tool to migrate data to Azure Database for MySQL | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-tool-to-migrate-data-to-azure-database-for-mysql/) |
-| Earn Advanced School Data Sync credit toward the SDS Advanced badge | Modules | 2025-12-02 | N/A |
-| Choose the best Microsoft Surface for your business | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-best-surface-for-business/) |
-| Get started with web development using Visual Studio Code | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-web-development/) |
-| Format alphanumeric data for presentation in C# | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-format-strings/) |
-| Develop learner executive function with the 21CLD self-regulation dimension | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-learner-executive-function/) |
-| Host your domain on Azure DNS | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/host-domain-azure-dns/) |
-| Improve communication skills with the 21CLD skilled communication dimension | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-communication-skills-21cld/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-82.md](microsoft-learn-2026-07-part-82.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-84.md](microsoft-learn-2026-07-part-84.md)

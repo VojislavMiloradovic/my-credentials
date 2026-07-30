@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 4 of 92
-date_range: 2026-07-08 to 2026-07-11
-total_entries: 48
+chunk_part: 4 of 93
+date_range: 2026-07-08 to 2026-07-13
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-04.md
 ---
 
@@ -12,7 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Accelerate Azure SQL tasks with Microsoft Copilot | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-copilot-administer-azure-sql/) |
+| Improve meeting collaboration with Facilitator in Microsoft Teams | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/facilitator-in-microsoft-teams/) |
+| Get started with Transact-SQL programming | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-transact-sql-programming/) |
+| Program with Transact-SQL | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/program-transact-sql/) |
+| AZ-400: Design and implement a release strategy | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-release-strategy/) |
+| Create a Release Pipeline | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/) |
+| Manage volume access for Azure NetApp Files | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-volume-access-azure-netapp-files/) |
+| Work smarter with Copilot prompts for IT professionals | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-it/) |
 | Integrate agents with enterprise systems in Microsoft Copilot Studio | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-agents-enterprise-systems-copilot-studio/) |
+| Integrate agents with external systems via MCP in Microsoft Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-agents-external-systems-mcp-copilot-studio/) |
 | Ground agents with enterprise knowledge using connectors and Azure AI Search in Microsoft Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-agents-enterprise-knowledge-connectors-azure-ai-search-copilot-studio/) |
 | Automate desktop and web tasks with computer use in Copilot Studio | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-desktop-web-tasks-computer-use-copilot-studio/) |
 | Automate tasks and workflows in Microsoft Copilot Studio | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-tasks-workflows-copilot-studio/) |
@@ -46,20 +55,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design enterprise-scale agent communication with A2A in Azure | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-enterprise-agent-communication-a2a/) |
 | Design advanced prompting strategies for production AI agents | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-advanced-prompt-production-agents/) |
 | Debug and respond to production multi-agent incidents in Azure | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-debug-production-multi-agent-incidents-azure/) |
-| Extend Microsoft for Sustainability | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-sustainability/) |
 | Extend Sustainability Manager for building complex Scope 3 calculations | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-complex-calculations/) |
+| Extend Microsoft for Sustainability | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-sustainability/) |
 | Get started with Text Analytics for health | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-text-analytics/) |
 | Work with Text Analytics for health API | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-health-text-analytics/) |
 | Migrate voice services from Skype for Business Server to Teams | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-voice-services-from-skype-for-business-server-to-teams/) |
 | Automate Deployment of SAP on Azure | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-deployment-of-sap-azure/) |
-| Ensure business continuity and implement disaster recovery for SAP solutions on Azureâ€‹ | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/ensure-business-continuity-implement-disaster-recovery/) |
-| Implement disaster recovery for SAP workloads in Azure | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-disaster-recovery-for-sap-workloads-azure/) |
-| Overview of Azure Stack Hub | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/overview-of-azure-stack-hub/) |
-| Datacenter integration for Azure Stack Hub | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/datacenter-integration-azure-stack-hub/) |
-| Migrate SAP workloads to Azure | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-sap-workloads-to-azure/) |
-| Use the planning and deployment checklist for SAP workloads on Azure | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-sap-workload-planning-deployment-checklist/) |
-| Explore SAP HANA on Azure (Large Instances) | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-sap-hana-azure-large-instances/) |
-| Identify SAP HANA on Azure (Large Instances) certified offerings | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-sap-hana-azure-large-instances-certified-offerings/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-03.md](microsoft-learn-2026-07-part-03.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-05.md](microsoft-learn-2026-07-part-05.md)

@@ -1,6 +1,6 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 77 of 92
+chunk_part: 77 of 93
 date_range: 2025-12-16 to 2025-12-18
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-77.md
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Create a threat model using data-flow diagram elements | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-create-a-threat-model-using-foundational-data-flow-diagram-elements/) |
+| Introduction to threat modeling | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-introduction-to-threat-modeling/) |
+| Use recommended tools to create a data-flow diagram | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-use-recommended-tools-to-create-a-data-flow-diagram/) |
+| Query and modify data with Transact-SQL | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/) |
+| Use built-in functions and GROUP BY in Transact-SQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-built-functions-transact-sql/) |
+| Modify data with T-SQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/modify-data-with-transact-sql/) |
+| Write Subqueries in T-SQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-subqueries/) |
+| Introduction to infrastructure as code using Bicep | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-infrastructure-as-code-using-bicep/) |
+| Provisioning a Linux virtual machine in Microsoft Azure | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-linux-virtual-machine-in-azure/) |
 | Introduce coding in Minecraft Education | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduce-coding-minecraft-education-edition/) |
 | Take your first steps with Power Automate for desktop | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-first-steps/) |
 | Create accessible content | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-accessible-content/) |
@@ -58,15 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Combine multiple tables with JOINs in T-SQL | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-multiple-tables-with-joins/) |
 | Introduction to Docker containers | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-docker-containers/) |
 | Choose a data storage approach in Azure | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-storage-approach-in-azure/) |
-| Dyslexia and technology, in partnership with Made By Dyslexia | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-technology/) |
-| Accessibility, special education, and learning: Support equity in learning | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/accessibility-special-education-online-learning-equity/) |
-| Introduction to Azure Virtual Networks | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-virtual-networks/) |
-| Describe the finance and operations apps | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-introduced-finance-operations-apps/) |
-| Build a to-do list with Blazor | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-blazor-todo-list/) |
-| Secure and isolate access to Azure resources by using network security groups and service endpoints | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/) |
-| Sort and filter results in T-SQL | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/sort-filter-queries/) |
-| Accessibility best practices for gaming hardware | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/hardware-devices/) |
-| Create a Holographic Remoting app to visualize 3D content on HoloLens 2 | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/pc-holographic-remoting-tutorials/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-76.md](microsoft-learn-2026-07-part-76.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-78.md](microsoft-learn-2026-07-part-78.md)

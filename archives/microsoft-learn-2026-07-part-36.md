@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 36 of 92
+chunk_part: 36 of 93
 date_range: 2026-03-09 to 2026-03-12
-total_entries: 51
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-36.md
 ---
 
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Extend finance and operations apps | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/extending-finance-operations/) |
+| Extend elements in finance and operations apps | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-elements-finance-operations/) |
+| Manage Microsoft Teams by using Windows PowerShell | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-teams-use-windows-powershell/) |
+| Get started with Customer Service Insights | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-customer-service-insights/) |
+| Work with Customer Service Insights | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-customer-service-insights/) |
+| Secure SAP on Microsoft Cloud | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-sap-microsoft-cloud/) |
+| Deploy and use CMS Claims data transformations | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-claims-transformations/) |
+| Set up put-away templates in Dynamics 365 Business Central | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/put-away-templates/) |
+| Monitor your generative AI application | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-generative-ai-app/) |
+| Get started and use functionality in Microsoft Dynamics 365 Human Resources | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-use-human-resources/) |
 | Set up and use Employee self service and Manager self service  in Dynamics 365 Human Resources | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-self-service/) |
 | Advanced project planning and task scheduling capabilities in Dynamics 365 Project Operations | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-project-planning-task-scheduling/) |
 | Work with the costing sheet in Dynamics 365 Supply Chain Management | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-costing-sheet-dyn365-supply-chain-mgmt/) |
@@ -33,8 +43,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with project sales management in Dynamics 365 Project Operations | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-project-sales-management/) |
 | Manage Microsoft Purview Audit (Standard) | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-purview-audit-standard/) |
 | Create text messages and push notifications in Dynamics 365 Customer Insights - Journeys | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-text-messages-push-notifications/) |
-| Implement a data modeling and partitioning strategy for Azure Cosmos DB for NoSQL | Learningpaths | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-modeling-partitioning-azure-cosmos-db-sql-api/) |
 | Implement a non-relational data model | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-non-relational-data-model/) |
+| Implement a data modeling and partitioning strategy for Azure Cosmos DB for NoSQL | Learningpaths | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-modeling-partitioning-azure-cosmos-db-sql-api/) |
 | Deploy a model with GitHub Actions | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-model-github-actions/) |
 | Work with web services in Dynamics 365 Business Central | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-web-services/) |
 | Create forms in Dynamics 365 Customer Insights - Journeys | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-forms-customer-insights-journeys/) |
@@ -54,15 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Discover the foundation of customizing Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/foundation-customize-business-central/) |
 | Learn about the data management foundation in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-management-foundation-business-central/) |
 | Introduction to the basics of file management in Dynamics 365 Business Central | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-basics-file-management/) |
-| Use system catalogs and system views in PostgreSQL | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-system-catalogs-system-views-postgresql/) |
-| Work with Azure Boards for project management in Business Central | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-azure-boards/) |
-| Design a data partitioning strategy | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-partitioning-strategy/) |
-| Understand data protection and resiliency in Azure NetApp Files | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-data-protection/) |
-| Implement a data engineering solution with Azure Databricks | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer/) |
-| Perform incremental processing with spark structured streaming | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-incremental-processing-with-spark-structured-streaming/) |
-| Implement integrated cache in Azure Cosmos DB for NoSQL | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-integrated-cache/) |
-| Provision and deploy Windows 365 Cloud PCs | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-windows-365-cloud-pcs/) |
-| Introduction to SAP on Microsoft Cloud | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sap-microsoft-cloud/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-35.md](microsoft-learn-2026-07-part-35.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-37.md](microsoft-learn-2026-07-part-37.md)

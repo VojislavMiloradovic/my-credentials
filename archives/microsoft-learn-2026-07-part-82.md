@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 82 of 92
-date_range: 2025-12-04 to 2025-12-07
+chunk_part: 82 of 93
+date_range: 2025-12-05 to 2025-12-07
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-82.md
 ---
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Deploy a model to a batch endpoint | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-model-batch-endpoint/) |
+| Data visualization and reports in Power BI - Online workshop | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-visualization-reports-power-bi/) |
+| Preprocess data with Data Wrangler in Microsoft Fabric | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/preprocess-data-with-data-wrangler-microsoft-fabric/) |
+| Describe concepts of cryptography | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-concepts-of-cryptography/) |
+| Explore the benefits of a Change Agents Program for public sector organizations | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-benefits-change-agents-program-public-sector-organizations/) |
+| Create C# methods with parameters | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-c-sharp-methods-parameters/) |
+| Build your first data model and explore the data by using Power BI - Online workshop | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-data-model/) |
+| Implement the Visual Studio Code debugging tools for C# | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-visual-studio-code-debugging-tools/) |
+| Introduction to application resiliency in Azure | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-application-resiliency-azure/) |
 | Prepare for Intune for Education (Partner Success Series) | Modules | 2025-12-07 | N/A |
 | Ingest ESG value chain data | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-environmental-social-governance-value-solution/) |
 | Apply Information Barriers in education | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-information-barriers-education/) |
@@ -47,7 +56,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Challenge project - Work with variable data in C# | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-work-variable-data-c-sharp/) |
 | Deliver Results with your Viva Glint Executive Consultation (EC) | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-deliver-results-executive-consultation/) |
 | Get tips and tricks for teaching MB-220: Microsoft Dynamics 365 Marketing Functional Consultant | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-220-marketing-functional-consultant/) |
-| Understand Viva Glintâ€™s approach to 360 feedback | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-understand-viva-glint-approach-360-feedback/) |
+| Understand Viva Glint’s approach to 360 feedback | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-understand-viva-glint-approach-360-feedback/) |
 | Enhance communication using Power Automate and the Office 365 Users Connector | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-communication/) |
 | Get started with Sustainability data solutions in Microsoft Fabric | Learningpaths | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sustainability-data-solutions/) |
 | Sustainability data solutions overview | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-data-solutions-overview/) |
@@ -55,15 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with healthcare data solutions in Microsoft Fabric | Learningpaths | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/healthcare-data-solutions/) |
 | Healthcare data solutions overview | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-data-solutions-overview/) |
 | Education solutions following School Data Sync deployment | Modules | 2025-12-05 | N/A |
-| Connect Microsoft 365 Copilot to your external data in real-time with message extension plugins built with .NET and Visual Studio | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-message-extension-plugins/) |
-| Get started with AI Builder entity extraction | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-entity-extraction/) |
-| Register an MLflow model in Azure Machine Learning | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-mlflow-model-azure-machine-learning/) |
-| Microsoft 365 Education teacher academy | Learningpaths | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-365-education-teacher-academy/) |
-| Create authentic assessments with Microsoft Forms | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-authentic-assessments-microsoft-forms/) |
-| Access and prepare data for Power BI Desktop - Online workshop | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/access-prepare-power-bi/) |
-| Guided project - Work with variable data in C# | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-work-variable-data-c-sharp/) |
-| Run pipelines in Azure Machine Learning | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-pipelines-azure-machine-learning/) |
-| Build flows to manage user information | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-user-information/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-81.md](microsoft-learn-2026-07-part-81.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-83.md](microsoft-learn-2026-07-part-83.md)

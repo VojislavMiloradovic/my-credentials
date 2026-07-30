@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 85 of 92
-date_range: 2025-11-26 to 2025-11-28
-total_entries: 52
+chunk_part: 85 of 93
+date_range: 2025-11-27 to 2025-11-29
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-85.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Describe the sustainability practices in datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sustainability-practices-datacenters/) |
+| Identify key hardware and IT infrastructure components of datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-key-hardware-it-infrastructure-components/) |
+| Learn about datacenter design, architecture, and infrastructure management | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-about-datacenter-design/) |
+| Understand the purpose and evolution of datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-purpose-evolution-datacenters/) |
+| Empower your workforce with Microsoft 365 Copilot: Customer Service Use Case | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-microsoft-365-copilot-customer-service-use-case/) |
+| Learn about contributing to local economies through datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-contributing-local-economies-through-datacenters/) |
+| Empower your workforce with Microsoft 365 Copilot: Communications Use Case | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-microsoft-365-copilot-communications-use-case/) |
+| Foundations of SaaS | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/saas/saas-foundations/) |
+| Copilot Foundations | Learningpaths | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-foundations/) |
 | Get started with Microsoft Copilot Studio | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-virtual-agents-bots/) |
 | Build a digital learning hub with Class Teams | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-digital-learning-hub-class-teams/) |
 | Evaluate Boolean expressions to make decisions in C# | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-evaluate-boolean-expressions/) |
@@ -54,16 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Enhance your productivity with prebuilt Microsoft 365 Copilot agents | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-productivity-prebuilt-agents/) |
 | Explore prebuilt Microsoft 365 Copilot agents | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-prebuilt-microsoft-365-copilot-agents/) |
 | Introduction to declarative agents for Microsoft 365 Copilot | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-intro/) |
-| Monitor and maintain Microsoft 365 Copilot connectors | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-microsoft-365-copilot-connectors/) |
-| Build your first Microsoft 365 Copilot connector using Visual Studio Code | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-microsoft-365-copilot-connector/) |
-| Drive business value with Microsoft Copilot solutions | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-value-microsoft-copilot-solutions/) |
-| Windows 11 and cloud-native concepts: myths, realities, and best practices | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-native-myths/) |
-| Introduction to AI speech concepts | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/) |
-| Analyze and visualize data using Microsoft 365 Copilot | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-visualize-data-copilot/) |
-| Transform business workflows with generative AI | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-workflows-with-ai/) |
-| Iterate through a code block using for statement in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-for/) |
-| Branch the flow of code using the switch-case construct in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-switch-case/) |
-| Explore Azure Storage for non-relational data | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-84.md](microsoft-learn-2026-07-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-86.md](microsoft-learn-2026-07-part-86.md)

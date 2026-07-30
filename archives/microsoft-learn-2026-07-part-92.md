@@ -1,17 +1,28 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 92 of 92
-date_range: 2025-11-05 to 2025-11-09
-total_entries: 47
+chunk_part: 92 of 93
+date_range: 2025-11-06 to 2025-11-10
+total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-92.md
 ---
 
 # Microsoft Learn — Part 92
 
-> **Navigation:** Prev: [microsoft-learn-2026-07-part-91.md](microsoft-learn-2026-07-part-91.md) | [Index](./microsoft-learn-index.md) | Next: None | [Complete Archive](./microsoft-learn-complete.md)
+> **Navigation:** Prev: [microsoft-learn-2026-07-part-91.md](microsoft-learn-2026-07-part-91.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-93.md](microsoft-learn-2026-07-part-93.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Introduction to prompt engineering with GitHub Copilot | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/) |
+| Work with Delta Lake tables in Microsoft Fabric | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-delta-lake-tables-fabric/) |
+| Write your first C# code | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-write-first/) |
+| Use Eventstream in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-event-streams-microsoft-fabric/) |
+| Explore the possibilities with Microsoft 365 Copilot | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-possibilities-microsoft-365-copilot/) |
+| Introduction to AI Skills for nonprofits | Learningpaths | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-skills-for-nonprofits/) |
+| Secure data access in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-data-access-in-fabric/) |
+| AI Fluency | Learningpaths | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-fluency/) |
+| Boost your productivity with Microsoft Copilot | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/boost-productivity-with-copilot/) |
+| Explore AI basics | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-ai-basics/) |
+| Get started with Microsoft Copilot | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-copilot/) |
 | Understand Microsoft Entra ID | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/) |
 | Introduction to Copilot in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-copilot-fabric/) |
 | Monitor activities in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-fabric-items/) |
@@ -52,13 +63,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to generative AI and agents | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/) |
 | Explore Generative AI | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-generative-ai/) |
 | Describe monitoring tools in Azure | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/) |
-| Describe cloud computing | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/) |
 | Introduction to Cloud Infrastructure: Describe cloud concepts | Learningpaths | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/) |
+| Describe cloud computing | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/) |
 | Describe the benefits of using cloud services | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/) |
 | Describe cloud service types | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/) |
 | Create and draft with Microsoft 365 Copilot | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-draft-content-with-microsoft-copilot-microsoft-365/) |
 | Use AI for everyday tasks | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-everyday-tasks/) |
-| Introduction to AI concepts | Modules | 2025-11-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/) |
 
 ---
-> **Navigation:** Prev: [microsoft-learn-2026-07-part-91.md](microsoft-learn-2026-07-part-91.md) | [Index](./microsoft-learn-index.md) | Next: None
+> **Navigation:** Prev: [microsoft-learn-2026-07-part-91.md](microsoft-learn-2026-07-part-91.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-93.md](microsoft-learn-2026-07-part-93.md)

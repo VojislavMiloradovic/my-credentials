@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 17 of 92
-date_range: 2026-05-14 to 2026-05-19
-total_entries: 52
+chunk_part: 17 of 93
+date_range: 2026-05-15 to 2026-05-19
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-17.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Implement Microsoft Fabric Data Agents (chat with your data) | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-fabric-data-agents/) |
+| Get started with Copilot in Microsoft Fabric for data engineering | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-copilot-fabric-data-engineering/) |
+| Add structured automation to agents in Microsoft Copilot Studio | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-studio-structured-automation/) |
+| Manage data storage and query audit logs in Microsoft Sentinel | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-data-storage-audit-logs-sentinel/) |
+| Implement activity and event collection in Microsoft Sentinel | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-activity-event-collection-sentinel/) |
+| Implement security and manage access for Azure Storage | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-storage-account-security/) |
+| Implement security for Azure Storage for the cloud and AI security engineer | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-azure-storage-security/) |
+| Implement automation rules and playbooks in Microsoft Sentinel | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-automation-rules-playbooks-sentinel/) |
 | Implement Microsoft Defender for Storage | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-storage/) |
 | Configure network security for Azure Storage | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-network-security-azure-storage/) |
 | Object detection on Edge devices with Live Video Analytics using YOLO model | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/object-detection-iot-edge-live-video-analytics/) |
@@ -25,8 +33,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Understand Azure Databricks architecture | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-databricks-architecture/) |
 | Dragon Copilot 101 for nurse champions | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-for-nurse-champions/) |
 | Understand the nurse champion role for Dragon Copilot | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-welcome-to-nurse-champion/) |
-| Enforce security governance and regulatory compliance | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-governance-compliance/) |
 | Enforce governance with Azure Policy and resource locks | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-governance-azure-policy-resource-locks/) |
+| Enforce security governance and regulatory compliance | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-governance-compliance/) |
 | Eliminate public network exposure of Azure PaaS services | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/eliminate-public-exposure-paas-private-link/) |
 | Implement network security controls in Azure | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-network-security-controls-azure/) |
 | Dragon Copilot - nurse leaders adoption and reinforcement | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/nurse-leaders-adoption/) |
@@ -55,15 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Unlock insights with analytics and reporting in Dynamics 365 Contact Center | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/analytics-reporting-contact-center/) |
 | Design and deploy intelligent voice agents in Dynamics 365 Contact Center | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-voice-agents-contact-center/) |
 | Image classification using Azure Sphere | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/image-classification-azure-sphere/) |
-| Prompt with purpose, in partnership with ISTE+ASCD | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/prompt-with-purpose/) |
-| Get more done with Copilot Cowork | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/delegate-work-copilot-cowork/) |
-| Design AI for good, in partnership with ISTE+ASCD | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ai-for-good/) |
-| Choose the best Office productivity option for stable and evolving workflows | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/office-home-business-2024/) |
-| Introduction to Azure Sphere | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-sphere/) |
-| Centralize and enforce traffic inspection using Azure Firewall | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/centralize-traffic-inspection-azure-firewall/) |
-| Introduction to implementing Dynamics 365 Contact Center | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-implement-dynamics-365-contact-center/) |
-| Coach and support advanced use of Dragon Copilot (nurses) | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-coach-and-support-advanced-use/) |
-| Configure queues in Dynamics 365 Contact Center | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-queues-contact-center/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-16.md](microsoft-learn-2026-07-part-16.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-18.md](microsoft-learn-2026-07-part-18.md)

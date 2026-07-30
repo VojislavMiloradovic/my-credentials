@@ -1,6 +1,6 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 22 of 92
+chunk_part: 22 of 93
 date_range: 2026-04-26 to 2026-04-28
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-22.md
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Use export control in Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-export-control-supply-chain-management/) |
+| Extend core capabilities of Microsoft Sustainability Manager | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-cloud-sustainability/) |
+| Extend APIs using Dynamics 365 Project Operations | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-apis-project-operations/) |
+| Create connected patient experiences with Microsoft for Healthcare | Learningpaths | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/healthcare-patient-experiences/) |
+| Virtual visits in Microsoft for Healthcare | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/virtual-visits/) |
+| Configure manufacturing execution in Dynamics 365 Supply Chain Management | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manufacturing-execution/) |
+| Assign an asset to an insurance policy in Dynamics 365 Business Central | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/assign-asset-insurance-policy/) |
+| Set up Field Service integration with Dynamics 365 Business Central | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-field-service-integration/) |
+| Introduction to integrating Dynamics 365 Sales with Dynamics 365 Business Central | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sales-business-central/) |
+| Process gifts in Fundraising and Engagement | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-gifts/) |
 | Manage designations and campaigns in Fundraising and Engagement | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/nonprofit-designations/) |
 | Build and sell Microsoft Teams apps in Microsoft AppSource and the Microsoft Teams store | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/msteams-monetize-apps/) |
 | Text Analytics for health overview | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-text-analytics/) |
@@ -53,16 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Work with Emissions Impact dashboards | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-emissions-impact-dashboards/) |
 | Use the fixed assets reclassification journal in Dynamics 365 Business Central | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-fixed-assets-reclassification-journal/) |
 | Get started with the MongoDB API in Azure Cosmos DB | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-mongodb-api-azure-cosmos-db/) |
-| Azure Cosmos DB for MongoDB | Learningpaths | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-cosmos-db-api-for-mongodb/) |
-| Set up Field Service to create work orders from IoT data | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-field-service-work-items/) |
-| Get started with manufacturing execution in Dynamics 365 Supply Chain Management | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-manufacturing-execution/) |
-| Manage events in Dynamics 365 Customer Insights - Journeys | Learningpaths | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-events-dynamics-365-marketing/) |
-| Create an on-site event in Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-event-marketing/) |
-| Build ASP.NET MVC web applications with the Microsoft Graph .NET SDK | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-build-aspnetmvc-apps/) |
-| Analysis and solution design for Dynamics 365 Intelligent Order Management | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/analysis-solution-intelligent-order-management/) |
-| Analyze performance indicators for Azure Blob Storage | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-azure-blob-storage-performance-indicators/) |
-| Azure AI Health Bot in Microsoft for Healthcare | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-health-bot/) |
-| Deploy Defender for IoT for OT monitoring | Learningpaths | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/defender-iot-deploy-ot-monitoring/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-21.md](microsoft-learn-2026-07-part-21.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-23.md](microsoft-learn-2026-07-part-23.md)

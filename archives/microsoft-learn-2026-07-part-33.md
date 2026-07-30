@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 33 of 92
-date_range: 2026-03-17 to 2026-03-21
+chunk_part: 33 of 93
+date_range: 2026-03-18 to 2026-03-22
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-33.md
 ---
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Apply basic performance optimization in finance and operations apps | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-basic-performance-optimization-finance-operations/) |
+| Configure Business Central for Excel and Power BI | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-powerbi-excel-dynamics-365-business-central/) |
+| Set up Microsoft Dynamics 365 Business Central for reporting | Learningpaths | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/setup-reporting-dynamics-365-business-central/) |
+| Use skill-based routing in Dynamics 365 Customer Service | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-skill-based-routing/) |
+| Work with source control using Git in Visual Studio Code for Business Central | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-source-control-git/) |
+| Use preventive and reactive maintenance in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/preventive-reactive-asset-management/) |
+| Data enrichment in Dynamics 365 Customer Insights - Data | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-enrichment/) |
+| Configure depreciation books in Dynamics 365 Business Central | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-depreciation-books/) |
+| Set up currencies and exchange rates in Dynamics 365 Business Central | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/currencies-exchange-rates-dynamics-365-business-central/) |
+| Invoicing customers in Dynamics 365 Business Central | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/invoicing-customers-dynamics-365-business-central/) |
 | Process bulk data in Azure Cosmos DB for NoSQL | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-bulk-data-azure-cosmos-db-sql-api/) |
 | Route and distribute work with unified routing in Dynamics 365 Customer Service | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/route-distribute-work/) |
 | Perform basic identity and access tasks | Learningpaths | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/perform-basic-identity-access-tasks/) |
@@ -50,16 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Work with Dynamics 365 Customer Insights - Data | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/working-with-customer-insights/) |
 | Work with capacity planning in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/capacity-plan-asset-management/) |
 | Configure process manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) |
-| Get started with Dynamics 365 Customer Insights - Data | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-customer-data-platform/) |
-| Set up project delivery management for stocked scenarios in Dynamics 365 Project Operations | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-project-delivery-management/) |
-| Set up Master Planning in Dynamics 365 Supply Chain Management | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-master-planning/) |
-| Register and manage devices with Connected Customer Service for Dynamics 365 and Azure IoT | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/connected-customer-service-devices/) |
-| Use Connected Customer Service with Dynamics 365 | Learningpaths | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-connected-customer-service/) |
-| MD-015 Implement Windows 365 Cloud PCs | Learningpaths | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-365-cloud-pcs/) |
-| Explore Windows 365 Cloud PC management options | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-365-cloud-pc-management/) |
-| Get started with Connected Customer Service for Dynamics 365 and Azure IoT | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-connected-customer-service/) |
-| Set up and use features for resource/non-stocked based scenarios in Dynamics 365 Project Operations | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-use-features-resource-non-stocked-project-operations/) |
-| Revenue recognition in Dynamics 365 Project Operations | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-recognition/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-32.md](microsoft-learn-2026-07-part-32.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-34.md](microsoft-learn-2026-07-part-34.md)

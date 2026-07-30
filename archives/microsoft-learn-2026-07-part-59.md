@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 59 of 92
-date_range: 2026-01-18 to 2026-01-22
-total_entries: 55
+chunk_part: 59 of 93
+date_range: 2026-01-19 to 2026-01-23
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-59.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Configure Azure Container Instances | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-container-instances/) |
+| Scale apps in Azure App Service | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/) |
+| Create a custom skill for Azure AI Search | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-ai-custom-skill/) |
+| Configure for alerts and detections in Microsoft Defender for Endpoint | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-settings-for-alerts-detections-microsoft-defender-for-endpoint/) |
+| Create instructional materials with Teach in Microsoft 365 Copilot | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-instructional-materials-teach-microsoft-365-copilot/) |
+| Create and manage Power BI assets | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-power-bi-assets/) |
+| Configure Azure App Service plans | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-app-service-plans/) |
+| Configure web app settings | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/) |
+| Configure virtual machine availability | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/) |
 | Deploy the Microsoft Defender for Endpoint environment | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-defender-for-endpoints-environment/) |
 | Manage apps for Microsoft Teams | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-apps-for-microsoft-teams/) |
 | AZ-104: Configure and manage virtual networks for Azure administrators | Learningpaths | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-manage-virtual-networks/) |
@@ -59,14 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Set up Azure Migrate for server migration | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-azure-migrate-set-up/) |
 | Introduction to Azure Migrate for server migration | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-azure-migrate-introduction/) |
 | Use DAX time intelligence functions in semantic models | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/) |
-| Prepare on-premises workloads for migration to Azure | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-onpremises-workloads-migration-azure/) |
-| Migrate on-premises workloads to Azure | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-on-premises-workloads-azure/) |
-| Developer use cases for AI with GitHub Copilot | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) |
-| Develop unit tests using GitHub Copilot tools | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-unit-tests-using-github-copilot-tools/) |
-| Use AI responsibly with Microsoft Foundry Content Safety | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-content-safety/) |
-| Design effective reports in Power BI | Learningpaths | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-bi-effective/) |
-| Perform analytics in Power BI | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/) |
-| Understand the Transformer architecture and explore large language models in Azure Machine Learning | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-foundation-models-in-model-catalog/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-58.md](microsoft-learn-2026-07-part-58.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-60.md](microsoft-learn-2026-07-part-60.md)

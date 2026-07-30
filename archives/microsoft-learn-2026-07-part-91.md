@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 91 of 92
-date_range: 2025-11-09 to 2025-11-12
-total_entries: 55
+chunk_part: 91 of 93
+date_range: 2025-11-10 to 2025-11-13
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-91.md
 ---
 
@@ -12,8 +12,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Craft effective prompts for Microsoft 365 Copilot | Learningpaths | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/craft-effective-prompts-copilot-microsoft-365/) |
+| Manage a Microsoft Fabric environment | Learningpaths | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-microsoft-fabric-environment/) |
+| Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cicd-in-fabric/) |
+| Introduction to Microsoft Defender for Endpoint | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-introduction-defender-endpoint/) |
+| Describe the embedded experiences of Microsoft Security Copilot | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-embedded-experiences/) |
+| Perform basic operations on numbers in C# | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-basic-operations/) |
+| Using GitHub Copilot with JavaScript | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-javascript/) |
+| Explore fundamentals of data visualization | Modules | 2025-11-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/) |
+| Using GitHub Copilot with Python | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/) |
+| Describe access management capabilities of Microsoft Entra | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-access-management-capabilities/) |
+| Perform basic string formatting in C# | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-basic-formatting/) |
 | Edit and transform content with Microsoft 365 Copilot | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/edit-transform-content-with-microsoft-copilot-microsoft-365/) |
+| Craft effective prompts for Microsoft 365 Copilot | Learningpaths | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/craft-effective-prompts-copilot-microsoft-365/) |
 | Summarize and simplify information with Microsoft 365 Copilot | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/summarize-simplify-information-with-microsoft-copilot-microsoft-365/) |
 | Describe productivity solutions of Microsoft 365 | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-productivity-solutions-microsoft-365/) |
 | Describe the analytics and administrative capabilities available in Microsoft 365 | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-analytics-capabilities-microsoft-365/) |
@@ -56,17 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Embrace responsible AI principles and practices | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/) |
 | Explore fundamentals of Azure Cosmos DB | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-non-relational-data-stores-azure/) |
 | Responsible AI with GitHub Copilot | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-copilot/) |
-| Introduction to prompt engineering with GitHub Copilot | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/) |
-| Work with Delta Lake tables in Microsoft Fabric | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-delta-lake-tables-fabric/) |
-| Write your first C# code | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-write-first/) |
-| Use Eventstream in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-event-streams-microsoft-fabric/) |
-| Explore the possibilities with Microsoft 365 Copilot | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-possibilities-microsoft-365-copilot/) |
-| Introduction to AI Skills for nonprofits | Learningpaths | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-skills-for-nonprofits/) |
-| Secure data access in Microsoft Fabric | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-data-access-in-fabric/) |
-| AI Fluency | Learningpaths | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-fluency/) |
-| Boost your productivity with Microsoft Copilot | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/boost-productivity-with-copilot/) |
-| Explore AI basics | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-ai-basics/) |
-| Get started with Microsoft Copilot | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-copilot/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-90.md](microsoft-learn-2026-07-part-90.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-92.md](microsoft-learn-2026-07-part-92.md)

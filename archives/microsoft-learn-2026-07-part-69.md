@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 69 of 92
+chunk_part: 69 of 93
 date_range: 2025-12-28 to 2025-12-29
-total_entries: 51
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-69.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Build a Power Apps component | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-apps-component/) |
+| Transform business software authoring with fusion development teams | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-business-software-authoring-with-fusion-dev/) |
+| MD-100 Configure threat protection | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-threat-protection/) |
+| Explore advanced protection methods | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-advanced-protection-methods/) |
+| Explore connection security rules | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-connection-security-rules/) |
+| Explore device encryption features | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-device-encryption-features/) |
+| Explore malware and threat protection | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-malware-threat-protection/) |
+| Explore Microsoft Defender | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-defender/) |
 | Implement compliance in a cloud-native .NET 8 application | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-compliance-cloud-native-applications/) |
 | Implement observability in a cloud-native .NET 8 application with OpenTelemetry | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-observability-cloud-native-app-with-opentelemetry/) |
 | Implement resiliency in a cloud-native .NET microservice | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microservices-resiliency-aspnet-core/) |
@@ -35,8 +43,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to key Azure network security services | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-azure-networking-services/) |
 | Choose the best service level of Azure NetApp Files for your high-performance computing (HPC) applications | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-service-level-azure-netapp-files-hpc-applications/) |
 | Create a UI in a .NET MAUI app by using XAML | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-user-interface-xaml/) |
-| Challenge Project â€” Create a Business Model for your startup using Microsoft Copilot | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-use-generative-ai-to-create-business-model-startup/) |
-| Challenge project â€“ Ideate with Microsoft Copilot | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-ideate-business-with-ai/) |
+| Challenge Project — Create a Business Model for your startup using Microsoft Copilot | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-use-generative-ai-to-create-business-model-startup/) |
+| Challenge project – Ideate with Microsoft Copilot | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-ideate-business-with-ai/) |
 | Configure User Account Control | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-user-account-control/) |
 | Introduction to Azure VPN Gateway | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-vpn-gateway/) |
 | Extend Microsoft 365 Copilot with Copilot connectors using Visual Studio Code | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-microsoft-365-copilot-connectors-visual-studio-code/) |
@@ -56,13 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Intro to Azure Policy | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-policy/) |
 | Introduction to Azure DNS | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-dns/) |
 | Introduction to Azure network foundation services | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-network-foundation-services/) |
-| Recognize text with AI Builder | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-text-recognition/) |
-| Introduction to artificial intelligence for trainers | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-artificial-intelligence-for-trainers/) |
-| Use AI-powered tools for training | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-powered-tools-for-teaching/) |
-| Architect network infrastructure in Azure | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-network-infrastructure/) |
-| Distribute your services across Azure virtual networks and integrate them by using virtual network peering | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-vnets-with-vnet-peering/) |
-| Manage users and groups | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-users-groups/) |
-| Choose the right Azure service for deploying your Java application | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/java-target-destinations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-68.md](microsoft-learn-2026-07-part-68.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-70.md](microsoft-learn-2026-07-part-70.md)

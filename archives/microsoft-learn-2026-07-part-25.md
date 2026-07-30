@@ -1,6 +1,6 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 25 of 92
+chunk_part: 25 of 93
 date_range: 2026-04-19 to 2026-04-21
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-25.md
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Use Inventory Visibility in Dynamics 365 Supply Chain Management | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-inventory-visibility/) |
+| Migrate a MongoDB database to Azure Cosmos DB | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-mongodb-database-to-azure-cosmos-db/) |
+| Use Power BI in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-power-bi/) |
+| Create a dataset for a Power BI report in Dynamics 365 Business Central | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-data-set/) |
+| Introduction to migrating from Google Cloud to Microsoft Azure | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-migrating-gcp-to-azure/) |
+| Calculate and post project WIP in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/calculate-post-job-wip/) |
+| Explore project WIP methods in Dynamics 365 Business Central | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-job-wip-methods/) |
+| Explore Surface cloud management scenarios | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-surface-cloud-management-scenarios/) |
+| Allocate costs in Dynamics 365 Business Central | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/allocate-costs-dynamics-365-business-central/) |
+| Use cost accounting in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-cost-accounting-dynamics-365-business-central/) |
 | Set up and work with Finance insights in Dynamics 365 Finance | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/setup-work-finance-insights/) |
 | Use customer payment predictions in Dynamics 365 Finance | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-customer-payment-predictions-finance/) |
 | Troubleshooting Surface Portal access issues | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshooting-surface-portal-access/) |
@@ -53,16 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to deployment stacks | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-stacks/) |
 | Get started with manufacturing in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-manufacturing-business-central/) |
 | Manage production orders in Dynamics 365 Business Central | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-production-orders/) |
-| Get started with the implementation of Dynamics 365 Intelligent Order Management | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-implement-intelligent-order-management/) |
-| Explore MySQL Architecture | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-mysql-architecture/) |
-| Access and interpret analytics with Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/access-interpret-analytics-marketing/) |
-| Guided project - Create and manage journeys with Dynamics 365 Customer Insights | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-manage-journeys-dynamics-365-customer-insights/) |
-| Create and manage journeys with Dynamics 365 Customer Insights | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-journeys-dynamics-365-customer-insights/) |
-| Manage a company with multiple locations in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-multiple-locations/) |
-| Transfer items in Dynamics 365 Business Central | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/transfer-items/) |
-| Set up and use the sales accelerator capabilities in Dynamics 365 Sales | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/sales-accelerator/) |
-| Set up Sales accelerator in Dynamics 365 Sales | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-sales-accelerator/) |
-| Get started with Service Management in Dynamics 365 Business Central | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-service-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-24.md](microsoft-learn-2026-07-part-24.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-26.md](microsoft-learn-2026-07-part-26.md)

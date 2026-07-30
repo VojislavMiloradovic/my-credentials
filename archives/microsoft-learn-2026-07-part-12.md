@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 12 of 92
-date_range: 2026-06-02 to 2026-06-07
-total_entries: 50
+chunk_part: 12 of 93
+date_range: 2026-06-04 to 2026-06-08
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-12.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Understand How to Secure AI Data with Microsoft Purview | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-understand-risks/) |
+| Secure Microsoft 365 Copilot interactions with Microsoft Purview | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-secure-copilot/) |
+| Secure enterprise and browser-based AI apps with Microsoft Purview | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-secure-enterprise-other/) |
+| GitHub Copilot Fundamentals Part 2 of 2 | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
+| Introduction to MCP Server | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/mcp-server/) |
+| Understand how Microsoft Purview Unified Catalog unifies your data estate | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-unified-catalog-understand/) |
+| Leveling up code reviews and pull requests with GitHub Copilot | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/) |
+| Azure Local Accreditation 2025 | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-local-accreditation-2025/) |
+| Hyperconverged Infrastructure (HCI) Stack | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/hci-stack/) |
 | Operate hybrid infrastructure with Azure Local | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/operate-hybrid-infrastructure-with-azure-local/) |
 | Hybrid cloud integration with Azure Local | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/hybrid-cloud-integration-with-azure-local/) |
 | GitHub Copilot Fundamentals Part 1 of 2 | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot/) |
@@ -54,14 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Explore Microsoft Intune Suite capabilities | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-intune-suite-capabilities/) |
 | Explore Azure Virtual Desktop | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-virtual-desktop/) |
 | Evaluate Endpoint Privilege Management with Microsoft Intune | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-endpoint-privilege-management/) |
-| Configure and manage Windows 365 with Microsoft Intune | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-windows-365-intune/) |
-| Resident radiologist workflow foundations | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-resident-radiologist-workflow-foundations/) |
-| Resident learning and feedback tools | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-resident-learning-feedback-tools/) |
-| Basic reporting in PowerScribe One for residents | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-resident-basic-reporting/) |
-| Manage Active Directory for Azure NetApp Files | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/managing-azure-netapp-files-manage-active-directory/) |
-| Get started with PowerScribe One | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-resident-get-started/) |
-| Build AI Apps with Azure Database for PostgreSQL | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-ai-apps-azure-database-postgresql/) |
-| Integrate AI Services to enrich your applications with intelligent features in Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-ai-services-enrich-azure-database-postgresql/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-11.md](microsoft-learn-2026-07-part-11.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-13.md](microsoft-learn-2026-07-part-13.md)

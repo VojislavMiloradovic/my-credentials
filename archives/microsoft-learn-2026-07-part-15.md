@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 15 of 92
-date_range: 2026-05-20 to 2026-05-25
+chunk_part: 15 of 93
+date_range: 2026-05-22 to 2026-05-29
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-15.md
 ---
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Explore forecasting, pipeline management, and analytics in Dynamics 365 Sales | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-forecasting-pipeline-analytics-dynamics-365-sales/) |
+| Guide assessment with Copilot in Microsoft Teams | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/guide-assessment-copilot-microsoft-teams/) |
+| Attending radiologist workflow foundations | Learningpaths | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-attending-radiologist-workflow-foundations/) |
+| AutoText foundations | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-autotext-foundations/) |
+| Deploy and manage Agent 365 in education (Partner Success Series) | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-agent-365-education/) |
+| Explore lead qualification in Dynamics 365 | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-lead-qualification-dynamics-365/) |
+| Implement CI/CD by using SQL Database Projects | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cicd-sql-database-projects/) |
+| Implement AI capabilities in database solutions | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-capabilities-database-solutions/) |
+| Design and implement models and embeddings with SQL | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-models-embeddings-with-sql/) |
 | Design and implement intelligent search with SQL | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-intelligent-search-with-sql/) |
 | Design and implement RAG with SQL | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-rag-with-sql/) |
 | Manage accounts receivable | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-accounts-receivable-credit-collections-revenue-recognition/) |
@@ -41,7 +50,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Accelerate service delivery with productivity tools in Dynamics 365 Contact Center | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-productivity-tools-contact-center/) |
 | School Data Sync for IT Admins (Partner Success Series) | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/school-data-sync-it-admins/) |
 | Explore lead generation in Dynamics 365 | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-lead-generation-dynamics-365/) |
-| Choose the best Windows 11 edition built for your organizationâ€™s needs | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-best-windows-11-edition/) |
+| Choose the best Windows 11 edition built for your organization’s needs | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-best-windows-11-edition/) |
 | Accelerate your storage migration, modernization, and innovation journey to Azure | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-storage-migration/) |
 | Understand endpoint management strategies and Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-intune-strategies/) |
 | Choose data stores in Microsoft Fabric | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-data-store-fabric/) |
@@ -55,15 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Configure the voice channel in Dynamics 365 Contact Center | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-voice-channel-contact-center/) |
 | Configure advanced settings for channels in Dynamics 365 Contact Center | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-advanced-channel-settings-contact-center/) |
 | Multi-Agent Systems and Orchestration | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/) |
-| Memory, State, and Evaluation | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/memory-state-evaluation/) |
-| Governance, guardrails, and operations | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/governance-guardrails-operations/) |
-| Introduction to Microsoft Surface Pro for Business, 13-inch (12th Edition) | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-surface-pro-12th-edition/) |
-| Microsoft Productivity Accreditation 2026 | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-productivity-accreditation-2026/) |
-| Introduction to Microsoft Office Home 2024 | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/office-home-2024/) |
-| Explore how to negotiate deal terms and address objections in Dynamics 365 Sales | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-negotiate-deals-terms-dynamics-365-sales/) |
-| Copilot for all the ways you work | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-productivity-workflows/) |
-| Describe how to close customer deals in Dynamics 365 | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-close-customer-deals/) |
-| Secure Microsoft Foundry environments | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-ai-foundry-secure-environment/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-14.md](microsoft-learn-2026-07-part-14.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-16.md](microsoft-learn-2026-07-part-16.md)

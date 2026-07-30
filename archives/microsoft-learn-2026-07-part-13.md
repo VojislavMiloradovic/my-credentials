@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 13 of 92
-date_range: 2026-05-31 to 2026-06-02
+chunk_part: 13 of 93
+date_range: 2026-05-31 to 2026-06-04
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-13.md
 ---
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Configure and manage Windows 365 with Microsoft Intune | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-windows-365-intune/) |
+| Resident radiologist workflow foundations | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-resident-radiologist-workflow-foundations/) |
+| Resident learning and feedback tools | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-resident-learning-feedback-tools/) |
+| Basic reporting in PowerScribe One for residents | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-resident-basic-reporting/) |
+| Manage Active Directory for Azure NetApp Files | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/managing-azure-netapp-files-manage-active-directory/) |
+| Get started with PowerScribe One | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-resident-get-started/) |
+| Build AI Apps with Azure Database for PostgreSQL | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-ai-apps-azure-database-postgresql/) |
+| Integrate AI Services to enrich your applications with intelligent features in Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-ai-services-enrich-azure-database-postgresql/) |
 | Implement generative AI agents with Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-generative-ai-agents-azure-postgresql/) |
 | Build RAG applications with Azure Database for PostgreSQL | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-rag-applications-azure-database-postgresql/) |
 | Deploy containers to Azure App Service | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-containers-azure-app-service/) |
@@ -34,8 +42,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement Microsoft Defender for Endpoint using Microsoft Intune | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-endpoint-intune/) |
 | Manage AI-ready infrastructure | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-ai-ready-infrastructure/) |
 | Manage monitoring for AI-Ready Infrastructure | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitoring-ai-ready-infrastructure/) |
-| Apply governance controls to AI-ready workloads | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
 | Govern AI-ready infrastructure | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/govern-ai-ready-infrastructure/) |
+| Apply governance controls to AI-ready workloads | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
 | Develop AI solutions with Azure Cosmos DB for NoSQL | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-cosmos-db/) |
 | Build queries for Azure Cosmos DB for NoSQL | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-cosmos-db/) |
 | Optimize query performance for Azure Cosmos DB for NoSQL | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-azure-cosmos-db/) |
@@ -55,14 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Develop AI-enabled apps using the GitHub Copilot SDK | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-ai-enabled-apps-using-github-copilot-sdk/) |
 | Build serverless AI backends with Azure Functions | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-backends-azure-functions/) |
 | Manage application settings with Azure App Configuration | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-app-settings-app-config/) |
-| Manage application secrets and configuration for AI solutions | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-app-secrets-configuration/) |
-| Manage application secrets with Azure Key Vault | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-app-secrets-key-vault/) |
-| Protect Microsoft Foundry solutions by using Microsoft Defender for Cloud | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/defender-for-cloud-ai-foundry-protect/) |
-| Understand how Microsoft Defender for Cloud supports AI security and governance in Azure | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-for-cloud-ai-understand-protections/) |
-| Protect AI workloads with Microsoft Defender for Cloud | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-for-cloud-ai-protect-workloads/) |
-| Implement security for AI | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-security/) |
-| Configure and manage guardrails in Microsoft Foundry | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-ai-foundry-configure-manage-guardrails/) |
-| GitHub Enterprise Server fundamentals for developers | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-enterprise-server-repository-workflows/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-12.md](microsoft-learn-2026-07-part-12.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-14.md](microsoft-learn-2026-07-part-14.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 88 of 92
-date_range: 2025-11-19 to 2025-11-21
-total_entries: 55
+chunk_part: 88 of 93
+date_range: 2025-11-20 to 2025-11-21
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-88.md
 ---
 
@@ -12,6 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Understand the Extended Security Updates (ESU) program for Windows 10 | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-esu-program/) |
+| Unlock the power of Microsoft agents | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/unlock-power-microsoft-agents/) |
+| Build your first declarative agent using TypeSpec | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-declarative-agent-using-typespec/) |
+| Introduction to Copilot connectors | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-connectors/) |
+| Introduction to Windows IoT | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-windows-iot/) |
+| Key features and innovations in Windows Server 2025 | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-server-features/) |
+| Windows Server 2025 Accreditation 2025 | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-2025-accreditation-2025/) |
+| Azure integrations and benefits in Windows Server 2025 | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-integrations-and-benefits/) |
+| Introduction to Windows Server 2025 | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-windows-server-2025/) |
+| Key features and innovations in Windows Server 2025 | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-server-2025-features-explained/) |
+| Device deployment with Windows Autopilot | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-autopilot/) |
 | Introduction to cost management for AI workloads | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-cost-management-ai/) |
 | Introduction to natural language processing concepts | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-language/) |
 | Describe Microsoft Power Platform administration and governance | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-microsoft-power-platform-administration-governance/) |
@@ -21,7 +32,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Transform learning with 21st century learning design | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-learning-21st-century-learning-design/) |
 | Copilot+ PC Accreditation 2025 | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-plus-pc-accreditation-2025/) |
 | Copilot+ PC overview | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-pc-overview/) |
-| Surface Pro for Business with SnapdragonÂ® X Elite and Plus processors | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-business-snapdragon/) |
+| Surface Pro for Business with Snapdragon® X Elite and Plus processors | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-business-snapdragon/) |
 | Turbocharge business impact with Copilot+ PC | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-impact-copilot-pc/) |
 | Microsoft Education for K-12 Accreditation 2025 | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-education-k-12-accreditation-2025/) |
 | Microsoft Education for K-12 IT professionals | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-education-k-12-it-pros/) |
@@ -48,25 +59,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Secure your cloud apps and services with Microsoft Defender for Cloud Apps | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/) |
 | Introduction to Microsoft Surface Laptop for Business | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-surface-laptop-business/) |
 | Prevent data exfiltration from Azure AI Workloads | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/prevent-azure-machine-learning-data-exfiltration/) |
-| Restrict Azure Machine Learning workspace network traffic | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/restrict-azure-machine-learning-workspace-network/) |
 | Manage Network Access for AI workloads | Learningpaths | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-network-access-ai-workloads/) |
+| Restrict Azure Machine Learning workspace network traffic | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/restrict-azure-machine-learning-workspace-network/) |
 | Introduction to vibe coding | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-vibe-coding/) |
 | Get started with Cosmos DB in Microsoft Fabric | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-cosmos-db-nosql-fabric/) |
 | Build your first Windows App by using WinUI & Windows App SDK | Modules | 2025-11-20 | N/A |
 | Craft a compelling product pitch using AI | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/craft-compelling-product-pitch-using-ai/) |
 | Get ready for AI in education with Microsoft | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-ready-ai-education-microsoft/) |
-| Guided project â€“ Update and maintain resources | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-update-maintain-resources/) |
+| Guided project – Update and maintain resources | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-update-maintain-resources/) |
 | Introduction to Microsoft Azure Management tasks | Learningpaths | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-microsoft-azure-management-tasks/) |
-| Describe Microsoft Azure resources management | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-microsoft-azure-resources-management/) |
-| Animate the impossible - 2D/3D motion techniques with Sora | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/animate-impossible/) |
-| Guided project - Calculate and print student grades | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-calculate-print-student-grades/) |
-| Load data into a Microsoft Fabric data warehouse | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/load-data-into-microsoft-fabric-data-warehouse/) |
-| Build the vision - visual content creation with Copilot, Designer & Clipchamp | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-vision/) |
-| Design the vision - storyboard with Copilot & Designer | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-vision/) |
-| Perfect the cut - postproduction and enhancement with Microsoft Clipchamp | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/perfect-cut/) |
-| Polish the vision - smart postproduction with Copilot, Clipchamp & Designer | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/polish-vision/) |
-| Sketch the future - AI concept art with Microsoft Copilot and Designer | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/sketch-future/) |
-| Breathing life into stories - character and dialogue creation with Azure | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/breathing-life-into-stories/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-87.md](microsoft-learn-2026-07-part-87.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-89.md](microsoft-learn-2026-07-part-89.md)

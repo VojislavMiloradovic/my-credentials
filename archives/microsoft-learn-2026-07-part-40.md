@@ -1,6 +1,6 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 40 of 92
+chunk_part: 40 of 93
 date_range: 2026-03-02 to 2026-03-04
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-40.md
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Connect an Azure SQL server using an Azure Private Endpoint using the Azure portal | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-azure-server-private-endpoint-using-azure-portal/) |
+| MD-101 Manage updates and use analytics | Learningpaths | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-updates-use-analytics/) |
+| Explore Endpoint Analytics | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-endpoint-analytics/) |
+| Extend declarative agents with connector tools in Copilot Studio | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-declarative-agents-connector-actions-copilot-studio/) |
+| Prepare for an easy application upgrade experience in Business Central | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/easy-application-upgrade/) |
+| Monitor and troubleshoot Windows Server environments | Learningpaths | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-troubleshoot-windows-server-environments/) |
+| Troubleshoot Windows Server Virtual Machines in Azure | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-windows-server-virtual-machines-azure/) |
+| Warehouse implementation experience in Dynamics 365 Supply Chain Management | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/warehouse-implementation-supply-chain-management/) |
 | Get started with Dynamics 365 Customer Service scheduling | Learningpaths | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-customer-scheduling/) |
 | Set up Customer Service scheduling | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-customer-service-scheduling/) |
 | Improve Azure NetApp Files performance for your EDA and HPC applications by using best practices | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-azure-netapp-files-performance-hpc-eda-best-practices/) |
@@ -55,14 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Challenge project - Build a declarative agent to chat with your data | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-challenge-chat-with-data/) |
 | Extend Microsoft 365 Copilot with declarative agents using Visual Studio Code | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-microsoft-365-declarative-agents-visual-studio-code/) |
 | Build reports for finance and operations apps | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reports-finance-operations/) |
-| Use custom code in custom connectors for Microsoft Power Platform | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-code-connectors/) |
-| Build custom connectors for Microsoft Power Platform | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-custom-connectors/) |
-| Deploy and use Azure Container Registry | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-use-azure-container-registry/) |
-| Create and run scripts by using Windows PowerShell | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-run-scripts-use-windows-powershell/) |
-| Manage data privacy and governance with Azure Databricks | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-data-privacy-and-governance-with-azure-databricks/) |
-| Estimate purchase order receipt dates in Dynamics 365 Business Central | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/estimate-receipt-dates-dynamics-365-business-central/) |
-| Validate your app maker skills | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-app-maker-skills/) |
-| Challenge Project - Build a booking requests app with Power Apps and Power Automate | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-booking-requests-app-with-power-apps-power-automate/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-39.md](microsoft-learn-2026-07-part-39.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-41.md](microsoft-learn-2026-07-part-41.md)

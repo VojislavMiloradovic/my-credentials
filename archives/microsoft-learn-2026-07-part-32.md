@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 32 of 92
-date_range: 2026-03-21 to 2026-03-24
+chunk_part: 32 of 93
+date_range: 2026-03-22 to 2026-03-25
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-32.md
 ---
@@ -12,7 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Implement and manage Microsoft Purview Privacy Risk Management | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/priva-privacy-risk-management/) |
+| Predictions in Dynamics 365 Customer Insights - Data | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/predictions-in-customer-insights-data/) |
+| Set up your training environment | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-setup-environment/) |
+| Implement backup and restore for Azure Cosmos DB for NoSQL | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-backup-restore-for-azure-cosmos-db-sql-api/) |
+| Register and report consumption in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-report-consumption-asset-management/) |
+| Get started with finance agents | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-copilot-for-finance/) |
+| Work with maintenance budgets in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintenance-budget-asset-management/) |
+| Configure replication and manage failovers in Azure Cosmos DB | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-replication-manage-failovers-azure-cosmos-db/) |
+| Configure administrative roles in Microsoft 365 | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-administrative-microsoft-365/) |
 | Manage variables in Windows PowerShell scripts | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-variables-windows-powershell-scripts/) |
+| Use variables, arrays, and hash tables in Windows PowerShell scripts | Learningpaths | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-variables-arrays-hash-tables-windows-powershell/) |
 | Review Azure PowerShell module | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/review-azure-powershell-module/) |
 | Define indexes in Azure Cosmos DB for NoSQL | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-indexes-azure-cosmos-db-sql-api/) |
 | Create and manage background jobs and scheduled jobs in Windows PowerShell | Learningpaths | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-background-jobs-scheduled-windows-powershell/) |
@@ -50,16 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with Engineering Change Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-engineering-change-management/) |
 | Set up engineering change management for Dynamics 365 Supply Chain Management | Learningpaths | 2026-03-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-engineering-change-management/) |
 | Get started with source control in finance and operations apps | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-source-control-finance-operations/) |
-| Apply basic performance optimization in finance and operations apps | Modules | 2026-03-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-basic-performance-optimization-finance-operations/) |
-| Configure Business Central for Excel and Power BI | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-powerbi-excel-dynamics-365-business-central/) |
-| Set up Microsoft Dynamics 365 Business Central for reporting | Learningpaths | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/setup-reporting-dynamics-365-business-central/) |
-| Use skill-based routing in Dynamics 365 Customer Service | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-skill-based-routing/) |
-| Work with source control using Git in Visual Studio Code for Business Central | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-source-control-git/) |
-| Use preventive and reactive maintenance in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/preventive-reactive-asset-management/) |
-| Data enrichment in Dynamics 365 Customer Insights - Data | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-enrichment/) |
-| Configure depreciation books in Dynamics 365 Business Central | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-depreciation-books/) |
-| Set up currencies and exchange rates in Dynamics 365 Business Central | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/currencies-exchange-rates-dynamics-365-business-central/) |
-| Invoicing customers in Dynamics 365 Business Central | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/invoicing-customers-dynamics-365-business-central/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-31.md](microsoft-learn-2026-07-part-31.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-33.md](microsoft-learn-2026-07-part-33.md)

@@ -1,6 +1,6 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 19 of 92
+chunk_part: 19 of 93
 date_range: 2026-05-05 to 2026-05-09
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-19.md
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Scale how you work by creating AI agents | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-work-creating-ai-agents/) |
+| Use GitHub Copilot for cloud operations | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-github-copilot-cloud-operations/) |
+| Optimize and fine-tune AI agents for production | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-finetune-agents/) |
+| Dragon Copilot - nurse leaders essentials | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurse-leaders-essentials/) |
+| Design AI-powered business solutions with Microsoft Power Platform | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ai-powered-solutions-power-platform/) |
+| Monitor, troubleshoot and optimize workloads in Azure Databricks | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-optimize-workloads-azure-databricks/) |
+| Govern Unity Catalog objects | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-unity-catalog-objects/) |
+| Identify AI data risks using Microsoft Purview Data Security Posture Management | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-ai-data-risks-purview/) |
+| Build intelligent agents in Microsoft Copilot Studio | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-studio-knowledge/) |
 | Turn business ideas into Power Platform solutions with Plans | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/turn-business-ideas-power-platform-solutions-plans/) |
 | Develop AI agents on Azure | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/) |
 | Integrate your agent with Microsoft 365 | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-foundry-agent-with-m365/) |
@@ -56,15 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Identify security risks by using Cloud Security Posture Management | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-security-risks-posture-management/) |
 | Evaluate regulatory compliance in Defender for Cloud | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-regulatory-compliance/) |
 | Troubleshoot and optimize IIS performance | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-optimize-internet-information-services/) |
-| Connect hybrid and multicloud environments to Microsoft Defender for Cloud | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-hybrid-multicloud-environments-defender/) |
-| Configure Microsoft Defender Vulnerability Management settings for Azure VMs | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-defender-vulnerability-management/) |
-| Tooling, MCP, and Agent Execution Environments | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/) |
-| Foundations of Agentic AI in GitHub | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/) |
-| Designing Agent Architecture and SDLC Integration | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/) |
-| How to coach care out loud | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-coach-care-out-loud/) |
-| Dragon Copilot (nurses)- How to train and coach basic functionality | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-coach-basic-skills/) |
-| Enable Defender for AI Services workload protection in Microsoft Defender for Cloud | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-cloud-ai-services/) |
-| Get started with Microsoft Agent 365 | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-365-get-started/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-18.md](microsoft-learn-2026-07-part-18.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-20.md](microsoft-learn-2026-07-part-20.md)

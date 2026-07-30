@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 84 of 92
-date_range: 2025-11-28 to 2025-12-01
+chunk_part: 84 of 93
+date_range: 2025-11-29 to 2025-12-02
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-84.md
 ---
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Introduction to Azure OpenAI managed identity authentication with JavaScript | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-openai-managed-identity-auth-javascript/) |
+| Choose a tool to migrate data to Azure Database for MySQL | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-tool-to-migrate-data-to-azure-database-for-mysql/) |
+| Earn Advanced School Data Sync credit toward the SDS Advanced badge | Modules | 2025-12-02 | N/A |
+| Choose the best Microsoft Surface for your business | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-best-surface-for-business/) |
+| Get started with web development using Visual Studio Code | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-web-development/) |
+| Format alphanumeric data for presentation in C# | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-format-strings/) |
+| Develop learner executive function with the 21CLD self-regulation dimension | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-learner-executive-function/) |
+| Host your domain on Azure DNS | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/host-domain-azure-dns/) |
+| Improve communication skills with the 21CLD skilled communication dimension | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-communication-skills-21cld/) |
 | Develop accessible resize and reflow | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-accessible-resize-reflow/) |
 | Validate and monitor data health in School Data Sync | Modules | 2025-12-01 | N/A |
 | Beyond School Data Sync basics | Modules | 2025-12-01 | N/A |
@@ -45,8 +54,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with AI-powered information extraction in Azure | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/) |
 | Describe Microsoft Security Copilot agents | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-describe-agents/) |
 | Enhance security operations by using Microsoft Security Copilot | Learningpaths | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-copilot-and-ai/) |
-| Guided project - Develop conditional branching and looping structures in C# | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-develop-conditional-branching-looping/) |
 | Add logic to C# console applications (Get started with C#, Part 3) | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-3/) |
+| Guided project - Develop conditional branching and looping structures in C# | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-develop-conditional-branching-looping/) |
 | Secure a Microsoft Fabric data warehouse | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-data-warehouse-in-microsoft-fabric/) |
 | Introduction to Azure Application Gateway | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway/) |
 | Communicate effectively on GitHub using Markdown | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/) |
@@ -57,15 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Empower your workforce with Microsoft 365 Copilot: Legal Use Case | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-microsoft-365-copilot-legal-use-case/) |
 | Introduction to Datacenter | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-datacenter/) |
 | Describe the best practices for datacenter operations | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-best-practices-datacenter-operations/) |
-| Describe the sustainability practices in datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sustainability-practices-datacenters/) |
-| Identify key hardware and IT infrastructure components of datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-key-hardware-it-infrastructure-components/) |
-| Learn about datacenter design, architecture, and infrastructure management | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-about-datacenter-design/) |
-| Understand the purpose and evolution of datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-purpose-evolution-datacenters/) |
-| Empower your workforce with Microsoft 365 Copilot: Customer Service Use Case | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-microsoft-365-copilot-customer-service-use-case/) |
-| Learn about contributing to local economies through datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-contributing-local-economies-through-datacenters/) |
-| Empower your workforce with Microsoft 365 Copilot: Communications Use Case | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-microsoft-365-copilot-communications-use-case/) |
-| Foundations of SaaS | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/saas/saas-foundations/) |
-| Copilot Foundations | Learningpaths | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-foundations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-83.md](microsoft-learn-2026-07-part-83.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-85.md](microsoft-learn-2026-07-part-85.md)

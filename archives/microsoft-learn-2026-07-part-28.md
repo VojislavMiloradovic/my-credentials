@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 28 of 92
-date_range: 2026-04-07 to 2026-04-11
+chunk_part: 28 of 93
+date_range: 2026-04-08 to 2026-04-12
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-28.md
 ---
@@ -12,8 +12,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Set up pipeline environments in Microsoft Power Platform | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-pipeline-environments/) |
+| Work with Asset leasing in Dynamics 365 Finance | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-asset-leasing-finance/) |
+| Manage a discrete product BOM and route for versioned products in Dynamics 365 Supply Chain Management | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-discrete-bom-route-versioned-products-supply-chain-management/) |
+| Download and upload files in an ASP.NET Core app with Microsoft Graph | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-dotnet-core-manage-files/) |
+| Set up routings in Dynamics 365 Business Central | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-routings/) |
+| Work with travel requisitions in Dynamics 365 Project Operations | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-travel-requisitions/) |
+| Manage Windows updates in the cloud | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-windows-manage-cloud-device-updates/) |
+| Advanced configuration for Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-advanced-configuration/) |
+| Set up Dynamics 365 Customer Insights - Journeys and configure advanced settings | Learningpaths | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-marketing/) |
+| Build an end to end data governance and master data management stack with Microsoft Purview and CluedIn | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/building-end-to-end-data-governance-master-data-stack-with-microsoft-purview-cluedin/) |
+| Create cost accounting master data in Dynamics 365 Business Central | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/master-data-dynamics-365-business-central/) |
 | Simplify Microsoft Power Platform deployments by using pipelines | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/simplify-power-platform-deployments/) |
+| Set up pipeline environments in Microsoft Power Platform | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-pipeline-environments/) |
 | Create resources in Dynamics 365 Business Central | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-resources/) |
 | Unlock customer intent with Dynamics 365 Customer Insights - Data | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-customer-insights/) |
 | Configure and administer Customer Insights - Data | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-customer-data-platform/) |
@@ -50,16 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Boost K-12 school cybersecurity leadership with Microsoft tools | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/boost-school-cybersecurity-leadership-microsoft-tools/) |
 | Troubleshoot connectivity issues with virtual machines in Microsoft Azure | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-connectivity-issues-virtual-machines-azure/) |
 | Create and process fixed kanbans in Dynamics 365 Supply Chain Management | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-process-fixed-kanbans-dyn365-supply-chain-mgmt/) |
-| Create financial reports in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-financial-reports-dynamics-365-business-central/) |
-| Use dimensions in your financial reports in Dynamics 365 Business Central | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dimensions-financial-reports-dynamics-365-business-central/) |
-| Set up a waste sustainability solution by using Microsoft Sustainability Manager | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-waste-solution/) |
-| Connect educators and learners with Canvas and Microsoft 365 | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-faculty-learners-canvas-microsoft-365/) |
-| Tailor roles and design the UI for Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/tailor-roles-design-ui/) |
-| Develop a Role Center in Dynamics 365 Business Central | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-role-center/) |
-| Process sales and purchases in foreign currencies in Dynamics 365 Business Central | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-foreign-currency-payments-dynamics-365-business-central/) |
-| Manage Internet Information Services | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-internet-information-services/) |
-| Secure K-12 school IT practices and systems with Microsoft tools | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-k-12-school-it-practices-systems-microsoft-tools/) |
-| Work with assignment rules in Dynamics 365 Sales accelerator | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-sales-assignment-rules/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-27.md](microsoft-learn-2026-07-part-27.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-29.md](microsoft-learn-2026-07-part-29.md)

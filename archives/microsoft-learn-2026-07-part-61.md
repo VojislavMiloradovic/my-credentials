@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 61 of 92
-date_range: 2026-01-13 to 2026-01-16
-total_entries: 54
+chunk_part: 61 of 93
+date_range: 2026-01-14 to 2026-01-17
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-61.md
 ---
 
@@ -12,6 +12,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Prepare data for analysis with Power BI | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-data-power-bi/) |
+| Choose a Power BI model framework | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/) |
+| Organize a Fabric lakehouse using medallion architecture design | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-medallion-architecture/) |
+| Clean, transform, and load data in Power BI | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/clean-data-power-bi/) |
+| Get data in Power BI | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-data/) |
+| Get started with GitHub Copilot | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-github-copilot/) |
+| Describe general ledger and cash and bank management processes in Dynamics 365 Finance | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-general-ledger-cash-bank-management/) |
+| Personalize learning for students with disabilities using AI | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/personalize-learning-students-disabilities-using-ai/) |
+| Build agent-driven workflows using Microsoft Foundry | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-agent-workflows-microsoft-foundry/) |
 | Apply AI tools in special education environments | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-special-education/) |
 | Support multilingual and accessible family communication | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-multilingual-accessible-family-communication/) |
 | Teach information literacy with Search Coach and Search Progress | Modules | 2026-01-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-information-literacy-search-coach-search-progress/) |
@@ -32,8 +41,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Explore Azure Synapse Studio | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-synapse-studio/) |
 | Create vendor invoice for resource non-stocked deployment in Dynamics 365 Project Operations | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vendor-invoice-resource-non-stocked/) |
 | Introduction to Viva Learning | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-learning-introduction/) |
-| Extend Microsoft 365 Copilot in TypeScript | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility-typescript/) |
 | Extend Microsoft 365 Copilot in .NET | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility/) |
+| Extend Microsoft 365 Copilot in TypeScript | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility-typescript/) |
 | Get started with Microsoft 365 Copilot extensibility | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-extensibility-intro/) |
 | Get to know Microsoft Azure cloud platform: An overview for business professionals | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-know-microsoft-azure-cloud-platform-business-professionals/) |
 | Describe the business benefits of Azure | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-benefits-azure/) |
@@ -58,14 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage secrets in Java applications - Zero Trust and Zero Secrets | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secrets-java-applications-zero-trust/) |
 | Describe the purpose and use of source control | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-purpose-use-source-control/) |
 | Explain how a source control system helps manage files | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/explain-control-system-helps-manage-files/) |
-| Guided Project â€“  Use GitHub to manage file updates | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-github-manage-file-updates/) |
-| Implement generative AI guardrails in Azure AI Foundry | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/moderate-content-detect-harm-azure-ai-content-safety-studio/) |
-| Operationalize AI responsibly with Azure AI Foundry | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/operationalize-ai-responsibly/) |
-| Measure and mitigate risks for a generative AI app in Azure AI Foundry | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/measure-mitigate-risks-azure-ai-studio/) |
-| Develop object-oriented code in finance and operations apps | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-object-oriented-code-finance-operations/) |
-| Deploy and use OMOP transformations for analytics | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-omop-transformations/) |
-| Design resilient code with interfaces | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-resilient-code-interfaces/) |
-| Choose the best Azure Quantum option for your needs | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-the-best-azure-quantum/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-60.md](microsoft-learn-2026-07-part-60.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-62.md](microsoft-learn-2026-07-part-62.md)

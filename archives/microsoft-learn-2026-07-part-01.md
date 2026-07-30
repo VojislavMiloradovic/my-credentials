@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 1 of 92
-date_range: 2026-07-22 to 2026-07-28
+chunk_part: 1 of 93
+date_range: 2026-07-24 to 2026-07-30
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md
 ---
@@ -12,15 +12,25 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Managing Azure NetApp Files | Learningpaths | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-azure-netapp-files/) |
+| Troubleshoot Azure NetApp Files | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-azure-netapp-files/) |
+| Manage operations and monitoring in Power Platform | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-operations-monitoring/) |
+| Extend ALM with Git and CI/CD in Power Platform | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-alm-git-cicd/) |
+| Capture and inspect Windows Server network traffic with Packet Monitor | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-windows-packet-monitor/) |
+| Manage Azure NetApp Files security | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-netapp-files-security/) |
+| Understand the Active Directory Domain Services schema | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-schema/) |
+| Create, communicate, and analyze with Surface and Microsoft 365 | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-analyze-surface/) |
+| Understand the Active Directory Domain Services database and SYSVOL | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-database/) |
+| Work smarter with Copilot prompts for human resources professionals | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-hr/) |
 | Go beyond Keras: Customize with TensorFlow | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-machine-learning-tensorflow/) |
 | TensorFlow fundamentals | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/tensorflow-fundamentals/) |
 | Introduction to TensorFlow using Keras | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-machine-learning-keras/) |
 | Build Microsoft Teams customization using the SharePoint Framework | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-teams-dev/) |
-| Extend Microsoft SharePoint â€“ Associate | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-sharepoint-associate/) |
+| Extend Microsoft SharePoint – Associate | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-sharepoint-associate/) |
 | Deploy SharePoint Framework Components to Production | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-deployment/) |
 | Use Microsoft Graph and non-Microsoft APIs | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-graph-3rd-party-apis/) |
-| Create Adaptive Card Extensions (ACE) for Microsoft Viva Connections | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-adaptive-card-extension-card-types/) |
 | Extend Microsoft Viva Connections | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-extend-viva-connections/) |
+| Create Adaptive Card Extensions (ACE) for Microsoft Viva Connections | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-adaptive-card-extension-card-types/) |
 | Extend the SharePoint user interface with SharePoint Framework extensions | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-extensions/) |
 | Work with SharePoint Content using the SharePoint Framework | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-spcontent/) |
 | Enable SharePoint Framework web part configuration with property panes | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-web-part-property-pane/) |
@@ -57,16 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Secure tenants and environments in Power Platform | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-tenant-environments/) |
 | Manage environments in Power Platform | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-power-platform-environments/) |
 | Govern data policies in Power Platform | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-data-policies/) |
-| Govern AI-enabled resources in Power Platform | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-ai-enabled-resources/) |
-| Manage data protection with Azure NetApp Files | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-data-protection-azure-netapp-files/) |
-| Build your first cloud-based developer workstation using Windows 365 | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cloud-developer-workstation/) |
-| Drive adoption and transform culture in Power Platform | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/drive-adoption-transform-culture/) |
-| Work smarter with Copilot prompts for sales professionals | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-sales/) |
-| Build intelligent apps and portals with Microsoft Power Apps | Learningpaths | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-apps-portals-power-apps/) |
-| Explore Power Pages design studio | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-studio/) |
-| Core components of Power Pages | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-intro/) |
-| Create and manage canvas apps with Power Apps | Learningpaths | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-canvas-apps-power-apps/) |
-| Publish, share, and maintain a canvas app | Modules | 2026-07-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-share-maintain-app/) |
 
 ---
 > **Navigation:** Prev: None | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-02.md](microsoft-learn-2026-07-part-02.md)

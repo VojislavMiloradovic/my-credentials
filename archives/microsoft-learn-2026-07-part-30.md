@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 30 of 92
-date_range: 2026-03-30 to 2026-04-03
+chunk_part: 30 of 93
+date_range: 2026-03-30 to 2026-04-04
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-30.md
 ---
@@ -12,6 +12,16 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Generate text and conversations with .NET and Azure OpenAI Completions | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/open-ai-dotnet-text-completions/) |
+| Use Resource Scheduling Optimization for Dynamics 365 Field Service | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/leveraging-resource-scheduling-optimization/) |
+| Universal Resource Scheduling in Microsoft Dynamics 365 Field Service | Learningpaths | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/universal-resource-scheduling/) |
+| Set up Finance insights in Dynamics 365 Finance | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-finance-insights/) |
+| Pick and ship items from the warehouse in Dynamics 365 Business Central | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/pick-ship-items-warehouse/) |
+| Pick and ship items in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/pick-ship-items-business-central/) |
+| Ship cross-docked items in Dynamics 365 Business Central | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/ship-cross-docked-items/) |
+| Gain insights using Dynamics 365 Customer Insights - Data Preparation | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-data-preparation/) |
+| Perform a VAT rate change in Dynamics 365 Business Central | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/rate-change-dynamics-365-business-central/) |
+| Manage forms and pages in Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-forms-pages-subscriptions/) |
 | Identify functional table types and characteristics in Dynamics 365 Business Central | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-table-types/) |
 | Review domain authentication, email best practices, data protection and privacy in Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/review-authentication-dynamics-365-marketing/) |
 | Query management information by using Common Information Model and Windows Management Instrumentation | Learningpaths | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/query-use-common-information-model-windows-management/) |
@@ -51,16 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to natural language processing with TensorFlow | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-natural-language-processing-tensorflow/) |
 | Secure MySQL | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-mysql/) |
 | Integrate SQL and Apache Spark pools in Azure Synapse Analytics | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sql-apache-spark-pools-azure-synapse-analytics/) |
-| Create journals for projects in Dynamics 365 Business Central | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-journals-for-jobs/) |
-| Develop data-driven applications by using Azure SQL Database | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-data-driven-app-sql-db/) |
-| Develop a data API for Azure SQL Database | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-data-api-azure-sql-database/) |
-| Set up maintenance requests in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-maintenance-asset-management/) |
-| Manage external connections with Customer Insights - Data | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-third-party-connections/) |
-| Implement CI/CD for IoT Edge | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cicd-iot-edge/) |
-| Configure and manage procurement and vendors in Dynamics 365 Supply Chain Management | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) |
-| Work with intercompany trade in Dynamics 365 Supply Chain Management | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-intercompany-trade/) |
-| Configure and manage sales, and customers in Dynamics 365 Supply Chain Management | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-sales-customers-dyn365-supply-chain-mgmt/) |
-| Transfer general ledger entries to cost accounting in Dynamics 365 Business Central | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/transfer-gl-entries-dynamics-365-business-central/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-29.md](microsoft-learn-2026-07-part-29.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-31.md](microsoft-learn-2026-07-part-31.md)
