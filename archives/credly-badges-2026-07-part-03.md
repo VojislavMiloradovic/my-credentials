@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 3 of 9
-date_range: 2026-06-20 to 2026-07-02
+date_range: 2026-06-22 to 2026-07-05
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-03.md
 ---
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-05 | [Sustainability Business Bootcamper](https://www.credly.com/badges/fd237169-9b1c-4d4a-83fb-62c33551b563/public_url) | Celonis | Credly Verified |
+| 2026-07-03 | [Mitigate Threats and Vulnerabilities with Security Command Center Skill Badge](https://www.credly.com/badges/0daa2483-3793-42a7-afb0-4d338d3725bc/public_url) | Google Cloud | Credly Verified |
+| 2026-07-02 | [AWS SimuLearn - AI Practitioner - Training Badge](https://www.credly.com/badges/bf88d187-0e8f-44cc-bec9-7e9e69115951/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-07-02 | [Build Infrastructure with Terraform on Google Cloud Skill Badge](https://www.credly.com/badges/35059bf2-e867-46eb-95b6-5ef733207698/public_url) | Google Cloud | Credly Verified |
+| 2026-07-02 | [Cloud Sales Associate Advanced Management](https://www.credly.com/badges/7a16d6a7-7f4a-43e0-8ddb-fbcb300a8822/public_url) | Acronis | Credly Verified |
+| 2026-07-02 | [Configure Database Integration for Okta Privileged Access](https://www.credly.com/badges/eb355e8c-609f-45e9-94dd-f86b7788027e/public_url) | Okta | Credly Verified |
 | 2026-07-02 | [Manage Change and Scale Adoption](https://www.credly.com/badges/06895ebe-457b-40c8-8c8d-336b96da8ac4/public_url) | Celonis | Credly Verified |
 | 2026-07-02 | [Process Automation Concepts](https://www.credly.com/badges/da7e7652-ed54-4938-b484-e509978ae444/public_url) | Celonis | Credly Verified |
 | 2026-07-02 | [Process Mining Audit Professional](https://www.credly.com/badges/f2f7155c-98d7-40ee-8c4d-6a6fd43667ab/public_url) | Celonis | Credly Verified |
@@ -61,12 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-22 | [LFD140: GitHub for Open Standards Development](https://www.credly.com/badges/3d6db85f-b193-4d6c-9431-9c78f1f8e253/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-22 | [LFEL1004: Authentication & Authorization for Web/API](https://www.credly.com/badges/697a5045-42c3-4df6-be0a-660972953e02/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-22 | [LFS184: Introduction to JavaScript Security](https://www.credly.com/badges/adbfc39b-1a5a-4225-80bc-0ee44b06bcd5/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-22 | [Use APIs to Work with Cloud Storage Skill Badge](https://www.credly.com/badges/3a261bec-3e3f-41ca-b362-3eaf9f06bd90/public_url) | Google Cloud | Credly Verified |
-| 2026-06-21 | [The Basics of Google Cloud Compute Skill Badge](https://www.credly.com/badges/1add8a23-2f6c-4308-bcd7-39c83fcc42f6/public_url) | Google Cloud | Credly Verified |
-| 2026-06-20 | [AWS Knowledge: Amazon ECS - Training Badge](https://www.credly.com/badges/6b61161d-dd36-4991-b23a-8ec2b7c96368/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-06-20 | [Brand Your Okta Customer Identity Experience](https://www.credly.com/badges/ef277f59-d9a8-464c-88be-5e92dcb590a2/public_url) | Okta | Credly Verified |
-| 2026-06-20 | [Implement B2C Self-Service Registration with Okta](https://www.credly.com/badges/50cbbb61-b545-4f07-b122-39494ae2b6f6/public_url) | Okta | Credly Verified |
-| 2026-06-20 | [LFC120: Leading High-Performance Working Group Meetings](https://www.credly.com/badges/d1bc4d63-e2c5-4d32-b281-089f9b653a12/public_url) | The Linux Foundation | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md)

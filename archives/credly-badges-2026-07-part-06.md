@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 6 of 9
-date_range: 2026-05-15 to 2026-05-25
-total_entries: 57
+date_range: 2026-05-17 to 2026-05-30
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-06.md
 ---
 
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-30 | [Foundations of Insurance and the IFRS 17 Standard Knowledge Badge](https://www.credly.com/badges/0b8945bd-0f24-49bf-b36a-8b9c790b9002/public_url) | SAS | Credly Verified |
+| 2026-05-27 | [Architecture and Administration for SAS Workload Management on SAS Viya](https://www.credly.com/badges/8ab110d2-4f48-4270-a365-2d39a121015c/public_url) | SAS | Credly Verified |
+| 2026-05-27 | [Deploying SAS Event Stream Processing on SAS Viya](https://www.credly.com/badges/23f9cee5-1e7b-4c04-9819-ca58eaa54c81/public_url) | SAS | Credly Verified |
+| 2026-05-27 | [Deploying SAS Grid Manager for Platform](https://www.credly.com/badges/b96c02e5-ee74-4756-a24d-5109b66c2d93/public_url) | SAS | Credly Verified |
+| 2026-05-26 | [Manage Data Models in Looker Skill Badge](https://www.credly.com/badges/eb5fb255-8dfa-4798-9894-3d7342f2c28a/public_url) | Google Cloud | Credly Verified |
+| 2026-05-25 | [AWS Cloud Quest: Cloud Practitioner - Training Badge](https://www.credly.com/badges/732fc941-03ee-436a-adf5-5ccd23c8c309/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-05-25 | [Basics in Lucidchart](https://www.credly.com/badges/51e91ad5-5d40-4d85-8cde-7828857f37b5/public_url) | Lucid Software | Credly Verified |
 | 2026-05-25 | [Engaging Stakeholders for Success](https://www.credly.com/badges/0fcc81f0-1d05-4360-b9d0-8fc80be31895/public_url) | Cisco | Credly Verified |
 | 2026-05-25 | [Lucidchart Fundamentals](https://www.credly.com/badges/964323c2-0693-4faf-a973-7324c4736657/public_url) | Lucid Software | Credly Verified |
@@ -62,13 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-19 | [SAS Viya Overview](https://www.credly.com/badges/2fdf77a8-806b-4cf7-bbd3-a87225b74bac/public_url) | SAS | Credly Verified |
 | 2026-05-17 | [Cybersecurity Fundamentals](https://www.credly.com/badges/07b5c2dc-a9ed-433c-bc25-63c34d575fa9/public_url) | IBM SkillsBuild | Credly Verified |
 | 2026-05-17 | [Data Literacy Essentials](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31/public_url) | SAS | Credly Verified |
-| 2026-05-17 | [Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity](https://www.credly.com/badges/2f421b3d-277a-4bc8-8120-3a07438a5962/public_url) | Okta | Credly Verified |
-| 2026-05-17 | [Introduction to Statistical Concepts](https://www.credly.com/badges/c503a241-0ce2-4131-878d-d2695680bde2/public_url) | SAS | Credly Verified |
-| 2026-05-17 | [Overview of the IFRS 17 Standard](https://www.credly.com/badges/85b05775-f078-4b2e-9a1c-8987a14c0162/public_url) | SAS | Credly Verified |
-| 2026-05-17 | [Setting up SAP Mobile Start with SAP S/4HANA on SAP Build Work Zone - Record of Achievement](https://www.credly.com/badges/07157e87-17e7-4a62-9599-6da52e400954/public_url) | SAP | Credly Verified |
-| 2026-05-15 | [AI for Product Management](https://www.credly.com/badges/1f9721c8-f066-45c5-b673-61955c346c47/public_url) | Pendo | Credly Verified |
-| 2026-05-15 | [AI Foundations Knowledge Badge](https://www.credly.com/badges/5750e670-88f4-4a63-af78-a7af6e9aa394/public_url) | SAS | Credly Verified |
-| 2026-05-15 | [Digital Adoption Certification](https://www.credly.com/badges/7245de95-83f1-4f30-b301-0d61c8576780/public_url) | Pendo | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md)

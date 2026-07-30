@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 4 of 9
-date_range: 2026-06-08 to 2026-06-20
+date_range: 2026-06-09 to 2026-06-22
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-04.md
 ---
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-22 | [Use APIs to Work with Cloud Storage Skill Badge](https://www.credly.com/badges/3a261bec-3e3f-41ca-b362-3eaf9f06bd90/public_url) | Google Cloud | Credly Verified |
+| 2026-06-21 | [The Basics of Google Cloud Compute Skill Badge](https://www.credly.com/badges/1add8a23-2f6c-4308-bcd7-39c83fcc42f6/public_url) | Google Cloud | Credly Verified |
+| 2026-06-20 | [AWS Knowledge: Amazon ECS - Training Badge](https://www.credly.com/badges/6b61161d-dd36-4991-b23a-8ec2b7c96368/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-06-20 | [Brand Your Okta Customer Identity Experience](https://www.credly.com/badges/ef277f59-d9a8-464c-88be-5e92dcb590a2/public_url) | Okta | Credly Verified |
+| 2026-06-20 | [Implement B2C Self-Service Registration with Okta](https://www.credly.com/badges/50cbbb61-b545-4f07-b122-39494ae2b6f6/public_url) | Okta | Credly Verified |
+| 2026-06-20 | [LFC120: Leading High-Performance Working Group Meetings](https://www.credly.com/badges/d1bc4d63-e2c5-4d32-b281-089f9b653a12/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-20 | [LFD141: IT Specification Basics for New Developers](https://www.credly.com/badges/bbc99675-45d1-4af8-b9df-90f47260bd68/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-20 | [LFS120: Conversational AI: Ensuring Compliance and Mitigating Risks](https://www.credly.com/badges/63f7d08a-0b8e-4020-bd2a-987bd528444a/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-20 | [LFS148: Getting Started with OpenTelemetry](https://www.credly.com/badges/85321abd-62c6-4b89-8d3f-a6ca51383a27/public_url) | The Linux Foundation | Credly Verified |
@@ -59,12 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-09 | [LFD125: Security for Software Development Managers](https://www.credly.com/badges/c0a1f565-7255-4a8b-8a99-c447b22e0023/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-09 | [LFS157: Introduction to Serverless on Kubernetes](https://www.credly.com/badges/b7b7ca0d-9eb3-42a1-9e11-70c2260d2b4e/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-09 | [LFS182: Securing Your Software Supply Chain with Sigstore](https://www.credly.com/badges/78826580-a3a7-4213-be79-3233321f3d3e/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-09 | [Verified Lucid Admin](https://www.credly.com/badges/81693063-e75b-457f-90c9-ae13044ef9e1/public_url) | Lucid Software | Credly Verified |
-| 2026-06-08 | [AWS Knowledge: File Storage - Training Badge](https://www.credly.com/badges/517a628a-d90a-48b8-858b-8c81048bbf5d/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-06-08 | [Cloud Accelerator Badge](https://www.credly.com/badges/a10ab236-0af0-45ad-a9f0-694426ba3f8d/public_url) | Lucid Software | Credly Verified |
-| 2026-06-08 | [Creative Facilitation](https://www.credly.com/badges/6df66de9-9678-4f5a-bc36-1c4d7b220100/public_url) | Lucid Software | Credly Verified |
-| 2026-06-08 | [LFC102: Inclusive Open Source Community Orientation](https://www.credly.com/badges/eb937342-cd3c-4993-8e44-91f0bf12f83c/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-08 | [LFC108: Cybersecurity Essentials](https://www.credly.com/badges/c07d5735-c22b-40c9-bece-11d75cd3ab0d/public_url) | The Linux Foundation | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md)

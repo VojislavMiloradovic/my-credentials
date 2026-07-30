@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 8 of 9
-date_range: 2026-04-14 to 2026-05-03
+date_range: 2026-04-18 to 2026-05-06
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-08.md
 ---
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-06 | [Core Skills Learning Path](https://www.credly.com/badges/9cfe8da1-05a9-4242-9dfc-8e91c87f9fe3/public_url) | Datadog | Credly Verified |
+| 2026-05-06 | [Dashboards Learning Path](https://www.credly.com/badges/3ada1a37-c791-4d66-860b-36b7c30ec4c3/public_url) | Datadog | Credly Verified |
+| 2026-05-06 | [Explore Identity Foundations](https://www.credly.com/badges/bef6ae97-3d40-441b-a5fd-168016f17b32/public_url) | Okta | Credly Verified |
+| 2026-05-06 | [LLM Observability Metrics & Traces Learning Path](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/public_url) | Datadog | Credly Verified |
+| 2026-05-05 | [Exploring SAP SuccessFactors Embedded Launch Activities for Business User - Record of Achievement](https://www.credly.com/badges/cc432e30-9613-4886-b82d-dd8b9ed936f3/public_url) | SAP | Credly Verified |
+| 2026-05-05 | [Project Management Fundamentals](https://www.credly.com/badges/544641c1-b718-4173-ac14-39c1b0656aea/public_url) | IBM SkillsBuild | Credly Verified |
+| 2026-05-04 | [IT Customer Support Basics](https://www.credly.com/badges/66dd5194-76bb-456f-b199-db61a26524a3/public_url) | Cisco | Credly Verified |
 | 2026-05-03 | [Administering and Using Responsible Design and Production for the Circular Economy - Record of Achievement](https://www.credly.com/badges/408da580-5ac3-4bb4-9b61-6593a033c23d/public_url) | SAP | Credly Verified |
 | 2026-05-03 | [AWS Knowledge: AWS for Games: Cloud Game Development - Training Badge](https://www.credly.com/badges/8b31cd8d-4eed-4e24-81d8-93c68a08138e/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-05-02 | [AWS Knowledge: AWS End User Computing - Training Badge](https://www.credly.com/badges/a380090e-c32c-4c12-bbae-2dc04f50f619/public_url) | Amazon Web Services Training and Certification | Credly Verified |
@@ -56,13 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-19 | [Google Ads Display Certification](https://api.accredible.com/v1/obi/badge_assertions/aaa06037-984b-436d-a969-138478771e90) | Skillshop | External/Imported |
 | 2026-04-18 | [Digital Awareness](https://www.credly.com/badges/9edc3f97-91e5-4d5d-b674-27e822964fb4/public_url) | Cisco | Credly Verified |
 | 2026-04-18 | [Modernizing Integration with SAP Integration Suite - SAP Learning MOOC - Record of Achievement](https://www.credly.com/badges/f3166cf7-82ab-4871-8b96-7ed8cbf350e6/public_url) | SAP | Credly Verified |
-| 2026-04-18 | [Understanding SAP’s 2026 Go-to-Market Direction for Partners - Record of Achievement](https://www.credly.com/badges/cccb34bc-a8ae-4c85-8a7f-793cd28bfa1b/public_url) | SAP | Credly Verified |
-| 2026-04-18 | [Using Computer and Mobile Devices](https://www.credly.com/badges/156370e6-b39b-4f49-a04e-cdb1fb215489/public_url) | Cisco | Credly Verified |
-| 2026-04-17 | [Introduction to Modern AI](https://www.credly.com/badges/8d48ad0b-4e3a-4d75-889d-90f586263f0e/public_url) | Cisco | Credly Verified |
-| 2026-04-16 | [Working in a Digital World: Professional Skills](https://www.credly.com/badges/a3eadc8d-e260-4d4f-bc57-b00d05ff0a50/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-15 | [AWS Knowledge: Cloud Essentials - Training Badge](https://www.credly.com/badges/91a86ab7-370c-47ea-9dde-6e2b0dec08db/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-04-15 | [Getting Started with Artificial Intelligence](https://www.credly.com/badges/51934455-5098-41bd-a21e-2d31f5e06517/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-14 | [Computer Hardware Basics](https://www.credly.com/badges/4695e6c2-7860-4cda-9e31-55851d12e3da/public_url) | Cisco | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-09.md](credly-badges-2026-07-part-09.md)

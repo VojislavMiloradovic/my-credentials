@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 1 of 9
-date_range: 2026-07-15 to 2026-07-29
+date_range: 2026-07-20 to 2026-07-30
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md
 ---
@@ -12,6 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-30 | [Building an App with Code Agents and MongoDB](https://www.credly.com/badges/e69b5623-374c-482a-b29f-6cee2c6714d1/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [Deploying and Evaluating GenAI Apps with MongoDB](https://www.credly.com/badges/2efe33a4-f77e-4714-a1b1-c8c46e72bd69/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [MongoDB Encryption at Rest with BYOK](https://www.credly.com/badges/ea5fdc47-7f57-42a4-9829-eb7c40b0b729/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [Securing MongoDB Atlas Networking](https://www.credly.com/badges/74ba326f-caa2-44b0-a4b2-dd055799bebf/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [Securing MongoDB Self-Managed Networking](https://www.credly.com/badges/0f2ed21a-e251-4566-ac7e-bf989559785b/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [Threat-Informed Architecture](https://www.credly.com/badges/2e682aba-ad5e-4f85-9f0e-87f0a4a1c5d1/public_url) | AttackIQ | Credly Verified |
+| 2026-07-30 | [Vector Search Performance](https://www.credly.com/badges/a89e8a08-ff7d-433a-9131-a8e2d464db34/public_url) | MongoDB | Credly Verified |
 | 2026-07-29 | [Analyze Images with the Cloud Vision API Skill Badge](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url) | Google Cloud | Credly Verified |
 | 2026-07-29 | [AWS Educate Getting Started with Serverless - Training Badge](https://www.credly.com/badges/01fefe26-9f1d-4c80-848a-4af9b193b111/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-07-29 | [Cloud Sales Professional MDR](https://www.credly.com/badges/6efa11ee-1073-454d-962f-8288a8b69bf7/public_url) | Acronis | Credly Verified |
@@ -60,13 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-20 | [CRUD Operations in MongoDB](https://www.credly.com/badges/9fd53140-ed9f-49c4-ba08-46f3b86499ad/public_url) | MongoDB | Credly Verified |
 | 2026-07-20 | [Foundations of AI Security](https://www.credly.com/badges/fa327098-5494-4463-84bc-6429f541bf76/public_url) | AttackIQ | Credly Verified |
 | 2026-07-20 | [Introduction to EASY Framework for Threat Intelligence](https://www.credly.com/badges/351d4db6-cd03-429e-a629-0765c3c78ba0/public_url) | AttackIQ | Credly Verified |
-| 2026-07-19 | [Secure Software Delivery Skill Badge](https://www.credly.com/badges/2cf13bdf-9555-4bac-a807-2f80b52ddb56/public_url) | Google Cloud | Credly Verified |
-| 2026-07-17 | [BDR Basic Course](https://www.credly.com/badges/eecab10e-35f3-446c-9503-a4b15c76acf8/public_url) | Acronis | Credly Verified |
-| 2026-07-17 | [Building RAG Apps Using MongoDB](https://www.credly.com/badges/647d5577-f948-4a84-9093-7b511bca6ecb/public_url) | MongoDB | Credly Verified |
-| 2026-07-17 | [Top ATT&CK Techniques](https://www.credly.com/badges/61cec03c-1282-4a54-b48f-2c31d5a043f1/public_url) | AttackIQ | Credly Verified |
-| 2026-07-16 | [Build a Data Mesh with Dataplex Skill Badge](https://www.credly.com/badges/68710fa4-e750-49a8-b542-5ed9e47c7e7b/public_url) | Google Cloud | Credly Verified |
-| 2026-07-15 | [AWS Educate Getting Started with Storage - Training Badge](https://www.credly.com/badges/c0cd9a0e-d2c9-4c72-9e6f-87b5cedde8a7/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-07-15 | [Building AI-Powered Search with MongoDB Vector Search](https://www.credly.com/badges/106d3801-84c1-4057-8474-6450f2a84b33/public_url) | MongoDB | Credly Verified |
 
 ---
 > **Navigation:** Prev: None | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md)

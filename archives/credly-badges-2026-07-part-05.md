@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 5 of 9
-date_range: 2026-05-25 to 2026-06-08
+date_range: 2026-05-31 to 2026-06-09
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-05.md
 ---
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-09 | [Verified Lucid Admin](https://www.credly.com/badges/81693063-e75b-457f-90c9-ae13044ef9e1/public_url) | Lucid Software | Credly Verified |
+| 2026-06-08 | [AWS Knowledge: File Storage - Training Badge](https://www.credly.com/badges/517a628a-d90a-48b8-858b-8c81048bbf5d/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-06-08 | [Cloud Accelerator Badge](https://www.credly.com/badges/a10ab236-0af0-45ad-a9f0-694426ba3f8d/public_url) | Lucid Software | Credly Verified |
+| 2026-06-08 | [Creative Facilitation](https://www.credly.com/badges/6df66de9-9678-4f5a-bc36-1c4d7b220100/public_url) | Lucid Software | Credly Verified |
+| 2026-06-08 | [LFC102: Inclusive Open Source Community Orientation](https://www.credly.com/badges/eb937342-cd3c-4993-8e44-91f0bf12f83c/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-08 | [LFC108: Cybersecurity Essentials](https://www.credly.com/badges/c07d5735-c22b-40c9-bece-11d75cd3ab0d/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-08 | [LFD102: A Beginner's Guide to Open Source Software Development](https://www.credly.com/badges/2b1cbc35-8af4-467d-bb34-8f081afb8ef0/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-08 | [LFD116: Software Engineering Basics for Embedded Systems](https://www.credly.com/badges/bf5261b3-1ed7-4acf-958a-5f937e4ca8e0/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-08 | [LFD137: Open Source Contribution in Finance](https://www.credly.com/badges/07bb1039-dd83-4aab-a319-d18af966d01a/public_url) | The Linux Foundation | Credly Verified |
@@ -61,12 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-31 | [Messaging](https://www.credly.com/badges/a65a8496-8f64-4d2c-b4c7-4a3d9b161301/public_url) | Zendesk | Credly Verified |
 | 2026-05-31 | [Talk / voice](https://www.credly.com/badges/82c8ca9b-bbde-4b58-b8dc-57dc834fada4/public_url) | Zendesk | Credly Verified |
 | 2026-05-31 | [Zendesk Knowledge](https://www.credly.com/badges/80fd12ea-5a76-4bf2-aab2-4c5ea7531b3a/public_url) | Zendesk | Credly Verified |
-| 2026-05-30 | [Foundations of Insurance and the IFRS 17 Standard Knowledge Badge](https://www.credly.com/badges/0b8945bd-0f24-49bf-b36a-8b9c790b9002/public_url) | SAS | Credly Verified |
-| 2026-05-27 | [Architecture and Administration for SAS Workload Management on SAS Viya](https://www.credly.com/badges/8ab110d2-4f48-4270-a365-2d39a121015c/public_url) | SAS | Credly Verified |
-| 2026-05-27 | [Deploying SAS Event Stream Processing on SAS Viya](https://www.credly.com/badges/23f9cee5-1e7b-4c04-9819-ca58eaa54c81/public_url) | SAS | Credly Verified |
-| 2026-05-27 | [Deploying SAS Grid Manager for Platform](https://www.credly.com/badges/b96c02e5-ee74-4756-a24d-5109b66c2d93/public_url) | SAS | Credly Verified |
-| 2026-05-26 | [Manage Data Models in Looker Skill Badge](https://www.credly.com/badges/eb5fb255-8dfa-4798-9894-3d7342f2c28a/public_url) | Google Cloud | Credly Verified |
-| 2026-05-25 | [AWS Cloud Quest: Cloud Practitioner - Training Badge](https://www.credly.com/badges/732fc941-03ee-436a-adf5-5ccd23c8c309/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md)

@@ -116,25 +116,25 @@ Showing latest 10 of 466 activities. View the full dataset via the [Platform Arc
 [Credly Verified Credentials](https://www.credly.com/users/vojislavmiloradovic/badges)
 
 Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic/badges)
-**Total Portfolio Credentials:** 475 (452 Credly Verified, 23 External/Imported)
-**Total Verified Skills Mapped:** 1824
+**Total Portfolio Credentials:** 482 (459 Credly Verified, 23 External/Imported)
+**Total Verified Skills Mapped:** 1838
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 475 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
+Showing latest 10 of 482 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-30 | [Building an App with Code Agents and MongoDB](https://www.credly.com/badges/e69b5623-374c-482a-b29f-6cee2c6714d1/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [Deploying and Evaluating GenAI Apps with MongoDB](https://www.credly.com/badges/2efe33a4-f77e-4714-a1b1-c8c46e72bd69/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [MongoDB Encryption at Rest with BYOK](https://www.credly.com/badges/ea5fdc47-7f57-42a4-9829-eb7c40b0b729/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [Securing MongoDB Atlas Networking](https://www.credly.com/badges/74ba326f-caa2-44b0-a4b2-dd055799bebf/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [Securing MongoDB Self-Managed Networking](https://www.credly.com/badges/0f2ed21a-e251-4566-ac7e-bf989559785b/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [Threat-Informed Architecture](https://www.credly.com/badges/2e682aba-ad5e-4f85-9f0e-87f0a4a1c5d1/public_url) | AttackIQ | Credly Verified |
+| 2026-07-30 | [Vector Search Performance](https://www.credly.com/badges/a89e8a08-ff7d-433a-9131-a8e2d464db34/public_url) | MongoDB | Credly Verified |
 | 2026-07-29 | [Analyze Images with the Cloud Vision API Skill Badge](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url) | Google Cloud | Credly Verified |
 | 2026-07-29 | [AWS Educate Getting Started with Serverless - Training Badge](https://www.credly.com/badges/01fefe26-9f1d-4c80-848a-4af9b193b111/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-07-29 | [Cloud Sales Professional MDR](https://www.credly.com/badges/6efa11ee-1073-454d-962f-8288a8b69bf7/public_url) | Acronis | Credly Verified |
-| 2026-07-29 | [Cloud Sales Pro - Protected 365](https://www.credly.com/badges/da80423d-93c4-4353-949e-47fe38205bb8/public_url) | Acronis | Credly Verified |
-| 2026-07-29 | [Countering Ransomware with MITRE ATT&CK](https://www.credly.com/badges/86ad39b3-0d3a-4939-b748-62169bb782d7/public_url) | AttackIQ | Credly Verified |
-| 2026-07-29 | [Get Started with Eventarc Skill Badge](https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e/public_url) | Google Cloud | Credly Verified |
-| 2026-07-28 | [Optimizing and Maintaining MongoDB Cluster Reliability](https://www.credly.com/badges/ef5db49e-1ab5-4ea0-ba70-bf16383e600f/public_url) | MongoDB | Credly Verified |
-| 2026-07-27 | [AWS Educate Getting Started with Cloud Ops - Training Badge](https://www.credly.com/badges/c1b15993-b012-43a3-bdcb-946d4ee73452/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-07-27 | [Beyond Atomic Testing with Attack Flows](https://www.credly.com/badges/bb201075-aef3-4e05-b357-f024ab834146/public_url) | AttackIQ | Credly Verified |
-| 2026-07-27 | [Building GenAI Applications with MongoDB](https://www.credly.com/badges/4bd6f004-be81-4cc2-bc6a-8c12d1a51a4c/public_url) | MongoDB | Credly Verified |
 <!-- CREDLY_BADGES_END -->
 
 
