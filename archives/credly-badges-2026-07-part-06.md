@@ -2,7 +2,7 @@
 archive_platform: Credly Verified Credentials
 chunk_part: 6 of 9
 date_range: 2026-05-15 to 2026-05-25
-total_entries: 56
+total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-06.md
 ---
 
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-25 | [Basics in Lucidchart](https://www.credly.com/badges/51e91ad5-5d40-4d85-8cde-7828857f37b5/public_url) | Lucid Software | Credly Verified |
+| 2026-05-25 | [Engaging Stakeholders for Success](https://www.credly.com/badges/0fcc81f0-1d05-4360-b9d0-8fc80be31895/public_url) | Cisco | Credly Verified |
+| 2026-05-25 | [Lucidchart Fundamentals](https://www.credly.com/badges/964323c2-0693-4faf-a973-7324c4736657/public_url) | Lucid Software | Credly Verified |
+| 2026-05-25 | [Org charts in Lucidchart](https://www.credly.com/badges/1884360b-cb1c-4b7a-a83f-e084d0994093/public_url) | Lucid Software | Credly Verified |
+| 2026-05-25 | [Process diagrams in Lucidchart](https://www.credly.com/badges/c082e966-a48a-41cc-8cf0-80ef478133db/public_url) | Lucid Software | Credly Verified |
 | 2026-05-25 | [Product Management Basics Certification](https://www.credly.com/badges/9ed3741c-eb44-4f66-854b-7808ab8091a9/public_url) | Pendo | Credly Verified |
 | 2026-05-25 | [Technical systems in Lucidchart](https://www.credly.com/badges/c2e33131-b3af-496b-97bb-9e34f365fa0e/public_url) | Lucid Software | Credly Verified |
 | 2026-05-24 | [Analyze BigQuery Data in Connected Sheets Skill Badge](https://www.credly.com/badges/57dcab2e-a6d0-4084-b2c0-fb0d9d5874e2/public_url) | Google Cloud | Credly Verified |
@@ -64,10 +69,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-15 | [AI for Product Management](https://www.credly.com/badges/1f9721c8-f066-45c5-b673-61955c346c47/public_url) | Pendo | Credly Verified |
 | 2026-05-15 | [AI Foundations Knowledge Badge](https://www.credly.com/badges/5750e670-88f4-4a63-af78-a7af6e9aa394/public_url) | SAS | Credly Verified |
 | 2026-05-15 | [Digital Adoption Certification](https://www.credly.com/badges/7245de95-83f1-4f30-b301-0d61c8576780/public_url) | Pendo | Credly Verified |
-| 2026-05-15 | [Exploring SAP Sports One - Training Management - Record of Achievement](https://www.credly.com/badges/83726026-289c-43c8-829d-e7cb31ae928f/public_url) | SAP | Credly Verified |
-| 2026-05-15 | [Foundations of Risk and Asset Liability Management Knowledge Badge](https://www.credly.com/badges/5328bcd2-a3eb-4848-97d6-1943f04e2219/public_url) | SAS | Credly Verified |
-| 2026-05-15 | [Generative AI Using SAS](https://www.credly.com/badges/1cb2917f-14d8-4bec-a32a-9cdcd52cad31/public_url) | SAS | Credly Verified |
-| 2026-05-15 | [Responsible Innovation and Trustworthy AI](https://www.credly.com/badges/760eeeb8-81c2-4af5-ba16-8a3e19cc2619/public_url) | SAS | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md)

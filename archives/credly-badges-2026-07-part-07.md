@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 7 of 9
-date_range: 2026-05-02 to 2026-05-15
-total_entries: 54
+date_range: 2026-05-04 to 2026-05-15
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-07.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-15 | [Exploring SAP Sports One - Training Management - Record of Achievement](https://www.credly.com/badges/83726026-289c-43c8-829d-e7cb31ae928f/public_url) | SAP | Credly Verified |
+| 2026-05-15 | [Foundations of Risk and Asset Liability Management Knowledge Badge](https://www.credly.com/badges/5328bcd2-a3eb-4848-97d6-1943f04e2219/public_url) | SAS | Credly Verified |
+| 2026-05-15 | [Generative AI Using SAS](https://www.credly.com/badges/1cb2917f-14d8-4bec-a32a-9cdcd52cad31/public_url) | SAS | Credly Verified |
+| 2026-05-15 | [Responsible Innovation and Trustworthy AI](https://www.credly.com/badges/760eeeb8-81c2-4af5-ba16-8a3e19cc2619/public_url) | SAS | Credly Verified |
 | 2026-05-15 | [Statistics 1: Introduction to ANOVA, Regression, and Logistic Regression](https://www.credly.com/badges/e3ce2619-792f-4d85-9ed2-41865bbd6eec/public_url) | SAS | Credly Verified |
 | 2026-05-13 | [AWS Cloud Quest: Generative AI Practitioner - Training Badge](https://www.credly.com/badges/dd512726-96fc-471a-9058-503bc93a3f74/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-05-13 | [Cloud Principles](https://www.credly.com/badges/54b1f225-a2f7-4999-b4f6-a8a319e1434d/public_url) | Intel | Credly Verified |
@@ -63,9 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-05 | [Exploring SAP SuccessFactors Embedded Launch Activities for Business User - Record of Achievement](https://www.credly.com/badges/cc432e30-9613-4886-b82d-dd8b9ed936f3/public_url) | SAP | Credly Verified |
 | 2026-05-05 | [Project Management Fundamentals](https://www.credly.com/badges/544641c1-b718-4173-ac14-39c1b0656aea/public_url) | IBM SkillsBuild | Credly Verified |
 | 2026-05-04 | [IT Customer Support Basics](https://www.credly.com/badges/66dd5194-76bb-456f-b199-db61a26524a3/public_url) | Cisco | Credly Verified |
-| 2026-05-03 | [Administering and Using Responsible Design and Production for the Circular Economy - Record of Achievement](https://www.credly.com/badges/408da580-5ac3-4bb4-9b61-6593a033c23d/public_url) | SAP | Credly Verified |
-| 2026-05-03 | [AWS Knowledge: AWS for Games: Cloud Game Development - Training Badge](https://www.credly.com/badges/8b31cd8d-4eed-4e24-81d8-93c68a08138e/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-05-02 | [AWS Knowledge: AWS End User Computing - Training Badge](https://www.credly.com/badges/a380090e-c32c-4c12-bbae-2dc04f50f619/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md)

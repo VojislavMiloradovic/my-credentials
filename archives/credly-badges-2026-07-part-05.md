@@ -2,7 +2,7 @@
 archive_platform: Credly Verified Credentials
 chunk_part: 5 of 9
 date_range: 2026-05-25 to 2026-06-08
-total_entries: 56
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-05.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-08 | [LFD102: A Beginner's Guide to Open Source Software Development](https://www.credly.com/badges/2b1cbc35-8af4-467d-bb34-8f081afb8ef0/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-08 | [LFD116: Software Engineering Basics for Embedded Systems](https://www.credly.com/badges/bf5261b3-1ed7-4acf-958a-5f937e4ca8e0/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-08 | [LFD137: Open Source Contribution in Finance](https://www.credly.com/badges/07bb1039-dd83-4aab-a319-d18af966d01a/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-08 | [LFQ101: Fundamentals of Quantum Computing](https://www.credly.com/badges/dbaa0c7b-652d-4505-a80a-4d8dd2551426/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-08 | [LFS118: Ethical Principles for Conversational AI](https://www.credly.com/badges/c18e2ce0-83e2-4e77-ba8e-2daa7a2cddfa/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-08 | [LFS158: Introduction to Kubernetes](https://www.credly.com/badges/85746ca0-36fc-4ba0-b753-d0dce904b02d/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-08 | [Process Accelerator Badge](https://www.credly.com/badges/66e95c6f-7100-4007-ae22-1fc36a1d638d/public_url) | Lucid Software | Credly Verified |
@@ -63,11 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-27 | [Deploying SAS Grid Manager for Platform](https://www.credly.com/badges/b96c02e5-ee74-4756-a24d-5109b66c2d93/public_url) | SAS | Credly Verified |
 | 2026-05-26 | [Manage Data Models in Looker Skill Badge](https://www.credly.com/badges/eb5fb255-8dfa-4798-9894-3d7342f2c28a/public_url) | Google Cloud | Credly Verified |
 | 2026-05-25 | [AWS Cloud Quest: Cloud Practitioner - Training Badge](https://www.credly.com/badges/732fc941-03ee-436a-adf5-5ccd23c8c309/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-05-25 | [Basics in Lucidchart](https://www.credly.com/badges/51e91ad5-5d40-4d85-8cde-7828857f37b5/public_url) | Lucid Software | Credly Verified |
-| 2026-05-25 | [Engaging Stakeholders for Success](https://www.credly.com/badges/0fcc81f0-1d05-4360-b9d0-8fc80be31895/public_url) | Cisco | Credly Verified |
-| 2026-05-25 | [Lucidchart Fundamentals](https://www.credly.com/badges/964323c2-0693-4faf-a973-7324c4736657/public_url) | Lucid Software | Credly Verified |
-| 2026-05-25 | [Org charts in Lucidchart](https://www.credly.com/badges/1884360b-cb1c-4b7a-a83f-e084d0994093/public_url) | Lucid Software | Credly Verified |
-| 2026-05-25 | [Process diagrams in Lucidchart](https://www.credly.com/badges/c082e966-a48a-41cc-8cf0-80ef478133db/public_url) | Lucid Software | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md)

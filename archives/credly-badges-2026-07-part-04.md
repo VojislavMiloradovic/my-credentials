@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 4 of 9
-date_range: 2026-06-08 to 2026-06-18
+date_range: 2026-06-08 to 2026-06-20
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-04.md
 ---
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-20 | [LFD141: IT Specification Basics for New Developers](https://www.credly.com/badges/bbc99675-45d1-4af8-b9df-90f47260bd68/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-20 | [LFS120: Conversational AI: Ensuring Compliance and Mitigating Risks](https://www.credly.com/badges/63f7d08a-0b8e-4020-bd2a-987bd528444a/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-20 | [LFS148: Getting Started with OpenTelemetry](https://www.credly.com/badges/85321abd-62c6-4b89-8d3f-a6ca51383a27/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-20 | [M365 Basic Course](https://www.credly.com/badges/ddd3f99a-a3bd-44e6-8916-3b27b50cc8e4/public_url) | Acronis | Credly Verified |
 | 2026-06-18 | [AWS Knowledge: Amazon EKS - Training Badge](https://www.credly.com/badges/a56b19c1-ecf5-4bf0-b66e-1849a18b9722/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-06-18 | [Intro to Acronis](https://www.credly.com/badges/9e744ff2-c093-46d2-adba-97b5f1c92be2/public_url) | Acronis | Credly Verified |
 | 2026-06-18 | [LFC112: Creating Effective Documentation for Developers](https://www.credly.com/badges/74c24889-addb-48cd-8539-b9484742e114/public_url) | The Linux Foundation | Credly Verified |
@@ -61,10 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-08 | [Creative Facilitation](https://www.credly.com/badges/6df66de9-9678-4f5a-bc36-1c4d7b220100/public_url) | Lucid Software | Credly Verified |
 | 2026-06-08 | [LFC102: Inclusive Open Source Community Orientation](https://www.credly.com/badges/eb937342-cd3c-4993-8e44-91f0bf12f83c/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-08 | [LFC108: Cybersecurity Essentials](https://www.credly.com/badges/c07d5735-c22b-40c9-bece-11d75cd3ab0d/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-08 | [LFD102: A Beginner's Guide to Open Source Software Development](https://www.credly.com/badges/2b1cbc35-8af4-467d-bb34-8f081afb8ef0/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-08 | [LFD116: Software Engineering Basics for Embedded Systems](https://www.credly.com/badges/bf5261b3-1ed7-4acf-958a-5f937e4ca8e0/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-08 | [LFD137: Open Source Contribution in Finance](https://www.credly.com/badges/07bb1039-dd83-4aab-a319-d18af966d01a/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-08 | [LFQ101: Fundamentals of Quantum Computing](https://www.credly.com/badges/dbaa0c7b-652d-4505-a80a-4d8dd2551426/public_url) | The Linux Foundation | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md)

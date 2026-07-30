@@ -1,8 +1,8 @@
 {
   "user_username": "vojislavmiloradovic",
   "user_id": "752aee40-7358-4ade-9a49-81e8b6f49225",
-  "total_count": 471,
-  "native_count": 448,
+  "total_count": 475,
+  "native_count": 452,
   "external_count": 23,
   "badges": [
     {
@@ -24,6 +24,102 @@
         "API",
         "Cloud Vision API",
         "Image Processing"
+      ]
+    },
+    {
+      "id": "01fefe26-9f1d-4c80-848a-4af9b193b111",
+      "title": "AWS Educate Getting Started with Serverless - Training Badge",
+      "name": "AWS Educate Getting Started with Serverless - Training Badge",
+      "issuer": "Amazon Web Services Training and Certification",
+      "issuer_name": "Amazon Web Services Training and Certification",
+      "issued_at": "2026-07-29",
+      "issued_at_date": "2026-07-29",
+      "date": "2026-07-29",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/25108813-2dd7-45f7-8158-65689b8526b5/blob",
+      "verify_url": "https://www.credly.com/badges/01fefe26-9f1d-4c80-848a-4af9b193b111/public_url",
+      "url": "https://www.credly.com/badges/01fefe26-9f1d-4c80-848a-4af9b193b111/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "AWS Cloud",
+        "Serverless",
+        "Serverless Computing"
+      ]
+    },
+    {
+      "id": "6efa11ee-1073-454d-962f-8288a8b69bf7",
+      "title": "Cloud Sales Professional MDR",
+      "name": "Cloud Sales Professional MDR",
+      "issuer": "Acronis",
+      "issuer_name": "Acronis",
+      "issued_at": "2026-07-29",
+      "issued_at_date": "2026-07-29",
+      "date": "2026-07-29",
+      "expires_at": "2027-07-29",
+      "image_url": "https://images.credly.com/images/eae70b49-80e8-4183-af78-c5bc76b7e517/blob",
+      "verify_url": "https://www.credly.com/badges/6efa11ee-1073-454d-962f-8288a8b69bf7/public_url",
+      "url": "https://www.credly.com/badges/6efa11ee-1073-454d-962f-8288a8b69bf7/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "Academic Achievement",
+        "Academic Standards",
+        "Digital Sales",
+        "GRE",
+        "Instrument Rating",
+        "Rubrics",
+        "Sales",
+        "Sales Management"
+      ]
+    },
+    {
+      "id": "da80423d-93c4-4353-949e-47fe38205bb8",
+      "title": "Cloud Sales Pro - Protected 365",
+      "name": "Cloud Sales Pro - Protected 365",
+      "issuer": "Acronis",
+      "issuer_name": "Acronis",
+      "issued_at": "2026-07-29",
+      "issued_at_date": "2026-07-29",
+      "date": "2026-07-29",
+      "expires_at": "2027-07-29",
+      "image_url": "https://images.credly.com/images/cb785374-f9a3-46fc-b596-84f7df1a6c1c/blob",
+      "verify_url": "https://www.credly.com/badges/da80423d-93c4-4353-949e-47fe38205bb8/public_url",
+      "url": "https://www.credly.com/badges/da80423d-93c4-4353-949e-47fe38205bb8/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "Academic Achievement",
+        "Academic Standards",
+        "Cloud Computing",
+        "Cloud Services",
+        "GRE",
+        "Microsoft 365",
+        "Microsoft Office 365",
+        "Microsoft Office 365 Administration"
+      ]
+    },
+    {
+      "id": "86ad39b3-0d3a-4939-b748-62169bb782d7",
+      "title": "Countering Ransomware with MITRE ATT&CK",
+      "name": "Countering Ransomware with MITRE ATT&CK",
+      "issuer": "AttackIQ",
+      "issuer_name": "AttackIQ",
+      "issued_at": "2026-07-29",
+      "issued_at_date": "2026-07-29",
+      "date": "2026-07-29",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/d9ee1a49-5c7d-44f0-a7be-4875bc9a0840/image.png",
+      "verify_url": "https://www.credly.com/badges/86ad39b3-0d3a-4939-b748-62169bb782d7/public_url",
+      "url": "https://www.credly.com/badges/86ad39b3-0d3a-4939-b748-62169bb782d7/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "Cybersecurity",
+        "MITRE ATT&CK Framework",
+        "Purple Team",
+        "Ransomware"
       ]
     },
     {
@@ -1383,8 +1479,8 @@
     },
     {
       "id": "b4e44a5b-2f20-4388-91fa-0e84a1dff433",
-      "title": "From Relational Model (SQL) to MongoDBs Document Model",
-      "name": "From Relational Model (SQL) to MongoDBs Document Model",
+      "title": "From Relational Model (SQL) to MongoDB's Document Model",
+      "name": "From Relational Model (SQL) to MongoDB's Document Model",
       "issuer": "MongoDB",
       "issuer_name": "MongoDB",
       "issued_at": "2026-07-14",
@@ -1410,6 +1506,7 @@
         "NoSQL Databases",
         "Relational",
         "Relational Databases",
+        "Relational to Document Model",
         "Relationships",
         "Schema Validation",
         "SQL"

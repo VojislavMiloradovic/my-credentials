@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 2 of 9
-date_range: 2026-07-01 to 2026-07-14
-total_entries: 56
+date_range: 2026-07-02 to 2026-07-15
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-02.md
 ---
 
@@ -12,8 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-15 | [Cloud Tech Professional Disaster Recovery](https://www.credly.com/badges/b1960c54-6ac1-4206-8631-f489b925b6eb/public_url) | Acronis | Credly Verified |
+| 2026-07-15 | [Strategic Cybersecurity Management](https://www.credly.com/badges/e0cfb483-3bab-4f21-b48e-896e6e02a2de/public_url) | AttackIQ | Credly Verified |
+| 2026-07-14 | [Acronis Cyber Protect – Endpoint Management Basics](https://www.credly.com/badges/e9ff04b3-1b9b-40be-a241-a663e3a6a251/public_url) | Acronis | Credly Verified |
+| 2026-07-14 | [AWS Knowledge: AI Basics - Training Badge](https://www.credly.com/badges/fbb02508-656a-4241-b49c-182dcd8f43ee/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-07-14 | [FIPS Frontrunner](https://www.credly.com/badges/93ad4964-81b4-45ad-b613-688f0505a759/public_url) | Chainguard | Credly Verified |
-| 2026-07-14 | [From Relational Model (SQL) to MongoDBs Document Model](https://www.credly.com/badges/b4e44a5b-2f20-4388-91fa-0e84a1dff433/public_url) | MongoDB | Credly Verified |
+| 2026-07-14 | [From Relational Model (SQL) to MongoDB's Document Model](https://www.credly.com/badges/b4e44a5b-2f20-4388-91fa-0e84a1dff433/public_url) | MongoDB | Credly Verified |
 | 2026-07-14 | [Uniting Threat and Risk Management with NIST 800-53 and MITRE ATT&CK](https://www.credly.com/badges/5a3154e0-56dc-49d6-bd27-035a773fc3eb/public_url) | AttackIQ | Credly Verified |
 | 2026-07-13 | [Introduction To FIN6 Emulation Plans](https://www.credly.com/badges/5f450636-c464-4b68-8bb8-3dadf9ef77b3/public_url) | AttackIQ | Credly Verified |
 | 2026-07-13 | [MongoDB Basics for Students](https://www.credly.com/badges/d1bad48d-237a-4939-ae0f-3d4e3fca7386/public_url) | MongoDB | Credly Verified |
@@ -63,11 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-02 | [Build Infrastructure with Terraform on Google Cloud Skill Badge](https://www.credly.com/badges/35059bf2-e867-46eb-95b6-5ef733207698/public_url) | Google Cloud | Credly Verified |
 | 2026-07-02 | [Cloud Sales Associate Advanced Management](https://www.credly.com/badges/7a16d6a7-7f4a-43e0-8ddb-fbcb300a8822/public_url) | Acronis | Credly Verified |
 | 2026-07-02 | [Configure Database Integration for Okta Privileged Access](https://www.credly.com/badges/eb355e8c-609f-45e9-94dd-f86b7788027e/public_url) | Okta | Credly Verified |
-| 2026-07-02 | [Manage Change and Scale Adoption](https://www.credly.com/badges/06895ebe-457b-40c8-8c8d-336b96da8ac4/public_url) | Celonis | Credly Verified |
-| 2026-07-02 | [Process Automation Concepts](https://www.credly.com/badges/da7e7652-ed54-4938-b484-e509978ae444/public_url) | Celonis | Credly Verified |
-| 2026-07-02 | [Process Mining Audit Professional](https://www.credly.com/badges/f2f7155c-98d7-40ee-8c4d-6a6fd43667ab/public_url) | Celonis | Credly Verified |
-| 2026-07-02 | [Use and Interpret Views](https://www.credly.com/badges/98c3a33b-f27a-4850-84b1-dd59f013f830/public_url) | Celonis | Credly Verified |
-| 2026-07-01 | [Discovering Entrepreneurship](https://www.credly.com/badges/e0ae2fb9-9f66-424a-a990-8cca00679943/public_url) | Cisco | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-01.md](credly-badges-2026-07-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md)

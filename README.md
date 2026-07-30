@@ -116,25 +116,25 @@ Showing latest 10 of 466 activities. View the full dataset via the [Platform Arc
 [Credly Verified Credentials](https://www.credly.com/users/vojislavmiloradovic/badges)
 
 Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic/badges)
-**Total Portfolio Credentials:** 471 (448 Credly Verified, 23 External/Imported)
-**Total Verified Skills Mapped:** 1817
+**Total Portfolio Credentials:** 475 (452 Credly Verified, 23 External/Imported)
+**Total Verified Skills Mapped:** 1824
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 471 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
+Showing latest 10 of 475 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-07-29 | [Analyze Images with the Cloud Vision API Skill Badge](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url) | Google Cloud | Credly Verified |
+| 2026-07-29 | [AWS Educate Getting Started with Serverless - Training Badge](https://www.credly.com/badges/01fefe26-9f1d-4c80-848a-4af9b193b111/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-07-29 | [Cloud Sales Professional MDR](https://www.credly.com/badges/6efa11ee-1073-454d-962f-8288a8b69bf7/public_url) | Acronis | Credly Verified |
+| 2026-07-29 | [Cloud Sales Pro - Protected 365](https://www.credly.com/badges/da80423d-93c4-4353-949e-47fe38205bb8/public_url) | Acronis | Credly Verified |
+| 2026-07-29 | [Countering Ransomware with MITRE ATT&CK](https://www.credly.com/badges/86ad39b3-0d3a-4939-b748-62169bb782d7/public_url) | AttackIQ | Credly Verified |
 | 2026-07-29 | [Get Started with Eventarc Skill Badge](https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e/public_url) | Google Cloud | Credly Verified |
 | 2026-07-28 | [Optimizing and Maintaining MongoDB Cluster Reliability](https://www.credly.com/badges/ef5db49e-1ab5-4ea0-ba70-bf16383e600f/public_url) | MongoDB | Credly Verified |
 | 2026-07-27 | [AWS Educate Getting Started with Cloud Ops - Training Badge](https://www.credly.com/badges/c1b15993-b012-43a3-bdcb-946d4ee73452/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-07-27 | [Beyond Atomic Testing with Attack Flows](https://www.credly.com/badges/bb201075-aef3-4e05-b357-f024ab834146/public_url) | AttackIQ | Credly Verified |
 | 2026-07-27 | [Building GenAI Applications with MongoDB](https://www.credly.com/badges/4bd6f004-be81-4cc2-bc6a-8c12d1a51a4c/public_url) | MongoDB | Credly Verified |
-| 2026-07-27 | [Cloud Sales Pro - Security Posture Management](https://www.credly.com/badges/b785897b-343d-4e17-b23b-2435c7fec78d/public_url) | Acronis | Credly Verified |
-| 2026-07-27 | [Develop AI-Powered Prototypes in Google AI Studio](https://www.credly.com/badges/7b6fb557-985b-4680-85ca-5d9a3fd287d0/public_url) | Google Cloud | Credly Verified |
-| 2026-07-27 | [Monitoring MongoDB with Built-in Tools](https://www.credly.com/badges/adc19ddf-d4cd-43e0-ba42-9321bcf43590/public_url) | MongoDB | Credly Verified |
-| 2026-07-27 | [MSP Academy: Automation](https://www.credly.com/badges/d16d9c70-9200-49b5-8a1f-706919b48e24/public_url) | Acronis | Credly Verified |
 <!-- CREDLY_BADGES_END -->
 
 

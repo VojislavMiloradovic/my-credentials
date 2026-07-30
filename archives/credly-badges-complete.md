@@ -1,12 +1,16 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 471 records.
+This document represents a unified, verifiable list of all 475 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-07-29 | [Analyze Images with the Cloud Vision API Skill Badge](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url) | Google Cloud | Credly Verified |
+| 2026-07-29 | [AWS Educate Getting Started with Serverless - Training Badge](https://www.credly.com/badges/01fefe26-9f1d-4c80-848a-4af9b193b111/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-07-29 | [Cloud Sales Professional MDR](https://www.credly.com/badges/6efa11ee-1073-454d-962f-8288a8b69bf7/public_url) | Acronis | Credly Verified |
+| 2026-07-29 | [Cloud Sales Pro - Protected 365](https://www.credly.com/badges/da80423d-93c4-4353-949e-47fe38205bb8/public_url) | Acronis | Credly Verified |
+| 2026-07-29 | [Countering Ransomware with MITRE ATT&CK](https://www.credly.com/badges/86ad39b3-0d3a-4939-b748-62169bb782d7/public_url) | AttackIQ | Credly Verified |
 | 2026-07-29 | [Get Started with Eventarc Skill Badge](https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e/public_url) | Google Cloud | Credly Verified |
 | 2026-07-28 | [Optimizing and Maintaining MongoDB Cluster Reliability](https://www.credly.com/badges/ef5db49e-1ab5-4ea0-ba70-bf16383e600f/public_url) | MongoDB | Credly Verified |
 | 2026-07-27 | [AWS Educate Getting Started with Cloud Ops - Training Badge](https://www.credly.com/badges/c1b15993-b012-43a3-bdcb-946d4ee73452/public_url) | Amazon Web Services Training and Certification | Credly Verified |
@@ -62,7 +66,7 @@ This document represents a unified, verifiable list of all 471 records.
 | 2026-07-14 | [Acronis Cyber Protect – Endpoint Management Basics](https://www.credly.com/badges/e9ff04b3-1b9b-40be-a241-a663e3a6a251/public_url) | Acronis | Credly Verified |
 | 2026-07-14 | [AWS Knowledge: AI Basics - Training Badge](https://www.credly.com/badges/fbb02508-656a-4241-b49c-182dcd8f43ee/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-07-14 | [FIPS Frontrunner](https://www.credly.com/badges/93ad4964-81b4-45ad-b613-688f0505a759/public_url) | Chainguard | Credly Verified |
-| 2026-07-14 | [From Relational Model (SQL) to MongoDBs Document Model](https://www.credly.com/badges/b4e44a5b-2f20-4388-91fa-0e84a1dff433/public_url) | MongoDB | Credly Verified |
+| 2026-07-14 | [From Relational Model (SQL) to MongoDB's Document Model](https://www.credly.com/badges/b4e44a5b-2f20-4388-91fa-0e84a1dff433/public_url) | MongoDB | Credly Verified |
 | 2026-07-14 | [Uniting Threat and Risk Management with NIST 800-53 and MITRE ATT&CK](https://www.credly.com/badges/5a3154e0-56dc-49d6-bd27-035a773fc3eb/public_url) | AttackIQ | Credly Verified |
 | 2026-07-13 | [Introduction To FIN6 Emulation Plans](https://www.credly.com/badges/5f450636-c464-4b68-8bb8-3dadf9ef77b3/public_url) | AttackIQ | Credly Verified |
 | 2026-07-13 | [MongoDB Basics for Students](https://www.credly.com/badges/d1bad48d-237a-4939-ae0f-3d4e3fca7386/public_url) | MongoDB | Credly Verified |

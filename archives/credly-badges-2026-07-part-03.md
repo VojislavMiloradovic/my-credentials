@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 3 of 9
-date_range: 2026-06-20 to 2026-06-30
-total_entries: 54
+date_range: 2026-06-20 to 2026-07-02
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-03.md
 ---
 
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-02 | [Manage Change and Scale Adoption](https://www.credly.com/badges/06895ebe-457b-40c8-8c8d-336b96da8ac4/public_url) | Celonis | Credly Verified |
+| 2026-07-02 | [Process Automation Concepts](https://www.credly.com/badges/da7e7652-ed54-4938-b484-e509978ae444/public_url) | Celonis | Credly Verified |
+| 2026-07-02 | [Process Mining Audit Professional](https://www.credly.com/badges/f2f7155c-98d7-40ee-8c4d-6a6fd43667ab/public_url) | Celonis | Credly Verified |
+| 2026-07-02 | [Use and Interpret Views](https://www.credly.com/badges/98c3a33b-f27a-4850-84b1-dd59f013f830/public_url) | Celonis | Credly Verified |
+| 2026-07-01 | [Discovering Entrepreneurship](https://www.credly.com/badges/e0ae2fb9-9f66-424a-a990-8cca00679943/public_url) | Cisco | Credly Verified |
 | 2026-06-30 | [Build Action Flows](https://www.credly.com/badges/44ae4fe8-2731-49a9-9f56-d1570fe1929e/public_url) | Celonis | Credly Verified |
 | 2026-06-30 | [Cloud Tech Associate Advanced Security + EDR](https://www.credly.com/badges/d10714da-78fa-47cd-8697-29e5f9154317/public_url) | Acronis | Credly Verified |
 | 2026-06-30 | [Get Data into Celonis](https://www.credly.com/badges/81a7aff4-f3b9-4a3e-9a17-b3a01fe5a8a8/public_url) | Celonis | Credly Verified |
@@ -62,10 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-20 | [Brand Your Okta Customer Identity Experience](https://www.credly.com/badges/ef277f59-d9a8-464c-88be-5e92dcb590a2/public_url) | Okta | Credly Verified |
 | 2026-06-20 | [Implement B2C Self-Service Registration with Okta](https://www.credly.com/badges/50cbbb61-b545-4f07-b122-39494ae2b6f6/public_url) | Okta | Credly Verified |
 | 2026-06-20 | [LFC120: Leading High-Performance Working Group Meetings](https://www.credly.com/badges/d1bc4d63-e2c5-4d32-b281-089f9b653a12/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-20 | [LFD141: IT Specification Basics for New Developers](https://www.credly.com/badges/bbc99675-45d1-4af8-b9df-90f47260bd68/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-20 | [LFS120: Conversational AI: Ensuring Compliance and Mitigating Risks](https://www.credly.com/badges/63f7d08a-0b8e-4020-bd2a-987bd528444a/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-20 | [LFS148: Getting Started with OpenTelemetry](https://www.credly.com/badges/85321abd-62c6-4b89-8d3f-a6ca51383a27/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-20 | [M365 Basic Course](https://www.credly.com/badges/ddd3f99a-a3bd-44e6-8916-3b27b50cc8e4/public_url) | Acronis | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md)

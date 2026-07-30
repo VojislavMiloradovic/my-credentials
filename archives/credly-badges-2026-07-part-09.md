@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 9 of 9
-date_range: 2025-11-04 to 2026-04-11
-total_entries: 35
+date_range: 2025-11-04 to 2026-04-13
+total_entries: 39
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-09.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-04-13 | [Generative AI Essentials: Using LLMs to Work with Data](https://www.credly.com/badges/2e249462-a23b-4c37-8eea-c279927629c8/public_url) | IBM SkillsBuild | Credly Verified |
+| 2026-04-13 | [Introduction to Cybersecurity](https://www.credly.com/badges/61438657-9227-4fe2-a571-673adf92bae0/public_url) | Cisco | Credly Verified |
+| 2026-04-12 | [AWS Knowledge: AWS Graviton - Training Badge](https://www.credly.com/badges/013b5a15-4ea6-47a4-9812-bcb52372bb1f/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-04-12 | [Make Agentic AI Work for You](https://www.credly.com/badges/0162b3cd-2bf0-4a6e-8335-3ece7487f265/public_url) | IBM SkillsBuild | Credly Verified |
 | 2026-04-11 | [AI for Networking](https://www.credly.com/badges/44ef5ed4-03e3-4047-b5c4-341d35a52ee7/public_url) | Cisco | Credly Verified |
 | 2026-04-11 | [Digital Mindset](https://www.credly.com/badges/c6b89299-f4da-4b4d-93de-a136065eee33/public_url) | IBM SkillsBuild | Credly Verified |
 | 2026-04-10 | [Administering SAP Sustainability Control Tower - Record of Achievement](https://www.credly.com/badges/7fe3c2ec-d068-4278-a1d6-e3ce744ac608/public_url) | SAP | Credly Verified |

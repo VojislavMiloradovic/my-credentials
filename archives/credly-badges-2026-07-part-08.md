@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 8 of 9
-date_range: 2026-04-12 to 2026-05-02
-total_entries: 52
+date_range: 2026-04-14 to 2026-05-03
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-08.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-03 | [Administering and Using Responsible Design and Production for the Circular Economy - Record of Achievement](https://www.credly.com/badges/408da580-5ac3-4bb4-9b61-6593a033c23d/public_url) | SAP | Credly Verified |
+| 2026-05-03 | [AWS Knowledge: AWS for Games: Cloud Game Development - Training Badge](https://www.credly.com/badges/8b31cd8d-4eed-4e24-81d8-93c68a08138e/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-05-02 | [AWS Knowledge: AWS End User Computing - Training Badge](https://www.credly.com/badges/a380090e-c32c-4c12-bbae-2dc04f50f619/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-05-02 | [Introducing SAP Ariba Category Management Fundamentals - Record of Achievement](https://www.credly.com/badges/584b0ef0-334b-429f-97b0-c5769c878484/public_url) | SAP | Credly Verified |
 | 2026-05-02 | [Quantum Enigmas](https://www.credly.com/badges/70c32b77-453a-4fe5-9f8f-76fefc4c6890/public_url) | IBM SkillsBuild | Credly Verified |
 | 2026-04-30 | [Applying Supply Chain Execution in SAP S/4HANA Cloud Private Edition - Record of Achievement](https://www.credly.com/badges/4a8483c8-7e9e-4bd6-ac58-4fa107a9a535/public_url) | SAP | Credly Verified |
@@ -60,10 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-15 | [AWS Knowledge: Cloud Essentials - Training Badge](https://www.credly.com/badges/91a86ab7-370c-47ea-9dde-6e2b0dec08db/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-04-15 | [Getting Started with Artificial Intelligence](https://www.credly.com/badges/51934455-5098-41bd-a21e-2d31f5e06517/public_url) | IBM SkillsBuild | Credly Verified |
 | 2026-04-14 | [Computer Hardware Basics](https://www.credly.com/badges/4695e6c2-7860-4cda-9e31-55851d12e3da/public_url) | Cisco | Credly Verified |
-| 2026-04-13 | [Generative AI Essentials: Using LLMs to Work with Data](https://www.credly.com/badges/2e249462-a23b-4c37-8eea-c279927629c8/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-13 | [Introduction to Cybersecurity](https://www.credly.com/badges/61438657-9227-4fe2-a571-673adf92bae0/public_url) | Cisco | Credly Verified |
-| 2026-04-12 | [AWS Knowledge: AWS Graviton - Training Badge](https://www.credly.com/badges/013b5a15-4ea6-47a4-9812-bcb52372bb1f/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-04-12 | [Make Agentic AI Work for You](https://www.credly.com/badges/0162b3cd-2bf0-4a6e-8335-3ece7487f265/public_url) | IBM SkillsBuild | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-09.md](credly-badges-2026-07-part-09.md)
