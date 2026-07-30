@@ -1,6 +1,6 @@
 ﻿Complete Training Activity List
-Generated on: 28. јул 2026.
-Total rows: 466
+Generated on: 30. јул 2026.
+Total rows: 475
 
 Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
 [RETIRED] AWS Fargate - Overview,Digital course,Retired,0,-,"March 8, 2026","March 8, 2026","March 8, 2026",10 minutes,Fundamental,English
@@ -58,10 +58,12 @@ Amazon Connect - Troubleshooting,Digital course,Completed,0,-,"February 11, 2026
 Amazon Connect - Troubleshooting with Amazon CloudWatch,Digital course,Completed,100,-,"March 15, 2026","March 15, 2026","March 15, 2026",1 hour,Advanced,English
 Amazon Connect Administration,Digital course,Completed,0,-,"February 26, 2026","February 26, 2026","February 26, 2026",1 hour,Fundamental,English
 Amazon Connect Agent Applications Fundamentals,Digital course,Completed,0,-,"March 21, 2026","March 21, 2026","March 21, 2026",1 hour 13 minutes,Fundamental,English
+Amazon Connect AI Self-Service Capabilities,Digital course,Completed,0,-,"July 30, 2026","July 30, 2026","July 30, 2026",1 hour,Intermediate,English
 Amazon Connect Architecture Fundamentals,Digital course,Completed,0,-,"February 27, 2026","February 27, 2026","February 27, 2026",1 hour,Fundamental,English
 Amazon Connect Chat and Messaging Fundamentals,Digital course,Completed,0,-,"March 22, 2026","March 22, 2026","March 22, 2026",1 hour 10 minutes,Fundamental,English
 Amazon Connect Contact Lens Fundamentals,Digital course,Completed,0,-,"February 27, 2026","February 27, 2026","February 27, 2026",55 minutes,Fundamental,English
 Amazon Connect Custom Contact Control Panel Fundamentals,Digital course,Completed,0,-,"February 28, 2026","February 28, 2026","February 28, 2026",50 minutes,Fundamental,English
+Amazon Connect Flow Modules and Step-by-Step Guides,Digital course,Completed,0,-,"July 30, 2026","July 30, 2026","July 30, 2026",1 hour,Intermediate,English
 Amazon Connect Flows Lambda Integrations Fundamentals,Digital course,Completed,0,-,"March 11, 2026","March 11, 2026","March 11, 2026",50 minutes,Fundamental,English
 Amazon Connect Foundations,Digital course,Completed,0,-,"March 15, 2026","March 15, 2026","March 15, 2026",1 hour,Fundamental,English
 Amazon Connect Fundamentals Assessment,Digital course,Completed,90,-,"April 20, 2026","April 20, 2026","April 20, 2026",1 hour,Fundamental,English
@@ -196,6 +198,7 @@ AWS for Media & Entertainment Content Production Security Essentials,Digital cou
 AWS for Media & Entertainment Post-Production Workflow Essentials,Digital course,Completed,0,-,"April 9, 2026","April 9, 2026","April 9, 2026",20 minutes,Fundamental,English
 AWS for RISE with SAP Introduction,Digital course,Completed,0,-,"January 31, 2026","January 31, 2026","January 31, 2026",15 minutes,Fundamental,English
 AWS for SAP - Generative AI Fundamentals,Digital course,Completed,0,-,"July 20, 2026","July 20, 2026","July 20, 2026",1 hour 15 minutes,Fundamental,English
+AWS for SAP Cloud ERP Essentials,Digital course,Completed,0,-,"July 30, 2026","July 30, 2026","July 30, 2026",1 hour,Intermediate,English
 AWS Foundations: Getting Started with the AWS Cloud Essentials,Digital course,Completed,0,-,"January 20, 2026","January 20, 2026","January 20, 2026",1 hour,Fundamental,English
 AWS Foundations: How Amazon SageMaker Can Help,Digital course,Completed,0,-,"April 3, 2026","April 3, 2026","April 3, 2026",30 minutes,Fundamental,English
 AWS Foundations: Machine Learning Basics,Digital course,Completed,0,-,"February 14, 2026","February 14, 2026","February 14, 2026",30 minutes,Fundamental,English
@@ -263,10 +266,12 @@ AWS Transform for VMware Getting Started,Digital course,Completed,0,-,"March 27,
 AWS Transform Fundamentals Knowledge Badge Assessment,AWS Assessment,Completed,95,-,"April 19, 2026","April 19, 2026","April 19, 2026",1 hour,Fundamental,English
 AWS Transform Knowledge Badge Readiness Path,Learning plan,Completed,0,-,"April 19, 2026","April 19, 2026","April 19, 2026",6 hours 40 minutes,Fundamental,English
 AWS Transform MGN Getting Started,Digital course,Completed,0,-,"February 9, 2026","February 9, 2026","February 9, 2026",45 minutes,Fundamental,English
+AWS Transit Gateway - Troubleshooting,Digital course,Completed,0,-,"July 30, 2026","July 30, 2026","July 30, 2026",1 hour,Intermediate,English
 AWS Well-Architected Foundations,Digital course,Completed,100,-,"July 9, 2026","July 9, 2026","July 9, 2026",3 hours,Intermediate,English
 AWS Wickr Getting Started,Digital course,Completed,0,-,"February 27, 2026","February 27, 2026","February 27, 2026",30 minutes,Fundamental,English
 AWS X-Ray Getting Started,Digital course,Completed,0,-,"March 9, 2026","March 9, 2026","March 9, 2026",1 hour,Fundamental,English
 Block Storage Knowledge Badge Assessment,AWS Assessment,Completed,93.33333333333333,-,"June 13, 2026","June 13, 2026","June 13, 2026",1 hour 30 minutes,Intermediate,English
+Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore,Digital course,Completed,0,-,"July 30, 2026","July 30, 2026","July 30, 2026",45 minutes,Intermediate,English
 Build Strands Agents with SageMaker AI models and MLflow,Digital course,Completed,0,-,"June 29, 2026","June 29, 2026","June 29, 2026",45 minutes,Advanced,English
 Build With Amazon DocumentDB (with MongoDB compatibility),Digital course,Completed,0,-,"March 15, 2026","March 15, 2026","March 15, 2026",1 hour,Intermediate,English
 Building a Generative AI-Ready Organization,Digital course,Completed,0,-,"January 19, 2026","January 19, 2026","January 19, 2026",1 hour,Fundamental,English
@@ -361,6 +366,7 @@ Integrate Atlassian Confluence Cloud with Amazon Quick,Digital course,Completed,
 Integrating WhatsApp Business Messaging with AWS: Foundations for Developers,Digital course,Completed,0,-,"July 16, 2026","July 16, 2026","July 16, 2026",1 hour 30 minutes,Fundamental,English
 Introducing Agentic Toolkit for AWS,Digital course,Completed,0,-,"June 2, 2026","June 2, 2026","June 2, 2026",1 hour,Fundamental,English
 Introducing Intelligent Cost Explanations in AWS Cost Explorer,Digital course,Completed,0,-,"July 14, 2026","July 14, 2026","July 14, 2026",45 minutes,Fundamental,English
+Introducing OpenTelemetry and PromQL support in Amazon CloudWatch,Digital course,Completed,0,-,"July 30, 2026","July 30, 2026","July 30, 2026",45 minutes,Intermediate,English
 Introduction to AgentCore Harness,Digital course,Completed,0,-,"June 18, 2026","June 18, 2026","June 18, 2026",45 minutes,Fundamental,English
 Introduction to AI-Driven Development Lifecycle,Digital course,Completed,0,-,"March 8, 2026","March 8, 2026","March 8, 2026",15 minutes,Fundamental,English
 Introduction to Amazon API Gateway,AWS Builder Lab,Completed,100,-,"March 14, 2026","March 14, 2026","March 14, 2026",1 hour,Fundamental,English
@@ -422,6 +428,7 @@ Introduction to the Amazon Quick on desktop,Digital course,Completed,0,-,"April 
 Introduction to the AWS Cloud Adoption Framework (CAF),Digital course,Completed,0,-,"January 17, 2026","January 17, 2026","January 17, 2026",45 minutes,Fundamental,English
 Introduction to the AWS Sustainability service,Digital course,Completed,0,-,"April 22, 2026","April 22, 2026","April 22, 2026",45 minutes,Fundamental,English
 Job Roles in the Cloud,Digital course,Completed,0,-,"January 6, 2026","January 6, 2026","January 6, 2026",30 minutes,Fundamental,English
+Kick off Nova customization experiments using Nova Forge SDK,Digital course,Completed,0,-,"July 30, 2026","July 30, 2026","July 30, 2026",1 hour,Intermediate,English
 Kiro in Action: A Developer's Walkthrough,Digital course,Completed,0,-,"July 14, 2026","July 14, 2026","July 14, 2026",45 minutes,Fundamental,English
 Lab - Introduction to Amazon DynamoDB,AWS Builder Lab,Completed,100,-,"March 13, 2026","March 13, 2026","March 13, 2026",45 minutes,Fundamental,English
 Machine Learning Essentials for Business and Technical Decision Makers,Digital course,Completed,0,-,"March 21, 2026","March 21, 2026","March 21, 2026",1 hour 30 minutes,Fundamental,English
@@ -437,6 +444,7 @@ Network Load Balancer (NLB) Getting Started,Digital course,Completed,0,-,"April 
 Networking Core Knowledge Badge Assessment,Digital course,Completed,98.33333333333333,-,"June 6, 2026","June 6, 2026","June 6, 2026",1 hour 30 minutes,Intermediate,English
 Object Storage Knowledge Badge Assessment,AWS Assessment,Completed,87.5,-,"June 9, 2026","June 9, 2026","June 9, 2026",1 hour 30 minutes,Intermediate,English
 Optimizing Foundation Models,Digital course,Completed,0,-,"April 30, 2026","April 30, 2026","April 30, 2026",1 hour,Fundamental,English
+Penetration Testing for Everyone: Autonomous Security with AWS Security Agent,Digital course,Completed,0,-,"July 30, 2026","July 30, 2026","July 30, 2026",1 hour,Intermediate,English
 Performance Tuning on Amazon DocumentDB,Digital course,Completed,0,-,"March 15, 2026","March 15, 2026","March 15, 2026",1 hour,Advanced,English
 Performing a Basic Audit of your AWS Environment,AWS Builder Lab,Completed,100,-,"March 13, 2026","March 13, 2026","March 13, 2026",1 hour,Fundamental,English
 Planning a Generative AI Project,Digital course,Completed,0,-,"January 15, 2026","January 15, 2026","January 15, 2026",1 hour,Fundamental,English
@@ -467,5 +475,6 @@ Understanding Amazon EBS Volume Encryption,Digital course,Completed,0,-,"April 2
 Understanding AWS Networking Gateways,Digital course,Completed,0,-,"April 3, 2026","April 3, 2026","April 3, 2026",30 minutes,Fundamental,English
 Understanding Placement Groups,Digital course,Completed,0,-,"April 21, 2026","April 21, 2026","April 21, 2026",10 minutes,Fundamental,English
 Using AWS Solutions: AWS Cloud Migration Factory,Digital course,Completed,0,-,"July 20, 2026","July 20, 2026","July 20, 2026",1 hour 30 minutes,Fundamental,English
+VectorDB vs GraphDB for Gen AI Agents,Digital course,Completed,0,-,"July 30, 2026","July 30, 2026","July 30, 2026",1 hour,Intermediate,English
 Video Streaming Concepts: AWS Media Services,Digital course,Completed,100,-,"April 2, 2026","April 2, 2026","April 2, 2026",1 hour,Fundamental,English
 Web Search on Amazon Bedrock AgentCore,Digital course,Completed,0,-,"June 18, 2026","June 18, 2026","June 18, 2026",1 hour,Fundamental,English
