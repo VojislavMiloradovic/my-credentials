@@ -4,16 +4,16 @@ This directory provides chunked, AI-readable historical records for Google Devel
 
 ## Archive Overview
 
-- **Total Public Badges:** 170
+- **Total Public Badges:** 171
 - **Total Detailed Activities:** 1438
-- **Monolithic File Size:** ~228.29 KB (~58,443 tokens)
+- **Monolithic File Size:** ~228.4 KB (~58,470 tokens)
 - **Total Chunk Parts:** 26 chunk(s) (3 badges, 23 activities)
 
 ### Monolithic Archive (Complete)
 
 | File Name | Size (KB) | Est. Tokens | Recommended For | Direct Raw URL |
 | :--- | :---: | :---: | :--- | :--- |
-| [`google-developer-complete.md`](./google-developer-complete.md) | 228.29 KB | ~58,443 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md) |
+| [`google-developer-complete.md`](./google-developer-complete.md) | 228.4 KB | ~58,470 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md) |
 
 ### Milestone & Pathway Badges Chunks (3 parts)
 
@@ -21,7 +21,7 @@ This directory provides chunked, AI-readable historical records for Google Devel
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
 | Part 01 | [`google-developer-badges-2026-07-part-01.md`](./google-developer-badges-2026-07-part-01.md) | `2026-06-05 to 2026-06-05` | 66 | 9.97 KB | ~2551 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-07-part-01.md) |
 | Part 02 | [`google-developer-badges-2026-07-part-02.md`](./google-developer-badges-2026-07-part-02.md) | `2026-06-05 to 2026-06-05` | 67 | 10.22 KB | ~2616 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-07-part-02.md) |
-| Part 03 | [`google-developer-badges-2026-07-part-03.md`](./google-developer-badges-2026-07-part-03.md) | `2026-06-05 to 2026-06-05` | 37 | 5.78 KB | ~1479 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-07-part-03.md) |
+| Part 03 | [`google-developer-badges-2026-07-part-03.md`](./google-developer-badges-2026-07-part-03.md) | `2026-06-05 to 2026-06-05` | 38 | 5.89 KB | ~1506 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-07-part-03.md) |
 
 ### Detailed Learning Activities & Codelabs Chunks (23 parts)
 

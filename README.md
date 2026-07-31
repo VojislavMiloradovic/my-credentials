@@ -176,7 +176,7 @@ Showing latest 10 items. View the full dataset via the [Platform Archive Index](
 #### Platform Progress
 | Metric | Count |
 | :--- | :--- |
-| **Total Milestones & Milestone Badges** | 170 |
+| **Total Milestones & Milestone Badges** | 171 |
 | **Total Codelabs & Learning Activities** | 1,438 |
 
 

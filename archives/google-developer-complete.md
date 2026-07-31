@@ -3,7 +3,7 @@
 Historical verified record tracking all achievements.
 
 
-## Milestone & Pathway Badges (170)
+## Milestone & Pathway Badges (171)
 
 | Date Earned | Badge Title | Description |
 | :---: | :--- | :--- |
@@ -160,6 +160,7 @@ Historical verified record tracking all achievements.
 | 2026-06-05 | **Android Basics Compose Unit 1 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 1 pathway 2). |
 | 2026-06-05 | **Get To Know Cloud Firestore** | Official Google Developer platform achievement (Learning Pathway: get_to_know_cloud_firestore). |
 | 2026-06-05 | **Get Started Gmp Ios** | Official Google Developer platform achievement (Learning Pathway: get_started_gmp_ios). |
+| 2026-06-05 | **Agent Intro** | Official Google Developer platform achievement (Community: agent intro). |
 | 2026-06-05 | **Firebase Extensions Gemini** | Official Google Developer platform achievement (Learning Pathway: firebase extensions gemini). |
 | 2026-06-05 | **Womens Online Safety** | Official Google Developer platform achievement (Learning Pathway: womens online safety). |
 | 2026-06-05 | **Android Development With Kotlin 5** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 5). |
