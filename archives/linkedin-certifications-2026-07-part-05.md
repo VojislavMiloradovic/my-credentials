@@ -12,6 +12,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **data.world Steward Certification** | data.world | [Verify Record](https://www.credly.com/badges/cf76fba1-5658-4a88-9c91-84a057fcdd7b/linked_in_profile) |
+| 2026-07 | **data.world End User Certification** | data.world | [Verify Record](https://www.credly.com/badges/d521cb54-db11-4d81-b284-d7d231b20e87/linked_in_profile) |
+| 2026-07 | **data.world Foundations** | data.world | [Verify Record](https://www.credly.com/badges/3476c45c-4176-49ad-9051-123760a950ff/linked_in_profile) |
+| 2026-07 | **Foundations of Operationalizing MITRE ATT&CK v13** | AttackIQ | [Verify Record](https://www.credly.com/badges/e9bc6726-6c10-4a41-a8dd-a10398dec90f/linked_in_profile) |
+| 2026-07 | **Navigate the Celonis Studio** | Celonis | [Verify Record](https://www.credly.com/badges/f61a2862-8623-4198-86f9-a8817a002424/linked_in_profile) |
+| 2026-07 | **Cloud Sales Associate Advanced Data Loss Prevention** | Acronis | [Verify Record](https://www.credly.com/badges/bd93bca0-6c3e-42d1-a6d1-8e9664e4c079/linked_in_profile) |
+| 2026-07 | **AWS SimuLearn - Cloud Practitioner - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/aa421d7a-9775-4459-8d87-e4d986e3b999/linked_in_profile) |
+| 2026-07 | **Safe Spaces** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25377679?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-07 | **Optimize Costs for Google Kubernetes Engine Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/d67f5f9f-c9c7-4c0a-a241-1bcb73da59ab/linked_in_profile) |
+| 2026-07 | **Leading the Shift: Your proprietary data is your competitive advantage \| Accenture** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/615cfed82d9eae98a7c3ad1053267b988271bc8ac138a3fc13f9b8d435222b80) |
+| 2026-07 | **A Standalone Project: Create a Phishing Website Detection System to Identify Fraudulent Sites** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/837c0d7f10a85044b802f22ddb748438508314717e2b3fcfc2a135e2a22c2ee6) |
+| 2026-07 | **A Standalone Project: Build a Network Packet Sniffer to Detect Vulnerabilities or Attacks** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b0a13e3b632084c502daf6987083cd8dd9639246c1fca14aac0b96bcd8496905) |
 | 2026-07 | **David Lesperance Digital Environment Design** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/997f23a81a2239a82ed3c890a22e8680f27c7e0da4562304d3129e6507f90640) |
 | 2026-07 | **Nano Tips to Accelerate Your Goals with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6d3035321a78d8948502c0ea296d31ec6af3cbadd63ec1517598a5594c6229b4) |
 | 2026-07 | **Nano Tips for Managing Gen Z with Watchen Nyanue** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1bb09119768fbedff4e2c18886031c1882866d3df2b42c3d7f86596efe1e95dc) |
@@ -48,18 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Process Automation Concepts** | Celonis | [Verify Record](https://www.credly.com/badges/da7e7652-ed54-4938-b484-e509978ae444/linked_in_profile) |
 | 2026-07 | **Use and Interpret Views** | Celonis | [Verify Record](https://www.credly.com/badges/98c3a33b-f27a-4850-84b1-dd59f013f830/linked_in_profile) |
 | 2026-07 | **Manage Change and Scale Adoption** | Celonis | [Verify Record](https://www.credly.com/badges/06895ebe-457b-40c8-8c8d-336b96da8ac4/linked_in_profile) |
-| 2026-07 | **Process Mining Audit Professional** | Celonis | [Verify Record](https://www.credly.com/badges/f2f7155c-98d7-40ee-8c4d-6a6fd43667ab/linked_in_profile) |
-| 2026-07 | **Cloud Sales Associate Advanced Management** | Acronis | [Verify Record](https://www.credly.com/badges/7a16d6a7-7f4a-43e0-8ddb-fbcb300a8822/linked_in_profile) |
-| 2026-07 | **AWS SimuLearn - AI Practitioner - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/bf88d187-0e8f-44cc-bec9-7e9e69115951/linked_in_profile) |
-| 2026-07 | **Sales: Closing Strategies** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cd362b6eff391caba747ac2701fea093f48bfa00b7c8fe0f7747216a47cb56cb) |
-| 2026-07 | **Talent Development for Managers** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/51648d6e28c75b4178eac3c9ec4c23f5085fe5714c6313d472f8ad7c0dea7a39) |
-| 2026-07 | **Build Infrastructure with Terraform on Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/35059bf2-e867-46eb-95b6-5ef733207698/linked_in_profile) |
-| 2026-07 | **Secrets to Nailing Job Interviews with Matt Abrahams** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e171adb0ce5844e5bdcd13d4aaccda2daf086d21be2149c7fb70068de26c86fd) |
-| 2026-07 | **Fred Kofman on Making Commitments** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/07e5fa530e36629710c81a39465595a2c9be0deef59387f40d1161c6cfc8a532) |
-| 2026-07 | **What No One Tells You About Career Fulfillment with Arthur Brooks** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4834d75ed3d5357cdd27b33358126e27377391196d7cf579f8d4177b540e9b9e) |
-| 2026-07 | **Malcolm Gladwell on How to Build Influence to Drive Forward Great Ideas** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c18c5262731ae24d2e7b9844b419f9e1ebd3f3dcf371a4255b835e423c4a4e52) |
-| 2026-07 | **Building AI Competencies in Business Development Teams** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/de853768f46230dd7d9778b833c4ccf3474740922f3a61a7cb8996ff2bd8818d) |
-| 2026-07 | **Nano Tips to Uncover Your Strengths with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/67b9a4452f9a8a03e1164b157d96ead378b836b40e29c55242dc0aa17d6d578d) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-04.md](linkedin-certifications-2026-07-part-04.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-06.md](linkedin-certifications-2026-07-part-06.md)

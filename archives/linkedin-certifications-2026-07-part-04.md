@@ -12,6 +12,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **A Content Marketer's Guide to Responsible AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ae2228d479f6f5c04932d19e205474f8e83a57b644a937ee4454a36972fec895) |
+| 2026-07 | **Create LinkedIn Posts that Stand Out with Jamé Jackson** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a3948da7bb21e6ab68c1b0968ecffd55bac5349c7b90620d28c2f8e6a9827364) |
+| 2026-07 | **Make Intermediate** | Make | [Verify Record](https://www.credly.com/badges/e0e50130-c575-43db-8cee-0e89a09f6f86/linked_in_profile) |
+| 2026-07 | **Project Management Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/435480c74c4f11f6e9dab92510b90aaa2fcd816449bda50f48e8da1d2aca538a) |
+| 2026-07 | **Foundations of Breach & Attack Simulation** | AttackIQ | [Verify Record](https://www.credly.com/badges/2df6ac75-abd5-4cdb-85ef-eb44b383b890/linked_in_profile) |
+| 2026-07 | **Guided Lab: Reasoning Agents with DeepSeek and GitHub Models** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b534fd75bbab39bec8d7cc02bc492047298bccd928911a7fbc7f72b84ee0f4ab) |
+| 2026-07 | **AI Solutions and Techniques for Help Desk Operations** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3dea35f0305329deccfce503ca4549e3da4f3cbd4ffb1ec61fa89c685c63bf04) |
+| 2026-07 | **What to Post on LinkedIn in 2026 with Yrbenka Arthus and Sarah Ohlson** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d145948e55e180d2aa7a621d365cab4ba9cc02f7312bbb40886931e03eabd1f2) |
+| 2026-07 | **Techniques for Strategic Business Analysis** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1ca8db315e3ce050e0a83e04aba62887797f79eb353fadb62f702d77c358397e) |
+| 2026-07 | **Satya Nadella and Rishi Sunak on What Comes Next for AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c6748c33687855602f4cc4c831d37938066cf95e5e2336291260ab2547fe7fc6) |
+| 2026-07 | **ChatGPT Prompts for Small Businesses** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/26454d15a433fb2ab2ee4e91c5441b779f264998ab03e89a77965b5c138475d1) |
+| 2026-07 | **Guided Lab: Project Management Application with Lovable AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/49d5ce14b5d6505b87c1c998b95ec9c3a824c1a2eb905335a228fc7299e74896) |
 | 2026-07 | **A Standalone Project: Build a Program to Encrypt and Decrypt Text Messages Using an Encryption Algorithm to Protect Data from Unauthorized Access** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/11d17ff8a6cf0fd554b1f2751dda6f2cfe078cfb652dae1106e831e45d3ef935) |
 | 2026-07 | **Build a Data Warehouse with BigQuery Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/58efd57f-8763-430e-9c85-9ae21b4be53c/linked_in_profile) |
 | 2026-07 | **A Standalone Project: Create a Model Using NLP to Detect Whether a Given News is Real or Fake** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6c3cbefad5cc9b3621eb9dcabc7ce7c7c9cc1032dbe76260d7f9a3f0b2aff4c0) |
@@ -44,18 +56,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **AI Foundations for the Skilled Trades: Getting Started with Generative AI and Microsoft Copilot by Microsoft and NABTU** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3bb01e4abdfddc1fe3ef6ba98d8014b2fe91e39d6e4ffba831a695802c0b3262) |
 | 2026-07 | **AWS Educate Introduction to Generative AI - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/126fcf1c-a7ce-4076-bfb5-8841cd2aac83/linked_in_profile) |
 | 2026-07 | **data.world Admin Certification** | data.world | [Verify Record](https://www.credly.com/badges/fa194f5e-7087-4936-ba7b-043ed46f68ac/linked_in_profile) |
-| 2026-07 | **data.world Steward Certification** | data.world | [Verify Record](https://www.credly.com/badges/cf76fba1-5658-4a88-9c91-84a057fcdd7b/linked_in_profile) |
-| 2026-07 | **data.world End User Certification** | data.world | [Verify Record](https://www.credly.com/badges/d521cb54-db11-4d81-b284-d7d231b20e87/linked_in_profile) |
-| 2026-07 | **data.world Foundations** | data.world | [Verify Record](https://www.credly.com/badges/3476c45c-4176-49ad-9051-123760a950ff/linked_in_profile) |
-| 2026-07 | **Foundations of Operationalizing MITRE ATT&CK v13** | AttackIQ | [Verify Record](https://www.credly.com/badges/e9bc6726-6c10-4a41-a8dd-a10398dec90f/linked_in_profile) |
-| 2026-07 | **Navigate the Celonis Studio** | Celonis | [Verify Record](https://www.credly.com/badges/f61a2862-8623-4198-86f9-a8817a002424/linked_in_profile) |
-| 2026-07 | **Cloud Sales Associate Advanced Data Loss Prevention** | Acronis | [Verify Record](https://www.credly.com/badges/bd93bca0-6c3e-42d1-a6d1-8e9664e4c079/linked_in_profile) |
-| 2026-07 | **AWS SimuLearn - Cloud Practitioner - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/aa421d7a-9775-4459-8d87-e4d986e3b999/linked_in_profile) |
-| 2026-07 | **Safe Spaces** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25377679?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Optimize Costs for Google Kubernetes Engine Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/d67f5f9f-c9c7-4c0a-a241-1bcb73da59ab/linked_in_profile) |
-| 2026-07 | **Leading the Shift: Your proprietary data is your competitive advantage \| Accenture** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/615cfed82d9eae98a7c3ad1053267b988271bc8ac138a3fc13f9b8d435222b80) |
-| 2026-07 | **A Standalone Project: Create a Phishing Website Detection System to Identify Fraudulent Sites** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/837c0d7f10a85044b802f22ddb748438508314717e2b3fcfc2a135e2a22c2ee6) |
-| 2026-07 | **A Standalone Project: Build a Network Packet Sniffer to Detect Vulnerabilities or Attacks** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b0a13e3b632084c502daf6987083cd8dd9639246c1fca14aac0b96bcd8496905) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-03.md](linkedin-certifications-2026-07-part-03.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-05.md](linkedin-certifications-2026-07-part-05.md)

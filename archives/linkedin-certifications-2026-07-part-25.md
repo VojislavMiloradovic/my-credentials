@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 25 of 29
 date_range: 2025-12 to 2026-03
-total_entries: 40
+total_entries: 42
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-25.md
 ---
 
@@ -12,6 +12,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-03 | **Build a Certification Study Guide: PMLE** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22568934?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-03 | **Serverless Data Processing with Dataflow: Develop Pipelines** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22543230?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-03 | **Serverless Data Processing with Dataflow: Foundations** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22543145?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-03 | **What Is Generative AI?** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2004c711ab3acf5357eeb3306378f06aa8a591232f4984a4730d786670b381d7) |
+| 2026-03 | **Ethics in the Age of Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/81172a2f26ee5028965fae175cd98c07a750b0b0d5f6b30cd42abd8f9d950c5f) |
+| 2026-03 | **Conversion Optimization Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/3c4afa84-5637-4c3b-b3fc-6e6c26e48d35) |
+| 2026-03 | **Human Skills in the Age of AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4) |
+| 2026-03 | **Grow Offline Sales Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/2d2774cb-bf2e-47c5-a286-86de5cc1bcd8) |
+| 2026-03 | **Microsoft Applied Skills: Generate reports with AI research agents** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/ABC20116B56C7F9F?sharingId) |
+| 2026-03 | **Search Ads 360 Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/5b477ad2-43c6-4789-af30-137f9f87f4c6) |
+| 2026-03 | **Google Ads Apps Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/2d3974a2-6a69-4b66-8886-350d7b1626d5) |
+| 2026-03 | **Microsoft Applied Skills: Get started with identities and access using Microsoft Entra** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/27BB90F5B956E0C8?sharingId) |
 | 2026-03 | **Google Ads Measurement Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/3eec0163-8804-4d17-bde0-d08e6c76d74c) |
 | 2026-03 | **AI for Organizational Leaders by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/e35be3b2c6052400135ef163eef7b3a03e9d18314590151a7a4ef52a7ae77702) |
 | 2026-03 | **Microsoft Applied Skills: Get started with Azure management tasks** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B7C5DF765FB52CEA?sharingId) |
@@ -42,16 +54,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-12 | **Machine Learning Operations (MLOps) for Generative AI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21284707?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **Hybrid Cloud Infrastructure Foundations with Anthos** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21284642?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **Preparing for your Professional Data Engineer Journey** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264999?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **Managing and Securing the Apigee Hybrid API Platform** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264510?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **Preparing for Your Professional Cloud Security Engineer Journey** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264288?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **Upgrading and Monitoring the Apigee Hybrid API Platform** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21236729?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **Build a Certification Study Guide: ACE Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21236644?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **Developing a Google SRE Culture** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21236306?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **Managing Change when Moving to Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21211997?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **Deploying SAP on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21211911?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **The Modern Data Platform and LookML** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21186579?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **Introduction to Cloud Identity** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21186399?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **AppSheet Administration** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21164355?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-24.md](linkedin-certifications-2026-07-part-24.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-26.md](linkedin-certifications-2026-07-part-26.md)
