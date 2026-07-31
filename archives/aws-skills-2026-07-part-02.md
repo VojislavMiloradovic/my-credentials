@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 2 of 5
-date_range: 2026-04-15 to 2026-06-24
-total_entries: 101
+date_range: 2026-04-18 to 2026-06-26
+total_entries: 100
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-02.md
 ---
 
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Making Better Decisions with Data for Small Business Owners | Digital Course | 2026-06-26 | 9 minutes |
+| Media & Entertainment: Direct-to-Consumer and Broadcast Foundations Knowledge Badge Assessment | Digital Course | 2026-06-26 | 1 hour 30 minutes |
+| [RETIRING - 2026-08-05] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases | Digital Course | 2026-06-24 | 1 hour |
+| Amazon WorkSpaces Migrations - Horizon on WorkSpaces Core | Digital Course | 2026-06-24 | 1 hour |
 | Amazon WorkSpaces Migrations — Additional Partner Offerings on WorkSpaces Core | Digital Course | 2026-06-24 | 1 hour |
 | Data Protection and Disaster Recovery Knowledge Badge Assessment | Digital Course | 2026-06-24 | 1 hour 30 minutes |
 | AI Driven Development Lifecycle Knowledge Badge Assessment | Aws Assessment | 2026-06-22 | 1 hour |
@@ -108,11 +112,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | AWS Transform Knowledge Badge Readiness Path | Learning Plan | 2026-04-19 | 6 hours 40 minutes |
 | Amazon FSx for NetApp ONTAP Primer | Digital Course | 2026-04-18 | 1 hour 15 minutes |
 | Introduction to AWS Application Migration Service | Digital Course | 2026-04-18 | 2 hours |
-| [RETIRING - 2026-08-04] Amazon Kendra Getting Started | Digital Course | 2026-04-17 | 1 hour 30 minutes |
-| Amazon Bio Discovery: In silico  Experimentation for Drug Discovery | Digital Course | 2026-04-16 | 1 hour |
-| AWS Interconnect - last mile Connectivity Essentials | Digital Course | 2026-04-16 | 45 minutes |
-| AWS Interconnect - multicloud Connectivity Essentials | Digital Course | 2026-04-16 | 1 hour |
-| AWS Cloud Practitioner Essentials | Digital Course | 2026-04-15 | 12 hours 45 minutes |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-01.md](aws-skills-2026-07-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-03.md](aws-skills-2026-07-part-03.md)

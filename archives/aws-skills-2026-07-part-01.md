@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 1 of 5
-date_range: 2026-06-24 to 2026-07-30
-total_entries: 100
+date_range: 2026-06-26 to 2026-07-31
+total_entries: 101
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md
 ---
 
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Amazon Elastic File System (Amazon EFS) Primer | Digital Course | 2026-07-31 | 30 minutes |
+| Amazon Route 53 - Basics | Digital Course | 2026-07-31 | 1 hour |
+| AWS Database Migration Service Overview | Digital Course | 2026-07-31 | 45 minutes |
+| Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore | Digital Course | 2026-07-31 | 45 minutes |
+| The Associate Cert Playbook: Your 12 month plan for all 5 Associate Certs | Digital Course | 2026-07-31 | 1 hour |
 | Amazon Connect AI Self-Service Capabilities | Digital Course | 2026-07-30 | 1 hour |
 | Amazon Connect Flow Modules and Step-by-Step Guides | Digital Course | 2026-07-30 | 1 hour |
 | AWS for SAP Cloud ERP Essentials | Digital Course | 2026-07-30 | 1 hour |
@@ -108,10 +113,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Migration Foundations Knowledge Badge Assessment | Digital Course | 2026-06-27 | 1 hour 30 minutes |
 | AWS Observability | Digital Course | 2026-06-26 | 5 hours |
 | Introduction to AWS Solutions | Digital Course | 2026-06-26 | 45 minutes |
-| Making Better Decisions with Data for Small Business Owners | Digital Course | 2026-06-26 | 9 minutes |
-| Media & Entertainment: Direct-to-Consumer and Broadcast Foundations Knowledge Badge Assessment | Digital Course | 2026-06-26 | 1 hour 30 minutes |
-| [RETIRING - 2026-08-05] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases | Digital Course | 2026-06-24 | 1 hour |
-| Amazon WorkSpaces Migrations - Horizon on WorkSpaces Core | Digital Course | 2026-06-24 | 1 hour |
 
 ---
 > **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md)

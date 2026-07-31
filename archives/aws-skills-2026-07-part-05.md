@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 5 of 5
-date_range: 2026-01-06 to 2026-02-23
-total_entries: 61
+date_range: 2026-01-06 to 2026-02-25
+total_entries: 67
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-05.md
 ---
 
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| AWS Identity and Access Management - Cognito Getting Started | Digital Course | 2026-02-25 | 1 hour |
+| AWS Transfer Family Getting Started | Digital Course | 2026-02-25 | 1 hour |
+| AWS Transform for .NET Getting Started | Digital Course | 2026-02-25 | 1 hour |
+| Explore the value and benefits of SAP Cloud ERP on AWS | Digital Course | 2026-02-25 | 1 hour |
+| Generative BI with Amazon Q in Quicksight - Getting Started | Digital Course | 2026-02-25 | 1 hour |
+| Introduction to Esri on AWS | Digital Course | 2026-02-25 | 1 hour |
 | Compute Cost Optimization Services | Digital Course | 2026-02-23 | 30 minutes |
 | Getting Started with Amazon Augmented AI | Digital Course | 2026-02-23 | 1 hour |
 | [RETIRED] Use MCP to create AI Agents | Digital Course | 2026-02-18 | 27 minutes |

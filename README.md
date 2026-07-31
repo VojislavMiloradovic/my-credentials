@@ -84,7 +84,7 @@ Showing latest 10 of 4,780 achievements. View the full dataset via the [Platform
 
 <!-- AWS_SKILLS_START -->
 ### AWS Skill Builder Summary
-- **Total Completed Courses/Activities:** 475
+- **Total Completed Courses/Activities:** 480
 
 ### AWS Cloud Quest Status
 - **Role:** Cloud Practitioner / Generative AI Practitioner
@@ -93,18 +93,18 @@ Showing latest 10 of 4,780 achievements. View the full dataset via the [Platform
 - **Pets Unlocked:** 17 | **Vehicles Unlocked:** 2
 
 ### Recent AWS Learning Activities
-Showing latest 10 of 475 activities. View the full dataset via the [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md), or the [Monolithic Complete File](./archives/aws-skills-complete.md).
+Showing latest 10 of 480 activities. View the full dataset via the [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md), or the [Monolithic Complete File](./archives/aws-skills-complete.md).
 
+- **Amazon Elastic File System (Amazon EFS) Primer** (Digital Course | Earned: 2026-07-31)
+- **Amazon Route 53 - Basics** (Digital Course | Earned: 2026-07-31)
+- **AWS Database Migration Service Overview** (Digital Course | Earned: 2026-07-31)
+- **Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore** (Digital Course | Earned: 2026-07-31)
+- **The Associate Cert Playbook: Your 12 month plan for all 5 Associate Certs** (Digital Course | Earned: 2026-07-31)
 - **Amazon Connect AI Self-Service Capabilities** (Digital Course | Earned: 2026-07-30)
 - **Amazon Connect Flow Modules and Step-by-Step Guides** (Digital Course | Earned: 2026-07-30)
 - **AWS for SAP Cloud ERP Essentials** (Digital Course | Earned: 2026-07-30)
 - **AWS Transit Gateway - Troubleshooting** (Digital Course | Earned: 2026-07-30)
 - **Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore** (Digital Course | Earned: 2026-07-30)
-- **Introducing OpenTelemetry and PromQL support in Amazon CloudWatch** (Digital Course | Earned: 2026-07-30)
-- **Kick off Nova customization experiments using Nova Forge SDK** (Digital Course | Earned: 2026-07-30)
-- **Penetration Testing for Everyone: Autonomous Security with AWS Security Agent** (Digital Course | Earned: 2026-07-30)
-- **VectorDB vs GraphDB for Gen AI Agents** (Digital Course | Earned: 2026-07-30)
-- **Accelerate Generative AI Inference on Amazon SageMaker AI with G7e Instances** (Digital Course | Earned: 2026-07-28)
 <!-- AWS_SKILLS_END -->
 
 

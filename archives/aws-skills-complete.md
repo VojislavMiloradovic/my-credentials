@@ -1,11 +1,16 @@
 # Complete AWS Skill Builder Archive
 
-This document represents a unified, verifiable list of all 475 records.
+This document represents a unified, verifiable list of all 480 records.
 
 ## Verified Records Archive
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Amazon Elastic File System (Amazon EFS) Primer | Digital Course | 2026-07-31 | 30 minutes |
+| Amazon Route 53 - Basics | Digital Course | 2026-07-31 | 1 hour |
+| AWS Database Migration Service Overview | Digital Course | 2026-07-31 | 45 minutes |
+| Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore | Digital Course | 2026-07-31 | 45 minutes |
+| The Associate Cert Playbook: Your 12 month plan for all 5 Associate Certs | Digital Course | 2026-07-31 | 1 hour |
 | Amazon Connect AI Self-Service Capabilities | Digital Course | 2026-07-30 | 1 hour |
 | Amazon Connect Flow Modules and Step-by-Step Guides | Digital Course | 2026-07-30 | 1 hour |
 | AWS for SAP Cloud ERP Essentials | Digital Course | 2026-07-30 | 1 hour |

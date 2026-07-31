@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| AWS CloudFormation Getting Started | Digital Course | 2026-03-15 | 1 hour |
+| AWS Organizations Getting Started | Digital Course | 2026-03-15 | 1 hour |
+| AWS Secrets Manager Getting Started | Digital Course | 2026-03-15 | 1 hour |
+| Build With Amazon DocumentDB (with MongoDB compatibility) | Digital Course | 2026-03-15 | 1 hour |
+| Fundamentals of Amazon Aurora | Digital Course | 2026-03-15 | 1 hour |
+| Introduction to Amazon Connect and the Connect Control Panel (CCP) | Digital Course | 2026-03-15 | 45 minutes |
 | Performance Tuning on Amazon DocumentDB | Digital Course | 2026-03-15 | 1 hour |
 | Spec-Driven Development with Kiro | Digital Course | 2026-03-15 | 1 hour |
 | [RETIRED] Introduction to AWS Global Accelerator | Digital Course | 2026-03-14 | 8 minutes |
@@ -117,12 +123,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Amazon RDS for MariaDB Getting Started | Digital Course | 2026-02-25 | 1 hour |
 | Amazon Redshift Getting Started | Digital Course | 2026-02-25 | 1 hour |
 | AWS Database Migration Service (AWS DMS) Getting Started | Digital Course | 2026-02-25 | 1 hour |
-| AWS Identity and Access Management - Cognito Getting Started | Digital Course | 2026-02-25 | 1 hour |
-| AWS Transfer Family Getting Started | Digital Course | 2026-02-25 | 1 hour |
-| AWS Transform for .NET Getting Started | Digital Course | 2026-02-25 | 1 hour |
-| Explore the value and benefits of SAP Cloud ERP on AWS | Digital Course | 2026-02-25 | 1 hour |
-| Generative BI with Amazon Q in Quicksight - Getting Started | Digital Course | 2026-02-25 | 1 hour |
-| Introduction to Esri on AWS | Digital Course | 2026-02-25 | 1 hour |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-03.md](aws-skills-2026-07-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-05.md](aws-skills-2026-07-part-05.md)

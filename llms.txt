@@ -1,6 +1,6 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-07-31 11:16 UTC
+> **Last Generated:** 2026-07-31 12:04 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Platform Master Indexes
@@ -16,7 +16,7 @@ Use these index files to navigate chunked historical records without exceeding c
 ## Complete Monolithic Datasets
 Recommended for models with large context windows (>100k tokens).
 
-- [Aws Skills Complete](./archives/aws-skills-complete.md): Full dataset (~42.9 KB, ~10,978 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
+- [Aws Skills Complete](./archives/aws-skills-complete.md): Full dataset (~43.4 KB, ~11,105 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
 - [Credly Badges Complete](./archives/credly-badges-complete.md): Full dataset (~82.53 KB, ~21,120 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-complete.md
 - [Google Cloud Skills Complete](./archives/google-cloud-skills-complete.md): Full dataset (~21.71 KB, ~5,555 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-complete.md
 - [Google Developer Complete](./archives/google-developer-complete.md): Full dataset (~228.4 KB, ~58,446 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md

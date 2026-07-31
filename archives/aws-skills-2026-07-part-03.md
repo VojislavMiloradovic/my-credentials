@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 3 of 5
-date_range: 2026-03-15 to 2026-04-15
-total_entries: 102
+date_range: 2026-03-15 to 2026-04-17
+total_entries: 101
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-03.md
 ---
 
@@ -12,6 +12,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| [RETIRING - 2026-08-04] Amazon Kendra Getting Started | Digital Course | 2026-04-17 | 1 hour 30 minutes |
+| Amazon Bio Discovery: In silico  Experimentation for Drug Discovery | Digital Course | 2026-04-16 | 1 hour |
+| AWS Interconnect - last mile Connectivity Essentials | Digital Course | 2026-04-16 | 45 minutes |
+| AWS Interconnect - multicloud Connectivity Essentials | Digital Course | 2026-04-16 | 1 hour |
+| AWS Cloud Practitioner Essentials | Digital Course | 2026-04-15 | 12 hours 45 minutes |
 | Cloud Essentials - Knowledge Badge Readiness Path  (includes Labs) | Learning Plan | 2026-04-15 | 21 hours 55 minutes |
 | Cloud Essentials Knowledge Badge Assessment | Digital Course | 2026-04-15 | 1 hour 30 minutes |
 | [RETIRING - 2026-08-03] AWS Panorama - Building Edge Computer Vision (CV) Applications | Digital Course | 2026-04-14 | 1 hour 30 minutes |
@@ -108,12 +113,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Amazon Connect: Implementing Chat in Connect | Digital Course | 2026-03-15 | 1 hour |
 | Amazon EKS Deployment Options | Digital Course | 2026-03-15 | 35 minutes |
 | Amazon RDS for Oracle Getting Started | Digital Course | 2026-03-15 | 1 hour |
-| AWS CloudFormation Getting Started | Digital Course | 2026-03-15 | 1 hour |
-| AWS Organizations Getting Started | Digital Course | 2026-03-15 | 1 hour |
-| AWS Secrets Manager Getting Started | Digital Course | 2026-03-15 | 1 hour |
-| Build With Amazon DocumentDB (with MongoDB compatibility) | Digital Course | 2026-03-15 | 1 hour |
-| Fundamentals of Amazon Aurora | Digital Course | 2026-03-15 | 1 hour |
-| Introduction to Amazon Connect and the Connect Control Panel (CCP) | Digital Course | 2026-03-15 | 45 minutes |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-04.md](aws-skills-2026-07-part-04.md)
