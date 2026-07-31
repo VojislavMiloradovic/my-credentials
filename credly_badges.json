@@ -1663,8 +1663,8 @@
     },
     {
       "id": "b4e44a5b-2f20-4388-91fa-0e84a1dff433",
-      "title": "From Relational Model (SQL) to MongoDB's Document Model",
-      "name": "From Relational Model (SQL) to MongoDB's Document Model",
+      "title": "From Relational Model (SQL) to MongoDBs Document Model",
+      "name": "From Relational Model (SQL) to MongoDBs Document Model",
       "issuer": "MongoDB",
       "issuer_name": "MongoDB",
       "issued_at": "2026-07-14",
@@ -9106,6 +9106,30 @@
       ]
     },
     {
+      "id": "b3b2f64b-ab63-44f6-b6c3-228ce710bcd5",
+      "title": "Agent Observability Metrics & Traces Learning Path",
+      "name": "Agent Observability Metrics & Traces Learning Path",
+      "issuer": "Datadog",
+      "issuer_name": "Datadog",
+      "issued_at": "2026-05-06",
+      "issued_at_date": "2026-05-06",
+      "date": "2026-05-06",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/7563e0eb-86c1-432b-a65b-f06de439f198/blob",
+      "verify_url": "https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/public_url",
+      "url": "https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "Agent Observability",
+        "AI Observability",
+        "Artificial Intelligence (AI)",
+        "Artificial Intelligence Applications",
+        "Datadog",
+        "Large Language Models (LLMs)"
+      ]
+    },
+    {
       "id": "65342bd4-19df-45dc-9b32-f68a21c5be0d",
       "title": "Agents & Agentic AI Fundamentals",
       "name": "Agents & Agentic AI Fundamentals",
@@ -9256,30 +9280,6 @@
         "Identity And Access Management",
         "Okta Customer Identity Cloud",
         "Okta Workforce Identity Cloud"
-      ]
-    },
-    {
-      "id": "b3b2f64b-ab63-44f6-b6c3-228ce710bcd5",
-      "title": "LLM Observability Metrics & Traces Learning Path",
-      "name": "LLM Observability Metrics & Traces Learning Path",
-      "issuer": "Datadog",
-      "issuer_name": "Datadog",
-      "issued_at": "2026-05-06",
-      "issued_at_date": "2026-05-06",
-      "date": "2026-05-06",
-      "expires_at": null,
-      "image_url": "https://images.credly.com/images/295c0179-7b24-4adc-ac0a-7845d67777bb/blob",
-      "verify_url": "https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/public_url",
-      "url": "https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/public_url",
-      "type": "Credly Verified",
-      "verification_type": "Credly Verified",
-      "skills": [
-        "AI Observability",
-        "Artificial Intelligence (AI)",
-        "Artificial Intelligence Applications",
-        "Datadog",
-        "Large Language Models (LLMs)",
-        "LLM Observability"
       ]
     },
     {

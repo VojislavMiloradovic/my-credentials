@@ -73,7 +73,7 @@ This document represents a unified, verifiable list of all 482 records.
 | 2026-07-14 | [Acronis Cyber Protect – Endpoint Management Basics](https://www.credly.com/badges/e9ff04b3-1b9b-40be-a241-a663e3a6a251/public_url) | Acronis | Credly Verified |
 | 2026-07-14 | [AWS Knowledge: AI Basics - Training Badge](https://www.credly.com/badges/fbb02508-656a-4241-b49c-182dcd8f43ee/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-07-14 | [FIPS Frontrunner](https://www.credly.com/badges/93ad4964-81b4-45ad-b613-688f0505a759/public_url) | Chainguard | Credly Verified |
-| 2026-07-14 | [From Relational Model (SQL) to MongoDB's Document Model](https://www.credly.com/badges/b4e44a5b-2f20-4388-91fa-0e84a1dff433/public_url) | MongoDB | Credly Verified |
+| 2026-07-14 | [From Relational Model (SQL) to MongoDBs Document Model](https://www.credly.com/badges/b4e44a5b-2f20-4388-91fa-0e84a1dff433/public_url) | MongoDB | Credly Verified |
 | 2026-07-14 | [Uniting Threat and Risk Management with NIST 800-53 and MITRE ATT&CK](https://www.credly.com/badges/5a3154e0-56dc-49d6-bd27-035a773fc3eb/public_url) | AttackIQ | Credly Verified |
 | 2026-07-13 | [Introduction To FIN6 Emulation Plans](https://www.credly.com/badges/5f450636-c464-4b68-8bb8-3dadf9ef77b3/public_url) | AttackIQ | Credly Verified |
 | 2026-07-13 | [MongoDB Basics for Students](https://www.credly.com/badges/d1bad48d-237a-4939-ae0f-3d4e3fca7386/public_url) | MongoDB | Credly Verified |
@@ -388,13 +388,13 @@ This document represents a unified, verifiable list of all 482 records.
 | 2026-05-08 | [Secure Your AI Agents to Act on the Behalf of Users](https://www.credly.com/badges/bd7cf46e-660f-406b-9547-69b0c0b9d822/public_url) | Okta | Credly Verified |
 | 2026-05-08 | [Secure Your RAG Pipelines with Auth0 Fine-Grained Access](https://www.credly.com/badges/a39802d7-ae30-4c95-ae7d-434cc1243233/public_url) | Okta | Credly Verified |
 | 2026-05-08 | [Securing AI Agents](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0/public_url) | Okta | Credly Verified |
+| 2026-05-06 | [Agent Observability Metrics & Traces Learning Path](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/public_url) | Datadog | Credly Verified |
 | 2026-05-06 | [Agents & Agentic AI Fundamentals](https://www.credly.com/badges/65342bd4-19df-45dc-9b32-f68a21c5be0d/public_url) | Intel | Credly Verified |
 | 2026-05-06 | [Applying SAP S/4HANA Product Engineering - Record of Achievement](https://www.credly.com/badges/9c1dab10-70e9-4bd3-b9fa-9f2eead26a00/public_url) | SAP | Credly Verified |
 | 2026-05-06 | [Configuration Learning Path](https://www.credly.com/badges/a71f14fd-df65-47c9-9527-109add5f04d5/public_url) | Datadog | Credly Verified |
 | 2026-05-06 | [Core Skills Learning Path](https://www.credly.com/badges/9cfe8da1-05a9-4242-9dfc-8e91c87f9fe3/public_url) | Datadog | Credly Verified |
 | 2026-05-06 | [Dashboards Learning Path](https://www.credly.com/badges/3ada1a37-c791-4d66-860b-36b7c30ec4c3/public_url) | Datadog | Credly Verified |
 | 2026-05-06 | [Explore Identity Foundations](https://www.credly.com/badges/bef6ae97-3d40-441b-a5fd-168016f17b32/public_url) | Okta | Credly Verified |
-| 2026-05-06 | [LLM Observability Metrics & Traces Learning Path](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/public_url) | Datadog | Credly Verified |
 | 2026-05-05 | [Exploring SAP SuccessFactors Embedded Launch Activities for Business User - Record of Achievement](https://www.credly.com/badges/cc432e30-9613-4886-b82d-dd8b9ed936f3/public_url) | SAP | Credly Verified |
 | 2026-05-05 | [Project Management Fundamentals](https://www.credly.com/badges/544641c1-b718-4173-ac14-39c1b0656aea/public_url) | IBM SkillsBuild | Credly Verified |
 | 2026-05-04 | [IT Customer Support Basics](https://www.credly.com/badges/66dd5194-76bb-456f-b199-db61a26524a3/public_url) | Cisco | Credly Verified |

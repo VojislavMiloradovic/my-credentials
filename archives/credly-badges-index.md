@@ -24,9 +24,9 @@ This directory provides chunked, AI-readable historical records for Credly Verif
 | Part 04 | [`credly-badges-2026-07-part-04.md`](./credly-badges-2026-07-part-04.md) | `2026-06-09 to 2026-06-22` | 53 | 10.16 KB | ~2599 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-04.md) |
 | Part 05 | [`credly-badges-2026-07-part-05.md`](./credly-badges-2026-07-part-05.md) | `2026-05-31 to 2026-06-09` | 55 | 10.02 KB | ~2563 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-05.md) |
 | Part 06 | [`credly-badges-2026-07-part-06.md`](./credly-badges-2026-07-part-06.md) | `2026-05-17 to 2026-05-30` | 56 | 10.04 KB | ~2569 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-06.md) |
-| Part 07 | [`credly-badges-2026-07-part-07.md`](./credly-badges-2026-07-part-07.md) | `2026-05-06 to 2026-05-17` | 55 | 10.12 KB | ~2590 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-07.md) |
-| Part 08 | [`credly-badges-2026-07-part-08.md`](./credly-badges-2026-07-part-08.md) | `2026-04-18 to 2026-05-06` | 51 | 9.98 KB | ~2553 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-08.md) |
-| Part 09 | [`credly-badges-2026-07-part-09.md`](./credly-badges-2026-07-part-09.md) | `2025-11-04 to 2026-04-18` | 46 | 9.03 KB | ~2311 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-09.md) |
+| Part 07 | [`credly-badges-2026-07-part-07.md`](./credly-badges-2026-07-part-07.md) | `2026-05-06 to 2026-05-17` | 55 | 10.15 KB | ~2596 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-07.md) |
+| Part 08 | [`credly-badges-2026-07-part-08.md`](./credly-badges-2026-07-part-08.md) | `2026-04-18 to 2026-05-06` | 52 | 10.16 KB | ~2600 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-08.md) |
+| Part 09 | [`credly-badges-2026-07-part-09.md`](./credly-badges-2026-07-part-09.md) | `2025-11-04 to 2026-04-18` | 45 | 8.83 KB | ~2260 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-09.md) |
 
 
 [← Back to Main README](../README.md)
