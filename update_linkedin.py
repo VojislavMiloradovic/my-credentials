@@ -91,18 +91,18 @@ def parse_certifications_csv():
         issued_date = parse_linkedin_date(started)
         expiry_date = parse_linkedin_date(finished)
 
-        # Guard: only swap/clamp when the issued date is more than one
-        # calendar month in the future — a reliable sign that LinkedIn has
-        # written the expiry into the 'Started On' column by mistake.
-        # Entries with a legitimately future started-on date (e.g. a cert
-        # earned today that expires next year) are left untouched.
-        if issued_date != "N/A" and issued_date > current_year_month:
-            if expiry_date != "N/A" and expiry_date <= current_year_month:
-                # Likely swapped: expiry is older than today — treat expiry
-                # as the real issue date and the future date as the expiry.
-                issued_date, expiry_date = expiry_date, issued_date
-            # else: issued_date is in the near future and expiry is also
-            # future (or absent) — keep as-is; don't clamp arbitrarily.
+        # Guard: only swap when the issued date is in the future AND the
+        # expiry is in the past — a reliable sign that LinkedIn has written
+        # the expiry into the 'Started On' column by mistake.
+        # Certs with a legitimately future started-on date (expiry also
+        # future or absent) are left untouched.
+        if (
+            issued_date != "N/A"
+            and issued_date > current_year_month
+            and expiry_date != "N/A"
+            and expiry_date <= current_year_month
+        ):
+            issued_date, expiry_date = expiry_date, issued_date
 
         certs.append({
             "name": name,
