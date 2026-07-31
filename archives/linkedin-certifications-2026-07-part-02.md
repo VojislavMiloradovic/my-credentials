@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 2 of 29
 date_range: 2026-07 to 2026-07
-total_entries: 47
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-02.md
 ---
 
@@ -12,6 +12,19 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **MongoDB Query Optimization Techniques** | MongoDB | [Verify Record](https://www.credly.com/badges/adc22d84-9e52-40b6-8f56-09b163398c09/linked_in_profile) |
+| 2026-07 | **MongoDB Schema Design Optimization Skill Badge** | MongoDB | [Verify Record](https://www.credly.com/badges/526ac37a-cf81-4031-82ad-ea72351d42b8/linked_in_profile) |
+| 2026-07 | **AWS Educate Getting Started with Databases - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/da4e7c34-8a7a-4418-86f2-eb9db7a34148/linked_in_profile) |
+| 2026-07 | **MongoDB Advanced Schema Design Patterns and Anti-patterns Skill Badge** | MongoDB | [Verify Record](https://www.credly.com/badges/e467dede-3af7-4e52-94b6-024d53997597/linked_in_profile) |
+| 2026-07 | **AI and Innovation: How MongoDB Enables a Resilient AI Strategy** | MongoDB | [Verify Record](https://www.credly.com/badges/eb31b07d-b515-4678-aad1-792c118e67dc/linked_in_profile) |
+| 2026-07 | **Foundations of Cyber Threat Intelligence** | AttackIQ | [Verify Record](https://www.credly.com/badges/7de6eae2-567f-4628-9a07-b832ea35db92/linked_in_profile) |
+| 2026-07 | **Leveraging AI in Your Nonprofit Role by Microsoft and NetHope** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ccc7e8d46f6498c536d9f14cbd28dee76f392ed4a1276682382eaf3c4b11875c) |
+| 2026-07 | **Extending ATT&CK with ATT&CK Workbench** | AttackIQ | [Verify Record](https://www.credly.com/badges/1a455d6f-de65-420a-a531-f26d2562538b/linked_in_profile) |
+| 2026-07 | **Cloud Sales Pro - Backup** | Acronis | [Verify Record](https://www.credly.com/badges/8792dd40-33ba-45a4-8a3b-68f57d1ec0d3/linked_in_profile) |
+| 2026-07 | **Cloud Sales Pro - Archival Storage** | Acronis | [Verify Record](https://www.credly.com/badges/f158f922-f150-4b0b-8690-da627a5aea91/linked_in_profile) |
+| 2026-07 | **ZEDEDA Certified Edge Orchestration Professional (ZCEP)** | ZEDEDA | [Verify Record](https://www.credly.com/badges/353991f9-77e3-4db3-9e33-3ea865e695ff/linked_in_profile) |
+| 2026-07 | **Cloud Functions: 3 Ways Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/f57106b4-cf01-4ad0-a05a-67f322da7411/linked_in_profile) |
+| 2026-07 | **Creative Inspirations: Troika Design Group, Design and Branding Agency** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e450a756a55e74387f1d52ca88ab442dfbf0dbb733e116e28ebc9ed4a792dd06) |
 | 2026-07 | **Acronis Cyber Protect – Tech Pro** | Acronis | [Verify Record](https://www.credly.com/badges/0d5fac3c-48d7-4e36-bb6c-bed01e8304d9/linked_in_profile) |
 | 2026-07 | **CRUD Operations in MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/9fd53140-ed9f-49c4-ba08-46f3b86499ad/linked_in_profile) |
 | 2026-07 | **Building AI Agents with MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/445b664c-c048-4f35-99ed-087e1d1ffc15/linked_in_profile) |
@@ -47,18 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **AWS Knowledge: AI Basics - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/fbb02508-656a-4241-b49c-182dcd8f43ee/linked_in_profile) |
 | 2026-07 | **Jeffrey Zeldman: 20 years of Web Design and Community** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/28ee65017261018243ece8f5e45f799303d41409553457218258a29815d5303a) |
 | 2026-07 | **Developing Containerized Applications on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25498091?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Chris Crisman: Subjects in Their Spaces** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c90478a2f0442b0539e4e64a41b0eb15a62f0f0f213968e7db50af5d543346ba) |
-| 2026-07 | **Hanson Hsu with Bobby Owsinski: Radically Rethinking Room Acoustics** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dac989a81cb646b51d55e0449a77b42438315f3b972a087f736d50e2714f80b8) |
-| 2026-07 | **Creative Inspirations: Rick Morris, Motion Graphics Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/40155bc039aa812e0b256bb603d90632f5e15a490d0ea259f7dccef8d66189d1) |
-| 2026-07 | **Al Schmitt with Bobby Owsinski: Wrapping Cables to Winning Grammys** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/66f552eb2d0fb0c2ef09bbb9a7d3414cc315e8b8138492befed504493f6ab2fd) |
-| 2026-07 | **The Creative Spark: Tom Durham, Indie Filmmaker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bf2dc7f5b4fff92f6caebba01ca998629057922069803133a7ca169e42455cd3) |
-| 2026-07 | **Dustin Farrell's Time-Lapse Photography: Start to Finish** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7479eea90e93e6e3c8e64edd9ce8d1c274a25b91bd211f0a18d5f7212e5f1512) |
-| 2026-07 | **Introduction to CIP** | OPSWAT Academy | [Verify Record](https://learn.opswatacademy.com/certificate/r4ZWtQv2YQ) |
-| 2026-07 | **OPSWAT Introduction to Critical Infrastructure Protection (ICIP)** | OPSWAT | [Verify Record](https://www.credly.com/badges/0a4d5c94-1c92-4035-a997-a6b86369a0f8/linked_in_profile) |
-| 2026-07 | **MongoDB Basics for Students** | MongoDB | [Verify Record](https://www.credly.com/badges/d1bad48d-237a-4939-ae0f-3d4e3fca7386/linked_in_profile) |
-| 2026-07 | **Communication Foundations (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a7b63f475060ba1ff602eafbf726c1b67dc740c9d5a1ce3469d2f1c307337ced) |
-| 2026-07 | **Introduction To FIN6 Emulation Plans** | AttackIQ | [Verify Record](https://www.credly.com/badges/5f450636-c464-4b68-8bb8-3dadf9ef77b3/linked_in_profile) |
-| 2026-07 | **Live at Davos: The CEO Playbook for Getting Ahead with Roland Busch** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ef0fddf4d910076aac17bee30c431a88150dc02c3b9a6ad374007156b7a802d) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-01.md](linkedin-certifications-2026-07-part-01.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-03.md](linkedin-certifications-2026-07-part-03.md)

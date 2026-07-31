@@ -12,6 +12,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **Networking in Action: Build Real Connections That Accelerate Your Career** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/938a95030be5377f10fc0c93b84bd5ea05c18f4fd009326b925abaf920428cc3) |
+| 2026-07 | **Delivering and Analyzing a Software Pilot: GitHub Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2387b7333a40de8752f2080716d0aac9ee1736351c94fc8b0ae3ef42536f6857) |
+| 2026-07 | **Practical GitHub Code Search** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0a69148f2ef2e50e11ac9e4318c93b7af77806ba6c9fafcd76080af74f97ae68) |
+| 2026-07 | **Vector Search Performance** | MongoDB | [Verify Record](https://www.credly.com/badges/a89e8a08-ff7d-433a-9131-a8e2d464db34/linked_in_profile) |
+| 2026-07 | **MongoDB Encryption at Rest with BYOK** | MongoDB | [Verify Record](https://www.credly.com/badges/ea5fdc47-7f57-42a4-9829-eb7c40b0b729/linked_in_profile) |
+| 2026-07 | **Building an App with Code Agents and MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/e69b5623-374c-482a-b29f-6cee2c6714d1/linked_in_profile) |
+| 2026-07 | **Securing MongoDB Self-Managed Networking** | MongoDB | [Verify Record](https://www.credly.com/badges/0f2ed21a-e251-4566-ac7e-bf989559785b/linked_in_profile) |
+| 2026-07 | **Securing MongoDB Atlas Networking** | MongoDB | [Verify Record](https://www.credly.com/badges/74ba326f-caa2-44b0-a4b2-dd055799bebf/linked_in_profile) |
+| 2026-07 | **Deploying and Evaluating GenAI Apps with MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/2efe33a4-f77e-4714-a1b1-c8c46e72bd69/linked_in_profile) |
+| 2026-07 | **Threat-Informed Architecture** | AttackIQ | [Verify Record](https://www.credly.com/badges/2e682aba-ad5e-4f85-9f0e-87f0a4a1c5d1/linked_in_profile) |
+| 2026-07 | **AWS Educate Getting Started with Serverless - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/01fefe26-9f1d-4c80-848a-4af9b193b111/linked_in_profile) |
+| 2026-07 | **Countering Ransomware with MITRE ATT&CK** | AttackIQ | [Verify Record](https://www.credly.com/badges/86ad39b3-0d3a-4939-b748-62169bb782d7/linked_in_profile) |
 | 2026-07 | **Cloud Sales Pro - Protected 365** | Acronis | [Verify Record](https://www.credly.com/badges/da80423d-93c4-4353-949e-47fe38205bb8/linked_in_profile) |
 | 2026-07 | **Cloud Sales Professional MDR** | Acronis | [Verify Record](https://www.credly.com/badges/6efa11ee-1073-454d-962f-8288a8b69bf7/linked_in_profile) |
 | 2026-07 | **Analyze Images with the Cloud Vision API** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26066863?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -49,18 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Ram Charan on Coaching High Potentials** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ad95c14cd19e81af1e04ad1fe9009cf3a792df7eebc375a3fce0a8f5e5c9f53) |
 | 2026-07 | **Ken Blanchard on Servant Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0adf14b7571424f8ea180aed404be5f4e9fb70ab0d2d03c43b47ca5e109a44a8) |
 | 2026-07 | **Ryan Holmes on Social Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e6e647ae9bc82a07bc3b120c592af1ea458467921ca9b3bb56b0b50ade2c3ca7) |
-| 2026-07 | **MongoDB Query Optimization Techniques** | MongoDB | [Verify Record](https://www.credly.com/badges/adc22d84-9e52-40b6-8f56-09b163398c09/linked_in_profile) |
-| 2026-07 | **MongoDB Schema Design Optimization Skill Badge** | MongoDB | [Verify Record](https://www.credly.com/badges/526ac37a-cf81-4031-82ad-ea72351d42b8/linked_in_profile) |
-| 2026-07 | **AWS Educate Getting Started with Databases - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/da4e7c34-8a7a-4418-86f2-eb9db7a34148/linked_in_profile) |
-| 2026-07 | **MongoDB Advanced Schema Design Patterns and Anti-patterns Skill Badge** | MongoDB | [Verify Record](https://www.credly.com/badges/e467dede-3af7-4e52-94b6-024d53997597/linked_in_profile) |
-| 2026-07 | **AI and Innovation: How MongoDB Enables a Resilient AI Strategy** | MongoDB | [Verify Record](https://www.credly.com/badges/eb31b07d-b515-4678-aad1-792c118e67dc/linked_in_profile) |
-| 2026-07 | **Foundations of Cyber Threat Intelligence** | AttackIQ | [Verify Record](https://www.credly.com/badges/7de6eae2-567f-4628-9a07-b832ea35db92/linked_in_profile) |
-| 2026-07 | **Leveraging AI in Your Nonprofit Role by Microsoft and NetHope** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ccc7e8d46f6498c536d9f14cbd28dee76f392ed4a1276682382eaf3c4b11875c) |
-| 2026-07 | **Extending ATT&CK with ATT&CK Workbench** | AttackIQ | [Verify Record](https://www.credly.com/badges/1a455d6f-de65-420a-a531-f26d2562538b/linked_in_profile) |
-| 2026-07 | **Cloud Sales Pro - Backup** | Acronis | [Verify Record](https://www.credly.com/badges/8792dd40-33ba-45a4-8a3b-68f57d1ec0d3/linked_in_profile) |
-| 2026-07 | **Cloud Sales Pro - Archival Storage** | Acronis | [Verify Record](https://www.credly.com/badges/f158f922-f150-4b0b-8690-da627a5aea91/linked_in_profile) |
-| 2026-07 | **Cloud Functions: 3 Ways Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/f57106b4-cf01-4ad0-a05a-67f322da7411/linked_in_profile) |
-| 2026-07 | **Creative Inspirations: Troika Design Group, Design and Branding Agency** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e450a756a55e74387f1d52ca88ab442dfbf0dbb733e116e28ebc9ed4a792dd06) |
 
 ---
 > **Navigation:** Prev: None | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-02.md](linkedin-certifications-2026-07-part-02.md)
