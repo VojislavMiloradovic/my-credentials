@@ -103,7 +103,7 @@ def parse_archive_monoliths():
             # -----------------------------------------------------------------
             if line_str.startswith("|") and line_str.endswith("|"):
                 # Skip table header and separator rows
-                if "---" in line_str or "Date" in line_str or "Metric" in line_str or "Stat" in line_str:
+                if "---" in line_str or "Date" in line_str or "Metric" in line_str or "Stat" in line_str or "Achievement Title" in line_str or "Activity / Course" in line_str:
                     continue
 
                 cols = [c.strip() for c in line_str.split("|")[1:-1]]
@@ -137,6 +137,10 @@ def parse_archive_monoliths():
                     # Extract explicit issuer if specified (e.g., Credly "issued by XYZ")
                     if "issued by" in col.lower():
                         issuer = col.replace("issued by", "").replace("`", "").strip()
+
+                # Fallback for plain-text titles in the first column if no title extracted yet
+                if not title and cols[0]:
+                    title = clean_str(cols[0])
 
                 if title:
                     c_obj = {
