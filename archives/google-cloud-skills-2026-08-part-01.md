@@ -3,12 +3,12 @@ archive_platform: Google Cloud Skills Boost
 chunk_part: 1 of 3
 date_range: 2026-03-30 to 2026-07-29
 total_entries: 148
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-01.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-08-part-01.md
 ---
 
 # Google Cloud Skills Boost — Part 01
 
-> **Navigation:** Prev: None | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-07-part-02.md](google-cloud-skills-2026-07-part-02.md) | [Complete Archive](./google-cloud-skills-complete.md)
+> **Navigation:** Prev: None | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-08-part-02.md](google-cloud-skills-2026-08-part-02.md) | [Complete Archive](./google-cloud-skills-complete.md)
 
 | Date Earned | Badge Title |
 | :---: | --- |
@@ -162,4 +162,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-03-30 | **Configure Gemini Code Assist for Organizations** |
 
 ---
-> **Navigation:** Prev: None | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-07-part-02.md](google-cloud-skills-2026-07-part-02.md)
+> **Navigation:** Prev: None | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-08-part-02.md](google-cloud-skills-2026-08-part-02.md)

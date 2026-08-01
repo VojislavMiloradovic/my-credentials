@@ -2,7 +2,7 @@
  VOJISLAV MILORADOVIC — CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ================================================================================
 
-> **Last Generated:** 2026-07-31 12:04 UTC
+> **Last Generated:** 2026-08-01 00:35 UTC
 --- BEGIN FILE: README.md ---
 # Professional Credentials & Achievements
 
@@ -56,17 +56,17 @@ Showing latest 10 of 4,780 achievements. View the full dataset via the [Platform
 ### Google Cloud Skills Boost (338 Badges)
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
-**Total Lifetime Points:** 197,807
+**Total Lifetime Points:** 198,577
 
 #### Platform Progress Summary
 | Metric | Count |
 |---|---|
-| **Course** | 346 |
-| **Check** | 1,832 |
+| **Course** | 349 |
+| **Check** | 1,851 |
 | **Classroom** | 0 |
 | **Game** | 6 |
-| **Lab** | 238 |
-| **Lesson** | 4,847 |
+| **Lab** | 240 |
+| **Lesson** | 4,850 |
 
 #### Latest Earned Badges
 | Date Earned | Badge Title |
@@ -82,7 +82,7 @@ Showing latest 10 of 4,780 achievements. View the full dataset via the [Platform
 | *2026-07-23* | **Arcade Adventure: Low-Code Development** |
 | *2026-07-21* | **Build Serverless Applications with Cloud Run Functions** |
 
-👉 [View Platform Index](./archives/google-cloud-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-01.md) | [Complete Monolith](./archives/google-cloud-skills-complete.md))
+👉 [View Platform Index](./archives/google-cloud-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-08-part-01.md) | [Complete Monolith](./archives/google-cloud-skills-complete.md))
 
 <!-- GOOGLE_SKILLS_END -->
 
@@ -1217,7 +1217,7 @@ This document represents a unified, verifiable list of all 482 records.
 This document represents a unified, verifiable list of all 338 records.
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
-**Total Lifetime Points:** 197,807
+**Total Lifetime Points:** 198,577
 
 ## Verified Records Archive
 

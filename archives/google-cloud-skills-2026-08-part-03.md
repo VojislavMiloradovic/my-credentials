@@ -3,12 +3,12 @@ archive_platform: Google Cloud Skills Boost
 chunk_part: 3 of 3
 date_range: 2025-09-06 to 2025-11-06
 total_entries: 37
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-03.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-08-part-03.md
 ---
 
 # Google Cloud Skills Boost — Part 03
 
-> **Navigation:** Prev: [google-cloud-skills-2026-07-part-02.md](google-cloud-skills-2026-07-part-02.md) | [Index](./google-cloud-skills-index.md) | Next: None | [Complete Archive](./google-cloud-skills-complete.md)
+> **Navigation:** Prev: [google-cloud-skills-2026-08-part-02.md](google-cloud-skills-2026-08-part-02.md) | [Index](./google-cloud-skills-index.md) | Next: None | [Complete Archive](./google-cloud-skills-complete.md)
 
 | Date Earned | Badge Title |
 | :---: | --- |
@@ -51,4 +51,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-09-06 | **Digital Transformation with Google Cloud** |
 
 ---
-> **Navigation:** Prev: [google-cloud-skills-2026-07-part-02.md](google-cloud-skills-2026-07-part-02.md) | [Index](./google-cloud-skills-index.md) | Next: None
+> **Navigation:** Prev: [google-cloud-skills-2026-08-part-02.md](google-cloud-skills-2026-08-part-02.md) | [Index](./google-cloud-skills-index.md) | Next: None

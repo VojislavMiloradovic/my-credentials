@@ -3,12 +3,12 @@ archive_platform: Google Cloud Skills Boost
 chunk_part: 2 of 3
 date_range: 2025-11-06 to 2026-03-29
 total_entries: 153
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-07-part-02.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-08-part-02.md
 ---
 
 # Google Cloud Skills Boost — Part 02
 
-> **Navigation:** Prev: [google-cloud-skills-2026-07-part-01.md](google-cloud-skills-2026-07-part-01.md) | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-07-part-03.md](google-cloud-skills-2026-07-part-03.md) | [Complete Archive](./google-cloud-skills-complete.md)
+> **Navigation:** Prev: [google-cloud-skills-2026-08-part-01.md](google-cloud-skills-2026-08-part-01.md) | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-08-part-03.md](google-cloud-skills-2026-08-part-03.md) | [Complete Archive](./google-cloud-skills-complete.md)
 
 | Date Earned | Badge Title |
 | :---: | --- |
@@ -167,4 +167,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-11-06 | **AI Boost Bites: Your Personal Feedback Agent** |
 
 ---
-> **Navigation:** Prev: [google-cloud-skills-2026-07-part-01.md](google-cloud-skills-2026-07-part-01.md) | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-07-part-03.md](google-cloud-skills-2026-07-part-03.md)
+> **Navigation:** Prev: [google-cloud-skills-2026-08-part-01.md](google-cloud-skills-2026-08-part-01.md) | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-08-part-03.md](google-cloud-skills-2026-08-part-03.md)
