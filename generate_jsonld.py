@@ -163,7 +163,7 @@ def parse_archive_monoliths():
                             category = cleaned_cat
 
                     # Issuer / Authority extraction
-                    if "issuer" in col_header or "authority" in col_header:
+                    if "issuer" in col_header:
                         cleaned_issuer = clean_str(col)
                         if cleaned_issuer:
                             issuer = cleaned_issuer
