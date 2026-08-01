@@ -381,6 +381,9 @@ View Interoperability in Compose
 Hands-on with Gemini CLI
 18. мај 2026.
 
+Run a personal agent on a Cloud Run service (coffee shop manager assistant)
+1. авг 2026.
+
 API Key Management and Security
 24. јун 2026.
 
@@ -1971,6 +1974,9 @@ Engage users with your Action for Google Assistant
 Going Multimodal with Agent Development Kit: Personal Expense Assistant with Gemini 2.5, Firestore and Cloud Run
 26. јул 2026.
 
+Anti-Money Laundering & Fraud Prevention with BigQuery GraphRAG
+1. авг 2026.
+
 clasp - The Apps Script CLI
 9. јун 2026.
 
@@ -2595,6 +2601,9 @@ Advanced Android in Kotlin 03.2: Animation with MotionLayout
 Private Service Connect 66
 7. јун 2026.
 
+Build and Deploy AI Agents with Gemini and BigQuery MCP server in Cloud Run
+1. авг 2026.
+
 Evaluating Single LLM Outputs With Vertex AI Evaluation
 23. мај 2026.
 
@@ -2729,6 +2738,9 @@ Build a word puzzle with Flutter
 
 From vibe checks to data-driven Agent Evaluation
 21. мај 2026.
+
+ADK 2 Orchestration: Graph, Collaborative & Dynamic Workflows
+1. авг 2026.
 
 Code Lab: NCC Gateway with PANW SSE
 22. јун 2026.
@@ -3306,7 +3318,7 @@ Serverless Data Transformation with Apache Spark in BigQuery Studio Notebooks
 Specialized Processors with Document AI (Python)
 9. јун 2026.
 
-OSS Kubernetes on GCE with TPUs, DRA (OSS) and Gemma 4
+OSS Kubernetes on GCE with TPUs, DRA for TPU, DRANET (OSS) and Gemma 4
 29. јул 2026.
 
 The Private Vault: Building "Zero Trust Intelligence" with AlloyDB Row-Level Security
@@ -3404,6 +3416,9 @@ Adding a Home Screen widget to your Flutter App
 
 Build a Sports Shop Agent AI Assistant with ADK, MCP Toolbox and AlloyDB
 21. мај 2026.
+
+Deploy a RAG AI Agent in Streamlit using Google ADK and Cloud Run
+1. авг 2026.
 
 Launch your to-do web app with AI
 27. јун 2026.
@@ -3539,6 +3554,9 @@ Trigger Kubernetes services with Eventarc events
 
 Handle edge-to-edge enforcements in Android 15
 5. јун 2026.
+
+Build and Deploy AI Agents with Gemma 4 and BigQuery MCP server in Cloud Run
+1. авг 2026.
 
 Get started with Perspective API
 5. јун 2026.
@@ -3878,6 +3896,9 @@ Google Pay quiz
 
 Hello Cloud Run with Python
 9. јун 2026.
+
+Deploy a Python App to Cloud Run (Streamlit)
+1. авг 2026.
 
 Scaling with Kustomize
 30. мај 2026.
@@ -4283,6 +4304,9 @@ Containerize a Spring Boot Kotlin app and deploy it to Cloud Run
 
 End-to-End Migration: CloudSQL Database to Cloud Spanner (GoogleSQL)
 7. јун 2026.
+
+Agent-to-Agent Engineering: Build, Deploy, and Embed ADK Agents with Antigravity CLI and agents-cli
+1. авг 2026.
 
 Get started with scroll-driven animations in CSS
 7. јун 2026.
