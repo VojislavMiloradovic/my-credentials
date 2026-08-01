@@ -41,7 +41,7 @@ def extract_readme_metrics(readme_path=README_PATH):
         metrics["ms_learn"] = f"{units.group(1)} completed units | {ms_total.group(1)} total achievements"
 
     # 2. Google Cloud Skills
-    gskills_badges = re.search(r"Google Cloud Skills Boost \((\d+ Badges?)\)", content, re.I)
+    gskills_badges = re.search(r"Google Cloud Skills Boost \((\d+ Badges?)\)", content, re.IGNORECASE)
     gskills_points = re.search(r"Total Lifetime Points:\*\*?\s*([\d,]+)", content)
     if gskills_badges and gskills_points:
         metrics["google_skills"] = f"{gskills_badges.group(1)} | {gskills_points.group(1)} total points"
