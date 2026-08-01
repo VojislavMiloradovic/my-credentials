@@ -34,6 +34,11 @@ JSONLD_SCHEMA = {
                             "@type": {"type": "string"},
                             "credentialCategory": {"type": "string"},
                             "name": {"type": "string"},
+                            "description": {"type": "string"},
+                            "image": {"type": "string"},
+                            "identifier": {"type": "string"},
+                            "dateCreated": {"type": "string"},
+                            "expires": {"type": "string"},
                             "recognizedBy": {
                                 "type": "object",
                                 "properties": {
@@ -93,6 +98,8 @@ def parse_archive_monoliths():
         with open(filepath, "r", encoding="utf-8") as f:
             lines = f.readlines()
 
+        header_cols = []
+
         for line in lines:
             line_str = line.strip()
             if not line_str:
@@ -102,8 +109,11 @@ def parse_archive_monoliths():
             # 1. Parse Table Rows (| col1 | col2 | col3 |)
             # -----------------------------------------------------------------
             if line_str.startswith("|") and line_str.endswith("|"):
-                # Skip table header and separator rows
-                if "---" in line_str or "Date" in line_str or "Metric" in line_str or "Stat" in line_str or "Achievement Title" in line_str or "Activity / Course" in line_str:
+                # Detect header row layout
+                if "---" in line_str:
+                    continue
+                if any(h in line_str for h in ["Title", "Category", "Type", "Issuer", "Authority", "Date", "Description"]):
+                    header_cols = [c.strip().lower() for c in line_str.split("|")[1:-1]]
                     continue
 
                 cols = [c.strip() for c in line_str.split("|")[1:-1]]
@@ -114,8 +124,20 @@ def parse_archive_monoliths():
                 date_earned = ""
                 url = ""
                 issuer = platform_name
+                category = "Badge/Certification"
+                description = ""
+                image_url = ""
+                cred_id = ""
 
-                for col in cols:
+                # Cell-by-cell inspection based on headers and content
+                for idx, col in enumerate(cols):
+                    col_header = header_cols[idx] if idx < len(header_cols) else ""
+
+                    # Extract image tag
+                    img_match = re.search(r"!\[.*?\]\((https?://[^\)]+)\)", col)
+                    if img_match and not image_url:
+                        image_url = img_match.group(1)
+
                     # Extract verification URL
                     link_match = re.search(r"\[([^\]]+)\]\((https?://[^\)]+)\)", col)
                     if link_match:
@@ -126,7 +148,7 @@ def parse_archive_monoliths():
 
                     # Extract bold text title
                     bold_match = re.search(r"\*\*([^*]+)\*\*", col)
-                    if bold_match and not title:
+                    if bold_match and not title and "title" in col_header:
                         title = clean_str(bold_match.group(1))
 
                     # Extract ISO / Year-Month dates
@@ -134,24 +156,51 @@ def parse_archive_monoliths():
                     if date_match and not date_earned:
                         date_earned = date_match.group(1)
 
-                    # Extract explicit issuer if specified (e.g., Credly "issued by XYZ")
-                    if "issued by" in col.lower():
+                    # Category / Type extraction
+                    if "category" in col_header or "type" in col_header:
+                        cleaned_cat = clean_str(col)
+                        if cleaned_cat and cleaned_cat.lower() not in ["verify", "active"]:
+                            category = cleaned_cat
+
+                    # Issuer / Authority extraction
+                    if "issuer" in col_header or "authority" in col_header:
+                        cleaned_issuer = clean_str(col)
+                        if cleaned_issuer:
+                            issuer = cleaned_issuer
+                    elif "issued by" in col.lower():
                         issuer = col.replace("issued by", "").replace("`", "").strip()
 
-                # Fallback for plain-text titles in the first column if no title extracted yet
+                    # Description extraction
+                    if "description" in col_header:
+                        cleaned_desc = clean_str(col)
+                        if cleaned_desc and cleaned_desc.lower() != title.lower():
+                            description = cleaned_desc
+
+                    # Credential ID extraction
+                    id_match = re.search(r"Credential ID:\s*`?([A-Za-z0-9]+)`?", col, re.IGNORECASE)
+                    if id_match and not cred_id:
+                        cred_id = id_match.group(1)
+
+                # Fallback for plain-text title in the first column if missing
                 if not title and cols[0]:
                     title = clean_str(cols[0])
 
                 if title:
                     c_obj = {
                         "@type": "EducationalOccupationalCredential",
-                        "credentialCategory": "Badge/Certification",
+                        "credentialCategory": category,
                         "name": clean_str(title),
                         "recognizedBy": {
                             "@type": "Organization",
                             "name": clean_str(issuer),
                         },
                     }
+                    if description:
+                        c_obj["description"] = description
+                    if image_url:
+                        c_obj["image"] = image_url
+                    if cred_id:
+                        c_obj["identifier"] = cred_id
                     if date_earned:
                         c_obj["dateCreated"] = date_earned
                     if url:
@@ -178,7 +227,11 @@ def parse_archive_monoliths():
                 link_match = re.search(r"\((https?://[^\)]+)\)", line_str)
                 url = link_match.group(1) if link_match else ""
 
-                # Extract Credential ID if present
+                # Extract image
+                img_match = re.search(r"!\[.*?\]\((https?://[^\)]+)\)", line_str)
+                image_url = img_match.group(1) if img_match else ""
+
+                # Extract Credential ID
                 id_match = re.search(r"Credential ID:\s*`?([A-Za-z0-9]+)`?", line_str, re.IGNORECASE)
                 cred_id = id_match.group(1) if id_match else ""
 
@@ -193,6 +246,8 @@ def parse_archive_monoliths():
                 }
                 if cred_id:
                     c_obj["identifier"] = cred_id
+                if image_url:
+                    c_obj["image"] = image_url
                 if date_earned:
                     c_obj["dateCreated"] = date_earned
                 if url:
@@ -214,7 +269,6 @@ def cleanup_readme():
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Repair name encoding if needed
     content = content.replace("Vojislav Miloradoviﾄ", "Vojislav Miloradović")
 
     if MARKER_START in content and MARKER_END in content:
@@ -242,7 +296,6 @@ def main():
         },
     }
 
-    # Data Integrity & Validation Step
     validate_jsonld(payload)
 
     with open(JSONLD_PATH, "w", encoding="utf-8") as f:
