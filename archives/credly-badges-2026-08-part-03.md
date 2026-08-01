@@ -3,12 +3,12 @@ archive_platform: Credly Verified Credentials
 chunk_part: 3 of 9
 date_range: 2026-06-22 to 2026-07-05
 total_entries: 55
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-03.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-03.md
 ---
 
 # Credly Verified Credentials — Part 03
 
-> **Navigation:** Prev: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-02.md](credly-badges-2026-08-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-04.md](credly-badges-2026-08-part-04.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -37,7 +37,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-29 | [Implement Passwordless Authentication](https://www.credly.com/badges/b5aeea2a-0424-47c4-87d4-ea6a6acd3bad/public_url) | Okta | Credly Verified |
 | 2026-06-29 | [Manage Your Tenant with Auth0 MCP Server](https://www.credly.com/badges/c9da5f3b-b75b-43d4-9e6d-d291b9504fe3/public_url) | Okta | Credly Verified |
 | 2026-06-29 | [Review and Interpret Analyses](https://www.credly.com/badges/25472282-590d-4f27-9fda-6f344e2fd901/public_url) | Celonis | Credly Verified |
-| 2026-06-28 | [Cloud Speech API: 3 Ways Skill Badge](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5/public_url) | Google Cloud | Credly Verified |
+| 2026-06-28 | [Implement Speech and Language Solutions with Pre-trained APIs](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5/public_url) | Google Cloud | Credly Verified |
 | 2026-06-27 | [AWS Knowledge: Migration Foundations - Training Badge](https://www.credly.com/badges/c6d0351c-5227-4931-8bec-3d4789d4fe0e/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-06-27 | [Celonis Foundations](https://www.credly.com/badges/e2811911-4464-4eb1-9981-681c751363bf/public_url) | Celonis | Credly Verified |
 | 2026-06-27 | [Cloud Tech Associate Advanced Disaster Recovery](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937/public_url) | Acronis | Credly Verified |
@@ -69,4 +69,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-22 | [LFS184: Introduction to JavaScript Security](https://www.credly.com/badges/adbfc39b-1a5a-4225-80bc-0ee44b06bcd5/public_url) | The Linux Foundation | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-07-part-02.md](credly-badges-2026-07-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-02.md](credly-badges-2026-08-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-04.md](credly-badges-2026-08-part-04.md)

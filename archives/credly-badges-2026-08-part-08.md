@@ -3,12 +3,12 @@ archive_platform: Credly Verified Credentials
 chunk_part: 8 of 9
 date_range: 2026-04-18 to 2026-05-06
 total_entries: 52
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-08.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-08.md
 ---
 
 # Credly Verified Credentials — Part 08
 
-> **Navigation:** Prev: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-09.md](credly-badges-2026-07-part-09.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-07.md](credly-badges-2026-08-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-09.md](credly-badges-2026-08-part-09.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -66,4 +66,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-18 | [Understanding SAP’s 2026 Go-to-Market Direction for Partners - Record of Achievement](https://www.credly.com/badges/cccb34bc-a8ae-4c85-8a7f-793cd28bfa1b/public_url) | SAP | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-09.md](credly-badges-2026-07-part-09.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-07.md](credly-badges-2026-08-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-09.md](credly-badges-2026-08-part-09.md)

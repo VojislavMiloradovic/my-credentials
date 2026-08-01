@@ -15,10 +15,10 @@ This document represents a unified, verifiable list of all 482 records.
 | 2026-07-30 | [Vector Search Performance](https://www.credly.com/badges/a89e8a08-ff7d-433a-9131-a8e2d464db34/public_url) | MongoDB | Credly Verified |
 | 2026-07-29 | [Analyze Images with the Cloud Vision API Skill Badge](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url) | Google Cloud | Credly Verified |
 | 2026-07-29 | [AWS Educate Getting Started with Serverless - Training Badge](https://www.credly.com/badges/01fefe26-9f1d-4c80-848a-4af9b193b111/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-07-29 | [Build Event-Driven Applications with Eventarc](https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e/public_url) | Google Cloud | Credly Verified |
 | 2026-07-29 | [Cloud Sales Professional MDR](https://www.credly.com/badges/6efa11ee-1073-454d-962f-8288a8b69bf7/public_url) | Acronis | Credly Verified |
 | 2026-07-29 | [Cloud Sales Pro - Protected 365](https://www.credly.com/badges/da80423d-93c4-4353-949e-47fe38205bb8/public_url) | Acronis | Credly Verified |
 | 2026-07-29 | [Countering Ransomware with MITRE ATT&CK](https://www.credly.com/badges/86ad39b3-0d3a-4939-b748-62169bb782d7/public_url) | AttackIQ | Credly Verified |
-| 2026-07-29 | [Get Started with Eventarc Skill Badge](https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e/public_url) | Google Cloud | Credly Verified |
 | 2026-07-28 | [Optimizing and Maintaining MongoDB Cluster Reliability](https://www.credly.com/badges/ef5db49e-1ab5-4ea0-ba70-bf16383e600f/public_url) | MongoDB | Credly Verified |
 | 2026-07-27 | [AWS Educate Getting Started with Cloud Ops - Training Badge](https://www.credly.com/badges/c1b15993-b012-43a3-bdcb-946d4ee73452/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-07-27 | [Beyond Atomic Testing with Attack Flows](https://www.credly.com/badges/bb201075-aef3-4e05-b357-f024ab834146/public_url) | AttackIQ | Credly Verified |
@@ -52,7 +52,7 @@ This document represents a unified, verifiable list of all 482 records.
 | 2026-07-22 | [MongoDB Query Optimization Techniques](https://www.credly.com/badges/adc22d84-9e52-40b6-8f56-09b163398c09/public_url) | MongoDB | Credly Verified |
 | 2026-07-22 | [MongoDB Schema Design Optimization Skill Badge](https://www.credly.com/badges/526ac37a-cf81-4031-82ad-ea72351d42b8/public_url) | MongoDB | Credly Verified |
 | 2026-07-22 | [MongoDB Schema Design Patterns and Anti-patterns Skill Badge](https://www.credly.com/badges/79327255-4ed3-4b0f-8b1e-9982a0ab1051/public_url) | MongoDB | Credly Verified |
-| 2026-07-21 | [Cloud Functions: 3 Ways Skill Badge](https://www.credly.com/badges/f57106b4-cf01-4ad0-a05a-67f322da7411/public_url) | Google Cloud | Credly Verified |
+| 2026-07-21 | [Build Serverless Applications with Cloud Run Functions](https://www.credly.com/badges/f57106b4-cf01-4ad0-a05a-67f322da7411/public_url) | Google Cloud | Credly Verified |
 | 2026-07-21 | [Cloud Sales Pro - Archival Storage](https://www.credly.com/badges/f158f922-f150-4b0b-8690-da627a5aea91/public_url) | Acronis | Credly Verified |
 | 2026-07-21 | [Cloud Sales Pro - Backup](https://www.credly.com/badges/8792dd40-33ba-45a4-8a3b-68f57d1ec0d3/public_url) | Acronis | Credly Verified |
 | 2026-07-20 | [Acronis Cyber Protect – Sales Pro](https://www.credly.com/badges/a2071cbe-5c63-4b7e-9b49-306f58c74a30/public_url) | Acronis | Credly Verified |
@@ -142,7 +142,7 @@ This document represents a unified, verifiable list of all 482 records.
 | 2026-06-29 | [Implement Passwordless Authentication](https://www.credly.com/badges/b5aeea2a-0424-47c4-87d4-ea6a6acd3bad/public_url) | Okta | Credly Verified |
 | 2026-06-29 | [Manage Your Tenant with Auth0 MCP Server](https://www.credly.com/badges/c9da5f3b-b75b-43d4-9e6d-d291b9504fe3/public_url) | Okta | Credly Verified |
 | 2026-06-29 | [Review and Interpret Analyses](https://www.credly.com/badges/25472282-590d-4f27-9fda-6f344e2fd901/public_url) | Celonis | Credly Verified |
-| 2026-06-28 | [Cloud Speech API: 3 Ways Skill Badge](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5/public_url) | Google Cloud | Credly Verified |
+| 2026-06-28 | [Implement Speech and Language Solutions with Pre-trained APIs](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5/public_url) | Google Cloud | Credly Verified |
 | 2026-06-27 | [AWS Knowledge: Migration Foundations - Training Badge](https://www.credly.com/badges/c6d0351c-5227-4931-8bec-3d4789d4fe0e/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-06-27 | [Celonis Foundations](https://www.credly.com/badges/e2811911-4464-4eb1-9981-681c751363bf/public_url) | Celonis | Credly Verified |
 | 2026-06-27 | [Cloud Tech Associate Advanced Disaster Recovery](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937/public_url) | Acronis | Credly Verified |
@@ -486,7 +486,7 @@ This document represents a unified, verifiable list of all 482 records.
 | 2025-12-20 | [Implement Load Balancing on Compute Engine Skill Badge](https://www.credly.com/badges/a081bb3e-083d-4ccc-a074-c7b7e2d15a1b/public_url) | Google Cloud | Credly Verified |
 | 2025-12-18 | [Google Cloud Cybersecurity Certificate](https://www.credly.com/badges/5afda7ea-c36e-4393-a74b-05f06757c049/public_url) | Google Cloud | Credly Verified |
 | 2025-11-24 | [Use Functions, Formulas, and Charts in Google Sheets Skill Badge](https://www.credly.com/badges/e8a7950a-9042-4809-bf7a-3f01ca2d03dc/public_url) | Google Cloud | Credly Verified |
-| 2025-11-20 | [Get Started with Google Workspace Tools Skill Badge](https://www.credly.com/badges/62ee81aa-da62-41ba-a1cd-234030dc68d9/public_url) | Google Cloud | Credly Verified |
+| 2025-11-20 | [Implement Cloud Collaboration and Productivity Workflows](https://www.credly.com/badges/62ee81aa-da62-41ba-a1cd-234030dc68d9/public_url) | Google Cloud | Credly Verified |
 | 2025-11-04 | [Prompt Design in Vertex AI Skill Badge](https://www.credly.com/badges/cd1cec47-b40b-4395-bdb0-bc859fc3d4d7/public_url) | Google Cloud | Credly Verified |
 
 

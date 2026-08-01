@@ -3,12 +3,12 @@ archive_platform: Credly Verified Credentials
 chunk_part: 6 of 9
 date_range: 2026-05-17 to 2026-05-30
 total_entries: 56
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-06.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-06.md
 ---
 
 # Credly Verified Credentials — Part 06
 
-> **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-05.md](credly-badges-2026-08-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-07.md](credly-badges-2026-08-part-07.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -70,4 +70,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-17 | [Data Literacy Essentials](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31/public_url) | SAS | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](credly-badges-2026-07-part-07.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-05.md](credly-badges-2026-08-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-07.md](credly-badges-2026-08-part-07.md)

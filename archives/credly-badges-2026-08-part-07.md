@@ -3,12 +3,12 @@ archive_platform: Credly Verified Credentials
 chunk_part: 7 of 9
 date_range: 2026-05-06 to 2026-05-17
 total_entries: 55
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-07.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-07.md
 ---
 
 # Credly Verified Credentials — Part 07
 
-> **Navigation:** Prev: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-06.md](credly-badges-2026-08-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-08.md](credly-badges-2026-08-part-08.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -69,4 +69,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-06 | [Applying SAP S/4HANA Product Engineering - Record of Achievement](https://www.credly.com/badges/9c1dab10-70e9-4bd3-b9fa-9f2eead26a00/public_url) | SAP | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-08.md](credly-badges-2026-07-part-08.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-06.md](credly-badges-2026-08-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-08.md](credly-badges-2026-08-part-08.md)

@@ -3,12 +3,12 @@ archive_platform: Credly Verified Credentials
 chunk_part: 2 of 9
 date_range: 2026-07-05 to 2026-07-19
 total_entries: 56
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-02.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-02.md
 ---
 
 # Credly Verified Credentials — Part 02
 
-> **Navigation:** Prev: [credly-badges-2026-07-part-01.md](credly-badges-2026-07-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-01.md](credly-badges-2026-08-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-03.md](credly-badges-2026-08-part-03.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -70,4 +70,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-05 | [Sustainability Base Camper](https://www.credly.com/badges/4675aa36-2855-4b8c-8f21-eab4d065685e/public_url) | Celonis | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-07-part-01.md](credly-badges-2026-07-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-01.md](credly-badges-2026-08-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-03.md](credly-badges-2026-08-part-03.md)

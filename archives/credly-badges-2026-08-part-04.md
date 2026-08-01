@@ -3,12 +3,12 @@ archive_platform: Credly Verified Credentials
 chunk_part: 4 of 9
 date_range: 2026-06-09 to 2026-06-22
 total_entries: 53
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-04.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-04.md
 ---
 
 # Credly Verified Credentials — Part 04
 
-> **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-03.md](credly-badges-2026-08-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-05.md](credly-badges-2026-08-part-05.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -67,4 +67,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-09 | [LFS182: Securing Your Software Supply Chain with Sigstore](https://www.credly.com/badges/78826580-a3a7-4213-be79-3233321f3d3e/public_url) | The Linux Foundation | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-07-part-03.md](credly-badges-2026-07-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-05.md](credly-badges-2026-07-part-05.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-03.md](credly-badges-2026-08-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-05.md](credly-badges-2026-08-part-05.md)

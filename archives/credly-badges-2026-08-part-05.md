@@ -3,12 +3,12 @@ archive_platform: Credly Verified Credentials
 chunk_part: 5 of 9
 date_range: 2026-05-31 to 2026-06-09
 total_entries: 55
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-05.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-05.md
 ---
 
 # Credly Verified Credentials — Part 05
 
-> **Navigation:** Prev: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-04.md](credly-badges-2026-08-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-06.md](credly-badges-2026-08-part-06.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -69,4 +69,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-31 | [Zendesk Knowledge](https://www.credly.com/badges/80fd12ea-5a76-4bf2-aab2-4c5ea7531b3a/public_url) | Zendesk | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-07-part-04.md](credly-badges-2026-07-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-06.md](credly-badges-2026-07-part-06.md)
+> **Navigation:** Prev: [credly-badges-2026-08-part-04.md](credly-badges-2026-08-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-06.md](credly-badges-2026-08-part-06.md)
