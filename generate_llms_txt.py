@@ -6,33 +6,33 @@ from datetime import datetime, timezone
 ARCHIVE_DIR = "archives"
 LLMS_PATH = "llms.txt"
 
-# Defined technical domain patterns (checked in sequential order)
+# Comprehensive domain regex patterns (checked in sequential order)
 DOMAIN_PATTERNS = [
     (
         "🤖 AI, Machine Learning & Data",
         re.compile(
-            r"\b(ai|genai|llm|copilot|gemini|agent|bedrock|rag|bigquery|machine learning|data science|vision api|deep learning|neural|openai|vertex|tensorflow|pytorch|prompt|langchain|vector|nlp|sql|data analysis)\b",
+            r"\b(ai|genai|llm|copilot|gemini|agent|bedrock|rag|bigquery|machine learning|data science|vision api|deep learning|neural|openai|vertex|tensorflow|pytorch|prompt|langchain|vector|nlp|sql|data|database|analytics|power bi|fabric|synapse|databricks|reporting|pandas|spark|intelligence|predictive|etl|warehouse|insight)\b",
             re.IGNORECASE,
         ),
     ),
     (
         "🛡️ DevOps, Security & Governance",
         re.compile(
-            r"\b(entra|security|ci/cd|cicd|git|github|kubernetes|k8s|docker|container|active directory|byok|encryption|threat|iam|governance|compliance|devops|pipeline|terraform|sentinel|cybersecurity|zero trust)\b",
+            r"\b(entra|security|ci/cd|cicd|git|github|kubernetes|k8s|docker|container|active directory|byok|encryption|threat|iam|governance|compliance|devops|pipeline|terraform|sentinel|cybersecurity|zero trust|defender|purview|intune|identity|auth|authorization|rbac|policy|bicep|arm|powershell|cli|automation|monitor|log analytics|audit|risk|protection|vault|defender)\b",
             re.IGNORECASE,
         ),
     ),
     (
         "☁️ Cloud & Infrastructure",
         re.compile(
-            r"\b(azure|aws|gcp|google cloud|vpc|netapp|networking|serverless|cloud run|storage|ec2|s3|infrastructure|virtual machine|load balancer|dns|route 53|cloud architecture|hybrid|virtual network)\b",
+            r"\b(azure|aws|gcp|google cloud|vpc|netapp|networking|serverless|cloud run|storage|ec2|s3|infrastructure|virtual machine|load balancer|dns|route 53|cloud architecture|hybrid|virtual network|windows server|linux|vm|subnet|expressroute|firewall|compute|app service|backup|disaster recovery|migration|cluster|hyper-v|edge)\b",
             re.IGNORECASE,
         ),
     ),
     (
         "💻 App Engineering & Software Development",
         re.compile(
-            r"\b(android|unity|streamlit|mongodb|python|codelabs|power platform|alm|c#|java|javascript|typescript|react|api|rest|graphql|flutter|web dev|node|app engine|frontend|backend)\b",
+            r"\b(android|unity|streamlit|mongodb|python|codelabs|power platform|power apps|power automate|alm|c#|dotnet|\.net|java|javascript|typescript|react|api|rest|graphql|flutter|web dev|node|app engine|frontend|backend|developer|development|code|visual studio|microservices|logic app|functions|sdk|html|css|json|xml)\b",
             re.IGNORECASE,
         ),
     ),
@@ -63,10 +63,10 @@ def calculate_domain_breakdown():
                         domain_counts[domain_name] += 1
                         matched = True
                         break
-                
+
                 if not matched:
                     domain_counts[FALLBACK_DOMAIN] += 1
-                
+
                 total_parsed += 1
 
     return domain_counts, total_parsed
@@ -78,7 +78,6 @@ def generate_llms_txt():
 
     domain_counts, total_parsed = calculate_domain_breakdown()
 
-    # Base overview counts (extracted from latest state)
     content = f"""# Vojislav Miloradovic - Machine-Readable Credentials Archive
 
 > **Last Generated:** {timestamp}
