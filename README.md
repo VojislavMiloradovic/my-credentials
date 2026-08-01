@@ -29,7 +29,7 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,780 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,780 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 - **Managing Azure NetApp Files** (Learningpaths | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/manage-azure-netapp-files/))
 - **Troubleshoot Azure NetApp Files** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/troubleshoot-azure-netapp-files/))
