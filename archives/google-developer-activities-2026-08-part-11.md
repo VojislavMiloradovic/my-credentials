@@ -2,16 +2,27 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 11 of 23
 date_range: 2026-06-05 to 2026-06-06
-total_entries: 72
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-11.md
+total_entries: 74
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-11.md
 ---
 
 # Google Developer Profile: Detailed Learning Activities & Codelabs — Part 11
 
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-10.md](google-developer-activities-2026-07-part-10.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-12.md](google-developer-activities-2026-07-part-12.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-10.md](google-developer-activities-2026-08-part-10.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-12.md](google-developer-activities-2026-08-part-12.md) | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-06 | **Build beautiful apps** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Practice: Classes and Collections** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Use collections in Kotlin** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Use nullability in Kotlin** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **More Kotlin fundamentals** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Practice: Build a grid** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Lesson 13: App UI design** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Store and access data using keys with DataStore** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Lesson 1: Kotlin basics** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Create a basic app for audio classification** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Higher-order functions with collections** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Write unit tests for ViewModel** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Build a basic layout** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Practice: Build Sports app** | Verified Google Developer granular learning activity module milestone. |
@@ -75,15 +86,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Protect yourself from online harassment** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Call Vision API Product Search backend on Android** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Build Actions for Google Assistant using Actions Builder (Level 1)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-05 | **Building watch faces for Wear OS** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-05 | **Activity embedding** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-05 | **Implement passkeys with form autofill in a web app** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-05 | **View Interoperability in Compose** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-05 | **Build a product image search backend with Vision API Product Search** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-05 | **MDC-102 Web: Material Structure and Layout (Web)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-05 | **Engage Wear OS users in new ways with the Ongoing Activity API** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-05 | **Get started with regression in iOS apps** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-05 | **Passkey integration on the server-side and user-experience upgrades** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-10.md](google-developer-activities-2026-07-part-10.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-12.md](google-developer-activities-2026-07-part-12.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-10.md](google-developer-activities-2026-08-part-10.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-12.md](google-developer-activities-2026-08-part-12.md)

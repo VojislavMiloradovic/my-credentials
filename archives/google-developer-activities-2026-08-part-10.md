@@ -2,16 +2,25 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 10 of 23
 date_range: 2026-06-06 to 2026-06-07
-total_entries: 68
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-10.md
+total_entries: 66
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-10.md
 ---
 
 # Google Developer Profile: Detailed Learning Activities & Codelabs — Part 10
 
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-09.md](google-developer-activities-2026-07-part-09.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-11.md](google-developer-activities-2026-07-part-11.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-09.md](google-developer-activities-2026-08-part-09.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-11.md](google-developer-activities-2026-08-part-11.md) | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-07 | **Build a custom, responsive chatbot on Google Cloud quiz** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Compatibility quiz** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Movie Rating Prediction with BQML using SQL** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Codelab - Build a contextual Yoga Poses recommender app with Firestore, Vector Search, Langchain and Gemini (Python version)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Build a Q&A App with Multi-Modal RAG using Gemini Pro** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Machine learning quiz** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Use convolutional neural networks (CNNs) with large datasets to avoid overfitting** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Triggering Event Processing from Cloud Storage using Eventarc and Cloud Run functions** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Build a frontend Django client for a Dialogflow app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Codelab - Build a contextual Yoga Poses recommender app with Firestore, Vector Search, Langchain and Gemini (Node.js version)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **How to connect a Go application on Cloud Run to a Cloud SQL for PostgreSQL database** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Say hello to the "Hello, World" of machine learning** | Verified Google Developer granular learning activity module milestone. |
@@ -69,17 +78,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-06 | **Project: Create a 30 Days App** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Architecture Components** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Build a custom pre-trained Audio Classification model** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Build beautiful apps** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Practice: Classes and Collections** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Use collections in Kotlin** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Use nullability in Kotlin** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **More Kotlin fundamentals** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Practice: Build a grid** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Lesson 13: App UI design** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Store and access data using keys with DataStore** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Lesson 1: Kotlin basics** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Create a basic app for audio classification** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Higher-order functions with collections** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-09.md](google-developer-activities-2026-07-part-09.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-11.md](google-developer-activities-2026-07-part-11.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-09.md](google-developer-activities-2026-08-part-09.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-11.md](google-developer-activities-2026-08-part-11.md)

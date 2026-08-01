@@ -2,16 +2,25 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 12 of 23
 date_range: 2026-06-03 to 2026-06-05
-total_entries: 65
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-12.md
+total_entries: 66
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-12.md
 ---
 
 # Google Developer Profile: Detailed Learning Activities & Codelabs — Part 12
 
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-11.md](google-developer-activities-2026-07-part-11.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-13.md](google-developer-activities-2026-07-part-13.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-11.md](google-developer-activities-2026-08-part-11.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-13.md](google-developer-activities-2026-08-part-13.md) | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Building watch faces for Wear OS** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Activity embedding** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Implement passkeys with form autofill in a web app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **View Interoperability in Compose** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Build a product image search backend with Vision API Product Search** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **MDC-102 Web: Material Structure and Layout (Web)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Engage Wear OS users in new ways with the Ongoing Activity API** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Get started with regression in iOS apps** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Passkey integration on the server-side and user-experience upgrades** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Extend an Android app to Google Assistant with App Actions (Level 2)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Quiz: Build maintainable and scalable web apps with Angular** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Build your first WebAuthn app** | Verified Google Developer granular learning activity module milestone. |
@@ -69,14 +78,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-03 | **Build an interactive poll app for Google Chat with Node.js** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Advanced Authentication features** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Firebase Cross Device Codelab** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-03 | **Use Remote Config to update your Unity game without a release quiz** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-03 | **Integrate Test Lab into your CI/CD system** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-03 | **Creating a multiplayer crossword with Gemini, Flutter, and Firebase** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-03 | **Quiz: Use MFA, blocking functions, and cross-service Security Rules** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-03 | **Firebase Testing Pathway Quiz** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-03 | **Protect your app from abuse with App Check quiz** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-03 | **Migrate existing apps to Room KMP** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-03 | **Revision 2025 Q4: Learn how to simplify auth journeys using Credential Manager API in your Android app** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-11.md](google-developer-activities-2026-07-part-11.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-13.md](google-developer-activities-2026-07-part-13.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-11.md](google-developer-activities-2026-08-part-11.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-13.md](google-developer-activities-2026-08-part-13.md)

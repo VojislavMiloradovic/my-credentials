@@ -2,16 +2,26 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 22 of 23
 date_range: 2026-05-18 to 2026-05-20
-total_entries: 63
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-22.md
+total_entries: 64
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-22.md
 ---
 
 # Google Developer Profile: Detailed Learning Activities & Codelabs — Part 22
 
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-21.md](google-developer-activities-2026-07-part-21.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-23.md](google-developer-activities-2026-07-part-23.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-21.md](google-developer-activities-2026-08-part-21.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-23.md](google-developer-activities-2026-08-part-23.md) | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-20 | **Add images to your Android app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-20 | **Add pre-order offers for one-time products** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-20 | **Add Gemini capabilities to your Android app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-20 | **AlloyDB AI Operators and Reranking** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-20 | **Bitbucket - Code Review Automation with GenAI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-20 | **AlloyDB Omni and EmbeddingGemma on Kubernetes.** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-20 | **Android App Resizing** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-20 | **Access files in Cloud Storage with the Spring Resource abstraction** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-20 | **Advanced Android in Kotlin 03.2: Animation with MotionLayout** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-20 | **Advanced State and Side Effects in Jetpack Compose** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Automatically Deploy Generative AI Next.js Web Application from Version Control to Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **AdMob+Firebase 102 Unity: Fine-tune the app behavior without an app update** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Agentverse - The Shadowblade's Codex - Vibecoding with Gemini CLI** | Verified Google Developer granular learning activity module milestone. |
@@ -66,15 +76,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-18 | **Hands-on with Gemini CLI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-18 | **A Tour of Gemini Code Assist Standard and Enterprise for Developers in Google Cloud Shell Editor** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-18 | **AI-Assisted Data Science with BigQuery** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-18 | **Debugging the Smart Home** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-18 | **Enhance and secure your Cloud-to-cloud integrations** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-18 | **ADK with Multimodal Tool Interaction : Part 1 ( Custom Tool with Model Callbacks )** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-18 | **AI Agent End to End - Workshop** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-18 | **AI Magic Wand with TensorFlow Lite for Microcontrollers and Arduino** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-18 | **Add Chat to your AppSheet apps** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-18 | **Enable local fulfillment for Cloud-to-cloud integrations** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-18 | **Accelerated Mobile Pages Foundations** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-18 | **ADK: From Basics to Multi-Tool Agents** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-21.md](google-developer-activities-2026-07-part-21.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-23.md](google-developer-activities-2026-07-part-23.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-21.md](google-developer-activities-2026-08-part-21.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-23.md](google-developer-activities-2026-08-part-23.md)

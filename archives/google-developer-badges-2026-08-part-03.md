@@ -3,12 +3,12 @@ archive_platform: Google Developer Profile (Milestone & Pathway Badges)
 chunk_part: 3 of 3
 date_range: 2026-06-05 to 2026-06-05
 total_entries: 38
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-07-part-03.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-08-part-03.md
 ---
 
 # Google Developer Profile: Milestone & Pathway Badges — Part 03
 
-> **Navigation:** Prev: [google-developer-badges-2026-07-part-02.md](google-developer-badges-2026-07-part-02.md) | [Index](./google-developer-index.md) | Next: None | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-badges-2026-08-part-02.md](google-developer-badges-2026-08-part-02.md) | [Index](./google-developer-index.md) | Next: None | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
@@ -52,4 +52,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Intro To Flutter** | Official Google Developer platform achievement (Learning Pathway: intro to flutter). |
 
 ---
-> **Navigation:** Prev: [google-developer-badges-2026-07-part-02.md](google-developer-badges-2026-07-part-02.md) | [Index](./google-developer-index.md) | Next: None
+> **Navigation:** Prev: [google-developer-badges-2026-08-part-02.md](google-developer-badges-2026-08-part-02.md) | [Index](./google-developer-index.md) | Next: None

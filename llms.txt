@@ -1,6 +1,6 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-08-01 00:35 UTC
+> **Last Generated:** 2026-08-01 00:50 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Platform Master Indexes
@@ -19,7 +19,7 @@ Recommended for models with large context windows (>100k tokens).
 - [Aws Skills Complete](./archives/aws-skills-complete.md): Full dataset (~43.4 KB, ~11,105 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
 - [Credly Badges Complete](./archives/credly-badges-complete.md): Full dataset (~82.53 KB, ~21,120 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-complete.md
 - [Google Cloud Skills Complete](./archives/google-cloud-skills-complete.md): Full dataset (~21.71 KB, ~5,555 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-complete.md
-- [Google Developer Complete](./archives/google-developer-complete.md): Full dataset (~228.4 KB, ~58,446 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md
+- [Google Developer Complete](./archives/google-developer-complete.md): Full dataset (~229.7 KB, ~58,780 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md
 - [Linkedin Certifications Complete](./archives/linkedin-certifications-complete.md): Full dataset (~264.98 KB, ~67,819 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md
 - [Microsoft Learn Complete](./archives/microsoft-learn-complete.md): Full dataset (~849.88 KB, ~217,558 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
 
@@ -29,8 +29,8 @@ Optimized for lower-capacity context tools or fast targeted queries.
 - [Aws Skills Latest Slice](./archives/aws-skills-2026-07-part-01.md): Most recent achievements for Aws Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md
 - [Credly Badges Latest Slice](./archives/credly-badges-2026-07-part-01.md): Most recent achievements for Credly Badges. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md
 - [Google Cloud Skills Latest Slice](./archives/google-cloud-skills-2026-08-part-01.md): Most recent achievements for Google Cloud Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-08-part-01.md
-- [Google Developer Activities Latest Slice](./archives/google-developer-activities-2026-07-part-01.md): Most recent achievements for Google Developer Activities. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-01.md
-- [Google Developer Badges Latest Slice](./archives/google-developer-badges-2026-07-part-01.md): Most recent achievements for Google Developer Badges. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-07-part-01.md
+- [Google Developer Activities Latest Slice](./archives/google-developer-activities-2026-08-part-01.md): Most recent achievements for Google Developer Activities. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-01.md
+- [Google Developer Badges Latest Slice](./archives/google-developer-badges-2026-08-part-01.md): Most recent achievements for Google Developer Badges. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-08-part-01.md
 - [Linkedin Certifications Latest Slice](./archives/linkedin-certifications-2026-07-part-01.md): Most recent achievements for Linkedin Certifications. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-01.md
 - [Microsoft Learn Latest Slice](./archives/microsoft-learn-2026-07-part-01.md): Most recent achievements for Microsoft Learn. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-01.md
 

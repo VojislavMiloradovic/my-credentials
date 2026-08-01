@@ -3,15 +3,23 @@ archive_platform: Google Developer Profile (Detailed Learning Activities & Codel
 chunk_part: 18 of 23
 date_range: 2026-05-23 to 2026-05-24
 total_entries: 63
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-18.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-18.md
 ---
 
 # Google Developer Profile: Detailed Learning Activities & Codelabs — Part 18
 
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-17.md](google-developer-activities-2026-07-part-17.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-19.md](google-developer-activities-2026-07-part-19.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-17.md](google-developer-activities-2026-08-part-17.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-19.md](google-developer-activities-2026-08-part-19.md) | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-24 | **Run the WRF Weather Forecasting Model with Fluid Numerics' Slurm-GCP** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Signed container image codelab** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **How to Use Cloud Run Jobs & Video Intelligence APIs to process videos** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Connect to on-prem services over Hybrid Networking using Private Service Connect and Hybrid NEG with Internal HTTP(s) load balancer** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Introduction to Compose for TV** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Secure shared data in use with Confidential Space** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Integrating Magento with Cloud Spanner** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **Jetpack Compose Navigation** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Simple Animation with Jetpack Compose** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Microservice Rainbow Rumpus** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Build and test a parked app for Android Automotive OS** | Verified Google Developer granular learning activity module milestone. |
@@ -67,14 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-23 | **Use Gemini CLI Security Extension for GitHub PR reviews** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Quick guide to Gemini CLI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Multimodal Embeddings in AlloyDB** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Building Knowledge Graphs with Gemini** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Building AI Agents with ADK: Data Analyst Agent** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Scale your Video Insights Pipeline with Cloud Run Jobs, BigQuery, and Gemini** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Design-to-Code with Antigravity and Stitch MCP** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **The Private Vault: Building "Zero Trust Intelligence" with AlloyDB Row-Level Security** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Evaluate RAG Systems with Vertex AI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Zero ETL Data Federation from BigQuery to AlloyDB** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Vibe Code with Gemini in Google AI Studio** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-17.md](google-developer-activities-2026-07-part-17.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-19.md](google-developer-activities-2026-07-part-19.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-17.md](google-developer-activities-2026-08-part-17.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-19.md](google-developer-activities-2026-08-part-19.md)

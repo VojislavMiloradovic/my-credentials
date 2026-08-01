@@ -3,15 +3,24 @@ archive_platform: Google Developer Profile (Detailed Learning Activities & Codel
 chunk_part: 14 of 23
 date_range: 2026-05-27 to 2026-05-31
 total_entries: 65
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-14.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-14.md
 ---
 
 # Google Developer Profile: Detailed Learning Activities & Codelabs — Part 14
 
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-13.md](google-developer-activities-2026-07-part-13.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-15.md](google-developer-activities-2026-07-part-15.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-13.md](google-developer-activities-2026-08-part-13.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-15.md](google-developer-activities-2026-08-part-15.md) | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-31 | **Local Development with the Firebase Emulator Suite** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Build robust, distributed leaderboards with Cloud Firestore quiz** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Develop locally with Firebase quiz** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Getting started with the Gemini API and Web Apps** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Starting Android Accessibility** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Build leaderboards with Firestore** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Message your users with Firebase Cloud Messaging and Firebase In-App Messaging on Android quiz** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Add Firebase to your Flutter app quiz** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Learn HTML** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Use FCM and FIAM to send messages to users** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Get to know Firebase for Flutter** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Build robust, distributed leaderboards with Cloud Firestore** | Verified Google Developer granular learning activity module milestone. |
@@ -68,15 +77,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-27 | **Use Confidential Space with protected resources that aren't stored with a cloud provider** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **Receive location updates in Android with Kotlin** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **GitLab - Code Review Automation with GenAI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Create Custom Visualizations in Data Studio** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Track Events in a WebView with Google Analytics for Firebase** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Material's Communication Principles: Intro to UX Writing** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **InnerLoop Development with NodeJS** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Deploying Open Models on GKE** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **GitHub - Code Review Automation with GenAI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Vertex AI Vision Queue Detection App** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Spring Native on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Customizing Material color** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-13.md](google-developer-activities-2026-07-part-13.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-15.md](google-developer-activities-2026-07-part-15.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-13.md](google-developer-activities-2026-08-part-13.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-15.md](google-developer-activities-2026-08-part-15.md)

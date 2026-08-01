@@ -1,17 +1,25 @@
 ---
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 20 of 23
-date_range: 2026-05-20 to 2026-05-21
-total_entries: 62
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-20.md
+date_range: 2026-05-21 to 2026-05-21
+total_entries: 61
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-20.md
 ---
 
 # Google Developer Profile: Detailed Learning Activities & Codelabs — Part 20
 
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-19.md](google-developer-activities-2026-07-part-19.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-21.md](google-developer-activities-2026-07-part-21.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-19.md](google-developer-activities-2026-08-part-19.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-21.md](google-developer-activities-2026-08-part-21.md) | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-21 | **Raw data to forecasting in seconds with AI agents** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-21 | **Build a full-stack Dart app with Cloud Functions for Firebase** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-21 | **Getting started with Hybrid Search in AlloyDB** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-21 | **Detecting and Editing Visual Objects with Gemini and Nano Banana** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-21 | **Building a cross-cloud open data lakehouse** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-21 | **Building a Multi-Agent System** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-21 | **Agent Starter Pack with the ADK for Go** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-21 | **Build and Deploy to Google Cloud with Antigravity** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Implement Subscription replacements with Google Play Billing** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Build a Supply Chain Orchestrator with ADK, AlloyDB, and Vertex AI Memory Bank** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Learn Android XR Fundamentals: Part 2 - Orbiters and Spatial Environments** | Verified Google Developer granular learning activity module milestone. |
@@ -65,15 +73,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-21 | **Building AI Agents with ADK: Empowering with Tools** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Build a Multi-Agent Creative Studio with Google's Agent Stack: ADK, A2A, MCP on Cloud Run & Agent Runtime** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Multi-Agent Systems with Agent2Agent** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-21 | **👗 Build a Virtual Fitting Room & AI Stylist with Flutter, ADK Go & Gemini** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-21 | **Connect Your Agentforce Sales Agent to Gemini Enterprise** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-21 | **Stateful Data Science Agent on Agent Engine** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-21 | **Platform Engineering AI with GKE and Gemini CLI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **Add Sign in with Google to an iOS app** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **Approximate location** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **Agents CLI in Agent Platform: From Development to Production** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **Activity Recognition Transition API Codelab** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **Anthos Service Mesh Workshop: Lab Guide - Japanese** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-19.md](google-developer-activities-2026-07-part-19.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-21.md](google-developer-activities-2026-07-part-21.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-19.md](google-developer-activities-2026-08-part-19.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-21.md](google-developer-activities-2026-08-part-21.md)

@@ -2,16 +2,25 @@
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
 chunk_part: 23 of 23
 date_range: 2026-05-16 to 2026-05-18
-total_entries: 13
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-23.md
+total_entries: 22
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-23.md
 ---
 
 # Google Developer Profile: Detailed Learning Activities & Codelabs — Part 23
 
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-22.md](google-developer-activities-2026-07-part-22.md) | [Index](./google-developer-index.md) | Next: None | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-22.md](google-developer-activities-2026-08-part-22.md) | [Index](./google-developer-index.md) | Next: None | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-18 | **Debugging the Smart Home** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-18 | **Enhance and secure your Cloud-to-cloud integrations** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-18 | **ADK with Multimodal Tool Interaction : Part 1 ( Custom Tool with Model Callbacks )** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-18 | **AI Agent End to End - Workshop** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-18 | **AI Magic Wand with TensorFlow Lite for Microcontrollers and Arduino** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-18 | **Add Chat to your AppSheet apps** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-18 | **Enable local fulfillment for Cloud-to-cloud integrations** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-18 | **Accelerated Mobile Pages Foundations** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-18 | **ADK: From Basics to Multi-Tool Agents** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-18 | **Connect smart home devices to the Google Assistant** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-18 | **Generating Consistent Imagery with Gemini Nano Banana** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-18 | **Accelerate Spark with Managed Service for Apache Spark and Lightning Engine** | Verified Google Developer granular learning activity module milestone. |
@@ -27,4 +36,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-16 | **ADK Crash Course - From Beginner To Expert** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-22.md](google-developer-activities-2026-07-part-22.md) | [Index](./google-developer-index.md) | Next: None
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-22.md](google-developer-activities-2026-08-part-22.md) | [Index](./google-developer-index.md) | Next: None

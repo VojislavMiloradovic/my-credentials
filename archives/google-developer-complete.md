@@ -179,12 +179,20 @@ Historical verified record tracking all achievements.
 | 2026-06-05 | **Springboot** | Official Google Developer platform achievement (Learning Pathway: springboot). |
 | 2026-06-05 | **Intro To Flutter** | Official Google Developer platform achievement (Learning Pathway: intro to flutter). |
 
-## Detailed Learning Activities & Codelabs (1438)
+## Detailed Learning Activities & Codelabs (1446)
 
 | Date Earned | Codelab / Activity Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-01 | **Run a personal agent on a Cloud Run service (coffee shop manager assistant)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-01 | **Anti-Money Laundering & Fraud Prevention with BigQuery GraphRAG** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-01 | **Build and Deploy AI Agents with Gemini and BigQuery MCP server in Cloud Run** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-01 | **ADK 2 Orchestration: Graph, Collaborative & Dynamic Workflows** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-01 | **Deploy a RAG AI Agent in Streamlit using Google ADK and Cloud Run** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-01 | **Build and Deploy AI Agents with Gemma 4 and BigQuery MCP server in Cloud Run** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-01 | **Deploy a Python App to Cloud Run (Streamlit)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-01 | **Agent-to-Agent Engineering: Build, Deploy, and Embed ADK Agents with Antigravity CLI and agents-cli** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-29 | **Optimizing Unity Games for Large Screens and Foldables** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-29 | **OSS Kubernetes on GCE with TPUs, DRA (OSS) and Gemma 4** | Verified Google Developer granular learning activity module milestone. |
+| 2026-07-29 | **OSS Kubernetes on GCE with TPUs, DRA for TPU, DRANET (OSS) and Gemma 4** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-26 | **Going Multimodal with Agent Development Kit: Personal Expense Assistant with Gemini 2.5, Firestore and Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-23 | **Level Up Your Game: Google Play Games Services Setup in Unity** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-21 | **Build and publish your first Android app with AI Studio** | Verified Google Developer granular learning activity module milestone. |

@@ -3,15 +3,23 @@ archive_platform: Google Developer Profile (Detailed Learning Activities & Codel
 chunk_part: 16 of 23
 date_range: 2026-05-24 to 2026-05-26
 total_entries: 63
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-16.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-16.md
 ---
 
 # Google Developer Profile: Detailed Learning Activities & Codelabs — Part 16
 
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-15.md](google-developer-activities-2026-07-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-17.md](google-developer-activities-2026-07-part-17.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-15.md](google-developer-activities-2026-08-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-17.md](google-developer-activities-2026-08-part-17.md) | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-26 | **Recognize, Identify Language and Translate text with ML Kit and CameraX: Android** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-26 | **Cloud Function for content summarization using PaLM Vertex AI API and Google Cloud Storage** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-26 | **Looker PSC Northbound Regional External L7 ALB** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-26 | **MDC-104 Android: Material Advanced Components (Java)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-26 | **Unlock new markets with regional product pricing** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-26 | **Prototyping models in AI Platform Notebooks** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-26 | **Triggering Workflows with Eventarc** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-26 | **Time Series Forecasting with Vertex AI and BigQuery ML** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Cloud NGFW Essentials for Load Balancers** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Deploy from AI Studio to Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Integrating Remote Config on Android Codelab** | Verified Google Developer granular learning activity module milestone. |
@@ -67,14 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-24 | **Power your Agentic System with HTAP in AlloyDB** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Using TLS for Secure Online Predictions with Vertex AI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **MDC-103 Flutter: Material Theming with Color, Shape, Elevation, and Type** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Foundational Governance with Knowledge Catalog Universal Catalog: Getting Started** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **IP addressing options IPv4 and IPv6** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Manage FHIR Data from Android App with OHS and Google Cloud** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Configuring Eventarc to trigger Workflows that integrate with GKE Autopilot and Pub/Sub** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Google Ads with Google Analytics for Firebase custom events - iOS** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Reverse ETL from Databricks to Spanner using BQ** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Testing for Accessibility** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Developing Containers with Dockerfiles** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-07-part-15.md](google-developer-activities-2026-07-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-17.md](google-developer-activities-2026-07-part-17.md)
+> **Navigation:** Prev: [google-developer-activities-2026-08-part-15.md](google-developer-activities-2026-08-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-17.md](google-developer-activities-2026-08-part-17.md)
