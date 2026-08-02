@@ -64,7 +64,7 @@ def read_portfolio_counts() -> dict:
 
     _TOTAL = re.compile(r"Total[^:]*:\**\s*([\d,]+)", re.IGNORECASE)
 
-    counts = {
+    counts = {.
         "ms_learn_units": "[unavailable]",
         "ms_learn_xp": "[unavailable]",
         "ms_learn_badges": "[unavailable]",
@@ -96,7 +96,7 @@ def read_portfolio_counts() -> dict:
                 ]:
                     m = re.search(label, block, re.IGNORECASE)
                     if m:
-                        counts[key] = m.group(1).replace(",", ""
+                        counts[key] = m.group(1).replace(",", "")
         except Exception as e:
             print(f"⚠️ Warning reading {README_PATH}: {e}")
     else:
