@@ -1,5 +1,4 @@
 import sys
-
 from generate_jsonld import parse_archive_monoliths
 
 filepath = "archives/google-cloud-skills-complete.md"
