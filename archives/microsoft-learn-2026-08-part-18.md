@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 18 of 93
-date_range: 2026-05-09 to 2026-05-15
+date_range: 2026-05-11 to 2026-05-17
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-18.md
 ---
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Device management with Microsoft Intune | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-intune-2026/) |
+| Apply responsible AI creation principles in the classroom, developed in partnership with ISTE+ASCD | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-creation-principles-classroom/) |
+| Create and engage with AI | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-engage-ai/) |
+| Hotpatch updates for Windows client devices | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/hotpatch-updates-2026/) |
+| Device deployment with Windows Autopilot | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-autopilot-2026/) |
+| Introduction to Azure IoT Hub | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-iot-hub/) |
+| Manage security for Arc-enabled hybrid servers | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-security-azure-arc-servers/) |
+| Manage and right-size RBAC role assignments for least privilege | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-right-size-rbac-role-assignments/) |
+| Implement security controls in infrastructure as code | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-infrastructure-as-code/) |
+| Implement disk encryption for Azure virtual machines | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-disk-encryption-azure-virtual-machines/) |
+| Enforce VM security configuration with Azure Machine Configuration | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-vm-security-machine-configuration/) |
+| Enable and enforce just-in-time VM access | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-enforce-just-in-time-vm-access/) |
+| Secure Azure application platform services for the cloud and AI security engineer | Learningpaths | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-application-platform-services/) |
+| Implement security controls for Azure Function apps and Logic apps | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-function-logic-apps/) |
+| Unlock insights with analytics and reporting in Dynamics 365 Contact Center | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/analytics-reporting-contact-center/) |
+| Design and deploy intelligent voice agents in Dynamics 365 Contact Center | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-voice-agents-contact-center/) |
+| Image classification using Azure Sphere | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/image-classification-azure-sphere/) |
 | Prompt with purpose, in partnership with ISTE+ASCD | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/prompt-with-purpose/) |
 | Get more done with Copilot Cowork | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/delegate-work-copilot-cowork/) |
 | Design AI for good, in partnership with ISTE+ASCD | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ai-for-good/) |
@@ -46,23 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Ingest data into Unity Catalog | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-into-unity-catalog/) |
 | Implement development lifecycle processes in Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-development-lifecycle-processes-in-azure-databricks/) |
 | Deploy and maintain data pipelines and workloads with Azure Databricks | Learningpaths | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-deploy-maintain-data-pipelines-workloads/) |
-| Implement and manage data quality constraints with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-data-quality-constraints-unity-catalog/) |
-| Implement Lakeflow Jobs with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-lakeflow-jobs/) |
-| Design and implement data pipelines with Azure Databricks | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-data-pipelines/) |
-| Create and organize objects in Unity Catalog | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-and-organize-objects-in-unity-catalog/) |
-| Configure security controls and remediate recommendations in Defender for Cloud | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-defender-cloud-security-controls/) |
-| Cleanse, transform, and load data into Unity Catalog | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cleanse-transform-load-data-into-unity-catalog/) |
-| Support adoption essentials | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-essentials-to-support-adoption/) |
-| Coach care out loud | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-coach-care-out-loud-as-a-champion/) |
-| Coach basic skills | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-model-and-coach-core-workflows/) |
-| Get started with Copilot in Microsoft Fabric for Data Warehouse | Modules | 2026-05-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-copilot-fabric-data-warehouse/) |
-| Deploy applications to Azure Kubernetes Service | Modules | 2026-05-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-apps-azure-kubernetes-service/) |
-| Welcome to Dragon Copilot (physicians) learn to train | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-welcome-to-learn-to-train/) |
-| Get started with Sustainability agent in Copilot Studio | Learningpaths | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sustainability-copilots/) |
-| Gain sustainability insights using Copilot Studio | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-insights-copilot/) |
-| Enable real-time protection for Copilot Studio agents | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-protection-copilot-studio-agents/) |
-| Configure AI Gateway security in Microsoft Foundry | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ai-gateway-security-foundry/) |
-| Welcome to Dragon Copilot for nurse leaders | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurse-leaders-welcome/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-17.md](microsoft-learn-2026-08-part-17.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-19.md](microsoft-learn-2026-08-part-19.md)

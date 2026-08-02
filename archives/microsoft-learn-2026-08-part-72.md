@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 72 of 93
-date_range: 2025-12-24 to 2025-12-25
-total_entries: 54
+date_range: 2025-12-24 to 2025-12-26
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-72.md
 ---
 
@@ -12,6 +12,21 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Automate system, workstation, and services actions in Power Automate for desktop | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-system-services-actions/) |
+| Get help and learn more about finance and operations apps | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-help-finance-operations/) |
+| Control Azure services with the CLI | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-azure-services-with-cli/) |
+| Visualize data with Dataverse views | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/visualize-data/) |
+| Drive value and maximize the impact of Microsoft 365 Copilot within your organization | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/phase-three-drive-value/) |
+| MS-4007: Discover how to drive enablement of Microsoft 365 Copilot in your organization | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-how-drive-adoption-microsoft-copilot-m365/) |
+| Onboard and empower your employees to use Microsoft 365 Copilot efficiently | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/phase-two-onboard/) |
+| Envision a successful adoption of Microsoft 365 Copilot | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/phase-one-envision/) |
+| Explore user enablement strategies for adopting Microsoft 365 Copilot | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-adoption-framework/) |
+| Extend and optimize Microsoft 365 Copilot in your organization | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-optimize-copilot-m365/) |
+| Use Power Automate for desktop to interact with windows and applications | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-ui-automation/) |
+| Deploy a containerized application on Azure Kubernetes Service | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/aks-deploy-container-app/) |
+| Introduction to Kubernetes on Azure | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-kubernetes-on-azure/) |
+| Tailoring trainings with AI | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/tailoring-trainings-with-ai/) |
+| Design a machine learning operations solution | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-machine-learning-operations-solution/) |
 | Manage process mining projects | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-process-mining/) |
 | Interactively debug .NET apps with the Visual Studio Code debugger | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-debug/) |
 | Build .NET applications with C# | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-dotnet-applications-csharp/) |
@@ -36,8 +51,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Create a model-driven Power Apps app for machine ordering - Online Workshop | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-model-driven-apps-online-workshop/) |
 | Introduction to Azure Bot Service and Bot Framework Composer | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-bot-service-bot-framework-composer/) |
 | Document and test your Power Apps application | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-test-powerapps-app/) |
-| Bringing it all together for engaging virtual events in Microsoft 365 | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-bring-all-together-engaging-virtual-events/) |
 | Deliver engaging and accessible virtual events with Microsoft Teams and Microsoft 365 | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-virtual-events-fundamentals/) |
+| Bringing it all together for engaging virtual events in Microsoft 365 | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-bring-all-together-engaging-virtual-events/) |
 | Design a successful virtual event using Microsoft 365 | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-design-successful-virtual-events/) |
 | Introduction to delivering virtual events using Microsoft Teams and Microsoft 365 | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-introduction-deliver-virtual-events-using-microsoft-teams/) |
 | Discover AI for leaders in healthcare | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-healthcare-industry/) |
@@ -48,24 +63,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Evaluate deployment methods | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-deployment-methods/) |
 | Align requirements with cloud types and service models in Azure | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/align-requirements-in-azure/) |
 | Leverage data for action with Microsoft Education Insights | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/leverage-data-for-action-microsoft-insights/) |
-| Deploy and refine your app like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-refine-app/) |
 | Think like a Maker series: Plan and deploy your Power App | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-deploy/) |
-| Test your app like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-app/) |
-| Make your app like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/make-app/) |
-| Design your app like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-app/) |
-| Plan your project like a pro | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-app-project/) |
-| Introduction to Azure Firewall | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-firewall/) |
-| Introduction to Microsoft Defender XDR | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-introduction/) |
-| Microsoft Search fundamentals | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-search-fundamentals/) |
-| Increase Microsoft Search adoption, monitor usage, and maintain answers | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-search-adoption-usage-maintain/) |
-| Manage access, add entry points, and review Microsoft Search feedback | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-search-manage-access-entry-points-feedback/) |
-| Use and customize Microsoft Search for schools | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-search-edu/) |
-| Create and customize Microsoft Search answers | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-search-create-customize-answers/) |
-| Assign admins and plan content for Microsoft Search | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-search-assign-admin-plan/) |
-| Introduction to Microsoft Search | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-search-intro/) |
-| Bring more of your data to Microsoft Search | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-search-connectors/) |
-| Monitor and troubleshoot Windows client performance | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-windows-client-performance/) |
-| MD-100 Support the Windows client environment | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/support-windows-client-environment/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-71.md](microsoft-learn-2026-08-part-71.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-73.md](microsoft-learn-2026-08-part-73.md)

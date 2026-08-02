@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 65 of 93
-date_range: 2026-01-03 to 2026-01-05
-total_entries: 54
+date_range: 2026-01-04 to 2026-01-06
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-65.md
 ---
 
@@ -12,6 +12,22 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Deploy a Jakarta EE application to Azure | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-java-ee-app-to-jboss-app-service/) |
+| Architect API integration in Azure | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-api-integration/) |
+| Manage your generative AI APIs with Azure API Management | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/api-management/) |
+| Implement generative AI guardrails with Azure AI Content Safety | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/moderate-content-detect-harm-azure-ai-content-safety/) |
+| Go to market through the commercial marketplace | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/go-to-market-commercial-marketplace/) |
+| Sell through the commercial marketplace | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/sell-through-commercial-marketplace/) |
+| Overview of Dynamics 365 Sales Professional | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/overview-d365-sales-professional/) |
+| Stay current with Windows devices and Microsoft 365 Apps | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-stay-current/) |
+| Plan to deploy updates for Windows clients and Microsoft 365 apps | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-plan/) |
+| Prepare to deploy updates for Windows client and Microsoft 365 apps | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-prepare/) |
+| Increase educator adoption of Education Insights | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/increase-educator-adoption-insights/) |
+| Learning Accelerators for education partners | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/learning-accelerators-education-partners/) |
+| Increase educator adoption of Reading Progress and Reading Coach | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/increase-educator-adoption-reading-progress-coach/) |
+| Introduction to Learning Accelerators | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-learning-accelerators/) |
+| Increase educator adoption of Reflect | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/increase-educator-adoption-reflect/) |
+| Introduction to the Microsoft commercial marketplace | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-commercial-marketplace/) |
 | Describe significant government strategy actions | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-significant-government-strategy-actions/) |
 | Describe governmental cloud strategy | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-governmental-cloud-strategy/) |
 | Describe the government and its structure | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-government-its-structure/) |
@@ -24,8 +40,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Explore API Management | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-api-management/) |
 | Secure outbound internet connectivity for Azure VMware Solution | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-vmware-solution/) |
 | Introduction to the Partner Success Series | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-partner-success-series/) |
-| Introduction to Azure hybrid connectivity services | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-hybrid-connectivity-services/) |
 | Introduction to Azure ExpressRoute | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-expressroute/) |
+| Introduction to Azure hybrid connectivity services | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-hybrid-connectivity-services/) |
 | Introduction to Azure Advisor | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-advisor/) |
 | Create subflows and web automation with Power Automate for desktop - Online workshop | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-subflows-web-automation-online-workshop/) |
 | Power Automate: Automation - Online Workshop | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
@@ -50,22 +66,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build a Connect Four game with Blazor | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-connect-four/) |
 | Minecraft block coding academy | Learningpaths | 2026-01-04 | N/A |
 | Transition to Python in Minecraft Education | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-python-minecraft-education-edition/) |
-| Build programs using Python coding in Minecraft with Azure Notebooks | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-programs-use-python-coding-minecraft-azure-notebooks/) |
 | Minecraft Python coding academy | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-python-coding-academy/) |
-| Testing with Pytest | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-python-with-pytest/) |
-| Get started using Power Platform with finance and operations apps | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-power-platform-with-finance-operations/) |
-| Set up and build mobile experiences for finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/mobile-experiences-finance-operations/) |
-| Work with workflows in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-use-workflows-finance-operations/) |
-| Set up batch jobs in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-batch-jobs-finance-operations/) |
-| Plan and implement security in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-security-finance-operations/) |
-| Plan and implement legal entities in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-legal-entities-finance-operations/) |
-| Plan and configure the global address book in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-config-global-address-book-finance-operations/) |
-| Feature management in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/feature-management-finance-operations/) |
-| Get started with a finance and operations implementation project | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-implementation-project/) |
-| Implement role-based security in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/role-security-finance-operations/) |
-| Create classes in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-classes-finance-operations/) |
-| Build forms and optimize form performance in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-forms-optimize-finance-operations/) |
-| Build extended data types and enumerations for finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-edt-enums-finance-operations/) |
+| Build programs using Python coding in Minecraft with Azure Notebooks | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-programs-use-python-coding-minecraft-azure-notebooks/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-64.md](microsoft-learn-2026-08-part-64.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-66.md](microsoft-learn-2026-08-part-66.md)

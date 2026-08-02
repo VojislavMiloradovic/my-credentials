@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 21 of 93
-date_range: 2026-04-28 to 2026-05-02
+date_range: 2026-04-29 to 2026-05-02
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-21.md
 ---
@@ -12,6 +12,22 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Configure auditing for Azure SQL Database and SQL Managed Instance | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-sql-auditing/) |
+| Qualify leads using the Sales Qualification Agent in Dynamics 365 Sales | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/sales-qualification-agent-dynamics-365-sales/) |
+| Close deals using AI agents in Dynamics 365 Sales | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-deals-using-ai-agents-dynamics-365-sales/) |
+| Analyze sales performance using AI, forecasting, and dashboards in Dynamics 365 Sales | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-forecast-sales-performance-dynamics-365-sales/) |
+| Implement Microsoft Defender for Databases | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-databases/) |
+| Transform data using notebooks in Microsoft Fabric | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/fabric-transform-data-notebooks/) |
+| Transform data using T-SQL in Microsoft Fabric | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/fabric-transform-data-tsql/) |
+| Transform data using Dataflows Gen2 in Microsoft Fabric | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/fabric-transform-data-dataflows/) |
+| Protect and remediate sensitive data in Microsoft Purview | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-posture-management-protect-remediate/) |
+| Manage the semantic model development lifecycle | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-semantic-model-lifecycle/) |
+| Govern analytics data in Microsoft Fabric | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/fabric-govern-analytics-data/) |
+| Secure and govern analytics data in Microsoft Fabric | Learningpaths | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-govern-analytics-data/) |
+| Get started with Microsoft Fabric | Learningpaths | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/) |
+| Design semantic models for scale in Microsoft Fabric | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-semantic-models-scale/) |
+| Welcome to Dragon Copilot (nurses) learn to train | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-learn-to-train-welcome/) |
+| Extend Dynamics 365 apps with Power Platform and Copilot Studio | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-dynamics365-apps-power-platform/) |
 | Investigate data security risks with Microsoft Purview Data Security Posture Management | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-posture-management-investigate-risks/) |
 | Configure workspaces for Microsoft Security Copilot | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-security-copilot-workspaces/) |
 | Manage plugins and agents in Microsoft Security Copilot | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-plugins-agents-security-copilot/) |
@@ -47,22 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage nonprofit fundraising and engagement with Microsoft for Nonprofits | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/nonprofit-fundraising-engagement/) |
 | Manage memberships in Fundraising and Engagement | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-membership-fundraising-engagement/) |
 | Foster health team collaboration with Microsoft for Healthcare | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/healthcare-health-team/) |
-| Home health in Microsoft for Healthcare | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/home-health/) |
-| Manage events in Fundraising and Engagement | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-events-fundraising-engagement/) |
-| Moves management to raise major gifts with Fundraising and Engagement | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/moves-management/) |
-| Set up insurances in Dynamics 365 Business Central | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-insurances/) |
-| Extend Universal Resource Scheduling with Dynamics 365 Project Operations | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-universal-resource-scheduling/) |
-| Extend Dynamics 365 Project Operations | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-project-operations/) |
-| Publish metrics data for audit disclosures using Compliance Manager | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-audit-disclosures/) |
-| Manage healthcare data with Care Management in Microsoft for Healthcare | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-care-management/) |
-| Convert prospects in Dynamics 365 Sales to customers in Dynamics 365 Supply Chain Management | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/convert-prospects-sales-customers/) |
-| The value of genuine Windows | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/value-genuine-windows/) |
-| Introduction to audio classification with TensorFlow | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-audio-classification-tensorflow/) |
-| Confirming access and assigning roles in Surface portals | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/confirm-access-assign-roles/) |
-| Design agent conversations using topics | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-studio-topics/) |
-| Register and Set Up Azure NetApp Files | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/managing-azure-netapp-files-register-setup/) |
-| Microsoft tenant setup for Surface Support Portal access | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/tenant-setup-surface/) |
-| Work with export control in Dynamics 365 Supply Chain Management | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-export-control-supply-chain-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-20.md](microsoft-learn-2026-08-part-20.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-22.md](microsoft-learn-2026-08-part-22.md)

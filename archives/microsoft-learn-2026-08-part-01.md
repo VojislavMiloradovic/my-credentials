@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 1 of 93
-date_range: 2026-07-24 to 2026-07-30
+date_range: 2026-07-24 to 2026-08-02
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-01.md
 ---
@@ -12,6 +12,21 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Secure sensitive data with Microsoft Purview Ninja training scenarios | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-ninja-safeguard-data/) |
+| Safeguard sensitive data in remote work with Endpoint DLP | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-safeguard-remote-work/) |
+| Protect sensitive data with DLP in Exchange, SharePoint, OneDrive, and Teams | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-prevent-data-loss-share-transfer/) |
+| Efficiently investigate data risks with Security Copilot in Microsoft Purview | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-security-copilot/) |
+| Classify and protect sensitive data with sensitivity labels | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-label-sensitive-data/) |
+| Discover and define sensitive information types | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-discover-define-sits/) |
+| Fundamentals of Bicep | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/) |
+| Build flexible Bicep files by using conditions and loops | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-files-conditions-loops/) |
+| Build reusable Bicep files by using parameters | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reusable-bicep-files-parameters/) |
+| Build your first Bicep file | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-bicep-file/) |
+| Introduction to retrieval-augmented generation concepts | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/rag-fundamentals/) |
+| AI concepts for developers and technology professionals | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-concepts/) |
+| Get started with Microsoft Foundry IQ | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-foundry-iq/) |
+| Get started with AI applications and agents on Azure | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-ai-apps-agents/) |
+| Introduction to Azure Copilot | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-copilot/) |
 | Managing Azure NetApp Files | Learningpaths | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-azure-netapp-files/) |
 | Troubleshoot Azure NetApp Files | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-azure-netapp-files/) |
 | Manage operations and monitoring in Power Platform | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-operations-monitoring/) |
@@ -52,21 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Configure the Dataverse security model in Power Platform | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-dataverse-security-model/) |
 | Audit and retain Dataverse data in Power Platform | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-retain-dataverse-data/) |
 | Streamline development workflows with Windows 11 | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-for-developers/) |
-| Secure email and collaboration with Microsoft Defender for Office 365 | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-email-collaboration-defender-office365/) |
-| Provision and brand a Microsoft 365 tenant | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-brand-microsoft-365-tenant/) |
-| Prevent data loss and govern the data lifecycle with Microsoft Purview | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/prevent-data-loss-lifecycle-purview/) |
-| Monitor and optimize Microsoft 365 AI services | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-optimize-m365-ai-services/) |
-| License Microsoft 365 and AI services at scale | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/license-microsoft-365-ai-services/) |
-| Keep a Microsoft 365 tenant resilient and healthy | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-microsoft-365-tenant-health/) |
-| Implement authentication and access in Microsoft Entra | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-authentication-access-entra/) |
-| Establish agent identities and secure access with Microsoft Entra Agent ID | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/establish-agent-identities-entra-agent-id/) |
-| Curate and control agents with the Agent Registry and Agent 365 tools | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/curate-control-agents-registry-tools/) |
-| Configure Microsoft 365 Copilot settings and extensibility | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-copilot-settings-extensibility/) |
-| Configure Exchange Online and Microsoft Teams workloads | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-exchange-teams/) |
-| Assess readiness and roll out Microsoft 365 Copilot | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-manage-microsoft-365-copilot/) |
-| Secure tenants and environments in Power Platform | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-tenant-environments/) |
-| Manage environments in Power Platform | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-power-platform-environments/) |
-| Govern data policies in Power Platform | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-data-policies/) |
 
 ---
 > **Navigation:** Prev: None | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-02.md](microsoft-learn-2026-08-part-02.md)

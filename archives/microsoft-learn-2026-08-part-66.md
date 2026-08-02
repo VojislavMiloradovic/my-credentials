@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 66 of 93
-date_range: 2026-01-01 to 2026-01-03
-total_entries: 53
+date_range: 2026-01-02 to 2026-01-04
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-66.md
 ---
 
@@ -12,6 +12,20 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Testing with Pytest | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-python-with-pytest/) |
+| Get started using Power Platform with finance and operations apps | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-power-platform-with-finance-operations/) |
+| Set up and build mobile experiences for finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/mobile-experiences-finance-operations/) |
+| Work with workflows in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-use-workflows-finance-operations/) |
+| Set up batch jobs in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-batch-jobs-finance-operations/) |
+| Plan and implement security in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-security-finance-operations/) |
+| Plan and implement legal entities in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-legal-entities-finance-operations/) |
+| Plan and configure the global address book in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-config-global-address-book-finance-operations/) |
+| Feature management in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/feature-management-finance-operations/) |
+| Get started with a finance and operations implementation project | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-implementation-project/) |
+| Implement role-based security in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/role-security-finance-operations/) |
+| Create classes in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-classes-finance-operations/) |
+| Build forms and optimize form performance in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-forms-optimize-finance-operations/) |
+| Build extended data types and enumerations for finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-edt-enums-finance-operations/) |
 | Start developing for finance and operations apps by using Visual Studio | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-visual-studio-finance-operations/) |
 | Set up and work in the finance and operations apps developer environment | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/finance-operations-developer-environment/) |
 | Build data models in finance and operations apps | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-tables-finance-operations/) |
@@ -48,23 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with the Power Automate Process Mining desktop app | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-mining-desktop-app/) |
 | Use process mining in Power Automate web portal | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-process-mining/) |
 | Publish an API to Azure Static Web Apps | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-static-web-app-api-preview-url/) |
-| Publish an Angular, React, Svelte, or Vue JavaScript app with Azure Static Web Apps | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-app-service-static-web-app-api/) |
-| Build psychological safety | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-build-psychological-safety/) |
-| Learn the basics of psychological safety | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-basics-psychological-safety/) |
-| The importance of psychological safety for managers | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-psychological-safety/) |
-| Design for accessibility in Dynamics 365 | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-accessibility-dynamics-365/) |
-| Introduction to Azure Files | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-files/) |
-| Microsoft for Healthcare Overview | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-overview/) |
-| Introduction to custom engine agents | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-custom-engine-agents-intro/) |
-| Build and manage an agent | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-manage-no-code-copilot-agent-sharepoint/) |
-| Transform your everyday business processes with agents | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-no-code-copilot-agents-microsoft-365-sharepoint/) |
-| Share and use agents | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-no-code-agents-sharepoint/) |
-| Introduction to Azure NetApp Files | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-netapp-files/) |
-| Run functional tests in Azure Pipelines | Modules | 2026-01-02 | N/A |
-| Fundamentals of Terraform on Azure | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/terraform-fundamentals/) |
-| Introduction to infrastructure as code using Terraform | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/terraform-introduction-to-infrastructure-as-code/) |
-| Introduction to quantum computing with Azure Quantum | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-quantum/) |
-| Explore advanced configuration methods | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-advanced-configuration-methods/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-65.md](microsoft-learn-2026-08-part-65.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-67.md](microsoft-learn-2026-08-part-67.md)

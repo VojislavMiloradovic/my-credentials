@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 60 of 93
-date_range: 2026-01-17 to 2026-01-19
-total_entries: 53
+date_range: 2026-01-18 to 2026-01-20
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-60.md
 ---
 
@@ -12,6 +12,24 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Orchestrate processes in Microsoft Fabric | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-processes-in-fabric/) |
+| Create a knowledge mining solution with Azure AI Search | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/) |
+| Analyze and prepare content in eDiscovery review sets | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ediscovery-review-set/) |
+| Create and manage eDiscovery cases | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ediscovery-create-case/) |
+| Manage data sources and holds in Microsoft Purview eDiscovery | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ediscovery-manage-data-sources-holds/) |
+| Understand Microsoft Purview eDiscovery | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ediscovery-understand/) |
+| Build a conversational language understanding model | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/) |
+| Migrate Linux and PostgreSQL workloads | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-linux-postgres/) |
+| Implement lifecycle management and governance for Microsoft Teams | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-lifecycle-management-governance-for-microsoft-teams/) |
+| Plan and deploy Microsoft Teams | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-deploy-microsoft-teams/) |
+| Explore Microsoft Teams | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-teams/) |
+| Review and analyze data classification and protection | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-review-analyze-data-classification/) |
+| Protect sensitive data in a digital world | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-protect-sensitive-data/) |
+| Classify data for protection and governance | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-classify-data/) |
+| Migrate virtual machines and apps using Azure Migrate | Learningpaths | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-azure-migrate-virtual-machine/) |
+| Set up Azure Migrate for server migration | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-azure-migrate-set-up/) |
+| Introduction to Azure Migrate for server migration | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-azure-migrate-introduction/) |
+| Use DAX time intelligence functions in semantic models | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/) |
 | Prepare on-premises workloads for migration to Azure | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-onpremises-workloads-migration-azure/) |
 | Migrate on-premises workloads to Azure | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-on-premises-workloads-azure/) |
 | Developer use cases for AI with GitHub Copilot | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) |
@@ -21,8 +39,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Perform analytics in Power BI | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/) |
 | Understand the Transformer architecture and explore large language models in Azure Machine Learning | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-foundation-models-in-model-catalog/) |
 | Work with generative artificial intelligence (AI) models in Azure Machine Learning | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-generative-models-azure-machine-learning/) |
-| Manage compliance with Microsoft Purview for Microsoft 365 Copilot | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-data-compliance/) |
 | Govern and protect sensitive information in the age of AI | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-govern-ai/) |
+| Manage compliance with Microsoft Purview for Microsoft 365 Copilot | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-data-compliance/) |
 | Explore PostgreSQL architecture | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-postgresql-architecture/) |
 | Create and manage Insider Risk Management policies | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-create-manage-insider-risk-policy/) |
 | Create dashboards in Power BI | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/) |
@@ -48,23 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Enhance Power BI report designs for the user experience | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/) |
 | Apply sensitivity labels for data protection | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-manage-sensitivity-labels/) |
 | MD-102 Explore endpoint management | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-endpoint-management/) |
-| Manage Microsoft Entra identities | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-active-directory-identities/) |
-| Safeguard your environment with Microsoft Defender for Identity | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-threat-safeguard/) |
-| Mitigate threats using Microsoft Defender XDR | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-365-defender/) |
-| Guided project - Deploy and manage a container app using Azure Container Apps | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-container-app-using-azure-container-apps/) |
-| Explore the Enterprise Desktop | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-enterprise-desktop/) |
-| Create and configure sensitivity labels with Microsoft Purview | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-protect-information/) |
-| Remediate risks with Microsoft Defender for Office 365 | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-threat-remediate/) |
-| Mitigate incidents using Microsoft Defender | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/mitigate-incidents-microsoft-365-defender/) |
-| Create and manage sensitive information types | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-sensitive-information-types/) |
-| Design Power BI reports | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/) |
-| Develop generative AI apps in Azure | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-custom-copilots-ai-studio/) |
-| Fine-tune a language model with Microsoft Foundry | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/finetune-model-copilot-ai-studio/) |
-| Create visual calculations in Power BI Desktop | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-visual-calculations/) |
-| Implement a Lakehouse with Microsoft Fabric | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-lakehouse-microsoft-fabric/) |
-| Ingest data with Microsoft Fabric | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/ingest-data-with-microsoft-fabric/) |
-| Ingest Data with Dataflows Gen2 in Microsoft Fabric | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/) |
-| Orchestrate a multi-agent solution using the Microsoft Agent Framework | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-59.md](microsoft-learn-2026-08-part-59.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-61.md](microsoft-learn-2026-08-part-61.md)

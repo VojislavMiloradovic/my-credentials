@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 79 of 93
-date_range: 2025-12-13 to 2025-12-14
+date_range: 2025-12-14 to 2025-12-15
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-79.md
 ---
@@ -12,6 +12,22 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Explore the core capabilities of Microsoft Dynamics 365 customer engagement apps | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/examine-core-capabilities-of-microsoft-dynamics-365-customer-engagement-apps/) |
+| Create and manage environments in Dataverse | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-environments/) |
+| Transition to and prepare for fundamentals-level security, compliance, and identity course | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-prepare-fundamentals-level-security-compliance-identity/) |
+| Learn inclusive marketing principles | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/inclusive-marketing/) |
+| Implement polymorphic behavior | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-polymorphic-behavior/) |
+| Get tips and tricks for teaching MB-920: Microsoft Dynamics 365 Fundamentals (ERP) | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-920-dynamics-365-fundamentals/) |
+| Introduction to Azure Red Hat OpenShift | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-red-hat-openshift/) |
+| Create a virtual machine offer for the commercial marketplace | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vm-offer-commercial-marketplace/) |
+| Create a pipeline in Microsoft Power Platform | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-pipeline/) |
+| Troubleshoot Web App Down Scenarios with App Service Diagnostics | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-web-app-down-scenarios-app-service-diagnostics/) |
+| Introduction to AI Center of Excellence | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-ai-center-excellence/) |
+| Discover Microsoft guidelines for responsible conversational AI development | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-conversational-ai/) |
+| Implement certifications in academic programs | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/academic-program-certifications/) |
+| Design degree program curricula that implement certification | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/academic-program-certifications-design-program-curricula/) |
+| Introduction to gaming and disability | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-gaming/) |
+| Introduction to .NET | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-introduction/) |
 | Work with choices in Dataverse | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/working-with-option-sets/) |
 | How to build your first model-driven app with Dataverse | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-model-driven-app-dataverse/) |
 | Create a web API with ASP.NET Core controllers | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-web-api-aspnet-core/) |
@@ -51,22 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Run evaluations and generate synthetic datasets | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-evaluations-generate-synthetic-datasets/) |
 | Improve sign-in security with Microsoft Authenticator | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-sign-in-security-authenticator/) |
 | Intro to Azure blueprints | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-blueprints/) |
-| Get tips and tricks for teaching MB-210 Microsoft Dynamics 365 Sales Functional Consultant | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-210-sales-functional-consultant/) |
-| Introduction to inclusive design in practice in collaboration with Teach Access | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-inclusive-design-practice/) |
-| Accessibility design specs with annotations | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/accessibility-design-specs-with-annotations/) |
-| Use the Admin center to manage environments and data policies in Power Automate | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-flows/) |
-| Search and organize repository history by using GitHub | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/) |
-| Web accessibility principles and guidelines | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/web-accessibility-principles-guidelines/) |
-| Empower your workforce with Microsoft 365 Copilot: Finance Use Case | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-finance/) |
-| Empower your workforce with Microsoft 365 Copilot: Sales use case | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-sales/) |
-| Empower your workforce with Microsoft 365 Copilot: Operations use case | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-operations/) |
-| Dyslexia Awareness: Part 1, in partnership with Made By Dyslexia | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-awareness-part-1/) |
-| Introduction to DevOps | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/) |
-| Understand app management using Microsoft Intune | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/app-management-using-microsoft-endpoint-manager/) |
-| Create a Windows virtual machine in Azure | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-windows-virtual-machine-in-azure/) |
-| Learn about the Microsoft Viva Glint 360 feedback program | Learningpaths | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-360-feedback program/) |
-| Get to know Microsoft Viva Glint 360 Feedback | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-get-to-know-viva-glint-360-feedback/) |
-| Personalize your remote development workflow with Visual Studio Code | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/personalize-remote-development-workflow/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-78.md](microsoft-learn-2026-08-part-78.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-80.md](microsoft-learn-2026-08-part-80.md)

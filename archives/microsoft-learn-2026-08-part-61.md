@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 61 of 93
-date_range: 2026-01-14 to 2026-01-17
+date_range: 2026-01-15 to 2026-01-18
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-61.md
 ---
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Manage Microsoft Entra identities | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-active-directory-identities/) |
+| Mitigate threats using Microsoft Defender XDR | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-365-defender/) |
+| Safeguard your environment with Microsoft Defender for Identity | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-threat-safeguard/) |
+| Guided project - Deploy and manage a container app using Azure Container Apps | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-container-app-using-azure-container-apps/) |
+| Explore the Enterprise Desktop | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-enterprise-desktop/) |
+| Create and configure sensitivity labels with Microsoft Purview | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-protect-information/) |
+| Remediate risks with Microsoft Defender for Office 365 | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-threat-remediate/) |
+| Mitigate incidents using Microsoft Defender | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/mitigate-incidents-microsoft-365-defender/) |
+| Create and manage sensitive information types | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-sensitive-information-types/) |
+| Design Power BI reports | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/) |
+| Develop generative AI apps in Azure | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-custom-copilots-ai-studio/) |
+| Fine-tune a language model with Microsoft Foundry | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/finetune-model-copilot-ai-studio/) |
+| Create visual calculations in Power BI Desktop | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-visual-calculations/) |
+| Implement a Lakehouse with Microsoft Fabric | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-lakehouse-microsoft-fabric/) |
+| Ingest data with Microsoft Fabric | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/ingest-data-with-microsoft-fabric/) |
+| Ingest Data with Dataflows Gen2 in Microsoft Fabric | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/) |
+| Orchestrate a multi-agent solution using the Microsoft Agent Framework | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/) |
 | Prepare data for analysis with Power BI | Learningpaths | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-data-power-bi/) |
 | Choose a Power BI model framework | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/) |
 | Organize a Fabric lakehouse using medallion architecture design | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-medallion-architecture/) |
@@ -50,23 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Gaming assistive technologies | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/gaming-assistive-technologies/) |
 | Get tips and tricks for teaching SC-900: Microsoft Security, Compliance, and Identity Fundamentals | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-sc-900-security-compliance-identity-fundamentals/) |
 | Implement classes, properties, and methods | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-classes-properties-and-methods/) |
-| Manage class implementations | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-class-implementations/) |
-| Manage application data | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-application-data/) |
-| Get started with dates, times, and time zones | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-dates-times-time-zones/) |
-| Introduction to Microsoft Defender for IoT | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-microsoft-defender-iot/) |
-| Create compensation plans in Dynamics 365 Human Resources | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-compensation-plans/) |
-| Manage leave and absence in Dynamics 365 Human Resources | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/hr-leave-absence/) |
-| Configure your user interface in finance and operations apps | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-your-ui-dynamics-365-finance-operations-apps/) |
-| Configure apps in finance and operations | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/config-d365-finance-operations-apps/) |
-| Deploy Healthcare Data Solutions in Microsoft Fabric and ingest sample data | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-sample-data-ingestion/) |
-| Introduction to Azure Virtual Machine Scale Sets | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machine-scale-sets/) |
-| Get started with Finance insights in Dynamics 365 Finance | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-finance-insights/) |
-| Secure your infrastructure with threat modeling | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/threat-modeling-enterprise-infrastructure/) |
-| Transform and load event log data for process mining | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-load-event-log/) |
-| Process mining for the data wrangler | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-mining-data-wrangler/) |
-| Manage secrets in Java applications - Zero Trust and Zero Secrets | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secrets-java-applications-zero-trust/) |
-| Describe the purpose and use of source control | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-purpose-use-source-control/) |
-| Explain how a source control system helps manage files | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/explain-control-system-helps-manage-files/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-60.md](microsoft-learn-2026-08-part-60.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-62.md](microsoft-learn-2026-08-part-62.md)

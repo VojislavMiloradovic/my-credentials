@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 92 of 93
-date_range: 2025-11-06 to 2025-11-10
+date_range: 2025-11-07 to 2025-11-11
 total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-92.md
 ---
@@ -12,6 +12,25 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Detect objects in images | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/detect-objects-images/) |
+| Classify images | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/classify-images/) |
+| Detect, analyze, and recognize faces | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/detect-analyze-recognize-faces/) |
+| Get started with prompt flow to develop language model apps in the Azure AI Foundry | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-prompt-flow-ai-studio/) |
+| Introduction to Microsoft Defender XDR threat protection | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-365-threat-protection/) |
+| Integrate custom tools into your agent | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-agent-with-custom-tools/) |
+| Read text in images | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/read-text-images-documents-with-computer-vision-service/) |
+| Analyze images | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-images/) |
+| Management and customization considerations with GitHub Copilot | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-management-and-customizations/) |
+| Explore data roles and services | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/) |
+| Evaluate generative AI performance in Azure AI Foundry portal | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-models-azure-ai-studio/) |
+| Analyze video | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-video/) |
+| Explore Windows Editions | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-editions/) |
+| What is Microsoft 365? | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-is-m365/) |
+| Using advanced GitHub Copilot features | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-github-copilot/) |
+| GitHub responsible AI | Learningpaths | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-responsible-ai/) |
+| Embrace responsible AI principles and practices | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/) |
+| Explore fundamentals of Azure Cosmos DB | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-non-relational-data-stores-azure/) |
+| Responsible AI with GitHub Copilot | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-copilot/) |
 | Introduction to prompt engineering with GitHub Copilot | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/) |
 | Work with Delta Lake tables in Microsoft Fabric | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-delta-lake-tables-fabric/) |
 | Write your first C# code | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-write-first/) |
@@ -50,25 +69,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Describe Azure storage services | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/) |
 | Describe features and tools in Azure for governance and compliance | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/) |
 | Discover data analysis | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-analytics-microsoft/) |
-| Get started with Copilot in Power BI | Modules | 2025-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-copilot/) |
-| Describe Azure compute and networking services | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/) |
-| Get started building with Power BI | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/) |
-| Introduction to machine learning concepts | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/) |
-| Describe the core architectural components of Azure | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/) |
-| Introduction to PowerShell | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/) |
-| Introduction to Azure Cloud Shell | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/) |
-| Introduction to computer vision concepts | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/) |
-| Get started with speech in Azure | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/recognize-synthesize-speech/) |
-| Describe features and tools for managing and deploying Azure resources | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/) |
-| Introduction to generative AI and agents | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/) |
-| Explore Generative AI | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-generative-ai/) |
-| Describe monitoring tools in Azure | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/) |
-| Introduction to Cloud Infrastructure: Describe cloud concepts | Learningpaths | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/) |
-| Describe cloud computing | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/) |
-| Describe the benefits of using cloud services | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/) |
-| Describe cloud service types | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/) |
-| Create and draft with Microsoft 365 Copilot | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-draft-content-with-microsoft-copilot-microsoft-365/) |
-| Use AI for everyday tasks | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-everyday-tasks/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-91.md](microsoft-learn-2026-08-part-91.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-93.md](microsoft-learn-2026-08-part-93.md)

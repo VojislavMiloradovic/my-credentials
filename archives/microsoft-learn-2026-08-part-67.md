@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 67 of 93
-date_range: 2025-12-30 to 2026-01-01
-total_entries: 55
+date_range: 2025-12-31 to 2026-01-02
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-67.md
 ---
 
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Publish an Angular, React, Svelte, or Vue JavaScript app with Azure Static Web Apps | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-app-service-static-web-app-api/) |
+| Build psychological safety | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-build-psychological-safety/) |
+| Learn the basics of psychological safety | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-basics-psychological-safety/) |
+| The importance of psychological safety for managers | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-psychological-safety/) |
+| Design for accessibility in Dynamics 365 | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-accessibility-dynamics-365/) |
+| Introduction to Azure Files | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-files/) |
+| Microsoft for Healthcare Overview | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-overview/) |
+| Introduction to custom engine agents | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-custom-engine-agents-intro/) |
+| Build and manage an agent | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-manage-no-code-copilot-agent-sharepoint/) |
+| Transform your everyday business processes with agents | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-no-code-copilot-agents-microsoft-365-sharepoint/) |
+| Share and use agents | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-no-code-agents-sharepoint/) |
+| Introduction to Azure NetApp Files | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-netapp-files/) |
+| Run functional tests in Azure Pipelines | Modules | 2026-01-02 | N/A |
+| Fundamentals of Terraform on Azure | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/terraform-fundamentals/) |
+| Introduction to infrastructure as code using Terraform | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/terraform-introduction-to-infrastructure-as-code/) |
+| Introduction to quantum computing with Azure Quantum | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-quantum/) |
+| Explore advanced configuration methods | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-advanced-configuration-methods/) |
 | MD-100 Configure post-installation settings and personalization | Learningpaths | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-post-installation-settings-personalization/) |
 | Explore common configuration options | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-common-configuration-options/) |
 | Manage drivers and device peripherals | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-drivers-device-peripherals/) |
@@ -33,8 +50,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage Universal Windows Platform apps | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-universal-windows-platform-apps/) |
 | Provide apps to users | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/provide-apps-users/) |
 | Explore the Windows servicing model | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-servicing-model/) |
-| Understand Microsoft datacenter security | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-physical-security/) |
 | Learn how Microsoft safeguards customer data | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/audit-safeguard-customer-data/) |
+| Understand Microsoft datacenter security | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-physical-security/) |
 | Understand Microsoft Online Services subprocessor management | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-subprocessor-management/) |
 | Understand Microsoft 365 privacy | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-privacy/) |
 | Understand Microsoft Online Services security development and operation | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-security-development-operation/) |
@@ -51,22 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Introduction to the basics of AL programming in Dynamics 365 Business Central | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-basics-al-programming/) |
 | Introduction to Azure Data Lake Storage Gen2 | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-data-lake-storage/) |
 | Large-Scale Data Processing with Azure Data Lake Storage Gen2 | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-processing-with-azure-adls/) |
-| Upload data to Azure Data Lake Storage | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/upload-data-to-azure-data-lake-storage/) |
-| Store local data with SQLite in a .NET MAUI app | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/store-local-data/) |
-| Build mobile and desktop apps with .NET MAUI | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-apps-with-dotnet-maui/) |
-| Create multi-page .NET MAUI apps with tab and flyout navigation | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-multi-page-apps/) |
-| Design consistent .NET MAUI XAML pages by using shared resources | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-shared-resources/) |
-| Design an MVVM viewmodel for .NET MAUI | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-mvvm-viewmodel/) |
-| Create a UI that uses data binding in .NET MAUI. | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/separate-ui-and-logic-with-data-binding/) |
-| Customize layout in .NET MAUI XAML pages | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-xaml-pages-layout/) |
-| Collaborate with others with Markdown and GitHub Pages | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/collaborate-markdown-github-pages/) |
-| Create and host web sites by using GitHub Pages | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-host-web-sites-github-pages/) |
-| Implement Dynamics 365 Projects | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-dynamics-365-projects/) |
-| Application lifecycle management for Dynamics 365 | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-lifecycle-management-dynamics-365/) |
-| Test your Dynamics 365 implementation | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-dynamics-365-implementation/) |
-| Document your Dynamics 365 solution for the customer | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-dynamics-365-solution-customer/) |
-| Design the Dynamics 365 deployment | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dynamics-365-deployment/) |
-| Present Business Applications designs to stakeholders | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/present-business-applications-designs/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-66.md](microsoft-learn-2026-08-part-66.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-68.md](microsoft-learn-2026-08-part-68.md)

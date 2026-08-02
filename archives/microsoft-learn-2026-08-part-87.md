@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 87 of 93
-date_range: 2025-11-21 to 2025-11-24
-total_entries: 53
+date_range: 2025-11-23 to 2025-11-25
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-87.md
 ---
 
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Teach forward: Best strategies for hybrid, remote, and blended learning | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-forward-best-strategies-hybrid-remote-blended-learning/) |
+| Conduct structured interviews using Microsoft Teams and Copilot | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/conduct-structured-interviews-teams/) |
+| Prepare for Windows 10 end of support | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/understanding-windows-10-end-of-support/) |
+| Windows at work: Elevate IT teams with Windows 11 Pro | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/win-at-work-it/) |
+| Understand the foundations of generative AI for business leaders | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-foundations-generative-ai-business-leaders/) |
+| Windows 11 Pro Accreditation 2025 | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-11-pro-accreditation-2025/) |
+| Move forward with Windows 11 Pro post Windows 10 end of support | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/move-forward-windows-11/) |
+| Demonstrate the capabilities of Microsoft Power Automate | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/demonstrate-capabilities-microsoft-power-automate/) |
+| Build a Microsoft Power Automate flow | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-microsoft-power-automate-flow/) |
+| Demonstrate the capabilities of Microsoft Power Pages | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/demonstrate-capabilities-microsoft-power-pages/) |
+| Create a Microsoft Power Pages site | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-microsoft-power-pages-site/) |
+| Describe Microsoft Dataverse | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-microsoft-dataverse/) |
+| Manage the Microsoft Power Platform environment | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-microsoft-power-platform-environment/) |
+| Describe the business value of Microsoft Power Platform | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-business-value-microsoft-power-platform/) |
+| Describe the business value of Microsoft Power Platform services | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-value-microsoft-power-platform-services/) |
+| Describe the business value of extending business solutions by using Microsoft Power Platform | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-value-extend-business-solutions-microsoft-power-platform/) |
+| Create readable code with conventions, whitespace, and comments in C# | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-readable-code/) |
 | Add decision logic to your code using `if`, `else`, and `else if` statements in C# | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-if-elseif-else/) |
 | Accessibility: Build the foundation for inclusive learning  | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/accessibility-build-foundation-inclusive-learning/) |
 | Call methods from the .NET Class Library using C# | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-call-methods/) |
@@ -47,24 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Automate meeting scheduling with Microsoft Teams | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-meeting-scheduling-with-microsoft-teams/) |
 | Introduction to Microsoft 365 Business Standard | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-microsoft-365-business-standard/) |
 | Introduction to Office Home & Business 2024 | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-office-home-and-business-2024/) |
-| Use Activator in Microsoft Fabric | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-fabric-activator/) |
-| Collaborate on presentations using PowerPoint | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/collaborate-presentations-using-powerpoint/) |
-| Query a data warehouse in Microsoft Fabric | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/) |
-| Describe the identity protection and governance capabilities of Microsoft Entra | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-identity-protection-governance-capabilities/) |
-| Introduction to Microsoft Entra | Learningpaths | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-capabilities-of-microsoft-identity-access/) |
-| Introduction to generative AI - Exploring the basics | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-generative-ai-explore-basics/) |
-| Design a dream destination with AI | Learningpaths | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-dream-destination-ai/) |
-| Design a dream destination using Microsoft Copilot | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dream-destination-ai-copilot/) |
-| Introduction to Microsoft Azure Data relational data in Azure | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-relational-data/) |
-| Explore relational database services in Azure | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/) |
-| Write your first code using C# (Get started with C#, Part 1) | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-1/) |
-| Guided project - Calculate final GPA | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-calculate-final-gpa/) |
-| Work smarter in Excel with Copilot Chat | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-excel/) |
-| Manage email efficiently with Microsoft Outlook and Copilot Chat | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-email-efficiently/) |
-| Manage your calendar in new Outlook for Windows | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-calendar-new-outlook-windows/) |
-| A new generation of Windows experiences | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-experiences/) |
-| Introduction to Azure Local | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local/) |
-| Microsoft 365 Copilot and Copilot agents | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-and-copilot-agents/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-86.md](microsoft-learn-2026-08-part-86.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-88.md](microsoft-learn-2026-08-part-88.md)

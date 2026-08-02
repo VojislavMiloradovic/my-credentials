@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 31 of 93
-date_range: 2026-03-25 to 2026-03-30
-total_entries: 52
+date_range: 2026-03-27 to 2026-04-01
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-31.md
 ---
 
@@ -12,6 +12,20 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| AI for nonprofits by Microsoft Elevate and NetHope | Learningpaths | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-nonprofits-microsoft-elevate-nethope/) |
+| Use AI for nonprofit role-based tasks, tools, and workflows | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-nonprofit-role-base-tasks-tools-workflows/) |
+| Guided project: Share files securely | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-share-files-securely/) |
+| Introduction to cloud infrastructure: Apply Azure skills in guided projects | Learningpaths | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-cloud-infrastructure-apply-azure-skills-guided-projects/) |
+| Guided project: Set up cost guardrails in Azure | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-cost-guardrails/) |
+| Guided project: Organize and protect resources with tags and locks | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-organize-resources-tags-locks/) |
+| Guided project: Monitor Azure with Service Health and Activity Log alerts | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-monitor-service-health-activity-alerts/) |
+| Guided project: Manage Azure resources with Cloud Shell and the Azure CLI | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-manage-resources-cloud-shell-cli/) |
+| Guided project: Deploy a static website with Azure Blob Storage | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-deploy-static-website-blob-storage/) |
+| Guided Project: Build a simple website endpoint with Azure Functions | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-build-basic-website-endpoint-with-functions/) |
+| Guided Project: Set up new employee access (Entra ID and RBAC) | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-new-employee-access/) |
+| Introduction to natural language processing with TensorFlow | Modules | 2026-04-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-natural-language-processing-tensorflow/) |
+| Secure MySQL | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-mysql/) |
+| Integrate SQL and Apache Spark pools in Azure Synapse Analytics | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sql-apache-spark-pools-azure-synapse-analytics/) |
 | Create journals for projects in Dynamics 365 Business Central | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-journals-for-jobs/) |
 | Develop data-driven applications by using Azure SQL Database | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-data-driven-app-sql-db/) |
 | Develop a data API for Azure SQL Database | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-data-api-azure-sql-database/) |
@@ -48,22 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Dragon Copilot (physicians) create texts | Modules | 2026-03-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-create-texts/) |
 | Dragon Copilot (physicians) create customizable templates | Modules | 2026-03-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-create-customizable-templates/) |
 | Explore mission-driven AI examples for nonprofits | Modules | 2026-03-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-mission-driven-ai-examples-nonprofits/) |
-| Run SAP on the Microsoft Cloud | Learningpaths | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/run-sap-microsoft-cloud/) |
-| Explore Azure networking for SAP RISE | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-networking-sap-rise/) |
-| AZ-104: Manage identities and governance in Azure | Learningpaths | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-manage-identities-governance/) |
-| Azure Policy initiatives | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/sovereignty-policy-initiatives/) |
-| Describe Azure networking services | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/) |
-| Introduction to SQL Server 2025 data virtualization | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/sql-server-data-virtualization/) |
-| Introduction to Microsoft Foundry on Windows | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-foundry-windows/) |
-| Dragon Copilot (physicians) create prompts | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-create-prompts/) |
-| Develop sales skills with AI agents | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-speed-skills-sales/) |
-| Explore role-based AI agent skills for business users | Learningpaths | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-role-based-ai-agent-skills-business-users/) |
-| Develop marketing skills with AI agents | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-speed-skills-marketing/) |
-| Develop finance skills with AI agents | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-speed-skills-finance/) |
-| Deploying Resource Scheduling Optimization | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-resource-scheduling-optimization/) |
-| Set up Microsoft Defender for Cloud | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-microsoft-defender-cloud/) |
-| Build an Assisted Setup in Dynamics 365 Business Central | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-assisted-setup/) |
-| Set up work orders in Asset Management for Dynamics 365 Supply Chain Management | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-work-orders-asset-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-30.md](microsoft-learn-2026-08-part-30.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-32.md](microsoft-learn-2026-08-part-32.md)

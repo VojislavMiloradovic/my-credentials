@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 75 of 93
-date_range: 2025-12-19 to 2025-12-21
-total_entries: 53
+date_range: 2025-12-20 to 2025-12-22
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-75.md
 ---
 
@@ -12,6 +12,24 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Extract information from business cards with AI Builder | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-business-card-reader/) |
+| Get started with file input and output | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-file-input-output/) |
+| Extract event log data for process mining | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-event-log/) |
+| Add chat to a Microsoft Teams app by using the Teams JavaScript client library | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-integrate-chat/) |
+| Accessibility best practices for games and platforms | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/games-and-platforms1/) |
+| Interactively debug .NET apps with the Visual Studio debugger | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-debug-visual-studio/) |
+| Get started with AI Builder category classification | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-category-classification/) |
+| Implement collection types | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-collection-types/) |
+| Get started with classes and objects in C# | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-classes-objects-c-sharp/) |
+| Store and retrieve data by using F# | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/fsharp-first-program/) |
+| Implement enum, struct, and record types | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-enum-struct-record-types/) |
+| Develop with DevOps | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-with-devops/) |
+| Store application data with Azure Blob Storage | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/store-app-data-with-azure-blob-storage/) |
+| Store data in Azure | Learningpaths | 2025-12-21 | N/A |
+| Publish and manage your APIs with Azure API Management | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-manage-apis-with-azure-api-management/) |
+| Introduction to Azure Functions | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-functions/) |
+| Start your free Dynamics 365 Business Central trial | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/trial-dynamics-365-business-central/) |
+| Use Microsoft Word and Excel templates with Dataverse | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-word-excel-dataverse/) |
 | Introduction to the core capabilities of Microsoft Dynamics 365 finance and operations apps | Learningpaths | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-dynamics-365-finance-operations-apps/) |
 | Describe reporting and integration capabilities in finance and operations apps | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-report-integration-use-finance-operations-apps/) |
 | Describe Dynamics 365 Finance core capabilities | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-dynamics-365-finance-core-capabilities/) |
@@ -50,21 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with data analytics | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-data-analytics/) |
 | Excel automation in Power Automate for desktop | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-excel-automation/) |
 | Handle variables in Power Automate for desktop | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-variables/) |
-| Introduction to Power Automate process mining | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-process-mining/) |
-| Create new companies in Business Central | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-new-companies-dynamics-365-business-central/) |
-| Introduction to .NET web development with ASP.NET Core | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-aspnet-core/) |
-| Automate repetitive tasks using loops in Power Automate for desktop | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-loops/) |
-| Describe shared features of the finance and operations apps | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-shared-features-finance-operations-apps/) |
-| Create a new .NET project and work with dependencies | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-dependencies/) |
-| Establish partnerships and funding for the Minecraft Student Ambassador program | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/establish-partnerships-funding-msa-program/) |
-| Recruit students to the Minecraft Student Ambassador program | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/recruit-students-minecraft-student-ambassador-program/) |
-| Activate spatial audio for your HoloLens 2 application | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/spatial-audio-tutorials-mrtk/) |
-| Characterize DevOps Continuous Collaboration and Continuous Improvement | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/characterize-devops-continous-collaboration-improvement/) |
-| Explore social emotional learning: Mindfulness in Minecraft Education | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-social-emotional-learning-mindfulness-minecraft/) |
-| Advanced lessons in psychological safety | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-advanced-psychological-safety/) |
-| Understand hybrid data platform on SQL Server 2025 | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-hybrid-data-platform-sql-server-2022/) |
-| Configure your data in finance and operations apps | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-your-data-dynamics-365-finance-operations-apps/) |
-| Understand and share your Viva Glint results | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-understand-and-share-results/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-74.md](microsoft-learn-2026-08-part-74.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-76.md](microsoft-learn-2026-08-part-76.md)

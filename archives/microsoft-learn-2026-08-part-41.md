@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 41 of 93
 date_range: 2026-03-01 to 2026-03-02
-total_entries: 51
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-41.md
 ---
 
@@ -12,8 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Use custom code in custom connectors for Microsoft Power Platform | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-code-connectors/) |
+| Validate Azure resources by using the ARM Template Test Toolkit | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/arm-template-test/) |
+| Perform budgeting and forecasting | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-budgeting/) |
+| Configure and use budgeting in Dynamics 365 Finance | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-budgeting-dyn365-finance/) |
+| Set up and use basic budgeting Dynamics 365 Finance | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-use-basic-budgeting-finance/) |
+| Use model-driven apps and Dataverse with Business Central | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-model-driven-apps-common-data-service/) |
+| Apply storage concepts to Windows containers running on Azure Kubernetes Service (AKS) and AKS Hybrid | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-storage-concepts-to-windows-containers/) |
+| Work with Power Pages websites | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-power-pages/) |
+| Work with Power Pages metadata | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-metadata/) |
+| Ship and invoice items in Dynamics 365 Business Central | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/ship-invoice-items-dynamics-365-business-central/) |
+| Deploy a cloud-native .NET microservice automatically with GitHub Actions and Azure Pipelines | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/microservices-devops-aspnet-core/) |
+| Examine Defender for Cloud regulatory compliance standards | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-defender-cloud-regulatory-compliance-standards/) |
+| Use AutoML in Azure Databricks | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/automl-azure-databricks/) |
+| Challenge project - Build a declarative agent to chat with your data | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-challenge-chat-with-data/) |
+| Extend Microsoft 365 Copilot with declarative agents using Visual Studio Code | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-microsoft-365-declarative-agents-visual-studio-code/) |
+| Build reports for finance and operations apps | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reports-finance-operations/) |
 | Build custom connectors for Microsoft Power Platform | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-custom-connectors/) |
+| Use custom code in custom connectors for Microsoft Power Platform | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-code-connectors/) |
 | Deploy and use Azure Container Registry | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-use-azure-container-registry/) |
 | Create and run scripts by using Windows PowerShell | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-run-scripts-use-windows-powershell/) |
 | Manage data privacy and governance with Azure Databricks | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-data-privacy-and-governance-with-azure-databricks/) |
@@ -35,8 +50,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Service adoption framework - Phase 3, Scale | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-service-adoption-scale/) |
 | MD-101 Deploy using on-premises based tools | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-use-premises-based-tools/) |
 | Assess deployment readiness | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/assess-deployment-readiness/) |
-| Guided Project - Configure secure access to workloads with Azure virtual networking services | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-configure-secure-access-workloads/) |
 | Configure secure access to your workloads using Azure virtual networking | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-secure-workloads-using-azure-virtual-networking/) |
+| Guided Project - Configure secure access to workloads with Azure virtual networking services | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-configure-secure-access-workloads/) |
 | Receive and invoice items in Dynamics 365 Business Central | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/receive-invoice-dynamics-d365-business-central/) |
 | Get started with Microsoft Power Platform Center of Excellence | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-center-excellence/) |
 | Work with accounts payable in Dynamics 365 Finance | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-accounts-payable-dyn365-finance/) |
@@ -47,22 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Windows Server high availability | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-high-availability/) |
 | Implement Hyper-V Replica | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hyper-v-replica/) |
 | Implement disaster recovery in Windows Server on-premises and hybrid environments | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-disaster-recovery-windows-server-premises/) |
-| Set up and use production control for discrete manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-production-control-discrete-manufacturing/) |
-| Get started with the Dynamics 365 Field Service Mobile application | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-mobile-app/) |
-| Define agreements in Dynamics 365 Field Service | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-agreements/) |
-| Deploy using the Microsoft Deployment Toolkit | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-use-microsoft-deployment-toolkit/) |
-| Manage compliance in Microsoft 365 and Exchange Online | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-messaging-manage-compliance/) |
-| Set up and acquire fixed assets in Dynamics 365 Finance | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-acquire-fixed-assets-finance/) |
-| Transform education with strategic leadership | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-education-strategic-leadership/) |
-| Guided project - Prepare meeting room experiences | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-prepare-meeting-room-experiences/) |
-| Work with Liquid template language in Power Pages | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-liquid/) |
-| Update clients using Windows Update for Business | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/update-clients-use-windows-update-business/) |
-| Create a canvas app based on Business Central data | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-canvas-app/) |
-| Inspections in Dynamics 365 Field Service | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/inspections/) |
-| Plan and configure network settings for Microsoft Teams | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-configure-network-settings-for-microsoft-teams/) |
-| Prepare the environment for a Microsoft Teams deployment | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-environment-for-microsoft-teams-deployment/) |
-| Implement device profiles | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-profiles/) |
-| MD-101 Configure user and device profiles | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-user-device-profiles/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-40.md](microsoft-learn-2026-08-part-40.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-42.md](microsoft-learn-2026-08-part-42.md)

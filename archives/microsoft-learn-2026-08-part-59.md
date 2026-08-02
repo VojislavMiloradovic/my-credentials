@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 59 of 93
-date_range: 2026-01-19 to 2026-01-23
+date_range: 2026-01-20 to 2026-01-23
 total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-59.md
 ---
@@ -12,6 +12,24 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Building applications with GitHub Copilot agent mode | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-agent-mode/) |
+| Perform vector search and retrieval in Azure AI Search | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-search-results-vector-search/) |
+| Implement advanced search features in Azure AI Search | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-advanced-search-features-azure-cognitive-search/) |
+| Create and configure Group Policy Objects in Active Directory | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-configure-group-policy-objects-active-directory/) |
+| How to build the User Interface in a canvas app in Power Apps | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/how-to-build-ui-canvas-app/) |
+| Create and manage Active Directory objects | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-active-directory-objects/) |
+| Develop Azure Functions | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/) |
+| Implement Azure Functions | Learningpaths | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-azure-functions/) |
+| Create a knowledge store with Azure AI Search | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-knowledge-store-azure-cognitive-search/) |
+| Explore Azure App Service deployment slots | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/) |
+| AZ-104: Deploy and manage Azure compute resources | Learningpaths | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-manage-compute-resources/) |
+| Configure Azure App Service | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/) |
+| Configure and manage automation using Microsoft Defender for Endpoint | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-automation-microsoft-defender-for-endpoint/) |
+| Enforce Power BI model security | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/) |
+| Enhance public sector services with generative AI | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-public-sector-services-generative-ai/) |
+| AZ-104: Implement and manage storage in Azure | Learningpaths | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-manage-storage/) |
+| Configure storage accounts | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/) |
+| Explore Azure Functions | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/) |
 | Configure Azure Container Instances | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-container-instances/) |
 | Scale apps in Azure App Service | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/) |
 | Create a custom skill for Azure AI Search | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-ai-custom-skill/) |
@@ -50,24 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Use DAX in semantic models | Learningpaths | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/dax-power-bi/) |
 | Create DAX calculations in semantic models | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-create-calculations/) |
 | Manage records and disposition with Microsoft Purview | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-manage-records/) |
-| Orchestrate processes in Microsoft Fabric | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-processes-in-fabric/) |
-| Create a knowledge mining solution with Azure AI Search | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/) |
-| Analyze and prepare content in eDiscovery review sets | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ediscovery-review-set/) |
-| Create and manage eDiscovery cases | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ediscovery-create-case/) |
-| Manage data sources and holds in Microsoft Purview eDiscovery | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ediscovery-manage-data-sources-holds/) |
-| Understand Microsoft Purview eDiscovery | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ediscovery-understand/) |
-| Build a conversational language understanding model | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/) |
-| Migrate Linux and PostgreSQL workloads | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-linux-postgres/) |
-| Implement lifecycle management and governance for Microsoft Teams | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-lifecycle-management-governance-for-microsoft-teams/) |
-| Plan and deploy Microsoft Teams | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-deploy-microsoft-teams/) |
-| Explore Microsoft Teams | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-teams/) |
-| Review and analyze data classification and protection | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-review-analyze-data-classification/) |
-| Protect sensitive data in a digital world | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-protect-sensitive-data/) |
-| Classify data for protection and governance | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-classify-data/) |
-| Migrate virtual machines and apps using Azure Migrate | Learningpaths | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-azure-migrate-virtual-machine/) |
-| Set up Azure Migrate for server migration | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-azure-migrate-set-up/) |
-| Introduction to Azure Migrate for server migration | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-azure-migrate-introduction/) |
-| Use DAX time intelligence functions in semantic models | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-58.md](microsoft-learn-2026-08-part-58.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-60.md](microsoft-learn-2026-08-part-60.md)

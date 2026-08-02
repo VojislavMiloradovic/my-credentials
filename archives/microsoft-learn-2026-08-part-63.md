@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 63 of 93
-date_range: 2026-01-08 to 2026-01-11
+date_range: 2026-01-10 to 2026-01-12
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-63.md
 ---
@@ -12,6 +12,22 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Minecraft Esports Teacher Academy | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-esports-teacher-academy/) |
+| Build challenges in Minecraft esports | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-challenges-minecraft-esports/) |
+| Minecraft in esports | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/minecraft-esports/) |
+| Get started with development in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/development-get-started-business-central/) |
+| Introduction to assisted setup and tooltips in Dynamics 365 Business Central | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/assisted-setup-tooltips/) |
+| Get tips and tricks for teaching AI-900 Microsoft Azure AI Fundamentals | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-ai-900-microsoft-azure-ai-fundamentals/) |
+| Challenge project - Microsoft Copilot for Prototyping and MVP Creation | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-generative-ai-for-prototyping-and-mvp-creation/) |
+| Design a Modern Data Warehouse using Azure Synapse Analytics | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-modern-data-warehouse-using-azure-synapse-analytics/) |
+| Get started with Dynamics 365 Commerce channels | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-commerce-channels/) |
+| Get started with B2B e-commerce in Dynamics 365 Commerce | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-business-to-business-commerce/) |
+| Implement delegates and events | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/delegates-events-exceptions/) |
+| Get started with Delegates | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-delegates/) |
+| Introduction to Secure Network Infrastructure with Azure network security | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-networking-infrastructure/) |
+| Introduction to Azure Firewall Manager | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-firewall-manager/) |
+| Explore concepts of data analytics | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-concepts-of-data-analytics/) |
+| Work remotely with the Minecraft Student Ambassador program | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-remotely-minecraft-student-ambassador-program/) |
 | Minecraft Student Ambassador program | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-student-ambassador-program/) |
 | Keep students safe in the Minecraft Student Ambassador program | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/keep-students-safe-minecraft-student-ambassador-program/) |
 | Plan your year in the Minecraft Student Ambassador program | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-your-year/) |
@@ -50,22 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Student and school success - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/student-school-success-education-transformation-framework/) |
 | Teaching and learning - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/teaching-learning-education-transformation-framework/) |
 | Leadership and policy - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/leadership-policy-education-transformation-framework/) |
-| Intelligent environments - Education Transformation Framework | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-environments-education-transformation-framework/) |
-| Get tips and tricks for teaching AZ-900 Microsoft Azure Fundamentals | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-az-900-microsoft-azure-ai-fundamentals/) |
-| Store and retrieve JSON files | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/store-retrieve-json-files/) |
-| Access local files asynchronously | Learningpaths | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/access-local-files-asynchronously/) |
-| Implement asynchronous tasks | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-asynchronous-tasks/) |
-| Create and manage events | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-events/) |
-| Secure AI in schools with Microsoft Security | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-ai-schools-microsoft-security/) |
-| Create, customize, and manage an HPC cluster in Azure with Azure CycleCloud | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-cyclecloud-high-performance-computing/) |
-| Mixed Reality design | Learningpaths | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/mixed-reality-design/) |
-| Challenge project - Building an Augmented Reality app for HoloLens 2 | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-building-augmented-reality-app-hololens-2/) |
-| Develop search strategies with Search Coach and Search Progress | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-search-strategies-search-coach-search-progress/) |
-| Microsoft for Sovereignty overview | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sovereignty-overview/) |
-| Get started with Microsoft Sustainability Manager | Learningpaths | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sustainability-manager/) |
-| Microsoft Sustainability Manager concepts | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-cloud-sustainability/) |
-| Extend existing table and page objects in Dynamics 365 Business Central | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-tables-page-objects/) |
-| Designing for mixed reality | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-mixed-reality-design/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-62.md](microsoft-learn-2026-08-part-62.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-64.md](microsoft-learn-2026-08-part-64.md)

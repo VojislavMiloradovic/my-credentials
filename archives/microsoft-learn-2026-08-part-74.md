@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 74 of 93
-date_range: 2025-12-21 to 2025-12-23
-total_entries: 54
+date_range: 2025-12-22 to 2025-12-23
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-74.md
 ---
 
@@ -12,6 +12,21 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Introduction to Microsoft Dynamics 365 Finance | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-microsoft-dynamics-365-finance/) |
+| Describe expense management, fixed asset management, and budgeting in Dynamics 365 Finance | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-expense-management-fixed-asset-management/) |
+| Get started with GraphQL in Microsoft Fabric | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-graphql-microsoft-fabric/) |
+| Implement operational databases in Microsoft Fabric | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-operational-databases-in-microsoft-fabric/) |
+| Threat Modeling Security Fundamentals | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/tm-threat-modeling-fundamentals/) |
+| Provide context with the right depth layer | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-provide-context-with-the-right-depth-layer/) |
+| Create a machine ordering Power Apps canvas app - Online Workshop | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-canvas-app-online-workshop/) |
+| Monitor and troubleshoot your end-to-end Azure network infrastructure by using network monitoring tools | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-azure-network-infrastructure/) |
+| Create serverless logic with Azure Functions | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-serverless-logic-with-azure-functions/) |
+| Deliver with DevOps | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/deliver-with-devops/) |
+| Stage a web app deployment for testing and rollback by using App Service deployment slots | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/stage-deploy-app-service-deployment-slots/) |
+| Deploy a website with Azure virtual machines | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-a-website-with-azure-virtual-machines/) |
+| Build and run a web application with the MEAN stack on an Azure Linux virtual machine | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-a-web-app-with-mean-on-a-linux-vm/) |
+| Linux on Azure | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-linux/) |
+| Describe accounts payable and accounts receivable in Dynamics 365 Finance | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-accounts-payable-accounts-receivable-microsoft/) |
 | Create agents with Microsoft Copilot Studio - Online Workshop | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-virtual-agents-workshop/) |
 | Build Power Automate flows for your agent - Online workshop | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flows-chatbot-online-workshop/) |
 | Automating email handling in Power Automate for desktop | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-email/) |
@@ -38,8 +53,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Azure for Researchers part 2: Cloud Security and Cost Management | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/researcher-cloud-security-cost-management/) |
 | Introduction to analyzing costs and creating budgets with Microsoft Cost Management | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-costs-create-budgets-azure-cost-management/) |
 | Connect commands into a pipeline | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-commands/) |
-| Explore Dynamics 365 Field Service | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-field-service/) |
 | Explore the fundamentals of Microsoft Dynamics 365 Field Service | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-of-microsoft-dynamics-365-field-service/) |
+| Explore Dynamics 365 Field Service | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-field-service/) |
 | Approach your data-flow diagram with the right threat model focus | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-approach-your-data-flow-diagram-with-the-right-threat-model-focus/) |
 | Automate Azure tasks with Azure PowerShell | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-azure-tasks-with-powershell/) |
 | Get started with Dynamics 365 Human Resources | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-human-resources/) |
@@ -48,24 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Use Microsoft Copilot to create training materials | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-copilot-to-create-training-materials/) |
 | Introduction to Linux on Azure | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-linux-on-azure/) |
 | Customize Microsoft Dynamics 365 Business Central | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-dynamics-365-business-central/) |
-| Extract information from business cards with AI Builder | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-business-card-reader/) |
-| Get started with file input and output | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-file-input-output/) |
-| Extract event log data for process mining | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-event-log/) |
-| Add chat to a Microsoft Teams app by using the Teams JavaScript client library | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-integrate-chat/) |
-| Accessibility best practices for games and platforms | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/games-and-platforms1/) |
-| Interactively debug .NET apps with the Visual Studio debugger | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-debug-visual-studio/) |
-| Get started with AI Builder category classification | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-category-classification/) |
-| Implement collection types | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-collection-types/) |
-| Get started with classes and objects in C# | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-classes-objects-c-sharp/) |
-| Store and retrieve data by using F# | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/fsharp-first-program/) |
-| Implement enum, struct, and record types | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-enum-struct-record-types/) |
-| Develop with DevOps | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-with-devops/) |
-| Store application data with Azure Blob Storage | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/store-app-data-with-azure-blob-storage/) |
-| Store data in Azure | Learningpaths | 2025-12-21 | N/A |
-| Publish and manage your APIs with Azure API Management | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-manage-apis-with-azure-api-management/) |
-| Introduction to Azure Functions | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-functions/) |
-| Start your free Dynamics 365 Business Central trial | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/trial-dynamics-365-business-central/) |
-| Use Microsoft Word and Excel templates with Dataverse | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-word-excel-dataverse/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-73.md](microsoft-learn-2026-08-part-73.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-75.md](microsoft-learn-2026-08-part-75.md)

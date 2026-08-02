@@ -12,6 +12,21 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Manage accounts payable | Learningpaths | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-manage-accounts-payable-expenses/) |
+| Service adoption framework - Phase 2, Experiment | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-service-adoption-experiment/) |
+| Configure Azure Key Vault networking settings | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-key-vault-networking-settings/) |
+| Use performance management and employee development in Dynamics 365 Human Resources | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-performance-management-employee-development/) |
+| Set up and use discrete manufacturing routes in Dynamics 365 Supply Chain Management | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-discrete-manufacturing-routes/) |
+| Explore extensions and the extension framework in finance and operations apps | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-extensions-framework-finance-operations/) |
+| Understand the MySQL storage engine | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-mysql-storage-engine/) |
+| Manage SharePoint Online by using Windows PowerShell | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-sharepoint-online-use-windows-powershell/) |
+| Use common low-code plug-in scenarios | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/common-low-code-plug-in/) |
+| Customer assets in Dynamics 365 Field Service | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/customer-assets/) |
+| Manage work orders in Dynamics 365 Field Service | Learningpaths | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-work-orders/) |
+| Plan an Azure Kubernetes Service deployment | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-azure-kubernetes-service-deployment/) |
+| Filter network traffic with a network security group using the Azure portal | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/filter-network-traffic-network-security-group-using-azure-portal/) |
+| Work with Power Fx functions | Learningpaths | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-powerfx-functions/) |
+| Build Power Fx functions | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-fx/) |
 | Connect an Azure SQL server using an Azure Private Endpoint using the Azure portal | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-azure-server-private-endpoint-using-azure-portal/) |
 | MD-101 Manage updates and use analytics | Learningpaths | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-updates-use-analytics/) |
 | Explore Endpoint Analytics | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-endpoint-analytics/) |
@@ -48,21 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Get started with SQL Server 2025 | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-sql-server/) |
 | Manage Microsoft Copilot | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-copilot/) |
 | Troubleshoot on-premises and hybrid networking | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-premises-hybrid-networking/) |
-| Validate Azure resources by using the ARM Template Test Toolkit | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/arm-template-test/) |
-| Perform budgeting and forecasting | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-budgeting/) |
-| Configure and use budgeting in Dynamics 365 Finance | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-budgeting-dyn365-finance/) |
-| Set up and use basic budgeting Dynamics 365 Finance | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-use-basic-budgeting-finance/) |
-| Use model-driven apps and Dataverse with Business Central | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-model-driven-apps-common-data-service/) |
-| Apply storage concepts to Windows containers running on Azure Kubernetes Service (AKS) and AKS Hybrid | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-storage-concepts-to-windows-containers/) |
-| Work with Power Pages websites | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-power-pages/) |
-| Work with Power Pages metadata | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-metadata/) |
-| Ship and invoice items in Dynamics 365 Business Central | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/ship-invoice-items-dynamics-365-business-central/) |
-| Deploy a cloud-native .NET microservice automatically with GitHub Actions and Azure Pipelines | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/microservices-devops-aspnet-core/) |
-| Examine Defender for Cloud regulatory compliance standards | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-defender-cloud-regulatory-compliance-standards/) |
-| Use AutoML in Azure Databricks | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/automl-azure-databricks/) |
-| Challenge project - Build a declarative agent to chat with your data | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-challenge-chat-with-data/) |
-| Extend Microsoft 365 Copilot with declarative agents using Visual Studio Code | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-microsoft-365-declarative-agents-visual-studio-code/) |
-| Build reports for finance and operations apps | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reports-finance-operations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-39.md](microsoft-learn-2026-08-part-39.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-41.md](microsoft-learn-2026-08-part-41.md)

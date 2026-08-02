@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 68 of 93
-date_range: 2025-12-29 to 2025-12-30
-total_entries: 56
+date_range: 2025-12-29 to 2025-12-31
+total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-68.md
 ---
 
@@ -12,6 +12,22 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Upload data to Azure Data Lake Storage | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/upload-data-to-azure-data-lake-storage/) |
+| Store local data with SQLite in a .NET MAUI app | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/store-local-data/) |
+| Build mobile and desktop apps with .NET MAUI | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-apps-with-dotnet-maui/) |
+| Create multi-page .NET MAUI apps with tab and flyout navigation | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-multi-page-apps/) |
+| Design consistent .NET MAUI XAML pages by using shared resources | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-shared-resources/) |
+| Design an MVVM viewmodel for .NET MAUI | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-mvvm-viewmodel/) |
+| Create a UI that uses data binding in .NET MAUI. | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/separate-ui-and-logic-with-data-binding/) |
+| Customize layout in .NET MAUI XAML pages | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-xaml-pages-layout/) |
+| Collaborate with others with Markdown and GitHub Pages | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/collaborate-markdown-github-pages/) |
+| Create and host web sites by using GitHub Pages | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-host-web-sites-github-pages/) |
+| Application lifecycle management for Dynamics 365 | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-lifecycle-management-dynamics-365/) |
+| Implement Dynamics 365 Projects | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-dynamics-365-projects/) |
+| Test your Dynamics 365 implementation | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-dynamics-365-implementation/) |
+| Document your Dynamics 365 solution for the customer | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-dynamics-365-solution-customer/) |
+| Design the Dynamics 365 deployment | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dynamics-365-deployment/) |
+| Present Business Applications designs to stakeholders | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/present-business-applications-designs/) |
 | Deploy Spring microservices to Azure | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-spring-cloud-workshop/) |
 | Deploy a Quarkus application to Azure Container Apps | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-java-quarkus-azure-container-app-postgres/) |
 | Introduction to Java on Azure | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-java-azure/) |
@@ -30,8 +46,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Work with the Microsoft Dynamics 365 Business Central user interface | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-user-interface-dynamics-365-business-central/) |
 | Teach cybersecurity concepts with Minecraft Education | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-cybersecurity-concepts-minecraft-education/) |
 | Guide to Secure .NET Development with OWASP Top 10 | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/owasp-top-10-for-dotnet-developers/) |
-| Design a data ingestion strategy for machine learning projects | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-ingestion-strategy-for-machine-learning-projects/) |
 | Design a machine learning solution | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-machine-learning-solution/) |
+| Design a data ingestion strategy for machine learning projects | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-ingestion-strategy-for-machine-learning-projects/) |
 | Upload, download, and manage data with Azure Storage Explorer | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/upload-download-and-manage-data-with-azure-storage-explorer/) |
 | Architect storage infrastructure in Azure | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-storage-infrastructure/) |
 | Digital citizenship: Prepare today's learners for online success | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/digital-citizenship-prepare-todays-learners/) |
@@ -53,21 +69,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Use Copilot in Power Automate | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-copilot-power-automate/) |
 | Use Copilot in Power Apps | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-copilot-power-apps/) |
 | Introduction to Copilot in Microsoft Power Platform | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-power-platform/) |
-| Deploy a Java web app to a Tomcat server on Azure App Service | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-java-webapp-to-app-service-linux/) |
-| Develop confident presenters with Speaker Progress | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-confident-presenters-speaker-progress/) |
-| Get started with Asset Management for Dynamics 365 Supply Chain Management | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-asset-management/) |
-| Create cloud native apps with Azure and open-source software | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-cloud-native-apps-with-azure-open-source/) |
-| Orchestrate containers for cloud-native apps with AKS | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-native-apps-orchestrate-containers/) |
-| Introduction to cloud-native apps on Azure | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-cloud-native-apps/) |
-| Configure and manage file access | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-file-access/) |
-| MD-100 Configure data access and usage | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-data-access-usage/) |
-| Explore Windows client file systems | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-client-file-systems/) |
-| Manage user files | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-user-files/) |
-| MD-100 Troubleshoot the Windows client operating system and apps | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-windows-client-operating-system-apps/) |
-| Troubleshoot operating system service issues | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-operating-system-service-issues/) |
-| Use alternative interfaces for Dynamics 365 Business Central | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/alternative-interfaces-dynamics-365-business-central/) |
-| Integrate OpenAPI-enabled Web APIs with Azure API Management through Visual Studio | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-openapi-enabled-web-api-with-apim-and-visual-studio/) |
-| Transform your business applications with fusion development | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-applications-with-fusion-development/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-67.md](microsoft-learn-2026-08-part-67.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-69.md](microsoft-learn-2026-08-part-69.md)

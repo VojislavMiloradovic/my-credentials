@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 84 of 93
-date_range: 2025-11-29 to 2025-12-02
-total_entries: 54
+date_range: 2025-11-30 to 2025-12-03
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-84.md
 ---
 
@@ -12,6 +12,24 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Customize a SUSE Linux Enterprise Server virtual machine on Azure | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-suse-linux-enterprise-server-azure/) |
+| Extend Microsoft Viva Connections with web parts | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-extend-with-web-parts/) |
+| Overview of Retail data solutions in Microsoft Fabric | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/retail-data-solutions-overview/) |
+| Get started with Microsoft for Retail | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-retail/) |
+| Experiment with Azure Machine Learning | Learningpaths | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-machine-learning-model-selection-azure-machine-learning/) |
+| Find the best classification model with Automated Machine Learning | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/find-best-classification-model-automated-machine-learning/) |
+| Track model training in Jupyter notebooks with MLflow | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/track-model-training-jupyter-notebooks-mlflow/) |
+| Track model training with MLflow in jobs | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-models-training-mlflow-jobs/) |
+| Modify the content of strings using built-in string data type methods in C# | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-modify-content/) |
+| Get started with FinOps | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-finops/) |
+| Build approval flows with Power Automate | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-approval-flows/) |
+| Guided project - Plan a Petting Zoo Visit | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-visit-petting-zoo/) |
+| Analyze by using Microsoft Azure emissions insights | Modules | 2025-12-02 | N/A |
+| Set up a mixed reality project in Unity with the Mixed Reality Toolkit | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/mixed-reality-toolkit-project-unity/) |
+| Monitor workload protection in Azure Backup | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-protection-of-workloads-in-azure-backup/) |
+| Extend Microsoft Viva Connections with Adaptive Card Extensions | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-extend-with-adaptive-card-extensions/) |
+| Deploy a Spring Boot app to Azure Container Apps | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/java-spring-on-azure-container-apps/) |
+| Build an AI-powered workplace helper app | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-ai-powered-workplace-helper-app/) |
 | Introduction to Azure OpenAI managed identity authentication with JavaScript | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-openai-managed-identity-auth-javascript/) |
 | Choose a tool to migrate data to Azure Database for MySQL | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-tool-to-migrate-data-to-azure-database-for-mysql/) |
 | Earn Advanced School Data Sync credit toward the SDS Advanced badge | Modules | 2025-12-02 | N/A |
@@ -49,23 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Discover Microsoft safety guidelines for responsible conversational AI development | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-responsible-conversational-ai/) |
 | Choose a distribution channel for a HoloLens app | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-distribution-hololens-app/) |
 | Validation of Teams apps extensible across Microsoft 365 | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-teams-extend-app-365/) |
-| Add significant value to your Teams app | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-teams-significant-app-value/) |
-| Configure settings for Fundraising and Engagement | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-settings-fundraising-engagement/) |
-| Get started with AI-powered information extraction in Azure | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/) |
-| Describe Microsoft Security Copilot agents | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-describe-agents/) |
-| Enhance security operations by using Microsoft Security Copilot | Learningpaths | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-copilot-and-ai/) |
-| Add logic to C# console applications (Get started with C#, Part 3) | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-3/) |
-| Guided project - Develop conditional branching and looping structures in C# | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-develop-conditional-branching-looping/) |
-| Secure a Microsoft Fabric data warehouse | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-data-warehouse-in-microsoft-fabric/) |
-| Introduction to Azure Application Gateway | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway/) |
-| Communicate effectively on GitHub using Markdown | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/) |
-| GitHub Foundations Part 1 of 2 | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-foundations/) |
-| Implement Real-Time Intelligence with Microsoft Fabric | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-real-time-analytics-microsoft-fabric/) |
-| Create Real-Time Dashboards with Microsoft Fabric | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-real-time-dashboards-microsoft-fabric/) |
-| Minecraft 101: Craft a game-based learning classroom | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/craft-game-based-learning-classroom/) |
-| Empower your workforce with Microsoft 365 Copilot: Legal Use Case | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-microsoft-365-copilot-legal-use-case/) |
-| Introduction to Datacenter | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-datacenter/) |
-| Describe the best practices for datacenter operations | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-best-practices-datacenter-operations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-83.md](microsoft-learn-2026-08-part-83.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-85.md](microsoft-learn-2026-08-part-85.md)

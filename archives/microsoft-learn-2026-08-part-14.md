@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 14 of 93
-date_range: 2026-05-30 to 2026-05-31
-total_entries: 50
+date_range: 2026-05-30 to 2026-06-01
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-14.md
 ---
 
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Optimize query performance for Azure Cosmos DB for NoSQL | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-azure-cosmos-db/) |
+| Implement vector search on Azure Cosmos DB for NoSQL | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-search-azure-cosmos-db/) |
+| Protect and govern AI ready infrastructure with Azure | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-govern-ai-ready-infrastructure-azure/) |
+| Manage secure AI-ready infrastructure | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secure-ai-ready-infrastructure/) |
+| Implement resilient AI-ready infrastructure | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-resilient-ai-ready-infrastructure/) |
+| Secure AI-ready infrastructure | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-ai-ready-infrastructure/) |
+| Implement identity-based security for Azure Machine Learning workspaces | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-identity-based-security-azure-machine-learning/) |
+| Use agent flows in Copilot Studio | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-agent-flows/) |
+| Implement security controls for Azure AI-ready infrastructure | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-azure-ai-ready-infrastructure/) |
+| Understand identity architecture for AI workloads | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/entra-ai-understand/) |
+| Integrate backend services for AI solutions | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-backend-services-ai-solutions/) |
+| Queue and process AI operations with Azure Service Bus | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/queue-process-operations-service-bus/) |
+| Develop event-driven AI workflows with Azure Event Grid | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/event-driven-workflows-event-grid/) |
+| Enforce compliance and remediate security issues by using Microsoft Intune | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-compliance-intune/) |
+| Develop AI-enabled apps using the GitHub Copilot SDK | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-ai-enabled-apps-using-github-copilot-sdk/) |
+| Build serverless AI backends with Azure Functions | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-backends-azure-functions/) |
+| Manage application settings with Azure App Configuration | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-app-settings-app-config/) |
 | Manage application secrets and configuration for AI solutions | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-app-secrets-configuration/) |
 | Manage application secrets with Azure Key Vault | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-app-secrets-key-vault/) |
 | Protect Microsoft Foundry solutions by using Microsoft Defender for Cloud | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/defender-for-cloud-ai-foundry-protect/) |
@@ -46,22 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Implement Microsoft Teams for Education in your school (Partner Success Series) | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-microsoft-teams-education-school/) |
 | Implement Microsoft Copilot in your school (Partner Success Series) | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-microsoft-copilot-school-partner-success-series/) |
 | Extend Microsoft Teams with Learning Management Systems (Partner Success Series) | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-microsoft-teams-learning-management-systems/) |
-| Deploy Microsoft 365 for Education with the Microsoft Education Solution Guide (Partner Success Series) | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-education-solution-guide/) |
-| Secure mobile access using Microsoft Tunnel | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-mobile-access-microsoft-tunnel/) |
-| Optimize device management using AI and Copilot tools | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-device-management-ai-copilot/) |
-| Monitor and optimize endpoint performance using Microsoft Intune | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-optimize-endpoint-performance-intune/) |
-| Monitor and optimize application performance using Microsoft Intune | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-optimize-application-performance-intune/) |
-| Manage application lifecycle and user experience using Microsoft Intune | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-application-lifecycle-intune/) |
-| Manage Enterprise App Catalog applications | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-enterprise-application-catalog/) |
-| Implement device encryption and security policies using Microsoft Intune | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-encryption/) |
-| Implement advanced threat protection using Microsoft Intune and Microsoft Defender | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-advanced-threat-protection/) |
-| Implement Microsoft Cloud PKI | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-pki/) |
-| Deploy and manage applications using Microsoft Intune | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-applications-intune/) |
-| Automate endpoint management using PowerShell and Microsoft Graph | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-endpoint-management-powershell-graph/) |
-| Manage contact center operations with supervisor tools in Dynamics 365 Contact Center | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-supervisor-experience-contact-center/) |
-| Introduction to sales in Dynamics 365 | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-sales-dynamics-365/) |
-| Describe sales account management in Dynamics 365 | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sales-account-management-dynamics-365/) |
-| Manage NFS volumes in Azure NetApp Files | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-nfs-volumes-azure-netapp-files/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-13.md](microsoft-learn-2026-08-part-13.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-15.md](microsoft-learn-2026-08-part-15.md)

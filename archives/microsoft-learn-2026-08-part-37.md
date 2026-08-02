@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 37 of 93
-date_range: 2026-03-07 to 2026-03-09
-total_entries: 49
+date_range: 2026-03-08 to 2026-03-11
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-37.md
 ---
 
@@ -12,6 +12,21 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Work with Dynamics 365 Sales | Learningpaths | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/working-with-dynamics-365-sales/) |
+| Use PowerShell drives in PowerShell | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-powershell-drives-powershell/) |
+| Using Azure NetApp Files application volume group | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-application-volume-group/) |
+| Plan items in Dynamics 365 Business Central | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-items-dynamics-365-business-central/) |
+| Understand the basics of Microsoft Dev Box | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-basics-microsoft-dev-box/) |
+| Create AI Builder prompts using your own Dataverse data | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-grounded-prompts/) |
+| Examine Windows 365 | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-windows-365/) |
+| Time entries and modern approvals  infrastructure in Dynamics 365 Project Operations | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/time-entries-modern-approvals/) |
+| Configure warehouse management in Dynamics 365 Supply Chain Management | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-warehouse-management-dyn365-supply-chain-mgmt/) |
+| Use events and triggers in Dynamics 365 Business Central | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/events-triggers/) |
+| Get started with discrete manufacturing in Dynamics 365 Supply Chain Management | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-discrete-manufacturing-dyn365-supply-chain-mgmt/) |
+| Debug and deploy your extension in Dynamics 365 Business Central | Modules | 2026-03-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/debug-deploy-extension/) |
+| Discover the foundation of customizing Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/foundation-customize-business-central/) |
+| Learn about the data management foundation in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-management-foundation-business-central/) |
+| Introduction to the basics of file management in Dynamics 365 Business Central | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-basics-file-management/) |
 | Use system catalogs and system views in PostgreSQL | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-system-catalogs-system-views-postgresql/) |
 | Work with Azure Boards for project management in Business Central | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-azure-boards/) |
 | Design a data partitioning strategy | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-partitioning-strategy/) |
@@ -47,20 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Execute across warehouse operations in Dynamics 365 Supply Chain Management | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/execute-across-warehouse-supply-chain-management/) |
 | Build a real-time event-driven Java solution in Azure | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-real-time-event-driven-app/) |
 | Get started with invoicing in Dynamics 365 Project Operations | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-invoicing-project-operations/) |
-| Innovate using RISE with SAP on the Microsoft Cloud | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/innovate-rise-sap-microsoft-cloud/) |
-| Prepare warehouse management for item tracking in Dynamics 365 Business Central | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-item-tracking/) |
-| Work with capacity planning and scheduling in Dynamics 365 Supply Chain Management | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-capacity-planning-scheduling-discrete-dyn365-supply-chain-mgmt/) |
-| Create cloud-native apps and services with .NET and ASP.NET Core | Learningpaths | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-microservices-with-dotnet/) |
-| Implement feature flags in a cloud-native ASP.NET Core microservices app | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/microservices-configuration-aspnet-core/) |
-| Understand quotas in Azure NetApp Files | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-quotas/) |
-| Troubleshoot tightly coupled HPC applications on HBv2, HC, and HB series virtual machines | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-tightly-coupled-hpc-apps/) |
-| Run high-performance computing (HPC) applications on Azure | Learningpaths | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/run-high-performance-computing-applications-azure/) |
-| Use best practices to secure and govern Microsoft Power Platform environments | Learningpaths | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/best-practices-environments/) |
-| Manage environmental changes in Microsoft Power Platform | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-environmental-changes/) |
-| Promising sales order delivery in Dynamics 365 Business Central | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) |
-| Sell items and services in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/sell-items-services-dynamics-365-business-central/) |
-| Embed surveys in your website with Dynamics 365 Customer Voice | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/embed-surveys/) |
-| Validate and release product configuration models in Dynamics 365 Supply Chain Management | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/validate-release-production-configuration/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-36.md](microsoft-learn-2026-08-part-36.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-38.md](microsoft-learn-2026-08-part-38.md)

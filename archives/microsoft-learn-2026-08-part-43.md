@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 43 of 93
-date_range: 2026-02-25 to 2026-02-26
+date_range: 2026-02-25 to 2026-02-27
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-43.md
 ---
@@ -12,9 +12,24 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Implement multi-stage reasoning in Azure Databricks | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/multistage-reasoning-azure-databricks/) |
+| Implement high availability of Windows Server VMs | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-high-availability-of-windows-server-vms/) |
+| Implement Windows Server high availability | Learningpaths | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-high-availability/) |
+| Build web apps with Blazor | Learningpaths | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-web-apps-with-blazor/) |
+| Improve how forms and validation work in Blazor web apps | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/blazor-improve-how-forms-work/) |
+| Use service-level agreements and entitlements in Dynamics 365 Field Service | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-service-level-agreements-entitlements/) |
+| Use branching and merging with Git for Business Central | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-branch-merge-git/) |
+| Explore Desktop Analytics | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-desktop-analytics/) |
+| Get started with computer vision in Azure | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/) |
+| Understand hybrid data platform on SQL Server 2025 | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-hybrid-data-platform-sql-server/) |
+| Get started with AI-powered information extraction in Azure | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/) |
+| Process purchase order invoices in Dynamics 365 Finance | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/purchase-order-invoices-finance/) |
+| Generate inventory and compliance reports | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-inventory-compliance-reports/) |
+| Train a machine learning model in Azure Databricks | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/machine-learning-azure-databricks/) |
+| Evaluate language models with Azure Databricks | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-language-models-azure-databricks/) |
 | Implement streaming architecture patterns with Delta Live Tables | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-streaming-architecture-patterns-with-delta-live-tables/) |
-| Guided Project – Deploy and configure Azure Monitor | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-deploy-configure-azure-monitor/) |
 | Deploy and configure Azure Monitor | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-azure-monitor/) |
+| Guided Project – Deploy and configure Azure Monitor | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-deploy-configure-azure-monitor/) |
 | Monitor device profiles | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-device-profiles/) |
 | Optimize performance with Spark and Delta Live Tables | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-performance-with-spark-and-delta-live-tables/) |
 | Introduction to tools for declarative agents in Copilot Studio | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-studio-actions/) |
@@ -39,8 +54,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Troubleshoot audio, video, and client issues | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-audio-video-client-issues/) |
 | Work with environments in GitHub Actions | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-environments-github-actions/) |
 | Deploy social messaging channels in Omnichannel for Dynamics 365 Customer Service | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/social-channels/) |
-| Migrate Windows Server roles | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-windows-server-roles/) |
 | Migrate servers and workloads in on-premises and hybrid environments | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-servers-workloads-premises-hybrid-environments/) |
+| Migrate Windows Server roles | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-windows-server-roles/) |
 | Deploy an SMS channel in Omnichannel for Dynamics 365 Customer Service | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/sms-channels/) |
 | Use Microsoft 365 services with model-driven apps and Microsoft Dataverse | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-services-model-driven-apps/) |
 | Guided project - Build auto suggest engine with Copilot | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-auto-suggest-engine-copilot/) |
@@ -48,21 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Consider application monetization responsibilities in Business Central | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-monetization/) |
 | Consume business events in finance and operations apps | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-events-finance-operations/) |
 | Manage network service settings for Windows devices using PowerShell cmdlets | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-network-service-settings-for-windows-devices-use-powershell-cmdlets/) |
-| Maintain system administration tasks in Windows PowerShell | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/maintain-system-administration-tasks-windows-powershell/) |
-| Build websites with Power Pages - Online Workshop | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-pages-online-workshop/) |
-| Introduction and prerequisites for Power Pages - Online workshop | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-introduction-online-workshop/) |
-| Manage settings for a local Windows machine using PowerShell cmdlets | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-settings-for-local-windows-machine-use-powershell-cmdlets/) |
-| Consume an Azure Cosmos DB for NoSQL change feed using the SDK | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/consume-azure-cosmos-db-sql-api-change-feed-use-sdk/) |
-| Automate database tasks for Azure SQL | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-tasks-sql-server/) |
-| Automate database deployment | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-automatic-deployment-azure-sql-database/) |
-| Deploy new devices | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-new-devices/) |
-| Process sales orders with Dynamics 365 Sales | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-sales-orders-dynamics-365-sales/) |
-| Get started with language models in Azure Databricks | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-language-models-databricks/) |
-| Review responsible AI principles for language models in Azure Databricks | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-language-models-azure-databricks/) |
-| Work with scripting constructs in Windows PowerShell | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-script-constructs-windows-powershell/) |
-| Set up and use Intelligent OCR for vendor invoices in Dynamics 365 Finance | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/ocr-vendor-invoices-finance/) |
-| Deploy and manage Azure Arc-enabled Servers | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-azure-arc-enabled-servers/) |
-| Guided exercise - Manage on-premises Windows servers by using Azure Arc | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-exercise-manage-on-premises-azure-arc/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-42.md](microsoft-learn-2026-08-part-42.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-44.md](microsoft-learn-2026-08-part-44.md)

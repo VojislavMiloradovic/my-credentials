@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 15 of 93
-date_range: 2026-05-22 to 2026-05-29
-total_entries: 52
+date_range: 2026-05-24 to 2026-05-30
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-15.md
 ---
 
@@ -12,6 +12,22 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Deploy Microsoft 365 for Education with the Microsoft Education Solution Guide (Partner Success Series) | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-education-solution-guide/) |
+| Secure mobile access using Microsoft Tunnel | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-mobile-access-microsoft-tunnel/) |
+| Optimize device management using AI and Copilot tools | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-device-management-ai-copilot/) |
+| Monitor and optimize endpoint performance using Microsoft Intune | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-optimize-endpoint-performance-intune/) |
+| Monitor and optimize application performance using Microsoft Intune | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-optimize-application-performance-intune/) |
+| Manage application lifecycle and user experience using Microsoft Intune | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-application-lifecycle-intune/) |
+| Manage Enterprise App Catalog applications | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-enterprise-application-catalog/) |
+| Implement device encryption and security policies using Microsoft Intune | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-encryption/) |
+| Implement advanced threat protection using Microsoft Intune and Microsoft Defender | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-advanced-threat-protection/) |
+| Implement Microsoft Cloud PKI | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-pki/) |
+| Deploy and manage applications using Microsoft Intune | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-applications-intune/) |
+| Automate endpoint management using PowerShell and Microsoft Graph | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-endpoint-management-powershell-graph/) |
+| Manage contact center operations with supervisor tools in Dynamics 365 Contact Center | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-supervisor-experience-contact-center/) |
+| Introduction to sales in Dynamics 365 | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-sales-dynamics-365/) |
+| Describe sales account management in Dynamics 365 | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sales-account-management-dynamics-365/) |
+| Manage NFS volumes in Azure NetApp Files | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-nfs-volumes-azure-netapp-files/) |
 | Explore forecasting, pipeline management, and analytics in Dynamics 365 Sales | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-forecasting-pipeline-analytics-dynamics-365-sales/) |
 | Guide assessment with Copilot in Microsoft Teams | Modules | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/guide-assessment-copilot-microsoft-teams/) |
 | Attending radiologist workflow foundations | Learningpaths | 2026-05-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-attending-radiologist-workflow-foundations/) |
@@ -47,23 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Apply RBAC and admin delegation in Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-rbac-admin-delegation/) |
 | Administer device identity and authentication using Microsoft Entra ID | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/device-identity-authentication-entra-id/) |
 | Tailor the agent workspace with experience profiles in Dynamics 365 Contact Center | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-experience-profiles-contact-center/) |
-| Accelerate service delivery with productivity tools in Dynamics 365 Contact Center | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-productivity-tools-contact-center/) |
-| School Data Sync for IT Admins (Partner Success Series) | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/school-data-sync-it-admins/) |
-| Explore lead generation in Dynamics 365 | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-lead-generation-dynamics-365/) |
-| Choose the best Windows 11 edition built for your organization’s needs | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-best-windows-11-edition/) |
-| Accelerate your storage migration, modernization, and innovation journey to Azure | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-storage-migration/) |
-| Understand endpoint management strategies and Microsoft Intune | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-intune-strategies/) |
-| Choose data stores in Microsoft Fabric | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-data-store-fabric/) |
-| Secure developer AI environments with Microsoft Purview | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-developer-apps/) |
-| Secure access to resources by using Microsoft Entra | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-access-resources-entra/) |
-| Manage and implement authentication methods in Microsoft Entra ID | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/) |
-| Govern AI ready workloads with Microsoft Foundry | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-ai-ready-workloads-microsoft-foundry/) |
-| Translate text and speech with Microsoft Foundry Tools | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/translate-text-speech/) |
-| Develop natural language solutions in Azure | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/) |
-| Configure channels in Dynamics 365 Contact Center | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-channels-dynamics-365-contact-center/) |
-| Configure the voice channel in Dynamics 365 Contact Center | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-voice-channel-contact-center/) |
-| Configure advanced settings for channels in Dynamics 365 Contact Center | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-advanced-channel-settings-contact-center/) |
-| Multi-Agent Systems and Orchestration | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-14.md](microsoft-learn-2026-08-part-14.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-16.md](microsoft-learn-2026-08-part-16.md)

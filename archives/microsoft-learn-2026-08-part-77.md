@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 77 of 93
-date_range: 2025-12-16 to 2025-12-18
+date_range: 2025-12-17 to 2025-12-18
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-77.md
 ---
@@ -12,11 +12,27 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Explore Dynamics 365 Customer Service | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-customer-service/) |
+| Introduction to Microsoft Defender for Office 365 | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-office-365-introduction/) |
+| Introduction to Azure application delivery services | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-application-delivery-services/) |
+| Introduction to Secure Application Delivery with Azure network security | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-application-delivery/) |
+| Introduction to Azure Web Application Firewall | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-web-application-firewall/) |
+| Business process mapping for Dynamics 365 | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-process-mapping-dynamics-365/) |
+| Plan with DevOps | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-with-devops/) |
+| Prepare your development environment for Azure development | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-your-dev-environment-for-azure-development/) |
+| Introduction to solutions for Microsoft Power Platform | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-solutions/) |
+| Empower Dyslexic Thinking in Schools | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-dyslexic-thinking-schools/) |
+| Describe how Git manages source control | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-how-git-manages-source-control/) |
+| Get started with identity and access labs | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-identity-access-labs/) |
+| Describe Dynamics 365 Field Service scheduling capabilities and related apps | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-scheduling-process/) |
+| Create accessible AI experiences | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-accessible-solutions-using-ai-innovations/) |
+| Accessibility fundamentals | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/accessibility-fundamental/) |
+| Accessibility evaluation and testing | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/accessibility-evaluation-and-testing/) |
 | Create a threat model using data-flow diagram elements | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-create-a-threat-model-using-foundational-data-flow-diagram-elements/) |
 | Introduction to threat modeling | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-introduction-to-threat-modeling/) |
 | Use recommended tools to create a data-flow diagram | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-use-recommended-tools-to-create-a-data-flow-diagram/) |
-| Query and modify data with Transact-SQL | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/) |
 | Use built-in functions and GROUP BY in Transact-SQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-built-functions-transact-sql/) |
+| Query and modify data with Transact-SQL | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/) |
 | Modify data with T-SQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/modify-data-with-transact-sql/) |
 | Write Subqueries in T-SQL | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-subqueries/) |
 | Introduction to infrastructure as code using Bicep | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-infrastructure-as-code-using-bicep/) |
@@ -51,22 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Build web apps with ASP.NET Core for beginners | Learningpaths | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/aspnet-core-web-app/) |
 | Get started with Dynamics 365 Finance | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-financial-management-dyn365-finance/) |
 | Microsoft Sustainability Manager Solution Architecture | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-architecture/) |
-| Introduction to Azure Health Data Services | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-health-data-services/) |
-| Create and architect with functions in F# | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/fsharp-functions/) |
-| Prepare your child with cybersecurity essentials | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-child-cybersecurity-essentials/) |
-| Modernize ASP.NET Framework to ASP.NET Core with the .NET Upgrade Assistant | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/modernize-aspnet-framework-to-core/) |
-| Manage execution flow in F# | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/fsharp-conditional/) |
-| Build a Microsoft Teams tab app by using Teams Toolkit for Visual Studio Code | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-tab-app/) |
-| Transition your business to Azure | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-your-business-azure/) |
-| Dynamics 365 Finance capabilities | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-finance-core-capabilities/) |
-| Describe expense tracking, asset control, and budgeting processes in Microsoft Dynamics 365 Finance | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-expense-management-fixed-asset-management/) |
-| Azure for Researchers part 1: Introduction to Cloud Computing | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/researcher-introduction-to-cloud-computing/) |
-| Create an Azure Storage account | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-storage-account/) |
-| Load/export data and create data views in Dataverse | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/load-export-data-create-data-views/) |
-| Describe Dynamics 365 Customer Insights - Data | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-marketing-capabilities-2/) |
-| Combine multiple tables with JOINs in T-SQL | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-multiple-tables-with-joins/) |
-| Introduction to Docker containers | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-docker-containers/) |
-| Choose a data storage approach in Azure | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-storage-approach-in-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-76.md](microsoft-learn-2026-08-part-76.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-78.md](microsoft-learn-2026-08-part-78.md)

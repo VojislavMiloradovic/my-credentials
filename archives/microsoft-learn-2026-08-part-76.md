@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 76 of 93
-date_range: 2025-12-18 to 2025-12-19
-total_entries: 53
+date_range: 2025-12-18 to 2025-12-20
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-76.md
 ---
 
@@ -12,7 +12,22 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Introduction to Power Automate process mining | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-process-mining/) |
+| Create new companies in Business Central | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-new-companies-dynamics-365-business-central/) |
+| Introduction to .NET web development with ASP.NET Core | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-aspnet-core/) |
+| Automate repetitive tasks using loops in Power Automate for desktop | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-loops/) |
+| Describe shared features of the finance and operations apps | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-shared-features-finance-operations-apps/) |
+| Create a new .NET project and work with dependencies | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-dependencies/) |
+| Establish partnerships and funding for the Minecraft Student Ambassador program | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/establish-partnerships-funding-msa-program/) |
+| Recruit students to the Minecraft Student Ambassador program | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/recruit-students-minecraft-student-ambassador-program/) |
+| Activate spatial audio for your HoloLens 2 application | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/spatial-audio-tutorials-mrtk/) |
+| Characterize DevOps Continuous Collaboration and Continuous Improvement | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/characterize-devops-continous-collaboration-improvement/) |
+| Explore social emotional learning: Mindfulness in Minecraft Education | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-social-emotional-learning-mindfulness-minecraft/) |
+| Advanced lessons in psychological safety | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-advanced-psychological-safety/) |
+| Understand hybrid data platform on SQL Server 2025 | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-hybrid-data-platform-sql-server-2022/) |
+| Configure your data in finance and operations apps | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-your-data-dynamics-365-finance-operations-apps/) |
 | Navigate your Viva Glint results | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-navigate-viva-glint-results/) |
+| Understand and share your Viva Glint results | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-understand-and-share-results/) |
 | Describe the basics of Azure for business | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-basics-azure-business/) |
 | Introduction to Azure OpenAI managed identity authentication with Python | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-openai-managed-identity-auth-python/) |
 | Describe reporting and integration capabilities in finance apps | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-report-integration/) |
@@ -21,13 +36,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Manage general ledger and cash and bank management processes in Dynamics 365 Finance | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-general-ledger-cash-bank-management/) |
 | Discover Microsoft Intune essentials | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-microsoft-intune-essentials/) |
 | Create images with generative AI | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-images-with-generative-ai/) |
-| Explore Dynamics 365 Customer Insights - Journeys | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-marketing/) |
 | Explore the fundamentals of Microsoft Dynamics 365 Customer Insights | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-of-microsoft-dynamics-365-marketing/) |
+| Explore Dynamics 365 Customer Insights - Journeys | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-marketing/) |
 | Get started with Power Automate for desktop | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-get-started/) |
 | Power Automate for desktop development essentials | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-power-automate-desktop-development-essentials/) |
 | Design a SQL Server migration strategy | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-data-platform-modernization/) |
-| Share a cloud flow with Power Automate | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/share-cloud-flow/) |
 | Connect and share cloud flow to desktop flows in Power Automate for desktop | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/connect-share-cloud-flow-desktop-flows-power-automate/) |
+| Share a cloud flow with Power Automate | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/share-cloud-flow/) |
 | Build a mobile-optimized app from Power Apps | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-mobile-optimized/) |
 | Upload your project by using GitHub best practices | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/upload-project-github/) |
 | Adjust process behavior using conditional actions with Power Automate for desktop | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-conditionals/) |
@@ -49,22 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Utilize onsite service capabilities in Dynamics 365 Field Service | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-onsite-service-capabilities/) |
 | Describe the foundations of Dynamics 365 customer engagement apps | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-foundations-customer-engagement-apps/) |
 | Explore the fundamentals of Microsoft Dynamics 365 Customer Service | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-microsoft-dynamics-365-customer-service/) |
-| Explore Dynamics 365 Customer Service | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-customer-service/) |
-| Introduction to Microsoft Defender for Office 365 | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-office-365-introduction/) |
-| Introduction to Azure application delivery services | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-application-delivery-services/) |
-| Introduction to Secure Application Delivery with Azure network security | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-application-delivery/) |
-| Introduction to Azure Web Application Firewall | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-web-application-firewall/) |
-| Business process mapping for Dynamics 365 | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-process-mapping-dynamics-365/) |
-| Plan with DevOps | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-with-devops/) |
-| Prepare your development environment for Azure development | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-your-dev-environment-for-azure-development/) |
-| Introduction to solutions for Microsoft Power Platform | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-solutions/) |
-| Empower Dyslexic Thinking in Schools | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-dyslexic-thinking-schools/) |
-| Describe how Git manages source control | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-how-git-manages-source-control/) |
-| Get started with identity and access labs | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-identity-access-labs/) |
-| Describe Dynamics 365 Field Service scheduling capabilities and related apps | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-scheduling-process/) |
-| Create accessible AI experiences | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-accessible-solutions-using-ai-innovations/) |
-| Accessibility fundamentals | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/accessibility-fundamental/) |
-| Accessibility evaluation and testing | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/accessibility-evaluation-and-testing/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-75.md](microsoft-learn-2026-08-part-75.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-77.md](microsoft-learn-2026-08-part-77.md)

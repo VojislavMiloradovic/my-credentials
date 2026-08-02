@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 80 of 93
-date_range: 2025-12-10 to 2025-12-13
-total_entries: 52
+date_range: 2025-12-11 to 2025-12-14
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-80.md
 ---
 
@@ -12,6 +12,22 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Get tips and tricks for teaching MB-210 Microsoft Dynamics 365 Sales Functional Consultant | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-210-sales-functional-consultant/) |
+| Introduction to inclusive design in practice in collaboration with Teach Access | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-inclusive-design-practice/) |
+| Accessibility design specs with annotations | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/accessibility-design-specs-with-annotations/) |
+| Use the Admin center to manage environments and data policies in Power Automate | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-flows/) |
+| Search and organize repository history by using GitHub | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/) |
+| Web accessibility principles and guidelines | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/web-accessibility-principles-guidelines/) |
+| Empower your workforce with Microsoft 365 Copilot: Finance Use Case | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-finance/) |
+| Empower your workforce with Microsoft 365 Copilot: Sales use case | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-sales/) |
+| Empower your workforce with Microsoft 365 Copilot: Operations use case | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-operations/) |
+| Dyslexia Awareness: Part 1, in partnership with Made By Dyslexia | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-awareness-part-1/) |
+| Introduction to DevOps | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/) |
+| Understand app management using Microsoft Intune | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/app-management-using-microsoft-endpoint-manager/) |
+| Create a Windows virtual machine in Azure | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-windows-virtual-machine-in-azure/) |
+| Learn about the Microsoft Viva Glint 360 feedback program | Learningpaths | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-360-feedback program/) |
+| Get to know Microsoft Viva Glint 360 Feedback | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-get-to-know-viva-glint-360-feedback/) |
+| Personalize your remote development workflow with Visual Studio Code | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/personalize-remote-development-workflow/) |
 | Develop products with accessible color and contrast | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-products-with-accessible-color-contrast/) |
 | Get tips and tricks for teaching PL-100 Microsoft Power Platform App Maker | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-pl-100-microsoft-power-platform-app-maker/) |
 | Introduction to the Remote - Tunnels extension | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-tunnel/) |
@@ -49,21 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Describe authentication and authorization in cybersecurity | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-authentication-authorization-cybersecurity/) |
 | Manage an InnerSource program by using GitHub | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/) |
 | Explore and configure the Azure Machine Learning workspace | Learningpaths | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-azure-machine-learning-workspace/) |
-| Explore Azure Machine Learning workspace resources and assets | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-machine-learning-workspace-resources-assets/) |
-| Train and track machine learning models with MLflow in Microsoft Fabric | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-track-model-fabric/) |
-| Manage repository changes by using pull requests on GitHub | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/) |
-| Apply AI Builder Text Recognition in the transportation industry | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-ai-builder-text-recognition-transportation-industry/) |
-| Design a people-centric measurement strategy | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-design-people-centric-measurement-strategy/) |
-| Introduction to Visual Studio Code for Education | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/visual-studio-code-education-introduction/) |
-| Get tips and tricks for teaching MB-230 Microsoft Dynamics 365 Customer Service Functional Consultant | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-230-customer-service-functional-consultant/) |
-| Explore DevOps Continuous Security and Continuous Operations | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-devops-continuous-security-operations/) |
-| Get tips and tricks for teaching SC-400: Microsoft Information Protection Administrator | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-sc-400-information-protection-administrator/) |
-| Design and set up your Viva Glint program | Learningpaths | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-program-design-setup/) |
-| Understand Viva Glint survey configuration and launch | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-understand-viva-glint-survey-config-launch/) |
-| Learn about Viva Glint program design | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-learn-about-viva-glint-program-design/) |
-| Prepare for a program approval event | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/academic-program-certifications-prepare-program-approval/) |
-| Use Microsoft accessibility features in education | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-microsoft-accessibility-features-education/) |
-| Optimize model training with Azure Machine Learning | Learningpaths | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-azure-machine-learning-pipelines-for-automation/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-79.md](microsoft-learn-2026-08-part-79.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-81.md](microsoft-learn-2026-08-part-81.md)

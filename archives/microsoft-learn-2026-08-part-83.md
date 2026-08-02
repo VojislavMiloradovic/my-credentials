@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 83 of 93
-date_range: 2025-12-02 to 2025-12-05
-total_entries: 53
+date_range: 2025-12-03 to 2025-12-05
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-83.md
 ---
 
@@ -12,6 +12,22 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Lead forward: Integrate the best strategies from remote, hybrid, and blended learning for school leaders | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/lead-forward-remote-hybrid-blended/) |
+| Maintain a secure repository by using GitHub best practices | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/) |
+| Challenge project - Debug a C# console application using Visual Studio Code | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-debug-c-sharp-console-application/) |
+| Manage and control traffic flow in your Azure deployment with routes | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-network-traffic-flow-with-routes/) |
+| Work with variable data in C# console applications (Get started with C#, Part 4) | Learningpaths | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-4/) |
+| Challenge project - Work with variable data in C# | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-work-variable-data-c-sharp/) |
+| Deliver Results with your Viva Glint Executive Consultation (EC) | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-deliver-results-executive-consultation/) |
+| Get tips and tricks for teaching MB-220: Microsoft Dynamics 365 Marketing Functional Consultant | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-220-marketing-functional-consultant/) |
+| Understand Viva Glint’s approach to 360 feedback | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-understand-viva-glint-approach-360-feedback/) |
+| Enhance communication using Power Automate and the Office 365 Users Connector | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-communication/) |
+| Get started with Sustainability data solutions in Microsoft Fabric | Learningpaths | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sustainability-data-solutions/) |
+| Sustainability data solutions overview | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-data-solutions-overview/) |
+| Get tips and tricks for teaching SC- 300: Microsoft Identity and Access Administrator | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-sc-300-identity-access-administrator/) |
+| Get started with healthcare data solutions in Microsoft Fabric | Learningpaths | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/healthcare-data-solutions/) |
+| Healthcare data solutions overview | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-data-solutions-overview/) |
+| Education solutions following School Data Sync deployment | Modules | 2025-12-05 | N/A |
 | Connect Microsoft 365 Copilot to your external data in real-time with message extension plugins built with .NET and Visual Studio | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-message-extension-plugins/) |
 | Get started with AI Builder entity extraction | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-entity-extraction/) |
 | Register an MLflow model in Azure Machine Learning | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-mlflow-model-azure-machine-learning/) |
@@ -47,24 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Publish Teams apps in Microsoft Teams Store | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-teams-publish-app-to-store/) |
 | Get started with Microsoft for Manufacturing | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-manufacturing/) |
 | Microsoft for Manufacturing overview | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacturing-overview/) |
-| Customize a SUSE Linux Enterprise Server virtual machine on Azure | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-suse-linux-enterprise-server-azure/) |
-| Extend Microsoft Viva Connections with web parts | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-extend-with-web-parts/) |
-| Overview of Retail data solutions in Microsoft Fabric | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/retail-data-solutions-overview/) |
-| Get started with Microsoft for Retail | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-retail/) |
-| Find the best classification model with Automated Machine Learning | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/find-best-classification-model-automated-machine-learning/) |
-| Experiment with Azure Machine Learning | Learningpaths | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-machine-learning-model-selection-azure-machine-learning/) |
-| Track model training in Jupyter notebooks with MLflow | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/track-model-training-jupyter-notebooks-mlflow/) |
-| Track model training with MLflow in jobs | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-models-training-mlflow-jobs/) |
-| Modify the content of strings using built-in string data type methods in C# | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-modify-content/) |
-| Get started with FinOps | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-finops/) |
-| Build approval flows with Power Automate | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-approval-flows/) |
-| Guided project - Plan a Petting Zoo Visit | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-visit-petting-zoo/) |
-| Analyze by using Microsoft Azure emissions insights | Modules | 2025-12-02 | N/A |
-| Set up a mixed reality project in Unity with the Mixed Reality Toolkit | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/mixed-reality-toolkit-project-unity/) |
-| Monitor workload protection in Azure Backup | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-protection-of-workloads-in-azure-backup/) |
-| Extend Microsoft Viva Connections with Adaptive Card Extensions | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-extend-with-adaptive-card-extensions/) |
-| Deploy a Spring Boot app to Azure Container Apps | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/java-spring-on-azure-container-apps/) |
-| Build an AI-powered workplace helper app | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-ai-powered-workplace-helper-app/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-82.md](microsoft-learn-2026-08-part-82.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-84.md](microsoft-learn-2026-08-part-84.md)

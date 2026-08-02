@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 12 of 93
-date_range: 2026-06-04 to 2026-06-08
+date_range: 2026-06-06 to 2026-06-08
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-12.md
 ---
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Deploy and administer Linux virtual machines on Azure | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-administer-linux-virtual-machines-azure/) |
+| Implement access management for Azure resources | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-access-management-for-azure-resources/) |
+| Validate your Microsoft Power Platform Solution Architect skills | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-power-platform-solution-architect-skills/) |
+| Becoming a solution architect for Dynamics 365 and Microsoft Power Platform | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/becoming-solution-architect/) |
+| Understand Microsoft 365 Agents SDK | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-copilot-stack/) |
+| Build Custom Engine Agents with the Microsoft 365 Agents SDK | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-custom-copilots-microsoft-teams/) |
+| Utilize an Azure OpenAI model to create an Agent | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/utilize-azure-openai-model-create-app/) |
+| Build your custom Agent using Microsoft 365 Agents SDK | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-custom-agent-teams/) |
+| Design scalable semantic models | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-scalable-semantic-models/) |
+| Work with semantic models in Microsoft Fabric | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-semantic-models-microsoft-fabric/) |
+| Model data with Power BI | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/model-data-power-bi/) |
+| Prepare and visualize data with Microsoft Power BI | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-visualize-data-power-bi/) |
+| Configure a semantic model | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-semantic-model-power-bi/) |
+| Challenge GitHub Copilot with SQL | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-github-copilot-sql/) |
+| Introduction to Azure DevOps to GitHub migration | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-ado-to-github-migration/) |
+| Secure and govern Microsoft 365 Copilot interactions with Microsoft Purview | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-secure-govern-copilot-interactions/) |
+| Secure AI interactions and environments with Microsoft Purview | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-ai/) |
 | Understand How to Secure AI Data with Microsoft Purview | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-understand-risks/) |
 | Secure Microsoft 365 Copilot interactions with Microsoft Purview | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-secure-copilot/) |
 | Secure enterprise and browser-based AI apps with Microsoft Purview | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-secure-enterprise-other/) |
@@ -46,23 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Configure and secure devices with Microsoft Intune policies | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-devices-intune-policies/) |
 | Accelerate endpoint remediation and response with Microsoft Security Copilot | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/accelerate-endpoint-remediation-response-security-copilot/) |
 | Analyze advanced device signals with Microsoft Intune Suite | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-advanced-device-signals/) |
-| Explore Windows 365 for cloud PC deployment | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-365-intune/) |
-| Manage capacity pool for Azure NetApp Files | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-capacity-pool-azure-netapp-files/) |
-| Deliver zero-touch Windows 11 Pro deployments | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-zero-touch/) |
-| Take action on content with Click to Do | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/click-to-do/) |
-| Monitor and troubleshoot applications on Azure Kubernetes Service | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-apps-azure-kubernetes-service/) |
-| Protect data and control access with Microsoft Intune and Conditional Access | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-data-control-access-intune-conditional-access/) |
-| Introduction to finance in Dynamics 365 | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-finance-dynamics-365/) |
-| Describe accounts payables and receivables in Dynamics 365 Finance | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-account-payables-account-receivables/) |
-| Implement container application hosting on Azure | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-container-app-hosting-azure/) |
-| Store and manage containers in Azure Container Registry | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/store-manage-containers-azure-container-registry/) |
-| AI in special education | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-in-special-education/) |
-| Streamline administrative tasks with AI tools | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/streamline-administrative-tasks-ai/) |
-| Integrate Azure Virtual Desktop with Microsoft Intune | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-azure-virtual-desktop-intune/) |
-| Implement Remote Help scenarios using Microsoft Intune | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-remote-help/) |
-| Explore Microsoft Intune Suite capabilities | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-intune-suite-capabilities/) |
-| Explore Azure Virtual Desktop | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-virtual-desktop/) |
-| Evaluate Endpoint Privilege Management with Microsoft Intune | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-endpoint-privilege-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-11.md](microsoft-learn-2026-08-part-11.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-13.md](microsoft-learn-2026-08-part-13.md)

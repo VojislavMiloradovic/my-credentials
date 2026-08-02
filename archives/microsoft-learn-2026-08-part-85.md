@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 85 of 93
-date_range: 2025-11-27 to 2025-11-29
-total_entries: 51
+date_range: 2025-11-28 to 2025-11-30
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-85.md
 ---
 
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Add significant value to your Teams app | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-teams-significant-app-value/) |
+| Configure settings for Fundraising and Engagement | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-settings-fundraising-engagement/) |
+| Get started with AI-powered information extraction in Azure | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/) |
+| Describe Microsoft Security Copilot agents | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-describe-agents/) |
+| Enhance security operations by using Microsoft Security Copilot | Learningpaths | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-copilot-and-ai/) |
+| Add logic to C# console applications (Get started with C#, Part 3) | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-3/) |
+| Guided project - Develop conditional branching and looping structures in C# | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-develop-conditional-branching-looping/) |
+| Secure a Microsoft Fabric data warehouse | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-data-warehouse-in-microsoft-fabric/) |
+| Introduction to Azure Application Gateway | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway/) |
+| GitHub Foundations Part 1 of 2 | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-foundations/) |
+| Communicate effectively on GitHub using Markdown | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/) |
+| Implement Real-Time Intelligence with Microsoft Fabric | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-real-time-analytics-microsoft-fabric/) |
+| Create Real-Time Dashboards with Microsoft Fabric | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-real-time-dashboards-microsoft-fabric/) |
+| Minecraft 101: Craft a game-based learning classroom | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/craft-game-based-learning-classroom/) |
+| Empower your workforce with Microsoft 365 Copilot: Legal Use Case | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-microsoft-365-copilot-legal-use-case/) |
+| Describe the best practices for datacenter operations | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-best-practices-datacenter-operations/) |
+| Introduction to Datacenter | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-datacenter/) |
 | Describe the sustainability practices in datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sustainability-practices-datacenters/) |
 | Identify key hardware and IT infrastructure components of datacenters | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-key-hardware-it-infrastructure-components/) |
 | Learn about datacenter design, architecture, and infrastructure management | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-about-datacenter-design/) |
@@ -47,22 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Microsoft Security Copilot in Education | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-edu/) |
 | Agent in a day - Online workshop | Learningpaths | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/agents-online-workshop/) |
 | Build a conversational agent in Copilot Studio - Online workshop | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/agents-copilot-studio-online-workshop/) |
-| Build agents in Copilot Chat - Online workshop | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/agents-copilot-chat/) |
-| Make your agent autonomous in Copilot Studio - Online workshop | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/autonomous-agents-online-workshop/) |
-| Choose a Microsoft 365 Copilot extensibility development path | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-copilot-extensibility-development-path/) |
-| Enhance school communication and collaboration in Microsoft Teams | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-school-communication-collaboration-microsoft-teams/) |
-| Add looping logic to your code using the do-while and while statements in C# | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-do-while/) |
-| Develop critical thinking skills with the 21CLD knowledge construction dimension | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-critical-thinking-skills-with-21cld/) |
-| Make data available in Azure Machine Learning | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/make-data-available-azure-machine-learning/) |
-| Work with compute targets in Azure Machine Learning | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-compute-resources-azure-machine-learning/) |
-| Assemble learners and staff with Microsoft Teams meetings | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/assemble-learners-staff-microsoft-teams-meetings/) |
-| Use tools in Copilot Studio - Online workshop | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-tools-online-workshop/) |
-| Perform a Windows 11 device readiness assessment | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-readiness-assessment/) |
-| Build effective generative AI solutions in your organization | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-effective-generative-ai-solutions-organization/) |
-| Explore the business value of generative AI solutions | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-business-value-generative-ai-solutions/) |
-| Enhance your productivity with prebuilt Microsoft 365 Copilot agents | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-productivity-prebuilt-agents/) |
-| Explore prebuilt Microsoft 365 Copilot agents | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-prebuilt-microsoft-365-copilot-agents/) |
-| Introduction to declarative agents for Microsoft 365 Copilot | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-intro/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-84.md](microsoft-learn-2026-08-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-86.md](microsoft-learn-2026-08-part-86.md)

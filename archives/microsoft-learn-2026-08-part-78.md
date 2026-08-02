@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 78 of 93
-date_range: 2025-12-14 to 2025-12-16
+date_range: 2025-12-15 to 2025-12-17
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-78.md
 ---
@@ -12,6 +12,22 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Introduction to Azure Health Data Services | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-health-data-services/) |
+| Create and architect with functions in F# | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/fsharp-functions/) |
+| Prepare your child with cybersecurity essentials | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-child-cybersecurity-essentials/) |
+| Modernize ASP.NET Framework to ASP.NET Core with the .NET Upgrade Assistant | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/modernize-aspnet-framework-to-core/) |
+| Manage execution flow in F# | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/fsharp-conditional/) |
+| Build a Microsoft Teams tab app by using Teams Toolkit for Visual Studio Code | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-tab-app/) |
+| Transition your business to Azure | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-your-business-azure/) |
+| Dynamics 365 Finance capabilities | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-finance-core-capabilities/) |
+| Describe expense tracking, asset control, and budgeting processes in Microsoft Dynamics 365 Finance | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-expense-management-fixed-asset-management/) |
+| Azure for Researchers part 1: Introduction to Cloud Computing | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/researcher-introduction-to-cloud-computing/) |
+| Create an Azure Storage account | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-storage-account/) |
+| Load/export data and create data views in Dataverse | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/load-export-data-create-data-views/) |
+| Describe Dynamics 365 Customer Insights - Data | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-marketing-capabilities-2/) |
+| Combine multiple tables with JOINs in T-SQL | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-multiple-tables-with-joins/) |
+| Introduction to Docker containers | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-docker-containers/) |
+| Choose a data storage approach in Azure | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-storage-approach-in-azure/) |
 | Dyslexia and technology, in partnership with Made By Dyslexia | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-technology/) |
 | Accessibility, special education, and learning: Support equity in learning | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/accessibility-special-education-online-learning-equity/) |
 | Introduction to Azure Virtual Networks | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-virtual-networks/) |
@@ -49,22 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Monitor AI workloads on Azure | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-ai-workloads-on-azure/) |
 | Publish and access reports in Power BI service – Online workshop | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-access-reports/) |
 | Describe the foundations of Dynamics 365 customer engagement apps | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigate-dynamics-customer-engagement-apps/) |
-| Explore the core capabilities of Microsoft Dynamics 365 customer engagement apps | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/examine-core-capabilities-of-microsoft-dynamics-365-customer-engagement-apps/) |
-| Create and manage environments in Dataverse | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-environments/) |
-| Transition to and prepare for fundamentals-level security, compliance, and identity course | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-prepare-fundamentals-level-security-compliance-identity/) |
-| Learn inclusive marketing principles | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/inclusive-marketing/) |
-| Implement polymorphic behavior | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-polymorphic-behavior/) |
-| Get tips and tricks for teaching MB-920: Microsoft Dynamics 365 Fundamentals (ERP) | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-920-dynamics-365-fundamentals/) |
-| Introduction to Azure Red Hat OpenShift | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-red-hat-openshift/) |
-| Create a virtual machine offer for the commercial marketplace | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vm-offer-commercial-marketplace/) |
-| Create a pipeline in Microsoft Power Platform | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-pipeline/) |
-| Troubleshoot Web App Down Scenarios with App Service Diagnostics | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-web-app-down-scenarios-app-service-diagnostics/) |
-| Introduction to AI Center of Excellence | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-ai-center-excellence/) |
-| Discover Microsoft guidelines for responsible conversational AI development | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-conversational-ai/) |
-| Design degree program curricula that implement certification | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/academic-program-certifications-design-program-curricula/) |
-| Implement certifications in academic programs | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/academic-program-certifications/) |
-| Introduction to gaming and disability | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-gaming/) |
-| Introduction to .NET | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-introduction/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-77.md](microsoft-learn-2026-08-part-77.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-79.md](microsoft-learn-2026-08-part-79.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 11 of 93
-date_range: 2026-06-08 to 2026-06-11
+date_range: 2026-06-08 to 2026-06-13
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-11.md
 ---
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Introduction to developing with Microsoft Power Platform | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-development-power-platform/) |
+| Introduction to extending Power Platform | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-extend/) |
+| AZ-305: Design infrastructure solutions | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-infranstructure-solutions/) |
+| Design migrations | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-migrations/) |
+| AZ-305: Design identity, governance, and monitor solutions | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-identity-governance-monitor-solutions/) |
+| Design governance | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-governance/) |
+| Design an Azure compute solution | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-compute-solution/) |
+| Integrate with Azure Pipelines | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/) |
+| Learn how Microsoft supports using multifactor authentication as part of a cybersecurity solution | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-mfa-for-cybersecurity/) |
+| Implement and manage hybrid identity | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-hybrid-identity/) |
+| Implement an identity management solution using Microsoft Entra ID | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-identity-management-solution/) |
+| Design and implement a pipeline strategy | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/) |
+| Implement and manage external identities | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-external-identities/) |
+| Describe pipelines and concurrency | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/) |
+| Advanced Canvas App Development in Power Apps: Mastering Formulas and Development Techniques | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/advanced-canvas-app-development-mastering-formulas-techniques/) |
+| Create formulas that use tables, records, and collections in a canvas app in Power Apps | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/author-advanced-formulas-powerapps/) |
+| Use advanced formula techniques and custom updates in Power Platform | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/understand-advanced-topics/) |
 | Manage user authentication | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-user-authentication/) |
 | Implement an authentication and access management solution | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-authentication-access-management-solution/) |
 | Design solutions that align with the Microsoft Cybersecurity Reference Architecture (MCRA) and Microsoft cloud security benchmark (MCSB) | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-microsoft-cybersecurity-cloud-security-benchmark/) |
@@ -24,8 +41,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Design a data storage solution for non-relational data | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/) |
 | Implement initial configuration of Microsoft Entra ID | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-initial-configuration-of-azure-active-directory/) |
 | Design authentication and authorization solutions | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/) |
-| Design a solution for backup and disaster recovery | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/) |
 | AZ-305: Design business continuity solutions | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/) |
+| Design a solution for backup and disaster recovery | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/) |
 | Use imperative development techniques for canvas apps in Power Apps | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-imperative-dev-techniques-powerapps-canvas-app/) |
 | Design data integration | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-integration/) |
 | Design network solutions | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-network-solutions/) |
@@ -49,23 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Deploy and manage identity infrastructure | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-identity-infrastructure/) |
 | Active Directory Domain Services | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/active-directory-domain-services/) |
 | Manage advanced features of AD DS | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-advanced-features-of-ad-ds/) |
-| Deploy and administer Linux virtual machines on Azure | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-administer-linux-virtual-machines-azure/) |
-| Implement access management for Azure resources | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-access-management-for-azure-resources/) |
-| Validate your Microsoft Power Platform Solution Architect skills | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-power-platform-solution-architect-skills/) |
-| Becoming a solution architect for Dynamics 365 and Microsoft Power Platform | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/becoming-solution-architect/) |
-| Understand Microsoft 365 Agents SDK | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-copilot-stack/) |
-| Build Custom Engine Agents with the Microsoft 365 Agents SDK | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-custom-copilots-microsoft-teams/) |
-| Utilize an Azure OpenAI model to create an Agent | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/utilize-azure-openai-model-create-app/) |
-| Build your custom Agent using Microsoft 365 Agents SDK | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-custom-agent-teams/) |
-| Design scalable semantic models | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-scalable-semantic-models/) |
-| Work with semantic models in Microsoft Fabric | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-semantic-models-microsoft-fabric/) |
-| Model data with Power BI | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/model-data-power-bi/) |
-| Prepare and visualize data with Microsoft Power BI | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-visualize-data-power-bi/) |
-| Configure a semantic model | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-semantic-model-power-bi/) |
-| Challenge GitHub Copilot with SQL | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-github-copilot-sql/) |
-| Introduction to Azure DevOps to GitHub migration | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-ado-to-github-migration/) |
-| Secure and govern Microsoft 365 Copilot interactions with Microsoft Purview | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-secure-govern-copilot-interactions/) |
-| Secure AI interactions and environments with Microsoft Purview | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-ai/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-10.md](microsoft-learn-2026-08-part-10.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-12.md](microsoft-learn-2026-08-part-12.md)

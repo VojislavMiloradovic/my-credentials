@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 22 of 93
-date_range: 2026-04-26 to 2026-04-28
+date_range: 2026-04-27 to 2026-04-29
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-22.md
 ---
@@ -12,6 +12,22 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Home health in Microsoft for Healthcare | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/home-health/) |
+| Manage events in Fundraising and Engagement | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-events-fundraising-engagement/) |
+| Moves management to raise major gifts with Fundraising and Engagement | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/moves-management/) |
+| Set up insurances in Dynamics 365 Business Central | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-insurances/) |
+| Extend Universal Resource Scheduling with Dynamics 365 Project Operations | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-universal-resource-scheduling/) |
+| Extend Dynamics 365 Project Operations | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-project-operations/) |
+| Publish metrics data for audit disclosures using Compliance Manager | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-audit-disclosures/) |
+| Manage healthcare data with Care Management in Microsoft for Healthcare | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-care-management/) |
+| Convert prospects in Dynamics 365 Sales to customers in Dynamics 365 Supply Chain Management | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/convert-prospects-sales-customers/) |
+| The value of genuine Windows | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/value-genuine-windows/) |
+| Introduction to audio classification with TensorFlow | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-audio-classification-tensorflow/) |
+| Confirming access and assigning roles in Surface portals | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/confirm-access-assign-roles/) |
+| Design agent conversations using topics | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-studio-topics/) |
+| Register and Set Up Azure NetApp Files | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/managing-azure-netapp-files-register-setup/) |
+| Microsoft tenant setup for Surface Support Portal access | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/tenant-setup-surface/) |
+| Work with export control in Dynamics 365 Supply Chain Management | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-export-control-supply-chain-management/) |
 | Use export control in Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-export-control-supply-chain-management/) |
 | Extend core capabilities of Microsoft Sustainability Manager | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-cloud-sustainability/) |
 | Extend APIs using Dynamics 365 Project Operations | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-apis-project-operations/) |
@@ -47,22 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Migrating Cassandra and MongoDB workloads to Cosmos DB | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-cassandra-mongo-db-workloads-to-cosmos-db/) |
 | Introduction to open source database migration to Azure Cosmos DB | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-open-source-database-migration-azure-cosmos-db/) |
 | Set up maintenance information in Dynamics 365 Business Central | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-maintenance-information/) |
-| Manage engagement opportunities with Volunteer Management | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-engagement-opportunities-volunteer-management/) |
-| Configure settings for Volunteer Management | Modules | 2026-04-27 | N/A |
-| Work with Demand planning in Dynamics 365 Supply Chain Management | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-demand-planning-supply-chain/) |
-| Set up and use demand planning in Dynamics 365 Supply Chain Management | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-demand-planning/) |
-| Manage constituents in Fundraising and Engagement for Microsoft for Nonprofits | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-constituents-fundraising-engagement/) |
-| Get started with the Asset Management mobile app in Dynamics 365 Supply Chain Management | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-asset-mobile/) |
-| Build an app by using the FHIRlink connector | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-build-fhir-link-connector/) |
-| Receive and put-away items in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/receive-put-away-items-whse/) |
-| Cross dock items in Dynamics 365 Business Central | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/cross-dock-items/) |
-| Configure Dynamics 365 Finance for public sector | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-public-sector-dyn365-finance/) |
-| Manage gift batches, receipts, and refunds in Microsoft for Nonprofits | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-gift-batches-receipts-refunds/) |
-| Migrate Cassandra workloads to Cosmos DB | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-cassandra-workloads-cosmos-db/) |
-| Get started with Emissions Impact Dashboards | Learningpaths | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/emissions-impact-dashboards/) |
-| Work with Emissions Impact dashboards | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-emissions-impact-dashboards/) |
-| Use the fixed assets reclassification journal in Dynamics 365 Business Central | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-fixed-assets-reclassification-journal/) |
-| Get started with the MongoDB API in Azure Cosmos DB | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-mongodb-api-azure-cosmos-db/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-21.md](microsoft-learn-2026-08-part-21.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-23.md](microsoft-learn-2026-08-part-23.md)

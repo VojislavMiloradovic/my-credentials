@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 55 of 93
-date_range: 2026-01-31 to 2026-02-01
-total_entries: 54
+date_range: 2026-01-31 to 2026-02-02
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-55.md
 ---
 
@@ -12,6 +12,21 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Perform custom updates in a Power Apps canvas app | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-custom-updates-powerapps-canvas-app/) |
+| Deploy IaaS solutions with Azure SQL | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-iaas-solutions-with-azure-sql/) |
+| Deploy Microsoft 365 Apps for enterprise | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-365-apps-enterprise/) |
+| Deploy using the Microsoft Deployment Toolkit | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-deployment-toolkit/) |
+| Manage GitHub Actions in the enterprise | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-github-actions-enterprise/) |
+| Build great solutions with the Microsoft Azure Well-Architected Framework | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/) |
+| Microsoft Azure Well-Architected Framework - Reliability | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-reliability/) |
+| Search and investigate with Microsoft Purview Audit | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-audit-search-investigate/) |
+| Mitigate threats using Microsoft Defender for Endpoint | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-defender-for-endpoint/) |
+| Perform evidence and entities investigations using Microsoft Defender for Endpoint | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-evidence-entities-investigations-microsoft-defender-for-endpoint/) |
+| Plan a transition to modern endpoint management | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-transition-modern-endpoint-management/) |
+| Configure a project and repository structure to support secure pipelines | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-project-repository-structure-support-secure-pipelines/) |
+| Implement security through a pipeline using Azure DevOps | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-security-through-pipeline-using-devops/) |
+| Manage Microsoft Defender for Cloud Apps | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-defender-cloud-apps/) |
+| Get started with chart of accounts in Dynamics 365 Finance | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-chart-accounts-finance/) |
 | Guided project - Create an AI travel agent | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-ai-travel-agent/) |
 | Use watchlists in Microsoft Sentinel | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-watchlists-azure-sentinel/) |
 | Classify and protect on-premises data with Microsoft Purview | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-protect-on-premises-data/) |
@@ -37,11 +52,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Upgrade and migrate Windows Server IaaS virtual machines | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/upgrade-migrate-windows-server-iaas-virtual-machines/) |
 | Dyslexia training, in partnership with Made By Dyslexia | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/dyslexia-training/) |
 | Dyslexia Teaching: Part 1, In partnership with Made By Dyslexia | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-teaching-part-1/) |
-| Windows Server file servers and storage management | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-file-servers-storage-management/) |
 | Implement Storage Spaces and Storage Spaces Direct | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-storage-spaces-storage-spaces-direct/) |
+| Windows Server file servers and storage management | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-file-servers-storage-management/) |
 | Microsoft Azure Well-Architected Framework - Performance Efficiency | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-performance-efficiency/) |
-| Implement user authentication and authorization | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-authentication-authorization/) |
 | Explore the Microsoft identity platform | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-identity-platform/) |
+| Implement user authentication and authorization | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-authentication-authorization/) |
 | Implement endpoint data loss prevention (DLP) with Microsoft Purview | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-implement-endpoint-dlp/) |
 | Deploy using Microsoft Configuration Manager | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-configuration-manager/) |
 | Implement Windows Server iSCSI | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-iscsi/) |
@@ -49,23 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Deploy Windows Server | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-windows-server/) |
 | Implement hybrid backup and recovery with Windows Server IaaS | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hybrid-backup-recovery-windows-server-iaas/) |
 | Explore Azure Event Hubs | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-event-hubs/) |
-| Design and implement hybrid networking | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-hybrid-networking/) |
-| Manage Azure Virtual Desktop | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-virtual-desktop/) |
-| Implement DNS for Windows Server IaaS VMs | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dns-for-windows-server-iaas-virtual-machines/) |
-| Manage Microsoft Defender for Endpoint | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-defender-endpoint/) |
-| Enable organizational access | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/organizational-access/) |
-| Implement Windows Server DNS | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-dns/) |
-| Secure Hyper-V workloads | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-hyper-v-workloads/) |
-| Implement dynamic deployment methods | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dynamic-deployment/) |
-| Implement Windows Server Data Deduplication | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-data-deduplication/) |
-| MD-102 Examine application management | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/examine-application-management/) |
-| Execute mobile application management | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/execute-mobile-application-management/) |
-| Work with external data in a Power Apps canvas app | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-external-data/) |
-| Windows Server update management | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-server-update-management/) |
-| Implement hybrid identity with Windows Server | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hybrid-identity-windows-server/) |
-| Microsoft Azure Well-Architected Framework - Operational Excellence | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-operational-excellence/) |
-| Add a custom domain in Microsoft 365 | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-domain-microsoft-365/) |
-| Dyslexia Teaching: Part 3, In partnership with Made By Dyslexia | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-teaching-part-3/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-54.md](microsoft-learn-2026-08-part-54.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-56.md](microsoft-learn-2026-08-part-56.md)

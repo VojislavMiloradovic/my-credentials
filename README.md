@@ -12,13 +12,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
-- **Total Experience Points (XP):** 5,961,425
+- **Total Experience Points (XP):** 5,977,950
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,879
-- **Trophies Earned (Profile):** 901
-- **Completed Learning Paths (Active Tracker):** 511
-- **Completed Modules (Active Tracker):** 2,633
-- **Completed Individual Units:** 35,424
+- **Badges Earned (Profile):** 3,890
+- **Trophies Earned (Profile):** 904
+- **Completed Learning Paths (Active Tracker):** 513
+- **Completed Modules (Active Tracker):** 2,643
+- **Completed Individual Units:** 35,519
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -29,18 +29,18 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,780 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,794 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
-- **Managing Azure NetApp Files** (Learningpaths | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/manage-azure-netapp-files/))
-- **Troubleshoot Azure NetApp Files** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/troubleshoot-azure-netapp-files/))
-- **Manage operations and monitoring in Power Platform** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/manage-operations-monitoring/))
-- **Extend ALM with Git and CI/CD in Power Platform** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/extend-alm-git-cicd/))
-- **Capture and inspect Windows Server network traffic with Packet Monitor** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/understand-windows-packet-monitor/))
-- **Manage Azure NetApp Files security** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/manage-azure-netapp-files-security/))
-- **Understand the Active Directory Domain Services schema** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-schema/))
-- **Create, communicate, and analyze with Surface and Microsoft 365** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/create-analyze-surface/))
-- **Understand the Active Directory Domain Services database and SYSVOL** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-database/))
-- **Work smarter with Copilot prompts for human resources professionals** (Modules | Earned: 2026-07-30 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-hr/))
+- **Secure sensitive data with Microsoft Purview Ninja training scenarios** (Learningpaths | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/purview-ninja-safeguard-data/))
+- **Safeguard sensitive data in remote work with Endpoint DLP** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-safeguard-remote-work/))
+- **Protect sensitive data with DLP in Exchange, SharePoint, OneDrive, and Teams** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-prevent-data-loss-share-transfer/))
+- **Efficiently investigate data risks with Security Copilot in Microsoft Purview** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-security-copilot/))
+- **Classify and protect sensitive data with sensitivity labels** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-label-sensitive-data/))
+- **Discover and define sensitive information types** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-discover-define-sits/))
+- **Fundamentals of Bicep** (Learningpaths | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/))
+- **Build flexible Bicep files by using conditions and loops** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-files-conditions-loops/))
+- **Build reusable Bicep files by using parameters** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/build-reusable-bicep-files-parameters/))
+- **Build your first Bicep file** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/build-first-bicep-file/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 89 of 93
-date_range: 2025-11-17 to 2025-11-20
-total_entries: 52
+date_range: 2025-11-18 to 2025-11-21
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-89.md
 ---
 
@@ -12,6 +12,24 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Describe the capabilities of Microsoft Power Pages | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-capabilities-microsoft-power-pages/) |
+| Build a canvas app | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-canvas-app/) |
+| AI workload governance and DLP | Learningpaths | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-workloads-governance/) |
+| Govern AI services with Azure Policy | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-ai-azure-policy/) |
+| Guide AI workload operations with an AI Center of Excellence | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/guide-ai-operations-center-excellence/) |
+| Introduction to Microsoft Copilot in Azure | Modules | 2025-11-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-copilot-azure/) |
+| Secure your cloud apps and services with Microsoft Defender for Cloud Apps | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/) |
+| Introduction to Microsoft Surface Laptop for Business | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-surface-laptop-business/) |
+| Prevent data exfiltration from Azure AI Workloads | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/prevent-azure-machine-learning-data-exfiltration/) |
+| Manage Network Access for AI workloads | Learningpaths | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-network-access-ai-workloads/) |
+| Restrict Azure Machine Learning workspace network traffic | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/restrict-azure-machine-learning-workspace-network/) |
+| Introduction to vibe coding | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-vibe-coding/) |
+| Get started with Cosmos DB in Microsoft Fabric | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-cosmos-db-nosql-fabric/) |
+| Build your first Windows App by using WinUI & Windows App SDK | Modules | 2025-11-20 | N/A |
+| Craft a compelling product pitch using AI | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/craft-compelling-product-pitch-using-ai/) |
+| Get ready for AI in education with Microsoft | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-ready-ai-education-microsoft/) |
+| Guided project – Update and maintain resources | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-update-maintain-resources/) |
+| Introduction to Microsoft Azure Management tasks | Learningpaths | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-microsoft-azure-management-tasks/) |
 | Describe Microsoft Azure resources management | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-microsoft-azure-resources-management/) |
 | Animate the impossible - 2D/3D motion techniques with Sora | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/animate-impossible/) |
 | Guided project - Calculate and print student grades | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-calculate-print-student-grades/) |
@@ -47,23 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Explore use cases of Microsoft Security Copilot | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-exercises/) |
 | Get started with data warehouses in Microsoft Fabric | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-data-warehouse/) |
 | AI for educators | Learningpaths | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-education/) |
-| Equip and support learners with AI tools from Microsoft | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/equip-support-learners-ai-tools-microsoft/) |
-| Empower educators to explore the potential of artificial intelligence | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-educators-explore-potential-artificial-intelligence/) |
-| Use Apache Spark in Microsoft Fabric | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-apache-spark-work-files-lakehouse/) |
-| Get started with lakehouses in Microsoft Fabric | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-lakehouses/) |
-| Orchestrate processes and data movement with Microsoft Fabric | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/) |
-| Build reading fluency with Reading Coach | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reading-fluency-reading-coach/) |
-| Build cybersecurity resilience in K-12 classrooms with Microsoft tools | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cybersecurity-resilience-k-12-classrooms-microsoft-tools/) |
-| Best practices for Azure migration and modernization | Learningpaths | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/best-practices-azure-migration/) |
-| Accelerate your migration, modernization, and innovation journey to Azure | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/accelerate-azure-migration-journey/) |
-| AZ-104: Monitor and back up Azure resources | Learningpaths | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-monitor-backup-resources/) |
-| Protect your virtual machines by using Azure Backup | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-virtual-machines-with-azure-backup/) |
-| Introduction to Azure Backup | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-backup/) |
-| Get started with Power Automate | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-flows/) |
-| Introduction to Microsoft Intune | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-endpoint-manager/) |
-| Protect your endpoint environment with Microsoft Intune | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-endpoints-with-endpoint-manager/) |
-| Build your first app with Power Apps and Dataverse for Teams | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-app-dataverse-teams/) |
-| Create an agent with Microsoft Copilot Studio and Dataverse for Teams | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-chatbot-power-virtual-agents-dataverse-teams/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-88.md](microsoft-learn-2026-08-part-88.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-90.md](microsoft-learn-2026-08-part-90.md)

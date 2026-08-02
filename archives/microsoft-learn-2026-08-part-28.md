@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 28 of 93
-date_range: 2026-04-08 to 2026-04-12
+date_range: 2026-04-09 to 2026-04-13
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-28.md
 ---
@@ -12,6 +12,19 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Set up Asset leasing in Dynamics 365 Finance | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-asset-leasing-finance/) |
+| Challenge project - Manage customers in Business Central | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-manage-customers-business-central/) |
+| Validate your Business Central Functional Consultant skills | Learningpaths | 2026-04-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-business-central-functional-consultant-skills/) |
+| Prevent data loss | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-security-data-loss/) |
+| Explore Microsoft Graph scenarios for ASP.NET Core development | Learningpaths | 2026-04-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-dotnet-core-scenarios/) |
+| Show a user's emails in an ASP.NET Core app with Microsoft Graph | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-dotnet-core-show-user-emails/) |
+| Remotely monitor and service equipment with Connected Field Service for Dynamics 365 and Azure IoT | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/remotely-monitor-and-service-customer-equipment/) |
+| Create cost accounting reports in Dynamics 365 Business Central | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/cost-accounting-reports-dynamics-365-business-central/) |
+| Configure the projects setup in Dynamics 365 Business Central | Modules | 2026-04-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-jobs-setup/) |
+| Close a fiscal year in Dynamics 365 Business Central | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-fiscal-year-dynamics-365-business-central/) |
+| Investigate threats by using audit features in Microsoft Defender XDR and Microsoft Purview Standard | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/investigate-threats-using-audit-in-microsoft-365-defender-microsoft-purview-standard/) |
+| Use multiple currencies in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-multiple-currencies-dynamics-365-business-central/) |
+| Set up an additional reporting currency in Dynamics 365 Business Central | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/additional-reporting-currency-dynamics-365-business-central/) |
 | Work with Asset leasing in Dynamics 365 Finance | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-asset-leasing-finance/) |
 | Manage a discrete product BOM and route for versioned products in Dynamics 365 Supply Chain Management | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-discrete-bom-route-versioned-products-supply-chain-management/) |
 | Download and upload files in an ASP.NET Core app with Microsoft Graph | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-dotnet-core-manage-files/) |
@@ -22,8 +35,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Set up Dynamics 365 Customer Insights - Journeys and configure advanced settings | Learningpaths | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-marketing/) |
 | Build an end to end data governance and master data management stack with Microsoft Purview and CluedIn | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/building-end-to-end-data-governance-master-data-stack-with-microsoft-purview-cluedin/) |
 | Create cost accounting master data in Dynamics 365 Business Central | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/master-data-dynamics-365-business-central/) |
-| Simplify Microsoft Power Platform deployments by using pipelines | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/simplify-power-platform-deployments/) |
 | Set up pipeline environments in Microsoft Power Platform | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-pipeline-environments/) |
+| Simplify Microsoft Power Platform deployments by using pipelines | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/simplify-power-platform-deployments/) |
 | Create resources in Dynamics 365 Business Central | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-resources/) |
 | Unlock customer intent with Dynamics 365 Customer Insights - Data | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-customer-insights/) |
 | Configure and administer Customer Insights - Data | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-customer-data-platform/) |
@@ -47,19 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Control inventory at multiple locations in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-inventory-multiple-locations/) |
 | Download and upload files in a JavaScript app with Microsoft Graph | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-manage-files/) |
 | Work with fixed assets master data in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/fixed-assets-master-data/) |
-| Sync items and inventory in Shopify and Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-items-shopify-dynamics-365-business-central/) |
-| Create resource template for Azure Cosmos DB for NoSQL | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-resource-template-for-azure-cosmos-db-sql-api/) |
-| Manage an Azure Cosmos DB for NoSQL solution using DevOps practices | Learningpaths | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-cosmos-db-sql-api-solution-using-devops-practices/) |
-| Work with essential development standards for Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/essential-development-standards/) |
-| Use document standards in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-document-standards-business-central/) |
-| Work with master data in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-master-data-business-central/) |
-| Create accessible web apps by using ASP.NET Core | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aspnet-core-accessibility/) |
-| Process foreign currency payments in Dynamics 365 Business Central | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/foreign-currencies-dynamics-365-business-central/) |
-| Implement and manage data privacy with Microsoft Priva | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/priva-data-privacy-solutions/) |
-| Manage Microsoft Priva Subject Rights Requests | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/priva-subject-rights-requests/) |
-| Boost K-12 school cybersecurity leadership with Microsoft tools | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/boost-school-cybersecurity-leadership-microsoft-tools/) |
-| Troubleshoot connectivity issues with virtual machines in Microsoft Azure | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-connectivity-issues-virtual-machines-azure/) |
-| Create and process fixed kanbans in Dynamics 365 Supply Chain Management | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-process-fixed-kanbans-dyn365-supply-chain-mgmt/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-27.md](microsoft-learn-2026-08-part-27.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-29.md](microsoft-learn-2026-08-part-29.md)

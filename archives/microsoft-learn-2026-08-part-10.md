@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 10 of 93
-date_range: 2026-06-11 to 2026-06-18
+date_range: 2026-06-13 to 2026-06-20
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-10.md
 ---
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Plan and design the integration of enterprise apps for SSO | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-design-integration-of-enterprise-apps-for-sso/) |
+| Configure and Provision Environments | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/) |
+| Implement open-source software | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/) |
+| Manage application configuration data | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/) |
+| Share knowledge within teams | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/) |
+| Design processes to automate application analytics | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/) |
+| Develop monitor and status dashboards | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/) |
+| Implement Desired State Configuration (DSC) | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/) |
+| Implement A/B testing and progressive exposure deployment | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/) |
+| Solution Architect series: Explore Power Apps architecture | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-architecture/) |
+| Implement blue-green deployment and feature toggles | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/) |
+| Manage and Modularize Tasks and Templates | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/) |
+| Implement canary releases and dark launching | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/) |
+| Microsoft Learn for Educators student certification | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-out-course/) |
+| Solution architect series: Explore Microsoft Copilot Studio | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/architect-power-virtual-agents/) |
+| Plan and implement an identity governance strategy | Learningpaths | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-implement-identity-governance-strategy/) |
+| Configure and govern entitlement with Microsoft Entra ID | Learningpaths | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-entitlement-microsoft-entra-id/) |
 | Monitor and maintain Microsoft Entra ID | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-azure-active-directory/) |
 | Explore release strategy recommendations | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/) |
 | Plan, implement, and manage access review | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-manage-access-review/) |
@@ -47,23 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | AZ-400: Implement CI with Azure Pipelines and GitHub Actions | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-ci-azure-pipelines-github-actions/) |
 | Desktop flows and Robotic Process Automation in Power Automate | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/desktop-flows-robotic-process-automation-power-automate/) |
 | Scripting in Power Automate desktop app | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-scripting/) |
-| Introduction to developing with Microsoft Power Platform | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-development-power-platform/) |
-| Introduction to extending Power Platform | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-extend/) |
-| AZ-305: Design infrastructure solutions | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-infranstructure-solutions/) |
-| Design migrations | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-migrations/) |
-| AZ-305: Design identity, governance, and monitor solutions | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-identity-governance-monitor-solutions/) |
-| Design governance | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-governance/) |
-| Design an Azure compute solution | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-compute-solution/) |
-| Integrate with Azure Pipelines | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/) |
-| Learn how Microsoft supports using multifactor authentication as part of a cybersecurity solution | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-mfa-for-cybersecurity/) |
-| Implement and manage hybrid identity | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-hybrid-identity/) |
-| Implement an identity management solution using Microsoft Entra ID | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-identity-management-solution/) |
-| Design and implement a pipeline strategy | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/) |
-| Implement and manage external identities | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-external-identities/) |
-| Describe pipelines and concurrency | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/) |
-| Advanced Canvas App Development in Power Apps: Mastering Formulas and Development Techniques | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/advanced-canvas-app-development-mastering-formulas-techniques/) |
-| Create formulas that use tables, records, and collections in a canvas app in Power Apps | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/author-advanced-formulas-powerapps/) |
-| Use advanced formula techniques and custom updates in Power Platform | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/understand-advanced-topics/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-09.md](microsoft-learn-2026-08-part-09.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-11.md](microsoft-learn-2026-08-part-11.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 17 of 93
-date_range: 2026-05-15 to 2026-05-19
+date_range: 2026-05-17 to 2026-05-19
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-17.md
 ---
@@ -12,6 +12,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Optimize Azure reliability by using Azure SRE Agent | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-azure-reliability-with-sre-agent/) |
+| Prepare and process data with Azure Databricks | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-prepare-process-data/) |
+| Design and implement data modeling with Azure Databricks | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-data-modeling-unity-catalog/) |
+| Develop PostgreSQL solutions in Visual Studio Code with the PostgreSQL extension and GitHub Copilot | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-postgresql-development-github-copilot-visual-studio-code/) |
+| Implement and configure Privileged Identity Management (PIM) | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-configure-privileged-identity-management/) |
+| Dragon Copilot (physicians) troubleshooting | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-troubleshooting/) |
+| Dragon Copilot (physicians) learn to train | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-physicians-learn-to-train/) |
+| Dragon Copilot (physicians) how to train advanced skills | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-how-to-train-advanced-skills/) |
+| Administer Internet Information Services | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/administer-internet-information-services/) |
+| Configure Internet Information Services websites and applications | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-website-application/) |
+| Dragon Copilot AI Ambassador - Champion level | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-champion-level/) |
+| Dragon Copilot AI Ambassador - Ambassador level | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-ambassador-level/) |
+| Dragon Copilot (physicians) trainer essentials | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-trainer-essentials/) |
+| Dragon Copilot (physicians) how to train enhanced skills | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-how-to-train-enhanced-skills/) |
+| Dragon Copilot (physicians) how to train basics | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-how-to-train-basics/) |
+| Work smarter with Copilot in Microsoft Fabric | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-smarter-with-copilot-in-microsoft-fabric/) |
+| Manage Copilot in Microsoft Fabric | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-copilot-fabric/) |
 | Implement Microsoft Fabric Data Agents (chat with your data) | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-fabric-data-agents/) |
 | Get started with Copilot in Microsoft Fabric for data engineering | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-copilot-fabric-data-engineering/) |
 | Add structured automation to agents in Microsoft Copilot Studio | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-studio-structured-automation/) |
@@ -46,23 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Configure trusted launch security features for Azure virtual machines | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-trusted-launch-azure-virtual-machines/) |
 | Modern management with Cloud-native Windows Accreditation 2026 | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/modern-management-with-cloud-native-windows-accreditation-2026/) |
 | Introduction to Microsoft Entra ID | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-entra-id-2026/) |
-| Device management with Microsoft Intune | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-intune-2026/) |
-| Apply responsible AI creation principles in the classroom, developed in partnership with ISTE+ASCD | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-creation-principles-classroom/) |
-| Create and engage with AI | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-engage-ai/) |
-| Hotpatch updates for Windows client devices | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/hotpatch-updates-2026/) |
-| Device deployment with Windows Autopilot | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-autopilot-2026/) |
-| Introduction to Azure IoT Hub | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-iot-hub/) |
-| Manage security for Arc-enabled hybrid servers | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-security-azure-arc-servers/) |
-| Manage and right-size RBAC role assignments for least privilege | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-right-size-rbac-role-assignments/) |
-| Implement security controls in infrastructure as code | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-infrastructure-as-code/) |
-| Implement disk encryption for Azure virtual machines | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-disk-encryption-azure-virtual-machines/) |
-| Enforce VM security configuration with Azure Machine Configuration | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-vm-security-machine-configuration/) |
-| Enable and enforce just-in-time VM access | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-enforce-just-in-time-vm-access/) |
-| Secure Azure application platform services for the cloud and AI security engineer | Learningpaths | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-application-platform-services/) |
-| Implement security controls for Azure Function apps and Logic apps | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-function-logic-apps/) |
-| Unlock insights with analytics and reporting in Dynamics 365 Contact Center | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/analytics-reporting-contact-center/) |
-| Design and deploy intelligent voice agents in Dynamics 365 Contact Center | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-voice-agents-contact-center/) |
-| Image classification using Azure Sphere | Modules | 2026-05-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/image-classification-azure-sphere/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-16.md](microsoft-learn-2026-08-part-16.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-18.md](microsoft-learn-2026-08-part-18.md)

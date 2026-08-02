@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 86 of 93
-date_range: 2025-11-24 to 2025-11-27
-total_entries: 52
+date_range: 2025-11-25 to 2025-11-28
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-86.md
 ---
 
@@ -12,20 +12,36 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| Build agents in Copilot Chat - Online workshop | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/agents-copilot-chat/) |
+| Make your agent autonomous in Copilot Studio - Online workshop | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/autonomous-agents-online-workshop/) |
+| Choose a Microsoft 365 Copilot extensibility development path | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-copilot-extensibility-development-path/) |
+| Enhance school communication and collaboration in Microsoft Teams | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-school-communication-collaboration-microsoft-teams/) |
+| Add looping logic to your code using the do-while and while statements in C# | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-do-while/) |
+| Develop critical thinking skills with the 21CLD knowledge construction dimension | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-critical-thinking-skills-with-21cld/) |
+| Make data available in Azure Machine Learning | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/make-data-available-azure-machine-learning/) |
+| Work with compute targets in Azure Machine Learning | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-compute-resources-azure-machine-learning/) |
+| Assemble learners and staff with Microsoft Teams meetings | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/assemble-learners-staff-microsoft-teams-meetings/) |
+| Use tools in Copilot Studio - Online workshop | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-tools-online-workshop/) |
+| Perform a Windows 11 device readiness assessment | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-readiness-assessment/) |
+| Build effective generative AI solutions in your organization | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-effective-generative-ai-solutions-organization/) |
+| Explore the business value of generative AI solutions | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-business-value-generative-ai-solutions/) |
+| Enhance your productivity with prebuilt Microsoft 365 Copilot agents | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-productivity-prebuilt-agents/) |
+| Explore prebuilt Microsoft 365 Copilot agents | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-prebuilt-microsoft-365-copilot-agents/) |
+| Introduction to declarative agents for Microsoft 365 Copilot | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-intro/) |
 | Monitor and maintain Microsoft 365 Copilot connectors | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-microsoft-365-copilot-connectors/) |
 | Build your first Microsoft 365 Copilot connector using Visual Studio Code | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-microsoft-365-copilot-connector/) |
 | Drive business value with Microsoft Copilot solutions | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-value-microsoft-copilot-solutions/) |
 | Windows 11 and cloud-native concepts: myths, realities, and best practices | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-native-myths/) |
 | Introduction to AI speech concepts | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/) |
-| Transform business workflows with generative AI | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-workflows-with-ai/) |
 | Analyze and visualize data using Microsoft 365 Copilot | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-visualize-data-copilot/) |
+| Transform business workflows with generative AI | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-workflows-with-ai/) |
 | Iterate through a code block using for statement in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-for/) |
 | Branch the flow of code using the switch-case construct in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-switch-case/) |
-| Introduction to Microsoft Azure Data non-relational data in Azure | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-non-relational-data/) |
 | Explore Azure Storage for non-relational data | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/) |
+| Introduction to Microsoft Azure Data non-relational data in Azure | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-non-relational-data/) |
 | Introduction to Azure Load Balancer | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-load-balancer/) |
-| Create and run simple C# console applications (Get started with C#, Part 2) | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-2/) |
 | Guided project - Develop foreach and if-elseif-else structures to process array data in C# | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-arrays-iteration-selection/) |
+| Create and run simple C# console applications (Get started with C#, Part 2) | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-2/) |
 | Build your first workflow with Power Automate and Dataverse for Teams | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-workflow/) |
 | Create apps, copilots, flows, and more with Microsoft Dataverse and Teams | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-power-platform-teams/) |
 | Begin Python coding in Minecraft with MakeCode and Azure Notebooks | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/begin-python-coding-minecraft-makecode-azure-notebooks/) |
@@ -47,23 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Microsoft educator academy | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-educator-academy/) |
 | Flipped instruction with PowerPoint Recorder | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/flipped-instruction-powerpoint-recorder/) |
 | Challenge project - Develop foreach and if-elseif-else structures to process array data in C# | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-arrays-iteration-selection/) |
-| Teach forward: Best strategies for hybrid, remote, and blended learning | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-forward-best-strategies-hybrid-remote-blended-learning/) |
-| Conduct structured interviews using Microsoft Teams and Copilot | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/conduct-structured-interviews-teams/) |
-| Prepare for Windows 10 end of support | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/understanding-windows-10-end-of-support/) |
-| Windows at work: Elevate IT teams with Windows 11 Pro | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/win-at-work-it/) |
-| Understand the foundations of generative AI for business leaders | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-foundations-generative-ai-business-leaders/) |
-| Move forward with Windows 11 Pro post Windows 10 end of support | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/move-forward-windows-11/) |
-| Windows 11 Pro Accreditation 2025 | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-11-pro-accreditation-2025/) |
-| Demonstrate the capabilities of Microsoft Power Automate | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/demonstrate-capabilities-microsoft-power-automate/) |
-| Build a Microsoft Power Automate flow | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-microsoft-power-automate-flow/) |
-| Demonstrate the capabilities of Microsoft Power Pages | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/demonstrate-capabilities-microsoft-power-pages/) |
-| Create a Microsoft Power Pages site | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-microsoft-power-pages-site/) |
-| Describe Microsoft Dataverse | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-microsoft-dataverse/) |
-| Manage the Microsoft Power Platform environment | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-microsoft-power-platform-environment/) |
-| Describe the business value of Microsoft Power Platform | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-business-value-microsoft-power-platform/) |
-| Describe the business value of Microsoft Power Platform services | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-value-microsoft-power-platform-services/) |
-| Describe the business value of extending business solutions by using Microsoft Power Platform | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-value-extend-business-solutions-microsoft-power-platform/) |
-| Create readable code with conventions, whitespace, and comments in C# | Modules | 2025-11-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-readable-code/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-85.md](microsoft-learn-2026-08-part-85.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-87.md](microsoft-learn-2026-08-part-87.md)
