@@ -1,17 +1,30 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 5 of 5
-date_range: 2026-01-06 to 2026-02-25
-total_entries: 67
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-05.md
+date_range: 2026-01-06 to 2026-02-26
+total_entries: 80
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-05.md
 ---
 
 # AWS Skill Builder — Part 05
 
-> **Navigation:** Prev: [aws-skills-2026-07-part-04.md](aws-skills-2026-07-part-04.md) | [Index](./aws-skills-index.md) | Next: None | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-08-part-04.md](aws-skills-2026-08-part-04.md) | [Index](./aws-skills-index.md) | Next: None | [Complete Archive](./aws-skills-complete.md)
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Amazon OpenSearch Service Getting Started | Digital Course | 2026-02-26 | 1 hour |
+| Amazon RDS for SQL Server Getting Started | Digital Course | 2026-02-26 | 1 hour |
+| AWS CodePipeline Getting Started | Digital Course | 2026-02-26 | 1 hour |
+| AWS Snowball Getting Started | Digital Course | 2026-02-26 | 1 hour |
+| Introduction to AWS European Sovereign Cloud | Digital Course | 2026-02-26 | 45 minutes |
+| Introduction to Kiro powers | Digital Course | 2026-02-26 | 30 minutes |
+| Amazon AppStream 2.0 Getting Started | Digital Course | 2026-02-25 | 1 hour |
+| Amazon Connect Routing Fundamentals | Digital Course | 2026-02-25 | 1 hour |
+| Amazon Elastic VMware Service (Amazon EVS) Fundamentals | Digital Course | 2026-02-25 | 30 minutes |
+| Amazon Macie - Getting Started | Digital Course | 2026-02-25 | 1 hour |
+| Amazon RDS for MariaDB Getting Started | Digital Course | 2026-02-25 | 1 hour |
+| Amazon Redshift Getting Started | Digital Course | 2026-02-25 | 1 hour |
+| AWS Database Migration Service (AWS DMS) Getting Started | Digital Course | 2026-02-25 | 1 hour |
 | AWS Identity and Access Management - Cognito Getting Started | Digital Course | 2026-02-25 | 1 hour |
 | AWS Transfer Family Getting Started | Digital Course | 2026-02-25 | 1 hour |
 | AWS Transform for .NET Getting Started | Digital Course | 2026-02-25 | 1 hour |
@@ -81,4 +94,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Job Roles in the Cloud | Digital Course | 2026-01-06 | 30 minutes |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-07-part-04.md](aws-skills-2026-07-part-04.md) | [Index](./aws-skills-index.md) | Next: None
+> **Navigation:** Prev: [aws-skills-2026-08-part-04.md](aws-skills-2026-08-part-04.md) | [Index](./aws-skills-index.md) | Next: None

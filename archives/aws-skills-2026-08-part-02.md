@@ -1,17 +1,28 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 2 of 5
-date_range: 2026-04-18 to 2026-06-26
-total_entries: 100
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-02.md
+date_range: 2026-04-21 to 2026-06-30
+total_entries: 98
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-02.md
 ---
 
 # AWS Skill Builder — Part 02
 
-> **Navigation:** Prev: [aws-skills-2026-07-part-01.md](aws-skills-2026-07-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-03.md](aws-skills-2026-07-part-03.md) | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-08-part-01.md](aws-skills-2026-08-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-03.md](aws-skills-2026-08-part-03.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Amazon QuickSight Advanced Business Intelligence Authoring (Part 1) | Digital Course | 2026-06-30 | 1 hour 30 minutes |
+| Amazon QuickSight Advanced Business Intelligence Authoring (Part 2) | Digital Course | 2026-06-30 | 1 hour 30 minutes |
+| [RETIRED] Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service | Digital Course | 2026-06-29 | 45 minutes |
+| Amazon Connect Reporting & Analytics - Assessment | Digital Course | 2026-06-29 | 1 hour |
+| AWS Security Champion Badge Assessment | Digital Course | 2026-06-29 | 1 hour 30 minutes |
+| Build Strands Agents with SageMaker AI models and MLflow | Digital Course | 2026-06-29 | 45 minutes |
+| Deploying custom Terraform to LZA-Managed Accounts with AFT | Digital Course | 2026-06-29 | 45 minutes |
+| How the Amazon AMET Payments team accelerates test case generation with Strands Agents | Digital Course | 2026-06-29 | 45 minutes |
+| Migration Foundations Knowledge Badge Assessment | Digital Course | 2026-06-27 | 1 hour 30 minutes |
+| AWS Observability | Digital Course | 2026-06-26 | 5 hours |
+| Introduction to AWS Solutions | Digital Course | 2026-06-26 | 45 minutes |
 | Making Better Decisions with Data for Small Business Owners | Digital Course | 2026-06-26 | 9 minutes |
 | Media & Entertainment: Direct-to-Consumer and Broadcast Foundations Knowledge Badge Assessment | Digital Course | 2026-06-26 | 1 hour 30 minutes |
 | [RETIRING - 2026-08-05] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases | Digital Course | 2026-06-24 | 1 hour |
@@ -99,19 +110,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Selecting your Data Migration Strategy with AWS | Digital Course | 2026-04-22 | 30 minutes |
 | Understanding Amazon EBS Volume Encryption | Digital Course | 2026-04-22 | 2 minutes |
 | Introduction to AWS Auto Scaling | Digital Course | 2026-04-21 | 17 minutes |
-| Understanding Placement Groups | Digital Course | 2026-04-21 | 10 minutes |
-| Amazon Connect Fundamentals Assessment | Digital Course | 2026-04-20 | 1 hour |
-| Amazon Connect Operations | Digital Course | 2026-04-20 | 1 hour |
-| Amazon ElastiCache Getting Started | Digital Course | 2026-04-20 | 1 hour |
-| AWS CloudFormation Stacks - Troubleshooting | Digital Course | 2026-04-20 | 30 minutes |
-| AWS Shared Responsibility Model | Digital Course | 2026-04-20 | 5 minutes |
-| Getting Started with Migration Hub Refactor Spaces | Digital Course | 2026-04-20 | 1 hour |
-| Subnets, Gateways, and Route Tables Explained | Digital Course | 2026-04-20 | 17 minutes |
-| [RETIRING - 2026-08-05] Generative AI Business Strategy and Solution Design | Digital Course | 2026-04-19 | 1 hour 3 minutes |
-| AWS Transform Fundamentals Knowledge Badge Assessment | Aws Assessment | 2026-04-19 | 1 hour |
-| AWS Transform Knowledge Badge Readiness Path | Learning Plan | 2026-04-19 | 6 hours 40 minutes |
-| Amazon FSx for NetApp ONTAP Primer | Digital Course | 2026-04-18 | 1 hour 15 minutes |
-| Introduction to AWS Application Migration Service | Digital Course | 2026-04-18 | 2 hours |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-07-part-01.md](aws-skills-2026-07-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-03.md](aws-skills-2026-07-part-03.md)
+> **Navigation:** Prev: [aws-skills-2026-08-part-01.md](aws-skills-2026-08-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-03.md](aws-skills-2026-08-part-03.md)

@@ -1,17 +1,28 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 1 of 5
-date_range: 2026-06-26 to 2026-07-31
+date_range: 2026-07-02 to 2026-08-02
 total_entries: 101
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-01.md
 ---
 
 # AWS Skill Builder — Part 01
 
-> **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md) | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-02.md](aws-skills-2026-08-part-02.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| [RETIRING - 2026-08-03] Introduction to Autonomous Driving Data Framework (ADDF) on AWS | Digital Course | 2026-08-02 | 45 minutes |
+| AI Agent Guardrails for Production on AWS \| Databases for AI | Digital Course | 2026-08-02 | 1 hour |
+| Amazon Connect AI Customer Engagement | Digital Course | 2026-08-02 | 1 hour |
+| Amazon Simple Storage Service (Amazon S3) - Troubleshooting | Digital Course | 2026-08-02 | 1 hour |
+| Amazon WorkSpaces Migrations - Introducing Amazon WorkSpaces Core | Digital Course | 2026-08-02 | 1 hour |
+| Building hybrid multi-tenant architecture for stateful services on AWS | Digital Course | 2026-08-02 | 45 minutes |
+| Building Retrieval Augmented Generation (RAG) workflows with Amazon OpenSearch Service | Digital Course | 2026-08-02 | 1 hour |
+| Building web search-enabled agents with Strands and Exa | Digital Course | 2026-08-02 | 45 minutes |
+| Embed Amazon Quick chat agents in enterprise applications | Digital Course | 2026-08-02 | 45 minutes |
+| Generate dashboards from natural language prompts in Amazon Quick | Digital Course | 2026-08-02 | 45 minutes |
+| Introduction to Amazon S3 Files | Digital Course | 2026-08-02 | 1 hour |
 | Amazon Elastic File System (Amazon EFS) Primer | Digital Course | 2026-07-31 | 30 minutes |
 | Amazon Route 53 - Basics | Digital Course | 2026-07-31 | 1 hour |
 | AWS Database Migration Service Overview | Digital Course | 2026-07-31 | 45 minutes |
@@ -102,17 +113,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | AWS SimuLearn: Create an AI Smart Assistant | Aws Simulearn | 2026-07-02 | 1 hour |
 | AWS SimuLearn: Get Started with Generative AI | Aws Simulearn | 2026-07-02 | 1 hour |
 | AWS SimuLearn: Use AI Services with Amazon SageMaker | Aws Simulearn | 2026-07-02 | 1 hour |
-| Amazon QuickSight Advanced Business Intelligence Authoring (Part 1) | Digital Course | 2026-06-30 | 1 hour 30 minutes |
-| Amazon QuickSight Advanced Business Intelligence Authoring (Part 2) | Digital Course | 2026-06-30 | 1 hour 30 minutes |
-| [RETIRED] Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service | Digital Course | 2026-06-29 | 45 minutes |
-| Amazon Connect Reporting & Analytics - Assessment | Digital Course | 2026-06-29 | 1 hour |
-| AWS Security Champion Badge Assessment | Digital Course | 2026-06-29 | 1 hour 30 minutes |
-| Build Strands Agents with SageMaker AI models and MLflow | Digital Course | 2026-06-29 | 45 minutes |
-| Deploying custom Terraform to LZA-Managed Accounts with AFT | Digital Course | 2026-06-29 | 45 minutes |
-| How the Amazon AMET Payments team accelerates test case generation with Strands Agents | Digital Course | 2026-06-29 | 45 minutes |
-| Migration Foundations Knowledge Badge Assessment | Digital Course | 2026-06-27 | 1 hour 30 minutes |
-| AWS Observability | Digital Course | 2026-06-26 | 5 hours |
-| Introduction to AWS Solutions | Digital Course | 2026-06-26 | 45 minutes |
 
 ---
-> **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-02.md](aws-skills-2026-07-part-02.md)
+> **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-02.md](aws-skills-2026-08-part-02.md)

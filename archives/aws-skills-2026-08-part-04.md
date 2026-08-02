@@ -1,17 +1,29 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 4 of 5
-date_range: 2026-02-25 to 2026-03-15
-total_entries: 111
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-04.md
+date_range: 2026-02-26 to 2026-03-16
+total_entries: 110
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-04.md
 ---
 
 # AWS Skill Builder — Part 04
 
-> **Navigation:** Prev: [aws-skills-2026-07-part-03.md](aws-skills-2026-07-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-05.md](aws-skills-2026-07-part-05.md) | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-08-part-03.md](aws-skills-2026-08-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-05.md](aws-skills-2026-08-part-05.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| AWS Glue Getting Started | Digital Course | 2026-03-16 | 1 hour |
+| AWS Identity and Access Management (IAM) - Troubleshooting | Digital Course | 2026-03-16 | 1 hour |
+| Getting into the Serverless Mindset | Digital Course | 2026-03-16 | 30 minutes |
+| Getting Started with Amazon Route 53 Global Resolver | Digital Course | 2026-03-16 | 1 hour |
+| How to Find Hidden Data Relationships in Your S3 Data - with Amazon Neptune | Digital Course | 2026-03-16 | 1 hour |
+| Introduction to Amazon Connect Conversational Analytics for Email | Digital Course | 2026-03-16 | 30 minutes |
+| Amazon Connect - Troubleshooting with Amazon CloudWatch | Digital Course | 2026-03-15 | 1 hour |
+| Amazon Connect Foundations | Digital Course | 2026-03-15 | 1 hour |
+| Amazon Connect: Creating and Managing Amazon Connect Instances | Digital Course | 2026-03-15 | 1 hour |
+| Amazon Connect: Implementing Chat in Connect | Digital Course | 2026-03-15 | 1 hour |
+| Amazon EKS Deployment Options | Digital Course | 2026-03-15 | 35 minutes |
+| Amazon RDS for Oracle Getting Started | Digital Course | 2026-03-15 | 1 hour |
 | AWS CloudFormation Getting Started | Digital Course | 2026-03-15 | 1 hour |
 | AWS Organizations Getting Started | Digital Course | 2026-03-15 | 1 hour |
 | AWS Secrets Manager Getting Started | Digital Course | 2026-03-15 | 1 hour |
@@ -110,19 +122,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Amazon Connect Administration | Digital Course | 2026-02-26 | 1 hour |
 | Amazon DynamoDB Service Primer | Digital Course | 2026-02-26 | 20 minutes |
 | Amazon HealthLake Getting Started | Digital Course | 2026-02-26 | 1 hour |
-| Amazon OpenSearch Service Getting Started | Digital Course | 2026-02-26 | 1 hour |
-| Amazon RDS for SQL Server Getting Started | Digital Course | 2026-02-26 | 1 hour |
-| AWS CodePipeline Getting Started | Digital Course | 2026-02-26 | 1 hour |
-| AWS Snowball Getting Started | Digital Course | 2026-02-26 | 1 hour |
-| Introduction to AWS European Sovereign Cloud | Digital Course | 2026-02-26 | 45 minutes |
-| Introduction to Kiro powers | Digital Course | 2026-02-26 | 30 minutes |
-| Amazon AppStream 2.0 Getting Started | Digital Course | 2026-02-25 | 1 hour |
-| Amazon Connect Routing Fundamentals | Digital Course | 2026-02-25 | 1 hour |
-| Amazon Elastic VMware Service (Amazon EVS) Fundamentals | Digital Course | 2026-02-25 | 30 minutes |
-| Amazon Macie - Getting Started | Digital Course | 2026-02-25 | 1 hour |
-| Amazon RDS for MariaDB Getting Started | Digital Course | 2026-02-25 | 1 hour |
-| Amazon Redshift Getting Started | Digital Course | 2026-02-25 | 1 hour |
-| AWS Database Migration Service (AWS DMS) Getting Started | Digital Course | 2026-02-25 | 1 hour |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-07-part-03.md](aws-skills-2026-07-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-05.md](aws-skills-2026-07-part-05.md)
+> **Navigation:** Prev: [aws-skills-2026-08-part-03.md](aws-skills-2026-08-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-05.md](aws-skills-2026-08-part-05.md)

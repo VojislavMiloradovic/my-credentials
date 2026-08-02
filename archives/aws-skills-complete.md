@@ -1,11 +1,22 @@
 # Complete AWS Skill Builder Archive
 
-This document represents a unified, verifiable list of all 480 records.
+This document represents a unified, verifiable list of all 491 records.
 
 ## Verified Records Archive
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| [RETIRING - 2026-08-03] Introduction to Autonomous Driving Data Framework (ADDF) on AWS | Digital Course | 2026-08-02 | 45 minutes |
+| AI Agent Guardrails for Production on AWS \| Databases for AI | Digital Course | 2026-08-02 | 1 hour |
+| Amazon Connect AI Customer Engagement | Digital Course | 2026-08-02 | 1 hour |
+| Amazon Simple Storage Service (Amazon S3) - Troubleshooting | Digital Course | 2026-08-02 | 1 hour |
+| Amazon WorkSpaces Migrations - Introducing Amazon WorkSpaces Core | Digital Course | 2026-08-02 | 1 hour |
+| Building hybrid multi-tenant architecture for stateful services on AWS | Digital Course | 2026-08-02 | 45 minutes |
+| Building Retrieval Augmented Generation (RAG) workflows with Amazon OpenSearch Service | Digital Course | 2026-08-02 | 1 hour |
+| Building web search-enabled agents with Strands and Exa | Digital Course | 2026-08-02 | 45 minutes |
+| Embed Amazon Quick chat agents in enterprise applications | Digital Course | 2026-08-02 | 45 minutes |
+| Generate dashboards from natural language prompts in Amazon Quick | Digital Course | 2026-08-02 | 45 minutes |
+| Introduction to Amazon S3 Files | Digital Course | 2026-08-02 | 1 hour |
 | Amazon Elastic File System (Amazon EFS) Primer | Digital Course | 2026-07-31 | 30 minutes |
 | Amazon Route 53 - Basics | Digital Course | 2026-07-31 | 1 hour |
 | AWS Database Migration Service Overview | Digital Course | 2026-07-31 | 45 minutes |
