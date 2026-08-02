@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 5 of 5
-date_range: 2026-01-06 to 2026-02-26
-total_entries: 80
+date_range: 2026-01-06 to 2026-02-27
+total_entries: 92
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-05.md
 ---
 
@@ -12,6 +12,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| AWS Identity and Access Management - Identity Center Getting Started | Digital Course | 2026-02-27 | 1 hour |
+| AWS Security Hub Extended | Digital Course | 2026-02-27 | 15 minutes |
+| AWS Wickr Getting Started | Digital Course | 2026-02-27 | 30 minutes |
+| Cloud for CMOs | Digital Course | 2026-02-27 | 8 minutes |
+| Getting Started with Administering Amazon Quick Suite | Digital Course | 2026-02-27 | 1 hour |
+| Getting Started with AWS Clean Rooms | Digital Course | 2026-02-27 | 1 hour |
+| Getting Started with AWS Elemental MediaConnect | Digital Course | 2026-02-27 | 1 hour |
+| Introduction to Amazon CloudWatch Logs | Digital Course | 2026-02-27 | 30 minutes |
+| Introduction to Serverless Development | Digital Course | 2026-02-27 | 25 minutes |
+| Amazon Connect Administration | Digital Course | 2026-02-26 | 1 hour |
+| Amazon DynamoDB Service Primer | Digital Course | 2026-02-26 | 20 minutes |
+| Amazon HealthLake Getting Started | Digital Course | 2026-02-26 | 1 hour |
 | Amazon OpenSearch Service Getting Started | Digital Course | 2026-02-26 | 1 hour |
 | Amazon RDS for SQL Server Getting Started | Digital Course | 2026-02-26 | 1 hour |
 | AWS CodePipeline Getting Started | Digital Course | 2026-02-26 | 1 hour |

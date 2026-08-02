@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 3 of 5
-date_range: 2026-03-16 to 2026-04-21
+date_range: 2026-03-18 to 2026-04-25
 total_entries: 102
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-03.md
 ---
@@ -12,6 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Managing Operations on AWS with Amazon Q Developer | Digital Course | 2026-04-25 | 30 minutes |
+| Prompt Engineering with Amazon Q Developer | Digital Course | 2026-04-25 | 30 minutes |
+| Setup Amazon Q Developer | Digital Course | 2026-04-25 | 20 minutes |
+| Amazon DynamoDB for Serverless Architectures | Digital Course | 2026-04-24 | 2 hours |
+| Introduction to Amazon CloudFront - Part 1 | Digital Course | 2026-04-23 | 30 minutes |
+| Differences Between Security Groups and NACLs | Digital Course | 2026-04-22 | 7 minutes |
+| Introduction to the AWS Sustainability service | Digital Course | 2026-04-22 | 45 minutes |
+| Protecting Your Instance with Security Groups | Digital Course | 2026-04-22 | 10 minutes |
+| Selecting your Data Migration Strategy with AWS | Digital Course | 2026-04-22 | 30 minutes |
+| Understanding Amazon EBS Volume Encryption | Digital Course | 2026-04-22 | 2 minutes |
+| Introduction to AWS Auto Scaling | Digital Course | 2026-04-21 | 17 minutes |
 | Understanding Placement Groups | Digital Course | 2026-04-21 | 10 minutes |
 | Amazon Connect Fundamentals Assessment | Digital Course | 2026-04-20 | 1 hour |
 | Amazon Connect Operations | Digital Course | 2026-04-20 | 1 hour |
@@ -103,17 +114,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | AWS Security – Encryption Fundamentals | Digital Course | 2026-03-18 | 1 hour 20 minutes |
 | AWS SimuLearn: Generate Code for a Webpage | Aws Simulearn | 2026-03-18 | 1 hour |
 | Fundamentals of Analytics on AWS – Part 1 | Digital Course | 2026-03-18 | 2 hours |
-| Fundamentals of Analytics on AWS – Part 2 | Digital Course | 2026-03-18 | 1 hour 30 minutes |
-| [RETIRING - 2026-08-03] Amazon EKS Pre-assessment | Digital Course | 2026-03-17 | 30 minutes |
-| [RETIRING - 2026-08-11] Planning an Orchestration System | Digital Course | 2026-03-17 | 13 minutes |
-| AWS SimuLearn: Create an Enterprise Knowledge Assistant | Aws Simulearn | 2026-03-17 | 1 hour |
-| Getting Started with Bottlerocket | Digital Course | 2026-03-17 | 1 hour |
-| Introduction to AWS AI Factories | Digital Course | 2026-03-17 | 30 minutes |
-| SaaS Business Fundamentals | Digital Course | 2026-03-17 | 1 hour |
-| Amazon DocumentDB (with MongoDB Compatibility) Getting Started | Digital Course | 2026-03-16 | 1 hour |
-| Amazon DynamoDB - Data Modeling Techniques | Digital Course | 2026-03-16 | 1 hour |
-| Amazon DynamoDB - Troubleshooting | Digital Course | 2026-03-16 | 45 minutes |
-| AWS Database Migration Service Best Practices - Planning | Digital Course | 2026-03-16 | 1 hour |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-08-part-02.md](aws-skills-2026-08-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-04.md](aws-skills-2026-08-part-04.md)

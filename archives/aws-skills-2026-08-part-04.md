@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 4 of 5
-date_range: 2026-02-26 to 2026-03-16
-total_entries: 110
+date_range: 2026-02-27 to 2026-03-18
+total_entries: 109
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-04.md
 ---
 
@@ -12,6 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| Fundamentals of Analytics on AWS – Part 2 | Digital Course | 2026-03-18 | 1 hour 30 minutes |
+| [RETIRING - 2026-08-03] Amazon EKS Pre-assessment | Digital Course | 2026-03-17 | 30 minutes |
+| [RETIRING - 2026-08-11] Planning an Orchestration System | Digital Course | 2026-03-17 | 13 minutes |
+| AWS SimuLearn: Create an Enterprise Knowledge Assistant | Aws Simulearn | 2026-03-17 | 1 hour |
+| Getting Started with Bottlerocket | Digital Course | 2026-03-17 | 1 hour |
+| Introduction to AWS AI Factories | Digital Course | 2026-03-17 | 30 minutes |
+| SaaS Business Fundamentals | Digital Course | 2026-03-17 | 1 hour |
+| Amazon DocumentDB (with MongoDB Compatibility) Getting Started | Digital Course | 2026-03-16 | 1 hour |
+| Amazon DynamoDB - Data Modeling Techniques | Digital Course | 2026-03-16 | 1 hour |
+| Amazon DynamoDB - Troubleshooting | Digital Course | 2026-03-16 | 45 minutes |
+| AWS Database Migration Service Best Practices - Planning | Digital Course | 2026-03-16 | 1 hour |
 | AWS Glue Getting Started | Digital Course | 2026-03-16 | 1 hour |
 | AWS Identity and Access Management (IAM) - Troubleshooting | Digital Course | 2026-03-16 | 1 hour |
 | Getting into the Serverless Mindset | Digital Course | 2026-03-16 | 30 minutes |
@@ -110,18 +121,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | AWS Audit Manager Getting Started | Digital Course | 2026-02-27 | 1 hour |
 | AWS Cloud Economics for Startups | Digital Course | 2026-02-27 | 1 hour |
 | AWS Command Line Interface (AWS CLI) Getting Started | Digital Course | 2026-02-27 | 1 hour |
-| AWS Identity and Access Management - Identity Center Getting Started | Digital Course | 2026-02-27 | 1 hour |
-| AWS Security Hub Extended | Digital Course | 2026-02-27 | 15 minutes |
-| AWS Wickr Getting Started | Digital Course | 2026-02-27 | 30 minutes |
-| Cloud for CMOs | Digital Course | 2026-02-27 | 8 minutes |
-| Getting Started with Administering Amazon Quick Suite | Digital Course | 2026-02-27 | 1 hour |
-| Getting Started with AWS Clean Rooms | Digital Course | 2026-02-27 | 1 hour |
-| Getting Started with AWS Elemental MediaConnect | Digital Course | 2026-02-27 | 1 hour |
-| Introduction to Amazon CloudWatch Logs | Digital Course | 2026-02-27 | 30 minutes |
-| Introduction to Serverless Development | Digital Course | 2026-02-27 | 25 minutes |
-| Amazon Connect Administration | Digital Course | 2026-02-26 | 1 hour |
-| Amazon DynamoDB Service Primer | Digital Course | 2026-02-26 | 20 minutes |
-| Amazon HealthLake Getting Started | Digital Course | 2026-02-26 | 1 hour |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-08-part-03.md](aws-skills-2026-08-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-05.md](aws-skills-2026-08-part-05.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 2 of 5
-date_range: 2026-04-21 to 2026-06-30
+date_range: 2026-04-25 to 2026-07-08
 total_entries: 98
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-02.md
 ---
@@ -12,6 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| AWS SimuLearn: Auto-Healing and Scaling Applications | Aws Simulearn | 2026-07-08 | 1 hour |
+| AWS SimuLearn: Cloud Economics | Aws Simulearn | 2026-07-08 | 1 hour |
+| AWS SimuLearn: Core Security Concepts | Aws Simulearn | 2026-07-08 | 1 hour |
+| AWS SimuLearn: Databases in Practice | Aws Simulearn | 2026-07-08 | 1 hour |
+| AWS SimuLearn: Highly Available Web Applications | Aws Simulearn | 2026-07-08 | 1 hour |
+| AWS SimuLearn: Cloud Practitioner | Learning Plan | 2026-07-05 | 12 hours |
+| AWS SimuLearn: Networking Concepts | Aws Simulearn | 2026-07-05 | 1 hour |
+| AWS SimuLearn: AI Practitioner | Learning Plan | 2026-07-02 | 10 hours |
+| AWS SimuLearn: Create an AI Smart Assistant | Aws Simulearn | 2026-07-02 | 1 hour |
+| AWS SimuLearn: Get Started with Generative AI | Aws Simulearn | 2026-07-02 | 1 hour |
+| AWS SimuLearn: Use AI Services with Amazon SageMaker | Aws Simulearn | 2026-07-02 | 1 hour |
 | Amazon QuickSight Advanced Business Intelligence Authoring (Part 1) | Digital Course | 2026-06-30 | 1 hour 30 minutes |
 | Amazon QuickSight Advanced Business Intelligence Authoring (Part 2) | Digital Course | 2026-06-30 | 1 hour 30 minutes |
 | [RETIRED] Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service | Digital Course | 2026-06-29 | 45 minutes |
@@ -99,17 +110,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Customization in Amazon Q Developer | Digital Course | 2026-04-25 | 30 minutes |
 | GitLab Duo with Amazon Q | Digital Course | 2026-04-25 | 30 minutes |
 | Introduction to Amazon Q Developer (Technical) | Digital Course | 2026-04-25 | 15 minutes |
-| Managing Operations on AWS with Amazon Q Developer | Digital Course | 2026-04-25 | 30 minutes |
-| Prompt Engineering with Amazon Q Developer | Digital Course | 2026-04-25 | 30 minutes |
-| Setup Amazon Q Developer | Digital Course | 2026-04-25 | 20 minutes |
-| Amazon DynamoDB for Serverless Architectures | Digital Course | 2026-04-24 | 2 hours |
-| Introduction to Amazon CloudFront - Part 1 | Digital Course | 2026-04-23 | 30 minutes |
-| Differences Between Security Groups and NACLs | Digital Course | 2026-04-22 | 7 minutes |
-| Introduction to the AWS Sustainability service | Digital Course | 2026-04-22 | 45 minutes |
-| Protecting Your Instance with Security Groups | Digital Course | 2026-04-22 | 10 minutes |
-| Selecting your Data Migration Strategy with AWS | Digital Course | 2026-04-22 | 30 minutes |
-| Understanding Amazon EBS Volume Encryption | Digital Course | 2026-04-22 | 2 minutes |
-| Introduction to AWS Auto Scaling | Digital Course | 2026-04-21 | 17 minutes |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-08-part-01.md](aws-skills-2026-08-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-03.md](aws-skills-2026-08-part-03.md)
