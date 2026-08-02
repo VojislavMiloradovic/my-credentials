@@ -13,7 +13,8 @@ JSONLD_PATH = "credentials.jsonld"
 MARKER_START = "<!-- JSONLD_START -->"
 MARKER_END = "<!-- JSONLD_END -->"
 
-# JSON-LD Schema definition matching Schema.org ProfilePage & Person entity structure
+HEADER_KEYWORDS = {"title", "category", "type", "issuer", "authority", "date", "description", "badge", "name", "issued date"}
+
 JSONLD_SCHEMA = {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "object",
@@ -62,7 +63,6 @@ JSONLD_SCHEMA = {
 def clean_str(s):
     if not s:
         return ""
-    # Strip markdown bold/italic formatting and code backticks
     return re.sub(r"[\*\_`]", "", str(s)).strip()
 
 
@@ -80,7 +80,7 @@ def validate_jsonld(payload):
 
 
 def parse_archive_monoliths():
-    """Parses standardized complete markdown archives across all platforms into JSON-LD objects."""
+    """Parses standardized complete markdown archives across all platforms into credential dictionaries."""
     credentials = []
 
     if not os.path.exists(ARCHIVE_DIR):
@@ -109,15 +109,19 @@ def parse_archive_monoliths():
             # 1. Parse Table Rows (| col1 | col2 | col3 |)
             # -----------------------------------------------------------------
             if line_str.startswith("|") and line_str.endswith("|"):
-                # Detect header row layout
                 if "---" in line_str:
-                    continue
-                if any(h in line_str for h in ["Title", "Category", "Type", "Issuer", "Authority", "Date", "Description"]):
-                    header_cols = [c.strip().lower() for c in line_str.split("|")[1:-1]]
                     continue
 
                 cols = [c.strip() for c in line_str.split("|")[1:-1]]
                 if not cols or len(cols) < 2:
+                    continue
+
+                # Header Detection: Check if first cell matches exact header terms
+                first_col_clean = clean_str(cols[0]).lower()
+                if first_col_clean in HEADER_KEYWORDS or (
+                    len(cols) > 1 and clean_str(cols[1]).lower() in HEADER_KEYWORDS
+                ):
+                    header_cols = [c.strip().lower() for c in cols]
                     continue
 
                 title = ""
@@ -129,26 +133,25 @@ def parse_archive_monoliths():
                 image_url = ""
                 cred_id = ""
 
-                # Cell-by-cell inspection based on headers and content
                 for idx, col in enumerate(cols):
                     col_header = header_cols[idx] if idx < len(header_cols) else ""
 
-                    # Extract image tag
+                    # Extract image URL
                     img_match = re.search(r"!\[.*?\]\((https?://[^\)]+)\)", col)
                     if img_match and not image_url:
                         image_url = img_match.group(1)
 
-                    # Extract verification URL
+                    # Extract link URL & title
                     link_match = re.search(r"\[([^\]]+)\]\((https?://[^\)]+)\)", col)
                     if link_match:
                         if not url:
                             url = link_match.group(2)
-                        if not title and "Verify" not in link_match.group(1):
+                        if not title and "verify" not in link_match.group(1).lower():
                             title = clean_str(link_match.group(1))
 
-                    # Extract bold text title
+                    # Extract bold title
                     bold_match = re.search(r"\*\*([^*]+)\*\*", col)
-                    if bold_match and not title and "title" in col_header:
+                    if bold_match and not title:
                         title = clean_str(bold_match.group(1))
 
                     # Extract ISO / Year-Month dates
@@ -156,13 +159,13 @@ def parse_archive_monoliths():
                     if date_match and not date_earned:
                         date_earned = date_match.group(1)
 
-                    # Category / Type extraction
+                    # Category extraction
                     if "category" in col_header or "type" in col_header:
                         cleaned_cat = clean_str(col)
                         if cleaned_cat and cleaned_cat.lower() not in ["verify", "active"]:
                             category = cleaned_cat
 
-                    # Issuer / Authority extraction
+                    # Issuer extraction
                     if "issuer" in col_header:
                         cleaned_issuer = clean_str(col)
                         if cleaned_issuer:
@@ -181,15 +184,15 @@ def parse_archive_monoliths():
                     if id_match and not cred_id:
                         cred_id = id_match.group(1)
 
-                # Fallback for plain-text title in the first column if missing
+                # Fallback: Plain-text title in first column
                 if not title and cols[0]:
                     title = clean_str(cols[0])
 
-                if title:
+                if title and title.lower() not in HEADER_KEYWORDS:
                     c_obj = {
                         "@type": "EducationalOccupationalCredential",
                         "credentialCategory": category,
-                        "name": clean_str(title),
+                        "name": title,
                         "recognizedBy": {
                             "@type": "Organization",
                             "name": clean_str(issuer),
@@ -210,28 +213,31 @@ def parse_archive_monoliths():
                     count += 1
 
             # -----------------------------------------------------------------
-            # 2. Parse Bullet Points (- **Title** ...)
+            # 2. Parse Bullet Points (- Title / * Title)
             # -----------------------------------------------------------------
-            elif line_str.startswith(("- ", "* ")):
+            elif line_str.startswith(("- ", "* ", "+ ")):
                 bold_match = re.search(r"\*\*([^*]+)\*\*", line_str)
-                if not bold_match:
+                link_match = re.search(r"\[([^\]]+)\]\((https?://[^\)]+)\)", line_str)
+
+                if bold_match:
+                    title = clean_str(bold_match.group(1))
+                elif link_match and "verify" not in link_match.group(1).lower():
+                    title = clean_str(link_match.group(1))
+                else:
+                    raw_text = re.sub(r"^[-*\+]\s+", "", line_str)
+                    title = clean_str(raw_text.split(" - ")[0].split(" (")[0])
+
+                if not title:
                     continue
 
-                title = clean_str(bold_match.group(1))
-
-                # Extract date
                 date_match = re.search(r"\b(20\d{2}-\d{2}(-\d{2})?)\b", line_str)
                 date_earned = date_match.group(1) if date_match else ""
 
-                # Extract link
-                link_match = re.search(r"\((https?://[^\)]+)\)", line_str)
-                url = link_match.group(1) if link_match else ""
+                url = link_match.group(2) if link_match else ""
 
-                # Extract image
                 img_match = re.search(r"!\[.*?\]\((https?://[^\)]+)\)", line_str)
                 image_url = img_match.group(1) if img_match else ""
 
-                # Extract Credential ID
                 id_match = re.search(r"Credential ID:\s*`?([A-Za-z0-9]+)`?", line_str, re.IGNORECASE)
                 cred_id = id_match.group(1) if id_match else ""
 
