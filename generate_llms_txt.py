@@ -19,7 +19,7 @@ DOMAIN_PATTERNS = [
     (
         "🛡️ DevOps, Security & Governance",
         re.compile(
-            r"\b(entra|security|ci/cd|cicd|git|github|kubernetes|k8s|docker|container|active directory|byok|encryption|threat|iam|governance|compliance|devops|pipeline|terraform|sentinel|cybersecurity|zero trust|defender|purview|intune|identity|auth|authorization|rbac|policy|bicep|arm|powershell|cli|automation|monitor|log analytics|audit|risk|protection|vault|defender)\b",
+            r"\b(entra|security|ci/cd|cicd|git|github|kubernetes|k8s|docker|container|active directory|byok|encryption|threat|iam|governance|compliance|devops|pipeline|terraform|sentinel|cybersecurity|zero trust|defender|purview|intune|identity|auth|authorization|rbac|policy|bicep|arm|powershell|cli|automation|monitor|log analytics|audit|risk|protection|vault)\b",
             re.IGNORECASE,
         ),
     ),
@@ -47,11 +47,14 @@ def _scrape_index(filename: str, pattern: re.Pattern) -> str:
     path = os.path.join(ARCHIVE_DIR, filename)
     if not os.path.exists(path):
         return "[unavailable]"
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            m = pattern.search(line)
-            if m:
-                return m.group(1).replace(",", "")
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            for line in f:
+                m = pattern.search(line)
+                if m:
+                    return m.group(1).replace(",", "")
+    except Exception:
+        return "[unavailable]"
     return "[unavailable]"
 
 
@@ -62,7 +65,7 @@ def read_portfolio_counts() -> dict:
     value is set to '[unavailable]' rather than a stale cached number.
     This makes gaps explicitly visible to consumers of llms.txt.
     """
-    _TOTAL = re.compile(r"Total[^:]*:\**\s*([\d,]+)")
+    _TOTAL = re.compile(r"Total[^:]*:\**\s*([\d,]+)", re.IGNORECASE)
 
     counts = {
         # MS Learn: units and XP come from the README section written by
@@ -82,23 +85,26 @@ def read_portfolio_counts() -> dict:
 
     # --- MS Learn: parse README between its markers ---
     if os.path.exists(README_PATH):
-        with open(README_PATH, "r", encoding="utf-8") as f:
-            readme = f.read()
-        block_match = re.search(
-            r"<!-- MS_LEARN_START -->(.+?)<!-- MS_LEARN_END -->",
-            readme,
-            re.DOTALL,
-        )
-        if block_match:
-            block = block_match.group(1)
-            for label, key in [
-                (r"Total Experience Points.*?:\**\s*([\d,]+)", "ms_learn_xp"),
-                (r"Completed Individual Units.*?:\**\s*([\d,]+)", "ms_learn_units"),
-                (r"Badges Earned.*?:\**\s*([\d,]+)", "ms_learn_badges"),
-            ]:
-                m = re.search(label, block)
-                if m:
-                    counts[key] = m.group(1).replace(",", "")
+        try:
+            with open(README_PATH, "r", encoding="utf-8") as f:
+                readme = f.read()
+            block_match = re.search(
+                r"<!--\s*MS_LEARN_START\s*-->(.+?)<!--\s*MS_LEARN_END\s*-->",
+                readme,
+                re.DOTALL,
+            )
+            if block_match:
+                block = block_match.group(1)
+                for label, key in [
+                    (r"Total Experience Points.*?:\**\s*([\d,]+)", "ms_learn_xp"),
+                    (r"Completed Individual Units.*?:\**\s*([\d,]+)", "ms_learn_units"),
+                    (r"Badges Earned.*?:\**\s*([\d,]+)", "ms_learn_badges"),
+                ]:
+                    m = re.search(label, block, re.IGNORECASE)
+                    if m:
+                        counts[key] = m.group(1).replace(",", "")
+        except Exception:
+            pass
 
     # --- Archive index files ---
     counts["ms_learn_achievements"] = _scrape_index(
@@ -119,11 +125,11 @@ def read_portfolio_counts() -> dict:
     # Google Developer index has two separate count lines.
     counts["gdev_badges"] = _scrape_index(
         "google-developer-index.md",
-        re.compile(r"Total Public Badges.*?:\**\s*([\d,]+)"),
+        re.compile(r"Total Public Badges.*?:\**\s*([\d,]+)", re.IGNORECASE),
     )
     counts["gdev_activities"] = _scrape_index(
         "google-developer-index.md",
-        re.compile(r"Total Detailed Activities.*?:\**\s*([\d,]+)"),
+        re.compile(r"Total Detailed Activities.*?:\**\s*([\d,]+)", re.IGNORECASE),
     )
 
     return counts
@@ -138,8 +144,11 @@ def calculate_domain_breakdown():
     monolith_files = glob.glob(os.path.join(ARCHIVE_DIR, "*-complete.md"))
 
     for filepath in monolith_files:
-        with open(filepath, "r", encoding="utf-8") as f:
-            lines = f.readlines()
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                lines = f.readlines()
+        except Exception:
+            continue
 
         for line in lines:
             line_str = line.strip()
