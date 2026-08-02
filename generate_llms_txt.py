@@ -285,3 +285,4 @@ Optimized for lower-capacity context tools or fast targeted queries.
 
 
 if __name__ == "__main__":
+    generate_llms_txt()
