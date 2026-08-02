@@ -263,6 +263,8 @@ def main():
         return
 
     rows = load_csv_rows(CSV_PATH)
+    print(f"📥 Loaded {len(rows)} raw rows from {CSV_PATH}")
+
     parsed_data = []
 
     for r in rows:
@@ -276,6 +278,9 @@ def main():
             "date_str": formatted_date,
             "duration": duration,
         })
+
+    print(f"✅ Successfully parsed {len(parsed_data)} activities "
+          f"({len(rows) - len(parsed_data)} skipped as empty/invalid)")
 
     sorted_data = sorted(parsed_data, key=lambda x: x["dt"], reverse=True)
 
