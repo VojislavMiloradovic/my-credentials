@@ -1,4 +1,3 @@
-import os
 import sys
 from datetime import datetime, timezone
 
@@ -23,7 +22,7 @@ PROFILE_LINKS = [
 
 def generate_llms_txt():
     print("🚀 Running generate_llms_txt.py...")
-    
+
     # Extract complete credentials list via shared parser
     credentials = parse_archive_monoliths()
     total_count = len(credentials)
@@ -35,7 +34,7 @@ def generate_llms_txt():
         by_issuer.setdefault(issuer, []).append(c)
 
     lines = []
-    
+
     # -------------------------------------------------------------------------
     # Header & Meta
     # -------------------------------------------------------------------------
@@ -67,7 +66,7 @@ def generate_llms_txt():
     for issuer_name, items in sorted(by_issuer.items(), key=lambda x: x[0]):
         lines.append(f"### {issuer_name} ({len(items):,})")
         lines.append("")
-        
+
         for item in items:
             name = item.get("name", "Untitled")
             date = item.get("dateCreated", "")
@@ -89,7 +88,7 @@ def generate_llms_txt():
                 lines.append(f"- [{name}]({url}){meta_str}")
             else:
                 lines.append(f"- {name}{meta_str}")
-                
+
         lines.append("")
 
     content = "\n".join(lines)
