@@ -13,7 +13,11 @@ JSONLD_PATH = "credentials.jsonld"
 MARKER_START = "<!-- JSONLD_START -->"
 MARKER_END = "<!-- JSONLD_END -->"
 
-HEADER_KEYWORDS = {"title", "category", "type", "issuer", "authority", "date", "description", "badge", "name", "issued date"}
+HEADER_WORDS = {
+    "date", "earned", "credential", "name", "title", "issuer", 
+    "verification", "type", "badge", "category", "description", 
+    "authority", "issued", "status", "id", "link", "url", "action", "verify"
+}
 
 JSONLD_SCHEMA = {
     "$schema": "http://json-schema.org/draft-07/schema#",
@@ -66,6 +70,14 @@ def clean_str(s):
     return re.sub(r"[\*\_`]", "", str(s)).strip()
 
 
+def is_header_phrase(text):
+    """Checks if a string consists entirely of table header keywords."""
+    words = re.findall(r"\w+", clean_str(text).lower())
+    if not words:
+        return True
+    return all(w in HEADER_WORDS for w in words)
+
+
 def validate_jsonld(payload):
     """Validates generated JSON-LD object against the defined schema before writing."""
     try:
@@ -99,16 +111,21 @@ def parse_archive_monoliths():
             lines = f.readlines()
 
         header_cols = []
+        num_lines = len(lines)
 
-        for line in lines:
-            line_str = line.strip()
+        for i in range(num_lines):
+            line_str = lines[i].strip()
             if not line_str:
                 continue
+
+            # Peek at next line for Markdown table delimiter (| --- | --- |)
+            next_line_str = lines[i + 1].strip() if i + 1 < num_lines else ""
 
             # -----------------------------------------------------------------
             # 1. Parse Table Rows (| col1 | col2 | col3 |)
             # -----------------------------------------------------------------
             if line_str.startswith("|") and line_str.endswith("|"):
+                # Skip separator lines
                 if "---" in line_str:
                     continue
 
@@ -116,11 +133,13 @@ def parse_archive_monoliths():
                 if not cols or len(cols) < 2:
                     continue
 
-                # Header Detection: Check if first cell matches exact header terms
-                first_col_clean = clean_str(cols[0]).lower()
-                if first_col_clean in HEADER_KEYWORDS or (
-                    len(cols) > 1 and clean_str(cols[1]).lower() in HEADER_KEYWORDS
-                ):
+                # Header Guard 1: If next line is a delimiter (---), this line is a header
+                if "---" in next_line_str and next_line_str.startswith("|"):
+                    header_cols = [c.strip().lower() for c in cols]
+                    continue
+
+                # Header Guard 2: Check if row consists purely of header phrases
+                if all(is_header_phrase(c) for c in cols if c):
                     header_cols = [c.strip().lower() for c in cols]
                     continue
 
@@ -147,12 +166,16 @@ def parse_archive_monoliths():
                         if not url:
                             url = link_match.group(2)
                         if not title and "verify" not in link_match.group(1).lower():
-                            title = clean_str(link_match.group(1))
+                            cand = clean_str(link_match.group(1))
+                            if not is_header_phrase(cand):
+                                title = cand
 
                     # Extract bold title
                     bold_match = re.search(r"\*\*([^*]+)\*\*", col)
                     if bold_match and not title:
-                        title = clean_str(bold_match.group(1))
+                        cand = clean_str(bold_match.group(1))
+                        if not is_header_phrase(cand):
+                            title = cand
 
                     # Extract ISO / Year-Month dates
                     date_match = re.search(r"\b(20\d{2}-\d{2}(-\d{2})?)\b", col)
@@ -168,7 +191,7 @@ def parse_archive_monoliths():
                     # Issuer extraction
                     if "issuer" in col_header:
                         cleaned_issuer = clean_str(col)
-                        if cleaned_issuer:
+                        if cleaned_issuer and not is_header_phrase(cleaned_issuer):
                             issuer = cleaned_issuer
                     elif "issued by" in col.lower():
                         issuer = col.replace("issued by", "").replace("`", "").strip()
@@ -184,11 +207,15 @@ def parse_archive_monoliths():
                     if id_match and not cred_id:
                         cred_id = id_match.group(1)
 
-                # Fallback: Plain-text title in first column
-                if not title and cols[0]:
-                    title = clean_str(cols[0])
+                # Fallback: Plain-text title in first/second column if not header
+                if not title:
+                    for c in cols:
+                        cand = clean_str(c)
+                        if cand and not is_header_phrase(cand):
+                            title = cand
+                            break
 
-                if title and title.lower() not in HEADER_KEYWORDS:
+                if title and not is_header_phrase(title):
                     c_obj = {
                         "@type": "EducationalOccupationalCredential",
                         "credentialCategory": category,
@@ -227,7 +254,7 @@ def parse_archive_monoliths():
                     raw_text = re.sub(r"^[-*\+]\s+", "", line_str)
                     title = clean_str(raw_text.split(" - ")[0].split(" (")[0])
 
-                if not title:
+                if not title or is_header_phrase(title):
                     continue
 
                 date_match = re.search(r"\b(20\d{2}-\d{2}(-\d{2})?)\b", line_str)
