@@ -3,6 +3,7 @@ import os
 import re
 from datetime import datetime, timezone
 
+README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
 LLMS_PATH = "llms.txt"
 
@@ -41,6 +42,93 @@ DOMAIN_PATTERNS = [
 FALLBACK_DOMAIN = "👔 Enterprise & Professional Development"
 
 
+def _scrape_index(filename: str, pattern: re.Pattern) -> str:
+    """Reads one archive index file and returns the first regex match group, or '[unavailable]'."""
+    path = os.path.join(ARCHIVE_DIR, filename)
+    if not os.path.exists(path):
+        return "[unavailable]"
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            m = pattern.search(line)
+            if m:
+                return m.group(1).replace(",", "")
+    return "[unavailable]"
+
+
+def read_portfolio_counts() -> dict:
+    """Reads live counts directly from the just-updated archive index files and README.
+
+    Fallback strategy: if a file is missing or the expected line is absent, the
+    value is set to '[unavailable]' rather than a stale cached number.
+    This makes gaps explicitly visible to consumers of llms.txt.
+    """
+    _TOTAL = re.compile(r"Total[^:]*:\**\s*([\d,]+)")
+
+    counts = {
+        # MS Learn: units and XP come from the README section written by
+        # update_ms_learn.py earlier in the same workflow run.
+        "ms_learn_units": "[unavailable]",
+        "ms_learn_xp": "[unavailable]",
+        "ms_learn_badges": "[unavailable]",
+        "ms_learn_achievements": "[unavailable]",
+        # Other platforms: pulled from their *-index.md files.
+        "gcp_badges": "[unavailable]",
+        "aws_activities": "[unavailable]",
+        "credly_credentials": "[unavailable]",
+        "linkedin_certs": "[unavailable]",
+        "gdev_badges": "[unavailable]",
+        "gdev_activities": "[unavailable]",
+    }
+
+    # --- MS Learn: parse README between its markers ---
+    if os.path.exists(README_PATH):
+        with open(README_PATH, "r", encoding="utf-8") as f:
+            readme = f.read()
+        block_match = re.search(
+            r"<!-- MS_LEARN_START -->(.+?)<!-- MS_LEARN_END -->",
+            readme,
+            re.DOTALL,
+        )
+        if block_match:
+            block = block_match.group(1)
+            for label, key in [
+                (r"Total Experience Points.*?:\**\s*([\d,]+)", "ms_learn_xp"),
+                (r"Completed Individual Units.*?:\**\s*([\d,]+)", "ms_learn_units"),
+                (r"Badges Earned.*?:\**\s*([\d,]+)", "ms_learn_badges"),
+            ]:
+                m = re.search(label, block)
+                if m:
+                    counts[key] = m.group(1).replace(",", "")
+
+    # --- Archive index files ---
+    counts["ms_learn_achievements"] = _scrape_index(
+        "microsoft-learn-index.md", _TOTAL
+    )
+    counts["gcp_badges"] = _scrape_index(
+        "google-cloud-skills-index.md", _TOTAL
+    )
+    counts["aws_activities"] = _scrape_index(
+        "aws-skills-index.md", _TOTAL
+    )
+    counts["credly_credentials"] = _scrape_index(
+        "credly-badges-index.md", _TOTAL
+    )
+    counts["linkedin_certs"] = _scrape_index(
+        "linkedin-certifications-index.md", _TOTAL
+    )
+    # Google Developer index has two separate count lines.
+    counts["gdev_badges"] = _scrape_index(
+        "google-developer-index.md",
+        re.compile(r"Total Public Badges.*?:\**\s*([\d,]+)"),
+    )
+    counts["gdev_activities"] = _scrape_index(
+        "google-developer-index.md",
+        re.compile(r"Total Detailed Activities.*?:\**\s*([\d,]+)"),
+    )
+
+    return counts
+
+
 def calculate_domain_breakdown():
     """Scans all complete archive files and categorizes credentials into 5 domains."""
     domain_counts = {name: 0 for name, _ in DOMAIN_PATTERNS}
@@ -56,7 +144,20 @@ def calculate_domain_breakdown():
         for line in lines:
             line_str = line.strip()
             # Parse table rows or bullet points containing titles
-            if (line_str.startswith("|") and not any(h in line_str for h in ["---", "Date", "Metric", "Stat", "Achievement Title", "Activity / Course"])) or line_str.startswith(("- ", "* ")):
+            if (
+                line_str.startswith("|")
+                and not any(
+                    h in line_str
+                    for h in [
+                        "---",
+                        "Date",
+                        "Metric",
+                        "Stat",
+                        "Achievement Title",
+                        "Activity / Course",
+                    ]
+                )
+            ) or line_str.startswith(("- ", "* ")):
                 matched = False
                 for domain_name, pattern in DOMAIN_PATTERNS:
                     if pattern.search(line_str):
@@ -77,6 +178,16 @@ def generate_llms_txt():
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
     domain_counts, total_parsed = calculate_domain_breakdown()
+    pc = read_portfolio_counts()
+
+    def _fmt(val: str) -> str:
+        """Format a raw digit string with thousands separators, or pass '[unavailable]' through."""
+        if val == "[unavailable]":
+            return val
+        try:
+            return f"{int(val):,}"
+        except ValueError:
+            return val
 
     content = f"""# Vojislav Miloradovic - Machine-Readable Credentials Archive
 
@@ -84,12 +195,12 @@ def generate_llms_txt():
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
-- **Microsoft Learn**: 35,424 completed units | 4,780 total achievements
-- **Google Cloud Skills**: 338 Badges | 198,577 total points
-- **AWS Skill Builder**: 480 completed courses/activities
-- **Credly**: 482 credentials | 1838 mapped skills
-- **LinkedIn**: 1,297 verified external certifications
-- **Google Developer**: 171 milestone badges | 1,446 codelabs & activities
+- **Microsoft Learn**: {_fmt(pc['ms_learn_units'])} completed units | {_fmt(pc['ms_learn_achievements'])} total achievements | {_fmt(pc['ms_learn_xp'])} XP
+- **Google Cloud Skills**: {_fmt(pc['gcp_badges'])} badges
+- **AWS Skill Builder**: {_fmt(pc['aws_activities'])} completed courses/activities
+- **Credly**: {_fmt(pc['credly_credentials'])} credentials
+- **LinkedIn**: {_fmt(pc['linkedin_certs'])} verified external certifications
+- **Google Developer**: {_fmt(pc['gdev_badges'])} milestone badges | {_fmt(pc['gdev_activities'])} codelabs & activities
 
 ## Domain Focus & Skill Taxonomy
 Dynamic classification of ~{total_parsed:,} parsed portfolio achievements across 5 primary tech domains:
