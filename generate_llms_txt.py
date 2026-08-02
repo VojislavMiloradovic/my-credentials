@@ -1,287 +1,104 @@
-import glob
 import os
-import re
+import sys
 from datetime import datetime, timezone
 
-README_PATH = "README.md"
-ARCHIVE_DIR = "archives"
-LLMS_PATH = "llms.txt"
+# Import shared parser engine from generate_jsonld to guarantee 100% count parity
+try:
+    from generate_jsonld import parse_archive_monoliths
+except ImportError:
+    print("❌ Error: generate_jsonld.py not found in the working directory.", file=sys.stderr)
+    sys.exit(1)
 
-# Comprehensive domain regex patterns (checked in sequential order)
-DOMAIN_PATTERNS = [
-    (
-        "🤖 AI, Machine Learning & Data",
-        re.compile(
-            r"\b(ai|genai|llm|copilot|gemini|agent|bedrock|rag|bigquery|machine learning|data science|vision api|deep learning|neural|openai|vertex|tensorflow|pytorch|prompt|langchain|vector|nlp|sql|data|database|analytics|power bi|fabric|synapse|databricks|reporting|pandas|spark|intelligence|predictive|etl|warehouse|insight)\b",
-            re.IGNORECASE,
-        ),
-    ),
-    (
-        "🛡️ DevOps, Security & Governance",
-        re.compile(
-            r"\b(entra|security|ci/cd|cicd|git|github|kubernetes|k8s|docker|container|active directory|byok|encryption|threat|iam|governance|compliance|devops|pipeline|terraform|sentinel|cybersecurity|zero trust|defender|purview|intune|identity|auth|authorization|rbac|policy|bicep|arm|powershell|cli|automation|monitor|log analytics|audit|risk|protection|vault)\b",
-            re.IGNORECASE,
-        ),
-    ),
-    (
-        "☁️ Cloud & Infrastructure",
-        re.compile(
-            r"\b(azure|aws|gcp|google cloud|vpc|netapp|networking|serverless|cloud run|storage|ec2|s3|infrastructure|virtual machine|load balancer|dns|route 53|cloud architecture|hybrid|virtual network|windows server|linux|vm|subnet|expressroute|firewall|compute|app service|backup|disaster recovery|migration|cluster|hyper-v|edge)\b",
-            re.IGNORECASE,
-        ),
-    ),
-    (
-        "💻 App Engineering & Software Development",
-        re.compile(
-            r"\b(android|unity|streamlit|mongodb|python|codelabs|power platform|power apps|power automate|alm|c#|dotnet|\.net|java|javascript|typescript|react|api|rest|graphql|flutter|web dev|node|app engine|frontend|backend|developer|development|code|visual studio|microservices|logic app|functions|sdk|html|css|json|xml)\b",
-            re.IGNORECASE,
-        ),
-    ),
+LLMS_TXT_PATH = "llms.txt"
+
+PROFILE_LINKS = [
+    ("Microsoft Learn", "https://learn.microsoft.com/en-us/users/vojislavmiloradovic/"),
+    ("Google Skills", "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b"),
+    ("AWS Skill Builder", "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"),
+    ("Credly", "https://www.credly.com/users/vojislavmiloradovic"),
+    ("LinkedIn", "https://www.linkedin.com/in/vojislavmiloradovic"),
+    ("Google Developer", "https://g.dev/VojislavMiloradovic"),
 ]
-
-FALLBACK_DOMAIN = "👔 Enterprise & Professional Development"
-
-
-def _scrape_index(filename: str, pattern: re.Pattern) -> str:
-    """Reads one archive index file and returns the first regex match group, or '[unavailable]'."""
-    path = os.path.join(ARCHIVE_DIR, filename)
-    if not os.path.exists(path):
-        return "[unavailable]"
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            for line in f:
-                m = pattern.search(line)
-                if m:
-                    return m.group(1).replace(",", "")
-    except Exception:
-        return "[unavailable]"
-    return "[unavailable]"
-
-
-def read_portfolio_counts() -> dict:
-    """Reads live counts directly from archive index files and README, with explicit logging."""
-    print("🔍 Scraping portfolio counts from README.md and archive indexes...")
-
-    _TOTAL = re.compile(r"Total[^:]*:\**\s*([\d,]+)", re.IGNORECASE)
-
-    counts = {
-        "ms_learn_units": "[unavailable]",
-        "ms_learn_xp": "[unavailable]",
-        "ms_learn_badges": "[unavailable]",
-        "ms_learn_achievements": "[unavailable]",
-        "gcp_badges": "[unavailable]",
-        "aws_activities": "[unavailable]",
-        "credly_credentials": "[unavailable]",
-        "linkedin_certs": "[unavailable]",
-        "gdev_badges": "[unavailable]",
-        "gdev_activities": "[unavailable]",
-    }
-
-    # --- MS Learn: parse README between its markers ---
-    if os.path.exists(README_PATH):
-        try:
-            with open(README_PATH, "r", encoding="utf-8") as f:
-                readme = f.read()
-            block_match = re.search(
-                r"<!--\s*MS_LEARN_START\s*-->(.+?)<!--\s*MS_LEARN_END\s*-->",
-                readme,
-                re.DOTALL,
-            )
-            if block_match:
-                block = block_match.group(1)
-                for label, key in [
-                    (r"Total Experience Points.*?:\**\s*([\d,]+)", "ms_learn_xp"),
-                    (r"Completed Individual Units.*?:\**\s*([\d,]+)", "ms_learn_units"),
-                    (r"Badges Earned.*?:\**\s*([\d,]+)", "ms_learn_badges"),
-                ]:
-                    m = re.search(label, block, re.IGNORECASE)
-                    if m:
-                        counts[key] = m.group(1).replace(",", "")
-        except Exception as e:
-            print(f"⚠️ Warning reading {README_PATH}: {e}")
-    else:
-        print(f"⚠️ {README_PATH} not found.")
-
-    # --- Archive index files ---
-    index_targets = [
-        ("ms_learn_achievements", "microsoft-learn-index.md", _TOTAL),
-        ("gcp_badges", "google-cloud-skills-index.md", _TOTAL),
-        ("aws_activities", "aws-skills-index.md", _TOTAL),
-        ("credly_credentials", "credly-badges-index.md", _TOTAL),
-        ("linkedin_certs", "linkedin-certifications-index.md", _TOTAL),
-        ("gdev_badges", "google-developer-index.md", re.compile(r"Total Public Badges.*?:\**\s*([\d,]+)", re.IGNORECASE)),
-        ("gdev_activities", "google-developer-index.md", re.compile(r"Total Detailed Activities.*?:\**\s*([\d,]+)", re.IGNORECASE)),
-    ]
-
-    for key, filename, pattern in index_targets:
-        counts[key] = _scrape_index(filename, pattern)
-
-    resolved = sum(1 for v in counts.values() if v != "[unavailable]")
-    total = len(counts)
-    unavail_count = total - resolved
-
-    print(f"📊 Portfolio Counts Scraped: {resolved}/{total} resolved "
-          f"({unavail_count} marked [unavailable])")
-    
-    for k, v in counts.items():
-        if v == "[unavailable]":
-            print(f"   ⚠️ {k}: [unavailable]")
-
-    return counts
-
-
-def calculate_domain_breakdown():
-    """Scans all complete archive files and categorizes credentials into 5 domains."""
-    print("📂 Scanning monolithic archive files (*-complete.md) for domain breakdown...")
-
-    domain_counts = {name: 0 for name, _ in DOMAIN_PATTERNS}
-    domain_counts[FALLBACK_DOMAIN] = 0
-    total_parsed = 0
-    total_skipped = 0
-
-    monolith_files = glob.glob(os.path.join(ARCHIVE_DIR, "*-complete.md"))
-
-    if not monolith_files:
-        print(f"⚠️ No monolithic complete archive files found in {ARCHIVE_DIR}/")
-        return domain_counts, 0
-
-    for filepath in sorted(monolith_files):
-        filename = os.path.basename(filepath)
-        file_parsed = 0
-        file_skipped = 0
-
-        try:
-            with open(filepath, "r", encoding="utf-8") as f:
-                lines = f.readlines()
-        except Exception as e:
-            print(f"❌ Error reading {filepath}: {e}")
-            continue
-
-        for line in lines:
-            line_str = line.strip()
-            # Parse table rows or bullet points containing titles
-            if (
-                line_str.startswith("|")
-                and not any(
-                    h in line_str
-                    for h in [
-                        "---",
-                        "Date",
-                        "Metric",
-                        "Stat",
-                        "Achievement Title",
-                        "Activity / Course",
-                    ]
-                )
-            ) or line_str.startswith(("- ", "* ")):
-                matched = False
-                for domain_name, pattern in DOMAIN_PATTERNS:
-                    if pattern.search(line_str):
-                        domain_counts[domain_name] += 1
-                        matched = True
-                        break
-
-                if not matched:
-                    domain_counts[FALLBACK_DOMAIN] += 1
-
-                file_parsed += 1
-            else:
-                file_skipped += 1
-
-        total_parsed += file_parsed
-        total_skipped += file_skipped
-        print(f"  - {filename}: {file_parsed} items categorized ({file_skipped} header/empty lines skipped)")
-
-    print(f"🏷️ Categorized {total_parsed} total achievements across {len(monolith_files)} dataset files:")
-    for domain, count in domain_counts.items():
-        percentage = (count / total_parsed * 100) if total_parsed > 0 else 0
-        print(f"   • {domain}: {count:,} ({percentage:.1f}%)")
-
-    return domain_counts, total_parsed
 
 
 def generate_llms_txt():
-    """Generates a token-optimized, structured llms.txt index file."""
-    print("🚀 Starting llms.txt index generation...")
-    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    print("🚀 Running generate_llms_txt.py...")
+    
+    # Extract complete credentials list via shared parser
+    credentials = parse_archive_monoliths()
+    total_count = len(credentials)
 
-    pc = read_portfolio_counts()
-    domain_counts, total_parsed = calculate_domain_breakdown()
+    # Group credentials by Issuer / Platform
+    by_issuer = {}
+    for c in credentials:
+        issuer = c.get("recognizedBy", {}).get("name", "Other")
+        by_issuer.setdefault(issuer, []).append(c)
 
-    def _fmt(val: str) -> str:
-        """Format a raw digit string with thousands separators, or pass '[unavailable]' through."""
-        if val == "[unavailable]":
-            return val
-        try:
-            return f"{int(val):,}"
-        except ValueError:
-            return val
+    lines = []
+    
+    # -------------------------------------------------------------------------
+    # Header & Meta
+    # -------------------------------------------------------------------------
+    lines.append("# Vojislav Miloradović - Verified Credentials & Achievements")
+    lines.append(f"> LLM-Optimized Complete Registry | Total Verified Credentials: {total_count:,}")
+    lines.append(f"> Last Updated: {datetime.now(timezone.utc).strftime('%Y-%m-%d')}\n")
 
-    content = f"""# Vojislav Miloradovic - Machine-Readable Credentials Archive
+    # Live Profiles
+    lines.append("## Official Profile Links")
+    for name, url in PROFILE_LINKS:
+        lines.append(f"- **{name}**: {url}")
+    lines.append("")
 
-> **Last Generated:** {timestamp}
-> Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
+    # Platform Breakdown Summary Table
+    lines.append("## Summary Breakdown")
+    lines.append("| Platform / Issuer | Credential Count |")
+    lines.append("|---|---|")
+    for issuer_name, items in sorted(by_issuer.items(), key=lambda x: len(x[1]), reverse=True):
+        lines.append(f"| {issuer_name} | {len(items):,} |")
+    lines.append(f"| **Total** | **{total_count:,}** |")
+    lines.append("")
 
-## Portfolio Overview & Total Counts
-- **Microsoft Learn**: {_fmt(pc['ms_learn_units'])} completed units | {_fmt(pc['ms_learn_achievements'])} total achievements | {_fmt(pc['ms_learn_xp'])} XP
-- **Google Cloud Skills**: {_fmt(pc['gcp_badges'])} badges
-- **AWS Skill Builder**: {_fmt(pc['aws_activities'])} completed courses/activities
-- **Credly**: {_fmt(pc['credly_credentials'])} credentials
-- **LinkedIn**: {_fmt(pc['linkedin_certs'])} verified external certifications
-- **Google Developer**: {_fmt(pc['gdev_badges'])} milestone badges | {_fmt(pc['gdev_activities'])} codelabs & activities
+    # -------------------------------------------------------------------------
+    # Detailed Catalog Grouped by Platform
+    # -------------------------------------------------------------------------
+    lines.append("## Detailed Credential Catalog")
+    lines.append("")
 
-## Domain Focus & Skill Taxonomy
-Dynamic classification of ~{total_parsed:,} parsed portfolio achievements across 5 primary tech domains:
+    for issuer_name, items in sorted(by_issuer.items(), key=lambda x: x[0]):
+        lines.append(f"### {issuer_name} ({len(items):,})")
+        lines.append("")
+        
+        for item in items:
+            name = item.get("name", "Untitled")
+            date = item.get("dateCreated", "")
+            cat = item.get("credentialCategory", "")
+            url = item.get("url", "")
+            cred_id = item.get("identifier", "")
 
-"""
-    for domain, count in domain_counts.items():
-        percentage = (count / total_parsed * 100) if total_parsed > 0 else 0
-        content += f"- **{domain}**: {count:,} achievements ({percentage:.1f}%)\n"
+            meta_parts = []
+            if cat and cat not in ["Badge/Certification", "Badge"]:
+                meta_parts.append(f"Type: {cat}")
+            if date:
+                meta_parts.append(f"Date: {date}")
+            if cred_id:
+                meta_parts.append(f"ID: {cred_id}")
 
-    content += """
-## Platform Master Indexes
-Use these index files to navigate chunked historical records without exceeding context limits.
+            meta_str = f" *({', '.join(meta_parts)})*" if meta_parts else ""
 
-- [Aws Skills Index](./archives/aws-skills-index.md): Master navigation index for Aws Skills chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md
-- [Credly Badges Index](./archives/credly-badges-index.md): Master navigation index for Credly Badges chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md
-- [Google Cloud Skills Index](./archives/google-cloud-skills-index.md): Master navigation index for Google Cloud Skills chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-index.md
-- [Google Developer Index](./archives/google-developer-index.md): Master navigation index for Google Developer chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md
-- [Linkedin Certifications Index](./archives/linkedin-certifications-index.md): Master navigation index for Linkedin Certifications chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md
-- [Microsoft Learn Index](./archives/microsoft-learn-index.md): Master navigation index for Microsoft Learn chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md
+            if url:
+                lines.append(f"- [{name}]({url}){meta_str}")
+            else:
+                lines.append(f"- {name}{meta_str}")
+                
+        lines.append("")
 
-## Complete Monolithic Datasets
-Recommended for models with large context windows (>100k tokens).
+    content = "\n".join(lines)
 
-- [Aws Skills Complete](./archives/aws-skills-complete.md): Full dataset (~43.4 KB, ~11,105 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
-- [Credly Badges Complete](./archives/credly-badges-complete.md): Full dataset (~82.59 KB, ~21,134 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-complete.md
-- [Google Cloud Skills Complete](./archives/google-cloud-skills-complete.md): Full dataset (~21.71 KB, ~5,555 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-complete.md
-- [Google Developer Complete](./archives/google-developer-complete.md): Full dataset (~229.7 KB, ~58,780 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md
-- [Linkedin Certifications Complete](./archives/linkedin-certifications-complete.md): Full dataset (~264.98 KB, ~67,819 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md
-- [Microsoft Learn Complete](./archives/microsoft-learn-complete.md): Full dataset (~849.88 KB, ~217,558 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
-
-## Latest Chunked Slices (~10 KB per slice)
-Optimized for lower-capacity context tools or fast targeted queries.
-
-- [Aws Skills Latest Slice](./archives/aws-skills-2026-07-part-01.md): Most recent achievements for Aws Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md
-- [Credly Badges Latest Slice](./archives/credly-badges-2026-08-part-01.md): Most recent achievements for Credly Badges. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-01.md
-- [Google Cloud Skills Latest Slice](./archives/google-cloud-skills-2026-08-part-01.md): Most recent achievements for Google Cloud Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-08-part-01.md
-- [Google Developer Activities Latest Slice](./archives/google-developer-activities-2026-08-part-01.md): Most recent achievements for Google Developer Activities. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-01.md
-- [Google Developer Badges Latest Slice](./archives/google-developer-badges-2026-08-part-01.md): Most recent achievements for Google Developer Badges. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-08-part-01.md
-- [Linkedin Certifications Latest Slice](./archives/linkedin-certifications-2026-07-part-01.md): Most recent achievements for Linkedin Certifications. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-01.md
-- [Microsoft Learn Latest Slice](./archives/microsoft-learn-2026-08-part-01.md): Most recent achievements for Microsoft Learn. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-01.md
-
-## Structured Machine-Readable Data
-- [Schema.org JSON-LD Credentials](./credentials.jsonld): Semantic linked data representation of all achievements. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.jsonld
-
-## Full Consolidated Export
-- [llms-full.txt](./llms-full.txt): Single file combining the repository overview, all complete platform datasets, and linked data. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/llms-full.txt
-"""
-
-    with open(LLMS_PATH, "w", encoding="utf-8") as f:
+    # Output llms.txt
+    with open(LLMS_TXT_PATH, "w", encoding="utf-8") as f:
         f.write(content)
 
-    file_size_kb = os.path.getsize(LLMS_PATH) / 1024
-    print(f"✅ Successfully written {LLMS_PATH} ({file_size_kb:.2f} KB).")
+    print(f"\n✅ Successfully generated {LLMS_TXT_PATH} with {total_count:,} credentials across {len(by_issuer)} platforms.")
 
 
 if __name__ == "__main__":
