@@ -1,11 +1,22 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 482 records.
+This document represents a unified, verifiable list of all 493 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-02 | [Agility and Velocity: How MongoDB Helps Deliver New Features Faster](https://www.credly.com/badges/38da0769-2338-4eba-a5bd-447954a5777a/public_url) | MongoDB | Credly Verified |
+| 2026-08-02 | [AWS Educate Getting Started with Security - Training Badge](https://www.credly.com/badges/eb54a438-0285-4897-bb89-2c0bacc6adf7/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-08-02 | [Data Resilience in MongoDB Atlas](https://www.credly.com/badges/b8b7d06d-d74f-4d6f-a85c-923e55953fa1/public_url) | MongoDB | Credly Verified |
+| 2026-08-02 | [Data Resilience in MongoDB Self-Managed Deployments](https://www.credly.com/badges/e0c8232b-d40f-4316-b360-5af9cb576981/public_url) | MongoDB | Credly Verified |
+| 2026-08-02 | [Observability for AI Agents](https://www.credly.com/badges/b6f28741-5f25-4728-b2dc-a1fc2f7a102c/public_url) | MongoDB | Credly Verified |
+| 2026-08-02 | [Retrieval Evaluation](https://www.credly.com/badges/b92b3127-3336-4c5a-ac39-df92f8262d77/public_url) | MongoDB | Credly Verified |
+| 2026-08-02 | [Scale and Adapt: How MongoDB future-proofs your business for massive growth](https://www.credly.com/badges/842768fd-e3af-46e8-84f5-5d6519df2a35/public_url) | MongoDB | Credly Verified |
+| 2026-08-01 | [Attack Flows v2: How to Model and Sequence Attacks](https://www.credly.com/badges/975e7ac6-20c4-4b0f-9d17-eafc0dd69edb/public_url) | AttackIQ | Credly Verified |
+| 2026-08-01 | [Cloud Sales Professional Security Awareness Training](https://www.credly.com/badges/e3cb20dc-1a7a-4ec5-8318-10d8742f16ee/public_url) | Acronis | Credly Verified |
+| 2026-08-01 | [Cloud Sales Pro - PSA](https://www.credly.com/badges/2123c22a-1b9f-4724-8252-536df8dbd4d1/public_url) | Acronis | Credly Verified |
+| 2026-08-01 | [Safeguarding the Supply Chain](https://www.credly.com/badges/296701d5-4c19-4756-85a3-19048ec7f448/public_url) | AttackIQ | Credly Verified |
 | 2026-07-30 | [Building an App with Code Agents and MongoDB](https://www.credly.com/badges/e69b5623-374c-482a-b29f-6cee2c6714d1/public_url) | MongoDB | Credly Verified |
 | 2026-07-30 | [Deploying and Evaluating GenAI Apps with MongoDB](https://www.credly.com/badges/2efe33a4-f77e-4714-a1b1-c8c46e72bd69/public_url) | MongoDB | Credly Verified |
 | 2026-07-30 | [MongoDB Encryption at Rest with BYOK](https://www.credly.com/badges/ea5fdc47-7f57-42a4-9829-eb7c40b0b729/public_url) | MongoDB | Credly Verified |

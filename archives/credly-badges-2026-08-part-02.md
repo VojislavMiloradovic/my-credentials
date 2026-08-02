@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 2 of 9
-date_range: 2026-07-05 to 2026-07-19
+chunk_part: 2 of 10
+date_range: 2026-07-08 to 2026-07-22
 total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-02.md
 ---
@@ -12,6 +12,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-22 | [MongoDB Query Optimization Techniques](https://www.credly.com/badges/adc22d84-9e52-40b6-8f56-09b163398c09/public_url) | MongoDB | Credly Verified |
+| 2026-07-22 | [MongoDB Schema Design Optimization Skill Badge](https://www.credly.com/badges/526ac37a-cf81-4031-82ad-ea72351d42b8/public_url) | MongoDB | Credly Verified |
+| 2026-07-22 | [MongoDB Schema Design Patterns and Anti-patterns Skill Badge](https://www.credly.com/badges/79327255-4ed3-4b0f-8b1e-9982a0ab1051/public_url) | MongoDB | Credly Verified |
+| 2026-07-21 | [Build Serverless Applications with Cloud Run Functions](https://www.credly.com/badges/f57106b4-cf01-4ad0-a05a-67f322da7411/public_url) | Google Cloud | Credly Verified |
+| 2026-07-21 | [Cloud Sales Pro - Archival Storage](https://www.credly.com/badges/f158f922-f150-4b0b-8690-da627a5aea91/public_url) | Acronis | Credly Verified |
+| 2026-07-21 | [Cloud Sales Pro - Backup](https://www.credly.com/badges/8792dd40-33ba-45a4-8a3b-68f57d1ec0d3/public_url) | Acronis | Credly Verified |
+| 2026-07-20 | [Acronis Cyber Protect – Sales Pro](https://www.credly.com/badges/a2071cbe-5c63-4b7e-9b49-306f58c74a30/public_url) | Acronis | Credly Verified |
+| 2026-07-20 | [Acronis Cyber Protect – Tech Pro](https://www.credly.com/badges/0d5fac3c-48d7-4e36-bb6c-bed01e8304d9/public_url) | Acronis | Credly Verified |
+| 2026-07-20 | [Building AI Agents with MongoDB](https://www.credly.com/badges/445b664c-c048-4f35-99ed-087e1d1ffc15/public_url) | MongoDB | Credly Verified |
+| 2026-07-20 | [CRUD Operations in MongoDB](https://www.credly.com/badges/9fd53140-ed9f-49c4-ba08-46f3b86499ad/public_url) | MongoDB | Credly Verified |
+| 2026-07-20 | [Foundations of AI Security](https://www.credly.com/badges/fa327098-5494-4463-84bc-6429f541bf76/public_url) | AttackIQ | Credly Verified |
+| 2026-07-20 | [Introduction to EASY Framework for Threat Intelligence](https://www.credly.com/badges/351d4db6-cd03-429e-a629-0765c3c78ba0/public_url) | AttackIQ | Credly Verified |
 | 2026-07-19 | [Secure Software Delivery Skill Badge](https://www.credly.com/badges/2cf13bdf-9555-4bac-a807-2f80b52ddb56/public_url) | Google Cloud | Credly Verified |
 | 2026-07-17 | [BDR Basic Course](https://www.credly.com/badges/eecab10e-35f3-446c-9503-a4b15c76acf8/public_url) | Acronis | Credly Verified |
 | 2026-07-17 | [Building RAG Apps Using MongoDB](https://www.credly.com/badges/647d5577-f948-4a84-9093-7b511bca6ecb/public_url) | MongoDB | Credly Verified |
@@ -56,18 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-08 | [data.world Steward Certification](https://www.credly.com/badges/cf76fba1-5658-4a88-9c91-84a057fcdd7b/public_url) | data.world from ServiceNow | Credly Verified |
 | 2026-07-08 | [Foundations of Operationalizing MITRE ATT&CK v13](https://www.credly.com/badges/e9bc6726-6c10-4a41-a8dd-a10398dec90f/public_url) | AttackIQ | Credly Verified |
 | 2026-07-08 | [Navigate the Celonis Studio](https://www.credly.com/badges/f61a2862-8623-4198-86f9-a8817a002424/public_url) | Celonis | Credly Verified |
-| 2026-07-07 | [Optimize Costs for Google Kubernetes Engine Skill Badge](https://www.credly.com/badges/d67f5f9f-c9c7-4c0a-a241-1bcb73da59ab/public_url) | Google Cloud | Credly Verified |
-| 2026-07-05 | [Acronis Cyber Protect – Cybersecurity Basics](https://www.credly.com/badges/ea106045-3407-4d0e-abd4-9f25b1173d2a/public_url) | Acronis | Credly Verified |
-| 2026-07-05 | [Act on Recommended Tasks](https://www.credly.com/badges/fe48bdbf-8db5-4635-9660-aea9fd95e9a4/public_url) | Celonis | Credly Verified |
-| 2026-07-05 | [Administer Celonis: Security, Permissions](https://www.credly.com/badges/87dfbcbc-9fb1-47b0-9906-e2fde4bbabc1/public_url) | Celonis | Credly Verified |
-| 2026-07-05 | [Build Views](https://www.credly.com/badges/c9318370-5b67-4125-a58b-ea5fb876d8e5/public_url) | Celonis | Credly Verified |
-| 2026-07-05 | [Celonis Process Management Foundations](https://www.credly.com/badges/2686a69d-1900-4137-9403-bf40bf52cd27/public_url) | Celonis | Credly Verified |
-| 2026-07-05 | [Cloud Tech Associate Advanced Cyber Infrastructure](https://www.credly.com/badges/dcee78c6-6eb3-4a34-b1a0-f4d3a7be834d/public_url) | Acronis | Credly Verified |
-| 2026-07-05 | [Define Okta Administrators](https://www.credly.com/badges/9cc7a228-967b-4376-9c82-0a2fc8cee9f8/public_url) | Okta | Credly Verified |
-| 2026-07-05 | [Demystify Auth0 Logout Scenarios](https://www.credly.com/badges/6bde4fae-dedb-46e1-8f67-f0cd9f4a9750/public_url) | Okta | Credly Verified |
-| 2026-07-05 | [Implement Object-Centric Process Mining](https://www.credly.com/badges/1d75263d-60bb-4d7a-9889-fdd2e0e73363/public_url) | Celonis | Credly Verified |
-| 2026-07-05 | [Model in Process Designer](https://www.credly.com/badges/5acece33-4aa8-462f-ad36-1a76aef6fc8a/public_url) | Celonis | Credly Verified |
-| 2026-07-05 | [Sustainability Base Camper](https://www.credly.com/badges/4675aa36-2855-4b8c-8f21-eab4d065685e/public_url) | Celonis | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-08-part-01.md](credly-badges-2026-08-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-03.md](credly-badges-2026-08-part-03.md)

@@ -116,25 +116,25 @@ Showing latest 10 of 480 activities. View the full dataset via the [Platform Arc
 [Credly Verified Credentials](https://www.credly.com/users/vojislavmiloradovic/badges)
 
 Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic/badges)
-**Total Portfolio Credentials:** 482 (459 Credly Verified, 23 External/Imported)
-**Total Verified Skills Mapped:** 1838
+**Total Portfolio Credentials:** 493 (470 Credly Verified, 23 External/Imported)
+**Total Verified Skills Mapped:** 1864
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 482 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
+Showing latest 10 of 493 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-07-30 | [Building an App with Code Agents and MongoDB](https://www.credly.com/badges/e69b5623-374c-482a-b29f-6cee2c6714d1/public_url) | MongoDB | Credly Verified |
-| 2026-07-30 | [Deploying and Evaluating GenAI Apps with MongoDB](https://www.credly.com/badges/2efe33a4-f77e-4714-a1b1-c8c46e72bd69/public_url) | MongoDB | Credly Verified |
-| 2026-07-30 | [MongoDB Encryption at Rest with BYOK](https://www.credly.com/badges/ea5fdc47-7f57-42a4-9829-eb7c40b0b729/public_url) | MongoDB | Credly Verified |
-| 2026-07-30 | [Securing MongoDB Atlas Networking](https://www.credly.com/badges/74ba326f-caa2-44b0-a4b2-dd055799bebf/public_url) | MongoDB | Credly Verified |
-| 2026-07-30 | [Securing MongoDB Self-Managed Networking](https://www.credly.com/badges/0f2ed21a-e251-4566-ac7e-bf989559785b/public_url) | MongoDB | Credly Verified |
-| 2026-07-30 | [Threat-Informed Architecture](https://www.credly.com/badges/2e682aba-ad5e-4f85-9f0e-87f0a4a1c5d1/public_url) | AttackIQ | Credly Verified |
-| 2026-07-30 | [Vector Search Performance](https://www.credly.com/badges/a89e8a08-ff7d-433a-9131-a8e2d464db34/public_url) | MongoDB | Credly Verified |
-| 2026-07-29 | [Analyze Images with the Cloud Vision API Skill Badge](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url) | Google Cloud | Credly Verified |
-| 2026-07-29 | [AWS Educate Getting Started with Serverless - Training Badge](https://www.credly.com/badges/01fefe26-9f1d-4c80-848a-4af9b193b111/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-07-29 | [Build Event-Driven Applications with Eventarc](https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e/public_url) | Google Cloud | Credly Verified |
+| 2026-08-02 | [Agility and Velocity: How MongoDB Helps Deliver New Features Faster](https://www.credly.com/badges/38da0769-2338-4eba-a5bd-447954a5777a/public_url) | MongoDB | Credly Verified |
+| 2026-08-02 | [AWS Educate Getting Started with Security - Training Badge](https://www.credly.com/badges/eb54a438-0285-4897-bb89-2c0bacc6adf7/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-08-02 | [Data Resilience in MongoDB Atlas](https://www.credly.com/badges/b8b7d06d-d74f-4d6f-a85c-923e55953fa1/public_url) | MongoDB | Credly Verified |
+| 2026-08-02 | [Data Resilience in MongoDB Self-Managed Deployments](https://www.credly.com/badges/e0c8232b-d40f-4316-b360-5af9cb576981/public_url) | MongoDB | Credly Verified |
+| 2026-08-02 | [Observability for AI Agents](https://www.credly.com/badges/b6f28741-5f25-4728-b2dc-a1fc2f7a102c/public_url) | MongoDB | Credly Verified |
+| 2026-08-02 | [Retrieval Evaluation](https://www.credly.com/badges/b92b3127-3336-4c5a-ac39-df92f8262d77/public_url) | MongoDB | Credly Verified |
+| 2026-08-02 | [Scale and Adapt: How MongoDB future-proofs your business for massive growth](https://www.credly.com/badges/842768fd-e3af-46e8-84f5-5d6519df2a35/public_url) | MongoDB | Credly Verified |
+| 2026-08-01 | [Attack Flows v2: How to Model and Sequence Attacks](https://www.credly.com/badges/975e7ac6-20c4-4b0f-9d17-eafc0dd69edb/public_url) | AttackIQ | Credly Verified |
+| 2026-08-01 | [Cloud Sales Professional Security Awareness Training](https://www.credly.com/badges/e3cb20dc-1a7a-4ec5-8318-10d8742f16ee/public_url) | Acronis | Credly Verified |
+| 2026-08-01 | [Cloud Sales Pro - PSA](https://www.credly.com/badges/2123c22a-1b9f-4724-8252-536df8dbd4d1/public_url) | Acronis | Credly Verified |
 <!-- CREDLY_BADGES_END -->
 
 
