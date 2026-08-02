@@ -59,22 +59,16 @@ def _scrape_index(filename: str, pattern: re.Pattern) -> str:
 
 
 def read_portfolio_counts() -> dict:
-    """Reads live counts directly from the just-updated archive index files and README.
+    """Reads live counts directly from archive index files and README, with explicit logging."""
+    print("🔍 Scraping portfolio counts from README.md and archive indexes...")
 
-    Fallback strategy: if a file is missing or the expected line is absent, the
-    value is set to '[unavailable]' rather than a stale cached number.
-    This makes gaps explicitly visible to consumers of llms.txt.
-    """
     _TOTAL = re.compile(r"Total[^:]*:\**\s*([\d,]+)", re.IGNORECASE)
 
     counts = {
-        # MS Learn: units and XP come from the README section written by
-        # update_ms_learn.py earlier in the same workflow run.
         "ms_learn_units": "[unavailable]",
         "ms_learn_xp": "[unavailable]",
         "ms_learn_badges": "[unavailable]",
         "ms_learn_achievements": "[unavailable]",
-        # Other platforms: pulled from their *-index.md files.
         "gcp_badges": "[unavailable]",
         "aws_activities": "[unavailable]",
         "credly_credentials": "[unavailable]",
@@ -103,51 +97,64 @@ def read_portfolio_counts() -> dict:
                     m = re.search(label, block, re.IGNORECASE)
                     if m:
                         counts[key] = m.group(1).replace(",", "")
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"⚠️ Warning reading {README_PATH}: {e}")
+    else:
+        print(f"⚠️ {README_PATH} not found.")
 
     # --- Archive index files ---
-    counts["ms_learn_achievements"] = _scrape_index(
-        "microsoft-learn-index.md", _TOTAL
-    )
-    counts["gcp_badges"] = _scrape_index(
-        "google-cloud-skills-index.md", _TOTAL
-    )
-    counts["aws_activities"] = _scrape_index(
-        "aws-skills-index.md", _TOTAL
-    )
-    counts["credly_credentials"] = _scrape_index(
-        "credly-badges-index.md", _TOTAL
-    )
-    counts["linkedin_certs"] = _scrape_index(
-        "linkedin-certifications-index.md", _TOTAL
-    )
-    # Google Developer index has two separate count lines.
-    counts["gdev_badges"] = _scrape_index(
-        "google-developer-index.md",
-        re.compile(r"Total Public Badges.*?:\**\s*([\d,]+)", re.IGNORECASE),
-    )
-    counts["gdev_activities"] = _scrape_index(
-        "google-developer-index.md",
-        re.compile(r"Total Detailed Activities.*?:\**\s*([\d,]+)", re.IGNORECASE),
-    )
+    index_targets = [
+        ("ms_learn_achievements", "microsoft-learn-index.md", _TOTAL),
+        ("gcp_badges", "google-cloud-skills-index.md", _TOTAL),
+        ("aws_activities", "aws-skills-index.md", _TOTAL),
+        ("credly_credentials", "credly-badges-index.md", _TOTAL),
+        ("linkedin_certs", "linkedin-certifications-index.md", _TOTAL),
+        ("gdev_badges", "google-developer-index.md", re.compile(r"Total Public Badges.*?:\**\s*([\d,]+)", re.IGNORECASE)),
+        ("gdev_activities", "google-developer-index.md", re.compile(r"Total Detailed Activities.*?:\**\s*([\d,]+)", re.IGNORECASE)),
+    ]
+
+    for key, filename, pattern in index_targets:
+        counts[key] = _scrape_index(filename, pattern)
+
+    resolved = sum(1 for v in counts.values() if v != "[unavailable]")
+    total = len(counts)
+    unavail_count = total - resolved
+
+    print(f"📊 Portfolio Counts Scraped: {resolved}/{total} resolved "
+          f"({unavail_count} marked [unavailable])")
+    
+    for k, v in counts.items():
+        if v == "[unavailable]":
+            print(f"   ⚠️ {k}: [unavailable]")
 
     return counts
 
 
 def calculate_domain_breakdown():
     """Scans all complete archive files and categorizes credentials into 5 domains."""
+    print("📂 Scanning monolithic archive files (*-complete.md) for domain breakdown...")
+
     domain_counts = {name: 0 for name, _ in DOMAIN_PATTERNS}
     domain_counts[FALLBACK_DOMAIN] = 0
     total_parsed = 0
+    total_skipped = 0
 
     monolith_files = glob.glob(os.path.join(ARCHIVE_DIR, "*-complete.md"))
 
-    for filepath in monolith_files:
+    if not monolith_files:
+        print(f"⚠️ No monolithic complete archive files found in {ARCHIVE_DIR}/")
+        return domain_counts, 0
+
+    for filepath in sorted(monolith_files):
+        filename = os.path.basename(filepath)
+        file_parsed = 0
+        file_skipped = 0
+
         try:
             with open(filepath, "r", encoding="utf-8") as f:
                 lines = f.readlines()
-        except Exception:
+        except Exception as e:
+            print(f"❌ Error reading {filepath}: {e}")
             continue
 
         for line in lines:
@@ -177,17 +184,29 @@ def calculate_domain_breakdown():
                 if not matched:
                     domain_counts[FALLBACK_DOMAIN] += 1
 
-                total_parsed += 1
+                file_parsed += 1
+            else:
+                file_skipped += 1
+
+        total_parsed += file_parsed
+        total_skipped += file_skipped
+        print(f"  - {filename}: {file_parsed} items categorized ({file_skipped} header/empty lines skipped)")
+
+    print(f"🏷️ Categorized {total_parsed} total achievements across {len(monolith_files)} dataset files:")
+    for domain, count in domain_counts.items():
+        percentage = (count / total_parsed * 100) if total_parsed > 0 else 0
+        print(f"   • {domain}: {count:,} ({percentage:.1f}%)")
 
     return domain_counts, total_parsed
 
 
 def generate_llms_txt():
     """Generates a token-optimized, structured llms.txt index file."""
+    print("🚀 Starting llms.txt index generation...")
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-    domain_counts, total_parsed = calculate_domain_breakdown()
     pc = read_portfolio_counts()
+    domain_counts, total_parsed = calculate_domain_breakdown()
 
     def _fmt(val: str) -> str:
         """Format a raw digit string with thousands separators, or pass '[unavailable]' through."""
@@ -261,7 +280,8 @@ Optimized for lower-capacity context tools or fast targeted queries.
     with open(LLMS_PATH, "w", encoding="utf-8") as f:
         f.write(content)
 
-    print(f"✅ Generated {LLMS_PATH} with updated domain skill taxonomy.")
+    file_size_kb = os.path.getsize(LLMS_PATH) / 1024
+    print(f"✅ Successfully written {LLMS_PATH} ({file_size_kb:.2f} KB).")
 
 
 if __name__ == "__main__":
