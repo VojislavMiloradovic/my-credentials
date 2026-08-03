@@ -1,16 +1,22 @@
 {
   "profile_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_points": "198,577",
+  "total_points": "200,651",
   "internal_stats": {
-    "Course": 349,
-    "Check": 1851,
+    "Course": 350,
+    "Check": 1875,
     "Classroom": 0,
     "Game": 6,
-    "Lab": 240,
-    "Lesson": 4850
+    "Lab": 244,
+    "Lesson": 4871
   },
-  "total_badges": 338,
+  "total_badges": 339,
   "badges": [
+    {
+      "title": "Privileged Access with IAM",
+      "date_earned": "2026-08-03",
+      "image_url": "https://cdn.qwiklabs.com/rkz0zAOfJFxDCvn9CtoqPGSjRuZpXdT3gtvaKGfcf7I%3D",
+      "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26258669"
+    },
     {
       "title": "Analyze Images with the Cloud Vision API",
       "date_earned": "2026-07-29",
@@ -24,7 +30,7 @@
       "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26065872"
     },
     {
-      "title": "Get Started with Sensitive Data Protection",
+      "title": "Implement Sensitive Data Protection on Google Cloud",
       "date_earned": "2026-07-26",
       "image_url": "https://cdn.qwiklabs.com/1EPEhYwumPaRgNN6c2RmdB0YK4bMyjxKdXR9O3mcko0%3D",
       "verification_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25946097"

@@ -1,17 +1,18 @@
 # Complete Google Cloud Skills Boost Archive
 
-This document represents a unified, verifiable list of all 338 records.
+This document represents a unified, verifiable list of all 339 records.
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
-**Total Lifetime Points:** 198,577
+**Total Lifetime Points:** 200,651
 
 ## Verified Records Archive
 
 | Date Earned | Badge Title |
 | :---: | --- |
+| 2026-08-03 | **Privileged Access with IAM** |
 | 2026-07-29 | **Analyze Images with the Cloud Vision API** |
 | 2026-07-29 | **Build Event-Driven Applications with Eventarc** |
-| 2026-07-26 | **Get Started with Sensitive Data Protection** |
+| 2026-07-26 | **Implement Sensitive Data Protection on Google Cloud** |
 | 2026-07-26 | **Gemini in Google Chat** |
 | 2026-07-26 | **Scaling Data Science with Agents** |
 | 2026-07-23 | **Configure VPC Routes and Addresses** |

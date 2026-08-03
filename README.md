@@ -47,34 +47,34 @@ Showing latest 10 of 4,794 achievements. View the full dataset via the [Platform
 
 <!-- GOOGLE_SKILLS_START -->
 
-### Google Cloud Skills Boost (338 Badges)
+### Google Cloud Skills Boost (339 Badges)
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
-**Total Lifetime Points:** 198,577
+**Total Lifetime Points:** 200,651
 
 #### Platform Progress Summary
 | Metric | Count |
 |---|---|
-| **Course** | 349 |
-| **Check** | 1,851 |
+| **Course** | 350 |
+| **Check** | 1,875 |
 | **Classroom** | 0 |
 | **Game** | 6 |
-| **Lab** | 240 |
-| **Lesson** | 4,850 |
+| **Lab** | 244 |
+| **Lesson** | 4,871 |
 
 #### Latest Earned Badges
 | Date Earned | Badge Title |
 |:---:|---|
+| *2026-08-03* | **Privileged Access with IAM** |
 | *2026-07-29* | **Analyze Images with the Cloud Vision API** |
 | *2026-07-29* | **Build Event-Driven Applications with Eventarc** |
-| *2026-07-26* | **Get Started with Sensitive Data Protection** |
+| *2026-07-26* | **Implement Sensitive Data Protection on Google Cloud** |
 | *2026-07-26* | **Gemini in Google Chat** |
 | *2026-07-26* | **Scaling Data Science with Agents** |
 | *2026-07-23* | **Configure VPC Routes and Addresses** |
 | *2026-07-23* | **Set Up Multiple Network Interfaces** |
 | *2026-07-23* | **Orchestrate Workflows with the Data Agent Kit** |
 | *2026-07-23* | **Arcade Adventure: Low-Code Development** |
-| *2026-07-21* | **Build Serverless Applications with Cloud Run Functions** |
 
 👉 [View Platform Index](./archives/google-cloud-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-08-part-01.md) | [Complete Monolith](./archives/google-cloud-skills-complete.md))
 

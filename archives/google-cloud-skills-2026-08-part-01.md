@@ -1,7 +1,7 @@
 ---
 archive_platform: Google Cloud Skills Boost
 chunk_part: 1 of 3
-date_range: 2026-03-30 to 2026-07-29
+date_range: 2026-03-30 to 2026-08-03
 total_entries: 148
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-08-part-01.md
 ---
@@ -12,9 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Badge Title |
 | :---: | --- |
+| 2026-08-03 | **Privileged Access with IAM** |
 | 2026-07-29 | **Analyze Images with the Cloud Vision API** |
 | 2026-07-29 | **Build Event-Driven Applications with Eventarc** |
-| 2026-07-26 | **Get Started with Sensitive Data Protection** |
+| 2026-07-26 | **Implement Sensitive Data Protection on Google Cloud** |
 | 2026-07-26 | **Gemini in Google Chat** |
 | 2026-07-26 | **Scaling Data Science with Agents** |
 | 2026-07-23 | **Configure VPC Routes and Addresses** |
@@ -159,7 +160,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-01 | **Google Threat Intelligence** |
 | 2026-03-30 | **Security Command Center: Identify and Prioritize Risks** |
 | 2026-03-30 | **Deploy and Scale AI Models with Cloud Run** |
-| 2026-03-30 | **Configure Gemini Code Assist for Organizations** |
 
 ---
 > **Navigation:** Prev: None | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-08-part-02.md](google-cloud-skills-2026-08-part-02.md)
