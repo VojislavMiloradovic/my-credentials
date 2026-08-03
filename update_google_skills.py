@@ -16,12 +16,12 @@ END_TAG = "<!-- GOOGLE_SKILLS_END -->"
 RAW_BASE_URL = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
 
 INTERNAL_STATS = {
-    "Course": 349,
-    "Check": 1851,
+    "Course": 350,
+    "Check": 1875,
     "Classroom": 0,
     "Game": 6,
-    "Lab": 240,
-    "Lesson": 4850,
+    "Lab": 244,
+    "Lesson": 4871,
 }
 
 
