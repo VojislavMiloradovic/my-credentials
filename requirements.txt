@@ -2,3 +2,4 @@ requests
 beautifulsoup4
 jsonschema
 tiktoken>=0.7.0
+pydantic
