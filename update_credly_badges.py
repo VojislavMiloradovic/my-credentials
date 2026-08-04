@@ -1,28 +1,30 @@
+#!/usr/bin/env python3
 """
 update_credly_badges.py
 -----------------------
-Fetches all native Credly badges and external Open Badges, merges them,
-saves output to credly_badges.json, generates platform archives,
-and updates README.md via archiver helper.
+API pipeline updating Credly native credentials and external Open Badges.
+Includes Pydantic schema validation models, API response parsing, and
+data loss/anomaly guards to prevent archive corruption or silent record drops.
 """
 
 import json
 import logging
 import os
+import sys
 from datetime import datetime, timezone
-from typing import Any
+from typing import Any, List, Optional, Set
 
 import requests
+from pydantic import BaseModel, Field, ValidationError, field_validator
 
-generate_platform_archive = None
-for module_name in ("archiver", "archiver_2", "archive_utils"):
-    try:
-        mod = __import__(module_name, fromlist=["generate_platform_archive"])
-        generate_platform_archive = mod.generate_platform_archive
-        break
-    except (ImportError, AttributeError):
-        continue
+# Archive Integration Helper
+try:
+    from archiver import RAW_BASE_DEFAULT, generate_platform_archive
+except ImportError:
+    RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
+    generate_platform_archive = None
 
+# Logging Setup
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -30,9 +32,13 @@ logging.basicConfig(
 )
 logger = logging.getLogger("credly_updater")
 
+# Configuration Constants
 CREDLY_USERNAME = os.getenv("CREDLY_USERNAME", "vojislavmiloradovic")
 CREDLY_USER_ID = os.getenv("CREDLY_USER_ID", "752aee40-7358-4ade-9a49-81e8b6f49225")
 OUTPUT_FILE = os.getenv("OUTPUT_FILE", "credly_badges.json")
+
+# Data Loss / Anomaly Guard Tolerances
+MAX_ALLOWED_DATA_LOSS_PCT = 0.15  # Fail if new badge count drops >15% below stored archive
 
 HEADERS = {
     "User-Agent": (
@@ -45,9 +51,13 @@ HEADERS = {
 }
 
 
-def normalize_date(raw_date: Any) -> str | None:
-    """Extracts YYYY-MM-DD from ISO strings, UNIX timestamps, or formatted date strings."""
-    if raw_date is None or raw_date == "" or raw_date == "N/A" or raw_date == "None":
+# ==============================================================================
+# PYDANTIC SCHEMAS & VALIDATION PIPELINE
+# ==============================================================================
+
+def normalize_date_string(raw_date: Any) -> Optional[str]:
+    """Coerces timestamps, ISO strings, and standard text dates to YYYY-MM-DD."""
+    if raw_date is None or raw_date in ("", "N/A", "None", "null"):
         return None
 
     if isinstance(raw_date, (int, float)):
@@ -76,16 +86,9 @@ def normalize_date(raw_date: Any) -> str | None:
     if len(parts) == 10 and parts[4] == "-" and parts[7] == "-":
         return parts
 
-    for fmt in (
-        "%b %d, %Y",
-        "%B %d, %Y",
-        "%d %b %Y",
-        "%d %B %Y",
-        "%Y-%m-%d",
-    ):
+    for fmt in ("%b %d, %Y", "%B %d, %Y", "%d %b %Y", "%d %B %Y", "%Y-%m-%d"):
         try:
-            dt = datetime.strptime(s_date, fmt)
-            return dt.strftime("%Y-%m-%d")
+            return datetime.strptime(s_date, fmt).strftime("%Y-%m-%d")
         except ValueError:
             pass
 
@@ -98,11 +101,110 @@ def normalize_date(raw_date: Any) -> str | None:
     return None
 
 
-def extract_title(item: dict[str, Any]) -> str:
-    """Deeply extracts title across native and Open Badges v2 payload structures."""
-    GENERIC_TITLES = {"external badge", "external credential", "badge", "credential"}
-    candidates = []
+class BadgeItemModel(BaseModel):
+    """Normalized schema for processed badge entity validated before archive output."""
+    id: str = Field(..., min_length=1, description="Unique badge ID or hash fallback")
+    title: str = Field(..., min_length=1, description="Verified credential or badge title")
+    name: str = Field(..., min_length=1, description="Standard title duplicate for compatibility")
+    issuer: str = Field(..., min_length=1, description="Issuing organization or authority")
+    issuer_name: str = Field(..., min_length=1, description="Issuer alias for schema compatibility")
+    issued_at: Optional[str] = Field(None, description="ISO YYYY-MM-DD earned date")
+    issued_at_date: Optional[str] = Field(None, description="Alias for issued date")
+    date: Optional[str] = Field(None, description="Alias for issued date")
+    expires_at: Optional[str] = Field(None, description="ISO YYYY-MM-DD expiration date or None")
+    image_url: Optional[str] = Field(None, description="Hosted badge image asset URL")
+    verify_url: Optional[str] = Field(None, description="Public verification link")
+    url: Optional[str] = Field(None, description="Alias for verify_url")
+    type: str = Field("Credly Verified", description="Credly Verified or External/Imported")
+    verification_type: str = Field("Credly Verified", description="Alias for verification category")
+    skills: List[str] = Field(default_factory=list, description="Array of extracted skill strings")
 
+    @field_validator("issued_at", "issued_at_date", "date", "expires_at", mode="before")
+    @classmethod
+    def validate_and_coerce_dates(cls, val: Any) -> Optional[str]:
+        return normalize_date_string(val)
+
+    @field_validator("skills", mode="before")
+    @classmethod
+    def sanitize_skills_list(cls, val: Any) -> List[str]:
+        if isinstance(val, list):
+            clean = []
+            for item in val:
+                if isinstance(item, str) and item.strip():
+                    clean.append(item.strip())
+                elif isinstance(item, dict):
+                    name = item.get("name") or item.get("title")
+                    if isinstance(name, str) and name.strip():
+                        clean.append(name.strip())
+            return list(dict.fromkeys(clean))
+        elif isinstance(val, str) and val.strip():
+            return [val.strip()]
+        return []
+
+
+class CredlyArchivePayloadModel(BaseModel):
+    """Root model for JSON persistence validation."""
+    user_username: str
+    user_id: str
+    total_count: int = Field(ge=0)
+    native_count: int = Field(ge=0)
+    external_count: int = Field(ge=0)
+    badges: List[BadgeItemModel]
+
+
+# ==============================================================================
+# ANOMALY & LOSS GUARD ASSERTIONS
+# ==============================================================================
+
+class PipelineDataLossAnomaly(Exception):
+    """Raised when incoming dataset drops drastically below previous archive baseline."""
+    pass
+
+
+def execute_data_loss_guard(new_badges: List[dict], output_file: str) -> None:
+    """
+    Loss Guard: Compares new incoming parsed badge count against existing local JSON.
+    Prevents corrupt API payloads or truncated server responses from silently clearing archive data.
+    """
+    if not os.path.exists(output_file):
+        logger.info(f"🛡️ Loss Guard: Initial creation mode (no existing '{output_file}').")
+        return
+
+    try:
+        with open(output_file, "r", encoding="utf-8") as f:
+            old_data = json.load(f)
+
+        old_badges = old_data.get("badges", [])
+        old_count = old_data.get("total_count", len(old_badges))
+        new_count = len(new_badges)
+
+        logger.info(f"🛡️ Loss Guard Check: Stored Archive = {old_count} badges | Incoming API = {new_count} badges.")
+
+        if old_count > 0 and new_count == 0:
+            raise PipelineDataLossAnomaly(
+                f"CRITICAL ANOMALY: Incoming API payload returned 0 badges, but stored archive contains {old_count}. Aborting sync."
+            )
+
+        if old_count > 0:
+            drop_ratio = (old_count - new_count) / float(old_count)
+            if drop_ratio > MAX_ALLOWED_DATA_LOSS_PCT:
+                raise PipelineDataLossAnomaly(
+                    f"CRITICAL ANOMALY: Incoming badge count ({new_count}) dropped by {drop_ratio:.1%} "
+                    f"from baseline ({old_count}). Maximum allowed drop threshold is {MAX_ALLOWED_DATA_LOSS_PCT:.0%}. Aborting write."
+                )
+
+        logger.info("✅ Loss Guard Assertion Passed: Incoming payload verified against archive baseline.")
+
+    except json.JSONDecodeError:
+        logger.warning(f"⚠️ Loss Guard Notice: '{output_file}' exists but contains invalid JSON. Overwriting safely.")
+
+
+# ==============================================================================
+# DEEP EXTRACTION & API FETCHERS
+# ==============================================================================
+
+def extract_title(item: dict) -> str:
+    candidates = []
     bc = item.get("badge_class")
     if isinstance(bc, dict):
         candidates.extend([bc.get("name"), bc.get("title")])
@@ -121,30 +223,17 @@ def extract_title(item: dict[str, Any]) -> str:
     if isinstance(bt, dict):
         candidates.extend([bt.get("name"), bt.get("title")])
 
-    assertion = item.get("assertion")
-    if isinstance(assertion, dict):
-        candidates.extend([assertion.get("name"), assertion.get("title")])
-        a_badge = assertion.get("badge")
-        if isinstance(a_badge, dict):
-            candidates.extend([a_badge.get("name"), a_badge.get("title")])
-            a_bc = a_badge.get("badge_class")
-            if isinstance(a_bc, dict):
-                candidates.extend([a_bc.get("name"), a_bc.get("title")])
-
     for cand in candidates:
         if isinstance(cand, str) and cand.strip():
             clean = cand.strip()
-            if clean.lower() not in GENERIC_TITLES:
+            if clean.lower() not in {"external badge", "external credential", "badge", "credential"}:
                 return clean
 
     return "External Credential"
 
 
-def extract_issuer(item: dict[str, Any]) -> str:
-    """Deeply extracts issuer name across native and external open badge payloads."""
-    GENERIC_ISSUERS = {"external issuer", "credly issuer", "credly", "issuer"}
+def extract_issuer(item: dict) -> str:
     candidates = []
-
     bc = item.get("badge_class")
     if isinstance(bc, dict):
         bc_issuer = bc.get("issuer")
@@ -176,96 +265,24 @@ def extract_issuer(item: dict[str, Any]) -> str:
             elif isinstance(p_issuer, dict):
                 candidates.append(p_issuer.get("name"))
 
-    assertion = item.get("assertion")
-    if isinstance(assertion, dict):
-        a_badge = assertion.get("badge")
-        if isinstance(a_badge, dict):
-            iss = a_badge.get("issuer")
-            if isinstance(iss, dict):
-                candidates.append(iss.get("name"))
-            elif isinstance(iss, str):
-                candidates.append(iss)
-
     for cand in candidates:
         if isinstance(cand, str) and cand.strip():
             clean = cand.strip()
-            if clean.lower() not in GENERIC_ISSUERS:
+            if clean.lower() not in {"external issuer", "credly issuer", "credly", "issuer"}:
                 return clean
 
     return "External Issuer"
 
 
-def extract_date(item: dict[str, Any]) -> str:
-    """Deeply extracts issue/earned date across native and external badge payloads."""
-    candidates = [
-        item.get("issued_at_date"),
-        item.get("issued_at"),
-        item.get("issued_on"),
-        item.get("issuedOn"),
-        item.get("issued_date"),
-        item.get("created_at"),
-        item.get("earned_at"),
-        item.get("updated_at"),
-    ]
-
-    bc = item.get("badge_class")
-    if isinstance(bc, dict):
-        candidates.extend([
-            bc.get("issued_at"),
-            bc.get("issued_on"),
-            bc.get("issuedOn"),
-        ])
-
-    assertion = item.get("assertion")
-    if isinstance(assertion, dict):
-        candidates.extend([
-            assertion.get("issuedOn"),
-            assertion.get("issued_on"),
-            assertion.get("issued_at"),
-            assertion.get("issued_at_date"),
-        ])
-
-    badge = item.get("badge")
-    if isinstance(badge, dict):
-        candidates.extend([
-            badge.get("issued_at"),
-            badge.get("issued_at_date"),
-            badge.get("issuedOn"),
-            badge.get("issued_on"),
-        ])
-
-    for c in candidates:
-        norm = normalize_date(c)
-        if norm:
-            return norm
-
-    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
-
-
-def extract_verify_url(item: dict[str, Any]) -> str | None:
-    """Extracts verification or public badge URL."""
+def extract_verify_url(item: dict) -> Optional[str]:
     candidates = [
         item.get("verify_url"),
         item.get("public_url"),
         item.get("url"),
         item.get("target_url"),
-        item.get("assertion_url"),
         item.get("badge_url"),
     ]
-
-    assertion = item.get("assertion")
-    if isinstance(assertion, str) and assertion.startswith("http"):
-        candidates.append(assertion)
-    elif isinstance(assertion, dict):
-        candidates.extend([
-            assertion.get("id"),
-            assertion.get("verify_url"),
-            assertion.get("url"),
-        ])
-
     badge_id = item.get("id") or item.get("uuid")
-    if isinstance(badge_id, str) and badge_id.startswith("http"):
-        candidates.append(badge_id)
 
     for c in candidates:
         if isinstance(c, str) and c.startswith("http"):
@@ -277,40 +294,10 @@ def extract_verify_url(item: dict[str, Any]) -> str | None:
     return None
 
 
-def extract_skills(item: dict[str, Any]) -> list[str]:
-    """Extracts skills list safely from strings or dictionary objects."""
-    skills = []
-
-    def process_skill(s: Any):
-        if isinstance(s, str) and s.strip():
-            skills.append(s.strip())
-        elif isinstance(s, dict):
-            val = s.get("name") or s.get("title") or s.get("id")
-            if isinstance(val, str) and val.strip():
-                skills.append(val.strip())
-
-    raw_skills = (
-        item.get("skills")
-        or (item.get("badge_template", {}).get("skills") if isinstance(item.get("badge_template"), dict) else None)
-        or (item.get("badge_class", {}).get("skills") if isinstance(item.get("badge_class"), dict) else None)
-        or (item.get("badge", {}).get("skills") if isinstance(item.get("badge"), dict) else None)
-    )
-
-    if isinstance(raw_skills, list):
-        for s in raw_skills:
-            process_skill(s)
-    elif isinstance(raw_skills, str):
-        skills.append(raw_skills.strip())
-
-    return list(dict.fromkeys(skills))
-
-
-def fetch_native_badges(username: str) -> list[dict[str, Any]]:
-    """Fetches native Credly badges across all pages."""
+def fetch_native_badges(username: str) -> List[dict]:
     badges = []
     page = 1
-
-    logger.info(f"🔄 Starting native badge fetch for user '{username}'...")
+    logger.info(f"🔄 Starting Credly Native API fetch for user '{username}'...")
 
     while True:
         url = f"https://www.credly.com/users/{username}/badges.json"
@@ -323,21 +310,22 @@ def fetch_native_badges(username: str) -> list[dict[str, Any]]:
 
             raw_badges = data.get("data", [])
             if not raw_badges:
-                logger.info(f"  No more native badges found on page {page}.")
                 break
 
-            logger.info(f"  Page {page}: Retrieved {len(raw_badges)} native badges.")
+            logger.info(f"  Page {page}: Fetched {len(raw_badges)} native badges.")
 
-            for badge in raw_badges:
-                title = extract_title(badge)
-                issuer_name = extract_issuer(badge)
-                issued_at = extract_date(badge)
-                verify_url = extract_verify_url(badge)
-                skills = extract_skills(badge)
-                badge_id = badge.get("id")
+            for item in raw_badges:
+                badge_id = item.get("id") or f"native-{len(badges)+1}"
+                title = extract_title(item)
+                issuer_name = extract_issuer(item)
+                issued_at = item.get("issued_at_date") or item.get("issued_at") or item.get("created_at")
+                verify_url = extract_verify_url(item)
 
-                parsed_badge = {
-                    "id": badge_id,
+                skills_raw = item.get("skills") or (item.get("badge_template", {}).get("skills") if isinstance(item.get("badge_template"), dict) else [])
+                image_url = item.get("image_url") or (item.get("badge_template", {}).get("image_url") if isinstance(item.get("badge_template"), dict) else None)
+
+                raw_entry = {
+                    "id": str(badge_id),
                     "title": title,
                     "name": title,
                     "issuer": issuer_name,
@@ -345,51 +333,46 @@ def fetch_native_badges(username: str) -> list[dict[str, Any]]:
                     "issued_at": issued_at,
                     "issued_at_date": issued_at,
                     "date": issued_at,
-                    "expires_at": normalize_date(badge.get("expires_at_date") or badge.get("expires_at")),
-                    "image_url": badge.get("image_url") or (badge.get("badge_template", {}).get("image_url") if isinstance(badge.get("badge_template"), dict) else None),
+                    "expires_at": item.get("expires_at_date") or item.get("expires_at"),
+                    "image_url": image_url,
                     "verify_url": verify_url,
                     "url": verify_url,
                     "type": "Credly Verified",
                     "verification_type": "Credly Verified",
-                    "skills": skills,
+                    "skills": skills_raw,
                 }
-                badges.append(parsed_badge)
+
+                # Validate individually via Pydantic model
+                try:
+                    validated_model = BadgeItemModel(**raw_entry)
+                    badges.append(validated_model.model_dump())
+                except ValidationError as ve:
+                    logger.warning(f"⚠️ Anomaly Guard: Skipping malformed native badge payload: {ve}")
 
             metadata = data.get("metadata", {})
             total_pages = metadata.get("total_pages")
-            if total_pages is not None:
-                if page >= total_pages:
-                    break
-            else:
-                if len(raw_badges) == 0:
-                    break
-
+            if total_pages is not None and page >= total_pages:
+                break
             page += 1
 
         except requests.exceptions.RequestException as e:
-            logger.error(f"❌ Failed to fetch native badges on page {page}: {e}")
+            logger.error(f"❌ Failed native badge request on page {page}: {e}")
             break
 
-    logger.info(f"✅ Finished native badge fetch: {len(badges)} native badges total across {page} page(s).")
     return badges
 
 
-def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
-    """Fetches public external/imported Open Badges from Credly endpoint."""
+def fetch_external_badges(user_id: str) -> List[dict]:
     url = f"https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public"
-    logger.info("🔄 Fetching external open badges from public endpoint...")
+    logger.info("🔄 Fetching External Open Badges API endpoint...")
 
     try:
         response = requests.get(url, headers=HEADERS, timeout=30)
         response.raise_for_status()
         data = response.json()
 
-        raw_external = (
-            data.get("data", [])
-            if isinstance(data, dict)
-            else (data if isinstance(data, list) else [])
-        )
-        logger.info(f"  Retrieved {len(raw_external)} external open badges.")
+        raw_external = data.get("data", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
+        logger.info(f"  Fetched {len(raw_external)} external open badges.")
 
         parsed_external = []
         for item in raw_external:
@@ -397,109 +380,54 @@ def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
                 continue
 
             ext_badge = item.get("external_badge") or {}
-            
-            title = (
-                ext_badge.get("badge_name")
-                or ext_badge.get("name")
-                or item.get("title")
-                or "External Credential"
-            )
-            
-            issuer_name = (
-                ext_badge.get("issuer_name")
-                or item.get("issuer_name")
-                or "External Issuer"
-            )
-
-            issued_at = (
-                ext_badge.get("issued_at_date")
-                or ext_badge.get("issued_at")
-                or item.get("issued_at")
-            )
-            normalized_date = normalize_date(issued_at)
-
-            expires_at = normalize_date(
-                ext_badge.get("expires_at_date") or ext_badge.get("expires_at")
-            )
-
-            verify_url = (
-                ext_badge.get("badge_url")
-                or ext_badge.get("badge_id")
-                or item.get("verify_url")
-            )
-
-            image_url = ext_badge.get("image_url") or item.get("image_url")
-            badge_id = item.get("id") or ext_badge.get("credly_record_id")
+            badge_id = item.get("id") or ext_badge.get("credly_record_id") or f"ext-{len(parsed_external)+1}"
+            title = ext_badge.get("badge_name") or ext_badge.get("name") or item.get("title") or "External Credential"
+            issuer_name = ext_badge.get("issuer_name") or item.get("issuer_name") or "External Issuer"
+            issued_at = ext_badge.get("issued_at_date") or ext_badge.get("issued_at") or item.get("issued_at")
+            expires_at = ext_badge.get("expires_at_date") or ext_badge.get("expires_at")
+            verify_url = ext_badge.get("badge_url") or ext_badge.get("badge_id") or item.get("verify_url")
 
             skills_raw = ext_badge.get("skills", []) or item.get("skills", [])
-            skills = [s.get("name") for s in skills_raw if isinstance(s, dict) and s.get("name")]
 
-            parsed_external.append({
-                "id": badge_id,
+            raw_entry = {
+                "id": str(badge_id),
                 "title": title,
                 "name": title,
                 "issuer": issuer_name,
                 "issuer_name": issuer_name,
-                "issued_at": normalized_date,
-                "issued_at_date": normalized_date,
-                "date": normalized_date,
+                "issued_at": issued_at,
+                "issued_at_date": issued_at,
+                "date": issued_at,
                 "expires_at": expires_at,
-                "image_url": image_url,
+                "image_url": ext_badge.get("image_url") or item.get("image_url"),
                 "verify_url": verify_url,
                 "url": verify_url,
                 "type": "External/Imported",
                 "verification_type": "External/Imported",
-                "skills": skills,
-            })
+                "skills": skills_raw,
+            }
 
-        logger.info(f"✅ Successfully parsed {len(parsed_external)} external badges.")
+            try:
+                validated_model = BadgeItemModel(**raw_entry)
+                parsed_external.append(validated_model.model_dump())
+            except ValidationError as ve:
+                logger.warning(f"⚠️ Anomaly Guard: Skipping malformed external badge entry: {ve}")
+
         return parsed_external
 
     except requests.exceptions.RequestException as e:
-        logger.warning(f"⚠️ Warning: Failed to fetch external badges: {e}")
+        logger.warning(f"⚠️ Warning: Could not fetch external badges: {e}")
         return []
 
 
-def merge_and_save_badges(
-    native_badges: list[dict[str, Any]],
-    external_badges: list[dict[str, Any]],
-    output_filepath: str,
-) -> list[dict[str, Any]]:
-    """Combines native and external badges, deduplicates, and saves JSON."""
-    all_badges = native_badges + external_badges
+# ==============================================================================
+# ARCHIVE BUILDER & README GENERATION
+# ==============================================================================
 
-    unique_badges = []
-    seen = set()
-
-    for badge in all_badges:
-        key = badge.get("id") or f"{badge.get('title')}-{badge.get('issuer')}"
-        if key not in seen:
-            seen.add(key)
-            unique_badges.append(badge)
-
-    payload = {
-        "user_username": CREDLY_USERNAME,
-        "user_id": CREDLY_USER_ID,
-        "total_count": len(unique_badges),
-        "native_count": len(native_badges),
-        "external_count": len(external_badges),
-        "badges": unique_badges,
-    }
-
-    try:
-        with open(output_filepath, "w", encoding="utf-8") as f:
-            json.dump(payload, f, indent=2, ensure_ascii=False)
-        logger.info(f"🎉 Output written to '{output_filepath}' ({len(unique_badges)} total badges).")
-    except OSError as e:
-        logger.error(f"❌ Failed to write output file '{output_filepath}': {e}")
-
-    return unique_badges
-
-
-def build_archives_and_readme(badges: list[dict[str, Any]]) -> None:
-    """Generates markdown archive files and updates README.md via archiver helper."""
+def build_archives_and_readme(badges: List[dict]) -> None:
+    """Invokes archiver to generate markdown chunk files and update README.md."""
     if not generate_platform_archive:
-        logger.error("❌ Archiver module could not be imported. Please verify archiver.py exists.")
+        logger.error("❌ Archiver module helper not available. Skipping markdown generation.")
         return
 
     sorted_badges = sorted(
@@ -508,7 +436,7 @@ def build_archives_and_readme(badges: list[dict[str, Any]]) -> None:
         reverse=True,
     )
 
-    all_skills = set()
+    all_skills: Set[str] = set()
     formatted_rows = []
 
     for b in sorted_badges:
@@ -535,6 +463,10 @@ def build_archives_and_readme(badges: list[dict[str, Any]]) -> None:
     total_count = len(sorted_badges)
     total_skills = len(all_skills)
 
+    now_ym = datetime.now(timezone.utc).strftime("%Y-%m")
+    index_raw = f"{RAW_BASE_DEFAULT}/credly-badges-index.md"
+    part1_raw = f"{RAW_BASE_DEFAULT}/credly-badges-{now_ym}-part-01.md"
+
     marker_start = "<!-- CREDLY_START -->"
     marker_end = "<!-- CREDLY_END -->"
     if os.path.exists("README.md"):
@@ -555,7 +487,7 @@ def build_archives_and_readme(badges: list[dict[str, Any]]) -> None:
         "",
         "#### Latest Earned Credentials",
         "",
-        f"Showing latest 10 of {total_count} credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).",
+        f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({part1_raw}), or [Monolithic File](./archives/credly-badges-complete.md).",
         "",
         "| Date Earned | Credential Name | Issuer | Verification Type |",
         "| :---: | :--- | :--- | :---: |",
@@ -564,30 +496,67 @@ def build_archives_and_readme(badges: list[dict[str, Any]]) -> None:
     for row_text, _ in formatted_rows[:10]:
         readme_lines.append(row_text)
 
-    headers = ["Date Earned", "Credential Name", "Issuer", "Verification Type"]
-    alignments = [":---:", ":---", ":---", ":---:"]
-
-    logger.info("🔄 Generating archive files and updating README.md...")
     generate_platform_archive(
         platform_prefix="credly-badges",
         platform_name="Credly Verified Credentials",
-        table_headers=headers,
-        table_alignments=alignments,
+        table_headers=["Date Earned", "Credential Name", "Issuer", "Verification Type"],
+        table_alignments=[":---:", ":---", ":---", ":---:"],
         formatted_rows=formatted_rows,
         readme_lines=readme_lines,
         marker_start=marker_start,
         marker_end=marker_end,
     )
-    logger.info("✅ Archives and README.md updated successfully.")
 
+
+# ==============================================================================
+# PIPELINE ORCHESTRATOR
+# ==============================================================================
 
 def main():
-    logger.info("Starting Credly Sync Script...")
+    logger.info("Starting Credly API Pipeline with Pydantic & Loss Guards...")
+
     native_badges = fetch_native_badges(CREDLY_USERNAME)
     external_badges = fetch_external_badges(CREDLY_USER_ID)
-    unique_badges = merge_and_save_badges(native_badges, external_badges, OUTPUT_FILE)
+
+    all_raw = native_badges + external_badges
+    unique_badges = []
+    seen = set()
+
+    for badge in all_raw:
+        dedup_key = badge.get("id") or f"{badge.get('title')}-{badge.get('issuer')}"
+        if dedup_key not in seen:
+            seen.add(dedup_key)
+            unique_badges.append(badge)
+
+    # 1. Execute Data Loss Guard prior to file modification
+    try:
+        execute_data_loss_guard(unique_badges, OUTPUT_FILE)
+    except PipelineDataLossAnomaly as anomaly_err:
+        logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+        sys.exit(1)
+
+    # 2. Validate Root Payload with Pydantic Schema
+    payload_dict = {
+        "user_username": CREDLY_USERNAME,
+        "user_id": CREDLY_USER_ID,
+        "total_count": len(unique_badges),
+        "native_count": len(native_badges),
+        "external_count": len(external_badges),
+        "badges": unique_badges,
+    }
+
+    try:
+        validated_payload = CredlyArchivePayloadModel(**payload_dict)
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            f.write(validated_payload.model_dump_json(indent=2))
+        logger.info(f"🎉 Persistence complete: '{OUTPUT_FILE}' updated safely ({len(unique_badges)} badges).")
+    except ValidationError as ve:
+        logger.error(f"❌ Root Payload Validation Error: {ve}")
+        sys.exit(1)
+
+    # 3. Generate Archives and Update README
     build_archives_and_readme(unique_badges)
-    logger.info("Sync completed successfully.")
+    logger.info("Pipeline execution completed successfully.")
 
 
 if __name__ == "__main__":
