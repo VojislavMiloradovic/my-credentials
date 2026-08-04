@@ -83,6 +83,17 @@ Public Profile: [Verify AWS Skill Builder Profile](https://skillsprofile.skillbu
 **Total Portfolio Credentials:** 500
 **Total Verified Skills Mapped:** 498
 
+#### AWS Cloud Quest Summary
+
+| Metric | Value |
+| :--- | :--- |
+| **Role** | Cloud Practitioner / Generative AI Practitioner |
+| **Builder Level** | 12 |
+| **Reputation Level** | 95 |
+| **Total Solutions Built** | 20 |
+| **Pets Unlocked** | 17 |
+| **Vehicles Unlocked** | 2 |
+
 #### Latest Earned Credentials
 
 Showing latest 10 of 500 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-01.md), or [Monolithic File](./archives/aws-skills-complete.md).
