@@ -12,7 +12,7 @@ import os
 import re
 import sys
 from datetime import datetime, timezone
-from typing import Any, Optional
+from typing import Any
 
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
@@ -57,7 +57,7 @@ def format_num(val: Any) -> str:
         return str(val) if val is not None else "0"
 
 
-def format_verify_url(raw_url: Optional[str]) -> str:
+def format_verify_url(raw_url: str | None) -> str:
     """Ensures verification links use complete, localized Microsoft Learn URLs."""
     if not raw_url or not isinstance(raw_url, str):
         return ""
@@ -74,7 +74,7 @@ def format_verify_url(raw_url: Optional[str]) -> str:
     return clean
 
 
-def clean_uid(uid: Optional[str]) -> str:
+def clean_uid(uid: str | None) -> str:
     """Cleans up internal source UIDs into readable titles."""
     if not uid:
         return ""
@@ -146,7 +146,7 @@ class MSAchievementModel(BaseModel):
     title: str = Field("Completed Module", min_length=1)
     category: str = Field("module")
     grantedOn: str = Field("N/A")
-    url: Optional[str] = Field(None)
+    url: str | None = Field(None)
 
     @field_validator("grantedOn", mode="before")
     @classmethod
