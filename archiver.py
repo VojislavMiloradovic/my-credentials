@@ -1,8 +1,27 @@
 import glob
 import os
 from datetime import datetime, timezone
+import tiktoken
 
 RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
+
+_ENCODER = None
+
+
+def count_tokens(text: str, encoding_name: str = "cl100k_base") -> int:
+    """Calculates exact token counts using tiktoken (cl100k_base),
+
+    falling back to character estimation if tiktoken is unavailable.
+    """
+    global _ENCODER
+    if not text:
+        return 0
+    try:
+        if _ENCODER is None:
+            _ENCODER = tiktoken.get_encoding(encoding_name)
+        return len(_ENCODER.encode(text))
+    except Exception:
+        return len(text) // 4
 
 
 def clean_old_chunks(archive_dir: str, platform_prefix: str) -> None:
@@ -68,8 +87,9 @@ def generate_platform_archive(
 
     archive_md.append(f"\n\n[← Back to Index](./{platform_prefix}-index.md) | [← README](../README.md)\n")
 
+    monolith_text = "".join(archive_md)
     with open(monolith_path, "w", encoding="utf-8") as f:
-        f.write("".join(archive_md))
+        f.write(monolith_text)
 
     # 2. Chunking Logic (~10 KB limit per file)
     chunks = []
@@ -134,13 +154,13 @@ def generate_platform_archive(
             f.write(content)
 
         file_size_kb = round(len(content.encode("utf-8")) / 1024, 2)
-        est_tokens = int(len(content) / 4)
+        exact_tokens = count_tokens(content)
         chunk_meta.append({
             "filename": chunk_filename,
             "part": i,
             "date_range": f"{start_date} to {end_date}",
             "size_kb": file_size_kb,
-            "tokens": est_tokens,
+            "tokens": exact_tokens,
             "entries": len(chunk_rows),
             "raw_url": f"{raw_base_url}/{chunk_filename}",
         })
@@ -151,27 +171,27 @@ def generate_platform_archive(
 
     mono_bytes = os.path.getsize(monolith_path) if os.path.exists(monolith_path) else 0
     mono_kb = round(mono_bytes / 1024, 2)
-    mono_tokens = int(mono_bytes / 4)
+    mono_tokens = count_tokens(monolith_text)
 
     idx_md = [
         f"# {platform_name} Index\n",
         f"This directory provides chunked, AI-readable historical records for {platform_name}.\n",
         "## Archive Overview\n",
         f"- **Total Records Archived:** {total_entries}",
-        f"- **Monolithic File Size:** ~{mono_kb} KB (~{mono_tokens:,} tokens)",
+        f"- **Monolithic File Size:** ~{mono_kb} KB ({mono_tokens:,} tokens)",
         f"- **Total Chunk Parts:** {total_chunks} chunk(s)\n",
         "### Monolithic Archive (Complete)\n",
-        "| File Name | Size (KB) | Est. Tokens | Recommended For | Direct Raw URL |",
+        "| File Name | Size (KB) | Tokens | Recommended For | Direct Raw URL |",
         "| :--- | :---: | :---: | :--- | :--- |",
-        f"| [`{monolith_filename}`](./{monolith_filename}) | {mono_kb} KB | ~{mono_tokens:,} | Large Context Windows (>100k tokens) | [Raw Link]({raw_base_url}/{monolith_filename}) |\n",
+        f"| [`{monolith_filename}`](./{monolith_filename}) | {mono_kb} KB | {mono_tokens:,} | Large Context Windows (>100k tokens) | [Raw Link]({raw_base_url}/{monolith_filename}) |\n",
         "### Chunked Archive Parts (~10 KB Slices)\n",
-        "| Part | File Name | Date Range | Entries | Size (KB) | Est. Tokens | Direct Raw URL |",
+        "| Part | File Name | Date Range | Entries | Size (KB) | Tokens | Direct Raw URL |",
         "| :---: | :--- | :---: | :---: | :---: | :---: | :--- |",
     ]
 
     for cm in chunk_meta:
         idx_md.append(
-            f"| Part {cm['part']:02d} | [`{cm['filename']}`](./{cm['filename']}) | `{cm['date_range']}` | {cm['entries']} | {cm['size_kb']} KB | ~{cm['tokens']} | [Raw URL]({cm['raw_url']}) |"
+            f"| Part {cm['part']:02d} | [`{cm['filename']}`](./{cm['filename']}) | `{cm['date_range']}` | {cm['entries']} | {cm['size_kb']} KB | {cm['tokens']:,} | [Raw URL]({cm['raw_url']}) |"
         )
 
     idx_md.append("\n\n[← Back to Main README](../README.md)\n")
