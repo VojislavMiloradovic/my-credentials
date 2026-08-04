@@ -121,7 +121,7 @@ Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmil
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 494 credentials. View the full dataset via the [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-01.md), or the [Monolithic Complete File](./archives/credly-badges-complete.md).
+Showing latest 10 of 494 credentials. View full dataset via [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-01.md), or [Monolithic File](./archives/credly-badges-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
