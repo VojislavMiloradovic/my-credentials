@@ -217,35 +217,67 @@ def parse_badges_from_html(html_content: str, profile_id: str) -> list[dict]:
     badge_cards = (
         soup.select(".public-profile-badge")
         or soup.select(".profile-badge")
-        or soup.select(".badge-item")
         or soup.select(".ql-badge")
-        or soup.find_all("div", class_=lambda c: c and "badge" in c.lower())
+        or soup.select(".badge-item")
+        or soup.find_all(
+            "div",
+            class_=lambda c: c
+            and "badge" in c.lower()
+            and "grid" not in c.lower()
+            and "container" not in c.lower(),
+        )
     )
 
     logger.info(f"  Extracted {len(badge_cards)} raw badge elements from profile HTML.")
     public_profile_url = f"https://www.skills.google/public_profiles/{profile_id}"
 
     for card in badge_cards:
-        # Robust title selector strategy across Cloud Skills Boost / Google Skills templates
+        title = None
+        raw_date = None
+
+        # Strategy 1: Explicit CSS Selectors for Title
         title_elem = (
             card.select_one(".public-profile-badge__name")
             or card.select_one(".badge-name")
             or card.select_one(".ql-subhead-1")
             or card.select_one(".ql-title")
-            or card.select_one("h3, h4, a.ql-subhead-1, .title")
+            or card.select_one("h3")
+            or card.select_one("h4")
+            or card.select_one("a.ql-subhead-1")
         )
-        title = title_elem.get_text(strip=True) if title_elem else None
-        
-        # Fallback: if card itself is or contains text anchor
-        if not title:
-            a_tag = card.find("a")
-            if a_tag and a_tag.get_text(strip=True):
-                title = a_tag.get_text(strip=True)
+        if title_elem:
+            title = title_elem.get_text(strip=True)
+
+        # Extract all clean lines of text inside card for fallbacks
+        lines = [
+            line.strip()
+            for line in card.get_text(separator="\n").split("\n")
+            if line.strip()
+        ]
+
+        # Strategy 2: Text Line Fallback for Title
+        if not title and lines:
+            for line in lines:
+                line_lower = line.lower()
+                if not any(
+                    k in line_lower
+                    for k in [
+                        "earned",
+                        "completed",
+                        "est",
+                        "edt",
+                        "badge",
+                        "format_quote",
+                        "share",
+                    ]
+                ):
+                    title = line
+                    break
 
         if not title:
             continue
 
-        # Extract Earned Date
+        # Extract Date
         date_elem = (
             card.select_one(".public-profile-badge__date")
             or card.select_one(".badge-date")
@@ -253,20 +285,42 @@ def parse_badges_from_html(html_content: str, profile_id: str) -> list[dict]:
             or card.select_one(".ql-date")
             or card.select_one("span.date")
         )
-        raw_date = date_elem.get_text(strip=True) if date_elem else None
-        if raw_date and ("earned" in raw_date.lower() or "completed" in raw_date.lower()):
-            raw_date = (
-                raw_date.replace("Earned", "")
-                .replace("Completed", "")
-                .replace("EST", "")
-                .strip()
-            )
+        if date_elem:
+            raw_date = date_elem.get_text(strip=True)
+        else:
+            for line in lines:
+                line_lower = line.lower()
+                if any(
+                    k in line_lower
+                    for k in [
+                        "earned",
+                        "completed",
+                        "jan",
+                        "feb",
+                        "mar",
+                        "apr",
+                        "may",
+                        "jun",
+                        "jul",
+                        "aug",
+                        "sep",
+                        "oct",
+                        "nov",
+                        "dec",
+                    ]
+                ):
+                    raw_date = line
+                    break
+
+        if raw_date:
+            for keyword in ["Earned", "Completed", "EST", "EDT", "PST", "PDT"]:
+                raw_date = raw_date.replace(keyword, "").strip()
 
         # Extract Image URL
         img_elem = card.find("img")
         image_url = img_elem.get("src") if img_elem else None
 
-        # Extract Link / Verification URL
+        # Extract Verification Link
         link_elem = card.find("a")
         verify_url = link_elem.get("href") if link_elem else public_profile_url
         if verify_url and verify_url.startswith("/"):
@@ -295,7 +349,9 @@ def parse_badges_from_html(html_content: str, profile_id: str) -> list[dict]:
             validated_model = GoogleBadgeItemModel(**raw_entry)
             badges.append(validated_model.model_dump())
         except ValidationError as ve:
-            logger.warning(f"⚠️ Anomaly Guard: Skipping malformed Google Skills badge entry: {ve}")
+            logger.warning(
+                f"⚠️ Anomaly Guard: Skipping malformed Google Skills badge entry: {ve}"
+            )
 
     return badges
 
