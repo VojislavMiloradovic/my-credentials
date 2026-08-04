@@ -1,5 +1,6 @@
 import glob
 import os
+import re
 from datetime import datetime, timezone
 
 RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
@@ -36,7 +37,13 @@ def generate_platform_archive(
     os.makedirs(archive_dir, exist_ok=True)
     clean_old_chunks(archive_dir, platform_prefix)
 
-    total_entries = len(formatted_rows)
+    # Sanitize and ensure row texts are clean single-line table rows
+    sanitized_formatted_rows = []
+    for r_text, r_date in formatted_rows:
+        clean_text = r_text.replace("\r", "").replace("\n", " ").strip()
+        sanitized_formatted_rows.append((clean_text, r_date))
+
+    total_entries = len(sanitized_formatted_rows)
     now_ym = datetime.now(timezone.utc).strftime("%Y-%m")
 
     # 1. Monolithic Complete File
@@ -57,7 +64,7 @@ def generate_platform_archive(
     archive_md.append("## Verified Records Archive\n\n")
     archive_md.append(f"{header_line}\n{align_line}\n")
 
-    for row_text, _ in formatted_rows:
+    for row_text, _ in sanitized_formatted_rows:
         archive_md.append(f"{row_text}\n")
 
     archive_md.append(f"\n\n[← Back to Index](./{platform_prefix}-index.md) | [← README](../README.md)\n")
@@ -71,7 +78,7 @@ def generate_platform_archive(
     current_chunk_bytes = 0
     MAX_BYTES = 9500
 
-    for row_text, row_date in formatted_rows:
+    for row_text, row_date in sanitized_formatted_rows:
         row_len = len(row_text.encode("utf-8"))
         if current_chunk_bytes + row_len > MAX_BYTES and current_chunk_rows:
             chunks.append(current_chunk_rows)
