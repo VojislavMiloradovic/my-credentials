@@ -1,24 +1,24 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-08-04 16:08 UTC
+> **Last Generated:** 2026-08-04 16:26 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
 - **Microsoft Learn**: 35,519 completed units | 4,794 total achievements | 5,977,950 XP
-- **Google Cloud Skills**: 340 badges
-- **AWS Skill Builder**: 500 completed courses/activities
+- **Google Cloud Skills**: [unavailable] badges
+- **AWS Skill Builder**: 0 completed courses/activities
 - **Credly**: 494 credentials
 - **LinkedIn**: 1,297 verified external certifications
 - **Google Developer**: 171 milestone badges | 1,446 codelabs & activities
 
 ## Domain Focus & Skill Taxonomy
-Dynamic classification of ~9,377 parsed portfolio achievements across 5 primary tech domains:
+Dynamic classification of ~8,537 parsed portfolio achievements across 5 primary tech domains:
 
-- **🤖 AI, Machine Learning & Data**: 3,087 achievements (32.9%)
-- **🛡️ DevOps, Security & Governance**: 1,081 achievements (11.5%)
-- **☁️ Cloud & Infrastructure**: 1,186 achievements (12.6%)
-- **💻 App Engineering & Software Development**: 1,296 achievements (13.8%)
-- **👔 Enterprise & Professional Development**: 2,727 achievements (29.1%)
+- **🤖 AI, Machine Learning & Data**: 2,788 achievements (32.7%)
+- **🛡️ DevOps, Security & Governance**: 1,011 achievements (11.8%)
+- **☁️ Cloud & Infrastructure**: 955 achievements (11.2%)
+- **💻 App Engineering & Software Development**: 1,276 achievements (14.9%)
+- **👔 Enterprise & Professional Development**: 2,507 achievements (29.4%)
 
 ## Platform Master Indexes
 Use these index files to navigate chunked historical records without exceeding context limits.
@@ -33,9 +33,9 @@ Use these index files to navigate chunked historical records without exceeding c
 ## Complete Monolithic Datasets
 Recommended for models with large context windows (>100k tokens).
 
-- [Aws Skills Complete](./archives/aws-skills-complete.md): Full dataset (~45.42 KB, ~13,016 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
+- [Aws Skills Complete](./archives/aws-skills-complete.md): Full dataset (~0.31 KB, ~80 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
 - [Credly Badges Complete](./archives/credly-badges-complete.md): Full dataset (~84.62 KB, ~32,129 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-complete.md
-- [Google Cloud Skills Complete](./archives/google-cloud-skills-complete.md): Full dataset (~21.83 KB, ~7,021 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-complete.md
+- [Google Cloud Skills Complete](./archives/google-cloud-skills-complete.md): Full dataset (~0.0 KB, ~0 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-complete.md
 - [Google Developer Complete](./archives/google-developer-complete.md): Full dataset (~229.7 KB, ~53,753 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md
 - [Linkedin Certifications Complete](./archives/linkedin-certifications-complete.md): Full dataset (~265.0 KB, ~92,467 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md
 - [Microsoft Learn Complete](./archives/microsoft-learn-complete.md): Full dataset (~852.25 KB, ~213,241 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
@@ -43,9 +43,7 @@ Recommended for models with large context windows (>100k tokens).
 ## Latest Chunked Slices (~10 KB per slice)
 Optimized for lower-capacity context tools or fast targeted queries.
 
-- [Aws Skills Latest Slice](./archives/aws-skills-2026-03-part-01.md): Most recent achievements for Aws Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-01.md
 - [Credly Badges Latest Slice](./archives/credly-badges-2026-04-part-01.md): Most recent achievements for Credly Badges. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-04-part-01.md
-- [Google Cloud Skills Latest Slice](./archives/google-cloud-skills-2026-01-part-01.md): Most recent achievements for Google Cloud Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-01-part-01.md
 - [Google Developer Activities Latest Slice](./archives/google-developer-activities-2026-05-part-01.md): Most recent achievements for Google Developer Activities. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-05-part-01.md
 - [Google Developer Badges Latest Slice](./archives/google-developer-badges-2026-06-part-01.md): Most recent achievements for Google Developer Badges. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-06-part-01.md
 - [Linkedin Certifications Latest Slice](./archives/linkedin-certifications-2025-12-part-01.md): Most recent achievements for Linkedin Certifications. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2025-12-part-01.md

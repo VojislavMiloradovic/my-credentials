@@ -75,28 +75,20 @@ Showing latest 10 of 335 credentials. View full dataset via [Platform Archive In
 ## Amazon Web Services Credentials
 
 <!-- AWS_SKILLS_START -->
-### AWS Skill Builder Summary
-- **Total Completed Courses/Activities:** 500
+### AWS Skill Builder Credentials
 
-### AWS Cloud Quest Status
-- **Role:** Cloud Practitioner / Generative AI Practitioner
-- **Builder Level:** 12 | **Reputation Level:** 95
-- **Total Solutions Built:** 20
-- **Pets Unlocked:** 17 | **Vehicles Unlocked:** 2
+[AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
-### Recent AWS Learning Activities
-Showing latest 10 of 500 activities. View the full dataset via the [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-01.md), or the [Monolithic Complete File](./archives/aws-skills-complete.md).
+Public Profile: [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
+**Total Portfolio Credentials:** 0
+**Total Verified Skills Mapped:** 0
 
-- **Amazon Quick: Accelerating the path from enterprise data to AI-powered decisions** (Digital Course | Earned: 2026-08-03)
-- **Amazon WorkSpaces Migrations - Migration Approaches & Strategy** (Digital Course | Earned: 2026-08-03)
-- **Build an intelligent photo search using Amazon Rekognition, Amazon Neptune, and Amazon Bedrock** (Digital Course | Earned: 2026-08-03)
-- **Build with Amazon FSx for OpenZFS** (Digital Course | Earned: 2026-08-03)
-- **Configuring and Deploying VPCs with Multiple Subnets** (Digital Course | Earned: 2026-08-03)
-- **Malware analysis on AWS: Setting up a secure environment** (Digital Course | Earned: 2026-08-03)
-- **[RETIRING - 2026-08-03] Introduction to Autonomous Driving Data Framework (ADDF) on AWS** (Digital Course | Earned: 2026-08-02)
-- **AI Agent Guardrails for Production on AWS | Databases for AI** (Digital Course | Earned: 2026-08-02)
-- **Amazon Connect AI Customer Engagement** (Digital Course | Earned: 2026-08-02)
-- **Amazon Connect APIs Intermediate** (Digital Course | Earned: 2026-08-02)
+#### Latest Earned Credentials
+
+Showing latest 10 of 0 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-01.md), or [Monolithic File](./archives/aws-skills-complete.md).
+
+| Date Earned | Credential Name | Issuer | Verification Type |
+| :---: | :--- | :--- | :---: |
 <!-- AWS_SKILLS_END -->
 
 
