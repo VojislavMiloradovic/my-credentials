@@ -1,5 +1,6 @@
 import glob
 import os
+import re
 from datetime import datetime, timezone
 
 import tiktoken
@@ -11,7 +12,6 @@ _ENCODER = None
 
 def count_tokens(text: str, encoding_name: str = "cl100k_base") -> int:
     """Calculates exact token counts using tiktoken (cl100k_base),
-
     falling back to character estimation if tiktoken is unavailable.
     """
     global _ENCODER
@@ -25,14 +25,49 @@ def count_tokens(text: str, encoding_name: str = "cl100k_base") -> int:
         return len(text) // 4
 
 
-def clean_old_chunks(archive_dir: str, platform_prefix: str) -> None:
-    """Removes existing slice files for a given platform prefix."""
-    pattern = os.path.join(archive_dir, f"{platform_prefix}-*-part-*.md")
-    for f in glob.glob(pattern):
+def safe_write_file(filepath: str, new_content: str) -> bool:
+    """Writes content to filepath only if content has changed.
+
+    Prevents unnecessary mtime updates and git diff noise.
+    Returns True if file was written/updated, False if skipped.
+    """
+    if os.path.exists(filepath):
         try:
-            os.remove(f)
-        except OSError:
+            with open(filepath, "r", encoding="utf-8") as f:
+                if f.read() == new_content:
+                    return False
+        except Exception:
             pass
+
+    with open(filepath, "w", encoding="utf-8", newline="\n") as f:
+        f.write(new_content)
+    return True
+
+
+def clean_orphaned_chunks(archive_dir: str, platform_prefix: str, active_filenames: set[str]) -> None:
+    """Removes slice files for a platform that are no longer active chunks."""
+    pattern = os.path.join(archive_dir, f"{platform_prefix}-*-part-*.md")
+    for filepath in glob.glob(pattern):
+        filename = os.path.basename(filepath)
+        if filename not in active_filenames:
+            try:
+                os.remove(filepath)
+                print(f"  🗑️  Removed orphaned chunk: {filename}")
+            except OSError as e:
+                print(f"  ⚠️  Failed to remove orphaned chunk {filename}: {e}")
+
+
+def _extract_ym(date_str: str, default_ym: str) -> str:
+    """Extracts YYYY-MM prefix from a date string, falling back to default_ym."""
+    if not date_str:
+        return default_ym
+    m = re.match(r"^(\d{4}-\d{2})", date_str.strip())
+    if m:
+        return m.group(1)
+    m_yr = re.match(r"^(\d{4})", date_str.strip())
+    if m_yr:
+        return f"{m_yr.group(1)}-01"
+    return default_ym
 
 
 def generate_platform_archive(
@@ -50,11 +85,10 @@ def generate_platform_archive(
     extra_monolith_header_md: str = "",
 ) -> None:
     """Generates monolithic archive, ~10KB slice archives, platform index,
-
-    and updates README markers cleanly.
+    and updates README markers cleanly with stable chunking, write guards, and run logging.
     """
+    print(f"\n📦 Processing platform archive: {platform_name} ({platform_prefix})")
     os.makedirs(archive_dir, exist_ok=True)
-    clean_old_chunks(archive_dir, platform_prefix)
 
     # Sanitize and ensure row texts are clean single-line table rows
     sanitized_formatted_rows = []
@@ -89,44 +123,72 @@ def generate_platform_archive(
     archive_md.append(f"\n\n[← Back to Index](./{platform_prefix}-index.md) | [← README](../README.md)\n")
 
     monolith_text = "".join(archive_md)
-    with open(monolith_path, "w", encoding="utf-8") as f:
-        f.write(monolith_text)
+    mono_written = safe_write_file(monolith_path, monolith_text)
 
-    # 2. Chunking Logic (~10 KB limit per file)
-    chunks = []
+    mono_bytes = os.path.getsize(monolith_path) if os.path.exists(monolith_path) else 0
+    mono_kb = round(mono_bytes / 1024, 2)
+    mono_tokens = count_tokens(monolith_text)
+
+    mono_status = "✍️  Updated" if mono_written else "⏭️  Unchanged"
+    print(f"  {mono_status} monolith: {monolith_filename} ({mono_kb} KB | {mono_tokens:,} tokens | {total_entries} records)")
+
+    # 2. Stable Chunking Logic (~10 KB limit per file)
+    oldest_to_newest = sanitized_formatted_rows[::-1]
+    raw_chunks_old_to_new = []
     current_chunk_rows = []
     current_chunk_bytes = 0
     MAX_BYTES = 9500
 
-    for row_text, row_date in sanitized_formatted_rows:
+    for row_text, row_date in oldest_to_newest:
         row_len = len(row_text.encode("utf-8"))
         if current_chunk_bytes + row_len > MAX_BYTES and current_chunk_rows:
-            chunks.append(current_chunk_rows)
+            raw_chunks_old_to_new.append(current_chunk_rows)
             current_chunk_rows = []
             current_chunk_bytes = 0
         current_chunk_rows.append((row_text, row_date))
         current_chunk_bytes += row_len
 
     if current_chunk_rows:
-        chunks.append(current_chunk_rows)
+        raw_chunks_old_to_new.append(current_chunk_rows)
 
-    total_chunks = len(chunks)
+    raw_chunks_new_to_old = raw_chunks_old_to_new[::-1]
+    total_chunks = len(raw_chunks_new_to_old)
+
+    # First pass: determine exact chunk filenames and metadata
     chunk_meta = []
+    chunk_filenames = []
 
-    for i, chunk_rows in enumerate(chunks, start=1):
-        chunk_filename = f"{platform_prefix}-{now_ym}-part-{i:02d}.md"
-        chunk_path = os.path.join(archive_dir, chunk_filename)
-
+    for i, chunk_rows_old in enumerate(raw_chunks_new_to_old, start=1):
+        chunk_rows = chunk_rows_old[::-1]
         start_date = chunk_rows[-1][1]
         end_date = chunk_rows[0][1]
 
+        ym_prefix = _extract_ym(end_date, now_ym)
+        chunk_filename = f"{platform_prefix}-{ym_prefix}-part-{i:02d}.md"
+        chunk_filenames.append(chunk_filename)
+
+        chunk_meta.append({
+            "part": i,
+            "filename": chunk_filename,
+            "date_range": f"{start_date} to {end_date}",
+            "rows": chunk_rows,
+        })
+
+    # Second pass: render chunk markdown content with verified prev/next links
+    active_filenames = set(chunk_filenames)
+    print(f"  🧩 Slicing dataset into {total_chunks} stable chunk file(s):")
+
+    for i, meta in enumerate(chunk_meta, start=1):
+        chunk_filename = meta["filename"]
+        chunk_rows = meta["rows"]
+
         prev_link = (
-            f"[{platform_prefix}-{now_ym}-part-{i-1:02d}.md]({platform_prefix}-{now_ym}-part-{i-1:02d}.md)"
+            f"[{chunk_filenames[i-2]}](./{chunk_filenames[i-2]})"
             if i > 1
             else "None"
         )
         next_link = (
-            f"[{platform_prefix}-{now_ym}-part-{i+1:02d}.md]({platform_prefix}-{now_ym}-part-{i+1:02d}.md)"
+            f"[{chunk_filenames[i]}](./{chunk_filenames[i]})"
             if i < total_chunks
             else "None"
         )
@@ -135,7 +197,7 @@ def generate_platform_archive(
             "---",
             f"archive_platform: {platform_name}",
             f"chunk_part: {i} of {total_chunks}",
-            f"date_range: {start_date} to {end_date}",
+            f"date_range: {meta['date_range']}",
             f"total_entries: {len(chunk_rows)}",
             f"raw_url: {raw_base_url}/{chunk_filename}",
             "---\n",
@@ -150,29 +212,27 @@ def generate_platform_archive(
 
         c_md.append(f"\n---\n> **Navigation:** Prev: {prev_link} | [Index](./{platform_prefix}-index.md) | Next: {next_link}\n")
 
-        content = "\n".join(c_md)
-        with open(chunk_path, "w", encoding="utf-8") as f:
-            f.write(content)
+        content = "\n".join(c_md) + "\n"
+        chunk_path = os.path.join(archive_dir, chunk_filename)
+        chunk_written = safe_write_file(chunk_path, content)
 
         file_size_kb = round(len(content.encode("utf-8")) / 1024, 2)
         exact_tokens = count_tokens(content)
-        chunk_meta.append({
-            "filename": chunk_filename,
-            "part": i,
-            "date_range": f"{start_date} to {end_date}",
-            "size_kb": file_size_kb,
-            "tokens": exact_tokens,
-            "entries": len(chunk_rows),
-            "raw_url": f"{raw_base_url}/{chunk_filename}",
-        })
+
+        meta["size_kb"] = file_size_kb
+        meta["tokens"] = exact_tokens
+        meta["entries"] = len(chunk_rows)
+        meta["raw_url"] = f"{raw_base_url}/{chunk_filename}"
+
+        slice_status = "✍️  Updated" if chunk_written else "⏭️  Unchanged"
+        print(f"     [{i:02d}/{total_chunks:02d}] {slice_status}: {chunk_filename} ({file_size_kb} KB | {exact_tokens:,} tokens | {len(chunk_rows)} entries)")
+
+    # Clean up obsolete slice files
+    clean_orphaned_chunks(archive_dir, platform_prefix, active_filenames)
 
     # 3. Master Platform Index File
     index_filename = f"{platform_prefix}-index.md"
     index_path = os.path.join(archive_dir, index_filename)
-
-    mono_bytes = os.path.getsize(monolith_path) if os.path.exists(monolith_path) else 0
-    mono_kb = round(mono_bytes / 1024, 2)
-    mono_tokens = count_tokens(monolith_text)
 
     idx_md = [
         f"# {platform_name} Index\n",
@@ -196,9 +256,10 @@ def generate_platform_archive(
         )
 
     idx_md.append("\n\n[← Back to Main README](../README.md)\n")
+    idx_written = safe_write_file(index_path, "\n".join(idx_md) + "\n")
 
-    with open(index_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(idx_md))
+    idx_status = "✍️  Updated" if idx_written else "⏭️  Unchanged"
+    print(f"  {idx_status} index: {index_filename}")
 
     # 4. Update README.md
     if os.path.exists(readme_path):
@@ -210,6 +271,7 @@ def generate_platform_archive(
             after = content.split(marker_end)[1]
             new_block = "\n".join(readme_lines) + "\n"
             new_content = f"{before}{marker_start}\n{new_block}{marker_end}{after}"
+            readme_written = safe_write_file(readme_path, new_content)
 
-            with open(readme_path, "w", encoding="utf-8") as f:
-                f.write(new_content)
+            readme_status = "✍️  Updated" if readme_written else "⏭️  Unchanged"
+            print(f"  {readme_status} README markers: {readme_path}")
