@@ -1,17 +1,23 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 18 of 29
+chunk_part: 12 of 29
 date_range: 2026-05 to 2026-05
 total_entries: 37
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-18.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-12.md
 ---
 
-# LinkedIn Certifications — Part 18
+# LinkedIn Certifications — Part 12
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-17.md](linkedin-certifications-2026-08-part-17.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-19.md](linkedin-certifications-2026-08-part-19.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-11.md](./linkedin-certifications-2026-05-part-11.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-13.md](./linkedin-certifications-2026-07-part-13.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-05 | **Looker Studio Essentials** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24173032?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **AI Boost Bites: Presentations in Seconds with Nano Banana Pro** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171873?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **AI Boost Bites: Become a Homework Hero for Your Kids** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171850?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **AI Boost Bites: Productivity On the Go with NotebookLM** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171764?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **AI Boost Bites: How Google's L&D Uses AI to build Training Programs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171726?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **AI Boost Bites: Build Charts with a Prompt** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171625?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **AI Boost Bites: The Recruiter's Playbook in Gmail** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171600?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **AI Boost Bites: Triage a Crisis with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171569?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **AI Boost Bites: How Google's L&D Uses AI for Strategy** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171525?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -43,12 +49,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05 | **Generate and Edit Media in Vertex AI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23836028?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Security Command Center: Vulnerabilities and Misconfigurations** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23835853?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Migrating to Google Cloud: Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23835656?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Liftoff with Google Antigravity: Build a Video Game with AI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23816150?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Google AI for Finance Professionals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23816077?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **L300 Google Distributed Cloud air-gapped** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23803015?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Looker Studio Pro Essentials** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23789385?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Responsible AI for Digital Leaders with Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23787456?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Unleash Team Potential: Assess Learning Needs Using GenAI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23777050?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-17.md](linkedin-certifications-2026-08-part-17.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-19.md](linkedin-certifications-2026-08-part-19.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-11.md](./linkedin-certifications-2026-05-part-11.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-13.md](./linkedin-certifications-2026-07-part-13.md)
+

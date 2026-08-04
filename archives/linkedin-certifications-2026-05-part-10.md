@@ -1,17 +1,23 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 20 of 29
+chunk_part: 10 of 29
 date_range: 2026-05 to 2026-05
-total_entries: 53
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-20.md
+total_entries: 51
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-10.md
 ---
 
-# LinkedIn Certifications — Part 20
+# LinkedIn Certifications — Part 10
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-19.md](linkedin-certifications-2026-08-part-19.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-21.md](linkedin-certifications-2026-08-part-21.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-09.md](./linkedin-certifications-2026-05-part-09.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-11.md](./linkedin-certifications-2026-05-part-11.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-05 | **Getting Started with Security Command Center Enterprise** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23461724?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Unlock Insights with NotebookLM** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23449115?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Introduction to reCAPTCHA** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23448939?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Introduction to Gemini Enterprise** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23440944?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Responsible AI for Developers: Fairness & Bias** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23425551?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Introduction to Data Analytics in Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23425067?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Google DeepMind: 07 Accelerate Your Model** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23413107?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Google DeepMind: 05 Fine-Tune Your Model** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23412973?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Web and Mobile Anti-fraud Defense** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23412762?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -57,14 +63,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05 | **Positioning Solutions for Design in SAP Supply Chain Management in Design to Operate Approach** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xufeh-diveg-rones-barog-hogev) |
 | 2026-05 | **SAP Business Network for Procurement, Trading Partner Enablement** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xacog-hupod-vodap-hulom-rusif) |
 | 2026-05 | **SAP Business Network for Procurement, Transaction Rules** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xohym-budyd-fuhan-fyvog-kilur) |
-| 2026-05 | **Buyer Integration for RISE with SAP S/4HANA Cloud, private edition, premium plus** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xunus-fahyk-taleg-gegig-fyril) |
-| 2026-05 | **SAP Business Network for Procurement, Buyer Account Overview** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xibil-dymim-sirup-magyl-galav) |
-| 2026-05 | **SAP Business Network Supplier Portal Fundamentals** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xomut-balyp-kavic-teriv-vepyt) |
-| 2026-05 | **NASA Open Science 101** | NASA - National Aeronautics and Space Administration | [Verify Record](https://www.credly.com/badges/b367bbf7-307f-40f3-82ac-975d987f525f/linked_in_profile) |
-| 2026-05 | **Generative AI Overview for Project Managers** | Project Management Institute | [Verify Record](https://www.credly.com/badges/be0d5350-61bb-416c-ac0d-13fe417cdf7c/linked_in_profile) |
-| 2026-05 | **Fundamentals of Agile Project Management** | Project Management Institute | [Verify Record](https://www.credly.com/badges/5829bdb0-b2dd-4e23-9aa4-22c6ea61c8b4/linked_in_profile) |
-| 2026-05 | **Fundamentals of Predictive Project Management** | Project Management Institute | [Verify Record](https://www.credly.com/badges/6ff63094-6930-44d1-83c8-fedaae412178/linked_in_profile) |
-| 2026-05 | **Dremio Verified AI Architect** | Dremio | [Verify Record](https://www.credly.com/badges/21f0649c-434c-42f7-a233-d7b1a86b18bf/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-19.md](linkedin-certifications-2026-08-part-19.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-21.md](linkedin-certifications-2026-08-part-21.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-09.md](./linkedin-certifications-2026-05-part-09.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-11.md](./linkedin-certifications-2026-05-part-11.md)
+

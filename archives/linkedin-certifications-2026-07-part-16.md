@@ -1,17 +1,27 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 14 of 29
+chunk_part: 16 of 29
 date_range: 2026-07 to 2026-07
-total_entries: 43
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-14.md
+total_entries: 45
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-16.md
 ---
 
-# LinkedIn Certifications — Part 14
+# LinkedIn Certifications — Part 16
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-13.md](linkedin-certifications-2026-08-part-13.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-15.md](linkedin-certifications-2026-08-part-15.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-15.md](./linkedin-certifications-2026-07-part-15.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-17.md](./linkedin-certifications-2026-07-part-17.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **The Perils of Algorithmic Pricing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7b4c3bc6c95d21208b6213865dde59a6da87308426614b49e86bf959b048d27b) |
+| 2026-07 | **How to Supercharge Your Crisis Training** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/de4c65b76eb3bbc330fd6cc0656353f298467bc09631b77e613f379e7da72c51) |
+| 2026-07 | **How Site Visits Speed Innovative Changes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6a76a6e80bc074daf624323526c07b55d1f490f13ee3d603202c1b4783268e8c) |
+| 2026-07 | **How to Profit From Retro-Innovation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4d66515eb82af413570578f2793bdabf473e10275949264fdd5aa15dbe0835e1) |
+| 2026-07 | **Turn Customer Complaints into Innovation Blueprints** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c9062d6a39894ab29b35da3dcb475fdb913d5ceb560c13ab90d5498bcf210852) |
+| 2026-07 | **Get Work Back on Track With Visual Management** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/97400cd2e6245bb594393d9e14a72c4644086e0e8ce96853a09968b966b06bb3) |
+| 2026-07 | **Use Design Choices to Prevent Imitation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/18476931376894b3677d47209792cbe69495b5441973696bd47ccf916153dcdf) |
+| 2026-07 | **Build AI Habits That Set You Apart with Conor Grennan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dbcf3fc285b2fdc7855cca713038e88a4ec96033bdb7ffb394b706a8a6f13a78) |
+| 2026-07 | **Cloud Deployments** | Intel | [Verify Record](https://www.credly.com/badges/c7e60f6c-4fb8-4ea1-88a8-50668e31a696/linked_in_profile) |
+| 2026-07 | **AWS Knowledge: Data Migration - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b74d15f7-a10b-4c58-91a9-1a42a728b7ab/linked_in_profile) |
 | 2026-07 | **Microsoft Security Essentials Professional Certificate by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ca70fe02ff7c4be3545944ee58e406810e819e345af20e6fb5bb712ac454dc0a) |
 | 2026-07 | **Hands-On AI: Building Your First Conversational AI Chatbot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/877184692818b498d73420a02beaef312a7c83dbe24574dae4f3db4255d93fc4) |
 | 2026-07 | **Foundations of Azure Artificial Intelligence: Concepts, Capabilities, and Implementation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/999b5a75034ef20dad153a5afb839aa7321b5d2dacb674d73dc6598eee6c672b) |
@@ -47,14 +57,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **History of Responsible AI: From Principles to Professionalization by All Tech Is Human** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dd47db454c59f740f31a19e1dbfb0b9e72e5320ef511893de79bf6e0c5194ffa) |
 | 2026-07 | **How to Use Generative AI for Pricing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b0e83745394fdde6c73cc425a87c69a676b33b7355d4076740e9efdb9d09d39c) |
 | 2026-07 | **How Procter & Gamble Uses AI to Unlock New Insights From Data** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/74b08665ca4cccd52a12d778db0a146b09f55a0dcaa7f03ebba45591ec5cd384) |
-| 2026-07 | **Break into AI: Data Annotation Essentials** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6917f8e656349015c56f897e4f4d0b0cda135e9438a31d260a5670af3a1ffb49) |
-| 2026-07 | **Nano Tips for Moving to the Cloud for Business Leaders with Rashim Mogha** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3bcf5a136f724b3cf7344f782a24c2b35ed0e7a933a7aea565cf082d72348eee) |
-| 2026-07 | **What AI Can Teach Us about Designing Better KPIs** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ee15ec8d728af987306713a2fd313defcdd40a0d95d4a95cac5c2f170c82f36c) |
-| 2026-07 | **A Smarter Approach to Measuring Customer Experience** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2c5e84a5deeb3550b62e0251674156e322cd8abc15f2e2b7d3e6ea4e00ef6ac9) |
-| 2026-07 | **A Standalone Project: Create an Automated Approach to Collect, Analyze, and Visualize Energy Consumption Data for Better Decision-Making** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/25e32efdebd461677e09dae487bf75e81eb654eb121a9bddbf91826177fe47d2) |
-| 2026-07 | **Smart Cities: Solving Urban Problems Using Technology** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cbe206eadb88c7860bff8ced9244343c9510fc2862136dcdbdf869ea5df8fc9d) |
-| 2026-07 | **Scaling Generative AI: Building a Strategy for Adoption and Expansion** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f9de7a0e7ae6411b97f87903d26ca507feca0d4ecba404f232c31767f306805c) |
-| 2026-07 | **Vibe Coding and Rapid Prototyping with AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4c1e2d2552e0bdaf1e7bda59ed0dd3e29c0187531f3ae5de453856476c649b4c) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-13.md](linkedin-certifications-2026-08-part-13.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-15.md](linkedin-certifications-2026-08-part-15.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-15.md](./linkedin-certifications-2026-07-part-15.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-17.md](./linkedin-certifications-2026-07-part-17.md)
+

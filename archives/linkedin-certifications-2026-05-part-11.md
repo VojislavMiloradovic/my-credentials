@@ -1,17 +1,23 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 19 of 29
+chunk_part: 11 of 29
 date_range: 2026-05 to 2026-05
 total_entries: 38
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-19.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-11.md
 ---
 
-# LinkedIn Certifications — Part 19
+# LinkedIn Certifications — Part 11
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-18.md](linkedin-certifications-2026-08-part-18.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-20.md](linkedin-certifications-2026-08-part-20.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-10.md](./linkedin-certifications-2026-05-part-10.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-12.md](./linkedin-certifications-2026-05-part-12.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-05 | **Liftoff with Google Antigravity: Build a Video Game with AI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23816150?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Google AI for Finance Professionals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23816077?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **L300 Google Distributed Cloud air-gapped** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23803015?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Looker Studio Pro Essentials** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23789385?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Responsible AI for Digital Leaders with Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23787456?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Unleash Team Potential: Assess Learning Needs Using GenAI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23777050?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Introduction to Reliable Deep Learning** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23769178?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Introduction to Security in the World of AI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23769142?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Google Cloud: Prompt Engineering Guide** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23768853?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -44,12 +50,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05 | **Build Your First Agent with Agent Development Kit (ADK)** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23480494?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Agent Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23480394?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Create Agents with Generative Playbooks** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23480307?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Getting Started with Security Command Center Enterprise** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23461724?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Unlock Insights with NotebookLM** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23449115?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Introduction to reCAPTCHA** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23448939?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Introduction to Gemini Enterprise** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23440944?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Responsible AI for Developers: Fairness & Bias** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23425551?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Introduction to Data Analytics in Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23425067?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-18.md](linkedin-certifications-2026-08-part-18.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-20.md](linkedin-certifications-2026-08-part-20.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-10.md](./linkedin-certifications-2026-05-part-10.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-12.md](./linkedin-certifications-2026-05-part-12.md)
+

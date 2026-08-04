@@ -1,14 +1,14 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 1 of 29
+chunk_part: 29 of 29
 date_range: 2026-07 to 2026-07
-total_entries: 49
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-01.md
+total_entries: 36
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-29.md
 ---
 
-# LinkedIn Certifications — Part 01
+# LinkedIn Certifications — Part 29
 
-> **Navigation:** Prev: None | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-02.md](linkedin-certifications-2026-08-part-02.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-28.md](./linkedin-certifications-2026-07-part-28.md) | [Index](./linkedin-certifications-index.md) | Next: None | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -48,19 +48,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **MongoDB Indexing Design Fundamentals** | MongoDB | [Verify Record](https://www.credly.com/badges/cd687719-8495-41e0-a74d-61cd2ab6f12e/linked_in_profile) |
 | 2026-07 | **Securing MongoDB Atlas: Authentication & Authorization** | MongoDB | [Verify Record](https://www.credly.com/badges/c92a6b9b-e628-42f2-b33c-d51f189a3f3c/linked_in_profile) |
 | 2026-07 | **MongoDB Overview: Core Concepts and Architecture** | MongoDB | [Verify Record](https://www.credly.com/badges/ec006874-acdf-4095-abab-5b6657054fc1/linked_in_profile) |
-| 2026-07 | **Securing MongoDB Self-Managed: Authentication & Authorization** | MongoDB | [Verify Record](https://www.credly.com/badges/ccb3958d-00b6-4cf5-abf2-9481f3f12197/linked_in_profile) |
-| 2026-07 | **Mapping MITRE ATT&CK to CVE for Impact** | AttackIQ | [Verify Record](https://www.credly.com/badges/8f620453-4525-4c45-9107-5a24f2bf89a5/linked_in_profile) |
-| 2026-07 | **menuPass Emulation Plan Execution** | AttackIQ | [Verify Record](https://www.credly.com/badges/6fd90ef1-aa26-4e52-bdd8-e499e96f3644/linked_in_profile) |
-| 2026-07 | **AWS Educate Getting Started with Networking - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/95dadb7d-8f0b-4520-b945-c7b41292f126/linked_in_profile) |
-| 2026-07 | **Cloud Sales Pro - Entra ID Backup** | Acronis | [Verify Record](https://www.credly.com/badges/00d5b48a-6926-43c6-842d-3585215523fe/linked_in_profile) |
-| 2026-07 | **Cloud Sales Pro - Email Security** | Acronis | [Verify Record](https://www.credly.com/badges/1ae5dbfc-3538-41eb-b208-8cd3fa60648a/linked_in_profile) |
-| 2026-07 | **Configure VPC Routes and Addresses** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25829594?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Set Up Multiple Network Interfaces** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25828763?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Orchestrate Workflows with the Data Agent Kit** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25826281?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Arcade Adventure: Low-Code Development** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25819783?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Ram Charan on Coaching High Potentials** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ad95c14cd19e81af1e04ad1fe9009cf3a792df7eebc375a3fce0a8f5e5c9f53) |
-| 2026-07 | **Ken Blanchard on Servant Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0adf14b7571424f8ea180aed404be5f4e9fb70ab0d2d03c43b47ca5e109a44a8) |
-| 2026-07 | **Ryan Holmes on Social Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e6e647ae9bc82a07bc3b120c592af1ea458467921ca9b3bb56b0b50ade2c3ca7) |
 
 ---
-> **Navigation:** Prev: None | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-02.md](linkedin-certifications-2026-08-part-02.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-28.md](./linkedin-certifications-2026-07-part-28.md) | [Index](./linkedin-certifications-index.md) | Next: None
+

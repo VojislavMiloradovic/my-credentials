@@ -1,17 +1,28 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 11 of 29
+chunk_part: 19 of 29
 date_range: 2026-07 to 2026-07
-total_entries: 44
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-11.md
+total_entries: 45
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-19.md
 ---
 
-# LinkedIn Certifications — Part 11
+# LinkedIn Certifications — Part 19
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-10.md](linkedin-certifications-2026-08-part-10.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-12.md](linkedin-certifications-2026-08-part-12.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-18.md](./linkedin-certifications-2026-07-part-18.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-20.md](./linkedin-certifications-2026-07-part-20.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **Creative Inspirations: Doyald Young, Logotype Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eacfa3524f0540f0ea027d9ab5580c4995a5fccb733cd35e1c8728955dfb4afd) |
+| 2026-07 | **In The Studio with Shaky Feelin'** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1b7192dacd265f5f952570a75e7593f3f1ba51da5f11d930ca3947a9570694b7) |
+| 2026-07 | **The Creative Spark: Iyeoka, Recording Artist and Poet** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/63330d5e84a785b39e99650bb673c209e42548aba224909167b234866235dd2c) |
+| 2026-07 | **Evan Cheng Character Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/82d6c4c34d01ffb92cfad09706bf31629dd075863b1836bddd23226327ce03b2) |
+| 2026-07 | **Use APIs to Work with Cloud Storage Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/3a261bec-3e3f-41ca-b362-3eaf9f06bd90/linked_in_profile) |
+| 2026-07 | **Creative Inspirations: Renegade Animation, Animation Studio** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d669b9c046dd01b403c656d62960852c6f4488e9c2fb6ab66ef34c2a7c32c0ed) |
+| 2026-07 | **The Basics of Google Cloud Compute Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/1add8a23-2f6c-4308-bcd7-39c83fcc42f6/linked_in_profile) |
+| 2026-07 | **Creative Inspirations: Hot Studio, Experience Design** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/723933c5a28d7e997bbe2d7fe2a40b113fa078cfe6b806f53a287379a427a88e) |
+| 2026-07 | **Nathan Shedroff on Design Strategy and the Merging of Business and Design** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/52380acd49ff41b75288330235cf1237398d069a6a76534a59b93171042ea22e) |
+| 2026-07 | **Sylvia Massy: Unconventional Recording** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7befabd742c5fba84da10fe73608e299e9183fa9c2f24d94a50f97a758c09fa4) |
+| 2026-07 | **Flight Club: Drones and the Dawn of Personal Aerial Imaging** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c2de0e6266d831086844528aff58686d69b64fb56a21ba9ce7d8d10b4281c73c) |
 | 2026-07 | **Aaron Draplin Takes On a Logo Design Challenge** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/69ec7ede9b57f9e560378ac14e78940bbe2a128f7108129c87ec753c275fbb1f) |
 | 2026-07 | **Michelle Kaufmann's Platinum LEED Home Remodel: Start to Finish** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/304763c3f978f50a12ab5290a35a3520b3e3853e6d284580f5e5abd14dcd337e) |
 | 2026-07 | **Designing Your Creator Brand with Canva** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/db0f3f3fc2500a3ea894ef46e1b56a2e16865c9d8ed84085730986cf7650dd9f) |
@@ -46,16 +57,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Alex McDowell: World Building and Narrative** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/08c3fb5fa47a5d78475c9d1ddeecc471299b39acb0dfdcd769982caec6fcfa0a) |
 | 2026-07 | **Nano Tips for Data Storytelling and Visualization with Lachezar Arabadzhiev** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/50b04f67dd3f17918b1dbb9e4ef656a789edb3cb5596880652ef7736d99d9785) |
 | 2026-07 | **Graphic Design Careers: First Steps** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5690a3fc1efd2dabefbf9d70c115639232d0ac67cf132211ac437a92b1e30b3a) |
-| 2026-07 | **Nano Tips for Creating AI Powered Video Creation with Lachezar Arabadzhiev** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e3c6e4f67d2c17a0b1331dd340d618e4ee22090053b95e55b44747699ca7f2e6) |
-| 2026-07 | **Nano Tips for Creating an AI Prompt Library for Marketing Professionals with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b69dc49dba178961455d2918b1cc7f65766baedfc0865fcf80db7195978ccba8) |
-| 2026-07 | **Nano Tips for Using Digital Marketing to Grow with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b1b8a101331b8feb64ed7052cdec24648b0e817ee5ef79ab99e4ec7c30c9c7a1) |
-| 2026-07 | **Supply Chain Foundations: Supplier Development and Diversity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/617b0b5011778a1e43ce3c1bf327ee4020178ff1cce5b170611d3ca7b885fc9d) |
-| 2026-07 | **Jeff Weiner on Establishing a Culture and a Plan for Scaling** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f0bd757efa1a754ec5b6a0dcfac73d202b2b56b6fcf2bccf18a87fb5e1451efe) |
-| 2026-07 | **Thomas A. Stewart and Patricia O'Connell on Designing and Delivering Great Customer Experience** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/992e73bda83510dc9abdb3746fa8b9b6a5c1db09d715779e008d9c0ba9b150c1) |
-| 2026-07 | **Leading Quality in Patient Safety: Systems Thinking and Design** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9947c322c5f418a4cc31aa046fd075bef9f978dbf49a09a3aa9df0d04f9e93b2) |
-| 2026-07 | **34 Things to Know about Carbon and Climate** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c86c43f9747e5181b41de31587b0d581800369fcc0b58e26ff893d48a520d420) |
-| 2026-07 | **Scaling Your Small Business** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a3de9e4c699d09bcbc8bd29334bc4dc6f385ec1595c7641c51c946d5d5f2c5c7) |
-| 2026-07 | **Brad Feld on Validating Your Startup Idea** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/36a1dcae8a495bb06b3c97868ed42a8f3822920319a50bcc5fcccab0c2c879be) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-10.md](linkedin-certifications-2026-08-part-10.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-12.md](linkedin-certifications-2026-08-part-12.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-18.md](./linkedin-certifications-2026-07-part-18.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-20.md](./linkedin-certifications-2026-07-part-20.md)
+

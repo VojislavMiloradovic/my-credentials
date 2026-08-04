@@ -1,17 +1,28 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 8 of 29
+chunk_part: 22 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 44
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-08.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-22.md
 ---
 
-# LinkedIn Certifications — Part 08
+# LinkedIn Certifications — Part 22
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-07.md](linkedin-certifications-2026-08-part-07.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-09.md](linkedin-certifications-2026-08-part-09.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-21.md](./linkedin-certifications-2026-07-part-21.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-23.md](./linkedin-certifications-2026-07-part-23.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **Cloud Speech API: 3 Ways Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5/linked_in_profile) |
+| 2026-07 | **Nano Tips for Small Acts of Leadership with Shawn Hunter** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/63795dd9c9f193c7db80f51df86a3009a7992e54d8d12f96a5bc0d44b680e274) |
+| 2026-07 | **Nano Tips to Project Confidence and Executive Presence with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b01350b7c3539a0a759245fc4fe9eef684b18472a1d7de0e2e118a486d618283) |
+| 2026-07 | **Nano Tips for Learning on the Job with Dr. Jazz** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9d84b1854dada4235d25dba36a33e04a986a0bbe75c0ced0a205234c4057a613) |
+| 2026-07 | **Nano Tips for a Pitch That Persuades without Pressure with Alex James** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/db7f6cf7550857aeb1d29ef2bc5109a7f19a0b094d40ebb00d61b1a39bb32e23) |
+| 2026-07 | **Creating Your First Marketing Videos on LinkedIn Nano Tips with Shay Rowbottom** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5928cbce7f5d181260d58002f4f3c0f4a914c8547e422dddfa0d0181b7b09205) |
+| 2026-07 | **Nano Tips for Effortless Influence with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d841cac6c40ea38e6dec921912ad1ead09d845c8296fa4c804fa6ea4438a3fc3) |
+| 2026-07 | **Nano Tips to Speak Up in Meetings with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5f3bf628bd887a99f23364ad971e65ebbf1973fe87ff04d246d6bd276dd67169) |
+| 2026-07 | **Nano Tips for Smarter Learning and Better Relationships with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/845cd00d4d771fcc97fc59a15217211ce7931a1159712dc7df0081591c72e52a) |
+| 2026-07 | **Neil Blumenthal on Branding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/69a78c2ac563ab6aa679be108118d8b507171799fda848187acbb33a3f0f449d) |
+| 2026-07 | **Nano Tips for Mastering Job Interviews with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7d630f52c382da239cfe05b56d77d0997984b433d6366038e91d42ec44ab6ecc) |
 | 2026-07 | **Nano Tips for Video Content Creators with Tejas Hullur** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6a3b18fe6559e7bcf7cd892f7610ac855678bc8224e1ea7ebeab8827f291bc3a) |
 | 2026-07 | **A Marketer's Guide to Cross-Departmental Collaboration** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/923c5a60e979610530a6d18411d5daea436f664bf29838c946d84f9946f955a6) |
 | 2026-07 | **Nano Tips for Small Words of Leadership with Shawn Hunter** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bb6bb2e993ad3a96228e41254d515620e9d513df1710cef742ef8e8cdacc2409) |
@@ -45,17 +56,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Building AI Agents: From Zero to Production by Microsoft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3673fc1b227c9bce4657197fe26e881d62d28c1a82be1e9d92fd747b6f552e9a) |
 | 2026-07 | **Introduction to Agentic AI Governance** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ac8b2404a936a3ecad4a40bf104354785a4fc35090dd939e22487021757c0611) |
 | 2026-07 | **Creative Inspirations: Dale Herigstad & Schematic, Interactive Design Agency** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/05fea599c23965884afed901289c519f23b4a23bffe29d64521f867b12d26129) |
-| 2026-07 | **Creative Inspirations: tokidoki, Character Illustrator** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8e4378e6a6c6e4a78f44a6a9bfc949e0df9c077f7f6354125665f68b75a2cce1) |
-| 2026-07 | **Adobe Firefly's AI-Driven Business Solutions: A Conversation with Bart Van de Wiele** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/aee391125c3b31f76c10001cc8b7a5a644d57eb56037bc9537734aa6c8797e11) |
-| 2026-07 | **Douglas Kirkland on Photography: A Conversation with Gerd Ludwig** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e9fb4813da2598e0cd1c84b5444a93d5fe3d62f9c8b5343ecec2280ea441fffd) |
-| 2026-07 | **Configure Service Accounts and IAM Roles for Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/ddaa4bce-2772-4181-9a7c-21252929399d/linked_in_profile) |
-| 2026-07 | **Photography: First Steps** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7ea706156e4a86c692556656e996a309f605896c63ef1448ad376d7f6a91bec2) |
-| 2026-07 | **Creative Inspirations: Natalie Fobes, Photographer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1c7b962ec6768c30c7c33cf8af998ef38caf13650d4cea70ca92bcee183478ca) |
-| 2026-07 | **Jason Seiler: Digital and Traditional Painter** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a86b78580f34b94a87911aeeedbaa96a692249f46ad3bc3ea9063f7df66cd3ee) |
-| 2026-07 | **Creative Inspirations: Ze Frank, Comedic Digital Savant** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ddd3eabf293adab70f5f5f47d0585343966665c1ba319ef646df16066348ea1a) |
-| 2026-07 | **Creative Inspirations: New Deal Studios, Visual Effects** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/555b724502f78cacc720ccdaa90591611fcc4aa0ad89ad22244483bd29e125ed) |
-| 2026-07 | **The Creative Spark: Beeple, Everyday Artist** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dd7e54523d7cba5559d65c8093d8b4b727b4a6b84b48f074b368e78030cc2e2f) |
-| 2026-07 | **Adonna Khare Large Scale Art** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/65059155a1eac2538a0e3756c614aeab77b389276577de9f2151696e33a53694) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-07.md](linkedin-certifications-2026-08-part-07.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-09.md](linkedin-certifications-2026-08-part-09.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-21.md](./linkedin-certifications-2026-07-part-21.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-23.md](./linkedin-certifications-2026-07-part-23.md)
+

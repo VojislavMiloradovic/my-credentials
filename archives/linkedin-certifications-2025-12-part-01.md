@@ -1,17 +1,23 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 29 of 29
+chunk_part: 1 of 29
 date_range: 2025-10 to 2025-12
-total_entries: 32
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-29.md
+total_entries: 38
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2025-12-part-01.md
 ---
 
-# LinkedIn Certifications — Part 29
+# LinkedIn Certifications — Part 01
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-28.md](linkedin-certifications-2026-08-part-28.md) | [Index](./linkedin-certifications-index.md) | Next: None | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: None | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2025-12-part-02.md](./linkedin-certifications-2025-12-part-02.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2025-12 | **AI Boost Bites: Project Notebooks** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19996219?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **AI Boost Bites: NotebookLM for Market Research** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19996132?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **AI Boost Bites: NotebookLM Video Overviews** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19996088?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **AI Boost Bites: Discover Sources in NotebookLM** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19996060?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **AI Boost Bites: NotebookLM Mind Maps** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19996031?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **AI Boost Bites: Intro to NotebookLM** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19995999?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **AI Boost Bites: Email Content Creation** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19995946?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **AI Boost Bites: Create Docs in Seconds** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19995901?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **AI Boost Bites: AI Power-Ups for Google Workspace** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19995858?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -46,4 +52,5 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-10 | **Digital Transformation with Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/18108130?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-28.md](linkedin-certifications-2026-08-part-28.md) | [Index](./linkedin-certifications-index.md) | Next: None
+> **Navigation:** Prev: None | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2025-12-part-02.md](./linkedin-certifications-2025-12-part-02.md)
+

@@ -1,17 +1,27 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 13 of 29
+chunk_part: 17 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 44
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-13.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-17.md
 ---
 
-# LinkedIn Certifications — Part 13
+# LinkedIn Certifications — Part 17
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-12.md](linkedin-certifications-2026-08-part-12.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-14.md](linkedin-certifications-2026-08-part-14.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-16.md](./linkedin-certifications-2026-07-part-16.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-18.md](./linkedin-certifications-2026-07-part-18.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **How to Advocate for Yourself in Your Career Nano Tips with Tiffany Uman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c7088b96ed8d97134b2a9aa6340de4f485731c4b9bc0deef91fba59757103c67) |
+| 2026-07 | **Nano Tips for Quick Decision Making with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0b907908abd00584b436ddbb9ad61b6162d3c50cdb715805a1f2658f3e9562b6) |
+| 2026-07 | **Nano Tips for Charismatic Communication with Ravi Rajani** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d6009e59aa72edc5c93faf1486cef36a2cc2653df1f1d01dc0abdd57777933ba) |
+| 2026-07 | **Nano Tips for Dealing with a Difficult Customer with Richard Moore** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3be01510ff9be7ffff598ddf3c4516d53aba9d3c3312132a8c38beab01db166b) |
+| 2026-07 | **Nano Tips for Career Growth from Today’s Top Business Leaders** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e293ab43880956b0561629f633e5967a41849df5fb2674d1c657a0b1765fd7f5) |
+| 2026-07 | **Nano Tips for Leading with Influence with Kim Kaupe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a47e5a6d4e0a336539aa15a7e9bb124dc6779718718c9fd87ec265d0a14244d0) |
+| 2026-07 | **Nano Tips for Writing a Resume with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/033896516a76adc415f06e06c1f5948f043e54949c14e04116d318331faf977e) |
+| 2026-07 | **Nano Tips for Using Excel with Kat Norton (2022)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cef88e027a10d62d4ef204641304c82f20e8f29dc558183519af61ff42009446) |
+| 2026-07 | **Nano Tips to Boost Productivity with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/71cb29893e242b90e92bda31424ba7f4df819372cb20e41e0035c538af69c815) |
+| 2026-07 | **Nano Tips for Interpersonal Communication with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/17dceaeb40cdf956c580a5ca0e6504b432310000710c2cf85948200627fb5a21) |
 | 2026-07 | **Nano Tips for Intentional Engagement Online with Richard Moore** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2099c4913531753eb8efdb97f1faa7df31ac5574925dd7330be3af8c521f22d8) |
 | 2026-07 | **How to Have Difficult Conversations Nano Tips with Melanie Whitney** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a8e69ce43c7f514bbd92fcc92be537666762b0d604e9aee7361582cbf0960dc2) |
 | 2026-07 | **Nano Tips for Developing Magnetic Charisma with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6f091291752c37aa2ebf101764e3e780d67d22f27fca01f2801fa2d70365d1fe) |
@@ -46,16 +56,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Copilot in PowerPoint: From Prompt to Presentation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eb2c061c079feb0360a027bac917622b2b9e2295246c060bd6a840f4baed8663) |
 | 2026-07 | **Nano Tips for Communicating with Executives with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5b6ac9d9ce8e02452f08c1109e8162db75f0b5bf31220db47d1afbe75fbabd57) |
 | 2026-07 | **Why Mindful Leaders Are Better at Managing Change** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6c526b62da8e50425c928a449fdd827e553cac9a7f055efff2aaabc95f547be1) |
-| 2026-07 | **The Perils of Algorithmic Pricing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7b4c3bc6c95d21208b6213865dde59a6da87308426614b49e86bf959b048d27b) |
-| 2026-07 | **How to Supercharge Your Crisis Training** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/de4c65b76eb3bbc330fd6cc0656353f298467bc09631b77e613f379e7da72c51) |
-| 2026-07 | **How Site Visits Speed Innovative Changes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6a76a6e80bc074daf624323526c07b55d1f490f13ee3d603202c1b4783268e8c) |
-| 2026-07 | **How to Profit From Retro-Innovation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4d66515eb82af413570578f2793bdabf473e10275949264fdd5aa15dbe0835e1) |
-| 2026-07 | **Turn Customer Complaints into Innovation Blueprints** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c9062d6a39894ab29b35da3dcb475fdb913d5ceb560c13ab90d5498bcf210852) |
-| 2026-07 | **Get Work Back on Track With Visual Management** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/97400cd2e6245bb594393d9e14a72c4644086e0e8ce96853a09968b966b06bb3) |
-| 2026-07 | **Use Design Choices to Prevent Imitation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/18476931376894b3677d47209792cbe69495b5441973696bd47ccf916153dcdf) |
-| 2026-07 | **Build AI Habits That Set You Apart with Conor Grennan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dbcf3fc285b2fdc7855cca713038e88a4ec96033bdb7ffb394b706a8a6f13a78) |
-| 2026-07 | **Cloud Deployments** | Intel | [Verify Record](https://www.credly.com/badges/c7e60f6c-4fb8-4ea1-88a8-50668e31a696/linked_in_profile) |
-| 2026-07 | **AWS Knowledge: Data Migration - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b74d15f7-a10b-4c58-91a9-1a42a728b7ab/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-12.md](linkedin-certifications-2026-08-part-12.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-14.md](linkedin-certifications-2026-08-part-14.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-16.md](./linkedin-certifications-2026-07-part-16.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-18.md](./linkedin-certifications-2026-07-part-18.md)
+

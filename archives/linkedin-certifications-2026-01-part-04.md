@@ -1,17 +1,23 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 26 of 29
-date_range: 2025-12 to 2025-12
+chunk_part: 4 of 29
+date_range: 2025-12 to 2026-01
 total_entries: 38
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-26.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-01-part-04.md
 ---
 
-# LinkedIn Certifications — Part 26
+# LinkedIn Certifications — Part 04
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-25.md](linkedin-certifications-2026-08-part-25.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-27.md](linkedin-certifications-2026-08-part-27.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2025-12-part-03.md](./linkedin-certifications-2025-12-part-03.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-03-part-05.md](./linkedin-certifications-2026-03-part-05.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-01 | **Manage Functions and Reporting with CCaaS** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21296923?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-01 | **Build a Certification Study Guide: PCA Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21296361?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **Handle Consumer Interactions with CCaaS** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21284750?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **Machine Learning Operations (MLOps) for Generative AI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21284707?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **Hybrid Cloud Infrastructure Foundations with Anthos** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21284642?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **Preparing for your Professional Data Engineer Journey** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264999?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **Managing and Securing the Apigee Hybrid API Platform** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264510?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **Preparing for Your Professional Cloud Security Engineer Journey** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264288?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **Upgrading and Monitoring the Apigee Hybrid API Platform** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21236729?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -44,12 +50,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-12 | **Google Security Operations - Deep Dive** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21024695?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **Google Security Operations - Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21024676?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **AI Infrastructure: Networking Techniques** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21003646?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **AI Infrastructure: Storage Options** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21003599?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **AI Infrastructure: Deployment Types** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21003568?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **Put It All Together: Prepare for a Cloud Security Analyst Job** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20977998?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **Detect, Respond, and Recover from Cloud Cybersecurity Attacks** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20954336?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **Webhook fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20863354?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **Conversation Design Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20835698?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-25.md](linkedin-certifications-2026-08-part-25.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-27.md](linkedin-certifications-2026-08-part-27.md)
+> **Navigation:** Prev: [linkedin-certifications-2025-12-part-03.md](./linkedin-certifications-2025-12-part-03.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-03-part-05.md](./linkedin-certifications-2026-03-part-05.md)
+

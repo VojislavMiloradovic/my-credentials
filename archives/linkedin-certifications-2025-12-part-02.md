@@ -1,17 +1,23 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 28 of 29
+chunk_part: 2 of 29
 date_range: 2025-12 to 2025-12
 total_entries: 37
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-28.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2025-12-part-02.md
 ---
 
-# LinkedIn Certifications — Part 28
+# LinkedIn Certifications — Part 02
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-27.md](linkedin-certifications-2026-08-part-27.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-29.md](linkedin-certifications-2026-08-part-29.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2025-12-part-01.md](./linkedin-certifications-2025-12-part-01.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2025-12-part-03.md](./linkedin-certifications-2025-12-part-03.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2025-12 | **Gen AI Agents: Transform Your Organization** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20103576?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **Gen AI Apps: Transform Your Work** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20074401?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **Gen AI: Navigate the Landscape** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20073969?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **Gen AI: Unlock Foundational Concepts** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20073600?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **Gen AI: Beyond the Chatbot** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20049490?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2025-12 | **AI Boost Bites: Advanced Analysis in Sheets** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20024452?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **AI Boost Bites: Notes to Sheets with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20024414?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **AI Boost Bites: Gemini Calendar Hacks in Gmail** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20024357?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **AI Boost Bites: Build Slides Fast with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20024337?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -43,12 +49,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-12 | **AI Boost Bites: NotebookLM Reports** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19996514?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **AI Boost Bites: Your Personal Feedback Agent** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19996436?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **AI Boost Bites: Presentation Scripts with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19996370?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **AI Boost Bites: Project Notebooks** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19996219?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **AI Boost Bites: NotebookLM for Market Research** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19996132?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **AI Boost Bites: NotebookLM Video Overviews** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19996088?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **AI Boost Bites: Discover Sources in NotebookLM** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19996060?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **AI Boost Bites: NotebookLM Mind Maps** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19996031?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **AI Boost Bites: Intro to NotebookLM** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19995999?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-27.md](linkedin-certifications-2026-08-part-27.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-29.md](linkedin-certifications-2026-08-part-29.md)
+> **Navigation:** Prev: [linkedin-certifications-2025-12-part-01.md](./linkedin-certifications-2025-12-part-01.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2025-12-part-03.md](./linkedin-certifications-2025-12-part-03.md)
+

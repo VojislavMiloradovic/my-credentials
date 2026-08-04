@@ -1,17 +1,26 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 16 of 29
+chunk_part: 14 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 49
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-16.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-14.md
 ---
 
-# LinkedIn Certifications — Part 16
+# LinkedIn Certifications — Part 14
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-15.md](linkedin-certifications-2026-08-part-15.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-17.md](linkedin-certifications-2026-08-part-17.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-13.md](./linkedin-certifications-2026-07-part-13.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-15.md](./linkedin-certifications-2026-07-part-15.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **AI Evaluations for Product Leaders and AI PMs** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6d5c485a7dc9d2885649692f53d819e83c93a40acf38f7cbe0bbe2a138cc0626) |
+| 2026-07 | **LFD110: Introduction to RISC-V** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/ca3fb10f-24a2-4c82-a275-82ca9f08193a/linked_in_profile) |
+| 2026-07 | **LFD133: Introduction to WebAssembly** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/8473781e-b134-4cb1-850b-c72985f5822d/linked_in_profile) |
+| 2026-07 | **LFS146: Introduction to Cilium** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/d6703f61-4648-41b6-9949-01827cbd6c78/linked_in_profile) |
+| 2026-07 | **LFS144: Introduction to Istio** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/bb9b403f-05c9-47c8-8e63-e7a2c4eef99b/linked_in_profile) |
+| 2026-07 | **Tech Fundamentals** | Acronis | [Verify Record](https://www.credly.com/badges/b006a1c2-03c5-426f-9b4a-b667e033047d/linked_in_profile) |
+| 2026-07 | **Intel® Gaudi® AI Accelerator** | Intel | [Verify Record](https://www.credly.com/badges/f38defb3-960c-421e-af23-fe3699697623/linked_in_profile) |
+| 2026-07 | **AWS Knowledge: Events and Workflows - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/35c9dfd3-ab0b-4125-baf2-a67f19f960c7/linked_in_profile) |
+| 2026-07 | **AI-Driven Project Management: Techniques and Insights with Ricardo Vargas** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a99cf8a4bfb015ab7c897eb1038f728d23f3a49ce4126039bc656dada7fedbda) |
 | 2026-07 | **Building AI Agents for Beginners by Microsoft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1f95f64490656765b16827db592c37fdd1679f968edd2a610ce67813bb326855) |
 | 2026-07 | **Transforming Project Management with AI Agents** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c64e6ec567240ebd63a4dec4cd94255c6861c2d52587c701635477efc04541a6) |
 | 2026-07 | **The GenAI Prompt Playbook: Ready-Made Prompts to Boost Productivity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2635a926ee5380a1181cef5e0601cf42feb4d5e5a009bce5dd76e4712a5bc137) |
@@ -52,15 +61,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **LFD137: Open Source Contribution in Finance** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/07bb1039-dd83-4aab-a319-d18af966d01a/linked_in_profile) |
 | 2026-07 | **LFC108: Cybersecurity Essentials** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/c07d5735-c22b-40c9-bece-11d75cd3ab0d/linked_in_profile) |
 | 2026-07 | **LFS118: Ethical Principles for Conversational AI** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/c18e2ce0-83e2-4e77-ba8e-2daa7a2cddfa/linked_in_profile) |
-| 2026-07 | **LFD102: A Beginner's Guide to Open Source Software Development** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/2b1cbc35-8af4-467d-bb34-8f081afb8ef0/linked_in_profile) |
-| 2026-07 | **LFQ101: Fundamentals of Quantum Computing** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/dbaa0c7b-652d-4505-a80a-4d8dd2551426/linked_in_profile) |
-| 2026-07 | **LFC102: Inclusive Open Source Community Orientation** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/eb937342-cd3c-4993-8e44-91f0bf12f83c/linked_in_profile) |
-| 2026-07 | **AWS Knowledge: File Storage - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/517a628a-d90a-48b8-858b-8c81048bbf5d/linked_in_profile) |
-| 2026-07 | **Google Play Academy - Store Listing Certificate** | Google Play Academy | [Verify Record](https://www.credential.net/1473fa50-8b83-4ccf-a376-6cd671db8b80) |
-| 2026-07 | **LFS101: Introduction to Linux** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/e0a7c437-4f29-4111-96d2-2c8f15eb14cc/linked_in_profile) |
-| 2026-07 | **AWS Knowledge: Amazon Braket - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/8a9f2e87-0407-4376-8b09-d10fa0b6a6b9/linked_in_profile) |
-| 2026-07 | **Intelligent Diagramming** | Lucid Software | [Verify Record](https://www.credly.com/badges/a5b0658c-f2cb-4aa4-85db-5d2c8eefa144/linked_in_profile) |
-| 2026-07 | **AWS Knowledge: Networking Core - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/80648322-ee54-4e43-9d4b-f311dcc569cd/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-15.md](linkedin-certifications-2026-08-part-15.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-17.md](linkedin-certifications-2026-08-part-17.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-13.md](./linkedin-certifications-2026-07-part-13.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-15.md](./linkedin-certifications-2026-07-part-15.md)
+

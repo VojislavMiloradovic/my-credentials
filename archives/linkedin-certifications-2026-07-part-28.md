@@ -1,17 +1,30 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 2 of 29
+chunk_part: 28 of 29
 date_range: 2026-07 to 2026-07
-total_entries: 48
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-02.md
+total_entries: 49
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-28.md
 ---
 
-# LinkedIn Certifications — Part 02
+# LinkedIn Certifications — Part 28
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-01.md](linkedin-certifications-2026-08-part-01.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-03.md](linkedin-certifications-2026-08-part-03.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-27.md](./linkedin-certifications-2026-07-part-27.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-29.md](./linkedin-certifications-2026-07-part-29.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **Securing MongoDB Self-Managed: Authentication & Authorization** | MongoDB | [Verify Record](https://www.credly.com/badges/ccb3958d-00b6-4cf5-abf2-9481f3f12197/linked_in_profile) |
+| 2026-07 | **Mapping MITRE ATT&CK to CVE for Impact** | AttackIQ | [Verify Record](https://www.credly.com/badges/8f620453-4525-4c45-9107-5a24f2bf89a5/linked_in_profile) |
+| 2026-07 | **menuPass Emulation Plan Execution** | AttackIQ | [Verify Record](https://www.credly.com/badges/6fd90ef1-aa26-4e52-bdd8-e499e96f3644/linked_in_profile) |
+| 2026-07 | **AWS Educate Getting Started with Networking - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/95dadb7d-8f0b-4520-b945-c7b41292f126/linked_in_profile) |
+| 2026-07 | **Cloud Sales Pro - Entra ID Backup** | Acronis | [Verify Record](https://www.credly.com/badges/00d5b48a-6926-43c6-842d-3585215523fe/linked_in_profile) |
+| 2026-07 | **Cloud Sales Pro - Email Security** | Acronis | [Verify Record](https://www.credly.com/badges/1ae5dbfc-3538-41eb-b208-8cd3fa60648a/linked_in_profile) |
+| 2026-07 | **Configure VPC Routes and Addresses** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25829594?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-07 | **Set Up Multiple Network Interfaces** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25828763?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-07 | **Orchestrate Workflows with the Data Agent Kit** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25826281?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-07 | **Arcade Adventure: Low-Code Development** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25819783?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-07 | **Ram Charan on Coaching High Potentials** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ad95c14cd19e81af1e04ad1fe9009cf3a792df7eebc375a3fce0a8f5e5c9f53) |
+| 2026-07 | **Ken Blanchard on Servant Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0adf14b7571424f8ea180aed404be5f4e9fb70ab0d2d03c43b47ca5e109a44a8) |
+| 2026-07 | **Ryan Holmes on Social Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e6e647ae9bc82a07bc3b120c592af1ea458467921ca9b3bb56b0b50ade2c3ca7) |
 | 2026-07 | **MongoDB Query Optimization Techniques** | MongoDB | [Verify Record](https://www.credly.com/badges/adc22d84-9e52-40b6-8f56-09b163398c09/linked_in_profile) |
 | 2026-07 | **MongoDB Schema Design Optimization Skill Badge** | MongoDB | [Verify Record](https://www.credly.com/badges/526ac37a-cf81-4031-82ad-ea72351d42b8/linked_in_profile) |
 | 2026-07 | **AWS Educate Getting Started with Databases - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/da4e7c34-8a7a-4418-86f2-eb9db7a34148/linked_in_profile) |
@@ -48,18 +61,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **AWS Educate Getting Started with Storage - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c0cd9a0e-d2c9-4c72-9e6f-87b5cedde8a7/linked_in_profile) |
 | 2026-07 | **Strategic Cybersecurity Management** | AttackIQ | [Verify Record](https://www.credly.com/badges/e0cfb483-3bab-4f21-b48e-896e6e02a2de/linked_in_profile) |
 | 2026-07 | **Cloud Tech Professional Disaster Recovery** | Acronis | [Verify Record](https://www.credly.com/badges/b1960c54-6ac1-4206-8631-f489b925b6eb/linked_in_profile) |
-| 2026-07 | **Harnessing AI for Effective Interviewing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7583a0e48821cc69e0e4f641da1fd165b188cfb1669d1cc5c9c73ec538a30764) |
-| 2026-07 | **Finding a Job on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ca80d6e4514609ece268e39f6455f5d0e94c07a84623cb8e717a7b5b97000d6) |
-| 2026-07 | **Deploy and Monitor in Google Cloud for AWS Professionals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25533410?utm_medium=social) |
-| 2026-07 | **How AI intersects with Sustainability and Business: A Conversation with Amy Luers** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/acf600bf7f6e43a96727f3f8ed40c4a2fd6735d8ae3ce6bef6319a44711ce211) |
-| 2026-07 | **Beyond the Hype: Strategic Steps to Implement AI in your Organization, with Jamie Champagne** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cffd81d0351f9fd205e1c2215becd2c29b5cea26162c4712a4e7d13021fa6480) |
-| 2026-07 | **From Relational Model (SQL) to MongoDB's Document Model** | MongoDB | [Verify Record](https://www.credly.com/badges/b4e44a5b-2f20-4388-91fa-0e84a1dff433/linked_in_profile) |
-| 2026-07 | **Uniting Threat and Risk Management with NIST 800-53 and MITRE ATT&CK** | AttackIQ | [Verify Record](https://www.credly.com/badges/5a3154e0-56dc-49d6-bd27-035a773fc3eb/linked_in_profile) |
-| 2026-07 | **Acronis Cyber Protect – Endpoint Management Basics** | Acronis | [Verify Record](https://www.credly.com/badges/e9ff04b3-1b9b-40be-a241-a663e3a6a251/linked_in_profile) |
-| 2026-07 | **FIPS Frontrunner** | Chainguard | [Verify Record](https://www.credly.com/badges/93ad4964-81b4-45ad-b613-688f0505a759/linked_in_profile) |
-| 2026-07 | **AWS Knowledge: AI Basics - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/fbb02508-656a-4241-b49c-182dcd8f43ee/linked_in_profile) |
-| 2026-07 | **Jeffrey Zeldman: 20 years of Web Design and Community** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/28ee65017261018243ece8f5e45f799303d41409553457218258a29815d5303a) |
-| 2026-07 | **Developing Containerized Applications on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25498091?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-01.md](linkedin-certifications-2026-08-part-01.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-03.md](linkedin-certifications-2026-08-part-03.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-27.md](./linkedin-certifications-2026-07-part-27.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-29.md](./linkedin-certifications-2026-07-part-29.md)
+

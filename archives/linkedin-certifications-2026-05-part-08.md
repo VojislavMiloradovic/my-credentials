@@ -1,17 +1,26 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 22 of 29
+chunk_part: 8 of 29
 date_range: 2026-05 to 2026-05
-total_entries: 52
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-22.md
+total_entries: 53
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-08.md
 ---
 
-# LinkedIn Certifications — Part 22
+# LinkedIn Certifications — Part 08
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-21.md](linkedin-certifications-2026-08-part-21.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-23.md](linkedin-certifications-2026-08-part-23.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-07.md](./linkedin-certifications-2026-05-part-07.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-09.md](./linkedin-certifications-2026-05-part-09.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-05 | **Privacy for Agencies and Partners Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/ce77e9e9-f2c5-4ff4-a2bb-3e5ab37134c3) |
+| 2026-05 | **Display & Video 360 Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/0658506c-3b28-4deb-9088-ab7d34d70ff9) |
+| 2026-05 | **Digital Trust for All** | Intel | [Verify Record](https://www.credly.com/badges/617235ff-34bf-4063-8972-bdad6126ad11/linked_in_profile) |
+| 2026-05 | **Define Your Users in Okta** | Okta | [Verify Record](https://www.credly.com/badges/bbc3e057-150e-4ba8-80f4-57fe61b0a4c4/linked_in_profile) |
+| 2026-05 | **Manage User Profiles in UD** | Okta | [Verify Record](https://www.credly.com/badges/23833ee2-c157-450c-963c-0eae083fefea/linked_in_profile) |
+| 2026-05 | **Define a Secure Policy Structure** | Okta | [Verify Record](https://www.credly.com/badges/c2ff8b68-4187-4799-b8b5-27c9fa37ef45/linked_in_profile) |
+| 2026-05 | **Implement Phishing-Resistant Authentication** | Okta | [Verify Record](https://www.credly.com/badges/c34fa8f3-05dc-434e-884f-8058eb03679f/linked_in_profile) |
+| 2026-05 | **Site Reliability Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/82670fe2-987b-43c4-8023-09500fa4696b/linked_in_profile) |
+| 2026-05 | **Frontend Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/e8ec0d30-25e8-4a3b-8747-3a43181664a7/linked_in_profile) |
 | 2026-05 | **Backend Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/aac771f0-c159-47dd-a82f-f7f1169e7811/linked_in_profile) |
 | 2026-05 | **Application Security Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/18f1283d-e980-49d8-84f7-6a12b54c898d/linked_in_profile) |
 | 2026-05 | **Application Performance Monitoring Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/23440c88-44f9-416e-a91e-03f421624399/linked_in_profile) |
@@ -56,14 +65,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05 | **AI Fundamentals: Language and Vision in AI** | IBM | [Verify Record](https://www.credly.com/badges/df76354f-505a-4cbb-a33c-31dcac6a0e8e/linked_in_profile) |
 | 2026-05 | **Get Coding with Snap! - Building Up to AI - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/c3b1cde6-921c-45f5-8143-5465c7de9e6c/linked_in_profile) |
 | 2026-05 | **Orchestrate Multi-agent Workflows with Gemini Enterprise** | Google | [Verify Record](https://www.credly.com/badges/6f5efebc-5b23-41a0-a017-8ad2456b100a/linked_in_profile) |
-| 2026-05 | **Introduction to Data Science** | Cisco | [Verify Record](https://www.credly.com/badges/5c007983-0d07-43d6-84ec-c7f15893e2e1/linked_in_profile) |
-| 2026-05 | **Configuring SAP SuccessFactors Employee Central Global Benefits - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/dcfae2db-fea4-4117-8b77-7eeef66e1996/linked_in_profile) |
-| 2026-05 | **Build an AI Agent** | IBM | [Verify Record](https://www.credly.com/badges/f1b0b57d-1711-4924-bac0-7a34769a0644/linked_in_profile) |
-| 2026-05 | **Create Digital Content, Communicate and Collaborate Online** | Cisco | [Verify Record](https://www.credly.com/badges/d8dc8fb7-42c7-4a4a-9a0a-93756fc30a28/linked_in_profile) |
-| 2026-05 | **Exploring the Lead to Cash Business Process in SAP Customer Experience - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/43443865-430a-41c7-8942-169434778075/linked_in_profile) |
-| 2026-05 | **Exploring SAP Converged Cloud - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/a80cd91c-5d37-4b68-b1cc-db6ae29af465/linked_in_profile) |
-| 2026-05 | **AWS Knowledge: Amazon Q Developer Fundamentals - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/d21e38a4-f681-4c9a-a12a-0ee82969f822/linked_in_profile) |
-| 2026-05 | **Apply AI: Update Your Resume** | Cisco | [Verify Record](https://www.credly.com/badges/431a017f-982f-4aa5-a394-03fff17bed23/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-21.md](linkedin-certifications-2026-08-part-21.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-23.md](linkedin-certifications-2026-08-part-23.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-07.md](./linkedin-certifications-2026-05-part-07.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-09.md](./linkedin-certifications-2026-05-part-09.md)
+

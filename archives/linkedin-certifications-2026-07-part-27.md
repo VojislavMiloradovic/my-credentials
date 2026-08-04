@@ -1,17 +1,29 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 3 of 29
+chunk_part: 27 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 53
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-03.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-27.md
 ---
 
-# LinkedIn Certifications — Part 03
+# LinkedIn Certifications — Part 27
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-02.md](linkedin-certifications-2026-08-part-02.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-04.md](linkedin-certifications-2026-08-part-04.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-26.md](./linkedin-certifications-2026-07-part-26.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-28.md](./linkedin-certifications-2026-07-part-28.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **Harnessing AI for Effective Interviewing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7583a0e48821cc69e0e4f641da1fd165b188cfb1669d1cc5c9c73ec538a30764) |
+| 2026-07 | **Finding a Job on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ca80d6e4514609ece268e39f6455f5d0e94c07a84623cb8e717a7b5b97000d6) |
+| 2026-07 | **Deploy and Monitor in Google Cloud for AWS Professionals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25533410?utm_medium=social) |
+| 2026-07 | **How AI intersects with Sustainability and Business: A Conversation with Amy Luers** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/acf600bf7f6e43a96727f3f8ed40c4a2fd6735d8ae3ce6bef6319a44711ce211) |
+| 2026-07 | **Beyond the Hype: Strategic Steps to Implement AI in your Organization, with Jamie Champagne** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cffd81d0351f9fd205e1c2215becd2c29b5cea26162c4712a4e7d13021fa6480) |
+| 2026-07 | **From Relational Model (SQL) to MongoDB's Document Model** | MongoDB | [Verify Record](https://www.credly.com/badges/b4e44a5b-2f20-4388-91fa-0e84a1dff433/linked_in_profile) |
+| 2026-07 | **Uniting Threat and Risk Management with NIST 800-53 and MITRE ATT&CK** | AttackIQ | [Verify Record](https://www.credly.com/badges/5a3154e0-56dc-49d6-bd27-035a773fc3eb/linked_in_profile) |
+| 2026-07 | **Acronis Cyber Protect – Endpoint Management Basics** | Acronis | [Verify Record](https://www.credly.com/badges/e9ff04b3-1b9b-40be-a241-a663e3a6a251/linked_in_profile) |
+| 2026-07 | **FIPS Frontrunner** | Chainguard | [Verify Record](https://www.credly.com/badges/93ad4964-81b4-45ad-b613-688f0505a759/linked_in_profile) |
+| 2026-07 | **AWS Knowledge: AI Basics - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/fbb02508-656a-4241-b49c-182dcd8f43ee/linked_in_profile) |
+| 2026-07 | **Jeffrey Zeldman: 20 years of Web Design and Community** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/28ee65017261018243ece8f5e45f799303d41409553457218258a29815d5303a) |
+| 2026-07 | **Developing Containerized Applications on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25498091?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-07 | **Chris Crisman: Subjects in Their Spaces** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c90478a2f0442b0539e4e64a41b0eb15a62f0f0f213968e7db50af5d543346ba) |
 | 2026-07 | **Hanson Hsu with Bobby Owsinski: Radically Rethinking Room Acoustics** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dac989a81cb646b51d55e0449a77b42438315f3b972a087f736d50e2714f80b8) |
 | 2026-07 | **Creative Inspirations: Rick Morris, Motion Graphics Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/40155bc039aa812e0b256bb603d90632f5e15a490d0ea259f7dccef8d66189d1) |
@@ -53,18 +65,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Practical GitHub Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f65a8746b041584a1d9420276f46d6157bc740f417618919153ceace9696acaa) |
 | 2026-07 | **The Creative Spark: Krista Donaldson, Social Innovation Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/61a1dc4a9e7e1c1010f4a463d607cac7677e05aff0b8fcb831b6bd8bad8f1310) |
 | 2026-07 | **How to Land a Job and Grow Your Career with Carla Harris** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b0123ad9e3bd2230c5428d559bcd364ec73be3258601faa87cdf08815ce512a1) |
-| 2026-07 | **Developing Applications with Cloud Run Functions on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25465700?utm_medium=social) |
-| 2026-07 | **Leading the Shift: Innovating with Generative AI in Financial Services \| Moody's** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eb559f63b2161e62a7decfde3cf82e1a87a212935c586552fb5805fc92c1ee2c) |
-| 2026-07 | **Preparing for the EU AI Act: A Conversation with Jon Adams** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/778da9e67d6b79f82002ba0a5f3fc3f4445ccf073d8cac72e3dd9e802d09ae52) |
-| 2026-07 | **How AI in Hiring Can Expand Economic Opportunity with Aneesh Raman and Papia Debroy** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/16427763a6eb4972ac6d77a4f7f1ce2883ad334b62a8276e0fb6a161a5e47238) |
-| 2026-07 | **Get Hired and Excel in your Career with Walmart's Chief People Officer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/01d03823e63aef3c7acf97afcfb2cd8b7621b5f9c108465320f974d463b5cb5c) |
-| 2026-07 | **Sebastien Deguy: Allegorithmic Changing the Art of Games** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/92be05ad6911b67c12c4ca6443ad7ee94a00d6e637fad3d8c77e182b187b77e3) |
-| 2026-07 | **Data Pipeline Automation with GitHub Actions Using R and Python** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9812d42cfe78e7d69e3db73711508fbc666b652ca0c768d564c6bfeeccf126f8) |
-| 2026-07 | **AI Agent Builder** | Make | [Verify Record](https://www.credly.com/badges/fee7b9ad-5767-4aa5-add5-8805f835bd06/linked_in_profile) |
-| 2026-07 | **AWS Educate Introduction to Cloud 101 - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/d4422463-a5e9-4133-ac19-c9af85817a0b/linked_in_profile) |
-| 2026-07 | **API Testing and Validation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/58dc66ad000d449fc3186a094739ee0c3f1fe89b9237bd2821628cdeda939a24) |
-| 2026-07 | **AI Automation Explorer** | Make | [Verify Record](https://www.credly.com/badges/99c4064f-40d2-4f1b-8378-0d00d4c74be8/linked_in_profile) |
-| 2026-07 | **Make Advanced** | Make | [Verify Record](https://www.credly.com/badges/18807af5-07e1-4aec-aa9a-1ba7aa9ad7ff/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-02.md](linkedin-certifications-2026-08-part-02.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-04.md](linkedin-certifications-2026-08-part-04.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-26.md](./linkedin-certifications-2026-07-part-26.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-28.md](./linkedin-certifications-2026-07-part-28.md)
+

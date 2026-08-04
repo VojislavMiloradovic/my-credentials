@@ -1,17 +1,26 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 17 of 29
+chunk_part: 13 of 29
 date_range: 2026-05 to 2026-07
-total_entries: 47
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-17.md
+total_entries: 50
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-13.md
 ---
 
-# LinkedIn Certifications — Part 17
+# LinkedIn Certifications — Part 13
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-16.md](linkedin-certifications-2026-08-part-16.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-18.md](linkedin-certifications-2026-08-part-18.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-12.md](./linkedin-certifications-2026-05-part-12.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-14.md](./linkedin-certifications-2026-07-part-14.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **LFD102: A Beginner's Guide to Open Source Software Development** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/2b1cbc35-8af4-467d-bb34-8f081afb8ef0/linked_in_profile) |
+| 2026-07 | **LFQ101: Fundamentals of Quantum Computing** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/dbaa0c7b-652d-4505-a80a-4d8dd2551426/linked_in_profile) |
+| 2026-07 | **LFC102: Inclusive Open Source Community Orientation** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/eb937342-cd3c-4993-8e44-91f0bf12f83c/linked_in_profile) |
+| 2026-07 | **AWS Knowledge: File Storage - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/517a628a-d90a-48b8-858b-8c81048bbf5d/linked_in_profile) |
+| 2026-07 | **Google Play Academy - Store Listing Certificate** | Google Play Academy | [Verify Record](https://www.credential.net/1473fa50-8b83-4ccf-a376-6cd671db8b80) |
+| 2026-07 | **LFS101: Introduction to Linux** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/e0a7c437-4f29-4111-96d2-2c8f15eb14cc/linked_in_profile) |
+| 2026-07 | **AWS Knowledge: Amazon Braket - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/8a9f2e87-0407-4376-8b09-d10fa0b6a6b9/linked_in_profile) |
+| 2026-07 | **Intelligent Diagramming** | Lucid Software | [Verify Record](https://www.credly.com/badges/a5b0658c-f2cb-4aa4-85db-5d2c8eefa144/linked_in_profile) |
+| 2026-07 | **AWS Knowledge: Networking Core - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/80648322-ee54-4e43-9d4b-f311dcc569cd/linked_in_profile) |
 | 2026-07 | **Using SAS Asset and Liability Management** | SAS | [Verify Record](https://www.credly.com/badges/4c315e16-b6f9-4d03-807c-0cfb8b9f89a2/linked_in_profile) |
 | 2026-07 | **SAS Programming 1: Essentials** | SAS | [Verify Record](https://www.credly.com/badges/74736e55-a08c-4746-b4ca-9244487498d3/linked_in_profile) |
 | 2026-07 | **SAS SpeedyStore: Architect and Deploy the SAS Viya Platform with SingleStore** | SAS | [Verify Record](https://www.credly.com/badges/0c7b5ada-1b12-40b5-ac53-df39416579ec/linked_in_profile) |
@@ -53,12 +62,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05 | **Working with Notebooks in Vertex AI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198950?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Select a Google Cloud Database for Your Applications** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198703?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Build AI Agents with Enterprise Databases** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198352?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Looker Studio Essentials** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24173032?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **AI Boost Bites: Presentations in Seconds with Nano Banana Pro** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171873?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **AI Boost Bites: Become a Homework Hero for Your Kids** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171850?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **AI Boost Bites: Productivity On the Go with NotebookLM** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171764?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **AI Boost Bites: How Google's L&D Uses AI to build Training Programs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171726?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **AI Boost Bites: Build Charts with a Prompt** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171625?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-16.md](linkedin-certifications-2026-08-part-16.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-18.md](linkedin-certifications-2026-08-part-18.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-12.md](./linkedin-certifications-2026-05-part-12.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-14.md](./linkedin-certifications-2026-07-part-14.md)
+

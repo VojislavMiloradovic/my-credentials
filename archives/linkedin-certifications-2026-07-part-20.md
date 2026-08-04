@@ -1,17 +1,29 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 10 of 29
+chunk_part: 20 of 29
 date_range: 2026-07 to 2026-07
-total_entries: 44
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-10.md
+total_entries: 45
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-20.md
 ---
 
-# LinkedIn Certifications — Part 10
+# LinkedIn Certifications — Part 20
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-09.md](linkedin-certifications-2026-08-part-09.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-11.md](linkedin-certifications-2026-08-part-11.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-19.md](./linkedin-certifications-2026-07-part-19.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-21.md](./linkedin-certifications-2026-07-part-21.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **Nano Tips to Use AI to Be a More Effective Manager with Ashley Herd** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/079ff2be33c670cf824d6bff1c6d60af67ad12f8f67ae70aff4f0d528b6c022a) |
+| 2026-07 | **Automating Your Work with Custom GPTs (No Code Required) (2025)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2cf33f14c1f4b0732358bbe8397a7d3dc153d9292be3d9c881db5f9bee8a1d35) |
+| 2026-07 | **Become a Generative AI Power Prompter and Content Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/71276e4169e0da01412f33a3990cc3eddb8da44346fda1213c625f56d2f21ef7) |
+| 2026-07 | **Governing AI Agents: Visibility and Control** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6f49e14bbfef9df3d8e495a6802cd7face18ba633b038fefae9f74cf73e0dac7) |
+| 2026-07 | **Governing Agentic AI Systems by All Tech Is Human** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0da5ec3fb8ebb31aee341f54983a88f7cc28e48fdee12190e9f8ecfd12d17f63) |
+| 2026-07 | **Agentic AI: Building Data-First AI Agents** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/411dee8caf309fac0e10b2fa9d1f653f92bbacff4b3d0ee0b58af78d87c2a003) |
+| 2026-07 | **How to Land a Board Seat with Baroness Dambisa Moyo** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4a7955d1c4143caf4136602c369195c33045e8f7c6dc98ead3ecf1148c24fe55) |
+| 2026-07 | **The AI Agent Landscape: Use Cases, Risks, and Impact** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c1aa8b882b1dbb11602ba0a0183ac045e7749a31a61a2910624a3d4efde38a08) |
+| 2026-07 | **Model Context Protocol (MCP) for Beginners by Microsoft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/59acefd098a532176b330202b4de68f53b74d18652119b6a20a241951ed7a2b0) |
+| 2026-07 | **Agentic AI Business Strategy: A Conversation with Charlene Li** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4458a15d853857f28f55af0c3965bd593f9853b10ac6e00231c197094ef12496) |
+| 2026-07 | **Vulnerability Management Certificate** | Chainguard | [Verify Record](https://verify.skilljar.com/c/kdb9ts7odhps) |
+| 2026-07 | **Chainguard Vulnslayer** | Chainguard | [Verify Record](https://www.credly.com/badges/c4a36cd5-da9e-4d5c-b281-7ad49c7e0a75/linked_in_profile) |
 | 2026-07 | **LFS162: Introduction to DevOps and Site Reliability Engineering** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/f817c27f-3003-4fbe-a870-f0edbf0fb604/linked_in_profile) |
 | 2026-07 | **LFC191: Open Source Licensing Basics for Software Developers** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/b3e5eab0-8654-434e-a86c-23f8481036ff/linked_in_profile) |
 | 2026-07 | **LFS114: Introduction to free5GC** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/b602ddb6-a1da-4519-aa64-2757df49381e/linked_in_profile) |
@@ -45,17 +57,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **What You Need to Know About Crafting a Stand-out Resume** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f272a770a7294440f647201c83e67b987f3d74a40e3109e359097b70a882e074) |
 | 2026-07 | **Aaron Dignan on Transformational Change** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/74eba71f1c6ebb27cca43df22151488d3ce52f90408d4df82653cfde5bf663ee) |
 | 2026-07 | **AWS Knowledge: AI Driven Development Lifecycle Foundations – Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/f1880883-9103-4d1b-8857-012568263bb3/linked_in_profile) |
-| 2026-07 | **Creative Inspirations: Doyald Young, Logotype Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eacfa3524f0540f0ea027d9ab5580c4995a5fccb733cd35e1c8728955dfb4afd) |
-| 2026-07 | **In The Studio with Shaky Feelin'** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1b7192dacd265f5f952570a75e7593f3f1ba51da5f11d930ca3947a9570694b7) |
-| 2026-07 | **The Creative Spark: Iyeoka, Recording Artist and Poet** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/63330d5e84a785b39e99650bb673c209e42548aba224909167b234866235dd2c) |
-| 2026-07 | **Evan Cheng Character Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/82d6c4c34d01ffb92cfad09706bf31629dd075863b1836bddd23226327ce03b2) |
-| 2026-07 | **Use APIs to Work with Cloud Storage Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/3a261bec-3e3f-41ca-b362-3eaf9f06bd90/linked_in_profile) |
-| 2026-07 | **Creative Inspirations: Renegade Animation, Animation Studio** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d669b9c046dd01b403c656d62960852c6f4488e9c2fb6ab66ef34c2a7c32c0ed) |
-| 2026-07 | **The Basics of Google Cloud Compute Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/1add8a23-2f6c-4308-bcd7-39c83fcc42f6/linked_in_profile) |
-| 2026-07 | **Creative Inspirations: Hot Studio, Experience Design** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/723933c5a28d7e997bbe2d7fe2a40b113fa078cfe6b806f53a287379a427a88e) |
-| 2026-07 | **Nathan Shedroff on Design Strategy and the Merging of Business and Design** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/52380acd49ff41b75288330235cf1237398d069a6a76534a59b93171042ea22e) |
-| 2026-07 | **Sylvia Massy: Unconventional Recording** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7befabd742c5fba84da10fe73608e299e9183fa9c2f24d94a50f97a758c09fa4) |
-| 2026-07 | **Flight Club: Drones and the Dawn of Personal Aerial Imaging** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c2de0e6266d831086844528aff58686d69b64fb56a21ba9ce7d8d10b4281c73c) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-09.md](linkedin-certifications-2026-08-part-09.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-11.md](linkedin-certifications-2026-08-part-11.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-19.md](./linkedin-certifications-2026-07-part-19.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-21.md](./linkedin-certifications-2026-07-part-21.md)
+

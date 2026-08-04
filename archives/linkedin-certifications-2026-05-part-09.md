@@ -1,17 +1,25 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 21 of 29
+chunk_part: 9 of 29
 date_range: 2026-05 to 2026-05
-total_entries: 53
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-21.md
+total_entries: 52
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-09.md
 ---
 
-# LinkedIn Certifications — Part 21
+# LinkedIn Certifications — Part 09
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-20.md](linkedin-certifications-2026-08-part-20.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-22.md](linkedin-certifications-2026-08-part-22.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-08.md](./linkedin-certifications-2026-05-part-08.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-10.md](./linkedin-certifications-2026-05-part-10.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-05 | **Buyer Integration for RISE with SAP S/4HANA Cloud, private edition, premium plus** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xunus-fahyk-taleg-gegig-fyril) |
+| 2026-05 | **SAP Business Network for Procurement, Buyer Account Overview** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xibil-dymim-sirup-magyl-galav) |
+| 2026-05 | **SAP Business Network Supplier Portal Fundamentals** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xomut-balyp-kavic-teriv-vepyt) |
+| 2026-05 | **NASA Open Science 101** | NASA - National Aeronautics and Space Administration | [Verify Record](https://www.credly.com/badges/b367bbf7-307f-40f3-82ac-975d987f525f/linked_in_profile) |
+| 2026-05 | **Generative AI Overview for Project Managers** | Project Management Institute | [Verify Record](https://www.credly.com/badges/be0d5350-61bb-416c-ac0d-13fe417cdf7c/linked_in_profile) |
+| 2026-05 | **Fundamentals of Agile Project Management** | Project Management Institute | [Verify Record](https://www.credly.com/badges/5829bdb0-b2dd-4e23-9aa4-22c6ea61c8b4/linked_in_profile) |
+| 2026-05 | **Fundamentals of Predictive Project Management** | Project Management Institute | [Verify Record](https://www.credly.com/badges/6ff63094-6930-44d1-83c8-fedaae412178/linked_in_profile) |
+| 2026-05 | **Dremio Verified AI Architect** | Dremio | [Verify Record](https://www.credly.com/badges/21f0649c-434c-42f7-a233-d7b1a86b18bf/linked_in_profile) |
 | 2026-05 | **Dremio Verified Data Product Developer** | Dremio | [Verify Record](https://www.credly.com/badges/ffd9f7c2-9815-4f28-bd5f-76ada869307d/linked_in_profile) |
 | 2026-05 | **Dremio Verified Reflections Specialist** | Dremio | [Verify Record](https://www.credly.com/badges/8a752ed3-b824-4874-b24c-9962301128ab/linked_in_profile) |
 | 2026-05 | **Dremio Verified Data Analyst** | Dremio | [Verify Record](https://www.credly.com/badges/9fcf4bf3-0cca-4ad9-b9e6-65fd1a08e707/linked_in_profile) |
@@ -56,15 +64,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05 | **Secure AI Workflows with Auth0 for AI Agents** | Okta | [Verify Record](https://www.credly.com/badges/ed47f33d-7002-4feb-a1d2-c682ec20879d/linked_in_profile) |
 | 2026-05 | **Manage BYOD via Identity-Aware Integration** | Okta | [Verify Record](https://www.credly.com/badges/959093f9-1e07-4096-be63-35d61fbe8113/linked_in_profile) |
 | 2026-05 | **Getting Started with Concur Expense Standard Edition for Administrators - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/ce034733-a09d-4b7f-818f-c321dc339316/linked_in_profile) |
-| 2026-05 | **Privacy for Agencies and Partners Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/ce77e9e9-f2c5-4ff4-a2bb-3e5ab37134c3) |
-| 2026-05 | **Display & Video 360 Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/0658506c-3b28-4deb-9088-ab7d34d70ff9) |
-| 2026-05 | **Digital Trust for All** | Intel | [Verify Record](https://www.credly.com/badges/617235ff-34bf-4063-8972-bdad6126ad11/linked_in_profile) |
-| 2026-05 | **Define Your Users in Okta** | Okta | [Verify Record](https://www.credly.com/badges/bbc3e057-150e-4ba8-80f4-57fe61b0a4c4/linked_in_profile) |
-| 2026-05 | **Manage User Profiles in UD** | Okta | [Verify Record](https://www.credly.com/badges/23833ee2-c157-450c-963c-0eae083fefea/linked_in_profile) |
-| 2026-05 | **Define a Secure Policy Structure** | Okta | [Verify Record](https://www.credly.com/badges/c2ff8b68-4187-4799-b8b5-27c9fa37ef45/linked_in_profile) |
-| 2026-05 | **Implement Phishing-Resistant Authentication** | Okta | [Verify Record](https://www.credly.com/badges/c34fa8f3-05dc-434e-884f-8058eb03679f/linked_in_profile) |
-| 2026-05 | **Site Reliability Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/82670fe2-987b-43c4-8023-09500fa4696b/linked_in_profile) |
-| 2026-05 | **Frontend Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/e8ec0d30-25e8-4a3b-8747-3a43181664a7/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-20.md](linkedin-certifications-2026-08-part-20.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-22.md](linkedin-certifications-2026-08-part-22.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-08.md](./linkedin-certifications-2026-05-part-08.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-10.md](./linkedin-certifications-2026-05-part-10.md)
+

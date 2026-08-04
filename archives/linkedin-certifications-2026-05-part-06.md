@@ -1,17 +1,26 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 24 of 29
+chunk_part: 6 of 29
 date_range: 2026-03 to 2026-05
-total_entries: 40
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-24.md
+total_entries: 43
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-06.md
 ---
 
-# LinkedIn Certifications — Part 24
+# LinkedIn Certifications — Part 06
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-23.md](linkedin-certifications-2026-08-part-23.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-25.md](linkedin-certifications-2026-08-part-25.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-03-part-05.md](./linkedin-certifications-2026-03-part-05.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-07.md](./linkedin-certifications-2026-05-part-07.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-05 | **Digital Mindset** | IBM | [Verify Record](https://www.credly.com/badges/c195427e-a1f4-46f7-9695-5e86dd6acff9/linked_in_profile) |
+| 2026-05 | **Positioning SAP Business Data Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xysyd-cenam-bohyc-povid-fesiv) |
+| 2026-05 | **Introducing RISE with SAP Methodology for SAP Partners and Customers - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xynof-pypuc-fyfec-kavun-koraf) |
+| 2026-05 | **AI for Networking** | Cisco | [Verify Record](https://www.credly.com/badges/4653aa94-2493-4d57-8d12-8d26c7f43003/linked_in_profile) |
+| 2026-05 | **Getting Started with Generative AI** | IBM | [Verify Record](https://www.credly.com/badges/7140204d-e728-4dcd-a860-876e5d2672d9/linked_in_profile) |
+| 2026-05 | **Create Your First Gemini Enterprise Application** | Google | [Verify Record](https://www.credly.com/badges/d67333ed-51e6-4fec-bddf-dbc23580a9c9/linked_in_profile) |
+| 2026-05 | **Administering SAP Sustainability Control Tower - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/dba27b81-f8ed-41e3-ad20-741567ad422f/linked_in_profile) |
+| 2026-05 | **Getting Started with SAP Sustainability Data Exchange - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/55a5bc91-3d76-435e-ad97-4b25de361364/linked_in_profile) |
+| 2026-05 | **Getting Started with Cybersecurity** | IBM | [Verify Record](https://www.credly.com/badges/7228bd8f-e9fb-4055-b502-62797ca74e23/linked_in_profile) |
 | 2026-05 | **Introducing Cybersecurity - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/e8c18832-f005-4a59-bcb2-dd652d99f1ca/linked_in_profile) |
 | 2026-05 | **Digital Literacy** | IBM | [Verify Record](https://www.credly.com/badges/e1117305-2738-4c50-b5dd-1ed2589bd31f/linked_in_profile) |
 | 2026-05 | **Discovering High-Value Opportunities for Agentic AI - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xunoc-dyvep-nudal-ripab-mosam) |
@@ -46,12 +55,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-03 | **Google Cloud AI and ML Solutions for the Public Sector** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23053470?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Introduction to Looker** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22909077?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Networking in Google Cloud: Load Balancing** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22878671?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Networking in Google Cloud: Routing and Addressing** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22853188?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Networking in Google Cloud: Network Architecture** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22838249?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Networking in Google Cloud: Hybrid and Multicloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22837772?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Gemini for Network Engineers** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22742333?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Plan Your Cloud Next Generation Firewall Needs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691283?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Introduction to Cloud Next Generation Firewall** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691267?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-23.md](linkedin-certifications-2026-08-part-23.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-25.md](linkedin-certifications-2026-08-part-25.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-03-part-05.md](./linkedin-certifications-2026-03-part-05.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-07.md](./linkedin-certifications-2026-05-part-07.md)
+

@@ -2,16 +2,24 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 15 of 29
 date_range: 2026-07 to 2026-07
-total_entries: 47
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-15.md
+total_entries: 46
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-15.md
 ---
 
 # LinkedIn Certifications — Part 15
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-14.md](linkedin-certifications-2026-08-part-14.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-16.md](linkedin-certifications-2026-08-part-16.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-14.md](./linkedin-certifications-2026-07-part-14.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-16.md](./linkedin-certifications-2026-07-part-16.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **Break into AI: Data Annotation Essentials** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6917f8e656349015c56f897e4f4d0b0cda135e9438a31d260a5670af3a1ffb49) |
+| 2026-07 | **Nano Tips for Moving to the Cloud for Business Leaders with Rashim Mogha** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3bcf5a136f724b3cf7344f782a24c2b35ed0e7a933a7aea565cf082d72348eee) |
+| 2026-07 | **What AI Can Teach Us about Designing Better KPIs** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ee15ec8d728af987306713a2fd313defcdd40a0d95d4a95cac5c2f170c82f36c) |
+| 2026-07 | **A Smarter Approach to Measuring Customer Experience** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2c5e84a5deeb3550b62e0251674156e322cd8abc15f2e2b7d3e6ea4e00ef6ac9) |
+| 2026-07 | **A Standalone Project: Create an Automated Approach to Collect, Analyze, and Visualize Energy Consumption Data for Better Decision-Making** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/25e32efdebd461677e09dae487bf75e81eb654eb121a9bddbf91826177fe47d2) |
+| 2026-07 | **Smart Cities: Solving Urban Problems Using Technology** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cbe206eadb88c7860bff8ced9244343c9510fc2862136dcdbdf869ea5df8fc9d) |
+| 2026-07 | **Scaling Generative AI: Building a Strategy for Adoption and Expansion** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f9de7a0e7ae6411b97f87903d26ca507feca0d4ecba404f232c31767f306805c) |
+| 2026-07 | **Vibe Coding and Rapid Prototyping with AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4c1e2d2552e0bdaf1e7bda59ed0dd3e29c0187531f3ae5de453856476c649b4c) |
 | 2026-07 | **Exploring AIOps** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bccc24e56d5a419b295f6a401cc060843baafb0297889dded2dced8859189f16) |
 | 2026-07 | **LFS116: PyTorch and Deep Learning for Decision Makers** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/d6f30813-946b-4574-ad72-b49738d949ed/linked_in_profile) |
 | 2026-07 | **LFS180: Introduction to DevSecOps for Managers** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/49eca85f-9355-4b7c-8ce5-584c49d63fbe/linked_in_profile) |
@@ -50,15 +58,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **30 Practical AI Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/94ca15b57c3f704111463e750b3a955ba650f89afec1be4743935e2e020774cd) |
 | 2026-07 | **Building AI Literacy and Fluency with Microsoft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/12ab8be8582b8d57be3991161cca21eb49fd9fcfd5842a5ebcecf468fbe79655) |
 | 2026-07 | **Human-First AI: Building AI Products That People Actually Use** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c4582ac8a806aa366907d553ddb496d42ac675fdce69650d726194ed4e3f7265) |
-| 2026-07 | **AI Evaluations for Product Leaders and AI PMs** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6d5c485a7dc9d2885649692f53d819e83c93a40acf38f7cbe0bbe2a138cc0626) |
-| 2026-07 | **LFD110: Introduction to RISC-V** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/ca3fb10f-24a2-4c82-a275-82ca9f08193a/linked_in_profile) |
-| 2026-07 | **LFD133: Introduction to WebAssembly** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/8473781e-b134-4cb1-850b-c72985f5822d/linked_in_profile) |
-| 2026-07 | **LFS146: Introduction to Cilium** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/d6703f61-4648-41b6-9949-01827cbd6c78/linked_in_profile) |
-| 2026-07 | **LFS144: Introduction to Istio** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/bb9b403f-05c9-47c8-8e63-e7a2c4eef99b/linked_in_profile) |
-| 2026-07 | **Tech Fundamentals** | Acronis | [Verify Record](https://www.credly.com/badges/b006a1c2-03c5-426f-9b4a-b667e033047d/linked_in_profile) |
-| 2026-07 | **Intel® Gaudi® AI Accelerator** | Intel | [Verify Record](https://www.credly.com/badges/f38defb3-960c-421e-af23-fe3699697623/linked_in_profile) |
-| 2026-07 | **AWS Knowledge: Events and Workflows - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/35c9dfd3-ab0b-4125-baf2-a67f19f960c7/linked_in_profile) |
-| 2026-07 | **AI-Driven Project Management: Techniques and Insights with Ricardo Vargas** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a99cf8a4bfb015ab7c897eb1038f728d23f3a49ce4126039bc656dada7fedbda) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-14.md](linkedin-certifications-2026-08-part-14.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-16.md](linkedin-certifications-2026-08-part-16.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-14.md](./linkedin-certifications-2026-07-part-14.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-16.md](./linkedin-certifications-2026-07-part-16.md)
+

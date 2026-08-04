@@ -1,17 +1,28 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 7 of 29
+chunk_part: 23 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 46
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-07.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-23.md
 ---
 
-# LinkedIn Certifications — Part 07
+# LinkedIn Certifications — Part 23
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-06.md](linkedin-certifications-2026-08-part-06.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-08.md](linkedin-certifications-2026-08-part-08.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-22.md](./linkedin-certifications-2026-07-part-22.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-24.md](./linkedin-certifications-2026-07-part-24.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **Nano Tips for Using AI in the Job Search with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a3dd97158bcfeabee945ee220924414173fb1d5bbd2c694d375d58330f0ca0a8) |
+| 2026-07 | **Nano Tips for Understanding AI's Impact to Business with Marco Andre** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4e807863cbb82e544917219c9a4f9975a36ab1f78a1c379b708b1e90c990095f) |
+| 2026-07 | **Nano Tips for Career Success and Daily Wins with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d4751c8aa6f87f3960668aeac8e812f96c0a052e952297a1723e46355b5f4642) |
+| 2026-07 | **Nano Tips For Building a Career in Cybersecurity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/46787484b5a7def9b9500a7f73696124c0b7c3eca978747896c8e9c2eda551bf) |
+| 2026-07 | **Discovering Entrepreneurship** | Cisco | [Verify Record](https://www.credly.com/badges/e0ae2fb9-9f66-424a-a990-8cca00679943/linked_in_profile) |
+| 2026-07 | **Nano Tips for Using Chat GPT to 10x Your Productivity at Work with Gianluca Mauro** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/708d71a91fcc860b70812f9851b60436767d3a4879ebf431878971872807860b) |
+| 2026-07 | **Nano Tips for Powerful Leadership Storytelling with Christina Blacken** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b9f2ed3cb9e430e1894006f7b9083ae85ad15a6e40771e83fc787be56a5da86c) |
+| 2026-07 | **The CEO Guide to Leading Through Uncertainty with Howard Shultz** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/09a890bf2d5a52b61ae0d4a0eb1f998c419ce64a5f210a3676effd6c154fe234) |
+| 2026-07 | **Where to Start with AI and Business Strategy with Chris McKay** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e0aaaaa0b4e14d7ff75db705e9cd28bc145a5847fdc2afa7c0f6184943e0307f) |
+| 2026-07 | **Generative AI for Marketing Professionals** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e4f5ee92eda59d585d29944c954d1476ed302a33c6f6dda2c1092f1bab0d5bfa) |
+| 2026-07 | **Build Action Flows** | Celonis | [Verify Record](https://www.credly.com/badges/44ae4fe8-2731-49a9-9f56-d1570fe1929e/linked_in_profile) |
 | 2026-07 | **Process Mining - From Theory to Execution** | Celonis | [Verify Record](https://www.credly.com/badges/98d698c4-3ab6-4280-a13c-decb2a975a90/linked_in_profile) |
 | 2026-07 | **Get Data into Celonis** | Celonis | [Verify Record](https://www.credly.com/badges/81a7aff4-f3b9-4a3e-9a17-b3a01fe5a8a8/linked_in_profile) |
 | 2026-07 | **Write PQL Queries** | Celonis | [Verify Record](https://www.credly.com/badges/4d55a0a8-12a1-4bd6-b480-04adeaa7e320/linked_in_profile) |
@@ -47,17 +58,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Nano Tips for Using AI to Streamline Project Management with Jean Kang** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/09fd72258721b32bff58314c22666abed04741a0a268bb5612a898e7780be80a) |
 | 2026-07 | **Build AI Agents and Automate Workflows with n8n** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4714da52f0c25ac2d19a5abd19675e261787ed92109d326e1e4941833e3c39f0) |
 | 2026-07 | **Arcade Voyage: Identity Management and Pre-trained AI APIs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25200680?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Cloud Speech API: 3 Ways Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5/linked_in_profile) |
-| 2026-07 | **Nano Tips for Small Acts of Leadership with Shawn Hunter** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/63795dd9c9f193c7db80f51df86a3009a7992e54d8d12f96a5bc0d44b680e274) |
-| 2026-07 | **Nano Tips to Project Confidence and Executive Presence with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b01350b7c3539a0a759245fc4fe9eef684b18472a1d7de0e2e118a486d618283) |
-| 2026-07 | **Nano Tips for Learning on the Job with Dr. Jazz** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9d84b1854dada4235d25dba36a33e04a986a0bbe75c0ced0a205234c4057a613) |
-| 2026-07 | **Nano Tips for a Pitch That Persuades without Pressure with Alex James** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/db7f6cf7550857aeb1d29ef2bc5109a7f19a0b094d40ebb00d61b1a39bb32e23) |
-| 2026-07 | **Creating Your First Marketing Videos on LinkedIn Nano Tips with Shay Rowbottom** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5928cbce7f5d181260d58002f4f3c0f4a914c8547e422dddfa0d0181b7b09205) |
-| 2026-07 | **Nano Tips for Effortless Influence with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d841cac6c40ea38e6dec921912ad1ead09d845c8296fa4c804fa6ea4438a3fc3) |
-| 2026-07 | **Nano Tips to Speak Up in Meetings with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5f3bf628bd887a99f23364ad971e65ebbf1973fe87ff04d246d6bd276dd67169) |
-| 2026-07 | **Nano Tips for Smarter Learning and Better Relationships with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/845cd00d4d771fcc97fc59a15217211ce7931a1159712dc7df0081591c72e52a) |
-| 2026-07 | **Neil Blumenthal on Branding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/69a78c2ac563ab6aa679be108118d8b507171799fda848187acbb33a3f0f449d) |
-| 2026-07 | **Nano Tips for Mastering Job Interviews with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7d630f52c382da239cfe05b56d77d0997984b433d6366038e91d42ec44ab6ecc) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-06.md](linkedin-certifications-2026-08-part-06.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-08.md](linkedin-certifications-2026-08-part-08.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-22.md](./linkedin-certifications-2026-07-part-22.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-24.md](./linkedin-certifications-2026-07-part-24.md)
+

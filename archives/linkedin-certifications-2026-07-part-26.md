@@ -1,17 +1,29 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 4 of 29
+chunk_part: 26 of 29
 date_range: 2026-07 to 2026-07
-total_entries: 44
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-04.md
+total_entries: 45
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-26.md
 ---
 
-# LinkedIn Certifications — Part 04
+# LinkedIn Certifications — Part 26
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-03.md](linkedin-certifications-2026-08-part-03.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-05.md](linkedin-certifications-2026-08-part-05.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-25.md](./linkedin-certifications-2026-07-part-25.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-27.md](./linkedin-certifications-2026-07-part-27.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **Developing Applications with Cloud Run Functions on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25465700?utm_medium=social) |
+| 2026-07 | **Leading the Shift: Innovating with Generative AI in Financial Services \| Moody's** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eb559f63b2161e62a7decfde3cf82e1a87a212935c586552fb5805fc92c1ee2c) |
+| 2026-07 | **Preparing for the EU AI Act: A Conversation with Jon Adams** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/778da9e67d6b79f82002ba0a5f3fc3f4445ccf073d8cac72e3dd9e802d09ae52) |
+| 2026-07 | **How AI in Hiring Can Expand Economic Opportunity with Aneesh Raman and Papia Debroy** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/16427763a6eb4972ac6d77a4f7f1ce2883ad334b62a8276e0fb6a161a5e47238) |
+| 2026-07 | **Get Hired and Excel in your Career with Walmart's Chief People Officer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/01d03823e63aef3c7acf97afcfb2cd8b7621b5f9c108465320f974d463b5cb5c) |
+| 2026-07 | **Sebastien Deguy: Allegorithmic Changing the Art of Games** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/92be05ad6911b67c12c4ca6443ad7ee94a00d6e637fad3d8c77e182b187b77e3) |
+| 2026-07 | **Data Pipeline Automation with GitHub Actions Using R and Python** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9812d42cfe78e7d69e3db73711508fbc666b652ca0c768d564c6bfeeccf126f8) |
+| 2026-07 | **AI Agent Builder** | Make | [Verify Record](https://www.credly.com/badges/fee7b9ad-5767-4aa5-add5-8805f835bd06/linked_in_profile) |
+| 2026-07 | **AWS Educate Introduction to Cloud 101 - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/d4422463-a5e9-4133-ac19-c9af85817a0b/linked_in_profile) |
+| 2026-07 | **API Testing and Validation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/58dc66ad000d449fc3186a094739ee0c3f1fe89b9237bd2821628cdeda939a24) |
+| 2026-07 | **AI Automation Explorer** | Make | [Verify Record](https://www.credly.com/badges/99c4064f-40d2-4f1b-8378-0d00d4c74be8/linked_in_profile) |
+| 2026-07 | **Make Advanced** | Make | [Verify Record](https://www.credly.com/badges/18807af5-07e1-4aec-aa9a-1ba7aa9ad7ff/linked_in_profile) |
 | 2026-07 | **A Content Marketer's Guide to Responsible AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ae2228d479f6f5c04932d19e205474f8e83a57b644a937ee4454a36972fec895) |
 | 2026-07 | **Create LinkedIn Posts that Stand Out with Jamé Jackson** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a3948da7bb21e6ab68c1b0968ecffd55bac5349c7b90620d28c2f8e6a9827364) |
 | 2026-07 | **Make Intermediate** | Make | [Verify Record](https://www.credly.com/badges/e0e50130-c575-43db-8cee-0e89a09f6f86/linked_in_profile) |
@@ -45,17 +57,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Foundations of Purple Teaming** | AttackIQ | [Verify Record](https://www.credly.com/badges/1ae8e7ed-2bc5-48c6-87e3-c8a427c96c86/linked_in_profile) |
 | 2026-07 | **Well-Architected Proficient** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/5956f2ee-34a1-400c-8d10-a6a9d75a08a8/linked_in_profile) |
 | 2026-07 | **Cloud Tech Associate Advanced Data Loss Prevention** | Acronis | [Verify Record](https://www.credly.com/badges/1e7b88fd-f5b2-4563-9cb8-6815ee1dfedc/linked_in_profile) |
-| 2026-07 | **Nano Tips for Tactical Marketing with ChatGPT with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eabbd5263f954752afa2f2ed018c9b1773e426cc20619e7a05a56a3d607d06ce) |
-| 2026-07 | **AI Fluency: Generative AI for Career Coaches by Microsoft and NAWB** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e6a84b7a3453aa455ba3865e70f8930a8236e7e5fa98f762cf58827b99b0d139) |
-| 2026-07 | **Arcade Trail: Google Workspace Administration** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25402530?utm_medium=social) |
-| 2026-07 | **Nano Tips for Leading Change as a New Manager with Chris Williams** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6483c691bd4ffb80c482d6f72ec5e4e62b183b44c7d286fef14085894f40180a) |
-| 2026-07 | **Guided Lab: Data Analysis and Feature Engineering with Python** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4bb0fd1645d1fa89e8ca9e6a5b8ee08e0ac4f8afd770479c339b6a04a961861d) |
-| 2026-07 | **Nano Tips for Future-Proofing Your Career with AI with Piers Linney** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a2875086fb545a01e34dcd9e9c4a8508c88db489f1b1ae033b81e538e021bc37) |
-| 2026-07 | **AI Fluency for Trades Educators: Using Generative AI and Microsoft Copilot in Apprenticeship Training by Microsoft and NABTU** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1cd0175e7dc04cd25f26a871d589d9e609129caad2521087aeddf19dce2e790e) |
-| 2026-07 | **Guided Lab: AI-Assisted SQL** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/97414ae60ef7214ef03e3b1bbb103a079370a9105d5f646485bae0a3869c02ac) |
-| 2026-07 | **AI Foundations for the Skilled Trades: Getting Started with Generative AI and Microsoft Copilot by Microsoft and NABTU** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3bb01e4abdfddc1fe3ef6ba98d8014b2fe91e39d6e4ffba831a695802c0b3262) |
-| 2026-07 | **AWS Educate Introduction to Generative AI - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/126fcf1c-a7ce-4076-bfb5-8841cd2aac83/linked_in_profile) |
-| 2026-07 | **data.world Admin Certification** | data.world | [Verify Record](https://www.credly.com/badges/fa194f5e-7087-4936-ba7b-043ed46f68ac/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-03.md](linkedin-certifications-2026-08-part-03.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-05.md](linkedin-certifications-2026-08-part-05.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-25.md](./linkedin-certifications-2026-07-part-25.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-27.md](./linkedin-certifications-2026-07-part-27.md)
+

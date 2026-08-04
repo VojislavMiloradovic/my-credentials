@@ -1,17 +1,25 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 23 of 29
+chunk_part: 7 of 29
 date_range: 2026-05 to 2026-05
-total_entries: 53
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-23.md
+total_entries: 52
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-07.md
 ---
 
-# LinkedIn Certifications — Part 23
+# LinkedIn Certifications — Part 07
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-22.md](linkedin-certifications-2026-08-part-22.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-24.md](linkedin-certifications-2026-08-part-24.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-06.md](./linkedin-certifications-2026-05-part-06.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-08.md](./linkedin-certifications-2026-05-part-08.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-05 | **Introduction to Data Science** | Cisco | [Verify Record](https://www.credly.com/badges/5c007983-0d07-43d6-84ec-c7f15893e2e1/linked_in_profile) |
+| 2026-05 | **Configuring SAP SuccessFactors Employee Central Global Benefits - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/dcfae2db-fea4-4117-8b77-7eeef66e1996/linked_in_profile) |
+| 2026-05 | **Build an AI Agent** | IBM | [Verify Record](https://www.credly.com/badges/f1b0b57d-1711-4924-bac0-7a34769a0644/linked_in_profile) |
+| 2026-05 | **Create Digital Content, Communicate and Collaborate Online** | Cisco | [Verify Record](https://www.credly.com/badges/d8dc8fb7-42c7-4a4a-9a0a-93756fc30a28/linked_in_profile) |
+| 2026-05 | **Exploring the Lead to Cash Business Process in SAP Customer Experience - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/43443865-430a-41c7-8942-169434778075/linked_in_profile) |
+| 2026-05 | **Exploring SAP Converged Cloud - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/a80cd91c-5d37-4b68-b1cc-db6ae29af465/linked_in_profile) |
+| 2026-05 | **AWS Knowledge: Amazon Q Developer Fundamentals - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/d21e38a4-f681-4c9a-a12a-0ee82969f822/linked_in_profile) |
+| 2026-05 | **Apply AI: Update Your Resume** | Cisco | [Verify Record](https://www.credly.com/badges/431a017f-982f-4aa5-a394-03fff17bed23/linked_in_profile) |
 | 2026-05 | **Application Rationalization with SAP LeanIX - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/6eefb85c-80db-438b-b023-afa6c3b68acd/linked_in_profile) |
 | 2026-05 | **Agile Explorer** | IBM | [Verify Record](https://www.credly.com/badges/673d3787-e37f-499d-9ac5-cc5398103dd7/linked_in_profile) |
 | 2026-05 | **Exploring SAP SuccessFactors Embedded Launch Activities for Project Manager - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/87204098-710e-49b0-8a64-5c1183a78d70/linked_in_profile) |
@@ -56,15 +64,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05 | **Make Agentic AI Work for You** | IBM | [Verify Record](https://www.credly.com/badges/0162b3cd-2bf0-4a6e-8335-3ece7487f265/linked_in_profile) |
 | 2026-05 | **Implementing SAP Self-Billing Cockpit - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xolag-katug-gehif-bisyh-kydaf) |
 | 2026-05 | **Introducing the Agribusiness Industry - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xutup-cafoc-delit-hosut-cepot) |
-| 2026-05 | **Digital Mindset** | IBM | [Verify Record](https://www.credly.com/badges/c195427e-a1f4-46f7-9695-5e86dd6acff9/linked_in_profile) |
-| 2026-05 | **Positioning SAP Business Data Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xysyd-cenam-bohyc-povid-fesiv) |
-| 2026-05 | **Introducing RISE with SAP Methodology for SAP Partners and Customers - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xynof-pypuc-fyfec-kavun-koraf) |
-| 2026-05 | **AI for Networking** | Cisco | [Verify Record](https://www.credly.com/badges/4653aa94-2493-4d57-8d12-8d26c7f43003/linked_in_profile) |
-| 2026-05 | **Getting Started with Generative AI** | IBM | [Verify Record](https://www.credly.com/badges/7140204d-e728-4dcd-a860-876e5d2672d9/linked_in_profile) |
-| 2026-05 | **Create Your First Gemini Enterprise Application** | Google | [Verify Record](https://www.credly.com/badges/d67333ed-51e6-4fec-bddf-dbc23580a9c9/linked_in_profile) |
-| 2026-05 | **Administering SAP Sustainability Control Tower - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/dba27b81-f8ed-41e3-ad20-741567ad422f/linked_in_profile) |
-| 2026-05 | **Getting Started with SAP Sustainability Data Exchange - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/55a5bc91-3d76-435e-ad97-4b25de361364/linked_in_profile) |
-| 2026-05 | **Getting Started with Cybersecurity** | IBM | [Verify Record](https://www.credly.com/badges/7228bd8f-e9fb-4055-b502-62797ca74e23/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-22.md](linkedin-certifications-2026-08-part-22.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-24.md](linkedin-certifications-2026-08-part-24.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-05-part-06.md](./linkedin-certifications-2026-05-part-06.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-08.md](./linkedin-certifications-2026-05-part-08.md)
+

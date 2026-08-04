@@ -147,9 +147,8 @@ Showing latest 10 of 494 credentials. View the full dataset via the [Platform Ar
 | :--- | :--- |
 | **Total External Certifications Verified** | 1,297 |
 
-
 #### Recent Certifications
-Showing latest 10 items. View the full dataset via the [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-01.md), or the [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via the [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)) or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date | Certification Title | Issuing Authority | Credentials Reference |
 | :---: | :--- | :--- | :--- |
@@ -163,7 +162,6 @@ Showing latest 10 items. View the full dataset via the [Platform Archive Index](
 | *2026-07* | **Securing MongoDB Atlas Networking** | MongoDB | [Verify Record](https://www.credly.com/badges/74ba326f-caa2-44b0-a4b2-dd055799bebf/linked_in_profile) |
 | *2026-07* | **Deploying and Evaluating GenAI Apps with MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/2efe33a4-f77e-4714-a1b1-c8c46e72bd69/linked_in_profile) |
 | *2026-07* | **Threat-Informed Architecture** | AttackIQ | [Verify Record](https://www.credly.com/badges/2e682aba-ad5e-4f85-9f0e-87f0a4a1c5d1/linked_in_profile) |
-
 <!-- LINKEDIN_END -->
 
 
