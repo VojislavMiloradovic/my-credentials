@@ -1,17 +1,35 @@
 ---
 archive_platform: AWS Skill Builder
-chunk_part: 2 of 5
-date_range: 2026-04-25 to 2026-07-08
-total_entries: 98
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-02.md
+chunk_part: 4 of 5
+date_range: 2026-05-02 to 2026-07-14
+total_entries: 99
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-04.md
 ---
 
-# AWS Skill Builder — Part 02
+# AWS Skill Builder — Part 04
 
-> **Navigation:** Prev: [aws-skills-2026-08-part-01.md](aws-skills-2026-08-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-03.md](aws-skills-2026-08-part-03.md) | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-05-part-03.md](./aws-skills-2026-05-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-05.md](./aws-skills-2026-08-part-05.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| AI for Everyone: Your First Practical Steps | Digital Course | 2026-07-14 | 1 hour |
+| Amazon SageMaker AI Getting Started | Digital Course | 2026-07-14 | 1 hour |
+| Amazon Textract Getting Started | Digital Course | 2026-07-14 | 1 hour |
+| AWS Migration Evaluator Getting Started | Digital Course | 2026-07-14 | 45 minutes |
+| Building the Mainframe Modernization Business Case | Digital Course | 2026-07-14 | 1 hour |
+| Developing Machine Learning Solutions | Digital Course | 2026-07-14 | 1 hour |
+| Getting Started with Amazon Aurora DSQL | Digital Course | 2026-07-14 | 1 hour |
+| Introducing Intelligent Cost Explanations in AWS Cost Explorer | Digital Course | 2026-07-14 | 45 minutes |
+| Introduction to Amazon OpenSearch optimized for log analytics | Digital Course | 2026-07-14 | 30 minutes |
+| Introduction to AWS Inferentia and Amazon EC2 Inf1 Instances | Digital Course | 2026-07-14 | 15 minutes |
+| Introduction to AWS Lambda MicroVMs | Digital Course | 2026-07-14 | 45 minutes |
+| Introduction to AWS Management Console | Digital Course | 2026-07-14 | 30 minutes |
+| Introduction to AWS Media Services by Use Case | Digital Course | 2026-07-14 | 45 minutes |
+| Introduction to Container Basics | Digital Course | 2026-07-14 | 45 minutes |
+| Kiro in Action: A Developer's Walkthrough | Digital Course | 2026-07-14 | 45 minutes |
+| Planning and Validating Mainframe Modernization with AWS | Digital Course | 2026-07-14 | 1 hour |
+| Simplify AWS Control Tower governance with enhanced AWS CloudFormation Hooks | Digital Course | 2026-07-14 | 45 minutes |
+| AWS Well-Architected Foundations | Digital Course | 2026-07-09 | 3 hours |
 | AWS SimuLearn: Auto-Healing and Scaling Applications | Aws Simulearn | 2026-07-08 | 1 hour |
 | AWS SimuLearn: Cloud Economics | Aws Simulearn | 2026-07-08 | 1 hour |
 | AWS SimuLearn: Core Security Concepts | Aws Simulearn | 2026-07-08 | 1 hour |
@@ -93,23 +111,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | AWS End User Computing - Knowledge Badge Readiness Path | Learning Plan | 2026-05-02 | 5 hours |
 | End User Computing on AWS - Introductory Course | Digital Course | 2026-05-02 | 1 hour |
 | End User Computing on AWS - Service Architecture | Digital Course | 2026-05-02 | 1 hour 30 minutes |
-| End User Computing on AWS Knowledge Badge Assessment | Aws Assessment | 2026-05-02 | 1 hour 30 minutes |
-| End User Computing on AWS – Advanced Topics | Digital Course | 2026-05-02 | 1 hour |
-| How Amazon Quick Works for Your Role | Digital Course | 2026-04-30 | 30 minutes |
-| Introduction to Building apps in Amazon Quick | Digital Course | 2026-04-30 | 45 minutes |
-| Introduction to the Amazon Quick on desktop | Digital Course | 2026-04-30 | 45 minutes |
-| Optimizing Foundation Models | Digital Course | 2026-04-30 | 1 hour |
-| [RETIRING - 2026-08-04] Amazon Timestream Getting Started | Digital Course | 2026-04-29 | 1 hour |
-| AWS Edge Storage, Data Transfer, and File Transfer Services Getting Started | Digital Course | 2026-04-28 | 1 hour 5 minutes |
-| AWS Networking Basics | Digital Course | 2026-04-27 | 2 hours |
-| [RETIRING - 2026-08-11] What are we looking for in an LLM? | Digital Course | 2026-04-26 | 14 minutes |
-| AWS Skill Builder Learner Guide | Digital Course | 2026-04-26 | 15 minutes |
-| Amazon Q Developer Command Line Interface (CLI) | Digital Course | 2026-04-25 | 20 minutes |
-| Amazon Q Developer Fundamentals Knowledge Badge Assessment | Aws Assessment | 2026-04-25 | 1 hour 30 minutes |
-| Amazon Q Developer Knowledge Badge Readiness Path | Learning Plan | 2026-04-25 | 5 hours 25 minutes |
-| Customization in Amazon Q Developer | Digital Course | 2026-04-25 | 30 minutes |
-| GitLab Duo with Amazon Q | Digital Course | 2026-04-25 | 30 minutes |
-| Introduction to Amazon Q Developer (Technical) | Digital Course | 2026-04-25 | 15 minutes |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-08-part-01.md](aws-skills-2026-08-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-03.md](aws-skills-2026-08-part-03.md)
+> **Navigation:** Prev: [aws-skills-2026-05-part-03.md](./aws-skills-2026-05-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-05.md](./aws-skills-2026-08-part-05.md)
+

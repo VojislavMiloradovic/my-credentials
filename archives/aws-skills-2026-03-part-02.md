@@ -1,17 +1,33 @@
 ---
 archive_platform: AWS Skill Builder
-chunk_part: 4 of 5
-date_range: 2026-02-27 to 2026-03-18
-total_entries: 109
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-04.md
+chunk_part: 2 of 5
+date_range: 2026-03-05 to 2026-03-21
+total_entries: 107
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-02.md
 ---
 
-# AWS Skill Builder — Part 04
+# AWS Skill Builder — Part 02
 
-> **Navigation:** Prev: [aws-skills-2026-08-part-03.md](aws-skills-2026-08-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-05.md](aws-skills-2026-08-part-05.md) | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-03-part-01.md](./aws-skills-2026-03-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-05-part-03.md](./aws-skills-2026-05-part-03.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| AWS SimuLearn: Secure Conversational AI with Guardrails | Aws Simulearn | 2026-03-21 | 1 hour |
+| Cloud Essentials for Business Leaders – Healthcare and Life Sciences | Digital Course | 2026-03-21 | 1 hour 30 minutes |
+| Machine Learning Essentials for Business and Technical Decision Makers | Digital Course | 2026-03-21 | 1 hour 30 minutes |
+| Amazon DynamoDB Getting Started | Digital Course | 2026-03-20 | 1 hour |
+| Getting Started with AWS Storage | Digital Course | 2026-03-20 | 3 hours 15 minutes |
+| AWS Cloud Economics for Healthcare | Digital Course | 2026-03-19 | 1 hour 20 minutes |
+| AWS Cloud Essentials for Business Leaders | Digital Course | 2026-03-19 | 2 hours |
+| AWS Config Getting Started | Digital Course | 2026-03-19 | 1 hour 30 minutes |
+| AWS Database Offerings | Digital Course | 2026-03-19 | 4 hours |
+| Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English) | Certification Exam Preparation | 2026-03-19 | 1 hour |
+| AgentCore Browser: Secure and Scalable Web Automation with Amazon Bedrock | Digital Course | 2026-03-18 | 40 minutes |
+| Amazon Connect: Introduction to the Administrative Interface | Digital Course | 2026-03-18 | 1 hour 30 minutes |
+| Amazon SageMaker Unified Studio - Administrator Fundamentals | Digital Course | 2026-03-18 | 1 hour 30 minutes |
+| AWS Security – Encryption Fundamentals | Digital Course | 2026-03-18 | 1 hour 20 minutes |
+| AWS SimuLearn: Generate Code for a Webpage | Aws Simulearn | 2026-03-18 | 1 hour |
+| Fundamentals of Analytics on AWS – Part 1 | Digital Course | 2026-03-18 | 2 hours |
 | Fundamentals of Analytics on AWS – Part 2 | Digital Course | 2026-03-18 | 1 hour 30 minutes |
 | [RETIRING - 2026-08-03] Amazon EKS Pre-assessment | Digital Course | 2026-03-17 | 30 minutes |
 | [RETIRING - 2026-08-11] Planning an Orchestration System | Digital Course | 2026-03-17 | 13 minutes |
@@ -103,24 +119,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Software Development with Amazon Q Developer | Digital Course | 2026-03-06 | 30 minutes |
 | Amazon ECR Getting Started | Digital Course | 2026-03-05 | 1 hour |
 | Choosing Serverless Containers for .NET | Digital Course | 2026-03-05 | 1 hour |
-| Getting Started with AWS for Games – Part I | Digital Course | 2026-03-05 | 55 minutes |
-| Getting Started with AWS Support | Digital Course | 2026-03-05 | 1 hour |
-| Cost Optimization Solutions for FinOps (Part 2) | Digital Course | 2026-03-04 | 1 hour |
-| Deep Dive: Managing and Monitoring Amazon Elastic Block Store (Amazon EBS) | Digital Course | 2026-03-04 | 1 hour |
-| AWS SimuLearn: Explore the Amazon Bedrock Playgrounds | Aws Simulearn | 2026-03-01 | 1 hour |
-| [RETIRED] Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2) | Digital Course | 2026-02-28 | 1 hour |
-| Amazon Connect Custom Contact Control Panel Fundamentals | Digital Course | 2026-02-28 | 50 minutes |
-| AWS IPv6 Fundamentals and VPC Connectivity | Digital Course | 2026-02-28 | 1 hour |
-| Introduction to Database Migration | Digital Course | 2026-02-28 | 45 minutes |
-| Amazon Aurora MySQL - Basics | Digital Course | 2026-02-27 | 15 minutes |
-| Amazon CloudFront Getting Started | Digital Course | 2026-02-27 | 1 hour |
-| Amazon Connect Architecture Fundamentals | Digital Course | 2026-02-27 | 1 hour |
-| Amazon Connect Contact Lens Fundamentals | Digital Course | 2026-02-27 | 55 minutes |
-| Amazon EMR Getting Started | Digital Course | 2026-02-27 | 1 hour |
-| Amazon S3 Getting Started | Digital Course | 2026-02-27 | 1 hour |
-| AWS Audit Manager Getting Started | Digital Course | 2026-02-27 | 1 hour |
-| AWS Cloud Economics for Startups | Digital Course | 2026-02-27 | 1 hour |
-| AWS Command Line Interface (AWS CLI) Getting Started | Digital Course | 2026-02-27 | 1 hour |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-08-part-03.md](aws-skills-2026-08-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-05.md](aws-skills-2026-08-part-05.md)
+> **Navigation:** Prev: [aws-skills-2026-03-part-01.md](./aws-skills-2026-03-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-05-part-03.md](./aws-skills-2026-05-part-03.md)
+

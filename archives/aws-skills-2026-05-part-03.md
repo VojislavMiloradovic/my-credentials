@@ -1,17 +1,34 @@
 ---
 archive_platform: AWS Skill Builder
 chunk_part: 3 of 5
-date_range: 2026-03-18 to 2026-04-25
-total_entries: 102
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-03.md
+date_range: 2026-03-21 to 2026-05-02
+total_entries: 103
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-05-part-03.md
 ---
 
 # AWS Skill Builder — Part 03
 
-> **Navigation:** Prev: [aws-skills-2026-08-part-02.md](aws-skills-2026-08-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-04.md](aws-skills-2026-08-part-04.md) | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-03-part-02.md](./aws-skills-2026-03-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-04.md](./aws-skills-2026-07-part-04.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Activity / Course Title | Type / Authority | Date Earned | Duration |
 | :--- | :--- | :---: | :---: |
+| End User Computing on AWS Knowledge Badge Assessment | Aws Assessment | 2026-05-02 | 1 hour 30 minutes |
+| End User Computing on AWS – Advanced Topics | Digital Course | 2026-05-02 | 1 hour |
+| How Amazon Quick Works for Your Role | Digital Course | 2026-04-30 | 30 minutes |
+| Introduction to Building apps in Amazon Quick | Digital Course | 2026-04-30 | 45 minutes |
+| Introduction to the Amazon Quick on desktop | Digital Course | 2026-04-30 | 45 minutes |
+| Optimizing Foundation Models | Digital Course | 2026-04-30 | 1 hour |
+| [RETIRING - 2026-08-04] Amazon Timestream Getting Started | Digital Course | 2026-04-29 | 1 hour |
+| AWS Edge Storage, Data Transfer, and File Transfer Services Getting Started | Digital Course | 2026-04-28 | 1 hour 5 minutes |
+| AWS Networking Basics | Digital Course | 2026-04-27 | 2 hours |
+| [RETIRING - 2026-08-11] What are we looking for in an LLM? | Digital Course | 2026-04-26 | 14 minutes |
+| AWS Skill Builder Learner Guide | Digital Course | 2026-04-26 | 15 minutes |
+| Amazon Q Developer Command Line Interface (CLI) | Digital Course | 2026-04-25 | 20 minutes |
+| Amazon Q Developer Fundamentals Knowledge Badge Assessment | Aws Assessment | 2026-04-25 | 1 hour 30 minutes |
+| Amazon Q Developer Knowledge Badge Readiness Path | Learning Plan | 2026-04-25 | 5 hours 25 minutes |
+| Customization in Amazon Q Developer | Digital Course | 2026-04-25 | 30 minutes |
+| GitLab Duo with Amazon Q | Digital Course | 2026-04-25 | 30 minutes |
+| Introduction to Amazon Q Developer (Technical) | Digital Course | 2026-04-25 | 15 minutes |
 | Managing Operations on AWS with Amazon Q Developer | Digital Course | 2026-04-25 | 30 minutes |
 | Prompt Engineering with Amazon Q Developer | Digital Course | 2026-04-25 | 30 minutes |
 | Setup Amazon Q Developer | Digital Course | 2026-04-25 | 20 minutes |
@@ -98,22 +115,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | AWS Cloud Economics for Banking | Digital Course | 2026-03-21 | 1 hour 30 minutes |
 | AWS Cloud Essentials for Business Leaders - Telecommunications | Digital Course | 2026-03-21 | 2 hours |
 | AWS Security Incident Response Overview | Digital Course | 2026-03-21 | 1 hour 40 minutes |
-| AWS SimuLearn: Secure Conversational AI with Guardrails | Aws Simulearn | 2026-03-21 | 1 hour |
-| Cloud Essentials for Business Leaders – Healthcare and Life Sciences | Digital Course | 2026-03-21 | 1 hour 30 minutes |
-| Machine Learning Essentials for Business and Technical Decision Makers | Digital Course | 2026-03-21 | 1 hour 30 minutes |
-| Amazon DynamoDB Getting Started | Digital Course | 2026-03-20 | 1 hour |
-| Getting Started with AWS Storage | Digital Course | 2026-03-20 | 3 hours 15 minutes |
-| AWS Cloud Economics for Healthcare | Digital Course | 2026-03-19 | 1 hour 20 minutes |
-| AWS Cloud Essentials for Business Leaders | Digital Course | 2026-03-19 | 2 hours |
-| AWS Config Getting Started | Digital Course | 2026-03-19 | 1 hour 30 minutes |
-| AWS Database Offerings | Digital Course | 2026-03-19 | 4 hours |
-| Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English) | Certification Exam Preparation | 2026-03-19 | 1 hour |
-| AgentCore Browser: Secure and Scalable Web Automation with Amazon Bedrock | Digital Course | 2026-03-18 | 40 minutes |
-| Amazon Connect: Introduction to the Administrative Interface | Digital Course | 2026-03-18 | 1 hour 30 minutes |
-| Amazon SageMaker Unified Studio - Administrator Fundamentals | Digital Course | 2026-03-18 | 1 hour 30 minutes |
-| AWS Security – Encryption Fundamentals | Digital Course | 2026-03-18 | 1 hour 20 minutes |
-| AWS SimuLearn: Generate Code for a Webpage | Aws Simulearn | 2026-03-18 | 1 hour |
-| Fundamentals of Analytics on AWS – Part 1 | Digital Course | 2026-03-18 | 2 hours |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-08-part-02.md](aws-skills-2026-08-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-04.md](aws-skills-2026-08-part-04.md)
+> **Navigation:** Prev: [aws-skills-2026-03-part-02.md](./aws-skills-2026-03-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-04.md](./aws-skills-2026-07-part-04.md)
+
