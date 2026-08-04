@@ -203,9 +203,19 @@ def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
 # FETCHERS & PARSERS
 # ==============================================================================
 
-def generate_badge_id(title: str, date_str: str | None) -> str:
-    """Generates a stable identifier for badges lacking explicit IDs."""
-    raw = f"google-skills-{title.strip().lower()}-{date_str or ''}"
+def generate_badge_id(title: str, date_str: str | None, verify_url: str | None = None) -> str:
+    """Generates a stable, unique identifier for Google Skills badges.
+    Prioritizes Google's canonical numeric badge ID from verify_url if present.
+    """
+    if verify_url:
+        m = re.search(r"/badges/(\d+)", verify_url)
+        if m:
+            return f"google-skills-badge-{m.group(1)}"
+        m_id = re.search(r"[?&]id=([^&]+)", verify_url)
+        if m_id:
+            return f"google-skills-badge-{m_id.group(1)}"
+
+    raw = f"google-skills-{title.strip().lower()}-{date_str or ''}-{verify_url or ''}"
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
 
 
@@ -231,19 +241,33 @@ def parse_badges_from_html(html_content: str, profile_id: str) -> list[dict]:
     logger.info(f"  Extracted {len(badge_cards)} raw badge elements from profile HTML.")
     public_profile_url = f"https://www.skills.google/public_profiles/{profile_id}"
 
-    for card in badge_cards:
+    for idx, card in enumerate(badge_cards, start=1):
         title = None
         raw_date = None
+
+        # Extract Verification Link FIRST so verify_url is available for canonical ID generation
+        link_elem = card.find("a")
+        verify_url = link_elem.get("href") if link_elem else public_profile_url
+        if verify_url and verify_url.startswith("/"):
+            verify_url = f"https://www.skills.google{verify_url}"
 
         # Strategy 1: Explicit CSS Selectors for Title
         title_elem = (
             card.select_one(".public-profile-badge__name")
+            or card.select_one(".public-profile-badge__title")
             or card.select_one(".badge-name")
+            or card.select_one(".badge-title")
             or card.select_one(".ql-subhead-1")
+            or card.select_one(".ql-subhead-2")
             or card.select_one(".ql-title")
+            or card.select_one(".ql-title-medium")
+            or card.select_one(".ql-body-1")
+            or card.select_one("h1")
+            or card.select_one("h2")
             or card.select_one("h3")
             or card.select_one("h4")
             or card.select_one("a.ql-subhead-1")
+            or card.select_one("a")
         )
         if title_elem:
             title = title_elem.get_text(strip=True)
@@ -266,15 +290,19 @@ def parse_badges_from_html(html_content: str, profile_id: str) -> list[dict]:
                         "completed",
                         "est",
                         "edt",
-                        "badge",
+                        "pst",
+                        "pdt",
                         "format_quote",
                         "share",
+                        "verify",
+                        "view credential",
                     ]
                 ):
                     title = line
                     break
 
         if not title:
+            logger.warning(f"⚠️ Could not extract title for badge card #{idx}. Skipping element.")
             continue
 
         # Extract Date
@@ -283,7 +311,9 @@ def parse_badges_from_html(html_content: str, profile_id: str) -> list[dict]:
             or card.select_one(".badge-date")
             or card.select_one(".ql-body-2")
             or card.select_one(".ql-date")
+            or card.select_one(".ql-caption")
             or card.select_one("span.date")
+            or card.select_one("p.date")
         )
         if date_elem:
             raw_date = date_elem.get_text(strip=True)
@@ -320,13 +350,7 @@ def parse_badges_from_html(html_content: str, profile_id: str) -> list[dict]:
         img_elem = card.find("img")
         image_url = img_elem.get("src") if img_elem else None
 
-        # Extract Verification Link
-        link_elem = card.find("a")
-        verify_url = link_elem.get("href") if link_elem else public_profile_url
-        if verify_url and verify_url.startswith("/"):
-            verify_url = f"https://www.skills.google{verify_url}"
-
-        badge_id = generate_badge_id(title, raw_date)
+        badge_id = generate_badge_id(title, raw_date, verify_url)
 
         raw_entry = {
             "id": badge_id,
@@ -350,7 +374,7 @@ def parse_badges_from_html(html_content: str, profile_id: str) -> list[dict]:
             badges.append(validated_model.model_dump())
         except ValidationError as ve:
             logger.warning(
-                f"⚠️ Anomaly Guard: Skipping malformed Google Skills badge entry: {ve}"
+                f"⚠️ Anomaly Guard: Skipping malformed Google Skills badge entry #{idx}: {ve}"
             )
 
     return badges
@@ -476,7 +500,11 @@ def main():
     seen = set()
 
     for badge in raw_badges:
-        dedup_key = badge.get("id") or f"{badge.get('title')}-{badge.get('issued_at')}"
+        dedup_key = (
+            badge.get("id")
+            or badge.get("verify_url")
+            or f"{badge.get('title')}-{badge.get('issued_at')}"
+        )
         if dedup_key not in seen:
             seen.add(dedup_key)
             unique_badges.append(badge)
