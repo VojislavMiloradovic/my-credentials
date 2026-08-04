@@ -228,12 +228,14 @@ def locate_aws_csv_file() -> str | None:
         return env_path
 
     candidates = [
+        os.path.join("data", "aws-training-activity.csv"),
+        os.path.join("data", "aws_skills.csv"),
+        os.path.join("data", "aws_transcript.csv"),
+        "aws-training-activity.csv",
         "aws_skills.csv",
         "aws_transcript.csv",
         "aws_badges.csv",
         "aws.csv",
-        os.path.join("data", "aws_skills.csv"),
-        os.path.join("data", "aws_transcript.csv"),
     ]
 
     for cand in candidates:
@@ -255,73 +257,93 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
     profile_url = f"https://skillsprofile.skillbuilder.aws/user/{profile_user}"
 
     with open(csv_path, "r", encoding="utf-8-sig") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            # Flexible column header lookup
-            row_lower = {str(k).strip().lower(): str(v).strip() for k, v in row.items() if k}
+        lines = f.readlines()
 
-            title = (
-                row_lower.get("title")
-                or row_lower.get("course title")
-                or row_lower.get("badge title")
-                or row_lower.get("name")
-                or row_lower.get("achievement")
-                or row_lower.get("learning object title")
-            )
+    # Fast-forward past non-CSV metadata prelude lines (e.g. "Complete Training Activity List")
+    header_idx = -1
+    for idx, line in enumerate(lines):
+        if line.strip().startswith("Title,") or "Title,Type" in line:
+            header_idx = idx
+            break
 
-            if not title:
-                continue
+    if header_idx == -1:
+        logger.error("❌ Could not locate CSV header row starting with 'Title,Type,...'")
+        return []
 
-            raw_date = (
-                row_lower.get("date")
-                or row_lower.get("completed date")
-                or row_lower.get("completion date")
-                or row_lower.get("date earned")
-                or row_lower.get("earned date")
-                or row_lower.get("issued at")
-                or row_lower.get("date completed")
-            )
+    reader = csv.DictReader(lines[header_idx:])
+    for row in reader:
+        row_lower = {str(k).strip().lower(): str(v).strip() for k, v in row.items() if k}
 
-            c_type = (
-                row_lower.get("type")
-                or row_lower.get("achievement type")
-                or row_lower.get("training type")
-                or "AWS Skill Builder Badge"
-            )
+        title = (
+            row_lower.get("title")
+            or row_lower.get("course title")
+            or row_lower.get("badge title")
+            or row_lower.get("name")
+            or row_lower.get("achievement")
+            or row_lower.get("learning object title")
+        )
 
-            verify_url = (
-                row_lower.get("url")
-                or row_lower.get("badge url")
-                or row_lower.get("verification url")
-                or row_lower.get("link")
-                or profile_url
-            )
+        if not title:
+            continue
 
-            image_url = row_lower.get("image url") or row_lower.get("image") or row_lower.get("icon")
-            badge_id = row_lower.get("id") or generate_badge_id(title, raw_date)
+        # Extract completion date, with fallbacks for started/enrolled dates
+        raw_date = (
+            row_lower.get("completed on")
+            or row_lower.get("date")
+            or row_lower.get("completed date")
+            or row_lower.get("completion date")
+            or row_lower.get("date earned")
+            or row_lower.get("earned date")
+            or row_lower.get("issued at")
+            or row_lower.get("date completed")
+        )
 
-            raw_entry = {
-                "id": str(badge_id),
-                "title": title,
-                "name": title,
-                "issuer": "Amazon Web Services",
-                "issuer_name": "Amazon Web Services",
-                "issued_at": raw_date,
-                "issued_at_date": raw_date,
-                "date": raw_date,
-                "image_url": image_url,
-                "verify_url": verify_url,
-                "url": verify_url,
-                "type": c_type,
-                "verification_type": c_type,
-                "skills": [title],
-            }
+        if not raw_date or raw_date == "-":
+            raw_date = row_lower.get("started on") or row_lower.get("enrolled on")
 
-            try:
-                validated_model = AwsBadgeItemModel(**raw_entry)
-                badges.append(validated_model.model_dump())
-            except ValidationError as ve:
-                logger.warning(f"⚠️ Anomaly Guard: Skipping malformed CSV row entry '{title}': {ve}")
+        if raw_date == "-":
+            raw_date = None
+
+        c_type = (
+            row_lower.get("type")
+            or row_lower.get("achievement type")
+            or row_lower.get("training type")
+            or "AWS Skill Builder Badge"
+        )
+
+        verify_url = (
+            row_lower.get("url")
+            or row_lower.get("badge url")
+            or row_lower.get("verification url")
+            or row_lower.get("link")
+            or profile_url
+        )
+
+        image_url = row_lower.get("image url") or row_lower.get("image") or row_lower.get("icon")
+        badge_id = row_lower.get("id") or generate_badge_id(title, raw_date)
+
+        raw_entry = {
+            "id": str(badge_id),
+            "title": title,
+            "name": title,
+            "issuer": "Amazon Web Services",
+            "issuer_name": "Amazon Web Services",
+            "issued_at": raw_date,
+            "issued_at_date": raw_date,
+            "date": raw_date,
+            "image_url": image_url,
+            "verify_url": verify_url,
+            "url": verify_url,
+            "type": c_type,
+            "verification_type": c_type,
+            "skills": [title],
+        }
+
+        try:
+            validated_model = AwsBadgeItemModel(**raw_entry)
+            badges.append(validated_model.model_dump())
+        except ValidationError as ve:
+            logger.warning(f"⚠️ Anomaly Guard: Skipping malformed CSV row entry '{title}': {ve}")
 
     logger.info(f"✅ Extracted {len(badges)} valid AWS badge records from CSV.")
     return badges
