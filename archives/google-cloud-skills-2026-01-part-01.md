@@ -1,57 +1,17 @@
 ---
 archive_platform: Google Cloud Skills Boost
-chunk_part: 2 of 3
-date_range: 2025-11-06 to 2026-03-30
-total_entries: 153
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-08-part-02.md
+chunk_part: 1 of 3
+date_range: 2025-09-06 to 2026-01-01
+total_entries: 152
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-01-part-01.md
 ---
 
-# Google Cloud Skills Boost — Part 02
+# Google Cloud Skills Boost — Part 01
 
-> **Navigation:** Prev: [google-cloud-skills-2026-08-part-01.md](google-cloud-skills-2026-08-part-01.md) | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-08-part-03.md](google-cloud-skills-2026-08-part-03.md) | [Complete Archive](./google-cloud-skills-complete.md)
+> **Navigation:** Prev: None | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-06-part-02.md](./google-cloud-skills-2026-06-part-02.md) | [Complete Archive](./google-cloud-skills-complete.md)
 
 | Date Earned | Badge Title |
 | :---: | --- |
-| 2026-03-30 | **Configure Gemini Code Assist for Organizations** |
-| 2026-03-29 | **Secure GKE with Cloud Next Generation Firewall** |
-| 2026-03-29 | **Create Embeddings, Vector Search, and RAG with BigQuery** |
-| 2026-03-27 | **Introduction to SecOps on GDC** |
-| 2026-03-27 | **Model Armor: Securing AI Deployments** |
-| 2026-03-26 | **AI Services and GDC Deployments and Operations** |
-| 2026-03-26 | **Compute, Network, and Storage Services Configuration in GDC** |
-| 2026-03-26 | **GDC Platform Introduction** |
-| 2026-03-25 | **SecOps on GDC for Tier 1 and Tier 2 Analysts** |
-| 2026-03-25 | **SecOps on GDC for Tier 3 Analysts** |
-| 2026-03-25 | **Quiz: GDC Air-Gapped Security Operator Fundamentals** |
-| 2026-03-22 | **Conversational AI on Vertex AI and Dialogflow CX** |
-| 2026-03-22 | **Gemini for Security Engineers** |
-| 2026-03-22 | **Gemini for Cloud Architects** |
-| 2026-03-21 | **Building No-Code Apps with AppSheet: Implementation** |
-| 2026-03-20 | **Gemini for Application Developers** |
-| 2026-03-19 | **Introduction Google Security Operations (SOAR)** |
-| 2026-03-19 | **[DEPRECATED] Google Security Operations - SOAR Developer** |
-| 2026-03-19 | **Google Security Operations - SOAR Analyst** |
-| 2026-03-19 | **Introduction to Google Security Operations (SIEM)** |
-| 2026-03-16 | **Google Cloud AI and ML Solutions for the Public Sector** |
-| 2026-03-10 | **Introduction to Looker** |
-| 2026-03-09 | **Networking in Google Cloud: Load Balancing** |
-| 2026-03-08 | **Networking in Google Cloud: Routing and Addressing** |
-| 2026-03-07 | **Networking in Google Cloud: Network Architecture** |
-| 2026-03-07 | **Networking in Google Cloud: Hybrid and Multicloud** |
-| 2026-03-03 | **Gemini for Network Engineers** |
-| 2026-03-01 | **Plan Your Cloud Next Generation Firewall Needs** |
-| 2026-03-01 | **Introduction to Cloud Next Generation Firewall** |
-| 2026-02-25 | **Build a Certification Study Guide: PMLE** |
-| 2026-02-24 | **Serverless Data Processing with Dataflow: Develop Pipelines** |
-| 2026-02-24 | **Serverless Data Processing with Dataflow: Foundations** |
-| 2026-01-19 | **Building No-Code Apps with AppSheet: Foundations** |
-| 2026-01-17 | **Google Cloud Computing Foundations: Infrastructure in Google Cloud** |
-| 2026-01-14 | **Google Cloud Computing Foundations: Cloud Computing Fundamentals** |
-| 2026-01-04 | **Security Practices with Google Security Operations - SIEM** |
-| 2026-01-04 | **Configure and Maintain CCaaS as an Admin** |
-| 2026-01-03 | **Change Management for Google Workspace** |
-| 2026-01-02 | **Build a Certification Study Guide: PCNE Exam Prep** |
-| 2026-01-02 | **Manage Functions and Reporting with CCaaS** |
 | 2026-01-01 | **Build a Certification Study Guide: PCA Exam Prep** |
 | 2025-12-31 | **Handle Consumer Interactions with CCaaS** |
 | 2025-12-31 | **Machine Learning Operations (MLOps) for Generative AI** |
@@ -165,6 +125,46 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-11-06 | **AI Boost Bites: Create Your Ultimate College Scouting Report** |
 | 2025-11-06 | **AI Boost Bites: One-Click Campaign Visuals** |
 | 2025-11-06 | **AI Boost Bites: From Napkin Sketch to Functional App** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM Reports** |
+| 2025-11-06 | **AI Boost Bites: Your Personal Feedback Agent** |
+| 2025-11-06 | **AI Boost Bites: Presentation Scripts with Gemini** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: Project Notebooks** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM for Market Research** |
+| 2025-11-06 | **[Deprecated]AI Boost Bites: NotebookLM Video Overviews** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: Discover Sources in NotebookLM** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM Mind Maps** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: Intro to NotebookLM** |
+| 2025-11-06 | **AI Boost Bites: Email Content Creation** |
+| 2025-11-06 | **AI Boost Bites: Create Docs in Seconds** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: AI Power-Ups for Google Workspace** |
+| 2025-11-06 | **AI Boost Bites: Tame Your Inbox with AI** |
+| 2025-11-06 | **AI Boost Bites: Gemini Slide Summaries** |
+| 2025-11-06 | **AI Boost Bites: No-Code Sheets & Scripts** |
+| 2025-11-06 | **AI Boost Bites: Amplify Exec Voices with AI** |
+| 2025-11-06 | **AI Boost Bites: Exec Summaries with Gemini Gems** |
+| 2025-11-06 | **AI Boost Bites: Automate tasks with Gemini and Apps Script** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: "Eat the Frog" with NotebookLM** |
+| 2025-11-06 | **AI Boost Bites: Gemini Image-to-Sheets Hack** |
+| 2025-11-06 | **AI Boost Bites: Poke Holes in Your Strategy** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM for Competitive Edge** |
+| 2025-11-06 | **AI Boost Bites: Personalization with customized prompts** |
+| 2025-11-06 | **AI Boost Bites: TL;DR with Gemini in Docs & Drive** |
+| 2025-11-06 | **AI Boost Bites: Prompting like a Pro with Google Workspace** |
+| 2025-11-06 | **AI Boost Bites: Content Generation with Gemini Made Easy** |
+| 2025-11-06 | **[DEPRECATED] AI Boost Bites: Customer insights with NotebookLM** |
+| 2025-11-06 | **AI Boost Bites: Gemini Gems – Your ultimate marketing sidekick** |
+| 2025-11-05 | **Responsible AI: Applying AI Principles with Google Cloud** |
+| 2025-11-04 | **Prompt Design in Agent Platform** |
+| 2025-10-31 | **Introduction to Responsible AI** |
+| 2025-10-30 | **Introduction to Large Language Models** |
+| 2025-10-30 | **Introduction to Generative AI** |
+| 2025-09-17 | **Scaling with Google Cloud Operations** |
+| 2025-09-14 | **Trust and Security with Google Cloud** |
+| 2025-09-13 | **Modernize Infrastructure and Applications with Google Cloud** |
+| 2025-09-12 | **Innovating with Google Cloud Artificial Intelligence** |
+| 2025-09-11 | **Exploring Data Transformation with Google Cloud** |
+| 2025-09-06 | **Digital Transformation with Google Cloud** |
 
 ---
-> **Navigation:** Prev: [google-cloud-skills-2026-08-part-01.md](google-cloud-skills-2026-08-part-01.md) | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-08-part-03.md](google-cloud-skills-2026-08-part-03.md)
+> **Navigation:** Prev: None | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-06-part-02.md](./google-cloud-skills-2026-06-part-02.md)
+

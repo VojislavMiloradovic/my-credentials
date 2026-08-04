@@ -1,58 +1,17 @@
 ---
 archive_platform: Google Cloud Skills Boost
-chunk_part: 1 of 3
-date_range: 2026-03-30 to 2026-08-03
-total_entries: 148
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-08-part-01.md
+chunk_part: 2 of 3
+date_range: 2026-01-02 to 2026-06-10
+total_entries: 147
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-06-part-02.md
 ---
 
-# Google Cloud Skills Boost — Part 01
+# Google Cloud Skills Boost — Part 02
 
-> **Navigation:** Prev: None | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-08-part-02.md](google-cloud-skills-2026-08-part-02.md) | [Complete Archive](./google-cloud-skills-complete.md)
+> **Navigation:** Prev: [google-cloud-skills-2026-01-part-01.md](./google-cloud-skills-2026-01-part-01.md) | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-08-part-03.md](./google-cloud-skills-2026-08-part-03.md) | [Complete Archive](./google-cloud-skills-complete.md)
 
 | Date Earned | Badge Title |
 | :---: | --- |
-| 2026-08-03 | **Privileged Access with IAM** |
-| 2026-07-29 | **Analyze Images with the Cloud Vision API** |
-| 2026-07-29 | **Build Event-Driven Applications with Eventarc** |
-| 2026-07-26 | **Implement Sensitive Data Protection on Google Cloud** |
-| 2026-07-26 | **Gemini in Google Chat** |
-| 2026-07-26 | **Scaling Data Science with Agents** |
-| 2026-07-23 | **Configure VPC Routes and Addresses** |
-| 2026-07-23 | **Set Up Multiple Network Interfaces** |
-| 2026-07-23 | **Orchestrate Workflows with the Data Agent Kit** |
-| 2026-07-23 | **Arcade Adventure: Low-Code Development** |
-| 2026-07-21 | **Build Serverless Applications with Cloud Run Functions** |
-| 2026-07-19 | **Secure Software Delivery** |
-| 2026-07-19 | **Arcade Base Camp July 2026** |
-| 2026-07-16 | **Build a Data Mesh with Knowledge Catalog** |
-| 2026-07-16 | **Arcade Simulator: Data Mesh Architect** |
-| 2026-07-15 | **Deploy and Monitor in Google Cloud for AWS Professionals** |
-| 2026-07-13 | **Developing Containerized Applications on Google Cloud** |
-| 2026-07-12 | **Developing Applications with Cloud Run Functions on Google Cloud** |
-| 2026-07-10 | **Build a Data Warehouse with BigQuery** |
-| 2026-07-08 | **Arcade Trail: Google Workspace Administration** |
-| 2026-07-07 | **Safe Spaces** |
-| 2026-07-07 | **Optimize Costs for Google Kubernetes Engine** |
-| 2026-07-03 | **Mitigate Threats and Vulnerabilities with Security Command Center** |
-| 2026-07-02 | **Build Infrastructure with Terraform on Google Cloud** |
-| 2026-06-30 | **Set Up an App Dev Environment on Google Cloud** |
-| 2026-06-28 | **Implement Speech and Language Solutions with Pre-trained APIs** |
-| 2026-06-28 | **Arcade Voyage: Identity Management and Pre-trained AI APIs** |
-| 2026-06-26 | **Configure Service Accounts and IAM Roles for Google Cloud** |
-| 2026-06-25 | **Building No-Code Apps with AppSheet: Automation** |
-| 2026-06-23 | **Applying Advanced LookML Concepts in Looker** |
-| 2026-06-23 | **Understanding LookML in Looker** |
-| 2026-06-23 | **Using the Google Cloud Speech API** |
-| 2026-06-21 | **Use APIs to Work with Cloud Storage** |
-| 2026-06-21 | **The Basics of Google Cloud Compute** |
-| 2026-06-21 | **Customer Experience Agent Studio: Fundamentals** |
-| 2026-06-19 | **Troubleshooting with AI Using Cloud Assist Investigations** |
-| 2026-06-17 | **Store, Process, and Manage Data on Google Cloud - Console** |
-| 2026-06-15 | **AI Boost Bootcamp: How to Use Gemini for Marketing 201** |
-| 2026-06-13 | **Organize and Govern Data with Knowledge Catalog** |
-| 2026-06-13 | **Essential Google Cloud CLI Tools** |
-| 2026-06-12 | **Managing Cloud Infrastructure with Terraform** |
 | 2026-06-10 | **Google Cloud Essentials** |
 | 2026-06-03 | **Analyzing and Visualizing Data in Looker** |
 | 2026-05-30 | **Developing Data Models with LookML** |
@@ -160,6 +119,47 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-01 | **Google Threat Intelligence** |
 | 2026-03-30 | **Security Command Center: Identify and Prioritize Risks** |
 | 2026-03-30 | **Deploy and Scale AI Models with Cloud Run** |
+| 2026-03-30 | **Configure Gemini Code Assist for Organizations** |
+| 2026-03-29 | **Secure GKE with Cloud Next Generation Firewall** |
+| 2026-03-29 | **Create Embeddings, Vector Search, and RAG with BigQuery** |
+| 2026-03-27 | **Introduction to SecOps on GDC** |
+| 2026-03-27 | **Model Armor: Securing AI Deployments** |
+| 2026-03-26 | **AI Services and GDC Deployments and Operations** |
+| 2026-03-26 | **Compute, Network, and Storage Services Configuration in GDC** |
+| 2026-03-26 | **GDC Platform Introduction** |
+| 2026-03-25 | **SecOps on GDC for Tier 1 and Tier 2 Analysts** |
+| 2026-03-25 | **SecOps on GDC for Tier 3 Analysts** |
+| 2026-03-25 | **Quiz: GDC Air-Gapped Security Operator Fundamentals** |
+| 2026-03-22 | **Conversational AI on Vertex AI and Dialogflow CX** |
+| 2026-03-22 | **Gemini for Security Engineers** |
+| 2026-03-22 | **Gemini for Cloud Architects** |
+| 2026-03-21 | **Building No-Code Apps with AppSheet: Implementation** |
+| 2026-03-20 | **Gemini for Application Developers** |
+| 2026-03-19 | **Introduction Google Security Operations (SOAR)** |
+| 2026-03-19 | **[DEPRECATED] Google Security Operations - SOAR Developer** |
+| 2026-03-19 | **Google Security Operations - SOAR Analyst** |
+| 2026-03-19 | **Introduction to Google Security Operations (SIEM)** |
+| 2026-03-16 | **Google Cloud AI and ML Solutions for the Public Sector** |
+| 2026-03-10 | **Introduction to Looker** |
+| 2026-03-09 | **Networking in Google Cloud: Load Balancing** |
+| 2026-03-08 | **Networking in Google Cloud: Routing and Addressing** |
+| 2026-03-07 | **Networking in Google Cloud: Network Architecture** |
+| 2026-03-07 | **Networking in Google Cloud: Hybrid and Multicloud** |
+| 2026-03-03 | **Gemini for Network Engineers** |
+| 2026-03-01 | **Plan Your Cloud Next Generation Firewall Needs** |
+| 2026-03-01 | **Introduction to Cloud Next Generation Firewall** |
+| 2026-02-25 | **Build a Certification Study Guide: PMLE** |
+| 2026-02-24 | **Serverless Data Processing with Dataflow: Develop Pipelines** |
+| 2026-02-24 | **Serverless Data Processing with Dataflow: Foundations** |
+| 2026-01-19 | **Building No-Code Apps with AppSheet: Foundations** |
+| 2026-01-17 | **Google Cloud Computing Foundations: Infrastructure in Google Cloud** |
+| 2026-01-14 | **Google Cloud Computing Foundations: Cloud Computing Fundamentals** |
+| 2026-01-04 | **Security Practices with Google Security Operations - SIEM** |
+| 2026-01-04 | **Configure and Maintain CCaaS as an Admin** |
+| 2026-01-03 | **Change Management for Google Workspace** |
+| 2026-01-02 | **Build a Certification Study Guide: PCNE Exam Prep** |
+| 2026-01-02 | **Manage Functions and Reporting with CCaaS** |
 
 ---
-> **Navigation:** Prev: None | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-08-part-02.md](google-cloud-skills-2026-08-part-02.md)
+> **Navigation:** Prev: [google-cloud-skills-2026-01-part-01.md](./google-cloud-skills-2026-01-part-01.md) | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-08-part-03.md](./google-cloud-skills-2026-08-part-03.md)
+
