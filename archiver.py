@@ -1,6 +1,5 @@
 import glob
 import os
-import re
 from datetime import datetime, timezone
 
 RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
