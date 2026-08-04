@@ -3,9 +3,12 @@ import os
 import re
 from datetime import datetime, timezone
 
+from archiver import count_tokens
+
 README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
 LLMS_PATH = "llms.txt"
+RAW_BASE_URL = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
 
 DOMAIN_PATTERNS = [
     (
@@ -39,6 +42,40 @@ DOMAIN_PATTERNS = [
 ]
 
 FALLBACK_DOMAIN = "👔 Enterprise & Professional Development"
+
+MONOLITH_CONFIGS = [
+    ("Aws Skills Complete", "aws-skills-complete.md"),
+    ("Credly Badges Complete", "credly-badges-complete.md"),
+    ("Google Cloud Skills Complete", "google-cloud-skills-complete.md"),
+    ("Google Developer Complete", "google-developer-complete.md"),
+    ("Linkedin Certifications Complete", "linkedin-certifications-complete.md"),
+    ("Microsoft Learn Complete", "microsoft-learn-complete.md"),
+]
+
+SLICE_CONFIGS = [
+    ("Aws Skills Latest Slice", "aws-skills", "Most recent achievements for Aws Skills."),
+    ("Credly Badges Latest Slice", "credly-badges", "Most recent achievements for Credly Badges."),
+    ("Google Cloud Skills Latest Slice", "google-cloud-skills", "Most recent achievements for Google Cloud Skills."),
+    ("Google Developer Activities Latest Slice", "google-developer-activities", "Most recent achievements for Google Developer Activities."),
+    ("Google Developer Badges Latest Slice", "google-developer-badges", "Most recent achievements for Google Developer Badges."),
+    ("Linkedin Certifications Latest Slice", "linkedin-certifications", "Most recent achievements for Linkedin Certifications."),
+    ("Microsoft Learn Latest Slice", "microsoft-learn", "Most recent achievements for Microsoft Learn."),
+]
+
+
+def _get_file_stats(filepath: str) -> tuple[float, int]:
+    """Calculates exact file size in KB and exact BPE token count using tiktoken."""
+    if not os.path.exists(filepath):
+        return 0.0, 0
+    try:
+        size_kb = round(os.path.getsize(filepath) / 1024, 2)
+        with open(filepath, "r", encoding="utf-8") as f:
+            content = f.read()
+        tokens = count_tokens(content)
+        return size_kb, tokens
+    except Exception as e:
+        print(f"⚠️ Warning reading stats for {filepath}: {e}")
+        return 0.0, 0
 
 
 def _scrape_index(filename: str, pattern: re.Pattern) -> str:
@@ -260,24 +297,27 @@ Use these index files to navigate chunked historical records without exceeding c
 ## Complete Monolithic Datasets
 Recommended for models with large context windows (>100k tokens).
 
-- [Aws Skills Complete](./archives/aws-skills-complete.md): Full dataset (~43.4 KB, ~11,105 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
-- [Credly Badges Complete](./archives/credly-badges-complete.md): Full dataset (~82.59 KB, ~21,134 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-complete.md
-- [Google Cloud Skills Complete](./archives/google-cloud-skills-complete.md): Full dataset (~21.71 KB, ~5,555 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-complete.md
-- [Google Developer Complete](./archives/google-developer-complete.md): Full dataset (~229.7 KB, ~58,780 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md
-- [Linkedin Certifications Complete](./archives/linkedin-certifications-complete.md): Full dataset (~264.98 KB, ~67,819 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md
-- [Microsoft Learn Complete](./archives/microsoft-learn-complete.md): Full dataset (~849.88 KB, ~217,558 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
+"""
+    for title, filename in MONOLITH_CONFIGS:
+        filepath = os.path.join(ARCHIVE_DIR, filename)
+        size_kb, tokens = _get_file_stats(filepath)
+        raw_url = f"{RAW_BASE_URL}/{filename}"
+        content += f"- [{title}](./archives/{filename}): Full dataset (~{size_kb} KB, ~{tokens:,} tokens). Raw: {raw_url}\n"
 
+    content += """
 ## Latest Chunked Slices (~10 KB per slice)
 Optimized for lower-capacity context tools or fast targeted queries.
 
-- [Aws Skills Latest Slice](./archives/aws-skills-2026-07-part-01.md): Most recent achievements for Aws Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-01.md
-- [Credly Badges Latest Slice](./archives/credly-badges-2026-08-part-01.md): Most recent achievements for Credly Badges. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-01.md
-- [Google Cloud Skills Latest Slice](./archives/google-cloud-skills-2026-08-part-01.md): Most recent achievements for Google Cloud Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-08-part-01.md
-- [Google Developer Activities Latest Slice](./archives/google-developer-activities-2026-08-part-01.md): Most recent achievements for Google Developer Activities. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-01.md
-- [Google Developer Badges Latest Slice](./archives/google-developer-badges-2026-08-part-01.md): Most recent achievements for Google Developer Badges. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-08-part-01.md
-- [Linkedin Certifications Latest Slice](./archives/linkedin-certifications-2026-07-part-01.md): Most recent achievements for Linkedin Certifications. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-01.md
-- [Microsoft Learn Latest Slice](./archives/microsoft-learn-2026-08-part-01.md): Most recent achievements for Microsoft Learn. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-01.md
+"""
+    for title, prefix, description in SLICE_CONFIGS:
+        pattern = os.path.join(ARCHIVE_DIR, f"{prefix}-*-part-01.md")
+        matches = sorted(glob.glob(pattern), reverse=True)
+        if matches:
+            filename = os.path.basename(matches[0])
+            raw_url = f"{RAW_BASE_URL}/{filename}"
+            content += f"- [{title}](./archives/{filename}): {description} Raw: {raw_url}\n"
 
+    content += """
 ## Structured Machine-Readable Data
 - [Schema.org JSON-LD Credentials](./credentials.jsonld): Semantic linked data representation of all achievements. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.jsonld
 
