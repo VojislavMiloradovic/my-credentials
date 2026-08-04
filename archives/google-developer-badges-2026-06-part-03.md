@@ -1,14 +1,14 @@
 ---
 archive_platform: Google Developer Profile (Milestone & Pathway Badges)
-chunk_part: 1 of 3
+chunk_part: 3 of 3
 date_range: 2026-06-05 to 2026-06-05
-total_entries: 66
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-08-part-01.md
+total_entries: 36
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-06-part-03.md
 ---
 
-# Google Developer Profile: Milestone & Pathway Badges — Part 01
+# Google Developer Profile: Milestone & Pathway Badges — Part 03
 
-> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-badges-2026-08-part-02.md](google-developer-badges-2026-08-part-02.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-badges-2026-06-part-02.md](google-developer-badges-2026-06-part-02.md) | [Index](./google-developer-index.md) | Next: None | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
@@ -48,36 +48,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Image Classification Web** | Official Google Developer platform achievement (Learning Pathway: image classification web). |
 | 2026-06-05 | **Learn Accessibility** | Official Google Developer platform achievement (Learning Pathway: learn accessibility). |
 | 2026-06-05 | **Web Vitals** | Official Google Developer platform achievement (Learning Pathway: web vitals). |
-| 2026-06-05 | **Going Further Image Product Search** | Official Google Developer platform achievement (Learning Pathway: going further image product search). |
-| 2026-06-05 | **Business Messages Location** | Official Google Developer platform achievement (Learning Pathway: business messages location). |
-| 2026-06-05 | **Android Basics Compose Unit 6 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 6 pathway 1). |
-| 2026-06-05 | **Android 11 Week 4** | Official Google Developer platform achievement (Learning Pathway: android 11 week 4). |
-| 2026-06-05 | **Ecommerce Serverless Django** | Official Google Developer platform achievement (Learning Pathway: ecommerce serverless django). |
-| 2026-06-05 | **Android Basics Compose Unit 1 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 1 pathway 1). |
-| 2026-06-05 | **Fast Stable Apps With Firebase** | Official Google Developer platform achievement (Learning Pathway: fast stable apps with firebase). |
-| 2026-06-05 | **Learn Forms** | Official Google Developer platform achievement (Learning Pathway: learn forms). |
-| 2026-06-05 | **Passkeys** | Official Google Developer platform achievement (Learning Pathway: passkeys). |
-| 2026-06-05 | **Android 11 Week 9 1** | Official Google Developer platform achievement (Learning Pathway: android 11 week 9 1). |
-| 2026-06-05 | **2021 Member** | Official Google Developer platform achievement (Community: 2021_member). |
-| 2026-06-05 | **Android Basics Compose Unit 6 Pathway 3** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 6 pathway 3). |
-| 2026-06-05 | **Android Development With Kotlin** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin). |
-| 2026-06-05 | **Registered** | Official Google Developer platform achievement (Learning Pathway: registered). |
-| 2026-06-05 | **Firebase Flutter Realtime** | Official Google Developer platform achievement (Learning Pathway: firebase flutter realtime). |
-| 2026-06-05 | **Android Development With Kotlin 9** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 9). |
-| 2026-06-05 | **Places Android** | Official Google Developer platform achievement (Learning Pathway: places_android). |
-| 2026-06-05 | **Object Detection Android** | Official Google Developer platform achievement (Learning Pathway: object detection android). |
-| 2026-06-05 | **Android 11 Week 10** | Official Google Developer platform achievement (Learning Pathway: android 11 week 10). |
-| 2026-06-05 | **Passkeys Web 2** | Official Google Developer platform achievement (Learning Pathway: passkeys web 2). |
-| 2026-06-05 | **Learn Javascript** | Official Google Developer platform achievement (Learning Pathway: learn javascript). |
-| 2026-06-05 | **Android 11 Week 7** | Official Google Developer platform achievement (Learning Pathway: android 11 week 7). |
-| 2026-06-05 | **Android Basics Compose Unit 5 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 5 pathway 2). |
-| 2026-06-05 | **Ai Gemini 101** | Official Google Developer platform achievement (Learning Pathway: ai gemini 101). |
-| 2026-06-05 | **Learn Images** | Official Google Developer platform achievement (Learning Pathway: learn images). |
-| 2026-06-05 | **Jetpack Compose For Android Developers 2** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 2). |
-| 2026-06-05 | **Android Development With Kotlin 11** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 11). |
-| 2026-06-05 | **Earned Badge** | Official Google Developer platform achievement (Learning Pathway: earned badge). |
-| 2026-06-05 | **Location Awareness In Apps** | Official Google Developer platform achievement (Learning Pathway: location_awareness_in_apps). |
-| 2026-06-05 | **Regression Ios** | Official Google Developer platform achievement (Learning Pathway: regression iOS). |
 
 ---
-> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-badges-2026-08-part-02.md](google-developer-badges-2026-08-part-02.md)
+> **Navigation:** Prev: [google-developer-badges-2026-06-part-02.md](google-developer-badges-2026-06-part-02.md) | [Index](./google-developer-index.md) | Next: None
+

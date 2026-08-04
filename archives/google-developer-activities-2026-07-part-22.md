@@ -1,37 +1,17 @@
 ---
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 1 of 23
-date_range: 2026-07-02 to 2026-08-01
-total_entries: 65
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-01.md
+chunk_part: 22 of 23
+date_range: 2026-06-29 to 2026-07-10
+total_entries: 69
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-07-part-22.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 01
+# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 22
 
-> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-02.md](google-developer-activities-2026-08-part-02.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-activities-2026-06-part-21.md](google-developer-activities-2026-06-part-21.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-23.md](google-developer-activities-2026-08-part-23.md) | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-08-01 | **Run a personal agent on a Cloud Run service (coffee shop manager assistant)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-08-01 | **Anti-Money Laundering & Fraud Prevention with BigQuery GraphRAG** | Verified Google Developer granular learning activity module milestone. |
-| 2026-08-01 | **Build and Deploy AI Agents with Gemini and BigQuery MCP server in Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-08-01 | **ADK 2 Orchestration: Graph, Collaborative & Dynamic Workflows** | Verified Google Developer granular learning activity module milestone. |
-| 2026-08-01 | **Deploy a RAG AI Agent in Streamlit using Google ADK and Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-08-01 | **Build and Deploy AI Agents with Gemma 4 and BigQuery MCP server in Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-08-01 | **Deploy a Python App to Cloud Run (Streamlit)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-08-01 | **Agent-to-Agent Engineering: Build, Deploy, and Embed ADK Agents with Antigravity CLI and agents-cli** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-29 | **Optimizing Unity Games for Large Screens and Foldables** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-29 | **OSS Kubernetes on GCE with TPUs, DRA for TPU, DRANET (OSS) and Gemma 4** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-26 | **Going Multimodal with Agent Development Kit: Personal Expense Assistant with Gemini 2.5, Firestore and Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-23 | **Level Up Your Game: Google Play Games Services Setup in Unity** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-21 | **Build and publish your first Android app with AI Studio** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-21 | **Supercharge Code Quality: AI-Assisted Code Review with Antigravity CLI and SDK** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-21 | **Build a Zero-Code Multi-Agent System with Agent Studio** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-17 | **Plan and Build Apps with Conductor Plugin** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-14 | **Google Pay API: Vibe-code checkout page with MCP servers and Antigravity** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-14 | **Customer Identity Resolution with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-10 | **Make your first Google Health API call using OAuth2 Playground** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-10 | **Deploy your containerized agent on Agent Runtime** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-10 | **Evolve compiled code with AlphaEvolve on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-10 | **Get started with AlphaEvolve on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-10 | **Evolve LLM fine-tuning hyperparameters with AlphaEvolve on GKE** | Verified Google Developer granular learning activity module milestone. |
@@ -77,6 +57,31 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-02 | **Android 11—Week 9—Large Screens** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-02 | **Android 11—Week 10—Games and media** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-02 | **Google Pay quiz** | Verified Google Developer granular learning activity module milestone. |
+| 2026-07-02 | **Launch your portfolio website with AI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-07-02 | **Develop locally with Firebase** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Introduction to SQL** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Schedule tasks with WorkManager** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Navigation in Jetpack Compose** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Lesson 4: Build your first Android app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Lesson 9: App architecture (persistence)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Modern Android App Architecture** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Get started with audio classification** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Lesson 2: Functions** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Adapt for different screen sizes** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Introduction to programming in Kotlin** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Add a button to an app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Lesson 5: Layouts** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Lesson 11: Connect to the internet** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Lesson 1.1 - Get started** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Get started with comment-spam detection** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **How to do local testing of an ADK agent that writes to a Google Sheet before deploying to Cloud Run** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Build apps with Android Enterprise** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Go further with comment spam detection** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Setup Android Studio** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Build a Managed Tech Digest Agent with the Gemini API** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **PSC-I RDMA VPC Multi-NIC Deployment Guide** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-29 | **Android Views and Compose in Views** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-02.md](google-developer-activities-2026-08-part-02.md)
+> **Navigation:** Prev: [google-developer-activities-2026-06-part-21.md](google-developer-activities-2026-06-part-21.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-23.md](google-developer-activities-2026-08-part-23.md)
+

@@ -1,10 +1,7 @@
 # Complete Google Developer Badges & Activity Archive
-
 Historical verified record tracking all achievements.
 
-
 ## Milestone & Pathway Badges (171)
-
 | Date Earned | Badge Title | Description |
 | :---: | :--- | :--- |
 | 2026-06-05 | **Android Basics Compose Unit 8 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 2). |
@@ -180,7 +177,6 @@ Historical verified record tracking all achievements.
 | 2026-06-05 | **Intro To Flutter** | Official Google Developer platform achievement (Learning Pathway: intro to flutter). |
 
 ## Detailed Learning Activities & Codelabs (1446)
-
 | Date Earned | Codelab / Activity Title | Description |
 | :---: | :--- | :--- |
 | 2026-08-01 | **Run a personal agent on a Cloud Run service (coffee shop manager assistant)** | Verified Google Developer granular learning activity module milestone. |

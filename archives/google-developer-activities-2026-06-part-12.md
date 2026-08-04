@@ -1,42 +1,17 @@
 ---
 archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 11 of 23
+chunk_part: 12 of 23
 date_range: 2026-06-05 to 2026-06-06
-total_entries: 74
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-11.md
+total_entries: 71
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-06-part-12.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 11
+# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 12
 
-> **Navigation:** Prev: [google-developer-activities-2026-08-part-10.md](google-developer-activities-2026-08-part-10.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-12.md](google-developer-activities-2026-08-part-12.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-activities-2026-06-part-11.md](google-developer-activities-2026-06-part-11.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-06-part-13.md](google-developer-activities-2026-06-part-13.md) | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-06 | **Build beautiful apps** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Practice: Classes and Collections** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Use collections in Kotlin** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Use nullability in Kotlin** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **More Kotlin fundamentals** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Practice: Build a grid** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Lesson 13: App UI design** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Store and access data using keys with DataStore** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Lesson 1: Kotlin basics** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Create a basic app for audio classification** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Higher-order functions with collections** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Write unit tests for ViewModel** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Build a basic layout** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Practice: Build Sports app** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Test the Cupcake App** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Use Room for data persistence** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Introduction to Coroutines in Android Studio** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Run your first app on the Android Emulator** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Lesson 6: App navigation** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Accessibility, testing, and performance** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Lesson 8: App architecture (UI layer)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Save preferences locally with DataStore** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Lesson 7: Activity and fragment lifecycles** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Functions** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Build a simple app with text composables** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **How to connect your Android device** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **(Deprecated) Build an app that runs on a work profile** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Calculate a custom tip** | Verified Google Developer granular learning activity module milestone. |
@@ -86,6 +61,29 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Protect yourself from online harassment** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Call Vision API Product Search backend on Android** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Build Actions for Google Assistant using Actions Builder (Level 1)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Building watch faces for Wear OS** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Activity embedding** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Implement passkeys with form autofill in a web app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **View Interoperability in Compose** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Build a product image search backend with Vision API Product Search** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **MDC-102 Web: Material Structure and Layout (Web)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Engage Wear OS users in new ways with the Ongoing Activity API** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Get started with regression in iOS apps** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Passkey integration on the server-side and user-experience upgrades** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Extend an Android app to Google Assistant with App Actions (Level 2)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Quiz: Build maintainable and scalable web apps with Angular** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Build your first WebAuthn app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Add a map to your Android app (Kotlin)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **MDC-102 Android: Material Structure and Layout (Java)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Build an Android App with Views** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Build your own Current Place picker for Android (Java)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Advanced Android in Kotlin 04.1: Android Google Maps** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Module 2: Inspect** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Create a widget with Glance** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Build a serverless Ecommerce web app with Python, Cloud Run, Cloud SQL, and Firebase** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Build AI-powered web apps with Firebase Extensions for the Gemini API** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Visualize data with Google Maps Platform and deck.gl** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-08-part-10.md](google-developer-activities-2026-08-part-10.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-08-part-12.md](google-developer-activities-2026-08-part-12.md)
+> **Navigation:** Prev: [google-developer-activities-2026-06-part-11.md](google-developer-activities-2026-06-part-11.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-06-part-13.md](google-developer-activities-2026-06-part-13.md)
+

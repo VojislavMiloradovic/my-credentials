@@ -1,17 +1,47 @@
 ---
 archive_platform: Google Developer Profile (Milestone & Pathway Badges)
-chunk_part: 3 of 3
+chunk_part: 1 of 3
 date_range: 2026-06-05 to 2026-06-05
-total_entries: 38
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-08-part-03.md
+total_entries: 68
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-06-part-01.md
 ---
 
-# Google Developer Profile: Milestone & Pathway Badges — Part 03
+# Google Developer Profile: Milestone & Pathway Badges — Part 01
 
-> **Navigation:** Prev: [google-developer-badges-2026-08-part-02.md](google-developer-badges-2026-08-part-02.md) | [Index](./google-developer-index.md) | Next: None | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-badges-2026-06-part-02.md](google-developer-badges-2026-06-part-02.md) | [Complete Monolith Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Firebase Crashlytics Analytics** | Official Google Developer platform achievement (Learning Pathway: firebase crashlytics analytics). |
+| 2026-06-05 | **Firebase Remote Config** | Official Google Developer platform achievement (Learning Pathway: firebase remote config). |
+| 2026-06-05 | **Android Basics Compose Unit 3 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 3 pathway 1). |
+| 2026-06-05 | **Firebase Security Layers** | Official Google Developer platform achievement (Learning Pathway: firebase security layers). |
+| 2026-06-05 | **Going Further Image Classification** | Official Google Developer platform achievement (Learning Pathway: going further image classification). |
+| 2026-06-05 | **Going Further Text Classification Web** | Official Google Developer platform achievement (Learning Pathway: going further text classification web). |
+| 2026-06-05 | **Ai Models On Gpu Intro** | Official Google Developer platform achievement (Learning Pathway: ai models on gpu intro). |
+| 2026-06-05 | **Android 11 Week 2** | Official Google Developer platform achievement (Learning Pathway: android 11 week 2). |
+| 2026-06-05 | **Pay** | Official Google Developer platform achievement (Learning Pathway: pay). |
+| 2026-06-05 | **Ecommerce Microservices Kubernetes** | Official Google Developer platform achievement (Learning Pathway: ecommerce microservices kubernetes). |
+| 2026-06-05 | **Ai Powered Content Search** | Official Google Developer platform achievement (Learning Pathway: ai powered content search). |
+| 2026-06-05 | **Android Development With Kotlin 6** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 6). |
+| 2026-06-05 | **Kotlin Multiplatform** | Official Google Developer platform achievement (Learning Pathway: kotlin multiplatform). |
+| 2026-06-05 | **Three Tier Cloud Run** | Official Google Developer platform achievement (Learning Pathway: three tier cloud run). |
+| 2026-06-05 | **Android 11 Week 11 1** | Official Google Developer platform achievement (Learning Pathway: android 11 week 11 1). |
+| 2026-06-05 | **Android Development With Kotlin 4** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 4). |
+| 2026-06-05 | **Android Development With Kotlin 7** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 7). |
+| 2026-06-05 | **Gpay For Web** | Official Google Developer platform achievement (Learning Pathway: gpay for web). |
+| 2026-06-05 | **Get Started Image Classification** | Official Google Developer platform achievement (Learning Pathway: get started image classification). |
+| 2026-06-05 | **Identity** | Official Google Developer platform achievement (Learning Pathway: identity). |
+| 2026-06-05 | **Learn Css** | Official Google Developer platform achievement (Learning Pathway: learn css). |
+| 2026-06-05 | **Firebase Firestore Leaderboards** | Official Google Developer platform achievement (Learning Pathway: firebase firestore leaderboards). |
+| 2026-06-05 | **Discovery** | Official Google Developer platform achievement (Community: discovery). |
+| 2026-06-05 | **Cross Platform Apps With Angular** | Official Google Developer platform achievement (Learning Pathway: cross platform apps with angular). |
+| 2026-06-05 | **Pwa Push Notifications** | Official Google Developer platform achievement (Learning Pathway: pwa push notifications). |
+| 2026-06-05 | **Aog Smart Home** | Official Google Developer platform achievement (Learning Pathway: aog smart home). |
+| 2026-06-05 | **Local Development With Emulator Suite** | Official Google Developer platform achievement (Learning Pathway: local_development_with_emulator_suite). |
+| 2026-06-05 | **Android Basics Compose Unit 3 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 3 pathway 2). |
+| 2026-06-05 | **Get Started Audio Classification** | Official Google Developer platform achievement (Learning Pathway: get started audio classification). |
+| 2026-06-05 | **Learn Privacy** | Official Google Developer platform achievement (Learning Pathway: learn privacy). |
 | 2026-06-05 | **Android Basics Compose Unit 8 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 1). |
 | 2026-06-05 | **App Check** | Official Google Developer platform achievement (Learning Pathway: app_check). |
 | 2026-06-05 | **Learnings** | Official Google Developer platform achievement (Learning Pathway: learnings). |
@@ -52,4 +82,5 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Intro To Flutter** | Official Google Developer platform achievement (Learning Pathway: intro to flutter). |
 
 ---
-> **Navigation:** Prev: [google-developer-badges-2026-08-part-02.md](google-developer-badges-2026-08-part-02.md) | [Index](./google-developer-index.md) | Next: None
+> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-badges-2026-06-part-02.md](google-developer-badges-2026-06-part-02.md)
+
