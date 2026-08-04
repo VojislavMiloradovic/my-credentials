@@ -182,8 +182,9 @@ def fetch_skills():
     unique_badges = []
     seen = set()
     for b in badges:
-        if b["title"].lower() not in seen:
-            seen.add(b["title"].lower())
+        dedup_key = (b["title"].lower(), b["date_earned"])
+        if dedup_key not in seen:
+            seen.add(dedup_key)
             unique_badges.append(b)
 
     unique_badges.sort(
