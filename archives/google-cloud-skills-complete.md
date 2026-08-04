@@ -1,6 +1,6 @@
 # Complete Google Cloud Skills Boost Archive
 
-This document represents a unified, verifiable list of all 339 records.
+This document represents a unified, verifiable list of all 340 records.
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
 **Total Lifetime Points:** 200,651
@@ -213,6 +213,7 @@ This document represents a unified, verifiable list of all 339 records.
 | 2025-12-27 | **Introduction to Cloud Identity** |
 | 2025-12-26 | **AppSheet Administration** |
 | 2025-12-26 | **[DEPRECATED] SOAR Fundamentals** |
+| 2025-12-25 | **Introduction to Security in the World of AI** |
 | 2025-12-25 | **Generative AI for Healthcare** |
 | 2025-12-25 | **MySQL to Cloud Spanner** |
 | 2025-12-25 | **Design Foundations for Streaming with Google Cloud** |

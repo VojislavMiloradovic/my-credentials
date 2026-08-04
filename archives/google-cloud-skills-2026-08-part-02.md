@@ -68,6 +68,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-12-27 | **Introduction to Cloud Identity** |
 | 2025-12-26 | **AppSheet Administration** |
 | 2025-12-26 | **[DEPRECATED] SOAR Fundamentals** |
+| 2025-12-25 | **Introduction to Security in the World of AI** |
 | 2025-12-25 | **Generative AI for Healthcare** |
 | 2025-12-25 | **MySQL to Cloud Spanner** |
 | 2025-12-25 | **Design Foundations for Streaming with Google Cloud** |
@@ -164,7 +165,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-11-06 | **AI Boost Bites: Create Your Ultimate College Scouting Report** |
 | 2025-11-06 | **AI Boost Bites: One-Click Campaign Visuals** |
 | 2025-11-06 | **AI Boost Bites: From Napkin Sketch to Functional App** |
-| 2025-11-06 | **[DEPRECATED] AI Boost Bites: NotebookLM Reports** |
 
 ---
 > **Navigation:** Prev: [google-cloud-skills-2026-08-part-01.md](google-cloud-skills-2026-08-part-01.md) | [Index](./google-cloud-skills-index.md) | Next: [google-cloud-skills-2026-08-part-03.md](google-cloud-skills-2026-08-part-03.md)

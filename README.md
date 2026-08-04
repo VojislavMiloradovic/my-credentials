@@ -47,7 +47,7 @@ Showing latest 10 of 4,794 achievements. View the full dataset via the [Platform
 
 <!-- GOOGLE_SKILLS_START -->
 
-### Google Cloud Skills Boost (339 Badges)
+### Google Cloud Skills Boost (340 Badges)
 
 **Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
 **Total Lifetime Points:** 200,651
