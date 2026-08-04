@@ -7,7 +7,6 @@ README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
 LLMS_PATH = "llms.txt"
 
-# Comprehensive domain regex patterns (checked in sequential order)
 DOMAIN_PATTERNS = [
     (
         "🤖 AI, Machine Learning & Data",
@@ -77,7 +76,6 @@ def read_portfolio_counts() -> dict:
         "gdev_activities": "[unavailable]",
     }
 
-    # --- MS Learn: parse README between its markers ---
     if os.path.exists(README_PATH):
         try:
             with open(README_PATH, "r", encoding="utf-8") as f:
@@ -102,7 +100,6 @@ def read_portfolio_counts() -> dict:
     else:
         print(f"⚠️ {README_PATH} not found.")
 
-    # --- Archive index files ---
     index_targets = [
         ("ms_learn_achievements", "microsoft-learn-index.md", _TOTAL),
         ("gcp_badges", "google-cloud-skills-index.md", _TOTAL),
@@ -120,14 +117,44 @@ def read_portfolio_counts() -> dict:
     total = len(counts)
     unavail_count = total - resolved
 
-    print(f"📊 Portfolio Counts Scraped: {resolved}/{total} resolved "
-          f"({unavail_count} marked [unavailable])")
-    
+    print(f"📊 Portfolio Counts Scraped: {resolved}/{total} resolved ({unavail_count} marked [unavailable])")
     for k, v in counts.items():
         if v == "[unavailable]":
             print(f"   ⚠️ {k}: [unavailable]")
 
     return counts
+
+
+def extract_dataset_items(lines: list[str]) -> list[str]:
+    """Extracts data strings from markdown table data rows and bullet points using separator anchoring."""
+    items = []
+    cleaned_lines = [line.strip() for line in lines]
+    separator_re = re.compile(r"^\|(?:\s*:?-+:?\s*\|)+$")
+
+    i = 0
+    while i < len(cleaned_lines):
+        line = cleaned_lines[i]
+        if line.startswith("|") and line.endswith("|"):
+            if (i + 1) < len(cleaned_lines) and separator_re.match(cleaned_lines[i + 1]):
+                i += 2  # Skip header row and separator row
+                while i < len(cleaned_lines):
+                    row_line = cleaned_lines[i]
+                    if not (row_line.startswith("|") and row_line.endswith("|")):
+                        break
+                    if separator_re.match(row_line):
+                        i += 1
+                        continue
+                    items.append(row_line)
+                    i += 1
+                continue
+            elif separator_re.match(line):
+                i += 1
+                continue
+        elif line.startswith(("- ", "* ")):
+            items.append(line)
+        i += 1
+
+    return items
 
 
 def calculate_domain_breakdown():
@@ -147,8 +174,6 @@ def calculate_domain_breakdown():
 
     for filepath in sorted(monolith_files):
         filename = os.path.basename(filepath)
-        file_parsed = 0
-        file_skipped = 0
 
         try:
             with open(filepath, "r", encoding="utf-8") as f:
@@ -157,36 +182,20 @@ def calculate_domain_breakdown():
             print(f"❌ Error reading {filepath}: {e}")
             continue
 
-        for line in lines:
-            line_str = line.strip()
-            # Parse table rows or bullet points containing titles
-            if (
-                line_str.startswith("|")
-                and not any(
-                    h in line_str
-                    for h in [
-                        "---",
-                        "Date",
-                        "Metric",
-                        "Stat",
-                        "Achievement Title",
-                        "Activity / Course",
-                    ]
-                )
-            ) or line_str.startswith(("- ", "* ")):
-                matched = False
-                for domain_name, pattern in DOMAIN_PATTERNS:
-                    if pattern.search(line_str):
-                        domain_counts[domain_name] += 1
-                        matched = True
-                        break
+        items = extract_dataset_items(lines)
+        file_parsed = len(items)
+        file_skipped = len(lines) - file_parsed
 
-                if not matched:
-                    domain_counts[FALLBACK_DOMAIN] += 1
+        for line_str in items:
+            matched = False
+            for domain_name, pattern in DOMAIN_PATTERNS:
+                if pattern.search(line_str):
+                    domain_counts[domain_name] += 1
+                    matched = True
+                    break
 
-                file_parsed += 1
-            else:
-                file_skipped += 1
+            if not matched:
+                domain_counts[FALLBACK_DOMAIN] += 1
 
         total_parsed += file_parsed
         total_skipped += file_skipped
@@ -209,7 +218,6 @@ def generate_llms_txt():
     domain_counts, total_parsed = calculate_domain_breakdown()
 
     def _fmt(val: str) -> str:
-        """Format a raw digit string with thousands separators, or pass '[unavailable]' through."""
         if val == "[unavailable]":
             return val
         try:
