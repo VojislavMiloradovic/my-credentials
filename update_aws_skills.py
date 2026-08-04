@@ -17,7 +17,6 @@ from datetime import datetime, timezone
 from typing import Any
 
 import requests
-from bs4 import BeautifulSoup
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
 # Archive Integration Helper
