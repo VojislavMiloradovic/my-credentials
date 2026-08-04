@@ -214,32 +214,34 @@ def parse_badges_from_html(html_content: str, profile_id: str) -> list[dict]:
     soup = BeautifulSoup(html_content, "html.parser")
     badges = []
 
-    # Primary selector strategy: profile badge cards / items
     badge_cards = (
         soup.select(".public-profile-badge")
         or soup.select(".profile-badge")
         or soup.select(".badge-item")
         or soup.select(".ql-badge")
+        or soup.find_all("div", class_=lambda c: c and "badge" in c.lower())
     )
 
-    if not badge_cards:
-        # Fallback selector strategy for modern layout structures
-        badge_cards = soup.find_all("div", class_=lambda c: c and "badge" in c.lower())
-
     logger.info(f"  Extracted {len(badge_cards)} raw badge elements from profile HTML.")
-
     public_profile_url = f"https://www.skills.google/public_profiles/{profile_id}"
 
     for card in badge_cards:
-        # Extract Title
+        # Robust title selector strategy across Cloud Skills Boost / Google Skills templates
         title_elem = (
             card.select_one(".public-profile-badge__name")
             or card.select_one(".badge-name")
-            or card.select_one("h3")
-            or card.select_one("h4")
+            or card.select_one(".ql-subhead-1")
             or card.select_one(".ql-title")
+            or card.select_one("h3, h4, a.ql-subhead-1, .title")
         )
         title = title_elem.get_text(strip=True) if title_elem else None
+        
+        # Fallback: if card itself is or contains text anchor
+        if not title:
+            a_tag = card.find("a")
+            if a_tag and a_tag.get_text(strip=True):
+                title = a_tag.get_text(strip=True)
+
         if not title:
             continue
 
@@ -247,12 +249,18 @@ def parse_badges_from_html(html_content: str, profile_id: str) -> list[dict]:
         date_elem = (
             card.select_one(".public-profile-badge__date")
             or card.select_one(".badge-date")
+            or card.select_one(".ql-body-2")
             or card.select_one(".ql-date")
             or card.select_one("span.date")
         )
         raw_date = date_elem.get_text(strip=True) if date_elem else None
         if raw_date and ("earned" in raw_date.lower() or "completed" in raw_date.lower()):
-            raw_date = raw_date.replace("Earned", "").replace("Completed", "").replace("EST", "").strip()
+            raw_date = (
+                raw_date.replace("Earned", "")
+                .replace("Completed", "")
+                .replace("EST", "")
+                .strip()
+            )
 
         # Extract Image URL
         img_elem = card.find("img")
