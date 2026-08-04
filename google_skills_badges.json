@@ -1,9 +1,9 @@
 {
   "profile_id": "2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_count": 335,
+  "total_count": 340,
   "badges": [
     {
-      "id": "1a9f02f4746d4627",
+      "id": "google-skills-badge-26258669",
       "title": "Privileged Access with IAM",
       "name": "Privileged Access with IAM",
       "issuer": "Google Cloud",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "id": "a2954492036f07be",
+      "id": "google-skills-badge-26066863",
       "title": "Analyze Images with the Cloud Vision API",
       "name": "Analyze Images with the Cloud Vision API",
       "issuer": "Google Cloud",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "0a0dbccc8bfbc41e",
+      "id": "google-skills-badge-26065872",
       "title": "Build Event-Driven Applications with Eventarc",
       "name": "Build Event-Driven Applications with Eventarc",
       "issuer": "Google Cloud",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": "923949248a743433",
+      "id": "google-skills-badge-25946097",
       "title": "Implement Sensitive Data Protection on Google Cloud",
       "name": "Implement Sensitive Data Protection on Google Cloud",
       "issuer": "Google Cloud",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "id": "2f9d43fc10089a72",
+      "id": "google-skills-badge-25939305",
       "title": "Gemini in Google Chat",
       "name": "Gemini in Google Chat",
       "issuer": "Google Cloud",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "id": "693d4c01fce52e7a",
+      "id": "google-skills-badge-25938520",
       "title": "Scaling Data Science with Agents",
       "name": "Scaling Data Science with Agents",
       "issuer": "Google Cloud",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "id": "af279ba3905d3894",
+      "id": "google-skills-badge-25829594",
       "title": "Configure VPC Routes and Addresses",
       "name": "Configure VPC Routes and Addresses",
       "issuer": "Google Cloud",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "id": "17b5c5bc9bf8573c",
+      "id": "google-skills-badge-25828763",
       "title": "Set Up Multiple Network Interfaces",
       "name": "Set Up Multiple Network Interfaces",
       "issuer": "Google Cloud",
@@ -147,7 +147,25 @@
       ]
     },
     {
-      "id": "b7a6f39cabd60862",
+      "id": "google-skills-badge-25826281",
+      "title": "Orchestrate Workflows with the Data Agent Kit",
+      "name": "Orchestrate Workflows with the Data Agent Kit",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-07-23",
+      "issued_at_date": "2026-07-23",
+      "date": "2026-07-23",
+      "image_url": "https://cdn.qwiklabs.com/1KwKU6fBs5G2yqXoNiATcXl2mq7PhBd24940799B%2BS8%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25826281",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25826281",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Orchestrate Workflows with the Data Agent Kit"
+      ]
+    },
+    {
+      "id": "google-skills-badge-25819783",
       "title": "Arcade Adventure: Low-Code Development",
       "name": "Arcade Adventure: Low-Code Development",
       "issuer": "Google Cloud",
@@ -165,7 +183,7 @@
       ]
     },
     {
-      "id": "f7df89d55c32ae7c",
+      "id": "google-skills-badge-25752565",
       "title": "Build Serverless Applications with Cloud Run Functions",
       "name": "Build Serverless Applications with Cloud Run Functions",
       "issuer": "Google Cloud",
@@ -183,7 +201,7 @@
       ]
     },
     {
-      "id": "1d16e00e2af85d64",
+      "id": "google-skills-badge-25679848",
       "title": "Secure Software Delivery",
       "name": "Secure Software Delivery",
       "issuer": "Google Cloud",
@@ -201,7 +219,7 @@
       ]
     },
     {
-      "id": "dc0a807995c87f18",
+      "id": "google-skills-badge-25679839",
       "title": "Arcade Base Camp July 2026",
       "name": "Arcade Base Camp July 2026",
       "issuer": "Google Cloud",
@@ -219,7 +237,7 @@
       ]
     },
     {
-      "id": "eb9ea79b4dcee4bb",
+      "id": "google-skills-badge-25597616",
       "title": "Build a Data Mesh with Knowledge Catalog",
       "name": "Build a Data Mesh with Knowledge Catalog",
       "issuer": "Google Cloud",
@@ -237,7 +255,7 @@
       ]
     },
     {
-      "id": "a517305f03eee388",
+      "id": "google-skills-badge-25597578",
       "title": "Arcade Simulator: Data Mesh Architect",
       "name": "Arcade Simulator: Data Mesh Architect",
       "issuer": "Google Cloud",
@@ -255,7 +273,7 @@
       ]
     },
     {
-      "id": "5825cdf1ad439cd7",
+      "id": "google-skills-badge-25533410",
       "title": "Deploy and Monitor in Google Cloud for AWS Professionals",
       "name": "Deploy and Monitor in Google Cloud for AWS Professionals",
       "issuer": "Google Cloud",
@@ -273,7 +291,7 @@
       ]
     },
     {
-      "id": "6fc28c92b40d835b",
+      "id": "google-skills-badge-25498091",
       "title": "Developing Containerized Applications on Google Cloud",
       "name": "Developing Containerized Applications on Google Cloud",
       "issuer": "Google Cloud",
@@ -291,7 +309,7 @@
       ]
     },
     {
-      "id": "b402de11f08dc71b",
+      "id": "google-skills-badge-25465700",
       "title": "Developing Applications with Cloud Run Functions on Google Cloud",
       "name": "Developing Applications with Cloud Run Functions on Google Cloud",
       "issuer": "Google Cloud",
@@ -309,7 +327,7 @@
       ]
     },
     {
-      "id": "ee456253613d6373",
+      "id": "google-skills-badge-25441776",
       "title": "Build a Data Warehouse with BigQuery",
       "name": "Build a Data Warehouse with BigQuery",
       "issuer": "Google Cloud",
@@ -327,7 +345,7 @@
       ]
     },
     {
-      "id": "f6a439d2087191a8",
+      "id": "google-skills-badge-25402530",
       "title": "Arcade Trail: Google Workspace Administration",
       "name": "Arcade Trail: Google Workspace Administration",
       "issuer": "Google Cloud",
@@ -345,7 +363,7 @@
       ]
     },
     {
-      "id": "d4d0eb726c32fa1c",
+      "id": "google-skills-badge-25377679",
       "title": "Safe Spaces",
       "name": "Safe Spaces",
       "issuer": "Google Cloud",
@@ -363,7 +381,7 @@
       ]
     },
     {
-      "id": "fe5acac82b9e263d",
+      "id": "google-skills-badge-25373339",
       "title": "Optimize Costs for Google Kubernetes Engine",
       "name": "Optimize Costs for Google Kubernetes Engine",
       "issuer": "Google Cloud",
@@ -381,7 +399,7 @@
       ]
     },
     {
-      "id": "89a221c178a15d69",
+      "id": "google-skills-badge-25313816",
       "title": "Mitigate Threats and Vulnerabilities with Security Command Center",
       "name": "Mitigate Threats and Vulnerabilities with Security Command Center",
       "issuer": "Google Cloud",
@@ -399,7 +417,7 @@
       ]
     },
     {
-      "id": "c70a66118cce76dd",
+      "id": "google-skills-badge-25278590",
       "title": "Build Infrastructure with Terraform on Google Cloud",
       "name": "Build Infrastructure with Terraform on Google Cloud",
       "issuer": "Google Cloud",
@@ -417,7 +435,7 @@
       ]
     },
     {
-      "id": "1ea0267a35e6850e",
+      "id": "google-skills-badge-25242347",
       "title": "Set Up an App Dev Environment on Google Cloud",
       "name": "Set Up an App Dev Environment on Google Cloud",
       "issuer": "Google Cloud",
@@ -435,7 +453,7 @@
       ]
     },
     {
-      "id": "f5662c61bee333db",
+      "id": "google-skills-badge-25200685",
       "title": "Implement Speech and Language Solutions with Pre-trained APIs",
       "name": "Implement Speech and Language Solutions with Pre-trained APIs",
       "issuer": "Google Cloud",
@@ -453,7 +471,7 @@
       ]
     },
     {
-      "id": "c25bcf124c24da27",
+      "id": "google-skills-badge-25200680",
       "title": "Arcade Voyage: Identity Management and Pre-trained AI APIs",
       "name": "Arcade Voyage: Identity Management and Pre-trained AI APIs",
       "issuer": "Google Cloud",
@@ -471,7 +489,7 @@
       ]
     },
     {
-      "id": "adf5b5b1d5e96d69",
+      "id": "google-skills-badge-25168576",
       "title": "Configure Service Accounts and IAM Roles for Google Cloud",
       "name": "Configure Service Accounts and IAM Roles for Google Cloud",
       "issuer": "Google Cloud",
@@ -489,7 +507,7 @@
       ]
     },
     {
-      "id": "f80875867c32e95d",
+      "id": "google-skills-badge-25137908",
       "title": "Building No-Code Apps with AppSheet: Automation",
       "name": "Building No-Code Apps with AppSheet: Automation",
       "issuer": "Google Cloud",
@@ -507,7 +525,7 @@
       ]
     },
     {
-      "id": "63953f4bfa62c26f",
+      "id": "google-skills-badge-25096906",
       "title": "Applying Advanced LookML Concepts in Looker",
       "name": "Applying Advanced LookML Concepts in Looker",
       "issuer": "Google Cloud",
@@ -525,7 +543,7 @@
       ]
     },
     {
-      "id": "66fa5329e99ca6d7",
+      "id": "google-skills-badge-25096293",
       "title": "Understanding LookML in Looker",
       "name": "Understanding LookML in Looker",
       "issuer": "Google Cloud",
@@ -543,7 +561,7 @@
       ]
     },
     {
-      "id": "3ef78836c49819b8",
+      "id": "google-skills-badge-25095039",
       "title": "Using the Google Cloud Speech API",
       "name": "Using the Google Cloud Speech API",
       "issuer": "Google Cloud",
@@ -561,7 +579,7 @@
       ]
     },
     {
-      "id": "49d458a703158c3f",
+      "id": "google-skills-badge-25049718",
       "title": "Use APIs to Work with Cloud Storage",
       "name": "Use APIs to Work with Cloud Storage",
       "issuer": "Google Cloud",
@@ -579,7 +597,7 @@
       ]
     },
     {
-      "id": "d59481ce83c35168",
+      "id": "google-skills-badge-25049414",
       "title": "The Basics of Google Cloud Compute",
       "name": "The Basics of Google Cloud Compute",
       "issuer": "Google Cloud",
@@ -597,7 +615,7 @@
       ]
     },
     {
-      "id": "72998a5f153bb6a5",
+      "id": "google-skills-badge-25048886",
       "title": "Customer Experience Agent Studio: Fundamentals",
       "name": "Customer Experience Agent Studio: Fundamentals",
       "issuer": "Google Cloud",
@@ -615,7 +633,25 @@
       ]
     },
     {
-      "id": "100cdf801f90bd3e",
+      "id": "google-skills-badge-25020466",
+      "title": "Troubleshooting with AI Using Cloud Assist Investigations",
+      "name": "Troubleshooting with AI Using Cloud Assist Investigations",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-06-19",
+      "issued_at_date": "2026-06-19",
+      "date": "2026-06-19",
+      "image_url": "https://cdn.qwiklabs.com/mydyfqMGrwMI8GaKZBUQWMe3fImoPwv8LIOcm0Ufm6w%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25020466",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25020466",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Troubleshooting with AI Using Cloud Assist Investigations"
+      ]
+    },
+    {
+      "id": "google-skills-badge-24977481",
       "title": "Store, Process, and Manage Data on Google Cloud - Console",
       "name": "Store, Process, and Manage Data on Google Cloud - Console",
       "issuer": "Google Cloud",
@@ -633,7 +669,7 @@
       ]
     },
     {
-      "id": "6df4f4461a346a5b",
+      "id": "google-skills-badge-24914097",
       "title": "AI Boost Bootcamp: How to Use Gemini for Marketing 201",
       "name": "AI Boost Bootcamp: How to Use Gemini for Marketing 201",
       "issuer": "Google Cloud",
@@ -651,7 +687,7 @@
       ]
     },
     {
-      "id": "0ec842a9ce9abb09",
+      "id": "google-skills-badge-24880679",
       "title": "Organize and Govern Data with Knowledge Catalog",
       "name": "Organize and Govern Data with Knowledge Catalog",
       "issuer": "Google Cloud",
@@ -669,7 +705,7 @@
       ]
     },
     {
-      "id": "6b7a433105e9f056",
+      "id": "google-skills-badge-24880145",
       "title": "Essential Google Cloud CLI Tools",
       "name": "Essential Google Cloud CLI Tools",
       "issuer": "Google Cloud",
@@ -687,7 +723,7 @@
       ]
     },
     {
-      "id": "fdc467496b344026",
+      "id": "google-skills-badge-24879428",
       "title": "Managing Cloud Infrastructure with Terraform",
       "name": "Managing Cloud Infrastructure with Terraform",
       "issuer": "Google Cloud",
@@ -705,7 +741,7 @@
       ]
     },
     {
-      "id": "1e85899bbff802eb",
+      "id": "google-skills-badge-24830932",
       "title": "Google Cloud Essentials",
       "name": "Google Cloud Essentials",
       "issuer": "Google Cloud",
@@ -723,7 +759,7 @@
       ]
     },
     {
-      "id": "cda485301a5d036c",
+      "id": "google-skills-badge-24658131",
       "title": "Analyzing and Visualizing Data in Looker",
       "name": "Analyzing and Visualizing Data in Looker",
       "issuer": "Google Cloud",
@@ -741,7 +777,7 @@
       ]
     },
     {
-      "id": "858844103df98ec2",
+      "id": "google-skills-badge-24560747",
       "title": "Developing Data Models with LookML",
       "name": "Developing Data Models with LookML",
       "issuer": "Google Cloud",
@@ -759,7 +795,7 @@
       ]
     },
     {
-      "id": "247faff682e76ef8",
+      "id": "google-skills-badge-24448908",
       "title": "Introduction to Data Analytics on Google Cloud",
       "name": "Introduction to Data Analytics on Google Cloud",
       "issuer": "Google Cloud",
@@ -777,7 +813,7 @@
       ]
     },
     {
-      "id": "94d28d2dfeee0baf",
+      "id": "google-skills-badge-24423060",
       "title": "Manage Data Models in Looker",
       "name": "Manage Data Models in Looker",
       "issuer": "Google Cloud",
@@ -795,7 +831,7 @@
       ]
     },
     {
-      "id": "70ca42b5be275bfc",
+      "id": "google-skills-badge-24390898",
       "title": "App Building with AppSheet",
       "name": "App Building with AppSheet",
       "issuer": "Google Cloud",
@@ -813,7 +849,7 @@
       ]
     },
     {
-      "id": "f2b84dfc02b2ae2e",
+      "id": "google-skills-badge-24389719",
       "title": "Analyze BigQuery Data in Connected Sheets",
       "name": "Analyze BigQuery Data in Connected Sheets",
       "issuer": "Google Cloud",
@@ -831,7 +867,7 @@
       ]
     },
     {
-      "id": "22d838ad1891ec18",
+      "id": "google-skills-badge-24364563",
       "title": "Build Real World AI Applications with Gemini and Imagen",
       "name": "Build Real World AI Applications with Gemini and Imagen",
       "issuer": "Google Cloud",
@@ -849,7 +885,7 @@
       ]
     },
     {
-      "id": "3e551e1eb871d3aa",
+      "id": "google-skills-badge-24328413",
       "title": "Website Modernization with Generative AI on Google Cloud",
       "name": "Website Modernization with Generative AI on Google Cloud",
       "issuer": "Google Cloud",
@@ -867,7 +903,7 @@
       ]
     },
     {
-      "id": "1456c8de626f98cb",
+      "id": "google-skills-badge-24287792",
       "title": "Data Governance with Dataplex Universal Catalog",
       "name": "Data Governance with Dataplex Universal Catalog",
       "issuer": "Google Cloud",
@@ -885,7 +921,7 @@
       ]
     },
     {
-      "id": "d2e395b47cae2119",
+      "id": "google-skills-badge-24253675",
       "title": "Boost Productivity with Gemini in BigQuery",
       "name": "Boost Productivity with Gemini in BigQuery",
       "issuer": "Google Cloud",
@@ -903,7 +939,7 @@
       ]
     },
     {
-      "id": "dc52ec2cfe5b8a02",
+      "id": "google-skills-badge-24251263",
       "title": "Accelerate App Development with Gemini CLI",
       "name": "Accelerate App Development with Gemini CLI",
       "issuer": "Google Cloud",
@@ -921,7 +957,7 @@
       ]
     },
     {
-      "id": "63825a06535b020d",
+      "id": "google-skills-badge-24198950",
       "title": "Working with Notebooks in Vertex AI",
       "name": "Working with Notebooks in Vertex AI",
       "issuer": "Google Cloud",
@@ -939,7 +975,7 @@
       ]
     },
     {
-      "id": "1be53f80350d6b4d",
+      "id": "google-skills-badge-24198703",
       "title": "Select a Google Cloud Database for Your Applications",
       "name": "Select a Google Cloud Database for Your Applications",
       "issuer": "Google Cloud",
@@ -957,7 +993,7 @@
       ]
     },
     {
-      "id": "d6f1b8674f7d2cf6",
+      "id": "google-skills-badge-24198352",
       "title": "Build AI Agents with Enterprise Databases",
       "name": "Build AI Agents with Enterprise Databases",
       "issuer": "Google Cloud",
@@ -975,7 +1011,7 @@
       ]
     },
     {
-      "id": "1de482f126f9da60",
+      "id": "google-skills-badge-24173032",
       "title": "Looker Studio Essentials",
       "name": "Looker Studio Essentials",
       "issuer": "Google Cloud",
@@ -993,7 +1029,7 @@
       ]
     },
     {
-      "id": "068fceabd3e1cd15",
+      "id": "google-skills-badge-24171873",
       "title": "AI Boost Bites: Presentations in Seconds with Nano Banana Pro",
       "name": "AI Boost Bites: Presentations in Seconds with Nano Banana Pro",
       "issuer": "Google Cloud",
@@ -1011,7 +1047,7 @@
       ]
     },
     {
-      "id": "573a903164e47066",
+      "id": "google-skills-badge-24171850",
       "title": "AI Boost Bites: Become a Homework Hero for Your Kids",
       "name": "AI Boost Bites: Become a Homework Hero for Your Kids",
       "issuer": "Google Cloud",
@@ -1029,7 +1065,7 @@
       ]
     },
     {
-      "id": "b9328f5fc162c8dc",
+      "id": "google-skills-badge-24171764",
       "title": "[Deprecated] AI Boost Bites: Productivity On the Go with NotebookLM",
       "name": "[Deprecated] AI Boost Bites: Productivity On the Go with NotebookLM",
       "issuer": "Google Cloud",
@@ -1047,7 +1083,7 @@
       ]
     },
     {
-      "id": "d39c1f4cfceba73e",
+      "id": "google-skills-badge-24171726",
       "title": "[DEPRECATED] AI Boost Bites: How Google's L&D Uses AI to build Training Programs",
       "name": "[DEPRECATED] AI Boost Bites: How Google's L&D Uses AI to build Training Programs",
       "issuer": "Google Cloud",
@@ -1065,7 +1101,7 @@
       ]
     },
     {
-      "id": "334c777af359e614",
+      "id": "google-skills-badge-24171625",
       "title": "AI Boost Bites: Build Charts with a Prompt",
       "name": "AI Boost Bites: Build Charts with a Prompt",
       "issuer": "Google Cloud",
@@ -1083,7 +1119,7 @@
       ]
     },
     {
-      "id": "8f8cda5da5f1cb8f",
+      "id": "google-skills-badge-24171600",
       "title": "AI Boost Bites: The Recruiter's Playbook in Gmail",
       "name": "AI Boost Bites: The Recruiter's Playbook in Gmail",
       "issuer": "Google Cloud",
@@ -1101,7 +1137,7 @@
       ]
     },
     {
-      "id": "36797f36b84983ad",
+      "id": "google-skills-badge-24171569",
       "title": "AI Boost Bites: Triage a Crisis with Gemini",
       "name": "AI Boost Bites: Triage a Crisis with Gemini",
       "issuer": "Google Cloud",
@@ -1119,7 +1155,7 @@
       ]
     },
     {
-      "id": "27e0dc183f1bbe14",
+      "id": "google-skills-badge-24171525",
       "title": "[DEPRECATED] AI Boost Bites: How Google's L&D Uses AI for Strategy",
       "name": "[DEPRECATED] AI Boost Bites: How Google's L&D Uses AI for Strategy",
       "issuer": "Google Cloud",
@@ -1137,7 +1173,7 @@
       ]
     },
     {
-      "id": "fbca173958ad696e",
+      "id": "google-skills-badge-24171501",
       "title": "AI Boost Bites: Bring your photos to life with AI",
       "name": "AI Boost Bites: Bring your photos to life with AI",
       "issuer": "Google Cloud",
@@ -1155,7 +1191,7 @@
       ]
     },
     {
-      "id": "d4443f1c1d20b3d7",
+      "id": "google-skills-badge-24171401",
       "title": "[DEPRECATED] AI Boost Bites: Build an AI Support Bot",
       "name": "[DEPRECATED] AI Boost Bites: Build an AI Support Bot",
       "issuer": "Google Cloud",
@@ -1173,7 +1209,7 @@
       ]
     },
     {
-      "id": "32e093e65abf5d61",
+      "id": "google-skills-badge-24171360",
       "title": "AI Boost Bites: Build Your AI Strategic Partner",
       "name": "AI Boost Bites: Build Your AI Strategic Partner",
       "issuer": "Google Cloud",
@@ -1191,7 +1227,7 @@
       ]
     },
     {
-      "id": "239d359d626257fb",
+      "id": "google-skills-badge-24171337",
       "title": "[Deprecated] AI Boost Bites: Build a Custom AI Teammate",
       "name": "[Deprecated] AI Boost Bites: Build a Custom AI Teammate",
       "issuer": "Google Cloud",
@@ -1209,7 +1245,7 @@
       ]
     },
     {
-      "id": "2f628ce97280069d",
+      "id": "google-skills-badge-24171302",
       "title": "[Deprecated] AI Boost Bites: Your Personal AI Study Partner",
       "name": "[Deprecated] AI Boost Bites: Your Personal AI Study Partner",
       "issuer": "Google Cloud",
@@ -1227,7 +1263,25 @@
       ]
     },
     {
-      "id": "2a563a93cd203265",
+      "id": "google-skills-badge-24171278",
+      "title": "AI Boost Bites: Shareable Gems",
+      "name": "AI Boost Bites: Shareable Gems",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-05-14",
+      "issued_at_date": "2026-05-14",
+      "date": "2026-05-14",
+      "image_url": "https://cdn.qwiklabs.com/C6htH3BSM8Gm%2Frs5MKXJ0hgPNglT%2BfTzXIVC%2Fj0dzoY%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171278",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171278",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Shareable Gems"
+      ]
+    },
+    {
+      "id": "google-skills-badge-24171233",
       "title": "AI Boost Bites: Your AI Chart Detective",
       "name": "AI Boost Bites: Your AI Chart Detective",
       "issuer": "Google Cloud",
@@ -1245,7 +1299,7 @@
       ]
     },
     {
-      "id": "6a304f4545913efe",
+      "id": "google-skills-badge-24123090",
       "title": "Innovating with Data and Google Cloud",
       "name": "Innovating with Data and Google Cloud",
       "issuer": "Google Cloud",
@@ -1263,7 +1317,7 @@
       ]
     },
     {
-      "id": "41b529af9ce85bef",
+      "id": "google-skills-badge-24020912",
       "title": "Build a Certification Study Guide: PCDOE Exam Prep",
       "name": "Build a Certification Study Guide: PCDOE Exam Prep",
       "issuer": "Google Cloud",
@@ -1281,7 +1335,7 @@
       ]
     },
     {
-      "id": "3138563ccb9e36ee",
+      "id": "google-skills-badge-23987473",
       "title": "Machine Learning Operations (MLOps): Getting Started",
       "name": "Machine Learning Operations (MLOps): Getting Started",
       "issuer": "Google Cloud",
@@ -1299,7 +1353,7 @@
       ]
     },
     {
-      "id": "3cebfcdbc908428e",
+      "id": "google-skills-badge-23986980",
       "title": "Chronicle SOAR Fundamentals - Locales",
       "name": "Chronicle SOAR Fundamentals - Locales",
       "issuer": "Google Cloud",
@@ -1317,7 +1371,7 @@
       ]
     },
     {
-      "id": "eb85352cd50f8508",
+      "id": "google-skills-badge-23986796",
       "title": "Introduction to Vertex AI Studio",
       "name": "Introduction to Vertex AI Studio",
       "issuer": "Google Cloud",
@@ -1335,7 +1389,7 @@
       ]
     },
     {
-      "id": "e9ad85bad1ba68bc",
+      "id": "google-skills-badge-23986573",
       "title": "Google Workspace Essentials",
       "name": "Google Workspace Essentials",
       "issuer": "Google Cloud",
@@ -1353,7 +1407,7 @@
       ]
     },
     {
-      "id": "f959e7cb265c2cb4",
+      "id": "google-skills-badge-23959109",
       "title": "Streamline App Development with Gemini Code Assist",
       "name": "Streamline App Development with Gemini Code Assist",
       "issuer": "Google Cloud",
@@ -1371,7 +1425,7 @@
       ]
     },
     {
-      "id": "bccd3acf9fd64ffe",
+      "id": "google-skills-badge-23936622",
       "title": "Develop AI-Powered Prototypes in Google AI Studio",
       "name": "Develop AI-Powered Prototypes in Google AI Studio",
       "issuer": "Google Cloud",
@@ -1389,7 +1443,7 @@
       ]
     },
     {
-      "id": "1d65e7a84e02f8e1",
+      "id": "google-skills-badge-23936168",
       "title": "Build a Certification Study Guide: PCD Exam Prep",
       "name": "Build a Certification Study Guide: PCD Exam Prep",
       "issuer": "Google Cloud",
@@ -1407,7 +1461,7 @@
       ]
     },
     {
-      "id": "f9b036434432331c",
+      "id": "google-skills-badge-23935956",
       "title": "Google Cloud Database Migrations: Homogeneous",
       "name": "Google Cloud Database Migrations: Homogeneous",
       "issuer": "Google Cloud",
@@ -1425,7 +1479,7 @@
       ]
     },
     {
-      "id": "8c94fb95dd7bd334",
+      "id": "google-skills-badge-23913792",
       "title": "AI-powered Database Management with Gemini",
       "name": "AI-powered Database Management with Gemini",
       "issuer": "Google Cloud",
@@ -1443,7 +1497,7 @@
       ]
     },
     {
-      "id": "872a3d42a45d72f9",
+      "id": "google-skills-badge-23913646",
       "title": "Agentic Strategy: Discover, Design, and Prototype",
       "name": "Agentic Strategy: Discover, Design, and Prototype",
       "issuer": "Google Cloud",
@@ -1461,7 +1515,7 @@
       ]
     },
     {
-      "id": "da1911f1a9c4b6ec",
+      "id": "google-skills-badge-23913319",
       "title": "Running Oracle Workloads on Google Cloud: Fundamentals",
       "name": "Running Oracle Workloads on Google Cloud: Fundamentals",
       "issuer": "Google Cloud",
@@ -1479,7 +1533,7 @@
       ]
     },
     {
-      "id": "b04b37558b1e454d",
+      "id": "google-skills-badge-23913217",
       "title": "Add Agent Guardrails with Callbacks",
       "name": "Add Agent Guardrails with Callbacks",
       "issuer": "Google Cloud",
@@ -1497,7 +1551,7 @@
       ]
     },
     {
-      "id": "b14881034a71b70f",
+      "id": "google-skills-badge-23913042",
       "title": "AI Boost Bootcamp: How to Use Gemini at Work 101",
       "name": "AI Boost Bootcamp: How to Use Gemini at Work 101",
       "issuer": "Google Cloud",
@@ -1515,7 +1569,7 @@
       ]
     },
     {
-      "id": "4346889a65c67b74",
+      "id": "google-skills-badge-23912864",
       "title": "Human-Centered AI",
       "name": "Human-Centered AI",
       "issuer": "Google Cloud",
@@ -1533,7 +1587,7 @@
       ]
     },
     {
-      "id": "66563c6f91bbf6b0",
+      "id": "google-skills-badge-23881760",
       "title": "Fundamentals of Google's Arm-based Axion Processors",
       "name": "Fundamentals of Google's Arm-based Axion Processors",
       "issuer": "Google Cloud",
@@ -1551,7 +1605,7 @@
       ]
     },
     {
-      "id": "07db766a0fc010c8",
+      "id": "google-skills-badge-23881667",
       "title": "Digital Sovereignty with Google Cloud",
       "name": "Digital Sovereignty with Google Cloud",
       "issuer": "Google Cloud",
@@ -1569,7 +1623,7 @@
       ]
     },
     {
-      "id": "13df4b8b64c1d9a5",
+      "id": "google-skills-badge-23881535",
       "title": "Build and Deploy Agents in Production",
       "name": "Build and Deploy Agents in Production",
       "issuer": "Google Cloud",
@@ -1587,7 +1641,7 @@
       ]
     },
     {
-      "id": "16582270ec4790dc",
+      "id": "google-skills-badge-23860372",
       "title": "Build a Certification Study Guide: PCDBE Exam Prep",
       "name": "Build a Certification Study Guide: PCDBE Exam Prep",
       "issuer": "Google Cloud",
@@ -1605,7 +1659,7 @@
       ]
     },
     {
-      "id": "7c12d197d265e2a4",
+      "id": "google-skills-badge-23836028",
       "title": "Generate and Edit Media in Agent Platform",
       "name": "Generate and Edit Media in Agent Platform",
       "issuer": "Google Cloud",
@@ -1623,7 +1677,7 @@
       ]
     },
     {
-      "id": "aaf9ef6bbcaea585",
+      "id": "google-skills-badge-23835853",
       "title": "Security Command Center: Vulnerabilities and Misconfigurations",
       "name": "Security Command Center: Vulnerabilities and Misconfigurations",
       "issuer": "Google Cloud",
@@ -1641,7 +1695,7 @@
       ]
     },
     {
-      "id": "8b716261397141e2",
+      "id": "google-skills-badge-23835656",
       "title": "Migrating to Google Cloud: Fundamentals",
       "name": "Migrating to Google Cloud: Fundamentals",
       "issuer": "Google Cloud",
@@ -1659,7 +1713,7 @@
       ]
     },
     {
-      "id": "bfc5437bb854a1d8",
+      "id": "google-skills-badge-23835574",
       "title": "Google Cloud Database Migrations: Strategy",
       "name": "Google Cloud Database Migrations: Strategy",
       "issuer": "Google Cloud",
@@ -1677,7 +1731,7 @@
       ]
     },
     {
-      "id": "bc26d480f11a340b",
+      "id": "google-skills-badge-23816150",
       "title": "Liftoff with Google Antigravity: Build a Video Game with AI",
       "name": "Liftoff with Google Antigravity: Build a Video Game with AI",
       "issuer": "Google Cloud",
@@ -1695,7 +1749,7 @@
       ]
     },
     {
-      "id": "00cdb898340dc6fe",
+      "id": "google-skills-badge-23816077",
       "title": "Google AI for Finance Professionals",
       "name": "Google AI for Finance Professionals",
       "issuer": "Google Cloud",
@@ -1713,7 +1767,25 @@
       ]
     },
     {
-      "id": "9a8cd5fff2c1fcd6",
+      "id": "google-skills-badge-23815777",
+      "title": "Orchestrate Multi-agent Workflows with Gemini Enterprise",
+      "name": "Orchestrate Multi-agent Workflows with Gemini Enterprise",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-04-26",
+      "issued_at_date": "2026-04-26",
+      "date": "2026-04-26",
+      "image_url": "https://cdn.qwiklabs.com/j%2FyAaQUb0bYU13DwpFQEik%2BKqoR%2BDmiCmkxzJp5f7SU%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23815777",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23815777",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Orchestrate Multi-agent Workflows with Gemini Enterprise"
+      ]
+    },
+    {
+      "id": "google-skills-badge-23803015",
       "title": "L300 Google Distributed Cloud air-gapped",
       "name": "L300 Google Distributed Cloud air-gapped",
       "issuer": "Google Cloud",
@@ -1731,7 +1803,7 @@
       ]
     },
     {
-      "id": "8854181516ba1dcf",
+      "id": "google-skills-badge-23789385",
       "title": "Looker Studio Pro Essentials",
       "name": "Looker Studio Pro Essentials",
       "issuer": "Google Cloud",
@@ -1749,7 +1821,7 @@
       ]
     },
     {
-      "id": "234ae7a57f421fae",
+      "id": "google-skills-badge-23787456",
       "title": "Responsible AI for Digital Leaders with Google Cloud",
       "name": "Responsible AI for Digital Leaders with Google Cloud",
       "issuer": "Google Cloud",
@@ -1767,7 +1839,7 @@
       ]
     },
     {
-      "id": "b5702626c5360971",
+      "id": "google-skills-badge-23777050",
       "title": "Unleash Team Potential: Assess Learning Needs Using GenAI",
       "name": "Unleash Team Potential: Assess Learning Needs Using GenAI",
       "issuer": "Google Cloud",
@@ -1785,7 +1857,7 @@
       ]
     },
     {
-      "id": "f25ba6dda22ceb8d",
+      "id": "google-skills-badge-23769178",
       "title": "Introduction to Reliable Deep Learning",
       "name": "Introduction to Reliable Deep Learning",
       "issuer": "Google Cloud",
@@ -1803,7 +1875,7 @@
       ]
     },
     {
-      "id": "9582c819715e2e2a",
+      "id": "google-skills-badge-23769142",
       "title": "Introduction to Security in the World of AI",
       "name": "Introduction to Security in the World of AI",
       "issuer": "Google Cloud",
@@ -1821,7 +1893,7 @@
       ]
     },
     {
-      "id": "6ea30e5b30da915e",
+      "id": "google-skills-badge-23768853",
       "title": "[DEPRECATED] Google Cloud: Prompt Engineering Guide",
       "name": "[DEPRECATED] Google Cloud: Prompt Engineering Guide",
       "issuer": "Google Cloud",
@@ -1839,7 +1911,7 @@
       ]
     },
     {
-      "id": "bd2b9a3998430f70",
+      "id": "google-skills-badge-23760924",
       "title": "Future-Proof Your AI Learning Strategy",
       "name": "Future-Proof Your AI Learning Strategy",
       "issuer": "Google Cloud",
@@ -1857,7 +1929,7 @@
       ]
     },
     {
-      "id": "828f5f178a4f77f2",
+      "id": "google-skills-badge-23744488",
       "title": "Introduction to Google Distributed Cloud Sandbox",
       "name": "Introduction to Google Distributed Cloud Sandbox",
       "issuer": "Google Cloud",
@@ -1875,7 +1947,7 @@
       ]
     },
     {
-      "id": "8e3e6851e585ce91",
+      "id": "google-skills-badge-23723537",
       "title": "Google Cloud Security for the Public Sector",
       "name": "Google Cloud Security for the Public Sector",
       "issuer": "Google Cloud",
@@ -1893,7 +1965,7 @@
       ]
     },
     {
-      "id": "a89cba6478d80c8b",
+      "id": "google-skills-badge-23702768",
       "title": "Accelerate Knowledge Exchange with Gemini Enterprise",
       "name": "Accelerate Knowledge Exchange with Gemini Enterprise",
       "issuer": "Google Cloud",
@@ -1911,7 +1983,7 @@
       ]
     },
     {
-      "id": "19746214f0e00bc2",
+      "id": "google-skills-badge-23677452",
       "title": "Build a Certification Study Guide: PSOE Exam Prep",
       "name": "Build a Certification Study Guide: PSOE Exam Prep",
       "issuer": "Google Cloud",
@@ -1929,7 +2001,7 @@
       ]
     },
     {
-      "id": "036b25ded1c6cad2",
+      "id": "google-skills-badge-23677349",
       "title": "Gemini for end-to-end SDLC",
       "name": "Gemini for end-to-end SDLC",
       "issuer": "Google Cloud",
@@ -1947,7 +2019,7 @@
       ]
     },
     {
-      "id": "77e19c4f2f8b69fe",
+      "id": "google-skills-badge-23670599",
       "title": "Implement Cloud Next Generation Firewall",
       "name": "Implement Cloud Next Generation Firewall",
       "issuer": "Google Cloud",
@@ -1965,7 +2037,7 @@
       ]
     },
     {
-      "id": "da4181f3dcd68a3f",
+      "id": "google-skills-badge-23659912",
       "title": "Quiz: GDC Air-Gapped Practitioner Fundamentals",
       "name": "Quiz: GDC Air-Gapped Practitioner Fundamentals",
       "issuer": "Google Cloud",
@@ -1983,7 +2055,7 @@
       ]
     },
     {
-      "id": "45cc9871fc7ab04e",
+      "id": "google-skills-badge-23640729",
       "title": "Machine Learning Operations (MLOps) with Agent Platform: Model Evaluation",
       "name": "Machine Learning Operations (MLOps) with Agent Platform: Model Evaluation",
       "issuer": "Google Cloud",
@@ -2001,7 +2073,7 @@
       ]
     },
     {
-      "id": "5e781ec927e9d79e",
+      "id": "google-skills-badge-23616518",
       "title": "Introduction to Google Security Operations: Unified SecOps",
       "name": "Introduction to Google Security Operations: Unified SecOps",
       "issuer": "Google Cloud",
@@ -2019,7 +2091,7 @@
       ]
     },
     {
-      "id": "d7193604920890b5",
+      "id": "google-skills-badge-23599514",
       "title": "Responsible AI for Developers: Interpretability & Transparency",
       "name": "Responsible AI for Developers: Interpretability & Transparency",
       "issuer": "Google Cloud",
@@ -2037,7 +2109,7 @@
       ]
     },
     {
-      "id": "e2c65c66079d6e8c",
+      "id": "google-skills-badge-23577414",
       "title": "Architecting and Installing the Apigee Hybrid API Platform",
       "name": "Architecting and Installing the Apigee Hybrid API Platform",
       "issuer": "Google Cloud",
@@ -2055,7 +2127,7 @@
       ]
     },
     {
-      "id": "5ec08bf118dc71d9",
+      "id": "google-skills-badge-23561908",
       "title": "GKE Routing and IP Address Management",
       "name": "GKE Routing and IP Address Management",
       "issuer": "Google Cloud",
@@ -2073,7 +2145,7 @@
       ]
     },
     {
-      "id": "103b4cea84f1f199",
+      "id": "google-skills-badge-23548435",
       "title": "Deploy Your First Agent",
       "name": "Deploy Your First Agent",
       "issuer": "Google Cloud",
@@ -2091,7 +2163,25 @@
       ]
     },
     {
-      "id": "b10df1c712cfb1e7",
+      "id": "google-skills-badge-23548307",
+      "title": "Orchestrate Complex Multi-Agent Workflows",
+      "name": "Orchestrate Complex Multi-Agent Workflows",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-04-11",
+      "issued_at_date": "2026-04-11",
+      "date": "2026-04-11",
+      "image_url": "https://cdn.qwiklabs.com/%2F4GJSRbOgaD2hQVq%2B58P7BF8OV4g9rAanqUNA6AguPQ%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548307",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548307",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Orchestrate Complex Multi-Agent Workflows"
+      ]
+    },
+    {
+      "id": "google-skills-badge-23548231",
       "title": "Coordinate Multiple Agents",
       "name": "Coordinate Multiple Agents",
       "issuer": "Google Cloud",
@@ -2109,7 +2199,7 @@
       ]
     },
     {
-      "id": "39d4f7bf81b5b787",
+      "id": "google-skills-badge-23548146",
       "title": "Introduction to GKE Networking",
       "name": "Introduction to GKE Networking",
       "issuer": "Google Cloud",
@@ -2127,7 +2217,7 @@
       ]
     },
     {
-      "id": "ad6536dd6288f2e9",
+      "id": "google-skills-badge-23537866",
       "title": "Network Observability on Google Cloud",
       "name": "Network Observability on Google Cloud",
       "issuer": "Google Cloud",
@@ -2145,7 +2235,7 @@
       ]
     },
     {
-      "id": "b3d62b4a0e130334",
+      "id": "google-skills-badge-23537711",
       "title": "Agent Assist and its Gen AI Capabilities",
       "name": "Agent Assist and its Gen AI Capabilities",
       "issuer": "Google Cloud",
@@ -2163,7 +2253,7 @@
       ]
     },
     {
-      "id": "66c001a825ec4a95",
+      "id": "google-skills-badge-23537383",
       "title": "Architect Gemini Enterprise for Customer Experience",
       "name": "Architect Gemini Enterprise for Customer Experience",
       "issuer": "Google Cloud",
@@ -2181,7 +2271,7 @@
       ]
     },
     {
-      "id": "eb6dfd7c208f4866",
+      "id": "google-skills-badge-23515615",
       "title": "Create Your First Gemini Enterprise Application",
       "name": "Create Your First Gemini Enterprise Application",
       "issuer": "Google Cloud",
@@ -2199,7 +2289,7 @@
       ]
     },
     {
-      "id": "74a987b7d4ed4e82",
+      "id": "google-skills-badge-23515527",
       "title": "Enterprise Agents and Use Cases",
       "name": "Enterprise Agents and Use Cases",
       "issuer": "Google Cloud",
@@ -2217,7 +2307,7 @@
       ]
     },
     {
-      "id": "27998efcd586e62f",
+      "id": "google-skills-badge-23515484",
       "title": "Introduction to AI Agents",
       "name": "Introduction to AI Agents",
       "issuer": "Google Cloud",
@@ -2235,7 +2325,7 @@
       ]
     },
     {
-      "id": "6c8076e169899c8d",
+      "id": "google-skills-badge-23498280",
       "title": "Manage Agent Memory and State",
       "name": "Manage Agent Memory and State",
       "issuer": "Google Cloud",
@@ -2253,7 +2343,7 @@
       ]
     },
     {
-      "id": "166f5e275ef822f4",
+      "id": "google-skills-badge-23498188",
       "title": "Add Agent Capabilities With Tools",
       "name": "Add Agent Capabilities With Tools",
       "issuer": "Google Cloud",
@@ -2271,7 +2361,7 @@
       ]
     },
     {
-      "id": "58d344b39d3be856",
+      "id": "google-skills-badge-23497985",
       "title": "Build Agents with Agent Development Kit (ADK)",
       "name": "Build Agents with Agent Development Kit (ADK)",
       "issuer": "Google Cloud",
@@ -2289,7 +2379,7 @@
       ]
     },
     {
-      "id": "1f5cf7d1fc1a9706",
+      "id": "google-skills-badge-23480600",
       "title": "Optimize Agent Behavior",
       "name": "Optimize Agent Behavior",
       "issuer": "Google Cloud",
@@ -2307,7 +2397,7 @@
       ]
     },
     {
-      "id": "65d723a123d45962",
+      "id": "google-skills-badge-23480494",
       "title": "Build Your First Agent with Agent Development Kit (ADK)",
       "name": "Build Your First Agent with Agent Development Kit (ADK)",
       "issuer": "Google Cloud",
@@ -2325,7 +2415,7 @@
       ]
     },
     {
-      "id": "34176783b61647cb",
+      "id": "google-skills-badge-23480394",
       "title": "Agent Fundamentals",
       "name": "Agent Fundamentals",
       "issuer": "Google Cloud",
@@ -2343,7 +2433,7 @@
       ]
     },
     {
-      "id": "8b07b0f941aeacdd",
+      "id": "google-skills-badge-23480307",
       "title": "Create Agents with Generative Playbooks",
       "name": "Create Agents with Generative Playbooks",
       "issuer": "Google Cloud",
@@ -2361,7 +2451,7 @@
       ]
     },
     {
-      "id": "127f25bc193c69ff",
+      "id": "google-skills-badge-23461724",
       "title": "Getting Started with Security Command Center Enterprise",
       "name": "Getting Started with Security Command Center Enterprise",
       "issuer": "Google Cloud",
@@ -2379,7 +2469,7 @@
       ]
     },
     {
-      "id": "71983ecb9e2941e0",
+      "id": "google-skills-badge-23449115",
       "title": "Unlock Insights with Gemini Notebook",
       "name": "Unlock Insights with Gemini Notebook",
       "issuer": "Google Cloud",
@@ -2397,7 +2487,7 @@
       ]
     },
     {
-      "id": "02fd640f917643f3",
+      "id": "google-skills-badge-23448939",
       "title": "Introduction to reCAPTCHA",
       "name": "Introduction to reCAPTCHA",
       "issuer": "Google Cloud",
@@ -2415,7 +2505,7 @@
       ]
     },
     {
-      "id": "f3e274aae6f04d60",
+      "id": "google-skills-badge-23440944",
       "title": "Introduction to Gemini Enterprise",
       "name": "Introduction to Gemini Enterprise",
       "issuer": "Google Cloud",
@@ -2433,7 +2523,7 @@
       ]
     },
     {
-      "id": "a0b8ff712ddbf395",
+      "id": "google-skills-badge-23425551",
       "title": "Responsible AI for Developers: Fairness & Bias",
       "name": "Responsible AI for Developers: Fairness & Bias",
       "issuer": "Google Cloud",
@@ -2451,7 +2541,7 @@
       ]
     },
     {
-      "id": "0ef700ba6d56504e",
+      "id": "google-skills-badge-23425067",
       "title": "Introduction to Data Analytics in Google Cloud",
       "name": "Introduction to Data Analytics in Google Cloud",
       "issuer": "Google Cloud",
@@ -2469,7 +2559,7 @@
       ]
     },
     {
-      "id": "e40e0add6a9d8874",
+      "id": "google-skills-badge-23413107",
       "title": "Google DeepMind: 07 Accelerate Your Model",
       "name": "Google DeepMind: 07 Accelerate Your Model",
       "issuer": "Google Cloud",
@@ -2487,7 +2577,7 @@
       ]
     },
     {
-      "id": "dfe230476c5d1d3c",
+      "id": "google-skills-badge-23412973",
       "title": "Google DeepMind: 05 Fine-Tune Your Model",
       "name": "Google DeepMind: 05 Fine-Tune Your Model",
       "issuer": "Google Cloud",
@@ -2505,7 +2595,7 @@
       ]
     },
     {
-      "id": "38e70f445b0689b4",
+      "id": "google-skills-badge-23412762",
       "title": "Web and Mobile Anti-fraud Defense",
       "name": "Web and Mobile Anti-fraud Defense",
       "issuer": "Google Cloud",
@@ -2523,7 +2613,7 @@
       ]
     },
     {
-      "id": "3659dd9c3cb099b0",
+      "id": "google-skills-badge-23388232",
       "title": "Google Threat Intelligence",
       "name": "Google Threat Intelligence",
       "issuer": "Google Cloud",
@@ -2541,7 +2631,7 @@
       ]
     },
     {
-      "id": "7089b1ca92749596",
+      "id": "google-skills-badge-23345807",
       "title": "Security Command Center: Identify and Prioritize Risks",
       "name": "Security Command Center: Identify and Prioritize Risks",
       "issuer": "Google Cloud",
@@ -2559,7 +2649,7 @@
       ]
     },
     {
-      "id": "9bca3b5169a7bb95",
+      "id": "google-skills-badge-23345247",
       "title": "Deploy and Scale AI Models with Cloud Run",
       "name": "Deploy and Scale AI Models with Cloud Run",
       "issuer": "Google Cloud",
@@ -2577,7 +2667,7 @@
       ]
     },
     {
-      "id": "3663bee5721c373a",
+      "id": "google-skills-badge-23345072",
       "title": "Configure Gemini Code Assist for Organizations",
       "name": "Configure Gemini Code Assist for Organizations",
       "issuer": "Google Cloud",
@@ -2595,7 +2685,7 @@
       ]
     },
     {
-      "id": "b6b28c1a6c9f98ea",
+      "id": "google-skills-badge-23326585",
       "title": "Secure GKE with Cloud Next Generation Firewall",
       "name": "Secure GKE with Cloud Next Generation Firewall",
       "issuer": "Google Cloud",
@@ -2613,7 +2703,7 @@
       ]
     },
     {
-      "id": "e47997c0ec1f896e",
+      "id": "google-skills-badge-23326143",
       "title": "Create Embeddings, Vector Search, and RAG with BigQuery",
       "name": "Create Embeddings, Vector Search, and RAG with BigQuery",
       "issuer": "Google Cloud",
@@ -2631,7 +2721,7 @@
       ]
     },
     {
-      "id": "d42270f466a48bb4",
+      "id": "google-skills-badge-23298195",
       "title": "Introduction to SecOps on GDC",
       "name": "Introduction to SecOps on GDC",
       "issuer": "Google Cloud",
@@ -2649,7 +2739,7 @@
       ]
     },
     {
-      "id": "7e6a136f2d25ec65",
+      "id": "google-skills-badge-23298096",
       "title": "Model Armor: Securing AI Deployments",
       "name": "Model Armor: Securing AI Deployments",
       "issuer": "Google Cloud",
@@ -2667,7 +2757,7 @@
       ]
     },
     {
-      "id": "3bd80d023eb3d73f",
+      "id": "google-skills-badge-23277921",
       "title": "AI Services and GDC Deployments and Operations",
       "name": "AI Services and GDC Deployments and Operations",
       "issuer": "Google Cloud",
@@ -2685,7 +2775,7 @@
       ]
     },
     {
-      "id": "206da6171acb7373",
+      "id": "google-skills-badge-23277696",
       "title": "Compute, Network, and Storage Services Configuration in GDC",
       "name": "Compute, Network, and Storage Services Configuration in GDC",
       "issuer": "Google Cloud",
@@ -2703,7 +2793,7 @@
       ]
     },
     {
-      "id": "70764ae9cc3842b0",
+      "id": "google-skills-badge-23277454",
       "title": "GDC Platform Introduction",
       "name": "GDC Platform Introduction",
       "issuer": "Google Cloud",
@@ -2721,7 +2811,7 @@
       ]
     },
     {
-      "id": "64a215a05d4a5772",
+      "id": "google-skills-badge-23253112",
       "title": "SecOps on GDC for Tier 1 and Tier 2 Analysts",
       "name": "SecOps on GDC for Tier 1 and Tier 2 Analysts",
       "issuer": "Google Cloud",
@@ -2739,7 +2829,7 @@
       ]
     },
     {
-      "id": "bedc3aaa856c5605",
+      "id": "google-skills-badge-23252609",
       "title": "SecOps on GDC for Tier 3 Analysts",
       "name": "SecOps on GDC for Tier 3 Analysts",
       "issuer": "Google Cloud",
@@ -2757,7 +2847,7 @@
       ]
     },
     {
-      "id": "a217ac5d92112e5e",
+      "id": "google-skills-badge-23252126",
       "title": "Quiz: GDC Air-Gapped Security Operator Fundamentals",
       "name": "Quiz: GDC Air-Gapped Security Operator Fundamentals",
       "issuer": "Google Cloud",
@@ -2775,7 +2865,7 @@
       ]
     },
     {
-      "id": "2ae7877864bceb51",
+      "id": "google-skills-badge-23173335",
       "title": "Conversational AI on Vertex AI and Dialogflow CX",
       "name": "Conversational AI on Vertex AI and Dialogflow CX",
       "issuer": "Google Cloud",
@@ -2793,7 +2883,7 @@
       ]
     },
     {
-      "id": "6df4a55a65a34cb8",
+      "id": "google-skills-badge-23172667",
       "title": "Gemini for Security Engineers",
       "name": "Gemini for Security Engineers",
       "issuer": "Google Cloud",
@@ -2811,7 +2901,7 @@
       ]
     },
     {
-      "id": "8a5e3f831da11195",
+      "id": "google-skills-badge-23172626",
       "title": "Gemini for Cloud Architects",
       "name": "Gemini for Cloud Architects",
       "issuer": "Google Cloud",
@@ -2829,7 +2919,7 @@
       ]
     },
     {
-      "id": "3ba002014172bfe7",
+      "id": "google-skills-badge-23161995",
       "title": "Building No-Code Apps with AppSheet: Implementation",
       "name": "Building No-Code Apps with AppSheet: Implementation",
       "issuer": "Google Cloud",
@@ -2847,7 +2937,7 @@
       ]
     },
     {
-      "id": "a328f55ade8d2f67",
+      "id": "google-skills-badge-23146474",
       "title": "Gemini for Application Developers",
       "name": "Gemini for Application Developers",
       "issuer": "Google Cloud",
@@ -2865,7 +2955,7 @@
       ]
     },
     {
-      "id": "c2fe06781347cfbb",
+      "id": "google-skills-badge-23131290",
       "title": "Introduction Google Security Operations (SOAR)",
       "name": "Introduction Google Security Operations (SOAR)",
       "issuer": "Google Cloud",
@@ -2883,7 +2973,7 @@
       ]
     },
     {
-      "id": "4ca0c0c86f3fc667",
+      "id": "google-skills-badge-23131102",
       "title": "[DEPRECATED] Google Security Operations - SOAR Developer",
       "name": "[DEPRECATED] Google Security Operations - SOAR Developer",
       "issuer": "Google Cloud",
@@ -2901,7 +2991,7 @@
       ]
     },
     {
-      "id": "50c570c164c24099",
+      "id": "google-skills-badge-23131057",
       "title": "Google Security Operations - SOAR Analyst",
       "name": "Google Security Operations - SOAR Analyst",
       "issuer": "Google Cloud",
@@ -2919,7 +3009,7 @@
       ]
     },
     {
-      "id": "8444713eeb962198",
+      "id": "google-skills-badge-23130986",
       "title": "Introduction to Google Security Operations (SIEM)",
       "name": "Introduction to Google Security Operations (SIEM)",
       "issuer": "Google Cloud",
@@ -2937,7 +3027,7 @@
       ]
     },
     {
-      "id": "846e9b9e9e99f836",
+      "id": "google-skills-badge-23053470",
       "title": "Google Cloud AI and ML Solutions for the Public Sector",
       "name": "Google Cloud AI and ML Solutions for the Public Sector",
       "issuer": "Google Cloud",
@@ -2955,7 +3045,7 @@
       ]
     },
     {
-      "id": "a0387b679d7f65b0",
+      "id": "google-skills-badge-22909077",
       "title": "Introduction to Looker",
       "name": "Introduction to Looker",
       "issuer": "Google Cloud",
@@ -2973,7 +3063,7 @@
       ]
     },
     {
-      "id": "e113d1df96ff39f0",
+      "id": "google-skills-badge-22878671",
       "title": "Networking in Google Cloud: Load Balancing",
       "name": "Networking in Google Cloud: Load Balancing",
       "issuer": "Google Cloud",
@@ -2991,7 +3081,7 @@
       ]
     },
     {
-      "id": "7f13ee3886824f30",
+      "id": "google-skills-badge-22853188",
       "title": "Networking in Google Cloud: Routing and Addressing",
       "name": "Networking in Google Cloud: Routing and Addressing",
       "issuer": "Google Cloud",
@@ -3009,7 +3099,7 @@
       ]
     },
     {
-      "id": "65e6e11172b81ea0",
+      "id": "google-skills-badge-22838249",
       "title": "Networking in Google Cloud: Network Architecture",
       "name": "Networking in Google Cloud: Network Architecture",
       "issuer": "Google Cloud",
@@ -3027,7 +3117,7 @@
       ]
     },
     {
-      "id": "816b5db018ad6518",
+      "id": "google-skills-badge-22837772",
       "title": "Networking in Google Cloud: Hybrid and Multicloud",
       "name": "Networking in Google Cloud: Hybrid and Multicloud",
       "issuer": "Google Cloud",
@@ -3045,7 +3135,7 @@
       ]
     },
     {
-      "id": "ac911e1edfdb35fd",
+      "id": "google-skills-badge-22742333",
       "title": "Gemini for Network Engineers",
       "name": "Gemini for Network Engineers",
       "issuer": "Google Cloud",
@@ -3063,7 +3153,7 @@
       ]
     },
     {
-      "id": "096be0921bd3c3d6",
+      "id": "google-skills-badge-22691283",
       "title": "Plan Your Cloud Next Generation Firewall Needs",
       "name": "Plan Your Cloud Next Generation Firewall Needs",
       "issuer": "Google Cloud",
@@ -3081,7 +3171,7 @@
       ]
     },
     {
-      "id": "cbf97cb9fc0a2917",
+      "id": "google-skills-badge-22691267",
       "title": "Introduction to Cloud Next Generation Firewall",
       "name": "Introduction to Cloud Next Generation Firewall",
       "issuer": "Google Cloud",
@@ -3099,7 +3189,7 @@
       ]
     },
     {
-      "id": "bc3d183369e22e83",
+      "id": "google-skills-badge-22568934",
       "title": "Build a Certification Study Guide: PMLE",
       "name": "Build a Certification Study Guide: PMLE",
       "issuer": "Google Cloud",
@@ -3117,7 +3207,7 @@
       ]
     },
     {
-      "id": "5c68aa338127ce80",
+      "id": "google-skills-badge-22543230",
       "title": "Serverless Data Processing with Dataflow: Develop Pipelines",
       "name": "Serverless Data Processing with Dataflow: Develop Pipelines",
       "issuer": "Google Cloud",
@@ -3135,7 +3225,7 @@
       ]
     },
     {
-      "id": "400a29937d338d44",
+      "id": "google-skills-badge-22543145",
       "title": "Serverless Data Processing with Dataflow: Foundations",
       "name": "Serverless Data Processing with Dataflow: Foundations",
       "issuer": "Google Cloud",
@@ -3153,7 +3243,7 @@
       ]
     },
     {
-      "id": "fcaf1e79a7748601",
+      "id": "google-skills-badge-21614484",
       "title": "Building No-Code Apps with AppSheet: Foundations",
       "name": "Building No-Code Apps with AppSheet: Foundations",
       "issuer": "Google Cloud",
@@ -3171,7 +3261,7 @@
       ]
     },
     {
-      "id": "a8a58ae67fe3245a",
+      "id": "google-skills-badge-21575365",
       "title": "Google Cloud Computing Foundations: Infrastructure in Google Cloud",
       "name": "Google Cloud Computing Foundations: Infrastructure in Google Cloud",
       "issuer": "Google Cloud",
@@ -3189,7 +3279,7 @@
       ]
     },
     {
-      "id": "6686ab070f873830",
+      "id": "google-skills-badge-21520588",
       "title": "Google Cloud Computing Foundations: Cloud Computing Fundamentals",
       "name": "Google Cloud Computing Foundations: Cloud Computing Fundamentals",
       "issuer": "Google Cloud",
@@ -3207,7 +3297,7 @@
       ]
     },
     {
-      "id": "8b81ea84033b8979",
+      "id": "google-skills-badge-21339154",
       "title": "Security Practices with Google Security Operations - SIEM",
       "name": "Security Practices with Google Security Operations - SIEM",
       "issuer": "Google Cloud",
@@ -3225,7 +3315,7 @@
       ]
     },
     {
-      "id": "8df7170792776d17",
+      "id": "google-skills-badge-21338783",
       "title": "Configure and Maintain CCaaS as an Admin",
       "name": "Configure and Maintain CCaaS as an Admin",
       "issuer": "Google Cloud",
@@ -3243,7 +3333,7 @@
       ]
     },
     {
-      "id": "64b8d7e4b2335d39",
+      "id": "google-skills-badge-21326571",
       "title": "Change Management for Google Workspace",
       "name": "Change Management for Google Workspace",
       "issuer": "Google Cloud",
@@ -3261,7 +3351,7 @@
       ]
     },
     {
-      "id": "504ff13082bcdc8a",
+      "id": "google-skills-badge-21312822",
       "title": "Build a Certification Study Guide: PCNE Exam Prep",
       "name": "Build a Certification Study Guide: PCNE Exam Prep",
       "issuer": "Google Cloud",
@@ -3279,7 +3369,7 @@
       ]
     },
     {
-      "id": "e7cd77ac6c959c3b",
+      "id": "google-skills-badge-21296923",
       "title": "Manage Functions and Reporting with CCaaS",
       "name": "Manage Functions and Reporting with CCaaS",
       "issuer": "Google Cloud",
@@ -3297,7 +3387,7 @@
       ]
     },
     {
-      "id": "4681f10aac55e441",
+      "id": "google-skills-badge-21296361",
       "title": "Build a Certification Study Guide: PCA Exam Prep",
       "name": "Build a Certification Study Guide: PCA Exam Prep",
       "issuer": "Google Cloud",
@@ -3315,7 +3405,7 @@
       ]
     },
     {
-      "id": "541f6318a592db51",
+      "id": "google-skills-badge-21284750",
       "title": "Handle Consumer Interactions with CCaaS",
       "name": "Handle Consumer Interactions with CCaaS",
       "issuer": "Google Cloud",
@@ -3333,7 +3423,7 @@
       ]
     },
     {
-      "id": "03b3a4ed66770efc",
+      "id": "google-skills-badge-21284707",
       "title": "Machine Learning Operations (MLOps) for Generative AI",
       "name": "Machine Learning Operations (MLOps) for Generative AI",
       "issuer": "Google Cloud",
@@ -3351,7 +3441,7 @@
       ]
     },
     {
-      "id": "bfbcca96ab6fa274",
+      "id": "google-skills-badge-21284642",
       "title": "Hybrid Cloud Infrastructure Foundations with Anthos",
       "name": "Hybrid Cloud Infrastructure Foundations with Anthos",
       "issuer": "Google Cloud",
@@ -3369,7 +3459,7 @@
       ]
     },
     {
-      "id": "ecf5ffbcb5aed234",
+      "id": "google-skills-badge-21264999",
       "title": "Preparing for your Professional Data Engineer Journey",
       "name": "Preparing for your Professional Data Engineer Journey",
       "issuer": "Google Cloud",
@@ -3387,7 +3477,7 @@
       ]
     },
     {
-      "id": "5664457543840947",
+      "id": "google-skills-badge-21264510",
       "title": "Managing and Securing the Apigee Hybrid API Platform",
       "name": "Managing and Securing the Apigee Hybrid API Platform",
       "issuer": "Google Cloud",
@@ -3405,7 +3495,7 @@
       ]
     },
     {
-      "id": "601610d50fe98fb1",
+      "id": "google-skills-badge-21264288",
       "title": "Preparing for Your Professional Cloud Security Engineer Journey",
       "name": "Preparing for Your Professional Cloud Security Engineer Journey",
       "issuer": "Google Cloud",
@@ -3423,7 +3513,7 @@
       ]
     },
     {
-      "id": "2f00817ce4be0eb5",
+      "id": "google-skills-badge-21236729",
       "title": "Upgrading and Monitoring the Apigee Hybrid API Platform",
       "name": "Upgrading and Monitoring the Apigee Hybrid API Platform",
       "issuer": "Google Cloud",
@@ -3441,7 +3531,7 @@
       ]
     },
     {
-      "id": "720bc22bbee4259e",
+      "id": "google-skills-badge-21236644",
       "title": "Build a Certification Study Guide: ACE Exam Prep",
       "name": "Build a Certification Study Guide: ACE Exam Prep",
       "issuer": "Google Cloud",
@@ -3459,7 +3549,7 @@
       ]
     },
     {
-      "id": "bab33ca6f6568ec2",
+      "id": "google-skills-badge-21236306",
       "title": "Developing a Google SRE Culture",
       "name": "Developing a Google SRE Culture",
       "issuer": "Google Cloud",
@@ -3477,7 +3567,7 @@
       ]
     },
     {
-      "id": "05f6b93713cdac8f",
+      "id": "google-skills-badge-21211997",
       "title": "Managing Change when Moving to Google Cloud",
       "name": "Managing Change when Moving to Google Cloud",
       "issuer": "Google Cloud",
@@ -3495,7 +3585,7 @@
       ]
     },
     {
-      "id": "f59457f4fda06bf4",
+      "id": "google-skills-badge-21211911",
       "title": "Running SAP Workloads on Google Cloud: Fundamentals",
       "name": "Running SAP Workloads on Google Cloud: Fundamentals",
       "issuer": "Google Cloud",
@@ -3513,7 +3603,7 @@
       ]
     },
     {
-      "id": "ef5202ba9728ca56",
+      "id": "google-skills-badge-21186579",
       "title": "The Modern Data Platform and LookML",
       "name": "The Modern Data Platform and LookML",
       "issuer": "Google Cloud",
@@ -3531,7 +3621,7 @@
       ]
     },
     {
-      "id": "e54e41f713b8694e",
+      "id": "google-skills-badge-21186399",
       "title": "Introduction to Cloud Identity",
       "name": "Introduction to Cloud Identity",
       "issuer": "Google Cloud",
@@ -3549,7 +3639,7 @@
       ]
     },
     {
-      "id": "91e03d1138753801",
+      "id": "google-skills-badge-21164355",
       "title": "AppSheet Administration",
       "name": "AppSheet Administration",
       "issuer": "Google Cloud",
@@ -3567,7 +3657,7 @@
       ]
     },
     {
-      "id": "df0a059cbba70427",
+      "id": "google-skills-badge-21164113",
       "title": "[DEPRECATED] SOAR Fundamentals",
       "name": "[DEPRECATED] SOAR Fundamentals",
       "issuer": "Google Cloud",
@@ -3585,7 +3675,7 @@
       ]
     },
     {
-      "id": "20cc4706e8e8509a",
+      "id": "google-skills-badge-21140772",
       "title": "Introduction to Security in the World of AI",
       "name": "Introduction to Security in the World of AI",
       "issuer": "Google Cloud",
@@ -3603,7 +3693,7 @@
       ]
     },
     {
-      "id": "e70724ac6ec5b0a4",
+      "id": "google-skills-badge-21140713",
       "title": "Generative AI for Healthcare",
       "name": "Generative AI for Healthcare",
       "issuer": "Google Cloud",
@@ -3621,7 +3711,7 @@
       ]
     },
     {
-      "id": "f82ea34a777aeee7",
+      "id": "google-skills-badge-21140164",
       "title": "MySQL to Cloud Spanner",
       "name": "MySQL to Cloud Spanner",
       "issuer": "Google Cloud",
@@ -3639,7 +3729,7 @@
       ]
     },
     {
-      "id": "dcc9af7770f0a681",
+      "id": "google-skills-badge-21140155",
       "title": "Design Foundations for Streaming with Google Cloud",
       "name": "Design Foundations for Streaming with Google Cloud",
       "issuer": "Google Cloud",
@@ -3657,7 +3747,7 @@
       ]
     },
     {
-      "id": "164b7a202ba15cdd",
+      "id": "google-skills-badge-21123869",
       "title": "Planetary Scale Earth Observation with Google Earth Engine",
       "name": "Planetary Scale Earth Observation with Google Earth Engine",
       "issuer": "Google Cloud",
@@ -3675,7 +3765,7 @@
       ]
     },
     {
-      "id": "b7120da79e2e3803",
+      "id": "google-skills-badge-21123770",
       "title": "Enterprise Search on Generative AI App Builder",
       "name": "Enterprise Search on Generative AI App Builder",
       "issuer": "Google Cloud",
@@ -3693,7 +3783,7 @@
       ]
     },
     {
-      "id": "71795d2e76590f30",
+      "id": "google-skills-badge-21123653",
       "title": "Security Command Center Fundamentals",
       "name": "Security Command Center Fundamentals",
       "issuer": "Google Cloud",
@@ -3711,7 +3801,7 @@
       ]
     },
     {
-      "id": "ad23df7cffd1efb8",
+      "id": "google-skills-badge-21103878",
       "title": "Google DeepMind: 04 Discover The Transformer Architecture",
       "name": "Google DeepMind: 04 Discover The Transformer Architecture",
       "issuer": "Google Cloud",
@@ -3729,7 +3819,7 @@
       ]
     },
     {
-      "id": "c46da555330d8f68",
+      "id": "google-skills-badge-21102839",
       "title": "Google DeepMind: 03 Design And Train Neural Networks",
       "name": "Google DeepMind: 03 Design And Train Neural Networks",
       "issuer": "Google Cloud",
@@ -3747,7 +3837,7 @@
       ]
     },
     {
-      "id": "ee397cc62f9de675",
+      "id": "google-skills-badge-21102466",
       "title": "Google DeepMind: 02 Represent Your Language Data",
       "name": "Google DeepMind: 02 Represent Your Language Data",
       "issuer": "Google Cloud",
@@ -3765,7 +3855,7 @@
       ]
     },
     {
-      "id": "41013023021991c1",
+      "id": "google-skills-badge-21102340",
       "title": "Google DeepMind: 01 Build Your Own Small Language Model",
       "name": "Google DeepMind: 01 Build Your Own Small Language Model",
       "issuer": "Google Cloud",
@@ -3783,7 +3873,7 @@
       ]
     },
     {
-      "id": "5db36a5ce23cc5fe",
+      "id": "google-skills-badge-21102092",
       "title": "AppSheet Team Hierarchy",
       "name": "AppSheet Team Hierarchy",
       "issuer": "Google Cloud",
@@ -3801,7 +3891,7 @@
       ]
     },
     {
-      "id": "90ebcf9006f53698",
+      "id": "google-skills-badge-21078273",
       "title": "Encoder-Decoder Architecture",
       "name": "Encoder-Decoder Architecture",
       "issuer": "Google Cloud",
@@ -3819,7 +3909,7 @@
       ]
     },
     {
-      "id": "243c95be0ee6afda",
+      "id": "google-skills-badge-21077997",
       "title": "Create Image Captioning Models",
       "name": "Create Image Captioning Models",
       "issuer": "Google Cloud",
@@ -3837,7 +3927,7 @@
       ]
     },
     {
-      "id": "434f65634c2c2503",
+      "id": "google-skills-badge-21077734",
       "title": "Transformer Models and BERT Model",
       "name": "Transformer Models and BERT Model",
       "issuer": "Google Cloud",
@@ -3855,7 +3945,7 @@
       ]
     },
     {
-      "id": "d33179972614e337",
+      "id": "google-skills-badge-21077555",
       "title": "Attention Mechanism",
       "name": "Attention Mechanism",
       "issuer": "Google Cloud",
@@ -3873,7 +3963,7 @@
       ]
     },
     {
-      "id": "a59a693e4cd3f9d6",
+      "id": "google-skills-badge-21077512",
       "title": "Introduction to Image Generation",
       "name": "Introduction to Image Generation",
       "issuer": "Google Cloud",
@@ -3891,7 +3981,7 @@
       ]
     },
     {
-      "id": "3c2d6d064c067cc8",
+      "id": "google-skills-badge-21054088",
       "title": "Supervised Fine-tuning for Gemini",
       "name": "Supervised Fine-tuning for Gemini",
       "issuer": "Google Cloud",
@@ -3909,7 +3999,7 @@
       ]
     },
     {
-      "id": "d7034ec828011120",
+      "id": "google-skills-badge-21039085",
       "title": "Implementing Cloud Load Balancing for Compute Engine",
       "name": "Implementing Cloud Load Balancing for Compute Engine",
       "issuer": "Google Cloud",
@@ -3927,7 +4017,7 @@
       ]
     },
     {
-      "id": "fd6521e39c616bba",
+      "id": "google-skills-badge-21024695",
       "title": "Google Security Operations - Deep Dive",
       "name": "Google Security Operations - Deep Dive",
       "issuer": "Google Cloud",
@@ -3945,7 +4035,7 @@
       ]
     },
     {
-      "id": "e624ccd59bc4016f",
+      "id": "google-skills-badge-21024676",
       "title": "Google Security Operations - Fundamentals",
       "name": "Google Security Operations - Fundamentals",
       "issuer": "Google Cloud",
@@ -3963,7 +4053,7 @@
       ]
     },
     {
-      "id": "d43a4fb7083b8d4a",
+      "id": "google-skills-badge-21003646",
       "title": "AI Infrastructure: Networking Techniques",
       "name": "AI Infrastructure: Networking Techniques",
       "issuer": "Google Cloud",
@@ -3981,7 +4071,7 @@
       ]
     },
     {
-      "id": "f41620bc76922dd0",
+      "id": "google-skills-badge-21003599",
       "title": "AI Infrastructure: Storage Options",
       "name": "AI Infrastructure: Storage Options",
       "issuer": "Google Cloud",
@@ -3999,7 +4089,7 @@
       ]
     },
     {
-      "id": "31cb51ce1e410224",
+      "id": "google-skills-badge-21003568",
       "title": "AI Infrastructure: Deployment Types",
       "name": "AI Infrastructure: Deployment Types",
       "issuer": "Google Cloud",
@@ -4017,7 +4107,7 @@
       ]
     },
     {
-      "id": "89ac5f506f6dc3e8",
+      "id": "google-skills-badge-20977998",
       "title": "Put It All Together: Prepare for a Cloud Security Analyst Job",
       "name": "Put It All Together: Prepare for a Cloud Security Analyst Job",
       "issuer": "Google Cloud",
@@ -4035,7 +4125,7 @@
       ]
     },
     {
-      "id": "f0c45cc673db543a",
+      "id": "google-skills-badge-20954336",
       "title": "Detect, Respond, and Recover from Cloud Cybersecurity Attacks",
       "name": "Detect, Respond, and Recover from Cloud Cybersecurity Attacks",
       "issuer": "Google Cloud",
@@ -4053,7 +4143,7 @@
       ]
     },
     {
-      "id": "e4984806807b9cfe",
+      "id": "google-skills-badge-20863354",
       "title": "[DEPRECATED] Webhook fundamentals",
       "name": "[DEPRECATED] Webhook fundamentals",
       "issuer": "Google Cloud",
@@ -4071,7 +4161,7 @@
       ]
     },
     {
-      "id": "f1e7a2d2bbb1758c",
+      "id": "google-skills-badge-20835698",
       "title": "Conversation Design Fundamentals",
       "name": "Conversation Design Fundamentals",
       "issuer": "Google Cloud",
@@ -4089,7 +4179,7 @@
       ]
     },
     {
-      "id": "36ae216f95887eed",
+      "id": "google-skills-badge-20767214",
       "title": "[DEPRECATED] Agent Summarization (Custom)",
       "name": "[DEPRECATED] Agent Summarization (Custom)",
       "issuer": "Google Cloud",
@@ -4107,7 +4197,7 @@
       ]
     },
     {
-      "id": "3a7ef68c21e5090a",
+      "id": "google-skills-badge-20718087",
       "title": "Conversational AI and its Engagement Framework",
       "name": "Conversational AI and its Engagement Framework",
       "issuer": "Google Cloud",
@@ -4125,7 +4215,7 @@
       ]
     },
     {
-      "id": "84171c9dc6b33148",
+      "id": "google-skills-badge-20717950",
       "title": "Conversational Insights",
       "name": "Conversational Insights",
       "issuer": "Google Cloud",
@@ -4143,7 +4233,7 @@
       ]
     },
     {
-      "id": "0034601df04e2162",
+      "id": "google-skills-badge-20717495",
       "title": "How to Use TPUs for Inference",
       "name": "How to Use TPUs for Inference",
       "issuer": "Google Cloud",
@@ -4161,7 +4251,7 @@
       ]
     },
     {
-      "id": "5d92423fc51c23ae",
+      "id": "google-skills-badge-20707852",
       "title": "Architecting an AI Inference Stack",
       "name": "Architecting an AI Inference Stack",
       "issuer": "Google Cloud",
@@ -4179,7 +4269,7 @@
       ]
     },
     {
-      "id": "a42b6cf3dfd7f8a1",
+      "id": "google-skills-badge-20701950",
       "title": "Google Workspace Troubleshooting",
       "name": "Google Workspace Troubleshooting",
       "issuer": "Google Cloud",
@@ -4197,7 +4287,7 @@
       ]
     },
     {
-      "id": "1ed36cfc49e20ebe",
+      "id": "google-skills-badge-20688811",
       "title": "Google Workspace Security",
       "name": "Google Workspace Security",
       "issuer": "Google Cloud",
@@ -4215,7 +4305,7 @@
       ]
     },
     {
-      "id": "c4d14d5c6601e55c",
+      "id": "google-skills-badge-20683058",
       "title": "Google Workspace Data Governance",
       "name": "Google Workspace Data Governance",
       "issuer": "Google Cloud",
@@ -4233,7 +4323,7 @@
       ]
     },
     {
-      "id": "8c37fd94f913efaa",
+      "id": "google-skills-badge-20682611",
       "title": "Google Workspace Core Services",
       "name": "Google Workspace Core Services",
       "issuer": "Google Cloud",
@@ -4251,7 +4341,7 @@
       ]
     },
     {
-      "id": "be98a3119b3932bd",
+      "id": "google-skills-badge-20663909",
       "title": "Google Workspace User and Resource Management",
       "name": "Google Workspace User and Resource Management",
       "issuer": "Google Cloud",
@@ -4269,7 +4359,7 @@
       ]
     },
     {
-      "id": "a68862b4e8ced985",
+      "id": "google-skills-badge-20632084",
       "title": "Cloud Security Risks: Identify and Protect Against Threats",
       "name": "Cloud Security Risks: Identify and Protect Against Threats",
       "issuer": "Google Cloud",
@@ -4287,7 +4377,7 @@
       ]
     },
     {
-      "id": "308ec60e9cb4377f",
+      "id": "google-skills-badge-20548680",
       "title": "Strategies for Cloud Security Risk Management",
       "name": "Strategies for Cloud Security Risk Management",
       "issuer": "Google Cloud",
@@ -4305,7 +4395,7 @@
       ]
     },
     {
-      "id": "b1e78cd7f3f46bb0",
+      "id": "google-skills-badge-20504506",
       "title": "Introduction to Security Principles in Cloud Computing",
       "name": "Introduction to Security Principles in Cloud Computing",
       "issuer": "Google Cloud",
@@ -4323,7 +4413,7 @@
       ]
     },
     {
-      "id": "f7fc80d38d49c709",
+      "id": "google-skills-badge-20461230",
       "title": "Create Engaging Video with Google Vids",
       "name": "Create Engaging Video with Google Vids",
       "issuer": "Google Cloud",
@@ -4341,7 +4431,7 @@
       ]
     },
     {
-      "id": "31b169ff764b749f",
+      "id": "google-skills-badge-20461010",
       "title": "Gemini in Google Drive",
       "name": "Gemini in Google Drive",
       "issuer": "Google Cloud",
@@ -4359,7 +4449,7 @@
       ]
     },
     {
-      "id": "dcc22cad0a8177a2",
+      "id": "google-skills-badge-20460894",
       "title": "Gemini in Google Meet",
       "name": "Gemini in Google Meet",
       "issuer": "Google Cloud",
@@ -4377,7 +4467,7 @@
       ]
     },
     {
-      "id": "b6b3350f62f183cd",
+      "id": "google-skills-badge-20460758",
       "title": "Gemini in Google Sheets",
       "name": "Gemini in Google Sheets",
       "issuer": "Google Cloud",
@@ -4395,7 +4485,7 @@
       ]
     },
     {
-      "id": "e84bbc22727f6631",
+      "id": "google-skills-badge-20460652",
       "title": "Gemini in Google Slides",
       "name": "Gemini in Google Slides",
       "issuer": "Google Cloud",
@@ -4413,7 +4503,7 @@
       ]
     },
     {
-      "id": "dd471548d44a6b64",
+      "id": "google-skills-badge-20460525",
       "title": "Gemini in Google Docs",
       "name": "Gemini in Google Docs",
       "issuer": "Google Cloud",
@@ -4431,7 +4521,7 @@
       ]
     },
     {
-      "id": "789dced720b0d692",
+      "id": "google-skills-badge-20460299",
       "title": "Gemini in Gmail",
       "name": "Gemini in Gmail",
       "issuer": "Google Cloud",
@@ -4449,7 +4539,7 @@
       ]
     },
     {
-      "id": "1722a1278b22c492",
+      "id": "google-skills-badge-20460206",
       "title": "Google Workspace with Gemini: Foundations of Your AI Workflow",
       "name": "Google Workspace with Gemini: Foundations of Your AI Workflow",
       "issuer": "Google Cloud",
@@ -4467,7 +4557,7 @@
       ]
     },
     {
-      "id": "2bb65f019e34b066",
+      "id": "google-skills-badge-20438377",
       "title": "AI Infrastructure: Cloud TPUs",
       "name": "AI Infrastructure: Cloud TPUs",
       "issuer": "Google Cloud",
@@ -4485,7 +4575,7 @@
       ]
     },
     {
-      "id": "d2d599f5b42a4bf7",
+      "id": "google-skills-badge-20438347",
       "title": "AI Infrastructure: Cloud GPUs",
       "name": "AI Infrastructure: Cloud GPUs",
       "issuer": "Google Cloud",
@@ -4503,7 +4593,7 @@
       ]
     },
     {
-      "id": "34ce386c6828049c",
+      "id": "google-skills-badge-20438306",
       "title": "AI Infrastructure: Introduction to AI Hypercomputer",
       "name": "AI Infrastructure: Introduction to AI Hypercomputer",
       "issuer": "Google Cloud",
@@ -4521,7 +4611,7 @@
       ]
     },
     {
-      "id": "1b6deb203e25bbe2",
+      "id": "google-skills-badge-20438171",
       "title": "Use Functions, Formulas, and Charts in Google Sheets",
       "name": "Use Functions, Formulas, and Charts in Google Sheets",
       "issuer": "Google Cloud",
@@ -4539,7 +4629,7 @@
       ]
     },
     {
-      "id": "971cb47b05220e3a",
+      "id": "google-skills-badge-20360785",
       "title": "Implement Cloud Collaboration and Productivity Workflows",
       "name": "Implement Cloud Collaboration and Productivity Workflows",
       "issuer": "Google Cloud",
@@ -4557,7 +4647,7 @@
       ]
     },
     {
-      "id": "ea5a90e5f324b123",
+      "id": "google-skills-badge-20242928",
       "title": "Google Sheets - Advanced Topics",
       "name": "Google Sheets - Advanced Topics",
       "issuer": "Google Cloud",
@@ -4575,7 +4665,7 @@
       ]
     },
     {
-      "id": "4f6e61436e7d3bdb",
+      "id": "google-skills-badge-20218054",
       "title": "Google Chat",
       "name": "Google Chat",
       "issuer": "Google Cloud",
@@ -4593,7 +4683,7 @@
       ]
     },
     {
-      "id": "25c61e2941a847a9",
+      "id": "google-skills-badge-20217617",
       "title": "Google Meet",
       "name": "Google Meet",
       "issuer": "Google Cloud",
@@ -4611,7 +4701,7 @@
       ]
     },
     {
-      "id": "646d9cb852d6b582",
+      "id": "google-skills-badge-20189930",
       "title": "Google Slides",
       "name": "Google Slides",
       "issuer": "Google Cloud",
@@ -4629,7 +4719,7 @@
       ]
     },
     {
-      "id": "e93d3d8de4d2d0b3",
+      "id": "google-skills-badge-20189287",
       "title": "Google Sheets",
       "name": "Google Sheets",
       "issuer": "Google Cloud",
@@ -4647,7 +4737,7 @@
       ]
     },
     {
-      "id": "050a9cbdb4e31908",
+      "id": "google-skills-badge-20160898",
       "title": "Google Docs",
       "name": "Google Docs",
       "issuer": "Google Cloud",
@@ -4665,7 +4755,7 @@
       ]
     },
     {
-      "id": "0ef2b879c27f1bd6",
+      "id": "google-skills-badge-20160375",
       "title": "Google Drive",
       "name": "Google Drive",
       "issuer": "Google Cloud",
@@ -4683,7 +4773,7 @@
       ]
     },
     {
-      "id": "b7472f5ac9cfc364",
+      "id": "google-skills-badge-20131534",
       "title": "Google Calendar",
       "name": "Google Calendar",
       "issuer": "Google Cloud",
@@ -4701,7 +4791,7 @@
       ]
     },
     {
-      "id": "ae03e39d070636fe",
+      "id": "google-skills-badge-20130759",
       "title": "Gmail",
       "name": "Gmail",
       "issuer": "Google Cloud",
@@ -4719,7 +4809,7 @@
       ]
     },
     {
-      "id": "a0635efbad708a17",
+      "id": "google-skills-badge-20103576",
       "title": "Gen AI Agents: Transform Your Organization",
       "name": "Gen AI Agents: Transform Your Organization",
       "issuer": "Google Cloud",
@@ -4737,7 +4827,7 @@
       ]
     },
     {
-      "id": "5daccd962beb3e9b",
+      "id": "google-skills-badge-20074401",
       "title": "Gen AI Apps: Transform Your Work",
       "name": "Gen AI Apps: Transform Your Work",
       "issuer": "Google Cloud",
@@ -4755,7 +4845,7 @@
       ]
     },
     {
-      "id": "1b15011aedc2b1fd",
+      "id": "google-skills-badge-20073969",
       "title": "Gen AI: Navigate the Landscape",
       "name": "Gen AI: Navigate the Landscape",
       "issuer": "Google Cloud",
@@ -4773,7 +4863,7 @@
       ]
     },
     {
-      "id": "70c73f407932b366",
+      "id": "google-skills-badge-20073600",
       "title": "Gen AI: Unlock Foundational Concepts",
       "name": "Gen AI: Unlock Foundational Concepts",
       "issuer": "Google Cloud",
@@ -4791,7 +4881,7 @@
       ]
     },
     {
-      "id": "0fef179a7cb8b8e8",
+      "id": "google-skills-badge-20049490",
       "title": "Gen AI: Beyond the Chatbot",
       "name": "Gen AI: Beyond the Chatbot",
       "issuer": "Google Cloud",
@@ -4809,7 +4899,7 @@
       ]
     },
     {
-      "id": "531e8b19f7b51681",
+      "id": "google-skills-badge-20024452",
       "title": "AI Boost Bites: Advanced Analysis in Sheets",
       "name": "AI Boost Bites: Advanced Analysis in Sheets",
       "issuer": "Google Cloud",
@@ -4827,7 +4917,7 @@
       ]
     },
     {
-      "id": "d11e7a093d8b8763",
+      "id": "google-skills-badge-20024414",
       "title": "AI Boost Bites: Notes to Sheets with Gemini",
       "name": "AI Boost Bites: Notes to Sheets with Gemini",
       "issuer": "Google Cloud",
@@ -4845,7 +4935,7 @@
       ]
     },
     {
-      "id": "e980f43994f3eb6c",
+      "id": "google-skills-badge-20024357",
       "title": "AI Boost Bites: Gemini Calendar Hacks in Gmail",
       "name": "AI Boost Bites: Gemini Calendar Hacks in Gmail",
       "issuer": "Google Cloud",
@@ -4863,7 +4953,7 @@
       ]
     },
     {
-      "id": "166b8a34241b3a32",
+      "id": "google-skills-badge-20024337",
       "title": "AI Boost Bites: Build Slides Fast with Gemini",
       "name": "AI Boost Bites: Build Slides Fast with Gemini",
       "issuer": "Google Cloud",
@@ -4881,7 +4971,7 @@
       ]
     },
     {
-      "id": "a1ec64ffda9b2082",
+      "id": "google-skills-badge-20024292",
       "title": "AI Boost Bites: Talk to Your Data in Sheets",
       "name": "AI Boost Bites: Talk to Your Data in Sheets",
       "issuer": "Google Cloud",
@@ -4899,7 +4989,7 @@
       ]
     },
     {
-      "id": "e4f954f55f05367a",
+      "id": "google-skills-badge-20024273",
       "title": "AI Boost Bites: AI Magic in a Sheets Cell",
       "name": "AI Boost Bites: AI Magic in a Sheets Cell",
       "issuer": "Google Cloud",
@@ -4917,7 +5007,7 @@
       ]
     },
     {
-      "id": "7fc99e2f10d8b48a",
+      "id": "google-skills-badge-20024228",
       "title": "[DEPRECATED] AI Boost Bites: Create ‘What If’ Scenarios with AI",
       "name": "[DEPRECATED] AI Boost Bites: Create ‘What If’ Scenarios with AI",
       "issuer": "Google Cloud",
@@ -4935,7 +5025,7 @@
       ]
     },
     {
-      "id": "8ee044d43990b20a",
+      "id": "google-skills-badge-20024116",
       "title": "AI Boost Bites: Become a Creative Mashup Artist",
       "name": "AI Boost Bites: Become a Creative Mashup Artist",
       "issuer": "Google Cloud",
@@ -4953,7 +5043,7 @@
       ]
     },
     {
-      "id": "956f239bdbe2c9e1",
+      "id": "google-skills-badge-20024092",
       "title": "AI Boost Bites: Become an AI Art Director for Your World",
       "name": "AI Boost Bites: Become an AI Art Director for Your World",
       "issuer": "Google Cloud",
@@ -4971,7 +5061,7 @@
       ]
     },
     {
-      "id": "4513822dd28e1406",
+      "id": "google-skills-badge-20024053",
       "title": "AI Boost Bites: Create the Perfect Portrait",
       "name": "AI Boost Bites: Create the Perfect Portrait",
       "issuer": "Google Cloud",
@@ -4989,7 +5079,7 @@
       ]
     },
     {
-      "id": "9da2fecf0f2875c0",
+      "id": "google-skills-badge-20024027",
       "title": "[DEPRECATED] AI Boost Bites: Research Hacks with NotebookLM",
       "name": "[DEPRECATED] AI Boost Bites: Research Hacks with NotebookLM",
       "issuer": "Google Cloud",
@@ -5007,7 +5097,7 @@
       ]
     },
     {
-      "id": "39d213a9104bcdb5",
+      "id": "google-skills-badge-20023995",
       "title": "[DEPRECATED] AI Boost Bites: Find the Story in Your Data",
       "name": "[DEPRECATED] AI Boost Bites: Find the Story in Your Data",
       "issuer": "Google Cloud",
@@ -5025,7 +5115,7 @@
       ]
     },
     {
-      "id": "16a622fb512ed311",
+      "id": "google-skills-badge-20023960",
       "title": "AI Boost Bites: Streamline Event Planning with AI",
       "name": "AI Boost Bites: Streamline Event Planning with AI",
       "issuer": "Google Cloud",
@@ -5043,7 +5133,7 @@
       ]
     },
     {
-      "id": "468e7115249e089b",
+      "id": "google-skills-badge-20023937",
       "title": "AI Boost Bites: Supercharge Research with Gemini",
       "name": "AI Boost Bites: Supercharge Research with Gemini",
       "issuer": "Google Cloud",
@@ -5061,7 +5151,7 @@
       ]
     },
     {
-      "id": "4d00fa374dc956d2",
+      "id": "google-skills-badge-20023910",
       "title": "AI Boost Bites: Make Any Big Purchase with Confidence",
       "name": "AI Boost Bites: Make Any Big Purchase with Confidence",
       "issuer": "Google Cloud",
@@ -5079,7 +5169,7 @@
       ]
     },
     {
-      "id": "f0c92908420fdfe9",
+      "id": "google-skills-badge-20023883",
       "title": "AI Boost Bites: Animated Charts with Gemini",
       "name": "AI Boost Bites: Animated Charts with Gemini",
       "issuer": "Google Cloud",
@@ -5097,7 +5187,7 @@
       ]
     },
     {
-      "id": "0ea2f8cf15c35b9a",
+      "id": "google-skills-badge-20023854",
       "title": "AI Boost Bites: Turn Your Ideas into Animated Art",
       "name": "AI Boost Bites: Turn Your Ideas into Animated Art",
       "issuer": "Google Cloud",
@@ -5115,7 +5205,7 @@
       ]
     },
     {
-      "id": "cefa86b3cd3461ed",
+      "id": "google-skills-badge-20023826",
       "title": "AI Boost Bites: Your Personal AI Tutor",
       "name": "AI Boost Bites: Your Personal AI Tutor",
       "issuer": "Google Cloud",
@@ -5133,7 +5223,7 @@
       ]
     },
     {
-      "id": "fe487f36e3aa9514",
+      "id": "google-skills-badge-20023800",
       "title": "AI Boost Bites: Gamify Your Study Guides",
       "name": "AI Boost Bites: Gamify Your Study Guides",
       "issuer": "Google Cloud",
@@ -5151,7 +5241,7 @@
       ]
     },
     {
-      "id": "9b9f34d5ecf59b4c",
+      "id": "google-skills-badge-20023768",
       "title": "AI Boost Bites: Get Your Competitor's Playbook in Minutes",
       "name": "AI Boost Bites: Get Your Competitor's Playbook in Minutes",
       "issuer": "Google Cloud",
@@ -5169,7 +5259,7 @@
       ]
     },
     {
-      "id": "fc51a244623c16df",
+      "id": "google-skills-badge-20023742",
       "title": "AI Boost Bites: Build a Personalized Weather App",
       "name": "AI Boost Bites: Build a Personalized Weather App",
       "issuer": "Google Cloud",
@@ -5187,7 +5277,7 @@
       ]
     },
     {
-      "id": "f59072a4695123c7",
+      "id": "google-skills-badge-20022657",
       "title": "AI Boost Bites: Create a 3D Solar System",
       "name": "AI Boost Bites: Create a 3D Solar System",
       "issuer": "Google Cloud",
@@ -5205,7 +5295,7 @@
       ]
     },
     {
-      "id": "81e0d14a33c20826",
+      "id": "google-skills-badge-20012522",
       "title": "AI Boost Bites: Create Your Own Productivity Tools",
       "name": "AI Boost Bites: Create Your Own Productivity Tools",
       "issuer": "Google Cloud",
@@ -5223,7 +5313,7 @@
       ]
     },
     {
-      "id": "3effebdfdf8e75d9",
+      "id": "google-skills-badge-20012342",
       "title": "AI Boost Bites: Guided Learning with Gemini",
       "name": "AI Boost Bites: Guided Learning with Gemini",
       "issuer": "Google Cloud",
@@ -5241,7 +5331,7 @@
       ]
     },
     {
-      "id": "191cbf3ccd8ce86a",
+      "id": "google-skills-badge-19997018",
       "title": "AI Boost Bites: Create Your Own Retro Arcade Game",
       "name": "AI Boost Bites: Create Your Own Retro Arcade Game",
       "issuer": "Google Cloud",
@@ -5259,7 +5349,7 @@
       ]
     },
     {
-      "id": "a6154a221b615aee",
+      "id": "google-skills-badge-19997001",
       "title": "AI Boost Bites: Become a \"Vibe DJ\"",
       "name": "AI Boost Bites: Become a \"Vibe DJ\"",
       "issuer": "Google Cloud",
@@ -5277,7 +5367,7 @@
       ]
     },
     {
-      "id": "4c6f9e501347f5e8",
+      "id": "google-skills-badge-19996895",
       "title": "AI Boost Bites: Create Your Ultimate College Scouting Report",
       "name": "AI Boost Bites: Create Your Ultimate College Scouting Report",
       "issuer": "Google Cloud",
@@ -5295,7 +5385,7 @@
       ]
     },
     {
-      "id": "37c52f103ef52248",
+      "id": "google-skills-badge-19996775",
       "title": "AI Boost Bites: One-Click Campaign Visuals",
       "name": "AI Boost Bites: One-Click Campaign Visuals",
       "issuer": "Google Cloud",
@@ -5313,7 +5403,7 @@
       ]
     },
     {
-      "id": "98ebe25b33244c0f",
+      "id": "google-skills-badge-19996588",
       "title": "AI Boost Bites: From Napkin Sketch to Functional App",
       "name": "AI Boost Bites: From Napkin Sketch to Functional App",
       "issuer": "Google Cloud",
@@ -5331,7 +5421,7 @@
       ]
     },
     {
-      "id": "37ae04426c21d6da",
+      "id": "google-skills-badge-19996514",
       "title": "[DEPRECATED] AI Boost Bites: NotebookLM Reports",
       "name": "[DEPRECATED] AI Boost Bites: NotebookLM Reports",
       "issuer": "Google Cloud",
@@ -5349,7 +5439,7 @@
       ]
     },
     {
-      "id": "9561afd04c3bb6f3",
+      "id": "google-skills-badge-19996436",
       "title": "AI Boost Bites: Your Personal Feedback Agent",
       "name": "AI Boost Bites: Your Personal Feedback Agent",
       "issuer": "Google Cloud",
@@ -5367,7 +5457,7 @@
       ]
     },
     {
-      "id": "af5c585dec3f8083",
+      "id": "google-skills-badge-19996370",
       "title": "AI Boost Bites: Presentation Scripts with Gemini",
       "name": "AI Boost Bites: Presentation Scripts with Gemini",
       "issuer": "Google Cloud",
@@ -5385,7 +5475,7 @@
       ]
     },
     {
-      "id": "ab47ed0ba39ba9d1",
+      "id": "google-skills-badge-19996219",
       "title": "[DEPRECATED] AI Boost Bites: Project Notebooks",
       "name": "[DEPRECATED] AI Boost Bites: Project Notebooks",
       "issuer": "Google Cloud",
@@ -5403,7 +5493,7 @@
       ]
     },
     {
-      "id": "764cf47158aa58d2",
+      "id": "google-skills-badge-19996132",
       "title": "[DEPRECATED] AI Boost Bites: NotebookLM for Market Research",
       "name": "[DEPRECATED] AI Boost Bites: NotebookLM for Market Research",
       "issuer": "Google Cloud",
@@ -5421,7 +5511,7 @@
       ]
     },
     {
-      "id": "c78c4480b29fb60d",
+      "id": "google-skills-badge-19996088",
       "title": "[Deprecated]AI Boost Bites: NotebookLM Video Overviews",
       "name": "[Deprecated]AI Boost Bites: NotebookLM Video Overviews",
       "issuer": "Google Cloud",
@@ -5439,7 +5529,7 @@
       ]
     },
     {
-      "id": "bc2c2d86b0b82133",
+      "id": "google-skills-badge-19996060",
       "title": "[DEPRECATED] AI Boost Bites: Discover Sources in NotebookLM",
       "name": "[DEPRECATED] AI Boost Bites: Discover Sources in NotebookLM",
       "issuer": "Google Cloud",
@@ -5457,7 +5547,7 @@
       ]
     },
     {
-      "id": "48c3ccb36fdaec6a",
+      "id": "google-skills-badge-19996031",
       "title": "[DEPRECATED] AI Boost Bites: NotebookLM Mind Maps",
       "name": "[DEPRECATED] AI Boost Bites: NotebookLM Mind Maps",
       "issuer": "Google Cloud",
@@ -5475,7 +5565,7 @@
       ]
     },
     {
-      "id": "9f651162ade1089d",
+      "id": "google-skills-badge-19995999",
       "title": "[DEPRECATED] AI Boost Bites: Intro to NotebookLM",
       "name": "[DEPRECATED] AI Boost Bites: Intro to NotebookLM",
       "issuer": "Google Cloud",
@@ -5493,7 +5583,7 @@
       ]
     },
     {
-      "id": "e1e90d09e340ed2d",
+      "id": "google-skills-badge-19995946",
       "title": "AI Boost Bites: Email Content Creation",
       "name": "AI Boost Bites: Email Content Creation",
       "issuer": "Google Cloud",
@@ -5511,7 +5601,7 @@
       ]
     },
     {
-      "id": "3cd24c9ff4b746b2",
+      "id": "google-skills-badge-19995901",
       "title": "AI Boost Bites: Create Docs in Seconds",
       "name": "AI Boost Bites: Create Docs in Seconds",
       "issuer": "Google Cloud",
@@ -5529,7 +5619,7 @@
       ]
     },
     {
-      "id": "eddc73baf38db8c6",
+      "id": "google-skills-badge-19995858",
       "title": "[DEPRECATED] AI Boost Bites: AI Power-Ups for Google Workspace",
       "name": "[DEPRECATED] AI Boost Bites: AI Power-Ups for Google Workspace",
       "issuer": "Google Cloud",
@@ -5547,7 +5637,7 @@
       ]
     },
     {
-      "id": "190a05056e4bb1d3",
+      "id": "google-skills-badge-19995787",
       "title": "AI Boost Bites: Tame Your Inbox with AI",
       "name": "AI Boost Bites: Tame Your Inbox with AI",
       "issuer": "Google Cloud",
@@ -5565,7 +5655,7 @@
       ]
     },
     {
-      "id": "c2a4392f499439b3",
+      "id": "google-skills-badge-19995725",
       "title": "AI Boost Bites: Gemini Slide Summaries",
       "name": "AI Boost Bites: Gemini Slide Summaries",
       "issuer": "Google Cloud",
@@ -5583,7 +5673,7 @@
       ]
     },
     {
-      "id": "ae0cbe1ed367e8cd",
+      "id": "google-skills-badge-19995694",
       "title": "AI Boost Bites: No-Code Sheets & Scripts",
       "name": "AI Boost Bites: No-Code Sheets & Scripts",
       "issuer": "Google Cloud",
@@ -5601,7 +5691,7 @@
       ]
     },
     {
-      "id": "24f0a59bc7ad8ff0",
+      "id": "google-skills-badge-19995672",
       "title": "AI Boost Bites: Amplify Exec Voices with AI",
       "name": "AI Boost Bites: Amplify Exec Voices with AI",
       "issuer": "Google Cloud",
@@ -5619,7 +5709,7 @@
       ]
     },
     {
-      "id": "b19a469652986e8c",
+      "id": "google-skills-badge-19995638",
       "title": "AI Boost Bites: Exec Summaries with Gemini Gems",
       "name": "AI Boost Bites: Exec Summaries with Gemini Gems",
       "issuer": "Google Cloud",
@@ -5637,7 +5727,7 @@
       ]
     },
     {
-      "id": "072984638bee1abb",
+      "id": "google-skills-badge-19995610",
       "title": "AI Boost Bites: Automate tasks with Gemini and Apps Script",
       "name": "AI Boost Bites: Automate tasks with Gemini and Apps Script",
       "issuer": "Google Cloud",
@@ -5655,7 +5745,7 @@
       ]
     },
     {
-      "id": "f76e8c7b92ffac19",
+      "id": "google-skills-badge-19995570",
       "title": "[DEPRECATED] AI Boost Bites: \"Eat the Frog\" with NotebookLM",
       "name": "[DEPRECATED] AI Boost Bites: \"Eat the Frog\" with NotebookLM",
       "issuer": "Google Cloud",
@@ -5673,7 +5763,7 @@
       ]
     },
     {
-      "id": "17d7fdd7fefba492",
+      "id": "google-skills-badge-19995550",
       "title": "AI Boost Bites: Gemini Image-to-Sheets Hack",
       "name": "AI Boost Bites: Gemini Image-to-Sheets Hack",
       "issuer": "Google Cloud",
@@ -5691,7 +5781,7 @@
       ]
     },
     {
-      "id": "4104d547e157a1c5",
+      "id": "google-skills-badge-19995516",
       "title": "AI Boost Bites: Poke Holes in Your Strategy",
       "name": "AI Boost Bites: Poke Holes in Your Strategy",
       "issuer": "Google Cloud",
@@ -5709,7 +5799,7 @@
       ]
     },
     {
-      "id": "0c524412ff0d4903",
+      "id": "google-skills-badge-19995487",
       "title": "[DEPRECATED] AI Boost Bites: NotebookLM for Competitive Edge",
       "name": "[DEPRECATED] AI Boost Bites: NotebookLM for Competitive Edge",
       "issuer": "Google Cloud",
@@ -5727,7 +5817,7 @@
       ]
     },
     {
-      "id": "123c025b7549638a",
+      "id": "google-skills-badge-19995456",
       "title": "AI Boost Bites: Personalization with customized prompts",
       "name": "AI Boost Bites: Personalization with customized prompts",
       "issuer": "Google Cloud",
@@ -5745,7 +5835,7 @@
       ]
     },
     {
-      "id": "24ba780df77e70c1",
+      "id": "google-skills-badge-19995427",
       "title": "AI Boost Bites: TL;DR with Gemini in Docs & Drive",
       "name": "AI Boost Bites: TL;DR with Gemini in Docs & Drive",
       "issuer": "Google Cloud",
@@ -5763,7 +5853,7 @@
       ]
     },
     {
-      "id": "38a2aa8ea90031ff",
+      "id": "google-skills-badge-19995407",
       "title": "AI Boost Bites: Prompting like a Pro with Google Workspace",
       "name": "AI Boost Bites: Prompting like a Pro with Google Workspace",
       "issuer": "Google Cloud",
@@ -5781,7 +5871,7 @@
       ]
     },
     {
-      "id": "6634c810ccca525a",
+      "id": "google-skills-badge-19995380",
       "title": "AI Boost Bites: Content Generation with Gemini Made Easy",
       "name": "AI Boost Bites: Content Generation with Gemini Made Easy",
       "issuer": "Google Cloud",
@@ -5799,7 +5889,7 @@
       ]
     },
     {
-      "id": "5fdcc5139657265d",
+      "id": "google-skills-badge-19995353",
       "title": "[DEPRECATED] AI Boost Bites: Customer insights with NotebookLM",
       "name": "[DEPRECATED] AI Boost Bites: Customer insights with NotebookLM",
       "issuer": "Google Cloud",
@@ -5817,7 +5907,7 @@
       ]
     },
     {
-      "id": "3c22fed9aa6a39ee",
+      "id": "google-skills-badge-19995323",
       "title": "AI Boost Bites: Gemini Gems – Your ultimate marketing sidekick",
       "name": "AI Boost Bites: Gemini Gems – Your ultimate marketing sidekick",
       "issuer": "Google Cloud",
@@ -5835,7 +5925,7 @@
       ]
     },
     {
-      "id": "fb95493b75f33e12",
+      "id": "google-skills-badge-19964396",
       "title": "Responsible AI: Applying AI Principles with Google Cloud",
       "name": "Responsible AI: Applying AI Principles with Google Cloud",
       "issuer": "Google Cloud",
@@ -5853,7 +5943,7 @@
       ]
     },
     {
-      "id": "ab614fa8fc5335ea",
+      "id": "google-skills-badge-19936299",
       "title": "Prompt Design in Agent Platform",
       "name": "Prompt Design in Agent Platform",
       "issuer": "Google Cloud",
@@ -5871,7 +5961,7 @@
       ]
     },
     {
-      "id": "6918f3a3f46cc34a",
+      "id": "google-skills-badge-19833877",
       "title": "Introduction to Responsible AI",
       "name": "Introduction to Responsible AI",
       "issuer": "Google Cloud",
@@ -5889,7 +5979,7 @@
       ]
     },
     {
-      "id": "7a01f2208431a950",
+      "id": "google-skills-badge-19792962",
       "title": "Introduction to Large Language Models",
       "name": "Introduction to Large Language Models",
       "issuer": "Google Cloud",
@@ -5907,7 +5997,7 @@
       ]
     },
     {
-      "id": "a29a08644ef7a92c",
+      "id": "google-skills-badge-19792558",
       "title": "Introduction to Generative AI",
       "name": "Introduction to Generative AI",
       "issuer": "Google Cloud",
@@ -5925,7 +6015,7 @@
       ]
     },
     {
-      "id": "dbd8b9699b0c8e02",
+      "id": "google-skills-badge-18399707",
       "title": "Scaling with Google Cloud Operations",
       "name": "Scaling with Google Cloud Operations",
       "issuer": "Google Cloud",
@@ -5943,7 +6033,7 @@
       ]
     },
     {
-      "id": "b518d2639400c4fb",
+      "id": "google-skills-badge-18317757",
       "title": "Trust and Security with Google Cloud",
       "name": "Trust and Security with Google Cloud",
       "issuer": "Google Cloud",
@@ -5961,7 +6051,7 @@
       ]
     },
     {
-      "id": "4c7aeee61e0d93f0",
+      "id": "google-skills-badge-18294550",
       "title": "Modernize Infrastructure and Applications with Google Cloud",
       "name": "Modernize Infrastructure and Applications with Google Cloud",
       "issuer": "Google Cloud",
@@ -5979,7 +6069,7 @@
       ]
     },
     {
-      "id": "5803b6faba5919f0",
+      "id": "google-skills-badge-18267780",
       "title": "Innovating with Google Cloud Artificial Intelligence",
       "name": "Innovating with Google Cloud Artificial Intelligence",
       "issuer": "Google Cloud",
@@ -5997,7 +6087,7 @@
       ]
     },
     {
-      "id": "cd6bc2f66c11b31e",
+      "id": "google-skills-badge-18230648",
       "title": "Exploring Data Transformation with Google Cloud",
       "name": "Exploring Data Transformation with Google Cloud",
       "issuer": "Google Cloud",
@@ -6015,7 +6105,7 @@
       ]
     },
     {
-      "id": "cd596dafb949db14",
+      "id": "google-skills-badge-18108130",
       "title": "Digital Transformation with Google Cloud",
       "name": "Digital Transformation with Google Cloud",
       "issuer": "Google Cloud",

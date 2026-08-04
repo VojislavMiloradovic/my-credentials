@@ -1,6 +1,6 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 335 records.
+This document represents a unified, verifiable list of all 340 records.
 
 ## Verified Records Archive
 
@@ -14,6 +14,7 @@ This document represents a unified, verifiable list of all 335 records.
 | 2026-07-26 | [Scaling Data Science with Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25938520) | Google Cloud | Google Skill Badge |
 | 2026-07-23 | [Configure VPC Routes and Addresses](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25829594) | Google Cloud | Google Skill Badge |
 | 2026-07-23 | [Set Up Multiple Network Interfaces](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25828763) | Google Cloud | Google Skill Badge |
+| 2026-07-23 | [Orchestrate Workflows with the Data Agent Kit](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25826281) | Google Cloud | Google Skill Badge |
 | 2026-07-23 | [Arcade Adventure: Low-Code Development](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25819783) | Google Cloud | Google Skill Badge |
 | 2026-07-21 | [Build Serverless Applications with Cloud Run Functions](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25752565) | Google Cloud | Google Skill Badge |
 | 2026-07-19 | [Secure Software Delivery](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25679848) | Google Cloud | Google Skill Badge |
@@ -39,6 +40,7 @@ This document represents a unified, verifiable list of all 335 records.
 | 2026-06-21 | [Use APIs to Work with Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25049718) | Google Cloud | Google Skill Badge |
 | 2026-06-21 | [The Basics of Google Cloud Compute](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25049414) | Google Cloud | Google Skill Badge |
 | 2026-06-21 | [Customer Experience Agent Studio: Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25048886) | Google Cloud | Google Skill Badge |
+| 2026-06-19 | [Troubleshooting with AI Using Cloud Assist Investigations](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25020466) | Google Cloud | Google Skill Badge |
 | 2026-06-17 | [Store, Process, and Manage Data on Google Cloud - Console](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24977481) | Google Cloud | Google Skill Badge |
 | 2026-06-13 | [Organize and Govern Data with Knowledge Catalog](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24880679) | Google Cloud | Google Skill Badge |
 | 2026-06-13 | [Essential Google Cloud CLI Tools](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24880145) | Google Cloud | Google Skill Badge |
@@ -72,6 +74,7 @@ This document represents a unified, verifiable list of all 335 records.
 | 2026-05-14 | [AI Boost Bites: Build Your AI Strategic Partner](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171360) | Google Cloud | Google Skill Badge |
 | 2026-05-14 | [[Deprecated] AI Boost Bites: Build a Custom AI Teammate](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171337) | Google Cloud | Google Skill Badge |
 | 2026-05-14 | [[Deprecated] AI Boost Bites: Your Personal AI Study Partner](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171302) | Google Cloud | Google Skill Badge |
+| 2026-05-14 | [AI Boost Bites: Shareable Gems](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171278) | Google Cloud | Google Skill Badge |
 | 2026-05-14 | [AI Boost Bites: Your AI Chart Detective](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171233) | Google Cloud | Google Skill Badge |
 | 2026-05-07 | [Build a Certification Study Guide: PCDOE Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24020912) | Google Cloud | Google Skill Badge |
 | 2026-05-05 | [Machine Learning Operations (MLOps): Getting Started](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23987473) | Google Cloud | Google Skill Badge |
@@ -98,6 +101,7 @@ This document represents a unified, verifiable list of all 335 records.
 | 2026-04-27 | [Google Cloud Database Migrations: Strategy](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23835574) | Google Cloud | Google Skill Badge |
 | 2026-04-26 | [Liftoff with Google Antigravity: Build a Video Game with AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23816150) | Google Cloud | Google Skill Badge |
 | 2026-04-26 | [Google AI for Finance Professionals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23816077) | Google Cloud | Google Skill Badge |
+| 2026-04-26 | [Orchestrate Multi-agent Workflows with Gemini Enterprise](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23815777) | Google Cloud | Google Skill Badge |
 | 2026-04-25 | [L300 Google Distributed Cloud air-gapped](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23803015) | Google Cloud | Google Skill Badge |
 | 2026-04-24 | [Looker Studio Pro Essentials](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23789385) | Google Cloud | Google Skill Badge |
 | 2026-04-24 | [Responsible AI for Digital Leaders with Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23787456) | Google Cloud | Google Skill Badge |
@@ -119,6 +123,7 @@ This document represents a unified, verifiable list of all 335 records.
 | 2026-04-13 | [Architecting and Installing the Apigee Hybrid API Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23577414) | Google Cloud | Google Skill Badge |
 | 2026-04-12 | [GKE Routing and IP Address Management](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23561908) | Google Cloud | Google Skill Badge |
 | 2026-04-11 | [Deploy Your First Agent](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548435) | Google Cloud | Google Skill Badge |
+| 2026-04-11 | [Orchestrate Complex Multi-Agent Workflows](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548307) | Google Cloud | Google Skill Badge |
 | 2026-04-11 | [Coordinate Multiple Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548231) | Google Cloud | Google Skill Badge |
 | 2026-04-11 | [Introduction to GKE Networking](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548146) | Google Cloud | Google Skill Badge |
 | 2026-04-10 | [Network Observability on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23537866) | Google Cloud | Google Skill Badge |

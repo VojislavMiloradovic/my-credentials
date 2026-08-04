@@ -1,7 +1,7 @@
 ---
 archive_platform: Google Skills Credentials
 chunk_part: 6 of 7
-date_range: 2026-04-26 to 2026-05-24
+date_range: 2026-04-26 to 2026-05-19
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-05-part-06.md
 ---
@@ -12,9 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-05-24 | [Analyze BigQuery Data in Connected Sheets](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24389719) | Google Cloud | Google Skill Badge |
-| 2026-05-23 | [Build Real World AI Applications with Gemini and Imagen](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24364563) | Google Cloud | Google Skill Badge |
-| 2026-05-21 | [Website Modernization with Generative AI on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24328413) | Google Cloud | Google Skill Badge |
 | 2026-05-19 | [Data Governance with Dataplex Universal Catalog](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24287792) | Google Cloud | Google Skill Badge |
 | 2026-05-18 | [Boost Productivity with Gemini in BigQuery](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24253675) | Google Cloud | Google Skill Badge |
 | 2026-05-18 | [Accelerate App Development with Gemini CLI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24251263) | Google Cloud | Google Skill Badge |
@@ -35,6 +32,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-14 | [AI Boost Bites: Build Your AI Strategic Partner](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171360) | Google Cloud | Google Skill Badge |
 | 2026-05-14 | [[Deprecated] AI Boost Bites: Build a Custom AI Teammate](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171337) | Google Cloud | Google Skill Badge |
 | 2026-05-14 | [[Deprecated] AI Boost Bites: Your Personal AI Study Partner](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171302) | Google Cloud | Google Skill Badge |
+| 2026-05-14 | [AI Boost Bites: Shareable Gems](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171278) | Google Cloud | Google Skill Badge |
 | 2026-05-14 | [AI Boost Bites: Your AI Chart Detective](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171233) | Google Cloud | Google Skill Badge |
 | 2026-05-07 | [Build a Certification Study Guide: PCDOE Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24020912) | Google Cloud | Google Skill Badge |
 | 2026-05-05 | [Machine Learning Operations (MLOps): Getting Started](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23987473) | Google Cloud | Google Skill Badge |
@@ -60,6 +58,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-27 | [Migrating to Google Cloud: Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23835656) | Google Cloud | Google Skill Badge |
 | 2026-04-27 | [Google Cloud Database Migrations: Strategy](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23835574) | Google Cloud | Google Skill Badge |
 | 2026-04-26 | [Liftoff with Google Antigravity: Build a Video Game with AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23816150) | Google Cloud | Google Skill Badge |
+| 2026-04-26 | [Google AI for Finance Professionals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23816077) | Google Cloud | Google Skill Badge |
+| 2026-04-26 | [Orchestrate Multi-agent Workflows with Gemini Enterprise](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23815777) | Google Cloud | Google Skill Badge |
 
 ---
 > **Navigation:** Prev: [google-skills-2026-04-part-05.md](./google-skills-2026-04-part-05.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-08-part-07.md](./google-skills-2026-08-part-07.md)

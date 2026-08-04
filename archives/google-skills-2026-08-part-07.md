@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Skills Credentials
 chunk_part: 7 of 7
-date_range: 2026-05-24 to 2026-08-03
-total_entries: 43
+date_range: 2026-05-21 to 2026-08-03
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-07.md
 ---
 
@@ -20,6 +20,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-26 | [Scaling Data Science with Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25938520) | Google Cloud | Google Skill Badge |
 | 2026-07-23 | [Configure VPC Routes and Addresses](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25829594) | Google Cloud | Google Skill Badge |
 | 2026-07-23 | [Set Up Multiple Network Interfaces](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25828763) | Google Cloud | Google Skill Badge |
+| 2026-07-23 | [Orchestrate Workflows with the Data Agent Kit](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25826281) | Google Cloud | Google Skill Badge |
 | 2026-07-23 | [Arcade Adventure: Low-Code Development](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25819783) | Google Cloud | Google Skill Badge |
 | 2026-07-21 | [Build Serverless Applications with Cloud Run Functions](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25752565) | Google Cloud | Google Skill Badge |
 | 2026-07-19 | [Secure Software Delivery](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25679848) | Google Cloud | Google Skill Badge |
@@ -45,6 +46,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-21 | [Use APIs to Work with Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25049718) | Google Cloud | Google Skill Badge |
 | 2026-06-21 | [The Basics of Google Cloud Compute](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25049414) | Google Cloud | Google Skill Badge |
 | 2026-06-21 | [Customer Experience Agent Studio: Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25048886) | Google Cloud | Google Skill Badge |
+| 2026-06-19 | [Troubleshooting with AI Using Cloud Assist Investigations](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25020466) | Google Cloud | Google Skill Badge |
 | 2026-06-17 | [Store, Process, and Manage Data on Google Cloud - Console](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24977481) | Google Cloud | Google Skill Badge |
 | 2026-06-13 | [Organize and Govern Data with Knowledge Catalog](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24880679) | Google Cloud | Google Skill Badge |
 | 2026-06-13 | [Essential Google Cloud CLI Tools](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24880145) | Google Cloud | Google Skill Badge |
@@ -55,6 +57,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-26 | [Introduction to Data Analytics on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24448908) | Google Cloud | Google Skill Badge |
 | 2026-05-25 | [Manage Data Models in Looker](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24423060) | Google Cloud | Google Skill Badge |
 | 2026-05-24 | [App Building with AppSheet](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24390898) | Google Cloud | Google Skill Badge |
+| 2026-05-24 | [Analyze BigQuery Data in Connected Sheets](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24389719) | Google Cloud | Google Skill Badge |
+| 2026-05-23 | [Build Real World AI Applications with Gemini and Imagen](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24364563) | Google Cloud | Google Skill Badge |
+| 2026-05-21 | [Website Modernization with Generative AI on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24328413) | Google Cloud | Google Skill Badge |
 
 ---
 > **Navigation:** Prev: [google-skills-2026-05-part-06.md](./google-skills-2026-05-part-06.md) | [Index](./google-skills-index.md) | Next: None

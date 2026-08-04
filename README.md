@@ -51,12 +51,12 @@ Showing latest 10 of 4,794 achievements. View full dataset via [Platform Archive
 [Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
 Public Profile: [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
-**Total Portfolio Credentials:** 335
-**Total Verified Skills Mapped:** 334
+**Total Portfolio Credentials:** 340
+**Total Verified Skills Mapped:** 339
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 335 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-01.md), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 340 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-01.md), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -68,8 +68,8 @@ Showing latest 10 of 335 credentials. View full dataset via [Platform Archive In
 | 2026-07-26 | [Scaling Data Science with Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25938520) | Google Cloud | Google Skill Badge |
 | 2026-07-23 | [Configure VPC Routes and Addresses](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25829594) | Google Cloud | Google Skill Badge |
 | 2026-07-23 | [Set Up Multiple Network Interfaces](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25828763) | Google Cloud | Google Skill Badge |
+| 2026-07-23 | [Orchestrate Workflows with the Data Agent Kit](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25826281) | Google Cloud | Google Skill Badge |
 | 2026-07-23 | [Arcade Adventure: Low-Code Development](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25819783) | Google Cloud | Google Skill Badge |
-| 2026-07-21 | [Build Serverless Applications with Cloud Run Functions](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25752565) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials

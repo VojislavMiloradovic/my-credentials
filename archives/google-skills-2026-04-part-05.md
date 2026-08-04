@@ -1,7 +1,7 @@
 ---
 archive_platform: Google Skills Credentials
 chunk_part: 5 of 7
-date_range: 2026-03-30 to 2026-04-26
+date_range: 2026-03-30 to 2026-04-25
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-04-part-05.md
 ---
@@ -12,7 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-04-26 | [Google AI for Finance Professionals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23816077) | Google Cloud | Google Skill Badge |
 | 2026-04-25 | [L300 Google Distributed Cloud air-gapped](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23803015) | Google Cloud | Google Skill Badge |
 | 2026-04-24 | [Looker Studio Pro Essentials](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23789385) | Google Cloud | Google Skill Badge |
 | 2026-04-24 | [Responsible AI for Digital Leaders with Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23787456) | Google Cloud | Google Skill Badge |
@@ -34,6 +33,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-13 | [Architecting and Installing the Apigee Hybrid API Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23577414) | Google Cloud | Google Skill Badge |
 | 2026-04-12 | [GKE Routing and IP Address Management](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23561908) | Google Cloud | Google Skill Badge |
 | 2026-04-11 | [Deploy Your First Agent](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548435) | Google Cloud | Google Skill Badge |
+| 2026-04-11 | [Orchestrate Complex Multi-Agent Workflows](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548307) | Google Cloud | Google Skill Badge |
 | 2026-04-11 | [Coordinate Multiple Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548231) | Google Cloud | Google Skill Badge |
 | 2026-04-11 | [Introduction to GKE Networking](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548146) | Google Cloud | Google Skill Badge |
 | 2026-04-10 | [Network Observability on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23537866) | Google Cloud | Google Skill Badge |
