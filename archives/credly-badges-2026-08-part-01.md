@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 1 of 10
-date_range: 2026-07-22 to 2026-08-02
+date_range: 2026-07-22 to 2026-08-03
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-01.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-03 | [Privileged Access with IAM](https://www.credly.com/badges/d2a16e78-200b-435f-84ec-708b5dfa835e/public_url) | Google Cloud | Credly Verified |
 | 2026-08-02 | [Agility and Velocity: How MongoDB Helps Deliver New Features Faster](https://www.credly.com/badges/38da0769-2338-4eba-a5bd-447954a5777a/public_url) | MongoDB | Credly Verified |
 | 2026-08-02 | [AWS Educate Getting Started with Security - Training Badge](https://www.credly.com/badges/eb54a438-0285-4897-bb89-2c0bacc6adf7/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-08-02 | [Data Resilience in MongoDB Atlas](https://www.credly.com/badges/b8b7d06d-d74f-4d6f-a85c-923e55953fa1/public_url) | MongoDB | Credly Verified |
@@ -65,7 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-22 | [Extending ATT&CK with ATT&CK Workbench](https://www.credly.com/badges/1a455d6f-de65-420a-a531-f26d2562538b/public_url) | AttackIQ | Credly Verified |
 | 2026-07-22 | [Foundations of Cyber Threat Intelligence](https://www.credly.com/badges/7de6eae2-567f-4628-9a07-b832ea35db92/public_url) | AttackIQ | Credly Verified |
 | 2026-07-22 | [MongoDB Advanced Schema Design Patterns and Anti-patterns Skill Badge](https://www.credly.com/badges/e467dede-3af7-4e52-94b6-024d53997597/public_url) | MongoDB | Credly Verified |
-| 2026-07-22 | [MongoDB Aggregation Fundamentals](https://www.credly.com/badges/9e2386d0-6962-447d-9cab-1efb8c45bb56/public_url) | MongoDB | Credly Verified |
 
 ---
 > **Navigation:** Prev: None | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-02.md](credly-badges-2026-08-part-02.md)

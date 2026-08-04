@@ -1,10 +1,31 @@
 {
   "user_username": "vojislavmiloradovic",
   "user_id": "752aee40-7358-4ade-9a49-81e8b6f49225",
-  "total_count": 493,
-  "native_count": 470,
+  "total_count": 494,
+  "native_count": 471,
   "external_count": 23,
   "badges": [
+    {
+      "id": "d2a16e78-200b-435f-84ec-708b5dfa835e",
+      "title": "Privileged Access with IAM",
+      "name": "Privileged Access with IAM",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-03",
+      "issued_at_date": "2026-08-03",
+      "date": "2026-08-03",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/ea6d4987-883b-4ef7-84f4-1cc5c1c2b6b0/blob",
+      "verify_url": "https://www.credly.com/badges/d2a16e78-200b-435f-84ec-708b5dfa835e/public_url",
+      "url": "https://www.credly.com/badges/d2a16e78-200b-435f-84ec-708b5dfa835e/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "IAM Custom Groups",
+        "Identity And Access Management (IAM)",
+        "Identity Aware Proxy (IAP)"
+      ]
+    },
     {
       "id": "38da0769-2338-4eba-a5bd-447954a5777a",
       "title": "Agility and Velocity: How MongoDB Helps Deliver New Features Faster",

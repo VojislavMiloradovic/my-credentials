@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 3 of 10
-date_range: 2026-06-24 to 2026-07-07
+date_range: 2026-06-24 to 2026-07-08
 total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-03.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-08 | [Navigate the Celonis Studio](https://www.credly.com/badges/f61a2862-8623-4198-86f9-a8817a002424/public_url) | Celonis | Credly Verified |
 | 2026-07-07 | [Optimize Costs for Google Kubernetes Engine Skill Badge](https://www.credly.com/badges/d67f5f9f-c9c7-4c0a-a241-1bcb73da59ab/public_url) | Google Cloud | Credly Verified |
 | 2026-07-05 | [Acronis Cyber Protect – Cybersecurity Basics](https://www.credly.com/badges/ea106045-3407-4d0e-abd4-9f25b1173d2a/public_url) | Acronis | Credly Verified |
 | 2026-07-05 | [Act on Recommended Tasks](https://www.credly.com/badges/fe48bdbf-8db5-4635-9660-aea9fd95e9a4/public_url) | Celonis | Credly Verified |
@@ -67,7 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-24 | [AWS Knowledge: Data Protection & Disaster Recovery - Training Badge](https://www.credly.com/badges/b0648167-39ae-4aca-b7dd-cc83c7ade7da/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-06-24 | [Chainguard Vulnslayer](https://www.credly.com/badges/c4a36cd5-da9e-4d5c-b281-7ad49c7e0a75/public_url) | Chainguard | Credly Verified |
 | 2026-06-24 | [Cloud Sales Fundamentals](https://www.credly.com/badges/f38a3c55-4e53-4eb5-8eb8-5a98e428fff7/public_url) | Acronis | Credly Verified |
-| 2026-06-24 | [LFC191: Open Source Licensing Basics for Software Developers](https://www.credly.com/badges/b3e5eab0-8654-434e-a86c-23f8481036ff/public_url) | The Linux Foundation | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-08-part-02.md](credly-badges-2026-08-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-04.md](credly-badges-2026-08-part-04.md)

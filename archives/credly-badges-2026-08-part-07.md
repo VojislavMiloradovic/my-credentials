@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 7 of 10
-date_range: 2026-05-09 to 2026-05-19
-total_entries: 54
+date_range: 2026-05-09 to 2026-05-20
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-07.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-20 | [NASA Open Science 101](https://www.credly.com/badges/b367bbf7-307f-40f3-82ac-975d987f525f/public_url) | NASA Open Science | Credly Verified |
+| 2026-05-19 | [Agentic AI - How to with SAS Viya](https://www.credly.com/badges/5fe72598-ffcd-4c5c-8b30-319831d7d2bd/public_url) | SAS | Credly Verified |
 | 2026-05-19 | [Discovering the Basics of SAP S/4HANA Portfolio and Project Management - Record of Achievement](https://www.credly.com/badges/d3c10832-4cf4-4d04-939b-bbcc1dcc9f1e/public_url) | SAP | Credly Verified |
 | 2026-05-19 | [GenAI - Client to Cloud Fundamentals](https://www.credly.com/badges/bbd4f4ac-6aba-480f-b77c-9b8f79b65bdd/public_url) | Intel | Credly Verified |
 | 2026-05-19 | [Getting Started with SAS and Kubernetes](https://www.credly.com/badges/1a509b1d-9a06-410c-8916-eac5b639fe28/public_url) | SAS | Credly Verified |
@@ -65,7 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-09 | [Implementing SAP S/4HANA Cloud for Group Reporting - Record of Achievement](https://www.credly.com/badges/edb638dc-fb67-4321-ac1f-be6461909fe4/public_url) | SAP | Credly Verified |
 | 2026-05-09 | [Implement Phishing-Resistant Authentication](https://www.credly.com/badges/c34fa8f3-05dc-434e-884f-8058eb03679f/public_url) | Okta | Credly Verified |
 | 2026-05-09 | [Kubernetes Monitoring Learning Path](https://www.credly.com/badges/775a311d-54f3-4e38-9e60-3da0c5149df4/public_url) | Datadog | Credly Verified |
-| 2026-05-09 | [Site Reliability Engineer Learning Path](https://www.credly.com/badges/82670fe2-987b-43c4-8023-09500fa4696b/public_url) | Datadog | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-08-part-06.md](credly-badges-2026-08-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-08.md](credly-badges-2026-08-part-08.md)

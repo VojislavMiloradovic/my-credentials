@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-11 | [LFD133: Introduction to WebAssembly](https://www.credly.com/badges/8473781e-b134-4cb1-850b-c72985f5822d/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-11 | [LFS144: Introduction to Istio](https://www.credly.com/badges/bb9b403f-05c9-47c8-8e63-e7a2c4eef99b/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-11 | [LFS146: Introduction to Cilium](https://www.credly.com/badges/d6703f61-4648-41b6-9949-01827cbd6c78/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-11 | [Tech Fundamentals](https://www.credly.com/badges/b006a1c2-03c5-426f-9b4a-b667e033047d/public_url) | Acronis | Credly Verified |
@@ -64,7 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-04 | [AWS Knowledge: Compute - Training Badge](https://www.credly.com/badges/422b41e8-bf11-4ac3-b1fd-90dfd1838224/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-06-04 | [Build Scalable Authorization Models with Auth0 FGA](https://www.credly.com/badges/03f314ca-34b2-45d8-9b2a-d0a5a45db527/public_url) | Okta | Credly Verified |
 | 2026-06-04 | [PMI® Essentials: Seven AI Project Patterns](https://www.credly.com/badges/2f214aa1-1de2-4e25-ba59-61ba86729898/public_url) | Project Management Institute | Credly Verified |
-| 2026-06-04 | [Practical Application of Gen AI for Project Managers](https://www.credly.com/badges/d8cbec32-4350-4590-831f-34ad56889daf/public_url) | Project Management Institute | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-08-part-04.md](credly-badges-2026-08-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-06.md](credly-badges-2026-08-part-06.md)

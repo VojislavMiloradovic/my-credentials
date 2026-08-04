@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 6 of 10
-date_range: 2026-05-19 to 2026-06-04
-total_entries: 58
+date_range: 2026-05-20 to 2026-06-04
+total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-06.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-04 | [Practical Application of Gen AI for Project Managers](https://www.credly.com/badges/d8cbec32-4350-4590-831f-34ad56889daf/public_url) | Project Management Institute | Credly Verified |
 | 2026-06-04 | [Talking to AI: Prompt Engineering for Project Managers](https://www.credly.com/badges/1b9b4a53-4ddc-4d6b-bd7c-c31df88dabc8/public_url) | Project Management Institute | Credly Verified |
 | 2026-06-02 | [Data Literacy in Practice](https://www.credly.com/badges/45b07a9e-9ca9-4189-a489-ebb58c023824/public_url) | SAS | Credly Verified |
 | 2026-06-02 | [Deploying SAS Grid Manager](https://www.credly.com/badges/a0ad62be-1ecc-43c0-92ca-35437a0dd09b/public_url) | SAS | Credly Verified |
@@ -68,8 +69,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-20 | [Fundamentals of Agile Project Management](https://www.credly.com/badges/5829bdb0-b2dd-4e23-9aa4-22c6ea61c8b4/public_url) | Project Management Institute | Credly Verified |
 | 2026-05-20 | [Fundamentals of Predictive Project Management](https://www.credly.com/badges/6ff63094-6930-44d1-83c8-fedaae412178/public_url) | Project Management Institute | Credly Verified |
 | 2026-05-20 | [Generative AI Overview for Project Managers](https://www.credly.com/badges/be0d5350-61bb-416c-ac0d-13fe417cdf7c/public_url) | Project Management Institute | Credly Verified |
-| 2026-05-20 | [NASA Open Science 101](https://www.credly.com/badges/b367bbf7-307f-40f3-82ac-975d987f525f/public_url) | NASA Open Science | Credly Verified |
-| 2026-05-19 | [Agentic AI - How to with SAS Viya](https://www.credly.com/badges/5fe72598-ffcd-4c5c-8b30-319831d7d2bd/public_url) | SAS | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-08-part-05.md](credly-badges-2026-08-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-07.md](credly-badges-2026-08-part-07.md)

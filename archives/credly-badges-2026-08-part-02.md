@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-22 | [MongoDB Aggregation Fundamentals](https://www.credly.com/badges/9e2386d0-6962-447d-9cab-1efb8c45bb56/public_url) | MongoDB | Credly Verified |
 | 2026-07-22 | [MongoDB Query Optimization Techniques](https://www.credly.com/badges/adc22d84-9e52-40b6-8f56-09b163398c09/public_url) | MongoDB | Credly Verified |
 | 2026-07-22 | [MongoDB Schema Design Optimization Skill Badge](https://www.credly.com/badges/526ac37a-cf81-4031-82ad-ea72351d42b8/public_url) | MongoDB | Credly Verified |
 | 2026-07-22 | [MongoDB Schema Design Patterns and Anti-patterns Skill Badge](https://www.credly.com/badges/79327255-4ed3-4b0f-8b1e-9982a0ab1051/public_url) | MongoDB | Credly Verified |
@@ -67,7 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-08 | [data.world Foundations](https://www.credly.com/badges/3476c45c-4176-49ad-9051-123760a950ff/public_url) | data.world from ServiceNow | Credly Verified |
 | 2026-07-08 | [data.world Steward Certification](https://www.credly.com/badges/cf76fba1-5658-4a88-9c91-84a057fcdd7b/public_url) | data.world from ServiceNow | Credly Verified |
 | 2026-07-08 | [Foundations of Operationalizing MITRE ATT&CK v13](https://www.credly.com/badges/e9bc6726-6c10-4a41-a8dd-a10398dec90f/public_url) | AttackIQ | Credly Verified |
-| 2026-07-08 | [Navigate the Celonis Studio](https://www.credly.com/badges/f61a2862-8623-4198-86f9-a8817a002424/public_url) | Celonis | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-08-part-01.md](credly-badges-2026-08-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-03.md](credly-badges-2026-08-part-03.md)

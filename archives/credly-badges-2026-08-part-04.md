@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-24 | [LFC191: Open Source Licensing Basics for Software Developers](https://www.credly.com/badges/b3e5eab0-8654-434e-a86c-23f8481036ff/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-24 | [LFS114: Introduction to free5GC](https://www.credly.com/badges/b602ddb6-a1da-4519-aa64-2757df49381e/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-24 | [LFS140: Feature Flagging with OpenFeature](https://www.credly.com/badges/0ff9afda-beba-4e6e-a90f-dfba868a5631/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-24 | [LFS162: Introduction to DevOps and Site Reliability Engineering](https://www.credly.com/badges/f817c27f-3003-4fbe-a870-f0edbf0fb604/public_url) | The Linux Foundation | Credly Verified |
@@ -63,7 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-11 | [AWS Knowledge: Events and Workflows - Training Badge](https://www.credly.com/badges/35c9dfd3-ab0b-4125-baf2-a67f19f960c7/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-06-11 | [Intel® Gaudi® AI Accelerator](https://www.credly.com/badges/f38defb3-960c-421e-af23-fe3699697623/public_url) | Intel | Credly Verified |
 | 2026-06-11 | [LFD110: Introduction to RISC-V](https://www.credly.com/badges/ca3fb10f-24a2-4c82-a275-82ca9f08193a/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-11 | [LFD133: Introduction to WebAssembly](https://www.credly.com/badges/8473781e-b134-4cb1-850b-c72985f5822d/public_url) | The Linux Foundation | Credly Verified |
 
 ---
 > **Navigation:** Prev: [credly-badges-2026-08-part-03.md](credly-badges-2026-08-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-05.md](credly-badges-2026-08-part-05.md)
