@@ -85,7 +85,7 @@ def generate_platform_archive(
     extra_monolith_header_md: str = "",
 ) -> None:
     """Generates monolithic archive, ~10KB slice archives, platform index,
-    and updates README markers cleanly with stable chunking, write guards, and run logging.
+    and updates README markers cleanly with tail-anchored stable chunking.
     """
     print(f"\n📦 Processing platform archive: {platform_name} ({platform_prefix})")
     os.makedirs(archive_dir, exist_ok=True)
@@ -133,6 +133,7 @@ def generate_platform_archive(
     print(f"  {mono_status} monolith: {monolith_filename} ({mono_kb} KB | {mono_tokens:,} tokens | {total_entries} records)")
 
     # 2. Stable Chunking Logic (~10 KB limit per file)
+    # Process from oldest to newest so part-01 is permanently anchored to oldest history.
     oldest_to_newest = sanitized_formatted_rows[::-1]
     raw_chunks_old_to_new = []
     current_chunk_rows = []
@@ -151,14 +152,14 @@ def generate_platform_archive(
     if current_chunk_rows:
         raw_chunks_old_to_new.append(current_chunk_rows)
 
-    raw_chunks_new_to_old = raw_chunks_old_to_new[::-1]
-    total_chunks = len(raw_chunks_new_to_old)
+    total_chunks = len(raw_chunks_old_to_new)
 
-    # First pass: determine exact chunk filenames and metadata
+    # First pass: assign filenames where part-01 = oldest chunk
     chunk_meta = []
     chunk_filenames = []
 
-    for i, chunk_rows_old in enumerate(raw_chunks_new_to_old, start=1):
+    for i, chunk_rows_old in enumerate(raw_chunks_old_to_new, start=1):
+        # Reverse internal rows so newest items within the chunk appear top-first
         chunk_rows = chunk_rows_old[::-1]
         start_date = chunk_rows[-1][1]
         end_date = chunk_rows[0][1]
@@ -174,7 +175,7 @@ def generate_platform_archive(
             "rows": chunk_rows,
         })
 
-    # Second pass: render chunk markdown content with verified prev/next links
+    # Second pass: write chunks with stable prev/next links
     active_filenames = set(chunk_filenames)
     print(f"  🧩 Slicing dataset into {total_chunks} stable chunk file(s):")
 
@@ -182,6 +183,7 @@ def generate_platform_archive(
         chunk_filename = meta["filename"]
         chunk_rows = meta["rows"]
 
+        # Link to part-(i-1) and part-(i+1)
         prev_link = (
             f"[{chunk_filenames[i-2]}](./{chunk_filenames[i-2]})"
             if i > 1
@@ -230,7 +232,7 @@ def generate_platform_archive(
     # Clean up obsolete slice files
     clean_orphaned_chunks(archive_dir, platform_prefix, active_filenames)
 
-    # 3. Master Platform Index File
+    # 3. Master Platform Index File (Display newest part first in table)
     index_filename = f"{platform_prefix}-index.md"
     index_path = os.path.join(archive_dir, index_filename)
 
@@ -250,7 +252,8 @@ def generate_platform_archive(
         "| :---: | :--- | :---: | :---: | :---: | :---: | :--- |",
     ]
 
-    for cm in chunk_meta:
+    # Show newest chunk parts at top of index table
+    for cm in reversed(chunk_meta):
         idx_md.append(
             f"| Part {cm['part']:02d} | [`{cm['filename']}`](./{cm['filename']}) | `{cm['date_range']}` | {cm['entries']} | {cm['size_kb']} KB | {cm['tokens']:,} | [Raw URL]({cm['raw_url']}) |"
         )
