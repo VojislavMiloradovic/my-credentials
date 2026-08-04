@@ -147,15 +147,18 @@ Showing latest 10 of 494 credentials. View full dataset via [Platform Archive In
 
 <!-- LINKEDIN_START -->
 ### LinkedIn Professional Certifications Summary
+
 #### Progress Metrics
+
 | Metric | Count |
 | :--- | :--- |
 | **Total External Certifications Verified** | 1,297 |
 
 #### Recent Certifications
-Showing latest 10 items. View the full dataset via the [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)) or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
-| Date | Certification Title | Issuing Authority | Credentials Reference |
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)) or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+
+| Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
 | *2026-07* | **Networking in Action: Build Real Connections That Accelerate Your Career** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/938a95030be5377f10fc0c93b84bd5ea05c18f4fd009326b925abaf920428cc3) |
 | *2026-07* | **Delivering and Analyzing a Software Pilot: GitHub Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2387b7333a40de8752f2080716d0aac9ee1736351c94fc8b0ae3ef42536f6857) |
