@@ -413,6 +413,16 @@ def fetch_aws_skills_badges(profile_user: str) -> list[dict]:
 # ARCHIVE BUILDER & README GENERATION
 # ==============================================================================
 
+# Easily editable Cloud Quest Stats
+CLOUD_QUEST_STATS = {
+    "Role": "Cloud Practitioner / Generative AI Practitioner",
+    "Builder Level": 12,
+    "Reputation Level": 95,
+    "Total Solutions Built": 20,
+    "Pets Unlocked": 17,
+    "Vehicles Unlocked": 2,
+}
+
 def build_archives_and_readme(badges: list[dict]) -> None:
     """Invokes archiver helper to generate markdown chunk files and update README.md."""
     if not generate_platform_archive:
@@ -459,6 +469,18 @@ def build_archives_and_readme(badges: list[dict]) -> None:
 
     profile_url = f"https://skillsprofile.skillbuilder.aws/user/{AWS_PROFILE_USER}"
 
+    # Construct the Cloud Quest table lines dynamically
+    cq_lines = [
+        "#### AWS Cloud Quest Summary",
+        "",
+        "| Metric | Value |",
+        "| :--- | :--- |"
+    ]
+    for key, value in CLOUD_QUEST_STATS.items():
+        cq_lines.append(f"| **{key}** | {value} |")
+    cq_lines.append("")  # Empty line for spacing
+
+    # Build the full readme lines
     readme_lines = [
         "### AWS Skill Builder Credentials",
         "",
@@ -467,14 +489,21 @@ def build_archives_and_readme(badges: list[dict]) -> None:
         f"Public Profile: [Verify AWS Skill Builder Profile]({profile_url})",
         f"**Total Portfolio Credentials:** {total_count}",
         f"**Total Verified Skills Mapped:** {total_skills}",
-        "",
+        ""
+    ]
+
+    # Inject the Cloud Quest lines right below the summary metrics
+    readme_lines.extend(cq_lines)
+
+    # Append the recent credentials section
+    readme_lines.extend([
         "#### Latest Earned Credentials",
         "",
         f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({part1_raw}), or [Monolithic File](./archives/aws-skills-complete.md).",
         "",
         "| Date Earned | Credential Name | Issuer | Verification Type |",
         "| :---: | :--- | :--- | :---: |",
-    ]
+    ])
 
     for row_text, _ in formatted_rows[:10]:
         readme_lines.append(row_text)
