@@ -1,17 +1,20 @@
 ---
-archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 4 of 23
+archive_platform: Google Developer Profile
+chunk_part: 4 of 25
 date_range: 2026-05-21 to 2026-05-21
-total_entries: 63
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-05-part-04.md
+total_entries: 64
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-04.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 04
+# Google Developer Profile — Part 04
 
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-03.md](google-developer-activities-2026-05-part-03.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-05-part-05.md](google-developer-activities-2026-05-part-05.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-03.md](./google-developer-2026-05-part-03.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-05.md](./google-developer-2026-05-part-05.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-21 | **Add push notifications to an iOS app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-21 | **Frontend Experiences with ADK and A2UI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-21 | **Build your own "Bargaining Shopkeeper" Agent with Gemini 3 and ADK** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Create no code agents with Gemini Enterprise** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Agent First Workflows - From prompt to production** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Cloud Spanner: Graph Intelligence using Spanner Graph Algorithms** | Verified Google Developer granular learning activity module milestone. |
@@ -73,9 +76,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-21 | **Integrate Vertex AI Agents with Google Workspace** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **From vibe checks to data-driven Agent Evaluation** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Supply Chain Traceability with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-21 | **Build an Event-Driven Data Agent with BigQuery and ADK** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-21 | **Build Customer 360 recommendation applications with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-03.md](google-developer-activities-2026-05-part-03.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-05-part-05.md](google-developer-activities-2026-05-part-05.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-03.md](./google-developer-2026-05-part-03.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-05.md](./google-developer-2026-05-part-05.md)
 

@@ -1,17 +1,21 @@
 ---
-archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 6 of 23
+archive_platform: Google Developer Profile
+chunk_part: 6 of 25
 date_range: 2026-05-24 to 2026-05-24
-total_entries: 64
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-05-part-06.md
+total_entries: 65
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-06.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 06
+# Google Developer Profile — Part 06
 
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-05.md](google-developer-activities-2026-05-part-05.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-05-part-07.md](google-developer-activities-2026-05-part-07.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-05.md](./google-developer-2026-05-part-05.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-07.md](./google-developer-2026-05-part-07.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-24 | **Create an interactive Dice Roller app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **On-device Large Language Models with Keras and TensorFlow Lite** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **How to Run Transformers.js on Cloud Run GPUs** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-24 | **How to deploy a Generative UI website on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Developing with Cloud Code** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **VPC Service Controls - BigQuery Protection Codelab I** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Deploy an Auto-Scaling HPC Cluster with Slurm** | Verified Google Developer granular learning activity module milestone. |
@@ -73,10 +77,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-24 | **Visualizing DNS Armor's Advanced Threat Detection Logs using Log Based Metrics and Custom Dashboard** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Autoscale Cloud Run worker pools based on the Pub/Sub queue volume using CREMA** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Build a simple iOS navigation app in Swift with Google Maps Platform Navigation SDK** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **A Beginner's Workshop for Antigravity CLI & ADK (Build Your First AI Companion)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Real time communication with WebRTC** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Lab 3: Prototype to Production - Deploy Your ADK Agent to Cloud Run with GPU** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-05.md](google-developer-activities-2026-05-part-05.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-05-part-07.md](google-developer-activities-2026-05-part-07.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-05.md](./google-developer-2026-05-part-05.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-07.md](./google-developer-2026-05-part-07.md)
 

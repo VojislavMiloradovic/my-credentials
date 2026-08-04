@@ -1,17 +1,22 @@
 ---
-archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 8 of 23
-date_range: 2026-05-26 to 2026-05-26
+archive_platform: Google Developer Profile
+chunk_part: 8 of 25
+date_range: 2026-05-26 to 2026-05-27
 total_entries: 62
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-05-part-08.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-08.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 08
+# Google Developer Profile — Part 08
 
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-07.md](google-developer-activities-2026-05-part-07.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-05-part-09.md](google-developer-activities-2026-05-part-09.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-07.md](./google-developer-2026-05-part-07.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-09.md](./google-developer-2026-05-part-09.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-27 | **Looker PSC Northbound Regional Internal L7 ALB** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-27 | **Building a fullstack movie recommendation system** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-27 | **Build a Google Workspace Add-on with Node.js and Cloud Run** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-27 | **Developing with Cloud Workstations and Cloud Code** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-26 | **Theming in Compose with Material 3** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Using Secret Manager with Python** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Learn how to invoke authenticated Cloud Run functions** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Vertex AI online prediction baseline testing with HEY** | Verified Google Developer granular learning activity module milestone. |
@@ -69,12 +74,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-26 | **Antigravity CLI on GCE with a Private Service Connect endpoint** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Using textembedding-gecko@003 for Vector Embeddings** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Maximize Your Play Billing Integration** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-26 | **How to create a Private Service Connect for Cloud SQL** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-26 | **Sign in with Google button for Web** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-26 | **Looker PSC Southbound HTTPS Internet NEG** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-26 | **Build and Deploy Multimodal Assistant on Cloud with Gemini (Python)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-26 | **Codelab: Build a Chrome Extension in JavaScript using Gemini** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-07.md](google-developer-activities-2026-05-part-07.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-05-part-09.md](google-developer-activities-2026-05-part-09.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-07.md](./google-developer-2026-05-part-07.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-09.md](./google-developer-2026-05-part-09.md)
 

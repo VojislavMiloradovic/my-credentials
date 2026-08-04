@@ -1,45 +1,17 @@
 ---
-archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 14 of 23
-date_range: 2026-06-07 to 2026-06-07
-total_entries: 64
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-06-part-14.md
+archive_platform: Google Developer Profile
+chunk_part: 16 of 25
+date_range: 2026-06-06 to 2026-06-07
+total_entries: 65
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-16.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 14
+# Google Developer Profile — Part 16
 
-> **Navigation:** Prev: [google-developer-activities-2026-06-part-13.md](google-developer-activities-2026-06-part-13.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-06-part-15.md](google-developer-activities-2026-06-part-15.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-06-part-15.md](./google-developer-2026-06-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-07 | **LiteRT CLI 101: Streamline your Edge AI Workflows** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Lab: Service Extensions on Media CDN** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Movie Rating prediction with Vertex AI AutoML** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Cloud Spanner: Create a gaming leaderboard with Java** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Android developer tools quiz** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Hello Cloud Run with C#** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Cast-enable an Android TV app** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Vertex AI: Use autopackaging to fine tune Bert with Hugging Face on Vertex AI Training** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **MDC-104 Android: Material Advanced Components (Kotlin)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **MDC-103 Android: Material Theming with Color, Elevation and Type (Kotlin)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Build convolutional neural networks (CNNs) to enhance computer vision** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Use convolutional neural networks (CNNs) with complex images** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Vertex AI: Multi-Worker Training and Transfer Learning with TensorFlow** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Build a Smart Shopping Assistant with AlloyDB and Vertex AI Agent Builder - Part 1** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **TensorFlow.js: Make your own "Teachable Machine" using transfer learning with TensorFlow.js** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Android 11—Week 10—Games and media quiz** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **How to Transact Digital Assets with Multi-Party Computation and Confidential Space** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Optimizing the price of retail products** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Prototype to Production: Distributed training on Vertex AI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Reverse ETL from Snowflake to Spanner using CSV** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Android Jetpack quiz** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **MDC-102 Android: Material Structure and Layout (Kotlin)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Raise engagement on Android TV by integrating with the Play Next row** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Build a fast checkout experience on the web with Google Pay** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Using the Video Intelligence API with C#** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Vertex AI Pipelines PSC Interface SWP** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Getting Started with CameraX** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Secure Serverless Application with Identity Aware Proxy (IAP)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Build Agentic AI Applications in Java with LangChain4j and Google GenAI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **(Deprecated) People: Conversations and Bubbles** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Android 11—Week 9—Large screens quiz** | Verified Google Developer granular learning activity module milestone. |
@@ -76,7 +48,36 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-07 | **Learn how to implement Sign in with Google in your Android app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Get started with Firebase in C++** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Vertex AI Vision Occupancy Analytics App With Event Management** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **External HTTPs LB with Advanced Traffic Management (Envoy) Codelab** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Get predictions from a pre-trained TensorFlow image model on Vertex AI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Securing Software Supply** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Codelab: Gemini to accelerate test driven development** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Build convolutions and perform pooling** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Private Service Connect 64** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Securely Deploying to Cloud Run** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Building a financial ML model with the What-If Tool and Vertex AI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Practical observability techniques for Generative AI application in Javascript** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Django CMS on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Build a computer vision model with TensorFlow** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **How to Schedule a Cloud Run Job within a VPC Service Controls perimeter** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Intro to Vertex Pipelines** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Vertex AI: Building a fraud detection model with AutoML** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **(Deprecated) Converting to Kotlin** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Build an AI-powered outfit recommendation app with AlloyDB and serverless runtimes** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Integrate the Vision API with Dialogflow** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Using Vertex ML Metadata with Pipelines** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **TCP Proxy Codelab - Rate limiting and IP Deny list with TCP Proxy Load balancer** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **(Deprecated) Use Kotlin Coroutines in your Android App** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **(Deprecated) Android Paging Advanced codelab** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Vertex AI: Co-host models on the same VM for predictions** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Vertex AI Vision Traffic Monitoring App** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **End-to-End Migration: CloudSQL Database to Cloud Spanner (GoogleSQL)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Get started with scroll-driven animations in CSS** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Deploy a full stack Angular application to Cloud Run with Firestore using the Node.js Admin SDK** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Android 11—Week 9—TV quiz** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Lesson 10: Advanced RecyclerView use cases** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Create your first Android app** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-06-part-13.md](google-developer-activities-2026-06-part-13.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-06-part-15.md](google-developer-activities-2026-06-part-15.md)
+> **Navigation:** Prev: [google-developer-2026-06-part-15.md](./google-developer-2026-06-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md)
 

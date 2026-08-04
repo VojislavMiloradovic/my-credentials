@@ -1,37 +1,17 @@
 ---
-archive_platform: Google Developer Profile (Milestone & Pathway Badges)
-chunk_part: 1 of 3
+archive_platform: Google Developer Profile
+chunk_part: 12 of 25
 date_range: 2026-06-05 to 2026-06-05
 total_entries: 68
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-06-part-01.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-12.md
 ---
 
-# Google Developer Profile: Milestone & Pathway Badges — Part 01
+# Google Developer Profile — Part 12
 
-> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-badges-2026-06-part-02.md](google-developer-badges-2026-06-part-02.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-06-part-11.md](./google-developer-2026-06-part-11.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-13.md](./google-developer-2026-06-part-13.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-05 | **Firebase Crashlytics Analytics** | Official Google Developer platform achievement (Learning Pathway: firebase crashlytics analytics). |
-| 2026-06-05 | **Firebase Remote Config** | Official Google Developer platform achievement (Learning Pathway: firebase remote config). |
-| 2026-06-05 | **Android Basics Compose Unit 3 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 3 pathway 1). |
-| 2026-06-05 | **Firebase Security Layers** | Official Google Developer platform achievement (Learning Pathway: firebase security layers). |
-| 2026-06-05 | **Going Further Image Classification** | Official Google Developer platform achievement (Learning Pathway: going further image classification). |
-| 2026-06-05 | **Going Further Text Classification Web** | Official Google Developer platform achievement (Learning Pathway: going further text classification web). |
-| 2026-06-05 | **Ai Models On Gpu Intro** | Official Google Developer platform achievement (Learning Pathway: ai models on gpu intro). |
-| 2026-06-05 | **Android 11 Week 2** | Official Google Developer platform achievement (Learning Pathway: android 11 week 2). |
-| 2026-06-05 | **Pay** | Official Google Developer platform achievement (Learning Pathway: pay). |
-| 2026-06-05 | **Ecommerce Microservices Kubernetes** | Official Google Developer platform achievement (Learning Pathway: ecommerce microservices kubernetes). |
-| 2026-06-05 | **Ai Powered Content Search** | Official Google Developer platform achievement (Learning Pathway: ai powered content search). |
-| 2026-06-05 | **Android Development With Kotlin 6** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 6). |
-| 2026-06-05 | **Kotlin Multiplatform** | Official Google Developer platform achievement (Learning Pathway: kotlin multiplatform). |
-| 2026-06-05 | **Three Tier Cloud Run** | Official Google Developer platform achievement (Learning Pathway: three tier cloud run). |
-| 2026-06-05 | **Android 11 Week 11 1** | Official Google Developer platform achievement (Learning Pathway: android 11 week 11 1). |
-| 2026-06-05 | **Android Development With Kotlin 4** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 4). |
-| 2026-06-05 | **Android Development With Kotlin 7** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 7). |
-| 2026-06-05 | **Gpay For Web** | Official Google Developer platform achievement (Learning Pathway: gpay for web). |
-| 2026-06-05 | **Get Started Image Classification** | Official Google Developer platform achievement (Learning Pathway: get started image classification). |
-| 2026-06-05 | **Identity** | Official Google Developer platform achievement (Learning Pathway: identity). |
 | 2026-06-05 | **Learn Css** | Official Google Developer platform achievement (Learning Pathway: learn css). |
 | 2026-06-05 | **Firebase Firestore Leaderboards** | Official Google Developer platform achievement (Learning Pathway: firebase firestore leaderboards). |
 | 2026-06-05 | **Discovery** | Official Google Developer platform achievement (Community: discovery). |
@@ -80,7 +60,27 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Cloud Run Serverless Computing** | Official Google Developer platform achievement (Learning Pathway: cloud run serverless computing). |
 | 2026-06-05 | **Springboot** | Official Google Developer platform achievement (Learning Pathway: springboot). |
 | 2026-06-05 | **Intro To Flutter** | Official Google Developer platform achievement (Learning Pathway: intro to flutter). |
+| 2026-06-05 | **MDC-101 Android: Material Components (MDC) Basics (Java)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Protect yourself from online harassment** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Call Vision API Product Search backend on Android** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Build Actions for Google Assistant using Actions Builder (Level 1)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Building watch faces for Wear OS** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Activity embedding** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Implement passkeys with form autofill in a web app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **View Interoperability in Compose** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Build a product image search backend with Vision API Product Search** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **MDC-102 Web: Material Structure and Layout (Web)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Engage Wear OS users in new ways with the Ongoing Activity API** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Get started with regression in iOS apps** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Passkey integration on the server-side and user-experience upgrades** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Extend an Android app to Google Assistant with App Actions (Level 2)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Quiz: Build maintainable and scalable web apps with Angular** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Build your first WebAuthn app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Add a map to your Android app (Kotlin)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **MDC-102 Android: Material Structure and Layout (Java)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Build an Android App with Views** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Build your own Current Place picker for Android (Java)** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-badges-2026-06-part-02.md](google-developer-badges-2026-06-part-02.md)
+> **Navigation:** Prev: [google-developer-2026-06-part-11.md](./google-developer-2026-06-part-11.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-13.md](./google-developer-2026-06-part-13.md)
 

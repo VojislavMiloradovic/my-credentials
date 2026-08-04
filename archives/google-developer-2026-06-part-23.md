@@ -1,38 +1,17 @@
 ---
-archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 21 of 23
-date_range: 2026-06-25 to 2026-06-29
+archive_platform: Google Developer Profile
+chunk_part: 23 of 25
+date_range: 2026-06-24 to 2026-06-29
 total_entries: 68
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-06-part-21.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-23.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 21
+# Google Developer Profile — Part 23
 
-> **Navigation:** Prev: [google-developer-activities-2026-06-part-20.md](google-developer-activities-2026-06-part-20.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-22.md](google-developer-activities-2026-07-part-22.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-06-part-22.md](./google-developer-2026-06-part-22.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-07-part-24.md](./google-developer-2026-07-part-24.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #5: Chart and Present Data in Slides** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Implement Material Design in web apps** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Engage your web app's users with push notifications** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Wear OS** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Boost your web apps with Fugu APIs** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Go further with object detection** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Views in Compose** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Get started with image classification in web apps** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Go further with product image search** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Fundamentals of Apps Script with Google Sheets** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Gemini API Firebase Extensions: Quickly enhance your app with generative AI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Build cross-platform apps with Angular** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Passwordless login on the web with passkeys** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #2: Spreadsheets, Sheets, and Ranges** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Visualize data on Google Maps Platform** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Build maintainable and scalable web apps with Angular** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Improve your website's identity forms** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Build Actions for Google Assistant** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Preventing Violence Against Women Online - Google for Developers** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Get started with object detection in Android apps quiz** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Improve the user experience of an Android app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-29 | **Build real-time web apps with Firebase and Angular** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-29 | **Capture media with WebRTC quiz** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #3: Working with Data** | Verified Google Developer granular learning activity module milestone. |
@@ -72,15 +51,36 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-27 | **Intro to Inference: How to Run AI Models on a GPU** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-27 | **Get started with image product search** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-27 | **Agent Gateway egress from Agent Runtime to Google MCP** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Learn Performance** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-25 | **Create AI evaluations** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Learn Images** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Learn Testing** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-25 | **Implement Material Design with Material Components for Flutter** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-25 | **Onboard and launch a location** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-25 | **Streetscape Geometry and Rooftop anchors** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Learn Forms** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Bring Google's Places data into your Android app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Accelerated Machine Learning with Google Cloud and NVIDIA** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Speed Up Data Analytics on GPUs** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Use Spring Boot to quickly create apps for Google Cloud** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Scene Semantics and Geospatial Depth** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Smart home Actions for the Google Assistant quiz** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Getting started with Google AI Studio and the Gemini API using Node.js** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Learn JavaScript** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Modern Web Guidance 101** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Build your first web app with Firebase** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Get started with the Google Pay API for Web** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Learn CSS** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Display nearby places in AR on Android (Kotlin)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-25 | **Command and control: Orchestrate app development with Gemini and MCP** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **API Key Management and Security** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **Use Looker's Self Service BI features** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **Analytics with the Data Agent Kit and Antigravity IDE** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **Visualize your AI assistant memory with Gemini and Cloud SQL pgvector** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **Securing a Multi-Agent System** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **Serving Gemma 3 with vLLM on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **Introduction to the Conversational Analytics in BigQuery** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **Mastering KCC Operations with Google Antigravity** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **Scale Agents with CrewAI, LangGraph, A2A, and ADK** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **Real-time Retail Recommendations with Spanner AI and Graph** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **Intent to Infrastructure: Agent-Driven Migration to GKE** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-06-part-20.md](google-developer-activities-2026-06-part-20.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-07-part-22.md](google-developer-activities-2026-07-part-22.md)
+> **Navigation:** Prev: [google-developer-2026-06-part-22.md](./google-developer-2026-06-part-22.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-07-part-24.md](./google-developer-2026-07-part-24.md)
 

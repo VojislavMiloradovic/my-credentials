@@ -1,17 +1,19 @@
 ---
-archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 3 of 23
+archive_platform: Google Developer Profile
+chunk_part: 3 of 25
 date_range: 2026-05-20 to 2026-05-21
 total_entries: 62
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-05-part-03.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-03.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 03
+# Google Developer Profile — Part 03
 
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-02.md](google-developer-activities-2026-05-part-02.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-05-part-04.md](google-developer-activities-2026-05-part-04.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-02.md](./google-developer-2026-05-part-02.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-04.md](./google-developer-2026-05-part-04.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-21 | **Build an Event-Driven Data Agent with BigQuery and ADK** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-21 | **Build Customer 360 recommendation applications with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Learn Android XR Fundamentals: Part 1 - Spaces and Spatial Panels** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **🪐 Build & Ship an AI App with Antigravity** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Building a Governed Iceberg Lakehouse with Google Cloud Lakehouse and Knowledge Catalog** | Verified Google Developer granular learning activity module milestone. |
@@ -72,9 +74,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-20 | **Automatically Deploy Generative AI Go Web Application from Version Control to Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Before you begin** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Agentverse - The Summoner's Concord - Architecting Multi-Agent Systems** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **BigQuery Performance Test Codelab** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **AdMob+Firebase 101 Unity: Setup & Analytics Basics** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-02.md](google-developer-activities-2026-05-part-02.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-05-part-04.md](google-developer-activities-2026-05-part-04.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-02.md](./google-developer-2026-05-part-02.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-04.md](./google-developer-2026-05-part-04.md)
 

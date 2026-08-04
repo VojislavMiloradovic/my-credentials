@@ -1,17 +1,22 @@
 ---
-archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 9 of 23
-date_range: 2026-05-26 to 2026-05-31
+archive_platform: Google Developer Profile
+chunk_part: 9 of 25
+date_range: 2026-05-27 to 2026-05-31
 total_entries: 65
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-05-part-09.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-09.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 09
+# Google Developer Profile — Part 09
 
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-08.md](google-developer-activities-2026-05-part-08.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-06-part-10.md](google-developer-activities-2026-06-part-10.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-08.md](./google-developer-2026-05-part-08.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-10.md](./google-developer-2026-06-part-10.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-31 | **Getting started with Google AI Studio, Gemini API and NodeJS** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Message your users with FCM and FIAM on Android** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Prompting with images and text using the Gemini API for accessibility** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Deploy Faster Generative AI models with NVIDIA NIM on GKE** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-31 | **Build your first web app with Firebase quiz** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Can you create AI evaluations?** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-30 | **Vertex AI Workbench: Train a TensorFlow model with data from BigQuery** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-30 | **Make the Most of Experimentation: Manage Machine Learning Experiments with Vertex AI** | Verified Google Developer granular learning activity module milestone. |
@@ -72,12 +77,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-27 | **Learn how to invoke authenticated Cloud Functions** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **Use Pulumi on Google Cloud with YAML** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **Create a video scene-by-scene image description service using Cloud Run, Video Intelligence API, and Vertex AI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Looker PSC Northbound Regional Internal L7 ALB** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Building a fullstack movie recommendation system** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Build a Google Workspace Add-on with Node.js and Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Developing with Cloud Workstations and Cloud Code** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-26 | **Theming in Compose with Material 3** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-08.md](google-developer-activities-2026-05-part-08.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-06-part-10.md](google-developer-activities-2026-06-part-10.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-08.md](./google-developer-2026-05-part-08.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-10.md](./google-developer-2026-06-part-10.md)
 

@@ -1,17 +1,18 @@
 ---
-archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 1 of 23
+archive_platform: Google Developer Profile
+chunk_part: 1 of 25
 date_range: 2026-05-16 to 2026-05-20
-total_entries: 63
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-05-part-01.md
+total_entries: 64
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-01.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 01
+# Google Developer Profile — Part 01
 
-> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-05-part-02.md](google-developer-activities-2026-05-part-02.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-02.md](./google-developer-2026-05-part-02.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-20 | **Anthropic Claude Opus 4.6 and Gemini 3.1 on Vertex AI with python sdk via Private Service Connect endpoint** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Artifact Registry Deep Dive** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Automatically Deploy Generative AI Python Web Application from Version Control to Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Basic layouts in Compose** | Verified Google Developer granular learning activity module milestone. |
@@ -77,5 +78,5 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-16 | **ADK Crash Course - From Beginner To Expert** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-05-part-02.md](google-developer-activities-2026-05-part-02.md)
+> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-02.md](./google-developer-2026-05-part-02.md)
 

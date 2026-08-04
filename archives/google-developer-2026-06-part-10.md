@@ -1,17 +1,23 @@
 ---
-archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 10 of 23
+archive_platform: Google Developer Profile
+chunk_part: 10 of 25
 date_range: 2026-05-31 to 2026-06-03
-total_entries: 67
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-06-part-10.md
+total_entries: 68
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-10.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 10
+# Google Developer Profile — Part 10
 
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-09.md](google-developer-activities-2026-05-part-09.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-06-part-11.md](google-developer-activities-2026-06-part-11.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-09.md](./google-developer-2026-05-part-09.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-11.md](./google-developer-2026-06-part-11.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-03 | **Effectively engage users with Firebase quiz** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-03 | **Your first multicast push message using FCM topics** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-03 | **Add a map to your iOS app (Swift)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-03 | **Add a map to your iOS app (Objective-C)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-03 | **Quiz: Get started with Google Maps Platform for iOS** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-03 | **Firebase Security Pathway Quiz** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Performance Monitoring of Feature Rollouts** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Implement A/B tests for your Unity game with Firebase Remote Config** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Extend dynamic shortcuts to Google Assistant with App Actions** | Verified Google Developer granular learning activity module milestone. |
@@ -74,12 +80,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-31 | **Get to know Firebase for web** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Make your Android app accessible** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Leveraging the Gemini Pro Vision model for image understanding, multimodal prompts and accessibility** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-31 | **Getting started with Google AI Studio, Gemini API and NodeJS** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-31 | **Message your users with FCM and FIAM on Android** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-31 | **Prompting with images and text using the Gemini API for accessibility** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-31 | **Deploy Faster Generative AI models with NVIDIA NIM on GKE** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-31 | **Build your first web app with Firebase quiz** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-09.md](google-developer-activities-2026-05-part-09.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-06-part-11.md](google-developer-activities-2026-06-part-11.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-09.md](./google-developer-2026-05-part-09.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-11.md](./google-developer-2026-06-part-11.md)
 

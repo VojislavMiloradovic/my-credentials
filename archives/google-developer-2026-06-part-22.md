@@ -1,45 +1,17 @@
 ---
-archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 20 of 23
-date_range: 2026-06-22 to 2026-06-25
-total_entries: 66
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-06-part-20.md
+archive_platform: Google Developer Profile
+chunk_part: 22 of 25
+date_range: 2026-06-20 to 2026-06-24
+total_entries: 64
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-22.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 20
+# Google Developer Profile — Part 22
 
-> **Navigation:** Prev: [google-developer-activities-2026-06-part-19.md](google-developer-activities-2026-06-part-19.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-06-part-21.md](google-developer-activities-2026-06-part-21.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-06-part-21.md](./google-developer-2026-06-part-21.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-23.md](./google-developer-2026-06-part-23.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-25 | **Bring Google's Places data into your Android app** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Accelerated Machine Learning with Google Cloud and NVIDIA** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Learn Privacy** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Speed Up Data Analytics on GPUs** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Use Spring Boot to quickly create apps for Google Cloud** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Scene Semantics and Geospatial Depth** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Smart home Actions for the Google Assistant quiz** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Getting started with Google AI Studio and the Gemini API using Node.js** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Learn JavaScript** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Learn Accessibility** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Modern Web Guidance 101** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Build your first web app with Firebase** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Get started with the Google Pay API for Web** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Learn CSS** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Learn Responsive Design** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Display nearby places in AR on Android (Kotlin)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-25 | **Command and control: Orchestrate app development with Gemini and MCP** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **API Key Management and Security** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Use Looker's Self Service BI features** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Analytics with the Data Agent Kit and Antigravity IDE** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Visualize your AI assistant memory with Gemini and Cloud SQL pgvector** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Securing a Multi-Agent System** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Serving Gemma 3 with vLLM on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Introduction to the Conversational Analytics in BigQuery** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Mastering KCC Operations with Google Antigravity** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Scale Agents with CrewAI, LangGraph, A2A, and ADK** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Real-time Retail Recommendations with Spanner AI and Graph** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Intent to Infrastructure: Agent-Driven Migration to GKE** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-24 | **High-Performance Distributed RL on GKE Standard: The Complete Guide** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-24 | **Showcase of building a secure agent: protect access and data** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-22 | **Cloud Function to Automate CSV data import into Google Sheets** | Verified Google Developer granular learning activity module milestone. |
@@ -78,7 +50,33 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-22 | **Connect Looker Cloud over hybrid networking** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-22 | **Creating IPv6-only VM instances and enabling NAT64/DNS64** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-22 | **Building AI Agents with Vertex AI Agent Builder** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-22 | **Deploy ASP.NET app to Windows Server on Compute Engine** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-22 | **Deploy Windows Server with ASP.NET Framework to Compute Engine** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-22 | **Cloud Firestore Web Codelab** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-22 | **codelabs.developers.google.com/alloydb-omni-vm-ha-deployment** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-22 | **Connect AlloyDB to Oracle through Google VPN** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-22 | **Control a PLAYBULB candle with Web Bluetooth** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build Event-Driven AI Agents with Eventarc, Cloud Run and ADK** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Building a Kotlin extensions library** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build Powerful, Stateful, E2E AI Agent Apps in Java with ADK, AlloyDB & Gemini!!** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Way Back Home - Level 1: Pinpoint Location** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build a Match 3 Arcade Game With Gemini CLI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build a no-code universal employee helpdesk app with Vertex AI Search** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Building a Google-quality Search System with Vertex AI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Trace AI Agent Decisions with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build with Firebase Data Connect (iOS / Swift)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Building Personalized Agents with ADK, MCP, and Memory Bank** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build a chat app with the Conversational Analytics API for Looker and BigQuery** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build a Patent Search App with AlloyDB, Vector Search & Vertex AI!** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build a complete integration with Health Connect** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Building Persistent AI Agents with ADK and CloudSQL** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build QA Test Planner Agent using ADK, MCP, and Gemini 2.5 Flash with Thinking Mode** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build a handwritten digit classifier app with TensorFlow Lite** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build, train, and deploy an XGBoost model on Cloud AI Platform** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build a handwritten digit classifier Android app with MediaPipe Tasks** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build a Patent Search App with Spanner, Vector Search & Gemini 1.0 Pro!** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Buffer HTTP requests with Cloud Tasks** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-06-part-19.md](google-developer-activities-2026-06-part-19.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-06-part-21.md](google-developer-activities-2026-06-part-21.md)
+> **Navigation:** Prev: [google-developer-2026-06-part-21.md](./google-developer-2026-06-part-21.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-23.md](./google-developer-2026-06-part-23.md)
 

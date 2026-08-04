@@ -1,46 +1,17 @@
 ---
-archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 13 of 23
-date_range: 2026-06-06 to 2026-06-07
-total_entries: 70
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-06-part-13.md
+archive_platform: Google Developer Profile
+chunk_part: 15 of 25
+date_range: 2026-06-06 to 2026-06-06
+total_entries: 74
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-15.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 13
+# Google Developer Profile — Part 15
 
-> **Navigation:** Prev: [google-developer-activities-2026-06-part-12.md](google-developer-activities-2026-06-part-12.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-06-part-14.md](google-developer-activities-2026-06-part-14.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-06-part-14.md](./google-developer-2026-06-part-14.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-16.md](./google-developer-2026-06-part-16.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-07 | **External HTTPs LB with Advanced Traffic Management (Envoy) Codelab** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Get predictions from a pre-trained TensorFlow image model on Vertex AI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Securing Software Supply** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Codelab: Gemini to accelerate test driven development** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Build convolutions and perform pooling** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Private Service Connect 64** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Securely Deploying to Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Building a financial ML model with the What-If Tool and Vertex AI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Practical observability techniques for Generative AI application in Javascript** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Django CMS on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Build a computer vision model with TensorFlow** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **How to Schedule a Cloud Run Job within a VPC Service Controls perimeter** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Intro to Vertex Pipelines** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Vertex AI: Building a fraud detection model with AutoML** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **(Deprecated) Converting to Kotlin** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Build an AI-powered outfit recommendation app with AlloyDB and serverless runtimes** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Integrate the Vision API with Dialogflow** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Using Vertex ML Metadata with Pipelines** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **TCP Proxy Codelab - Rate limiting and IP Deny list with TCP Proxy Load balancer** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **(Deprecated) Use Kotlin Coroutines in your Android App** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **(Deprecated) Android Paging Advanced codelab** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Vertex AI: Co-host models on the same VM for predictions** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Vertex AI Vision Traffic Monitoring App** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **End-to-End Migration: CloudSQL Database to Cloud Spanner (GoogleSQL)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Get started with scroll-driven animations in CSS** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Deploy a full stack Angular application to Cloud Run with Firestore using the Node.js Admin SDK** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Android 11—Week 9—TV quiz** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Lesson 10: Advanced RecyclerView use cases** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Create your first Android app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **TensorFlow.js: Build a comment spam detection system** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Create an Art Space app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Navigate between screens with Compose** | Verified Google Developer granular learning activity module milestone. |
@@ -82,7 +53,40 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-06 | **Lesson 7: Activity and fragment lifecycles** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Functions** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Build a simple app with text composables** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **How to connect your Android device** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **(Deprecated) Build an app that runs on a work profile** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Calculate a custom tip** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Persist data with Room** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Create and use functions in Kotlin** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Introduction to Coroutines in Kotlin Playground** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Change the app icon** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Practice: Build Amphibians app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Build a scrollable list** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Project: Create a My City app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Practice: Add a ViewModel to Dessert Clicker** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Android 11—Week 11—Modern UI quiz** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Download and install Android Studio** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Go further with audio classification** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **ViewModel and State in Compose** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Practice Problems: Kotlin Basics** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **TensorFlow.js: Retrain a comment spam detection model to handle edge cases** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Intro to Programming** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Use function types and lambda expressions in Kotlin** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Generics, objects, and extensions** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Lesson 3: Classes and Objects** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Use the debugger in Android Studio** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Using Classes and Objects in Kotlin** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Your first program in Kotlin** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Stages of the Activity lifecycle** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Practice: Water Me! app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Practice: Build Superheroes app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Practice: Build Bus Schedule app** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Read and update data with Room** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Adaptive layouts** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Set up Android Studio** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Practical performance problem solving in Jetpack Compose** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Pairs/triples, collections, constants, and writing extension functions** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-06-part-12.md](google-developer-activities-2026-06-part-12.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-06-part-14.md](google-developer-activities-2026-06-part-14.md)
+> **Navigation:** Prev: [google-developer-2026-06-part-14.md](./google-developer-2026-06-part-14.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-16.md](./google-developer-2026-06-part-16.md)
 

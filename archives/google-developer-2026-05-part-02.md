@@ -1,17 +1,19 @@
 ---
-archive_platform: Google Developer Profile (Detailed Learning Activities & Codelabs)
-chunk_part: 2 of 23
+archive_platform: Google Developer Profile
+chunk_part: 2 of 25
 date_range: 2026-05-20 to 2026-05-20
-total_entries: 65
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-05-part-02.md
+total_entries: 66
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-02.md
 ---
 
-# Google Developer Profile: Detailed Learning Activities & Codelabs — Part 02
+# Google Developer Profile — Part 02
 
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-01.md](google-developer-activities-2026-05-part-01.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-05-part-03.md](google-developer-activities-2026-05-part-03.md) | [Complete Monolith Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-01.md](./google-developer-2026-05-part-01.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-03.md](./google-developer-2026-05-part-03.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-20 | **BigQuery Performance Test Codelab** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-20 | **AdMob+Firebase 101 Unity: Setup & Analytics Basics** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Alerts: Uptime Checks to Pub/Sub Topics** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Advanced Load Balancing Optimizations Codelab** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Adding AdMob ads to a Flutter app** | Verified Google Developer granular learning activity module milestone. |
@@ -76,8 +78,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-20 | **Agentspace Custom Domain, WIF Support** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **BigQuery UI Navigation and Data Exploration Codelab** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Advanced Android 09.1: Google Maps** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **Anthropic Claude Opus 4.6 and Gemini 3.1 on Vertex AI with python sdk via Private Service Connect endpoint** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-activities-2026-05-part-01.md](google-developer-activities-2026-05-part-01.md) | [Index](./google-developer-index.md) | Next: [google-developer-activities-2026-05-part-03.md](google-developer-activities-2026-05-part-03.md)
+> **Navigation:** Prev: [google-developer-2026-05-part-01.md](./google-developer-2026-05-part-01.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-03.md](./google-developer-2026-05-part-03.md)
 

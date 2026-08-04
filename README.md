@@ -177,16 +177,19 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 
 <!-- GOOGLE_DEVELOPER_START -->
 ### Google Developer Profile Summary
-**Public Profile:** [Verify Developer Profile](https://g.dev/vojislavmiloradovic)  
+
+**Public Profile:** [Verify Developer Profile](https://g.dev/vojislavmiloradovic)
 
 #### Platform Progress
+
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 171 |
 | **Total Codelabs & Learning Activities** | 1,446 |
 
 #### Latest Achievements
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), [Latest Badges](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-06-part-03.md), [Latest Codelabs](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-23.md), or [Monolithic File](./archives/google-developer-complete.md).
+
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)) or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
@@ -200,7 +203,6 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 | *2026-08-01* | **Agent-to-Agent Engineering: Build, Deploy, and Embed ADK Agents with Antigravity CLI and agents-cli** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-29* | **Optimizing Unity Games for Large Screens and Foldables** | Verified Google Developer granular learning activity module milestone. |
 | *2026-07-29* | **OSS Kubernetes on GCE with TPUs, DRA for TPU, DRANET (OSS) and Gemma 4** | Verified Google Developer granular learning activity module milestone. |
-
 <!-- GOOGLE_DEVELOPER_END -->
 
 
