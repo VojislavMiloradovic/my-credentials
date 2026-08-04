@@ -12,7 +12,7 @@ import logging
 import os
 import sys
 from datetime import datetime, timezone
-from typing import Any, List, Optional, Set
+from typing import Any
 
 import requests
 from pydantic import BaseModel, Field, ValidationError, field_validator
@@ -55,7 +55,7 @@ HEADERS = {
 # PYDANTIC SCHEMAS & VALIDATION PIPELINE
 # ==============================================================================
 
-def normalize_date_string(raw_date: Any) -> Optional[str]:
+def normalize_date_string(raw_date: Any) -> str | None:
     """Coerces timestamps, ISO strings, and standard text dates to YYYY-MM-DD."""
     if raw_date is None or raw_date in ("", "N/A", "None", "null"):
         return None
@@ -108,25 +108,25 @@ class BadgeItemModel(BaseModel):
     name: str = Field(..., min_length=1, description="Standard title duplicate for compatibility")
     issuer: str = Field(..., min_length=1, description="Issuing organization or authority")
     issuer_name: str = Field(..., min_length=1, description="Issuer alias for schema compatibility")
-    issued_at: Optional[str] = Field(None, description="ISO YYYY-MM-DD earned date")
-    issued_at_date: Optional[str] = Field(None, description="Alias for issued date")
-    date: Optional[str] = Field(None, description="Alias for issued date")
-    expires_at: Optional[str] = Field(None, description="ISO YYYY-MM-DD expiration date or None")
-    image_url: Optional[str] = Field(None, description="Hosted badge image asset URL")
-    verify_url: Optional[str] = Field(None, description="Public verification link")
-    url: Optional[str] = Field(None, description="Alias for verify_url")
+    issued_at: str | None = Field(None, description="ISO YYYY-MM-DD earned date")
+    issued_at_date: str | None = Field(None, description="Alias for issued date")
+    date: str | None = Field(None, description="Alias for issued date")
+    expires_at: str | None = Field(None, description="ISO YYYY-MM-DD expiration date or None")
+    image_url: str | None = Field(None, description="Hosted badge image asset URL")
+    verify_url: str | None = Field(None, description="Public verification link")
+    url: str | None = Field(None, description="Alias for verify_url")
     type: str = Field("Credly Verified", description="Credly Verified or External/Imported")
     verification_type: str = Field("Credly Verified", description="Alias for verification category")
-    skills: List[str] = Field(default_factory=list, description="Array of extracted skill strings")
+    skills: list[str] = Field(default_factory=list, description="Array of extracted skill strings")
 
     @field_validator("issued_at", "issued_at_date", "date", "expires_at", mode="before")
     @classmethod
-    def validate_and_coerce_dates(cls, val: Any) -> Optional[str]:
+    def validate_and_coerce_dates(cls, val: Any) -> str | None:
         return normalize_date_string(val)
 
     @field_validator("skills", mode="before")
     @classmethod
-    def sanitize_skills_list(cls, val: Any) -> List[str]:
+    def sanitize_skills_list(cls, val: Any) -> list[str]:
         if isinstance(val, list):
             clean = []
             for item in val:
@@ -149,7 +149,7 @@ class CredlyArchivePayloadModel(BaseModel):
     total_count: int = Field(ge=0)
     native_count: int = Field(ge=0)
     external_count: int = Field(ge=0)
-    badges: List[BadgeItemModel]
+    badges: list[BadgeItemModel]
 
 
 # ==============================================================================
@@ -158,10 +158,9 @@ class CredlyArchivePayloadModel(BaseModel):
 
 class PipelineDataLossAnomaly(Exception):
     """Raised when incoming dataset drops drastically below previous archive baseline."""
-    pass
 
 
-def execute_data_loss_guard(new_badges: List[dict], output_file: str) -> None:
+def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
     """
     Loss Guard: Compares new incoming parsed badge count against existing local JSON.
     Prevents corrupt API payloads or truncated server responses from silently clearing archive data.
@@ -274,7 +273,7 @@ def extract_issuer(item: dict) -> str:
     return "External Issuer"
 
 
-def extract_verify_url(item: dict) -> Optional[str]:
+def extract_verify_url(item: dict) -> str | None:
     candidates = [
         item.get("verify_url"),
         item.get("public_url"),
@@ -294,7 +293,7 @@ def extract_verify_url(item: dict) -> Optional[str]:
     return None
 
 
-def fetch_native_badges(username: str) -> List[dict]:
+def fetch_native_badges(username: str) -> list[dict]:
     badges = []
     page = 1
     logger.info(f"🔄 Starting Credly Native API fetch for user '{username}'...")
@@ -342,7 +341,6 @@ def fetch_native_badges(username: str) -> List[dict]:
                     "skills": skills_raw,
                 }
 
-                # Validate individually via Pydantic model
                 try:
                     validated_model = BadgeItemModel(**raw_entry)
                     badges.append(validated_model.model_dump())
@@ -362,7 +360,7 @@ def fetch_native_badges(username: str) -> List[dict]:
     return badges
 
 
-def fetch_external_badges(user_id: str) -> List[dict]:
+def fetch_external_badges(user_id: str) -> list[dict]:
     url = f"https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public"
     logger.info("🔄 Fetching External Open Badges API endpoint...")
 
@@ -424,7 +422,7 @@ def fetch_external_badges(user_id: str) -> List[dict]:
 # ARCHIVE BUILDER & README GENERATION
 # ==============================================================================
 
-def build_archives_and_readme(badges: List[dict]) -> None:
+def build_archives_and_readme(badges: list[dict]) -> None:
     """Invokes archiver to generate markdown chunk files and update README.md."""
     if not generate_platform_archive:
         logger.error("❌ Archiver module helper not available. Skipping markdown generation.")
@@ -436,7 +434,7 @@ def build_archives_and_readme(badges: List[dict]) -> None:
         reverse=True,
     )
 
-    all_skills: Set[str] = set()
+    all_skills: set[str] = set()
     formatted_rows = []
 
     for b in sorted_badges:
