@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 8 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 44
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-08.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-08.md
 ---
 
 # LinkedIn Certifications — Part 08
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-07.md](linkedin-certifications-2026-07-part-07.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-09.md](linkedin-certifications-2026-07-part-09.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-07.md](linkedin-certifications-2026-08-part-07.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-09.md](linkedin-certifications-2026-08-part-09.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -58,4 +58,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Adonna Khare Large Scale Art** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/65059155a1eac2538a0e3756c614aeab77b389276577de9f2151696e33a53694) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-07.md](linkedin-certifications-2026-07-part-07.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-09.md](linkedin-certifications-2026-07-part-09.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-07.md](linkedin-certifications-2026-08-part-07.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-09.md](linkedin-certifications-2026-08-part-09.md)

@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 29 of 29
 date_range: 2025-10 to 2025-12
 total_entries: 32
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-29.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-29.md
 ---
 
 # LinkedIn Certifications — Part 29
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-28.md](linkedin-certifications-2026-07-part-28.md) | [Index](./linkedin-certifications-index.md) | Next: None | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-28.md](linkedin-certifications-2026-08-part-28.md) | [Index](./linkedin-certifications-index.md) | Next: None | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -46,4 +46,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-10 | **Digital Transformation with Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/18108130?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-28.md](linkedin-certifications-2026-07-part-28.md) | [Index](./linkedin-certifications-index.md) | Next: None
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-28.md](linkedin-certifications-2026-08-part-28.md) | [Index](./linkedin-certifications-index.md) | Next: None

@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 23 of 29
 date_range: 2026-05 to 2026-05
 total_entries: 53
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-23.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-23.md
 ---
 
 # LinkedIn Certifications — Part 23
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-22.md](linkedin-certifications-2026-07-part-22.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-24.md](linkedin-certifications-2026-07-part-24.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-22.md](linkedin-certifications-2026-08-part-22.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-24.md](linkedin-certifications-2026-08-part-24.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -67,4 +67,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05 | **Getting Started with Cybersecurity** | IBM | [Verify Record](https://www.credly.com/badges/7228bd8f-e9fb-4055-b502-62797ca74e23/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-22.md](linkedin-certifications-2026-07-part-22.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-24.md](linkedin-certifications-2026-07-part-24.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-22.md](linkedin-certifications-2026-08-part-22.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-24.md](linkedin-certifications-2026-08-part-24.md)

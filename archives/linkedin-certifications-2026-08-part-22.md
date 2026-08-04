@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 22 of 29
 date_range: 2026-05 to 2026-05
 total_entries: 52
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-22.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-22.md
 ---
 
 # LinkedIn Certifications — Part 22
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-21.md](linkedin-certifications-2026-07-part-21.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-23.md](linkedin-certifications-2026-07-part-23.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-21.md](linkedin-certifications-2026-08-part-21.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-23.md](linkedin-certifications-2026-08-part-23.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -66,4 +66,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05 | **Apply AI: Update Your Resume** | Cisco | [Verify Record](https://www.credly.com/badges/431a017f-982f-4aa5-a394-03fff17bed23/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-21.md](linkedin-certifications-2026-07-part-21.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-23.md](linkedin-certifications-2026-07-part-23.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-21.md](linkedin-certifications-2026-08-part-21.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-23.md](linkedin-certifications-2026-08-part-23.md)

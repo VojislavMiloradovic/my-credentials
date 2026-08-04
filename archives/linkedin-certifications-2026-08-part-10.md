@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 10 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 44
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-10.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-10.md
 ---
 
 # LinkedIn Certifications — Part 10
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-09.md](linkedin-certifications-2026-07-part-09.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-11.md](linkedin-certifications-2026-07-part-11.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-09.md](linkedin-certifications-2026-08-part-09.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-11.md](linkedin-certifications-2026-08-part-11.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -58,4 +58,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Flight Club: Drones and the Dawn of Personal Aerial Imaging** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c2de0e6266d831086844528aff58686d69b64fb56a21ba9ce7d8d10b4281c73c) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-09.md](linkedin-certifications-2026-07-part-09.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-11.md](linkedin-certifications-2026-07-part-11.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-09.md](linkedin-certifications-2026-08-part-09.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-11.md](linkedin-certifications-2026-08-part-11.md)

@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 14 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 43
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-14.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-14.md
 ---
 
 # LinkedIn Certifications — Part 14
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-13.md](linkedin-certifications-2026-07-part-13.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-15.md](linkedin-certifications-2026-07-part-15.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-13.md](linkedin-certifications-2026-08-part-13.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-15.md](linkedin-certifications-2026-08-part-15.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -57,4 +57,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Vibe Coding and Rapid Prototyping with AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4c1e2d2552e0bdaf1e7bda59ed0dd3e29c0187531f3ae5de453856476c649b4c) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-13.md](linkedin-certifications-2026-07-part-13.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-15.md](linkedin-certifications-2026-07-part-15.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-13.md](linkedin-certifications-2026-08-part-13.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-15.md](linkedin-certifications-2026-08-part-15.md)

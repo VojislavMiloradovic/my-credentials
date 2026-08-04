@@ -1,6 +1,6 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-08-04 13:16 UTC
+> **Last Generated:** 2026-08-04 13:17 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
@@ -48,7 +48,7 @@ Optimized for lower-capacity context tools or fast targeted queries.
 - [Google Cloud Skills Latest Slice](./archives/google-cloud-skills-2026-08-part-01.md): Most recent achievements for Google Cloud Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-08-part-01.md
 - [Google Developer Activities Latest Slice](./archives/google-developer-activities-2026-08-part-01.md): Most recent achievements for Google Developer Activities. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-activities-2026-08-part-01.md
 - [Google Developer Badges Latest Slice](./archives/google-developer-badges-2026-08-part-01.md): Most recent achievements for Google Developer Badges. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-badges-2026-08-part-01.md
-- [Linkedin Certifications Latest Slice](./archives/linkedin-certifications-2026-07-part-01.md): Most recent achievements for Linkedin Certifications. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-01.md
+- [Linkedin Certifications Latest Slice](./archives/linkedin-certifications-2026-08-part-01.md): Most recent achievements for Linkedin Certifications. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-01.md
 - [Microsoft Learn Latest Slice](./archives/microsoft-learn-2025-11-part-01.md): Most recent achievements for Microsoft Learn. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-11-part-01.md
 
 ## Structured Machine-Readable Data

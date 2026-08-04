@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 1 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 49
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-01.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-01.md
 ---
 
 # LinkedIn Certifications — Part 01
 
-> **Navigation:** Prev: None | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-02.md](linkedin-certifications-2026-07-part-02.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: None | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-02.md](linkedin-certifications-2026-08-part-02.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -63,4 +63,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Ryan Holmes on Social Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e6e647ae9bc82a07bc3b120c592af1ea458467921ca9b3bb56b0b50ade2c3ca7) |
 
 ---
-> **Navigation:** Prev: None | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-02.md](linkedin-certifications-2026-07-part-02.md)
+> **Navigation:** Prev: None | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-02.md](linkedin-certifications-2026-08-part-02.md)

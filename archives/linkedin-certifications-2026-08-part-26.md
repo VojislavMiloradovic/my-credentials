@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 26 of 29
 date_range: 2025-12 to 2025-12
 total_entries: 38
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-26.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-26.md
 ---
 
 # LinkedIn Certifications — Part 26
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-25.md](linkedin-certifications-2026-07-part-25.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-27.md](linkedin-certifications-2026-07-part-27.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-25.md](linkedin-certifications-2026-08-part-25.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-27.md](linkedin-certifications-2026-08-part-27.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -52,4 +52,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-12 | **Conversation Design Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20835698?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-25.md](linkedin-certifications-2026-07-part-25.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-27.md](linkedin-certifications-2026-07-part-27.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-25.md](linkedin-certifications-2026-08-part-25.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-27.md](linkedin-certifications-2026-08-part-27.md)

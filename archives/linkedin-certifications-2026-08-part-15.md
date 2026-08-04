@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 15 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 47
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-15.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-15.md
 ---
 
 # LinkedIn Certifications — Part 15
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-14.md](linkedin-certifications-2026-07-part-14.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-16.md](linkedin-certifications-2026-07-part-16.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-14.md](linkedin-certifications-2026-08-part-14.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-16.md](linkedin-certifications-2026-08-part-16.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -61,4 +61,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **AI-Driven Project Management: Techniques and Insights with Ricardo Vargas** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a99cf8a4bfb015ab7c897eb1038f728d23f3a49ce4126039bc656dada7fedbda) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-14.md](linkedin-certifications-2026-07-part-14.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-16.md](linkedin-certifications-2026-07-part-16.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-14.md](linkedin-certifications-2026-08-part-14.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-16.md](linkedin-certifications-2026-08-part-16.md)

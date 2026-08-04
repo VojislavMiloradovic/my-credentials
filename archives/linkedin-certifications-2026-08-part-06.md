@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 6 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 44
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-06.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-06.md
 ---
 
 # LinkedIn Certifications — Part 06
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-05.md](linkedin-certifications-2026-07-part-05.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-07.md](linkedin-certifications-2026-07-part-07.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-05.md](linkedin-certifications-2026-08-part-05.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-07.md](linkedin-certifications-2026-08-part-07.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -58,4 +58,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Build Action Flows** | Celonis | [Verify Record](https://www.credly.com/badges/44ae4fe8-2731-49a9-9f56-d1570fe1929e/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-05.md](linkedin-certifications-2026-07-part-05.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-07.md](linkedin-certifications-2026-07-part-07.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-05.md](linkedin-certifications-2026-08-part-05.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-07.md](linkedin-certifications-2026-08-part-07.md)

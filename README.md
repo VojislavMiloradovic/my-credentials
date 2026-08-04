@@ -149,7 +149,7 @@ Showing latest 10 of 494 credentials. View the full dataset via the [Platform Ar
 
 
 #### Recent Certifications
-Showing latest 10 items. View the full dataset via the [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-01.md), or the [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via the [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-01.md), or the [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date | Certification Title | Issuing Authority | Credentials Reference |
 | :---: | :--- | :--- | :--- |

@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 20 of 29
 date_range: 2026-05 to 2026-05
 total_entries: 53
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-20.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-20.md
 ---
 
 # LinkedIn Certifications — Part 20
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-19.md](linkedin-certifications-2026-07-part-19.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-21.md](linkedin-certifications-2026-07-part-21.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-19.md](linkedin-certifications-2026-08-part-19.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-21.md](linkedin-certifications-2026-08-part-21.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -67,4 +67,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05 | **Dremio Verified AI Architect** | Dremio | [Verify Record](https://www.credly.com/badges/21f0649c-434c-42f7-a233-d7b1a86b18bf/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-19.md](linkedin-certifications-2026-07-part-19.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-21.md](linkedin-certifications-2026-07-part-21.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-19.md](linkedin-certifications-2026-08-part-19.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-21.md](linkedin-certifications-2026-08-part-21.md)

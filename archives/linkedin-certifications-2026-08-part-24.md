@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 24 of 29
 date_range: 2026-03 to 2026-05
 total_entries: 40
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-24.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-24.md
 ---
 
 # LinkedIn Certifications — Part 24
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-23.md](linkedin-certifications-2026-07-part-23.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-25.md](linkedin-certifications-2026-07-part-25.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-23.md](linkedin-certifications-2026-08-part-23.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-25.md](linkedin-certifications-2026-08-part-25.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -54,4 +54,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-03 | **Introduction to Cloud Next Generation Firewall** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691267?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-23.md](linkedin-certifications-2026-07-part-23.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-25.md](linkedin-certifications-2026-07-part-25.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-23.md](linkedin-certifications-2026-08-part-23.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-25.md](linkedin-certifications-2026-08-part-25.md)

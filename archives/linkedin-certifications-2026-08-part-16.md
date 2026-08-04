@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 16 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 49
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-16.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-16.md
 ---
 
 # LinkedIn Certifications — Part 16
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-15.md](linkedin-certifications-2026-07-part-15.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-17.md](linkedin-certifications-2026-07-part-17.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-15.md](linkedin-certifications-2026-08-part-15.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-17.md](linkedin-certifications-2026-08-part-17.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -63,4 +63,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **AWS Knowledge: Networking Core - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/80648322-ee54-4e43-9d4b-f311dcc569cd/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-15.md](linkedin-certifications-2026-07-part-15.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-17.md](linkedin-certifications-2026-07-part-17.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-15.md](linkedin-certifications-2026-08-part-15.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-17.md](linkedin-certifications-2026-08-part-17.md)

@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 2 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 48
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-02.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-02.md
 ---
 
 # LinkedIn Certifications — Part 02
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-01.md](linkedin-certifications-2026-07-part-01.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-03.md](linkedin-certifications-2026-07-part-03.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-01.md](linkedin-certifications-2026-08-part-01.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-03.md](linkedin-certifications-2026-08-part-03.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -62,4 +62,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Developing Containerized Applications on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25498091?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-01.md](linkedin-certifications-2026-07-part-01.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-03.md](linkedin-certifications-2026-07-part-03.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-01.md](linkedin-certifications-2026-08-part-01.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-03.md](linkedin-certifications-2026-08-part-03.md)

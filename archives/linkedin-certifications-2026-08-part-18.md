@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 18 of 29
 date_range: 2026-05 to 2026-05
 total_entries: 37
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-18.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-18.md
 ---
 
 # LinkedIn Certifications — Part 18
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-17.md](linkedin-certifications-2026-07-part-17.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-19.md](linkedin-certifications-2026-07-part-19.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-17.md](linkedin-certifications-2026-08-part-17.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-19.md](linkedin-certifications-2026-08-part-19.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -51,4 +51,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05 | **Unleash Team Potential: Assess Learning Needs Using GenAI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23777050?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-17.md](linkedin-certifications-2026-07-part-17.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-19.md](linkedin-certifications-2026-07-part-19.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-17.md](linkedin-certifications-2026-08-part-17.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-19.md](linkedin-certifications-2026-08-part-19.md)

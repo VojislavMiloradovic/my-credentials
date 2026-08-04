@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 7 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 46
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-07.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-07.md
 ---
 
 # LinkedIn Certifications — Part 07
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-06.md](linkedin-certifications-2026-07-part-06.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-08.md](linkedin-certifications-2026-07-part-08.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-06.md](linkedin-certifications-2026-08-part-06.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-08.md](linkedin-certifications-2026-08-part-08.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -60,4 +60,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Nano Tips for Mastering Job Interviews with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7d630f52c382da239cfe05b56d77d0997984b433d6366038e91d42ec44ab6ecc) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-06.md](linkedin-certifications-2026-07-part-06.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-08.md](linkedin-certifications-2026-07-part-08.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-06.md](linkedin-certifications-2026-08-part-06.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-08.md](linkedin-certifications-2026-08-part-08.md)

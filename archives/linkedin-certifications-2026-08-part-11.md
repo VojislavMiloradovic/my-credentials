@@ -3,12 +3,12 @@ archive_platform: LinkedIn Certifications
 chunk_part: 11 of 29
 date_range: 2026-07 to 2026-07
 total_entries: 44
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-11.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-11.md
 ---
 
 # LinkedIn Certifications — Part 11
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-10.md](linkedin-certifications-2026-07-part-10.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-12.md](linkedin-certifications-2026-07-part-12.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-10.md](linkedin-certifications-2026-08-part-10.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-12.md](linkedin-certifications-2026-08-part-12.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -58,4 +58,4 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Brad Feld on Validating Your Startup Idea** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/36a1dcae8a495bb06b3c97868ed42a8f3822920319a50bcc5fcccab0c2c879be) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-10.md](linkedin-certifications-2026-07-part-10.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-12.md](linkedin-certifications-2026-07-part-12.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-10.md](linkedin-certifications-2026-08-part-10.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-12.md](linkedin-certifications-2026-08-part-12.md)
