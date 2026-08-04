@@ -1,24 +1,17 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 5 of 10
-date_range: 2026-06-04 to 2026-06-11
-total_entries: 53
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-05.md
+date_range: 2026-06-01 to 2026-06-09
+total_entries: 54
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-06-part-05.md
 ---
 
 # Credly Verified Credentials — Part 05
 
-> **Navigation:** Prev: [credly-badges-2026-08-part-04.md](credly-badges-2026-08-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-06.md](credly-badges-2026-08-part-06.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-06-part-04.md](./credly-badges-2026-06-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-06-part-06.md](./credly-badges-2026-06-part-06.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-06-11 | [LFD133: Introduction to WebAssembly](https://www.credly.com/badges/8473781e-b134-4cb1-850b-c72985f5822d/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-11 | [LFS144: Introduction to Istio](https://www.credly.com/badges/bb9b403f-05c9-47c8-8e63-e7a2c4eef99b/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-11 | [LFS146: Introduction to Cilium](https://www.credly.com/badges/d6703f61-4648-41b6-9949-01827cbd6c78/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-11 | [Tech Fundamentals](https://www.credly.com/badges/b006a1c2-03c5-426f-9b4a-b667e033047d/public_url) | Acronis | Credly Verified |
-| 2026-06-09 | [Agile Visualization](https://www.credly.com/badges/651c65f7-cb93-4591-874a-abb27ce07b19/public_url) | Lucid Software | Credly Verified |
-| 2026-06-09 | [AWS Knowledge: Object Storage - Training Badge](https://www.credly.com/badges/a8254829-cc58-43f8-aa2f-910c836df8a8/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-06-09 | [Cloud Tech Fundamentals](https://www.credly.com/badges/3c5fdd0e-66a5-436b-bdeb-4f3da1702089/public_url) | Acronis | Credly Verified |
 | 2026-06-09 | [LFC193: Introduction to Open Source Licensing Compliance Management](https://www.credly.com/badges/ee58bb5f-4568-48b1-a075-98982a829a7a/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-09 | [LFD103: A Beginner's Guide to Linux Kernel Development](https://www.credly.com/badges/014a781e-7a70-47a0-b79d-c6080bbef63d/public_url) | The Linux Foundation | Credly Verified |
 | 2026-06-09 | [LFD121: Developing Secure Software](https://www.credly.com/badges/21cf0189-83ae-4159-abd9-f2eecf3bd6a9/public_url) | The Linux Foundation | Credly Verified |
@@ -65,6 +58,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-04 | [AWS Knowledge: Compute - Training Badge](https://www.credly.com/badges/422b41e8-bf11-4ac3-b1fd-90dfd1838224/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-06-04 | [Build Scalable Authorization Models with Auth0 FGA](https://www.credly.com/badges/03f314ca-34b2-45d8-9b2a-d0a5a45db527/public_url) | Okta | Credly Verified |
 | 2026-06-04 | [PMI® Essentials: Seven AI Project Patterns](https://www.credly.com/badges/2f214aa1-1de2-4e25-ba59-61ba86729898/public_url) | Project Management Institute | Credly Verified |
+| 2026-06-04 | [Practical Application of Gen AI for Project Managers](https://www.credly.com/badges/d8cbec32-4350-4590-831f-34ad56889daf/public_url) | Project Management Institute | Credly Verified |
+| 2026-06-04 | [Talking to AI: Prompt Engineering for Project Managers](https://www.credly.com/badges/1b9b4a53-4ddc-4d6b-bd7c-c31df88dabc8/public_url) | Project Management Institute | Credly Verified |
+| 2026-06-02 | [Data Literacy in Practice](https://www.credly.com/badges/45b07a9e-9ca9-4189-a489-ebb58c023824/public_url) | SAS | Credly Verified |
+| 2026-06-02 | [Deploying SAS Grid Manager](https://www.credly.com/badges/a0ad62be-1ecc-43c0-92ca-35437a0dd09b/public_url) | SAS | Credly Verified |
+| 2026-06-02 | [Deploying SAS Viya from a Mirrored Registry](https://www.credly.com/badges/da51d4a3-2800-400d-a88d-d189bf53cc7e/public_url) | SAS | Credly Verified |
+| 2026-06-02 | [Manual SAS Viya Deployment](https://www.credly.com/badges/0a5e2982-bdb6-498f-8ec6-979b3c0db919/public_url) | SAS | Credly Verified |
+| 2026-06-02 | [Post-Deployment Steps for SAS Viya](https://www.credly.com/badges/bbb58e7e-7844-4128-99e3-1dbf678dcccc/public_url) | SAS | Credly Verified |
+| 2026-06-01 | [Product Analytics Certification](https://www.credly.com/badges/383af23e-ddf1-4106-9b5d-3fde0bacdf16/public_url) | Pendo | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-08-part-04.md](credly-badges-2026-08-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-06.md](credly-badges-2026-08-part-06.md)
+> **Navigation:** Prev: [credly-badges-2026-06-part-04.md](./credly-badges-2026-06-part-04.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-06-part-06.md](./credly-badges-2026-06-part-06.md)
+

@@ -1,23 +1,17 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 3 of 10
-date_range: 2026-06-24 to 2026-07-08
+chunk_part: 7 of 10
+date_range: 2026-06-23 to 2026-07-05
 total_entries: 56
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-03.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-07.md
 ---
 
-# Credly Verified Credentials — Part 03
+# Credly Verified Credentials — Part 07
 
-> **Navigation:** Prev: [credly-badges-2026-08-part-02.md](credly-badges-2026-08-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-04.md](credly-badges-2026-08-part-04.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-06-part-06.md](./credly-badges-2026-06-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-08.md](./credly-badges-2026-07-part-08.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-07-08 | [Navigate the Celonis Studio](https://www.credly.com/badges/f61a2862-8623-4198-86f9-a8817a002424/public_url) | Celonis | Credly Verified |
-| 2026-07-07 | [Optimize Costs for Google Kubernetes Engine Skill Badge](https://www.credly.com/badges/d67f5f9f-c9c7-4c0a-a241-1bcb73da59ab/public_url) | Google Cloud | Credly Verified |
-| 2026-07-05 | [Acronis Cyber Protect – Cybersecurity Basics](https://www.credly.com/badges/ea106045-3407-4d0e-abd4-9f25b1173d2a/public_url) | Acronis | Credly Verified |
-| 2026-07-05 | [Act on Recommended Tasks](https://www.credly.com/badges/fe48bdbf-8db5-4635-9660-aea9fd95e9a4/public_url) | Celonis | Credly Verified |
-| 2026-07-05 | [Administer Celonis: Security, Permissions](https://www.credly.com/badges/87dfbcbc-9fb1-47b0-9906-e2fde4bbabc1/public_url) | Celonis | Credly Verified |
-| 2026-07-05 | [Build Views](https://www.credly.com/badges/c9318370-5b67-4125-a58b-ea5fb876d8e5/public_url) | Celonis | Credly Verified |
 | 2026-07-05 | [Celonis Process Management Foundations](https://www.credly.com/badges/2686a69d-1900-4137-9403-bf40bf52cd27/public_url) | Celonis | Credly Verified |
 | 2026-07-05 | [Cloud Tech Associate Advanced Cyber Infrastructure](https://www.credly.com/badges/dcee78c6-6eb3-4a34-b1a0-f4d3a7be834d/public_url) | Acronis | Credly Verified |
 | 2026-07-05 | [Define Okta Administrators](https://www.credly.com/badges/9cc7a228-967b-4376-9c82-0a2fc8cee9f8/public_url) | Okta | Credly Verified |
@@ -68,6 +62,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-24 | [AWS Knowledge: Data Protection & Disaster Recovery - Training Badge](https://www.credly.com/badges/b0648167-39ae-4aca-b7dd-cc83c7ade7da/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-06-24 | [Chainguard Vulnslayer](https://www.credly.com/badges/c4a36cd5-da9e-4d5c-b281-7ad49c7e0a75/public_url) | Chainguard | Credly Verified |
 | 2026-06-24 | [Cloud Sales Fundamentals](https://www.credly.com/badges/f38a3c55-4e53-4eb5-8eb8-5a98e428fff7/public_url) | Acronis | Credly Verified |
+| 2026-06-24 | [LFC191: Open Source Licensing Basics for Software Developers](https://www.credly.com/badges/b3e5eab0-8654-434e-a86c-23f8481036ff/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-24 | [LFS114: Introduction to free5GC](https://www.credly.com/badges/b602ddb6-a1da-4519-aa64-2757df49381e/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-24 | [LFS140: Feature Flagging with OpenFeature](https://www.credly.com/badges/0ff9afda-beba-4e6e-a90f-dfba868a5631/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-24 | [LFS162: Introduction to DevOps and Site Reliability Engineering](https://www.credly.com/badges/f817c27f-3003-4fbe-a870-f0edbf0fb604/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-23 | [Chainguard AI/ML Guardian](https://www.credly.com/badges/d2cacfac-d281-4064-b53b-574c5e6aeb63/public_url) | Chainguard | Credly Verified |
+| 2026-06-23 | [Using the Google Cloud Speech API](https://www.credly.com/badges/858557c5-7a5b-430b-9068-9712aaa334a9/public_url) | Google Cloud | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-08-part-02.md](credly-badges-2026-08-part-02.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-04.md](credly-badges-2026-08-part-04.md)
+> **Navigation:** Prev: [credly-badges-2026-06-part-06.md](./credly-badges-2026-06-part-06.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-08.md](./credly-badges-2026-07-part-08.md)
+

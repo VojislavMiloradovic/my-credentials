@@ -1,23 +1,17 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 2 of 10
-date_range: 2026-07-08 to 2026-07-22
+chunk_part: 8 of 10
+date_range: 2026-07-05 to 2026-07-21
 total_entries: 56
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-02.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-07-part-08.md
 ---
 
-# Credly Verified Credentials — Part 02
+# Credly Verified Credentials — Part 08
 
-> **Navigation:** Prev: [credly-badges-2026-08-part-01.md](credly-badges-2026-08-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-03.md](credly-badges-2026-08-part-03.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-07-part-07.md](./credly-badges-2026-07-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-09.md](./credly-badges-2026-08-part-09.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-07-22 | [MongoDB Aggregation Fundamentals](https://www.credly.com/badges/9e2386d0-6962-447d-9cab-1efb8c45bb56/public_url) | MongoDB | Credly Verified |
-| 2026-07-22 | [MongoDB Query Optimization Techniques](https://www.credly.com/badges/adc22d84-9e52-40b6-8f56-09b163398c09/public_url) | MongoDB | Credly Verified |
-| 2026-07-22 | [MongoDB Schema Design Optimization Skill Badge](https://www.credly.com/badges/526ac37a-cf81-4031-82ad-ea72351d42b8/public_url) | MongoDB | Credly Verified |
-| 2026-07-22 | [MongoDB Schema Design Patterns and Anti-patterns Skill Badge](https://www.credly.com/badges/79327255-4ed3-4b0f-8b1e-9982a0ab1051/public_url) | MongoDB | Credly Verified |
-| 2026-07-21 | [Build Serverless Applications with Cloud Run Functions](https://www.credly.com/badges/f57106b4-cf01-4ad0-a05a-67f322da7411/public_url) | Google Cloud | Credly Verified |
-| 2026-07-21 | [Cloud Sales Pro - Archival Storage](https://www.credly.com/badges/f158f922-f150-4b0b-8690-da627a5aea91/public_url) | Acronis | Credly Verified |
 | 2026-07-21 | [Cloud Sales Pro - Backup](https://www.credly.com/badges/8792dd40-33ba-45a4-8a3b-68f57d1ec0d3/public_url) | Acronis | Credly Verified |
 | 2026-07-20 | [Acronis Cyber Protect – Sales Pro](https://www.credly.com/badges/a2071cbe-5c63-4b7e-9b49-306f58c74a30/public_url) | Acronis | Credly Verified |
 | 2026-07-20 | [Acronis Cyber Protect – Tech Pro](https://www.credly.com/badges/0d5fac3c-48d7-4e36-bb6c-bed01e8304d9/public_url) | Acronis | Credly Verified |
@@ -68,6 +62,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-08 | [data.world Foundations](https://www.credly.com/badges/3476c45c-4176-49ad-9051-123760a950ff/public_url) | data.world from ServiceNow | Credly Verified |
 | 2026-07-08 | [data.world Steward Certification](https://www.credly.com/badges/cf76fba1-5658-4a88-9c91-84a057fcdd7b/public_url) | data.world from ServiceNow | Credly Verified |
 | 2026-07-08 | [Foundations of Operationalizing MITRE ATT&CK v13](https://www.credly.com/badges/e9bc6726-6c10-4a41-a8dd-a10398dec90f/public_url) | AttackIQ | Credly Verified |
+| 2026-07-08 | [Navigate the Celonis Studio](https://www.credly.com/badges/f61a2862-8623-4198-86f9-a8817a002424/public_url) | Celonis | Credly Verified |
+| 2026-07-07 | [Optimize Costs for Google Kubernetes Engine Skill Badge](https://www.credly.com/badges/d67f5f9f-c9c7-4c0a-a241-1bcb73da59ab/public_url) | Google Cloud | Credly Verified |
+| 2026-07-05 | [Acronis Cyber Protect – Cybersecurity Basics](https://www.credly.com/badges/ea106045-3407-4d0e-abd4-9f25b1173d2a/public_url) | Acronis | Credly Verified |
+| 2026-07-05 | [Act on Recommended Tasks](https://www.credly.com/badges/fe48bdbf-8db5-4635-9660-aea9fd95e9a4/public_url) | Celonis | Credly Verified |
+| 2026-07-05 | [Administer Celonis: Security, Permissions](https://www.credly.com/badges/87dfbcbc-9fb1-47b0-9906-e2fde4bbabc1/public_url) | Celonis | Credly Verified |
+| 2026-07-05 | [Build Views](https://www.credly.com/badges/c9318370-5b67-4125-a58b-ea5fb876d8e5/public_url) | Celonis | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-08-part-01.md](credly-badges-2026-08-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-03.md](credly-badges-2026-08-part-03.md)
+> **Navigation:** Prev: [credly-badges-2026-07-part-07.md](./credly-badges-2026-07-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-09.md](./credly-badges-2026-08-part-09.md)
+

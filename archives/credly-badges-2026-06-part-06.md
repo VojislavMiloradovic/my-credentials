@@ -1,23 +1,17 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 4 of 10
-date_range: 2026-06-11 to 2026-06-24
-total_entries: 52
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-04.md
+chunk_part: 6 of 10
+date_range: 2026-06-09 to 2026-06-22
+total_entries: 53
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-06-part-06.md
 ---
 
-# Credly Verified Credentials — Part 04
+# Credly Verified Credentials — Part 06
 
-> **Navigation:** Prev: [credly-badges-2026-08-part-03.md](credly-badges-2026-08-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-05.md](credly-badges-2026-08-part-05.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-06-part-05.md](./credly-badges-2026-06-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](./credly-badges-2026-07-part-07.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-06-24 | [LFC191: Open Source Licensing Basics for Software Developers](https://www.credly.com/badges/b3e5eab0-8654-434e-a86c-23f8481036ff/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-24 | [LFS114: Introduction to free5GC](https://www.credly.com/badges/b602ddb6-a1da-4519-aa64-2757df49381e/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-24 | [LFS140: Feature Flagging with OpenFeature](https://www.credly.com/badges/0ff9afda-beba-4e6e-a90f-dfba868a5631/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-24 | [LFS162: Introduction to DevOps and Site Reliability Engineering](https://www.credly.com/badges/f817c27f-3003-4fbe-a870-f0edbf0fb604/public_url) | The Linux Foundation | Credly Verified |
-| 2026-06-23 | [Chainguard AI/ML Guardian](https://www.credly.com/badges/d2cacfac-d281-4064-b53b-574c5e6aeb63/public_url) | Chainguard | Credly Verified |
-| 2026-06-23 | [Using the Google Cloud Speech API](https://www.credly.com/badges/858557c5-7a5b-430b-9068-9712aaa334a9/public_url) | Google Cloud | Credly Verified |
 | 2026-06-22 | [AWS Knowledge: AI Driven Development Lifecycle Foundations – Training Badge](https://www.credly.com/badges/f1880883-9103-4d1b-8857-012568263bb3/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-06-22 | [Intro to Acronis Cyber Protect](https://www.credly.com/badges/95c18649-2dd7-44ca-bddc-7285bb443923/public_url) | Acronis | Credly Verified |
 | 2026-06-22 | [LFD123: Open Source RT-Thread RTOS on RISC-V](https://www.credly.com/badges/2482190c-9a4b-4272-a75a-9e758f185c23/public_url) | The Linux Foundation | Credly Verified |
@@ -64,6 +58,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-11 | [AWS Knowledge: Events and Workflows - Training Badge](https://www.credly.com/badges/35c9dfd3-ab0b-4125-baf2-a67f19f960c7/public_url) | Amazon Web Services Training and Certification | Credly Verified |
 | 2026-06-11 | [Intel® Gaudi® AI Accelerator](https://www.credly.com/badges/f38defb3-960c-421e-af23-fe3699697623/public_url) | Intel | Credly Verified |
 | 2026-06-11 | [LFD110: Introduction to RISC-V](https://www.credly.com/badges/ca3fb10f-24a2-4c82-a275-82ca9f08193a/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-11 | [LFD133: Introduction to WebAssembly](https://www.credly.com/badges/8473781e-b134-4cb1-850b-c72985f5822d/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-11 | [LFS144: Introduction to Istio](https://www.credly.com/badges/bb9b403f-05c9-47c8-8e63-e7a2c4eef99b/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-11 | [LFS146: Introduction to Cilium](https://www.credly.com/badges/d6703f61-4648-41b6-9949-01827cbd6c78/public_url) | The Linux Foundation | Credly Verified |
+| 2026-06-11 | [Tech Fundamentals](https://www.credly.com/badges/b006a1c2-03c5-426f-9b4a-b667e033047d/public_url) | Acronis | Credly Verified |
+| 2026-06-09 | [Agile Visualization](https://www.credly.com/badges/651c65f7-cb93-4591-874a-abb27ce07b19/public_url) | Lucid Software | Credly Verified |
+| 2026-06-09 | [AWS Knowledge: Object Storage - Training Badge](https://www.credly.com/badges/a8254829-cc58-43f8-aa2f-910c836df8a8/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-06-09 | [Cloud Tech Fundamentals](https://www.credly.com/badges/3c5fdd0e-66a5-436b-bdeb-4f3da1702089/public_url) | Acronis | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-08-part-03.md](credly-badges-2026-08-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-05.md](credly-badges-2026-08-part-05.md)
+> **Navigation:** Prev: [credly-badges-2026-06-part-05.md](./credly-badges-2026-06-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-07-part-07.md](./credly-badges-2026-07-part-07.md)
+

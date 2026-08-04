@@ -1,25 +1,17 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 8 of 10
-date_range: 2026-04-21 to 2026-05-09
-total_entries: 53
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-08.md
+chunk_part: 2 of 10
+date_range: 2026-04-19 to 2026-05-08
+total_entries: 52
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-05-part-02.md
 ---
 
-# Credly Verified Credentials — Part 08
+# Credly Verified Credentials — Part 02
 
-> **Navigation:** Prev: [credly-badges-2026-08-part-07.md](credly-badges-2026-08-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-09.md](credly-badges-2026-08-part-09.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-04-part-01.md](./credly-badges-2026-04-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-05-part-03.md](./credly-badges-2026-05-part-03.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-05-09 | [Site Reliability Engineer Learning Path](https://www.credly.com/badges/82670fe2-987b-43c4-8023-09500fa4696b/public_url) | Datadog | Credly Verified |
-| 2026-05-08 | [Cloud Security Engineer - Cloud SIEM Learning Path](https://www.credly.com/badges/577f478c-820f-4968-b0d8-4442919eb244/public_url) | Datadog | Credly Verified |
-| 2026-05-08 | [Cloud Security Engineer Learning Path](https://www.credly.com/badges/85e91ec4-bba7-40fb-bc78-ab15fc5c4c1f/public_url) | Datadog | Credly Verified |
-| 2026-05-08 | [Log Configuration & Processing Learning Path](https://www.credly.com/badges/e1e5c2fb-df56-4426-b482-94ee2d79e9e0/public_url) | Datadog | Credly Verified |
-| 2026-05-08 | [Log Management Fundamentals](https://www.credly.com/badges/bb1f9ed7-1194-4b2f-98ec-3919dfccd7df/public_url) | Datadog | Credly Verified |
-| 2026-05-08 | [Log Querying & Analytics Learning Path](https://www.credly.com/badges/a621b498-451c-4f52-ab24-2af344bc773d/public_url) | Datadog | Credly Verified |
-| 2026-05-08 | [Managing Company Administration in Legacy Concur Travel - Record of Achievement](https://www.credly.com/badges/ec23d781-1dce-4c64-9a2c-1199a7650f19/public_url) | SAP | Credly Verified |
-| 2026-05-08 | [Okta for AI Agents](https://www.credly.com/badges/692470a1-f212-48bf-a7b7-79e824c6f06f/public_url) | Okta | Credly Verified |
 | 2026-05-08 | [Secure Your AI Agents to Act on the Behalf of Users](https://www.credly.com/badges/bd7cf46e-660f-406b-9547-69b0c0b9d822/public_url) | Okta | Credly Verified |
 | 2026-05-08 | [Secure Your RAG Pipelines with Auth0 Fine-Grained Access](https://www.credly.com/badges/a39802d7-ae30-4c95-ae7d-434cc1243233/public_url) | Okta | Credly Verified |
 | 2026-05-08 | [Securing AI Agents](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0/public_url) | Okta | Credly Verified |
@@ -65,6 +57,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-22 | [Google Ads Video Certification](https://api.accredible.com/v1/obi/badge_assertions/2359f6e3-1f9d-486a-a89f-f60927b57349) | Skillshop | External/Imported |
 | 2026-04-21 | [Explorations into Mindfulness](https://www.credly.com/badges/58226aca-cc26-41a3-8ed7-1ef7e7880114/public_url) | IBM SkillsBuild | Credly Verified |
 | 2026-04-21 | [Linux Unhatched](https://www.credly.com/badges/4c3ee7b3-330b-437b-8e6a-91d96bca1b45/public_url) | Cisco | Credly Verified |
+| 2026-04-21 | [Transition from SAP Solution Manager to SAP Cloud ALM - Record of Achievement](https://www.credly.com/badges/e95d01e6-d813-4038-bc38-8e396c4b88bc/public_url) | SAP | Credly Verified |
+| 2026-04-21 | [Google Ads Creative Certification](https://api.accredible.com/v1/obi/badge_assertions/72c8a75b-85e1-4619-b34b-61adaa5a68c9) | Skillshop | External/Imported |
+| 2026-04-20 | [AWS Knowledge: Amazon Connect Fundamentals - Training Badge](https://www.credly.com/badges/cb6a4e9e-b375-4e40-bf27-7f3d4ad252d5/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-04-20 | [Explore Emerging Tech](https://www.credly.com/badges/67d065a9-5177-45e1-b94d-72bc4b493ca0/public_url) | IBM SkillsBuild | Credly Verified |
+| 2026-04-20 | [Introduction to Greenhouse Gas Accounting for IT](https://www.credly.com/badges/1b2c72f1-8e6b-4d6a-8e87-4c3a404a6250/public_url) | Cisco | Credly Verified |
+| 2026-04-20 | [Working with Invoice Pay in Concur Invoice Professional - Record of Achievement](https://www.credly.com/badges/6a8ba215-f454-4b26-91ef-5ff968b721f7/public_url) | SAP | Credly Verified |
+| 2026-04-19 | [AI Fundamentals: Foundations for Understanding AI](https://www.credly.com/badges/2a493aff-eb08-4456-8683-8b9d1d7c5eef/public_url) | IBM SkillsBuild | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-08-part-07.md](credly-badges-2026-08-part-07.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-09.md](credly-badges-2026-08-part-09.md)
+> **Navigation:** Prev: [credly-badges-2026-04-part-01.md](./credly-badges-2026-04-part-01.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-05-part-03.md](./credly-badges-2026-05-part-03.md)
+

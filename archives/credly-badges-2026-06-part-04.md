@@ -1,25 +1,17 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 6 of 10
-date_range: 2026-05-20 to 2026-06-04
+chunk_part: 4 of 10
+date_range: 2026-05-19 to 2026-06-01
 total_entries: 57
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-06.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-06-part-04.md
 ---
 
-# Credly Verified Credentials — Part 06
+# Credly Verified Credentials — Part 04
 
-> **Navigation:** Prev: [credly-badges-2026-08-part-05.md](credly-badges-2026-08-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-07.md](credly-badges-2026-08-part-07.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-05-part-03.md](./credly-badges-2026-05-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-06-part-05.md](./credly-badges-2026-06-part-05.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-06-04 | [Practical Application of Gen AI for Project Managers](https://www.credly.com/badges/d8cbec32-4350-4590-831f-34ad56889daf/public_url) | Project Management Institute | Credly Verified |
-| 2026-06-04 | [Talking to AI: Prompt Engineering for Project Managers](https://www.credly.com/badges/1b9b4a53-4ddc-4d6b-bd7c-c31df88dabc8/public_url) | Project Management Institute | Credly Verified |
-| 2026-06-02 | [Data Literacy in Practice](https://www.credly.com/badges/45b07a9e-9ca9-4189-a489-ebb58c023824/public_url) | SAS | Credly Verified |
-| 2026-06-02 | [Deploying SAS Grid Manager](https://www.credly.com/badges/a0ad62be-1ecc-43c0-92ca-35437a0dd09b/public_url) | SAS | Credly Verified |
-| 2026-06-02 | [Deploying SAS Viya from a Mirrored Registry](https://www.credly.com/badges/da51d4a3-2800-400d-a88d-d189bf53cc7e/public_url) | SAS | Credly Verified |
-| 2026-06-02 | [Manual SAS Viya Deployment](https://www.credly.com/badges/0a5e2982-bdb6-498f-8ec6-979b3c0db919/public_url) | SAS | Credly Verified |
-| 2026-06-02 | [Post-Deployment Steps for SAS Viya](https://www.credly.com/badges/bbb58e7e-7844-4128-99e3-1dbf678dcccc/public_url) | SAS | Credly Verified |
-| 2026-06-01 | [Product Analytics Certification](https://www.credly.com/badges/383af23e-ddf1-4106-9b5d-3fde0bacdf16/public_url) | Pendo | Credly Verified |
 | 2026-06-01 | [Product Discovery Certification](https://www.credly.com/badges/7f76121b-ff69-474a-a1ad-09e88993b145/public_url) | Pendo | Credly Verified |
 | 2026-06-01 | [Product-led Certification](https://www.credly.com/badges/4813afed-be74-43f4-a69e-9a6482970fa2/public_url) | Pendo | Credly Verified |
 | 2026-06-01 | [Session and Token Management Best Practices](https://www.credly.com/badges/1b01f351-59a3-42a9-a39e-2c5e22b1ef8c/public_url) | Okta | Credly Verified |
@@ -69,6 +61,15 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-20 | [Fundamentals of Agile Project Management](https://www.credly.com/badges/5829bdb0-b2dd-4e23-9aa4-22c6ea61c8b4/public_url) | Project Management Institute | Credly Verified |
 | 2026-05-20 | [Fundamentals of Predictive Project Management](https://www.credly.com/badges/6ff63094-6930-44d1-83c8-fedaae412178/public_url) | Project Management Institute | Credly Verified |
 | 2026-05-20 | [Generative AI Overview for Project Managers](https://www.credly.com/badges/be0d5350-61bb-416c-ac0d-13fe417cdf7c/public_url) | Project Management Institute | Credly Verified |
+| 2026-05-20 | [NASA Open Science 101](https://www.credly.com/badges/b367bbf7-307f-40f3-82ac-975d987f525f/public_url) | NASA Open Science | Credly Verified |
+| 2026-05-19 | [Agentic AI - How to with SAS Viya](https://www.credly.com/badges/5fe72598-ffcd-4c5c-8b30-319831d7d2bd/public_url) | SAS | Credly Verified |
+| 2026-05-19 | [Discovering the Basics of SAP S/4HANA Portfolio and Project Management - Record of Achievement](https://www.credly.com/badges/d3c10832-4cf4-4d04-939b-bbcc1dcc9f1e/public_url) | SAP | Credly Verified |
+| 2026-05-19 | [GenAI - Client to Cloud Fundamentals](https://www.credly.com/badges/bbd4f4ac-6aba-480f-b77c-9b8f79b65bdd/public_url) | Intel | Credly Verified |
+| 2026-05-19 | [Getting Started with SAS and Kubernetes](https://www.credly.com/badges/1a509b1d-9a06-410c-8916-eac5b639fe28/public_url) | SAS | Credly Verified |
+| 2026-05-19 | [Introduction to Authentication Protocols](https://www.credly.com/badges/843836d7-d464-422e-bb40-5d76c77c3bde/public_url) | SAS | Credly Verified |
+| 2026-05-19 | [Introduction to Web Design](https://www.credly.com/badges/3fc971ca-8531-4e28-b6f8-6eecdf8354b3/public_url) | SAS | Credly Verified |
+| 2026-05-19 | [Mastering AML Compliance: Safeguarding the Financial Sector](https://www.credly.com/badges/dc24612b-9d31-4ece-b66a-7198e4b05f76/public_url) | SAS | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-08-part-05.md](credly-badges-2026-08-part-05.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-07.md](credly-badges-2026-08-part-07.md)
+> **Navigation:** Prev: [credly-badges-2026-05-part-03.md](./credly-badges-2026-05-part-03.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-06-part-05.md](./credly-badges-2026-06-part-05.md)
+

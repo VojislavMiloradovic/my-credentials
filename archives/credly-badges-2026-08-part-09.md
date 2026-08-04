@@ -1,68 +1,73 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 9 of 10
-date_range: 2026-03-14 to 2026-04-21
-total_entries: 51
+date_range: 2026-07-21 to 2026-08-02
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-09.md
 ---
 
 # Credly Verified Credentials — Part 09
 
-> **Navigation:** Prev: [credly-badges-2026-08-part-08.md](credly-badges-2026-08-part-08.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-10.md](credly-badges-2026-08-part-10.md) | [Complete Archive](./credly-badges-complete.md)
+> **Navigation:** Prev: [credly-badges-2026-07-part-08.md](./credly-badges-2026-07-part-08.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-10.md](./credly-badges-2026-08-part-10.md) | [Complete Archive](./credly-badges-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-04-21 | [Transition from SAP Solution Manager to SAP Cloud ALM - Record of Achievement](https://www.credly.com/badges/e95d01e6-d813-4038-bc38-8e396c4b88bc/public_url) | SAP | Credly Verified |
-| 2026-04-21 | [Google Ads Creative Certification](https://api.accredible.com/v1/obi/badge_assertions/72c8a75b-85e1-4619-b34b-61adaa5a68c9) | Skillshop | External/Imported |
-| 2026-04-20 | [AWS Knowledge: Amazon Connect Fundamentals - Training Badge](https://www.credly.com/badges/cb6a4e9e-b375-4e40-bf27-7f3d4ad252d5/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-04-20 | [Explore Emerging Tech](https://www.credly.com/badges/67d065a9-5177-45e1-b94d-72bc4b493ca0/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-20 | [Introduction to Greenhouse Gas Accounting for IT](https://www.credly.com/badges/1b2c72f1-8e6b-4d6a-8e87-4c3a404a6250/public_url) | Cisco | Credly Verified |
-| 2026-04-20 | [Working with Invoice Pay in Concur Invoice Professional - Record of Achievement](https://www.credly.com/badges/6a8ba215-f454-4b26-91ef-5ff968b721f7/public_url) | SAP | Credly Verified |
-| 2026-04-19 | [AI Fundamentals: Foundations for Understanding AI](https://www.credly.com/badges/2a493aff-eb08-4456-8683-8b9d1d7c5eef/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-19 | [AWS Knowledge: AWS Transform Fundamentals – Training Badge](https://www.credly.com/badges/54d81ecb-6fd5-4ff9-aba6-6acaa59cdcec/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-04-19 | [Introduction to IoT](https://www.credly.com/badges/9fd72888-3b11-4f02-b53a-1506890ed015/public_url) | Cisco | Credly Verified |
-| 2026-04-19 | [Google Ads Display Certification](https://api.accredible.com/v1/obi/badge_assertions/aaa06037-984b-436d-a969-138478771e90) | Skillshop | External/Imported |
-| 2026-04-18 | [Digital Awareness](https://www.credly.com/badges/9edc3f97-91e5-4d5d-b674-27e822964fb4/public_url) | Cisco | Credly Verified |
-| 2026-04-18 | [Modernizing Integration with SAP Integration Suite - SAP Learning MOOC - Record of Achievement](https://www.credly.com/badges/f3166cf7-82ab-4871-8b96-7ed8cbf350e6/public_url) | SAP | Credly Verified |
-| 2026-04-18 | [Understanding SAP’s 2026 Go-to-Market Direction for Partners - Record of Achievement](https://www.credly.com/badges/cccb34bc-a8ae-4c85-8a7f-793cd28bfa1b/public_url) | SAP | Credly Verified |
-| 2026-04-18 | [Using Computer and Mobile Devices](https://www.credly.com/badges/156370e6-b39b-4f49-a04e-cdb1fb215489/public_url) | Cisco | Credly Verified |
-| 2026-04-17 | [Introduction to Modern AI](https://www.credly.com/badges/8d48ad0b-4e3a-4d75-889d-90f586263f0e/public_url) | Cisco | Credly Verified |
-| 2026-04-16 | [Working in a Digital World: Professional Skills](https://www.credly.com/badges/a3eadc8d-e260-4d4f-bc57-b00d05ff0a50/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-15 | [AWS Knowledge: Cloud Essentials - Training Badge](https://www.credly.com/badges/91a86ab7-370c-47ea-9dde-6e2b0dec08db/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-04-15 | [Getting Started with Artificial Intelligence](https://www.credly.com/badges/51934455-5098-41bd-a21e-2d31f5e06517/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-14 | [Computer Hardware Basics](https://www.credly.com/badges/4695e6c2-7860-4cda-9e31-55851d12e3da/public_url) | Cisco | Credly Verified |
-| 2026-04-13 | [Generative AI Essentials: Using LLMs to Work with Data](https://www.credly.com/badges/2e249462-a23b-4c37-8eea-c279927629c8/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-13 | [Introduction to Cybersecurity](https://www.credly.com/badges/61438657-9227-4fe2-a571-673adf92bae0/public_url) | Cisco | Credly Verified |
-| 2026-04-12 | [AWS Knowledge: AWS Graviton - Training Badge](https://www.credly.com/badges/013b5a15-4ea6-47a4-9812-bcb52372bb1f/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-04-12 | [Make Agentic AI Work for You](https://www.credly.com/badges/0162b3cd-2bf0-4a6e-8335-3ece7487f265/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-11 | [AI for Networking](https://www.credly.com/badges/44ef5ed4-03e3-4047-b5c4-341d35a52ee7/public_url) | Cisco | Credly Verified |
-| 2026-04-11 | [Digital Mindset](https://www.credly.com/badges/c6b89299-f4da-4b4d-93de-a136065eee33/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-10 | [Administering SAP Sustainability Control Tower - Record of Achievement](https://www.credly.com/badges/7fe3c2ec-d068-4278-a1d6-e3ce744ac608/public_url) | SAP | Credly Verified |
-| 2026-04-10 | [Create Your First Gemini Enterprise Application](https://www.credly.com/badges/f68cab03-5280-4436-bf1d-989b1bbc30c8/public_url) | Google Cloud | Credly Verified |
-| 2026-04-10 | [Getting Started with Generative AI](https://www.credly.com/badges/9897db5e-5da6-4cc6-8c14-d522e680c531/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-10 | [Getting Started with SAP Sustainability Data Exchange - Record of Achievement](https://www.credly.com/badges/1749200c-61e9-4682-94e5-fed5ffbf6fba/public_url) | SAP | Credly Verified |
-| 2026-04-09 | [Getting Started with Cybersecurity](https://www.credly.com/badges/348c7425-9d82-4ce6-b383-bcac6d7e3659/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-09 | [Introducing Cybersecurity - Record of Achievement](https://www.credly.com/badges/77ff7a95-7650-4b6b-bf77-0784198758ef/public_url) | SAP | Credly Verified |
-| 2026-04-08 | [Digital Literacy](https://www.credly.com/badges/2a4ef746-2e97-4d64-a8a9-32774ec4408e/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-07 | [Data Literacy](https://www.credly.com/badges/35fe5b3f-907f-4b59-b1f8-fca9eb8e6332/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-06 | [AI Literacy](https://www.credly.com/badges/551e7ae7-9b80-409b-901c-b0a1f9ec07b6/public_url) | IBM SkillsBuild | Credly Verified |
-| 2026-04-06 | [Applying a Human-Centered Approach to Identify and Define Business AI Use Cases - Record of Course Completion](https://www.credly.com/badges/5d816ed5-4a21-44b4-bd1f-969c61d9fb19/public_url) | SAP | Credly Verified |
-| 2026-04-05 | [Provisioning and Implementing Joule - Record of Achievement](https://www.credly.com/badges/68d24b44-8104-4e53-9742-256adacb3627/public_url) | SAP | Credly Verified |
-| 2026-04-01 | [Campaign manager 360 Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/c9bfd359-05b1-4751-8872-a99c43f4883b) | Skillshop | External/Imported |
-| 2026-03-30 | [Conversion Optimization Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/3c4afa84-5637-4c3b-b3fc-6e6c26e48d35) | Skillshop | External/Imported |
-| 2026-03-26 | [Grow Offline Sales Certification](https://api.accredible.com/v1/obi/badge_assertions/2d2774cb-bf2e-47c5-a286-86de5cc1bcd8) | Skillshop | External/Imported |
-| 2026-03-25 | [Microsoft Applied Skills: Generate reports with AI research agents](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/ABC20116B56C7F9F?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
-| 2026-03-24 | [Search Ads 360 Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/5b477ad2-43c6-4789-af30-137f9f87f4c6) | Skillshop | External/Imported |
-| 2026-03-23 | [Google Ads Apps Certification](https://api.accredible.com/v1/obi/badge_assertions/2d3974a2-6a69-4b66-8886-350d7b1626d5) | Skillshop | External/Imported |
-| 2026-03-21 | [Microsoft Applied Skills: Get started with identities and access using Microsoft Entra](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/27BB90F5B956E0C8?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
-| 2026-03-20 | [Google Ads Measurement Certification](https://api.accredible.com/v1/obi/badge_assertions/3eec0163-8804-4d17-bde0-d08e6c76d74c) | Skillshop | External/Imported |
-| 2026-03-18 | [Microsoft Applied Skills: Get started with Azure management tasks](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B7C5DF765FB52CEA?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
-| 2026-03-17 | [AI-Powered Shopping ads Certification](https://api.accredible.com/v1/obi/badge_assertions/09192bf8-4cca-4947-86c8-58a0b29d6511) | Skillshop | External/Imported |
-| 2026-03-16 | [AI-Powered Performance Ads Certification](https://api.accredible.com/v1/obi/badge_assertions/1583f933-2a97-47bc-b442-8ad614e6982d) | Skillshop | External/Imported |
-| 2026-03-16 | [Microsoft Applied Skills: Get started with cloud security and monitoring tasks](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/1EBB80C496C2DDF1?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
-| 2026-03-15 | [Google Ads Search Certification](https://api.accredible.com/v1/obi/badge_assertions/f0f3a46f-f6a1-4145-8fb5-2c2bb41a761f) | Skillshop | External/Imported |
-| 2026-03-15 | [Microsoft Applied Skills: Streamline business workflows with AI chat](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/CE7FBB459ADAB331?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
-| 2026-03-14 | [Microsoft Applied Skills: Create an AI agent](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/DC86763A7069ABBF?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
+| 2026-08-02 | [Observability for AI Agents](https://www.credly.com/badges/b6f28741-5f25-4728-b2dc-a1fc2f7a102c/public_url) | MongoDB | Credly Verified |
+| 2026-08-02 | [Retrieval Evaluation](https://www.credly.com/badges/b92b3127-3336-4c5a-ac39-df92f8262d77/public_url) | MongoDB | Credly Verified |
+| 2026-08-02 | [Scale and Adapt: How MongoDB future-proofs your business for massive growth](https://www.credly.com/badges/842768fd-e3af-46e8-84f5-5d6519df2a35/public_url) | MongoDB | Credly Verified |
+| 2026-08-01 | [Attack Flows v2: How to Model and Sequence Attacks](https://www.credly.com/badges/975e7ac6-20c4-4b0f-9d17-eafc0dd69edb/public_url) | AttackIQ | Credly Verified |
+| 2026-08-01 | [Cloud Sales Professional Security Awareness Training](https://www.credly.com/badges/e3cb20dc-1a7a-4ec5-8318-10d8742f16ee/public_url) | Acronis | Credly Verified |
+| 2026-08-01 | [Cloud Sales Pro - PSA](https://www.credly.com/badges/2123c22a-1b9f-4724-8252-536df8dbd4d1/public_url) | Acronis | Credly Verified |
+| 2026-08-01 | [Safeguarding the Supply Chain](https://www.credly.com/badges/296701d5-4c19-4756-85a3-19048ec7f448/public_url) | AttackIQ | Credly Verified |
+| 2026-07-30 | [Building an App with Code Agents and MongoDB](https://www.credly.com/badges/e69b5623-374c-482a-b29f-6cee2c6714d1/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [Deploying and Evaluating GenAI Apps with MongoDB](https://www.credly.com/badges/2efe33a4-f77e-4714-a1b1-c8c46e72bd69/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [MongoDB Encryption at Rest with BYOK](https://www.credly.com/badges/ea5fdc47-7f57-42a4-9829-eb7c40b0b729/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [Securing MongoDB Atlas Networking](https://www.credly.com/badges/74ba326f-caa2-44b0-a4b2-dd055799bebf/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [Securing MongoDB Self-Managed Networking](https://www.credly.com/badges/0f2ed21a-e251-4566-ac7e-bf989559785b/public_url) | MongoDB | Credly Verified |
+| 2026-07-30 | [Threat-Informed Architecture](https://www.credly.com/badges/2e682aba-ad5e-4f85-9f0e-87f0a4a1c5d1/public_url) | AttackIQ | Credly Verified |
+| 2026-07-30 | [Vector Search Performance](https://www.credly.com/badges/a89e8a08-ff7d-433a-9131-a8e2d464db34/public_url) | MongoDB | Credly Verified |
+| 2026-07-29 | [Analyze Images with the Cloud Vision API Skill Badge](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url) | Google Cloud | Credly Verified |
+| 2026-07-29 | [AWS Educate Getting Started with Serverless - Training Badge](https://www.credly.com/badges/01fefe26-9f1d-4c80-848a-4af9b193b111/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-07-29 | [Build Event-Driven Applications with Eventarc](https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e/public_url) | Google Cloud | Credly Verified |
+| 2026-07-29 | [Cloud Sales Professional MDR](https://www.credly.com/badges/6efa11ee-1073-454d-962f-8288a8b69bf7/public_url) | Acronis | Credly Verified |
+| 2026-07-29 | [Cloud Sales Pro - Protected 365](https://www.credly.com/badges/da80423d-93c4-4353-949e-47fe38205bb8/public_url) | Acronis | Credly Verified |
+| 2026-07-29 | [Countering Ransomware with MITRE ATT&CK](https://www.credly.com/badges/86ad39b3-0d3a-4939-b748-62169bb782d7/public_url) | AttackIQ | Credly Verified |
+| 2026-07-28 | [Optimizing and Maintaining MongoDB Cluster Reliability](https://www.credly.com/badges/ef5db49e-1ab5-4ea0-ba70-bf16383e600f/public_url) | MongoDB | Credly Verified |
+| 2026-07-27 | [AWS Educate Getting Started with Cloud Ops - Training Badge](https://www.credly.com/badges/c1b15993-b012-43a3-bdcb-946d4ee73452/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-07-27 | [Beyond Atomic Testing with Attack Flows](https://www.credly.com/badges/bb201075-aef3-4e05-b357-f024ab834146/public_url) | AttackIQ | Credly Verified |
+| 2026-07-27 | [Building GenAI Applications with MongoDB](https://www.credly.com/badges/4bd6f004-be81-4cc2-bc6a-8c12d1a51a4c/public_url) | MongoDB | Credly Verified |
+| 2026-07-27 | [Cloud Sales Pro - Security Posture Management](https://www.credly.com/badges/b785897b-343d-4e17-b23b-2435c7fec78d/public_url) | Acronis | Credly Verified |
+| 2026-07-27 | [Develop AI-Powered Prototypes in Google AI Studio](https://www.credly.com/badges/7b6fb557-985b-4680-85ca-5d9a3fd287d0/public_url) | Google Cloud | Credly Verified |
+| 2026-07-27 | [Monitoring MongoDB with Built-in Tools](https://www.credly.com/badges/adc19ddf-d4cd-43e0-ba42-9321bcf43590/public_url) | MongoDB | Credly Verified |
+| 2026-07-27 | [MSP Academy: Automation](https://www.credly.com/badges/d16d9c70-9200-49b5-8a1f-706919b48e24/public_url) | Acronis | Credly Verified |
+| 2026-07-27 | [Optimizing MongoDB Performance with Tuning Tools](https://www.credly.com/badges/82776add-b997-4015-8224-59cadac439e9/public_url) | MongoDB | Credly Verified |
+| 2026-07-27 | [Search with MongoDB](https://www.credly.com/badges/2e01c42a-77e8-4636-9168-5cfac204a43f/public_url) | MongoDB | Credly Verified |
+| 2026-07-27 | [Secure Digital Transformation - Best Practices and Strategies](https://www.credly.com/badges/fe38aea0-445e-4345-b9df-c59a044f5362/public_url) | AttackIQ | Credly Verified |
+| 2026-07-27 | [Using Voyage Models with MongoDB](https://www.credly.com/badges/ff0f8b49-ec79-420e-854b-6f4f5d7b29e5/public_url) | MongoDB | Credly Verified |
+| 2026-07-26 | [Protect Sensitive Data with Data Loss Prevention Skill Badge](https://www.credly.com/badges/5cc3e16f-1432-408b-baf1-5a82c6d65229/public_url) | Google Cloud | Credly Verified |
+| 2026-07-24 | [AWS Educate Getting Started with Networking - Training Badge](https://www.credly.com/badges/95dadb7d-8f0b-4520-b945-c7b41292f126/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-07-24 | [Cloud Sales Pro - Email Security](https://www.credly.com/badges/1ae5dbfc-3538-41eb-b208-8cd3fa60648a/public_url) | Acronis | Credly Verified |
+| 2026-07-24 | [Cloud Sales Pro - Entra ID Backup](https://www.credly.com/badges/00d5b48a-6926-43c6-842d-3585215523fe/public_url) | Acronis | Credly Verified |
+| 2026-07-24 | [Mapping MITRE ATT&CK to CVE for Impact](https://www.credly.com/badges/8f620453-4525-4c45-9107-5a24f2bf89a5/public_url) | AttackIQ | Credly Verified |
+| 2026-07-24 | [Memory for AI Applications with MongoDB](https://www.credly.com/badges/17cc10c2-1879-4741-8660-896581fc660d/public_url) | MongoDB | Credly Verified |
+| 2026-07-24 | [menuPass Emulation Plan Execution](https://www.credly.com/badges/6fd90ef1-aa26-4e52-bdd8-e499e96f3644/public_url) | AttackIQ | Credly Verified |
+| 2026-07-24 | [MongoDB Indexing Design Fundamentals](https://www.credly.com/badges/cd687719-8495-41e0-a74d-61cd2ab6f12e/public_url) | MongoDB | Credly Verified |
+| 2026-07-24 | [MongoDB Overview: Core Concepts and Architecture](https://www.credly.com/badges/ec006874-acdf-4095-abab-5b6657054fc1/public_url) | MongoDB | Credly Verified |
+| 2026-07-24 | [MongoDB Sharding Strategies](https://www.credly.com/badges/ec69041f-6f70-4cab-b52f-dc3b9a64132f/public_url) | MongoDB | Credly Verified |
+| 2026-07-24 | [Securing MongoDB Atlas: Authentication & Authorization](https://www.credly.com/badges/c92a6b9b-e628-42f2-b33c-d51f189a3f3c/public_url) | MongoDB | Credly Verified |
+| 2026-07-24 | [Securing MongoDB Self-Managed: Authentication & Authorization](https://www.credly.com/badges/ccb3958d-00b6-4cf5-abf2-9481f3f12197/public_url) | MongoDB | Credly Verified |
+| 2026-07-22 | [AI and Innovation: How MongoDB Enables a Resilient AI Strategy](https://www.credly.com/badges/eb31b07d-b515-4678-aad1-792c118e67dc/public_url) | MongoDB | Credly Verified |
+| 2026-07-22 | [AWS Educate Getting Started with Databases - Training Badge](https://www.credly.com/badges/da4e7c34-8a7a-4418-86f2-eb9db7a34148/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-07-22 | [Extending ATT&CK with ATT&CK Workbench](https://www.credly.com/badges/1a455d6f-de65-420a-a531-f26d2562538b/public_url) | AttackIQ | Credly Verified |
+| 2026-07-22 | [Foundations of Cyber Threat Intelligence](https://www.credly.com/badges/7de6eae2-567f-4628-9a07-b832ea35db92/public_url) | AttackIQ | Credly Verified |
+| 2026-07-22 | [MongoDB Advanced Schema Design Patterns and Anti-patterns Skill Badge](https://www.credly.com/badges/e467dede-3af7-4e52-94b6-024d53997597/public_url) | MongoDB | Credly Verified |
+| 2026-07-22 | [MongoDB Aggregation Fundamentals](https://www.credly.com/badges/9e2386d0-6962-447d-9cab-1efb8c45bb56/public_url) | MongoDB | Credly Verified |
+| 2026-07-22 | [MongoDB Query Optimization Techniques](https://www.credly.com/badges/adc22d84-9e52-40b6-8f56-09b163398c09/public_url) | MongoDB | Credly Verified |
+| 2026-07-22 | [MongoDB Schema Design Optimization Skill Badge](https://www.credly.com/badges/526ac37a-cf81-4031-82ad-ea72351d42b8/public_url) | MongoDB | Credly Verified |
+| 2026-07-22 | [MongoDB Schema Design Patterns and Anti-patterns Skill Badge](https://www.credly.com/badges/79327255-4ed3-4b0f-8b1e-9982a0ab1051/public_url) | MongoDB | Credly Verified |
+| 2026-07-21 | [Build Serverless Applications with Cloud Run Functions](https://www.credly.com/badges/f57106b4-cf01-4ad0-a05a-67f322da7411/public_url) | Google Cloud | Credly Verified |
+| 2026-07-21 | [Cloud Sales Pro - Archival Storage](https://www.credly.com/badges/f158f922-f150-4b0b-8690-da627a5aea91/public_url) | Acronis | Credly Verified |
 
 ---
-> **Navigation:** Prev: [credly-badges-2026-08-part-08.md](credly-badges-2026-08-part-08.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-10.md](credly-badges-2026-08-part-10.md)
+> **Navigation:** Prev: [credly-badges-2026-07-part-08.md](./credly-badges-2026-07-part-08.md) | [Index](./credly-badges-index.md) | Next: [credly-badges-2026-08-part-10.md](./credly-badges-2026-08-part-10.md)
+
