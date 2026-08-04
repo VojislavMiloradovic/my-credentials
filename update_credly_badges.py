@@ -14,7 +14,6 @@ from typing import Any
 
 import requests
 
-# Fallback import handling for archiver module
 generate_platform_archive = None
 for module_name in ("archiver", "archiver_2", "archive_utils"):
     try:
@@ -24,7 +23,6 @@ for module_name in ("archiver", "archiver_2", "archive_utils"):
     except (ImportError, AttributeError):
         continue
 
-# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -32,7 +30,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger("credly_updater")
 
-# Profile Identifiers
 CREDLY_USERNAME = os.getenv("CREDLY_USERNAME", "vojislavmiloradovic")
 CREDLY_USER_ID = os.getenv("CREDLY_USER_ID", "752aee40-7358-4ade-9a49-81e8b6f49225")
 OUTPUT_FILE = os.getenv("OUTPUT_FILE", "credly_badges.json")
@@ -53,11 +50,10 @@ def normalize_date(raw_date: Any) -> str | None:
     if raw_date is None or raw_date == "" or raw_date == "N/A" or raw_date == "None":
         return None
 
-    # Handle numeric UNIX timestamp (int/float)
     if isinstance(raw_date, (int, float)):
         try:
             ts = float(raw_date)
-            if ts > 1e11:  # Milliseconds timestamp
+            if ts > 1e11:
                 ts /= 1000.0
             return datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d")
         except (ValueError, OSError, OverflowError):
@@ -67,7 +63,6 @@ def normalize_date(raw_date: Any) -> str | None:
     if not s_date or s_date.lower() in ("none", "null", "n/a"):
         return None
 
-    # Handle numeric timestamp strings (e.g. "1700000000")
     if s_date.isdigit():
         try:
             ts = float(s_date)
@@ -77,12 +72,10 @@ def normalize_date(raw_date: Any) -> str | None:
         except (ValueError, OSError, OverflowError):
             return None
 
-    # Handle standard ISO string splits e.g. "2026-03-25T14:30:00Z"
     parts = s_date.split("T")[0].split(" ")[0]
     if len(parts) == 10 and parts[4] == "-" and parts[7] == "-":
         return parts
 
-    # Parse common human-readable date strings (e.g., "Feb 7, 2026", "March 15, 2026")
     for fmt in (
         "%b %d, %Y",
         "%B %d, %Y",
@@ -110,16 +103,13 @@ def extract_title(item: dict[str, Any]) -> str:
     GENERIC_TITLES = {"external badge", "external credential", "badge", "credential"}
     candidates = []
 
-    # 1. Check Open Badges v2 badge_class object
     bc = item.get("badge_class")
     if isinstance(bc, dict):
         candidates.extend([bc.get("name"), bc.get("title")])
 
-    # 2. Check direct item keys
     for k in ("title", "name", "badge_name", "badge_template_name"):
         candidates.append(item.get(k))
 
-    # 3. Check badge object
     badge = item.get("badge")
     if isinstance(badge, dict):
         candidates.extend([badge.get("name"), badge.get("title")])
@@ -127,12 +117,10 @@ def extract_title(item: dict[str, Any]) -> str:
         if isinstance(badge_bc, dict):
             candidates.extend([badge_bc.get("name"), badge_bc.get("title")])
 
-    # 4. Check badge_template object
     bt = item.get("badge_template")
     if isinstance(bt, dict):
         candidates.extend([bt.get("name"), bt.get("title")])
 
-    # 5. Check assertion object
     assertion = item.get("assertion")
     if isinstance(assertion, dict):
         candidates.extend([assertion.get("name"), assertion.get("title")])
@@ -157,7 +145,6 @@ def extract_issuer(item: dict[str, Any]) -> str:
     GENERIC_ISSUERS = {"external issuer", "credly issuer", "credly", "issuer"}
     candidates = []
 
-    # 1. Check badge_class issuer
     bc = item.get("badge_class")
     if isinstance(bc, dict):
         bc_issuer = bc.get("issuer")
@@ -166,7 +153,6 @@ def extract_issuer(item: dict[str, Any]) -> str:
         elif isinstance(bc_issuer, str):
             candidates.append(bc_issuer)
 
-    # 2. Direct keys
     for k in ("issuer_name", "issuer_organization_name"):
         candidates.append(item.get(k))
 
@@ -181,7 +167,6 @@ def extract_issuer(item: dict[str, Any]) -> str:
             if isinstance(ent, dict):
                 candidates.append(ent.get("name"))
 
-    # 3. Check badge / badge_template
     for parent_key in ("badge", "badge_template"):
         parent = item.get(parent_key)
         if isinstance(parent, dict):
@@ -191,7 +176,6 @@ def extract_issuer(item: dict[str, Any]) -> str:
             elif isinstance(p_issuer, dict):
                 candidates.append(p_issuer.get("name"))
 
-    # 4. Check assertion
     assertion = item.get("assertion")
     if isinstance(assertion, dict):
         a_badge = assertion.get("badge")
@@ -255,7 +239,6 @@ def extract_date(item: dict[str, Any]) -> str:
         if norm:
             return norm
 
-    # Fallback to current UTC date if date is completely unparseable
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
@@ -413,7 +396,6 @@ def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
             if not isinstance(item, dict):
                 continue
 
-            # Extract from nested 'external_badge' dictionary
             ext_badge = item.get("external_badge") or {}
             
             title = (
@@ -449,7 +431,6 @@ def fetch_external_badges(user_id: str) -> list[dict[str, Any]]:
             image_url = ext_badge.get("image_url") or item.get("image_url")
             badge_id = item.get("id") or ext_badge.get("credly_record_id")
 
-            # Parse skills from external_badge or top level item
             skills_raw = ext_badge.get("skills", []) or item.get("skills", [])
             skills = [s.get("name") for s in skills_raw if isinstance(s, dict) and s.get("name")]
 
@@ -521,7 +502,6 @@ def build_archives_and_readme(badges: list[dict[str, Any]]) -> None:
         logger.error("❌ Archiver module could not be imported. Please verify archiver.py exists.")
         return
 
-    # Sort badges descending by date
     sorted_badges = sorted(
         badges,
         key=lambda b: str(b.get("issued_at") or ""),
@@ -532,18 +512,22 @@ def build_archives_and_readme(badges: list[dict[str, Any]]) -> None:
     formatted_rows = []
 
     for b in sorted_badges:
-        date_str = b.get("issued_at") or "2026-01-01"
-        title = b.get("title") or "Unknown Credential"
+        date_str = str(b.get("issued_at") or "2026-01-01").strip()
+        title = str(b.get("title") or "Unknown Credential").strip()
         verify_url = b.get("verify_url")
-        issuer = b.get("issuer") or "Credly"
-        v_type = b.get("type") or "Credly Verified"
+        issuer = str(b.get("issuer") or "Credly").strip()
+        v_type = str(b.get("type") or "Credly Verified").strip()
 
         for skill in b.get("skills", []):
             if isinstance(skill, str) and skill.strip():
                 all_skills.add(skill.strip())
 
-        name_cell = f"[{title}]({verify_url})" if verify_url else title
-        row_text = f"| {date_str} | {name_cell} | {issuer} | {v_type} |"
+        title_clean = title.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
+        issuer_clean = issuer.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
+        v_type_clean = v_type.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
+
+        name_cell = f"[{title_clean}]({verify_url})" if verify_url else title_clean
+        row_text = f"| {date_str} | {name_cell} | {issuer_clean} | {v_type_clean} |"
         formatted_rows.append((row_text, date_str))
 
     native_count = sum(1 for b in sorted_badges if b.get("type") == "Credly Verified")
@@ -551,7 +535,6 @@ def build_archives_and_readme(badges: list[dict[str, Any]]) -> None:
     total_count = len(sorted_badges)
     total_skills = len(all_skills)
 
-    # Detect markers in README.md
     marker_start = "<!-- CREDLY_START -->"
     marker_end = "<!-- CREDLY_END -->"
     if os.path.exists("README.md"):
