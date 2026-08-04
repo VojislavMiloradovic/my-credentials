@@ -1,15 +1,16 @@
 import csv
-import glob
 import os
 import re
 import sys
 from datetime import datetime, timezone
 
+from archiver import generate_platform_archive
+
 README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
 PLATFORM_PREFIX = "linkedin-certifications"
+PLATFORM_NAME = "LinkedIn Certifications"
 CERTIFICATIONS_CSV_PATH = "data/Certifications.csv"
-RAW_BASE = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
 
 MARKER_START = "<!-- LINKEDIN_START -->"
 MARKER_END = "<!-- LINKEDIN_END -->"
@@ -37,21 +38,11 @@ def parse_linkedin_date(date_str):
     
     return "N/A"
 
-def clean_old_chunks():
-    pattern = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-*-part-*.md")
-    for f in glob.glob(pattern):
-        try:
-            os.remove(f)
-        except OSError:
-            pass
-
 def parse_certifications_csv():
     if not os.path.exists(CERTIFICATIONS_CSV_PATH):
         return []
 
     certs = []
-    # Dynamically compute current year-month so the script stays correct
-    # regardless of when it runs (avoids stale hardcoded month strings).
     current_year_month = datetime.now(timezone.utc).strftime("%Y-%m")
 
     with open(CERTIFICATIONS_CSV_PATH, mode='r', encoding='utf-8-sig') as f:
@@ -70,8 +61,6 @@ def parse_certifications_csv():
     skipped = 0
 
     for idx, row in enumerate(raw_rows):
-        # Support both title-case and lower-case field names exported by
-        # different LinkedIn data-download generations.
         name = (row.get('Name') or row.get('name') or "").strip()
         if not name:
             skipped += 1
@@ -91,11 +80,6 @@ def parse_certifications_csv():
         issued_date = parse_linkedin_date(started)
         expiry_date = parse_linkedin_date(finished)
 
-        # Guard: only swap when the issued date is in the future AND the
-        # expiry is in the past — a reliable sign that LinkedIn has written
-        # the expiry into the 'Started On' column by mistake.
-        # Certs with a legitimately future started-on date (expiry also
-        # future or absent) are left untouched.
         if (
             issued_date != "N/A"
             and issued_date > current_year_month
@@ -115,8 +99,7 @@ def parse_certifications_csv():
 
     if skipped:
         print(
-            f"⚠️  Skipped {skipped} row(s) out of {total_raw} with missing name "
-            f"(CSV may be incomplete — LinkedIn profile may show a higher count).",
+            f"⚠️  Skipped {skipped} row(s) out of {total_raw} with missing name.",
             file=sys.stderr,
         )
 
@@ -127,170 +110,52 @@ def main():
     if not certs:
         sys.exit(1)
 
-    os.makedirs(ARCHIVE_DIR, exist_ok=True)
-    clean_old_chunks()
-
     total_certs = len(certs)
     certs.sort(key=lambda x: x["original_order"], reverse=True)
     certs.sort(key=lambda x: x.get("issued") if x.get("issued") != "N/A" else "0000-00", reverse=True)
-    
-    now_ym = datetime.now().strftime("%Y-%m")
 
-    # 1. Monolithic Complete Archive
-    monolith_filename = f"{PLATFORM_PREFIX}-complete.md"
-    monolith_path = os.path.join(ARCHIVE_DIR, monolith_filename)
+    table_headers = ["Date Completed", "Certification Title", "Issuing Authority", "Verification Reference"]
+    table_alignments = [":---:", ":---", ":---", ":---"]
 
-    archive_md = []
-    archive_md.append("# Master LinkedIn Certifications History Log\n")
-    archive_md.append(f"Historical record cataloging all {total_certs} verified external professional credentials.\n\n")
-    archive_md.append("| Date Completed | Certification Title | Issuing Authority | Verification Reference |")
-    archive_md.append("| :---: | :--- | :--- | :--- |")
-    
     formatted_rows = []
     for c in certs:
         clean_name = c['name'].replace("|", "\\|")
         clean_auth = c['authority'].replace("|", "\\|")
         ref = f"[Verify Record]({c['url']})" if c['url'] else (c['license'] if c['license'] else "Verified Account Entry")
-        row = f"| {c['issued']} | **{clean_name}** | {clean_auth} | {ref} |"
-        formatted_rows.append((row, c['issued']))
-        archive_md.append(row)
-        
-    archive_md.append(f"\n\n[← Back to Index](./{PLATFORM_PREFIX}-index.md) | [← README](../README.md)\n")
-    with open(monolith_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(archive_md))
+        row_text = f"| {c['issued']} | **{clean_name}** | {clean_auth} | {ref} |"
+        formatted_rows.append((row_text, c['issued']))
 
-    # 2. Chunking Logic (~10 KB limit per file)
-    chunks = []
-    current_chunk_rows = []
-    current_chunk_bytes = 0
-    MAX_BYTES = 9500
+    readme_lines = [
+        "### LinkedIn Professional Certifications Summary",
+        "#### Progress Metrics",
+        "| Metric | Count |",
+        "| :--- | :--- |",
+        f"| **Total External Certifications Verified** | {total_certs:,} |",
+        "",
+        "#### Recent Certifications",
+        f"Showing latest 10 items. View the full dataset via the [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/{PLATFORM_PREFIX}-index.md)) or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).\n",
+        "| Date | Certification Title | Issuing Authority | Credentials Reference |",
+        "| :---: | :--- | :--- | :--- |"
+    ]
 
-    for row_text, row_date in formatted_rows:
-        row_len = len(row_text.encode("utf-8")) + 1
-        if current_chunk_bytes + row_len > MAX_BYTES and current_chunk_rows:
-            chunks.append(current_chunk_rows)
-            current_chunk_rows = []
-            current_chunk_bytes = 0
-        current_chunk_rows.append((row_text, row_date))
-        current_chunk_bytes += row_len
-    if current_chunk_rows:
-        chunks.append(current_chunk_rows)
-
-    total_chunks = len(chunks)
-    chunk_meta = []
-
-    for i, chunk_rows in enumerate(chunks, start=1):
-        chunk_filename = f"{PLATFORM_PREFIX}-{now_ym}-part-{i:02d}.md"
-        chunk_path = os.path.join(ARCHIVE_DIR, chunk_filename)
-        
-        start_date = chunk_rows[-1][1]
-        end_date = chunk_rows[0][1]
-        
-        prev_link = f"[{PLATFORM_PREFIX}-{now_ym}-part-{i-1:02d}.md]({PLATFORM_PREFIX}-{now_ym}-part-{i-1:02d}.md)" if i > 1 else "None"
-        next_link = f"[{PLATFORM_PREFIX}-{now_ym}-part-{i+1:02d}.md]({PLATFORM_PREFIX}-{now_ym}-part-{i+1:02d}.md)" if i < total_chunks else "None"
-        
-        c_md = []
-        c_md.append("---")
-        c_md.append("archive_platform: LinkedIn Certifications")
-        c_md.append(f"chunk_part: {i} of {total_chunks}")
-        c_md.append(f"date_range: {start_date} to {end_date}")
-        c_md.append(f"total_entries: {len(chunk_rows)}")
-        c_md.append(f"raw_url: {RAW_BASE}/{chunk_filename}")
-        c_md.append("---\n")
-        
-        c_md.append(f"# LinkedIn Certifications — Part {i:02d}\n")
-        c_md.append(f"> **Navigation:** Prev: {prev_link} | [Index](./{PLATFORM_PREFIX}-index.md) | Next: {next_link} | [Complete Archive](./{monolith_filename})\n")
-        c_md.append("| Date Completed | Certification Title | Issuing Authority | Verification Reference |")
-        c_md.append("| :---: | :--- | :--- | :--- |")
-        
-        for r_text, _ in chunk_rows:
-            c_md.append(r_text)
-            
-        c_md.append(f"\n---\n> **Navigation:** Prev: {prev_link} | [Index](./{PLATFORM_PREFIX}-index.md) | Next: {next_link}\n")
-        
-        content = "\n".join(c_md)
-        with open(chunk_path, "w", encoding="utf-8") as f:
-            f.write(content)
-            
-        file_size_kb = round(len(content.encode("utf-8")) / 1024, 2)
-        est_tokens = int(len(content) / 4)
-        chunk_meta.append({
-            "filename": chunk_filename,
-            "part": i,
-            "date_range": f"{start_date} to {end_date}",
-            "size_kb": file_size_kb,
-            "tokens": est_tokens,
-            "entries": len(chunk_rows),
-            "raw_url": f"{RAW_BASE}/{chunk_filename}"
-        })
-
-    # 3. Master Platform Index File
-    index_filename = f"{PLATFORM_PREFIX}-index.md"
-    index_path = os.path.join(ARCHIVE_DIR, index_filename)
-    
-    mono_bytes = os.path.getsize(monolith_path) if os.path.exists(monolith_path) else 0
-    mono_kb = round(mono_bytes / 1024, 2)
-    mono_tokens = int(mono_bytes / 4)
-
-    idx_md = []
-    idx_md.append("# LinkedIn Certifications Archive Index\n")
-    idx_md.append("This directory provides chunked, AI-readable historical records for LinkedIn certifications.\n")
-    idx_md.append("## Archive Overview\n")
-    idx_md.append(f"- **Total Certifications Archived:** {total_certs}")
-    idx_md.append(f"- **Monolithic File Size:** ~{mono_kb} KB (~{mono_tokens:,} tokens)")
-    idx_md.append(f"- **Total Chunk Parts:** {total_chunks} chunk(s)\n")
-    
-    idx_md.append("### Monolithic Archive (Complete)\n")
-    idx_md.append("| File Name | Size (KB) | Est. Tokens | Recommended For | Direct Raw URL |")
-    idx_md.append("| :--- | :---: | :---: | :--- | :--- |")
-    idx_md.append(f"| [`{monolith_filename}`](./{monolith_filename}) | {mono_kb} KB | ~{mono_tokens:,} | Large Context Windows (>100k tokens) | [Raw Link]({RAW_BASE}/{monolith_filename}) |\n")
-    
-    idx_md.append("### Chunked Archive Parts (~10 KB Slices)\n")
-    idx_md.append("| Part | File Name | Date Range | Entries | Size (KB) | Est. Tokens | Direct Raw URL |")
-    idx_md.append("| :---: | :--- | :---: | :---: | :---: | :---: | :--- |")
-    
-    for cm in chunk_meta:
-        idx_md.append(f"| Part {cm['part']:02d} | [`{cm['filename']}`](./{cm['filename']}) | `{cm['date_range']}` | {cm['entries']} | {cm['size_kb']} KB | ~{cm['tokens']} | [Raw URL]({cm['raw_url']}) |")
-
-    idx_md.append("\n\n[← Back to Main README](../README.md)\n")
-    
-    with open(index_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(idx_md))
-
-    # 4. Update README.md
-    md = []
-    md.append("### LinkedIn Professional Certifications Summary")
-    md.append("#### Progress Metrics")
-    md.append("| Metric | Count |")
-    md.append("| :--- | :--- |")
-    md.append(f"| **Total External Certifications Verified** | {total_certs:,} |")
-    md.append("\n")
-    
-    latest_chunk_raw = chunk_meta[0]['raw_url'] if chunk_meta else f"{RAW_BASE}/{monolith_filename}"
-    index_raw = f"{RAW_BASE}/{index_filename}"
-
-    md.append("#### Recent Certifications")
-    md.append(f"Showing latest 10 items. View the full dataset via the [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({latest_chunk_raw}), or the [Monolithic Complete File](./archives/{monolith_filename}).\n")
-    md.append("| Date | Certification Title | Issuing Authority | Credentials Reference |")
-    md.append("| :---: | :--- | :--- | :--- |")
-    
     for c in certs[:10]:
         clean_name = c['name'].replace("|", "\\|")
         clean_auth = c['authority'].replace("|", "\\|")
         ref = f"[Verify Record]({c['url']})" if c['url'] else (c['license'] if c['license'] else "N/A")
-        md.append(f"| *{c['issued']}* | **{clean_name}** | {clean_auth} | {ref} |")
-    md.append("\n")
-    
-    if os.path.exists(README_PATH):
-        with open(README_PATH, "r", encoding="utf-8") as f:
-            readme_content = f.read()
+        readme_lines.append(f"| *{c['issued']}* | **{clean_name}** | {clean_auth} | {ref} |")
 
-        if MARKER_START in readme_content and MARKER_END in readme_content:
-            parts_before = readme_content.split(MARKER_START)[0]
-            parts_after = readme_content.split(MARKER_END)[1]
-            new_readme = f"{parts_before}{MARKER_START}\n" + "\n".join(md) + f"{MARKER_END}{parts_after}"
-            with open(README_PATH, "w", encoding="utf-8") as f:
-                f.write(new_readme)
+    generate_platform_archive(
+        platform_prefix=PLATFORM_PREFIX,
+        platform_name=PLATFORM_NAME,
+        table_headers=table_headers,
+        table_alignments=table_alignments,
+        formatted_rows=formatted_rows,
+        readme_lines=readme_lines,
+        marker_start=MARKER_START,
+        marker_end=MARKER_END,
+        archive_dir=ARCHIVE_DIR,
+        readme_path=README_PATH,
+    )
 
 if __name__ == "__main__":
     main()
