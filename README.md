@@ -46,38 +46,20 @@ Showing latest 10 of 4,794 achievements. View the full dataset via the [Platform
 ## Google Skills Credentials
 
 <!-- GOOGLE_SKILLS_START -->
+### Google Skills Credentials
 
-### Google Cloud Skills Boost (340 Badges)
+[Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Public Profile:** [Verify Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)  
-**Total Lifetime Points:** 200,651
+Public Profile: [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
+**Total Portfolio Credentials:** 0
+**Total Verified Skills Mapped:** 0
 
-#### Platform Progress Summary
-| Metric | Count |
-|---|---|
-| **Course** | 350 |
-| **Check** | 1,875 |
-| **Classroom** | 0 |
-| **Game** | 6 |
-| **Lab** | 244 |
-| **Lesson** | 4,871 |
+#### Latest Earned Credentials
 
-#### Latest Earned Badges
-| Date Earned | Badge Title |
-|:---:|---|
-| *2026-08-03* | **Privileged Access with IAM** |
-| *2026-07-29* | **Analyze Images with the Cloud Vision API** |
-| *2026-07-29* | **Build Event-Driven Applications with Eventarc** |
-| *2026-07-26* | **Implement Sensitive Data Protection on Google Cloud** |
-| *2026-07-26* | **Gemini in Google Chat** |
-| *2026-07-26* | **Scaling Data Science with Agents** |
-| *2026-07-23* | **Configure VPC Routes and Addresses** |
-| *2026-07-23* | **Set Up Multiple Network Interfaces** |
-| *2026-07-23* | **Orchestrate Workflows with the Data Agent Kit** |
-| *2026-07-23* | **Arcade Adventure: Low-Code Development** |
+Showing latest 10 of 0 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-01.md), or [Monolithic File](./archives/google-skills-complete.md).
 
-👉 [View Platform Index](./archives/google-cloud-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-index.md) | [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-2026-08-part-01.md) | [Complete Monolith](./archives/google-cloud-skills-complete.md))
-
+| Date Earned | Credential Name | Issuer | Verification Type |
+| :---: | :--- | :--- | :---: |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials
