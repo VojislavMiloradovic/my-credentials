@@ -29,7 +29,7 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,794 achievements. View the full dataset via the [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-01.md), or the [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,794 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)) or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 - **Secure sensitive data with Microsoft Purview Ninja training scenarios** (Learningpaths | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/purview-ninja-safeguard-data/))
 - **Safeguard sensitive data in remote work with Endpoint DLP** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-safeguard-remote-work/))

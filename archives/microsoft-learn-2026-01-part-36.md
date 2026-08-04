@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 36 of 93
-date_range: 2026-01-24 to 2026-01-26
-total_entries: 54
+chunk_part: 36 of 95
+date_range: 2026-01-23 to 2026-01-24
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-36.md
 ---
 
@@ -12,60 +12,56 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Automate the configuration of Windows Server IaaS Virtual Machines | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-configuration-of-windows-server-iaas-virtual-machines/) |
-| Investigate insider risk alerts and related activity | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-insider-risk-investigate-alerts/) |
-| Implement and manage Microsoft Purview Insider Risk Management | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-insider-risk-management/) |
-| Write data in a Power Apps canvas app | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-data/) |
-| Audit the security of Windows Server IaaS Virtual Machines | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-security-of-windows-server-iaas-virtual-machines/) |
-| Implement secure Azure solutions | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-secure-cloud-solutions/) |
-| Implement managed identities | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-managed-identities/) |
-| Configure secure access to Azure Repos from pipelines | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-access-azure-repos-from-pipelines/) |
-| Scale and manage deployed container apps | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-manage-deployed-container-apps/) |
-| Configure client connectivity to Microsoft 365 | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-client-connectivity-microsoft-365/) |
-| Extend a pipeline to use multiple templates | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-pipeline-use-multiple-templates/) |
-| Configure Azure Container Registry for container app deployments | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-container-registry-container-app-deployments/) |
-| Configure pipelines to securely use variables and parameters | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-pipelines-securely-use-variables-parameters/) |
-| Configure a container app in Azure Container Apps | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-container-app-azure-container-apps/) |
-| MD-102 Execute device enrollment | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/execute-device-enrollment/) |
-| Manage device authentication | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-device-authentication/) |
-| Configure and validate permissions | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-validate-permissions/) |
-| Configure continuous deployment for container apps | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-continuous-deployment-container-apps/) |
-| Configure secure access to pipeline resources | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-access-pipeline-resources/) |
-| Troubleshoot solutions by using Application Insights | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-instrument-solutions-support-monitoring-logging/) |
-| Monitor app performance | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-app-performance/) |
-| Introduction to expressions in Power Automate | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-expressions/) |
-| Explore identity in Microsoft Entra ID | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-identity-azure-active-directory/) |
-| Implement Azure Key Vault | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-key-vault/) |
-| Enroll devices using Microsoft Intune | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-devices-use-intune/) |
-| Apply filters on functions | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/combine-prompts-functions/) |
-| Develop solutions that use Blob storage | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-solutions-that-use-blob-storage/) |
-| Explore Azure Blob storage | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/) |
-| Manage identity for projects, pipelines, and agents | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-identity-projects-pipelines-agents/) |
-| Manage resources in Azure | Learningpaths | 2026-01-25 | N/A |
-| Implement resource management security in Azure | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-resource-mgmt-security/) |
-| Control and organize Azure resources with Azure Resource Manager | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-and-organize-with-azure-resource-manager/) |
-| Work with entities and variables in Microsoft Copilot Studio | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-virtual-agents-entities/) |
-| Introduction to AD DS | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-ad-ds/) |
-| Implement Azure App Configuration | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/) |
-| Manage persistent connections to remote computers by using Windows PowerShell sessions | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-persistent-connections-to-remote-computers/) |
-| Dyslexia Awareness: Part 2, in partnership with Made By Dyslexia | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-awareness-part-2/) |
-| Work with Azure Cosmos DB | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-cosmos-db/) |
-| Oversee device profiles | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/oversee-device-profiles/) |
-| OneNote Class Notebook: A teacher's all-in-one notebook for students | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/onenote-class-notebook-teacher-all-in-one-notebook/) |
-| Elevate Educator - Expert (General) | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/elevate-educator-expert-general/) |
-| Dyslexia Teaching: Part 2, In partnership with Made By Dyslexia | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-teaching-part-2/) |
-| Protect email with Microsoft Purview Message Encryption | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-message-encryption-microsoft-365/) |
-| Implement Azure Container Apps | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-container-apps/) |
-| GitHub Foundations Part 2 of 2 | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-foundations-2/) |
-| Authenticate and authorize user identities on GitHub | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/) |
-| Administer and manage Windows Server IaaS Virtual Machine remotely | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-manage-windows-server-iaas-virtual-machine-remotely/) |
-| Run prompts with Semantic Kernel | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-plugins-semantic-kernel/) |
-| Create Semantic Kernel plugins | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/give-your-ai-agent-skills/) |
-| Run container images in Azure Container Instances | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-run-container-images-azure-container-instances/) |
-| Accelerate app development by using GitHub Copilot | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/accelerate-app-development-using-github-copilot/) |
-| Develop code features using GitHub Copilot tools | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-code-features-using-github-copilot-tools/) |
-| Administer Active Directory Domain Services | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/administer-active-directory-domain-services/) |
-| Deploy and manage Active Directory Domain Services domain controllers | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-active-directory-domain-services-domain-controllers/) |
+| **Implement Azure Container Apps** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-container-apps/) |
+| **GitHub Foundations Part 2 of 2** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-foundations-2/) |
+| **Authenticate and authorize user identities on GitHub** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/) |
+| **Administer and manage Windows Server IaaS Virtual Machine remotely** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-manage-windows-server-iaas-virtual-machine-remotely/) |
+| **Run prompts with Semantic Kernel** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-plugins-semantic-kernel/) |
+| **Create Semantic Kernel plugins** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/give-your-ai-agent-skills/) |
+| **Run container images in Azure Container Instances** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-run-container-images-azure-container-instances/) |
+| **Accelerate app development by using GitHub Copilot** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/accelerate-app-development-using-github-copilot/) |
+| **Develop code features using GitHub Copilot tools** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-code-features-using-github-copilot-tools/) |
+| **Administer Active Directory Domain Services** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/administer-active-directory-domain-services/) |
+| **Deploy and manage Active Directory Domain Services domain controllers** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-active-directory-domain-services-domain-controllers/) |
+| **Implement Group Policy Objects** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-group-policy-objects/) |
+| **Power Platform Solution Management: Sharing, Customization, and Low-Code Development Essentials** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/sharing-customization-low-code-development-essentials/) |
+| **Basic application lifecycle management in Microsoft Power Platform** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/basic-application-lifecycle-management-microsoft-power-platform/) |
+| **Manage solutions in Power Apps and Power Automate** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-solutions-power-automate/) |
+| **Manage the Azure Blob storage lifecycle** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-blob-storage-lifecycle/) |
+| **Work with Azure Blob storage** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-azure-blob-storage/) |
+| **Introduction to Microsoft Sentinel** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-sentinel/) |
+| **Enroll devices using Microsoft Configuration Manager** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-devices-use-endpoint-configuration-manager/) |
+| **Learning Accelerators for educators** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/learning-accelerators-for-educators/) |
+| **Build social and emotional skills in your classroom community with Reflect** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-sel-skills-with-reflect/) |
+| **Introduction to data engineering on Azure** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-data-engineering-azure/) |
+| **Get started with data engineering on Azure** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-data-engineering/) |
+| **Guided project - Administer Active Directory Domain Services** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-administer-active-directory-domain-services/) |
+| **Guided project - Accelerate app development using GitHub Copilot tools** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-accelerate-app-development-using-github-copilot-tools/) |
+| **Generate documentation using GitHub Copilot tools** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-documentation-using-github-copilot-tools/) |
+| **Implement code improvements using GitHub Copilot tools** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-code-improvements-using-github-copilot-tools/) |
+| **Foundations of a modern public sector security operations center** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/foundations-modern-public-sector-security-operations-center/) |
+| **Implement Azure App Service web apps** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-azure-app-service-web-apps/) |
+| **Explore Azure App Service** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/) |
+| **Challenge project - Create Microsoft Power Platform solutions** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-microsoft-power-platform-solutions/) |
+| **Maintain an Azure AI Search solution** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-azure-cognitive-search-solution/) |
+| **Implement knowledge mining with Azure AI Search** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-knowledge-mining-azure-cognitive-search/) |
+| **Create an Azure AI Search solution** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-cognitive-search-solution/) |
+| **Govern data in Microsoft Fabric with Purview** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/fabric-data-governance-purview/) |
+| **Administer and govern Microsoft Fabric** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-fabric-admin-governance/) |
+| **OneNote Staff Notebook: Tools for staff collaboration** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/onenote-staff-notebook/) |
+| **Search data outside the Azure platform in Azure AI Search using Azure Data Factory** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/search-data-outside-azure-platform-cognitive-search/) |
+| **Manage security in Active Directory** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-security-active-directory/) |
+| **Perform search reranking with semantic ranking in Azure AI Search** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-semantic-search/) |
+| **Defend against cyberthreats with Microsoft Defender XDR** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-5004-defend-against-cyberthreats-defender/) |
+| **Defend against Cyberthreats with Microsoft Defender XDR lab exercises** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/defend-against-cyberthreats-microsoft-defender-xdr-labs/) |
+| **Perform device investigations in Microsoft Defender for Endpoint** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-device-investigations-microsoft-defender-for-endpoints/) |
+| **Building applications with GitHub Copilot agent mode** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-agent-mode/) |
+| **Perform vector search and retrieval in Azure AI Search** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-search-results-vector-search/) |
+| **Implement advanced search features in Azure AI Search** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-advanced-search-features-azure-cognitive-search/) |
+| **Create and configure Group Policy Objects in Active Directory** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-configure-group-policy-objects-active-directory/) |
+| **How to build the User Interface in a canvas app in Power Apps** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/how-to-build-ui-canvas-app/) |
+| **Create and manage Active Directory objects** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-active-directory-objects/) |
+| **Develop Azure Functions** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-35.md](./microsoft-learn-2026-01-part-35.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-37.md](./microsoft-learn-2026-01-part-37.md)

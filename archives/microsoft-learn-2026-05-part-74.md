@@ -1,71 +1,66 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 74 of 93
-date_range: 2026-05-05 to 2026-05-09
-total_entries: 53
+chunk_part: 74 of 95
+date_range: 2026-04-29 to 2026-05-04
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-74.md
 ---
 
 # Microsoft Learn — Part 74
 
-> **Navigation:** Prev: [microsoft-learn-2026-05-part-73.md](./microsoft-learn-2026-05-part-73.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-75.md](./microsoft-learn-2026-05-part-75.md) | [Complete Archive](./microsoft-learn-complete.md)
+> **Navigation:** Prev: [microsoft-learn-2026-04-part-73.md](./microsoft-learn-2026-04-part-73.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-75.md](./microsoft-learn-2026-05-part-75.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Configure AI Gateway security in Microsoft Foundry | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ai-gateway-security-foundry/) |
-| Welcome to Dragon Copilot for nurse leaders | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurse-leaders-welcome/) |
-| Scale how you work by creating AI agents | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-work-creating-ai-agents/) |
-| Use GitHub Copilot for cloud operations | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-github-copilot-cloud-operations/) |
-| Optimize and fine-tune AI agents for production | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-finetune-agents/) |
-| Dragon Copilot - nurse leaders essentials | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurse-leaders-essentials/) |
-| Design AI-powered business solutions with Microsoft Power Platform | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ai-powered-solutions-power-platform/) |
-| Monitor, troubleshoot and optimize workloads in Azure Databricks | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-optimize-workloads-azure-databricks/) |
-| Govern Unity Catalog objects | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-unity-catalog-objects/) |
-| Identify AI data risks using Microsoft Purview Data Security Posture Management | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-ai-data-risks-purview/) |
-| Build intelligent agents in Microsoft Copilot Studio | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-studio-knowledge/) |
-| Turn business ideas into Power Platform solutions with Plans | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/turn-business-ideas-power-platform-solutions-plans/) |
-| Develop AI agents on Azure | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/) |
-| Integrate your agent with Microsoft 365 | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-foundry-agent-with-m365/) |
-| Integrate MCP Tools with Azure AI Agents | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/) |
-| Develop AI agents on Azure (deprecated) | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-on-azure/) |
-| Develop computer vision solutions with Microsoft Foundry | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-computer-vision-with-foundry/) |
-| Generate videos with Microsoft Foundry | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-video-with-foundry/) |
-| Evaluate and optimize AI agents through structured experiments | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-optimize-agents/) |
-| Discover Azure AI Agents with A2A | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/) |
-| Develop AI agents with Microsoft Foundry and Visual Studio Code | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-azure-vs-code/) |
-| Create an Azure Content Understanding client application | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-content-ai-api/) |
-| Develop AI information extraction solutions in Azure | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-extract-information/) |
-| Build knowledge-enhanced AI agents with Foundry IQ | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-foundry-iq/) |
-| Analyze images with Content Understanding | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-images-with-content-understanding/) |
-| Analyze and debug your generative AI app with tracing | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/tracing-generative-ai-app/) |
-| Secure access for Microsoft Entra Agent Identity | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-access-entra-agent-identity/) |
-| Manage agents using Microsoft Agent 365 | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-agents-microsoft-agent-365/) |
-| Choose the right moment to modernize Windows Server | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-the-right-moment/) |
-| Dragon Copilot (physicians) practical application exercises | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-physicians-practical-application-exercises/) |
-| Dragon Copilot (physicians) practical application exercises summary | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-practical-applications-summary/) |
-| Dragon Copilot (physicians) introduction to practical application exercises | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-welcome-to-practical-applications/) |
-| Understand AI agents and prompting | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-ai-agents-prompting/) |
-| Turn information into decisions with AI agents | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/turn-info-into-decisions-ai-agents/) |
-| Experience Security Copilot through guided simulations | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-interactive-guides/) |
-| Enhance ESG Reporting with social and governance data | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-track-social-governance-data/) |
-| Secure and harden Internet Information Services | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-harden-internet-information-services/) |
-| Orchestrate configuration of prebuilt agents and apps | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-configuration-prebuilt-agents-apps/) |
-| Design ALM process for AI-powered business solutions | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-alm-process-ai-powered-business-solutions/) |
-| Accelerate development with GitHub Copilot Cloud Agent | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/) |
-| Develop a text analysis agent with the Azure Language MCP server | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-text-analysis-agent-language-mcp/) |
-| Dragon Copilot (nurses) troubleshooting | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-troubleshoot-issues/) |
-| Connect IoT devices to Azure AI Speech using Azure Functions | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/connecting-iot-devices-cognitive-services-azure-functions/) |
-| Analyze AI identity risks using Microsoft Defender XDR | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-ai-identity-risks-defender-xdr/) |
-| Manage AI thoughtfully, developed in partnership with ISTE+ASCD | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-ai-thoughtfully/) |
-| Develop your first agent with Microsoft Foundry | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-first-agent/) |
-| Dragon Copilot (physicians) learn to train summary | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-learn-to-train-summary/) |
-| Dragon Copilot (nurses)- Train and coach advanced functionalities | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-advance-skills/) |
-| Dragon Copilot (nurses) trainer essentials | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-trainer-essentials/) |
-| Dragon Copilot (nurses) learn to train summary | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-learn-to-train-summary/) |
-| Design AI Workloads on Azure | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ai-workloads/) |
-| Manage security posture by using Microsoft Defender for Cloud | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-security-posture-defender-cloud/) |
-| Identify security risks by using Cloud Security Posture Management | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-security-risks-posture-management/) |
+| **Take action in external systems using connector and REST API agent tools in Microsoft Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/take-action-external-systems-connector-rest-api-tools-copilot-studio/) |
+| **Build cross-platform multi-agent solutions using the Agent2Agent protocol in Microsoft Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cross-platform-multi-agent-solutions-agent2agent-copilot-studio/) |
+| **Configure platform-level security for Azure SQL** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-sql-platform-security/) |
+| **Implement security for Azure SQL databases** | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-azure-sql-database-security/) |
+| **Configure auditing for Azure SQL Database and SQL Managed Instance** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-sql-auditing/) |
+| **Qualify leads using the Sales Qualification Agent in Dynamics 365 Sales** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/sales-qualification-agent-dynamics-365-sales/) |
+| **Close deals using AI agents in Dynamics 365 Sales** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-deals-using-ai-agents-dynamics-365-sales/) |
+| **Analyze sales performance using AI, forecasting, and dashboards in Dynamics 365 Sales** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-forecast-sales-performance-dynamics-365-sales/) |
+| **Implement Microsoft Defender for Databases** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-databases/) |
+| **Transform data using notebooks in Microsoft Fabric** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/fabric-transform-data-notebooks/) |
+| **Transform data using T-SQL in Microsoft Fabric** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/fabric-transform-data-tsql/) |
+| **Transform data using Dataflows Gen2 in Microsoft Fabric** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/fabric-transform-data-dataflows/) |
+| **Protect and remediate sensitive data in Microsoft Purview** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-posture-management-protect-remediate/) |
+| **Manage the semantic model development lifecycle** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-semantic-model-lifecycle/) |
+| **Govern analytics data in Microsoft Fabric** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/fabric-govern-analytics-data/) |
+| **Secure and govern analytics data in Microsoft Fabric** | Learningpaths | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-govern-analytics-data/) |
+| **Get started with Microsoft Fabric** | Learningpaths | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/) |
+| **Design semantic models for scale in Microsoft Fabric** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-semantic-models-scale/) |
+| **Welcome to Dragon Copilot (nurses) learn to train** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-learn-to-train-welcome/) |
+| **Extend Dynamics 365 apps with Power Platform and Copilot Studio** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-dynamics365-apps-power-platform/) |
+| **Investigate data security risks with Microsoft Purview Data Security Posture Management** | Modules | 2026-05-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-posture-management-investigate-risks/) |
+| **Configure workspaces for Microsoft Security Copilot** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-security-copilot-workspaces/) |
+| **Manage plugins and agents in Microsoft Security Copilot** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-plugins-agents-security-copilot/) |
+| **Transition from traditional ops to agentic DevOps workflows** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-traditional-ops-agent-automation/) |
+| **Develop generative AI apps in Azure** | Learningpaths | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-generative-ai-apps/) |
+| **Select, deploy, and evaluate Microsoft Foundry models** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/model-catalog-evaluate/) |
+| **Introduction to student security operations centers (SOCs)** | Learningpaths | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-student-security-operations-centers/) |
+| **Explore SOC tools and technologies with Microsoft Security** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-tools-technologies-microsoft-security/) |
+| **Protect Azure Key Vault with Microsoft Defender for Cloud** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/defend-key-vault-defender-cloud/) |
+| **Manage keys and secrets in Azure Key Vault** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-keys-secrets-key-vault/) |
+| **Manage certificates and monitor Azure Key Vault** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-certificates-monitor-key-vault/) |
+| **Configure and secure Azure Key Vault** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-key-vault/) |
+| **Use GitHub Copilot plan mode for cloud operations tasks** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-plan-mode-cloud-ops/) |
+| **Assess data security posture in Microsoft Purview** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-dspm-assess-data-security-posture/) |
+| **Understand security operations centers (SOCs) to manage cybersecurity** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-security-operations-centers-manage-cybersecurity/) |
+| **Build a cybersecurity career with SOC best practices** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cybersecurity-career-soc-best-practices/) |
+| **Analyze cybersecurity incidents with Security Copilot** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-cybersecurity-incidents-security-copilot/) |
+| **Introduction to Windows 365** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-windows-365/) |
+| **Optimize generative AI model performance with Microsoft Foundry** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-generative-ai-model-performance/) |
+| **Configure workload identities and permissions for AI environments** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-entra-ai-configure-workload-identities/) |
+| **Minecraft Connections: Integrate across the curriculum** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/minecraft-connections-integrate-across-curriculum/) |
+| **Guided project – Build a sample app to evaluate Microsoft Entra External ID for seamless and secure sign-up and sign-in for consumers and business customers** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/entra-external-identities/) |
+| **Guided project - Add sign-up in an Android mobile app and iOS/macOS app using native authentication** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-entra-external-native-authentication/) |
+| **Upgrade from AX 2012 to Dynamics 365 Finance** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/upgrade-ax-finance-operations/) |
+| **Set up metrics and alerts for Customer Voice surveys** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/metrics-alerts-voice-surveys/) |
+| **Build a model-driven app by using virtual health data tables** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-interoperability-build-application/) |
+| **Integrate Dynamics 365 Sales with Dynamics 365 Business Central using Dataverse** | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dynamics-365-sales-business-central-dataverse/) |
+| **Sync sales orders from and to Dynamics 365 Business Central and Dynamics 365 Sales** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-sales-orders-business-central/) |
 
 ---
-> **Navigation:** Prev: [microsoft-learn-2026-05-part-73.md](./microsoft-learn-2026-05-part-73.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-75.md](./microsoft-learn-2026-05-part-75.md)
+> **Navigation:** Prev: [microsoft-learn-2026-04-part-73.md](./microsoft-learn-2026-04-part-73.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-75.md](./microsoft-learn-2026-05-part-75.md)
 

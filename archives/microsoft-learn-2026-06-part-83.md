@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 83 of 93
-date_range: 2026-06-11 to 2026-06-18
-total_entries: 53
+chunk_part: 83 of 95
+date_range: 2026-06-06 to 2026-06-08
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-83.md
 ---
 
@@ -12,59 +12,57 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Microsoft Learn for Educators student certification | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-out-course/) |
-| Solution architect series: Explore Microsoft Copilot Studio | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/architect-power-virtual-agents/) |
-| Plan and implement an identity governance strategy | Learningpaths | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-implement-identity-governance-strategy/) |
-| Configure and govern entitlement with Microsoft Entra ID | Learningpaths | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-entitlement-microsoft-entra-id/) |
-| Monitor and maintain Microsoft Entra ID | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-azure-active-directory/) |
-| Explore release strategy recommendations | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/) |
-| Plan, implement, and manage access review | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-manage-access-review/) |
-| Configure auto attendants and call queues | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-auto-attendants-call-queues/) |
-| Plan and implement privileged access | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-privileged-access/) |
-| Manage alerts, blameless retrospectives and a just culture | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/) |
-| Design solutions that align with security best practices and priorities | Learningpaths | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-solutions-best-practices-priorities/) |
-| Design a resiliency strategy for ransomware and other attacks based on Microsoft Security Best Practices | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-resiliency-strategy-common-cyberthreats-like-ransomware/) |
-| Plan and implement entitlement management | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-entitlement-management/) |
-| Solution Architect series: Power Platform architecture | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-platform-architecture/) |
-| Introduction to Secure DevOps | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/) |
-| Create Azure Resources by using Azure Resource Manager templates | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/) |
-| Integrate with identity management systems | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/) |
-| Create Azure Resources Using Azure CLI | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/) |
-| Explore Power Automate architecture | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-automate-architecture/) |
-| Automate inspection of health | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/) |
-| Implement and monitor the integration of enterprise apps for SSO | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-monitor-integration-of-enterprise-apps-for-sso/) |
-| Propose a solution as a Solution Architect for Microsoft Power Platform and Dynamics 365 | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/propose-solution/) |
-| Architect solutions for Dynamics 365 and Microsoft Power Platform | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/become-solution-architect/) |
-| Introduction to Zero Trust and best practice frameworks | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-zero-trust-best-practice-frameworks/) |
-| Introduction to GitHub Packages | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/) |
-| Discover customer needs as a Solution Architect for Dynamics 365 and Microsoft Power Platform | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-customer-needs/) |
-| Work with requirements for Microsoft Power Platform and Dynamics 365 | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-requirements/) |
-| Design Dynamics 365 Solutions | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-dynamics-365-solutions/) |
-| Plan for Microsoft Teams Phone | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-teams-phone-system/) |
-| Design security solutions that align with the Cloud Adoption Framework (CAF) and Well-Architected Framework (WAF) | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-align-cloud-adoption-framework-well-architected-framework/) |
-| View, troubleshoot, and improve app performance for Power Apps canvas apps | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/improve-app-performance/) |
-| Complete testing and performance checks in a Power Apps canvas app | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/testing-performance-checks-powerapps/) |
-| Use advance techniques in canvas apps to perform custom updates and optimization | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-advance-techniques-canvas-apps-custom-updates-optimization/) |
-| Security monitoring and governance | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/) |
-| Perform fit gap analysis | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/fit-gap-analysis/) |
-| Design a container build strategy | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/) |
-| AZ-400: Implement CI with Azure Pipelines and GitHub Actions | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-ci-azure-pipelines-github-actions/) |
-| Desktop flows and Robotic Process Automation in Power Automate | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/desktop-flows-robotic-process-automation-power-automate/) |
-| Scripting in Power Automate desktop app | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-scripting/) |
-| Introduction to developing with Microsoft Power Platform | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-development-power-platform/) |
-| Introduction to extending Power Platform | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-extend/) |
-| AZ-305: Design infrastructure solutions | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-infranstructure-solutions/) |
-| Design migrations | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-migrations/) |
-| AZ-305: Design identity, governance, and monitor solutions | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-identity-governance-monitor-solutions/) |
-| Design governance | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-governance/) |
-| Design an Azure compute solution | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-compute-solution/) |
-| Integrate with Azure Pipelines | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/) |
-| Learn how Microsoft supports using multifactor authentication as part of a cybersecurity solution | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-mfa-for-cybersecurity/) |
-| Implement and manage hybrid identity | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-hybrid-identity/) |
-| Implement an identity management solution using Microsoft Entra ID | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-identity-management-solution/) |
-| Design and implement a pipeline strategy | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/) |
-| Implement and manage external identities | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-external-identities/) |
-| Describe pipelines and concurrency | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/) |
+| **Understand Microsoft 365 Agents SDK** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-copilot-stack/) |
+| **Build Custom Engine Agents with the Microsoft 365 Agents SDK** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-custom-copilots-microsoft-teams/) |
+| **Utilize an Azure OpenAI model to create an Agent** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/utilize-azure-openai-model-create-app/) |
+| **Build your custom Agent using Microsoft 365 Agents SDK** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-custom-agent-teams/) |
+| **Design scalable semantic models** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-scalable-semantic-models/) |
+| **Work with semantic models in Microsoft Fabric** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-semantic-models-microsoft-fabric/) |
+| **Model data with Power BI** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/model-data-power-bi/) |
+| **Prepare and visualize data with Microsoft Power BI** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-visualize-data-power-bi/) |
+| **Configure a semantic model** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-semantic-model-power-bi/) |
+| **Challenge GitHub Copilot with SQL** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-github-copilot-sql/) |
+| **Introduction to Azure DevOps to GitHub migration** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-ado-to-github-migration/) |
+| **Secure and govern Microsoft 365 Copilot interactions with Microsoft Purview** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-secure-govern-copilot-interactions/) |
+| **Secure AI interactions and environments with Microsoft Purview** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-ai/) |
+| **Understand How to Secure AI Data with Microsoft Purview** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-understand-risks/) |
+| **Secure Microsoft 365 Copilot interactions with Microsoft Purview** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-secure-copilot/) |
+| **Secure enterprise and browser-based AI apps with Microsoft Purview** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-secure-enterprise-other/) |
+| **GitHub Copilot Fundamentals Part 2 of 2** | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
+| **Introduction to MCP Server** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/mcp-server/) |
+| **Understand how Microsoft Purview Unified Catalog unifies your data estate** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-unified-catalog-understand/) |
+| **Leveling up code reviews and pull requests with GitHub Copilot** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/) |
+| **Azure Local Accreditation 2025** | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-local-accreditation-2025/) |
+| **Hyperconverged Infrastructure (HCI) Stack** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/hci-stack/) |
+| **Operate hybrid infrastructure with Azure Local** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/operate-hybrid-infrastructure-with-azure-local/) |
+| **Hybrid cloud integration with Azure Local** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/hybrid-cloud-integration-with-azure-local/) |
+| **GitHub Copilot Fundamentals Part 1 of 2** | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot/) |
+| **Introduction to Copilot Spaces** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-spaces/) |
+| **Perform code maintenance tasks using GitHub Copilot Agent** | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/perform-code-maintenance-tasks-github-copilot-agent/) |
+| **Consolidate duplicate logic using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/consolidate-duplicate-logic-github-copilot-agent/) |
+| **Refactor large functions using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/refactor-large-functions-github-copilot/) |
+| **Simplify complex conditionals using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/simplify-complex-conditionals-github-copilot-agent/) |
+| **Improve code performance using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-code-performance-github-copilot-agent/) |
+| **Azure Devops to GitHub Enterprise Migrations Part III - Migration Testing and Production Migration** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-3/) |
+| **Azure Devops to GitHub Enterprise Migrations Part II - Source Environment Assessment and Target Environment Setup** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-2/) |
+| **Azure DevOps to GitHub Enterprise Migrations Part IV - Post-Migration Stabilization, Enablement, and Operations** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-four/) |
+| **Enhance AI solutions with Azure Managed Redis** | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-ai-solutions-azure-managed-redis/) |
+| **Implement event messaging with Azure Managed Redis** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-event-messaging-azure-managed-redis/) |
+| **Implement data operations in Azure Managed Redis** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-operations-azure-managed-redis/) |
+| **Implement vector storage in Azure Managed Redis** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-storage-azure-managed-redis/) |
+| **Deploy and monitor applications on Azure Kubernetes Service** | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-monitor-apps-azure-kubernetes-service/) |
+| **Configure applications on Azure Kubernetes Service** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-apps-azure-kubernetes-service/) |
+| **Enhance endpoint security with Microsoft Intune and Microsoft Security Copilot** | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-endpoint-security-microsoft-intune-copilot/) |
+| **Prepare Microsoft Entra ID and Intune for device management** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-microsoft-entra-id-intune-device-management/) |
+| **Harden endpoints and monitor security with Microsoft Intune and Defender for Endpoint** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-endpoints-monitor-security-intune-defender-endpoint/) |
+| **Enroll and validate devices with Microsoft Intune** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-validate-devices-microsoft-intune/) |
+| **Configure and secure devices with Microsoft Intune policies** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-devices-intune-policies/) |
+| **Accelerate endpoint remediation and response with Microsoft Security Copilot** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/accelerate-endpoint-remediation-response-security-copilot/) |
+| **Analyze advanced device signals with Microsoft Intune Suite** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-advanced-device-signals/) |
+| **Explore Windows 365 for cloud PC deployment** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-365-intune/) |
+| **Manage capacity pool for Azure NetApp Files** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-capacity-pool-azure-netapp-files/) |
+| **Deliver zero-touch Windows 11 Pro deployments** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-zero-touch/) |
+| **Take action on content with Click to Do** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/click-to-do/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md)

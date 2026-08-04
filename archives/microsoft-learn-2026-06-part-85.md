@@ -1,67 +1,69 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 85 of 93
-date_range: 2026-06-22 to 2026-06-26
-total_entries: 49
+chunk_part: 85 of 95
+date_range: 2026-06-13 to 2026-06-18
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-85.md
 ---
 
 # Microsoft Learn — Part 85
 
-> **Navigation:** Prev: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-86.md](./microsoft-learn-2026-07-part-86.md) | [Complete Archive](./microsoft-learn-complete.md)
+> **Navigation:** Prev: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-86.md](./microsoft-learn-2026-06-part-86.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| GitHub administration for GitHub Advanced Security | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-administration-github-advanced-security/) |
-| Explore Azure for SAP compute | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-compute/) |
-| Migrate data and go live with finance and operations apps | Learningpaths | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-data-go-live-finance-operations/) |
-| Prepare data for migration to finance and operations apps | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-data-migration-finance-operations/) |
-| Design Secure and Scalable Platform Architectures | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-secure-scalable-platform-architectures/) |
-| Train deep learning models in Azure Databricks | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/deep-learning-azure-databricks/) |
-| Build machine learning solutions using Azure Databricks | Learningpaths | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-operate-machine-learning-solutions-azure-databricks/) |
-| Design data models for Dynamics 365 solutions | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-models/) |
-| Prepare to go-live with finance and operations apps | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-go-live-finance-operations/) |
-| Implement Tools to Track Usage and Flow | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/) |
-| AZ-400: Implement continuous feedback | Learningpaths | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-continuous-feedback/) |
-| Build expertise with Power Automate desktop app | Learningpaths | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-build-expertise/) |
-| Active Directory handling in Power Automate for desktop | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-active-directory/) |
-| Design solutions for securing an organization's data | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-organization-data/) |
-| Design solutions for securing applications | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-applications/) |
-| Review the security model for your Dynamics 365 solutions | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/fast-track-security/) |
-| Learn best practices from Microsoft Technical Trainers | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-best-practices-from-microsoft-technical-trainers-for-az-104/) |
-| Extend Teams Phone with additional services | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-teams-phone-system-additional-services/) |
-| MS-721 Plan and design Teams collaboration communications systems | Learningpaths | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-configure-teams-voice/) |
-| Design solutions for securing server and client endpoints | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-securing-server-client-endpoints/) |
-| Access Dataverse in Power Pages websites | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-dataverse/) |
-| Foundations of Platform Engineering | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/foundations-platform-engineering/) |
-| Configure and deploy Teams Phone with Direct Routing | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-deploy-direct-routing/) |
-| Plan and optimize network performance for Teams media | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-optimize-network-performance-for-teams-phone-system/) |
-| Design solutions for regulatory compliance | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-regulatory-compliance/) |
-| Design solutions for network security | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-network-security/) |
-| Design solutions for security posture management in hybrid and multicloud environments | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-security-posture-management-hybrid-multicloud-environments/) |
-| Evaluate solutions for securing Microsoft 365 | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-microsoft-365/) |
-| Solution architect series: Model security for Power Platform solutions | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/model-security/) |
-| Solution Architect: Design Microsoft Power Platform solutions | Learningpaths | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/solution-architect-data/) |
-| Explore package dependencies | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/) |
-| AZ-400: Design and implement a dependency management strategy | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-dependency-management-strategy/) |
-| Plan a testing strategy for your Dynamics 365 solution | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-strategy/) |
-| Prepare to teach SC-900 Microsoft Security, Compliance, and Identity Fundamentals in academic programs | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-sc-900-academic-programs/) |
-| Prepare to teach MB-210 Microsoft Dynamics 365 Sales Functional Consultant | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/teach-mb-210-sales-functional-consultant/) |
-| Prepare to teach PL-100 Microsoft Power Platform App Maker | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/teach-pl-100-microsoft-power-platform-app-maker/) |
-| Prepare to teach MS-900 Microsoft 365 Fundamentals | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-ms-900-microsoft-365-fundamentals/) |
-| Prepare to teach SC-300 Microsoft Identity and Access Administrator | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-sc-300-identity-access-administrator/) |
-| Prepare to teach AI-900 Microsoft Azure AI fundamentals in academic programs | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-ai-900-fundamentals-academic-programs/) |
-| Prepare to teach SC-400 Microsoft Information Protection Administrator | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-sc-400-information-protection-administrator/) |
-| Prepare to teach DP-900 Microsoft Azure Data fundamentals in academic programs | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-dp-900-fundamentals-academic-programs/) |
-| Prepare to teach PL-200 Microsoft Power Platform Functional Consultant | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-to-teach-pl-200-microsoft-power-platform-functional-consultant/) |
-| Prepare to teach PL-900 Microsoft Power Platform fundamentals in academic programs | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-pl-900-fundamentals-academic-programs/) |
-| Prepare to teach AZ-204 Developing Solution for Microsoft Azure | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-204-developing-solution-microsoft-azure/) |
-| Prepare to teach MB-230 Microsoft Dynamics 365 Customer Service Functional Consultant | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/teach-mb-230-customer-service-functional-consultant/) |
-| Prepare to teach MB-220 Microsoft Dynamics 365 Marketing Functional Consultant | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/teach-mb-220-marketing-functional-consultant/) |
-| Prepare to teach AZ-900 Microsoft Azure fundamentals in academic programs | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-900-microsoft-academic-programs/) |
-| Prepare to teach MB-910 Microsoft Dynamics 365 Fundamentals (CRM) | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-mb-910-microsoft-dynamics-365-fundamentals/) |
-| Microsoft Learn for Educators preparing for course delivery | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-for-course-delivery/) |
+| **Implement Desired State Configuration (DSC)** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/) |
+| **Implement A/B testing and progressive exposure deployment** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/) |
+| **Solution Architect series: Explore Power Apps architecture** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-architecture/) |
+| **Implement blue-green deployment and feature toggles** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/) |
+| **Manage and Modularize Tasks and Templates** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/) |
+| **Implement canary releases and dark launching** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/) |
+| **Microsoft Learn for Educators student certification** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-out-course/) |
+| **Solution architect series: Explore Microsoft Copilot Studio** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/architect-power-virtual-agents/) |
+| **Plan and implement an identity governance strategy** | Learningpaths | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-implement-identity-governance-strategy/) |
+| **Configure and govern entitlement with Microsoft Entra ID** | Learningpaths | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-entitlement-microsoft-entra-id/) |
+| **Monitor and maintain Microsoft Entra ID** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-azure-active-directory/) |
+| **Explore release strategy recommendations** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/) |
+| **Plan, implement, and manage access review** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-manage-access-review/) |
+| **Configure auto attendants and call queues** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-auto-attendants-call-queues/) |
+| **Plan and implement privileged access** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-privileged-access/) |
+| **Manage alerts, blameless retrospectives and a just culture** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/) |
+| **Design solutions that align with security best practices and priorities** | Learningpaths | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-solutions-best-practices-priorities/) |
+| **Design a resiliency strategy for ransomware and other attacks based on Microsoft Security Best Practices** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-resiliency-strategy-common-cyberthreats-like-ransomware/) |
+| **Plan and implement entitlement management** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-entitlement-management/) |
+| **Solution Architect series: Power Platform architecture** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-platform-architecture/) |
+| **Introduction to Secure DevOps** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/) |
+| **Create Azure Resources by using Azure Resource Manager templates** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/) |
+| **Integrate with identity management systems** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/) |
+| **Create Azure Resources Using Azure CLI** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/) |
+| **Explore Power Automate architecture** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-automate-architecture/) |
+| **Automate inspection of health** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/) |
+| **Implement and monitor the integration of enterprise apps for SSO** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-monitor-integration-of-enterprise-apps-for-sso/) |
+| **Propose a solution as a Solution Architect for Microsoft Power Platform and Dynamics 365** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/propose-solution/) |
+| **Architect solutions for Dynamics 365 and Microsoft Power Platform** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/become-solution-architect/) |
+| **Introduction to Zero Trust and best practice frameworks** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-zero-trust-best-practice-frameworks/) |
+| **Introduction to GitHub Packages** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/) |
+| **Discover customer needs as a Solution Architect for Dynamics 365 and Microsoft Power Platform** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-customer-needs/) |
+| **Work with requirements for Microsoft Power Platform and Dynamics 365** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-requirements/) |
+| **Design Dynamics 365 Solutions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-dynamics-365-solutions/) |
+| **Plan for Microsoft Teams Phone** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-teams-phone-system/) |
+| **Design security solutions that align with the Cloud Adoption Framework (CAF) and Well-Architected Framework (WAF)** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-align-cloud-adoption-framework-well-architected-framework/) |
+| **View, troubleshoot, and improve app performance for Power Apps canvas apps** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/improve-app-performance/) |
+| **Complete testing and performance checks in a Power Apps canvas app** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/testing-performance-checks-powerapps/) |
+| **Use advance techniques in canvas apps to perform custom updates and optimization** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-advance-techniques-canvas-apps-custom-updates-optimization/) |
+| **Security monitoring and governance** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/) |
+| **Perform fit gap analysis** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/fit-gap-analysis/) |
+| **Design a container build strategy** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/) |
+| **AZ-400: Implement CI with Azure Pipelines and GitHub Actions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-ci-azure-pipelines-github-actions/) |
+| **Desktop flows and Robotic Process Automation in Power Automate** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/desktop-flows-robotic-process-automation-power-automate/) |
+| **Scripting in Power Automate desktop app** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-scripting/) |
+| **Introduction to developing with Microsoft Power Platform** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-development-power-platform/) |
+| **Introduction to extending Power Platform** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-extend/) |
+| **AZ-305: Design infrastructure solutions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-infranstructure-solutions/) |
+| **Design migrations** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-migrations/) |
+| **AZ-305: Design identity, governance, and monitor solutions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-identity-governance-monitor-solutions/) |
+| **Design governance** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-governance/) |
 
 ---
-> **Navigation:** Prev: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-86.md](./microsoft-learn-2026-07-part-86.md)
+> **Navigation:** Prev: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-86.md](./microsoft-learn-2026-06-part-86.md)
 

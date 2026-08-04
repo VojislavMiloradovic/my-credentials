@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 68 of 93
-date_range: 2026-04-19 to 2026-04-21
-total_entries: 52
+chunk_part: 68 of 95
+date_range: 2026-04-15 to 2026-04-18
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-68.md
 ---
 
@@ -12,58 +12,54 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Deploy updates for Windows client and Microsoft 365 apps | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-windows/) |
-| Use Inventory Visibility in Dynamics 365 Supply Chain Management | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-inventory-visibility/) |
-| Migrate a MongoDB database to Azure Cosmos DB | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-mongodb-database-to-azure-cosmos-db/) |
-| Use Power BI in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-power-bi/) |
-| Create a dataset for a Power BI report in Dynamics 365 Business Central | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-data-set/) |
-| Introduction to migrating from Google Cloud to Microsoft Azure | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-migrating-gcp-to-azure/) |
-| Calculate and post project WIP in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/calculate-post-job-wip/) |
-| Explore project WIP methods in Dynamics 365 Business Central | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-job-wip-methods/) |
-| Explore Surface cloud management scenarios | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-surface-cloud-management-scenarios/) |
-| Allocate costs in Dynamics 365 Business Central | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/allocate-costs-dynamics-365-business-central/) |
-| Use cost accounting in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-cost-accounting-dynamics-365-business-central/) |
-| Set up and work with Finance insights in Dynamics 365 Finance | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/setup-work-finance-insights/) |
-| Use customer payment predictions in Dynamics 365 Finance | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-customer-payment-predictions-finance/) |
-| Troubleshooting Surface Portal access issues | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshooting-surface-portal-access/) |
-| Prepare to deploy updates for Windows client and Microsoft 365 apps | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-windows/) |
-| Revenue and expense deferrals in Dynamics 365 Finance | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-expense-deferrals/) |
-| Explore Microsoft Purview Message Encryption | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-purview-message-encryption/) |
-| Plan to deploy Microsoft Defender for IoT to monitor operational technology (OT) networks | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-iot-plan-deployment/) |
-| Index fixed assets in Dynamics 365 Business Central | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/index-fixed-assets/) |
-| Understand client-server communication in MySQL | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-client-server-communication-mysql/) |
-| Work with MySQL Databases on Azure | Learningpaths | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-mysql-databases-azure/) |
-| Work with Warehouse management only mode in Dynamics 365 Supply Chain Management | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-warehouse-management-only-mode/) |
-| Understand concurrency in MySQL | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-concurrency-mysql/) |
-| Work with service order dispatching in Dynamics 365 Supply Chain Management | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-order-dispatching/) |
-| Build a Fabric data agent with an ontology | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-fabric-data-agent-ontology/) |
-| Record fixed asset opening transactions in Dynamics 365 Business Central | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/record-fixed-assets-opening-transactions/) |
-| Close a project in Dynamics 365 Business Central | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-job/) |
-| Ingest emissions activity data | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-data-ingestion/) |
-| Challenge project - Create products and set up a product catalog | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-products-set-up-product-catalog/) |
-| Validate your Dynamics 365 Sales Functional Consultant skills | Learningpaths | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-dynamics-365-sales-functional-consultant-skills/) |
-| Implement Azure Backup for SAP HANA workloads on Azure VMs | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-backup-sap-workloads-azure-virtual-machines/) |
-| Optimize costs by using Azure Hybrid Benefit | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-costs-using-azure-hybrid-benefit/) |
-| Plan information barriers | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-insider-plan-information-barriers/) |
-| Discover the Microsoft Sentinel solution for SAP BTP | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-microsoft-sentinel-solution-for-sap-btp/) |
-| Purchase fixed assets in Dynamics 365 Business Central | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purchase-fixed-assets/) |
-| Connect with volunteers using Volunteer Engagement | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-volunteer-engagement/) |
-| Prepare to deploy Microsoft Defender for IoT | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-iot-prepare-deployment/) |
-| Manage Microsoft Edge updates and servicing | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-edge-updates-servicing/) |
-| Register repairs in Dynamics 365 Business Central | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-repairs-business-central/) |
-| Get started with demand planning in Dynamics 365 Supply Chain Management | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-demand-planning/) |
-| Automate Azure Load Testing by using GitHub | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-azure-load-testing-github/) |
-| Implement GitHub Actions for Azure | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-github-actions-azure/) |
-| Get started with Inventory Visibility service for Dynamics 365 Supply Chain Management | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-inventory-visibility/) |
-| Manage real-time events in Customer Insights - Journeys | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-events-customer-insights/) |
-| Migrate your CI/CD pipelines to GitHub with GitHub Actions Importer | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-cicd-pipelines-to-github-with-github-actions-importer/) |
-| Recurring contract billing in Dynamics 365 Finance | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/recurring-contract-billing/) |
-| Manage a vCore-based Azure Cosmos DB for MongoDB cluster | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-vcore-based-azure-cosmos-db-mongodb-cluster/) |
-| Build an AI copilot with vCore-based Azure Cosmos DB for MongoDB and Azure OpenAI | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-ai-copilot-vcore-based-azure-cosmos-db-mongodb-azure-openai/) |
-| Manage subscription centers and double opt-in in Dynamics 365 Customer Insights - Journeys | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-subscription-centers-double-opt/) |
-| Introduction to deployment stacks | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-stacks/) |
-| Get started with manufacturing in Microsoft Dynamics 365 Business Central | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-manufacturing-business-central/) |
-| Manage production orders in Dynamics 365 Business Central | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-production-orders/) |
+| **Set up responsibility centers in Dynamics 365 Business Central** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-responsibility-centers/) |
+| **Set up organization and reference data** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-setup-organization/) |
+| **Work with Expense management in Dynamics 365 Project Operations** | Learningpaths | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-expense-management/) |
+| **Create and process expense reports in Dynamics 365 Project Operations** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-process-expense-reports/) |
+| **Manage product version information in Dynamics 365 Supply Chain Management** | Learningpaths | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-product-version-engineering-change-management/) |
+| **Manage changes in formulas and their ingredients in Dynamics 365 Supply Chain Management** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-changes-formulas-ingredients/) |
+| **Work with Power BI in Business Central** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-power-bi/) |
+| **Set up Service order dispatching in Dynamics 365 Supply Chain Management** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-service-order-dispatching/) |
+| **Plan to deploy updates for Windows clients and Microsoft 365 apps** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-windows/) |
+| **Send reminders to customers in Dynamics 365 Business Central** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-reminders-dynamics-365-business-central/) |
+| **Build multi-item transactions with the Azure Cosmos DB for NoSQL** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-multi-item-transactions-azure-cosmos-db-sql-api/) |
+| **Create server-side programming constructs in Azure Cosmos DB for NoSQL** | Learningpaths | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-server-side-programming-azure-cosmos-db-sql-api/) |
+| **Implement Azure Load Testing** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-load-testing/) |
+| **Request and follow up with product changes in Dynamics 365 Supply Chain Management** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/request-changes-products-engineering-change-management-supply-chain-management/) |
+| **Set up warehouse tasks in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-warehouse-tasks/) |
+| **Pick and ship items in Dynamics 365 Business Central** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/pick-ship-items/) |
+| **Implement GitHub Actions** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-github-actions/) |
+| **Manage internal warehouse processes in Dynamics 365 Business Central** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-internal-warehouse-processes/) |
+| **Troubleshoot business continuity with Microsoft Azure** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-continuity/) |
+| **Intelligent budget proposal in Dynamics 365 Finance** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-budget-proposal-finance/) |
+| **Ensure app and website compatibility with Microsoft Edge** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/ensure-app-website-compatibility-with-microsoft-edge/) |
+| **Create fixed assets in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-fixed-assets/) |
+| **Create fixed asset and related records in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/fixed-asset-related-records/) |
+| **Migrate to vCore-based Azure Cosmos DB for MongoDB** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-vcore-based-azure-cosmos-db-mongodb/) |
+| **Post sales and purchase invoices in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/post-sales-purchase-invoices-dynamics-365-business-central/) |
+| **Send and receive electronic documents in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/electronic-documents-dynamics-365-business-central/) |
+| **Calculate project WIP in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/calculate-job-wip/) |
+| **Build your own AI copilot with vCore-based Azure Cosmos DB for MongoDB and Azure OpenAI** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-ai-copilot-vcore-based-azure-cosmos-db-mongodb/) |
+| **Process incoming documents in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/incoming-documents-dynamics-365-business-central/) |
+| **Receive and put away inventory items in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/receive-put-away-items/) |
+| **Intelligent cash flow in Dynamics 365 Finance** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-cash-flow-finance/) |
+| **Using IoT Central with Connected Field Service for Dynamics 365** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/using-iot-central-with-connected-field-service/) |
+| **Deliver remote desktops and apps with Azure Virtual Desktop** | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-wvd/) |
+| **Business continuity and disaster recovery for Azure Virtual Desktop** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-continuity-disaster-recovery-azure-virtual-desktop/) |
+| **Create a vendor invoice for lite deployment in Dynamics 365 Project Operations** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vendor-invoice-lite-deployment/) |
+| **Set up and use features with lite deployment in Dynamics 365 Project Operations** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-use-features-lite-deployment-project-operations/) |
+| **Implement Azure Monitoring for SAP workloads on Azure VMs** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-monitoring-sap-workloads-azure-virtual-machines/) |
+| **Configure fixed asset depreciations in Dynamics 365 Business Central** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-fixed-asset-depreciations/) |
+| **Sync and fulfill Shopify sales orders in Dynamics 365 Business Central** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-sales-orders-dynamics-365-business-central/) |
+| **Use the Shopify connector in Dynamics 365 Business Central** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-shopify-connector-dynamics-365-business-central/) |
+| **Set up a water sustainability solution by using Microsoft Sustainability Manager** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-water-solution/) |
+| **Set up a water and waste sustainability solution using Microsoft Sustainability Manager** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-sustainability-water-waste-solution/) |
+| **Troubleshoot name resolution issues in Microsoft Azure** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/name-resolution-issues/) |
+| **Set up project posting groups in Dynamics 365 Business Central** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-job-posting-groups/) |
+| **Set up projects and resources in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-jobs-resources/) |
+| **Set up basic warehouse tasks in Dynamics 365 Business Central** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-basic-warehouse-tasks/) |
+| **Visualize ontology data with Microsoft Fabric IQ (preview)** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/visualize-ontology-fabric-iq/) |
+| **Microsoft tenant setup for Surface Portal access** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-portal-onboarding-guide/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-67.md](./microsoft-learn-2026-04-part-67.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-69.md](./microsoft-learn-2026-04-part-69.md)

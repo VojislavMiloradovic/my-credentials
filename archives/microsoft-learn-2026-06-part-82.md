@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
-chunk_part: 82 of 93
-date_range: 2026-06-08 to 2026-06-11
-total_entries: 54
+chunk_part: 82 of 95
+date_range: 2026-06-01 to 2026-06-04
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-82.md
 ---
 
@@ -12,60 +12,56 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| Advanced Canvas App Development in Power Apps: Mastering Formulas and Development Techniques | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/advanced-canvas-app-development-mastering-formulas-techniques/) |
-| Create formulas that use tables, records, and collections in a canvas app in Power Apps | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/author-advanced-formulas-powerapps/) |
-| Use advanced formula techniques and custom updates in Power Platform | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/understand-advanced-topics/) |
-| Manage user authentication | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-user-authentication/) |
-| Implement an authentication and access management solution | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-authentication-access-management-solution/) |
-| Design solutions that align with the Microsoft Cybersecurity Reference Architecture (MCRA) and Microsoft cloud security benchmark (MCSB) | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-microsoft-cybersecurity-cloud-security-benchmark/) |
-| Use developer tools to extend Power Platform | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/developer-tools-extend/) |
-| Learn continuous integration with GitHub Actions | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/) |
-| Secure AI identity infrastructure with Microsoft Entra | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/entra-ai-secure-workloads/) |
-| Plan, implement, and administer Conditional Access | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-administer-conditional-access/) |
-| Manage Azure Pipeline agents and pools | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/) |
-| AZ-305: Design data storage solutions | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-data-storage-solutions/) |
-| Design a data storage solution for non-relational data | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/) |
-| Implement initial configuration of Microsoft Entra ID | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-initial-configuration-of-azure-active-directory/) |
-| Design authentication and authorization solutions | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/) |
-| AZ-305: Design business continuity solutions | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/) |
-| Design a solution for backup and disaster recovery | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/) |
-| Use imperative development techniques for canvas apps in Power Apps | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-imperative-dev-techniques-powerapps-canvas-app/) |
-| Design data integration | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-integration/) |
-| Design network solutions | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-network-solutions/) |
-| Design an application architecture | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-application-architecture/) |
-| Introduction to GitHub Actions | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/) |
-| Explore Azure Pipelines | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/) |
-| Plan to foster inner source | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/) |
-| AZ-400: Development for Enterprise DevOps | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-work-git-for-enterprise-devops/) |
-| Explore Git hooks | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/) |
-| Design a data storage solution for relational data | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/) |
-| Power Platform Robotic Process Automation overview | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-platform-robotic-process-automation-overview/) |
-| Introduction to Microsoft Power Platform developer resources | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-developer-resources/) |
-| Manage and configure repositories | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/) |
-| Design a solution to log and monitor Azure resources | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-to-log-monitor-azure-resources/) |
-| Identify technical debt | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/) |
-| Design and implement branch strategies and workflows | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/) |
-| Create machine learning models | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-machine-learn-models/) |
-| Train and evaluate deep learning models | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-evaluate-deep-learn-models/) |
-| Plan Agile with GitHub Projects and Azure Boards | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/) |
-| Collaborate with pull requests in Azure Repos | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/) |
-| Deploy and manage identity infrastructure | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-identity-infrastructure/) |
-| Active Directory Domain Services | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/active-directory-domain-services/) |
-| Manage advanced features of AD DS | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-advanced-features-of-ad-ds/) |
-| Deploy and administer Linux virtual machines on Azure | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-administer-linux-virtual-machines-azure/) |
-| Implement access management for Azure resources | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-access-management-for-azure-resources/) |
-| Validate your Microsoft Power Platform Solution Architect skills | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-power-platform-solution-architect-skills/) |
-| Becoming a solution architect for Dynamics 365 and Microsoft Power Platform | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/becoming-solution-architect/) |
-| Understand Microsoft 365 Agents SDK | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-copilot-stack/) |
-| Build Custom Engine Agents with the Microsoft 365 Agents SDK | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-custom-copilots-microsoft-teams/) |
-| Utilize an Azure OpenAI model to create an Agent | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/utilize-azure-openai-model-create-app/) |
-| Build your custom Agent using Microsoft 365 Agents SDK | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-custom-agent-teams/) |
-| Design scalable semantic models | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-scalable-semantic-models/) |
-| Work with semantic models in Microsoft Fabric | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-semantic-models-microsoft-fabric/) |
-| Model data with Power BI | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/model-data-power-bi/) |
-| Prepare and visualize data with Microsoft Power BI | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-visualize-data-power-bi/) |
-| Configure a semantic model | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-semantic-model-power-bi/) |
-| Challenge GitHub Copilot with SQL | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-github-copilot-sql/) |
+| **Monitor and troubleshoot applications on Azure Kubernetes Service** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-apps-azure-kubernetes-service/) |
+| **Protect data and control access with Microsoft Intune and Conditional Access** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-data-control-access-intune-conditional-access/) |
+| **Introduction to finance in Dynamics 365** | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-finance-dynamics-365/) |
+| **Describe accounts payables and receivables in Dynamics 365 Finance** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-account-payables-account-receivables/) |
+| **Implement container application hosting on Azure** | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-container-app-hosting-azure/) |
+| **Store and manage containers in Azure Container Registry** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/store-manage-containers-azure-container-registry/) |
+| **AI in special education** | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-in-special-education/) |
+| **Streamline administrative tasks with AI tools** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/streamline-administrative-tasks-ai/) |
+| **Integrate Azure Virtual Desktop with Microsoft Intune** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-azure-virtual-desktop-intune/) |
+| **Implement Remote Help scenarios using Microsoft Intune** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-remote-help/) |
+| **Explore Microsoft Intune Suite capabilities** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-intune-suite-capabilities/) |
+| **Explore Azure Virtual Desktop** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-virtual-desktop/) |
+| **Evaluate Endpoint Privilege Management with Microsoft Intune** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-endpoint-privilege-management/) |
+| **Configure and manage Windows 365 with Microsoft Intune** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-windows-365-intune/) |
+| **Resident radiologist workflow foundations** | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-resident-radiologist-workflow-foundations/) |
+| **Resident learning and feedback tools** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-resident-learning-feedback-tools/) |
+| **Basic reporting in PowerScribe One for residents** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-resident-basic-reporting/) |
+| **Manage Active Directory for Azure NetApp Files** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/managing-azure-netapp-files-manage-active-directory/) |
+| **Get started with PowerScribe One** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-resident-get-started/) |
+| **Build AI Apps with Azure Database for PostgreSQL** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-ai-apps-azure-database-postgresql/) |
+| **Integrate AI Services to enrich your applications with intelligent features in Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-ai-services-enrich-azure-database-postgresql/) |
+| **Implement generative AI agents with Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-generative-ai-agents-azure-postgresql/) |
+| **Build RAG applications with Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-rag-applications-azure-database-postgresql/) |
+| **Deploy containers to Azure App Service** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-containers-azure-app-service/) |
+| **Deploy and manage apps on Azure Container Apps** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-apps-azure-container-apps/) |
+| **Scale containers in Azure Container Apps** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-containers-azure-container-apps/) |
+| **Manage containers in Azure Container Apps** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-containers-azure-container-apps/) |
+| **Deploy containers to Azure Container Apps** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-containers-azure-container-apps/) |
+| **Implement and manage Microsoft Purview Data Loss Prevention** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-manage-dlp/) |
+| **Create and manage data loss prevention policies** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-create-manage-policies/) |
+| **Protect information in a Microsoft 365 Copilot environment using Microsoft Purview** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-microsoft-365-copilot-environment/) |
+| **Develop agents and applications using agentic programming tools** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-embed-custom-code-agents/) |
+| **Implement spec-driven development using the GitHub Spec Kit** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/spec-driven-development-github-spec-kit-enterprise-developers/) |
+| **Optimize vector search in Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-vector-search-azure-database-postgresql/) |
+| **Develop AI solutions with Azure Database for PostgreSQL** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-database-postgresql/) |
+| **Implement vector search with Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-search-azure-database-postgresql/) |
+| **Build and query with Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-database-postgresql/) |
+| **Reduce data exposure risk with Data Security Posture Management in Microsoft Purview** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-data-security-posture-management/) |
+| **Understand data security posture management in Microsoft Purview** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-posture-management-understand/) |
+| **Implement application protection and security using Microsoft Intune** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-protection-intune/) |
+| **Implement Microsoft Defender for Endpoint using Microsoft Intune** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-endpoint-intune/) |
+| **Manage AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-ai-ready-infrastructure/) |
+| **Manage monitoring for AI-Ready Infrastructure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitoring-ai-ready-infrastructure/) |
+| **Govern AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/govern-ai-ready-infrastructure/) |
+| **Apply governance controls to AI-ready workloads** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
+| **Develop AI solutions with Azure Cosmos DB for NoSQL** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-cosmos-db/) |
+| **Build queries for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-cosmos-db/) |
+| **Optimize query performance for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-azure-cosmos-db/) |
+| **Implement vector search on Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-search-azure-cosmos-db/) |
+| **Protect and govern AI ready infrastructure with Azure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-govern-ai-ready-infrastructure-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-81.md](./microsoft-learn-2026-06-part-81.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-83.md](./microsoft-learn-2026-06-part-83.md)
