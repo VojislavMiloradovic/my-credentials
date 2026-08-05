@@ -46,7 +46,7 @@ FALLBACK_DOMAIN = "👔 Enterprise & Professional Development"
 MONOLITH_CONFIGS = [
     ("Aws Skills Complete", "aws-skills-complete.md"),
     ("Credly Badges Complete", "credly-badges-complete.md"),
-    ("Google Cloud Skills Complete", "google-cloud-skills-complete.md"),
+    ("Google Skills Complete", "google-skills-complete.md"),
     ("Google Developer Complete", "google-developer-complete.md"),
     ("Linkedin Certifications Complete", "linkedin-certifications-complete.md"),
     ("Microsoft Learn Complete", "microsoft-learn-complete.md"),
@@ -55,7 +55,7 @@ MONOLITH_CONFIGS = [
 SLICE_CONFIGS = [
     ("Aws Skills Latest Slice", "aws-skills", "Most recent achievements for Aws Skills."),
     ("Credly Badges Latest Slice", "credly-badges", "Most recent achievements for Credly Badges."),
-    ("Google Cloud Skills Latest Slice", "google-cloud-skills", "Most recent achievements for Google Cloud Skills."),
+    ("Google Skills Latest Slice", "google-skills", "Most recent achievements for Google Skills."),
     ("Google Developer Activities Latest Slice", "google-developer-activities", "Most recent achievements for Google Developer Activities."),
     ("Google Developer Badges Latest Slice", "google-developer-badges", "Most recent achievements for Google Developer Badges."),
     ("Linkedin Certifications Latest Slice", "linkedin-certifications", "Most recent achievements for Linkedin Certifications."),
@@ -139,7 +139,7 @@ def read_portfolio_counts() -> dict:
 
     index_targets = [
         ("ms_learn_achievements", "microsoft-learn-index.md", _TOTAL),
-        ("gcp_badges", "google-cloud-skills-index.md", _TOTAL),
+        ("gcp_badges", "google-skills-index.md", _TOTAL),
         ("aws_activities", "aws-skills-index.md", _TOTAL),
         ("credly_credentials", "credly-badges-index.md", _TOTAL),
         ("linkedin_certs", "linkedin-certifications-index.md", _TOTAL),
@@ -289,7 +289,7 @@ Use these index files to navigate chunked historical records without exceeding c
 
 - [Aws Skills Index](./archives/aws-skills-index.md): Master navigation index for Aws Skills chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md
 - [Credly Badges Index](./archives/credly-badges-index.md): Master navigation index for Credly Badges chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md
-- [Google Cloud Skills Index](./archives/google-cloud-skills-index.md): Master navigation index for Google Cloud Skills chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-cloud-skills-index.md
+- [Google Skills Index](./archives/google-skills-index.md): Master navigation index for Google Skills chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md
 - [Google Developer Index](./archives/google-developer-index.md): Master navigation index for Google Developer chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md
 - [Linkedin Certifications Index](./archives/linkedin-certifications-index.md): Master navigation index for Linkedin Certifications chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md
 - [Microsoft Learn Index](./archives/microsoft-learn-index.md): Master navigation index for Microsoft Learn chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md
