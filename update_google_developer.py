@@ -442,6 +442,45 @@ def main():
             archive_dir=ARCHIVE_DIR,
             readme_path=README_PATH,
         )
+
+        # Update index file with two-category breakdown required by generate_llms_txt.py
+        index_file_path = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-index.md")
+        if os.path.exists(index_file_path):
+            try:
+                with open(index_file_path, "r", encoding="utf-8") as f:
+                    index_content = f.read()
+
+                breakdown_text = (
+                    f"- **Total Public Badges:** {total_public:,}\n"
+                    f"- **Total Detailed Activities:** {total_detailed:,}"
+                )
+
+                if "Total Public Badges" not in index_content:
+                    old_overview_pattern = r"(- \*\*Total Records Archived:\*\* [\d,]+)"
+                    index_content = re.sub(
+                        old_overview_pattern,
+                        rf"\1\n{breakdown_text}",
+                        index_content,
+                        count=1,
+                    )
+                else:
+                    index_content = re.sub(
+                        r"- \*\*Total Public Badges:\*\* [\d,]+",
+                        f"- **Total Public Badges:** {total_public:,}",
+                        index_content,
+                    )
+                    index_content = re.sub(
+                        r"- \*\*Total Detailed Activities:\*\* [\d,]+",
+                        f"- **Total Detailed Activities:** {total_detailed:,}",
+                        index_content,
+                    )
+
+                with open(index_file_path, "w", encoding="utf-8") as f:
+                    f.write(index_content)
+                logger.info(f"✅ Updated category breakdown metrics in {index_file_path}")
+            except Exception as e:
+                logger.warning(f"⚠️ Failed to update overview in {index_file_path}: {e}")
+
         logger.info(f"🎉 Google Developer pipeline complete ({total_combined} combined items).")
     else:
         logger.error("❌ Archiver module helper not available. Skipping markdown generation.")
