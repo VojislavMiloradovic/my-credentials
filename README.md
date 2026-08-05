@@ -121,25 +121,25 @@ Showing latest 10 of 500 credentials. View full dataset via [Platform Archive In
 [Credly Verified Credentials](https://www.credly.com/users/vojislavmiloradovic/badges)
 
 Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic/badges)
-**Total Portfolio Credentials:** 505 (482 Credly Verified, 23 External/Imported)
+**Total Portfolio Credentials:** 507 (484 Credly Verified, 23 External/Imported)
 **Total Verified Skills Mapped:** 1882
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 505 credentials. View full dataset via [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-01.md), or [Monolithic File](./archives/credly-badges-complete.md).
+Showing latest 10 of 507 credentials. View full dataset via [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-01.md), or [Monolithic File](./archives/credly-badges-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-08-05 | [Advanced Cyber Threat Intelligence Writing: Crafting Actionable Reports](https://www.credly.com/badges/8168b2f0-bad1-4fa8-bfb2-81ff1ca5ae03/public_url) | AttackIQ | Credly Verified |
 | 2026-08-05 | [AttackIQ Academy Threat Whisperer](https://www.credly.com/badges/90f733cf-e8d8-4bbe-b560-5c66a35f9cc6/public_url) | AttackIQ | Credly Verified |
 | 2026-08-05 | [AttackIQ Foundational Blueprints](https://www.credly.com/badges/fb6207f0-02f5-4fe6-9a76-d46eb5624a48/public_url) | AttackIQ | Credly Verified |
+| 2026-08-05 | [BGP on Cilium](https://www.credly.com/badges/60cadfc4-3a16-4323-8025-7fbd106ce7ab/public_url) | Isovalent | Credly Verified |
 | 2026-08-05 | [Cilium Getting Started](https://www.credly.com/badges/7e1806fc-d8d8-4d2a-8599-217816425f34/public_url) | Isovalent | Credly Verified |
 | 2026-08-05 | [Delivering Value with the ATT&CK Sightings Report](https://www.credly.com/badges/6763d0db-b815-41d1-9dd9-f6f3064087ad/public_url) | AttackIQ | Credly Verified |
 | 2026-08-05 | [Discovery: Network Engineer](https://www.credly.com/badges/b986a888-d21a-447e-b1c4-f9294bd2f740/public_url) | Isovalent | Credly Verified |
 | 2026-08-05 | [Discovery: Platform Engineer](https://www.credly.com/badges/d7da7369-d022-4776-a0eb-c8fc5a4d1524/public_url) | Isovalent | Credly Verified |
 | 2026-08-05 | [Discovery: SecOps Engineer](https://www.credly.com/badges/0cc70c14-2825-4fdb-b46e-98c7027e69e7/public_url) | Isovalent | Credly Verified |
-| 2026-08-05 | [Reliability and Availability: How MongoDB ensures Business Continuity](https://www.credly.com/badges/f7b720f4-a41d-40e1-825d-12396020c40c/public_url) | MongoDB | Credly Verified |
-| 2026-08-04 | [Cloud Sales Pro - Solution-Based Licensing](https://www.credly.com/badges/a565f103-3cd8-4249-88c0-e31f897c8dc4/public_url) | Acronis | Credly Verified |
+| 2026-08-05 | [eBPF Getting Started](https://www.credly.com/badges/c81eb262-6bce-465c-8877-1c5270232227/public_url) | Isovalent | Credly Verified |
 <!-- CREDLY_BADGES_END -->
 
 

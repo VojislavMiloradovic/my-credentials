@@ -1,8 +1,8 @@
 {
   "user_username": "vojislavmiloradovic",
   "user_id": "752aee40-7358-4ade-9a49-81e8b6f49225",
-  "total_count": 505,
-  "native_count": 482,
+  "total_count": 507,
+  "native_count": 484,
   "external_count": 23,
   "badges": [
     {
@@ -68,6 +68,29 @@
         "Breach & Attack Simulation",
         "Breach & Attack Tools",
         "Threat-Informed Defense"
+      ]
+    },
+    {
+      "id": "60cadfc4-3a16-4323-8025-7fbd106ce7ab",
+      "title": "BGP on Cilium",
+      "name": "BGP on Cilium",
+      "issuer": "Isovalent",
+      "issuer_name": "Isovalent",
+      "issued_at": "2026-08-05",
+      "issued_at_date": "2026-08-05",
+      "date": "2026-08-05",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/b7ca49b5-f8e0-4c58-b3d4-6309de25dc09/tempfile20250605-59-997x5b.png",
+      "verify_url": "https://www.credly.com/badges/60cadfc4-3a16-4323-8025-7fbd106ce7ab/public_url",
+      "url": "https://www.credly.com/badges/60cadfc4-3a16-4323-8025-7fbd106ce7ab/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "BGP",
+        "Cilium",
+        "Kubernetes",
+        "Networking",
+        "Open Source"
       ]
     },
     {
@@ -195,6 +218,28 @@
         "Open Source",
         "Security",
         "Tetragon"
+      ]
+    },
+    {
+      "id": "c81eb262-6bce-465c-8877-1c5270232227",
+      "title": "eBPF Getting Started",
+      "name": "eBPF Getting Started",
+      "issuer": "Isovalent",
+      "issuer_name": "Isovalent",
+      "issued_at": "2026-08-05",
+      "issued_at_date": "2026-08-05",
+      "date": "2026-08-05",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/5dccb7ba-321b-4fbc-baea-2c60ec123636/tempfile20260507-62-xd1ksx.png",
+      "verify_url": "https://www.credly.com/badges/c81eb262-6bce-465c-8877-1c5270232227/public_url",
+      "url": "https://www.credly.com/badges/c81eb262-6bce-465c-8877-1c5270232227/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "eBPF",
+        "Linux",
+        "Open Source",
+        "Security"
       ]
     },
     {
