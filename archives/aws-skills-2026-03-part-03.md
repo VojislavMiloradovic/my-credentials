@@ -1,6 +1,6 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 3 of 9
+chunk_part: 3 of 10
 date_range: 2026-03-06 to 2026-03-15
 total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-03.md
@@ -15,8 +15,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-03-15 | [Performance Tuning on Amazon DocumentDB](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-15 | [Spec-Driven Development with Kiro](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-14 | [[RETIRED] Introduction to AWS Global Accelerator](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-03-14 | [[RETIRED] Introduction to AWS Service Catalog](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-14 | [[RETIRED] Succeeding in the Cloud- Rethinking your Levers](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-03-14 | [[RETIRING - 2026-08-04] Introduction to AWS Service Catalog](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-14 | [Amazon Application Recovery Controller Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-14 | [Amazon Connect Introduction](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-14 | [Amazon Elastic Kubernetes Service (EKS) Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -43,7 +43,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-03-11 | [AWS Security Incident Response - User Training](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-11 | [Media Glossary](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-11 | [Migrating VMware Workloads to AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-03-10 | [[RETIRING - 2026-08-04] Using Amazon Q to Enhance Applications and Developer Productivity](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-03-10 | [[RETIRED] Using Amazon Q to Enhance Applications and Developer Productivity](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-10 | [AWS CloudTrail Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-10 | [AWS Simple Queue Service (SQS) Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-10 | [Monitor .NET applications using Amazon CloudWatch Application Signals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

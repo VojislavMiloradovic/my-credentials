@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 6 of 9
-date_range: 2026-04-19 to 2026-05-27
+chunk_part: 6 of 10
+date_range: 2026-04-20 to 2026-05-27
 total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-05-part-06.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-27 | [Integrate Atlassian Confluence Cloud with Amazon Quick](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-05-27 | [Secure AI agents with Amazon Bedrock AgentCore Identity on Amazon ECS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-05-25 | [AWS Cloud Quest: Cloud Practitioner](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Cloud Quest |
 | 2026-05-24 | [[RETIRED] Building with MultiModal Knowledge Bases in AWS Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -37,7 +38,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-30 | [Introduction to Building apps in Amazon Quick](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-30 | [Introduction to the Amazon Quick on desktop](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-30 | [Optimizing Foundation Models](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-04-29 | [[RETIRING - 2026-08-04] Amazon Timestream Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-04-29 | [[RETIRED] Amazon Timestream Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-28 | [AWS Edge Storage, Data Transfer, and File Transfer Services Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-27 | [AWS Networking Basics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-26 | [[RETIRING - 2026-08-11] What are we looking for in an LLM?](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -67,7 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-20 | [AWS Shared Responsibility Model](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-20 | [Getting Started with Migration Hub Refactor Spaces](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-20 | [Subnets, Gateways, and Route Tables Explained](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-04-19 | [[RETIRING - 2026-08-05] Generative AI Business Strategy and Solution Design](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-04-part-05.md](./aws-skills-2026-04-part-05.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-07.md](./aws-skills-2026-07-part-07.md)

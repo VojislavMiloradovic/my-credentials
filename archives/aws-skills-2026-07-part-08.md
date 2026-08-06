@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 8 of 9
-date_range: 2026-07-02 to 2026-07-22
+chunk_part: 8 of 10
+date_range: 2026-07-05 to 2026-07-24
 total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-08.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-24 | [Threat Modeling for Builders Workshop](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-22 | [AI Agents: Cognitive Upgrade and Business Efficiency](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-22 | [AWS Cloud for absolute beginners](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-22 | [AWS Cloud for Finance Professionals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -68,7 +69,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-08 | [AWS SimuLearn: Databases in Practice](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 | 2026-07-08 | [AWS SimuLearn: Highly Available Web Applications](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 | 2026-07-05 | [AWS SimuLearn: Networking Concepts](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
-| 2026-07-02 | [AWS SimuLearn: AI Practitioner](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Learning plan |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-07.md](./aws-skills-2026-07-part-07.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-09.md](./aws-skills-2026-08-part-09.md)

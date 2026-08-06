@@ -80,8 +80,8 @@ Showing latest 10 of 340 credentials. View full dataset via [Platform Archive In
 [AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
 Public Profile: [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
-**Total Portfolio Credentials:** 500
-**Total Verified Skills Mapped:** 498
+**Total Portfolio Credentials:** 511
+**Total Verified Skills Mapped:** 509
 
 #### AWS Cloud Quest Summary
 
@@ -96,20 +96,20 @@ Public Profile: [Verify AWS Skill Builder Profile](https://skillsprofile.skillbu
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 500 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-01.md), or [Monolithic File](./archives/aws-skills-complete.md).
+Showing latest 10 of 511 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-01.md), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-08-03 | [Amazon Quick: Accelerating the path from enterprise data to AI-powered decisions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-03 | [Amazon WorkSpaces Migrations - Migration Approaches & Strategy](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-03 | [Build an intelligent photo search using Amazon Rekognition, Amazon Neptune, and Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-03 | [Build with Amazon FSx for OpenZFS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-03 | [Configuring and Deploying VPCs with Multiple Subnets](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-03 | [Malware analysis on AWS: Setting up a secure environment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-02 | [[RETIRING - 2026-08-03] Introduction to Autonomous Driving Data Framework (ADDF) on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-02 | [AI Agent Guardrails for Production on AWS \| Databases for AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-02 | [Amazon Connect AI Customer Engagement](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-02 | [Amazon Connect APIs Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-06 | [Amazon Connect Agent Performance Evaluations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-06 | [Automating Cloud Security Posture Management on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-06 | [AWS costs estimation using Amazon Q CLI and AWS Pricing MCP Server](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-06 | [Build with Amazon MemoryDB for Redis](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-06 | [Building with Custom Agents in Amazon Quick](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-06 | [Digital Rights Management and the SPEKE Protocol in Video Workflows](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-06 | [Game development infrastructure simplified with AWS Game Dev Toolkit](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-06 | [How AutoScout24 built a Bot Factory to standardize AI agent development with Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-06 | [Introduction to AWS End User Computing Services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-06 | [Simplifying Prometheus metrics collection across your AWS infrastructure](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 <!-- AWS_SKILLS_END -->
 
 

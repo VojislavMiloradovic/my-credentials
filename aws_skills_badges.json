@@ -1,7 +1,79 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 500,
+  "total_count": 511,
   "badges": [
+    {
+      "id": "4d3535a6971307d9",
+      "title": "[RETIRED] Amazon EKS Pre-assessment",
+      "name": "[RETIRED] Amazon EKS Pre-assessment",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-03-17",
+      "issued_at_date": "2026-03-17",
+      "date": "2026-03-17",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] Amazon EKS Pre-assessment"
+      ]
+    },
+    {
+      "id": "923f5242f2ba8c6e",
+      "title": "[RETIRED] Amazon Kendra Getting Started",
+      "name": "[RETIRED] Amazon Kendra Getting Started",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-04-17",
+      "issued_at_date": "2026-04-17",
+      "date": "2026-04-17",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] Amazon Kendra Getting Started"
+      ]
+    },
+    {
+      "id": "625a4b22c480e35a",
+      "title": "[RETIRED] Amazon Timestream Getting Started",
+      "name": "[RETIRED] Amazon Timestream Getting Started",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-04-29",
+      "issued_at_date": "2026-04-29",
+      "date": "2026-04-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] Amazon Timestream Getting Started"
+      ]
+    },
+    {
+      "id": "a137bf8f2bb618eb",
+      "title": "[RETIRED] Amazon WorkMail Getting Started",
+      "name": "[RETIRED] Amazon WorkMail Getting Started",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-02-10",
+      "issued_at_date": "2026-02-10",
+      "date": "2026-02-10",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] Amazon WorkMail Getting Started"
+      ]
+    },
     {
       "id": "8b271d20fa5af3e4",
       "title": "[RETIRED] AWS Fargate - Overview",
@@ -21,6 +93,24 @@
       ]
     },
     {
+      "id": "73dc52ac0b1c7512",
+      "title": "[RETIRED] AWS Panorama - Building Edge Computer Vision (CV) Applications",
+      "name": "[RETIRED] AWS Panorama - Building Edge Computer Vision (CV) Applications",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-04-14",
+      "issued_at_date": "2026-04-14",
+      "date": "2026-04-14",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] AWS Panorama - Building Edge Computer Vision (CV) Applications"
+      ]
+    },
+    {
       "id": "0a3bf0cae93fc606",
       "title": "[RETIRED] Build a migration assessment with AWS Transform",
       "name": "[RETIRED] Build a migration assessment with AWS Transform",
@@ -36,6 +126,42 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Build a migration assessment with AWS Transform"
+      ]
+    },
+    {
+      "id": "68ceeb1c4c3335b3",
+      "title": "[RETIRED] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases",
+      "name": "[RETIRED] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-06-24",
+      "issued_at_date": "2026-06-24",
+      "date": "2026-06-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases"
+      ]
+    },
+    {
+      "id": "03f43ca726289847",
+      "title": "[RETIRED] Building a Machine Learning Ready Organization",
+      "name": "[RETIRED] Building a Machine Learning Ready Organization",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-04-03",
+      "issued_at_date": "2026-04-03",
+      "date": "2026-04-03",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] Building a Machine Learning Ready Organization"
       ]
     },
     {
@@ -75,6 +201,24 @@
       ]
     },
     {
+      "id": "89a81111ef798809",
+      "title": "[RETIRED] CloudEndure Migration Training - Technical",
+      "name": "[RETIRED] CloudEndure Migration Training - Technical",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-03-22",
+      "issued_at_date": "2026-03-22",
+      "date": "2026-03-22",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] CloudEndure Migration Training - Technical"
+      ]
+    },
+    {
       "id": "becba01b9157ca83",
       "title": "[RETIRED] Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service",
       "name": "[RETIRED] Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service",
@@ -90,6 +234,24 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service"
+      ]
+    },
+    {
+      "id": "c21f411e79b7a265",
+      "title": "[RETIRED] Generative AI Business Strategy and Solution Design",
+      "name": "[RETIRED] Generative AI Business Strategy and Solution Design",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-04-19",
+      "issued_at_date": "2026-04-19",
+      "date": "2026-04-19",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] Generative AI Business Strategy and Solution Design"
       ]
     },
     {
@@ -126,6 +288,24 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Introduction to Amazon CloudFront"
+      ]
+    },
+    {
+      "id": "03e0e93246d46393",
+      "title": "[RETIRED] Introduction to Autonomous Driving Data Framework (ADDF) on AWS",
+      "name": "[RETIRED] Introduction to Autonomous Driving Data Framework (ADDF) on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-02",
+      "issued_at_date": "2026-08-02",
+      "date": "2026-08-02",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] Introduction to Autonomous Driving Data Framework (ADDF) on AWS"
       ]
     },
     {
@@ -183,6 +363,24 @@
       ]
     },
     {
+      "id": "9972bfb8f3cdbc26",
+      "title": "[RETIRED] Introduction to AWS Service Catalog",
+      "name": "[RETIRED] Introduction to AWS Service Catalog",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-03-14",
+      "issued_at_date": "2026-03-14",
+      "date": "2026-03-14",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] Introduction to AWS Service Catalog"
+      ]
+    },
+    {
       "id": "f049865572d678fc",
       "title": "[RETIRED] Introduction to AWS WAF",
       "name": "[RETIRED] Introduction to AWS WAF",
@@ -198,6 +396,24 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Introduction to AWS WAF"
+      ]
+    },
+    {
+      "id": "fea3851f3c56cde8",
+      "title": "[RETIRED] Introduction to Robotics on AWS",
+      "name": "[RETIRED] Introduction to Robotics on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-02-06",
+      "issued_at_date": "2026-02-06",
+      "date": "2026-02-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] Introduction to Robotics on AWS"
       ]
     },
     {
@@ -237,189 +453,9 @@
       ]
     },
     {
-      "id": "a87564b39fec36f1",
-      "title": "[RETIRING - 2026-08-03] Amazon EKS Pre-assessment",
-      "name": "[RETIRING - 2026-08-03] Amazon EKS Pre-assessment",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-03-17",
-      "issued_at_date": "2026-03-17",
-      "date": "2026-03-17",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-03] Amazon EKS Pre-assessment"
-      ]
-    },
-    {
-      "id": "49267762dc7ac78f",
-      "title": "[RETIRING - 2026-08-03] Amazon WorkMail Getting Started",
-      "name": "[RETIRING - 2026-08-03] Amazon WorkMail Getting Started",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-02-10",
-      "issued_at_date": "2026-02-10",
-      "date": "2026-02-10",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-03] Amazon WorkMail Getting Started"
-      ]
-    },
-    {
-      "id": "1b64f47246b2f25d",
-      "title": "[RETIRING - 2026-08-03] AWS Panorama - Building Edge Computer Vision (CV) Applications",
-      "name": "[RETIRING - 2026-08-03] AWS Panorama - Building Edge Computer Vision (CV) Applications",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-04-14",
-      "issued_at_date": "2026-04-14",
-      "date": "2026-04-14",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-03] AWS Panorama - Building Edge Computer Vision (CV) Applications"
-      ]
-    },
-    {
-      "id": "df70b1b9c1da92a1",
-      "title": "[RETIRING - 2026-08-03] Introduction to Autonomous Driving Data Framework (ADDF) on AWS",
-      "name": "[RETIRING - 2026-08-03] Introduction to Autonomous Driving Data Framework (ADDF) on AWS",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-08-02",
-      "issued_at_date": "2026-08-02",
-      "date": "2026-08-02",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-03] Introduction to Autonomous Driving Data Framework (ADDF) on AWS"
-      ]
-    },
-    {
-      "id": "dd763466d1b07a92",
-      "title": "[RETIRING - 2026-08-04] Amazon Kendra Getting Started",
-      "name": "[RETIRING - 2026-08-04] Amazon Kendra Getting Started",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-04-17",
-      "issued_at_date": "2026-04-17",
-      "date": "2026-04-17",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-04] Amazon Kendra Getting Started"
-      ]
-    },
-    {
-      "id": "86b06efdc3979bad",
-      "title": "[RETIRING - 2026-08-04] Amazon Timestream Getting Started",
-      "name": "[RETIRING - 2026-08-04] Amazon Timestream Getting Started",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-04-29",
-      "issued_at_date": "2026-04-29",
-      "date": "2026-04-29",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-04] Amazon Timestream Getting Started"
-      ]
-    },
-    {
-      "id": "e1c786f085dc779a",
-      "title": "[RETIRING - 2026-08-04] Building a Machine Learning Ready Organization",
-      "name": "[RETIRING - 2026-08-04] Building a Machine Learning Ready Organization",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-04-03",
-      "issued_at_date": "2026-04-03",
-      "date": "2026-04-03",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-04] Building a Machine Learning Ready Organization"
-      ]
-    },
-    {
-      "id": "fa2309cf214d5110",
-      "title": "[RETIRING - 2026-08-04] CloudEndure Migration Training - Technical",
-      "name": "[RETIRING - 2026-08-04] CloudEndure Migration Training - Technical",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-03-22",
-      "issued_at_date": "2026-03-22",
-      "date": "2026-03-22",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-04] CloudEndure Migration Training - Technical"
-      ]
-    },
-    {
-      "id": "5c8eab7cd5333c9b",
-      "title": "[RETIRING - 2026-08-04] Introduction to AWS Service Catalog",
-      "name": "[RETIRING - 2026-08-04] Introduction to AWS Service Catalog",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-03-14",
-      "issued_at_date": "2026-03-14",
-      "date": "2026-03-14",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-04] Introduction to AWS Service Catalog"
-      ]
-    },
-    {
-      "id": "3bceca69d3ed95b9",
-      "title": "[RETIRING - 2026-08-04] Introduction to Robotics on AWS",
-      "name": "[RETIRING - 2026-08-04] Introduction to Robotics on AWS",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-02-06",
-      "issued_at_date": "2026-02-06",
-      "date": "2026-02-06",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-04] Introduction to Robotics on AWS"
-      ]
-    },
-    {
-      "id": "f8c7766873389a40",
-      "title": "[RETIRING - 2026-08-04] Using Amazon Q to Enhance Applications and Developer Productivity",
-      "name": "[RETIRING - 2026-08-04] Using Amazon Q to Enhance Applications and Developer Productivity",
+      "id": "daaa994d0077f165",
+      "title": "[RETIRED] Using Amazon Q to Enhance Applications and Developer Productivity",
+      "name": "[RETIRED] Using Amazon Q to Enhance Applications and Developer Productivity",
       "issuer": "Amazon Web Services",
       "issuer_name": "Amazon Web Services",
       "issued_at": "2026-03-10",
@@ -431,43 +467,7 @@
       "type": "Digital course",
       "verification_type": "Digital course",
       "skills": [
-        "[RETIRING - 2026-08-04] Using Amazon Q to Enhance Applications and Developer Productivity"
-      ]
-    },
-    {
-      "id": "f923bb96fa1d0d11",
-      "title": "[RETIRING - 2026-08-05] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases",
-      "name": "[RETIRING - 2026-08-05] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-06-24",
-      "issued_at_date": "2026-06-24",
-      "date": "2026-06-24",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-05] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases"
-      ]
-    },
-    {
-      "id": "87d8a601056bf011",
-      "title": "[RETIRING - 2026-08-05] Generative AI Business Strategy and Solution Design",
-      "name": "[RETIRING - 2026-08-05] Generative AI Business Strategy and Solution Design",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-04-19",
-      "issued_at_date": "2026-04-19",
-      "date": "2026-04-19",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-05] Generative AI Business Strategy and Solution Design"
+        "[RETIRED] Using Amazon Q to Enhance Applications and Developer Productivity"
       ]
     },
     {
@@ -504,6 +504,24 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRING - 2026-08-10] Amazon Q Introduction"
+      ]
+    },
+    {
+      "id": "6ee832c0b74b0367",
+      "title": "[RETIRING - 2026-08-10] AWS Graviton - Knowledge Badge Readiness Path",
+      "name": "[RETIRING - 2026-08-10] AWS Graviton - Knowledge Badge Readiness Path",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-04-12",
+      "issued_at_date": "2026-04-12",
+      "date": "2026-04-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Learning plan",
+      "verification_type": "Learning plan",
+      "skills": [
+        "[RETIRING - 2026-08-10] AWS Graviton - Knowledge Badge Readiness Path"
       ]
     },
     {
@@ -1026,6 +1044,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Agent Applications Fundamentals"
+      ]
+    },
+    {
+      "id": "a63390efaca73e55",
+      "title": "Amazon Connect Agent Performance Evaluations",
+      "name": "Amazon Connect Agent Performance Evaluations",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Connect Agent Performance Evaluations"
       ]
     },
     {
@@ -2757,6 +2793,24 @@
       ]
     },
     {
+      "id": "32cc26d3017261fa",
+      "title": "Automating Cloud Security Posture Management on AWS",
+      "name": "Automating Cloud Security Posture Management on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Automating Cloud Security Posture Management on AWS"
+      ]
+    },
+    {
       "id": "d895bdba1d951f8b",
       "title": "Automating with AI/ML for Small Business Owners",
       "name": "Automating with AI/ML for Small Business Owners",
@@ -3369,6 +3423,24 @@
       ]
     },
     {
+      "id": "21240d3298c28fc1",
+      "title": "AWS costs estimation using Amazon Q CLI and AWS Pricing MCP Server",
+      "name": "AWS costs estimation using Amazon Q CLI and AWS Pricing MCP Server",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS costs estimation using Amazon Q CLI and AWS Pricing MCP Server"
+      ]
+    },
+    {
       "id": "8e6179ea6cd288f2",
       "title": "AWS Database Migration Service (AWS DMS) Getting Started",
       "name": "AWS Database Migration Service (AWS DMS) Getting Started",
@@ -3798,24 +3870,6 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Glue Getting Started"
-      ]
-    },
-    {
-      "id": "2e33ef10820d57c1",
-      "title": "AWS Graviton - Knowledge Badge Readiness Path",
-      "name": "AWS Graviton - Knowledge Badge Readiness Path",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-04-12",
-      "issued_at_date": "2026-04-12",
-      "date": "2026-04-12",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Learning plan",
-      "verification_type": "Learning plan",
-      "skills": [
-        "AWS Graviton - Knowledge Badge Readiness Path"
       ]
     },
     {
@@ -5151,6 +5205,24 @@
       ]
     },
     {
+      "id": "b696c8187f70071c",
+      "title": "Build with Amazon MemoryDB for Redis",
+      "name": "Build with Amazon MemoryDB for Redis",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build with Amazon MemoryDB for Redis"
+      ]
+    },
+    {
       "id": "7ee5929d721cd06e",
       "title": "Building a Generative AI-Ready Organization",
       "name": "Building a Generative AI-Ready Organization",
@@ -5274,6 +5346,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Building web search-enabled agents with Strands and Exa"
+      ]
+    },
+    {
+      "id": "67115efb8986dafd",
+      "title": "Building with Custom Agents in Amazon Quick",
+      "name": "Building with Custom Agents in Amazon Quick",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Building with Custom Agents in Amazon Quick"
       ]
     },
     {
@@ -5799,6 +5889,24 @@
       ]
     },
     {
+      "id": "9a7167f6c1930e57",
+      "title": "Digital Rights Management and the SPEKE Protocol in Video Workflows",
+      "name": "Digital Rights Management and the SPEKE Protocol in Video Workflows",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Digital Rights Management and the SPEKE Protocol in Video Workflows"
+      ]
+    },
+    {
       "id": "26ec6ce12a8d5027",
       "title": "Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)",
       "name": "Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)",
@@ -6174,6 +6282,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Fundamentals of Machine Learning and Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "4ee0b023b1149ae5",
+      "title": "Game development infrastructure simplified with AWS Game Dev Toolkit",
+      "name": "Game development infrastructure simplified with AWS Game Dev Toolkit",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Game development infrastructure simplified with AWS Game Dev Toolkit"
       ]
     },
     {
@@ -6732,6 +6858,24 @@
       "verification_type": "Digital course",
       "skills": [
         "How Amazon Quick Works for Your Role"
+      ]
+    },
+    {
+      "id": "3f0cb6dfb76100a4",
+      "title": "How AutoScout24 built a Bot Factory to standardize AI agent development with Amazon Bedrock",
+      "name": "How AutoScout24 built a Bot Factory to standardize AI agent development with Amazon Bedrock",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "How AutoScout24 built a Bot Factory to standardize AI agent development with Amazon Bedrock"
       ]
     },
     {
@@ -7470,6 +7614,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Elemental MediaConnect"
+      ]
+    },
+    {
+      "id": "2bb9d86cd17bdb73",
+      "title": "Introduction to AWS End User Computing Services",
+      "name": "Introduction to AWS End User Computing Services",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Introduction to AWS End User Computing Services"
       ]
     },
     {
@@ -8733,6 +8895,24 @@
       ]
     },
     {
+      "id": "dedd313bd5caa452",
+      "title": "Simplifying Prometheus metrics collection across your AWS infrastructure",
+      "name": "Simplifying Prometheus metrics collection across your AWS infrastructure",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Simplifying Prometheus metrics collection across your AWS infrastructure"
+      ]
+    },
+    {
       "id": "30738ffec19e47f0",
       "title": "Software Development with Amazon Q Developer",
       "name": "Software Development with Amazon Q Developer",
@@ -8766,6 +8946,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Spec-Driven Development with Kiro"
+      ]
+    },
+    {
+      "id": "bcfc002665e45fdb",
+      "title": "Speech-to-Speech Workflows with Nova Sonic",
+      "name": "Speech-to-Speech Workflows with Nova Sonic",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Speech-to-Speech Workflows with Nova Sonic"
       ]
     },
     {

@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 4 of 9
+chunk_part: 4 of 10
 date_range: 2026-03-15 to 2026-03-23
-total_entries: 55
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-04.md
 ---
 
@@ -12,8 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-03-23 | [Amazon Elastic Block Store (Amazon EBS) Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-23 | [Planning Large Scale Data Migrations to AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-03-22 | [[RETIRING - 2026-08-04] CloudEndure Migration Training - Technical](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-03-22 | [[RETIRED] CloudEndure Migration Training - Technical](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-22 | [Amazon API Gateway for Serverless Applications](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-22 | [Amazon Connect Chat and Messaging Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-21 | [Amazon Connect Agent Applications Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -39,7 +40,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-03-18 | [AWS SimuLearn: Generate Code for a Webpage](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 | 2026-03-18 | [Fundamentals of Analytics on AWS – Part 1](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-18 | [Fundamentals of Analytics on AWS – Part 2](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-03-17 | [[RETIRING - 2026-08-03] Amazon EKS Pre-assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-03-17 | [[RETIRED] Amazon EKS Pre-assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-17 | [[RETIRING - 2026-08-11] Planning an Orchestration System](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-17 | [AWS SimuLearn: Create an Enterprise Knowledge Assistant](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 | 2026-03-17 | [Getting Started with Bottlerocket](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

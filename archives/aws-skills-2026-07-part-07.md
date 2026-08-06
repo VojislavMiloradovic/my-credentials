@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 7 of 9
-date_range: 2026-05-27 to 2026-07-02
+chunk_part: 7 of 10
+date_range: 2026-06-02 to 2026-07-02
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-07.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-02 | [AWS SimuLearn: AI Practitioner](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Learning plan |
 | 2026-07-02 | [AWS SimuLearn: Create an AI Smart Assistant](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 | 2026-07-02 | [AWS SimuLearn: Get Started with Generative AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 | 2026-07-02 | [AWS SimuLearn: Use AI Services with Amazon SageMaker](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
@@ -28,7 +29,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-26 | [Introduction to AWS Solutions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-06-26 | [Making Better Decisions with Data for Small Business Owners](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-06-26 | [Media & Entertainment: Direct-to-Consumer and Broadcast Foundations Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-06-24 | [[RETIRING - 2026-08-05] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-06-24 | [[RETIRED] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-06-24 | [Amazon WorkSpaces Migrations - Horizon on WorkSpaces Core](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-06-24 | [Amazon WorkSpaces Migrations — Additional Partner Offerings on WorkSpaces Core](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-06-24 | [Data Protection and Disaster Recovery Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -65,7 +66,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-02 | [Getting Started with AWS Transform for Mainframe Refactor](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-06-02 | [Introducing Agentic Toolkit for AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-06-02 | [Introduction to next generation of Amazon OpenSearch Serverless](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-05-27 | [Integrate Atlassian Confluence Cloud with Amazon Quick](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-05-part-06.md](./aws-skills-2026-05-part-06.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-08.md](./aws-skills-2026-07-part-08.md)
