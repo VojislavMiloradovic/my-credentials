@@ -1,11 +1,13 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 507 records.
+This document represents a unified, verifiable list of all 509 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-06 | [Cilium Egress Gateway](https://www.credly.com/badges/b291cb8c-8817-42fc-bdd0-b23ec9e7e101/public_url) | Isovalent | Credly Verified |
+| 2026-08-06 | [Cilium Gateway API](https://www.credly.com/badges/7a20ae99-3df6-481e-8b3a-9b20d2db3dea/public_url) | Isovalent | Credly Verified |
 | 2026-08-05 | [Advanced Cyber Threat Intelligence Writing: Crafting Actionable Reports](https://www.credly.com/badges/8168b2f0-bad1-4fa8-bfb2-81ff1ca5ae03/public_url) | AttackIQ | Credly Verified |
 | 2026-08-05 | [AttackIQ Academy Threat Whisperer](https://www.credly.com/badges/90f733cf-e8d8-4bbe-b560-5c66a35f9cc6/public_url) | AttackIQ | Credly Verified |
 | 2026-08-05 | [AttackIQ Foundational Blueprints](https://www.credly.com/badges/fb6207f0-02f5-4fe6-9a76-d46eb5624a48/public_url) | AttackIQ | Credly Verified |
