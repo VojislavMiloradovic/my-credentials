@@ -60,7 +60,7 @@ This document represents a unified, verifiable list of all 340 records.
 | 2026-05-15 | [Working with Notebooks in Vertex AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198950) | Google Cloud | Google Skill Badge |
 | 2026-05-15 | [Select a Google Cloud Database for Your Applications](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198703) | Google Cloud | Google Skill Badge |
 | 2026-05-15 | [Build AI Agents with Enterprise Databases](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198352) | Google Cloud | Google Skill Badge |
-| 2026-05-14 | [Looker Studio Essentials](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24173032) | Google Cloud | Google Skill Badge |
+| 2026-05-14 | [Data Studio Essentials](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24173032) | Google Cloud | Google Skill Badge |
 | 2026-05-14 | [AI Boost Bites: Presentations in Seconds with Nano Banana Pro](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171873) | Google Cloud | Google Skill Badge |
 | 2026-05-14 | [AI Boost Bites: Become a Homework Hero for Your Kids](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171850) | Google Cloud | Google Skill Badge |
 | 2026-05-14 | [[Deprecated] AI Boost Bites: Productivity On the Go with NotebookLM](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171764) | Google Cloud | Google Skill Badge |
@@ -195,7 +195,7 @@ This document represents a unified, verifiable list of all 340 records.
 | 2025-12-31 | [Handle Consumer Interactions with CCaaS](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21284750) | Google Cloud | Google Skill Badge |
 | 2025-12-31 | [Machine Learning Operations (MLOps) for Generative AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21284707) | Google Cloud | Google Skill Badge |
 | 2025-12-31 | [Hybrid Cloud Infrastructure Foundations with Anthos](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21284642) | Google Cloud | Google Skill Badge |
-| 2025-12-30 | [Preparing for your Professional Data Engineer Journey](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264999) | Google Cloud | Google Skill Badge |
+| 2025-12-30 | [Build a Certification Study Guide: PDE Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264999) | Google Cloud | Google Skill Badge |
 | 2025-12-30 | [Managing and Securing the Apigee Hybrid API Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264510) | Google Cloud | Google Skill Badge |
 | 2025-12-30 | [Preparing for Your Professional Cloud Security Engineer Journey](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264288) | Google Cloud | Google Skill Badge |
 | 2025-12-29 | [Upgrading and Monitoring the Apigee Hybrid API Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21236729) | Google Cloud | Google Skill Badge |
@@ -260,14 +260,14 @@ This document represents a unified, verifiable list of all 340 records.
 | 2025-11-23 | [Use Functions, Formulas, and Charts in Google Sheets](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20438171) | Google Cloud | Google Skill Badge |
 | 2025-11-19 | [Implement Cloud Collaboration and Productivity Workflows](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20360785) | Google Cloud | Google Skill Badge |
 | 2025-11-15 | [Google Sheets - Advanced Topics](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20242928) | Google Cloud | Google Skill Badge |
-| 2025-11-14 | [Google Chat](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20218054) | Google Cloud | Google Skill Badge |
-| 2025-11-14 | [Google Meet](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20217617) | Google Cloud | Google Skill Badge |
-| 2025-11-13 | [Google Slides](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20189930) | Google Cloud | Google Skill Badge |
-| 2025-11-13 | [Google Sheets](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20189287) | Google Cloud | Google Skill Badge |
-| 2025-11-12 | [Google Docs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20160898) | Google Cloud | Google Skill Badge |
-| 2025-11-12 | [Google Drive](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20160375) | Google Cloud | Google Skill Badge |
-| 2025-11-11 | [Google Calendar](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20131534) | Google Cloud | Google Skill Badge |
-| 2025-11-11 | [Gmail](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20130759) | Google Cloud | Google Skill Badge |
+| 2025-11-14 | [[DEPRECATED] Google Chat](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20218054) | Google Cloud | Google Skill Badge |
+| 2025-11-14 | [[DEPRECATED] Google Meet](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20217617) | Google Cloud | Google Skill Badge |
+| 2025-11-13 | [[DEPRECATED] Google Slides](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20189930) | Google Cloud | Google Skill Badge |
+| 2025-11-13 | [[DEPRECATED] Google Sheets](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20189287) | Google Cloud | Google Skill Badge |
+| 2025-11-12 | [[DEPRECATED] Google Docs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20160898) | Google Cloud | Google Skill Badge |
+| 2025-11-12 | [[DEPRECATED] Google Drive](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20160375) | Google Cloud | Google Skill Badge |
+| 2025-11-11 | [[DEPRECATED] Google Calendar](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20131534) | Google Cloud | Google Skill Badge |
+| 2025-11-11 | [[DEPRECATED] Gmail](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20130759) | Google Cloud | Google Skill Badge |
 | 2025-11-10 | [Gen AI Agents: Transform Your Organization](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20103576) | Google Cloud | Google Skill Badge |
 | 2025-11-09 | [Gen AI Apps: Transform Your Work](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20074401) | Google Cloud | Google Skill Badge |
 | 2025-11-09 | [Gen AI: Navigate the Landscape](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20073969) | Google Cloud | Google Skill Badge |

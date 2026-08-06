@@ -18,7 +18,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-15 | [Working with Notebooks in Vertex AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198950) | Google Cloud | Google Skill Badge |
 | 2026-05-15 | [Select a Google Cloud Database for Your Applications](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198703) | Google Cloud | Google Skill Badge |
 | 2026-05-15 | [Build AI Agents with Enterprise Databases](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198352) | Google Cloud | Google Skill Badge |
-| 2026-05-14 | [Looker Studio Essentials](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24173032) | Google Cloud | Google Skill Badge |
+| 2026-05-14 | [Data Studio Essentials](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24173032) | Google Cloud | Google Skill Badge |
 | 2026-05-14 | [AI Boost Bites: Presentations in Seconds with Nano Banana Pro](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171873) | Google Cloud | Google Skill Badge |
 | 2026-05-14 | [AI Boost Bites: Become a Homework Hero for Your Kids](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171850) | Google Cloud | Google Skill Badge |
 | 2026-05-14 | [[Deprecated] AI Boost Bites: Productivity On the Go with NotebookLM](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171764) | Google Cloud | Google Skill Badge |

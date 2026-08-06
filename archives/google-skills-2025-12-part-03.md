@@ -2,7 +2,7 @@
 archive_platform: Google Skills Credentials
 chunk_part: 3 of 7
 date_range: 2025-11-24 to 2025-12-29
-total_entries: 49
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2025-12-part-03.md
 ---
 
@@ -61,6 +61,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-11-26 | [Introduction to Security Principles in Cloud Computing](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20504506) | Google Cloud | Google Skill Badge |
 | 2025-11-24 | [Create Engaging Video with Google Vids](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20461230) | Google Cloud | Google Skill Badge |
 | 2025-11-24 | [Gemini in Google Drive](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20461010) | Google Cloud | Google Skill Badge |
+| 2025-11-24 | [Gemini in Google Meet](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20460894) | Google Cloud | Google Skill Badge |
 
 ---
 > **Navigation:** Prev: [google-skills-2025-11-part-02.md](./google-skills-2025-11-part-02.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-03-part-04.md](./google-skills-2026-03-part-04.md)

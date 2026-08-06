@@ -1012,8 +1012,8 @@
     },
     {
       "id": "google-skills-badge-24173032",
-      "title": "Looker Studio Essentials",
-      "name": "Looker Studio Essentials",
+      "title": "Data Studio Essentials",
+      "name": "Data Studio Essentials",
       "issuer": "Google Cloud",
       "issuer_name": "Google Cloud",
       "issued_at": "2026-05-14",
@@ -1025,7 +1025,7 @@
       "type": "Google Skill Badge",
       "verification_type": "Google Skill Badge",
       "skills": [
-        "Looker Studio Essentials"
+        "Data Studio Essentials"
       ]
     },
     {
@@ -3460,8 +3460,8 @@
     },
     {
       "id": "google-skills-badge-21264999",
-      "title": "Preparing for your Professional Data Engineer Journey",
-      "name": "Preparing for your Professional Data Engineer Journey",
+      "title": "Build a Certification Study Guide: PDE Exam Prep",
+      "name": "Build a Certification Study Guide: PDE Exam Prep",
       "issuer": "Google Cloud",
       "issuer_name": "Google Cloud",
       "issued_at": "2025-12-30",
@@ -3473,7 +3473,7 @@
       "type": "Google Skill Badge",
       "verification_type": "Google Skill Badge",
       "skills": [
-        "Preparing for your Professional Data Engineer Journey"
+        "Build a Certification Study Guide: PDE Exam Prep"
       ]
     },
     {
@@ -4666,8 +4666,8 @@
     },
     {
       "id": "google-skills-badge-20218054",
-      "title": "Google Chat",
-      "name": "Google Chat",
+      "title": "[DEPRECATED] Google Chat",
+      "name": "[DEPRECATED] Google Chat",
       "issuer": "Google Cloud",
       "issuer_name": "Google Cloud",
       "issued_at": "2025-11-14",
@@ -4679,13 +4679,13 @@
       "type": "Google Skill Badge",
       "verification_type": "Google Skill Badge",
       "skills": [
-        "Google Chat"
+        "[DEPRECATED] Google Chat"
       ]
     },
     {
       "id": "google-skills-badge-20217617",
-      "title": "Google Meet",
-      "name": "Google Meet",
+      "title": "[DEPRECATED] Google Meet",
+      "name": "[DEPRECATED] Google Meet",
       "issuer": "Google Cloud",
       "issuer_name": "Google Cloud",
       "issued_at": "2025-11-14",
@@ -4697,13 +4697,13 @@
       "type": "Google Skill Badge",
       "verification_type": "Google Skill Badge",
       "skills": [
-        "Google Meet"
+        "[DEPRECATED] Google Meet"
       ]
     },
     {
       "id": "google-skills-badge-20189930",
-      "title": "Google Slides",
-      "name": "Google Slides",
+      "title": "[DEPRECATED] Google Slides",
+      "name": "[DEPRECATED] Google Slides",
       "issuer": "Google Cloud",
       "issuer_name": "Google Cloud",
       "issued_at": "2025-11-13",
@@ -4715,13 +4715,13 @@
       "type": "Google Skill Badge",
       "verification_type": "Google Skill Badge",
       "skills": [
-        "Google Slides"
+        "[DEPRECATED] Google Slides"
       ]
     },
     {
       "id": "google-skills-badge-20189287",
-      "title": "Google Sheets",
-      "name": "Google Sheets",
+      "title": "[DEPRECATED] Google Sheets",
+      "name": "[DEPRECATED] Google Sheets",
       "issuer": "Google Cloud",
       "issuer_name": "Google Cloud",
       "issued_at": "2025-11-13",
@@ -4733,13 +4733,13 @@
       "type": "Google Skill Badge",
       "verification_type": "Google Skill Badge",
       "skills": [
-        "Google Sheets"
+        "[DEPRECATED] Google Sheets"
       ]
     },
     {
       "id": "google-skills-badge-20160898",
-      "title": "Google Docs",
-      "name": "Google Docs",
+      "title": "[DEPRECATED] Google Docs",
+      "name": "[DEPRECATED] Google Docs",
       "issuer": "Google Cloud",
       "issuer_name": "Google Cloud",
       "issued_at": "2025-11-12",
@@ -4751,13 +4751,13 @@
       "type": "Google Skill Badge",
       "verification_type": "Google Skill Badge",
       "skills": [
-        "Google Docs"
+        "[DEPRECATED] Google Docs"
       ]
     },
     {
       "id": "google-skills-badge-20160375",
-      "title": "Google Drive",
-      "name": "Google Drive",
+      "title": "[DEPRECATED] Google Drive",
+      "name": "[DEPRECATED] Google Drive",
       "issuer": "Google Cloud",
       "issuer_name": "Google Cloud",
       "issued_at": "2025-11-12",
@@ -4769,13 +4769,13 @@
       "type": "Google Skill Badge",
       "verification_type": "Google Skill Badge",
       "skills": [
-        "Google Drive"
+        "[DEPRECATED] Google Drive"
       ]
     },
     {
       "id": "google-skills-badge-20131534",
-      "title": "Google Calendar",
-      "name": "Google Calendar",
+      "title": "[DEPRECATED] Google Calendar",
+      "name": "[DEPRECATED] Google Calendar",
       "issuer": "Google Cloud",
       "issuer_name": "Google Cloud",
       "issued_at": "2025-11-11",
@@ -4787,13 +4787,13 @@
       "type": "Google Skill Badge",
       "verification_type": "Google Skill Badge",
       "skills": [
-        "Google Calendar"
+        "[DEPRECATED] Google Calendar"
       ]
     },
     {
       "id": "google-skills-badge-20130759",
-      "title": "Gmail",
-      "name": "Gmail",
+      "title": "[DEPRECATED] Gmail",
+      "name": "[DEPRECATED] Gmail",
       "issuer": "Google Cloud",
       "issuer_name": "Google Cloud",
       "issued_at": "2025-11-11",
@@ -4805,7 +4805,7 @@
       "type": "Google Skill Badge",
       "verification_type": "Google Skill Badge",
       "skills": [
-        "Gmail"
+        "[DEPRECATED] Gmail"
       ]
     },
     {
