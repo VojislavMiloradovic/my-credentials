@@ -12,13 +12,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
-- **Total Experience Points (XP):** 5,982,550
+- **Total Experience Points (XP):** 5,984,250
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,893
+- **Badges Earned (Profile):** 3,894
 - **Trophies Earned (Profile):** 904
 - **Completed Learning Paths (Active Tracker):** 513
-- **Completed Modules (Active Tracker):** 2,646
-- **Completed Individual Units:** 35,553
+- **Completed Modules (Active Tracker):** 2,647
+- **Completed Individual Units:** 35,566
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -29,8 +29,9 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,797 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)) or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,798 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)) or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
+- **Understand advanced Windows Firewall** (Modules | Earned: 2026-08-06 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/understand-advanced-windows-firewall/))
 - **Convert Oracle schemas to Azure Database for PostgreSQL by using AI** (Modules | Earned: 2026-08-06 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/convert-oracle-schema-azure-database-postgresql-ai/))
 - **Understand how Active Directory Domain Services uses DNS** (Modules | Earned: 2026-08-06 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-domain-name-system/))
 - **Advanced Group Policy troubleshooting** (Modules | Earned: 2026-08-06 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/advanced-group-policy-troubleshooting/))
@@ -40,7 +41,6 @@ Showing latest 10 of 4,797 achievements. View full dataset via [Platform Archive
 - **Efficiently investigate data risks with Security Copilot in Microsoft Purview** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-security-copilot/))
 - **Classify and protect sensitive data with sensitivity labels** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-label-sensitive-data/))
 - **Discover and define sensitive information types** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-discover-define-sits/))
-- **Fundamentals of Bicep** (Learningpaths | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials
