@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 95 of 95
-date_range: 2026-07-30 to 2026-08-02
-total_entries: 17
+date_range: 2026-07-30 to 2026-08-06
+total_entries: 20
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-95.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Convert Oracle schemas to Azure Database for PostgreSQL by using AI** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/convert-oracle-schema-azure-database-postgresql-ai/) |
+| **Understand how Active Directory Domain Services uses DNS** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-domain-name-system/) |
+| **Advanced Group Policy troubleshooting** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-group-policy-troubleshooting/) |
 | **Secure sensitive data with Microsoft Purview Ninja training scenarios** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-ninja-safeguard-data/) |
 | **Safeguard sensitive data in remote work with Endpoint DLP** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-safeguard-remote-work/) |
 | **Protect sensitive data with DLP in Exchange, SharePoint, OneDrive, and Teams** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-prevent-data-loss-share-transfer/) |

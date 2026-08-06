@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Minecraft in esports** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/minecraft-esports/) |
 | **Get started with development in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/development-get-started-business-central/) |
 | **Introduction to assisted setup and tooltips in Dynamics 365 Business Central** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/assisted-setup-tooltips/) |
 | **Get tips and tricks for teaching AI-900 Microsoft Azure AI Fundamentals** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-ai-900-microsoft-azure-ai-fundamentals/) |
@@ -63,7 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Student and school success - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/student-school-success-education-transformation-framework/) |
 | **Teaching and learning - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/teaching-learning-education-transformation-framework/) |
 | **Leadership and policy - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/leadership-policy-education-transformation-framework/) |
-| **Intelligent environments - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-environments-education-transformation-framework/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-30.md](./microsoft-learn-2026-01-part-30.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-32.md](./microsoft-learn-2026-01-part-32.md)
