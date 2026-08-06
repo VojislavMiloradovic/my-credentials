@@ -1,6 +1,6 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 511,
+  "total_count": 520,
   "badges": [
     {
       "id": "4d3535a6971307d9",
@@ -957,6 +957,24 @@
       ]
     },
     {
+      "id": "1fe802fcf4ca8e22",
+      "title": "Amazon CloudWatch - Troubleshooting",
+      "name": "Amazon CloudWatch - Troubleshooting",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon CloudWatch - Troubleshooting"
+      ]
+    },
+    {
       "id": "6477410f3cbfe8b2",
       "title": "Amazon CloudWatch Getting Started",
       "name": "Amazon CloudWatch Getting Started",
@@ -1101,6 +1119,24 @@
       ]
     },
     {
+      "id": "13cc7c161262bb50",
+      "title": "Amazon Connect AI Workforce Optimization",
+      "name": "Amazon Connect AI Workforce Optimization",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Connect AI Workforce Optimization"
+      ]
+    },
+    {
       "id": "aa2313f0d064696a",
       "title": "Amazon Connect APIs Intermediate",
       "name": "Amazon Connect APIs Intermediate",
@@ -1170,6 +1206,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Contact Lens Fundamentals"
+      ]
+    },
+    {
+      "id": "dbb9dcdc81a5097b",
+      "title": "Amazon Connect Conversational Analytics Essentials",
+      "name": "Amazon Connect Conversational Analytics Essentials",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Connect Conversational Analytics Essentials"
       ]
     },
     {
@@ -1836,6 +1890,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon FSx for NetApp ONTAP Primer"
+      ]
+    },
+    {
+      "id": "53a8c1d47552b9b1",
+      "title": "Amazon FSx for Windows File Server Primer",
+      "name": "Amazon FSx for Windows File Server Primer",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon FSx for Windows File Server Primer"
       ]
     },
     {
@@ -4035,6 +4107,24 @@
       ]
     },
     {
+      "id": "8140a3afd08a49dc",
+      "title": "AWS IPv6 Application Networking and Internet Edge Connectivity",
+      "name": "AWS IPv6 Application Networking and Internet Edge Connectivity",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS IPv6 Application Networking and Internet Edge Connectivity"
+      ]
+    },
+    {
       "id": "70ddd8d211da6c87",
       "title": "AWS IPv6 Fundamentals and VPC Connectivity",
       "name": "AWS IPv6 Fundamentals and VPC Connectivity",
@@ -5259,6 +5349,24 @@
       ]
     },
     {
+      "id": "d73dc96036cef2ac",
+      "title": "Building AWS Solutions: Scale-Out Computing on AWS",
+      "name": "Building AWS Solutions: Scale-Out Computing on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Building AWS Solutions: Scale-Out Computing on AWS"
+      ]
+    },
+    {
       "id": "f4785b94f65dec88",
       "title": "Building hybrid multi-tenant architecture for stateful services on AWS",
       "name": "Building hybrid multi-tenant architecture for stateful services on AWS",
@@ -5472,6 +5580,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Cloud Financial Management: FinOps for GenAI"
+      ]
+    },
+    {
+      "id": "6609502374b78ee5",
+      "title": "Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2)",
+      "name": "Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2)",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2)"
       ]
     },
     {
@@ -8463,6 +8589,24 @@
       ]
     },
     {
+      "id": "effe60a762196e0a",
+      "title": "Monitor Python applications using Amazon CloudWatch Application Signals",
+      "name": "Monitor Python applications using Amazon CloudWatch Application Signals",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Monitor Python applications using Amazon CloudWatch Application Signals"
+      ]
+    },
+    {
       "id": "e15e771b6d6a5b13",
       "title": "Network Load Balancer (NLB) Getting Started",
       "name": "Network Load Balancer (NLB) Getting Started",
@@ -9126,6 +9270,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Understanding Placement Groups"
+      ]
+    },
+    {
+      "id": "e6874af468f3b1e6",
+      "title": "Unleashing Agentic AI Analytics on Amazon SageMaker with Amazon Athena and Amazon Quick",
+      "name": "Unleashing Agentic AI Analytics on Amazon SageMaker with Amazon Athena and Amazon Quick",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-06",
+      "issued_at_date": "2026-08-06",
+      "date": "2026-08-06",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Unleashing Agentic AI Analytics on Amazon SageMaker with Amazon Athena and Amazon Quick"
       ]
     },
     {
