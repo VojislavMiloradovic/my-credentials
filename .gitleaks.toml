@@ -1,15 +1,11 @@
 title = "Gitleaks Configuration"
 
 [allowlist]
-description = "Global allowlist for non-sensitive aggregated text"
+description = "Global allowlist for non-sensitive aggregated text and GUID patterns"
 paths = [
     '''(^|/)llms(-full)?\.txt$''',
     '''(^|/)archive/.*'''
 ]
-
-[[rules]]
-id = "generic-api-key"
-[rules.allowlist]
 regexes = [
     '''"(?:activityId|id|studyGuideUids)":\s*"[a-fA-F0-9-]{36}"'''
 ]
