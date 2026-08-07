@@ -2,7 +2,7 @@
 archive_platform: Credly Verified Credentials
 chunk_part: 10 of 10
 date_range: 2026-08-02 to 2026-08-07
-total_entries: 26
+total_entries: 29
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-10.md
 ---
 
@@ -13,10 +13,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-08-07 | [Cilium Cluster Mesh](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/public_url) | Isovalent | Credly Verified |
+| 2026-08-07 | [Cilium Ingress Controller](https://www.credly.com/badges/29a5efa1-d0ce-4c25-a983-f3b435be6b59/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Cloud Sales Professional XDR](https://www.credly.com/badges/7f370553-e0b2-41a3-9909-131fe11a94a3/public_url) | Acronis | Credly Verified |
 | 2026-08-07 | [Cloud Tech Pro - Backup](https://www.credly.com/badges/da9a50b8-a6fc-4e2e-bf7e-35da0a65a04c/public_url) | Acronis | Credly Verified |
 | 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.credly.com/badges/6b9a8831-80bd-450b-8832-b13a02608855/public_url) | Google Cloud | Credly Verified |
 | 2026-08-07 | [Continuous Security Validation Workshop](https://www.credly.com/badges/132269ac-0ab7-4b20-91c4-76ed7fa3359e/public_url) | AttackIQ | Credly Verified |
+| 2026-08-07 | [Isovalent Lab Champion (10 labs)](https://www.credly.com/badges/1aa636d3-d301-4b4b-8808-e3da552cfc0b/public_url) | Isovalent | Credly Verified |
+| 2026-08-07 | [Tetragon Getting Started](https://www.credly.com/badges/dffe3f42-4e0a-49bd-92f7-2646e68f51eb/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Validating Defenses Quickly with Micro Emulation Plans](https://www.credly.com/badges/d2d863a1-4240-48a3-83d4-e51e7b3b428c/public_url) | AttackIQ | Credly Verified |
 | 2026-08-06 | [Cilium Egress Gateway](https://www.credly.com/badges/b291cb8c-8817-42fc-bdd0-b23ec9e7e101/public_url) | Isovalent | Credly Verified |
 | 2026-08-06 | [Cilium Gateway API](https://www.credly.com/badges/7a20ae99-3df6-481e-8b3a-9b20d2db3dea/public_url) | Isovalent | Credly Verified |

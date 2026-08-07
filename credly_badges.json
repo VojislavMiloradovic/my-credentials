@@ -1,8 +1,8 @@
 {
   "user_username": "vojislavmiloradovic",
   "user_id": "752aee40-7358-4ade-9a49-81e8b6f49225",
-  "total_count": 515,
-  "native_count": 492,
+  "total_count": 518,
+  "native_count": 495,
   "external_count": 23,
   "badges": [
     {
@@ -30,6 +30,32 @@
         "Networking",
         "Open Source",
         "Security"
+      ]
+    },
+    {
+      "id": "29a5efa1-d0ce-4c25-a983-f3b435be6b59",
+      "title": "Cilium Ingress Controller",
+      "name": "Cilium Ingress Controller",
+      "issuer": "Isovalent",
+      "issuer_name": "Isovalent",
+      "issued_at": "2026-08-07",
+      "issued_at_date": "2026-08-07",
+      "date": "2026-08-07",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/97452400-58b1-4982-aba2-29bec73e487c/tempfile20250605-69-udkrvg.png",
+      "verify_url": "https://www.credly.com/badges/29a5efa1-d0ce-4c25-a983-f3b435be6b59/public_url",
+      "url": "https://www.credly.com/badges/29a5efa1-d0ce-4c25-a983-f3b435be6b59/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "Cilium",
+        "Containers",
+        "eBPF",
+        "Hubble",
+        "Kubernetes",
+        "Networking",
+        "Open Source",
+        "Service Mesh"
       ]
     },
     {
@@ -123,6 +149,52 @@
         "Breach & Attack Simulation",
         "Breach & Attack Tools",
         "Purple Team"
+      ]
+    },
+    {
+      "id": "1aa636d3-d301-4b4b-8808-e3da552cfc0b",
+      "title": "Isovalent Lab Champion (10 labs)",
+      "name": "Isovalent Lab Champion (10 labs)",
+      "issuer": "Isovalent",
+      "issuer_name": "Isovalent",
+      "issued_at": "2026-08-07",
+      "issued_at_date": "2026-08-07",
+      "date": "2026-08-07",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/13222796-2aa7-4d17-b2c4-6f2c58e76387/image.png",
+      "verify_url": "https://www.credly.com/badges/1aa636d3-d301-4b4b-8808-e3da552cfc0b/public_url",
+      "url": "https://www.credly.com/badges/1aa636d3-d301-4b4b-8808-e3da552cfc0b/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "Cilium",
+        "eBPF",
+        "Hubble",
+        "Tetragon"
+      ]
+    },
+    {
+      "id": "dffe3f42-4e0a-49bd-92f7-2646e68f51eb",
+      "title": "Tetragon Getting Started",
+      "name": "Tetragon Getting Started",
+      "issuer": "Isovalent",
+      "issuer_name": "Isovalent",
+      "issued_at": "2026-08-07",
+      "issued_at_date": "2026-08-07",
+      "date": "2026-08-07",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/1e91188a-506d-4042-8baf-c7db03341e02/tempfile20250605-74-4ma8k6.png",
+      "verify_url": "https://www.credly.com/badges/dffe3f42-4e0a-49bd-92f7-2646e68f51eb/public_url",
+      "url": "https://www.credly.com/badges/dffe3f42-4e0a-49bd-92f7-2646e68f51eb/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "Containers",
+        "eBPF",
+        "Kubernetes",
+        "Open Source",
+        "Security",
+        "Tetragon"
       ]
     },
     {
