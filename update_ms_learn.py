@@ -11,7 +11,7 @@ import logging
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, UTC
 from typing import Any
 
 from pydantic import BaseModel, Field, ValidationError, field_validator
@@ -95,7 +95,7 @@ def clean_iso_date(raw_date_str: Any) -> str:
 
 def parse_date(x: dict) -> datetime:
     """Parses date string into a timezone-aware datetime for accurate sorting."""
-    min_date = datetime.min.replace(tzinfo=timezone.utc)
+    min_date = datetime.min.replace(tzinfo=UTC)
     if not x or not isinstance(x, dict):
         return min_date
     date_str = x.get("grantedOn") or x.get("date", "")
@@ -108,7 +108,7 @@ def parse_date(x: dict) -> datetime:
             clean_str = f"{base}.{frac[:6].ljust(6, '0')}"
         dt = datetime.fromisoformat(clean_str)
         if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
+            dt = dt.replace(tzinfo=UTC)
         return dt
     except (ValueError, TypeError):
         return min_date

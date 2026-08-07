@@ -12,7 +12,7 @@ import logging
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, UTC
 from typing import Any
 from urllib.parse import unquote
 
@@ -240,7 +240,7 @@ def analyze_badge_list(lst: Any, parsed_badges: list[dict]) -> bool:
     date_str = "N/A"
     if epoch:
         try:
-            date_str = datetime.fromtimestamp(epoch, tz=timezone.utc).strftime("%Y-%m-%d")
+            date_str = datetime.fromtimestamp(epoch, tz=UTC).strftime("%Y-%m-%d")
         except Exception:
             pass
 

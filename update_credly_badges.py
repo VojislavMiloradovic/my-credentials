@@ -10,7 +10,7 @@ import json
 import logging
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, UTC
 from typing import Any
 
 import requests
@@ -64,7 +64,7 @@ def normalize_date_string(raw_date: Any) -> str | None:
             ts = float(raw_date)
             if ts > 1e11:
                 ts /= 1000.0
-            return datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d")
+            return datetime.fromtimestamp(ts, tz=UTC).strftime("%Y-%m-%d")
         except (ValueError, OSError, OverflowError):
             return None
 
@@ -77,7 +77,7 @@ def normalize_date_string(raw_date: Any) -> str | None:
             ts = float(s_date)
             if ts > 1e11:
                 ts /= 1000.0
-            return datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d")
+            return datetime.fromtimestamp(ts, tz=UTC).strftime("%Y-%m-%d")
         except (ValueError, OSError, OverflowError):
             return None
 
@@ -92,7 +92,7 @@ def normalize_date_string(raw_date: Any) -> str | None:
             pass
 
     try:
-        dt = datetime.fromisoformat(s_date.replace("Z", "+00:00"))
+        dt = datetime.fromisoformat(s_date)
         return dt.strftime("%Y-%m-%d")
     except ValueError:
         pass
@@ -460,7 +460,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     total_count = len(sorted_badges)
     total_skills = len(all_skills)
 
-    now_ym = datetime.now(timezone.utc).strftime("%Y-%m")
+    now_ym = datetime.now(UTC).strftime("%Y-%m")
     index_raw = f"{RAW_BASE_DEFAULT}/credly-badges-index.md"
     part1_raw = f"{RAW_BASE_DEFAULT}/credly-badges-{now_ym}-part-01.md"
 

@@ -1,7 +1,7 @@
 import glob
 import os
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timezone, UTC
 
 import tiktoken
 
@@ -97,7 +97,7 @@ def generate_platform_archive(
         sanitized_formatted_rows.append((clean_text, r_date))
 
     total_entries = len(sanitized_formatted_rows)
-    now_ym = datetime.now(timezone.utc).strftime("%Y-%m")
+    now_ym = datetime.now(UTC).strftime("%Y-%m")
 
     # 1. Monolithic Complete File
     monolith_filename = f"{platform_prefix}-complete.md"

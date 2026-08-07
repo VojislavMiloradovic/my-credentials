@@ -12,7 +12,7 @@ import logging
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, UTC
 from typing import Any
 
 from pydantic import BaseModel, Field, ValidationError, field_validator
@@ -177,7 +177,7 @@ def parse_certifications_csv(csv_path: str) -> list[dict]:
     """Parses CSV transcript/certification file into validated models."""
     logger.info(f"📄 Parsing LinkedIn certifications from CSV file: '{csv_path}'")
     certs = []
-    current_year_month = datetime.now(timezone.utc).strftime("%Y-%m")
+    current_year_month = datetime.now(UTC).strftime("%Y-%m")
 
     with open(csv_path, mode="r", encoding="utf-8-sig") as f:
         content = f.read()

@@ -1,7 +1,7 @@
 import glob
 import os
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timezone, UTC
 
 from archiver import count_tokens
 
@@ -249,7 +249,7 @@ def calculate_domain_breakdown():
 def generate_llms_txt():
     """Generates a token-optimized, structured llms.txt index file."""
     print("🚀 Starting llms.txt index generation...")
-    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    timestamp = datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC")
 
     pc = read_portfolio_counts()
     domain_counts, total_parsed = calculate_domain_breakdown()
