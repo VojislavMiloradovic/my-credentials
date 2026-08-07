@@ -4,8 +4,11 @@ requires-python = ">=3.11,<3.12"
 [workspace]
 members = ["."]
 
-[workspace.packages]
-"." = { name = "my-credentials", version = "0.1.0", dependencies = ["requests", "beautifulsoup4", "jsonschema", "tiktoken", "pydantic"] }
+[[workspace.packages]]
+name = "my-credentials"
+path = "."
+version = "0.1.0"
+dependencies = ["requests", "beautifulsoup4", "jsonschema", "tiktoken", "pydantic"]
 
 [resolution]
 
