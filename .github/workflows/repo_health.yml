@@ -16,30 +16,40 @@ jobs:
         with:
           fetch-depth: 0
 
-      # 1. Scan for exposed secrets (uses .gitleaks.toml allowlist)
+      # 1. Set up Python environment first
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 2. Sanitize Microsoft Learn export files before Gitleaks runs
+      - name: Sanitize Microsoft Learn Data
+        run: |
+          if [ -f "microsoft-learn.json" ]; then
+            python scripts/sanitize_ms_export.py microsoft-learn.json
+          fi
+          if [ -f "data/microsoft-learn.json" ]; then
+            python scripts/sanitize_ms_export.py data/microsoft-learn.json
+          fi
+
+      # 3. Scan for exposed secrets (scans post-sanitization)
       - name: Gitleaks Secret Scan
         uses: gitleaks/gitleaks-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2. Set up Python environment
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      # 3. Strictly verify Python code quality (no --fix, no --ignore)
+      # 4. Strictly verify Python code quality
       - name: Run Ruff Linter
         run: |
           pip install ruff
-          ruff check *.py
+          ruff check *.py scripts/*.py
 
-      # 4. Verify syntax integrity of raw JSON data files
+      # 5. Verify syntax integrity of raw JSON data files
       - name: Validate Data JSON Integrity
         run: |
           python -c "
           import glob, json
-          json_files = glob.glob('data/*.json')
+          json_files = glob.glob('data/*.json') + glob.glob('*.json')
           for f in json_files:
               with open(f, 'r', encoding='utf-8') as fp:
                   json.load(fp)
