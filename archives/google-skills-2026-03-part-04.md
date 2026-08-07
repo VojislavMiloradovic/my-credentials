@@ -58,7 +58,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-12-31 | [Hybrid Cloud Infrastructure Foundations with Anthos](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21284642) | Google Cloud | Google Skill Badge |
 | 2025-12-30 | [Build a Certification Study Guide: PDE Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264999) | Google Cloud | Google Skill Badge |
 | 2025-12-30 | [Managing and Securing the Apigee Hybrid API Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264510) | Google Cloud | Google Skill Badge |
-| 2025-12-30 | [Preparing for Your Professional Cloud Security Engineer Journey](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264288) | Google Cloud | Google Skill Badge |
+| 2025-12-30 | [Build a Certification Study Guide: PCSE Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21264288) | Google Cloud | Google Skill Badge |
 | 2025-12-29 | [Upgrading and Monitoring the Apigee Hybrid API Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21236729) | Google Cloud | Google Skill Badge |
 
 ---
