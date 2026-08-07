@@ -25,7 +25,7 @@ jobs:
         run: uv sync --frozen
 
       - name: Run Inspector Script
-        run: python inspect_data.py
+        run: uv run python inspect_data.py
 
       - name: Commit Structure Summary
         run: |

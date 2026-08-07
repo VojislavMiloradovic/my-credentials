@@ -35,13 +35,13 @@ jobs:
         run: uv sync --frozen
 
       - name: Run Platform Script
-        run: python ${{ inputs.script_name }}
+        run: uv run python ${{ inputs.script_name }}
 
       - name: Generate JSON-LD Linked Data
-        run: python generate_jsonld.py
+        run: uv run python generate_jsonld.py
 
       - name: Generate LLMs.txt Directory Files
-        run: python generate_llms_txt.py
+        run: uv run python generate_llms_txt.py
 
       - name: Commit and Push Changes (Rebase Safe)
         run: |
