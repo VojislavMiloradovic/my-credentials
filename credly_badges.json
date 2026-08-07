@@ -1,10 +1,37 @@
 {
   "user_username": "vojislavmiloradovic",
   "user_id": "752aee40-7358-4ade-9a49-81e8b6f49225",
-  "total_count": 514,
-  "native_count": 491,
+  "total_count": 515,
+  "native_count": 492,
   "external_count": 23,
   "badges": [
+    {
+      "id": "4330e262-6e46-4c65-90ba-53174b20d55d",
+      "title": "Cilium Cluster Mesh",
+      "name": "Cilium Cluster Mesh",
+      "issuer": "Isovalent",
+      "issuer_name": "Isovalent",
+      "issued_at": "2026-08-07",
+      "issued_at_date": "2026-08-07",
+      "date": "2026-08-07",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/00f31c5d-eb40-458f-aa11-22e9ff35deb7/tempfile20250605-95-6sagl8.png",
+      "verify_url": "https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/public_url",
+      "url": "https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "Cilium",
+        "Cluster",
+        "Cluster Mesh",
+        "Containers",
+        "eBPF",
+        "Kubernetes",
+        "Networking",
+        "Open Source",
+        "Security"
+      ]
+    },
     {
       "id": "7f370553-e0b2-41a3-9909-131fe11a94a3",
       "title": "Cloud Sales Professional XDR",

@@ -1,11 +1,12 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 514 records.
+This document represents a unified, verifiable list of all 515 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-07 | [Cilium Cluster Mesh](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Cloud Sales Professional XDR](https://www.credly.com/badges/7f370553-e0b2-41a3-9909-131fe11a94a3/public_url) | Acronis | Credly Verified |
 | 2026-08-07 | [Cloud Tech Pro - Backup](https://www.credly.com/badges/da9a50b8-a6fc-4e2e-bf7e-35da0a65a04c/public_url) | Acronis | Credly Verified |
 | 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.credly.com/badges/6b9a8831-80bd-450b-8832-b13a02608855/public_url) | Google Cloud | Credly Verified |

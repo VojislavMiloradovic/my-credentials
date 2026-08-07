@@ -121,15 +121,16 @@ Showing latest 10 of 520 credentials. View full dataset via [Platform Archive In
 [Credly Verified Credentials](https://www.credly.com/users/vojislavmiloradovic/badges)
 
 Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic/badges)
-**Total Portfolio Credentials:** 514 (491 Credly Verified, 23 External/Imported)
-**Total Verified Skills Mapped:** 1894
+**Total Portfolio Credentials:** 515 (492 Credly Verified, 23 External/Imported)
+**Total Verified Skills Mapped:** 1895
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 514 credentials. View full dataset via [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-01.md), or [Monolithic File](./archives/credly-badges-complete.md).
+Showing latest 10 of 515 credentials. View full dataset via [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-01.md), or [Monolithic File](./archives/credly-badges-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-07 | [Cilium Cluster Mesh](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Cloud Sales Professional XDR](https://www.credly.com/badges/7f370553-e0b2-41a3-9909-131fe11a94a3/public_url) | Acronis | Credly Verified |
 | 2026-08-07 | [Cloud Tech Pro - Backup](https://www.credly.com/badges/da9a50b8-a6fc-4e2e-bf7e-35da0a65a04c/public_url) | Acronis | Credly Verified |
 | 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.credly.com/badges/6b9a8831-80bd-450b-8832-b13a02608855/public_url) | Google Cloud | Credly Verified |
@@ -139,7 +140,6 @@ Showing latest 10 of 514 credentials. View full dataset via [Platform Archive In
 | 2026-08-06 | [Cilium Gateway API](https://www.credly.com/badges/7a20ae99-3df6-481e-8b3a-9b20d2db3dea/public_url) | Isovalent | Credly Verified |
 | 2026-08-05 | [Advanced Cyber Threat Intelligence Writing: Crafting Actionable Reports](https://www.credly.com/badges/8168b2f0-bad1-4fa8-bfb2-81ff1ca5ae03/public_url) | AttackIQ | Credly Verified |
 | 2026-08-05 | [AttackIQ Academy Threat Whisperer](https://www.credly.com/badges/90f733cf-e8d8-4bbe-b560-5c66a35f9cc6/public_url) | AttackIQ | Credly Verified |
-| 2026-08-05 | [AttackIQ Foundational Blueprints](https://www.credly.com/badges/fb6207f0-02f5-4fe6-9a76-d46eb5624a48/public_url) | AttackIQ | Credly Verified |
 <!-- CREDLY_BADGES_END -->
 
 
