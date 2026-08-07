@@ -26,10 +26,10 @@ jobs:
       - name: Sanitize Microsoft Learn Data
         run: |
           if [ -f "microsoft-learn.json" ]; then
-            python scripts/sanitize_ms_export.py microsoft-learn.json
+            python sanitize_ms_export.py microsoft-learn.json
           fi
           if [ -f "data/microsoft-learn.json" ]; then
-            python scripts/sanitize_ms_export.py data/microsoft-learn.json
+            python sanitize_ms_export.py data/microsoft-learn.json
           fi
 
       # 3. Scan for exposed secrets (scans post-sanitization)
@@ -42,7 +42,7 @@ jobs:
       - name: Run Ruff Linter
         run: |
           pip install ruff
-          ruff check *.py scripts/*.py
+          ruff check *.py
 
       # 5. Verify syntax integrity of raw JSON data files
       - name: Validate Data JSON Integrity
