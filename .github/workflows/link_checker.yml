@@ -36,7 +36,7 @@ jobs:
             --cache
             --max-cache-age 7d
             --exclude "(linkedin.com|credly.com)"
-            "README.md" "llms.txt" "archives/*.md"
+            "README.md" "llms.txt" "llms-full.txt" "archive/*.md" "archives/*.md"
           fail: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
