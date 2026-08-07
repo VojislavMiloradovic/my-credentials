@@ -1,11 +1,21 @@
 # Complete Google Developer Profile Archive
 
-This document represents a unified, verifiable list of all 1610 records.
+This document represents a unified, verifiable list of all 1620 records.
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-07 | **Developing with OpenThread APIs** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-07 | **Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-07 | **Build a Thread Network with the B91 Development Board and OpenThread** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-07 | **Six Recipes for Reaching Near-100% Accurate Text-to-SQL in AlloyDB - codelab** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-07 | **Simulate Thread Networks using OTNS** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-07 | **Build a Thread network with nRF52840 boards and OpenThread** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-07 | **Simulating a Thread network with OpenThread** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-07 | **Build a Multi-Agent Organic Chemistry Safety & Research Assistant with Antigravity, agents-cli, ADK & MCP** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-07 | **Build a Thread Network with the ESP32H2 and ESP Thread Border Router Board** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-07 | **Build a Thread network with Silicon Labs EFR32 boards and OpenThread using Simplicity Studio v5** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-01 | **Run a personal agent on a Cloud Run service (coffee shop manager assistant)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-01 | **Anti-Money Laundering & Fraud Prevention with BigQuery GraphRAG** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-01 | **Build and Deploy AI Agents with Gemini and BigQuery MCP server in Cloud Run** | Verified Google Developer granular learning activity module milestone. |

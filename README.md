@@ -185,7 +185,7 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 171 |
-| **Total Codelabs & Learning Activities** | 1,446 |
+| **Total Codelabs & Learning Activities** | 1,456 |
 
 #### Latest Achievements
 
@@ -193,16 +193,16 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| *2026-08-01* | **Run a personal agent on a Cloud Run service (coffee shop manager assistant)** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-01* | **Anti-Money Laundering & Fraud Prevention with BigQuery GraphRAG** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-01* | **Build and Deploy AI Agents with Gemini and BigQuery MCP server in Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-01* | **ADK 2 Orchestration: Graph, Collaborative & Dynamic Workflows** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-01* | **Deploy a RAG AI Agent in Streamlit using Google ADK and Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-01* | **Build and Deploy AI Agents with Gemma 4 and BigQuery MCP server in Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-01* | **Deploy a Python App to Cloud Run (Streamlit)** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-01* | **Agent-to-Agent Engineering: Build, Deploy, and Embed ADK Agents with Antigravity CLI and agents-cli** | Verified Google Developer granular learning activity module milestone. |
-| *2026-07-29* | **Optimizing Unity Games for Large Screens and Foldables** | Verified Google Developer granular learning activity module milestone. |
-| *2026-07-29* | **OSS Kubernetes on GCE with TPUs, DRA for TPU, DRANET (OSS) and Gemma 4** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-07* | **Developing with OpenThread APIs** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-07* | **Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-07* | **Build a Thread Network with the B91 Development Board and OpenThread** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-07* | **Six Recipes for Reaching Near-100% Accurate Text-to-SQL in AlloyDB - codelab** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-07* | **Simulate Thread Networks using OTNS** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-07* | **Build a Thread network with nRF52840 boards and OpenThread** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-07* | **Simulating a Thread network with OpenThread** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-07* | **Build a Multi-Agent Organic Chemistry Safety & Research Assistant with Antigravity, agents-cli, ADK & MCP** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-07* | **Build a Thread Network with the ESP32H2 and ESP Thread Border Router Board** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-07* | **Build a Thread network with Silicon Labs EFR32 boards and OpenThread using Simplicity Studio v5** | Verified Google Developer granular learning activity module milestone. |
 <!-- GOOGLE_DEVELOPER_END -->
 
 
