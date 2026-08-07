@@ -11,7 +11,7 @@ import logging
 import os
 import re
 import sys
-from datetime import datetime, timezone, UTC
+from datetime import UTC, datetime
 from typing import Any
 
 from pydantic import BaseModel, Field, ValidationError, field_validator

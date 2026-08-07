@@ -12,7 +12,7 @@ import logging
 import os
 import re
 import sys
-from datetime import datetime, timezone, UTC
+from datetime import UTC, datetime
 from typing import Any
 from urllib.parse import unquote
 

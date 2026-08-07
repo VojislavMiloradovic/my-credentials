@@ -1,7 +1,7 @@
 import glob
 import os
 import re
-from datetime import datetime, timezone, UTC
+from datetime import UTC, datetime
 
 import tiktoken
 
