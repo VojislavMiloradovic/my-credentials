@@ -21,7 +21,6 @@ _ENCODER = None
 # --- Shared Pipeline Custom Exceptions ---
 class PipelineDataLossAnomaly(Exception):
     """Raised when incoming dataset drops beyond safety threshold compared to local state."""
-    pass
 
 
 # --- Shared Pipeline HTTP & Network Utilities ---
