@@ -1,17 +1,18 @@
 ---
 archive_platform: Google Skills Credentials
-chunk_part: 7 of 7
-date_range: 2026-05-21 to 2026-08-03
-total_entries: 48
+chunk_part: 7 of 8
+date_range: 2026-05-21 to 2026-08-07
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-07.md
 ---
 
 # Google Skills Credentials — Part 07
 
-> **Navigation:** Prev: [google-skills-2026-05-part-06.md](./google-skills-2026-05-part-06.md) | [Index](./google-skills-index.md) | Next: None | [Complete Archive](./google-skills-complete.md)
+> **Navigation:** Prev: [google-skills-2026-05-part-06.md](./google-skills-2026-05-part-06.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-08-part-08.md](./google-skills-2026-08-part-08.md) | [Complete Archive](./google-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26378483) | Google Cloud | Google Skill Badge |
 | 2026-08-03 | [Privileged Access with IAM](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26258669) | Google Cloud | Google Skill Badge |
 | 2026-07-29 | [Analyze Images with the Cloud Vision API](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26066863) | Google Cloud | Google Skill Badge |
 | 2026-07-29 | [Build Event-Driven Applications with Eventarc](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26065872) | Google Cloud | Google Skill Badge |
@@ -62,5 +63,5 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-21 | [Website Modernization with Generative AI on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24328413) | Google Cloud | Google Skill Badge |
 
 ---
-> **Navigation:** Prev: [google-skills-2026-05-part-06.md](./google-skills-2026-05-part-06.md) | [Index](./google-skills-index.md) | Next: None
+> **Navigation:** Prev: [google-skills-2026-05-part-06.md](./google-skills-2026-05-part-06.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-08-part-08.md](./google-skills-2026-08-part-08.md)
 

@@ -1,11 +1,13 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 340 records.
+This document represents a unified, verifiable list of all 342 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-07 | [Arcade Simulator: Network Security Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26380399) | Google Cloud | Google Skill Badge |
+| 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26378483) | Google Cloud | Google Skill Badge |
 | 2026-08-03 | [Privileged Access with IAM](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26258669) | Google Cloud | Google Skill Badge |
 | 2026-07-29 | [Analyze Images with the Cloud Vision API](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26066863) | Google Cloud | Google Skill Badge |
 | 2026-07-29 | [Build Event-Driven Applications with Eventarc](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26065872) | Google Cloud | Google Skill Badge |

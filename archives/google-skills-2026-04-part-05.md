@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Skills Credentials
-chunk_part: 5 of 7
+chunk_part: 5 of 8
 date_range: 2026-03-30 to 2026-04-25
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-04-part-05.md

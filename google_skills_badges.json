@@ -1,7 +1,43 @@
 {
   "profile_id": "2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_count": 340,
+  "total_count": 342,
   "badges": [
+    {
+      "id": "google-skills-badge-26380399",
+      "title": "Arcade Simulator: Network Security Engineer",
+      "name": "Arcade Simulator: Network Security Engineer",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-07",
+      "issued_at_date": "2026-08-07",
+      "date": "2026-08-07",
+      "image_url": "https://cdn.qwiklabs.com/tfve7xMaebsownBg5sa8CUfJgurTxKMJ7TbxIlm1tec%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26380399",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26380399",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Arcade Simulator: Network Security Engineer"
+      ]
+    },
+    {
+      "id": "google-skills-badge-26378483",
+      "title": "Connecting Cloud Networks with NCC",
+      "name": "Connecting Cloud Networks with NCC",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-07",
+      "issued_at_date": "2026-08-07",
+      "date": "2026-08-07",
+      "image_url": "https://cdn.qwiklabs.com/Y0Bg%2FY1trEfF5%2FwE6ByOpoQbSFoZzhKA4AzWbVuBFmY%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26378483",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26378483",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Connecting Cloud Networks with NCC"
+      ]
+    },
     {
       "id": "google-skills-badge-26258669",
       "title": "Privileged Access with IAM",
