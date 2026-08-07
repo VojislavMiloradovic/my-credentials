@@ -1,5 +1,5 @@
 check_circle_outline You have this badge!
-Учење
+Learning
 Theming in Compose with Material 3
 26. мај 2026.
 
@@ -279,6 +279,9 @@ Theming in Compose with Material 3
 Using External HTTP(s) Hybrid load balancer to reach a Network Endpoint Group
 10. јун 2026.
 
+Developing with OpenThread APIs
+7. авг 2026.
+
 Module 4: Migrate from Google App Engine to Cloud Run with Docker
 9. јун 2026.
 
@@ -395,6 +398,9 @@ Reverse ETL from Databricks to Spanner using BQ
 
 Learn Performance
 25. јун 2026.
+
+Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI
+7. авг 2026.
 
 Go further with image classification
 27. јун 2026.
@@ -1092,14 +1098,23 @@ How to Transact Digital Assets with Multi-Party Computation and Confidential Spa
 Build your own Current Place picker for Android (Java)
 5. јун 2026.
 
+Build a Thread Network with the B91 Development Board and OpenThread
+7. авг 2026.
+
 Advanced Android in Kotlin 04.1: Android Google Maps
 5. јун 2026.
+
+Six Recipes for Reaching Near-100% Accurate Text-to-SQL in AlloyDB - codelab
+7. авг 2026.
 
 Image Data Classification with BigQuery ML
 18. јун 2026.
 
 Learn Forms
 25. јун 2026.
+
+Simulate Thread Networks using OTNS
+7. авг 2026.
 
 Optimizing the price of retail products
 7. јун 2026.
@@ -3726,6 +3741,9 @@ Query the Wikipedia dataset in BigQuery
 Layouts, theming, and animation
 5. јун 2026.
 
+Build a Thread network with nRF52840 boards and OpenThread
+7. авг 2026.
+
 Integrating Magento with Cloud Spanner
 24. мај 2026.
 
@@ -3926,6 +3944,9 @@ Messaging with Spring Integration and Google Cloud Pub/Sub
 
 Automating legacy modernization at scale using agentic pipelines and Antigravity
 10. јун 2026.
+
+Simulating a Thread network with OpenThread
+7. авг 2026.
 
 State in Jetpack Compose
 24. мај 2026.
@@ -4311,6 +4332,9 @@ Agent-to-Agent Engineering: Build, Deploy, and Embed ADK Agents with Antigravity
 Get started with scroll-driven animations in CSS
 7. јун 2026.
 
+Build a Multi-Agent Organic Chemistry Safety & Research Assistant with Antigravity, agents-cli, ADK & MCP
+7. авг 2026.
+
 Deploy ASP.NET Core app to Google Kubernetes Engine with Istio (Part 1)
 10. јун 2026.
 
@@ -4349,6 +4373,9 @@ MDC-104 Android: Material Advanced Components (Java)
 
 Display nearby places in AR on Android (Kotlin)
 25. јун 2026.
+
+Build a Thread Network with the ESP32H2 and ESP Thread Border Router Board
+7. авг 2026.
 
 Practice: Kotlin Fundamentals
 6. јун 2026.
@@ -4409,6 +4436,9 @@ Leveraging the Gemini Pro Vision model for image understanding, multimodal promp
 
 Lab 3: Uncovering Lost Cargo with BigQuery Graph and Conversational Analytics
 13. јун 2026.
+
+Build a Thread network with Silicon Labs EFR32 boards and OpenThread using Simplicity Studio v5
+7. авг 2026.
 
 Analyzing a financial ML model deployed on Cloud AI Platform with the What-if Tool
 20. мај 2026.
