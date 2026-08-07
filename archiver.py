@@ -1,15 +1,120 @@
 import glob
+import json
 import os
 import re
+import tempfile
 from datetime import datetime, timezone
+from pathlib import Path
 
+import requests
 import tiktoken
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
 
+# --- Constants ---
 RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
+MAX_ALLOWED_DATA_LOSS_PCT = 0.15
 
 _ENCODER = None
 
 
+# --- Shared Pipeline Custom Exceptions ---
+class PipelineDataLossAnomaly(Exception):
+    """Raised when incoming dataset drops beyond safety threshold compared to local state."""
+    pass
+
+
+# --- Shared Pipeline HTTP & Network Utilities ---
+def get_resilient_session(retries: int = 3, backoff_factor: float = 0.5) -> requests.Session:
+    """Configures a requests Session with automated retries and standard headers."""
+    session = requests.Session()
+    retry_strategy = Retry(
+        total=retries,
+        backoff_factor=backoff_factor,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET", "POST"],
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept-Language": "en-US,en;q=0.9",
+    })
+    return session
+
+
+# --- Shared Pipeline Data Manipulation & Validation Utilities ---
+def normalize_date_string(date_str: str) -> str:
+    """Normalizes raw date strings into standard YYYY-MM-DD or YYYY-MM format."""
+    if not date_str or not isinstance(date_str, str):
+        return ""
+    clean = date_str.strip()
+    
+    # ISO / Standard format check
+    m_full = re.match(r"^(\d{4}-\d{2}-\d{2})", clean)
+    if m_full:
+        return m_full.group(1)
+        
+    m_ym = re.match(r"^(\d{4}-\d{2})", clean)
+    if m_ym:
+        return m_ym.group(1)
+
+    # Verbose date parsing fallback (e.g. "Jan 15, 2024")
+    for fmt in ("%b %d, %Y", "%B %d, %Y", "%d %b %Y", "%d %B %Y"):
+        try:
+            return datetime.strptime(clean, fmt).strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+
+    return clean
+
+
+def execute_data_loss_guard(
+    incoming_items: list | dict,
+    json_path: str | Path,
+    max_loss_pct: float = MAX_ALLOWED_DATA_LOSS_PCT,
+) -> None:
+    """Guards against unexpected dataset truncation by comparing incoming size with existing state."""
+    path = Path(json_path)
+    if not path.exists():
+        return
+
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            existing_data = json.load(f)
+
+        existing_count = (
+            len(existing_data.get("badges", []))
+            if isinstance(existing_data, dict) and "badges" in existing_data
+            else len(existing_data) if isinstance(existing_data, (list, dict)) else 0
+        )
+        incoming_count = len(incoming_items) if isinstance(incoming_items, (list, dict)) else 0
+
+        if existing_count > 0 and incoming_count < existing_count:
+            loss_pct = (existing_count - incoming_count) / existing_count
+            if loss_pct > max_loss_pct:
+                raise PipelineDataLossAnomaly(
+                    f"Data loss guard anomaly: incoming count ({incoming_count}) is {loss_pct:.1%} lower "
+                    f"than stored count ({existing_count}) in {path.name}."
+                )
+    except (json.JSONDecodeError, OSError):
+        pass
+
+
+def atomic_write_json(destination: str | Path, data: dict | list, indent: int = 2) -> None:
+    """Atomically writes JSON content to prevent file corruption during crashes or mid-write exits."""
+    dest_path = Path(destination)
+    dest_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    with tempfile.NamedTemporaryFile("w", dir=dest_path.parent, delete=False, encoding="utf-8") as tmp:
+        json.dump(data, tmp, indent=indent, ensure_ascii=False)
+        tmp_name = tmp.name
+
+    os.replace(tmp_name, dest_path)
+
+
+# --- Archiving & Text Utilities ---
 def count_tokens(text: str, encoding_name: str = "cl100k_base") -> int:
     """Calculates exact token counts using tiktoken (cl100k_base),
     falling back to character estimation if tiktoken is unavailable.
@@ -90,7 +195,6 @@ def generate_platform_archive(
     print(f"\n📦 Processing platform archive: {platform_name} ({platform_prefix})")
     os.makedirs(archive_dir, exist_ok=True)
 
-    # Sanitize and ensure row texts are clean single-line table rows
     sanitized_formatted_rows = []
     for r_text, r_date in formatted_rows:
         clean_text = r_text.replace("\r", "").replace("\n", " ").strip()
@@ -99,7 +203,6 @@ def generate_platform_archive(
     total_entries = len(sanitized_formatted_rows)
     now_ym = datetime.now(timezone.utc).strftime("%Y-%m")
 
-    # 1. Monolithic Complete File
     monolith_filename = f"{platform_prefix}-complete.md"
     monolith_path = os.path.join(archive_dir, monolith_filename)
 
@@ -132,8 +235,6 @@ def generate_platform_archive(
     mono_status = "✍️  Updated" if mono_written else "⏭️  Unchanged"
     print(f"  {mono_status} monolith: {monolith_filename} ({mono_kb} KB | {mono_tokens:,} tokens | {total_entries} records)")
 
-    # 2. Stable Chunking Logic (~10 KB limit per file)
-    # Process from oldest to newest so part-01 is permanently anchored to oldest history.
     oldest_to_newest = sanitized_formatted_rows[::-1]
     raw_chunks_old_to_new = []
     current_chunk_rows = []
@@ -153,13 +254,10 @@ def generate_platform_archive(
         raw_chunks_old_to_new.append(current_chunk_rows)
 
     total_chunks = len(raw_chunks_old_to_new)
-
-    # First pass: assign filenames where part-01 = oldest chunk
     chunk_meta = []
     chunk_filenames = []
 
     for i, chunk_rows_old in enumerate(raw_chunks_old_to_new, start=1):
-        # Reverse internal rows so newest items within the chunk appear top-first
         chunk_rows = chunk_rows_old[::-1]
         start_date = chunk_rows[-1][1]
         end_date = chunk_rows[0][1]
@@ -175,7 +273,6 @@ def generate_platform_archive(
             "rows": chunk_rows,
         })
 
-    # Second pass: write chunks with stable prev/next links
     active_filenames = set(chunk_filenames)
     print(f"  🧩 Slicing dataset into {total_chunks} stable chunk file(s):")
 
@@ -183,17 +280,8 @@ def generate_platform_archive(
         chunk_filename = meta["filename"]
         chunk_rows = meta["rows"]
 
-        # Link to part-(i-1) and part-(i+1)
-        prev_link = (
-            f"[{chunk_filenames[i-2]}](./{chunk_filenames[i-2]})"
-            if i > 1
-            else "None"
-        )
-        next_link = (
-            f"[{chunk_filenames[i]}](./{chunk_filenames[i]})"
-            if i < total_chunks
-            else "None"
-        )
+        prev_link = f"[{chunk_filenames[i-2]}](./{chunk_filenames[i-2]})" if i > 1 else "None"
+        next_link = f"[{chunk_filenames[i]}](./{chunk_filenames[i]})" if i < total_chunks else "None"
 
         c_md = [
             "---",
@@ -229,10 +317,8 @@ def generate_platform_archive(
         slice_status = "✍️  Updated" if chunk_written else "⏭️  Unchanged"
         print(f"     [{i:02d}/{total_chunks:02d}] {slice_status}: {chunk_filename} ({file_size_kb} KB | {exact_tokens:,} tokens | {len(chunk_rows)} entries)")
 
-    # Clean up obsolete slice files
     clean_orphaned_chunks(archive_dir, platform_prefix, active_filenames)
 
-    # 3. Master Platform Index File (Display newest part first in table)
     index_filename = f"{platform_prefix}-index.md"
     index_path = os.path.join(archive_dir, index_filename)
 
@@ -252,7 +338,6 @@ def generate_platform_archive(
         "| :---: | :--- | :---: | :---: | :---: | :---: | :--- |",
     ]
 
-    # Show newest chunk parts at top of index table
     for cm in reversed(chunk_meta):
         idx_md.append(
             f"| Part {cm['part']:02d} | [`{cm['filename']}`](./{cm['filename']}) | `{cm['date_range']}` | {cm['entries']} | {cm['size_kb']} KB | {cm['tokens']:,} | [Raw URL]({cm['raw_url']}) |"
@@ -264,7 +349,6 @@ def generate_platform_archive(
     idx_status = "✍️  Updated" if idx_written else "⏭️  Unchanged"
     print(f"  {idx_status} index: {index_filename}")
 
-    # 4. Update README.md
     if os.path.exists(readme_path):
         with open(readme_path, "r", encoding="utf-8") as f:
             content = f.read()
