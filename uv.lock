@@ -1,8 +1,7 @@
-[version]
-schema = 1
+1
 
 [resolution]
-requires-python = "==3.11.*"
+requires-python = ">=3.11,<3.12"
 
 [[package]]
 name = "annotated-types"
