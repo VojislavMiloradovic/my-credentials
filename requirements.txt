@@ -1,5 +1,5 @@
-requests
-beautifulsoup4
-jsonschema
-tiktoken>=0.7.0
-pydantic
+requests==2.34.2
+beautifulsoup4==4.15.0
+jsonschema==4.26.0
+tiktoken==0.13.0
+pydantic==2.13.4
