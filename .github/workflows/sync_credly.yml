@@ -20,9 +20,11 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
       - name: Install Dependencies
-        run: |
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        run: uv sync --frozen
 
       - name: Run Credly Sync Script
         run: |

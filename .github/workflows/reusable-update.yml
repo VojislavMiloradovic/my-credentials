@@ -12,11 +12,6 @@ on:
         required: false
         type: string
         default: "chore: auto-update platform data, json-ld, and llms.txt"
-      python_version:
-        description: "Python version to set up"
-        required: false
-        type: string
-        default: "3.11"
 
 permissions:
   contents: write
@@ -28,15 +23,16 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Python with Pip Cache
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: ${{ inputs.python_version }}
-          cache: 'pip' # Caches dependencies to speed up daily workflow runs
+          python-version: '3.11'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
 
       - name: Install Dependencies
-        run: |
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        run: uv sync --frozen
 
       - name: Run Platform Script
         run: python ${{ inputs.script_name }}

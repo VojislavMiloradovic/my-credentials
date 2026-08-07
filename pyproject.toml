@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "my-credentials"
 version = "0.1.0"
 description = "Automated profile sync and AI-readable archives for learning achievements."
-requires-python = ">=3.11"
+requires-python = "==3.11.*"
 dependencies = [
     "requests==2.34.2",
     "beautifulsoup4==4.15.0",
@@ -15,9 +15,12 @@ dependencies = [
     "pydantic==2.13.4",
 ]
 
+[project.optional-dependencies]
+dev = ["ruff==0.16.2"]
+
 [tool.uv]
-# This is a scripts repo, not a library — no package discovery needed.
 package = false
+python-version = "3.11"
 
 [tool.ruff]
 target-version = "py311"

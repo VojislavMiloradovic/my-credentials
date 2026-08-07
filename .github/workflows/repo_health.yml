@@ -22,6 +22,12 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Install Dependencies
+        run: uv sync --frozen
+
       # 2. Sanitize Microsoft Learn export files before Gitleaks runs
       - name: Sanitize Microsoft Learn Data
         run: |
@@ -40,9 +46,7 @@ jobs:
 
       # 4. Strictly verify Python code quality
       - name: Run Ruff Linter
-        run: |
-          pip install ruff
-          ruff check *.py
+        run: ruff check *.py
 
       # 5. Verify syntax integrity of raw JSON data files
       - name: Validate Data JSON Integrity
