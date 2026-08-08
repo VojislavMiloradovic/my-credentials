@@ -1,6 +1,6 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 520,
+  "total_count": 540,
   "badges": [
     {
       "id": "4d3535a6971307d9",
@@ -777,6 +777,24 @@
       ]
     },
     {
+      "id": "5a75c9293597eb81",
+      "title": "AI-DLC Foundations: Operations Deep Dive",
+      "name": "AI-DLC Foundations: Operations Deep Dive",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AI-DLC Foundations: Operations Deep Dive"
+      ]
+    },
+    {
       "id": "6ef145548ce2ef53",
       "title": "Amazon API Gateway for Serverless Applications",
       "name": "Amazon API Gateway for Serverless Applications",
@@ -1137,6 +1155,24 @@
       ]
     },
     {
+      "id": "4e2c5cc71b5d4331",
+      "title": "Amazon Connect Analytics Reporting and Visualizations",
+      "name": "Amazon Connect Analytics Reporting and Visualizations",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Connect Analytics Reporting and Visualizations"
+      ]
+    },
+    {
       "id": "aa2313f0d064696a",
       "title": "Amazon Connect APIs Intermediate",
       "name": "Amazon Connect APIs Intermediate",
@@ -1224,6 +1260,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Conversational Analytics Essentials"
+      ]
+    },
+    {
+      "id": "eb6a7873f6821c08",
+      "title": "Amazon Connect Conversational Interfaces Intermediate",
+      "name": "Amazon Connect Conversational Interfaces Intermediate",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Connect Conversational Interfaces Intermediate"
       ]
     },
     {
@@ -1422,6 +1476,42 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Outbound Communications Advanced Campaign Management"
+      ]
+    },
+    {
+      "id": "3ff59a8c820a3493",
+      "title": "Amazon Connect Outbound Communications Channel Configuration and Setup",
+      "name": "Amazon Connect Outbound Communications Channel Configuration and Setup",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Connect Outbound Communications Channel Configuration and Setup"
+      ]
+    },
+    {
+      "id": "223119168a3f516b",
+      "title": "Amazon Connect Outbound Communications Performance Optimization and Analytics",
+      "name": "Amazon Connect Outbound Communications Performance Optimization and Analytics",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Connect Outbound Communications Performance Optimization and Analytics"
       ]
     },
     {
@@ -1782,6 +1872,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Elastic Block Store (Amazon EBS) Primer"
+      ]
+    },
+    {
+      "id": "fc7a549387446af9",
+      "title": "Amazon Elastic Block Store - Troubleshooting",
+      "name": "Amazon Elastic Block Store - Troubleshooting",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Elastic Block Store - Troubleshooting"
       ]
     },
     {
@@ -3837,6 +3945,24 @@
       ]
     },
     {
+      "id": "a8b7172c02c76853",
+      "title": "AWS for SAP - Cost Optimization Strategies",
+      "name": "AWS for SAP - Cost Optimization Strategies",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS for SAP - Cost Optimization Strategies"
+      ]
+    },
+    {
       "id": "0a3348365603b588",
       "title": "AWS for SAP - Generative AI Fundamentals",
       "name": "AWS for SAP - Generative AI Fundamentals",
@@ -4284,6 +4410,24 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Secrets Manager Getting Started"
+      ]
+    },
+    {
+      "id": "1bb0699feca1b748",
+      "title": "AWS Security Agent: Securing Applications design to deployment",
+      "name": "AWS Security Agent: Securing Applications design to deployment",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Security Agent: Securing Applications design to deployment"
       ]
     },
     {
@@ -5313,6 +5457,24 @@
       ]
     },
     {
+      "id": "2ef7c6b6ebab3ed4",
+      "title": "Build your first GraphRAG Powered Agent with Amazon Neptune (No Graph Expert Required)",
+      "name": "Build your first GraphRAG Powered Agent with Amazon Neptune (No Graph Expert Required)",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build your first GraphRAG Powered Agent with Amazon Neptune (No Graph Expert Required)"
+      ]
+    },
+    {
       "id": "7ee5929d721cd06e",
       "title": "Building a Generative AI-Ready Organization",
       "name": "Building a Generative AI-Ready Organization",
@@ -5418,6 +5580,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Building Retrieval Augmented Generation (RAG) workflows with Amazon OpenSearch Service"
+      ]
+    },
+    {
+      "id": "8bdccfcdc1c53557",
+      "title": "Building Safe Generative AI Applications with Amazon Bedrock Guardrails",
+      "name": "Building Safe Generative AI Applications with Amazon Bedrock Guardrails",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Building Safe Generative AI Applications with Amazon Bedrock Guardrails"
       ]
     },
     {
@@ -5727,6 +5907,24 @@
       ]
     },
     {
+      "id": "9e7d9b8eb96213ea",
+      "title": "Confidential Computing with AWS Compute",
+      "name": "Confidential Computing with AWS Compute",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Confidential Computing with AWS Compute"
+      ]
+    },
+    {
       "id": "31be896b336079be",
       "title": "Configuring and Deploying VPCs with Multiple Subnets",
       "name": "Configuring and Deploying VPCs with Multiple Subnets",
@@ -5742,6 +5940,42 @@
       "verification_type": "Digital course",
       "skills": [
         "Configuring and Deploying VPCs with Multiple Subnets"
+      ]
+    },
+    {
+      "id": "dd8b6161cf0d9cd2",
+      "title": "Connecting Systems and Machines to AWS for Industrial Manufacturing",
+      "name": "Connecting Systems and Machines to AWS for Industrial Manufacturing",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Connecting Systems and Machines to AWS for Industrial Manufacturing"
+      ]
+    },
+    {
+      "id": "d8de1d084552ab8e",
+      "title": "Contact Lens Advanced Analytics & Optimization",
+      "name": "Contact Lens Advanced Analytics & Optimization",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Contact Lens Advanced Analytics & Optimization"
       ]
     },
     {
@@ -5850,6 +6084,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Data Modeling for Amazon ElastiCache for Redis"
+      ]
+    },
+    {
+      "id": "f2e66473292bcf6e",
+      "title": "Data Modeling for Amazon Neptune",
+      "name": "Data Modeling for Amazon Neptune",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Data Modeling for Amazon Neptune"
       ]
     },
     {
@@ -6015,6 +6267,24 @@
       ]
     },
     {
+      "id": "1a3bf063d9cc0b2b",
+      "title": "Differentiation for System Integrators (SI)",
+      "name": "Differentiation for System Integrators (SI)",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Differentiation for System Integrators (SI)"
+      ]
+    },
+    {
       "id": "9a7167f6c1930e57",
       "title": "Digital Rights Management and the SPEKE Protocol in Video Workflows",
       "name": "Digital Rights Management and the SPEKE Protocol in Video Workflows",
@@ -6048,6 +6318,24 @@
       "verification_type": "Certification Exam Preparation",
       "skills": [
         "Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
+      ]
+    },
+    {
+      "id": "ca40969be16e25f5",
+      "title": "Drive organizational growth with Amazon Lex multi-developer CI/CD pipeline",
+      "name": "Drive organizational growth with Amazon Lex multi-developer CI/CD pipeline",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Drive organizational growth with Amazon Lex multi-developer CI/CD pipeline"
       ]
     },
     {
@@ -6174,6 +6462,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Essentials of Prompt Engineering"
+      ]
+    },
+    {
+      "id": "fa379bdc0baf6953",
+      "title": "Evaluating generative AI models with Amazon Nova LLM-as-a-Judge on Amazon SageMaker AI",
+      "name": "Evaluating generative AI models with Amazon Nova LLM-as-a-Judge on Amazon SageMaker AI",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Evaluating generative AI models with Amazon Nova LLM-as-a-Judge on Amazon SageMaker AI"
       ]
     },
     {
@@ -7182,6 +7488,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Introducing Agentic Toolkit for AWS"
+      ]
+    },
+    {
+      "id": "a8b43f83fc791764",
+      "title": "Introducing granular cost attribution for Amazon Bedrock",
+      "name": "Introducing granular cost attribution for Amazon Bedrock",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Introducing granular cost attribution for Amazon Bedrock"
       ]
     },
     {
@@ -8571,6 +8895,24 @@
       ]
     },
     {
+      "id": "e1c9432a603e389a",
+      "title": "Modernizing KYC with AWS serverless solutions and agentic AI for financial services",
+      "name": "Modernizing KYC with AWS serverless solutions and agentic AI for financial services",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Modernizing KYC with AWS serverless solutions and agentic AI for financial services"
+      ]
+    },
+    {
       "id": "63bfdd6de9899320",
       "title": "Monitor .NET applications using Amazon CloudWatch Application Signals",
       "name": "Monitor .NET applications using Amazon CloudWatch Application Signals",
@@ -8946,6 +9288,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Secure AI agents with Amazon Bedrock AgentCore Identity on Amazon ECS"
+      ]
+    },
+    {
+      "id": "0c0c611b421e4ea3",
+      "title": "Security Incident Response: The customer’s journey to accelerating the incident response lifecycle",
+      "name": "Security Incident Response: The customer’s journey to accelerating the incident response lifecycle",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Security Incident Response: The customer’s journey to accelerating the incident response lifecycle"
       ]
     },
     {
