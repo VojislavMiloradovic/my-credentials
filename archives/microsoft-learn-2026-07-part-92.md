@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Interactive case study: Modernizing user access control and threat resilience** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-access-control-threat-resilience/) |
 | **Prepare AI-ready analytics data in Microsoft Fabric** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-ai-ready-analytics-data/) |
 | **Prepare the semantic layer for AI in Microsoft Fabric** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/fabric-prepare-semantic-layer/) |
 | **Optimize semantic model performance** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-semantic-model-performance/) |
@@ -60,7 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Introduction to Azure DocumentDB** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-documentdb/) |
 | **Create and configure an Azure DocumentDB cluster** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-configure-azure-documentdb-cluster/) |
 | **Build applications with Azure DocumentDB SDKs** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-applications-azure-documentdb-sdks/) |
-| **Apply schema design patterns in Azure DocumentDB** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-schema-design-patterns-azure-documentdb/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-91.md](./microsoft-learn-2026-07-part-91.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md)

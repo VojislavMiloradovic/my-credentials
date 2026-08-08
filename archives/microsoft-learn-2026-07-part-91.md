@@ -12,13 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Apply schema design patterns in Azure DocumentDB** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-schema-design-patterns-azure-documentdb/) |
 | **Govern agents using Agent 365** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-365-govern/) |
 | **Explore Microsoft Agent 365** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/agent-365-solutions/) |
 | **Interactive case study: Modernizing identity and data security** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-identity-data-security/) |
 | **Accelerate Azure SQL tasks with Microsoft Copilot** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-copilot-administer-azure-sql/) |
 | **Improve meeting collaboration with Facilitator in Microsoft Teams** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/facilitator-in-microsoft-teams/) |
-| **Get started with Transact-SQL programming** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-transact-sql-programming/) |
 | **Program with Transact-SQL** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/program-transact-sql/) |
+| **Get started with Transact-SQL programming** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-transact-sql-programming/) |
 | **AZ-400: Design and implement a release strategy** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-release-strategy/) |
 | **Create a Release Pipeline** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/) |
 | **Manage volume access for Azure NetApp Files** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-volume-access-azure-netapp-files/) |
@@ -59,7 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Design advanced prompting strategies for production AI agents** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-advanced-prompt-production-agents/) |
 | **Debug and respond to production multi-agent incidents in Azure** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-debug-production-multi-agent-incidents-azure/) |
 | **Extend Microsoft for Sustainability** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-sustainability/) |
-| **Extend Sustainability Manager for building complex Scope 3 calculations** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-complex-calculations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-90.md](./microsoft-learn-2026-07-part-90.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md)

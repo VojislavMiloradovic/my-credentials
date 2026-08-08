@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 61 of 95
 date_range: 2026-03-17 to 2026-03-20
-total_entries: 47
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-03-part-61.md
 ---
 
@@ -44,7 +44,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Work with Dynamics 365 Customer Insights - Data** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/working-with-customer-insights/) |
 | **Work with capacity planning in Asset Management for Dynamics 365 Supply Chain Management** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/capacity-plan-asset-management/) |
 | **Configure process manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) |
-| **Get started with Dynamics 365 Customer Insights - Data** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-customer-data-platform/) |
 | **Set up project delivery management for stocked scenarios in Dynamics 365 Project Operations** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-project-delivery-management/) |
 | **Set up Master Planning in Dynamics 365 Supply Chain Management** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-master-planning/) |
 | **Register and manage devices with Connected Customer Service for Dynamics 365 and Azure IoT** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/connected-customer-service-devices/) |

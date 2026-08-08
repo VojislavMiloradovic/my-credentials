@@ -40,11 +40,11 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Explore API Management** | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-api-management/) |
 | **Secure outbound internet connectivity for Azure VMware Solution** | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-vmware-solution/) |
 | **Introduction to the Partner Success Series** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-partner-success-series/) |
-| **Introduction to Azure hybrid connectivity services** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-hybrid-connectivity-services/) |
 | **Introduction to Azure ExpressRoute** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-expressroute/) |
+| **Introduction to Azure hybrid connectivity services** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-hybrid-connectivity-services/) |
 | **Introduction to Azure Advisor** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-advisor/) |
-| **Power Automate: Automation - Online Workshop** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
 | **Create subflows and web automation with Power Automate for desktop - Online workshop** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-subflows-web-automation-online-workshop/) |
+| **Power Automate: Automation - Online Workshop** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
 | **Integrate with Microsoft Teams to get approvals - Online workshop** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-teams-approval-online-workshop/) |
 | **Add an AI model to process invoice forms - Online workshop** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-ai-model-process-invoice-online-workshop/) |
 | **Integrate with cloud flows - Online workshop** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-cloud-flows-online-workshop/) |

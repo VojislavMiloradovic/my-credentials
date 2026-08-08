@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Build multi-agent solutions using connected agents in Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-multi-agent-solutions-connected-agents-copilot-studio/) |
 | **Take action in external systems using connector and REST API agent tools in Microsoft Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/take-action-external-systems-connector-rest-api-tools-copilot-studio/) |
 | **Build cross-platform multi-agent solutions using the Agent2Agent protocol in Microsoft Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cross-platform-multi-agent-solutions-agent2agent-copilot-studio/) |
 | **Configure platform-level security for Azure SQL** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-sql-platform-security/) |
@@ -59,7 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Set up metrics and alerts for Customer Voice surveys** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/metrics-alerts-voice-surveys/) |
 | **Build a model-driven app by using virtual health data tables** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-interoperability-build-application/) |
 | **Integrate Dynamics 365 Sales with Dynamics 365 Business Central using Dataverse** | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dynamics-365-sales-business-central-dataverse/) |
-| **Sync sales orders from and to Dynamics 365 Business Central and Dynamics 365 Sales** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-sales-orders-business-central/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-73.md](./microsoft-learn-2026-04-part-73.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-75.md](./microsoft-learn-2026-05-part-75.md)

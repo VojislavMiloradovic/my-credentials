@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 75 of 95
-date_range: 2026-05-04 to 2026-05-06
-total_entries: 49
+date_range: 2026-05-04 to 2026-05-08
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-75.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Turn information into decisions with AI agents** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/turn-info-into-decisions-ai-agents/) |
+| **Experience Security Copilot through guided simulations** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-interactive-guides/) |
 | **Enhance ESG Reporting with social and governance data** | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-track-social-governance-data/) |
 | **Secure and harden Internet Information Services** | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-harden-internet-information-services/) |
 | **Orchestrate configuration of prebuilt agents and apps** | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-configuration-prebuilt-agents-apps/) |
@@ -41,8 +43,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Dragon Copilot (nurses)- How to train and coach basic functionality** | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-coach-basic-skills/) |
 | **Enable Defender for AI Services workload protection in Microsoft Defender for Cloud** | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-cloud-ai-services/) |
 | **Get started with Microsoft Agent 365** | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-365-get-started/) |
-| **Elevate Educator - Expert (AI)** | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/elevate-educator-expert-ai/) |
 | **Introduction to AI literacy** | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-ai-literacy/) |
+| **Elevate Educator - Expert (AI)** | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/elevate-educator-expert-ai/) |
 | **Elevate Educator - Explorer (AI)** | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/elevate-educator-explorer-ai/) |
 | **Build a reflective AI practice over time** | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reflective-ai-practice-over-time/) |
 | **Build with AI as a creative partner, developed in partnership with ISTE+ASCD** | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-with-ai-creative-partner/) |
@@ -60,7 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Design and build multi-agent solutions in Microsoft Copilot Studio** | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-build-multi-agent-solutions-copilot-studio/) |
 | **Design integration strategies for agents in Microsoft Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-enterprise-integration-strategies-agents-copilot-studio/) |
 | **Delegate agent tasks using child agents in Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/delegate-agent-tasks-child-agents-copilot-studio/) |
-| **Build multi-agent solutions using connected agents in Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-multi-agent-solutions-connected-agents-copilot-studio/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-74.md](./microsoft-learn-2026-05-part-74.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-76.md](./microsoft-learn-2026-05-part-76.md)

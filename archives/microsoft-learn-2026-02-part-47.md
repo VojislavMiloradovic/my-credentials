@@ -16,8 +16,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Get started with accounts receivable daily procedures in Dynamics 365 Finance** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/accounts-receivable-daily-procedures-dyn365-finance/) |
 | **Challenge project - Architecting solutions for a new product line for customers** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-architecting-solutions-for-new-product-line-for-customers/) |
 | **Configure monitoring for applications** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-monitoring-applications/) |
-| **Protect your on-premises infrastructure from disasters with Azure Site Recovery** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-on-premises-infrastructure-with-azure-site-recovery/) |
 | **Architect migration, business continuity, and disaster recovery in Azure** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-migration-bcdr/) |
+| **Protect your on-premises infrastructure from disasters with Azure Site Recovery** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-on-premises-infrastructure-with-azure-site-recovery/) |
 | **MS-102 Implement threat protection by using Microsoft Defender XDR** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-threat-protection-use-microsoft-365-defender/) |
 | **Explore threat intelligence in Microsoft Defender XDR** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-threat-intelligence-microsoft-365-defender/) |
 | **Add a layout to a report in Dynamics 365 Business Central** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-layout-report/) |
@@ -46,8 +46,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Get started with Azure Cosmos DB for NoSQL** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-azure-cosmos-db-sql-api/) |
 | **Orchestrate containers on Windows Server using Kubernetes** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-containers-windows-server-using-kubernetes/) |
 | **Manage leads with Dynamics 365 Sales** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-leads-dynamics-365-sales/) |
-| **Examine data security and compliance in Microsoft 365 Copilot** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-data-security-microsoft-365-copilot/) |
 | **Prepare your organization for Microsoft 365 Copilot** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-your-organization-microsoft-365-copilot/) |
+| **Examine data security and compliance in Microsoft 365 Copilot** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-data-security-microsoft-365-copilot/) |
 | **Implement compliance controls for sensitive data** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-compliance-controls-sensitive-data/) |
 | **Implement a secure environment for a database service** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-secure-environment-database-service/) |
 | **Set up and work with inbound operations using inventory management in Dynamics 365 Supply Chain Management** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-work-inbound-inventory-management/) |
@@ -59,8 +59,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Complete the report request page in Dynamics 365 Business Central** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/complete-report-request-page/) |
 | **Configure cash and bank management in Dynamics 365 Finance** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-cash-bank-management-dyn365-finance/) |
 | **Use Microsoft Dynamics 365 Customer Service queues to manage case workloads** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/using-dynamics-365-queues-to-manage-case-workloads/) |
-| **Set up financial management in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-financial-management-dynamics-365-business-central/) |
 | **Set up general ledger configuration options in Dynamics 365 Business Central** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-configure-general-ledger-setup/) |
+| **Set up financial management in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-financial-management-dynamics-365-business-central/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-46.md](./microsoft-learn-2026-02-part-46.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-48.md](./microsoft-learn-2026-02-part-48.md)

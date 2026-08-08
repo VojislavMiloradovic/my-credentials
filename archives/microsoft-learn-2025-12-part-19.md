@@ -14,8 +14,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | :--- | :--- | :--- | :--- |
 | **Introduction to analyzing costs and creating budgets with Microsoft Cost Management** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-costs-create-budgets-azure-cost-management/) |
 | **Connect commands into a pipeline** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-commands/) |
-| **Explore the fundamentals of Microsoft Dynamics 365 Field Service** | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-of-microsoft-dynamics-365-field-service/) |
 | **Explore Dynamics 365 Field Service** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-field-service/) |
+| **Explore the fundamentals of Microsoft Dynamics 365 Field Service** | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-of-microsoft-dynamics-365-field-service/) |
 | **Approach your data-flow diagram with the right threat model focus** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-approach-your-data-flow-diagram-with-the-right-threat-model-focus/) |
 | **Automate Azure tasks with Azure PowerShell** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-azure-tasks-with-powershell/) |
 | **Get started with Dynamics 365 Human Resources** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-human-resources/) |

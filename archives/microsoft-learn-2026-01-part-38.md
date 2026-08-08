@@ -23,8 +23,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Create a canvas app in Power Apps** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-powerapps/) |
 | **Navigation in a canvas app in Power Apps** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigation-canvas-app/) |
 | **Generate inventory and compliance reports** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/inventory-complinace-reports/) |
-| **Get started using Dataverse** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-cds/) |
 | **Connect to other data in a Power Apps canvas app** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-to-other-data-in-powerapps-canvas-app/) |
+| **Get started using Dataverse** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-cds/) |
 | **Explore Azure Databricks** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-databricks/) |
 | **Develop generative AI apps with Azure OpenAI and Semantic Kernel** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure-open-ai-semantic-kernel-sdk/) |
 | **Build your kernel** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-kernel/) |
@@ -38,8 +38,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Implement device compliance** | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-compliance/) |
 | **Utilize Vulnerability Management in Microsoft Defender for Endpoint** | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-threat-vulnerability-management-microsoft-defender-for-endpoint/) |
 | **Manage Windows 365** | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-365/) |
-| **Create agents in Microsoft Copilot Studio** | Learningpaths | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/) |
 | **Manage topics in Microsoft Copilot Studio** | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-power-virtual-agents-topics/) |
+| **Create agents in Microsoft Copilot Studio** | Learningpaths | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/) |
 | **Implement Windows security enhancements with Microsoft Defender for Endpoint** | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-10-security-enhancements-with-microsoft-defender-for-endpoint/) |
 | **Implement scale and high availability with Windows Server VM** | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-scale-high-availability-windows-server-virtual-machine/) |
 | **Deploy and update applications** | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-applications/) |
@@ -56,14 +56,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Customize Windows Server IaaS Virtual Machine images** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-windows-server-iaas-virtual-machine-images/) |
 | **Just Enough Administration in Windows Server** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/just-enough-administration-windows-server/) |
 | **Improve business performance with AI Builder** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/improve-business-performance-ai-builder/) |
-| **Automate a business process using Power Automate** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-process-power-automate/) |
 | **Use AI Builder in Power Automate** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-power-automate/) |
-| **Implement virtual machine host security in Azure** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-host-security/) |
+| **Automate a business process using Power Automate** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-process-power-automate/) |
 | **Learn how Microsoft supports secure software development as part of a cybersecurity solution** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-software-development-for-cybersecurity/) |
-| **Microsoft Azure Well-Architected Framework - Security** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/) |
+| **Implement virtual machine host security in Azure** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-host-security/) |
 | **Secure your cloud applications in Azure** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-your-cloud-apps/) |
-| **Work with Power Automate error handling and expressions** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/templates-error-handling-expressions-power-automate/) |
+| **Microsoft Azure Well-Architected Framework - Security** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/) |
 | **Best practices for error handling in Power Automate flows** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/error-handling/) |
+| **Work with Power Automate error handling and expressions** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/templates-error-handling-expressions-power-automate/) |
 | **Maintain user profiles** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-user-profiles/) |
 | **Architect a data platform in Azure** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-data-platform/) |
 

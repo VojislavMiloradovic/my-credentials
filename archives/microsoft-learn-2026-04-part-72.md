@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 72 of 95
-date_range: 2026-04-24 to 2026-04-27
+date_range: 2026-04-25 to 2026-04-27
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-72.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Trace serial and lot numbers in Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/trace-serial-lot-numbers/) |
 | **Get started with payment integrations in Power Pages** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-payment-integrations/) |
 | **Get Started with Power Pages** | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-pages-get-started/) |
 | **Set up Dynamics 365 Intelligent Order Management** | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-intelligent-order-management/) |
@@ -62,7 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Correct entries in Dynamics 365 Business Central** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/correct-entries/) |
 | **Improve customer relationships using effective account management with Dynamics 365 Customer Voice** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-customer-relationships/) |
 | **Forecast by using demand planning in Dynamics 365 Supply Chain Management** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/forecast-using-demand-planning/) |
-| **Promote events, manage registration and check-ins, and review results in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/promote-events-dynamics-365-marketing/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-71.md](./microsoft-learn-2026-04-part-71.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-73.md](./microsoft-learn-2026-04-part-73.md)

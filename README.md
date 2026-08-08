@@ -12,13 +12,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
-- **Total Experience Points (XP):** 5,984,250
+- **Total Experience Points (XP):** 5,991,750
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,894
-- **Trophies Earned (Profile):** 904
-- **Completed Learning Paths (Active Tracker):** 513
-- **Completed Modules (Active Tracker):** 2,647
-- **Completed Individual Units:** 35,566
+- **Badges Earned (Profile):** 3,899
+- **Trophies Earned (Profile):** 905
+- **Completed Learning Paths (Active Tracker):** 514
+- **Completed Modules (Active Tracker):** 2,654
+- **Completed Individual Units:** 35,608
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -29,18 +29,18 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,798 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)) or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,804 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)) or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
+- **Ingest data into Customer Insights - Data** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/ingest-data-customer-insights/))
+- **Get started with Dynamics 365 Customer Insights - Data** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/get-started-customer-data-platform/))
+- **Write your first Python code** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/write-first-python-code/))
+- **Get Started with Python Programming: Part 1 - Fundamentals** (Learningpaths | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/get-started-with-python-fundamentals/))
+- **Work with data in Python** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/work-with-data-python/))
+- **What is Project Perception?** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-introduction/))
+- **Install and configure Visual Studio Code** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/install-configure-visual-studio-code-python/))
+- **Add decision-making to your code** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/add-decision-making-python/))
 - **Understand advanced Windows Firewall** (Modules | Earned: 2026-08-06 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/understand-advanced-windows-firewall/))
 - **Convert Oracle schemas to Azure Database for PostgreSQL by using AI** (Modules | Earned: 2026-08-06 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/convert-oracle-schema-azure-database-postgresql-ai/))
-- **Understand how Active Directory Domain Services uses DNS** (Modules | Earned: 2026-08-06 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-domain-name-system/))
-- **Advanced Group Policy troubleshooting** (Modules | Earned: 2026-08-06 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/advanced-group-policy-troubleshooting/))
-- **Secure sensitive data with Microsoft Purview Ninja training scenarios** (Learningpaths | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/purview-ninja-safeguard-data/))
-- **Safeguard sensitive data in remote work with Endpoint DLP** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-safeguard-remote-work/))
-- **Protect sensitive data with DLP in Exchange, SharePoint, OneDrive, and Teams** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-prevent-data-loss-share-transfer/))
-- **Efficiently investigate data risks with Security Copilot in Microsoft Purview** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-security-copilot/))
-- **Classify and protect sensitive data with sensitivity labels** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-label-sensitive-data/))
-- **Discover and define sensitive information types** (Modules | Earned: 2026-08-02 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/purview-ninja-discover-define-sits/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Explore Azure Center for SAP solutions** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-center-sap-solutions/) |
 | **Azure Stack Hub** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-stack-hub/) |
 | **Get tips and tricks for teaching DP-100: Designing and implementing a data science solution on Azure** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teaching-dp-100-designing-implementing-data-science-solution/) |
 | **Prepare to teach DP-100 Designing and Implementing a Data Science Solution on Azure** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-to-teach-dp-100-designing-implementing-data-science-solution-azure/) |
@@ -45,10 +46,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Extend Bicep and ARM templates using deployment scripts** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-resource-manager-template-deployment-scripts/) |
 | **Explore healthcare data solutions in Microsoft Fabric** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-healthcare-data-solutions/) |
 | **Ingest clinical data in FHIR into healthcare data solutions in Microsoft Fabric** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-fhir-data-ingestion/) |
-| **Get tips and tricks for teaching PL-300: Microsoft Power BI Data Analyst in academic programs** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-pl-300-microsoft-power-bi-data-analyst/) |
 | **Prepare to teach PL-300: Microsoft Power BI Data Analyst** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-to-teach-pl-300-microsoft-power-bi-data-analyst/) |
-| **Configure and use cash and bank management, and sales tax in Dynamics 365 Finance** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-cash-bank-management-tax-dyn365-finance/) |
+| **Get tips and tricks for teaching PL-300: Microsoft Power BI Data Analyst in academic programs** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-pl-300-microsoft-power-bi-data-analyst/) |
 | **Configure and process postdated checks in Dynamics 365 Finance** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-process-postdated-checks-dyn365-finance/) |
+| **Configure and use cash and bank management, and sales tax in Dynamics 365 Finance** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-cash-bank-management-tax-dyn365-finance/) |
 | **Get started with Azure Quantum** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/quantum-computing-fundamentals/) |
 | **Teleport entangled qubits with Q#** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-entanglement/) |
 | **Troubleshoot Microsoft Teams Voice Issues** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-microsoft-teams-voice-issues/) |
@@ -59,7 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Write advanced Transact-SQL queries** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/write-advanced-transact-sql-queries/) |
 | **Azure NetApp Files fundamentals** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-netapp-files/) |
 | **Understand and tune Azure NetApp Files performance** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-performance/) |
-| **Transform data by implementing pivot, unpivot, rollup, and cube** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-data-by-implementing-pivot-unpivot-rollup-cube/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-88.md](./microsoft-learn-2026-07-part-88.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-90.md](./microsoft-learn-2026-07-part-90.md)

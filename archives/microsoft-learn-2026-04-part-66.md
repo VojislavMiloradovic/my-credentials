@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Discover Power Apps for Educators and reclaim your time 101** | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-power-apps-educators-reclaim-time/) |
 | **Identify Exceptions with Connected Field Service for Dynamics 365 and Azure IoT** | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-exceptions-with-connected-field-service/) |
 | **Monitor and manage data engineering workloads with Apache Spark in Azure Synapse Analytics** | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-manage-data-engineering-workloads-apache-spark-azure-synapse-analytics/) |
 | **Set up VAT in Dynamics 365 Business Central** | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-vat-dynamics-365-business-central/) |
@@ -59,7 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Use Artificial Intelligence in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-artificial-intelligence/) |
 | **Predict late payments for sales documents in Dynamics 365 Business Central** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/predict-late-payments-sales-documents/) |
 | **Create a unified customer profile in Dynamics 365 Customer Insights - Data** | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/unified-customer-profile/) |
-| **Troubleshoot platform-as-a-service issues in Microsoft Azure** | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-platform-service-issues/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-65.md](./microsoft-learn-2026-04-part-65.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-67.md](./microsoft-learn-2026-04-part-67.md)

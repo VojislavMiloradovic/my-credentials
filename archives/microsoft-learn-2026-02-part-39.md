@@ -18,8 +18,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Get started with chart of accounts in Dynamics 365 Finance** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-chart-accounts-finance/) |
 | **Guided project - Create an AI travel agent** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-ai-travel-agent/) |
 | **Use watchlists in Microsoft Sentinel** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-watchlists-azure-sentinel/) |
-| **Implement Microsoft Purview Information Protection** | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-information-protection/) |
 | **Classify and protect on-premises data with Microsoft Purview** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-protect-on-premises-data/) |
+| **Implement Microsoft Purview Information Protection** | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-information-protection/) |
 | **Run containers on Windows Server** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-containers-windows-server/) |
 | **Perform actions on a device using Microsoft Defender for Endpoint** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-actions-device-microsoft-defender-for-endpoint/) |
 | **Manage Microsoft Entra application access** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-application-access-microsoft-entra-id/) |
@@ -41,8 +41,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Upgrade and migrate Windows Server IaaS virtual machines** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/upgrade-migrate-windows-server-iaas-virtual-machines/) |
 | **Dyslexia training, in partnership with Made By Dyslexia** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/dyslexia-training/) |
 | **Dyslexia Teaching: Part 1, In partnership with Made By Dyslexia** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-teaching-part-1/) |
-| **Implement Storage Spaces and Storage Spaces Direct** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-storage-spaces-storage-spaces-direct/) |
 | **Windows Server file servers and storage management** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-file-servers-storage-management/) |
+| **Implement Storage Spaces and Storage Spaces Direct** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-storage-spaces-storage-spaces-direct/) |
 | **Microsoft Azure Well-Architected Framework - Performance Efficiency** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-performance-efficiency/) |
 | **Explore the Microsoft identity platform** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-identity-platform/) |
 | **Implement user authentication and authorization** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-authentication-authorization/) |

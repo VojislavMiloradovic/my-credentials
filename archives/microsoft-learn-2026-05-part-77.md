@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 77 of 95
-date_range: 2026-05-11 to 2026-05-17
+date_range: 2026-05-12 to 2026-05-17
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-77.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Configure trusted launch security features for Azure virtual machines** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-trusted-launch-azure-virtual-machines/) |
+| **Modern management with Cloud-native Windows Accreditation 2026** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/modern-management-with-cloud-native-windows-accreditation-2026/) |
 | **Introduction to Microsoft Entra ID** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-entra-id-2026/) |
 | **Device management with Microsoft Intune** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-intune-2026/) |
 | **Apply responsible AI creation principles in the classroom, developed in partnership with ISTE+ASCD** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-creation-principles-classroom/) |
@@ -60,8 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Select and Configure Compute in Azure Databricks** | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/select-and-configure-compute/) |
 | **Secure and govern Unity Catalog objects in Azure Databricks** | Learningpaths | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-secure-govern-unity-catalog/) |
 | **Secure Unity Catalog objects** | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-unity-catalog-objects/) |
-| **Secure Azure OpenAI with content safety controls** | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-openai-content-safety-controls/) |
-| **Ingest data into Unity Catalog** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-into-unity-catalog/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-76.md](./microsoft-learn-2026-05-part-76.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-78.md](./microsoft-learn-2026-05-part-78.md)

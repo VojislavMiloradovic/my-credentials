@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Troubleshoot Azure NetApp Files** | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-azure-netapp-files/) |
 | **Manage operations and monitoring in Power Platform** | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-operations-monitoring/) |
 | **Extend ALM with Git and CI/CD in Power Platform** | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-alm-git-cicd/) |
 | **Capture and inspect Windows Server network traffic with Packet Monitor** | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-windows-packet-monitor/) |
@@ -27,8 +28,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Extend Microsoft SharePoint – Associate** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-sharepoint-associate/) |
 | **Deploy SharePoint Framework Components to Production** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-deployment/) |
 | **Use Microsoft Graph and non-Microsoft APIs** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-graph-3rd-party-apis/) |
-| **Extend Microsoft Viva Connections** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-extend-viva-connections/) |
 | **Create Adaptive Card Extensions (ACE) for Microsoft Viva Connections** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-adaptive-card-extension-card-types/) |
+| **Extend Microsoft Viva Connections** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-extend-viva-connections/) |
 | **Extend the SharePoint user interface with SharePoint Framework extensions** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-extensions/) |
 | **Work with SharePoint Content using the SharePoint Framework** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-spcontent/) |
 | **Enable SharePoint Framework web part configuration with property panes** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-web-part-property-pane/) |
@@ -64,7 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Assess readiness and roll out Microsoft 365 Copilot** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-manage-microsoft-365-copilot/) |
 | **Secure tenants and environments in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-tenant-environments/) |
 | **Manage environments in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-power-platform-environments/) |
-| **Govern data policies in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-data-policies/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-95.md](./microsoft-learn-2026-08-part-95.md)

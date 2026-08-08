@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 76 of 95
-date_range: 2026-05-08 to 2026-05-11
+date_range: 2026-05-08 to 2026-05-12
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-76.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Secure Azure OpenAI with content safety controls** | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-openai-content-safety-controls/) |
+| **Ingest data into Unity Catalog** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-into-unity-catalog/) |
 | **Implement development lifecycle processes in Azure Databricks** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-development-lifecycle-processes-in-azure-databricks/) |
 | **Deploy and maintain data pipelines and workloads with Azure Databricks** | Learningpaths | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-deploy-maintain-data-pipelines-workloads/) |
 | **Implement and manage data quality constraints with Azure Databricks** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-data-quality-constraints-unity-catalog/) |
@@ -43,8 +45,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Turn business ideas into Power Platform solutions with Plans** | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/turn-business-ideas-power-platform-solutions-plans/) |
 | **Develop AI agents on Azure** | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/) |
 | **Integrate your agent with Microsoft 365** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-foundry-agent-with-m365/) |
-| **Integrate MCP Tools with Azure AI Agents** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/) |
 | **Develop AI agents on Azure (deprecated)** | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-on-azure/) |
+| **Integrate MCP Tools with Azure AI Agents** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/) |
 | **Develop computer vision solutions with Microsoft Foundry** | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-computer-vision-with-foundry/) |
 | **Generate videos with Microsoft Foundry** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-video-with-foundry/) |
 | **Evaluate and optimize AI agents through structured experiments** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-optimize-agents/) |
@@ -62,8 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Dragon Copilot (physicians) practical application exercises summary** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-practical-applications-summary/) |
 | **Dragon Copilot (physicians) introduction to practical application exercises** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-welcome-to-practical-applications/) |
 | **Understand AI agents and prompting** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-ai-agents-prompting/) |
-| **Turn information into decisions with AI agents** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/turn-info-into-decisions-ai-agents/) |
-| **Experience Security Copilot through guided simulations** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-interactive-guides/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-75.md](./microsoft-learn-2026-05-part-75.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-77.md](./microsoft-learn-2026-05-part-77.md)

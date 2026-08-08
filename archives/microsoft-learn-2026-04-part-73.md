@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Sync sales orders from and to Dynamics 365 Business Central and Dynamics 365 Sales** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-sales-orders-business-central/) |
 | **Introduction to Azure Data Share** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-data-share/) |
 | **Share data with Azure Data Share** | Learningpaths | 2026-04-29 | N/A |
 | **Manage fixed asset maintenance and insurances in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-fixed-assets-maintenance-insurances/) |
@@ -23,8 +24,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Manage events in Fundraising and Engagement** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-events-fundraising-engagement/) |
 | **Moves management to raise major gifts with Fundraising and Engagement** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/moves-management/) |
 | **Set up insurances in Dynamics 365 Business Central** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-insurances/) |
-| **Extend Universal Resource Scheduling with Dynamics 365 Project Operations** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-universal-resource-scheduling/) |
 | **Extend Dynamics 365 Project Operations** | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-project-operations/) |
+| **Extend Universal Resource Scheduling with Dynamics 365 Project Operations** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-universal-resource-scheduling/) |
 | **Publish metrics data for audit disclosures using Compliance Manager** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-audit-disclosures/) |
 | **Manage healthcare data with Care Management in Microsoft for Healthcare** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-care-management/) |
 | **Convert prospects in Dynamics 365 Sales to customers in Dynamics 365 Supply Chain Management** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/convert-prospects-sales-customers/) |
@@ -62,7 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Transfer, split, and combine fixed assets in Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/transfer-split-combine-fixed-assets/) |
 | **Reclassify fixed assets in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/reclassify-fixed-assets/) |
 | **Configure costing sheets in Dynamics 365 Supply Chain Management** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-costing-sheets/) |
-| **Trace serial and lot numbers in Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/trace-serial-lot-numbers/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-72.md](./microsoft-learn-2026-04-part-72.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-74.md](./microsoft-learn-2026-05-part-74.md)

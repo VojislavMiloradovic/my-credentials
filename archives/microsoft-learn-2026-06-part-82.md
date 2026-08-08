@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 82 of 95
-date_range: 2026-06-01 to 2026-06-04
+date_range: 2026-06-01 to 2026-06-06
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-82.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Deliver zero-touch Windows 11 Pro deployments** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-zero-touch/) |
+| **Take action on content with Click to Do** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/click-to-do/) |
 | **Monitor and troubleshoot applications on Azure Kubernetes Service** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-apps-azure-kubernetes-service/) |
 | **Protect data and control access with Microsoft Intune and Conditional Access** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-data-control-access-intune-conditional-access/) |
 | **Introduction to finance in Dynamics 365** | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-finance-dynamics-365/) |
@@ -60,8 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Develop AI solutions with Azure Cosmos DB for NoSQL** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-cosmos-db/) |
 | **Build queries for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-cosmos-db/) |
 | **Optimize query performance for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-azure-cosmos-db/) |
-| **Implement vector search on Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-search-azure-cosmos-db/) |
-| **Protect and govern AI ready infrastructure with Azure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-govern-ai-ready-infrastructure-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-81.md](./microsoft-learn-2026-06-part-81.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-83.md](./microsoft-learn-2026-06-part-83.md)

@@ -27,8 +27,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Introduction to Microsoft AI agent solutions** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-ai-agent-solutions/) |
 | **Choose the best Microsoft 365 Copilot extensibility path for your scenario** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-microsoft-365-copilot-extensibility-path/) |
 | **Introduction to developing AI agents** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-develop-ai-agents/) |
-| **Combining data from multiple tables: SQL Joins Explained** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-join-tables/) |
 | **Azure Database for PostgreSQL Tutorials** | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/playground-learning/) |
+| **Combining data from multiple tables: SQL Joins Explained** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-join-tables/) |
 | **Filtering data: The WHERE clause and subqueries** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-where-clause-subqueries/) |
 | **Getting started: An introduction to SQL and reading data** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-simple-select/) |
 | **Organizing data: Using LIMIT, OFFSET, and ORDER BY clauses** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-limit-offset-order-by/) |

@@ -36,8 +36,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Configure financial reports in Dynamics 365 Business Central** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-financial-reports-dynamics-365-business-central/) |
 | **Create emails in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/marketing-emails-texts-push/) |
 | **Work smarter with Copilot across your Microsoft 365 apps** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-office-applications/) |
-| **Set up and configure Expense management in Dynamics 365 Project Operations** | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-configure-expense-management/) |
 | **Manage accounts payable** | Learningpaths | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-manage-accounts-payable-expenses/) |
+| **Set up and configure Expense management in Dynamics 365 Project Operations** | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-configure-expense-management/) |
 | **Service adoption framework - Phase 2, Experiment** | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-service-adoption-experiment/) |
 | **Configure Azure Key Vault networking settings** | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-key-vault-networking-settings/) |
 | **Use performance management and employee development in Dynamics 365 Human Resources** | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-performance-management-employee-development/) |

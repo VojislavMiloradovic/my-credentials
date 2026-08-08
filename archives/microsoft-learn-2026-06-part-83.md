@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 83 of 95
 date_range: 2026-06-06 to 2026-06-08
-total_entries: 51
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-83.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Becoming a solution architect for Dynamics 365 and Microsoft Power Platform** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/becoming-solution-architect/) |
 | **Understand Microsoft 365 Agents SDK** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-copilot-stack/) |
 | **Build Custom Engine Agents with the Microsoft 365 Agents SDK** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-custom-copilots-microsoft-teams/) |
 | **Utilize an Azure OpenAI model to create an Agent** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/utilize-azure-openai-model-create-app/) |
@@ -61,8 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Analyze advanced device signals with Microsoft Intune Suite** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-advanced-device-signals/) |
 | **Explore Windows 365 for cloud PC deployment** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-365-intune/) |
 | **Manage capacity pool for Azure NetApp Files** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-capacity-pool-azure-netapp-files/) |
-| **Deliver zero-touch Windows 11 Pro deployments** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-zero-touch/) |
-| **Take action on content with Click to Do** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/click-to-do/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md)

@@ -24,14 +24,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Introduction to Secure Network Infrastructure with Azure network security** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-networking-infrastructure/) |
 | **Introduction to Azure Firewall Manager** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-firewall-manager/) |
 | **Explore concepts of data analytics** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-concepts-of-data-analytics/) |
-| **Work remotely with the Minecraft Student Ambassador program** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-remotely-minecraft-student-ambassador-program/) |
 | **Minecraft Student Ambassador program** | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-student-ambassador-program/) |
+| **Work remotely with the Minecraft Student Ambassador program** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-remotely-minecraft-student-ambassador-program/) |
 | **Keep students safe in the Minecraft Student Ambassador program** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/keep-students-safe-minecraft-student-ambassador-program/) |
 | **Plan your year in the Minecraft Student Ambassador program** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-your-year/) |
 | **Work with your IT team and the Minecraft Student Ambassador program** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-it-team-minecraft-student-ambassador-program/) |
 | **Become a Microsoft Learn contributor** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/become-learn-contributor/) |
-| **Microsoft for Sustainability overview** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-sustainability-overview/) |
 | **Get started with Microsoft for Sustainability** | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sustainability/) |
+| **Microsoft for Sustainability overview** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-sustainability-overview/) |
 | **Evaluating generative AI applications** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-generative-ai-apps/) |
 | **Evaluate generative AI applications** | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/evaluate-generative-ai-apps/) |
 | **Implement class properties and methods** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-class-properties-methods/) |
@@ -49,8 +49,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Add new objects to Dynamics 365 Business Central** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-new-objects/) |
 | **Introduction to the development process in Dynamics 365 Business Central** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-development-process/) |
 | **Initialize data during extension installation in Dynamics 365 Business Central** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/initialize-data-extension-installation/) |
-| **Identify vulnerabilities that ransomware can exploit** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-identify-entry-points/) |
 | **Examine ransomware and extortion-based threats** | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/ransomware-basics/) |
+| **Identify vulnerabilities that ransomware can exploit** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-identify-entry-points/) |
 | **Define ransomware and extortion-based security threats** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-extortion-based-threats/) |
 | **Recover from ransomware attacks** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-recover/) |
 | **Choose a budgeting tool that fits your preferences and financial goals** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-budgeting-tool/) |
@@ -59,8 +59,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Create a personalized savings plan to work toward a financial goal** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-personalized-savings-plan/) |
 | **Understand Azure NetApp Files essentials** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-essentials/) |
 | **Understand how Azure NetApp Files provides volumes as a service** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-volumes-service/) |
-| **Education Transformation Framework** | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/education-transformation-framework/) |
 | **Student and school success - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/student-school-success-education-transformation-framework/) |
+| **Education Transformation Framework** | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/education-transformation-framework/) |
 | **Teaching and learning - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/teaching-learning-education-transformation-framework/) |
 | **Leadership and policy - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/leadership-policy-education-transformation-framework/) |
 | **Intelligent environments - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-environments-education-transformation-framework/) |

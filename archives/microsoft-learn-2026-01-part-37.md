@@ -18,8 +18,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Migrate application workloads and data to Azure** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-application-workloads-data-azure/) |
 | **Migrate ASP.NET Apps to Azure** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-dotnet-apps-azure/) |
 | **Migrate SQL Server workloads to Azure SQL Database** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-sql-workloads-azure-sql-databases/) |
-| **Implement containerized solutions** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-iaas-solutions/) |
 | **Manage container images in Azure Container Registry** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/) |
+| **Implement containerized solutions** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-iaas-solutions/) |
 | **Create a model-driven application in Power Apps** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-app-models-business-processes/) |
 | **Configure forms, charts, and dashboards in model-driven apps** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-model-driven-apps-customer-engagement-apps/) |
 | **Automate the configuration of Windows Server IaaS Virtual Machines** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-configuration-of-windows-server-iaas-virtual-machines/) |

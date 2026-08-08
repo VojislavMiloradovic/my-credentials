@@ -12,12 +12,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Transform data by implementing pivot, unpivot, rollup, and cube** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-data-by-implementing-pivot-unpivot-rollup-cube/) |
 | **Write queries that use window functions** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-queries-that-use-window-functions/) |
 | **Examine SAP S/4HANA on Azure virtual machines** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-sap-s4hana-azure-virtual-machines/) |
 | **Implement transactions with Transact-SQL** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-transactions-transact-sql/) |
 | **Combine query results with set operators** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/combine-query-results-set-operators/) |
-| **Connect to finance and operations apps** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/connect-finance-operations/) |
 | **Manage data sources with external data stores in finance and operations apps** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/external-data-sources-finance-operations/) |
+| **Connect to finance and operations apps** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/connect-finance-operations/) |
 | **Integrate finance and operations apps with Microsoft Power Platform** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-finance-operations-apps-power-platform/) |
 | **Work with tools and best practices to integrate finance and operations apps with Microsoft Power Platform** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/tools-finance-operations-power-platform/) |
 | **Harmonize business concepts between finance and operations apps and Microsoft Power Platform** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/harmonize-business-concepts-finance-operations-power-platform/) |
@@ -55,13 +56,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Implement finance and operations apps** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-finance-operations/) |
 | **Use Lifecycle Services to design and plan an implementation of finance and operations apps** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-lcs-design-plan-implementation-finance-operations/) |
 | **Design and plan an implementation of finance and operations apps** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-plan-implementation-finance-operations/) |
-| **Design and Implement Platform Engineering** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/designing-implementing-platform-engineering/) |
 | **Implement Developer Self-Service** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-developer-self-service/) |
+| **Design and Implement Platform Engineering** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/designing-implementing-platform-engineering/) |
 | **Specify requirements for securing SaaS, PaaS, and IaaS services** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/specify-requirements-securing-saas-paas-iaas-services/) |
 | **Create stored procedures and user-defined functions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-stored-procedures-table-valued-functions/) |
 | **Implement a performance strategy for Dynamics 365 solutions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/solution-performance/) |
 | **Strategic Platform Road Mapping** | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/strategic-platform-road-mapping/) |
-| **Create a solution blueprint for Dynamics 365 solutions** | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/solution-blueprint/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-87.md](./microsoft-learn-2026-06-part-87.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-89.md](./microsoft-learn-2026-07-part-89.md)

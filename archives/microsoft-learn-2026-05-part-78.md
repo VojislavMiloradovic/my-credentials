@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Forecast the return on investment (ROI) of AI agents** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/forecast-agent-return-investment/) |
+| **Architect scalable and cost-efficient AI agent solutions on Azure** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/architect-scalable-ai-agent-solutions/) |
 | **Optimize Azure reliability by using Azure SRE Agent** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-azure-reliability-with-sre-agent/) |
 | **Prepare and process data with Azure Databricks** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-prepare-process-data/) |
 | **Design and implement data modeling with Azure Databricks** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-data-modeling-unity-catalog/) |
@@ -23,8 +25,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Administer Internet Information Services** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/administer-internet-information-services/) |
 | **Configure Internet Information Services websites and applications** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-website-application/) |
 | **Dragon Copilot AI Ambassador - Champion level** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-champion-level/) |
-| **Dragon Copilot AI Ambassador - Ambassador level** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-ambassador-level/) |
 | **Dragon Copilot (physicians) trainer essentials** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-trainer-essentials/) |
+| **Dragon Copilot AI Ambassador - Ambassador level** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-ambassador-level/) |
 | **Dragon Copilot (physicians) how to train enhanced skills** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-how-to-train-enhanced-skills/) |
 | **Dragon Copilot (physicians) how to train basics** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-how-to-train-basics/) |
 | **Work smarter with Copilot in Microsoft Fabric** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-smarter-with-copilot-in-microsoft-fabric/) |
@@ -60,8 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Secure remote and hybrid connectivity using VPN gateways and Microsoft Entra Private Access** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-hybrid-connectivity-azure/) |
 | **Protect backup data with Azure Backup security features** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-backup-data-azure-backup-security/) |
 | **Plan and implement Azure Bastion** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-azure-bastion/) |
-| **Configure trusted launch security features for Azure virtual machines** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-trusted-launch-azure-virtual-machines/) |
-| **Modern management with Cloud-native Windows Accreditation 2026** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/modern-management-with-cloud-native-windows-accreditation-2026/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-77.md](./microsoft-learn-2026-05-part-77.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-79.md](./microsoft-learn-2026-05-part-79.md)

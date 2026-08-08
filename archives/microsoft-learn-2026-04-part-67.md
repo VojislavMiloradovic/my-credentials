@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 67 of 95
-date_range: 2026-04-10 to 2026-04-14
+date_range: 2026-04-11 to 2026-04-15
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-67.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Microsoft tenant setup for Surface Portal access** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-portal-onboarding-guide/) |
 | **Set up items for tracking in Dynamics 365 Business Central** | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-tracking-items/) |
 | **Set up time sheets in Dynamics 365 Business Central** | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-timesheets/) |
 | **Enable Windows Server Extended Security Updates by using Azure Arc** | Modules | 2026-04-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-arc-esu-windows-server/) |
@@ -59,7 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Explore archiving and records management in Microsoft 365** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-archiving-records-management/) |
 | **Use warehouse management for manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacture-warehouse-mgmt-dyn365-supply-chain-mgmt/) |
 | **Use warehouse management in manufacturing in Dynamics 365 Supply Chain Management** | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-warehouse-manufacturing-dyn365-supply-chain-mgmt/) |
-| **Discover Power Apps for Educators and reclaim your time 101** | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-power-apps-educators-reclaim-time/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-66.md](./microsoft-learn-2026-04-part-66.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-68.md](./microsoft-learn-2026-04-part-68.md)

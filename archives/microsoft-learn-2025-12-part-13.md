@@ -22,8 +22,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Get started with AI in Microsoft Foundry** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-ai-in-foundry/) |
 | **Contribute to an open-source project on GitHub** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/) |
 | **Work smarter with Microsoft 365 Copilot Chat** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-with-microsoft-365-copilot-chat/) |
-| **Describe the concepts of cybersecurity** | Learningpaths | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-basic-concepts-of-cybersecurity/) |
 | **Describe device-based threats and security controls** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-device-based-threats-security-controls/) |
+| **Describe the concepts of cybersecurity** | Learningpaths | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-basic-concepts-of-cybersecurity/) |
 | **Describe network-based threats and mitigations** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-network-based-threats-mitigations/) |
 | **Responsible use of artificial intelligence in education** | Learningpaths | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/responsible-use-of-artificial-intelligence-in-education/) |
 | **Guided project - Embrace responsible AI** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai/) |
@@ -31,13 +31,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Introduction to Microsoft's Responsible AI Approach** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-microsofts-responsible-ai-approach/) |
 | **Describe authentication and authorization in cybersecurity** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-authentication-authorization-cybersecurity/) |
 | **Manage an InnerSource program by using GitHub** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/) |
-| **Explore and configure the Azure Machine Learning workspace** | Learningpaths | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-azure-machine-learning-workspace/) |
 | **Explore Azure Machine Learning workspace resources and assets** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-machine-learning-workspace-resources-assets/) |
+| **Explore and configure the Azure Machine Learning workspace** | Learningpaths | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-azure-machine-learning-workspace/) |
 | **Train and track machine learning models with MLflow in Microsoft Fabric** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-track-model-fabric/) |
 | **Manage repository changes by using pull requests on GitHub** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/) |
 | **Apply AI Builder Text Recognition in the transportation industry** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-ai-builder-text-recognition-transportation-industry/) |
 | **Design a people-centric measurement strategy** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-design-people-centric-measurement-strategy/) |
-| **Introduction to Visual Studio Code for Education** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/visual-studio-code-education-introduction/) |
+| **Introduction to Visual Studio Code for Education** | Modules | 2025-12-11 | N/A |
 | **Get tips and tricks for teaching MB-230 Microsoft Dynamics 365 Customer Service Functional Consultant** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-230-customer-service-functional-consultant/) |
 | **Explore DevOps Continuous Security and Continuous Operations** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-devops-continuous-security-operations/) |
 | **Get tips and tricks for teaching SC-400: Microsoft Information Protection Administrator** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-sc-400-information-protection-administrator/) |
@@ -46,8 +46,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Learn about Viva Glint program design** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-learn-about-viva-glint-program-design/) |
 | **Prepare for a program approval event** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/academic-program-certifications-prepare-program-approval/) |
 | **Use Microsoft accessibility features in education** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-microsoft-accessibility-features-education/) |
-| **Perform hyperparameter tuning with Azure Machine Learning** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-hyperparameter-tuning-azure-machine-learning-pipelines/) |
 | **Optimize model training with Azure Machine Learning** | Learningpaths | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-azure-machine-learning-pipelines-for-automation/) |
+| **Perform hyperparameter tuning with Azure Machine Learning** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-hyperparameter-tuning-azure-machine-learning-pipelines/) |
 | **Analyze and resolve compliance issues using Microsoft Intune** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/compliance-endpoint-manager/) |
 | **Describe application-based threats and how to protect against them** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-application-based-threats-security-controls/) |
 | **Empower your workforce with Microsoft 365 Copilot: IT Use Case** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-prompting-copilot-it/) |
@@ -56,8 +56,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Create your first agent in Microsoft Copilot Studio - Online workshop** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-virtual-agents-create-online-workshop/) |
 | **Secure your Azure Storage account** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-storage-account/) |
 | **Understand Microsoft 365 encryption** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-encryption/) |
-| **Create methods in C# console applications (Get started with C#, Part 5)** | Learningpaths | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-5/) |
 | **Write your first C# method** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-first-c-sharp-method/) |
+| **Create methods in C# console applications (Get started with C#, Part 5)** | Learningpaths | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-5/) |
 | **Earn credit toward the SDS Professional badge** | Modules | 2025-12-10 | N/A |
 | **School Data Sync professional for education partners** | Learningpaths | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/school-data-sync-professional-for-education-partners/) |
 | **SharePoint Embedded - overview & configuration** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-embedded-setup/) |

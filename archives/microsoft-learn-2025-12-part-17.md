@@ -30,8 +30,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Explore Dynamics 365 Customer Service** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-customer-service/) |
 | **Introduction to Microsoft Defender for Office 365** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-office-365-introduction/) |
 | **Introduction to Azure application delivery services** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-application-delivery-services/) |
-| **Introduction to Secure Application Delivery with Azure network security** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-application-delivery/) |
 | **Introduction to Azure Web Application Firewall** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-web-application-firewall/) |
+| **Introduction to Secure Application Delivery with Azure network security** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-application-delivery/) |
 | **Business process mapping for Dynamics 365** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-process-mapping-dynamics-365/) |
 | **Plan with DevOps** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-with-devops/) |
 | **Prepare your development environment for Azure development** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-your-dev-environment-for-azure-development/) |

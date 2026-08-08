@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 84 of 95
-date_range: 2026-06-08 to 2026-06-11
+date_range: 2026-06-08 to 2026-06-13
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-84.md
 ---
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Design governance** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-governance/) |
 | **Design an Azure compute solution** | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-compute-solution/) |
 | **Integrate with Azure Pipelines** | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/) |
 | **Learn how Microsoft supports using multifactor authentication as part of a cybersecurity solution** | Learningpaths | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-mfa-for-cybersecurity/) |
@@ -35,8 +36,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Design a data storage solution for non-relational data** | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/) |
 | **Implement initial configuration of Microsoft Entra ID** | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-initial-configuration-of-azure-active-directory/) |
 | **Design authentication and authorization solutions** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/) |
-| **Design a solution for backup and disaster recovery** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/) |
 | **AZ-305: Design business continuity solutions** | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/) |
+| **Design a solution for backup and disaster recovery** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/) |
 | **Use imperative development techniques for canvas apps in Power Apps** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-imperative-dev-techniques-powerapps-canvas-app/) |
 | **Design data integration** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-integration/) |
 | **Design network solutions** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-network-solutions/) |
@@ -63,7 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Deploy and administer Linux virtual machines on Azure** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-administer-linux-virtual-machines-azure/) |
 | **Implement access management for Azure resources** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-access-management-for-azure-resources/) |
 | **Validate your Microsoft Power Platform Solution Architect skills** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-power-platform-solution-architect-skills/) |
-| **Becoming a solution architect for Dynamics 365 and Microsoft Power Platform** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/becoming-solution-architect/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-83.md](./microsoft-learn-2026-06-part-83.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-85.md](./microsoft-learn-2026-06-part-85.md)

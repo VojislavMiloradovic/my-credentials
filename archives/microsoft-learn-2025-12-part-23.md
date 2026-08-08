@@ -20,8 +20,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Design an IP addressing schema for your Azure deployment** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ip-addressing-for-azure/) |
 | **Uncover new data insights with AI** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/uncover-new-data-insights-ai/) |
 | **Introduction to Azure Machine Learning authentication and authorization** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-machine-learning-auth/) |
-| **Automate DevOps processes by using GitHub Apps** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-devops-github-apps/) |
 | **Manage the lifecycle of your projects on GitHub** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-project-lifecycle-github/) |
+| **Automate DevOps processes by using GitHub Apps** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-devops-github-apps/) |
 | **Build community-driven software projects on GitHub** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-community-driven-projects-github/) |
 | **Create an open-source program by using GitHub best practices** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-open-source-program-github/) |
 | **Get started with production control in Dynamics 365 Supply Chain Management** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-production-control-dyn365-supply-chain-mgmt/) |
@@ -33,18 +33,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Governance for process mining** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/governance-process-mining/) |
 | **Create your first desktop flow - Online workshop** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-first-desktop-flow-online-workshop/) |
 | **Computational thinking and its importance in education** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/computational-thinking-importance-education/) |
-| **Discover AI for leaders in manufacturing** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-manufacturing/) |
 | **Define a Microsoft AI strategy to create business value in manufacturing** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-manufacturing/) |
+| **Discover AI for leaders in manufacturing** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-manufacturing/) |
 | **Developing in the Windows Subsystem for Linux with Visual Studio Code** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/developing-in-wsl/) |
-| **Work with different technologies in Power Automate for desktop** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-work-different-technologies/) |
 | **Control file and folder handling in Power Automate for desktop** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-files-folders-handling/) |
+| **Work with different technologies in Power Automate for desktop** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-work-different-technologies/) |
 | **Investigate the history of app development** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/investigate-history-app-development/) |
 | **Exploring basic computer concepts** | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-basic-computer-concepts/) |
 | **Explore computers** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-computers/) |
 | **Discover the basics of computing** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-basics-computing/) |
 | **Explore security** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-security/) |
-| **Purchase Azure savings plan for compute ** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-savings-plan-for-compute/) |
 | **Control Azure spending and manage bills with Microsoft Cost Management + Billing** | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/control-spending-manage-bills/) |
+| **Purchase Azure savings plan for compute ** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-savings-plan-for-compute/) |
 | **Configure and manage costs as a Microsoft partner by using Microsoft Cost Management** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-costs-partner-cost-management/) |
 | **Optimize Azure costs with data analysis in Power BI** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-costs-data-analysis-powerbi/) |
 | **Microsoft Azure Well-Architected Framework - Cost Optimization** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/) |

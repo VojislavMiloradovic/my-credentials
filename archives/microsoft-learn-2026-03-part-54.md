@@ -54,8 +54,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Challenge project - Build a declarative agent to chat with your data** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-challenge-chat-with-data/) |
 | **Extend Microsoft 365 Copilot with declarative agents using Visual Studio Code** | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-microsoft-365-declarative-agents-visual-studio-code/) |
 | **Build reports for finance and operations apps** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reports-finance-operations/) |
-| **Use custom code in custom connectors for Microsoft Power Platform** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-code-connectors/) |
 | **Build custom connectors for Microsoft Power Platform** | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-custom-connectors/) |
+| **Use custom code in custom connectors for Microsoft Power Platform** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-code-connectors/) |
 | **Deploy and use Azure Container Registry** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-use-azure-container-registry/) |
 | **Create and run scripts by using Windows PowerShell** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-run-scripts-use-windows-powershell/) |
 | **Manage data privacy and governance with Azure Databricks** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-data-privacy-and-governance-with-azure-databricks/) |

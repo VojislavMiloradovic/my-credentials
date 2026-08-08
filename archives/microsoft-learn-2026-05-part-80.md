@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Deploy Microsoft 365 for Education with the Microsoft Education Solution Guide (Partner Success Series)** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-education-solution-guide/) |
+| **Secure mobile access using Microsoft Tunnel** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-mobile-access-microsoft-tunnel/) |
 | **Optimize device management using AI and Copilot tools** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-device-management-ai-copilot/) |
 | **Monitor and optimize endpoint performance using Microsoft Intune** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-optimize-endpoint-performance-intune/) |
 | **Monitor and optimize application performance using Microsoft Intune** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-optimize-application-performance-intune/) |
@@ -43,8 +45,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Configure financial management** | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-configure-financial-management-work-general-ledger/) |
 | **Manage Azure DevOps by using MCP Server** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-ado-mcp-server/) |
 | **Manage Azure Boards by using GitHub Copilot integration** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-boards-using-github-copilot/) |
-| **Extract data with Azure Document Intelligence** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-data-with-document-intelligence/) |
 | **Extract insights from visual data on Azure** | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/insight-visual-data/) |
+| **Extract data with Azure Document Intelligence** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-data-with-document-intelligence/) |
 | **Design dimensional models for analytics in Microsoft Fabric** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dimensional-models-fabric/) |
 | **Design and transform analytics data in Microsoft Fabric** | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-transform-analytics-data/) |
 | **Build secure agents for public sector services** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-secure-agents-public-sector-services/) |
@@ -60,8 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Configure Microsoft Entra ID for device and policy management** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-entraid-device-management/) |
 | **Apply RBAC and admin delegation in Microsoft Intune** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-rbac-admin-delegation/) |
 | **Administer device identity and authentication using Microsoft Entra ID** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/device-identity-authentication-entra-id/) |
-| **Tailor the agent workspace with experience profiles in Dynamics 365 Contact Center** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-experience-profiles-contact-center/) |
-| **Accelerate service delivery with productivity tools in Dynamics 365 Contact Center** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-productivity-tools-contact-center/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-79.md](./microsoft-learn-2026-05-part-79.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-81.md](./microsoft-learn-2026-06-part-81.md)

@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Govern data policies in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-data-policies/) |
 | **Govern AI-enabled resources in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-ai-enabled-resources/) |
 | **Manage data protection with Azure NetApp Files** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-data-protection-azure-netapp-files/) |
 | **Build your first cloud-based developer workstation using Windows 365** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cloud-developer-workstation/) |
@@ -50,8 +51,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Design a multi-domain Active Directory forest** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-domain-forest-trust/) |
 | **Get started with 5G on Surface for Business devices** | Modules | 2026-07-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-5g/) |
 | **Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-identity-lifecycle-workflows/) |
-| **Architect AI solutions for business productivity** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-agentic-ai-business-solutions/) |
 | **Analyze requirements for AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-requirements-ai-powered-business-solutions/) |
+| **Architect AI solutions for business productivity** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-agentic-ai-business-solutions/) |
 | **Introduction to agentic AI business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-agentic-ai-business-solution-architecture/) |
 | **Manage testing AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-testing-ai-powered-business-solutions/) |
 | **Evaluate costs and benefits of AI solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-costs-benefits-ai-powered-business-solution/) |
@@ -63,7 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Interactive case study: Securing endpoints and infrastructure** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-endpoints-infrastructure/) |
 | **Design security solutions for infrastructure** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-security-solutions-infrastructure/) |
 | **Design security operations, identity, and compliance capabilities** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-operations-identity-compliance-capabilities/) |
-| **Interactive case study: Modernizing user access control and threat resilience** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-access-control-threat-resilience/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-94.md](./microsoft-learn-2026-07-part-94.md)

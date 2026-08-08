@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Prepare to teach MB-230 Microsoft Dynamics 365 Customer Service Functional Consultant** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/teach-mb-230-customer-service-functional-consultant/) |
 | **Prepare to teach MB-220 Microsoft Dynamics 365 Marketing Functional Consultant** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/teach-mb-220-marketing-functional-consultant/) |
 | **Prepare to teach AZ-900 Microsoft Azure fundamentals in academic programs** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-900-microsoft-academic-programs/) |
 | **Prepare to teach MB-910 Microsoft Dynamics 365 Fundamentals (CRM)** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-mb-910-microsoft-dynamics-365-fundamentals/) |
@@ -40,12 +41,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Design solutions for identity and access management** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-identity-access-management/) |
 | **Solution architect series: Explore robotic process automation** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/robotic-process-automation/) |
 | **Configure and manage voice users** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-voice-users/) |
-| **Software Composition Analysis** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/) |
 | **AZ-400: Implement security and validate code bases for compliance** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-security-validate-code-bases-compliance/) |
+| **Software Composition Analysis** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/) |
 | **Implement Bicep** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-bicep/) |
 | **Integrate with Dataverse and Azure** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dataverse-azure/) |
-| **Integrate with Power Platform and Dataverse** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-power-platform-dataverse/) |
 | **Integrate Dataverse Azure solutions** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-dataverse-azure-solutions/) |
+| **Integrate with Power Platform and Dataverse** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-power-platform-dataverse/) |
 | **Migrate, consolidate, and secure artifacts** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/) |
 | **Introduction to deployment patterns** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/) |
 | **AZ-400: Implement a secure continuous deployment using Azure Pipelines** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-secure-continuous-deployment/) |
@@ -62,7 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Manage application configuration data** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/) |
 | **Share knowledge within teams** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/) |
 | **Design processes to automate application analytics** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/) |
-| **Develop monitor and status dashboards** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-85.md](./microsoft-learn-2026-06-part-85.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-87.md](./microsoft-learn-2026-06-part-87.md)

@@ -17,8 +17,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Challenge project – Ideate with Microsoft Copilot** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-ideate-business-with-ai/) |
 | **Configure User Account Control** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-user-account-control/) |
 | **Introduction to Azure VPN Gateway** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-vpn-gateway/) |
-| **Add custom knowledge to declarative agents using Copilot connectors and Visual Studio Code** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-graph-connector-vsc/) |
 | **Extend Microsoft 365 Copilot with Copilot connectors using Visual Studio Code** | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-microsoft-365-copilot-connectors-visual-studio-code/) |
+| **Add custom knowledge to declarative agents using Copilot connectors and Visual Studio Code** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-graph-connector-vsc/) |
 | **Combine Power Automate desktop and cloud flows** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-powerautomate/) |
 | **Explore application troubleshooting** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-application-troubleshooting/) |
 | **Employ file recovery in Windows client** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/employ-file-recovery-windows-client/) |
@@ -35,8 +35,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Introduction to Azure DNS** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-dns/) |
 | **Introduction to Azure network foundation services** | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-network-foundation-services/) |
 | **Recognize text with AI Builder** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-text-recognition/) |
-| **Introduction to artificial intelligence for trainers** | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-artificial-intelligence-for-trainers/) |
 | **Use AI-powered tools for training** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-powered-tools-for-teaching/) |
+| **Introduction to artificial intelligence for trainers** | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-artificial-intelligence-for-trainers/) |
 | **Architect network infrastructure in Azure** | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-network-infrastructure/) |
 | **Distribute your services across Azure virtual networks and integrate them by using virtual network peering** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-vnets-with-vnet-peering/) |
 | **Manage users and groups** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-users-groups/) |

@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Develop monitor and status dashboards** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/) |
 | **Implement Desired State Configuration (DSC)** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/) |
 | **Implement A/B testing and progressive exposure deployment** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/) |
 | **Solution Architect series: Explore Power Apps architecture** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-architecture/) |
@@ -55,14 +56,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Perform fit gap analysis** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/fit-gap-analysis/) |
 | **Design a container build strategy** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/) |
 | **AZ-400: Implement CI with Azure Pipelines and GitHub Actions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-ci-azure-pipelines-github-actions/) |
-| **Scripting in Power Automate desktop app** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-scripting/) |
 | **Desktop flows and Robotic Process Automation in Power Automate** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/desktop-flows-robotic-process-automation-power-automate/) |
+| **Scripting in Power Automate desktop app** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-scripting/) |
 | **Introduction to developing with Microsoft Power Platform** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-development-power-platform/) |
 | **Introduction to extending Power Platform** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-extend/) |
 | **AZ-305: Design infrastructure solutions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-infranstructure-solutions/) |
 | **Design migrations** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-migrations/) |
 | **AZ-305: Design identity, governance, and monitor solutions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-identity-governance-monitor-solutions/) |
-| **Design governance** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-governance/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-86.md](./microsoft-learn-2026-06-part-86.md)

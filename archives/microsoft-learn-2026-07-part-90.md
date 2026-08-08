@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Extend Sustainability Manager for building complex Scope 3 calculations** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-complex-calculations/) |
 | **Get started with Text Analytics for health** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-text-analytics/) |
 | **Work with Text Analytics for health API** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-health-text-analytics/) |
 | **Migrate voice services from Skype for Business Server to Teams** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-voice-services-from-skype-for-business-server-to-teams/) |
@@ -60,7 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Monitor and troubleshoot Azure for SAP workloads** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-troubleshoot-azure-for-sap-workloads/) |
 | **Explore monitoring requirements of Azure for SAP workloads** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-monitoring-requirements-of-azure-for-sap-workloads/) |
 | **Continuously validate and test mission-critical workloads** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/continuous-validate-test-mission-critical-workloads/) |
-| **Explore Azure Center for SAP solutions** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-center-sap-solutions/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-89.md](./microsoft-learn-2026-07-part-89.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-91.md](./microsoft-learn-2026-07-part-91.md)

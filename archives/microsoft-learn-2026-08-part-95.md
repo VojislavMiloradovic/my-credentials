@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 95 of 95
-date_range: 2026-07-30 to 2026-08-06
-total_entries: 21
+date_range: 2026-07-30 to 2026-08-08
+total_entries: 28
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-95.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Ingest data into Customer Insights - Data** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-customer-insights/) |
+| **Get started with Dynamics 365 Customer Insights - Data** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-customer-data-platform/) |
+| **Write your first Python code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-first-python-code/) |
+| **Get Started with Python Programming: Part 1 - Fundamentals** | Learningpaths | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-python-fundamentals/) |
+| **Work with data in Python** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-data-python/) |
+| **What is Project Perception?** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-introduction/) |
+| **Install and configure Visual Studio Code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/install-configure-visual-studio-code-python/) |
+| **Add decision-making to your code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-decision-making-python/) |
 | **Understand advanced Windows Firewall** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-advanced-windows-firewall/) |
 | **Convert Oracle schemas to Azure Database for PostgreSQL by using AI** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/convert-oracle-schema-azure-database-postgresql-ai/) |
 | **Understand how Active Directory Domain Services uses DNS** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-domain-name-system/) |
@@ -22,8 +30,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Efficiently investigate data risks with Security Copilot in Microsoft Purview** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-security-copilot/) |
 | **Classify and protect sensitive data with sensitivity labels** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-label-sensitive-data/) |
 | **Discover and define sensitive information types** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-discover-define-sits/) |
-| **Fundamentals of Bicep** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/) |
 | **Build flexible Bicep files by using conditions and loops** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-files-conditions-loops/) |
+| **Fundamentals of Bicep** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/) |
 | **Build reusable Bicep files by using parameters** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reusable-bicep-files-parameters/) |
 | **Build your first Bicep file** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-bicep-file/) |
 | **Introduction to retrieval-augmented generation concepts** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/rag-fundamentals/) |
@@ -32,7 +40,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Get started with AI applications and agents on Azure** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-ai-apps-agents/) |
 | **Introduction to Azure Copilot** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-copilot/) |
 | **Managing Azure NetApp Files** | Learningpaths | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-azure-netapp-files/) |
-| **Troubleshoot Azure NetApp Files** | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-azure-netapp-files/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-94.md](./microsoft-learn-2026-07-part-94.md) | [Index](./microsoft-learn-index.md) | Next: None

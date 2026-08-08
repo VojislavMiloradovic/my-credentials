@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Build your first deployment stack** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-deployment-stack/) |
 | **Receive orders in Dynamics 365 Business Central** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/receive-orders/) |
 | **Produce items in the warehouse in Dynamics 365 Business Central** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/produce-items-warehouse/) |
 | **Guided project: Build and Deploy your own AI Copilot** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-build-deploy-your-own-ai-copilot/) |
@@ -62,7 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Work with service order dispatching in Dynamics 365 Supply Chain Management** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-order-dispatching/) |
 | **Build a Fabric data agent with an ontology** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-fabric-data-agent-ontology/) |
 | **Record fixed asset opening transactions in Dynamics 365 Business Central** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/record-fixed-assets-opening-transactions/) |
-| **Close a project in Dynamics 365 Business Central** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-job/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-69.md](./microsoft-learn-2026-04-part-69.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-71.md](./microsoft-learn-2026-04-part-71.md)

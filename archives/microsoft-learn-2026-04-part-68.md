@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Manage emails, segments, and journeys in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-emails-journey/) |
 | **Set up responsibility centers in Dynamics 365 Business Central** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-responsibility-centers/) |
 | **Set up organization and reference data** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-setup-organization/) |
 | **Work with Expense management in Dynamics 365 Project Operations** | Learningpaths | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-expense-management/) |
@@ -59,7 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Set up projects and resources in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-jobs-resources/) |
 | **Set up basic warehouse tasks in Dynamics 365 Business Central** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-basic-warehouse-tasks/) |
 | **Visualize ontology data with Microsoft Fabric IQ (preview)** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/visualize-ontology-fabric-iq/) |
-| **Microsoft tenant setup for Surface Portal access** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-portal-onboarding-guide/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-67.md](./microsoft-learn-2026-04-part-67.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-69.md](./microsoft-learn-2026-04-part-69.md)

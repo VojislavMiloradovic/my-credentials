@@ -17,8 +17,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Work order management in Dynamics 365 Field Service** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-work-order-management-agreements-inventory-and-purchasing/) |
 | **Manage Azure PaaS tasks using automation** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-paas-resources-using-automated-methods/) |
 | **Deploy and configure Windows Server IaaS Virtual Machine** | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-windows-server-iaas-virtual-machine/) |
-| **Plan and deploy Windows Server IaaS Virtual Machines** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-deploy-windows-server-iaas-virtual-machines/) |
 | **Manage virtualization and containers in a hybrid environment** | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-virtualization-containers-hybrid-environment/) |
+| **Plan and deploy Windows Server IaaS Virtual Machines** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-deploy-windows-server-iaas-virtual-machines/) |
 | **Guided Project - Azure Files and Azure Blobs** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-azure-files-azure-blobs/) |
 | **Secure storage for Azure Files and Azure Blob Storage** | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-storage-azure-files-azure-blob-storage/) |
 | **Examine the Microsoft 365 Copilot design** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-microsoft-365-copilot-design/) |

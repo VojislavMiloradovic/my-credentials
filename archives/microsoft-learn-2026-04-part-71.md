@@ -12,9 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Promote events, manage registration and check-ins, and review results in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/promote-events-dynamics-365-marketing/) |
 | **Work with revenue recognition in Dynamics 365 Finance** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-recognition-finance/) |
-| **Explore the Microsoft Search user experience and how to enable and configure it for your devices** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-search-user-experience/) |
 | **Deploy and configure Microsoft Edge and Microsoft Search for all your devices** | Learningpaths | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-microsoft-edge-search-for-devices/) |
+| **Explore the Microsoft Search user experience and how to enable and configure it for your devices** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-search-user-experience/) |
 | **Guided project - Create and manage segments with Dynamics 365 Customer Insights - Data** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-manage-segments-d365-customer-insights-data/) |
 | **Create and manage segments in Dynamics 365 Customer Insights - Data** | Learningpaths | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-segments-d365-customer-insights-data/) |
 | **Enable patients to access the Patient Access portal** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/patient-access-service-center/) |
@@ -59,7 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Use warehouse management only mode in Dynamics 365 Supply Chain Management** | Learningpaths | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-warehouse-management-only-mode/) |
 | **Get started with Warehouse management only mode in Dynamics 365 Supply Chain Management** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-warehouse-management-only-mode/) |
 | **Work with service orders in Dynamics 365 Business Central** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-orders/) |
-| **Build your first deployment stack** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-deployment-stack/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-70.md](./microsoft-learn-2026-04-part-70.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-72.md](./microsoft-learn-2026-04-part-72.md)

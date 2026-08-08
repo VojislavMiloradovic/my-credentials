@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Implement vector search on Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-search-azure-cosmos-db/) |
+| **Protect and govern AI ready infrastructure with Azure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-govern-ai-ready-infrastructure-azure/) |
 | **Manage secure AI-ready infrastructure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secure-ai-ready-infrastructure/) |
 | **Implement resilient AI-ready infrastructure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-resilient-ai-ready-infrastructure/) |
 | **Secure AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-ai-ready-infrastructure/) |
@@ -60,8 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Implement Microsoft Teams for Education in your school (Partner Success Series)** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-microsoft-teams-education-school/) |
 | **Implement Microsoft Copilot in your school (Partner Success Series)** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-microsoft-copilot-school-partner-success-series/) |
 | **Extend Microsoft Teams with Learning Management Systems (Partner Success Series)** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-microsoft-teams-learning-management-systems/) |
-| **Deploy Microsoft 365 for Education with the Microsoft Education Solution Guide (Partner Success Series)** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-education-solution-guide/) |
-| **Secure mobile access using Microsoft Tunnel** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-mobile-access-microsoft-tunnel/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-80.md](./microsoft-learn-2026-05-part-80.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md)
