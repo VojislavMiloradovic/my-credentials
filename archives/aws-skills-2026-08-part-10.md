@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 10 of 10
-date_range: 2026-08-06 to 2026-08-08
-total_entries: 37
+date_range: 2026-08-06 to 2026-08-09
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-10.md
 ---
 
@@ -12,6 +12,17 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-09 | [Adaptive sampling with AWS X-Ray to capture critical spans](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [AI-DLC Foundations: Workflow and Collaboration](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Amazon Connect AI Fundamentals Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Amazon Connect AI Supervisor Capabilities](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Amazon Connect Outbound Communications Multi-Channel Campaign Design](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Auditing Amazon Simple Storage Service (Amazon S3) Security](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [AWS for VMware Administrators](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Context extraction from image files in Amazon Q Business using LLMs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Designing Landing Zone Architectures with AWS Control Tower](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Generate structured output from LLMs with Dottxt Outlines in AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Prompting Amazon Nova 2 for content moderation](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-08 | [AI-DLC Foundations: Operations Deep Dive](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-08 | [Amazon Connect Analytics Reporting and Visualizations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-08 | [Amazon Connect Conversational Interfaces Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

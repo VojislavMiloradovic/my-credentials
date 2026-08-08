@@ -80,8 +80,8 @@ Showing latest 10 of 342 credentials. View full dataset via [Platform Archive In
 [AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
 Public Profile: [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
-**Total Portfolio Credentials:** 540
-**Total Verified Skills Mapped:** 538
+**Total Portfolio Credentials:** 551
+**Total Verified Skills Mapped:** 549
 
 #### AWS Cloud Quest Summary
 
@@ -96,20 +96,20 @@ Public Profile: [Verify AWS Skill Builder Profile](https://skillsprofile.skillbu
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 540 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-01.md), or [Monolithic File](./archives/aws-skills-complete.md).
+Showing latest 10 of 551 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-01.md), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-08-08 | [AI-DLC Foundations: Operations Deep Dive](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [Amazon Connect Analytics Reporting and Visualizations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [Amazon Connect Conversational Interfaces Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [Amazon Connect Outbound Communications Channel Configuration and Setup](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [Amazon Connect Outbound Communications Performance Optimization and Analytics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [Amazon Elastic Block Store - Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [AWS for SAP - Cost Optimization Strategies](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [AWS Security Agent: Securing Applications design to deployment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [Build your first GraphRAG Powered Agent with Amazon Neptune (No Graph Expert Required)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [Building Safe Generative AI Applications with Amazon Bedrock Guardrails](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Adaptive sampling with AWS X-Ray to capture critical spans](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [AI-DLC Foundations: Workflow and Collaboration](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Amazon Connect AI Fundamentals Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Amazon Connect AI Supervisor Capabilities](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Amazon Connect Outbound Communications Multi-Channel Campaign Design](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Auditing Amazon Simple Storage Service (Amazon S3) Security](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [AWS for VMware Administrators](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Context extraction from image files in Amazon Q Business using LLMs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Designing Landing Zone Architectures with AWS Control Tower](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [Generate structured output from LLMs with Dottxt Outlines in AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 <!-- AWS_SKILLS_END -->
 
 
