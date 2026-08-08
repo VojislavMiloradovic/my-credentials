@@ -121,15 +121,16 @@ Showing latest 10 of 520 credentials. View full dataset via [Platform Archive In
 [Credly Verified Credentials](https://www.credly.com/users/vojislavmiloradovic/badges)
 
 Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic/badges)
-**Total Portfolio Credentials:** 519 (496 Credly Verified, 23 External/Imported)
-**Total Verified Skills Mapped:** 1896
+**Total Portfolio Credentials:** 520 (497 Credly Verified, 23 External/Imported)
+**Total Verified Skills Mapped:** 1898
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 519 credentials. View full dataset via [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-01.md), or [Monolithic File](./archives/credly-badges-complete.md).
+Showing latest 10 of 520 credentials. View full dataset via [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-01.md), or [Monolithic File](./archives/credly-badges-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-08 | [Cilium Flow Encryption](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/public_url) | Isovalent | Credly Verified |
 | 2026-08-08 | [Cilium Network Policies](https://www.credly.com/badges/22c5caa6-fc0f-4a4e-9739-a14b97edfc01/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Cilium Cluster Mesh](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Cilium Ingress Controller](https://www.credly.com/badges/29a5efa1-d0ce-4c25-a983-f3b435be6b59/public_url) | Isovalent | Credly Verified |
@@ -139,7 +140,6 @@ Showing latest 10 of 519 credentials. View full dataset via [Platform Archive In
 | 2026-08-07 | [Continuous Security Validation Workshop](https://www.credly.com/badges/132269ac-0ab7-4b20-91c4-76ed7fa3359e/public_url) | AttackIQ | Credly Verified |
 | 2026-08-07 | [Isovalent Lab Champion (10 labs)](https://www.credly.com/badges/1aa636d3-d301-4b4b-8808-e3da552cfc0b/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Tetragon Getting Started](https://www.credly.com/badges/dffe3f42-4e0a-49bd-92f7-2646e68f51eb/public_url) | Isovalent | Credly Verified |
-| 2026-08-07 | [Validating Defenses Quickly with Micro Emulation Plans](https://www.credly.com/badges/d2d863a1-4240-48a3-83d4-e51e7b3b428c/public_url) | AttackIQ | Credly Verified |
 <!-- CREDLY_BADGES_END -->
 
 

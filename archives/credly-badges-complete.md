@@ -1,11 +1,12 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 519 records.
+This document represents a unified, verifiable list of all 520 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-08 | [Cilium Flow Encryption](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/public_url) | Isovalent | Credly Verified |
 | 2026-08-08 | [Cilium Network Policies](https://www.credly.com/badges/22c5caa6-fc0f-4a4e-9739-a14b97edfc01/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Cilium Cluster Mesh](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Cilium Ingress Controller](https://www.credly.com/badges/29a5efa1-d0ce-4c25-a983-f3b435be6b59/public_url) | Isovalent | Credly Verified |

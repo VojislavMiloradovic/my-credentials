@@ -1,10 +1,37 @@
 {
   "user_username": "vojislavmiloradovic",
   "user_id": "752aee40-7358-4ade-9a49-81e8b6f49225",
-  "total_count": 519,
-  "native_count": 496,
+  "total_count": 520,
+  "native_count": 497,
   "external_count": 23,
   "badges": [
+    {
+      "id": "ac2cc631-94a7-4bf6-a5f5-a867c4e754fd",
+      "title": "Cilium Flow Encryption",
+      "name": "Cilium Flow Encryption",
+      "issuer": "Isovalent",
+      "issuer_name": "Isovalent",
+      "issued_at": "2026-08-08",
+      "issued_at_date": "2026-08-08",
+      "date": "2026-08-08",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/6d7b1949-5718-4194-b448-4cf7fdedb057/tempfile20250605-58-b596ep.png",
+      "verify_url": "https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/public_url",
+      "url": "https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "Cilium",
+        "Containers",
+        "eBPF",
+        "Enterprise",
+        "IPsec",
+        "Kubernetes",
+        "Open Source",
+        "Security",
+        "WireGuard"
+      ]
+    },
     {
       "id": "22c5caa6-fc0f-4a4e-9739-a14b97edfc01",
       "title": "Cilium Network Policies",
