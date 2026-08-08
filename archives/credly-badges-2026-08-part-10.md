@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 10 of 10
-date_range: 2026-08-02 to 2026-08-07
-total_entries: 29
+date_range: 2026-08-02 to 2026-08-08
+total_entries: 30
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-10.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-08 | [Cilium Network Policies](https://www.credly.com/badges/22c5caa6-fc0f-4a4e-9739-a14b97edfc01/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Cilium Cluster Mesh](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Cilium Ingress Controller](https://www.credly.com/badges/29a5efa1-d0ce-4c25-a983-f3b435be6b59/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Cloud Sales Professional XDR](https://www.credly.com/badges/7f370553-e0b2-41a3-9909-131fe11a94a3/public_url) | Acronis | Credly Verified |
