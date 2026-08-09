@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 4 of 29
+chunk_part: 4 of 30
 date_range: 2025-12 to 2026-01
 total_entries: 38
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-01-part-04.md
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-01 | **Preparing for Your Professional Cloud Network Engineer Journey** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21312822?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-01 | **Manage Functions and Reporting with CCaaS** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21296923?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-01 | **Build a Certification Study Guide: PCA Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21296361?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **Handle Consumer Interactions with CCaaS** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21284750?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -49,7 +50,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2025-12 | **Implementing Cloud Load Balancing for Compute Engine** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21039085?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **Google Security Operations - Deep Dive** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21024695?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2025-12 | **Google Security Operations - Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21024676?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2025-12 | **AI Infrastructure: Networking Techniques** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21003646?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2025-12-part-03.md](./linkedin-certifications-2025-12-part-03.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-03-part-05.md](./linkedin-certifications-2026-03-part-05.md)

@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 28 of 29
+chunk_part: 28 of 30
 date_range: 2026-07 to 2026-07
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-28.md
@@ -8,10 +8,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 # LinkedIn Certifications — Part 28
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-27.md](./linkedin-certifications-2026-07-part-27.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-29.md](./linkedin-certifications-2026-07-part-29.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-27.md](./linkedin-certifications-2026-07-part-27.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-29.md](./linkedin-certifications-2026-08-part-29.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **MongoDB Sharding Strategies** | MongoDB | [Verify Record](https://www.credly.com/badges/ec69041f-6f70-4cab-b52f-dc3b9a64132f/linked_in_profile) |
+| 2026-07 | **MongoDB Indexing Design Fundamentals** | MongoDB | [Verify Record](https://www.credly.com/badges/cd687719-8495-41e0-a74d-61cd2ab6f12e/linked_in_profile) |
+| 2026-07 | **Securing MongoDB Atlas: Authentication & Authorization** | MongoDB | [Verify Record](https://www.credly.com/badges/c92a6b9b-e628-42f2-b33c-d51f189a3f3c/linked_in_profile) |
+| 2026-07 | **MongoDB Overview: Core Concepts and Architecture** | MongoDB | [Verify Record](https://www.credly.com/badges/ec006874-acdf-4095-abab-5b6657054fc1/linked_in_profile) |
 | 2026-07 | **Securing MongoDB Self-Managed: Authentication & Authorization** | MongoDB | [Verify Record](https://www.credly.com/badges/ccb3958d-00b6-4cf5-abf2-9481f3f12197/linked_in_profile) |
 | 2026-07 | **Mapping MITRE ATT&CK to CVE for Impact** | AttackIQ | [Verify Record](https://www.credly.com/badges/8f620453-4525-4c45-9107-5a24f2bf89a5/linked_in_profile) |
 | 2026-07 | **menuPass Emulation Plan Execution** | AttackIQ | [Verify Record](https://www.credly.com/badges/6fd90ef1-aa26-4e52-bdd8-e499e96f3644/linked_in_profile) |
@@ -35,7 +39,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Extending ATT&CK with ATT&CK Workbench** | AttackIQ | [Verify Record](https://www.credly.com/badges/1a455d6f-de65-420a-a531-f26d2562538b/linked_in_profile) |
 | 2026-07 | **Cloud Sales Pro - Backup** | Acronis | [Verify Record](https://www.credly.com/badges/8792dd40-33ba-45a4-8a3b-68f57d1ec0d3/linked_in_profile) |
 | 2026-07 | **Cloud Sales Pro - Archival Storage** | Acronis | [Verify Record](https://www.credly.com/badges/f158f922-f150-4b0b-8690-da627a5aea91/linked_in_profile) |
-| 2026-07 | **ZEDEDA Certified Edge Orchestration Professional (ZCEP)** | ZEDEDA | [Verify Record](https://www.credly.com/badges/353991f9-77e3-4db3-9e33-3ea865e695ff/linked_in_profile) |
 | 2026-07 | **Cloud Functions: 3 Ways Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/f57106b4-cf01-4ad0-a05a-67f322da7411/linked_in_profile) |
 | 2026-07 | **Creative Inspirations: Troika Design Group, Design and Branding Agency** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e450a756a55e74387f1d52ca88ab442dfbf0dbb733e116e28ebc9ed4a792dd06) |
 | 2026-07 | **Acronis Cyber Protect – Tech Pro** | Acronis | [Verify Record](https://www.credly.com/badges/0d5fac3c-48d7-4e36-bb6c-bed01e8304d9/linked_in_profile) |
@@ -58,10 +61,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Leading the Shift: Creating the new field of data for social impact \| data.org** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/19c7c31ad1b900e39f878eceff224ed84d4fe56be28f0a20b8ee1197b6562f61) |
 | 2026-07 | **LinkedIn Co-Founder Reid Hoffman on How to Supercharge Your Career with AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6a949e8cb54f38babdaede02aa9801769734839aa8e1997c73929f3b506a2a1b) |
 | 2026-07 | **Building AI-Powered Search with MongoDB Vector Search** | MongoDB | [Verify Record](https://www.credly.com/badges/106d3801-84c1-4057-8474-6450f2a84b33/linked_in_profile) |
-| 2026-07 | **AWS Educate Getting Started with Storage - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c0cd9a0e-d2c9-4c72-9e6f-87b5cedde8a7/linked_in_profile) |
-| 2026-07 | **Strategic Cybersecurity Management** | AttackIQ | [Verify Record](https://www.credly.com/badges/e0cfb483-3bab-4f21-b48e-896e6e02a2de/linked_in_profile) |
-| 2026-07 | **Cloud Tech Professional Disaster Recovery** | Acronis | [Verify Record](https://www.credly.com/badges/b1960c54-6ac1-4206-8631-f489b925b6eb/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-27.md](./linkedin-certifications-2026-07-part-27.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-29.md](./linkedin-certifications-2026-07-part-29.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-27.md](./linkedin-certifications-2026-07-part-27.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-29.md](./linkedin-certifications-2026-08-part-29.md)
 

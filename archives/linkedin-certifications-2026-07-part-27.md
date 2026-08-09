@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 27 of 29
+chunk_part: 27 of 30
 date_range: 2026-07 to 2026-07
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-27.md
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-07 | **AWS Educate Getting Started with Storage - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c0cd9a0e-d2c9-4c72-9e6f-87b5cedde8a7/linked_in_profile) |
+| 2026-07 | **Strategic Cybersecurity Management** | AttackIQ | [Verify Record](https://www.credly.com/badges/e0cfb483-3bab-4f21-b48e-896e6e02a2de/linked_in_profile) |
+| 2026-07 | **Cloud Tech Professional Disaster Recovery** | Acronis | [Verify Record](https://www.credly.com/badges/b1960c54-6ac1-4206-8631-f489b925b6eb/linked_in_profile) |
 | 2026-07 | **Harnessing AI for Effective Interviewing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7583a0e48821cc69e0e4f641da1fd165b188cfb1669d1cc5c9c73ec538a30764) |
 | 2026-07 | **Finding a Job on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ca80d6e4514609ece268e39f6455f5d0e94c07a84623cb8e717a7b5b97000d6) |
 | 2026-07 | **Deploy and Monitor in Google Cloud for AWS Professionals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25533410?utm_medium=social) |
@@ -30,7 +33,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Al Schmitt with Bobby Owsinski: Wrapping Cables to Winning Grammys** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/66f552eb2d0fb0c2ef09bbb9a7d3414cc315e8b8138492befed504493f6ab2fd) |
 | 2026-07 | **The Creative Spark: Tom Durham, Indie Filmmaker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bf2dc7f5b4fff92f6caebba01ca998629057922069803133a7ca169e42455cd3) |
 | 2026-07 | **Dustin Farrell's Time-Lapse Photography: Start to Finish** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7479eea90e93e6e3c8e64edd9ce8d1c274a25b91bd211f0a18d5f7212e5f1512) |
-| 2026-07 | **AI Threat Tamer** | Chainguard | [Verify Record](https://www.credly.com/badges/db97c86e-63ee-4b06-9267-97b0214b660b/linked_in_profile) |
 | 2026-07 | **Introduction to CIP** | OPSWAT Academy | [Verify Record](https://learn.opswatacademy.com/certificate/r4ZWtQv2YQ) |
 | 2026-07 | **OPSWAT Introduction to Critical Infrastructure Protection (ICIP)** | OPSWAT | [Verify Record](https://www.credly.com/badges/0a4d5c94-1c92-4035-a997-a6b86369a0f8/linked_in_profile) |
 | 2026-07 | **MongoDB Basics for Students** | MongoDB | [Verify Record](https://www.credly.com/badges/d1bad48d-237a-4939-ae0f-3d4e3fca7386/linked_in_profile) |
@@ -63,8 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07 | **Certificate of completion: Claude code 101** | Anthropic | [Verify Record](https://verify.skilljar.com/c/9x7efxjnfwkh) |
 | 2026-07 | **Certificate of completion: Claude 101** | Anthropic | [Verify Record](https://verify.skilljar.com/c/x8xevsgspbsp) |
 | 2026-07 | **Practical GitHub Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f65a8746b041584a1d9420276f46d6157bc740f417618919153ceace9696acaa) |
-| 2026-07 | **The Creative Spark: Krista Donaldson, Social Innovation Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/61a1dc4a9e7e1c1010f4a463d607cac7677e05aff0b8fcb831b6bd8bad8f1310) |
-| 2026-07 | **How to Land a Job and Grow Your Career with Carla Harris** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b0123ad9e3bd2230c5428d559bcd364ec73be3258601faa87cdf08815ce512a1) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-26.md](./linkedin-certifications-2026-07-part-26.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-28.md](./linkedin-certifications-2026-07-part-28.md)

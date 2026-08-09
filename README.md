@@ -152,7 +152,7 @@ Showing latest 10 of 520 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,297 |
+| **Total External Certifications Verified** | 1,337 |
 
 #### Recent Certifications
 
@@ -160,16 +160,16 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-07* | **Networking in Action: Build Real Connections That Accelerate Your Career** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/938a95030be5377f10fc0c93b84bd5ea05c18f4fd009326b925abaf920428cc3) |
-| *2026-07* | **Delivering and Analyzing a Software Pilot: GitHub Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2387b7333a40de8752f2080716d0aac9ee1736351c94fc8b0ae3ef42536f6857) |
-| *2026-07* | **Practical GitHub Code Search** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0a69148f2ef2e50e11ac9e4318c93b7af77806ba6c9fafcd76080af74f97ae68) |
-| *2026-07* | **Vector Search Performance** | MongoDB | [Verify Record](https://www.credly.com/badges/a89e8a08-ff7d-433a-9131-a8e2d464db34/linked_in_profile) |
-| *2026-07* | **MongoDB Encryption at Rest with BYOK** | MongoDB | [Verify Record](https://www.credly.com/badges/ea5fdc47-7f57-42a4-9829-eb7c40b0b729/linked_in_profile) |
-| *2026-07* | **Building an App with Code Agents and MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/e69b5623-374c-482a-b29f-6cee2c6714d1/linked_in_profile) |
-| *2026-07* | **Securing MongoDB Self-Managed Networking** | MongoDB | [Verify Record](https://www.credly.com/badges/0f2ed21a-e251-4566-ac7e-bf989559785b/linked_in_profile) |
-| *2026-07* | **Securing MongoDB Atlas Networking** | MongoDB | [Verify Record](https://www.credly.com/badges/74ba326f-caa2-44b0-a4b2-dd055799bebf/linked_in_profile) |
-| *2026-07* | **Deploying and Evaluating GenAI Apps with MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/2efe33a4-f77e-4714-a1b1-c8c46e72bd69/linked_in_profile) |
-| *2026-07* | **Threat-Informed Architecture** | AttackIQ | [Verify Record](https://www.credly.com/badges/2e682aba-ad5e-4f85-9f0e-87f0a4a1c5d1/linked_in_profile) |
+| *2026-08* | **Cilium Flow Encryption** | Isovalent | [Verify Record](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/linked_in_profile) |
+| *2026-08* | **Cilium Network Policies** | Isovalent | [Verify Record](https://www.credly.com/badges/22c5caa6-fc0f-4a4e-9739-a14b97edfc01/linked_in_profile) |
+| *2026-08* | **Tetragon Getting Started** | Isovalent | [Verify Record](https://www.credly.com/badges/dffe3f42-4e0a-49bd-92f7-2646e68f51eb/linked_in_profile) |
+| *2026-08* | **Isovalent Lab Champion (10 labs)** | Isovalent | [Verify Record](https://www.credly.com/badges/1aa636d3-d301-4b4b-8808-e3da552cfc0b/linked_in_profile) |
+| *2026-08* | **Cilium Ingress Controller** | Isovalent | [Verify Record](https://www.credly.com/badges/29a5efa1-d0ce-4c25-a983-f3b435be6b59/linked_in_profile) |
+| *2026-08* | **Cilium Cluster Mesh** | Isovalent | [Verify Record](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/linked_in_profile) |
+| *2026-08* | **Cilium Gateway API** | Isovalent | [Verify Record](https://www.credly.com/badges/7a20ae99-3df6-481e-8b3a-9b20d2db3dea/linked_in_profile) |
+| *2026-08* | **Continuous Security Validation Workshop** | AttackIQ | [Verify Record](https://www.credly.com/badges/132269ac-0ab7-4b20-91c4-76ed7fa3359e/linked_in_profile) |
+| *2026-08* | **Validating Defenses Quickly with Micro Emulation Plans** | AttackIQ | [Verify Record](https://www.credly.com/badges/d2d863a1-4240-48a3-83d4-e51e7b3b428c/linked_in_profile) |
+| *2026-08* | **Cloud Tech Pro - Backup** | Acronis | [Verify Record](https://www.credly.com/badges/da9a50b8-a6fc-4e2e-bf7e-35da0a65a04c/linked_in_profile) |
 <!-- LINKEDIN_END -->
 
 
