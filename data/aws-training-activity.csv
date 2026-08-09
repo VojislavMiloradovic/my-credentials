@@ -1,6 +1,6 @@
 ﻿Complete Training Activity List
 Generated on: 9. август 2026.
-Total rows: 551
+Total rows: 556
 
 Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
 [RETIRED] Amazon EKS Pre-assessment,Digital course,Retired,93,-,"March 17, 2026","March 17, 2026","March 17, 2026",30 minutes,Fundamental,English
@@ -38,6 +38,7 @@ A Day in the Life of an Everyday User with Amazon Quick,Digital course,Completed
 A day in the life of CxO with Amazon Quick,Digital course,Completed,0,-,"July 14, 2026","July 14, 2026","July 14, 2026",25 minutes,Fundamental,English
 A leader's guide to accelerating large-scale migration - AWS re:Invent 2025,Digital course,Completed,0,-,"July 27, 2026","July 27, 2026","July 27, 2026",1 hour,Fundamental,English
 A leader's guide to advanced team structures in an agentic world - AWS re:Invent 2025,Digital course,Completed,0,-,"June 2, 2026","June 2, 2026","June 2, 2026",1 hour,Fundamental,English
+Accelerate foundation model development with one-click observability in Amazon SageMaker HyperPod,Digital course,Completed,0,-,"August 9, 2026","August 9, 2026","August 9, 2026",1 hour 30 minutes,Intermediate,English
 Accelerate Generative AI Inference on Amazon SageMaker AI with G7e Instances,Digital course,Completed,0,-,"July 28, 2026","July 28, 2026","July 28, 2026",45 minutes,Intermediate,English
 Adaptive sampling with AWS X-Ray to capture critical spans,Digital course,Completed,0,-,"August 9, 2026","August 9, 2026","August 9, 2026",45 minutes,Intermediate,English
 AgentCore Browser: Secure and Scalable Web Automation with Amazon Bedrock,Digital course,Completed,0,-,"March 18, 2026","March 18, 2026","March 18, 2026",40 minutes,Fundamental,English
@@ -166,6 +167,7 @@ Amazon Transcribe Getting Started,Digital course,Completed,0,-,"March 29, 2026",
 Amazon WorkSpaces Migrations - Horizon on WorkSpaces Core,Digital course,Completed,0,-,"June 24, 2026","June 24, 2026","June 24, 2026",1 hour,Advanced,English
 Amazon WorkSpaces Migrations - Introducing Amazon WorkSpaces Core,Digital course,Completed,0,-,"August 2, 2026","August 2, 2026","August 2, 2026",1 hour,Intermediate,English
 Amazon WorkSpaces Migrations - Migration Approaches & Strategy,Digital course,Completed,0,-,"August 3, 2026","August 3, 2026","August 3, 2026",1 hour,Intermediate,English
+Amazon WorkSpaces Migrations Knowledge Badge Assessment,Digital course,Completed,98.33,-,"August 9, 2026","August 9, 2026","August 9, 2026",1 hour 30 minutes,Intermediate,English
 Amazon WorkSpaces Migrations — Additional Partner Offerings on WorkSpaces Core,Digital course,Completed,0,-,"June 24, 2026","June 24, 2026","June 24, 2026",1 hour,Intermediate,English
 An Executive's Guide to Generative AI Success,Digital course,Completed,0,-,"March 21, 2026","March 21, 2026","March 21, 2026",1 hour 30 minutes,Fundamental,English
 API Gateway Getting Started,Digital course,Completed,0,-,"March 6, 2026","March 6, 2026","March 6, 2026",1 hour,Fundamental,English
@@ -436,6 +438,7 @@ Introduction to AgentCore Harness,Digital course,Completed,0,-,"June 18, 2026","
 Introduction to AI-Driven Development Lifecycle,Digital course,Completed,0,-,"March 8, 2026","March 8, 2026","March 8, 2026",15 minutes,Fundamental,English
 Introduction to Amazon API Gateway,AWS Builder Lab,Completed,100,-,"March 14, 2026","March 14, 2026","March 14, 2026",1 hour,Fundamental,English
 Introduction to Amazon Athena,Digital course,Completed,0,-,"February 3, 2026","February 3, 2026","February 3, 2026",10 minutes,Fundamental,English
+Introduction to Amazon Aurora PostgreSQL Limitless Database,Digital course,Completed,0,-,"August 9, 2026","August 9, 2026","August 9, 2026",2 hours,Intermediate,English
 Introduction to Amazon Bedrock AgentCore Policy Security Capabilities,Digital course,Completed,0,-,"June 18, 2026","June 18, 2026","June 18, 2026",30 minutes,Fundamental,English
 Introduction to Amazon CloudFront,AWS Builder Lab,Completed,100,-,"March 14, 2026","March 14, 2026","March 14, 2026",1 hour,Fundamental,English
 Introduction to Amazon CloudFront - Part 1,Digital course,Completed,0,-,"April 23, 2026","April 23, 2026","April 23, 2026",30 minutes,Fundamental,English
@@ -505,11 +508,13 @@ Malware analysis on AWS: Setting up a secure environment,Digital course,Complete
 Managing Operations on AWS with Amazon Q Developer,Digital course,Completed,0,-,"April 25, 2026","April 25, 2026","April 25, 2026",30 minutes,Fundamental,English
 Media & Entertainment: Direct-to-Consumer and Broadcast Foundations Knowledge Badge Assessment,Digital course,Completed,88.33333333333333,-,"June 26, 2026","June 26, 2026","June 26, 2026",1 hour 30 minutes,Intermediate,English
 Media Glossary,Digital course,Completed,0,-,"March 11, 2026","March 11, 2026","March 11, 2026",30 minutes,Fundamental,English
+Migrating to Amazon MQ for RabbitMQ,Digital course,Completed,0,-,"August 9, 2026","August 9, 2026","August 9, 2026",1 hour 30 minutes,Intermediate,English
 Migrating VMware Workloads to AWS,Digital course,Completed,0,-,"March 11, 2026","March 11, 2026","March 11, 2026",1 hour,Fundamental,English
 Migration Foundations Knowledge Badge Assessment,Digital course,Completed,98.33333333333333,-,"June 27, 2026","June 27, 2026","June 27, 2026",1 hour 30 minutes,Intermediate,English
 Modernizing KYC with AWS serverless solutions and agentic AI for financial services,Digital course,Completed,0,-,"August 8, 2026","August 8, 2026","August 8, 2026",45 minutes,Intermediate,English
 Monitor .NET applications using Amazon CloudWatch Application Signals,Digital course,Completed,0,-,"March 10, 2026","March 10, 2026","March 10, 2026",1 hour,Intermediate,English
 Monitor Python applications using Amazon CloudWatch Application Signals,Digital course,Completed,0,-,"August 6, 2026","August 6, 2026","August 6, 2026",1 hour,Intermediate,English
+MVCC in PostgreSQL and Vacuum Internals,Digital course,Completed,0,-,"August 9, 2026","August 9, 2026","August 9, 2026",1 hour 15 minutes,Intermediate,English
 Network Load Balancer (NLB) Getting Started,Digital course,Completed,0,-,"April 2, 2026","April 2, 2026","April 2, 2026",1 hour,Fundamental,English
 Networking Core Knowledge Badge Assessment,Digital course,Completed,98.33333333333333,-,"June 6, 2026","June 6, 2026","June 6, 2026",1 hour 30 minutes,Intermediate,English
 Object Storage Knowledge Badge Assessment,AWS Assessment,Completed,87.5,-,"June 9, 2026","June 9, 2026","June 9, 2026",1 hour 30 minutes,Intermediate,English
