@@ -1,6 +1,6 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 551,
+  "total_count": 556,
   "badges": [
     {
       "id": "4d3535a6971307d9",
@@ -630,6 +630,24 @@
       "verification_type": "Digital course",
       "skills": [
         "A leader's guide to advanced team structures in an agentic world - AWS re:Invent 2025"
+      ]
+    },
+    {
+      "id": "a2f5891bfc2c6591",
+      "title": "Accelerate foundation model development with one-click observability in Amazon SageMaker HyperPod",
+      "name": "Accelerate foundation model development with one-click observability in Amazon SageMaker HyperPod",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-09",
+      "issued_at_date": "2026-08-09",
+      "date": "2026-08-09",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Accelerate foundation model development with one-click observability in Amazon SageMaker HyperPod"
       ]
     },
     {
@@ -2934,6 +2952,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon WorkSpaces Migrations - Migration Approaches & Strategy"
+      ]
+    },
+    {
+      "id": "f62052b28d5d1b0e",
+      "title": "Amazon WorkSpaces Migrations Knowledge Badge Assessment",
+      "name": "Amazon WorkSpaces Migrations Knowledge Badge Assessment",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-09",
+      "issued_at_date": "2026-08-09",
+      "date": "2026-08-09",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon WorkSpaces Migrations Knowledge Badge Assessment"
       ]
     },
     {
@@ -7797,6 +7833,24 @@
       ]
     },
     {
+      "id": "1061236f9a4b4a3b",
+      "title": "Introduction to Amazon Aurora PostgreSQL Limitless Database",
+      "name": "Introduction to Amazon Aurora PostgreSQL Limitless Database",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-09",
+      "issued_at_date": "2026-08-09",
+      "date": "2026-08-09",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Introduction to Amazon Aurora PostgreSQL Limitless Database"
+      ]
+    },
+    {
       "id": "bd248572719209c2",
       "title": "Introduction to Amazon Bedrock AgentCore Policy Security Capabilities",
       "name": "Introduction to Amazon Bedrock AgentCore Policy Security Capabilities",
@@ -9039,6 +9093,24 @@
       ]
     },
     {
+      "id": "1ec9b94bd0cf6b7a",
+      "title": "Migrating to Amazon MQ for RabbitMQ",
+      "name": "Migrating to Amazon MQ for RabbitMQ",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-09",
+      "issued_at_date": "2026-08-09",
+      "date": "2026-08-09",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Migrating to Amazon MQ for RabbitMQ"
+      ]
+    },
+    {
       "id": "08a694d9f3e47407",
       "title": "Migrating VMware Workloads to AWS",
       "name": "Migrating VMware Workloads to AWS",
@@ -9126,6 +9198,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Monitor Python applications using Amazon CloudWatch Application Signals"
+      ]
+    },
+    {
+      "id": "9f43c54715209dfd",
+      "title": "MVCC in PostgreSQL and Vacuum Internals",
+      "name": "MVCC in PostgreSQL and Vacuum Internals",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-09",
+      "issued_at_date": "2026-08-09",
+      "date": "2026-08-09",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "MVCC in PostgreSQL and Vacuum Internals"
       ]
     },
     {
