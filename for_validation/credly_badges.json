@@ -1,6 +1,6 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 522,
+  "total_count": 530,
   "badges": [
     {
       "id": "0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31",
@@ -12124,6 +12124,187 @@
       "skills": [
         "Artificial Intelligence (AI)",
         "Generative AI"
+      ]
+    },
+    {
+      "id": "7083b54b-a4c1-4c38-a0f0-c8487d5b6794",
+      "title": "Cilium LB-IPAM & L2",
+      "name": "Cilium LB-IPAM & L2",
+      "issuer": "issued by Isovalent",
+      "issuer_name": "issued by Isovalent",
+      "issued_at": "2026-08-10",
+      "issued_at_date": "2026-08-10",
+      "date": "2026-08-10",
+      "image_url": "https://images.credly.com/images/decfc438-d202-4b39-909d-286e7ddba5b8/tempfile20250605-82-lddt90.png",
+      "verify_url": "https://www.credly.com/badges/7083b54b-a4c1-4c38-a0f0-c8487d5b6794/public_url",
+      "url": "https://www.credly.com/badges/7083b54b-a4c1-4c38-a0f0-c8487d5b6794/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "ARP",
+        "Cilium",
+        "Containers",
+        "eBPF",
+        "Kubernetes",
+        "Load Balancer",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "d181f780-e6ee-4fef-8bd1-df291a355438",
+      "title": "Cilium LoadBalancer IPAM and BGP Service Advertisement",
+      "name": "Cilium LoadBalancer IPAM and BGP Service Advertisement",
+      "issuer": "issued by Isovalent",
+      "issuer_name": "issued by Isovalent",
+      "issued_at": "2026-08-10",
+      "issued_at_date": "2026-08-10",
+      "date": "2026-08-10",
+      "image_url": "https://images.credly.com/images/49fec8fc-fe83-4a3e-834b-0dfa938e3ad8/tempfile20250605-58-43yx6m.png",
+      "verify_url": "https://www.credly.com/badges/d181f780-e6ee-4fef-8bd1-df291a355438/public_url",
+      "url": "https://www.credly.com/badges/d181f780-e6ee-4fef-8bd1-df291a355438/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "BGP",
+        "Cilium",
+        "Containers",
+        "Hubble",
+        "IPAM",
+        "Kubernetes",
+        "LoadBalancer",
+        "Networking",
+        "Open Source",
+        "Service Annotations"
+      ]
+    },
+    {
+      "id": "816e8e98-e6f1-4a8a-b807-6829223cd453",
+      "title": "Cloud Tech Pro - Email Archiving",
+      "name": "Cloud Tech Pro - Email Archiving",
+      "issuer": "issued by Acronis",
+      "issuer_name": "issued by Acronis",
+      "issued_at": "2026-08-10",
+      "issued_at_date": "2026-08-10",
+      "date": "2026-08-10",
+      "image_url": "https://images.credly.com/images/dfbdfccc-bc05-4fbb-84d7-d204415ba2dd/blob",
+      "verify_url": "https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/public_url",
+      "url": "https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Archiving Files",
+        "Email Archiving",
+        "Professional"
+      ]
+    },
+    {
+      "id": "1bf4cc99-349a-43d4-a520-4fcda2a5df27",
+      "title": "Cloud Tech Professional EDR",
+      "name": "Cloud Tech Professional EDR",
+      "issuer": "issued by Acronis",
+      "issuer_name": "issued by Acronis",
+      "issued_at": "2026-08-10",
+      "issued_at_date": "2026-08-10",
+      "date": "2026-08-10",
+      "image_url": "https://images.credly.com/images/55723d51-023f-4a58-aceb-7cc18ec69a1a/blob",
+      "verify_url": "https://www.credly.com/badges/1bf4cc99-349a-43d4-a520-4fcda2a5df27/public_url",
+      "url": "https://www.credly.com/badges/1bf4cc99-349a-43d4-a520-4fcda2a5df27/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cybersecurity",
+        "Endpoint Detection And Response (EDR)",
+        "Security"
+      ]
+    },
+    {
+      "id": "eb7a1881-5a18-499b-9e7f-2b8a2613c283",
+      "title": "Foundations: Kubernetes Networking & Cilium",
+      "name": "Foundations: Kubernetes Networking & Cilium",
+      "issuer": "issued by Isovalent",
+      "issuer_name": "issued by Isovalent",
+      "issued_at": "2026-08-10",
+      "issued_at_date": "2026-08-10",
+      "date": "2026-08-10",
+      "image_url": "https://images.credly.com/images/d0e84df5-83ab-438b-b51f-c464c78faa52/tempfile20250605-58-6rrhp1.png",
+      "verify_url": "https://www.credly.com/badges/eb7a1881-5a18-499b-9e7f-2b8a2613c283/public_url",
+      "url": "https://www.credly.com/badges/eb7a1881-5a18-499b-9e7f-2b8a2613c283/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "Enterprise",
+        "Kubernetes",
+        "Networking"
+      ]
+    },
+    {
+      "id": "adb39fe6-553a-4f2b-aed7-2748d666948f",
+      "title": "Golden Signals with Hubble and Grafana",
+      "name": "Golden Signals with Hubble and Grafana",
+      "issuer": "issued by Isovalent",
+      "issuer_name": "issued by Isovalent",
+      "issued_at": "2026-08-10",
+      "issued_at_date": "2026-08-10",
+      "date": "2026-08-10",
+      "image_url": "https://images.credly.com/images/6d25f471-7bb4-4be5-ad1b-45e52d1200b0/tempfile20260507-65-yfxiv2.png",
+      "verify_url": "https://www.credly.com/badges/adb39fe6-553a-4f2b-aed7-2748d666948f/public_url",
+      "url": "https://www.credly.com/badges/adb39fe6-553a-4f2b-aed7-2748d666948f/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "eBPF",
+        "Enterprise",
+        "Grafana",
+        "Hubble",
+        "Kubernetes",
+        "L7",
+        "Networking",
+        "Observability",
+        "OpenTelemetry",
+        "Prometheus"
+      ]
+    },
+    {
+      "id": "2e8b7ceb-8d8c-4c3b-bf12-e183a5d4b47d",
+      "title": "Maturing Threat-Informed Defense with M3TID",
+      "name": "Maturing Threat-Informed Defense with M3TID",
+      "issuer": "issued by AttackIQ",
+      "issuer_name": "issued by AttackIQ",
+      "issued_at": "2026-08-10",
+      "issued_at_date": "2026-08-10",
+      "date": "2026-08-10",
+      "image_url": "https://images.credly.com/images/a4087ac2-8347-47cd-bcb5-86a999929bfc/image.png",
+      "verify_url": "https://www.credly.com/badges/2e8b7ceb-8d8c-4c3b-bf12-e183a5d4b47d/public_url",
+      "url": "https://www.credly.com/badges/2e8b7ceb-8d8c-4c3b-bf12-e183a5d4b47d/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cybersecurity Maturity",
+        "Cyber Threat Intelligence",
+        "Threat-Informed Defense"
+      ]
+    },
+    {
+      "id": "4490aa99-d5e9-4a20-9d66-e996f670f34f",
+      "title": "Unlocking the Power of CTI Blueprints",
+      "name": "Unlocking the Power of CTI Blueprints",
+      "issuer": "issued by AttackIQ",
+      "issuer_name": "issued by AttackIQ",
+      "issued_at": "2026-08-10",
+      "issued_at_date": "2026-08-10",
+      "date": "2026-08-10",
+      "image_url": "https://images.credly.com/images/5bd21797-0e09-4df4-9b89-5d4f83ad0aac/image.png",
+      "verify_url": "https://www.credly.com/badges/4490aa99-d5e9-4a20-9d66-e996f670f34f/public_url",
+      "url": "https://www.credly.com/badges/4490aa99-d5e9-4a20-9d66-e996f670f34f/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "ATT&CK Framework",
+        "Cyber Threat Intelligence",
+        "Reporting Tools",
+        "Threat Intelligence Analyst"
       ]
     }
   ]

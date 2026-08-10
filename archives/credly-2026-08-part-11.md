@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 11 of 11
-date_range: 2026-08-04 to 2026-08-09
-total_entries: 26
+date_range: 2026-08-04 to 2026-08-10
+total_entries: 34
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md
 ---
 
@@ -12,6 +12,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-10 | [Cilium LB-IPAM & L2](https://www.credly.com/badges/7083b54b-a4c1-4c38-a0f0-c8487d5b6794/public_url) | issued by Isovalent | Credly Verified Badge |
+| 2026-08-10 | [Cilium LoadBalancer IPAM and BGP Service Advertisement](https://www.credly.com/badges/d181f780-e6ee-4fef-8bd1-df291a355438/public_url) | issued by Isovalent | Credly Verified Badge |
+| 2026-08-10 | [Cloud Tech Pro - Email Archiving](https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-08-10 | [Cloud Tech Professional EDR](https://www.credly.com/badges/1bf4cc99-349a-43d4-a520-4fcda2a5df27/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-08-10 | [Foundations: Kubernetes Networking & Cilium](https://www.credly.com/badges/eb7a1881-5a18-499b-9e7f-2b8a2613c283/public_url) | issued by Isovalent | Credly Verified Badge |
+| 2026-08-10 | [Golden Signals with Hubble and Grafana](https://www.credly.com/badges/adb39fe6-553a-4f2b-aed7-2748d666948f/public_url) | issued by Isovalent | Credly Verified Badge |
+| 2026-08-10 | [Maturing Threat-Informed Defense with M3TID](https://www.credly.com/badges/2e8b7ceb-8d8c-4c3b-bf12-e183a5d4b47d/public_url) | issued by AttackIQ | Credly Verified Badge |
+| 2026-08-10 | [Unlocking the Power of CTI Blueprints](https://www.credly.com/badges/4490aa99-d5e9-4a20-9d66-e996f670f34f/public_url) | issued by AttackIQ | Credly Verified Badge |
 | 2026-08-09 | [AWS Knowledge: Amazon WorkSpaces Migrations - Training Badge](https://www.credly.com/badges/0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-08-09 | [Create and Manage Cloud Spanner Instances Skill Badge](https://www.credly.com/badges/22ddf09a-7e02-44c6-9a92-4c25ae5e05f0/public_url) | issued by Google Cloud | Credly Verified Badge |
 | 2026-08-08 | [Cilium Flow Encryption](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/public_url) | issued by Isovalent | Credly Verified Badge |
