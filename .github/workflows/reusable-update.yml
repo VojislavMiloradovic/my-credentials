@@ -34,8 +34,33 @@ jobs:
           version: '0.12.3'
 
       - name: Install Dependencies
-        run: uv sync --frozen
+        run: uv sync --frozen --all-extras
 
+      # --- PRE-FLIGHT HEALTH & SECURITY CHECKS ---
+      - name: Sanitize Microsoft Learn Data (If Present)
+        run: |
+          if [ -f "microsoft-learn.json" ]; then
+            uv run python sanitize_ms_export.py microsoft-learn.json
+          fi
+          if [ -f "data/microsoft-learn.json" ]; then
+            uv run python sanitize_ms_export.py data/microsoft-learn.json
+          fi
+
+      - name: Run Ruff Linter
+        run: uv run ruff check *.py
+
+      - name: Validate Data JSON Integrity
+        run: |
+          uv run python -c "
+          import glob, json
+          json_files = glob.glob('data/*.json') + glob.glob('*.json')
+          for f in json_files:
+              with open(f, 'r', encoding='utf-8') as fp:
+                  json.load(fp)
+          print(f'Successfully validated syntax for {len(json_files)} JSON file(s).')
+          "
+
+      # --- EXECUTION & UPDATE PHASE ---
       - name: Run Platform Script
         run: uv run python ${{ inputs.script_name }}
 
@@ -45,6 +70,7 @@ jobs:
       - name: Generate LLMs.txt Directory Files
         run: uv run python generate_llms_txt.py
 
+      # --- REBASE SAFE COMMIT & PUSH ---
       - name: Commit and Push Changes (Rebase Safe)
         run: |
           git config --global user.name "github-actions[bot]"
