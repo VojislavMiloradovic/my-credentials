@@ -32,10 +32,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger("credly_updater")
 
-# Configuration Constants
+# Configuration Constants & Canonical Paths
 CREDLY_USER = os.getenv("CREDLY_USER", "vojislavmiloradovic")
-OUTPUT_FILE = os.getenv("OUTPUT_FILE", "credly_badges.json")
 VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
+OUTPUT_FILENAME = "credly_badges.json"
+OUTPUT_FILE = os.getenv("OUTPUT_FILE", os.path.join(VALIDATION_DIR, OUTPUT_FILENAME))
 ARCHIVE_MONOLITH = os.path.join("archives", "credly-complete.md")
 
 # Anomaly Guard Tolerance
@@ -170,8 +171,9 @@ def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int
     """Evaluates baseline record count from existing JSON or monolith archive markdown."""
     candidate_json_paths = [
         json_path,
-        "credly_badges.json",
-        os.path.join("data", "credly_badges.json"),
+        os.path.join(VALIDATION_DIR, OUTPUT_FILENAME),
+        OUTPUT_FILENAME,
+        os.path.join("data", OUTPUT_FILENAME),
     ]
     for path in candidate_json_paths:
         if os.path.exists(path):
@@ -225,7 +227,7 @@ def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
 # ==============================================================================
 
 def parse_credly_badges_from_json(json_path: str) -> list[dict]:
-    """Reads existing Credly badge entries directly from local JSON file."""
+    """Reads existing Credly badge entries directly from specified JSON file."""
     if not os.path.exists(json_path):
         return []
 
@@ -252,11 +254,12 @@ def parse_credly_badges_from_json(json_path: str) -> list[dict]:
 
 
 def load_existing_local_badges() -> list[dict]:
-    """Loads existing local badges from storage prior to API fetch to preserve historical data."""
+    """Loads existing local badges from for_validation directory prior to API fetch."""
     candidates = [
         OUTPUT_FILE,
-        os.path.join(VALIDATION_DIR, OUTPUT_FILE),
-        os.path.join("data", OUTPUT_FILE),
+        os.path.join(VALIDATION_DIR, OUTPUT_FILENAME),
+        OUTPUT_FILENAME,
+        os.path.join("data", OUTPUT_FILENAME),
     ]
     for path in candidates:
         if os.path.exists(path):
@@ -455,12 +458,11 @@ def main():
     logger.info("Starting Credly API Pipeline with Pydantic & Loss Guards...")
 
     # Safe directory initialization
-    output_dir = VALIDATION_DIR
-    if os.path.exists(output_dir) and not os.path.isdir(output_dir):
-        logger.warning(f"⚠️ '{output_dir}' exists as a file. Removing it to create a directory.")
-        os.remove(output_dir)
+    if os.path.exists(VALIDATION_DIR) and not os.path.isdir(VALIDATION_DIR):
+        logger.warning(f"⚠️ '{VALIDATION_DIR}' exists as a file. Removing it to create a directory.")
+        os.remove(VALIDATION_DIR)
 
-    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(VALIDATION_DIR, exist_ok=True)
 
     # 1. Load existing local badges BEFORE calling API
     local_badges = load_existing_local_badges()
@@ -478,7 +480,7 @@ def main():
         logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
         sys.exit(1)
 
-    # 5. Pydantic Payload Validation & File Dump
+    # 5. Pydantic Payload Validation & File Dump strictly into for_validation/
     payload_dict = {
         "credly_user": CREDLY_USER,
         "total_count": len(unique_badges),
@@ -488,13 +490,8 @@ def main():
     try:
         validated_payload = CredlyArchivePayloadModel(**payload_dict)
 
-        # Save primary output JSON file
+        # Save output JSON file inside for_validation directory ONLY
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write(validated_payload.model_dump_json(indent=2))
-
-        # Save validation copy into for_validation directory
-        val_path = os.path.join(output_dir, OUTPUT_FILE)
-        with open(val_path, "w", encoding="utf-8") as f:
             f.write(validated_payload.model_dump_json(indent=2))
 
         logger.info(f"🎉 Persistence complete: '{OUTPUT_FILE}' updated ({len(unique_badges)} badges).")
