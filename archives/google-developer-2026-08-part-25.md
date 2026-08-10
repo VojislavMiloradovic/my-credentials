@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Developer Profile
 chunk_part: 25 of 25
-date_range: 2026-07-07 to 2026-08-07
-total_entries: 49
+date_range: 2026-07-07 to 2026-08-10
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-25.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-10 | **Google Workspace MCP server connectors in Gemini Enterprise apps** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-07 | **Developing with OpenThread APIs** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-07 | **Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-07 | **Build a Thread Network with the B91 Development Board and OpenThread** | Verified Google Developer granular learning activity module milestone. |
