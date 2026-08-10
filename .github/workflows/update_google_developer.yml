@@ -6,6 +6,11 @@ on:
     - cron: '0 0 */2 * *'
   workflow_dispatch: # Allows manual triggering from the GitHub Actions tab
 
+# Enforce sequential workflow execution to prevent git push collisions
+concurrency:
+  group: git-push-main
+  cancel-in-progress: false
+
 jobs:
   update-profile:
     runs-on: ubuntu-latest
@@ -37,10 +42,13 @@ jobs:
       - name: Generate LLMs.txt Directory Files
         run: uv run python generate_llms_txt.py
 
-      - name: Commit and Push Changes
+      - name: Commit and Push Changes (Rebase Safe)
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --staged --quiet || git commit -m "chore: auto-update platform data, json-ld, and llms.txt"
-          git push
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: auto-update platform data, json-ld, and llms.txt"
+            git pull --rebase origin main
+            git push
+          fi
