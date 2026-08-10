@@ -1,43 +1,17 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 8 of 10
-date_range: 2026-07-05 to 2026-07-15
+chunk_part: 8 of 11
+date_range: 2026-06-27 to 2026-07-09
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-07-part-08.md
 ---
 
 # Credly Verified Credentials — Part 08
 
-> **Navigation:** Prev: [credly-2026-07-part-07.md](./credly-2026-07-part-07.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-09.md](./credly-2026-07-part-09.md) | [Complete Archive](./credly-complete.md)
+> **Navigation:** Prev: [credly-2026-06-part-07.md](./credly-2026-06-part-07.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-09.md](./credly-2026-07-part-09.md) | [Complete Archive](./credly-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-07-15 | [Building AI-Powered Search with MongoDB Vector Search](https://www.credly.com/badges/106d3801-84c1-4057-8474-6450f2a84b33/public_url) | issued by MongoDB | Credly Verified Badge |
-| 2026-07-15 | [Cloud Tech Professional Disaster Recovery](https://www.credly.com/badges/b1960c54-6ac1-4206-8631-f489b925b6eb/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-07-15 | [Strategic Cybersecurity Management](https://www.credly.com/badges/e0cfb483-3bab-4f21-b48e-896e6e02a2de/public_url) | issued by AttackIQ | Credly Verified Badge |
-| 2026-07-14 | [Acronis Cyber Protect – Endpoint Management Basics](https://www.credly.com/badges/e9ff04b3-1b9b-40be-a241-a663e3a6a251/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-07-14 | [AWS Knowledge: AI Basics - Training Badge](https://www.credly.com/badges/fbb02508-656a-4241-b49c-182dcd8f43ee/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-07-14 | [FIPS Frontrunner](https://www.credly.com/badges/93ad4964-81b4-45ad-b613-688f0505a759/public_url) | issued by Chainguard | Credly Verified Badge |
-| 2026-07-14 | [From Relational Model (SQL) to MongoDBs Document Model](https://www.credly.com/badges/b4e44a5b-2f20-4388-91fa-0e84a1dff433/public_url) | issued by MongoDB | Credly Verified Badge |
-| 2026-07-14 | [Uniting Threat and Risk Management with NIST 800-53 and MITRE ATT&CK](https://www.credly.com/badges/5a3154e0-56dc-49d6-bd27-035a773fc3eb/public_url) | issued by AttackIQ | Credly Verified Badge |
-| 2026-07-13 | [Introduction To FIN6 Emulation Plans](https://www.credly.com/badges/5f450636-c464-4b68-8bb8-3dadf9ef77b3/public_url) | issued by AttackIQ | Credly Verified Badge |
-| 2026-07-13 | [MongoDB Basics for Students](https://www.credly.com/badges/d1bad48d-237a-4939-ae0f-3d4e3fca7386/public_url) | issued by MongoDB | Credly Verified Badge |
-| 2026-07-13 | [OPSWAT Introduction to Critical Infrastructure Protection (ICIP)](https://www.credly.com/badges/0a4d5c94-1c92-4035-a997-a6b86369a0f8/public_url) | issued by OPSWAT | Credly Verified Badge |
-| 2026-07-12 | [Acronis Cyber Frame Basic](https://www.credly.com/badges/82c5caa9-aa5c-4d6b-ae63-fb14b8b8dd4a/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-07-12 | [Acronis Cyber Protect – Backup and Recovery Basics](https://www.credly.com/badges/6fb18152-a9ab-41af-9013-ed28413e1c46/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-07-12 | [AWS Educate Machine Learning Foundations - Training Badge](https://www.credly.com/badges/fabe8a28-df63-4218-8d33-551e91c305bb/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-07-11 | [AI Agent Builder](https://www.credly.com/badges/fee7b9ad-5767-4aa5-add5-8805f835bd06/public_url) | issued by Make | Credly Verified Badge |
-| 2026-07-11 | [AI Automation Explorer](https://www.credly.com/badges/99c4064f-40d2-4f1b-8378-0d00d4c74be8/public_url) | issued by Make | Credly Verified Badge |
-| 2026-07-11 | [AWS Educate Introduction to Cloud 101 - Training Badge](https://www.credly.com/badges/d4422463-a5e9-4133-ac19-c9af85817a0b/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-07-11 | [Foundations of Breach & Attack Simulation](https://www.credly.com/badges/2df6ac75-abd5-4cdb-85ef-eb44b383b890/public_url) | issued by AttackIQ | Credly Verified Badge |
-| 2026-07-11 | [Make Advanced](https://www.credly.com/badges/18807af5-07e1-4aec-aa9a-1ba7aa9ad7ff/public_url) | issued by Make | Credly Verified Badge |
-| 2026-07-11 | [Make Intermediate](https://www.credly.com/badges/e0e50130-c575-43db-8cee-0e89a09f6f86/public_url) | issued by Make | Credly Verified Badge |
-| 2026-07-10 | [Build a Data Warehouse with BigQuery Skill Badge](https://www.credly.com/badges/58efd57f-8763-430e-9c85-9ae21b4be53c/public_url) | issued by Google Cloud | Credly Verified Badge |
-| 2026-07-09 | [Cloud FinOps](https://www.credly.com/badges/1a4b9280-a856-4f4b-868b-b1a727ce03fb/public_url) | issued by Intel | Credly Verified Badge |
-| 2026-07-09 | [Cloud Tech Associate Advanced Data Loss Prevention](https://www.credly.com/badges/1e7b88fd-f5b2-4563-9cb8-6815ee1dfedc/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-07-09 | [Foundations of Purple Teaming](https://www.credly.com/badges/1ae8e7ed-2bc5-48c6-87e3-c8a427c96c86/public_url) | issued by AttackIQ | Credly Verified Badge |
-| 2026-07-09 | [Intel® Xeon® 6 Processor Family Essentials](https://www.credly.com/badges/11bd816c-b1e7-4b97-8c4b-ca8c88793e1e/public_url) | issued by Intel | Credly Verified Badge |
-| 2026-07-09 | [Make Basics](https://www.credly.com/badges/eb9617cb-496e-443f-ada3-faa52bfcf0a4/public_url) | issued by Make | Credly Verified Badge |
 | 2026-07-09 | [Make Foundation](https://www.credly.com/badges/0d4bdacd-4259-4da2-b840-2ac5ae64f097/public_url) | issued by Make | Credly Verified Badge |
 | 2026-07-09 | [Principles of AI Transformation](https://www.credly.com/badges/dea04841-c966-4353-9ede-2aa009ec2426/public_url) | issued by Intel | Credly Verified Badge |
 | 2026-07-09 | [Well-Architected Proficient](https://www.credly.com/badges/5956f2ee-34a1-400c-8d10-a6a9d75a08a8/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
@@ -63,7 +37,33 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-05 | [Model in Process Designer](https://www.credly.com/badges/5acece33-4aa8-462f-ad36-1a76aef6fc8a/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-07-05 | [Sustainability Base Camper](https://www.credly.com/badges/4675aa36-2855-4b8c-8f21-eab4d065685e/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-07-05 | [Sustainability Business Bootcamper](https://www.credly.com/badges/fd237169-9b1c-4d4a-83fb-62c33551b563/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-07-03 | [Mitigate Threats and Vulnerabilities with Security Command Center Skill Badge](https://www.credly.com/badges/0daa2483-3793-42a7-afb0-4d338d3725bc/public_url) | issued by Google Cloud | Credly Verified Badge |
+| 2026-07-02 | [AWS SimuLearn - AI Practitioner - Training Badge](https://www.credly.com/badges/bf88d187-0e8f-44cc-bec9-7e9e69115951/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-07-02 | [Cloud Sales Associate Advanced Management](https://www.credly.com/badges/7a16d6a7-7f4a-43e0-8ddb-fbcb300a8822/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-07-02 | [Configure Database Integration for Okta Privileged Access](https://www.credly.com/badges/eb355e8c-609f-45e9-94dd-f86b7788027e/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-07-02 | [Manage Change and Scale Adoption](https://www.credly.com/badges/06895ebe-457b-40c8-8c8d-336b96da8ac4/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-07-02 | [Process Automation Concepts](https://www.credly.com/badges/da7e7652-ed54-4938-b484-e509978ae444/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-07-02 | [Process Mining Audit Professional](https://www.credly.com/badges/f2f7155c-98d7-40ee-8c4d-6a6fd43667ab/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-07-02 | [Use and Interpret Views](https://www.credly.com/badges/98c3a33b-f27a-4850-84b1-dd59f013f830/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-07-01 | [Build Infrastructure with Terraform on Google Cloud Skill Badge](https://www.credly.com/badges/35059bf2-e867-46eb-95b6-5ef733207698/public_url) | issued by Google Cloud | Credly Verified Badge |
+| 2026-06-30 | [Discovering Entrepreneurship](https://www.credly.com/badges/e0ae2fb9-9f66-424a-a990-8cca00679943/public_url) | issued by Cisco | Credly Verified Badge |
+| 2026-06-30 | [Build Action Flows](https://www.credly.com/badges/44ae4fe8-2731-49a9-9f56-d1570fe1929e/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-30 | [Cloud Tech Associate Advanced Security + EDR](https://www.credly.com/badges/d10714da-78fa-47cd-8697-29e5f9154317/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-06-30 | [Get Data into Celonis](https://www.credly.com/badges/81a7aff4-f3b9-4a3e-9a17-b3a01fe5a8a8/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-30 | [Process Mining - From Theory to Execution](https://www.credly.com/badges/98d698c4-3ab6-4280-a13c-decb2a975a90/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-30 | [Set Up an App Dev Environment on Google Cloud Skill Badge](https://www.credly.com/badges/43021c74-b7bc-4226-a740-e9ffa98089d7/public_url) | issued by Google Cloud | Credly Verified Badge |
+| 2026-06-30 | [Write PQL Queries](https://www.credly.com/badges/4d55a0a8-12a1-4bd6-b480-04adeaa7e320/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-29 | [Academic Process Mining Fundamentals](https://www.credly.com/badges/20201bb7-c784-40de-99ab-d72dc8147145/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-29 | [Celonis AI Foundations](https://www.credly.com/badges/584ca505-5e6b-4d33-ae7e-be95f464c2eb/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-29 | [Cloud Tech Associate Advanced Management](https://www.credly.com/badges/30b95128-ad8f-470c-85e7-e00a4ceba43b/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-06-29 | [Create and Deliver Demos](https://www.credly.com/badges/b65bf69a-ce07-487d-b439-fafad1ee79d9/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-29 | [Deliver Business Value with Celonis](https://www.credly.com/badges/897bc772-848b-40cc-8a6e-315c76aec649/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-29 | [Implement Passwordless Authentication](https://www.credly.com/badges/b5aeea2a-0424-47c4-87d4-ea6a6acd3bad/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-29 | [Manage Your Tenant with Auth0 MCP Server](https://www.credly.com/badges/c9da5f3b-b75b-43d4-9e6d-d291b9504fe3/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-29 | [Review and Interpret Analyses](https://www.credly.com/badges/25472282-590d-4f27-9fda-6f344e2fd901/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-28 | [Implement Speech and Language Solutions with Pre-trained APIs](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5/public_url) | issued by Google Cloud | Credly Verified Badge |
+| 2026-06-27 | [AWS Knowledge: Migration Foundations - Training Badge](https://www.credly.com/badges/c6d0351c-5227-4931-8bec-3d4789d4fe0e/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 
 ---
-> **Navigation:** Prev: [credly-2026-07-part-07.md](./credly-2026-07-part-07.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-09.md](./credly-2026-07-part-09.md)
+> **Navigation:** Prev: [credly-2026-06-part-07.md](./credly-2026-06-part-07.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-09.md](./credly-2026-07-part-09.md)
 

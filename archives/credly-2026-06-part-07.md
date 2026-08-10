@@ -1,9 +1,9 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 7 of 10
-date_range: 2026-06-22 to 2026-07-03
-total_entries: 50
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-07-part-07.md
+chunk_part: 7 of 11
+date_range: 2026-06-17 to 2026-06-27
+total_entries: 48
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-06-part-07.md
 ---
 
 # Credly Verified Credentials — Part 07
@@ -12,32 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-07-03 | [Mitigate Threats and Vulnerabilities with Security Command Center Skill Badge](https://www.credly.com/badges/0daa2483-3793-42a7-afb0-4d338d3725bc/public_url) | issued by Google Cloud | Credly Verified Badge |
-| 2026-07-02 | [AWS SimuLearn - AI Practitioner - Training Badge](https://www.credly.com/badges/bf88d187-0e8f-44cc-bec9-7e9e69115951/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-07-02 | [Cloud Sales Associate Advanced Management](https://www.credly.com/badges/7a16d6a7-7f4a-43e0-8ddb-fbcb300a8822/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-07-02 | [Configure Database Integration for Okta Privileged Access](https://www.credly.com/badges/eb355e8c-609f-45e9-94dd-f86b7788027e/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-07-02 | [Manage Change and Scale Adoption](https://www.credly.com/badges/06895ebe-457b-40c8-8c8d-336b96da8ac4/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-07-02 | [Process Automation Concepts](https://www.credly.com/badges/da7e7652-ed54-4938-b484-e509978ae444/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-07-02 | [Process Mining Audit Professional](https://www.credly.com/badges/f2f7155c-98d7-40ee-8c4d-6a6fd43667ab/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-07-02 | [Use and Interpret Views](https://www.credly.com/badges/98c3a33b-f27a-4850-84b1-dd59f013f830/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-07-01 | [Build Infrastructure with Terraform on Google Cloud Skill Badge](https://www.credly.com/badges/35059bf2-e867-46eb-95b6-5ef733207698/public_url) | issued by Google Cloud | Credly Verified Badge |
-| 2026-06-30 | [Discovering Entrepreneurship](https://www.credly.com/badges/e0ae2fb9-9f66-424a-a990-8cca00679943/public_url) | issued by Cisco | Credly Verified Badge |
-| 2026-06-30 | [Build Action Flows](https://www.credly.com/badges/44ae4fe8-2731-49a9-9f56-d1570fe1929e/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-30 | [Cloud Tech Associate Advanced Security + EDR](https://www.credly.com/badges/d10714da-78fa-47cd-8697-29e5f9154317/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-06-30 | [Get Data into Celonis](https://www.credly.com/badges/81a7aff4-f3b9-4a3e-9a17-b3a01fe5a8a8/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-30 | [Process Mining - From Theory to Execution](https://www.credly.com/badges/98d698c4-3ab6-4280-a13c-decb2a975a90/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-30 | [Set Up an App Dev Environment on Google Cloud Skill Badge](https://www.credly.com/badges/43021c74-b7bc-4226-a740-e9ffa98089d7/public_url) | issued by Google Cloud | Credly Verified Badge |
-| 2026-06-30 | [Write PQL Queries](https://www.credly.com/badges/4d55a0a8-12a1-4bd6-b480-04adeaa7e320/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-29 | [Academic Process Mining Fundamentals](https://www.credly.com/badges/20201bb7-c784-40de-99ab-d72dc8147145/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-29 | [Celonis AI Foundations](https://www.credly.com/badges/584ca505-5e6b-4d33-ae7e-be95f464c2eb/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-29 | [Cloud Tech Associate Advanced Management](https://www.credly.com/badges/30b95128-ad8f-470c-85e7-e00a4ceba43b/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-06-29 | [Create and Deliver Demos](https://www.credly.com/badges/b65bf69a-ce07-487d-b439-fafad1ee79d9/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-29 | [Deliver Business Value with Celonis](https://www.credly.com/badges/897bc772-848b-40cc-8a6e-315c76aec649/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-29 | [Implement Passwordless Authentication](https://www.credly.com/badges/b5aeea2a-0424-47c4-87d4-ea6a6acd3bad/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-06-29 | [Manage Your Tenant with Auth0 MCP Server](https://www.credly.com/badges/c9da5f3b-b75b-43d4-9e6d-d291b9504fe3/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-06-29 | [Review and Interpret Analyses](https://www.credly.com/badges/25472282-590d-4f27-9fda-6f344e2fd901/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-28 | [Implement Speech and Language Solutions with Pre-trained APIs](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5/public_url) | issued by Google Cloud | Credly Verified Badge |
-| 2026-06-27 | [AWS Knowledge: Migration Foundations - Training Badge](https://www.credly.com/badges/c6d0351c-5227-4931-8bec-3d4789d4fe0e/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-06-27 | [Celonis Foundations](https://www.credly.com/badges/e2811911-4464-4eb1-9981-681c751363bf/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-06-27 | [Cloud Tech Associate Advanced Disaster Recovery](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937/public_url) | issued by Acronis | Credly Verified Badge |
 | 2026-06-27 | [Get Started with Auth0 Tenants](https://www.credly.com/badges/a626c5ef-b24c-4dce-be69-548d51377e78/public_url) | issued by Okta | Credly Verified Badge |
@@ -62,6 +36,30 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-22 | [Chainguard AI/ML Guardian](https://www.credly.com/badges/d2cacfac-d281-4064-b53b-574c5e6aeb63/public_url) | issued by Chainguard | Credly Verified Badge |
 | 2026-06-22 | [AWS Knowledge: AI Driven Development Lifecycle Foundations – Training Badge](https://www.credly.com/badges/f1880883-9103-4d1b-8857-012568263bb3/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-06-22 | [Intro to Acronis Cyber Protect](https://www.credly.com/badges/95c18649-2dd7-44ca-bddc-7285bb443923/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-06-21 | [LFD123: Open Source RT-Thread RTOS on RISC-V](https://www.credly.com/badges/2482190c-9a4b-4272-a75a-9e758f185c23/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-21 | [LFD140: GitHub for Open Standards Development](https://www.credly.com/badges/3d6db85f-b193-4d6c-9431-9c78f1f8e253/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-21 | [LFEL1004: Authentication & Authorization for Web/API](https://www.credly.com/badges/697a5045-42c3-4df6-be0a-660972953e02/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-21 | [LFS184: Introduction to JavaScript Security](https://www.credly.com/badges/adbfc39b-1a5a-4225-80bc-0ee44b06bcd5/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-21 | [Use APIs to Work with Cloud Storage Skill Badge](https://www.credly.com/badges/3a261bec-3e3f-41ca-b362-3eaf9f06bd90/public_url) | issued by Google Cloud | Credly Verified Badge |
+| 2026-06-21 | [The Basics of Google Cloud Compute Skill Badge](https://www.credly.com/badges/1add8a23-2f6c-4308-bcd7-39c83fcc42f6/public_url) | issued by Google Cloud | Credly Verified Badge |
+| 2026-06-20 | [AWS Knowledge: Amazon ECS - Training Badge](https://www.credly.com/badges/6b61161d-dd36-4991-b23a-8ec2b7c96368/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-06-20 | [Brand Your Okta Customer Identity Experience](https://www.credly.com/badges/ef277f59-d9a8-464c-88be-5e92dcb590a2/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-20 | [Implement B2C Self-Service Registration with Okta](https://www.credly.com/badges/50cbbb61-b545-4f07-b122-39494ae2b6f6/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-20 | [M365 Basic Course](https://www.credly.com/badges/ddd3f99a-a3bd-44e6-8916-3b27b50cc8e4/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-06-19 | [LFC120: Leading High-Performance Working Group Meetings](https://www.credly.com/badges/d1bc4d63-e2c5-4d32-b281-089f9b653a12/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-19 | [LFD141: IT Specification Basics for New Developers](https://www.credly.com/badges/bbc99675-45d1-4af8-b9df-90f47260bd68/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-19 | [LFS120: Conversational AI: Ensuring Compliance and Mitigating Risks](https://www.credly.com/badges/63f7d08a-0b8e-4020-bd2a-987bd528444a/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-19 | [LFS148: Getting Started with OpenTelemetry](https://www.credly.com/badges/85321abd-62c6-4b89-8d3f-a6ca51383a27/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-18 | [AWS Knowledge: Amazon EKS - Training Badge](https://www.credly.com/badges/a56b19c1-ecf5-4bf0-b66e-1849a18b9722/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-06-18 | [Intro to Acronis](https://www.credly.com/badges/9e744ff2-c093-46d2-adba-97b5f1c92be2/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-06-18 | [Protect Your API Endpoints with Auth0](https://www.credly.com/badges/7a85c1f9-c3ec-42d2-a898-8ca954ed58bf/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-18 | [Secure Applications with Auth0 Attack Protection](https://www.credly.com/badges/eb46f4ee-e054-47be-bdec-ce97fa77fcd6/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-17 | [LFC112: Creating Effective Documentation for Developers](https://www.credly.com/badges/74c24889-addb-48cd-8539-b9484742e114/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-17 | [LFC114: Remote Work at Scale](https://www.credly.com/badges/e180e574-1bfe-4afb-a7ff-dce17455e64c/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-17 | [LFS147: Introduction to AI/ML Toolkits with Kubeflow](https://www.credly.com/badges/53e07dd4-10c5-4a02-97e3-904a594ed3a6/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-17 | [LFS183: Introduction to Zero Trust](https://www.credly.com/badges/ea7570fb-d863-4cbf-8329-ee746d40980a/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-17 | [ZEDEDA Certified Edge Orchestration Professional (ZCEP)](https://www.credly.com/badges/353991f9-77e3-4db3-9e33-3ea865e695ff/public_url) | issued by ZEDEDA | Credly Verified Badge |
+| 2026-06-17 | [Store, Process, and Manage Data on Google Cloud - Console Skill Badge](https://www.credly.com/badges/59bdf724-fa62-4fae-b148-cb57e28e3fb0/public_url) | issued by Google Cloud | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-08.md](./credly-2026-07-part-08.md)

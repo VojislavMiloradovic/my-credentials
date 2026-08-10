@@ -1,9 +1,9 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 4 of 10
-date_range: 2026-05-20 to 2026-06-04
-total_entries: 52
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-06-part-04.md
+chunk_part: 4 of 11
+date_range: 2026-05-15 to 2026-05-25
+total_entries: 51
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-05-part-04.md
 ---
 
 # Credly Verified Credentials — Part 04
@@ -12,31 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-06-04 | [Talking to AI: Prompt Engineering for Project Managers](https://www.credly.com/badges/1b9b4a53-4ddc-4d6b-bd7c-c31df88dabc8/public_url) | issued by Project Management Institute | Credly Verified Badge |
-| 2026-06-01 | [Data Literacy in Practice](https://www.credly.com/badges/45b07a9e-9ca9-4189-a489-ebb58c023824/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-06-01 | [Deploying SAS Grid Manager](https://www.credly.com/badges/a0ad62be-1ecc-43c0-92ca-35437a0dd09b/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-06-01 | [Deploying SAS Viya from a Mirrored Registry](https://www.credly.com/badges/da51d4a3-2800-400d-a88d-d189bf53cc7e/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-06-01 | [Manual SAS Viya Deployment](https://www.credly.com/badges/0a5e2982-bdb6-498f-8ec6-979b3c0db919/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-06-01 | [Post-Deployment Steps for SAS Viya](https://www.credly.com/badges/bbb58e7e-7844-4128-99e3-1dbf678dcccc/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-06-01 | [Session and Token Management Best Practices](https://www.credly.com/badges/1b01f351-59a3-42a9-a39e-2c5e22b1ef8c/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-05-31 | [Product Analytics Certification](https://www.credly.com/badges/383af23e-ddf1-4106-9b5d-3fde0bacdf16/public_url) | issued by Pendo | Credly Verified Badge |
-| 2026-05-31 | [Product Discovery Certification](https://www.credly.com/badges/7f76121b-ff69-474a-a1ad-09e88993b145/public_url) | issued by Pendo | Credly Verified Badge |
-| 2026-05-31 | [Product-led Certification](https://www.credly.com/badges/4813afed-be74-43f4-a69e-9a6482970fa2/public_url) | issued by Pendo | Credly Verified Badge |
-| 2026-05-31 | [Explore / analytics](https://www.credly.com/badges/bad7e351-594a-4376-9e73-28c1ad57817b/public_url) | issued by Zendesk | Credly Verified Badge |
-| 2026-05-31 | [Messaging](https://www.credly.com/badges/a65a8496-8f64-4d2c-b4c7-4a3d9b161301/public_url) | issued by Zendesk | Credly Verified Badge |
-| 2026-05-31 | [Talk / voice](https://www.credly.com/badges/82c8ca9b-bbde-4b58-b8dc-57dc834fada4/public_url) | issued by Zendesk | Credly Verified Badge |
-| 2026-05-31 | [Zendesk Knowledge](https://www.credly.com/badges/80fd12ea-5a76-4bf2-aab2-4c5ea7531b3a/public_url) | issued by Zendesk | Credly Verified Badge |
-| 2026-05-30 | [Foundations of Insurance and the IFRS 17 Standard Knowledge Badge](https://www.credly.com/badges/0b8945bd-0f24-49bf-b36a-8b9c790b9002/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-27 | [Architecture and Administration for SAS Workload Management on SAS Viya](https://www.credly.com/badges/8ab110d2-4f48-4270-a365-2d39a121015c/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-27 | [Deploying SAS Event Stream Processing on SAS Viya](https://www.credly.com/badges/23f9cee5-1e7b-4c04-9819-ca58eaa54c81/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-27 | [Deploying SAS Grid Manager for Platform](https://www.credly.com/badges/b96c02e5-ee74-4756-a24d-5109b66c2d93/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-25 | [Manage Data Models in Looker Skill Badge](https://www.credly.com/badges/eb5fb255-8dfa-4798-9894-3d7342f2c28a/public_url) | issued by Google Cloud | Credly Verified Badge |
-| 2026-05-25 | [AWS Cloud Quest: Cloud Practitioner - Training Badge](https://www.credly.com/badges/732fc941-03ee-436a-adf5-5ccd23c8c309/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-05-25 | [Basics in Lucidchart](https://www.credly.com/badges/51e91ad5-5d40-4d85-8cde-7828857f37b5/public_url) | issued by Lucid Software | Credly Verified Badge |
-| 2026-05-25 | [Engaging Stakeholders for Success](https://www.credly.com/badges/0fcc81f0-1d05-4360-b9d0-8fc80be31895/public_url) | issued by Cisco | Credly Verified Badge |
-| 2026-05-25 | [Lucidchart Fundamentals](https://www.credly.com/badges/964323c2-0693-4faf-a973-7324c4736657/public_url) | issued by Lucid Software | Credly Verified Badge |
-| 2026-05-25 | [Org charts in Lucidchart](https://www.credly.com/badges/1884360b-cb1c-4b7a-a83f-e084d0994093/public_url) | issued by Lucid Software | Credly Verified Badge |
-| 2026-05-25 | [Process diagrams in Lucidchart](https://www.credly.com/badges/c082e966-a48a-41cc-8cf0-80ef478133db/public_url) | issued by Lucid Software | Credly Verified Badge |
 | 2026-05-25 | [Technical systems in Lucidchart](https://www.credly.com/badges/c2e33131-b3af-496b-97bb-9e34f365fa0e/public_url) | issued by Lucid Software | Credly Verified Badge |
 | 2026-05-24 | [Product Management Basics Certification](https://www.credly.com/badges/9ed3741c-eb44-4f66-854b-7808ab8091a9/public_url) | issued by Pendo | Credly Verified Badge |
 | 2026-05-24 | [Analyze BigQuery Data in Connected Sheets Skill Badge](https://www.credly.com/badges/57dcab2e-a6d0-4084-b2c0-fb0d9d5874e2/public_url) | issued by Google Cloud | Credly Verified Badge |
@@ -64,6 +39,30 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-20 | [Fundamentals of Predictive Project Management](https://www.credly.com/badges/6ff63094-6930-44d1-83c8-fedaae412178/public_url) | issued by Project Management Institute | Credly Verified Badge |
 | 2026-05-20 | [Generative AI Overview for Project Managers](https://www.credly.com/badges/be0d5350-61bb-416c-ac0d-13fe417cdf7c/public_url) | issued by Project Management Institute | Credly Verified Badge |
 | 2026-05-20 | [NASA Open Science 101](https://www.credly.com/badges/b367bbf7-307f-40f3-82ac-975d987f525f/public_url) | issued by NASA Open Science | Credly Verified Badge |
+| 2026-05-19 | [Dremio Verified AI Architect](https://www.credly.com/badges/21f0649c-434c-42f7-a233-d7b1a86b18bf/public_url) | issued by Dremio | Credly Verified Badge |
+| 2026-05-19 | [Dremio Verified Data Analyst](https://www.credly.com/badges/9fcf4bf3-0cca-4ad9-b9e6-65fd1a08e707/public_url) | issued by Dremio | Credly Verified Badge |
+| 2026-05-19 | [Dremio Verified Data Product Developer](https://www.credly.com/badges/ffd9f7c2-9815-4f28-bd5f-76ada869307d/public_url) | issued by Dremio | Credly Verified Badge |
+| 2026-05-19 | [Dremio Verified Lakehouse Associate](https://www.credly.com/badges/c0079fd6-071e-48bf-8acd-394880abd3de/public_url) | issued by Dremio | Credly Verified Badge |
+| 2026-05-19 | [Dremio Verified Reflections Specialist](https://www.credly.com/badges/8a752ed3-b824-4874-b24c-9962301128ab/public_url) | issued by Dremio | Credly Verified Badge |
+| 2026-05-19 | [Agentic AI - How to with SAS Viya](https://www.credly.com/badges/5fe72598-ffcd-4c5c-8b30-319831d7d2bd/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-19 | [Discovering the Basics of SAP S/4HANA Portfolio and Project Management - Record of Achievement](https://www.credly.com/badges/d3c10832-4cf4-4d04-939b-bbcc1dcc9f1e/public_url) | issued by SAP | Credly Verified Badge |
+| 2026-05-19 | [GenAI - Client to Cloud Fundamentals](https://www.credly.com/badges/bbd4f4ac-6aba-480f-b77c-9b8f79b65bdd/public_url) | issued by Intel | Credly Verified Badge |
+| 2026-05-19 | [Getting Started with SAS and Kubernetes](https://www.credly.com/badges/1a509b1d-9a06-410c-8916-eac5b639fe28/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-19 | [Introduction to Authentication Protocols](https://www.credly.com/badges/843836d7-d464-422e-bb40-5d76c77c3bde/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-19 | [Introduction to Web Design](https://www.credly.com/badges/3fc971ca-8531-4e28-b6f8-6eecdf8354b3/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-19 | [Mastering AML Compliance: Safeguarding the Financial Sector](https://www.credly.com/badges/dc24612b-9d31-4ece-b66a-7198e4b05f76/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-19 | [Mastering Financial Fraud Prevention: Safeguarding Assets & Integrity](https://www.credly.com/badges/24877ce6-89fc-430e-b0bd-cc255519b9b3/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-19 | [Modern Data Science with SAS Viya Workbench: Unified Development with SAS, Python, and R](https://www.credly.com/badges/a0be387e-762c-4126-96bb-f1e42b60e922/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-19 | [SAS 9 Administration: Getting Started](https://www.credly.com/badges/db55699d-258e-4a61-870c-0d66d5f6166f/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-19 | [SAS Viya Overview](https://www.credly.com/badges/2fdf77a8-806b-4cf7-bbd3-a87225b74bac/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-17 | [Cybersecurity Fundamentals](https://www.credly.com/badges/07b5c2dc-a9ed-433c-bc25-63c34d575fa9/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
+| 2026-05-17 | [Data Literacy Essentials](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-17 | [Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity](https://www.credly.com/badges/2f421b3d-277a-4bc8-8120-3a07438a5962/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-17 | [Introduction to Statistical Concepts](https://www.credly.com/badges/c503a241-0ce2-4131-878d-d2695680bde2/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-17 | [Overview of the IFRS 17 Standard](https://www.credly.com/badges/85b05775-f078-4b2e-9a1c-8987a14c0162/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-17 | [Setting up SAP Mobile Start with SAP S/4HANA on SAP Build Work Zone - Record of Achievement](https://www.credly.com/badges/07157e87-17e7-4a62-9599-6da52e400954/public_url) | issued by SAP | Credly Verified Badge |
+| 2026-05-15 | [AI Foundations Knowledge Badge](https://www.credly.com/badges/5750e670-88f4-4a63-af78-a7af6e9aa394/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-15 | [Exploring SAP Sports One - Training Management - Record of Achievement](https://www.credly.com/badges/83726026-289c-43c8-829d-e7cb31ae928f/public_url) | issued by SAP | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-05-part-03.md](./credly-2026-05-part-03.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-05.md](./credly-2026-06-part-05.md)

@@ -1,41 +1,17 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 3 of 10
-date_range: 2026-05-09 to 2026-05-19
+chunk_part: 3 of 11
+date_range: 2026-05-06 to 2026-05-15
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-05-part-03.md
 ---
 
 # Credly Verified Credentials — Part 03
 
-> **Navigation:** Prev: [credly-2026-05-part-02.md](./credly-2026-05-part-02.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-04.md](./credly-2026-06-part-04.md) | [Complete Archive](./credly-complete.md)
+> **Navigation:** Prev: [credly-2026-05-part-02.md](./credly-2026-05-part-02.md) | [Index](./credly-index.md) | Next: [credly-2026-05-part-04.md](./credly-2026-05-part-04.md) | [Complete Archive](./credly-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-05-19 | [Dremio Verified AI Architect](https://www.credly.com/badges/21f0649c-434c-42f7-a233-d7b1a86b18bf/public_url) | issued by Dremio | Credly Verified Badge |
-| 2026-05-19 | [Dremio Verified Data Analyst](https://www.credly.com/badges/9fcf4bf3-0cca-4ad9-b9e6-65fd1a08e707/public_url) | issued by Dremio | Credly Verified Badge |
-| 2026-05-19 | [Dremio Verified Data Product Developer](https://www.credly.com/badges/ffd9f7c2-9815-4f28-bd5f-76ada869307d/public_url) | issued by Dremio | Credly Verified Badge |
-| 2026-05-19 | [Dremio Verified Lakehouse Associate](https://www.credly.com/badges/c0079fd6-071e-48bf-8acd-394880abd3de/public_url) | issued by Dremio | Credly Verified Badge |
-| 2026-05-19 | [Dremio Verified Reflections Specialist](https://www.credly.com/badges/8a752ed3-b824-4874-b24c-9962301128ab/public_url) | issued by Dremio | Credly Verified Badge |
-| 2026-05-19 | [Agentic AI - How to with SAS Viya](https://www.credly.com/badges/5fe72598-ffcd-4c5c-8b30-319831d7d2bd/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-19 | [Discovering the Basics of SAP S/4HANA Portfolio and Project Management - Record of Achievement](https://www.credly.com/badges/d3c10832-4cf4-4d04-939b-bbcc1dcc9f1e/public_url) | issued by SAP | Credly Verified Badge |
-| 2026-05-19 | [GenAI - Client to Cloud Fundamentals](https://www.credly.com/badges/bbd4f4ac-6aba-480f-b77c-9b8f79b65bdd/public_url) | issued by Intel | Credly Verified Badge |
-| 2026-05-19 | [Getting Started with SAS and Kubernetes](https://www.credly.com/badges/1a509b1d-9a06-410c-8916-eac5b639fe28/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-19 | [Introduction to Authentication Protocols](https://www.credly.com/badges/843836d7-d464-422e-bb40-5d76c77c3bde/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-19 | [Introduction to Web Design](https://www.credly.com/badges/3fc971ca-8531-4e28-b6f8-6eecdf8354b3/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-19 | [Mastering AML Compliance: Safeguarding the Financial Sector](https://www.credly.com/badges/dc24612b-9d31-4ece-b66a-7198e4b05f76/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-19 | [Mastering Financial Fraud Prevention: Safeguarding Assets & Integrity](https://www.credly.com/badges/24877ce6-89fc-430e-b0bd-cc255519b9b3/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-19 | [Modern Data Science with SAS Viya Workbench: Unified Development with SAS, Python, and R](https://www.credly.com/badges/a0be387e-762c-4126-96bb-f1e42b60e922/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-19 | [SAS 9 Administration: Getting Started](https://www.credly.com/badges/db55699d-258e-4a61-870c-0d66d5f6166f/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-19 | [SAS Viya Overview](https://www.credly.com/badges/2fdf77a8-806b-4cf7-bbd3-a87225b74bac/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-17 | [Cybersecurity Fundamentals](https://www.credly.com/badges/07b5c2dc-a9ed-433c-bc25-63c34d575fa9/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
-| 2026-05-17 | [Data Literacy Essentials](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-17 | [Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity](https://www.credly.com/badges/2f421b3d-277a-4bc8-8120-3a07438a5962/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-05-17 | [Introduction to Statistical Concepts](https://www.credly.com/badges/c503a241-0ce2-4131-878d-d2695680bde2/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-17 | [Overview of the IFRS 17 Standard](https://www.credly.com/badges/85b05775-f078-4b2e-9a1c-8987a14c0162/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-17 | [Setting up SAP Mobile Start with SAP S/4HANA on SAP Build Work Zone - Record of Achievement](https://www.credly.com/badges/07157e87-17e7-4a62-9599-6da52e400954/public_url) | issued by SAP | Credly Verified Badge |
-| 2026-05-15 | [AI Foundations Knowledge Badge](https://www.credly.com/badges/5750e670-88f4-4a63-af78-a7af6e9aa394/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-15 | [Exploring SAP Sports One - Training Management - Record of Achievement](https://www.credly.com/badges/83726026-289c-43c8-829d-e7cb31ae928f/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-05-15 | [Generative AI Using SAS](https://www.credly.com/badges/1cb2917f-14d8-4bec-a32a-9cdcd52cad31/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-05-15 | [Responsible Innovation and Trustworthy AI](https://www.credly.com/badges/760eeeb8-81c2-4af5-ba16-8a3e19cc2619/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-05-14 | [AI for Product Management](https://www.credly.com/badges/1f9721c8-f066-45c5-b673-61955c346c47/public_url) | issued by Pendo | Credly Verified Badge |
@@ -57,12 +33,36 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-11 | [Manage BYOD via Identity-Aware Integration](https://www.credly.com/badges/959093f9-1e07-4096-be63-35d61fbe8113/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-11 | [Manage Network Zones](https://www.credly.com/badges/81d0acf7-f9e1-43d7-97b1-9ca812002a92/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-11 | [Secure AI Workflows with Auth0 for AI Agents](https://www.credly.com/badges/ed47f33d-7002-4feb-a1d2-c682ec20879d/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-11 | [Display & Video 360 Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/0658506c-3b28-4deb-9088-ab7d34d70ff9) | Skillshop | External/Imported |
+| 2026-05-11 | [Privacy for Agencies and Partners Certification](https://api.accredible.com/v1/obi/badge_assertions/ce77e9e9-f2c5-4ff4-a2bb-3e5ab37134c3) | Skillshop | External/Imported |
 | 2026-05-09 | [Define a Secure Policy Structure](https://www.credly.com/badges/c2ff8b68-4187-4799-b8b5-27c9fa37ef45/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-09 | [Define Your Users in Okta](https://www.credly.com/badges/3901feb8-cf8a-4873-9608-66a84f5981a6/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-09 | [Manage User Profiles in UD](https://www.credly.com/badges/23833ee2-c157-450c-963c-0eae083fefea/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-09 | [Application Performance Monitoring Learning Path](https://www.credly.com/badges/23440c88-44f9-416e-a91e-03f421624399/public_url) | issued by Datadog | Credly Verified Badge |
 | 2026-05-09 | [Application Security Engineer Learning Path](https://www.credly.com/badges/18f1283d-e980-49d8-84f7-6a12b54c898d/public_url) | issued by Datadog | Credly Verified Badge |
+| 2026-05-09 | [Attacks & Threat Detection Learning Path](https://www.credly.com/badges/c709595f-bccc-4383-9323-6172990f3c8d/public_url) | issued by Datadog | Credly Verified Badge |
+| 2026-05-09 | [Backend Engineer Learning Path](https://www.credly.com/badges/aac771f0-c159-47dd-a82f-f7f1169e7811/public_url) | issued by Datadog | Credly Verified Badge |
+| 2026-05-09 | [Digital Trust for All](https://www.credly.com/badges/617235ff-34bf-4063-8972-bdad6126ad11/public_url) | issued by Intel | Credly Verified Badge |
+| 2026-05-09 | [Frontend Engineer Learning Path](https://www.credly.com/badges/e8ec0d30-25e8-4a3b-8747-3a43181664a7/public_url) | issued by Datadog | Credly Verified Badge |
+| 2026-05-09 | [Implementing SAP S/4HANA Cloud for Group Reporting - Record of Achievement](https://www.credly.com/badges/edb638dc-fb67-4321-ac1f-be6461909fe4/public_url) | issued by SAP | Credly Verified Badge |
+| 2026-05-09 | [Implement Phishing-Resistant Authentication](https://www.credly.com/badges/c34fa8f3-05dc-434e-884f-8058eb03679f/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-09 | [Kubernetes Monitoring Learning Path](https://www.credly.com/badges/775a311d-54f3-4e38-9e60-3da0c5149df4/public_url) | issued by Datadog | Credly Verified Badge |
+| 2026-05-09 | [Site Reliability Engineer Learning Path](https://www.credly.com/badges/82670fe2-987b-43c4-8023-09500fa4696b/public_url) | issued by Datadog | Credly Verified Badge |
+| 2026-05-08 | [Cloud Security Engineer - Cloud SIEM Learning Path](https://www.credly.com/badges/577f478c-820f-4968-b0d8-4442919eb244/public_url) | issued by Datadog | Credly Verified Badge |
+| 2026-05-08 | [Cloud Security Engineer Learning Path](https://www.credly.com/badges/85e91ec4-bba7-40fb-bc78-ab15fc5c4c1f/public_url) | issued by Datadog | Credly Verified Badge |
+| 2026-05-08 | [Log Configuration & Processing Learning Path](https://www.credly.com/badges/e1e5c2fb-df56-4426-b482-94ee2d79e9e0/public_url) | issued by Datadog | Credly Verified Badge |
+| 2026-05-08 | [Log Management Fundamentals](https://www.credly.com/badges/bb1f9ed7-1194-4b2f-98ec-3919dfccd7df/public_url) | issued by Datadog | Credly Verified Badge |
+| 2026-05-08 | [Log Querying & Analytics Learning Path](https://www.credly.com/badges/a621b498-451c-4f52-ab24-2af344bc773d/public_url) | issued by Datadog | Credly Verified Badge |
+| 2026-05-08 | [Managing Company Administration in Legacy Concur Travel - Record of Achievement](https://www.credly.com/badges/ec23d781-1dce-4c64-9a2c-1199a7650f19/public_url) | issued by SAP | Credly Verified Badge |
+| 2026-05-08 | [Okta for AI Agents](https://www.credly.com/badges/692470a1-f212-48bf-a7b7-79e824c6f06f/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-08 | [Secure Your AI Agents to Act on the Behalf of Users](https://www.credly.com/badges/bd7cf46e-660f-406b-9547-69b0c0b9d822/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-08 | [Secure Your RAG Pipelines with Auth0 Fine-Grained Access](https://www.credly.com/badges/a39802d7-ae30-4c95-ae7d-434cc1243233/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-08 | [Securing AI Agents](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-06 | [Agent Observability Metrics & Traces Learning Path](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/public_url) | issued by Datadog | Credly Verified Badge |
+| 2026-05-06 | [Agents & Agentic AI Fundamentals](https://www.credly.com/badges/65342bd4-19df-45dc-9b32-f68a21c5be0d/public_url) | issued by Intel | Credly Verified Badge |
+| 2026-05-06 | [Applying SAP S/4HANA Product Engineering - Record of Achievement](https://www.credly.com/badges/9c1dab10-70e9-4bd3-b9fa-9f2eead26a00/public_url) | issued by SAP | Credly Verified Badge |
+| 2026-05-06 | [Configuration Learning Path](https://www.credly.com/badges/a71f14fd-df65-47c9-9527-109add5f04d5/public_url) | issued by Datadog | Credly Verified Badge |
 
 ---
-> **Navigation:** Prev: [credly-2026-05-part-02.md](./credly-2026-05-part-02.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-04.md](./credly-2026-06-part-04.md)
+> **Navigation:** Prev: [credly-2026-05-part-02.md](./credly-2026-05-part-02.md) | [Index](./credly-index.md) | Next: [credly-2026-05-part-04.md](./credly-2026-05-part-04.md)
 

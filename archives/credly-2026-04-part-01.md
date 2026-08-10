@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 1 of 10
-date_range: 2025-11-04 to 2026-04-24
-total_entries: 49
+chunk_part: 1 of 11
+date_range: 2025-11-04 to 2026-04-18
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-04-part-01.md
 ---
 
@@ -12,24 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-04-24 | [Application Rationalization with SAP LeanIX - Record of Achievement](https://www.credly.com/badges/6eefb85c-80db-438b-b023-afa6c3b68acd/public_url) | issued by SAP | Credly Verified Badge |
-| 2026-04-24 | [Apply AI: Update Your Resume](https://www.credly.com/badges/431a017f-982f-4aa5-a394-03fff17bed23/public_url) | issued by Cisco | Credly Verified Badge |
-| 2026-04-23 | [Agile Explorer](https://www.credly.com/badges/673d3787-e37f-499d-9ac5-cc5398103dd7/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
-| 2026-04-23 | [Exploring SAP S/4HANA Supply Chain for Transportation Management - Record of Achievement](https://www.credly.com/badges/10fe693c-8271-488f-8ccf-36e6c4f74901/public_url) | issued by SAP | Credly Verified Badge |
-| 2026-04-23 | [Exploring SAP SuccessFactors Embedded Launch Activities for Project Manager - Record of Achievement](https://www.credly.com/badges/87204098-710e-49b0-8a64-5c1183a78d70/public_url) | issued by SAP | Credly Verified Badge |
-| 2026-04-22 | [Apply AI: Analyze Customer Reviews](https://www.credly.com/badges/6d85c6c9-351b-42fe-a3ad-27598dd34dec/public_url) | issued by Cisco | Credly Verified Badge |
-| 2026-04-22 | [Discovering Extended Warehouse Management with SAP S/4HANA - Record of Achievement](https://www.credly.com/badges/57c930ea-4372-4144-a8d3-92e615d6f439/public_url) | issued by SAP | Credly Verified Badge |
-| 2026-04-22 | [Enterprise Design Thinking Practitioner](https://www.credly.com/badges/b18e17a2-6952-4d85-8adf-5eb5a0dfb366/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
-| 2026-04-21 | [Explorations into Mindfulness](https://www.credly.com/badges/58226aca-cc26-41a3-8ed7-1ef7e7880114/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
-| 2026-04-21 | [Linux Unhatched](https://www.credly.com/badges/4c3ee7b3-330b-437b-8e6a-91d96bca1b45/public_url) | issued by Cisco | Credly Verified Badge |
-| 2026-04-21 | [Transition from SAP Solution Manager to SAP Cloud ALM - Record of Achievement](https://www.credly.com/badges/e95d01e6-d813-4038-bc38-8e396c4b88bc/public_url) | issued by SAP | Credly Verified Badge |
-| 2026-04-20 | [AWS Knowledge: Amazon Connect Fundamentals - Training Badge](https://www.credly.com/badges/cb6a4e9e-b375-4e40-bf27-7f3d4ad252d5/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-04-20 | [Explore Emerging Tech](https://www.credly.com/badges/67d065a9-5177-45e1-b94d-72bc4b493ca0/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
-| 2026-04-20 | [Introduction to Greenhouse Gas Accounting for IT](https://www.credly.com/badges/1b2c72f1-8e6b-4d6a-8e87-4c3a404a6250/public_url) | issued by Cisco | Credly Verified Badge |
-| 2026-04-20 | [Working with Invoice Pay in Concur Invoice Professional - Record of Achievement](https://www.credly.com/badges/6a8ba215-f454-4b26-91ef-5ff968b721f7/public_url) | issued by SAP | Credly Verified Badge |
-| 2026-04-19 | [AI Fundamentals: Foundations for Understanding AI](https://www.credly.com/badges/2a493aff-eb08-4456-8683-8b9d1d7c5eef/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
-| 2026-04-19 | [AWS Knowledge: AWS Transform Fundamentals – Training Badge](https://www.credly.com/badges/54d81ecb-6fd5-4ff9-aba6-6acaa59cdcec/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-04-19 | [Introduction to IoT](https://www.credly.com/badges/9fd72888-3b11-4f02-b53a-1506890ed015/public_url) | issued by Cisco | Credly Verified Badge |
 | 2026-04-18 | [Digital Awareness](https://www.credly.com/badges/9edc3f97-91e5-4d5d-b674-27e822964fb4/public_url) | issued by Cisco | Credly Verified Badge |
 | 2026-04-18 | [Modernizing Integration with SAP Integration Suite - SAP Learning MOOC - Record of Achievement](https://www.credly.com/badges/f3166cf7-82ab-4871-8b96-7ed8cbf350e6/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-04-18 | [Understanding SAP’s 2026 Go-to-Market Direction for Partners - Record of Achievement](https://www.credly.com/badges/cccb34bc-a8ae-4c85-8a7f-793cd28bfa1b/public_url) | issued by SAP | Credly Verified Badge |
@@ -56,6 +38,23 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-06 | [AI Literacy](https://www.credly.com/badges/551e7ae7-9b80-409b-901c-b0a1f9ec07b6/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
 | 2026-04-06 | [Applying a Human-Centered Approach to Identify and Define Business AI Use Cases - Record of Course Completion](https://www.credly.com/badges/5d816ed5-4a21-44b4-bd1f-969c61d9fb19/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-04-05 | [Provisioning and Implementing Joule - Record of Achievement](https://www.credly.com/badges/68d24b44-8104-4e53-9742-256adacb3627/public_url) | issued by SAP | Credly Verified Badge |
+| 2026-04-01 | [Campaign manager 360 Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/c9bfd359-05b1-4751-8872-a99c43f4883b) | Skillshop | External/Imported |
+| 2026-03-30 | [Conversion Optimization Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/3c4afa84-5637-4c3b-b3fc-6e6c26e48d35) | Skillshop | External/Imported |
+| 2026-03-26 | [Grow Offline Sales Certification](https://api.accredible.com/v1/obi/badge_assertions/2d2774cb-bf2e-47c5-a286-86de5cc1bcd8) | Skillshop | External/Imported |
+| 2026-03-25 | [Microsoft Applied Skills: Generate reports with AI research agents](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/ABC20116B56C7F9F?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
+| 2026-03-24 | [Search Ads 360 Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/5b477ad2-43c6-4789-af30-137f9f87f4c6) | Skillshop | External/Imported |
+| 2026-03-23 | [Google Ads Apps Certification](https://api.accredible.com/v1/obi/badge_assertions/2d3974a2-6a69-4b66-8886-350d7b1626d5) | Skillshop | External/Imported |
+| 2026-03-21 | [Microsoft Applied Skills: Get started with identities and access using Microsoft Entra](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/27BB90F5B956E0C8?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
+| 2026-03-20 | [Google Ads Measurement Certification](https://api.accredible.com/v1/obi/badge_assertions/3eec0163-8804-4d17-bde0-d08e6c76d74c) | Skillshop | External/Imported |
+| 2026-03-18 | [Microsoft Applied Skills: Get started with Azure management tasks](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B7C5DF765FB52CEA?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
+| 2026-03-17 | [AI-Powered Shopping ads Certification](https://api.accredible.com/v1/obi/badge_assertions/09192bf8-4cca-4947-86c8-58a0b29d6511) | Skillshop | External/Imported |
+| 2026-03-16 | [AI-Powered Performance Ads Certification](https://api.accredible.com/v1/obi/badge_assertions/1583f933-2a97-47bc-b442-8ad614e6982d) | Skillshop | External/Imported |
+| 2026-03-16 | [Microsoft Applied Skills: Get started with cloud security and monitoring tasks](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/1EBB80C496C2DDF1?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
+| 2026-03-15 | [Google Ads Search Certification](https://api.accredible.com/v1/obi/badge_assertions/f0f3a46f-f6a1-4145-8fb5-2c2bb41a761f) | Skillshop | External/Imported |
+| 2026-03-15 | [Microsoft Applied Skills: Streamline business workflows with AI chat](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/CE7FBB459ADAB331?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
+| 2026-03-14 | [Microsoft Applied Skills: Create an AI agent](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/DC86763A7069ABBF?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
+| 2026-03-12 | [Google Analytics Certification](https://api.accredible.com/v1/obi/badge_assertions/c845a7b6-cef3-4e66-87e2-481771d889ed) | Skillshop | External/Imported |
+| 2026-02-07 | [Oracle Cloud Success Navigator Essentials](https://catalog-education.oracle.com/pls/certview/sharebadge?id=E11489205EF3BEE917EAFE29D12203DA2526C300DB291B1D3B7F3E1F84C70D87) | Oracle | External/Imported |
 | 2025-12-20 | [Implement Load Balancing on Compute Engine Skill Badge](https://www.credly.com/badges/a081bb3e-083d-4ccc-a074-c7b7e2d15a1b/public_url) | issued by Google Cloud | Credly Verified Badge |
 | 2025-12-17 | [Google Cloud Cybersecurity Certificate](https://www.credly.com/badges/5afda7ea-c36e-4393-a74b-05f06757c049/public_url) | issued by Google Cloud | Credly Verified Badge |
 | 2025-11-23 | [Use Functions, Formulas, and Charts in Google Sheets Skill Badge](https://www.credly.com/badges/e8a7950a-9042-4809-bf7a-3f01ca2d03dc/public_url) | issued by Google Cloud | Credly Verified Badge |

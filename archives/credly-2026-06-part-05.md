@@ -1,41 +1,18 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 5 of 10
-date_range: 2026-06-04 to 2026-06-09
-total_entries: 49
+chunk_part: 5 of 11
+date_range: 2026-05-25 to 2026-06-07
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-06-part-05.md
 ---
 
 # Credly Verified Credentials — Part 05
 
-> **Navigation:** Prev: [credly-2026-06-part-04.md](./credly-2026-06-part-04.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md) | [Complete Archive](./credly-complete.md)
+> **Navigation:** Prev: [credly-2026-05-part-04.md](./credly-2026-05-part-04.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md) | [Complete Archive](./credly-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-06-09 | [Agile Visualization](https://www.credly.com/badges/651c65f7-cb93-4591-874a-abb27ce07b19/public_url) | issued by Lucid Software | Credly Verified Badge |
-| 2026-06-09 | [AWS Knowledge: Object Storage - Training Badge](https://www.credly.com/badges/a8254829-cc58-43f8-aa2f-910c836df8a8/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-06-09 | [Cloud Tech Fundamentals](https://www.credly.com/badges/3c5fdd0e-66a5-436b-bdeb-4f3da1702089/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-06-09 | [Verified Lucid Admin](https://www.credly.com/badges/81693063-e75b-457f-90c9-ae13044ef9e1/public_url) | issued by Lucid Software | Credly Verified Badge |
-| 2026-06-08 | [LFC193: Introduction to Open Source Licensing Compliance Management](https://www.credly.com/badges/ee58bb5f-4568-48b1-a075-98982a829a7a/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-08 | [LFD103: A Beginner's Guide to Linux Kernel Development](https://www.credly.com/badges/014a781e-7a70-47a0-b79d-c6080bbef63d/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-08 | [LFD121: Developing Secure Software](https://www.credly.com/badges/21cf0189-83ae-4159-abd9-f2eecf3bd6a9/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-08 | [LFD125: Security for Software Development Managers](https://www.credly.com/badges/c0a1f565-7255-4a8b-8a99-c447b22e0023/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-08 | [LFS157: Introduction to Serverless on Kubernetes](https://www.credly.com/badges/b7b7ca0d-9eb3-42a1-9e11-70c2260d2b4e/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-08 | [LFS182: Securing Your Software Supply Chain with Sigstore](https://www.credly.com/badges/78826580-a3a7-4213-be79-3233321f3d3e/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-08 | [Cloud Accelerator Badge](https://www.credly.com/badges/a10ab236-0af0-45ad-a9f0-694426ba3f8d/public_url) | issued by Lucid Software | Credly Verified Badge |
-| 2026-06-08 | [Creative Facilitation](https://www.credly.com/badges/6df66de9-9678-4f5a-bc36-1c4d7b220100/public_url) | issued by Lucid Software | Credly Verified Badge |
-| 2026-06-08 | [Process Accelerator Badge](https://www.credly.com/badges/66e95c6f-7100-4007-ae22-1fc36a1d638d/public_url) | issued by Lucid Software | Credly Verified Badge |
-| 2026-06-07 | [AWS Knowledge: File Storage - Training Badge](https://www.credly.com/badges/517a628a-d90a-48b8-858b-8c81048bbf5d/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-06-07 | [LFC102: Inclusive Open Source Community Orientation](https://www.credly.com/badges/eb937342-cd3c-4993-8e44-91f0bf12f83c/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-07 | [LFC108: Cybersecurity Essentials](https://www.credly.com/badges/c07d5735-c22b-40c9-bece-11d75cd3ab0d/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-07 | [LFD102: A Beginner's Guide to Open Source Software Development](https://www.credly.com/badges/2b1cbc35-8af4-467d-bb34-8f081afb8ef0/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-07 | [LFD116: Software Engineering Basics for Embedded Systems](https://www.credly.com/badges/bf5261b3-1ed7-4acf-958a-5f937e4ca8e0/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-07 | [LFD137: Open Source Contribution in Finance](https://www.credly.com/badges/07bb1039-dd83-4aab-a319-d18af966d01a/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-07 | [LFQ101: Fundamentals of Quantum Computing](https://www.credly.com/badges/dbaa0c7b-652d-4505-a80a-4d8dd2551426/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-07 | [LFS118: Ethical Principles for Conversational AI](https://www.credly.com/badges/c18e2ce0-83e2-4e77-ba8e-2daa7a2cddfa/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-07 | [LFS158: Introduction to Kubernetes](https://www.credly.com/badges/85746ca0-36fc-4ba0-b753-d0dce904b02d/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-07 | [SKF100: Understanding the OWASP® Top 10 Security Threats](https://www.credly.com/badges/8a0199ec-ff1c-4b87-a185-92cf277719e6/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-07 | [AWS Knowledge: Amazon Braket - Training Badge](https://www.credly.com/badges/8a9f2e87-0407-4376-8b09-d10fa0b6a6b9/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-06-07 | [Google Play Academy - Store Listing Certificate](https://api.accredible.com/v1/obi/badge_assertions/1473fa50-8b83-4ccf-a376-6cd671db8b80) | Google Play Academy | External/Imported |
 | 2026-06-06 | [LFS101: Introduction to Linux](https://www.credly.com/badges/e0a7c437-4f29-4111-96d2-2c8f15eb14cc/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-06 | [AWS Knowledge: Networking Core - Training Badge](https://www.credly.com/badges/80648322-ee54-4e43-9d4b-f311dcc569cd/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-06-06 | [Intelligent Diagramming](https://www.credly.com/badges/a5b0658c-f2cb-4aa4-85db-5d2c8eefa144/public_url) | issued by Lucid Software | Credly Verified Badge |
@@ -61,7 +38,32 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-04 | [Build Scalable Authorization Models with Auth0 FGA](https://www.credly.com/badges/03f314ca-34b2-45d8-9b2a-d0a5a45db527/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-04 | [PMI® Essentials: Seven AI Project Patterns](https://www.credly.com/badges/2f214aa1-1de2-4e25-ba59-61ba86729898/public_url) | issued by Project Management Institute | Credly Verified Badge |
 | 2026-06-04 | [Practical Application of Gen AI for Project Managers](https://www.credly.com/badges/d8cbec32-4350-4590-831f-34ad56889daf/public_url) | issued by Project Management Institute | Credly Verified Badge |
+| 2026-06-04 | [Talking to AI: Prompt Engineering for Project Managers](https://www.credly.com/badges/1b9b4a53-4ddc-4d6b-bd7c-c31df88dabc8/public_url) | issued by Project Management Institute | Credly Verified Badge |
+| 2026-06-01 | [Data Literacy in Practice](https://www.credly.com/badges/45b07a9e-9ca9-4189-a489-ebb58c023824/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-06-01 | [Deploying SAS Grid Manager](https://www.credly.com/badges/a0ad62be-1ecc-43c0-92ca-35437a0dd09b/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-06-01 | [Deploying SAS Viya from a Mirrored Registry](https://www.credly.com/badges/da51d4a3-2800-400d-a88d-d189bf53cc7e/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-06-01 | [Manual SAS Viya Deployment](https://www.credly.com/badges/0a5e2982-bdb6-498f-8ec6-979b3c0db919/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-06-01 | [Post-Deployment Steps for SAS Viya](https://www.credly.com/badges/bbb58e7e-7844-4128-99e3-1dbf678dcccc/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-06-01 | [Session and Token Management Best Practices](https://www.credly.com/badges/1b01f351-59a3-42a9-a39e-2c5e22b1ef8c/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-31 | [Product Analytics Certification](https://www.credly.com/badges/383af23e-ddf1-4106-9b5d-3fde0bacdf16/public_url) | issued by Pendo | Credly Verified Badge |
+| 2026-05-31 | [Product Discovery Certification](https://www.credly.com/badges/7f76121b-ff69-474a-a1ad-09e88993b145/public_url) | issued by Pendo | Credly Verified Badge |
+| 2026-05-31 | [Product-led Certification](https://www.credly.com/badges/4813afed-be74-43f4-a69e-9a6482970fa2/public_url) | issued by Pendo | Credly Verified Badge |
+| 2026-05-31 | [Explore / analytics](https://www.credly.com/badges/bad7e351-594a-4376-9e73-28c1ad57817b/public_url) | issued by Zendesk | Credly Verified Badge |
+| 2026-05-31 | [Messaging](https://www.credly.com/badges/a65a8496-8f64-4d2c-b4c7-4a3d9b161301/public_url) | issued by Zendesk | Credly Verified Badge |
+| 2026-05-31 | [Talk / voice](https://www.credly.com/badges/82c8ca9b-bbde-4b58-b8dc-57dc834fada4/public_url) | issued by Zendesk | Credly Verified Badge |
+| 2026-05-31 | [Zendesk Knowledge](https://www.credly.com/badges/80fd12ea-5a76-4bf2-aab2-4c5ea7531b3a/public_url) | issued by Zendesk | Credly Verified Badge |
+| 2026-05-30 | [Foundations of Insurance and the IFRS 17 Standard Knowledge Badge](https://www.credly.com/badges/0b8945bd-0f24-49bf-b36a-8b9c790b9002/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-27 | [Architecture and Administration for SAS Workload Management on SAS Viya](https://www.credly.com/badges/8ab110d2-4f48-4270-a365-2d39a121015c/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-27 | [Deploying SAS Event Stream Processing on SAS Viya](https://www.credly.com/badges/23f9cee5-1e7b-4c04-9819-ca58eaa54c81/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-27 | [Deploying SAS Grid Manager for Platform](https://www.credly.com/badges/b96c02e5-ee74-4756-a24d-5109b66c2d93/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-05-25 | [Manage Data Models in Looker Skill Badge](https://www.credly.com/badges/eb5fb255-8dfa-4798-9894-3d7342f2c28a/public_url) | issued by Google Cloud | Credly Verified Badge |
+| 2026-05-25 | [AWS Cloud Quest: Cloud Practitioner - Training Badge](https://www.credly.com/badges/732fc941-03ee-436a-adf5-5ccd23c8c309/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-05-25 | [Basics in Lucidchart](https://www.credly.com/badges/51e91ad5-5d40-4d85-8cde-7828857f37b5/public_url) | issued by Lucid Software | Credly Verified Badge |
+| 2026-05-25 | [Engaging Stakeholders for Success](https://www.credly.com/badges/0fcc81f0-1d05-4360-b9d0-8fc80be31895/public_url) | issued by Cisco | Credly Verified Badge |
+| 2026-05-25 | [Lucidchart Fundamentals](https://www.credly.com/badges/964323c2-0693-4faf-a973-7324c4736657/public_url) | issued by Lucid Software | Credly Verified Badge |
+| 2026-05-25 | [Org charts in Lucidchart](https://www.credly.com/badges/1884360b-cb1c-4b7a-a83f-e084d0994093/public_url) | issued by Lucid Software | Credly Verified Badge |
+| 2026-05-25 | [Process diagrams in Lucidchart](https://www.credly.com/badges/c082e966-a48a-41cc-8cf0-80ef478133db/public_url) | issued by Lucid Software | Credly Verified Badge |
 
 ---
-> **Navigation:** Prev: [credly-2026-06-part-04.md](./credly-2026-06-part-04.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md)
+> **Navigation:** Prev: [credly-2026-05-part-04.md](./credly-2026-05-part-04.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md)
 
