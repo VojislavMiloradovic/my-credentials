@@ -34,6 +34,14 @@ logging.basicConfig(
 )
 logger = logging.getLogger("google_skills_updater")
 
+# Safe directory initialization
+if os.path.exists(output_dir):
+    if not os.path.isdir(output_dir):
+        logger.warning(f"⚠️ '{output_dir}' exists as a file. Removing it to create a directory.")
+        os.remove(output_dir)
+
+os.makedirs(output_dir, exist_ok=True)
+
 # Configuration Constants
 VALIDATION_DIR = "for_validation"
 GOOGLE_SKILLS_PROFILE_ID = os.getenv("GOOGLE_SKILLS_PROFILE_ID", "2011cb91-6066-4d7f-bbec-644b1530829b")
