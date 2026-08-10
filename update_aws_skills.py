@@ -34,9 +34,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger("aws_skills_updater")
 
-# Configuration Constants
+# Configuration Constants & Canonical Paths
 AWS_PROFILE_USER = os.getenv("AWS_PROFILE_USER", "vojislavmiloradovic")
-OUTPUT_FILE = os.getenv("OUTPUT_FILE", "aws_skill_badges.json")
+VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
+OUTPUT_FILENAME = "aws_skill_badges.json"
+OUTPUT_FILE = os.getenv("OUTPUT_FILE", os.path.join(VALIDATION_DIR, OUTPUT_FILENAME))
 ARCHIVE_MONOLITH = os.path.join("archives", "aws-skills-complete.md")
 
 # Data Loss / Anomaly Guard Tolerances
@@ -162,7 +164,13 @@ class PipelineDataLossAnomaly(Exception):
 
 def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int:
     """Evaluates baseline record count from existing JSON or monolith archive markdown."""
-    candidate_json_paths = [json_path, "aws_skill_badges.json", "aws_skills_badges.json", os.path.join("data", "aws_skill_badges.json")]
+    candidate_json_paths = [
+        json_path,
+        os.path.join(VALIDATION_DIR, OUTPUT_FILENAME),
+        OUTPUT_FILENAME,
+        "aws_skills_badges.json",
+        os.path.join("data", OUTPUT_FILENAME),
+    ]
     for path in candidate_json_paths:
         if os.path.exists(path):
             try:
@@ -376,7 +384,7 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
 
 
 def fetch_aws_skills_badges(profile_user: str) -> list[dict]:
-    """Orchestrates ingestion prioritizing CSV exports, root/data JSON files, then API endpoints."""
+    """Orchestrates ingestion prioritizing CSV exports, local JSON files, then API endpoints."""
     # 1. Primary Strategy: Local CSV File Export
     csv_file = locate_aws_csv_file()
     if csv_file:
@@ -384,12 +392,13 @@ def fetch_aws_skills_badges(profile_user: str) -> list[dict]:
         if parsed_csv_badges:
             return parsed_csv_badges
 
-    # 2. Secondary Strategy: Root or Data JSON File (aws_skill_badges.json)
+    # 2. Secondary Strategy: Validation or Local JSON File
     json_candidates = [
         OUTPUT_FILE,
-        "aws_skill_badges.json",
+        os.path.join(VALIDATION_DIR, OUTPUT_FILENAME),
+        OUTPUT_FILENAME,
         "aws_skills_badges.json",
-        os.path.join("data", "aws_skill_badges.json"),
+        os.path.join("data", OUTPUT_FILENAME),
     ]
     for json_file in json_candidates:
         if os.path.exists(json_file):
@@ -562,6 +571,13 @@ def build_archives_and_readme(badges: list[dict]) -> None:
 def main():
     logger.info("Starting AWS Skill Builder Pipeline with Pydantic & Loss Guards...")
 
+    # Safe directory initialization
+    if os.path.exists(VALIDATION_DIR) and not os.path.isdir(VALIDATION_DIR):
+        logger.warning(f"⚠️ '{VALIDATION_DIR}' exists as a file. Removing it to create a directory.")
+        os.remove(VALIDATION_DIR)
+
+    os.makedirs(VALIDATION_DIR, exist_ok=True)
+
     raw_badges = fetch_aws_skills_badges(AWS_PROFILE_USER)
 
     unique_badges = []
@@ -580,7 +596,7 @@ def main():
         logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
         sys.exit(1)
 
-    # 2. Validate Root Payload with Pydantic Schema
+    # 2. Validate Root Payload with Pydantic Schema & Save strictly inside for_validation/
     payload_dict = {
         "profile_user": AWS_PROFILE_USER,
         "total_count": len(unique_badges),
