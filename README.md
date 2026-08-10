@@ -51,15 +51,16 @@ Showing latest 10 of 4,804 achievements. View full dataset via [Platform Archive
 [Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
 Public Profile: [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
-**Total Portfolio Credentials:** 342
-**Total Verified Skills Mapped:** 341
+**Total Portfolio Credentials:** 343
+**Total Verified Skills Mapped:** 342
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 342 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-01.md), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 343 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-01.md), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-09 | [Create and Manage Cloud Spanner Instances](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26478834) | Google Cloud | Google Skill Badge |
 | 2026-08-07 | [Arcade Simulator: Network Security Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26380399) | Google Cloud | Google Skill Badge |
 | 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26378483) | Google Cloud | Google Skill Badge |
 | 2026-08-03 | [Privileged Access with IAM](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26258669) | Google Cloud | Google Skill Badge |
@@ -69,7 +70,6 @@ Showing latest 10 of 342 credentials. View full dataset via [Platform Archive In
 | 2026-07-26 | [Gemini in Google Chat](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25939305) | Google Cloud | Google Skill Badge |
 | 2026-07-26 | [Scaling Data Science with Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25938520) | Google Cloud | Google Skill Badge |
 | 2026-07-23 | [Configure VPC Routes and Addresses](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25829594) | Google Cloud | Google Skill Badge |
-| 2026-07-23 | [Set Up Multiple Network Interfaces](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25828763) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials

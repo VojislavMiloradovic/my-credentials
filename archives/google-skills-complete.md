@@ -1,11 +1,12 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 342 records.
+This document represents a unified, verifiable list of all 343 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-09 | [Create and Manage Cloud Spanner Instances](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26478834) | Google Cloud | Google Skill Badge |
 | 2026-08-07 | [Arcade Simulator: Network Security Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26380399) | Google Cloud | Google Skill Badge |
 | 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26378483) | Google Cloud | Google Skill Badge |
 | 2026-08-03 | [Privileged Access with IAM](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26258669) | Google Cloud | Google Skill Badge |
