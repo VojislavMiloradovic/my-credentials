@@ -1,5 +1,5 @@
 check_circle_outline You have this badge!
-Learning
+Учење
 Theming in Compose with Material 3
 26. мај 2026.
 
@@ -3803,6 +3803,9 @@ Publish an event to Cloud Pub/Sub using ABAP SDK for Google Cloud
 
 Ingest CSV data to BigQuery using Cloud Data Fusion - Batch ingestion
 10. јун 2026.
+
+Google Workspace MCP server connectors in Gemini Enterprise apps
+10. авг 2026.
 
 Improve app performance with Baseline Profiles
 10. јун 2026.
