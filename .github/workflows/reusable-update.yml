@@ -1,27 +1,36 @@
-name: Reusable Platform Sync Workflow
+name: Reusable Update Workflow
 
 on:
   workflow_call:
     inputs:
       script_name:
-        description: "Python script to execute for platform sync (e.g., update_ms_learn.py)"
         required: true
         type: string
+        description: "Python script to execute (e.g., update_google_skills.py)"
       commit_message:
-        description: "Git commit message for changes"
+        required: true
+        type: string
+        description: "Commit message for updated data"
+      profile_id_env_var:
         required: false
         type: string
-        default: "chore: auto-update platform data, json-ld, and llms.txt"
-
-permissions:
-  contents: write
+        description: "Name of the profile ID env variable"
+      profile_id_value:
+        required: false
+        type: string
+        description: "Value of the profile ID"
 
 jobs:
-  sync-platform:
+  update-credentials:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -36,48 +45,38 @@ jobs:
       - name: Install Dependencies
         run: uv sync --frozen --all-extras
 
-      # --- PRE-FLIGHT HEALTH & SECURITY CHECKS ---
-      - name: Sanitize Microsoft Learn Data (If Present)
-        run: |
-          if [ -f "microsoft-learn.json" ]; then
-            uv run python sanitize_ms_export.py microsoft-learn.json
-          fi
-          if [ -f "data/microsoft-learn.json" ]; then
-            uv run python sanitize_ms_export.py data/microsoft-learn.json
-          fi
-
-      - name: Run Ruff Linter
-        run: uv run ruff check *.py
-
-      - name: Validate Data JSON Integrity
+      # Pre-flight JSON Integrity Check (Retained before scraping)
+      - name: Validate Existing Data JSON Integrity
         run: |
           uv run python -c "
-          import glob, json
-          json_files = glob.glob('data/*.json') + glob.glob('*.json')
+          import glob, json, sys
+          json_files = glob.glob('for_validation/*.json') + glob.glob('data/*.json')
+          if not json_files:
+              print('No JSON files found for validation pre-check.')
+              sys.exit(0)
           for f in json_files:
-              with open(f, 'r', encoding='utf-8') as fp:
-                  json.load(fp)
-          print(f'Successfully validated syntax for {len(json_files)} JSON file(s).')
+              try:
+                  with open(f, 'r', encoding='utf-8') as fp:
+                      json.load(fp)
+              except Exception as e:
+                  print(f'❌ Corrupted JSON detected in {f}: {e}')
+                  sys.exit(1)
+          print(f'✅ Pre-flight: Validated syntax for {len(json_files)} JSON file(s).')
           "
 
-      # --- EXECUTION & UPDATE PHASE ---
-      - name: Run Platform Script
+      - name: Execute Scraper Script
+        env:
+          GOOGLE_PROFILE_ID: ${{ inputs.profile_id_value }}
         run: uv run python ${{ inputs.script_name }}
 
-      - name: Generate JSON-LD Linked Data
-        run: uv run python generate_jsonld.py
-
-      - name: Generate LLMs.txt Directory Files
-        run: uv run python generate_llms_txt.py
-
-      # --- REBASE SAFE COMMIT & PUSH ---
-      - name: Commit and Push Changes (Rebase Safe)
+      - name: Commit and Push Changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add for_validation/ archives/ README.md
           if ! git diff --staged --quiet; then
             git commit -m "${{ inputs.commit_message }}"
-            git pull --rebase origin main
             git push
+          else
+            echo "No data changes detected."
           fi
