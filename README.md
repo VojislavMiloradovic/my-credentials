@@ -116,30 +116,30 @@ Showing latest 10 of 556 credentials. View full dataset via [Platform Archive In
 ## Credly Credentials
 
 <!-- CREDLY_BADGES_START -->
-### Credly Credentials
+### Credly Verified Credentials
 
-[Credly Verified Credentials](https://www.credly.com/users/vojislavmiloradovic/badges)
+[Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic/badges)
-**Total Portfolio Credentials:** 522 (499 Credly Verified, 23 External/Imported)
-**Total Verified Skills Mapped:** 1902
+Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
+**Total Portfolio Credentials:** 499
+**Total Verified Skills Mapped:** 1818
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 522 credentials. View full dataset via [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-01.md), or [Monolithic File](./archives/credly-badges-complete.md).
+Showing latest 10 of 499 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-01.md), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-08-09 | [AWS Knowledge: Amazon WorkSpaces Migrations - Training Badge](https://www.credly.com/badges/0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31/public_url) | Amazon Web Services Training and Certification | Credly Verified |
-| 2026-08-09 | [Create and Manage Cloud Spanner Instances Skill Badge](https://www.credly.com/badges/22ddf09a-7e02-44c6-9a92-4c25ae5e05f0/public_url) | Google Cloud | Credly Verified |
-| 2026-08-08 | [Cilium Flow Encryption](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/public_url) | Isovalent | Credly Verified |
-| 2026-08-08 | [Cilium Network Policies](https://www.credly.com/badges/22c5caa6-fc0f-4a4e-9739-a14b97edfc01/public_url) | Isovalent | Credly Verified |
-| 2026-08-07 | [Cilium Cluster Mesh](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/public_url) | Isovalent | Credly Verified |
-| 2026-08-07 | [Cilium Ingress Controller](https://www.credly.com/badges/29a5efa1-d0ce-4c25-a983-f3b435be6b59/public_url) | Isovalent | Credly Verified |
-| 2026-08-07 | [Cloud Sales Professional XDR](https://www.credly.com/badges/7f370553-e0b2-41a3-9909-131fe11a94a3/public_url) | Acronis | Credly Verified |
-| 2026-08-07 | [Cloud Tech Pro - Backup](https://www.credly.com/badges/da9a50b8-a6fc-4e2e-bf7e-35da0a65a04c/public_url) | Acronis | Credly Verified |
-| 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.credly.com/badges/6b9a8831-80bd-450b-8832-b13a02608855/public_url) | Google Cloud | Credly Verified |
-| 2026-08-07 | [Continuous Security Validation Workshop](https://www.credly.com/badges/132269ac-0ab7-4b20-91c4-76ed7fa3359e/public_url) | AttackIQ | Credly Verified |
+| 2026-08-09 | [AWS Knowledge: Amazon WorkSpaces Migrations - Training Badge](https://www.credly.com/badges/0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-08-09 | [Create and Manage Cloud Spanner Instances Skill Badge](https://www.credly.com/badges/22ddf09a-7e02-44c6-9a92-4c25ae5e05f0/public_url) | issued by Google Cloud | Credly Verified Badge |
+| 2026-08-08 | [Cilium Flow Encryption](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/public_url) | issued by Isovalent | Credly Verified Badge |
+| 2026-08-07 | [Cilium Network Policies](https://www.credly.com/badges/22c5caa6-fc0f-4a4e-9739-a14b97edfc01/public_url) | issued by Isovalent | Credly Verified Badge |
+| 2026-08-07 | [Cilium Cluster Mesh](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/public_url) | issued by Isovalent | Credly Verified Badge |
+| 2026-08-07 | [Cilium Ingress Controller](https://www.credly.com/badges/29a5efa1-d0ce-4c25-a983-f3b435be6b59/public_url) | issued by Isovalent | Credly Verified Badge |
+| 2026-08-07 | [Cloud Sales Professional XDR](https://www.credly.com/badges/7f370553-e0b2-41a3-9909-131fe11a94a3/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-08-07 | [Cloud Tech Pro - Backup](https://www.credly.com/badges/da9a50b8-a6fc-4e2e-bf7e-35da0a65a04c/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.credly.com/badges/6b9a8831-80bd-450b-8832-b13a02608855/public_url) | issued by Google Cloud | Credly Verified Badge |
+| 2026-08-07 | [Continuous Security Validation Workshop](https://www.credly.com/badges/132269ac-0ab7-4b20-91c4-76ed7fa3359e/public_url) | issued by AttackIQ | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
