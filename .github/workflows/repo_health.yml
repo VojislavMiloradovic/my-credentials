@@ -7,6 +7,11 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+# Queue health checks sequentially with sync workflows
+concurrency:
+  group: git-push-main
+  cancel-in-progress: false
+
 jobs:
   security-and-health:
     runs-on: ubuntu-latest
