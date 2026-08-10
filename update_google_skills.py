@@ -35,8 +35,9 @@ logging.basicConfig(
 logger = logging.getLogger("google_skills_updater")
 
 # Configuration Constants
+VALIDATION_DIR = "for_validation"
 GOOGLE_SKILLS_PROFILE_ID = os.getenv("GOOGLE_SKILLS_PROFILE_ID", "2011cb91-6066-4d7f-bbec-644b1530829b")
-OUTPUT_FILE = os.getenv("OUTPUT_FILE", "google_skills_badges.json")
+OUTPUT_FILE = os.getenv("OUTPUT_FILE", os.path.join(VALIDATION_DIR, "google_skills_badges.json"))
 
 # Data Loss / Anomaly Guard Tolerances
 MAX_ALLOWED_DATA_LOSS_PCT = 0.15  # Fail if new badge count drops >15% below stored archive
@@ -494,6 +495,11 @@ def build_archives_and_readme(badges: list[dict]) -> None:
 
 def main():
     logger.info("Starting Google Skills API/Scraping Pipeline with Pydantic & Loss Guards...")
+
+    # Ensure validation directory exists before execution
+    output_dir = os.path.dirname(OUTPUT_FILE)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
 
     raw_badges = fetch_google_skills_badges(GOOGLE_SKILLS_PROFILE_ID)
 
