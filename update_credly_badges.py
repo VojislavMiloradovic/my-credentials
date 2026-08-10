@@ -32,9 +32,10 @@ logging.basicConfig(
 logger = logging.getLogger("credly_updater")
 
 # Configuration Constants
+VALIDATION_DIR = "for_validation"
 CREDLY_USERNAME = os.getenv("CREDLY_USERNAME", "vojislavmiloradovic")
 CREDLY_USER_ID = os.getenv("CREDLY_USER_ID", "752aee40-7358-4ade-9a49-81e8b6f49225")
-OUTPUT_FILE = os.getenv("OUTPUT_FILE", "credly_badges.json")
+OUTPUT_FILE = os.getenv("OUTPUT_FILE", os.path.join(VALIDATION_DIR, "credly_badges.json"))
 
 # Data Loss / Anomaly Guard Tolerances
 MAX_ALLOWED_DATA_LOSS_PCT = 0.15  # Fail if new badge count drops >15% below stored archive
@@ -511,6 +512,11 @@ def build_archives_and_readme(badges: list[dict]) -> None:
 
 def main():
     logger.info("Starting Credly API Pipeline with Pydantic & Loss Guards...")
+
+    # Ensure validation directory exists before execution
+    output_dir = os.path.dirname(OUTPUT_FILE)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
 
     native_badges = fetch_native_badges(CREDLY_USERNAME)
     external_badges = fetch_external_badges(CREDLY_USER_ID)
