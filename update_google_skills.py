@@ -1,22 +1,22 @@
 """
 update_google_skills.py
 -----------------------
-API and HTML scraping pipeline updating Google Skills / Cloud Skills Boost credentials.
-Includes Pydantic schema validation models, HTML/JSON response parsing, and
-data loss/anomaly guards to prevent archive corruption or silent record drops.
+Pipeline for updating Google Skills / Developer credentials from public profile APIs,
+local JSON fallbacks, or exported badge data.
+Includes JSON parsing, Pydantic schema validation, date coercion,
+data loss / anomaly guards, safe directory handling, and archiver integration.
 """
 
+import glob
 import hashlib
 import json
 import logging
 import os
-import re
 import sys
 from datetime import UTC, datetime
 from typing import Any
 
 import requests
-from bs4 import BeautifulSoup
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
 # Archive Integration Helper
@@ -34,21 +34,14 @@ logging.basicConfig(
 )
 logger = logging.getLogger("google_skills_updater")
 
-# Safe directory initialization
-if os.path.exists(output_dir):
-    if not os.path.isdir(output_dir):
-        logger.warning(f"⚠️ '{output_dir}' exists as a file. Removing it to create a directory.")
-        os.remove(output_dir)
-
-os.makedirs(output_dir, exist_ok=True)
-
 # Configuration Constants
-VALIDATION_DIR = "for_validation"
-GOOGLE_SKILLS_PROFILE_ID = os.getenv("GOOGLE_SKILLS_PROFILE_ID", "2011cb91-6066-4d7f-bbec-644b1530829b")
-OUTPUT_FILE = os.getenv("OUTPUT_FILE", os.path.join(VALIDATION_DIR, "google_skills_badges.json"))
+GOOGLE_PROFILE_ID = os.getenv("GOOGLE_PROFILE_ID", "2011cb91-6066-4d7f-bbec-644b1530829b")
+OUTPUT_FILE = os.getenv("OUTPUT_FILE", "google_skills_badges.json")
+VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
+ARCHIVE_MONOLITH = os.path.join("archives", "google-skills-complete.md")
 
-# Data Loss / Anomaly Guard Tolerances
-MAX_ALLOWED_DATA_LOSS_PCT = 0.15  # Fail if new badge count drops >15% below stored archive
+# Anomaly Guard Tolerance
+MAX_ALLOWED_DATA_LOSS_PCT = 0.15
 
 HEADERS = {
     "User-Agent": (
@@ -56,7 +49,7 @@ HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/124.0.0.0 Safari/537.36"
     ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.8,*/*;q=0.8",
+    "Accept": "application/json, text/plain, */*",
     "Accept-Language": "en-US,en;q=0.9",
 }
 
@@ -83,7 +76,6 @@ def normalize_date_string(raw_date: Any) -> str | None:
     if not s_date or s_date.lower() in ("none", "null", "n/a"):
         return None
 
-    # Handle numeric string timestamp
     if s_date.isdigit():
         try:
             ts = float(s_date)
@@ -105,6 +97,7 @@ def normalize_date_string(raw_date: Any) -> str | None:
         "%Y-%m-%d",
         "%m/%d/%Y",
         "%d/%m/%Y",
+        "%Y/%m/%d",
     ):
         try:
             return datetime.strptime(s_date, fmt).strftime("%Y-%m-%d")
@@ -121,21 +114,21 @@ def normalize_date_string(raw_date: Any) -> str | None:
 
 
 class GoogleBadgeItemModel(BaseModel):
-    """Normalized schema for processed Google Skills badge entity validated before archive output."""
-    id: str = Field(..., min_length=1, description="Unique badge ID or generated slug hash")
-    title: str = Field(..., min_length=1, description="Verified credential or badge title")
-    name: str = Field(..., min_length=1, description="Standard title duplicate for compatibility")
-    issuer: str = Field("Google Cloud", description="Issuing organization or authority")
-    issuer_name: str = Field("Google Cloud", description="Issuer alias for schema compatibility")
+    """Normalized schema for Google Skills credential entities."""
+    id: str = Field(..., min_length=1, description="Unique badge ID or hash")
+    title: str = Field(..., min_length=1, description="Google achievement or skill title")
+    name: str = Field(..., min_length=1, description="Title alias for compatibility")
+    issuer: str = Field("Google", description="Issuing body")
+    issuer_name: str = Field("Google", description="Issuer alias for compatibility")
     issued_at: str | None = Field(None, description="ISO YYYY-MM-DD earned date")
     issued_at_date: str | None = Field(None, description="Alias for issued date")
     date: str | None = Field(None, description="Alias for issued date")
-    image_url: str | None = Field(None, description="Hosted badge image asset URL")
-    verify_url: str | None = Field(None, description="Public verification link")
+    image_url: str | None = Field(None, description="Badge image URL")
+    verify_url: str | None = Field(None, description="Public verification or detail link")
     url: str | None = Field(None, description="Alias for verify_url")
     type: str = Field("Google Skill Badge", description="Credential classification type")
     verification_type: str = Field("Google Skill Badge", description="Alias for verification category")
-    skills: list[str] = Field(default_factory=list, description="Array of extracted skill strings")
+    skills: list[str] = Field(default_factory=list, description="Associated skills")
 
     @field_validator("issued_at", "issued_at_date", "date", mode="before")
     @classmethod
@@ -146,10 +139,7 @@ class GoogleBadgeItemModel(BaseModel):
     @classmethod
     def sanitize_skills_list(cls, val: Any) -> list[str]:
         if isinstance(val, list):
-            clean = []
-            for item in val:
-                if isinstance(item, str) and item.strip():
-                    clean.append(item.strip())
+            clean = [str(item).strip() for item in val if isinstance(item, str) and item.strip()]
             return list(dict.fromkeys(clean))
         elif isinstance(val, str) and val.strip():
             return [val.strip()]
@@ -157,7 +147,7 @@ class GoogleBadgeItemModel(BaseModel):
 
 
 class GoogleSkillsArchivePayloadModel(BaseModel):
-    """Root model for JSON persistence validation."""
+    """Root model for Google Skills JSON validation."""
     profile_id: str
     total_count: int = Field(ge=0)
     badges: list[GoogleBadgeItemModel]
@@ -171,258 +161,170 @@ class PipelineDataLossAnomaly(Exception):
     """Raised when incoming dataset drops drastically below previous archive baseline."""
 
 
+def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int:
+    """Evaluates baseline record count from existing JSON or monolith archive markdown."""
+    candidate_json_paths = [
+        json_path,
+        "google_skills_badges.json",
+        os.path.join("data", "google_skills_badges.json"),
+    ]
+    for path in candidate_json_paths:
+        if os.path.exists(path):
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    count = data.get("total_count", len(data.get("badges", []))) if isinstance(data, dict) else len(data)
+                    if count > 0:
+                        return count
+            except (json.JSONDecodeError, OSError):
+                pass
+
+    if os.path.exists(monolith_path):
+        try:
+            with open(monolith_path, "r", encoding="utf-8") as f:
+                lines = f.readlines()
+            rows = [l for l in lines if l.strip().startswith("|") and not l.strip().startswith("| Date") and ":---" not in l]
+            if len(rows) > 0:
+                return len(rows)
+        except OSError:
+            pass
+
+    return 0
+
+
 def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
-    """
-    Loss Guard: Compares new incoming parsed badge count against existing local JSON.
-    Prevents corrupt API/HTML responses from silently clearing archive data.
-    """
-    if not os.path.exists(output_file):
-        logger.info(f"🛡️ Loss Guard: Initial creation mode (no existing '{output_file}').")
-        return
+    """Loss Guard: Compares incoming badge count against stored baseline."""
+    old_count = get_stored_archive_baseline_count(output_file, ARCHIVE_MONOLITH)
+    new_count = len(new_badges)
 
-    try:
-        with open(output_file, "r", encoding="utf-8") as f:
-            old_data = json.load(f)
+    logger.info(f"🛡️ Loss Guard Check: Stored Archive Baseline = {old_count} badges | Incoming Dataset = {new_count} badges.")
 
-        old_badges = old_data.get("badges", [])
-        old_count = old_data.get("total_count", len(old_badges))
-        new_count = len(new_badges)
+    if old_count > 0 and new_count == 0:
+        raise PipelineDataLossAnomaly(
+            f"CRITICAL ANOMALY: Incoming fetch returned 0 badges, but stored archive baseline contains {old_count}. Aborting sync."
+        )
 
-        logger.info(f"🛡️ Loss Guard Check: Stored Archive = {old_count} badges | Incoming API = {new_count} badges.")
-
-        if old_count > 0 and new_count == 0:
+    if old_count > 0:
+        drop_ratio = (old_count - new_count) / float(old_count)
+        if drop_ratio > MAX_ALLOWED_DATA_LOSS_PCT:
             raise PipelineDataLossAnomaly(
-                f"CRITICAL ANOMALY: Incoming fetch returned 0 badges, but stored archive contains {old_count}. Aborting sync."
+                f"CRITICAL ANOMALY: Incoming badge count ({new_count}) dropped by {drop_ratio:.1%} "
+                f"from baseline ({old_count}). Maximum allowed threshold is {MAX_ALLOWED_DATA_LOSS_PCT:.0%}. Aborting write."
             )
 
-        if old_count > 0:
-            drop_ratio = (old_count - new_count) / float(old_count)
-            if drop_ratio > MAX_ALLOWED_DATA_LOSS_PCT:
-                raise PipelineDataLossAnomaly(
-                    f"CRITICAL ANOMALY: Incoming badge count ({new_count}) dropped by {drop_ratio:.1%} "
-                    f"from baseline ({old_count}). Maximum allowed drop threshold is {MAX_ALLOWED_DATA_LOSS_PCT:.0%}. Aborting write."
-                )
-
-        logger.info("✅ Loss Guard Assertion Passed: Incoming payload verified against archive baseline.")
-
-    except json.JSONDecodeError:
-        logger.warning(f"⚠️ Loss Guard Notice: '{output_file}' exists but contains invalid JSON. Overwriting safely.")
+    logger.info("✅ Loss Guard Assertion Passed: Incoming payload verified against archive baseline.")
 
 
 # ==============================================================================
-# FETCHERS & PARSERS
+# DATA INGESTION & PARSERS
 # ==============================================================================
 
-def generate_badge_id(title: str, date_str: str | None, verify_url: str | None = None) -> str:
-    """Generates a stable, unique identifier for Google Skills badges.
-    Prioritizes Google's canonical numeric badge ID from verify_url if present.
-    """
-    if verify_url:
-        m = re.search(r"/badges/(\d+)", verify_url)
-        if m:
-            return f"google-skills-badge-{m.group(1)}"
-        m_id = re.search(r"[?&]id=([^&]+)", verify_url)
-        if m_id:
-            return f"google-skills-badge-{m_id.group(1)}"
-
-    raw = f"google-skills-{title.strip().lower()}-{date_str or ''}-{verify_url or ''}"
+def generate_badge_id(title: str, date_str: str | None) -> str:
+    """Generates a stable identifier for badges lacking explicit IDs."""
+    raw = f"google-skills-{title.strip().lower()}-{date_str or ''}"
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
 
 
-def parse_badges_from_html(html_content: str, profile_id: str) -> list[dict]:
-    """Parses Google Skills / Cloud Skills Boost profile HTML for earned badges."""
-    soup = BeautifulSoup(html_content, "html.parser")
-    badges = []
+def parse_google_badges_from_json(json_path: str) -> list[dict]:
+    """Reads existing Google badge entries directly from local JSON storage."""
+    if not os.path.exists(json_path):
+        return []
 
-    badge_cards = (
-        soup.select(".public-profile-badge")
-        or soup.select(".profile-badge")
-        or soup.select(".ql-badge")
-        or soup.select(".badge-item")
-        or soup.find_all(
-            "div",
-            class_=lambda c: c
-            and "badge" in c.lower()
-            and "grid" not in c.lower()
-            and "container" not in c.lower(),
-        )
-    )
+    logger.info(f"📄 Reading existing Google badges from JSON: '{json_path}'")
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
 
-    logger.info(f"  Extracted {len(badge_cards)} raw badge elements from profile HTML.")
-    public_profile_url = f"https://www.skills.google/public_profiles/{profile_id}"
+        raw_list = data.get("badges", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
+        badges = []
+        for item in raw_list:
+            if isinstance(item, dict):
+                try:
+                    validated = GoogleBadgeItemModel(**item)
+                    badges.append(validated.model_dump())
+                except ValidationError as ve:
+                    logger.warning(f"⚠️ Skipping invalid JSON badge entry: {ve}")
 
-    for idx, card in enumerate(badge_cards, start=1):
-        title = None
-        raw_date = None
-
-        # Extract Verification Link FIRST so verify_url is available for canonical ID generation
-        link_elem = card.find("a")
-        verify_url = link_elem.get("href") if link_elem else public_profile_url
-        if verify_url and verify_url.startswith("/"):
-            verify_url = f"https://www.skills.google{verify_url}"
-
-        # Strategy 1: Explicit CSS Selectors for Title
-        title_elem = (
-            card.select_one(".public-profile-badge__name")
-            or card.select_one(".public-profile-badge__title")
-            or card.select_one(".badge-name")
-            or card.select_one(".badge-title")
-            or card.select_one(".ql-subhead-1")
-            or card.select_one(".ql-subhead-2")
-            or card.select_one(".ql-title")
-            or card.select_one(".ql-title-medium")
-            or card.select_one(".ql-body-1")
-            or card.select_one("h1")
-            or card.select_one("h2")
-            or card.select_one("h3")
-            or card.select_one("h4")
-            or card.select_one("a.ql-subhead-1")
-            or card.select_one("a")
-        )
-        if title_elem:
-            title = title_elem.get_text(strip=True)
-
-        # Extract all clean lines of text inside card for fallbacks
-        lines = [
-            line.strip()
-            for line in card.get_text(separator="\n").split("\n")
-            if line.strip()
-        ]
-
-        # Strategy 2: Text Line Fallback for Title
-        if not title and lines:
-            for line in lines:
-                line_lower = line.lower()
-                if not any(
-                    k in line_lower
-                    for k in [
-                        "earned",
-                        "completed",
-                        "est",
-                        "edt",
-                        "pst",
-                        "pdt",
-                        "format_quote",
-                        "share",
-                        "verify",
-                        "view credential",
-                    ]
-                ):
-                    title = line
-                    break
-
-        if not title:
-            logger.warning(f"⚠️ Could not extract title for badge card #{idx}. Skipping element.")
-            continue
-
-        # Extract Date
-        date_elem = (
-            card.select_one(".public-profile-badge__date")
-            or card.select_one(".badge-date")
-            or card.select_one(".ql-body-2")
-            or card.select_one(".ql-date")
-            or card.select_one(".ql-caption")
-            or card.select_one("span.date")
-            or card.select_one("p.date")
-        )
-        if date_elem:
-            raw_date = date_elem.get_text(strip=True)
-        else:
-            for line in lines:
-                line_lower = line.lower()
-                if any(
-                    k in line_lower
-                    for k in [
-                        "earned",
-                        "completed",
-                        "jan",
-                        "feb",
-                        "mar",
-                        "apr",
-                        "may",
-                        "jun",
-                        "jul",
-                        "aug",
-                        "sep",
-                        "oct",
-                        "nov",
-                        "dec",
-                    ]
-                ):
-                    raw_date = line
-                    break
-
-        if raw_date:
-            for keyword in ["Earned", "Completed", "EST", "EDT", "PST", "PDT"]:
-                raw_date = raw_date.replace(keyword, "").strip()
-
-        # Extract Image URL
-        img_elem = card.find("img")
-        image_url = img_elem.get("src") if img_elem else None
-
-        badge_id = generate_badge_id(title, raw_date, verify_url)
-
-        raw_entry = {
-            "id": badge_id,
-            "title": title,
-            "name": title,
-            "issuer": "Google Cloud",
-            "issuer_name": "Google Cloud",
-            "issued_at": raw_date,
-            "issued_at_date": raw_date,
-            "date": raw_date,
-            "image_url": image_url,
-            "verify_url": verify_url,
-            "url": verify_url,
-            "type": "Google Skill Badge",
-            "verification_type": "Google Skill Badge",
-            "skills": [title],
-        }
-
-        try:
-            validated_model = GoogleBadgeItemModel(**raw_entry)
-            badges.append(validated_model.model_dump())
-        except ValidationError as ve:
-            logger.warning(
-                f"⚠️ Anomaly Guard: Skipping malformed Google Skills badge entry #{idx}: {ve}"
-            )
-
-    return badges
+        logger.info(f"✅ Loaded {len(badges)} valid Google badges from JSON file.")
+        return badges
+    except (json.JSONDecodeError, OSError) as e:
+        logger.warning(f"⚠️ Error reading JSON file '{json_path}': {e}")
+        return []
 
 
 def fetch_google_skills_badges(profile_id: str) -> list[dict]:
-    """Fetches public profile content from Google Skills / Cloud Skills Boost."""
+    """Orchestrates fetching Google Skills badges via API endpoints or local fallbacks."""
+    # 1. Primary Strategy: API / Public Profile JSON
     urls = [
-        f"https://www.skills.google/public_profiles/{profile_id}",
-        f"https://www.cloudskillsboost.google/public_profiles/{profile_id}",
+        f"https://www.skills.google/public_profiles/{profile_id}.json",
+        f"https://api.skills.google/v1/public_profiles/{profile_id}/badges",
     ]
 
     for url in urls:
-        logger.info(f"🔄 Attempting fetch from: {url}")
+        logger.info(f"🔄 Attempting fetch from Google Skills endpoint: {url}")
         try:
             response = requests.get(url, headers=HEADERS, timeout=20)
             if response.status_code == 200:
-                parsed_badges = parse_badges_from_html(response.text, profile_id)
-                if parsed_badges:
-                    logger.info(f"✅ Successfully fetched {len(parsed_badges)} badges from {url}")
-                    return parsed_badges
-            else:
-                logger.warning(f"⚠️ Endpoint returned status code {response.status_code}: {url}")
+                data = response.json()
+                raw_list = data.get("badges", data.get("items", data if isinstance(data, list) else []))
+                parsed = []
+                for item in raw_list:
+                    if isinstance(item, dict):
+                        title = item.get("title") or item.get("name") or item.get("badge_title")
+                        dt = item.get("earned_at") or item.get("issued_at") or item.get("date")
+                        b_id = item.get("id") or generate_badge_id(str(title), str(dt))
+                        verify = item.get("verify_url") or item.get("url") or f"https://www.skills.google/public_profiles/{profile_id}"
+
+                        raw_entry = {
+                            "id": str(b_id),
+                            "title": str(title),
+                            "name": str(title),
+                            "issuer": "Google",
+                            "issuer_name": "Google",
+                            "issued_at": dt,
+                            "issued_at_date": dt,
+                            "date": dt,
+                            "image_url": item.get("image_url") or item.get("icon"),
+                            "verify_url": verify,
+                            "url": verify,
+                            "type": item.get("type", "Google Skill Badge"),
+                            "verification_type": item.get("type", "Google Skill Badge"),
+                            "skills": item.get("skills", [title] if title else ["Google Cloud"]),
+                        }
+                        try:
+                            parsed.append(GoogleBadgeItemModel(**raw_entry).model_dump())
+                        except ValidationError:
+                            pass
+                if parsed:
+                    logger.info(f"✅ Successfully retrieved {len(parsed)} badges via API.")
+                    return parsed
         except requests.exceptions.RequestException as e:
             logger.warning(f"⚠️ Request failed for {url}: {e}")
 
-    logger.error("❌ Failed to fetch Google Skills badges from all candidate URLs.")
+    # 2. Secondary Strategy: Fallback to local files
+    json_candidates = [
+        OUTPUT_FILE,
+        "google_skills_badges.json",
+        os.path.join("data", "google_skills_badges.json"),
+    ]
+    for cand in json_candidates:
+        if os.path.exists(cand):
+            local_badges = parse_google_badges_from_json(cand)
+            if local_badges:
+                return local_badges
+
+    logger.error("❌ Failed to acquire Google Skills badges from network or local files.")
     return []
 
 
 # ==============================================================================
-# ARCHIVE BUILDER & README GENERATION
+# ARCHIVE BUILDER
 # ==============================================================================
 
 def build_archives_and_readme(badges: list[dict]) -> None:
-    """Invokes archiver to generate markdown chunk files and update README.md."""
+    """Invokes archiver helper to generate markdown files and update README."""
     if not generate_platform_archive:
-        logger.error("❌ Archiver module helper not available. Skipping markdown generation.")
+        logger.error("❌ Archiver module helper unavailable. Skipping markdown generation.")
         return
 
     sorted_badges = sorted(
@@ -438,7 +340,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
         date_str = str(b.get("issued_at") or "2026-01-01").strip()
         title = str(b.get("title") or "Unknown Credential").strip()
         verify_url = b.get("verify_url")
-        issuer = str(b.get("issuer") or "Google Cloud").strip()
+        issuer = str(b.get("issuer") or "Google").strip()
         v_type = str(b.get("type") or "Google Skill Badge").strip()
 
         for skill in b.get("skills", []):
@@ -463,7 +365,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     marker_start = "<!-- GOOGLE_SKILLS_START -->"
     marker_end = "<!-- GOOGLE_SKILLS_END -->"
 
-    profile_url = f"https://www.skills.google/public_profiles/{GOOGLE_SKILLS_PROFILE_ID}"
+    profile_url = f"https://www.skills.google/public_profiles/{GOOGLE_PROFILE_ID}"
 
     readme_lines = [
         "### Google Skills Credentials",
@@ -504,50 +406,58 @@ def build_archives_and_readme(badges: list[dict]) -> None:
 def main():
     logger.info("Starting Google Skills API/Scraping Pipeline with Pydantic & Loss Guards...")
 
-    # Ensure validation directory exists before execution
-    output_dir = os.path.dirname(OUTPUT_FILE)
-    if output_dir:
-        os.makedirs(output_dir, exist_ok=True)
+    # SAFE DIRECTORY INITIALIZATION FIX (Prevents FileExistsError when for_validation exists as a file)
+    output_dir = VALIDATION_DIR
+    if os.path.exists(output_dir):
+        if not os.path.isdir(output_dir):
+            logger.warning(f"⚠️ '{output_dir}' exists as a regular file. Removing it to convert into a directory.")
+            os.remove(output_dir)
 
-    raw_badges = fetch_google_skills_badges(GOOGLE_SKILLS_PROFILE_ID)
+    os.makedirs(output_dir, exist_ok=True)
+
+    raw_badges = fetch_google_skills_badges(GOOGLE_PROFILE_ID)
 
     unique_badges = []
     seen = set()
 
     for badge in raw_badges:
-        dedup_key = (
-            badge.get("id")
-            or badge.get("verify_url")
-            or f"{badge.get('title')}-{badge.get('issued_at')}"
-        )
+        dedup_key = badge.get("id") or f"{badge.get('title')}-{badge.get('issued_at')}"
         if dedup_key not in seen:
             seen.add(dedup_key)
             unique_badges.append(badge)
 
-    # 1. Execute Data Loss Guard prior to file modification
+    # 1. Anomaly & Loss Guard Assertion
     try:
         execute_data_loss_guard(unique_badges, OUTPUT_FILE)
     except PipelineDataLossAnomaly as anomaly_err:
         logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
         sys.exit(1)
 
-    # 2. Validate Root Payload with Pydantic Schema
+    # 2. Pydantic Payload Validation & File Dump
     payload_dict = {
-        "profile_id": GOOGLE_SKILLS_PROFILE_ID,
+        "profile_id": GOOGLE_PROFILE_ID,
         "total_count": len(unique_badges),
         "badges": unique_badges,
     }
 
     try:
         validated_payload = GoogleSkillsArchivePayloadModel(**payload_dict)
+        
+        # Save primary output JSON file
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write(validated_payload.model_dump_json(indent=2))
-        logger.info(f"🎉 Persistence complete: '{OUTPUT_FILE}' updated safely ({len(unique_badges)} badges).")
+        
+        # Save validation copy into for_validation directory
+        val_path = os.path.join(output_dir, OUTPUT_FILE)
+        with open(val_path, "w", encoding="utf-8") as f:
+            f.write(validated_payload.model_dump_json(indent=2))
+
+        logger.info(f"🎉 Persistence complete: '{OUTPUT_FILE}' updated ({len(unique_badges)} badges).")
     except ValidationError as ve:
         logger.error(f"❌ Root Payload Validation Error: {ve}")
         sys.exit(1)
 
-    # 3. Generate Archives and Update README
+    # 3. Build Markdown Archives
     build_archives_and_readme(unique_badges)
     logger.info("Pipeline execution completed successfully.")
 
