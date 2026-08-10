@@ -6559,7 +6559,7 @@
                 "scored": true,
                 "score": 0.0,
                 "passed": false,
-                "scriptResult": "Generate SAS and connection string for account/container\n--------------------------------------------------------\n\"images_blob_sas_url\" : \"https://storage60080551.blob.core.windows.net/?sv=2024-11-04&ss=b&srt=c&sp=rl&se=2026-03-18T21:49:44Z&st=2026-03-18T13:34:44Z&spr=https&sig=rVitbQ%2BP1wr21qrHYOJsbNPnx6lgAc0zQLgm7tACdGg%3D\"\r\n"
+                "scriptResult": "Generate SAS and connection string for account/container\n--------------------------------------------------------\n\"images_blob_sas_url\" : \"https://storage60080551.blob.core.windows.net/?sv=2024-11-04&ss=b&srt=c&sp=rl&se=2026-03-18T21:49:44Z&st=2026-03-18T13:34:44Z&spr=https&sig=[REDACTED]\"\r\n"
               },
               {
                 "activityId": "95c0bfb7-768c-432d-a97d-d7d7b696c188",
@@ -6567,7 +6567,7 @@
                 "scored": true,
                 "score": 1.0,
                 "passed": true,
-                "scriptResult": "Get/Rotate storage account access keys\n--------------------------------------\nInitial Key : Wz7IhvU1HMbsiO62kqZkXx8IhELL1gVFyZ+igoDcaVd1o5U5oktvM61hJK9wsJEgvzfZxx279UnZ+AStVXwLhg==\nNew Key1 : yfUs3nH/BWwJwS3w+W2BBRqUFN8tuoasZTac+3BmFQhiEc32cBe1IqhVM75VazButElkk0NLpvp4+AStgr30Yw==\n"
+                "scriptResult": "Get/Rotate storage account access keys\n--------------------------------------\nInitial Key : [REDACTED]\nNew Key1 : [REDACTED]\n"
               },
               {
                 "activityId": "b0b29a16-4f42-4e61-8d39-47c57af9ebc5",
@@ -6583,7 +6583,7 @@
                 "scored": true,
                 "score": 1.0,
                 "passed": true,
-                "scriptResult": "Gather Key vault information\n----------------------------\nContent of C:\\Data_Files\\Storage Account Keys.txt : \n\"Key name\" : \"key2\" \"Key\" : \"d9WgQGQk3VsZsQkwxNHYz9Ds68lJpgV9ozkVxdtBF+d4FRVJH/siwLsZ9BKsKqn/LqZdJPIxO9Rm+AStC0z4Hg==\" \"Connection String\" : \"DefaultEndpointsProtocol=https;AccountName=storage60080551;AccountKey=d9WgQGQk3VsZsQkwxNHYz9Ds68lJpgV9ozkVxdtBF+d4FRVJH/siwLsZ9BKsKqn/LqZdJPIxO9Rm+AStC0z4Hg==;EndpointSuffix=core.windows.net\"\n\nKey2 value : \r\n\r\nKeyName : key2\r\nValue   : d9WgQGQk3VsZsQkwxNHYz9Ds68lJpgV9ozkVxdtBF+d4FRVJH/siwLsZ9BKsKqn/LqZdJPIxO9Rm+AStC0z4Hg==\r\n\r\n\r\n\r\nDefaultEndpointsProtocol=https;AccountName=storage60080551;AccountKey=d9WgQGQk3VsZsQkwxNHYz9Ds68lJpgV9ozkVxdtBF+d4FRVJH/siwLsZ9BKsKqn/LqZdJPIxO9Rm+AStC0z4Hg==;EndpointSuffix=core.windows.net\r\n\r\n"
+                "scriptResult": "Gather Key vault information\n----------------------------\nContent of C:\\Data_Files\\Storage Account Keys.txt : \n\"Key name\" : \"key2\" \"Key\" : \"[REDACTED]\" \"Connection String\" : \"[REDACTED]\"\n\nKey2 value : \r\n\r\nKeyName : key2\r\nValue   : [REDACTED]\r\n\r\n\r\n\r\nDefaultEndpointsProtocol=https;AccountName=storage60080551;AccountKey=[REDACTED];EndpointSuffix=core.windows.net\r\n\r\n"
               }
             ]
           },
