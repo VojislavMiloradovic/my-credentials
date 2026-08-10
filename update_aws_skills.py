@@ -1,8 +1,8 @@
 """
 update_aws_skills.py
 --------------------
-Pipeline for updating AWS Skill Builder credentials from CSV exports or API/HTML responses.
-Includes CSV transcript parsing, Pydantic schema validation, date coercion,
+Pipeline for updating AWS Skill Builder credentials from CSV exports, local JSON data, or API/HTML responses.
+Includes CSV/JSON parsing, Pydantic schema validation, date coercion,
 data loss / anomaly guards, and integration with the repository archiver.
 """
 
@@ -36,7 +36,7 @@ logger = logging.getLogger("aws_skills_updater")
 
 # Configuration Constants
 AWS_PROFILE_USER = os.getenv("AWS_PROFILE_USER", "vojislavmiloradovic")
-OUTPUT_FILE = os.getenv("OUTPUT_FILE", "aws_skills_badges.json")
+OUTPUT_FILE = os.getenv("OUTPUT_FILE", "aws_skill_badges.json")
 ARCHIVE_MONOLITH = os.path.join("archives", "aws-skills-complete.md")
 
 # Data Loss / Anomaly Guard Tolerances
@@ -162,21 +162,23 @@ class PipelineDataLossAnomaly(Exception):
 
 def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int:
     """Evaluates baseline record count from existing JSON or monolith archive markdown."""
-    if os.path.exists(json_path):
-        try:
-            with open(json_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                count = data.get("total_count", len(data.get("badges", [])))
-                if count > 0:
-                    return count
-        except (json.JSONDecodeError, OSError):
-            pass
+    candidate_json_paths = [json_path, "aws_skill_badges.json", "aws_skills_badges.json", os.path.join("data", "aws_skill_badges.json")]
+    for path in candidate_json_paths:
+        if os.path.exists(path):
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    count = data.get("total_count", len(data.get("badges", []))) if isinstance(data, dict) else len(data)
+                    if count > 0:
+                        return count
+            except (json.JSONDecodeError, OSError):
+                pass
 
     if os.path.exists(monolith_path):
         try:
             with open(monolith_path, "r", encoding="utf-8") as f:
                 lines = f.readlines()
-            rows = [l for l in lines if l.strip().startswith("|") and not l.strip().startswith("| Date") and not ":---" in l]
+            rows = [l for l in lines if l.strip().startswith("|") and not l.strip().startswith("| Date") and ":---" not in l]
             if len(rows) > 0:
                 return len(rows)
         except OSError:
@@ -212,13 +214,40 @@ def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
 
 
 # ==============================================================================
-# CSV PARSER & FETCHERS
+# CSV & JSON PARSERS / FETCHERS
 # ==============================================================================
 
 def generate_badge_id(title: str, date_str: str | None) -> str:
     """Generates a stable identifier for badges lacking explicit IDs."""
     raw = f"aws-skills-{title.strip().lower()}-{date_str or ''}"
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
+
+
+def parse_aws_badges_from_json(json_path: str) -> list[dict]:
+    """Reads and validates existing AWS badge entries directly from local JSON file."""
+    if not os.path.exists(json_path):
+        return []
+
+    logger.info(f"📄 Reading existing AWS badges from local JSON file: '{json_path}'")
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        raw_list = data.get("badges", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
+        badges = []
+        for item in raw_list:
+            if isinstance(item, dict):
+                try:
+                    validated = AwsBadgeItemModel(**item)
+                    badges.append(validated.model_dump())
+                except ValidationError as ve:
+                    logger.warning(f"⚠️ Skipping invalid JSON badge entry: {ve}")
+
+        logger.info(f"✅ Loaded {len(badges)} valid AWS badges from JSON file '{json_path}'.")
+        return badges
+    except (json.JSONDecodeError, OSError) as e:
+        logger.warning(f"⚠️ Error reading JSON file '{json_path}': {e}")
+        return []
 
 
 def locate_aws_csv_file() -> str | None:
@@ -242,7 +271,6 @@ def locate_aws_csv_file() -> str | None:
         if os.path.exists(cand):
             return cand
 
-    # Pattern search fallback
     glob_matches = glob.glob("*aws*.csv") + glob.glob("data/*aws*.csv")
     if glob_matches:
         return glob_matches[0]
@@ -259,7 +287,6 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
     with open(csv_path, "r", encoding="utf-8-sig") as f:
         lines = f.readlines()
 
-    # Fast-forward past non-CSV metadata prelude lines (e.g. "Complete Training Activity List")
     header_idx = -1
     for idx, line in enumerate(lines):
         if line.strip().startswith("Title,") or "Title,Type" in line:
@@ -286,7 +313,6 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
         if not title:
             continue
 
-        # Extract completion date, with fallbacks for started/enrolled dates
         raw_date = (
             row_lower.get("completed on")
             or row_lower.get("date")
@@ -350,22 +376,35 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
 
 
 def fetch_aws_skills_badges(profile_user: str) -> list[dict]:
-    """Orchestrates ingestion prioritizing CSV dataset fallback to HTTP/API endpoints."""
-    # 1. Primary Ingestion Strategy: Local CSV File
+    """Orchestrates ingestion prioritizing CSV exports, root/data JSON files, then API endpoints."""
+    # 1. Primary Strategy: Local CSV File Export
     csv_file = locate_aws_csv_file()
     if csv_file:
         parsed_csv_badges = parse_aws_badges_from_csv(csv_file, profile_user)
         if parsed_csv_badges:
             return parsed_csv_badges
 
-    # 2. Secondary Ingestion Strategy: Network Endpoints
+    # 2. Secondary Strategy: Root or Data JSON File (aws_skill_badges.json)
+    json_candidates = [
+        OUTPUT_FILE,
+        "aws_skill_badges.json",
+        "aws_skills_badges.json",
+        os.path.join("data", "aws_skill_badges.json"),
+    ]
+    for json_file in json_candidates:
+        if os.path.exists(json_file):
+            json_badges = parse_aws_badges_from_json(json_file)
+            if json_badges:
+                return json_badges
+
+    # 3. Tertiary Strategy: Network API / Web Endpoints
     urls = [
         f"https://skillsprofile.skillbuilder.aws/user/{profile_user}",
         f"https://skillsprofile.skillbuilder.aws/api/user/{profile_user}/badges",
     ]
 
     for url in urls:
-        logger.info(f"🔄 Attempting fetch from: {url}")
+        logger.info(f"🔄 Attempting fetch from endpoint: {url}")
         try:
             response = requests.get(url, headers=HEADERS, timeout=20)
             if response.status_code == 200:
@@ -405,7 +444,7 @@ def fetch_aws_skills_badges(profile_user: str) -> list[dict]:
         except requests.exceptions.RequestException as e:
             logger.warning(f"⚠️ Request failed for {url}: {e}")
 
-    logger.error("❌ Failed to acquire AWS Skill Builder badges from CSV or candidate network endpoints.")
+    logger.error("❌ Failed to acquire AWS Skill Builder badges from CSV, local JSON, or network endpoints.")
     return []
 
 
@@ -413,7 +452,6 @@ def fetch_aws_skills_badges(profile_user: str) -> list[dict]:
 # ARCHIVE BUILDER & README GENERATION
 # ==============================================================================
 
-# Easily editable Cloud Quest Stats
 CLOUD_QUEST_STATS = {
     "Role": "Cloud Practitioner / Generative AI Practitioner",
     "Builder Level": 12,
@@ -422,6 +460,7 @@ CLOUD_QUEST_STATS = {
     "Pets Unlocked": 17,
     "Vehicles Unlocked": 2,
 }
+
 
 def build_archives_and_readme(badges: list[dict]) -> None:
     """Invokes archiver helper to generate markdown chunk files and update README.md."""
@@ -469,18 +508,16 @@ def build_archives_and_readme(badges: list[dict]) -> None:
 
     profile_url = f"https://skillsprofile.skillbuilder.aws/user/{AWS_PROFILE_USER}"
 
-    # Construct the Cloud Quest table lines dynamically
     cq_lines = [
         "#### AWS Cloud Quest Summary",
         "",
         "| Metric | Value |",
-        "| :--- | :--- |"
+        "| :--- | :--- |",
     ]
     for key, value in CLOUD_QUEST_STATS.items():
         cq_lines.append(f"| **{key}** | {value} |")
-    cq_lines.append("")  # Empty line for spacing
+    cq_lines.append("")
 
-    # Build the full readme lines
     readme_lines = [
         "### AWS Skill Builder Credentials",
         "",
@@ -489,13 +526,11 @@ def build_archives_and_readme(badges: list[dict]) -> None:
         f"Public Profile: [Verify AWS Skill Builder Profile]({profile_url})",
         f"**Total Portfolio Credentials:** {total_count}",
         f"**Total Verified Skills Mapped:** {total_skills}",
-        ""
+        "",
     ]
 
-    # Inject the Cloud Quest lines right below the summary metrics
     readme_lines.extend(cq_lines)
 
-    # Append the recent credentials section
     readme_lines.extend([
         "#### Latest Earned Credentials",
         "",
