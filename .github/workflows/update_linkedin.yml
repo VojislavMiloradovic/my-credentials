@@ -6,7 +6,6 @@ on:
       - 'data/Certifications.csv'
   workflow_dispatch:
 
-# Enforce sequential workflow execution to prevent git push collisions
 concurrency:
   group: git-push-main
   cancel-in-progress: false
