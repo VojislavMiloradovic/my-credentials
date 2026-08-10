@@ -7,7 +7,6 @@ Includes JSON parsing, Pydantic schema validation, date coercion,
 data loss / anomaly guards, safe directory handling, and archiver integration.
 """
 
-import glob
 import hashlib
 import json
 import logging
@@ -406,12 +405,11 @@ def build_archives_and_readme(badges: list[dict]) -> None:
 def main():
     logger.info("Starting Google Skills API/Scraping Pipeline with Pydantic & Loss Guards...")
 
-    # SAFE DIRECTORY INITIALIZATION FIX (Prevents FileExistsError when for_validation exists as a file)
+    # SAFE DIRECTORY INITIALIZATION FIX
     output_dir = VALIDATION_DIR
-    if os.path.exists(output_dir):
-        if not os.path.isdir(output_dir):
-            logger.warning(f"⚠️ '{output_dir}' exists as a regular file. Removing it to convert into a directory.")
-            os.remove(output_dir)
+    if os.path.exists(output_dir) and not os.path.isdir(output_dir):
+        logger.warning(f"⚠️ '{output_dir}' exists as a regular file. Removing it to convert into a directory.")
+        os.remove(output_dir)
 
     os.makedirs(output_dir, exist_ok=True)
 
@@ -442,11 +440,11 @@ def main():
 
     try:
         validated_payload = GoogleSkillsArchivePayloadModel(**payload_dict)
-        
+
         # Save primary output JSON file
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write(validated_payload.model_dump_json(indent=2))
-        
+
         # Save validation copy into for_validation directory
         val_path = os.path.join(output_dir, OUTPUT_FILE)
         with open(val_path, "w", encoding="utf-8") as f:
