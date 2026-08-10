@@ -1,12 +1,13 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 521 records.
+This document represents a unified, verifiable list of all 522 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-08-09 | [AWS Knowledge: Amazon WorkSpaces Migrations - Training Badge](https://www.credly.com/badges/0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-08-09 | [Create and Manage Cloud Spanner Instances Skill Badge](https://www.credly.com/badges/22ddf09a-7e02-44c6-9a92-4c25ae5e05f0/public_url) | Google Cloud | Credly Verified |
 | 2026-08-08 | [Cilium Flow Encryption](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/public_url) | Isovalent | Credly Verified |
 | 2026-08-08 | [Cilium Network Policies](https://www.credly.com/badges/22c5caa6-fc0f-4a4e-9739-a14b97edfc01/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Cilium Cluster Mesh](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/public_url) | Isovalent | Credly Verified |

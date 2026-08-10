@@ -121,16 +121,17 @@ Showing latest 10 of 556 credentials. View full dataset via [Platform Archive In
 [Credly Verified Credentials](https://www.credly.com/users/vojislavmiloradovic/badges)
 
 Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic/badges)
-**Total Portfolio Credentials:** 521 (498 Credly Verified, 23 External/Imported)
-**Total Verified Skills Mapped:** 1900
+**Total Portfolio Credentials:** 522 (499 Credly Verified, 23 External/Imported)
+**Total Verified Skills Mapped:** 1902
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 521 credentials. View full dataset via [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-01.md), or [Monolithic File](./archives/credly-badges-complete.md).
+Showing latest 10 of 522 credentials. View full dataset via [Platform Archive Index](./archives/credly-badges-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-badges-2026-08-part-01.md), or [Monolithic File](./archives/credly-badges-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-08-09 | [AWS Knowledge: Amazon WorkSpaces Migrations - Training Badge](https://www.credly.com/badges/0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31/public_url) | Amazon Web Services Training and Certification | Credly Verified |
+| 2026-08-09 | [Create and Manage Cloud Spanner Instances Skill Badge](https://www.credly.com/badges/22ddf09a-7e02-44c6-9a92-4c25ae5e05f0/public_url) | Google Cloud | Credly Verified |
 | 2026-08-08 | [Cilium Flow Encryption](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/public_url) | Isovalent | Credly Verified |
 | 2026-08-08 | [Cilium Network Policies](https://www.credly.com/badges/22c5caa6-fc0f-4a4e-9739-a14b97edfc01/public_url) | Isovalent | Credly Verified |
 | 2026-08-07 | [Cilium Cluster Mesh](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/public_url) | Isovalent | Credly Verified |
@@ -139,7 +140,6 @@ Showing latest 10 of 521 credentials. View full dataset via [Platform Archive In
 | 2026-08-07 | [Cloud Tech Pro - Backup](https://www.credly.com/badges/da9a50b8-a6fc-4e2e-bf7e-35da0a65a04c/public_url) | Acronis | Credly Verified |
 | 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.credly.com/badges/6b9a8831-80bd-450b-8832-b13a02608855/public_url) | Google Cloud | Credly Verified |
 | 2026-08-07 | [Continuous Security Validation Workshop](https://www.credly.com/badges/132269ac-0ab7-4b20-91c4-76ed7fa3359e/public_url) | AttackIQ | Credly Verified |
-| 2026-08-07 | [Isovalent Lab Champion (10 labs)](https://www.credly.com/badges/1aa636d3-d301-4b4b-8808-e3da552cfc0b/public_url) | Isovalent | Credly Verified |
 <!-- CREDLY_BADGES_END -->
 
 

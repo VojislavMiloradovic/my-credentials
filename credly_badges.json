@@ -1,8 +1,8 @@
 {
   "user_username": "vojislavmiloradovic",
   "user_id": "752aee40-7358-4ade-9a49-81e8b6f49225",
-  "total_count": 521,
-  "native_count": 498,
+  "total_count": 522,
+  "native_count": 499,
   "external_count": 23,
   "badges": [
     {
@@ -25,6 +25,27 @@
         "Amazon WorkSpaces",
         "Amazon WorkSpaces Migration",
         "AWS"
+      ]
+    },
+    {
+      "id": "22ddf09a-7e02-44c6-9a92-4c25ae5e05f0",
+      "title": "Create and Manage Cloud Spanner Instances Skill Badge",
+      "name": "Create and Manage Cloud Spanner Instances Skill Badge",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-09",
+      "issued_at_date": "2026-08-09",
+      "date": "2026-08-09",
+      "expires_at": null,
+      "image_url": "https://images.credly.com/images/517b0725-e59c-47ec-8a3b-8025a67dc480/image.png",
+      "verify_url": "https://www.credly.com/badges/22ddf09a-7e02-44c6-9a92-4c25ae5e05f0/public_url",
+      "url": "https://www.credly.com/badges/22ddf09a-7e02-44c6-9a92-4c25ae5e05f0/public_url",
+      "type": "Credly Verified",
+      "verification_type": "Credly Verified",
+      "skills": [
+        "Cloud Database",
+        "Cloud Spanner",
+        "Database Migration"
       ]
     },
     {
