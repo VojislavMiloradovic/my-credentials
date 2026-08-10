@@ -3,7 +3,8 @@ update_credly_badges.py
 -----------------------
 Pipeline for updating Credly profile badges and credentials via Credly public API.
 Includes Credly API pagination, JSON parsing, Pydantic schema validation,
-date coercion, data loss / anomaly guards, safe directory handling, and archiver integration.
+date coercion, data loss / anomaly guards, safe directory handling, archiver integration,
+and additive dataset merging to prevent API page truncation data loss.
 """
 
 import json
@@ -220,7 +221,7 @@ def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
 
 
 # ==============================================================================
-# CREDLY API FETCHING
+# CREDLY API FETCHING & MERGING
 # ==============================================================================
 
 def parse_credly_badges_from_json(json_path: str) -> list[dict]:
@@ -248,6 +249,21 @@ def parse_credly_badges_from_json(json_path: str) -> list[dict]:
     except (json.JSONDecodeError, OSError) as e:
         logger.warning(f"⚠️ Error reading JSON file '{json_path}': {e}")
         return []
+
+
+def load_existing_local_badges() -> list[dict]:
+    """Loads existing local badges from storage prior to API fetch to preserve historical data."""
+    candidates = [
+        OUTPUT_FILE,
+        os.path.join(VALIDATION_DIR, OUTPUT_FILE),
+        os.path.join("data", OUTPUT_FILE),
+    ]
+    for path in candidates:
+        if os.path.exists(path):
+            badges = parse_credly_badges_from_json(path)
+            if badges:
+                return badges
+    return []
 
 
 def fetch_credly_badges(username: str) -> list[dict]:
@@ -320,19 +336,33 @@ def fetch_credly_badges(username: str) -> list[dict]:
 
     if badges:
         logger.info(f"✅ Successfully fetched {len(badges)} badges from Credly API.")
-        return badges
 
-    # Fallback to local files if API fails
-    json_candidates = [
-        OUTPUT_FILE,
-        "credly_badges.json",
-        os.path.join("data", "credly_badges.json"),
-    ]
-    for cand in json_candidates:
-        if os.path.exists(cand):
-            return parse_credly_badges_from_json(cand)
+    return badges
 
-    return []
+
+def merge_badge_datasets(api_badges: list[dict], local_badges: list[dict]) -> list[dict]:
+    """
+    Unions local JSON badges and live API badges.
+    API data updates existing badges; historical local badges omitted by API pagination are retained.
+    """
+    badge_map = {}
+
+    for b in local_badges:
+        key = b.get("id") or f"{b.get('title')}-{b.get('issued_at')}"
+        if key:
+            badge_map[key] = b
+
+    for b in api_badges:
+        key = b.get("id") or f"{b.get('title')}-{b.get('issued_at')}"
+        if key:
+            badge_map[key] = b
+
+    merged = list(badge_map.values())
+    logger.info(
+        f"🔗 Union Merge Complete: Total = {len(merged)} badges "
+        f"(Preserved {len(merged) - len(api_badges)} missing items from local dataset)."
+    )
+    return merged
 
 
 # ==============================================================================
@@ -424,7 +454,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
 def main():
     logger.info("Starting Credly API Pipeline with Pydantic & Loss Guards...")
 
-    # SAFE DIRECTORY INITIALIZATION FIX (SIM102 & F821 Resolved)
+    # Safe directory initialization
     output_dir = VALIDATION_DIR
     if os.path.exists(output_dir) and not os.path.isdir(output_dir):
         logger.warning(f"⚠️ '{output_dir}' exists as a file. Removing it to create a directory.")
@@ -432,25 +462,23 @@ def main():
 
     os.makedirs(output_dir, exist_ok=True)
 
-    raw_badges = fetch_credly_badges(CREDLY_USER)
+    # 1. Load existing local badges BEFORE calling API
+    local_badges = load_existing_local_badges()
 
-    unique_badges = []
-    seen = set()
+    # 2. Fetch live API badges
+    api_badges = fetch_credly_badges(CREDLY_USER)
 
-    for badge in raw_badges:
-        dedup_key = badge.get("id") or f"{badge.get('title')}-{badge.get('issued_at')}"
-        if dedup_key not in seen:
-            seen.add(dedup_key)
-            unique_badges.append(badge)
+    # 3. Perform union merge (preserves historical badges missing from API pagination)
+    unique_badges = merge_badge_datasets(api_badges, local_badges)
 
-    # 1. Anomaly & Loss Guard Assertion
+    # 4. Anomaly & Loss Guard Assertion
     try:
         execute_data_loss_guard(unique_badges, OUTPUT_FILE)
     except PipelineDataLossAnomaly as anomaly_err:
         logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
         sys.exit(1)
 
-    # 2. Pydantic Payload Validation & File Dump
+    # 5. Pydantic Payload Validation & File Dump
     payload_dict = {
         "credly_user": CREDLY_USER,
         "total_count": len(unique_badges),
@@ -474,7 +502,7 @@ def main():
         logger.error(f"❌ Root Payload Validation Error: {ve}")
         sys.exit(1)
 
-    # 3. Build Markdown Archives
+    # 6. Build Markdown Archives
     build_archives_and_readme(unique_badges)
     logger.info("Pipeline execution completed successfully.")
 
