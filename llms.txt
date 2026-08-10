@@ -1,6 +1,6 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-08-10 00:47 UTC
+> **Last Generated:** 2026-08-10 01:14 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
