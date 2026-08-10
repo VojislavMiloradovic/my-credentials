@@ -31,6 +31,14 @@ logging.basicConfig(
 )
 logger = logging.getLogger("credly_updater")
 
+# Safe directory initialization
+if os.path.exists(output_dir):
+    if not os.path.isdir(output_dir):
+        logger.warning(f"⚠️ '{output_dir}' exists as a file. Removing it to create a directory.")
+        os.remove(output_dir)
+
+os.makedirs(output_dir, exist_ok=True)
+
 # Configuration Constants
 VALIDATION_DIR = "for_validation"
 CREDLY_USERNAME = os.getenv("CREDLY_USERNAME", "vojislavmiloradovic")
