@@ -121,12 +121,12 @@ Showing latest 10 of 556 credentials. View full dataset via [Platform Archive In
 [Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
 Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
-**Total Portfolio Credentials:** 530
-**Total Verified Skills Mapped:** 1909
+**Total Portfolio Credentials:** 531
+**Total Verified Skills Mapped:** 1911
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 530 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-01.md), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 531 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-01.md), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -138,8 +138,8 @@ Showing latest 10 of 530 credentials. View full dataset via [Platform Archive In
 | 2026-08-10 | [Golden Signals with Hubble and Grafana](https://www.credly.com/badges/adb39fe6-553a-4f2b-aed7-2748d666948f/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Maturing Threat-Informed Defense with M3TID](https://www.credly.com/badges/2e8b7ceb-8d8c-4c3b-bf12-e183a5d4b47d/public_url) | issued by AttackIQ | Credly Verified Badge |
 | 2026-08-10 | [Unlocking the Power of CTI Blueprints](https://www.credly.com/badges/4490aa99-d5e9-4a20-9d66-e996f670f34f/public_url) | issued by AttackIQ | Credly Verified Badge |
+| 2026-08-10 | [Cilium Advanced Gateway API Use Cases](https://www.credly.com/badges/d6d77359-05d8-4db0-8a5c-3944635c5684/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-09 | [AWS Knowledge: Amazon WorkSpaces Migrations - Training Badge](https://www.credly.com/badges/0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-08-09 | [Create and Manage Cloud Spanner Instances Skill Badge](https://www.credly.com/badges/22ddf09a-7e02-44c6-9a92-4c25ae5e05f0/public_url) | issued by Google Cloud | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

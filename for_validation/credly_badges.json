@@ -1,6 +1,6 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 530,
+  "total_count": 531,
   "badges": [
     {
       "id": "0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31",
@@ -12305,6 +12305,34 @@
         "Cyber Threat Intelligence",
         "Reporting Tools",
         "Threat Intelligence Analyst"
+      ]
+    },
+    {
+      "id": "d6d77359-05d8-4db0-8a5c-3944635c5684",
+      "title": "Cilium Advanced Gateway API Use Cases",
+      "name": "Cilium Advanced Gateway API Use Cases",
+      "issuer": "issued by Isovalent",
+      "issuer_name": "issued by Isovalent",
+      "issued_at": "2026-08-10",
+      "issued_at_date": "2026-08-10",
+      "date": "2026-08-10",
+      "image_url": "https://images.credly.com/images/747f2360-8ef8-4bb0-bb91-af09c5d721c2/tempfile20250605-79-30kzgy.png",
+      "verify_url": "https://www.credly.com/badges/d6d77359-05d8-4db0-8a5c-3944635c5684/public_url",
+      "url": "https://www.credly.com/badges/d6d77359-05d8-4db0-8a5c-3944635c5684/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "eBPF",
+        "Gateway",
+        "HTTP header rewrite",
+        "Ingress",
+        "Kubernetes",
+        "L7",
+        "Load Balancer",
+        "Networking",
+        "Open Source",
+        "traffic splitting"
       ]
     }
   ]
