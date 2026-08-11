@@ -1,11 +1,12 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 545 records.
+This document represents a unified, verifiable list of all 546 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-11 | [Hubble Flow Visibility](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cilium LB-IPAM & L2](https://www.credly.com/badges/7083b54b-a4c1-4c38-a0f0-c8487d5b6794/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cilium LoadBalancer IPAM and BGP Service Advertisement](https://www.credly.com/badges/d181f780-e6ee-4fef-8bd1-df291a355438/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cloud Tech Pro - Email Archiving](https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/public_url) | issued by Acronis | Credly Verified Badge |
