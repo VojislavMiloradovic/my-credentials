@@ -69,6 +69,12 @@ jobs:
           GOOGLE_PROFILE_ID: ${{ inputs.profile_id_value }}
         run: uv run python ${{ inputs.script_name }}
 
+      - name: Generate JSON-LD Linked Data
+        run: uv run python generate_jsonld.py
+
+      - name: Generate LLMs.txt Directory Files
+        run: uv run python generate_llms_txt.py
+
       - name: Commit and Push Changes
         run: |
           git config --local user.name "github-actions[bot]"
