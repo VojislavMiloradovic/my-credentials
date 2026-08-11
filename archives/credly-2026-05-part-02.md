@@ -12,9 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-05-06 | [Core Skills Learning Path](https://www.credly.com/badges/9cfe8da1-05a9-4242-9dfc-8e91c87f9fe3/public_url) | issued by Datadog | Credly Verified Badge |
 | 2026-05-06 | [Dashboards Learning Path](https://www.credly.com/badges/3ada1a37-c791-4d66-860b-36b7c30ec4c3/public_url) | issued by Datadog | Credly Verified Badge |
 | 2026-05-06 | [Explore Identity Foundations](https://www.credly.com/badges/bef6ae97-3d40-441b-a5fd-168016f17b32/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-06 | [Explore Identity Foundations](https://www.credly.com/badges/1914608a-7a36-4a3a-8984-f2619aed1f7f/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-05 | [Exploring SAP SuccessFactors Embedded Launch Activities for Business User - Record of Achievement](https://www.credly.com/badges/cc432e30-9613-4886-b82d-dd8b9ed936f3/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-05-05 | [Project Management Fundamentals](https://www.credly.com/badges/544641c1-b718-4173-ac14-39c1b0656aea/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
 | 2026-05-03 | [IT Customer Support Basics](https://www.credly.com/badges/66dd5194-76bb-456f-b199-db61a26524a3/public_url) | issued by Cisco | Credly Verified Badge |

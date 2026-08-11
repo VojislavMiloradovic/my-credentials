@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 7 of 11
-date_range: 2026-06-17 to 2026-06-27
+date_range: 2026-06-15 to 2026-06-25
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-06-part-07.md
 ---
@@ -12,15 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-06-27 | [Celonis Foundations](https://www.credly.com/badges/e2811911-4464-4eb1-9981-681c751363bf/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-27 | [Cloud Tech Associate Advanced Disaster Recovery](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-06-27 | [Get Started with Auth0 Tenants](https://www.credly.com/badges/a626c5ef-b24c-4dce-be69-548d51377e78/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-06-27 | [Monitor KPIs in Analysis Dashboards](https://www.credly.com/badges/d23419cf-0b96-4003-8c51-d0156b673365/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-27 | [Monitor KPIs in Execution Apps](https://www.credly.com/badges/648e7ea8-11ed-42ec-8bb2-68235dd7841a/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-27 | [Process Automation Basics](https://www.credly.com/badges/8da97b58-6d1d-46ef-bad3-34ed67aa3baa/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-26 | [Configure Service Accounts and IAM Roles for Google Cloud Skill Badge](https://www.credly.com/badges/ddaa4bce-2772-4181-9a7c-21252929399d/public_url) | issued by Google Cloud | Credly Verified Badge |
-| 2026-06-25 | [AWS Knowledge: Media & Entertainment: Direct-to-Consumer and Broadcast Foundations - Training Badge](https://www.credly.com/badges/3b24da57-1197-413e-8fa4-fdb2fe314113/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-06-25 | [Chainguard Container Crusader](https://www.credly.com/badges/bc36c287-1124-4591-99a8-02051ffa7402/public_url) | issued by Chainguard | Credly Verified Badge |
 | 2026-06-25 | [Cloud Tech Professional Advanced Backup](https://www.credly.com/badges/73990582-085d-46e4-a7b9-537fdb44401e/public_url) | issued by Acronis | Credly Verified Badge |
 | 2026-06-25 | [LFC101: Inclusive Speaker Orientation](https://www.credly.com/badges/ad970f8a-3675-4caa-b4bf-70a3b661751f/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-25 | [LFD114: Porting Software to RISC-V](https://www.credly.com/badges/bb54e8cf-48fd-49a8-8cfc-6e4e182504e3/public_url) | issued by The Linux Foundation | Credly Verified Badge |
@@ -54,12 +45,21 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-18 | [Intro to Acronis](https://www.credly.com/badges/9e744ff2-c093-46d2-adba-97b5f1c92be2/public_url) | issued by Acronis | Credly Verified Badge |
 | 2026-06-18 | [Protect Your API Endpoints with Auth0](https://www.credly.com/badges/7a85c1f9-c3ec-42d2-a898-8ca954ed58bf/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-18 | [Secure Applications with Auth0 Attack Protection](https://www.credly.com/badges/eb46f4ee-e054-47be-bdec-ce97fa77fcd6/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-18 | [Protect Your API Endpoints with Auth0](https://www.credly.com/badges/c32f01cc-673d-4434-926d-ef6207662dc3/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-18 | [Secure Applications with Auth0 Attack Protection](https://www.credly.com/badges/84711de1-5a7d-4182-a165-9db3ea7b8029/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-17 | [LFC112: Creating Effective Documentation for Developers](https://www.credly.com/badges/74c24889-addb-48cd-8539-b9484742e114/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-17 | [LFC114: Remote Work at Scale](https://www.credly.com/badges/e180e574-1bfe-4afb-a7ff-dce17455e64c/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-17 | [LFS147: Introduction to AI/ML Toolkits with Kubeflow](https://www.credly.com/badges/53e07dd4-10c5-4a02-97e3-904a594ed3a6/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-17 | [LFS183: Introduction to Zero Trust](https://www.credly.com/badges/ea7570fb-d863-4cbf-8329-ee746d40980a/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-17 | [ZEDEDA Certified Edge Orchestration Professional (ZCEP)](https://www.credly.com/badges/353991f9-77e3-4db3-9e33-3ea865e695ff/public_url) | issued by ZEDEDA | Credly Verified Badge |
 | 2026-06-17 | [Store, Process, and Manage Data on Google Cloud - Console Skill Badge](https://www.credly.com/badges/59bdf724-fa62-4fae-b148-cb57e28e3fb0/public_url) | issued by Google Cloud | Credly Verified Badge |
+| 2026-06-16 | [Planning and Configuration Best Practices](https://www.credly.com/badges/9ec90075-322d-4d98-a00c-30601b34e08e/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-16 | [Sign in Your Users and Secure Sessions with Okta](https://www.credly.com/badges/ef1ac823-96a7-427d-b8f2-77a6cffd32de/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-16 | [Planning and Configuration Best Practices](https://www.credly.com/badges/80436a76-5762-4a7c-b7a9-f86fde3a4440/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-15 | [LFC111: Open Source Technical Documentation Essentials](https://www.credly.com/badges/5facc7f1-04b9-4b75-b174-44e85cd84aea/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-15 | [LFQ102: Quantum Computing Essentials For Senior Leaders](https://www.credly.com/badges/683ddef1-be3c-47d2-b4d5-c9ec0b3b555c/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-15 | [LFS142: Introduction to Backstage - Developer Portals Made Easy](https://www.credly.com/badges/f2f210d4-5cef-47a1-9a3d-44a366d69611/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-15 | [LFS145: Introduction to Protocol Buffers](https://www.credly.com/badges/d4a11de5-0492-4f95-a860-7c0c6453f0f1/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-08.md](./credly-2026-07-part-08.md)

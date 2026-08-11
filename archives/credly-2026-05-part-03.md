@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 3 of 11
-date_range: 2026-05-06 to 2026-05-15
+date_range: 2026-05-06 to 2026-05-14
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-05-part-03.md
 ---
@@ -12,10 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-05-15 | [Generative AI Using SAS](https://www.credly.com/badges/1cb2917f-14d8-4bec-a32a-9cdcd52cad31/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-15 | [Responsible Innovation and Trustworthy AI](https://www.credly.com/badges/760eeeb8-81c2-4af5-ba16-8a3e19cc2619/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-14 | [AI for Product Management](https://www.credly.com/badges/1f9721c8-f066-45c5-b673-61955c346c47/public_url) | issued by Pendo | Credly Verified Badge |
-| 2026-05-14 | [Digital Adoption Certification](https://www.credly.com/badges/7245de95-83f1-4f30-b301-0d61c8576780/public_url) | issued by Pendo | Credly Verified Badge |
 | 2026-05-14 | [Foundations of Risk and Asset Liability Management Knowledge Badge](https://www.credly.com/badges/5328bcd2-a3eb-4848-97d6-1943f04e2219/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-05-14 | [Statistics 1: Introduction to ANOVA, Regression, and Logistic Regression](https://www.credly.com/badges/e3ce2619-792f-4d85-9ed2-41865bbd6eec/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-05-13 | [AWS Cloud Quest: Generative AI Practitioner - Training Badge](https://www.credly.com/badges/dd512726-96fc-471a-9058-503bc93a3f74/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
@@ -35,6 +31,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-11 | [Secure AI Workflows with Auth0 for AI Agents](https://www.credly.com/badges/ed47f33d-7002-4feb-a1d2-c682ec20879d/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-11 | [Display & Video 360 Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/0658506c-3b28-4deb-9088-ab7d34d70ff9) | Skillshop | External/Imported |
 | 2026-05-11 | [Privacy for Agencies and Partners Certification](https://api.accredible.com/v1/obi/badge_assertions/ce77e9e9-f2c5-4ff4-a2bb-3e5ab37134c3) | Skillshop | External/Imported |
+| 2026-05-11 | [Authenticate with Auth0 Social and Enterprise Connections](https://www.credly.com/badges/ce9e38af-b03f-43b4-963a-e6cda9ad0095/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-09 | [Define a Secure Policy Structure](https://www.credly.com/badges/c2ff8b68-4187-4799-b8b5-27c9fa37ef45/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-09 | [Define Your Users in Okta](https://www.credly.com/badges/3901feb8-cf8a-4873-9608-66a84f5981a6/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-09 | [Manage User Profiles in UD](https://www.credly.com/badges/23833ee2-c157-450c-963c-0eae083fefea/public_url) | issued by Okta | Credly Verified Badge |
@@ -58,10 +55,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-08 | [Secure Your AI Agents to Act on the Behalf of Users](https://www.credly.com/badges/bd7cf46e-660f-406b-9547-69b0c0b9d822/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-08 | [Secure Your RAG Pipelines with Auth0 Fine-Grained Access](https://www.credly.com/badges/a39802d7-ae30-4c95-ae7d-434cc1243233/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-08 | [Securing AI Agents](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-08 | [Secure Your AI Agents to Act on the Behalf of Users](https://www.credly.com/badges/18c0a300-025b-46de-9097-99133e15b871/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-08 | [Secure Your RAG Pipelines with Auth0 Fine-Grained Access](https://www.credly.com/badges/c734854a-173d-4bb7-a018-d72a9b2c9cf6/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-06 | [Agent Observability Metrics & Traces Learning Path](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/public_url) | issued by Datadog | Credly Verified Badge |
 | 2026-05-06 | [Agents & Agentic AI Fundamentals](https://www.credly.com/badges/65342bd4-19df-45dc-9b32-f68a21c5be0d/public_url) | issued by Intel | Credly Verified Badge |
 | 2026-05-06 | [Applying SAP S/4HANA Product Engineering - Record of Achievement](https://www.credly.com/badges/9c1dab10-70e9-4bd3-b9fa-9f2eead26a00/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-05-06 | [Configuration Learning Path](https://www.credly.com/badges/a71f14fd-df65-47c9-9527-109add5f04d5/public_url) | issued by Datadog | Credly Verified Badge |
+| 2026-05-06 | [Core Skills Learning Path](https://www.credly.com/badges/9cfe8da1-05a9-4242-9dfc-8e91c87f9fe3/public_url) | issued by Datadog | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-05-part-02.md](./credly-2026-05-part-02.md) | [Index](./credly-index.md) | Next: [credly-2026-05-part-04.md](./credly-2026-05-part-04.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 8 of 11
-date_range: 2026-06-27 to 2026-07-09
+date_range: 2026-06-25 to 2026-07-07
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-07-part-08.md
 ---
@@ -12,18 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-07-09 | [Make Foundation](https://www.credly.com/badges/0d4bdacd-4259-4da2-b840-2ac5ae64f097/public_url) | issued by Make | Credly Verified Badge |
-| 2026-07-09 | [Principles of AI Transformation](https://www.credly.com/badges/dea04841-c966-4353-9ede-2aa009ec2426/public_url) | issued by Intel | Credly Verified Badge |
-| 2026-07-09 | [Well-Architected Proficient](https://www.credly.com/badges/5956f2ee-34a1-400c-8d10-a6a9d75a08a8/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-07-08 | [AWS Educate Introduction to Generative AI - Training Badge](https://www.credly.com/badges/126fcf1c-a7ce-4076-bfb5-8841cd2aac83/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-07-08 | [Cloud Sales Associate Advanced Data Loss Prevention](https://www.credly.com/badges/bd93bca0-6c3e-42d1-a6d1-8e9664e4c079/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-07-08 | [data.world Admin Certification](https://www.credly.com/badges/fa194f5e-7087-4936-ba7b-043ed46f68ac/public_url) | issued by data.world from ServiceNow | Credly Verified Badge |
-| 2026-07-08 | [data.world End User Certification](https://www.credly.com/badges/d521cb54-db11-4d81-b284-d7d231b20e87/public_url) | issued by data.world from ServiceNow | Credly Verified Badge |
-| 2026-07-08 | [data.world Foundations](https://www.credly.com/badges/3476c45c-4176-49ad-9051-123760a950ff/public_url) | issued by data.world from ServiceNow | Credly Verified Badge |
-| 2026-07-08 | [data.world Steward Certification](https://www.credly.com/badges/cf76fba1-5658-4a88-9c91-84a057fcdd7b/public_url) | issued by data.world from ServiceNow | Credly Verified Badge |
-| 2026-07-08 | [Foundations of Operationalizing MITRE ATT&CK v13](https://www.credly.com/badges/e9bc6726-6c10-4a41-a8dd-a10398dec90f/public_url) | issued by AttackIQ | Credly Verified Badge |
-| 2026-07-08 | [Navigate the Celonis Studio](https://www.credly.com/badges/f61a2862-8623-4198-86f9-a8817a002424/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-07-07 | [AWS SimuLearn - Cloud Practitioner - Training Badge](https://www.credly.com/badges/aa421d7a-9775-4459-8d87-e4d986e3b999/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-07-07 | [Optimize Costs for Google Kubernetes Engine Skill Badge](https://www.credly.com/badges/d67f5f9f-c9c7-4c0a-a241-1bcb73da59ab/public_url) | issued by Google Cloud | Credly Verified Badge |
 | 2026-07-05 | [Acronis Cyber Protect – Cybersecurity Basics](https://www.credly.com/badges/ea106045-3407-4d0e-abd4-9f25b1173d2a/public_url) | issued by Acronis | Credly Verified Badge |
 | 2026-07-05 | [Act on Recommended Tasks](https://www.credly.com/badges/fe48bdbf-8db5-4635-9660-aea9fd95e9a4/public_url) | issued by Celonis | Credly Verified Badge |
@@ -37,6 +25,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-05 | [Model in Process Designer](https://www.credly.com/badges/5acece33-4aa8-462f-ad36-1a76aef6fc8a/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-07-05 | [Sustainability Base Camper](https://www.credly.com/badges/4675aa36-2855-4b8c-8f21-eab4d065685e/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-07-05 | [Sustainability Business Bootcamper](https://www.credly.com/badges/fd237169-9b1c-4d4a-83fb-62c33551b563/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-07-05 | [Demystify Auth0 Logout Scenarios](https://www.credly.com/badges/98e6a761-4875-466d-8218-81e537a38249/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-07-03 | [Mitigate Threats and Vulnerabilities with Security Command Center Skill Badge](https://www.credly.com/badges/0daa2483-3793-42a7-afb0-4d338d3725bc/public_url) | issued by Google Cloud | Credly Verified Badge |
 | 2026-07-02 | [AWS SimuLearn - AI Practitioner - Training Badge](https://www.credly.com/badges/bf88d187-0e8f-44cc-bec9-7e9e69115951/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-07-02 | [Cloud Sales Associate Advanced Management](https://www.credly.com/badges/7a16d6a7-7f4a-43e0-8ddb-fbcb300a8822/public_url) | issued by Acronis | Credly Verified Badge |
@@ -61,8 +50,19 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-29 | [Implement Passwordless Authentication](https://www.credly.com/badges/b5aeea2a-0424-47c4-87d4-ea6a6acd3bad/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-29 | [Manage Your Tenant with Auth0 MCP Server](https://www.credly.com/badges/c9da5f3b-b75b-43d4-9e6d-d291b9504fe3/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-29 | [Review and Interpret Analyses](https://www.credly.com/badges/25472282-590d-4f27-9fda-6f344e2fd901/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-29 | [Manage Your Tenant with Auth0 MCP Server](https://www.credly.com/badges/f94e59f6-4478-48db-9bdd-e436583c76b8/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-28 | [Implement Speech and Language Solutions with Pre-trained APIs](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5/public_url) | issued by Google Cloud | Credly Verified Badge |
 | 2026-06-27 | [AWS Knowledge: Migration Foundations - Training Badge](https://www.credly.com/badges/c6d0351c-5227-4931-8bec-3d4789d4fe0e/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-06-27 | [Celonis Foundations](https://www.credly.com/badges/e2811911-4464-4eb1-9981-681c751363bf/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-27 | [Cloud Tech Associate Advanced Disaster Recovery](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-06-27 | [Get Started with Auth0 Tenants](https://www.credly.com/badges/a626c5ef-b24c-4dce-be69-548d51377e78/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-27 | [Monitor KPIs in Analysis Dashboards](https://www.credly.com/badges/d23419cf-0b96-4003-8c51-d0156b673365/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-27 | [Monitor KPIs in Execution Apps](https://www.credly.com/badges/648e7ea8-11ed-42ec-8bb2-68235dd7841a/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-27 | [Process Automation Basics](https://www.credly.com/badges/8da97b58-6d1d-46ef-bad3-34ed67aa3baa/public_url) | issued by Celonis | Credly Verified Badge |
+| 2026-06-27 | [Get Started with Auth0 Tenants](https://www.credly.com/badges/faf9ba16-d225-4375-8496-08e184790a61/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-26 | [Configure Service Accounts and IAM Roles for Google Cloud Skill Badge](https://www.credly.com/badges/ddaa4bce-2772-4181-9a7c-21252929399d/public_url) | issued by Google Cloud | Credly Verified Badge |
+| 2026-06-25 | [AWS Knowledge: Media & Entertainment: Direct-to-Consumer and Broadcast Foundations - Training Badge](https://www.credly.com/badges/3b24da57-1197-413e-8fa4-fdb2fe314113/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-06-25 | [Chainguard Container Crusader](https://www.credly.com/badges/bc36c287-1124-4591-99a8-02051ffa7402/public_url) | issued by Chainguard | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-06-part-07.md](./credly-2026-06-part-07.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-09.md](./credly-2026-07-part-09.md)

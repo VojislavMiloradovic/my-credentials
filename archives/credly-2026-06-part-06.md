@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 6 of 11
-date_range: 2026-06-07 to 2026-06-16
-total_entries: 48
+date_range: 2026-06-06 to 2026-06-15
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-06-part-06.md
 ---
 
@@ -12,12 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-06-16 | [Planning and Configuration Best Practices](https://www.credly.com/badges/9ec90075-322d-4d98-a00c-30601b34e08e/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-06-16 | [Sign in Your Users and Secure Sessions with Okta](https://www.credly.com/badges/ef1ac823-96a7-427d-b8f2-77a6cffd32de/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-06-15 | [LFC111: Open Source Technical Documentation Essentials](https://www.credly.com/badges/5facc7f1-04b9-4b75-b174-44e85cd84aea/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-15 | [LFQ102: Quantum Computing Essentials For Senior Leaders](https://www.credly.com/badges/683ddef1-be3c-47d2-b4d5-c9ec0b3b555c/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-15 | [LFS142: Introduction to Backstage - Developer Portals Made Easy](https://www.credly.com/badges/f2f210d4-5cef-47a1-9a3d-44a366d69611/public_url) | issued by The Linux Foundation | Credly Verified Badge |
-| 2026-06-15 | [LFS145: Introduction to Protocol Buffers](https://www.credly.com/badges/d4a11de5-0492-4f95-a860-7c0c6453f0f1/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-15 | [AWS Knowledge: Data Migration - Training Badge](https://www.credly.com/badges/b74d15f7-a10b-4c58-91a9-1a42a728b7ab/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-06-15 | [Cloud Deployments](https://www.credly.com/badges/c7e60f6c-4fb8-4ea1-88a8-50668e31a696/public_url) | issued by Intel | Credly Verified Badge |
 | 2026-06-13 | [AI on Intel® Xeon® Processors](https://www.credly.com/badges/868a09ec-ec7b-4c1f-97e3-aad9d4c6cfa9/public_url) | issued by Intel | Credly Verified Badge |
@@ -60,6 +54,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-07 | [LFS158: Introduction to Kubernetes](https://www.credly.com/badges/85746ca0-36fc-4ba0-b753-d0dce904b02d/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-07 | [SKF100: Understanding the OWASP® Top 10 Security Threats](https://www.credly.com/badges/8a0199ec-ff1c-4b87-a185-92cf277719e6/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-07 | [AWS Knowledge: Amazon Braket - Training Badge](https://www.credly.com/badges/8a9f2e87-0407-4376-8b09-d10fa0b6a6b9/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-06-07 | [Google Play Academy - Store Listing Certificate](https://api.accredible.com/v1/obi/badge_assertions/1473fa50-8b83-4ccf-a376-6cd671db8b80) | Google Play Academy | External/Imported |
+| 2026-06-06 | [LFS101: Introduction to Linux](https://www.credly.com/badges/e0a7c437-4f29-4111-96d2-2c8f15eb14cc/public_url) | issued by The Linux Foundation | Credly Verified Badge |
+| 2026-06-06 | [AWS Knowledge: Networking Core - Training Badge](https://www.credly.com/badges/80648322-ee54-4e43-9d4b-f311dcc569cd/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-06-06 | [Intelligent Diagramming](https://www.credly.com/badges/a5b0658c-f2cb-4aa4-85db-5d2c8eefa144/public_url) | issued by Lucid Software | Credly Verified Badge |
+| 2026-06-06 | [SAS Container Runtime: Architecture and Deployment on Azure Cloud](https://www.credly.com/badges/d36604cf-46f7-4b9b-931f-918f54c15973/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-06-06 | [SAS Grid Manager Overview](https://www.credly.com/badges/78784a3b-7ed5-4a8b-95ce-1e287726c4c5/public_url) | issued by SAS | Credly Verified Badge |
+| 2026-06-06 | [SAS Programming 1: Essentials](https://www.credly.com/badges/74736e55-a08c-4746-b4ca-9244487498d3/public_url) | issued by SAS | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-06-part-05.md](./credly-2026-06-part-05.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-07.md](./credly-2026-06-part-07.md)
