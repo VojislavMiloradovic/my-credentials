@@ -1,6 +1,6 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 567,
+  "total_count": 577,
   "badges": [
     {
       "id": "4d3535a6971307d9",
@@ -471,6 +471,24 @@
       ]
     },
     {
+      "id": "4ddcef4bb3043420",
+      "title": "[RETIRED] Planning an Orchestration System",
+      "name": "[RETIRED] Planning an Orchestration System",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-03-17",
+      "issued_at_date": "2026-03-17",
+      "date": "2026-03-17",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] Planning an Orchestration System"
+      ]
+    },
+    {
       "id": "979f33783259ca6a",
       "title": "[RETIRED] Succeeding in the Cloud- Rethinking your Levers",
       "name": "[RETIRED] Succeeding in the Cloud- Rethinking your Levers",
@@ -525,27 +543,9 @@
       ]
     },
     {
-      "id": "21e4acdfe31ec6e8",
-      "title": "[RETIRING - 2026-08-11] Planning an Orchestration System",
-      "name": "[RETIRING - 2026-08-11] Planning an Orchestration System",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-03-17",
-      "issued_at_date": "2026-03-17",
-      "date": "2026-03-17",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-11] Planning an Orchestration System"
-      ]
-    },
-    {
-      "id": "23d5c4bdf389888d",
-      "title": "[RETIRING - 2026-08-11] What are we looking for in an LLM?",
-      "name": "[RETIRING - 2026-08-11] What are we looking for in an LLM?",
+      "id": "f282aba94fe13a31",
+      "title": "[RETIRED] What are we looking for in an LLM?",
+      "name": "[RETIRED] What are we looking for in an LLM?",
       "issuer": "Amazon Web Services",
       "issuer_name": "Amazon Web Services",
       "issued_at": "2026-04-26",
@@ -557,7 +557,7 @@
       "type": "Digital course",
       "verification_type": "Digital course",
       "skills": [
-        "[RETIRING - 2026-08-11] What are we looking for in an LLM?"
+        "[RETIRED] What are we looking for in an LLM?"
       ]
     },
     {
@@ -1026,6 +1026,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Braket Knowledge Badge Assessment"
+      ]
+    },
+    {
+      "id": "edb56edf8168da1d",
+      "title": "Amazon Braket Quantum Application Development",
+      "name": "Amazon Braket Quantum Application Development",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Braket Quantum Application Development"
       ]
     },
     {
@@ -1908,6 +1926,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon ECR Getting Started"
+      ]
+    },
+    {
+      "id": "75f3239cb671a5c3",
+      "title": "Amazon ECS Auto Scaling and Cost Optimization",
+      "name": "Amazon ECS Auto Scaling and Cost Optimization",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon ECS Auto Scaling and Cost Optimization"
       ]
     },
     {
@@ -4665,6 +4701,24 @@
       ]
     },
     {
+      "id": "f663339a62693d91",
+      "title": "AWS Security Best Practices: Overview",
+      "name": "AWS Security Best Practices: Overview",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Security Best Practices: Overview"
+      ]
+    },
+    {
       "id": "f57245923cce1cee",
       "title": "AWS Security Champion Badge Assessment",
       "name": "AWS Security Champion Badge Assessment",
@@ -5349,6 +5403,24 @@
       ]
     },
     {
+      "id": "5b1f0efc4b149c8b",
+      "title": "AWS Transform for .NET - Beyond the Basics",
+      "name": "AWS Transform for .NET - Beyond the Basics",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Transform for .NET - Beyond the Basics"
+      ]
+    },
+    {
       "id": "291d6da9b70c9b57",
       "title": "AWS Transform for .NET Getting Started",
       "name": "AWS Transform for .NET Getting Started",
@@ -5637,6 +5709,24 @@
       ]
     },
     {
+      "id": "42449d8a9c439c2a",
+      "title": "Build with Amazon API Gateway",
+      "name": "Build with Amazon API Gateway",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build with Amazon API Gateway"
+      ]
+    },
+    {
       "id": "94a3bf1d5ab430c1",
       "title": "Build With Amazon DocumentDB (with MongoDB compatibility)",
       "name": "Build With Amazon DocumentDB (with MongoDB compatibility)",
@@ -5778,6 +5868,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Building AWS Solutions: Scale-Out Computing on AWS"
+      ]
+    },
+    {
+      "id": "d250ba790eef4ddf",
+      "title": "Building cost-effective RAG applications with Amazon Bedrock Knowledge Bases and Amazon S3 Vectors",
+      "name": "Building cost-effective RAG applications with Amazon Bedrock Knowledge Bases and Amazon S3 Vectors",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Building cost-effective RAG applications with Amazon Bedrock Knowledge Bases and Amazon S3 Vectors"
       ]
     },
     {
@@ -6429,6 +6537,24 @@
       ]
     },
     {
+      "id": "695a9072a8ba9ed7",
+      "title": "Deploying a Workload on Amazon ECS",
+      "name": "Deploying a Workload on Amazon ECS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Deploying a Workload on Amazon ECS"
+      ]
+    },
+    {
       "id": "e789ac1861b69e40",
       "title": "Deploying custom Terraform to LZA-Managed Accounts with AFT",
       "name": "Deploying custom Terraform to LZA-Managed Accounts with AFT",
@@ -6498,6 +6624,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Designing Landing Zone Architectures with AWS Control Tower"
+      ]
+    },
+    {
+      "id": "642ea807aa436719",
+      "title": "Designing Secure Retrieval Augmented Generation (RAG) Applications with AWS",
+      "name": "Designing Secure Retrieval Augmented Generation (RAG) Applications with AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Designing Secure Retrieval Augmented Generation (RAG) Applications with AWS"
       ]
     },
     {
@@ -7941,6 +8085,24 @@
       ]
     },
     {
+      "id": "be4f696c2455275b",
+      "title": "Introduction to Agentic AI on AWS",
+      "name": "Introduction to Agentic AI on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Introduction to Agentic AI on AWS"
+      ]
+    },
+    {
       "id": "b1d1e690b72743e8",
       "title": "Introduction to AI-Driven Development Lifecycle",
       "name": "Introduction to AI-Driven Development Lifecycle",
@@ -9270,6 +9432,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Media Glossary"
+      ]
+    },
+    {
+      "id": "8fe6f94e21f9fa3b",
+      "title": "Migrating from Amazon CodeCatalyst",
+      "name": "Migrating from Amazon CodeCatalyst",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Migrating from Amazon CodeCatalyst"
       ]
     },
     {
