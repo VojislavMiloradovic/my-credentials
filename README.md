@@ -121,15 +121,16 @@ Showing latest 10 of 567 credentials. View full dataset via [Platform Archive In
 [Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
 Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
-**Total Portfolio Credentials:** 545
+**Total Portfolio Credentials:** 546
 **Total Verified Skills Mapped:** 1911
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 545 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-01.md), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 546 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-01.md), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-11 | [Hubble Flow Visibility](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cilium LB-IPAM & L2](https://www.credly.com/badges/7083b54b-a4c1-4c38-a0f0-c8487d5b6794/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cilium LoadBalancer IPAM and BGP Service Advertisement](https://www.credly.com/badges/d181f780-e6ee-4fef-8bd1-df291a355438/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cloud Tech Pro - Email Archiving](https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/public_url) | issued by Acronis | Credly Verified Badge |
@@ -139,7 +140,6 @@ Showing latest 10 of 545 credentials. View full dataset via [Platform Archive In
 | 2026-08-10 | [Maturing Threat-Informed Defense with M3TID](https://www.credly.com/badges/2e8b7ceb-8d8c-4c3b-bf12-e183a5d4b47d/public_url) | issued by AttackIQ | Credly Verified Badge |
 | 2026-08-10 | [Unlocking the Power of CTI Blueprints](https://www.credly.com/badges/4490aa99-d5e9-4a20-9d66-e996f670f34f/public_url) | issued by AttackIQ | Credly Verified Badge |
 | 2026-08-10 | [Cilium Advanced Gateway API Use Cases](https://www.credly.com/badges/d6d77359-05d8-4db0-8a5c-3944635c5684/public_url) | issued by Isovalent | Credly Verified Badge |
-| 2026-08-09 | [AWS Knowledge: Amazon WorkSpaces Migrations - Training Badge](https://www.credly.com/badges/0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

@@ -1,6 +1,6 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 545,
+  "total_count": 546,
   "badges": [
     {
       "id": "0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31",
@@ -12635,6 +12635,31 @@
         "Identity And Access Management",
         "Okta Customer Identity Cloud",
         "Okta Workforce Identity Cloud"
+      ]
+    },
+    {
+      "id": "21161b72-f505-4efd-a622-087b882810c3",
+      "title": "Hubble Flow Visibility",
+      "name": "Hubble Flow Visibility",
+      "issuer": "issued by Isovalent",
+      "issuer_name": "issued by Isovalent",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": "https://images.credly.com/images/73b9049a-1555-4687-8b35-31f3d6e4b0a0/tempfile20250605-71-wqikcw.png",
+      "verify_url": "https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/public_url",
+      "url": "https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "eBPF",
+        "Enterprise",
+        "Hubble",
+        "Kubernetes",
+        "L7",
+        "Networking",
+        "Observability"
       ]
     }
   ]
