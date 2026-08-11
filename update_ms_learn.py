@@ -23,6 +23,14 @@ except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
     generate_platform_archive = None
 
+# Content-Aware Loss Guard
+try:
+    from loss_guard import execute_content_loss_guard, PipelineDataLossAnomaly
+except ImportError:
+    # Fallback if loss_guard not available
+    execute_content_loss_guard = None
+    PipelineDataLossAnomaly = Exception
+
 # Logging Setup
 logging.basicConfig(
     level=logging.INFO,
@@ -175,56 +183,6 @@ class MSVerifiableCredentialModel(BaseModel):
 
 
 # ==============================================================================
-# LOSS GUARD & ANOMALY PROTECTIONS
-# ==============================================================================
-
-class PipelineDataLossAnomaly(Exception):
-    """Raised when incoming dataset drops drastically below previous baseline."""
-
-
-def get_stored_archive_baseline_count() -> int:
-    """Evaluates baseline record count from existing monolith markdown archive."""
-    if os.path.exists(ARCHIVE_MONOLITH):
-        try:
-            with open(ARCHIVE_MONOLITH, "r", encoding="utf-8") as f:
-                lines = f.readlines()
-            rows = [
-                l for l in lines
-                if l.strip().startswith("|")
-                and not l.strip().startswith("| Achievement Title")
-                and ":---" not in l
-            ]
-            if rows:
-                return len(rows)
-        except OSError:
-            pass
-    return 0
-
-
-def execute_data_loss_guard(new_achievements: list[dict]) -> None:
-    """Loss Guard comparison against stored baseline count."""
-    old_count = get_stored_archive_baseline_count()
-    new_count = len(new_achievements)
-
-    logger.info(f"🛡️ Loss Guard Check: Stored Archive Baseline = {old_count} items | Incoming Dataset = {new_count} items.")
-
-    if old_count > 0 and new_count == 0:
-        raise PipelineDataLossAnomaly(
-            f"CRITICAL ANOMALY: Incoming export returned 0 achievements, but baseline contains {old_count}. Aborting sync."
-        )
-
-    if old_count > 0:
-        drop_ratio = (old_count - new_count) / float(old_count)
-        if drop_ratio > MAX_ALLOWED_DATA_LOSS_PCT:
-            raise PipelineDataLossAnomaly(
-                f"CRITICAL ANOMALY: Incoming achievement count ({new_count}) dropped by {drop_ratio:.1%} "
-                f"from baseline ({old_count}). Threshold: {MAX_ALLOWED_DATA_LOSS_PCT:.0%}. Aborting."
-            )
-
-    logger.info("✅ Loss Guard Assertion Passed: Incoming dataset verified.")
-
-
-# ==============================================================================
 # MAIN PIPELINE EXECUTION
 # ==============================================================================
 
@@ -260,12 +218,28 @@ def main():
         except ValidationError as ve:
             logger.warning(f"⚠️ Skipping invalid achievement entry: {ve}")
 
-    # 2. Execute Loss Guard against stored baseline
-    try:
-        execute_data_loss_guard(validated_achievements)
-    except PipelineDataLossAnomaly as anomaly_err:
-        logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
-        sys.exit(1)
+    # 2. Execute Content-Aware Loss Guard against stored baseline
+    #    Uses stable record IDs (achievement 'id' field) and content hashes
+    #    to detect replacement/modification even when total count is stable.
+    if execute_content_loss_guard:
+        try:
+            execute_content_loss_guard(
+                new_records=validated_achievements,
+                platform="microsoft-learn",
+                id_field="id",  # MS Learn achievements have stable 'id' (e.g., EG94SBRP)
+                fail_on_warn=True  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
+            )
+        except PipelineDataLossAnomaly as anomaly_err:
+            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            sys.exit(1)
+    else:
+        logger.warning("⚠️ Content-aware loss guard unavailable, falling back to count-only check")
+        # Fallback to original count-based loss guard
+        try:
+            execute_data_loss_guard(validated_achievements)
+        except PipelineDataLossAnomaly as anomaly_err:
+            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            sys.exit(1)
 
     xp_profile = xp_data.get("xp", {}) or {}
     total_xp = "0"

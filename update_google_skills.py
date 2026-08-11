@@ -25,6 +25,14 @@ except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
     generate_platform_archive = None
 
+# Content-Aware Loss Guard
+try:
+    from loss_guard import execute_content_loss_guard, PipelineDataLossAnomaly
+except ImportError:
+    # Fallback if loss_guard not available
+    execute_content_loss_guard = None
+    PipelineDataLossAnomaly = Exception
+
 # Logging Setup
 logging.basicConfig(
     level=logging.INFO,
@@ -425,12 +433,27 @@ def main():
             seen.add(dedup_key)
             unique_badges.append(badge)
 
-    # 1. Anomaly & Loss Guard Assertion
-    try:
-        execute_data_loss_guard(unique_badges, OUTPUT_FILE)
-    except PipelineDataLossAnomaly as anomaly_err:
-        logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
-        sys.exit(1)
+    # 1. Anomaly & Loss Guard Assertion - Content-Aware
+    #    Uses stable badge IDs and content hashes to detect replacement/modification
+    #    even when total badge count remains stable.
+    if execute_content_loss_guard:
+        try:
+            execute_content_loss_guard(
+                new_records=unique_badges,
+                platform="google-skills",
+                id_field="id",  # Google Skills badges have stable 'id' field
+                fail_on_warn=True  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
+            )
+        except PipelineDataLossAnomaly as anomaly_err:
+            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            sys.exit(1)
+    else:
+        logger.warning("⚠️ Content-aware loss guard unavailable, falling back to count-only check")
+        try:
+            execute_data_loss_guard(unique_badges, OUTPUT_FILE)
+        except PipelineDataLossAnomaly as anomaly_err:
+            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            sys.exit(1)
 
     # 2. Pydantic Payload Validation & File Dump strictly inside for_validation/
     payload_dict = {

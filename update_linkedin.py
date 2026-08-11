@@ -24,6 +24,14 @@ except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
     generate_platform_archive = None
 
+# Content-Aware Loss Guard
+try:
+    from loss_guard import execute_content_loss_guard, PipelineDataLossAnomaly
+except ImportError:
+    # Fallback if loss_guard not available
+    execute_content_loss_guard = None
+    PipelineDataLossAnomaly = Exception
+
 # Logging Setup
 logging.basicConfig(
     level=logging.INFO,
@@ -264,12 +272,27 @@ def main():
         logger.error("❌ No certification records extracted. Aborting.")
         sys.exit(1)
 
-    # 1. Execute Loss Guard check against stored baseline
-    try:
-        execute_data_loss_guard(certs)
-    except PipelineDataLossAnomaly as anomaly_err:
-        logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
-        sys.exit(1)
+    # 1. Execute Content-Aware Loss Guard check against stored baseline
+    #    Uses license number + name hash as stable ID for LinkedIn certs
+    #    to detect replacement/modification even when total count remains stable.
+    if execute_content_loss_guard:
+        try:
+            execute_content_loss_guard(
+                new_records=certs,
+                platform="linkedin-certifications",
+                id_field="license",  # LinkedIn uses license number as primary ID
+                fail_on_warn=True  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
+            )
+        except PipelineDataLossAnomaly as anomaly_err:
+            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            sys.exit(1)
+    else:
+        logger.warning("⚠️ Content-aware loss guard unavailable, falling back to count-only check")
+        try:
+            execute_data_loss_guard(certs)
+        except PipelineDataLossAnomaly as anomaly_err:
+            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            sys.exit(1)
 
     total_certs = len(certs)
 
