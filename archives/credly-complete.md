@@ -1,12 +1,14 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 546 records.
+This document represents a unified, verifiable list of all 548 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-08-11 | [Hubble Flow Visibility](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/public_url) | issued by Isovalent | Credly Verified Badge |
+| 2026-08-11 | [Cilium IPv6 Networking and Observability](https://www.credly.com/badges/1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72/public_url) | issued by Isovalent | Credly Verified Badge |
+| 2026-08-11 | [Isovalent Lab Champion (20 labs)](https://www.credly.com/badges/7a58705a-96a4-4712-b069-428537781baf/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cilium LB-IPAM & L2](https://www.credly.com/badges/7083b54b-a4c1-4c38-a0f0-c8487d5b6794/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cilium LoadBalancer IPAM and BGP Service Advertisement](https://www.credly.com/badges/d181f780-e6ee-4fef-8bd1-df291a355438/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cloud Tech Pro - Email Archiving](https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/public_url) | issued by Acronis | Credly Verified Badge |

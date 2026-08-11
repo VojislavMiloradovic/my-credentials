@@ -1,6 +1,6 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 546,
+  "total_count": 548,
   "badges": [
     {
       "id": "0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31",
@@ -12660,6 +12660,53 @@
         "L7",
         "Networking",
         "Observability"
+      ]
+    },
+    {
+      "id": "1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72",
+      "title": "Cilium IPv6 Networking and Observability",
+      "name": "Cilium IPv6 Networking and Observability",
+      "issuer": "issued by Isovalent",
+      "issuer_name": "issued by Isovalent",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": "https://images.credly.com/images/fb0a6e4c-55fa-41c2-ae43-3b1ebe7a921c/tempfile20250605-85-21t8t.png",
+      "verify_url": "https://www.credly.com/badges/1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72/public_url",
+      "url": "https://www.credly.com/badges/1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "eBPF",
+        "Flows",
+        "IPv4",
+        "IPv6",
+        "Kubernetes",
+        "Networking",
+        "Observability",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "7a58705a-96a4-4712-b069-428537781baf",
+      "title": "Isovalent Lab Champion (20 labs)",
+      "name": "Isovalent Lab Champion (20 labs)",
+      "issuer": "issued by Isovalent",
+      "issuer_name": "issued by Isovalent",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": "https://images.credly.com/images/1ce75faa-1714-41e8-a4d9-a34a01a20a21/image.png",
+      "verify_url": "https://www.credly.com/badges/7a58705a-96a4-4712-b069-428537781baf/public_url",
+      "url": "https://www.credly.com/badges/7a58705a-96a4-4712-b069-428537781baf/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "eBPF",
+        "Hubble",
+        "Tetragon"
       ]
     }
   ]
