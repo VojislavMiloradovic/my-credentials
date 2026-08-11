@@ -1,11 +1,22 @@
 # Complete AWS Skill Builder Credentials Archive
 
-This document represents a unified, verifiable list of all 556 records.
+This document represents a unified, verifiable list of all 567 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-11 | [Agentic AI Framework Deep Dive - Overview](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-11 | [Amazon Connect: Implementing Task on Connect](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-11 | [AWS Security Best Practices: Monitoring and Alerting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-11 | [AWS Security Best Practices: Network Infrastructure](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-11 | [Build with Amazon Kinesis Data Streams](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-11 | [Designing Event-Driven Architectures](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-11 | [Developer Tooling for AWS Step Functions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-11 | [Funding Programs for Independent Software Vendors (ISV)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-11 | [Innovation Sandbox on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-11 | [Landing Zone Accelerator on AWS (LZA)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-11 | [Unlocking Telecom Innovation with AWS: NFVI, CNFI, and Generative AI Use Cases](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-09 | [Accelerate foundation model development with one-click observability in Amazon SageMaker HyperPod](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-09 | [Adaptive sampling with AWS X-Ray to capture critical spans](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-09 | [AI-DLC Foundations: Workflow and Collaboration](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -292,7 +303,7 @@ This document represents a unified, verifiable list of all 556 records.
 | 2026-04-15 | [Cloud Essentials Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-14 | [[RETIRED] AWS Panorama - Building Edge Computer Vision (CV) Applications](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-13 | [SaaS Technical Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-04-12 | [[RETIRING - 2026-08-10] AWS Graviton - Knowledge Badge Readiness Path](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Learning plan |
+| 2026-04-12 | [[RETIRED] AWS Graviton - Knowledge Badge Readiness Path](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Learning plan |
 | 2026-04-12 | [AWS Graviton: Performance and Migration Best Practices](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-11 | [Getting Started with AWS RTB Fabric](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-11 | [Transform live video for mobile audiences with AWS Elemental Inference](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -505,7 +516,7 @@ This document represents a unified, verifiable list of all 556 records.
 | 2026-02-23 | [Getting Started with Amazon Augmented AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-18 | [[RETIRED] Use MCP to create AI Agents](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-18 | [Deep Dive: Amazon Elastic Block Store (Amazon EBS) Cost Optimization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-02-15 | [[RETIRING - 2026-08-10] Amazon Q Business Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-02-15 | [[RETIRED] Amazon Q Business Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-15 | [Security, Compliance, and Governance for AI Solutions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-14 | [AWS Foundations: Machine Learning Basics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-13 | [Developing Generative Artificial Intelligence Solutions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -547,7 +558,7 @@ This document represents a unified, verifiable list of all 556 records.
 | 2026-01-19 | [Building a Generative AI-Ready Organization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-18 | [AWS Compute Services Overview](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-18 | [AWS SimuLearn: File Systems in the Cloud](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
-| 2026-01-17 | [[RETIRING - 2026-08-10] Amazon Q Introduction](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-01-17 | [[RETIRED] Amazon Q Introduction](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-17 | [Introduction to the AWS Cloud Adoption Framework (CAF)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-17 | [The Cloud Architect Role in the AWS Cloud](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-16 | [AWS SimuLearn: Cloud Computing Essentials](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |

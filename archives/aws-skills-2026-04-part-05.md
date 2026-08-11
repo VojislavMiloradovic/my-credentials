@@ -26,7 +26,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-04-15 | [Cloud Essentials Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-14 | [[RETIRED] AWS Panorama - Building Edge Computer Vision (CV) Applications](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-13 | [SaaS Technical Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-04-12 | [[RETIRING - 2026-08-10] AWS Graviton - Knowledge Badge Readiness Path](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Learning plan |
+| 2026-04-12 | [[RETIRED] AWS Graviton - Knowledge Badge Readiness Path](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Learning plan |
 | 2026-04-12 | [AWS Graviton: Performance and Migration Best Practices](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-11 | [Getting Started with AWS RTB Fabric](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-11 | [Transform live video for mobile audiences with AWS Elemental Inference](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

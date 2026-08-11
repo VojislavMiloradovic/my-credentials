@@ -1,6 +1,6 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 556,
+  "total_count": 567,
   "badges": [
     {
       "id": "4d3535a6971307d9",
@@ -36,6 +36,42 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Amazon Kendra Getting Started"
+      ]
+    },
+    {
+      "id": "33264bc4e34eaeb1",
+      "title": "[RETIRED] Amazon Q Business Getting Started",
+      "name": "[RETIRED] Amazon Q Business Getting Started",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-02-15",
+      "issued_at_date": "2026-02-15",
+      "date": "2026-02-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] Amazon Q Business Getting Started"
+      ]
+    },
+    {
+      "id": "a4a9ac819b0de454",
+      "title": "[RETIRED] Amazon Q Introduction",
+      "name": "[RETIRED] Amazon Q Introduction",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-01-17",
+      "issued_at_date": "2026-01-17",
+      "date": "2026-01-17",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRED] Amazon Q Introduction"
       ]
     },
     {
@@ -90,6 +126,24 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] AWS Fargate - Overview"
+      ]
+    },
+    {
+      "id": "cdabff774155b06b",
+      "title": "[RETIRED] AWS Graviton - Knowledge Badge Readiness Path",
+      "name": "[RETIRED] AWS Graviton - Knowledge Badge Readiness Path",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-04-12",
+      "issued_at_date": "2026-04-12",
+      "date": "2026-04-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Learning plan",
+      "verification_type": "Learning plan",
+      "skills": [
+        "[RETIRED] AWS Graviton - Knowledge Badge Readiness Path"
       ]
     },
     {
@@ -471,60 +525,6 @@
       ]
     },
     {
-      "id": "d36c62a1eb0cb3a6",
-      "title": "[RETIRING - 2026-08-10] Amazon Q Business Getting Started",
-      "name": "[RETIRING - 2026-08-10] Amazon Q Business Getting Started",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-02-15",
-      "issued_at_date": "2026-02-15",
-      "date": "2026-02-15",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-10] Amazon Q Business Getting Started"
-      ]
-    },
-    {
-      "id": "ec680e4aaf8bc770",
-      "title": "[RETIRING - 2026-08-10] Amazon Q Introduction",
-      "name": "[RETIRING - 2026-08-10] Amazon Q Introduction",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-01-17",
-      "issued_at_date": "2026-01-17",
-      "date": "2026-01-17",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Digital course",
-      "verification_type": "Digital course",
-      "skills": [
-        "[RETIRING - 2026-08-10] Amazon Q Introduction"
-      ]
-    },
-    {
-      "id": "6ee832c0b74b0367",
-      "title": "[RETIRING - 2026-08-10] AWS Graviton - Knowledge Badge Readiness Path",
-      "name": "[RETIRING - 2026-08-10] AWS Graviton - Knowledge Badge Readiness Path",
-      "issuer": "Amazon Web Services",
-      "issuer_name": "Amazon Web Services",
-      "issued_at": "2026-04-12",
-      "issued_at_date": "2026-04-12",
-      "date": "2026-04-12",
-      "image_url": null,
-      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
-      "type": "Learning plan",
-      "verification_type": "Learning plan",
-      "skills": [
-        "[RETIRING - 2026-08-10] AWS Graviton - Knowledge Badge Readiness Path"
-      ]
-    },
-    {
       "id": "21e4acdfe31ec6e8",
       "title": "[RETIRING - 2026-08-11] Planning an Orchestration System",
       "name": "[RETIRING - 2026-08-11] Planning an Orchestration System",
@@ -720,6 +720,24 @@
       "verification_type": "Digital course",
       "skills": [
         "AgentCore Evaluation on Amazon Bedrock"
+      ]
+    },
+    {
+      "id": "e964c14bde01fb4a",
+      "title": "Agentic AI Framework Deep Dive - Overview",
+      "name": "Agentic AI Framework Deep Dive - Overview",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Agentic AI Framework Deep Dive - Overview"
       ]
     },
     {
@@ -1692,6 +1710,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect: Implementing Chat in Connect"
+      ]
+    },
+    {
+      "id": "721897ff2d3e92d0",
+      "title": "Amazon Connect: Implementing Task on Connect",
+      "name": "Amazon Connect: Implementing Task on Connect",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Connect: Implementing Task on Connect"
       ]
     },
     {
@@ -4593,6 +4629,42 @@
       ]
     },
     {
+      "id": "27424b6e2ceafb86",
+      "title": "AWS Security Best Practices: Monitoring and Alerting",
+      "name": "AWS Security Best Practices: Monitoring and Alerting",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Security Best Practices: Monitoring and Alerting"
+      ]
+    },
+    {
+      "id": "fe1ce905ede35cde",
+      "title": "AWS Security Best Practices: Network Infrastructure",
+      "name": "AWS Security Best Practices: Network Infrastructure",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Security Best Practices: Network Infrastructure"
+      ]
+    },
+    {
       "id": "f57245923cce1cee",
       "title": "AWS Security Champion Badge Assessment",
       "name": "AWS Security Champion Badge Assessment",
@@ -5601,6 +5673,24 @@
       ]
     },
     {
+      "id": "5a24812f181d2332",
+      "title": "Build with Amazon Kinesis Data Streams",
+      "name": "Build with Amazon Kinesis Data Streams",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build with Amazon Kinesis Data Streams"
+      ]
+    },
+    {
       "id": "b696c8187f70071c",
       "title": "Build with Amazon MemoryDB for Redis",
       "name": "Build with Amazon MemoryDB for Redis",
@@ -6375,6 +6465,24 @@
       ]
     },
     {
+      "id": "b4a08cb50b6468dc",
+      "title": "Designing Event-Driven Architectures",
+      "name": "Designing Event-Driven Architectures",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Designing Event-Driven Architectures"
+      ]
+    },
+    {
       "id": "242a819a9a2ee9bb",
       "title": "Designing Landing Zone Architectures with AWS Control Tower",
       "name": "Designing Landing Zone Architectures with AWS Control Tower",
@@ -6390,6 +6498,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Designing Landing Zone Architectures with AWS Control Tower"
+      ]
+    },
+    {
+      "id": "454bc1f4d05c666f",
+      "title": "Developer Tooling for AWS Step Functions",
+      "name": "Developer Tooling for AWS Step Functions",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Developer Tooling for AWS Step Functions"
       ]
     },
     {
@@ -6912,6 +7038,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Fundamentals of Machine Learning and Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "8700ea94b582abb1",
+      "title": "Funding Programs for Independent Software Vendors (ISV)",
+      "name": "Funding Programs for Independent Software Vendors (ISV)",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Funding Programs for Independent Software Vendors (ISV)"
       ]
     },
     {
@@ -7614,6 +7758,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Identifying security risks using AWS Cost and Usage Report data"
+      ]
+    },
+    {
+      "id": "e9cbef9643b8eb01",
+      "title": "Innovation Sandbox on AWS",
+      "name": "Innovation Sandbox on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Innovation Sandbox on AWS"
       ]
     },
     {
@@ -8967,6 +9129,24 @@
       ]
     },
     {
+      "id": "42ca4d9de20750cc",
+      "title": "Landing Zone Accelerator on AWS (LZA)",
+      "name": "Landing Zone Accelerator on AWS (LZA)",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Landing Zone Accelerator on AWS (LZA)"
+      ]
+    },
+    {
       "id": "b160eb8b5d2e038e",
       "title": "Machine Learning Essentials for Business and Technical Decision Makers",
       "name": "Machine Learning Essentials for Business and Technical Decision Makers",
@@ -9936,6 +10116,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Unleashing Agentic AI Analytics on Amazon SageMaker with Amazon Athena and Amazon Quick"
+      ]
+    },
+    {
+      "id": "ebe0810b0282b474",
+      "title": "Unlocking Telecom Innovation with AWS: NFVI, CNFI, and Generative AI Use Cases",
+      "name": "Unlocking Telecom Innovation with AWS: NFVI, CNFI, and Generative AI Use Cases",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Unlocking Telecom Innovation with AWS: NFVI, CNFI, and Generative AI Use Cases"
       ]
     },
     {
