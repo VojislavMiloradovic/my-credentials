@@ -27,7 +27,7 @@ except ImportError:
 
 # Content-Aware Loss Guard
 try:
-    from loss_guard import execute_content_loss_guard, PipelineDataLossAnomaly
+    from loss_guard import PipelineDataLossAnomaly, execute_content_loss_guard
 except ImportError:
     # Fallback if loss_guard not available
     execute_content_loss_guard = None

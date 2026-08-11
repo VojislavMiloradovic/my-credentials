@@ -14,10 +14,8 @@ import hashlib
 import json
 import logging
 import os
-import sys
-from dataclasses import dataclass, asdict
+from dataclasses import asdict, dataclass
 from datetime import UTC, datetime
-from typing import Any
 
 # Logging Setup
 logging.basicConfig(
@@ -120,9 +118,7 @@ def extract_record_id(record: dict, id_field: str, platform: str) -> str:
         return str(record.get("id") or record.get("credentialId") or record.get("sourceUid") or "")
     elif platform == "google-skills":
         return str(record.get("id") or record.get("badge_id") or "")
-    elif platform == "aws-skills":
-        return str(record.get("id") or "")
-    elif platform == "credly":
+    elif platform in ("aws-skills", "credly"):
         return str(record.get("id") or "")
     elif platform == "linkedin-certifications":
         # LinkedIn uses license number + name hash
@@ -324,8 +320,8 @@ def compare_fingerprints(
         modification_rate=modification_rate,
         integrity_score=integrity_score,
         details={
-            "added_ids": sorted(list(added_ids)),
-            "removed_ids": sorted(list(removed_ids)),
+            "added_ids": sorted(added_ids),
+            "removed_ids": sorted(removed_ids),
             "modified_ids": [m["id"] for m in modified_details],
             "modified_details": modified_details,
         }

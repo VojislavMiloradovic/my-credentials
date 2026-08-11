@@ -25,7 +25,7 @@ except ImportError:
 
 # Content-Aware Loss Guard
 try:
-    from loss_guard import execute_content_loss_guard, PipelineDataLossAnomaly
+    from loss_guard import PipelineDataLossAnomaly, execute_content_loss_guard
 except ImportError:
     # Fallback if loss_guard not available
     execute_content_loss_guard = None
@@ -185,6 +185,48 @@ class MSVerifiableCredentialModel(BaseModel):
 # ==============================================================================
 # MAIN PIPELINE EXECUTION
 # ==============================================================================
+
+def get_stored_archive_baseline_count() -> int:
+    """Evaluates baseline record count from existing monolith markdown archive."""
+    if os.path.exists(ARCHIVE_MONOLITH):
+        try:
+            with open(ARCHIVE_MONOLITH, "r", encoding="utf-8") as f:
+                lines = f.readlines()
+            rows = [
+                l for l in lines
+                if l.strip().startswith("|")
+                and not l.strip().startswith("| Achievement Title")
+                and ":---" not in l
+            ]
+            if rows:
+                return len(rows)
+        except OSError:
+            pass
+    return 0
+
+
+def execute_data_loss_guard(new_achievements: list[dict]) -> None:
+    """Loss Guard comparison against stored baseline count."""
+    old_count = get_stored_archive_baseline_count()
+    new_count = len(new_achievements)
+
+    logger.info(f"���🛡��️ Loss Guard Check: Stored Archive Baseline = {old_count:,} items | Incoming Dataset = {new_count:,} items.")
+
+    if old_count > 0 and new_count == 0:
+        raise PipelineDataLossAnomaly(
+            f"CRITICAL ANOMALY: Incoming export returned 0 achievements, but baseline contains {old_count}. Aborting sync."
+        )
+
+    if old_count > 0:
+        drop_ratio = (old_count - new_count) / float(old_count)
+        if drop_ratio > MAX_ALLOWED_DATA_LOSS_PCT:
+            raise PipelineDataLossAnomaly(
+                f"CRITICAL ANOMALY: Incoming achievement count ({new_count}) dropped by {drop_ratio:.1%} "
+                f"from baseline ({old_count}). Threshold: {MAX_ALLOWED_DATA_LOSS_PCT:.0%}. Aborting."
+            )
+
+    logger.info("��✅ Loss Guard Assertion Passed: Incoming dataset verified.")
+
 
 def main():
     logger.info("Starting Microsoft Learn Profile Pipeline...")
