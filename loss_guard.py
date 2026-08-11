@@ -361,7 +361,6 @@ def log_diff_report(report: DiffReport) -> None:
 
 class PipelineDataLossAnomaly(Exception):
     """Raised when dataset fails integrity thresholds."""
-    pass
 
 
 # DEFAULT THRESHOLDS - can be overridden per platform
