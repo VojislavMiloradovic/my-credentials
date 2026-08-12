@@ -48,9 +48,9 @@ Showing latest 10 of 4,805 achievements. View full dataset via [Platform Archive
 <!-- GOOGLE_SKILLS_START -->
 ### Google Skills Credentials
 
-[Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
+[Google Skills Profile](https://www.skills.google/public_profiles/)
 
-Public Profile: [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
+Public Profile: [Verify Google Skills Profile](https://www.skills.google/public_profiles/)
 **Total Portfolio Credentials:** 343
 **Total Verified Skills Mapped:** 342
 
