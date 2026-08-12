@@ -121,15 +121,16 @@ Showing latest 10 of 592 credentials. View full dataset via [Platform Archive In
 [Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
 Public Profile: [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
-**Total Portfolio Credentials:** 534
-**Total Verified Skills Mapped:** 1913
+**Total Portfolio Credentials:** 535
+**Total Verified Skills Mapped:** 1916
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 534 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-01.md), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 535 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-01.md), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-12 | [AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge](https://www.credly.com/badges/b32b2957-f77b-433b-856d-de55f074cb96/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-08-11 | [Cilium IPv6 Networking and Observability](https://www.credly.com/badges/1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-11 | [Hubble Flow Visibility](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-11 | [Isovalent Lab Champion (20 labs)](https://www.credly.com/badges/7a58705a-96a4-4712-b069-428537781baf/public_url) | issued by Isovalent | Credly Verified Badge |
@@ -139,7 +140,6 @@ Showing latest 10 of 534 credentials. View full dataset via [Platform Archive In
 | 2026-08-10 | [Cloud Tech Pro - Email Archiving](https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/public_url) | issued by Acronis | Credly Verified Badge |
 | 2026-08-10 | [Cloud Tech Professional EDR](https://www.credly.com/badges/1bf4cc99-349a-43d4-a520-4fcda2a5df27/public_url) | issued by Acronis | Credly Verified Badge |
 | 2026-08-10 | [Foundations: Kubernetes Networking & Cilium](https://www.credly.com/badges/eb7a1881-5a18-499b-9e7f-2b8a2613c283/public_url) | issued by Isovalent | Credly Verified Badge |
-| 2026-08-10 | [Golden Signals with Hubble and Grafana](https://www.credly.com/badges/adb39fe6-553a-4f2b-aed7-2748d666948f/public_url) | issued by Isovalent | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

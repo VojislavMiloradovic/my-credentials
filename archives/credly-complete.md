@@ -1,11 +1,12 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 534 records.
+This document represents a unified, verifiable list of all 535 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-12 | [AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge](https://www.credly.com/badges/b32b2957-f77b-433b-856d-de55f074cb96/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-08-11 | [Cilium IPv6 Networking and Observability](https://www.credly.com/badges/1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-11 | [Hubble Flow Visibility](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-11 | [Isovalent Lab Champion (20 labs)](https://www.credly.com/badges/7a58705a-96a4-4712-b069-428537781baf/public_url) | issued by Isovalent | Credly Verified Badge |

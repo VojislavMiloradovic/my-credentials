@@ -1,7 +1,30 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 534,
+  "total_count": 535,
   "badges": [
+    {
+      "id": "b32b2957-f77b-433b-856d-de55f074cb96",
+      "title": "AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge",
+      "name": "AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge",
+      "issuer": "issued by Amazon Web Services Training and Certification",
+      "issuer_name": "issued by Amazon Web Services Training and Certification",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": "https://images.credly.com/images/b56fe67d-3fc7-4a5c-890a-edb693b2a9ef/blob",
+      "verify_url": "https://www.credly.com/badges/b32b2957-f77b-433b-856d-de55f074cb96/public_url",
+      "url": "https://www.credly.com/badges/b32b2957-f77b-433b-856d-de55f074cb96/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Amazon Aurora",
+        "Amazon Relational Database Service (RDS)",
+        "Amazon Web Services",
+        "AWS",
+        "Database Architecture",
+        "PostgreSQL"
+      ]
+    },
     {
       "id": "d6d77359-05d8-4db0-8a5c-3944635c5684",
       "title": "Cilium Advanced Gateway API Use Cases",
