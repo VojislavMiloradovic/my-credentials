@@ -42,6 +42,7 @@ logger = logging.getLogger("credly_updater")
 
 # Configuration Constants & Canonical Paths
 CREDLY_USER = os.getenv("CREDLY_USER", "vojislavmiloradovic")
+CREDLY_USER_ID = os.getenv("CREDLY_USER_ID", "752aee40-7358-4ade-9a49-81e8b6f49225")
 VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 OUTPUT_FILENAME = "credly_badges.json"
 OUTPUT_FILE = os.getenv("OUTPUT_FILE", os.path.join(VALIDATION_DIR, OUTPUT_FILENAME))
@@ -277,12 +278,13 @@ def load_existing_local_badges() -> list[dict]:
     return []
 
 
-def fetch_credly_badges(username: str) -> list[dict]:
+def fetch_credly_badges(username: str) -> list[dict] | None:
     """Fetches badges directly from Credly's public user API endpoint with pagination."""
     url = f"https://www.credly.com/users/{username}/badges.json"
     logger.info(f"🔄 Fetching Credly badges from API endpoint: {url}")
 
     badges = []
+    seen_badge_ids: set[str] = set()
     page = 1
 
     while True:
@@ -290,7 +292,7 @@ def fetch_credly_badges(username: str) -> list[dict]:
             response = requests.get(f"{url}?page={page}", headers=HEADERS, timeout=20)
             if response.status_code != 200:
                 logger.warning(f"⚠️ Credly API returned status code {response.status_code} on page {page}.")
-                break
+                return None if not badges else badges
 
             payload = response.json()
             data_list = payload.get("data", []) if isinstance(payload, dict) else []
@@ -298,6 +300,7 @@ def fetch_credly_badges(username: str) -> list[dict]:
             if not data_list:
                 break
 
+            ids_before_page = len(seen_badge_ids)
             for item in data_list:
                 badge_template = item.get("badge_template", {}) or {}
                 issuer_info = badge_template.get("issuer", {}) or {}
@@ -312,6 +315,9 @@ def fetch_credly_badges(username: str) -> list[dict]:
 
                 dt = item.get("issued_at") or item.get("created_at")
                 badge_id = str(item.get("id"))
+                if badge_id in seen_badge_ids:
+                    continue
+                seen_badge_ids.add(badge_id)
                 verify_url = f"https://www.credly.com/badges/{badge_id}/public_url"
 
                 raw_skills = badge_template.get("skills", [])
@@ -339,11 +345,18 @@ def fetch_credly_badges(username: str) -> list[dict]:
                 except ValidationError as ve:
                     logger.warning(f"⚠️ Skipping invalid Credly API entry '{title}': {ve}")
 
+            metadata = payload.get("metadata", {}) if isinstance(payload, dict) else {}
+            next_page = metadata.get("next_page") or metadata.get("next_page_url")
+            if next_page is None and len(data_list) < 48:
+                break
+            if len(seen_badge_ids) == ids_before_page and page > 1:
+                logger.warning("⚠️ Credly API returned no new badge IDs; stopping pagination.")
+                break
             page += 1
 
         except requests.exceptions.RequestException as e:
             logger.error(f"❌ Exception occurred while requesting Credly API: {e}")
-            break
+            return None if not badges else badges
 
     if badges:
         logger.info(f"✅ Successfully fetched {len(badges)} badges from Credly API.")
@@ -351,19 +364,61 @@ def fetch_credly_badges(username: str) -> list[dict]:
     return badges
 
 
-def merge_badge_datasets(api_badges: list[dict], local_badges: list[dict]) -> list[dict]:
+def fetch_credly_external_badges(user_id: str) -> list[dict] | None:
+    """Fetches Credly's public external/open-badge records."""
+    url = f"https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public"
+    logger.info(f"🔄 Fetching External Open Badges API endpoint: {url}")
+
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=30)
+        response.raise_for_status()
+        payload = response.json()
+    except (requests.exceptions.RequestException, ValueError) as exc:
+        logger.error(f"❌ Exception occurred while requesting external Credly badges: {exc}")
+        return None
+
+    records = payload.get("data", []) if isinstance(payload, dict) else []
+    badges = []
+    for item in records:
+        external = item.get("external_badge", {}) or {}
+        badge_id = str(item.get("id") or external.get("credly_record_id") or "").strip()
+        title = str(external.get("badge_name") or "Credly External Badge").strip()
+        issuer = str(external.get("issuer_name") or "External Issuer").strip()
+        verify_url = external.get("badge_url") or external.get("badge_id")
+        issued_at = external.get("issued_at_date") or external.get("issued_at")
+
+        raw_entry = {
+            "id": badge_id,
+            "title": title,
+            "name": title,
+            "issuer": issuer,
+            "issuer_name": issuer,
+            "issued_at": issued_at,
+            "issued_at_date": issued_at,
+            "date": issued_at,
+            "image_url": external.get("image_url"),
+            "verify_url": verify_url,
+            "url": verify_url,
+            "type": "Credly External Badge",
+            "verification_type": "Credly External Badge",
+            "skills": external.get("skills", []),
+        }
+        try:
+            badges.append(CredlyBadgeItemModel(**raw_entry).model_dump())
+        except ValidationError as exc:
+            logger.warning(f"⚠️ Skipping invalid external Credly entry '{title}': {exc}")
+
+    logger.info(f"✅ Successfully fetched {len(badges)} external open badges from Credly API.")
+    return badges
+
+
+def merge_badge_datasets(api_badges: list[dict], external_badges: list[dict]) -> list[dict]:
     """
-    Unions local JSON badges and live API badges.
-    API data updates existing badges; historical local badges omitted by API pagination are retained.
+    Unions the two live Credly datasets by stable record ID.
     """
     badge_map = {}
 
-    for b in local_badges:
-        key = b.get("id") or f"{b.get('title')}-{b.get('issued_at')}"
-        if key:
-            badge_map[key] = b
-
-    for b in api_badges:
+    for b in api_badges + external_badges:
         key = b.get("id") or f"{b.get('title')}-{b.get('issued_at')}"
         if key:
             badge_map[key] = b
@@ -371,7 +426,7 @@ def merge_badge_datasets(api_badges: list[dict], local_badges: list[dict]) -> li
     merged = list(badge_map.values())
     logger.info(
         f"🔗 Union Merge Complete: Total = {len(merged)} badges "
-        f"(Preserved {len(merged) - len(api_badges)} missing items from local dataset)."
+        f"(Native={len(api_badges)}, External={len(external_badges)})."
     )
     return merged
 
@@ -475,13 +530,19 @@ def main():
     # 1. Load existing local badges BEFORE calling API
     local_badges = load_existing_local_badges()
 
-    # 2. Fetch live API badges
-    api_badges = fetch_credly_badges(CREDLY_USER)
+    # 2. Fetch both live Credly datasets
+    native_badges = fetch_credly_badges(CREDLY_USER)
+    external_badges = fetch_credly_external_badges(CREDLY_USER_ID)
 
-    # 3. Perform union merge (preserves historical badges missing from API pagination)
-    unique_badges = merge_badge_datasets(api_badges, local_badges)
+    # Keep the last valid local dataset only when a live source is unavailable.
+    # Do not merge it into a successful refresh: that would make stale records immortal.
+    if native_badges is None or external_badges is None:
+        logger.warning("⚠️ One or more Credly sources failed; retaining the previous local dataset.")
+        unique_badges = local_badges
+    else:
+        unique_badges = merge_badge_datasets(native_badges, external_badges)
 
-    # 4. Anomaly & Loss Guard Assertion - Content-Aware
+    # 3. Anomaly & Loss Guard Assertion - Content-Aware
     #    Uses stable Credly badge IDs (UUIDs) and content hashes to detect
     #    replacement/modification even when total badge count remains stable.
     if execute_content_loss_guard:
@@ -503,7 +564,7 @@ def main():
             logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
             sys.exit(1)
 
-    # 5. Pydantic Payload Validation & File Dump strictly into for_validation/
+    # 4. Pydantic Payload Validation & File Dump strictly into for_validation/
     payload_dict = {
         "credly_user": CREDLY_USER,
         "total_count": len(unique_badges),
@@ -522,7 +583,7 @@ def main():
         logger.error(f"❌ Root Payload Validation Error: {ve}")
         sys.exit(1)
 
-    # 6. Build Markdown Archives
+    # 5. Build Markdown Archives
     build_archives_and_readme(unique_badges)
     logger.info("Pipeline execution completed successfully.")
 
