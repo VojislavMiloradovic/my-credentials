@@ -75,14 +75,32 @@ jobs:
       - name: Generate LLMs.txt Directory Files
         run: uv run python generate_llms_txt.py
 
-      - name: Commit and Push Changes
+      - name: Commit and Push Changes (Rebase-Safe with Retry)
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Fetch latest main and rebase local commits on top
+          git fetch origin main
+          git rebase origin/main || { echo "❌ Rebase failed - resolve conflicts manually"; exit 1; }
+          
+          # Stage explicit artifact paths only
           git add for_validation/ archives/ README.md
+          
           if ! git diff --staged --quiet; then
             git commit -m "${{ inputs.commit_message }}"
-            git push
+            
+            # Push with retry (3 attempts, exponential backoff)
+            for attempt in 1 2 3; do
+              if git push; then
+                echo "✅ Push succeeded on attempt $attempt"
+                exit 0
+              fi
+              echo "⚠️ Push attempt $attempt failed, retrying in $((attempt * 5))s..."
+              sleep $((attempt * 5))
+            done
+            echo "❌ Push failed after 3 attempts"
+            exit 1
           else
             echo "No data changes detected."
           fi

@@ -15,42 +15,7 @@ permissions:
 
 jobs:
   build-and-refresh-linkedin:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Repository Assets
-        uses: actions/checkout@v4
-
-      - name: Initialize Runtime Environment
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install uv
-        uses: astral-sh/setup-uv@v3
-        with:
-          version: '0.12.3'
-
-      - name: Install Dependencies
-        run: uv sync --frozen
-
-      - name: Process Profile Certifications Matrix
-        run: |
-          uv run python update_linkedin.py
-
-      - name: Generate JSON-LD Linked Data
-        run: uv run python generate_jsonld.py
-
-      - name: Generate LLMs.txt Directory Files
-        run: uv run python generate_llms_txt.py
-
-      - name: Commit and Push Changes (Rebase Safe)
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if ! git diff --staged --quiet; then
-            git commit -m "chore: auto-update platform data, json-ld, and llms.txt"
-            git pull --rebase origin main
-            git push
-          fi
+    uses: ./.github/workflows/reusable-update.yml
+    with:
+      script_name: update_linkedin.py
+      commit_message: "chore(linkedin): auto-update LinkedIn profile, json-ld, and llms.txt"
