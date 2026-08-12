@@ -91,7 +91,7 @@ jobs:
           git stash pop
           
           # Stage explicit artifact paths only
-          git add for_validation/ archives/ README.md
+          git add for_validation/ archives/ README.md credentials.jsonld llms.txt llms-full.txt
           
           if ! git diff --staged --quiet; then
             git commit -m "${{ inputs.commit_message }}"
