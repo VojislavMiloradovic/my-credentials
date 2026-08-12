@@ -15,5 +15,6 @@ jobs:
     with:
       script_name: update_google_skills.py
       commit_message: "chore(google-skills): auto-update Google Skills profile, json-ld, and llms.txt"
+      platform: google-skills
     permissions:
       contents: write

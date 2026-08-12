@@ -16,5 +16,6 @@ jobs:
     with:
       script_name: update_google_developer.py
       commit_message: "chore(google-dev): auto-update Google Developer profile, json-ld, and llms.txt"
+      platform: google-developer
     permissions:
       contents: write

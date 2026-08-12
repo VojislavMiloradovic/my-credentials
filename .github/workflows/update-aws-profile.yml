@@ -20,3 +20,4 @@ jobs:
     with:
       script_name: update_aws_skills.py
       commit_message: "chore(aws): auto-update AWS profile, json-ld, and llms.txt"
+      platform: aws-skills

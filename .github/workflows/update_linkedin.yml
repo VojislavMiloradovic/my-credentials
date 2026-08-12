@@ -19,3 +19,4 @@ jobs:
     with:
       script_name: update_linkedin.py
       commit_message: "chore(linkedin): auto-update LinkedIn profile, json-ld, and llms.txt"
+      platform: linkedin

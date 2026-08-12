@@ -20,3 +20,4 @@ jobs:
     with:
       script_name: update_ms_learn.py
       commit_message: "chore(ms-learn): auto-update Microsoft Learn profile, json-ld, and llms.txt"
+      platform: microsoft-learn

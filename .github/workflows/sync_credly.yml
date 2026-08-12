@@ -15,5 +15,6 @@ jobs:
     with:
       script_name: update_credly_badges.py
       commit_message: "chore(credly): auto-update Credly profile, json-ld, and llms.txt"
+      platform: credly
     permissions:
       contents: write

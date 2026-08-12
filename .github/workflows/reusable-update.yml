@@ -19,6 +19,15 @@ on:
         required: false
         type: string
         description: "Value of the profile ID"
+      platform:
+        required: false
+        type: string
+        description: "Platform name for targeted validation (e.g., microsoft-learn)"
+      artifact_paths:
+        required: false
+        type: string
+        description: 'JSON array of paths to stage (default: all standard artifacts)'
+        default: '["for_validation/", "archives/", "README.md", "credentials.jsonld", "llms.txt", "llms-full.txt"]'
 
 jobs:
   update-credentials:
@@ -49,8 +58,12 @@ jobs:
       - name: Validate Existing Data JSON Integrity
         run: |
           uv run python -c "
-          import glob, json, sys
-          json_files = glob.glob('for_validation/*.json') + glob.glob('data/*.json')
+          import glob, json, sys, os
+          platform = '${{ inputs.platform }}'
+          if platform:
+              json_files = glob.glob(f'for_validation/{platform}-*.json') + glob.glob(f'data/{platform}.json')
+          else:
+              json_files = glob.glob('for_validation/*.json') + glob.glob('data/*.json')
           if not json_files:
               print('No JSON files found for validation pre-check.')
               sys.exit(0)
@@ -106,8 +119,11 @@ jobs:
           # Restore stashed changes
           git stash pop
           
-          # Stage explicit artifact paths only
-          git add for_validation/ archives/ README.md credentials.jsonld llms.txt llms-full.txt
+          # Stage artifact paths from input (JSON array)
+          ARTIFACT_PATHS='${{ inputs.artifact_paths }}'
+          for path in $(echo "$ARTIFACT_PATHS" | jq -r '.[]'); do
+            git add "$path"
+          done
           
           if ! git diff --staged --quiet; then
             git commit -m "${{ inputs.commit_message }}"
@@ -125,6 +141,16 @@ jobs:
                 REMOTE_HEAD=$(git rev-parse origin/main)
                 if [ "$LOCAL_HEAD" = "$REMOTE_HEAD" ]; then
                   echo "✅ Remote HEAD verified: $LOCAL_HEAD"
+                  
+                  # Step summary for Actions UI
+                  {
+                    echo "## 📦 Commit Summary"
+                    echo "- **Commit:** $(git rev-parse --short HEAD)"
+                    echo "- **Message:** ${{ inputs.commit_message }}"
+                    echo "- **Changed files:**"
+                    git diff --name-only HEAD~1 | sed 's/^/  - /'
+                  } >> $GITHUB_STEP_SUMMARY
+                  
                   exit 0
                 else
                   echo "❌ Remote HEAD mismatch! Local: $LOCAL_HEAD, Remote: $REMOTE_HEAD"
@@ -147,4 +173,11 @@ jobs:
             exit 1
           else
             echo "No data changes detected."
+            
+            # Step summary for no-changes case
+            {
+              echo "## 📦 Commit Summary"
+              echo "- **Status:** No changes detected"
+              echo "- **Message:** ${{ inputs.commit_message }}"
+            } >> $GITHUB_STEP_SUMMARY
           fi
