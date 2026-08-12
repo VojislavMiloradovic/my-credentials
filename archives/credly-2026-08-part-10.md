@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 10 of 11
-date_range: 2026-07-21 to 2026-08-01
+date_range: 2026-07-24 to 2026-08-04
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-10.md
 ---
@@ -12,6 +12,18 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-04 | [Cloud Sales Pro - Solution-Based Licensing](https://www.credly.com/badges/a565f103-3cd8-4249-88c0-e31f897c8dc4/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-08-04 | [Cloud Sales Pro - Workflow Automation](https://www.credly.com/badges/a63cce86-72f9-432c-96ca-2d9daed850d8/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-08-03 | [Privileged Access with IAM](https://www.credly.com/badges/d2a16e78-200b-435f-84ec-708b5dfa835e/public_url) | issued by Google Cloud | Credly Verified Badge |
+| 2026-08-02 | [Agility and Velocity: How MongoDB Helps Deliver New Features Faster](https://www.credly.com/badges/38da0769-2338-4eba-a5bd-447954a5777a/public_url) | issued by MongoDB | Credly Verified Badge |
+| 2026-08-02 | [Data Resilience in MongoDB Atlas](https://www.credly.com/badges/b8b7d06d-d74f-4d6f-a85c-923e55953fa1/public_url) | issued by MongoDB | Credly Verified Badge |
+| 2026-08-02 | [Data Resilience in MongoDB Self-Managed Deployments](https://www.credly.com/badges/e0c8232b-d40f-4316-b360-5af9cb576981/public_url) | issued by MongoDB | Credly Verified Badge |
+| 2026-08-02 | [Observability for AI Agents](https://www.credly.com/badges/b6f28741-5f25-4728-b2dc-a1fc2f7a102c/public_url) | issued by MongoDB | Credly Verified Badge |
+| 2026-08-02 | [Retrieval Evaluation](https://www.credly.com/badges/b92b3127-3336-4c5a-ac39-df92f8262d77/public_url) | issued by MongoDB | Credly Verified Badge |
+| 2026-08-02 | [Scale and Adapt: How MongoDB future-proofs your business for massive growth](https://www.credly.com/badges/842768fd-e3af-46e8-84f5-5d6519df2a35/public_url) | issued by MongoDB | Credly Verified Badge |
+| 2026-08-01 | [AWS Educate Getting Started with Security - Training Badge](https://www.credly.com/badges/eb54a438-0285-4897-bb89-2c0bacc6adf7/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-08-01 | [Attack Flows v2: How to Model and Sequence Attacks](https://www.credly.com/badges/975e7ac6-20c4-4b0f-9d17-eafc0dd69edb/public_url) | issued by AttackIQ | Credly Verified Badge |
+| 2026-08-01 | [Cloud Sales Professional Security Awareness Training](https://www.credly.com/badges/e3cb20dc-1a7a-4ec5-8318-10d8742f16ee/public_url) | issued by Acronis | Credly Verified Badge |
 | 2026-08-01 | [Cloud Sales Pro - PSA](https://www.credly.com/badges/2123c22a-1b9f-4724-8252-536df8dbd4d1/public_url) | issued by Acronis | Credly Verified Badge |
 | 2026-08-01 | [Safeguarding the Supply Chain](https://www.credly.com/badges/296701d5-4c19-4756-85a3-19048ec7f448/public_url) | issued by AttackIQ | Credly Verified Badge |
 | 2026-07-30 | [Building an App with Code Agents and MongoDB](https://www.credly.com/badges/e69b5623-374c-482a-b29f-6cee2c6714d1/public_url) | issued by MongoDB | Credly Verified Badge |
@@ -50,18 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-24 | [MongoDB Overview: Core Concepts and Architecture](https://www.credly.com/badges/ec006874-acdf-4095-abab-5b6657054fc1/public_url) | issued by MongoDB | Credly Verified Badge |
 | 2026-07-24 | [MongoDB Sharding Strategies](https://www.credly.com/badges/ec69041f-6f70-4cab-b52f-dc3b9a64132f/public_url) | issued by MongoDB | Credly Verified Badge |
 | 2026-07-24 | [Securing MongoDB Atlas: Authentication & Authorization](https://www.credly.com/badges/c92a6b9b-e628-42f2-b33c-d51f189a3f3c/public_url) | issued by MongoDB | Credly Verified Badge |
-| 2026-07-24 | [Securing MongoDB Self-Managed: Authentication & Authorization](https://www.credly.com/badges/ccb3958d-00b6-4cf5-abf2-9481f3f12197/public_url) | issued by MongoDB | Credly Verified Badge |
-| 2026-07-22 | [AI and Innovation: How MongoDB Enables a Resilient AI Strategy](https://www.credly.com/badges/eb31b07d-b515-4678-aad1-792c118e67dc/public_url) | issued by MongoDB | Credly Verified Badge |
-| 2026-07-22 | [AWS Educate Getting Started with Databases - Training Badge](https://www.credly.com/badges/da4e7c34-8a7a-4418-86f2-eb9db7a34148/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-07-22 | [Foundations of Cyber Threat Intelligence](https://www.credly.com/badges/7de6eae2-567f-4628-9a07-b832ea35db92/public_url) | issued by AttackIQ | Credly Verified Badge |
-| 2026-07-22 | [MongoDB Advanced Schema Design Patterns and Anti-patterns Skill Badge](https://www.credly.com/badges/e467dede-3af7-4e52-94b6-024d53997597/public_url) | issued by MongoDB | Credly Verified Badge |
-| 2026-07-22 | [MongoDB Aggregation Fundamentals](https://www.credly.com/badges/9e2386d0-6962-447d-9cab-1efb8c45bb56/public_url) | issued by MongoDB | Credly Verified Badge |
-| 2026-07-22 | [MongoDB Query Optimization Techniques](https://www.credly.com/badges/adc22d84-9e52-40b6-8f56-09b163398c09/public_url) | issued by MongoDB | Credly Verified Badge |
-| 2026-07-22 | [MongoDB Schema Design Optimization Skill Badge](https://www.credly.com/badges/526ac37a-cf81-4031-82ad-ea72351d42b8/public_url) | issued by MongoDB | Credly Verified Badge |
-| 2026-07-22 | [MongoDB Schema Design Patterns and Anti-patterns Skill Badge](https://www.credly.com/badges/79327255-4ed3-4b0f-8b1e-9982a0ab1051/public_url) | issued by MongoDB | Credly Verified Badge |
-| 2026-07-21 | [Extending ATT&CK with ATT&CK Workbench](https://www.credly.com/badges/1a455d6f-de65-420a-a531-f26d2562538b/public_url) | issued by AttackIQ | Credly Verified Badge |
-| 2026-07-21 | [Build Serverless Applications with Cloud Run Functions](https://www.credly.com/badges/f57106b4-cf01-4ad0-a05a-67f322da7411/public_url) | issued by Google Cloud | Credly Verified Badge |
-| 2026-07-21 | [Cloud Sales Pro - Archival Storage](https://www.credly.com/badges/f158f922-f150-4b0b-8690-da627a5aea91/public_url) | issued by Acronis | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-07-part-09.md](./credly-2026-07-part-09.md) | [Index](./credly-index.md) | Next: [credly-2026-08-part-11.md](./credly-2026-08-part-11.md)

@@ -1,14 +1,15 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 548 records.
+This document represents a unified, verifiable list of all 534 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-08-11 | [Hubble Flow Visibility](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-11 | [Cilium IPv6 Networking and Observability](https://www.credly.com/badges/1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72/public_url) | issued by Isovalent | Credly Verified Badge |
+| 2026-08-11 | [Hubble Flow Visibility](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-11 | [Isovalent Lab Champion (20 labs)](https://www.credly.com/badges/7a58705a-96a4-4712-b069-428537781baf/public_url) | issued by Isovalent | Credly Verified Badge |
+| 2026-08-10 | [Cilium Advanced Gateway API Use Cases](https://www.credly.com/badges/d6d77359-05d8-4db0-8a5c-3944635c5684/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cilium LB-IPAM & L2](https://www.credly.com/badges/7083b54b-a4c1-4c38-a0f0-c8487d5b6794/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cilium LoadBalancer IPAM and BGP Service Advertisement](https://www.credly.com/badges/d181f780-e6ee-4fef-8bd1-df291a355438/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cloud Tech Pro - Email Archiving](https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/public_url) | issued by Acronis | Credly Verified Badge |
@@ -17,7 +18,6 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-08-10 | [Golden Signals with Hubble and Grafana](https://www.credly.com/badges/adb39fe6-553a-4f2b-aed7-2748d666948f/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Maturing Threat-Informed Defense with M3TID](https://www.credly.com/badges/2e8b7ceb-8d8c-4c3b-bf12-e183a5d4b47d/public_url) | issued by AttackIQ | Credly Verified Badge |
 | 2026-08-10 | [Unlocking the Power of CTI Blueprints](https://www.credly.com/badges/4490aa99-d5e9-4a20-9d66-e996f670f34f/public_url) | issued by AttackIQ | Credly Verified Badge |
-| 2026-08-10 | [Cilium Advanced Gateway API Use Cases](https://www.credly.com/badges/d6d77359-05d8-4db0-8a5c-3944635c5684/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-09 | [AWS Knowledge: Amazon WorkSpaces Migrations - Training Badge](https://www.credly.com/badges/0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-08-09 | [Create and Manage Cloud Spanner Instances Skill Badge](https://www.credly.com/badges/22ddf09a-7e02-44c6-9a92-4c25ae5e05f0/public_url) | issued by Google Cloud | Credly Verified Badge |
 | 2026-08-08 | [Cilium Flow Encryption](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/public_url) | issued by Isovalent | Credly Verified Badge |
@@ -165,12 +165,11 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-07-05 | [Celonis Process Management Foundations](https://www.credly.com/badges/2686a69d-1900-4137-9403-bf40bf52cd27/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-07-05 | [Cloud Tech Associate Advanced Cyber Infrastructure](https://www.credly.com/badges/dcee78c6-6eb3-4a34-b1a0-f4d3a7be834d/public_url) | issued by Acronis | Credly Verified Badge |
 | 2026-07-05 | [Define Okta Administrators](https://www.credly.com/badges/9cc7a228-967b-4376-9c82-0a2fc8cee9f8/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-07-05 | [Demystify Auth0 Logout Scenarios](https://www.credly.com/badges/6bde4fae-dedb-46e1-8f67-f0cd9f4a9750/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-07-05 | [Demystify Auth0 Logout Scenarios](https://www.credly.com/badges/98e6a761-4875-466d-8218-81e537a38249/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-07-05 | [Implement Object-Centric Process Mining](https://www.credly.com/badges/1d75263d-60bb-4d7a-9889-fdd2e0e73363/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-07-05 | [Model in Process Designer](https://www.credly.com/badges/5acece33-4aa8-462f-ad36-1a76aef6fc8a/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-07-05 | [Sustainability Base Camper](https://www.credly.com/badges/4675aa36-2855-4b8c-8f21-eab4d065685e/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-07-05 | [Sustainability Business Bootcamper](https://www.credly.com/badges/fd237169-9b1c-4d4a-83fb-62c33551b563/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-07-05 | [Demystify Auth0 Logout Scenarios](https://www.credly.com/badges/98e6a761-4875-466d-8218-81e537a38249/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-07-03 | [Mitigate Threats and Vulnerabilities with Security Command Center Skill Badge](https://www.credly.com/badges/0daa2483-3793-42a7-afb0-4d338d3725bc/public_url) | issued by Google Cloud | Credly Verified Badge |
 | 2026-07-02 | [AWS SimuLearn - AI Practitioner - Training Badge](https://www.credly.com/badges/bf88d187-0e8f-44cc-bec9-7e9e69115951/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-07-02 | [Cloud Sales Associate Advanced Management](https://www.credly.com/badges/7a16d6a7-7f4a-43e0-8ddb-fbcb300a8822/public_url) | issued by Acronis | Credly Verified Badge |
@@ -193,18 +192,16 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-06-29 | [Create and Deliver Demos](https://www.credly.com/badges/b65bf69a-ce07-487d-b439-fafad1ee79d9/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-06-29 | [Deliver Business Value with Celonis](https://www.credly.com/badges/897bc772-848b-40cc-8a6e-315c76aec649/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-06-29 | [Implement Passwordless Authentication](https://www.credly.com/badges/b5aeea2a-0424-47c4-87d4-ea6a6acd3bad/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-06-29 | [Manage Your Tenant with Auth0 MCP Server](https://www.credly.com/badges/c9da5f3b-b75b-43d4-9e6d-d291b9504fe3/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-06-29 | [Review and Interpret Analyses](https://www.credly.com/badges/25472282-590d-4f27-9fda-6f344e2fd901/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-06-29 | [Manage Your Tenant with Auth0 MCP Server](https://www.credly.com/badges/f94e59f6-4478-48db-9bdd-e436583c76b8/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-29 | [Review and Interpret Analyses](https://www.credly.com/badges/25472282-590d-4f27-9fda-6f344e2fd901/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-06-28 | [Implement Speech and Language Solutions with Pre-trained APIs](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5/public_url) | issued by Google Cloud | Credly Verified Badge |
 | 2026-06-27 | [AWS Knowledge: Migration Foundations - Training Badge](https://www.credly.com/badges/c6d0351c-5227-4931-8bec-3d4789d4fe0e/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-06-27 | [Celonis Foundations](https://www.credly.com/badges/e2811911-4464-4eb1-9981-681c751363bf/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-06-27 | [Cloud Tech Associate Advanced Disaster Recovery](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-06-27 | [Get Started with Auth0 Tenants](https://www.credly.com/badges/a626c5ef-b24c-4dce-be69-548d51377e78/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-27 | [Get Started with Auth0 Tenants](https://www.credly.com/badges/faf9ba16-d225-4375-8496-08e184790a61/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-27 | [Monitor KPIs in Analysis Dashboards](https://www.credly.com/badges/d23419cf-0b96-4003-8c51-d0156b673365/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-06-27 | [Monitor KPIs in Execution Apps](https://www.credly.com/badges/648e7ea8-11ed-42ec-8bb2-68235dd7841a/public_url) | issued by Celonis | Credly Verified Badge |
 | 2026-06-27 | [Process Automation Basics](https://www.credly.com/badges/8da97b58-6d1d-46ef-bad3-34ed67aa3baa/public_url) | issued by Celonis | Credly Verified Badge |
-| 2026-06-27 | [Get Started with Auth0 Tenants](https://www.credly.com/badges/faf9ba16-d225-4375-8496-08e184790a61/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-26 | [Configure Service Accounts and IAM Roles for Google Cloud Skill Badge](https://www.credly.com/badges/ddaa4bce-2772-4181-9a7c-21252929399d/public_url) | issued by Google Cloud | Credly Verified Badge |
 | 2026-06-25 | [AWS Knowledge: Media & Entertainment: Direct-to-Consumer and Broadcast Foundations - Training Badge](https://www.credly.com/badges/3b24da57-1197-413e-8fa4-fdb2fe314113/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-06-25 | [Chainguard Container Crusader](https://www.credly.com/badges/bc36c287-1124-4591-99a8-02051ffa7402/public_url) | issued by Chainguard | Credly Verified Badge |
@@ -239,8 +236,6 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-06-19 | [LFS148: Getting Started with OpenTelemetry](https://www.credly.com/badges/85321abd-62c6-4b89-8d3f-a6ca51383a27/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-18 | [AWS Knowledge: Amazon EKS - Training Badge](https://www.credly.com/badges/a56b19c1-ecf5-4bf0-b66e-1849a18b9722/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-06-18 | [Intro to Acronis](https://www.credly.com/badges/9e744ff2-c093-46d2-adba-97b5f1c92be2/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-06-18 | [Protect Your API Endpoints with Auth0](https://www.credly.com/badges/7a85c1f9-c3ec-42d2-a898-8ca954ed58bf/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-06-18 | [Secure Applications with Auth0 Attack Protection](https://www.credly.com/badges/eb46f4ee-e054-47be-bdec-ce97fa77fcd6/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-18 | [Protect Your API Endpoints with Auth0](https://www.credly.com/badges/c32f01cc-673d-4434-926d-ef6207662dc3/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-18 | [Secure Applications with Auth0 Attack Protection](https://www.credly.com/badges/84711de1-5a7d-4182-a165-9db3ea7b8029/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-17 | [LFC112: Creating Effective Documentation for Developers](https://www.credly.com/badges/74c24889-addb-48cd-8539-b9484742e114/public_url) | issued by The Linux Foundation | Credly Verified Badge |
@@ -249,9 +244,8 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-06-17 | [LFS183: Introduction to Zero Trust](https://www.credly.com/badges/ea7570fb-d863-4cbf-8329-ee746d40980a/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-17 | [ZEDEDA Certified Edge Orchestration Professional (ZCEP)](https://www.credly.com/badges/353991f9-77e3-4db3-9e33-3ea865e695ff/public_url) | issued by ZEDEDA | Credly Verified Badge |
 | 2026-06-17 | [Store, Process, and Manage Data on Google Cloud - Console Skill Badge](https://www.credly.com/badges/59bdf724-fa62-4fae-b148-cb57e28e3fb0/public_url) | issued by Google Cloud | Credly Verified Badge |
-| 2026-06-16 | [Planning and Configuration Best Practices](https://www.credly.com/badges/9ec90075-322d-4d98-a00c-30601b34e08e/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-06-16 | [Sign in Your Users and Secure Sessions with Okta](https://www.credly.com/badges/ef1ac823-96a7-427d-b8f2-77a6cffd32de/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-16 | [Planning and Configuration Best Practices](https://www.credly.com/badges/80436a76-5762-4a7c-b7a9-f86fde3a4440/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-16 | [Sign in Your Users and Secure Sessions with Okta](https://www.credly.com/badges/ef1ac823-96a7-427d-b8f2-77a6cffd32de/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-15 | [LFC111: Open Source Technical Documentation Essentials](https://www.credly.com/badges/5facc7f1-04b9-4b75-b174-44e85cd84aea/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-15 | [LFQ102: Quantum Computing Essentials For Senior Leaders](https://www.credly.com/badges/683ddef1-be3c-47d2-b4d5-c9ec0b3b555c/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-15 | [LFS142: Introduction to Backstage - Developer Portals Made Easy](https://www.credly.com/badges/f2f210d4-5cef-47a1-9a3d-44a366d69611/public_url) | issued by The Linux Foundation | Credly Verified Badge |
@@ -298,7 +292,7 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-06-07 | [LFS158: Introduction to Kubernetes](https://www.credly.com/badges/85746ca0-36fc-4ba0-b753-d0dce904b02d/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-07 | [SKF100: Understanding the OWASP® Top 10 Security Threats](https://www.credly.com/badges/8a0199ec-ff1c-4b87-a185-92cf277719e6/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-07 | [AWS Knowledge: Amazon Braket - Training Badge](https://www.credly.com/badges/8a9f2e87-0407-4376-8b09-d10fa0b6a6b9/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-06-07 | [Google Play Academy - Store Listing Certificate](https://api.accredible.com/v1/obi/badge_assertions/1473fa50-8b83-4ccf-a376-6cd671db8b80) | Google Play Academy | External/Imported |
+| 2026-06-07 | [Google Play Academy - Store Listing Certificate](https://api.accredible.com/v1/obi/badge_assertions/1473fa50-8b83-4ccf-a376-6cd671db8b80) | Google Play Academy | Credly External Badge |
 | 2026-06-06 | [LFS101: Introduction to Linux](https://www.credly.com/badges/e0a7c437-4f29-4111-96d2-2c8f15eb14cc/public_url) | issued by The Linux Foundation | Credly Verified Badge |
 | 2026-06-06 | [AWS Knowledge: Networking Core - Training Badge](https://www.credly.com/badges/80648322-ee54-4e43-9d4b-f311dcc569cd/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-06-06 | [Intelligent Diagramming](https://www.credly.com/badges/a5b0658c-f2cb-4aa4-85db-5d2c8eefa144/public_url) | issued by Lucid Software | Credly Verified Badge |
@@ -321,17 +315,15 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-06-04 | [SAS Viya: Deployment on Google Kubernetes Engine](https://www.credly.com/badges/7195bcb4-0573-419b-a5c2-02d4677e72e4/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-06-04 | [SAS Viya System Requirements](https://www.credly.com/badges/501cd3e4-bc19-4c21-9c87-f5236435c13b/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-06-04 | [AWS Knowledge: Compute - Training Badge](https://www.credly.com/badges/422b41e8-bf11-4ac3-b1fd-90dfd1838224/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-06-04 | [Build Scalable Authorization Models with Auth0 FGA](https://www.credly.com/badges/03f314ca-34b2-45d8-9b2a-d0a5a45db527/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-06-04 | [Build Scalable Authorization Models with Auth0 FGA](https://www.credly.com/badges/3036b39b-c66c-40ed-ab67-c66e0244a1f4/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-04 | [PMI® Essentials: Seven AI Project Patterns](https://www.credly.com/badges/2f214aa1-1de2-4e25-ba59-61ba86729898/public_url) | issued by Project Management Institute | Credly Verified Badge |
 | 2026-06-04 | [Practical Application of Gen AI for Project Managers](https://www.credly.com/badges/d8cbec32-4350-4590-831f-34ad56889daf/public_url) | issued by Project Management Institute | Credly Verified Badge |
 | 2026-06-04 | [Talking to AI: Prompt Engineering for Project Managers](https://www.credly.com/badges/1b9b4a53-4ddc-4d6b-bd7c-c31df88dabc8/public_url) | issued by Project Management Institute | Credly Verified Badge |
-| 2026-06-04 | [Build Scalable Authorization Models with Auth0 FGA](https://www.credly.com/badges/3036b39b-c66c-40ed-ab67-c66e0244a1f4/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-01 | [Data Literacy in Practice](https://www.credly.com/badges/45b07a9e-9ca9-4189-a489-ebb58c023824/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-06-01 | [Deploying SAS Grid Manager](https://www.credly.com/badges/a0ad62be-1ecc-43c0-92ca-35437a0dd09b/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-06-01 | [Deploying SAS Viya from a Mirrored Registry](https://www.credly.com/badges/da51d4a3-2800-400d-a88d-d189bf53cc7e/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-06-01 | [Manual SAS Viya Deployment](https://www.credly.com/badges/0a5e2982-bdb6-498f-8ec6-979b3c0db919/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-06-01 | [Post-Deployment Steps for SAS Viya](https://www.credly.com/badges/bbb58e7e-7844-4128-99e3-1dbf678dcccc/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-06-01 | [Session and Token Management Best Practices](https://www.credly.com/badges/1b01f351-59a3-42a9-a39e-2c5e22b1ef8c/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-06-01 | [Session and Token Management Best Practices](https://www.credly.com/badges/a52cf3d1-10a0-48ca-8a19-bb2d0ee5a1ca/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-31 | [Product Analytics Certification](https://www.credly.com/badges/383af23e-ddf1-4106-9b5d-3fde0bacdf16/public_url) | issued by Pendo | Credly Verified Badge |
 | 2026-05-31 | [Product Discovery Certification](https://www.credly.com/badges/7f76121b-ff69-474a-a1ad-09e88993b145/public_url) | issued by Pendo | Credly Verified Badge |
@@ -368,7 +360,6 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-05-22 | [ZEDEDA Certified Edge Computing Associate (ZCEA)](https://www.credly.com/badges/26649e2a-0f74-463a-a67c-7796888e7477/public_url) | issued by ZEDEDA | Credly Verified Badge |
 | 2026-05-22 | [ZEDEDA Edge Orchestration Essentials](https://www.credly.com/badges/d481756e-959f-471c-8d68-3f0ebd5d3775/public_url) | issued by ZEDEDA | Credly Verified Badge |
 | 2026-05-22 | [Explore Fashion Functions and Business Processes in SAP S/4HANA for Fashion and Vertical Business - Record of Achievement](https://www.credly.com/badges/8dd999cd-6dd2-4d3c-933d-fab1ee2d5672/public_url) | issued by SAP | Credly Verified Badge |
-| 2026-05-22 | [Logging and Monitoring Best Practices](https://www.credly.com/badges/8813c682-a6f2-4813-838c-9841f046b1e7/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-22 | [Logging and Monitoring Best Practices](https://www.credly.com/badges/f21ab146-1b4b-4808-bb7b-060dd4c5dcff/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-21 | [Advanced SAS Viya Customizations](https://www.credly.com/badges/d094444a-85eb-4889-bf7f-6345d541fe10/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-05-21 | [Advanced Topics in Encryption on SAS Viya](https://www.credly.com/badges/de2613ac-bbe1-4354-b7c4-1feff6973aee/public_url) | issued by SAS | Credly Verified Badge |
@@ -397,11 +388,10 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-05-19 | [SAS Viya Overview](https://www.credly.com/badges/2fdf77a8-806b-4cf7-bbd3-a87225b74bac/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-05-17 | [Cybersecurity Fundamentals](https://www.credly.com/badges/07b5c2dc-a9ed-433c-bc25-63c34d575fa9/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
 | 2026-05-17 | [Data Literacy Essentials](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31/public_url) | issued by SAS | Credly Verified Badge |
-| 2026-05-17 | [Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity](https://www.credly.com/badges/2f421b3d-277a-4bc8-8120-3a07438a5962/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-17 | [Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity](https://www.credly.com/badges/50b5be88-f0a7-4bdf-b7eb-7a94d5d4714c/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-17 | [Introduction to Statistical Concepts](https://www.credly.com/badges/c503a241-0ce2-4131-878d-d2695680bde2/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-05-17 | [Overview of the IFRS 17 Standard](https://www.credly.com/badges/85b05775-f078-4b2e-9a1c-8987a14c0162/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-05-17 | [Setting up SAP Mobile Start with SAP S/4HANA on SAP Build Work Zone - Record of Achievement](https://www.credly.com/badges/07157e87-17e7-4a62-9599-6da52e400954/public_url) | issued by SAP | Credly Verified Badge |
-| 2026-05-17 | [Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity](https://www.credly.com/badges/50b5be88-f0a7-4bdf-b7eb-7a94d5d4714c/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-15 | [AI Foundations Knowledge Badge](https://www.credly.com/badges/5750e670-88f4-4a63-af78-a7af6e9aa394/public_url) | issued by SAS | Credly Verified Badge |
 | 2026-05-15 | [Exploring SAP Sports One - Training Management - Record of Achievement](https://www.credly.com/badges/83726026-289c-43c8-829d-e7cb31ae928f/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-05-15 | [Generative AI Using SAS](https://www.credly.com/badges/1cb2917f-14d8-4bec-a32a-9cdcd52cad31/public_url) | issued by SAS | Credly Verified Badge |
@@ -420,14 +410,13 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-05-13 | [Getting Started with Concur Invoice Standard Edition for Administrators - Record of Achievement](https://www.credly.com/badges/4400b51d-b867-40de-baa1-9ba06079b1e9/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-05-13 | [Getting Started with Web Development - Record of Achievement](https://www.credly.com/badges/c84a5ab3-92bb-46c7-bb07-9c679979d525/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-05-11 | [AI Everywhere - AI PCs](https://www.credly.com/badges/02330493-3ee5-46c5-b1f2-d62e5a3e770e/public_url) | issued by Intel | Credly Verified Badge |
-| 2026-05-11 | [Authenticate with Auth0 Social and Enterprise Connections](https://www.credly.com/badges/4e66fc9a-4aae-44ed-be1d-91c71ac934c5/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-11 | [Authenticate with Auth0 Social and Enterprise Connections](https://www.credly.com/badges/ce9e38af-b03f-43b4-963a-e6cda9ad0095/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-11 | [Getting Started with Concur Expense Standard Edition for Administrators - Record of Achievement](https://www.credly.com/badges/ce034733-a09d-4b7f-818f-c321dc339316/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-05-11 | [Manage BYOD via Identity-Aware Integration](https://www.credly.com/badges/959093f9-1e07-4096-be63-35d61fbe8113/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-11 | [Manage Network Zones](https://www.credly.com/badges/81d0acf7-f9e1-43d7-97b1-9ca812002a92/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-11 | [Secure AI Workflows with Auth0 for AI Agents](https://www.credly.com/badges/ed47f33d-7002-4feb-a1d2-c682ec20879d/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-05-11 | [Display & Video 360 Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/0658506c-3b28-4deb-9088-ab7d34d70ff9) | Skillshop | External/Imported |
-| 2026-05-11 | [Privacy for Agencies and Partners Certification](https://api.accredible.com/v1/obi/badge_assertions/ce77e9e9-f2c5-4ff4-a2bb-3e5ab37134c3) | Skillshop | External/Imported |
-| 2026-05-11 | [Authenticate with Auth0 Social and Enterprise Connections](https://www.credly.com/badges/ce9e38af-b03f-43b4-963a-e6cda9ad0095/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-11 | [Display & Video 360 Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/0658506c-3b28-4deb-9088-ab7d34d70ff9) | Skillshop | Credly External Badge |
+| 2026-05-11 | [Privacy for Agencies and Partners Certification](https://api.accredible.com/v1/obi/badge_assertions/ce77e9e9-f2c5-4ff4-a2bb-3e5ab37134c3) | Skillshop | Credly External Badge |
 | 2026-05-09 | [Define a Secure Policy Structure](https://www.credly.com/badges/c2ff8b68-4187-4799-b8b5-27c9fa37ef45/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-09 | [Define Your Users in Okta](https://www.credly.com/badges/3901feb8-cf8a-4873-9608-66a84f5981a6/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-09 | [Manage User Profiles in UD](https://www.credly.com/badges/23833ee2-c157-450c-963c-0eae083fefea/public_url) | issued by Okta | Credly Verified Badge |
@@ -448,18 +437,15 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-05-08 | [Log Querying & Analytics Learning Path](https://www.credly.com/badges/a621b498-451c-4f52-ab24-2af344bc773d/public_url) | issued by Datadog | Credly Verified Badge |
 | 2026-05-08 | [Managing Company Administration in Legacy Concur Travel - Record of Achievement](https://www.credly.com/badges/ec23d781-1dce-4c64-9a2c-1199a7650f19/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-05-08 | [Okta for AI Agents](https://www.credly.com/badges/692470a1-f212-48bf-a7b7-79e824c6f06f/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-05-08 | [Secure Your AI Agents to Act on the Behalf of Users](https://www.credly.com/badges/bd7cf46e-660f-406b-9547-69b0c0b9d822/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-05-08 | [Secure Your RAG Pipelines with Auth0 Fine-Grained Access](https://www.credly.com/badges/a39802d7-ae30-4c95-ae7d-434cc1243233/public_url) | issued by Okta | Credly Verified Badge |
-| 2026-05-08 | [Securing AI Agents](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-08 | [Secure Your AI Agents to Act on the Behalf of Users](https://www.credly.com/badges/18c0a300-025b-46de-9097-99133e15b871/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-08 | [Secure Your RAG Pipelines with Auth0 Fine-Grained Access](https://www.credly.com/badges/c734854a-173d-4bb7-a018-d72a9b2c9cf6/public_url) | issued by Okta | Credly Verified Badge |
+| 2026-05-08 | [Securing AI Agents](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-06 | [Agent Observability Metrics & Traces Learning Path](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/public_url) | issued by Datadog | Credly Verified Badge |
 | 2026-05-06 | [Agents & Agentic AI Fundamentals](https://www.credly.com/badges/65342bd4-19df-45dc-9b32-f68a21c5be0d/public_url) | issued by Intel | Credly Verified Badge |
 | 2026-05-06 | [Applying SAP S/4HANA Product Engineering - Record of Achievement](https://www.credly.com/badges/9c1dab10-70e9-4bd3-b9fa-9f2eead26a00/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-05-06 | [Configuration Learning Path](https://www.credly.com/badges/a71f14fd-df65-47c9-9527-109add5f04d5/public_url) | issued by Datadog | Credly Verified Badge |
 | 2026-05-06 | [Core Skills Learning Path](https://www.credly.com/badges/9cfe8da1-05a9-4242-9dfc-8e91c87f9fe3/public_url) | issued by Datadog | Credly Verified Badge |
 | 2026-05-06 | [Dashboards Learning Path](https://www.credly.com/badges/3ada1a37-c791-4d66-860b-36b7c30ec4c3/public_url) | issued by Datadog | Credly Verified Badge |
-| 2026-05-06 | [Explore Identity Foundations](https://www.credly.com/badges/bef6ae97-3d40-441b-a5fd-168016f17b32/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-06 | [Explore Identity Foundations](https://www.credly.com/badges/1914608a-7a36-4a3a-8984-f2619aed1f7f/public_url) | issued by Okta | Credly Verified Badge |
 | 2026-05-05 | [Exploring SAP SuccessFactors Embedded Launch Activities for Business User - Record of Achievement](https://www.credly.com/badges/cc432e30-9613-4886-b82d-dd8b9ed936f3/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-05-05 | [Project Management Fundamentals](https://www.credly.com/badges/544641c1-b718-4173-ac14-39c1b0656aea/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
@@ -493,11 +479,11 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-04-22 | [Apply AI: Analyze Customer Reviews](https://www.credly.com/badges/6d85c6c9-351b-42fe-a3ad-27598dd34dec/public_url) | issued by Cisco | Credly Verified Badge |
 | 2026-04-22 | [Discovering Extended Warehouse Management with SAP S/4HANA - Record of Achievement](https://www.credly.com/badges/57c930ea-4372-4144-a8d3-92e615d6f439/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-04-22 | [Enterprise Design Thinking Practitioner](https://www.credly.com/badges/b18e17a2-6952-4d85-8adf-5eb5a0dfb366/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
-| 2026-04-22 | [Google Ads Video Certification](https://api.accredible.com/v1/obi/badge_assertions/2359f6e3-1f9d-486a-a89f-f60927b57349) | Skillshop | External/Imported |
+| 2026-04-22 | [Google Ads Video Certification](https://api.accredible.com/v1/obi/badge_assertions/2359f6e3-1f9d-486a-a89f-f60927b57349) | Skillshop | Credly External Badge |
 | 2026-04-21 | [Explorations into Mindfulness](https://www.credly.com/badges/58226aca-cc26-41a3-8ed7-1ef7e7880114/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
 | 2026-04-21 | [Linux Unhatched](https://www.credly.com/badges/4c3ee7b3-330b-437b-8e6a-91d96bca1b45/public_url) | issued by Cisco | Credly Verified Badge |
 | 2026-04-21 | [Transition from SAP Solution Manager to SAP Cloud ALM - Record of Achievement](https://www.credly.com/badges/e95d01e6-d813-4038-bc38-8e396c4b88bc/public_url) | issued by SAP | Credly Verified Badge |
-| 2026-04-21 | [Google Ads Creative Certification](https://api.accredible.com/v1/obi/badge_assertions/72c8a75b-85e1-4619-b34b-61adaa5a68c9) | Skillshop | External/Imported |
+| 2026-04-21 | [Google Ads Creative Certification](https://api.accredible.com/v1/obi/badge_assertions/72c8a75b-85e1-4619-b34b-61adaa5a68c9) | Skillshop | Credly External Badge |
 | 2026-04-20 | [AWS Knowledge: Amazon Connect Fundamentals - Training Badge](https://www.credly.com/badges/cb6a4e9e-b375-4e40-bf27-7f3d4ad252d5/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-04-20 | [Explore Emerging Tech](https://www.credly.com/badges/67d065a9-5177-45e1-b94d-72bc4b493ca0/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
 | 2026-04-20 | [Introduction to Greenhouse Gas Accounting for IT](https://www.credly.com/badges/1b2c72f1-8e6b-4d6a-8e87-4c3a404a6250/public_url) | issued by Cisco | Credly Verified Badge |
@@ -505,7 +491,7 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-04-19 | [AI Fundamentals: Foundations for Understanding AI](https://www.credly.com/badges/2a493aff-eb08-4456-8683-8b9d1d7c5eef/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
 | 2026-04-19 | [AWS Knowledge: AWS Transform Fundamentals – Training Badge](https://www.credly.com/badges/54d81ecb-6fd5-4ff9-aba6-6acaa59cdcec/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-04-19 | [Introduction to IoT](https://www.credly.com/badges/9fd72888-3b11-4f02-b53a-1506890ed015/public_url) | issued by Cisco | Credly Verified Badge |
-| 2026-04-19 | [Google Ads Display Certification](https://api.accredible.com/v1/obi/badge_assertions/aaa06037-984b-436d-a969-138478771e90) | Skillshop | External/Imported |
+| 2026-04-19 | [Google Ads Display Certification](https://api.accredible.com/v1/obi/badge_assertions/aaa06037-984b-436d-a969-138478771e90) | Skillshop | Credly External Badge |
 | 2026-04-18 | [Digital Awareness](https://www.credly.com/badges/9edc3f97-91e5-4d5d-b674-27e822964fb4/public_url) | issued by Cisco | Credly Verified Badge |
 | 2026-04-18 | [Modernizing Integration with SAP Integration Suite - SAP Learning MOOC - Record of Achievement](https://www.credly.com/badges/f3166cf7-82ab-4871-8b96-7ed8cbf350e6/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-04-18 | [Understanding SAP’s 2026 Go-to-Market Direction for Partners - Record of Achievement](https://www.credly.com/badges/cccb34bc-a8ae-4c85-8a7f-793cd28bfa1b/public_url) | issued by SAP | Credly Verified Badge |
@@ -532,23 +518,23 @@ This document represents a unified, verifiable list of all 548 records.
 | 2026-04-06 | [AI Literacy](https://www.credly.com/badges/551e7ae7-9b80-409b-901c-b0a1f9ec07b6/public_url) | issued by IBM SkillsBuild | Credly Verified Badge |
 | 2026-04-06 | [Applying a Human-Centered Approach to Identify and Define Business AI Use Cases - Record of Course Completion](https://www.credly.com/badges/5d816ed5-4a21-44b4-bd1f-969c61d9fb19/public_url) | issued by SAP | Credly Verified Badge |
 | 2026-04-05 | [Provisioning and Implementing Joule - Record of Achievement](https://www.credly.com/badges/68d24b44-8104-4e53-9742-256adacb3627/public_url) | issued by SAP | Credly Verified Badge |
-| 2026-04-01 | [Campaign manager 360 Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/c9bfd359-05b1-4751-8872-a99c43f4883b) | Skillshop | External/Imported |
-| 2026-03-30 | [Conversion Optimization Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/3c4afa84-5637-4c3b-b3fc-6e6c26e48d35) | Skillshop | External/Imported |
-| 2026-03-26 | [Grow Offline Sales Certification](https://api.accredible.com/v1/obi/badge_assertions/2d2774cb-bf2e-47c5-a286-86de5cc1bcd8) | Skillshop | External/Imported |
-| 2026-03-25 | [Microsoft Applied Skills: Generate reports with AI research agents](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/ABC20116B56C7F9F?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
-| 2026-03-24 | [Search Ads 360 Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/5b477ad2-43c6-4789-af30-137f9f87f4c6) | Skillshop | External/Imported |
-| 2026-03-23 | [Google Ads Apps Certification](https://api.accredible.com/v1/obi/badge_assertions/2d3974a2-6a69-4b66-8886-350d7b1626d5) | Skillshop | External/Imported |
-| 2026-03-21 | [Microsoft Applied Skills: Get started with identities and access using Microsoft Entra](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/27BB90F5B956E0C8?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
-| 2026-03-20 | [Google Ads Measurement Certification](https://api.accredible.com/v1/obi/badge_assertions/3eec0163-8804-4d17-bde0-d08e6c76d74c) | Skillshop | External/Imported |
-| 2026-03-18 | [Microsoft Applied Skills: Get started with Azure management tasks](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B7C5DF765FB52CEA?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
-| 2026-03-17 | [AI-Powered Shopping ads Certification](https://api.accredible.com/v1/obi/badge_assertions/09192bf8-4cca-4947-86c8-58a0b29d6511) | Skillshop | External/Imported |
-| 2026-03-16 | [AI-Powered Performance Ads Certification](https://api.accredible.com/v1/obi/badge_assertions/1583f933-2a97-47bc-b442-8ad614e6982d) | Skillshop | External/Imported |
-| 2026-03-16 | [Microsoft Applied Skills: Get started with cloud security and monitoring tasks](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/1EBB80C496C2DDF1?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
-| 2026-03-15 | [Google Ads Search Certification](https://api.accredible.com/v1/obi/badge_assertions/f0f3a46f-f6a1-4145-8fb5-2c2bb41a761f) | Skillshop | External/Imported |
-| 2026-03-15 | [Microsoft Applied Skills: Streamline business workflows with AI chat](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/CE7FBB459ADAB331?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
-| 2026-03-14 | [Microsoft Applied Skills: Create an AI agent](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/DC86763A7069ABBF?sharingId=4883E92AA6332B3F) | Microsoft | External/Imported |
-| 2026-03-12 | [Google Analytics Certification](https://api.accredible.com/v1/obi/badge_assertions/c845a7b6-cef3-4e66-87e2-481771d889ed) | Skillshop | External/Imported |
-| 2026-02-07 | [Oracle Cloud Success Navigator Essentials](https://catalog-education.oracle.com/pls/certview/sharebadge?id=E11489205EF3BEE917EAFE29D12203DA2526C300DB291B1D3B7F3E1F84C70D87) | Oracle | External/Imported |
+| 2026-04-01 | [Campaign manager 360 Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/c9bfd359-05b1-4751-8872-a99c43f4883b) | Skillshop | Credly External Badge |
+| 2026-03-30 | [Conversion Optimization Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/3c4afa84-5637-4c3b-b3fc-6e6c26e48d35) | Skillshop | Credly External Badge |
+| 2026-03-26 | [Grow Offline Sales Certification](https://api.accredible.com/v1/obi/badge_assertions/2d2774cb-bf2e-47c5-a286-86de5cc1bcd8) | Skillshop | Credly External Badge |
+| 2026-03-25 | [Microsoft Applied Skills: Generate reports with AI research agents](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/ABC20116B56C7F9F?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
+| 2026-03-24 | [Search Ads 360 Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/5b477ad2-43c6-4789-af30-137f9f87f4c6) | Skillshop | Credly External Badge |
+| 2026-03-23 | [Google Ads Apps Certification](https://api.accredible.com/v1/obi/badge_assertions/2d3974a2-6a69-4b66-8886-350d7b1626d5) | Skillshop | Credly External Badge |
+| 2026-03-21 | [Microsoft Applied Skills: Get started with identities and access using Microsoft Entra](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/27BB90F5B956E0C8?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
+| 2026-03-20 | [Google Ads Measurement Certification](https://api.accredible.com/v1/obi/badge_assertions/3eec0163-8804-4d17-bde0-d08e6c76d74c) | Skillshop | Credly External Badge |
+| 2026-03-18 | [Microsoft Applied Skills: Get started with Azure management tasks](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B7C5DF765FB52CEA?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
+| 2026-03-17 | [AI-Powered Shopping ads Certification](https://api.accredible.com/v1/obi/badge_assertions/09192bf8-4cca-4947-86c8-58a0b29d6511) | Skillshop | Credly External Badge |
+| 2026-03-16 | [AI-Powered Performance Ads Certification](https://api.accredible.com/v1/obi/badge_assertions/1583f933-2a97-47bc-b442-8ad614e6982d) | Skillshop | Credly External Badge |
+| 2026-03-16 | [Microsoft Applied Skills: Get started with cloud security and monitoring tasks](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/1EBB80C496C2DDF1?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
+| 2026-03-15 | [Google Ads Search Certification](https://api.accredible.com/v1/obi/badge_assertions/f0f3a46f-f6a1-4145-8fb5-2c2bb41a761f) | Skillshop | Credly External Badge |
+| 2026-03-15 | [Microsoft Applied Skills: Streamline business workflows with AI chat](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/CE7FBB459ADAB331?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
+| 2026-03-14 | [Microsoft Applied Skills: Create an AI agent](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/DC86763A7069ABBF?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
+| 2026-03-12 | [Google Analytics Certification](https://api.accredible.com/v1/obi/badge_assertions/c845a7b6-cef3-4e66-87e2-481771d889ed) | Skillshop | Credly External Badge |
+| 2026-02-07 | [Oracle Cloud Success Navigator Essentials](https://catalog-education.oracle.com/pls/certview/sharebadge?id=E11489205EF3BEE917EAFE29D12203DA2526C300DB291B1D3B7F3E1F84C70D87) | Oracle | Credly External Badge |
 | 2025-12-20 | [Implement Load Balancing on Compute Engine Skill Badge](https://www.credly.com/badges/a081bb3e-083d-4ccc-a074-c7b7e2d15a1b/public_url) | issued by Google Cloud | Credly Verified Badge |
 | 2025-12-17 | [Google Cloud Cybersecurity Certificate](https://www.credly.com/badges/5afda7ea-c36e-4393-a74b-05f06757c049/public_url) | issued by Google Cloud | Credly Verified Badge |
 | 2025-11-23 | [Use Functions, Formulas, and Charts in Google Sheets Skill Badge](https://www.credly.com/badges/e8a7950a-9042-4809-bf7a-3f01ca2d03dc/public_url) | issued by Google Cloud | Credly Verified Badge |
