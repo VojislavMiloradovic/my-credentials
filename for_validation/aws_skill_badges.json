@@ -1,6 +1,6 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 592,
+  "total_count": 605,
   "badges": [
     {
       "id": "4d3535a6971307d9",
@@ -684,6 +684,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Adaptive sampling with AWS X-Ray to capture critical spans"
+      ]
+    },
+    {
+      "id": "9e2ead78a982a303",
+      "title": "Advanced PostgreSQL for Amazon Aurora and Amazon RDS Assessment",
+      "name": "Advanced PostgreSQL for Amazon Aurora and Amazon RDS Assessment",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Advanced PostgreSQL for Amazon Aurora and Amazon RDS Assessment"
       ]
     },
     {
@@ -1443,6 +1461,24 @@
       ]
     },
     {
+      "id": "ec2faea765555574",
+      "title": "Amazon Connect Developer Assessment",
+      "name": "Amazon Connect Developer Assessment",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Connect Developer Assessment"
+      ]
+    },
+    {
       "id": "9e7c7a8ec69a4f5c",
       "title": "Amazon Connect Flow Modules and Step-by-Step Guides",
       "name": "Amazon Connect Flow Modules and Step-by-Step Guides",
@@ -1620,6 +1656,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Outbound Communications Advanced Campaign Management"
+      ]
+    },
+    {
+      "id": "13fe65063f4dda5f",
+      "title": "Amazon Connect Outbound Communications Assessment",
+      "name": "Amazon Connect Outbound Communications Assessment",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Connect Outbound Communications Assessment"
       ]
     },
     {
@@ -2034,6 +2088,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon ECS Networking"
+      ]
+    },
+    {
+      "id": "b36d78f7825f3914",
+      "title": "Amazon ECS Observability",
+      "name": "Amazon ECS Observability",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon ECS Observability"
       ]
     },
     {
@@ -2466,6 +2538,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon OpenSearch Service Getting Started"
+      ]
+    },
+    {
+      "id": "a9eae68d5f401cc3",
+      "title": "Amazon Partner Network Onboarding",
+      "name": "Amazon Partner Network Onboarding",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Partner Network Onboarding"
       ]
     },
     {
@@ -3117,6 +3207,24 @@
       ]
     },
     {
+      "id": "49b50b06172d6cbb",
+      "title": "Amazon WorkSpaces Primer",
+      "name": "Amazon WorkSpaces Primer",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon WorkSpaces Primer"
+      ]
+    },
+    {
       "id": "32cefefdfed80140",
       "title": "An Executive's Guide to Generative AI Success",
       "name": "An Executive's Guide to Generative AI Success",
@@ -3276,6 +3384,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Automating with AI/ML for Small Business Owners"
+      ]
+    },
+    {
+      "id": "b98711b04dd4ce9a",
+      "title": "Automation with Amazon Nova Act",
+      "name": "Automation with Amazon Nova Act",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Automation with Amazon Nova Act"
       ]
     },
     {
@@ -4158,6 +4284,24 @@
       "verification_type": "Learning plan",
       "skills": [
         "AWS for Games: Cloud Game Development - Knowledge Badge Readiness Path"
+      ]
+    },
+    {
+      "id": "0814e3ecf30fe7ac",
+      "title": "AWS for Media & Entertainment Content Production Learning Plan Assessment",
+      "name": "AWS for Media & Entertainment Content Production Learning Plan Assessment",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS for Media & Entertainment Content Production Learning Plan Assessment"
       ]
     },
     {
@@ -6069,6 +6213,24 @@
       ]
     },
     {
+      "id": "9c0fd13d061e3d34",
+      "title": "Building Safe and Responsible Generative AI Applications with Amazon Bedrock Guardrails",
+      "name": "Building Safe and Responsible Generative AI Applications with Amazon Bedrock Guardrails",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Building Safe and Responsible Generative AI Applications with Amazon Bedrock Guardrails"
+      ]
+    },
+    {
       "id": "8bdccfcdc1c53557",
       "title": "Building Safe Generative AI Applications with Amazon Bedrock Guardrails",
       "name": "Building Safe Generative AI Applications with Amazon Bedrock Guardrails",
@@ -7236,6 +7398,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Exploring Artificial Intelligence Use Cases and Applications"
+      ]
+    },
+    {
+      "id": "8d22004f2629d058",
+      "title": "Extended Thinking with Amazon Nova",
+      "name": "Extended Thinking with Amazon Nova",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Extended Thinking with Amazon Nova"
       ]
     },
     {
@@ -9093,6 +9273,24 @@
       ]
     },
     {
+      "id": "b800b9a7f58352c2",
+      "title": "Introduction to AWS Transform assessments",
+      "name": "Introduction to AWS Transform assessments",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Introduction to AWS Transform assessments"
+      ]
+    },
+    {
       "id": "214ca735e0d3ef9f",
       "title": "Introduction to AWS Transform custom",
       "name": "Introduction to AWS Transform custom",
@@ -9648,6 +9846,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Managing Operations on AWS with Amazon Q Developer"
+      ]
+    },
+    {
+      "id": "fef477cbf27385aa",
+      "title": "Mastering Model Evaluation in Amazon Bedrock:  From Basics to Best Practices",
+      "name": "Mastering Model Evaluation in Amazon Bedrock:  From Basics to Best Practices",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Mastering Model Evaluation in Amazon Bedrock:  From Basics to Best Practices"
       ]
     },
     {
@@ -10260,6 +10476,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Selecting your Data Migration Strategy with AWS"
+      ]
+    },
+    {
+      "id": "eca2e835ab1f8673",
+      "title": "Sensitive Data Detection with Amazon Macie",
+      "name": "Sensitive Data Detection with Amazon Macie",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Sensitive Data Detection with Amazon Macie"
       ]
     },
     {

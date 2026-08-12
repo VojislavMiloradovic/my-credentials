@@ -1,20 +1,33 @@
 # Complete AWS Skill Builder Credentials Archive
 
-This document represents a unified, verifiable list of all 592 records.
+This document represents a unified, verifiable list of all 605 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-12 | [Advanced PostgreSQL for Amazon Aurora and Amazon RDS Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-12 | [Amazon Connect Developer Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-12 | [Amazon Connect Outbound Communications Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Amazon EC2 Observability, Monitoring, and Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Amazon ECS Networking](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-12 | [Amazon ECS Observability](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-12 | [Amazon Partner Network Onboarding](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-12 | [Amazon WorkSpaces Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-12 | [Automation with Amazon Nova Act](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-12 | [AWS for Media & Entertainment Content Production Learning Plan Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [AWS Migration Hub Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [AWS Security: Securing Generative AI on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Build with AWS Security Hub CSPM](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-12 | [Building Safe and Responsible Generative AI Applications with Amazon Bedrock Guardrails](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Designing Multi-VPC Architectures with Transit Gateway and Network Firewall](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Developing with Amazon MQ](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-12 | [Extended Thinking with Amazon Nova](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Fundamentals of Amazon RDS for PostgreSQL](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-12 | [Introduction to AWS Transform assessments](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-12 | [Mastering Model Evaluation in Amazon Bedrock:  From Basics to Best Practices](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Observability for AWS Step Functions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-12 | [Sensitive Data Detection with Amazon Macie](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [Agentic AI Framework Deep Dive - Overview](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [Amazon Braket Quantum Application Development](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [Amazon Connect Communications Specialist Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
