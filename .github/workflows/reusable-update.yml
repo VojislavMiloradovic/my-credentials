@@ -88,6 +88,41 @@ jobs:
       - name: Generate LLMs.txt Directory Files
         run: uv run python generate_llms_txt.py
 
+      # Validate artifact_paths input
+      - name: Validate Artifact Paths
+        run: |
+          set -euo pipefail
+          ARTIFACT_PATHS='${{ inputs.artifact_paths }}'
+          
+          # 1. Valid JSON array
+          echo "$ARTIFACT_PATHS" | jq -e 'type == "array" and all(.[]; type == "string")' >/dev/null || {
+            echo "❌ artifact_paths must be a JSON array of strings"
+            exit 1
+          }
+          
+          # 2. Required paths present (core artifacts that must always be staged)
+          REQUIRED_PATHS=("for_validation/" "archives/" "README.md" "credentials.jsonld" "llms.txt" "llms-full.txt")
+          for req in "${REQUIRED_PATHS[@]}"; do
+            if ! echo "$ARTIFACT_PATHS" | jq -e --arg p "$req" 'index($p)' >/dev/null; then
+              echo "❌ Required artifact path missing: $req"
+              exit 1
+            fi
+          done
+          
+          # 3. No path traversal, no absolute paths
+          echo "$ARTIFACT_PATHS" | jq -r '.[]' | while IFS= read -r path; do
+            if [[ "$path" == /* ]] || [[ "$path" == *".."* ]]; then
+              echo "❌ Invalid path (absolute or traversal): $path"
+              exit 1
+            fi
+            # Warn if path doesn't exist yet (may be generated later)
+            if [ ! -e "$path" ] && [ ! -d "$(dirname "$path")" ]; then
+              echo "⚠️ Path does not exist (may be generated): $path"
+            fi
+          done
+          
+          echo "✅ Artifact paths validation passed"
+
       - name: Commit and Push Changes (Rebase-Safe with Retry)
         run: |
           set -euo pipefail
