@@ -1,6 +1,6 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 577,
+  "total_count": 592,
   "badges": [
     {
       "id": "4d3535a6971307d9",
@@ -1353,6 +1353,24 @@
       ]
     },
     {
+      "id": "3d24d0363ea81fc9",
+      "title": "Amazon Connect Communications Specialist Assessment",
+      "name": "Amazon Connect Communications Specialist Assessment",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Connect Communications Specialist Assessment"
+      ]
+    },
+    {
       "id": "2d4f21d6da250f94",
       "title": "Amazon Connect Contact Lens Fundamentals",
       "name": "Amazon Connect Contact Lens Fundamentals",
@@ -1911,6 +1929,24 @@
       ]
     },
     {
+      "id": "f3b27efca992bc0f",
+      "title": "Amazon EC2 Observability, Monitoring, and Troubleshooting",
+      "name": "Amazon EC2 Observability, Monitoring, and Troubleshooting",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon EC2 Observability, Monitoring, and Troubleshooting"
+      ]
+    },
+    {
       "id": "0e1852373d0b6749",
       "title": "Amazon ECR Getting Started",
       "name": "Amazon ECR Getting Started",
@@ -1980,6 +2016,24 @@
       "verification_type": "AWS Assessment",
       "skills": [
         "Amazon ECS Knowledge Badge Assessment"
+      ]
+    },
+    {
+      "id": "03a17a6422295bba",
+      "title": "Amazon ECS Networking",
+      "name": "Amazon ECS Networking",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon ECS Networking"
       ]
     },
     {
@@ -4575,6 +4629,24 @@
       ]
     },
     {
+      "id": "689a6ebe6f8563d1",
+      "title": "AWS Migration Hub Primer",
+      "name": "AWS Migration Hub Primer",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Migration Hub Primer"
+      ]
+    },
+    {
       "id": "4814e570c4012b51",
       "title": "AWS Networking Basics",
       "name": "AWS Networking Basics",
@@ -4806,6 +4878,24 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Security – Encryption Fundamentals"
+      ]
+    },
+    {
+      "id": "80a0229d625f05b2",
+      "title": "AWS Security: Securing Generative AI on AWS",
+      "name": "AWS Security: Securing Generative AI on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Security: Securing Generative AI on AWS"
       ]
     },
     {
@@ -5709,6 +5799,24 @@
       ]
     },
     {
+      "id": "1b7630eaf9b5dd6b",
+      "title": "Build with AgentCore Policy",
+      "name": "Build with AgentCore Policy",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build with AgentCore Policy"
+      ]
+    },
+    {
       "id": "42449d8a9c439c2a",
       "title": "Build with Amazon API Gateway",
       "name": "Build with Amazon API Gateway",
@@ -5796,6 +5904,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Build with Amazon MemoryDB for Redis"
+      ]
+    },
+    {
+      "id": "1282ed1897260f61",
+      "title": "Build with AWS Security Hub CSPM",
+      "name": "Build with AWS Security Hub CSPM",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build with AWS Security Hub CSPM"
       ]
     },
     {
@@ -6591,6 +6717,24 @@
       ]
     },
     {
+      "id": "d4eda8a5e47da1bb",
+      "title": "Designing AI Strategies for SAP on AWS",
+      "name": "Designing AI Strategies for SAP on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Designing AI Strategies for SAP on AWS"
+      ]
+    },
+    {
       "id": "b4a08cb50b6468dc",
       "title": "Designing Event-Driven Architectures",
       "name": "Designing Event-Driven Architectures",
@@ -6624,6 +6768,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Designing Landing Zone Architectures with AWS Control Tower"
+      ]
+    },
+    {
+      "id": "8921ea480a6337fa",
+      "title": "Designing Multi-VPC Architectures with Transit Gateway and Network Firewall",
+      "name": "Designing Multi-VPC Architectures with Transit Gateway and Network Firewall",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Designing Multi-VPC Architectures with Transit Gateway and Network Firewall"
       ]
     },
     {
@@ -6696,6 +6858,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Developing Machine Learning Solutions"
+      ]
+    },
+    {
+      "id": "2c32c5623012e335",
+      "title": "Developing with Amazon MQ",
+      "name": "Developing with Amazon MQ",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Developing with Amazon MQ"
       ]
     },
     {
@@ -6804,6 +6984,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Drive organizational growth with Amazon Lex multi-developer CI/CD pipeline"
+      ]
+    },
+    {
+      "id": "c375315f1694f48e",
+      "title": "Elastic Load Balancing (ELB) - Troubleshooting",
+      "name": "Elastic Load Balancing (ELB) - Troubleshooting",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Elastic Load Balancing (ELB) - Troubleshooting"
       ]
     },
     {
@@ -7110,6 +7308,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Fundamentals of Amazon Aurora"
+      ]
+    },
+    {
+      "id": "20db2e9780efceaf",
+      "title": "Fundamentals of Amazon RDS for PostgreSQL",
+      "name": "Fundamentals of Amazon RDS for PostgreSQL",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Fundamentals of Amazon RDS for PostgreSQL"
       ]
     },
     {
@@ -9255,6 +9471,24 @@
       ]
     },
     {
+      "id": "b7048f6d45b54a60",
+      "title": "Kiro for GeoAI - Spec-Driven Geospatial Development",
+      "name": "Kiro for GeoAI - Spec-Driven Geospatial Development",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Kiro for GeoAI - Spec-Driven Geospatial Development"
+      ]
+    },
+    {
       "id": "0975cb739210ce4f",
       "title": "Kiro in Action: A Developer's Walkthrough",
       "name": "Kiro in Action: A Developer's Walkthrough",
@@ -9324,6 +9558,24 @@
       "verification_type": "Digital course",
       "skills": [
         "Machine Learning Essentials for Business and Technical Decision Makers"
+      ]
+    },
+    {
+      "id": "833bbae4376c7c25",
+      "title": "Machine Learning Exam Basics",
+      "name": "Machine Learning Exam Basics",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-11",
+      "issued_at_date": "2026-08-11",
+      "date": "2026-08-11",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Machine Learning Exam Basics"
       ]
     },
     {
@@ -9630,6 +9882,24 @@
       "verification_type": "AWS Assessment",
       "skills": [
         "Object Storage Knowledge Badge Assessment"
+      ]
+    },
+    {
+      "id": "8864d5bf2d1cb32e",
+      "title": "Observability for AWS Step Functions",
+      "name": "Observability for AWS Step Functions",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-12",
+      "issued_at_date": "2026-08-12",
+      "date": "2026-08-12",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Observability for AWS Step Functions"
       ]
     },
     {

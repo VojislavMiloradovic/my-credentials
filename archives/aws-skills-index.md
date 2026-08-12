@@ -4,21 +4,21 @@ This directory provides chunked, AI-readable historical records for AWS Skill Bu
 
 ## Archive Overview
 
-- **Total Records Archived:** 577
-- **Monolithic File Size:** ~96.18 KB (26,244 tokens)
+- **Total Records Archived:** 592
+- **Monolithic File Size:** ~98.58 KB (26,915 tokens)
 - **Total Chunk Parts:** 11 chunk(s)
 
 ### Monolithic Archive (Complete)
 
 | File Name | Size (KB) | Tokens | Recommended For | Direct Raw URL |
 | :--- | :---: | :---: | :--- | :--- |
-| [`aws-skills-complete.md`](./aws-skills-complete.md) | 96.18 KB | 26,244 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md) |
+| [`aws-skills-complete.md`](./aws-skills-complete.md) | 98.58 KB | 26,915 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md) |
 
 ### Chunked Archive Parts (~10 KB Slices)
 
 | Part | File Name | Date Range | Entries | Size (KB) | Tokens | Direct Raw URL |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| Part 11 | [`aws-skills-2026-08-part-11.md`](./aws-skills-2026-08-part-11.md) | `2026-08-09 to 2026-08-11` | 22 | 4.41 KB | 1,251 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-11.md) |
+| Part 11 | [`aws-skills-2026-08-part-11.md`](./aws-skills-2026-08-part-11.md) | `2026-08-09 to 2026-08-12` | 37 | 6.8 KB | 1,922 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-11.md) |
 | Part 10 | [`aws-skills-2026-08-part-10.md`](./aws-skills-2026-08-part-10.md) | `2026-08-06 to 2026-08-09` | 52 | 9.97 KB | 2,704 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-10.md) |
 | Part 09 | [`aws-skills-2026-08-part-09.md`](./aws-skills-2026-08-part-09.md) | `2026-07-24 to 2026-08-06` | 52 | 10.01 KB | 2,750 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-09.md) |
 | Part 08 | [`aws-skills-2026-07-part-08.md`](./aws-skills-2026-07-part-08.md) | `2026-07-05 to 2026-07-24` | 57 | 10.03 KB | 2,821 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-08.md) |
