@@ -141,7 +141,7 @@ def read_portfolio_counts() -> dict:
         ("ms_learn_achievements", "microsoft-learn-index.md", _TOTAL),
         ("gcp_badges", "google-skills-index.md", _TOTAL),
         ("aws_activities", "aws-skills-index.md", _TOTAL),
-            ("credly_credentials", "credly-index.md", _TOTAL),
+        ("credly_credentials", "credly-index.md", _TOTAL),
         ("linkedin_certs", "linkedin-certifications-index.md", _TOTAL),
         ("gdev_badges", "google-developer-index.md", re.compile(r"Total Public Badges.*?:\**\s*([\d,]+)", re.IGNORECASE)),
         ("gdev_activities", "google-developer-index.md", re.compile(r"Total Detailed Activities.*?:\**\s*([\d,]+)", re.IGNORECASE)),
@@ -288,7 +288,7 @@ Dynamic classification of ~{total_parsed:,} parsed portfolio achievements across
 Use these index files to navigate chunked historical records without exceeding context limits.
 
 - [Aws Skills Index](./archives/aws-skills-index.md): Master navigation index for Aws Skills chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md
-    - [Credly Verified Credentials Index](./archives/credly-index.md): Master navigation index for Credly Verified Credentials chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md
+- [Credly Verified Credentials Index](./archives/credly-index.md): Master navigation index for Credly Verified Credentials chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md
 - [Google Skills Index](./archives/google-skills-index.md): Master navigation index for Google Skills chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md
 - [Google Developer Index](./archives/google-developer-index.md): Master navigation index for Google Developer chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md
 - [Linkedin Certifications Index](./archives/linkedin-certifications-index.md): Master navigation index for Linkedin Certifications chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md
