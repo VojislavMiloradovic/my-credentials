@@ -151,6 +151,7 @@ def resolve_level(xp_profile: dict, xp_data: dict, total_xp: Any) -> str:
 
 class MSAchievementModel(BaseModel):
     """Schema validating individual Microsoft Learn badges/trophies."""
+    id: str = Field(min_length=1)
     title: str = Field("Completed Module", min_length=1)
     category: str = Field("module")
     grantedOn: str = Field("N/A")
