@@ -152,7 +152,7 @@ Showing latest 10 of 535 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,355 |
+| **Total External Certifications Verified** | 1,412 |
 
 #### Recent Certifications
 
@@ -160,16 +160,16 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-08* | **AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b32b2957-f77b-433b-856d-de55f074cb96/linked_in_profile) |
-| *2026-08* | **Build Your AI Chief of Staff with ChatGPT Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/449705c502ec928118782f900c721c72dcfac1f5c90dac2fb87ff669ae2f6285) |
-| *2026-08* | **Nano Tips for Using Generative AI Tools for Better Marketing Outcomes with Joanna Yung** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/70aa88187f8e36fc2092f39fd18d1f5546ee22cfc108e9c3f80705ad6b30ac18) |
-| *2026-08* | **Nano Tips to Use AI for Better Work-Life Balance with Ashley Herd** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/782f0b11838e296002431b4dcbe557f48dfeff0bae1ab53317f3173682e4073f) |
-| *2026-08* | **Isovalent Lab Champion (20 labs)** | Isovalent | [Verify Record](https://www.credly.com/badges/7a58705a-96a4-4712-b069-428537781baf/linked_in_profile) |
-| *2026-08* | **Cilium IPv6 Networking and Observability** | Isovalent | [Verify Record](https://www.credly.com/badges/1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72/linked_in_profile) |
-| *2026-08* | **Hubble Flow Visibility** | Isovalent | [Verify Record](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/linked_in_profile) |
-| *2026-08* | **Cilium Advanced Gateway API Use Cases** | Isovalent | [Verify Record](https://www.credly.com/badges/d6d77359-05d8-4db0-8a5c-3944635c5684/linked_in_profile) |
-| *2026-08* | **Cilium LB-IPAM & L2** | Isovalent | [Verify Record](https://www.credly.com/badges/7083b54b-a4c1-4c38-a0f0-c8487d5b6794/linked_in_profile) |
-| *2026-08* | **Foundations: Kubernetes Networking & Cilium** | Isovalent | [Verify Record](https://www.credly.com/badges/eb7a1881-5a18-499b-9e7f-2b8a2613c283/linked_in_profile) |
+| *2026-08* | **Nano Tips for Creating a More Effective Relationship with Your Manager with Allison Peck** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f896336f30230ad0e561300fee1e551ace2fc0f0408f781d8cbe3df21dc7d5b2) |
+| *2026-08* | **Nano Tips for Delegating with Kim Kaupe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b7a127e3f84c91f8d2995f0a50ac8b5a0f38f734684deb4ea78850508bdf4998) |
+| *2026-08* | **Nano Tips to Collaborate Across Boundaries and Build Versatile Teams with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/aa7a1589a2a9d656fa023aa0b3d5e47c947daae605e48fa804f7dc4d6c536dbb) |
+| *2026-08* | **Google Cloud Computing Foundations: Networking & Security in Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26758292?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| *2026-08* | **How to Grow your Creator Business with Experiments Nano Tips with Quentin Allums** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f4f62b2cd2460a70b328974890dd83b11dca5b2c78c75cd52306fcb9ede105eb) |
+| *2026-08* | **Nano Tips to Increase Productivity and Focus with Lillian Daniels** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e0bf0dfd0b7eb230887268e45e22433e82b37a9550f20c1efedfda77c259ebf7) |
+| *2026-08* | **Nano Tips to Lead with a Futurist Mindset with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4d2e695336f1ef289d17d4a2f772b913c46dfbbdc7f57ecbc41896931bec9055) |
+| *2026-08* | **Jeff Weiner on Managing Compassionately** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/96f7406f8624187fb6c56eaf71cf6039261fca4fb57906b165fba1aa7a15da52) |
+| *2026-08* | **Getting Started with Premium All-in-One: How to Grow Your Business on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cd8d6a4666bbd92f9c28de7a7f26324cc2b5e1a00dfcac54c9fd32f2bd2c581e) |
+| *2026-08* | **Nano Tips for Strategic Thinking with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a520c0d04aafba731cf6eabc70c2f9ed0ed525de17352eb8692df9696b713581) |
 <!-- LINKEDIN_END -->
 
 

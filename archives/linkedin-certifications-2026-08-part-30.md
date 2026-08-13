@@ -1,17 +1,28 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 30 of 30
+chunk_part: 30 of 32
 date_range: 2026-08 to 2026-08
-total_entries: 39
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-30.md
 ---
 
 # LinkedIn Certifications — Part 30
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-29.md](./linkedin-certifications-2026-08-part-29.md) | [Index](./linkedin-certifications-index.md) | Next: None | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-29.md](./linkedin-certifications-2026-08-part-29.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-31.md](./linkedin-certifications-2026-08-part-31.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-08 | **Nano Tips for Effective Sponsorship as a Leader with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a58690e1c6cb2a78176de902f3dbe8f01a81c34e61d5c549d747f459e90557ee) |
+| 2026-08 | **Using Data Science to Hire Employees** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/84e29c3aa1cb4cfec900537f8eedb2709792e8ac493e0e98b2290029c163813a) |
+| 2026-08 | **Nano Tips for Leading Diverse Teams with Watchen Nyanue** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/13e473304257aad5a6d62dfe7467e61c5ff0aecb73db4dffcb5ae37d9096d333) |
+| 2026-08 | **Nano Tips for Effective Listening for Leaders with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d57a2f9f18c799024bf8eb2d2aff8982720081cf5226694dc20b41799a5adb31) |
+| 2026-08 | **Nano Tips for Building Adaptability as a Leader with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/59520b356a67ee8bb1e21e070dadd4a1281703457d765501b395c5abb5f4050d) |
+| 2026-08 | **Nano Tips for Navigating Mentorship in the Workplace with Kristi Kennebrew** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1ff6d9702ade06c01b4d70d0a467aae01721f90f1049e27a0a0175d9dedf28d0) |
+| 2026-08 | **Nano Tips for Establishing an Entrepreneurial Mindset with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a03d20825bffcb80de84424815ce76331a654d75fdde63f96cd518e752ee2ff6) |
+| 2026-08 | **Nano Tips for Finding Career Clarity with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/162c629efcfbf9ce551ff056ad10694123df2815d8659608993ab55cd84412f9) |
+| 2026-08 | **Nano Tips to Thrive in Uncertainty and Embrace Change with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/330af208e3013098a2211a7f0f398f34f20c60bc7dafae4ec24e34c28cab39c0) |
+| 2026-08 | **Nano Tips to Think Faster and Make Better Decisions with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1fa3eb689ac997c93c855b04cd69b2f91d275e156f60e58361022cbd2ff88f20) |
+| 2026-08 | **Nano Tips for Resilience and Thought Leadership with Peter Winick** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/62cc613bf356fe34abfc0381c101b5d44d17ea9b4d268055e7cd225018d30c59) |
 | 2026-08 | **AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b32b2957-f77b-433b-856d-de55f074cb96/linked_in_profile) |
 | 2026-08 | **Build Your AI Chief of Staff with ChatGPT Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/449705c502ec928118782f900c721c72dcfac1f5c90dac2fb87ff669ae2f6285) |
 | 2026-08 | **Nano Tips for Using Generative AI Tools for Better Marketing Outcomes with Joanna Yung** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/70aa88187f8e36fc2092f39fd18d1f5546ee22cfc108e9c3f80705ad6b30ac18) |
@@ -53,5 +64,5 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-08 | **Reliability and Availability: How MongoDB ensures Business Continuity** | MongoDB | [Verify Record](https://www.credly.com/badges/f7b720f4-a41d-40e1-825d-12396020c40c/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-29.md](./linkedin-certifications-2026-08-part-29.md) | [Index](./linkedin-certifications-index.md) | Next: None
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-29.md](./linkedin-certifications-2026-08-part-29.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-31.md](./linkedin-certifications-2026-08-part-31.md)
 
