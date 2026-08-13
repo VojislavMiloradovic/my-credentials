@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Developer Profile
 chunk_part: 25 of 25
-date_range: 2026-07-07 to 2026-08-10
-total_entries: 50
+date_range: 2026-07-07 to 2026-08-13
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-25.md
 ---
 
@@ -12,6 +12,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-13 | **Everything You Need to Build Long-Running Agents on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-13 | **BYOC A2A Codelab** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-13 | **Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tester** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-13 | **Fraud Detection with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-13 | **Understanding Interaction to Next Paint (INP)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-13 | **Build, Secure, and Deploy an MCP Server on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-10 | **Google Workspace MCP server connectors in Gemini Enterprise apps** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-07 | **Developing with OpenThread APIs** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-07 | **Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI** | Verified Google Developer granular learning activity module milestone. |

@@ -50,7 +50,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-23 | **Build Multi-Agent Systems with ADK** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Build and Evaluate BigQuery Agents using Agent Development Kit (ADK) and GenAI Eval Service** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **How to Build an MCP Server with Gemini CLI and Go** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Fine-tune Gemini on Vertex AI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-23 | **Fine-tune Gemini on Gemini Enterprise Agent Platform** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Scale Reinforcement Learning with GKE and Managed Lustre** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Evaluating Single LLM Outputs With Vertex AI Evaluation** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Scale Distributed Data Processing with GKE to build a Knowledge Graph in BigQuery** | Verified Google Developer granular learning activity module milestone. |

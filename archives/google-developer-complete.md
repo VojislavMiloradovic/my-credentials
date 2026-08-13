@@ -1,11 +1,17 @@
 # Complete Google Developer Profile Archive
 
-This document represents a unified, verifiable list of all 1621 records.
+This document represents a unified, verifiable list of all 1627 records.
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-13 | **Everything You Need to Build Long-Running Agents on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-13 | **BYOC A2A Codelab** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-13 | **Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tester** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-13 | **Fraud Detection with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-13 | **Understanding Interaction to Next Paint (INP)** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-13 | **Build, Secure, and Deploy an MCP Server on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-10 | **Google Workspace MCP server connectors in Gemini Enterprise apps** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-07 | **Developing with OpenThread APIs** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-07 | **Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI** | Verified Google Developer granular learning activity module milestone. |
@@ -1345,7 +1351,7 @@ This document represents a unified, verifiable list of all 1621 records.
 | 2026-05-23 | **Build Multi-Agent Systems with ADK** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Build and Evaluate BigQuery Agents using Agent Development Kit (ADK) and GenAI Eval Service** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **How to Build an MCP Server with Gemini CLI and Go** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-23 | **Fine-tune Gemini on Vertex AI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-05-23 | **Fine-tune Gemini on Gemini Enterprise Agent Platform** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Scale Reinforcement Learning with GKE and Managed Lustre** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Evaluating Single LLM Outputs With Vertex AI Evaluation** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-23 | **Scale Distributed Data Processing with GKE to build a Knowledge Graph in BigQuery** | Verified Google Developer granular learning activity module milestone. |

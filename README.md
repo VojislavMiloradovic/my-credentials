@@ -185,7 +185,7 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 171 |
-| **Total Codelabs & Learning Activities** | 1,457 |
+| **Total Codelabs & Learning Activities** | 1,463 |
 
 #### Latest Achievements
 
@@ -193,16 +193,16 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| *2026-08-13* | **Everything You Need to Build Long-Running Agents on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-13* | **BYOC A2A Codelab** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-13* | **Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tester** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-13* | **Fraud Detection with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-13* | **Understanding Interaction to Next Paint (INP)** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-13* | **Build, Secure, and Deploy an MCP Server on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
 | *2026-08-10* | **Google Workspace MCP server connectors in Gemini Enterprise apps** | Verified Google Developer granular learning activity module milestone. |
 | *2026-08-07* | **Developing with OpenThread APIs** | Verified Google Developer granular learning activity module milestone. |
 | *2026-08-07* | **Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI** | Verified Google Developer granular learning activity module milestone. |
 | *2026-08-07* | **Build a Thread Network with the B91 Development Board and OpenThread** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-07* | **Six Recipes for Reaching Near-100% Accurate Text-to-SQL in AlloyDB - codelab** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-07* | **Simulate Thread Networks using OTNS** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-07* | **Build a Thread network with nRF52840 boards and OpenThread** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-07* | **Simulating a Thread network with OpenThread** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-07* | **Build a Multi-Agent Organic Chemistry Safety & Research Assistant with Antigravity, agents-cli, ADK & MCP** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-07* | **Build a Thread Network with the ESP32H2 and ESP Thread Border Router Board** | Verified Google Developer granular learning activity module milestone. |
 <!-- GOOGLE_DEVELOPER_END -->
 
 
