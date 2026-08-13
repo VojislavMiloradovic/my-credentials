@@ -1329,6 +1329,9 @@ Practice: Build Sports app
 Optimize application costs with Gemini Cloud Assist
 21. мај 2026.
 
+Everything You Need to Build Long-Running Agents on Google Cloud
+13. авг 2026.
+
 How to automatically deploy your changes from GitHub to Cloud Run using Cloud Build
 27. мај 2026.
 
@@ -1818,6 +1821,9 @@ Accelerating Development with Gemini Code Assist
 Lesson 8: App architecture (UI layer)
 6. јун 2026.
 
+BYOC A2A Codelab
+13. авг 2026.
+
 Create No Code Agent using Agent Platform Agent Builder
 2. јул 2026.
 
@@ -2063,6 +2069,9 @@ Build a custom, responsive chatbot on Google Cloud quiz
 
 Build a full-stack Dart app with Cloud Functions for Firebase
 21. мај 2026.
+
+Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tester
+13. авг 2026.
 
 Module 1: Ask
 5. јун 2026.
@@ -2559,7 +2568,7 @@ How to Build an MCP Server with Gemini CLI and Go
 Analyze Drug Interactions with BigQuery Graph
 18. јун 2026.
 
-Fine-tune Gemini on Vertex AI
+Fine-tune Gemini on Gemini Enterprise Agent Platform
 23. мај 2026.
 
 AlloyDB Omni and EmbeddingGemma on Kubernetes.
@@ -2579,6 +2588,9 @@ Getting Started with Antigravity IDE
 
 🛡️ Build a Secure Agent with Model Armor and Identity
 20. јун 2026.
+
+Fraud Detection with BigQuery Graph
+13. авг 2026.
 
 How to do local testing of an ADK agent that writes to a Google Sheet before deploying to Cloud Run
 30. јун 2026.
@@ -3684,6 +3696,9 @@ codelabs.developers.google.com/codelabs/otel-cloudtrace
 Using Vertex ML Metadata with Pipelines
 7. јун 2026.
 
+Understanding Interaction to Next Paint (INP)
+13. авг 2026.
+
 Securing AI Applications
 23. мај 2026.
 
@@ -3980,6 +3995,9 @@ Anthos Service Mesh Workshop: Lab Guide
 
 Learn Performance
 31. мај 2026.
+
+Build, Secure, and Deploy an MCP Server on Google Cloud
+13. авг 2026.
 
 Kotlin fundamentals
 30. јун 2026.
