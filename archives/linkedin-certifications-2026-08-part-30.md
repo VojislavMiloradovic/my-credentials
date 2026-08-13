@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 30 of 30
 date_range: 2026-08 to 2026-08
-total_entries: 21
+total_entries: 39
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-30.md
 ---
 
@@ -12,6 +12,24 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-08 | **AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b32b2957-f77b-433b-856d-de55f074cb96/linked_in_profile) |
+| 2026-08 | **Build Your AI Chief of Staff with ChatGPT Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/449705c502ec928118782f900c721c72dcfac1f5c90dac2fb87ff669ae2f6285) |
+| 2026-08 | **Nano Tips for Using Generative AI Tools for Better Marketing Outcomes with Joanna Yung** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/70aa88187f8e36fc2092f39fd18d1f5546ee22cfc108e9c3f80705ad6b30ac18) |
+| 2026-08 | **Nano Tips to Use AI for Better Work-Life Balance with Ashley Herd** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/782f0b11838e296002431b4dcbe557f48dfeff0bae1ab53317f3173682e4073f) |
+| 2026-08 | **Isovalent Lab Champion (20 labs)** | Isovalent | [Verify Record](https://www.credly.com/badges/7a58705a-96a4-4712-b069-428537781baf/linked_in_profile) |
+| 2026-08 | **Cilium IPv6 Networking and Observability** | Isovalent | [Verify Record](https://www.credly.com/badges/1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72/linked_in_profile) |
+| 2026-08 | **Hubble Flow Visibility** | Isovalent | [Verify Record](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/linked_in_profile) |
+| 2026-08 | **Cilium Advanced Gateway API Use Cases** | Isovalent | [Verify Record](https://www.credly.com/badges/d6d77359-05d8-4db0-8a5c-3944635c5684/linked_in_profile) |
+| 2026-08 | **Cilium LB-IPAM & L2** | Isovalent | [Verify Record](https://www.credly.com/badges/7083b54b-a4c1-4c38-a0f0-c8487d5b6794/linked_in_profile) |
+| 2026-08 | **Foundations: Kubernetes Networking & Cilium** | Isovalent | [Verify Record](https://www.credly.com/badges/eb7a1881-5a18-499b-9e7f-2b8a2613c283/linked_in_profile) |
+| 2026-08 | **Golden Signals with Hubble and Grafana** | Isovalent | [Verify Record](https://www.credly.com/badges/adb39fe6-553a-4f2b-aed7-2748d666948f/linked_in_profile) |
+| 2026-08 | **Cilium LoadBalancer IPAM and BGP Service Advertisement** | Isovalent | [Verify Record](https://www.credly.com/badges/d181f780-e6ee-4fef-8bd1-df291a355438/linked_in_profile) |
+| 2026-08 | **Unlocking the Power of CTI Blueprints** | AttackIQ | [Verify Record](https://www.credly.com/badges/4490aa99-d5e9-4a20-9d66-e996f670f34f/linked_in_profile) |
+| 2026-08 | **Maturing Threat-Informed Defense with M3TID** | AttackIQ | [Verify Record](https://www.credly.com/badges/2e8b7ceb-8d8c-4c3b-bf12-e183a5d4b47d/linked_in_profile) |
+| 2026-08 | **Cloud Tech Professional EDR** | Acronis | [Verify Record](https://www.credly.com/badges/1bf4cc99-349a-43d4-a520-4fcda2a5df27/linked_in_profile) |
+| 2026-08 | **Cloud Tech Pro - Email Archiving** | Acronis | [Verify Record](https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/linked_in_profile) |
+| 2026-08 | **Create and Manage Cloud Spanner Instances Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/22ddf09a-7e02-44c6-9a92-4c25ae5e05f0/linked_in_profile) |
+| 2026-08 | **AWS Knowledge: Amazon WorkSpaces Migrations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31/linked_in_profile) |
 | 2026-08 | **Cilium Flow Encryption** | Isovalent | [Verify Record](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/linked_in_profile) |
 | 2026-08 | **Cilium Network Policies** | Isovalent | [Verify Record](https://www.credly.com/badges/22c5caa6-fc0f-4a4e-9739-a14b97edfc01/linked_in_profile) |
 | 2026-08 | **Tetragon Getting Started** | Isovalent | [Verify Record](https://www.credly.com/badges/dffe3f42-4e0a-49bd-92f7-2646e68f51eb/linked_in_profile) |

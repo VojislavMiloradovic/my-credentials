@@ -152,7 +152,7 @@ Showing latest 10 of 535 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,337 |
+| **Total External Certifications Verified** | 1,355 |
 
 #### Recent Certifications
 
@@ -160,16 +160,16 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-08* | **Cilium Flow Encryption** | Isovalent | [Verify Record](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/linked_in_profile) |
-| *2026-08* | **Cilium Network Policies** | Isovalent | [Verify Record](https://www.credly.com/badges/22c5caa6-fc0f-4a4e-9739-a14b97edfc01/linked_in_profile) |
-| *2026-08* | **Tetragon Getting Started** | Isovalent | [Verify Record](https://www.credly.com/badges/dffe3f42-4e0a-49bd-92f7-2646e68f51eb/linked_in_profile) |
-| *2026-08* | **Isovalent Lab Champion (10 labs)** | Isovalent | [Verify Record](https://www.credly.com/badges/1aa636d3-d301-4b4b-8808-e3da552cfc0b/linked_in_profile) |
-| *2026-08* | **Cilium Ingress Controller** | Isovalent | [Verify Record](https://www.credly.com/badges/29a5efa1-d0ce-4c25-a983-f3b435be6b59/linked_in_profile) |
-| *2026-08* | **Cilium Cluster Mesh** | Isovalent | [Verify Record](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/linked_in_profile) |
-| *2026-08* | **Cilium Gateway API** | Isovalent | [Verify Record](https://www.credly.com/badges/7a20ae99-3df6-481e-8b3a-9b20d2db3dea/linked_in_profile) |
-| *2026-08* | **Continuous Security Validation Workshop** | AttackIQ | [Verify Record](https://www.credly.com/badges/132269ac-0ab7-4b20-91c4-76ed7fa3359e/linked_in_profile) |
-| *2026-08* | **Validating Defenses Quickly with Micro Emulation Plans** | AttackIQ | [Verify Record](https://www.credly.com/badges/d2d863a1-4240-48a3-83d4-e51e7b3b428c/linked_in_profile) |
-| *2026-08* | **Cloud Tech Pro - Backup** | Acronis | [Verify Record](https://www.credly.com/badges/da9a50b8-a6fc-4e2e-bf7e-35da0a65a04c/linked_in_profile) |
+| *2026-08* | **AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b32b2957-f77b-433b-856d-de55f074cb96/linked_in_profile) |
+| *2026-08* | **Build Your AI Chief of Staff with ChatGPT Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/449705c502ec928118782f900c721c72dcfac1f5c90dac2fb87ff669ae2f6285) |
+| *2026-08* | **Nano Tips for Using Generative AI Tools for Better Marketing Outcomes with Joanna Yung** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/70aa88187f8e36fc2092f39fd18d1f5546ee22cfc108e9c3f80705ad6b30ac18) |
+| *2026-08* | **Nano Tips to Use AI for Better Work-Life Balance with Ashley Herd** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/782f0b11838e296002431b4dcbe557f48dfeff0bae1ab53317f3173682e4073f) |
+| *2026-08* | **Isovalent Lab Champion (20 labs)** | Isovalent | [Verify Record](https://www.credly.com/badges/7a58705a-96a4-4712-b069-428537781baf/linked_in_profile) |
+| *2026-08* | **Cilium IPv6 Networking and Observability** | Isovalent | [Verify Record](https://www.credly.com/badges/1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72/linked_in_profile) |
+| *2026-08* | **Hubble Flow Visibility** | Isovalent | [Verify Record](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/linked_in_profile) |
+| *2026-08* | **Cilium Advanced Gateway API Use Cases** | Isovalent | [Verify Record](https://www.credly.com/badges/d6d77359-05d8-4db0-8a5c-3944635c5684/linked_in_profile) |
+| *2026-08* | **Cilium LB-IPAM & L2** | Isovalent | [Verify Record](https://www.credly.com/badges/7083b54b-a4c1-4c38-a0f0-c8487d5b6794/linked_in_profile) |
+| *2026-08* | **Foundations: Kubernetes Networking & Cilium** | Isovalent | [Verify Record](https://www.credly.com/badges/eb7a1881-5a18-499b-9e7f-2b8a2613c283/linked_in_profile) |
 <!-- LINKEDIN_END -->
 
 
