@@ -427,7 +427,6 @@ def main():
 
     index_raw = f"{RAW_BASE_DEFAULT}/{PLATFORM_PREFIX}-index.md"
     profile_url = "https://g.dev/vojislavmiloradovic"
-    latest_slice_raw = ""
     LATEST_SLICE_RAW = ""
 
     # 3. Assemble README sections
