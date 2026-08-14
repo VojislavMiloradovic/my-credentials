@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 11 of 11
-date_range: 2026-08-04 to 2026-08-12
-total_entries: 39
+date_range: 2026-08-04 to 2026-08-14
+total_entries: 42
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-14 | [Agentless Threat Emulation with AttackIQ Flex v3](https://www.credly.com/badges/063a5019-ef91-46ce-b3ad-6bd1e4bbe8a0/public_url) | issued by AttackIQ | Credly Verified Badge |
+| 2026-08-14 | [Cloud Tech Pro - Email Security](https://www.credly.com/badges/a94e5a37-1599-485e-a03c-b28d11fdd800/public_url) | issued by Acronis | Credly Verified Badge |
+| 2026-08-14 | [Cloud Tech Professional Home & Business](https://www.credly.com/badges/664f50a3-c675-434d-890f-4efd62cbfb7d/public_url) | issued by Acronis | Credly Verified Badge |
 | 2026-08-12 | [AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge](https://www.credly.com/badges/b32b2957-f77b-433b-856d-de55f074cb96/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-08-11 | [Cilium IPv6 Networking and Observability](https://www.credly.com/badges/1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-11 | [Hubble Flow Visibility](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/public_url) | issued by Isovalent | Credly Verified Badge |
