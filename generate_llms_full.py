@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 generate_llms_full.py
 ---------------------
@@ -10,8 +9,6 @@ Generates llms-full.txt by consolidating:
 This provides a single large context file for LLMs with large context windows.
 """
 
-import glob
-import json
 import os
 from datetime import UTC, datetime
 
