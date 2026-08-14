@@ -12,6 +12,9 @@ Welcome to my portfolio! Here is my live learning history:
 
 <!-- MS_LEARN_START -->
 ### Microsoft Learn Summary
+
+**Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
+
 - **Total Experience Points (XP):** 5,993,250
 - **Current Learning Level:** Level 20
 - **Badges Earned (Profile):** 3,900
@@ -29,7 +32,7 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,805 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,805 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw]({latest_slice_raw}), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 - **Active Directory Domain Services authentication and Kerberos hardening** (Modules | Earned: 2026-08-11 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/active-directory-authentication-kerberos/))
 - **Ingest data into Customer Insights - Data** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/ingest-data-customer-insights/))
