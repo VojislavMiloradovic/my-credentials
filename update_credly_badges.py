@@ -19,10 +19,21 @@ from pydantic import BaseModel, Field, ValidationError, field_validator
 
 # Archive Integration Helper
 try:
-    from archiver import RAW_BASE_DEFAULT, generate_platform_archive
+    from archiver import RAW_BASE_DEFAULT, generate_platform_archive, safe_write_file
 except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
     generate_platform_archive = None
+    def safe_write_file(filepath: str, new_content: str) -> bool:
+        if os.path.exists(filepath):
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    if f.read() == new_content:
+                        return False
+            except Exception:
+                pass
+        with open(filepath, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        return True
 
 # Content-Aware Loss Guard
 try:
@@ -474,7 +485,6 @@ def build_archives_and_readme(badges: list[dict]) -> None:
 
     now_ym = datetime.now(UTC).strftime("%Y-%m")
     index_raw = f"{RAW_BASE_DEFAULT}/credly-index.md"
-    part1_raw = f"{RAW_BASE_DEFAULT}/credly-{now_ym}-part-01.md"
 
     marker_start = "<!-- CREDLY_BADGES_START -->"
     marker_end = "<!-- CREDLY_BADGES_END -->"
@@ -492,7 +502,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
         "",
         "#### Latest Earned Credentials",
         "",
-        f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({part1_raw}), or [Monolithic File](./archives/credly-complete.md).",
+        f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({{latest_slice_raw}}), or [Monolithic File](./archives/credly-complete.md).",
         "",
         "| Date Earned | Credential Name | Issuer | Verification Type |",
         "| :---: | :--- | :--- | :---: |",
@@ -501,7 +511,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     for row_text, _ in formatted_rows[:10]:
         readme_lines.append(row_text)
 
-    generate_platform_archive(
+    latest_slice = generate_platform_archive(
         platform_prefix="credly",
         platform_name="Credly Verified Credentials",
         table_headers=["Date Earned", "Credential Name", "Issuer", "Verification Type"],
@@ -511,6 +521,22 @@ def build_archives_and_readme(badges: list[dict]) -> None:
         marker_start=marker_start,
         marker_end=marker_end,
     )
+
+    if latest_slice:
+        latest_slice_raw = f"{RAW_BASE_DEFAULT}/{latest_slice}"
+        for i, line in enumerate(readme_lines):
+            if "{latest_slice_raw}" in line:
+                readme_lines[i] = line.replace("{latest_slice_raw}", latest_slice_raw)
+                break
+        if os.path.exists("README.md"):
+            with open("README.md", "r", encoding="utf-8") as f:
+                content = f.read()
+            if marker_start in content and marker_end in content:
+                before = content.split(marker_start)[0]
+                after = content.split(marker_end)[1]
+                new_block = "\n".join(readme_lines) + "\n"
+                new_content = f"{before}{marker_start}\n{new_block}{marker_end}{after}"
+                safe_write_file("README.md", new_content)
 
 
 # ==============================================================================

@@ -25,6 +25,21 @@ def count_tokens(text: str, encoding_name: str = "cl100k_base") -> int:
         return len(text) // 4
 
 
+def find_latest_slice(archive_dir: str, platform_prefix: str) -> str | None:
+    """Returns the filename of the latest slice (highest part number) for a platform.
+    Returns None if no slices exist.
+    """
+    pattern = os.path.join(archive_dir, f"{platform_prefix}-*-part-*.md")
+    matches = glob.glob(pattern)
+    if not matches:
+        return None
+    def extract_part_num(f: str) -> int:
+        m = re.search(r"-part-(\d+)\.md$", f)
+        return int(m.group(1)) if m else 0
+    latest = max(matches, key=extract_part_num)
+    return os.path.basename(latest)
+
+
 def safe_write_file(filepath: str, new_content: str) -> bool:
     """Writes content to filepath only if content has changed.
 
@@ -83,9 +98,10 @@ def generate_platform_archive(
     readme_path: str = "README.md",
     raw_base_url: str = RAW_BASE_DEFAULT,
     extra_monolith_header_md: str = "",
-) -> None:
+) -> str | None:
     """Generates monolithic archive, ~10KB slice archives, platform index,
     and updates README markers cleanly with tail-anchored stable chunking.
+    Returns the latest slice filename (highest part number) or None.
     """
     print(f"\n📦 Processing platform archive: {platform_name} ({platform_prefix})")
     os.makedirs(archive_dir, exist_ok=True)
@@ -278,3 +294,9 @@ def generate_platform_archive(
 
             readme_status = "✍️  Updated" if readme_written else "⏭️  Unchanged"
             print(f"  {readme_status} README markers: {readme_path}")
+
+    # Return latest slice filename for README links
+    latest_slice = find_latest_slice(archive_dir, platform_prefix)
+    if latest_slice:
+        print(f"  Latest slice: {latest_slice}")
+    return latest_slice

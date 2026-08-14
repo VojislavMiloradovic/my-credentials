@@ -19,10 +19,21 @@ from pydantic import BaseModel, Field, ValidationError, field_validator
 
 # Archive Integration Helper
 try:
-    from archiver import RAW_BASE_DEFAULT, generate_platform_archive
+    from archiver import RAW_BASE_DEFAULT, generate_platform_archive, safe_write_file
 except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
     generate_platform_archive = None
+    def safe_write_file(filepath: str, new_content: str) -> bool:
+        if os.path.exists(filepath):
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    if f.read() == new_content:
+                        return False
+            except Exception:
+                pass
+        with open(filepath, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        return True
 
 # Content-Aware Loss Guard
 try:
@@ -328,7 +339,7 @@ def main():
         "",
         "#### Recent Certifications",
         "",
-        f"Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})) or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
+        f"Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({latest_slice_raw}), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
         "",
         "| Date Completed | Certification Title | Issuing Authority | Verification Reference |",
         "| :---: | :--- | :--- | :--- |",
@@ -346,7 +357,7 @@ def main():
 
     # 3. Trigger Archiver
     if generate_platform_archive:
-        generate_platform_archive(
+        latest_slice = generate_platform_archive(
             platform_prefix=PLATFORM_PREFIX,
             platform_name=PLATFORM_NAME,
             table_headers=table_headers,
@@ -358,6 +369,22 @@ def main():
             archive_dir=ARCHIVE_DIR,
             readme_path=README_PATH,
         )
+
+        if latest_slice:
+            latest_slice_raw = RAW_BASE_DEFAULT + "/" + latest_slice
+            for i, line in enumerate(readme_lines):
+                if "{latest_slice_raw}" in line:
+                    readme_lines[i] = line.replace("{latest_slice_raw}", latest_slice_raw)
+                    break
+            if os.path.exists("README.md"):
+                with open("README.md", "r", encoding="utf-8") as f:
+                    readme_content = f.read()
+                if MARKER_START in readme_content and MARKER_END in readme_content:
+                    before = readme_content.split(MARKER_START)[0]
+                    after = readme_content.split(MARKER_END)[1]
+                    new_block = "\n".join(readme_lines) + "\n"
+                    new_content = before + MARKER_START + "\n" + new_block + MARKER_END + after
+                    safe_write_file("README.md", new_content)
         logger.info("🎉 LinkedIn Certifications pipeline execution completed successfully.")
     else:
         logger.error("❌ Archiver module helper not available. Skipping markdown generation.")
