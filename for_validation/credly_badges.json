@@ -1,6 +1,6 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 538,
+  "total_count": 541,
   "badges": [
     {
       "id": "063a5019-ef91-46ce-b3ad-6bd1e4bbe8a0",
@@ -20,6 +20,34 @@
         "Breach and Attack Simulation",
         "Penetration Testing",
         "Threat-Informed Defense"
+      ]
+    },
+    {
+      "id": "052c407b-a68b-4e80-9f1d-6f7ea7ce108b",
+      "title": "Cilium Zero Trust Visibility",
+      "name": "Cilium Zero Trust Visibility",
+      "issuer": "issued by Isovalent",
+      "issuer_name": "issued by Isovalent",
+      "issued_at": "2026-08-14",
+      "issued_at_date": "2026-08-14",
+      "date": "2026-08-14",
+      "image_url": "https://images.credly.com/images/d4c66208-b30c-4ccc-be58-275a1626bfde/image.png",
+      "verify_url": "https://www.credly.com/badges/052c407b-a68b-4e80-9f1d-6f7ea7ce108b/public_url",
+      "url": "https://www.credly.com/badges/052c407b-a68b-4e80-9f1d-6f7ea7ce108b/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "Containers",
+        "eBPF",
+        "Enterprise",
+        "Grafana",
+        "Hubble",
+        "Kubernetes",
+        "Networking",
+        "Security",
+        "Visibility",
+        "Zero Trust"
       ]
     },
     {
@@ -63,6 +91,53 @@
         "Demo",
         "Tech",
         "Troubleshooting"
+      ]
+    },
+    {
+      "id": "1a9fd111-6d83-418c-9603-ec8af02aacaf",
+      "title": "Foundations of CTEM",
+      "name": "Foundations of CTEM",
+      "issuer": "issued by AttackIQ",
+      "issuer_name": "issued by AttackIQ",
+      "issued_at": "2026-08-14",
+      "issued_at_date": "2026-08-14",
+      "date": "2026-08-14",
+      "image_url": "https://images.credly.com/images/63369f54-e7bd-4d83-b8cb-9934f1f9f09d/blob",
+      "verify_url": "https://www.credly.com/badges/1a9fd111-6d83-418c-9603-ec8af02aacaf/public_url",
+      "url": "https://www.credly.com/badges/1a9fd111-6d83-418c-9603-ec8af02aacaf/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Continuous Threat Exposure Management (CTEM)",
+        "MITRE ATT&CK",
+        "Security Control Validation",
+        "Threat-Informed Defense",
+        "Threat Management"
+      ]
+    },
+    {
+      "id": "8f8c28a6-bdbe-4bb7-a37f-e40d7693a64c",
+      "title": "Tetragon Security Visibility",
+      "name": "Tetragon Security Visibility",
+      "issuer": "issued by Isovalent",
+      "issuer_name": "issued by Isovalent",
+      "issued_at": "2026-08-14",
+      "issued_at_date": "2026-08-14",
+      "date": "2026-08-14",
+      "image_url": "https://images.credly.com/images/e0662859-4534-44f9-aeca-37510f044e21/tempfile20250605-82-74jjdw.png",
+      "verify_url": "https://www.credly.com/badges/8f8c28a6-bdbe-4bb7-a37f-e40d7693a64c/public_url",
+      "url": "https://www.credly.com/badges/8f8c28a6-bdbe-4bb7-a37f-e40d7693a64c/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "Containers",
+        "eBPF",
+        "Enterprise",
+        "Hubble",
+        "Kubernetes",
+        "Security",
+        "Tetragon"
       ]
     },
     {
