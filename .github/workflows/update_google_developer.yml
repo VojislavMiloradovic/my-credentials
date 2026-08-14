@@ -1,6 +1,9 @@
 name: Update Google Developer Credentials
 
 on:
+  push:
+    paths:
+      - 'data/google_learnings.txt'
   schedule:
     # Runs at 00:00 UTC every 2 days (every 48 hours)
     - cron: '0 0 */2 * *'
