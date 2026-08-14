@@ -368,7 +368,7 @@ def main():
 
     md.append("### Recent Achievements & Completed Badges")
     md.append(
-        f"Showing latest 10 of {format_num(len(sorted_achievements))} achievements. View full dataset via [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({LATEST_SLICE_RAW}), or [Monolithic Complete File](./archives/{monolith_filename}).\n"
+        f"Showing latest 10 of {format_num(len(sorted_achievements))} achievements. View full dataset via [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({{LATEST_SLICE_RAW}}), or [Monolithic Complete File](./archives/{monolith_filename}).\n"
     )
 
     for item in sorted_achievements[:10]:

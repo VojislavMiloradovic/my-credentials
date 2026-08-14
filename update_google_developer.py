@@ -449,7 +449,7 @@ def main():
         "",
         "#### Latest Achievements",
         "",
-        f"Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({LATEST_SLICE_RAW}), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
+        f"Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({{LATEST_SLICE_RAW}}), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
         "",
         "| Date Earned | Title | Description |",
         "| :---: | :--- | :--- |",

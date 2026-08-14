@@ -344,7 +344,7 @@ def main():
         "",
         "#### Recent Certifications",
         "",
-        f"Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({LATEST_SLICE_RAW}), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
+        f"Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({{LATEST_SLICE_RAW}}), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
         "",
         "| Date Completed | Certification Title | Issuing Authority | Verification Reference |",
         "| :---: | :--- | :--- | :--- |",

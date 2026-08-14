@@ -560,7 +560,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     readme_lines.extend([
         "#### Latest Earned Credentials",
         "",
-        f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({LATEST_SLICE_RAW}), or [Monolithic File](./archives/aws-skills-complete.md).",
+        f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({{LATEST_SLICE_RAW}}), or [Monolithic File](./archives/aws-skills-complete.md).",
         "",
         "| Date Earned | Credential Name | Issuer | Verification Type |",
         "| :---: | :--- | :--- | :---: |",
