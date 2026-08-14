@@ -88,6 +88,9 @@ jobs:
       - name: Generate LLMs.txt Directory Files
         run: uv run python generate_llms_txt.py
 
+      - name: Generate LLMs-Full Consolidated Export
+        run: uv run python generate_llms_full.py
+
       # Validate artifact_paths input
       - name: Validate Artifact Paths
         run: |
