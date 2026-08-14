@@ -484,6 +484,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     total_skills = len(all_skills)
 
     index_raw = f"{RAW_BASE_DEFAULT}/credly-index.md"
+    LATEST_SLICE_NORMAL = ""
     LATEST_SLICE_RAW = ""
 
     marker_start = "<!-- CREDLY_BADGES_START -->"
@@ -501,7 +502,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
         "",
         "#### Latest Earned Credentials",
         "",
-        f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({{LATEST_SLICE_RAW}}), or [Monolithic File](./archives/credly-complete.md).",
+        f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic File](./archives/credly-complete.md).",
         "",
         "| Date Earned | Credential Name | Issuer | Verification Type |",
         "| :---: | :--- | :--- | :---: |",
@@ -522,10 +523,12 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     )
 
     if latest_slice:
+        LATEST_SLICE_NORMAL = f"./archives/{latest_slice}"
         LATEST_SLICE_RAW = f"{RAW_BASE_DEFAULT}/{latest_slice}"
         for i, line in enumerate(readme_lines):
-            if "{LATEST_SLICE_RAW}" in line:
-                readme_lines[i] = line.replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
+            if "{LATEST_SLICE_NORMAL}" in line:
+                readme_lines[i] = line.replace("{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL)
+                readme_lines[i] = readme_lines[i].replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
                 break
         if os.path.exists("README.md"):
             with open("README.md", "r", encoding="utf-8") as f:
