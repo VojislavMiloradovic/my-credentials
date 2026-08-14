@@ -329,7 +329,7 @@ def main():
         formatted_rows.append((row_text, c["issued"]))
 
     index_raw = f"{RAW_BASE_DEFAULT}/{PLATFORM_PREFIX}-index.md"
-    latest_slice_raw = ""
+    LATEST_SLICE_RAW = ""
 
     readme_lines = [
         "### LinkedIn Professional Certifications Summary",
@@ -344,7 +344,7 @@ def main():
         "",
         "#### Recent Certifications",
         "",
-        f"Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({{latest_slice_raw}}), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
+        f"Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({LATEST_SLICE_RAW}), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
         "",
         "| Date Completed | Certification Title | Issuing Authority | Verification Reference |",
         "| :---: | :--- | :--- | :--- |",
@@ -376,10 +376,10 @@ def main():
         )
 
         if latest_slice:
-            latest_slice_raw = RAW_BASE_DEFAULT + "/" + latest_slice
+            LATEST_SLICE_RAW = RAW_BASE_DEFAULT + "/" + latest_slice
             for i, line in enumerate(readme_lines):
-                if "{{latest_slice_raw}}" in line:
-                    readme_lines[i] = line.replace("{{latest_slice_raw}}", latest_slice_raw)
+                if "{LATEST_SLICE_RAW}" in line:
+                    readme_lines[i] = line.replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
                     break
             if os.path.exists("README.md"):
                 with open("README.md", "r", encoding="utf-8") as f:

@@ -364,11 +364,11 @@ def main():
     index_filename = f"{PLATFORM_PREFIX}-index.md"
     monolith_filename = f"{PLATFORM_PREFIX}-complete.md"
     index_raw = f"{RAW_BASE_DEFAULT}/{index_filename}"
-    latest_slice_raw = ""
+    LATEST_SLICE_RAW = ""
 
     md.append("### Recent Achievements & Completed Badges")
     md.append(
-        f"Showing latest 10 of {format_num(len(sorted_achievements))} achievements. View full dataset via [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({{latest_slice_raw}}), or [Monolithic Complete File](./archives/{monolith_filename}).\n"
+        f"Showing latest 10 of {format_num(len(sorted_achievements))} achievements. View full dataset via [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({LATEST_SLICE_RAW}), or [Monolithic Complete File](./archives/{monolith_filename}).\n"
     )
 
     for item in sorted_achievements[:10]:
@@ -398,10 +398,10 @@ def main():
         )
 
         if latest_slice:
-            latest_slice_raw = RAW_BASE_DEFAULT + "/" + latest_slice
+            LATEST_SLICE_RAW = RAW_BASE_DEFAULT + "/" + latest_slice
             for i, line in enumerate(md):
-                if "{{latest_slice_raw}}" in line:
-                    md[i] = line.replace("{{latest_slice_raw}}", latest_slice_raw)
+                if "{LATEST_SLICE_RAW}" in line:
+                    md[i] = line.replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
                     break
             if os.path.exists("README.md"):
                 with open("README.md", "r", encoding="utf-8") as f:
