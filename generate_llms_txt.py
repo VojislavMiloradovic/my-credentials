@@ -56,8 +56,7 @@ SLICE_CONFIGS = [
     ("Aws Skills Latest Slice", "aws-skills", "Most recent achievements for Aws Skills."),
     ("Credly Verified Credentials Latest Slice", "credly", "Most recent achievements for Credly Verified Credentials."),
     ("Google Skills Latest Slice", "google-skills", "Most recent achievements for Google Skills."),
-    ("Google Developer Activities Latest Slice", "google-developer-activities", "Most recent achievements for Google Developer Activities."),
-    ("Google Developer Badges Latest Slice", "google-developer-badges", "Most recent achievements for Google Developer Badges."),
+    ("Google Developer Latest Slice", "google-developer", "Most recent achievements for Google Developer."),
     ("Linkedin Certifications Latest Slice", "linkedin-certifications", "Most recent achievements for Linkedin Certifications."),
     ("Microsoft Learn Latest Slice", "microsoft-learn", "Most recent achievements for Microsoft Learn."),
 ]
@@ -310,10 +309,15 @@ Optimized for lower-capacity context tools or fast targeted queries.
 
 """
     for title, prefix, description in SLICE_CONFIGS:
-        pattern = os.path.join(ARCHIVE_DIR, f"{prefix}-*-part-01.md")
-        matches = sorted(glob.glob(pattern), reverse=True)
+        pattern = os.path.join(ARCHIVE_DIR, f"{prefix}-*-part-*.md")
+        matches = sorted(glob.glob(pattern))
         if matches:
-            filename = os.path.basename(matches[0])
+            # Latest slice has highest part number (tail-anchored: part-01 = oldest)
+            def extract_part_num(f):
+                m = re.search(r"-part-(\d+)\.md$", f)
+                return int(m.group(1)) if m else 0
+            latest = max(matches, key=extract_part_num)
+            filename = os.path.basename(latest)
             raw_url = f"{RAW_BASE_URL}/{filename}"
             content += f"- [{title}](./archives/{filename}): {description} Raw: {raw_url}\n"
 
