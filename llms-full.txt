@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-08-14 11:27 UTC
+> **Last Generated:** 2026-08-14 11:31 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -37,7 +37,7 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,805 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)) or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,805 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Part 01 Raw](), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 - **Active Directory Domain Services authentication and Kerberos hardening** (Modules | Earned: 2026-08-11 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/active-directory-authentication-kerberos/))
 - **Ingest data into Customer Insights - Data** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/ingest-data-customer-insights/))
