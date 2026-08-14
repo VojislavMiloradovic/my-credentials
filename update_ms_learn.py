@@ -57,6 +57,8 @@ ARCHIVE_DIR = "archives"
 PLATFORM_PREFIX = "microsoft-learn"
 PLATFORM_NAME = "Microsoft Learn"
 ARCHIVE_MONOLITH = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-complete.md")
+MS_LEARN_PROFILE_ID = os.getenv("MS_LEARN_PROFILE_ID") or "vojislavmiloradovic"
+MS_LEARN_PROFILE_URL = f"https://learn.microsoft.com/en-us/users/{MS_LEARN_PROFILE_ID}/"
 
 MARKER_START = "<!-- MS_LEARN_START -->"
 MARKER_END = "<!-- MS_LEARN_END -->"
@@ -342,6 +344,9 @@ def main():
     # Construct README Summary Lines
     md = [
         "### Microsoft Learn Summary",
+        "",
+        f"**Public Profile:** [Verify Microsoft Learn Profile]({MS_LEARN_PROFILE_URL})",
+        "",
         f"- **Total Experience Points (XP):** {format_num(total_xp)}",
         f"- **Current Learning Level:** Level {current_level}",
         f"- **Badges Earned (Profile):** {format_num(badges_count)}",
@@ -363,7 +368,7 @@ def main():
 
     md.append("### Recent Achievements & Completed Badges")
     md.append(
-        f"Showing latest 10 of {format_num(len(sorted_achievements))} achievements. View full dataset via [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({latest_slice_raw}), or [Monolithic Complete File](./archives/{monolith_filename}).\n"
+        f"Showing latest 10 of {format_num(len(sorted_achievements))} achievements. View full dataset via [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({{latest_slice_raw}}), or [Monolithic Complete File](./archives/{monolith_filename}).\n"
     )
 
     for item in sorted_achievements[:10]:
@@ -395,8 +400,8 @@ def main():
         if latest_slice:
             latest_slice_raw = RAW_BASE_DEFAULT + "/" + latest_slice
             for i, line in enumerate(md):
-                if "{latest_slice_raw}" in line:
-                    md[i] = line.replace("{latest_slice_raw}", latest_slice_raw)
+                if "{{latest_slice_raw}}" in line:
+                    md[i] = line.replace("{{latest_slice_raw}}", latest_slice_raw)
                     break
             if os.path.exists("README.md"):
                 with open("README.md", "r", encoding="utf-8") as f:

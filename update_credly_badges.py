@@ -494,9 +494,8 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     readme_lines = [
         "### Credly Verified Credentials",
         "",
-        f"[Credly Profile]({profile_url})",
+        f"**Public Profile:** [Verify Credly Profile]({profile_url})",
         "",
-        f"Public Profile: [Verify Credly Profile]({profile_url})",
         f"**Total Portfolio Credentials:** {total_count}",
         f"**Total Verified Skills Mapped:** {total_skills}",
         "",

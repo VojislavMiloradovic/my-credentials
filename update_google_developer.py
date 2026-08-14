@@ -449,7 +449,7 @@ def main():
         "",
         "#### Latest Achievements",
         "",
-        f"Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({latest_slice_raw}), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
+        f"Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({{latest_slice_raw}}), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
         "",
         "| Date Earned | Title | Description |",
         "| :---: | :--- | :--- |",
@@ -481,8 +481,8 @@ def main():
         if latest_slice:
             latest_slice_raw = RAW_BASE_DEFAULT + "/" + latest_slice
             for i, line in enumerate(readme_lines):
-                if "{latest_slice_raw}" in line:
-                    readme_lines[i] = line.replace("{latest_slice_raw}", latest_slice_raw)
+                if "{{latest_slice_raw}}" in line:
+                    readme_lines[i] = line.replace("{{latest_slice_raw}}", latest_slice_raw)
                     break
             if os.path.exists("README.md"):
                 with open("README.md", "r", encoding="utf-8") as f:

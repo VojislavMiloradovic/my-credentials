@@ -548,9 +548,8 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     readme_lines = [
         "### AWS Skill Builder Credentials",
         "",
-        f"[AWS Skill Builder Profile]({profile_url})",
+        f"**Public Profile:** [Verify AWS Skill Builder Profile]({profile_url})",
         "",
-        f"Public Profile: [Verify AWS Skill Builder Profile]({profile_url})",
         f"**Total Portfolio Credentials:** {total_count}",
         f"**Total Verified Skills Mapped:** {total_skills}",
         "",

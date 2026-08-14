@@ -390,9 +390,8 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     readme_lines = [
         "### Google Skills Credentials",
         "",
-        f"[Google Skills Profile]({profile_url})",
+        f"**Public Profile:** [Verify Google Skills Profile]({profile_url})",
         "",
-        f"Public Profile: [Verify Google Skills Profile]({profile_url})",
         f"**Total Portfolio Credentials:** {total_count}",
         f"**Total Verified Skills Mapped:** {total_skills}",
         "",

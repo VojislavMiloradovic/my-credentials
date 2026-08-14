@@ -57,6 +57,8 @@ ARCHIVE_DIR = "archives"
 PLATFORM_PREFIX = "linkedin-certifications"
 PLATFORM_NAME = "LinkedIn Certifications"
 ARCHIVE_MONOLITH = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-complete.md")
+LINKEDIN_PROFILE_ID = os.getenv("LINKEDIN_PROFILE_ID") or "vojislavmiloradovic"
+LINKEDIN_PROFILE_URL = f"https://www.linkedin.com/in/{LINKEDIN_PROFILE_ID}/"
 
 MARKER_START = "<!-- LINKEDIN_START -->"
 MARKER_END = "<!-- LINKEDIN_END -->"
@@ -332,6 +334,8 @@ def main():
     readme_lines = [
         "### LinkedIn Professional Certifications Summary",
         "",
+        f"**Public Profile:** [Verify LinkedIn Profile]({LINKEDIN_PROFILE_URL})",
+        "",
         "#### Progress Metrics",
         "",
         "| Metric | Count |",
@@ -340,7 +344,7 @@ def main():
         "",
         "#### Recent Certifications",
         "",
-        f"Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({latest_slice_raw}), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
+        f"Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Part 01 Raw]({{latest_slice_raw}}), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
         "",
         "| Date Completed | Certification Title | Issuing Authority | Verification Reference |",
         "| :---: | :--- | :--- | :--- |",
@@ -374,8 +378,8 @@ def main():
         if latest_slice:
             latest_slice_raw = RAW_BASE_DEFAULT + "/" + latest_slice
             for i, line in enumerate(readme_lines):
-                if "{latest_slice_raw}" in line:
-                    readme_lines[i] = line.replace("{latest_slice_raw}", latest_slice_raw)
+                if "{{latest_slice_raw}}" in line:
+                    readme_lines[i] = line.replace("{{latest_slice_raw}}", latest_slice_raw)
                     break
             if os.path.exists("README.md"):
                 with open("README.md", "r", encoding="utf-8") as f:
