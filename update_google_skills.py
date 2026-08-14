@@ -53,7 +53,7 @@ logging.basicConfig(
 logger = logging.getLogger("google_skills_updater")
 
 # Configuration Constants & Canonical Paths
-GOOGLE_PROFILE_ID = os.getenv("GOOGLE_PROFILE_ID", "2011cb91-6066-4d7f-bbec-644b1530829b")
+GOOGLE_PROFILE_ID = os.getenv("GOOGLE_PROFILE_ID") or "2011cb91-6066-4d7f-bbec-644b1530829b"
 VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 OUTPUT_FILENAME = "google_skills_badges.json"
 OUTPUT_FILE = os.getenv("OUTPUT_FILE", os.path.join(VALIDATION_DIR, OUTPUT_FILENAME))
