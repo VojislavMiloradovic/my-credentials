@@ -1,0 +1,21 @@
+# lychee configuration for link checking
+# Per-host rate limiting for known sensitive domains
+
+[hosts."linkedin.com"]
+concurrency = 2
+request_interval = "1s"
+
+[hosts."credly.com"]
+concurrency = 2
+request_interval = "1s"
+
+# Global defaults
+max_concurrency = 10
+max_retries = 0
+timeout = 20
+accept = [200, 204, 301, 302, 429]
+cache = true
+max_cache_age = "7d"
+verbose = true
+no_progress = true
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"

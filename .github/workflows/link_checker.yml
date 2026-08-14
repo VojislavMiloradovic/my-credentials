@@ -28,14 +28,8 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           args: >
-            --verbose
-            --no-progress
-            --accept 200,204,301,302,429
-            --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-            --max-concurrency 10
-            --cache
-            --max-cache-age 7d
-            --exclude "(linkedin.com|credly.com)"
+            --config lychee.toml
+            --exclude "(linkedin\.com/in/|credly\.com/users/)"
             "README.md" "llms.txt" "llms-full.txt" "archive/*.md" "archives/*.md"
           fail: false
         env:
