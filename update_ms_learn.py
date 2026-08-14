@@ -359,6 +359,7 @@ def main():
     index_filename = f"{PLATFORM_PREFIX}-index.md"
     monolith_filename = f"{PLATFORM_PREFIX}-complete.md"
     index_raw = f"{RAW_BASE_DEFAULT}/{index_filename}"
+    latest_slice_raw = ""
 
     md.append("### Recent Achievements & Completed Badges")
     md.append(

@@ -527,8 +527,8 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     total_count = len(sorted_badges)
     total_skills = len(all_skills)
 
-    now_ym = datetime.now(UTC).strftime("%Y-%m")
     index_raw = f"{RAW_BASE_DEFAULT}/aws-skills-index.md"
+    latest_slice_raw = ""
 
     marker_start = "<!-- AWS_SKILLS_START -->"
     marker_end = "<!-- AWS_SKILLS_END -->"

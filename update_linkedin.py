@@ -327,6 +327,7 @@ def main():
         formatted_rows.append((row_text, c["issued"]))
 
     index_raw = f"{RAW_BASE_DEFAULT}/{PLATFORM_PREFIX}-index.md"
+    latest_slice_raw = ""
 
     readme_lines = [
         "### LinkedIn Professional Certifications Summary",

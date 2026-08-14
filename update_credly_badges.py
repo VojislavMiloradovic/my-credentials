@@ -483,8 +483,8 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     total_count = len(sorted_badges)
     total_skills = len(all_skills)
 
-    now_ym = datetime.now(UTC).strftime("%Y-%m")
     index_raw = f"{RAW_BASE_DEFAULT}/credly-index.md"
+    latest_slice_raw = ""
 
     marker_start = "<!-- CREDLY_BADGES_START -->"
     marker_end = "<!-- CREDLY_BADGES_END -->"
