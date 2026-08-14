@@ -56,7 +56,7 @@ Public Profile: [Verify Google Skills Profile](https://www.skills.google/public_
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 343 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-01.md), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 343 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Part 01 Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-08.md), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
