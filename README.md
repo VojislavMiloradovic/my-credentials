@@ -150,6 +150,8 @@ Showing latest 10 of 538 credentials. View full dataset via [Platform Archive In
 <!-- LINKEDIN_START -->
 ### LinkedIn Professional Certifications Summary
 
+**Public Profile:** [Verify LinkedIn Profile](https://www.linkedin.com/in/vojislavmiloradovic/)
+
 #### Progress Metrics
 
 | Metric | Count |
@@ -158,7 +160,7 @@ Showing latest 10 of 538 credentials. View full dataset via [Platform Archive In
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Part 01 Raw](), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Part 01 Raw]({latest_slice_raw}), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
