@@ -1,7 +1,7 @@
 # lychee configuration for link checking
 # Global settings (must come FIRST in TOML)
 
-verbose = true
+verbose = "info"
 no_progress = true
 format = "detailed"
 mode = "color"
