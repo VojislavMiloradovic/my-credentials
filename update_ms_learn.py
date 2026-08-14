@@ -395,8 +395,8 @@ def main():
         if latest_slice:
             latest_slice_raw = RAW_BASE_DEFAULT + "/" + latest_slice
             for i, line in enumerate(md):
-                if b"{latest_slice_raw}" in line:
-                    md[i] = line.replace(b"{latest_slice_raw}", latest_slice_raw.encode())
+                if "{latest_slice_raw}" in line:
+                    md[i] = line.replace("{latest_slice_raw}", latest_slice_raw)
                     break
             if os.path.exists("README.md"):
                 with open("README.md", "r", encoding="utf-8") as f:
