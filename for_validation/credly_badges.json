@@ -1,7 +1,70 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 535,
+  "total_count": 538,
   "badges": [
+    {
+      "id": "063a5019-ef91-46ce-b3ad-6bd1e4bbe8a0",
+      "title": "Agentless Threat Emulation with AttackIQ Flex v3",
+      "name": "Agentless Threat Emulation with AttackIQ Flex v3",
+      "issuer": "issued by AttackIQ",
+      "issuer_name": "issued by AttackIQ",
+      "issued_at": "2026-08-14",
+      "issued_at_date": "2026-08-14",
+      "date": "2026-08-14",
+      "image_url": "https://images.credly.com/images/f009eee0-cb3e-47e3-aa64-461939f4aeb1/blob",
+      "verify_url": "https://www.credly.com/badges/063a5019-ef91-46ce-b3ad-6bd1e4bbe8a0/public_url",
+      "url": "https://www.credly.com/badges/063a5019-ef91-46ce-b3ad-6bd1e4bbe8a0/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Breach and Attack Simulation",
+        "Penetration Testing",
+        "Threat-Informed Defense"
+      ]
+    },
+    {
+      "id": "a94e5a37-1599-485e-a03c-b28d11fdd800",
+      "title": "Cloud Tech Pro - Email Security",
+      "name": "Cloud Tech Pro - Email Security",
+      "issuer": "issued by Acronis",
+      "issuer_name": "issued by Acronis",
+      "issued_at": "2026-08-14",
+      "issued_at_date": "2026-08-14",
+      "date": "2026-08-14",
+      "image_url": "https://images.credly.com/images/1ad4ba07-9812-4093-bb81-b8e705a9a558/blob",
+      "verify_url": "https://www.credly.com/badges/a94e5a37-1599-485e-a03c-b28d11fdd800/public_url",
+      "url": "https://www.credly.com/badges/a94e5a37-1599-485e-a03c-b28d11fdd800/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cloud-Based Testing",
+        "Cloud Computing",
+        "Cloud Security",
+        "Cloud Services",
+        "Email Management",
+        "Email Security"
+      ]
+    },
+    {
+      "id": "664f50a3-c675-434d-890f-4efd62cbfb7d",
+      "title": "Cloud Tech Professional Home & Business",
+      "name": "Cloud Tech Professional Home & Business",
+      "issuer": "issued by Acronis",
+      "issuer_name": "issued by Acronis",
+      "issued_at": "2026-08-14",
+      "issued_at_date": "2026-08-14",
+      "date": "2026-08-14",
+      "image_url": "https://images.credly.com/images/92a7acb4-4a81-4eb4-bd07-33c688495e06/blob",
+      "verify_url": "https://www.credly.com/badges/664f50a3-c675-434d-890f-4efd62cbfb7d/public_url",
+      "url": "https://www.credly.com/badges/664f50a3-c675-434d-890f-4efd62cbfb7d/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Demo",
+        "Tech",
+        "Troubleshooting"
+      ]
+    },
     {
       "id": "b32b2957-f77b-433b-856d-de55f074cb96",
       "title": "AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge",
