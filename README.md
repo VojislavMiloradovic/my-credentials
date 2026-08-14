@@ -154,24 +154,24 @@ Showing latest 10 of 541 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,412 |
+| **Total External Certifications Verified** | 1,466 |
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-08-part-32.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-32.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-08-part-33.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-33.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-08* | **Nano Tips for Creating a More Effective Relationship with Your Manager with Allison Peck** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f896336f30230ad0e561300fee1e551ace2fc0f0408f781d8cbe3df21dc7d5b2) |
-| *2026-08* | **Nano Tips for Delegating with Kim Kaupe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b7a127e3f84c91f8d2995f0a50ac8b5a0f38f734684deb4ea78850508bdf4998) |
-| *2026-08* | **Nano Tips to Collaborate Across Boundaries and Build Versatile Teams with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/aa7a1589a2a9d656fa023aa0b3d5e47c947daae605e48fa804f7dc4d6c536dbb) |
-| *2026-08* | **Google Cloud Computing Foundations: Networking & Security in Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26758292?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| *2026-08* | **How to Grow your Creator Business with Experiments Nano Tips with Quentin Allums** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f4f62b2cd2460a70b328974890dd83b11dca5b2c78c75cd52306fcb9ede105eb) |
-| *2026-08* | **Nano Tips to Increase Productivity and Focus with Lillian Daniels** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e0bf0dfd0b7eb230887268e45e22433e82b37a9550f20c1efedfda77c259ebf7) |
-| *2026-08* | **Nano Tips to Lead with a Futurist Mindset with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4d2e695336f1ef289d17d4a2f772b913c46dfbbdc7f57ecbc41896931bec9055) |
-| *2026-08* | **Jeff Weiner on Managing Compassionately** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/96f7406f8624187fb6c56eaf71cf6039261fca4fb57906b165fba1aa7a15da52) |
-| *2026-08* | **Getting Started with Premium All-in-One: How to Grow Your Business on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cd8d6a4666bbd92f9c28de7a7f26324cc2b5e1a00dfcac54c9fd32f2bd2c581e) |
-| *2026-08* | **Nano Tips for Strategic Thinking with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a520c0d04aafba731cf6eabc70c2f9ed0ed525de17352eb8692df9696b713581) |
+| *2026-08* | **Sales Strategy: How to Effectively Sell Your Product or Service** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cb62315bebf4e7cab791df3c67804015080d9203fd4dca4be7467cfc47fff497) |
+| *2026-08* | **Tetragon TLS Visibility** | Isovalent | [Verify Record](https://www.credly.com/badges/a3d9f055-17d1-479b-ad6c-730a71fdd982/linked_in_profile) |
+| *2026-08* | **Cilium Host Firewall** | Isovalent | [Verify Record](https://www.credly.com/badges/47e22199-0433-4745-9c12-194fba627617/linked_in_profile) |
+| *2026-08* | **How to Think Strategically** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7373848b0a08c583ba16ee4969b95975d53fd900d4a73ad79fcf33ec5e37496a) |
+| *2026-08* | **Cilium Zero Trust Visibility** | Isovalent | [Verify Record](https://www.credly.com/badges/052c407b-a68b-4e80-9f1d-6f7ea7ce108b/linked_in_profile) |
+| *2026-08* | **Nano Tips for Building a Culture of Calculated Risks with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0c99c8cb2bb0bed6058171904301636179cee92edc02ffb42141e005370d7323) |
+| *2026-08* | **Nano Tips to Lead with Humanity with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f4a1bffacef5eff8fb93b7a51fdfd04c3261046b064af3527fd6e1b27134bc2c) |
+| *2026-08* | **Guy Kawasaki on Entrepreneurship** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a48bc841ac04003a8ebb970537b960715b01b5507c9fc48e81c07770a9a5e2e2) |
+| *2026-08* | **Tetragon Security Visibility** | Isovalent | [Verify Record](https://www.credly.com/badges/8f8c28a6-bdbe-4bb7-a37f-e40d7693a64c/linked_in_profile) |
+| *2026-08* | **Nano Tips for Managing Generational Work Differences with Gen Z with Watchen Nyanue** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a322018ae5792f0f32a7375b3a7b7bf3cd99795fa23c990920b42c939900a503) |
 <!-- LINKEDIN_END -->
 
 
