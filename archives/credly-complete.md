@@ -1,11 +1,12 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 543 records.
+This document represents a unified, verifiable list of all 544 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-15 | [Cilium Multi Networking](https://www.credly.com/badges/b1b71f3f-33ae-4d2b-a02d-42a31937b2a1/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-14 | [Agentless Threat Emulation with AttackIQ Flex v3](https://www.credly.com/badges/063a5019-ef91-46ce-b3ad-6bd1e4bbe8a0/public_url) | issued by AttackIQ | Credly Verified Badge |
 | 2026-08-14 | [Cilium Host Firewall](https://www.credly.com/badges/47e22199-0433-4745-9c12-194fba627617/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-14 | [Cilium Zero Trust Visibility](https://www.credly.com/badges/052c407b-a68b-4e80-9f1d-6f7ea7ce108b/public_url) | issued by Isovalent | Credly Verified Badge |
