@@ -71,11 +71,10 @@ def mark_retired(items: list[dict], retired_urls: set[str], url_field: str = "ur
     marked = 0
     for item in items:
         url = item.get(url_field)
-        if url and url in retired_urls:
-            if not item.get(retired_field, False):
-                item[retired_field] = True
-                marked += 1
-                logger.info(f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'} (URL: {url})")
+        if url and url in retired_urls and not item.get(retired_field, False):
+            item[retired_field] = True
+            marked += 1
+            logger.info(f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'} (URL: {url})")
     logger.info(f"Retired check: {len(items)} items checked, {marked} marked as retired")
     return len(items), marked
 
