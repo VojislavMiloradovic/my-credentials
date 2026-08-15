@@ -349,6 +349,22 @@ def main():
         if marked > 0:
             logger.info(f"📝 Updated {marked} certification(s) with retired status")
 
+    # 3. Persist full data with retired flags to for_validation for link checker
+    validation_dir = "for_validation"
+    os.makedirs(validation_dir, exist_ok=True)
+    validation_file = os.path.join(validation_dir, "linkedin-certifications.json")
+    payload = {
+        "platform": "linkedin-certifications",
+        "total_count": len(certs),
+        "certifications": certs,
+    }
+    try:
+        with open(validation_file, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+        logger.info(f"💾 Full data persisted: '{validation_file}' ({len(certs)} certifications)")
+    except Exception as e:
+        logger.warning(f"⚠️ Could not persist full data: {e}")
+
     total_certs = len(certs)
 
     # 2. Sort: reverse original order first, then reverse issued date (ties broken by position in CSV)

@@ -382,6 +382,35 @@ def main():
         if marked > 0:
             logger.info(f"📝 Updated {marked} verifiable credential(s) with retired status")
 
+    # Also check learning paths against retired URLs
+    if retired_urls:
+        _, marked = mark_retired(learning_paths, retired_urls, url_field="learningPathUid", retired_field="retired")
+        if marked > 0:
+            logger.info(f"📝 Updated {marked} learning path(s) with retired status")
+
+    # Persist full data with retired flags to for_validation for link checker
+    validation_dir = "for_validation"
+    os.makedirs(validation_dir, exist_ok=True)
+    validation_file = os.path.join(validation_dir, "microsoft-learn.json")
+    payload = {
+        "platform": "microsoft-learn",
+        "total_achievements": len(validated_achievements),
+        "total_learning_paths": len(learning_paths),
+        "total_modules": len(modules),
+        "total_completed_units": len(completed_units),
+        "achievements": validated_achievements,
+        "learning_paths": learning_paths,
+        "modules": modules,
+        "completed_units": completed_units,
+        "verifiable_credentials": user_creds,
+    }
+    try:
+        with open(validation_file, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+        logger.info(f"💾 Full data persisted: '{validation_file}'")
+    except Exception as e:
+        logger.warning(f"⚠️ Could not persist full data: {e}")
+
     # Format table rows for archiver
     formatted_rows = []
     for item in sorted_achievements:

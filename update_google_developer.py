@@ -449,6 +449,26 @@ def main():
         if marked > 0:
             logger.info(f"📝 Updated {marked} badge/activity(s) with retired status")
 
+    # Persist full data with retired flags to for_validation for link checker
+    validation_dir = "for_validation"
+    os.makedirs(validation_dir, exist_ok=True)
+    validation_file = os.path.join(validation_dir, "google-developer.json")
+    payload = {
+        "platform": "google-developer",
+        "total_public_badges": len(public_badges),
+        "total_detailed_learnings": len(detailed_learnings),
+        "total_combined": len(combined_feed),
+        "public_badges": public_badges,
+        "detailed_learnings": detailed_learnings,
+        "combined_feed": combined_feed,
+    }
+    try:
+        with open(validation_file, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+        logger.info(f"💾 Full data persisted: '{validation_file}'")
+    except Exception as e:
+        logger.warning(f"⚠️ Could not persist full data: {e}")
+
     # 3. Sort combined entries reverse-chronologically
     combined_feed.sort(
         key=lambda x: x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00",
