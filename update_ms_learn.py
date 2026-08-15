@@ -402,6 +402,29 @@ def main():
         if marked > 0:
             logger.info(f"📝 Updated {marked} learning path(s) with retired status")
 
+    # Propagate retired status from learning paths to matching achievements
+    # Build set of retired URLs from learning paths (normalized)
+    retired_lp_urls = set()
+    for lp in learning_paths:
+        if lp.get("retired"):
+            for field in ["url", "learningPathUid", "learning_path_uid", "learningPathId"]:
+                raw = lp.get(field)
+                if raw:
+                    retired_lp_urls.add(format_verify_url(raw))
+                    break
+
+    # Mark matching achievements as retired
+    if retired_lp_urls:
+        ach_marked = 0
+        for ach in validated_achievements:
+            ach_url = format_verify_url(ach.get("url"))
+            if ach_url and ach_url in retired_lp_urls and not ach.get("retired", False):
+                ach["retired"] = True
+                ach_marked += 1
+                logger.info(f"🏷️  Propagated retired to achievement: {ach.get('title') or ach.get('id')}")
+        if ach_marked > 0:
+            logger.info(f"📝 Propagated retired status to {ach_marked} achievement(s)")
+
     # Persist full data with retired flags to for_validation for link checker
     validation_dir = "for_validation"
     os.makedirs(validation_dir, exist_ok=True)
