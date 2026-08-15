@@ -13,7 +13,7 @@ import re
 import sys
 from collections.abc import Callable
 from datetime import UTC, datetime
-from typing import Any, Optional
+from typing import Any
 
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
