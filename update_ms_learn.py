@@ -128,7 +128,11 @@ def format_verify_url(raw_url: str | None) -> str:
     clean = clean.replace(' ', '')
     if not clean:
         return ""
-    if not clean.startswith("http"):
+    # Handle learning path UID format: learn.viva-glint-360-feedback -> https://learn.microsoft.com/en-us/training/paths/viva-glint-360-feedback
+    if clean.startswith("learn."):
+        path_part = clean[6:]  # Remove "learn." prefix
+        clean = f"https://learn.microsoft.com/en-us/training/paths/{path_part}"
+    elif not clean.startswith("http"):
         if clean.startswith("/"):
             clean = f"https://learn.microsoft.com/en-us{clean}"
         else:
