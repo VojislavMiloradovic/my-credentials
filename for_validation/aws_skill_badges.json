@@ -18,7 +18,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Amazon EKS Pre-assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "923f5242f2ba8c6e",
@@ -36,7 +37,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Amazon Kendra Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "33264bc4e34eaeb1",
@@ -54,7 +56,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Amazon Q Business Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a4a9ac819b0de454",
@@ -72,7 +75,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Amazon Q Introduction"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "625a4b22c480e35a",
@@ -90,7 +94,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Amazon Timestream Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a137bf8f2bb618eb",
@@ -108,7 +113,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Amazon WorkMail Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8b271d20fa5af3e4",
@@ -126,7 +132,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] AWS Fargate - Overview"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "cdabff774155b06b",
@@ -144,7 +151,8 @@
       "verification_type": "Learning plan",
       "skills": [
         "[RETIRED] AWS Graviton - Knowledge Badge Readiness Path"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "73dc52ac0b1c7512",
@@ -162,7 +170,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] AWS Panorama - Building Edge Computer Vision (CV) Applications"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0a3bf0cae93fc606",
@@ -180,7 +189,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Build a migration assessment with AWS Transform"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "68ceeb1c4c3335b3",
@@ -198,7 +208,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "03f43ca726289847",
@@ -216,7 +227,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Building a Machine Learning Ready Organization"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b14c58f2ca2079b4",
@@ -234,7 +246,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Building with MultiModal Knowledge Bases in AWS Bedrock"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "623af301b39e4f95",
@@ -252,7 +265,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "89a81111ef798809",
@@ -270,7 +284,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] CloudEndure Migration Training - Technical"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "becba01b9157ca83",
@@ -288,7 +303,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c21f411e79b7a265",
@@ -306,7 +322,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Generative AI Business Strategy and Solution Design"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "92f11d792cbf384b",
@@ -324,7 +341,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] How Orchestration Works with AI Agents"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "94b556a075740fcd",
@@ -342,7 +360,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Introduction to Amazon CloudFront"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "03e0e93246d46393",
@@ -360,7 +379,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Introduction to Autonomous Driving Data Framework (ADDF) on AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d6e2e337dedd84d9",
@@ -378,7 +398,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Introduction to AWS Global Accelerator"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ee947e36acb173eb",
@@ -396,7 +417,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Introduction to AWS Mainframe Modernization Replatform with NTT Data UniKix"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "40c9c01af5e6ff0a",
@@ -414,7 +436,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Introduction to AWS Security Token Services (STS)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9972bfb8f3cdbc26",
@@ -432,7 +455,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Introduction to AWS Service Catalog"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f049865572d678fc",
@@ -450,7 +474,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Introduction to AWS WAF"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fea3851f3c56cde8",
@@ -468,7 +493,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Introduction to Robotics on AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4ddcef4bb3043420",
@@ -486,7 +512,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Planning an Orchestration System"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "979f33783259ca6a",
@@ -504,7 +531,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Succeeding in the Cloud- Rethinking your Levers"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "33fd480cc73c9c1c",
@@ -522,7 +550,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Use MCP to create AI Agents"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "daaa994d0077f165",
@@ -540,7 +569,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] Using Amazon Q to Enhance Applications and Developer Productivity"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f282aba94fe13a31",
@@ -558,7 +588,8 @@
       "verification_type": "Digital course",
       "skills": [
         "[RETIRED] What are we looking for in an LLM?"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "40ebbd7b5f2fe7ea",
@@ -576,7 +607,8 @@
       "verification_type": "Digital course",
       "skills": [
         "A Day in the Life of an Everyday User with Amazon Quick"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "10b7229ee7cc446f",
@@ -594,7 +626,8 @@
       "verification_type": "Digital course",
       "skills": [
         "A day in the life of CxO with Amazon Quick"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ecb53f2437b7e98a",
@@ -612,7 +645,8 @@
       "verification_type": "Digital course",
       "skills": [
         "A leader's guide to accelerating large-scale migration - AWS re:Invent 2025"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a312d3c53cfa237e",
@@ -630,7 +664,8 @@
       "verification_type": "Digital course",
       "skills": [
         "A leader's guide to advanced team structures in an agentic world - AWS re:Invent 2025"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a2f5891bfc2c6591",
@@ -648,7 +683,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Accelerate foundation model development with one-click observability in Amazon SageMaker HyperPod"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9e1658adbf77580a",
@@ -666,7 +702,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Accelerate Generative AI Inference on Amazon SageMaker AI with G7e Instances"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "aaf7a5f02ee1c0fe",
@@ -684,7 +721,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Adaptive sampling with AWS X-Ray to capture critical spans"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9e2ead78a982a303",
@@ -702,7 +740,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Advanced PostgreSQL for Amazon Aurora and Amazon RDS Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c217c3957b28cd54",
@@ -720,7 +759,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AgentCore Browser: Secure and Scalable Web Automation with Amazon Bedrock"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "182a687ac3cfe44b",
@@ -738,7 +778,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AgentCore Evaluation on Amazon Bedrock"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e964c14bde01fb4a",
@@ -756,7 +797,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Agentic AI Framework Deep Dive - Overview"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "6ec7273b046d7238",
@@ -774,7 +816,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AI Agent Guardrails for Production on AWS | Databases for AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e7d20ec9a5c2916b",
@@ -792,7 +835,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AI Agents: Cognitive Upgrade and Business Efficiency"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "66ef202d4abce9e2",
@@ -810,7 +854,8 @@
       "verification_type": "AWS Assessment",
       "skills": [
         "AI Driven Development Lifecycle Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9349b12f14671b3f",
@@ -828,7 +873,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AI for Everyone: Your First Practical Steps"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "24c703310c3acf0f",
@@ -846,7 +892,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AI-DLC Foundations: Evolution"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5a75c9293597eb81",
@@ -864,7 +911,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AI-DLC Foundations: Operations Deep Dive"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fb0310ce9257c821",
@@ -882,7 +930,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AI-DLC Foundations: Workflow and Collaboration"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "6ef145548ce2ef53",
@@ -900,7 +949,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon API Gateway for Serverless Applications"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d9ecfe83ca0d2971",
@@ -918,7 +968,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Application Recovery Controller Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a8e30fe9172f2844",
@@ -936,7 +987,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon AppStream 2.0 Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4ef3cd25718f9f11",
@@ -954,7 +1006,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Aurora MySQL - Basics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f28f1b48f75ee308",
@@ -972,7 +1025,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Aurora Service Primer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "7fb198257a89fbed",
@@ -990,7 +1044,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Bedrock AgentCore Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "11524c16e5ea4890",
@@ -1008,7 +1063,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Bedrock Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "eec36067e23cc3e9",
@@ -1026,7 +1082,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Bio Discovery: In silico  Experimentation for Drug Discovery"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "66f70c29a5ad70a0",
@@ -1044,7 +1101,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Braket Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "edb56edf8168da1d",
@@ -1062,7 +1120,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Braket Quantum Application Development"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "60e0e48cec075a5d",
@@ -1080,7 +1139,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon CloudFront Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1fe802fcf4ca8e22",
@@ -1098,7 +1158,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon CloudWatch - Troubleshooting"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "6477410f3cbfe8b2",
@@ -1116,7 +1177,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon CloudWatch Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "30dc0e4e36f57893",
@@ -1134,7 +1196,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect - Troubleshooting"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "81dcb5dec234a265",
@@ -1152,7 +1215,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect - Troubleshooting with Amazon CloudWatch"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ec6e5656a9fb7613",
@@ -1170,7 +1234,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Administration"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a34dd9bef465996d",
@@ -1188,7 +1253,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Agent Applications Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a63390efaca73e55",
@@ -1206,7 +1272,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Agent Performance Evaluations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d44b60c848491196",
@@ -1224,7 +1291,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect AI Customer Engagement"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9d271f84f5c28595",
@@ -1242,7 +1310,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect AI Fundamentals Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "45ecba30a29b50a0",
@@ -1260,7 +1329,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect AI Self-Service Capabilities"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d94bb9c745c05e29",
@@ -1278,7 +1348,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect AI Supervisor Capabilities"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "13cc7c161262bb50",
@@ -1296,7 +1367,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect AI Workforce Optimization"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4e2c5cc71b5d4331",
@@ -1314,7 +1386,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Analytics Reporting and Visualizations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "aa2313f0d064696a",
@@ -1332,7 +1405,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect APIs Intermediate"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d4853a15a1319483",
@@ -1350,7 +1424,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Architecture Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "cb541eb35ac1317e",
@@ -1368,7 +1443,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Chat and Messaging Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3d24d0363ea81fc9",
@@ -1386,7 +1462,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Communications Specialist Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "2d4f21d6da250f94",
@@ -1404,7 +1481,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Contact Lens Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "dbb9dcdc81a5097b",
@@ -1422,7 +1500,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Conversational Analytics Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "eb6a7873f6821c08",
@@ -1440,7 +1519,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Conversational Interfaces Intermediate"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "7f9dff2049960324",
@@ -1458,7 +1538,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Custom Contact Control Panel Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ec2faea765555574",
@@ -1476,7 +1557,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Developer Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9e7c7a8ec69a4f5c",
@@ -1494,7 +1576,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Flow Modules and Step-by-Step Guides"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8cbca45ca7025a87",
@@ -1512,7 +1595,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Flows Lambda Integrations Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e251716e7253deb2",
@@ -1530,7 +1614,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Foundations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f5b5265a82a873c0",
@@ -1548,7 +1633,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Fundamentals Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "aeb323a5e122659f",
@@ -1566,7 +1652,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ca801c18d7a4d78d",
@@ -1584,7 +1671,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Instance Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "91bb3820b4d39e09",
@@ -1602,7 +1690,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Introduction"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "562175221eaa7ec1",
@@ -1620,7 +1709,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Metrics & Analytics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b9f3f09bb19eaa57",
@@ -1638,7 +1728,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Operations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d92c8534e9e99c39",
@@ -1656,7 +1747,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Outbound Communications Advanced Campaign Management"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "13fe65063f4dda5f",
@@ -1674,7 +1766,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Outbound Communications Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3ff59a8c820a3493",
@@ -1692,7 +1785,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Outbound Communications Channel Configuration and Setup"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1e45a26cdbaa54f5",
@@ -1710,7 +1804,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Outbound Communications Multi-Channel Campaign Design"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "223119168a3f516b",
@@ -1728,7 +1823,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Outbound Communications Performance Optimization and Analytics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "da4a19818c4d0aeb",
@@ -1746,7 +1842,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Reporting & Analytics - Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5e8c5d36931cdd1b",
@@ -1764,7 +1861,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect Routing Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "dbc8e20211336fff",
@@ -1782,7 +1880,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect: Creating and Managing Amazon Connect Instances"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ca4e72e2c7cea148",
@@ -1800,7 +1899,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect: Implementing Chat in Connect"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "721897ff2d3e92d0",
@@ -1818,7 +1918,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect: Implementing Task on Connect"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0351c9515f598b22",
@@ -1836,7 +1937,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Connect: Introduction to the Administrative Interface"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0f4adf567ca345ae",
@@ -1854,7 +1956,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon DocumentDB (with MongoDB Compatibility) Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "dee3e11f13aaeb50",
@@ -1872,7 +1975,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon DynamoDB - Data Modeling Techniques"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0185f85fc76a02d9",
@@ -1890,7 +1994,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon DynamoDB - Troubleshooting"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1e005e31f39f2ea2",
@@ -1908,7 +2013,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon DynamoDB for Serverless Architectures"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1e57cb90224933eb",
@@ -1926,7 +2032,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon DynamoDB Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0b787d86205e7e34",
@@ -1944,7 +2051,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon DynamoDB Service Primer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9cae16b5728ff0a4",
@@ -1962,7 +2070,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon EC2 Auto Scaling Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f1007d6dbe773af8",
@@ -1980,7 +2089,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon EC2 Basics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f3b27efca992bc0f",
@@ -1998,7 +2108,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon EC2 Observability, Monitoring, and Troubleshooting"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0e1852373d0b6749",
@@ -2016,7 +2127,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon ECR Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "75f3239cb671a5c3",
@@ -2034,7 +2146,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon ECS Auto Scaling and Cost Optimization"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a5d20815f4e33746",
@@ -2052,7 +2165,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon ECS Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "29a38369a651712d",
@@ -2070,7 +2184,8 @@
       "verification_type": "AWS Assessment",
       "skills": [
         "Amazon ECS Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "03a17a6422295bba",
@@ -2088,7 +2203,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon ECS Networking"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b36d78f7825f3914",
@@ -2106,7 +2222,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon ECS Observability"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "114856ecb658951d",
@@ -2124,7 +2241,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon EKS Anywhere Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "79a4deb25b1f44a1",
@@ -2142,7 +2260,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon EKS Deployment Options"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "aef68bee1159b9cf",
@@ -2160,7 +2279,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon EKS Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fee1518c37c3c552",
@@ -2178,7 +2298,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Elastic Block Store (Amazon EBS) Primer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fc7a549387446af9",
@@ -2196,7 +2317,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Elastic Block Store - Troubleshooting"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "563877ea53cd2f6a",
@@ -2214,7 +2336,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Elastic File System (Amazon EFS) Primer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b64f1b45a9dbe5ca",
@@ -2232,7 +2355,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Elastic Kubernetes Service (EKS) Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "7923dfe118d90c98",
@@ -2250,7 +2374,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Elastic VMware Service (Amazon EVS) Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "900618e925494153",
@@ -2268,7 +2393,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon ElastiCache Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a426d99516ac4025",
@@ -2286,7 +2412,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon EMR Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f96d38c40b6ee75c",
@@ -2304,7 +2431,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon FSx for NetApp ONTAP Primer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "53a8c1d47552b9b1",
@@ -2322,7 +2450,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon FSx for Windows File Server Primer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8c31884016022d3e",
@@ -2340,7 +2469,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon FSx Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4f0896ac2851c131",
@@ -2358,7 +2488,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon GuardDuty Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "faaae17357040f7d",
@@ -2376,7 +2507,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon HealthLake Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c0a0104d87d1bb8a",
@@ -2394,7 +2526,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Keyspaces Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b2a681fb4f6c79e2",
@@ -2412,7 +2545,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Lex Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9e868da4d1ba9142",
@@ -2430,7 +2564,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Lightsail Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1439d42a9064d35b",
@@ -2448,7 +2583,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Macie - Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8de466daa1e1c1bc",
@@ -2466,7 +2602,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Managed Blockchain Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b3ed1cf1659804c9",
@@ -2484,7 +2621,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Managed Streaming for Apache Kafka (MSK) Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4f9fe4e9042e9fc1",
@@ -2502,7 +2640,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Neptune Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8306450f9a4c029d",
@@ -2520,7 +2659,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Nova 2 Sonic: Next-Generation Conversational AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8ec9e2f90a7403e5",
@@ -2538,7 +2678,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon OpenSearch Service Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a9eae68d5f401cc3",
@@ -2556,7 +2697,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Partner Network Onboarding"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5e247a65fd4cea7c",
@@ -2574,7 +2716,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Q Developer Command Line Interface (CLI)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "393be29adde76a5b",
@@ -2592,7 +2735,8 @@
       "verification_type": "AWS Assessment",
       "skills": [
         "Amazon Q Developer Fundamentals Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f69a2a6a3c7e3809",
@@ -2610,7 +2754,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Q Developer Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f5ad026d1671ddcb",
@@ -2628,7 +2773,8 @@
       "verification_type": "Learning plan",
       "skills": [
         "Amazon Q Developer Knowledge Badge Readiness Path"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "37510abe3c28019f",
@@ -2646,7 +2792,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Q Developer Transformation"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "044a9a744a91a065",
@@ -2664,7 +2811,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Quick for IT Professionals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f54edf2b21878940",
@@ -2682,7 +2830,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Quick for Marketing Professionals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c97e50e5dd88af97",
@@ -2700,7 +2849,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Quick for Operations Professionals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a8488fd808cbfd08",
@@ -2718,7 +2868,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Quick Fundamentals for Finance Professionals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "178fd83cb1ce6614",
@@ -2736,7 +2887,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Quick Sight Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f376c86206cbf912",
@@ -2754,7 +2906,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Quick: Accelerating the path from enterprise data to AI-powered decisions"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a866a0803f188140",
@@ -2772,7 +2925,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon QuickSight Advanced Business Intelligence Authoring (Part 1)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f7a1e842fbeb2aca",
@@ -2790,7 +2944,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon QuickSight Advanced Business Intelligence Authoring (Part 2)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3a9a44b6dc137f2e",
@@ -2808,7 +2963,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon RDS for MariaDB Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b47a42c2e864869a",
@@ -2826,7 +2982,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon RDS for Oracle Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f4392326861473e7",
@@ -2844,7 +3001,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon RDS for SQL Server Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "7d0be202df748575",
@@ -2862,7 +3020,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon RDS Service Primer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "2a9cb459b3985fc0",
@@ -2880,7 +3039,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Redshift Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "37bfd1577b42d666",
@@ -2898,7 +3058,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Redshift Service Primer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c1cdcf82c8b6fa3f",
@@ -2916,7 +3077,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Route 53 - Basics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "df8cde439f267459",
@@ -2934,7 +3096,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon S3 Files: Native File System Access for Your S3 Data"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "85840c8c2ef4e5ee",
@@ -2952,7 +3115,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon S3 Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ed22d24e4fd8b541",
@@ -2970,7 +3134,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon SageMaker AI Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0d7a5a231c3418aa",
@@ -2988,7 +3153,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon SageMaker Unified Studio - Administrator Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fbb11fc5a3c2de1e",
@@ -3006,7 +3172,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon SageMaker Unified Studio Foundations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "29b46ebeafe7edbc",
@@ -3024,7 +3191,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Security Lake Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c56864c539cac7d9",
@@ -3042,7 +3210,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Simple Notification Service (SNS) Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "6767b88bc72fc79a",
@@ -3060,7 +3229,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Simple Storage Service (Amazon S3) - Troubleshooting"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0e1671596db2a8b1",
@@ -3078,7 +3248,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Simple Storage Service (Amazon S3) Essentials - Beyond the Basics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1078a2209671ef1e",
@@ -3096,7 +3267,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Textract Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "63738918f772a76e",
@@ -3114,7 +3286,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Transcribe Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9ee27119b9c88bca",
@@ -3132,7 +3305,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon WorkSpaces Migrations - Horizon on WorkSpaces Core"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c595c68b709849f8",
@@ -3150,7 +3324,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon WorkSpaces Migrations - Introducing Amazon WorkSpaces Core"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "82137517bd994b2d",
@@ -3168,7 +3343,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon WorkSpaces Migrations - Migration Approaches & Strategy"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f62052b28d5d1b0e",
@@ -3186,7 +3362,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon WorkSpaces Migrations Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5fa70441242b293a",
@@ -3204,7 +3381,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon WorkSpaces Migrations — Additional Partner Offerings on WorkSpaces Core"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "49b50b06172d6cbb",
@@ -3222,7 +3400,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon WorkSpaces Primer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "32cefefdfed80140",
@@ -3240,7 +3419,8 @@
       "verification_type": "Digital course",
       "skills": [
         "An Executive's Guide to Generative AI Success"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "2bfaed763408dfe4",
@@ -3258,7 +3438,8 @@
       "verification_type": "Digital course",
       "skills": [
         "API Gateway Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "49b87a3327ba6f59",
@@ -3276,7 +3457,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Application Load Balancer Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9bc26cd52d7184a5",
@@ -3294,7 +3476,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Approach to Mainframe Migration and Modernization"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "50db250aa16c6465",
@@ -3312,7 +3495,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Auditing Amazon Simple Storage Service (Amazon S3) Security"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3f0035d9231de82a",
@@ -3330,7 +3514,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Authentication and Authorization with AWS Identity and Access Management"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4541523e959bf7b3",
@@ -3348,7 +3533,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Automated Security Response in AWS: Disabling Compromised Active Directory Users"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "32cc26d3017261fa",
@@ -3366,7 +3552,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Automating Cloud Security Posture Management on AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d895bdba1d951f8b",
@@ -3384,7 +3571,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Automating with AI/ML for Small Business Owners"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b98711b04dd4ce9a",
@@ -3402,7 +3590,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Automation with Amazon Nova Act"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e02261a18ac74ba7",
@@ -3420,7 +3609,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS AI Chips - Trainium and Inferentia Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "6aca4beac26d49c4",
@@ -3438,7 +3628,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Audit Manager Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "250715eb8fbd9989",
@@ -3456,7 +3647,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Batch Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "6c3e0fca7c1df146",
@@ -3474,7 +3666,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Billing and Cost Management"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c1f1766ced5c97eb",
@@ -3492,7 +3685,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Block Storage Services Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e027151edfd92b10",
@@ -3510,7 +3704,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Certification Subject Matter Expert Training"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "bda9fd0ad7f1e348",
@@ -3528,7 +3723,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Cloud Development Kit (CDK) Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "208319c3500861eb",
@@ -3546,7 +3742,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Cloud Economics for Banking"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fad19ece806a732b",
@@ -3564,7 +3761,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Cloud Economics for Healthcare"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "feef25c95b026827",
@@ -3582,7 +3780,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Cloud Economics for Startups"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4fcd6a226fa785ef",
@@ -3600,7 +3799,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Cloud Essentials for Business Leaders"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5f44e081a0133db8",
@@ -3618,7 +3818,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Cloud Essentials for Business Leaders (Financial Services)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "7bc30c29fe053641",
@@ -3636,7 +3837,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Cloud Essentials for Business Leaders - Telecommunications"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ce9573702c980296",
@@ -3654,7 +3856,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Cloud for absolute beginners"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f4ef9c9e9401d6ef",
@@ -3672,7 +3875,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Cloud for Finance Professionals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "48125a7e69e49a2d",
@@ -3690,7 +3894,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Cloud Practitioner Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "cdb006fc48d74062",
@@ -3708,7 +3913,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Cloud Practitioner Power Hour - Overview and Cloud Concepts"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "7874f9ae7bcdd0f4",
@@ -3726,7 +3932,8 @@
       "verification_type": "AWS Cloud Quest",
       "skills": [
         "AWS Cloud Quest: Cloud Practitioner"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "65c761f2aa377f9a",
@@ -3744,7 +3951,8 @@
       "verification_type": "AWS Cloud Quest",
       "skills": [
         "AWS Cloud Quest: Generative AI Practitioner"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "70704136b5fde02e",
@@ -3762,7 +3970,8 @@
       "verification_type": "AWS Cloud Quest",
       "skills": [
         "AWS Cloud Quest: Recertify Cloud Practitioner"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "dba546690b94aca5",
@@ -3780,7 +3989,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS CloudFormation Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8850084a9e2aa998",
@@ -3798,7 +4008,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS CloudFormation Stacks - Troubleshooting"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "59a552879476cb67",
@@ -3816,7 +4027,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS CloudTrail Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "eeb41baa438262a0",
@@ -3834,7 +4046,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS CloudTrail Lake Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0738cf0b7d356b01",
@@ -3852,7 +4065,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS CodeArtifact Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1ad063ff7b565f29",
@@ -3870,7 +4084,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS CodeBuild Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "77c1209899225fd4",
@@ -3888,7 +4103,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS CodeDeploy Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a0d7ad759a83dec7",
@@ -3906,7 +4122,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS CodePipeline Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "32609e9784125a9c",
@@ -3924,7 +4141,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Command Line Interface (AWS CLI) Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "01e155681542361c",
@@ -3942,7 +4160,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Command Line Interface (CLI) Basics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "89819ecf07bbdade",
@@ -3960,7 +4179,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Compute Services Overview"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "776f99cf7913fd33",
@@ -3978,7 +4198,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Config Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f80aca69270bc5ce",
@@ -3996,7 +4217,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Control Tower Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "21240d3298c28fc1",
@@ -4014,7 +4236,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS costs estimation using Amazon Q CLI and AWS Pricing MCP Server"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8e6179ea6cd288f2",
@@ -4032,7 +4255,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Database Migration Service (AWS DMS) Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b797350777a76b9b",
@@ -4050,7 +4274,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Database Migration Service Best Practices - Planning"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1c215e2b46ca7669",
@@ -4068,7 +4293,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Database Migration Service Overview"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "cc8494df1439f30a",
@@ -4086,7 +4312,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Database Offerings"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f0d936ffc34bd719",
@@ -4104,7 +4331,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Directory Service Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "316217cec9033d36",
@@ -4122,7 +4350,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Edge Storage, Data Transfer, and File Transfer Services Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ef388d3632667fe5",
@@ -4140,7 +4369,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Elastic Disaster Recovery Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5cdead0b73b45967",
@@ -4158,7 +4388,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Elemental Link - Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "6b57c107e9762f4f",
@@ -4176,7 +4407,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Elemental Live - Foundations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "857e587a25d71ec6",
@@ -4194,7 +4426,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Elemental Statmux"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8d878c0d8a7183cb",
@@ -4212,7 +4445,8 @@
       "verification_type": "Learning plan",
       "skills": [
         "AWS End User Computing - Knowledge Badge Readiness Path"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "03535db13357e2e8",
@@ -4230,7 +4464,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS End User Messaging SMS Foundations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a35a395c19059df3",
@@ -4248,7 +4483,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Fargate Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ba175e25d79eacad",
@@ -4266,7 +4502,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS File Storage Services Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fc1c115f344a8647",
@@ -4284,7 +4521,8 @@
       "verification_type": "Learning plan",
       "skills": [
         "AWS for Games: Cloud Game Development - Knowledge Badge Readiness Path"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0814e3ecf30fe7ac",
@@ -4302,7 +4540,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS for Media & Entertainment Content Production Learning Plan Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0b9246b5a9c0c08a",
@@ -4320,7 +4559,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS for Media & Entertainment Content Production Security Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ca58cb84f2d8ea0b",
@@ -4338,7 +4578,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS for Media & Entertainment Post-Production Workflow Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "88daa7f9a93f55d0",
@@ -4356,7 +4597,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS for RISE with SAP Introduction"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a8b7172c02c76853",
@@ -4374,7 +4616,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS for SAP - Cost Optimization Strategies"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0a3348365603b588",
@@ -4392,7 +4635,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS for SAP - Generative AI Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c9c8bbfe17c2178a",
@@ -4410,7 +4654,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS for SAP Cloud ERP Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "029c6c27b7e42d20",
@@ -4428,7 +4673,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS for VMware Administrators"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0a53b1fd597c9e1e",
@@ -4446,7 +4692,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Foundations: Getting Started with the AWS Cloud Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "bad389aac049a535",
@@ -4464,7 +4711,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Foundations: How Amazon SageMaker Can Help"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fd46f5157f6c68da",
@@ -4482,7 +4730,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Foundations: Machine Learning Basics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "75107a82b7b171e1",
@@ -4500,7 +4749,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Glue Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "71f9076fddba77c8",
@@ -4518,7 +4768,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Graviton Processors Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "52e2ccc441e3764f",
@@ -4536,7 +4787,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Graviton: Performance and Migration Best Practices"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "41d6b61af6099eb4",
@@ -4554,7 +4806,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Identity and Access Management (IAM) - Troubleshooting"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "521754bdf5c3d73a",
@@ -4572,7 +4825,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Identity and Access Management - Architecture and Terminology"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c521f5b7f186f8e1",
@@ -4590,7 +4844,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Identity and Access Management - Basics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "24e08e3f0f3c4e28",
@@ -4608,7 +4863,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Identity and Access Management - Cognito Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a0ca2f12e9d6ea16",
@@ -4626,7 +4882,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Identity and Access Management - Identity Center Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "22d20dbd7466d29d",
@@ -4644,7 +4901,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Interconnect - last mile Connectivity Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f9f6048394ca2210",
@@ -4662,7 +4920,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Interconnect - multicloud Connectivity Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8140a3afd08a49dc",
@@ -4680,7 +4939,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS IPv6 Application Networking and Internet Edge Connectivity"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "70ddd8d211da6c87",
@@ -4698,7 +4958,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS IPv6 Fundamentals and VPC Connectivity"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "cd5b0b58e54a33eb",
@@ -4716,7 +4977,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Lake Formation Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "cde0e9bd9a1faa17",
@@ -4734,7 +4996,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Lambda Foundations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0959e6298736117e",
@@ -4752,7 +5015,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Lambda Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "22c68413d8834475",
@@ -4770,7 +5034,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Migration Evaluator Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "689a6ebe6f8563d1",
@@ -4788,7 +5053,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Migration Hub Primer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4814e570c4012b51",
@@ -4806,7 +5072,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Networking Basics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4be10c8b85c9aee2",
@@ -4824,7 +5091,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Observability"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a80261687dd222b2",
@@ -4842,7 +5110,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Organizations Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9007a0211b2cdfc5",
@@ -4860,7 +5129,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Secrets Manager Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1bb0699feca1b748",
@@ -4878,7 +5148,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Security Agent: Securing Applications design to deployment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "27424b6e2ceafb86",
@@ -4896,7 +5167,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Security Best Practices: Monitoring and Alerting"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fe1ce905ede35cde",
@@ -4914,7 +5186,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Security Best Practices: Network Infrastructure"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f663339a62693d91",
@@ -4932,7 +5205,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Security Best Practices: Overview"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f57245923cce1cee",
@@ -4950,7 +5224,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Security Champion Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b37a18d476f92481",
@@ -4968,7 +5243,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Security Hub Extended"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b4847d21203c46bc",
@@ -4986,7 +5262,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Security Incident Response - User Training"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3db1a471e0f1c797",
@@ -5004,7 +5281,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Security Incident Response Overview"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "78ded78370830529",
@@ -5022,7 +5300,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Security – Encryption Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "80a0229d625f05b2",
@@ -5040,7 +5319,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Security: Securing Generative AI on AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4eb9f56f2c706a10",
@@ -5058,7 +5338,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Shared Responsibility Model"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "cdb58e744e552a3d",
@@ -5076,7 +5357,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Simple Queue Service (SQS) Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4186209eae3c3bc4",
@@ -5094,7 +5376,8 @@
       "verification_type": "Learning plan",
       "skills": [
         "AWS SimuLearn: AI Practitioner"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5e78be8cf84fd883",
@@ -5112,7 +5395,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: AI-Assisted Development with Kiro"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5fd84c02947ae871",
@@ -5130,7 +5414,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Auto-Healing and Scaling Applications"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "dc111df38e3d97c4",
@@ -5148,7 +5433,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Build and Understand Code with Amazon Q"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e3381ccfdc607d6c",
@@ -5166,7 +5452,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Cloud Computing Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "05541febe18f90a5",
@@ -5184,7 +5471,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Cloud Economics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "7dab769c912a5fdc",
@@ -5202,7 +5490,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Cloud First Steps"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "2e3727642694b01c",
@@ -5220,7 +5509,8 @@
       "verification_type": "Learning plan",
       "skills": [
         "AWS SimuLearn: Cloud Practitioner"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f150244145734013",
@@ -5238,7 +5528,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Computing Solutions"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3682b43089027a11",
@@ -5256,7 +5547,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Connecting VPCs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "50ecb90faf79b696",
@@ -5274,7 +5566,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Core Security Concepts"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "faafd5638e3cb254",
@@ -5292,7 +5585,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Create an AI Smart Assistant"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a88d69d6124f3ddb",
@@ -5310,7 +5604,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Create an Enterprise Knowledge Assistant"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c81ed5a401793283",
@@ -5328,7 +5623,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Databases in Practice"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "cd4ee4ce9f41a59b",
@@ -5346,7 +5642,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Explore the Amazon Bedrock Playgrounds"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d344c2cb1d221ee2",
@@ -5364,7 +5661,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: File Systems in the Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e4d0540676806670",
@@ -5382,7 +5680,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: First NoSQL Database"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9e1aa9271765c77d",
@@ -5400,7 +5699,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Generate Code for a Webpage"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "979a676c5e8f8b3e",
@@ -5418,7 +5718,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Get Started with Generative AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3315487dc5c27ec8",
@@ -5436,7 +5737,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Highly Available Web Applications"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3476399034847382",
@@ -5454,7 +5756,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Networking Concepts"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "51a2fd50d4c7a41a",
@@ -5472,7 +5775,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Secure Conversational AI with Guardrails"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9ebb022e7f989b1b",
@@ -5490,7 +5794,8 @@
       "verification_type": "AWS SimuLearn",
       "skills": [
         "AWS SimuLearn: Use AI Services with Amazon SageMaker"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c01e96eecb2b37b2",
@@ -5508,7 +5813,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Skill Builder Learner Guide"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "23b95f21e81c2f2d",
@@ -5526,7 +5832,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Snowball Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "04cffac55d5c2859",
@@ -5544,7 +5851,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Step Functions Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8ba93ec6a81b37da",
@@ -5562,7 +5870,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Storage Services - Portfolio Introduction"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1642135e1ffa8997",
@@ -5580,7 +5889,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Technical Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9ade661c0be95094",
@@ -5598,7 +5908,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Tools to Develop, Run, and Modernize .NET Workloads"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e9512367782d7c76",
@@ -5616,7 +5927,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Trainium Development Environment Setup"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f160bae45e472ed3",
@@ -5634,7 +5946,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Transfer Family Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5b1f0efc4b149c8b",
@@ -5652,7 +5965,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Transform for .NET - Beyond the Basics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "291d6da9b70c9b57",
@@ -5670,7 +5984,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Transform for .NET Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "05ac1dffbad5c634",
@@ -5688,7 +6003,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Transform for mainframe Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8636c645a659a799",
@@ -5706,7 +6022,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Transform for VMware Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f05ac68847009f50",
@@ -5724,7 +6041,8 @@
       "verification_type": "AWS Assessment",
       "skills": [
         "AWS Transform Fundamentals Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5bdc7962e54e3c55",
@@ -5742,7 +6060,8 @@
       "verification_type": "Learning plan",
       "skills": [
         "AWS Transform Knowledge Badge Readiness Path"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ab01b4b47eca34a4",
@@ -5760,7 +6079,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Transform MGN Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3b2741215ee47538",
@@ -5778,7 +6098,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Transit Gateway - Troubleshooting"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e76034631512274c",
@@ -5796,7 +6117,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Well-Architected Foundations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b3070b0dbc76f3a2",
@@ -5814,7 +6136,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Wickr Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b9f9e4e73e89d4a8",
@@ -5832,7 +6155,8 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS X-Ray Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1c50acef7fa03075",
@@ -5850,7 +6174,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Batch Processing at Scale With Amazon Bedrock"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ce8d47cbf686461d",
@@ -5868,7 +6193,8 @@
       "verification_type": "AWS Assessment",
       "skills": [
         "Block Storage Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a8a6915ead48d072",
@@ -5886,7 +6212,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "52bce7207762e8bc",
@@ -5904,7 +6231,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "21c023a284541d1a",
@@ -5922,7 +6250,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Build an intelligent photo search using Amazon Rekognition, Amazon Neptune, and Amazon Bedrock"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "6ff257ad8dbafa23",
@@ -5940,7 +6269,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Build Strands Agents with SageMaker AI models and MLflow"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1b7630eaf9b5dd6b",
@@ -5958,7 +6288,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Build with AgentCore Policy"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "42449d8a9c439c2a",
@@ -5976,7 +6307,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Build with Amazon API Gateway"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "94a3bf1d5ab430c1",
@@ -5994,7 +6326,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Build With Amazon DocumentDB (with MongoDB compatibility)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0b32d39b6b6e015a",
@@ -6012,7 +6345,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Build with Amazon FSx for OpenZFS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5a24812f181d2332",
@@ -6030,7 +6364,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Build with Amazon Kinesis Data Streams"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b696c8187f70071c",
@@ -6048,7 +6383,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Build with Amazon MemoryDB for Redis"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1282ed1897260f61",
@@ -6066,7 +6402,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Build with AWS Security Hub CSPM"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "2ef7c6b6ebab3ed4",
@@ -6084,7 +6421,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Build your first GraphRAG Powered Agent with Amazon Neptune (No Graph Expert Required)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "7ee5929d721cd06e",
@@ -6102,7 +6440,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Building a Generative AI-Ready Organization"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ec2f83b0f3bf7d73",
@@ -6120,7 +6459,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Building AI Agent Harnesses with Strands Agents"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d73dc96036cef2ac",
@@ -6138,7 +6478,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Building AWS Solutions: Scale-Out Computing on AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d250ba790eef4ddf",
@@ -6156,7 +6497,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Building cost-effective RAG applications with Amazon Bedrock Knowledge Bases and Amazon S3 Vectors"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f4785b94f65dec88",
@@ -6174,7 +6516,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Building hybrid multi-tenant architecture for stateful services on AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0aa67f8974a28ccc",
@@ -6192,7 +6535,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Building intelligent event agents using Amazon Bedrock AgentCore and Amazon Bedrock Knowledge Bases"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4bb6e96fdc8843a3",
@@ -6210,7 +6554,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Building Retrieval Augmented Generation (RAG) workflows with Amazon OpenSearch Service"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9c0fd13d061e3d34",
@@ -6228,7 +6573,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Building Safe and Responsible Generative AI Applications with Amazon Bedrock Guardrails"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8bdccfcdc1c53557",
@@ -6246,7 +6592,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Building Safe Generative AI Applications with Amazon Bedrock Guardrails"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "139293edd83c2239",
@@ -6264,7 +6611,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Building the Mainframe Modernization Business Case"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f3ec1c9ed240d8d5",
@@ -6282,7 +6630,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Building web search-enabled agents with Strands and Exa"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "67115efb8986dafd",
@@ -6300,7 +6649,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Building with Custom Agents in Amazon Quick"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "260d8a35a2ec1a33",
@@ -6318,7 +6668,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Choosing Serverless Containers for .NET"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1d9d80ff071cf6c9",
@@ -6336,7 +6687,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Cloud Audit Academy - Cloud Agnostic"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c019b208efd02f05",
@@ -6354,7 +6706,8 @@
       "verification_type": "Learning plan",
       "skills": [
         "Cloud Essentials - Knowledge Badge Readiness Path  (includes Labs)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a0b5b548b204da6a",
@@ -6372,7 +6725,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Cloud Essentials for Business Leaders – Healthcare and Life Sciences"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "2e0cd213c0ec36b2",
@@ -6390,7 +6744,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Cloud Essentials Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b4c0839dbcccf942",
@@ -6408,7 +6763,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Cloud Financial Management: FinOps for GenAI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "6609502374b78ee5",
@@ -6426,7 +6782,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f3205443d2cc80bf",
@@ -6444,7 +6801,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Cloud for CMOs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b7942c1e094f93d4",
@@ -6462,7 +6820,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Cloud for Risk and Compliance Executives"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3271df5c97a0ae70",
@@ -6480,7 +6839,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Cloud for Small Business Owners"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "33f33a24ca49192b",
@@ -6498,7 +6858,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Cloud Game Development Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "21ca7230905f5af8",
@@ -6516,7 +6877,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Cloud Migration for Small Business Owners"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b7ec5a9c08fc125d",
@@ -6534,7 +6896,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Compute Cost Optimization Services"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "47ab1a52ff627af9",
@@ -6552,7 +6915,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Compute Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9e7d9b8eb96213ea",
@@ -6570,7 +6934,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Confidential Computing with AWS Compute"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "31be896b336079be",
@@ -6588,7 +6953,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Configuring and Deploying VPCs with Multiple Subnets"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "dd8b6161cf0d9cd2",
@@ -6606,7 +6972,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Connecting Systems and Machines to AWS for Industrial Manufacturing"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d8de1d084552ab8e",
@@ -6624,7 +6991,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Contact Lens Advanced Analytics & Optimization"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8195de7ee6dcd67c",
@@ -6642,7 +7010,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Context extraction from image files in Amazon Q Business using LLMs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3777c782c69aa48f",
@@ -6660,7 +7029,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Cost Optimization Solutions for FinOps (Part 2)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a83acc1ac35fe6fa",
@@ -6678,7 +7048,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Customization in Amazon Q Developer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "20c1b3f37055afec",
@@ -6696,7 +7067,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Cybersecurity for Small Business Owners"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "923116fb2c5282ce",
@@ -6714,7 +7086,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Data Engineering on AWS - Foundations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4d117877909f76b4",
@@ -6732,7 +7105,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Data Migration Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "7d6862cb5423bf90",
@@ -6750,7 +7124,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Data Modeling for Amazon ElastiCache for Redis"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f2e66473292bcf6e",
@@ -6768,7 +7143,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Data Modeling for Amazon Neptune"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "10aa9e38708242f2",
@@ -6786,7 +7162,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Data Protection and Disaster Recovery Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "11e416026d8df240",
@@ -6804,7 +7181,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Deep Dive: Amazon Elastic Block Store (Amazon EBS) Cost Optimization"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3e4676c6df061335",
@@ -6822,7 +7200,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Deep Dive: Managing and Monitoring Amazon Elastic Block Store (Amazon EBS)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "695a9072a8ba9ed7",
@@ -6840,7 +7219,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Deploying a Workload on Amazon ECS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e789ac1861b69e40",
@@ -6858,7 +7238,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Deploying custom Terraform to LZA-Managed Accounts with AFT"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "cf2aa668f8029068",
@@ -6876,7 +7257,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Deploying Serverless Applications"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d4eda8a5e47da1bb",
@@ -6894,7 +7276,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Designing AI Strategies for SAP on AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b4a08cb50b6468dc",
@@ -6912,7 +7295,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Designing Event-Driven Architectures"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "242a819a9a2ee9bb",
@@ -6930,7 +7314,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Designing Landing Zone Architectures with AWS Control Tower"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8921ea480a6337fa",
@@ -6948,7 +7333,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Designing Multi-VPC Architectures with Transit Gateway and Network Firewall"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "642ea807aa436719",
@@ -6966,7 +7352,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Designing Secure Retrieval Augmented Generation (RAG) Applications with AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "454bc1f4d05c666f",
@@ -6984,7 +7371,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Developer Tooling for AWS Step Functions"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e63a1fccbfd9c20c",
@@ -7002,7 +7390,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Developing Generative Artificial Intelligence Solutions"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "893f7271f1de75af",
@@ -7020,7 +7409,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Developing Machine Learning Solutions"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "2c32c5623012e335",
@@ -7038,7 +7428,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Developing with Amazon MQ"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a2a497c63e79ca4f",
@@ -7056,7 +7447,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Differences Between Security Groups and NACLs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4966980af8cd3cdf",
@@ -7074,7 +7466,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Differentiation for Independent Software Vendors (ISV)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1a3bf063d9cc0b2b",
@@ -7092,7 +7485,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Differentiation for System Integrators (SI)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9a7167f6c1930e57",
@@ -7110,7 +7504,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Digital Rights Management and the SPEKE Protocol in Video Workflows"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "26ec6ce12a8d5027",
@@ -7128,7 +7523,8 @@
       "verification_type": "Certification Exam Preparation",
       "skills": [
         "Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ca40969be16e25f5",
@@ -7146,7 +7542,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Drive organizational growth with Amazon Lex multi-developer CI/CD pipeline"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c375315f1694f48e",
@@ -7164,7 +7561,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Elastic Load Balancing (ELB) - Troubleshooting"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8990f9287cc9296f",
@@ -7182,7 +7580,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Elastic Load Balancing (ELB) Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b361c883384a6569",
@@ -7200,7 +7599,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Embed Amazon Quick chat agents in enterprise applications"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d26fe1a727cc8372",
@@ -7218,7 +7618,8 @@
       "verification_type": "Digital course",
       "skills": [
         "End User Computing on AWS - Introductory Course"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5910964478bc8351",
@@ -7236,7 +7637,8 @@
       "verification_type": "Digital course",
       "skills": [
         "End User Computing on AWS - Service Architecture"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4dce32a6aa52ca75",
@@ -7254,7 +7656,8 @@
       "verification_type": "AWS Assessment",
       "skills": [
         "End User Computing on AWS Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0947b02952665f4e",
@@ -7272,7 +7675,8 @@
       "verification_type": "Digital course",
       "skills": [
         "End User Computing on AWS – Advanced Topics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5c294a8ffd87ef91",
@@ -7290,7 +7694,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Essentials of Prompt Engineering"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fa379bdc0baf6953",
@@ -7308,7 +7713,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Evaluating generative AI models with Amazon Nova LLM-as-a-Judge on Amazon SageMaker AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fdf629b5fe1d6392",
@@ -7326,7 +7732,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Events and Workflows Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "934379ebfdbb31e6",
@@ -7344,7 +7751,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Events and Workflows Pre-assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0d4eb4b26f6344e7",
@@ -7362,7 +7770,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Explore the value and benefits of SAP Cloud ERP on AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "2e9b00acd5c74119",
@@ -7380,7 +7789,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Exploring Amazon Nova models using Amazon Bedrock"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b9603a6140475760",
@@ -7398,7 +7808,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Exploring Artificial Intelligence Use Cases and Applications"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8d22004f2629d058",
@@ -7416,7 +7827,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Extended Thinking with Amazon Nova"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "58868a5c48bc61e2",
@@ -7434,7 +7846,8 @@
       "verification_type": "Digital course",
       "skills": [
         "File Storage Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "da331bb6a600a94b",
@@ -7452,7 +7865,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Foundations of Prompt Engineering"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1aa7e01af834d614",
@@ -7470,7 +7884,8 @@
       "verification_type": "Digital course",
       "skills": [
         "From Punch Card to Cloud: A Brief History of Mainframe Modernization"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0a4b207b3553388e",
@@ -7488,7 +7903,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Fundamentals of Amazon Aurora"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "20db2e9780efceaf",
@@ -7506,7 +7922,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Fundamentals of Amazon RDS for PostgreSQL"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d97d5aa6f0aadcf6",
@@ -7524,7 +7941,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Fundamentals of Analytics on AWS – Part 1"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fde7187ff8767606",
@@ -7542,7 +7960,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Fundamentals of Analytics on AWS – Part 2"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f28807f1bf736da0",
@@ -7560,7 +7979,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Fundamentals of Generative AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "96dbbfd1233f0465",
@@ -7578,7 +7998,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Fundamentals of Machine Learning and Artificial Intelligence"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8700ea94b582abb1",
@@ -7596,7 +8017,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Funding Programs for Independent Software Vendors (ISV)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4ee0b023b1149ae5",
@@ -7614,7 +8036,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Game development infrastructure simplified with AWS Game Dev Toolkit"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3e9b29391c05b6b7",
@@ -7632,7 +8055,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Gateway Load Balancer Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "18de9d48908fc940",
@@ -7650,7 +8074,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Generate dashboards from natural language prompts in Amazon Quick"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f336e448b7e8063b",
@@ -7668,7 +8093,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Generate structured output from LLMs with Dottxt Outlines in AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "7d5fd0f6958d26b1",
@@ -7686,7 +8112,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Generative AI for Executives"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "73501f2532f6b6b8",
@@ -7704,7 +8131,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Generative BI with Amazon Q in Quicksight - Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "2142aae738d99e68",
@@ -7722,7 +8150,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting into the Serverless Mindset"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "14678dc7fd81073c",
@@ -7740,7 +8169,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with Administering Amazon Quick Suite"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f7abc17f9da83904",
@@ -7758,7 +8188,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with Amazon Augmented AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "832f204e8389a5e6",
@@ -7776,7 +8207,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with Amazon Aurora DSQL"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3805d8c79ff63dfe",
@@ -7794,7 +8226,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with Amazon Bedrock Managed Knowledge Bases"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "794624f77921ce26",
@@ -7812,7 +8245,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting started with Amazon Connect Customer's agentic CX designer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c477b3b3af95f1e0",
@@ -7830,7 +8264,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with Amazon MemoryDB for Redis"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1d6ce12b5589cce0",
@@ -7848,7 +8283,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with Amazon Route 53 Global Resolver"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "bd45fa31f3bfd7ce",
@@ -7866,7 +8302,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with Amazon Verified Permissions"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "cbfd1e5190f6b731",
@@ -7884,7 +8321,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with AWS Auto Scaling"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c5a7fbd45b0874f1",
@@ -7902,7 +8340,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with AWS Clean Rooms"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5b69d67345a18560",
@@ -7920,7 +8359,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with AWS Elemental MediaConnect"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "08ff6273d4bc5ae9",
@@ -7938,7 +8378,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with AWS for Games – Part I"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c507cb98f65addd3",
@@ -7956,7 +8397,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with AWS for Games – Part II"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e9d2f4fd1eb0df21",
@@ -7974,7 +8416,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with AWS IoT"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e881991448b41ce7",
@@ -7992,7 +8435,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with AWS RTB Fabric"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9b4b0006db8783f6",
@@ -8010,7 +8454,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with AWS Storage"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b4a6722f127b4904",
@@ -8028,7 +8473,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with AWS Support"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3784cd0348dd1cfe",
@@ -8046,7 +8492,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with AWS Transform"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "bae193309181ca32",
@@ -8064,7 +8511,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with AWS Transform for Mainframe Refactor"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fb595a1272eba63d",
@@ -8082,7 +8530,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with Bottlerocket"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e33d734a6b1bdb6c",
@@ -8100,7 +8549,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with Cloud Acquisition"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "738ae1c50077b5ff",
@@ -8118,7 +8568,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with DevOps on AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "224f96c6f43c5eb8",
@@ -8136,7 +8587,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Getting Started with Migration Hub Refactor Spaces"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "437dc6bfa76c393b",
@@ -8154,7 +8606,8 @@
       "verification_type": "Digital course",
       "skills": [
         "GitLab Duo with Amazon Q"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4da5c7be83b92f80",
@@ -8172,7 +8625,8 @@
       "verification_type": "Digital course",
       "skills": [
         "GitOps for Amazon EKS Automation"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8dbe3cebd0257879",
@@ -8190,7 +8644,8 @@
       "verification_type": "Digital course",
       "skills": [
         "How Amazon Quick Works for Your Role"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3f0cb6dfb76100a4",
@@ -8208,7 +8663,8 @@
       "verification_type": "Digital course",
       "skills": [
         "How AutoScout24 built a Bot Factory to standardize AI agent development with Amazon Bedrock"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1de437bdc2b8504e",
@@ -8226,7 +8682,8 @@
       "verification_type": "Digital course",
       "skills": [
         "How AWS Step Functions Work"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "7bdd042462bc9b5d",
@@ -8244,7 +8701,8 @@
       "verification_type": "Digital course",
       "skills": [
         "How the Amazon AMET Payments team accelerates test case generation with Strands Agents"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "6aac3434e623674c",
@@ -8262,7 +8720,8 @@
       "verification_type": "Digital course",
       "skills": [
         "How to Find Hidden Data Relationships in Your S3 Data - with Amazon Neptune"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e3a1066b1e674937",
@@ -8280,7 +8739,8 @@
       "verification_type": "Digital course",
       "skills": [
         "IBM z/OS Essentials (Technical)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4ed930bfd4c5bd97",
@@ -8298,7 +8758,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Identifying security risks using AWS Cost and Usage Report data"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e9cbef9643b8eb01",
@@ -8316,7 +8777,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Innovation Sandbox on AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9c03a321fff096c4",
@@ -8334,7 +8796,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Installing AWS Outposts Servers"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "99bd0bbf9c523189",
@@ -8352,7 +8815,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Instance Isolation with Elastic Network Interfaces"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "43ff168d1adc7841",
@@ -8370,7 +8834,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Integrate Atlassian Confluence Cloud with Amazon Quick"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "99c8c2684992351a",
@@ -8388,7 +8853,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Integrating WhatsApp Business Messaging with AWS: Foundations for Developers"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "635ff7612f6b532a",
@@ -8406,7 +8872,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introducing Agentic Toolkit for AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a8b43f83fc791764",
@@ -8424,7 +8891,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introducing granular cost attribution for Amazon Bedrock"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "7d1df6a792afe05e",
@@ -8442,7 +8910,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introducing Intelligent Cost Explanations in AWS Cost Explorer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e9f9a6c336b9746b",
@@ -8460,7 +8929,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introducing OpenTelemetry and PromQL support in Amazon CloudWatch"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0858fefabb101fb7",
@@ -8478,7 +8948,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AgentCore Harness"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "be4f696c2455275b",
@@ -8496,7 +8967,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Agentic AI on AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b1d1e690b72743e8",
@@ -8514,7 +8986,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AI-Driven Development Lifecycle"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "327ba7afd7594bfb",
@@ -8532,7 +9005,8 @@
       "verification_type": "AWS Builder Lab",
       "skills": [
         "Introduction to Amazon API Gateway"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "63f2e7797bee812f",
@@ -8550,7 +9024,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon Athena"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1061236f9a4b4a3b",
@@ -8568,7 +9043,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon Aurora PostgreSQL Limitless Database"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "bd248572719209c2",
@@ -8586,7 +9062,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon Bedrock AgentCore Policy Security Capabilities"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "2d87b3bf4cdebd96",
@@ -8604,7 +9081,8 @@
       "verification_type": "AWS Builder Lab",
       "skills": [
         "Introduction to Amazon CloudFront"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "2e229a9ccde9f0ae",
@@ -8622,7 +9100,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon CloudFront - Part 1"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b00394eaaa7fb228",
@@ -8640,7 +9119,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon CloudWatch Logs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ed8aa09f064314f7",
@@ -8658,7 +9138,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon CloudWatch Logs Insights"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ebb2a44800cbfd64",
@@ -8676,7 +9157,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon Connect and the Connect Control Panel (CCP)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1f36bf5d4302142c",
@@ -8694,7 +9176,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon Connect Conversational Analytics for Email"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "76a1c7d239f42793",
@@ -8712,7 +9195,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon Connect Decisions"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "15a210d797885db0",
@@ -8730,7 +9214,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon Connect Health"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d60703b046654108",
@@ -8748,7 +9233,8 @@
       "verification_type": "AWS Builder Lab",
       "skills": [
         "Introduction to Amazon EC2"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c5d67b65b9bf0c70",
@@ -8766,7 +9252,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon EC2 G7 Instances"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ee4704a0087abd60",
@@ -8784,7 +9271,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon OpenSearch optimized for log analytics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9333946395c91331",
@@ -8802,7 +9290,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon Q Developer (Technical)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ee6432635829c31b",
@@ -8820,7 +9309,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon Quick Suite"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d9e929a31e0afe05",
@@ -8838,7 +9328,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon S3 Files"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b374f83360b71838",
@@ -8856,7 +9347,8 @@
       "verification_type": "AWS Builder Lab",
       "skills": [
         "Introduction to Amazon Simple Storage Service (S3)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9eabd0c13cc59557",
@@ -8874,7 +9366,8 @@
       "verification_type": "AWS Builder Lab",
       "skills": [
         "Introduction to Amazon Virtual Private Cloud (VPC)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ef0c2a17d75f2962",
@@ -8892,7 +9385,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Amazon VPC Lattice"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5fd94fb04550fe31",
@@ -8910,7 +9404,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS AI Factories"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a680886c0f5c5f67",
@@ -8928,7 +9423,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Application Migration Service"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4ff3ff10bc8eb573",
@@ -8946,7 +9442,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Auto Scaling"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0f7278a56ac515ff",
@@ -8964,7 +9461,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Cloud Game Development"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ccafcc3909dade10",
@@ -8982,7 +9480,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Continuum"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "884d598c3b6561d9",
@@ -9000,7 +9499,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS DevOps Agent"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1c19d7d508e9ba4f",
@@ -9018,7 +9518,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Elemental MediaConnect"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "2bb9d86cd17bdb73",
@@ -9036,7 +9537,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS End User Computing Services"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "658d97512d0f9c3f",
@@ -9054,7 +9556,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS European Sovereign Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b8500282e66e964e",
@@ -9072,7 +9575,8 @@
       "verification_type": "AWS Builder Lab",
       "skills": [
         "Introduction to AWS Identity and Access Management (IAM)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5bd8517372ad02b9",
@@ -9090,7 +9594,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Identity and Access Management (IAM)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3c4edf8403689afb",
@@ -9108,7 +9613,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Inferentia and Amazon EC2 Inf1 Instances"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e92523341e042e62",
@@ -9126,7 +9632,8 @@
       "verification_type": "AWS Builder Lab",
       "skills": [
         "Introduction to AWS Key Management Service"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5d6913bd98c1ab51",
@@ -9144,7 +9651,8 @@
       "verification_type": "AWS Builder Lab",
       "skills": [
         "Introduction to AWS Lambda"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "271badc03a543cbd",
@@ -9162,7 +9670,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Lambda MicroVMs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c04a7a774b326496",
@@ -9180,7 +9689,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Management Console"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "35f8a4a8183fff10",
@@ -9198,7 +9708,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Media Services by Use Case"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8c83b796f13cb9fd",
@@ -9216,7 +9727,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Neuron"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "51c55add70733801",
@@ -9234,7 +9746,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Resilience Hub"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8ef52295b08e6d3d",
@@ -9252,7 +9765,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Solutions"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "59d1e60854b42085",
@@ -9270,7 +9784,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Transform - continuous modernization"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b800b9a7f58352c2",
@@ -9288,7 +9803,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Transform assessments"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "214ca735e0d3ef9f",
@@ -9306,7 +9822,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Transform custom"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8a6a4e35607f2bea",
@@ -9324,7 +9841,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to AWS Transform for full-stack Windows modernization"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f558c2c14d965c32",
@@ -9342,7 +9860,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Building apps in Amazon Quick"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "83f09829660a4db3",
@@ -9360,7 +9879,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Building with AWS Databases"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "dcd945b305f273ee",
@@ -9378,7 +9898,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Container Basics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "aaa9feda51f54c1e",
@@ -9396,7 +9917,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Containers"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "232f88c8ace94293",
@@ -9414,7 +9936,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Custom Agents in Amazon Quick"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1a2dae2a218b5262",
@@ -9432,7 +9955,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Database Migration"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1a5d258fb957eb93",
@@ -9450,7 +9974,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Decoupled Applications"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "80c61421d17a1830",
@@ -9468,7 +9993,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Esri on AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "bd15155a5a2a56f8",
@@ -9486,7 +10012,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Generative AI - Art of the Possible"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b86cfddb255e7a19",
@@ -9504,7 +10031,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Kiro powers"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "09a48f790de17ba8",
@@ -9522,7 +10050,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Machine Learning: Art of the Possible"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1247105f022fa60e",
@@ -9540,7 +10069,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to next generation of Amazon OpenSearch Serverless"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "274e8ef7cc90c2d0",
@@ -9558,7 +10088,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to SageMaker Unified Studio - Local IDE VS Code and Kiro Integration"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5de61fc59f1ab242",
@@ -9576,7 +10107,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to Serverless Development"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "678ebb047f5550f8",
@@ -9594,7 +10126,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to the Amazon Quick on desktop"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e39becdc21bc678a",
@@ -9612,7 +10145,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to the AWS Cloud Adoption Framework (CAF)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0545d2825f85a31e",
@@ -9630,7 +10164,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Introduction to the AWS Sustainability service"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ffdf0de2540f15aa",
@@ -9648,7 +10183,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Job Roles in the Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "6743db2af5134323",
@@ -9666,7 +10202,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Kick off Nova customization experiments using Nova Forge SDK"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b7048f6d45b54a60",
@@ -9684,7 +10221,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Kiro for GeoAI - Spec-Driven Geospatial Development"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0975cb739210ce4f",
@@ -9702,7 +10240,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Kiro in Action: A Developer's Walkthrough"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f17a53eaa2a68f17",
@@ -9720,7 +10259,8 @@
       "verification_type": "AWS Builder Lab",
       "skills": [
         "Lab - Introduction to Amazon DynamoDB"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "42ca4d9de20750cc",
@@ -9738,7 +10278,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Landing Zone Accelerator on AWS (LZA)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "b160eb8b5d2e038e",
@@ -9756,7 +10297,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Machine Learning Essentials for Business and Technical Decision Makers"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "833bbae4376c7c25",
@@ -9774,7 +10316,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Machine Learning Exam Basics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e3358472d26712d7",
@@ -9792,7 +10335,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Mainframe Modernization Patterns and Best Practices"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5559d1cb238df4ad",
@@ -9810,7 +10354,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Making Better Decisions with Data for Small Business Owners"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "08e78a0ecc2b4210",
@@ -9828,7 +10373,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Malware analysis on AWS: Setting up a secure environment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4355f10b38d8f795",
@@ -9846,7 +10392,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Managing Operations on AWS with Amazon Q Developer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fef477cbf27385aa",
@@ -9864,7 +10411,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Mastering Model Evaluation in Amazon Bedrock:  From Basics to Best Practices"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a7b6a089672b921c",
@@ -9882,7 +10430,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Media & Entertainment: Direct-to-Consumer and Broadcast Foundations Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ef770260967c42ca",
@@ -9900,7 +10449,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Media Glossary"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8fe6f94e21f9fa3b",
@@ -9918,7 +10468,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Migrating from Amazon CodeCatalyst"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1ec9b94bd0cf6b7a",
@@ -9936,7 +10487,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Migrating to Amazon MQ for RabbitMQ"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "08a694d9f3e47407",
@@ -9954,7 +10506,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Migrating VMware Workloads to AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e0ed5c9d39aefba9",
@@ -9972,7 +10525,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Migration Foundations Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e1c9432a603e389a",
@@ -9990,7 +10544,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Modernizing KYC with AWS serverless solutions and agentic AI for financial services"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "63bfdd6de9899320",
@@ -10008,7 +10563,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Monitor .NET applications using Amazon CloudWatch Application Signals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "effe60a762196e0a",
@@ -10026,7 +10582,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Monitor Python applications using Amazon CloudWatch Application Signals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9f43c54715209dfd",
@@ -10044,7 +10601,8 @@
       "verification_type": "Digital course",
       "skills": [
         "MVCC in PostgreSQL and Vacuum Internals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e15e771b6d6a5b13",
@@ -10062,7 +10620,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Network Load Balancer (NLB) Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "856375ca78d79842",
@@ -10080,7 +10639,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Networking Core Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "41cff612697869c4",
@@ -10098,7 +10658,8 @@
       "verification_type": "AWS Assessment",
       "skills": [
         "Object Storage Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "8864d5bf2d1cb32e",
@@ -10116,7 +10677,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Observability for AWS Step Functions"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ab3850fe7a35884f",
@@ -10134,7 +10696,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Optimizing Foundation Models"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "95433a5f1351e7d7",
@@ -10152,7 +10715,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Penetration Testing for Everyone: Autonomous Security with AWS Security Agent"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d1edc85921120ce8",
@@ -10170,7 +10734,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Performance Tuning on Amazon DocumentDB"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fc9941485040328e",
@@ -10188,7 +10753,8 @@
       "verification_type": "AWS Builder Lab",
       "skills": [
         "Performing a Basic Audit of your AWS Environment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "bdba24ad46ccf59b",
@@ -10206,7 +10772,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Planning a Generative AI Project"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "fb0ddfe0c7ccf41d",
@@ -10224,7 +10791,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Planning a Machine Learning Project"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "02ed3e2394e96d66",
@@ -10242,7 +10810,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Planning and Validating Mainframe Modernization with AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "77e20c5b484ee9e2",
@@ -10260,7 +10829,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Planning Large Scale Data Migrations to AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4fed28847f1e3555",
@@ -10278,7 +10848,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Prompt Engineering with Amazon Q Developer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "952c8a0c0d81d191",
@@ -10296,7 +10867,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Prompting Amazon Nova 2 for content moderation"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4eadaad60c213f25",
@@ -10314,7 +10886,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Protecting Your Instance with Security Groups"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "4c116f60ee9357be",
@@ -10332,7 +10905,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Query Amazon Aurora PostgreSQL using Amazon Bedrock Knowledge Bases structured data"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0eec736a1c4de9c9",
@@ -10350,7 +10924,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Referencing Your Own Secrets in Amazon Bedrock AgentCore Identity"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "968f20a4260b3333",
@@ -10368,7 +10943,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Responsible Artificial Intelligence Practices"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0676f58148bc365e",
@@ -10386,7 +10962,8 @@
       "verification_type": "Digital course",
       "skills": [
         "SaaS Business Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "aacf32fb2b7bbc6b",
@@ -10404,7 +10981,8 @@
       "verification_type": "Digital course",
       "skills": [
         "SaaS Technical Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "22f85da0545e6d79",
@@ -10422,7 +11000,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Secure AI agents with Amazon Bedrock AgentCore Identity on Amazon ECS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "0c0c611b421e4ea3",
@@ -10440,7 +11019,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Security Incident Response: The customer’s journey to accelerating the incident response lifecycle"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f1f7fff017c6edd6",
@@ -10458,7 +11038,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Security, Compliance, and Governance for AI Solutions"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "84c5ea5e6bb33771",
@@ -10476,7 +11057,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Selecting your Data Migration Strategy with AWS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "eca2e835ab1f8673",
@@ -10494,7 +11076,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Sensitive Data Detection with Amazon Macie"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5c41bce86dfb9b31",
@@ -10512,7 +11095,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Serverless Knowledge Badge Assessment"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "f4c3ad6871f7a8b1",
@@ -10530,7 +11114,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Setup Amazon Q Developer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "3bf27ffc6cb66ffe",
@@ -10548,7 +11133,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Simplify AWS Control Tower governance with enhanced AWS CloudFormation Hooks"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "dedd313bd5caa452",
@@ -10566,7 +11152,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Simplifying Prometheus metrics collection across your AWS infrastructure"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "30738ffec19e47f0",
@@ -10584,7 +11171,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Software Development with Amazon Q Developer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "c708cfbd8f55014b",
@@ -10602,7 +11190,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Spec-Driven Development with Kiro"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "bcfc002665e45fdb",
@@ -10620,7 +11209,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Speech-to-Speech Workflows with Nova Sonic"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "1988f3e5dc750818",
@@ -10638,7 +11228,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Subnets, Gateways, and Route Tables Explained"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9020af7ed4b5bfef",
@@ -10656,7 +11247,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Sustainability Strategies with Generative AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "24d50c4b512a3310",
@@ -10674,7 +11266,8 @@
       "verification_type": "Digital course",
       "skills": [
         "The Associate Cert Playbook: Your 12 month plan for all 5 Associate Certs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e65eb3fa9ae09316",
@@ -10692,7 +11285,8 @@
       "verification_type": "Digital course",
       "skills": [
         "The Cloud Architect Role in the AWS Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9ae679428c2599a9",
@@ -10710,7 +11304,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Threat Modeling for Builders Workshop"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "13294fb4f6ce8304",
@@ -10728,7 +11323,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Transform live video for mobile audiences with AWS Elemental Inference"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a61d4deea3281320",
@@ -10746,7 +11342,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Understanding Amazon EBS Volume Encryption"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "a653977661ed85f4",
@@ -10764,7 +11361,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Understanding AWS Networking Gateways"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "d402a9cc9ab4a5f4",
@@ -10782,7 +11380,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Understanding Placement Groups"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "e6874af468f3b1e6",
@@ -10800,7 +11399,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Unleashing Agentic AI Analytics on Amazon SageMaker with Amazon Athena and Amazon Quick"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "ebe0810b0282b474",
@@ -10818,7 +11418,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Unlocking Telecom Innovation with AWS: NFVI, CNFI, and Generative AI Use Cases"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "9a7efca50721e57f",
@@ -10836,7 +11437,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Using AWS Solutions: AWS Cloud Migration Factory"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "bb109a2b2a68ddf3",
@@ -10854,7 +11456,8 @@
       "verification_type": "Digital course",
       "skills": [
         "VectorDB vs GraphDB for Gen AI Agents"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "cb14110639d48023",
@@ -10872,7 +11475,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Video Streaming Concepts: AWS Media Services"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "5040fa2034435648",
@@ -10890,7 +11494,8 @@
       "verification_type": "Digital course",
       "skills": [
         "Web Search on Amazon Bedrock AgentCore"
-      ]
+      ],
+      "retired": false
     }
   ]
 }
