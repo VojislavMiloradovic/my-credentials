@@ -24,9 +24,8 @@ jobs:
           restore-keys: |
             lychee-${{ runner.os }}-
 
-      - name: Build Retired URL Exclude Pattern
-        id: retired-urls
-        run: python build_exclude.py >> $GITHUB_OUTPUT
+      - name: Build .lycheeignore from retired URLs
+        run: python build_exclude.py
 
       - name: Run Lychee Link Checker
         uses: lycheeverse/lychee-action@v2
@@ -34,7 +33,6 @@ jobs:
           args: >
             --config lychee.toml
             --exclude "(linkedin\.com/in/|credly\.com/users/)"
-            ${{ steps.retired-urls.outputs.exclude_pattern != '' && format('--exclude \"{0}\"', steps.retired-urls.outputs.exclude_pattern) || '' }}
             "README.md" "llms.txt" "llms-full.txt" "archive/*.md" "archives/*.md"
           fail: false
         env:
