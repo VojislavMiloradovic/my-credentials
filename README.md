@@ -15,13 +15,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 5,993,250
+- **Total Experience Points (XP):** 5,995,950
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,900
+- **Badges Earned (Profile):** 3,902
 - **Trophies Earned (Profile):** 905
 - **Completed Learning Paths (Active Tracker):** 514
-- **Completed Modules (Active Tracker):** 2,655
-- **Completed Individual Units:** 35,619
+- **Completed Modules (Active Tracker):** 2,657
+- **Completed Individual Units:** 35,638
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -32,8 +32,10 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,805 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-08-part-95.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-95.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,807 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-08-part-95.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-95.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
+- **Introduction to Azure SRE Agent** (Modules | Earned: 2026-08-15 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-sre-agent/))
+- **Understand how Project Perception coordinates security operations** (Modules | Earned: 2026-08-15 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-orientation/))
 - **Active Directory Domain Services authentication and Kerberos hardening** (Modules | Earned: 2026-08-11 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/active-directory-authentication-kerberos/))
 - **Ingest data into Customer Insights - Data** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/ingest-data-customer-insights/))
 - **Get started with Dynamics 365 Customer Insights - Data** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/get-started-customer-data-platform/))
@@ -42,8 +44,6 @@ Showing latest 10 of 4,805 achievements. View full dataset via [Platform Archive
 - **Work with data in Python** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/work-with-data-python/))
 - **What is Project Perception?** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-introduction/))
 - **Install and configure Visual Studio Code** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/install-configure-visual-studio-code-python/))
-- **Add decision-making to your code** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/add-decision-making-python/))
-- **Understand advanced Windows Firewall** (Modules | Earned: 2026-08-06 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/understand-advanced-windows-firewall/))
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials
