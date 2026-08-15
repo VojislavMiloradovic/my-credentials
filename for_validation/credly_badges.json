@@ -1,6 +1,6 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 541,
+  "total_count": 543,
   "badges": [
     {
       "id": "063a5019-ef91-46ce-b3ad-6bd1e4bbe8a0",
@@ -20,6 +20,30 @@
         "Breach and Attack Simulation",
         "Penetration Testing",
         "Threat-Informed Defense"
+      ]
+    },
+    {
+      "id": "47e22199-0433-4745-9c12-194fba627617",
+      "title": "Cilium Host Firewall",
+      "name": "Cilium Host Firewall",
+      "issuer": "issued by Isovalent",
+      "issuer_name": "issued by Isovalent",
+      "issued_at": "2026-08-14",
+      "issued_at_date": "2026-08-14",
+      "date": "2026-08-14",
+      "image_url": "https://images.credly.com/images/a923b479-e09d-4c3f-b6af-a046ae8792d0/tempfile20260507-62-madd45.png",
+      "verify_url": "https://www.credly.com/badges/47e22199-0433-4745-9c12-194fba627617/public_url",
+      "url": "https://www.credly.com/badges/47e22199-0433-4745-9c12-194fba627617/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "Containers",
+        "eBPF",
+        "Firewall",
+        "Kubernetes",
+        "Open Source",
+        "Security"
       ]
     },
     {
@@ -138,6 +162,32 @@
         "Kubernetes",
         "Security",
         "Tetragon"
+      ]
+    },
+    {
+      "id": "a3d9f055-17d1-479b-ad6c-730a71fdd982",
+      "title": "Tetragon TLS Visibility",
+      "name": "Tetragon TLS Visibility",
+      "issuer": "issued by Isovalent",
+      "issuer_name": "issued by Isovalent",
+      "issued_at": "2026-08-14",
+      "issued_at_date": "2026-08-14",
+      "date": "2026-08-14",
+      "image_url": "https://images.credly.com/images/400a2f5c-ceb5-443f-b41f-da5de6958415/tempfile20250605-81-7ghk25.png",
+      "verify_url": "https://www.credly.com/badges/a3d9f055-17d1-479b-ad6c-730a71fdd982/public_url",
+      "url": "https://www.credly.com/badges/a3d9f055-17d1-479b-ad6c-730a71fdd982/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "Containers",
+        "eBPF",
+        "Enterprise",
+        "Hubble",
+        "Kubernetes",
+        "Security",
+        "Tetragon",
+        "TLS"
       ]
     },
     {
