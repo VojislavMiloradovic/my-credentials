@@ -1,7 +1,8 @@
-import json
 import glob
-import sys
+import json
 import re
+import sys
+
 
 retired = []
 for f in glob.glob('for_validation/*.json'):
