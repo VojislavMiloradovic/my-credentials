@@ -11,8 +11,9 @@ import logging
 import os
 import re
 import sys
+from collections.abc import Callable
 from datetime import UTC, datetime
-from typing import Any, Callable, Optional
+from typing import Any, Optional
 
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
@@ -60,7 +61,7 @@ def load_retired_urls(platform: str) -> set[str]:
         logger.warning(f"⚠️ Could not load retired URLs for {platform}: {e}")
         return set()
 
-def mark_retired(items: list[dict], retired_urls: set[str], url_field: str = "url", retired_field: str = "retired", normalize_url: Optional[Callable[[str], str]] = None) -> tuple[int, int]:
+def mark_retired(items: list[dict], retired_urls: set[str], url_field: str = "url", retired_field: str = "retired", normalize_url: Callable[[str], str] | None = None) -> tuple[int, int]:
     """Mark items as retired if their URL matches known retired URLs.
     Returns (total_checked, total_marked)."""
     if not retired_urls:
