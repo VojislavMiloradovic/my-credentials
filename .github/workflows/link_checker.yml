@@ -34,7 +34,7 @@ jobs:
           args: >
             --config lychee.toml
             --exclude "(linkedin\.com/in/|credly\.com/users/)"
-            ${{ steps.retired-urls.outputs.exclude_pattern != '' && format('--exclude \"{0}\"', steps.retired-urls.outputs.exclude_pattern) || '' }}
+            ${{ steps.retired-urls.outputs.exclude_pattern != '' && format('--exclude {0}', steps.retired-urls.outputs.exclude_pattern) || '' }}
             "README.md" "llms.txt" "llms-full.txt" "archive/*.md" "archives/*.md"
           fail: false
         env:

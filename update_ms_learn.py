@@ -60,18 +60,20 @@ def load_retired_urls(platform: str) -> set[str]:
         logger.warning(f"⚠️ Could not load retired URLs for {platform}: {e}")
         return set()
 
-def mark_retired(items: list[dict], retired_urls: set[str], url_field: str = "url", retired_field: str = "retired") -> tuple[int, int]:
+def mark_retired(items: list[dict], retired_urls: set[str], url_field: str = "url", retired_field: str = "retired", normalize_url: callable | None = None) -> tuple[int, int]:
     """Mark items as retired if their URL matches known retired URLs.
     Returns (total_checked, total_marked)."""
     if not retired_urls:
         return len(items), 0
     marked = 0
     for item in items:
-        url = item.get(url_field)
-        if url and url in retired_urls and not item.get(retired_field, False):
-            item[retired_field] = True
-            marked += 1
-            logger.info(f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'} (URL: {url})")
+        raw_url = item.get(url_field)
+        if raw_url:
+            url = normalize_url(raw_url) if normalize_url else raw_url
+            if url and url in retired_urls and not item.get(retired_field, False):
+                item[retired_field] = True
+                marked += 1
+                logger.info(f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'} (URL: {url})")
     logger.info(f"Retired check: {len(items)} items checked, {marked} marked as retired")
     return len(items), marked
 
@@ -387,7 +389,7 @@ def main():
 
     # Also check learning paths against retired URLs
     if retired_urls:
-        _, marked = mark_retired(learning_paths, retired_urls, url_field="url", retired_field="retired")
+        _, marked = mark_retired(learning_paths, retired_urls, url_field="url", retired_field="retired", normalize_url=format_verify_url)
         if marked > 0:
             logger.info(f"📝 Updated {marked} learning path(s) with retired status")
 
