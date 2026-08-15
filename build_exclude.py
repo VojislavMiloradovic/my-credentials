@@ -11,14 +11,24 @@ for f in glob.glob('for_validation/*.json'):
 
         # Handle different formats:
         # 1. Fingerprint format: {"fingerprints": {...}} - skip
-        # 2. Full data format: {"badges": [...]} or {"badges": [...], "profile_id": ...} or list
+        # 2. Full data format: varies by platform
         if isinstance(data, dict):
             if 'fingerprints' in data:
                 continue  # Skip fingerprint baseline files
-            if 'badges' in data:
-                items = data['badges']
-            else:
-                items = data.values() if all(isinstance(v, dict) for v in data.values()) else []
+
+            # Platform-specific item arrays
+            items = []
+            for key in ('badges', 'achievements', 'learning_paths', 'certifications', 'combined_feed', 'public_badges', 'detailed_learnings'):
+                if key in data and isinstance(data[key], list):
+                    items.extend(data[key])
+
+            # Also check for nested structures like {"verifiable_credentials": [...], "user_creds": [...]}
+            for key in ('verifiable_credentials', 'user_creds', 'userCredentials'):
+                if key in data and isinstance(data[key], list):
+                    items.extend(data[key])
+
+            if not items:
+                continue
         elif isinstance(data, list):
             items = data
         else:

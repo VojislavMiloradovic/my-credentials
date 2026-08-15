@@ -116,6 +116,9 @@ def format_verify_url(raw_url: str | None) -> str:
     if not raw_url or not isinstance(raw_url, str):
         return ""
     clean = raw_url.strip()
+    # Remove trailing " program/" and any spaces that break URLs
+    clean = re.sub(r'\s+program/?$', '', clean)
+    clean = clean.replace(' ', '')
     if not clean:
         return ""
     if not clean.startswith("http"):
@@ -384,7 +387,7 @@ def main():
 
     # Also check learning paths against retired URLs
     if retired_urls:
-        _, marked = mark_retired(learning_paths, retired_urls, url_field="learningPathUid", retired_field="retired")
+        _, marked = mark_retired(learning_paths, retired_urls, url_field="url", retired_field="retired")
         if marked > 0:
             logger.info(f"📝 Updated {marked} learning path(s) with retired status")
 
