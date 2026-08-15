@@ -43,6 +43,40 @@ except ImportError:
     execute_content_loss_guard = None
     PipelineDataLossAnomaly = Exception
 
+# Retired URL mapping
+RETIRED_URLS_FILE = "retired_urls.json"
+
+def load_retired_urls(platform: str) -> set[str]:
+    """Load retired URLs for a platform from the mapping file."""
+    if not os.path.exists(RETIRED_URLS_FILE):
+        logger.debug(f"Retired URLs file not found: {RETIRED_URLS_FILE}")
+        return set()
+    try:
+        with open(RETIRED_URLS_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        urls = set(data.get(platform, []))
+        logger.info(f"Loaded {len(urls)} retired URL(s) for {platform}")
+        return urls
+    except Exception as e:
+        logger.warning(f"⚠️ Could not load retired URLs for {platform}: {e}")
+        return set()
+
+def mark_retired(items: list[dict], retired_urls: set[str], url_field: str = "url", retired_field: str = "retired") -> tuple[int, int]:
+    """Mark items as retired if their URL matches known retired URLs.
+    Returns (total_checked, total_marked)."""
+    if not retired_urls:
+        return len(items), 0
+    marked = 0
+    for item in items:
+        url = item.get(url_field)
+        if url and url in retired_urls:
+            if not item.get(retired_field, False):
+                item[retired_field] = True
+                marked += 1
+                logger.info(f"🏷️  Marked as retired: {item.get('name') or item.get('id') or 'unknown'} (URL: {url})")
+    logger.info(f"Retired check: {len(items)} items checked, {marked} marked as retired")
+    return len(items), marked
+
 # Logging Setup
 logging.basicConfig(
     level=logging.INFO,
@@ -111,6 +145,7 @@ class LinkedInCertModel(BaseModel):
     url: str = Field("", description="Verification URL")
     license: str = Field("", description="License or Credential ID")
     original_order: int = Field(0, description="Original index in CSV for tie-breaking")
+    retired: bool = Field(False, description="Whether the content has been retired by the platform")
 
     @field_validator("issued", mode="before")
     @classmethod
@@ -307,6 +342,13 @@ def main():
             logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
             sys.exit(1)
 
+    # 2. Retired URL detection
+    retired_urls = load_retired_urls("linkedin-certifications")
+    if retired_urls:
+        _, marked = mark_retired(certs, retired_urls, url_field="url")
+        if marked > 0:
+            logger.info(f"📝 Updated {marked} certification(s) with retired status")
+
     total_certs = len(certs)
 
     # 2. Sort: reverse original order first, then reverse issued date (ties broken by position in CSV)
@@ -325,6 +367,8 @@ def main():
             if c["url"]
             else (c["license"] if c["license"] else "Verified Account Entry")
         )
+        if c.get("retired", False):
+            ref += " ⚠️ *Content retired*"
         row_text = f"| {c['issued']} | **{clean_name}** | {clean_auth} | {ref} |"
         formatted_rows.append((row_text, c["issued"]))
 

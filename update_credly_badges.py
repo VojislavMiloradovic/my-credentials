@@ -43,6 +43,40 @@ except ImportError:
     execute_content_loss_guard = None
     PipelineDataLossAnomaly = Exception
 
+# Retired URL mapping
+RETIRED_URLS_FILE = "retired_urls.json"
+
+def load_retired_urls(platform: str) -> set[str]:
+    """Load retired URLs for a platform from the mapping file."""
+    if not os.path.exists(RETIRED_URLS_FILE):
+        logger.debug(f"Retired URLs file not found: {RETIRED_URLS_FILE}")
+        return set()
+    try:
+        with open(RETIRED_URLS_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        urls = set(data.get(platform, []))
+        logger.info(f"Loaded {len(urls)} retired URL(s) for {platform}")
+        return urls
+    except Exception as e:
+        logger.warning(f"⚠️ Could not load retired URLs for {platform}: {e}")
+        return set()
+
+def mark_retired(items: list[dict], retired_urls: set[str], url_field: str = "verify_url", retired_field: str = "retired") -> tuple[int, int]:
+    """Mark items as retired if their URL matches known retired URLs.
+    Returns (total_checked, total_marked)."""
+    if not retired_urls:
+        return len(items), 0
+    marked = 0
+    for item in items:
+        url = item.get(url_field)
+        if url and url in retired_urls:
+            if not item.get(retired_field, False):
+                item[retired_field] = True
+                marked += 1
+                logger.info(f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'} (URL: {url})")
+    logger.info(f"Retired check: {len(items)} items checked, {marked} marked as retired")
+    return len(items), marked
+
 # Logging Setup
 logging.basicConfig(
     level=logging.INFO,
@@ -148,6 +182,7 @@ class CredlyBadgeItemModel(BaseModel):
     type: str = Field("Credly Verified Badge", description="Classification type")
     verification_type: str = Field("Credly Verified Badge", description="Verification category")
     skills: list[str] = Field(default_factory=list, description="Associated skills")
+    retired: bool = Field(False, description="Whether the content has been retired by the platform")
 
     @field_validator("issued_at", "issued_at_date", "date", mode="before")
     @classmethod
@@ -467,6 +502,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
         verify_url = b.get("verify_url")
         issuer = str(b.get("issuer") or "Credly").strip()
         v_type = str(b.get("type") or "Credly Verified Badge").strip()
+        retired = b.get("retired", False)
 
         for skill in b.get("skills", []):
             if isinstance(skill, str) and skill.strip():
@@ -477,6 +513,8 @@ def build_archives_and_readme(badges: list[dict]) -> None:
         v_type_clean = v_type.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
 
         name_cell = f"[{title_clean}]({verify_url})" if verify_url else title_clean
+        if retired:
+            name_cell += " ⚠️ *Content retired*"
         row_text = f"| {date_str} | {name_cell} | {issuer_clean} | {v_type_clean} |"
         formatted_rows.append((row_text, date_str))
 
@@ -570,7 +608,7 @@ def main():
     else:
         unique_badges = merge_badge_datasets(native_badges, external_badges)
 
-    # 3. Anomaly & Loss Guard Assertion - Content-Aware
+# 3. Anomaly & Loss Guard Assertion - Content-Aware
     #    Uses stable Credly badge IDs (UUIDs) and content hashes to detect
     #    replacement/modification even when total badge count remains stable.
     if execute_content_loss_guard:
@@ -592,7 +630,14 @@ def main():
             logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
             sys.exit(1)
 
-    # 4. Pydantic Payload Validation & File Dump strictly into for_validation/
+    # 4. Retired URL detection
+    retired_urls = load_retired_urls("credly")
+    if retired_urls:
+        _, marked = mark_retired(unique_badges, retired_urls, url_field="verify_url")
+        if marked > 0:
+            logger.info(f"📝 Updated {marked} badge(s) with retired status")
+
+    # 5. Pydantic Payload Validation & File Dump strictly into for_validation/
     payload_dict = {
         "credly_user": CREDLY_USER,
         "total_count": len(unique_badges),

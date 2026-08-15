@@ -38,6 +38,7 @@ JSONLD_SCHEMA = {
                             "identifier": {"type": "string"},
                             "dateCreated": {"type": "string"},
                             "expires": {"type": "string"},
+                            "credentialStatus": {"type": "string"},
                             "recognizedBy": {
                                 "type": "object",
                                 "properties": {
@@ -140,6 +141,7 @@ def parse_archive_monoliths():
             description = ""
             image_url = ""
             cred_id = ""
+            retired = False
 
             for idx, col in enumerate(cols):
                 col_header = header_cols[idx] if idx < len(header_cols) else ""
@@ -184,6 +186,10 @@ def parse_archive_monoliths():
                 if id_match and not cred_id:
                     cred_id = id_match.group(1)
 
+                # Detect retired marker
+                if "Content retired" in col or "retired" in col.lower():
+                    retired = True
+
             if not title and cols:
                 for col in cols:
                     c_clean = clean_str(col)
@@ -211,6 +217,8 @@ def parse_archive_monoliths():
                     c_obj["dateCreated"] = date_earned
                 if url:
                     c_obj["url"] = url
+                if retired:
+                    c_obj["credentialStatus"] = "Retired"
 
                 credentials.append(c_obj)
                 count += 1

@@ -42,6 +42,40 @@ except ImportError:
     execute_content_loss_guard = None
     PipelineDataLossAnomaly = Exception
 
+# Retired URL mapping
+RETIRED_URLS_FILE = "retired_urls.json"
+
+def load_retired_urls(platform: str) -> set[str]:
+    """Load retired URLs for a platform from the mapping file."""
+    if not os.path.exists(RETIRED_URLS_FILE):
+        logger.debug(f"Retired URLs file not found: {RETIRED_URLS_FILE}")
+        return set()
+    try:
+        with open(RETIRED_URLS_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        urls = set(data.get(platform, []))
+        logger.info(f"Loaded {len(urls)} retired URL(s) for {platform}")
+        return urls
+    except Exception as e:
+        logger.warning(f"⚠️ Could not load retired URLs for {platform}: {e}")
+        return set()
+
+def mark_retired(items: list[dict], retired_urls: set[str], url_field: str = "url", retired_field: str = "retired") -> tuple[int, int]:
+    """Mark items as retired if their URL matches known retired URLs.
+    Returns (total_checked, total_marked)."""
+    if not retired_urls:
+        return len(items), 0
+    marked = 0
+    for item in items:
+        url = item.get(url_field)
+        if url and url in retired_urls:
+            if not item.get(retired_field, False):
+                item[retired_field] = True
+                marked += 1
+                logger.info(f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'} (URL: {url})")
+    logger.info(f"Retired check: {len(items)} items checked, {marked} marked as retired")
+    return len(items), marked
+
 # Logging Setup
 logging.basicConfig(
     level=logging.INFO,
@@ -169,6 +203,7 @@ class MSAchievementModel(BaseModel):
     category: str = Field("module")
     grantedOn: str = Field("N/A")
     url: str | None = Field(None)
+    retired: bool = Field(False)
 
     @field_validator("grantedOn", mode="before")
     @classmethod
@@ -189,6 +224,7 @@ class MSVerifiableCredentialModel(BaseModel):
     sourceUid: str = Field("")
     awardedOn: str = Field("N/A")
     credentialStatus: str = Field("Active")
+    retired: bool = Field(False)
 
     @field_validator("awardedOn", mode="before")
     @classmethod
@@ -274,7 +310,14 @@ def main():
         except ValidationError as ve:
             logger.warning(f"⚠️ Skipping invalid achievement entry: {ve}")
 
-    # 2. Execute Content-Aware Loss Guard against stored baseline
+    # 2. Retired URL detection (Microsoft Learn)
+    retired_urls = load_retired_urls("microsoft-learn")
+    if retired_urls:
+        _, marked = mark_retired(validated_achievements, retired_urls, url_field="url")
+        if marked > 0:
+            logger.info(f"📝 Updated {marked} achievement(s) with retired status")
+
+    # 3. Execute Content-Aware Loss Guard against stored baseline
     #    Uses stable record IDs (achievement 'id' field) and content hashes
     #    to detect replacement/modification even when total count is stable.
     if execute_content_loss_guard:
@@ -324,11 +367,21 @@ def main():
         try:
             cred_model = MSVerifiableCredentialModel(**cred)
             name = clean_uid(cred_model.sourceUid)
+            status = cred_model.credentialStatus
+            if cred_model.retired:
+                status += " ⚠️ *Content retired*"
             verifiable_list.append(
-                f"- **{name}** (Credential ID: `{cred_model.credentialId}` | Earned: {cred_model.awardedOn} | Status: {cred_model.credentialStatus})"
+                f"- **{name}** (Credential ID: `{cred_model.credentialId}` | Earned: {cred_model.awardedOn} | Status: {status})"
             )
         except ValidationError as ve:
             logger.warning(f"⚠️ Skipping invalid verifiable credential: {ve}")
+
+    # Also check verifiable credentials against retired URLs
+    if retired_urls:
+        _, marked = mark_retired(user_creds, retired_urls, url_field="sourceUid", retired_field="retired")
+        # Note: verifiable credentials use sourceUid, not url field
+        if marked > 0:
+            logger.info(f"📝 Updated {marked} verifiable credential(s) with retired status")
 
     # Format table rows for archiver
     formatted_rows = []
@@ -337,7 +390,10 @@ def main():
         cat = str(item.get("category", "module")).title()
         date = item.get("grantedOn", "N/A")
         verify_url = format_verify_url(item.get("url"))
+        retired = item.get("retired", False)
         verify_cell = f"[Verify]({verify_url})" if verify_url else "N/A"
+        if retired:
+            verify_cell += " ⚠️ *Content retired*"
         row_text = f"| **{title}** | {cat} | {date} | {verify_cell} |"
         formatted_rows.append((row_text, date))
 
