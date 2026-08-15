@@ -79,6 +79,7 @@ def compute_content_hash(record: dict, id_field: str) -> str:
         "issuer_name", "issued_at_date", "date", "url",  # aliases
         "verification_type",  # alias for type
         "skills",  # can vary in ordering but not semantic content
+        "retired",  # schema addition field, not content change
     }
 
     # Create a normalized copy for hashing
