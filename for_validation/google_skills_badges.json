@@ -18,7 +18,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Create and Manage Cloud Spanner Instances"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-26380399",
@@ -36,7 +37,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Arcade Simulator: Network Security Engineer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-26378483",
@@ -54,7 +56,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Connecting Cloud Networks with NCC"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-26258669",
@@ -72,7 +75,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Privileged Access with IAM"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-26066863",
@@ -90,7 +94,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Analyze Images with the Cloud Vision API"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-26065872",
@@ -108,7 +113,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build Event-Driven Applications with Eventarc"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25946097",
@@ -126,7 +132,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Implement Sensitive Data Protection on Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25939305",
@@ -144,7 +151,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gemini in Google Chat"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25938520",
@@ -162,7 +170,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Scaling Data Science with Agents"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25829594",
@@ -180,7 +189,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Configure VPC Routes and Addresses"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25828763",
@@ -198,7 +208,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Set Up Multiple Network Interfaces"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25826281",
@@ -216,7 +227,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Orchestrate Workflows with the Data Agent Kit"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25819783",
@@ -234,7 +246,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Arcade Adventure: Low-Code Development"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25752565",
@@ -252,7 +265,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build Serverless Applications with Cloud Run Functions"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25679848",
@@ -270,7 +284,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Secure Software Delivery"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25679839",
@@ -288,7 +303,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Arcade Base Camp July 2026"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25597616",
@@ -306,7 +322,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build a Data Mesh with Knowledge Catalog"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25597578",
@@ -324,7 +341,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Arcade Simulator: Data Mesh Architect"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25533410",
@@ -342,7 +360,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Deploy and Monitor in Google Cloud for AWS Professionals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25498091",
@@ -360,7 +379,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Developing Containerized Applications on Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25465700",
@@ -378,7 +398,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Developing Applications with Cloud Run Functions on Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25441776",
@@ -396,7 +417,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build a Data Warehouse with BigQuery"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25402530",
@@ -414,7 +436,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Arcade Trail: Google Workspace Administration"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25377679",
@@ -432,7 +455,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Safe Spaces"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25373339",
@@ -450,7 +474,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Optimize Costs for Google Kubernetes Engine"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25313816",
@@ -468,7 +493,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Mitigate Threats and Vulnerabilities with Security Command Center"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25278590",
@@ -486,7 +512,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build Infrastructure with Terraform on Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25242347",
@@ -504,7 +531,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Set Up an App Dev Environment on Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25200685",
@@ -522,7 +550,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Implement Speech and Language Solutions with Pre-trained APIs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25200680",
@@ -540,7 +569,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Arcade Voyage: Identity Management and Pre-trained AI APIs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25168576",
@@ -558,7 +588,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Configure Service Accounts and IAM Roles for Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25137908",
@@ -576,7 +607,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Building No-Code Apps with AppSheet: Automation"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25096906",
@@ -594,7 +626,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Applying Advanced LookML Concepts in Looker"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25096293",
@@ -612,7 +645,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Understanding LookML in Looker"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25095039",
@@ -630,7 +664,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Using the Google Cloud Speech API"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25049718",
@@ -648,7 +683,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Use APIs to Work with Cloud Storage"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25049414",
@@ -666,7 +702,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "The Basics of Google Cloud Compute"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25048886",
@@ -684,7 +721,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Customer Experience Agent Studio: Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-25020466",
@@ -702,7 +740,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Troubleshooting with AI Using Cloud Assist Investigations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24977481",
@@ -720,7 +759,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Store, Process, and Manage Data on Google Cloud - Console"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24914097",
@@ -738,7 +778,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bootcamp: How to Use Gemini for Marketing 201"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24880679",
@@ -756,7 +797,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Organize and Govern Data with Knowledge Catalog"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24880145",
@@ -774,7 +816,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Essential Google Cloud CLI Tools"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24879428",
@@ -792,7 +835,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Managing Cloud Infrastructure with Terraform"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24830932",
@@ -810,7 +854,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Cloud Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24658131",
@@ -828,7 +873,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Analyzing and Visualizing Data in Looker"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24560747",
@@ -846,7 +892,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Developing Data Models with LookML"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24448908",
@@ -864,7 +911,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Data Analytics on Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24423060",
@@ -882,7 +930,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Manage Data Models in Looker"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24390898",
@@ -900,7 +949,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "App Building with AppSheet"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24389719",
@@ -918,7 +968,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Analyze BigQuery Data in Connected Sheets"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24364563",
@@ -936,7 +987,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build Real World AI Applications with Gemini and Imagen"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24328413",
@@ -954,7 +1006,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Website Modernization with Generative AI on Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24287792",
@@ -972,7 +1025,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Data Governance with Dataplex Universal Catalog"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24253675",
@@ -990,7 +1044,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Boost Productivity with Gemini in BigQuery"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24251263",
@@ -1008,7 +1063,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Accelerate App Development with Gemini CLI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24198950",
@@ -1026,7 +1082,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Working with Notebooks in Vertex AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24198703",
@@ -1044,7 +1101,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Select a Google Cloud Database for Your Applications"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24198352",
@@ -1062,7 +1120,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build AI Agents with Enterprise Databases"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24173032",
@@ -1080,7 +1139,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Data Studio Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171873",
@@ -1098,7 +1158,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Presentations in Seconds with Nano Banana Pro"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171850",
@@ -1116,7 +1177,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Become a Homework Hero for Your Kids"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171764",
@@ -1134,7 +1196,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[Deprecated] AI Boost Bites: Productivity On the Go with NotebookLM"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171726",
@@ -1152,7 +1215,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: How Google's L&D Uses AI to build Training Programs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171625",
@@ -1170,7 +1234,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Build Charts with a Prompt"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171600",
@@ -1188,7 +1253,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: The Recruiter's Playbook in Gmail"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171569",
@@ -1206,7 +1272,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Triage a Crisis with Gemini"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171525",
@@ -1224,7 +1291,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: How Google's L&D Uses AI for Strategy"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171501",
@@ -1242,7 +1310,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Bring your photos to life with AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171401",
@@ -1260,7 +1329,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: Build an AI Support Bot"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171360",
@@ -1278,7 +1348,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Build Your AI Strategic Partner"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171337",
@@ -1296,7 +1367,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[Deprecated] AI Boost Bites: Build a Custom AI Teammate"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171302",
@@ -1314,7 +1386,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[Deprecated] AI Boost Bites: Your Personal AI Study Partner"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171278",
@@ -1332,7 +1405,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Shareable Gems"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24171233",
@@ -1350,7 +1424,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Your AI Chart Detective"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24123090",
@@ -1368,7 +1443,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Innovating with Data and Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-24020912",
@@ -1386,7 +1462,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build a Certification Study Guide: PCDOE Exam Prep"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23987473",
@@ -1404,7 +1481,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Machine Learning Operations (MLOps): Getting Started"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23986980",
@@ -1422,7 +1500,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Chronicle SOAR Fundamentals - Locales"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23986796",
@@ -1440,7 +1519,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Vertex AI Studio"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23986573",
@@ -1458,7 +1538,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Workspace Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23959109",
@@ -1476,7 +1557,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Streamline App Development with Gemini Code Assist"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23936622",
@@ -1494,7 +1576,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Develop AI-Powered Prototypes in Google AI Studio"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23936168",
@@ -1512,7 +1595,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build a Certification Study Guide: PCD Exam Prep"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23935956",
@@ -1530,7 +1614,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Cloud Database Migrations: Homogeneous"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23913792",
@@ -1548,7 +1633,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI-powered Database Management with Gemini"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23913646",
@@ -1566,7 +1652,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Agentic Strategy: Discover, Design, and Prototype"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23913319",
@@ -1584,7 +1671,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Running Oracle Workloads on Google Cloud: Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23913217",
@@ -1602,7 +1690,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Add Agent Guardrails with Callbacks"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23913042",
@@ -1620,7 +1709,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bootcamp: How to Use Gemini at Work 101"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23912864",
@@ -1638,7 +1728,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Human-Centered AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23881760",
@@ -1656,7 +1747,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Fundamentals of Google's Arm-based Axion Processors"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23881667",
@@ -1674,7 +1766,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Digital Sovereignty with Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23881535",
@@ -1692,7 +1785,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build and Deploy Agents in Production"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23860372",
@@ -1710,7 +1804,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build a Certification Study Guide: PCDBE Exam Prep"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23836028",
@@ -1728,7 +1823,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Generate and Edit Media in Agent Platform"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23835853",
@@ -1746,7 +1842,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Security Command Center: Vulnerabilities and Misconfigurations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23835656",
@@ -1764,7 +1861,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Migrating to Google Cloud: Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23835574",
@@ -1782,7 +1880,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Cloud Database Migrations: Strategy"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23816150",
@@ -1800,7 +1899,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Liftoff with Google Antigravity: Build a Video Game with AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23816077",
@@ -1818,7 +1918,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google AI for Finance Professionals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23815777",
@@ -1836,7 +1937,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Orchestrate Multi-agent Workflows with Gemini Enterprise"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23803015",
@@ -1854,7 +1956,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "L300 Google Distributed Cloud air-gapped"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23789385",
@@ -1872,7 +1975,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Looker Studio Pro Essentials"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23787456",
@@ -1890,7 +1994,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Responsible AI for Digital Leaders with Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23777050",
@@ -1908,7 +2013,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Unleash Team Potential: Assess Learning Needs Using GenAI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23769178",
@@ -1926,7 +2032,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Reliable Deep Learning"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23769142",
@@ -1944,7 +2051,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Security in the World of AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23768853",
@@ -1962,7 +2070,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] Google Cloud: Prompt Engineering Guide"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23760924",
@@ -1980,7 +2089,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Future-Proof Your AI Learning Strategy"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23744488",
@@ -1998,7 +2108,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Google Distributed Cloud Sandbox"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23723537",
@@ -2016,7 +2127,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Cloud Security for the Public Sector"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23702768",
@@ -2034,7 +2146,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Accelerate Knowledge Exchange with Gemini Enterprise"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23677452",
@@ -2052,7 +2165,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build a Certification Study Guide: PSOE Exam Prep"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23677349",
@@ -2070,7 +2184,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gemini for end-to-end SDLC"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23670599",
@@ -2088,7 +2203,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Implement Cloud Next Generation Firewall"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23659912",
@@ -2106,7 +2222,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Quiz: GDC Air-Gapped Practitioner Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23640729",
@@ -2124,7 +2241,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Machine Learning Operations (MLOps) with Agent Platform: Model Evaluation"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23616518",
@@ -2142,7 +2260,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Google Security Operations: Unified SecOps"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23599514",
@@ -2160,7 +2279,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Responsible AI for Developers: Interpretability & Transparency"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23577414",
@@ -2178,7 +2298,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Architecting and Installing the Apigee Hybrid API Platform"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23561908",
@@ -2196,7 +2317,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "GKE Routing and IP Address Management"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23548435",
@@ -2214,7 +2336,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Deploy Your First Agent"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23548307",
@@ -2232,7 +2355,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Orchestrate Complex Multi-Agent Workflows"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23548231",
@@ -2250,7 +2374,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Coordinate Multiple Agents"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23548146",
@@ -2268,7 +2393,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to GKE Networking"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23537866",
@@ -2286,7 +2412,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Network Observability on Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23537711",
@@ -2304,7 +2431,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Agent Assist and its Gen AI Capabilities"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23537383",
@@ -2322,7 +2450,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Architect Gemini Enterprise for Customer Experience"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23515615",
@@ -2340,7 +2469,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Create Your First Gemini Enterprise Application"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23515527",
@@ -2358,7 +2488,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Enterprise Agents and Use Cases"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23515484",
@@ -2376,7 +2507,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to AI Agents"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23498280",
@@ -2394,7 +2526,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Manage Agent Memory and State"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23498188",
@@ -2412,7 +2545,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Add Agent Capabilities With Tools"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23497985",
@@ -2430,7 +2564,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build Agents with Agent Development Kit (ADK)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23480600",
@@ -2448,7 +2583,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Optimize Agent Behavior"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23480494",
@@ -2466,7 +2602,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build Your First Agent with Agent Development Kit (ADK)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23480394",
@@ -2484,7 +2621,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Agent Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23480307",
@@ -2502,7 +2640,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Create Agents with Generative Playbooks"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23461724",
@@ -2520,7 +2659,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Getting Started with Security Command Center Enterprise"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23449115",
@@ -2538,7 +2678,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Unlock Insights with Gemini Notebook"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23448939",
@@ -2556,7 +2697,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to reCAPTCHA"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23440944",
@@ -2574,7 +2716,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Gemini Enterprise"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23425551",
@@ -2592,7 +2735,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Responsible AI for Developers: Fairness & Bias"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23425067",
@@ -2610,7 +2754,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Data Analytics in Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23413107",
@@ -2628,7 +2773,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google DeepMind: 07 Accelerate Your Model"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23412973",
@@ -2646,7 +2792,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google DeepMind: 05 Fine-Tune Your Model"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23412762",
@@ -2664,7 +2811,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Web and Mobile Anti-fraud Defense"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23388232",
@@ -2682,7 +2830,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Threat Intelligence"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23345807",
@@ -2700,7 +2849,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Security Command Center: Identify and Prioritize Risks"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23345247",
@@ -2718,7 +2868,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Deploy and Scale AI Models with Cloud Run"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23345072",
@@ -2736,7 +2887,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Configure Gemini Code Assist for Organizations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23326585",
@@ -2754,7 +2906,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Secure GKE with Cloud Next Generation Firewall"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23326143",
@@ -2772,7 +2925,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Create Embeddings, Vector Search, and RAG with BigQuery"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23298195",
@@ -2790,7 +2944,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to SecOps on GDC"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23298096",
@@ -2808,7 +2963,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Model Armor: Securing AI Deployments"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23277921",
@@ -2826,7 +2982,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Services and GDC Deployments and Operations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23277696",
@@ -2844,7 +3001,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Compute, Network, and Storage Services Configuration in GDC"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23277454",
@@ -2862,7 +3020,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "GDC Platform Introduction"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23253112",
@@ -2880,7 +3039,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "SecOps on GDC for Tier 1 and Tier 2 Analysts"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23252609",
@@ -2898,7 +3058,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "SecOps on GDC for Tier 3 Analysts"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23252126",
@@ -2916,7 +3077,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Quiz: GDC Air-Gapped Security Operator Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23173335",
@@ -2934,7 +3096,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Conversational AI on Vertex AI and Dialogflow CX"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23172667",
@@ -2952,7 +3115,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gemini for Security Engineers"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23172626",
@@ -2970,7 +3134,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gemini for Cloud Architects"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23161995",
@@ -2988,7 +3153,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Building No-Code Apps with AppSheet: Implementation"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23146474",
@@ -3006,7 +3172,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gemini for Application Developers"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23131290",
@@ -3024,7 +3191,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction Google Security Operations (SOAR)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23131102",
@@ -3042,7 +3210,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] Google Security Operations - SOAR Developer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23131057",
@@ -3060,7 +3229,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Security Operations - SOAR Analyst"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23130986",
@@ -3078,7 +3248,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Google Security Operations (SIEM)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-23053470",
@@ -3096,7 +3267,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Cloud AI and ML Solutions for the Public Sector"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-22909077",
@@ -3114,7 +3286,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Looker"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-22878671",
@@ -3132,7 +3305,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Networking in Google Cloud: Load Balancing"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-22853188",
@@ -3150,7 +3324,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Networking in Google Cloud: Routing and Addressing"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-22838249",
@@ -3168,7 +3343,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Networking in Google Cloud: Network Architecture"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-22837772",
@@ -3186,7 +3362,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Networking in Google Cloud: Hybrid and Multicloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-22742333",
@@ -3204,7 +3381,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gemini for Network Engineers"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-22691283",
@@ -3222,7 +3400,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Plan Your Cloud Next Generation Firewall Needs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-22691267",
@@ -3240,7 +3419,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Cloud Next Generation Firewall"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-22568934",
@@ -3258,7 +3438,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build a Certification Study Guide: PMLE"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-22543230",
@@ -3276,7 +3457,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Serverless Data Processing with Dataflow: Develop Pipelines"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-22543145",
@@ -3294,7 +3476,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Serverless Data Processing with Dataflow: Foundations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21614484",
@@ -3312,7 +3495,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Building No-Code Apps with AppSheet: Foundations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21575365",
@@ -3330,7 +3514,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Cloud Computing Foundations: Infrastructure in Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21520588",
@@ -3348,7 +3533,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Cloud Computing Foundations: Cloud Computing Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21339154",
@@ -3366,7 +3552,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Security Practices with Google Security Operations - SIEM"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21338783",
@@ -3384,7 +3571,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Configure and Maintain CCaaS as an Admin"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21326571",
@@ -3402,7 +3590,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Change Management for Google Workspace"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21312822",
@@ -3420,7 +3609,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build a Certification Study Guide: PCNE Exam Prep"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21296923",
@@ -3438,7 +3628,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Manage Functions and Reporting with CCaaS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21296361",
@@ -3456,7 +3647,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build a Certification Study Guide: PCA Exam Prep"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21284750",
@@ -3474,7 +3666,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Handle Consumer Interactions with CCaaS"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21284707",
@@ -3492,7 +3685,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Machine Learning Operations (MLOps) for Generative AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21284642",
@@ -3510,7 +3704,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Hybrid Cloud Infrastructure Foundations with Anthos"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21264999",
@@ -3528,7 +3723,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build a Certification Study Guide: PDE Exam Prep"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21264510",
@@ -3546,7 +3742,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Managing and Securing the Apigee Hybrid API Platform"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21264288",
@@ -3564,7 +3761,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build a Certification Study Guide: PCSE Exam Prep"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21236729",
@@ -3582,7 +3780,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Upgrading and Monitoring the Apigee Hybrid API Platform"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21236644",
@@ -3600,7 +3799,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Build a Certification Study Guide: ACE Exam Prep"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21236306",
@@ -3618,7 +3818,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Developing a Google SRE Culture"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21211997",
@@ -3636,7 +3837,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Managing Change when Moving to Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21211911",
@@ -3654,7 +3856,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Running SAP Workloads on Google Cloud: Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21186579",
@@ -3672,7 +3875,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "The Modern Data Platform and LookML"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21186399",
@@ -3690,7 +3894,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Cloud Identity"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21164355",
@@ -3708,7 +3913,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AppSheet Administration"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21164113",
@@ -3726,7 +3932,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] SOAR Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21140772",
@@ -3744,7 +3951,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Security in the World of AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21140713",
@@ -3762,7 +3970,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Generative AI for Healthcare"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21140164",
@@ -3780,7 +3989,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "MySQL to Cloud Spanner"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21140155",
@@ -3798,7 +4008,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Design Foundations for Streaming with Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21123869",
@@ -3816,7 +4027,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Planetary Scale Earth Observation with Google Earth Engine"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21123770",
@@ -3834,7 +4046,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Enterprise Search on Generative AI App Builder"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21123653",
@@ -3852,7 +4065,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Security Command Center Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21103878",
@@ -3870,7 +4084,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google DeepMind: 04 Discover The Transformer Architecture"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21102839",
@@ -3888,7 +4103,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google DeepMind: 03 Design And Train Neural Networks"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21102466",
@@ -3906,7 +4122,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google DeepMind: 02 Represent Your Language Data"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21102340",
@@ -3924,7 +4141,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google DeepMind: 01 Build Your Own Small Language Model"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21102092",
@@ -3942,7 +4160,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AppSheet Team Hierarchy"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21078273",
@@ -3960,7 +4179,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Encoder-Decoder Architecture"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21077997",
@@ -3978,7 +4198,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Create Image Captioning Models"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21077734",
@@ -3996,7 +4217,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Transformer Models and BERT Model"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21077555",
@@ -4014,7 +4236,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Attention Mechanism"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21077512",
@@ -4032,7 +4255,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Image Generation"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21054088",
@@ -4050,7 +4274,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Supervised Fine-tuning for Gemini"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21039085",
@@ -4068,7 +4293,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Implementing Cloud Load Balancing for Compute Engine"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21024695",
@@ -4086,7 +4312,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Security Operations - Deep Dive"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21024676",
@@ -4104,7 +4331,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Security Operations - Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21003646",
@@ -4122,7 +4350,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Infrastructure: Networking Techniques"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21003599",
@@ -4140,7 +4369,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Infrastructure: Storage Options"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-21003568",
@@ -4158,7 +4388,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Infrastructure: Deployment Types"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20977998",
@@ -4176,7 +4407,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Put It All Together: Prepare for a Cloud Security Analyst Job"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20954336",
@@ -4194,7 +4426,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Detect, Respond, and Recover from Cloud Cybersecurity Attacks"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20863354",
@@ -4212,7 +4445,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] Webhook fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20835698",
@@ -4230,7 +4464,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Conversation Design Fundamentals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20767214",
@@ -4248,7 +4483,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] Agent Summarization (Custom)"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20718087",
@@ -4266,7 +4502,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Conversational AI and its Engagement Framework"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20717950",
@@ -4284,7 +4521,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Conversational Insights"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20717495",
@@ -4302,7 +4540,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "How to Use TPUs for Inference"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20707852",
@@ -4320,7 +4559,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Architecting an AI Inference Stack"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20701950",
@@ -4338,7 +4578,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Workspace Troubleshooting"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20688811",
@@ -4356,7 +4597,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Workspace Security"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20683058",
@@ -4374,7 +4616,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Workspace Data Governance"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20682611",
@@ -4392,7 +4635,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Workspace Core Services"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20663909",
@@ -4410,7 +4654,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Workspace User and Resource Management"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20632084",
@@ -4428,7 +4673,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Cloud Security Risks: Identify and Protect Against Threats"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20548680",
@@ -4446,7 +4692,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Strategies for Cloud Security Risk Management"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20504506",
@@ -4464,7 +4711,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Security Principles in Cloud Computing"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20461230",
@@ -4482,7 +4730,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Create Engaging Video with Google Vids"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20461010",
@@ -4500,7 +4749,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gemini in Google Drive"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20460894",
@@ -4518,7 +4768,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gemini in Google Meet"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20460758",
@@ -4536,7 +4787,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gemini in Google Sheets"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20460652",
@@ -4554,7 +4806,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gemini in Google Slides"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20460525",
@@ -4572,7 +4825,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gemini in Google Docs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20460299",
@@ -4590,7 +4844,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gemini in Gmail"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20460206",
@@ -4608,7 +4863,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Workspace with Gemini: Foundations of Your AI Workflow"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20438377",
@@ -4626,7 +4882,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Infrastructure: Cloud TPUs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20438347",
@@ -4644,7 +4901,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Infrastructure: Cloud GPUs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20438306",
@@ -4662,7 +4920,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Infrastructure: Introduction to AI Hypercomputer"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20438171",
@@ -4680,7 +4939,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Use Functions, Formulas, and Charts in Google Sheets"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20360785",
@@ -4698,7 +4958,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Implement Cloud Collaboration and Productivity Workflows"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20242928",
@@ -4716,7 +4977,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Google Sheets - Advanced Topics"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20218054",
@@ -4734,7 +4996,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] Google Chat"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20217617",
@@ -4752,7 +5015,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] Google Meet"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20189930",
@@ -4770,7 +5034,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] Google Slides"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20189287",
@@ -4788,7 +5053,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] Google Sheets"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20160898",
@@ -4806,7 +5072,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] Google Docs"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20160375",
@@ -4824,7 +5091,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] Google Drive"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20131534",
@@ -4842,7 +5110,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] Google Calendar"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20130759",
@@ -4860,7 +5129,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] Gmail"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20103576",
@@ -4878,7 +5148,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gen AI Agents: Transform Your Organization"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20074401",
@@ -4896,7 +5167,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gen AI Apps: Transform Your Work"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20073969",
@@ -4914,7 +5186,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gen AI: Navigate the Landscape"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20073600",
@@ -4932,7 +5205,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gen AI: Unlock Foundational Concepts"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20049490",
@@ -4950,7 +5224,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Gen AI: Beyond the Chatbot"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20024452",
@@ -4968,7 +5243,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Advanced Analysis in Sheets"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20024414",
@@ -4986,7 +5262,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Notes to Sheets with Gemini"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20024357",
@@ -5004,7 +5281,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Gemini Calendar Hacks in Gmail"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20024337",
@@ -5022,7 +5300,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Build Slides Fast with Gemini"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20024292",
@@ -5040,7 +5319,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Talk to Your Data in Sheets"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20024273",
@@ -5058,7 +5338,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: AI Magic in a Sheets Cell"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20024228",
@@ -5076,7 +5357,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: Create ‘What If’ Scenarios with AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20024116",
@@ -5094,7 +5376,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Become a Creative Mashup Artist"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20024092",
@@ -5112,7 +5395,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Become an AI Art Director for Your World"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20024053",
@@ -5130,7 +5414,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Create the Perfect Portrait"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20024027",
@@ -5148,7 +5433,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: Research Hacks with NotebookLM"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20023995",
@@ -5166,7 +5452,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: Find the Story in Your Data"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20023960",
@@ -5184,7 +5471,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Streamline Event Planning with AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20023937",
@@ -5202,7 +5490,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Supercharge Research with Gemini"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20023910",
@@ -5220,7 +5509,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Make Any Big Purchase with Confidence"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20023883",
@@ -5238,7 +5528,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Animated Charts with Gemini"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20023854",
@@ -5256,7 +5547,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Turn Your Ideas into Animated Art"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20023826",
@@ -5274,7 +5566,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Your Personal AI Tutor"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20023800",
@@ -5292,7 +5585,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Gamify Your Study Guides"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20023768",
@@ -5310,7 +5604,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Get Your Competitor's Playbook in Minutes"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20023742",
@@ -5328,7 +5623,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Build a Personalized Weather App"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20022657",
@@ -5346,7 +5642,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Create a 3D Solar System"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20012522",
@@ -5364,7 +5661,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Create Your Own Productivity Tools"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-20012342",
@@ -5382,7 +5680,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Guided Learning with Gemini"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19997018",
@@ -5400,7 +5699,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Create Your Own Retro Arcade Game"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19997001",
@@ -5418,7 +5718,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Become a \"Vibe DJ\""
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19996895",
@@ -5436,7 +5737,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Create Your Ultimate College Scouting Report"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19996775",
@@ -5454,7 +5756,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: One-Click Campaign Visuals"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19996588",
@@ -5472,7 +5775,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: From Napkin Sketch to Functional App"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19996514",
@@ -5490,7 +5794,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: NotebookLM Reports"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19996436",
@@ -5508,7 +5813,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Your Personal Feedback Agent"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19996370",
@@ -5526,7 +5832,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Presentation Scripts with Gemini"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19996219",
@@ -5544,7 +5851,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: Project Notebooks"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19996132",
@@ -5562,7 +5870,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: NotebookLM for Market Research"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19996088",
@@ -5580,7 +5889,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[Deprecated]AI Boost Bites: NotebookLM Video Overviews"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19996060",
@@ -5598,7 +5908,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: Discover Sources in NotebookLM"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19996031",
@@ -5616,7 +5927,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: NotebookLM Mind Maps"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995999",
@@ -5634,7 +5946,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: Intro to NotebookLM"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995946",
@@ -5652,7 +5965,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Email Content Creation"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995901",
@@ -5670,7 +5984,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Create Docs in Seconds"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995858",
@@ -5688,7 +6003,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: AI Power-Ups for Google Workspace"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995787",
@@ -5706,7 +6022,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Tame Your Inbox with AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995725",
@@ -5724,7 +6041,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Gemini Slide Summaries"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995694",
@@ -5742,7 +6060,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: No-Code Sheets & Scripts"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995672",
@@ -5760,7 +6079,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Amplify Exec Voices with AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995638",
@@ -5778,7 +6098,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Exec Summaries with Gemini Gems"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995610",
@@ -5796,7 +6117,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Automate tasks with Gemini and Apps Script"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995570",
@@ -5814,7 +6136,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: \"Eat the Frog\" with NotebookLM"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995550",
@@ -5832,7 +6155,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Gemini Image-to-Sheets Hack"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995516",
@@ -5850,7 +6174,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Poke Holes in Your Strategy"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995487",
@@ -5868,7 +6193,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: NotebookLM for Competitive Edge"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995456",
@@ -5886,7 +6212,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Personalization with customized prompts"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995427",
@@ -5904,7 +6231,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: TL;DR with Gemini in Docs & Drive"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995407",
@@ -5922,7 +6250,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Prompting like a Pro with Google Workspace"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995380",
@@ -5940,7 +6269,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Content Generation with Gemini Made Easy"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995353",
@@ -5958,7 +6288,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "[DEPRECATED] AI Boost Bites: Customer insights with NotebookLM"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19995323",
@@ -5976,7 +6307,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "AI Boost Bites: Gemini Gems – Your ultimate marketing sidekick"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19964396",
@@ -5994,7 +6326,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Responsible AI: Applying AI Principles with Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19936299",
@@ -6012,7 +6345,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Prompt Design in Agent Platform"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19833877",
@@ -6030,7 +6364,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Responsible AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19792962",
@@ -6048,7 +6383,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Large Language Models"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-19792558",
@@ -6066,7 +6402,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Introduction to Generative AI"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-18399707",
@@ -6084,7 +6421,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Scaling with Google Cloud Operations"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-18317757",
@@ -6102,7 +6440,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Trust and Security with Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-18294550",
@@ -6120,7 +6459,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Modernize Infrastructure and Applications with Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-18267780",
@@ -6138,7 +6478,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Innovating with Google Cloud Artificial Intelligence"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-18230648",
@@ -6156,7 +6497,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Exploring Data Transformation with Google Cloud"
-      ]
+      ],
+      "retired": false
     },
     {
       "id": "google-skills-badge-18108130",
@@ -6174,7 +6516,8 @@
       "verification_type": "Google Skill Badge",
       "skills": [
         "Digital Transformation with Google Cloud"
-      ]
+      ],
+      "retired": false
     }
   ]
 }
