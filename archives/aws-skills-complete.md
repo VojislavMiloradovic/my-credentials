@@ -1,11 +1,32 @@
 # Complete AWS Skill Builder Credentials Archive
 
-This document represents a unified, verifiable list of all 605 records.
+This document represents a unified, verifiable list of all 626 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-15 | [Accelerating generative AI development with fully managed MLflow 3.0 on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Amazon Connect Voice Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Amazon FSx for Lustre Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Amazon OpenSearch Service - Building Observability Solutions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [AWS Backup Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [AWS Elastic Disaster Recovery - A Technical Introduction](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [AWS Elemental Live - Conductor](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [AWS Resources available to Design & Operate Advertising workflows](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [AWS Security Best Practices: Computing](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Build and Train AI Models Responsibly Using Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Build With Amazon Elastic Container Registry (Amazon ECR)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Build With Amazon OpenSearch Service](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Building Multi-Agent Systems with Strands Agents](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Configure and Deploy AWS PrivateLink](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Deepdive into Advertising Domain](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Developing with Amazon Aurora DSQL](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Digital Sovereignty on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Implement Lexical Search Using Amazon OpenSearch Service](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Planning an AWS Outposts Implementation](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [PostgreSQL Architecture](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Security Aspects of RDS and Aurora PostgreSQL](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Advanced PostgreSQL for Amazon Aurora and Amazon RDS Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Amazon Connect Developer Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Amazon Connect Outbound Communications Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

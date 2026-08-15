@@ -1,6 +1,6 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 605,
+  "total_count": 626,
   "badges": [
     {
       "id": "4d3535a6971307d9",
@@ -702,6 +702,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Accelerate Generative AI Inference on Amazon SageMaker AI with G7e Instances"
+      ],
+      "retired": false
+    },
+    {
+      "id": "645cb3dfdee42110",
+      "title": "Accelerating generative AI development with fully managed MLflow 3.0 on Amazon SageMaker AI",
+      "name": "Accelerating generative AI development with fully managed MLflow 3.0 on Amazon SageMaker AI",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Accelerating generative AI development with fully managed MLflow 3.0 on Amazon SageMaker AI"
       ],
       "retired": false
     },
@@ -1865,6 +1884,25 @@
       "retired": false
     },
     {
+      "id": "5f49827f82b3a082",
+      "title": "Amazon Connect Voice Intermediate",
+      "name": "Amazon Connect Voice Intermediate",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Connect Voice Intermediate"
+      ],
+      "retired": false
+    },
+    {
       "id": "dbc8e20211336fff",
       "title": "Amazon Connect: Creating and Managing Amazon Connect Instances",
       "name": "Amazon Connect: Creating and Managing Amazon Connect Instances",
@@ -2416,6 +2454,25 @@
       "retired": false
     },
     {
+      "id": "0965c37def8cc396",
+      "title": "Amazon FSx for Lustre Primer",
+      "name": "Amazon FSx for Lustre Primer",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon FSx for Lustre Primer"
+      ],
+      "retired": false
+    },
+    {
       "id": "f96d38c40b6ee75c",
       "title": "Amazon FSx for NetApp ONTAP Primer",
       "name": "Amazon FSx for NetApp ONTAP Primer",
@@ -2659,6 +2716,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Nova 2 Sonic: Next-Generation Conversational AI"
+      ],
+      "retired": false
+    },
+    {
+      "id": "cb995a444324e320",
+      "title": "Amazon OpenSearch Service - Building Observability Solutions",
+      "name": "Amazon OpenSearch Service - Building Observability Solutions",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon OpenSearch Service - Building Observability Solutions"
       ],
       "retired": false
     },
@@ -3632,6 +3708,25 @@
       "retired": false
     },
     {
+      "id": "02bf93a1f8af92de",
+      "title": "AWS Backup Primer",
+      "name": "AWS Backup Primer",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Backup Primer"
+      ],
+      "retired": false
+    },
+    {
       "id": "250715eb8fbd9989",
       "title": "AWS Batch Getting Started",
       "name": "AWS Batch Getting Started",
@@ -4354,6 +4449,25 @@
       "retired": false
     },
     {
+      "id": "1da3e1803c687825",
+      "title": "AWS Elastic Disaster Recovery - A Technical Introduction",
+      "name": "AWS Elastic Disaster Recovery - A Technical Introduction",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Elastic Disaster Recovery - A Technical Introduction"
+      ],
+      "retired": false
+    },
+    {
       "id": "ef388d3632667fe5",
       "title": "AWS Elastic Disaster Recovery Getting Started",
       "name": "AWS Elastic Disaster Recovery Getting Started",
@@ -4388,6 +4502,25 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Elemental Link - Getting Started"
+      ],
+      "retired": false
+    },
+    {
+      "id": "e4c8158cd0eaa7fa",
+      "title": "AWS Elemental Live - Conductor",
+      "name": "AWS Elemental Live - Conductor",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Elemental Live - Conductor"
       ],
       "retired": false
     },
@@ -5114,6 +5247,25 @@
       "retired": false
     },
     {
+      "id": "83b71ee65ad2e0f6",
+      "title": "AWS Resources available to Design & Operate Advertising workflows",
+      "name": "AWS Resources available to Design & Operate Advertising workflows",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Resources available to Design & Operate Advertising workflows"
+      ],
+      "retired": false
+    },
+    {
       "id": "9007a0211b2cdfc5",
       "title": "AWS Secrets Manager Getting Started",
       "name": "AWS Secrets Manager Getting Started",
@@ -5148,6 +5300,25 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Security Agent: Securing Applications design to deployment"
+      ],
+      "retired": false
+    },
+    {
+      "id": "c98066791458bbde",
+      "title": "AWS Security Best Practices: Computing",
+      "name": "AWS Security Best Practices: Computing",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Security Best Practices: Computing"
       ],
       "retired": false
     },
@@ -6254,6 +6425,25 @@
       "retired": false
     },
     {
+      "id": "db9271c7e1519e70",
+      "title": "Build and Train AI Models Responsibly Using Amazon SageMaker AI",
+      "name": "Build and Train AI Models Responsibly Using Amazon SageMaker AI",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build and Train AI Models Responsibly Using Amazon SageMaker AI"
+      ],
+      "retired": false
+    },
+    {
       "id": "6ff257ad8dbafa23",
       "title": "Build Strands Agents with SageMaker AI models and MLflow",
       "name": "Build Strands Agents with SageMaker AI models and MLflow",
@@ -6330,6 +6520,25 @@
       "retired": false
     },
     {
+      "id": "9f54d070b71451f4",
+      "title": "Build With Amazon Elastic Container Registry (Amazon ECR)",
+      "name": "Build With Amazon Elastic Container Registry (Amazon ECR)",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build With Amazon Elastic Container Registry (Amazon ECR)"
+      ],
+      "retired": false
+    },
+    {
       "id": "0b32d39b6b6e015a",
       "title": "Build with Amazon FSx for OpenZFS",
       "name": "Build with Amazon FSx for OpenZFS",
@@ -6383,6 +6592,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Build with Amazon MemoryDB for Redis"
+      ],
+      "retired": false
+    },
+    {
+      "id": "6fbaafaeecfd6543",
+      "title": "Build With Amazon OpenSearch Service",
+      "name": "Build With Amazon OpenSearch Service",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build With Amazon OpenSearch Service"
       ],
       "retired": false
     },
@@ -6535,6 +6763,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Building intelligent event agents using Amazon Bedrock AgentCore and Amazon Bedrock Knowledge Bases"
+      ],
+      "retired": false
+    },
+    {
+      "id": "28b48dae5228735c",
+      "title": "Building Multi-Agent Systems with Strands Agents",
+      "name": "Building Multi-Agent Systems with Strands Agents",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Building Multi-Agent Systems with Strands Agents"
       ],
       "retired": false
     },
@@ -6938,6 +7185,25 @@
       "retired": false
     },
     {
+      "id": "26fe6e70437f16bd",
+      "title": "Configure and Deploy AWS PrivateLink",
+      "name": "Configure and Deploy AWS PrivateLink",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Configure and Deploy AWS PrivateLink"
+      ],
+      "retired": false
+    },
+    {
       "id": "31be896b336079be",
       "title": "Configuring and Deploying VPCs with Multiple Subnets",
       "name": "Configuring and Deploying VPCs with Multiple Subnets",
@@ -7204,6 +7470,25 @@
       "retired": false
     },
     {
+      "id": "f92ac625db0870b8",
+      "title": "Deepdive into Advertising Domain",
+      "name": "Deepdive into Advertising Domain",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Deepdive into Advertising Domain"
+      ],
+      "retired": false
+    },
+    {
       "id": "695a9072a8ba9ed7",
       "title": "Deploying a Workload on Amazon ECS",
       "name": "Deploying a Workload on Amazon ECS",
@@ -7413,6 +7698,25 @@
       "retired": false
     },
     {
+      "id": "031ec24f869e7997",
+      "title": "Developing with Amazon Aurora DSQL",
+      "name": "Developing with Amazon Aurora DSQL",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Developing with Amazon Aurora DSQL"
+      ],
+      "retired": false
+    },
+    {
       "id": "2c32c5623012e335",
       "title": "Developing with Amazon MQ",
       "name": "Developing with Amazon MQ",
@@ -7504,6 +7808,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Digital Rights Management and the SPEKE Protocol in Video Workflows"
+      ],
+      "retired": false
+    },
+    {
+      "id": "d03861b49c9d1794",
+      "title": "Digital Sovereignty on AWS",
+      "name": "Digital Sovereignty on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Digital Sovereignty on AWS"
       ],
       "retired": false
     },
@@ -8758,6 +9081,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Identifying security risks using AWS Cost and Usage Report data"
+      ],
+      "retired": false
+    },
+    {
+      "id": "f29c1fab2e674827",
+      "title": "Implement Lexical Search Using Amazon OpenSearch Service",
+      "name": "Implement Lexical Search Using Amazon OpenSearch Service",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Implement Lexical Search Using Amazon OpenSearch Service"
       ],
       "retired": false
     },
@@ -10795,6 +11137,25 @@
       "retired": false
     },
     {
+      "id": "12f6e202965a2d60",
+      "title": "Planning an AWS Outposts Implementation",
+      "name": "Planning an AWS Outposts Implementation",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Planning an AWS Outposts Implementation"
+      ],
+      "retired": false
+    },
+    {
       "id": "02ed3e2394e96d66",
       "title": "Planning and Validating Mainframe Modernization with AWS",
       "name": "Planning and Validating Mainframe Modernization with AWS",
@@ -10829,6 +11190,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Planning Large Scale Data Migrations to AWS"
+      ],
+      "retired": false
+    },
+    {
+      "id": "2d32f9c8767f4a00",
+      "title": "PostgreSQL Architecture",
+      "name": "PostgreSQL Architecture",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "PostgreSQL Architecture"
       ],
       "retired": false
     },
@@ -11000,6 +11380,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Secure AI agents with Amazon Bedrock AgentCore Identity on Amazon ECS"
+      ],
+      "retired": false
+    },
+    {
+      "id": "87d08eb895916c71",
+      "title": "Security Aspects of RDS and Aurora PostgreSQL",
+      "name": "Security Aspects of RDS and Aurora PostgreSQL",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Security Aspects of RDS and Aurora PostgreSQL"
       ],
       "retired": false
     },

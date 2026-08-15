@@ -1,17 +1,23 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 11 of 11
-date_range: 2026-08-09 to 2026-08-12
-total_entries: 50
+chunk_part: 11 of 12
+date_range: 2026-08-09 to 2026-08-15
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-11.md
 ---
 
 # AWS Skill Builder Credentials — Part 11
 
-> **Navigation:** Prev: [aws-skills-2026-08-part-10.md](./aws-skills-2026-08-part-10.md) | [Index](./aws-skills-index.md) | Next: None | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-08-part-10.md](./aws-skills-2026-08-part-10.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-15 | [Developing with Amazon Aurora DSQL](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Digital Sovereignty on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Implement Lexical Search Using Amazon OpenSearch Service](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Planning an AWS Outposts Implementation](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [PostgreSQL Architecture](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Security Aspects of RDS and Aurora PostgreSQL](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Advanced PostgreSQL for Amazon Aurora and Amazon RDS Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Amazon Connect Developer Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Amazon Connect Outbound Communications Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -64,5 +70,5 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-08-09 | [Accelerate foundation model development with one-click observability in Amazon SageMaker HyperPod](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-08-part-10.md](./aws-skills-2026-08-part-10.md) | [Index](./aws-skills-index.md) | Next: None
+> **Navigation:** Prev: [aws-skills-2026-08-part-10.md](./aws-skills-2026-08-part-10.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md)
 

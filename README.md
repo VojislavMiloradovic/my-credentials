@@ -81,8 +81,8 @@ Showing latest 10 of 343 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 605
-**Total Verified Skills Mapped:** 603
+**Total Portfolio Credentials:** 626
+**Total Verified Skills Mapped:** 624
 
 #### AWS Cloud Quest Summary
 
@@ -97,20 +97,20 @@ Showing latest 10 of 343 credentials. View full dataset via [Platform Archive In
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 605 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-11.md)), or [Monolithic File](./archives/aws-skills-complete.md).
+Showing latest 10 of 626 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-08-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-12.md)), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-08-12 | [Advanced PostgreSQL for Amazon Aurora and Amazon RDS Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-12 | [Amazon Connect Developer Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-12 | [Amazon Connect Outbound Communications Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-12 | [Amazon EC2 Observability, Monitoring, and Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-12 | [Amazon ECS Networking](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-12 | [Amazon ECS Observability](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-12 | [Amazon Partner Network Onboarding](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-12 | [Amazon WorkSpaces Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-12 | [Automation with Amazon Nova Act](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-12 | [AWS for Media & Entertainment Content Production Learning Plan Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Accelerating generative AI development with fully managed MLflow 3.0 on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Amazon Connect Voice Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Amazon FSx for Lustre Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Amazon OpenSearch Service - Building Observability Solutions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [AWS Backup Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [AWS Elastic Disaster Recovery - A Technical Introduction](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [AWS Elemental Live - Conductor](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [AWS Resources available to Design & Operate Advertising workflows](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [AWS Security Best Practices: Computing](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Build and Train AI Models Responsibly Using Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 <!-- AWS_SKILLS_END -->
 
 
