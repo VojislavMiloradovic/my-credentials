@@ -1,6 +1,5 @@
 import glob
 import json
-import re
 import sys
 
 retired = []
@@ -40,6 +39,6 @@ if retired:
         f.write('# These URLs return 404 and should be excluded from link checking\n\n')
         for url in retired:
             f.write(f'{url}\n')
-    print(f'lycheeignore_written=true')
+    print('lycheeignore_written=true')
 else:
     print('lycheeignore_written=false')
