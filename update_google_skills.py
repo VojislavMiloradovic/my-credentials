@@ -11,6 +11,7 @@ import hashlib
 import json
 import logging
 import os
+import re
 import sys
 from datetime import UTC, datetime
 from typing import Any
@@ -343,53 +344,104 @@ def parse_google_badges_from_json(json_path: str) -> list[dict]:
 
 def fetch_google_skills_badges(profile_id: str) -> list[dict]:
     """Orchestrates fetching Google Skills badges via profile JSON/HTML endpoints or local fallbacks."""
-    # 1. Primary Strategy: Public Profile JSON & HTML Endpoints
+    # 1. Primary Strategy: Public Profile Endpoints (JSON + HTML)
     endpoints = [
-        f"https://www.skills.google/public_profiles/{profile_id}.json",
-        f"https://cloudskillsboost.google/public_profiles/{profile_id}.json",
+        (f"https://www.skills.google/public_profiles/{profile_id}.json", True),
+        (f"https://cloudskillsboost.google/public_profiles/{profile_id}.json", True),
+        (f"https://www.skills.google/public_profiles/{profile_id}", False),
+        (f"https://cloudskillsboost.google/public_profiles/{profile_id}", False),
     ]
 
-    for url in endpoints:
+    for url, is_json in endpoints:
         logger.info(f"🔄 Attempting fetch from Google Skills endpoint: {url}")
+        headers = dict(HEADERS)
+        if not is_json:
+            headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
         try:
-            response = requests.get(url, headers=HEADERS, timeout=20)
+            response = requests.get(url, headers=headers, timeout=20)
             if response.status_code == 200:
-                try:
-                    data = response.json()
-                    raw_list = data.get("badges", data.get("items", data if isinstance(data, list) else []))
-                    parsed = []
-                    for item in raw_list:
-                        if isinstance(item, dict):
-                            title = item.get("title") or item.get("name") or item.get("badge_title")
-                            dt = item.get("earned_at") or item.get("issued_at") or item.get("date")
-                            b_id = item.get("id") or generate_badge_id(str(title), str(dt))
-                            verify = item.get("verify_url") or item.get("url") or f"https://www.skills.google/public_profiles/{profile_id}"
+                if is_json or "json" in response.headers.get("Content-Type", ""):
+                    try:
+                        data = response.json()
+                        raw_list = data.get("badges", data.get("items", data if isinstance(data, list) else []))
+                        parsed = []
+                        for item in raw_list:
+                            if isinstance(item, dict):
+                                title = item.get("title") or item.get("name") or item.get("badge_title")
+                                dt = item.get("earned_at") or item.get("issued_at") or item.get("date")
+                                b_id = item.get("id") or generate_badge_id(str(title), str(dt))
+                                verify = item.get("verify_url") or item.get("url") or f"https://www.skills.google/public_profiles/{profile_id}"
 
-                            raw_entry = {
-                                "id": str(b_id),
-                                "title": str(title),
-                                "name": str(title),
-                                "issuer": "Google",
-                                "issuer_name": "Google",
-                                "issued_at": dt,
-                                "issued_at_date": dt,
-                                "date": dt,
-                                "image_url": item.get("image_url") or item.get("icon"),
-                                "verify_url": verify,
-                                "url": verify,
-                                "type": item.get("type", "Google Skill Badge"),
-                                "verification_type": item.get("type", "Google Skill Badge"),
-                                "skills": item.get("skills", [title] if title else ["Google Cloud"]),
-                            }
-                            try:
-                                parsed.append(GoogleBadgeItemModel(**raw_entry).model_dump())
-                            except ValidationError:
-                                pass
-                    if parsed:
-                        logger.info(f"✅ Successfully retrieved {len(parsed)} badges via JSON endpoint.")
-                        return parsed
-                except json.JSONDecodeError:
-                    logger.info(f"ℹ️ Endpoint {url} returned non-JSON response.")
+                                raw_entry = {
+                                    "id": str(b_id),
+                                    "title": str(title),
+                                    "name": str(title),
+                                    "issuer": "Google",
+                                    "issuer_name": "Google",
+                                    "issued_at": dt,
+                                    "issued_at_date": dt,
+                                    "date": dt,
+                                    "image_url": item.get("image_url") or item.get("icon"),
+                                    "verify_url": verify,
+                                    "url": verify,
+                                    "type": item.get("type", "Google Skill Badge"),
+                                    "verification_type": item.get("type", "Google Skill Badge"),
+                                    "skills": item.get("skills", [title] if title else ["Google Cloud"]),
+                                }
+                                try:
+                                    parsed.append(GoogleBadgeItemModel(**raw_entry).model_dump())
+                                except ValidationError:
+                                    pass
+                        if parsed:
+                            logger.info(f"✅ Successfully retrieved {len(parsed)} badges via JSON endpoint.")
+                            return parsed
+                    except json.JSONDecodeError:
+                        logger.info(f"ℹ️ Endpoint {url} returned non-JSON response.")
+                else:
+                    # HTML Scraper Fallback using BeautifulSoup
+                    try:
+                        from bs4 import BeautifulSoup
+                        soup = BeautifulSoup(response.text, "html.parser")
+                        badge_elements = soup.find_all(class_=re.compile(r"public-profile-badge|badge-item|badge", re.I))
+                        parsed = []
+                        for el in badge_elements:
+                            title_el = el.find(class_=re.compile(r"title|name|heading", re.I)) or el.find(["h2", "h3", "h4", "strong", "span"])
+                            date_el = el.find(class_=re.compile(r"date|earned|issued", re.I))
+                            link_el = el.find("a", href=True)
+                            img_el = el.find("img", src=True)
+
+                            if title_el:
+                                title = title_el.get_text(strip=True)
+                                dt = date_el.get_text(strip=True) if date_el else None
+                                verify = link_el["href"] if link_el else f"https://www.skills.google/public_profiles/{profile_id}"
+                                if verify.startswith("/"):
+                                    verify = f"https://www.skills.google{verify}"
+                                b_id = generate_badge_id(title, dt)
+                                raw_entry = {
+                                    "id": b_id,
+                                    "title": title,
+                                    "name": title,
+                                    "issuer": "Google",
+                                    "issuer_name": "Google",
+                                    "issued_at": dt,
+                                    "issued_at_date": dt,
+                                    "date": dt,
+                                    "image_url": img_el["src"] if img_el else None,
+                                    "verify_url": verify,
+                                    "url": verify,
+                                    "type": "Google Skill Badge",
+                                    "verification_type": "Google Skill Badge",
+                                    "skills": [title],
+                                }
+                                try:
+                                    parsed.append(GoogleBadgeItemModel(**raw_entry).model_dump())
+                                except ValidationError:
+                                    pass
+                        if parsed:
+                            logger.info(f"✅ Successfully retrieved {len(parsed)} badges via HTML profile page.")
+                            return parsed
+                    except Exception as parse_err:
+                        logger.info(f"ℹ️ HTML parsing fallback for {url} did not yield badges: {parse_err}")
             else:
                 logger.info(f"ℹ️ Endpoint {url} responded with HTTP {response.status_code}")
         except requests.exceptions.RequestException as e:
