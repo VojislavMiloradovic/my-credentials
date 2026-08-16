@@ -74,9 +74,9 @@ def compute_content_hash(record: dict, id_field: str) -> str:
         "version", "_ts", "partitionKey", "userId", "docsId",
         "instanceId", "labUrl", "createdAt", "expiresAt", "estimatedReadyAt",
         "sessionEndDate", "startTime", "endTime", "milestoneEligible",
-        "locale", "source", "imageUrl", "verified", "typeId", "sourceId",
+        "locale", "source", "imageUrl", "image_url", "verified", "typeId", "sourceId",
         "id", "name",  # name is alias for title, not content
-        "issuer_name", "issued_at_date", "date", "url",  # aliases
+        "issuer_name", "issued_at", "issued_at_date", "date", "url",  # date aliases
         "verification_type",  # alias for type
         "skills",  # can vary in ordering but not semantic content
         "retired", "retirement_reason", "retired_at",  # schema addition fields, not content change
