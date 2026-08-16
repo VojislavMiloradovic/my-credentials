@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RetiredCredentialsRegistry",
+  "description": "Registry of retired credentials across platforms, matching on canonical ID, stable UID, or normalized URL.",
+  "type": "object",
+  "patternProperties": {
+    "^[a-z0-9-]+$": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Canonical provider ID, UID, license number, badge ID, or normalized URL."
+          },
+          "match_type": {
+            "type": "string",
+            "enum": ["id", "uid", "url", "license", "badge_id"],
+            "default": "url"
+          },
+          "reason": {
+            "type": "string",
+            "description": "Reason for retirement (e.g. Content retired by provider, Course deprecated)."
+          },
+          "retired_at": {
+            "type": "string",
+            "format": "date",
+            "description": "ISO date (YYYY-MM-DD) when retirement was recorded or detected."
+          },
+          "url": {
+            "type": "string",
+            "description": "Optional original URL for reference or link-checker exclusion."
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  }
+}

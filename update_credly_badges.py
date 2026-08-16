@@ -29,6 +29,37 @@ except ImportError:
                 with open(filepath, "r", encoding="utf-8") as f:
                     if f.read() == new_content:
                         return False
+"""
+update_credly_badges.py
+-----------------------
+Pipeline for updating Credly profile badges and credentials via Credly public API.
+Includes Credly API pagination, JSON parsing, Pydantic schema validation,
+date coercion, data loss / anomaly guards, safe directory handling, archiver integration,
+and additive dataset merging to prevent API page truncation data loss.
+"""
+
+import json
+import logging
+import os
+import sys
+from datetime import UTC, datetime
+from typing import Any
+
+import requests
+from pydantic import BaseModel, Field, ValidationError, field_validator
+
+# Archive Integration Helper
+try:
+    from archiver import RAW_BASE_DEFAULT, generate_platform_archive, safe_write_file
+except ImportError:
+    RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
+    generate_platform_archive = None
+    def safe_write_file(filepath: str, new_content: str) -> bool:
+        if os.path.exists(filepath):
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    if f.read() == new_content:
+                        return False
             except Exception:
                 pass
         with open(filepath, "w", encoding="utf-8", newline="\n") as f:
@@ -43,36 +74,70 @@ except ImportError:
     execute_content_loss_guard = None
     PipelineDataLossAnomaly = Exception
 
-# Retired URL mapping
+# Retired credentials registry mapping
 RETIRED_URLS_FILE = "retired_urls.json"
 
-def load_retired_urls(platform: str) -> set[str]:
-    """Load retired URLs for a platform from the mapping file."""
+def load_retired_rules(platform: str) -> list[dict[str, Any]]:
+    """Load retired credential rules for a platform from the mapping file."""
     if not os.path.exists(RETIRED_URLS_FILE):
         logger.debug(f"Retired URLs file not found: {RETIRED_URLS_FILE}")
-        return set()
+        return []
     try:
         with open(RETIRED_URLS_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-        urls = set(data.get(platform, []))
-        logger.info(f"Loaded {len(urls)} retired URL(s) for {platform}")
-        return urls
+        entries = data.get(platform, [])
+        rules = []
+        for entry in entries:
+            if isinstance(entry, str):
+                rules.append({"id": entry, "match_type": "url", "url": entry})
+            elif isinstance(entry, dict) and entry.get("id"):
+                rules.append(entry)
+        logger.info(f"Loaded {len(rules)} retired rule(s) for {platform}")
+        return rules
     except Exception as e:
-        logger.warning(f"⚠️ Could not load retired URLs for {platform}: {e}")
-        return set()
+        logger.warning(f"⚠️ Could not load retired rules for {platform}: {e}")
+        return []
 
-def mark_retired(items: list[dict], retired_urls: set[str], url_field: str = "verify_url", retired_field: str = "retired") -> tuple[int, int]:
-    """Mark items as retired if their URL matches known retired URLs.
-    Returns (total_checked, total_marked)."""
-    if not retired_urls:
+def mark_retired(
+    items: list[dict],
+    retired_rules: list[dict[str, Any]],
+    url_field: str = "verify_url",
+    id_fields: list[str] | None = None,
+    retired_field: str = "retired",
+) -> tuple[int, int]:
+    """Mark items as retired if their ID or URL matches known retired rules."""
+    if not retired_rules:
         return len(items), 0
+    search_id_fields = id_fields or ["id", "badge_id", "title", "verify_url", "url"]
     marked = 0
     for item in items:
-        url = item.get(url_field)
-        if url and url in retired_urls and not item.get(retired_field, False):
+        if item.get(retired_field, False):
+            continue
+
+        item_url = str(item.get(url_field, "")).strip() if item.get(url_field) else None
+        item_ids = {str(item.get(f)).strip() for f in search_id_fields if item.get(f)}
+
+        is_retired = False
+        matched_rule = None
+        for rule in retired_rules:
+            rule_id = str(rule.get("id", "")).strip()
+            rule_url = str(rule.get("url", "")).strip() if rule.get("url") else None
+
+            if rule_id in item_ids or (item_url and (rule_id == item_url or rule_url == item_url)):
+                is_retired = True
+                matched_rule = rule
+                break
+
+        if is_retired:
             item[retired_field] = True
+            if matched_rule:
+                if matched_rule.get("reason"):
+                    item["retirement_reason"] = matched_rule["reason"]
+                if matched_rule.get("retired_at"):
+                    item["retired_at"] = matched_rule["retired_at"]
             marked += 1
-            logger.info(f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'} (URL: {url})")
+            logger.info(f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}")
+
     logger.info(f"Retired check: {len(items)} items checked, {marked} marked as retired")
     return len(items), marked
 
@@ -606,33 +671,31 @@ def main():
         unique_badges = local_badges
     else:
         unique_badges = merge_badge_datasets(native_badges, external_badges)
+        
+        # 3. Anomaly & Loss Guard Assertion - Content-Aware
+        if execute_content_loss_guard:
+            try:
+                execute_content_loss_guard(
+                    new_records=unique_badges,
+                    platform="credly",
+                    id_field="id",
+                    fail_on_warn=True,
+                )
+            except PipelineDataLossAnomaly as anomaly_err:
+                logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+                sys.exit(1)
+        else:
+            logger.warning("⚠️ Content-aware loss guard unavailable, falling back to count-only check")
+            try:
+                execute_data_loss_guard(unique_badges, OUTPUT_FILE)
+            except PipelineDataLossAnomaly as anomaly_err:
+                logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+                sys.exit(1)
 
-# 3. Anomaly & Loss Guard Assertion - Content-Aware
-    #    Uses stable Credly badge IDs (UUIDs) and content hashes to detect
-    #    replacement/modification even when total badge count remains stable.
-    if execute_content_loss_guard:
-        try:
-            execute_content_loss_guard(
-                new_records=unique_badges,
-                platform="credly",
-                id_field="id",  # Credly badges have stable UUID 'id' field
-                fail_on_warn=True  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
-            )
-        except PipelineDataLossAnomaly as anomaly_err:
-            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
-            sys.exit(1)
-    else:
-        logger.warning("⚠️ Content-aware loss guard unavailable, falling back to count-only check")
-        try:
-            execute_data_loss_guard(unique_badges, OUTPUT_FILE)
-        except PipelineDataLossAnomaly as anomaly_err:
-            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
-            sys.exit(1)
-
-    # 4. Retired URL detection
-    retired_urls = load_retired_urls("credly")
-    if retired_urls:
-        _, marked = mark_retired(unique_badges, retired_urls, url_field="verify_url")
+    # 4. Retired URL / Identity detection
+    retired_rules = load_retired_rules("credly")
+    if retired_rules:
+        _, marked = mark_retired(unique_badges, retired_rules, url_field="verify_url")
         if marked > 0:
             logger.info(f"📝 Updated {marked} badge(s) with retired status")
 

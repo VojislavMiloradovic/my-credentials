@@ -43,42 +43,100 @@ except ImportError:
     execute_content_loss_guard = None
     PipelineDataLossAnomaly = Exception
 
-# Retired URL mapping
+# Retired credentials registry mapping
 RETIRED_URLS_FILE = "retired_urls.json"
 
-def load_retired_urls(platform: str) -> set[str]:
-    """Load retired URLs for a platform from the mapping file."""
+def load_retired_rules(platform: str) -> list[dict[str, Any]]:
+    """Load retired credential rules for a platform from the mapping file.
+    Supports both legacy string list format and structured rule objects.
+    """
     if not os.path.exists(RETIRED_URLS_FILE):
         logger.debug(f"Retired URLs file not found: {RETIRED_URLS_FILE}")
-        return set()
+        return []
     try:
         with open(RETIRED_URLS_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-        urls = set(data.get(platform, []))
-        logger.info(f"Loaded {len(urls)} retired URL(s) for {platform}")
-        return urls
+        entries = data.get(platform, [])
+        rules = []
+        for entry in entries:
+            if isinstance(entry, str):
+                rules.append({"id": entry, "match_type": "url", "url": entry})
+            elif isinstance(entry, dict) and entry.get("id"):
+                rules.append(entry)
+        logger.info(f"Loaded {len(rules)} retired rule(s) for {platform}")
+        return rules
     except Exception as e:
-        logger.warning(f"⚠️ Could not load retired URLs for {platform}: {e}")
-        return set()
+        logger.warning(f"⚠️ Could not load retired rules for {platform}: {e}")
+        return []
 
-def mark_retired(items: list[dict], retired_urls: set[str], url_field: str | list[str] = "url", retired_field: str = "retired", normalize_url: Callable[[str], str] | None = None) -> tuple[int, int]:
-    """Mark items as retired if their URL matches known retired URLs.
-    Returns (total_checked, total_marked)."""
-    if not retired_urls:
+def mark_retired(
+    items: list[dict],
+    retired_rules: list[dict[str, Any]],
+    url_field: str | list[str] = "url",
+    id_fields: list[str] | None = None,
+    retired_field: str = "retired",
+    normalize_url: Callable[[str], str] | None = None,
+) -> tuple[int, int]:
+    """Mark items as retired if their ID, UID, or URL matches known retired rules.
+    Returns (total_checked, total_marked).
+    """
+    if not retired_rules:
         return len(items), 0
     url_fields = [url_field] if isinstance(url_field, str) else url_field
+    search_id_fields = id_fields or ["id", "uid", "sourceUid", "credentialId", "learningPathUid", "learning_path_uid", "license"]
     marked = 0
+
     for item in items:
-        url = None
+        if item.get(retired_field, False):
+            continue
+
+        # Extract values for item
+        item_url = None
         for field in url_fields:
             raw_url = item.get(field)
             if raw_url:
-                url = normalize_url(raw_url) if normalize_url else raw_url
+                item_url = normalize_url(raw_url) if normalize_url else str(raw_url).strip()
                 break
-        if url and url in retired_urls and not item.get(retired_field, False):
+
+        item_ids = set()
+        for field in search_id_fields:
+            val = item.get(field)
+            if val:
+                s_val = str(val).strip()
+                item_ids.add(s_val)
+                if normalize_url:
+                    item_ids.add(normalize_url(s_val))
+
+        # Check against rules
+        is_retired = False
+        matched_rule = None
+        for rule in retired_rules:
+            rule_id = str(rule.get("id", "")).strip()
+            rule_url = rule.get("url")
+            rule_norm_url = normalize_url(rule_url) if (rule_url and normalize_url) else rule_url
+
+            # 1. Match by ID / UID / License
+            if rule_id in item_ids:
+                is_retired = True
+                matched_rule = rule
+                break
+
+            # 2. Match by normalized URL
+            if item_url and (rule_id == item_url or (rule_norm_url and item_url == rule_norm_url)):
+                is_retired = True
+                matched_rule = rule
+                break
+
+        if is_retired:
             item[retired_field] = True
+            if matched_rule:
+                if matched_rule.get("reason"):
+                    item["retirement_reason"] = matched_rule["reason"]
+                if matched_rule.get("retired_at"):
+                    item["retired_at"] = matched_rule["retired_at"]
             marked += 1
-            logger.info(f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'} (URL: {url})")
+            logger.info(f"🏷️  Marked as retired: {item.get('title') or item.get('name') or item.get('id') or 'unknown'}")
+
     logger.info(f"Retired check: {len(items)} items checked, {marked} marked as retired")
     return len(items), marked
 
@@ -323,10 +381,10 @@ def main():
         except ValidationError as ve:
             logger.warning(f"⚠️ Skipping invalid achievement entry: {ve}")
 
-    # 2. Retired URL detection (Microsoft Learn)
-    retired_urls = load_retired_urls("microsoft-learn")
-    if retired_urls:
-        _, marked = mark_retired(validated_achievements, retired_urls, url_field="url")
+    # 2. Retired URL / Identity detection (Microsoft Learn)
+    retired_rules = load_retired_rules("microsoft-learn")
+    if retired_rules:
+        _, marked = mark_retired(validated_achievements, retired_rules, url_field="url")
         if marked > 0:
             logger.info(f"📝 Updated {marked} achievement(s) with retired status")
 
@@ -389,16 +447,16 @@ def main():
         except ValidationError as ve:
             logger.warning(f"⚠️ Skipping invalid verifiable credential: {ve}")
 
-    # Also check verifiable credentials against retired URLs
-    if retired_urls:
-        _, marked = mark_retired(user_creds, retired_urls, url_field="sourceUid", retired_field="retired")
+    # Also check verifiable credentials against retired rules
+    if retired_rules:
+        _, marked = mark_retired(user_creds, retired_rules, url_field="sourceUid", id_fields=["sourceUid", "credentialId"], retired_field="retired")
         # Note: verifiable credentials use sourceUid, not url field
         if marked > 0:
             logger.info(f"📝 Updated {marked} verifiable credential(s) with retired status")
 
-    # Also check learning paths against retired URLs
-    if retired_urls:
-        _, marked = mark_retired(learning_paths, retired_urls, url_field=["url", "learningPathUid", "learning_path_uid", "learningPathId"], retired_field="retired", normalize_url=format_verify_url)
+    # Also check learning paths against retired rules
+    if retired_rules:
+        _, marked = mark_retired(learning_paths, retired_rules, url_field=["url", "learningPathUid", "learning_path_uid", "learningPathId"], id_fields=["learningPathUid", "learning_path_uid", "learningPathId"], retired_field="retired", normalize_url=format_verify_url)
         if marked > 0:
             logger.info(f"📝 Updated {marked} learning path(s) with retired status")
 

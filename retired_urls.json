@@ -1,9 +1,21 @@
 {
   "microsoft-learn": [
-    "https://learn.microsoft.com/en-us/training/paths/viva-glint-360-feedback"
+    {
+      "id": "learn.viva-glint-360-feedback",
+      "match_type": "uid",
+      "url": "https://learn.microsoft.com/en-us/training/paths/viva-glint-360-feedback",
+      "reason": "Content retired by Microsoft Learn",
+      "retired_at": "2026-08-01"
+    }
   ],
   "linkedin-certifications": [
-    "https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4"
+    {
+      "id": "https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4",
+      "match_type": "url",
+      "url": "https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4",
+      "reason": "Course retired by LinkedIn Learning",
+      "retired_at": "2026-08-01"
+    }
   ],
   "google-skills": [],
   "aws-skills": [],
