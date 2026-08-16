@@ -121,15 +121,16 @@ Showing latest 10 of 626 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 544
+**Total Portfolio Credentials:** 545
 **Total Verified Skills Mapped:** 1927
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 544 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 545 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-15 | [Cilium Advanced BGP](https://www.credly.com/badges/71fae5f5-1e4a-4081-be21-645678b51333/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-15 | [Cilium Multi Networking](https://www.credly.com/badges/b1b71f3f-33ae-4d2b-a02d-42a31937b2a1/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-14 | [Agentless Threat Emulation with AttackIQ Flex v3](https://www.credly.com/badges/063a5019-ef91-46ce-b3ad-6bd1e4bbe8a0/public_url) | issued by AttackIQ | Credly Verified Badge |
 | 2026-08-14 | [Cilium Host Firewall](https://www.credly.com/badges/47e22199-0433-4745-9c12-194fba627617/public_url) | issued by Isovalent | Credly Verified Badge |
@@ -139,7 +140,6 @@ Showing latest 10 of 544 credentials. View full dataset via [Platform Archive In
 | 2026-08-14 | [Foundations of CTEM](https://www.credly.com/badges/1a9fd111-6d83-418c-9603-ec8af02aacaf/public_url) | issued by AttackIQ | Credly Verified Badge |
 | 2026-08-14 | [Tetragon Security Visibility](https://www.credly.com/badges/8f8c28a6-bdbe-4bb7-a37f-e40d7693a64c/public_url) | issued by Isovalent | Credly Verified Badge |
 | 2026-08-14 | [Tetragon TLS Visibility](https://www.credly.com/badges/a3d9f055-17d1-479b-ad6c-730a71fdd982/public_url) | issued by Isovalent | Credly Verified Badge |
-| 2026-08-12 | [AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge](https://www.credly.com/badges/b32b2957-f77b-433b-856d-de55f074cb96/public_url) | issued by Amazon Web Services Training and Certification | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
