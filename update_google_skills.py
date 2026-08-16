@@ -402,11 +402,11 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                     try:
                         from bs4 import BeautifulSoup
                         soup = BeautifulSoup(response.text, "html.parser")
-                        badge_elements = soup.find_all(class_=re.compile(r"public-profile-badge|badge-item|badge", re.I))
+                        badge_elements = soup.find_all(class_=re.compile(r"public-profile-badge|badge-item|badge", re.IGNORECASE))
                         parsed = []
                         for el in badge_elements:
-                            title_el = el.find(class_=re.compile(r"title|name|heading", re.I)) or el.find(["h2", "h3", "h4", "strong", "span"])
-                            date_el = el.find(class_=re.compile(r"date|earned|issued", re.I))
+                            title_el = el.find(class_=re.compile(r"title|name|heading", re.IGNORECASE)) or el.find(["h2", "h3", "h4", "strong", "span"])
+                            date_el = el.find(class_=re.compile(r"date|earned|issued", re.IGNORECASE))
                             link_el = el.find("a", href=True)
                             img_el = el.find("img", src=True)
 
