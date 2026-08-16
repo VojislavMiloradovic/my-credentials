@@ -412,11 +412,12 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
 
                             if title_el:
                                 title = title_el.get_text(strip=True)
-                                dt = date_el.get_text(strip=True) if date_el else None
+                                dt = normalize_date_string(date_el.get_text(strip=True) if date_el else None)
                                 verify = link_el["href"] if link_el else f"https://www.skills.google/public_profiles/{profile_id}"
                                 if verify.startswith("/"):
                                     verify = f"https://www.skills.google{verify}"
-                                b_id = generate_badge_id(title, dt)
+                                m = re.search(r"/badges/(\d+)", verify)
+                                b_id = f"google-skills-badge-{m.group(1)}" if m else generate_badge_id(title, dt)
                                 raw_entry = {
                                     "id": b_id,
                                     "title": title,
