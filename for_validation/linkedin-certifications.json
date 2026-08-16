@@ -1,6 +1,6 @@
 {
   "platform": "linkedin-certifications",
-  "total_count": 1466,
+  "total_count": 1479,
   "certifications": [
     {
       "name": "Career Essentials in Generative AI by Microsoft and LinkedIn",
@@ -13194,6 +13194,123 @@
       "url": "https://www.linkedin.com/learning/certificates/cb62315bebf4e7cab791df3c67804015080d9203fd4dca4be7467cfc47fff497",
       "license": "",
       "original_order": 1465,
+      "retired": false
+    },
+    {
+      "name": "Sales: Selling Financial Products and Services",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/9ef828274533451f34077393bd94ec46f6bc5a47c924a49eddc4a36172ab1912",
+      "license": "",
+      "original_order": 1466,
+      "retired": false
+    },
+    {
+      "name": "Boost Your Career with an Experimental Mindset",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/0794e0ce43df17e93aa508748a562eddc2744b62cdd5a79acdad553ed83aeb82",
+      "license": "",
+      "original_order": 1467,
+      "retired": false
+    },
+    {
+      "name": "Cilium Multi Networking",
+      "authority": "Isovalent",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/b1b71f3f-33ae-4d2b-a02d-42a31937b2a1/linked_in_profile",
+      "license": "b1b71f3f-33ae-4d2b-a02d-42a31937b2a1",
+      "original_order": 1468,
+      "retired": false
+    },
+    {
+      "name": "B2B Sales Strategy: Avoid Prospect Stalls and Stops",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/bdcd1070dfaa28daec89f6999ec69fcb4694023b560e2ab81080850dbde2c001",
+      "license": "",
+      "original_order": 1469,
+      "retired": false
+    },
+    {
+      "name": "Building Resilience as a Leader",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/402bf3c13e482ac2c90c94c383a49ae47d6748e2fa637175ccf949adca64530b",
+      "license": "",
+      "original_order": 1470,
+      "retired": false
+    },
+    {
+      "name": "Mixtape: Learning Highlights on Personal Effectiveness",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/1a9c270f7119c3d9fdc404828845c68674106016ba3466cfe636facf492bad7b",
+      "license": "",
+      "original_order": 1471,
+      "retired": false
+    },
+    {
+      "name": "Marketing on LinkedIn",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/b8a074c56f0aaf0fc4d41eaddb3f08763dd745f824d626acadb3648e6bc2a2c1",
+      "license": "",
+      "original_order": 1472,
+      "retired": false
+    },
+    {
+      "name": "Social Media Marketing for Small Business",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/fc47888bd5ca06001489afef0f5c5e1ae54b73a297cc1473dbdba0f69e8cdc7b",
+      "license": "",
+      "original_order": 1473,
+      "retired": false
+    },
+    {
+      "name": "How to Manage Feeling Overwhelmed",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/543038c7094b6d1cdf5562b1dc6b3fb05722b75eee87bbee1d30232f380906c5",
+      "license": "",
+      "original_order": 1474,
+      "retired": false
+    },
+    {
+      "name": "Unconscious Bias (with Audio Descriptions)",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/7507c5c8faa805490918bbbb93d70fb739886ee7b6fa77dc66990be8bd7125f7",
+      "license": "",
+      "original_order": 1475,
+      "retired": false
+    },
+    {
+      "name": "Building a Business Step by Step: Entrepreneurship Fundamentals",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/ad99366f97626b25ef60d52f892eb423ab2e5ddecd7a1f5ccd79555f063de3cb",
+      "license": "",
+      "original_order": 1476,
+      "retired": false
+    },
+    {
+      "name": "Building Resilience (with Audio Descriptions)",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/4d6fbb10505db8625aa815cf170c89a177783e886dec30a7f4070ff56ab0a4d4",
+      "license": "",
+      "original_order": 1477,
+      "retired": false
+    },
+    {
+      "name": "Cilium Advanced BGP",
+      "authority": "Isovalent",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/71fae5f5-1e4a-4081-be21-645678b51333/linked_in_profile",
+      "license": "71fae5f5-1e4a-4081-be21-645678b51333",
+      "original_order": 1478,
       "retired": false
     }
   ]

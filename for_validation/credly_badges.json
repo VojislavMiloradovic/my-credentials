@@ -1,7 +1,31 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 544,
+  "total_count": 545,
   "badges": [
+    {
+      "id": "71fae5f5-1e4a-4081-be21-645678b51333",
+      "title": "Cilium Advanced BGP",
+      "name": "Cilium Advanced BGP",
+      "issuer": "issued by Isovalent",
+      "issuer_name": "issued by Isovalent",
+      "issued_at": "2026-08-15",
+      "issued_at_date": "2026-08-15",
+      "date": "2026-08-15",
+      "image_url": "https://images.credly.com/images/f971c5f9-5461-4e95-817b-aae8db79f01c/tempfile20250605-83-t21a54.png",
+      "verify_url": "https://www.credly.com/badges/71fae5f5-1e4a-4081-be21-645678b51333/public_url",
+      "url": "https://www.credly.com/badges/71fae5f5-1e4a-4081-be21-645678b51333/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "BGP",
+        "Cilium",
+        "eBPF",
+        "Kubernetes",
+        "Networking",
+        "Open Source"
+      ],
+      "retired": false
+    },
     {
       "id": "b1b71f3f-33ae-4d2b-a02d-42a31937b2a1",
       "title": "Cilium Multi Networking",
