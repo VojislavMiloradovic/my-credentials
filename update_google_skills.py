@@ -206,8 +206,8 @@ class GoogleBadgeItemModel(BaseModel):
     id: str = Field(..., min_length=1, description="Unique badge ID or hash")
     title: str = Field(..., min_length=1, description="Google achievement or skill title")
     name: str = Field(..., min_length=1, description="Title alias for compatibility")
-    issuer: str = Field("Google", description="Issuing body")
-    issuer_name: str = Field("Google", description="Issuer alias for compatibility")
+    issuer: str = Field("Google Cloud", description="Issuing body")
+    issuer_name: str = Field("Google Cloud", description="Issuer alias for compatibility")
     issued_at: str | None = Field(None, description="ISO YYYY-MM-DD earned date")
     issued_at_date: str | None = Field(None, description="Alias for issued date")
     date: str | None = Field(None, description="Alias for issued date")
@@ -376,8 +376,8 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                                     "id": str(b_id),
                                     "title": str(title),
                                     "name": str(title),
-                                    "issuer": "Google",
-                                    "issuer_name": "Google",
+                                    "issuer": "Google Cloud",
+                                    "issuer_name": "Google Cloud",
                                     "issued_at": dt,
                                     "issued_at_date": dt,
                                     "date": dt,
@@ -422,8 +422,8 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                                     "id": b_id,
                                     "title": title,
                                     "name": title,
-                                    "issuer": "Google",
-                                    "issuer_name": "Google",
+                                    "issuer": "Google Cloud",
+                                    "issuer_name": "Google Cloud",
                                     "issued_at": dt,
                                     "issued_at_date": dt,
                                     "date": dt,
