@@ -389,11 +389,11 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                         logger.info(f"✅ Successfully retrieved {len(parsed)} badges via JSON endpoint.")
                         return parsed
                 except json.JSONDecodeError:
-                    logger.debug(f"Endpoint {url} returned non-JSON response, attempting HTML fallback.")
+                    logger.info(f"ℹ️ Endpoint {url} returned non-JSON response.")
             else:
-                logger.debug(f"Endpoint {url} responded with HTTP {response.status_code}")
+                logger.info(f"ℹ️ Endpoint {url} responded with HTTP {response.status_code}")
         except requests.exceptions.RequestException as e:
-            logger.debug(f"Network request to {url} skipped/failed: {e}")
+            logger.info(f"ℹ️ Network request to {url} skipped/failed: {e}")
 
     # 2. Secondary Strategy: Fallback to local data files
     json_candidates = [
