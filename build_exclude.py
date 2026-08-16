@@ -3,6 +3,7 @@ import json
 import re
 import sys
 
+
 def normalize_url(raw_url: str | None) -> str:
     """Normalize URL to match markdown format (same as format_verify_url in update_ms_learn.py)."""
     if not raw_url or not isinstance(raw_url, str):
