@@ -1,6 +1,30 @@
 import glob
 import json
+import re
 import sys
+
+def normalize_url(raw_url: str | None) -> str:
+    """Normalize URL to match markdown format (same as format_verify_url in update_ms_learn.py)."""
+    if not raw_url or not isinstance(raw_url, str):
+        return ""
+    clean = raw_url.strip()
+    # Remove trailing " program/" and any spaces that break URLs
+    clean = re.sub(r'\s+program/?$', '', clean)
+    clean = clean.replace(' ', '')
+    if not clean:
+        return ""
+    # Handle learning path UID format: learn.viva-glint-360-feedback -> https://learn.microsoft.com/en-us/training/paths/viva-glint-360-feedback
+    if clean.startswith("learn."):
+        path_part = clean[6:]  # Remove "learn." prefix
+        clean = f"https://learn.microsoft.com/en-us/training/paths/{path_part}"
+    elif not clean.startswith("http"):
+        if clean.startswith("/"):
+            clean = f"https://learn.microsoft.com/en-us{clean}"
+        else:
+            clean = f"https://learn.microsoft.com/en-us/{clean}"
+    elif "learn.microsoft.com/training/" in clean:
+        clean = clean.replace("learn.microsoft.com/training/", "learn.microsoft.com/en-us/training/")
+    return clean
 
 retired = []
 for f in glob.glob('for_validation/*.json'):
@@ -26,9 +50,17 @@ for f in glob.glob('for_validation/*.json'):
             continue
 
         for item in items:
-            if isinstance(item, dict) and item.get('retired') and item.get('url'):
-                url = item['url']
-                retired.append(url)
+            if isinstance(item, dict) and item.get('retired'):
+                # Try multiple URL fields
+                url = None
+                for field in ('url', 'learningPathUid', 'learning_path_uid', 'learningPathId', 'sourceUid'):
+                    raw = item.get(field)
+                    if raw:
+                        url = normalize_url(raw)
+                        if url:
+                            break
+                if url:
+                    retired.append(url)
     except Exception as e:
         print(f'Warning: Could not parse {f}: {e}', file=sys.stderr)
 
