@@ -29,37 +29,6 @@ except ImportError:
                 with open(filepath, "r", encoding="utf-8") as f:
                     if f.read() == new_content:
                         return False
-"""
-update_credly_badges.py
------------------------
-Pipeline for updating Credly profile badges and credentials via Credly public API.
-Includes Credly API pagination, JSON parsing, Pydantic schema validation,
-date coercion, data loss / anomaly guards, safe directory handling, archiver integration,
-and additive dataset merging to prevent API page truncation data loss.
-"""
-
-import json
-import logging
-import os
-import sys
-from datetime import UTC, datetime
-from typing import Any
-
-import requests
-from pydantic import BaseModel, Field, ValidationError, field_validator
-
-# Archive Integration Helper
-try:
-    from archiver import RAW_BASE_DEFAULT, generate_platform_archive, safe_write_file
-except ImportError:
-    RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
-    generate_platform_archive = None
-    def safe_write_file(filepath: str, new_content: str) -> bool:
-        if os.path.exists(filepath):
-            try:
-                with open(filepath, "r", encoding="utf-8") as f:
-                    if f.read() == new_content:
-                        return False
             except Exception:
                 pass
         with open(filepath, "w", encoding="utf-8", newline="\n") as f:
