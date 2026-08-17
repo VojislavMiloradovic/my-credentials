@@ -1,11 +1,15 @@
 # Complete Google Developer Profile Archive
 
-This document represents a unified, verifiable list of all 1627 records.
+This document represents a unified, verifiable list of all 1631 records.
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Python** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Java** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC C++** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Go** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-13 | **Everything You Need to Build Long-Running Agents on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-13 | **BYOC A2A Codelab** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-13 | **Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tester** | Verified Google Developer granular learning activity module milestone. |
@@ -109,7 +113,7 @@ This document represents a unified, verifiable list of all 1627 records.
 | 2026-06-30 | **Build apps with Android Enterprise** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-30 | **Go further with comment spam detection** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-30 | **Setup Android Studio** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-30 | **Build a Managed Tech Digest Agent with the Gemini API** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Build a Daily Tech Digest Agent with Managed Agents on the Gemini API** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-30 | **PSC-I RDMA VPC Multi-NIC Deployment Guide** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-29 | **Android Views and Compose in Views** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #5: Chart and Present Data in Slides** | Verified Google Developer granular learning activity module milestone. |

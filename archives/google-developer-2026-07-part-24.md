@@ -59,7 +59,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-30 | **Build apps with Android Enterprise** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-30 | **Go further with comment spam detection** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-30 | **Setup Android Studio** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-30 | **Build a Managed Tech Digest Agent with the Gemini API** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-30 | **Build a Daily Tech Digest Agent with Managed Agents on the Gemini API** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-30 | **PSC-I RDMA VPC Multi-NIC Deployment Guide** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-29 | **Android Views and Compose in Views** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #5: Chart and Present Data in Slides** | Verified Google Developer granular learning activity module milestone. |

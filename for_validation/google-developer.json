@@ -1,8 +1,8 @@
 {
   "platform": "google-developer",
   "total_public_badges": 171,
-  "total_detailed_learnings": 1463,
-  "total_combined": 1627,
+  "total_detailed_learnings": 1467,
+  "total_combined": 1631,
   "public_badges": [
     {
       "title": "Android Basics Compose Unit 8 Pathway 2",
@@ -2807,6 +2807,13 @@
       "retired": false
     },
     {
+      "title": "Setup Basic OpenTelemetry Plugin in gRPC Python",
+      "date": "2026-08-17",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Build a Match 3 Arcade Game With Gemini CLI",
       "date": "2026-06-20",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -4601,6 +4608,13 @@
     {
       "title": "Build a Google Workspace AI Agent with ADK and MCP",
       "date": "2026-05-21",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "Setup Basic OpenTelemetry Plugin in gRPC Java",
+      "date": "2026-08-17",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -9051,6 +9065,13 @@
       "retired": false
     },
     {
+      "title": "Setup Basic OpenTelemetry Plugin in gRPC C++",
+      "date": "2026-08-17",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "How to use Baseline in your project",
       "date": "2026-05-27",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -10717,6 +10738,13 @@
       "retired": false
     },
     {
+      "title": "Setup Basic OpenTelemetry Plugin in gRPC Go",
+      "date": "2026-08-17",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "How to deploy a gradio frontend app that calls a backend ADK agent, both running on Cloud Run",
       "date": "2026-06-09",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -10766,7 +10794,7 @@
       "retired": false
     },
     {
-      "title": "Build a Managed Tech Digest Agent with the Gemini API",
+      "title": "Build a Daily Tech Digest Agent with Managed Agents on the Gemini API",
       "date": "2026-06-30",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
@@ -14226,6 +14254,13 @@
       "retired": false
     },
     {
+      "title": "Setup Basic OpenTelemetry Plugin in gRPC Python",
+      "date": "2026-08-17",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Build a Match 3 Arcade Game With Gemini CLI",
       "date": "2026-06-20",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -16013,6 +16048,13 @@
     {
       "title": "Build a Google Workspace AI Agent with ADK and MCP",
       "date": "2026-05-21",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "Setup Basic OpenTelemetry Plugin in gRPC Java",
+      "date": "2026-08-17",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -20449,6 +20491,13 @@
       "retired": false
     },
     {
+      "title": "Setup Basic OpenTelemetry Plugin in gRPC C++",
+      "date": "2026-08-17",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "How to use Baseline in your project",
       "date": "2026-05-27",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -22108,6 +22157,13 @@
       "retired": false
     },
     {
+      "title": "Setup Basic OpenTelemetry Plugin in gRPC Go",
+      "date": "2026-08-17",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "How to deploy a gradio frontend app that calls a backend ADK agent, both running on Cloud Run",
       "date": "2026-06-09",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -22157,7 +22213,7 @@
       "retired": false
     },
     {
-      "title": "Build a Managed Tech Digest Agent with the Gemini API",
+      "title": "Build a Daily Tech Digest Agent with Managed Agents on the Gemini API",
       "date": "2026-06-30",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
