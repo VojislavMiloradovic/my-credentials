@@ -1,7 +1,26 @@
 {
   "profile_id": "2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_count": 344,
+  "total_count": 345,
   "badges": [
+    {
+      "id": "google-skills-badge-26909457",
+      "title": "Vibe Coding for Beginners: From Zero to App",
+      "name": "Vibe Coding for Beginners: From Zero to App",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": null,
+      "issued_at_date": null,
+      "date": null,
+      "image_url": "https://cdn.qwiklabs.com/w08Qy7b1VOOPaieflHPtrilBC6kuMyrY9Vvs2BbZndE%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26909457",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26909457",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Vibe Coding for Beginners: From Zero to App"
+      ],
+      "retired": false
+    },
     {
       "id": "google-skills-badge-26758292",
       "title": "Google Cloud Computing Foundations: Networking & Security in Google Cloud",
