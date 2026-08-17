@@ -705,6 +705,9 @@ MDC-104 Android: Material Advanced Components (Kotlin)
 Adding AdMob ads to a Flutter app
 20. мај 2026.
 
+Setup Basic OpenTelemetry Plugin in gRPC Python
+17. авг 2026.
+
 Build a Match 3 Arcade Game With Gemini CLI
 20. јун 2026.
 
@@ -1502,6 +1505,9 @@ Document AI: Human in the Loop
 
 Build a Google Workspace AI Agent with ADK and MCP
 21. мај 2026.
+
+Setup Basic OpenTelemetry Plugin in gRPC Java
+17. авг 2026.
 
 Managed Service for Apache Spark
 24. мај 2026.
@@ -3549,6 +3555,9 @@ Setup Android Studio
 Add a map to your iOS app (Swift)
 3. јун 2026.
 
+Setup Basic OpenTelemetry Plugin in gRPC C++
+17. авг 2026.
+
 How to use Baseline in your project
 27. мај 2026.
 
@@ -4359,6 +4368,9 @@ Build a Multi-Agent Organic Chemistry Safety & Research Assistant with Antigravi
 Deploy ASP.NET Core app to Google Kubernetes Engine with Istio (Part 1)
 10. јун 2026.
 
+Setup Basic OpenTelemetry Plugin in gRPC Go
+17. авг 2026.
+
 How to deploy a gradio frontend app that calls a backend ADK agent, both running on Cloud Run
 9. јун 2026.
 
@@ -4383,7 +4395,7 @@ Way Back Home - Event-Driven Architecture with Google ADK, A2A, and Kafka
 Lesson 8: App architecture (UI layer)
 30. јун 2026.
 
-Build a Managed Tech Digest Agent with the Gemini API
+Build a Daily Tech Digest Agent with Managed Agents on the Gemini API
 30. јун 2026.
 
 Battle Peach - A Microservices Battle Ground
