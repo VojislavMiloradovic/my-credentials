@@ -1,6 +1,6 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 551,
+  "total_count": 552,
   "badges": [
     {
       "id": "a160212a-4ac9-4a6c-bf7c-e6479e62c4f1",
@@ -26,6 +26,31 @@
         "Network Policies",
         "Open Source",
         "Service Mesh"
+      ],
+      "retired": false
+    },
+    {
+      "id": "d249f1c3-209a-4389-870b-a322e3802fe2",
+      "title": "Cilium Multicast",
+      "name": "Cilium Multicast",
+      "issuer": "Isovalent",
+      "issuer_name": "Isovalent",
+      "issued_at": "2026-08-18",
+      "issued_at_date": "2026-08-18",
+      "date": "2026-08-18",
+      "image_url": "https://images.credly.com/images/a1595fe3-d5ed-45ac-b9b5-793e724237d1/tempfile20250605-63-onckka.png",
+      "verify_url": "https://www.credly.com/badges/d249f1c3-209a-4389-870b-a322e3802fe2/public_url",
+      "url": "https://www.credly.com/badges/d249f1c3-209a-4389-870b-a322e3802fe2/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "Containers",
+        "Enterprise",
+        "Kubernetes",
+        "Multicast",
+        "Networking",
+        "Tetragon"
       ],
       "retired": false
     },
