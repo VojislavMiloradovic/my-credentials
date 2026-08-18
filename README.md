@@ -121,16 +121,17 @@ Showing latest 10 of 626 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 551
-**Total Verified Skills Mapped:** 1936
+**Total Portfolio Credentials:** 552
+**Total Verified Skills Mapped:** 1937
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 551 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 552 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-08-18 | [Cilium Envoy L7 Proxy](https://www.credly.com/badges/a160212a-4ac9-4a6c-bf7c-e6479e62c4f1/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-18 | [Cilium Multicast](https://www.credly.com/badges/d249f1c3-209a-4389-870b-a322e3802fe2/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cloud Tech Professional MDR](https://www.credly.com/badges/67aae11f-1810-4d48-b93e-89edfbf171d2/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-18 | [Cloud Tech Pro - M365 Security Posture Management](https://www.credly.com/badges/767cc161-6691-4b33-9549-e0efa0087735/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-18 | [Detection Management: From Entropy to Evidence](https://www.credly.com/badges/64e9cd6c-2792-435c-9c64-1ead3a7a2665/public_url) | AttackIQ | Credly Verified Badge |
@@ -139,7 +140,6 @@ Showing latest 10 of 551 credentials. View full dataset via [Platform Archive In
 | 2026-08-15 | [Cilium Advanced BGP](https://www.credly.com/badges/71fae5f5-1e4a-4081-be21-645678b51333/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-15 | [Cilium Multi Networking](https://www.credly.com/badges/b1b71f3f-33ae-4d2b-a02d-42a31937b2a1/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-14 | [Agentless Threat Emulation with AttackIQ Flex v3](https://www.credly.com/badges/063a5019-ef91-46ce-b3ad-6bd1e4bbe8a0/public_url) | AttackIQ | Credly Verified Badge |
-| 2026-08-14 | [Cilium Host Firewall](https://www.credly.com/badges/47e22199-0433-4745-9c12-194fba627617/public_url) | Isovalent | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

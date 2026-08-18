@@ -1,12 +1,13 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 551 records.
+This document represents a unified, verifiable list of all 552 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-08-18 | [Cilium Envoy L7 Proxy](https://www.credly.com/badges/a160212a-4ac9-4a6c-bf7c-e6479e62c4f1/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-18 | [Cilium Multicast](https://www.credly.com/badges/d249f1c3-209a-4389-870b-a322e3802fe2/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cloud Tech Professional MDR](https://www.credly.com/badges/67aae11f-1810-4d48-b93e-89edfbf171d2/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-18 | [Cloud Tech Pro - M365 Security Posture Management](https://www.credly.com/badges/767cc161-6691-4b33-9549-e0efa0087735/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-18 | [Detection Management: From Entropy to Evidence](https://www.credly.com/badges/64e9cd6c-2792-435c-9c64-1ead3a7a2665/public_url) | AttackIQ | Credly Verified Badge |
