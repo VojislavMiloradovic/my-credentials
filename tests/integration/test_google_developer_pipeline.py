@@ -5,7 +5,7 @@ Integration tests for Google Developer pipeline (update_google_developer.py).
 import json
 import sys
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 import pytest
 import responses
@@ -13,24 +13,16 @@ import responses
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from update_google_developer import (
-    README_PATH,
-    ARCHIVE_DIR,
-    PLATFORM_PREFIX,
-    PLATFORM_NAME,
-    LEARNINGS_TXT_PATH,
-    ARCHIVE_MONOLITH,
-    MARKER_START,
     MARKER_END,
-    MAX_ALLOWED_DATA_LOSS_PCT,
-    normalize_date_string,
+    MARKER_START,
     GoogleDeveloperBadgeModel,
-    get_stored_archive_baseline_count,
+    analyze_badge_list,
     execute_data_loss_guard,
-    parse_local_learnings_txt,
     fetch_gdev_badges_rpc,
     find_badges_in_matrix,
-    analyze_badge_list,
     main,
+    normalize_date_string,
+    parse_local_learnings_txt,
 )
 
 
@@ -172,28 +164,29 @@ class TestGoogleDeveloperPipelineIntegration:
         validation_dir = temp_dir / "for_validation"
         validation_dir.mkdir()
         
-        with patch("update_google_developer.LEARNINGS_TXT_PATH", str(learnings_file)), \
-             patch("update_google_developer.README_PATH", str(readme)), \
-             patch("update_google_developer.ARCHIVE_DIR", str(archives_dir)), \
-             patch("update_google_developer.ARCHIVE_MONOLITH", str(archives_dir / "google-developer-complete.md")), \
-             patch("update_google_developer.VALIDATION_DIR", str(validation_dir)):
+        with (
+            patch("update_google_developer.LEARNINGS_TXT_PATH", str(learnings_file)),
+            patch("update_google_developer.README_PATH", str(readme)),
+            patch("update_google_developer.ARCHIVE_DIR", str(archives_dir)),
+            patch("update_google_developer.ARCHIVE_MONOLITH", str(archives_dir / "google-developer-complete.md")),
+            patch("update_google_developer.VALIDATION_DIR", str(validation_dir)),
+            responses.RequestsMock() as rsps,
+        ):
+            rsps.add(
+                responses.POST,
+                "https://me.developers.google.com/_/GoogleDeveloperProfile/data/batchexecute",
+                body=sample_google_developer_rpc,
+                status=200,
+            )
             
-            with responses.RequestsMock() as rsps:
-                rsps.add(
-                    responses.POST,
-                    "https://me.developers.google.com/_/GoogleDeveloperProfile/data/batchexecute",
-                    body=sample_google_developer_rpc,
-                    status=200,
-                )
-                
-                main()
-                
-                validation_file = validation_dir / "google-developer.json"
-                assert validation_file.exists()
-                data = json.loads(validation_file.read_text())
-                assert data["platform"] == "google-developer"
-                assert "combined_feed" in data
-                assert len(data["combined_feed"]) >= 3
+            main()
+            
+            validation_file = validation_dir / "google-developer.json"
+            assert validation_file.exists()
+            data = json.loads(validation_file.read_text())
+            assert data["platform"] == "google-developer"
+            assert "combined_feed" in data
+            assert len(data["combined_feed"]) >= 3
 
     def test_main_pipeline_deduplicates(self, temp_dir, sample_google_developer_rpc, mock_archiver, mock_loss_guard, mock_retired_rules):
         """Should deduplicate public badges against local text items."""
@@ -213,23 +206,24 @@ check_circle_outline You have this badge!
         validation_dir = temp_dir / "for_validation"
         validation_dir.mkdir()
         
-        with patch("update_google_developer.LEARNINGS_TXT_PATH", str(learnings_file)), \
-             patch("update_google_developer.README_PATH", str(readme)), \
-             patch("update_google_developer.ARCHIVE_DIR", str(archives_dir)), \
-             patch("update_google_developer.ARCHIVE_MONOLITH", str(archives_dir / "google-developer-complete.md")), \
-             patch("update_google_developer.VALIDATION_DIR", str(validation_dir)):
+        with (
+            patch("update_google_developer.LEARNINGS_TXT_PATH", str(learnings_file)),
+            patch("update_google_developer.README_PATH", str(readme)),
+            patch("update_google_developer.ARCHIVE_DIR", str(archives_dir)),
+            patch("update_google_developer.ARCHIVE_MONOLITH", str(archives_dir / "google-developer-complete.md")),
+            patch("update_google_developer.VALIDATION_DIR", str(validation_dir)),
+            responses.RequestsMock() as rsps,
+        ):
+            rsps.add(
+                responses.POST,
+                "https://me.developers.google.com/_/GoogleDeveloperProfile/data/batchexecute",
+                body=sample_google_developer_rpc,
+                status=200,
+            )
             
-            with responses.RequestsMock() as rsps:
-                rsps.add(
-                    responses.POST,
-                    "https://me.developers.google.com/_/GoogleDeveloperProfile/data/batchexecute",
-                    body=sample_google_developer_rpc,
-                    status=200,
-                )
-                
-                main()
-                
-                validation_file = validation_dir / "google-developer.json"
-                data = json.loads(validation_file.read_text())
-                titles = [b["title"] for b in data["combined_feed"]]
-                assert titles.count("Setup Basic OpenTelemetry Plugin in gRPC Python") == 1
+            main()
+            
+            validation_file = validation_dir / "google-developer.json"
+            data = json.loads(validation_file.read_text())
+            titles = [b["title"] for b in data["combined_feed"]]
+            assert titles.count("Setup Basic OpenTelemetry Plugin in gRPC Python") == 1

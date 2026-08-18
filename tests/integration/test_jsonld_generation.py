@@ -12,18 +12,14 @@ import pytest
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from generate_jsonld import (
-    ARCHIVE_DIR,
-    README_PATH,
-    JSONLD_PATH,
-    MARKER_START,
     MARKER_END,
-    JSONLD_SCHEMA,
+    MARKER_START,
     clean_str,
-    validate_jsonld,
-    extract_table_data_rows,
-    parse_archive_monoliths,
     cleanup_readme,
+    extract_table_data_rows,
     main,
+    parse_archive_monoliths,
+    validate_jsonld,
 )
 
 

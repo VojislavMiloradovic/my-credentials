@@ -7,11 +7,11 @@ from pydantic import ValidationError
 
 # Import all models
 from update_aws_skills import AwsBadgeItemModel, AwsSkillsArchivePayloadModel
+from update_credly_badges import CredlyArchivePayloadModel, CredlyBadgeItemModel
+from update_google_developer import GoogleDeveloperBadgeModel
 from update_google_skills import GoogleBadgeItemModel, GoogleSkillsArchivePayloadModel
-from update_credly_badges import CredlyBadgeItemModel, CredlyArchivePayloadModel
 from update_linkedin import LinkedInCertModel
 from update_ms_learn import MSAchievementModel, MSVerifiableCredentialModel
-from update_google_developer import GoogleDeveloperBadgeModel
 
 
 class TestAwsModels:

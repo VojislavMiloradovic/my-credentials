@@ -2,40 +2,27 @@
 Integration tests for LLMS generation (generate_llms_txt.py, generate_llms_full.py).
 """
 
-import json
 import sys
 from pathlib import Path
 from unittest.mock import patch
 
-import pytest
-
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
+from generate_llms_full import (
+    MONOLITH_CONFIGS as FULL_MONOLITH_CONFIGS,
+)
+from generate_llms_full import (
+    generate_llms_full,
+    read_file_safe,
+)
 from generate_llms_txt import (
-    README_PATH,
-    ARCHIVE_DIR,
-    LLMS_PATH,
-    RAW_BASE_URL,
-    DOMAIN_PATTERNS,
-    FALLBACK_DOMAIN,
     MONOLITH_CONFIGS,
-    SLICE_CONFIGS,
     _get_file_stats,
     _scrape_index,
-    read_portfolio_counts,
-    extract_dataset_items,
     calculate_domain_breakdown,
+    extract_dataset_items,
     generate_llms_txt,
-)
-
-from generate_llms_full import (
-    README_PATH as FULL_README_PATH,
-    ARCHIVE_DIR as FULL_ARCHIVE_DIR,
-    JSONLD_PATH as FULL_JSONLD_PATH,
-    LLMS_FULL_PATH,
-    MONOLITH_CONFIGS as FULL_MONOLITH_CONFIGS,
-    read_file_safe,
-    generate_llms_full,
+    read_portfolio_counts,
 )
 
 

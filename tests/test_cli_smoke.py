@@ -4,9 +4,7 @@ CLI smoke tests for all entry points.
 
 import sys
 from pathlib import Path
-from unittest.mock import patch, MagicMock
-
-import pytest
+from unittest.mock import MagicMock, patch
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
@@ -81,7 +79,7 @@ class TestCliSmoke:
 
     def test_main_functions_callable(self):
         """All main functions should be callable (with mocked dependencies)."""
-        from unittest.mock import patch, MagicMock
+        from unittest.mock import patch
         
         with patch("update_ms_learn.os.path.exists", return_value=False), \
              patch("update_ms_learn.sys.exit") as mock_exit:
@@ -129,8 +127,9 @@ class TestCliSmoke:
 
     def test_sanitize_ms_export_cli(self):
         """sanitize_ms_export.py should accept file argument."""
-        import sanitize_ms_export
         import sys
+
+        import sanitize_ms_export
         
         with patch.object(sys, "argv", ["sanitize_ms_export.py", "nonexistent.json"]), \
              patch("sanitize_ms_export.sys.exit") as mock_exit:

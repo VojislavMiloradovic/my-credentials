@@ -2,16 +2,16 @@
 Unit tests for date normalization functions across all providers.
 """
 
+
 import pytest
-from datetime import UTC, datetime
 
 # Import date normalization functions from each provider
 from update_aws_skills import normalize_date_string as aws_normalize_date
-from update_google_skills import normalize_date_string as google_normalize_date
 from update_credly_badges import normalize_date_string as credly_normalize_date
+from update_google_developer import normalize_date_string as gdev_normalize_date
+from update_google_skills import normalize_date_string as google_normalize_date
 from update_linkedin import parse_linkedin_date
 from update_ms_learn import clean_iso_date
-from update_google_developer import normalize_date_string as gdev_normalize_date
 
 
 class TestAwsDateNormalization:

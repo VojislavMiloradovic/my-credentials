@@ -121,25 +121,25 @@ Showing latest 10 of 626 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 545
-**Total Verified Skills Mapped:** 1927
+**Total Portfolio Credentials:** 551
+**Total Verified Skills Mapped:** 1936
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 545 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 551 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-08-15 | [Cilium Advanced BGP](https://www.credly.com/badges/71fae5f5-1e4a-4081-be21-645678b51333/public_url) | issued by Isovalent | Credly Verified Badge |
-| 2026-08-15 | [Cilium Multi Networking](https://www.credly.com/badges/b1b71f3f-33ae-4d2b-a02d-42a31937b2a1/public_url) | issued by Isovalent | Credly Verified Badge |
-| 2026-08-14 | [Agentless Threat Emulation with AttackIQ Flex v3](https://www.credly.com/badges/063a5019-ef91-46ce-b3ad-6bd1e4bbe8a0/public_url) | issued by AttackIQ | Credly Verified Badge |
-| 2026-08-14 | [Cilium Host Firewall](https://www.credly.com/badges/47e22199-0433-4745-9c12-194fba627617/public_url) | issued by Isovalent | Credly Verified Badge |
-| 2026-08-14 | [Cilium Zero Trust Visibility](https://www.credly.com/badges/052c407b-a68b-4e80-9f1d-6f7ea7ce108b/public_url) | issued by Isovalent | Credly Verified Badge |
-| 2026-08-14 | [Cloud Tech Pro - Email Security](https://www.credly.com/badges/a94e5a37-1599-485e-a03c-b28d11fdd800/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-08-14 | [Cloud Tech Professional Home & Business](https://www.credly.com/badges/664f50a3-c675-434d-890f-4efd62cbfb7d/public_url) | issued by Acronis | Credly Verified Badge |
-| 2026-08-14 | [Foundations of CTEM](https://www.credly.com/badges/1a9fd111-6d83-418c-9603-ec8af02aacaf/public_url) | issued by AttackIQ | Credly Verified Badge |
-| 2026-08-14 | [Tetragon Security Visibility](https://www.credly.com/badges/8f8c28a6-bdbe-4bb7-a37f-e40d7693a64c/public_url) | issued by Isovalent | Credly Verified Badge |
-| 2026-08-14 | [Tetragon TLS Visibility](https://www.credly.com/badges/a3d9f055-17d1-479b-ad6c-730a71fdd982/public_url) | issued by Isovalent | Credly Verified Badge |
+| 2026-08-18 | [Cilium Envoy L7 Proxy](https://www.credly.com/badges/a160212a-4ac9-4a6c-bf7c-e6479e62c4f1/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-18 | [Cloud Tech Professional MDR](https://www.credly.com/badges/67aae11f-1810-4d48-b93e-89edfbf171d2/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-18 | [Cloud Tech Pro - M365 Security Posture Management](https://www.credly.com/badges/767cc161-6691-4b33-9549-e0efa0087735/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-18 | [Detection Management: From Entropy to Evidence](https://www.credly.com/badges/64e9cd6c-2792-435c-9c64-1ead3a7a2665/public_url) | AttackIQ | Credly Verified Badge |
+| 2026-08-18 | [Getting Started with the Isovalent Load Balancer](https://www.credly.com/badges/d493b0bb-da10-4eb3-a043-5bf9d4cb2a5a/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-18 | [Testing Linux and Mac with OceanLotus](https://www.credly.com/badges/1d046e1f-36dd-4bcd-a755-52786f7468a7/public_url) | AttackIQ | Credly Verified Badge |
+| 2026-08-15 | [Cilium Advanced BGP](https://www.credly.com/badges/71fae5f5-1e4a-4081-be21-645678b51333/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-15 | [Cilium Multi Networking](https://www.credly.com/badges/b1b71f3f-33ae-4d2b-a02d-42a31937b2a1/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-14 | [Agentless Threat Emulation with AttackIQ Flex v3](https://www.credly.com/badges/063a5019-ef91-46ce-b3ad-6bd1e4bbe8a0/public_url) | AttackIQ | Credly Verified Badge |
+| 2026-08-14 | [Cilium Host Firewall](https://www.credly.com/badges/47e22199-0433-4745-9c12-194fba627617/public_url) | Isovalent | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

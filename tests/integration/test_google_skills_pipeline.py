@@ -5,7 +5,7 @@ Integration tests for Google Skills pipeline (update_google_skills.py).
 import json
 import sys
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 import pytest
 import responses
@@ -14,21 +14,16 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from update_google_skills import (
     GOOGLE_PROFILE_ID,
-    VALIDATION_DIR,
-    OUTPUT_FILE,
-    ARCHIVE_MONOLITH,
-    MARKER_START,
     MARKER_END,
-    MAX_ALLOWED_DATA_LOSS_PCT,
-    normalize_date_string,
+    MARKER_START,
     GoogleBadgeItemModel,
     GoogleSkillsArchivePayloadModel,
-    get_stored_archive_baseline_count,
     execute_data_loss_guard,
-    parse_google_badges_from_json,
     fetch_google_skills_badges,
-    build_archives_and_readme,
+    get_stored_archive_baseline_count,
     main,
+    normalize_date_string,
+    parse_google_badges_from_json,
 )
 
 
@@ -179,6 +174,9 @@ class TestGoogleSkillsLossGuard:
 | 2024-01-15 | Badge 1 | Google | Badge |
 | 2024-01-10 | Badge 2 | Google | Badge |
 """)
+        
+        local_json = temp_dir / "google_skills_badges.json"
+        local_json.write_text("[]")
         
         with patch("update_google_skills.ARCHIVE_MONOLITH", str(monolith)), \
              patch("update_google_skills.VALIDATION_DIR", str(temp_dir)), \

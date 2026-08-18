@@ -390,12 +390,22 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
                 issuer_info = badge_template.get("issuer", {}) or {}
 
                 title = badge_template.get("name") or item.get("name") or "Credly Badge"
-                issuer_name = (
-                    issuer_info.get("summary")
-                    or issuer_info.get("name")
-                    or badge_template.get("issuer_name")
-                    or "Credly Issuer"
-                )
+                # Extract issuer name from entities[0].entity.name (e.g., "Acronis") for consistency
+                # rather than summary (e.g., "issued by Acronis") which can vary
+                issuer_name = "Credly Issuer"
+                entities = issuer_info.get("entities")
+                if entities and isinstance(entities, list) and len(entities) > 0:
+                    entity = entities[0].get("entity", {})
+                    if entity.get("name"):
+                        issuer_name = entity["name"]
+                # Fallback to summary or name if entities not available
+                if issuer_name == "Credly Issuer":
+                    issuer_name = (
+                        issuer_info.get("summary")
+                        or issuer_info.get("name")
+                        or badge_template.get("issuer_name")
+                        or "Credly Issuer"
+                    )
 
                 dt = item.get("issued_at") or item.get("created_at")
                 badge_id = str(item.get("id"))

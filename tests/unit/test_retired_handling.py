@@ -3,8 +3,6 @@ Unit tests for retired credential handling (load_retired_rules, mark_retired).
 """
 
 import json
-import tempfile
-from pathlib import Path
 from unittest.mock import patch
 
 import pytest
@@ -153,7 +151,7 @@ class TestMarkRetired:
         ]
         rules = [{"id": "rule-1", "match_type": "url", "url": "https://example.com/1"}]
         
-        total, marked = mark_retired(items, rules)
+        _, marked = mark_retired(items, rules)
         assert marked == 1
         assert items[0]["retired"] is True
 
@@ -167,7 +165,7 @@ class TestMarkRetired:
         ]
         rules = [{"id": "1", "match_type": "id"}]
         
-        total, marked = mark_retired(items, rules)
+        _, marked = mark_retired(items, rules)
         assert marked == 0  # First already retired, second doesn't match
 
     def test_mark_retired_adds_metadata(self):
@@ -181,7 +179,7 @@ class TestMarkRetired:
             "retired_at": "2024-01-01",
         }]
         
-        total, marked = mark_retired(items, rules)
+        _, marked = mark_retired(items, rules)
         assert marked == 1
         assert items[0]["retirement_reason"] == "Content retired"
         assert items[0]["retired_at"] == "2024-01-01"
@@ -196,7 +194,7 @@ class TestMarkRetired:
         ]
         rules = [{"id": "uid-1", "match_type": "url"}]
         
-        total, marked = mark_retired(items, rules, url_field="sourceUid")
+        _, marked = mark_retired(items, rules, url_field="sourceUid")
         assert marked == 1
         assert items[0]["retired"] is True
 
@@ -210,7 +208,7 @@ class TestMarkRetired:
         ]
         rules = [{"id": "cred-1", "match_type": "id"}]
         
-        total, marked = mark_retired(items, rules, id_fields=["credentialId"])
+        _, marked = mark_retired(items, rules, id_fields=["credentialId"])
         assert marked == 1
         assert items[0]["retired"] is True
 
@@ -224,7 +222,7 @@ class TestMarkRetired:
         ]
         rules = [{"id": "lp-1", "match_type": "url"}]
         
-        total, marked = mark_retired(items, rules, url_field=["url", "learningPathUid"])
+        _, marked = mark_retired(items, rules, url_field=["url", "learningPathUid"])
         assert marked == 1
         assert items[0]["retired"] is True
 
@@ -245,7 +243,7 @@ class TestMarkRetired:
                 return f"https://learn.microsoft.com/en-us/training/paths/{raw[6:]}"
             return raw
         
-        total, marked = mark_retired(items, rules, normalize_url=normalize_url)
+        _, marked = mark_retired(items, rules, normalize_url=normalize_url)
         assert marked == 1
         assert items[0]["retired"] is True
 
@@ -263,7 +261,7 @@ class TestMarkRetired:
             {"id": "3", "match_type": "id"},
         ]
         
-        total, marked = mark_retired(items, rules)
+        _, marked = mark_retired(items, rules)
         assert marked == 2
         assert items[0]["retired"] is True
         assert items[1].get("retired", False) is False

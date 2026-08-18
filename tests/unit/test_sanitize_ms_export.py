@@ -3,18 +3,17 @@ Unit tests for sanitize_ms_export.py
 """
 
 import json
-import tempfile
 from pathlib import Path
 
 import pytest
 
 from sanitize_ms_export import (
-    SENSITIVE_JSON_KEYS,
     INLINE_SCRUB_PATTERNS,
+    SENSITIVE_JSON_KEYS,
     is_sensitive_key,
-    scrub_text,
-    sanitize_node,
     process_file,
+    sanitize_node,
+    scrub_text,
 )
 
 
@@ -189,8 +188,6 @@ class TestProcessFile:
 
     def test_process_file_not_found(self):
         """Should exit with error for non-existent file."""
-        from pathlib import Path
-        import sys
         
         with pytest.raises(SystemExit) as exc_info:
             process_file(Path("nonexistent.json"))

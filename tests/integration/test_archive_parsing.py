@@ -5,16 +5,13 @@ Integration tests for archive parsing utilities.
 import sys
 from pathlib import Path
 
-import pytest
-
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from archiver import (
     generate_platform_archive,
-    safe_write_file,
 )
-
-from generate_jsonld import extract_table_data_rows, extract_table_data_rows as jsonld_extract_table_data_rows
+from generate_jsonld import extract_table_data_rows
+from generate_jsonld import extract_table_data_rows as jsonld_extract_table_data_rows
 from generate_llms_txt import extract_dataset_items
 
 
@@ -134,7 +131,7 @@ class TestArchiveGenerationRoundtrip:
         archive_dir = str(temp_dir / "archives")
         readme_path = str(temp_dir / "README.md")
         
-        latest_slice = generate_platform_archive(
+        _ = generate_platform_archive(
             platform_prefix="test-platform",
             platform_name="Test Platform",
             table_headers=["Date Earned", "Credential Name", "Issuer", "Verification Type"],

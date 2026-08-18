@@ -5,7 +5,7 @@ Integration tests for AWS Skills pipeline (update_aws_skills.py).
 import json
 import sys
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 import pytest
 import responses
@@ -14,24 +14,17 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from update_aws_skills import (
     AWS_PROFILE_USER,
-    VALIDATION_DIR,
-    OUTPUT_FILE,
-    ARCHIVE_MONOLITH,
-    MARKER_START,
     MARKER_END,
-    MAX_ALLOWED_DATA_LOSS_PCT,
-    normalize_date_string,
-    generate_badge_id,
+    MARKER_START,
     AwsBadgeItemModel,
-    AwsSkillsArchivePayloadModel,
-    get_stored_archive_baseline_count,
     execute_data_loss_guard,
-    parse_aws_badges_from_json,
-    locate_aws_csv_file,
-    parse_aws_badges_from_csv,
     fetch_aws_skills_badges,
-    build_archives_and_readme,
+    generate_badge_id,
+    locate_aws_csv_file,
     main,
+    normalize_date_string,
+    parse_aws_badges_from_csv,
+    parse_aws_badges_from_json,
 )
 
 

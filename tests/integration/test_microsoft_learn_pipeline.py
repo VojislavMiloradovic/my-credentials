@@ -3,35 +3,30 @@ Integration tests for Microsoft Learn pipeline (update_ms_learn.py).
 """
 
 import json
-import os
 import sys
+from datetime import UTC, datetime
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 import pytest
-import responses
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from update_ms_learn import (
-    JSON_PATH,
-    VALIDATION_DIR,
-    ARCHIVE_MONOLITH,
-    MARKER_START,
     MARKER_END,
-    MAX_ALLOWED_DATA_LOSS_PCT,
-    format_num,
-    format_verify_url,
-    clean_uid,
-    clean_iso_date,
-    parse_date,
-    resolve_level,
+    MARKER_START,
     MSAchievementModel,
     MSVerifiableCredentialModel,
-    get_stored_archive_baseline_count,
+    clean_iso_date,
+    clean_uid,
     execute_data_loss_guard,
+    format_num,
+    format_verify_url,
+    get_stored_archive_baseline_count,
     main,
+    parse_date,
+    resolve_level,
 )
 
 
@@ -96,7 +91,7 @@ class TestMsLearnHelpers:
         xp_data = {}
         assert resolve_level(xp_profile, xp_data, 0) == "10"
         
-        xp_profile2 = {"totalXp": 6000000}
+        _ = {"totalXp": 6000000}
         assert resolve_level({}, {}, 6000000) == "20"
         
         assert resolve_level({}, {}, 0) == "20"

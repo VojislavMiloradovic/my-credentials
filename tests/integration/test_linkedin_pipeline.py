@@ -2,30 +2,24 @@
 Integration tests for LinkedIn pipeline (update_linkedin.py).
 """
 
+import json
 import sys
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from update_linkedin import (
-    README_PATH,
-    ARCHIVE_DIR,
-    PLATFORM_PREFIX,
-    PLATFORM_NAME,
-    ARCHIVE_MONOLITH,
-    MARKER_START,
     MARKER_END,
-    MAX_ALLOWED_DATA_LOSS_PCT,
-    parse_linkedin_date,
+    MARKER_START,
     LinkedInCertModel,
-    get_stored_archive_baseline_count,
     execute_data_loss_guard,
     locate_certifications_csv,
-    parse_certifications_csv,
     main,
+    parse_certifications_csv,
+    parse_linkedin_date,
 )
 
 

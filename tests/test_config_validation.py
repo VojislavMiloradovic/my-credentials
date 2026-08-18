@@ -7,8 +7,6 @@ import sys
 import tomllib
 from pathlib import Path
 
-import pytest
-
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 
@@ -145,7 +143,7 @@ class TestRetiredUrlsJson:
         with open("retired_urls.json", "r") as f:
             data = json.load(f)
         
-        for platform, entries in data.items():
+        for entries in data.values():
             for entry in entries:
                 if isinstance(entry, dict):
                     assert "id" in entry

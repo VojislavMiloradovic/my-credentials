@@ -3,9 +3,7 @@ Shared pytest configuration and fixtures for my-credentials test suite.
 """
 
 import json
-import os
 import sys
-from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 from unittest.mock import MagicMock

@@ -5,7 +5,7 @@ Integration tests for Credly pipeline (update_credly_badges.py).
 import json
 import sys
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 import pytest
 import responses
@@ -15,24 +15,16 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from update_credly_badges import (
     CREDLY_USER,
     CREDLY_USER_ID,
-    VALIDATION_DIR,
-    OUTPUT_FILE,
-    ARCHIVE_MONOLITH,
-    MARKER_START,
     MARKER_END,
-    MAX_ALLOWED_DATA_LOSS_PCT,
-    normalize_date_string,
+    MARKER_START,
     CredlyBadgeItemModel,
-    CredlyArchivePayloadModel,
-    get_stored_archive_baseline_count,
-    execute_data_loss_guard,
-    parse_credly_badges_from_json,
-    load_existing_local_badges,
     fetch_credly_badges,
     fetch_credly_external_badges,
-    merge_badge_datasets,
-    build_archives_and_readme,
+    load_existing_local_badges,
     main,
+    merge_badge_datasets,
+    normalize_date_string,
+    parse_credly_badges_from_json,
 )
 
 
@@ -209,33 +201,34 @@ class TestCredlyPipelineIntegration:
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
         
-        with patch("update_credly_badges.VALIDATION_DIR", str(validation_dir)), \
-             patch("update_credly_badges.OUTPUT_FILE", str(local_json)), \
-             patch("update_credly_badges.ARCHIVE_DIR", str(archives_dir)), \
-             patch("update_credly_badges.ARCHIVE_MONOLITH", str(archives_dir / "credly-complete.md")), \
-             patch("update_credly_badges.README_PATH", str(readme)):
+        with (
+            patch("update_credly_badges.VALIDATION_DIR", str(validation_dir)),
+            patch("update_credly_badges.OUTPUT_FILE", str(local_json)),
+            patch("update_credly_badges.ARCHIVE_DIR", str(archives_dir)),
+            patch("update_credly_badges.ARCHIVE_MONOLITH", str(archives_dir / "credly-complete.md")),
+            patch("update_credly_badges.README_PATH", str(readme)),
+            responses.RequestsMock() as rsps,
+        ):
+            rsps.add(
+                responses.GET,
+                f"https://www.credly.com/users/{CREDLY_USER}/badges.json?page=1",
+                json=sample_credly_api_page1,
+                status=200,
+            )
+            rsps.add(
+                responses.GET,
+                f"https://www.credly.com/users/{CREDLY_USER}/badges.json?page=2",
+                json=sample_credly_api_page2,
+                status=200,
+            )
+            rsps.add(
+                responses.GET,
+                f"https://www.credly.com/api/v1/users/{CREDLY_USER_ID}/external_badges/open_badges/public",
+                json=sample_credly_external_badges,
+                status=200,
+            )
             
-            with responses.RequestsMock() as rsps:
-                rsps.add(
-                    responses.GET,
-                    f"https://www.credly.com/users/{CREDLY_USER}/badges.json?page=1",
-                    json=sample_credly_api_page1,
-                    status=200,
-                )
-                rsps.add(
-                    responses.GET,
-                    f"https://www.credly.com/users/{CREDLY_USER}/badges.json?page=2",
-                    json=sample_credly_api_page2,
-                    status=200,
-                )
-                rsps.add(
-                    responses.GET,
-                    f"https://www.credly.com/api/v1/users/{CREDLY_USER_ID}/external_badges/open_badges/public",
-                    json=sample_credly_external_badges,
-                    status=200,
-                )
-                
-                main()
-                
-                data = json.loads(local_json.read_text())
-                assert len(data["badges"]) == 4  # 3 native + 1 external
+            main()
+            
+            data = json.loads(local_json.read_text())
+            assert len(data["badges"]) == 4  # 3 native + 1 external

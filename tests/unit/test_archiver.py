@@ -2,21 +2,17 @@
 Unit tests for the archiver module.
 """
 
-import os
-import tempfile
 from pathlib import Path
-from unittest.mock import MagicMock, patch
 
 import pytest
 
 from archiver import (
-    RAW_BASE_DEFAULT,
+    _extract_ym,
+    clean_orphaned_chunks,
     count_tokens,
     find_latest_slice,
     generate_platform_archive,
     safe_write_file,
-    clean_orphaned_chunks,
-    _extract_ym,
 )
 
 
@@ -230,7 +226,7 @@ class TestGeneratePlatformArchive:
         
         archive_dir = str(temp_dir / "archives")
         
-        latest_slice = generate_platform_archive(
+        _ = generate_platform_archive(
             platform_prefix="test-platform",
             platform_name="Test Platform",
             table_headers=["Date", "Name", "Issuer", "Type"],
@@ -255,7 +251,7 @@ class TestGeneratePlatformArchive:
         """Part-01 should always contain oldest entries (tail-anchored)."""
         archive_dir = str(temp_dir / "archives")
         
-        latest_slice = generate_platform_archive(
+        _ = generate_platform_archive(
             platform_prefix="test-platform",
             platform_name="Test Platform",
             table_headers=["Date", "Name", "Issuer", "Type"],

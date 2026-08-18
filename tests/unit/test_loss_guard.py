@@ -3,29 +3,23 @@ Unit tests for the loss_guard module.
 """
 
 import json
-import os
-import tempfile
-from datetime import UTC, datetime
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 import pytest
 
 from loss_guard import (
-    PipelineDataLossAnomaly,
-    RecordFingerprint,
-    DiffReport,
     DEFAULT_THRESHOLDS,
     PLATFORM_THRESHOLDS,
-    compute_content_hash,
-    extract_record_id,
+    PipelineDataLossAnomaly,
+    RecordFingerprint,
     build_fingerprint_index,
+    compare_fingerprints,
+    compute_content_hash,
+    execute_content_loss_guard,
+    extract_record_id,
     load_baseline,
     save_baseline,
-    compare_fingerprints,
-    log_diff_report,
-    execute_content_loss_guard,
-    VALIDATION_DIR,
 )
 
 

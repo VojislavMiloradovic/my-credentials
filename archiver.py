@@ -10,6 +10,16 @@ RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-cre
 _ENCODER = None
 
 
+def _safe_print(message: str) -> None:
+    """Print message safely, handling Windows console encoding issues."""
+    try:
+        print(message)
+    except UnicodeEncodeError:
+        # Fallback: replace non-ASCII characters
+        safe_msg = message.encode("ascii", "replace").decode("ascii")
+        print(safe_msg)
+
+
 def count_tokens(text: str, encoding_name: str = "cl100k_base") -> int:
     """Calculates exact token counts using tiktoken (cl100k_base),
     falling back to character estimation if tiktoken is unavailable.
@@ -104,7 +114,7 @@ def generate_platform_archive(
     and updates README markers cleanly with tail-anchored stable chunking.
     Returns the latest slice filename (highest part number) or None.
     """
-    print(f"\n📦 Processing platform archive: {platform_name} ({platform_prefix})")
+    _safe_print(f"\n[PACKAGE] Processing platform archive: {platform_name} ({platform_prefix})")
     os.makedirs(archive_dir, exist_ok=True)
 
     # Sanitize and ensure row texts are clean single-line table rows
@@ -146,8 +156,8 @@ def generate_platform_archive(
     mono_kb = round(mono_bytes / 1024, 2)
     mono_tokens = count_tokens(monolith_text)
 
-    mono_status = "✍️  Updated" if mono_written else "⏭️  Unchanged"
-    print(f"  {mono_status} monolith: {monolith_filename} ({mono_kb} KB | {mono_tokens:,} tokens | {total_entries} records)")
+    mono_status = "Updated" if mono_written else "Unchanged"
+    _safe_print(f"  {mono_status} monolith: {monolith_filename} ({mono_kb} KB | {mono_tokens:,} tokens | {total_entries} records)")
 
     # 2. Stable Chunking Logic (~10 KB limit per file)
     # Process from oldest to newest so part-01 is permanently anchored to oldest history.
@@ -194,7 +204,7 @@ def generate_platform_archive(
 
     # Second pass: write chunks with stable prev/next links
     active_filenames = set(chunk_filenames)
-    print(f"  🧩 Slicing dataset into {total_chunks} stable chunk file(s):")
+    _safe_print(f"  [SLICE] Slicing dataset into {total_chunks} stable chunk file(s):")
 
     for i, meta in enumerate(chunk_meta, start=1):
         chunk_filename = meta["filename"]
@@ -243,8 +253,8 @@ def generate_platform_archive(
         meta["entries"] = len(chunk_rows)
         meta["raw_url"] = f"{raw_base_url}/{chunk_filename}"
 
-        slice_status = "✍️  Updated" if chunk_written else "⏭️  Unchanged"
-        print(f"     [{i:02d}/{total_chunks:02d}] {slice_status}: {chunk_filename} ({file_size_kb} KB | {exact_tokens:,} tokens | {len(chunk_rows)} entries)")
+        slice_status = "Updated" if chunk_written else "Unchanged"
+        _safe_print(f"     [{i:02d}/{total_chunks:02d}] {slice_status}: {chunk_filename} ({file_size_kb} KB | {exact_tokens:,} tokens | {len(chunk_rows)} entries)")
 
     # Clean up obsolete slice files
     clean_orphaned_chunks(archive_dir, platform_prefix, active_filenames)
@@ -278,8 +288,8 @@ def generate_platform_archive(
     idx_md.append("\n\n[← Back to Main README](../README.md)\n")
     idx_written = safe_write_file(index_path, "\n".join(idx_md) + "\n")
 
-    idx_status = "✍️  Updated" if idx_written else "⏭️  Unchanged"
-    print(f"  {idx_status} index: {index_filename}")
+    idx_status = "Updated" if idx_written else "Unchanged"
+    _safe_print(f"  {idx_status} index: {index_filename}")
 
     # 4. Update README.md
     if os.path.exists(readme_path):
@@ -293,11 +303,11 @@ def generate_platform_archive(
             new_content = f"{before}{marker_start}\n{new_block}{marker_end}{after}"
             readme_written = safe_write_file(readme_path, new_content)
 
-            readme_status = "✍️  Updated" if readme_written else "⏭️  Unchanged"
-            print(f"  {readme_status} README markers: {readme_path}")
+            readme_status = "Updated" if readme_written else "Unchanged"
+            _safe_print(f"  {readme_status} README markers: {readme_path}")
 
     # Return latest slice filename for README links
     latest_slice = find_latest_slice(archive_dir, platform_prefix)
     if latest_slice:
-        print(f"  Latest slice: {latest_slice}")
+        _safe_print(f"  Latest slice: {latest_slice}")
     return latest_slice
