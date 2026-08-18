@@ -17,7 +17,7 @@ class TestPyProjectToml:
         """pyproject.toml should be valid TOML."""
         with open("pyproject.toml", "rb") as f:
             data = tomllib.load(f)
-        
+
         assert "build-system" in data
         assert "project" in data
         assert data["project"]["name"] == "my-credentials"
@@ -27,7 +27,7 @@ class TestPyProjectToml:
         """Should have required dependencies."""
         with open("pyproject.toml", "rb") as f:
             data = tomllib.load(f)
-        
+
         deps = data["project"]["dependencies"]
         required = ["requests", "beautifulsoup4", "jsonschema", "tiktoken", "pydantic"]
         for req in required:
@@ -37,9 +37,17 @@ class TestPyProjectToml:
         """Should have test optional dependencies."""
         with open("pyproject.toml", "rb") as f:
             data = tomllib.load(f)
-        
+
         test_deps = data["project"]["optional-dependencies"]["test"]
-        required = ["pytest", "pytest-cov", "pytest-mock", "pytest-xdist", "responses", "freezegun", "mypy"]
+        required = [
+            "pytest",
+            "pytest-cov",
+            "pytest-mock",
+            "pytest-xdist",
+            "responses",
+            "freezegun",
+            "mypy",
+        ]
         for req in required:
             assert any(req in dep for dep in test_deps)
 
@@ -47,7 +55,7 @@ class TestPyProjectToml:
         """Should have dev optional dependencies."""
         with open("pyproject.toml", "rb") as f:
             data = tomllib.load(f)
-        
+
         dev_deps = data["project"]["optional-dependencies"]["dev"]
         assert "ruff" in dev_deps[0]
 
@@ -55,7 +63,7 @@ class TestPyProjectToml:
         """Should have pytest configuration."""
         with open("pyproject.toml", "rb") as f:
             data = tomllib.load(f)
-        
+
         assert "tool" in data
         assert "pytest" in data["tool"]
         assert "ini_options" in data["tool"]["pytest"]
@@ -64,7 +72,7 @@ class TestPyProjectToml:
         """Should have ruff configuration."""
         with open("pyproject.toml", "rb") as f:
             data = tomllib.load(f)
-        
+
         assert "tool" in data
         assert "ruff" in data["tool"]
         assert "lint" in data["tool"]["ruff"]
@@ -77,14 +85,14 @@ class TestRuffToml:
         """ruff.toml should be valid TOML."""
         with open("ruff.toml", "rb") as f:
             data = tomllib.load(f)
-        
+
         assert "lint" in data
 
     def test_ruff_toml_has_ignored_rules(self):
         """Should have expected ignored lint rules."""
         with open("ruff.toml", "rb") as f:
             data = tomllib.load(f)
-        
+
         ignored = data["lint"]["ignore"]
         expected = ["BLE001", "DTZ005", "DTZ007", "DTZ901", "S110", "S112", "TRY002"]
         for rule in expected:
@@ -98,7 +106,7 @@ class TestLycheeToml:
         """lychee.toml should be valid TOML."""
         with open("lychee.toml", "rb") as f:
             data = tomllib.load(f)
-        
+
         assert "verbose" in data
         assert "timeout" in data
         assert "hosts" in data
@@ -107,7 +115,7 @@ class TestLycheeToml:
         """Should have rate limits for sensitive hosts."""
         with open("lychee.toml", "rb") as f:
             data = tomllib.load(f)
-        
+
         hosts = data["hosts"]
         assert "linkedin.com" in hosts
         assert "credly.com" in hosts
@@ -122,17 +130,21 @@ class TestRetiredUrlsJson:
         """retired_urls.json should be valid JSON."""
         with open("retired_urls.json", "r") as f:
             data = json.load(f)
-        
+
         assert isinstance(data, dict)
 
     def test_retired_urls_json_has_all_platforms(self):
         """Should have entries for all platforms."""
         with open("retired_urls.json", "r") as f:
             data = json.load(f)
-        
+
         expected_platforms = [
-            "microsoft-learn", "google-skills", "aws-skills",
-            "credly", "linkedin-certifications", "google-developer"
+            "microsoft-learn",
+            "google-skills",
+            "aws-skills",
+            "credly",
+            "linkedin-certifications",
+            "google-developer",
         ]
         for platform in expected_platforms:
             assert platform in data
@@ -142,7 +154,7 @@ class TestRetiredUrlsJson:
         """Each entry should have required fields."""
         with open("retired_urls.json", "r") as f:
             data = json.load(f)
-        
+
         for entries in data.values():
             for entry in entries:
                 if isinstance(entry, dict):
@@ -157,6 +169,7 @@ class TestRetiredUrlsJson:
                     if "retired_at" in entry:
                         # Should be YYYY-MM-DD format
                         import re
+
                         assert re.match(r"^\d{4}-\d{2}-\d{2}$", entry["retired_at"])
 
 
@@ -171,7 +184,7 @@ class TestRequirementsTxt:
         """All requirements should be pinned with ==."""
         with open("requirements.txt", "r") as f:
             lines = [l.strip() for l in f if l.strip() and not l.startswith("#")]
-        
+
         for line in lines:
             assert "==" in line, f"Requirement not pinned: {line}"
 
@@ -179,14 +192,16 @@ class TestRequirementsTxt:
         """requirements.txt should match pyproject.toml dependencies."""
         with open("requirements.txt", "r") as f:
             req_lines = [l.strip() for l in f if l.strip() and not l.startswith("#")]
-        
+
         req_packages = {l.split("==")[0].lower() for l in req_lines}
-        
+
         with open("pyproject.toml", "rb") as f:
             data = tomllib.load(f)
-        
-        pyproject_deps = {d.split("==")[0].lower() for d in data["project"]["dependencies"]}
-        
+
+        pyproject_deps = {
+            d.split("==")[0].lower() for d in data["project"]["dependencies"]
+        }
+
         # requirements.txt should be a superset (includes transitive deps)
         assert pyproject_deps.issubset(req_packages)
 
@@ -202,7 +217,7 @@ class TestGitIgnore:
         """.gitignore should ignore Python build artifacts."""
         with open(".gitignore", "r") as f:
             content = f.read()
-        
+
         patterns = [
             "__pycache__/",
             "*.py[codz]",
@@ -222,14 +237,14 @@ class TestGitIgnore:
         """.gitignore should ignore virtual environments."""
         with open(".gitignore", "r") as f:
             content = f.read()
-        
+
         assert ".venv/" in content or "venv/" in content
 
     def test_gitignore_tracks_uv_lock(self):
         """.gitignore should track uv.lock."""
         with open(".gitignore", "r") as f:
             content = f.read()
-        
+
         # Should NOT ignore uv.lock (has !uv.lock)
         assert "!uv.lock" in content or "uv.lock" not in content.split("!")[0]
 
@@ -245,5 +260,5 @@ class TestPythonVersion:
         """.python-version should match pyproject.toml requires-python."""
         with open(".python-version", "r") as f:
             version = f.read().strip()
-        
+
         assert version == "3.11" or version.startswith("3.11")

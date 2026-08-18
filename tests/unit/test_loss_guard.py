@@ -59,18 +59,28 @@ class TestComputeContentHash:
             "image_url": "https://img.com/2",  # Different image
         }
         # Should produce same hash despite volatile field differences
-        assert compute_content_hash(record1, "id") == compute_content_hash(record2, "id")
+        assert compute_content_hash(record1, "id") == compute_content_hash(
+            record2, "id"
+        )
 
     def test_compute_content_hash_includes_content_fields(self):
         """Should include non-volatile fields in hash."""
         record1 = {"id": "test-001", "title": "Badge A", "issuer": "Issuer 1"}
-        record2 = {"id": "test-001", "title": "Badge B", "issuer": "Issuer 1"}  # Different title
-        record3 = {"id": "test-001", "title": "Badge A", "issuer": "Issuer 2"}  # Different issuer
-        
+        record2 = {
+            "id": "test-001",
+            "title": "Badge B",
+            "issuer": "Issuer 1",
+        }  # Different title
+        record3 = {
+            "id": "test-001",
+            "title": "Badge A",
+            "issuer": "Issuer 2",
+        }  # Different issuer
+
         hash1 = compute_content_hash(record1, "id")
         hash2 = compute_content_hash(record2, "id")
         hash3 = compute_content_hash(record3, "id")
-        
+
         assert hash1 != hash2  # Different title -> different hash
         assert hash1 != hash3  # Different issuer -> different hash
 
@@ -78,36 +88,53 @@ class TestComputeContentHash:
         """Should normalize lists for stable hashing."""
         record1 = {"id": "test-001", "skills": ["B", "A", "C"]}
         record2 = {"id": "test-001", "skills": ["A", "B", "C"]}  # Different order
-        assert compute_content_hash(record1, "id") == compute_content_hash(record2, "id")
+        assert compute_content_hash(record1, "id") == compute_content_hash(
+            record2, "id"
+        )
 
     def test_compute_content_hash_normalizes_dicts(self):
         """Should normalize dicts for stable hashing."""
         record1 = {"id": "test-001", "metadata": {"b": 2, "a": 1}}
         record2 = {"id": "test-001", "metadata": {"a": 1, "b": 2}}
-        assert compute_content_hash(record1, "id") == compute_content_hash(record2, "id")
+        assert compute_content_hash(record1, "id") == compute_content_hash(
+            record2, "id"
+        )
 
     def test_compute_content_hash_excludes_id_field(self):
         """Should exclude the ID field itself from hash."""
         record1 = {"id": "test-001", "title": "Test"}
         record2 = {"id": "test-002", "title": "Test"}  # Different ID
-        assert compute_content_hash(record1, "id") == compute_content_hash(record2, "id")
+        assert compute_content_hash(record1, "id") == compute_content_hash(
+            record2, "id"
+        )
 
 
 class TestExtractRecordId:
     """Tests for extract_record_id function."""
 
-    @pytest.mark.parametrize("platform,record,expected_id", [
-        ("microsoft-learn", {"id": "ACH001"}, "ACH001"),
-        ("microsoft-learn", {"credentialId": "CRED001"}, "CRED001"),
-        ("microsoft-learn", {"sourceUid": "UID001"}, "UID001"),
-        ("google-skills", {"id": "123"}, "123"),
-        ("google-skills", {"badge_id": "456"}, "456"),
-        ("aws-skills", {"id": "aws-001"}, "aws-001"),
-        ("credly", {"id": "badge-001"}, "badge-001"),
-        ("linkedin-certifications", {"license": "LIC-001", "name": "Cert"}, "linkedin-LIC-001"),
-        ("linkedin-certifications", {"name": "Cert"}, "linkedin-"),  # hash-based
-        ("google-developer", {"title": "Badge", "date": "2024-01-15"}, "gdev-"),  # hash-based
-    ])
+    @pytest.mark.parametrize(
+        "platform,record,expected_id",
+        [
+            ("microsoft-learn", {"id": "ACH001"}, "ACH001"),
+            ("microsoft-learn", {"credentialId": "CRED001"}, "CRED001"),
+            ("microsoft-learn", {"sourceUid": "UID001"}, "UID001"),
+            ("google-skills", {"id": "123"}, "123"),
+            ("google-skills", {"badge_id": "456"}, "456"),
+            ("aws-skills", {"id": "aws-001"}, "aws-001"),
+            ("credly", {"id": "badge-001"}, "badge-001"),
+            (
+                "linkedin-certifications",
+                {"license": "LIC-001", "name": "Cert"},
+                "linkedin-LIC-001",
+            ),
+            ("linkedin-certifications", {"name": "Cert"}, "linkedin-"),  # hash-based
+            (
+                "google-developer",
+                {"title": "Badge", "date": "2024-01-15"},
+                "gdev-",
+            ),  # hash-based
+        ],
+    )
     def test_extract_record_id_platforms(self, platform, record, expected_id):
         result = extract_record_id(record, "id", platform)
         if expected_id.endswith("-"):  # hash-based
@@ -132,7 +159,7 @@ class TestBuildFingerprintIndex:
             {"id": "2", "title": "Badge 2", "issued_at": "2024-01-16"},
         ]
         index = build_fingerprint_index(records, "id", "test-platform")
-        
+
         assert len(index) == 2
         assert "1" in index
         assert "2" in index
@@ -168,14 +195,24 @@ class TestLoadSaveBaseline:
             "record_count": 2,
             "created_at": "2024-01-15T10:00:00Z",
             "fingerprints": {
-                "1": {"record_id": "1", "content_hash": "abc123", "platform": "test-platform", "timestamp": "2024-01-15T10:00:00Z"},
-                "2": {"record_id": "2", "content_hash": "def456", "platform": "test-platform", "timestamp": "2024-01-15T10:00:00Z"},
+                "1": {
+                    "record_id": "1",
+                    "content_hash": "abc123",
+                    "platform": "test-platform",
+                    "timestamp": "2024-01-15T10:00:00Z",
+                },
+                "2": {
+                    "record_id": "2",
+                    "content_hash": "def456",
+                    "platform": "test-platform",
+                    "timestamp": "2024-01-15T10:00:00Z",
+                },
             },
         }
         baseline_path = Path(temp_dir) / "test-platform-baseline.json"
         baseline_path.parent.mkdir(parents=True, exist_ok=True)
         baseline_path.write_text(json.dumps(baseline_data))
-        
+
         with patch("loss_guard.VALIDATION_DIR", str(temp_dir)):
             result = load_baseline("test-platform")
             assert result is not None
@@ -187,7 +224,7 @@ class TestLoadSaveBaseline:
         baseline_path = Path(temp_dir) / "test-platform-baseline.json"
         baseline_path.parent.mkdir(parents=True, exist_ok=True)
         baseline_path.write_text(json.dumps({"invalid": "format"}))
-        
+
         with patch("loss_guard.VALIDATION_DIR", str(temp_dir)):
             result = load_baseline("test-platform")
             assert result is None
@@ -195,14 +232,18 @@ class TestLoadSaveBaseline:
     def test_save_baseline_creates_file(self, temp_dir):
         """Should save baseline atomically."""
         index = {
-            "1": RecordFingerprint("1", "hash1", "test-platform", "2024-01-15T10:00:00Z"),
-            "2": RecordFingerprint("2", "hash2", "test-platform", "2024-01-15T10:00:00Z"),
+            "1": RecordFingerprint(
+                "1", "hash1", "test-platform", "2024-01-15T10:00:00Z"
+            ),
+            "2": RecordFingerprint(
+                "2", "hash2", "test-platform", "2024-01-15T10:00:00Z"
+            ),
         }
-        
+
         with patch("loss_guard.VALIDATION_DIR", str(temp_dir)):
             result = save_baseline("test-platform", index)
             assert result is True
-            
+
             baseline_path = Path(temp_dir) / "test-platform-baseline.json"
             assert baseline_path.exists()
             data = json.loads(baseline_path.read_text())
@@ -221,7 +262,7 @@ class TestCompareFingerprints:
             "2": RecordFingerprint("2", "hash2", "test", "2024-01-15T10:00:00Z"),
         }
         report = compare_fingerprints(None, incoming, "test-platform")
-        
+
         assert report.old_count == 0
         assert report.new_count == 2
         assert report.retained_count == 0
@@ -241,7 +282,7 @@ class TestCompareFingerprints:
             "2": RecordFingerprint("2", "hash2", "test", "2024-01-16T10:00:00Z"),
         }
         report = compare_fingerprints(baseline, incoming, "test-platform")
-        
+
         assert report.old_count == 2
         assert report.new_count == 2
         assert report.retained_count == 2
@@ -256,10 +297,12 @@ class TestCompareFingerprints:
             "1": RecordFingerprint("1", "hash1", "test", "2024-01-15T10:00:00Z"),
         }
         incoming = {
-            "1": RecordFingerprint("1", "hash2", "test", "2024-01-16T10:00:00Z"),  # Different hash
+            "1": RecordFingerprint(
+                "1", "hash2", "test", "2024-01-16T10:00:00Z"
+            ),  # Different hash
         }
         report = compare_fingerprints(baseline, incoming, "test-platform")
-        
+
         assert report.retained_count == 0
         assert report.modified_count == 1
         assert "1" in report.details["modified_ids"]
@@ -275,7 +318,7 @@ class TestCompareFingerprints:
             "3": RecordFingerprint("3", "hash3", "test", "2024-01-16T10:00:00Z"),
         }
         report = compare_fingerprints(baseline, incoming, "test-platform")
-        
+
         assert report.retained_count == 1
         assert report.added_count == 1
         assert report.removed_count == 1
@@ -285,17 +328,23 @@ class TestCompareFingerprints:
     def test_compare_fingerprints_integrity_score(self):
         """Integrity score should reflect data quality."""
         # Perfect retention
-        baseline = {"1": RecordFingerprint("1", "hash1", "test", "2024-01-15T10:00:00Z")}
-        incoming = {"1": RecordFingerprint("1", "hash1", "test", "2024-01-16T10:00:00Z")}
+        baseline = {
+            "1": RecordFingerprint("1", "hash1", "test", "2024-01-15T10:00:00Z")
+        }
+        incoming = {
+            "1": RecordFingerprint("1", "hash1", "test", "2024-01-16T10:00:00Z")
+        }
         report = compare_fingerprints(baseline, incoming, "test-platform")
         assert report.integrity_score == 1.0
-        
+
         # 50% removal
         baseline = {
             "1": RecordFingerprint("1", "hash1", "test", "2024-01-15T10:00:00Z"),
             "2": RecordFingerprint("2", "hash2", "test", "2024-01-15T10:00:00Z"),
         }
-        incoming = {"1": RecordFingerprint("1", "hash1", "test", "2024-01-16T10:00:00Z")}
+        incoming = {
+            "1": RecordFingerprint("1", "hash1", "test", "2024-01-16T10:00:00Z")
+        }
         report = compare_fingerprints(baseline, incoming, "test-platform")
         # retention=0.5, modification=0, removal=0.5, addition=0
         # score = 0.4*0.5 + 0.2*1 + 0.2*0.5 + 0.2*1 = 0.2 + 0.2 + 0.1 + 0.2 = 0.7
@@ -311,10 +360,12 @@ class TestExecuteContentLossGuard:
             {"id": "1", "title": "Badge 1", "issued_at": "2024-01-15"},
             {"id": "2", "title": "Badge 2", "issued_at": "2024-01-16"},
         ]
-        
+
         with patch("loss_guard.VALIDATION_DIR", str(temp_dir)):
-            report = execute_content_loss_guard(records, "test-platform", "id", fail_on_warn=True)
-            
+            report = execute_content_loss_guard(
+                records, "test-platform", "id", fail_on_warn=True
+            )
+
             assert report.old_count == 0
             assert report.new_count == 2
             # Baseline should be created
@@ -325,38 +376,71 @@ class TestExecuteContentLossGuard:
         """Matching baseline should pass."""
         # Create records that will generate known hashes
         records_for_baseline = [
-            {"id": "1", "title": "Badge 1", "issued_at": "2024-01-15", "issuer": "Test"},
-            {"id": "2", "title": "Badge 2", "issued_at": "2024-01-16", "issuer": "Test"},
+            {
+                "id": "1",
+                "title": "Badge 1",
+                "issued_at": "2024-01-15",
+                "issuer": "Test",
+            },
+            {
+                "id": "2",
+                "title": "Badge 2",
+                "issued_at": "2024-01-16",
+                "issuer": "Test",
+            },
         ]
-        
+
         # Compute hashes for baseline
         from loss_guard import compute_content_hash
+
         hash1 = compute_content_hash(records_for_baseline[0], "id")
         hash2 = compute_content_hash(records_for_baseline[1], "id")
-        
+
         # Create baseline with computed hashes
         baseline_data = {
             "platform": "test-platform",
             "record_count": 2,
             "created_at": "2024-01-15T10:00:00Z",
             "fingerprints": {
-                "1": {"record_id": "1", "content_hash": hash1, "platform": "test-platform", "timestamp": "2024-01-15T10:00:00Z"},
-                "2": {"record_id": "2", "content_hash": hash2, "platform": "test-platform", "timestamp": "2024-01-15T10:00:00Z"},
+                "1": {
+                    "record_id": "1",
+                    "content_hash": hash1,
+                    "platform": "test-platform",
+                    "timestamp": "2024-01-15T10:00:00Z",
+                },
+                "2": {
+                    "record_id": "2",
+                    "content_hash": hash2,
+                    "platform": "test-platform",
+                    "timestamp": "2024-01-15T10:00:00Z",
+                },
             },
         }
         baseline_path = Path(temp_dir) / "test-platform-baseline.json"
         baseline_path.parent.mkdir(parents=True, exist_ok=True)
         baseline_path.write_text(json.dumps(baseline_data))
-        
+
         # Use same records for incoming
         records = [
-            {"id": "1", "title": "Badge 1", "issued_at": "2024-01-15", "issuer": "Test"},
-            {"id": "2", "title": "Badge 2", "issued_at": "2024-01-16", "issuer": "Test"},
+            {
+                "id": "1",
+                "title": "Badge 1",
+                "issued_at": "2024-01-15",
+                "issuer": "Test",
+            },
+            {
+                "id": "2",
+                "title": "Badge 2",
+                "issued_at": "2024-01-16",
+                "issuer": "Test",
+            },
         ]
-        
+
         with patch("loss_guard.VALIDATION_DIR", str(temp_dir)):
-            report = execute_content_loss_guard(records, "test-platform", "id", fail_on_warn=True)
-            
+            report = execute_content_loss_guard(
+                records, "test-platform", "id", fail_on_warn=True
+            )
+
             assert report.retention_rate == 1.0
 
     def test_execute_content_loss_guard_fail_retention(self, temp_dir):
@@ -367,21 +451,31 @@ class TestExecuteContentLossGuard:
             "record_count": 10,
             "created_at": "2024-01-15T10:00:00Z",
             "fingerprints": {
-                str(i): {"record_id": str(i), "content_hash": f"hash{i}", "platform": "test-platform", "timestamp": "2024-01-15T10:00:00Z"}
+                str(i): {
+                    "record_id": str(i),
+                    "content_hash": f"hash{i}",
+                    "platform": "test-platform",
+                    "timestamp": "2024-01-15T10:00:00Z",
+                }
                 for i in range(10)
             },
         }
         baseline_path = Path(temp_dir) / "test-platform-baseline.json"
         baseline_path.parent.mkdir(parents=True, exist_ok=True)
         baseline_path.write_text(json.dumps(baseline_data))
-        
+
         # Incoming only 7 records (30% loss > 15% default threshold)
-        records = [{"id": str(i), "title": f"Badge {i}", "issued_at": "2024-01-15"} for i in range(7)]
-        
+        records = [
+            {"id": str(i), "title": f"Badge {i}", "issued_at": "2024-01-15"}
+            for i in range(7)
+        ]
+
         with patch("loss_guard.VALIDATION_DIR", str(temp_dir)):
             with pytest.raises(PipelineDataLossAnomaly) as exc_info:
-                execute_content_loss_guard(records, "test-platform", "id", fail_on_warn=True)
-            
+                execute_content_loss_guard(
+                    records, "test-platform", "id", fail_on_warn=True
+                )
+
             assert "Retention rate" in str(exc_info.value)
 
     def test_execute_content_loss_guard_fail_modification(self, temp_dir):
@@ -392,26 +486,41 @@ class TestExecuteContentLossGuard:
             "record_count": 10,
             "created_at": "2024-01-15T10:00:00Z",
             "fingerprints": {
-                str(i): {"record_id": str(i), "content_hash": f"hash{i}", "platform": "test-platform", "timestamp": "2024-01-15T10:00:00Z"}
+                str(i): {
+                    "record_id": str(i),
+                    "content_hash": f"hash{i}",
+                    "platform": "test-platform",
+                    "timestamp": "2024-01-15T10:00:00Z",
+                }
                 for i in range(10)
             },
         }
         baseline_path = Path(temp_dir) / "test-platform-baseline.json"
         baseline_path.parent.mkdir(parents=True, exist_ok=True)
         baseline_path.write_text(json.dumps(baseline_data))
-        
+
         # Incoming with 4 modified records (40% > 30% default threshold)
         records = []
         for i in range(10):
             if i < 4:
-                records.append({"id": str(i), "title": f"Modified Badge {i}", "issued_at": "2024-01-15"})  # Different content
+                records.append(
+                    {
+                        "id": str(i),
+                        "title": f"Modified Badge {i}",
+                        "issued_at": "2024-01-15",
+                    }
+                )  # Different content
             else:
-                records.append({"id": str(i), "title": f"Badge {i}", "issued_at": "2024-01-15"})
-        
+                records.append(
+                    {"id": str(i), "title": f"Badge {i}", "issued_at": "2024-01-15"}
+                )
+
         with patch("loss_guard.VALIDATION_DIR", str(temp_dir)):
             with pytest.raises(PipelineDataLossAnomaly) as exc_info:
-                execute_content_loss_guard(records, "test-platform", "id", fail_on_warn=True)
-            
+                execute_content_loss_guard(
+                    records, "test-platform", "id", fail_on_warn=True
+                )
+
             assert "Modification rate" in str(exc_info.value)
 
     def test_execute_content_loss_guard_warn_removal(self, temp_dir):
@@ -421,81 +530,125 @@ class TestExecuteContentLossGuard:
             "record_count": 10,
             "created_at": "2024-01-15T10:00:00Z",
             "fingerprints": {
-                str(i): {"record_id": str(i), "content_hash": f"hash{i}", "platform": "test-platform", "timestamp": "2024-01-15T10:00:00Z"}
+                str(i): {
+                    "record_id": str(i),
+                    "content_hash": f"hash{i}",
+                    "platform": "test-platform",
+                    "timestamp": "2024-01-15T10:00:00Z",
+                }
                 for i in range(10)
             },
         }
         baseline_path = Path(temp_dir) / "test-platform-baseline.json"
         baseline_path.parent.mkdir(parents=True, exist_ok=True)
         baseline_path.write_text(json.dumps(baseline_data))
-        
+
         # 3 removed (30% > 15% threshold) but retention OK
-        records = [{"id": str(i), "title": f"Badge {i}", "issued_at": "2024-01-15"} for i in range(7)]
-        
+        records = [
+            {"id": str(i), "title": f"Badge {i}", "issued_at": "2024-01-15"}
+            for i in range(7)
+        ]
+
         with patch("loss_guard.VALIDATION_DIR", str(temp_dir)):
             # With fail_on_warn=True (default), it should fail on warning too
             with pytest.raises(PipelineDataLossAnomaly):
-                execute_content_loss_guard(records, "test-platform", "id", fail_on_warn=True)
-            
+                execute_content_loss_guard(
+                    records, "test-platform", "id", fail_on_warn=True
+                )
+
             # With fail_on_warn=False, should pass with warning
-            report = execute_content_loss_guard(records, "test-platform", "id", fail_on_warn=False)
+            report = execute_content_loss_guard(
+                records, "test-platform", "id", fail_on_warn=False
+            )
             assert report.removed_count == 3
 
     def test_execute_content_loss_guard_platform_thresholds(self, temp_dir):
         """Should use platform-specific thresholds."""
         # Microsoft Learn has stricter thresholds (min_retention_rate: 0.90)
         # Create baseline with 100 records that have known content
-        baseline_records = [{"id": str(i), "title": f"Badge {i}", "issued_at": "2024-01-15", "issuer": "Test"} for i in range(100)]
-        
+        baseline_records = [
+            {
+                "id": str(i),
+                "title": f"Badge {i}",
+                "issued_at": "2024-01-15",
+                "issuer": "Test",
+            }
+            for i in range(100)
+        ]
+
         from loss_guard import compute_content_hash
+
         baseline_data = {
             "platform": "microsoft-learn",
             "record_count": 100,
             "created_at": "2024-01-15T10:00:00Z",
             "fingerprints": {
-                str(i): {"record_id": str(i), "content_hash": compute_content_hash(baseline_records[i], "id"), "platform": "microsoft-learn", "timestamp": "2024-01-15T10:00:00Z"}
+                str(i): {
+                    "record_id": str(i),
+                    "content_hash": compute_content_hash(baseline_records[i], "id"),
+                    "platform": "microsoft-learn",
+                    "timestamp": "2024-01-15T10:00:00Z",
+                }
                 for i in range(100)
             },
         }
         baseline_path = Path(temp_dir) / "microsoft-learn-baseline.json"
         baseline_path.parent.mkdir(parents=True, exist_ok=True)
         baseline_path.write_text(json.dumps(baseline_data))
-        
+
         # 89 retained (89% < 90% threshold for MS Learn) - use first 89 records
         records = baseline_records[:89]
-        
+
         with patch("loss_guard.VALIDATION_DIR", str(temp_dir)):
             with pytest.raises(PipelineDataLossAnomaly) as exc_info:
-                execute_content_loss_guard(records, "microsoft-learn", "id", fail_on_warn=True)
-            
+                execute_content_loss_guard(
+                    records, "microsoft-learn", "id", fail_on_warn=True
+                )
+
             assert "Retention rate" in str(exc_info.value)
 
     def test_execute_content_loss_guard_custom_thresholds(self, temp_dir):
         """Should allow custom threshold overrides."""
-        baseline_records = [{"id": str(i), "title": f"Badge {i}", "issued_at": "2024-01-15", "issuer": "Test"} for i in range(100)]
-        
+        baseline_records = [
+            {
+                "id": str(i),
+                "title": f"Badge {i}",
+                "issued_at": "2024-01-15",
+                "issuer": "Test",
+            }
+            for i in range(100)
+        ]
+
         from loss_guard import compute_content_hash
+
         baseline_data = {
             "platform": "test-platform",
             "record_count": 100,
             "created_at": "2024-01-15T10:00:00Z",
             "fingerprints": {
-                str(i): {"record_id": str(i), "content_hash": compute_content_hash(baseline_records[i], "id"), "platform": "test-platform", "timestamp": "2024-01-15T10:00:00Z"}
+                str(i): {
+                    "record_id": str(i),
+                    "content_hash": compute_content_hash(baseline_records[i], "id"),
+                    "platform": "test-platform",
+                    "timestamp": "2024-01-15T10:00:00Z",
+                }
                 for i in range(100)
             },
         }
         baseline_path = Path(temp_dir) / "test-platform-baseline.json"
         baseline_path.parent.mkdir(parents=True, exist_ok=True)
         baseline_path.write_text(json.dumps(baseline_data))
-        
+
         # 85 retained - 85% retention, 15% removal (at default threshold)
         records = baseline_records[:85]
-        
+
         with patch("loss_guard.VALIDATION_DIR", str(temp_dir)):
             report = execute_content_loss_guard(
-                records, "test-platform", "id",
+                records,
+                "test-platform",
+                "id",
                 thresholds={"min_retention_rate": 0.80, "max_removal_rate": 0.50},
-                fail_on_warn=True
+                fail_on_warn=True,
             )
             assert report.retention_rate == 0.85
 
@@ -513,8 +666,12 @@ class TestThresholdConstants:
     def test_platform_thresholds_exist(self):
         """Platform-specific thresholds should be defined for all platforms."""
         expected_platforms = [
-            "microsoft-learn", "google-skills", "aws-skills",
-            "credly", "linkedin-certifications", "google-developer"
+            "microsoft-learn",
+            "google-skills",
+            "aws-skills",
+            "credly",
+            "linkedin-certifications",
+            "google-developer",
         ]
         for platform in expected_platforms:
             assert platform in PLATFORM_THRESHOLDS

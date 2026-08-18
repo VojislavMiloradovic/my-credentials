@@ -21,7 +21,10 @@ MONOLITH_CONFIGS = [
     ("aws-skills-complete.md", "archives/aws-skills-complete.md"),
     ("google-skills-complete.md", "archives/google-skills-complete.md"),
     ("google-developer-complete.md", "archives/google-developer-complete.md"),
-    ("linkedin-certifications-complete.md", "archives/linkedin-certifications-complete.md"),
+    (
+        "linkedin-certifications-complete.md",
+        "archives/linkedin-certifications-complete.md",
+    ),
     ("credly-complete.md", "archives/credly-complete.md"),
     ("microsoft-learn-complete.md", "archives/microsoft-learn-complete.md"),
 ]
@@ -75,12 +78,20 @@ def generate_llms_full():
             print(f"  Missing: {filepath}")
 
     # 3. credentials.jsonld reference (not embedded - same data as archives, different format)
-    raw_base = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main"
+    raw_base = (
+        "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main"
+    )
     content_parts.append("--- BEGIN FILE: credentials.jsonld (Schema.org JSON-LD) ---")
     content_parts.append("")
-    content_parts.append(f"> **Structured Linked Data:** Available at [{JSONLD_PATH}]({raw_base}/{JSONLD_PATH})")
-    content_parts.append("> Contains all credentials as Schema.org EducationalOccupationalCredential objects.")
-    content_parts.append("> Not embedded here to avoid duplication (same data as markdown archives).")
+    content_parts.append(
+        f"> **Structured Linked Data:** Available at [{JSONLD_PATH}]({raw_base}/{JSONLD_PATH})"
+    )
+    content_parts.append(
+        "> Contains all credentials as Schema.org EducationalOccupationalCredential objects."
+    )
+    content_parts.append(
+        "> Not embedded here to avoid duplication (same data as markdown archives)."
+    )
     content_parts.append("")
     content_parts.append(f"--- END FILE: {JSONLD_PATH} ---")
     content_parts.append("")

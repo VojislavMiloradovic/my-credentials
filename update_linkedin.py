@@ -24,6 +24,7 @@ try:
 except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
     generate_platform_archive = None
+
     def safe_write_file(filepath: str, new_content: str) -> bool:
         if os.path.exists(filepath):
             try:
@@ -36,6 +37,7 @@ except ImportError:
             f.write(new_content)
         return True
 
+
 # Content-Aware Loss Guard
 try:
     from loss_guard import PipelineDataLossAnomaly, execute_content_loss_guard
@@ -46,6 +48,7 @@ except ImportError:
 
 # Retired credentials registry mapping
 RETIRED_URLS_FILE = "retired_urls.json"
+
 
 def load_retired_rules(platform: str) -> list[dict[str, Any]]:
     """Load retired credential rules for a platform from the mapping file."""
@@ -67,6 +70,7 @@ def load_retired_rules(platform: str) -> list[dict[str, Any]]:
     except Exception as e:
         logger.warning(f"⚠️ Could not load retired rules for {platform}: {e}")
         return []
+
 
 def mark_retired(
     items: list[dict],
@@ -93,7 +97,9 @@ def mark_retired(
             rule_id = str(rule.get("id", "")).strip()
             rule_url = str(rule.get("url", "")).strip() if rule.get("url") else None
 
-            if rule_id in item_ids or (item_url and (rule_id == item_url or rule_url == item_url)):
+            if rule_id in item_ids or (
+                item_url and (rule_id == item_url or rule_url == item_url)
+            ):
                 is_retired = True
                 matched_rule = rule
                 break
@@ -106,10 +112,15 @@ def mark_retired(
                 if matched_rule.get("retired_at"):
                     item["retired_at"] = matched_rule["retired_at"]
             marked += 1
-            logger.info(f"🏷️  Marked as retired: {item.get('name') or item.get('id') or 'unknown'}")
+            logger.info(
+                f"🏷️  Marked as retired: {item.get('name') or item.get('id') or 'unknown'}"
+            )
 
-    logger.info(f"Retired check: {len(items)} items checked, {marked} marked as retired")
+    logger.info(
+        f"Retired check: {len(items)} items checked, {marked} marked as retired"
+    )
     return len(items), marked
+
 
 # Logging Setup
 logging.basicConfig(
@@ -132,17 +143,30 @@ LINKEDIN_PROFILE_URL = f"https://www.linkedin.com/in/{LINKEDIN_PROFILE_ID}/"
 MARKER_START = "<!-- LINKEDIN_START -->"
 MARKER_END = "<!-- LINKEDIN_END -->"
 
-MAX_ALLOWED_DATA_LOSS_PCT = 0.15  # Fail if incoming cert count drops >15% below stored baseline
+MAX_ALLOWED_DATA_LOSS_PCT = (
+    0.15  # Fail if incoming cert count drops >15% below stored baseline
+)
 
 MONTH_MAP = {
-    "jan": "01", "feb": "02", "mar": "03", "apr": "04", "may": "05", "jun": "06",
-    "jul": "07", "aug": "08", "sep": "09", "oct": "10", "nov": "11", "dec": "12"
+    "jan": "01",
+    "feb": "02",
+    "mar": "03",
+    "apr": "04",
+    "may": "05",
+    "jun": "06",
+    "jul": "07",
+    "aug": "08",
+    "sep": "09",
+    "oct": "10",
+    "nov": "11",
+    "dec": "12",
 }
 
 
 # ==============================================================================
 # DATE NORMALIZATION & SCHEMAS
 # ==============================================================================
+
 
 def parse_linkedin_date(date_str: Any) -> str:
     """Coerces timestamps, ISO strings, 'MMM YYYY', and text dates to YYYY-MM or YYYY-MM-DD."""
@@ -174,13 +198,18 @@ def parse_linkedin_date(date_str: Any) -> str:
 
 class LinkedInCertModel(BaseModel):
     """Normalized schema for LinkedIn / external certification entity."""
+
     name: str = Field(..., min_length=1, description="Certification or course title")
     authority: str = Field("Unknown Issuer", description="Issuing organization")
-    issued: str = Field("N/A", description="Issued date in YYYY-MM or YYYY-MM-DD format")
+    issued: str = Field(
+        "N/A", description="Issued date in YYYY-MM or YYYY-MM-DD format"
+    )
     url: str = Field("", description="Verification URL")
     license: str = Field("", description="License or Credential ID")
     original_order: int = Field(0, description="Original index in CSV for tie-breaking")
-    retired: bool = Field(False, description="Whether the content has been retired by the platform")
+    retired: bool = Field(
+        False, description="Whether the content has been retired by the platform"
+    )
 
     @field_validator("issued", mode="before")
     @classmethod
@@ -191,6 +220,7 @@ class LinkedInCertModel(BaseModel):
 # ==============================================================================
 # ANOMALY & LOSS GUARD
 # ==============================================================================
+
 
 class PipelineDataLossAnomaly(Exception):
     """Raised when incoming dataset drops drastically below previous archive baseline."""
@@ -203,7 +233,8 @@ def get_stored_archive_baseline_count() -> int:
             with open(ARCHIVE_MONOLITH, "r", encoding="utf-8") as f:
                 lines = f.readlines()
             rows = [
-                l for l in lines
+                l
+                for l in lines
                 if l.strip().startswith("|")
                 and not l.strip().startswith("| Date")
                 and ":---" not in l
@@ -220,7 +251,9 @@ def execute_data_loss_guard(new_certs: list[dict]) -> None:
     old_count = get_stored_archive_baseline_count()
     new_count = len(new_certs)
 
-    logger.info(f"🛡️ Loss Guard Check: Stored Archive Baseline = {old_count} certs | Incoming Dataset = {new_count} certs.")
+    logger.info(
+        f"🛡️ Loss Guard Check: Stored Archive Baseline = {old_count} certs | Incoming Dataset = {new_count} certs."
+    )
 
     if old_count > 0 and new_count == 0:
         raise PipelineDataLossAnomaly(
@@ -235,12 +268,15 @@ def execute_data_loss_guard(new_certs: list[dict]) -> None:
                 f"from baseline ({old_count}). Maximum allowed drop threshold is {MAX_ALLOWED_DATA_LOSS_PCT:.0%}. Aborting write."
             )
 
-    logger.info("✅ Loss Guard Assertion Passed: Incoming payload verified against archive baseline.")
+    logger.info(
+        "✅ Loss Guard Assertion Passed: Incoming payload verified against archive baseline."
+    )
 
 
 # ==============================================================================
 # CSV PARSER
 # ==============================================================================
+
 
 def locate_certifications_csv() -> str | None:
     """Locates candidate CSV certification export files in current directory or data subfolder."""
@@ -287,22 +323,46 @@ def parse_certifications_csv(csv_path: str) -> list[dict]:
     skipped = 0
 
     for idx, row in enumerate(raw_rows):
-        name = (row.get("Name") or row.get("name") or row.get("Title") or row.get("title") or "").strip()
+        name = (
+            row.get("Name")
+            or row.get("name")
+            or row.get("Title")
+            or row.get("title")
+            or ""
+        ).strip()
         if not name:
             skipped += 1
             continue
 
         authority = (
-            row.get("Authority") or row.get("authority") or row.get("Issuer") or row.get("issuer") or "Unknown Issuer"
+            row.get("Authority")
+            or row.get("authority")
+            or row.get("Issuer")
+            or row.get("issuer")
+            or "Unknown Issuer"
         ).strip()
 
         url = (row.get("Url") or row.get("url") or row.get("URL") or "").strip()
         license_num = (
-            row.get("License Number") or row.get("license number") or row.get("License") or row.get("license") or ""
+            row.get("License Number")
+            or row.get("license number")
+            or row.get("License")
+            or row.get("license")
+            or ""
         ).strip()
 
-        started = row.get("Started On") or row.get("started on") or row.get("Issued On") or row.get("issued on")
-        finished = row.get("Finished On") or row.get("finished on") or row.get("Expires On") or row.get("expires on")
+        started = (
+            row.get("Started On")
+            or row.get("started on")
+            or row.get("Issued On")
+            or row.get("issued on")
+        )
+        finished = (
+            row.get("Finished On")
+            or row.get("finished on")
+            or row.get("Expires On")
+            or row.get("expires on")
+        )
 
         issued_date = parse_linkedin_date(started)
         expiry_date = parse_linkedin_date(finished)
@@ -332,7 +392,9 @@ def parse_certifications_csv(csv_path: str) -> list[dict]:
             logger.warning(f"⚠️ Skipping malformed CSV row '{name}': {ve}")
 
         if skipped:
-            logger.warning(f"⚠️ Skipped {skipped} row(s) out of {total_raw} with missing name.")
+            logger.warning(
+                f"⚠️ Skipped {skipped} row(s) out of {total_raw} with missing name."
+            )
 
     logger.info(f"✅ Extracted {len(certs)} valid certification records from CSV.")
     return certs
@@ -342,12 +404,15 @@ def parse_certifications_csv(csv_path: str) -> list[dict]:
 # MAIN EXECUTION
 # ==============================================================================
 
+
 def main():
     logger.info("Starting LinkedIn Certifications Pipeline...")
 
     csv_path = locate_certifications_csv()
     if not csv_path:
-        logger.error("❌ Could not locate CSV certifications file in data/ or root directory.")
+        logger.error(
+            "❌ Could not locate CSV certifications file in data/ or root directory."
+        )
         sys.exit(1)
 
     certs = parse_certifications_csv(csv_path)
@@ -364,13 +429,15 @@ def main():
                 new_records=certs,
                 platform="linkedin-certifications",
                 id_field="license",  # LinkedIn uses license number as primary ID
-                fail_on_warn=True  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
+                fail_on_warn=True,  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
             )
         except PipelineDataLossAnomaly as anomaly_err:
             logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
             sys.exit(1)
     else:
-        logger.warning("⚠️ Content-aware loss guard unavailable, falling back to count-only check")
+        logger.warning(
+            "⚠️ Content-aware loss guard unavailable, falling back to count-only check"
+        )
         try:
             execute_data_loss_guard(certs)
         except PipelineDataLossAnomaly as anomaly_err:
@@ -380,14 +447,15 @@ def main():
     # 2. Retired URL / Identity detection
     retired_rules = load_retired_rules("linkedin-certifications")
     if retired_rules:
-        _, marked = mark_retired(certs, retired_rules, url_field="url", id_fields=["license", "url"])
+        _, marked = mark_retired(
+            certs, retired_rules, url_field="url", id_fields=["license", "url"]
+        )
         if marked > 0:
             logger.info(f"📝 Updated {marked} certification(s) with retired status")
 
     # 3. Persist full data with retired flags to for_validation for link checker
-    validation_dir = "for_validation"
-    os.makedirs(validation_dir, exist_ok=True)
-    validation_file = os.path.join(validation_dir, "linkedin-certifications.json")
+    os.makedirs(VALIDATION_DIR, exist_ok=True)
+    validation_file = os.path.join(VALIDATION_DIR, "linkedin-certifications.json")
     payload = {
         "platform": "linkedin-certifications",
         "total_count": len(certs),
@@ -396,7 +464,9 @@ def main():
     try:
         with open(validation_file, "w", encoding="utf-8") as f:
             json.dump(payload, f, indent=2, ensure_ascii=False)
-        logger.info(f"💾 Full data persisted: '{validation_file}' ({len(certs)} certifications)")
+        logger.info(
+            f"💾 Full data persisted: '{validation_file}' ({len(certs)} certifications)"
+        )
     except Exception as e:
         logger.warning(f"⚠️ Could not persist full data: {e}")
 
@@ -404,9 +474,17 @@ def main():
 
     # 2. Sort: reverse original order first, then reverse issued date (ties broken by position in CSV)
     certs.sort(key=lambda x: x["original_order"], reverse=True)
-    certs.sort(key=lambda x: x.get("issued") if x.get("issued") != "N/A" else "0000-00", reverse=True)
+    certs.sort(
+        key=lambda x: x.get("issued") if x.get("issued") != "N/A" else "0000-00",
+        reverse=True,
+    )
 
-    table_headers = ["Date Completed", "Certification Title", "Issuing Authority", "Verification Reference"]
+    table_headers = [
+        "Date Completed",
+        "Certification Title",
+        "Issuing Authority",
+        "Verification Reference",
+    ]
     table_alignments = [":---:", ":---", ":---", ":---"]
 
     formatted_rows = []
@@ -454,7 +532,9 @@ def main():
             if c["url"]
             else (c["license"] if c["license"] else "N/A")
         )
-        readme_lines.append(f"| *{c['issued']}* | **{clean_name}** | {clean_auth} | {ref} |")
+        readme_lines.append(
+            f"| *{c['issued']}* | **{clean_name}** | {clean_auth} | {ref} |"
+        )
 
     # 3. Trigger Archiver
     if generate_platform_archive:
@@ -476,8 +556,12 @@ def main():
             LATEST_SLICE_RAW = RAW_BASE_DEFAULT + "/" + latest_slice
             for i, line in enumerate(readme_lines):
                 if "{LATEST_SLICE_NORMAL}" in line:
-                    readme_lines[i] = line.replace("{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL)
-                    readme_lines[i] = readme_lines[i].replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
+                    readme_lines[i] = line.replace(
+                        "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
+                    )
+                    readme_lines[i] = readme_lines[i].replace(
+                        "{LATEST_SLICE_RAW}", LATEST_SLICE_RAW
+                    )
                     break
             if os.path.exists("README.md"):
                 with open("README.md", "r", encoding="utf-8") as f:
@@ -486,11 +570,17 @@ def main():
                     before = readme_content.split(MARKER_START)[0]
                     after = readme_content.split(MARKER_END)[1]
                     new_block = "\n".join(readme_lines) + "\n"
-                    new_content = before + MARKER_START + "\n" + new_block + MARKER_END + after
+                    new_content = (
+                        before + MARKER_START + "\n" + new_block + MARKER_END + after
+                    )
                     safe_write_file("README.md", new_content)
-        logger.info("🎉 LinkedIn Certifications pipeline execution completed successfully.")
+        logger.info(
+            "🎉 LinkedIn Certifications pipeline execution completed successfully."
+        )
     else:
-        logger.error("❌ Archiver module helper not available. Skipping markdown generation.")
+        logger.error(
+            "❌ Archiver module helper not available. Skipping markdown generation."
+        )
 
 
 if __name__ == "__main__":

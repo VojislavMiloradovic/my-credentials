@@ -64,11 +64,11 @@ class TestArchiveParsing:
             "| 2024-01-15 | Badge 1 | AWS |",
             "| 2024-01-10 | Badge 2 | Google |",
         ]
-        
+
         archiver_rows = extract_table_data_rows(lines)
         jsonld_rows = jsonld_extract_table_data_rows(lines)
         llms_items = extract_dataset_items(lines)
-        
+
         # archiver and jsonld should return same structure
         assert archiver_rows == jsonld_rows
         # llms should include table rows as items
@@ -85,7 +85,7 @@ class TestArchiveParsing:
             "| :--- | :--- |",
             "| C | D |",
         ]
-        
+
         archiver_rows = extract_table_data_rows(lines)
         # Should find both tables
         assert len(archiver_rows) == 2
@@ -114,7 +114,10 @@ class TestArchiveGenerationRoundtrip:
     def test_generate_then_parse(self, temp_dir):
         """Generate archive then parse it back."""
         formatted_rows = [
-            ("| 2024-01-15 | [Badge 1](https://example.com/1) | AWS | Badge |", "2024-01-15"),
+            (
+                "| 2024-01-15 | [Badge 1](https://example.com/1) | AWS | Badge |",
+                "2024-01-15",
+            ),
             ("| 2024-01-10 | Badge 2 | AWS | Badge |", "2024-01-10"),
         ]
         readme_lines = [
@@ -127,14 +130,19 @@ class TestArchiveGenerationRoundtrip:
             "| 2024-01-15 | [Badge 1](https://example.com/1) | AWS | Badge |",
             "| 2024-01-10 | Badge 2 | AWS | Badge |",
         ]
-        
+
         archive_dir = str(temp_dir / "archives")
         readme_path = str(temp_dir / "README.md")
-        
+
         _ = generate_platform_archive(
             platform_prefix="test-platform",
             platform_name="Test Platform",
-            table_headers=["Date Earned", "Credential Name", "Issuer", "Verification Type"],
+            table_headers=[
+                "Date Earned",
+                "Credential Name",
+                "Issuer",
+                "Verification Type",
+            ],
             table_alignments=[":---:", ":---", ":---", ":---:"],
             formatted_rows=formatted_rows,
             readme_lines=readme_lines,
@@ -143,15 +151,16 @@ class TestArchiveGenerationRoundtrip:
             archive_dir=archive_dir,
             readme_path=readme_path,
         )
-        
+
         # Parse the generated monolith
         monolith_path = Path(archive_dir) / "test-platform-complete.md"
-        content = monolith_path.read_text()
+        content = monolith_path.read_text(encoding="utf-8")
         lines = content.splitlines()
-        
-        from archiver import extract_table_data_rows
+
+        from generate_jsonld import extract_table_data_rows
+
         parsed_rows = extract_table_data_rows(lines)
-        
+
         assert len(parsed_rows) == 2
         assert "Badge 1" in parsed_rows[0][1][1]
         assert "Badge 2" in parsed_rows[1][1][1]

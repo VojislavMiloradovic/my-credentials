@@ -32,20 +32,22 @@ VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 # DATA CLASSES
 # ==============================================================================
 
+
 @dataclass
 class DiffReport:
     """Detailed comparison report between baseline and incoming dataset."""
+
     platform: str
     old_count: int
     new_count: int
-    retained_count: int          # Records with matching ID + identical hash
-    modified_count: int          # Same ID, different hash (content changed)
-    added_count: int             # New IDs not in baseline
-    removed_count: int           # Old IDs not in incoming
-    retention_rate: float        # retained / old_count
-    modification_rate: float     # modified / old_count
-    integrity_score: float       # Composite health metric (0.0 - 1.0)
-    details: dict                # Per-record diffs for audit
+    retained_count: int  # Records with matching ID + identical hash
+    modified_count: int  # Same ID, different hash (content changed)
+    added_count: int  # New IDs not in baseline
+    removed_count: int  # Old IDs not in incoming
+    retention_rate: float  # retained / old_count
+    modification_rate: float  # modified / old_count
+    integrity_score: float  # Composite health metric (0.0 - 1.0)
+    details: dict  # Per-record diffs for audit
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -54,6 +56,7 @@ class DiffReport:
 @dataclass
 class RecordFingerprint:
     """Stable identity + content hash for a single record."""
+
     record_id: str
     content_hash: str
     platform: str
@@ -64,6 +67,7 @@ class RecordFingerprint:
 # CORE FUNCTIONS
 # ==============================================================================
 
+
 def compute_content_hash(record: dict, id_field: str) -> str:
     """
     Compute stable content hash for a record, excluding the ID field itself
@@ -71,15 +75,39 @@ def compute_content_hash(record: dict, id_field: str) -> str:
     """
     # Fields that should NOT contribute to content hash (volatile metadata)
     VOLATILE_FIELDS = {
-        "version", "_ts", "partitionKey", "userId", "docsId",
-        "instanceId", "labUrl", "createdAt", "expiresAt", "estimatedReadyAt",
-        "sessionEndDate", "startTime", "endTime", "milestoneEligible",
-        "locale", "source", "imageUrl", "image_url", "verified", "typeId", "sourceId",
-        "id", "name",  # name is alias for title, not content
-        "issuer_name", "issued_at", "issued_at_date", "date", "url",  # date aliases
+        "version",
+        "_ts",
+        "partitionKey",
+        "userId",
+        "docsId",
+        "instanceId",
+        "labUrl",
+        "createdAt",
+        "expiresAt",
+        "estimatedReadyAt",
+        "sessionEndDate",
+        "startTime",
+        "endTime",
+        "milestoneEligible",
+        "locale",
+        "source",
+        "imageUrl",
+        "image_url",
+        "verified",
+        "typeId",
+        "sourceId",
+        "id",
+        "name",  # name is alias for title, not content
+        "issuer_name",
+        "issued_at",
+        "issued_at_date",
+        "date",
+        "url",  # date aliases
         "verification_type",  # alias for type
         "skills",  # can vary in ordering but not semantic content
-        "retired", "retirement_reason", "retired_at",  # schema addition fields, not content change
+        "retired",
+        "retirement_reason",
+        "retired_at",  # schema addition fields, not content change
     }
 
     # Create a normalized copy for hashing
@@ -98,7 +126,9 @@ def compute_content_hash(record: dict, id_field: str) -> str:
             normalized[k] = v
 
     # Stable JSON serialization
-    content_str = json.dumps(normalized, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
+    content_str = json.dumps(
+        normalized, sort_keys=True, separators=(",", ":"), ensure_ascii=False
+    )
     return hashlib.sha256(content_str.encode("utf-8")).hexdigest()[:32]
 
 
@@ -116,7 +146,12 @@ def extract_record_id(record: dict, id_field: str, platform: str) -> str:
     if platform == "microsoft-learn":
         # For achievements: use 'id' field (e.g., EG94SBRP)
         # For credentials: use 'credentialId'
-        return str(record.get("id") or record.get("credentialId") or record.get("sourceUid") or "")
+        return str(
+            record.get("id")
+            or record.get("credentialId")
+            or record.get("sourceUid")
+            or ""
+        )
     elif platform == "google-skills":
         return str(record.get("id") or record.get("badge_id") or "")
     elif platform in ("aws-skills", "credly"):
@@ -135,11 +170,15 @@ def extract_record_id(record: dict, id_field: str, platform: str) -> str:
         return f"gdev-{hashlib.sha256(f'{title}{date}'.encode()).hexdigest()[:16]}"
 
     # Generic fallback: hash of all non-volatile fields
-    fallback_content = json.dumps({k: v for k, v in record.items() if k not in {"version", "_ts"}}, sort_keys=True)
+    fallback_content = json.dumps(
+        {k: v for k, v in record.items() if k not in {"version", "_ts"}}, sort_keys=True
+    )
     return f"auto-{hashlib.sha256(fallback_content.encode()).hexdigest()[:16]}"
 
 
-def build_fingerprint_index(records: list[dict], id_field: str, platform: str) -> dict[str, RecordFingerprint]:
+def build_fingerprint_index(
+    records: list[dict], id_field: str, platform: str
+) -> dict[str, RecordFingerprint]:
     """
     Build a fingerprint index from a list of records.
     Returns dict: {record_id: RecordFingerprint}
@@ -161,7 +200,7 @@ def build_fingerprint_index(records: list[dict], id_field: str, platform: str) -
             record_id=record_id,
             content_hash=content_hash,
             platform=platform,
-            timestamp=timestamp
+            timestamp=timestamp,
         )
 
     return index
@@ -175,7 +214,9 @@ def load_baseline(platform: str) -> dict[str, RecordFingerprint] | None:
     baseline_path = os.path.join(VALIDATION_DIR, f"{platform}-baseline.json")
 
     if not os.path.exists(baseline_path):
-        logger.info(f"📦 [{platform}] No baseline found at {baseline_path} — first run.")
+        logger.info(
+            f"📦 [{platform}] No baseline found at {baseline_path} — first run."
+        )
         return None
 
     try:
@@ -184,7 +225,9 @@ def load_baseline(platform: str) -> dict[str, RecordFingerprint] | None:
 
         # Validate baseline structure
         if not isinstance(data, dict) or "fingerprints" not in data:
-            logger.warning(f"⚠️ [{platform}] Baseline format invalid, treating as first run.")
+            logger.warning(
+                f"⚠️ [{platform}] Baseline format invalid, treating as first run."
+            )
             return None
 
         # Reconstruct RecordFingerprint objects
@@ -192,15 +235,21 @@ def load_baseline(platform: str) -> dict[str, RecordFingerprint] | None:
         for rid, fp_data in data["fingerprints"].items():
             index[rid] = RecordFingerprint(**fp_data)
 
-        logger.info(f"📂 [{platform}] Loaded baseline: {len(index)} records from {baseline_path}")
+        logger.info(
+            f"📂 [{platform}] Loaded baseline: {len(index)} records from {baseline_path}"
+        )
         return index
 
     except (json.JSONDecodeError, OSError, TypeError) as e:
-        logger.warning(f"⚠️ [{platform}] Failed to load baseline ({e}), treating as first run.")
+        logger.warning(
+            f"⚠️ [{platform}] Failed to load baseline ({e}), treating as first run."
+        )
         return None
 
 
-def save_baseline(platform: str, fingerprint_index: dict[str, RecordFingerprint]) -> bool:
+def save_baseline(
+    platform: str, fingerprint_index: dict[str, RecordFingerprint]
+) -> bool:
     """
     Atomically save fingerprint index as new baseline.
     Returns True on success.
@@ -217,7 +266,7 @@ def save_baseline(platform: str, fingerprint_index: dict[str, RecordFingerprint]
             "platform": platform,
             "record_count": len(fingerprint_index),
             "created_at": datetime.now(UTC).isoformat(),
-            "fingerprints": {rid: asdict(fp) for rid, fp in fingerprint_index.items()}
+            "fingerprints": {rid: asdict(fp) for rid, fp in fingerprint_index.items()},
         }
 
         # Atomic write: write to temp, then rename
@@ -225,7 +274,9 @@ def save_baseline(platform: str, fingerprint_index: dict[str, RecordFingerprint]
             json.dump(data, f, indent=2, ensure_ascii=False)
 
         os.replace(temp_path, baseline_path)
-        logger.info(f"💾 [{platform}] Baseline updated: {len(fingerprint_index)} records → {baseline_path}")
+        logger.info(
+            f"💾 [{platform}] Baseline updated: {len(fingerprint_index)} records → {baseline_path}"
+        )
         return True
 
     except OSError as e:
@@ -241,7 +292,7 @@ def save_baseline(platform: str, fingerprint_index: dict[str, RecordFingerprint]
 def compare_fingerprints(
     baseline: dict[str, RecordFingerprint] | None,
     incoming: dict[str, RecordFingerprint],
-    platform: str
+    platform: str,
 ) -> DiffReport:
     """
     Compare baseline vs incoming fingerprints and generate DiffReport.
@@ -261,8 +312,8 @@ def compare_fingerprints(
             integrity_score=1.0,
             details={
                 "note": "First run - baseline established",
-                "added_ids": list(incoming.keys())
-            }
+                "added_ids": list(incoming.keys()),
+            },
         )
 
     baseline_ids = set(baseline.keys())
@@ -282,11 +333,13 @@ def compare_fingerprints(
             retained_count += 1
         else:
             modified_count += 1
-            modified_details.append({
-                "id": rid,
-                "old_hash": baseline[rid].content_hash,
-                "new_hash": incoming[rid].content_hash
-            })
+            modified_details.append(
+                {
+                    "id": rid,
+                    "old_hash": baseline[rid].content_hash,
+                    "new_hash": incoming[rid].content_hash,
+                }
+            )
 
     old_count = len(baseline_ids)
     new_count = len(incoming_ids)
@@ -303,10 +356,10 @@ def compare_fingerprints(
     addition_rate = len(added_ids) / new_count if new_count > 0 else 0.0
 
     integrity_score = (
-        0.4 * retention_rate +
-        0.2 * (1.0 - modification_rate) +
-        0.2 * (1.0 - removal_rate) +
-        0.2 * (1.0 - min(addition_rate, 1.0))  # Cap addition penalty
+        0.4 * retention_rate
+        + 0.2 * (1.0 - modification_rate)
+        + 0.2 * (1.0 - removal_rate)
+        + 0.2 * (1.0 - min(addition_rate, 1.0))  # Cap addition penalty
     )
 
     return DiffReport(
@@ -325,7 +378,7 @@ def compare_fingerprints(
             "removed_ids": sorted(removed_ids),
             "modified_ids": [m["id"] for m in modified_details],
             "modified_details": modified_details,
-        }
+        },
     )
 
 
@@ -333,7 +386,9 @@ def log_diff_report(report: DiffReport) -> None:
     """Log detailed DiffReport in GitHub Actions friendly format."""
     p = report.platform
 
-    logger.info(f"🛡️ Loss Guard [{p}]: Baseline={report.old_count:,} | Incoming={report.new_count:,}")
+    logger.info(
+        f"🛡️ Loss Guard [{p}]: Baseline={report.old_count:,} | Incoming={report.new_count:,}"
+    )
     logger.info(
         f"   Retained: {report.retained_count:,} ({report.retention_rate:.1%}) | "
         f"Modified: {report.modified_count:,} ({report.modification_rate:.1%}) | "
@@ -343,22 +398,29 @@ def log_diff_report(report: DiffReport) -> None:
 
     # Log details for audit trail
     if report.details.get("added_ids"):
-        added_preview = report.details['added_ids'][:10]
-        suffix = '...' if len(report.details['added_ids']) > 10 else ''
-        logger.info(f"   ➕ Added ({len(report.details['added_ids'])}): {added_preview}{suffix}")
+        added_preview = report.details["added_ids"][:10]
+        suffix = "..." if len(report.details["added_ids"]) > 10 else ""
+        logger.info(
+            f"   ➕ Added ({len(report.details['added_ids'])}): {added_preview}{suffix}"
+        )
     if report.details.get("removed_ids"):
-        removed_preview = report.details['removed_ids'][:10]
-        suffix = '...' if len(report.details['removed_ids']) > 10 else ''
-        logger.warning(f"   ➖ Removed ({len(report.details['removed_ids'])}): {removed_preview}{suffix}")
+        removed_preview = report.details["removed_ids"][:10]
+        suffix = "..." if len(report.details["removed_ids"]) > 10 else ""
+        logger.warning(
+            f"   ➖ Removed ({len(report.details['removed_ids'])}): {removed_preview}{suffix}"
+        )
     if report.details.get("modified_ids"):
-        modified_preview = report.details['modified_ids'][:10]
-        suffix = '...' if len(report.details['modified_ids']) > 10 else ''
-        logger.warning(f"   🔄 Modified ({len(report.details['modified_ids'])}): {modified_preview}{suffix}")
+        modified_preview = report.details["modified_ids"][:10]
+        suffix = "..." if len(report.details["modified_ids"]) > 10 else ""
+        logger.warning(
+            f"   🔄 Modified ({len(report.details['modified_ids'])}): {modified_preview}{suffix}"
+        )
 
 
 # ==============================================================================
 # GUARD THRESHOLDS & ENFORCEMENT
 # ==============================================================================
+
 
 class PipelineDataLossAnomaly(Exception):
     """Raised when dataset fails integrity thresholds."""
@@ -366,18 +428,18 @@ class PipelineDataLossAnomaly(Exception):
 
 # DEFAULT THRESHOLDS - can be overridden per platform
 DEFAULT_THRESHOLDS = {
-    "min_retention_rate": 0.85,        # Must retain at least 85% of old records
-    "max_modification_rate": 0.30,     # Flag if >30% of retained records changed content
-    "max_removal_rate": 0.15,          # Flag if >15% of old records removed
-    "min_integrity_score": 0.70,       # Composite score must exceed 0.70
+    "min_retention_rate": 0.85,  # Must retain at least 85% of old records
+    "max_modification_rate": 0.30,  # Flag if >30% of retained records changed content
+    "max_removal_rate": 0.15,  # Flag if >15% of old records removed
+    "min_integrity_score": 0.70,  # Composite score must exceed 0.70
 }
 
 # Per-platform overrides (can be tuned based on expected churn)
 PLATFORM_THRESHOLDS = {
     "microsoft-learn": {
-        "min_retention_rate": 0.90,    # MS Learn data very stable
-        "max_modification_rate": 0.10, # Content rarely changes
-        "max_removal_rate": 0.05,      # Almost no deletions expected
+        "min_retention_rate": 0.90,  # MS Learn data very stable
+        "max_modification_rate": 0.10,  # Content rarely changes
+        "max_removal_rate": 0.05,  # Almost no deletions expected
         "min_integrity_score": 0.85,
     },
     "google-skills": {
@@ -405,7 +467,7 @@ PLATFORM_THRESHOLDS = {
         "min_integrity_score": 0.70,
     },
     "google-developer": {
-        "min_retention_rate": 0.80,    # Local text parsing less stable
+        "min_retention_rate": 0.80,  # Local text parsing less stable
         "max_modification_rate": 0.30,
         "max_removal_rate": 0.20,
         "min_integrity_score": 0.65,
@@ -418,7 +480,7 @@ def execute_content_loss_guard(
     platform: str,
     id_field: str = "id",
     thresholds: dict | None = None,
-    fail_on_warn: bool = True  # SET TO False TO DISABLE FAILURES (comment out raise lines)
+    fail_on_warn: bool = True,  # SET TO False TO DISABLE FAILURES (comment out raise lines)
 ) -> DiffReport:
     """
     Main entry point: validates incoming records against baseline.

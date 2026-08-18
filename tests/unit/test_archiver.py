@@ -118,13 +118,16 @@ class TestFindLatestSlice:
 class TestExtractYM:
     """Tests for _extract_ym helper function."""
 
-    @pytest.mark.parametrize("date_str,expected", [
-        ("2024-01-15", "2024-01"),
-        ("2024-01", "2024-01"),
-        ("2024", "2024-01"),
-        ("", "2024-06"),  # Defaults to current month (frozen in conftest)
-        (None, "2024-06"),
-    ])
+    @pytest.mark.parametrize(
+        "date_str,expected",
+        [
+            ("2024-01-15", "2024-01"),
+            ("2024-01", "2024-01"),
+            ("2024", "2024-01"),
+            ("", "2024-06"),  # Defaults to current month (frozen in conftest)
+            (None, "2024-06"),
+        ],
+    )
     def test_extract_ym(self, date_str, expected):
         # Note: default_ym is based on current time which is frozen in conftest
         result = _extract_ym(date_str, "2024-06")
@@ -139,9 +142,13 @@ class TestCleanOrphanedChunks:
         (temp_dir / "test-platform-2024-01-part-01.md").write_text("old")
         (temp_dir / "test-platform-2024-02-part-02.md").write_text("active")
         (temp_dir / "test-platform-2024-03-part-03.md").write_text("active")
-        
-        clean_orphaned_chunks(str(temp_dir), "test-platform", {"test-platform-2024-02-part-02.md", "test-platform-2024-03-part-03.md"})
-        
+
+        clean_orphaned_chunks(
+            str(temp_dir),
+            "test-platform",
+            {"test-platform-2024-02-part-02.md", "test-platform-2024-03-part-03.md"},
+        )
+
         assert not (temp_dir / "test-platform-2024-01-part-01.md").exists()
         assert (temp_dir / "test-platform-2024-02-part-02.md").exists()
         assert (temp_dir / "test-platform-2024-03-part-03.md").exists()
@@ -150,9 +157,13 @@ class TestCleanOrphanedChunks:
         """Should not remove anything when all files are active."""
         (temp_dir / "test-platform-2024-01-part-01.md").write_text("active")
         (temp_dir / "test-platform-2024-02-part-02.md").write_text("active")
-        
-        clean_orphaned_chunks(str(temp_dir), "test-platform", {"test-platform-2024-01-part-01.md", "test-platform-2024-02-part-02.md"})
-        
+
+        clean_orphaned_chunks(
+            str(temp_dir),
+            "test-platform",
+            {"test-platform-2024-01-part-01.md", "test-platform-2024-02-part-02.md"},
+        )
+
         assert (temp_dir / "test-platform-2024-01-part-01.md").exists()
         assert (temp_dir / "test-platform-2024-02-part-02.md").exists()
 
@@ -163,9 +174,18 @@ class TestGeneratePlatformArchive:
     def setup_method(self):
         """Set up test data."""
         self.formatted_rows = [
-            ("| 2024-01-15 | [Badge 1](https://example.com/1) | AWS | Badge |", "2024-01-15"),
-            ("| 2024-01-10 | [Badge 2](https://example.com/2) | AWS | Badge |", "2024-01-10"),
-            ("| 2024-01-05 | [Badge 3](https://example.com/3) | AWS | Badge |", "2024-01-05"),
+            (
+                "| 2024-01-15 | [Badge 1](https://example.com/1) | AWS | Badge |",
+                "2024-01-15",
+            ),
+            (
+                "| 2024-01-10 | [Badge 2](https://example.com/2) | AWS | Badge |",
+                "2024-01-10",
+            ),
+            (
+                "| 2024-01-05 | [Badge 3](https://example.com/3) | AWS | Badge |",
+                "2024-01-05",
+            ),
         ]
         self.readme_lines = [
             "### Test Platform",
@@ -182,7 +202,7 @@ class TestGeneratePlatformArchive:
     def test_generate_platform_archive_creates_files(self, temp_dir):
         """Should create monolith, index, and slice files."""
         archive_dir = str(temp_dir / "archives")
-        
+
         latest_slice = generate_platform_archive(
             platform_prefix="test-platform",
             platform_name="Test Platform",
@@ -195,7 +215,7 @@ class TestGeneratePlatformArchive:
             archive_dir=archive_dir,
             readme_path=str(temp_dir / "README.md"),
         )
-        
+
         # Check monolith created
         monolith_path = Path(archive_dir) / "test-platform-complete.md"
         assert monolith_path.exists()
@@ -204,13 +224,13 @@ class TestGeneratePlatformArchive:
         assert "Badge 1" in content
         assert "Badge 2" in content
         assert "Badge 3" in content
-        
+
         # Check index created
         index_path = Path(archive_dir) / "test-platform-index.md"
         assert index_path.exists()
         index_content = index_path.read_text(encoding="utf-8")
         assert "Test Platform Index" in index_content
-        
+
         # Check slice created
         assert latest_slice is not None
         slice_path = Path(archive_dir) / latest_slice
@@ -221,11 +241,11 @@ class TestGeneratePlatformArchive:
         # Create enough rows to exceed 10KB
         large_rows = []
         for i in range(200):
-            row = f"| 2024-01-{i%30+1:02d} | [Badge {i}](https://example.com/{i}) | AWS | Badge |"
-            large_rows.append((row, f"2024-01-{i%30+1:02d}"))
-        
+            row = f"| 2024-01-{i % 30 + 1:02d} | [Badge {i}](https://example.com/{i}) | AWS | Badge |"
+            large_rows.append((row, f"2024-01-{i % 30 + 1:02d}"))
+
         archive_dir = str(temp_dir / "archives")
-        
+
         _ = generate_platform_archive(
             platform_prefix="test-platform",
             platform_name="Test Platform",
@@ -238,19 +258,21 @@ class TestGeneratePlatformArchive:
             archive_dir=archive_dir,
             readme_path=str(temp_dir / "README.md"),
         )
-        
+
         # Should have multiple chunks
         slice_files = list(Path(archive_dir).glob("test-platform-*-part-*.md"))
         assert len(slice_files) > 1
-        
+
         # Part numbers should be sequential starting from 01
-        part_nums = sorted([int(f.name.split("-part-")[1].split(".")[0]) for f in slice_files])
+        part_nums = sorted(
+            [int(f.name.split("-part-")[1].split(".")[0]) for f in slice_files]
+        )
         assert part_nums == list(range(1, len(part_nums) + 1))
 
     def test_generate_platform_archive_stable_chunk_order(self, temp_dir):
         """Part-01 should always contain oldest entries (tail-anchored)."""
         archive_dir = str(temp_dir / "archives")
-        
+
         _ = generate_platform_archive(
             platform_prefix="test-platform",
             platform_name="Test Platform",
@@ -263,7 +285,7 @@ class TestGeneratePlatformArchive:
             archive_dir=archive_dir,
             readme_path=str(temp_dir / "README.md"),
         )
-        
+
         # Check part-01 contains oldest (2024-01-05)
         part1_path = Path(archive_dir) / "test-platform-2024-01-part-01.md"
         if part1_path.exists():
@@ -275,11 +297,11 @@ class TestGeneratePlatformArchive:
         # Create enough rows for 3 chunks
         large_rows = []
         for i in range(50):
-            row = f"| 2024-01-{i%30+1:02d} | [Badge {i}](https://example.com/{i}) | AWS | Badge |"
-            large_rows.append((row, f"2024-01-{i%30+1:02d}"))
-        
+            row = f"| 2024-01-{i % 30 + 1:02d} | [Badge {i}](https://example.com/{i}) | AWS | Badge |"
+            large_rows.append((row, f"2024-01-{i % 30 + 1:02d}"))
+
         archive_dir = str(temp_dir / "archives")
-        
+
         generate_platform_archive(
             platform_prefix="test-platform",
             platform_name="Test Platform",
@@ -292,14 +314,14 @@ class TestGeneratePlatformArchive:
             archive_dir=archive_dir,
             readme_path=str(temp_dir / "README.md"),
         )
-        
+
         slice_files = sorted(Path(archive_dir).glob("test-platform-*-part-*.md"))
         if len(slice_files) >= 2:
             # First part should have no prev, but next link
             part1_content = slice_files[0].read_text()
             assert "Prev: None" in part1_content
             assert "Next:" in part1_content
-            
+
             # Last part should have prev, no next
             part_last_content = slice_files[-1].read_text()
             assert "Prev:" in part_last_content
@@ -308,10 +330,12 @@ class TestGeneratePlatformArchive:
     def test_generate_platform_archive_readme_update(self, temp_dir):
         """Should update README.md with marker replacement."""
         readme_path = temp_dir / "README.md"
-        readme_path.write_text("Before\n<!-- TEST_START -->\nOld content\n<!-- TEST_END -->\nAfter")
-        
+        readme_path.write_text(
+            "Before\n<!-- TEST_START -->\nOld content\n<!-- TEST_END -->\nAfter"
+        )
+
         archive_dir = str(temp_dir / "archives")
-        
+
         generate_platform_archive(
             platform_prefix="test-platform",
             platform_name="Test Platform",
@@ -324,7 +348,7 @@ class TestGeneratePlatformArchive:
             archive_dir=archive_dir,
             readme_path=str(readme_path),
         )
-        
+
         content = readme_path.read_text()
         assert "### Test Platform" in content
         assert "Old content" not in content
@@ -335,9 +359,9 @@ class TestGeneratePlatformArchive:
         """Should handle missing markers gracefully."""
         readme_path = temp_dir / "README.md"
         readme_path.write_text("No markers here")
-        
+
         archive_dir = str(temp_dir / "archives")
-        
+
         latest_slice = generate_platform_archive(
             platform_prefix="test-platform",
             platform_name="Test Platform",
@@ -350,18 +374,21 @@ class TestGeneratePlatformArchive:
             archive_dir=archive_dir,
             readme_path=str(readme_path),
         )
-        
+
         # Should still create archive files even if README not updated
         assert latest_slice is not None
 
     def test_generate_platform_archive_retired_marker(self, temp_dir):
         """Should include retired marker in output."""
         rows_with_retired = [
-            ("| 2024-01-15 | [Badge 1](https://example.com/1) ⚠️ *Content retired* | AWS | Badge |", "2024-01-15"),
+            (
+                "| 2024-01-15 | [Badge 1](https://example.com/1) ⚠️ *Content retired* | AWS | Badge |",
+                "2024-01-15",
+            ),
         ]
-        
+
         archive_dir = str(temp_dir / "archives")
-        
+
         generate_platform_archive(
             platform_prefix="test-platform",
             platform_name="Test Platform",
@@ -374,7 +401,7 @@ class TestGeneratePlatformArchive:
             archive_dir=archive_dir,
             readme_path=str(temp_dir / "README.md"),
         )
-        
+
         monolith_path = Path(archive_dir) / "test-platform-complete.md"
         content = monolith_path.read_text(encoding="utf-8")
         assert "⚠️ *Content retired*" in content

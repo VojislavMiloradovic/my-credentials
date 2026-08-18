@@ -5,7 +5,9 @@ from datetime import UTC, datetime
 
 import tiktoken
 
-RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
+RAW_BASE_DEFAULT = (
+    "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
+)
 
 _ENCODER = None
 
@@ -43,9 +45,11 @@ def find_latest_slice(archive_dir: str, platform_prefix: str) -> str | None:
     matches = glob.glob(pattern)
     if not matches:
         return None
+
     def extract_part_num(f: str) -> int:
         m = re.search(r"-part-(\d+)\.md$", f)
         return int(m.group(1)) if m else 0
+
     latest = max(matches, key=extract_part_num)
     return os.path.basename(latest)
 
@@ -70,7 +74,9 @@ def safe_write_file(filepath: str, new_content: str) -> bool:
     return True
 
 
-def clean_orphaned_chunks(archive_dir: str, platform_prefix: str, active_filenames: set[str]) -> None:
+def clean_orphaned_chunks(
+    archive_dir: str, platform_prefix: str, active_filenames: set[str]
+) -> None:
     """Removes slice files for a platform that are no longer active chunks."""
     pattern = os.path.join(archive_dir, f"{platform_prefix}-*-part-*.md")
     for filepath in glob.glob(pattern):
@@ -114,7 +120,9 @@ def generate_platform_archive(
     and updates README markers cleanly with tail-anchored stable chunking.
     Returns the latest slice filename (highest part number) or None.
     """
-    _safe_print(f"\n[PACKAGE] Processing platform archive: {platform_name} ({platform_prefix})")
+    _safe_print(
+        f"\n[PACKAGE] Processing platform archive: {platform_name} ({platform_prefix})"
+    )
     os.makedirs(archive_dir, exist_ok=True)
 
     # Sanitize and ensure row texts are clean single-line table rows
@@ -147,7 +155,9 @@ def generate_platform_archive(
     for row_text, _ in sanitized_formatted_rows:
         archive_md.append(f"{row_text}\n")
 
-    archive_md.append(f"\n\n[← Back to Index](./{platform_prefix}-index.md) | [← README](../README.md)\n")
+    archive_md.append(
+        f"\n\n[← Back to Index](./{platform_prefix}-index.md) | [← README](../README.md)\n"
+    )
 
     monolith_text = "".join(archive_md)
     mono_written = safe_write_file(monolith_path, monolith_text)
@@ -157,7 +167,9 @@ def generate_platform_archive(
     mono_tokens = count_tokens(monolith_text)
 
     mono_status = "Updated" if mono_written else "Unchanged"
-    _safe_print(f"  {mono_status} monolith: {monolith_filename} ({mono_kb} KB | {mono_tokens:,} tokens | {total_entries} records)")
+    _safe_print(
+        f"  {mono_status} monolith: {monolith_filename} ({mono_kb} KB | {mono_tokens:,} tokens | {total_entries} records)"
+    )
 
     # 2. Stable Chunking Logic (~10 KB limit per file)
     # Process from oldest to newest so part-01 is permanently anchored to oldest history.
@@ -195,12 +207,14 @@ def generate_platform_archive(
         chunk_filename = f"{platform_prefix}-{ym_prefix}-part-{i:02d}.md"
         chunk_filenames.append(chunk_filename)
 
-        chunk_meta.append({
-            "part": i,
-            "filename": chunk_filename,
-            "date_range": f"{start_date} to {end_date}",
-            "rows": chunk_rows,
-        })
+        chunk_meta.append(
+            {
+                "part": i,
+                "filename": chunk_filename,
+                "date_range": f"{start_date} to {end_date}",
+                "rows": chunk_rows,
+            }
+        )
 
     # Second pass: write chunks with stable prev/next links
     active_filenames = set(chunk_filenames)
@@ -212,7 +226,7 @@ def generate_platform_archive(
 
         # Link to part-(i-1) and part-(i+1)
         prev_link = (
-            f"[{chunk_filenames[i-2]}](./{chunk_filenames[i-2]})"
+            f"[{chunk_filenames[i - 2]}](./{chunk_filenames[i - 2]})"
             if i > 1
             else "None"
         )
@@ -239,7 +253,9 @@ def generate_platform_archive(
         for r_text, _ in chunk_rows:
             c_md.append(r_text.strip())
 
-        c_md.append(f"\n---\n> **Navigation:** Prev: {prev_link} | [Index](./{platform_prefix}-index.md) | Next: {next_link}\n")
+        c_md.append(
+            f"\n---\n> **Navigation:** Prev: {prev_link} | [Index](./{platform_prefix}-index.md) | Next: {next_link}\n"
+        )
 
         content = "\n".join(c_md) + "\n"
         chunk_path = os.path.join(archive_dir, chunk_filename)
@@ -254,7 +270,9 @@ def generate_platform_archive(
         meta["raw_url"] = f"{raw_base_url}/{chunk_filename}"
 
         slice_status = "Updated" if chunk_written else "Unchanged"
-        _safe_print(f"     [{i:02d}/{total_chunks:02d}] {slice_status}: {chunk_filename} ({file_size_kb} KB | {exact_tokens:,} tokens | {len(chunk_rows)} entries)")
+        _safe_print(
+            f"     [{i:02d}/{total_chunks:02d}] {slice_status}: {chunk_filename} ({file_size_kb} KB | {exact_tokens:,} tokens | {len(chunk_rows)} entries)"
+        )
 
     # Clean up obsolete slice files
     clean_orphaned_chunks(archive_dir, platform_prefix, active_filenames)

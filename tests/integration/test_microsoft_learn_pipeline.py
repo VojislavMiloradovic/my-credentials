@@ -40,17 +40,41 @@ class TestMsLearnHelpers:
         assert format_num(None) == "0"
         assert format_num("invalid") == "invalid"
 
-    @pytest.mark.parametrize("input_url,expected", [
-        ("learn.azure-fundamentals", "https://learn.microsoft.com/en-us/training/paths/azure-fundamentals"),
-        ("/training/paths/test", "https://learn.microsoft.com/en-us/training/paths/test"),
-        ("training/paths/test", "https://learn.microsoft.com/en-us/training/paths/test"),
-        ("https://learn.microsoft.com/training/paths/test", "https://learn.microsoft.com/en-us/training/paths/test"),
-        ("https://learn.microsoft.com/en-us/training/paths/test", "https://learn.microsoft.com/en-us/training/paths/test"),
-        ("  learn.test-path  ", "https://learn.microsoft.com/en-us/training/paths/test-path"),
-        ("learn.path program/", "https://learn.microsoft.com/en-us/training/paths/path"),
-        ("", ""),
-        (None, ""),
-    ])
+    @pytest.mark.parametrize(
+        "input_url,expected",
+        [
+            (
+                "learn.azure-fundamentals",
+                "https://learn.microsoft.com/en-us/training/paths/azure-fundamentals",
+            ),
+            (
+                "/training/paths/test",
+                "https://learn.microsoft.com/en-us/training/paths/test",
+            ),
+            (
+                "training/paths/test",
+                "https://learn.microsoft.com/en-us/training/paths/test",
+            ),
+            (
+                "https://learn.microsoft.com/training/paths/test",
+                "https://learn.microsoft.com/en-us/training/paths/test",
+            ),
+            (
+                "https://learn.microsoft.com/en-us/training/paths/test",
+                "https://learn.microsoft.com/en-us/training/paths/test",
+            ),
+            (
+                "  learn.test-path  ",
+                "https://learn.microsoft.com/en-us/training/paths/test-path",
+            ),
+            (
+                "learn.path program/",
+                "https://learn.microsoft.com/en-us/training/paths/path",
+            ),
+            ("", ""),
+            (None, ""),
+        ],
+    )
     def test_format_verify_url(self, input_url, expected):
         assert format_verify_url(input_url) == expected
 
@@ -61,13 +85,16 @@ class TestMsLearnHelpers:
         assert clean_uid(None) == ""
         assert clean_uid("") == ""
 
-    @pytest.mark.parametrize("input_date,expected", [
-        ("2024-01-15T10:00:00Z", "2024-01-15"),
-        ("2024-01-15", "2024-01-15"),
-        ("2024-01", "2024-01"),
-        ("", "N/A"),
-        (None, "N/A"),
-    ])
+    @pytest.mark.parametrize(
+        "input_date,expected",
+        [
+            ("2024-01-15T10:00:00Z", "2024-01-15"),
+            ("2024-01-15", "2024-01-15"),
+            ("2024-01", "2024-01"),
+            ("", "N/A"),
+            (None, "N/A"),
+        ],
+    )
     def test_clean_iso_date(self, input_date, expected):
         assert clean_iso_date(input_date) == expected
 
@@ -77,12 +104,12 @@ class TestMsLearnHelpers:
         assert dt.month == 1
         assert dt.day == 15
         assert dt.tzinfo is not None
-        
+
         dt2 = parse_date({"date": "2024-02-20"})
         assert dt2.year == 2024
         assert dt2.month == 2
         assert dt2.day == 20
-        
+
         dt3 = parse_date({})
         assert dt3 == datetime.min.replace(tzinfo=UTC)
 
@@ -90,10 +117,10 @@ class TestMsLearnHelpers:
         xp_profile = {"level": {"levelNumber": 10}}
         xp_data = {}
         assert resolve_level(xp_profile, xp_data, 0) == "10"
-        
+
         _ = {"totalXp": 6000000}
         assert resolve_level({}, {}, 6000000) == "20"
-        
+
         assert resolve_level({}, {}, 0) == "20"
 
 
@@ -139,7 +166,9 @@ class TestMsLearnLossGuard:
     """Tests for Microsoft Learn loss guard functions."""
 
     def test_get_stored_archive_baseline_count_no_file(self, temp_dir):
-        with patch("update_ms_learn.ARCHIVE_MONOLITH", str(temp_dir / "nonexistent.md")):
+        with patch(
+            "update_ms_learn.ARCHIVE_MONOLITH", str(temp_dir / "nonexistent.md")
+        ):
             count = get_stored_archive_baseline_count()
             assert count == 0
 
@@ -152,7 +181,7 @@ class TestMsLearnLossGuard:
 | Badge 1 | Module | 2024-01-15 | [Verify](url) |
 | Badge 2 | Module | 2024-01-10 | [Verify](url) |
 """)
-        
+
         with patch("update_ms_learn.ARCHIVE_MONOLITH", str(monolith)):
             count = get_stored_archive_baseline_count()
             assert count == 2
@@ -168,13 +197,13 @@ class TestMsLearnLossGuard:
 | Badge 2 | Module | 2024-01-10 | [Verify](url) |
 | Badge 3 | Module | 2024-01-05 | [Verify](url) |
 """)
-        
+
         achievements = [
             {"id": "1", "title": "Badge 1"},
             {"id": "2", "title": "Badge 2"},
             {"id": "3", "title": "Badge 3"},
         ]
-        
+
         with patch("update_ms_learn.ARCHIVE_MONOLITH", str(monolith)):
             # Should not raise
             execute_data_loss_guard(achievements)
@@ -188,7 +217,7 @@ class TestMsLearnLossGuard:
 | :--- | :--- | :--- | :--- |
 | Badge 1 | Module | 2024-01-15 | [Verify](url) |
 """)
-        
+
         with patch("update_ms_learn.ARCHIVE_MONOLITH", str(monolith)):
             with pytest.raises(Exception) as exc_info:
                 execute_data_loss_guard([])
@@ -207,14 +236,14 @@ class TestMsLearnLossGuard:
 | Badge 4 | Module | 2024-01-01 | [Verify](url) |
 | Badge 5 | Module | 2023-12-20 | [Verify](url) |
 """)
-        
+
         # Only 3 badges = 40% drop > 15% threshold
         achievements = [
             {"id": "1", "title": "Badge 1"},
             {"id": "2", "title": "Badge 2"},
             {"id": "3", "title": "Badge 3"},
         ]
-        
+
         with patch("update_ms_learn.ARCHIVE_MONOLITH", str(monolith)):
             with pytest.raises(Exception) as exc_info:
                 execute_data_loss_guard(achievements)
@@ -224,31 +253,42 @@ class TestMsLearnLossGuard:
 class TestMsLearnPipelineIntegration:
     """Integration tests for the full Microsoft Learn pipeline."""
 
-    def test_main_pipeline_success(self, temp_dir, sample_ms_learn_json, mock_archiver, mock_loss_guard, mock_retired_rules):
+    def test_main_pipeline_success(
+        self,
+        temp_dir,
+        sample_ms_learn_json,
+        mock_archiver,
+        mock_loss_guard,
+        mock_retired_rules,
+    ):
         """Full pipeline should succeed with valid data."""
         data_dir = temp_dir / "data"
         data_dir.mkdir()
         json_file = data_dir / "microsoft-learn.json"
         json_file.write_text(json.dumps(sample_ms_learn_json))
-        
+
         readme = temp_dir / "README.md"
         readme.write_text(f"Before\n{MARKER_START}\nOld\n{MARKER_END}\nAfter")
-        
+
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
-        
+
         validation_dir = temp_dir / "for_validation"
         validation_dir.mkdir()
-        
-        with patch("update_ms_learn.JSON_PATH", str(json_file)), \
-             patch("update_ms_learn.README_PATH", str(readme)), \
-             patch("update_ms_learn.ARCHIVE_DIR", str(archives_dir)), \
-             patch("update_ms_learn.ARCHIVE_MONOLITH", str(archives_dir / "microsoft-learn-complete.md")), \
-             patch("update_ms_learn.VALIDATION_DIR", str(validation_dir)):
-            
+
+        with (
+            patch("update_ms_learn.JSON_PATH", str(json_file)),
+            patch("update_ms_learn.README_PATH", str(readme)),
+            patch("update_ms_learn.ARCHIVE_DIR", str(archives_dir)),
+            patch(
+                "update_ms_learn.ARCHIVE_MONOLITH",
+                str(archives_dir / "microsoft-learn-complete.md"),
+            ),
+            patch("update_ms_learn.VALIDATION_DIR", str(validation_dir)),
+        ):
             # Run main
             main()
-            
+
             # Verify validation file created
             validation_file = validation_dir / "microsoft-learn.json"
             assert validation_file.exists()
@@ -257,65 +297,79 @@ class TestMsLearnPipelineIntegration:
             assert "achievements" in data
             assert "verifiable_credentials" in data
 
-    def test_main_pipeline_handles_retired_propagation(self, temp_dir, sample_ms_learn_json, mock_archiver, mock_loss_guard):
+    def test_main_pipeline_handles_retired_propagation(
+        self, temp_dir, sample_ms_learn_json, mock_archiver, mock_loss_guard
+    ):
         """Should propagate retired status from learning paths to achievements."""
         # Add a retired learning path
         sample_ms_learn_json["Progress"]["learningPathPasses"][0]["retired"] = True
-        sample_ms_learn_json["Progress"]["learningPathPasses"][0]["url"] = "learn.retired-path"
-        
+        sample_ms_learn_json["Progress"]["learningPathPasses"][0]["url"] = (
+            "learn.retired-path"
+        )
+
         # Add achievement matching that learning path
-        sample_ms_learn_json["XP"]["achievements"].append({
-            "id": "ACH004",
-            "title": "Retired Path Achievement",
-            "category": "module",
-            "grantedOn": "2024-01-15",
-            "url": "learn.retired-path",
-        })
-        
+        sample_ms_learn_json["XP"]["achievements"].append(
+            {
+                "id": "ACH004",
+                "title": "Retired Path Achievement",
+                "category": "module",
+                "grantedOn": "2024-01-15",
+                "url": "learn.retired-path",
+            }
+        )
+
         data_dir = temp_dir / "data"
         data_dir.mkdir()
         json_file = data_dir / "microsoft-learn.json"
         json_file.write_text(json.dumps(sample_ms_learn_json))
-        
+
         readme = temp_dir / "README.md"
         readme.write_text(f"Before\n{MARKER_START}\nOld\n{MARKER_END}\nAfter")
-        
+
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
         validation_dir = temp_dir / "for_validation"
         validation_dir.mkdir()
-        
-        with patch("update_ms_learn.JSON_PATH", str(json_file)), \
-             patch("update_ms_learn.README_PATH", str(readme)), \
-             patch("update_ms_learn.ARCHIVE_DIR", str(archives_dir)), \
-             patch("update_ms_learn.ARCHIVE_MONOLITH", str(archives_dir / "microsoft-learn-complete.md")), \
-             patch("update_ms_learn.VALIDATION_DIR", str(validation_dir)):
-            
+
+        with (
+            patch("update_ms_learn.JSON_PATH", str(json_file)),
+            patch("update_ms_learn.README_PATH", str(readme)),
+            patch("update_ms_learn.ARCHIVE_DIR", str(archives_dir)),
+            patch(
+                "update_ms_learn.ARCHIVE_MONOLITH",
+                str(archives_dir / "microsoft-learn-complete.md"),
+            ),
+            patch("update_ms_learn.VALIDATION_DIR", str(validation_dir)),
+        ):
             main()
-            
+
             # Check validation file has retired propagation
             validation_file = validation_dir / "microsoft-learn.json"
             data = json.loads(validation_file.read_text())
-            
+
             # Find the propagated achievement
             ach = next((a for a in data["achievements"] if a["id"] == "ACH004"), None)
             assert ach is not None
             assert ach["retired"] is True
 
-    def test_main_pipeline_missing_json_exits(self, temp_dir, mock_archiver, mock_loss_guard):
+    def test_main_pipeline_missing_json_exits(
+        self, temp_dir, mock_archiver, mock_loss_guard
+    ):
         """Should exit with error when JSON file not found."""
         with patch("update_ms_learn.JSON_PATH", str(temp_dir / "nonexistent.json")):
             with pytest.raises(SystemExit) as exc_info:
                 main()
             assert exc_info.value.code == 1
 
-    def test_main_pipeline_invalid_json_exits(self, temp_dir, mock_archiver, mock_loss_guard):
+    def test_main_pipeline_invalid_json_exits(
+        self, temp_dir, mock_archiver, mock_loss_guard
+    ):
         """Should exit with error when JSON is invalid."""
         data_dir = temp_dir / "data"
         data_dir.mkdir()
         json_file = data_dir / "microsoft-learn.json"
         json_file.write_text("invalid json")
-        
+
         with patch("update_ms_learn.JSON_PATH", str(json_file)):
             with pytest.raises(SystemExit) as exc_info:
                 main()
@@ -325,32 +379,43 @@ class TestMsLearnPipelineIntegration:
 class TestMsLearnValidationOutput:
     """Tests for validation output structure."""
 
-    def test_validation_output_structure(self, temp_dir, sample_ms_learn_json, mock_archiver, mock_loss_guard, mock_retired_rules):
+    def test_validation_output_structure(
+        self,
+        temp_dir,
+        sample_ms_learn_json,
+        mock_archiver,
+        mock_loss_guard,
+        mock_retired_rules,
+    ):
         """Validation output should have expected structure."""
         data_dir = temp_dir / "data"
         data_dir.mkdir()
         json_file = data_dir / "microsoft-learn.json"
         json_file.write_text(json.dumps(sample_ms_learn_json))
-        
+
         readme = temp_dir / "README.md"
         readme.write_text(f"Before\n{MARKER_START}\nOld\n{MARKER_END}\nAfter")
-        
+
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
         validation_dir = temp_dir / "for_validation"
         validation_dir.mkdir()
-        
-        with patch("update_ms_learn.JSON_PATH", str(json_file)), \
-             patch("update_ms_learn.README_PATH", str(readme)), \
-             patch("update_ms_learn.ARCHIVE_DIR", str(archives_dir)), \
-             patch("update_ms_learn.ARCHIVE_MONOLITH", str(archives_dir / "microsoft-learn-complete.md")), \
-             patch("update_ms_learn.VALIDATION_DIR", str(validation_dir)):
-            
+
+        with (
+            patch("update_ms_learn.JSON_PATH", str(json_file)),
+            patch("update_ms_learn.README_PATH", str(readme)),
+            patch("update_ms_learn.ARCHIVE_DIR", str(archives_dir)),
+            patch(
+                "update_ms_learn.ARCHIVE_MONOLITH",
+                str(archives_dir / "microsoft-learn-complete.md"),
+            ),
+            patch("update_ms_learn.VALIDATION_DIR", str(validation_dir)),
+        ):
             main()
-            
+
             validation_file = validation_dir / "microsoft-learn.json"
             data = json.loads(validation_file.read_text())
-            
+
             # Check required fields
             assert data["platform"] == "microsoft-learn"
             assert "total_achievements" in data
@@ -362,7 +427,7 @@ class TestMsLearnValidationOutput:
             assert "modules" in data
             assert "completed_units" in data
             assert "verifiable_credentials" in data
-            
+
             # Check achievements have retired field
             for ach in data["achievements"]:
                 assert "retired" in ach

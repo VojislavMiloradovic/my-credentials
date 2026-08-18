@@ -20,26 +20,29 @@ from sanitize_ms_export import (
 class TestIsSensitiveKey:
     """Tests for is_sensitive_key function."""
 
-    @pytest.mark.parametrize("key,expected", [
-        ("password", True),
-        ("secret", True),
-        ("privateKey", True),
-        ("sshKey", True),
-        ("connectionString", True),
-        ("authorization", True),
-        ("accessToken", True),
-        ("refreshToken", True),
-        ("bearer", True),
-        ("subscriptionKey", True),
-        ("clientSecret", True),
-        ("labPassword", True),
-        ("vmPassword", True),
-        ("PASSWORD", True),
-        ("Secret", True),
-        ("normal_field", False),
-        ("title", False),
-        ("issued_at", False),
-    ])
+    @pytest.mark.parametrize(
+        "key,expected",
+        [
+            ("password", True),
+            ("secret", True),
+            ("privateKey", True),
+            ("sshKey", True),
+            ("connectionString", True),
+            ("authorization", True),
+            ("accessToken", True),
+            ("refreshToken", True),
+            ("bearer", True),
+            ("subscriptionKey", True),
+            ("clientSecret", True),
+            ("labPassword", True),
+            ("vmPassword", True),
+            ("PASSWORD", True),
+            ("Secret", True),
+            ("normal_field", False),
+            ("title", False),
+            ("issued_at", False),
+        ],
+    )
     def test_is_sensitive_key(self, key, expected):
         assert is_sensitive_key(key) == expected
 
@@ -178,9 +181,9 @@ class TestProcessFile:
             "normal_field": "should_remain",
         }
         test_file.write_text(json.dumps(test_data, indent=2))
-        
+
         process_file(test_file)
-        
+
         result = json.loads(test_file.read_text())
         assert result["scriptResult"] == "Initial Key : [REDACTED]"
         assert result["password"] == "[REDACTED]"
@@ -188,7 +191,7 @@ class TestProcessFile:
 
     def test_process_file_not_found(self):
         """Should exit with error for non-existent file."""
-        
+
         with pytest.raises(SystemExit) as exc_info:
             process_file(Path("nonexistent.json"))
         assert exc_info.value.code == 1
@@ -205,9 +208,9 @@ class TestProcessFile:
             "list": [{"access_token": "token"}],
         }
         test_file.write_text(json.dumps(test_data, indent=2))
-        
+
         process_file(test_file)
-        
+
         result = json.loads(test_file.read_text())
         assert "nested" in result
         assert "deep" in result["nested"]
@@ -217,14 +220,14 @@ class TestProcessFile:
         """Should handle all secret types in one file."""
         test_file = temp_dir / "test.json"
         test_data = {
-            "scriptResult": "sig=abcdefghijklmnopqrstuvwxyz123456\nAccountKey=supersecretkey123456789012\n\"Key\" : \"mysecretkey123456789012\"\n-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDTestTestTest\nTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest\nTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest\n-----END PRIVATE KEY-----",
+            "scriptResult": 'sig=abcdefghijklmnopqrstuvwxyz123456\nAccountKey=supersecretkey123456789012\n"Key" : "mysecretkey123456789012"\n-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDTestTestTest\nTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest\nTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest\n-----END PRIVATE KEY-----',
             "password": "pwd",
             "clientSecret": "csecret",
         }
         test_file.write_text(json.dumps(test_data, indent=2))
-        
+
         process_file(test_file)
-        
+
         result = json.loads(test_file.read_text())
         # At minimum, the key-value patterns will redact the values
         assert "[REDACTED]" in result["scriptResult"]

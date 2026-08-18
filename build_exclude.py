@@ -25,7 +25,9 @@ def normalize_url(raw_url: str | None) -> str:
         else:
             clean = f"https://learn.microsoft.com/en-us/{clean}"
     elif "learn.microsoft.com/training/" in clean:
-        clean = clean.replace("learn.microsoft.com/training/", "learn.microsoft.com/en-us/training/")
+        clean = clean.replace(
+            "learn.microsoft.com/training/", "learn.microsoft.com/en-us/training/"
+        )
     return clean
 
 
@@ -40,7 +42,11 @@ if os.path.exists(RETIRED_URLS_FILE):
             if isinstance(platform_rules, list):
                 for rule in platform_rules:
                     if isinstance(rule, dict):
-                        u = rule.get("url") or (rule.get("id") if str(rule.get("id", "")).startswith("http") else None)
+                        u = rule.get("url") or (
+                            rule.get("id")
+                            if str(rule.get("id", "")).startswith("http")
+                            else None
+                        )
                     elif isinstance(rule, str) and rule.startswith("http"):
                         u = rule
                     else:
@@ -86,7 +92,13 @@ for f in glob.glob("for_validation/*.json"):
         for item in items:
             if isinstance(item, dict) and item.get("retired"):
                 url = None
-                for field in ("url", "learningPathUid", "learning_path_uid", "learningPathId", "sourceUid"):
+                for field in (
+                    "url",
+                    "learningPathUid",
+                    "learning_path_uid",
+                    "learningPathId",
+                    "sourceUid",
+                ):
                     raw = item.get(field)
                     if raw:
                         url = normalize_url(raw)

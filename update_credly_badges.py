@@ -23,6 +23,7 @@ try:
 except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
     generate_platform_archive = None
+
     def safe_write_file(filepath: str, new_content: str) -> bool:
         if os.path.exists(filepath):
             try:
@@ -35,6 +36,7 @@ except ImportError:
             f.write(new_content)
         return True
 
+
 # Content-Aware Loss Guard
 try:
     from loss_guard import PipelineDataLossAnomaly, execute_content_loss_guard
@@ -45,6 +47,7 @@ except ImportError:
 
 # Retired credentials registry mapping
 RETIRED_URLS_FILE = "retired_urls.json"
+
 
 def load_retired_rules(platform: str) -> list[dict[str, Any]]:
     """Load retired credential rules for a platform from the mapping file."""
@@ -66,6 +69,7 @@ def load_retired_rules(platform: str) -> list[dict[str, Any]]:
     except Exception as e:
         logger.warning(f"⚠️ Could not load retired rules for {platform}: {e}")
         return []
+
 
 def mark_retired(
     items: list[dict],
@@ -92,7 +96,9 @@ def mark_retired(
             rule_id = str(rule.get("id", "")).strip()
             rule_url = str(rule.get("url", "")).strip() if rule.get("url") else None
 
-            if rule_id in item_ids or (item_url and (rule_id == item_url or rule_url == item_url)):
+            if rule_id in item_ids or (
+                item_url and (rule_id == item_url or rule_url == item_url)
+            ):
                 is_retired = True
                 matched_rule = rule
                 break
@@ -105,10 +111,15 @@ def mark_retired(
                 if matched_rule.get("retired_at"):
                     item["retired_at"] = matched_rule["retired_at"]
             marked += 1
-            logger.info(f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}")
+            logger.info(
+                f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
+            )
 
-    logger.info(f"Retired check: {len(items)} items checked, {marked} marked as retired")
+    logger.info(
+        f"Retired check: {len(items)} items checked, {marked} marked as retired"
+    )
     return len(items), marked
+
 
 # Logging Setup
 logging.basicConfig(
@@ -148,6 +159,7 @@ HEADERS = {
 # ==============================================================================
 # PYDANTIC SCHEMAS & VALIDATION PIPELINE
 # ==============================================================================
+
 
 def normalize_date_string(raw_date: Any) -> str | None:
     """Coerces timestamps, ISO strings, and standard text dates to YYYY-MM-DD."""
@@ -206,11 +218,14 @@ def normalize_date_string(raw_date: Any) -> str | None:
 
 class CredlyBadgeItemModel(BaseModel):
     """Normalized schema for Credly badge entities."""
+
     id: str = Field(..., min_length=1, description="Credly unique badge ID")
     title: str = Field(..., min_length=1, description="Badge title")
     name: str = Field(..., min_length=1, description="Title alias for compatibility")
     issuer: str = Field(..., min_length=1, description="Organization issuing the badge")
-    issuer_name: str = Field(..., min_length=1, description="Issuer alias for compatibility")
+    issuer_name: str = Field(
+        ..., min_length=1, description="Issuer alias for compatibility"
+    )
     issued_at: str | None = Field(None, description="ISO YYYY-MM-DD earned date")
     issued_at_date: str | None = Field(None, description="Alias for issued date")
     date: str | None = Field(None, description="Alias for issued date")
@@ -218,9 +233,13 @@ class CredlyBadgeItemModel(BaseModel):
     verify_url: str | None = Field(None, description="Public verification link")
     url: str | None = Field(None, description="Alias for verify_url")
     type: str = Field("Credly Verified Badge", description="Classification type")
-    verification_type: str = Field("Credly Verified Badge", description="Verification category")
+    verification_type: str = Field(
+        "Credly Verified Badge", description="Verification category"
+    )
     skills: list[str] = Field(default_factory=list, description="Associated skills")
-    retired: bool = Field(False, description="Whether the content has been retired by the platform")
+    retired: bool = Field(
+        False, description="Whether the content has been retired by the platform"
+    )
 
     @field_validator("issued_at", "issued_at_date", "date", mode="before")
     @classmethod
@@ -247,6 +266,7 @@ class CredlyBadgeItemModel(BaseModel):
 
 class CredlyArchivePayloadModel(BaseModel):
     """Root model for Credly persistence JSON validation."""
+
     credly_user: str
     total_count: int = Field(ge=0)
     badges: list[CredlyBadgeItemModel]
@@ -255,6 +275,7 @@ class CredlyArchivePayloadModel(BaseModel):
 # ==============================================================================
 # ANOMALY & LOSS GUARD ASSERTIONS
 # ==============================================================================
+
 
 class PipelineDataLossAnomaly(Exception):
     """Raised when incoming dataset drops drastically below previous archive baseline."""
@@ -273,7 +294,11 @@ def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int
             try:
                 with open(path, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                    count = data.get("total_count", len(data.get("badges", []))) if isinstance(data, dict) else len(data)
+                    count = (
+                        data.get("total_count", len(data.get("badges", [])))
+                        if isinstance(data, dict)
+                        else len(data)
+                    )
                     if count > 0:
                         return count
             except (json.JSONDecodeError, OSError):
@@ -283,7 +308,13 @@ def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int
         try:
             with open(monolith_path, "r", encoding="utf-8") as f:
                 lines = f.readlines()
-            rows = [l for l in lines if l.strip().startswith("|") and not l.strip().startswith("| Date") and ":---" not in l]
+            rows = [
+                l
+                for l in lines
+                if l.strip().startswith("|")
+                and not l.strip().startswith("| Date")
+                and ":---" not in l
+            ]
             if len(rows) > 0:
                 return len(rows)
         except OSError:
@@ -297,7 +328,9 @@ def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
     old_count = get_stored_archive_baseline_count(output_file, ARCHIVE_MONOLITH)
     new_count = len(new_badges)
 
-    logger.info(f"🛡️ Loss Guard Check: Stored Archive Baseline = {old_count} badges | Incoming Dataset = {new_count} badges.")
+    logger.info(
+        f"🛡️ Loss Guard Check: Stored Archive Baseline = {old_count} badges | Incoming Dataset = {new_count} badges."
+    )
 
     if old_count > 0 and new_count == 0:
         raise PipelineDataLossAnomaly(
@@ -312,12 +345,15 @@ def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
                 f"from baseline ({old_count}). Maximum allowed threshold is {MAX_ALLOWED_DATA_LOSS_PCT:.0%}. Aborting write."
             )
 
-    logger.info("✅ Loss Guard Assertion Passed: Incoming payload verified against archive baseline.")
+    logger.info(
+        "✅ Loss Guard Assertion Passed: Incoming payload verified against archive baseline."
+    )
 
 
 # ==============================================================================
 # CREDLY API FETCHING & MERGING
 # ==============================================================================
+
 
 def parse_credly_badges_from_json(json_path: str) -> list[dict]:
     """Reads existing Credly badge entries directly from specified JSON file."""
@@ -329,7 +365,11 @@ def parse_credly_badges_from_json(json_path: str) -> list[dict]:
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        raw_list = data.get("badges", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
+        raw_list = (
+            data.get("badges", [])
+            if isinstance(data, dict)
+            else (data if isinstance(data, list) else [])
+        )
         badges = []
         for item in raw_list:
             if isinstance(item, dict):
@@ -375,7 +415,9 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
         try:
             response = requests.get(f"{url}?page={page}", headers=HEADERS, timeout=20)
             if response.status_code != 200:
-                logger.warning(f"⚠️ Credly API returned status code {response.status_code} on page {page}.")
+                logger.warning(
+                    f"⚠️ Credly API returned status code {response.status_code} on page {page}."
+                )
                 return None if not badges else badges
 
             payload = response.json()
@@ -425,7 +467,8 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
                     "issued_at": dt,
                     "issued_at_date": dt,
                     "date": dt,
-                    "image_url": badge_template.get("image_url") or item.get("image_url"),
+                    "image_url": badge_template.get("image_url")
+                    or item.get("image_url"),
                     "verify_url": verify_url,
                     "url": verify_url,
                     "type": "Credly Verified Badge",
@@ -437,14 +480,18 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
                     validated = CredlyBadgeItemModel(**raw_entry)
                     badges.append(validated.model_dump())
                 except ValidationError as ve:
-                    logger.warning(f"⚠️ Skipping invalid Credly API entry '{title}': {ve}")
+                    logger.warning(
+                        f"⚠️ Skipping invalid Credly API entry '{title}': {ve}"
+                    )
 
             metadata = payload.get("metadata", {}) if isinstance(payload, dict) else {}
             next_page = metadata.get("next_page") or metadata.get("next_page_url")
             if next_page is None and len(data_list) < 48:
                 break
             if len(seen_badge_ids) == ids_before_page and page > 1:
-                logger.warning("⚠️ Credly API returned no new badge IDs; stopping pagination.")
+                logger.warning(
+                    "⚠️ Credly API returned no new badge IDs; stopping pagination."
+                )
                 break
             page += 1
 
@@ -468,7 +515,9 @@ def fetch_credly_external_badges(user_id: str) -> list[dict] | None:
         response.raise_for_status()
         payload = response.json()
     except (requests.exceptions.RequestException, ValueError) as exc:
-        logger.error(f"❌ Exception occurred while requesting external Credly badges: {exc}")
+        logger.error(
+            f"❌ Exception occurred while requesting external Credly badges: {exc}"
+        )
         return None
 
     records = payload.get("data", []) if isinstance(payload, dict) else []
@@ -502,11 +551,15 @@ def fetch_credly_external_badges(user_id: str) -> list[dict] | None:
         except ValidationError as exc:
             logger.warning(f"⚠️ Skipping invalid external Credly entry '{title}': {exc}")
 
-    logger.info(f"✅ Successfully fetched {len(badges)} external open badges from Credly API.")
+    logger.info(
+        f"✅ Successfully fetched {len(badges)} external open badges from Credly API."
+    )
     return badges
 
 
-def merge_badge_datasets(api_badges: list[dict], external_badges: list[dict]) -> list[dict]:
+def merge_badge_datasets(
+    api_badges: list[dict], external_badges: list[dict]
+) -> list[dict]:
     """
     Unions the two live Credly datasets by stable record ID.
     """
@@ -529,10 +582,13 @@ def merge_badge_datasets(api_badges: list[dict], external_badges: list[dict]) ->
 # ARCHIVE BUILDER
 # ==============================================================================
 
+
 def build_archives_and_readme(badges: list[dict]) -> None:
     """Invokes archiver helper to generate markdown files and update README."""
     if not generate_platform_archive:
-        logger.error("❌ Archiver module helper unavailable. Skipping markdown generation.")
+        logger.error(
+            "❌ Archiver module helper unavailable. Skipping markdown generation."
+        )
         return
 
     sorted_badges = sorted(
@@ -556,9 +612,15 @@ def build_archives_and_readme(badges: list[dict]) -> None:
             if isinstance(skill, str) and skill.strip():
                 all_skills.add(skill.strip())
 
-        title_clean = title.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
-        issuer_clean = issuer.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
-        v_type_clean = v_type.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
+        title_clean = (
+            title.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
+        )
+        issuer_clean = (
+            issuer.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
+        )
+        v_type_clean = (
+            v_type.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
+        )
 
         name_cell = f"[{title_clean}]({verify_url})" if verify_url else title_clean
         if retired:
@@ -613,8 +675,12 @@ def build_archives_and_readme(badges: list[dict]) -> None:
         LATEST_SLICE_RAW = f"{RAW_BASE_DEFAULT}/{latest_slice}"
         for i, line in enumerate(readme_lines):
             if "{LATEST_SLICE_NORMAL}" in line:
-                readme_lines[i] = line.replace("{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL)
-                readme_lines[i] = readme_lines[i].replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
+                readme_lines[i] = line.replace(
+                    "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
+                )
+                readme_lines[i] = readme_lines[i].replace(
+                    "{LATEST_SLICE_RAW}", LATEST_SLICE_RAW
+                )
                 break
         if os.path.exists("README.md"):
             with open("README.md", "r", encoding="utf-8") as f:
@@ -631,12 +697,15 @@ def build_archives_and_readme(badges: list[dict]) -> None:
 # PIPELINE ORCHESTRATOR
 # ==============================================================================
 
+
 def main():
     logger.info("Starting Credly API Pipeline with Pydantic & Loss Guards...")
 
     # Safe directory initialization
     if os.path.exists(VALIDATION_DIR) and not os.path.isdir(VALIDATION_DIR):
-        logger.warning(f"⚠️ '{VALIDATION_DIR}' exists as a file. Removing it to create a directory.")
+        logger.warning(
+            f"⚠️ '{VALIDATION_DIR}' exists as a file. Removing it to create a directory."
+        )
         os.remove(VALIDATION_DIR)
 
     os.makedirs(VALIDATION_DIR, exist_ok=True)
@@ -651,11 +720,13 @@ def main():
     # Keep the last valid local dataset only when a live source is unavailable.
     # Do not merge it into a successful refresh: that would make stale records immortal.
     if native_badges is None or external_badges is None:
-        logger.warning("⚠️ One or more Credly sources failed; retaining the previous local dataset.")
+        logger.warning(
+            "⚠️ One or more Credly sources failed; retaining the previous local dataset."
+        )
         unique_badges = local_badges
     else:
         unique_badges = merge_badge_datasets(native_badges, external_badges)
-        
+
         # 3. Anomaly & Loss Guard Assertion - Content-Aware
         if execute_content_loss_guard:
             try:
@@ -669,7 +740,9 @@ def main():
                 logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
                 sys.exit(1)
         else:
-            logger.warning("⚠️ Content-aware loss guard unavailable, falling back to count-only check")
+            logger.warning(
+                "⚠️ Content-aware loss guard unavailable, falling back to count-only check"
+            )
             try:
                 execute_data_loss_guard(unique_badges, OUTPUT_FILE)
             except PipelineDataLossAnomaly as anomaly_err:
@@ -697,7 +770,9 @@ def main():
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write(validated_payload.model_dump_json(indent=2))
 
-        logger.info(f"🎉 Persistence complete: '{OUTPUT_FILE}' updated ({len(unique_badges)} badges).")
+        logger.info(
+            f"🎉 Persistence complete: '{OUTPUT_FILE}' updated ({len(unique_badges)} badges)."
+        )
     except ValidationError as ve:
         logger.error(f"❌ Root Payload Validation Error: {ve}")
         sys.exit(1)

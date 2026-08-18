@@ -110,12 +110,15 @@ Coverage threshold: **70%** (ramping to 85%)
 ### Parametrized Tests
 
 ```python
-@pytest.mark.parametrize("input_val,expected", [
-    ("Jan 15, 2024", "2024-01-15"),
-    ("1705312800000", "2024-01-15"),
-    ("", None),
-    (None, None),
-])
+@pytest.mark.parametrize(
+    "input_val,expected",
+    [
+        ("Jan 15, 2024", "2024-01-15"),
+        ("1705312800000", "2024-01-15"),
+        ("", None),
+        (None, None),
+    ],
+)
 def test_normalize_date_string(input_val, expected):
     assert normalize_date_string(input_val) == expected
 ```

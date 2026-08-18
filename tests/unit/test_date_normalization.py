@@ -2,7 +2,6 @@
 Unit tests for date normalization functions across all providers.
 """
 
-
 import pytest
 
 # Import date normalization functions from each provider
@@ -17,25 +16,28 @@ from update_ms_learn import clean_iso_date
 class TestAwsDateNormalization:
     """Tests for AWS Skills date normalization."""
 
-    @pytest.mark.parametrize("input_val,expected", [
-        ("Jan 15, 2024", "2024-01-15"),
-        ("January 15, 2024", "2024-01-15"),
-        ("15 Jan 2024", "2024-01-15"),
-        ("15 January 2024", "2024-01-15"),
-        ("2024-01-15", "2024-01-15"),
-        ("01/15/2024", "2024-01-15"),
-        ("15/01/2024", "2024-01-15"),
-        ("2024/01/15", "2024-01-15"),
-        ("1705312800", "2024-01-15"),  # Unix timestamp (seconds)
-        ("1705312800000", "2024-01-15"),  # Unix timestamp (milliseconds)
-        (1705312800, "2024-01-15"),  # int timestamp
-        (1705312800000, "2024-01-15"),  # int timestamp ms
-        ("", None),
-        (None, None),
-        ("N/A", None),
-        ("None", None),
-        ("null", None),
-    ])
+    @pytest.mark.parametrize(
+        "input_val,expected",
+        [
+            ("Jan 15, 2024", "2024-01-15"),
+            ("January 15, 2024", "2024-01-15"),
+            ("15 Jan 2024", "2024-01-15"),
+            ("15 January 2024", "2024-01-15"),
+            ("2024-01-15", "2024-01-15"),
+            ("01/15/2024", "2024-01-15"),
+            ("15/01/2024", "2024-01-15"),
+            ("2024/01/15", "2024-01-15"),
+            ("1705312800", "2024-01-15"),  # Unix timestamp (seconds)
+            ("1705312800000", "2024-01-15"),  # Unix timestamp (milliseconds)
+            (1705312800, "2024-01-15"),  # int timestamp
+            (1705312800000, "2024-01-15"),  # int timestamp ms
+            ("", None),
+            (None, None),
+            ("N/A", None),
+            ("None", None),
+            ("null", None),
+        ],
+    )
     def test_normalize_date_string(self, input_val, expected):
         assert aws_normalize_date(input_val) == expected
 
@@ -43,13 +45,16 @@ class TestAwsDateNormalization:
 class TestGoogleSkillsDateNormalization:
     """Tests for Google Skills date normalization."""
 
-    @pytest.mark.parametrize("input_val,expected", [
-        ("2024-01-15T10:00:00Z", "2024-01-15"),
-        ("1705312800000", "2024-01-15"),  # milliseconds
-        ("Jan 15, 2024", "2024-01-15"),
-        ("", None),
-        (None, None),
-    ])
+    @pytest.mark.parametrize(
+        "input_val,expected",
+        [
+            ("2024-01-15T10:00:00Z", "2024-01-15"),
+            ("1705312800000", "2024-01-15"),  # milliseconds
+            ("Jan 15, 2024", "2024-01-15"),
+            ("", None),
+            (None, None),
+        ],
+    )
     def test_normalize_date_string(self, input_val, expected):
         assert google_normalize_date(input_val) == expected
 
@@ -57,13 +62,16 @@ class TestGoogleSkillsDateNormalization:
 class TestCredlyDateNormalization:
     """Tests for Credly date normalization."""
 
-    @pytest.mark.parametrize("input_val,expected", [
-        ("2024-01-15T10:00:00Z", "2024-01-15"),
-        ("1705312800000", "2024-01-15"),
-        ("Jan 15, 2024", "2024-01-15"),
-        ("", None),
-        (None, None),
-    ])
+    @pytest.mark.parametrize(
+        "input_val,expected",
+        [
+            ("2024-01-15T10:00:00Z", "2024-01-15"),
+            ("1705312800000", "2024-01-15"),
+            ("Jan 15, 2024", "2024-01-15"),
+            ("", None),
+            (None, None),
+        ],
+    )
     def test_normalize_date_string(self, input_val, expected):
         assert credly_normalize_date(input_val) == expected
 
@@ -71,17 +79,20 @@ class TestCredlyDateNormalization:
 class TestLinkedInDateParsing:
     """Tests for LinkedIn date parsing."""
 
-    @pytest.mark.parametrize("input_val,expected", [
-        ("Jan 2024", "2024-01"),
-        ("January 2024", "2024-01"),
-        ("2024-01", "2024-01"),
-        ("2024-01-15", "2024-01-15"),
-        ("Mar 2024", "2024-03"),
-        ("", "N/A"),
-        (None, "N/A"),
-        ("null", "N/A"),
-        ("N/A", "N/A"),
-    ])
+    @pytest.mark.parametrize(
+        "input_val,expected",
+        [
+            ("Jan 2024", "2024-01"),
+            ("January 2024", "2024-01"),
+            ("2024-01", "2024-01"),
+            ("2024-01-15", "2024-01-15"),
+            ("Mar 2024", "2024-03"),
+            ("", "N/A"),
+            (None, "N/A"),
+            ("null", "N/A"),
+            ("N/A", "N/A"),
+        ],
+    )
     def test_parse_linkedin_date(self, input_val, expected):
         assert parse_linkedin_date(input_val) == expected
 
@@ -89,14 +100,17 @@ class TestLinkedInDateParsing:
 class TestMsLearnDateCleaning:
     """Tests for Microsoft Learn ISO date cleaning."""
 
-    @pytest.mark.parametrize("input_val,expected", [
-        ("2024-01-15T10:00:00Z", "2024-01-15"),
-        ("2024-01-15T10:00:00.000Z", "2024-01-15"),
-        ("2024-01-15", "2024-01-15"),
-        ("2024-01", "2024-01"),
-        ("", "N/A"),
-        (None, "N/A"),
-    ])
+    @pytest.mark.parametrize(
+        "input_val,expected",
+        [
+            ("2024-01-15T10:00:00Z", "2024-01-15"),
+            ("2024-01-15T10:00:00.000Z", "2024-01-15"),
+            ("2024-01-15", "2024-01-15"),
+            ("2024-01", "2024-01"),
+            ("", "N/A"),
+            (None, "N/A"),
+        ],
+    )
     def test_clean_iso_date(self, input_val, expected):
         assert clean_iso_date(input_val) == expected
 
@@ -104,15 +118,18 @@ class TestMsLearnDateCleaning:
 class TestGoogleDeveloperDateNormalization:
     """Tests for Google Developer date normalization (Serbian dates)."""
 
-    @pytest.mark.parametrize("input_val,expected", [
-        ("17. август 2024.", "2024-08-17"),
-        ("13. август 2024.", "2024-08-13"),
-        ("1. јануар 2024.", "2024-01-01"),
-        ("15. феб 2024.", "2024-02-15"),
-        ("2024-01-15", "2024-01-15"),
-        ("", "N/A"),
-        (None, "N/A"),
-    ])
+    @pytest.mark.parametrize(
+        "input_val,expected",
+        [
+            ("17. август 2024.", "2024-08-17"),
+            ("13. август 2024.", "2024-08-13"),
+            ("1. јануар 2024.", "2024-01-01"),
+            ("15. феб 2024.", "2024-02-15"),
+            ("2024-01-15", "2024-01-15"),
+            ("", "N/A"),
+            (None, "N/A"),
+        ],
+    )
     def test_normalize_date_string(self, input_val, expected):
         assert gdev_normalize_date(input_val) == expected
 
@@ -144,20 +161,20 @@ class TestDateNormalizationEdgeCases:
         # If > 1e11, treat as milliseconds
         ts_seconds = 1705312800  # 2024-01-15
         ts_milliseconds = 1705312800000  # Same date in ms
-        
+
         assert aws_normalize_date(ts_seconds) == "2024-01-15"
         assert aws_normalize_date(ts_milliseconds) == "2024-01-15"
-        
+
         # Test the threshold - values > 1e11 are treated as ms
         # Values <= 1e11 are treated as seconds
         # Very old timestamps may return None due to OS limitations
         result_s = aws_normalize_date(99999999999)  # < 1e11, seconds
         result_ms = aws_normalize_date(100000000000)  # >= 1e11, ms
-        
+
         # Both may be None if dates are out of range
         # The important thing is the threshold logic is applied
-        assert (result_s is None or isinstance(result_s, str))
-        assert (result_ms is None or isinstance(result_ms, str))
+        assert result_s is None or isinstance(result_s, str)
+        assert result_ms is None or isinstance(result_ms, str)
 
     def test_invalid_date_formats_return_none_or_na(self):
         """Invalid date formats should return None (AWS/Google/Credly) or N/A (LinkedIn/MS/GDev)."""

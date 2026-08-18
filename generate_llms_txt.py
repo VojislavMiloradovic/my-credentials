@@ -8,7 +8,9 @@ from archiver import count_tokens
 README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
 LLMS_PATH = "llms.txt"
-RAW_BASE_URL = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
+RAW_BASE_URL = (
+    "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
+)
 
 DOMAIN_PATTERNS = [
     (
@@ -53,12 +55,36 @@ MONOLITH_CONFIGS = [
 ]
 
 SLICE_CONFIGS = [
-    ("Aws Skills Latest Slice", "aws-skills", "Most recent achievements for Aws Skills."),
-    ("Credly Verified Credentials Latest Slice", "credly", "Most recent achievements for Credly Verified Credentials."),
-    ("Google Skills Latest Slice", "google-skills", "Most recent achievements for Google Skills."),
-    ("Google Developer Latest Slice", "google-developer", "Most recent achievements for Google Developer."),
-    ("Linkedin Certifications Latest Slice", "linkedin-certifications", "Most recent achievements for Linkedin Certifications."),
-    ("Microsoft Learn Latest Slice", "microsoft-learn", "Most recent achievements for Microsoft Learn."),
+    (
+        "Aws Skills Latest Slice",
+        "aws-skills",
+        "Most recent achievements for Aws Skills.",
+    ),
+    (
+        "Credly Verified Credentials Latest Slice",
+        "credly",
+        "Most recent achievements for Credly Verified Credentials.",
+    ),
+    (
+        "Google Skills Latest Slice",
+        "google-skills",
+        "Most recent achievements for Google Skills.",
+    ),
+    (
+        "Google Developer Latest Slice",
+        "google-developer",
+        "Most recent achievements for Google Developer.",
+    ),
+    (
+        "Linkedin Certifications Latest Slice",
+        "linkedin-certifications",
+        "Most recent achievements for Linkedin Certifications.",
+    ),
+    (
+        "Microsoft Learn Latest Slice",
+        "microsoft-learn",
+        "Most recent achievements for Microsoft Learn.",
+    ),
 ]
 
 
@@ -142,8 +168,16 @@ def read_portfolio_counts() -> dict:
         ("aws_activities", "aws-skills-index.md", _TOTAL),
         ("credly_credentials", "credly-index.md", _TOTAL),
         ("linkedin_certs", "linkedin-certifications-index.md", _TOTAL),
-        ("gdev_badges", "google-developer-index.md", re.compile(r"Total Public Badges.*?:\**\s*([\d,]+)", re.IGNORECASE)),
-        ("gdev_activities", "google-developer-index.md", re.compile(r"Total Detailed Activities.*?:\**\s*([\d,]+)", re.IGNORECASE)),
+        (
+            "gdev_badges",
+            "google-developer-index.md",
+            re.compile(r"Total Public Badges.*?:\**\s*([\d,]+)", re.IGNORECASE),
+        ),
+        (
+            "gdev_activities",
+            "google-developer-index.md",
+            re.compile(r"Total Detailed Activities.*?:\**\s*([\d,]+)", re.IGNORECASE),
+        ),
     ]
 
     for key, filename, pattern in index_targets:
@@ -153,7 +187,9 @@ def read_portfolio_counts() -> dict:
     total = len(counts)
     unavail_count = total - resolved
 
-    print(f"📊 Portfolio Counts Scraped: {resolved}/{total} resolved ({unavail_count} marked [unavailable])")
+    print(
+        f"📊 Portfolio Counts Scraped: {resolved}/{total} resolved ({unavail_count} marked [unavailable])"
+    )
     for k, v in counts.items():
         if v == "[unavailable]":
             print(f"   ⚠️ {k}: [unavailable]")
@@ -171,7 +207,9 @@ def extract_dataset_items(lines: list[str]) -> list[str]:
     while i < len(cleaned_lines):
         line = cleaned_lines[i]
         if line.startswith("|") and line.endswith("|"):
-            if (i + 1) < len(cleaned_lines) and separator_re.match(cleaned_lines[i + 1]):
+            if (i + 1) < len(cleaned_lines) and separator_re.match(
+                cleaned_lines[i + 1]
+            ):
                 i += 2  # Skip header row and separator row
                 while i < len(cleaned_lines):
                     row_line = cleaned_lines[i]
@@ -195,7 +233,9 @@ def extract_dataset_items(lines: list[str]) -> list[str]:
 
 def calculate_domain_breakdown():
     """Scans all complete archive files and categorizes credentials into 5 domains."""
-    print("📂 Scanning monolithic archive files (*-complete.md) for domain breakdown...")
+    print(
+        "📂 Scanning monolithic archive files (*-complete.md) for domain breakdown..."
+    )
 
     domain_counts = {name: 0 for name, _ in DOMAIN_PATTERNS}
     domain_counts[FALLBACK_DOMAIN] = 0
@@ -235,9 +275,13 @@ def calculate_domain_breakdown():
 
         total_parsed += file_parsed
         total_skipped += file_skipped
-        print(f"  - {filename}: {file_parsed} items categorized ({file_skipped} header/empty lines skipped)")
+        print(
+            f"  - {filename}: {file_parsed} items categorized ({file_skipped} header/empty lines skipped)"
+        )
 
-    print(f"🏷️ Categorized {total_parsed} total achievements across {len(monolith_files)} dataset files:")
+    print(
+        f"🏷️ Categorized {total_parsed} total achievements across {len(monolith_files)} dataset files:"
+    )
     for domain, count in domain_counts.items():
         percentage = (count / total_parsed * 100) if total_parsed > 0 else 0
         print(f"   • {domain}: {count:,} ({percentage:.1f}%)")
@@ -267,12 +311,12 @@ def generate_llms_txt():
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
-- **Microsoft Learn**: {_fmt(pc['ms_learn_units'])} completed units | {_fmt(pc['ms_learn_achievements'])} total achievements | {_fmt(pc['ms_learn_xp'])} XP
-- **Google Cloud Skills**: {_fmt(pc['gcp_badges'])} badges
-- **AWS Skill Builder**: {_fmt(pc['aws_activities'])} completed courses/activities
-- **Credly**: {_fmt(pc['credly_credentials'])} credentials
-- **LinkedIn**: {_fmt(pc['linkedin_certs'])} verified external certifications
-- **Google Developer**: {_fmt(pc['gdev_badges'])} milestone badges | {_fmt(pc['gdev_activities'])} codelabs & activities
+- **Microsoft Learn**: {_fmt(pc["ms_learn_units"])} completed units | {_fmt(pc["ms_learn_achievements"])} total achievements | {_fmt(pc["ms_learn_xp"])} XP
+- **Google Cloud Skills**: {_fmt(pc["gcp_badges"])} badges
+- **AWS Skill Builder**: {_fmt(pc["aws_activities"])} completed courses/activities
+- **Credly**: {_fmt(pc["credly_credentials"])} credentials
+- **LinkedIn**: {_fmt(pc["linkedin_certs"])} verified external certifications
+- **Google Developer**: {_fmt(pc["gdev_badges"])} milestone badges | {_fmt(pc["gdev_activities"])} codelabs & activities
 
 ## Domain Focus & Skill Taxonomy
 Dynamic classification of ~{total_parsed:,} parsed portfolio achievements across 5 primary tech domains:
@@ -316,10 +360,13 @@ Optimized for lower-capacity context tools or fast targeted queries.
             def extract_part_num(f):
                 m = re.search(r"-part-(\d+)\.md$", f)
                 return int(m.group(1)) if m else 0
+
             latest = max(matches, key=extract_part_num)
             filename = os.path.basename(latest)
             raw_url = f"{RAW_BASE_URL}/{filename}"
-            content += f"- [{title}](./archives/{filename}): {description} Raw: {raw_url}\n"
+            content += (
+                f"- [{title}](./archives/{filename}): {description} Raw: {raw_url}\n"
+            )
 
     content += """
 ## Structured Machine-Readable Data

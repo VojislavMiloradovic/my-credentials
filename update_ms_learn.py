@@ -23,6 +23,7 @@ try:
 except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
     generate_platform_archive = None
+
     def safe_write_file(filepath: str, new_content: str) -> bool:
         if os.path.exists(filepath):
             try:
@@ -35,6 +36,7 @@ except ImportError:
             f.write(new_content)
         return True
 
+
 # Content-Aware Loss Guard
 try:
     from loss_guard import PipelineDataLossAnomaly, execute_content_loss_guard
@@ -45,6 +47,7 @@ except ImportError:
 
 # Retired credentials registry mapping
 RETIRED_URLS_FILE = "retired_urls.json"
+
 
 def load_retired_rules(platform: str) -> list[dict[str, Any]]:
     """Load retired credential rules for a platform from the mapping file.
@@ -69,6 +72,7 @@ def load_retired_rules(platform: str) -> list[dict[str, Any]]:
         logger.warning(f"⚠️ Could not load retired rules for {platform}: {e}")
         return []
 
+
 def mark_retired(
     items: list[dict],
     retired_rules: list[dict[str, Any]],
@@ -83,7 +87,15 @@ def mark_retired(
     if not retired_rules:
         return len(items), 0
     url_fields = [url_field] if isinstance(url_field, str) else url_field
-    search_id_fields = id_fields or ["id", "uid", "sourceUid", "credentialId", "learningPathUid", "learning_path_uid", "license"]
+    search_id_fields = id_fields or [
+        "id",
+        "uid",
+        "sourceUid",
+        "credentialId",
+        "learningPathUid",
+        "learning_path_uid",
+        "license",
+    ]
     marked = 0
 
     for item in items:
@@ -95,7 +107,9 @@ def mark_retired(
         for field in url_fields:
             raw_url = item.get(field)
             if raw_url:
-                item_url = normalize_url(raw_url) if normalize_url else str(raw_url).strip()
+                item_url = (
+                    normalize_url(raw_url) if normalize_url else str(raw_url).strip()
+                )
                 break
 
         item_ids = set()
@@ -113,7 +127,9 @@ def mark_retired(
         for rule in retired_rules:
             rule_id = str(rule.get("id", "")).strip()
             rule_url = rule.get("url")
-            rule_norm_url = normalize_url(rule_url) if (rule_url and normalize_url) else rule_url
+            rule_norm_url = (
+                normalize_url(rule_url) if (rule_url and normalize_url) else rule_url
+            )
 
             # 1. Match by ID / UID / License
             if rule_id in item_ids:
@@ -122,7 +138,9 @@ def mark_retired(
                 break
 
             # 2. Match by normalized URL
-            if item_url and (rule_id == item_url or (rule_norm_url and item_url == rule_norm_url)):
+            if item_url and (
+                rule_id == item_url or (rule_norm_url and item_url == rule_norm_url)
+            ):
                 is_retired = True
                 matched_rule = rule
                 break
@@ -135,10 +153,15 @@ def mark_retired(
                 if matched_rule.get("retired_at"):
                     item["retired_at"] = matched_rule["retired_at"]
             marked += 1
-            logger.info(f"🏷️  Marked as retired: {item.get('title') or item.get('name') or item.get('id') or 'unknown'}")
+            logger.info(
+                f"🏷️  Marked as retired: {item.get('title') or item.get('name') or item.get('id') or 'unknown'}"
+            )
 
-    logger.info(f"Retired check: {len(items)} items checked, {marked} marked as retired")
+    logger.info(
+        f"Retired check: {len(items)} items checked, {marked} marked as retired"
+    )
     return len(items), marked
+
 
 # Logging Setup
 logging.basicConfig(
@@ -169,6 +192,7 @@ MAX_ALLOWED_DATA_LOSS_PCT = 0.15  # Guard threshold for dataset drop protection
 # HELPER FUNCTIONS & FORMATTERS
 # ==============================================================================
 
+
 def format_num(val: Any) -> str:
     """Formats numbers with comma separators."""
     try:
@@ -183,8 +207,8 @@ def format_verify_url(raw_url: str | None) -> str:
         return ""
     clean = raw_url.strip()
     # Remove trailing " program/" and any spaces that break URLs
-    clean = re.sub(r'\s+program/?$', '', clean)
-    clean = clean.replace(' ', '')
+    clean = re.sub(r"\s+program/?$", "", clean)
+    clean = clean.replace(" ", "")
     if not clean:
         return ""
     # Handle learning path UID format: learn.viva-glint-360-feedback -> https://learn.microsoft.com/en-us/training/paths/viva-glint-360-feedback
@@ -197,7 +221,9 @@ def format_verify_url(raw_url: str | None) -> str:
         else:
             clean = f"https://learn.microsoft.com/en-us/{clean}"
     elif "learn.microsoft.com/training/" in clean:
-        clean = clean.replace("learn.microsoft.com/training/", "learn.microsoft.com/en-us/training/")
+        clean = clean.replace(
+            "learn.microsoft.com/training/", "learn.microsoft.com/en-us/training/"
+        )
     return clean
 
 
@@ -268,8 +294,10 @@ def resolve_level(xp_profile: dict, xp_data: dict, total_xp: Any) -> str:
 # PYDANTIC SCHEMAS
 # ==============================================================================
 
+
 class MSAchievementModel(BaseModel):
     """Schema validating individual Microsoft Learn badges/trophies."""
+
     id: str = Field(min_length=1)
     title: str = Field("Completed Module", min_length=1)
     category: str = Field("module")
@@ -292,6 +320,7 @@ class MSAchievementModel(BaseModel):
 
 class MSVerifiableCredentialModel(BaseModel):
     """Schema validating Verifiable Applied Skills and Microsoft Credentials."""
+
     credentialId: str = Field("N/A")
     sourceUid: str = Field("")
     awardedOn: str = Field("N/A")
@@ -308,6 +337,7 @@ class MSVerifiableCredentialModel(BaseModel):
 # MAIN PIPELINE EXECUTION
 # ==============================================================================
 
+
 def get_stored_archive_baseline_count() -> int:
     """Evaluates baseline record count from existing monolith markdown archive."""
     if os.path.exists(ARCHIVE_MONOLITH):
@@ -315,7 +345,8 @@ def get_stored_archive_baseline_count() -> int:
             with open(ARCHIVE_MONOLITH, "r", encoding="utf-8") as f:
                 lines = f.readlines()
             rows = [
-                l for l in lines
+                l
+                for l in lines
                 if l.strip().startswith("|")
                 and not l.strip().startswith("| Achievement Title")
                 and ":---" not in l
@@ -332,7 +363,9 @@ def execute_data_loss_guard(new_achievements: list[dict]) -> None:
     old_count = get_stored_archive_baseline_count()
     new_count = len(new_achievements)
 
-    logger.info(f"���🛡��️ Loss Guard Check: Stored Archive Baseline = {old_count:,} items | Incoming Dataset = {new_count:,} items.")
+    logger.info(
+        f"���🛡��️ Loss Guard Check: Stored Archive Baseline = {old_count:,} items | Incoming Dataset = {new_count:,} items."
+    )
 
     if old_count > 0 and new_count == 0:
         raise PipelineDataLossAnomaly(
@@ -398,13 +431,15 @@ def main():
                 new_records=validated_achievements,
                 platform="microsoft-learn",
                 id_field="id",  # MS Learn achievements have stable 'id' (e.g., EG94SBRP)
-                fail_on_warn=True  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
+                fail_on_warn=True,  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
             )
         except PipelineDataLossAnomaly as anomaly_err:
             logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
             sys.exit(1)
     else:
-        logger.warning("⚠️ Content-aware loss guard unavailable, falling back to count-only check")
+        logger.warning(
+            "⚠️ Content-aware loss guard unavailable, falling back to count-only check"
+        )
         # Fallback to original count-based loss guard
         try:
             execute_data_loss_guard(validated_achievements)
@@ -450,14 +485,29 @@ def main():
 
     # Also check verifiable credentials against retired rules
     if retired_rules:
-        _, marked = mark_retired(user_creds, retired_rules, url_field="sourceUid", id_fields=["sourceUid", "credentialId"], retired_field="retired")
+        _, marked = mark_retired(
+            user_creds,
+            retired_rules,
+            url_field="sourceUid",
+            id_fields=["sourceUid", "credentialId"],
+            retired_field="retired",
+        )
         # Note: verifiable credentials use sourceUid, not url field
         if marked > 0:
-            logger.info(f"📝 Updated {marked} verifiable credential(s) with retired status")
+            logger.info(
+                f"📝 Updated {marked} verifiable credential(s) with retired status"
+            )
 
     # Also check learning paths against retired rules
     if retired_rules:
-        _, marked = mark_retired(learning_paths, retired_rules, url_field=["url", "learningPathUid", "learning_path_uid", "learningPathId"], id_fields=["learningPathUid", "learning_path_uid", "learningPathId"], retired_field="retired", normalize_url=format_verify_url)
+        _, marked = mark_retired(
+            learning_paths,
+            retired_rules,
+            url_field=["url", "learningPathUid", "learning_path_uid", "learningPathId"],
+            id_fields=["learningPathUid", "learning_path_uid", "learningPathId"],
+            retired_field="retired",
+            normalize_url=format_verify_url,
+        )
         if marked > 0:
             logger.info(f"📝 Updated {marked} learning path(s) with retired status")
 
@@ -466,7 +516,12 @@ def main():
     retired_lp_urls = set()
     for lp in learning_paths:
         if lp.get("retired"):
-            for field in ["url", "learningPathUid", "learning_path_uid", "learningPathId"]:
+            for field in [
+                "url",
+                "learningPathUid",
+                "learning_path_uid",
+                "learningPathId",
+            ]:
                 raw = lp.get(field)
                 if raw:
                     retired_lp_urls.add(format_verify_url(raw))
@@ -480,14 +535,15 @@ def main():
             if ach_url and ach_url in retired_lp_urls and not ach.get("retired", False):
                 ach["retired"] = True
                 ach_marked += 1
-                logger.info(f"🏷️  Propagated retired to achievement: {ach.get('title') or ach.get('id')}")
+                logger.info(
+                    f"🏷️  Propagated retired to achievement: {ach.get('title') or ach.get('id')}"
+                )
         if ach_marked > 0:
             logger.info(f"📝 Propagated retired status to {ach_marked} achievement(s)")
 
     # Persist full data with retired flags to for_validation for link checker
-    validation_dir = "for_validation"
-    os.makedirs(validation_dir, exist_ok=True)
-    validation_file = os.path.join(validation_dir, "microsoft-learn.json")
+    os.makedirs(VALIDATION_DIR, exist_ok=True)
+    validation_file = os.path.join(VALIDATION_DIR, "microsoft-learn.json")
     payload = {
         "platform": "microsoft-learn",
         "total_achievements": len(validated_achievements),
@@ -560,7 +616,12 @@ def main():
         verify_str = f" | [Verify Credential]({verify_url})" if verify_url else ""
         md.append(f"- **{title}** ({cat} | Earned: {date}{verify_str})")
 
-    table_headers = ["Achievement Title", "Category", "Date Earned", "Verification Link"]
+    table_headers = [
+        "Achievement Title",
+        "Category",
+        "Date Earned",
+        "Verification Link",
+    ]
     table_alignments = [":---", ":---", ":---", ":---"]
 
     # 4. Trigger Archiver
@@ -593,11 +654,17 @@ def main():
                     before = readme_content.split(MARKER_START)[0]
                     after = readme_content.split(MARKER_END)[1]
                     new_block = "\n".join(md) + "\n"
-                    new_content = before + MARKER_START + "\n" + new_block + MARKER_END + after
+                    new_content = (
+                        before + MARKER_START + "\n" + new_block + MARKER_END + after
+                    )
                     safe_write_file("README.md", new_content)
-        logger.info(f"🎉 Microsoft Learn pipeline complete ({len(sorted_achievements)} items archived).")
+        logger.info(
+            f"🎉 Microsoft Learn pipeline complete ({len(sorted_achievements)} items archived)."
+        )
     else:
-        logger.error("❌ Archiver module helper not available. Skipping markdown generation.")
+        logger.error(
+            "❌ Archiver module helper not available. Skipping markdown generation."
+        )
 
 
 if __name__ == "__main__":

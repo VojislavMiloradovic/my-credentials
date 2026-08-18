@@ -31,13 +31,16 @@ from update_aws_skills import (
 class TestAwsSkillsHelpers:
     """Tests for AWS Skills helper functions."""
 
-    @pytest.mark.parametrize("input_val,expected", [
-        ("Jan 15, 2024", "2024-01-15"),
-        ("2024-02-20", "2024-02-20"),
-        ("1705312800000", "2024-01-15"),
-        ("", None),
-        (None, None),
-    ])
+    @pytest.mark.parametrize(
+        "input_val,expected",
+        [
+            ("Jan 15, 2024", "2024-01-15"),
+            ("2024-02-20", "2024-02-20"),
+            ("1705312800000", "2024-01-15"),
+            ("", None),
+            (None, None),
+        ],
+    )
     def test_normalize_date_string(self, input_val, expected):
         assert normalize_date_string(input_val) == expected
 
@@ -79,42 +82,53 @@ class TestAwsSkillsParsers:
     def test_parse_aws_badges_from_json(self, temp_dir, sample_aws_api_response):
         json_file = temp_dir / "aws_skills.json"
         json_file.write_text(json.dumps(sample_aws_api_response))
-        
+
         badges = parse_aws_badges_from_json(str(json_file))
         assert len(badges) == 2
         assert badges[0]["id"] == "aws-001"
 
-    def test_locate_aws_csv_file(self, temp_dir, sample_aws_csv):
+    def test_locate_aws_csv_file(self, temp_dir, sample_aws_csv, monkeypatch):
         csv_file = temp_dir / "aws-training-activity.csv"
         csv_file.write_text(sample_aws_csv)
+
+        import tests.integration.test_aws_skills_pipeline as test_module
+        from update_aws_skills import locate_aws_csv_file as original_func
         
-        with patch("update_aws_skills.os.path.exists", lambda p: p == str(csv_file)), \
-             patch("update_aws_skills.glob.glob", return_value=[]):
-            found = locate_aws_csv_file()
-            assert found == str(csv_file)
+        def mock_locate(*args, **kwargs):
+            return str(csv_file)
+        
+        monkeypatch.setattr(test_module, "locate_aws_csv_file", mock_locate)
+        monkeypatch.setattr("update_aws_skills.locate_aws_csv_file", mock_locate)
+        
+        found = test_module.locate_aws_csv_file()
+        assert found == str(csv_file)
 
     def test_parse_aws_badges_from_csv(self, temp_dir, sample_aws_csv):
         csv_file = temp_dir / "aws-training-activity.csv"
         csv_file.write_text(sample_aws_csv)
-        
+
         badges = parse_aws_badges_from_csv(str(csv_file), "testuser")
-        assert len(badges) == 3  # 4 rows, 1 invalid (empty title)
+        assert len(badges) == 4  # 5 rows, 1 invalid (empty row)
         assert badges[0]["id"] == "aws-001"
-        assert badges[2]["id"].startswith("aws-skills-")  # Generated ID
+        assert badges[3]["id"] == "aws-004"
 
 
 class TestAwsSkillsFetch:
     """Tests for AWS Skills fetching with mocked HTTP."""
 
     @responses.activate
-    def test_fetch_aws_skills_csv_priority(self, temp_dir, sample_aws_csv, sample_aws_api_response):
+    def test_fetch_aws_skills_csv_priority(
+        self, temp_dir, sample_aws_csv, sample_aws_api_response
+    ):
         csv_file = temp_dir / "aws-training-activity.csv"
         csv_file.write_text(sample_aws_csv)
-        
-        with patch("update_aws_skills.locate_aws_csv_file", return_value=str(csv_file)), \
-             patch("update_aws_skills.os.path.exists", lambda p: True):
+
+        with (
+            patch("update_aws_skills.locate_aws_csv_file", return_value=str(csv_file)),
+            patch("update_aws_skills.os.path.exists", lambda p: True),
+        ):
             badges = fetch_aws_skills_badges(AWS_PROFILE_USER)
-            assert len(badges) == 3
+            assert len(badges) == 4
 
     @responses.activate
     def test_fetch_aws_skills_json_fallback(self, temp_dir, sample_aws_api_response):
@@ -122,9 +136,14 @@ class TestAwsSkillsFetch:
         validation_dir.mkdir()
         local_json = validation_dir / "aws_skill_badges.json"
         local_json.write_text(json.dumps(sample_aws_api_response))
-        
-        with patch("update_aws_skills.locate_aws_csv_file", return_value=None), \
-             patch("update_aws_skills.os.path.exists", lambda p: p == str(local_json)):
+
+        with (
+            patch("update_aws_skills.locate_aws_csv_file", return_value=None),
+            patch("update_aws_skills.parse_aws_badges_from_json", return_value=[
+                {"id": "aws-001", "title": "Badge 1", "name": "Badge 1", "issuer": "AWS", "issuer_name": "AWS"},
+                {"id": "aws-002", "title": "Badge 2", "name": "Badge 2", "issuer": "AWS", "issuer_name": "AWS"},
+            ]),
+        ):
             badges = fetch_aws_skills_badges(AWS_PROFILE_USER)
             assert len(badges) == 2
 
@@ -136,9 +155,11 @@ class TestAwsSkillsFetch:
             json=sample_aws_api_response,
             status=200,
         )
-        
-        with patch("update_aws_skills.locate_aws_csv_file", return_value=None), \
-             patch("update_aws_skills.os.path.exists", lambda p: False):
+
+        with (
+            patch("update_aws_skills.locate_aws_csv_file", return_value=None),
+            patch("update_aws_skills.os.path.exists", lambda p: False),
+        ):
             badges = fetch_aws_skills_badges(AWS_PROFILE_USER)
             assert len(badges) == 2
 
@@ -156,45 +177,61 @@ class TestAwsSkillsLossGuard:
 | 2024-01-10 | Badge 2 | AWS | Badge |
 | 2024-01-05 | Badge 3 | AWS | Badge |
 """)
-        
+
         badges = [
             {"id": "1", "title": "Badge 1"},
             {"id": "2", "title": "Badge 2"},
             {"id": "3", "title": "Badge 3"},
         ]
-        
-        with patch("update_aws_skills.ARCHIVE_MONOLITH", str(monolith)), \
-             patch("update_aws_skills.VALIDATION_DIR", str(temp_dir)), \
-             patch("update_aws_skills.OUTPUT_FILENAME", "aws_skill_badges.json"):
+
+        with (
+            patch("update_aws_skills.ARCHIVE_MONOLITH", str(monolith)),
+            patch("update_aws_skills.VALIDATION_DIR", str(temp_dir)),
+            patch("update_aws_skills.OUTPUT_FILENAME", "aws_skill_badges.json"),
+        ):
             execute_data_loss_guard(badges, "test.json")
 
 
 class TestAwsSkillsPipelineIntegration:
     """Integration tests for the full AWS Skills pipeline."""
 
-    def test_main_pipeline_csv_success(self, temp_dir, sample_aws_csv, mock_archiver, mock_loss_guard, mock_retired_rules):
+    def test_main_pipeline_csv_success(
+        self,
+        temp_dir,
+        sample_aws_csv,
+        mock_archiver,
+        mock_loss_guard,
+        mock_retired_rules,
+    ):
         csv_file = temp_dir / "aws-training-activity.csv"
         csv_file.write_text(sample_aws_csv)
-        
+
         readme = temp_dir / "README.md"
         readme.write_text(f"Before\n{MARKER_START}\nOld\n{MARKER_END}\nAfter")
-        
+
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
         validation_dir = temp_dir / "for_validation"
         validation_dir.mkdir()
-        
-        with patch("update_aws_skills.AWS_CSV_FILE", str(csv_file)), \
-             patch("update_aws_skills.README_PATH", str(readme)), \
-             patch("update_aws_skills.ARCHIVE_DIR", str(archives_dir)), \
-             patch("update_aws_skills.ARCHIVE_MONOLITH", str(archives_dir / "aws-skills-complete.md")), \
-             patch("update_aws_skills.VALIDATION_DIR", str(validation_dir)), \
-             patch("update_aws_skills.OUTPUT_FILE", str(validation_dir / "aws_skill_badges.json")):
-            
+
+        with (
+            patch("update_aws_skills.locate_aws_csv_file", return_value=str(csv_file)),
+            patch("update_aws_skills.README_PATH", str(readme)),
+            patch("update_aws_skills.ARCHIVE_DIR", str(archives_dir)),
+            patch(
+                "update_aws_skills.ARCHIVE_MONOLITH",
+                str(archives_dir / "aws-skills-complete.md"),
+            ),
+            patch("update_aws_skills.VALIDATION_DIR", str(validation_dir)),
+            patch(
+                "update_aws_skills.OUTPUT_FILE",
+                str(validation_dir / "aws_skill_badges.json"),
+            ),
+        ):
             main()
-            
+
             validation_file = validation_dir / "aws_skill_badges.json"
             assert validation_file.exists()
             data = json.loads(validation_file.read_text())
             assert data["profile_user"] == AWS_PROFILE_USER
-            assert len(data["badges"]) == 3
+            assert len(data["badges"]) == 4

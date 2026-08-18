@@ -67,7 +67,7 @@ class TestJsonLdParsing:
     def test_parse_archive_monoliths_basic(self, temp_dir):
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
-        
+
         monolith = archives_dir / "test-platform-complete.md"
         monolith.write_text("""# Complete Test Platform Archive
 
@@ -80,7 +80,7 @@ This document represents a unified list of 2 records.
 | 2024-01-15 | [Badge 1](https://example.com/1) | Test Issuer | Badge |
 | 2024-01-10 | Badge 2 | Test Issuer | Badge |
 """)
-        
+
         with patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)):
             credentials = parse_archive_monoliths()
             assert len(credentials) == 2
@@ -92,7 +92,7 @@ This document represents a unified list of 2 records.
     def test_parse_archive_monoliths_with_images(self, temp_dir):
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
-        
+
         monolith = archives_dir / "test-platform-complete.md"
         monolith.write_text("""# Complete Test Platform Archive
 
@@ -102,7 +102,7 @@ This document represents a unified list of 2 records.
 | :---: | :--- | :--- | :---: |
 | 2024-01-15 | ![Image](https://img.com/1) [Badge 1](https://example.com/1) | Test Issuer | Badge |
 """)
-        
+
         with patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)):
             credentials = parse_archive_monoliths()
             assert len(credentials) == 1
@@ -111,7 +111,7 @@ This document represents a unified list of 2 records.
     def test_parse_archive_monoliths_with_credential_id(self, temp_dir):
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
-        
+
         monolith = archives_dir / "test-platform-complete.md"
         monolith.write_text("""# Complete Test Platform Archive
 
@@ -121,7 +121,7 @@ This document represents a unified list of 2 records.
 | :---: | :--- | :--- | :---: |
 | 2024-01-15 | **Badge 1** Credential ID: `ABC123` | Test Issuer | Badge |
 """)
-        
+
         with patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)):
             credentials = parse_archive_monoliths()
             assert len(credentials) == 1
@@ -130,7 +130,7 @@ This document represents a unified list of 2 records.
     def test_parse_archive_monoliths_retired(self, temp_dir):
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
-        
+
         monolith = archives_dir / "test-platform-complete.md"
         monolith.write_text("""# Complete Test Platform Archive
 
@@ -139,8 +139,8 @@ This document represents a unified list of 2 records.
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2024-01-15 | Badge 1 ⚠️ *Content retired* | Test Issuer | Badge |
-""")
-        
+""", encoding="utf-8")
+
         with patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)):
             credentials = parse_archive_monoliths()
             assert len(credentials) == 1
@@ -168,7 +168,10 @@ class TestJsonLdValidation:
                         "@type": "EducationalOccupationalCredential",
                         "credentialCategory": "Badge",
                         "name": "Test Badge",
-                        "recognizedBy": {"@type": "Organization", "name": "Test Issuer"},
+                        "recognizedBy": {
+                            "@type": "Organization",
+                            "name": "Test Issuer",
+                        },
                     }
                 ],
             },
@@ -191,11 +194,13 @@ class TestJsonLdCleanup:
 
     def test_cleanup_readme_removes_markers(self, temp_dir):
         readme = temp_dir / "README.md"
-        readme.write_text(f"Before\n{MARKER_START}\nScript content\n{MARKER_END}\nAfter")
-        
+        readme.write_text(
+            f"Before\n{MARKER_START}\nScript content\n{MARKER_END}\nAfter"
+        )
+
         with patch("generate_jsonld.README_PATH", str(readme)):
             cleanup_readme()
-        
+
         content = readme.read_text()
         assert "Script content" not in content
         assert "Before" in content
@@ -203,12 +208,12 @@ class TestJsonLdCleanup:
 
     def test_cleanup_readme_fixes_encoding(self, temp_dir):
         readme = temp_dir / "README.md"
-        readme.write_text("Vojislav Miloradovi\u0107")  # Fixed encoding
-        
+        readme.write_text("Vojislav Miloradović", encoding="utf-8")  # Fixed encoding
+
         with patch("generate_jsonld.README_PATH", str(readme)):
             cleanup_readme()
-        
-        content = readme.read_text()
+
+        content = readme.read_text(encoding="utf-8")
         assert "Vojislav Miloradović" in content
 
 
@@ -218,7 +223,7 @@ class TestJsonLdMain:
     def test_main_generates_jsonld(self, temp_dir):
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
-        
+
         monolith = archives_dir / "test-platform-complete.md"
         monolith.write_text("""# Complete Test Platform Archive
 
@@ -228,16 +233,17 @@ class TestJsonLdMain:
 | :---: | :--- | :--- | :---: |
 | 2024-01-15 | Badge 1 | Test Issuer | Badge |
 """)
-        
+
         readme = temp_dir / "README.md"
         readme.write_text("Test README")
-        
-        with patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)), \
-             patch("generate_jsonld.README_PATH", str(readme)), \
-             patch("generate_jsonld.JSONLD_PATH", str(temp_dir / "credentials.jsonld")):
-            
+
+        with (
+            patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)),
+            patch("generate_jsonld.README_PATH", str(readme)),
+            patch("generate_jsonld.JSONLD_PATH", str(temp_dir / "credentials.jsonld")),
+        ):
             main()
-            
+
             output = temp_dir / "credentials.jsonld"
             assert output.exists()
             data = json.loads(output.read_text())

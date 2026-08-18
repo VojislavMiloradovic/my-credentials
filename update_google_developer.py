@@ -25,6 +25,7 @@ try:
 except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
     generate_platform_archive = None
+
     def safe_write_file(filepath: str, new_content: str) -> bool:
         if os.path.exists(filepath):
             try:
@@ -37,6 +38,7 @@ except ImportError:
             f.write(new_content)
         return True
 
+
 # Content-Aware Loss Guard
 try:
     from loss_guard import PipelineDataLossAnomaly, execute_content_loss_guard
@@ -47,6 +49,7 @@ except ImportError:
 
 # Retired credentials registry mapping
 RETIRED_URLS_FILE = "retired_urls.json"
+
 
 def load_retired_rules(platform: str) -> list[dict[str, Any]]:
     """Load retired credential rules for a platform from the mapping file."""
@@ -68,6 +71,7 @@ def load_retired_rules(platform: str) -> list[dict[str, Any]]:
     except Exception as e:
         logger.warning(f"⚠️ Could not load retired rules for {platform}: {e}")
         return []
+
 
 def mark_retired(
     items: list[dict],
@@ -94,7 +98,9 @@ def mark_retired(
             rule_id = str(rule.get("id", "")).strip()
             rule_url = str(rule.get("url", "")).strip() if rule.get("url") else None
 
-            if rule_id in item_ids or (item_url and (rule_id == item_url or rule_url == item_url)):
+            if rule_id in item_ids or (
+                item_url and (rule_id == item_url or rule_url == item_url)
+            ):
                 is_retired = True
                 matched_rule = rule
                 break
@@ -107,10 +113,15 @@ def mark_retired(
                 if matched_rule.get("retired_at"):
                     item["retired_at"] = matched_rule["retired_at"]
             marked += 1
-            logger.info(f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}")
+            logger.info(
+                f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
+            )
 
-    logger.info(f"Retired check: {len(items)} items checked, {marked} marked as retired")
+    logger.info(
+        f"Retired check: {len(items)} items checked, {marked} marked as retired"
+    )
     return len(items), marked
+
 
 # Logging Setup
 logging.basicConfig(
@@ -135,24 +146,46 @@ MARKER_END = "<!-- GOOGLE_DEVELOPER_END -->"
 MAX_ALLOWED_DATA_LOSS_PCT = 0.15  # Guard threshold for dataset drop protection
 
 SERBIAN_MONTHS = {
-    "јан": "01", "јануар": "01", "јануара": "01",
-    "феб": "02", "фебруар": "02", "фебруара": "02",
-    "мар": "03", "март": "03", "марта": "03",
-    "апр": "04", "април": "04", "априла": "04",
-    "мај": "05", "маја": "05",
-    "јун": "06", "јуна": "06",
-    "јул": "07", "јула": "07",
-    "авг": "08", "август": "08", "августа": "08",
-    "сеп": "09", "септембар": "09", "септембара": "09",
-    "окт": "10", "октобар": "10", "октобара": "10",
-    "нов": "11", "новембар": "11", "новембара": "11",
-    "дец": "12", "децембар": "12", "децембара": "12",
+    "јан": "01",
+    "јануар": "01",
+    "јануара": "01",
+    "феб": "02",
+    "фебруар": "02",
+    "фебруара": "02",
+    "мар": "03",
+    "март": "03",
+    "марта": "03",
+    "апр": "04",
+    "април": "04",
+    "априла": "04",
+    "мај": "05",
+    "маја": "05",
+    "јун": "06",
+    "јуна": "06",
+    "јул": "07",
+    "јула": "07",
+    "авг": "08",
+    "август": "08",
+    "августа": "08",
+    "сеп": "09",
+    "септембар": "09",
+    "септембара": "09",
+    "окт": "10",
+    "октобар": "10",
+    "октобара": "10",
+    "нов": "11",
+    "новембар": "11",
+    "новембара": "11",
+    "дец": "12",
+    "децембар": "12",
+    "децембара": "12",
 }
 
 
 # ==============================================================================
 # PYDANTIC SCHEMAS & DATE COERCION
 # ==============================================================================
+
 
 def normalize_date_string(raw_date: Any) -> str:
     """Coerces timestamps, ISO strings, and Serbian dates to YYYY-MM-DD or N/A."""
@@ -184,11 +217,16 @@ def normalize_date_string(raw_date: Any) -> str:
 
 class GoogleDeveloperBadgeModel(BaseModel):
     """Normalized schema for Google Developer badges and codelabs."""
+
     title: str = Field(..., min_length=1, description="Badge or Activity Title")
     date: str = Field("N/A", description="Earned date in YYYY-MM-DD format")
     description: str = Field(..., description="Achievement metadata or classification")
-    source: str = Field("public", description="Origin of badge (public RPC or local learnings log)")
-    retired: bool = Field(False, description="Whether the content has been retired by the platform")
+    source: str = Field(
+        "public", description="Origin of badge (public RPC or local learnings log)"
+    )
+    retired: bool = Field(
+        False, description="Whether the content has been retired by the platform"
+    )
 
     @field_validator("date", mode="before")
     @classmethod
@@ -199,6 +237,7 @@ class GoogleDeveloperBadgeModel(BaseModel):
 # ==============================================================================
 # LOSS GUARD & ANOMALY PROTECTIONS
 # ==============================================================================
+
 
 class PipelineDataLossAnomaly(Exception):
     """Raised when incoming dataset drops drastically below previous baseline."""
@@ -211,7 +250,8 @@ def get_stored_archive_baseline_count() -> int:
             with open(ARCHIVE_MONOLITH, "r", encoding="utf-8") as f:
                 lines = f.readlines()
             rows = [
-                l for l in lines
+                l
+                for l in lines
                 if l.strip().startswith("|")
                 and not l.strip().startswith("| Date")
                 and ":---" not in l
@@ -228,7 +268,9 @@ def execute_data_loss_guard(new_badges: list[dict]) -> None:
     old_count = get_stored_archive_baseline_count()
     new_count = len(new_badges)
 
-    logger.info(f"🛡️ Loss Guard Check: Stored Archive Baseline = {old_count} items | Incoming Dataset = {new_count} items.")
+    logger.info(
+        f"🛡️ Loss Guard Check: Stored Archive Baseline = {old_count} items | Incoming Dataset = {new_count} items."
+    )
 
     if old_count > 0 and new_count == 0:
         raise PipelineDataLossAnomaly(
@@ -250,10 +292,13 @@ def execute_data_loss_guard(new_badges: list[dict]) -> None:
 # PARSERS & RPC FETCHERS
 # ==============================================================================
 
+
 def parse_local_learnings_txt() -> list[dict]:
     """Parses local Serbian text file of detailed learning activity codelabs."""
     if not os.path.exists(LEARNINGS_TXT_PATH):
-        logger.info(f"ℹ️ Local activity file '{LEARNINGS_TXT_PATH}' not found. Skipping local parsing.")
+        logger.info(
+            f"ℹ️ Local activity file '{LEARNINGS_TXT_PATH}' not found. Skipping local parsing."
+        )
         return []
 
     logger.info(f"📄 Parsing local Google learning log: '{LEARNINGS_TXT_PATH}'")
@@ -268,7 +313,10 @@ def parse_local_learnings_txt() -> list[dict]:
         if date_match and i > 0:
             iso_date = normalize_date_string(line)
             title = lines[i - 1]
-            if title in ["Учење", "check_circle_outline You have this badge!"] and i > 1:
+            if (
+                title in ["Учење", "check_circle_outline You have this badge!"]
+                and i > 1
+            ):
                 title = lines[i - 2]
 
             if (
@@ -285,10 +333,14 @@ def parse_local_learnings_txt() -> list[dict]:
                 try:
                     learnings.append(GoogleDeveloperBadgeModel(**entry).model_dump())
                 except ValidationError as ve:
-                    logger.warning(f"⚠️ Skipping invalid local activity entry '{title}': {ve}")
+                    logger.warning(
+                        f"⚠️ Skipping invalid local activity entry '{title}': {ve}"
+                    )
         i += 1
 
-    logger.info(f"✅ Extracted {len(learnings)} granular learning items from local log.")
+    logger.info(
+        f"✅ Extracted {len(learnings)} granular learning items from local log."
+    )
     return learnings
 
 
@@ -339,7 +391,9 @@ def analyze_badge_list(lst: Any, parsed_badges: list[dict]) -> bool:
             slug = badge_path.split("/")[-1].split("?")[0]
 
             title = slug.replace("-", " ").replace("_", " ").title()
-            title = title.replace("Gdg", "GDG").replace("Gcp", "GCP").replace("Aws", "AWS")
+            title = (
+                title.replace("Gdg", "GDG").replace("Gcp", "GCP").replace("Aws", "AWS")
+            )
 
             category = "Community" if "community" in badge_path else "Learning Pathway"
             description = f"Official Google Developer platform achievement ({category}: {slug.replace('-', ' ')})."
@@ -356,7 +410,9 @@ def analyze_badge_list(lst: Any, parsed_badges: list[dict]) -> bool:
                     "source": "public_rpc",
                 }
                 try:
-                    parsed_badges.append(GoogleDeveloperBadgeModel(**entry).model_dump())
+                    parsed_badges.append(
+                        GoogleDeveloperBadgeModel(**entry).model_dump()
+                    )
                 except ValidationError:
                     pass
     return True
@@ -386,10 +442,12 @@ def fetch_gdev_badges_rpc() -> list[dict]:
         "rt": "c",
     }
     profile_id = "110772055890077594470"
-    f_req_structure = [[
-        ["gQeJTc", f'["{profile_id}"]', None, "3"],
-        ["RwSpuf", f'["{profile_id}"]', None, "4"],
-    ]]
+    f_req_structure = [
+        [
+            ["gQeJTc", f'["{profile_id}"]', None, "3"],
+            ["RwSpuf", f'["{profile_id}"]', None, "4"],
+        ]
+    ]
     payload = {
         "f.req": json.dumps(f_req_structure),
         "at": "AFAd0eBgurpIT_evlsPSzRjypGkH:1784464194335",
@@ -403,9 +461,13 @@ def fetch_gdev_badges_rpc() -> list[dict]:
     }
 
     try:
-        response = requests.post(url, params=params, data=payload, headers=headers, timeout=15)
+        response = requests.post(
+            url, params=params, data=payload, headers=headers, timeout=15
+        )
         if response.status_code != 200:
-            logger.warning(f"⚠️ RPC request failed with status HTTP {response.status_code}")
+            logger.warning(
+                f"⚠️ RPC request failed with status HTTP {response.status_code}"
+            )
             return []
 
         raw_text = response.text
@@ -419,10 +481,14 @@ def fetch_gdev_badges_rpc() -> list[dict]:
                     for chunk in outer_data:
                         if isinstance(chunk, list):
                             for element in chunk:
-                                if isinstance(element, str) and (element.startswith(("[", "{"))):
+                                if isinstance(element, str) and (
+                                    element.startswith(("[", "{"))
+                                ):
                                     try:
                                         badge_matrix = json.loads(element)
-                                        find_badges_in_matrix(badge_matrix, parsed_badges)
+                                        find_badges_in_matrix(
+                                            badge_matrix, parsed_badges
+                                        )
                                     except Exception:
                                         pass
                 except Exception:
@@ -439,6 +505,7 @@ def fetch_gdev_badges_rpc() -> list[dict]:
 # MAIN PIPELINE EXECUTION
 # ==============================================================================
 
+
 def main():
     logger.info("Starting Google Developer Profile Pipeline...")
 
@@ -452,7 +519,9 @@ def main():
             combined_feed.append(dl)
 
     if not combined_feed:
-        logger.error("❌ No badge records extracted from RPC or local activity file. Aborting.")
+        logger.error(
+            "❌ No badge records extracted from RPC or local activity file. Aborting."
+        )
         sys.exit(1)
 
     # 1. Execute Content-Aware Loss Guard against stored baseline
@@ -464,13 +533,15 @@ def main():
                 new_records=combined_feed,
                 platform="google-developer",
                 id_field="title",  # No native ID; loss_guard falls back to title+date hash
-                fail_on_warn=True  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
+                fail_on_warn=True,  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
             )
         except PipelineDataLossAnomaly as anomaly_err:
             logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
             sys.exit(1)
     else:
-        logger.warning("⚠️ Content-aware loss guard unavailable, falling back to count-only check")
+        logger.warning(
+            "⚠️ Content-aware loss guard unavailable, falling back to count-only check"
+        )
         try:
             execute_data_loss_guard(combined_feed)
         except PipelineDataLossAnomaly as anomaly_err:
@@ -506,7 +577,9 @@ def main():
 
     # 3. Sort combined entries reverse-chronologically
     combined_feed.sort(
-        key=lambda x: x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00",
+        key=lambda x: (
+            x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00"
+        ),
         reverse=True,
     )
 
@@ -542,17 +615,21 @@ def main():
     ]
 
     if total_detailed > 0:
-        readme_lines.append(f"| **Total Codelabs & Learning Activities** | {total_detailed:,} |")
+        readme_lines.append(
+            f"| **Total Codelabs & Learning Activities** | {total_detailed:,} |"
+        )
 
-    readme_lines.extend([
-        "",
-        "#### Latest Achievements",
-        "",
-        f"Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
-        "",
-        "| Date Earned | Title | Description |",
-        "| :---: | :--- | :--- |",
-    ])
+    readme_lines.extend(
+        [
+            "",
+            "#### Latest Achievements",
+            "",
+            f"Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
+            "",
+            "| Date Earned | Title | Description |",
+            "| :---: | :--- | :--- |",
+        ]
+    )
 
     for badge in combined_feed[:10]:
         clean_desc = badge["description"].replace("|", "\\|").replace("\n", " ")
@@ -582,8 +659,12 @@ def main():
             LATEST_SLICE_RAW = RAW_BASE_DEFAULT + "/" + latest_slice
             for i, line in enumerate(readme_lines):
                 if "{LATEST_SLICE_NORMAL}" in line:
-                    readme_lines[i] = line.replace("{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL)
-                    readme_lines[i] = readme_lines[i].replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
+                    readme_lines[i] = line.replace(
+                        "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
+                    )
+                    readme_lines[i] = readme_lines[i].replace(
+                        "{LATEST_SLICE_RAW}", LATEST_SLICE_RAW
+                    )
                     break
             if os.path.exists("README.md"):
                 with open("README.md", "r", encoding="utf-8") as f:
@@ -592,7 +673,9 @@ def main():
                     before = readme_content.split(MARKER_START)[0]
                     after = readme_content.split(MARKER_END)[1]
                     new_block = "\n".join(readme_lines) + "\n"
-                    new_content = before + MARKER_START + "\n" + new_block + MARKER_END + after
+                    new_content = (
+                        before + MARKER_START + "\n" + new_block + MARKER_END + after
+                    )
                     safe_write_file("README.md", new_content)
 
         # Update index file with two-category breakdown required by generate_llms_txt.py
@@ -629,13 +712,19 @@ def main():
 
                 with open(index_file_path, "w", encoding="utf-8") as f:
                     f.write(index_content)
-                logger.info(f"✅ Updated category breakdown metrics in {index_file_path}")
+                logger.info(
+                    f"✅ Updated category breakdown metrics in {index_file_path}"
+                )
             except Exception as e:
                 logger.warning(f"⚠️ Failed to update overview in {index_file_path}: {e}")
 
-        logger.info(f"🎉 Google Developer pipeline complete ({total_combined} combined items).")
+        logger.info(
+            f"🎉 Google Developer pipeline complete ({total_combined} combined items)."
+        )
     else:
-        logger.error("❌ Archiver module helper not available. Skipping markdown generation.")
+        logger.error(
+            "❌ Archiver module helper not available. Skipping markdown generation."
+        )
 
 
 if __name__ == "__main__":

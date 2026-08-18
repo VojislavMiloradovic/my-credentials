@@ -72,8 +72,20 @@ class TestAwsModels:
             "profile_user": "testuser",
             "total_count": 2,
             "badges": [
-                {"id": "1", "title": "Badge 1", "name": "Badge 1", "issuer": "AWS", "issuer_name": "AWS"},
-                {"id": "2", "title": "Badge 2", "name": "Badge 2", "issuer": "AWS", "issuer_name": "AWS"},
+                {
+                    "id": "1",
+                    "title": "Badge 1",
+                    "name": "Badge 1",
+                    "issuer": "AWS",
+                    "issuer_name": "AWS",
+                },
+                {
+                    "id": "2",
+                    "title": "Badge 2",
+                    "name": "Badge 2",
+                    "issuer": "AWS",
+                    "issuer_name": "AWS",
+                },
             ],
         }
         model = AwsSkillsArchivePayloadModel(**payload)
@@ -84,7 +96,9 @@ class TestAwsModels:
         """Negative total_count should fail validation."""
         with pytest.raises(ValidationError) as exc_info:
             AwsSkillsArchivePayloadModel(profile_user="test", total_count=-1, badges=[])
-        assert "ge=0" in str(exc_info.value) or "greater than or equal to 0" in str(exc_info.value)
+        assert "ge=0" in str(exc_info.value) or "greater than or equal to 0" in str(
+            exc_info.value
+        )
 
 
 class TestGoogleSkillsModels:
@@ -121,7 +135,15 @@ class TestGoogleSkillsModels:
         payload = {
             "profile_id": "test-profile",
             "total_count": 1,
-            "badges": [{"id": "1", "title": "Badge 1", "name": "Badge 1", "issuer": "Google", "issuer_name": "Google"}],
+            "badges": [
+                {
+                    "id": "1",
+                    "title": "Badge 1",
+                    "name": "Badge 1",
+                    "issuer": "Google",
+                    "issuer_name": "Google",
+                }
+            ],
         }
         model = GoogleSkillsArchivePayloadModel(**payload)
         assert model.profile_id == "test-profile"
@@ -167,7 +189,15 @@ class TestCredlyModels:
         payload = {
             "credly_user": "testuser",
             "total_count": 1,
-            "badges": [{"id": "1", "title": "Badge 1", "name": "Badge 1", "issuer": "Test", "issuer_name": "Test"}],
+            "badges": [
+                {
+                    "id": "1",
+                    "title": "Badge 1",
+                    "name": "Badge 1",
+                    "issuer": "Test",
+                    "issuer_name": "Test",
+                }
+            ],
         }
         model = CredlyArchivePayloadModel(**payload)
         assert model.credly_user == "testuser"
@@ -217,7 +247,7 @@ class TestMsLearnModels:
         """Category should be stripped and default to 'module'."""
         ach = MSAchievementModel(id="test", category="  trophy  ")
         assert ach.category == "trophy"
-        
+
         ach2 = MSAchievementModel(id="test")
         assert ach2.category == "module"
 

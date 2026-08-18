@@ -19,10 +19,13 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 # PYTEST CONFIGURATION
 # ==============================================================================
 
+
 def pytest_configure(config):
     """Register custom markers."""
     config.addinivalue_line("markers", "unit: Unit tests for core modules")
-    config.addinivalue_line("markers", "integration: Integration tests for provider pipelines")
+    config.addinivalue_line(
+        "markers", "integration: Integration tests for provider pipelines"
+    )
     config.addinivalue_line("markers", "smoke: CLI smoke tests")
     config.addinivalue_line("markers", "slow: Tests that take longer than 5 seconds")
 
@@ -30,6 +33,7 @@ def pytest_configure(config):
 # ==============================================================================
 # SHARED FIXTURES
 # ==============================================================================
+
 
 @pytest.fixture
 def temp_dir(tmp_path):
@@ -58,7 +62,7 @@ def sample_aws_csv():
 "AWS Cloud Practitioner Essentials","Digital course","Jan 15, 2024","https://example.com/1","https://img.com/1","aws-001"
 "Amazon S3 Primer","Digital course","2024-02-20","https://example.com/2","","aws-002"
 "AWS Lambda Foundations","Digital course","Mar 10, 2024","","https://img.com/3",""
-"Invalid Entry","","","","",""
+,,,,,,
 "Another Course","Digital course","Apr 5, 2024","https://example.com/4","https://img.com/4","aws-004"
 """
 
@@ -71,6 +75,7 @@ def sample_aws_api_response():
             {
                 "id": "aws-001",
                 "title": "AWS Cloud Practitioner Essentials",
+                "name": "AWS Cloud Practitioner Essentials",
                 "issued_at": "2024-01-15T10:00:00Z",
                 "verify_url": "https://skillsprofile.skillbuilder.aws/user/test/badges/aws-001",
                 "image_url": "https://img.com/1",
@@ -80,6 +85,7 @@ def sample_aws_api_response():
             {
                 "id": "aws-002",
                 "title": "Amazon S3 Primer",
+                "name": "Amazon S3 Primer",
                 "issued_at": "1708435200000",
                 "verify_url": "https://skillsprofile.skillbuilder.aws/user/test/badges/aws-002",
                 "image_url": "",
@@ -98,6 +104,7 @@ def sample_google_skills_json():
             {
                 "id": "123",
                 "title": "Google Cloud Fundamentals",
+                "name": "Google Cloud Fundamentals",
                 "earned_at": "2024-01-15T10:00:00Z",
                 "verify_url": "https://skills.google/badges/123",
                 "image_url": "https://img.com/1",
@@ -107,6 +114,7 @@ def sample_google_skills_json():
             {
                 "id": "456",
                 "title": "Kubernetes Engine Basics",
+                "name": "Kubernetes Engine Basics",
                 "earned_at": "1705238400000",
                 "verify_url": "https://skills.google/badges/456",
                 "image_url": "",
@@ -231,7 +239,10 @@ def sample_credly_api_page1():
                 "issued_at": "2024-02-20T10:00:00Z",
             },
         ],
-        "metadata": {"next_page": 2, "next_page_url": "https://www.credly.com/users/test/badges.json?page=2"},
+        "metadata": {
+            "next_page": 2,
+            "next_page_url": "https://www.credly.com/users/test/badges.json?page=2",
+        },
     }
 
 
@@ -270,7 +281,7 @@ def sample_credly_external_badges():
                     "image_url": "https://img.external.com/1",
                     "skills": ["External Skill"],
                     "credly_record_id": "ext-001",
-                }
+                },
             }
         ]
     }
@@ -312,6 +323,23 @@ def sample_credly_merged():
             "type": "Credly Verified Badge",
             "verification_type": "Credly Verified Badge",
             "skills": ["AWS"],
+            "retired": False,
+        },
+        {
+            "id": "badge-003",
+            "title": "Docker Expert",
+            "name": "Docker Expert",
+            "issuer": "Docker Inc",
+            "issuer_name": "Docker Inc",
+            "issued_at": "2024-03-10",
+            "issued_at_date": "2024-03-10",
+            "date": "2024-03-10",
+            "image_url": "https://img.credly.com/3",
+            "verify_url": "https://www.credly.com/badges/badge-003/public_url",
+            "url": "https://www.credly.com/badges/badge-003/public_url",
+            "type": "Credly Verified Badge",
+            "verification_type": "Credly Verified Badge",
+            "skills": ["Docker", "Containers"],
             "retired": False,
         },
         {
@@ -414,7 +442,7 @@ def sample_retired_rules():
 def sample_sanitize_data():
     """Test data for sanitize_ms_export.py with various secret patterns."""
     return {
-        "scriptResult": "Initial Key : ABC123DEF456GHI789JKL==\nNew Key1 : xyz789+/==\nConnection String : DefaultEndpointsProtocol=https;AccountName=test;AccountKey=supersecretkey123456789==\n\"Key\" : \"mysecretkey123456789\"\n\"Connection String\" : \"AccountKey=anothersecretkey123456789==\"\nNormal text without secrets.\n-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD...\n-----END PRIVATE KEY-----",
+        "scriptResult": 'Initial Key : ABC123DEF456GHI789JKL==\nNew Key1 : xyz789+/==\nConnection String : DefaultEndpointsProtocol=https;AccountName=test;AccountKey=supersecretkey123456789==\n"Key" : "mysecretkey123456789"\n"Connection String" : "AccountKey=anothersecretkey123456789=="\nNormal text without secrets.\n-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD...\n-----END PRIVATE KEY-----',
         "password": "should_be_redacted",
         "normal_field": "should_remain",
         "nested": {
@@ -431,6 +459,7 @@ def sample_sanitize_data():
 # ==============================================================================
 # FIXTURE FILE LOADERS
 # ==============================================================================
+
 
 def load_fixture(platform: str, filename: str) -> Any:
     """Load a fixture file from tests/fixtures/<platform>/<filename>."""
@@ -484,6 +513,7 @@ def google_developer_rpc():
 # MOCK HELPERS
 # ==============================================================================
 
+
 @pytest.fixture
 def mock_archiver(monkeypatch):
     """Mock archiver module to avoid file I/O in tests."""
@@ -491,7 +521,10 @@ def mock_archiver(monkeypatch):
     mock_safe_write = MagicMock(return_value=True)
     monkeypatch.setattr("archiver.generate_platform_archive", mock_generate)
     monkeypatch.setattr("archiver.safe_write_file", mock_safe_write)
-    monkeypatch.setattr("archiver.RAW_BASE_DEFAULT", "https://raw.githubusercontent.com/test/test/main/archives")
+    monkeypatch.setattr(
+        "archiver.RAW_BASE_DEFAULT",
+        "https://raw.githubusercontent.com/test/test/main/archives",
+    )
     return mock_generate, mock_safe_write
 
 
@@ -502,14 +535,29 @@ def mock_loss_guard(monkeypatch):
     mock_anomaly = type("PipelineDataLossAnomaly", (Exception,), {})
     monkeypatch.setattr("loss_guard.execute_content_loss_guard", mock_execute)
     monkeypatch.setattr("loss_guard.PipelineDataLossAnomaly", mock_anomaly)
+    # Also patch in modules that import it directly
+    monkeypatch.setattr("update_ms_learn.execute_content_loss_guard", mock_execute)
+    monkeypatch.setattr("update_google_skills.execute_content_loss_guard", mock_execute)
+    monkeypatch.setattr("update_aws_skills.execute_content_loss_guard", mock_execute)
+    monkeypatch.setattr("update_credly_badges.execute_content_loss_guard", mock_execute)
+    monkeypatch.setattr("update_linkedin.execute_content_loss_guard", mock_execute)
+    monkeypatch.setattr("update_google_developer.execute_content_loss_guard", mock_execute)
+    monkeypatch.setattr("update_ms_learn.PipelineDataLossAnomaly", mock_anomaly)
+    monkeypatch.setattr("update_google_skills.PipelineDataLossAnomaly", mock_anomaly)
+    monkeypatch.setattr("update_aws_skills.PipelineDataLossAnomaly", mock_anomaly)
+    monkeypatch.setattr("update_credly_badges.PipelineDataLossAnomaly", mock_anomaly)
+    monkeypatch.setattr("update_linkedin.PipelineDataLossAnomaly", mock_anomaly)
+    monkeypatch.setattr("update_google_developer.PipelineDataLossAnomaly", mock_anomaly)
     return mock_execute
 
 
 @pytest.fixture
 def mock_retired_rules(monkeypatch, sample_retired_rules):
     """Mock retired rules loading."""
+
     def mock_load(platform):
         return sample_retired_rules.get(platform, [])
+
     monkeypatch.setattr("update_ms_learn.load_retired_rules", mock_load)
     monkeypatch.setattr("update_google_skills.load_retired_rules", mock_load)
     monkeypatch.setattr("update_aws_skills.load_retired_rules", mock_load)
@@ -522,6 +570,7 @@ def mock_retired_rules(monkeypatch, sample_retired_rules):
 # ==============================================================================
 # TEST DATA BUILDERS
 # ==============================================================================
+
 
 def build_aws_badge(**overrides) -> dict:
     """Build a valid AWS badge dict for testing."""

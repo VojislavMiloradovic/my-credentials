@@ -11,42 +11,64 @@ from pathlib import Path
 
 # Common field names associated with credentials/tokens
 SENSITIVE_JSON_KEYS = {
-    "password", "secret", "privatekey", "sshkey", "connectionstring",
-    "authorization", "accesstoken", "refreshtoken", "bearer",
-    "subscriptionkey", "clientsecret", "labpassword", "vmpassword"
+    "password",
+    "secret",
+    "privatekey",
+    "sshkey",
+    "connectionstring",
+    "authorization",
+    "accesstoken",
+    "refreshtoken",
+    "bearer",
+    "subscriptionkey",
+    "clientsecret",
+    "labpassword",
+    "vmpassword",
 }
 
 # Regex patterns for inline string replacement (e.g., inside scriptResult text)
 INLINE_SCRUB_PATTERNS = [
     # Azure SAS token signatures
     (re.compile(r"(sig=)[a-zA-Z0-9%2F%2B%3D]{20,}", re.IGNORECASE), r"\1[REDACTED]"),
-    
     # Azure Connection String AccountKey
     (re.compile(r"(AccountKey=)[a-zA-Z0-9+/=]{20,}", re.IGNORECASE), r"\1[REDACTED]"),
-    
     # Key-Value lines in script logs (e.g., Initial Key : <key>, New Key1 : <key>, Key2 value : <key>, Value : <key>)
-    (re.compile(r"((?:Initial Key|New Key\d*|Key\d*|Value)\s*:\s*)[a-zA-Z0-9+/=]{20,}", re.IGNORECASE), r"\1[REDACTED]"),
-    
+    (
+        re.compile(
+            r"((?:Initial Key|New Key\d*|Key\d*|Value)\s*:\s*)[a-zA-Z0-9+/=]{20,}",
+            re.IGNORECASE,
+        ),
+        r"\1[REDACTED]",
+    ),
     # JSON-style strings in terminal dumps (e.g., "Key" : "<key>", "Connection String" : "<conn_string>")
-    (re.compile(r'("Key"\s*:\s*")[^"]+(")', re.IGNORECASE), r'\1[REDACTED]\2'),
-    (re.compile(r'("Connection String"\s*:\s*")[^"]+(")', re.IGNORECASE), r'\1[REDACTED]\2'),
-    
+    (re.compile(r'("Key"\s*:\s*")[^"]+(")', re.IGNORECASE), r"\1[REDACTED]\2"),
+    (
+        re.compile(r'("Connection String"\s*:\s*")[^"]+(")', re.IGNORECASE),
+        r"\1[REDACTED]\2",
+    ),
     # Standalone Base64 key patterns typical for Azure Storage keys (64-88 chars ending in =)
     (re.compile(r"\b[A-Za-z0-9+/]{60,88}={1,2}\b"), "[REDACTED_KEY]"),
-    
     # PEM Private Keys
-    (re.compile(r"-----BEGIN [A-Z ]+ PRIVATE KEY-----[\s\S]*?-----END [A-Z ]+ PRIVATE KEY-----"), "[REDACTED_PRIVATE_KEY]")
+    (
+        re.compile(
+            r"-----BEGIN [A-Z ]+ PRIVATE KEY-----[\s\S]*?-----END [A-Z ]+ PRIVATE KEY-----"
+        ),
+        "[REDACTED_PRIVATE_KEY]",
+    ),
 ]
+
 
 def is_sensitive_key(key: str) -> bool:
     normalized = key.lower().replace("_", "").replace("-", "")
     return any(sens in normalized for sens in SENSITIVE_JSON_KEYS)
+
 
 def scrub_text(text: str) -> str:
     """Applies inline regex substitutions to clean embedded secrets in terminal output."""
     for pattern, replacement in INLINE_SCRUB_PATTERNS:
         text = pattern.sub(replacement, text)
     return text
+
 
 def sanitize_node(val):
     if isinstance(val, str):
@@ -63,6 +85,7 @@ def sanitize_node(val):
         return [sanitize_node(item) for item in val]
     return val
 
+
 def process_file(file_path: Path):
     if not file_path.exists():
         print(f"Error: File {file_path} not found.")
@@ -78,6 +101,7 @@ def process_file(file_path: Path):
         json.dump(sanitized_data, f, indent=2, ensure_ascii=False)
 
     print(f"Successfully sanitized {file_path}")
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

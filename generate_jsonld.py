@@ -88,7 +88,9 @@ def extract_table_data_rows(lines: list[str]) -> list[tuple[list[str], list[str]
     while i < len(cleaned_lines):
         line = cleaned_lines[i]
         if line.startswith("|") and line.endswith("|"):
-            if (i + 1) < len(cleaned_lines) and separator_re.match(cleaned_lines[i + 1]):
+            if (i + 1) < len(cleaned_lines) and separator_re.match(
+                cleaned_lines[i + 1]
+            ):
                 header_cols = [c.strip().lower() for c in line.split("|")[1:-1]]
                 i += 2  # Skip header row and separator row
                 while i < len(cleaned_lines):
@@ -120,7 +122,9 @@ def parse_archive_monoliths():
         return credentials
 
     monolith_files = sorted(glob.glob(os.path.join(ARCHIVE_DIR, "*-complete.md")))
-    print(f"🔍 Found {len(monolith_files)} complete archive dataset(s) in '{ARCHIVE_DIR}':")
+    print(
+        f"🔍 Found {len(monolith_files)} complete archive dataset(s) in '{ARCHIVE_DIR}':"
+    )
 
     for filepath in monolith_files:
         filename = os.path.basename(filepath)
@@ -182,7 +186,9 @@ def parse_archive_monoliths():
                     if cleaned_desc and cleaned_desc.lower() != title.lower():
                         description = cleaned_desc
 
-                id_match = re.search(r"Credential ID:\s*`?([A-Za-z0-9]+)`?", col, re.IGNORECASE)
+                id_match = re.search(
+                    r"Credential ID:\s*`?([A-Za-z0-9]+)`?", col, re.IGNORECASE
+                )
                 if id_match and not cred_id:
                     cred_id = id_match.group(1)
 
@@ -268,7 +274,9 @@ def main():
     with open(JSONLD_PATH, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
 
-    print(f"\n✅ Successfully generated {JSONLD_PATH} with {len(credentials)} total credential(s).")
+    print(
+        f"\n✅ Successfully generated {JSONLD_PATH} with {len(credentials)} total credential(s)."
+    )
     cleanup_readme()
 
 
