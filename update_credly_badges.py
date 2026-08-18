@@ -124,7 +124,12 @@ CREDLY_USER_ID = os.getenv("CREDLY_USER_ID", "752aee40-7358-4ade-9a49-81e8b6f492
 VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 OUTPUT_FILENAME = "credly_badges.json"
 OUTPUT_FILE = os.getenv("OUTPUT_FILE", os.path.join(VALIDATION_DIR, OUTPUT_FILENAME))
-ARCHIVE_MONOLITH = os.path.join("archives", "credly-complete.md")
+ARCHIVE_DIR = "archives"
+README_PATH = "README.md"
+ARCHIVE_MONOLITH = os.path.join(ARCHIVE_DIR, "credly-complete.md")
+
+MARKER_START = "<!-- CREDLY_BADGES_START -->"
+MARKER_END = "<!-- CREDLY_BADGES_END -->"
 
 # Anomaly Guard Tolerance
 MAX_ALLOWED_DATA_LOSS_PCT = 0.15

@@ -1,0 +1,20 @@
+Setup Basic OpenTelemetry Plugin in gRPC Python
+check_circle_outline You have this badge!
+17. август 2024.
+Учење
+Setup Basic OpenTelemetry Plugin in gRPC Java
+check_circle_outline You have this badge!
+17. август 2024.
+Учење
+Build Event-Driven Applications with Eventarc
+check_circle_outline You have this badge!
+13. август 2024.
+Учење
+Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tester ✨
+check_circle_outline You have this badge!
+13. август 2024.
+Учење
+Fraud Detection with BigQuery Graph 🔍
+check_circle_outline You have this badge!
+13. август 2024.
+Учење

@@ -1,0 +1,15 @@
+{
+  "data": [
+    {
+      "id": "badge-003",
+      "badge_template": {
+        "name": "Docker Expert",
+        "issuer": {"summary": "Docker Inc"},
+        "image_url": "https://img.credly.com/3",
+        "skills": [{"name": "Docker"}, {"name": "Containers"}]
+      },
+      "issued_at": "2024-03-10T10:00:00Z"
+    }
+  ],
+  "metadata": {"next_page": null}
+}

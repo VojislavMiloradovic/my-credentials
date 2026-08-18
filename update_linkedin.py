@@ -120,6 +120,7 @@ logging.basicConfig(
 logger = logging.getLogger("linkedin_updater")
 
 # Configuration Constants
+VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
 PLATFORM_PREFIX = "linkedin-certifications"

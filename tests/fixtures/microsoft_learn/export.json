@@ -1,0 +1,60 @@
+{
+  "Progress": {
+    "completedLearningItems": [
+      {"name": "Unit 1", "completedOn": "2024-01-10"},
+      {"name": "Unit 2", "completedOn": "2024-01-12"}
+    ],
+    "learningPathPasses": [
+      {
+        "id": "learn.path-1",
+        "title": "Azure Fundamentals",
+        "grantedOn": "2024-01-15",
+        "url": "learn.azure-fundamentals"
+      }
+    ],
+    "moduleAssessments": [
+      {
+        "id": "mod-1",
+        "title": "Cloud Concepts",
+        "grantedOn": "2024-01-10",
+        "url": "learn.cloud-concepts"
+      }
+    ]
+  },
+  "XP": {
+    "xp": {"totalXp": 100000, "level": {"levelNumber": 5}},
+    "achievements": [
+      {
+        "id": "ACH001",
+        "title": "First Module",
+        "category": "module",
+        "grantedOn": "2024-01-15",
+        "url": "learn.module-1"
+      },
+      {
+        "id": "ACH002",
+        "title": "Learning Path Complete",
+        "category": "learningpath",
+        "grantedOn": "2024-01-20",
+        "url": "learn.path-1"
+      },
+      {
+        "id": "ACH003",
+        "title": "Trophy Unlocked",
+        "category": "trophy",
+        "grantedOn": "2024-01-25",
+        "url": "learn.trophy-1"
+      }
+    ]
+  },
+  "VerifiableCredentials": {
+    "userCredentials": [
+      {
+        "credentialId": "CRED001",
+        "sourceUid": "applied-skill.abc",
+        "awardedOn": "2024-02-01",
+        "credentialStatus": "Active"
+      }
+    ]
+  }
+}

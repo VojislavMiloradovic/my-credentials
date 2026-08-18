@@ -1,0 +1,24 @@
+{
+  "microsoft-learn": [
+    {
+      "id": "learn.retired-path",
+      "match_type": "uid",
+      "url": "https://learn.microsoft.com/en-us/training/paths/retired-path",
+      "reason": "Content retired by Microsoft Learn",
+      "retired_at": "2024-01-01"
+    }
+  ],
+  "google-skills": [
+    {
+      "id": "https://skills.google/badges/retired",
+      "match_type": "url",
+      "url": "https://skills.google/badges/retired",
+      "reason": "Badge retired by Google",
+      "retired_at": "2024-02-01"
+    }
+  ],
+  "aws-skills": [],
+  "credly": [],
+  "linkedin-certifications": [],
+  "google-developer": []
+}

@@ -125,7 +125,12 @@ AWS_PROFILE_USER = os.getenv("AWS_PROFILE_USER", "vojislavmiloradovic")
 VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 OUTPUT_FILENAME = "aws_skill_badges.json"
 OUTPUT_FILE = os.getenv("OUTPUT_FILE", os.path.join(VALIDATION_DIR, OUTPUT_FILENAME))
-ARCHIVE_MONOLITH = os.path.join("archives", "aws-skills-complete.md")
+ARCHIVE_DIR = "archives"
+README_PATH = "README.md"
+ARCHIVE_MONOLITH = os.path.join(ARCHIVE_DIR, "aws-skills-complete.md")
+
+MARKER_START = "<!-- AWS_SKILLS_START -->"
+MARKER_END = "<!-- AWS_SKILLS_END -->"
 
 # Data Loss / Anomaly Guard Tolerances
 MAX_ALLOWED_DATA_LOSS_PCT = 0.15  # Fail if new badge count drops >15% below stored baseline

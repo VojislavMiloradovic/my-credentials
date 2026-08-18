@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id": "badge-001",
+      "badge_template": {
+        "name": "Python Developer",
+        "issuer": {"summary": "Python Institute"},
+        "image_url": "https://img.credly.com/1",
+        "skills": [{"name": "Python"}, {"name": "Development"}]
+      },
+      "issued_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "badge-002",
+      "badge_template": {
+        "name": "AWS Certified",
+        "issuer": {"summary": "Amazon Web Services"},
+        "image_url": "https://img.credly.com/2",
+        "skills": [{"name": "AWS"}]
+      },
+      "issued_at": "2024-02-20T10:00:00Z"
+    }
+  ],
+  "metadata": {"next_page": 2, "next_page_url": "https://www.credly.com/users/test/badges.json?page=2"}
+}

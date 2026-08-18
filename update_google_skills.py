@@ -126,7 +126,12 @@ GOOGLE_PROFILE_ID = os.getenv("GOOGLE_PROFILE_ID") or "2011cb91-6066-4d7f-bbec-6
 VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 OUTPUT_FILENAME = "google_skills_badges.json"
 OUTPUT_FILE = os.getenv("OUTPUT_FILE", os.path.join(VALIDATION_DIR, OUTPUT_FILENAME))
-ARCHIVE_MONOLITH = os.path.join("archives", "google-skills-complete.md")
+ARCHIVE_DIR = "archives"
+README_PATH = "README.md"
+ARCHIVE_MONOLITH = os.path.join(ARCHIVE_DIR, "google-skills-complete.md")
+
+MARKER_START = "<!-- GOOGLE_SKILLS_START -->"
+MARKER_END = "<!-- GOOGLE_SKILLS_END -->"
 
 # Anomaly Guard Tolerance
 MAX_ALLOWED_DATA_LOSS_PCT = 0.15

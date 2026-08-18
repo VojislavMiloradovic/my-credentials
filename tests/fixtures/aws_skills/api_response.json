@@ -1,0 +1,22 @@
+{
+  "badges": [
+    {
+      "id": "aws-001",
+      "title": "AWS Cloud Practitioner Essentials",
+      "issued_at": "2024-01-15T10:00:00Z",
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/test/badges/aws-001",
+      "image_url": "https://img.com/1",
+      "type": "AWS Skill Builder Badge",
+      "skills": ["AWS", "Cloud Practitioner"]
+    },
+    {
+      "id": "aws-002",
+      "title": "Amazon S3 Primer",
+      "issued_at": "1708435200000",
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/test/badges/aws-002",
+      "image_url": "",
+      "type": "AWS Skill Builder Badge",
+      "skills": ["S3", "Storage"]
+    }
+  ]
+}

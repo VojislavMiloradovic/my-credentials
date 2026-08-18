@@ -150,6 +150,7 @@ logger = logging.getLogger("ms_learn_updater")
 
 # Configuration Constants
 JSON_PATH = os.getenv("JSON_PATH", os.path.join("data", "microsoft-learn.json"))
+VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
 PLATFORM_PREFIX = "microsoft-learn"

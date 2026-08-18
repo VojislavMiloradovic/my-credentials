@@ -1,0 +1,22 @@
+{
+  "badges": [
+    {
+      "id": "123",
+      "title": "Google Cloud Fundamentals",
+      "earned_at": "2024-01-15T10:00:00Z",
+      "verify_url": "https://skills.google/badges/123",
+      "image_url": "https://img.com/1",
+      "type": "Google Skill Badge",
+      "skills": ["Google Cloud"]
+    },
+    {
+      "id": "456",
+      "title": "Kubernetes Engine Basics",
+      "earned_at": "1705238400000",
+      "verify_url": "https://skills.google/badges/456",
+      "image_url": "",
+      "type": "Google Skill Badge",
+      "skills": ["Kubernetes"]
+    }
+  ]
+}

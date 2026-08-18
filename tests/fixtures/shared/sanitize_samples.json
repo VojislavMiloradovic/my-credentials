@@ -1,0 +1,13 @@
+{
+  "scriptResult": "Initial Key : ABC123DEF456GHI789JKL==\nNew Key1 : xyz789+/==\nConnection String : DefaultEndpointsProtocol=https;AccountName=test;AccountKey=supersecretkey123456789==\n\"Key\" : \"mysecretkey123456789\"\n\"Connection String\" : \"AccountKey=anothersecretkey123456789==\"\nNormal text without secrets.\n-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD...\n-----END PRIVATE KEY-----",
+  "password": "should_be_redacted",
+  "normal_field": "should_remain",
+  "nested": {
+    "secret": "nested_secret",
+    "public": "nested_public"
+  },
+  "list_field": [
+    {"access_token": "token123"},
+    {"normal": "value"}
+  ]
+}

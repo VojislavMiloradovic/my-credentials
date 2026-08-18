@@ -17,6 +17,15 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["ruff==0.16.2"]
+test = [
+    "pytest==8.3.4",
+    "pytest-cov==6.0.0",
+    "pytest-mock==3.14.0",
+    "pytest-xdist==3.6.1",
+    "responses==0.25.0",
+    "freezegun==1.5.1",
+    "mypy==1.13.0",
+]
 
 [tool.uv]
 package = false
@@ -42,3 +51,21 @@ ignore = []
 
 [tool.ruff.lint.isort]
 combine-as-imports = true
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-v --strict-markers --strict-config"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+markers = [
+    "unit: Unit tests for core modules",
+    "integration: Integration tests for provider pipelines",
+    "smoke: CLI smoke tests",
+    "slow: Tests that take longer than 5 seconds",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+]

@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "id": "ext-001",
+      "external_badge": {
+        "badge_name": "External Cert",
+        "issuer_name": "External Org",
+        "badge_url": "https://external.org/cert/001",
+        "issued_at_date": "2024-01-01",
+        "image_url": "https://img.external.com/1",
+        "skills": ["External Skill"],
+        "credly_record_id": "ext-001"
+      }
+    }
+  ]
+}

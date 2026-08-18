@@ -54,6 +54,7 @@ def safe_write_file(filepath: str, new_content: str) -> bool:
         except Exception:
             pass
 
+    os.makedirs(os.path.dirname(filepath) or ".", exist_ok=True)
     with open(filepath, "w", encoding="utf-8", newline="\n") as f:
         f.write(new_content)
     return True
