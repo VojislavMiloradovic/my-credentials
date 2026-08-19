@@ -2,7 +2,7 @@
 archive_platform: Credly Verified Credentials
 chunk_part: 11 of 11
 date_range: 2026-08-10 to 2026-08-18
-total_entries: 26
+total_entries: 28
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md
 ---
 
@@ -13,11 +13,13 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-08-18 | [Cilium Envoy L7 Proxy](https://www.credly.com/badges/a160212a-4ac9-4a6c-bf7c-e6479e62c4f1/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-18 | [Cilium for Virtual Machines with KubeVirt](https://www.credly.com/badges/69fd0a5d-0013-4b29-8053-2f4efac99a59/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cilium Multicast](https://www.credly.com/badges/d249f1c3-209a-4389-870b-a322e3802fe2/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cloud Tech Professional MDR](https://www.credly.com/badges/67aae11f-1810-4d48-b93e-89edfbf171d2/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-18 | [Cloud Tech Pro - M365 Security Posture Management](https://www.credly.com/badges/767cc161-6691-4b33-9549-e0efa0087735/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-18 | [Detection Management: From Entropy to Evidence](https://www.credly.com/badges/64e9cd6c-2792-435c-9c64-1ead3a7a2665/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-08-18 | [Getting Started with the Isovalent Load Balancer](https://www.credly.com/badges/d493b0bb-da10-4eb3-a043-5bf9d4cb2a5a/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-18 | [Isovalent Lab Champion (30 labs)](https://www.credly.com/badges/6e16ddbe-d749-4687-905b-820c0bcf2a99/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Testing Linux and Mac with OceanLotus](https://www.credly.com/badges/1d046e1f-36dd-4bcd-a755-52786f7468a7/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-08-15 | [Cilium Advanced BGP](https://www.credly.com/badges/71fae5f5-1e4a-4081-be21-645678b51333/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-15 | [Cilium Multi Networking](https://www.credly.com/badges/b1b71f3f-33ae-4d2b-a02d-42a31937b2a1/public_url) | Isovalent | Credly Verified Badge |
