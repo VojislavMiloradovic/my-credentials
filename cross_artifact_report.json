@@ -1,0 +1,812 @@
+{
+  "timestamp": "2026-08-19T17:33:26.115566+00:00",
+  "summary": {
+    "total": 71,
+    "passed": 61,
+    "failed": 9,
+    "warnings": 1
+  },
+  "platforms": {
+    "microsoft-learn": {
+      "source_records": 5327,
+      "archive_complete_records": 4807,
+      "index_total": 4807,
+      "readme_count": 35638,
+      "jsonld_count": 4826,
+      "llms_txt_count": 35638,
+      "llms_full_count": 1,
+      "retired_in_source": 0,
+      "retired_in_archive": 0,
+      "retired_in_jsonld": 2,
+      "latest_record_date_source": null,
+      "latest_record_date_archive": "2026-08-15T00:00:00",
+      "latest_record_date_jsonld": "2026-08-15T00:00:00"
+    },
+    "google-skills": {
+      "source_records": 0,
+      "archive_complete_records": 0,
+      "index_total": 0,
+      "readme_count": 345,
+      "jsonld_count": 379,
+      "llms_txt_count": 345,
+      "llms_full_count": 1,
+      "retired_in_source": 0,
+      "retired_in_archive": 0,
+      "retired_in_jsonld": 0,
+      "latest_record_date_source": null,
+      "latest_record_date_archive": null,
+      "latest_record_date_jsonld": "2026-08-09T00:00:00"
+    },
+    "aws-skills": {
+      "source_records": 0,
+      "archive_complete_records": 626,
+      "index_total": 626,
+      "readme_count": 626,
+      "jsonld_count": 704,
+      "llms_txt_count": 626,
+      "llms_full_count": 1,
+      "retired_in_source": 0,
+      "retired_in_archive": 31,
+      "retired_in_jsonld": 31,
+      "latest_record_date_source": null,
+      "latest_record_date_archive": "2026-08-15T00:00:00",
+      "latest_record_date_jsonld": "2026-08-15T00:00:00"
+    },
+    "credly": {
+      "source_records": 0,
+      "archive_complete_records": 0,
+      "index_total": 0,
+      "readme_count": 554,
+      "jsonld_count": 0,
+      "llms_txt_count": 554,
+      "llms_full_count": 1,
+      "retired_in_source": 0,
+      "retired_in_archive": 0,
+      "retired_in_jsonld": 0,
+      "latest_record_date_source": null,
+      "latest_record_date_archive": null,
+      "latest_record_date_jsonld": null
+    },
+    "linkedin-certifications": {
+      "source_records": 1479,
+      "archive_complete_records": 1479,
+      "index_total": 1479,
+      "readme_count": 1479,
+      "jsonld_count": 568,
+      "llms_txt_count": 1479,
+      "llms_full_count": 1,
+      "retired_in_source": 0,
+      "retired_in_archive": 0,
+      "retired_in_jsonld": 0,
+      "latest_record_date_source": null,
+      "latest_record_date_archive": null,
+      "latest_record_date_jsonld": null
+    },
+    "google-developer": {
+      "source_records": 10,
+      "archive_complete_records": 1631,
+      "index_total": 171,
+      "readme_count": 171,
+      "jsonld_count": 1631,
+      "llms_txt_count": 171,
+      "llms_full_count": 1,
+      "retired_in_source": 0,
+      "retired_in_archive": 0,
+      "retired_in_jsonld": 0,
+      "latest_record_date_source": "2024-08-17T00:00:00",
+      "latest_record_date_archive": "2026-08-17T00:00:00",
+      "latest_record_date_jsonld": "2026-08-17T00:00:00"
+    }
+  },
+  "results": [
+    {
+      "check": "source_snapshot_exists",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 5327,
+      "message": "Source snapshot has 5327 records (0 retired)",
+      "severity": "warning"
+    },
+    {
+      "check": "source_snapshot_exists",
+      "platform": "google-skills",
+      "passed": false,
+      "expected": "> 0",
+      "actual": 0,
+      "message": "Source snapshot has 0 records (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "source_snapshot_exists",
+      "platform": "aws-skills",
+      "passed": false,
+      "expected": "> 0",
+      "actual": 0,
+      "message": "Source snapshot has 0 records (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "source_snapshot_exists",
+      "platform": "credly",
+      "passed": false,
+      "expected": "> 0",
+      "actual": 0,
+      "message": "Source snapshot has 0 records (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "source_snapshot_exists",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 1479,
+      "message": "Source snapshot has 1479 records (0 retired)",
+      "severity": "warning"
+    },
+    {
+      "check": "source_snapshot_exists",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 10,
+      "message": "Source snapshot has 10 records (0 retired)",
+      "severity": "warning"
+    },
+    {
+      "check": "archive_complete_parsed",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 4807,
+      "message": "Complete archive has 4807 records (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "archive_complete_parsed",
+      "platform": "google-skills",
+      "passed": false,
+      "expected": "> 0",
+      "actual": 0,
+      "message": "Complete archive has 0 records (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "archive_complete_parsed",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 626,
+      "message": "Complete archive has 626 records (31 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "archive_complete_parsed",
+      "platform": "credly",
+      "passed": false,
+      "expected": "> 0",
+      "actual": 0,
+      "message": "Complete archive has 0 records (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "archive_complete_parsed",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 1479,
+      "message": "Complete archive has 1479 records (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "archive_complete_parsed",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 1631,
+      "message": "Complete archive has 1631 records (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "index_total_parsed",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 4807,
+      "message": "Index reports 4807 total records",
+      "severity": "error"
+    },
+    {
+      "check": "index_total_parsed",
+      "platform": "google-skills",
+      "passed": false,
+      "expected": "> 0",
+      "actual": 0,
+      "message": "Index reports 0 total records",
+      "severity": "error"
+    },
+    {
+      "check": "index_total_parsed",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 626,
+      "message": "Index reports 626 total records",
+      "severity": "error"
+    },
+    {
+      "check": "index_total_parsed",
+      "platform": "credly",
+      "passed": false,
+      "expected": "> 0",
+      "actual": 0,
+      "message": "Index reports 0 total records",
+      "severity": "error"
+    },
+    {
+      "check": "index_total_parsed",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 1479,
+      "message": "Index reports 1479 total records",
+      "severity": "error"
+    },
+    {
+      "check": "index_total_parsed",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 171,
+      "message": "Index reports 171 total records",
+      "severity": "error"
+    },
+    {
+      "check": "readme_count_parsed",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 35638,
+      "message": "README reports 35638 records",
+      "severity": "error"
+    },
+    {
+      "check": "readme_count_parsed",
+      "platform": "google-skills",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 345,
+      "message": "README reports 345 records",
+      "severity": "error"
+    },
+    {
+      "check": "readme_count_parsed",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 626,
+      "message": "README reports 626 records",
+      "severity": "error"
+    },
+    {
+      "check": "readme_count_parsed",
+      "platform": "credly",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 554,
+      "message": "README reports 554 records",
+      "severity": "error"
+    },
+    {
+      "check": "readme_count_parsed",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 1479,
+      "message": "README reports 1479 records",
+      "severity": "error"
+    },
+    {
+      "check": "readme_count_parsed",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 171,
+      "message": "README reports 171 records",
+      "severity": "error"
+    },
+    {
+      "check": "jsonld_count",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 4826,
+      "message": "JSON-LD has 4826 credentials (2 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "jsonld_count",
+      "platform": "google-skills",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 379,
+      "message": "JSON-LD has 379 credentials (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "jsonld_count",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 704,
+      "message": "JSON-LD has 704 credentials (31 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "jsonld_count",
+      "platform": "credly",
+      "passed": false,
+      "expected": "> 0",
+      "actual": 0,
+      "message": "JSON-LD has 0 credentials (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "jsonld_count",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 568,
+      "message": "JSON-LD has 568 credentials (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "jsonld_count",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 1631,
+      "message": "JSON-LD has 1631 credentials (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "llms_txt_count",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 35638,
+      "message": "llms.txt reports 35638 records",
+      "severity": "error"
+    },
+    {
+      "check": "llms_txt_count",
+      "platform": "google-skills",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 345,
+      "message": "llms.txt reports 345 records",
+      "severity": "error"
+    },
+    {
+      "check": "llms_txt_count",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 626,
+      "message": "llms.txt reports 626 records",
+      "severity": "error"
+    },
+    {
+      "check": "llms_txt_count",
+      "platform": "credly",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 554,
+      "message": "llms.txt reports 554 records",
+      "severity": "error"
+    },
+    {
+      "check": "llms_txt_count",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 1479,
+      "message": "llms.txt reports 1479 records",
+      "severity": "error"
+    },
+    {
+      "check": "llms_txt_count",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "> 0",
+      "actual": 171,
+      "message": "llms.txt reports 171 records",
+      "severity": "error"
+    },
+    {
+      "check": "llms_full_includes_platform",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "included",
+      "actual": "included",
+      "message": "llms-full.txt includes microsoft-learn-complete.md",
+      "severity": "error"
+    },
+    {
+      "check": "llms_full_includes_platform",
+      "platform": "google-skills",
+      "passed": true,
+      "expected": "included",
+      "actual": "included",
+      "message": "llms-full.txt includes google-skills-complete.md",
+      "severity": "error"
+    },
+    {
+      "check": "llms_full_includes_platform",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": "included",
+      "actual": "included",
+      "message": "llms-full.txt includes aws-skills-complete.md",
+      "severity": "error"
+    },
+    {
+      "check": "llms_full_includes_platform",
+      "platform": "credly",
+      "passed": true,
+      "expected": "included",
+      "actual": "included",
+      "message": "llms-full.txt includes credly-complete.md",
+      "severity": "error"
+    },
+    {
+      "check": "llms_full_includes_platform",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": "included",
+      "actual": "included",
+      "message": "llms-full.txt includes linkedin-certifications-complete.md",
+      "severity": "error"
+    },
+    {
+      "check": "llms_full_includes_platform",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "included",
+      "actual": "included",
+      "message": "llms-full.txt includes google-developer-complete.md",
+      "severity": "error"
+    },
+    {
+      "check": "count_consistency_archive_complete_vs_index",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": 4807,
+      "actual": 4807,
+      "message": "Archive complete vs Index total: archive_complete=4807 vs index=4807 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "count_consistency_archive_complete_vs_jsonld",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "4826 (±5%)",
+      "actual": 4807,
+      "message": "Archive complete vs JSON-LD: archive_complete=4807 vs jsonld=4826 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "count_consistency_readme_vs_llms_txt",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": 35638,
+      "actual": 35638,
+      "message": "README vs llms.txt: readme=35638 vs llms_txt=35638 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "llms_full_includes_platform",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "included",
+      "actual": "included",
+      "message": "llms-full.txt includes microsoft-learn-complete.md",
+      "severity": "error"
+    },
+    {
+      "check": "retired_consistency_archive_vs_jsonld",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": null,
+      "actual": null,
+      "message": "Retired count: Only one source has data (archive=0, jsonld=2)",
+      "severity": "warning"
+    },
+    {
+      "check": "count_consistency_readme_vs_llms_txt",
+      "platform": "google-skills",
+      "passed": true,
+      "expected": 345,
+      "actual": 345,
+      "message": "README vs llms.txt: readme=345 vs llms_txt=345 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "llms_full_includes_platform",
+      "platform": "google-skills",
+      "passed": true,
+      "expected": "included",
+      "actual": "included",
+      "message": "llms-full.txt includes google-skills-complete.md",
+      "severity": "error"
+    },
+    {
+      "check": "count_consistency_archive_complete_vs_index",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": 626,
+      "actual": 626,
+      "message": "Archive complete vs Index total: archive_complete=626 vs index=626 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "count_consistency_archive_complete_vs_jsonld",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": "704 (±15%)",
+      "actual": 626,
+      "message": "Archive complete vs JSON-LD: archive_complete=626 vs jsonld=704 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "count_consistency_readme_vs_llms_txt",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": 626,
+      "actual": 626,
+      "message": "README vs llms.txt: readme=626 vs llms_txt=626 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "llms_full_includes_platform",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": "included",
+      "actual": "included",
+      "message": "llms-full.txt includes aws-skills-complete.md",
+      "severity": "error"
+    },
+    {
+      "check": "retired_consistency_archive_vs_jsonld",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": 31,
+      "actual": 31,
+      "message": "Retired count: archive=31 vs jsonld=31 ✓",
+      "severity": "warning"
+    },
+    {
+      "check": "count_consistency_readme_vs_llms_txt",
+      "platform": "credly",
+      "passed": true,
+      "expected": 554,
+      "actual": 554,
+      "message": "README vs llms.txt: readme=554 vs llms_txt=554 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "llms_full_includes_platform",
+      "platform": "credly",
+      "passed": true,
+      "expected": "included",
+      "actual": "included",
+      "message": "llms-full.txt includes credly-complete.md",
+      "severity": "error"
+    },
+    {
+      "check": "count_consistency_archive_complete_vs_index",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": 1479,
+      "actual": 1479,
+      "message": "Archive complete vs Index total: archive_complete=1479 vs index=1479 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "count_consistency_archive_complete_vs_jsonld",
+      "platform": "linkedin-certifications",
+      "passed": false,
+      "expected": 568,
+      "actual": 1479,
+      "message": "Archive complete vs JSON-LD (EXPECTED TO MATCH): archive_complete=1479 vs jsonld=568 ✗ MISMATCH",
+      "severity": "error"
+    },
+    {
+      "check": "count_consistency_readme_vs_llms_txt",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": 1479,
+      "actual": 1479,
+      "message": "README vs llms.txt: readme=1479 vs llms_txt=1479 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "llms_full_includes_platform",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": "included",
+      "actual": "included",
+      "message": "llms-full.txt includes linkedin-certifications-complete.md",
+      "severity": "error"
+    },
+    {
+      "check": "count_consistency_archive_complete_vs_jsonld",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "1631 (±5%)",
+      "actual": 1631,
+      "message": "Archive complete vs JSON-LD: archive_complete=1631 vs jsonld=1631 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "count_consistency_readme_vs_llms_txt",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": 171,
+      "actual": 171,
+      "message": "README vs llms.txt: readme=171 vs llms_txt=171 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "llms_full_includes_platform",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "included",
+      "actual": "included",
+      "message": "llms-full.txt includes google-developer-complete.md",
+      "severity": "error"
+    },
+    {
+      "check": "platform_coverage_archive_complete",
+      "platform": null,
+      "passed": true,
+      "expected": [
+        "aws-skills",
+        "credly",
+        "google-developer",
+        "google-skills",
+        "linkedin-certifications",
+        "microsoft-learn"
+      ],
+      "actual": [
+        "aws-skills",
+        "credly",
+        "google-developer",
+        "google-skills",
+        "linkedin-certifications",
+        "microsoft-learn"
+      ],
+      "message": "archive_complete covers 6/6 platforms",
+      "severity": "error"
+    },
+    {
+      "check": "platform_coverage_index",
+      "platform": null,
+      "passed": true,
+      "expected": [
+        "aws-skills",
+        "credly",
+        "google-developer",
+        "google-skills",
+        "linkedin-certifications",
+        "microsoft-learn"
+      ],
+      "actual": [
+        "aws-skills",
+        "credly",
+        "google-developer",
+        "google-skills",
+        "linkedin-certifications",
+        "microsoft-learn"
+      ],
+      "message": "index covers 6/6 platforms",
+      "severity": "error"
+    },
+    {
+      "check": "platform_coverage_jsonld",
+      "platform": null,
+      "passed": true,
+      "expected": [
+        "aws-skills",
+        "credly",
+        "google-developer",
+        "google-skills",
+        "linkedin-certifications",
+        "microsoft-learn"
+      ],
+      "actual": [
+        "aws-skills",
+        "credly",
+        "google-developer",
+        "google-skills",
+        "linkedin-certifications",
+        "microsoft-learn"
+      ],
+      "message": "jsonld covers 6/6 platforms",
+      "severity": "error"
+    },
+    {
+      "check": "platform_coverage_llms_txt",
+      "platform": null,
+      "passed": true,
+      "expected": [
+        "aws-skills",
+        "credly",
+        "google-developer",
+        "google-skills",
+        "linkedin-certifications",
+        "microsoft-learn"
+      ],
+      "actual": [
+        "aws-skills",
+        "credly",
+        "google-developer",
+        "google-skills",
+        "linkedin-certifications",
+        "microsoft-learn"
+      ],
+      "message": "llms_txt covers 6/6 platforms",
+      "severity": "error"
+    },
+    {
+      "check": "platform_coverage_llms_full",
+      "platform": null,
+      "passed": true,
+      "expected": [
+        "aws-skills",
+        "credly",
+        "google-developer",
+        "google-skills",
+        "linkedin-certifications",
+        "microsoft-learn"
+      ],
+      "actual": [
+        "aws-skills",
+        "credly",
+        "google-developer",
+        "google-skills",
+        "linkedin-certifications",
+        "microsoft-learn"
+      ],
+      "message": "llms_full covers 6/6 platforms",
+      "severity": "error"
+    },
+    {
+      "check": "latest_record_date_consistency",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "within 30 days",
+      "actual": "0 days",
+      "message": "Latest record dates span 0 days across artifacts (2026-08-15 to 2026-08-15)",
+      "severity": "warning"
+    },
+    {
+      "check": "latest_record_date_consistency",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": "within 30 days",
+      "actual": "0 days",
+      "message": "Latest record dates span 0 days across artifacts (2026-08-15 to 2026-08-15)",
+      "severity": "warning"
+    },
+    {
+      "check": "latest_record_date_consistency",
+      "platform": "google-developer",
+      "passed": false,
+      "expected": "within 30 days",
+      "actual": "730 days",
+      "message": "Latest record dates span 730 days across artifacts (2024-08-17 to 2026-08-17)",
+      "severity": "warning"
+    }
+  ]
+}
