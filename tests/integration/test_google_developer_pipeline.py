@@ -154,13 +154,16 @@ class TestGoogleDeveloperLossGuard:
 
     def test_execute_data_loss_guard(self, temp_dir):
         monolith = temp_dir / "google-developer-complete.md"
-        monolith.write_text("""# Header
+        monolith.write_text(
+            """# Header
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
 | 2024-01-15 | Badge 1 | Description 1 |
 | 2024-01-10 | Badge 2 | Description 2 |
-""", encoding="utf-8")
+""",
+            encoding="utf-8",
+        )
 
         badges = [
             {"title": "Badge 1", "date": "2024-01-15", "description": "Description 1"},
@@ -187,7 +190,9 @@ class TestGoogleDeveloperPipelineIntegration:
         learnings_file.write_text(sample_google_developer_learnings, encoding="utf-8")
 
         readme = temp_dir / "README.md"
-        readme.write_text(f"Before\n{MARKER_START}\nOld\n{MARKER_END}\nAfter", encoding="utf-8")
+        readme.write_text(
+            f"Before\n{MARKER_START}\nOld\n{MARKER_END}\nAfter", encoding="utf-8"
+        )
 
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
@@ -239,7 +244,9 @@ check_circle_outline You have this badge!
         learnings_file.write_text(learnings_content, encoding="utf-8")
 
         readme = temp_dir / "README.md"
-        readme.write_text(f"Before\n{MARKER_START}\nOld\n{MARKER_END}\nAfter", encoding="utf-8")
+        readme.write_text(
+            f"Before\n{MARKER_START}\nOld\n{MARKER_END}\nAfter", encoding="utf-8"
+        )
 
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()

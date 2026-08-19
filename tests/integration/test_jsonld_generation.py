@@ -132,14 +132,17 @@ This document represents a unified list of 2 records.
         archives_dir.mkdir()
 
         monolith = archives_dir / "test-platform-complete.md"
-        monolith.write_text("""# Complete Test Platform Archive
+        monolith.write_text(
+            """# Complete Test Platform Archive
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2024-01-15 | Badge 1 ⚠️ *Content retired* | Test Issuer | Badge |
-""", encoding="utf-8")
+""",
+            encoding="utf-8",
+        )
 
         with patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)):
             credentials = parse_archive_monoliths()

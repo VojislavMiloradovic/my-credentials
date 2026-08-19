@@ -166,7 +166,10 @@ class TestCredlyLocalFallback:
         with (
             patch("update_credly_badges.VALIDATION_DIR", str(validation_dir)),
             patch("update_credly_badges.OUTPUT_FILENAME", "credly_badges.json"),
-            patch("update_credly_badges.OUTPUT_FILE", str(validation_dir / "credly_badges.json")),
+            patch(
+                "update_credly_badges.OUTPUT_FILE",
+                str(validation_dir / "credly_badges.json"),
+            ),
         ):
             badges = load_existing_local_badges()
             assert len(badges) == 4

@@ -190,7 +190,7 @@ class TestScriptHelp:
             content = filepath.read_text(encoding="utf-8")
             assert 'if __name__ == "__main__":' in content
             # Check for a function call after main guard (various patterns)
-            main_section = content[content.index('if __name__ == "__main__":'):]
+            main_section = content[content.index('if __name__ == "__main__":') :]
             has_call = (
                 f"{script_name}.main()" in main_section
                 or f"{script_name}()" in main_section

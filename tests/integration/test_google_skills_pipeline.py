@@ -261,10 +261,31 @@ class TestGoogleSkillsPipelineIntegration:
                 str(archives_dir / "google-skills-complete.md"),
             ),
             patch("update_google_skills.README_PATH", str(readme)),
-            patch("update_google_skills.fetch_google_skills_badges", return_value=[
-                {"id": "123", "title": "Google Cloud Fundamentals", "name": "Google Cloud Fundamentals", "issued_at": "2024-01-15", "verify_url": "https://skills.google/badges/123", "image_url": "https://img.com/1", "type": "Google Skill Badge", "skills": ["Google Cloud"]},
-                {"id": "456", "title": "Kubernetes Engine Basics", "name": "Kubernetes Engine Basics", "issued_at": "1705238400000", "verify_url": "https://skills.google/badges/456", "image_url": "", "type": "Google Skill Badge", "skills": ["Kubernetes"]},
-            ]),
+            patch(
+                "update_google_skills.fetch_google_skills_badges",
+                return_value=[
+                    {
+                        "id": "123",
+                        "title": "Google Cloud Fundamentals",
+                        "name": "Google Cloud Fundamentals",
+                        "issued_at": "2024-01-15",
+                        "verify_url": "https://skills.google/badges/123",
+                        "image_url": "https://img.com/1",
+                        "type": "Google Skill Badge",
+                        "skills": ["Google Cloud"],
+                    },
+                    {
+                        "id": "456",
+                        "title": "Kubernetes Engine Basics",
+                        "name": "Kubernetes Engine Basics",
+                        "issued_at": "1705238400000",
+                        "verify_url": "https://skills.google/badges/456",
+                        "image_url": "",
+                        "type": "Google Skill Badge",
+                        "skills": ["Kubernetes"],
+                    },
+                ],
+            ),
         ):
             main()
 
@@ -303,10 +324,31 @@ class TestGoogleSkillsPipelineIntegration:
                 str(archives_dir / "google-skills-complete.md"),
             ),
             patch("update_google_skills.README_PATH", str(readme)),
-            patch("update_google_skills.fetch_google_skills_badges", return_value=[
-                {"id": "123", "title": "Google Cloud Fundamentals", "name": "Google Cloud Fundamentals", "issued_at": "2024-01-15", "verify_url": "https://skills.google/badges/123", "image_url": "https://img.com/1", "type": "Google Skill Badge", "skills": ["Google Cloud"]},
-                {"id": "456", "title": "Kubernetes Engine Basics", "name": "Kubernetes Engine Basics", "issued_at": "1705238400000", "verify_url": "https://skills.google/badges/456", "image_url": "", "type": "Google Skill Badge", "skills": ["Kubernetes"]},
-            ]),
+            patch(
+                "update_google_skills.fetch_google_skills_badges",
+                return_value=[
+                    {
+                        "id": "123",
+                        "title": "Google Cloud Fundamentals",
+                        "name": "Google Cloud Fundamentals",
+                        "issued_at": "2024-01-15",
+                        "verify_url": "https://skills.google/badges/123",
+                        "image_url": "https://img.com/1",
+                        "type": "Google Skill Badge",
+                        "skills": ["Google Cloud"],
+                    },
+                    {
+                        "id": "456",
+                        "title": "Kubernetes Engine Basics",
+                        "name": "Kubernetes Engine Basics",
+                        "issued_at": "1705238400000",
+                        "verify_url": "https://skills.google/badges/456",
+                        "image_url": "",
+                        "type": "Google Skill Badge",
+                        "skills": ["Kubernetes"],
+                    },
+                ],
+            ),
         ):
             # Network will fail (no responses registered), should fall back to local
             main()

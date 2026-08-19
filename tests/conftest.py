@@ -540,7 +540,9 @@ def mock_loss_guard(monkeypatch):
     monkeypatch.setattr("update_aws_skills.execute_content_loss_guard", mock_execute)
     monkeypatch.setattr("update_credly_badges.execute_content_loss_guard", mock_execute)
     monkeypatch.setattr("update_linkedin.execute_content_loss_guard", mock_execute)
-    monkeypatch.setattr("update_google_developer.execute_content_loss_guard", mock_execute)
+    monkeypatch.setattr(
+        "update_google_developer.execute_content_loss_guard", mock_execute
+    )
     monkeypatch.setattr("update_ms_learn.PipelineDataLossAnomaly", mock_anomaly)
     monkeypatch.setattr("update_google_skills.PipelineDataLossAnomaly", mock_anomaly)
     monkeypatch.setattr("update_aws_skills.PipelineDataLossAnomaly", mock_anomaly)

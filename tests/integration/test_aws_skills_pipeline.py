@@ -20,7 +20,7 @@ from update_aws_skills import (
     execute_data_loss_guard,
     fetch_aws_skills_badges,
     generate_badge_id,
-    locate_aws_csv_file,  # noqa: F401 - used in test_locate_aws_csv_file via monkeypatch
+    locate_aws_csv_file,
     main,
     normalize_date_string,
     parse_aws_badges_from_csv,
@@ -91,15 +91,16 @@ class TestAwsSkillsParsers:
         csv_file = temp_dir / "aws-training-activity.csv"
         csv_file.write_text(sample_aws_csv)
 
-        import tests.integration.test_aws_skills_pipeline as test_module
-        
         def mock_locate(*args, **kwargs):
             return str(csv_file)
-        
-        monkeypatch.setattr(test_module, "locate_aws_csv_file", mock_locate)
+
+        monkeypatch.setattr(
+            "tests.integration.test_aws_skills_pipeline.locate_aws_csv_file",
+            mock_locate,
+        )
         monkeypatch.setattr("update_aws_skills.locate_aws_csv_file", mock_locate)
-        
-        found = test_module.locate_aws_csv_file()
+
+        found = locate_aws_csv_file()
         assert found == str(csv_file)
 
     def test_parse_aws_badges_from_csv(self, temp_dir, sample_aws_csv):
@@ -138,10 +139,25 @@ class TestAwsSkillsFetch:
 
         with (
             patch("update_aws_skills.locate_aws_csv_file", return_value=None),
-            patch("update_aws_skills.parse_aws_badges_from_json", return_value=[
-                {"id": "aws-001", "title": "Badge 1", "name": "Badge 1", "issuer": "AWS", "issuer_name": "AWS"},
-                {"id": "aws-002", "title": "Badge 2", "name": "Badge 2", "issuer": "AWS", "issuer_name": "AWS"},
-            ]),
+            patch(
+                "update_aws_skills.parse_aws_badges_from_json",
+                return_value=[
+                    {
+                        "id": "aws-001",
+                        "title": "Badge 1",
+                        "name": "Badge 1",
+                        "issuer": "AWS",
+                        "issuer_name": "AWS",
+                    },
+                    {
+                        "id": "aws-002",
+                        "title": "Badge 2",
+                        "name": "Badge 2",
+                        "issuer": "AWS",
+                        "issuer_name": "AWS",
+                    },
+                ],
+            ),
         ):
             badges = fetch_aws_skills_badges(AWS_PROFILE_USER)
             assert len(badges) == 2
