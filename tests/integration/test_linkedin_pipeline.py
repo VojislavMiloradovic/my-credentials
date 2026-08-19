@@ -16,7 +16,7 @@ from update_linkedin import (
     MARKER_START,
     LinkedInCertModel,
     execute_data_loss_guard,
-    locate_certifications_csv,
+    locate_certifications_csv,  # noqa: F401 - used in test_locate_certifications_csv via monkeypatch
     main,
     parse_certifications_csv,
     parse_linkedin_date,
@@ -68,7 +68,6 @@ class TestLinkedInParsers:
         csv_file.write_text(sample_linkedin_csv_tab)
 
         import tests.integration.test_linkedin_pipeline as test_module
-        from update_linkedin import locate_certifications_csv as original_func
         
         def mock_locate(*args, **kwargs):
             return str(csv_file)

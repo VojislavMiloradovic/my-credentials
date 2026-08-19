@@ -36,6 +36,10 @@ class TestGoogleDeveloperHelpers:
             ("13. august 2024.", "2024-08-13"),
             ("1. januar 2024.", "2024-01-01"),
             ("15. feb 2024.", "2024-02-15"),
+            ("17. август 2024.", "2024-08-17"),
+            ("13. август 2024.", "2024-08-13"),
+            ("1. јануар 2024.", "2024-01-01"),
+            ("15. феб 2024.", "2024-02-15"),
             ("2024-01-15", "2024-01-15"),
             ("", "N/A"),
             (None, "N/A"),
@@ -62,6 +66,13 @@ class TestGoogleDeveloperModels:
         )
         assert badge.date == "2024-08-17"
 
+        badge2 = GoogleDeveloperBadgeModel(
+            title="Test2",
+            description="Test2",
+            date="17. august 2024.",
+        )
+        assert badge2.date == "2024-08-17"
+
 
 class TestGoogleDeveloperParsers:
     """Tests for Google Developer parsing functions."""
@@ -70,11 +81,11 @@ class TestGoogleDeveloperParsers:
         self, temp_dir, sample_google_developer_learnings
     ):
         learnings_file = temp_dir / "google_learnings.txt"
-        learnings_file.write_text(sample_google_developer_learnings)
+        learnings_file.write_text(sample_google_developer_learnings, encoding="utf-8")
 
         with patch("update_google_developer.LEARNINGS_TXT_PATH", str(learnings_file)):
             learnings = parse_local_learnings_txt()
-            assert len(learnings) == 3
+            assert len(learnings) == 5
             assert (
                 learnings[0]["title"]
                 == "Setup Basic OpenTelemetry Plugin in gRPC Python"
@@ -149,7 +160,7 @@ class TestGoogleDeveloperLossGuard:
 | :---: | :--- | :--- |
 | 2024-01-15 | Badge 1 | Description 1 |
 | 2024-01-10 | Badge 2 | Description 2 |
-""")
+""", encoding="utf-8")
 
         badges = [
             {"title": "Badge 1", "date": "2024-01-15", "description": "Description 1"},
@@ -173,10 +184,10 @@ class TestGoogleDeveloperPipelineIntegration:
         mock_retired_rules,
     ):
         learnings_file = temp_dir / "google_learnings.txt"
-        learnings_file.write_text(sample_google_developer_learnings)
+        learnings_file.write_text(sample_google_developer_learnings, encoding="utf-8")
 
         readme = temp_dir / "README.md"
-        readme.write_text(f"Before\n{MARKER_START}\nOld\n{MARKER_END}\nAfter")
+        readme.write_text(f"Before\n{MARKER_START}\nOld\n{MARKER_END}\nAfter", encoding="utf-8")
 
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
@@ -225,10 +236,10 @@ class TestGoogleDeveloperPipelineIntegration:
 check_circle_outline You have this badge!
 """
         learnings_file = temp_dir / "google_learnings.txt"
-        learnings_file.write_text(learnings_content)
+        learnings_file.write_text(learnings_content, encoding="utf-8")
 
         readme = temp_dir / "README.md"
-        readme.write_text(f"Before\n{MARKER_START}\nOld\n{MARKER_END}\nAfter")
+        readme.write_text(f"Before\n{MARKER_START}\nOld\n{MARKER_END}\nAfter", encoding="utf-8")
 
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()

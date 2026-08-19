@@ -377,10 +377,9 @@ def sample_linkedin_csv_comma():
 @pytest.fixture
 def sample_google_developer_rpc():
     """Google Developer RPC batchexecute response fixture."""
-    return """
-    0["gQeJTc",[[["110772055890077594470",[["/awards/pathways/cloud-architecture",1705312800000],["/awards/pathways/data-engineering",1705399200000]]]]]]
-    1["RwSpuf",[[["110772055890077594470",[["/awards/badges/cloud-architect",1705485600000],["/awards/badges/data-engineer",1705572000000]]]]]]
-    """
+    return """0["gQeJTc",["[[[\\"110772055890077594470\\",[[\\"/awards/pathways/cloud-architecture\\",1705312800000],[\\"/awards/pathways/data-engineering\\",1705399200000]]]]]","[[[\\"110772055890077594470\\",[[\\"/awards/badges/cloud-architect\\",1705485600000],[\\"/awards/badges/data-engineer\\",1705572000000]]]]]"]]
+1["RwSpuf",["[[[\\"110772055890077594470\\",[[\\"/awards/pathways/cloud-architecture\\",1705312800000],[\\"/awards/pathways/data-engineering\\",1705399200000]]]]]","[[[\\"110772055890077594470\\",[[\\"/awards/badges/cloud-architect\\",1705485600000],[\\"/awards/badges/data-engineer\\",1705572000000]]]]]"]]
+"""
 
 
 @pytest.fixture
@@ -400,11 +399,11 @@ check_circle_outline You have this badge!
 Учење
 Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tester ✨
 check_circle_outline You have this badge!
-13. august 2024.
+13. август 2024.
 Учење
 Fraud Detection with BigQuery Graph 🔍
 check_circle_outline You have this badge!
-13. august 2024.
+13. август 2024.
 Учење
 """
 

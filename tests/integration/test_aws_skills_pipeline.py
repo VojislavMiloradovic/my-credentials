@@ -20,7 +20,7 @@ from update_aws_skills import (
     execute_data_loss_guard,
     fetch_aws_skills_badges,
     generate_badge_id,
-    locate_aws_csv_file,
+    locate_aws_csv_file,  # noqa: F401 - used in test_locate_aws_csv_file via monkeypatch
     main,
     normalize_date_string,
     parse_aws_badges_from_csv,
@@ -92,7 +92,6 @@ class TestAwsSkillsParsers:
         csv_file.write_text(sample_aws_csv)
 
         import tests.integration.test_aws_skills_pipeline as test_module
-        from update_aws_skills import locate_aws_csv_file as original_func
         
         def mock_locate(*args, **kwargs):
             return str(csv_file)

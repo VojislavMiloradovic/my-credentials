@@ -31,90 +31,95 @@ def normalize_url(raw_url: str | None) -> str:
     return clean
 
 
-retired_urls: set[str] = set()
+def main():
+    retired_urls: set[str] = set()
 
-# 1. Directly load URLs from retired_urls.json registry
-if os.path.exists(RETIRED_URLS_FILE):
-    try:
-        with open(RETIRED_URLS_FILE, "r", encoding="utf-8") as fp:
-            data = json.load(fp)
-        for platform_rules in data.values():
-            if isinstance(platform_rules, list):
-                for rule in platform_rules:
-                    if isinstance(rule, dict):
-                        u = rule.get("url") or (
-                            rule.get("id")
-                            if str(rule.get("id", "")).startswith("http")
-                            else None
-                        )
-                    elif isinstance(rule, str) and rule.startswith("http"):
-                        u = rule
-                    else:
-                        u = None
-                    if u:
-                        norm = normalize_url(u)
-                        if norm:
-                            retired_urls.add(norm)
-    except Exception as e:
-        print(f"Warning: Could not parse {RETIRED_URLS_FILE}: {e}", file=sys.stderr)
+    # 1. Directly load URLs from retired_urls.json registry
+    if os.path.exists(RETIRED_URLS_FILE):
+        try:
+            with open(RETIRED_URLS_FILE, "r", encoding="utf-8") as fp:
+                data = json.load(fp)
+            for platform_rules in data.values():
+                if isinstance(platform_rules, list):
+                    for rule in platform_rules:
+                        if isinstance(rule, dict):
+                            u = rule.get("url") or (
+                                rule.get("id")
+                                if str(rule.get("id", "")).startswith("http")
+                                else None
+                            )
+                        elif isinstance(rule, str) and rule.startswith("http"):
+                            u = rule
+                        else:
+                            u = None
+                        if u:
+                            norm = normalize_url(u)
+                            if norm:
+                                retired_urls.add(norm)
+        except Exception as e:
+            print(f"Warning: Could not parse {RETIRED_URLS_FILE}: {e}", file=sys.stderr)
 
-# 2. Extract retired URLs from validated JSON exports
-for f in glob.glob("for_validation/*.json"):
-    try:
-        with open(f, "r", encoding="utf-8") as fp:
-            data = json.load(fp)
+    # 2. Extract retired URLs from validated JSON exports
+    for f in glob.glob("for_validation/*.json"):
+        try:
+            with open(f, "r", encoding="utf-8") as fp:
+                data = json.load(fp)
 
-        if isinstance(data, dict):
-            if "fingerprints" in data:
-                continue
-            items = []
-            for key in (
-                "badges",
-                "achievements",
-                "learning_paths",
-                "certifications",
-                "combined_feed",
-                "public_badges",
-                "detailed_learnings",
-                "verifiable_credentials",
-                "user_creds",
-                "userCredentials",
-            ):
-                if key in data and isinstance(data[key], list):
-                    items.extend(data[key])
-            if not items:
-                continue
-        elif isinstance(data, list):
-            items = data
-        else:
-            continue
-
-        for item in items:
-            if isinstance(item, dict) and item.get("retired"):
-                url = None
-                for field in (
-                    "url",
-                    "learningPathUid",
-                    "learning_path_uid",
-                    "learningPathId",
-                    "sourceUid",
+            if isinstance(data, dict):
+                if "fingerprints" in data:
+                    continue
+                items = []
+                for key in (
+                    "badges",
+                    "achievements",
+                    "learning_paths",
+                    "certifications",
+                    "combined_feed",
+                    "public_badges",
+                    "detailed_learnings",
+                    "verifiable_credentials",
+                    "user_creds",
+                    "userCredentials",
                 ):
-                    raw = item.get(field)
-                    if raw:
-                        url = normalize_url(raw)
-                        if url:
-                            break
-                if url:
-                    retired_urls.add(url)
-    except Exception as e:
-        print(f"Warning: Could not parse {f}: {e}", file=sys.stderr)
+                    if key in data and isinstance(data[key], list):
+                        items.extend(data[key])
+                if not items:
+                    continue
+            elif isinstance(data, list):
+                items = data
+            else:
+                continue
 
-if retired_urls:
-    with open(".lycheeignore", "w", encoding="utf-8") as f:
-        f.write("# Retired credentials - auto-generated by build_exclude.py\n")
-        f.write("# These URLs return 404 and should be excluded from link checking\n\n")
-        for url in sorted(retired_urls):
-            f.write(f"{url}\n")
-    print("lycheeignore_written=true")
-else:
-    print("lycheeignore_written=false")
+            for item in items:
+                if isinstance(item, dict) and item.get("retired"):
+                    url = None
+                    for field in (
+                        "url",
+                        "learningPathUid",
+                        "learning_path_uid",
+                        "learningPathId",
+                        "sourceUid",
+                    ):
+                        raw = item.get(field)
+                        if raw:
+                            url = normalize_url(raw)
+                            if url:
+                                break
+                    if url:
+                        retired_urls.add(url)
+        except Exception as e:
+            print(f"Warning: Could not parse {f}: {e}", file=sys.stderr)
+
+    if retired_urls:
+        with open(".lycheeignore", "w", encoding="utf-8") as f:
+            f.write("# Retired credentials - auto-generated by build_exclude.py\n")
+            f.write("# These URLs return 404 and should be excluded from link checking\n\n")
+            for url in sorted(retired_urls):
+                f.write(f"{url}\n")
+        print("lycheeignore_written=true")
+    else:
+        print("lycheeignore_written=false")
+
+
+if __name__ == "__main__":
+    main()
