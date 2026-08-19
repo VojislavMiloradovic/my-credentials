@@ -121,15 +121,16 @@ Showing latest 10 of 626 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 554
+**Total Portfolio Credentials:** 555
 **Total Verified Skills Mapped:** 1938
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 554 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 555 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-19 | [Cilium Traffic Optimization](https://www.credly.com/badges/c177982d-6244-42c9-b251-1e4216667772/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cilium Envoy L7 Proxy](https://www.credly.com/badges/a160212a-4ac9-4a6c-bf7c-e6479e62c4f1/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cilium for Virtual Machines with KubeVirt](https://www.credly.com/badges/69fd0a5d-0013-4b29-8053-2f4efac99a59/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cilium Multicast](https://www.credly.com/badges/d249f1c3-209a-4389-870b-a322e3802fe2/public_url) | Isovalent | Credly Verified Badge |
@@ -139,7 +140,6 @@ Showing latest 10 of 554 credentials. View full dataset via [Platform Archive In
 | 2026-08-18 | [Getting Started with the Isovalent Load Balancer](https://www.credly.com/badges/d493b0bb-da10-4eb3-a043-5bf9d4cb2a5a/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Isovalent Lab Champion (30 labs)](https://www.credly.com/badges/6e16ddbe-d749-4687-905b-820c0bcf2a99/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Testing Linux and Mac with OceanLotus](https://www.credly.com/badges/1d046e1f-36dd-4bcd-a755-52786f7468a7/public_url) | AttackIQ | Credly Verified Badge |
-| 2026-08-15 | [Cilium Advanced BGP](https://www.credly.com/badges/71fae5f5-1e4a-4081-be21-645678b51333/public_url) | Isovalent | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
