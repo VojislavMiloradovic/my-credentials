@@ -1,6 +1,6 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 552,
+  "total_count": 554,
   "badges": [
     {
       "id": "a160212a-4ac9-4a6c-bf7c-e6479e62c4f1",
@@ -26,6 +26,30 @@
         "Network Policies",
         "Open Source",
         "Service Mesh"
+      ],
+      "retired": false
+    },
+    {
+      "id": "69fd0a5d-0013-4b29-8053-2f4efac99a59",
+      "title": "Cilium for Virtual Machines with KubeVirt",
+      "name": "Cilium for Virtual Machines with KubeVirt",
+      "issuer": "Isovalent",
+      "issuer_name": "Isovalent",
+      "issued_at": "2026-08-18",
+      "issued_at_date": "2026-08-18",
+      "date": "2026-08-18",
+      "image_url": "https://images.credly.com/images/76943445-11cb-4721-9ce1-76105179fad0/tempfile20250605-81-wqikcw.png",
+      "verify_url": "https://www.credly.com/badges/69fd0a5d-0013-4b29-8053-2f4efac99a59/public_url",
+      "url": "https://www.credly.com/badges/69fd0a5d-0013-4b29-8053-2f4efac99a59/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "Kubernetes",
+        "KubeVirt",
+        "Networking",
+        "Open Source",
+        "Virtual Machines"
       ],
       "retired": false
     },
@@ -141,6 +165,28 @@
         "Kubernetes",
         "Load Balancer",
         "Networking"
+      ],
+      "retired": false
+    },
+    {
+      "id": "6e16ddbe-d749-4687-905b-820c0bcf2a99",
+      "title": "Isovalent Lab Champion (30 labs)",
+      "name": "Isovalent Lab Champion (30 labs)",
+      "issuer": "Isovalent",
+      "issuer_name": "Isovalent",
+      "issued_at": "2026-08-18",
+      "issued_at_date": "2026-08-18",
+      "date": "2026-08-18",
+      "image_url": "https://images.credly.com/images/3a0b891d-1db8-4c2b-ae4b-be63ab23dc8c/image.png",
+      "verify_url": "https://www.credly.com/badges/6e16ddbe-d749-4687-905b-820c0bcf2a99/public_url",
+      "url": "https://www.credly.com/badges/6e16ddbe-d749-4687-905b-820c0bcf2a99/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "eBPF",
+        "Hubble",
+        "Tetragon"
       ],
       "retired": false
     },
