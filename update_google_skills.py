@@ -716,14 +716,36 @@ def main():
 
     raw_badges = fetch_google_skills_badges(GOOGLE_PROFILE_ID)
 
-    unique_badges = []
-    seen = set()
+    # Treat empty results (0 badges) as failure and fall back to local data.
+    # An API returning 0 badges when baseline has data indicates an issue, not success.
+    local_badges = []
+    json_candidates = [
+        OUTPUT_FILE,
+        os.path.join(VALIDATION_DIR, OUTPUT_FILENAME),
+        OUTPUT_FILENAME,
+        os.path.join("data", OUTPUT_FILENAME),
+    ]
+    for cand in json_candidates:
+        if os.path.exists(cand):
+            local_badges = parse_google_badges_from_json(cand)
+            if local_badges:
+                break
 
-    for badge in raw_badges:
-        dedup_key = badge.get("id") or f"{badge.get('title')}-{badge.get('issued_at')}"
-        if dedup_key not in seen:
-            seen.add(dedup_key)
-            unique_badges.append(badge)
+    if raw_badges is None or len(raw_badges) == 0:
+        logger.warning(
+            f"⚠️ Google Skills API returned 0 badges or failed; "
+            f"retaining the previous local dataset ({len(local_badges)} badges)."
+        )
+        unique_badges = local_badges
+    else:
+        unique_badges = []
+        seen = set()
+
+        for badge in raw_badges:
+            dedup_key = badge.get("id") or f"{badge.get('title')}-{badge.get('issued_at')}"
+            if dedup_key not in seen:
+                seen.add(dedup_key)
+                unique_badges.append(badge)
 
     # 1. Anomaly & Loss Guard Assertion - Content-Aware
     #    Uses stable badge IDs and content hashes to detect replacement/modification

@@ -717,11 +717,16 @@ def main():
     native_badges = fetch_credly_badges(CREDLY_USER)
     external_badges = fetch_credly_external_badges(CREDLY_USER_ID)
 
-    # Keep the last valid local dataset only when a live source is unavailable.
-    # Do not merge it into a successful refresh: that would make stale records immortal.
-    if native_badges is None or external_badges is None:
+    # Treat empty results (0 badges) as failure and fall back to local data.
+    # An API returning 0 badges when baseline has data indicates an issue, not success.
+    native_ok = native_badges is not None and len(native_badges) > 0
+    external_ok = external_badges is not None and len(external_badges) > 0
+
+    if not native_ok or not external_ok:
         logger.warning(
-            "⚠️ One or more Credly sources failed; retaining the previous local dataset."
+            f"⚠️ One or more Credly sources failed or returned 0 badges "
+            f"(native_ok={native_ok}, external_ok={external_ok}); "
+            f"retaining the previous local dataset ({len(local_badges)} badges)."
         )
         unique_badges = local_badges
     else:

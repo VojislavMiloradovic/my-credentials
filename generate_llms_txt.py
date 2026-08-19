@@ -121,7 +121,7 @@ def _scrape_index(filename: str, pattern: re.Pattern) -> str:
 
 def read_portfolio_counts() -> dict:
     """Reads live counts directly from archive index files and README, with explicit logging."""
-    print("🔍 Scraping portfolio counts from README.md and archive indexes...")
+    print(" Scraping portfolio counts from README.md and archive indexes...")
 
     _TOTAL = re.compile(r"Total[^:]*:\**\s*([\d,]+)", re.IGNORECASE)
 
@@ -188,7 +188,7 @@ def read_portfolio_counts() -> dict:
     unavail_count = total - resolved
 
     print(
-        f"📊 Portfolio Counts Scraped: {resolved}/{total} resolved ({unavail_count} marked [unavailable])"
+        f" Portfolio Counts Scraped: {resolved}/{total} resolved ({unavail_count} marked [unavailable])"
     )
     for k, v in counts.items():
         if v == "[unavailable]":
@@ -291,7 +291,7 @@ def calculate_domain_breakdown():
 
 def generate_llms_txt():
     """Generates a token-optimized, structured llms.txt index file."""
-    print("🚀 Starting llms.txt index generation...")
+    print(" Starting llms.txt index generation...")
     timestamp = datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC")
 
     pc = read_portfolio_counts()
@@ -380,7 +380,7 @@ Optimized for lower-capacity context tools or fast targeted queries.
         f.write(content)
 
     file_size_kb = os.path.getsize(LLMS_PATH) / 1024
-    print(f"✅ Successfully written {LLMS_PATH} ({file_size_kb:.2f} KB).")
+    print(f" Successfully written {LLMS_PATH} ({file_size_kb:.2f} KB).")
 
 
 if __name__ == "__main__":
