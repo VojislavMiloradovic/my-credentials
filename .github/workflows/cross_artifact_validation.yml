@@ -1,0 +1,71 @@
+name: Cross-Artifact Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Run every 3 days to catch cross-artifact drift
+    - cron: '0 6 */3 * *'
+
+jobs:
+  cross-artifact-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    # Don't fail the build on validation errors - just report them
+    # Critical checks are reported but workflow continues
+    continue-on-error: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.11"
+          cache-dependency-glob: "uv.lock"
+
+      - name: Install dependencies
+        run: uv sync --extra test
+
+      - name: Run cross-artifact validator
+        run: |
+          mkdir -p validation_reports
+          uv run python cross_artifact_validator.py --report validation_reports/cross_artifact_report.json
+
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cross-artifact-report
+          path: validation_reports/cross_artifact_report.json
+          retention-days: 30
+
+      - name: Display validation summary
+        if: always()
+        run: |
+          if [ -f validation_reports/cross_artifact_report.json ]; then
+            echo "=== Cross-Artifact Validation Summary ==="
+            cat validation_reports/cross_artifact_report.json | python -c "
+import sys, json
+data = json.load(sys.stdin)
+print(f'Timestamp: {data[\"timestamp\"]}')
+print(f'Total checks: {data[\"summary\"][\"total\"]}')
+print(f'Passed: {data[\"summary\"][\"passed\"]}')
+print(f'Failed (errors): {data[\"summary\"][\"failed\"]}')
+print(f'Warnings: {data[\"summary\"][\"warnings\"]}')
+print()
+print('Failed checks:')
+for r in data[\"results\"]:
+    if not r[\"passed\"] and r[\"severity\"] == \"error\":
+        print(f'  ❌ [{r[\"platform\"] or \"global\"}] {r[\"check\"]}: {r[\"message\"]}')
+print()
+print('Warnings:')
+for r in data[\"results\"]:
+    if not r[\"passed\"] and r[\"severity\"] == \"warning\":
+        print(f'  ⚠️ [{r[\"platform\"] or \"global\"}] {r[\"check\"]}: {r[\"message\"]}')
+            "
+          else
+            echo "No validation report generated"
+          fi

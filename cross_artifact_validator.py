@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 cross_artifact_validator.py
 ===========================
@@ -47,6 +46,19 @@ JSONLD_PATH = "credentials.jsonld"
 LLMS_PATH = "llms.txt"
 LLMS_FULL_PATH = "llms-full.txt"
 VALIDATION_DIR = "for_validation"
+
+# Map platform keys to validation file names (they don't always match platform_key + *.json)
+VALIDATION_FILES = {
+    "microsoft-learn": ["microsoft-learn.json", "microsoft-learn-baseline.json"],
+    "google-skills": ["google_skills_badges.json", "google-skills-baseline.json"],
+    "aws-skills": ["aws_skill_badges.json", "aws-skills-baseline.json"],
+    "credly": ["credly_badges.json", "credly-baseline.json"],
+    "linkedin-certifications": [
+        "linkedin-certifications.json",
+        "linkedin-certifications-baseline.json",
+    ],
+    "google-developer": ["google-developer.json", "google-developer-baseline.json"],
+}
 
 # Platform configurations
 PLATFORMS = {
@@ -232,9 +244,13 @@ class CrossArtifactValidator:
                 platform_key, PlatformCounts(platform=platform_key)
             )
 
-            # Look for validation JSON files
-            pattern = os.path.join(VALIDATION_DIR, f"{platform_key}*.json")
-            files = glob.glob(pattern)
+            # Get validation file names for this platform
+            validation_filenames = VALIDATION_FILES.get(platform_key, [])
+            files = [
+                os.path.join(VALIDATION_DIR, fname)
+                for fname in validation_filenames
+                if os.path.exists(os.path.join(VALIDATION_DIR, fname))
+            ]
 
             total_records = 0
             retired_count = 0
@@ -514,28 +530,30 @@ class CrossArtifactValidator:
             data = json.loads(content)
             credentials = data.get("mainEntity", {}).get("hasCredential", [])
 
-            # Count by platform
+            # Count by platform using the explicit platform field, fallback to issuer detection
             platform_counts = {k: 0 for k in PLATFORMS}
             platform_retired = {k: 0 for k in PLATFORMS}
             platform_latest = {k: None for k in PLATFORMS}
 
             for cred in credentials:
-                # Determine platform from issuer
-                issuer = cred.get("recognizedBy", {}).get("name", "").lower()
-                platform_key = None
+                # Prefer explicit platform field from JSON-LD
+                platform_key = cred.get("platform")
 
-                if "microsoft" in issuer or "learn" in issuer:
-                    platform_key = "microsoft-learn"
-                elif "google cloud" in issuer or "google skills" in issuer:
-                    platform_key = "google-skills"
-                elif "amazon web services" in issuer or "aws" in issuer:
-                    platform_key = "aws-skills"
-                elif "credly" in issuer:
-                    platform_key = "credly"
-                elif "linkedin" in issuer:
-                    platform_key = "linkedin-certifications"
-                elif "google developer" in issuer:
-                    platform_key = "google-developer"
+                # Fallback to issuer-based detection for backward compatibility
+                if not platform_key:
+                    issuer = cred.get("recognizedBy", {}).get("name", "").lower()
+                    if "microsoft" in issuer or "learn" in issuer:
+                        platform_key = "microsoft-learn"
+                    elif "google cloud" in issuer or "google skills" in issuer:
+                        platform_key = "google-skills"
+                    elif "amazon web services" in issuer or "aws" in issuer:
+                        platform_key = "aws-skills"
+                    elif "credly" in issuer:
+                        platform_key = "credly"
+                    elif "linkedin" in issuer:
+                        platform_key = "linkedin-certifications"
+                    elif "google developer" in issuer:
+                        platform_key = "google-developer"
 
                 if platform_key:
                     platform_counts[platform_key] += 1

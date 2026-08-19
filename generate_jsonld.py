@@ -69,12 +69,12 @@ def validate_jsonld(payload):
     """Validates generated JSON-LD object against the defined schema before writing."""
     try:
         jsonschema.validate(instance=payload, schema=JSONLD_SCHEMA)
-        print("✓ JSON-LD Schema Validation Passed successfully.")
+        print("JSON-LD Schema Validation Passed successfully.")
     except jsonschema.exceptions.ValidationError as e:
-        print(f"❌ JSON-LD Validation Error: {e.message}", file=sys.stderr)
+        print(f"JSON-LD Validation Error: {e.message}", file=sys.stderr)
         sys.exit(1)
     except jsonschema.exceptions.SchemaError as e:
-        print(f"❌ JSON Schema Error: {e.message}", file=sys.stderr)
+        print(f"JSON Schema Error: {e.message}", file=sys.stderr)
         sys.exit(1)
 
 
@@ -118,16 +118,27 @@ def parse_archive_monoliths():
     credentials = []
 
     if not os.path.exists(ARCHIVE_DIR):
-        print(f"⚠️ Archive directory '{ARCHIVE_DIR}' not found.")
+        print(f"WARNING: Archive directory '{ARCHIVE_DIR}' not found.")
         return credentials
 
     monolith_files = sorted(glob.glob(os.path.join(ARCHIVE_DIR, "*-complete.md")))
     print(
-        f"🔍 Found {len(monolith_files)} complete archive dataset(s) in '{ARCHIVE_DIR}':"
+        f"Found {len(monolith_files)} complete archive dataset(s) in '{ARCHIVE_DIR}':"
     )
+
+    # Map filename prefix to platform key for consistent identification
+    platform_map = {
+        "microsoft-learn-complete.md": "microsoft-learn",
+        "google-skills-complete.md": "google-skills",
+        "aws-skills-complete.md": "aws-skills",
+        "credly-complete.md": "credly",
+        "linkedin-certifications-complete.md": "linkedin-certifications",
+        "google-developer-complete.md": "google-developer",
+    }
 
     for filepath in monolith_files:
         filename = os.path.basename(filepath)
+        platform_key = platform_map.get(filename, filename.replace("-complete.md", ""))
         platform_name = filename.replace("-complete.md", "").replace("-", " ").title()
         count = 0
 
@@ -141,6 +152,7 @@ def parse_archive_monoliths():
             date_earned = ""
             url = ""
             issuer = platform_name
+            actual_issuer = ""  # Track actual issuer for Credly
             category = "Badge/Certification"
             description = ""
             image_url = ""
@@ -177,9 +189,13 @@ def parse_archive_monoliths():
                 if "issuer" in col_header or "authority" in col_header:
                     cleaned_issuer = clean_str(col)
                     if cleaned_issuer:
+                        actual_issuer = cleaned_issuer
                         issuer = cleaned_issuer
                 elif "issued by" in col.lower():
-                    issuer = col.replace("issued by", "").replace("`", "").strip()
+                    actual_issuer = (
+                        col.replace("issued by", "").replace("`", "").strip()
+                    )
+                    issuer = actual_issuer
 
                 if "description" in col_header:
                     cleaned_desc = clean_str(col)
@@ -204,14 +220,26 @@ def parse_archive_monoliths():
                         break
 
             if title:
+                # For Credly, use "Credly" as the recognizedBy name and include actual issuer in description
+                recognized_by_name = (
+                    "Credly" if platform_key == "credly" else clean_str(issuer)
+                )
+                if platform_key == "credly" and actual_issuer:
+                    description = (
+                        f"{description} | Issuer: {actual_issuer}"
+                        if description
+                        else f"Issuer: {actual_issuer}"
+                    )
+
                 c_obj = {
                     "@type": "EducationalOccupationalCredential",
                     "credentialCategory": category,
                     "name": clean_str(title),
                     "recognizedBy": {
                         "@type": "Organization",
-                        "name": clean_str(issuer),
+                        "name": recognized_by_name,
                     },
+                    "platform": platform_key,  # Add platform identifier for cross-artifact validation
                 }
                 if description:
                     c_obj["description"] = description
@@ -229,7 +257,7 @@ def parse_archive_monoliths():
                 credentials.append(c_obj)
                 count += 1
 
-        print(f"  ├─ 📄 {filename}: Extracted {count} credential(s)")
+        print(f"  {filename}: Extracted {count} credential(s)")
 
     return credentials
 
@@ -252,7 +280,7 @@ def cleanup_readme():
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(content)
 
-    print(f"🧹 Ensured {README_PATH} is clean of embedded script blocks.")
+    print(f"Ensured {README_PATH} is clean of embedded script blocks.")
 
 
 def main():
@@ -275,7 +303,7 @@ def main():
         json.dump(payload, f, indent=2, ensure_ascii=False)
 
     print(
-        f"\n✅ Successfully generated {JSONLD_PATH} with {len(credentials)} total credential(s)."
+        f"\n Successfully generated {JSONLD_PATH} with {len(credentials)} total credential(s)."
     )
     cleanup_readme()
 
