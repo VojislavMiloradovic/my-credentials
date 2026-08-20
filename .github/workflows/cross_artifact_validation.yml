@@ -8,6 +8,7 @@ on:
   schedule:
     # Run every 3 days to catch cross-artifact drift
     - cron: '0 6 */3 * *'
+  workflow_dispatch:
 
 jobs:
   cross-artifact-validation:
