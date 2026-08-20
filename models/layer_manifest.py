@@ -12,6 +12,7 @@ from pydantic import BaseModel, Field
 
 class LayerTransform(BaseModel):
     """Single transformation definition."""
+
     type: Literal[
         "1:1_pass_through",
         "extract_achievements_dedupe_by_id",
@@ -29,6 +30,7 @@ class LayerTransform(BaseModel):
 
 class LayerDef(BaseModel):
     """Definition of a single dataset layer."""
+
     source_layer: str | None = None
     source: str | list[str] | None = None
     sources: list[str] | None = None
@@ -36,7 +38,9 @@ class LayerDef(BaseModel):
     transforms: dict[str, LayerTransform] | None = None
     output_records: str | None = None
     output_streams: list[str] | None = None
-    retired_handling: Literal["none", "registry_only", "combine_source_and_registry"] = "none"
+    retired_handling: Literal[
+        "none", "registry_only", "combine_source_and_registry"
+    ] = "none"
     artifacts: list[str] = Field(default_factory=list)
     metrics: list[str] = Field(default_factory=list)
     description: str = ""
@@ -44,6 +48,7 @@ class LayerDef(BaseModel):
 
 class PlatformLayers(BaseModel):
     """All four layers for one platform."""
+
     L0_raw: LayerDef
     L1_normalized: LayerDef
     L2_published: LayerDef
@@ -52,6 +57,7 @@ class PlatformLayers(BaseModel):
 
 class LayerManifest(BaseModel):
     """Root manifest document."""
+
     version: int
     platforms: dict[str, PlatformLayers]
 
@@ -62,6 +68,7 @@ MANIFEST_PATH = Path("dataset_layers.yaml")
 def load_manifest() -> LayerManifest:
     """Load and validate dataset_layers.yaml."""
     import yaml
+
     with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
     return LayerManifest(**data)
