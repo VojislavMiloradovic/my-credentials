@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-08-20 00:52 UTC
+> **Last Generated:** 2026-08-20 02:03 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -129,15 +129,16 @@ Showing latest 10 of 646 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 555
+**Total Portfolio Credentials:** 556
 **Total Verified Skills Mapped:** 1938
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 555 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 556 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-19 | [Discovery: Cloud Architect on AWS](https://www.credly.com/badges/6708084a-4912-47b4-9388-0a9012aabb26/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-19 | [Cilium Traffic Optimization](https://www.credly.com/badges/c177982d-6244-42c9-b251-1e4216667772/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cilium Envoy L7 Proxy](https://www.credly.com/badges/a160212a-4ac9-4a6c-bf7c-e6479e62c4f1/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cilium for Virtual Machines with KubeVirt](https://www.credly.com/badges/69fd0a5d-0013-4b29-8053-2f4efac99a59/public_url) | Isovalent | Credly Verified Badge |
@@ -147,7 +148,6 @@ Showing latest 10 of 555 credentials. View full dataset via [Platform Archive In
 | 2026-08-18 | [Detection Management: From Entropy to Evidence](https://www.credly.com/badges/64e9cd6c-2792-435c-9c64-1ead3a7a2665/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-08-18 | [Getting Started with the Isovalent Load Balancer](https://www.credly.com/badges/d493b0bb-da10-4eb3-a043-5bf9d4cb2a5a/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Isovalent Lab Champion (30 labs)](https://www.credly.com/badges/6e16ddbe-d749-4687-905b-820c0bcf2a99/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-18 | [Testing Linux and Mac with OceanLotus](https://www.credly.com/badges/1d046e1f-36dd-4bcd-a755-52786f7468a7/public_url) | AttackIQ | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
@@ -4203,7 +4203,7 @@ This document represents a unified, verifiable list of all 1479 records.
 | 2026-03 | **Plan Your Cloud Next Generation Firewall Needs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691283?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Introduction to Cloud Next Generation Firewall** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691267?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Conversion Optimization Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/3c4afa84-5637-4c3b-b3fc-6e6c26e48d35) |
-| 2026-03 | **Human Skills in the Age of AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4) |
+| 2026-03 | **Human Skills in the Age of AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4) ⚠️ *Content retired* |
 | 2026-03 | **Grow Offline Sales Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/2d2774cb-bf2e-47c5-a286-86de5cc1bcd8) |
 | 2026-03 | **Microsoft Applied Skills: Generate reports with AI research agents** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/ABC20116B56C7F9F?sharingId) |
 | 2026-03 | **Search Ads 360 Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/5b477ad2-43c6-4789-af30-137f9f87f4c6) |
@@ -4401,12 +4401,13 @@ This document represents a unified, verifiable list of all 1479 records.
 
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 555 records.
+This document represents a unified, verifiable list of all 556 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-19 | [Discovery: Cloud Architect on AWS](https://www.credly.com/badges/6708084a-4912-47b4-9388-0a9012aabb26/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-19 | [Cilium Traffic Optimization](https://www.credly.com/badges/c177982d-6244-42c9-b251-1e4216667772/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cilium Envoy L7 Proxy](https://www.credly.com/badges/a160212a-4ac9-4a6c-bf7c-e6479e62c4f1/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cilium for Virtual Machines with KubeVirt](https://www.credly.com/badges/69fd0a5d-0013-4b29-8053-2f4efac99a59/public_url) | Isovalent | Credly Verified Badge |
@@ -9090,7 +9091,7 @@ This document represents a unified, verifiable list of all 4808 records.
 | **Introduction to DevOps** | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/) |
 | **Understand app management using Microsoft Intune** | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/app-management-using-microsoft-endpoint-manager/) |
 | **Create a Windows virtual machine in Azure** | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-windows-virtual-machine-in-azure/) |
-| **Learn about the Microsoft Viva Glint 360 feedback program** | Learningpaths | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-360-feedback) |
+| **Learn about the Microsoft Viva Glint 360 feedback program** | Learningpaths | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-360-feedback) ⚠️ *Content retired* |
 | **Get to know Microsoft Viva Glint 360 Feedback** | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-get-to-know-viva-glint-360-feedback/) |
 | **Personalize your remote development workflow with Visual Studio Code** | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/personalize-remote-development-workflow/) |
 | **Develop products with accessible color and contrast** | Modules | 2025-12-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-products-with-accessible-color-contrast/) |
