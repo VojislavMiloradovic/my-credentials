@@ -742,7 +742,9 @@ def main():
         seen = set()
 
         for badge in raw_badges:
-            dedup_key = badge.get("id") or f"{badge.get('title')}-{badge.get('issued_at')}"
+            dedup_key = (
+                badge.get("id") or f"{badge.get('title')}-{badge.get('issued_at')}"
+            )
             if dedup_key not in seen:
                 seen.add(dedup_key)
                 unique_badges.append(badge)

@@ -1,11 +1,12 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 555 records.
+This document represents a unified, verifiable list of all 556 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-19 | [Discovery: Cloud Architect on AWS](https://www.credly.com/badges/6708084a-4912-47b4-9388-0a9012aabb26/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-19 | [Cilium Traffic Optimization](https://www.credly.com/badges/c177982d-6244-42c9-b251-1e4216667772/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cilium Envoy L7 Proxy](https://www.credly.com/badges/a160212a-4ac9-4a6c-bf7c-e6479e62c4f1/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cilium for Virtual Machines with KubeVirt](https://www.credly.com/badges/69fd0a5d-0013-4b29-8053-2f4efac99a59/public_url) | Isovalent | Credly Verified Badge |

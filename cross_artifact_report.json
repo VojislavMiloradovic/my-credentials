@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-19T23:37:08.684123+00:00",
+  "timestamp": "2026-08-20T01:35:06.317930+00:00",
   "summary": {
     "total": 72,
-    "passed": 70,
-    "failed": 2,
+    "passed": 72,
+    "failed": 0,
     "warnings": 0
   },
   "platforms": {
@@ -28,7 +28,7 @@
       "index_total": 345,
       "readme_count": 345,
       "jsonld_count": 345,
-      "llms_txt_count": 0,
+      "llms_txt_count": 345,
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
@@ -53,12 +53,12 @@
       "latest_record_date_jsonld": "2026-08-19T00:00:00"
     },
     "credly": {
-      "source_records": 555,
-      "archive_complete_records": 555,
-      "index_total": 555,
-      "readme_count": 555,
+      "source_records": 556,
+      "archive_complete_records": 556,
+      "index_total": 556,
+      "readme_count": 556,
       "jsonld_count": 555,
-      "llms_txt_count": 0,
+      "llms_txt_count": 556,
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
@@ -131,8 +131,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 555,
-      "message": "Source snapshot has 555 records (0 retired)",
+      "actual": 556,
+      "message": "Source snapshot has 556 records (0 retired)",
       "severity": "warning"
     },
     {
@@ -185,8 +185,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 555,
-      "message": "Complete archive has 555 records (0 retired)",
+      "actual": 556,
+      "message": "Complete archive has 556 records (0 retired)",
       "severity": "error"
     },
     {
@@ -239,8 +239,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 555,
-      "message": "Index reports 555 total records",
+      "actual": 556,
+      "message": "Index reports 556 total records",
       "severity": "error"
     },
     {
@@ -293,8 +293,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 555,
-      "message": "README reports 555 records",
+      "actual": 556,
+      "message": "README reports 556 records",
       "severity": "error"
     },
     {
@@ -381,10 +381,10 @@
     {
       "check": "llms_txt_count",
       "platform": "google-skills",
-      "passed": false,
+      "passed": true,
       "expected": "> 0",
-      "actual": 0,
-      "message": "llms.txt reports 0 records",
+      "actual": 345,
+      "message": "llms.txt reports 345 records",
       "severity": "error"
     },
     {
@@ -399,10 +399,10 @@
     {
       "check": "llms_txt_count",
       "platform": "credly",
-      "passed": false,
+      "passed": true,
       "expected": "> 0",
-      "actual": 0,
-      "message": "llms.txt reports 0 records",
+      "actual": 556,
+      "message": "llms.txt reports 556 records",
       "severity": "error"
     },
     {
@@ -517,10 +517,10 @@
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "google-skills",
       "passed": true,
-      "expected": null,
-      "actual": null,
-      "message": "README vs llms.txt: Skipped (one source has 0 or missing data: readme=345, llms_txt=0)",
-      "severity": "warning"
+      "expected": 345,
+      "actual": 345,
+      "message": "README vs llms.txt: readme=345 vs llms_txt=345 ✓",
+      "severity": "error"
     },
     {
       "check": "llms_full_includes_platform",
@@ -580,10 +580,10 @@
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "credly",
       "passed": true,
-      "expected": null,
-      "actual": null,
-      "message": "README vs llms.txt: Skipped (one source has 0 or missing data: readme=555, llms_txt=0)",
-      "severity": "warning"
+      "expected": 556,
+      "actual": 556,
+      "message": "README vs llms.txt: readme=556 vs llms_txt=556 ✓",
+      "severity": "error"
     },
     {
       "check": "llms_full_includes_platform",

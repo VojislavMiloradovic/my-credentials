@@ -47,25 +47,7 @@ jobs:
         run: |
           if [ -f validation_reports/cross_artifact_report.json ]; then
             echo "=== Cross-Artifact Validation Summary ==="
-            cat validation_reports/cross_artifact_report.json | python -c "
-import sys, json
-data = json.load(sys.stdin)
-print(f'Timestamp: {data[\"timestamp\"]}')
-print(f'Total checks: {data[\"summary\"][\"total\"]}')
-print(f'Passed: {data[\"summary\"][\"passed\"]}')
-print(f'Failed (errors): {data[\"summary\"][\"failed\"]}')
-print(f'Warnings: {data[\"summary\"][\"warnings\"]}')
-print()
-print('Failed checks:')
-for r in data[\"results\"]:
-    if not r[\"passed\"] and r[\"severity\"] == \"error\":
-        print(f'  ❌ [{r[\"platform\"] or \"global\"}] {r[\"check\"]}: {r[\"message\"]}')
-print()
-print('Warnings:')
-for r in data[\"results\"]:
-    if not r[\"passed\"] and r[\"severity\"] == \"warning\":
-        print(f'  ⚠️ [{r[\"platform\"] or \"global\"}] {r[\"check\"]}: {r[\"message\"]}')
-            "
+            python validation_summary.py
           else
             echo "No validation report generated"
           fi

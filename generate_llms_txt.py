@@ -14,28 +14,28 @@ RAW_BASE_URL = (
 
 DOMAIN_PATTERNS = [
     (
-        "🤖 AI, Machine Learning & Data",
+        "[AI]  AI, Machine Learning & Data",
         re.compile(
             r"\b(ai|genai|llm|copilot|gemini|agent|bedrock|rag|bigquery|machine learning|data science|vision api|deep learning|neural|openai|vertex|tensorflow|pytorch|prompt|langchain|vector|nlp|sql|data|database|analytics|power bi|fabric|synapse|databricks|reporting|pandas|spark|intelligence|predictive|etl|warehouse|insight)\b",
             re.IGNORECASE,
         ),
     ),
     (
-        "🛡️ DevOps, Security & Governance",
+        " DevOps, Security & Governance",
         re.compile(
             r"\b(entra|security|ci/cd|cicd|git|github|kubernetes|k8s|docker|container|active directory|byok|encryption|threat|iam|governance|compliance|devops|pipeline|terraform|sentinel|cybersecurity|zero trust|defender|purview|intune|identity|auth|authorization|rbac|policy|bicep|arm|powershell|cli|automation|monitor|log analytics|audit|risk|protection|vault)\b",
             re.IGNORECASE,
         ),
     ),
     (
-        "☁️ Cloud & Infrastructure",
+        " Cloud & Infrastructure",
         re.compile(
             r"\b(azure|aws|gcp|google cloud|vpc|netapp|networking|serverless|cloud run|storage|ec2|s3|infrastructure|virtual machine|load balancer|dns|route 53|cloud architecture|hybrid|virtual network|windows server|linux|vm|subnet|expressroute|firewall|compute|app service|backup|disaster recovery|migration|cluster|hyper-v|edge)\b",
             re.IGNORECASE,
         ),
     ),
     (
-        "💻 App Engineering & Software Development",
+        "[Dev]  App Engineering & Software Development",
         re.compile(
             r"\b(android|unity|streamlit|mongodb|python|codelabs|power platform|power apps|power automate|alm|c#|dotnet|\.net|java|javascript|typescript|react|api|rest|graphql|flutter|web dev|node|app engine|frontend|backend|developer|development|code|visual studio|microservices|logic app|functions|sdk|html|css|json|xml)\b",
             re.IGNORECASE,
@@ -43,7 +43,7 @@ DOMAIN_PATTERNS = [
     ),
 ]
 
-FALLBACK_DOMAIN = "👔 Enterprise & Professional Development"
+FALLBACK_DOMAIN = "[Biz]  Enterprise & Professional Development"
 
 MONOLITH_CONFIGS = [
     ("Aws Skills Complete", "aws-skills-complete.md"),
@@ -99,7 +99,7 @@ def _get_file_stats(filepath: str) -> tuple[float, int]:
         tokens = count_tokens(content)
         return size_kb, tokens
     except Exception as e:
-        print(f"⚠️ Warning reading stats for {filepath}: {e}")
+        print(f" Warning reading stats for {filepath}: {e}")
         return 0.0, 0
 
 
@@ -158,9 +158,9 @@ def read_portfolio_counts() -> dict:
                     if m:
                         counts[key] = m.group(1).replace(",", "")
         except Exception as e:
-            print(f"⚠️ Warning reading {README_PATH}: {e}")
+            print(f" Warning reading {README_PATH}: {e}")
     else:
-        print(f"⚠️ {README_PATH} not found.")
+        print(f" {README_PATH} not found.")
 
     index_targets = [
         ("ms_learn_achievements", "microsoft-learn-index.md", _TOTAL),
@@ -192,7 +192,7 @@ def read_portfolio_counts() -> dict:
     )
     for k, v in counts.items():
         if v == "[unavailable]":
-            print(f"   ⚠️ {k}: [unavailable]")
+            print(f"    {k}: [unavailable]")
 
     return counts
 
@@ -234,7 +234,7 @@ def extract_dataset_items(lines: list[str]) -> list[str]:
 def calculate_domain_breakdown():
     """Scans all complete archive files and categorizes credentials into 5 domains."""
     print(
-        "📂 Scanning monolithic archive files (*-complete.md) for domain breakdown..."
+        "[Files]  Scanning monolithic archive files (*-complete.md) for domain breakdown..."
     )
 
     domain_counts = {name: 0 for name, _ in DOMAIN_PATTERNS}
@@ -245,7 +245,7 @@ def calculate_domain_breakdown():
     monolith_files = glob.glob(os.path.join(ARCHIVE_DIR, "*-complete.md"))
 
     if not monolith_files:
-        print(f"⚠️ No monolithic complete archive files found in {ARCHIVE_DIR}/")
+        print(f" No monolithic complete archive files found in {ARCHIVE_DIR}/")
         return domain_counts, 0
 
     for filepath in sorted(monolith_files):
@@ -255,7 +255,7 @@ def calculate_domain_breakdown():
             with open(filepath, "r", encoding="utf-8") as f:
                 lines = f.readlines()
         except Exception as e:
-            print(f"❌ Error reading {filepath}: {e}")
+            print(f" Error reading {filepath}: {e}")
             continue
 
         items = extract_dataset_items(lines)
@@ -280,11 +280,11 @@ def calculate_domain_breakdown():
         )
 
     print(
-        f"🏷️ Categorized {total_parsed} total achievements across {len(monolith_files)} dataset files:"
+        f" Categorized {total_parsed} total achievements across {len(monolith_files)} dataset files:"
     )
     for domain, count in domain_counts.items():
         percentage = (count / total_parsed * 100) if total_parsed > 0 else 0
-        print(f"   • {domain}: {count:,} ({percentage:.1f}%)")
+        print(f"    {domain}: {count:,} ({percentage:.1f}%)")
 
     return domain_counts, total_parsed
 

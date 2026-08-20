@@ -1,7 +1,33 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 555,
+  "total_count": 556,
   "badges": [
+    {
+      "id": "6708084a-4912-47b4-9388-0a9012aabb26",
+      "title": "Discovery: Cloud Architect on AWS",
+      "name": "Discovery: Cloud Architect on AWS",
+      "issuer": "Isovalent",
+      "issuer_name": "Isovalent",
+      "issued_at": "2026-08-19",
+      "issued_at_date": "2026-08-19",
+      "date": "2026-08-19",
+      "image_url": "https://images.credly.com/images/c5855a2d-6a82-47e7-a2fa-30fc11d68642/tempfile20250605-83-hrxr92.png",
+      "verify_url": "https://www.credly.com/badges/6708084a-4912-47b4-9388-0a9012aabb26/public_url",
+      "url": "https://www.credly.com/badges/6708084a-4912-47b4-9388-0a9012aabb26/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cilium",
+        "eBPF",
+        "Enterprise",
+        "Hubble",
+        "Kubernetes",
+        "Networking",
+        "Observability",
+        "Security"
+      ],
+      "retired": false
+    },
     {
       "id": "c177982d-6244-42c9-b251-1e4216667772",
       "title": "Cilium Traffic Optimization",
