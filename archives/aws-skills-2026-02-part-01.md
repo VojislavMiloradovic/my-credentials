@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 1 of 12
-date_range: 2026-01-06 to 2026-02-15
+date_range: 2026-01-01 to 2026-02-15
 total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-02-part-01.md
 ---
@@ -12,7 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-02-15 | [[RETIRED] Amazon Q Business Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-15 | [Security, Compliance, and Governance for AI Solutions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-14 | [AWS Foundations: Machine Learning Basics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-13 | [Developing Generative Artificial Intelligence Solutions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -69,6 +68,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-01-09 | [Getting Started with DevOps on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-08 | [Introduction to Generative AI - Art of the Possible](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-06 | [Job Roles in the Cloud](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-01-01 | [[RETIRING - 2026-09-03] Selling in AWS Marketplace (Technical)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: None | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-03-part-02.md](./aws-skills-2026-03-part-02.md)

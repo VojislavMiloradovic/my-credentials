@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 2 of 12
-date_range: 2026-02-18 to 2026-03-06
+date_range: 2026-02-15 to 2026-03-06
 total_entries: 58
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-02.md
 ---
@@ -12,7 +12,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-03-06 | [API Gateway Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-06 | [Events and Workflows Pre-assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-06 | [Software Development with Amazon Q Developer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-05 | [Amazon ECR Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -70,6 +69,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-02-23 | [Getting Started with Amazon Augmented AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-18 | [[RETIRED] Use MCP to create AI Agents](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-18 | [Deep Dive: Amazon Elastic Block Store (Amazon EBS) Cost Optimization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-02-15 | [[RETIRED] Amazon Q Business Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-02-part-01.md](./aws-skills-2026-02-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-03-part-03.md](./aws-skills-2026-03-part-03.md)

@@ -1,6 +1,6 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 646,
+  "total_count": 655,
   "badges": [
     {
       "id": "4d3535a6971307d9",
@@ -592,6 +592,25 @@
       "retired": false
     },
     {
+      "id": "92e6145ae0a6c5c1",
+      "title": "[RETIRING - 2026-09-03] Selling in AWS Marketplace (Technical)",
+      "name": "[RETIRING - 2026-09-03] Selling in AWS Marketplace (Technical)",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": null,
+      "issued_at_date": null,
+      "date": null,
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "[RETIRING - 2026-09-03] Selling in AWS Marketplace (Technical)"
+      ],
+      "retired": false
+    },
+    {
       "id": "40ebbd7b5f2fe7ea",
       "title": "A Day in the Life of an Everyday User with Amazon Quick",
       "name": "A Day in the Life of an Everyday User with Amazon Quick",
@@ -1025,6 +1044,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Aurora MySQL - Basics"
+      ],
+      "retired": false
+    },
+    {
+      "id": "c8d037e8267c5af5",
+      "title": "Amazon Aurora PostgreSQL for Developers",
+      "name": "Amazon Aurora PostgreSQL for Developers",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-20",
+      "issued_at_date": "2026-08-20",
+      "date": "2026-08-20",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Aurora PostgreSQL for Developers"
       ],
       "retired": false
     },
@@ -3689,6 +3727,25 @@
       "retired": false
     },
     {
+      "id": "c98f4deac5435352",
+      "title": "AWS AI/ML Essentials (Great China Region Only)",
+      "name": "AWS AI/ML Essentials (Great China Region Only)",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-21",
+      "issued_at_date": "2026-08-21",
+      "date": "2026-08-21",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS AI/ML Essentials (Great China Region Only)"
+      ],
+      "retired": false
+    },
+    {
       "id": "6aca4beac26d49c4",
       "title": "AWS Audit Manager Getting Started",
       "name": "AWS Audit Manager Getting Started",
@@ -5243,6 +5300,25 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Networking Basics"
+      ],
+      "retired": false
+    },
+    {
+      "id": "4cdffb60dd0fccee",
+      "title": "AWS Networking Practical Approaches",
+      "name": "AWS Networking Practical Approaches",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-20",
+      "issued_at_date": "2026-08-20",
+      "date": "2026-08-20",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Networking Practical Approaches"
       ],
       "retired": false
     },
@@ -6953,6 +7029,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Building web search-enabled agents with Strands and Exa"
+      ],
+      "retired": false
+    },
+    {
+      "id": "e97f99007828ace9",
+      "title": "Building with AWS IoT SiteWise",
+      "name": "Building with AWS IoT SiteWise",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-20",
+      "issued_at_date": "2026-08-20",
+      "date": "2026-08-20",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Building with AWS IoT SiteWise"
       ],
       "retired": false
     },
@@ -10776,6 +10871,25 @@
       "retired": false
     },
     {
+      "id": "ee1aac346eb8c541",
+      "title": "Kiro: AI Development Best Practices (Greater China Region Edition)",
+      "name": "Kiro: AI Development Best Practices (Greater China Region Edition)",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-21",
+      "issued_at_date": "2026-08-21",
+      "date": "2026-08-21",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Kiro: AI Development Best Practices (Greater China Region Edition)"
+      ],
+      "retired": false
+    },
+    {
       "id": "f17a53eaa2a68f17",
       "title": "Lab - Introduction to Amazon DynamoDB",
       "name": "Lab - Introduction to Amazon DynamoDB",
@@ -11707,6 +11821,25 @@
       "retired": false
     },
     {
+      "id": "0e7ad95d73dd21b0",
+      "title": "Securing Your Cloud: Essential Controls to Protect Your Business",
+      "name": "Securing Your Cloud: Essential Controls to Protect Your Business",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-20",
+      "issued_at_date": "2026-08-20",
+      "date": "2026-08-20",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Securing Your Cloud: Essential Controls to Protect Your Business"
+      ],
+      "retired": false
+    },
+    {
       "id": "fa61dbe21ead0b8d",
       "title": "Security and Observability for Serverless Applications",
       "name": "Security and Observability for Serverless Applications",
@@ -11798,6 +11931,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Selecting your Data Migration Strategy with AWS"
+      ],
+      "retired": false
+    },
+    {
+      "id": "512665d114c84fcf",
+      "title": "Selling in AWS Marketplace (Technical)",
+      "name": "Selling in AWS Marketplace (Technical)",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-20",
+      "issued_at_date": "2026-08-20",
+      "date": "2026-08-20",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Selling in AWS Marketplace (Technical)"
       ],
       "retired": false
     },
@@ -12273,6 +12425,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Web Search on Amazon Bedrock AgentCore"
+      ],
+      "retired": false
+    },
+    {
+      "id": "f812cfc2a78fbbbf",
+      "title": "Working with Indexes in DynamoDB",
+      "name": "Working with Indexes in DynamoDB",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-20",
+      "issued_at_date": "2026-08-20",
+      "date": "2026-08-20",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Working with Indexes in DynamoDB"
       ],
       "retired": false
     }

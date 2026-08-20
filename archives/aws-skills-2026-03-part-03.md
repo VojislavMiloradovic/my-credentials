@@ -2,7 +2,7 @@
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 3 of 12
 date_range: 2026-03-06 to 2026-03-15
-total_entries: 57
+total_entries: 58
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-03.md
 ---
 
@@ -69,6 +69,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-03-07 | [Introduction to AWS DevOps Agent](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-06 | [Amazon CloudWatch Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-06 | [Amazon EC2 Basics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-03-06 | [API Gateway Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-03-part-02.md](./aws-skills-2026-03-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-03-part-04.md](./aws-skills-2026-03-part-04.md)
