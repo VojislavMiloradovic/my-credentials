@@ -1,0 +1,207 @@
+version: 1
+platforms:
+  microsoft-learn:
+    L0_raw:
+      source: "data/microsoft-learn.json"
+      description: "Raw MS Learn export containing units, modules, learning paths, achievements, trophies, XP, level"
+    L1_normalized:
+      source_layer: "L0_raw"
+      transform:
+        type: "extract_achievements_dedupe_by_id"
+      output_records: "achievements"
+      retired_handling: "combine_source_and_registry"
+      description: "Deduplicated achievements (one per completed module). Retired status combines source data and registry."
+    L2_published:
+      source_layer: "L1_normalized"
+      transform:
+        type: "1:1_pass_through"
+      artifacts:
+        - "archive_complete"
+        - "archive_index"
+        - "jsonld"
+      description: "Achievements passed through to archives and JSON-LD."
+    L3_display:
+      source_layer: "L0_raw"
+      transform:
+        type: "compute_display_metrics"
+      metrics:
+        - "total_xp"
+        - "current_level"
+        - "badges_earned"
+        - "trophies_earned"
+        - "completed_learning_paths"
+        - "completed_modules"
+        - "completed_individual_units"
+      artifacts:
+        - "readme"
+        - "llms_txt"
+      description: "Profile summary statistics for human-readable display. Units count (35K+) shown alongside achievements (4.8K)."
+
+  google-developer:
+    L0_raw:
+      sources:
+        - "rpc_api"
+        - "data/google_learnings.txt"
+      description: "RPC API milestone badges + local granular learning activities (codelabs, modules)"
+    L1_normalized:
+      source_layer: "L0_raw"
+      transforms:
+        milestones:
+          type: "extract_milestone_badges_dedupe"
+        micro_learnings:
+          type: "parse_local_learnings_dedupe"
+      output_streams:
+        - "milestones"
+        - "micro_learnings"
+      retired_handling: "registry_only"
+      description: "Two independent streams: milestone badges (main profile) and micro-learnings (separate page). Retired via registry only."
+    L2_published:
+      source_layer: "L1_normalized"
+      transforms:
+        archive_complete:
+          type: "combine_streams"
+        archive_index:
+          type: "split_streams"
+        jsonld:
+          type: "combine_streams"
+      artifacts:
+        - "archive_complete"
+        - "archive_index"
+        - "jsonld"
+      description: "Archive complete combines both streams; index splits them; JSON-LD combines."
+    L3_display:
+      source_layer: "L1_normalized"
+      transform:
+        type: "count_streams_separately"
+      metrics:
+        - "milestone_badges"
+        - "micro_learnings"
+      artifacts:
+        - "readme"
+        - "llms_txt"
+        - "archive_index"
+      description: "Display both counts separately in README/llms.txt and index header."
+
+  aws-skills:
+    L0_raw:
+      source: "data/aws-training-activity.csv"
+      description: "CSV export with explicit retired flags and retirement dates from AWS Skill Builder."
+    L1_normalized:
+      source_layer: "L0_raw"
+      transform:
+        type: "parse_csv_combine_retired_flags"
+      retired_handling: "combine_source_and_registry"
+      description: "All trainings with unified retired status: source retired flag OR registry match. Both reason and date preserved."
+    L2_published:
+      source_layer: "L1_normalized"
+      transform:
+        type: "1:1_pass_through"
+      artifacts:
+        - "archive_complete"
+        - "archive_index"
+        - "jsonld"
+      description: "All records (active + retired) passed to archives and JSON-LD with retired flags."
+    L3_display:
+      source_layer: "L1_normalized"
+      transform:
+        type: "count_active_and_retired"
+      metrics:
+        - "total_activities"
+        - "retired_count"
+      artifacts:
+        - "readme"
+        - "llms_txt"
+      description: "Display total and retired counts."
+
+  google-skills:
+    L0_raw:
+      source: "api_scrape"
+      description: "Google Cloud Skills API/HTML scrape output."
+    L1_normalized:
+      source_layer: "L0_raw"
+      transform:
+        type: "1:1_pass_through"
+      output_records: "badges"
+      retired_handling: "registry_only"
+      description: "Badges passed through with registry-based retired marking."
+    L2_published:
+      source_layer: "L1_normalized"
+      transform:
+        type: "1:1_pass_through"
+      artifacts:
+        - "archive_complete"
+        - "archive_index"
+        - "jsonld"
+      description: "Badges to archives and JSON-LD."
+    L3_display:
+      source_layer: "L1_normalized"
+      transform:
+        type: "1:1_pass_through"
+      metrics:
+        - "total_badges"
+      artifacts:
+        - "readme"
+        - "llms_txt"
+      description: "Total badge count for display."
+
+  credly:
+    L0_raw:
+      source: "api_scrape"
+      description: "Credly API scrape output."
+    L1_normalized:
+      source_layer: "L0_raw"
+      transform:
+        type: "1:1_pass_through"
+      output_records: "credentials"
+      retired_handling: "registry_only"
+      description: "Credentials passed through with registry-based retired marking."
+    L2_published:
+      source_layer: "L1_normalized"
+      transform:
+        type: "1:1_pass_through"
+      artifacts:
+        - "archive_complete"
+        - "archive_index"
+        - "jsonld"
+      description: "Credentials to archives and JSON-LD."
+    L3_display:
+      source_layer: "L1_normalized"
+      transform:
+        type: "1:1_pass_through"
+      metrics:
+        - "total_credentials"
+      artifacts:
+        - "readme"
+        - "llms_txt"
+      description: "Total credential count for display."
+
+  linkedin-certifications:
+    L0_raw:
+      source: "data/Certifications.csv"
+      description: "LinkedIn Learning CSV export."
+    L1_normalized:
+      source_layer: "L0_raw"
+      transform:
+        type: "1:1_pass_through"
+      output_records: "certifications"
+      retired_handling: "registry_only"
+      description: "Certifications passed through with registry-based retired marking."
+    L2_published:
+      source_layer: "L1_normalized"
+      transform:
+        type: "1:1_pass_through"
+      artifacts:
+        - "archive_complete"
+        - "archive_index"
+        - "jsonld"
+      description: "Certifications to archives and JSON-LD."
+    L3_display:
+      source_layer: "L1_normalized"
+      transform:
+        type: "1:1_pass_through"
+      metrics:
+        - "total_certifications"
+      artifacts:
+        - "readme"
+        - "llms_txt"
+      description: "Total certification count for display."

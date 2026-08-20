@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-20T01:35:06.317930+00:00",
+  "timestamp": "2026-08-20T22:52:11.089876+00:00",
   "summary": {
     "total": 72,
-    "passed": 72,
-    "failed": 0,
+    "passed": 66,
+    "failed": 6,
     "warnings": 0
   },
   "platforms": {
@@ -17,15 +17,15 @@
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
-      "retired_in_jsonld": 0,
+      "retired_in_jsonld": 1,
       "latest_record_date_source": null,
       "latest_record_date_archive": "2026-08-19T00:00:00",
       "latest_record_date_jsonld": "2026-08-19T00:00:00"
     },
     "google-skills": {
-      "source_records": 345,
-      "archive_complete_records": 345,
-      "index_total": 345,
+      "source_records": 0,
+      "archive_complete_records": 0,
+      "index_total": 0,
       "readme_count": 345,
       "jsonld_count": 345,
       "llms_txt_count": 345,
@@ -34,7 +34,7 @@
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
       "latest_record_date_source": null,
-      "latest_record_date_archive": "2026-01-01T00:00:00",
+      "latest_record_date_archive": null,
       "latest_record_date_jsonld": "2026-01-01T00:00:00"
     },
     "aws-skills": {
@@ -53,18 +53,18 @@
       "latest_record_date_jsonld": "2026-08-19T00:00:00"
     },
     "credly": {
-      "source_records": 556,
-      "archive_complete_records": 556,
-      "index_total": 556,
+      "source_records": 0,
+      "archive_complete_records": 0,
+      "index_total": 0,
       "readme_count": 556,
-      "jsonld_count": 555,
+      "jsonld_count": 556,
       "llms_txt_count": 556,
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
-      "latest_record_date_source": "2026-08-19T00:00:00",
-      "latest_record_date_archive": "2026-08-19T00:00:00",
+      "latest_record_date_source": null,
+      "latest_record_date_archive": null,
       "latest_record_date_jsonld": "2026-08-19T00:00:00"
     },
     "linkedin-certifications": {
@@ -77,7 +77,7 @@
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
-      "retired_in_jsonld": 0,
+      "retired_in_jsonld": 1,
       "latest_record_date_source": null,
       "latest_record_date_archive": null,
       "latest_record_date_jsonld": null
@@ -111,11 +111,11 @@
     {
       "check": "source_snapshot_exists",
       "platform": "google-skills",
-      "passed": true,
+      "passed": false,
       "expected": "> 0",
-      "actual": 345,
-      "message": "Source snapshot has 345 records (0 retired)",
-      "severity": "warning"
+      "actual": 0,
+      "message": "Source snapshot has 0 records (0 retired)",
+      "severity": "error"
     },
     {
       "check": "source_snapshot_exists",
@@ -129,11 +129,11 @@
     {
       "check": "source_snapshot_exists",
       "platform": "credly",
-      "passed": true,
+      "passed": false,
       "expected": "> 0",
-      "actual": 556,
-      "message": "Source snapshot has 556 records (0 retired)",
-      "severity": "warning"
+      "actual": 0,
+      "message": "Source snapshot has 0 records (0 retired)",
+      "severity": "error"
     },
     {
       "check": "source_snapshot_exists",
@@ -165,10 +165,10 @@
     {
       "check": "archive_complete_parsed",
       "platform": "google-skills",
-      "passed": true,
+      "passed": false,
       "expected": "> 0",
-      "actual": 345,
-      "message": "Complete archive has 345 records (0 retired)",
+      "actual": 0,
+      "message": "Complete archive has 0 records (0 retired)",
       "severity": "error"
     },
     {
@@ -183,10 +183,10 @@
     {
       "check": "archive_complete_parsed",
       "platform": "credly",
-      "passed": true,
+      "passed": false,
       "expected": "> 0",
-      "actual": 556,
-      "message": "Complete archive has 556 records (0 retired)",
+      "actual": 0,
+      "message": "Complete archive has 0 records (0 retired)",
       "severity": "error"
     },
     {
@@ -219,10 +219,10 @@
     {
       "check": "index_total_parsed",
       "platform": "google-skills",
-      "passed": true,
+      "passed": false,
       "expected": "> 0",
-      "actual": 345,
-      "message": "Index reports 345 total records",
+      "actual": 0,
+      "message": "Index reports 0 total records",
       "severity": "error"
     },
     {
@@ -237,10 +237,10 @@
     {
       "check": "index_total_parsed",
       "platform": "credly",
-      "passed": true,
+      "passed": false,
       "expected": "> 0",
-      "actual": 556,
-      "message": "Index reports 556 total records",
+      "actual": 0,
+      "message": "Index reports 0 total records",
       "severity": "error"
     },
     {
@@ -321,7 +321,7 @@
       "passed": true,
       "expected": "> 0",
       "actual": 4808,
-      "message": "JSON-LD has 4808 credentials (0 retired)",
+      "message": "JSON-LD has 4808 credentials (1 retired)",
       "severity": "error"
     },
     {
@@ -347,8 +347,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 555,
-      "message": "JSON-LD has 555 credentials (0 retired)",
+      "actual": 556,
+      "message": "JSON-LD has 556 credentials (0 retired)",
       "severity": "error"
     },
     {
@@ -357,7 +357,7 @@
       "passed": true,
       "expected": "> 0",
       "actual": 1479,
-      "message": "JSON-LD has 1479 credentials (0 retired)",
+      "message": "JSON-LD has 1479 credentials (1 retired)",
       "severity": "error"
     },
     {
@@ -514,6 +514,15 @@
       "severity": "error"
     },
     {
+      "check": "retired_consistency_archive_vs_jsonld",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": null,
+      "actual": null,
+      "message": "Retired count: Only one source has data (archive=0, jsonld=1)",
+      "severity": "warning"
+    },
+    {
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "google-skills",
       "passed": true,
@@ -629,6 +638,15 @@
       "actual": "included",
       "message": "llms-full.txt includes linkedin-certifications-complete.md",
       "severity": "error"
+    },
+    {
+      "check": "retired_consistency_archive_vs_jsonld",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": null,
+      "actual": null,
+      "message": "Retired count: Only one source has data (archive=0, jsonld=1)",
+      "severity": "warning"
     },
     {
       "check": "count_consistency_archive_complete_vs_jsonld",
@@ -783,25 +801,7 @@
     },
     {
       "check": "latest_record_date_consistency",
-      "platform": "google-skills",
-      "passed": true,
-      "expected": "within 30 days",
-      "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-01-01 to 2026-01-01)",
-      "severity": "warning"
-    },
-    {
-      "check": "latest_record_date_consistency",
       "platform": "aws-skills",
-      "passed": true,
-      "expected": "within 30 days",
-      "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-08-19 to 2026-08-19)",
-      "severity": "warning"
-    },
-    {
-      "check": "latest_record_date_consistency",
-      "platform": "credly",
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
