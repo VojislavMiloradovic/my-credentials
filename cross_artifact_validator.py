@@ -179,14 +179,14 @@ class PlatformCounts:
     """Aggregated counts for a platform from various sources."""
 
     platform: str
-    source_records: int = 0           # L0_raw
-    l1_normalized_records: int = 0    # L1_normalized (from for_validation)
-    archive_complete_records: int = 0 # L2_published
-    index_total: int = 0              # L2_published (index)
-    readme_count: int = 0             # L3_display
-    jsonld_count: int = 0             # L2_published
-    llms_txt_count: int = 0           # L3_display
-    llms_full_count: int = 0          # inclusion boolean
+    source_records: int = 0  # L0_raw
+    l1_normalized_records: int = 0  # L1_normalized (from for_validation)
+    archive_complete_records: int = 0  # L2_published
+    index_total: int = 0  # L2_published (index)
+    readme_count: int = 0  # L3_display
+    jsonld_count: int = 0  # L2_published
+    llms_txt_count: int = 0  # L3_display
+    llms_full_count: int = 0  # inclusion boolean
     retired_in_source: int = 0
     retired_in_archive: int = 0
     retired_in_jsonld: int = 0
@@ -332,21 +332,33 @@ class CrossArtifactValidator:
                     if isinstance(data, dict) and "combined_feed" in data:
                         l1_records = data["combined_feed"]
                         if isinstance(l1_records, list):
-                            l1_normalized_records = len([r for r in l1_records if isinstance(r, dict)])
-                    elif l1_output_records and isinstance(data, dict) and l1_output_records in data:
+                            l1_normalized_records = len(
+                                [r for r in l1_records if isinstance(r, dict)]
+                            )
+                    elif (
+                        l1_output_records
+                        and isinstance(data, dict)
+                        and l1_output_records in data
+                    ):
                         l1_records = data[l1_output_records]
                         if isinstance(l1_records, list):
-                            l1_normalized_records = len([r for r in l1_records if isinstance(r, dict)])
+                            l1_normalized_records = len(
+                                [r for r in l1_records if isinstance(r, dict)]
+                            )
                     elif l1_output_streams and isinstance(data, dict):
                         for stream in l1_output_streams:
                             if stream in data and isinstance(data[stream], list):
-                                l1_normalized_records += len([r for r in data[stream] if isinstance(r, dict)])
+                                l1_normalized_records += len(
+                                    [r for r in data[stream] if isinstance(r, dict)]
+                                )
 
                 except Exception as e:
                     logger.warning(f"Failed to parse {filepath}: {e}")
 
             counts.source_records = total_records
-            counts.l1_normalized_records = l1_normalized_records if l1_normalized_records > 0 else total_records
+            counts.l1_normalized_records = (
+                l1_normalized_records if l1_normalized_records > 0 else total_records
+            )
             counts.retired_in_source = retired_count
             counts.latest_record_date_source = (
                 latest_date.isoformat() if latest_date else None
@@ -758,21 +770,27 @@ class CrossArtifactValidator:
 
         # L0 -> L1
         if platform.L1_normalized.transform:
-            transforms[("L0_raw", "L1_normalized")] = platform.L1_normalized.transform.type
+            transforms[("L0_raw", "L1_normalized")] = (
+                platform.L1_normalized.transform.type
+            )
         elif platform.L1_normalized.transforms:
             for stream, tf in platform.L1_normalized.transforms.items():
                 transforms[("L0_raw", f"L1_normalized:{stream}")] = tf.type
 
         # L1 -> L2
         if platform.L2_published.transform:
-            transforms[("L1_normalized", "L2_published")] = platform.L2_published.transform.type
+            transforms[("L1_normalized", "L2_published")] = (
+                platform.L2_published.transform.type
+            )
         elif platform.L2_published.transforms:
             for artifact, tf in platform.L2_published.transforms.items():
                 transforms[("L1_normalized", f"L2_published:{artifact}")] = tf.type
 
         # L1 -> L3
         if platform.L3_display.transform:
-            transforms[("L1_normalized", "L3_display")] = platform.L3_display.transform.type
+            transforms[("L1_normalized", "L3_display")] = (
+                platform.L3_display.transform.type
+            )
         elif platform.L3_display.transforms:
             for artifact, tf in platform.L3_display.transforms.items():
                 transforms[("L1_normalized", f"L3_display:{artifact}")] = tf.type
@@ -822,19 +840,38 @@ class CrossArtifactValidator:
             comparisons = []
 
             # L2_published artifacts should match (archive_complete vs index)
-            if "L2_published" in declared.get(("L1_normalized", "L2_published"), "") or \
-               any(k[1].startswith("L2_published") for k in declared):
-                comparisons.append(("archive_complete", "index", 0, "Archive complete vs Index total (L2_published)"))
+            if "L2_published" in declared.get(
+                ("L1_normalized", "L2_published"), ""
+            ) or any(k[1].startswith("L2_published") for k in declared):
+                comparisons.append(
+                    (
+                        "archive_complete",
+                        "index",
+                        0,
+                        "Archive complete vs Index total (L2_published)",
+                    )
+                )
 
             # L1 -> L2 (archive_complete vs jsonld both from L2_published)
-            if ("L1_normalized", "L2_published") in declared or \
-               any(k[1].startswith("L2_published") for k in declared):
-                comparisons.append(("archive_complete", "jsonld", 5, "Archive complete vs JSON-LD (L2_published)"))
+            if ("L1_normalized", "L2_published") in declared or any(
+                k[1].startswith("L2_published") for k in declared
+            ):
+                comparisons.append(
+                    (
+                        "archive_complete",
+                        "jsonld",
+                        5,
+                        "Archive complete vs JSON-LD (L2_published)",
+                    )
+                )
 
             # L1 -> L3 (readme vs llms_txt both from L3_display)
-            if ("L1_normalized", "L3_display") in declared or \
-               any(k[1].startswith("L3_display") for k in declared):
-                comparisons.append(("readme", "llms_txt", 0, "README vs llms.txt (L3_display)"))
+            if ("L1_normalized", "L3_display") in declared or any(
+                k[1].startswith("L3_display") for k in declared
+            ):
+                comparisons.append(
+                    ("readme", "llms_txt", 0, "README vs llms.txt (L3_display)")
+                )
 
             # If no declared transforms, fall back to legacy behavior
             if not comparisons:
@@ -846,7 +883,12 @@ class CrossArtifactValidator:
                 # Legacy platform-specific adjustments
                 if platform_key == "google-developer":
                     comparisons = [
-                        ("archive_complete", "jsonld", 5, "Archive complete vs JSON-LD"),
+                        (
+                            "archive_complete",
+                            "jsonld",
+                            5,
+                            "Archive complete vs JSON-LD",
+                        ),
                         ("readme", "llms_txt", 0, "README vs llms.txt"),
                     ]
                 elif platform_key in ("google-skills", "credly"):
@@ -855,14 +897,34 @@ class CrossArtifactValidator:
                     ]
                 elif platform_key == "aws-skills":
                     comparisons = [
-                        ("archive_complete", "index", 0, "Archive complete vs Index total"),
-                        ("archive_complete", "jsonld", 15, "Archive complete vs JSON-LD"),
+                        (
+                            "archive_complete",
+                            "index",
+                            0,
+                            "Archive complete vs Index total",
+                        ),
+                        (
+                            "archive_complete",
+                            "jsonld",
+                            15,
+                            "Archive complete vs JSON-LD",
+                        ),
                         ("readme", "llms_txt", 0, "README vs llms.txt"),
                     ]
                 elif platform_key == "linkedin-certifications":
                     comparisons = [
-                        ("archive_complete", "index", 0, "Archive complete vs Index total"),
-                        ("archive_complete", "jsonld", 0, "Archive complete vs JSON-LD (EXPECTED TO MATCH)"),
+                        (
+                            "archive_complete",
+                            "index",
+                            0,
+                            "Archive complete vs Index total",
+                        ),
+                        (
+                            "archive_complete",
+                            "jsonld",
+                            0,
+                            "Archive complete vs JSON-LD (EXPECTED TO MATCH)",
+                        ),
                         ("readme", "llms_txt", 0, "README vs llms.txt"),
                     ]
 
@@ -894,7 +956,11 @@ class CrossArtifactValidator:
                     diff_pct = abs(val1 - val2) / max(val1, val2) * 100
                     passed = diff_pct <= tolerance_pct
 
-                severity = "error" if not passed and not self.warn_mode else ("warning" if not passed else "error")
+                severity = (
+                    "error"
+                    if not passed and not self.warn_mode
+                    else ("warning" if not passed else "error")
+                )
                 self.add_result(
                     ValidationResult(
                         check_name=f"count_consistency_{source1}_vs_{source2}",
@@ -912,12 +978,20 @@ class CrossArtifactValidator:
             # Declared transformation verification
             for (src_layer, tgt_layer), transform_type in declared.items():
                 src_count = self._counts_for_layer(platform_key, src_layer)
-                tgt_count = self._counts_for_layer(platform_key, tgt_layer.split(":")[0])
+                tgt_count = self._counts_for_layer(
+                    platform_key, tgt_layer.split(":")[0]
+                )
 
                 if src_count > 0 and tgt_count > 0:
                     # Verify transform expectations
-                    expected_equal = transform_type in ("1:1_pass_through", "combine_streams", "split_streams")
-                    passed = (src_count == tgt_count) if expected_equal else True  # Other transforms may change count
+                    expected_equal = transform_type in (
+                        "1:1_pass_through",
+                        "combine_streams",
+                        "split_streams",
+                    )
+                    passed = (
+                        (src_count == tgt_count) if expected_equal else True
+                    )  # Other transforms may change count
 
                     self.add_result(
                         ValidationResult(
@@ -927,7 +1001,9 @@ class CrossArtifactValidator:
                             expected=f"{src_count} (transform: {transform_type})",
                             actual=tgt_count,
                             message=f"Declared transform {src_layer} -> {tgt_layer} ({transform_type}): {src_count} -> {tgt_count} {'✓' if passed else '✗ MISMATCH'}",
-                            severity="error" if not passed and not self.warn_mode else ("warning" if not passed else "error"),
+                            severity="error"
+                            if not passed and not self.warn_mode
+                            else ("warning" if not passed else "error"),
                         )
                     )
 
@@ -944,12 +1020,14 @@ class CrossArtifactValidator:
             # Check each pair
             artifact_names = list(artifact_sources.keys())
             for i, art1 in enumerate(artifact_names):
-                for art2 in artifact_names[i+1:]:
+                for art2 in artifact_names[i + 1 :]:
                     # Skip if this pair is explained by a declared transform
                     explained = False
-                    for (src, tgt) in declared:
+                    for src, tgt in declared:
                         src_artifacts = self._artifacts_for_layer(platform_key, src)
-                        tgt_artifacts = self._artifacts_for_layer(platform_key, tgt.split(":")[0])
+                        tgt_artifacts = self._artifacts_for_layer(
+                            platform_key, tgt.split(":")[0]
+                        )
                         if art1 in src_artifacts and art2 in tgt_artifacts:
                             explained = True
                             break
@@ -969,7 +1047,9 @@ class CrossArtifactValidator:
                                     expected=val2,
                                     actual=val1,
                                     message=f"Undeclared discrepancy: {art1}={val1} vs {art2}={val2} (not explained by manifest)",
-                                    severity="error" if not self.warn_mode else "warning",
+                                    severity="error"
+                                    if not self.warn_mode
+                                    else "warning",
                                 )
                             )
 
@@ -1319,7 +1399,7 @@ def main():
         "--mode",
         choices=["strict", "warn"],
         default="strict",
-        help="Validation mode: strict (fail on errors) or warn (treat errors as warnings)"
+        help="Validation mode: strict (fail on errors) or warn (treat errors as warnings)",
     )
     parser.add_argument(
         "--report", default="cross_artifact_report.json", help="Output report path"
@@ -1327,7 +1407,9 @@ def main():
 
     args = parser.parse_args()
 
-    validator = CrossArtifactValidator(strict=(args.mode == "strict"), warn_mode=(args.mode == "warn"))
+    validator = CrossArtifactValidator(
+        strict=(args.mode == "strict"), warn_mode=(args.mode == "warn")
+    )
     success = validator.run_all()
     validator.generate_report(args.report)
 
