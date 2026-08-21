@@ -51,10 +51,10 @@ platforms:
         micro_learnings:
           type: "parse_local_learnings_dedupe"
       output_streams:
-        - "milestones"
-        - "micro_learnings"
+        - "public_badges"
+        - "detailed_learnings"
       retired_handling: "registry_only"
-      description: "Two independent streams: milestone badges (main profile) and micro-learnings (separate page). Retired via registry only."
+      description: "Two independent streams: public_badges (milestone badges from RPC, 171) and detailed_learnings (granular activities from local log, 1467). Retired via registry only."
     L2_published:
       source_layer: "L1_normalized"
       transforms:

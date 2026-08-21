@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-20T22:52:11.089876+00:00",
+  "timestamp": "2026-08-21T00:11:58.522325+00:00",
   "summary": {
-    "total": 72,
-    "passed": 66,
-    "failed": 6,
-    "warnings": 0
+    "total": 102,
+    "passed": 79,
+    "failed": 10,
+    "warnings": 13
   },
   "platforms": {
     "microsoft-learn": {
@@ -17,7 +17,7 @@
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
-      "retired_in_jsonld": 1,
+      "retired_in_jsonld": 0,
       "latest_record_date_source": null,
       "latest_record_date_archive": "2026-08-19T00:00:00",
       "latest_record_date_jsonld": "2026-08-19T00:00:00"
@@ -27,45 +27,45 @@
       "archive_complete_records": 0,
       "index_total": 0,
       "readme_count": 345,
-      "jsonld_count": 345,
-      "llms_txt_count": 345,
+      "jsonld_count": 0,
+      "llms_txt_count": 0,
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
       "latest_record_date_source": null,
       "latest_record_date_archive": null,
-      "latest_record_date_jsonld": "2026-01-01T00:00:00"
+      "latest_record_date_jsonld": null
     },
     "aws-skills": {
-      "source_records": 646,
-      "archive_complete_records": 646,
-      "index_total": 646,
-      "readme_count": 646,
-      "jsonld_count": 646,
-      "llms_txt_count": 646,
+      "source_records": 655,
+      "archive_complete_records": 655,
+      "index_total": 655,
+      "readme_count": 655,
+      "jsonld_count": 655,
+      "llms_txt_count": 655,
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 31,
       "retired_in_jsonld": 31,
-      "latest_record_date_source": "2026-08-19T00:00:00",
-      "latest_record_date_archive": "2026-08-19T00:00:00",
-      "latest_record_date_jsonld": "2026-08-19T00:00:00"
+      "latest_record_date_source": "2026-08-21T00:00:00",
+      "latest_record_date_archive": "2026-08-21T00:00:00",
+      "latest_record_date_jsonld": "2026-08-21T00:00:00"
     },
     "credly": {
       "source_records": 0,
       "archive_complete_records": 0,
       "index_total": 0,
       "readme_count": 556,
-      "jsonld_count": 556,
-      "llms_txt_count": 556,
+      "jsonld_count": 0,
+      "llms_txt_count": 0,
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
       "latest_record_date_source": null,
       "latest_record_date_archive": null,
-      "latest_record_date_jsonld": "2026-08-19T00:00:00"
+      "latest_record_date_jsonld": null
     },
     "linkedin-certifications": {
       "source_records": 1479,
@@ -77,7 +77,7 @@
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
-      "retired_in_jsonld": 1,
+      "retired_in_jsonld": 0,
       "latest_record_date_source": null,
       "latest_record_date_archive": null,
       "latest_record_date_jsonld": null
@@ -122,8 +122,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 646,
-      "message": "Source snapshot has 646 records (0 retired)",
+      "actual": 655,
+      "message": "Source snapshot has 655 records (0 retired)",
       "severity": "warning"
     },
     {
@@ -176,8 +176,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 646,
-      "message": "Complete archive has 646 records (31 retired)",
+      "actual": 655,
+      "message": "Complete archive has 655 records (31 retired)",
       "severity": "error"
     },
     {
@@ -230,8 +230,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 646,
-      "message": "Index reports 646 total records",
+      "actual": 655,
+      "message": "Index reports 655 total records",
       "severity": "error"
     },
     {
@@ -284,8 +284,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 646,
-      "message": "README reports 646 records",
+      "actual": 655,
+      "message": "README reports 655 records",
       "severity": "error"
     },
     {
@@ -321,16 +321,16 @@
       "passed": true,
       "expected": "> 0",
       "actual": 4808,
-      "message": "JSON-LD has 4808 credentials (1 retired)",
+      "message": "JSON-LD has 4808 credentials (0 retired)",
       "severity": "error"
     },
     {
       "check": "jsonld_count",
       "platform": "google-skills",
-      "passed": true,
+      "passed": false,
       "expected": "> 0",
-      "actual": 345,
-      "message": "JSON-LD has 345 credentials (0 retired)",
+      "actual": 0,
+      "message": "JSON-LD has 0 credentials (0 retired)",
       "severity": "error"
     },
     {
@@ -338,17 +338,17 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 646,
-      "message": "JSON-LD has 646 credentials (31 retired)",
+      "actual": 655,
+      "message": "JSON-LD has 655 credentials (31 retired)",
       "severity": "error"
     },
     {
       "check": "jsonld_count",
       "platform": "credly",
-      "passed": true,
+      "passed": false,
       "expected": "> 0",
-      "actual": 556,
-      "message": "JSON-LD has 556 credentials (0 retired)",
+      "actual": 0,
+      "message": "JSON-LD has 0 credentials (0 retired)",
       "severity": "error"
     },
     {
@@ -357,7 +357,7 @@
       "passed": true,
       "expected": "> 0",
       "actual": 1479,
-      "message": "JSON-LD has 1479 credentials (1 retired)",
+      "message": "JSON-LD has 1479 credentials (0 retired)",
       "severity": "error"
     },
     {
@@ -381,10 +381,10 @@
     {
       "check": "llms_txt_count",
       "platform": "google-skills",
-      "passed": true,
+      "passed": false,
       "expected": "> 0",
-      "actual": 345,
-      "message": "llms.txt reports 345 records",
+      "actual": 0,
+      "message": "llms.txt reports 0 records",
       "severity": "error"
     },
     {
@@ -392,17 +392,17 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 646,
-      "message": "llms.txt reports 646 records",
+      "actual": 655,
+      "message": "llms.txt reports 655 records",
       "severity": "error"
     },
     {
       "check": "llms_txt_count",
       "platform": "credly",
-      "passed": true,
+      "passed": false,
       "expected": "> 0",
-      "actual": 556,
-      "message": "llms.txt reports 556 records",
+      "actual": 0,
+      "message": "llms.txt reports 0 records",
       "severity": "error"
     },
     {
@@ -483,7 +483,7 @@
       "passed": true,
       "expected": 4808,
       "actual": 4808,
-      "message": "Archive complete vs Index total: archive_complete=4808 vs index=4808 ✓",
+      "message": "Archive complete vs Index total (L2_published): archive_complete=4808 vs index=4808 ✓",
       "severity": "error"
     },
     {
@@ -492,7 +492,7 @@
       "passed": true,
       "expected": "4808 (±5%)",
       "actual": 4808,
-      "message": "Archive complete vs JSON-LD: archive_complete=4808 vs jsonld=4808 ✓",
+      "message": "Archive complete vs JSON-LD (L2_published): archive_complete=4808 vs jsonld=4808 ✓",
       "severity": "error"
     },
     {
@@ -501,8 +501,89 @@
       "passed": true,
       "expected": 35651,
       "actual": 35651,
-      "message": "README vs llms.txt: readme=35651 vs llms_txt=35651 ✓",
+      "message": "README vs llms.txt (L3_display): readme=35651 vs llms_txt=35651 ✓",
       "severity": "error"
+    },
+    {
+      "check": "declared_transform_L0_raw_to_L1_normalized",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "5328 (transform: extract_achievements_dedupe_by_id)",
+      "actual": 4808,
+      "message": "Declared transform L0_raw -> L1_normalized (extract_achievements_dedupe_by_id): 5328 -> 4808 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "declared_transform_L1_normalized_to_L2_published",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "4808 (transform: 1:1_pass_through)",
+      "actual": 4808,
+      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 4808 -> 4808 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "declared_transform_L1_normalized_to_L3_display",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "4808 (transform: compute_display_metrics)",
+      "actual": 35651,
+      "message": "Declared transform L1_normalized -> L3_display (compute_display_metrics): 4808 -> 35651 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "undeclared_discrepancy_archive_complete_vs_readme",
+      "platform": "microsoft-learn",
+      "passed": false,
+      "expected": 35651,
+      "actual": 4808,
+      "message": "Undeclared discrepancy: archive_complete=4808 vs readme=35651 (not explained by manifest)",
+      "severity": "warning"
+    },
+    {
+      "check": "undeclared_discrepancy_archive_complete_vs_llms_txt",
+      "platform": "microsoft-learn",
+      "passed": false,
+      "expected": 35651,
+      "actual": 4808,
+      "message": "Undeclared discrepancy: archive_complete=4808 vs llms_txt=35651 (not explained by manifest)",
+      "severity": "warning"
+    },
+    {
+      "check": "undeclared_discrepancy_index_vs_readme",
+      "platform": "microsoft-learn",
+      "passed": false,
+      "expected": 35651,
+      "actual": 4808,
+      "message": "Undeclared discrepancy: index=4808 vs readme=35651 (not explained by manifest)",
+      "severity": "warning"
+    },
+    {
+      "check": "undeclared_discrepancy_index_vs_llms_txt",
+      "platform": "microsoft-learn",
+      "passed": false,
+      "expected": 35651,
+      "actual": 4808,
+      "message": "Undeclared discrepancy: index=4808 vs llms_txt=35651 (not explained by manifest)",
+      "severity": "warning"
+    },
+    {
+      "check": "undeclared_discrepancy_jsonld_vs_readme",
+      "platform": "microsoft-learn",
+      "passed": false,
+      "expected": 35651,
+      "actual": 4808,
+      "message": "Undeclared discrepancy: jsonld=4808 vs readme=35651 (not explained by manifest)",
+      "severity": "warning"
+    },
+    {
+      "check": "undeclared_discrepancy_jsonld_vs_llms_txt",
+      "platform": "microsoft-learn",
+      "passed": false,
+      "expected": 35651,
+      "actual": 4808,
+      "message": "Undeclared discrepancy: jsonld=4808 vs llms_txt=35651 (not explained by manifest)",
+      "severity": "warning"
     },
     {
       "check": "llms_full_includes_platform",
@@ -514,22 +595,31 @@
       "severity": "error"
     },
     {
-      "check": "retired_consistency_archive_vs_jsonld",
-      "platform": "microsoft-learn",
+      "check": "count_consistency_archive_complete_vs_index",
+      "platform": "google-skills",
       "passed": true,
       "expected": null,
       "actual": null,
-      "message": "Retired count: Only one source has data (archive=0, jsonld=1)",
+      "message": "Archive complete vs Index total (L2_published): Skipped (one source has 0 or missing data: archive_complete=0, index=0)",
+      "severity": "warning"
+    },
+    {
+      "check": "count_consistency_archive_complete_vs_jsonld",
+      "platform": "google-skills",
+      "passed": true,
+      "expected": null,
+      "actual": null,
+      "message": "Archive complete vs JSON-LD (L2_published): Skipped (one source has 0 or missing data: archive_complete=0, jsonld=0)",
       "severity": "warning"
     },
     {
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "google-skills",
       "passed": true,
-      "expected": 345,
-      "actual": 345,
-      "message": "README vs llms.txt: readme=345 vs llms_txt=345 ✓",
-      "severity": "error"
+      "expected": null,
+      "actual": null,
+      "message": "README vs llms.txt (L3_display): Skipped (one source has 0 or missing data: readme=345, llms_txt=0)",
+      "severity": "warning"
     },
     {
       "check": "llms_full_includes_platform",
@@ -544,27 +634,54 @@
       "check": "count_consistency_archive_complete_vs_index",
       "platform": "aws-skills",
       "passed": true,
-      "expected": 646,
-      "actual": 646,
-      "message": "Archive complete vs Index total: archive_complete=646 vs index=646 ✓",
+      "expected": 655,
+      "actual": 655,
+      "message": "Archive complete vs Index total (L2_published): archive_complete=655 vs index=655 ✓",
       "severity": "error"
     },
     {
       "check": "count_consistency_archive_complete_vs_jsonld",
       "platform": "aws-skills",
       "passed": true,
-      "expected": "646 (±15%)",
-      "actual": 646,
-      "message": "Archive complete vs JSON-LD: archive_complete=646 vs jsonld=646 ✓",
+      "expected": "655 (±5%)",
+      "actual": 655,
+      "message": "Archive complete vs JSON-LD (L2_published): archive_complete=655 vs jsonld=655 ✓",
       "severity": "error"
     },
     {
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "aws-skills",
       "passed": true,
-      "expected": 646,
-      "actual": 646,
-      "message": "README vs llms.txt: readme=646 vs llms_txt=646 ✓",
+      "expected": 655,
+      "actual": 655,
+      "message": "README vs llms.txt (L3_display): readme=655 vs llms_txt=655 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "declared_transform_L0_raw_to_L1_normalized",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": "655 (transform: parse_csv_combine_retired_flags)",
+      "actual": 655,
+      "message": "Declared transform L0_raw -> L1_normalized (parse_csv_combine_retired_flags): 655 -> 655 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "declared_transform_L1_normalized_to_L2_published",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": "655 (transform: 1:1_pass_through)",
+      "actual": 655,
+      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 655 -> 655 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "declared_transform_L1_normalized_to_L3_display",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": "655 (transform: count_active_and_retired)",
+      "actual": 655,
+      "message": "Declared transform L1_normalized -> L3_display (count_active_and_retired): 655 -> 655 ✓",
       "severity": "error"
     },
     {
@@ -586,13 +703,31 @@
       "severity": "warning"
     },
     {
+      "check": "count_consistency_archive_complete_vs_index",
+      "platform": "credly",
+      "passed": true,
+      "expected": null,
+      "actual": null,
+      "message": "Archive complete vs Index total (L2_published): Skipped (one source has 0 or missing data: archive_complete=0, index=0)",
+      "severity": "warning"
+    },
+    {
+      "check": "count_consistency_archive_complete_vs_jsonld",
+      "platform": "credly",
+      "passed": true,
+      "expected": null,
+      "actual": null,
+      "message": "Archive complete vs JSON-LD (L2_published): Skipped (one source has 0 or missing data: archive_complete=0, jsonld=0)",
+      "severity": "warning"
+    },
+    {
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "credly",
       "passed": true,
-      "expected": 556,
-      "actual": 556,
-      "message": "README vs llms.txt: readme=556 vs llms_txt=556 ✓",
-      "severity": "error"
+      "expected": null,
+      "actual": null,
+      "message": "README vs llms.txt (L3_display): Skipped (one source has 0 or missing data: readme=556, llms_txt=0)",
+      "severity": "warning"
     },
     {
       "check": "llms_full_includes_platform",
@@ -609,16 +744,16 @@
       "passed": true,
       "expected": 1479,
       "actual": 1479,
-      "message": "Archive complete vs Index total: archive_complete=1479 vs index=1479 ✓",
+      "message": "Archive complete vs Index total (L2_published): archive_complete=1479 vs index=1479 ✓",
       "severity": "error"
     },
     {
       "check": "count_consistency_archive_complete_vs_jsonld",
       "platform": "linkedin-certifications",
       "passed": true,
-      "expected": 1479,
+      "expected": "1479 (±5%)",
       "actual": 1479,
-      "message": "Archive complete vs JSON-LD (EXPECTED TO MATCH): archive_complete=1479 vs jsonld=1479 ✓",
+      "message": "Archive complete vs JSON-LD (L2_published): archive_complete=1479 vs jsonld=1479 ✓",
       "severity": "error"
     },
     {
@@ -627,7 +762,34 @@
       "passed": true,
       "expected": 1479,
       "actual": 1479,
-      "message": "README vs llms.txt: readme=1479 vs llms_txt=1479 ✓",
+      "message": "README vs llms.txt (L3_display): readme=1479 vs llms_txt=1479 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "declared_transform_L0_raw_to_L1_normalized",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": "1479 (transform: 1:1_pass_through)",
+      "actual": 1479,
+      "message": "Declared transform L0_raw -> L1_normalized (1:1_pass_through): 1479 -> 1479 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "declared_transform_L1_normalized_to_L2_published",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": "1479 (transform: 1:1_pass_through)",
+      "actual": 1479,
+      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 1479 -> 1479 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "declared_transform_L1_normalized_to_L3_display",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": "1479 (transform: 1:1_pass_through)",
+      "actual": 1479,
+      "message": "Declared transform L1_normalized -> L3_display (1:1_pass_through): 1479 -> 1479 ✓",
       "severity": "error"
     },
     {
@@ -640,12 +802,12 @@
       "severity": "error"
     },
     {
-      "check": "retired_consistency_archive_vs_jsonld",
-      "platform": "linkedin-certifications",
-      "passed": true,
-      "expected": null,
-      "actual": null,
-      "message": "Retired count: Only one source has data (archive=0, jsonld=1)",
+      "check": "count_consistency_archive_complete_vs_index",
+      "platform": "google-developer",
+      "passed": false,
+      "expected": 171,
+      "actual": 1631,
+      "message": "Archive complete vs Index total (L2_published): archive_complete=1631 vs index=171 ✗ MISMATCH",
       "severity": "warning"
     },
     {
@@ -654,7 +816,7 @@
       "passed": true,
       "expected": "1631 (±5%)",
       "actual": 1631,
-      "message": "Archive complete vs JSON-LD: archive_complete=1631 vs jsonld=1631 ✓",
+      "message": "Archive complete vs JSON-LD (L2_published): archive_complete=1631 vs jsonld=1631 ✓",
       "severity": "error"
     },
     {
@@ -663,8 +825,116 @@
       "passed": true,
       "expected": 171,
       "actual": 171,
-      "message": "README vs llms.txt: readme=171 vs llms_txt=171 ✓",
+      "message": "README vs llms.txt (L3_display): readme=171 vs llms_txt=171 ✓",
       "severity": "error"
+    },
+    {
+      "check": "declared_transform_L0_raw_to_L1_normalized:milestones",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "3269 (transform: extract_milestone_badges_dedupe)",
+      "actual": 1631,
+      "message": "Declared transform L0_raw -> L1_normalized:milestones (extract_milestone_badges_dedupe): 3269 -> 1631 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "declared_transform_L0_raw_to_L1_normalized:micro_learnings",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "3269 (transform: parse_local_learnings_dedupe)",
+      "actual": 1631,
+      "message": "Declared transform L0_raw -> L1_normalized:micro_learnings (parse_local_learnings_dedupe): 3269 -> 1631 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "declared_transform_L1_normalized_to_L2_published:archive_complete",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "1631 (transform: combine_streams)",
+      "actual": 1631,
+      "message": "Declared transform L1_normalized -> L2_published:archive_complete (combine_streams): 1631 -> 1631 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "declared_transform_L1_normalized_to_L2_published:archive_index",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "1631 (transform: split_streams)",
+      "actual": 1631,
+      "message": "Declared transform L1_normalized -> L2_published:archive_index (split_streams): 1631 -> 1631 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "declared_transform_L1_normalized_to_L2_published:jsonld",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "1631 (transform: combine_streams)",
+      "actual": 1631,
+      "message": "Declared transform L1_normalized -> L2_published:jsonld (combine_streams): 1631 -> 1631 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "declared_transform_L1_normalized_to_L3_display",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "1631 (transform: count_streams_separately)",
+      "actual": 171,
+      "message": "Declared transform L1_normalized -> L3_display (count_streams_separately): 1631 -> 171 ✓",
+      "severity": "error"
+    },
+    {
+      "check": "undeclared_discrepancy_archive_complete_vs_index",
+      "platform": "google-developer",
+      "passed": false,
+      "expected": 171,
+      "actual": 1631,
+      "message": "Undeclared discrepancy: archive_complete=1631 vs index=171 (not explained by manifest)",
+      "severity": "warning"
+    },
+    {
+      "check": "undeclared_discrepancy_archive_complete_vs_readme",
+      "platform": "google-developer",
+      "passed": false,
+      "expected": 171,
+      "actual": 1631,
+      "message": "Undeclared discrepancy: archive_complete=1631 vs readme=171 (not explained by manifest)",
+      "severity": "warning"
+    },
+    {
+      "check": "undeclared_discrepancy_archive_complete_vs_llms_txt",
+      "platform": "google-developer",
+      "passed": false,
+      "expected": 171,
+      "actual": 1631,
+      "message": "Undeclared discrepancy: archive_complete=1631 vs llms_txt=171 (not explained by manifest)",
+      "severity": "warning"
+    },
+    {
+      "check": "undeclared_discrepancy_index_vs_jsonld",
+      "platform": "google-developer",
+      "passed": false,
+      "expected": 1631,
+      "actual": 171,
+      "message": "Undeclared discrepancy: index=171 vs jsonld=1631 (not explained by manifest)",
+      "severity": "warning"
+    },
+    {
+      "check": "undeclared_discrepancy_jsonld_vs_readme",
+      "platform": "google-developer",
+      "passed": false,
+      "expected": 171,
+      "actual": 1631,
+      "message": "Undeclared discrepancy: jsonld=1631 vs readme=171 (not explained by manifest)",
+      "severity": "warning"
+    },
+    {
+      "check": "undeclared_discrepancy_jsonld_vs_llms_txt",
+      "platform": "google-developer",
+      "passed": false,
+      "expected": 171,
+      "actual": 1631,
+      "message": "Undeclared discrepancy: jsonld=1631 vs llms_txt=171 (not explained by manifest)",
+      "severity": "warning"
     },
     {
       "check": "llms_full_includes_platform",
@@ -805,7 +1075,7 @@
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-08-19 to 2026-08-19)",
+      "message": "Latest record dates span 0 days across artifacts (2026-08-21 to 2026-08-21)",
       "severity": "warning"
     },
     {

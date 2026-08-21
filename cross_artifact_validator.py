@@ -31,6 +31,9 @@ from dataclasses import dataclass
 from datetime import UTC, datetime
 from typing import Any
 
+# Layer manifest integration
+from layer_manifest import LayerManifest, get_artifact_layer_mapping, load_manifest
+
 # Logging Setup
 logging.basicConfig(
     level=logging.INFO,
@@ -176,13 +179,14 @@ class PlatformCounts:
     """Aggregated counts for a platform from various sources."""
 
     platform: str
-    source_records: int = 0
-    archive_complete_records: int = 0
-    index_total: int = 0
-    readme_count: int = 0
-    jsonld_count: int = 0
-    llms_txt_count: int = 0
-    llms_full_count: int = 0
+    source_records: int = 0           # L0_raw
+    l1_normalized_records: int = 0    # L1_normalized (from for_validation)
+    archive_complete_records: int = 0 # L2_published
+    index_total: int = 0              # L2_published (index)
+    readme_count: int = 0             # L3_display
+    jsonld_count: int = 0             # L2_published
+    llms_txt_count: int = 0           # L3_display
+    llms_full_count: int = 0          # inclusion boolean
     retired_in_source: int = 0
     retired_in_archive: int = 0
     retired_in_jsonld: int = 0
@@ -194,10 +198,19 @@ class PlatformCounts:
 class CrossArtifactValidator:
     """Main validator class for cross-artifact consistency."""
 
-    def __init__(self, strict: bool = True):
+    def __init__(self, strict: bool = True, warn_mode: bool = False):
         self.strict = strict
+        self.warn_mode = warn_mode
         self.results: list[ValidationResult] = []
         self.platform_data: dict[str, PlatformCounts] = {}
+        # Load layer manifest
+        try:
+            self.manifest: LayerManifest = load_manifest()
+            self.artifact_layer_map = get_artifact_layer_mapping()
+        except Exception as e:
+            logger.warning(f"Could not load layer manifest: {e}")
+            self.manifest = None
+            self.artifact_layer_map = {}
 
     def add_result(self, result: ValidationResult) -> None:
         """Add a validation result."""
@@ -253,16 +266,25 @@ class CrossArtifactValidator:
             ]
 
             total_records = 0
+            l1_normalized_records = 0
             retired_count = 0
             latest_date = None
+
+            # Get L1 output specification from manifest
+            l1_output_records = None
+            l1_output_streams = None
+            if self.manifest and platform_key in self.manifest.platforms:
+                l1_def = self.manifest.platforms[platform_key].L1_normalized
+                l1_output_records = l1_def.output_records
+                l1_output_streams = l1_def.output_streams
 
             for filepath in files:
                 try:
                     with open(filepath, "r", encoding="utf-8") as f:
                         data = json.load(f)
 
-                    # Extract records from various possible structures
-                    records = []
+                    # Extract all records for source_records (L0_raw)
+                    all_records = []
                     if isinstance(data, dict):
                         for key in (
                             "badges",
@@ -277,23 +299,21 @@ class CrossArtifactValidator:
                             "userCredentials",
                         ):
                             if key in data and isinstance(data[key], list):
-                                records.extend(data[key])
-                        # Also check for direct list
+                                all_records.extend(data[key])
                         if (
-                            not records
+                            not all_records
                             and "records" in data
                             and isinstance(data["records"], list)
                         ):
-                            records = data["records"]
+                            all_records = data["records"]
                     elif isinstance(data, list):
-                        records = data
+                        all_records = data
 
-                    for record in records:
+                    for record in all_records:
                         if isinstance(record, dict):
                             total_records += 1
                             if record.get("retired") is True:
                                 retired_count += 1
-                            # Try to find latest date
                             date_str = (
                                 record.get("date")
                                 or record.get("issued_at")
@@ -306,10 +326,27 @@ class CrossArtifactValidator:
                                         latest_date = dt
                                 except (ValueError, TypeError):
                                     pass
+
+                    # Extract L1_normalized records based on manifest
+                    # Priority: combined_feed (deduplicated) > output_records > sum of output_streams
+                    if isinstance(data, dict) and "combined_feed" in data:
+                        l1_records = data["combined_feed"]
+                        if isinstance(l1_records, list):
+                            l1_normalized_records = len([r for r in l1_records if isinstance(r, dict)])
+                    elif l1_output_records and isinstance(data, dict) and l1_output_records in data:
+                        l1_records = data[l1_output_records]
+                        if isinstance(l1_records, list):
+                            l1_normalized_records = len([r for r in l1_records if isinstance(r, dict)])
+                    elif l1_output_streams and isinstance(data, dict):
+                        for stream in l1_output_streams:
+                            if stream in data and isinstance(data[stream], list):
+                                l1_normalized_records += len([r for r in data[stream] if isinstance(r, dict)])
+
                 except Exception as e:
                     logger.warning(f"Failed to parse {filepath}: {e}")
 
             counts.source_records = total_records
+            counts.l1_normalized_records = l1_normalized_records if l1_normalized_records > 0 else total_records
             counts.retired_in_source = retired_count
             counts.latest_record_date_source = (
                 latest_date.isoformat() if latest_date else None
@@ -710,8 +747,56 @@ class CrossArtifactValidator:
                 )
             )
 
+    def _get_declared_transforms(self, platform_key: str) -> dict[str, tuple[str, str]]:
+        """Get declared layer transforms from manifest for a platform.
+        Returns mapping of (source_layer -> target_layer) -> transform_type.
+        """
+        if not self.manifest or platform_key not in self.manifest.platforms:
+            return {}
+        platform = self.manifest.platforms[platform_key]
+        transforms = {}
+
+        # L0 -> L1
+        if platform.L1_normalized.transform:
+            transforms[("L0_raw", "L1_normalized")] = platform.L1_normalized.transform.type
+        elif platform.L1_normalized.transforms:
+            for stream, tf in platform.L1_normalized.transforms.items():
+                transforms[("L0_raw", f"L1_normalized:{stream}")] = tf.type
+
+        # L1 -> L2
+        if platform.L2_published.transform:
+            transforms[("L1_normalized", "L2_published")] = platform.L2_published.transform.type
+        elif platform.L2_published.transforms:
+            for artifact, tf in platform.L2_published.transforms.items():
+                transforms[("L1_normalized", f"L2_published:{artifact}")] = tf.type
+
+        # L1 -> L3
+        if platform.L3_display.transform:
+            transforms[("L1_normalized", "L3_display")] = platform.L3_display.transform.type
+        elif platform.L3_display.transforms:
+            for artifact, tf in platform.L3_display.transforms.items():
+                transforms[("L1_normalized", f"L3_display:{artifact}")] = tf.type
+
+        return transforms
+
+    def _counts_for_layer(self, platform_key: str, layer: str) -> int:
+        """Get record count for a specific layer from platform_data."""
+        counts = self.platform_data.get(platform_key)
+        if not counts:
+            return 0
+
+        # Map layer names to PlatformCounts attributes
+        layer_map = {
+            "L0_raw": "source_records",
+            "L1_normalized": "l1_normalized_records",
+            "L2_published": "archive_complete_records",
+            "L3_display": "readme_count",
+        }
+        attr = layer_map.get(layer)
+        return getattr(counts, attr, 0) if attr else 0
+
     def validate_cross_artifact_consistency(self) -> None:
-        """Cross-compare counts across all artifacts with smart like-for-like comparisons."""
+        """Cross-compare counts across all artifacts using declared layer transforms."""
         logger.info("🔍 Validating cross-artifact consistency...")
 
         # Map comparison source names to actual PlatformCounts attributes
@@ -730,49 +815,56 @@ class CrossArtifactValidator:
             if not counts:
                 continue
 
-            # Define expected matching pairs (source1, source2, tolerance_pct, description)
-            # Tolerance of 0 means exact match required
-            comparisons = [
-                # Core archive consistency
-                ("archive_complete", "index", 0, "Archive complete vs Index total"),
-                # JSON-LD is generated from archives, should be close
-                ("archive_complete", "jsonld", 5, "Archive complete vs JSON-LD"),
-                # README and llms.txt should match (llms.txt scrapes README)
-                ("readme", "llms_txt", 0, "README vs llms.txt"),
-            ]
+            # Get declared transforms from manifest
+            declared = self._get_declared_transforms(platform_key)
 
-            # Platform-specific adjustments
-            if platform_key == "google-developer":
-                # Google Developer index only counts badges (171), archive has badges+activities (1631)
-                # This is expected behavior, so skip index comparison
+            # Build comparisons based on manifest
+            comparisons = []
+
+            # L2_published artifacts should match (archive_complete vs index)
+            if "L2_published" in declared.get(("L1_normalized", "L2_published"), "") or \
+               any(k[1].startswith("L2_published") for k in declared):
+                comparisons.append(("archive_complete", "index", 0, "Archive complete vs Index total (L2_published)"))
+
+            # L1 -> L2 (archive_complete vs jsonld both from L2_published)
+            if ("L1_normalized", "L2_published") in declared or \
+               any(k[1].startswith("L2_published") for k in declared):
+                comparisons.append(("archive_complete", "jsonld", 5, "Archive complete vs JSON-LD (L2_published)"))
+
+            # L1 -> L3 (readme vs llms_txt both from L3_display)
+            if ("L1_normalized", "L3_display") in declared or \
+               any(k[1].startswith("L3_display") for k in declared):
+                comparisons.append(("readme", "llms_txt", 0, "README vs llms.txt (L3_display)"))
+
+            # If no declared transforms, fall back to legacy behavior
+            if not comparisons:
                 comparisons = [
+                    ("archive_complete", "index", 0, "Archive complete vs Index total"),
                     ("archive_complete", "jsonld", 5, "Archive complete vs JSON-LD"),
                     ("readme", "llms_txt", 0, "README vs llms.txt"),
                 ]
-            elif platform_key in ("google-skills", "credly"):
-                # These have 0 records in archive - skip archive comparisons
-                comparisons = [
-                    ("readme", "llms_txt", 0, "README vs llms.txt"),
-                ]
-            elif platform_key == "aws-skills":
-                # AWS JSON-LD parses more records (704 vs 626) - allow 15% tolerance
-                comparisons = [
-                    ("archive_complete", "index", 0, "Archive complete vs Index total"),
-                    ("archive_complete", "jsonld", 15, "Archive complete vs JSON-LD"),
-                    ("readme", "llms_txt", 0, "README vs llms.txt"),
-                ]
-            elif platform_key == "linkedin-certifications":
-                # LinkedIn JSON-LD has significant discrepancy (568 vs 1479) - flag as error
-                comparisons = [
-                    ("archive_complete", "index", 0, "Archive complete vs Index total"),
-                    (
-                        "archive_complete",
-                        "jsonld",
-                        0,
-                        "Archive complete vs JSON-LD (EXPECTED TO MATCH)",
-                    ),
-                    ("readme", "llms_txt", 0, "README vs llms.txt"),
-                ]
+                # Legacy platform-specific adjustments
+                if platform_key == "google-developer":
+                    comparisons = [
+                        ("archive_complete", "jsonld", 5, "Archive complete vs JSON-LD"),
+                        ("readme", "llms_txt", 0, "README vs llms.txt"),
+                    ]
+                elif platform_key in ("google-skills", "credly"):
+                    comparisons = [
+                        ("readme", "llms_txt", 0, "README vs llms.txt"),
+                    ]
+                elif platform_key == "aws-skills":
+                    comparisons = [
+                        ("archive_complete", "index", 0, "Archive complete vs Index total"),
+                        ("archive_complete", "jsonld", 15, "Archive complete vs JSON-LD"),
+                        ("readme", "llms_txt", 0, "README vs llms.txt"),
+                    ]
+                elif platform_key == "linkedin-certifications":
+                    comparisons = [
+                        ("archive_complete", "index", 0, "Archive complete vs Index total"),
+                        ("archive_complete", "jsonld", 0, "Archive complete vs JSON-LD (EXPECTED TO MATCH)"),
+                        ("readme", "llms_txt", 0, "README vs llms.txt"),
+                    ]
 
             for source1, source2, tolerance_pct, description in comparisons:
                 attr1 = attr_map.get(source1)
@@ -799,10 +891,10 @@ class CrossArtifactValidator:
                 if tolerance_pct == 0:
                     passed = val1 == val2
                 else:
-                    # Allow tolerance percentage difference
                     diff_pct = abs(val1 - val2) / max(val1, val2) * 100
                     passed = diff_pct <= tolerance_pct
 
+                severity = "error" if not passed and not self.warn_mode else ("warning" if not passed else "error")
                 self.add_result(
                     ValidationResult(
                         check_name=f"count_consistency_{source1}_vs_{source2}",
@@ -813,10 +905,75 @@ class CrossArtifactValidator:
                         else val2,
                         actual=val1,
                         message=f"{description}: {source1}={val1} vs {source2}={val2} {'✓' if passed else '✗ MISMATCH'}",
+                        severity=severity,
                     )
                 )
 
-            # llms-full inclusion check (boolean, not count)
+            # Declared transformation verification
+            for (src_layer, tgt_layer), transform_type in declared.items():
+                src_count = self._counts_for_layer(platform_key, src_layer)
+                tgt_count = self._counts_for_layer(platform_key, tgt_layer.split(":")[0])
+
+                if src_count > 0 and tgt_count > 0:
+                    # Verify transform expectations
+                    expected_equal = transform_type in ("1:1_pass_through", "combine_streams", "split_streams")
+                    passed = (src_count == tgt_count) if expected_equal else True  # Other transforms may change count
+
+                    self.add_result(
+                        ValidationResult(
+                            check_name=f"declared_transform_{src_layer}_to_{tgt_layer}",
+                            platform=platform_key,
+                            passed=passed,
+                            expected=f"{src_count} (transform: {transform_type})",
+                            actual=tgt_count,
+                            message=f"Declared transform {src_layer} -> {tgt_layer} ({transform_type}): {src_count} -> {tgt_count} {'✓' if passed else '✗ MISMATCH'}",
+                            severity="error" if not passed and not self.warn_mode else ("warning" if not passed else "error"),
+                        )
+                    )
+
+            # Undeclared discrepancy detection
+            # Compare all artifact pairs and flag any not explained by manifest
+            artifact_sources = {
+                "archive_complete": "archive_complete_records",
+                "index": "index_total",
+                "jsonld": "jsonld_count",
+                "readme": "readme_count",
+                "llms_txt": "llms_txt_count",
+            }
+
+            # Check each pair
+            artifact_names = list(artifact_sources.keys())
+            for i, art1 in enumerate(artifact_names):
+                for art2 in artifact_names[i+1:]:
+                    # Skip if this pair is explained by a declared transform
+                    explained = False
+                    for (src, tgt) in declared:
+                        src_artifacts = self._artifacts_for_layer(platform_key, src)
+                        tgt_artifacts = self._artifacts_for_layer(platform_key, tgt.split(":")[0])
+                        if art1 in src_artifacts and art2 in tgt_artifacts:
+                            explained = True
+                            break
+                        if art2 in src_artifacts and art1 in tgt_artifacts:
+                            explained = True
+                            break
+
+                    if not explained:
+                        val1 = getattr(counts, artifact_sources[art1], 0)
+                        val2 = getattr(counts, artifact_sources[art2], 0)
+                        if val1 > 0 and val2 > 0 and val1 != val2:
+                            self.add_result(
+                                ValidationResult(
+                                    check_name=f"undeclared_discrepancy_{art1}_vs_{art2}",
+                                    platform=platform_key,
+                                    passed=False,
+                                    expected=val2,
+                                    actual=val1,
+                                    message=f"Undeclared discrepancy: {art1}={val1} vs {art2}={val2} (not explained by manifest)",
+                                    severity="error" if not self.warn_mode else "warning",
+                                )
+                            )
+
+            # llms-full inclusion check
             if counts.llms_full_count > 0:
                 self.add_result(
                     ValidationResult(
@@ -840,7 +997,7 @@ class CrossArtifactValidator:
                     )
                 )
 
-            # Retirement consistency - compare archive vs JSON-LD
+            # Retirement consistency
             if counts.retired_in_archive > 0 and counts.retired_in_jsonld > 0:
                 passed = counts.retired_in_archive == counts.retired_in_jsonld
                 self.add_result(
@@ -864,6 +1021,16 @@ class CrossArtifactValidator:
                         severity="warning",
                     )
                 )
+
+    def _artifacts_for_layer(self, platform_key: str, layer: str) -> list[str]:
+        """Get artifact names that consume a given layer for a platform."""
+        if not self.manifest or platform_key not in self.manifest.platforms:
+            return []
+        platform = self.manifest.platforms[platform_key]
+        layer_def = getattr(platform, layer, None)
+        if layer_def:
+            return layer_def.artifacts
+        return []
 
     def validate_platform_coverage(self) -> None:
         """Ensure all platforms appear in all generated artifacts."""
@@ -1149,18 +1316,18 @@ def main():
 
     parser = argparse.ArgumentParser(description="Cross-artifact semantic validator")
     parser.add_argument(
-        "--strict", action="store_true", default=True, help="Fail on any error"
+        "--mode",
+        choices=["strict", "warn"],
+        default="strict",
+        help="Validation mode: strict (fail on errors) or warn (treat errors as warnings)"
     )
     parser.add_argument(
         "--report", default="cross_artifact_report.json", help="Output report path"
     )
-    parser.add_argument(
-        "--warn-only", action="store_true", help="Treat errors as warnings"
-    )
 
     args = parser.parse_args()
 
-    validator = CrossArtifactValidator(strict=not args.warn_only)
+    validator = CrossArtifactValidator(strict=(args.mode == "strict"), warn_mode=(args.mode == "warn"))
     success = validator.run_all()
     validator.generate_report(args.report)
 
