@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-21T00:21:46.821935+00:00",
+  "timestamp": "2026-08-22T23:21:23.327449+00:00",
   "summary": {
     "total": 102,
-    "passed": 79,
-    "failed": 10,
+    "passed": 83,
+    "failed": 6,
     "warnings": 13
   },
   "platforms": {
@@ -26,16 +26,16 @@
       "source_records": 0,
       "archive_complete_records": 0,
       "index_total": 0,
-      "readme_count": 345,
-      "jsonld_count": 0,
-      "llms_txt_count": 0,
+      "readme_count": 350,
+      "jsonld_count": 350,
+      "llms_txt_count": 350,
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
       "latest_record_date_source": null,
       "latest_record_date_archive": null,
-      "latest_record_date_jsonld": null
+      "latest_record_date_jsonld": "2026-01-01T00:00:00"
     },
     "aws-skills": {
       "source_records": 655,
@@ -57,15 +57,15 @@
       "archive_complete_records": 0,
       "index_total": 0,
       "readme_count": 556,
-      "jsonld_count": 0,
-      "llms_txt_count": 0,
+      "jsonld_count": 556,
+      "llms_txt_count": 556,
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
       "latest_record_date_source": null,
       "latest_record_date_archive": null,
-      "latest_record_date_jsonld": null
+      "latest_record_date_jsonld": "2026-08-19T00:00:00"
     },
     "linkedin-certifications": {
       "source_records": 1479,
@@ -83,19 +83,19 @@
       "latest_record_date_jsonld": null
     },
     "google-developer": {
-      "source_records": 3269,
-      "archive_complete_records": 1631,
+      "source_records": 3291,
+      "archive_complete_records": 1642,
       "index_total": 171,
       "readme_count": 171,
-      "jsonld_count": 1631,
+      "jsonld_count": 1642,
       "llms_txt_count": 171,
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
-      "latest_record_date_source": "2026-08-17T00:00:00",
-      "latest_record_date_archive": "2026-08-17T00:00:00",
-      "latest_record_date_jsonld": "2026-08-17T00:00:00"
+      "latest_record_date_source": "2026-08-22T00:00:00",
+      "latest_record_date_archive": "2026-08-22T00:00:00",
+      "latest_record_date_jsonld": "2026-08-22T00:00:00"
     }
   },
   "results": [
@@ -149,8 +149,8 @@
       "platform": "google-developer",
       "passed": true,
       "expected": "> 0",
-      "actual": 3269,
-      "message": "Source snapshot has 3269 records (0 retired)",
+      "actual": 3291,
+      "message": "Source snapshot has 3291 records (0 retired)",
       "severity": "warning"
     },
     {
@@ -203,8 +203,8 @@
       "platform": "google-developer",
       "passed": true,
       "expected": "> 0",
-      "actual": 1631,
-      "message": "Complete archive has 1631 records (0 retired)",
+      "actual": 1642,
+      "message": "Complete archive has 1642 records (0 retired)",
       "severity": "error"
     },
     {
@@ -275,8 +275,8 @@
       "platform": "google-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 345,
-      "message": "README reports 345 records",
+      "actual": 350,
+      "message": "README reports 350 records",
       "severity": "error"
     },
     {
@@ -327,10 +327,10 @@
     {
       "check": "jsonld_count",
       "platform": "google-skills",
-      "passed": false,
+      "passed": true,
       "expected": "> 0",
-      "actual": 0,
-      "message": "JSON-LD has 0 credentials (0 retired)",
+      "actual": 350,
+      "message": "JSON-LD has 350 credentials (0 retired)",
       "severity": "error"
     },
     {
@@ -345,10 +345,10 @@
     {
       "check": "jsonld_count",
       "platform": "credly",
-      "passed": false,
+      "passed": true,
       "expected": "> 0",
-      "actual": 0,
-      "message": "JSON-LD has 0 credentials (0 retired)",
+      "actual": 556,
+      "message": "JSON-LD has 556 credentials (0 retired)",
       "severity": "error"
     },
     {
@@ -365,8 +365,8 @@
       "platform": "google-developer",
       "passed": true,
       "expected": "> 0",
-      "actual": 1631,
-      "message": "JSON-LD has 1631 credentials (0 retired)",
+      "actual": 1642,
+      "message": "JSON-LD has 1642 credentials (0 retired)",
       "severity": "error"
     },
     {
@@ -381,10 +381,10 @@
     {
       "check": "llms_txt_count",
       "platform": "google-skills",
-      "passed": false,
+      "passed": true,
       "expected": "> 0",
-      "actual": 0,
-      "message": "llms.txt reports 0 records",
+      "actual": 350,
+      "message": "llms.txt reports 350 records",
       "severity": "error"
     },
     {
@@ -399,10 +399,10 @@
     {
       "check": "llms_txt_count",
       "platform": "credly",
-      "passed": false,
+      "passed": true,
       "expected": "> 0",
-      "actual": 0,
-      "message": "llms.txt reports 0 records",
+      "actual": 556,
+      "message": "llms.txt reports 556 records",
       "severity": "error"
     },
     {
@@ -609,17 +609,17 @@
       "passed": true,
       "expected": null,
       "actual": null,
-      "message": "Archive complete vs JSON-LD (L2_published): Skipped (one source has 0 or missing data: archive_complete=0, jsonld=0)",
+      "message": "Archive complete vs JSON-LD (L2_published): Skipped (one source has 0 or missing data: archive_complete=0, jsonld=350)",
       "severity": "warning"
     },
     {
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "google-skills",
       "passed": true,
-      "expected": null,
-      "actual": null,
-      "message": "README vs llms.txt (L3_display): Skipped (one source has 0 or missing data: readme=345, llms_txt=0)",
-      "severity": "warning"
+      "expected": 350,
+      "actual": 350,
+      "message": "README vs llms.txt (L3_display): readme=350 vs llms_txt=350 ✓",
+      "severity": "error"
     },
     {
       "check": "llms_full_includes_platform",
@@ -717,17 +717,17 @@
       "passed": true,
       "expected": null,
       "actual": null,
-      "message": "Archive complete vs JSON-LD (L2_published): Skipped (one source has 0 or missing data: archive_complete=0, jsonld=0)",
+      "message": "Archive complete vs JSON-LD (L2_published): Skipped (one source has 0 or missing data: archive_complete=0, jsonld=556)",
       "severity": "warning"
     },
     {
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "credly",
       "passed": true,
-      "expected": null,
-      "actual": null,
-      "message": "README vs llms.txt (L3_display): Skipped (one source has 0 or missing data: readme=556, llms_txt=0)",
-      "severity": "warning"
+      "expected": 556,
+      "actual": 556,
+      "message": "README vs llms.txt (L3_display): readme=556 vs llms_txt=556 ✓",
+      "severity": "error"
     },
     {
       "check": "llms_full_includes_platform",
@@ -806,17 +806,17 @@
       "platform": "google-developer",
       "passed": false,
       "expected": 171,
-      "actual": 1631,
-      "message": "Archive complete vs Index total (L2_published): archive_complete=1631 vs index=171 ✗ MISMATCH",
+      "actual": 1642,
+      "message": "Archive complete vs Index total (L2_published): archive_complete=1642 vs index=171 ✗ MISMATCH",
       "severity": "warning"
     },
     {
       "check": "count_consistency_archive_complete_vs_jsonld",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1631 (±5%)",
-      "actual": 1631,
-      "message": "Archive complete vs JSON-LD (L2_published): archive_complete=1631 vs jsonld=1631 ✓",
+      "expected": "1642 (±5%)",
+      "actual": 1642,
+      "message": "Archive complete vs JSON-LD (L2_published): archive_complete=1642 vs jsonld=1642 ✓",
       "severity": "error"
     },
     {
@@ -832,54 +832,54 @@
       "check": "declared_transform_L0_raw_to_L1_normalized:milestones",
       "platform": "google-developer",
       "passed": true,
-      "expected": "3269 (transform: extract_milestone_badges_dedupe)",
-      "actual": 1631,
-      "message": "Declared transform L0_raw -> L1_normalized:milestones (extract_milestone_badges_dedupe): 3269 -> 1631 ✓",
+      "expected": "3291 (transform: extract_milestone_badges_dedupe)",
+      "actual": 1642,
+      "message": "Declared transform L0_raw -> L1_normalized:milestones (extract_milestone_badges_dedupe): 3291 -> 1642 ✓",
       "severity": "error"
     },
     {
       "check": "declared_transform_L0_raw_to_L1_normalized:micro_learnings",
       "platform": "google-developer",
       "passed": true,
-      "expected": "3269 (transform: parse_local_learnings_dedupe)",
-      "actual": 1631,
-      "message": "Declared transform L0_raw -> L1_normalized:micro_learnings (parse_local_learnings_dedupe): 3269 -> 1631 ✓",
+      "expected": "3291 (transform: parse_local_learnings_dedupe)",
+      "actual": 1642,
+      "message": "Declared transform L0_raw -> L1_normalized:micro_learnings (parse_local_learnings_dedupe): 3291 -> 1642 ✓",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published:archive_complete",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1631 (transform: combine_streams)",
-      "actual": 1631,
-      "message": "Declared transform L1_normalized -> L2_published:archive_complete (combine_streams): 1631 -> 1631 ✓",
+      "expected": "1642 (transform: combine_streams)",
+      "actual": 1642,
+      "message": "Declared transform L1_normalized -> L2_published:archive_complete (combine_streams): 1642 -> 1642 ✓",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published:archive_index",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1631 (transform: split_streams)",
-      "actual": 1631,
-      "message": "Declared transform L1_normalized -> L2_published:archive_index (split_streams): 1631 -> 1631 ✓",
+      "expected": "1642 (transform: split_streams)",
+      "actual": 1642,
+      "message": "Declared transform L1_normalized -> L2_published:archive_index (split_streams): 1642 -> 1642 ✓",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published:jsonld",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1631 (transform: combine_streams)",
-      "actual": 1631,
-      "message": "Declared transform L1_normalized -> L2_published:jsonld (combine_streams): 1631 -> 1631 ✓",
+      "expected": "1642 (transform: combine_streams)",
+      "actual": 1642,
+      "message": "Declared transform L1_normalized -> L2_published:jsonld (combine_streams): 1642 -> 1642 ✓",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L3_display",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1631 (transform: count_streams_separately)",
+      "expected": "1642 (transform: count_streams_separately)",
       "actual": 171,
-      "message": "Declared transform L1_normalized -> L3_display (count_streams_separately): 1631 -> 171 ✓",
+      "message": "Declared transform L1_normalized -> L3_display (count_streams_separately): 1642 -> 171 ✓",
       "severity": "error"
     },
     {
@@ -887,8 +887,8 @@
       "platform": "google-developer",
       "passed": false,
       "expected": 171,
-      "actual": 1631,
-      "message": "Undeclared discrepancy: archive_complete=1631 vs index=171 (not explained by manifest)",
+      "actual": 1642,
+      "message": "Undeclared discrepancy: archive_complete=1642 vs index=171 (not explained by manifest)",
       "severity": "warning"
     },
     {
@@ -896,8 +896,8 @@
       "platform": "google-developer",
       "passed": false,
       "expected": 171,
-      "actual": 1631,
-      "message": "Undeclared discrepancy: archive_complete=1631 vs readme=171 (not explained by manifest)",
+      "actual": 1642,
+      "message": "Undeclared discrepancy: archive_complete=1642 vs readme=171 (not explained by manifest)",
       "severity": "warning"
     },
     {
@@ -905,17 +905,17 @@
       "platform": "google-developer",
       "passed": false,
       "expected": 171,
-      "actual": 1631,
-      "message": "Undeclared discrepancy: archive_complete=1631 vs llms_txt=171 (not explained by manifest)",
+      "actual": 1642,
+      "message": "Undeclared discrepancy: archive_complete=1642 vs llms_txt=171 (not explained by manifest)",
       "severity": "warning"
     },
     {
       "check": "undeclared_discrepancy_index_vs_jsonld",
       "platform": "google-developer",
       "passed": false,
-      "expected": 1631,
+      "expected": 1642,
       "actual": 171,
-      "message": "Undeclared discrepancy: index=171 vs jsonld=1631 (not explained by manifest)",
+      "message": "Undeclared discrepancy: index=171 vs jsonld=1642 (not explained by manifest)",
       "severity": "warning"
     },
     {
@@ -923,8 +923,8 @@
       "platform": "google-developer",
       "passed": false,
       "expected": 171,
-      "actual": 1631,
-      "message": "Undeclared discrepancy: jsonld=1631 vs readme=171 (not explained by manifest)",
+      "actual": 1642,
+      "message": "Undeclared discrepancy: jsonld=1642 vs readme=171 (not explained by manifest)",
       "severity": "warning"
     },
     {
@@ -932,8 +932,8 @@
       "platform": "google-developer",
       "passed": false,
       "expected": 171,
-      "actual": 1631,
-      "message": "Undeclared discrepancy: jsonld=1631 vs llms_txt=171 (not explained by manifest)",
+      "actual": 1642,
+      "message": "Undeclared discrepancy: jsonld=1642 vs llms_txt=171 (not explained by manifest)",
       "severity": "warning"
     },
     {
@@ -1084,7 +1084,7 @@
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-08-17 to 2026-08-17)",
+      "message": "Latest record dates span 0 days across artifacts (2026-08-22 to 2026-08-22)",
       "severity": "warning"
     }
   ]

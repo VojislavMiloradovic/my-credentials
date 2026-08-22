@@ -19,6 +19,14 @@ from typing import Any
 import requests
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
+# Playwright for JS-rendered dates
+try:
+    from playwright.sync_api import sync_playwright
+    PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    PLAYWRIGHT_AVAILABLE = False
+    sync_playwright = None
+
 # Archive Integration Helper
 try:
     from archiver import RAW_BASE_DEFAULT, generate_platform_archive, safe_write_file
@@ -399,6 +407,133 @@ def parse_google_badges_from_json(json_path: str) -> list[dict]:
         return []
 
 
+def fetch_google_skills_badges_playwright(profile_id: str, url: str | None = None) -> list[dict]:
+    """Fetch Google Skills badges using Playwright to get JS-rendered dates."""
+    if not PLAYWRIGHT_AVAILABLE:
+        return []
+    
+    target_url = url or f"https://www.skills.google/public_profiles/{profile_id}"
+    logger.info(f"🎭 Launching Playwright to fetch: {target_url}")
+    
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            
+            # Set a reasonable timeout
+            page.set_default_timeout(90000)
+            
+            # Navigate and wait for DOM content loaded
+            page.goto(target_url, wait_until="domcontentloaded", timeout=90000)
+            
+            # Wait for badge elements to render
+            for selector in ["text=Earned", "text=earned", "[class*='earned']", "[class*='date']"]:
+                try:
+                    page.wait_for_selector(selector, timeout=15000)
+                    break
+                except Exception:
+                    continue
+            
+            # Give a moment for all badges to render
+            page.wait_for_timeout(5000)
+            
+            # Extract badges and dates directly from DOM using JavaScript
+            # Structure: .profile-badge contains .badge-image (link), .ql-title-medium (title), .ql-body-medium (date)
+            badges_data = page.evaluate("""
+                () => {
+                    const results = [];
+                    // Find all badge containers
+                    const badgeContainers = document.querySelectorAll('.profile-badge');
+                    
+                    badgeContainers.forEach(container => {
+                        // Get the badge link
+                        const link = container.querySelector('.badge-image');
+                        if (!link) return;
+                        
+                        const href = link.href;
+                        const badgeIdMatch = href.match(/\\/badges\\/(\\d+)/);
+                        const badgeId = badgeIdMatch ? `google-skills-badge-${badgeIdMatch[1]}` : null;
+                        
+                        // Get title from .ql-title-medium
+                        const titleEl = container.querySelector('.ql-title-medium');
+                        const title = titleEl ? titleEl.textContent?.trim() : null;
+                        
+                        // Get date from .ql-body-medium (contains "Earned ...")
+                        const dateEl = container.querySelector('.ql-body-medium');
+                        let earnedDate = null;
+                        if (dateEl) {
+                            const text = dateEl.textContent || '';
+                            const match = text.match(/Earned\\s+([A-Za-z]{3}\\s+\\d{1,2},?\\s+\\d{4})/i);
+                            if (match) {
+                                earnedDate = match[1];
+                            }
+                        }
+                        
+                        if (title) {
+                            results.push({
+                                id: badgeId,
+                                title: title,
+                                href: href,
+                                earnedDate: earnedDate
+                            });
+                        }
+                    });
+                    
+                    return results;
+                }
+            """)
+            
+            browser.close()
+        
+        logger.info(f"🎭 Playwright extracted {len(badges_data)} badges from DOM")
+        
+        parsed = []
+        for badge in badges_data:
+            title = badge.get("title", "").strip()
+            if not title:
+                continue
+            
+            href = badge.get("href", "")
+            m = re.search(r"/badges/(\d+)", href)
+            b_id = f"google-skills-badge-{m.group(1)}" if m else badge.get("id") or generate_badge_id(title, None)
+            verify = f"https://www.skills.google{href}" if href.startswith("/") else href
+            
+            # Parse the earned date
+            dt = None
+            earned_date = badge.get("earnedDate")
+            if earned_date:
+                dt = normalize_date_string(earned_date)
+            
+            raw_entry = {
+                "id": b_id,
+                "title": title,
+                "name": title,
+                "issuer": "Google Cloud",
+                "issuer_name": "Google Cloud",
+                "issued_at": dt,
+                "issued_at_date": dt,
+                "date": dt,
+                "verify_url": verify,
+                "url": verify,
+                "type": "Google Skill Badge",
+                "verification_type": "Google Skill Badge",
+                "skills": [title],
+            }
+            try:
+                parsed.append(GoogleBadgeItemModel(**raw_entry).model_dump())
+            except ValidationError:
+                pass
+        
+        if parsed:
+            with_dates = sum(1 for b in parsed if b.get("issued_at"))
+            logger.info(f"🎭 Playwright successfully retrieved {len(parsed)} badges ({with_dates} with dates)")
+            return parsed
+        return []
+    except Exception as e:
+        logger.warning(f"⚠️ Playwright scraping failed: {e}")
+        return []
+
+
 def fetch_google_skills_badges(profile_id: str) -> list[dict]:
     """Orchestrates fetching Google Skills badges via profile JSON/HTML endpoints or local fallbacks."""
     # 1. Primary Strategy: Public Profile Endpoints (JSON + HTML)
@@ -408,6 +543,8 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
         (f"https://www.skills.google/public_profiles/{profile_id}", False),
         (f"https://cloudskillsboost.google/public_profiles/{profile_id}", False),
     ]
+
+    html_endpoint_accessible = False
 
     for url, is_json in endpoints:
         logger.info(f"🔄 Attempting fetch from Google Skills endpoint: {url}")
@@ -419,6 +556,8 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
         try:
             response = requests.get(url, headers=headers, timeout=20)
             if response.status_code == 200:
+                if not is_json:
+                    html_endpoint_accessible = True
                 if is_json or "json" in response.headers.get("Content-Type", ""):
                     try:
                         data = response.json()
@@ -545,6 +684,15 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                                 except ValidationError:
                                     pass
                         if parsed:
+                            # Check if any badges have dates; if not, try Playwright
+                            has_dates = any(b.get("issued_at") for b in parsed)
+                            if not has_dates and PLAYWRIGHT_AVAILABLE:
+                                logger.info(
+                                    "🔄 No dates in static HTML; trying Playwright for JS-rendered dates..."
+                                )
+                                pw_parsed = fetch_google_skills_badges_playwright(profile_id, url)
+                                if pw_parsed:
+                                    return pw_parsed
                             logger.info(
                                 f"✅ Successfully retrieved {len(parsed)} badges via HTML profile page."
                             )
@@ -559,6 +707,14 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                 )
         except requests.exceptions.RequestException as e:
             logger.info(f"ℹ️ Network request to {url} skipped/failed: {e}")
+
+    # Try Playwright as final attempt before local fallback
+    # Only if at least one HTML endpoint was accessible (returned 200)
+    if PLAYWRIGHT_AVAILABLE and html_endpoint_accessible:
+        logger.info("🔄 Trying Playwright for JS-rendered badges and dates...")
+        pw_parsed = fetch_google_skills_badges_playwright(profile_id)
+        if pw_parsed:
+            return pw_parsed
 
     # 2. Secondary Strategy: Fallback to local data files
     json_candidates = [
