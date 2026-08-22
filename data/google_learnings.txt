@@ -63,6 +63,9 @@ Cloud Run private access to Cloud Storage Global endpoint and Regional endpoint
 App Distribution and Monetization quiz
 7. јун 2026.
 
+Achieve instant navigations with the Speculation Rules API
+22. авг 2026.
+
 Create your first Android app
 6. јун 2026.
 
@@ -209,6 +212,9 @@ Triggering a DAG with Node.JS and Google Cloud Functions
 
 Create an online banking application with Spanner
 22. јун 2026.
+
+Wrangling unstructured data with LLM-driven vector embedding
+22. авг 2026.
 
 Load and display images from the internet
 6. јун 2026.
@@ -621,6 +627,9 @@ Modern Android App Architecture
 Android developer tools quiz
 7. јун 2026.
 
+Getting started with vector embeddings in Cloud SQL for PostgreSQL
+22. авг 2026.
+
 Data Science with Spark
 22. јун 2026.
 
@@ -719,6 +728,9 @@ Live Streaming on Google Cloud with Media CDN and Live Streaming API
 
 Enable Private Service Connect on existing Cloud SQL instance running PSA (Terraform)
 24. мај 2026.
+
+Semantic Analysis in BigQuery with managed AI functions and SQL
+22. авг 2026.
 
 Firebase App Check for Apple platforms
 3. јун 2026.
@@ -1158,6 +1170,9 @@ Build with Firebase Data Connect (iOS / Swift)
 Install and use Cloud Tools for PowerShell
 9. јун 2026.
 
+(Deprecated) Login with Biometrics on Android
+22. авг 2026.
+
 Google Ads with Google Analytics for Firebase custom events - Android
 9. јун 2026.
 
@@ -1229,6 +1244,9 @@ Deploy a basic "Google Translate" app on Python 2 Cloud Run (Docker)
 
 How to Migrate from Firebase Studio to Antigravity
 9. јун 2026.
+
+Table for N: eval as the gate, evolution as the loop
+22. авг 2026.
 
 Use BigQuery Remote Functions to ask questions to Vertex AI Visual Question Answering (VQA) in a SQL query
 26. мај 2026.
@@ -1638,6 +1656,9 @@ Building a Real-Time Surplus Engine with Gemini 3 Flash & AlloyDB
 Using Gemini Code Assist to explore and enhance AI Summarization Jump Start Solution
 9. јун 2026.
 
+How to build long-term AI agent memory with AlloyDB AI
+22. авг 2026.
+
 Lesson 6: App navigation
 6. јун 2026.
 
@@ -1953,6 +1974,9 @@ Next ‘26 Developer Keynote: Enhancing Agents with Memory
 Dependency management with Artifact Registry
 26. мај 2026.
 
+Serving AVIF Images
+22. авг 2026.
+
 Route Datadog monitoring alerts to Google Cloud with Eventarc (Part 2)
 9. јун 2026.
 
@@ -2051,6 +2075,9 @@ How to connect your Android device
 
 Cloud Run Starter Tutorial
 10. јун 2026.
+
+Analyze and enrich enterprise data with generative AI and SQL in BigQuery
+22. авг 2026.
 
 Code Generation Agent on GKE
 21. мај 2026.
@@ -2567,6 +2594,9 @@ Bitbucket - Code Review Automation with GenAI
 
 Using textembedding-gecko@003 for Vector Embeddings
 26. мај 2026.
+
+Fraud Detection Pipeline with Data Agent Kit & Antigravity IDE
+22. авг 2026.
 
 How to Build an MCP Server with Gemini CLI and Go
 23. мај 2026.
@@ -3855,6 +3885,9 @@ Build a basic layout
 Explaining a fraud detection model with Cloud AI Platform
 9. јун 2026.
 
+Progressive Web Apps: Going Offline
+22. авг 2026.
+
 Getting started with App Engine (Python 3)
 10. јун 2026.
 
@@ -4047,6 +4080,9 @@ Asynchronous invocation of agentic AI application using events
 Private Service Connect for Google APIs
 9. јун 2026.
 
+Control a PLAYBULB Candle with Web Bluetooth
+22. авг 2026.
+
 Toy Store Search App with Cloud Databases, Serverless Runtimes and Open Source Integrations
 21. мај 2026.
 
@@ -4157,6 +4193,9 @@ Building a Multi-Agent System using Gemini and Gemma models
 
 Performance Monitoring of Feature Rollouts
 3. јун 2026.
+
+How to execute Python and Node.js in a Cloud Run Sandbox
+22. авг 2026.
 
 Learn CSS
 25. јун 2026.
