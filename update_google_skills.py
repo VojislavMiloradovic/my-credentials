@@ -22,6 +22,7 @@ from pydantic import BaseModel, Field, ValidationError, field_validator
 # Playwright for JS-rendered dates
 try:
     from playwright.sync_api import sync_playwright
+
     PLAYWRIGHT_AVAILABLE = True
 except ImportError:
     PLAYWRIGHT_AVAILABLE = False
@@ -407,36 +408,43 @@ def parse_google_badges_from_json(json_path: str) -> list[dict]:
         return []
 
 
-def fetch_google_skills_badges_playwright(profile_id: str, url: str | None = None) -> list[dict]:
+def fetch_google_skills_badges_playwright(
+    profile_id: str, url: str | None = None
+) -> list[dict]:
     """Fetch Google Skills badges using Playwright to get JS-rendered dates."""
     if not PLAYWRIGHT_AVAILABLE:
         return []
-    
+
     target_url = url or f"https://www.skills.google/public_profiles/{profile_id}"
     logger.info(f"🎭 Launching Playwright to fetch: {target_url}")
-    
+
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page()
-            
+
             # Set a reasonable timeout
             page.set_default_timeout(90000)
-            
+
             # Navigate and wait for DOM content loaded
             page.goto(target_url, wait_until="domcontentloaded", timeout=90000)
-            
+
             # Wait for badge elements to render
-            for selector in ["text=Earned", "text=earned", "[class*='earned']", "[class*='date']"]:
+            for selector in [
+                "text=Earned",
+                "text=earned",
+                "[class*='earned']",
+                "[class*='date']",
+            ]:
                 try:
                     page.wait_for_selector(selector, timeout=15000)
                     break
                 except Exception:
                     continue
-            
+
             # Give a moment for all badges to render
             page.wait_for_timeout(5000)
-            
+
             # Extract badges and dates directly from DOM using JavaScript
             # Structure: .profile-badge contains .badge-image (link), .ql-title-medium (title), .ql-body-medium (date)
             badges_data = page.evaluate("""
@@ -482,28 +490,34 @@ def fetch_google_skills_badges_playwright(profile_id: str, url: str | None = Non
                     return results;
                 }
             """)
-            
+
             browser.close()
-        
+
         logger.info(f"🎭 Playwright extracted {len(badges_data)} badges from DOM")
-        
+
         parsed = []
         for badge in badges_data:
             title = badge.get("title", "").strip()
             if not title:
                 continue
-            
+
             href = badge.get("href", "")
             m = re.search(r"/badges/(\d+)", href)
-            b_id = f"google-skills-badge-{m.group(1)}" if m else badge.get("id") or generate_badge_id(title, None)
-            verify = f"https://www.skills.google{href}" if href.startswith("/") else href
-            
+            b_id = (
+                f"google-skills-badge-{m.group(1)}"
+                if m
+                else badge.get("id") or generate_badge_id(title, None)
+            )
+            verify = (
+                f"https://www.skills.google{href}" if href.startswith("/") else href
+            )
+
             # Parse the earned date
             dt = None
             earned_date = badge.get("earnedDate")
             if earned_date:
                 dt = normalize_date_string(earned_date)
-            
+
             raw_entry = {
                 "id": b_id,
                 "title": title,
@@ -523,10 +537,12 @@ def fetch_google_skills_badges_playwright(profile_id: str, url: str | None = Non
                 parsed.append(GoogleBadgeItemModel(**raw_entry).model_dump())
             except ValidationError:
                 pass
-        
+
         if parsed:
             with_dates = sum(1 for b in parsed if b.get("issued_at"))
-            logger.info(f"🎭 Playwright successfully retrieved {len(parsed)} badges ({with_dates} with dates)")
+            logger.info(
+                f"🎭 Playwright successfully retrieved {len(parsed)} badges ({with_dates} with dates)"
+            )
             return parsed
         return []
     except Exception as e:
@@ -690,7 +706,9 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                                 logger.info(
                                     "🔄 No dates in static HTML; trying Playwright for JS-rendered dates..."
                                 )
-                                pw_parsed = fetch_google_skills_badges_playwright(profile_id, url)
+                                pw_parsed = fetch_google_skills_badges_playwright(
+                                    profile_id, url
+                                )
                                 if pw_parsed:
                                     return pw_parsed
                             logger.info(
