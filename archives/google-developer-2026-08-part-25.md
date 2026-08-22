@@ -1,17 +1,23 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 25 of 25
-date_range: 2026-07-07 to 2026-08-17
-total_entries: 60
+chunk_part: 25 of 26
+date_range: 2026-07-07 to 2026-08-22
+total_entries: 62
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-25.md
 ---
 
 # Google Developer Profile — Part 25
 
-> **Navigation:** Prev: [google-developer-2026-07-part-24.md](./google-developer-2026-07-part-24.md) | [Index](./google-developer-index.md) | Next: None | [Complete Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-07-part-24.md](./google-developer-2026-07-part-24.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-08-part-26.md](./google-developer-2026-08-part-26.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-22 | **Serving AVIF Images** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Analyze and enrich enterprise data with generative AI and SQL in BigQuery** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Fraud Detection Pipeline with Data Agent Kit & Antigravity IDE** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Progressive Web Apps: Going Offline** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Control a PLAYBULB Candle with Web Bluetooth** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **How to execute Python and Node.js in a Cloud Run Sandbox** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Python** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Java** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC C++** | Verified Google Developer granular learning activity module milestone. |
@@ -68,11 +74,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-07-07 | **Passkeys on Android and other platforms** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-07 | **Build a microservice-based ecommerce web application with Kubernetes** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-07 | **Effectively engage users with Firebase** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-07 | **Protect your app from abuse with App Check** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-07 | **Basics of Kotlin Multiplatform** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-07 | **Agent Gateway egress from Agent Runtime to external MCP** | Verified Google Developer granular learning activity module milestone. |
-| 2026-07-07 | **Use MFA, blocking functions, and cross-service Security Rules** | Verified Google Developer granular learning activity module milestone. |
 
 ---
-> **Navigation:** Prev: [google-developer-2026-07-part-24.md](./google-developer-2026-07-part-24.md) | [Index](./google-developer-index.md) | Next: None
+> **Navigation:** Prev: [google-developer-2026-07-part-24.md](./google-developer-2026-07-part-24.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-08-part-26.md](./google-developer-2026-08-part-26.md)
 

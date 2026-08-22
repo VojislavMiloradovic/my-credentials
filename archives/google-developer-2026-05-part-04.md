@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 4 of 25
+chunk_part: 4 of 26
 date_range: 2026-05-21 to 2026-05-21
 total_entries: 64
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-04.md
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-21 | **Set up and manage Firebase projects and products via Terraform** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Add push notifications to an iOS app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Frontend Experiences with ADK and A2UI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Build your own "Bargaining Shopkeeper" Agent with Gemini 3 and ADK** | Verified Google Developer granular learning activity module milestone. |
@@ -75,7 +76,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-21 | **Local to Cloud: Full-Stack App Migration with Gemini CLI and Cloud SQL MCP** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **Integrate Vertex AI Agents with Google Workspace** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-21 | **From vibe checks to data-driven Agent Evaluation** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-21 | **Supply Chain Traceability with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-03.md](./google-developer-2026-05-part-03.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-05.md](./google-developer-2026-05-part-05.md)

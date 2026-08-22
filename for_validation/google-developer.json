@@ -1,8 +1,8 @@
 {
   "platform": "google-developer",
   "total_public_badges": 171,
-  "total_detailed_learnings": 1467,
-  "total_combined": 1631,
+  "total_detailed_learnings": 1478,
+  "total_combined": 1642,
   "public_badges": [
     {
       "title": "Android Basics Compose Unit 8 Pathway 2",
@@ -1351,6 +1351,13 @@
       "retired": false
     },
     {
+      "title": "Achieve instant navigations with the Speculation Rules API",
+      "date": "2026-08-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Create your first Android app",
       "date": "2026-06-06",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -1689,6 +1696,13 @@
     {
       "title": "Create an online banking application with Spanner",
       "date": "2026-06-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "Wrangling unstructured data with LLM-driven vector embedding",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -2618,6 +2632,13 @@
       "retired": false
     },
     {
+      "title": "Getting started with vector embeddings in Cloud SQL for PostgreSQL",
+      "date": "2026-08-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Data Science with Spark",
       "date": "2026-06-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -2837,6 +2858,13 @@
     {
       "title": "Enable Private Service Connect on existing Cloud SQL instance running PSA (Terraform)",
       "date": "2026-05-24",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "Semantic Analysis in BigQuery with managed AI functions and SQL",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -3773,13 +3801,6 @@
       "retired": false
     },
     {
-      "title": "Achieve instant navigations with the Speculation Rules API",
-      "date": "2026-05-20",
-      "description": "Verified Google Developer granular learning activity module milestone.",
-      "source": "local_txt",
-      "retired": false
-    },
-    {
       "title": "Developing with Cloud Code",
       "date": "2026-05-24",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -3838,6 +3859,13 @@
     {
       "title": "Install and use Cloud Tools for PowerShell",
       "date": "2026-06-09",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "(Deprecated) Login with Biometrics on Android",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -4006,6 +4034,13 @@
     {
       "title": "How to Migrate from Firebase Studio to Antigravity",
       "date": "2026-06-09",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "Table for N: eval as the gate, evolution as the loop",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -4914,6 +4949,13 @@
       "retired": false
     },
     {
+      "title": "How to build long-term AI agent memory with AlloyDB AI",
+      "date": "2026-08-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Lesson 6: App navigation",
       "date": "2026-06-06",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -5607,6 +5649,13 @@
       "retired": false
     },
     {
+      "title": "Serving AVIF Images",
+      "date": "2026-08-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Route Datadog monitoring alerts to Google Cloud with Eventarc (Part 2)",
       "date": "2026-06-09",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -5819,6 +5868,13 @@
     {
       "title": "Cloud Run Starter Tutorial",
       "date": "2026-06-10",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "Analyze and enrich enterprise data with generative AI and SQL in BigQuery",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -6960,6 +7016,13 @@
     {
       "title": "Using textembedding-gecko@003 for Vector Embeddings",
       "date": "2026-05-26",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "Fraud Detection Pipeline with Data Agent Kit & Antigravity IDE",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -8248,13 +8311,6 @@
     {
       "title": "Building a financial ML model with the What-If Tool and Vertex AI",
       "date": "2026-06-07",
-      "description": "Verified Google Developer granular learning activity module milestone.",
-      "source": "local_txt",
-      "retired": false
-    },
-    {
-      "title": "Serving AVIF Images",
-      "date": "2026-06-10",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -9681,6 +9737,13 @@
       "retired": false
     },
     {
+      "title": "Progressive Web Apps: Going Offline",
+      "date": "2026-08-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Getting started with App Engine (Python 3)",
       "date": "2026-06-10",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -10052,6 +10115,13 @@
       "retired": false
     },
     {
+      "title": "Control a PLAYBULB Candle with Web Bluetooth",
+      "date": "2026-08-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Toy Store Search App with Cloud Databases, Serverless Runtimes and Open Source Integrations",
       "date": "2026-05-21",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -10285,6 +10355,13 @@
     {
       "title": "Performance Monitoring of Feature Rollouts",
       "date": "2026-06-03",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "How to execute Python and Node.js in a Cloud Run Sandbox",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -12819,6 +12896,13 @@
       "retired": false
     },
     {
+      "title": "Achieve instant navigations with the Speculation Rules API",
+      "date": "2026-08-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Create your first Android app",
       "date": "2026-06-06",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -13157,6 +13241,13 @@
     {
       "title": "Create an online banking application with Spanner",
       "date": "2026-06-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "Wrangling unstructured data with LLM-driven vector embedding",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -14079,6 +14170,13 @@
       "retired": false
     },
     {
+      "title": "Getting started with vector embeddings in Cloud SQL for PostgreSQL",
+      "date": "2026-08-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Data Science with Spark",
       "date": "2026-06-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -14284,6 +14382,13 @@
     {
       "title": "Enable Private Service Connect on existing Cloud SQL instance running PSA (Terraform)",
       "date": "2026-05-24",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "Semantic Analysis in BigQuery with managed AI functions and SQL",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -15213,13 +15318,6 @@
       "retired": false
     },
     {
-      "title": "Achieve instant navigations with the Speculation Rules API",
-      "date": "2026-05-20",
-      "description": "Verified Google Developer granular learning activity module milestone.",
-      "source": "local_txt",
-      "retired": false
-    },
-    {
       "title": "Developing with Cloud Code",
       "date": "2026-05-24",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -15278,6 +15376,13 @@
     {
       "title": "Install and use Cloud Tools for PowerShell",
       "date": "2026-06-09",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "(Deprecated) Login with Biometrics on Android",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -15446,6 +15551,13 @@
     {
       "title": "How to Migrate from Firebase Studio to Antigravity",
       "date": "2026-06-09",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "Table for N: eval as the gate, evolution as the loop",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -16354,6 +16466,13 @@
       "retired": false
     },
     {
+      "title": "How to build long-term AI agent memory with AlloyDB AI",
+      "date": "2026-08-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Lesson 6: App navigation",
       "date": "2026-06-06",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -17040,6 +17159,13 @@
       "retired": false
     },
     {
+      "title": "Serving AVIF Images",
+      "date": "2026-08-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Route Datadog monitoring alerts to Google Cloud with Eventarc (Part 2)",
       "date": "2026-06-09",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -17252,6 +17378,13 @@
     {
       "title": "Cloud Run Starter Tutorial",
       "date": "2026-06-10",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "Analyze and enrich enterprise data with generative AI and SQL in BigQuery",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -18393,6 +18526,13 @@
     {
       "title": "Using textembedding-gecko@003 for Vector Embeddings",
       "date": "2026-05-26",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "Fraud Detection Pipeline with Data Agent Kit & Antigravity IDE",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -19681,13 +19821,6 @@
     {
       "title": "Building a financial ML model with the What-If Tool and Vertex AI",
       "date": "2026-06-07",
-      "description": "Verified Google Developer granular learning activity module milestone.",
-      "source": "local_txt",
-      "retired": false
-    },
-    {
-      "title": "Serving AVIF Images",
-      "date": "2026-06-10",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false
@@ -21107,6 +21240,13 @@
       "retired": false
     },
     {
+      "title": "Progressive Web Apps: Going Offline",
+      "date": "2026-08-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Getting started with App Engine (Python 3)",
       "date": "2026-06-10",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -21478,6 +21618,13 @@
       "retired": false
     },
     {
+      "title": "Control a PLAYBULB Candle with Web Bluetooth",
+      "date": "2026-08-22",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
       "title": "Toy Store Search App with Cloud Databases, Serverless Runtimes and Open Source Integrations",
       "date": "2026-05-21",
       "description": "Verified Google Developer granular learning activity module milestone.",
@@ -21711,6 +21858,13 @@
     {
       "title": "Performance Monitoring of Feature Rollouts",
       "date": "2026-06-03",
+      "description": "Verified Google Developer granular learning activity module milestone.",
+      "source": "local_txt",
+      "retired": false
+    },
+    {
+      "title": "How to execute Python and Node.js in a Cloud Run Sandbox",
+      "date": "2026-08-22",
       "description": "Verified Google Developer granular learning activity module milestone.",
       "source": "local_txt",
       "retired": false

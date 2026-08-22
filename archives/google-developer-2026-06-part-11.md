@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 11 of 25
+chunk_part: 11 of 26
 date_range: 2026-06-03 to 2026-06-05
 total_entries: 66
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-11.md
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Build your own Current Place picker for Android (Java)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Advanced Android in Kotlin 04.1: Android Google Maps** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Module 2: Inspect** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Create a widget with Glance** | Verified Google Developer granular learning activity module milestone. |
@@ -77,7 +78,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-03 | **Send and receive notifications for a Flutter app using Firebase Cloud Messaging** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Firebase Performance Monitoring for web** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Understand your game's crashes using advanced Crashlytics features quiz** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-03 | **Quiz: Add Firebase to your Flutter app: Advanced** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-10.md](./google-developer-2026-06-part-10.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-12.md](./google-developer-2026-06-part-12.md)

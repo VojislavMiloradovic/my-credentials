@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 12 of 25
+chunk_part: 12 of 26
 date_range: 2026-06-05 to 2026-06-05
 total_entries: 68
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-12.md
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Identity** | Official Google Developer platform achievement (Learning Pathway: identity). |
 | 2026-06-05 | **Learn Css** | Official Google Developer platform achievement (Learning Pathway: learn css). |
 | 2026-06-05 | **Firebase Firestore Leaderboards** | Official Google Developer platform achievement (Learning Pathway: firebase firestore leaderboards). |
 | 2026-06-05 | **Discovery** | Official Google Developer platform achievement (Community: discovery). |
@@ -79,7 +80,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Add a map to your Android app (Kotlin)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **MDC-102 Android: Material Structure and Layout (Java)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-05 | **Build an Android App with Views** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-05 | **Build your own Current Place picker for Android (Java)** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-11.md](./google-developer-2026-06-part-11.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-13.md](./google-developer-2026-06-part-13.md)

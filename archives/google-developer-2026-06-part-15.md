@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 15 of 25
+chunk_part: 15 of 26
 date_range: 2026-06-06 to 2026-06-06
-total_entries: 74
+total_entries: 75
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-15.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-06 | **Lesson 10: Advanced RecyclerView use cases** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-06 | **Create your first Android app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **TensorFlow.js: Build a comment spam detection system** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Create an Art Space app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Navigate between screens with Compose** | Verified Google Developer granular learning activity module milestone. |
@@ -85,7 +87,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-06 | **Adaptive layouts** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Set up Android Studio** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Practical performance problem solving in Jetpack Compose** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Pairs/triples, collections, constants, and writing extension functions** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-14.md](./google-developer-2026-06-part-14.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-16.md](./google-developer-2026-06-part-16.md)

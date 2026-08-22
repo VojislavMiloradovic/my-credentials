@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 20 of 25
+chunk_part: 20 of 26
 date_range: 2026-06-09 to 2026-06-10
 total_entries: 64
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-20.md
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-10 | **Google Pay API for Flutter on Android** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-10 | **Build and launch an ASP.NET Core app from Google Cloud Shell** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-10 | **Private Service Connect for Google APIs** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-10 | **Using Private Service Connect to publish and consume services with GKE** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **How to use App Engine Memcache in Flask apps (Module 12)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Module 11: Migrating from Google App Engine to Cloud Functions** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Building Applications in the AI Era** | Verified Google Developer granular learning activity module milestone. |
@@ -40,7 +44,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-10 | **Integrate fundamental AI concepts in Google Chat apps** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Get Started with Unity and Google Play Games for PC** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Deploy an ASP.NET Core app to App Engine** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-10 | **Serving AVIF Images** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Deploy a Micronaut application containerized with Jib to Google Kubernetes Engine** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Extending support for App Engine bundled services: Part 1 (Module 17)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Build apps for Google Chat with Gemini** | Verified Google Developer granular learning activity module milestone. |
@@ -73,9 +76,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-09 | **Writing Synthetic Monitoring Tests for your services using Gemini** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Migrating from Compute Engine to Kubernetes Engine with Migrate for Anthos** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Create a Cloud Run service with a sidecar** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Using the Text-to-Speech API with Node.js** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Practical observability techniques for Generative AI application in Go** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Host and scale a web app in Google Cloud with Compute Engine** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-19.md](./google-developer-2026-06-part-19.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-21.md](./google-developer-2026-06-part-21.md)

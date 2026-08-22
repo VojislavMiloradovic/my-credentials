@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 18 of 25
+chunk_part: 18 of 26
 date_range: 2026-06-09 to 2026-06-09
-total_entries: 63
+total_entries: 64
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-18.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Send Web events to GA4 using Measurement Protocol** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-09 | **clasp - The Apps Script CLI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-09 | **Pic-a-daily: Lab 1—Store and analyse pictures (Java)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Cloud Foundation Toolkit 101** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Private Service Connect Mutability Codelab** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Connecting to Cloud SQL: Compute Engine, Private IP and Cloud SQL Proxy** | Verified Google Developer granular learning activity module milestone. |
@@ -73,8 +76,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-09 | **Django on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Use Stackdriver Logging and Stackdriver Trace for Cloud Functions** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Publish an event to Cloud Pub/Sub using ABAP SDK for Google Cloud** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Explaining a fraud detection model with Cloud AI Platform** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Deploy and Validate GKE NFO Multi-Network & High Performance Interface** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-19.md](./google-developer-2026-06-part-19.md)

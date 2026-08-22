@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 23 of 25
+chunk_part: 23 of 26
 date_range: 2026-06-24 to 2026-06-29
 total_entries: 68
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-23.md
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-29 | **Build Actions for Google Assistant** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-29 | **Preventing Violence Against Women Online - Google for Developers** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-29 | **Get started with object detection in Android apps quiz** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-29 | **Improve the user experience of an Android app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-29 | **Build real-time web apps with Firebase and Angular** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-29 | **Capture media with WebRTC quiz** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #3: Working with Data** | Verified Google Developer granular learning activity module milestone. |
@@ -76,10 +80,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-24 | **Securing a Multi-Agent System** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-24 | **Serving Gemma 3 with vLLM on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-24 | **Introduction to the Conversational Analytics in BigQuery** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Mastering KCC Operations with Google Antigravity** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Scale Agents with CrewAI, LangGraph, A2A, and ADK** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Real-time Retail Recommendations with Spanner AI and Graph** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-24 | **Intent to Infrastructure: Agent-Driven Migration to GKE** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-22.md](./google-developer-2026-06-part-22.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-07-part-24.md](./google-developer-2026-07-part-24.md)

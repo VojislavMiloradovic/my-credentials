@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 6 of 25
+chunk_part: 6 of 26
 date_range: 2026-05-24 to 2026-05-24
 total_entries: 65
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-06.md
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-24 | **Enable Private Service Connect on existing Cloud SQL instance running PSA (Terraform)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Create an interactive Dice Roller app** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **On-device Large Language Models with Keras and TensorFlow Lite** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **How to Run Transformers.js on Cloud Run GPUs** | Verified Google Developer granular learning activity module milestone. |
@@ -76,7 +77,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-24 | **How to upload and serve images using Cloud Storage, Firestore and Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Visualizing DNS Armor's Advanced Threat Detection Logs using Log Based Metrics and Custom Dashboard** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Autoscale Cloud Run worker pools based on the Pub/Sub queue volume using CREMA** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Build a simple iOS navigation app in Swift with Google Maps Platform Navigation SDK** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-05.md](./google-developer-2026-05-part-05.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-07.md](./google-developer-2026-05-part-07.md)

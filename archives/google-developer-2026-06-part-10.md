@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 10 of 25
+chunk_part: 10 of 26
 date_range: 2026-05-31 to 2026-06-03
 total_entries: 68
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-10.md
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-03 | **Quiz: Add Firebase to your Flutter app: Advanced** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Effectively engage users with Firebase quiz** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Your first multicast push message using FCM topics** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-03 | **Add a map to your iOS app (Swift)** | Verified Google Developer granular learning activity module milestone. |
@@ -79,7 +80,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-31 | **Learn PWA** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Get to know Firebase for web** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Make your Android app accessible** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-31 | **Leveraging the Gemini Pro Vision model for image understanding, multimodal prompts and accessibility** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-09.md](./google-developer-2026-05-part-09.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-11.md](./google-developer-2026-06-part-11.md)

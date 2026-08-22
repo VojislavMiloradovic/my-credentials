@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 22 of 25
+chunk_part: 22 of 26
 date_range: 2026-06-20 to 2026-06-24
 total_entries: 64
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-22.md
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-24 | **Mastering KCC Operations with Google Antigravity** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **Scale Agents with CrewAI, LangGraph, A2A, and ADK** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **Real-time Retail Recommendations with Spanner AI and Graph** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-24 | **Intent to Infrastructure: Agent-Driven Migration to GKE** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-24 | **High-Performance Distributed RL on GKE Standard: The Complete Guide** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-24 | **Showcase of building a secure agent: protect access and data** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-22 | **Cloud Function to Automate CSV data import into Google Sheets** | Verified Google Developer granular learning activity module milestone. |
@@ -72,10 +76,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-20 | **Building Persistent AI Agents with ADK and CloudSQL** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-20 | **Build QA Test Planner Agent using ADK, MCP, and Gemini 2.5 Flash with Thinking Mode** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-20 | **Build a handwritten digit classifier app with TensorFlow Lite** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-20 | **Build, train, and deploy an XGBoost model on Cloud AI Platform** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-20 | **Build a handwritten digit classifier Android app with MediaPipe Tasks** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-20 | **Build a Patent Search App with Spanner, Vector Search & Gemini 1.0 Pro!** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-20 | **Buffer HTTP requests with Cloud Tasks** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-21.md](./google-developer-2026-06-part-21.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-23.md](./google-developer-2026-06-part-23.md)

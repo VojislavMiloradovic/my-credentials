@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 2 of 25
+chunk_part: 2 of 26
 date_range: 2026-05-20 to 2026-05-20
 total_entries: 66
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-02.md
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-20 | **Agentverse - The Summoner's Concord - Architecting Multi-Agent Systems** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **BigQuery Performance Test Codelab** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **AdMob+Firebase 101 Unity: Setup & Analytics Basics** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Alerts: Uptime Checks to Pub/Sub Topics** | Verified Google Developer granular learning activity module milestone. |
@@ -27,7 +28,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-20 | **Add predictive back animations** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Add chat-related features to an Android app with the Messaging and People APIs** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Agentspace to Zonal NEG self-hosted database** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **Achieve instant navigations with the Speculation Rules API** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Animations in Flutter** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Bigquery ML for Fraud Detection in Credit card transactions using console** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Agentspace Custom Domain** | Verified Google Developer granular learning activity module milestone. |

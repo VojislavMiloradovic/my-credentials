@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-08-22 14:18 UTC
+> **Last Generated:** 2026-08-22 19:48 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -195,24 +195,24 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 171 |
-| **Total Codelabs & Learning Activities** | 1,467 |
+| **Total Codelabs & Learning Activities** | 1,478 |
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-08-part-25.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-25.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-08-part-26.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-26.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| *2026-08-17* | **Setup Basic OpenTelemetry Plugin in gRPC Python** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-17* | **Setup Basic OpenTelemetry Plugin in gRPC Java** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-17* | **Setup Basic OpenTelemetry Plugin in gRPC C++** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-17* | **Setup Basic OpenTelemetry Plugin in gRPC Go** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-13* | **Everything You Need to Build Long-Running Agents on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-13* | **BYOC A2A Codelab** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-13* | **Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tester** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-13* | **Fraud Detection with BigQuery Graph** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-13* | **Understanding Interaction to Next Paint (INP)** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-13* | **Build, Secure, and Deploy an MCP Server on Google Cloud** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-22* | **Achieve instant navigations with the Speculation Rules API** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-22* | **Wrangling unstructured data with LLM-driven vector embedding** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-22* | **Getting started with vector embeddings in Cloud SQL for PostgreSQL** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-22* | **Semantic Analysis in BigQuery with managed AI functions and SQL** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-22* | **(Deprecated) Login with Biometrics on Android** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-22* | **Table for N: eval as the gate, evolution as the loop** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-22* | **How to build long-term AI agent memory with AlloyDB AI** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-22* | **Serving AVIF Images** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-22* | **Analyze and enrich enterprise data with generative AI and SQL in BigQuery** | Verified Google Developer granular learning activity module milestone. |
+| *2026-08-22* | **Fraud Detection Pipeline with Data Agent Kit & Antigravity IDE** | Verified Google Developer granular learning activity module milestone. |
 <!-- GOOGLE_DEVELOPER_END -->
 
 
@@ -1271,12 +1271,25 @@ This document represents a unified, verifiable list of all 350 records.
 
 # Complete Google Developer Profile Archive
 
-This document represents a unified, verifiable list of all 1631 records.
+This document represents a unified, verifiable list of all 1642 records.
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-22 | **Achieve instant navigations with the Speculation Rules API** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Wrangling unstructured data with LLM-driven vector embedding** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Getting started with vector embeddings in Cloud SQL for PostgreSQL** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Semantic Analysis in BigQuery with managed AI functions and SQL** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **(Deprecated) Login with Biometrics on Android** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Table for N: eval as the gate, evolution as the loop** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **How to build long-term AI agent memory with AlloyDB AI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Serving AVIF Images** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Analyze and enrich enterprise data with generative AI and SQL in BigQuery** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Fraud Detection Pipeline with Data Agent Kit & Antigravity IDE** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Progressive Web Apps: Going Offline** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Control a PLAYBULB Candle with Web Bluetooth** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **How to execute Python and Node.js in a Cloud Run Sandbox** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Python** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Java** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC C++** | Verified Google Developer granular learning activity module milestone. |
@@ -1631,7 +1644,6 @@ This document represents a unified, verifiable list of all 1631 records.
 | 2026-06-10 | **Integrate fundamental AI concepts in Google Chat apps** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Get Started with Unity and Google Play Games for PC** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Deploy an ASP.NET Core app to App Engine** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-10 | **Serving AVIF Images** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Deploy a Micronaut application containerized with Jib to Google Kubernetes Engine** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Extending support for App Engine bundled services: Part 1 (Module 17)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Build apps for Google Chat with Gemini** | Verified Google Developer granular learning activity module milestone. |
@@ -2793,7 +2805,6 @@ This document represents a unified, verifiable list of all 1631 records.
 | 2026-05-20 | **Add predictive back animations** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Add chat-related features to an Android app with the Messaging and People APIs** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Agentspace to Zonal NEG self-hosted database** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **Achieve instant navigations with the Speculation Rules API** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Animations in Flutter** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Bigquery ML for Fraud Detection in Credit card transactions using console** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Agentspace Custom Domain** | Verified Google Developer granular learning activity module milestone. |

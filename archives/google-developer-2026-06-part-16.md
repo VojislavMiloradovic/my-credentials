@@ -1,7 +1,7 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 16 of 25
-date_range: 2026-06-06 to 2026-06-07
+chunk_part: 16 of 26
+date_range: 2026-06-07 to 2026-06-07
 total_entries: 65
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-16.md
 ---
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-07 | **Getting Started with CameraX** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-07 | **Secure Serverless Application with Identity Aware Proxy (IAP)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Build Agentic AI Applications in Java with LangChain4j and Google GenAI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **(Deprecated) People: Conversations and Bubbles** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Android 11—Week 9—Large screens quiz** | Verified Google Developer granular learning activity module milestone. |
@@ -75,8 +77,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-07 | **Get started with scroll-driven animations in CSS** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Deploy a full stack Angular application to Cloud Run with Firestore using the Node.js Admin SDK** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Android 11—Week 9—TV quiz** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Lesson 10: Advanced RecyclerView use cases** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-06 | **Create your first Android app** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-15.md](./google-developer-2026-06-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md)

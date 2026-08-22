@@ -1,11 +1,24 @@
 # Complete Google Developer Profile Archive
 
-This document represents a unified, verifiable list of all 1631 records.
+This document represents a unified, verifiable list of all 1642 records.
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-22 | **Achieve instant navigations with the Speculation Rules API** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Wrangling unstructured data with LLM-driven vector embedding** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Getting started with vector embeddings in Cloud SQL for PostgreSQL** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Semantic Analysis in BigQuery with managed AI functions and SQL** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **(Deprecated) Login with Biometrics on Android** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Table for N: eval as the gate, evolution as the loop** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **How to build long-term AI agent memory with AlloyDB AI** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Serving AVIF Images** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Analyze and enrich enterprise data with generative AI and SQL in BigQuery** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Fraud Detection Pipeline with Data Agent Kit & Antigravity IDE** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Progressive Web Apps: Going Offline** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **Control a PLAYBULB Candle with Web Bluetooth** | Verified Google Developer granular learning activity module milestone. |
+| 2026-08-22 | **How to execute Python and Node.js in a Cloud Run Sandbox** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Python** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Java** | Verified Google Developer granular learning activity module milestone. |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC C++** | Verified Google Developer granular learning activity module milestone. |
@@ -360,7 +373,6 @@ This document represents a unified, verifiable list of all 1631 records.
 | 2026-06-10 | **Integrate fundamental AI concepts in Google Chat apps** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Get Started with Unity and Google Play Games for PC** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Deploy an ASP.NET Core app to App Engine** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-10 | **Serving AVIF Images** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Deploy a Micronaut application containerized with Jib to Google Kubernetes Engine** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Extending support for App Engine bundled services: Part 1 (Module 17)** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Build apps for Google Chat with Gemini** | Verified Google Developer granular learning activity module milestone. |
@@ -1522,7 +1534,6 @@ This document represents a unified, verifiable list of all 1631 records.
 | 2026-05-20 | **Add predictive back animations** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Add chat-related features to an Android app with the Messaging and People APIs** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Agentspace to Zonal NEG self-hosted database** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-20 | **Achieve instant navigations with the Speculation Rules API** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Animations in Flutter** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Bigquery ML for Fraud Detection in Credit card transactions using console** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-20 | **Agentspace Custom Domain** | Verified Google Developer granular learning activity module milestone. |

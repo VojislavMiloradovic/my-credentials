@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 19 of 25
+chunk_part: 19 of 26
 date_range: 2026-06-09 to 2026-06-09
 total_entries: 64
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-19.md
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Using the Text-to-Speech API with Node.js** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-09 | **Practical observability techniques for Generative AI application in Go** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-09 | **Host and scale a web app in Google Cloud with Compute Engine** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Deploy a full stack Next.js application to Cloud Run with Firestore using the Node.js Admin SDK** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Module 4: Migrate from Google App Engine to Cloud Run with Docker** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Gemini in Java with Vertex AI and LangChain4j** | Verified Google Developer granular learning activity module milestone. |
@@ -73,9 +76,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-09 | **How to deploy a FastAPI chatbot app to Cloud Run using Gemini** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Display the first 100 files & folders in your Google Drive** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Route Datadog monitoring alerts to Google Cloud with Eventarc (Part 2)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Send Web events to GA4 using Measurement Protocol** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **clasp - The Apps Script CLI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Pic-a-daily: Lab 1—Store and analyse pictures (Java)** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-18.md](./google-developer-2026-06-part-18.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-20.md](./google-developer-2026-06-part-20.md)

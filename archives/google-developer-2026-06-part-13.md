@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 13 of 25
+chunk_part: 13 of 26
 date_range: 2026-06-05 to 2026-06-05
 total_entries: 67
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-13.md
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Passkeys Web 2** | Official Google Developer platform achievement (Learning Pathway: passkeys web 2). |
 | 2026-06-05 | **Learn Javascript** | Official Google Developer platform achievement (Learning Pathway: learn javascript). |
 | 2026-06-05 | **Android 11 Week 7** | Official Google Developer platform achievement (Learning Pathway: android 11 week 7). |
 | 2026-06-05 | **Android Basics Compose Unit 5 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 5 pathway 2). |
@@ -78,7 +79,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Android Development With Kotlin 7** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 7). |
 | 2026-06-05 | **Gpay For Web** | Official Google Developer platform achievement (Learning Pathway: gpay for web). |
 | 2026-06-05 | **Get Started Image Classification** | Official Google Developer platform achievement (Learning Pathway: get started image classification). |
-| 2026-06-05 | **Identity** | Official Google Developer platform achievement (Learning Pathway: identity). |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-12.md](./google-developer-2026-06-part-12.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-14.md](./google-developer-2026-06-part-14.md)

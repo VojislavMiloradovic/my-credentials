@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 24 of 25
+chunk_part: 24 of 26
 date_range: 2026-06-29 to 2026-07-07
 total_entries: 71
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-07-part-24.md
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-07-07 | **Protect your app from abuse with App Check** | Verified Google Developer granular learning activity module milestone. |
+| 2026-07-07 | **Basics of Kotlin Multiplatform** | Verified Google Developer granular learning activity module milestone. |
+| 2026-07-07 | **Agent Gateway egress from Agent Runtime to external MCP** | Verified Google Developer granular learning activity module milestone. |
+| 2026-07-07 | **Use MFA, blocking functions, and cross-service Security Rules** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-07 | **Getting Started with Antigravity IDE** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-07 | **Get started with Google Maps Platform for iOS** | Verified Google Developer granular learning activity module milestone. |
 | 2026-07-07 | **Test your app with Firebase and Continuous Integration** | Verified Google Developer granular learning activity module milestone. |
@@ -79,10 +83,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-29 | **Visualize data on Google Maps Platform** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-29 | **Build maintainable and scalable web apps with Angular** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-29 | **Improve your website's identity forms** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Build Actions for Google Assistant** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Preventing Violence Against Women Online - Google for Developers** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Get started with object detection in Android apps quiz** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-29 | **Improve the user experience of an Android app** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-23.md](./google-developer-2026-06-part-23.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-08-part-25.md](./google-developer-2026-08-part-25.md)

@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 8 of 25
+chunk_part: 8 of 26
 date_range: 2026-05-26 to 2026-05-27
 total_entries: 62
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-08.md
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-27 | **Create a video scene-by-scene image description service using Cloud Run, Video Intelligence API, and Vertex AI** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **Looker PSC Northbound Regional Internal L7 ALB** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **Building a fullstack movie recommendation system** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **Build a Google Workspace Add-on with Node.js and Cloud Run** | Verified Google Developer granular learning activity module milestone. |
@@ -73,7 +74,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-26 | **TensorFlow.js — Handwritten digit recognition with CNNs** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Antigravity CLI on GCE with a Private Service Connect endpoint** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Using textembedding-gecko@003 for Vector Embeddings** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-26 | **Maximize Your Play Billing Integration** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-07.md](./google-developer-2026-05-part-07.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-09.md](./google-developer-2026-05-part-09.md)

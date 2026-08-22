@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 21 of 25
+chunk_part: 21 of 26
 date_range: 2026-06-10 to 2026-06-20
 total_entries: 63
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-21.md
@@ -12,6 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-20 | **Build, train, and deploy an XGBoost model on Cloud AI Platform** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build a handwritten digit classifier Android app with MediaPipe Tasks** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Build a Patent Search App with Spanner, Vector Search & Gemini 1.0 Pro!** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-20 | **Buffer HTTP requests with Cloud Tasks** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-20 | **🛡️ Build a Secure Agent with Model Armor and Identity** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-20 | **Build an appointment scheduler with Dialogflow** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-20 | **Bot Management with Google Cloud Armor + reCAPTCHA** | Verified Google Developer granular learning activity module milestone. |
@@ -71,10 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-10 | **Build an AI Agent with Google ADK** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Cloud Armor NamedIP List** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-10 | **Hands-on with Google Apps Script: Accessing Google Sheets, Maps, and Gmail in 4 lines of code!** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-10 | **Google Pay API for Flutter on Android** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-10 | **Build and launch an ASP.NET Core app from Google Cloud Shell** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-10 | **Private Service Connect for Google APIs** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-10 | **Using Private Service Connect to publish and consume services with GKE** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-20.md](./google-developer-2026-06-part-20.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-22.md](./google-developer-2026-06-part-22.md)

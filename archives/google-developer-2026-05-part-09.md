@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 9 of 25
+chunk_part: 9 of 26
 date_range: 2026-05-27 to 2026-05-31
 total_entries: 65
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-09.md
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-31 | **Leveraging the Gemini Pro Vision model for image understanding, multimodal prompts and accessibility** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Getting started with Google AI Studio, Gemini API and NodeJS** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Message your users with FCM and FIAM on Android** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-31 | **Prompting with images and text using the Gemini API for accessibility** | Verified Google Developer granular learning activity module milestone. |
@@ -76,7 +77,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-27 | **Looker PSC Southbound HTTPS Internet NEG Gitlab Self-Managed** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **Learn how to invoke authenticated Cloud Functions** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-27 | **Use Pulumi on Google Cloud with YAML** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-27 | **Create a video scene-by-scene image description service using Cloud Run, Video Intelligence API, and Vertex AI** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-08.md](./google-developer-2026-05-part-08.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-10.md](./google-developer-2026-06-part-10.md)

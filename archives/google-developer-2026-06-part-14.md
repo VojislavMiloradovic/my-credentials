@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 14 of 25
+chunk_part: 14 of 26
 date_range: 2026-06-05 to 2026-06-06
 total_entries: 68
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-14.md
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-06 | **Pairs/triples, collections, constants, and writing extension functions** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Practice: Click behavior** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Build an app with an adaptive layout** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-06 | **Project: Create a Flight Search app** | Verified Google Developer granular learning activity module milestone. |
@@ -79,7 +80,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Places Android** | Official Google Developer platform achievement (Learning Pathway: places_android). |
 | 2026-06-05 | **Object Detection Android** | Official Google Developer platform achievement (Learning Pathway: object detection android). |
 | 2026-06-05 | **Android 11 Week 10** | Official Google Developer platform achievement (Learning Pathway: android 11 week 10). |
-| 2026-06-05 | **Passkeys Web 2** | Official Google Developer platform achievement (Learning Pathway: passkeys web 2). |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-13.md](./google-developer-2026-06-part-13.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-15.md](./google-developer-2026-06-part-15.md)

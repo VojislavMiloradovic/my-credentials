@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 17 of 25
+chunk_part: 17 of 26
 date_range: 2026-06-07 to 2026-06-09
 total_entries: 63
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-17.md
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Explaining a fraud detection model with Cloud AI Platform** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-09 | **Deploy and Validate GKE NFO Multi-Network & High Performance Interface** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Hello Cloud Run with Python** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Encrypt Resources Easily with Cloud KMS Autokey** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-09 | **Optimizing 3D data with Draco Geometry Compression** | Verified Google Developer granular learning activity module milestone. |
@@ -73,8 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-07 | **Build a fast checkout experience on the web with Google Pay** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Using the Video Intelligence API with C#** | Verified Google Developer granular learning activity module milestone. |
 | 2026-06-07 | **Vertex AI Pipelines PSC Interface SWP** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Getting Started with CameraX** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-07 | **Secure Serverless Application with Identity Aware Proxy (IAP)** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-16.md](./google-developer-2026-06-part-16.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-18.md](./google-developer-2026-06-part-18.md)

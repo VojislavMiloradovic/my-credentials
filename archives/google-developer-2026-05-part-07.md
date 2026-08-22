@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 7 of 25
+chunk_part: 7 of 26
 date_range: 2026-05-24 to 2026-05-26
 total_entries: 63
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-07.md
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-26 | **Maximize Your Play Billing Integration** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **How to create a Private Service Connect for Cloud SQL** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Sign in with Google button for Web** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-26 | **Looker PSC Southbound HTTPS Internet NEG** | Verified Google Developer granular learning activity module milestone. |
@@ -74,7 +75,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-24 | **How to deploy a secure Genkit MCP server on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Getting started with the Web Serial API** | Verified Google Developer granular learning activity module milestone. |
 | 2026-05-24 | **Deterministic generative AI with Gemini function calling in Java** | Verified Google Developer granular learning activity module milestone. |
-| 2026-05-24 | **Enable Private Service Connect on existing Cloud SQL instance running PSA (Terraform)** | Verified Google Developer granular learning activity module milestone. |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-06.md](./google-developer-2026-05-part-06.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-08.md](./google-developer-2026-05-part-08.md)
