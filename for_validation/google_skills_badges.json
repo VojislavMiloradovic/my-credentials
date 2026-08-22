@@ -1,7 +1,102 @@
 {
   "profile_id": "2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_count": 345,
+  "total_count": 350,
   "badges": [
+    {
+      "id": "google-skills-badge-27125242",
+      "title": "AI Boost Bites: AI for the Modern Recruiter",
+      "name": "AI Boost Bites: AI for the Modern Recruiter",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": null,
+      "issued_at_date": null,
+      "date": null,
+      "image_url": "https://cdn.qwiklabs.com/vESSsg4SqfruAxwGEO34DNSf67L1FvaDg2RdLmg7HOk%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125242",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125242",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: AI for the Modern Recruiter"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27125196",
+      "title": "AI Boost Bites: Your AI-Powered Career Coach",
+      "name": "AI Boost Bites: Your AI-Powered Career Coach",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": null,
+      "issued_at_date": null,
+      "date": null,
+      "image_url": "https://cdn.qwiklabs.com/bRalcYpsxNi7eaGectMHMU1LuI%2FhcBvZtEVuAhtrG20%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125196",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125196",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Your AI-Powered Career Coach"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27125162",
+      "title": "AI Boost Bites: The Project Coordinator's Command Center",
+      "name": "AI Boost Bites: The Project Coordinator's Command Center",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": null,
+      "issued_at_date": null,
+      "date": null,
+      "image_url": "https://cdn.qwiklabs.com/aoB8FcZXm4Cu6PM9%2Fulcr7SYXOnV0gj%2BQk60N8qqpvw%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125162",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125162",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: The Project Coordinator's Command Center"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27125132",
+      "title": "AI Boost Bites: Master Internal Comms in Gmail",
+      "name": "AI Boost Bites: Master Internal Comms in Gmail",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": null,
+      "issued_at_date": null,
+      "date": null,
+      "image_url": "https://cdn.qwiklabs.com/f3TitdisJ1o%2BHdkekaeyBCv200vle4DCEk0GdBCcES4%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125132",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125132",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Master Internal Comms in Gmail"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27125099",
+      "title": "AI Boost Bites: Google Workspace Studio",
+      "name": "AI Boost Bites: Google Workspace Studio",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": null,
+      "issued_at_date": null,
+      "date": null,
+      "image_url": "https://cdn.qwiklabs.com/fCr%2F4%2BOKHJeE3rUttt6JyrazIvBolSzd1hXvmMqVT3o%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125099",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125099",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Google Workspace Studio"
+      ],
+      "retired": false
+    },
     {
       "id": "google-skills-badge-26909457",
       "title": "Vibe Coding for Beginners: From Zero to App",
