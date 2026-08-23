@@ -58,20 +58,20 @@ Showing latest 10 of 4,808 achievements. View full dataset via [Platform Archive
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 350 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-01-part-08.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-01-part-08.md)), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 350 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-08-part-08.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-08.md)), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-01-01 | [AI Boost Bites: AI for the Modern Recruiter](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125242) | Google Cloud | Google Skill Badge |
-| 2026-01-01 | [AI Boost Bites: Your AI-Powered Career Coach](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125196) | Google Cloud | Google Skill Badge |
-| 2026-01-01 | [AI Boost Bites: The Project Coordinator's Command Center](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125162) | Google Cloud | Google Skill Badge |
-| 2026-01-01 | [AI Boost Bites: Master Internal Comms in Gmail](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125132) | Google Cloud | Google Skill Badge |
-| 2026-01-01 | [AI Boost Bites: Google Workspace Studio](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125099) | Google Cloud | Google Skill Badge |
-| 2026-01-01 | [Vibe Coding for Beginners: From Zero to App](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26909457) | Google Cloud | Google Skill Badge |
-| 2026-01-01 | [Google Cloud Computing Foundations: Networking & Security in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26758292) | Google Cloud | Google Skill Badge |
-| 2026-01-01 | [Create and Manage Cloud Spanner Instances](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26478834) | Google Cloud | Google Skill Badge |
-| 2026-01-01 | [Arcade Simulator: Network Security Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26380399) | Google Cloud | Google Skill Badge |
-| 2026-01-01 | [Connecting Cloud Networks with NCC](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26378483) | Google Cloud | Google Skill Badge |
+| 2026-08-22 | [AI Boost Bites: AI for the Modern Recruiter](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125242) | Google Cloud | Google Skill Badge |
+| 2026-08-22 | [AI Boost Bites: Your AI-Powered Career Coach](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125196) | Google Cloud | Google Skill Badge |
+| 2026-08-22 | [AI Boost Bites: The Project Coordinator's Command Center](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125162) | Google Cloud | Google Skill Badge |
+| 2026-08-22 | [AI Boost Bites: Master Internal Comms in Gmail](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125132) | Google Cloud | Google Skill Badge |
+| 2026-08-22 | [AI Boost Bites: Google Workspace Studio](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125099) | Google Cloud | Google Skill Badge |
+| 2026-08-17 | [Vibe Coding for Beginners: From Zero to App](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26909457) | Google Cloud | Google Skill Badge |
+| 2026-08-13 | [Google Cloud Computing Foundations: Networking & Security in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26758292) | Google Cloud | Google Skill Badge |
+| 2026-08-09 | [Create and Manage Cloud Spanner Instances](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26478834) | Google Cloud | Google Skill Badge |
+| 2026-08-07 | [Arcade Simulator: Network Security Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26380399) | Google Cloud | Google Skill Badge |
+| 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26378483) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials
@@ -121,15 +121,18 @@ Showing latest 10 of 655 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 556
-**Total Verified Skills Mapped:** 1938
+**Total Portfolio Credentials:** 559
+**Total Verified Skills Mapped:** 1945
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 556 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 559 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-22 | [Cloud Tech Pro - PSA](https://www.credly.com/badges/0d924c89-cf8d-4528-9e90-79bfe39aea8e/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-22 | [Cloud Tech Pro - RMM](https://www.credly.com/badges/67ba03f9-c9f9-410f-89d3-b360f84233a7/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-22 | [Validating Security Controls with AttackIQ Enterprise](https://www.credly.com/badges/c042b6a3-a7dd-4ba3-bbfd-9f03fbb8c267/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-08-19 | [Discovery: Cloud Architect on AWS](https://www.credly.com/badges/6708084a-4912-47b4-9388-0a9012aabb26/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-19 | [Cilium Traffic Optimization](https://www.credly.com/badges/c177982d-6244-42c9-b251-1e4216667772/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cilium Envoy L7 Proxy](https://www.credly.com/badges/a160212a-4ac9-4a6c-bf7c-e6479e62c4f1/public_url) | Isovalent | Credly Verified Badge |
@@ -137,9 +140,6 @@ Showing latest 10 of 556 credentials. View full dataset via [Platform Archive In
 | 2026-08-18 | [Cilium Multicast](https://www.credly.com/badges/d249f1c3-209a-4389-870b-a322e3802fe2/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cloud Tech Professional MDR](https://www.credly.com/badges/67aae11f-1810-4d48-b93e-89edfbf171d2/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-18 | [Cloud Tech Pro - M365 Security Posture Management](https://www.credly.com/badges/767cc161-6691-4b33-9549-e0efa0087735/public_url) | Acronis | Credly Verified Badge |
-| 2026-08-18 | [Detection Management: From Entropy to Evidence](https://www.credly.com/badges/64e9cd6c-2792-435c-9c64-1ead3a7a2665/public_url) | AttackIQ | Credly Verified Badge |
-| 2026-08-18 | [Getting Started with the Isovalent Load Balancer](https://www.credly.com/badges/d493b0bb-da10-4eb3-a043-5bf9d4cb2a5a/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-18 | [Isovalent Lab Champion (30 labs)](https://www.credly.com/badges/6e16ddbe-d749-4687-905b-820c0bcf2a99/public_url) | Isovalent | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
