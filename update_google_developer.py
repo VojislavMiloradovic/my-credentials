@@ -388,12 +388,12 @@ def parse_local_learnings_txt() -> list[dict]:
 
 
 def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
-    """Parses MHTML file of Google Developer learnings badge page to extract codelab activities.
+    """Parses MHTML file of Google Developer learnings badge page to extract all learning activities.
 
     The MHTML contains the rendered badge page HTML with .badge-event containers,
     each having a title link and a Serbian date in a <p> tag.
 
-    Unavailable/404 codelab links are marked as retired.
+    Unavailable/404 links are marked as retired.
     Falls back to legacy text parser if file is not valid MHTML.
     """
     if not os.path.exists(mhtml_path):
@@ -433,7 +433,7 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
                 for event in badge_events:
                     # Find the link inside
                     link = event.find("a", href=True)
-                    if not link or "/codelabs/" not in link.get("href", ""):
+                    if not link:
                         continue
 
                     title = link.get_text(strip=True)
@@ -455,7 +455,7 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
                     entry = {
                         "title": title.strip(),
                         "date": iso_date,
-                        "description": f"Verified Google Developer codelab activity. URL: {url}",
+                        "description": f"Verified Google Developer learning activity. URL: {url}",
                         "source": "local_mhtml",
                         "url": url,
                         "retired": is_retired,
@@ -471,7 +471,7 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
                         )
 
                 logger.info(
-                    f"✅ Extracted {len(learnings)} codelab activities from MHTML ({retired_count} retired)."
+                    f"✅ Extracted {len(learnings)} learning activities from MHTML ({retired_count} retired)."
                 )
                 return learnings
     except Exception as e:
@@ -480,50 +480,6 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
     # Fallback to legacy text parser
     logger.info(f"📄 Falling back to legacy text parser for: '{mhtml_path}'")
     return parse_local_learnings_txt()
-
-    for event in badge_events:
-        # Find the link inside
-        link = event.find("a", href=True)
-        if not link or "/codelabs/" not in link.get("href", ""):
-            continue
-
-        title = link.get_text(strip=True)
-        url = link["href"]
-
-        # Find the date in the <p> tag
-        date_p = event.find("p")
-        iso_date = "N/A"
-        if date_p:
-            date_text = date_p.get_text(strip=True)
-            iso_date = normalize_date_string(date_text)
-
-        # Check if URL is likely unavailable (some patterns)
-        # The page only shows last 1000, older ones may 404
-        is_retired = False
-        # We could check by making a HEAD request, but that's slow.
-        # For now, mark as retired if date parsing failed (unlikely but possible)
-        if iso_date == "N/A":
-            is_retired = True
-            retired_count += 1
-
-        entry = {
-            "title": title.strip(),
-            "date": iso_date,
-            "description": f"Verified Google Developer codelab activity. URL: {url}",
-            "source": "local_mhtml",
-            "url": url,
-            "retired": is_retired,
-        }
-
-        try:
-            learnings.append(GoogleDeveloperBadgeModel(**entry).model_dump())
-        except ValidationError as ve:
-            logger.warning(f"⚠️ Skipping invalid MHTML activity entry '{title}': {ve}")
-
-    logger.info(
-        f"✅ Extracted {len(learnings)} codelab activities from MHTML ({retired_count} retired)."
-    )
-    return learnings
 
 
 def analyze_badge_list(lst: Any, parsed_badges: list[dict]) -> bool:

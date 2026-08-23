@@ -121,15 +121,16 @@ Showing latest 10 of 655 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 559
-**Total Verified Skills Mapped:** 1945
+**Total Portfolio Credentials:** 560
+**Total Verified Skills Mapped:** 1957
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 559 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 560 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-23 | [Web Development Fundamentals](https://www.credly.com/badges/720901ee-adda-4ca3-b428-06661f472f0c/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-08-22 | [Cloud Tech Pro - PSA](https://www.credly.com/badges/0d924c89-cf8d-4528-9e90-79bfe39aea8e/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-22 | [Cloud Tech Pro - RMM](https://www.credly.com/badges/67ba03f9-c9f9-410f-89d3-b360f84233a7/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-22 | [Validating Security Controls with AttackIQ Enterprise](https://www.credly.com/badges/c042b6a3-a7dd-4ba3-bbfd-9f03fbb8c267/public_url) | AttackIQ | Credly Verified Badge |
@@ -139,7 +140,6 @@ Showing latest 10 of 559 credentials. View full dataset via [Platform Archive In
 | 2026-08-18 | [Cilium for Virtual Machines with KubeVirt](https://www.credly.com/badges/69fd0a5d-0013-4b29-8053-2f4efac99a59/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cilium Multicast](https://www.credly.com/badges/d249f1c3-209a-4389-870b-a322e3802fe2/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-18 | [Cloud Tech Professional MDR](https://www.credly.com/badges/67aae11f-1810-4d48-b93e-89edfbf171d2/public_url) | Acronis | Credly Verified Badge |
-| 2026-08-18 | [Cloud Tech Pro - M365 Security Posture Management](https://www.credly.com/badges/767cc161-6691-4b33-9549-e0efa0087735/public_url) | Acronis | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
@@ -187,11 +187,11 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 171 |
-| **Total Codelabs & Learning Activities** | 805 |
+| **Total Codelabs & Learning Activities** | 1,586 |
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-06-part-20.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-20.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-06-part-34.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-34.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |

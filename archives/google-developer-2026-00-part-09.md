@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 9 of 20
-date_range: 2026-00-10 to 2026-00-20
-total_entries: 48
+chunk_part: 9 of 34
+date_range: 2026-00-09 to 2026-00-09
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-00-part-09.md
 ---
 
@@ -12,54 +12,53 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-00-20 | **Battle Peach - A Microservices Battle Ground** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/battle-peach |
-| 2026-00-20 | **Build an Android app with Firebase and Jetpack Compose** | Verified Google Developer codelab activity. URL: https://firebase.google.com/codelabs/build-android-app-with-firebase-compose |
-| 2026-00-20 | **Analyzing a financial ML model deployed on Cloud AI Platform with the What-if Tool** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/xgb-wit-caip |
-| 2026-00-20 | **Analyze production performance with Cloud Profiler** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-profiler |
-| 2026-00-20 | **Automate Google Workspace tasks with the Gemini API** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/gemini-workspace |
-| 2026-00-20 | **Adding in-app purchases to your Flutter app** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/flutter-in-app-purchases |
-| 2026-00-20 | **Animating elements in Jetpack Compose** | Verified Google Developer codelab activity. URL: https://developer.android.com/codelabs/jetpack-compose-animation |
-| 2026-00-20 | **Build a Gemini powered Flutter app** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/flutter-gemini-colorist |
-| 2026-00-20 | **Build Actions for Google Assistant using Actions SDK (Level 2)** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/actions-sdk-2 |
-| 2026-00-18 | **Triggering a DAG with Node.JS and Google Cloud Functions** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/triggering-dag-gcf |
-| 2026-00-18 | **Create multi agent system with ADK, deploy in Agent Runtime and get started with A2A protocol** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/create-multi-agents-adk-a2a |
-| 2026-00-18 | **A Tour of Gemini Code Assist Standard and Enterprise for Developers in Google Cloud Shell Editor** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-developer-duetai |
-| 2026-00-18 | **AI-Assisted Data Science with BigQuery** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/bigquery-data-science-notebooks |
-| 2026-00-18 | **Debugging the Smart Home** | Verified Google Developer codelab activity. URL: https://developers.home.google.com/codelabs/smarthome-debugging |
-| 2026-00-18 | **Enhance and secure your Cloud-to-cloud integrations** | Verified Google Developer codelab activity. URL: https://developers.home.google.com/codelabs/smarthome-traits |
-| 2026-00-18 | **Image Data Classification with BigQuery ML** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/image-classification-bqml |
-| 2026-00-18 | **GKE Autopilot clusters with TPUs, GKE managed DRANET and Gemma 4** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/gke-autopilot-tpus-dranet-gemma |
-| 2026-00-18 | **Enable local fulfillment for Cloud-to-cloud integrations** | Verified Google Developer codelab activity. URL: https://developers.home.google.com/codelabs/smarthome-local |
-| 2026-00-18 | **Accelerated Mobile Pages Foundations** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/accelerated-mobile-pages-foundations |
-| 2026-00-18 | **Connect smart home devices to the Google Assistant** | Verified Google Developer codelab activity. URL: https://developers.home.google.com/codelabs/smarthome-washer |
-| 2026-00-18 | **Analyze Drug Interactions with BigQuery Graph** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/drug-interaction-bigquery-graph |
-| 2026-00-18 | **Accelerate Spark with Managed Service for Apache Spark and Lightning Engine** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/lightning-engine |
-| 2026-00-18 | **Introduction to Query Insights for Cloud SQL** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-sql-insights-intro |
-| 2026-00-18 | **Build a Generative UI (GenUI) App** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/genui-intro |
-| 2026-00-18 | **AI Speech Recognition with TensorFlow Lite for Microcontrollers and SparkFun Edge** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/sparkfun-tensorflow |
-| 2026-00-18 | **Debugging the Local Home** | Verified Google Developer codelab activity. URL: https://developers.home.google.com/codelabs/smarthome-debugging-local |
-| 2026-00-18 | **Monitoring Outages for Smart Home** | Verified Google Developer codelab activity. URL: https://developers.home.google.com/codelabs/monitoring-outages |
-| 2026-00-18 | **Connect and visualize all your data in Data Studio** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/community-connectors |
-| 2026-00-18 | **ARCore Augmented Images** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/augimg-intro |
-| 2026-00-18 | **Access Gemini 3 Pro chat using python sdk via Private Service Connect endpoint** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/terraform-python-vertexai-psc |
-| 2026-00-14 | **Google Pay API: Vibe-code checkout page with MCP servers and Antigravity** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/gpay-api-vibe-code-mcp-servers |
-| 2026-00-14 | **Customer Identity Resolution with BigQuery Graph** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/identity-resolution-bigquery-graph |
-| 2026-00-13 | **Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tester** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/mastering-slash-commands-antigravity |
-| 2026-00-13 | **Fraud Detection with BigQuery Graph** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/fraud-bigquery-graph |
-| 2026-00-13 | **Understanding Interaction to Next Paint (INP)** | Verified Google Developer codelab activity. URL: https://web.dev/codelabs/understanding-inp |
-| 2026-00-10 | **Serverless AI: EmbeddingGemma with Cloud Run** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/embeddinggemma-cloud-run |
-| 2026-00-10 | **Getting started with Managed Active Directory** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-managed-ad |
-| 2026-00-10 | **Make your first Google Health API call using OAuth2 Playground** | Verified Google Developer codelab activity. URL: https://developers.google.com/health/codelabs/make-your-first-api-call-using-oauth2-playground |
-| 2026-00-10 | **Deploy your containerized agent on Agent Runtime** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/agent-runtime-deploy-containerized-agent |
-| 2026-00-10 | **Cloud Armor NamedIP List** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-cloudarmor |
-| 2026-00-10 | **Hands-on with Google Apps Script: Accessing Google Sheets, Maps, and Gmail in 4 lines of code!** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/apps-script-intro |
-| 2026-00-10 | **Google Pay API for Flutter on Android** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/pay-flutter |
-| 2026-00-10 | **Build and launch an ASP.NET Core app from Google Cloud Shell** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-aspnetcore-cloudshell |
-| 2026-00-10 | **How to use App Engine Memcache in Flask apps (Module 12)** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-12-memcache |
-| 2026-00-10 | **Module 11: Migrating from Google App Engine to Cloud Functions** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-11-functions |
-| 2026-00-10 | **Cloud Armor for NLB/VM with User Defined Rules** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/ca4nlb-phase2 |
-| 2026-00-10 | **Module 3: Migrate from Google Cloud NDB to Cloud Datastore** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-3-datastore |
-| 2026-00-10 | **Migrate from App Engine Memcache to Cloud Memorystore (Module 13)** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-13-memorystore |
+| 2026-00-09 | **Events for Cloud Run for Anthos Codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-events-anthos |
+| 2026-00-09 | **Cloud Spanner Game Trading Post** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-game-tradepost |
+| 2026-00-09 | **Using the Vision API with C#** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-vision-api-csharp |
+| 2026-00-09 | **Using the Translation API with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-translation-python3 |
+| 2026-00-09 | **Sign in with Google One Tap prompt for Web** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/google-one-tap |
+| 2026-00-09 | **Image archiving, analysis, and report generation Google Workspace & Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/drive-gcs-vision-sheets |
+| 2026-00-09 | **Increase intent coverage and handle errors gracefully with generative fallback** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-generative-fallback |
+| 2026-00-09 | **How to use Gemini to explore and enhance an existing application** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/duet-ai-workshop |
+| 2026-00-09 | **Build a Fraud Detection model on Cloud AI Platform with TensorFlow Enterprise and BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/fraud-detection-with-bigquery-and-tensorflow-enterprise |
+| 2026-00-09 | **Trigger Kubernetes services with Eventarc events** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/eventarc-events-gke |
+| 2026-00-09 | **Encrypt and decrypt data with Cloud KMS** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/encrypt-and-decrypt-data-with-cloud-kms |
+| 2026-00-09 | **Spec-Driven Development with Antigravity CLI ��� Structured Agent Workflows with Skills and MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/sdd-agy-cli |
+| 2026-00-09 | **Deploy a basic "Google Translate" app on Python 3 Cloud Functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-nebulous-serverless-python-gcf |
+| 2026-00-09 | **Using Cloud NAT Dynamic Port Allocation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloudnet-natdynamicportalloc |
+| 2026-00-09 | **Visualize Clinical Data using Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/health-data-analytics-2 |
+| 2026-00-09 | **Using the Natural Language API with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-natural-language-python3 |
+| 2026-00-09 | **Django on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-django |
+| 2026-00-09 | **Use Stackdriver Logging and Stackdriver Trace for Cloud Functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-function-logs-traces |
+| 2026-00-09 | **Publish an event to Cloud Pub/Sub using ABAP SDK for Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/abap-sdk/cps-publish-events |
+| 2026-00-09 | **Explaining a fraud detection model with Cloud AI Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/fraud-detection-ai-explanations |
+| 2026-00-09 | **Run inference of Gemma 4 model on Cloud Run with RTX 6000 Pro GPU with vLLM** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-gpu-rtx-pro-6000-gemma4-vllm |
+| 2026-00-09 | **Deploy and Validate GKE NFO Multi-Network & High Performance Interface** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gke-multinic-l3netdevice |
+| 2026-00-09 | **Hello Cloud Run with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3 |
+| 2026-00-09 | **Encrypt Resources Easily with Cloud KMS Autokey** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-kms-autokey |
+| 2026-00-09 | **Optimizing 3D data with Draco Geometry Compression** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/draco-3d |
+| 2026-00-09 | **Using the Speech-to-Text API with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-speech-text-python3 |
+| 2026-00-09 | **Informed decision making using Dialogflow CX generators and data stores** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-generator |
+| 2026-00-09 | **Connecting to Cloud SQL with Cloud Functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/connecting-to-cloud-sql-with-cloud-functions |
+| 2026-00-09 | **Deploy a basic "Google Translate" app on Python 2 App Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-nebulous-serverless-python-gae2 |
+| 2026-00-09 | **firebase.google.com/codelabs/firebase-mcp-in-studio** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-mcp-in-studio |
+| 2026-00-09 | **Gesture Navigation and the edge-to-edge experience** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gesture-navigation |
+| 2026-00-09 | **Adding WebView to your Flutter app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter-webview |
+| 2026-00-09 | **Receive an event from Cloud Pub/Sub in SAP using ABAP SDK for Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/abap-sdk/cps-pull-subscriptions |
+| 2026-00-09 | **Form Parsing with Document AI (Python)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/docai-form-parser-v1-python |
+| 2026-00-09 | **Deploy a JavaScript application to Cloud Run with Cloud SQL for PostgreSQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/cloud-sql-nodejs |
+| 2026-00-09 | **How to deploy a gradio frontend app that calls a backend ADK agent, both running on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-gradio-cloud-run-adk-agent |
+| 2026-00-09 | **Dive into Dart's patterns and records** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dart-patterns-records |
+| 2026-00-09 | **CEL-Go Codelab: Fast, safe, embedded expressions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cel-go |
+| 2026-00-09 | **Track Events in a WebView with Google Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ga4f-event-tracking-webview |
+| 2026-00-09 | **Make email more actionable with Google Workspace Add-ons** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gmail-add-ons |
+| 2026-00-09 | **Use Apps Script in Google Workspace** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/apps-script-fundamentals |
+| 2026-00-09 | **Using Document AI Warehouse to Ingest, Process, and Search Documents** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/docai-warehouse |
+| 2026-00-09 | **Cloud Spanner: Create a gaming leaderboard with Go** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-leaderboard-go |
+| 2026-00-09 | **Build a Kotlin Spring Application with Google Cloud Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-cloud-gcp-kotlin |
+| 2026-00-09 | **Capture media with WebRTC** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/webrtc-media-capture |
+| 2026-00-09 | **Using the Translation API with C#** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-translation-csharp |
+| 2026-00-09 | **Build and Deploy an AI-Powered Agent Diet Planner with Streamlit, Gemini Pro, Vertex AI and BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ai-diet-planner |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-08.md](./google-developer-2026-00-part-08.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-10.md](./google-developer-2026-00-part-10.md)

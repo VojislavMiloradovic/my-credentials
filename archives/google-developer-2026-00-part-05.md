@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 5 of 20
-date_range: 2026-00-07 to 2026-00-09
-total_entries: 46
+chunk_part: 5 of 34
+date_range: 2026-00-06 to 2026-00-06
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-00-part-05.md
 ---
 
@@ -12,52 +12,53 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-00-09 | **Sign in with Google One Tap prompt for Web** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/google-one-tap |
-| 2026-00-09 | **Image archiving, analysis, and report generation Google Workspace & Google Cloud** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/drive-gcs-vision-sheets |
-| 2026-00-09 | **Increase intent coverage and handle errors gracefully with generative fallback** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-generative-fallback |
-| 2026-00-09 | **How to use Gemini to explore and enhance an existing application** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/duet-ai-workshop |
-| 2026-00-09 | **Build a Fraud Detection model on Cloud AI Platform with TensorFlow Enterprise and BigQuery** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/fraud-detection-with-bigquery-and-tensorflow-enterprise |
-| 2026-00-09 | **Trigger Kubernetes services with Eventarc events** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/eventarc-events-gke |
-| 2026-00-09 | **Encrypt and decrypt data with Cloud KMS** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/encrypt-and-decrypt-data-with-cloud-kms |
-| 2026-00-09 | **Deploy a basic "Google Translate" app on Python 3 Cloud Functions** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-nebulous-serverless-python-gcf |
-| 2026-00-09 | **Using Cloud NAT Dynamic Port Allocation** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloudnet-natdynamicportalloc |
-| 2026-00-09 | **Visualize Clinical Data using Looker** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/health-data-analytics-2 |
-| 2026-00-09 | **Using the Natural Language API with Python** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-natural-language-python3 |
-| 2026-00-09 | **Django on Cloud Run** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-django |
-| 2026-00-09 | **Use Stackdriver Logging and Stackdriver Trace for Cloud Functions** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-function-logs-traces |
-| 2026-00-09 | **Explaining a fraud detection model with Cloud AI Platform** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/fraud-detection-ai-explanations |
-| 2026-00-09 | **Run inference of Gemma 4 model on Cloud Run with RTX 6000 Pro GPU with vLLM** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-gpu-rtx-pro-6000-gemma4-vllm |
-| 2026-00-09 | **Deploy and Validate GKE NFO Multi-Network & High Performance Interface** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/gke-multinic-l3netdevice |
-| 2026-00-09 | **Hello Cloud Run with Python** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3 |
-| 2026-00-09 | **Encrypt Resources Easily with Cloud KMS Autokey** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-kms-autokey |
-| 2026-00-09 | **Optimizing 3D data with Draco Geometry Compression** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/draco-3d |
-| 2026-00-09 | **Private Service Connect for Google APIs** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloudnet-psc |
-| 2026-00-09 | **Using the Speech-to-Text API with Python** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-speech-text-python3 |
-| 2026-00-09 | **Informed decision making using Dialogflow CX generators and data stores** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-generator |
-| 2026-00-09 | **Connecting to Cloud SQL with Cloud Functions** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/connecting-to-cloud-sql-with-cloud-functions |
-| 2026-00-09 | **Deploy a basic "Google Translate" app on Python 2 App Engine** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-nebulous-serverless-python-gae2 |
-| 2026-00-09 | **firebase.google.com/codelabs/firebase-mcp-in-studio** | Verified Google Developer codelab activity. URL: https://firebase.google.com/codelabs/firebase-mcp-in-studio |
-| 2026-00-09 | **Gesture Navigation and the edge-to-edge experience** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/gesture-navigation |
-| 2026-00-09 | **Adding WebView to your Flutter app** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/flutter-webview |
-| 2026-00-09 | **Form Parsing with Document AI (Python)** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/docai-form-parser-v1-python |
-| 2026-00-09 | **Deploy a JavaScript application to Cloud Run with Cloud SQL for PostgreSQL** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/cloud-sql-nodejs |
-| 2026-00-09 | **How to deploy a gradio frontend app that calls a backend ADK agent, both running on Cloud Run** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-gradio-cloud-run-adk-agent |
-| 2026-00-09 | **Dive into Dart's patterns and records** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/dart-patterns-records |
-| 2026-00-09 | **CEL-Go Codelab: Fast, safe, embedded expressions** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cel-go |
-| 2026-00-09 | **Track Events in a WebView with Google Analytics** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/ga4f-event-tracking-webview |
-| 2026-00-09 | **Make email more actionable with Google Workspace Add-ons** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/gmail-add-ons |
-| 2026-00-09 | **Using Document AI Warehouse to Ingest, Process, and Search Documents** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/docai-warehouse |
-| 2026-00-09 | **Cloud Spanner: Create a gaming leaderboard with Go** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-leaderboard-go |
-| 2026-00-09 | **Build a Kotlin Spring Application with Google Cloud Platform** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-cloud-gcp-kotlin |
-| 2026-00-09 | **Using the Translation API with C#** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-translation-csharp |
-| 2026-00-09 | **Generative AI text generation in Java with PaLM and LangChain4J** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/genai-text-gen-java-palm-langchain4j |
-| 2026-00-09 | **Using revisions in Cloud Run for Traffic Splitting, Gradual Rollouts, and Rollbacks** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/revisions-cloud-run-traffic-splitting-gradual-rollout-rollbacks |
-| 2026-00-09 | **Code Customization with Gemini Code Assist Enterprise** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/code-assist-enterprise |
-| 2026-00-09 | **Hands-on: Create a TV guide Google Chat with Google Workspace and Dialogflow** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-google-chat-tvguide |
-| 2026-00-09 | **Encrypt and decrypt data with Cloud KMS (Asymmetric)** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/encrypt-and-decrypt-data-with-cloud-kms-asymmetric |
-| 2026-00-09 | **Generative AI powered chat with users and docs in Java with PaLM and LangChain4J** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/genai-chat-java-palm-langchain4j |
-| 2026-00-09 | **Ingest FHIR (Fast Healthcare Interoperability Resources) to BigQuery** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/fhir-to-bq |
-| 2026-00-07 | **Controlling media through MediaSession** | Verified Google Developer codelab activity. URL: https://developer.android.com/codelabs/supporting-mediasession |
+| 2026-00-06 | **Build a custom pre-trained Audio Classification model** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/tflite-audio-classification-custom-model-android |
+| 2026-00-06 | **Build beautiful apps** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-basics-compose-unit-3-pathway-3/android-basics-compose-unit-3-pathway-3 |
+| 2026-00-06 | **Practice: Classes and Collections** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-classes-and-collections |
+| 2026-00-06 | **Use collections in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-collections |
+| 2026-00-06 | **Use nullability in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-nullability |
+| 2026-00-06 | **More Kotlin fundamentals** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-basics-compose-unit-3-pathway-1/android-basics-compose-unit-3-pathway-1 |
+| 2026-00-06 | **Practice: Build a grid** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-grid |
+| 2026-00-06 | **Lesson 13: App UI design** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-13/android-development-with-kotlin-13 |
+| 2026-00-06 | **Store and access data using keys with DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-basics-compose-unit-6-pathway-3/android-basics-compose-unit-6-pathway-3 |
+| 2026-00-06 | **Lesson 1: Kotlin basics** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-1/android-development-with-kotlin-1 |
+| 2026-00-06 | **Create a basic app for audio classification** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/tflite-audio-classification-basic-android |
+| 2026-00-06 | **Higher-order functions with collections** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-higher-order-functions |
+| 2026-00-06 | **Write unit tests for ViewModel** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-test-viewmodel |
+| 2026-00-06 | **Build a basic layout** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-basics-compose-unit-1-pathway-3/android-basics-compose-unit-1-pathway-3 |
+| 2026-00-06 | **Practice: Build Sports app** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-sports-app |
+| 2026-00-06 | **Test the Cupcake App** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-test-cupcake |
+| 2026-00-06 | **Use Room for data persistence** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-6-pathway-2 |
+| 2026-00-06 | **Introduction to Coroutines in Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-coroutines-android-studio |
+| 2026-00-06 | **Run your first app on the Android Emulator** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-emulator |
+| 2026-00-06 | **Lesson 6: App navigation** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-6/android-development-with-kotlin-6 |
+| 2026-00-06 | **Accessibility, testing, and performance** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/jetpack-compose-for-android-developers-4/jetpack-compose-for-android-developers-4 |
+| 2026-00-06 | **Lesson 8: App architecture (UI layer)** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-8/android-development-with-kotlin-8 |
+| 2026-00-06 | **Save preferences locally with DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-datastore |
+| 2026-00-06 | **Lesson 7: Activity and fragment lifecycles** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-7/android-development-with-kotlin-7 |
+| 2026-00-06 | **Functions** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-development-kotlin-2.1 |
+| 2026-00-06 | **Build a simple app with text composables** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-text-composables |
+| 2026-00-06 | **How to connect your Android device** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-connect-device |
+| 2026-00-06 | **(Deprecated) Build an app that runs on a work profile** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/work-profile-apps |
+| 2026-00-06 | **Calculate a custom tip** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-calculate-tip |
+| 2026-00-06 | **Persist data with Room** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-persisting-data-room |
+| 2026-00-06 | **Create and use functions in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-functions |
+| 2026-00-06 | **Introduction to Coroutines in Kotlin Playground** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-coroutines-kotlin-playground |
+| 2026-00-06 | **Change the app icon** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-training-change-app-icon |
+| 2026-00-06 | **Practice: Build Amphibians app** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-amphibians-app |
+| 2026-00-06 | **Build a scrollable list** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-basics-compose-unit-3-pathway-2/android-basics-compose-unit-3-pathway-2 |
+| 2026-00-06 | **Project: Create a My City app** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-my-city |
+| 2026-00-06 | **Practice: Add a ViewModel to Dessert Clicker** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-viewmodel |
+| 2026-00-06 | **Android 11���Week 11���Modern UI quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week11-modern-ui/android-11-week-11-1 |
+| 2026-00-06 | **Download and install Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio |
+| 2026-00-06 | **Go further with audio classification** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/go-further-audio-classification/go-further-audio-classification |
+| 2026-00-06 | **ViewModel and State in Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-and-state |
+| 2026-00-06 | **Practice Problems: Kotlin Basics** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-intro-kotlin-practice-problems |
+| 2026-00-06 | **TensorFlow.js: Retrain a comment spam detection model to handle edge cases** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/tensorflow-retraining-comment-spam-detection |
+| 2026-00-06 | **Intro to Programming** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-basics-compose-unit-1-pathway-1/android-basics-compose-unit-1-pathway-1 |
+| 2026-00-06 | **Use function types and lambda expressions in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-function-types-and-lambda |
+| 2026-00-06 | **Generics, objects, and extensions** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-generics |
+| 2026-00-06 | **Lesson 3: Classes and Objects** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-3/android-development-with-kotlin-3 |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-04.md](./google-developer-2026-00-part-04.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-06.md](./google-developer-2026-00-part-06.md)

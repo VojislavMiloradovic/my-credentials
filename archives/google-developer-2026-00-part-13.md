@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 13 of 20
-date_range: 2026-00-22 to 2026-00-24
-total_entries: 46
+chunk_part: 13 of 34
+date_range: 2026-00-10 to 2026-00-10
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-00-part-13.md
 ---
 
@@ -12,52 +12,54 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-00-24 | **Build a simple iOS navigation app in Swift with Google Maps Platform Navigation SDK** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/maps-platform/navigation-sdk-101-ios |
-| 2026-00-24 | **Real time communication with WebRTC** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/webrtc-web |
-| 2026-00-24 | **Lab 3: Prototype to Production - Deploy Your ADK Agent to Cloud Run with GPU** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-connect-adk-to-deployed-cloud-run-llm |
-| 2026-00-24 | **VPC Service Controls Basic Tutorial I** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/vpc-sc-beginnerlab-1 |
-| 2026-00-24 | **Computing Private Statistics with Privacy on Beam** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/privacy-on-beam |
-| 2026-00-24 | **MDC-111 Web: Incorporating Material Components into your codebase (Web)** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/mdc-111-web |
-| 2026-00-24 | **TensorFlow.js Training in Node.js Codelab** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/tensorflowjs-nodejs-codelab |
-| 2026-00-24 | **Material Theming with Jetpack Compose** | Verified Google Developer codelab activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-material-theming |
-| 2026-00-24 | **Generate Google Slides presentations from Big Data in Node.js** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/slides-api |
-| 2026-00-23 | **App Mod Workshop** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/app-mod-workshop |
-| 2026-00-23 | **Cloud Run private access to Cloud Storage Global endpoint and Regional endpoint** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/Cloudnet-regional-endpoint-global-endpoint |
-| 2026-00-23 | **Developing LLM Apps with the Vertex AI SDK** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/1-developing-apps-that-use-llms/developing-LLM-apps-with-Vertex-AI-SDK |
-| 2026-00-23 | **Cloud Engineering's AI Toolkit: Platform Engineering on GKE using Gemini** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/gke/ai-toolkit-lab-1 |
-| 2026-00-23 | **How to install Oracle database on GCE via Workload Manager** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/oracle-gce-workload-manager |
-| 2026-00-23 | **Getting started with Spec Driven Development in Antigravity** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/getting-started-with-spec-driven-development-in-antigravity |
-| 2026-00-23 | **Building Agents with Retrieval-Augmented Generation** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/7-advanced-agent-capabilities/building-agents-with-retrieval-augmented-generation |
-| 2026-00-23 | **Build Multi-Agent Systems with ADK** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/3-developing-agents/build-a-multi-agent-system-with-adk |
-| 2026-00-23 | **Fine-tune Gemini on Gemini Enterprise Agent Platform** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/9-ai-finetuning/finetune-gemini-vertex-ai |
-| 2026-00-23 | **Evaluating Single LLM Outputs With Vertex AI Evaluation** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/6-ai-evaluation/evaluating-single-llm-outputs-with-vertex-ai-evaluation |
-| 2026-00-23 | **Quick guide to Gemini CLI** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/quick-guide-to-gemini-cli |
-| 2026-00-23 | **Building AI Agents with ADK: Data Analyst Agent** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-data-analyst-agent |
-| 2026-00-23 | **Evaluate RAG Systems with Vertex AI** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/6-ai-evaluation/evaluate-rag-systems-with-vertex-ai |
-| 2026-00-23 | **Securing AI Applications** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/4-securing-ai-applications/securing-ai-applications |
-| 2026-00-23 | **Securing Infrastructure for AI Applications** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/4-securing-ai-applications/securing-infrastructure-for-ai-applications |
-| 2026-00-23 | **Create and deploy low code ADK (Agent Deployment Kit) agents using ADK Visual Builder** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/create-low-code-agent-with-ADK-visual-builder |
-| 2026-00-23 | **Securing Data Used for AI Applications** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/4-securing-ai-applications/securing-data-used-for-ai-applications |
-| 2026-00-22 | **Achieve instant navigations with the Speculation Rules API** | Verified Google Developer codelab activity. URL: https://developer.chrome.com/codelabs/speculation-rules |
-| 2026-00-22 | **Cloud Function to Automate CSV data import into Google Sheets** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-function2sheet |
-| 2026-00-22 | **Building a gRPC service with C#** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-grpc-csharp |
-| 2026-00-22 | **Calculate Revenue Buckets for SKAd Network Conversion Value Schema** | Verified Google Developer codelab activity. URL: https://firebase.google.com/codelabs/ios_skancv |
-| 2026-00-22 | **Data Science with Spark** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/devsite/codelabs/spark-ds-agents |
-| 2026-00-22 | **Building a Serverless Data Pipeline: IoT to Analytics** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/iot-data-pipeline |
-| 2026-00-22 | **Create a Generative Chat App with Vertex AI Conversation** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/vertex-ai-conversation |
-| 2026-00-22 | **Create an accessible and personalized theme and brand with Material Design 3** | Verified Google Developer codelab activity. URL: https://developer.android.com/codelabs/m3-design-theming |
-| 2026-00-22 | **Cloud Firestore iOS Codelab** | Verified Google Developer codelab activity. URL: https://firebase.google.com/codelabs/firestore-ios |
-| 2026-00-22 | **(Deprecated) Login with Biometrics on Android** | Verified Google Developer codelab activity. URL: https://developer.android.com/codelabs/biometric-login |
-| 2026-00-22 | **Table for N: eval as the gate, evolution as the loop** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/loop-lab-table/instructions |
-| 2026-00-22 | **Cronet Basics** | Verified Google Developer codelab activity. URL: https://developer.android.com/codelabs/cronet |
-| 2026-00-22 | **Configure, implement, and verify Android App Links** | Verified Google Developer codelab activity. URL: https://developer.android.com/codelabs/android-app-links-introduction |
-| 2026-00-22 | **Continuous deployment to Google Kubernetes Engine (GKE) with Cloud Build** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-builder-gke-continuous-deploy |
-| 2026-00-22 | **Serving AVIF Images** | Verified Google Developer codelab activity. URL: https://web.dev/codelabs/avif |
-| 2026-00-22 | **Deploy ASP.NET Core app to Google Kubernetes Engine with Istio (Part 2)** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-istio-aspnetcore-part2 |
-| 2026-00-22 | **Building a gRPC service with Java** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-grpc-java |
-| 2026-00-22 | **Cloud Firestore Android Codelab** | Verified Google Developer codelab activity. URL: https://firebase.google.com/codelabs/firestore-android |
-| 2026-00-22 | **Creating text prompts with Google AI Studio and the Gemini LLM** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/solutions/ai-gemini-101/codelab-1 |
-| 2026-00-22 | **Calculate Pi on Compute Engine** | Verified Google Developer codelab activity. URL: https://codelabs.developers.google.com/codelabs/cloud-compute-engine-pi |
+| 2026-00-10 | **Deploy your containerized agent on Agent Runtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-runtime-deploy-containerized-agent |
+| 2026-00-10 | **Build an AI Agent with Google ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-ai-agent-google-adk |
+| 2026-00-10 | **Cloud Armor NamedIP List** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-cloudarmor |
+| 2026-00-10 | **Evolve compiled code with AlphaEvolve on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alphaevolve-on-google-cloud-2 |
+| 2026-00-10 | **Hands-on with Google Apps Script: Accessing Google Sheets, Maps, and Gmail in 4 lines of code!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/apps-script-intro |
+| 2026-00-10 | **Google Pay API for Flutter on Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/pay-flutter |
+| 2026-00-10 | **Build and launch an ASP.NET Core app from Google Cloud Shell** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-aspnetcore-cloudshell |
+| 2026-00-10 | **Private Service Connect for Google APIs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc |
+| 2026-00-10 | **Using Private Service Connect to publish and consume services with GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-ilb-gke |
+| 2026-00-10 | **How to use App Engine Memcache in Flask apps (Module 12)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-12-memcache |
+| 2026-00-10 | **Module 11: Migrating from Google App Engine to Cloud Functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-11-functions |
+| 2026-00-10 | **Building Applications in the AI Era** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/building-applications-in-the-ai-era |
+| 2026-00-10 | **Cloud Armor for NLB/VM with User Defined Rules** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ca4nlb-phase2 |
+| 2026-00-10 | **Module 3: Migrate from Google Cloud NDB to Cloud Datastore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-3-datastore |
+| 2026-00-10 | **Getting Started with gRPC-Python - Streaming** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/getting-started-grpc-python-streaming |
+| 2026-00-10 | **Migrate from App Engine Memcache to Cloud Memorystore (Module 13)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-13-memorystore |
+| 2026-00-10 | **Build an Interactive Canvas Action for Google Assistant with Actions Builder** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/builder-canvas |
+| 2026-00-10 | **Get started with AlphaEvolve on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alphaevolve-on-google-cloud-1 |
+| 2026-00-10 | **Setting up custom cost controls for BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-custom-quota |
+| 2026-00-10 | **How to use App Engine Task Queue (pull tasks) in Flask apps (Module 18)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-18-gaepull |
+| 2026-00-10 | **HTTP Cloud Functions in Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-functions-python-http |
+| 2026-00-10 | **Engage users with your Action for Google Assistant** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/actions-user-engagement |
+| 2026-00-10 | **Private Service Connect - Using PSC Backends to Access a Producer Service** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-l7psc-xlb-gcp |
+| 2026-00-10 | **Sentiment analysis using Gemini AI with ABAP SDK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/abap-sdk/gemini-ai-sentiment |
+| 2026-00-10 | **Cloud Run Starter Tutorial** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-run-starter-app |
+| 2026-00-10 | **Migration from Cassandra to Bigtable with a Dual-Write Proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cbt-for-cassandra |
+| 2026-00-10 | **Hierarchical Firewall Policy with IAM-governed tags** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-ngfw-hfp |
+| 2026-00-10 | **Build Actions for Google Assistant using the Actions SDK (Level 1)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/actions-sdk-1 |
+| 2026-00-10 | **Getting Started with gRPC-Go - Streaming** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/getting-started-grpc-go-streaming |
+| 2026-00-10 | **Migrate from App Engine Task Queue Push Tasks to Cloud Tasks (Module 8)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-8-cloudtasks |
+| 2026-00-10 | **Rate Limiting with Cloud Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-armor-rate-limiting |
+| 2026-00-10 | **Getting started with Angular Signals** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/angular-signals |
+| 2026-00-10 | **Connect AppSheet with Apps Script** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/appsheet-appsscript |
+| 2026-00-10 | **Getting Started with gRPC-Java - Streaming** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/getting-started-grpc-java-streaming |
+| 2026-00-10 | **Using BigQuery with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-bigquery-python |
+| 2026-00-10 | **Integrate fundamental AI concepts in Google Chat apps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/chat-apps-ai-concepts |
+| 2026-00-10 | **Get Started with Unity and Google Play Games for PC** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/android-google-play-games-unity-quickstart |
+| 2026-00-10 | **Deploy an ASP.NET Core app to App Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-app-engine-aspnetcore |
+| 2026-00-10 | **Deploy a Micronaut application containerized with Jib to Google Kubernetes Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-micronaut-kubernetes |
+| 2026-00-10 | **Extending support for App Engine bundled services: Part 1 (Module 17)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-17-bundled |
+| 2026-00-10 | **Build apps for Google Chat with Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/chat-apps-gemini |
+| 2026-00-10 | **Evolve LLM fine-tuning hyperparameters with AlphaEvolve on GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alphaevolve-on-google-cloud-3 |
+| 2026-00-10 | **Cloud DNS ResourceRecordSets API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-dns-rrsets-gcloud |
+| 2026-00-10 | **Launch your web-based video game with AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/launch-your-web-based-video-game-with-ai |
+| 2026-00-10 | **Google Pay API for React Native on Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/pay-react-native |
+| 2026-00-10 | **Instrument for better performance in your app in Go (part 2: profiler)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-profiler-go |
+| 2026-00-10 | **Introduction to Cloud Operations Suite** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-operations-handson-with-gcloud |
+| 2026-00-10 | **Analyze and visualize credit card transaction data in Bigtable using BigQuery and Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigtable-cdc-looker-tutorial |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-12.md](./google-developer-2026-00-part-12.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-14.md](./google-developer-2026-00-part-14.md)
