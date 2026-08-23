@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 18 of 26
-date_range: 2026-06-09 to 2026-06-09
-total_entries: 64
+chunk_part: 18 of 20
+date_range: 2026-06-05 to 2026-06-05
+total_entries: 67
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-18.md
 ---
 
@@ -12,70 +12,73 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-09 | **Send Web events to GA4 using Measurement Protocol** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **clasp - The Apps Script CLI** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Pic-a-daily: Lab 1—Store and analyse pictures (Java)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Cloud Foundation Toolkit 101** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Private Service Connect Mutability Codelab** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Connecting to Cloud SQL: Compute Engine, Private IP and Cloud SQL Proxy** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Create a Cloud Run worker pool for Pull-based Pub/Sub Subscriptions** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Pic-a-daily: Store and Analyze Pictures with Google Native Java Client Libraries** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Document AI Workbench - Custom Document Extractor** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Use the ARCore Depth API for immersive augmented reality experiences** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **How to use 1-click Identity Aware Proxy (IAP) with Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Pic-a-daily: Lab 3—Create a collage of most recent pictures** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Dev to Prod in Three Easy Steps with Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Practical observability techniques for Generative AI application in Python** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Create Data Studio Community Visualizations with dscc-gen** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Duet AI Technical Hands On Workshop Guide for Developers Codelab** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Deploy a full stack Next.js application to Cloud Run with Cloud SQL for PostgreSQL using the Cloud SQL Node.js Connector** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Using Cloud NAT NAT rules** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Using the Speech-to-Text API with Node.js** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Deploy and Update a .NET Core app in Google Kubernetes Engine** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Defending Edge Cache with Cloud Armor** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Introduction to serverless orchestration with Workflows** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Multimodal Video Transcription with Gemini** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Create a transcript of your business meetings using Google Docs & Machine Learning** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **How to Interact with APIs Using Function Calling in Gemini** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Using the Speech-to-Text API with C#** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Build a Slack bot with Node.js on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Cloud Data Loss Prevention Overview** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Prepare to grow with tips using Google Analytics for Firebase integrations with Ads** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Pic-a-daily: Lab 1—Store and analyze pictures (Native Java)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Compute private statistics with PipelineDP** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **firebase.google.com/codelabs/firebase-studio-intro** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Document AI Workbench - Uptraining** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Getting Started with gRPC-Rust - Streaming** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Connecting to Cloud SQL: Public IP and authorized networks** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Using Notebooks with Google Cloud Dataflow** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Run inference using a Gemma model on Cloud Run with RTX 6000 Pro GPU** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Deploy and run a container with Cloud Run on Node.js** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Using the Video Intelligence API with Python** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Turn your big data into insights using Google Sheets and Slides** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Pic-a-daily: Lab 6—Orchestration with Workflows** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Cloud Spanner: Your First Database** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Exploratory data analysis of Iowa liquor sales using the BigQuery DataFrames package** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **How to connect a Node.js application on Cloud Run to a Cloud SQL for PostgreSQL database** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Launching Google Ads Campaigns with Google Analytics Custom Events and Flutter** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Specialized Processors with Document AI (Python)** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Events for Cloud Run for Anthos Codelab** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Cloud Spanner Game Trading Post** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Using the Vision API with C#** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Using the Translation API with Python** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Sign in with Google One Tap prompt for Web** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Image archiving, analysis, and report generation Google Workspace & Google Cloud** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Increase intent coverage and handle errors gracefully with generative fallback** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **How to use Gemini to explore and enhance an existing application** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Build a Fraud Detection model on Cloud AI Platform with TensorFlow Enterprise and BigQuery** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Trigger Kubernetes services with Eventarc events** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Encrypt and decrypt data with Cloud KMS** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Deploy a basic "Google Translate" app on Python 3 Cloud Functions** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Using Cloud NAT Dynamic Port Allocation** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Visualize Clinical Data using Looker** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Using the Natural Language API with Python** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Django on Cloud Run** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Use Stackdriver Logging and Stackdriver Trace for Cloud Functions** | Verified Google Developer granular learning activity module milestone. |
-| 2026-06-09 | **Publish an event to Cloud Pub/Sub using ABAP SDK for Google Cloud** | Verified Google Developer granular learning activity module milestone. |
+| 2026-06-05 | **Improve User Experience** | Official Google Developer platform achievement (Learning Pathway: improve user experience). |
+| 2026-06-05 | **Material Design Web** | Official Google Developer platform achievement (Learning Pathway: material design web). |
+| 2026-06-05 | **Get Started Text Classification Web** | Official Google Developer platform achievement (Learning Pathway: get started text classification web). |
+| 2026-06-05 | **Add Firebase To Flutter** | Official Google Developer platform achievement (Learning Pathway: add_firebase_to_flutter). |
+| 2026-06-05 | **Llm On Android** | Official Google Developer platform achievement (Learning Pathway: llm on android). |
+| 2026-06-05 | **Fugu Apis** | Official Google Developer platform achievement (Learning Pathway: fugu apis). |
+| 2026-06-05 | **Get Started Mobile Text Classification** | Official Google Developer platform achievement (Learning Pathway: get started mobile text classification). |
+| 2026-06-05 | **Android Basics Compose Unit 6 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 6 pathway 2). |
+| 2026-06-05 | **Data Visualization On Maps** | Official Google Developer platform achievement (Learning Pathway: data visualization on maps). |
+| 2026-06-05 | **Jetpack Compose For Android Developers 4** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 4). |
+| 2026-06-05 | **Learn Ai** | Official Google Developer platform achievement (Learning Pathway: learn ai). |
+| 2026-06-05 | **Android Basics Compose Unit 3 Pathway 3** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 3 pathway 3). |
+| 2026-06-05 | **Ai Evals** | Official Google Developer platform achievement (Learning Pathway: ai evals). |
+| 2026-06-05 | **Messaging With Firebase** | Official Google Developer platform achievement (Learning Pathway: messaging with firebase). |
+| 2026-06-05 | **Android 11 Week 6** | Official Google Developer platform achievement (Learning Pathway: android 11 week 6). |
+| 2026-06-05 | **Going Further Object Detection** | Official Google Developer platform achievement (Learning Pathway: going further object detection). |
+| 2026-06-05 | **Android Enterprise Build Apps** | Official Google Developer platform achievement (Learning Pathway: android enterprise build apps). |
+| 2026-06-05 | **Make Your Android App Accessible** | Official Google Developer platform achievement (Learning Pathway: make your android app accessible). |
+| 2026-06-05 | **Nvidia Deploy With Gen Ai** | Official Google Developer platform achievement (Learning Pathway: nvidia deploy with gen ai). |
+| 2026-06-05 | **Build Apps** | Official Google Developer platform achievement (Learning Pathway: build apps). |
+| 2026-06-05 | **Android 11 Week 5** | Official Google Developer platform achievement (Learning Pathway: android 11 week 5). |
+| 2026-06-05 | **Text Classification Flutter** | Official Google Developer platform achievement (Learning Pathway: text classification flutter). |
+| 2026-06-05 | **Android Development With Kotlin 2** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 2). |
+| 2026-06-05 | **Firebase Mfa Security Rules** | Official Google Developer platform achievement (Learning Pathway: firebase mfa security rules). |
+| 2026-06-05 | **Crossword** | Official Google Developer platform achievement (Learning Pathway: crossword). |
+| 2026-06-05 | **Activity Embedding** | Official Google Developer platform achievement (Learning Pathway: activity embedding). |
+| 2026-06-05 | **Firebase Crashlytics Analytics** | Official Google Developer platform achievement (Learning Pathway: firebase crashlytics analytics). |
+| 2026-06-05 | **Firebase Remote Config** | Official Google Developer platform achievement (Learning Pathway: firebase remote config). |
+| 2026-06-05 | **Android Basics Compose Unit 3 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 3 pathway 1). |
+| 2026-06-05 | **Firebase Security Layers** | Official Google Developer platform achievement (Learning Pathway: firebase security layers). |
+| 2026-06-05 | **Going Further Image Classification** | Official Google Developer platform achievement (Learning Pathway: going further image classification). |
+| 2026-06-05 | **Going Further Text Classification Web** | Official Google Developer platform achievement (Learning Pathway: going further text classification web). |
+| 2026-06-05 | **Ai Models On Gpu Intro** | Official Google Developer platform achievement (Learning Pathway: ai models on gpu intro). |
+| 2026-06-05 | **Android 11 Week 2** | Official Google Developer platform achievement (Learning Pathway: android 11 week 2). |
+| 2026-06-05 | **Pay** | Official Google Developer platform achievement (Learning Pathway: pay). |
+| 2026-06-05 | **Ecommerce Microservices Kubernetes** | Official Google Developer platform achievement (Learning Pathway: ecommerce microservices kubernetes). |
+| 2026-06-05 | **Ai Powered Content Search** | Official Google Developer platform achievement (Learning Pathway: ai powered content search). |
+| 2026-06-05 | **Android Development With Kotlin 6** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 6). |
+| 2026-06-05 | **Kotlin Multiplatform** | Official Google Developer platform achievement (Learning Pathway: kotlin multiplatform). |
+| 2026-06-05 | **Three Tier Cloud Run** | Official Google Developer platform achievement (Learning Pathway: three tier cloud run). |
+| 2026-06-05 | **Android 11 Week 11 1** | Official Google Developer platform achievement (Learning Pathway: android 11 week 11 1). |
+| 2026-06-05 | **Android Development With Kotlin 4** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 4). |
+| 2026-06-05 | **Android Development With Kotlin 7** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 7). |
+| 2026-06-05 | **Gpay For Web** | Official Google Developer platform achievement (Learning Pathway: gpay for web). |
+| 2026-06-05 | **Get Started Image Classification** | Official Google Developer platform achievement (Learning Pathway: get started image classification). |
+| 2026-06-05 | **Identity** | Official Google Developer platform achievement (Learning Pathway: identity). |
+| 2026-06-05 | **Learn Css** | Official Google Developer platform achievement (Learning Pathway: learn css). |
+| 2026-06-05 | **Firebase Firestore Leaderboards** | Official Google Developer platform achievement (Learning Pathway: firebase firestore leaderboards). |
+| 2026-06-05 | **Discovery** | Official Google Developer platform achievement (Community: discovery). |
+| 2026-06-05 | **Cross Platform Apps With Angular** | Official Google Developer platform achievement (Learning Pathway: cross platform apps with angular). |
+| 2026-06-05 | **Pwa Push Notifications** | Official Google Developer platform achievement (Learning Pathway: pwa push notifications). |
+| 2026-06-05 | **Aog Smart Home** | Official Google Developer platform achievement (Learning Pathway: aog smart home). |
+| 2026-06-05 | **Local Development With Emulator Suite** | Official Google Developer platform achievement (Learning Pathway: local_development_with_emulator_suite). |
+| 2026-06-05 | **Android Basics Compose Unit 3 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 3 pathway 2). |
+| 2026-06-05 | **Get Started Audio Classification** | Official Google Developer platform achievement (Learning Pathway: get started audio classification). |
+| 2026-06-05 | **Learn Privacy** | Official Google Developer platform achievement (Learning Pathway: learn privacy). |
+| 2026-06-05 | **Android Basics Compose Unit 8 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 1). |
+| 2026-06-05 | **App Check** | Official Google Developer platform achievement (Learning Pathway: app_check). |
+| 2026-06-05 | **Learnings** | Official Google Developer platform achievement (Learning Pathway: learnings). |
+| 2026-06-05 | **Applied Ml With Keras** | Official Google Developer platform achievement (Learning Pathway: applied ml with keras). |
+| 2026-06-05 | **Apps Script** | Official Google Developer platform achievement (Learning Pathway: apps_script). |
+| 2026-06-05 | **Android Basics Compose Unit 2 Pathway 3** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 2 pathway 3). |
+| 2026-06-05 | **Android Basics Compose Unit 7 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 7 pathway 1). |
+| 2026-06-05 | **Jetpack Compose For Android Developers 5** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 5). |
+| 2026-06-05 | **Maintainable Scalable Web Apps** | Official Google Developer platform achievement (Learning Pathway: maintainable scalable web apps). |
+| 2026-06-05 | **Created Profile** | Official Google Developer platform achievement (Learning Pathway: created profile). |
+| 2026-06-05 | **Web Apps With Firebase** | Official Google Developer platform achievement (Learning Pathway: web apps with firebase). |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-19.md](./google-developer-2026-06-part-19.md)

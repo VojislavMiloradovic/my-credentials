@@ -84,9 +84,13 @@ def clean_orphaned_chunks(
         if filename not in active_filenames:
             try:
                 os.remove(filepath)
-                print(f"  🗑️  Removed orphaned chunk: {filename}")
+                print(
+                    f"  Removed orphaned chunk: {filename}".encode(
+                        "utf-8", "replace"
+                    ).decode("utf-8")
+                )
             except OSError as e:
-                print(f"  ⚠️  Failed to remove orphaned chunk {filename}: {e}")
+                print(f"  Failed to remove orphaned chunk {filename}: {e}")
 
 
 def _extract_ym(date_str: str, default_ym: str) -> str:

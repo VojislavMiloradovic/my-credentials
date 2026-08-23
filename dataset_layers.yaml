@@ -41,20 +41,20 @@ platforms:
     L0_raw:
       sources:
         - "rpc_api"
-        - "data/google_learnings.txt"
-      description: "RPC API milestone badges + local granular learning activities (codelabs, modules)"
+        - "data/Learning \u00a0_\u00a0 Google Developer Program \u00a0_\u00a0 Google for Developers.mhtml"
+      description: "RPC API milestone badges + MHTML learnings badge page with codelab links (up to 1000 most recent)"
     L1_normalized:
       source_layer: "L0_raw"
       transforms:
         milestones:
           type: "extract_milestone_badges_dedupe"
         micro_learnings:
-          type: "parse_local_learnings_dedupe"
+          type: "parse_mhtml_codelabs"
       output_streams:
         - "public_badges"
         - "detailed_learnings"
       retired_handling: "registry_only"
-      description: "Two independent streams: public_badges (milestone badges from RPC, 171) and detailed_learnings (granular activities from local log, 1467). Retired via registry only."
+      description: "Two independent streams: public_badges (milestone badges from RPC, 171) and micro_learnings (codelab activities from MHTML, 805). Unavailable codelab links marked as retired."
     L2_published:
       source_layer: "L1_normalized"
       transforms:

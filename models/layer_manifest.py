@@ -24,6 +24,7 @@ class LayerTransform(BaseModel):
         "count_active_and_retired",
         "extract_milestone_badges_dedupe",
         "parse_local_learnings_dedupe",
+        "parse_mhtml_codelabs",
     ]
     params: dict = Field(default_factory=dict)
 

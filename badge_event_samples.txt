@@ -1,0 +1,64 @@
+
+=== Badge Event 1 ===
+Classes: ['badge-event']
+Attrs: {'class': ['badge-event']}
+  Full text: Theming in Compose with Material 326. ������ 2026.
+
+=== Badge Event 2 ===
+Classes: ['badge-event']
+Attrs: {'class': ['badge-event']}
+  Title: Using Secret Manager with Python
+  URL: https://codelabs.developers.google.com/codelabs/secret-manager-python
+  Full text: Using Secret Manager with Python26. ������ 2026.
+
+=== Badge Event 3 ===
+Classes: ['badge-event']
+Attrs: {'class': ['badge-event']}
+  Full text: Lesson 10: Advanced RecyclerView use cases6. ������ 2026.
+
+=== Badge Event 4 ===
+Classes: ['badge-event']
+Attrs: {'class': ['badge-event']}
+  Title: MDC-103 Web: Material Theming with Color, Shape, Elevation and Type (Web)
+  URL: https://codelabs.developers.google.com/codelabs/mdc-103-web
+  Full text: MDC-103 Web: Material Theming with Color, Shape, Elevation and Type (Web)24. ������ 2026.
+
+=== Badge Event 5 ===
+Classes: ['badge-event']
+Attrs: {'class': ['badge-event']}
+  Title: Serverless AI: EmbeddingGemma with Cloud Run
+  URL: https://codelabs.developers.google.com/codelabs/embeddinggemma-cloud-run
+  Full text: Serverless AI: EmbeddingGemma with Cloud Run10. ������ 2026.
+
+=== Badge Event 6 ===
+Classes: ['badge-event']
+Attrs: {'class': ['badge-event']}
+  Full text: Applied ML with Keras27. ������ 2026.
+
+=== Badge Event 7 ===
+Classes: ['badge-event']
+Attrs: {'class': ['badge-event']}
+  Title: Add Sign in with Google to an iOS app
+  URL: https://codelabs.developers.google.com/codelabs/sign-in-with-google-ios
+  Full text: Add Sign in with Google to an iOS app20. ������ 2026.
+
+=== Badge Event 8 ===
+Classes: ['badge-event']
+Attrs: {'class': ['badge-event']}
+  Title: Build a Realtime Trading App with Firebase SQL Connect (web)
+  URL: https://firebase.google.com/codelabs/firebase-sql-connect-web
+  Full text: Build a Realtime Trading App with Firebase SQL Connect (web)21. ������ 2026.
+
+=== Badge Event 9 ===
+Classes: ['badge-event']
+Attrs: {'class': ['badge-event']}
+  Full text: Android Views and Compose in Views29. ������ 2026.
+
+=== Badge Event 10 ===
+Classes: ['badge-event']
+Attrs: {'class': ['badge-event']}
+  Full text: Learn AI31. ������ 2026.
+
+=== Checking ALL badge-event containers for dates ===
+Containers with month-year dates: 0
+Containers with codelab links: 805

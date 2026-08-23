@@ -187,24 +187,24 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 171 |
-| **Total Codelabs & Learning Activities** | 1,478 |
+| **Total Codelabs & Learning Activities** | 805 |
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-08-part-26.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-26.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-06-part-20.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-20.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| *2026-08-22* | **Achieve instant navigations with the Speculation Rules API** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-22* | **Wrangling unstructured data with LLM-driven vector embedding** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-22* | **Getting started with vector embeddings in Cloud SQL for PostgreSQL** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-22* | **Semantic Analysis in BigQuery with managed AI functions and SQL** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-22* | **(Deprecated) Login with Biometrics on Android** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-22* | **Table for N: eval as the gate, evolution as the loop** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-22* | **How to build long-term AI agent memory with AlloyDB AI** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-22* | **Serving AVIF Images** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-22* | **Analyze and enrich enterprise data with generative AI and SQL in BigQuery** | Verified Google Developer granular learning activity module milestone. |
-| *2026-08-22* | **Fraud Detection Pipeline with Data Agent Kit & Antigravity IDE** | Verified Google Developer granular learning activity module milestone. |
+| *2026-06-05* | **Android Basics Compose Unit 8 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 2). |
+| *2026-06-05* | **Engage Users With Firebase** | Official Google Developer platform achievement (Learning Pathway: engage users with firebase). |
+| *2026-06-05* | **GDG Belgrade** | Official Google Developer platform achievement (Community: gdg belgrade). |
+| *2026-06-05* | **Android Basics Compose Unit 2 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 2 pathway 1). |
+| *2026-06-05* | **Android Development With Kotlin 8** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 8). |
+| *2026-06-05* | **Android Basics Compose Unit 4 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 4 pathway 2). |
+| *2026-06-05* | **Gear** | Official Google Developer platform achievement (Community: gear). |
+| *2026-06-05* | **Firebase Android Jetpack** | Official Google Developer platform achievement (Learning Pathway: firebase android jetpack). |
+| *2026-06-05* | **Jetpack Compose For Android Developers 1** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 1). |
+| *2026-06-05* | **Android Basics Compose Unit 5 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 5 pathway 1). |
 <!-- GOOGLE_DEVELOPER_END -->
 
 
