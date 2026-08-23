@@ -827,12 +827,6 @@ def main():
     for badge in combined_feed[:10]:
         clean_desc = badge["description"].replace("|", "\\|").replace("\n", " ")
         clean_title = badge["title"].replace("|", "\\|")
-        # Add link to title if URL is available
-        url = badge.get("url")
-        if url:
-            title_with_link = f"[{clean_title}]({url})"
-        else:
-            title_with_link = f"**{clean_title}**"
         readme_lines.append(f"| *{badge['date']}* | **{clean_title}** | {clean_desc} |")
 
     table_headers = ["Date Earned", "Title", "Description"]
