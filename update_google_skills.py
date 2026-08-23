@@ -643,27 +643,66 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                         from bs4 import BeautifulSoup
 
                         soup = BeautifulSoup(response.text, "html.parser")
-                        badge_elements = soup.find_all(
-                            class_=re.compile(
-                                r"public-profile-badge|badge-item|badge", re.IGNORECASE
+
+                        # Primary: find individual badge containers (.profile-badge)
+                        # Exclude the wrapper (.profile-badges) which contains all badges
+                        badge_containers = soup.find_all(
+                            class_=lambda x: (
+                                x
+                                and "profile-badge" in x.lower()
+                                and "profile-badges" not in x.lower()
                             )
                         )
-                        parsed = []
-                        for el in badge_elements:
-                            title_el = el.find(
-                                class_=re.compile(r"title|name|heading", re.IGNORECASE)
-                            ) or el.find(["h2", "h3", "h4", "strong", "span"])
-                            date_el = el.find(
-                                class_=re.compile(r"date|earned|issued", re.IGNORECASE)
+
+                        # Fallback: find by broader badge class
+                        if not badge_containers:
+                            badge_containers = soup.find_all(
+                                class_=re.compile(
+                                    r"public-profile-badge|badge-item|badge",
+                                    re.IGNORECASE,
+                                )
                             )
-                            link_el = el.find("a", href=True)
-                            img_el = el.find("img", src=True)
+
+                        parsed = []
+                        for container in badge_containers:
+                            # Find badge link (for ID and verify URL)
+                            link_el = container.find(
+                                "a", href=re.compile(r"/badges/\d+")
+                            )
+
+                            # Find title (in .ql-title-medium or similar)
+                            title_el = container.find(
+                                class_=re.compile(
+                                    r"ql-title|title|name|heading", re.IGNORECASE
+                                )
+                            )
+
+                            # Find date (in .ql-body-medium which contains "Earned ...")
+                            date_el = container.find(
+                                class_=re.compile(
+                                    r"ql-body|date|earned|issued", re.IGNORECASE
+                                )
+                            )
+
+                            img_el = container.find("img", src=True)
 
                             if title_el:
                                 title = title_el.get_text(strip=True)
-                                dt = normalize_date_string(
-                                    date_el.get_text(strip=True) if date_el else None
-                                )
+
+                                # Extract date from text containing "Earned MMM DD, YYYY"
+                                dt = None
+                                if date_el:
+                                    date_text = date_el.get_text(strip=True)
+                                    earned_match = re.search(
+                                        r"Earned\s+([A-Za-z]{3}\s+\d{1,2},?\s+\d{4})",
+                                        date_text,
+                                        re.IGNORECASE,
+                                    )
+                                    if earned_match:
+                                        dt = normalize_date_string(
+                                            earned_match.group(1)
+                                        )
+
                                 verify = (
                                     link_el["href"]
                                     if link_el
