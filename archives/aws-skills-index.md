@@ -5,14 +5,14 @@ This directory provides chunked, AI-readable historical records for AWS Skill Bu
 ## Archive Overview
 
 - **Total Records Archived:** 655
-- **Monolithic File Size:** ~0.0 KB (29,779 tokens)
+- **Monolithic File Size:** ~109.15 KB (29,779 tokens)
 - **Total Chunk Parts:** 12 chunk(s)
 
 ### Monolithic Archive (Complete)
 
 | File Name | Size (KB) | Tokens | Recommended For | Direct Raw URL |
 | :--- | :---: | :---: | :--- | :--- |
-| [`aws-skills-complete.md`](./aws-skills-complete.md) | 0.0 KB | 29,779 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md) |
+| [`aws-skills-complete.md`](./aws-skills-complete.md) | 109.15 KB | 29,779 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md) |
 
 ### Chunked Archive Parts (~10 KB Slices)
 
