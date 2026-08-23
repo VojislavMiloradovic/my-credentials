@@ -191,20 +191,20 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-06-part-34.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-34.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-08-part-34.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-34.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| *2026-06-05* | **Android Basics Compose Unit 8 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 2). |
-| *2026-06-05* | **Engage Users With Firebase** | Official Google Developer platform achievement (Learning Pathway: engage users with firebase). |
-| *2026-06-05* | **GDG Belgrade** | Official Google Developer platform achievement (Community: gdg belgrade). |
-| *2026-06-05* | **Android Basics Compose Unit 2 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 2 pathway 1). |
-| *2026-06-05* | **Android Development With Kotlin 8** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 8). |
-| *2026-06-05* | **Android Basics Compose Unit 4 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 4 pathway 2). |
-| *2026-06-05* | **Gear** | Official Google Developer platform achievement (Community: gear). |
-| *2026-06-05* | **Firebase Android Jetpack** | Official Google Developer platform achievement (Learning Pathway: firebase android jetpack). |
-| *2026-06-05* | **Jetpack Compose For Android Developers 1** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 1). |
-| *2026-06-05* | **Android Basics Compose Unit 5 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 5 pathway 1). |
+| *2026-08-22* | [Achieve instant navigations with the Speculation Rules API](https://developer.chrome.com/codelabs/speculation-rules) | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/speculation-rules |
+| *2026-08-22* | [Wrangling unstructured data with LLM-driven vector embedding](https://codelabs.developers.google.com/smart-bookmark-agent-antigravity/instructions) | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/smart-bookmark-agent-antigravity/instructions |
+| *2026-08-22* | [Getting started with vector embeddings in Cloud SQL for PostgreSQL](https://codelabs.developers.google.com/csql-pg-ai-embedding) | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/csql-pg-ai-embedding |
+| *2026-08-22* | [Semantic Analysis in BigQuery with managed AI functions and SQL](https://codelabs.developers.google.com/bigquery-managed-ai-operators) | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-managed-ai-operators |
+| *2026-08-22* | [(Deprecated) Login with Biometrics on Android](https://developer.android.com/codelabs/biometric-login) | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/biometric-login |
+| *2026-08-22* | [Table for N: eval as the gate, evolution as the loop](https://codelabs.developers.google.com/codelabs/loop-lab-table/instructions) | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/loop-lab-table/instructions |
+| *2026-08-22* | [How to build long-term AI agent memory with AlloyDB AI](https://codelabs.developers.google.com/alloydb-agentic-tiered-memory) | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-agentic-tiered-memory |
+| *2026-08-22* | [Serving AVIF Images](https://web.dev/codelabs/avif) | Verified Google Developer learning activity. URL: https://web.dev/codelabs/avif |
+| *2026-08-22* | [Analyze and enrich enterprise data with generative AI and SQL in BigQuery](https://codelabs.developers.google.com/bigquery-generative-ai-intro) | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-generative-ai-intro |
+| *2026-08-22* | [Fraud Detection Pipeline with Data Agent Kit & Antigravity IDE](https://codelabs.developers.google.com/dak-data-science-antigravity-ide) | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dak-data-science-antigravity-ide |
 <!-- GOOGLE_DEVELOPER_END -->
 
 

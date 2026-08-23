@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-23T16:39:33.462502+00:00",
+  "timestamp": "2026-08-23T20:23:29.259748+00:00",
   "summary": {
     "total": 110,
     "passed": 97,
@@ -93,9 +93,9 @@
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
-      "latest_record_date_source": "2026-06-05T00:00:00",
-      "latest_record_date_archive": "2026-06-05T00:00:00",
-      "latest_record_date_jsonld": "2026-06-05T00:00:00"
+      "latest_record_date_source": "2026-08-22T00:00:00",
+      "latest_record_date_archive": "2026-08-22T00:00:00",
+      "latest_record_date_jsonld": "2026-08-22T00:00:00"
     }
   },
   "results": [
@@ -1156,7 +1156,7 @@
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-06-05 to 2026-06-05)",
+      "message": "Latest record dates span 0 days across artifacts (2026-08-22 to 2026-08-22)",
       "severity": "warning"
     }
   ]

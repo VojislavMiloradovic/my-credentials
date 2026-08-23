@@ -11,6 +11,7 @@ import email
 import json
 import logging
 import os
+import quopri
 import re
 import sys
 from datetime import UTC, datetime
@@ -459,7 +460,12 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
                 and "profile/badges/recognitions/learnings"
                 in part.get("Content-Location", "")
             ):
-                html_content = part.get_content()
+                # Manually decode quoted-printable payload as UTF-8
+                raw_payload = part.get_payload(decode=False)
+                if raw_payload:
+                    html_content = quopri.decodestring(raw_payload).decode(
+                        "utf-8", errors="replace"
+                    )
                 break
 
         if html_content:
