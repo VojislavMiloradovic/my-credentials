@@ -1,6 +1,6 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-08-23 16:38 UTC
+> **Last Generated:** 2026-08-23 17:07 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
@@ -43,9 +43,6 @@ Recommended for models with large context windows (>100k tokens).
 ## Latest Chunked Slices (~10 KB per slice)
 Optimized for lower-capacity context tools or fast targeted queries.
 
-- [Aws Skills Latest Slice](./archives/aws-skills-2026-08-part-12.md): Most recent achievements for Aws Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-12.md
-- [Credly Verified Credentials Latest Slice](./archives/credly-2026-08-part-11.md): Most recent achievements for Credly Verified Credentials. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md
-- [Google Skills Latest Slice](./archives/google-skills-2026-08-part-08.md): Most recent achievements for Google Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-08.md
 - [Google Developer Latest Slice](./archives/google-developer-2026-06-part-34.md): Most recent achievements for Google Developer. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-34.md
 - [Linkedin Certifications Latest Slice](./archives/linkedin-certifications-2026-08-part-33.md): Most recent achievements for Linkedin Certifications. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-33.md
 - [Microsoft Learn Latest Slice](./archives/microsoft-learn-2026-08-part-95.md): Most recent achievements for Microsoft Learn. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-95.md
