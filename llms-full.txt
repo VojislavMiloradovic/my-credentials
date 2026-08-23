@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-08-23 22:35 UTC
+> **Last Generated:** 2026-08-23 23:08 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -63,6 +63,18 @@ Showing latest 10 of 4,808 achievements. View full dataset via [Platform Archive
 
 **Total Portfolio Credentials:** 350
 **Total Verified Skills Mapped:** 349
+
+#### Google Skills Learning Statistics
+
+| Metric | Count |
+| :--- | :---: |
+| **Check** | 1,928 |
+| **Classroom** | 0 |
+| **Course** | 358 |
+| **Game** | 7 |
+| **Lab** | 256 |
+| **Lesson** | 4,917 |
+| **Path** | 20 |
 
 #### Latest Earned Credentials
 

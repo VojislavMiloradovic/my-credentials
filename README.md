@@ -56,6 +56,18 @@ Showing latest 10 of 4,808 achievements. View full dataset via [Platform Archive
 **Total Portfolio Credentials:** 350
 **Total Verified Skills Mapped:** 349
 
+#### Google Skills Learning Statistics
+
+| Metric | Count |
+| :--- | :---: |
+| **Check** | 1,928 |
+| **Classroom** | 0 |
+| **Course** | 358 |
+| **Game** | 7 |
+| **Lab** | 256 |
+| **Lesson** | 4,917 |
+| **Path** | 20 |
+
 #### Latest Earned Credentials
 
 Showing latest 10 of 350 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-08-part-08.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-08.md)), or [Monolithic File](./archives/google-skills-complete.md).
