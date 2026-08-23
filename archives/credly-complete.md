@@ -1,11 +1,15 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 560 records.
+This document represents a unified, verifiable list of all 564 records.
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-23 | [Cilium AI/ML Security](https://www.credly.com/badges/0d6b393c-0f31-4c76-98ed-0adb380e23f0/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-23 | [Cilium IPAM](https://www.credly.com/badges/781ae1d3-d016-448f-82e3-5b887b43886e/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-23 | [Discovery: Cloud Architect on Azure](https://www.credly.com/badges/da069ba5-7566-4254-992f-5ffb42c42770/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-23 | [Securing OpenClaw with Tetragon](https://www.credly.com/badges/20087ee1-5248-4fef-aa1e-97fb867406cd/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-23 | [Web Development Fundamentals](https://www.credly.com/badges/720901ee-adda-4ca3-b428-06661f472f0c/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-08-22 | [Cloud Tech Pro - PSA](https://www.credly.com/badges/0d924c89-cf8d-4528-9e90-79bfe39aea8e/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-22 | [Cloud Tech Pro - RMM](https://www.credly.com/badges/67ba03f9-c9f9-410f-89d3-b360f84233a7/public_url) | Acronis | Credly Verified Badge |
