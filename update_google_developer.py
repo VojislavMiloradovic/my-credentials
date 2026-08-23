@@ -833,7 +833,7 @@ def main():
             title_with_link = f"[{clean_title}]({url})"
         else:
             title_with_link = f"**{clean_title}**"
-        readme_lines.append(f"| *{badge['date']}* | {title_with_link} | {clean_desc} |")
+        readme_lines.append(f"| *{badge['date']}* | **{clean_title}** | {clean_desc} |")
 
     table_headers = ["Date Earned", "Title", "Description"]
     table_alignments = [":---:", ":---", ":---"]
