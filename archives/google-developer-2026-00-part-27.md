@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-26 | **GenAI Agent in Slack for Q&A over docs and actions with API calls** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/genai-for-dev-slack-agent |
+| 2026-00-26 | **TensorFlow.js: Use Firebase Hosting to deploy and host a machine learning model at scale** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/tensorflowjs-firebase-hosting-model |
 | 2026-00-26 | **Using revisions in Cloud Run functions for Traffic Splitting, Gradual Rollouts, and Rollbacks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/revisions-2nd-gen-cloud-functions-traffic-splitting-gradual-rollout-rollbacks |
 | 2026-00-26 | **Sign and verify data with Cloud KMS (Asymmetric)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/sign-and-verify-data-with-cloud-kms-asymmetric |
 | 2026-00-26 | **Google Ads with Google Analytics for Firebase custom events - Unity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ios_unity_ads_firebase |
@@ -42,7 +44,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-26 | **Integrating Remote Config on Android Codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/remote-config-android |
 | 2026-00-26 | **Build user-adaptive interfaces with preference media queries** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/user-adaptive-interfaces |
 | 2026-00-26 | **JIRA User Stories Implementation with GenAI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/genai-for-dev-jira-gemini |
-| 2026-00-26 | **TensorFlow.js ��� Handwritten digit recognition with CNNs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/tfjs-training-classfication |
+| 2026-00-26 | **TensorFlow.js — Handwritten digit recognition with CNNs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/tfjs-training-classfication |
 | 2026-00-26 | **Antigravity CLI on GCE with a Private Service Connect endpoint** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/terraform-gemini-cli-gce-psc |
 | 2026-00-26 | **Using textembedding-gecko@003 for Vector Embeddings** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/using-textembedding-gecko |
 | 2026-00-26 | **Maximize Your Play Billing Integration** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/maximise-your-play-billing-integration |
@@ -56,8 +58,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-26 | **Creating and Linking AdWords and Merchant Center Sub-accounts** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/shopping-account-linking |
 | 2026-00-26 | **Connecting to Fully Managed Databases from Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/connecting-to-serverless-databases-from-cloud-run |
 | 2026-00-26 | **MDC-103 Android: Material theming with Color, Motion and Type (Java)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mdc-103-java |
-| 2026-00-26 | **Vertex AI create a secure user-managed notebook** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vertex-notebook |
-| 2026-00-26 | **MDC-104 Flutter: Material Advanced Components** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mdc-104-flutter |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-26.md](./google-developer-2026-00-part-26.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-28.md](./google-developer-2026-00-part-28.md)

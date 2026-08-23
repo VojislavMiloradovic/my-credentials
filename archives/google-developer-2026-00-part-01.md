@@ -22,25 +22,25 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-02 | **Languages quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week5-languages/android-11-week-5 |
 | 2026-00-02 | **Build, containerize, and deploy Spring Boot apps on Google Cloud quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/java-cloud-fundamentals/build-containerize-deploy-spring-boot-apps-on-google-cloud |
 | 2026-00-02 | **Your first Flutter app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter-codelab-first |
-| 2026-00-02 | **Android 11���Week 9���TV** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week9-android-tv |
+| 2026-00-02 | **Android 11—Week 9—TV** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week9-android-tv |
 | 2026-00-02 | **Update your app to use a spam filtering Machine Learning model** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-nlp-update-app |
 | 2026-00-02 | **Get started with the Scene Semantics and Geospatial Depth APIs in ARCore** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/arcore-scene-semantics-geospatial-depth |
-| 2026-00-02 | **Android 11���Week 6���Jetpack** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week6-jetpack |
+| 2026-00-02 | **Android 11—Week 6—Jetpack** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week6-jetpack |
 | 2026-00-02 | **People and identity quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week1-people-identity/android-11-week-1 |
-| 2026-00-02 | **Android 11���Week 8���App distribution and monetization** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week8-app-distribution-monetization |
+| 2026-00-02 | **Android 11—Week 8—App distribution and monetization** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week8-app-distribution-monetization |
 | 2026-00-02 | **Detect objects in images with ML Kit: Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mlkit-android-odt |
 | 2026-00-02 | **Build and launch a Spring Boot Java app from Cloud Shell** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-springboot-cloudshell |
-| 2026-00-02 | **Android 11���Week 7���Developer tools** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week7-developer-tools |
+| 2026-00-02 | **Android 11—Week 7—Developer tools** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week7-developer-tools |
 | 2026-00-02 | **Build a word puzzle with Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter-word-puzzle |
 | 2026-00-02 | **Google Pay API for Web 101: Basics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gpay-web-101 |
 | 2026-00-02 | **Android 11 - Week 4 - Compatibility** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week4-compatibility |
 | 2026-00-02 | **Get started with object detection** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/get-started-object-detection/get-started-object-detection |
 | 2026-00-02 | **Create a custom model for your image classifier** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-computer-vision-train-model |
 | 2026-00-02 | **MDC-102 Flutter: Material Structure and Layout** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mdc-102-flutter |
-| 2026-00-02 | **Android 11���Week 11���Modern UI** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week11-modern-ui |
+| 2026-00-02 | **Android 11—Week 11—Modern UI** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week11-modern-ui |
 | 2026-00-02 | **Deploy a Spring Boot Java app to Kubernetes on Google Kubernetes Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-springboot-kubernetes |
-| 2026-00-02 | **Android 11���Week 9���Large Screens** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week9-large-screens |
-| 2026-00-02 | **Android 11���Week 10���Games and media** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week10-games-and-media |
+| 2026-00-02 | **Android 11—Week 9—Large Screens** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week9-large-screens |
+| 2026-00-02 | **Android 11—Week 10—Games and media** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week10-games-and-media |
 | 2026-00-02 | **Streetscape Geometry and Rooftop anchors quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/arcore-buildings-and-rooftops |
 | 2026-00-02 | **Google Pay quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/google-pay/google_pay |
 | 2026-00-02 | **Call APIs from a Google Cloud project** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/call-apis-from-a-google-cloud-project |

@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-10 | **Make your first Google Health API call using OAuth2 Playground** | Verified Google Developer learning activity. URL: https://developers.google.com/health/codelabs/make-your-first-api-call-using-oauth2-playground |
 | 2026-00-10 | **Deploy your containerized agent on Agent Runtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-runtime-deploy-containerized-agent |
 | 2026-00-10 | **Build an AI Agent with Google ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-ai-agent-google-adk |
 | 2026-00-10 | **Cloud Armor NamedIP List** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-cloudarmor |
@@ -59,7 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-10 | **Google Pay API for React Native on Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/pay-react-native |
 | 2026-00-10 | **Instrument for better performance in your app in Go (part 2: profiler)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-profiler-go |
 | 2026-00-10 | **Introduction to Cloud Operations Suite** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-operations-handson-with-gcloud |
-| 2026-00-10 | **Analyze and visualize credit card transaction data in Bigtable using BigQuery and Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigtable-cdc-looker-tutorial |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-12.md](./google-developer-2026-00-part-12.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-14.md](./google-developer-2026-00-part-14.md)

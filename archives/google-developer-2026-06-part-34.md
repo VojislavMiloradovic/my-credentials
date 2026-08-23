@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile
 chunk_part: 34 of 34
 date_range: 2026-06-05 to 2026-06-05
-total_entries: 40
+total_entries: 38
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-34.md
 ---
 
@@ -50,8 +50,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Web Vitals** | Official Google Developer platform achievement (Learning Pathway: web vitals). |
 | 2026-06-05 | **Going Further Image Product Search** | Official Google Developer platform achievement (Learning Pathway: going further image product search). |
 | 2026-06-05 | **Business Messages Location** | Official Google Developer platform achievement (Learning Pathway: business messages location). |
-| 2026-06-05 | **Android Basics Compose Unit 6 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 6 pathway 1). |
-| 2026-06-05 | **Android 11 Week 4** | Official Google Developer platform achievement (Learning Pathway: android 11 week 4). |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-33.md](./google-developer-2026-06-part-33.md) | [Index](./google-developer-index.md) | Next: None

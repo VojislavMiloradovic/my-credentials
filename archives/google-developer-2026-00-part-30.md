@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-30 | **Build apps with Android Enterprise** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-enterprise-build-apps |
+| 2026-00-30 | **Go further with comment spam detection** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/going-further-text-classification-web |
 | 2026-00-30 | **Build a Smart Shopping Assistant with AlloyDB and Vertex AI Agent Builder - Part 2** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/smart-shop-agent-vertexai |
 | 2026-00-30 | **Vertex AI Workbench: Build an image classification model with transfer learning and the notebook executor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex_notebook_executor |
 | 2026-00-30 | **Setup Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-1-pathway-2 |
@@ -58,8 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-29 | **LLM on Android with Keras and TensorFlow Lite** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/llm-on-android |
 | 2026-00-29 | **Create a simple website that classifies images** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/classify-images-tensorflow-serving |
 | 2026-00-29 | **Fundamentals of Apps Script with Google Sheets #4: Data Formatting** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/apps-script-fundamentals-4 |
-| 2026-00-29 | **Improve your website's identity forms quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/web-identity-forms |
-| 2026-00-29 | **Data Cards Playbook: Transparent documentation for responsible AI** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/data-cards-playbook |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-29.md](./google-developer-2026-00-part-29.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-31.md](./google-developer-2026-00-part-31.md)

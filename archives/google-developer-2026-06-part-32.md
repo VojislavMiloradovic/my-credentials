@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile
 chunk_part: 32 of 34
 date_range: 2026-00-31 to 2026-06-05
-total_entries: 67
+total_entries: 68
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-32.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Firebase Security Layers** | Official Google Developer platform achievement (Learning Pathway: firebase security layers). |
+| 2026-06-05 | **Going Further Image Classification** | Official Google Developer platform achievement (Learning Pathway: going further image classification). |
 | 2026-06-05 | **Going Further Text Classification Web** | Official Google Developer platform achievement (Learning Pathway: going further text classification web). |
 | 2026-06-05 | **Ai Models On Gpu Intro** | Official Google Developer platform achievement (Learning Pathway: ai models on gpu intro). |
 | 2026-06-05 | **Android 11 Week 2** | Official Google Developer platform achievement (Learning Pathway: android 11 week 2). |
@@ -78,7 +80,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-31 | **Learn AI** | Verified Google Developer learning activity. URL: https://web.dev/learn/quizzes/ai |
 | 2026-00-31 | **Local Development with the Firebase Emulator Suite** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-emulator |
 | 2026-00-31 | **Build robust, distributed leaderboards with Cloud Firestore quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-firestore-leaderboards/build-distributed-leaderboards-with-cloud-firestore |
-| 2026-00-31 | **Develop locally with Firebase quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-emulators/develop-locally-with-firebase |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-31.md](./google-developer-2026-00-part-31.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-33.md](./google-developer-2026-06-part-33.md)

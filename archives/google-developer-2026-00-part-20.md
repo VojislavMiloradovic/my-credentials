@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-21 | **Context Caching in BigQuery: Fast, Cost-Effective, and Grounded Gen AI for Big Data** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-context-caching |
 | 2026-00-21 | **Deploy an Enterprise Governance-Aware Agent with MCP and Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/governance-context-part2 |
 | 2026-00-21 | **Integrate Gemini Enterprise Agents with Google Workspace** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ge-gws-agents |
 | 2026-00-21 | **Building AI Agents with ADK: The Foundation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-foundation |
@@ -39,7 +40,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-21 | **Build an Intelligent Ecommerce Catalog with Multi-database Persistence** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/polyglot-cross-cloud-retail |
 | 2026-00-21 | **How to deploy a secure MCP server on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-a-secure-mcp-server-on-cloud-run |
 | 2026-00-21 | **Get started with Google Workspace MCP and Gemini CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-mcp-gemini-cli |
-| 2026-00-21 | **Next ���26 Developer Keynote: Enhancing Agents with Memory** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/dev-keynote/enhancing-agents-with-memory |
+| 2026-00-21 | **Next —26 Developer Keynote: Enhancing Agents with Memory** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/dev-keynote/enhancing-agents-with-memory |
 | 2026-00-21 | **Cymbal Transit: A multi agent system using LangChain4J and MCP Toolbox Java SDK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cymbal-bus-agent-mcp-toolbox-java |
 | 2026-00-21 | **Code Generation Agent on GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/code-generation-agent-gke |
 | 2026-00-21 | **Getting Started with Google Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/getting-started-google-antigravity |
@@ -58,7 +59,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-21 | **How to fine tune a LLM using Cloud Run Jobs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-fine-tune-model-cloud-run-jobs |
 | 2026-00-21 | **Building with Google Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/building-with-google-antigravity |
 | 2026-00-21 | **Installing and Setting-up MCP Toolbox for Databases for your Gen AI & Agentic Applications on AlloyDB** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/genai-toolbox-for-alloydb |
-| 2026-00-21 | **Building a secure agent system with Model Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-agent-modelarmor |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-19.md](./google-developer-2026-00-part-19.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-21.md](./google-developer-2026-00-part-21.md)

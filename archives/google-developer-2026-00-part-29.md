@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile
 chunk_part: 29 of 34
 date_range: 2026-00-27 to 2026-00-29
-total_entries: 49
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-00-part-29.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-29 | **Improve your website's identity forms quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/web-identity-forms |
+| 2026-00-29 | **Data Cards Playbook: Transparent documentation for responsible AI** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/data-cards-playbook |
 | 2026-00-29 | **Get started with object detection in Android apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/object-detection-android |
 | 2026-00-29 | **Fundamentals of Apps Script with Google Sheets #1: Macros & Custom Functions** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/apps-script-fundamentals-1 |
 | 2026-00-29 | **Create an Android app to detect objects within images** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/detect-objects-tensorflow-serving |
@@ -58,9 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-27 | **GitHub - Code Review Automation with GenAI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/genai-for-dev-github-code-review |
 | 2026-00-27 | **Vertex AI Vision Queue Detection App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-ai-vision-queue-detection |
 | 2026-00-27 | **Add Firebase to your Flutter app: Advanced** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-flutter-advanced |
-| 2026-00-27 | **Get started with Google Maps Platform for Android** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps-android |
-| 2026-00-27 | **Spring Native on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spring-native-quickstart |
-| 2026-00-27 | **Customizing Material color** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/customizing-material-color |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-28.md](./google-developer-2026-00-part-28.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-30.md](./google-developer-2026-00-part-30.md)

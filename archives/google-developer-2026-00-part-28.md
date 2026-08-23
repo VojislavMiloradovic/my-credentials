@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile
 chunk_part: 28 of 34
 date_range: 2026-00-26 to 2026-00-27
-total_entries: 46
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-00-part-28.md
 ---
 
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-27 | **Get started with Google Maps Platform for Android** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps-android |
+| 2026-00-27 | **Spring Native on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spring-native-quickstart |
+| 2026-00-27 | **Customizing Material color** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/customizing-material-color |
 | 2026-00-27 | **Understand your game's crashes using advanced Crashlytics features** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-advanced-crashlytics-unity-games |
 | 2026-00-27 | **Training and hyperparameter tuning a PyTorch model on Cloud AI Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/training-tuning-caip |
 | 2026-00-27 | **Embed Looker with Conversational Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/looker-embedded-conversational-analytics |
@@ -56,8 +59,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-26 | **Local Development with Cloud Functions for Node.js using Visual Studio Code** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/local-development-with-cloud-functions |
 | 2026-00-26 | **Use BigQuery Remote Functions to ask questions to Vertex AI Visual Question Answering (VQA) in a SQL query** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/how-to-bigquery-remote-functions-imagen-vqa |
 | 2026-00-26 | **Private Service Connect Interface** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/psc-interface |
-| 2026-00-26 | **GenAI Agent in Slack for Q&A over docs and actions with API calls** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/genai-for-dev-slack-agent |
-| 2026-00-26 | **TensorFlow.js: Use Firebase Hosting to deploy and host a machine learning model at scale** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/tensorflowjs-firebase-hosting-model |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-27.md](./google-developer-2026-00-part-27.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-29.md](./google-developer-2026-00-part-29.md)

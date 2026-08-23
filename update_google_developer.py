@@ -257,6 +257,48 @@ def normalize_date_string(raw_date: Any) -> str:
     return "N/A"
 
 
+def fix_mojibake(text: str) -> str:
+    """Fix common mojibake patterns from MHTML quoted-printable decoding.
+
+    Common issues:
+    - Em dash (—) becomes ��� or â€" or â€"
+    - En dash (–) becomes â€" or â€"
+    - Smart quotes become â€œ/â€"
+    - Bullet points become â€¢
+    """
+    if not text:
+        return text
+
+    # Fix UTF-8 mojibake from quoted-printable double-decoding
+    # Em dash (—) = UTF-8 E2 80 93 -> when misdecoded as latin1: â€"
+    # En dash (–) = UTF-8 E2 80 92 -> when misdecoded as latin1: â€"
+    replacements = {
+        "\u00e2\u20ac\u201d": "\u2014",  # em dash (â€")
+        "\u00e2\u20ac\u201c": "\u2013",  # en dash (â€")
+        "\u00e2\u20ac\u0153": "\u201c",  # left double quote (â€œ)
+        "\u00e2\u20ac\u009d": "\u201d",  # right double quote (â€)
+        "\u00e2\u20ac\u0098": "\u2018",  # left single quote (â€˜)
+        "\u00e2\u20ac\u2122": "\u2019",  # right single quote (â€™)
+        "\u00e2\u20ac\u00a2": "\u2022",  # bullet (â€¢)
+        "\u00e2\u20ac\u00a6": "\u2026",  # ellipsis (â€¦)
+        "\u00e2\u20ac\u00a1": "\u2021",  # double dagger (â€¡)
+        "\u00e2\u20ac\u0094": "\u2014",  # em dash variant (â€ )
+        "\u00ef\u00bf\u00bd": "\u2014",  # replacement char variant (ï¿½)
+        "\u00ef\u00bf\u00bf": "",  # replacement char (￿)
+    }
+
+    result = text
+    for bad, good in replacements.items():
+        result = result.replace(bad, good)
+
+    # Also handle the literal ��� sequence (3 replacement chars = 1 em dash)
+    result = re.sub(r"\uFFFD{3,}", "\u2014", result)
+    result = re.sub(r"\uFFFD{2}", "\u2013", result)
+    result = re.sub(r"\uFFFD", "", result)  # Remove any remaining replacement chars
+
+    return result
+
+
 class GoogleDeveloperBadgeModel(BaseModel):
     """Normalized schema for Google Developer badges and codelabs."""
 
@@ -436,7 +478,7 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
                     if not link:
                         continue
 
-                    title = link.get_text(strip=True)
+                    title = fix_mojibake(link.get_text(strip=True))
                     url = link["href"]
 
                     # Find the date in the <p> tag
@@ -779,7 +821,13 @@ def main():
     for badge in combined_feed[:10]:
         clean_desc = badge["description"].replace("|", "\\|").replace("\n", " ")
         clean_title = badge["title"].replace("|", "\\|")
-        readme_lines.append(f"| *{badge['date']}* | **{clean_title}** | {clean_desc} |")
+        # Add link to title if URL is available
+        url = badge.get("url")
+        if url:
+            title_with_link = f"[{clean_title}]({url})"
+        else:
+            title_with_link = f"**{clean_title}**"
+        readme_lines.append(f"| *{badge['date']}* | {title_with_link} | {clean_desc} |")
 
     table_headers = ["Date Earned", "Title", "Description"]
     table_alignments = [":---:", ":---", ":---"]

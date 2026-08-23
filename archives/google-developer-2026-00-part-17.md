@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-20 | **Basic Color Harmonization in Android Views** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/harmonize-color-android-views |
 | 2026-00-20 | **AlloyDB Agentic RAG Application with MCP Toolbox** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/genai-db-retrieval-app |
 | 2026-00-20 | **Building Personalized Agents with ADK, MCP, and Memory Bank** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/christmas-card/instructions |
 | 2026-00-20 | **ARCore Raw Depth** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/arcore-rawdepthapi |
@@ -24,7 +25,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-20 | **Alerts: Log-Based Errors to Pub/Sub Topics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alert-errors-pubsub |
 | 2026-00-20 | **Build a Patent Search App with AlloyDB, Vector Search & Vertex AI!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/patent-search-alloydb-gemini |
 | 2026-00-20 | **Accelerated data-driven development with MCP Toolbox for AlloyDB using Gemini CLI on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/search-app-with-geminicli |
-| 2026-00-20 | **Battle Jam��n Terms and Conditions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/battle-jamon-terms-and-conditions |
+| 2026-00-20 | **Battle Jam–n Terms and Conditions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/battle-jamon-terms-and-conditions |
 | 2026-00-20 | **Build a complete integration with Health Connect** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/health-connect |
 | 2026-00-20 | **Accelerating Development with Gemini Code Assist** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/genai-for-dev-gca-dev-use-cases |
 | 2026-00-20 | **Agentverse - The Scholar's Grimoire - Building Knowledge Engines with RAG** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentverse-dataengineer/instructions |
@@ -53,13 +54,12 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-20 | **AlloyDB AI Operators and Reranking** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-operators |
 | 2026-00-20 | **Bitbucket - Code Review Automation with GenAI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/genai-for-dev-bitbucket-code-review |
 | 2026-00-20 | **AlloyDB Omni and EmbeddingGemma on Kubernetes.** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-gke-embeddings |
-| 2026-00-20 | **������� Build a Secure Agent with Model Armor and Identity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-customer-service-agent/instructions |
+| 2026-00-20 | **— Build a Secure Agent with Model Armor and Identity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-customer-service-agent/instructions |
 | 2026-00-20 | **Android App Resizing** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/android-resizing |
 | 2026-00-20 | **Access files in Cloud Storage with the Spring Resource abstraction** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/spring-cloud-gcp-gcs |
 | 2026-00-20 | **Advanced Android in Kotlin 03.2: Animation with MotionLayout** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/motion-layout |
 | 2026-00-20 | **Advanced State and Side Effects in Jetpack Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/jetpack-compose-advanced-state-side-effects |
 | 2026-00-20 | **Automatically Deploy Generative AI Next.js Web Application from Version Control to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-from-github/gen-ai-nextjs |
-| 2026-00-20 | **Build an appointment scheduler with Dialogflow** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/chatbots-dialogflow-appointment-scheduler |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-16.md](./google-developer-2026-00-part-16.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-18.md](./google-developer-2026-00-part-18.md)

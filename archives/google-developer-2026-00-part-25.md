@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-24 | **Using IPv6 Static Routes next hop instance (untagged and tagged), next hop address and next hop gateway** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ipv6-staticrouting-nexthopinstancegateway |
 | 2026-00-24 | **InnerLoop Development with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/innerloop-dev-python |
 | 2026-00-24 | **Power your Agentic System with HTAP in AlloyDB** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-app-with-alloydb-htap |
 | 2026-00-24 | **Using TLS for Secure Online Predictions with Vertex AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-tls-endpoint |
@@ -58,7 +59,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-24 | **Codelab - Managing Kubernetes with kubectl-ai, an AI powered Kubernetes Assistant** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/kubernetes-with-kubectl-ai |
 | 2026-00-24 | **Recognize Flowers with TensorFlow Lite on Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/recognize-flowers-with-tensorflow-on-android |
 | 2026-00-24 | **Deploying a Confidential Space Workload with MIGs using Autoscaling, Autohealing and Image Updates** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/confidential-space-mig |
-| 2026-00-24 | **How to run batch inference on Cloud Run jobs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-batch-inference-cloud-run-jobs |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-24.md](./google-developer-2026-00-part-24.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-26.md](./google-developer-2026-00-part-26.md)

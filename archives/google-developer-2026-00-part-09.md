@@ -23,7 +23,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-09 | **Build a Fraud Detection model on Cloud AI Platform with TensorFlow Enterprise and BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/fraud-detection-with-bigquery-and-tensorflow-enterprise |
 | 2026-00-09 | **Trigger Kubernetes services with Eventarc events** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/eventarc-events-gke |
 | 2026-00-09 | **Encrypt and decrypt data with Cloud KMS** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/encrypt-and-decrypt-data-with-cloud-kms |
-| 2026-00-09 | **Spec-Driven Development with Antigravity CLI ��� Structured Agent Workflows with Skills and MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/sdd-agy-cli |
+| 2026-00-09 | **Spec-Driven Development with Antigravity CLI — Structured Agent Workflows with Skills and MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/sdd-agy-cli |
 | 2026-00-09 | **Deploy a basic "Google Translate" app on Python 3 Cloud Functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-nebulous-serverless-python-gcf |
 | 2026-00-09 | **Using Cloud NAT Dynamic Port Allocation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloudnet-natdynamicportalloc |
 | 2026-00-09 | **Visualize Clinical Data using Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/health-data-analytics-2 |

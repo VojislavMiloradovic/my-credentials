@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile
 chunk_part: 11 of 34
 date_range: 2026-00-09 to 2026-00-09
-total_entries: 45
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-00-part-11.md
 ---
 
@@ -12,9 +12,10 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-09 | **Design a dark theme with Material and Figma** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/design-material-darktheme |
 | 2026-00-09 | **Dialogflow CX: Build a retail virtual agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-cx-retail-agent |
 | 2026-00-09 | **Cloud Spanner with Hibernate ORM** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-hibernate |
-| 2026-00-09 | **Pic-a-daily: Lab 2���Create thumbnails of pictures** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab2 |
+| 2026-00-09 | **Pic-a-daily: Lab 2—Create thumbnails of pictures** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab2 |
 | 2026-00-09 | **Practical observability techniques for Generative AI application in Java** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gen-ai-o11y-for-devs/gen-ai-o11y-java |
 | 2026-00-09 | **Developing an Accessibility Service for Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/developing-android-a11y-service |
 | 2026-00-09 | **Retrieving Credentials/Secrets from Secret Manager with Spring Boot** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-cloud-gcp-secret-manager |
@@ -47,9 +48,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-09 | **Hands-on: Create a TV guide action for the Google Assistant with Dialogflow and Actions on Google** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-assistant-tvguide |
 | 2026-00-09 | **Google Pay API for Jetpack Compose on Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/pay-compose |
 | 2026-00-09 | **Using the Text-to-Speech API with C#** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-text-speech-csharp |
-| 2026-00-09 | **Pic-a-daily: Lab 4���Create a web frontend** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab4 |
+| 2026-00-09 | **Pic-a-daily: Lab 4—Create a web frontend** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab4 |
 | 2026-00-09 | **Using Gemini Code Assist to explore and enhance AI Summarization Jump Start Solution** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gemini-code-assist-developer-aisummarization-jss |
-| 2026-00-09 | **Pic-a-daily: Lab 1���Store and analyse pictures** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab1 |
+| 2026-00-09 | **Pic-a-daily: Lab 1—Store and analyse pictures** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab1 |
 | 2026-00-09 | **Deploy a full stack Angular application to Cloud Run with Cloud SQL for PostgreSQL using the Cloud SQL Node.js Connector** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/cloud-sql-nodejs-connector-angular |
 | 2026-00-09 | **Migrating from Google App Engine Java app to Cloud Run with Docker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-gae-java-migrate-docker |
 | 2026-00-09 | **Deploy a JavaScript application to Cloud Run with AlloyDB** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/alloydb-nodejs |

@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-20 | **Agentspace Hybrid NEG to Cross Cloud self-hosted database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentspace-psc-hybrid-neg-crosscloud |
 | 2026-00-20 | **Add repository and Manual DI** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-add-repository |
 | 2026-00-20 | **Automatically Deploy Generative AI Node.js Web Application from Version Control to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-from-github/gen-ai-nodejs |
 | 2026-00-20 | **Build and deploy an ADK agent on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/5-deploying-agents/deploy-an-adk-agent-to-cloud-run |
@@ -59,7 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-18 | **Analyze Drug Interactions with BigQuery Graph** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/drug-interaction-bigquery-graph |
 | 2026-00-18 | **Generating Consistent Imagery with Gemini Nano Banana** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-consistent-imagery-notebook |
 | 2026-00-18 | **Accelerate Spark with Managed Service for Apache Spark and Lightning Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/lightning-engine |
-| 2026-00-18 | **Automated UI Testing with Antigravity (AGY) CLI, BrowserMCP, Playwright, and the Browser Agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentic-ui-automation-with-antigravity |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-14.md](./google-developer-2026-00-part-14.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-16.md](./google-developer-2026-00-part-16.md)

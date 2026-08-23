@@ -12,7 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-00-21 | **���� Build a Virtual Fitting Room & AI Stylist with Flutter, ADK Go & Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/fitting-room/instructions |
+| 2026-00-21 | **Multi-Agent Systems with Agent2Agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/adk-agent2agent |
+| 2026-00-21 | **— Build a Virtual Fitting Room & AI Stylist with Flutter, ADK Go & Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/fitting-room/instructions |
 | 2026-00-21 | **Connect Your Agentforce Sales Agent to Gemini Enterprise** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentforce-sales-setup |
 | 2026-00-21 | **Stateful Data Science Agent on Agent Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/adk-deploy-scale |
 | 2026-00-21 | **Platform Engineering AI with GKE and Gemini CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gke/platform-engineering-ai-tools |
@@ -46,7 +47,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-20 | **Automatically Deploy Generative AI Angular Web Application from Version Control to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-from-github/gen-ai-angular |
 | 2026-00-20 | **Add adaptive layouts to a view-based Android app with Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/add-adaptive-layouts |
 | 2026-00-20 | **Analyze product purchase drop-offs in Google Play Billing** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/play-billing-analyze-product-purchase-drop-offs |
-| 2026-00-20 | **Battle Jam��n - A Microservices Battle Ground** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/battle-jamon |
+| 2026-00-20 | **Battle Jam–n - A Microservices Battle Ground** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/battle-jamon |
 | 2026-00-20 | **Bookshelf builder: Use Gemini to build a Java Cloud Function for a Gemini application** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bookshelf-duetai-bigquery |
 | 2026-00-20 | **Build a no-code universal employee helpdesk app with Vertex AI Search** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/universal-employee-helpdesk |
 | 2026-00-20 | **Building a Google-quality Search System with Vertex AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-google-quality-rag |
@@ -59,7 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-20 | **Animations in Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/advanced-flutter-animations |
 | 2026-00-20 | **Bigquery ML for Fraud Detection in Credit card transactions using console** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/frauddetection-using-console |
 | 2026-00-20 | **Agentspace Custom Domain** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentspace-networking-customdomain |
-| 2026-00-20 | **Basic Color Harmonization in Android Views** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/harmonize-color-android-views |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-17.md](./google-developer-2026-00-part-17.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-19.md](./google-developer-2026-00-part-19.md)

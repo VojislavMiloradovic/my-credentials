@@ -19,7 +19,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-07 | **Build Agentic AI Applications in Java with LangChain4j and Google GenAI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/langchain4j-google-genai-agents |
 | 2026-00-07 | **Protect your app from abuse with App Check** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-app-check |
 | 2026-00-07 | **(Deprecated) People: Conversations and Bubbles** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-people |
-| 2026-00-07 | **Android 11���Week 9���Large screens quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week9-large-screens/android-11-week-9-2 |
+| 2026-00-07 | **Android 11—Week 9—Large screens quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week9-large-screens/android-11-week-9-2 |
 | 2026-00-07 | **Quality Controlled RAG with AlloyDB's latest Vector Search Features!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/patent-search-rag-recall |
 | 2026-00-07 | **Basics of Kotlin Multiplatform** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/kotlin-multiplatform |
 | 2026-00-07 | **Code Lab: NCC VPC as a Spoke** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ncc-vpc-as-spoke |
@@ -27,7 +27,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-07 | **Codelab: Spanner MCP Server** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spanner-mcp-server |
 | 2026-00-07 | **Install Android 11 GSI for App Testing** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/using-android-q-gsi |
 | 2026-00-07 | **Composite Health for Private Service Connect** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/psc-health-ga |
-| 2026-00-07 | **Pic-a-daily: Lab 5���Cleanup after image deletion** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab5 |
+| 2026-00-07 | **Pic-a-daily: Lab 5—Cleanup after image deletion** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab5 |
 | 2026-00-07 | **Visualizing dynamic color in your app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/visualize-dynamic-color |
 | 2026-00-07 | **Build an animated responsive app layout with Material 3** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter-animated-responsive-layout |
 | 2026-00-07 | **Privacy and security quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week3-privacy-trust-security/android-11-week-3 |

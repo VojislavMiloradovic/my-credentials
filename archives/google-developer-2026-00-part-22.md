@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-23 | **Scale Reinforcement Learning with GKE and Managed Lustre** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/rl-gke-lustre |
+| 2026-00-23 | **Evaluating Single LLM Outputs With Vertex AI Evaluation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/6-ai-evaluation/evaluating-single-llm-outputs-with-vertex-ai-evaluation |
 | 2026-00-23 | **Scale Distributed Data Processing with GKE to build a Knowledge Graph in BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gke/ai-toolkit-lab-3 |
 | 2026-00-23 | **Use Gemini CLI Security Extension for GitHub PR reviews** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-cli/gemini-cli-security-review |
 | 2026-00-23 | **Quick guide to Gemini CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/quick-guide-to-gemini-cli |
@@ -57,8 +59,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-22 | **Way Back Home - Building an ADK Bi-Directional Streaming Agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-3/instructions |
 | 2026-00-22 | **Create passes on Android using the Google Wallet API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/add-to-wallet-android |
 | 2026-00-22 | **How to build long-term AI agent memory with AlloyDB AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-agentic-tiered-memory |
-| 2026-00-22 | **Cronet Basics** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/cronet |
-| 2026-00-22 | **Code Review and Security Analysis with Gemini CLI with Extensions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-cli-code-analysis |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-21.md](./google-developer-2026-00-part-21.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-23.md](./google-developer-2026-00-part-23.md)

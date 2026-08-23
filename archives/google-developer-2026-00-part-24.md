@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile
 chunk_part: 24 of 34
 date_range: 2026-00-24 to 2026-00-24
-total_entries: 48
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-00-part-24.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-24 | **How to run batch inference on Cloud Run jobs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-batch-inference-cloud-run-jobs |
 | 2026-00-24 | **Testing in Jetpack Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/jetpack-compose-testing |
 | 2026-00-24 | **Securing a Multi-Agent System** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-roadshow/3-securing-a-multi-agent-system/securing-a-multi-agent-system |
 | 2026-00-24 | **Serving Gemma 3 with vLLM on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/serve-gemma3-with-vllm-on-cloud-run |
@@ -58,8 +59,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-24 | **Build and test a parked app for Android Automotive OS** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/build-a-parked-app |
 | 2026-00-24 | **Showcase of building a secure agent: protect access and data** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/showcase-build-secure-agent |
 | 2026-00-24 | **State in Jetpack Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/jetpack-compose-state |
-| 2026-00-24 | **Gating Deployments with Binary Auth** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gating-deployments-with-binary-auth |
-| 2026-00-24 | **Hello Cloud Run with Python (FastAPI)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-hello-fastapi |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-23.md](./google-developer-2026-00-part-23.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-25.md](./google-developer-2026-00-part-25.md)

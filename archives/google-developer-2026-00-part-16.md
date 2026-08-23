@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-20 | **Build an appointment scheduler with Dialogflow** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/chatbots-dialogflow-appointment-scheduler |
 | 2026-00-20 | **Bot Management with Google Cloud Armor + reCAPTCHA** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-armor-recaptcha-bot-management |
 | 2026-00-20 | **AdMob+Firebase 102 Unity: Fine-tune the app behavior without an app update** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/admob-firebase-codelabs-102-unity |
 | 2026-00-20 | **Agentverse - The Shadowblade's Codex - Vibecoding with Gemini CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentverse-developer/instructions |
@@ -58,7 +59,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-20 | **Building a Production AI Code Review Assistant with Google ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-code-reviewer-assistant/instructions |
 | 2026-00-20 | **Asynchronous invocation of agentic AI application using events** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/genai/agents/async-invocation-with-adk |
 | 2026-00-20 | **Adding an AdMob banner and native inline ads to a Flutter app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/admob-inline-ads-in-flutter |
-| 2026-00-20 | **Agentspace Hybrid NEG to Cross Cloud self-hosted database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentspace-psc-hybrid-neg-crosscloud |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-15.md](./google-developer-2026-00-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-17.md](./google-developer-2026-00-part-17.md)

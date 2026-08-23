@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile
 chunk_part: 26 of 34
 date_range: 2026-00-24 to 2026-00-26
-total_entries: 48
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-00-part-26.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-26 | **Vertex AI create a secure user-managed notebook** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vertex-notebook |
+| 2026-00-26 | **MDC-104 Flutter: Material Advanced Components** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mdc-104-flutter |
 | 2026-00-26 | **Deploy an AI model on GKE with NVIDIA NIM** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/nvidia-nim-google-cloud |
 | 2026-00-26 | **Transform and Load Google Forms Survey Responses into BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/survey-data-warehouse |
 | 2026-00-26 | **Introduction to ADK Gemini Live API Toolkit** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/intro-to-adk-live |
@@ -59,7 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-25 | **Display nearby places in AR on Android (Kotlin)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/location-places-arcore-android |
 | 2026-00-25 | **Command and control: Orchestrate app development with Gemini and MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-mcp-agy |
 | 2026-00-24 | **MDC-103 Web: Material Theming with Color, Shape, Elevation and Type (Web)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mdc-103-web |
-| 2026-00-24 | **Using IPv6 Static Routes next hop instance (untagged and tagged), next hop address and next hop gateway** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ipv6-staticrouting-nexthopinstancegateway |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-25.md](./google-developer-2026-00-part-25.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-27.md](./google-developer-2026-00-part-27.md)

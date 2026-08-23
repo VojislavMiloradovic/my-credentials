@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-18 | **Automated UI Testing with Antigravity (AGY) CLI, BrowserMCP, Playwright, and the Browser Agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentic-ui-automation-with-antigravity |
 | 2026-00-18 | **How to use AI Agent Skills (with Antigravity CLI and Agent Skills for Firebase)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/antigravity/how-to-create-agent-skills-for-antigravity-cli |
 | 2026-00-18 | **Introduction to Query Insights for Cloud SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-sql-insights-intro |
 | 2026-00-18 | **Build a Generative UI (GenUI) App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/genui-intro |
@@ -59,7 +60,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-10 | **Create an AR game using Unity's AR Foundation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/arcore-unity-ar-foundation |
 | 2026-00-10 | **Getting started with gRPC-Rust** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/getting-started-grpc-rust |
 | 2026-00-10 | **Private Service Connect - Using PSC Backends to access regional Google APIs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-backend-r-gAPI |
-| 2026-00-10 | **Make your first Google Health API call using OAuth2 Playground** | Verified Google Developer learning activity. URL: https://developers.google.com/health/codelabs/make-your-first-api-call-using-oauth2-playground |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-13.md](./google-developer-2026-00-part-13.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-15.md](./google-developer-2026-00-part-15.md)

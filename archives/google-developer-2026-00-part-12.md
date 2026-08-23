@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-10 | **Analyze and visualize credit card transaction data in Bigtable using BigQuery and Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigtable-cdc-looker-tutorial |
 | 2026-00-10 | **Query the Wikipedia dataset in BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-bigquery-wikipedia |
 | 2026-00-10 | **Ingest CSV data to BigQuery using Cloud Data Fusion - Batch ingestion** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/batch-csv-cdf-bq |
 | 2026-00-10 | **Google Workspace MCP server connectors in Gemini Enterprise apps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-ge |
@@ -57,7 +58,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-09 | **Using the Vision API with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-vision-api-python |
 | 2026-00-09 | **Vibe-code a kids game with Gemini and publish with Firebase!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gemini-games-firebase |
 | 2026-00-09 | **Deploy a website with Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-deploy |
-| 2026-00-09 | **Design a dark theme with Material and Figma** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/design-material-darktheme |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-11.md](./google-developer-2026-00-part-11.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-13.md](./google-developer-2026-00-part-13.md)

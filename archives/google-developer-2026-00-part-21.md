@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile
 chunk_part: 21 of 34
 date_range: 2026-00-21 to 2026-00-22
-total_entries: 48
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-00-part-21.md
 ---
 
@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-22 | **Cronet Basics** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/cronet |
+| 2026-00-22 | **Code Review and Security Analysis with Gemini CLI with Extensions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-cli-code-analysis |
 | 2026-00-22 | **Configure, implement, and verify Android App Links** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-app-links-introduction |
 | 2026-00-22 | **Continuous deployment to Google Kubernetes Engine (GKE) with Cloud Build** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-builder-gke-continuous-deploy |
 | 2026-00-22 | **Serving AVIF Images** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/avif |
@@ -57,9 +59,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-21 | **Live Streaming on Google Cloud with Media CDN and Live Streaming API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mediacdn-ls-codelab |
 | 2026-00-21 | **Build and publish your first Android app with AI Studio** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-with-ai/build-and-publish-android-app-with-ai-studio |
 | 2026-00-21 | **Supercharge Code Quality: AI-Assisted Code Review with Antigravity CLI and SDK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agy-cli-sdk-code-review |
-| 2026-00-21 | **Next ���26 Keynote: Fabric of Unified Intelligence** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/gen-keynote/unified-intelligence |
+| 2026-00-21 | **Next —26 Keynote: Fabric of Unified Intelligence** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/gen-keynote/unified-intelligence |
 | 2026-00-21 | **Plan and Build Apps with Gemini CLI Conductor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/advanced-planning |
-| 2026-00-21 | **Context Caching in BigQuery: Fast, Cost-Effective, and Grounded Gen AI for Big Data** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-context-caching |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-20.md](./google-developer-2026-00-part-20.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-22.md](./google-developer-2026-00-part-22.md)

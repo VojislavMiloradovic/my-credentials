@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-24 | **Gating Deployments with Binary Auth** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gating-deployments-with-binary-auth |
+| 2026-00-24 | **Hello Cloud Run with Python (FastAPI)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-hello-fastapi |
 | 2026-00-24 | **How to upload and serve images using Cloud Storage, Firestore and Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/upload-serve-images-storage-firestore-fastapi |
 | 2026-00-24 | **Visualizing DNS Armor's Advanced Threat Detection Logs using Log Based Metrics and Custom Dashboard** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dns-armor-monitoring-dashboard |
 | 2026-00-24 | **Autoscale Cloud Run worker pools based on the Pub/Sub queue volume using CREMA** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/crema-autoscaler-pubsub-workerpool |
@@ -55,8 +57,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-23 | **Build and Evaluate BigQuery Agents using Agent Development Kit (ADK) and GenAI Eval Service** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-adk-eval |
 | 2026-00-23 | **How to Build an MCP Server with Gemini CLI and Go** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-gemini-cli-mcp-go |
 | 2026-00-23 | **Fine-tune Gemini on Gemini Enterprise Agent Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/9-ai-finetuning/finetune-gemini-vertex-ai |
-| 2026-00-23 | **Scale Reinforcement Learning with GKE and Managed Lustre** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/rl-gke-lustre |
-| 2026-00-23 | **Evaluating Single LLM Outputs With Vertex AI Evaluation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/6-ai-evaluation/evaluating-single-llm-outputs-with-vertex-ai-evaluation |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-22.md](./google-developer-2026-00-part-22.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-00-part-24.md](./google-developer-2026-00-part-24.md)

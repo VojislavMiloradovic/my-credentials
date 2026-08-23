@@ -2,7 +2,7 @@
 archive_platform: Google Developer Profile
 chunk_part: 31 of 34
 date_range: 2026-00-30 to 2026-00-31
-total_entries: 50
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-00-part-31.md
 ---
 
@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-00-31 | **Develop locally with Firebase quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-emulators/develop-locally-with-firebase |
 | 2026-00-31 | **Getting started with the Gemini API and Web Apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/solution-ai-gemini-getting-started-web |
 | 2026-00-31 | **Starting Android Accessibility** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/starting-android-accessibility |
 | 2026-00-31 | **Build leaderboards with Firestore** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/build-leaderboards-with-firestore |
@@ -60,8 +61,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-30 | **How to do local testing of an ADK agent that writes to a Google Sheet before deploying to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/local-testing-cloud-run-google-sheets-adk-agent |
 | 2026-00-30 | **Your first WebGPU app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/your-first-webgpu-app |
 | 2026-00-30 | **Running custom model training on Vertex Pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-pipelines-custom-model |
-| 2026-00-30 | **Build apps with Android Enterprise** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-enterprise-build-apps |
-| 2026-00-30 | **Go further with comment spam detection** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/going-further-text-classification-web |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-00-part-30.md](./google-developer-2026-00-part-30.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-32.md](./google-developer-2026-06-part-32.md)

@@ -49,7 +49,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-00-06 | **Build a scrollable list** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-basics-compose-unit-3-pathway-2/android-basics-compose-unit-3-pathway-2 |
 | 2026-00-06 | **Project: Create a My City app** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-my-city |
 | 2026-00-06 | **Practice: Add a ViewModel to Dessert Clicker** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-viewmodel |
-| 2026-00-06 | **Android 11���Week 11���Modern UI quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week11-modern-ui/android-11-week-11-1 |
+| 2026-00-06 | **Android 11—Week 11—Modern UI quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week11-modern-ui/android-11-week-11-1 |
 | 2026-00-06 | **Download and install Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio |
 | 2026-00-06 | **Go further with audio classification** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/go-further-audio-classification/go-further-audio-classification |
 | 2026-00-06 | **ViewModel and State in Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-and-state |

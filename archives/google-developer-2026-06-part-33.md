@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Android Basics Compose Unit 6 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 6 pathway 1). |
+| 2026-06-05 | **Android 11 Week 4** | Official Google Developer platform achievement (Learning Pathway: android 11 week 4). |
 | 2026-06-05 | **Ecommerce Serverless Django** | Official Google Developer platform achievement (Learning Pathway: ecommerce serverless django). |
 | 2026-06-05 | **Android Basics Compose Unit 1 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 1 pathway 1). |
 | 2026-06-05 | **Fast Stable Apps With Firebase** | Official Google Developer platform achievement (Learning Pathway: fast stable apps with firebase). |
@@ -78,8 +80,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Firebase Crashlytics Analytics** | Official Google Developer platform achievement (Learning Pathway: firebase crashlytics analytics). |
 | 2026-06-05 | **Firebase Remote Config** | Official Google Developer platform achievement (Learning Pathway: firebase remote config). |
 | 2026-06-05 | **Android Basics Compose Unit 3 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 3 pathway 1). |
-| 2026-06-05 | **Firebase Security Layers** | Official Google Developer platform achievement (Learning Pathway: firebase security layers). |
-| 2026-06-05 | **Going Further Image Classification** | Official Google Developer platform achievement (Learning Pathway: going further image classification). |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-32.md](./google-developer-2026-06-part-32.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-34.md](./google-developer-2026-06-part-34.md)
