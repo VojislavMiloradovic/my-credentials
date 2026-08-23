@@ -876,24 +876,28 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     ]
 
     if INTERNAL_STATS and any(v > 0 for v in INTERNAL_STATS.values()):
-        readme_lines.extend([
-            "#### Google Skills Learning Statistics",
-            "",
-            "| Metric | Count |",
-            "| :--- | :---: |",
-        ])
+        readme_lines.extend(
+            [
+                "#### Google Skills Learning Statistics",
+                "",
+                "| Metric | Count |",
+                "| :--- | :---: |",
+            ]
+        )
         for activity_type, count in sorted(INTERNAL_STATS.items()):
             readme_lines.append(f"| **{activity_type}** | {count:,} |")
         readme_lines.append("")
 
-    readme_lines.extend([
-        "#### Latest Earned Credentials",
-        "",
-        f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic File](./archives/google-skills-complete.md).",
-        "",
-        "| Date Earned | Credential Name | Issuer | Verification Type |",
-        "| :---: | :--- | :--- | :---: |",
-    ])
+    readme_lines.extend(
+        [
+            "#### Latest Earned Credentials",
+            "",
+            f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic File](./archives/google-skills-complete.md).",
+            "",
+            "| Date Earned | Credential Name | Issuer | Verification Type |",
+            "| :---: | :--- | :--- | :---: |",
+        ]
+    )
 
     for row_text, _ in formatted_rows[:10]:
         readme_lines.append(row_text)
