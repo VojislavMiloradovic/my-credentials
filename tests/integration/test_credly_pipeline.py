@@ -215,7 +215,7 @@ class TestCredlyPipelineIntegration:
 
             # Should retain local data when API fails
             data = json.loads(local_json.read_text())
-            assert len(data["badges"]) == 4
+            assert len(data["credentials"]) == 4
 
     def test_main_pipeline_api_success(
         self,
@@ -271,4 +271,4 @@ class TestCredlyPipelineIntegration:
             main()
 
             data = json.loads(local_json.read_text())
-            assert len(data["badges"]) == 4  # 3 native + 1 external
+            assert len(data["credentials"]) == 4  # 3 native + 1 external

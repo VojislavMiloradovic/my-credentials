@@ -189,7 +189,7 @@ class TestCredlyModels:
         payload = {
             "credly_user": "testuser",
             "total_count": 1,
-            "badges": [
+            "credentials": [
                 {
                     "id": "1",
                     "title": "Badge 1",

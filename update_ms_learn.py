@@ -621,13 +621,19 @@ def main():
         f"Showing latest 10 of {format_num(len(sorted_achievements))} achievements. View full dataset via [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic Complete File](./archives/{monolith_filename}).\n"
     )
 
+    # Table header for Recent Achievements in README
+    md.append("| Achievement Title | Category | Date Earned | Verification Link |")
+    md.append("| :--- | :--- | :--- | :--- |")
+
     for item in sorted_achievements[:10]:
-        title = item.get("title", "Completed Module")
+        title = item.get("title", "Completed Module").replace("|", "\\|")
         cat = str(item.get("category", "module")).title()
         date = item.get("grantedOn", "N/A")
         verify_url = format_verify_url(item.get("url"))
-        verify_str = f" | [Verify Credential]({verify_url})" if verify_url else ""
-        md.append(f"- **{title}** ({cat} | Earned: {date}{verify_str})")
+        verify_cell = f"[Verify]({verify_url})" if verify_url else "N/A"
+        if item.get("retired", False):
+            verify_cell += " ⚠️ *Content retired*"
+        md.append(f"| **{title}** | {cat} | {date} | {verify_cell} |")
 
     table_headers = [
         "Achievement Title",
