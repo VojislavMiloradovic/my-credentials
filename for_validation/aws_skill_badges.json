@@ -1,6 +1,6 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 655,
+  "total_count": 683,
   "badges": [
     {
       "id": "4d3535a6971307d9",
@@ -1044,6 +1044,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon Aurora MySQL - Basics"
+      ],
+      "retired": false
+    },
+    {
+      "id": "b206b8e91c63788a",
+      "title": "Amazon Aurora MySQL and Amazon RDS MySQL",
+      "name": "Amazon Aurora MySQL and Amazon RDS MySQL",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Aurora MySQL and Amazon RDS MySQL"
       ],
       "retired": false
     },
@@ -3347,6 +3366,25 @@
       "retired": false
     },
     {
+      "id": "8e1cc25fee13d512",
+      "title": "Amazon Simple Storage Service (Amazon S3) Cost Optimization",
+      "name": "Amazon Simple Storage Service (Amazon S3) Cost Optimization",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Simple Storage Service (Amazon S3) Cost Optimization"
+      ],
+      "retired": false
+    },
+    {
       "id": "0e1671596db2a8b1",
       "title": "Amazon Simple Storage Service (Amazon S3) Essentials - Beyond the Basics",
       "name": "Amazon Simple Storage Service (Amazon S3) Essentials - Beyond the Basics",
@@ -3537,6 +3575,25 @@
       "retired": false
     },
     {
+      "id": "1323908794a99b59",
+      "title": "Analyzing Claude Code usage with CloudWatch and OpenTelemetry",
+      "name": "Analyzing Claude Code usage with CloudWatch and OpenTelemetry",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-25",
+      "issued_at_date": "2026-08-25",
+      "date": "2026-08-25",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Analyzing Claude Code usage with CloudWatch and OpenTelemetry"
+      ],
+      "retired": false
+    },
+    {
       "id": "2bfaed763408dfe4",
       "title": "API Gateway Getting Started",
       "name": "API Gateway Getting Started",
@@ -3590,6 +3647,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Approach to Mainframe Migration and Modernization"
+      ],
+      "retired": false
+    },
+    {
+      "id": "4af5ac9fd14badee",
+      "title": "Architecting SAP on AWS",
+      "name": "Architecting SAP on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Architecting SAP on AWS"
       ],
       "retired": false
     },
@@ -4430,6 +4506,25 @@
       "retired": false
     },
     {
+      "id": "0035782aa3b4757f",
+      "title": "AWS Database Migration Service Best Practices - Troubleshooting",
+      "name": "AWS Database Migration Service Best Practices - Troubleshooting",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Database Migration Service Best Practices - Troubleshooting"
+      ],
+      "retired": false
+    },
+    {
       "id": "1c215e2b46ca7669",
       "title": "AWS Database Migration Service Overview",
       "name": "AWS Database Migration Service Overview",
@@ -4711,6 +4806,25 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS for Games - Databases"
+      ],
+      "retired": false
+    },
+    {
+      "id": "04ca2153668d31ec",
+      "title": "AWS for Games Containers Principles",
+      "name": "AWS for Games Containers Principles",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS for Games Containers Principles"
       ],
       "retired": false
     },
@@ -6102,6 +6216,25 @@
       "retired": false
     },
     {
+      "id": "80dce8f38365cd70",
+      "title": "AWS Snowball Edge Primer",
+      "name": "AWS Snowball Edge Primer",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Snowball Edge Primer"
+      ],
+      "retired": false
+    },
+    {
       "id": "23b95f21e81c2f2d",
       "title": "AWS Snowball Getting Started",
       "name": "AWS Snowball Getting Started",
@@ -6117,6 +6250,44 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS Snowball Getting Started"
+      ],
+      "retired": false
+    },
+    {
+      "id": "b2b3720b76639efe",
+      "title": "AWS Solutions Architect - Fundamentals of Architecting on AWS",
+      "name": "AWS Solutions Architect - Fundamentals of Architecting on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Solutions Architect - Fundamentals of Architecting on AWS"
+      ],
+      "retired": false
+    },
+    {
+      "id": "e8d8eb38522148d2",
+      "title": "AWS Solutions Architect Advanced - Learning Plan Welcome",
+      "name": "AWS Solutions Architect Advanced - Learning Plan Welcome",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Solutions Architect Advanced - Learning Plan Welcome"
       ],
       "retired": false
     },
@@ -6501,6 +6672,25 @@
       "retired": false
     },
     {
+      "id": "1dfee3581cc28b5e",
+      "title": "Build an AI-powered recruitment assistant using Amazon Bedrock",
+      "name": "Build an AI-powered recruitment assistant using Amazon Bedrock",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build an AI-powered recruitment assistant using Amazon Bedrock"
+      ],
+      "retired": false
+    },
+    {
       "id": "a8a6915ead48d072",
       "title": "Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore",
       "name": "Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore",
@@ -6668,6 +6858,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Build With Amazon DocumentDB (with MongoDB compatibility)"
+      ],
+      "retired": false
+    },
+    {
+      "id": "7de576bf38927a7f",
+      "title": "Build with Amazon EC2",
+      "name": "Build with Amazon EC2",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build with Amazon EC2"
       ],
       "retired": false
     },
@@ -7565,6 +7774,25 @@
       "retired": false
     },
     {
+      "id": "a7f2fba1f9511e15",
+      "title": "Data for SaaS - Season 1",
+      "name": "Data for SaaS - Season 1",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Data for SaaS - Season 1"
+      ],
+      "retired": false
+    },
+    {
       "id": "4d117877909f76b4",
       "title": "Data Migration Knowledge Badge Assessment",
       "name": "Data Migration Knowledge Badge Assessment",
@@ -7660,6 +7888,25 @@
       "retired": false
     },
     {
+      "id": "8c3f72febdd39ac9",
+      "title": "Deep Dive: Amazon Elastic Block Store (Amazon EBS) Performance Optimization",
+      "name": "Deep Dive: Amazon Elastic Block Store (Amazon EBS) Performance Optimization",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Deep Dive: Amazon Elastic Block Store (Amazon EBS) Performance Optimization"
+      ],
+      "retired": false
+    },
+    {
       "id": "3e4676c6df061335",
       "title": "Deep Dive: Managing and Monitoring Amazon Elastic Block Store (Amazon EBS)",
       "name": "Deep Dive: Managing and Monitoring Amazon Elastic Block Store (Amazon EBS)",
@@ -7694,6 +7941,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Deepdive into Advertising Domain"
+      ],
+      "retired": false
+    },
+    {
+      "id": "6a61f78e0e276384",
+      "title": "Deliver hyper-personalized viewer experiences with an agentic AI movie assistant using Amazon Bedrock AgentCore and Amazon Nova Sonic 2.0",
+      "name": "Deliver hyper-personalized viewer experiences with an agentic AI movie assistant using Amazon Bedrock AgentCore and Amazon Nova Sonic 2.0",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Deliver hyper-personalized viewer experiences with an agentic AI movie assistant using Amazon Bedrock AgentCore and Amazon Nova Sonic 2.0"
       ],
       "retired": false
     },
@@ -8112,6 +8378,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Drive organizational growth with Amazon Lex multi-developer CI/CD pipeline"
+      ],
+      "retired": false
+    },
+    {
+      "id": "4d5e635fa2e49783",
+      "title": "E-commerce AI Agent: From Smart Customer Service to Production Deployment",
+      "name": "E-commerce AI Agent: From Smart Customer Service to Production Deployment",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "E-commerce AI Agent: From Smart Customer Service to Production Deployment"
       ],
       "retired": false
     },
@@ -8682,6 +8967,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Generative AI for Executives"
+      ],
+      "retired": false
+    },
+    {
+      "id": "2b4e9c0a742b242c",
+      "title": "Generative AI Workloads on AWS AI Chips - Trainium and Inferentia",
+      "name": "Generative AI Workloads on AWS AI Chips - Trainium and Inferentia",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Generative AI Workloads on AWS AI Chips - Trainium and Inferentia"
       ],
       "retired": false
     },
@@ -9366,6 +9670,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Implement Lexical Search Using Amazon OpenSearch Service"
+      ],
+      "retired": false
+    },
+    {
+      "id": "e9b8f28dec2b2881",
+      "title": "Implementing SaaS Tenant Isolation with ABAC and AWS IAM",
+      "name": "Implementing SaaS Tenant Isolation with ABAC and AWS IAM",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Implementing SaaS Tenant Isolation with ABAC and AWS IAM"
       ],
       "retired": false
     },
@@ -10928,6 +11251,25 @@
       "retired": false
     },
     {
+      "id": "2f2f5eac64f1d9af",
+      "title": "Leverage Claude's Extended Thinking Capabilities on AWS",
+      "name": "Leverage Claude's Extended Thinking Capabilities on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Leverage Claude's Extended Thinking Capabilities on AWS"
+      ],
+      "retired": false
+    },
+    {
       "id": "b160eb8b5d2e038e",
       "title": "Machine Learning Essentials for Business and Technical Decision Makers",
       "name": "Machine Learning Essentials for Business and Technical Decision Makers",
@@ -11076,6 +11418,44 @@
       "verification_type": "Digital course",
       "skills": [
         "Managing Operations on AWS with Amazon Q Developer"
+      ],
+      "retired": false
+    },
+    {
+      "id": "3008a00f13511527",
+      "title": "Managing, Monitoring, and Optimizing your Amazon Elastic File System (Amazon EFS) Solution",
+      "name": "Managing, Monitoring, and Optimizing your Amazon Elastic File System (Amazon EFS) Solution",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Managing, Monitoring, and Optimizing your Amazon Elastic File System (Amazon EFS) Solution"
+      ],
+      "retired": false
+    },
+    {
+      "id": "cc61e18a0de9d0bf",
+      "title": "Manufacturing intelligence with Amazon Nova Multimodal Embeddings",
+      "name": "Manufacturing intelligence with Amazon Nova Multimodal Embeddings",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Manufacturing intelligence with Amazon Nova Multimodal Embeddings"
       ],
       "retired": false
     },
@@ -11289,6 +11669,44 @@
       "retired": false
     },
     {
+      "id": "195b58983f570ccc",
+      "title": "Monitoring and Troubleshooting Generative AI Applications on AWS",
+      "name": "Monitoring and Troubleshooting Generative AI Applications on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Monitoring and Troubleshooting Generative AI Applications on AWS"
+      ],
+      "retired": false
+    },
+    {
+      "id": "f07404b4f9edcb5b",
+      "title": "Multi-Agent Collaboration with Amazon Bedrock Agents",
+      "name": "Multi-Agent Collaboration with Amazon Bedrock Agents",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Multi-Agent Collaboration with Amazon Bedrock Agents"
+      ],
+      "retired": false
+    },
+    {
       "id": "9f43c54715209dfd",
       "title": "MVCC in PostgreSQL and Vacuum Internals",
       "name": "MVCC in PostgreSQL and Vacuum Internals",
@@ -11346,6 +11764,25 @@
       "retired": false
     },
     {
+      "id": "9287668ea54b417f",
+      "title": "No-code Machine Learning and Generative AI on AWS",
+      "name": "No-code Machine Learning and Generative AI on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "No-code Machine Learning and Generative AI on AWS"
+      ],
+      "retired": false
+    },
+    {
       "id": "41cff612697869c4",
       "title": "Object Storage Knowledge Badge Assessment",
       "name": "Object Storage Knowledge Badge Assessment",
@@ -11380,6 +11817,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Observability for AWS Step Functions"
+      ],
+      "retired": false
+    },
+    {
+      "id": "61f415b5ea2cc4cc",
+      "title": "Online Course Supplement: Practical Data Science with Amazon SageMaker",
+      "name": "Online Course Supplement: Practical Data Science with Amazon SageMaker",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Online Course Supplement: Practical Data Science with Amazon SageMaker"
       ],
       "retired": false
     },
@@ -11631,6 +12087,25 @@
       "retired": false
     },
     {
+      "id": "cc5711d815fb783d",
+      "title": "PostgreSQL for Amazon Aurora and RDS (Advanced) Learning Plan - Introduction",
+      "name": "PostgreSQL for Amazon Aurora and RDS (Advanced) Learning Plan - Introduction",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "PostgreSQL for Amazon Aurora and RDS (Advanced) Learning Plan - Introduction"
+      ],
+      "retired": false
+    },
+    {
       "id": "9fe3896eb0fb0ea0",
       "title": "PostgreSQL for Developers",
       "name": "PostgreSQL for Developers",
@@ -11646,6 +12121,25 @@
       "verification_type": "Digital course",
       "skills": [
         "PostgreSQL for Developers"
+      ],
+      "retired": false
+    },
+    {
+      "id": "2b0879a98ef40f93",
+      "title": "Production Framework - Operations",
+      "name": "Production Framework - Operations",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-25",
+      "issued_at_date": "2026-08-25",
+      "date": "2026-08-25",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Production Framework - Operations"
       ],
       "retired": false
     },
@@ -11874,6 +12368,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Security Aspects of RDS and Aurora PostgreSQL"
+      ],
+      "retired": false
+    },
+    {
+      "id": "354a87ef5433ccef",
+      "title": "Security Governance at Scale – Technical (Digital)",
+      "name": "Security Governance at Scale – Technical (Digital)",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Security Governance at Scale – Technical (Digital)"
       ],
       "retired": false
     },
@@ -12330,6 +12843,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Unleashing Agentic AI Analytics on Amazon SageMaker with Amazon Athena and Amazon Quick"
+      ],
+      "retired": false
+    },
+    {
+      "id": "bd4ca5520b1e3991",
+      "title": "Unlock powerful call center analytics with Amazon Nova foundation models",
+      "name": "Unlock powerful call center analytics with Amazon Nova foundation models",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-24",
+      "issued_at_date": "2026-08-24",
+      "date": "2026-08-24",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Unlock powerful call center analytics with Amazon Nova foundation models"
       ],
       "retired": false
     },
