@@ -29,7 +29,7 @@ import re
 import sys
 from dataclasses import dataclass
 from datetime import UTC, datetime
-from typing import Any, List
+from typing import Any
 
 # Layer manifest integration
 from layer_manifest import LayerManifest, get_artifact_layer_mapping, load_manifest
@@ -837,7 +837,7 @@ class CrossArtifactValidator:
         
         return None
 
-    def _artifacts_for_layer(self, platform_key: str, layer: str) -> List[str]:
+    def _artifacts_for_layer(self, platform_key: str, layer: str) -> list[str]:
         """Get list of artifacts for a given platform and layer."""
         manifest = self.layer_manifest
         if not manifest:
@@ -1115,7 +1115,6 @@ class CrossArtifactValidator:
 
             # Get artifact -> layer mapping from manifest
             artifact_to_layer = self._get_artifact_to_layer_mapping(platform_key)
-            layer_to_artifacts = self._get_layer_to_artifacts_mapping(platform_key)
 
             # Check each pair
             artifact_names = list(artifact_sources.keys())
