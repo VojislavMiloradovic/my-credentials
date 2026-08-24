@@ -41,7 +41,7 @@ platforms:
     L0_raw:
       sources:
         - "rpc_api"
-        - "data/Learning \u00a0_\u00a0 Google Developer Program \u00a0_\u00a0 Google for Developers.mhtml"
+        - "data/Learning _ Google Developer Program _ Google for Developers.mhtml"
       description: "RPC API milestone badges + MHTML learnings badge page with codelab links (up to 1000 most recent)"
     L1_normalized:
       source_layer: "L0_raw"

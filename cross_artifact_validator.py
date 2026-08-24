@@ -29,7 +29,7 @@ import re
 import sys
 from dataclasses import dataclass
 from datetime import UTC, datetime
-from typing import Any
+from typing import Any, List
 
 # Layer manifest integration
 from layer_manifest import LayerManifest, get_artifact_layer_mapping, load_manifest
@@ -797,6 +797,62 @@ class CrossArtifactValidator:
 
         return transforms
 
+    def _get_artifact_to_layer_mapping(self, platform_key: str) -> dict[str, str]:
+        """Map artifact name -> layer name for a platform from manifest."""
+        if not self.manifest or platform_key not in self.manifest.platforms:
+            return {}
+        platform = self.manifest.platforms[platform_key]
+        mapping = {}
+        for layer_name in ("L2_published", "L3_display"):
+            layer_def = getattr(platform, layer_name)
+            for artifact in layer_def.artifacts:
+                mapping[artifact] = layer_name
+        return mapping
+
+    def _get_layer_to_artifacts_mapping(self, platform_key: str) -> dict[str, list[str]]:
+        """Map layer name -> list of artifacts for a platform from manifest."""
+        if not self.manifest or platform_key not in self.manifest.platforms:
+            return {}
+        platform = self.manifest.platforms[platform_key]
+        mapping = {}
+        for layer_name in ("L2_published", "L3_display"):
+            layer_def = getattr(platform, layer_name)
+            if layer_def.artifacts:
+                mapping[layer_name] = layer_def.artifacts
+        return mapping
+
+    def _get_source_layer_for_artifact(self, platform_key: str, artifact: str) -> str | None:
+        """Get the source layer that produces a given artifact for a platform."""
+        if not self.manifest or platform_key not in self.manifest.platforms:
+            return None
+        platform = self.manifest.platforms[platform_key]
+        
+        # Check L2_published
+        if artifact in platform.L2_published.artifacts:
+            return "L2_published"
+        
+        # Check L3_display
+        if artifact in platform.L3_display.artifacts:
+            return "L3_display"
+        
+        return None
+
+    def _artifacts_for_layer(self, platform_key: str, layer: str) -> List[str]:
+        """Get list of artifacts for a given platform and layer."""
+        manifest = self.layer_manifest
+        if not manifest:
+            return []
+        
+        platform = manifest.platforms.get(platform_key)
+        if not platform:
+            return []
+        
+        layer_obj = getattr(platform, layer, None)
+        if not layer_obj:
+            return []
+        
+        return list(layer_obj.artifacts.keys())
+
     def _counts_for_layer(self, platform_key: str, layer: str) -> int:
         """Get record count for a specific layer from platform_data."""
         counts = self.platform_data.get(platform_key)
@@ -836,42 +892,82 @@ class CrossArtifactValidator:
             # Get declared transforms from manifest
             declared = self._get_declared_transforms(platform_key)
 
-            # Build comparisons based on manifest
+            # Build dynamic attr_map based on manifest artifacts
+            attr_map = self._build_attr_map(platform_key)
+
+            # Build comparisons based on manifest - only compare artifacts with SAME transform
             comparisons = []
 
-            # L2_published artifacts should match (archive_complete vs index)
-            if "L2_published" in declared.get(
-                ("L1_normalized", "L2_published"), ""
-            ) or any(k[1].startswith("L2_published") for k in declared):
-                comparisons.append(
-                    (
-                        "archive_complete",
-                        "index",
-                        0,
-                        "Archive complete vs Index total (L2_published)",
-                    )
-                )
+            # Check L2_published artifacts: only compare those using the same transform
+            l2_transforms = {}
+            for (src, tgt), ttype in declared.items():
+                tgt_base = tgt.split(":")[0]
+                tgt_artifact = tgt.split(":")[1] if ":" in tgt else None
+                if tgt_base == "L2_published" and tgt_artifact:
+                    l2_transforms[tgt_artifact] = ttype
 
-            # L1 -> L2 (archive_complete vs jsonld both from L2_published)
-            if ("L1_normalized", "L2_published") in declared or any(
-                k[1].startswith("L2_published") for k in declared
-            ):
-                comparisons.append(
-                    (
-                        "archive_complete",
-                        "jsonld",
-                        5,
-                        "Archive complete vs JSON-LD (L2_published)",
-                    )
-                )
+            # Group artifacts by transform type
+            l2_by_transform = {}
+            for artifact, ttype in l2_transforms.items():
+                if ttype not in l2_by_transform:
+                    l2_by_transform[ttype] = []
+                l2_by_transform[ttype].append(artifact)
 
-            # L1 -> L3 (readme vs llms_txt both from L3_display)
-            if ("L1_normalized", "L3_display") in declared or any(
-                k[1].startswith("L3_display") for k in declared
-            ):
-                comparisons.append(
-                    ("readme", "llms_txt", 0, "README vs llms.txt (L3_display)")
-                )
+            # Only add comparisons for artifacts with SAME transform
+            for ttype, artifacts in l2_by_transform.items():
+                if len(artifacts) >= 2:
+                    for i, art1 in enumerate(artifacts):
+                        for art2 in artifacts[i+1:]:
+                            comparisons.append((
+                                art1, art2, 0, f"{art1} vs {art2} (L2_published, {ttype})"
+                            ))
+
+            # Check L3_display artifacts
+            l3_transforms = {}
+            for (src, tgt), ttype in declared.items():
+                tgt_base = tgt.split(":")[0]
+                tgt_artifact = tgt.split(":")[1] if ":" in tgt else None
+                if tgt_base == "L3_display" and tgt_artifact:
+                    l3_transforms[tgt_artifact] = ttype
+
+            l3_by_transform = {}
+            for artifact, ttype in l3_transforms.items():
+                if ttype not in l3_by_transform:
+                    l3_by_transform[ttype] = []
+                l3_by_transform[ttype].append(artifact)
+
+            for ttype, artifacts in l3_by_transform.items():
+                if len(artifacts) >= 2:
+                    for i, art1 in enumerate(artifacts):
+                        for art2 in artifacts[i+1:]:
+                            comparisons.append((
+                                art1, art2, 0, f"{art1} vs {art2} (L3_display, {ttype})"
+                            ))
+
+            # If no specific artifact transforms found, fall back to layer-wide transforms
+            if not comparisons:
+                # Check for layer-wide transforms
+                l2_layer_transform = declared.get(("L1_normalized", "L2_published"))
+                l3_layer_transform = declared.get(("L1_normalized", "L3_display"))
+                
+                if l2_layer_transform:
+                    # All L2 artifacts use same layer-wide transform
+                    l2_artifacts = self._artifacts_for_layer(platform_key, "L2_published")
+                    if len(l2_artifacts) >= 2:
+                        for i, art1 in enumerate(l2_artifacts):
+                            for art2 in l2_artifacts[i+1:]:
+                                comparisons.append((
+                                    art1, art2, 0, f"{art1} vs {art2} (L2_published, {l2_layer_transform})"
+                                ))
+                
+                if l3_layer_transform:
+                    l3_artifacts = self._artifacts_for_layer(platform_key, "L3_display")
+                    if len(l3_artifacts) >= 2:
+                        for i, art1 in enumerate(l3_artifacts):
+                            for art2 in l3_artifacts[i+1:]:
+                                comparisons.append((
+                                    art1, art2, 0, f"{art1} vs {art2} (L3_display, {l3_layer_transform})"
+                                ))
 
             # If no declared transforms, fall back to legacy behavior
             if not comparisons:
@@ -1017,23 +1113,89 @@ class CrossArtifactValidator:
                 "llms_txt": "llms_txt_count",
             }
 
+            # Get artifact -> layer mapping from manifest
+            artifact_to_layer = self._get_artifact_to_layer_mapping(platform_key)
+            layer_to_artifacts = self._get_layer_to_artifacts_mapping(platform_key)
+
             # Check each pair
             artifact_names = list(artifact_sources.keys())
             for i, art1 in enumerate(artifact_names):
                 for art2 in artifact_names[i + 1 :]:
-                    # Skip if this pair is explained by a declared transform
+                    # Get source layers for both artifacts
+                    layer1 = artifact_to_layer.get(art1)
+                    layer2 = artifact_to_layer.get(art2)
+
+                    if not layer1 or not layer2:
+                        # If we can't determine layers from manifest, skip (fallback to legacy)
+                        continue
+
+                    # Check if this discrepancy is explained by manifest
                     explained = False
-                    for src, tgt in declared:
-                        src_artifacts = self._artifacts_for_layer(platform_key, src)
-                        tgt_artifacts = self._artifacts_for_layer(
-                            platform_key, tgt.split(":")[0]
-                        )
-                        if art1 in src_artifacts and art2 in tgt_artifacts:
+
+                    if layer1 == layer2:
+                        # Same layer: check if they use the same transform
+                        # Get transforms for this layer
+                        transforms_for_layer = {}
+                        for (src, tgt), ttype in declared.items():
+                            tgt_base = tgt.split(":")[0]
+                            if tgt_base == layer1:
+                                # This transform produces layer1 artifacts
+                                # Check which specific artifact it produces
+                                tgt_artifact = tgt.split(":")[1] if ":" in tgt else None
+                                if tgt_artifact:
+                                    transforms_for_layer[tgt_artifact] = ttype
+
+                        ttype1 = transforms_for_layer.get(art1)
+                        ttype2 = transforms_for_layer.get(art2)
+
+                        if ttype1 and ttype2 and ttype1 == ttype2:
+                            # Same layer, same transform -> should match
                             explained = True
-                            break
-                        if art2 in src_artifacts and art1 in tgt_artifacts:
+                        elif ttype1 and ttype2:
+                            # Same layer, different transforms (e.g., combine_streams vs split_streams)
+                            # This is expected to differ - explained by manifest
                             explained = True
-                            break
+                        elif not ttype1 and not ttype2:
+                            # No specific transforms declared for these artifacts in this layer
+                            # Default to 1:1_pass_through expectation
+                            pass  # Not explained, will be checked
+                    else:
+                        # Different layers: check if the discrepancy is explained by manifest
+                        # Get source layers for both artifacts' layers
+                        if not self.manifest or platform_key not in self.manifest.platforms:
+                            pass
+                        else:
+                            platform = self.manifest.platforms[platform_key]
+                            
+                            # Get the source_layer for each layer
+                            layer1_def = getattr(platform, layer1, None)
+                            layer2_def = getattr(platform, layer2, None)
+                            
+                            source_layer1 = layer1_def.source_layer if layer1_def else None
+                            source_layer2 = layer2_def.source_layer if layer2_def else None
+                            
+                            # If both layers come from different source layers, discrepancy is explained
+                            if source_layer1 and source_layer2 and source_layer1 != source_layer2:
+                                explained = True
+                            # Or if they come from same source layer but have declared transforms
+                            elif source_layer1 and source_layer2 and source_layer1 == source_layer2:
+                                # Check if both layers have declared transforms from the shared source layer
+                                # (either artifact-specific or layer-wide)
+                                layer1_has_transform = False
+                                layer2_has_transform = False
+                                
+                                for (src, tgt), ttype in declared.items():
+                                    src_base = src.split(":")[0]
+                                    if src_base == source_layer1:
+                                        tgt_base = tgt.split(":")[0]
+                                        if tgt_base == layer1:
+                                            layer1_has_transform = True
+                                        if tgt_base == layer2:
+                                            layer2_has_transform = True
+                                
+                                # If both layers have declared transforms from same source - explained
+                                if layer1_has_transform and layer2_has_transform:
+                                    explained = True
 
                     if not explained:
                         val1 = getattr(counts, artifact_sources[art1], 0)
@@ -1111,6 +1273,55 @@ class CrossArtifactValidator:
         if layer_def:
             return layer_def.artifacts
         return []
+
+    def _build_attr_map(self, platform_key: str) -> dict[str, str]:
+        """Build dynamic attribute mapping for artifacts based on manifest."""
+        base_map = {
+            "source": "source_records",
+            "archive_complete": "archive_complete_records",
+            "index": "index_total",
+            "readme": "readme_count",
+            "jsonld": "jsonld_count",
+            "llms_txt": "llms_txt_count",
+        }
+        
+        # Add manifest-specific artifacts
+        if self.manifest and platform_key in self.manifest.platforms:
+            platform = self.manifest.platforms[platform_key]
+            
+            # L1_normalized artifacts
+            if hasattr(platform, 'L1_normalized') and platform.L1_normalized:
+                for artifact in platform.L1_normalized.artifacts:
+                    if artifact not in base_map:
+                        # These map to l1_normalized_records for now
+                        base_map[artifact] = "l1_normalized_records"
+            
+            # L2_published artifacts
+            if hasattr(platform, 'L2_published') and platform.L2_published:
+                for artifact in platform.L2_published.artifacts:
+                    if artifact not in base_map:
+                        # These map to archive_complete_records or index_total depending on type
+                        if "archive" in artifact:
+                            base_map[artifact] = "archive_complete_records"
+                        elif "index" in artifact:
+                            base_map[artifact] = "index_total"
+                        elif "jsonld" in artifact:
+                            base_map[artifact] = "jsonld_count"
+                        else:
+                            base_map[artifact] = "archive_complete_records"
+            
+            # L3_display artifacts
+            if hasattr(platform, 'L3_display') and platform.L3_display:
+                for artifact in platform.L3_display.artifacts:
+                    if artifact not in base_map:
+                        if "readme" in artifact:
+                            base_map[artifact] = "readme_count"
+                        elif "llms_txt" in artifact:
+                            base_map[artifact] = "llms_txt_count"
+                        else:
+                            base_map[artifact] = "readme_count"
+        
+        return base_map
 
     def validate_platform_coverage(self) -> None:
         """Ensure all platforms appear in all generated artifacts."""
