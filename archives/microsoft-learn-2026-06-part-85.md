@@ -12,6 +12,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Share knowledge within teams** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/) |
+| **Design processes to automate application analytics** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/) |
 | **Develop monitor and status dashboards** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/) |
 | **Implement Desired State Configuration (DSC)** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/) |
 | **Implement A/B testing and progressive exposure deployment** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/) |
@@ -61,8 +63,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Introduction to developing with Microsoft Power Platform** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-development-power-platform/) |
 | **Introduction to extending Power Platform** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-extend/) |
 | **AZ-305: Design infrastructure solutions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-infranstructure-solutions/) |
-| **Design migrations** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-migrations/) |
-| **AZ-305: Design identity, governance, and monitor solutions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-identity-governance-monitor-solutions/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-86.md](./microsoft-learn-2026-06-part-86.md)

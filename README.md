@@ -15,13 +15,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 5,997,650
+- **Total Experience Points (XP):** 6,008,650
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,903
-- **Trophies Earned (Profile):** 905
-- **Completed Learning Paths (Active Tracker):** 514
-- **Completed Modules (Active Tracker):** 2,658
-- **Completed Individual Units:** 35,651
+- **Badges Earned (Profile):** 3,910
+- **Trophies Earned (Profile):** 906
+- **Completed Learning Paths (Active Tracker):** 515
+- **Completed Modules (Active Tracker):** 2,668
+- **Completed Individual Units:** 35,717
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -32,20 +32,20 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,808 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-08-part-95.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-95.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,816 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-08-part-95.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-95.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Advanced Active Directory back up and recovery** | Modules | 2026-08-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-backup-recovery/) |
-| **Introduction to Azure SRE Agent** | Modules | 2026-08-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-sre-agent/) |
-| **Understand how Project Perception coordinates security operations** | Modules | 2026-08-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-orientation/) |
-| **Active Directory Domain Services authentication and Kerberos hardening** | Modules | 2026-08-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-authentication-kerberos/) |
-| **Ingest data into Customer Insights - Data** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-customer-insights/) |
-| **Get started with Dynamics 365 Customer Insights - Data** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-customer-data-platform/) |
-| **Write your first Python code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-first-python-code/) |
-| **Get Started with Python Programming: Part 1 - Fundamentals** | Learningpaths | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-python-fundamentals/) |
-| **Work with data in Python** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-data-python/) |
-| **What is Project Perception?** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-introduction/) |
+| **Route and distribute work with unified routing in Dynamics 365 Customer Service** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/route-distribute-work/) |
+| **Service representative collaboration in Dynamics 365 Customer Service** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-collaboration/) |
+| **Leveling up code reviews and pull requests with GitHub Copilot** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/) |
+| **Frontier Firms: Govern and manage AI experiences with Windows 11** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-ai/) |
+| **Frontier Firms: Bring AI into everyday work with Windows 11** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-workflows/) |
+| **Get started with Python programming: Part 2 - building programs** | Learningpaths | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-python-programs/) |
+| **Repeat actions with loops** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/repeat-actions-loops-python/) |
+| **Build and extend AI agents with Microsoft Foundry** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-extend-ai-agents/) |
+| **Read and write files** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/read-write-files-python/) |
+| **Write reusable code** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-reusable-code-python/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

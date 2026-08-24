@@ -12,6 +12,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Validate your Microsoft Power Platform Solution Architect skills** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-power-platform-solution-architect-skills/) |
 | **Becoming a solution architect for Dynamics 365 and Microsoft Power Platform** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/becoming-solution-architect/) |
 | **Understand Microsoft 365 Agents SDK** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-copilot-stack/) |
 | **Build Custom Engine Agents with the Microsoft 365 Agents SDK** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-custom-copilots-microsoft-teams/) |
@@ -32,7 +33,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **GitHub Copilot Fundamentals Part 2 of 2** | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
 | **Introduction to MCP Server** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/mcp-server/) |
 | **Understand how Microsoft Purview Unified Catalog unifies your data estate** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-unified-catalog-understand/) |
-| **Leveling up code reviews and pull requests with GitHub Copilot** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/) |
 | **Azure Local Accreditation 2025** | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-local-accreditation-2025/) |
 | **Hyperconverged Infrastructure (HCI) Stack** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/hci-stack/) |
 | **Operate hybrid infrastructure with Azure Local** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/operate-hybrid-infrastructure-with-azure-local/) |

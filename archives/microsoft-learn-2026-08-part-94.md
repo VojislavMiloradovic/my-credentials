@@ -1,9 +1,9 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 94 of 95
-date_range: 2026-07-24 to 2026-07-30
+date_range: 2026-07-24 to 2026-08-02
 total_entries: 53
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-94.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-94.md
 ---
 
 # Microsoft Learn — Part 94
@@ -12,6 +12,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Get started with AI applications and agents on Azure** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-ai-apps-agents/) |
+| **Introduction to Azure Copilot** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-copilot/) |
+| **Managing Azure NetApp Files** | Learningpaths | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-azure-netapp-files/) |
 | **Troubleshoot Azure NetApp Files** | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-azure-netapp-files/) |
 | **Manage operations and monitoring in Power Platform** | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-operations-monitoring/) |
 | **Extend ALM with Git and CI/CD in Power Platform** | Modules | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-alm-git-cicd/) |
@@ -62,9 +65,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Curate and control agents with the Agent Registry and Agent 365 tools** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/curate-control-agents-registry-tools/) |
 | **Configure Microsoft 365 Copilot settings and extensibility** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-copilot-settings-extensibility/) |
 | **Configure Exchange Online and Microsoft Teams workloads** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-exchange-teams/) |
-| **Assess readiness and roll out Microsoft 365 Copilot** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-manage-microsoft-365-copilot/) |
-| **Secure tenants and environments in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-tenant-environments/) |
-| **Manage environments in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-power-platform-environments/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-95.md](./microsoft-learn-2026-08-part-95.md)
