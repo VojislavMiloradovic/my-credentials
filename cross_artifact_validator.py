@@ -809,7 +809,9 @@ class CrossArtifactValidator:
                 mapping[artifact] = layer_name
         return mapping
 
-    def _get_layer_to_artifacts_mapping(self, platform_key: str) -> dict[str, list[str]]:
+    def _get_layer_to_artifacts_mapping(
+        self, platform_key: str
+    ) -> dict[str, list[str]]:
         """Map layer name -> list of artifacts for a platform from manifest."""
         if not self.manifest or platform_key not in self.manifest.platforms:
             return {}
@@ -821,20 +823,22 @@ class CrossArtifactValidator:
                 mapping[layer_name] = layer_def.artifacts
         return mapping
 
-    def _get_source_layer_for_artifact(self, platform_key: str, artifact: str) -> str | None:
+    def _get_source_layer_for_artifact(
+        self, platform_key: str, artifact: str
+    ) -> str | None:
         """Get the source layer that produces a given artifact for a platform."""
         if not self.manifest or platform_key not in self.manifest.platforms:
             return None
         platform = self.manifest.platforms[platform_key]
-        
+
         # Check L2_published
         if artifact in platform.L2_published.artifacts:
             return "L2_published"
-        
+
         # Check L3_display
         if artifact in platform.L3_display.artifacts:
             return "L3_display"
-        
+
         return None
 
     def _artifacts_for_layer(self, platform_key: str, layer: str) -> list[str]:
@@ -842,15 +846,15 @@ class CrossArtifactValidator:
         manifest = self.layer_manifest
         if not manifest:
             return []
-        
+
         platform = manifest.platforms.get(platform_key)
         if not platform:
             return []
-        
+
         layer_obj = getattr(platform, layer, None)
         if not layer_obj:
             return []
-        
+
         return list(layer_obj.artifacts.keys())
 
     def _counts_for_layer(self, platform_key: str, layer: str) -> int:
@@ -917,10 +921,15 @@ class CrossArtifactValidator:
             for ttype, artifacts in l2_by_transform.items():
                 if len(artifacts) >= 2:
                     for i, art1 in enumerate(artifacts):
-                        for art2 in artifacts[i+1:]:
-                            comparisons.append((
-                                art1, art2, 0, f"{art1} vs {art2} (L2_published, {ttype})"
-                            ))
+                        for art2 in artifacts[i + 1 :]:
+                            comparisons.append(
+                                (
+                                    art1,
+                                    art2,
+                                    0,
+                                    f"{art1} vs {art2} (L2_published, {ttype})",
+                                )
+                            )
 
             # Check L3_display artifacts
             l3_transforms = {}
@@ -939,35 +948,52 @@ class CrossArtifactValidator:
             for ttype, artifacts in l3_by_transform.items():
                 if len(artifacts) >= 2:
                     for i, art1 in enumerate(artifacts):
-                        for art2 in artifacts[i+1:]:
-                            comparisons.append((
-                                art1, art2, 0, f"{art1} vs {art2} (L3_display, {ttype})"
-                            ))
+                        for art2 in artifacts[i + 1 :]:
+                            comparisons.append(
+                                (
+                                    art1,
+                                    art2,
+                                    0,
+                                    f"{art1} vs {art2} (L3_display, {ttype})",
+                                )
+                            )
 
             # If no specific artifact transforms found, fall back to layer-wide transforms
             if not comparisons:
                 # Check for layer-wide transforms
                 l2_layer_transform = declared.get(("L1_normalized", "L2_published"))
                 l3_layer_transform = declared.get(("L1_normalized", "L3_display"))
-                
+
                 if l2_layer_transform:
                     # All L2 artifacts use same layer-wide transform
-                    l2_artifacts = self._artifacts_for_layer(platform_key, "L2_published")
+                    l2_artifacts = self._artifacts_for_layer(
+                        platform_key, "L2_published"
+                    )
                     if len(l2_artifacts) >= 2:
                         for i, art1 in enumerate(l2_artifacts):
-                            for art2 in l2_artifacts[i+1:]:
-                                comparisons.append((
-                                    art1, art2, 0, f"{art1} vs {art2} (L2_published, {l2_layer_transform})"
-                                ))
-                
+                            for art2 in l2_artifacts[i + 1 :]:
+                                comparisons.append(
+                                    (
+                                        art1,
+                                        art2,
+                                        0,
+                                        f"{art1} vs {art2} (L2_published, {l2_layer_transform})",
+                                    )
+                                )
+
                 if l3_layer_transform:
                     l3_artifacts = self._artifacts_for_layer(platform_key, "L3_display")
                     if len(l3_artifacts) >= 2:
                         for i, art1 in enumerate(l3_artifacts):
-                            for art2 in l3_artifacts[i+1:]:
-                                comparisons.append((
-                                    art1, art2, 0, f"{art1} vs {art2} (L3_display, {l3_layer_transform})"
-                                ))
+                            for art2 in l3_artifacts[i + 1 :]:
+                                comparisons.append(
+                                    (
+                                        art1,
+                                        art2,
+                                        0,
+                                        f"{art1} vs {art2} (L3_display, {l3_layer_transform})",
+                                    )
+                                )
 
             # If no declared transforms, fall back to legacy behavior
             if not comparisons:
@@ -1161,28 +1187,43 @@ class CrossArtifactValidator:
                     else:
                         # Different layers: check if the discrepancy is explained by manifest
                         # Get source layers for both artifacts' layers
-                        if not self.manifest or platform_key not in self.manifest.platforms:
+                        if (
+                            not self.manifest
+                            or platform_key not in self.manifest.platforms
+                        ):
                             pass
                         else:
                             platform = self.manifest.platforms[platform_key]
-                            
+
                             # Get the source_layer for each layer
                             layer1_def = getattr(platform, layer1, None)
                             layer2_def = getattr(platform, layer2, None)
-                            
-                            source_layer1 = layer1_def.source_layer if layer1_def else None
-                            source_layer2 = layer2_def.source_layer if layer2_def else None
-                            
+
+                            source_layer1 = (
+                                layer1_def.source_layer if layer1_def else None
+                            )
+                            source_layer2 = (
+                                layer2_def.source_layer if layer2_def else None
+                            )
+
                             # If both layers come from different source layers, discrepancy is explained
-                            if source_layer1 and source_layer2 and source_layer1 != source_layer2:
+                            if (
+                                source_layer1
+                                and source_layer2
+                                and source_layer1 != source_layer2
+                            ):
                                 explained = True
                             # Or if they come from same source layer but have declared transforms
-                            elif source_layer1 and source_layer2 and source_layer1 == source_layer2:
+                            elif (
+                                source_layer1
+                                and source_layer2
+                                and source_layer1 == source_layer2
+                            ):
                                 # Check if both layers have declared transforms from the shared source layer
                                 # (either artifact-specific or layer-wide)
                                 layer1_has_transform = False
                                 layer2_has_transform = False
-                                
+
                                 for (src, tgt), ttype in declared.items():
                                     src_base = src.split(":")[0]
                                     if src_base == source_layer1:
@@ -1191,7 +1232,7 @@ class CrossArtifactValidator:
                                             layer1_has_transform = True
                                         if tgt_base == layer2:
                                             layer2_has_transform = True
-                                
+
                                 # If both layers have declared transforms from same source - explained
                                 if layer1_has_transform and layer2_has_transform:
                                     explained = True
@@ -1283,20 +1324,20 @@ class CrossArtifactValidator:
             "jsonld": "jsonld_count",
             "llms_txt": "llms_txt_count",
         }
-        
+
         # Add manifest-specific artifacts
         if self.manifest and platform_key in self.manifest.platforms:
             platform = self.manifest.platforms[platform_key]
-            
+
             # L1_normalized artifacts
-            if hasattr(platform, 'L1_normalized') and platform.L1_normalized:
+            if hasattr(platform, "L1_normalized") and platform.L1_normalized:
                 for artifact in platform.L1_normalized.artifacts:
                     if artifact not in base_map:
                         # These map to l1_normalized_records for now
                         base_map[artifact] = "l1_normalized_records"
-            
+
             # L2_published artifacts
-            if hasattr(platform, 'L2_published') and platform.L2_published:
+            if hasattr(platform, "L2_published") and platform.L2_published:
                 for artifact in platform.L2_published.artifacts:
                     if artifact not in base_map:
                         # These map to archive_complete_records or index_total depending on type
@@ -1308,9 +1349,9 @@ class CrossArtifactValidator:
                             base_map[artifact] = "jsonld_count"
                         else:
                             base_map[artifact] = "archive_complete_records"
-            
+
             # L3_display artifacts
-            if hasattr(platform, 'L3_display') and platform.L3_display:
+            if hasattr(platform, "L3_display") and platform.L3_display:
                 for artifact in platform.L3_display.artifacts:
                     if artifact not in base_map:
                         if "readme" in artifact:
@@ -1319,7 +1360,7 @@ class CrossArtifactValidator:
                             base_map[artifact] = "llms_txt_count"
                         else:
                             base_map[artifact] = "readme_count"
-        
+
         return base_map
 
     def validate_platform_coverage(self) -> None:
