@@ -34,16 +34,18 @@ Welcome to my portfolio! Here is my live learning history:
 ### Recent Achievements & Completed Badges
 Showing latest 10 of 4,808 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-08-part-95.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-95.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
-- **Advanced Active Directory back up and recovery** (Modules | Earned: 2026-08-19 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/active-directory-backup-recovery/))
-- **Introduction to Azure SRE Agent** (Modules | Earned: 2026-08-15 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-sre-agent/))
-- **Understand how Project Perception coordinates security operations** (Modules | Earned: 2026-08-15 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-orientation/))
-- **Active Directory Domain Services authentication and Kerberos hardening** (Modules | Earned: 2026-08-11 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/active-directory-authentication-kerberos/))
-- **Ingest data into Customer Insights - Data** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/ingest-data-customer-insights/))
-- **Get started with Dynamics 365 Customer Insights - Data** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/get-started-customer-data-platform/))
-- **Write your first Python code** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/write-first-python-code/))
-- **Get Started with Python Programming: Part 1 - Fundamentals** (Learningpaths | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/paths/get-started-with-python-fundamentals/))
-- **Work with data in Python** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/work-with-data-python/))
-- **What is Project Perception?** (Modules | Earned: 2026-08-08 | [Verify Credential](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-introduction/))
+| Achievement Title | Category | Date Earned | Verification Link |
+| :--- | :--- | :--- | :--- |
+| **Advanced Active Directory back up and recovery** | Modules | 2026-08-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-backup-recovery/) |
+| **Introduction to Azure SRE Agent** | Modules | 2026-08-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-sre-agent/) |
+| **Understand how Project Perception coordinates security operations** | Modules | 2026-08-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-orientation/) |
+| **Active Directory Domain Services authentication and Kerberos hardening** | Modules | 2026-08-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-authentication-kerberos/) |
+| **Ingest data into Customer Insights - Data** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-customer-insights/) |
+| **Get started with Dynamics 365 Customer Insights - Data** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-customer-data-platform/) |
+| **Write your first Python code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-first-python-code/) |
+| **Get Started with Python Programming: Part 1 - Fundamentals** | Learningpaths | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-python-fundamentals/) |
+| **Work with data in Python** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-data-python/) |
+| **What is Project Perception?** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-introduction/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials
