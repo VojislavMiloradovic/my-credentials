@@ -133,15 +133,16 @@ Showing latest 10 of 655 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 564
-**Total Verified Skills Mapped:** 1958
+**Total Portfolio Credentials:** 565
+**Total Verified Skills Mapped:** 1959
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 564 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 565 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-24 | [Detecting VoidLink Malware with Tetragon](https://www.credly.com/badges/b79ddcee-1373-4c72-b0ea-41fe0857ce55/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-23 | [Cilium AI/ML Security](https://www.credly.com/badges/0d6b393c-0f31-4c76-98ed-0adb380e23f0/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-23 | [Cilium IPAM](https://www.credly.com/badges/781ae1d3-d016-448f-82e3-5b887b43886e/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-23 | [Discovery: Cloud Architect on Azure](https://www.credly.com/badges/da069ba5-7566-4254-992f-5ffb42c42770/public_url) | Isovalent | Credly Verified Badge |
@@ -151,7 +152,6 @@ Showing latest 10 of 564 credentials. View full dataset via [Platform Archive In
 | 2026-08-22 | [Cloud Tech Pro - RMM](https://www.credly.com/badges/67ba03f9-c9f9-410f-89d3-b360f84233a7/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-22 | [Validating Security Controls with AttackIQ Enterprise](https://www.credly.com/badges/c042b6a3-a7dd-4ba3-bbfd-9f03fbb8c267/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-08-19 | [Discovery: Cloud Architect on AWS](https://www.credly.com/badges/6708084a-4912-47b4-9388-0a9012aabb26/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-19 | [Cilium Traffic Optimization](https://www.credly.com/badges/c177982d-6244-42c9-b251-1e4216667772/public_url) | Isovalent | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
