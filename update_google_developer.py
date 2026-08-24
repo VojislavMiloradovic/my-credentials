@@ -768,7 +768,36 @@ def main():
     except Exception as e:
         logger.warning(f"⚠️ Could not persist full data: {e}")
 
-    # 3. Sort combined entries reverse-chronologically
+        # Generate and save baseline fingerprints for L1_normalized streams
+        if execute_content_loss_guard:
+            try:
+                # Google Developer has two L1 streams: public_badges and detailed_learnings
+                execute_content_loss_guard(
+                    public_badges,
+                    platform="google-developer",
+                    id_field="title",  # Uses title+date for ID (see loss_guard extract_record_id)
+                    fail_on_warn=False,
+                )
+                execute_content_loss_guard(
+                    detailed_learnings,
+                    platform="google-developer",
+                    id_field="title",
+                    fail_on_warn=False,
+                )
+                # Also baseline the combined_feed for cross-check
+                execute_content_loss_guard(
+                    combined_feed,
+                    platform="google-developer",
+                    id_field="title",
+                    fail_on_warn=False,
+                )
+                logger.info(
+                    "📋 Baseline fingerprints updated for google-developer (3 streams)"
+                )
+            except Exception as e:
+                logger.warning(f"⚠️ Could not update baseline: {e}")
+
+        # 3. Sort combined entries reverse-chronologically
     combined_feed.sort(
         key=lambda x: (
             x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00"

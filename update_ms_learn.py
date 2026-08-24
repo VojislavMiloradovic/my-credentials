@@ -563,6 +563,19 @@ def main():
     except Exception as e:
         logger.warning(f"⚠️ Could not persist full data: {e}")
 
+    # Generate and save baseline fingerprints for L1_normalized (achievements)
+    if execute_content_loss_guard:
+        try:
+            execute_content_loss_guard(
+                validated_achievements,
+                platform="microsoft-learn",
+                id_field="id",
+                fail_on_warn=False,  # Don't fail pipeline on baseline updates
+            )
+            logger.info("📋 Baseline fingerprints updated for microsoft-learn")
+        except Exception as e:
+            logger.warning(f"⚠️ Could not update baseline: {e}")
+
     # Format table rows for archiver
     formatted_rows = []
     for item in sorted_achievements:

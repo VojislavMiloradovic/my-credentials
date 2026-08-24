@@ -297,6 +297,7 @@ class CrossArtifactValidator:
                             "verifiable_credentials",
                             "user_creds",
                             "userCredentials",
+                            "credentials",
                         ):
                             if key in data and isinstance(data[key], list):
                                 all_records.extend(data[key])

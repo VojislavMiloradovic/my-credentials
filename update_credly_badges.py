@@ -269,7 +269,7 @@ class CredlyArchivePayloadModel(BaseModel):
 
     credly_user: str
     total_count: int = Field(ge=0)
-    badges: list[CredlyBadgeItemModel]
+    credentials: list[CredlyBadgeItemModel]
 
 
 # ==============================================================================
@@ -295,7 +295,7 @@ def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int
                 with open(path, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     count = (
-                        data.get("total_count", len(data.get("badges", [])))
+                        data.get("total_count", len(data.get("credentials", [])))
                         if isinstance(data, dict)
                         else len(data)
                     )
@@ -366,7 +366,7 @@ def parse_credly_badges_from_json(json_path: str) -> list[dict]:
             data = json.load(f)
 
         raw_list = (
-            data.get("badges", [])
+            data.get("credentials", [])
             if isinstance(data, dict)
             else (data if isinstance(data, list) else [])
         )
@@ -762,10 +762,11 @@ def main():
             logger.info(f"📝 Updated {marked} badge(s) with retired status")
 
     # 5. Pydantic Payload Validation & File Dump strictly into for_validation/
+    # Note: manifest expects "credentials" as L1_normalized output_records key
     payload_dict = {
         "credly_user": CREDLY_USER,
         "total_count": len(unique_badges),
-        "badges": unique_badges,
+        "credentials": unique_badges,  # Changed from "badges" to "credentials" per manifest
     }
 
     try:
@@ -776,11 +777,24 @@ def main():
             f.write(validated_payload.model_dump_json(indent=2))
 
         logger.info(
-            f"🎉 Persistence complete: '{OUTPUT_FILE}' updated ({len(unique_badges)} badges)."
+            f"🎉 Persistence complete: '{OUTPUT_FILE}' updated ({len(unique_badges)} credentials)."
         )
     except ValidationError as ve:
         logger.error(f"❌ Root Payload Validation Error: {ve}")
         sys.exit(1)
+
+    # Generate and save baseline fingerprints for L1_normalized (credentials)
+    if execute_content_loss_guard:
+        try:
+            execute_content_loss_guard(
+                unique_badges,
+                platform="credly",
+                id_field="id",
+                fail_on_warn=False,
+            )
+            logger.info("📋 Baseline fingerprints updated for credly")
+        except Exception as e:
+            logger.warning(f"⚠️ Could not update baseline: {e}")
 
     # 5. Build Markdown Archives
     build_archives_and_readme(unique_badges)

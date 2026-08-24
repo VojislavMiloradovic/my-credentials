@@ -1043,7 +1043,20 @@ def main():
         logger.error(f"❌ Root Payload Validation Error: {ve}")
         sys.exit(1)
 
-    # 3. Build Markdown Archives
+        # Generate and save baseline fingerprints for L1_normalized (badges)
+        if execute_content_loss_guard:
+            try:
+                execute_content_loss_guard(
+                    unique_badges,
+                    platform="google-skills",
+                    id_field="id",
+                    fail_on_warn=False,
+                )
+                logger.info("📋 Baseline fingerprints updated for google-skills")
+            except Exception as e:
+                logger.warning(f"⚠️ Could not update baseline: {e}")
+
+        # 3. Build Markdown Archives
     build_archives_and_readme(unique_badges)
     logger.info("Pipeline execution completed successfully.")
 

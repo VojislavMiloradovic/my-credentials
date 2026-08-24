@@ -1,7 +1,0 @@
-'🛡' (U+1F6E1): 1 occurrences
-'️' (U+FE0F): 8 occurrences
-'☁' (U+2601): 1 occurrences
-'⚠' (U+26A0): 5 occurrences
-'❌' (U+274C): 1 occurrences
-'🏷' (U+1F3F7): 1 occurrences
-'•' (U+2022): 1 occurrences

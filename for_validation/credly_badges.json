@@ -1,7 +1,7 @@
 {
   "credly_user": "vojislavmiloradovic",
   "total_count": 565,
-  "badges": [
+  "credentials": [
     {
       "id": "b79ddcee-1373-4c72-b0ea-41fe0857ce55",
       "title": "Detecting VoidLink Malware with Tetragon",
