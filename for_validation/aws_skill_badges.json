@@ -1,6 +1,6 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 683,
+  "total_count": 690,
   "badges": [
     {
       "id": "4d3535a6971307d9",
@@ -3404,6 +3404,25 @@
       "retired": false
     },
     {
+      "id": "d4701293cbcf6d84",
+      "title": "Amazon Simple Storage Service (Amazon S3) Performance Optimization",
+      "name": "Amazon Simple Storage Service (Amazon S3) Performance Optimization",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-25",
+      "issued_at_date": "2026-08-25",
+      "date": "2026-08-25",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Simple Storage Service (Amazon S3) Performance Optimization"
+      ],
+      "retired": false
+    },
+    {
       "id": "1078a2209671ef1e",
       "title": "Amazon Textract Getting Started",
       "name": "Amazon Textract Getting Started",
@@ -6672,6 +6691,25 @@
       "retired": false
     },
     {
+      "id": "63bed9a48d4467d2",
+      "title": "Build a meeting prep and follow-up assistant with Amazon Quick and Cisco Webex MCP servers",
+      "name": "Build a meeting prep and follow-up assistant with Amazon Quick and Cisco Webex MCP servers",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-25",
+      "issued_at_date": "2026-08-25",
+      "date": "2026-08-25",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build a meeting prep and follow-up assistant with Amazon Quick and Cisco Webex MCP servers"
+      ],
+      "retired": false
+    },
+    {
       "id": "1dfee3581cc28b5e",
       "title": "Build an AI-powered recruitment assistant using Amazon Bedrock",
       "name": "Build an AI-powered recruitment assistant using Amazon Bedrock",
@@ -6744,6 +6782,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Build an intelligent photo search using Amazon Rekognition, Amazon Neptune, and Amazon Bedrock"
+      ],
+      "retired": false
+    },
+    {
+      "id": "dc4173f0c18f5f02",
+      "title": "Build an offline feature store using Amazon SageMaker Unified Studio and SageMaker Catalog",
+      "name": "Build an offline feature store using Amazon SageMaker Unified Studio and SageMaker Catalog",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-25",
+      "issued_at_date": "2026-08-25",
+      "date": "2026-08-25",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build an offline feature store using Amazon SageMaker Unified Studio and SageMaker Catalog"
       ],
       "retired": false
     },
@@ -8439,6 +8496,25 @@
       "retired": false
     },
     {
+      "id": "9e8d6b1ebc00283f",
+      "title": "Elastic Training on Amazon SageMaker HyperPod",
+      "name": "Elastic Training on Amazon SageMaker HyperPod",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-25",
+      "issued_at_date": "2026-08-25",
+      "date": "2026-08-25",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Elastic Training on Amazon SageMaker HyperPod"
+      ],
+      "retired": false
+    },
+    {
       "id": "b361c883384a6569",
       "title": "Embed Amazon Quick chat agents in enterprise applications",
       "name": "Embed Amazon Quick chat agents in enterprise applications",
@@ -8720,6 +8796,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Foundations of Prompt Engineering"
+      ],
+      "retired": false
+    },
+    {
+      "id": "bab2254a97e85882",
+      "title": "From Prompt to Validated Output: Structured Data from Bedrock in Python",
+      "name": "From Prompt to Validated Output: Structured Data from Bedrock in Python",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-25",
+      "issued_at_date": "2026-08-25",
+      "date": "2026-08-25",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "From Prompt to Validated Output: Structured Data from Bedrock in Python"
       ],
       "retired": false
     },
@@ -11726,6 +11821,25 @@
       "retired": false
     },
     {
+      "id": "0e861a0eeec5a862",
+      "title": "Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI",
+      "name": "Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-25",
+      "issued_at_date": "2026-08-25",
+      "date": "2026-08-25",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI"
+      ],
+      "retired": false
+    },
+    {
       "id": "e15e771b6d6a5b13",
       "title": "Network Load Balancer (NLB) Getting Started",
       "name": "Network Load Balancer (NLB) Getting Started",
@@ -11779,6 +11893,25 @@
       "verification_type": "Digital course",
       "skills": [
         "No-code Machine Learning and Generative AI on AWS"
+      ],
+      "retired": false
+    },
+    {
+      "id": "c64f4920975390b2",
+      "title": "Nova Forge SDK series part 2: Practical guide to fine-tune Nova models using data mixing capabilities",
+      "name": "Nova Forge SDK series part 2: Practical guide to fine-tune Nova models using data mixing capabilities",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-25",
+      "issued_at_date": "2026-08-25",
+      "date": "2026-08-25",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Nova Forge SDK series part 2: Practical guide to fine-tune Nova models using data mixing capabilities"
       ],
       "retired": false
     },
