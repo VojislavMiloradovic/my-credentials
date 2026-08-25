@@ -60,7 +60,7 @@ VALIDATION_FILES = {
         "linkedin-certifications.json",
         "linkedin-certifications-baseline.json",
     ],
-    "google-developer": ["google-developer.json", "google-developer-baseline.json"],
+    "google-developer": ["google-developer.json"],
 }
 
 # Platform configurations
