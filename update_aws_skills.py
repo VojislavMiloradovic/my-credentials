@@ -887,41 +887,41 @@ def main():
         if marked > 0:
             logger.info(f"📝 Updated {marked} badge(s) with retired status")
 
-        # 3. Validate Root Payload with Pydantic Schema & Save strictly inside for_validation/
-        layer_metadata = generate_layer_metadata("aws-skills")
-        payload_dict = {
-            "profile_user": AWS_PROFILE_USER,
-            "total_count": len(unique_badges),
-            "badges": unique_badges,
-            "_layer_metadata": layer_metadata,
-        }
+    # 3. Validate Root Payload with Pydantic Schema & Save strictly inside for_validation/
+    layer_metadata = generate_layer_metadata("aws-skills")
+    payload_dict = {
+        "profile_user": AWS_PROFILE_USER,
+        "total_count": len(unique_badges),
+        "badges": unique_badges,
+        "_layer_metadata": layer_metadata,
+    }
 
+    try:
+        validated_payload = AwsSkillsArchivePayloadModel(**payload_dict)
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            f.write(validated_payload.model_dump_json(indent=2))
+        logger.info(
+            f"🎉 Persistence complete: '{OUTPUT_FILE}' updated safely ({len(unique_badges)} badges)."
+        )
+    except ValidationError as ve:
+        logger.error(f"❌ Root Payload Validation Error: {ve}")
+        sys.exit(1)
+
+    # Generate and save baseline fingerprints for L1_normalized (badges)
+    if execute_content_loss_guard:
         try:
-            validated_payload = AwsSkillsArchivePayloadModel(**payload_dict)
-            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                f.write(validated_payload.model_dump_json(indent=2))
-            logger.info(
-                f"🎉 Persistence complete: '{OUTPUT_FILE}' updated safely ({len(unique_badges)} badges)."
+            execute_content_loss_guard(
+                unique_badges,
+                platform="aws-skills",
+                id_field="id",
+                fail_on_warn=False,
             )
-        except ValidationError as ve:
-            logger.error(f"❌ Root Payload Validation Error: {ve}")
-            sys.exit(1)
+            logger.info("📋 Baseline fingerprints updated for aws-skills")
+        except Exception as e:
+            logger.warning(f"⚠️ Could not update baseline: {e}")
 
-        # Generate and save baseline fingerprints for L1_normalized (badges)
-        if execute_content_loss_guard:
-            try:
-                execute_content_loss_guard(
-                    unique_badges,
-                    platform="aws-skills",
-                    id_field="id",
-                    fail_on_warn=False,
-                )
-                logger.info("📋 Baseline fingerprints updated for aws-skills")
-            except Exception as e:
-                logger.warning(f"⚠️ Could not update baseline: {e}")
-
-        # 4. Build markdown archives and update README
-        build_archives_and_readme(unique_badges)
+    # 4. Build markdown archives and update README
+    build_archives_and_readme(unique_badges)
     logger.info("Pipeline execution completed successfully.")
 
 

@@ -1038,3 +1038,8 @@ def main():
     logger.info(
         f"🎉 Google Developer pipeline complete ({total_combined} combined items)."
     )
+
+
+if __name__ == "__main__":
+    main()
+
