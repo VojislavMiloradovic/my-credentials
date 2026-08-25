@@ -25,7 +25,12 @@ from pydantic import BaseModel, Field, ValidationError, field_validator
 
 # Archive Integration Helper
 try:
-    from archiver import RAW_BASE_DEFAULT, generate_platform_archive, safe_write_file
+    from archiver import (
+        RAW_BASE_DEFAULT,
+        generate_platform_archive,
+        safe_write_file,
+        update_readme_stats,
+    )
 except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
     generate_platform_archive = None
@@ -42,6 +47,10 @@ except ImportError:
             f.write(new_content)
         return True
 
+    def update_readme_stats(*args, **kwargs):
+        """Fallback no-op for update_readme_stats."""
+        return
+
 
 # Content-Aware Loss Guard
 try:
@@ -50,6 +59,14 @@ except ImportError:
     # Fallback if loss_guard not available
     execute_content_loss_guard = None
     PipelineDataLossAnomaly = Exception
+
+# Layer Manifest Integration
+try:
+    from layer_manifest import get_layer_def, get_platform_layers, load_manifest
+except ImportError:
+    get_platform_layers = None
+    get_layer_def = None
+    load_manifest = None
 
 # Retired credentials registry mapping
 RETIRED_URLS_FILE = "retired_urls.json"
@@ -687,6 +704,58 @@ def fetch_gdev_badges_rpc() -> list[dict]:
         return []
 
 
+def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
+    """Generate layer metadata from manifest for a platform."""
+    if not load_manifest:
+        return {}
+    try:
+        manifest = load_manifest()
+        if platform_key not in manifest.platforms:
+            return {}
+
+        platform = manifest.platforms[platform_key]
+
+        # Build layer metadata
+        layer_metadata = {}
+        for layer_name in ("L0_raw", "L1_normalized", "L2_published", "L3_display"):
+            layer_def = getattr(platform, layer_name, None)
+            if not layer_def:
+                continue
+
+            layer_info = {
+                "source": layer_def.source,
+                "source_layer": layer_def.source_layer,
+                "description": layer_def.description,
+                "retired_handling": layer_def.retired_handling,
+            }
+
+            if layer_def.transform:
+                layer_info["transform"] = layer_def.transform.type
+                if layer_def.transform.params:
+                    layer_info["transform_params"] = layer_def.transform.params
+
+            if layer_def.transforms:
+                layer_info["transforms"] = {
+                    k: v.type for k, v in layer_def.transforms.items()
+                }
+
+            if layer_def.output_records:
+                layer_info["output_records"] = layer_def.output_records
+
+            if layer_def.output_streams:
+                layer_info["output_streams"] = layer_def.output_streams
+
+            if layer_def.artifacts:
+                layer_info["artifacts"] = layer_def.artifacts
+
+            layer_metadata[layer_name] = layer_info
+
+        return layer_metadata
+    except Exception as e:
+        logger.warning(f"⚠️ Could not generate layer metadata: {e}")
+        return {}
+
+
 # ==============================================================================
 # MAIN PIPELINE EXECUTION
 # ==============================================================================
@@ -752,6 +821,10 @@ def main():
     validation_dir = VALIDATION_DIR
     os.makedirs(validation_dir, exist_ok=True)
     validation_file = os.path.join(validation_dir, "google-developer.json")
+
+    # Generate layer metadata for cross-artifact validation
+    layer_metadata = generate_layer_metadata("google-developer")
+
     payload = {
         "platform": "google-developer",
         "total_public_badges": len(public_badges),
@@ -760,6 +833,7 @@ def main():
         "public_badges": public_badges,
         "detailed_learnings": detailed_learnings,
         "combined_feed": combined_feed,
+        "_layer_metadata": layer_metadata,
     }
     try:
         with open(validation_file, "w", encoding="utf-8") as f:
@@ -768,36 +842,59 @@ def main():
     except Exception as e:
         logger.warning(f"⚠️ Could not persist full data: {e}")
 
-        # Generate and save baseline fingerprints for L1_normalized streams
-        if execute_content_loss_guard:
-            try:
-                # Google Developer has two L1 streams: public_badges and detailed_learnings
-                execute_content_loss_guard(
-                    public_badges,
-                    platform="google-developer",
-                    id_field="title",  # Uses title+date for ID (see loss_guard extract_record_id)
-                    fail_on_warn=False,
-                )
-                execute_content_loss_guard(
-                    detailed_learnings,
-                    platform="google-developer",
-                    id_field="title",
-                    fail_on_warn=False,
-                )
-                # Also baseline the combined_feed for cross-check
-                execute_content_loss_guard(
-                    combined_feed,
-                    platform="google-developer",
-                    id_field="title",
-                    fail_on_warn=False,
-                )
-                logger.info(
-                    "📋 Baseline fingerprints updated for google-developer (3 streams)"
-                )
-            except Exception as e:
-                logger.warning(f"⚠️ Could not update baseline: {e}")
+    # Generate and save baseline fingerprints for L1_normalized streams
+    if execute_content_loss_guard:
+        try:
+            # Google Developer has two L1 streams: public_badges and detailed_learnings
+            execute_content_loss_guard(
+                public_badges,
+                platform="google-developer",
+                id_field="title",  # Uses title+date for ID (see loss_guard extract_record_id)
+                fail_on_warn=False,
+            )
+            execute_content_loss_guard(
+                detailed_learnings,
+                platform="google-developer",
+                id_field="title",
+                fail_on_warn=False,
+            )
+            # Also baseline the combined_feed for cross-check
+            execute_content_loss_guard(
+                combined_feed,
+                platform="google-developer",
+                id_field="title",
+                fail_on_warn=False,
+            )
+            logger.info("✅ Baseline fingerprints saved for google-developer streams")
+        except Exception as e:
+            logger.warning(f"⚠️ Could not save baseline: {e}")
 
-        # 3. Sort combined entries reverse-chronologically
+    # 3. Export L2 archive
+    archive_dir = ARCHIVE_DIR
+    os.makedirs(archive_dir, exist_ok=True)
+    archive_file = os.path.join(archive_dir, "google-developer.json")
+    try:
+        with open(archive_file, "w", encoding="utf-8") as f:
+            json.dump(combined_feed, f, indent=2, ensure_ascii=False)
+        logger.info(
+            f"📦 Archive saved: '{archive_file}' ({len(combined_feed)} records)"
+        )
+    except Exception as e:
+        logger.warning(f"⚠️ Could not save archive: {e}")
+
+    # 4. Update README with stats
+    try:
+        update_readme_stats(
+            platform_key="google-developer",
+            total_count=len(combined_feed),
+            public_badges=len(public_badges),
+            detailed_learnings=len(detailed_learnings),
+        )
+        logger.info("📊 README updated with Google Developer stats")
+    except Exception as e:
+        logger.warning(f"⚠️ Could not update README: {e}")
+
+    # 5. Sort combined entries reverse-chronologically
     combined_feed.sort(
         key=lambda x: (
             x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00"
@@ -823,7 +920,7 @@ def main():
     LATEST_SLICE_NORMAL = ""
     LATEST_SLICE_RAW = ""
 
-    # 3. Assemble README sections
+    # 6. Assemble README sections
     readme_lines = [
         "### Google Developer Profile Summary",
         "",
@@ -861,7 +958,7 @@ def main():
     table_headers = ["Date Earned", "Title", "Description"]
     table_alignments = [":---:", ":---", ":---"]
 
-    # 4. Trigger Archiver
+    # 7. Trigger Archiver
     if generate_platform_archive:
         latest_slice = generate_platform_archive(
             platform_prefix=PLATFORM_PREFIX,
@@ -879,75 +976,65 @@ def main():
         if latest_slice:
             LATEST_SLICE_NORMAL = "./archives/" + latest_slice
             LATEST_SLICE_RAW = RAW_BASE_DEFAULT + "/" + latest_slice
-            for i, line in enumerate(readme_lines):
-                if "{LATEST_SLICE_NORMAL}" in line:
-                    readme_lines[i] = line.replace(
-                        "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
-                    )
-                    readme_lines[i] = readme_lines[i].replace(
-                        "{LATEST_SLICE_RAW}", LATEST_SLICE_RAW
-                    )
-                    break
-            if os.path.exists("README.md"):
-                with open("README.md", "r", encoding="utf-8") as f:
-                    readme_content = f.read()
-                if MARKER_START in readme_content and MARKER_END in readme_content:
-                    before = readme_content.split(MARKER_START)[0]
-                    after = readme_content.split(MARKER_END)[1]
-                    new_block = "\n".join(readme_lines) + "\n"
-                    new_content = (
-                        before + MARKER_START + "\n" + new_block + MARKER_END + after
-                    )
-                    safe_write_file("README.md", new_content)
+        for i, line in enumerate(readme_lines):
+            if "{LATEST_SLICE_NORMAL}" in line:
+                readme_lines[i] = line.replace(
+                    "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
+                )
+                readme_lines[i] = readme_lines[i].replace(
+                    "{LATEST_SLICE_RAW}", LATEST_SLICE_RAW
+                )
+                break
+        if os.path.exists("README.md"):
+            with open("README.md", "r", encoding="utf-8") as f:
+                readme_content = f.read()
+            if MARKER_START in readme_content and MARKER_END in readme_content:
+                before = readme_content.split(MARKER_START)[0]
+                after = readme_content.split(MARKER_END)[1]
+                new_block = "\n".join(readme_lines) + "\n"
+                new_content = (
+                    before + MARKER_START + "\n" + new_block + MARKER_END + after
+                )
+                safe_write_file("README.md", new_content)
 
-        # Update index file with two-category breakdown required by generate_llms_txt.py
-        index_file_path = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-index.md")
-        if os.path.exists(index_file_path):
-            try:
-                with open(index_file_path, "r", encoding="utf-8") as f:
-                    index_content = f.read()
+    # Update index file with two-category breakdown required by generate_llms_txt.py
+    index_file_path = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-index.md")
+    if os.path.exists(index_file_path):
+        try:
+            with open(index_file_path, "r", encoding="utf-8") as f:
+                index_content = f.read()
 
-                breakdown_text = (
-                    f"- **Total Public Badges:** {total_public:,}\n"
-                    f"- **Total Detailed Activities:** {total_detailed:,}"
+            breakdown_text = (
+                f"- **Total Public Badges:** {total_public:,}\n"
+                f"- **Total Detailed Activities:** {total_detailed:,}"
+            )
+
+            if "Total Public Badges" not in index_content:
+                old_overview_pattern = r"(- \*\*Total Records Archived:\*\* [\d,]+)"
+                index_content = re.sub(
+                    old_overview_pattern,
+                    rf"\1\n{breakdown_text}",
+                    index_content,
+                    count=1,
+                )
+            else:
+                index_content = re.sub(
+                    r"- \*\*Total Public Badges:\*\* [\d,]+",
+                    f"- **Total Public Badges:** {total_public:,}",
+                    index_content,
+                )
+                index_content = re.sub(
+                    r"- \*\*Total Detailed Activities:\*\* [\d,]+",
+                    f"- **Total Detailed Activities:** {total_detailed:,}",
+                    index_content,
                 )
 
-                if "Total Public Badges" not in index_content:
-                    old_overview_pattern = r"(- \*\*Total Records Archived:\*\* [\d,]+)"
-                    index_content = re.sub(
-                        old_overview_pattern,
-                        rf"\1\n{breakdown_text}",
-                        index_content,
-                        count=1,
-                    )
-                else:
-                    index_content = re.sub(
-                        r"- \*\*Total Public Badges:\*\* [\d,]+",
-                        f"- **Total Public Badges:** {total_public:,}",
-                        index_content,
-                    )
-                    index_content = re.sub(
-                        r"- \*\*Total Detailed Activities:\*\* [\d,]+",
-                        f"- **Total Detailed Activities:** {total_detailed:,}",
-                        index_content,
-                    )
+            with open(index_file_path, "w", encoding="utf-8") as f:
+                f.write(index_content)
+            logger.info(f"✅ Updated category breakdown metrics in {index_file_path}")
+        except Exception as e:
+            logger.warning(f"⚠️ Failed to update overview in {index_file_path}: {e}")
 
-                with open(index_file_path, "w", encoding="utf-8") as f:
-                    f.write(index_content)
-                logger.info(
-                    f"✅ Updated category breakdown metrics in {index_file_path}"
-                )
-            except Exception as e:
-                logger.warning(f"⚠️ Failed to update overview in {index_file_path}: {e}")
-
-        logger.info(
-            f"🎉 Google Developer pipeline complete ({total_combined} combined items)."
-        )
-    else:
-        logger.error(
-            "❌ Archiver module helper not available. Skipping markdown generation."
-        )
-
-
-if __name__ == "__main__":
-    main()
+    logger.info(
+        f"🎉 Google Developer pipeline complete ({total_combined} combined items)."
+    )

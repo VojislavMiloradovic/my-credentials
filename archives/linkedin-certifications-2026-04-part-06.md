@@ -4,6 +4,9 @@ chunk_part: 6 of 33
 date_range: 2026-03 to 2026-04
 total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-04-part-06.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # LinkedIn Certifications — Part 06

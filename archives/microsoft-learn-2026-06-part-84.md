@@ -2,8 +2,11 @@
 archive_platform: Microsoft Learn
 chunk_part: 84 of 95
 date_range: 2026-06-08 to 2026-06-13
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-84.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # Microsoft Learn — Part 84
@@ -12,6 +15,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Design migrations** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-migrations/) |
+| **AZ-305: Design identity, governance, and monitor solutions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-identity-governance-monitor-solutions/) |
 | **Design governance** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-governance/) |
 | **Design an Azure compute solution** | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-compute-solution/) |
 | **Integrate with Azure Pipelines** | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/) |
@@ -63,7 +68,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Manage advanced features of AD DS** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-advanced-features-of-ad-ds/) |
 | **Deploy and administer Linux virtual machines on Azure** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-administer-linux-virtual-machines-azure/) |
 | **Implement access management for Azure resources** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-access-management-for-azure-resources/) |
-| **Validate your Microsoft Power Platform Solution Architect skills** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-power-platform-solution-architect-skills/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-83.md](./microsoft-learn-2026-06-part-83.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-85.md](./microsoft-learn-2026-06-part-85.md)

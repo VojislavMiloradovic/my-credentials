@@ -106,6 +106,59 @@ def _extract_ym(date_str: str, default_ym: str) -> str:
     return default_ym
 
 
+# Layer manifest integration
+_LAYER_MANIFEST = None
+
+
+def _load_manifest() -> dict:
+    """Load and cache the dataset_layers.yaml manifest."""
+    global _LAYER_MANIFEST
+    if _LAYER_MANIFEST is None:
+        try:
+            import yaml
+
+            with open("dataset_layers.yaml", "r", encoding="utf-8") as f:
+                _LAYER_MANIFEST = yaml.safe_load(f)
+        except Exception:
+            _LAYER_MANIFEST = {}
+    return _LAYER_MANIFEST
+
+
+def _get_layer_artifacts(platform_prefix: str, layer: str) -> list[str]:
+    """Get list of artifacts for a given platform and layer."""
+    manifest = _load_manifest()
+    # Map platform_prefix to manifest key
+    key_map = {
+        "ms-learn": "microsoft-learn",
+        "google-dev": "google-developer",
+        "aws-skills": "aws-skills",
+        "google-skills": "google-skills",
+        "credly": "credly",
+        "linkedin": "linkedin-certifications",
+    }
+    manifest_key = key_map.get(platform_prefix, platform_prefix)
+    platform = manifest.get("platforms", {}).get(manifest_key, {})
+    layer_info = platform.get(layer, {})
+    return layer_info.get("artifacts", [])
+
+
+def _get_layer_transform(platform_prefix: str, layer: str) -> dict | str:
+    """Get transform info for a given platform and layer."""
+    manifest = _load_manifest()
+    key_map = {
+        "ms-learn": "microsoft-learn",
+        "google-dev": "google-developer",
+        "aws-skills": "aws-skills",
+        "google-skills": "google-skills",
+        "credly": "credly",
+        "linkedin": "linkedin-certifications",
+    }
+    manifest_key = key_map.get(platform_prefix, platform_prefix)
+    platform = manifest.get("platforms", {}).get(manifest_key, {})
+    layer_info = platform.get(layer, {})
+    return layer_info.get("transform", "unknown")
+
+
 def generate_platform_archive(
     platform_prefix: str,
     platform_name: str,
@@ -145,9 +198,16 @@ def generate_platform_archive(
     header_line = "| " + " | ".join(table_headers) + " |"
     align_line = "| " + " | ".join(table_alignments) + " |"
 
+    # Layer-aware metadata
+    layer_artifacts = _get_layer_artifacts(platform_prefix, "L2_published")
+    layer_transform = _get_layer_transform(platform_prefix, "L2_published")
+
     archive_md = [
         f"# Complete {platform_name} Archive\n\n",
         f"This document represents a unified, verifiable list of all {total_entries} records.\n\n",
+        "<!-- layer: L2_published -->\n",
+        f"<!-- transform: {layer_transform.get('type', 'unknown') if isinstance(layer_transform, dict) else layer_transform} -->\n",
+        f"<!-- artifacts: {', '.join(layer_artifacts)} -->\n\n",
     ]
 
     if extra_monolith_header_md:
@@ -220,6 +280,10 @@ def generate_platform_archive(
             }
         )
 
+    # Layer-aware metadata for chunks
+    layer_artifacts = _get_layer_artifacts(platform_prefix, "L2_published")
+    layer_transform = _get_layer_transform(platform_prefix, "L2_published")
+
     # Second pass: write chunks with stable prev/next links
     active_filenames = set(chunk_filenames)
     _safe_print(f"  [SLICE] Slicing dataset into {total_chunks} stable chunk file(s):")
@@ -229,29 +293,30 @@ def generate_platform_archive(
         chunk_rows = meta["rows"]
 
         # Link to part-(i-1) and part-(i+1)
-        prev_link = (
-            f"[{chunk_filenames[i - 2]}](./{chunk_filenames[i - 2]})"
-            if i > 1
-            else "None"
-        )
-        next_link = (
-            f"[{chunk_filenames[i]}](./{chunk_filenames[i]})"
-            if i < total_chunks
-            else "None"
-        )
+        if i > 1:
+            prev_link = f"[{chunk_filenames[i - 2]}](./{chunk_filenames[i - 2]})"
+        else:
+            prev_link = "None"
+        if i < total_chunks:
+            next_link = f"[{chunk_filenames[i]}](./{chunk_filenames[i]})"
+        else:
+            next_link = "None"
 
         c_md = [
-            "---",
-            f"archive_platform: {platform_name}",
-            f"chunk_part: {i} of {total_chunks}",
-            f"date_range: {meta['date_range']}",
-            f"total_entries: {len(chunk_rows)}",
-            f"raw_url: {raw_base_url}/{chunk_filename}",
-            "---\n",
-            f"# {platform_name} — Part {i:02d}\n",
-            f"> **Navigation:** Prev: {prev_link} | [Index](./{platform_prefix}-index.md) | Next: {next_link} | [Complete Archive](./{monolith_filename})\n",
-            header_line,
-            align_line,
+                "---",
+                f"archive_platform: {platform_name}",
+                f"chunk_part: {i} of {total_chunks}",
+                f"date_range: {meta['date_range']}",
+                f"total_entries: {len(chunk_rows)}",
+                f"raw_url: {raw_base_url}/{chunk_filename}",
+                "layer: L2_published",
+                f"transform: {layer_transform.get('type', 'unknown') if isinstance(layer_transform, dict) else layer_transform}",
+                f"artifacts: {', '.join(layer_artifacts)}",
+                "---\n",
+                f"# {platform_name} — Part {i:02d}\n",
+                f"> **Navigation:** Prev: {prev_link} | [Index](./{platform_prefix}-index.md) | Next: {next_link} | [Complete Archive](./{monolith_filename})\n",
+                header_line,
+                align_line,
         ]
 
         for r_text, _ in chunk_rows:
@@ -285,8 +350,15 @@ def generate_platform_archive(
     index_filename = f"{platform_prefix}-index.md"
     index_path = os.path.join(archive_dir, index_filename)
 
+    # Layer-aware metadata for index
+    layer_artifacts = _get_layer_artifacts(platform_prefix, "L2_published")
+    layer_transform = _get_layer_transform(platform_prefix, "L2_published")
+
     idx_md = [
         f"# {platform_name} Index\n",
+            "<!-- layer: L2_published -->\n",
+        f"<!-- transform: {layer_transform.get('type', 'unknown') if isinstance(layer_transform, dict) else layer_transform} -->\n",
+        f"<!-- artifacts: {', '.join(layer_artifacts)} -->\n\n",
         f"This directory provides chunked, AI-readable historical records for {platform_name}.\n",
         "## Archive Overview\n",
         f"- **Total Records Archived:** {total_entries}",

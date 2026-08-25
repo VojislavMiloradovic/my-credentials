@@ -2,8 +2,11 @@
 archive_platform: Microsoft Learn
 chunk_part: 63 of 95
 date_range: 2026-03-24 to 2026-03-29
-total_entries: 51
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-03-part-63.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # Microsoft Learn — Part 63
@@ -12,6 +15,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Set up landed cost in Dynamics 365 Supply Chain Management** | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-landed-cost-supply-chain-management/) |
+| **Access a user's calendar events in an ASP.NET Core app with Microsoft Graph** | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-dotnet-core-access-user-events/) |
 | **Explore data manipulation options in Azure SQL Database** | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-data-manipulation-azure-sql-database/) |
 | **Get started with Azure Health Data Services** | Learningpaths | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-health-data-services/) |
 | **Work with medical imaging data and DICOM** | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/medical-imaging-data/) |
@@ -62,7 +67,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Create and manage scheduled jobs using Windows PowerShell** | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-scheduled-jobs-use-windows-powershell/) |
 | **Automatic function calling** | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/automatic-function-calling/) |
 | **Implement vCore-based Azure Cosmos DB for MongoDB** | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vcore-based-azure-cosmos-db-mongodb/) |
-| **Perform cross-document transactional operations with the Azure Cosmos DB for NoSQL** | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-cross-document-transactional-operations-azure-cosmos-db-sql-api/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-62.md](./microsoft-learn-2026-03-part-62.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-64.md](./microsoft-learn-2026-04-part-64.md)

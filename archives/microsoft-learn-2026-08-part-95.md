@@ -1,17 +1,31 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 95 of 95
-date_range: 2026-07-30 to 2026-08-19
-total_entries: 32
+date_range: 2026-08-02 to 2026-08-24
+total_entries: 40
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-95.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # Microsoft Learn — Part 95
 
-> **Navigation:** Prev: [microsoft-learn-2026-07-part-94.md](./microsoft-learn-2026-07-part-94.md) | [Index](./microsoft-learn-index.md) | Next: None | [Complete Archive](./microsoft-learn-complete.md)
+> **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: None | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Route and distribute work with unified routing in Dynamics 365 Customer Service** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/route-distribute-work/) |
+| **Service representative collaboration in Dynamics 365 Customer Service** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-collaboration/) |
+| **Leveling up code reviews and pull requests with GitHub Copilot** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/) |
+| **Frontier Firms: Govern and manage AI experiences with Windows 11** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-ai/) |
+| **Frontier Firms: Bring AI into everyday work with Windows 11** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-workflows/) |
+| **Get started with Python programming: Part 2 - building programs** | Learningpaths | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-python-programs/) |
+| **Repeat actions with loops** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/repeat-actions-loops-python/) |
+| **Build and extend AI agents with Microsoft Foundry** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-extend-ai-agents/) |
+| **Read and write files** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/read-write-files-python/) |
+| **Write reusable code** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-reusable-code-python/) |
+| **Organize data with collections** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/organize-data-with-collections-python/) |
 | **Advanced Active Directory back up and recovery** | Modules | 2026-08-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-backup-recovery/) |
 | **Introduction to Azure SRE Agent** | Modules | 2026-08-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-sre-agent/) |
 | **Understand how Project Perception coordinates security operations** | Modules | 2026-08-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-orientation/) |
@@ -34,17 +48,14 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Efficiently investigate data risks with Security Copilot in Microsoft Purview** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-security-copilot/) |
 | **Classify and protect sensitive data with sensitivity labels** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-label-sensitive-data/) |
 | **Discover and define sensitive information types** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-discover-define-sits/) |
-| **Build flexible Bicep files by using conditions and loops** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-files-conditions-loops/) |
 | **Fundamentals of Bicep** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/) |
+| **Build flexible Bicep files by using conditions and loops** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-files-conditions-loops/) |
 | **Build reusable Bicep files by using parameters** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reusable-bicep-files-parameters/) |
 | **Build your first Bicep file** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-bicep-file/) |
 | **Introduction to retrieval-augmented generation concepts** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/rag-fundamentals/) |
 | **AI concepts for developers and technology professionals** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-concepts/) |
 | **Get started with Microsoft Foundry IQ** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-foundry-iq/) |
-| **Get started with AI applications and agents on Azure** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-ai-apps-agents/) |
-| **Introduction to Azure Copilot** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-copilot/) |
-| **Managing Azure NetApp Files** | Learningpaths | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-azure-netapp-files/) |
 
 ---
-> **Navigation:** Prev: [microsoft-learn-2026-07-part-94.md](./microsoft-learn-2026-07-part-94.md) | [Index](./microsoft-learn-index.md) | Next: None
+> **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: None
 

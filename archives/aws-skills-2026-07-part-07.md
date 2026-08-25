@@ -1,9 +1,12 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 7 of 12
+chunk_part: 7 of 13
 date_range: 2026-06-02 to 2026-07-02
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-07.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # AWS Skill Builder Credentials — Part 07

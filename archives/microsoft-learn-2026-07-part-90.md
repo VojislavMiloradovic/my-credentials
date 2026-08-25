@@ -1,9 +1,12 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 90 of 95
-date_range: 2026-07-05 to 2026-07-08
+date_range: 2026-07-05 to 2026-07-09
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-90.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # Microsoft Learn — Part 90
@@ -12,7 +15,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Debug and respond to production multi-agent incidents in Azure** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-debug-production-multi-agent-incidents-azure/) |
 | **Extend Sustainability Manager for building complex Scope 3 calculations** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-complex-calculations/) |
+| **Extend Microsoft for Sustainability** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-sustainability/) |
 | **Get started with Text Analytics for health** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-text-analytics/) |
 | **Work with Text Analytics for health API** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-health-text-analytics/) |
 | **Migrate voice services from Skype for Business Server to Teams** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-voice-services-from-skype-for-business-server-to-teams/) |
@@ -59,8 +64,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Configure and troubleshoot Microsoft Teams clients and services** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-troubleshoot-microsoft-teams-clients-services/) |
 | **Troubleshoot Microsoft Teams** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-microsoft-365-teams/) |
 | **Monitor and troubleshoot Azure for SAP workloads** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-troubleshoot-azure-for-sap-workloads/) |
-| **Explore monitoring requirements of Azure for SAP workloads** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-monitoring-requirements-of-azure-for-sap-workloads/) |
-| **Continuously validate and test mission-critical workloads** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/continuous-validate-test-mission-critical-workloads/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-89.md](./microsoft-learn-2026-07-part-89.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-91.md](./microsoft-learn-2026-07-part-91.md)

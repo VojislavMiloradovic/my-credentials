@@ -2,8 +2,11 @@
 archive_platform: Microsoft Learn
 chunk_part: 65 of 95
 date_range: 2026-04-03 to 2026-04-06
-total_entries: 48
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-65.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # Microsoft Learn — Part 65
@@ -12,6 +15,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Create a unified customer profile in Dynamics 365 Customer Insights - Data** | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/unified-customer-profile/) |
 | **Troubleshoot platform-as-a-service issues in Microsoft Azure** | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-platform-service-issues/) |
 | **Measure performance in Azure Cosmos DB for NoSQL** | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/measure-performance-azure-cosmos-db-sql-api/) |
 | **Monitor and troubleshoot an Azure Cosmos DB for NoSQL solution** | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-troubleshoot-azure-cosmos-db-sql-api-solution/) |
@@ -58,8 +62,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Configure multi-region write in Azure Cosmos DB for NoSQL** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-multi-region-write-azure-cosmos-db-sql-api/) |
 | **Introduction to manufacturing in Dynamics 365 Business Central** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacturing-introduction/) |
 | **Implement security in Azure Cosmos DB for NoSQL** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-azure-cosmos-db-sql-api/) |
-| **Know where to leverage AI in your classroom** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/know-where-leverage-ai-classroom/) |
-| **Microsoft Education technology and AI learning concepts** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-education-ai-learning/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-64.md](./microsoft-learn-2026-04-part-64.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-66.md](./microsoft-learn-2026-04-part-66.md)

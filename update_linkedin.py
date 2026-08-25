@@ -46,6 +46,14 @@ except ImportError:
     execute_content_loss_guard = None
     PipelineDataLossAnomaly = Exception
 
+# Layer Manifest Integration
+try:
+    from layer_manifest import get_layer_def, get_platform_layers, load_manifest
+except ImportError:
+    get_platform_layers = None
+    get_layer_def = None
+    load_manifest = None
+
 # Retired credentials registry mapping
 RETIRED_URLS_FILE = "retired_urls.json"
 
@@ -276,6 +284,58 @@ def execute_data_loss_guard(new_certs: list[dict]) -> None:
 # ==============================================================================
 # CSV PARSER
 # ==============================================================================
+
+
+def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
+    """Generate layer metadata from manifest for a platform."""
+    if not load_manifest:
+        return {}
+    try:
+        manifest = load_manifest()
+        if platform_key not in manifest.platforms:
+            return {}
+
+        platform = manifest.platforms[platform_key]
+
+        # Build layer metadata
+        layer_metadata = {}
+        for layer_name in ("L0_raw", "L1_normalized", "L2_published", "L3_display"):
+            layer_def = getattr(platform, layer_name, None)
+            if not layer_def:
+                continue
+
+            layer_info = {
+                "source": layer_def.source,
+                "source_layer": layer_def.source_layer,
+                "description": layer_def.description,
+                "retired_handling": layer_def.retired_handling,
+            }
+
+            if layer_def.transform:
+                layer_info["transform"] = layer_def.transform.type
+                if layer_def.transform.params:
+                    layer_info["transform_params"] = layer_def.transform.params
+
+            if layer_def.transforms:
+                layer_info["transforms"] = {
+                    k: v.type for k, v in layer_def.transforms.items()
+                }
+
+            if layer_def.output_records:
+                layer_info["output_records"] = layer_def.output_records
+
+            if layer_def.output_streams:
+                layer_info["output_streams"] = layer_def.output_streams
+
+            if layer_def.artifacts:
+                layer_info["artifacts"] = layer_def.artifacts
+
+            layer_metadata[layer_name] = layer_info
+
+        return layer_metadata
+    except Exception as e:
+        logger.warning(f"⚠️ Could not generate layer metadata: {e}")
+        return {}
 
 
 def locate_certifications_csv() -> str | None:

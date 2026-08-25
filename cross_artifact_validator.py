@@ -996,58 +996,43 @@ class CrossArtifactValidator:
                                     )
                                 )
 
-            # If no declared transforms, fall back to legacy behavior
+            # If no declared transforms, fall back to layer-based comparisons using manifest
             if not comparisons:
-                comparisons = [
-                    ("archive_complete", "index", 0, "Archive complete vs Index total"),
-                    ("archive_complete", "jsonld", 5, "Archive complete vs JSON-LD"),
-                    ("readme", "llms_txt", 0, "README vs llms.txt"),
-                ]
-                # Legacy platform-specific adjustments
-                if platform_key == "google-developer":
+                # Use manifest artifact lists for L2 and L3 to build comparisons
+                l2_artifacts = self._artifacts_for_layer(platform_key, "L2_published")
+                l3_artifacts = self._artifacts_for_layer(platform_key, "L3_display")
+
+                # Compare all L2 artifacts against each other (expect 1:1 match within same layer)
+                if len(l2_artifacts) >= 2:
+                    for i, art1 in enumerate(l2_artifacts):
+                        for art2 in l2_artifacts[i + 1:]:
+                            comparisons.append(
+                                (
+                                    art1,
+                                    art2,
+                                    0,
+                                    f"{art1} vs {art2} (L2_published, 1:1_pass_through)",
+                                )
+                            )
+
+                # Compare all L3 artifacts against each other
+                if len(l3_artifacts) >= 2:
+                    for i, art1 in enumerate(l3_artifacts):
+                        for art2 in l3_artifacts[i + 1:]:
+                            comparisons.append(
+                                (
+                                    art1,
+                                    art2,
+                                    0,
+                                    f"{art1} vs {art2} (L3_display, 1:1_pass_through)",
+                                )
+                            )
+
+                # If manifest doesn't provide artifacts, use minimal defaults
+                if not comparisons:
                     comparisons = [
-                        (
-                            "archive_complete",
-                            "jsonld",
-                            5,
-                            "Archive complete vs JSON-LD",
-                        ),
-                        ("readme", "llms_txt", 0, "README vs llms.txt"),
-                    ]
-                elif platform_key in ("google-skills", "credly"):
-                    comparisons = [
-                        ("readme", "llms_txt", 0, "README vs llms.txt"),
-                    ]
-                elif platform_key == "aws-skills":
-                    comparisons = [
-                        (
-                            "archive_complete",
-                            "index",
-                            0,
-                            "Archive complete vs Index total",
-                        ),
-                        (
-                            "archive_complete",
-                            "jsonld",
-                            15,
-                            "Archive complete vs JSON-LD",
-                        ),
-                        ("readme", "llms_txt", 0, "README vs llms.txt"),
-                    ]
-                elif platform_key == "linkedin-certifications":
-                    comparisons = [
-                        (
-                            "archive_complete",
-                            "index",
-                            0,
-                            "Archive complete vs Index total",
-                        ),
-                        (
-                            "archive_complete",
-                            "jsonld",
-                            0,
-                            "Archive complete vs JSON-LD (EXPECTED TO MATCH)",
-                        ),
+                        ("archive_complete", "index", 0, "Archive complete vs Index total"),
+                        ("archive_complete", "jsonld", 0, "Archive complete vs JSON-LD"),
                         ("readme", "llms_txt", 0, "README vs llms.txt"),
                     ]
 

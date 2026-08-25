@@ -2,6 +2,10 @@
 
 This document represents a unified, verifiable list of all 1479 records.
 
+<!-- layer: L2_published -->
+<!-- transform: 1:1_pass_through -->
+<!-- artifacts: archive_complete, archive_index, jsonld -->
+
 ## Verified Records Archive
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |

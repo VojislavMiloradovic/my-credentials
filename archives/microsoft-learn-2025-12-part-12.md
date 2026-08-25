@@ -2,8 +2,11 @@
 archive_platform: Microsoft Learn
 chunk_part: 12 of 95
 date_range: 2025-12-07 to 2025-12-10
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-12.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # Microsoft Learn — Part 12
@@ -36,8 +39,8 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Challenge project - Build a speech translator app** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-speech-translator-app/) |
 | **Integrate external content with Microsoft 365 Copilot using Copilot connectors built with TypeScript** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-graph-connectors-typescript/) |
 | **Introduction to Azure API Center** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-api-center/) |
-| **School Data Sync advanced for education partners** | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/school-data-sync-advanced-education-partners/) |
 | **Academic session transition with School Data Sync** | Modules | 2025-12-08 | N/A |
+| **School Data Sync advanced for education partners** | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/school-data-sync-advanced-education-partners/) |
 | **Connect Microsoft 365 Copilot to your external data in real-time with message extension plugins built with TypeScript and Visual Studio Code** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-message-extension-plugins-typescript/) |
 | **HoloLens Fundamentals** | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/hololens-fundamentals/) |
 | **Introduction to HoloLens** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-hololens/) |
@@ -64,6 +67,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Apply Information Barriers in education** | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-information-barriers-education/) |
 | **Engage learners through games with MakeCode Arcade** | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/engage-learners-through-games-with-makecode-arcade/) |
 | **Build a 3D mobile app with Power Apps in mixed reality** | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-tutorial/) |
+| **Introduction to Viva Pulse** | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-pulse-introduction/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-11.md](./microsoft-learn-2025-12-part-11.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-13.md](./microsoft-learn-2025-12-part-13.md)

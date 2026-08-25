@@ -19,6 +19,14 @@ from typing import Any
 import requests
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
+# Layer Manifest Integration
+try:
+    from layer_manifest import get_layer_def, get_platform_layers, load_manifest
+except ImportError:
+    get_platform_layers = None
+    get_layer_def = None
+    load_manifest = None
+
 # Archive Integration Helper
 try:
     from archiver import RAW_BASE_DEFAULT, generate_platform_archive, safe_write_file
@@ -46,6 +54,62 @@ except ImportError:
     # Fallback if loss_guard not available
     execute_content_loss_guard = None
     PipelineDataLossAnomaly = Exception
+
+
+def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
+    """Generate layer metadata from manifest for a platform."""
+    if not load_manifest:
+        return {}
+    try:
+        manifest = load_manifest()
+        if platform_key not in manifest.platforms:
+            return {}
+
+        platform = manifest.platforms[platform_key]
+
+        # Build layer metadata
+        layer_metadata = {}
+        for layer_name in ("L0_raw", "L1_normalized", "L2_published", "L3_display"):
+            layer_def = getattr(platform, layer_name, None)
+            if not layer_def:
+                continue
+
+            layer_info = {
+                "source": layer_def.source,
+                "source_layer": layer_def.source_layer,
+                "description": layer_def.description,
+                "retired_handling": layer_def.retired_handling,
+            }
+
+            if layer_def.transform:
+                layer_info["transform"] = layer_def.transform.type
+                if layer_def.transform.params:
+                    layer_info["transform_params"] = layer_def.transform.params
+
+            if layer_def.transforms:
+                layer_info["transforms"] = {
+                    k: v.type for k, v in layer_def.transforms.items()
+                }
+
+            if layer_def.output_records:
+                layer_info["output_records"] = layer_def.output_records
+
+            if layer_def.output_streams:
+                layer_info["output_streams"] = layer_def.output_streams
+
+            if layer_def.artifacts:
+                layer_info["artifacts"] = layer_def.artifacts
+
+            if layer_def.metrics:
+                layer_info["metrics"] = layer_def.metrics
+
+            layer_metadata[layer_name] = layer_info
+
+        return layer_metadata
+    except Exception as e:
+        logger.warning(f"Could not generate layer metadata for {platform_key}: {e}")
+        return {}
+
 
 # Retired credentials registry mapping
 RETIRED_URLS_FILE = "retired_urls.json"
@@ -291,7 +355,6 @@ def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int
     """Evaluates baseline record count from existing JSON or monolith archive markdown."""
     candidate_json_paths = [
         json_path,
-        os.path.join(VALIDATION_DIR, OUTPUT_FILENAME),
         OUTPUT_FILENAME,
         "aws_skills_badges.json",
         os.path.join("data", OUTPUT_FILENAME),
@@ -824,23 +887,25 @@ def main():
         if marked > 0:
             logger.info(f"📝 Updated {marked} badge(s) with retired status")
 
-    # 3. Validate Root Payload with Pydantic Schema & Save strictly inside for_validation/
-    payload_dict = {
-        "profile_user": AWS_PROFILE_USER,
-        "total_count": len(unique_badges),
-        "badges": unique_badges,
-    }
+        # 3. Validate Root Payload with Pydantic Schema & Save strictly inside for_validation/
+        layer_metadata = generate_layer_metadata("aws-skills")
+        payload_dict = {
+            "profile_user": AWS_PROFILE_USER,
+            "total_count": len(unique_badges),
+            "badges": unique_badges,
+            "_layer_metadata": layer_metadata,
+        }
 
-    try:
-        validated_payload = AwsSkillsArchivePayloadModel(**payload_dict)
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write(validated_payload.model_dump_json(indent=2))
-        logger.info(
-            f"🎉 Persistence complete: '{OUTPUT_FILE}' updated safely ({len(unique_badges)} badges)."
-        )
-    except ValidationError as ve:
-        logger.error(f"❌ Root Payload Validation Error: {ve}")
-        sys.exit(1)
+        try:
+            validated_payload = AwsSkillsArchivePayloadModel(**payload_dict)
+            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+                f.write(validated_payload.model_dump_json(indent=2))
+            logger.info(
+                f"🎉 Persistence complete: '{OUTPUT_FILE}' updated safely ({len(unique_badges)} badges)."
+            )
+        except ValidationError as ve:
+            logger.error(f"❌ Root Payload Validation Error: {ve}")
+            sys.exit(1)
 
         # Generate and save baseline fingerprints for L1_normalized (badges)
         if execute_content_loss_guard:
@@ -855,8 +920,8 @@ def main():
             except Exception as e:
                 logger.warning(f"⚠️ Could not update baseline: {e}")
 
-        # 3. Build markdown archives and update README
-    build_archives_and_readme(unique_badges)
+        # 4. Build markdown archives and update README
+        build_archives_and_readme(unique_badges)
     logger.info("Pipeline execution completed successfully.")
 
 

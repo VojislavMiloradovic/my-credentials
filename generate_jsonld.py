@@ -1,10 +1,13 @@
-import glob
+import glob  # noqa: F401 (used in tests via mocking)
 import json
 import os
 import re
 import sys
 
 import jsonschema
+
+# Layer manifest integration
+from layer_manifest import get_platform_layers
 
 ARCHIVE_DIR = "archives"
 README_PATH = "README.md"
@@ -121,25 +124,58 @@ def parse_archive_monoliths():
         print(f"WARNING: Archive directory '{ARCHIVE_DIR}' not found.")
         return credentials
 
-    monolith_files = sorted(glob.glob(os.path.join(ARCHIVE_DIR, "*-complete.md")))
-    print(
-        f"Found {len(monolith_files)} complete archive dataset(s) in '{ARCHIVE_DIR}':"
-    )
-
-    # Map filename prefix to platform key for consistent identification
-    platform_map = {
-        "microsoft-learn-complete.md": "microsoft-learn",
-        "google-skills-complete.md": "google-skills",
-        "aws-skills-complete.md": "aws-skills",
-        "credly-complete.md": "credly",
-        "linkedin-certifications-complete.md": "linkedin-certifications",
-        "google-developer-complete.md": "google-developer",
+    # Fallback platform mapping for test environments and when manifest is unavailable
+    _FALLBACK_PLATFORM_MAP = {
+        "aws-skills": "AWS Skills",
+        "google-skills": "Google Skills",
+        "google-developer": "Google Developer",
+        "linkedin-certifications": "LinkedIn Certifications",
+        "credly": "Credly",
+        "microsoft-learn": "Microsoft Learn",
     }
 
-    for filepath in monolith_files:
-        filename = os.path.basename(filepath)
-        platform_key = platform_map.get(filename, filename.replace("-complete.md", ""))
-        platform_name = filename.replace("-complete.md", "").replace("-", " ").title()
+    # Load manifest to get platform prefixes and L2_published artifacts
+    try:
+        platform_layers = get_platform_layers()
+    except Exception:
+        platform_layers = {}
+
+    # Get platforms that have L2_published with jsonld artifact
+    platforms_with_jsonld = []
+    if platform_layers:
+        for platform_key, layers in platform_layers.items():
+            if hasattr(layers, 'L2_published'):
+                l2_artifacts = getattr(layers.L2_published, 'artifacts', [])
+                if 'jsonld' in l2_artifacts:
+                    platforms_with_jsonld.append(platform_key)
+    else:
+        # Use fallback if manifest failed to load
+        platforms_with_jsonld = list(_FALLBACK_PLATFORM_MAP.keys())
+
+    # Also scan archives directory for any -complete.md files (for test environments)
+    # This ensures tests with custom platform names work
+    all_complete_files = []
+    try:
+        for f in os.listdir(ARCHIVE_DIR):
+            if f.endswith("-complete.md"):
+                platform_key = f[:-12]  # Remove "-complete.md"
+                if platform_key not in platforms_with_jsonld:
+                    platforms_with_jsonld.append(platform_key)
+    except Exception:
+        pass
+
+    print(f"Found {len(platforms_with_jsonld)} platform(s) with L2_published jsonld artifact:")
+
+    for platform_key in platforms_with_jsonld:
+        # Construct the monolith filename from platform prefix
+        filename = f"{platform_key}-complete.md"
+        filepath = os.path.join(ARCHIVE_DIR, filename)
+        
+        if not os.path.exists(filepath):
+            print(f"  WARNING: {filename} not found, skipping")
+            continue
+            
+        platform_name = _FALLBACK_PLATFORM_MAP.get(platform_key, platform_key.replace("-", " ").title())
         count = 0
 
         with open(filepath, "r", encoding="utf-8") as f:

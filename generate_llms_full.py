@@ -12,12 +12,16 @@ This provides a single large context file for LLMs with large context windows.
 import os
 from datetime import UTC, datetime
 
+# Layer manifest integration
+from layer_manifest import get_platform_layers
+
 README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
 JSONLD_PATH = "credentials.jsonld"
 LLMS_FULL_PATH = "llms-full.txt"
 
-MONOLITH_CONFIGS = [
+# Fallback hardcoded configs for test environments and when manifest is unavailable
+_FALLBACK_MONOLITH_CONFIGS = [
     ("aws-skills-complete.md", "archives/aws-skills-complete.md"),
     ("google-skills-complete.md", "archives/google-skills-complete.md"),
     ("google-developer-complete.md", "archives/google-developer-complete.md"),
@@ -28,6 +32,25 @@ MONOLITH_CONFIGS = [
     ("credly-complete.md", "archives/credly-complete.md"),
     ("microsoft-learn-complete.md", "archives/microsoft-learn-complete.md"),
 ]
+
+
+def _get_monolith_configs():
+    """Get monolith configs from layer manifest for L2_published artifacts."""
+    try:
+        platform_layers = get_platform_layers()
+    except Exception:
+        return _FALLBACK_MONOLITH_CONFIGS
+
+    configs = []
+    for platform_key, layers in platform_layers.items():
+        if hasattr(layers, 'L2_published'):
+            l2_artifacts = getattr(layers.L2_published, 'artifacts', [])
+            if 'archive_complete' in l2_artifacts:
+                configs.append((f"{platform_key}-complete.md", f"archives/{platform_key}-complete.md"))
+    return sorted(configs) if configs else _FALLBACK_MONOLITH_CONFIGS
+
+
+MONOLITH_CONFIGS = _get_monolith_configs()
 
 
 def read_file_safe(filepath: str) -> str:

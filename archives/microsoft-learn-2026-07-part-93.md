@@ -2,16 +2,22 @@
 archive_platform: Microsoft Learn
 chunk_part: 93 of 95
 date_range: 2026-07-14 to 2026-07-24
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-93.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # Microsoft Learn — Part 93
 
-> **Navigation:** Prev: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-94.md](./microsoft-learn-2026-07-part-94.md) | [Complete Archive](./microsoft-learn-complete.md)
+> **Navigation:** Prev: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Assess readiness and roll out Microsoft 365 Copilot** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-manage-microsoft-365-copilot/) |
+| **Secure tenants and environments in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-tenant-environments/) |
+| **Manage environments in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-power-platform-environments/) |
 | **Govern data policies in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-data-policies/) |
 | **Govern AI-enabled resources in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-ai-enabled-resources/) |
 | **Manage data protection with Azure NetApp Files** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-data-protection-azure-netapp-files/) |
@@ -62,9 +68,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | **Optimize DevOps with AI agents on Azure** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/optimize-devops-ai-agents-azure/) |
 | **Introduction to agentic DevOps using Microsoft tools on Azure** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-agentic-devops-microsoft-tools-azure/) |
 | **Interactive case study: Securing endpoints and infrastructure** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-endpoints-infrastructure/) |
-| **Design security solutions for infrastructure** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-security-solutions-infrastructure/) |
-| **Design security operations, identity, and compliance capabilities** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-operations-identity-compliance-capabilities/) |
 
 ---
-> **Navigation:** Prev: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-94.md](./microsoft-learn-2026-07-part-94.md)
+> **Navigation:** Prev: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md)
 
