@@ -1005,7 +1005,7 @@ class CrossArtifactValidator:
                 # Compare all L2 artifacts against each other (expect 1:1 match within same layer)
                 if len(l2_artifacts) >= 2:
                     for i, art1 in enumerate(l2_artifacts):
-                        for art2 in l2_artifacts[i + 1:]:
+                        for art2 in l2_artifacts[i + 1 :]:
                             comparisons.append(
                                 (
                                     art1,
@@ -1018,7 +1018,7 @@ class CrossArtifactValidator:
                 # Compare all L3 artifacts against each other
                 if len(l3_artifacts) >= 2:
                     for i, art1 in enumerate(l3_artifacts):
-                        for art2 in l3_artifacts[i + 1:]:
+                        for art2 in l3_artifacts[i + 1 :]:
                             comparisons.append(
                                 (
                                     art1,
@@ -1031,8 +1031,18 @@ class CrossArtifactValidator:
                 # If manifest doesn't provide artifacts, use minimal defaults
                 if not comparisons:
                     comparisons = [
-                        ("archive_complete", "index", 0, "Archive complete vs Index total"),
-                        ("archive_complete", "jsonld", 0, "Archive complete vs JSON-LD"),
+                        (
+                            "archive_complete",
+                            "index",
+                            0,
+                            "Archive complete vs Index total",
+                        ),
+                        (
+                            "archive_complete",
+                            "jsonld",
+                            0,
+                            "Archive complete vs JSON-LD",
+                        ),
                         ("readme", "llms_txt", 0, "README vs llms.txt"),
                     ]
 

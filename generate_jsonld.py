@@ -144,9 +144,9 @@ def parse_archive_monoliths():
     platforms_with_jsonld = []
     if platform_layers:
         for platform_key, layers in platform_layers.items():
-            if hasattr(layers, 'L2_published'):
-                l2_artifacts = getattr(layers.L2_published, 'artifacts', [])
-                if 'jsonld' in l2_artifacts:
+            if hasattr(layers, "L2_published"):
+                l2_artifacts = getattr(layers.L2_published, "artifacts", [])
+                if "jsonld" in l2_artifacts:
                     platforms_with_jsonld.append(platform_key)
     else:
         # Use fallback if manifest failed to load
@@ -163,18 +163,22 @@ def parse_archive_monoliths():
     except Exception:
         pass
 
-    print(f"Found {len(platforms_with_jsonld)} platform(s) with L2_published jsonld artifact:")
+    print(
+        f"Found {len(platforms_with_jsonld)} platform(s) with L2_published jsonld artifact:"
+    )
 
     for platform_key in platforms_with_jsonld:
         # Construct the monolith filename from platform prefix
         filename = f"{platform_key}-complete.md"
         filepath = os.path.join(ARCHIVE_DIR, filename)
-        
+
         if not os.path.exists(filepath):
             print(f"  WARNING: {filename} not found, skipping")
             continue
-            
-        platform_name = _FALLBACK_PLATFORM_MAP.get(platform_key, platform_key.replace("-", " ").title())
+
+        platform_name = _FALLBACK_PLATFORM_MAP.get(
+            platform_key, platform_key.replace("-", " ").title()
+        )
         count = 0
 
         with open(filepath, "r", encoding="utf-8") as f:

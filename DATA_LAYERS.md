@@ -138,23 +138,27 @@ All pipeline scripts follow the same pattern:
 ```python
 from layer_manifest import get_platform_layers, generate_layer_metadata
 
+
 def main():
     # ... fetch and process data ...
-    
+
     # Emit layer metadata for validation
     platform_layers = get_platform_layers()["platform-key"]
-    metadata = generate_layer_metadata("platform-key", {
-        "L0_raw": l0_count,
-        "L1_normalized": l1_count,
-        "L2_published": {"complete": l2_count, "index": 1},
-        "L3_display": {"total_badges": l3_count},
-    })
-    
+    metadata = generate_layer_metadata(
+        "platform-key",
+        {
+            "L0_raw": l0_count,
+            "L1_normalized": l1_count,
+            "L2_published": {"complete": l2_count, "index": 1},
+            "L3_display": {"total_badges": l3_count},
+        },
+    )
+
     output = {
         "records": records,
-        "_layer_metadata": metadata  # For cross_artifact_validator
+        "_layer_metadata": metadata,  # For cross_artifact_validator
     }
-    
+
     with open(output_path, "w") as f:
         json.dump(output, f, indent=2)
 ```

@@ -43,10 +43,15 @@ def _get_monolith_configs():
 
     configs = []
     for platform_key, layers in platform_layers.items():
-        if hasattr(layers, 'L2_published'):
-            l2_artifacts = getattr(layers.L2_published, 'artifacts', [])
-            if 'archive_complete' in l2_artifacts:
-                configs.append((f"{platform_key}-complete.md", f"archives/{platform_key}-complete.md"))
+        if hasattr(layers, "L2_published"):
+            l2_artifacts = getattr(layers.L2_published, "artifacts", [])
+            if "archive_complete" in l2_artifacts:
+                configs.append(
+                    (
+                        f"{platform_key}-complete.md",
+                        f"archives/{platform_key}-complete.md",
+                    )
+                )
     return sorted(configs) if configs else _FALLBACK_MONOLITH_CONFIGS
 
 

@@ -303,20 +303,20 @@ def generate_platform_archive(
             next_link = "None"
 
         c_md = [
-                "---",
-                f"archive_platform: {platform_name}",
-                f"chunk_part: {i} of {total_chunks}",
-                f"date_range: {meta['date_range']}",
-                f"total_entries: {len(chunk_rows)}",
-                f"raw_url: {raw_base_url}/{chunk_filename}",
-                "layer: L2_published",
-                f"transform: {layer_transform.get('type', 'unknown') if isinstance(layer_transform, dict) else layer_transform}",
-                f"artifacts: {', '.join(layer_artifacts)}",
-                "---\n",
-                f"# {platform_name} — Part {i:02d}\n",
-                f"> **Navigation:** Prev: {prev_link} | [Index](./{platform_prefix}-index.md) | Next: {next_link} | [Complete Archive](./{monolith_filename})\n",
-                header_line,
-                align_line,
+            "---",
+            f"archive_platform: {platform_name}",
+            f"chunk_part: {i} of {total_chunks}",
+            f"date_range: {meta['date_range']}",
+            f"total_entries: {len(chunk_rows)}",
+            f"raw_url: {raw_base_url}/{chunk_filename}",
+            "layer: L2_published",
+            f"transform: {layer_transform.get('type', 'unknown') if isinstance(layer_transform, dict) else layer_transform}",
+            f"artifacts: {', '.join(layer_artifacts)}",
+            "---\n",
+            f"# {platform_name} — Part {i:02d}\n",
+            f"> **Navigation:** Prev: {prev_link} | [Index](./{platform_prefix}-index.md) | Next: {next_link} | [Complete Archive](./{monolith_filename})\n",
+            header_line,
+            align_line,
         ]
 
         for r_text, _ in chunk_rows:
@@ -356,7 +356,7 @@ def generate_platform_archive(
 
     idx_md = [
         f"# {platform_name} Index\n",
-            "<!-- layer: L2_published -->\n",
+        "<!-- layer: L2_published -->\n",
         f"<!-- transform: {layer_transform.get('type', 'unknown') if isinstance(layer_transform, dict) else layer_transform} -->\n",
         f"<!-- artifacts: {', '.join(layer_artifacts)} -->\n\n",
         f"This directory provides chunked, AI-readable historical records for {platform_name}.\n",

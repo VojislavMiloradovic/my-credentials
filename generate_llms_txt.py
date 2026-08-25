@@ -58,7 +58,7 @@ def _get_monolith_configs():
         ("Credly Complete", "credly-complete.md"),
         ("Microsoft Learn Complete", "microsoft-learn-complete.md"),
     ]
-    
+
     try:
         platform_layers = get_platform_layers()
     except Exception:
@@ -66,11 +66,13 @@ def _get_monolith_configs():
 
     configs = []
     for platform_key, layers in platform_layers.items():
-        if hasattr(layers, 'L2_published'):
-            l2_artifacts = getattr(layers.L2_published, 'artifacts', [])
-            if 'archive_complete' in l2_artifacts:
+        if hasattr(layers, "L2_published"):
+            l2_artifacts = getattr(layers.L2_published, "artifacts", [])
+            if "archive_complete" in l2_artifacts:
                 platform_name = platform_key.replace("-", " ").title()
-                configs.append((f"{platform_name} Complete", f"{platform_key}-complete.md"))
+                configs.append(
+                    (f"{platform_name} Complete", f"{platform_key}-complete.md")
+                )
     return sorted(configs) if configs else _FALLBACK_MONOLITH_CONFIGS
 
 
@@ -78,14 +80,34 @@ def _get_slice_configs():
     """Get slice configs from layer manifest for L2_published artifacts."""
     # Fallback hardcoded configs for test environments and when manifest is unavailable
     _FALLBACK_SLICE_CONFIGS = [
-        ("AWS Skills Latest Slice", "aws-skills", "Most recent achievements for AWS Skills."),
-        ("Google Skills Latest Slice", "google-skills", "Most recent achievements for Google Skills."),
-        ("Google Developer Latest Slice", "google-developer", "Most recent achievements for Google Developer."),
-        ("Linkedin Certifications Latest Slice", "linkedin-certifications", "Most recent achievements for Linkedin Certifications."),
+        (
+            "AWS Skills Latest Slice",
+            "aws-skills",
+            "Most recent achievements for AWS Skills.",
+        ),
+        (
+            "Google Skills Latest Slice",
+            "google-skills",
+            "Most recent achievements for Google Skills.",
+        ),
+        (
+            "Google Developer Latest Slice",
+            "google-developer",
+            "Most recent achievements for Google Developer.",
+        ),
+        (
+            "Linkedin Certifications Latest Slice",
+            "linkedin-certifications",
+            "Most recent achievements for Linkedin Certifications.",
+        ),
         ("Credly Latest Slice", "credly", "Most recent achievements for Credly."),
-        ("Microsoft Learn Latest Slice", "microsoft-learn", "Most recent achievements for Microsoft Learn."),
+        (
+            "Microsoft Learn Latest Slice",
+            "microsoft-learn",
+            "Most recent achievements for Microsoft Learn.",
+        ),
     ]
-    
+
     try:
         platform_layers = get_platform_layers()
     except Exception:
@@ -93,15 +115,17 @@ def _get_slice_configs():
 
     configs = []
     for platform_key, layers in platform_layers.items():
-        if hasattr(layers, 'L2_published'):
-            l2_artifacts = getattr(layers.L2_published, 'artifacts', [])
-            if 'archive_index' in l2_artifacts:
+        if hasattr(layers, "L2_published"):
+            l2_artifacts = getattr(layers.L2_published, "artifacts", [])
+            if "archive_index" in l2_artifacts:
                 platform_name = platform_key.replace("-", " ").title()
-                configs.append((
-                    f"{platform_name} Latest Slice",
-                    platform_key,
-                    f"Most recent achievements for {platform_name}."
-                ))
+                configs.append(
+                    (
+                        f"{platform_name} Latest Slice",
+                        platform_key,
+                        f"Most recent achievements for {platform_name}.",
+                    )
+                )
     return sorted(configs) if configs else _FALLBACK_SLICE_CONFIGS
 
 
