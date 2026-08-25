@@ -1,6 +1,6 @@
 ﻿Complete Training Activity List
 Generated on: 25. август 2026.
-Total rows: 683
+Total rows: 690
 
 Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
 [RETIRED] Amazon EKS Pre-assessment,Digital course,Retired,93,-,"March 17, 2026","March 17, 2026","March 17, 2026",30 minutes,Fundamental,English
@@ -182,6 +182,7 @@ Amazon Simple Notification Service (SNS) Getting Started,Digital course,Complete
 Amazon Simple Storage Service (Amazon S3) - Troubleshooting,Digital course,Completed,0,-,"August 2, 2026","August 2, 2026","August 2, 2026",1 hour,Intermediate,English
 Amazon Simple Storage Service (Amazon S3) Cost Optimization,Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",1 hour,Advanced,English
 Amazon Simple Storage Service (Amazon S3) Essentials - Beyond the Basics,Digital course,Completed,0,-,"March 27, 2026","March 27, 2026","March 27, 2026",1 hour,Fundamental,English
+Amazon Simple Storage Service (Amazon S3) Performance Optimization,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",1 hour,Advanced,English
 Amazon Textract Getting Started,Digital course,Completed,0,-,"July 14, 2026","July 14, 2026","July 14, 2026",1 hour,Fundamental,English
 Amazon Transcribe Getting Started,Digital course,Completed,0,-,"March 29, 2026","March 29, 2026","March 29, 2026",1 hour 30 minutes,Fundamental,English
 Amazon WorkSpaces Migrations - Horizon on WorkSpaces Core,Digital course,Completed,0,-,"June 24, 2026","June 24, 2026","June 24, 2026",1 hour,Advanced,English
@@ -354,10 +355,12 @@ AWS X-Ray Getting Started,Digital course,Completed,0,-,"March 9, 2026","March 9,
 Backup and restore for self-managed and AWS managed PostgreSQL,Digital course,Completed,0,-,"August 19, 2026","August 19, 2026","August 19, 2026",1 hour 30 minutes,Intermediate,English
 Batch Processing at Scale With Amazon Bedrock,Digital course,Completed,0,-,"August 2, 2026","August 2, 2026","August 2, 2026",1 hour,Intermediate,English
 Block Storage Knowledge Badge Assessment,AWS Assessment,Completed,93.33333333333333,-,"June 13, 2026","June 13, 2026","June 13, 2026",1 hour 30 minutes,Intermediate,English
+Build a meeting prep and follow-up assistant with Amazon Quick and Cisco Webex MCP servers,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",45 minutes,Advanced,English
 Build an AI-powered recruitment assistant using Amazon Bedrock,Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",45 minutes,Advanced,English
 Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore,Digital course,Completed,0,-,"July 31, 2026","July 31, 2026","July 31, 2026",45 minutes,Intermediate,English
 Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore,Digital course,Completed,0,-,"July 30, 2026","July 30, 2026","July 30, 2026",45 minutes,Intermediate,English
 "Build an intelligent photo search using Amazon Rekognition, Amazon Neptune, and Amazon Bedrock",Digital course,Completed,0,-,"August 3, 2026","August 3, 2026","August 3, 2026",40 minutes,Intermediate,English
+Build an offline feature store using Amazon SageMaker Unified Studio and SageMaker Catalog,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",45 minutes,Advanced,English
 Build and Train AI Models Responsibly Using Amazon SageMaker AI,Digital course,Completed,0,-,"August 15, 2026","August 15, 2026","August 15, 2026",1 hour 30 minutes,Intermediate,English
 Build modern serverless solutions following best practices using Amazon Q Developer CLI and MCP,Digital course,Completed,0,-,"August 19, 2026","August 19, 2026","August 19, 2026",1 hour 40 minutes,Intermediate,English
 Build Strands Agents with SageMaker AI models and MLflow,Digital course,Completed,0,-,"June 29, 2026","June 29, 2026","June 29, 2026",45 minutes,Advanced,English
@@ -447,6 +450,7 @@ Drive organizational growth with Amazon Lex multi-developer CI/CD pipeline,Digit
 E-commerce AI Agent: From Smart Customer Service to Production Deployment,Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",3 hours,Intermediate,English
 Elastic Load Balancing (ELB) - Troubleshooting,Digital course,Completed,0,-,"August 11, 2026","August 11, 2026","August 11, 2026",1 hour 30 minutes,Intermediate,English
 Elastic Load Balancing (ELB) Getting Started,Digital course,Completed,0,-,"March 24, 2026","March 24, 2026","March 24, 2026",1 hour,Fundamental,English
+Elastic Training on Amazon SageMaker HyperPod,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",1 hour,Advanced,English
 Embed Amazon Quick chat agents in enterprise applications,Digital course,Completed,0,-,"August 2, 2026","August 2, 2026","August 2, 2026",45 minutes,Intermediate,English
 End User Computing on AWS - Introductory Course,Digital course,Completed,0,-,"May 2, 2026","May 2, 2026","May 2, 2026",1 hour,Fundamental,English
 End User Computing on AWS - Service Architecture,Digital course,Completed,0,-,"May 2, 2026","May 2, 2026","May 2, 2026",1 hour 30 minutes,Intermediate,English
@@ -462,6 +466,7 @@ Exploring Artificial Intelligence Use Cases and Applications,Digital course,Comp
 Extended Thinking with Amazon Nova,Digital course,Completed,0,-,"August 12, 2026","August 12, 2026","August 12, 2026",1 hour 30 minutes,Intermediate,English
 File Storage Knowledge Badge Assessment,Digital course,Completed,95,-,"June 8, 2026","June 8, 2026","June 8, 2026",1 hour 30 minutes,Intermediate,English
 Foundations of Prompt Engineering,Digital course,Completed,0,-,"February 13, 2026","February 13, 2026","February 13, 2026",4 hours,Intermediate,English
+From Prompt to Validated Output: Structured Data from Bedrock in Python,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",1 hour,Advanced,English
 From Punch Card to Cloud: A Brief History of Mainframe Modernization,Digital course,Completed,0,-,"March 29, 2026","March 29, 2026","March 29, 2026",45 minutes,Fundamental,English
 Fundamentals of Amazon Aurora,Digital course,Completed,0,-,"March 15, 2026","March 15, 2026","March 15, 2026",1 hour,Intermediate,English
 Fundamentals of Amazon RDS for PostgreSQL,Digital course,Completed,0,-,"August 12, 2026","August 12, 2026","August 12, 2026",1 hour 30 minutes,Intermediate,English
@@ -620,9 +625,11 @@ Monitor Python applications using Amazon CloudWatch Application Signals,Digital 
 Monitoring and Troubleshooting Generative AI Applications on AWS,Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",5 hours,Intermediate,English
 Multi-Agent Collaboration with Amazon Bedrock Agents,Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",1 hour,Advanced,English
 MVCC in PostgreSQL and Vacuum Internals,Digital course,Completed,0,-,"August 9, 2026","August 9, 2026","August 9, 2026",1 hour 15 minutes,Intermediate,English
+Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",45 minutes,Advanced,English
 Network Load Balancer (NLB) Getting Started,Digital course,Completed,0,-,"April 2, 2026","April 2, 2026","April 2, 2026",1 hour,Fundamental,English
 Networking Core Knowledge Badge Assessment,Digital course,Completed,98.33333333333333,-,"June 6, 2026","June 6, 2026","June 6, 2026",1 hour 30 minutes,Intermediate,English
 No-code Machine Learning and Generative AI on AWS,Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",5 hours 30 minutes,Intermediate,English
+Nova Forge SDK series part 2: Practical guide to fine-tune Nova models using data mixing capabilities,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",45 minutes,Advanced,English
 Object Storage Knowledge Badge Assessment,AWS Assessment,Completed,87.5,-,"June 9, 2026","June 9, 2026","June 9, 2026",1 hour 30 minutes,Intermediate,English
 Observability for AWS Step Functions,Digital course,Completed,0,-,"August 12, 2026","August 12, 2026","August 12, 2026",1 hour 30 minutes,Intermediate,English
 Online Course Supplement: Practical Data Science with Amazon SageMaker,Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",6 hours,Intermediate,English
