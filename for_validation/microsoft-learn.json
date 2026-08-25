@@ -32963,7 +32963,7 @@
       "category": "learningpaths",
       "grantedOn": "2025-12-13",
       "url": "/training/paths/viva-glint-360-feedback program/",
-      "retired": false
+      "retired": true
     },
     {
       "id": "KCUV962B",
@@ -38929,7 +38929,10 @@
       "id": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759|learn.viva-glint-360-feedback",
       "userId": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759",
       "learningPathUid": "learn.viva-glint-360-feedback",
-      "passedOn": "2025-12-13T02:39:21.8238608+00:00"
+      "passedOn": "2025-12-13T02:39:21.8238608+00:00",
+      "retired": true,
+      "retirement_reason": "Content retired by Microsoft Learn",
+      "retired_at": "2026-08-01"
     },
     {
       "id": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759|learn.endpoint-manager-fundamentals",
@@ -287143,5 +287146,44 @@
       "awardedOn": "2026-03-14T11:52:24+00:00",
       "credentialStatus": "Active"
     }
-  ]
+  ],
+  "_layer_metadata": {
+    "L0_raw": {
+      "source": "data/microsoft-learn.json",
+      "source_layer": null,
+      "description": "Raw MS Learn export containing units, modules, learning paths, achievements, trophies, XP, level",
+      "retired_handling": "none"
+    },
+    "L1_normalized": {
+      "source": null,
+      "source_layer": "L0_raw",
+      "description": "Deduplicated achievements (one per completed module). Retired status combines source data and registry.",
+      "retired_handling": "combine_source_and_registry",
+      "transform": "extract_achievements_dedupe_by_id",
+      "output_records": "achievements"
+    },
+    "L2_published": {
+      "source": null,
+      "source_layer": "L1_normalized",
+      "description": "Achievements passed through to archives and JSON-LD.",
+      "retired_handling": "none",
+      "transform": "1:1_pass_through",
+      "artifacts": [
+        "archive_complete",
+        "archive_index",
+        "jsonld"
+      ]
+    },
+    "L3_display": {
+      "source": null,
+      "source_layer": "L0_raw",
+      "description": "Profile summary statistics for human-readable display. Units count (35K+) shown alongside achievements (4.8K).",
+      "retired_handling": "none",
+      "transform": "compute_display_metrics",
+      "artifacts": [
+        "readme",
+        "llms_txt"
+      ]
+    }
+  }
 }

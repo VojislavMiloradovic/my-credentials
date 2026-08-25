@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 15 of 95
 date_range: 2025-12-14 to 2025-12-16
-total_entries: 54
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-15.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -69,6 +69,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Empower your workforce with Microsoft 365 Copilot: Marketing Use Case** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-marketing/) |
 | **Empower your workforce with Microsoft 365 Copilot Use Cases** | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/empower-workforce-copilot-use-cases/) |
 | **Naming and branding** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/name-brand/) |
+| **Plan your first agent - Online workshop** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-first-chatbot-online-workshop/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-14.md](./microsoft-learn-2025-12-part-14.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-16.md](./microsoft-learn-2025-12-part-16.md)
