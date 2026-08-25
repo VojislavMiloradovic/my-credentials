@@ -27200,5 +27200,55 @@
       "retired": false,
       "url": "https://codelabs.developers.google.com/aidemy-multi-agent/instructions"
     }
-  ]
+  ],
+  "_layer_metadata": {
+    "L0_raw": {
+      "source": null,
+      "source_layer": null,
+      "description": "RPC API milestone badges + MHTML learnings badge page with codelab links (up to 1000 most recent)",
+      "retired_handling": "none"
+    },
+    "L1_normalized": {
+      "source": null,
+      "source_layer": "L0_raw",
+      "description": "Two independent streams: public_badges (milestone badges from RPC, 171) and micro_learnings (codelab activities from MHTML, 805). Unavailable codelab links marked as retired.",
+      "retired_handling": "registry_only",
+      "transforms": {
+        "milestones": "extract_milestone_badges_dedupe",
+        "micro_learnings": "parse_mhtml_codelabs"
+      },
+      "output_streams": [
+        "public_badges",
+        "detailed_learnings"
+      ]
+    },
+    "L2_published": {
+      "source": null,
+      "source_layer": "L1_normalized",
+      "description": "Archive complete combines both streams; index splits them; JSON-LD combines.",
+      "retired_handling": "none",
+      "transforms": {
+        "archive_complete": "combine_streams",
+        "archive_index": "split_streams",
+        "jsonld": "combine_streams"
+      },
+      "artifacts": [
+        "archive_complete",
+        "archive_index",
+        "jsonld"
+      ]
+    },
+    "L3_display": {
+      "source": null,
+      "source_layer": "L1_normalized",
+      "description": "Display both counts separately in README/llms.txt and index header.",
+      "retired_handling": "none",
+      "transform": "count_streams_separately",
+      "artifacts": [
+        "readme",
+        "llms_txt",
+        "archive_index"
+      ]
+    }
+  }
 }
