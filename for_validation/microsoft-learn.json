@@ -32963,7 +32963,7 @@
       "category": "learningpaths",
       "grantedOn": "2025-12-13",
       "url": "/training/paths/viva-glint-360-feedback program/",
-      "retired": true
+      "retired": false
     },
     {
       "id": "KCUV962B",
@@ -38929,10 +38929,7 @@
       "id": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759|learn.viva-glint-360-feedback",
       "userId": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759",
       "learningPathUid": "learn.viva-glint-360-feedback",
-      "passedOn": "2025-12-13T02:39:21.8238608+00:00",
-      "retired": true,
-      "retirement_reason": "Content retired by Microsoft Learn",
-      "retired_at": "2026-08-01"
+      "passedOn": "2025-12-13T02:39:21.8238608+00:00"
     },
     {
       "id": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759|learn.endpoint-manager-fundamentals",

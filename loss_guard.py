@@ -28,6 +28,24 @@ logger = logging.getLogger("loss_guard")
 VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 
 
+def get_baseline_path(platform: str, stream_id: str | None = None) -> str:
+    """
+    Get the baseline file path for a platform, optionally with a stream identifier.
+
+    Args:
+        platform: Platform identifier (e.g., "google-developer")
+        stream_id: Optional stream identifier (e.g., "public_badges", "detailed_learnings", "combined")
+
+    Returns:
+        Path to the baseline file
+    """
+    if stream_id:
+        filename = f"{platform}-{stream_id}-baseline.json"
+    else:
+        filename = f"{platform}-baseline.json"
+    return os.path.join(VALIDATION_DIR, filename)
+
+
 # ==============================================================================
 # DATA CLASSES
 # ==============================================================================
@@ -206,16 +224,23 @@ def build_fingerprint_index(
     return index
 
 
-def load_baseline(platform: str) -> dict[str, RecordFingerprint] | None:
+def load_baseline(
+    platform: str, stream_id: str | None = None
+) -> dict[str, RecordFingerprint] | None:
     """
     Load baseline fingerprint index from for_validation/{platform}-baseline.json.
     Returns None if no baseline exists (first run).
+
+    Args:
+        platform: Platform identifier (e.g., "google-developer")
+        stream_id: Optional stream identifier for per-stream baselines
     """
-    baseline_path = os.path.join(VALIDATION_DIR, f"{platform}-baseline.json")
+    baseline_path = get_baseline_path(platform, stream_id)
 
     if not os.path.exists(baseline_path):
+        stream_suffix = f" ({stream_id})" if stream_id else ""
         logger.info(
-            f"📦 [{platform}] No baseline found at {baseline_path} — first run."
+            f"📦 [{platform}{stream_suffix}] No baseline found at {baseline_path} — first run."
         )
         return None
 
@@ -235,8 +260,9 @@ def load_baseline(platform: str) -> dict[str, RecordFingerprint] | None:
         for rid, fp_data in data["fingerprints"].items():
             index[rid] = RecordFingerprint(**fp_data)
 
+        stream_suffix = f" ({stream_id})" if stream_id else ""
         logger.info(
-            f"📂 [{platform}] Loaded baseline: {len(index)} records from {baseline_path}"
+            f"📂 [{platform}{stream_suffix}] Loaded baseline: {len(index)} records from {baseline_path}"
         )
         return index
 
@@ -248,13 +274,20 @@ def load_baseline(platform: str) -> dict[str, RecordFingerprint] | None:
 
 
 def save_baseline(
-    platform: str, fingerprint_index: dict[str, RecordFingerprint]
+    platform: str,
+    fingerprint_index: dict[str, RecordFingerprint],
+    stream_id: str | None = None,
 ) -> bool:
     """
     Atomically save fingerprint index as new baseline.
     Returns True on success.
+
+    Args:
+        platform: Platform identifier (e.g., "google-developer")
+        fingerprint_index: Dictionary of record fingerprints
+        stream_id: Optional stream identifier for per-stream baselines
     """
-    baseline_path = os.path.join(VALIDATION_DIR, f"{platform}-baseline.json")
+    baseline_path = get_baseline_path(platform, stream_id)
     temp_path = baseline_path + ".tmp"
 
     try:
@@ -264,6 +297,7 @@ def save_baseline(
         # Prepare serializable data
         data = {
             "platform": platform,
+            "stream_id": stream_id,
             "record_count": len(fingerprint_index),
             "created_at": datetime.now(UTC).isoformat(),
             "fingerprints": {rid: asdict(fp) for rid, fp in fingerprint_index.items()},
@@ -274,8 +308,9 @@ def save_baseline(
             json.dump(data, f, indent=2, ensure_ascii=False)
 
         os.replace(temp_path, baseline_path)
+        stream_suffix = f" ({stream_id})" if stream_id else ""
         logger.info(
-            f"💾 [{platform}] Baseline updated: {len(fingerprint_index)} records → {baseline_path}"
+            f"💾 [{platform}{stream_suffix}] Baseline updated: {len(fingerprint_index)} records → {baseline_path}"
         )
         return True
 
@@ -481,6 +516,7 @@ def execute_content_loss_guard(
     id_field: str = "id",
     thresholds: dict | None = None,
     fail_on_warn: bool = True,  # SET TO False TO DISABLE FAILURES (comment out raise lines)
+    stream_id: str | None = None,  # Optional stream identifier for per-stream baselines
 ) -> DiffReport:
     """
     Main entry point: validates incoming records against baseline.
@@ -491,6 +527,7 @@ def execute_content_loss_guard(
         id_field: Primary ID field name in record dicts
         thresholds: Optional override for threshold dict
         fail_on_warn: If True, raise on threshold violations. SET False to log only.
+        stream_id: Optional stream identifier for per-stream baselines (e.g., "public_badges", "detailed_learnings")
 
     Returns:
         DiffReport with detailed comparison results
@@ -498,7 +535,8 @@ def execute_content_loss_guard(
     Raises:
         PipelineDataLossAnomaly: If thresholds exceeded and fail_on_warn=True
     """
-    logger.info(f"🛡️ [{platform}] Starting content-aware loss guard...")
+    stream_suffix = f" ({stream_id})" if stream_id else ""
+    logger.info(f"🛡️ [{platform}{stream_suffix}] Starting content-aware loss guard...")
 
     # Merge thresholds: defaults + platform-specific + explicit override
     effective_thresholds = {**DEFAULT_THRESHOLDS}
@@ -511,7 +549,7 @@ def execute_content_loss_guard(
     logger.info(f"   Fingerprinted {len(incoming_index)} incoming records")
 
     # Load baseline
-    baseline_index = load_baseline(platform)
+    baseline_index = load_baseline(platform, stream_id)
 
     # Compare
     report = compare_fingerprints(baseline_index, incoming_index, platform)
@@ -551,16 +589,16 @@ def execute_content_loss_guard(
 
     # Log violations/warnings
     for v in violations:
-        logger.error(f"❌ [{platform}] THRESHOLD VIOLATION: {v}")
+        logger.error(f"❌ [{platform}{stream_suffix}] THRESHOLD VIOLATION: {v}")
     for w in warnings:
-        logger.warning(f"⚠️ [{platform}] THRESHOLD WARNING: {w}")
+        logger.warning(f"⚠️ [{platform}{stream_suffix}] THRESHOLD WARNING: {w}")
 
     # Determine outcome
     has_violations = len(violations) > 0
     has_warnings = len(warnings) > 0
 
     if has_violations:
-        msg = f"[{platform}] Content integrity check FAILED: {'; '.join(violations)}"
+        msg = f"[{platform}{stream_suffix}] Content integrity check FAILED: {'; '.join(violations)}"
         if fail_on_warn:
             logger.error(f"🚫 {msg} — Pipeline terminated.")
             raise PipelineDataLossAnomaly(msg)
@@ -568,7 +606,7 @@ def execute_content_loss_guard(
             logger.warning(f"⚠️ {msg} — Continuing (fail_on_warn=False).")
 
     if has_warnings and not has_violations:
-        msg = f"[{platform}] Content integrity WARNINGS: {'; '.join(warnings)}"
+        msg = f"[{platform}{stream_suffix}] Content integrity WARNINGS: {'; '.join(warnings)}"
         if fail_on_warn:
             logger.error(f"🚫 {msg} — Pipeline terminated (warn treated as fail).")
             raise PipelineDataLossAnomaly(msg)
@@ -576,13 +614,15 @@ def execute_content_loss_guard(
             logger.warning(f"⚠️ {msg} — Continuing (fail_on_warn=False).")
 
     if not has_violations and not has_warnings:
-        logger.info(f"✅ [{platform}] Content integrity check PASSED.")
+        logger.info(f"✅ [{platform}{stream_suffix}] Content integrity check PASSED.")
 
     # On success (or if not failing), update baseline
     if not has_violations or not fail_on_warn:
-        if save_baseline(platform, incoming_index):
-            logger.info(f"💾 [{platform}] Baseline persisted for next run.")
+        if save_baseline(platform, incoming_index, stream_id):
+            logger.info(
+                f"💾 [{platform}{stream_suffix}] Baseline persisted for next run."
+            )
         else:
-            logger.error(f"❌ [{platform}] Failed to persist baseline!")
+            logger.error(f"❌ [{platform}{stream_suffix}] Failed to persist baseline!")
 
     return report

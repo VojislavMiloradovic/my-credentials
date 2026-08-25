@@ -791,6 +791,7 @@ def main():
                 platform="google-developer",
                 id_field="title",
                 fail_on_warn=False,  # Allow warnings (migration drop) without failing
+                stream_id="combined",
             )
             logger.info("✅ Content Loss Guard passed.")
         except PipelineDataLossAnomaly as anomaly_err:
@@ -851,12 +852,14 @@ def main():
                 platform="google-developer",
                 id_field="title",  # Uses title+date for ID (see loss_guard extract_record_id)
                 fail_on_warn=False,
+                stream_id="public_badges",
             )
             execute_content_loss_guard(
                 detailed_learnings,
                 platform="google-developer",
                 id_field="title",
                 fail_on_warn=False,
+                stream_id="detailed_learnings",
             )
             # Also baseline the combined_feed for cross-check
             execute_content_loss_guard(
@@ -864,6 +867,7 @@ def main():
                 platform="google-developer",
                 id_field="title",
                 fail_on_warn=False,
+                stream_id="combined",
             )
             logger.info("✅ Baseline fingerprints saved for google-developer streams")
         except Exception as e:
