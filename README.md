@@ -135,16 +135,17 @@ Showing latest 10 of 690 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 566
-**Total Verified Skills Mapped:** 1959
+**Total Portfolio Credentials:** 567
+**Total Verified Skills Mapped:** 1980
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 566 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 567 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-08-25 | [Cilium Gateway API: External Authentication](https://www.credly.com/badges/99029a9f-411a-4645-b898-91c7cd5bd127/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-25 | [SASE Expert Level 1](https://www.credly.com/badges/0ba13d72-84cf-492a-affc-884dcb154111/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-24 | [Detecting VoidLink Malware with Tetragon](https://www.credly.com/badges/b79ddcee-1373-4c72-b0ea-41fe0857ce55/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-23 | [Cilium AI/ML Security](https://www.credly.com/badges/0d6b393c-0f31-4c76-98ed-0adb380e23f0/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-23 | [Cilium IPAM](https://www.credly.com/badges/781ae1d3-d016-448f-82e3-5b887b43886e/public_url) | Isovalent | Credly Verified Badge |
@@ -153,7 +154,6 @@ Showing latest 10 of 566 credentials. View full dataset via [Platform Archive In
 | 2026-08-23 | [Web Development Fundamentals](https://www.credly.com/badges/720901ee-adda-4ca3-b428-06661f472f0c/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-08-22 | [Cloud Tech Pro - PSA](https://www.credly.com/badges/0d924c89-cf8d-4528-9e90-79bfe39aea8e/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-22 | [Cloud Tech Pro - RMM](https://www.credly.com/badges/67ba03f9-c9f9-410f-89d3-b360f84233a7/public_url) | Acronis | Credly Verified Badge |
-| 2026-08-22 | [Validating Security Controls with AttackIQ Enterprise](https://www.credly.com/badges/c042b6a3-a7dd-4ba3-bbfd-9f03fbb8c267/public_url) | AttackIQ | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
