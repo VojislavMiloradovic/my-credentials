@@ -154,7 +154,6 @@ def parse_archive_monoliths():
 
     # Also scan archives directory for any -complete.md files (for test environments)
     # This ensures tests with custom platform names work
-    all_complete_files = []
     try:
         for f in os.listdir(ARCHIVE_DIR):
             if f.endswith("-complete.md"):

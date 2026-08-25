@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 validate_manifest.py
 ====================
@@ -14,7 +13,7 @@ from pathlib import Path
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
 
-from models.layer_manifest import LayerManifest, load_manifest
+from models.layer_manifest import load_manifest
 
 
 def validate_manifest() -> bool:
@@ -45,7 +44,7 @@ def validate_manifest() -> bool:
             # Validate source/source_layer consistency
             if layer_name == "L0_raw":
                 if not layer_def.source and not layer_def.sources:
-                    print(f"  ⚠️  L0_raw should have source or sources")
+                                print("  ⚠️  L0_raw should have source or sources")
             else:
                 if not layer_def.source_layer:
                     print(f"  ⚠️  {layer_name} should have source_layer")
@@ -53,17 +52,17 @@ def validate_manifest() -> bool:
         # Check L1_normalized has output_records or output_streams
         l1 = platform_layers.L1_normalized
         if not l1.output_records and not l1.output_streams:
-            print(f"  ⚠️  L1_normalized should have output_records or output_streams")
+                    print("  ⚠️  L1_normalized should have output_records or output_streams")
         
         # Check L2_published has artifacts
         l2 = platform_layers.L2_published
         if not l2.artifacts:
-            print(f"  ⚠️  L2_published should have artifacts")
+                    print("  ⚠️  L2_published should have artifacts")
         
         # Check L3_display has metrics
         l3 = platform_layers.L3_display
         if not l3.metrics:
-            print(f"  ⚠️  L3_display should have metrics")
+                    print("  ⚠️  L3_display should have metrics")
     
     print(f"\n✅ All {len(platforms)} platforms validated successfully")
     return True
@@ -112,7 +111,7 @@ def validate_artifact_consistency() -> bool:
         "llms_full": Path("llms-full.txt"),
     }
     
-    for artifact_name, filepath in cross_artifacts.items():
+    for filepath in cross_artifacts.values():
         if filepath.exists():
             print(f"  ✅ Found: {filepath}")
         else:
