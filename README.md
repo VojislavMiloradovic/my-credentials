@@ -168,24 +168,24 @@ Showing latest 10 of 569 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,479 |
+| **Total External Certifications Verified** | 1,521 |
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-08-part-33.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-33.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-08-part-34.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-34.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-08* | **Cilium Advanced BGP** | Isovalent | [Verify Record](https://www.credly.com/badges/71fae5f5-1e4a-4081-be21-645678b51333/linked_in_profile) |
-| *2026-08* | **Building Resilience (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4d6fbb10505db8625aa815cf170c89a177783e886dec30a7f4070ff56ab0a4d4) |
-| *2026-08* | **Building a Business Step by Step: Entrepreneurship Fundamentals** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ad99366f97626b25ef60d52f892eb423ab2e5ddecd7a1f5ccd79555f063de3cb) |
-| *2026-08* | **Unconscious Bias (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7507c5c8faa805490918bbbb93d70fb739886ee7b6fa77dc66990be8bd7125f7) |
-| *2026-08* | **How to Manage Feeling Overwhelmed** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/543038c7094b6d1cdf5562b1dc6b3fb05722b75eee87bbee1d30232f380906c5) |
-| *2026-08* | **Social Media Marketing for Small Business** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fc47888bd5ca06001489afef0f5c5e1ae54b73a297cc1473dbdba0f69e8cdc7b) |
-| *2026-08* | **Marketing on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b8a074c56f0aaf0fc4d41eaddb3f08763dd745f824d626acadb3648e6bc2a2c1) |
-| *2026-08* | **Mixtape: Learning Highlights on Personal Effectiveness** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1a9c270f7119c3d9fdc404828845c68674106016ba3466cfe636facf492bad7b) |
-| *2026-08* | **Building Resilience as a Leader** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/402bf3c13e482ac2c90c94c383a49ae47d6748e2fa637175ccf949adca64530b) |
-| *2026-08* | **B2B Sales Strategy: Avoid Prospect Stalls and Stops** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bdcd1070dfaa28daec89f6999ec69fcb4694023b560e2ab81080850dbde2c001) |
+| *2026-08* | **Nano Tips for Navigating Life After Layoff with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3c5d95836de6cf11d1192b2abf6dbd140def8e712004c2e78e662f25c435b7cc) |
+| *2026-08* | **Career Wellness Nano Tips with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e73dd34442fe2f554bb5855e1dfa98b968f4ffd4c8786ba3ec9d0d44c8643d16) |
+| *2026-08* | **Nano Tips for Empathetic Leadership with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fc9eaaff841ad500c00df042468d9ae8d400dfdf2d8cd7434823302912940466) |
+| *2026-08* | **Personal Finance Nano Tips with Brittney Castro** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4ace4fdf7e59f338eab06b7f5ab10c4df6f92e8032d300292d7cfe39979f10ef) |
+| *2026-08* | **Nano Tips for Overcoming Imposter Syndrome at Work with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cae79de2ce1addf6ce36acb939781918c80e1c09803a44ddb9eed0e938d71b24) |
+| *2026-08* | **Nano Tips on How to Apologize Authentically with Arti Halai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b8516aa5d871050f4893098576f4c6d67194437a81425c03cecaeb7775fb8e23) |
+| *2026-08* | **Nano Tips to Foster a Growth Mindset and Mental Agility with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/67f9e8b0f8b19b75b96d43c647dc984993e7769a116b1fa0f8595422103d484b) |
+| *2026-08* | **Job Interview Nano Tips with Madeline Mann** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e7b22fafa49c9c13d5968e1e62fb7fb0971403a42e545b0881c59d7ff44aa848) |
+| *2026-08* | **Nano Tips for Cross-Cultural Communication for Leaders with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c0f9659727332a17d9ceb7d012168877898e6ec8af230bcb5adaf57061942651) |
+| *2026-08* | **Nano Tips to Stand Out as an Introvert with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cfff51780fa31c43f1c848c69e0ea5cc08ac3b475526905d08727cebeb231a86) |
 <!-- LINKEDIN_END -->
 
 
