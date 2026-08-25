@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 90 of 95
 date_range: 2026-07-05 to 2026-07-09
-total_entries: 49
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-90.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,12 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Design stateful agentic loops with Microsoft Foundry Agent Service** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-agentic-loops-azure-ai-agent-service/) |
+| **Design multi-agent memory architectures with Azure Cosmos DB** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-multi-agent-memory-azure-cosmos-db/) |
+| **Design human-in-the-loop approval workflows with Power Automate and Microsoft Teams** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-human-in-loop-approval-workflows/) |
+| **Design evaluation frameworks for multi-agent solutions with Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-evaluation-frameworks-multi-agent-azure/) |
+| **Design enterprise-scale agent communication with A2A in Azure** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-enterprise-agent-communication-a2a/) |
+| **Design advanced prompting strategies for production AI agents** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-advanced-prompt-production-agents/) |
 | **Debug and respond to production multi-agent incidents in Azure** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-debug-production-multi-agent-incidents-azure/) |
 | **Extend Sustainability Manager for building complex Scope 3 calculations** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-complex-calculations/) |
 | **Extend Microsoft for Sustainability** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-sustainability/) |
@@ -57,13 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Deploy single-instance implementations of SAP on Azure (2-tier and 3-tier)** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-single-instance-implementations-2-tier-3-tier/) |
 | **Explore integration and interoperability in Microsoft for Healthcare** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-integration-interoperability/) |
 | **Explore remote management for SAP on Azure** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-remote-management/) |
-| **Monitor and troubleshoot SAP HANA on Azure (Large Instances)** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-sap-hana-azure-large-instances/) |
-| **Explore identity services for SAP on Azure** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-identity-services/) |
-| **Challenge Project - Design a mission-critical web application** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-mission-critical/) |
-| **Implement and deploy SAP HANA on Azure (Large Instances)** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-deploy-sap-hana-azure-large-instances/) |
-| **Configure and troubleshoot Microsoft Teams clients and services** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-troubleshoot-microsoft-teams-clients-services/) |
-| **Troubleshoot Microsoft Teams** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-microsoft-365-teams/) |
-| **Monitor and troubleshoot Azure for SAP workloads** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-troubleshoot-azure-for-sap-workloads/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-89.md](./microsoft-learn-2026-07-part-89.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-91.md](./microsoft-learn-2026-07-part-91.md)

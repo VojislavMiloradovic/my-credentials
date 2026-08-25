@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Understand Microsoft 365 risk management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-risk-management/) |
+| **Work with AL built-in functions in Dynamics 365 Business Central** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/al-built-in-functions/) |
 | **Learn the AL statements in Dynamics 365 Business Central** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/al-statements/) |
 | **Introduction to the basics of AL programming in Dynamics 365 Business Central** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-basics-al-programming/) |
 | **Introduction to Azure Data Lake Storage Gen2** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-data-lake-storage/) |
@@ -29,8 +31,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Customize layout in .NET MAUI XAML pages** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-xaml-pages-layout/) |
 | **Collaborate with others with Markdown and GitHub Pages** | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/collaborate-markdown-github-pages/) |
 | **Create and host web sites by using GitHub Pages** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-host-web-sites-github-pages/) |
-| **Implement Dynamics 365 Projects** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-dynamics-365-projects/) |
 | **Application lifecycle management for Dynamics 365** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-lifecycle-management-dynamics-365/) |
+| **Implement Dynamics 365 Projects** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-dynamics-365-projects/) |
 | **Test your Dynamics 365 implementation** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-dynamics-365-implementation/) |
 | **Document your Dynamics 365 solution for the customer** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-dynamics-365-solution-customer/) |
 | **Design the Dynamics 365 deployment** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dynamics-365-deployment/) |
@@ -53,8 +55,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **User interface essentials in Dynamics 365 Business Central** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/user-interface-dynamics-365-business-central/) |
 | **Teach cybersecurity concepts with Minecraft Education** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-cybersecurity-concepts-minecraft-education/) |
 | **Guide to Secure .NET Development with OWASP Top 10** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/owasp-top-10-for-dotnet-developers/) |
-| **Design a data ingestion strategy for machine learning projects** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-ingestion-strategy-for-machine-learning-projects/) |
 | **Design a machine learning solution** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-machine-learning-solution/) |
+| **Design a data ingestion strategy for machine learning projects** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-ingestion-strategy-for-machine-learning-projects/) |
 | **Upload, download, and manage data with Azure Storage Explorer** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/upload-download-and-manage-data-with-azure-storage-explorer/) |
 | **Architect storage infrastructure in Azure** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-storage-infrastructure/) |
 | **Digital citizenship: Prepare today's learners for online success** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/digital-citizenship-prepare-todays-learners/) |
@@ -68,8 +70,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Build serverless apps with Go** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/serverless-go/) |
 | **Use Power Automate to increase productivity** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-power-automate-increase-productivity/) |
 | **MD-100 Configure authorization and authentication** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-authorization-authentication/) |
-| **Implement device registration** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-registration/) |
-| **Explore authentication** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-authentication/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-25.md](./microsoft-learn-2025-12-part-25.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-27.md](./microsoft-learn-2026-01-part-27.md)

@@ -15,6 +15,13 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Automate AI evaluations with Microsoft Foundry and GitHub Actions** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/automated-evaluation-genaiops/) |
+| **Maximize the Cost Efficiency of AI Agents on Azure** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/maximize-cost-efficiency-ai-agents/) |
+| **Understand the key cost drivers of AI agents** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-agent-cost-structure/) |
+| **Maximize cost efficiency by choosing the right AI agent development approach on Azure** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/maximize-cost-efficiency-ai-agent-development/) |
+| **Manage and optimize AI agent investments on Azure** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-optimize-agent-investment-azure/) |
+| **Implement best practices to empower AI agent efficiency and ensure long-term success** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/adopt-ai-agent-best-practice/) |
+| **Identify and Prioritize High-Impact AI Agent Use Cases** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-ai-agent-use-case/) |
 | **Forecast the return on investment (ROI) of AI agents** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/forecast-agent-return-investment/) |
 | **Architect scalable and cost-efficient AI agent solutions on Azure** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/architect-scalable-ai-agent-solutions/) |
 | **Optimize Azure reliability by using Azure SRE Agent** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-azure-reliability-with-sre-agent/) |
@@ -28,8 +35,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Administer Internet Information Services** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/administer-internet-information-services/) |
 | **Configure Internet Information Services websites and applications** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-website-application/) |
 | **Dragon Copilot AI Ambassador - Champion level** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-champion-level/) |
-| **Dragon Copilot (physicians) trainer essentials** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-trainer-essentials/) |
 | **Dragon Copilot AI Ambassador - Ambassador level** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-ambassador-level/) |
+| **Dragon Copilot (physicians) trainer essentials** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-trainer-essentials/) |
 | **Dragon Copilot (physicians) how to train enhanced skills** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-how-to-train-enhanced-skills/) |
 | **Dragon Copilot (physicians) how to train basics** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-how-to-train-basics/) |
 | **Work smarter with Copilot in Microsoft Fabric** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-smarter-with-copilot-in-microsoft-fabric/) |
@@ -58,13 +65,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Enforce security governance and regulatory compliance** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-governance-compliance/) |
 | **Enforce governance with Azure Policy and resource locks** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-governance-azure-policy-resource-locks/) |
 | **Eliminate public network exposure of Azure PaaS services** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/eliminate-public-exposure-paas-private-link/) |
-| **Implement network security controls in Azure** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-network-security-controls-azure/) |
-| **Dragon Copilot - nurse leaders adoption and reinforcement** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/nurse-leaders-adoption/) |
-| **Dragon Copilot nurse leaders 101** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-for-nurse-leaders/) |
-| **Segment and isolate Azure workloads using network security controls** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/segment-isolate-workloads-network-security-controls/) |
-| **Secure remote and hybrid connectivity using VPN gateways and Microsoft Entra Private Access** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-hybrid-connectivity-azure/) |
-| **Protect backup data with Azure Backup security features** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-backup-data-azure-backup-security/) |
-| **Plan and implement Azure Bastion** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-implement-azure-bastion/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-77.md](./microsoft-learn-2026-05-part-77.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-79.md](./microsoft-learn-2026-05-part-79.md)

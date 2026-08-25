@@ -15,6 +15,10 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Create purchase documents in Dynamics 365 Business Central** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-purchase-documents-dynamics-365-business-central/) |
+| **Configure updates of Azure Arc-enabled servers by using Azure Update Manager** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-updates-azure-arc-enabled-servers/) |
+| **Configure and migrate to Azure Database for PostgreSQL** | Learningpaths | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-learn-azure-database-for-postgresql/) |
+| **Procedures and functions in PostgreSQL** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/procedures-functions-postgresql/) |
 | **Manage access for external users** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-access-for-external-users/) |
 | **Understand retention in Microsoft Purview** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-understand-retention/) |
 | **Work order management in Dynamics 365 Field Service** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-work-order-management-agreements-inventory-and-purchasing/) |
@@ -61,10 +65,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement advanced logic in Power Automate for desktop** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-implement-advanced-logic/) |
 | **Text manipulation in Power Automate for desktop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-text-manipulation/) |
 | **Challenge project - Build a declarative agent to chat with your external data ingested to Microsoft 365** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-challenge-chat-with-external-data/) |
-| **Database handling in Power Automate for desktop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-database-handling/) |
-| **Implement retention, eDiscovery, and Communication compliance in Microsoft Purview** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-exercise-implement-retention-ediscovery-communication-compliance/) |
-| **Use general ledger allocations in Business Central** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/general-ledger-allocations/) |
-| **Migrate Windows Server workloads to Azure** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-windows-server-workloads-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-47.md](./microsoft-learn-2026-02-part-47.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-49.md](./microsoft-learn-2026-02-part-49.md)

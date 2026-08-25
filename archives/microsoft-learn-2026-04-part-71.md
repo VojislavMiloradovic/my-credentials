@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 71 of 95
-date_range: 2026-04-22 to 2026-04-24
+date_range: 2026-04-22 to 2026-04-25
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-71.md
 layer: L2_published
@@ -15,6 +15,13 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Work with Dynamics 365 Sales insights** | Learningpaths | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-sales-insights/) |
+| **Configure Sales Insights** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configuring-sales-insights/) |
+| **Gather customer feedback with Dynamics 365 Customer Voice** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/customer-voice-service-feedback/) |
+| **Manage advanced fixed assets transactions in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-advanced-fixed-assets-transactions/) |
+| **Correct entries in Dynamics 365 Business Central** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/correct-entries/) |
+| **Improve customer relationships using effective account management with Dynamics 365 Customer Voice** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-customer-relationships/) |
+| **Forecast by using demand planning in Dynamics 365 Supply Chain Management** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/forecast-using-demand-planning/) |
 | **Promote events, manage registration and check-ins, and review results in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/promote-events-dynamics-365-marketing/) |
 | **Work with revenue recognition in Dynamics 365 Finance** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-recognition-finance/) |
 | **Explore the Microsoft Search user experience and how to enable and configure it for your devices** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-search-user-experience/) |
@@ -56,13 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage projects in Dynamics 365 Customer Voice** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-projects-customer-voice/) |
 | **Replicate and monitor an Azure Cosmos DB for MongoDB account** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/replicate-monitor-azure-cosmos-db-api-mongodb-account/) |
 | **Perform advanced streaming data transformations with Apache Spark and Kafka in Azure HDInsight** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-advanced-streaming-data-transformations-with-spark-kafka/) |
-| **Automate Azure Virtual Desktop management tasks** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-azure-virtual-desktop-management-tasks/) |
-| **Work with service agreements in Dynamics 365 Supply Chain Management** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-agreements/) |
-| **Use item journals in the warehouse in Dynamics 365 Business Central** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-item-journals-warehouse/) |
-| **Work with service items in Dynamics 365 Business Central** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-work-service-items/) |
-| **Use warehouse management only mode in Dynamics 365 Supply Chain Management** | Learningpaths | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-warehouse-management-only-mode/) |
-| **Get started with Warehouse management only mode in Dynamics 365 Supply Chain Management** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-warehouse-management-only-mode/) |
-| **Work with service orders in Dynamics 365 Business Central** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-orders/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-70.md](./microsoft-learn-2026-04-part-70.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-72.md](./microsoft-learn-2026-04-part-72.md)

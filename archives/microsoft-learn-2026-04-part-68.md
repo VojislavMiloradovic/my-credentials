@@ -15,6 +15,13 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Register and manage devices with Connected Field Service for Dynamics 365 and Azure IoT** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-and-manage-customer-devices-with-connected-field-service/) |
+| **Configure fixed assets setup pages in Dynamics 365 Business Central** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-fixed-asset-setup-pages/) |
+| **Set up fixed assets management in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-fixed-assets-management/) |
+| **Set up project planning lines in Dynamics 365 Business Central** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-job-planning-lines/) |
+| **Explore your deployment options for Microsoft Edge** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-deployment-options-microsoft-edge/) |
+| **Deploy your AI Copilot with Azure Kubernetes** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-your-ai-copilot-azure-kubernetes/) |
+| **Troubleshoot cloud and hybrid connectivity in Microsoft Azure** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-hybrid-connectivity/) |
 | **Manage emails, segments, and journeys in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-emails-journey/) |
 | **Set up responsibility centers in Dynamics 365 Business Central** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-responsibility-centers/) |
 | **Set up organization and reference data** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-setup-organization/) |
@@ -56,13 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Configure fixed asset depreciations in Dynamics 365 Business Central** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-fixed-asset-depreciations/) |
 | **Sync and fulfill Shopify sales orders in Dynamics 365 Business Central** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-sales-orders-dynamics-365-business-central/) |
 | **Use the Shopify connector in Dynamics 365 Business Central** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-shopify-connector-dynamics-365-business-central/) |
-| **Set up a water sustainability solution by using Microsoft Sustainability Manager** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-water-solution/) |
-| **Set up a water and waste sustainability solution using Microsoft Sustainability Manager** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-sustainability-water-waste-solution/) |
-| **Troubleshoot name resolution issues in Microsoft Azure** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/name-resolution-issues/) |
-| **Set up project posting groups in Dynamics 365 Business Central** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-job-posting-groups/) |
-| **Set up projects and resources in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-jobs-resources/) |
-| **Set up basic warehouse tasks in Dynamics 365 Business Central** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-basic-warehouse-tasks/) |
-| **Visualize ontology data with Microsoft Fabric IQ (preview)** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/visualize-ontology-fabric-iq/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-67.md](./microsoft-learn-2026-04-part-67.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-69.md](./microsoft-learn-2026-04-part-69.md)

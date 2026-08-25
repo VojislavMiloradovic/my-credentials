@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 53 of 95
 date_range: 2026-03-01 to 2026-03-02
-total_entries: 51
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-03-part-53.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,15 @@ artifacts: archive_complete, archive_index, jsonld
 
 # Microsoft Learn — Part 53
 
-> **Navigation:** Prev: [microsoft-learn-2026-02-part-52.md](./microsoft-learn-2026-02-part-52.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-54.md](./microsoft-learn-2026-03-part-54.md) | [Complete Archive](./microsoft-learn-complete.md)
+> **Navigation:** Prev: [microsoft-learn-2026-03-part-52.md](./microsoft-learn-2026-03-part-52.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-54.md](./microsoft-learn-2026-03-part-54.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Create and run scripts by using Windows PowerShell** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-run-scripts-use-windows-powershell/) |
+| **Manage data privacy and governance with Azure Databricks** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-data-privacy-and-governance-with-azure-databricks/) |
+| **Estimate purchase order receipt dates in Dynamics 365 Business Central** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/estimate-receipt-dates-dynamics-365-business-central/) |
+| **Validate your app maker skills** | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-app-maker-skills/) |
+| **Challenge Project - Build a booking requests app with Power Apps and Power Automate** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-booking-requests-app-with-power-apps-power-automate/) |
 | **Deploy an Azure Kubernetes Service cluster** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-azure-kubernetes-service-cluster/) |
 | **Work with class extensions in finance and operations apps** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/class-extensions-finance-operations/) |
 | **Implement dynamic deployment methods** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dynamic-deployment-methods/) |
@@ -38,8 +43,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Work with accounts payable invoice matching in Dynamics 365 Finance** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-invoice-matching-finance/) |
 | **Manage Exchange Online by using Windows PowerShell** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-exchange-online-use-windows-powershell/) |
 | **Work with queries in Dynamics 365 Business Central** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-queries/) |
-| **Windows Server Hyper-V and Virtualization** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-hyper-v-virtualization/) |
 | **Windows Server high availability** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-high-availability/) |
+| **Windows Server Hyper-V and Virtualization** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-hyper-v-virtualization/) |
 | **Implement disaster recovery in Windows Server on-premises and hybrid environments** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-disaster-recovery-windows-server-premises/) |
 | **Implement Hyper-V Replica** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hyper-v-replica/) |
 | **Set up and use production control for discrete manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-production-control-discrete-manufacturing/) |
@@ -60,13 +65,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **MD-101 Configure user and device profiles** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-user-device-profiles/) |
 | **Work with tables in Dynamics 365 Business Central** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-tables/) |
 | **Implement device data protection** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-data-protection/) |
-| **Work with entitlements and permission sets in Dynamics 365 Business Central** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-entitlements-permission-sets/) |
-| **Implement Generative AI engineering with Azure Databricks** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-generative-ai-engineering-azure-databricks/) |
-| **Implement LLMOps in Azure Databricks** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-llmops-azure-databricks/) |
-| **Configure and use budget planning in Dynamics 365 Finance** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-use-budget-planning-dyn365-finance/) |
-| **Manage Cloud PCs and Virtual Desktops** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-virtual-desktops/) |
-| **Schedule services with Customer Service scheduling** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/schedule-customer-service-scheduling/) |
 
 ---
-> **Navigation:** Prev: [microsoft-learn-2026-02-part-52.md](./microsoft-learn-2026-02-part-52.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-54.md](./microsoft-learn-2026-03-part-54.md)
+> **Navigation:** Prev: [microsoft-learn-2026-03-part-52.md](./microsoft-learn-2026-03-part-52.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-54.md](./microsoft-learn-2026-03-part-54.md)
 

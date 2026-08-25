@@ -15,6 +15,11 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Provision and deploy Windows 365 Cloud PCs** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-windows-365-cloud-pcs/) |
+| **Introduction to SAP on Microsoft Cloud** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sap-microsoft-cloud/) |
+| **Work with entitlements and service level agreements in Dynamics 365 Customer Service** | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-entitlements-and-slas-in-microsoft-dynamics-365-for-customer-service/) |
+| **Create and manage entitlements in Microsoft Dynamics 365 Customer Service** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/creating-and-managing-entitlements-in-dynamics-365/) |
+| **Inbound warehouse operations using Dynamics 365 Supply Chain Management** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/inbound-operations-supply-chain-management/) |
 | **Azure security for Azure NetApp Files** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-security/) |
 | **Get started with unified routing for Dynamics 365 Customer Service** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-unified-routing/) |
 | **Teach AP Computer Science Principles with the Microsoft MakeCode curriculum** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-ap-computer-science-principles-makecode/) |
@@ -58,11 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Get started with warehouse management in Dynamics 365 Business Central** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-warehouse-management/) |
 | **Use an Azure Machine Learning job for automation** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-machine-learn-job-for-automation/) |
 | **Manage consent in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-consent/) |
-| **Migrate open-source databases to Azure** | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-open-source-workloads/) |
-| **Migrate on-premises PostgreSQL databases to Azure Database for PostgreSQL** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-on-premises-postgresql-databases/) |
-| **Build Generative AI applications with Azure Cosmos DB** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-generative-ai-applications-with-azure-cosmos-db-nosql/) |
-| **Develop systems with organizational leadership** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-systems-with-organizational-leadership/) |
-| **Use methods to accept user inputs in Windows PowerShell scripts** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-methods-to-accept-user-inputs-windows-powershell-scripts/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-56.md](./microsoft-learn-2026-03-part-56.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-58.md](./microsoft-learn-2026-03-part-58.md)

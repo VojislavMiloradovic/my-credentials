@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 65 of 95
-date_range: 2026-04-03 to 2026-04-06
-total_entries: 47
+date_range: 2026-04-03 to 2026-04-07
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-65.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,13 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Set up fixed asset posting groups in Dynamics 365 Business Central** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/posting-groups-setup/) |
+| **Manage assets and content settings in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-assets-content-settings/) |
+| **Access a user's calendar events in a JavaScript app with Microsoft Graph** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-access-user-events/) |
+| **Write management scripts for Azure Cosmos DB for NoSQL** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-scripts-for-azure-cosmos-db-sql-api/) |
+| **Send notifications in Dynamics 365 Business Central** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-notifications/) |
+| **Use Artificial Intelligence in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-artificial-intelligence/) |
+| **Predict late payments for sales documents in Dynamics 365 Business Central** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/predict-late-payments-sales-documents/) |
 | **Create a unified customer profile in Dynamics 365 Customer Insights - Data** | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/unified-customer-profile/) |
 | **Troubleshoot platform-as-a-service issues in Microsoft Azure** | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-platform-service-issues/) |
 | **Measure performance in Azure Cosmos DB for NoSQL** | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/measure-performance-azure-cosmos-db-sql-api/) |
@@ -56,12 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage forms and pages in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-forms-pages-subscriptions/) |
 | **Identify functional table types and characteristics in Dynamics 365 Business Central** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-table-types/) |
 | **Review domain authentication, email best practices, data protection and privacy in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/review-authentication-dynamics-365-marketing/) |
-| **Query management information by using Common Information Model and Windows Management Instrumentation** | Learningpaths | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/query-use-common-information-model-windows-management/) |
-| **Query configuration information by using CIM and WMI** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-configuration-information/) |
-| **Query and manipulate repository objects by using CIM and WMI methods** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-manipulate-repository-objects/) |
-| **Configure multi-region write in Azure Cosmos DB for NoSQL** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-multi-region-write-azure-cosmos-db-sql-api/) |
-| **Introduction to manufacturing in Dynamics 365 Business Central** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacturing-introduction/) |
-| **Implement security in Azure Cosmos DB for NoSQL** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-azure-cosmos-db-sql-api/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-64.md](./microsoft-learn-2026-04-part-64.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-66.md](./microsoft-learn-2026-04-part-66.md)

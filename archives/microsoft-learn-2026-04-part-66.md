@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 66 of 95
-date_range: 2026-04-07 to 2026-04-10
+date_range: 2026-04-07 to 2026-04-11
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-66.md
 layer: L2_published
@@ -15,6 +15,13 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Unlock customer intent with Dynamics 365 Customer Insights - Data** | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-customer-insights/) |
+| **Configure and administer Customer Insights - Data** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-customer-data-platform/) |
+| **Explore Microsoft Graph scenarios for JavaScript development** | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-scenarios/) |
+| **Show a user's emails in a JavaScript app with Microsoft Graph** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-show-user-emails/) |
+| **Explore archiving and records management in Microsoft 365** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-archiving-records-management/) |
+| **Use warehouse management for manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacture-warehouse-mgmt-dyn365-supply-chain-mgmt/) |
+| **Use warehouse management in manufacturing in Dynamics 365 Supply Chain Management** | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-warehouse-manufacturing-dyn365-supply-chain-mgmt/) |
 | **Discover Power Apps for Educators and reclaim your time 101** | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-power-apps-educators-reclaim-time/) |
 | **Identify Exceptions with Connected Field Service for Dynamics 365 and Azure IoT** | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-exceptions-with-connected-field-service/) |
 | **Monitor and manage data engineering workloads with Apache Spark in Azure Synapse Analytics** | Modules | 2026-04-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-manage-data-engineering-workloads-apache-spark-azure-synapse-analytics/) |
@@ -55,13 +62,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Work with assignment rules in Dynamics 365 Sales accelerator** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-sales-assignment-rules/) |
 | **Set up lean manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-lean-manufacturing-dyn365-supply-chain-mgmt/) |
 | **Set up onboarding experiences in Dynamics 365 Business Central** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-onboarding-experiences/) |
-| **Set up fixed asset posting groups in Dynamics 365 Business Central** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/posting-groups-setup/) |
-| **Manage assets and content settings in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-assets-content-settings/) |
-| **Access a user's calendar events in a JavaScript app with Microsoft Graph** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-access-user-events/) |
-| **Write management scripts for Azure Cosmos DB for NoSQL** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-scripts-for-azure-cosmos-db-sql-api/) |
-| **Send notifications in Dynamics 365 Business Central** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-notifications/) |
-| **Use Artificial Intelligence in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-artificial-intelligence/) |
-| **Predict late payments for sales documents in Dynamics 365 Business Central** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/predict-late-payments-sales-documents/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-65.md](./microsoft-learn-2026-04-part-65.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-67.md](./microsoft-learn-2026-04-part-67.md)

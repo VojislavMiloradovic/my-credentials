@@ -15,6 +15,10 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Create and configure Group Policy Objects in Active Directory** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-configure-group-policy-objects-active-directory/) |
+| **How to build the User Interface in a canvas app in Power Apps** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/how-to-build-ui-canvas-app/) |
+| **Create and manage Active Directory objects** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-active-directory-objects/) |
+| **Develop Azure Functions** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/) |
 | **Implement Azure Functions** | Learningpaths | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-azure-functions/) |
 | **Create a knowledge store with Azure AI Search** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-knowledge-store-azure-cognitive-search/) |
 | **Explore Azure App Service deployment slots** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/) |
@@ -66,10 +70,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage records and disposition with Microsoft Purview** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-manage-records/) |
 | **Orchestrate processes in Microsoft Fabric** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-processes-in-fabric/) |
 | **Create a knowledge mining solution with Azure AI Search** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/) |
-| **Analyze and prepare content in eDiscovery review sets** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ediscovery-review-set/) |
-| **Create and manage eDiscovery cases** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ediscovery-create-case/) |
-| **Manage data sources and holds in Microsoft Purview eDiscovery** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ediscovery-manage-data-sources-holds/) |
-| **Understand Microsoft Purview eDiscovery** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ediscovery-understand/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-34.md](./microsoft-learn-2026-01-part-34.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-36.md](./microsoft-learn-2026-01-part-36.md)

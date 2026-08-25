@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Create Power BI reports with Power Automate Process Mining** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-reports-process-mining/) |
+| **Analyze processes with the Power Automate Process Mining desktop app** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-processes-process-mining/) |
 | **Get started with the Power Automate Process Mining desktop app** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-mining-desktop-app/) |
 | **Use process mining in Power Automate web portal** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-process-mining/) |
 | **Publish an API to Azure Static Web Apps** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-static-web-app-api-preview-url/) |
@@ -56,8 +58,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage Universal Windows Platform apps** | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-universal-windows-platform-apps/) |
 | **Provide apps to users** | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/provide-apps-users/) |
 | **Explore the Windows servicing model** | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-servicing-model/) |
-| **Understand Microsoft datacenter security** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-physical-security/) |
 | **Learn how Microsoft safeguards customer data** | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/audit-safeguard-customer-data/) |
+| **Understand Microsoft datacenter security** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-physical-security/) |
 | **Understand Microsoft Online Services subprocessor management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-subprocessor-management/) |
 | **Understand Microsoft 365 privacy** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-privacy/) |
 | **Understand Microsoft Online Services security development and operation** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-security-development-operation/) |
@@ -68,8 +70,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Understand Microsoft Online Services security incident management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-incident-management/) |
 | **Understand Microsoft 365 cloud architecture** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-architecture/) |
 | **Understand Microsoft 365 governance** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-governance/) |
-| **Understand Microsoft 365 risk management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-risk-management/) |
-| **Work with AL built-in functions in Dynamics 365 Business Central** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/al-built-in-functions/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-26.md](./microsoft-learn-2025-12-part-26.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-28.md](./microsoft-learn-2026-01-part-28.md)

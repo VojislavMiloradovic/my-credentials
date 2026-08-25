@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 69 of 95
 date_range: 2026-04-18 to 2026-04-20
-total_entries: 48
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-69.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,14 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Index fixed assets in Dynamics 365 Business Central** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/index-fixed-assets/) |
+| **Understand client-server communication in MySQL** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-client-server-communication-mysql/) |
+| **Work with MySQL Databases on Azure** | Learningpaths | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-mysql-databases-azure/) |
+| **Work with Warehouse management only mode in Dynamics 365 Supply Chain Management** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-warehouse-management-only-mode/) |
+| **Understand concurrency in MySQL** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-concurrency-mysql/) |
+| **Work with service order dispatching in Dynamics 365 Supply Chain Management** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-order-dispatching/) |
+| **Build a Fabric data agent with an ontology** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-fabric-data-agent-ontology/) |
+| **Record fixed asset opening transactions in Dynamics 365 Business Central** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/record-fixed-assets-opening-transactions/) |
 | **Close a project in Dynamics 365 Business Central** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-job/) |
 | **Ingest emissions activity data** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-data-ingestion/) |
 | **Challenge project - Create products and set up a product catalog** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-products-set-up-product-catalog/) |
@@ -56,13 +64,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Investigate threats using audit in Microsoft Defender XDR and Microsoft Purview (Premium)** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/investigate-threats-using-audit-in-microsoft-365-defender-microsoft-purview-premium/) |
 | **Work with Dynamics 365 Sales Insights** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/working-with-sales-insights/) |
 | **Working with Connected Field Service for Dynamics 365 and Azure IoT** | Learningpaths | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/working-with-connected-field-service-iot/) |
-| **Register and manage devices with Connected Field Service for Dynamics 365 and Azure IoT** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-and-manage-customer-devices-with-connected-field-service/) |
-| **Configure fixed assets setup pages in Dynamics 365 Business Central** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-fixed-asset-setup-pages/) |
-| **Set up fixed assets management in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-fixed-assets-management/) |
-| **Set up project planning lines in Dynamics 365 Business Central** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-job-planning-lines/) |
-| **Explore your deployment options for Microsoft Edge** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-deployment-options-microsoft-edge/) |
-| **Deploy your AI Copilot with Azure Kubernetes** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-your-ai-copilot-azure-kubernetes/) |
-| **Troubleshoot cloud and hybrid connectivity in Microsoft Azure** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-hybrid-connectivity/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-68.md](./microsoft-learn-2026-04-part-68.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-70.md](./microsoft-learn-2026-04-part-70.md)

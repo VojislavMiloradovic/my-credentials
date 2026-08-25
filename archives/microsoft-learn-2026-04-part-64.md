@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 64 of 95
-date_range: 2026-03-29 to 2026-04-03
+date_range: 2026-03-30 to 2026-04-03
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-64.md
 layer: L2_published
@@ -15,6 +15,12 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Query management information by using Common Information Model and Windows Management Instrumentation** | Learningpaths | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/query-use-common-information-model-windows-management/) |
+| **Query configuration information by using CIM and WMI** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-configuration-information/) |
+| **Query and manipulate repository objects by using CIM and WMI methods** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-manipulate-repository-objects/) |
+| **Configure multi-region write in Azure Cosmos DB for NoSQL** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-multi-region-write-azure-cosmos-db-sql-api/) |
+| **Introduction to manufacturing in Dynamics 365 Business Central** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacturing-introduction/) |
+| **Implement security in Azure Cosmos DB for NoSQL** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-azure-cosmos-db-sql-api/) |
 | **Know where to leverage AI in your classroom** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/know-where-leverage-ai-classroom/) |
 | **Microsoft Education technology and AI learning concepts** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-education-ai-learning/) |
 | **Develop generative AI apps that use tools** | Modules | 2026-04-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-generative-ai-tools/) |
@@ -57,12 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Configure and manage sales, and customers in Dynamics 365 Supply Chain Management** | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-sales-customers-dyn365-supply-chain-mgmt/) |
 | **Transfer general ledger entries to cost accounting in Dynamics 365 Business Central** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/transfer-gl-entries-dynamics-365-business-central/) |
 | **Sync customers to Shopify and Dynamics 365 Business Central** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/synchronize-customers-shopify/) |
-| **Work with segments in Dynamics 365 Sales accelerator** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-segments-sales/) |
-| **Plan to deploy the Microsoft Sentinel solution for SAP** | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-microsoft-sentinel-deployment-sap/) |
-| **Adjust exchange rates in Dynamics 365 Business Central** | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/adjust-exchange-rates-dynamics-365-business-central/) |
-| **Introduction to migrating from Amazon Web Services to Microsoft Azure** | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-migrating-aws-to-azure/) |
-| **Optimize data warehouse query performance in Azure Synapse Analytics** | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-data-warehouse-query-performance-azure-synapse-analytics/) |
-| **Monitor responses and events in Azure Cosmos DB for NoSQL** | Modules | 2026-03-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-responses-events-azure-cosmos-db-sql-api/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-63.md](./microsoft-learn-2026-03-part-63.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-65.md](./microsoft-learn-2026-04-part-65.md)

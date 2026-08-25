@@ -15,6 +15,13 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Maintain tenant health and support readiness** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-tenant-health/) |
+| **Implement reporting and data visibility using Microsoft Intune** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-reporting-data-visibility/) |
+| **Deploy Windows devices using Windows Autopilot** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-windows-autopilot/) |
+| **Configure device profiles and policy management using Microsoft Intune** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-device-profiles-intune/) |
+| **Configure Microsoft Entra ID for device and policy management** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-entraid-device-management/) |
+| **Apply RBAC and admin delegation in Microsoft Intune** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-rbac-admin-delegation/) |
+| **Administer device identity and authentication using Microsoft Entra ID** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/device-identity-authentication-entra-id/) |
 | **Tailor the agent workspace with experience profiles in Dynamics 365 Contact Center** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-experience-profiles-contact-center/) |
 | **Accelerate service delivery with productivity tools in Dynamics 365 Contact Center** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-productivity-tools-contact-center/) |
 | **School Data Sync for IT Admins (Partner Success Series)** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/school-data-sync-it-admins/) |
@@ -29,8 +36,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Govern AI ready workloads with Microsoft Foundry** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-ai-ready-workloads-microsoft-foundry/) |
 | **Translate text and speech with Microsoft Foundry Tools** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/translate-text-speech/) |
 | **Develop natural language solutions in Azure** | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/) |
-| **Configure the voice channel in Dynamics 365 Contact Center** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-voice-channel-contact-center/) |
 | **Configure channels in Dynamics 365 Contact Center** | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-channels-dynamics-365-contact-center/) |
+| **Configure the voice channel in Dynamics 365 Contact Center** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-voice-channel-contact-center/) |
 | **Configure advanced settings for channels in Dynamics 365 Contact Center** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-advanced-channel-settings-contact-center/) |
 | **Multi-Agent Systems and Orchestration** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/) |
 | **Memory, State, and Evaluation** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/memory-state-evaluation/) |
@@ -59,13 +66,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **introduction-surface-laptop-8th-edition** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-surface-laptop-8th-edition/) |
 | **Introduction to Azure IoT Edge** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-iot-edge/) |
 | **Write advanced T-SQL code** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-advanced-sql-code/) |
-| **Automate AI evaluations with Microsoft Foundry and GitHub Actions** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/automated-evaluation-genaiops/) |
-| **Maximize the Cost Efficiency of AI Agents on Azure** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/maximize-cost-efficiency-ai-agents/) |
-| **Understand the key cost drivers of AI agents** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-agent-cost-structure/) |
-| **Maximize cost efficiency by choosing the right AI agent development approach on Azure** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/maximize-cost-efficiency-ai-agent-development/) |
-| **Manage and optimize AI agent investments on Azure** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-optimize-agent-investment-azure/) |
-| **Implement best practices to empower AI agent efficiency and ensure long-term success** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/adopt-ai-agent-best-practice/) |
-| **Identify and Prioritize High-Impact AI Agent Use Cases** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-ai-agent-use-case/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-78.md](./microsoft-learn-2026-05-part-78.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-80.md](./microsoft-learn-2026-05-part-80.md)

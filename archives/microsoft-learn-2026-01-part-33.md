@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 33 of 95
-date_range: 2026-01-14 to 2026-01-17
-total_entries: 55
+date_range: 2026-01-15 to 2026-01-18
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-33.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Mitigate threats using Microsoft Defender XDR** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-365-defender/) |
+| **Safeguard your environment with Microsoft Defender for Identity** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-threat-safeguard/) |
+| **Guided project - Deploy and manage a container app using Azure Container Apps** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-container-app-using-azure-container-apps/) |
 | **Explore the Enterprise Desktop** | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-enterprise-desktop/) |
 | **Create and configure sensitivity labels with Microsoft Purview** | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-protect-information/) |
 | **Remediate risks with Microsoft Defender for Office 365** | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-threat-remediate/) |
@@ -57,8 +60,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Explore Azure Synapse Studio** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-synapse-studio/) |
 | **Create vendor invoice for resource non-stocked deployment in Dynamics 365 Project Operations** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vendor-invoice-resource-non-stocked/) |
 | **Introduction to Viva Learning** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-learning-introduction/) |
-| **Extend Microsoft 365 Copilot in .NET** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility/) |
 | **Extend Microsoft 365 Copilot in TypeScript** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility-typescript/) |
+| **Extend Microsoft 365 Copilot in .NET** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility/) |
 | **Get started with Microsoft 365 Copilot extensibility** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-extensibility-intro/) |
 | **Get to know Microsoft Azure cloud platform: An overview for business professionals** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-know-microsoft-azure-cloud-platform-business-professionals/) |
 | **Describe the business benefits of Azure** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-benefits-azure/) |
@@ -66,10 +69,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Gaming assistive technologies** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/gaming-assistive-technologies/) |
 | **Get tips and tricks for teaching SC-900: Microsoft Security, Compliance, and Identity Fundamentals** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-sc-900-security-compliance-identity-fundamentals/) |
 | **Implement classes, properties, and methods** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-classes-properties-and-methods/) |
-| **Manage class implementations** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-class-implementations/) |
-| **Manage application data** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-application-data/) |
-| **Get started with dates, times, and time zones** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-dates-times-time-zones/) |
-| **Introduction to Microsoft Defender for IoT** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-microsoft-defender-iot/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-32.md](./microsoft-learn-2026-01-part-32.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-34.md](./microsoft-learn-2026-01-part-34.md)

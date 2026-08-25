@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 25 of 95
 date_range: 2025-12-28 to 2025-12-29
-total_entries: 51
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-25.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Implement device registration** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-registration/) |
+| **Explore authentication** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-authentication/) |
 | **Get started with agents** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-no-code-copilot-agents-sharepoint/) |
 | **Get started with Copilot for Microsoft Power Platform** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-power-platform/) |
 | **Use Copilot in Power Pages** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-copilot-power-pages/) |
@@ -65,7 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Use input and output variables - Online workshop** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-input-output-online-workshop/) |
 | **Introduction to key Azure network security services** | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-azure-networking-services/) |
 | **Introduction to Azure Virtual WAN** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-virtual-wan/) |
-| **Choose the best service level of Azure NetApp Files for your high-performance computing (HPC) applications** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-service-level-azure-netapp-files-hpc-applications/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-24.md](./microsoft-learn-2025-12-part-24.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-26.md](./microsoft-learn-2025-12-part-26.md)

@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 83 of 95
 date_range: 2026-06-06 to 2026-06-08
-total_entries: 50
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-83.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,14 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Train and evaluate deep learning models** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-evaluate-deep-learn-models/) |
+| **Plan Agile with GitHub Projects and Azure Boards** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/) |
+| **Collaborate with pull requests in Azure Repos** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/) |
+| **Deploy and manage identity infrastructure** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-identity-infrastructure/) |
+| **Active Directory Domain Services** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/active-directory-domain-services/) |
+| **Manage advanced features of AD DS** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-advanced-features-of-ad-ds/) |
+| **Deploy and administer Linux virtual machines on Azure** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-administer-linux-virtual-machines-azure/) |
+| **Implement access management for Azure resources** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-access-management-for-azure-resources/) |
 | **Validate your Microsoft Power Platform Solution Architect skills** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/validate-power-platform-solution-architect-skills/) |
 | **Becoming a solution architect for Dynamics 365 and Microsoft Power Platform** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/becoming-solution-architect/) |
 | **Understand Microsoft 365 Agents SDK** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-copilot-stack/) |
@@ -58,13 +66,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Configure applications on Azure Kubernetes Service** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-apps-azure-kubernetes-service/) |
 | **Enhance endpoint security with Microsoft Intune and Microsoft Security Copilot** | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-endpoint-security-microsoft-intune-copilot/) |
 | **Prepare Microsoft Entra ID and Intune for device management** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-microsoft-entra-id-intune-device-management/) |
-| **Harden endpoints and monitor security with Microsoft Intune and Defender for Endpoint** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-endpoints-monitor-security-intune-defender-endpoint/) |
-| **Enroll and validate devices with Microsoft Intune** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-validate-devices-microsoft-intune/) |
-| **Configure and secure devices with Microsoft Intune policies** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-devices-intune-policies/) |
-| **Accelerate endpoint remediation and response with Microsoft Security Copilot** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/accelerate-endpoint-remediation-response-security-copilot/) |
-| **Analyze advanced device signals with Microsoft Intune Suite** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-advanced-device-signals/) |
-| **Explore Windows 365 for cloud PC deployment** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-365-intune/) |
-| **Manage capacity pool for Azure NetApp Files** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-capacity-pool-azure-netapp-files/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md)

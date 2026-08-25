@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 81 of 95
-date_range: 2026-05-30 to 2026-06-01
-total_entries: 50
+date_range: 2026-05-30 to 2026-06-02
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-81.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,14 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Implement Microsoft Defender for Endpoint using Microsoft Intune** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-endpoint-intune/) |
+| **Manage AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-ai-ready-infrastructure/) |
+| **Manage monitoring for AI-Ready Infrastructure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitoring-ai-ready-infrastructure/) |
+| **Apply governance controls to AI-ready workloads** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
+| **Govern AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/govern-ai-ready-infrastructure/) |
+| **Develop AI solutions with Azure Cosmos DB for NoSQL** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-cosmos-db/) |
+| **Build queries for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-cosmos-db/) |
+| **Optimize query performance for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-azure-cosmos-db/) |
 | **Implement vector search on Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-search-azure-cosmos-db/) |
 | **Protect and govern AI ready infrastructure with Azure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-govern-ai-ready-infrastructure-azure/) |
 | **Manage secure AI-ready infrastructure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secure-ai-ready-infrastructure/) |
@@ -58,13 +66,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Design and implement database objects with SQL** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-database-objects/) |
 | **Optimize database performance** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-database-performance/) |
 | **Implement data security and compliance with SQL** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-security-compliance/) |
-| **Monitor and optimize Dynamics 365 Contact Center with AI-driven insights** | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-optimize-dynamics-365-contact-center/) |
-| **Reach customers first with proactive engagement in Dynamics 365 Contact Center** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/reach-customers-proactive-engagement-contact-center/) |
-| **Monitor and manage agents with Microsoft Agent 365** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-365-monitor-manage/) |
-| **Get started with Claude in Microsoft Foundry** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/claude-in-foundry/) |
-| **Implement Microsoft Teams for Education in your school (Partner Success Series)** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-microsoft-teams-education-school/) |
-| **Implement Microsoft Copilot in your school (Partner Success Series)** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-microsoft-copilot-school-partner-success-series/) |
-| **Extend Microsoft Teams with Learning Management Systems (Partner Success Series)** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-microsoft-teams-learning-management-systems/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-80.md](./microsoft-learn-2026-05-part-80.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md)

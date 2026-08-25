@@ -15,6 +15,11 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Get started and use functionality in Microsoft Dynamics 365 Human Resources** | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-use-human-resources/) |
+| **Set up and use Employee self service and Manager self service  in Dynamics 365 Human Resources** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-self-service/) |
+| **Advanced project planning and task scheduling capabilities in Dynamics 365 Project Operations** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-project-planning-task-scheduling/) |
+| **Work with the costing sheet in Dynamics 365 Supply Chain Management** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-costing-sheet-dyn365-supply-chain-mgmt/) |
+| **Outbound warehouse operations using Dynamics 365 Supply Chain Management** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/outbound-operations-supply-chain-management/) |
 | **Evaluate strategies for migrating to Azure SQL** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-strategies-for-migrating-to-azure-sql/) |
 | **Work with cash and bank management in Dynamics 365 Finance** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-cash-bank-dyn365-dyn365-finance/) |
 | **Bring AI to your business with AI Builder** | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/bring-ai/) |
@@ -32,8 +37,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Get started with project sales management in Dynamics 365 Project Operations** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-project-sales-management/) |
 | **Manage Microsoft Purview Audit (Standard)** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-purview-audit-standard/) |
 | **Create text messages and push notifications in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-text-messages-push-notifications/) |
-| **Implement a data modeling and partitioning strategy for Azure Cosmos DB for NoSQL** | Learningpaths | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-modeling-partitioning-azure-cosmos-db-sql-api/) |
 | **Implement a non-relational data model** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-non-relational-data-model/) |
+| **Implement a data modeling and partitioning strategy for Azure Cosmos DB for NoSQL** | Learningpaths | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-modeling-partitioning-azure-cosmos-db-sql-api/) |
 | **Deploy a model with GitHub Actions** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-model-github-actions/) |
 | **Work with web services in Dynamics 365 Business Central** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-web-services/) |
 | **Create forms in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-forms-customer-insights-journeys/) |
@@ -60,11 +65,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement a data engineering solution with Azure Databricks** | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer/) |
 | **Perform incremental processing with spark structured streaming** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-incremental-processing-with-spark-structured-streaming/) |
 | **Implement integrated cache in Azure Cosmos DB for NoSQL** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-integrated-cache/) |
-| **Provision and deploy Windows 365 Cloud PCs** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-windows-365-cloud-pcs/) |
-| **Introduction to SAP on Microsoft Cloud** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sap-microsoft-cloud/) |
-| **Work with entitlements and service level agreements in Dynamics 365 Customer Service** | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-entitlements-and-slas-in-microsoft-dynamics-365-for-customer-service/) |
-| **Create and manage entitlements in Microsoft Dynamics 365 Customer Service** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/creating-and-managing-entitlements-in-dynamics-365/) |
-| **Inbound warehouse operations using Dynamics 365 Supply Chain Management** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/inbound-operations-supply-chain-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-57.md](./microsoft-learn-2026-03-part-57.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-59.md](./microsoft-learn-2026-03-part-59.md)

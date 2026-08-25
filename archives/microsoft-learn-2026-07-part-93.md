@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 93 of 95
 date_range: 2026-07-14 to 2026-07-24
-total_entries: 53
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-93.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,12 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Keep a Microsoft 365 tenant resilient and healthy** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-microsoft-365-tenant-health/) |
+| **Implement authentication and access in Microsoft Entra** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-authentication-access-entra/) |
+| **Establish agent identities and secure access with Microsoft Entra Agent ID** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/establish-agent-identities-entra-agent-id/) |
+| **Curate and control agents with the Agent Registry and Agent 365 tools** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/curate-control-agents-registry-tools/) |
+| **Configure Microsoft 365 Copilot settings and extensibility** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-copilot-settings-extensibility/) |
+| **Configure Exchange Online and Microsoft Teams workloads** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-exchange-teams/) |
 | **Assess readiness and roll out Microsoft 365 Copilot** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-manage-microsoft-365-copilot/) |
 | **Secure tenants and environments in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-tenant-environments/) |
 | **Manage environments in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-power-platform-environments/) |
@@ -57,17 +63,10 @@ artifacts: archive_complete, archive_index, jsonld
 | **Design a multi-domain Active Directory forest** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-domain-forest-trust/) |
 | **Get started with 5G on Surface for Business devices** | Modules | 2026-07-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-5g/) |
 | **Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-identity-lifecycle-workflows/) |
-| **Analyze requirements for AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-requirements-ai-powered-business-solutions/) |
 | **Architect AI solutions for business productivity** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-agentic-ai-business-solutions/) |
+| **Analyze requirements for AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-requirements-ai-powered-business-solutions/) |
 | **Introduction to agentic AI business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-agentic-ai-business-solution-architecture/) |
 | **Manage testing AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-testing-ai-powered-business-solutions/) |
-| **Evaluate costs and benefits of AI solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-costs-benefits-ai-powered-business-solution/) |
-| **Design extensibility of AI solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-extensibility-ai-solutions/) |
-| **Monitor, analyze, and tune AI agents** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-monitor-tune-ai-powered-business-solutions/) |
-| **Design overall AI strategy for business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-overall-ai-strategy-business-solutions/) |
-| **Optimize DevOps with AI agents on Azure** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/optimize-devops-ai-agents-azure/) |
-| **Introduction to agentic DevOps using Microsoft tools on Azure** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-agentic-devops-microsoft-tools-azure/) |
-| **Interactive case study: Securing endpoints and infrastructure** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-endpoints-infrastructure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md)

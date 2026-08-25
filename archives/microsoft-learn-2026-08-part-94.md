@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 94 of 95
 date_range: 2026-07-24 to 2026-08-02
-total_entries: 53
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-94.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,13 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Build flexible Bicep files by using conditions and loops** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-files-conditions-loops/) |
+| **Fundamentals of Bicep** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/) |
+| **Build reusable Bicep files by using parameters** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reusable-bicep-files-parameters/) |
+| **Build your first Bicep file** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-bicep-file/) |
+| **Introduction to retrieval-augmented generation concepts** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/rag-fundamentals/) |
+| **AI concepts for developers and technology professionals** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-concepts/) |
+| **Get started with Microsoft Foundry IQ** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-foundry-iq/) |
 | **Get started with AI applications and agents on Azure** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-ai-apps-agents/) |
 | **Introduction to Azure Copilot** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-copilot/) |
 | **Managing Azure NetApp Files** | Learningpaths | 2026-07-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-azure-netapp-files/) |
@@ -62,12 +69,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Prevent data loss and govern the data lifecycle with Microsoft Purview** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/prevent-data-loss-lifecycle-purview/) |
 | **Monitor and optimize Microsoft 365 AI services** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-optimize-m365-ai-services/) |
 | **License Microsoft 365 and AI services at scale** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/license-microsoft-365-ai-services/) |
-| **Keep a Microsoft 365 tenant resilient and healthy** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-microsoft-365-tenant-health/) |
-| **Implement authentication and access in Microsoft Entra** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-authentication-access-entra/) |
-| **Establish agent identities and secure access with Microsoft Entra Agent ID** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/establish-agent-identities-entra-agent-id/) |
-| **Curate and control agents with the Agent Registry and Agent 365 tools** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/curate-control-agents-registry-tools/) |
-| **Configure Microsoft 365 Copilot settings and extensibility** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-copilot-settings-extensibility/) |
-| **Configure Exchange Online and Microsoft Teams workloads** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-exchange-teams/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-95.md](./microsoft-learn-2026-08-part-95.md)

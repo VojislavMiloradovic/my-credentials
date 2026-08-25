@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 82 of 95
-date_range: 2026-06-01 to 2026-06-06
-total_entries: 50
+date_range: 2026-06-02 to 2026-06-06
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-82.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,13 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Harden endpoints and monitor security with Microsoft Intune and Defender for Endpoint** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-endpoints-monitor-security-intune-defender-endpoint/) |
+| **Enroll and validate devices with Microsoft Intune** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-validate-devices-microsoft-intune/) |
+| **Configure and secure devices with Microsoft Intune policies** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-devices-intune-policies/) |
+| **Accelerate endpoint remediation and response with Microsoft Security Copilot** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/accelerate-endpoint-remediation-response-security-copilot/) |
+| **Analyze advanced device signals with Microsoft Intune Suite** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-advanced-device-signals/) |
+| **Explore Windows 365 for cloud PC deployment** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-365-intune/) |
+| **Manage capacity pool for Azure NetApp Files** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-capacity-pool-azure-netapp-files/) |
 | **Deliver zero-touch Windows 11 Pro deployments** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-zero-touch/) |
 | **Take action on content with Click to Do** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/click-to-do/) |
 | **Monitor and troubleshoot applications on Azure Kubernetes Service** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-apps-azure-kubernetes-service/) |
@@ -57,14 +64,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Reduce data exposure risk with Data Security Posture Management in Microsoft Purview** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-data-security-posture-management/) |
 | **Understand data security posture management in Microsoft Purview** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-posture-management-understand/) |
 | **Implement application protection and security using Microsoft Intune** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-protection-intune/) |
-| **Implement Microsoft Defender for Endpoint using Microsoft Intune** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-endpoint-intune/) |
-| **Manage AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-ai-ready-infrastructure/) |
-| **Manage monitoring for AI-Ready Infrastructure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitoring-ai-ready-infrastructure/) |
-| **Apply governance controls to AI-ready workloads** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
-| **Govern AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/govern-ai-ready-infrastructure/) |
-| **Develop AI solutions with Azure Cosmos DB for NoSQL** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-cosmos-db/) |
-| **Build queries for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-cosmos-db/) |
-| **Optimize query performance for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-azure-cosmos-db/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-81.md](./microsoft-learn-2026-06-part-81.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-83.md](./microsoft-learn-2026-06-part-83.md)
