@@ -55,8 +55,8 @@ Showing latest 10 of 4,817 achievements. View full dataset via [Platform Archive
 
 **Public Profile:** [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Total Portfolio Credentials:** 350
-**Total Verified Skills Mapped:** 349
+**Total Portfolio Credentials:** 376
+**Total Verified Skills Mapped:** 375
 
 #### Google Skills Learning Statistics
 
@@ -72,20 +72,20 @@ Showing latest 10 of 4,817 achievements. View full dataset via [Platform Archive
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 350 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-08-part-08.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-08.md)), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 376 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-08-part-08.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-08.md)), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-08-22 | [AI Boost Bites: AI for the Modern Recruiter](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125242) | Google Cloud | Google Skill Badge |
-| 2026-08-22 | [AI Boost Bites: Your AI-Powered Career Coach](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125196) | Google Cloud | Google Skill Badge |
-| 2026-08-22 | [AI Boost Bites: The Project Coordinator's Command Center](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125162) | Google Cloud | Google Skill Badge |
-| 2026-08-22 | [AI Boost Bites: Master Internal Comms in Gmail](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125132) | Google Cloud | Google Skill Badge |
-| 2026-08-22 | [AI Boost Bites: Google Workspace Studio](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125099) | Google Cloud | Google Skill Badge |
-| 2026-08-17 | [Vibe Coding for Beginners: From Zero to App](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26909457) | Google Cloud | Google Skill Badge |
-| 2026-08-13 | [Google Cloud Computing Foundations: Networking & Security in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26758292) | Google Cloud | Google Skill Badge |
-| 2026-08-09 | [Create and Manage Cloud Spanner Instances](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26478834) | Google Cloud | Google Skill Badge |
-| 2026-08-07 | [Arcade Simulator: Network Security Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26380399) | Google Cloud | Google Skill Badge |
-| 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26378483) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Build a Certification Study Guide: ADP Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286575) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Secure Enterprise AI Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286386) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Google DeepMind : 08 Capstone: Develop Your Model for Real-World Impact](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286333) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Build Agent Skills with Google](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286234) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Build Collaborative Multi-Agent Systems with ADK & MCP](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286201) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Simplify Your Architecture with Network Connectivity Center](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286098) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Critical Thinking in AI-Driven Workflows](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285992) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Looker Core Administration](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285912) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Build a Branded Knowledge Base](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285632) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Master Your Meetings with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285586) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials
