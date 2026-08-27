@@ -1,6 +1,6 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 569 records.
+This document represents a unified, verifiable list of all 573 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
@@ -10,6 +10,10 @@ This document represents a unified, verifiable list of all 569 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-27 | [Analyze Sentiment with Natural Language API Skill Badge](https://www.credly.com/badges/4ad490cd-fa1d-4436-8895-6d233aa59d3f/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-27 | [Build LookML Objects in Looker Skill Badge](https://www.credly.com/badges/f1fe4c27-fc5b-4f16-857c-0a78b63662de/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-27 | [Implement Cloud Storage and Data Protection Solutions](https://www.credly.com/badges/d6b57587-ca0e-49ae-ac3f-c27583931211/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-27 | [Monitoring in Google Cloud Skill Badge](https://www.credly.com/badges/7f426d35-6e3b-419e-8236-e382d94e9666/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-25 | [AI In Cybersecurity](https://www.credly.com/badges/f5b5f3bb-1c90-4409-bda9-fb96331e43bf/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-25 | [Cilium Gateway API: External Authentication](https://www.credly.com/badges/99029a9f-411a-4645-b898-91c7cd5bd127/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-25 | [SASE Expert Level 1](https://www.credly.com/badges/0ba13d72-84cf-492a-affc-884dcb154111/public_url) | Cato Networks | Credly Verified Badge |
