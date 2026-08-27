@@ -1,6 +1,6 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 376 records.
+This document represents a unified, verifiable list of all 377 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
@@ -10,6 +10,7 @@ This document represents a unified, verifiable list of all 376 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-27 | [Generative AI Explorer - Agent Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27296691) | Google Cloud | Google Skill Badge |
 | 2026-08-26 | [Build a Certification Study Guide: ADP Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286575) | Google Cloud | Google Skill Badge |
 | 2026-08-26 | [Secure Enterprise AI Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286386) | Google Cloud | Google Skill Badge |
 | 2026-08-26 | [Google DeepMind : 08 Capstone: Develop Your Model for Real-World Impact](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286333) | Google Cloud | Google Skill Badge |

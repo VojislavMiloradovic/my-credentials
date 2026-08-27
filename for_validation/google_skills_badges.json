@@ -1,7 +1,26 @@
 {
   "profile_id": "2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_count": 376,
+  "total_count": 377,
   "badges": [
+    {
+      "id": "google-skills-badge-27296691",
+      "title": "Generative AI Explorer - Agent Platform",
+      "name": "Generative AI Explorer - Agent Platform",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/tkWGX3gu4i0cgGWkyI3s4SbQwZoqRAa9XiXIVbCVxv8%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27296691",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27296691",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Generative AI Explorer - Agent Platform"
+      ],
+      "retired": false
+    },
     {
       "id": "google-skills-badge-27286575",
       "title": "Build a Certification Study Guide: ADP Exam Prep",

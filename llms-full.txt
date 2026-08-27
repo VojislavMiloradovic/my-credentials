@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-08-27 07:22 UTC
+> **Last Generated:** 2026-08-27 10:25 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -63,27 +63,28 @@ Showing latest 10 of 4,817 achievements. View full dataset via [Platform Archive
 
 **Public Profile:** [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Total Portfolio Credentials:** 376
-**Total Verified Skills Mapped:** 375
+**Total Portfolio Credentials:** 377
+**Total Verified Skills Mapped:** 376
 
 #### Google Skills Learning Statistics
 
 | Metric | Count |
 | :--- | :---: |
-| **Check** | 1,928 |
+| **Check** | 1,976 |
 | **Classroom** | 0 |
-| **Course** | 358 |
+| **Course** | 385 |
 | **Game** | 7 |
-| **Lab** | 256 |
-| **Lesson** | 4,917 |
+| **Lab** | 260 |
+| **Lesson** | 4,985 |
 | **Path** | 20 |
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 376 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-08-part-08.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-08.md)), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 377 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-08-part-08.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-08.md)), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-27 | [Generative AI Explorer - Agent Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27296691) | Google Cloud | Google Skill Badge |
 | 2026-08-26 | [Build a Certification Study Guide: ADP Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286575) | Google Cloud | Google Skill Badge |
 | 2026-08-26 | [Secure Enterprise AI Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286386) | Google Cloud | Google Skill Badge |
 | 2026-08-26 | [Google DeepMind : 08 Capstone: Develop Your Model for Real-World Impact](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286333) | Google Cloud | Google Skill Badge |
@@ -93,7 +94,6 @@ Showing latest 10 of 376 credentials. View full dataset via [Platform Archive In
 | 2026-08-26 | [Critical Thinking in AI-Driven Workflows](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285992) | Google Cloud | Google Skill Badge |
 | 2026-08-26 | [Looker Core Administration](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285912) | Google Cloud | Google Skill Badge |
 | 2026-08-26 | [AI Boost Bites: Build a Branded Knowledge Base](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285632) | Google Cloud | Google Skill Badge |
-| 2026-08-26 | [AI Boost Bites: Master Your Meetings with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285586) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials
@@ -978,7 +978,7 @@ This document represents a unified, verifiable list of all 711 records.
 
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 376 records.
+This document represents a unified, verifiable list of all 377 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
@@ -988,6 +988,7 @@ This document represents a unified, verifiable list of all 376 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-27 | [Generative AI Explorer - Agent Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27296691) | Google Cloud | Google Skill Badge |
 | 2026-08-26 | [Build a Certification Study Guide: ADP Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286575) | Google Cloud | Google Skill Badge |
 | 2026-08-26 | [Secure Enterprise AI Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286386) | Google Cloud | Google Skill Badge |
 | 2026-08-26 | [Google DeepMind : 08 Capstone: Develop Your Model for Real-World Impact](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286333) | Google Cloud | Google Skill Badge |
