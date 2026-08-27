@@ -1,7 +1,121 @@
 {
   "profile_id": "2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_count": 377,
+  "total_count": 383,
   "badges": [
+    {
+      "id": "google-skills-badge-27329132",
+      "title": "Monitoring in Google Cloud",
+      "name": "Monitoring in Google Cloud",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/6b1HAqO0MPg%2F0awR9UdKAUgzrfl9qmnty1cjI2NcPNU%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329132",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329132",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Monitoring in Google Cloud"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27329116",
+      "title": "Arcade Base Camp August 2026",
+      "name": "Arcade Base Camp August 2026",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/Bp281hmVeuAOGo4f2jcJSghF2De99fWbcHcrGgBM5Sg%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329116",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329116",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Arcade Base Camp August 2026"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27328238",
+      "title": "Analyze Sentiment with Natural Language API",
+      "name": "Analyze Sentiment with Natural Language API",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/IwoV5yIJ1i3GJ%2BULEbrXtiv%2BhXE3wV9QFTLOd8R3DSo%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27328238",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27328238",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Analyze Sentiment with Natural Language API"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27327295",
+      "title": "Arcade Re-Trail: Vaults & Vectors",
+      "name": "Arcade Re-Trail: Vaults & Vectors",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/iAUPykYUheJoZUrArdzblTqFRmY%2Fu6HCGgLoH1KH8fM%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27327295",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27327295",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Arcade Re-Trail: Vaults & Vectors"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27325786",
+      "title": "Implement Cloud Storage and Data Protection Solutions",
+      "name": "Implement Cloud Storage and Data Protection Solutions",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/Wd86cQw9UwhtybfUCT3vGjex0P7VdpgWbmbkm%2FNIdO4%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27325786",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27325786",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Implement Cloud Storage and Data Protection Solutions"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27324095",
+      "title": "Build LookML Objects in Looker",
+      "name": "Build LookML Objects in Looker",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/6LkKzPShpLU5g593%2Br4o03tKvKyCi%2FyAZxyfnq%2B4o3w%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27324095",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27324095",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Build LookML Objects in Looker"
+      ],
+      "retired": false
+    },
     {
       "id": "google-skills-badge-27296691",
       "title": "Generative AI Explorer - Agent Platform",
