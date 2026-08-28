@@ -24,16 +24,20 @@ jobs:
           restore-keys: |
             lychee-${{ runner.os }}-
 
-      - name: Build .lycheeignore from retired URLs
-        run: python build_exclude.py
-
-      - name: Run Lychee Link Checker
-        uses: lycheeverse/lychee-action@v2
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          args: >
-            --config lychee.toml
-            --exclude "(linkedin\.com/in/|credly\.com/users/)"
-            "README.md" "llms.txt" "llms-full.txt" "archive/*.md" "archives/*.md"
-          fail: false
+          python-version: '3.11'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: '0.12.3'
+
+      - name: Install Dependencies
+        run: uv sync --frozen --all-extras
+
+      - name: Run Link Checker (with concise summary)
+        run: uv run python run_link_checker.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
