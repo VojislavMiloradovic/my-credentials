@@ -5,7 +5,6 @@ import json
 import os
 import sys
 import tempfile
-from unittest.mock import patch, MagicMock
 
 import pytest
 
@@ -24,7 +23,7 @@ class TestValidationSummary:
             # Create validation_reports directory
             reports_dir = os.path.join(tmpdir, "validation_reports")
             os.makedirs(reports_dir)
-            
+
             # Create report file
             report_path = os.path.join(reports_dir, "cross_artifact_report.json")
             report_data = {
@@ -88,10 +87,10 @@ class TestValidationSummary:
             sys.path.insert(0, tmpdir)
             try:
                 from validation_summary import main
-                # Should handle missing file gracefully
-                # It will raise FileNotFoundError
-                with pytest.raises(FileNotFoundError):
+                # Should handle missing file gracefully with sys.exit(1)
+                with pytest.raises(SystemExit) as exc_info:
                     main()
+                assert exc_info.value.code == 1
             finally:
                 os.chdir(old_cwd)
                 sys.path.remove(tmpdir)
@@ -101,7 +100,7 @@ class TestValidationSummary:
         with tempfile.TemporaryDirectory() as tmpdir:
             reports_dir = os.path.join(tmpdir, "validation_reports")
             os.makedirs(reports_dir)
-            
+
             report_path = os.path.join(reports_dir, "cross_artifact_report.json")
             with open(report_path, "w") as f:
                 f.write("invalid json {")
@@ -111,8 +110,9 @@ class TestValidationSummary:
             sys.path.insert(0, tmpdir)
             try:
                 from validation_summary import main
-                with pytest.raises(json.JSONDecodeError):
+                with pytest.raises(SystemExit) as exc_info:
                     main()
+                assert exc_info.value.code == 1
             finally:
                 os.chdir(old_cwd)
                 sys.path.remove(tmpdir)
@@ -126,7 +126,7 @@ class TestValidationSummaryOutput:
         with tempfile.TemporaryDirectory() as tmpdir:
             reports_dir = os.path.join(tmpdir, "validation_reports")
             os.makedirs(reports_dir)
-            
+
             report_path = os.path.join(reports_dir, "cross_artifact_report.json")
             report_data = {
                 "timestamp": "2024-01-15T10:00:00Z",
@@ -164,16 +164,17 @@ class TestValidationSummaryOutput:
             os.chdir(tmpdir)
             sys.path.insert(0, tmpdir)
             try:
-                from validation_summary import main
                 # Capture stdout
                 import io
                 from contextlib import redirect_stdout
-                
+
+                from validation_summary import main
+
                 f = io.StringIO()
                 with redirect_stdout(f):
                     main()
                 output = f.getvalue()
-                
+
                 assert "Timestamp: 2024-01-15T10:00:00Z" in output
                 assert "Total checks: 2" in output
                 assert "Passed: 1" in output
@@ -190,7 +191,7 @@ class TestValidationSummaryOutput:
         with tempfile.TemporaryDirectory() as tmpdir:
             reports_dir = os.path.join(tmpdir, "validation_reports")
             os.makedirs(reports_dir)
-            
+
             report_path = os.path.join(reports_dir, "cross_artifact_report.json")
             report_data = {
                 "timestamp": "2024-01-15T10:00:00Z",
@@ -228,15 +229,16 @@ class TestValidationSummaryOutput:
             os.chdir(tmpdir)
             sys.path.insert(0, tmpdir)
             try:
-                from validation_summary import main
                 import io
                 from contextlib import redirect_stdout
-                
+
+                from validation_summary import main
+
                 f = io.StringIO()
                 with redirect_stdout(f):
                     main()
                 output = f.getvalue()
-                
+
                 assert "Warnings:" in output
                 assert "[WARN] [test-platform] test_check_warn" in output
             finally:
@@ -248,7 +250,7 @@ class TestValidationSummaryOutput:
         with tempfile.TemporaryDirectory() as tmpdir:
             reports_dir = os.path.join(tmpdir, "validation_reports")
             os.makedirs(reports_dir)
-            
+
             report_path = os.path.join(reports_dir, "cross_artifact_report.json")
             report_data = {
                 "timestamp": "2024-01-15T10:00:00Z",
@@ -277,15 +279,16 @@ class TestValidationSummaryOutput:
             os.chdir(tmpdir)
             sys.path.insert(0, tmpdir)
             try:
-                from validation_summary import main
                 import io
                 from contextlib import redirect_stdout
-                
+
+                from validation_summary import main
+
                 f = io.StringIO()
                 with redirect_stdout(f):
                     main()
                 output = f.getvalue()
-                
+
                 assert "[FAIL] [global] test_check_fail" in output
             finally:
                 os.chdir(old_cwd)

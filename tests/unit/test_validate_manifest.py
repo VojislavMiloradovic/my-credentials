@@ -1,11 +1,9 @@
 """
 Unit tests for validate_manifest.py module.
 """
-import json
 import os
 import sys
 import tempfile
-from unittest.mock import patch, MagicMock
 
 import pytest
 
@@ -59,7 +57,7 @@ platforms:
             try:
                 from models.layer_manifest import load_manifest
                 manifest = load_manifest()
-                assert manifest.version == "1.0"
+                assert manifest.version == 1
                 assert "microsoft-learn" in manifest.platforms
             finally:
                 os.chdir(old_cwd)
