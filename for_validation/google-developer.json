@@ -1,8 +1,8 @@
 {
   "platform": "google-developer",
-  "total_public_badges": 171,
-  "total_detailed_learnings": 1586,
-  "total_combined": 1642,
+  "total_public_badges": 172,
+  "total_detailed_learnings": 1596,
+  "total_combined": 1653,
   "public_badges": [
     {
       "title": "Android Basics Compose Unit 8 Pathway 2",
@@ -464,6 +464,14 @@
       "title": "Android 11 Week 7",
       "date": "2026-06-05",
       "description": "Official Google Developer platform achievement (Learning Pathway: android 11 week 7).",
+      "source": "public_rpc",
+      "retired": false,
+      "url": null
+    },
+    {
+      "title": "Milestone1",
+      "date": "2026-06-05",
+      "description": "Official Google Developer platform achievement (Learning Pathway: milestone1).",
       "source": "public_rpc",
       "retired": false,
       "url": null
@@ -4711,6 +4719,14 @@
       "url": "https://codelabs.developers.google.com/codelabs/how-to-bigquery-remote-functions-imagen-vqa"
     },
     {
+      "title": "How to Deploy OpenClaw on Cloud Run Instances",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-openclaw-cloud-run-instances",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/codelabs/cloud-run/deploy-openclaw-cloud-run-instances"
+    },
+    {
       "title": "Fine-tune Open Source LLMs on Google Cloud",
       "date": "2026-06-09",
       "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/9-ai-finetuning/finetune-open-source-models-gke",
@@ -5389,6 +5405,14 @@
       "source": "local_mhtml",
       "retired": false,
       "url": "https://codelabs.developers.google.com/cloudnet-psc"
+    },
+    {
+      "title": "Way Back Home - Level 0: Identify Yourself",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-0/instructions",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/way-back-home-level-0/instructions"
     },
     {
       "title": "Migrating to Jetpack Compose",
@@ -6143,6 +6167,14 @@
       "url": "https://codelabs.developers.google.com/codelabs/battle-jamon-terms-and-conditions"
     },
     {
+      "title": "Build Your First Database-Backed Web App with Google AI Studio and Cloud SQL",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-ai-studio-csql",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/build-ai-studio-csql"
+    },
+    {
       "title": "Controlling media through MediaSession",
       "date": "2026-05-26",
       "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/supporting-mediasession",
@@ -6565,6 +6597,14 @@
       "source": "local_mhtml",
       "retired": false,
       "url": "https://codelabs.developers.google.com/cloud-adk-executive-assistant"
+    },
+    {
+      "title": "Build a User-Authenticated AI Application with Custom Instructions on Google AI Studio & Cloud Run",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-ai-challenge",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-ai-challenge"
     },
     {
       "title": "Automatically Deploy Generative AI Svelte Web Application from Version Control to Cloud Run",
@@ -7655,6 +7695,14 @@
       "url": "https://developer.android.com/codelabs/digit-classifier-tflite"
     },
     {
+      "title": "QueryData for AlloyDB using Gemini Data Analytics",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/alloydb-querydata",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/next26/alloydb-querydata"
+    },
+    {
       "title": "Draw a Website: Transform your imagination into a website using Gemini models!",
       "date": "2026-05-24",
       "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/draw-a-website-gemini",
@@ -8207,6 +8255,14 @@
       "url": "https://codelabs.developers.google.com/codelabs/cloud-sql-go-connector"
     },
     {
+      "title": "Google's Agent Stack in Action: ADK, A2A, MCP on Google Cloud",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/instavibe-adk-multi-agents/instructions",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/instavibe-adk-multi-agents/instructions"
+    },
+    {
       "title": "Introduction to serverless orchestration with Workflows",
       "date": "2026-06-09",
       "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-workflows-intro",
@@ -8295,7 +8351,7 @@
       "url": "https://codelabs.developers.google.com/codelabs/using-textembedding-gecko"
     },
     {
-      "title": "Fraud Detection Pipeline with Data Agent Kit & Antigravity IDE",
+      "title": "Fraud Detection Pipeline with Data Agent Kit and Antigravity IDE",
       "date": "2026-08-22",
       "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dak-data-science-antigravity-ide",
       "source": "local_mhtml",
@@ -9767,6 +9823,14 @@
       "url": "https://codelabs.developers.google.com/create-alloydb-database-with-cloud-run-job"
     },
     {
+      "title": "Find and fix application issues with Gemini Cloud Assist",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/gemini-cloud-assist-debug-database",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/next26/gemini-cloud-assist-debug-database"
+    },
+    {
       "title": "Get started with object detection",
       "date": "2026-06-02",
       "description": "Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/get-started-object-detection/get-started-object-detection",
@@ -11013,6 +11077,14 @@
       "source": "local_mhtml",
       "retired": false,
       "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-bus-schedule-app"
+    },
+    {
+      "title": "Google Workspace MCP servers with Antigravity in Gemini Enterprise",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-mcp-antigravity-ge",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/google-workspace-mcp-antigravity-ge"
     },
     {
       "title": "Trigger Kubernetes services with Eventarc events",
@@ -13751,6 +13823,14 @@
       "url": "https://codelabs.developers.google.com/codelabs/augimg-intro"
     },
     {
+      "title": "Way Back Home - Live Bidirectional Multi-Agent system",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-4/instructions",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/way-back-home-level-4/instructions"
+    },
+    {
       "title": "Build a basic messaging style app",
       "date": "2026-06-02",
       "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-nlp-basic",
@@ -13893,6 +13973,14 @@
       "source": "local_mhtml",
       "retired": false,
       "url": "https://codelabs.developers.google.com/agw-cuj-arun-egress-gmcp"
+    },
+    {
+      "title": "Getting started with Hybrid Search in AlloyDB and Apache Solr",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-solr-fdw",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/alloydb-solr-fdw"
     },
     {
       "title": "PSC-I RDMA VPC Multi-NIC Deployment Guide",
@@ -14524,6 +14612,14 @@
       "title": "Android 11 Week 7",
       "date": "2026-06-05",
       "description": "Official Google Developer platform achievement (Learning Pathway: android 11 week 7).",
+      "source": "public_rpc",
+      "retired": false,
+      "url": null
+    },
+    {
+      "title": "Milestone1",
+      "date": "2026-06-05",
+      "description": "Official Google Developer platform achievement (Learning Pathway: milestone1).",
       "source": "public_rpc",
       "retired": false,
       "url": null
@@ -18657,6 +18753,14 @@
       "url": "https://codelabs.developers.google.com/codelabs/how-to-bigquery-remote-functions-imagen-vqa"
     },
     {
+      "title": "How to Deploy OpenClaw on Cloud Run Instances",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-openclaw-cloud-run-instances",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/codelabs/cloud-run/deploy-openclaw-cloud-run-instances"
+    },
+    {
       "title": "Fine-tune Open Source LLMs on Google Cloud",
       "date": "2026-06-09",
       "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/9-ai-finetuning/finetune-open-source-models-gke",
@@ -19287,6 +19391,14 @@
       "source": "local_mhtml",
       "retired": false,
       "url": "https://codelabs.developers.google.com/cloudnet-psc"
+    },
+    {
+      "title": "Way Back Home - Level 0: Identify Yourself",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-0/instructions",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/way-back-home-level-0/instructions"
     },
     {
       "title": "Migrating to Jetpack Compose",
@@ -20025,6 +20137,14 @@
       "url": "https://codelabs.developers.google.com/codelabs/battle-jamon-terms-and-conditions"
     },
     {
+      "title": "Build Your First Database-Backed Web App with Google AI Studio and Cloud SQL",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-ai-studio-csql",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/build-ai-studio-csql"
+    },
+    {
       "title": "Design and preview your app icons",
       "date": "2026-05-21",
       "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/design-android-launcher",
@@ -20415,6 +20535,14 @@
       "source": "local_mhtml",
       "retired": false,
       "url": "https://codelabs.developers.google.com/cloud-adk-executive-assistant"
+    },
+    {
+      "title": "Build a User-Authenticated AI Application with Custom Instructions on Google AI Studio & Cloud Run",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-ai-challenge",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-ai-challenge"
     },
     {
       "title": "Automatically Deploy Generative AI Svelte Web Application from Version Control to Cloud Run",
@@ -21433,6 +21561,14 @@
       "url": "https://developer.android.com/codelabs/digit-classifier-tflite"
     },
     {
+      "title": "QueryData for AlloyDB using Gemini Data Analytics",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/alloydb-querydata",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/next26/alloydb-querydata"
+    },
+    {
       "title": "Draw a Website: Transform your imagination into a website using Gemini models!",
       "date": "2026-05-24",
       "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/draw-a-website-gemini",
@@ -21953,6 +22089,14 @@
       "url": "https://codelabs.developers.google.com/codelabs/cloud-sql-go-connector"
     },
     {
+      "title": "Google's Agent Stack in Action: ADK, A2A, MCP on Google Cloud",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/instavibe-adk-multi-agents/instructions",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/instavibe-adk-multi-agents/instructions"
+    },
+    {
       "title": "Introduction to serverless orchestration with Workflows",
       "date": "2026-06-09",
       "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-workflows-intro",
@@ -22041,7 +22185,7 @@
       "url": "https://codelabs.developers.google.com/codelabs/using-textembedding-gecko"
     },
     {
-      "title": "Fraud Detection Pipeline with Data Agent Kit & Antigravity IDE",
+      "title": "Fraud Detection Pipeline with Data Agent Kit and Antigravity IDE",
       "date": "2026-08-22",
       "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dak-data-science-antigravity-ide",
       "source": "local_mhtml",
@@ -23393,6 +23537,14 @@
       "url": "https://codelabs.developers.google.com/create-alloydb-database-with-cloud-run-job"
     },
     {
+      "title": "Find and fix application issues with Gemini Cloud Assist",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/gemini-cloud-assist-debug-database",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/next26/gemini-cloud-assist-debug-database"
+    },
+    {
       "title": "Get started with object detection",
       "date": "2026-06-02",
       "description": "Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/get-started-object-detection/get-started-object-detection",
@@ -24511,6 +24663,14 @@
       "source": "local_mhtml",
       "retired": false,
       "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-bus-schedule-app"
+    },
+    {
+      "title": "Google Workspace MCP servers with Antigravity in Gemini Enterprise",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-mcp-antigravity-ge",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/google-workspace-mcp-antigravity-ge"
     },
     {
       "title": "Trigger Kubernetes services with Eventarc events",
@@ -26913,6 +27073,14 @@
       "url": "https://codelabs.developers.google.com/codelabs/augimg-intro"
     },
     {
+      "title": "Way Back Home - Live Bidirectional Multi-Agent system",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-4/instructions",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/way-back-home-level-4/instructions"
+    },
+    {
       "title": "Build a basic messaging style app",
       "date": "2026-06-02",
       "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-nlp-basic",
@@ -27031,6 +27199,14 @@
       "source": "local_mhtml",
       "retired": false,
       "url": "https://codelabs.developers.google.com/agw-cuj-arun-egress-gmcp"
+    },
+    {
+      "title": "Getting started with Hybrid Search in AlloyDB and Apache Solr",
+      "date": "2026-08-28",
+      "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-solr-fdw",
+      "source": "local_mhtml",
+      "retired": false,
+      "url": "https://codelabs.developers.google.com/alloydb-solr-fdw"
     },
     {
       "title": "PSC-I RDMA VPC Multi-NIC Deployment Guide",
