@@ -1,6 +1,7 @@
 """
 Unit tests for validation_summary.py module.
 """
+
 import json
 import os
 import sys
@@ -15,6 +16,7 @@ class TestValidationSummary:
     def test_validation_summary_imports(self):
         """Test that the module can be imported."""
         import validation_summary
+
         assert validation_summary is not None
 
     def test_main_with_valid_report(self):
@@ -28,12 +30,7 @@ class TestValidationSummary:
             report_path = os.path.join(reports_dir, "cross_artifact_report.json")
             report_data = {
                 "timestamp": "2024-01-15T10:00:00Z",
-                "summary": {
-                    "total": 10,
-                    "passed": 8,
-                    "failed": 1,
-                    "warnings": 1
-                },
+                "summary": {"total": 10, "passed": 8, "failed": 1, "warnings": 1},
                 "results": [
                     {
                         "check": "source_snapshot_exists",
@@ -42,7 +39,7 @@ class TestValidationSummary:
                         "expected": "> 0",
                         "actual": 100,
                         "message": "Source snapshot has 100 records (0 retired)",
-                        "severity": "error"
+                        "severity": "error",
                     },
                     {
                         "check": "source_snapshot_exists",
@@ -51,7 +48,7 @@ class TestValidationSummary:
                         "expected": "> 0",
                         "actual": 0,
                         "message": "Source snapshot has 0 records (0 retired)",
-                        "severity": "error"
+                        "severity": "error",
                     },
                     {
                         "check": "archive_complete_parsed",
@@ -60,9 +57,9 @@ class TestValidationSummary:
                         "expected": "> 0",
                         "actual": 0,
                         "message": "Complete archive has 0 records (0 retired)",
-                        "severity": "warning"
-                    }
-                ]
+                        "severity": "warning",
+                    },
+                ],
             }
             with open(report_path, "w") as f:
                 json.dump(report_data, f)
@@ -72,6 +69,7 @@ class TestValidationSummary:
             sys.path.insert(0, tmpdir)
             try:
                 from validation_summary import main
+
                 # The main function just prints, doesn't return anything
                 # It should run without error
                 main()
@@ -87,6 +85,7 @@ class TestValidationSummary:
             sys.path.insert(0, tmpdir)
             try:
                 from validation_summary import main
+
                 # Should handle missing file gracefully with sys.exit(1)
                 with pytest.raises(SystemExit) as exc_info:
                     main()
@@ -110,6 +109,7 @@ class TestValidationSummary:
             sys.path.insert(0, tmpdir)
             try:
                 from validation_summary import main
+
                 with pytest.raises(SystemExit) as exc_info:
                     main()
                 assert exc_info.value.code == 1
@@ -130,12 +130,7 @@ class TestValidationSummaryOutput:
             report_path = os.path.join(reports_dir, "cross_artifact_report.json")
             report_data = {
                 "timestamp": "2024-01-15T10:00:00Z",
-                "summary": {
-                    "total": 2,
-                    "passed": 1,
-                    "failed": 1,
-                    "warnings": 0
-                },
+                "summary": {"total": 2, "passed": 1, "failed": 1, "warnings": 0},
                 "results": [
                     {
                         "check": "test_check_pass",
@@ -144,7 +139,7 @@ class TestValidationSummaryOutput:
                         "expected": "10",
                         "actual": "10",
                         "message": "Test passed",
-                        "severity": "error"
+                        "severity": "error",
                     },
                     {
                         "check": "test_check_fail",
@@ -153,9 +148,9 @@ class TestValidationSummaryOutput:
                         "expected": "10",
                         "actual": "5",
                         "message": "Test failed",
-                        "severity": "error"
-                    }
-                ]
+                        "severity": "error",
+                    },
+                ],
             }
             with open(report_path, "w") as f:
                 json.dump(report_data, f)
@@ -195,12 +190,7 @@ class TestValidationSummaryOutput:
             report_path = os.path.join(reports_dir, "cross_artifact_report.json")
             report_data = {
                 "timestamp": "2024-01-15T10:00:00Z",
-                "summary": {
-                    "total": 2,
-                    "passed": 1,
-                    "failed": 0,
-                    "warnings": 1
-                },
+                "summary": {"total": 2, "passed": 1, "failed": 0, "warnings": 1},
                 "results": [
                     {
                         "check": "test_check_pass",
@@ -209,7 +199,7 @@ class TestValidationSummaryOutput:
                         "expected": "10",
                         "actual": "10",
                         "message": "Test passed",
-                        "severity": "error"
+                        "severity": "error",
                     },
                     {
                         "check": "test_check_warn",
@@ -218,9 +208,9 @@ class TestValidationSummaryOutput:
                         "expected": "10",
                         "actual": "5",
                         "message": "Test warning",
-                        "severity": "warning"
-                    }
-                ]
+                        "severity": "warning",
+                    },
+                ],
             }
             with open(report_path, "w") as f:
                 json.dump(report_data, f)
@@ -254,12 +244,7 @@ class TestValidationSummaryOutput:
             report_path = os.path.join(reports_dir, "cross_artifact_report.json")
             report_data = {
                 "timestamp": "2024-01-15T10:00:00Z",
-                "summary": {
-                    "total": 1,
-                    "passed": 0,
-                    "failed": 1,
-                    "warnings": 0
-                },
+                "summary": {"total": 1, "passed": 0, "failed": 1, "warnings": 0},
                 "results": [
                     {
                         "check": "test_check_fail",
@@ -268,9 +253,9 @@ class TestValidationSummaryOutput:
                         "expected": "10",
                         "actual": "5",
                         "message": "Global check failed",
-                        "severity": "error"
+                        "severity": "error",
                     }
-                ]
+                ],
             }
             with open(report_path, "w") as f:
                 json.dump(report_data, f)

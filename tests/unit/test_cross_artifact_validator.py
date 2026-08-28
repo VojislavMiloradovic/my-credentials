@@ -1,6 +1,7 @@
 """
 Unit tests for cross_artifact_validator.py module.
 """
+
 import json
 import os
 import tempfile
@@ -132,7 +133,9 @@ class TestCrossArtifactValidator:
     def test_validation_files_constant(self):
         assert "microsoft-learn" in VALIDATION_FILES
         assert "google-developer" in VALIDATION_FILES
-        assert "google-developer-baseline.json" not in VALIDATION_FILES["google-developer"]
+        assert (
+            "google-developer-baseline.json" not in VALIDATION_FILES["google-developer"]
+        )
 
     def test_get_declared_transforms_no_manifest(self):
         self.validator.manifest = None
@@ -151,12 +154,16 @@ class TestCrossArtifactValidator:
 
     def test_get_source_layer_for_artifact_no_manifest(self):
         self.validator.manifest = None
-        source = self.validator._get_source_layer_for_artifact("microsoft-learn", "test")
+        source = self.validator._get_source_layer_for_artifact(
+            "microsoft-learn", "test"
+        )
         assert source is None
 
     def test_artifacts_for_layer_no_manifest(self):
         self.validator.manifest = None
-        artifacts = self.validator._artifacts_for_layer("microsoft-learn", "L2_published")
+        artifacts = self.validator._artifacts_for_layer(
+            "microsoft-learn", "L2_published"
+        )
         assert artifacts == []
 
     def test_counts_for_layer(self):
@@ -211,12 +218,22 @@ class TestCrossArtifactValidatorValidateSourceSnapshots:
 
             with (
                 patch("cross_artifact_validator.VALIDATION_DIR", validation_dir),
-                patch("cross_artifact_validator.VALIDATION_FILES", {"microsoft-learn": ["microsoft-learn.json"]}),
-                patch("cross_artifact_validator.PLATFORMS", {"microsoft-learn": PLATFORMS["microsoft-learn"]}),
+                patch(
+                    "cross_artifact_validator.VALIDATION_FILES",
+                    {"microsoft-learn": ["microsoft-learn.json"]},
+                ),
+                patch(
+                    "cross_artifact_validator.PLATFORMS",
+                    {"microsoft-learn": PLATFORMS["microsoft-learn"]},
+                ),
             ):
                 self.validator.validate_source_snapshots()
             # Check that source_snapshot_exists check was added
-            results = [r for r in self.validator.results if r.check_name == "source_snapshot_exists"]
+            results = [
+                r
+                for r in self.validator.results
+                if r.check_name == "source_snapshot_exists"
+            ]
             assert len(results) >= 1
             assert results[0].passed is True
 
@@ -230,7 +247,11 @@ class TestCrossArtifactValidatorValidateArchiveComplete:
     def test_validate_archive_complete_missing(self):
         with patch("cross_artifact_validator.ARCHIVE_DIR", "/nonexistent"):
             self.validator.validate_archive_complete()
-            results = [r for r in self.validator.results if r.check_name == "archive_complete_exists"]
+            results = [
+                r
+                for r in self.validator.results
+                if r.check_name == "archive_complete_exists"
+            ]
             assert len(results) >= 1
             assert results[0].passed is False
 
@@ -252,10 +273,17 @@ class TestCrossArtifactValidatorValidateArchiveComplete:
 
             with (
                 patch("cross_artifact_validator.ARCHIVE_DIR", archive_dir),
-                patch("cross_artifact_validator.PLATFORMS", {"microsoft-learn": PLATFORMS["microsoft-learn"]}),
+                patch(
+                    "cross_artifact_validator.PLATFORMS",
+                    {"microsoft-learn": PLATFORMS["microsoft-learn"]},
+                ),
             ):
                 self.validator.validate_archive_complete()
-            results = [r for r in self.validator.results if r.check_name == "archive_complete_parsed"]
+            results = [
+                r
+                for r in self.validator.results
+                if r.check_name == "archive_complete_parsed"
+            ]
             assert len(results) >= 1
             assert results[0].passed is True
             assert results[0].actual == 2
@@ -270,7 +298,9 @@ class TestCrossArtifactValidatorValidateIndexFiles:
     def test_validate_index_files_missing(self):
         with patch("cross_artifact_validator.ARCHIVE_DIR", "/nonexistent"):
             self.validator.validate_index_files()
-            results = [r for r in self.validator.results if r.check_name == "index_file_exists"]
+            results = [
+                r for r in self.validator.results if r.check_name == "index_file_exists"
+            ]
             assert len(results) >= 1
             assert results[0].passed is False
 
@@ -288,10 +318,17 @@ class TestCrossArtifactValidatorValidateIndexFiles:
 
             with (
                 patch("cross_artifact_validator.ARCHIVE_DIR", archive_dir),
-                patch("cross_artifact_validator.PLATFORMS", {"microsoft-learn": PLATFORMS["microsoft-learn"]}),
+                patch(
+                    "cross_artifact_validator.PLATFORMS",
+                    {"microsoft-learn": PLATFORMS["microsoft-learn"]},
+                ),
             ):
                 self.validator.validate_index_files()
-            results = [r for r in self.validator.results if r.check_name == "index_total_parsed"]
+            results = [
+                r
+                for r in self.validator.results
+                if r.check_name == "index_total_parsed"
+            ]
             assert len(results) >= 1
             assert results[0].passed is True
             assert results[0].actual == 1234
@@ -323,10 +360,17 @@ class TestCrossArtifactValidatorValidateReadme:
 
             with (
                 patch("cross_artifact_validator.README_PATH", readme_path),
-                patch("cross_artifact_validator.PLATFORMS", {"microsoft-learn": PLATFORMS["microsoft-learn"]}),
+                patch(
+                    "cross_artifact_validator.PLATFORMS",
+                    {"microsoft-learn": PLATFORMS["microsoft-learn"]},
+                ),
             ):
                 self.validator.validate_readme()
-            results = [r for r in self.validator.results if r.check_name == "readme_count_parsed"]
+            results = [
+                r
+                for r in self.validator.results
+                if r.check_name == "readme_count_parsed"
+            ]
             assert len(results) >= 1
             assert results[0].passed is True
             assert results[0].actual == 1234
@@ -339,9 +383,13 @@ class TestCrossArtifactValidatorValidateJsonld:
         self.validator = CrossArtifactValidator(strict=True, warn_mode=False)
 
     def test_validate_jsonld_missing(self):
-        with patch("cross_artifact_validator.JSONLD_PATH", "/nonexistent/credentials.jsonld"):
+        with patch(
+            "cross_artifact_validator.JSONLD_PATH", "/nonexistent/credentials.jsonld"
+        ):
             self.validator.validate_jsonld()
-            results = [r for r in self.validator.results if r.check_name == "jsonld_exists"]
+            results = [
+                r for r in self.validator.results if r.check_name == "jsonld_exists"
+            ]
             assert len(results) >= 1
             assert results[0].passed is False
 
@@ -353,20 +401,33 @@ class TestCrossArtifactValidatorValidateJsonld:
                 "@type": "ItemList",
                 "mainEntity": {
                     "hasCredential": [
-                        {"platform": "microsoft-learn", "credentialStatus": "Active", "dateCreated": "2024-01-15"},
-                        {"platform": "microsoft-learn", "credentialStatus": "Retired", "dateCreated": "2023-06-10"},
+                        {
+                            "platform": "microsoft-learn",
+                            "credentialStatus": "Active",
+                            "dateCreated": "2024-01-15",
+                        },
+                        {
+                            "platform": "microsoft-learn",
+                            "credentialStatus": "Retired",
+                            "dateCreated": "2023-06-10",
+                        },
                     ]
-                }
+                },
             }
             with open(jsonld_path, "w") as f:
                 json.dump(content, f)
 
             with (
                 patch("cross_artifact_validator.JSONLD_PATH", jsonld_path),
-                patch("cross_artifact_validator.PLATFORMS", {"microsoft-learn": PLATFORMS["microsoft-learn"]}),
+                patch(
+                    "cross_artifact_validator.PLATFORMS",
+                    {"microsoft-learn": PLATFORMS["microsoft-learn"]},
+                ),
             ):
                 self.validator.validate_jsonld()
-            results = [r for r in self.validator.results if r.check_name == "jsonld_count"]
+            results = [
+                r for r in self.validator.results if r.check_name == "jsonld_count"
+            ]
             assert len(results) >= 1
             assert results[0].passed is True
             assert results[0].actual == 2
@@ -381,7 +442,9 @@ class TestCrossArtifactValidatorValidateLlmsTxt:
     def test_validate_llms_txt_missing(self):
         with patch("cross_artifact_validator.LLMS_PATH", "/nonexistent/llms.txt"):
             self.validator.validate_llms_txt()
-            results = [r for r in self.validator.results if r.check_name == "llms_txt_exists"]
+            results = [
+                r for r in self.validator.results if r.check_name == "llms_txt_exists"
+            ]
             assert len(results) >= 1
             assert results[0].passed is False
 
@@ -405,7 +468,12 @@ Microsoft Learn - 1,234 completed units
                     "complete_file": "microsoft-learn-complete.md",
                     "readme_marker_start": "<!-- MS_LEARN_START -->",
                     "readme_marker_end": "<!-- MS_LEARN_END -->",
-                    "count_keys": ["ms_learn_units", "ms_learn_achievements", "ms_learn_badges", "ms_learn_xp"],
+                    "count_keys": [
+                        "ms_learn_units",
+                        "ms_learn_achievements",
+                        "ms_learn_badges",
+                        "ms_learn_xp",
+                    ],
                     "index_total_pattern": r"\*\*Total Records Archived:\*\*\s*([\d,]+)",
                     "readme_patterns": [
                         r"Completed Individual Units.*?:\*\*\s*([\d,]+)",
@@ -419,7 +487,9 @@ Microsoft Learn - 1,234 completed units
                 patch("cross_artifact_validator.PLATFORMS", test_platforms),
             ):
                 self.validator.validate_llms_txt()
-            results = [r for r in self.validator.results if r.check_name == "llms_txt_count"]
+            results = [
+                r for r in self.validator.results if r.check_name == "llms_txt_count"
+            ]
             assert len(results) >= 1
             assert results[0].passed is True
             assert results[0].actual == 1234
@@ -432,9 +502,13 @@ class TestCrossArtifactValidatorValidateLlmsFull:
         self.validator = CrossArtifactValidator(strict=True, warn_mode=False)
 
     def test_validate_llms_full_missing(self):
-        with patch("cross_artifact_validator.LLMS_FULL_PATH", "/nonexistent/llms-full.txt"):
+        with patch(
+            "cross_artifact_validator.LLMS_FULL_PATH", "/nonexistent/llms-full.txt"
+        ):
             self.validator.validate_llms_full()
-            results = [r for r in self.validator.results if r.check_name == "llms_full_exists"]
+            results = [
+                r for r in self.validator.results if r.check_name == "llms_full_exists"
+            ]
             assert len(results) >= 1
             assert results[0].passed is False
 
@@ -451,10 +525,17 @@ Content here...
 
             with (
                 patch("cross_artifact_validator.LLMS_FULL_PATH", llms_full_path),
-                patch("cross_artifact_validator.PLATFORMS", {"microsoft-learn": PLATFORMS["microsoft-learn"]}),
+                patch(
+                    "cross_artifact_validator.PLATFORMS",
+                    {"microsoft-learn": PLATFORMS["microsoft-learn"]},
+                ),
             ):
                 self.validator.validate_llms_full()
-            results = [r for r in self.validator.results if r.check_name == "llms_full_includes_platform"]
+            results = [
+                r
+                for r in self.validator.results
+                if r.check_name == "llms_full_includes_platform"
+            ]
             assert len(results) >= 1
             assert results[0].passed is True
 
@@ -475,12 +556,27 @@ class TestCrossArtifactValidatorValidateCrossArtifactConsistency:
         counts.llms_txt_count = 100
         self.validator.platform_data["test"] = counts
 
-        with patch("cross_artifact_validator.PLATFORMS", {"test": {"name": "Test", "complete_file": "test-complete.md", "readme_marker_start": "", "readme_marker_end": "", "count_keys": [], "index_total_pattern": "", "readme_patterns": []}}):
+        with patch(
+            "cross_artifact_validator.PLATFORMS",
+            {
+                "test": {
+                    "name": "Test",
+                    "complete_file": "test-complete.md",
+                    "readme_marker_start": "",
+                    "readme_marker_end": "",
+                    "count_keys": [],
+                    "index_total_pattern": "",
+                    "readme_patterns": [],
+                }
+            },
+        ):
             # Mock manifest
             self.validator.manifest = None
             self.validator.validate_cross_artifact_consistency()
             # Check consistency results were added
-            _ = [r for r in self.validator.results if "count_consistency" in r.check_name]
+            _ = [
+                r for r in self.validator.results if "count_consistency" in r.check_name
+            ]
             # All should pass since counts match
 
 
@@ -494,7 +590,9 @@ class TestCrossArtifactValidatorValidatePlatformCoverage:
         with tempfile.TemporaryDirectory() as tmpdir:
             archive_dir = os.path.join(tmpdir, "archives")
             os.makedirs(archive_dir)
-            with open(os.path.join(archive_dir, "microsoft-learn-complete.md"), "w") as f:
+            with open(
+                os.path.join(archive_dir, "microsoft-learn-complete.md"), "w"
+            ) as f:
                 f.write("test")
             with open(os.path.join(archive_dir, "microsoft-learn-index.md"), "w") as f:
                 f.write("test")
@@ -505,10 +603,13 @@ class TestCrossArtifactValidatorValidatePlatformCoverage:
 
             with (
                 patch("cross_artifact_validator.ARCHIVE_DIR", archive_dir),
-                patch("cross_artifact_validator.PLATFORMS", {
-                    "microsoft-learn": PLATFORMS["microsoft-learn"],
-                    "google-skills": PLATFORMS["google-skills"],
-                }),
+                patch(
+                    "cross_artifact_validator.PLATFORMS",
+                    {
+                        "microsoft-learn": PLATFORMS["microsoft-learn"],
+                        "google-skills": PLATFORMS["google-skills"],
+                    },
+                ),
                 patch("cross_artifact_validator.JSONLD_PATH", "/nonexistent"),
                 patch("cross_artifact_validator.LLMS_PATH", "/nonexistent"),
                 patch("cross_artifact_validator.LLMS_FULL_PATH", "/nonexistent"),
@@ -530,9 +631,15 @@ class TestCrossArtifactValidatorValidateLatestRecordOrdering:
         counts.latest_record_date_jsonld = "2024-01-17"
         self.validator.platform_data["test"] = counts
 
-        with patch("cross_artifact_validator.PLATFORMS", {"test": PLATFORMS["microsoft-learn"]}):
+        with patch(
+            "cross_artifact_validator.PLATFORMS", {"test": PLATFORMS["microsoft-learn"]}
+        ):
             self.validator.validate_latest_record_ordering()
-            results = [r for r in self.validator.results if r.check_name == "latest_record_date_consistency"]
+            results = [
+                r
+                for r in self.validator.results
+                if r.check_name == "latest_record_date_consistency"
+            ]
             assert len(results) >= 1
             assert results[0].passed is True
             assert results[0].actual == "2 days"
@@ -544,9 +651,15 @@ class TestCrossArtifactValidatorValidateLatestRecordOrdering:
         counts.latest_record_date_jsonld = "2024-03-01"
         self.validator.platform_data["test"] = counts
 
-        with patch("cross_artifact_validator.PLATFORMS", {"test": PLATFORMS["microsoft-learn"]}):
+        with patch(
+            "cross_artifact_validator.PLATFORMS", {"test": PLATFORMS["microsoft-learn"]}
+        ):
             self.validator.validate_latest_record_ordering()
-            results = [r for r in self.validator.results if r.check_name == "latest_record_date_consistency"]
+            results = [
+                r
+                for r in self.validator.results
+                if r.check_name == "latest_record_date_consistency"
+            ]
             assert len(results) >= 1
             assert results[0].passed is False
             assert results[0].severity == "warning"
@@ -560,16 +673,28 @@ class TestCrossArtifactValidatorRunAll:
 
     def test_run_all(self):
         with (
-            patch("cross_artifact_validator.CrossArtifactValidator.validate_source_snapshots"),
-            patch("cross_artifact_validator.CrossArtifactValidator.validate_archive_complete"),
-            patch("cross_artifact_validator.CrossArtifactValidator.validate_index_files"),
+            patch(
+                "cross_artifact_validator.CrossArtifactValidator.validate_source_snapshots"
+            ),
+            patch(
+                "cross_artifact_validator.CrossArtifactValidator.validate_archive_complete"
+            ),
+            patch(
+                "cross_artifact_validator.CrossArtifactValidator.validate_index_files"
+            ),
             patch("cross_artifact_validator.CrossArtifactValidator.validate_readme"),
             patch("cross_artifact_validator.CrossArtifactValidator.validate_jsonld"),
             patch("cross_artifact_validator.CrossArtifactValidator.validate_llms_txt"),
             patch("cross_artifact_validator.CrossArtifactValidator.validate_llms_full"),
-            patch("cross_artifact_validator.CrossArtifactValidator.validate_cross_artifact_consistency"),
-            patch("cross_artifact_validator.CrossArtifactValidator.validate_platform_coverage"),
-            patch("cross_artifact_validator.CrossArtifactValidator.validate_latest_record_ordering"),
+            patch(
+                "cross_artifact_validator.CrossArtifactValidator.validate_cross_artifact_consistency"
+            ),
+            patch(
+                "cross_artifact_validator.CrossArtifactValidator.validate_platform_coverage"
+            ),
+            patch(
+                "cross_artifact_validator.CrossArtifactValidator.validate_latest_record_ordering"
+            ),
         ):
             success = self.validator.run_all()
             assert success is True
@@ -628,33 +753,45 @@ class TestCrossArtifactValidatorMain:
 
     def test_main_strict_mode(self):
         with (
-            patch("cross_artifact_validator.CrossArtifactValidator.run_all", return_value=True),
+            patch(
+                "cross_artifact_validator.CrossArtifactValidator.run_all",
+                return_value=True,
+            ),
             patch("cross_artifact_validator.CrossArtifactValidator.generate_report"),
             patch("sys.argv", ["cross_artifact_validator.py", "--mode", "strict"]),
         ):
             with pytest.raises(SystemExit) as exc_info:
                 from cross_artifact_validator import main
+
                 main()
             assert exc_info.value.code == 0
 
     def test_main_warn_mode(self):
         with (
-            patch("cross_artifact_validator.CrossArtifactValidator.run_all", return_value=True),
+            patch(
+                "cross_artifact_validator.CrossArtifactValidator.run_all",
+                return_value=True,
+            ),
             patch("cross_artifact_validator.CrossArtifactValidator.generate_report"),
             patch("sys.argv", ["cross_artifact_validator.py", "--mode", "warn"]),
         ):
             with pytest.raises(SystemExit) as exc_info:
                 from cross_artifact_validator import main
+
                 main()
             assert exc_info.value.code == 0
 
     def test_main_failure(self):
         with (
-            patch("cross_artifact_validator.CrossArtifactValidator.run_all", return_value=False),
+            patch(
+                "cross_artifact_validator.CrossArtifactValidator.run_all",
+                return_value=False,
+            ),
             patch("cross_artifact_validator.CrossArtifactValidator.generate_report"),
             patch("sys.argv", ["cross_artifact_validator.py", "--mode", "strict"]),
         ):
             with pytest.raises(SystemExit) as exc_info:
                 from cross_artifact_validator import main
+
                 main()
             assert exc_info.value.code == 1

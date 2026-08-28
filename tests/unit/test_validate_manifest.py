@@ -1,6 +1,7 @@
 """
 Unit tests for validate_manifest.py module.
 """
+
 import os
 import sys
 import tempfile
@@ -14,10 +15,11 @@ class TestValidateManifest:
     def test_load_manifest_imports(self):
         """Test that the module can be imported."""
         import validate_manifest
-        assert hasattr(validate_manifest, 'validate_manifest')
-        assert hasattr(validate_manifest, 'validate_artifact_consistency')
-        assert hasattr(validate_manifest, 'validate_transform_types')
-        assert hasattr(validate_manifest, 'main')
+
+        assert hasattr(validate_manifest, "validate_manifest")
+        assert hasattr(validate_manifest, "validate_artifact_consistency")
+        assert hasattr(validate_manifest, "validate_transform_types")
+        assert hasattr(validate_manifest, "main")
 
     def test_validate_manifest_success(self):
         """Test validate_manifest function with valid manifest."""
@@ -56,6 +58,7 @@ platforms:
             sys.path.insert(0, tmpdir)
             try:
                 from models.layer_manifest import load_manifest
+
                 manifest = load_manifest()
                 assert manifest.version == 1
                 assert "microsoft-learn" in manifest.platforms
@@ -69,7 +72,7 @@ platforms:
             # Create archives directory
             archives_dir = os.path.join(tmpdir, "archives")
             os.makedirs(archives_dir)
-            
+
             # Create manifest
             manifest_path = os.path.join(tmpdir, "dataset_layers.yaml")
             manifest_content = """
@@ -97,13 +100,15 @@ platforms:
 """
             with open(manifest_path, "w") as f:
                 f.write(manifest_content)
-            
+
             # Create required archive files
-            with open(os.path.join(archives_dir, "microsoft-learn-archive.md"), "w") as f:
+            with open(
+                os.path.join(archives_dir, "microsoft-learn-archive.md"), "w"
+            ) as f:
                 f.write("# Archive")
             with open(os.path.join(archives_dir, "microsoft-learn-index.md"), "w") as f:
                 f.write("# Index")
-            
+
             # Create cross-platform artifacts
             with open(os.path.join(tmpdir, "credentials.jsonld"), "w") as f:
                 f.write("{}")
@@ -119,6 +124,7 @@ platforms:
             sys.path.insert(0, tmpdir)
             try:
                 from validate_manifest import validate_artifact_consistency
+
                 result = validate_artifact_consistency()
                 assert result is True
             finally:
@@ -160,6 +166,7 @@ platforms:
             sys.path.insert(0, tmpdir)
             try:
                 from validate_manifest import validate_transform_types
+
                 result = validate_transform_types()
                 assert result is True
             finally:
@@ -201,6 +208,7 @@ platforms:
             sys.path.insert(0, tmpdir)
             try:
                 from validate_manifest import validate_transform_types
+
                 result = validate_transform_types()
                 assert result is False
             finally:
@@ -247,6 +255,7 @@ platforms:
             sys.path.insert(0, tmpdir)
             try:
                 from validate_manifest import validate_transform_types
+
                 result = validate_transform_types()
                 assert result is True
             finally:
@@ -262,7 +271,7 @@ class TestValidateManifestMain:
         with tempfile.TemporaryDirectory() as tmpdir:
             archives_dir = os.path.join(tmpdir, "archives")
             os.makedirs(archives_dir)
-            
+
             manifest_path = os.path.join(tmpdir, "dataset_layers.yaml")
             manifest_content = """
 version: "1.0"
@@ -289,8 +298,10 @@ platforms:
 """
             with open(manifest_path, "w") as f:
                 f.write(manifest_content)
-            
-            with open(os.path.join(archives_dir, "microsoft-learn-archive.md"), "w") as f:
+
+            with open(
+                os.path.join(archives_dir, "microsoft-learn-archive.md"), "w"
+            ) as f:
                 f.write("# Archive")
             with open(os.path.join(archives_dir, "microsoft-learn-index.md"), "w") as f:
                 f.write("# Index")
@@ -308,6 +319,7 @@ platforms:
             sys.path.insert(0, tmpdir)
             try:
                 from validate_manifest import main
+
                 with pytest.raises(SystemExit) as exc_info:
                     main()
                 assert exc_info.value.code == 0
@@ -350,6 +362,7 @@ platforms:
             sys.path.insert(0, tmpdir)
             try:
                 from validate_manifest import main
+
                 with pytest.raises(SystemExit) as exc_info:
                     main()
                 assert exc_info.value.code == 1
