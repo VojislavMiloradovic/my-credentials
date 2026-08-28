@@ -135,15 +135,17 @@ Showing latest 10 of 711 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 573
-**Total Verified Skills Mapped:** 1995
+**Total Portfolio Credentials:** 575
+**Total Verified Skills Mapped:** 1997
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 573 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 575 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-28 | [Cloud Tech Professional Microsoft 365](https://www.credly.com/badges/da472709-da7d-4ddd-9611-e119004c08f3/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-28 | [Cloud Tech Professional Security Awareness Training](https://www.credly.com/badges/a27ae8fb-f3f3-4cec-9c2c-b6ba415f4150/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-27 | [Analyze Sentiment with Natural Language API Skill Badge](https://www.credly.com/badges/4ad490cd-fa1d-4436-8895-6d233aa59d3f/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-27 | [Build LookML Objects in Looker Skill Badge](https://www.credly.com/badges/f1fe4c27-fc5b-4f16-857c-0a78b63662de/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-27 | [Implement Cloud Storage and Data Protection Solutions](https://www.credly.com/badges/d6b57587-ca0e-49ae-ac3f-c27583931211/public_url) | Google Cloud | Credly Verified Badge |
@@ -152,8 +154,6 @@ Showing latest 10 of 573 credentials. View full dataset via [Platform Archive In
 | 2026-08-25 | [Cilium Gateway API: External Authentication](https://www.credly.com/badges/99029a9f-411a-4645-b898-91c7cd5bd127/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-25 | [SASE Expert Level 1](https://www.credly.com/badges/0ba13d72-84cf-492a-affc-884dcb154111/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-25 | [SASE Expert Level 2](https://www.credly.com/badges/a67ce979-bda5-4132-abb4-41ce77285177/public_url) | Cato Networks | Credly Verified Badge |
-| 2026-08-24 | [Detecting VoidLink Malware with Tetragon](https://www.credly.com/badges/b79ddcee-1373-4c72-b0ea-41fe0857ce55/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-23 | [Cilium AI/ML Security](https://www.credly.com/badges/0d6b393c-0f31-4c76-98ed-0adb380e23f0/public_url) | Isovalent | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
