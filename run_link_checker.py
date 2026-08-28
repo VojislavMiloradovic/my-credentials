@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Custom link checker wrapper for GitHub Actions.
 Runs lychee with JSON output and generates a concise summary
