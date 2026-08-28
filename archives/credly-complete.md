@@ -1,6 +1,6 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 575 records.
+This document represents a unified, verifiable list of all 577 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
@@ -10,8 +10,10 @@ This document represents a unified, verifiable list of all 575 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-28 | [Cloud Computing Fundamentals](https://www.credly.com/badges/3372ff55-1a0f-4fd1-b85e-4642dae974c0/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-08-28 | [Cloud Tech Professional Microsoft 365](https://www.credly.com/badges/da472709-da7d-4ddd-9611-e119004c08f3/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-28 | [Cloud Tech Professional Security Awareness Training](https://www.credly.com/badges/a27ae8fb-f3f3-4cec-9c2c-b6ba415f4150/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-28 | [Getting Started with Data](https://www.credly.com/badges/0fa215bc-cc0b-46a6-a2cd-2963394e085d/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-08-27 | [Analyze Sentiment with Natural Language API Skill Badge](https://www.credly.com/badges/4ad490cd-fa1d-4436-8895-6d233aa59d3f/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-27 | [Build LookML Objects in Looker Skill Badge](https://www.credly.com/badges/f1fe4c27-fc5b-4f16-857c-0a78b63662de/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-27 | [Implement Cloud Storage and Data Protection Solutions](https://www.credly.com/badges/d6b57587-ca0e-49ae-ac3f-c27583931211/public_url) | Google Cloud | Credly Verified Badge |

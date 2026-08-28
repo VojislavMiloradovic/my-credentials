@@ -1,7 +1,41 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 575,
+  "total_count": 577,
   "credentials": [
+    {
+      "id": "3372ff55-1a0f-4fd1-b85e-4642dae974c0",
+      "title": "Cloud Computing Fundamentals",
+      "name": "Cloud Computing Fundamentals",
+      "issuer": "IBM SkillsBuild",
+      "issuer_name": "IBM SkillsBuild",
+      "issued_at": "2026-08-28",
+      "issued_at_date": "2026-08-28",
+      "date": "2026-08-28",
+      "image_url": "https://images.credly.com/images/5624b38a-5471-4d5c-a2bd-f4575babaa61/image.png",
+      "verify_url": "https://www.credly.com/badges/3372ff55-1a0f-4fd1-b85e-4642dae974c0/public_url",
+      "url": "https://www.credly.com/badges/3372ff55-1a0f-4fd1-b85e-4642dae974c0/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cloud Computing",
+        "Cloud Infrastructure",
+        "Cloud Migration",
+        "Cloud Security",
+        "Computing Services",
+        "Containers",
+        "Docker",
+        "Hybrid Cloud",
+        "Infrastructure As A Service (IaaS)",
+        "Platform As A Service (PaaS)",
+        "Private Cloud",
+        "Public Cloud",
+        "PWID-B0645400",
+        "Software As A Service (SaaS)",
+        "Virtualization",
+        "Visual Studio Code"
+      ],
+      "retired": false
+    },
     {
       "id": "da472709-da7d-4ddd-9611-e119004c08f3",
       "title": "Cloud Tech Professional Microsoft 365",
@@ -42,6 +76,32 @@
         "Security",
         "Security Awareness",
         "Tech"
+      ],
+      "retired": false
+    },
+    {
+      "id": "0fa215bc-cc0b-46a6-a2cd-2963394e085d",
+      "title": "Getting Started with Data",
+      "name": "Getting Started with Data",
+      "issuer": "IBM SkillsBuild",
+      "issuer_name": "IBM SkillsBuild",
+      "issued_at": "2026-08-28",
+      "issued_at_date": "2026-08-28",
+      "date": "2026-08-28",
+      "image_url": "https://images.credly.com/images/9a6e098a-618a-4e5a-8e8e-364a66b2f3de/Getting_20Started_20With_20Data_20Badge.png",
+      "verify_url": "https://www.credly.com/badges/0fa215bc-cc0b-46a6-a2cd-2963394e085d/public_url",
+      "url": "https://www.credly.com/badges/0fa215bc-cc0b-46a6-a2cd-2963394e085d/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Big Data",
+        "Data",
+        "Data Analysis",
+        "Data Analytics",
+        "Data Science",
+        "Data Visualization",
+        "PWID-B0927800",
+        "Tableau"
       ],
       "retired": false
     },
