@@ -1,7 +1,634 @@
 {
   "profile_id": "2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_count": 350,
+  "total_count": 383,
   "badges": [
+    {
+      "id": "google-skills-badge-27329132",
+      "title": "Monitoring in Google Cloud",
+      "name": "Monitoring in Google Cloud",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/6b1HAqO0MPg%2F0awR9UdKAUgzrfl9qmnty1cjI2NcPNU%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329132",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329132",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Monitoring in Google Cloud"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27329116",
+      "title": "Arcade Base Camp August 2026",
+      "name": "Arcade Base Camp August 2026",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/Bp281hmVeuAOGo4f2jcJSghF2De99fWbcHcrGgBM5Sg%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329116",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329116",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Arcade Base Camp August 2026"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27328238",
+      "title": "Analyze Sentiment with Natural Language API",
+      "name": "Analyze Sentiment with Natural Language API",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/IwoV5yIJ1i3GJ%2BULEbrXtiv%2BhXE3wV9QFTLOd8R3DSo%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27328238",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27328238",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Analyze Sentiment with Natural Language API"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27327295",
+      "title": "Arcade Re-Trail: Vaults & Vectors",
+      "name": "Arcade Re-Trail: Vaults & Vectors",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/iAUPykYUheJoZUrArdzblTqFRmY%2Fu6HCGgLoH1KH8fM%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27327295",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27327295",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Arcade Re-Trail: Vaults & Vectors"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27325786",
+      "title": "Implement Cloud Storage and Data Protection Solutions",
+      "name": "Implement Cloud Storage and Data Protection Solutions",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/Wd86cQw9UwhtybfUCT3vGjex0P7VdpgWbmbkm%2FNIdO4%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27325786",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27325786",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Implement Cloud Storage and Data Protection Solutions"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27324095",
+      "title": "Build LookML Objects in Looker",
+      "name": "Build LookML Objects in Looker",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/6LkKzPShpLU5g593%2Br4o03tKvKyCi%2FyAZxyfnq%2B4o3w%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27324095",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27324095",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Build LookML Objects in Looker"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27296691",
+      "title": "Generative AI Explorer - Agent Platform",
+      "name": "Generative AI Explorer - Agent Platform",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.qwiklabs.com/tkWGX3gu4i0cgGWkyI3s4SbQwZoqRAa9XiXIVbCVxv8%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27296691",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27296691",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Generative AI Explorer - Agent Platform"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27286575",
+      "title": "Build a Certification Study Guide: ADP Exam Prep",
+      "name": "Build a Certification Study Guide: ADP Exam Prep",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/gGI%2F%2FT%2BIj7bqXaEBk4oDBiE6lS2iNnY0hfmYkZIMwkY%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286575",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286575",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Build a Certification Study Guide: ADP Exam Prep"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27286386",
+      "title": "Secure Enterprise AI Agents",
+      "name": "Secure Enterprise AI Agents",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/JzeIsTjkqwm6n%2BUtTp2lXyuW7BxreCM7NeyARm1xmO8%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286386",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286386",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Secure Enterprise AI Agents"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27286333",
+      "title": "Google DeepMind : 08 Capstone: Develop Your Model for Real-World Impact",
+      "name": "Google DeepMind : 08 Capstone: Develop Your Model for Real-World Impact",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/CDWj%2FcvVlVbAuUiZxpF5rCQA7ijHCjgPNJLdXUJvYns%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286333",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286333",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Google DeepMind : 08 Capstone: Develop Your Model for Real-World Impact"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27286234",
+      "title": "Build Agent Skills with Google",
+      "name": "Build Agent Skills with Google",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/0fvA7Fn0Cgfa809FpmJqzgoWFzcoqbMExyFK4EXtink%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286234",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286234",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Build Agent Skills with Google"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27286201",
+      "title": "Build Collaborative Multi-Agent Systems with ADK & MCP",
+      "name": "Build Collaborative Multi-Agent Systems with ADK & MCP",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/VVLNDuGfrqx1l%2BUst%2BgvfFSaTOrtJ3zkpY7Ukh8ORJY%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286201",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286201",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Build Collaborative Multi-Agent Systems with ADK & MCP"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27286098",
+      "title": "Simplify Your Architecture with Network Connectivity Center",
+      "name": "Simplify Your Architecture with Network Connectivity Center",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/1nh7PpELW3HqFOAtEXPt3HO%2F1fHV0olw3xJ6RRZs6Z8%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286098",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286098",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Simplify Your Architecture with Network Connectivity Center"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285992",
+      "title": "Critical Thinking in AI-Driven Workflows",
+      "name": "Critical Thinking in AI-Driven Workflows",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/4jAnYi3Gx6NBPDE1R4YEVByNjsYD%2B00M%2F6c5O2Y2iTo%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285992",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285992",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Critical Thinking in AI-Driven Workflows"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285912",
+      "title": "Looker Core Administration",
+      "name": "Looker Core Administration",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/JMAeQmSUACAjecJf4LqocSKZ6E4MtYFcByk4LVdelrA%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285912",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285912",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Looker Core Administration"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285632",
+      "title": "AI Boost Bites: Build a Branded Knowledge Base",
+      "name": "AI Boost Bites: Build a Branded Knowledge Base",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/vO%2B26u1iJCnRMMH5lV%2FC9%2Bn%2F6cPtQQqa%2BBJ0xXenmcY%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285632",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285632",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Build a Branded Knowledge Base"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285586",
+      "title": "AI Boost Bites: Master Your Meetings with Gemini",
+      "name": "AI Boost Bites: Master Your Meetings with Gemini",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/ji02J%2F3kFNND1luU9vBRCkkbEiPbn%2BHrWTS3ecHBGlA%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285586",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285586",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Master Your Meetings with Gemini"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285507",
+      "title": "AI Boost Bites: Build a Campaign Project Tracker",
+      "name": "AI Boost Bites: Build a Campaign Project Tracker",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/R6yttapUJvMmIYj5sk7V0MxTNfMH09Q2b%2Fe18WU0mlw%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285507",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285507",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Build a Campaign Project Tracker"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285469",
+      "title": "AI Boost Bites: Turn One Asset into a Campaign",
+      "name": "AI Boost Bites: Turn One Asset into a Campaign",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/Y4y4An%2Bdr%2BMKzVsn4CPUQvte0HIkSQVQQnKohNpaswY%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285469",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285469",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Turn One Asset into a Campaign"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285427",
+      "title": "AI Boost Bites: Create Better Campaign Briefs",
+      "name": "AI Boost Bites: Create Better Campaign Briefs",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/Z6A4l7hl95j2gX9I3fScrzDyOsweTExK%2FdDyvbqmQX0%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285427",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285427",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Create Better Campaign Briefs"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285384",
+      "title": "AI Boost Bites: Create Product Videos with Vids",
+      "name": "AI Boost Bites: Create Product Videos with Vids",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/rRmD70Bq8FMlt5jhD0VGSyyuq3gLDEJTgQ6kxgwj%2FSU%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285384",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285384",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Create Product Videos with Vids"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285332",
+      "title": "AI Boost Bites: Design Strategy Presentations",
+      "name": "AI Boost Bites: Design Strategy Presentations",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/8FlB%2Bhe5XyASvbMIhzhNakuJIcnGKLCQQYVI7BGFR70%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285332",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285332",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Design Strategy Presentations"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285273",
+      "title": "AI Boost Bites: Automate Marketing Workflows",
+      "name": "AI Boost Bites: Automate Marketing Workflows",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/mJMJl%2BAqaWNnZXlYuzeX2LpeLK%2FaTjDvJVBOWycacko%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285273",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285273",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Automate Marketing Workflows"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285234",
+      "title": "AI Boost Bites: Master the ABCDQ of Prompting",
+      "name": "AI Boost Bites: Master the ABCDQ of Prompting",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/Uiv0LWVeZOb6ez4wUG6XgNeKFLxBtxzJAWVMCdLBonc%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285234",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285234",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Master the ABCDQ of Prompting"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285191",
+      "title": "AI Boost Bites: Generate the Perfect Audio Track",
+      "name": "AI Boost Bites: Generate the Perfect Audio Track",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/%2FDPpzmgwWg5A15PVXbxGtfxr6eV6B52EXJ3EUzJXTxQ%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285191",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285191",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Generate the Perfect Audio Track"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285137",
+      "title": "AI Boost Bites: Intro to Gemini Enterprise",
+      "name": "AI Boost Bites: Intro to Gemini Enterprise",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/ptCmBXmRWu8MlutJLvJ42gvMCuAzek1AVXAbqrRgPHw%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285137",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285137",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Intro to Gemini Enterprise"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285090",
+      "title": "AI Boost Bites: Brand Enforcer",
+      "name": "AI Boost Bites: Brand Enforcer",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/BsSotG06PcZZ6%2F7VeQxTvaSeM0g75TZcjgIKw%2FCiIvE%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285090",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285090",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Brand Enforcer"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27285033",
+      "title": "AI Boost Bites: Win Pitches with Gemini Notebook",
+      "name": "AI Boost Bites: Win Pitches with Gemini Notebook",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/Tisyin20B1gQJu1pGUcg5S%2FXP9xyRG%2FkE2ygWltY0tE%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285033",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285033",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: Win Pitches with Gemini Notebook"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27284973",
+      "title": "AI Boost Bites: From Raw Data to Slides",
+      "name": "AI Boost Bites: From Raw Data to Slides",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/HJoXtXHdCr96vdIzIDnvPXtnJ7m9jaxj28xywU8zPEA%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284973",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284973",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: From Raw Data to Slides"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27284924",
+      "title": "AI Boost Bites: The Expert Scaler",
+      "name": "AI Boost Bites: The Expert Scaler",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/D4c%2FrAIaOAqdfm45yBbaFSGHCW1KC%2FL%2FQ2CURanjiqk%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284924",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284924",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: The Expert Scaler"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27284867",
+      "title": "AI Boost Bites: The Seller's AI Data Analyst",
+      "name": "AI Boost Bites: The Seller's AI Data Analyst",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/mHk5LG6sgwnVcbEW30fXECWA3u6B4L1rg9z0Dh8cDHo%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284867",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284867",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "AI Boost Bites: The Seller's AI Data Analyst"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27284806",
+      "title": "Gemini in Google Workspace Studio",
+      "name": "Gemini in Google Workspace Studio",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/mAlWWVsTPUL5skT5WH05qb9Ut2JSlhB0%2FuZLMgExRF8%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284806",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284806",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Gemini in Google Workspace Studio"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27284033",
+      "title": "Google Cloud Agent Governance and Security",
+      "name": "Google Cloud Agent Governance and Security",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-26",
+      "issued_at_date": "2026-08-26",
+      "date": "2026-08-26",
+      "image_url": "https://cdn.qwiklabs.com/jrsjTJ63CAA8sYYKJCCQw6kQF7G40fmLLCn%2BWkH3BLc%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284033",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284033",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Google Cloud Agent Governance and Security"
+      ],
+      "retired": false
+    },
     {
       "id": "google-skills-badge-27125242",
       "title": "AI Boost Bites: AI for the Modern Recruiter",

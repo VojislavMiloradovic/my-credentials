@@ -1,7 +1,91 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 569,
+  "total_count": 573,
   "credentials": [
+    {
+      "id": "4ad490cd-fa1d-4436-8895-6d233aa59d3f",
+      "title": "Analyze Sentiment with Natural Language API Skill Badge",
+      "name": "Analyze Sentiment with Natural Language API Skill Badge",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://images.credly.com/images/bd687b0c-3959-4e06-b511-6623e32b8fdb/image.png",
+      "verify_url": "https://www.credly.com/badges/4ad490cd-fa1d-4436-8895-6d233aa59d3f/public_url",
+      "url": "https://www.credly.com/badges/4ad490cd-fa1d-4436-8895-6d233aa59d3f/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Natural Language API",
+        "NLP",
+        "Sentiment Analysis"
+      ],
+      "retired": false
+    },
+    {
+      "id": "f1fe4c27-fc5b-4f16-857c-0a78b63662de",
+      "title": "Build LookML Objects in Looker Skill Badge",
+      "name": "Build LookML Objects in Looker Skill Badge",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://images.credly.com/images/2607a61b-7f94-43d7-bb97-3e811312c53e/image.png",
+      "verify_url": "https://www.credly.com/badges/f1fe4c27-fc5b-4f16-857c-0a78b63662de/public_url",
+      "url": "https://www.credly.com/badges/f1fe4c27-fc5b-4f16-857c-0a78b63662de/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Data Model",
+        "Looker",
+        "LookerML"
+      ],
+      "retired": false
+    },
+    {
+      "id": "d6b57587-ca0e-49ae-ac3f-c27583931211",
+      "title": "Implement Cloud Storage and Data Protection Solutions",
+      "name": "Implement Cloud Storage and Data Protection Solutions",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://images.credly.com/images/88e2d83e-e9ab-4615-a98b-c8536869e4e6/blob",
+      "verify_url": "https://www.credly.com/badges/d6b57587-ca0e-49ae-ac3f-c27583931211/public_url",
+      "url": "https://www.credly.com/badges/d6b57587-ca0e-49ae-ac3f-c27583931211/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Bucket Lock",
+        "Cloud Storage",
+        "Cloud Storage Bucket"
+      ],
+      "retired": false
+    },
+    {
+      "id": "7f426d35-6e3b-419e-8236-e382d94e9666",
+      "title": "Monitoring in Google Cloud Skill Badge",
+      "name": "Monitoring in Google Cloud Skill Badge",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-27",
+      "issued_at_date": "2026-08-27",
+      "date": "2026-08-27",
+      "image_url": "https://images.credly.com/images/5a9654e8-37e5-4043-8a94-eeb0f98a2a9c/image.png",
+      "verify_url": "https://www.credly.com/badges/7f426d35-6e3b-419e-8236-e382d94e9666/public_url",
+      "url": "https://www.credly.com/badges/7f426d35-6e3b-419e-8236-e382d94e9666/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Cloud Monitoring",
+        "Dashboard",
+        "Google Cloud Platform (GCP)"
+      ],
+      "retired": false
+    },
     {
       "id": "f5b5f3bb-1c90-4409-bda9-fb96331e43bf",
       "title": "AI In Cybersecurity",
@@ -12078,14 +12162,14 @@
     },
     {
       "id": "431a017f-982f-4aa5-a394-03fff17bed23",
-      "title": "Apply AI: Update Your Resume",
-      "name": "Apply AI: Update Your Resume",
+      "title": "Build Your Resume with AI",
+      "name": "Build Your Resume with AI",
       "issuer": "Cisco",
       "issuer_name": "Cisco",
       "issued_at": "2026-04-24",
       "issued_at_date": "2026-04-24",
       "date": "2026-04-24",
-      "image_url": "https://images.credly.com/images/33ba62e4-b26d-4b95-9121-1ad01b754224/blob",
+      "image_url": "https://images.credly.com/images/f8561eaa-3263-4a14-b8e6-2b31484963be/blob",
       "verify_url": "https://www.credly.com/badges/431a017f-982f-4aa5-a394-03fff17bed23/public_url",
       "url": "https://www.credly.com/badges/431a017f-982f-4aa5-a394-03fff17bed23/public_url",
       "type": "Credly Verified Badge",
@@ -12186,29 +12270,6 @@
       "retired": false
     },
     {
-      "id": "6d85c6c9-351b-42fe-a3ad-27598dd34dec",
-      "title": "Apply AI: Analyze Customer Reviews",
-      "name": "Apply AI: Analyze Customer Reviews",
-      "issuer": "Cisco",
-      "issuer_name": "Cisco",
-      "issued_at": "2026-04-22",
-      "issued_at_date": "2026-04-22",
-      "date": "2026-04-22",
-      "image_url": "https://images.credly.com/images/32aad19b-a359-48f5-a332-2cd9ac2b8731/blob",
-      "verify_url": "https://www.credly.com/badges/6d85c6c9-351b-42fe-a3ad-27598dd34dec/public_url",
-      "url": "https://www.credly.com/badges/6d85c6c9-351b-42fe-a3ad-27598dd34dec/public_url",
-      "type": "Credly Verified Badge",
-      "verification_type": "Credly Verified Badge",
-      "skills": [
-        "AI Tool Selection",
-        "LLM Prompting",
-        "Spreadsheet Formulas",
-        "Tabular Data",
-        "Thematic Analysis"
-      ],
-      "retired": false
-    },
-    {
       "id": "57c930ea-4372-4144-a8d3-92e615d6f439",
       "title": "Discovering Extended Warehouse Management with SAP S/4HANA - Record of Achievement",
       "name": "Discovering Extended Warehouse Management with SAP S/4HANA - Record of Achievement",
@@ -12260,6 +12321,29 @@
         "User-Centered Design",
         "User Experience (UX)",
         "User Research"
+      ],
+      "retired": false
+    },
+    {
+      "id": "6d85c6c9-351b-42fe-a3ad-27598dd34dec",
+      "title": "Find Insights with AI",
+      "name": "Find Insights with AI",
+      "issuer": "Cisco",
+      "issuer_name": "Cisco",
+      "issued_at": "2026-04-22",
+      "issued_at_date": "2026-04-22",
+      "date": "2026-04-22",
+      "image_url": "https://images.credly.com/images/5ba48a47-11b2-452f-a641-5184ba2f6a67/blob",
+      "verify_url": "https://www.credly.com/badges/6d85c6c9-351b-42fe-a3ad-27598dd34dec/public_url",
+      "url": "https://www.credly.com/badges/6d85c6c9-351b-42fe-a3ad-27598dd34dec/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "AI Tool Selection",
+        "LLM Prompting",
+        "Spreadsheet Formulas",
+        "Tabular Data",
+        "Thematic Analysis"
       ],
       "retired": false
     },

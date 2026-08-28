@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-08-25 23:29 UTC
+> **Last Generated:** 2026-08-27 21:30 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -63,37 +63,37 @@ Showing latest 10 of 4,817 achievements. View full dataset via [Platform Archive
 
 **Public Profile:** [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Total Portfolio Credentials:** 350
-**Total Verified Skills Mapped:** 349
+**Total Portfolio Credentials:** 383
+**Total Verified Skills Mapped:** 382
 
 #### Google Skills Learning Statistics
 
 | Metric | Count |
 | :--- | :---: |
-| **Check** | 1,928 |
+| **Check** | 1,976 |
 | **Classroom** | 0 |
-| **Course** | 358 |
-| **Game** | 7 |
-| **Lab** | 256 |
-| **Lesson** | 4,917 |
+| **Course** | 389 |
+| **Game** | 9 |
+| **Lab** | 277 |
+| **Lesson** | 4,985 |
 | **Path** | 20 |
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 350 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-08-part-08.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-08.md)), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 383 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-08-part-08.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-08.md)), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-08-22 | [AI Boost Bites: AI for the Modern Recruiter](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125242) | Google Cloud | Google Skill Badge |
-| 2026-08-22 | [AI Boost Bites: Your AI-Powered Career Coach](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125196) | Google Cloud | Google Skill Badge |
-| 2026-08-22 | [AI Boost Bites: The Project Coordinator's Command Center](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125162) | Google Cloud | Google Skill Badge |
-| 2026-08-22 | [AI Boost Bites: Master Internal Comms in Gmail](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125132) | Google Cloud | Google Skill Badge |
-| 2026-08-22 | [AI Boost Bites: Google Workspace Studio](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125099) | Google Cloud | Google Skill Badge |
-| 2026-08-17 | [Vibe Coding for Beginners: From Zero to App](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26909457) | Google Cloud | Google Skill Badge |
-| 2026-08-13 | [Google Cloud Computing Foundations: Networking & Security in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26758292) | Google Cloud | Google Skill Badge |
-| 2026-08-09 | [Create and Manage Cloud Spanner Instances](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26478834) | Google Cloud | Google Skill Badge |
-| 2026-08-07 | [Arcade Simulator: Network Security Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26380399) | Google Cloud | Google Skill Badge |
-| 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26378483) | Google Cloud | Google Skill Badge |
+| 2026-08-27 | [Monitoring in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329132) | Google Cloud | Google Skill Badge |
+| 2026-08-27 | [Arcade Base Camp August 2026](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329116) | Google Cloud | Google Skill Badge |
+| 2026-08-27 | [Analyze Sentiment with Natural Language API](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27328238) | Google Cloud | Google Skill Badge |
+| 2026-08-27 | [Arcade Re-Trail: Vaults & Vectors](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27327295) | Google Cloud | Google Skill Badge |
+| 2026-08-27 | [Implement Cloud Storage and Data Protection Solutions](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27325786) | Google Cloud | Google Skill Badge |
+| 2026-08-27 | [Build LookML Objects in Looker](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27324095) | Google Cloud | Google Skill Badge |
+| 2026-08-27 | [Generative AI Explorer - Agent Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27296691) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Build a Certification Study Guide: ADP Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286575) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Secure Enterprise AI Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286386) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Google DeepMind : 08 Capstone: Develop Your Model for Real-World Impact](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286333) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials
@@ -143,25 +143,25 @@ Showing latest 10 of 711 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 569
-**Total Verified Skills Mapped:** 1990
+**Total Portfolio Credentials:** 573
+**Total Verified Skills Mapped:** 1995
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 569 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 573 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-27 | [Analyze Sentiment with Natural Language API Skill Badge](https://www.credly.com/badges/4ad490cd-fa1d-4436-8895-6d233aa59d3f/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-27 | [Build LookML Objects in Looker Skill Badge](https://www.credly.com/badges/f1fe4c27-fc5b-4f16-857c-0a78b63662de/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-27 | [Implement Cloud Storage and Data Protection Solutions](https://www.credly.com/badges/d6b57587-ca0e-49ae-ac3f-c27583931211/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-27 | [Monitoring in Google Cloud Skill Badge](https://www.credly.com/badges/7f426d35-6e3b-419e-8236-e382d94e9666/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-25 | [AI In Cybersecurity](https://www.credly.com/badges/f5b5f3bb-1c90-4409-bda9-fb96331e43bf/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-25 | [Cilium Gateway API: External Authentication](https://www.credly.com/badges/99029a9f-411a-4645-b898-91c7cd5bd127/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-25 | [SASE Expert Level 1](https://www.credly.com/badges/0ba13d72-84cf-492a-affc-884dcb154111/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-25 | [SASE Expert Level 2](https://www.credly.com/badges/a67ce979-bda5-4132-abb4-41ce77285177/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-24 | [Detecting VoidLink Malware with Tetragon](https://www.credly.com/badges/b79ddcee-1373-4c72-b0ea-41fe0857ce55/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-23 | [Cilium AI/ML Security](https://www.credly.com/badges/0d6b393c-0f31-4c76-98ed-0adb380e23f0/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-23 | [Cilium IPAM](https://www.credly.com/badges/781ae1d3-d016-448f-82e3-5b887b43886e/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-23 | [Discovery: Cloud Architect on Azure](https://www.credly.com/badges/da069ba5-7566-4254-992f-5ffb42c42770/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-23 | [Securing OpenClaw with Tetragon](https://www.credly.com/badges/20087ee1-5248-4fef-aa1e-97fb867406cd/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-23 | [Web Development Fundamentals](https://www.credly.com/badges/720901ee-adda-4ca3-b428-06661f472f0c/public_url) | IBM SkillsBuild | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
@@ -978,7 +978,7 @@ This document represents a unified, verifiable list of all 711 records.
 
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 350 records.
+This document represents a unified, verifiable list of all 383 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
@@ -988,6 +988,39 @@ This document represents a unified, verifiable list of all 350 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-27 | [Monitoring in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329132) | Google Cloud | Google Skill Badge |
+| 2026-08-27 | [Arcade Base Camp August 2026](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329116) | Google Cloud | Google Skill Badge |
+| 2026-08-27 | [Analyze Sentiment with Natural Language API](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27328238) | Google Cloud | Google Skill Badge |
+| 2026-08-27 | [Arcade Re-Trail: Vaults & Vectors](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27327295) | Google Cloud | Google Skill Badge |
+| 2026-08-27 | [Implement Cloud Storage and Data Protection Solutions](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27325786) | Google Cloud | Google Skill Badge |
+| 2026-08-27 | [Build LookML Objects in Looker](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27324095) | Google Cloud | Google Skill Badge |
+| 2026-08-27 | [Generative AI Explorer - Agent Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27296691) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Build a Certification Study Guide: ADP Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286575) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Secure Enterprise AI Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286386) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Google DeepMind : 08 Capstone: Develop Your Model for Real-World Impact](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286333) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Build Agent Skills with Google](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286234) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Build Collaborative Multi-Agent Systems with ADK & MCP](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286201) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Simplify Your Architecture with Network Connectivity Center](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286098) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Critical Thinking in AI-Driven Workflows](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285992) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Looker Core Administration](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285912) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Build a Branded Knowledge Base](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285632) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Master Your Meetings with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285586) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Build a Campaign Project Tracker](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285507) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Turn One Asset into a Campaign](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285469) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Create Better Campaign Briefs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285427) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Create Product Videos with Vids](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285384) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Design Strategy Presentations](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285332) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Automate Marketing Workflows](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285273) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Master the ABCDQ of Prompting](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285234) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Generate the Perfect Audio Track](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285191) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Intro to Gemini Enterprise](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285137) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Brand Enforcer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285090) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: Win Pitches with Gemini Notebook](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285033) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: From Raw Data to Slides](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284973) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: The Expert Scaler](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284924) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [AI Boost Bites: The Seller's AI Data Analyst](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284867) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Gemini in Google Workspace Studio](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284806) | Google Cloud | Google Skill Badge |
+| 2026-08-26 | [Google Cloud Agent Governance and Security](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284033) | Google Cloud | Google Skill Badge |
 | 2026-08-22 | [AI Boost Bites: AI for the Modern Recruiter](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125242) | Google Cloud | Google Skill Badge |
 | 2026-08-22 | [AI Boost Bites: Your AI-Powered Career Coach](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125196) | Google Cloud | Google Skill Badge |
 | 2026-08-22 | [AI Boost Bites: The Project Coordinator's Command Center](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125162) | Google Cloud | Google Skill Badge |
@@ -4550,7 +4583,7 @@ This document represents a unified, verifiable list of all 1521 records.
 
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 569 records.
+This document represents a unified, verifiable list of all 573 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
@@ -4560,6 +4593,10 @@ This document represents a unified, verifiable list of all 569 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-27 | [Analyze Sentiment with Natural Language API Skill Badge](https://www.credly.com/badges/4ad490cd-fa1d-4436-8895-6d233aa59d3f/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-27 | [Build LookML Objects in Looker Skill Badge](https://www.credly.com/badges/f1fe4c27-fc5b-4f16-857c-0a78b63662de/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-27 | [Implement Cloud Storage and Data Protection Solutions](https://www.credly.com/badges/d6b57587-ca0e-49ae-ac3f-c27583931211/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-27 | [Monitoring in Google Cloud Skill Badge](https://www.credly.com/badges/7f426d35-6e3b-419e-8236-e382d94e9666/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-25 | [AI In Cybersecurity](https://www.credly.com/badges/f5b5f3bb-1c90-4409-bda9-fb96331e43bf/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-25 | [Cilium Gateway API: External Authentication](https://www.credly.com/badges/99029a9f-411a-4645-b898-91c7cd5bd127/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-25 | [SASE Expert Level 1](https://www.credly.com/badges/0ba13d72-84cf-492a-affc-884dcb154111/public_url) | Cato Networks | Credly Verified Badge |
@@ -5061,13 +5098,13 @@ This document represents a unified, verifiable list of all 569 records.
 | 2026-04-25 | [Exploring SAP Converged Cloud - Record of Achievement](https://www.credly.com/badges/a80cd91c-5d37-4b68-b1cc-db6ae29af465/public_url) | SAP | Credly Verified Badge |
 | 2026-04-25 | [Exploring the Lead to Cash Business Process in SAP Customer Experience - Record of Achievement](https://www.credly.com/badges/43443865-430a-41c7-8942-169434778075/public_url) | SAP | Credly Verified Badge |
 | 2026-04-24 | [Application Rationalization with SAP LeanIX - Record of Achievement](https://www.credly.com/badges/6eefb85c-80db-438b-b023-afa6c3b68acd/public_url) | SAP | Credly Verified Badge |
-| 2026-04-24 | [Apply AI: Update Your Resume](https://www.credly.com/badges/431a017f-982f-4aa5-a394-03fff17bed23/public_url) | Cisco | Credly Verified Badge |
+| 2026-04-24 | [Build Your Resume with AI](https://www.credly.com/badges/431a017f-982f-4aa5-a394-03fff17bed23/public_url) | Cisco | Credly Verified Badge |
 | 2026-04-23 | [Agile Explorer](https://www.credly.com/badges/673d3787-e37f-499d-9ac5-cc5398103dd7/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-04-23 | [Exploring SAP S/4HANA Supply Chain for Transportation Management - Record of Achievement](https://www.credly.com/badges/10fe693c-8271-488f-8ccf-36e6c4f74901/public_url) | SAP | Credly Verified Badge |
 | 2026-04-23 | [Exploring SAP SuccessFactors Embedded Launch Activities for Project Manager - Record of Achievement](https://www.credly.com/badges/87204098-710e-49b0-8a64-5c1183a78d70/public_url) | SAP | Credly Verified Badge |
-| 2026-04-22 | [Apply AI: Analyze Customer Reviews](https://www.credly.com/badges/6d85c6c9-351b-42fe-a3ad-27598dd34dec/public_url) | Cisco | Credly Verified Badge |
 | 2026-04-22 | [Discovering Extended Warehouse Management with SAP S/4HANA - Record of Achievement](https://www.credly.com/badges/57c930ea-4372-4144-a8d3-92e615d6f439/public_url) | SAP | Credly Verified Badge |
 | 2026-04-22 | [Enterprise Design Thinking Practitioner](https://www.credly.com/badges/b18e17a2-6952-4d85-8adf-5eb5a0dfb366/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-04-22 | [Find Insights with AI](https://www.credly.com/badges/6d85c6c9-351b-42fe-a3ad-27598dd34dec/public_url) | Cisco | Credly Verified Badge |
 | 2026-04-22 | [Google Ads Video Certification](https://api.accredible.com/v1/obi/badge_assertions/2359f6e3-1f9d-486a-a89f-f60927b57349) | Skillshop | Credly External Badge |
 | 2026-04-21 | [Explorations into Mindfulness](https://www.credly.com/badges/58226aca-cc26-41a3-8ed7-1ef7e7880114/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-04-21 | [Linux Unhatched](https://www.credly.com/badges/4c3ee7b3-330b-437b-8e6a-91d96bca1b45/public_url) | Cisco | Credly Verified Badge |

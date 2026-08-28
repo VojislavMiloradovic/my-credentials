@@ -1,6 +1,6 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 569 records.
+This document represents a unified, verifiable list of all 573 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
@@ -10,6 +10,10 @@ This document represents a unified, verifiable list of all 569 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-27 | [Analyze Sentiment with Natural Language API Skill Badge](https://www.credly.com/badges/4ad490cd-fa1d-4436-8895-6d233aa59d3f/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-27 | [Build LookML Objects in Looker Skill Badge](https://www.credly.com/badges/f1fe4c27-fc5b-4f16-857c-0a78b63662de/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-27 | [Implement Cloud Storage and Data Protection Solutions](https://www.credly.com/badges/d6b57587-ca0e-49ae-ac3f-c27583931211/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-27 | [Monitoring in Google Cloud Skill Badge](https://www.credly.com/badges/7f426d35-6e3b-419e-8236-e382d94e9666/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-25 | [AI In Cybersecurity](https://www.credly.com/badges/f5b5f3bb-1c90-4409-bda9-fb96331e43bf/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-25 | [Cilium Gateway API: External Authentication](https://www.credly.com/badges/99029a9f-411a-4645-b898-91c7cd5bd127/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-25 | [SASE Expert Level 1](https://www.credly.com/badges/0ba13d72-84cf-492a-affc-884dcb154111/public_url) | Cato Networks | Credly Verified Badge |
@@ -511,13 +515,13 @@ This document represents a unified, verifiable list of all 569 records.
 | 2026-04-25 | [Exploring SAP Converged Cloud - Record of Achievement](https://www.credly.com/badges/a80cd91c-5d37-4b68-b1cc-db6ae29af465/public_url) | SAP | Credly Verified Badge |
 | 2026-04-25 | [Exploring the Lead to Cash Business Process in SAP Customer Experience - Record of Achievement](https://www.credly.com/badges/43443865-430a-41c7-8942-169434778075/public_url) | SAP | Credly Verified Badge |
 | 2026-04-24 | [Application Rationalization with SAP LeanIX - Record of Achievement](https://www.credly.com/badges/6eefb85c-80db-438b-b023-afa6c3b68acd/public_url) | SAP | Credly Verified Badge |
-| 2026-04-24 | [Apply AI: Update Your Resume](https://www.credly.com/badges/431a017f-982f-4aa5-a394-03fff17bed23/public_url) | Cisco | Credly Verified Badge |
+| 2026-04-24 | [Build Your Resume with AI](https://www.credly.com/badges/431a017f-982f-4aa5-a394-03fff17bed23/public_url) | Cisco | Credly Verified Badge |
 | 2026-04-23 | [Agile Explorer](https://www.credly.com/badges/673d3787-e37f-499d-9ac5-cc5398103dd7/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-04-23 | [Exploring SAP S/4HANA Supply Chain for Transportation Management - Record of Achievement](https://www.credly.com/badges/10fe693c-8271-488f-8ccf-36e6c4f74901/public_url) | SAP | Credly Verified Badge |
 | 2026-04-23 | [Exploring SAP SuccessFactors Embedded Launch Activities for Project Manager - Record of Achievement](https://www.credly.com/badges/87204098-710e-49b0-8a64-5c1183a78d70/public_url) | SAP | Credly Verified Badge |
-| 2026-04-22 | [Apply AI: Analyze Customer Reviews](https://www.credly.com/badges/6d85c6c9-351b-42fe-a3ad-27598dd34dec/public_url) | Cisco | Credly Verified Badge |
 | 2026-04-22 | [Discovering Extended Warehouse Management with SAP S/4HANA - Record of Achievement](https://www.credly.com/badges/57c930ea-4372-4144-a8d3-92e615d6f439/public_url) | SAP | Credly Verified Badge |
 | 2026-04-22 | [Enterprise Design Thinking Practitioner](https://www.credly.com/badges/b18e17a2-6952-4d85-8adf-5eb5a0dfb366/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-04-22 | [Find Insights with AI](https://www.credly.com/badges/6d85c6c9-351b-42fe-a3ad-27598dd34dec/public_url) | Cisco | Credly Verified Badge |
 | 2026-04-22 | [Google Ads Video Certification](https://api.accredible.com/v1/obi/badge_assertions/2359f6e3-1f9d-486a-a89f-f60927b57349) | Skillshop | Credly External Badge |
 | 2026-04-21 | [Explorations into Mindfulness](https://www.credly.com/badges/58226aca-cc26-41a3-8ed7-1ef7e7880114/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-04-21 | [Linux Unhatched](https://www.credly.com/badges/4c3ee7b3-330b-437b-8e6a-91d96bca1b45/public_url) | Cisco | Credly Verified Badge |
