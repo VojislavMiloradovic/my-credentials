@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Configure and manage shared folders** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-shared-folders/) |
+| **Microsoft Learn for Educators Course Preparation** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-learn-educators-course-preparation/) |
 | **Upgrade and migrate Windows clients** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/upgrade-migrate-windows-clients/) |
 | **Guided Project - Create agents with Microsoft Copilot Studio** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-bots-power-virtual-agents-copilot/) |
 | **Deploy a website to Azure with Azure App Service** | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-a-website-with-azure-app-service/) |
@@ -65,8 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Get started with AI Builder** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder/) |
 | **Get started with Dynamics 365 Customer Service** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-dynamics-365-for-customer-service/) |
 | **Navigate finance and operations apps** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigate-finance-operations/) |
-| **Web automation in Power Automate for desktop** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-web/) |
-| **Azure for Researchers part 2: Cloud Security and Cost Management** | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/researcher-cloud-security-cost-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-19.md](./microsoft-learn-2025-12-part-19.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-21.md](./microsoft-learn-2025-12-part-21.md)

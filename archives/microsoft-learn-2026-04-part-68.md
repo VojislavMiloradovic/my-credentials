@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Register and manage devices with Connected Field Service for Dynamics 365 and Azure IoT** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-and-manage-customer-devices-with-connected-field-service/) |
-| **Configure fixed assets setup pages in Dynamics 365 Business Central** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-fixed-asset-setup-pages/) |
 | **Set up fixed assets management in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-fixed-assets-management/) |
 | **Set up project planning lines in Dynamics 365 Business Central** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-job-planning-lines/) |
 | **Explore your deployment options for Microsoft Edge** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-deployment-options-microsoft-edge/) |
@@ -44,8 +42,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Troubleshoot business continuity with Microsoft Azure** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-continuity/) |
 | **Intelligent budget proposal in Dynamics 365 Finance** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-budget-proposal-finance/) |
 | **Ensure app and website compatibility with Microsoft Edge** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/ensure-app-website-compatibility-with-microsoft-edge/) |
-| **Create fixed asset and related records in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/fixed-asset-related-records/) |
 | **Create fixed assets in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-fixed-assets/) |
+| **Create fixed asset and related records in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/fixed-asset-related-records/) |
 | **Migrate to vCore-based Azure Cosmos DB for MongoDB** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-vcore-based-azure-cosmos-db-mongodb/) |
 | **Post sales and purchase invoices in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/post-sales-purchase-invoices-dynamics-365-business-central/) |
 | **Send and receive electronic documents in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/electronic-documents-dynamics-365-business-central/) |
@@ -63,6 +61,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Configure fixed asset depreciations in Dynamics 365 Business Central** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-fixed-asset-depreciations/) |
 | **Sync and fulfill Shopify sales orders in Dynamics 365 Business Central** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-sales-orders-dynamics-365-business-central/) |
 | **Use the Shopify connector in Dynamics 365 Business Central** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-shopify-connector-dynamics-365-business-central/) |
+| **Set up a water sustainability solution by using Microsoft Sustainability Manager** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-water-solution/) |
+| **Set up a water and waste sustainability solution using Microsoft Sustainability Manager** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-sustainability-water-waste-solution/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-67.md](./microsoft-learn-2026-04-part-67.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-69.md](./microsoft-learn-2026-04-part-69.md)

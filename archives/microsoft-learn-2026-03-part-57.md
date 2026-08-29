@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Provision and deploy Windows 365 Cloud PCs** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-windows-365-cloud-pcs/) |
 | **Introduction to SAP on Microsoft Cloud** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sap-microsoft-cloud/) |
 | **Work with entitlements and service level agreements in Dynamics 365 Customer Service** | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-entitlements-and-slas-in-microsoft-dynamics-365-for-customer-service/) |
 | **Create and manage entitlements in Microsoft Dynamics 365 Customer Service** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/creating-and-managing-entitlements-in-dynamics-365/) |
@@ -37,8 +36,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Set up configurable products in Dynamics 365 Supply Chain Management** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-configurable-products/) |
 | **Work with configurable products in Dynamics 365 Supply Chain Management** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-configurable-products/) |
 | **Author complex queries with the Azure Cosmos DB for NoSQL** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/author-complex-queries-azure-cosmos-db-sql-api/) |
-| **Deploy and update applications** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-update-applications/) |
 | **MD-101 Explore application management** | Learningpaths | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-application-management/) |
+| **Deploy and update applications** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-update-applications/) |
 | **Configure and perform the procure-to-purchase process in Dynamics 365 Supply Chain Management** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-perform-procure-purchase-dyn365-supply-chain-mgmt/) |
 | **Execute across warehouse operations in Dynamics 365 Supply Chain Management** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/execute-across-warehouse-supply-chain-management/) |
 | **Build a real-time event-driven Java solution in Azure** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-real-time-event-driven-app/) |
@@ -63,6 +62,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Get started with warehouse management in Dynamics 365 Business Central** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-warehouse-management/) |
 | **Use an Azure Machine Learning job for automation** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-machine-learn-job-for-automation/) |
 | **Manage consent in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-consent/) |
+| **Migrate open-source databases to Azure** | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-open-source-workloads/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-56.md](./microsoft-learn-2026-03-part-56.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-58.md](./microsoft-learn-2026-03-part-58.md)

@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 16 of 95
 date_range: 2025-12-16 to 2025-12-18
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-16.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Combine external applications for more customized productions with Microsoft 365** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-combine-external-applications-customized-productions/) |
 | **Deploy updates for Windows client and Microsoft 365 apps** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-deploy/) |
 | **Get started with AI Builder licensing** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-licensing/) |
 | **Introduction to Azure Private Link** | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-private-link/) |
@@ -48,7 +49,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Combine multiple tables with JOINs in T-SQL** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-multiple-tables-with-joins/) |
 | **Introduction to Docker containers** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-docker-containers/) |
 | **Choose a data storage approach in Azure** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-storage-approach-in-azure/) |
-| **Dyslexia and technology, in partnership with Made By Dyslexia** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-technology/) |
+| **Dyslexia and technology, in partnership with Made By Dyslexia** | Modules | 2025-12-16 | N/A |
 | **Accessibility, special education, and learning: Support equity in learning** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/accessibility-special-education-online-learning-equity/) |
 | **Introduction to Azure Virtual Networks** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-virtual-networks/) |
 | **Describe the finance and operations apps** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-introduced-finance-operations-apps/) |
@@ -63,8 +64,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Apply Viva Glint’s modern approach to engagement for better results** | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-engagement/) |
 | **Empower action for better results with Viva Glint** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-empower-action-better-results-viva-glint/) |
 | **Edit code using any device with Visual Studio Code for the Web** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/edit-code-using-any-device/) |
-| **AI in Microsoft Teams for Education (Partner Success Series)** | Modules | 2025-12-16 | N/A |
 | **Teams for education partners (Partner Success Series)** | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/teams-education-partners/) |
+| **AI in Microsoft Teams for Education (Partner Success Series)** | Modules | 2025-12-16 | N/A |
 | **Introduction to Azure Site Recovery** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-site-recovery/) |
 | **Explore cybersecurity careers with Minecraft Education-Cyber Defender: Tower Defense** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/cybersecurity-careers-minecraft-education-cyber-defender/) |
 

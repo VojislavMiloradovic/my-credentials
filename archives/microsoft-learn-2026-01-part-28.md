@@ -16,10 +16,10 @@ artifacts: archive_complete, archive_index, jsonld
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
 | **Build a Connect Four game with Blazor** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-connect-four/) |
-| **Minecraft block coding academy** | Learningpaths | 2026-01-04 | N/A |
 | **Transition to Python in Minecraft Education** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-python-minecraft-education-edition/) |
-| **Minecraft Python coding academy** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-python-coding-academy/) |
+| **Minecraft block coding academy** | Learningpaths | 2026-01-04 | N/A |
 | **Build programs using Python coding in Minecraft with Azure Notebooks** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-programs-use-python-coding-minecraft-azure-notebooks/) |
+| **Minecraft Python coding academy** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-python-coding-academy/) |
 | **Testing with Pytest** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-python-with-pytest/) |
 | **Get started using Power Platform with finance and operations apps** | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-power-platform-with-finance-operations/) |
 | **Set up and build mobile experiences for finance and operations apps** | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/mobile-experiences-finance-operations/) |

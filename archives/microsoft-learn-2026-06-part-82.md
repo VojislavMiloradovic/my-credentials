@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 82 of 95
-date_range: 2026-06-02 to 2026-06-06
-total_entries: 49
+date_range: 2026-06-01 to 2026-06-06
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-82.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Harden endpoints and monitor security with Microsoft Intune and Defender for Endpoint** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-endpoints-monitor-security-intune-defender-endpoint/) |
 | **Enroll and validate devices with Microsoft Intune** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-validate-devices-microsoft-intune/) |
 | **Configure and secure devices with Microsoft Intune policies** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-devices-intune-policies/) |
 | **Accelerate endpoint remediation and response with Microsoft Security Copilot** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/accelerate-endpoint-remediation-response-security-copilot/) |
@@ -28,7 +27,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Protect data and control access with Microsoft Intune and Conditional Access** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-data-control-access-intune-conditional-access/) |
 | **Introduction to finance in Dynamics 365** | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-finance-dynamics-365/) |
 | **Describe accounts payables and receivables in Dynamics 365 Finance** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-account-payables-account-receivables/) |
-| **Implement container application hosting on Azure** | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-container-app-hosting-azure/) |
 | **Store and manage containers in Azure Container Registry** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/store-manage-containers-azure-container-registry/) |
 | **AI in special education** | Learningpaths | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-in-special-education/) |
 | **Streamline administrative tasks with AI tools** | Modules | 2026-06-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/streamline-administrative-tasks-ai/) |
@@ -64,6 +62,9 @@ artifacts: archive_complete, archive_index, jsonld
 | **Reduce data exposure risk with Data Security Posture Management in Microsoft Purview** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-data-security-posture-management/) |
 | **Understand data security posture management in Microsoft Purview** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-posture-management-understand/) |
 | **Implement application protection and security using Microsoft Intune** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-protection-intune/) |
+| **Implement Microsoft Defender for Endpoint using Microsoft Intune** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-endpoint-intune/) |
+| **Manage AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-ai-ready-infrastructure/) |
+| **Manage monitoring for AI-Ready Infrastructure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitoring-ai-ready-infrastructure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-81.md](./microsoft-learn-2026-06-part-81.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-83.md](./microsoft-learn-2026-06-part-83.md)

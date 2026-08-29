@@ -15,7 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Introduction to Microsoft Azure Data non-relational data in Azure** | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-non-relational-data/) |
+| **Explore Azure Storage for non-relational data** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/) |
 | **Introduction to Azure Load Balancer** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-load-balancer/) |
 | **Guided project - Develop foreach and if-elseif-else structures to process array data in C#** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-arrays-iteration-selection/) |
 | **Create and run simple C# console applications (Get started with C#, Part 2)** | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-2/) |
@@ -49,8 +49,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Move forward with Windows 11 Pro post Windows 10 end of support** | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/move-forward-windows-11/) |
 | **Demonstrate the capabilities of Microsoft Power Automate** | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/demonstrate-capabilities-microsoft-power-automate/) |
 | **Build a Microsoft Power Automate flow** | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-microsoft-power-automate-flow/) |
-| **Demonstrate the capabilities of Microsoft Power Pages** | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/demonstrate-capabilities-microsoft-power-pages/) |
 | **Create a Microsoft Power Pages site** | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-microsoft-power-pages-site/) |
+| **Demonstrate the capabilities of Microsoft Power Pages** | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/demonstrate-capabilities-microsoft-power-pages/) |
 | **Describe Microsoft Dataverse** | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-microsoft-dataverse/) |
 | **Manage the Microsoft Power Platform environment** | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-microsoft-power-platform-environment/) |
 | **Describe the business value of Microsoft Power Platform** | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-business-value-microsoft-power-platform/) |

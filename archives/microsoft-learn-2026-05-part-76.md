@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Design and deliver interactive lessons with Microsoft Learning Zone** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-deliver-interactive-lessons-microsoft-learning-zone/) |
-| **Understand the AI Literacy Framework, in partnership with ISTE+ASCD** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-ai-literacy-framework/) |
 | **Dragon Copilot basics for physicians** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-basics-for-physicians/) |
 | **Understand Azure Databricks Integrations** | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-databricks-integrations/) |
 | **Select and Configure Compute in Azure Databricks** | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/select-and-configure-compute/) |
@@ -24,8 +22,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Secure Unity Catalog objects** | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-unity-catalog-objects/) |
 | **Secure Azure OpenAI with content safety controls** | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-openai-content-safety-controls/) |
 | **Ingest data into Unity Catalog** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-into-unity-catalog/) |
-| **Deploy and maintain data pipelines and workloads with Azure Databricks** | Learningpaths | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-deploy-maintain-data-pipelines-workloads/) |
 | **Implement development lifecycle processes in Azure Databricks** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-development-lifecycle-processes-in-azure-databricks/) |
+| **Deploy and maintain data pipelines and workloads with Azure Databricks** | Learningpaths | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-deploy-maintain-data-pipelines-workloads/) |
 | **Implement and manage data quality constraints with Azure Databricks** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-data-quality-constraints-unity-catalog/) |
 | **Implement Lakeflow Jobs with Azure Databricks** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-lakeflow-jobs/) |
 | **Design and implement data pipelines with Azure Databricks** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-data-pipelines/) |
@@ -55,8 +53,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Turn business ideas into Power Platform solutions with Plans** | Modules | 2026-05-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/turn-business-ideas-power-platform-solutions-plans/) |
 | **Develop AI agents on Azure** | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/) |
 | **Integrate your agent with Microsoft 365** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-foundry-agent-with-m365/) |
-| **Develop AI agents on Azure (deprecated)** | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-on-azure/) |
 | **Integrate MCP Tools with Azure AI Agents** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/) |
+| **Develop AI agents on Azure (deprecated)** | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-on-azure/) |
 | **Develop computer vision solutions with Microsoft Foundry** | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-computer-vision-with-foundry/) |
 | **Generate videos with Microsoft Foundry** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-video-with-foundry/) |
 | **Evaluate and optimize AI agents through structured experiments** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-optimize-agents/) |
@@ -67,6 +65,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Build knowledge-enhanced AI agents with Foundry IQ** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-foundry-iq/) |
 | **Analyze images with Content Understanding** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-images-with-content-understanding/) |
 | **Analyze and debug your generative AI app with tracing** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/tracing-generative-ai-app/) |
+| **Secure access for Microsoft Entra Agent Identity** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-access-entra-agent-identity/) |
+| **Manage agents using Microsoft Agent 365** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-agents-microsoft-agent-365/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-75.md](./microsoft-learn-2026-05-part-75.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-77.md](./microsoft-learn-2026-05-part-77.md)

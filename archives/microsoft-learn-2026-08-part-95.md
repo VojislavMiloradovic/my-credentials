@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 95 of 95
-date_range: 2026-08-02 to 2026-08-25
-total_entries: 35
+date_range: 2026-08-02 to 2026-08-29
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-95.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,15 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Configure Microsoft Adaptive Accessories for accessible productivity** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-adaptive-accessories/) |
+| **Get started with Microsoft AI models** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-ai-models/) |
+| **Configure Azure Databricks Genie for Microsoft Teams and Microsoft Copilot** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-databricks-genie-teams-microsoft-copilot/) |
+| **Use Azure Databricks Genie in Microsoft Teams and Microsoft 365 Copilot** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-databricks-genie-teams-m365-copilot/) |
+| **Run sidecar-enabled AI applications on Azure App Service** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-sidecar-azure-app-service/) |
+| **Implement container application hosting on Azure** | Learningpaths | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-container-app-hosting-azure/) |
+| **Support inclusive work with Windows accessibility features on Surface devices** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/inclusive-software-surface/) |
+| **Create instruction-driven agents in Microsoft Copilot Studio** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-instruction-driven-agents-copilot-studio/) |
+| **Reduce workplace barriers with inclusive Surface hardware** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/inclusive-surface-hardware/) |
 | **Manage cases with Dynamics 365 Customer Service workspace** | Modules | 2026-08-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-cases-customer-service-workspace/) |
 | **Explore Microsoft Copilot Studio and agent harnesses** | Modules | 2026-08-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-copilot-studio-agent-harnesses/) |
 | **Route and distribute work with unified routing in Dynamics 365 Customer Service** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/route-distribute-work/) |
@@ -50,6 +59,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Efficiently investigate data risks with Security Copilot in Microsoft Purview** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-security-copilot/) |
 | **Classify and protect sensitive data with sensitivity labels** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-label-sensitive-data/) |
 | **Discover and define sensitive information types** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-discover-define-sits/) |
+| **Build flexible Bicep files by using conditions and loops** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-files-conditions-loops/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: None

@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 27 of 95
 date_range: 2025-12-31 to 2026-01-02
-total_entries: 55
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-27.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -69,7 +69,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Understand Microsoft 365 identity and access management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-identity-access-management/) |
 | **Understand Microsoft Online Services security incident management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-incident-management/) |
 | **Understand Microsoft 365 cloud architecture** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-architecture/) |
-| **Understand Microsoft 365 governance** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-governance/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-26.md](./microsoft-learn-2025-12-part-26.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-28.md](./microsoft-learn-2026-01-part-28.md)

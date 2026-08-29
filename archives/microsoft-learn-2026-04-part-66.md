@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Unlock customer intent with Dynamics 365 Customer Insights - Data** | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-customer-insights/) |
-| **Configure and administer Customer Insights - Data** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-customer-data-platform/) |
-| **Explore Microsoft Graph scenarios for JavaScript development** | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-scenarios/) |
 | **Show a user's emails in a JavaScript app with Microsoft Graph** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-show-user-emails/) |
 | **Explore archiving and records management in Microsoft 365** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-archiving-records-management/) |
 | **Use warehouse management for manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manufacture-warehouse-mgmt-dyn365-supply-chain-mgmt/) |
@@ -38,8 +35,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Download and upload files in a JavaScript app with Microsoft Graph** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-manage-files/) |
 | **Work with fixed assets master data in Dynamics 365 Business Central** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/fixed-assets-master-data/) |
 | **Sync items and inventory in Shopify and Dynamics 365 Business Central** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-items-shopify-dynamics-365-business-central/) |
-| **Manage an Azure Cosmos DB for NoSQL solution using DevOps practices** | Learningpaths | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-cosmos-db-sql-api-solution-using-devops-practices/) |
 | **Create resource template for Azure Cosmos DB for NoSQL** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-resource-template-for-azure-cosmos-db-sql-api/) |
+| **Manage an Azure Cosmos DB for NoSQL solution using DevOps practices** | Learningpaths | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-cosmos-db-sql-api-solution-using-devops-practices/) |
 | **Work with essential development standards for Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/essential-development-standards/) |
 | **Use document standards in Dynamics 365 Business Central** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-document-standards-business-central/) |
 | **Work with master data in Dynamics 365 Business Central** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-master-data-business-central/) |
@@ -62,6 +59,9 @@ artifacts: archive_complete, archive_index, jsonld
 | **Work with assignment rules in Dynamics 365 Sales accelerator** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-sales-assignment-rules/) |
 | **Set up lean manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-lean-manufacturing-dyn365-supply-chain-mgmt/) |
 | **Set up onboarding experiences in Dynamics 365 Business Central** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-onboarding-experiences/) |
+| **Set up fixed asset posting groups in Dynamics 365 Business Central** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/posting-groups-setup/) |
+| **Manage assets and content settings in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-assets-content-settings/) |
+| **Access a user's calendar events in a JavaScript app with Microsoft Graph** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-access-user-events/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-65.md](./microsoft-learn-2026-04-part-65.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-67.md](./microsoft-learn-2026-04-part-67.md)

@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Identify and configure batch attributes for process manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-configure-batch-attributes-process-manufacturing-dyn365-supply-chain-mgmt/) |
 | **Set up intercompany trade in Dynamics 365 Supply Chain Management** | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-intercompany-trade/) |
 | **Deploy and configure Sales in Microsoft 365 Copilot** | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/sales-copilot-deploy-configure/) |
 | **Use Dynamics 365 Copilot for Sales** | Learningpaths | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-copilot-sales/) |
@@ -64,6 +63,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Deploy and use CMS Claims data transformations** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-claims-transformations/) |
 | **Set up put-away templates in Dynamics 365 Business Central** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/put-away-templates/) |
 | **Monitor your generative AI application** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-generative-ai-app/) |
+| **Get started and use functionality in Microsoft Dynamics 365 Human Resources** | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-use-human-resources/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-58.md](./microsoft-learn-2026-03-part-58.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-60.md](./microsoft-learn-2026-03-part-60.md)

@@ -1,10 +1,82 @@
 {
   "platform": "microsoft-learn",
-  "total_achievements": 4817,
+  "total_achievements": 4825,
   "total_learning_paths": 515,
-  "total_modules": 2670,
-  "total_completed_units": 35727,
+  "total_modules": 2678,
+  "total_completed_units": 35801,
   "achievements": [
+    {
+      "id": "ZJ39YXP2",
+      "title": "Configure Microsoft Adaptive Accessories for accessible productivity",
+      "category": "modules",
+      "grantedOn": "2026-08-29",
+      "url": "/training/modules/microsoft-adaptive-accessories/",
+      "retired": false
+    },
+    {
+      "id": "9AKPLJBU",
+      "title": "Get started with Microsoft AI models",
+      "category": "modules",
+      "grantedOn": "2026-08-29",
+      "url": "/training/modules/microsoft-ai-models/",
+      "retired": false
+    },
+    {
+      "id": "QLN8ZS6E",
+      "title": "Configure Azure Databricks Genie for Microsoft Teams and Microsoft Copilot",
+      "category": "modules",
+      "grantedOn": "2026-08-29",
+      "url": "/training/modules/configure-azure-databricks-genie-teams-microsoft-copilot/",
+      "retired": false
+    },
+    {
+      "id": "K9RXQL7B",
+      "title": "Use Azure Databricks Genie in Microsoft Teams and Microsoft 365 Copilot",
+      "category": "modules",
+      "grantedOn": "2026-08-29",
+      "url": "/training/modules/use-azure-databricks-genie-teams-m365-copilot/",
+      "retired": false
+    },
+    {
+      "id": "FELS3FWX",
+      "title": "Run sidecar-enabled AI applications on Azure App Service",
+      "category": "modules",
+      "grantedOn": "2026-08-29",
+      "url": "/training/modules/deploy-sidecar-azure-app-service/",
+      "retired": false
+    },
+    {
+      "id": "WMAWSR9N",
+      "title": "Implement container application hosting on Azure",
+      "category": "learningpaths",
+      "grantedOn": "2026-08-29",
+      "url": "/training/paths/implement-container-app-hosting-azure/",
+      "retired": false
+    },
+    {
+      "id": "D37REKFJ",
+      "title": "Support inclusive work with Windows accessibility features on Surface devices",
+      "category": "modules",
+      "grantedOn": "2026-08-29",
+      "url": "/training/modules/inclusive-software-surface/",
+      "retired": false
+    },
+    {
+      "id": "H2JB6CJ8",
+      "title": "Create instruction-driven agents in Microsoft Copilot Studio",
+      "category": "modules",
+      "grantedOn": "2026-08-29",
+      "url": "/training/modules/create-instruction-driven-agents-copilot-studio/",
+      "retired": false
+    },
+    {
+      "id": "U7B4L553",
+      "title": "Reduce workplace barriers with inclusive Surface hardware",
+      "category": "modules",
+      "grantedOn": "2026-08-29",
+      "url": "/training/modules/inclusive-surface-hardware/",
+      "retired": false
+    },
     {
       "id": "CYZM3RU9",
       "title": "Manage cases with Dynamics 365 Customer Service workspace",
@@ -1102,19 +1174,19 @@
       "retired": false
     },
     {
-      "id": "8VEZR7AW",
-      "title": "Architect AI solutions for business productivity",
-      "category": "learningpaths",
-      "grantedOn": "2026-07-14",
-      "url": "/training/paths/architect-agentic-ai-business-solutions/",
-      "retired": false
-    },
-    {
       "id": "NQ4V722F",
       "title": "Analyze requirements for AI-powered business solutions",
       "category": "modules",
       "grantedOn": "2026-07-14",
       "url": "/training/modules/analyze-requirements-ai-powered-business-solutions/",
+      "retired": false
+    },
+    {
+      "id": "8VEZR7AW",
+      "title": "Architect AI solutions for business productivity",
+      "category": "learningpaths",
+      "grantedOn": "2026-07-14",
+      "url": "/training/paths/architect-agentic-ai-business-solutions/",
       "retired": false
     },
     {
@@ -1310,19 +1382,19 @@
       "retired": false
     },
     {
-      "id": "D3W95TCJ",
-      "title": "Create and manage AutoText in PowerScribe One",
-      "category": "modules",
-      "grantedOn": "2026-07-14",
-      "url": "/training/modules/powerscribe-one-create-manage-autotext/",
-      "retired": false
-    },
-    {
       "id": "K9H6TDLB",
       "title": "Advanced AutoText for providers",
       "category": "learningpaths",
       "grantedOn": "2026-07-14",
       "url": "/training/paths/powerscribe-one-advanced-autotext-for-providers/",
+      "retired": false
+    },
+    {
+      "id": "D3W95TCJ",
+      "title": "Create and manage AutoText in PowerScribe One",
+      "category": "modules",
+      "grantedOn": "2026-07-14",
+      "url": "/training/modules/powerscribe-one-create-manage-autotext/",
       "retired": false
     },
     {
@@ -1518,19 +1590,19 @@
       "retired": false
     },
     {
-      "id": "NQP8YJYF",
-      "title": "Design security solutions for applications and data",
-      "category": "learningpaths",
-      "grantedOn": "2026-07-13",
-      "url": "/training/paths/sc-100-design-security-solutions-applications-data/",
-      "retired": false
-    },
-    {
       "id": "QL6V4HPE",
       "title": "Interactive case study: Securing apps and data",
       "category": "modules",
       "grantedOn": "2026-07-13",
       "url": "/training/modules/case-study-apps-data/",
+      "retired": false
+    },
+    {
+      "id": "NQP8YJYF",
+      "title": "Design security solutions for applications and data",
+      "category": "learningpaths",
+      "grantedOn": "2026-07-13",
+      "url": "/training/paths/sc-100-design-security-solutions-applications-data/",
       "retired": false
     },
     {
@@ -1646,19 +1718,19 @@
       "retired": false
     },
     {
-      "id": "9AZ63PFU",
-      "title": "Get started with Transact-SQL programming",
-      "category": "modules",
-      "grantedOn": "2026-07-13",
-      "url": "/training/modules/get-started-transact-sql-programming/",
-      "retired": false
-    },
-    {
       "id": "BUH4JY6D",
       "title": "Program with Transact-SQL",
       "category": "learningpaths",
       "grantedOn": "2026-07-13",
       "url": "/training/paths/program-transact-sql/",
+      "retired": false
+    },
+    {
+      "id": "9AZ63PFU",
+      "title": "Get started with Transact-SQL programming",
+      "category": "modules",
+      "grantedOn": "2026-07-13",
+      "url": "/training/modules/get-started-transact-sql-programming/",
       "retired": false
     },
     {
@@ -1694,19 +1766,19 @@
       "retired": false
     },
     {
-      "id": "FE434WUX",
-      "title": "Integrate agents with enterprise systems in Microsoft Copilot Studio",
-      "category": "learningpaths",
-      "grantedOn": "2026-07-11",
-      "url": "/training/paths/integrate-agents-enterprise-systems-copilot-studio/",
-      "retired": false
-    },
-    {
       "id": "9AZ5Z65U",
       "title": "Integrate agents with external systems via MCP in Microsoft Copilot Studio",
       "category": "modules",
       "grantedOn": "2026-07-11",
       "url": "/training/modules/integrate-agents-external-systems-mcp-copilot-studio/",
+      "retired": false
+    },
+    {
+      "id": "FE434WUX",
+      "title": "Integrate agents with enterprise systems in Microsoft Copilot Studio",
+      "category": "learningpaths",
+      "grantedOn": "2026-07-11",
+      "url": "/training/paths/integrate-agents-enterprise-systems-copilot-studio/",
       "retired": false
     },
     {
@@ -1974,19 +2046,19 @@
       "retired": false
     },
     {
-      "id": "NQPE2HGF",
-      "title": "Extend Sustainability Manager for building complex Scope 3 calculations",
-      "category": "modules",
-      "grantedOn": "2026-07-08",
-      "url": "/training/modules/sustainability-complex-calculations/",
-      "retired": false
-    },
-    {
       "id": "8VQM7ULW",
       "title": "Extend Microsoft for Sustainability",
       "category": "learningpaths",
       "grantedOn": "2026-07-08",
       "url": "/training/paths/extend-sustainability/",
+      "retired": false
+    },
+    {
+      "id": "NQPE2HGF",
+      "title": "Extend Sustainability Manager for building complex Scope 3 calculations",
+      "category": "modules",
+      "grantedOn": "2026-07-08",
+      "url": "/training/modules/sustainability-complex-calculations/",
       "retired": false
     },
     {
@@ -2390,19 +2462,19 @@
       "retired": false
     },
     {
-      "id": "BU34X68D",
-      "title": "Get tips and tricks for teaching DP-100: Designing and implementing a data science solution on Azure",
-      "category": "modules",
-      "grantedOn": "2026-07-05",
-      "url": "/training/modules/get-tips-tricks-for-teaching-dp-100-designing-implementing-data-science-solution/",
-      "retired": false
-    },
-    {
       "id": "9A76EXZU",
       "title": "Prepare to teach DP-100 Designing and Implementing a Data Science Solution on Azure",
       "category": "learningpaths",
       "grantedOn": "2026-07-05",
       "url": "/training/paths/prepare-to-teach-dp-100-designing-implementing-data-science-solution-azure/",
+      "retired": false
+    },
+    {
+      "id": "BU34X68D",
+      "title": "Get tips and tricks for teaching DP-100: Designing and implementing a data science solution on Azure",
+      "category": "modules",
+      "grantedOn": "2026-07-05",
+      "url": "/training/modules/get-tips-tricks-for-teaching-dp-100-designing-implementing-data-science-solution/",
       "retired": false
     },
     {
@@ -2646,14 +2718,6 @@
       "retired": false
     },
     {
-      "id": "ZJTJDSJ2",
-      "title": "Prepare to teach PL-300: Microsoft Power BI Data Analyst",
-      "category": "learningpaths",
-      "grantedOn": "2026-07-01",
-      "url": "/training/paths/prepare-to-teach-pl-300-microsoft-power-bi-data-analyst/",
-      "retired": false
-    },
-    {
       "id": "8VMV2QMW",
       "title": "Get tips and tricks for teaching PL-300: Microsoft Power BI Data Analyst in academic programs",
       "category": "modules",
@@ -2662,11 +2726,11 @@
       "retired": false
     },
     {
-      "id": "NQEQMVVF",
-      "title": "Configure and process postdated checks in Dynamics 365 Finance",
-      "category": "modules",
+      "id": "ZJTJDSJ2",
+      "title": "Prepare to teach PL-300: Microsoft Power BI Data Analyst",
+      "category": "learningpaths",
       "grantedOn": "2026-07-01",
-      "url": "/training/modules/configure-process-postdated-checks-dyn365-finance/",
+      "url": "/training/paths/prepare-to-teach-pl-300-microsoft-power-bi-data-analyst/",
       "retired": false
     },
     {
@@ -2675,6 +2739,14 @@
       "category": "learningpaths",
       "grantedOn": "2026-07-01",
       "url": "/training/paths/configure-use-cash-bank-management-tax-dyn365-finance/",
+      "retired": false
+    },
+    {
+      "id": "NQEQMVVF",
+      "title": "Configure and process postdated checks in Dynamics 365 Finance",
+      "category": "modules",
+      "grantedOn": "2026-07-01",
+      "url": "/training/modules/configure-process-postdated-checks-dyn365-finance/",
       "retired": false
     },
     {
@@ -2798,19 +2870,19 @@
       "retired": false
     },
     {
-      "id": "3ZZU66BH",
-      "title": "Connect to finance and operations apps",
-      "category": "learningpaths",
-      "grantedOn": "2026-06-29",
-      "url": "/training/paths/connect-finance-operations/",
-      "retired": false
-    },
-    {
       "id": "U779GGB3",
       "title": "Manage data sources with external data stores in finance and operations apps",
       "category": "modules",
       "grantedOn": "2026-06-29",
       "url": "/training/modules/external-data-sources-finance-operations/",
+      "retired": false
+    },
+    {
+      "id": "3ZZU66BH",
+      "title": "Connect to finance and operations apps",
+      "category": "learningpaths",
+      "grantedOn": "2026-06-29",
+      "url": "/training/paths/connect-finance-operations/",
       "retired": false
     },
     {
@@ -2886,19 +2958,19 @@
       "retired": false
     },
     {
-      "id": "JHHDPRGT",
-      "title": "Code scanning with GitHub CodeQL",
-      "category": "modules",
-      "grantedOn": "2026-06-29",
-      "url": "/training/modules/code-scanning-with-github-codeql/",
-      "retired": false
-    },
-    {
       "id": "3ZZUG4NH",
       "title": "GitHub Advanced Security Part 2 of 2",
       "category": "learningpaths",
       "grantedOn": "2026-06-29",
       "url": "/training/paths/github-advanced-security-2/",
+      "retired": false
+    },
+    {
+      "id": "JHHDPRGT",
+      "title": "Code scanning with GitHub CodeQL",
+      "category": "modules",
+      "grantedOn": "2026-06-29",
+      "url": "/training/modules/code-scanning-with-github-codeql/",
       "retired": false
     },
     {
@@ -2998,19 +3070,19 @@
       "retired": false
     },
     {
-      "id": "WMMBUGPN",
-      "title": "Use Success by Design for Dynamics 365 solutions",
-      "category": "learningpaths",
-      "grantedOn": "2026-06-27",
-      "url": "/training/paths/use-success-design/",
-      "retired": false
-    },
-    {
       "id": "NQQD36PF",
       "title": "Cutover strategy for Dynamics 365 solutions",
       "category": "modules",
       "grantedOn": "2026-06-27",
       "url": "/training/modules/cutover-strategy-dynamics-365/",
+      "retired": false
+    },
+    {
+      "id": "WMMBUGPN",
+      "title": "Use Success by Design for Dynamics 365 solutions",
+      "category": "learningpaths",
+      "grantedOn": "2026-06-27",
+      "url": "/training/paths/use-success-design/",
       "retired": false
     },
     {
@@ -3062,19 +3134,19 @@
       "retired": false
     },
     {
-      "id": "U77EGET3",
-      "title": "Using Azure NetApp Files with Azure VMware Solution",
-      "category": "modules",
-      "grantedOn": "2026-06-27",
-      "url": "/training/modules/azure-netapp-files-with-vmware-solution/",
-      "retired": false
-    },
-    {
       "id": "9AAQLQDU",
       "title": "Run VMware resources on Azure VMware Solution",
       "category": "learningpaths",
       "grantedOn": "2026-06-27",
       "url": "/training/paths/run-vmware-workloads-azure-vmware-solution/",
+      "retired": false
+    },
+    {
+      "id": "U77EGET3",
+      "title": "Using Azure NetApp Files with Azure VMware Solution",
+      "category": "modules",
+      "grantedOn": "2026-06-27",
+      "url": "/training/modules/azure-netapp-files-with-vmware-solution/",
       "retired": false
     },
     {
@@ -3462,11 +3534,11 @@
       "retired": false
     },
     {
-      "id": "Y4PQKYZR",
-      "title": "Prepare to teach PL-100 Microsoft Power Platform App Maker",
+      "id": "4C6L94TK",
+      "title": "Prepare to teach SC-900 Microsoft Security, Compliance, and Identity Fundamentals in academic programs",
       "category": "learningpaths",
       "grantedOn": "2026-06-22",
-      "url": "/training/paths/teach-pl-100-microsoft-power-platform-app-maker/",
+      "url": "/training/paths/prepare-teach-sc-900-academic-programs/",
       "retired": false
     },
     {
@@ -3478,11 +3550,11 @@
       "retired": false
     },
     {
-      "id": "4C6L94TK",
-      "title": "Prepare to teach SC-900 Microsoft Security, Compliance, and Identity Fundamentals in academic programs",
+      "id": "Y4PQKYZR",
+      "title": "Prepare to teach PL-100 Microsoft Power Platform App Maker",
       "category": "learningpaths",
       "grantedOn": "2026-06-22",
-      "url": "/training/paths/prepare-teach-sc-900-academic-programs/",
+      "url": "/training/paths/teach-pl-100-microsoft-power-platform-app-maker/",
       "retired": false
     },
     {
@@ -3510,19 +3582,19 @@
       "retired": false
     },
     {
-      "id": "VSTD52ZM",
-      "title": "Prepare to teach SC-400 Microsoft Information Protection Administrator",
-      "category": "learningpaths",
-      "grantedOn": "2026-06-22",
-      "url": "/training/paths/prepare-teach-sc-400-information-protection-administrator/",
-      "retired": false
-    },
-    {
       "id": "K9CGU44B",
       "title": "Prepare to teach DP-900 Microsoft Azure Data fundamentals in academic programs",
       "category": "learningpaths",
       "grantedOn": "2026-06-22",
       "url": "/training/paths/prepare-teach-dp-900-fundamentals-academic-programs/",
+      "retired": false
+    },
+    {
+      "id": "VSTD52ZM",
+      "title": "Prepare to teach SC-400 Microsoft Information Protection Administrator",
+      "category": "learningpaths",
+      "grantedOn": "2026-06-22",
+      "url": "/training/paths/prepare-teach-sc-400-information-protection-administrator/",
       "retired": false
     },
     {
@@ -3782,19 +3854,19 @@
       "retired": false
     },
     {
-      "id": "EG5EH7SP",
-      "title": "AZ-400: Implement security and validate code bases for compliance",
-      "category": "learningpaths",
-      "grantedOn": "2026-06-20",
-      "url": "/training/paths/az-400-implement-security-validate-code-bases-compliance/",
-      "retired": false
-    },
-    {
       "id": "ZJBZ6FB2",
       "title": "Software Composition Analysis",
       "category": "modules",
       "grantedOn": "2026-06-20",
       "url": "/training/modules/software-composition-analysis/",
+      "retired": false
+    },
+    {
+      "id": "EG5EH7SP",
+      "title": "AZ-400: Implement security and validate code bases for compliance",
+      "category": "learningpaths",
+      "grantedOn": "2026-06-20",
+      "url": "/training/paths/az-400-implement-security-validate-code-bases-compliance/",
       "retired": false
     },
     {
@@ -3894,19 +3966,19 @@
       "retired": false
     },
     {
-      "id": "2TD2CSMV",
-      "title": "Extend Power Platform user experience with model-driven apps",
-      "category": "learningpaths",
-      "grantedOn": "2026-06-20",
-      "url": "/training/paths/extend-power-platform-user-experience/",
-      "retired": false
-    },
-    {
       "id": "WM2WBQXN",
       "title": "Automate business process flows with client script",
       "category": "modules",
       "grantedOn": "2026-06-20",
       "url": "/training/modules/power-platform-automate-client-script/",
+      "retired": false
+    },
+    {
+      "id": "2TD2CSMV",
+      "title": "Extend Power Platform user experience with model-driven apps",
+      "category": "learningpaths",
+      "grantedOn": "2026-06-20",
+      "url": "/training/paths/extend-power-platform-user-experience/",
       "retired": false
     },
     {
@@ -4558,19 +4630,19 @@
       "retired": false
     },
     {
-      "id": "CRN5CU29",
-      "title": "AZ-305: Design business continuity solutions",
-      "category": "learningpaths",
-      "grantedOn": "2026-06-09",
-      "url": "/training/paths/design-business-continuity-solutions/",
-      "retired": false
-    },
-    {
       "id": "3ZY638EH",
       "title": "Design a solution for backup and disaster recovery",
       "category": "modules",
       "grantedOn": "2026-06-09",
       "url": "/training/modules/design-solution-for-backup-disaster-recovery/",
+      "retired": false
+    },
+    {
+      "id": "CRN5CU29",
+      "title": "AZ-305: Design business continuity solutions",
+      "category": "learningpaths",
+      "grantedOn": "2026-06-09",
+      "url": "/training/paths/design-business-continuity-solutions/",
       "retired": false
     },
     {
@@ -5222,14 +5294,6 @@
       "retired": false
     },
     {
-      "id": "WMAWSR9N",
-      "title": "Implement container application hosting on Azure",
-      "category": "learningpaths",
-      "grantedOn": "2026-06-04",
-      "url": "/training/paths/implement-container-app-hosting-azure/",
-      "retired": false
-    },
-    {
       "id": "2T42HPXV",
       "title": "Store and manage containers in Azure Container Registry",
       "category": "modules",
@@ -5870,19 +5934,19 @@
       "retired": false
     },
     {
-      "id": "QLDB2L9E",
-      "title": "Integrate SQL solutions with Azure services",
-      "category": "modules",
-      "grantedOn": "2026-05-30",
-      "url": "/training/modules/integrate-sql-solutions-azure-services/",
-      "retired": false
-    },
-    {
       "id": "NQ7AHQBF",
       "title": "Secure, optimize, and deploy database solutions",
       "category": "learningpaths",
       "grantedOn": "2026-05-30",
       "url": "/training/paths/secure-optimize-deploy-database-solutions/",
+      "retired": false
+    },
+    {
+      "id": "QLDB2L9E",
+      "title": "Integrate SQL solutions with Azure services",
+      "category": "modules",
+      "grantedOn": "2026-05-30",
+      "url": "/training/modules/integrate-sql-solutions-azure-services/",
       "retired": false
     },
     {
@@ -6238,19 +6302,19 @@
       "retired": false
     },
     {
-      "id": "H2XRCVL8",
-      "title": "Extract data with Azure Document Intelligence",
-      "category": "modules",
-      "grantedOn": "2026-05-25",
-      "url": "/training/modules/extract-data-with-document-intelligence/",
-      "retired": false
-    },
-    {
       "id": "BU5GE32D",
       "title": "Extract insights from visual data on Azure",
       "category": "learningpaths",
       "grantedOn": "2026-05-25",
       "url": "/training/paths/insight-visual-data/",
+      "retired": false
+    },
+    {
+      "id": "H2XRCVL8",
+      "title": "Extract data with Azure Document Intelligence",
+      "category": "modules",
+      "grantedOn": "2026-05-25",
+      "url": "/training/modules/extract-data-with-document-intelligence/",
       "retired": false
     },
     {
@@ -6662,19 +6726,19 @@
       "retired": false
     },
     {
-      "id": "4CJ36GMK",
-      "title": "Develop understanding with the Study and Learn Agent in the Microsoft 365 Copilot app",
-      "category": "modules",
-      "grantedOn": "2026-05-20",
-      "url": "/training/modules/develop-understanding-study-learn-agent-copilot-app/",
-      "retired": false
-    },
-    {
       "id": "3ZWEJRSH",
       "title": "Manage and design with AI",
       "category": "learningpaths",
       "grantedOn": "2026-05-20",
       "url": "/training/paths/manage-design-ai/",
+      "retired": false
+    },
+    {
+      "id": "4CJ36GMK",
+      "title": "Develop understanding with the Study and Learn Agent in the Microsoft 365 Copilot app",
+      "category": "modules",
+      "grantedOn": "2026-05-20",
+      "url": "/training/modules/develop-understanding-study-learn-agent-copilot-app/",
       "retired": false
     },
     {
@@ -7102,19 +7166,19 @@
       "retired": false
     },
     {
-      "id": "9AHDXR5U",
-      "title": "Enforce security governance and regulatory compliance",
-      "category": "learningpaths",
-      "grantedOn": "2026-05-17",
-      "url": "/training/paths/security-governance-compliance/",
-      "retired": false
-    },
-    {
       "id": "BUTZ69ED",
       "title": "Enforce governance with Azure Policy and resource locks",
       "category": "modules",
       "grantedOn": "2026-05-17",
       "url": "/training/modules/enforce-governance-azure-policy-resource-locks/",
+      "retired": false
+    },
+    {
+      "id": "9AHDXR5U",
+      "title": "Enforce security governance and regulatory compliance",
+      "category": "learningpaths",
+      "grantedOn": "2026-05-17",
+      "url": "/training/paths/security-governance-compliance/",
       "retired": false
     },
     {
@@ -7598,19 +7662,19 @@
       "retired": false
     },
     {
-      "id": "ABZWSKG7",
-      "title": "Deploy and maintain data pipelines and workloads with Azure Databricks",
-      "category": "learningpaths",
-      "grantedOn": "2026-05-11",
-      "url": "/training/paths/azure-databricks-data-engineer-deploy-maintain-data-pipelines-workloads/",
-      "retired": false
-    },
-    {
       "id": "3Z8LQ7KH",
       "title": "Implement development lifecycle processes in Azure Databricks",
       "category": "modules",
       "grantedOn": "2026-05-11",
       "url": "/training/modules/implement-development-lifecycle-processes-in-azure-databricks/",
+      "retired": false
+    },
+    {
+      "id": "ABZWSKG7",
+      "title": "Deploy and maintain data pipelines and workloads with Azure Databricks",
+      "category": "learningpaths",
+      "grantedOn": "2026-05-11",
+      "url": "/training/paths/azure-databricks-data-engineer-deploy-maintain-data-pipelines-workloads/",
       "retired": false
     },
     {
@@ -7846,19 +7910,19 @@
       "retired": false
     },
     {
-      "id": "Y4ATJWBR",
-      "title": "Develop AI agents on Azure (deprecated)",
-      "category": "learningpaths",
-      "grantedOn": "2026-05-08",
-      "url": "/training/paths/develop-ai-agents-on-azure/",
-      "retired": false
-    },
-    {
       "id": "WMFK4UQN",
       "title": "Integrate MCP Tools with Azure AI Agents",
       "category": "modules",
       "grantedOn": "2026-05-08",
       "url": "/training/modules/connect-agent-to-mcp-tools/",
+      "retired": false
+    },
+    {
+      "id": "Y4ATJWBR",
+      "title": "Develop AI agents on Azure (deprecated)",
+      "category": "learningpaths",
+      "grantedOn": "2026-05-08",
+      "url": "/training/paths/develop-ai-agents-on-azure/",
       "retired": false
     },
     {
@@ -9614,19 +9678,19 @@
       "retired": false
     },
     {
-      "id": "2JZG7C9V",
-      "title": "Explore the Microsoft Search user experience and how to enable and configure it for your devices",
-      "category": "modules",
-      "grantedOn": "2026-04-24",
-      "url": "/training/modules/explore-microsoft-search-user-experience/",
-      "retired": false
-    },
-    {
       "id": "WV84HBJN",
       "title": "Deploy and configure Microsoft Edge and Microsoft Search for all your devices",
       "category": "learningpaths",
       "grantedOn": "2026-04-24",
       "url": "/training/paths/deploy-configure-microsoft-edge-search-for-devices/",
+      "retired": false
+    },
+    {
+      "id": "2JZG7C9V",
+      "title": "Explore the Microsoft Search user experience and how to enable and configure it for your devices",
+      "category": "modules",
+      "grantedOn": "2026-04-24",
+      "url": "/training/modules/explore-microsoft-search-user-experience/",
       "retired": false
     },
     {
@@ -9758,19 +9822,19 @@
       "retired": false
     },
     {
-      "id": "NMWK38SF",
-      "title": "Set up and use service management in Dynamics 365 Supply Chain Management",
-      "category": "learningpaths",
-      "grantedOn": "2026-04-24",
-      "url": "/training/paths/set-up-use-service-management/",
-      "retired": false
-    },
-    {
       "id": "Q5M9ZV8E",
       "title": "Set up Service management in Dynamics 365 Supply Chain Management",
       "category": "modules",
       "grantedOn": "2026-04-24",
       "url": "/training/modules/set-up-service-management/",
+      "retired": false
+    },
+    {
+      "id": "NMWK38SF",
+      "title": "Set up and use service management in Dynamics 365 Supply Chain Management",
+      "category": "learningpaths",
+      "grantedOn": "2026-04-24",
+      "url": "/training/paths/set-up-use-service-management/",
       "retired": false
     },
     {
@@ -9814,19 +9878,19 @@
       "retired": false
     },
     {
-      "id": "AKRBQ2E7",
-      "title": "Set up multiple element revenue allocation in Dynamics 365 Finance",
-      "category": "modules",
-      "grantedOn": "2026-04-23",
-      "url": "/training/modules/set-up-multi-element-revenue-allocation/",
-      "retired": false
-    },
-    {
       "id": "37UZXWRH",
       "title": "Set up and work with subscription billing in Dynamics 365 Finance",
       "category": "learningpaths",
       "grantedOn": "2026-04-23",
       "url": "/training/paths/set-up-work-subscription-billing/",
+      "retired": false
+    },
+    {
+      "id": "AKRBQ2E7",
+      "title": "Set up multiple element revenue allocation in Dynamics 365 Finance",
+      "category": "modules",
+      "grantedOn": "2026-04-23",
+      "url": "/training/modules/set-up-multi-element-revenue-allocation/",
       "retired": false
     },
     {
@@ -9862,19 +9926,19 @@
       "retired": false
     },
     {
-      "id": "FQNE7TSX",
-      "title": "Send finance charge memos to customers in Dynamics 365 Business Central",
-      "category": "modules",
-      "grantedOn": "2026-04-23",
-      "url": "/training/modules/send-memos-dynamics-365-business-central/",
-      "retired": false
-    },
-    {
       "id": "9RCAWE4U",
       "title": "Process financial periodic activities in Microsoft Dynamics 365 Business Central",
       "category": "learningpaths",
       "grantedOn": "2026-04-23",
       "url": "/training/paths/process-financial-periodic-activities-dynamics-365-business-central/",
+      "retired": false
+    },
+    {
+      "id": "FQNE7TSX",
+      "title": "Send finance charge memos to customers in Dynamics 365 Business Central",
+      "category": "modules",
+      "grantedOn": "2026-04-23",
+      "url": "/training/modules/send-memos-dynamics-365-business-central/",
       "retired": false
     },
     {
@@ -10950,19 +11014,19 @@
       "retired": false
     },
     {
-      "id": "VTZSQK7M",
-      "title": "Create fixed asset and related records in Dynamics 365 Business Central",
-      "category": "modules",
-      "grantedOn": "2026-04-16",
-      "url": "/training/modules/fixed-asset-related-records/",
-      "retired": false
-    },
-    {
       "id": "KCP9D5PB",
       "title": "Create fixed assets in Microsoft Dynamics 365 Business Central",
       "category": "learningpaths",
       "grantedOn": "2026-04-16",
       "url": "/training/paths/create-fixed-assets/",
+      "retired": false
+    },
+    {
+      "id": "VTZSQK7M",
+      "title": "Create fixed asset and related records in Dynamics 365 Business Central",
+      "category": "modules",
+      "grantedOn": "2026-04-16",
+      "url": "/training/modules/fixed-asset-related-records/",
       "retired": false
     },
     {
@@ -11670,19 +11734,19 @@
       "retired": false
     },
     {
-      "id": "KCE9T2WB",
-      "title": "Manage an Azure Cosmos DB for NoSQL solution using DevOps practices",
-      "category": "learningpaths",
-      "grantedOn": "2026-04-09",
-      "url": "/training/paths/manage-cosmos-db-sql-api-solution-using-devops-practices/",
-      "retired": false
-    },
-    {
       "id": "DU435MXJ",
       "title": "Create resource template for Azure Cosmos DB for NoSQL",
       "category": "modules",
       "grantedOn": "2026-04-09",
       "url": "/training/modules/create-resource-template-for-azure-cosmos-db-sql-api/",
+      "retired": false
+    },
+    {
+      "id": "KCE9T2WB",
+      "title": "Manage an Azure Cosmos DB for NoSQL solution using DevOps practices",
+      "category": "learningpaths",
+      "grantedOn": "2026-04-09",
+      "url": "/training/paths/manage-cosmos-db-sql-api-solution-using-devops-practices/",
       "retired": false
     },
     {
@@ -11950,19 +12014,19 @@
       "retired": false
     },
     {
-      "id": "B9EQGZRD",
-      "title": "Continuous integration with Azure DevOps for Microsoft Dynamics 365 Business Central",
-      "category": "learningpaths",
-      "grantedOn": "2026-04-06",
-      "url": "/training/paths/continuous-integration/",
-      "retired": false
-    },
-    {
       "id": "HZC6RSJ8",
       "title": "Use Docker in your Business Central development process",
       "category": "modules",
       "grantedOn": "2026-04-06",
       "url": "/training/modules/use-docker-business-central/",
+      "retired": false
+    },
+    {
+      "id": "B9EQGZRD",
+      "title": "Continuous integration with Azure DevOps for Microsoft Dynamics 365 Business Central",
+      "category": "learningpaths",
+      "grantedOn": "2026-04-06",
+      "url": "/training/paths/continuous-integration/",
       "retired": false
     },
     {
@@ -15142,19 +15206,19 @@
       "retired": false
     },
     {
-      "id": "ELRZYHBP",
-      "title": "Deploy and update applications",
-      "category": "modules",
-      "grantedOn": "2026-03-08",
-      "url": "/training/modules/deploy-update-applications/",
-      "retired": false
-    },
-    {
       "id": "ZDWX86E2",
       "title": "MD-101 Explore application management",
       "category": "learningpaths",
       "grantedOn": "2026-03-08",
       "url": "/training/paths/explore-application-management/",
+      "retired": false
+    },
+    {
+      "id": "ELRZYHBP",
+      "title": "Deploy and update applications",
+      "category": "modules",
+      "grantedOn": "2026-03-08",
+      "url": "/training/modules/deploy-update-applications/",
       "retired": false
     },
     {
@@ -15438,19 +15502,19 @@
       "retired": false
     },
     {
-      "id": "B92R2JUD",
-      "title": "Use application development best practices in Microsoft Dynamics 365 Business Central",
-      "category": "learningpaths",
-      "grantedOn": "2026-03-06",
-      "url": "/training/paths/use-application-development-business-central/",
-      "retired": false
-    },
-    {
       "id": "9RJ4J3RU",
       "title": "Introduction to application types in Business Central",
       "category": "modules",
       "grantedOn": "2026-03-06",
       "url": "/training/modules/application-types/",
+      "retired": false
+    },
+    {
+      "id": "B92R2JUD",
+      "title": "Use application development best practices in Microsoft Dynamics 365 Business Central",
+      "category": "learningpaths",
+      "grantedOn": "2026-03-06",
+      "url": "/training/paths/use-application-development-business-central/",
       "retired": false
     },
     {
@@ -15734,19 +15798,19 @@
       "retired": false
     },
     {
-      "id": "82LVQQSW",
-      "title": "Use checks to pay vendors in Dynamics 365 Business Central",
-      "category": "modules",
-      "grantedOn": "2026-03-05",
-      "url": "/training/modules/use-checks-dynamics-365-business-central/",
-      "retired": false
-    },
-    {
       "id": "NM6QPP5F",
       "title": "Process customer and vendor payments in Microsoft Dynamics 365 Business Central",
       "category": "learningpaths",
       "grantedOn": "2026-03-05",
       "url": "/training/paths/process-customer-vendor-payments-dynamics-365-business-central/",
+      "retired": false
+    },
+    {
+      "id": "82LVQQSW",
+      "title": "Use checks to pay vendors in Dynamics 365 Business Central",
+      "category": "modules",
+      "grantedOn": "2026-03-05",
+      "url": "/training/modules/use-checks-dynamics-365-business-central/",
       "retired": false
     },
     {
@@ -15902,19 +15966,19 @@
       "retired": false
     },
     {
-      "id": "J3MH8SST",
-      "title": "Develop using Power Apps and Power Automate for Dynamics 365 Business Central",
-      "category": "learningpaths",
-      "grantedOn": "2026-03-05",
-      "url": "/training/paths/power-apps-power-automate-business-central/",
-      "retired": false
-    },
-    {
       "id": "37SZZ33H",
       "title": "Use Power Automate with Business Central",
       "category": "modules",
       "grantedOn": "2026-03-05",
       "url": "/training/modules/use-power-automate/",
+      "retired": false
+    },
+    {
+      "id": "J3MH8SST",
+      "title": "Develop using Power Apps and Power Automate for Dynamics 365 Business Central",
+      "category": "learningpaths",
+      "grantedOn": "2026-03-05",
+      "url": "/training/paths/power-apps-power-automate-business-central/",
       "retired": false
     },
     {
@@ -15966,19 +16030,19 @@
       "retired": false
     },
     {
-      "id": "7B8K5B7Z",
-      "title": "Manage accounts payable",
-      "category": "learningpaths",
-      "grantedOn": "2026-03-04",
-      "url": "/training/paths/implement-manage-accounts-payable-expenses/",
-      "retired": false
-    },
-    {
       "id": "XE9QDEFY",
       "title": "Set up and configure Expense management in Dynamics 365 Project Operations",
       "category": "modules",
       "grantedOn": "2026-03-04",
       "url": "/training/modules/set-up-configure-expense-management/",
+      "retired": false
+    },
+    {
+      "id": "7B8K5B7Z",
+      "title": "Manage accounts payable",
+      "category": "learningpaths",
+      "grantedOn": "2026-03-04",
+      "url": "/training/paths/implement-manage-accounts-payable-expenses/",
       "retired": false
     },
     {
@@ -16078,19 +16142,19 @@
       "retired": false
     },
     {
-      "id": "FQCME33X",
-      "title": "Build Power Fx functions",
-      "category": "modules",
-      "grantedOn": "2026-03-04",
-      "url": "/training/modules/build-power-fx/",
-      "retired": false
-    },
-    {
       "id": "9RJYA5LU",
       "title": "Work with Power Fx functions",
       "category": "learningpaths",
       "grantedOn": "2026-03-04",
       "url": "/training/paths/work-powerfx-functions/",
+      "retired": false
+    },
+    {
+      "id": "FQCME33X",
+      "title": "Build Power Fx functions",
+      "category": "modules",
+      "grantedOn": "2026-03-04",
+      "url": "/training/modules/build-power-fx/",
       "retired": false
     },
     {
@@ -16214,19 +16278,19 @@
       "retired": false
     },
     {
-      "id": "PGALLLU4",
-      "title": "Post purchase item charges in Dynamics 365 Business Central",
-      "category": "modules",
-      "grantedOn": "2026-03-04",
-      "url": "/training/modules/post-purchase-item-charges-dynamics-365-business-central/",
-      "retired": false
-    },
-    {
       "id": "AKH444S7",
       "title": "Purchase items and services in Microsoft Dynamics 365 Business Central",
       "category": "learningpaths",
       "grantedOn": "2026-03-04",
       "url": "/training/paths/purchase-items-services-dynamics-365-business-central/",
+      "retired": false
+    },
+    {
+      "id": "PGALLLU4",
+      "title": "Post purchase item charges in Dynamics 365 Business Central",
+      "category": "modules",
+      "grantedOn": "2026-03-04",
+      "url": "/training/modules/post-purchase-item-charges-dynamics-365-business-central/",
       "retired": false
     },
     {
@@ -16502,19 +16566,19 @@
       "retired": false
     },
     {
-      "id": "9RDSPXLU",
-      "title": "Use custom code in custom connectors for Microsoft Power Platform",
-      "category": "modules",
-      "grantedOn": "2026-03-02",
-      "url": "/training/modules/custom-code-connectors/",
-      "retired": false
-    },
-    {
       "id": "8256D7CW",
       "title": "Build custom connectors for Microsoft Power Platform",
       "category": "learningpaths",
       "grantedOn": "2026-03-02",
       "url": "/training/paths/build-custom-connectors/",
+      "retired": false
+    },
+    {
+      "id": "9RDSPXLU",
+      "title": "Use custom code in custom connectors for Microsoft Power Platform",
+      "category": "modules",
+      "grantedOn": "2026-03-02",
+      "url": "/training/modules/custom-code-connectors/",
       "retired": false
     },
     {
@@ -16686,19 +16750,19 @@
       "retired": false
     },
     {
-      "id": "46AZGZJK",
-      "title": "Configure secure access to your workloads using Azure virtual networking",
-      "category": "learningpaths",
-      "grantedOn": "2026-03-01",
-      "url": "/training/paths/configure-secure-workloads-using-azure-virtual-networking/",
-      "retired": false
-    },
-    {
       "id": "XECUQUZY",
       "title": "Guided Project - Configure secure access to workloads with Azure virtual networking services",
       "category": "modules",
       "grantedOn": "2026-03-01",
       "url": "/training/modules/guided-project-configure-secure-access-workloads/",
+      "retired": false
+    },
+    {
+      "id": "46AZGZJK",
+      "title": "Configure secure access to your workloads using Azure virtual networking",
+      "category": "learningpaths",
+      "grantedOn": "2026-03-01",
+      "url": "/training/paths/configure-secure-workloads-using-azure-virtual-networking/",
       "retired": false
     },
     {
@@ -16766,19 +16830,19 @@
       "retired": false
     },
     {
-      "id": "DU2M93YJ",
-      "title": "Implement disaster recovery in Windows Server on-premises and hybrid environments",
-      "category": "learningpaths",
-      "grantedOn": "2026-03-01",
-      "url": "/training/paths/implement-disaster-recovery-windows-server-premises/",
-      "retired": false
-    },
-    {
       "id": "KC7269NB",
       "title": "Implement Hyper-V Replica",
       "category": "modules",
       "grantedOn": "2026-03-01",
       "url": "/training/modules/implement-hyper-v-replica/",
+      "retired": false
+    },
+    {
+      "id": "DU2M93YJ",
+      "title": "Implement disaster recovery in Windows Server on-premises and hybrid environments",
+      "category": "learningpaths",
+      "grantedOn": "2026-03-01",
+      "url": "/training/paths/implement-disaster-recovery-windows-server-premises/",
       "retired": false
     },
     {
@@ -16878,19 +16942,19 @@
       "retired": false
     },
     {
-      "id": "WVL6Z7BN",
-      "title": "Plan and configure network settings for Microsoft Teams",
-      "category": "modules",
-      "grantedOn": "2026-03-01",
-      "url": "/training/modules/plan-configure-network-settings-for-microsoft-teams/",
-      "retired": false
-    },
-    {
       "id": "2JWFBK6V",
       "title": "Prepare the environment for a Microsoft Teams deployment",
       "category": "learningpaths",
       "grantedOn": "2026-03-01",
       "url": "/training/paths/prepare-environment-for-microsoft-teams-deployment/",
+      "retired": false
+    },
+    {
+      "id": "WVL6Z7BN",
+      "title": "Plan and configure network settings for Microsoft Teams",
+      "category": "modules",
+      "grantedOn": "2026-03-01",
+      "url": "/training/modules/plan-configure-network-settings-for-microsoft-teams/",
       "retired": false
     },
     {
@@ -17038,19 +17102,19 @@
       "retired": false
     },
     {
-      "id": "NMG5DEYF",
-      "title": "Get started with Omnichannel for Customer Service",
-      "category": "modules",
-      "grantedOn": "2026-02-28",
-      "url": "/training/modules/getting-started-omnichannel/",
-      "retired": false
-    },
-    {
       "id": "WVLSBQYN",
       "title": "Connect and engage with customers with Omnichannel for Dynamics 365 Customer Service",
       "category": "learningpaths",
       "grantedOn": "2026-02-28",
       "url": "/training/paths/work-customer-service-omnichannel/",
+      "retired": false
+    },
+    {
+      "id": "NMG5DEYF",
+      "title": "Get started with Omnichannel for Customer Service",
+      "category": "modules",
+      "grantedOn": "2026-02-28",
+      "url": "/training/modules/getting-started-omnichannel/",
       "retired": false
     },
     {
@@ -17334,19 +17398,19 @@
       "retired": false
     },
     {
-      "id": "NMGVN6EF",
-      "title": "Guided Project – Deploy and configure Azure Monitor",
-      "category": "modules",
-      "grantedOn": "2026-02-26",
-      "url": "/training/modules/guided-project-deploy-configure-azure-monitor/",
-      "retired": false
-    },
-    {
       "id": "Q5XSQYLE",
       "title": "Deploy and configure Azure Monitor",
       "category": "learningpaths",
       "grantedOn": "2026-02-26",
       "url": "/training/paths/deploy-configure-azure-monitor/",
+      "retired": false
+    },
+    {
+      "id": "NMGVN6EF",
+      "title": "Guided Project – Deploy and configure Azure Monitor",
+      "category": "modules",
+      "grantedOn": "2026-02-26",
+      "url": "/training/modules/guided-project-deploy-configure-azure-monitor/",
       "retired": false
     },
     {
@@ -17446,19 +17510,19 @@
       "retired": false
     },
     {
-      "id": "UAJXN4C3",
-      "title": "Common Linux server configurations",
-      "category": "learningpaths",
-      "grantedOn": "2026-02-26",
-      "url": "/training/paths/common-linux-server-configurations/",
-      "retired": false
-    },
-    {
       "id": "Q5XJB8ME",
       "title": "Introduction to open-source database migration on Azure",
       "category": "modules",
       "grantedOn": "2026-02-26",
       "url": "/training/modules/introduction-open-source-database-migration-azure/",
+      "retired": false
+    },
+    {
+      "id": "UAJXN4C3",
+      "title": "Common Linux server configurations",
+      "category": "learningpaths",
+      "grantedOn": "2026-02-26",
+      "url": "/training/paths/common-linux-server-configurations/",
       "retired": false
     },
     {
@@ -17742,19 +17806,19 @@
       "retired": false
     },
     {
-      "id": "KCA44PRB",
-      "title": "Monitor and maintain an Azure Virtual Desktop infrastructure",
-      "category": "learningpaths",
-      "grantedOn": "2026-02-25",
-      "url": "/training/paths/monitor-maintain-azure-virtual-desktop-infrastructure/",
-      "retired": false
-    },
-    {
       "id": "DUZBBKZJ",
       "title": "Monitor and manage performance and health",
       "category": "modules",
       "grantedOn": "2026-02-25",
       "url": "/training/modules/monitor-manage-performance-health/",
+      "retired": false
+    },
+    {
+      "id": "KCA44PRB",
+      "title": "Monitor and maintain an Azure Virtual Desktop infrastructure",
+      "category": "learningpaths",
+      "grantedOn": "2026-02-25",
+      "url": "/training/paths/monitor-maintain-azure-virtual-desktop-infrastructure/",
       "retired": false
     },
     {
@@ -17910,19 +17974,19 @@
       "retired": false
     },
     {
-      "id": "UADLBL73",
-      "title": "Post periodic journal entries in Dynamics 365 Business Central",
-      "category": "modules",
-      "grantedOn": "2026-02-24",
-      "url": "/training/modules/periodic-journal-entries-dynamics-365-business-central/",
-      "retired": false
-    },
-    {
       "id": "37JGDG7H",
       "title": "Use journals in Microsoft Dynamics 365 Business Central",
       "category": "learningpaths",
       "grantedOn": "2026-02-24",
       "url": "/training/paths/use-journals-dynamics-365-business-central/",
+      "retired": false
+    },
+    {
+      "id": "UADLBL73",
+      "title": "Post periodic journal entries in Dynamics 365 Business Central",
+      "category": "modules",
+      "grantedOn": "2026-02-24",
+      "url": "/training/modules/periodic-journal-entries-dynamics-365-business-central/",
       "retired": false
     },
     {
@@ -18142,19 +18206,19 @@
       "retired": false
     },
     {
-      "id": "WVSMKMUN",
-      "title": "Use inventory reports in Dynamics 365 Supply Chain Management",
-      "category": "modules",
-      "grantedOn": "2026-02-16",
-      "url": "/training/modules/use-inventory-reports-dyn365-supply-chain-mgmt/",
-      "retired": false
-    },
-    {
       "id": "VT8SCS7M",
       "title": "Configure and manage products and inventory in Dynamics 365 Supply Chain Management",
       "category": "learningpaths",
       "grantedOn": "2026-02-16",
       "url": "/training/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/",
+      "retired": false
+    },
+    {
+      "id": "WVSMKMUN",
+      "title": "Use inventory reports in Dynamics 365 Supply Chain Management",
+      "category": "modules",
+      "grantedOn": "2026-02-16",
+      "url": "/training/modules/use-inventory-reports-dyn365-supply-chain-mgmt/",
       "retired": false
     },
     {
@@ -18214,19 +18278,19 @@
       "retired": false
     },
     {
-      "id": "KCRL25UB",
-      "title": "Manage access for Azure Virtual Desktop",
-      "category": "modules",
-      "grantedOn": "2026-02-15",
-      "url": "/training/modules/manage-access/",
-      "retired": false
-    },
-    {
       "id": "VT8BXKSM",
       "title": "Manage access and security for Azure Virtual Desktop",
       "category": "learningpaths",
       "grantedOn": "2026-02-15",
       "url": "/training/paths/manage-access-security/",
+      "retired": false
+    },
+    {
+      "id": "KCRL25UB",
+      "title": "Manage access for Azure Virtual Desktop",
+      "category": "modules",
+      "grantedOn": "2026-02-15",
+      "url": "/training/modules/manage-access/",
       "retired": false
     },
     {
@@ -18246,14 +18310,6 @@
       "retired": false
     },
     {
-      "id": "FQL2C3BX",
-      "title": "Help service reps be more productive in Dynamics 365 Customer Service",
-      "category": "learningpaths",
-      "grantedOn": "2026-02-15",
-      "url": "/training/paths/agents-help-customer-service/",
-      "retired": false
-    },
-    {
       "id": "9RKFJ5MU",
       "title": "Create smart assist solutions in Contact Center for Dynamics 365 Customer Service",
       "category": "modules",
@@ -18262,11 +18318,11 @@
       "retired": false
     },
     {
-      "id": "9RKFJJBU",
-      "title": "Implement and operate an on-premises and hybrid networking infrastructure",
+      "id": "FQL2C3BX",
+      "title": "Help service reps be more productive in Dynamics 365 Customer Service",
       "category": "learningpaths",
       "grantedOn": "2026-02-15",
-      "url": "/training/paths/implement-operate-premises-hybrid/",
+      "url": "/training/paths/agents-help-customer-service/",
       "retired": false
     },
     {
@@ -18275,6 +18331,14 @@
       "category": "modules",
       "grantedOn": "2026-02-15",
       "url": "/training/modules/implement-ip-address-management/",
+      "retired": false
+    },
+    {
+      "id": "9RKFJJBU",
+      "title": "Implement and operate an on-premises and hybrid networking infrastructure",
+      "category": "learningpaths",
+      "grantedOn": "2026-02-15",
+      "url": "/training/paths/implement-operate-premises-hybrid/",
       "retired": false
     },
     {
@@ -18678,19 +18742,19 @@
       "retired": false
     },
     {
-      "id": "DUA4KA8J",
-      "title": "Work with data in a Power Apps canvas app",
-      "category": "learningpaths",
-      "grantedOn": "2026-02-13",
-      "url": "/training/paths/work-with-data-in-a-canvas-app/",
-      "retired": false
-    },
-    {
       "id": "2J3A73LV",
       "title": "Shape data in a Power Apps canvas app",
       "category": "modules",
       "grantedOn": "2026-02-13",
       "url": "/training/modules/shape-data/",
+      "retired": false
+    },
+    {
+      "id": "DUA4KA8J",
+      "title": "Work with data in a Power Apps canvas app",
+      "category": "learningpaths",
+      "grantedOn": "2026-02-13",
+      "url": "/training/paths/work-with-data-in-a-canvas-app/",
       "retired": false
     },
     {
@@ -19238,14 +19302,6 @@
       "retired": false
     },
     {
-      "id": "AKCXN5F7",
-      "title": "Examine data security and compliance in Microsoft 365 Copilot",
-      "category": "modules",
-      "grantedOn": "2026-02-12",
-      "url": "/training/modules/examine-data-security-microsoft-365-copilot/",
-      "retired": false
-    },
-    {
       "id": "PGFM2H24",
       "title": "Prepare your organization for Microsoft 365 Copilot",
       "category": "learningpaths",
@@ -19254,11 +19310,11 @@
       "retired": false
     },
     {
-      "id": "82JGCVLW",
-      "title": "Implement compliance controls for sensitive data",
+      "id": "AKCXN5F7",
+      "title": "Examine data security and compliance in Microsoft 365 Copilot",
       "category": "modules",
       "grantedOn": "2026-02-12",
-      "url": "/training/modules/implement-compliance-controls-sensitive-data/",
+      "url": "/training/modules/examine-data-security-microsoft-365-copilot/",
       "retired": false
     },
     {
@@ -19267,6 +19323,14 @@
       "category": "learningpaths",
       "grantedOn": "2026-02-12",
       "url": "/training/paths/implement-secure-environment-database-service/",
+      "retired": false
+    },
+    {
+      "id": "82JGCVLW",
+      "title": "Implement compliance controls for sensitive data",
+      "category": "modules",
+      "grantedOn": "2026-02-12",
+      "url": "/training/modules/implement-compliance-controls-sensitive-data/",
       "retired": false
     },
     {
@@ -19382,19 +19446,19 @@
       "retired": false
     },
     {
-      "id": "NMSCSRWF",
-      "title": "Administer Dynamics 365 Business Central online",
-      "category": "modules",
-      "grantedOn": "2026-02-12",
-      "url": "/training/modules/admin-online-dynamics-365-business-central/",
-      "retired": false
-    },
-    {
       "id": "WVT6TYWN",
       "title": "Deploy and configure Microsoft Dynamics 365 Business Central",
       "category": "learningpaths",
       "grantedOn": "2026-02-12",
       "url": "/training/paths/deploy-configure-dynamics-365-business-central/",
+      "retired": false
+    },
+    {
+      "id": "NMSCSRWF",
+      "title": "Administer Dynamics 365 Business Central online",
+      "category": "modules",
+      "grantedOn": "2026-02-12",
+      "url": "/training/modules/admin-online-dynamics-365-business-central/",
       "retired": false
     },
     {
@@ -19574,19 +19638,19 @@
       "retired": false
     },
     {
-      "id": "DUAMUMTJ",
-      "title": "Use basic formulas to make better Power Apps canvas apps",
-      "category": "learningpaths",
-      "grantedOn": "2026-02-12",
-      "url": "/training/paths/use-basic-formulas-powerapps-canvas-app/",
-      "retired": false
-    },
-    {
       "id": "2J3FJFQV",
       "title": "Author a basic formula that uses tables and records in a Power Apps canvas app",
       "category": "modules",
       "grantedOn": "2026-02-12",
       "url": "/training/modules/author-basic-formula-tables-records-powerapps/",
+      "retired": false
+    },
+    {
+      "id": "DUAMUMTJ",
+      "title": "Use basic formulas to make better Power Apps canvas apps",
+      "category": "learningpaths",
+      "grantedOn": "2026-02-12",
+      "url": "/training/paths/use-basic-formulas-powerapps-canvas-app/",
       "retired": false
     },
     {
@@ -19814,19 +19878,19 @@
       "retired": false
     },
     {
-      "id": "Q5WN68TE",
-      "title": "Develop an ASP.NET Core web app that consumes an API",
-      "category": "learningpaths",
-      "grantedOn": "2026-02-11",
-      "url": "/training/paths/develop-asp-core-api/",
-      "retired": false
-    },
-    {
       "id": "NMS5PTVF",
       "title": "Render API responses in ASP.NET Core Blazor Web apps",
       "category": "modules",
       "grantedOn": "2026-02-11",
       "url": "/training/modules/render-api-responses-razor-pages/",
+      "retired": false
+    },
+    {
+      "id": "Q5WN68TE",
+      "title": "Develop an ASP.NET Core web app that consumes an API",
+      "category": "learningpaths",
+      "grantedOn": "2026-02-11",
+      "url": "/training/paths/develop-asp-core-api/",
       "retired": false
     },
     {
@@ -20342,19 +20406,19 @@
       "retired": false
     },
     {
-      "id": "82JQQHEW",
-      "title": "Visualize, import, and export Microsoft Dataverse data",
-      "category": "learningpaths",
-      "grantedOn": "2026-02-10",
-      "url": "/training/paths/visualize-import-export-dataverse/",
-      "retired": false
-    },
-    {
       "id": "9R4ZZCVU",
       "title": "Use Azure and external tools to manipulate data",
       "category": "modules",
       "grantedOn": "2026-02-10",
       "url": "/training/modules/understand-azure-dataverse/",
+      "retired": false
+    },
+    {
+      "id": "82JQQHEW",
+      "title": "Visualize, import, and export Microsoft Dataverse data",
+      "category": "learningpaths",
+      "grantedOn": "2026-02-10",
+      "url": "/training/paths/visualize-import-export-dataverse/",
       "retired": false
     },
     {
@@ -20590,19 +20654,19 @@
       "retired": false
     },
     {
-      "id": "37B7DUUH",
-      "title": "Define a Microsoft AI strategy to create business value in finance",
-      "category": "modules",
-      "grantedOn": "2026-02-09",
-      "url": "/training/modules/define-microsoft-ai-strategy-finance/",
-      "retired": false
-    },
-    {
       "id": "AKCK9RY7",
       "title": "Discover AI for leaders in finance",
       "category": "learningpaths",
       "grantedOn": "2026-02-09",
       "url": "/training/paths/discover-microsoft-ai-leaders-financial-industry/",
+      "retired": false
+    },
+    {
+      "id": "37B7DUUH",
+      "title": "Define a Microsoft AI strategy to create business value in finance",
+      "category": "modules",
+      "grantedOn": "2026-02-09",
+      "url": "/training/modules/define-microsoft-ai-strategy-finance/",
       "retired": false
     },
     {
@@ -20702,19 +20766,19 @@
       "retired": false
     },
     {
-      "id": "VTHTUVCM",
-      "title": "Plan an Azure Virtual Desktop implementation",
-      "category": "learningpaths",
-      "grantedOn": "2026-02-09",
-      "url": "/training/paths/plan-azure-virtual-desktop-implementation/",
-      "retired": false
-    },
-    {
       "id": "KCYCFKNB",
       "title": "Azure Virtual Desktop Architecture",
       "category": "modules",
       "grantedOn": "2026-02-09",
       "url": "/training/modules/azure-virtual-desktop-architecture/",
+      "retired": false
+    },
+    {
+      "id": "VTHTUVCM",
+      "title": "Plan an Azure Virtual Desktop implementation",
+      "category": "learningpaths",
+      "grantedOn": "2026-02-09",
+      "url": "/training/paths/plan-azure-virtual-desktop-implementation/",
       "retired": false
     },
     {
@@ -20878,19 +20942,19 @@
       "retired": false
     },
     {
-      "id": "82JR6JPW",
-      "title": "Find commands and Get-Help in Windows PowerShell",
-      "category": "modules",
-      "grantedOn": "2026-02-08",
-      "url": "/training/modules/find-commands-get-help-windows-powershell/",
-      "retired": false
-    },
-    {
       "id": "NMS79S4F",
       "title": "Get started with Windows PowerShell",
       "category": "learningpaths",
       "grantedOn": "2026-02-08",
       "url": "/training/paths/get-started-windows-powershell/",
+      "retired": false
+    },
+    {
+      "id": "82JR6JPW",
+      "title": "Find commands and Get-Help in Windows PowerShell",
+      "category": "modules",
+      "grantedOn": "2026-02-08",
+      "url": "/training/modules/find-commands-get-help-windows-powershell/",
       "retired": false
     },
     {
@@ -20974,19 +21038,19 @@
       "retired": false
     },
     {
-      "id": "YPG2GM6R",
-      "title": "Data normalization in Microsoft Sentinel",
-      "category": "modules",
-      "grantedOn": "2026-02-08",
-      "url": "/training/modules/data-normalization-microsoft-sentinel/",
-      "retired": false
-    },
-    {
       "id": "WVTRT7TN",
       "title": "Create detections and perform investigations using Microsoft Sentinel",
       "category": "learningpaths",
       "grantedOn": "2026-02-08",
       "url": "/training/paths/sc-200-create-detections-perform-investigations-azure-sentinel/",
+      "retired": false
+    },
+    {
+      "id": "YPG2GM6R",
+      "title": "Data normalization in Microsoft Sentinel",
+      "category": "modules",
+      "grantedOn": "2026-02-08",
+      "url": "/training/modules/data-normalization-microsoft-sentinel/",
       "retired": false
     },
     {
@@ -21022,19 +21086,19 @@
       "retired": false
     },
     {
-      "id": "J37GABZT",
-      "title": "Build and deploy applications to Azure by using GitHub Actions",
-      "category": "modules",
-      "grantedOn": "2026-02-08",
-      "url": "/training/modules/github-actions-cd/",
-      "retired": false
-    },
-    {
       "id": "FQ57SWGX",
       "title": "Manage source control",
       "category": "learningpaths",
       "grantedOn": "2026-02-08",
       "url": "/training/paths/az-400-manage-source-control/",
+      "retired": false
+    },
+    {
+      "id": "J37GABZT",
+      "title": "Build and deploy applications to Azure by using GitHub Actions",
+      "category": "modules",
+      "grantedOn": "2026-02-08",
+      "url": "/training/modules/github-actions-cd/",
       "retired": false
     },
     {
@@ -21470,19 +21534,19 @@
       "retired": false
     },
     {
-      "id": "NMT3AGAF",
-      "title": "Assess deployment readiness",
-      "category": "modules",
-      "grantedOn": "2026-02-05",
-      "url": "/training/modules/deployment-readiness/",
-      "retired": false
-    },
-    {
       "id": "WVJURLAN",
       "title": "MD-102 Deploy using on-premises based tools",
       "category": "learningpaths",
       "grantedOn": "2026-02-05",
       "url": "/training/paths/deploy-on-premise-based-tools/",
+      "retired": false
+    },
+    {
+      "id": "NMT3AGAF",
+      "title": "Assess deployment readiness",
+      "category": "modules",
+      "grantedOn": "2026-02-05",
+      "url": "/training/modules/deployment-readiness/",
       "retired": false
     },
     {
@@ -21814,19 +21878,19 @@
       "retired": false
     },
     {
-      "id": "DURY4YTJ",
-      "title": "Design and implement network security",
-      "category": "modules",
-      "grantedOn": "2026-02-03",
-      "url": "/training/modules/design-implement-network-security-monitoring/",
-      "retired": false
-    },
-    {
       "id": "KCXFENKB",
       "title": "AZ-700 Design and Implement Microsoft Azure Network Solutions",
       "category": "learningpaths",
       "grantedOn": "2026-02-03",
       "url": "/training/paths/design-implement-microsoft-azure-networking-solutions-az-700/",
+      "retired": false
+    },
+    {
+      "id": "DURY4YTJ",
+      "title": "Design and implement network security",
+      "category": "modules",
+      "grantedOn": "2026-02-03",
+      "url": "/training/modules/design-implement-network-security-monitoring/",
       "retired": false
     },
     {
@@ -21894,19 +21958,19 @@
       "retired": false
     },
     {
-      "id": "FQST3FUX",
-      "title": "Protect identity and access in Azure",
-      "category": "learningpaths",
-      "grantedOn": "2026-02-03",
-      "url": "/training/paths/secure-identity-access/",
-      "retired": false
-    },
-    {
       "id": "CYEQSCS9",
       "title": "Manage security controls for identity and access",
       "category": "modules",
       "grantedOn": "2026-02-03",
       "url": "/training/modules/manage-security-controls-identity-access/",
+      "retired": false
+    },
+    {
+      "id": "FQST3FUX",
+      "title": "Protect identity and access in Azure",
+      "category": "learningpaths",
+      "grantedOn": "2026-02-03",
+      "url": "/training/paths/secure-identity-access/",
       "retired": false
     },
     {
@@ -21982,19 +22046,19 @@
       "retired": false
     },
     {
-      "id": "ZD9GVTL2",
-      "title": "Independent learning with math tools in OneNote",
-      "category": "modules",
-      "grantedOn": "2026-02-02",
-      "url": "/training/modules/independent-learning-math-tools-onenote/",
-      "retired": false
-    },
-    {
       "id": "ELW3469P",
       "title": "OneNote for educators",
       "category": "learningpaths",
       "grantedOn": "2026-02-02",
       "url": "/training/paths/onenote-teacher-academy/",
+      "retired": false
+    },
+    {
+      "id": "ZD9GVTL2",
+      "title": "Independent learning with math tools in OneNote",
+      "category": "modules",
+      "grantedOn": "2026-02-02",
+      "url": "/training/modules/independent-learning-math-tools-onenote/",
       "retired": false
     },
     {
@@ -22102,19 +22166,19 @@
       "retired": false
     },
     {
-      "id": "Q586U9AE",
-      "title": "MD-102 Deploy using cloud based tools",
-      "category": "learningpaths",
-      "grantedOn": "2026-02-02",
-      "url": "/training/paths/deploy-cloud-based-tools/",
-      "retired": false
-    },
-    {
       "id": "UA42QMS3",
       "title": "Explore Microsoft Intune Suite",
       "category": "modules",
       "grantedOn": "2026-02-02",
       "url": "/training/modules/explore-microsoft-intune-suite/",
+      "retired": false
+    },
+    {
+      "id": "Q586U9AE",
+      "title": "MD-102 Deploy using cloud based tools",
+      "category": "learningpaths",
+      "grantedOn": "2026-02-02",
+      "url": "/training/paths/deploy-cloud-based-tools/",
       "retired": false
     },
     {
@@ -22158,19 +22222,19 @@
       "retired": false
     },
     {
-      "id": "DURHG5LJ",
-      "title": "Microsoft Azure Well-Architected Framework - Reliability",
-      "category": "modules",
-      "grantedOn": "2026-02-01",
-      "url": "/training/modules/azure-well-architected-reliability/",
-      "retired": false
-    },
-    {
       "id": "KCXU5TTB",
       "title": "Build great solutions with the Microsoft Azure Well-Architected Framework",
       "category": "learningpaths",
       "grantedOn": "2026-02-01",
       "url": "/training/paths/azure-well-architected-framework/",
+      "retired": false
+    },
+    {
+      "id": "DURHG5LJ",
+      "title": "Microsoft Azure Well-Architected Framework - Reliability",
+      "category": "modules",
+      "grantedOn": "2026-02-01",
+      "url": "/training/modules/azure-well-architected-reliability/",
       "retired": false
     },
     {
@@ -22206,19 +22270,19 @@
       "retired": false
     },
     {
-      "id": "FQSP75WX",
-      "title": "Configure a project and repository structure to support secure pipelines",
-      "category": "modules",
-      "grantedOn": "2026-02-01",
-      "url": "/training/modules/configure-project-repository-structure-support-secure-pipelines/",
-      "retired": false
-    },
-    {
       "id": "HZBVXD98",
       "title": "Implement security through a pipeline using Azure DevOps",
       "category": "learningpaths",
       "grantedOn": "2026-02-01",
       "url": "/training/paths/implement-security-through-pipeline-using-devops/",
+      "retired": false
+    },
+    {
+      "id": "FQSP75WX",
+      "title": "Configure a project and repository structure to support secure pipelines",
+      "category": "modules",
+      "grantedOn": "2026-02-01",
+      "url": "/training/modules/configure-project-repository-structure-support-secure-pipelines/",
       "retired": false
     },
     {
@@ -22254,19 +22318,19 @@
       "retired": false
     },
     {
-      "id": "HZBVF9R8",
-      "title": "Implement Microsoft Purview Information Protection",
-      "category": "learningpaths",
-      "grantedOn": "2026-02-01",
-      "url": "/training/paths/purview-implement-information-protection/",
-      "retired": false
-    },
-    {
       "id": "FQSPA8VX",
       "title": "Classify and protect on-premises data with Microsoft Purview",
       "category": "modules",
       "grantedOn": "2026-02-01",
       "url": "/training/modules/purview-protect-on-premises-data/",
+      "retired": false
+    },
+    {
+      "id": "HZBVF9R8",
+      "title": "Implement Microsoft Purview Information Protection",
+      "category": "learningpaths",
+      "grantedOn": "2026-02-01",
+      "url": "/training/paths/purview-implement-information-protection/",
       "retired": false
     },
     {
@@ -22438,19 +22502,19 @@
       "retired": false
     },
     {
-      "id": "AK64FX97",
-      "title": "Implement Storage Spaces and Storage Spaces Direct",
-      "category": "modules",
-      "grantedOn": "2026-01-31",
-      "url": "/training/modules/implement-storage-spaces-storage-spaces-direct/",
-      "retired": false
-    },
-    {
       "id": "37KA6CJH",
       "title": "Windows Server file servers and storage management",
       "category": "learningpaths",
       "grantedOn": "2026-01-31",
       "url": "/training/paths/windows-server-file-servers-storage-management/",
+      "retired": false
+    },
+    {
+      "id": "AK64FX97",
+      "title": "Implement Storage Spaces and Storage Spaces Direct",
+      "category": "modules",
+      "grantedOn": "2026-01-31",
+      "url": "/training/modules/implement-storage-spaces-storage-spaces-direct/",
       "retired": false
     },
     {
@@ -22710,19 +22774,19 @@
       "retired": false
     },
     {
-      "id": "46F5AYJK",
-      "title": "Connect to other data in a Power Apps canvas app",
-      "category": "modules",
-      "grantedOn": "2026-01-31",
-      "url": "/training/modules/connect-to-other-data-in-powerapps-canvas-app/",
-      "retired": false
-    },
-    {
       "id": "XE5VCGZY",
       "title": "Get started using Dataverse",
       "category": "learningpaths",
       "grantedOn": "2026-01-31",
       "url": "/training/paths/get-started-cds/",
+      "retired": false
+    },
+    {
+      "id": "46F5AYJK",
+      "title": "Connect to other data in a Power Apps canvas app",
+      "category": "modules",
+      "grantedOn": "2026-01-31",
+      "url": "/training/modules/connect-to-other-data-in-powerapps-canvas-app/",
       "retired": false
     },
     {
@@ -22974,14 +23038,6 @@
       "retired": false
     },
     {
-      "id": "FQTBC4PX",
-      "title": "Use AI Builder in Power Automate",
-      "category": "modules",
-      "grantedOn": "2026-01-27",
-      "url": "/training/modules/ai-builder-power-automate/",
-      "retired": false
-    },
-    {
       "id": "9REVJZZU",
       "title": "Automate a business process using Power Automate",
       "category": "learningpaths",
@@ -22990,11 +23046,11 @@
       "retired": false
     },
     {
-      "id": "KCF87PNB",
-      "title": "Implement virtual machine host security in Azure",
-      "category": "learningpaths",
+      "id": "FQTBC4PX",
+      "title": "Use AI Builder in Power Automate",
+      "category": "modules",
       "grantedOn": "2026-01-27",
-      "url": "/training/paths/implement-host-security/",
+      "url": "/training/modules/ai-builder-power-automate/",
       "retired": false
     },
     {
@@ -23006,11 +23062,11 @@
       "retired": false
     },
     {
-      "id": "WVD4LH4N",
-      "title": "Microsoft Azure Well-Architected Framework - Security",
-      "category": "modules",
+      "id": "KCF87PNB",
+      "title": "Implement virtual machine host security in Azure",
+      "category": "learningpaths",
       "grantedOn": "2026-01-27",
-      "url": "/training/modules/azure-well-architected-security/",
+      "url": "/training/paths/implement-host-security/",
       "retired": false
     },
     {
@@ -23019,6 +23075,14 @@
       "category": "learningpaths",
       "grantedOn": "2026-01-27",
       "url": "/training/paths/secure-your-cloud-apps/",
+      "retired": false
+    },
+    {
+      "id": "WVD4LH4N",
+      "title": "Microsoft Azure Well-Architected Framework - Security",
+      "category": "modules",
+      "grantedOn": "2026-01-27",
+      "url": "/training/modules/azure-well-architected-security/",
       "retired": false
     },
     {
@@ -23078,19 +23142,19 @@
       "retired": false
     },
     {
-      "id": "XESK8L2Y",
-      "title": "Migrate application workloads and data to Azure",
-      "category": "learningpaths",
-      "grantedOn": "2026-01-26",
-      "url": "/training/paths/migrate-application-workloads-data-azure/",
-      "retired": false
-    },
-    {
       "id": "7B6TX9PZ",
       "title": "Migrate ASP.NET Apps to Azure",
       "category": "learningpaths",
       "grantedOn": "2026-01-26",
       "url": "/training/paths/migrate-dotnet-apps-azure/",
+      "retired": false
+    },
+    {
+      "id": "XESK8L2Y",
+      "title": "Migrate application workloads and data to Azure",
+      "category": "learningpaths",
+      "grantedOn": "2026-01-26",
+      "url": "/training/paths/migrate-application-workloads-data-azure/",
       "retired": false
     },
     {
@@ -23174,19 +23238,19 @@
       "retired": false
     },
     {
-      "id": "DUY3HY8J",
-      "title": "Implement secure Azure solutions",
-      "category": "learningpaths",
-      "grantedOn": "2026-01-26",
-      "url": "/training/paths/az-204-implement-secure-cloud-solutions/",
-      "retired": false
-    },
-    {
       "id": "2J9TS9LV",
       "title": "Implement managed identities",
       "category": "modules",
       "grantedOn": "2026-01-26",
       "url": "/training/modules/implement-managed-identities/",
+      "retired": false
+    },
+    {
+      "id": "DUY3HY8J",
+      "title": "Implement secure Azure solutions",
+      "category": "learningpaths",
+      "grantedOn": "2026-01-26",
+      "url": "/training/paths/az-204-implement-secure-cloud-solutions/",
       "retired": false
     },
     {
@@ -23342,19 +23406,19 @@
       "retired": false
     },
     {
-      "id": "UAPR6QF3",
-      "title": "Develop solutions that use Blob storage",
-      "category": "learningpaths",
-      "grantedOn": "2026-01-25",
-      "url": "/training/paths/develop-solutions-that-use-blob-storage/",
-      "retired": false
-    },
-    {
       "id": "9REYGMWU",
       "title": "Explore Azure Blob storage",
       "category": "modules",
       "grantedOn": "2026-01-25",
       "url": "/training/modules/explore-azure-blob-storage/",
+      "retired": false
+    },
+    {
+      "id": "UAPR6QF3",
+      "title": "Develop solutions that use Blob storage",
+      "category": "learningpaths",
+      "grantedOn": "2026-01-25",
+      "url": "/training/paths/develop-solutions-that-use-blob-storage/",
       "retired": false
     },
     {
@@ -23374,19 +23438,19 @@
       "retired": false
     },
     {
-      "id": "374A63LH",
-      "title": "Control and organize Azure resources with Azure Resource Manager",
-      "category": "modules",
-      "grantedOn": "2026-01-25",
-      "url": "/training/modules/control-and-organize-with-azure-resource-manager/",
-      "retired": false
-    },
-    {
       "id": "UAPRGUL3",
       "title": "Implement resource management security in Azure",
       "category": "learningpaths",
       "grantedOn": "2026-01-25",
       "url": "/training/paths/implement-resource-mgmt-security/",
+      "retired": false
+    },
+    {
+      "id": "374A63LH",
+      "title": "Control and organize Azure resources with Azure Resource Manager",
+      "category": "modules",
+      "grantedOn": "2026-01-25",
+      "url": "/training/modules/control-and-organize-with-azure-resource-manager/",
       "retired": false
     },
     {
@@ -23534,19 +23598,19 @@
       "retired": false
     },
     {
-      "id": "46N53W6K",
-      "title": "Accelerate app development by using GitHub Copilot",
-      "category": "learningpaths",
-      "grantedOn": "2026-01-24",
-      "url": "/training/paths/accelerate-app-development-using-github-copilot/",
-      "retired": false
-    },
-    {
       "id": "YP5MDSER",
       "title": "Develop code features using GitHub Copilot tools",
       "category": "modules",
       "grantedOn": "2026-01-24",
       "url": "/training/modules/develop-code-features-using-github-copilot-tools/",
+      "retired": false
+    },
+    {
+      "id": "46N53W6K",
+      "title": "Accelerate app development by using GitHub Copilot",
+      "category": "learningpaths",
+      "grantedOn": "2026-01-24",
+      "url": "/training/paths/accelerate-app-development-using-github-copilot/",
       "retired": false
     },
     {
@@ -23630,19 +23694,19 @@
       "retired": false
     },
     {
-      "id": "46N56U6K",
-      "title": "Build social and emotional skills in your classroom community with Reflect",
-      "category": "modules",
-      "grantedOn": "2026-01-24",
-      "url": "/training/modules/build-sel-skills-with-reflect/",
-      "retired": false
-    },
-    {
       "id": "YP5MPBER",
       "title": "Learning Accelerators for educators",
       "category": "learningpaths",
       "grantedOn": "2026-01-24",
       "url": "/training/paths/learning-accelerators-for-educators/",
+      "retired": false
+    },
+    {
+      "id": "46N56U6K",
+      "title": "Build social and emotional skills in your classroom community with Reflect",
+      "category": "modules",
+      "grantedOn": "2026-01-24",
+      "url": "/training/modules/build-sel-skills-with-reflect/",
       "retired": false
     },
     {
@@ -23942,19 +24006,19 @@
       "retired": false
     },
     {
-      "id": "NMD87XQF",
-      "title": "Configure storage accounts",
-      "category": "modules",
-      "grantedOn": "2026-01-23",
-      "url": "/training/modules/configure-storage-accounts/",
-      "retired": false
-    },
-    {
       "id": "Q53VDP5E",
       "title": "AZ-104: Implement and manage storage in Azure",
       "category": "learningpaths",
       "grantedOn": "2026-01-23",
       "url": "/training/paths/az-104-manage-storage/",
+      "retired": false
+    },
+    {
+      "id": "NMD87XQF",
+      "title": "Configure storage accounts",
+      "category": "modules",
+      "grantedOn": "2026-01-23",
+      "url": "/training/modules/configure-storage-accounts/",
       "retired": false
     },
     {
@@ -24486,19 +24550,19 @@
       "retired": false
     },
     {
-      "id": "B9FLBX3D",
-      "title": "Manage compliance with Microsoft Purview for Microsoft 365 Copilot",
-      "category": "modules",
-      "grantedOn": "2026-01-18",
-      "url": "/training/modules/purview-ai-data-compliance/",
-      "retired": false
-    },
-    {
       "id": "HZ4YHKM8",
       "title": "Govern and protect sensitive information in the age of AI",
       "category": "learningpaths",
       "grantedOn": "2026-01-18",
       "url": "/training/paths/purview-protect-govern-ai/",
+      "retired": false
+    },
+    {
+      "id": "B9FLBX3D",
+      "title": "Manage compliance with Microsoft Purview for Microsoft 365 Copilot",
+      "category": "modules",
+      "grantedOn": "2026-01-18",
+      "url": "/training/modules/purview-ai-data-compliance/",
       "retired": false
     },
     {
@@ -25070,19 +25134,19 @@
       "retired": false
     },
     {
-      "id": "B9NMMC4D",
-      "title": "Extend Microsoft 365 Copilot in TypeScript",
-      "category": "learningpaths",
-      "grantedOn": "2026-01-15",
-      "url": "/training/paths/copilot-m365-extensibility-typescript/",
-      "retired": false
-    },
-    {
       "id": "9RMSSYGU",
       "title": "Extend Microsoft 365 Copilot in .NET",
       "category": "learningpaths",
       "grantedOn": "2026-01-15",
       "url": "/training/paths/copilot-m365-extensibility/",
+      "retired": false
+    },
+    {
+      "id": "B9NMMC4D",
+      "title": "Extend Microsoft 365 Copilot in TypeScript",
+      "category": "learningpaths",
+      "grantedOn": "2026-01-15",
+      "url": "/training/paths/copilot-m365-extensibility-typescript/",
       "retired": false
     },
     {
@@ -25238,19 +25302,19 @@
       "retired": false
     },
     {
-      "id": "ZDGNM432",
-      "title": "Transform and load event log data for process mining",
-      "category": "modules",
-      "grantedOn": "2026-01-14",
-      "url": "/training/modules/transform-load-event-log/",
-      "retired": false
-    },
-    {
       "id": "EL3AKTNP",
       "title": "Process mining for the data wrangler",
       "category": "learningpaths",
       "grantedOn": "2026-01-14",
       "url": "/training/paths/process-mining-data-wrangler/",
+      "retired": false
+    },
+    {
+      "id": "ZDGNM432",
+      "title": "Transform and load event log data for process mining",
+      "category": "modules",
+      "grantedOn": "2026-01-14",
+      "url": "/training/modules/transform-load-event-log/",
       "retired": false
     },
     {
@@ -25382,19 +25446,19 @@
       "retired": false
     },
     {
-      "id": "XEJG7QWY",
-      "title": "Get started with cost accounting in Dynamics 365 Finance",
-      "category": "modules",
-      "grantedOn": "2026-01-13",
-      "url": "/training/modules/get-started-cost-accounting-dyn365-finance/",
-      "retired": false
-    },
-    {
       "id": "7BLUMKRZ",
       "title": "Get started with cost accounting for supply chains in Dynamics 365 Finance",
       "category": "learningpaths",
       "grantedOn": "2026-01-13",
       "url": "/training/paths/get-started-cost-accounting-supply-chains-dyn365-finance/",
+      "retired": false
+    },
+    {
+      "id": "XEJG7QWY",
+      "title": "Get started with cost accounting in Dynamics 365 Finance",
+      "category": "modules",
+      "grantedOn": "2026-01-13",
+      "url": "/training/modules/get-started-cost-accounting-dyn365-finance/",
       "retired": false
     },
     {
@@ -25638,19 +25702,19 @@
       "retired": false
     },
     {
-      "id": "NMB4RJLF",
-      "title": "Get started with Delegates",
-      "category": "modules",
-      "grantedOn": "2026-01-12",
-      "url": "/training/modules/get-started-delegates/",
-      "retired": false
-    },
-    {
       "id": "WVKPYDLN",
       "title": "Implement delegates and events",
       "category": "learningpaths",
       "grantedOn": "2026-01-12",
       "url": "/training/paths/delegates-events-exceptions/",
+      "retired": false
+    },
+    {
+      "id": "NMB4RJLF",
+      "title": "Get started with Delegates",
+      "category": "modules",
+      "grantedOn": "2026-01-12",
+      "url": "/training/modules/get-started-delegates/",
       "retired": false
     },
     {
@@ -25958,19 +26022,19 @@
       "retired": false
     },
     {
-      "id": "824ZU59W",
-      "title": "Education Transformation Framework",
-      "category": "learningpaths",
-      "grantedOn": "2026-01-10",
-      "url": "/training/paths/education-transformation-framework/",
-      "retired": false
-    },
-    {
       "id": "ZDGBR8X2",
       "title": "Student and school success - Education Transformation Framework",
       "category": "modules",
       "grantedOn": "2026-01-10",
       "url": "/training/modules/student-school-success-education-transformation-framework/",
+      "retired": false
+    },
+    {
+      "id": "824ZU59W",
+      "title": "Education Transformation Framework",
+      "category": "learningpaths",
+      "grantedOn": "2026-01-10",
+      "url": "/training/paths/education-transformation-framework/",
       "retired": false
     },
     {
@@ -26086,19 +26150,19 @@
       "retired": false
     },
     {
-      "id": "AK52RZC7",
-      "title": "Microsoft Sustainability Manager concepts",
-      "category": "modules",
-      "grantedOn": "2026-01-08",
-      "url": "/training/modules/work-cloud-sustainability/",
-      "retired": false
-    },
-    {
       "id": "37EWU8DH",
       "title": "Get started with Microsoft Sustainability Manager",
       "category": "learningpaths",
       "grantedOn": "2026-01-08",
       "url": "/training/paths/get-started-sustainability-manager/",
+      "retired": false
+    },
+    {
+      "id": "AK52RZC7",
+      "title": "Microsoft Sustainability Manager concepts",
+      "category": "modules",
+      "grantedOn": "2026-01-08",
+      "url": "/training/modules/work-cloud-sustainability/",
       "retired": false
     },
     {
@@ -26158,19 +26222,19 @@
       "retired": false
     },
     {
-      "id": "Q59QGL3E",
-      "title": "Build the Dataverse table schema for the model-driven app",
-      "category": "modules",
-      "grantedOn": "2026-01-07",
-      "url": "/training/modules/build-dataverse-table-structure/",
-      "retired": false
-    },
-    {
       "id": "UAMUZ7Q3",
       "title": "Design an accident tracking app in Power Apps",
       "category": "learningpaths",
       "grantedOn": "2026-01-07",
       "url": "/training/paths/design-accident-tracking/",
+      "retired": false
+    },
+    {
+      "id": "Q59QGL3E",
+      "title": "Build the Dataverse table schema for the model-driven app",
+      "category": "modules",
+      "grantedOn": "2026-01-07",
+      "url": "/training/modules/build-dataverse-table-structure/",
       "retired": false
     },
     {
@@ -26398,19 +26462,19 @@
       "retired": false
     },
     {
-      "id": "VT6NZDZM",
-      "title": "Expand the capabilities for Java apps on Azure",
-      "category": "learningpaths",
-      "grantedOn": "2026-01-06",
-      "url": "/training/paths/expand-capabilities-java-azure/",
-      "retired": false
-    },
-    {
       "id": "KC87PG4B",
       "title": "Sign in users with Microsoft Entra ID in a Java web app",
       "category": "modules",
       "grantedOn": "2026-01-06",
       "url": "/training/modules/azure-java-app-enable-authentication-authorization/",
+      "retired": false
+    },
+    {
+      "id": "VT6NZDZM",
+      "title": "Expand the capabilities for Java apps on Azure",
+      "category": "learningpaths",
+      "grantedOn": "2026-01-06",
+      "url": "/training/paths/expand-capabilities-java-azure/",
       "retired": false
     },
     {
@@ -26422,19 +26486,19 @@
       "retired": false
     },
     {
-      "id": "FQB68DLX",
-      "title": "Manage your generative AI APIs with Azure API Management",
-      "category": "modules",
-      "grantedOn": "2026-01-06",
-      "url": "/training/modules/api-management/",
-      "retired": false
-    },
-    {
       "id": "J3FVKX7T",
       "title": "Architect API integration in Azure",
       "category": "learningpaths",
       "grantedOn": "2026-01-06",
       "url": "/training/paths/architect-api-integration/",
+      "retired": false
+    },
+    {
+      "id": "FQB68DLX",
+      "title": "Manage your generative AI APIs with Azure API Management",
+      "category": "modules",
+      "grantedOn": "2026-01-06",
+      "url": "/training/modules/api-management/",
       "retired": false
     },
     {
@@ -26446,19 +26510,19 @@
       "retired": false
     },
     {
-      "id": "VT6WBJ8M",
-      "title": "Sell through the commercial marketplace",
-      "category": "learningpaths",
-      "grantedOn": "2026-01-05",
-      "url": "/training/paths/sell-through-commercial-marketplace/",
-      "retired": false
-    },
-    {
       "id": "KC8AL6AB",
       "title": "Go to market through the commercial marketplace",
       "category": "modules",
       "grantedOn": "2026-01-05",
       "url": "/training/modules/go-to-market-commercial-marketplace/",
+      "retired": false
+    },
+    {
+      "id": "VT6WBJ8M",
+      "title": "Sell through the commercial marketplace",
+      "category": "learningpaths",
+      "grantedOn": "2026-01-05",
+      "url": "/training/paths/sell-through-commercial-marketplace/",
       "retired": false
     },
     {
@@ -26498,7 +26562,7 @@
       "title": "Increase educator adoption of Education Insights",
       "category": "modules",
       "grantedOn": "2026-01-05",
-      "url": "/training/modules/increase-educator-adoption-insights/",
+      "url": null,
       "retired": false
     },
     {
@@ -26514,7 +26578,7 @@
       "title": "Increase educator adoption of Reading Progress and Reading Coach",
       "category": "modules",
       "grantedOn": "2026-01-05",
-      "url": "/training/modules/increase-educator-adoption-reading-progress-coach/",
+      "url": null,
       "retired": false
     },
     {
@@ -26522,7 +26586,7 @@
       "title": "Introduction to Learning Accelerators",
       "category": "modules",
       "grantedOn": "2026-01-05",
-      "url": "/training/modules/introduction-learning-accelerators/",
+      "url": null,
       "retired": false
     },
     {
@@ -26530,7 +26594,7 @@
       "title": "Increase educator adoption of Reflect",
       "category": "modules",
       "grantedOn": "2026-01-05",
-      "url": "/training/modules/increase-educator-adoption-reflect/",
+      "url": null,
       "retired": false
     },
     {
@@ -26662,19 +26726,19 @@
       "retired": false
     },
     {
-      "id": "XED57U4Y",
-      "title": "Power Automate: Automation - Online Workshop",
-      "category": "learningpaths",
-      "grantedOn": "2026-01-04",
-      "url": "/training/paths/robotic-process-automation-online-workshop/",
-      "retired": false
-    },
-    {
       "id": "46HFJZCK",
       "title": "Create subflows and web automation with Power Automate for desktop - Online workshop",
       "category": "modules",
       "grantedOn": "2026-01-04",
       "url": "/training/modules/create-subflows-web-automation-online-workshop/",
+      "retired": false
+    },
+    {
+      "id": "XED57U4Y",
+      "title": "Power Automate: Automation - Online Workshop",
+      "category": "learningpaths",
+      "grantedOn": "2026-01-04",
+      "url": "/training/paths/robotic-process-automation-online-workshop/",
       "retired": false
     },
     {
@@ -26830,14 +26894,6 @@
       "retired": false
     },
     {
-      "id": "ZDL69A32",
-      "title": "Minecraft block coding academy",
-      "category": "learningpaths",
-      "grantedOn": "2026-01-04",
-      "url": null,
-      "retired": false
-    },
-    {
       "id": "82PKD3SW",
       "title": "Transition to Python in Minecraft Education",
       "category": "modules",
@@ -26846,11 +26902,11 @@
       "retired": false
     },
     {
-      "id": "ELUHW28P",
-      "title": "Minecraft Python coding academy",
+      "id": "ZDL69A32",
+      "title": "Minecraft block coding academy",
       "category": "learningpaths",
       "grantedOn": "2026-01-04",
-      "url": "/training/paths/minecraft-python-coding-academy/",
+      "url": null,
       "retired": false
     },
     {
@@ -26859,6 +26915,14 @@
       "category": "modules",
       "grantedOn": "2026-01-04",
       "url": "/training/modules/build-programs-use-python-coding-minecraft-azure-notebooks/",
+      "retired": false
+    },
+    {
+      "id": "ELUHW28P",
+      "title": "Minecraft Python coding academy",
+      "category": "learningpaths",
+      "grantedOn": "2026-01-04",
+      "url": "/training/paths/minecraft-python-coding-academy/",
       "retired": false
     },
     {
@@ -27790,19 +27854,19 @@
       "retired": false
     },
     {
-      "id": "CY2W4US9",
-      "title": "Application lifecycle management for Dynamics 365",
-      "category": "modules",
-      "grantedOn": "2025-12-30",
-      "url": "/training/modules/application-lifecycle-management-dynamics-365/",
-      "retired": false
-    },
-    {
       "id": "37QXD86H",
       "title": "Implement Dynamics 365 Projects",
       "category": "learningpaths",
       "grantedOn": "2025-12-30",
       "url": "/training/paths/implement-dynamics-365-projects/",
+      "retired": false
+    },
+    {
+      "id": "CY2W4US9",
+      "title": "Application lifecycle management for Dynamics 365",
+      "category": "modules",
+      "grantedOn": "2025-12-30",
+      "url": "/training/modules/application-lifecycle-management-dynamics-365/",
       "retired": false
     },
     {
@@ -27950,19 +28014,19 @@
       "retired": false
     },
     {
-      "id": "82PNLTDW",
-      "title": "Work with the Microsoft Dynamics 365 Business Central user interface",
-      "category": "learningpaths",
-      "grantedOn": "2025-12-30",
-      "url": "/training/paths/work-with-user-interface-dynamics-365-business-central/",
-      "retired": false
-    },
-    {
       "id": "9RV3JK4U",
       "title": "User interface essentials in Dynamics 365 Business Central",
       "category": "modules",
       "grantedOn": "2025-12-30",
       "url": "/training/modules/user-interface-dynamics-365-business-central/",
+      "retired": false
+    },
+    {
+      "id": "82PNLTDW",
+      "title": "Work with the Microsoft Dynamics 365 Business Central user interface",
+      "category": "learningpaths",
+      "grantedOn": "2025-12-30",
+      "url": "/training/paths/work-with-user-interface-dynamics-365-business-central/",
       "retired": false
     },
     {
@@ -27982,19 +28046,19 @@
       "retired": false
     },
     {
-      "id": "FQBY6DYX",
-      "title": "Design a machine learning solution",
-      "category": "learningpaths",
-      "grantedOn": "2025-12-30",
-      "url": "/training/paths/design-machine-learning-solution/",
-      "retired": false
-    },
-    {
       "id": "CY2UBV39",
       "title": "Design a data ingestion strategy for machine learning projects",
       "category": "modules",
       "grantedOn": "2025-12-30",
       "url": "/training/modules/design-data-ingestion-strategy-for-machine-learning-projects/",
+      "retired": false
+    },
+    {
+      "id": "FQBY6DYX",
+      "title": "Design a machine learning solution",
+      "category": "learningpaths",
+      "grantedOn": "2025-12-30",
+      "url": "/training/paths/design-machine-learning-solution/",
       "retired": false
     },
     {
@@ -28190,19 +28254,19 @@
       "retired": false
     },
     {
-      "id": "37M9VJPH",
-      "title": "Orchestrate containers for cloud-native apps with AKS",
-      "category": "modules",
-      "grantedOn": "2025-12-29",
-      "url": "/training/modules/cloud-native-apps-orchestrate-containers/",
-      "retired": false
-    },
-    {
       "id": "J3NBW2RT",
       "title": "Create cloud native apps with Azure and open-source software",
       "category": "learningpaths",
       "grantedOn": "2025-12-29",
       "url": "/training/paths/create-cloud-native-apps-with-azure-open-source/",
+      "retired": false
+    },
+    {
+      "id": "37M9VJPH",
+      "title": "Orchestrate containers for cloud-native apps with AKS",
+      "category": "modules",
+      "grantedOn": "2025-12-29",
+      "url": "/training/modules/cloud-native-apps-orchestrate-containers/",
       "retired": false
     },
     {
@@ -28798,19 +28862,19 @@
       "retired": false
     },
     {
-      "id": "WVPGXSQN",
-      "title": "Explain DevOps Continuous Delivery and Continuous Quality",
-      "category": "modules",
-      "grantedOn": "2025-12-27",
-      "url": "/training/modules/explain-devops-continous-delivery-quality/",
-      "retired": false
-    },
-    {
       "id": "YPDU76BR",
       "title": "Introduce DevOps Dojo: Create efficiencies that support your business",
       "category": "learningpaths",
       "grantedOn": "2025-12-27",
       "url": "/training/paths/devops-dojo-white-belt-foundation/",
+      "retired": false
+    },
+    {
+      "id": "WVPGXSQN",
+      "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+      "category": "modules",
+      "grantedOn": "2025-12-27",
+      "url": "/training/modules/explain-devops-continous-delivery-quality/",
       "retired": false
     },
     {
@@ -28990,19 +29054,19 @@
       "retired": false
     },
     {
-      "id": "DUWZPKVJ",
-      "title": "Manage the lifecycle of your projects on GitHub",
-      "category": "learningpaths",
-      "grantedOn": "2025-12-27",
-      "url": "/training/paths/manage-project-lifecycle-github/",
-      "retired": false
-    },
-    {
       "id": "KCHAQP7B",
       "title": "Automate DevOps processes by using GitHub Apps",
       "category": "modules",
       "grantedOn": "2025-12-27",
       "url": "/training/modules/automate-devops-github-apps/",
+      "retired": false
+    },
+    {
+      "id": "DUWZPKVJ",
+      "title": "Manage the lifecycle of your projects on GitHub",
+      "category": "learningpaths",
+      "grantedOn": "2025-12-27",
+      "url": "/training/paths/manage-project-lifecycle-github/",
       "retired": false
     },
     {
@@ -29118,19 +29182,19 @@
       "retired": false
     },
     {
-      "id": "J3N249WT",
-      "title": "Control file and folder handling in Power Automate for desktop",
-      "category": "modules",
-      "grantedOn": "2025-12-27",
-      "url": "/training/modules/pad-files-folders-handling/",
-      "retired": false
-    },
-    {
       "id": "FQKGHVKX",
       "title": "Work with different technologies in Power Automate for desktop",
       "category": "learningpaths",
       "grantedOn": "2025-12-27",
       "url": "/training/paths/pad-work-different-technologies/",
+      "retired": false
+    },
+    {
+      "id": "J3N249WT",
+      "title": "Control file and folder handling in Power Automate for desktop",
+      "category": "modules",
+      "grantedOn": "2025-12-27",
+      "url": "/training/modules/pad-files-folders-handling/",
       "retired": false
     },
     {
@@ -29550,19 +29614,19 @@
       "retired": false
     },
     {
-      "id": "NM4JACXF",
-      "title": "Build .NET applications with C#",
-      "category": "learningpaths",
-      "grantedOn": "2025-12-25",
-      "url": "/training/paths/build-dotnet-applications-csharp/",
-      "retired": false
-    },
-    {
       "id": "WVPDR6XN",
       "title": "Interactively debug .NET apps with the Visual Studio Code debugger",
       "category": "modules",
       "grantedOn": "2025-12-25",
       "url": "/training/modules/dotnet-debug/",
+      "retired": false
+    },
+    {
+      "id": "NM4JACXF",
+      "title": "Build .NET applications with C#",
+      "category": "learningpaths",
+      "grantedOn": "2025-12-25",
+      "url": "/training/paths/build-dotnet-applications-csharp/",
       "retired": false
     },
     {
@@ -29622,19 +29686,19 @@
       "retired": false
     },
     {
-      "id": "VTG9EJ8M",
-      "title": "Build a scalable application with Virtual Machine Scale Sets",
-      "category": "modules",
-      "grantedOn": "2025-12-25",
-      "url": "/training/modules/build-app-with-scale-sets/",
-      "retired": false
-    },
-    {
       "id": "KCHNJ6AB",
       "title": "Architect compute infrastructure in Azure",
       "category": "learningpaths",
       "grantedOn": "2025-12-25",
       "url": "/training/paths/architect-compute-infrastructure/",
+      "retired": false
+    },
+    {
+      "id": "VTG9EJ8M",
+      "title": "Build a scalable application with Virtual Machine Scale Sets",
+      "category": "modules",
+      "grantedOn": "2025-12-25",
+      "url": "/training/modules/build-app-with-scale-sets/",
       "retired": false
     },
     {
@@ -30614,19 +30678,19 @@
       "retired": false
     },
     {
-      "id": "AKTMTHR7",
-      "title": "Explore Dynamics 365 Field Service",
-      "category": "modules",
-      "grantedOn": "2025-12-22",
-      "url": "/training/modules/explore-dynamics-365-field-service/",
-      "retired": false
-    },
-    {
       "id": "37MFMS3H",
       "title": "Explore the fundamentals of Microsoft Dynamics 365 Field Service",
       "category": "learningpaths",
       "grantedOn": "2025-12-22",
       "url": "/training/paths/learn-fundamentals-of-microsoft-dynamics-365-field-service/",
+      "retired": false
+    },
+    {
+      "id": "AKTMTHR7",
+      "title": "Explore Dynamics 365 Field Service",
+      "category": "modules",
+      "grantedOn": "2025-12-22",
+      "url": "/training/modules/explore-dynamics-365-field-service/",
       "retired": false
     },
     {
@@ -30838,19 +30902,19 @@
       "retired": false
     },
     {
-      "id": "Q56Q63YE",
-      "title": "Describe reporting and integration capabilities in finance and operations apps",
-      "category": "modules",
-      "grantedOn": "2025-12-21",
-      "url": "/training/modules/describe-report-integration-use-finance-operations-apps/",
-      "retired": false
-    },
-    {
       "id": "NMPNPDCF",
       "title": "Introduction to the core capabilities of Microsoft Dynamics 365 finance and operations apps",
       "category": "learningpaths",
       "grantedOn": "2025-12-21",
       "url": "/training/paths/explore-dynamics-365-finance-operations-apps/",
+      "retired": false
+    },
+    {
+      "id": "Q56Q63YE",
+      "title": "Describe reporting and integration capabilities in finance and operations apps",
+      "category": "modules",
+      "grantedOn": "2025-12-21",
+      "url": "/training/modules/describe-report-integration-use-finance-operations-apps/",
       "retired": false
     },
     {
@@ -31334,19 +31398,19 @@
       "retired": false
     },
     {
-      "id": "UA2GNCY3",
-      "title": "Explore the fundamentals of Microsoft Dynamics 365 Customer Insights",
-      "category": "learningpaths",
-      "grantedOn": "2025-12-19",
-      "url": "/training/paths/learn-fundamentals-of-microsoft-dynamics-365-marketing/",
-      "retired": false
-    },
-    {
       "id": "Q56ZBVSE",
       "title": "Explore Dynamics 365 Customer Insights - Journeys",
       "category": "modules",
       "grantedOn": "2025-12-19",
       "url": "/training/modules/explore-dynamics-365-marketing/",
+      "retired": false
+    },
+    {
+      "id": "UA2GNCY3",
+      "title": "Explore the fundamentals of Microsoft Dynamics 365 Customer Insights",
+      "category": "learningpaths",
+      "grantedOn": "2025-12-19",
+      "url": "/training/paths/learn-fundamentals-of-microsoft-dynamics-365-marketing/",
       "retired": false
     },
     {
@@ -31374,19 +31438,19 @@
       "retired": false
     },
     {
-      "id": "CY7TAL49",
-      "title": "Share a cloud flow with Power Automate",
-      "category": "modules",
-      "grantedOn": "2025-12-19",
-      "url": "/training/modules/share-cloud-flow/",
-      "retired": false
-    },
-    {
       "id": "FQ4UP85X",
       "title": "Connect and share cloud flow to desktop flows in Power Automate for desktop",
       "category": "learningpaths",
       "grantedOn": "2025-12-19",
       "url": "/training/paths/connect-share-cloud-flow-desktop-flows-power-automate/",
+      "retired": false
+    },
+    {
+      "id": "CY7TAL49",
+      "title": "Share a cloud flow with Power Automate",
+      "category": "modules",
+      "grantedOn": "2025-12-19",
+      "url": "/training/modules/share-cloud-flow/",
       "retired": false
     },
     {
@@ -31582,19 +31646,19 @@
       "retired": false
     },
     {
-      "id": "J3WA2RPT",
-      "title": "Introduction to Azure Web Application Firewall",
-      "category": "modules",
-      "grantedOn": "2025-12-18",
-      "url": "/training/modules/introduction-azure-web-application-firewall/",
-      "retired": false
-    },
-    {
       "id": "FQ4SGTHX",
       "title": "Introduction to Secure Application Delivery with Azure network security",
       "category": "learningpaths",
       "grantedOn": "2025-12-18",
       "url": "/training/paths/secure-application-delivery/",
+      "retired": false
+    },
+    {
+      "id": "J3WA2RPT",
+      "title": "Introduction to Azure Web Application Firewall",
+      "category": "modules",
+      "grantedOn": "2025-12-18",
+      "url": "/training/modules/introduction-azure-web-application-firewall/",
       "retired": false
     },
     {
@@ -31710,19 +31774,19 @@
       "retired": false
     },
     {
-      "id": "ELC889SP",
-      "title": "Use built-in functions and GROUP BY in Transact-SQL",
-      "category": "modules",
-      "grantedOn": "2025-12-18",
-      "url": "/training/modules/use-built-functions-transact-sql/",
-      "retired": false
-    },
-    {
       "id": "HZMKKQR8",
       "title": "Query and modify data with Transact-SQL",
       "category": "learningpaths",
       "grantedOn": "2025-12-18",
       "url": "/training/paths/get-started-querying-with-transact-sql/",
+      "retired": false
+    },
+    {
+      "id": "ELC889SP",
+      "title": "Use built-in functions and GROUP BY in Transact-SQL",
+      "category": "modules",
+      "grantedOn": "2025-12-18",
+      "url": "/training/modules/use-built-functions-transact-sql/",
       "retired": false
     },
     {
@@ -31806,19 +31870,19 @@
       "retired": false
     },
     {
-      "id": "B9HWA8BD",
-      "title": "Introduction to Azure Database for MySQL",
-      "category": "modules",
-      "grantedOn": "2025-12-18",
-      "url": "/training/modules/intro-to-azure-database-for-mysql/",
-      "retired": false
-    },
-    {
       "id": "9RZVK2CU",
       "title": "Azure Database for MySQL",
       "category": "learningpaths",
       "grantedOn": "2025-12-18",
       "url": "/training/paths/introduction-to-azure-database-for-mysql/",
+      "retired": false
+    },
+    {
+      "id": "B9HWA8BD",
+      "title": "Introduction to Azure Database for MySQL",
+      "category": "modules",
+      "grantedOn": "2025-12-18",
+      "url": "/training/modules/intro-to-azure-database-for-mysql/",
       "retired": false
     },
     {
@@ -32130,7 +32194,7 @@
       "title": "Dyslexia and technology, in partnership with Made By Dyslexia",
       "category": "modules",
       "grantedOn": "2025-12-16",
-      "url": "/training/modules/dyslexia-technology/",
+      "url": null,
       "retired": false
     },
     {
@@ -32246,19 +32310,19 @@
       "retired": false
     },
     {
-      "id": "ELCBMDDP",
-      "title": "AI in Microsoft Teams for Education (Partner Success Series)",
-      "category": "modules",
-      "grantedOn": "2025-12-16",
-      "url": null,
-      "retired": false
-    },
-    {
       "id": "ZDSQAEP2",
       "title": "Teams for education partners (Partner Success Series)",
       "category": "learningpaths",
       "grantedOn": "2025-12-16",
       "url": "/training/paths/teams-education-partners/",
+      "retired": false
+    },
+    {
+      "id": "ELCBMDDP",
+      "title": "AI in Microsoft Teams for Education (Partner Success Series)",
+      "category": "modules",
+      "grantedOn": "2025-12-16",
+      "url": null,
       "retired": false
     },
     {
@@ -32414,19 +32478,19 @@
       "retired": false
     },
     {
-      "id": "B93BYEJD",
-      "title": "Describe the foundations of Dynamics 365 customer engagement apps",
-      "category": "modules",
-      "grantedOn": "2025-12-15",
-      "url": "/training/modules/navigate-dynamics-customer-engagement-apps/",
-      "retired": false
-    },
-    {
       "id": "9R79P59U",
       "title": "Explore the core capabilities of Microsoft Dynamics 365 customer engagement apps",
       "category": "learningpaths",
       "grantedOn": "2025-12-15",
       "url": "/training/paths/examine-core-capabilities-of-microsoft-dynamics-365-customer-engagement-apps/",
+      "retired": false
+    },
+    {
+      "id": "B93BYEJD",
+      "title": "Describe the foundations of Dynamics 365 customer engagement apps",
+      "category": "modules",
+      "grantedOn": "2025-12-15",
+      "url": "/training/modules/navigate-dynamics-customer-engagement-apps/",
       "retired": false
     },
     {
@@ -32518,19 +32582,19 @@
       "retired": false
     },
     {
-      "id": "Q5GVNUCE",
-      "title": "Implement certifications in academic programs",
-      "category": "learningpaths",
-      "grantedOn": "2025-12-15",
-      "url": "/training/paths/academic-program-certifications/",
-      "retired": false
-    },
-    {
       "id": "NME85BKF",
       "title": "Design degree program curricula that implement certification",
       "category": "modules",
       "grantedOn": "2025-12-15",
       "url": "/training/modules/academic-program-certifications-design-program-curricula/",
+      "retired": false
+    },
+    {
+      "id": "Q5GVNUCE",
+      "title": "Implement certifications in academic programs",
+      "category": "learningpaths",
+      "grantedOn": "2025-12-15",
+      "url": "/training/paths/academic-program-certifications/",
       "retired": false
     },
     {
@@ -32726,19 +32790,19 @@
       "retired": false
     },
     {
-      "id": "9R7GVYNU",
-      "title": "Enhance agents with autonomous capabilities",
-      "category": "learningpaths",
-      "grantedOn": "2025-12-14",
-      "url": "/training/paths/enhance-autonomous-agents/",
-      "retired": false
-    },
-    {
       "id": "UAZ6MRX3",
       "title": "Build an initial agent with Microsoft Copilot Studio",
       "category": "modules",
       "grantedOn": "2025-12-14",
       "url": "/training/modules/create-copilots-copilot-studio/",
+      "retired": false
+    },
+    {
+      "id": "9R7GVYNU",
+      "title": "Enhance agents with autonomous capabilities",
+      "category": "learningpaths",
+      "grantedOn": "2025-12-14",
+      "url": "/training/paths/enhance-autonomous-agents/",
       "retired": false
     },
     {
@@ -32971,7 +33035,7 @@
       "category": "learningpaths",
       "grantedOn": "2025-12-13",
       "url": "/training/paths/viva-glint-360-feedback program/",
-      "retired": false
+      "retired": true
     },
     {
       "id": "KCUV962B",
@@ -33206,19 +33270,19 @@
       "retired": false
     },
     {
-      "id": "FQP5J9QX",
-      "title": "Describe the concepts of cybersecurity",
-      "category": "learningpaths",
-      "grantedOn": "2025-12-11",
-      "url": "/training/paths/describe-basic-concepts-of-cybersecurity/",
-      "retired": false
-    },
-    {
       "id": "9R74QTAU",
       "title": "Describe device-based threats and security controls",
       "category": "modules",
       "grantedOn": "2025-12-11",
       "url": "/training/modules/describe-device-based-threats-security-controls/",
+      "retired": false
+    },
+    {
+      "id": "FQP5J9QX",
+      "title": "Describe the concepts of cybersecurity",
+      "category": "learningpaths",
+      "grantedOn": "2025-12-11",
+      "url": "/training/paths/describe-basic-concepts-of-cybersecurity/",
       "retired": false
     },
     {
@@ -33230,19 +33294,19 @@
       "retired": false
     },
     {
-      "id": "372BEQUH",
-      "title": "Guided project - Embrace responsible AI",
-      "category": "modules",
-      "grantedOn": "2025-12-11",
-      "url": "/training/modules/embrace-responsible-ai/",
-      "retired": false
-    },
-    {
       "id": "J387XFJT",
       "title": "Responsible use of artificial intelligence in education",
       "category": "learningpaths",
       "grantedOn": "2025-12-11",
       "url": "/training/paths/responsible-use-of-artificial-intelligence-in-education/",
+      "retired": false
+    },
+    {
+      "id": "372BEQUH",
+      "title": "Guided project - Embrace responsible AI",
+      "category": "modules",
+      "grantedOn": "2025-12-11",
+      "url": "/training/modules/embrace-responsible-ai/",
       "retired": false
     },
     {
@@ -33398,19 +33462,19 @@
       "retired": false
     },
     {
-      "id": "VT5LY4FM",
-      "title": "Perform hyperparameter tuning with Azure Machine Learning",
-      "category": "modules",
-      "grantedOn": "2025-12-10",
-      "url": "/training/modules/perform-hyperparameter-tuning-azure-machine-learning-pipelines/",
-      "retired": false
-    },
-    {
       "id": "WVQECRLN",
       "title": "Optimize model training with Azure Machine Learning",
       "category": "learningpaths",
       "grantedOn": "2025-12-10",
       "url": "/training/paths/use-azure-machine-learning-pipelines-for-automation/",
+      "retired": false
+    },
+    {
+      "id": "VT5LY4FM",
+      "title": "Perform hyperparameter tuning with Azure Machine Learning",
+      "category": "modules",
+      "grantedOn": "2025-12-10",
+      "url": "/training/modules/perform-hyperparameter-tuning-azure-machine-learning-pipelines/",
       "retired": false
     },
     {
@@ -34158,19 +34222,19 @@
       "retired": false
     },
     {
-      "id": "PG6FCZF4",
-      "title": "Work with variable data in C# console applications (Get started with C#, Part 4)",
-      "category": "learningpaths",
-      "grantedOn": "2025-12-05",
-      "url": "/training/paths/get-started-c-sharp-part-4/",
-      "retired": false
-    },
-    {
       "id": "AKBCDW97",
       "title": "Challenge project - Work with variable data in C#",
       "category": "modules",
       "grantedOn": "2025-12-05",
       "url": "/training/modules/challenge-project-work-variable-data-c-sharp/",
+      "retired": false
+    },
+    {
+      "id": "PG6FCZF4",
+      "title": "Work with variable data in C# console applications (Get started with C#, Part 4)",
+      "category": "learningpaths",
+      "grantedOn": "2025-12-05",
+      "url": "/training/paths/get-started-c-sharp-part-4/",
       "retired": false
     },
     {
@@ -34406,19 +34470,19 @@
       "retired": false
     },
     {
-      "id": "PG63JHC4",
-      "title": "Manage identity and access in Microsoft Entra ID",
-      "category": "learningpaths",
-      "grantedOn": "2025-12-03",
-      "url": "/training/paths/manage-identity-and-access/",
-      "retired": false
-    },
-    {
       "id": "AKBSM5J7",
       "title": "Manage users and groups in Microsoft Entra ID",
       "category": "modules",
       "grantedOn": "2025-12-03",
       "url": "/training/modules/manage-users-and-groups-in-aad/",
+      "retired": false
+    },
+    {
+      "id": "PG63JHC4",
+      "title": "Manage identity and access in Microsoft Entra ID",
+      "category": "learningpaths",
+      "grantedOn": "2025-12-03",
+      "url": "/training/paths/manage-identity-and-access/",
       "retired": false
     },
     {
@@ -34550,14 +34614,6 @@
       "retired": false
     },
     {
-      "id": "VTSTGGSM",
-      "title": "Overview of Retail data solutions in Microsoft Fabric",
-      "category": "modules",
-      "grantedOn": "2025-12-03",
-      "url": "/training/modules/retail-data-solutions-overview/",
-      "retired": false
-    },
-    {
       "id": "WVMVPPVN",
       "title": "Get started with Microsoft for Retail",
       "category": "learningpaths",
@@ -34566,11 +34622,11 @@
       "retired": false
     },
     {
-      "id": "9RAYYMYU",
-      "title": "Find the best classification model with Automated Machine Learning",
+      "id": "VTSTGGSM",
+      "title": "Overview of Retail data solutions in Microsoft Fabric",
       "category": "modules",
-      "grantedOn": "2025-12-02",
-      "url": "/training/modules/find-best-classification-model-automated-machine-learning/",
+      "grantedOn": "2025-12-03",
+      "url": "/training/modules/retail-data-solutions-overview/",
       "retired": false
     },
     {
@@ -34579,6 +34635,14 @@
       "category": "learningpaths",
       "grantedOn": "2025-12-02",
       "url": "/training/paths/automate-machine-learning-model-selection-azure-machine-learning/",
+      "retired": false
+    },
+    {
+      "id": "9RAYYMYU",
+      "title": "Find the best classification model with Automated Machine Learning",
+      "category": "modules",
+      "grantedOn": "2025-12-02",
+      "url": "/training/modules/find-best-classification-model-automated-machine-learning/",
       "retired": false
     },
     {
@@ -35046,19 +35110,19 @@
       "retired": false
     },
     {
-      "id": "Q55R96CE",
-      "title": "GitHub Foundations Part 1 of 2",
-      "category": "learningpaths",
-      "grantedOn": "2025-11-29",
-      "url": "/training/paths/github-foundations/",
-      "retired": false
-    },
-    {
       "id": "NMMCKPKF",
       "title": "Communicate effectively on GitHub using Markdown",
       "category": "modules",
       "grantedOn": "2025-11-29",
       "url": "/training/modules/communicate-using-markdown/",
+      "retired": false
+    },
+    {
+      "id": "Q55R96CE",
+      "title": "GitHub Foundations Part 1 of 2",
+      "category": "learningpaths",
+      "grantedOn": "2025-11-29",
+      "url": "/training/paths/github-foundations/",
       "retired": false
     },
     {
@@ -35094,19 +35158,19 @@
       "retired": false
     },
     {
-      "id": "ZDDN5UR2",
-      "title": "Describe the best practices for datacenter operations",
-      "category": "modules",
-      "grantedOn": "2025-11-29",
-      "url": "/training/modules/describe-best-practices-datacenter-operations/",
-      "retired": false
-    },
-    {
       "id": "822GEJ3W",
       "title": "Introduction to Datacenter",
       "category": "learningpaths",
       "grantedOn": "2025-11-29",
       "url": "/training/paths/introduction-to-datacenter/",
+      "retired": false
+    },
+    {
+      "id": "ZDDN5UR2",
+      "title": "Describe the best practices for datacenter operations",
+      "category": "modules",
+      "grantedOn": "2025-11-29",
+      "url": "/training/modules/describe-best-practices-datacenter-operations/",
       "retired": false
     },
     {
@@ -35494,19 +35558,19 @@
       "retired": false
     },
     {
-      "id": "NMMKAAKF",
-      "title": "Explore prebuilt Microsoft 365 Copilot agents",
-      "category": "modules",
-      "grantedOn": "2025-11-27",
-      "url": "/training/modules/explore-prebuilt-microsoft-365-copilot-agents/",
-      "retired": false
-    },
-    {
       "id": "WVV4RRKN",
       "title": "Enhance your productivity with prebuilt Microsoft 365 Copilot agents",
       "category": "learningpaths",
       "grantedOn": "2025-11-27",
       "url": "/training/paths/enhance-productivity-prebuilt-agents/",
+      "retired": false
+    },
+    {
+      "id": "NMMKAAKF",
+      "title": "Explore prebuilt Microsoft 365 Copilot agents",
+      "category": "modules",
+      "grantedOn": "2025-11-27",
+      "url": "/training/modules/explore-prebuilt-microsoft-365-copilot-agents/",
       "retired": false
     },
     {
@@ -35590,19 +35654,19 @@
       "retired": false
     },
     {
-      "id": "822EPVZW",
-      "title": "Explore Azure Storage for non-relational data",
-      "category": "modules",
-      "grantedOn": "2025-11-26",
-      "url": "/training/modules/explore-provision-deploy-non-relational-data-services-azure/",
-      "retired": false
-    },
-    {
       "id": "ZDD5LJK2",
       "title": "Introduction to Microsoft Azure Data non-relational data in Azure",
       "category": "learningpaths",
       "grantedOn": "2025-11-26",
       "url": "/training/paths/azure-data-fundamentals-explore-non-relational-data/",
+      "retired": false
+    },
+    {
+      "id": "822EPVZW",
+      "title": "Explore Azure Storage for non-relational data",
+      "category": "modules",
+      "grantedOn": "2025-11-26",
+      "url": "/training/modules/explore-provision-deploy-non-relational-data-services-azure/",
       "retired": false
     },
     {
@@ -35870,19 +35934,19 @@
       "retired": false
     },
     {
-      "id": "822X47CW",
-      "title": "Demonstrate the capabilities of Microsoft Power Pages",
-      "category": "learningpaths",
-      "grantedOn": "2025-11-25",
-      "url": "/training/paths/demonstrate-capabilities-microsoft-power-pages/",
-      "retired": false
-    },
-    {
       "id": "NMMRB23F",
       "title": "Create a Microsoft Power Pages site",
       "category": "modules",
       "grantedOn": "2025-11-25",
       "url": "/training/modules/create-microsoft-power-pages-site/",
+      "retired": false
+    },
+    {
+      "id": "822X47CW",
+      "title": "Demonstrate the capabilities of Microsoft Power Pages",
+      "category": "learningpaths",
+      "grantedOn": "2025-11-25",
+      "url": "/training/paths/demonstrate-capabilities-microsoft-power-pages/",
       "retired": false
     },
     {
@@ -36238,19 +36302,19 @@
       "retired": false
     },
     {
-      "id": "Q5SR3QQE",
-      "title": "Describe the identity protection and governance capabilities of Microsoft Entra",
-      "category": "modules",
-      "grantedOn": "2025-11-22",
-      "url": "/training/modules/describe-identity-protection-governance-capabilities/",
-      "retired": false
-    },
-    {
       "id": "NMVCJXXF",
       "title": "Introduction to Microsoft Entra",
       "category": "learningpaths",
       "grantedOn": "2025-11-22",
       "url": "/training/paths/describe-capabilities-of-microsoft-identity-access/",
+      "retired": false
+    },
+    {
+      "id": "Q5SR3QQE",
+      "title": "Describe the identity protection and governance capabilities of Microsoft Entra",
+      "category": "modules",
+      "grantedOn": "2025-11-22",
+      "url": "/training/modules/describe-identity-protection-governance-capabilities/",
       "retired": false
     },
     {
@@ -36294,19 +36358,19 @@
       "retired": false
     },
     {
-      "id": "82ZLRV5W",
-      "title": "Write your first code using C# (Get started with C#, Part 1)",
-      "category": "learningpaths",
-      "grantedOn": "2025-11-21",
-      "url": "/training/paths/get-started-c-sharp-part-1/",
-      "retired": false
-    },
-    {
       "id": "9RYJNAJU",
       "title": "Guided project - Calculate final GPA",
       "category": "modules",
       "grantedOn": "2025-11-21",
       "url": "/training/modules/guided-project-calculate-final-gpa/",
+      "retired": false
+    },
+    {
+      "id": "82ZLRV5W",
+      "title": "Write your first code using C# (Get started with C#, Part 1)",
+      "category": "learningpaths",
+      "grantedOn": "2025-11-21",
+      "url": "/training/paths/get-started-c-sharp-part-1/",
       "retired": false
     },
     {
@@ -36902,19 +36966,19 @@
       "retired": false
     },
     {
-      "id": "ZDB4WN42",
-      "title": "Define a Microsoft AI strategy to create business value in nonprofit",
-      "category": "modules",
-      "grantedOn": "2025-11-19",
-      "url": "/training/modules/define-microsoft-ai-strategy-create-business-value-nonprofit/",
-      "retired": false
-    },
-    {
       "id": "EL5TRAJP",
       "title": "Discover AI for leaders in nonprofit",
       "category": "learningpaths",
       "grantedOn": "2025-11-19",
       "url": "/training/paths/discover-ai-leaders-nonprofit/",
+      "retired": false
+    },
+    {
+      "id": "ZDB4WN42",
+      "title": "Define a Microsoft AI strategy to create business value in nonprofit",
+      "category": "modules",
+      "grantedOn": "2025-11-19",
+      "url": "/training/modules/define-microsoft-ai-strategy-create-business-value-nonprofit/",
       "retired": false
     },
     {
@@ -36934,19 +36998,19 @@
       "retired": false
     },
     {
-      "id": "EL5TY3MP",
-      "title": "Build a foundation to build AI agents and extend Microsoft 365 Copilot",
-      "category": "learningpaths",
-      "grantedOn": "2025-11-19",
-      "url": "/training/paths/build-foundation-extend-microsoft-365-copilot/",
-      "retired": false
-    },
-    {
       "id": "HZ7RSP98",
       "title": "Choose a custom AI agent development path",
       "category": "modules",
       "grantedOn": "2025-11-19",
       "url": "/training/modules/choose-ai-agent-development-path/",
+      "retired": false
+    },
+    {
+      "id": "EL5TY3MP",
+      "title": "Build a foundation to build AI agents and extend Microsoft 365 Copilot",
+      "category": "learningpaths",
+      "grantedOn": "2025-11-19",
+      "url": "/training/paths/build-foundation-extend-microsoft-365-copilot/",
       "retired": false
     },
     {
@@ -36974,19 +37038,19 @@
       "retired": false
     },
     {
-      "id": "82ZASG2W",
-      "title": "Combining data from multiple tables: SQL Joins Explained",
-      "category": "modules",
-      "grantedOn": "2025-11-19",
-      "url": "/training/azure-databases/postgresql/basic-sql-join-tables/",
-      "retired": false
-    },
-    {
       "id": "NMVZLCQF",
       "title": "Azure Database for PostgreSQL Tutorials",
       "category": "learningpaths",
       "grantedOn": "2025-11-19",
       "url": "/training/paths/playground-learning/",
+      "retired": false
+    },
+    {
+      "id": "82ZASG2W",
+      "title": "Combining data from multiple tables: SQL Joins Explained",
+      "category": "modules",
+      "grantedOn": "2025-11-19",
+      "url": "/training/azure-databases/postgresql/basic-sql-join-tables/",
       "retired": false
     },
     {
@@ -37022,19 +37086,19 @@
       "retired": false
     },
     {
-      "id": "DU9GML2J",
-      "title": "Introduction to Microsoft Priva and Microsoft Purview",
-      "category": "learningpaths",
-      "grantedOn": "2025-11-18",
-      "url": "/training/paths/describe-capabilities-of-microsoft-compliance-solutions/",
-      "retired": false
-    },
-    {
       "id": "2JD4FPNV",
       "title": "Describe the data governance solutions of Microsoft Purview",
       "category": "modules",
       "grantedOn": "2025-11-18",
       "url": "/training/modules/describe-purview-data-governance/",
+      "retired": false
+    },
+    {
+      "id": "DU9GML2J",
+      "title": "Introduction to Microsoft Priva and Microsoft Purview",
+      "category": "learningpaths",
+      "grantedOn": "2025-11-18",
+      "url": "/training/paths/describe-capabilities-of-microsoft-compliance-solutions/",
       "retired": false
     },
     {
@@ -37230,19 +37294,19 @@
       "retired": false
     },
     {
-      "id": "AKPNK9F7",
-      "title": "MS-900 Introduction to Microsoft 365: Describe Microsoft 365 pricing, licensing, and support",
-      "category": "learningpaths",
-      "grantedOn": "2025-11-16",
-      "url": "/training/paths/m365-licensing-service-support/",
-      "retired": false
-    },
-    {
       "id": "37RG7DCH",
       "title": "Describe support offerings for Microsoft 365 services",
       "category": "modules",
       "grantedOn": "2025-11-16",
       "url": "/training/modules/describe-support-offerings-for-microsoft-365-services/",
+      "retired": false
+    },
+    {
+      "id": "AKPNK9F7",
+      "title": "MS-900 Introduction to Microsoft 365: Describe Microsoft 365 pricing, licensing, and support",
+      "category": "learningpaths",
+      "grantedOn": "2025-11-16",
+      "url": "/training/paths/m365-licensing-service-support/",
       "retired": false
     },
     {
@@ -37438,19 +37502,19 @@
       "retired": false
     },
     {
-      "id": "Q5TX9G6E",
-      "title": "Transform your business with AI",
-      "category": "learningpaths",
-      "grantedOn": "2025-11-15",
-      "url": "/training/paths/transform-your-business-with-microsoft-ai/",
-      "retired": false
-    },
-    {
       "id": "NM2GKE4F",
       "title": "Scale AI in your organization",
       "category": "modules",
       "grantedOn": "2025-11-15",
       "url": "/training/modules/scale-ai/",
+      "retired": false
+    },
+    {
+      "id": "Q5TX9G6E",
+      "title": "Transform your business with AI",
+      "category": "learningpaths",
+      "grantedOn": "2025-11-15",
+      "url": "/training/paths/transform-your-business-with-microsoft-ai/",
       "retired": false
     },
     {
@@ -37726,19 +37790,19 @@
       "retired": false
     },
     {
-      "id": "FQVP2U4X",
-      "title": "Edit and transform content with Microsoft 365 Copilot",
-      "category": "modules",
-      "grantedOn": "2025-11-12",
-      "url": "/training/modules/edit-transform-content-with-microsoft-copilot-microsoft-365/",
-      "retired": false
-    },
-    {
       "id": "CYFANTZ9",
       "title": "Craft effective prompts for Microsoft 365 Copilot",
       "category": "learningpaths",
       "grantedOn": "2025-11-12",
       "url": "/training/paths/craft-effective-prompts-copilot-microsoft-365/",
+      "retired": false
+    },
+    {
+      "id": "FQVP2U4X",
+      "title": "Edit and transform content with Microsoft 365 Copilot",
+      "category": "modules",
+      "grantedOn": "2025-11-12",
+      "url": "/training/modules/edit-transform-content-with-microsoft-copilot-microsoft-365/",
       "retired": false
     },
     {
@@ -37894,19 +37958,19 @@
       "retired": false
     },
     {
-      "id": "827X9MPW",
-      "title": "Develop computer vision solutions in Azure",
-      "category": "learningpaths",
-      "grantedOn": "2025-11-11",
-      "url": "/training/paths/create-computer-vision-solutions-azure-ai/",
-      "retired": false
-    },
-    {
       "id": "9RX8L7MU",
       "title": "Generate images with AI",
       "category": "modules",
       "grantedOn": "2025-11-11",
       "url": "/training/modules/generate-images-azure-openai/",
+      "retired": false
+    },
+    {
+      "id": "827X9MPW",
+      "title": "Develop computer vision solutions in Azure",
+      "category": "learningpaths",
+      "grantedOn": "2025-11-11",
+      "url": "/training/paths/create-computer-vision-solutions-azure-ai/",
       "retired": false
     },
     {
@@ -38110,19 +38174,19 @@
       "retired": false
     },
     {
-      "id": "WV79Z9DN",
-      "title": "Explore the possibilities with Microsoft 365 Copilot",
-      "category": "modules",
-      "grantedOn": "2025-11-09",
-      "url": "/training/modules/explore-possibilities-microsoft-365-copilot/",
-      "retired": false
-    },
-    {
       "id": "NMZU2UDF",
       "title": "Introduction to AI Skills for nonprofits",
       "category": "learningpaths",
       "grantedOn": "2025-11-09",
       "url": "/training/paths/introduction-to-ai-skills-for-nonprofits/",
+      "retired": false
+    },
+    {
+      "id": "WV79Z9DN",
+      "title": "Explore the possibilities with Microsoft 365 Copilot",
+      "category": "modules",
+      "grantedOn": "2025-11-09",
+      "url": "/training/modules/explore-possibilities-microsoft-365-copilot/",
       "retired": false
     },
     {
@@ -38486,19 +38550,19 @@
       "retired": false
     },
     {
-      "id": "9RFZ9LGU",
-      "title": "Introduction to Cloud Infrastructure: Describe cloud concepts",
-      "category": "learningpaths",
-      "grantedOn": "2025-11-06",
-      "url": "/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
-      "retired": false
-    },
-    {
       "id": "UAX2UGC3",
       "title": "Describe cloud computing",
       "category": "modules",
       "grantedOn": "2025-11-06",
       "url": "/training/modules/describe-cloud-compute/",
+      "retired": false
+    },
+    {
+      "id": "9RFZ9LGU",
+      "title": "Introduction to Cloud Infrastructure: Describe cloud concepts",
+      "category": "learningpaths",
+      "grantedOn": "2025-11-06",
+      "url": "/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
       "retired": false
     },
     {
@@ -38937,7 +39001,10 @@
       "id": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759|learn.viva-glint-360-feedback",
       "userId": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759",
       "learningPathUid": "learn.viva-glint-360-feedback",
-      "passedOn": "2025-12-13T02:39:21.8238608+00:00"
+      "passedOn": "2025-12-13T02:39:21.8238608+00:00",
+      "retired": true,
+      "retirement_reason": "Content retired by Microsoft Learn",
+      "retired_at": "2026-08-01"
     },
     {
       "id": "bddd159a-3c62-4e6b-ab42-c1a3bceaa759|learn.endpoint-manager-fundamentals",
@@ -108552,6 +108619,202 @@
           "questionsToTake": 5,
           "questionsAnsweredCorrectly": 5,
           "sessionEndDate": "2026-08-25T15:49:16.5205661Z",
+          "passCriteria": 100
+        }
+      ]
+    },
+    {
+      "moduleUid": "learn.dpu.inclusive-surface-hardware",
+      "moduleAssessmentPassed": true,
+      "moduleAssessmentPassedOn": "2026-08-29T11:28:40.265785Z",
+      "moduleAssessmentPreviousAttempts": [
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 5,
+          "sessionEndDate": "2026-08-29T11:28:40.265785Z",
+          "passCriteria": 100
+        },
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 4,
+          "sessionEndDate": "2026-08-29T11:28:24.0174842Z",
+          "passCriteria": 100
+        },
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 2,
+          "sessionEndDate": "2026-08-29T11:28:11.3188883Z",
+          "passCriteria": 100
+        },
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 1,
+          "sessionEndDate": "2026-08-29T11:27:51.7406398Z",
+          "passCriteria": 100
+        }
+      ]
+    },
+    {
+      "moduleUid": "learn.wwl.create-instruction-driven-agents-copilot-studio",
+      "moduleAssessmentPassed": true,
+      "moduleAssessmentPassedOn": "2026-08-29T11:29:37.1616541Z",
+      "moduleAssessmentPreviousAttempts": [
+        {
+          "questionsToPass": 4,
+          "questionsToTake": 4,
+          "questionsAnsweredCorrectly": 4,
+          "sessionEndDate": "2026-08-29T11:29:37.1616541Z",
+          "passCriteria": 100
+        }
+      ]
+    },
+    {
+      "moduleUid": "learn.dpu.inclusive-software-surface",
+      "moduleAssessmentPassed": true,
+      "moduleAssessmentPassedOn": "2026-08-29T11:30:51.5430065Z",
+      "moduleAssessmentPreviousAttempts": [
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 5,
+          "sessionEndDate": "2026-08-29T11:30:51.5430065Z",
+          "passCriteria": 100
+        },
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 4,
+          "sessionEndDate": "2026-08-29T11:30:38.3606192Z",
+          "passCriteria": 100
+        },
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 2,
+          "sessionEndDate": "2026-08-29T11:30:27.9240664Z",
+          "passCriteria": 100
+        },
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 1,
+          "sessionEndDate": "2026-08-29T11:30:17.6157418Z",
+          "passCriteria": 100
+        }
+      ]
+    },
+    {
+      "moduleUid": "learn.wwl.deploy-sidecar-azure-app-service",
+      "moduleAssessmentPassed": true,
+      "moduleAssessmentPassedOn": "2026-08-29T11:32:26.6712704Z",
+      "moduleAssessmentPreviousAttempts": [
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 5,
+          "sessionEndDate": "2026-08-29T11:32:26.6712704Z",
+          "passCriteria": 100
+        },
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 4,
+          "sessionEndDate": "2026-08-29T11:32:13.9097716Z",
+          "passCriteria": 100
+        },
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 2,
+          "sessionEndDate": "2026-08-29T11:32:00.3870068Z",
+          "passCriteria": 100
+        }
+      ]
+    },
+    {
+      "moduleUid": "learn.wwl.use-azure-databricks-genie-teams-m365-copilot",
+      "moduleAssessmentPassed": true,
+      "moduleAssessmentPassedOn": "2026-08-29T11:35:22.152844Z",
+      "moduleAssessmentPreviousAttempts": [
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 5,
+          "sessionEndDate": "2026-08-29T11:35:22.152844Z",
+          "passCriteria": 100
+        },
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 4,
+          "sessionEndDate": "2026-08-29T11:35:08.0950736Z",
+          "passCriteria": 100
+        },
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 0,
+          "sessionEndDate": "2026-08-29T11:34:58.1846752Z",
+          "passCriteria": 100
+        }
+      ]
+    },
+    {
+      "moduleUid": "learn.wwl.configure-azure-databricks-genie-teams-microsoft-copilot",
+      "moduleAssessmentPassed": true,
+      "moduleAssessmentPassedOn": "2026-08-29T11:36:12.7388458Z",
+      "moduleAssessmentPreviousAttempts": [
+        {
+          "questionsToPass": 4,
+          "questionsToTake": 4,
+          "questionsAnsweredCorrectly": 4,
+          "sessionEndDate": "2026-08-29T11:36:12.7388458Z",
+          "passCriteria": 100
+        }
+      ]
+    },
+    {
+      "moduleUid": "learn.wwl.microsoft-ai-models",
+      "moduleAssessmentPassed": true,
+      "moduleAssessmentPassedOn": "2026-08-29T11:45:53.3548214Z",
+      "moduleAssessmentPreviousAttempts": [
+        {
+          "questionsToPass": 4,
+          "questionsToTake": 4,
+          "questionsAnsweredCorrectly": 4,
+          "sessionEndDate": "2026-08-29T11:45:53.3548214Z",
+          "passCriteria": 100
+        }
+      ]
+    },
+    {
+      "moduleUid": "learn.dpu.microsoft-adaptive-accessories",
+      "moduleAssessmentPassed": true,
+      "moduleAssessmentPassedOn": "2026-08-29T11:47:11.1096289Z",
+      "moduleAssessmentPreviousAttempts": [
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 5,
+          "sessionEndDate": "2026-08-29T11:47:11.1096289Z",
+          "passCriteria": 100
+        },
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 2,
+          "sessionEndDate": "2026-08-29T11:46:57.7319152Z",
+          "passCriteria": 100
+        },
+        {
+          "questionsToPass": 5,
+          "questionsToTake": 5,
+          "questionsAnsweredCorrectly": 0,
+          "sessionEndDate": "2026-08-29T11:46:48.0173659Z",
           "passCriteria": 100
         }
       ]
@@ -212129,6 +212392,16 @@
       "completedAt": "2026-03-01T22:48:00.5184474Z"
     },
     {
+      "title": "learn.wwl.trigger-azure-machine-learn-jobs-github-actions.connect-github-actions-azure",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:47:51.020255Z"
+    },
+    {
+      "title": "learn.wwl.trigger-azure-machine-learn-jobs-github-actions.trigger-azure-machine-learning-jobs",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:47:52.7645389Z"
+    },
+    {
       "title": "learn-dynamics.introduction-power-platform-business-central.1-introduction",
       "type": "unit",
       "completedAt": "2026-03-01T22:48:11.7641695Z"
@@ -220747,6 +221020,16 @@
       "title": "learn.wwl.deploy-model-github-actions",
       "type": "module",
       "completedAt": "2026-03-11T19:22:12.248044Z"
+    },
+    {
+      "title": "learn.wwl.deploy-model-github-actions.control-deployments-github-environments",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:47:57.5322517Z"
+    },
+    {
+      "title": "learn.wwl.deploy-model-github-actions.monitor-model",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:48:00.3057823Z"
     },
     {
       "title": "learn.wwl.implement-non-relational-data-model.introduction",
@@ -287192,6 +287475,356 @@
       "title": "learn.wwl.explore-copilot-studio-agent-harnesses",
       "type": "module",
       "completedAt": "2026-08-25T15:48:51.4224528Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-surface-hardware.introduction",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:27:10.6950775Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-surface-hardware.inclusive-hardware",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:27:14.2145999Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-surface-hardware.adaptive-touch-mode",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:27:26.2370259Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-surface-hardware.engineered-design",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:27:36.732474Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-surface-hardware.large-high-contrast-keyboard-options",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:27:39.7471586Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-surface-hardware.knowledge-check",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:27:51.8215018Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-surface-hardware.summary",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:28:45.1417953Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-surface-hardware",
+      "type": "module",
+      "completedAt": "2026-08-29T11:28:45.1418044Z"
+    },
+    {
+      "title": "learn.wwl.create-instruction-driven-agents-copilot-studio.introduction",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:29:08.7098224Z"
+    },
+    {
+      "title": "learn.wwl.create-instruction-driven-agents-copilot-studio.define-purpose-scope",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:29:11.7458756Z"
+    },
+    {
+      "title": "learn.wwl.create-instruction-driven-agents-copilot-studio.write-effective-instructions",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:29:14.5714579Z"
+    },
+    {
+      "title": "learn.wwl.create-instruction-driven-agents-copilot-studio.add-basic-knowledge",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:29:17.5302898Z"
+    },
+    {
+      "title": "learn.wwl.create-instruction-driven-agents-copilot-studio.configure-conversation-experience",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:29:20.2314425Z"
+    },
+    {
+      "title": "learn.wwl.create-instruction-driven-agents-copilot-studio.preview-refine-agent",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:29:22.7319582Z"
+    },
+    {
+      "title": "learn.wwl.create-instruction-driven-agents-copilot-studio.exercise-create-benefits-agent",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:29:26.2526162Z"
+    },
+    {
+      "title": "learn.wwl.create-instruction-driven-agents-copilot-studio.knowledge-check",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:29:37.2399636Z"
+    },
+    {
+      "title": "learn.wwl.create-instruction-driven-agents-copilot-studio.summary",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:29:41.8199085Z"
+    },
+    {
+      "title": "learn.wwl.create-instruction-driven-agents-copilot-studio",
+      "type": "module",
+      "completedAt": "2026-08-29T11:29:41.8199191Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-software-surface.introduction",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:29:56.0881297Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-software-surface.vision-accessibility-features",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:29:58.9576417Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-software-surface.hearing-and-comprehension-features",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:30:04.290786Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-software-surface.mobility-and-input-accessibility-features",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:30:08.1569654Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-software-surface.knowledge-check",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:30:17.7222969Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-software-surface.summary",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:30:57.591906Z"
+    },
+    {
+      "title": "learn.dpu.inclusive-software-surface",
+      "type": "module",
+      "completedAt": "2026-08-29T11:30:57.5919131Z"
+    },
+    {
+      "title": "learn.wwl.deploy-sidecar-azure-app-service.introduction",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:31:15.8337659Z"
+    },
+    {
+      "title": "learn.wwl.deploy-sidecar-azure-app-service.choose-sidecar-pattern",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:31:19.4932012Z"
+    },
+    {
+      "title": "learn.wwl.deploy-sidecar-azure-app-service.configure-sidecar-containers",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:31:29.3264372Z"
+    },
+    {
+      "title": "learn.wwl.deploy-sidecar-azure-app-service.connect-containers-share-files",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:31:34.0337107Z"
+    },
+    {
+      "title": "learn.wwl.deploy-sidecar-azure-app-service.diagnose-sidecar-failures",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:31:41.4975671Z"
+    },
+    {
+      "title": "learn.wwl.deploy-sidecar-azure-app-service.exercise-deploy-ai-api-sidecar",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:31:48.3450134Z"
+    },
+    {
+      "title": "learn.wwl.deploy-sidecar-azure-app-service.knowledge-check",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:32:00.4655023Z"
+    },
+    {
+      "title": "learn.wwl.deploy-sidecar-azure-app-service.summary",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:32:30.6881741Z"
+    },
+    {
+      "title": "learn.wwl.deploy-sidecar-azure-app-service",
+      "type": "module",
+      "completedAt": "2026-08-29T11:32:30.6881821Z"
+    },
+    {
+      "title": "learn.wwl.use-azure-databricks-genie-teams-m365-copilot.introduction",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:32:48.8991869Z"
+    },
+    {
+      "title": "learn.wwl.use-azure-databricks-genie-teams-m365-copilot.explore-genie-surfaces",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:32:53.2040002Z"
+    },
+    {
+      "title": "learn.wwl.use-azure-databricks-genie-teams-m365-copilot.use-genie-teams",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:33:05.160129Z"
+    },
+    {
+      "title": "learn.wwl.use-azure-databricks-genie-teams-m365-copilot.use-genie-m365-copilot",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:33:09.9726444Z"
+    },
+    {
+      "title": "learn.wwl.use-azure-databricks-genie-teams-m365-copilot.ask-effective-questions-spark-framework",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:33:12.9308532Z"
+    },
+    {
+      "title": "learn.wwl.use-azure-databricks-genie-teams-m365-copilot.interpret-verify-refine-answers",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:33:15.9365452Z"
+    },
+    {
+      "title": "learn.wwl.use-azure-databricks-genie-teams-m365-copilot.use-ai-generated-answers-responsibly",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:33:18.9141461Z"
+    },
+    {
+      "title": "learn.wwl.use-azure-databricks-genie-teams-m365-copilot.knowledge-check",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:34:58.2645255Z"
+    },
+    {
+      "title": "learn.wwl.use-azure-databricks-genie-teams-m365-copilot.summary",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:35:26.3028143Z"
+    },
+    {
+      "title": "learn.wwl.use-azure-databricks-genie-teams-m365-copilot",
+      "type": "module",
+      "completedAt": "2026-08-29T11:35:26.3028234Z"
+    },
+    {
+      "title": "learn.wwl.configure-azure-databricks-genie-teams-microsoft-copilot.introduction",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:35:37.6076919Z"
+    },
+    {
+      "title": "learn.wwl.configure-azure-databricks-genie-teams-microsoft-copilot.explain-architecture-ownership",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:35:43.4487905Z"
+    },
+    {
+      "title": "learn.wwl.configure-azure-databricks-genie-teams-microsoft-copilot.assess-deployment-readiness",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:35:47.7011047Z"
+    },
+    {
+      "title": "learn.wwl.configure-azure-databricks-genie-teams-microsoft-copilot.prepare-azure-databricks-workspace",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:35:51.7882223Z"
+    },
+    {
+      "title": "learn.wwl.configure-azure-databricks-genie-teams-microsoft-copilot.validate-genie-agent-data-access",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:35:55.5248643Z"
+    },
+    {
+      "title": "learn.wwl.configure-azure-databricks-genie-teams-microsoft-copilot.review-app-permissions-security",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:35:58.7662018Z"
+    },
+    {
+      "title": "learn.wwl.configure-azure-databricks-genie-teams-microsoft-copilot.deploy-configure-databricks-genie",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:36:03.5098289Z"
+    },
+    {
+      "title": "learn.wwl.configure-azure-databricks-genie-teams-microsoft-copilot.knowledge-check",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:36:12.8633117Z"
+    },
+    {
+      "title": "learn.wwl.configure-azure-databricks-genie-teams-microsoft-copilot.summary",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:36:16.7286768Z"
+    },
+    {
+      "title": "learn.wwl.configure-azure-databricks-genie-teams-microsoft-copilot",
+      "type": "module",
+      "completedAt": "2026-08-29T11:36:16.728685Z"
+    },
+    {
+      "title": "learn.wwl.microsoft-ai-models.introduction",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:36:37.1379253Z"
+    },
+    {
+      "title": "learn.wwl.microsoft-ai-models.model-overview",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:36:50.9587119Z"
+    },
+    {
+      "title": "learn.wwl.microsoft-ai-models.chat-thinking",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:37:10.8863276Z"
+    },
+    {
+      "title": "learn.wwl.microsoft-ai-models.code-generation",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:40:11.2285851Z"
+    },
+    {
+      "title": "learn.wwl.microsoft-ai-models.speech-transcription",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:40:35.7229428Z"
+    },
+    {
+      "title": "learn.wwl.microsoft-ai-models.image-generation",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:45:05.1430407Z"
+    },
+    {
+      "title": "learn.wwl.microsoft-ai-models.exercise",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:45:12.0003001Z"
+    },
+    {
+      "title": "learn.wwl.microsoft-ai-models.knowledge-check",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:45:53.5257804Z"
+    },
+    {
+      "title": "learn.wwl.microsoft-ai-models.summary",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:45:59.2876392Z"
+    },
+    {
+      "title": "learn.wwl.microsoft-ai-models",
+      "type": "module",
+      "completedAt": "2026-08-29T11:45:59.287649Z"
+    },
+    {
+      "title": "learn.dpu.microsoft-adaptive-accessories.introduction",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:46:20.1522281Z"
+    },
+    {
+      "title": "learn.dpu.microsoft-adaptive-accessories.microsoft-adaptive-accessories",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:46:26.7496437Z"
+    },
+    {
+      "title": "learn.dpu.microsoft-adaptive-accessories.surface-adaptive-kit",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:46:38.3185306Z"
+    },
+    {
+      "title": "learn.dpu.microsoft-adaptive-accessories.module-assessment",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:46:48.0988472Z"
+    },
+    {
+      "title": "learn.dpu.microsoft-adaptive-accessories.summary",
+      "type": "unit",
+      "completedAt": "2026-08-29T11:47:14.8096175Z"
+    },
+    {
+      "title": "learn.dpu.microsoft-adaptive-accessories",
+      "type": "module",
+      "completedAt": "2026-08-29T11:47:14.8096234Z"
     }
   ],
   "verifiable_credentials": [

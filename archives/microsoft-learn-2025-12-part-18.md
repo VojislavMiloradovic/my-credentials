@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Estimate physical resource requirements for quantum algorithms with the Azure Quantum Resource Estimator** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/estimate-resources-quantum-algorithms/) |
 | **Describe shared features in finance and operations apps** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-shared-features/) |
 | **Describe the finance and operations apps** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-finance-operations-apps/) |
 | **Secure your identities by using Microsoft Entra ID** | Modules | 2025-12-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-ad/) |
@@ -55,19 +56,18 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage general ledger and cash and bank management processes in Dynamics 365 Finance** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-general-ledger-cash-bank-management/) |
 | **Discover Microsoft Intune essentials** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-microsoft-intune-essentials/) |
 | **Create images with generative AI** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-images-with-generative-ai/) |
-| **Explore the fundamentals of Microsoft Dynamics 365 Customer Insights** | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-of-microsoft-dynamics-365-marketing/) |
 | **Explore Dynamics 365 Customer Insights - Journeys** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-marketing/) |
+| **Explore the fundamentals of Microsoft Dynamics 365 Customer Insights** | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-of-microsoft-dynamics-365-marketing/) |
 | **Get started with Power Automate for desktop** | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-get-started/) |
 | **Power Automate for desktop development essentials** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-power-automate-desktop-development-essentials/) |
 | **Design a SQL Server migration strategy** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-data-platform-modernization/) |
-| **Share a cloud flow with Power Automate** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/share-cloud-flow/) |
 | **Connect and share cloud flow to desktop flows in Power Automate for desktop** | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/connect-share-cloud-flow-desktop-flows-power-automate/) |
+| **Share a cloud flow with Power Automate** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/share-cloud-flow/) |
 | **Build a mobile-optimized app from Power Apps** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-mobile-optimized/) |
 | **Upload your project by using GitHub best practices** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/upload-project-github/) |
 | **Adjust process behavior using conditional actions with Power Automate for desktop** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-conditionals/) |
 | **Migrate your repository by using GitHub best practices** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-repository-github/) |
 | **Discover DevOps** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-devops/) |
-| **Support reading fluency practice with Reading Progress** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-reading-fluency-practice-with-reading-progress/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-17.md](./microsoft-learn-2025-12-part-17.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-19.md](./microsoft-learn-2025-12-part-19.md)

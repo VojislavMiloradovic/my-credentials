@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Guided project – Build a sample app to evaluate Microsoft Entra External ID for seamless and secure sign-up and sign-in for consumers and business customers** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/entra-external-identities/) |
 | **Guided project - Add sign-up in an Android mobile app and iOS/macOS app using native authentication** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-entra-external-native-authentication/) |
 | **Upgrade from AX 2012 to Dynamics 365 Finance** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/upgrade-ax-finance-operations/) |
 | **Set up metrics and alerts for Customer Voice surveys** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/metrics-alerts-voice-surveys/) |
@@ -65,6 +64,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Integrate and use Field Service with Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-field-service/) |
 | **Configure BOM costing and reporting in Dynamics 365 Supply Chain Management** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-bill-material-costing-reporting/) |
 | **Use Dynamics 365 Sales from Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-sales-business-central/) |
+| **Manage outbound serial and lot numbers in Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-outbound-serial-lot-numbers/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-72.md](./microsoft-learn-2026-04-part-72.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-74.md](./microsoft-learn-2026-05-part-74.md)

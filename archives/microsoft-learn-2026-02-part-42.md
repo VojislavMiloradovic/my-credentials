@@ -20,14 +20,14 @@ artifacts: archive_complete, archive_index, jsonld
 | **Configure SQL Server resources for optimal performance** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-sql-server-resources-optimal-performance/) |
 | **MS-102 Manage your Microsoft 365 tenant** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-your-microsoft-365-tenant/) |
 | **Analyze your Microsoft 365 workplace data using Microsoft Viva Insights** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-microsoft-365-workplace-data-use-microsoft-viva-insights/) |
-| **Data normalization in Microsoft Sentinel** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-normalization-microsoft-sentinel/) |
 | **Create detections and perform investigations using Microsoft Sentinel** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-create-detections-perform-investigations-azure-sentinel/) |
+| **Data normalization in Microsoft Sentinel** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-normalization-microsoft-sentinel/) |
 | **Set up chart of accounts in Dynamics 365 Finance** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-chart-accounts-finance/) |
 | **Explore sensitivity labels** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-sensitivity-labels-microsoft-365/) |
 | **Create and define calculation or rollup columns in Dataverse** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-define-calculation-rollup-fields/) |
 | **Enhance your email protection using Microsoft Defender for Office 365** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-microsoft-defender-office-365/) |
-| **Build and deploy applications to Azure by using GitHub Actions** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-actions-cd/) |
 | **Manage source control** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-manage-source-control/) |
+| **Build and deploy applications to Azure by using GitHub Actions** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-actions-cd/) |
 | **Automate your workflow with GitHub Actions Part 1 of 2** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-actions/) |
 | **Connect logs to Microsoft Sentinel** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-connect-logs-to-azure-sentinel/) |
 | **Connect data to Microsoft Sentinel using data connectors** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-data-to-azure-sentinel-with-data-connectors/) |

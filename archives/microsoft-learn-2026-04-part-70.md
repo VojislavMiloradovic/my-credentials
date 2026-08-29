@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 70 of 95
 date_range: 2026-04-20 to 2026-04-22
-total_entries: 50
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-70.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Automate Azure Virtual Desktop management tasks** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-azure-virtual-desktop-management-tasks/) |
 | **Work with service agreements in Dynamics 365 Supply Chain Management** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-service-agreements/) |
 | **Use item journals in the warehouse in Dynamics 365 Business Central** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-item-journals-warehouse/) |
 | **Work with service items in Dynamics 365 Business Central** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-work-service-items/) |
@@ -65,6 +64,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Revenue and expense deferrals in Dynamics 365 Finance** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-expense-deferrals/) |
 | **Explore Microsoft Purview Message Encryption** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-purview-message-encryption/) |
 | **Plan to deploy Microsoft Defender for IoT to monitor operational technology (OT) networks** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-iot-plan-deployment/) |
+| **Index fixed assets in Dynamics 365 Business Central** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/index-fixed-assets/) |
+| **Understand client-server communication in MySQL** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-client-server-communication-mysql/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-69.md](./microsoft-learn-2026-04-part-69.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-71.md](./microsoft-learn-2026-04-part-71.md)

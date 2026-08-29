@@ -40,8 +40,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Perform analytics in Power BI** | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/) |
 | **Understand the Transformer architecture and explore large language models in Azure Machine Learning** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-foundation-models-in-model-catalog/) |
 | **Work with generative artificial intelligence (AI) models in Azure Machine Learning** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-generative-models-azure-machine-learning/) |
-| **Manage compliance with Microsoft Purview for Microsoft 365 Copilot** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-data-compliance/) |
 | **Govern and protect sensitive information in the age of AI** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-govern-ai/) |
+| **Manage compliance with Microsoft Purview for Microsoft 365 Copilot** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-data-compliance/) |
 | **Explore PostgreSQL architecture** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-postgresql-architecture/) |
 | **Create and manage Insider Risk Management policies** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-create-manage-insider-risk-policy/) |
 | **Create dashboards in Power BI** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/) |

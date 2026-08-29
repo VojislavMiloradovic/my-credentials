@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 21 of 95
 date_range: 2025-12-23 to 2025-12-24
-total_entries: 55
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-21.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Deliver engaging and accessible virtual events with Microsoft Teams and Microsoft 365** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-virtual-events-fundamentals/) |
 | **Design a successful virtual event using Microsoft 365** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-design-successful-virtual-events/) |
 | **Introduction to delivering virtual events using Microsoft Teams and Microsoft 365** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-introduction-deliver-virtual-events-using-microsoft-teams/) |
 | **Discover AI for leaders in healthcare** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-healthcare-industry/) |
@@ -68,8 +69,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Understanding Low Code as a Traditional Developer** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/understanding-low-code-as-a-traditional-developer/) |
 | **Draft impactful documents using AI** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/draft-impactful-documents-using-ai/) |
 | **Introduction to Microsoft Learn for Educators program** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-learn-educators-program/) |
-| **Configure and manage shared folders** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-shared-folders/) |
-| **Microsoft Learn for Educators Course Preparation** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-learn-educators-course-preparation/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-20.md](./microsoft-learn-2025-12-part-20.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-22.md](./microsoft-learn-2025-12-part-22.md)

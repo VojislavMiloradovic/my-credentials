@@ -42,8 +42,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Configure databases for optimal performance** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-databases-for-optimal-performance/) |
 | **Strengthen security posture using Microsoft Defender for Cloud and Microsoft Sentinel** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-azure-using-microsoft-defender-cloud-sentinel/) |
 | **Implement and manage enforcement of cloud governance policies** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-enforcement-cloud-governance-policies/) |
-| **Visualize, import, and export Microsoft Dataverse data** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/visualize-import-export-dataverse/) |
 | **Use Azure and external tools to manipulate data** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-dataverse/) |
+| **Visualize, import, and export Microsoft Dataverse data** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/visualize-import-export-dataverse/) |
 | **Configure and manage Hyper-V virtual machines** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-hyper-v-virtual-machines/) |
 | **Examine Privileged Identity Management in Microsoft Entra ID** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-privileged-identity-management/) |
 | **Explore performance-based database design** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-performance-based-design/) |

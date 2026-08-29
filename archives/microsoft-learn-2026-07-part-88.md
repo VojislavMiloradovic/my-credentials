@@ -30,8 +30,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Examine SAP S/4HANA on Azure virtual machines** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-sap-s4hana-azure-virtual-machines/) |
 | **Implement transactions with Transact-SQL** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-transactions-transact-sql/) |
 | **Combine query results with set operators** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/combine-query-results-set-operators/) |
-| **Connect to finance and operations apps** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/connect-finance-operations/) |
 | **Manage data sources with external data stores in finance and operations apps** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/external-data-sources-finance-operations/) |
+| **Connect to finance and operations apps** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/connect-finance-operations/) |
 | **Integrate finance and operations apps with Microsoft Power Platform** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-finance-operations-apps-power-platform/) |
 | **Work with tools and best practices to integrate finance and operations apps with Microsoft Power Platform** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/tools-finance-operations-power-platform/) |
 | **Harmonize business concepts between finance and operations apps and Microsoft Power Platform** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/harmonize-business-concepts-finance-operations-power-platform/) |
@@ -41,8 +41,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Work with integration tools in finance and operations apps** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-implementation-tools-finance-operations/) |
 | **Work with asynchronous integrations in finance and operations apps** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-integrations-finance-operations/) |
 | **Explore Azure for SAP workloads** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-sap-workloads/) |
-| **Code scanning with GitHub CodeQL** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-scanning-with-github-codeql/) |
 | **GitHub Advanced Security Part 2 of 2** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-advanced-security-2/) |
+| **Code scanning with GitHub CodeQL** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-scanning-with-github-codeql/) |
 | **Explore the foundations of IaaS for SAP on Azure** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-foundations-of-iaas/) |
 | **Explore Azure for SAP storage** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-storage/) |
 | **Work with extensions for finance and operations apps and Microsoft Power Platform** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/extensions-finance-operations-power-platform/) |
@@ -55,16 +55,16 @@ artifacts: archive_complete, archive_index, jsonld
 | **Explore Azure for SAP networking** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-networking/) |
 | **Extend Power Pages websites** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-extend/) |
 | **Extend Power Pages** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-power-pages/) |
-| **Use Success by Design for Dynamics 365 solutions** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-success-design/) |
 | **Cutover strategy for Dynamics 365 solutions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/cutover-strategy-dynamics-365/) |
+| **Use Success by Design for Dynamics 365 solutions** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-success-design/) |
 | **Prepare to teach AZ-500 Microsoft Azure Security Technologies** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-500-microsoft-azure-security-technologies/) |
 | **Get tips and tricks for teaching AZ-500 Microsoft Azure Security Technologies** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-az-500-microsoft-azure-security-technologies/) |
 | **Integration design for Dynamics 365 solutions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/integration/) |
 | **Get tips and tricks for teaching AZ-104 Microsoft Azure Administrator** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-az-104-microsoft-azure-administrator/) |
 | **Prepare to teach AZ-104 Microsoft Azure Administrator in the classroom** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-104-microsoft-azure-administrator/) |
 | **Post go-live strategy for Dynamics 365 solutions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/post-go-live-dynamics-365/) |
-| **Using Azure NetApp Files with Azure VMware Solution** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-with-vmware-solution/) |
 | **Run VMware resources on Azure VMware Solution** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/run-vmware-workloads-azure-vmware-solution/) |
+| **Using Azure NetApp Files with Azure VMware Solution** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-with-vmware-solution/) |
 | **Dual-write implementation for Dynamics 365 solutions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/dual-write-dynamics-365/) |
 
 ---

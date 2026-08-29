@@ -15,7 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Secure your cloud applications in Azure** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-your-cloud-apps/) |
+| **Microsoft Azure Well-Architected Framework - Security** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/) |
 | **Work with Power Automate error handling and expressions** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/templates-error-handling-expressions-power-automate/) |
 | **Best practices for error handling in Power Automate flows** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/error-handling/) |
 | **Maintain user profiles** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-user-profiles/) |
@@ -23,8 +23,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Develop solutions that use Azure Cosmos DB** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-develop-solutions-that-use-azure-cosmos-db/) |
 | **Explore Azure Cosmos DB** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/) |
 | **Guided project -  Create a DevOps Assistant with the Semantic Kernel SDK** | Modules | 2026-01-26 | N/A |
-| **Migrate application workloads and data to Azure** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-application-workloads-data-azure/) |
 | **Migrate ASP.NET Apps to Azure** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-dotnet-apps-azure/) |
+| **Migrate application workloads and data to Azure** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-application-workloads-data-azure/) |
 | **Migrate SQL Server workloads to Azure SQL Database** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-sql-workloads-azure-sql-databases/) |
 | **Implement containerized solutions** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-iaas-solutions/) |
 | **Manage container images in Azure Container Registry** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/) |
@@ -35,8 +35,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement and manage Microsoft Purview Insider Risk Management** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-insider-risk-management/) |
 | **Write data in a Power Apps canvas app** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-data/) |
 | **Audit the security of Windows Server IaaS Virtual Machines** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-security-of-windows-server-iaas-virtual-machines/) |
-| **Implement secure Azure solutions** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-secure-cloud-solutions/) |
 | **Implement managed identities** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-managed-identities/) |
+| **Implement secure Azure solutions** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-secure-cloud-solutions/) |
 | **Configure secure access to Azure Repos from pipelines** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-access-azure-repos-from-pipelines/) |
 | **Scale and manage deployed container apps** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-manage-deployed-container-apps/) |
 | **Configure client connectivity to Microsoft 365** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-client-connectivity-microsoft-365/) |
@@ -56,12 +56,12 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement Azure Key Vault** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-key-vault/) |
 | **Enroll devices using Microsoft Intune** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-devices-use-intune/) |
 | **Apply filters on functions** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/combine-prompts-functions/) |
-| **Develop solutions that use Blob storage** | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-solutions-that-use-blob-storage/) |
 | **Explore Azure Blob storage** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/) |
+| **Develop solutions that use Blob storage** | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-solutions-that-use-blob-storage/) |
 | **Manage identity for projects, pipelines, and agents** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-identity-projects-pipelines-agents/) |
 | **Manage resources in Azure** | Learningpaths | 2026-01-25 | N/A |
-| **Control and organize Azure resources with Azure Resource Manager** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-and-organize-with-azure-resource-manager/) |
 | **Implement resource management security in Azure** | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-resource-mgmt-security/) |
+| **Control and organize Azure resources with Azure Resource Manager** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-and-organize-with-azure-resource-manager/) |
 | **Work with entities and variables in Microsoft Copilot Studio** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-virtual-agents-entities/) |
 | **Introduction to AD DS** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-ad-ds/) |
 | **Implement Azure App Configuration** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/) |

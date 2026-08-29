@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 50 of 95
 date_range: 2026-02-16 to 2026-02-25
-total_entries: 51
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-50.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -16,7 +16,6 @@ artifacts: archive_complete, archive_index, jsonld
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
 | **Monitor and maintain an Azure Virtual Desktop infrastructure** | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-maintain-azure-virtual-desktop-infrastructure/) |
-| **Monitor and manage performance and health** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-manage-performance-health/) |
 | **Manage sales prices in Dynamics 365 Business Central** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-sales-prices-dynamics-365-business-central/) |
 | **Set up Apple Message for Business and Google Business Messages as channels in Dynamics 365 Customer Service** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-apple-message-business-google-business-messages/) |
 | **Build reports for Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-reports/) |
@@ -36,8 +35,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Secure Windows Server DNS** | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-windows-server-domain-name-system/) |
 | **Windows Server Network Infrastructure** | Learningpaths | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-network-infrastructure/) |
 | **Implement and manage FSLogix** | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-fslogix/) |
-| **Post periodic journal entries in Dynamics 365 Business Central** | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/periodic-journal-entries-dynamics-365-business-central/) |
 | **Use journals in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-journals-dynamics-365-business-central/) |
+| **Post periodic journal entries in Dynamics 365 Business Central** | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/periodic-journal-entries-dynamics-365-business-central/) |
 | **Update Windows client** | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/update-windows-client/) |
 | **Configure alerts and responses** | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-alerts-responses/) |
 | **Create sales documents in Dynamics 365 Business Central** | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-sales-documents-dynamics-365-business-central/) |
@@ -65,7 +64,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Troubleshoot Active Directory** | Modules | 2026-02-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-active-directory/) |
 | **Use pages, routing, and layouts to improve Blazor navigation** | Modules | 2026-02-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-pages-routing-layouts-control-blazor-navigation/) |
 | **Get started with Lifecycle Services for finance and operations apps** | Modules | 2026-02-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-lifecycle-services-finance-operations/) |
-| **Use inventory reports in Dynamics 365 Supply Chain Management** | Modules | 2026-02-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-inventory-reports-dyn365-supply-chain-mgmt/) |
+| **Configure and manage products and inventory in Dynamics 365 Supply Chain Management** | Learningpaths | 2026-02-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-49.md](./microsoft-learn-2026-02-part-49.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-51.md](./microsoft-learn-2026-02-part-51.md)

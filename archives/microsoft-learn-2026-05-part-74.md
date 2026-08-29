@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 74 of 95
 date_range: 2026-04-29 to 2026-05-04
-total_entries: 49
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-74.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Deliver rich agent responses using Adaptive Cards in Microsoft Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/deliver-rich-agent-responses-adaptive-cards-copilot-studio/) |
-| **Automate workflows using agent flows in Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-workflows-agent-flows-copilot-studio/) |
 | **Introduction to Microsoft Entra Agent ID** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-entra-agent-id/) |
 | **Design multi-agent solutions in Microsoft Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-agent-solutions-copilot-studio/) |
 | **Design and build multi-agent solutions in Microsoft Copilot Studio** | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-build-multi-agent-solutions-copilot-studio/) |
@@ -64,6 +62,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Optimize generative AI model performance with Microsoft Foundry** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-generative-ai-model-performance/) |
 | **Configure workload identities and permissions for AI environments** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-entra-ai-configure-workload-identities/) |
 | **Minecraft Connections: Integrate across the curriculum** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/minecraft-connections-integrate-across-curriculum/) |
+| **Guided project – Build a sample app to evaluate Microsoft Entra External ID for seamless and secure sign-up and sign-in for consumers and business customers** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/entra-external-identities/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-73.md](./microsoft-learn-2026-04-part-73.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-75.md](./microsoft-learn-2026-05-part-75.md)

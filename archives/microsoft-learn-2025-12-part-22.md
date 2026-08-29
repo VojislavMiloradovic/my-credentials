@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Design a model deployment solution** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-model-deployment-solution/) |
 | **AI security controls** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-security-controls/) |
 | **Explore the ecosystem and main components of finance and operations apps** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-ecosystem-main-components-finance-operations/) |
 | **Load balance your web service traffic with Application Gateway** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/load-balance-web-traffic-with-application-gateway/) |
@@ -42,8 +43,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Tailoring trainings with AI** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/tailoring-trainings-with-ai/) |
 | **Design a machine learning operations solution** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-machine-learning-operations-solution/) |
 | **Manage process mining projects** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-process-mining/) |
-| **Build .NET applications with C#** | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-dotnet-applications-csharp/) |
 | **Interactively debug .NET apps with the Visual Studio Code debugger** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-debug/) |
+| **Build .NET applications with C#** | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-dotnet-applications-csharp/) |
 | **From inbox to impact: Improve your email workflows with AI** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/from-inbox-impact-improve-your-email-workflows-ai/) |
 | **Microsoft Learn for Educators course planning** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-learn-educators-course-plan/) |
 | **Hyperautomation with insights from process mining** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/hyperautomation-process-mining/) |
@@ -51,8 +52,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Troubleshoot device driver failures** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-device-driver-failures/) |
 | **Integrate a Power Apps app with Power Automate - Online Workshop** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-power-apps-online-workshop/) |
 | **Create a machine ordering app with Power Apps - Online Workshop** | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-apps-online-workshop/) |
-| **Build a scalable application with Virtual Machine Scale Sets** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-app-with-scale-sets/) |
 | **Architect compute infrastructure in Azure** | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-compute-infrastructure/) |
+| **Build a scalable application with Virtual Machine Scale Sets** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-app-with-scale-sets/) |
 | **Digitally transform with Dynamics 365** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/digitally-transform-with-dynamics-365/) |
 | **Onboard to Microsoft Learn for Educators program** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/onboard-microsoft-learn-educators-program/) |
 | **Automate GitHub by using GitHub Script** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-github-using-github-script/) |
@@ -65,7 +66,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Introduction to Azure Bot Service and Bot Framework Composer** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-bot-service-bot-framework-composer/) |
 | **Document and test your Power Apps application** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-test-powerapps-app/) |
 | **Bringing it all together for engaging virtual events in Microsoft 365** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-bring-all-together-engaging-virtual-events/) |
-| **Deliver engaging and accessible virtual events with Microsoft Teams and Microsoft 365** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-virtual-events-fundamentals/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-21.md](./microsoft-learn-2025-12-part-21.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-23.md](./microsoft-learn-2025-12-part-23.md)

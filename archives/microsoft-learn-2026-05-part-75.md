@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Secure access for Microsoft Entra Agent Identity** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-access-entra-agent-identity/) |
-| **Manage agents using Microsoft Agent 365** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-agents-microsoft-agent-365/) |
 | **Choose the right moment to modernize Windows Server** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-the-right-moment/) |
 | **Dragon Copilot (physicians) practical application exercises** | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-physicians-practical-application-exercises/) |
 | **Dragon Copilot (physicians) practical application exercises summary** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-practical-applications-summary/) |
@@ -65,6 +63,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Design agent conversations and responses using topics in Microsoft Copilot Studio** | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-agent-conversations-responses-topics-copilot-studio/) |
 | **Take action from agent conversations using topics and tools in Microsoft Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/take-action-agent-topics-tools-flows-copilot-studio/) |
 | **Generate AI-powered agent responses using generative answers in Microsoft Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-ai-powered-responses-generative-answers-copilot-studio/) |
+| **Deliver rich agent responses using Adaptive Cards in Microsoft Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/deliver-rich-agent-responses-adaptive-cards-copilot-studio/) |
+| **Automate workflows using agent flows in Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-workflows-agent-flows-copilot-studio/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-74.md](./microsoft-learn-2026-05-part-74.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-76.md](./microsoft-learn-2026-05-part-76.md)

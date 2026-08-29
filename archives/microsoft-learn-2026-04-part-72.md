@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Manage outbound serial and lot numbers in Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-outbound-serial-lot-numbers/) |
 | **Use serial and lot numbers in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-serial-lot-numbers/) |
 | **Use Service Management in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-service-management-business-central/) |
 | **Process service in Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-service/) |
@@ -66,6 +65,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Advanced event management features in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-event-management-marketing/) |
 | **Manage warehouse processes in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-warehouse-processes/) |
 | **Move items in Dynamics 365 Business Central** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/move-items/) |
+| **Work with Dynamics 365 Sales insights** | Learningpaths | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-sales-insights/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-71.md](./microsoft-learn-2026-04-part-71.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-73.md](./microsoft-learn-2026-04-part-73.md)

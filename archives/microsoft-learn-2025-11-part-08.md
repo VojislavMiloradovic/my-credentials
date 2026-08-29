@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 8 of 95
 date_range: 2025-11-26 to 2025-11-28
-total_entries: 51
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-11-part-08.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Build a digital learning hub with Class Teams** | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-digital-learning-hub-class-teams/) |
 | **Evaluate Boolean expressions to make decisions in C#** | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-evaluate-boolean-expressions/) |
 | **Embed 21st century skills with 21st century learning design** | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/embed-21st-century-skills-21st-century-learning-design/) |
 | **Challenge project - Develop branching and looping structures in C#** | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/) |
@@ -53,8 +52,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Perform a Windows 11 device readiness assessment** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-readiness-assessment/) |
 | **Build effective generative AI solutions in your organization** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-effective-generative-ai-solutions-organization/) |
 | **Explore the business value of generative AI solutions** | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-business-value-generative-ai-solutions/) |
-| **Explore prebuilt Microsoft 365 Copilot agents** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-prebuilt-microsoft-365-copilot-agents/) |
 | **Enhance your productivity with prebuilt Microsoft 365 Copilot agents** | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-productivity-prebuilt-agents/) |
+| **Explore prebuilt Microsoft 365 Copilot agents** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-prebuilt-microsoft-365-copilot-agents/) |
 | **Introduction to declarative agents for Microsoft 365 Copilot** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-intro/) |
 | **Monitor and maintain Microsoft 365 Copilot connectors** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-microsoft-365-copilot-connectors/) |
 | **Build your first Microsoft 365 Copilot connector using Visual Studio Code** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-microsoft-365-copilot-connector/) |
@@ -65,7 +64,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Transform business workflows with generative AI** | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-workflows-with-ai/) |
 | **Iterate through a code block using for statement in C#** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-for/) |
 | **Branch the flow of code using the switch-case construct in C#** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-switch-case/) |
-| **Explore Azure Storage for non-relational data** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/) |
+| **Introduction to Microsoft Azure Data non-relational data in Azure** | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-non-relational-data/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-11-part-07.md](./microsoft-learn-2025-11-part-07.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-09.md](./microsoft-learn-2025-12-part-09.md)

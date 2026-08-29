@@ -17,8 +17,8 @@ artifacts: archive_complete, archive_index, jsonld
 | :--- | :--- | :--- | :--- |
 | **Prepare to teach SC-300 Microsoft Identity and Access Administrator** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-sc-300-identity-access-administrator/) |
 | **Prepare to teach AI-900 Microsoft Azure AI fundamentals in academic programs** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-ai-900-fundamentals-academic-programs/) |
-| **Prepare to teach SC-400 Microsoft Information Protection Administrator** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-sc-400-information-protection-administrator/) |
 | **Prepare to teach DP-900 Microsoft Azure Data fundamentals in academic programs** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-dp-900-fundamentals-academic-programs/) |
+| **Prepare to teach SC-400 Microsoft Information Protection Administrator** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-sc-400-information-protection-administrator/) |
 | **Prepare to teach PL-200 Microsoft Power Platform Functional Consultant** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-to-teach-pl-200-microsoft-power-platform-functional-consultant/) |
 | **Prepare to teach PL-900 Microsoft Power Platform fundamentals in academic programs** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-pl-900-fundamentals-academic-programs/) |
 | **Prepare to teach AZ-204 Developing Solution for Microsoft Azure** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-204-developing-solution-microsoft-azure/) |
@@ -51,8 +51,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Design solutions for identity and access management** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-identity-access-management/) |
 | **Solution architect series: Explore robotic process automation** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/robotic-process-automation/) |
 | **Configure and manage voice users** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-voice-users/) |
-| **AZ-400: Implement security and validate code bases for compliance** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-security-validate-code-bases-compliance/) |
 | **Software Composition Analysis** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/) |
+| **AZ-400: Implement security and validate code bases for compliance** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-security-validate-code-bases-compliance/) |
 | **Implement Bicep** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-bicep/) |
 | **Integrate with Dataverse and Azure** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dataverse-azure/) |
 | **Integrate with Power Platform and Dataverse** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-power-platform-dataverse/) |

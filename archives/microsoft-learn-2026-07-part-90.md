@@ -22,8 +22,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Design enterprise-scale agent communication with A2A in Azure** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-enterprise-agent-communication-a2a/) |
 | **Design advanced prompting strategies for production AI agents** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-advanced-prompt-production-agents/) |
 | **Debug and respond to production multi-agent incidents in Azure** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-debug-production-multi-agent-incidents-azure/) |
-| **Extend Sustainability Manager for building complex Scope 3 calculations** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-complex-calculations/) |
 | **Extend Microsoft for Sustainability** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-sustainability/) |
+| **Extend Sustainability Manager for building complex Scope 3 calculations** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-complex-calculations/) |
 | **Get started with Text Analytics for health** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-text-analytics/) |
 | **Work with Text Analytics for health API** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-health-text-analytics/) |
 | **Migrate voice services from Skype for Business Server to Teams** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-voice-services-from-skype-for-business-server-to-teams/) |

@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 31 of 95
 date_range: 2026-01-10 to 2026-01-12
-total_entries: 53
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-31.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -26,8 +26,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Design a Modern Data Warehouse using Azure Synapse Analytics** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-modern-data-warehouse-using-azure-synapse-analytics/) |
 | **Get started with Dynamics 365 Commerce channels** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-commerce-channels/) |
 | **Get started with B2B e-commerce in Dynamics 365 Commerce** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-business-to-business-commerce/) |
-| **Get started with Delegates** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-delegates/) |
 | **Implement delegates and events** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/delegates-events-exceptions/) |
+| **Get started with Delegates** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-delegates/) |
 | **Introduction to Secure Network Infrastructure with Azure network security** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-networking-infrastructure/) |
 | **Introduction to Azure Firewall Manager** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-firewall-manager/) |
 | **Explore concepts of data analytics** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-concepts-of-data-analytics/) |
@@ -66,7 +66,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Create a personalized savings plan to work toward a financial goal** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-personalized-savings-plan/) |
 | **Understand Azure NetApp Files essentials** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-essentials/) |
 | **Understand how Azure NetApp Files provides volumes as a service** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-volumes-service/) |
-| **Education Transformation Framework** | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/education-transformation-framework/) |
 | **Student and school success - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/student-school-success-education-transformation-framework/) |
 
 ---

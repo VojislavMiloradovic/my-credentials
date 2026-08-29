@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Deploy and configure Azure Monitor** | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-azure-monitor/) |
 | **Monitor device profiles** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-device-profiles/) |
 | **Optimize performance with Spark and Delta Live Tables** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-performance-with-spark-and-delta-live-tables/) |
 | **Introduction to tools for declarative agents in Copilot Studio** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-studio-actions/) |
@@ -28,8 +27,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Enable organizational access** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-organizational-access/) |
 | **Protect identities in Microsoft Entra ID** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-identities-azure-active-directory/) |
 | **Plan and manage your Microsoft Power Platform environment** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-manage-environment/) |
-| **Common Linux server configurations** | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/common-linux-server-configurations/) |
 | **Introduction to open-source database migration on Azure** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-open-source-database-migration-azure/) |
+| **Common Linux server configurations** | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/common-linux-server-configurations/) |
 | **Process credit and collections in Dynamics 365 Finance** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-credit-collections-dyn365-finance/) |
 | **Work with accounting distributions, invoice validations, and settlements in Dynamics 365 Finance** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/accounting-distributions-invoice-validation-dyn365-finance/) |
 | **Introduction to integrating Dataverse with Dynamics 365 Business Central** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-dataverse-integrate/) |
@@ -65,6 +64,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Guided exercise - Manage on-premises Windows servers by using Azure Arc** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-exercise-manage-on-premises-azure-arc/) |
 | **Deploy and manage Azure Arc-enabled Servers** | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-azure-arc-enabled-servers/) |
 | **Perform a bank reconciliation in Dynamics 365 Business Central** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/bank-reconciliation-dynamics-365-business-central/) |
+| **Monitor and manage performance and health** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-manage-performance-health/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-50.md](./microsoft-learn-2026-02-part-50.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-52.md](./microsoft-learn-2026-03-part-52.md)

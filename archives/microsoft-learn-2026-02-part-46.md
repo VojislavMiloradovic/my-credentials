@@ -22,8 +22,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Secure Windows Server user accounts** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-windows-server-user-accounts/) |
 | **Implement and manage networking for Azure Virtual Desktop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-networking-azure-virtual-desktop/) |
 | **Work with analytics and reporting in finance and operations apps** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-analytics-reporting-finance-operations/) |
-| **Administer Dynamics 365 Business Central online** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/admin-online-dynamics-365-business-central/) |
 | **Deploy and configure Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-dynamics-365-business-central/) |
+| **Administer Dynamics 365 Business Central online** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/admin-online-dynamics-365-business-central/) |
 | **Extract insights using Azure Language and Azure Database for PostgreSQL** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-insights-using-azure-ai-language-azure-database-postgresq/) |
 | **Power Pages workspace setup - Online workshop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-workspace-setup-online-workshop/) |
 | **Work like a pro with data in Business Central** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-pro-data-dynamics-365-business-central/) |
@@ -46,8 +46,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Monitor and report on security events in Microsoft Entra ID** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-report-aad-security-events/) |
 | **Set up taxes in Dynamics 365 Finance** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-taxes-finance/) |
 | **Adopt FinOps on Azure** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/adopt-finops-on-azure/) |
-| **Use basic formulas to make better Power Apps canvas apps** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-basic-formulas-powerapps-canvas-app/) |
 | **Author a basic formula that uses tables and records in a Power Apps canvas app** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/author-basic-formula-tables-records-powerapps/) |
+| **Use basic formulas to make better Power Apps canvas apps** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-basic-formulas-powerapps-canvas-app/) |
 | **Tune queries in Azure Database for PostgreSQL** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/tune-queries-azure-database-for-postgresql/) |
 | **Work with taxes in Dynamics 365 Finance** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-taxes-finance/) |
 | **Enhance service representative productivity and personalization in Omnichannel for Customer Service** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-productivity-personalization-omnichannel/) |

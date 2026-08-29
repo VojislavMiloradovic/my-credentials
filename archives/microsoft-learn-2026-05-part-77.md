@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 77 of 95
 date_range: 2026-05-13 to 2026-05-17
-total_entries: 50
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-77.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Implement network security controls in Azure** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-network-security-controls-azure/) |
-| **Dragon Copilot - nurse leaders adoption and reinforcement** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/nurse-leaders-adoption/) |
-| **Dragon Copilot nurse leaders 101** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-for-nurse-leaders/) |
 | **Segment and isolate Azure workloads using network security controls** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/segment-isolate-workloads-network-security-controls/) |
 | **Secure remote and hybrid connectivity using VPN gateways and Microsoft Entra Private Access** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-hybrid-connectivity-azure/) |
 | **Protect backup data with Azure Backup security features** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-backup-data-azure-backup-security/) |
@@ -65,6 +62,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Develop secure IoT Solutions for Azure Sphere with IoT Hub** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-secure-iot-solutions-azure-sphere-iot-hub/) |
 | **Create an image recognition solution with Azure IoT Edge, Azure AI Custom Vision, and Azure Speech** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-image-recognition-solution-iot-edge-cognitive-services/) |
 | **Develop secure IoT solutions for Azure Sphere, Azure RTOS and Azure IoT Central** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-secure-iot-solutions-azure-sphere-iot-central/) |
+| **Design and deliver interactive lessons with Microsoft Learning Zone** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-deliver-interactive-lessons-microsoft-learning-zone/) |
+| **Understand the AI Literacy Framework, in partnership with ISTE+ASCD** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-ai-literacy-framework/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-76.md](./microsoft-learn-2026-05-part-76.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-78.md](./microsoft-learn-2026-05-part-78.md)

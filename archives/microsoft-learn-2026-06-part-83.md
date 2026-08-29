@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Train and evaluate deep learning models** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-evaluate-deep-learn-models/) |
 | **Plan Agile with GitHub Projects and Azure Boards** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/) |
 | **Collaborate with pull requests in Azure Repos** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/) |
 | **Deploy and manage identity infrastructure** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-identity-infrastructure/) |
@@ -66,6 +65,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Configure applications on Azure Kubernetes Service** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-apps-azure-kubernetes-service/) |
 | **Enhance endpoint security with Microsoft Intune and Microsoft Security Copilot** | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-endpoint-security-microsoft-intune-copilot/) |
 | **Prepare Microsoft Entra ID and Intune for device management** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-microsoft-entra-id-intune-device-management/) |
+| **Harden endpoints and monitor security with Microsoft Intune and Defender for Endpoint** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-endpoints-monitor-security-intune-defender-endpoint/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md)

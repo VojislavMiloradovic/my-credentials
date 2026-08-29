@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Perform fit gap analysis** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/fit-gap-analysis/) |
 | **Design a container build strategy** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/) |
 | **AZ-400: Implement CI with Azure Pipelines and GitHub Actions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-ci-azure-pipelines-github-actions/) |
 | **Desktop flows and Robotic Process Automation in Power Automate** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/desktop-flows-robotic-process-automation-power-automate/) |
@@ -49,8 +48,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Design a data storage solution for non-relational data** | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/) |
 | **Implement initial configuration of Microsoft Entra ID** | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-initial-configuration-of-azure-active-directory/) |
 | **Design authentication and authorization solutions** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/) |
-| **AZ-305: Design business continuity solutions** | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/) |
 | **Design a solution for backup and disaster recovery** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/) |
+| **AZ-305: Design business continuity solutions** | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/) |
 | **Use imperative development techniques for canvas apps in Power Apps** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-imperative-dev-techniques-powerapps-canvas-app/) |
 | **Design data integration** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-integration/) |
 | **Design network solutions** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-network-solutions/) |
@@ -68,6 +67,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Identify technical debt** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/) |
 | **Design and implement branch strategies and workflows** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/) |
 | **Create machine learning models** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-machine-learn-models/) |
+| **Train and evaluate deep learning models** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-evaluate-deep-learn-models/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-83.md](./microsoft-learn-2026-06-part-83.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-85.md](./microsoft-learn-2026-06-part-85.md)

@@ -15,13 +15,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,010,350
+- **Total Experience Points (XP):** 6,020,950
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,911
+- **Badges Earned (Profile):** 3,919
 - **Trophies Earned (Profile):** 906
 - **Completed Learning Paths (Active Tracker):** 515
-- **Completed Modules (Active Tracker):** 2,670
-- **Completed Individual Units:** 35,727
+- **Completed Modules (Active Tracker):** 2,678
+- **Completed Individual Units:** 35,801
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
@@ -32,20 +32,20 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,817 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-08-part-95.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-95.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,825 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-08-part-95.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-95.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Configure Microsoft Adaptive Accessories for accessible productivity** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-adaptive-accessories/) |
+| **Get started with Microsoft AI models** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-ai-models/) |
+| **Configure Azure Databricks Genie for Microsoft Teams and Microsoft Copilot** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-databricks-genie-teams-microsoft-copilot/) |
+| **Use Azure Databricks Genie in Microsoft Teams and Microsoft 365 Copilot** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-databricks-genie-teams-m365-copilot/) |
+| **Run sidecar-enabled AI applications on Azure App Service** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-sidecar-azure-app-service/) |
+| **Implement container application hosting on Azure** | Learningpaths | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-container-app-hosting-azure/) |
+| **Support inclusive work with Windows accessibility features on Surface devices** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/inclusive-software-surface/) |
+| **Create instruction-driven agents in Microsoft Copilot Studio** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-instruction-driven-agents-copilot-studio/) |
+| **Reduce workplace barriers with inclusive Surface hardware** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/inclusive-surface-hardware/) |
 | **Manage cases with Dynamics 365 Customer Service workspace** | Modules | 2026-08-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-cases-customer-service-workspace/) |
-| **Explore Microsoft Copilot Studio and agent harnesses** | Modules | 2026-08-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-copilot-studio-agent-harnesses/) |
-| **Route and distribute work with unified routing in Dynamics 365 Customer Service** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/route-distribute-work/) |
-| **Service representative collaboration in Dynamics 365 Customer Service** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-collaboration/) |
-| **Leveling up code reviews and pull requests with GitHub Copilot** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/) |
-| **Frontier Firms: Govern and manage AI experiences with Windows 11** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-ai/) |
-| **Frontier Firms: Bring AI into everyday work with Windows 11** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-workflows/) |
-| **Get started with Python programming: Part 2 - building programs** | Learningpaths | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-python-programs/) |
-| **Repeat actions with loops** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/repeat-actions-loops-python/) |
-| **Build and extend AI agents with Microsoft Foundry** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-extend-ai-agents/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Maintain tenant health and support readiness** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-tenant-health/) |
-| **Implement reporting and data visibility using Microsoft Intune** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-reporting-data-visibility/) |
-| **Deploy Windows devices using Windows Autopilot** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-windows-autopilot/) |
 | **Configure device profiles and policy management using Microsoft Intune** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-device-profiles-intune/) |
 | **Configure Microsoft Entra ID for device and policy management** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-entraid-device-management/) |
 | **Apply RBAC and admin delegation in Microsoft Intune** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-rbac-admin-delegation/) |
@@ -58,14 +55,17 @@ artifacts: archive_complete, archive_index, jsonld
 | **Configure AI-ready infrastructure with Microsoft Foundry** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ai-ready-infrastructure-microsoft-foundry/) |
 | **Leverage quality reporting tools in PowerScribe One** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-leverage-quality-reporting-tools/) |
 | **Configure chat and digital channels in Dynamics 365 Contact Center** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-chat-digital-channels-contact-center/) |
-| **Develop understanding with the Study and Learn Agent in the Microsoft 365 Copilot app** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-understanding-study-learn-agent-copilot-app/) |
 | **Manage and design with AI** | Learningpaths | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-design-ai/) |
+| **Develop understanding with the Study and Learn Agent in the Microsoft 365 Copilot app** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-understanding-study-learn-agent-copilot-app/) |
 | **Introduction to Microsoft Surface Laptop for Business, 13-inch (1st Edition)** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-surface-laptop-13-1st-edition/) |
 | **Introduction to Azure Functions in IoT solutions** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-functions-iot/) |
 | **Discover faster insights with Improved Windows Search** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/improved-windows-search/) |
 | **introduction-surface-laptop-8th-edition** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-surface-laptop-8th-edition/) |
 | **Introduction to Azure IoT Edge** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-iot-edge/) |
 | **Write advanced T-SQL code** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-advanced-sql-code/) |
+| **Automate AI evaluations with Microsoft Foundry and GitHub Actions** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/automated-evaluation-genaiops/) |
+| **Maximize the Cost Efficiency of AI Agents on Azure** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/maximize-cost-efficiency-ai-agents/) |
+| **Understand the key cost drivers of AI agents** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-agent-cost-structure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-78.md](./microsoft-learn-2026-05-part-78.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-80.md](./microsoft-learn-2026-05-part-80.md)
