@@ -20,5 +20,27 @@
   "google-skills": [],
   "aws-skills": [],
   "credly": [],
-  "google-developer": []
+  "google-developer": [
+    {
+      "id": "https://codelabs.developers.google.com/alloydb-omni-vm-deployment",
+      "match_type": "url",
+      "url": "https://codelabs.developers.google.com/alloydb-omni-vm-deployment",
+      "reason": "Codelab retired (404 Not Found)",
+      "retired_at": "2026-08-29"
+    },
+    {
+      "id": "https://codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata",
+      "match_type": "url",
+      "url": "https://codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata",
+      "reason": "Codelab retired (404 Not Found)",
+      "retired_at": "2026-08-29"
+    },
+    {
+      "id": "https://codelabs.developers.google.com/alloydb-omni-vm-ha-deployment",
+      "match_type": "url",
+      "url": "https://codelabs.developers.google.com/alloydb-omni-vm-ha-deployment",
+      "reason": "Codelab retired (404 Not Found)",
+      "retired_at": "2026-08-29"
+    }
+  ]
 }
