@@ -135,15 +135,17 @@ Showing latest 10 of 741 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 584
-**Total Verified Skills Mapped:** 2020
+**Total Portfolio Credentials:** 586
+**Total Verified Skills Mapped:** 2034
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 584 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 586 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-29 | [SASE Business Impact and Strategy](https://www.credly.com/badges/87458b9d-8699-412d-b198-10f5f7366da9/public_url) | Cato Networks | Credly Verified Badge |
+| 2026-08-29 | [Zero Trust Security Essentials](https://www.credly.com/badges/b666adab-35fe-4f0c-883d-9bb0939173a6/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [SASE Advanced Security](https://www.credly.com/badges/3a796ab4-659a-4141-a249-b6f94611201f/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [SASE Deployment and Management](https://www.credly.com/badges/906c5b04-f903-46cb-805c-9b3f0729718f/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [SSE Expert Certification](https://www.credly.com/badges/2d5a7b6b-db2d-4a99-814a-870cea7ec348/public_url) | Cato Networks | Credly Verified Badge |
@@ -152,8 +154,6 @@ Showing latest 10 of 584 credentials. View full dataset via [Platform Archive In
 | 2026-08-28 | [Cloud Tech Professional Microsoft 365](https://www.credly.com/badges/da472709-da7d-4ddd-9611-e119004c08f3/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-28 | [Cloud Tech Professional Security Awareness Training](https://www.credly.com/badges/a27ae8fb-f3f3-4cec-9c2c-b6ba415f4150/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-28 | [Getting Started with Data](https://www.credly.com/badges/0fa215bc-cc0b-46a6-a2cd-2963394e085d/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-08-28 | [Isovalent Lab Champion (40 labs)](https://www.credly.com/badges/ca469b74-715c-4426-915e-a0b50da4cdd7/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-28 | [Kubernetes Packet Capture with Isopcap](https://www.credly.com/badges/9d1ee8e2-bc9c-491e-aea3-9b28c417ddff/public_url) | Isovalent | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
