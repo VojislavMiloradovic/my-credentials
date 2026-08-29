@@ -71,6 +71,12 @@ except ImportError:
 # Retired credentials registry mapping
 RETIRED_URLS_FILE = "retired_urls.json"
 
+# Fallback retired URLs loader for markdown generation
+try:
+    from retired_urls_loader import _GOOGLE_DEV_RETIRED_URLS
+except ImportError:
+    _GOOGLE_DEV_RETIRED_URLS = set()
+
 
 def load_retired_rules(platform: str) -> list[dict[str, Any]]:
     """Load retired credential rules for a platform from the mapping file."""
@@ -912,10 +918,16 @@ def main():
 
     formatted_rows = []
     for badge in combined_feed:
-        clean_desc = badge["description"].replace("|", "\\|").replace("\n", " ")
-        clean_title = badge["title"].replace("|", "\\|")
-        if badge.get("retired", False):
-            clean_desc += " ⚠️ *Content retired*"
+        clean_desc = badge["description"].replace("|", "\|").replace("\n", " ")
+        clean_title = badge["title"].replace("|", "\|")
+        # Primary check: retired flag from mark_retired
+        # Fallback: check if URL is in retired_urls.json
+        is_retired = (
+            badge.get("retired", False)
+            or badge.get("url", "") in _GOOGLE_DEV_RETIRED_URLS
+        )
+        if is_retired:
+            clean_desc += " \U0001f6ab *Content retired*"
         row_text = f"| {badge['date']} | **{clean_title}** | {clean_desc} |"
         formatted_rows.append((row_text, badge["date"]))
 
