@@ -52,6 +52,7 @@ jobs:
 
       - name: Run Link Checker (JSON output to file, text progress to console)
         id: lychee
+        continue-on-error: true
         run: |
           # Default files to check (same as workflow)
           FILES=(
@@ -83,6 +84,7 @@ jobs:
 
           echo "Running lychee with ${#FILES[@]} files..."
           # IMPORTANT: Only capture stdout (JSON) to file; stderr (progress) goes to console
+          # Don't fail on non-zero exit codes - we want to process results regardless
           lychee "${ARGS[@]}" > lychee_results.json
           EXIT_CODE=$?
           echo "lychee exited with code $EXIT_CODE"
