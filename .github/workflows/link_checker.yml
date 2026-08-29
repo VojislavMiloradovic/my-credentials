@@ -72,7 +72,7 @@ jobs:
             done
           fi
 
-          # Build lychee arguments
+          # Build lychee arguments - suppress verbose output, only show errors/redirects/excludes
           ARGS=(
             "--format" "json"
             "--no-progress"
@@ -82,7 +82,10 @@ jobs:
           )
 
           echo "Running lychee with ${#FILES[@]} files..."
-          lychee "${ARGS[@]}" > lychee_results.json
+          # Don't fail on exit codes 1 (errors found) or 2 (failed) - we want to process results
+          lychee "${ARGS[@]}" > lychee_results.json 2>&1 || true
+          EXIT_CODE=$?
+          echo "lychee exited with code $EXIT_CODE"
           echo "lychee_results.json created ($(wc -c < lychee_results.json) bytes)"
 
       - name: Save JSON results (latest + previous)
