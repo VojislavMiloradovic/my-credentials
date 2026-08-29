@@ -918,8 +918,8 @@ def main():
 
     formatted_rows = []
     for badge in combined_feed:
-        clean_desc = badge["description"].replace("|", "\|").replace("\n", " ")
-        clean_title = badge["title"].replace("|", "\|")
+        clean_desc = badge["description"].replace("|", r"\|").replace("\n", " ")
+        clean_title = badge["title"].replace("|", r"\|")
         # Primary check: retired flag from mark_retired
         # Fallback: check if URL is in retired_urls.json
         is_retired = (
