@@ -50,7 +50,7 @@ jobs:
       - name: Build .lycheeignore
         run: uv run python build_exclude.py
 
-      - name: Run Link Checker (JSON output)
+      - name: Run Link Checker (JSON output to file, text progress to console)
         id: lychee
         run: |
           # Default files to check (same as workflow)
@@ -72,7 +72,7 @@ jobs:
             done
           fi
 
-          # Build lychee arguments - suppress verbose output, only show errors/redirects/excludes
+          # Build lychee arguments - JSON to stdout (captured), text progress to stderr (console)
           ARGS=(
             "--format" "json"
             "--no-progress"
@@ -82,8 +82,8 @@ jobs:
           )
 
           echo "Running lychee with ${#FILES[@]} files..."
-          # Don't fail on exit codes 1 (errors found) or 2 (failed) - we want to process results
-          lychee "${ARGS[@]}" > lychee_results.json 2>&1 || true
+          # IMPORTANT: Only capture stdout (JSON) to file; stderr (progress) goes to console
+          lychee "${ARGS[@]}" > lychee_results.json
           EXIT_CODE=$?
           echo "lychee exited with code $EXIT_CODE"
           echo "lychee_results.json created ($(wc -c < lychee_results.json) bytes)"
