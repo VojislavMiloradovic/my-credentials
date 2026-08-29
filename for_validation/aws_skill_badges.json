@@ -1,6 +1,6 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 711,
+  "total_count": 732,
   "badges": [
     {
       "id": "4d3535a6971307d9",
@@ -725,6 +725,25 @@
       "retired": false
     },
     {
+      "id": "f0714d7dc9639db0",
+      "title": "Accelerating AWS Network Firewall troubleshooting with AWS DevOps Agent",
+      "name": "Accelerating AWS Network Firewall troubleshooting with AWS DevOps Agent",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Accelerating AWS Network Firewall troubleshooting with AWS DevOps Agent"
+      ],
+      "retired": false
+    },
+    {
       "id": "645cb3dfdee42110",
       "title": "Accelerating generative AI development with fully managed MLflow 3.0 on Amazon SageMaker AI",
       "name": "Accelerating generative AI development with fully managed MLflow 3.0 on Amazon SageMaker AI",
@@ -778,6 +797,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Advanced CloudFormation: Macros"
+      ],
+      "retired": false
+    },
+    {
+      "id": "fb16cc8ee6896c19",
+      "title": "Advanced features of Amazon Aurora PostgreSQL (Part 1)",
+      "name": "Advanced features of Amazon Aurora PostgreSQL (Part 1)",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Advanced features of Amazon Aurora PostgreSQL (Part 1)"
       ],
       "retired": false
     },
@@ -3252,6 +3290,25 @@
       "retired": false
     },
     {
+      "id": "a26d135fae8c83cc",
+      "title": "Amazon Relational Database Service (Amazon RDS) for PostgreSQL - Troubleshooting",
+      "name": "Amazon Relational Database Service (Amazon RDS) for PostgreSQL - Troubleshooting",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Relational Database Service (Amazon RDS) for PostgreSQL - Troubleshooting"
+      ],
+      "retired": false
+    },
+    {
       "id": "c1cdcf82c8b6fa3f",
       "title": "Amazon Route 53 - Basics",
       "name": "Amazon Route 53 - Basics",
@@ -3803,6 +3860,25 @@
       "retired": false
     },
     {
+      "id": "aeef6e9a8a324f00",
+      "title": "Automate CI/CD troubleshooting with AWS DevOps Agent and GitHub",
+      "name": "Automate CI/CD troubleshooting with AWS DevOps Agent and GitHub",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Automate CI/CD troubleshooting with AWS DevOps Agent and GitHub"
+      ],
+      "retired": false
+    },
+    {
       "id": "4541523e959bf7b3",
       "title": "Automated Security Response in AWS: Disabling Compromised Active Directory Users",
       "name": "Automated Security Response in AWS: Disabling Compromised Active Directory Users",
@@ -3875,6 +3951,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Automation with Amazon Nova Act"
+      ],
+      "retired": false
+    },
+    {
+      "id": "6faf08fbf5039ae4",
+      "title": "Autonomous Root Cause Analysis for AWS Systems Manager Patch Failures Using AWS DevOps Agent",
+      "name": "Autonomous Root Cause Analysis for AWS Systems Manager Patch Failures Using AWS DevOps Agent",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Autonomous Root Cause Analysis for AWS Systems Manager Patch Failures Using AWS DevOps Agent"
       ],
       "retired": false
     },
@@ -5380,6 +5475,25 @@
       "retired": false
     },
     {
+      "id": "c3f474a420187aa0",
+      "title": "AWS IPv6 Design and Build Global IPv6 Networks on AWS",
+      "name": "AWS IPv6 Design and Build Global IPv6 Networks on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS IPv6 Design and Build Global IPv6 Networks on AWS"
+      ],
+      "retired": false
+    },
+    {
       "id": "70ddd8d211da6c87",
       "title": "AWS IPv6 Fundamentals and VPC Connectivity",
       "name": "AWS IPv6 Fundamentals and VPC Connectivity",
@@ -6767,6 +6881,25 @@
       "retired": false
     },
     {
+      "id": "fd636a13362e4acb",
+      "title": "Balancing speed and safety: A control framework for AI coding agents",
+      "name": "Balancing speed and safety: A control framework for AI coding agents",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Balancing speed and safety: A control framework for AI coding agents"
+      ],
+      "retired": false
+    },
+    {
       "id": "1c50acef7fa03075",
       "title": "Batch Processing at Scale With Amazon Bedrock",
       "name": "Batch Processing at Scale With Amazon Bedrock",
@@ -6824,6 +6957,25 @@
       "retired": false
     },
     {
+      "id": "ca0dee354cc80747",
+      "title": "Build  an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore",
+      "name": "Build  an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build  an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore"
+      ],
+      "retired": false
+    },
+    {
       "id": "63bed9a48d4467d2",
       "title": "Build a meeting prep and follow-up assistant with Amazon Quick and Cisco Webex MCP servers",
       "name": "Build a meeting prep and follow-up assistant with Amazon Quick and Cisco Webex MCP servers",
@@ -6839,6 +6991,44 @@
       "verification_type": "Digital course",
       "skills": [
         "Build a meeting prep and follow-up assistant with Amazon Quick and Cisco Webex MCP servers"
+      ],
+      "retired": false
+    },
+    {
+      "id": "e32a11f56127f152",
+      "title": "Build an agentic AI healthcare claims pipeline with Amazon Bedrock and AWS HealthLake",
+      "name": "Build an agentic AI healthcare claims pipeline with Amazon Bedrock and AWS HealthLake",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build an agentic AI healthcare claims pipeline with Amazon Bedrock and AWS HealthLake"
+      ],
+      "retired": false
+    },
+    {
+      "id": "5170ff55d8e0a6b1",
+      "title": "Build an agentic incident triage assistant with Amazon Quick and New Relic",
+      "name": "Build an agentic incident triage assistant with Amazon Quick and New Relic",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build an agentic incident triage assistant with Amazon Quick and New Relic"
       ],
       "retired": false
     },
@@ -6972,6 +7162,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Build and Train AI Models Responsibly Using Amazon SageMaker AI"
+      ],
+      "retired": false
+    },
+    {
+      "id": "3fff5d46edeb6530",
+      "title": "Build custom code-based evaluators in Amazon Bedrock AgentCore",
+      "name": "Build custom code-based evaluators in Amazon Bedrock AgentCore",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Build custom code-based evaluators in Amazon Bedrock AgentCore"
       ],
       "retired": false
     },
@@ -7238,6 +7447,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Building a Generative AI-Ready Organization"
+      ],
+      "retired": false
+    },
+    {
+      "id": "676f22238b4570dc",
+      "title": "Building a Real-Time Voice Agent with Strands SDK, Amazon Nova Sonic and Amazon Bedrock Agentcore",
+      "name": "Building a Real-Time Voice Agent with Strands SDK, Amazon Nova Sonic and Amazon Bedrock Agentcore",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Building a Real-Time Voice Agent with Strands SDK, Amazon Nova Sonic and Amazon Bedrock Agentcore"
       ],
       "retired": false
     },
@@ -8112,6 +8340,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Data Protection and Disaster Recovery Knowledge Badge Assessment"
+      ],
+      "retired": false
+    },
+    {
+      "id": "a8686258179f866c",
+      "title": "Debugging production agents with Amazon Bedrock AgentCore Observability",
+      "name": "Debugging production agents with Amazon Bedrock AgentCore Observability",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Debugging production agents with Amazon Bedrock AgentCore Observability"
       ],
       "retired": false
     },
@@ -9005,6 +9252,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Foundations of Prompt Engineering"
+      ],
+      "retired": false
+    },
+    {
+      "id": "0ffeb84dba6510b4",
+      "title": "From Fragile to Resilient: Hardening a Bedrock Client for Production",
+      "name": "From Fragile to Resilient: Hardening a Bedrock Client for Production",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "From Fragile to Resilient: Hardening a Bedrock Client for Production"
       ],
       "retired": false
     },
@@ -9921,6 +10187,25 @@
       "retired": false
     },
     {
+      "id": "2f0c44c176557524",
+      "title": "Human-in-the-loop constructs for agentic workflows in healthcare and life sciences",
+      "name": "Human-in-the-loop constructs for agentic workflows in healthcare and life sciences",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Human-in-the-loop constructs for agentic workflows in healthcare and life sciences"
+      ],
+      "retired": false
+    },
+    {
       "id": "e3a1066b1e674937",
       "title": "IBM z/OS Essentials (Technical)",
       "name": "IBM z/OS Essentials (Technical)",
@@ -10088,6 +10373,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Integrating Amazon S3 Tables with Amazon SageMaker Lakehouse"
+      ],
+      "retired": false
+    },
+    {
+      "id": "5f41b27b4aa0caf8",
+      "title": "Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime",
+      "name": "Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime"
       ],
       "retired": false
     },
@@ -12296,6 +12600,25 @@
       "retired": false
     },
     {
+      "id": "7485ee43683bb4b2",
+      "title": "Optimize blueprint extraction accuracy in Amazon Bedrock Data Automation",
+      "name": "Optimize blueprint extraction accuracy in Amazon Bedrock Data Automation",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Optimize blueprint extraction accuracy in Amazon Bedrock Data Automation"
+      ],
+      "retired": false
+    },
+    {
       "id": "010deec4dca694f7",
       "title": "Optimizing Costs for Microsoft Workloads on AWS",
       "name": "Optimizing Costs for Microsoft Workloads on AWS",
@@ -12349,6 +12672,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Pair Nova 2 Lite with Claude for cost-optimized document processing"
+      ],
+      "retired": false
+    },
+    {
+      "id": "de9d0bdf1a1ad41d",
+      "title": "Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI",
+      "name": "Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI"
       ],
       "retired": false
     },
@@ -12714,6 +13056,25 @@
       "retired": false
     },
     {
+      "id": "36c6edc874c52e0b",
+      "title": "Retrieval, Citations, and Why RAG Quietly Fails",
+      "name": "Retrieval, Citations, and Why RAG Quietly Fails",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Retrieval, Citations, and Why RAG Quietly Fails"
+      ],
+      "retired": false
+    },
+    {
       "id": "0676f58148bc365e",
       "title": "SaaS Business Fundamentals",
       "name": "SaaS Business Fundamentals",
@@ -13037,6 +13398,25 @@
       "retired": false
     },
     {
+      "id": "b14e0b5b62efa649",
+      "title": "Shift-Left Tag Compliance using AWS Organizations and Terraform",
+      "name": "Shift-Left Tag Compliance using AWS Organizations and Terraform",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Shift-Left Tag Compliance using AWS Organizations and Terraform"
+      ],
+      "retired": false
+    },
+    {
       "id": "3bf27ffc6cb66ffe",
       "title": "Simplify AWS Control Tower governance with enhanced AWS CloudFormation Hooks",
       "name": "Simplify AWS Control Tower governance with enhanced AWS CloudFormation Hooks",
@@ -13261,6 +13641,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Threat Modeling for Builders Workshop"
+      ],
+      "retired": false
+    },
+    {
+      "id": "ce9a6c25ed3f5f0f",
+      "title": "Transform AWS Support Case Workflows with Kiro CLI",
+      "name": "Transform AWS Support Case Workflows with Kiro CLI",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Transform AWS Support Case Workflows with Kiro CLI"
       ],
       "retired": false
     },

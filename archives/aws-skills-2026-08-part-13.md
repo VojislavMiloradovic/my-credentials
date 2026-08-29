@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 13 of 13
-date_range: 2026-08-24 to 2026-08-25
-total_entries: 45
+chunk_part: 13 of 14
+date_range: 2026-08-24 to 2026-08-29
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-13.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,16 @@ artifacts: archive_complete, archive_index, jsonld
 
 # AWS Skill Builder Credentials — Part 13
 
-> **Navigation:** Prev: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md) | [Index](./aws-skills-index.md) | Next: None | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-14.md](./aws-skills-2026-08-part-14.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-29 | [Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-29 | [Optimize blueprint extraction accuracy in Amazon Bedrock Data Automation](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-29 | [Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-29 | [Retrieval, Citations, and Why RAG Quietly Fails](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-29 | [Shift-Left Tag Compliance using AWS Organizations and Terraform](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-29 | [Transform AWS Support Case Workflows with Kiro CLI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Advanced CloudFormation: Macros](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Advanced features of Amazon Aurora PostgreSQL (Part 2)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Amazon Elastic Kubernetes Service (Amazon EKS) - Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -62,5 +68,5 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08-24 | [Implementing SaaS Tenant Isolation with ABAC and AWS IAM](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md) | [Index](./aws-skills-index.md) | Next: None
+> **Navigation:** Prev: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-14.md](./aws-skills-2026-08-part-14.md)
 
