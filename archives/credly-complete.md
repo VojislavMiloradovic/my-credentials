@@ -1,6 +1,6 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 584 records.
+This document represents a unified, verifiable list of all 586 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
@@ -10,6 +10,8 @@ This document represents a unified, verifiable list of all 584 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-29 | [SASE Business Impact and Strategy](https://www.credly.com/badges/87458b9d-8699-412d-b198-10f5f7366da9/public_url) | Cato Networks | Credly Verified Badge |
+| 2026-08-29 | [Zero Trust Security Essentials](https://www.credly.com/badges/b666adab-35fe-4f0c-883d-9bb0939173a6/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [SASE Advanced Security](https://www.credly.com/badges/3a796ab4-659a-4141-a249-b6f94611201f/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [SASE Deployment and Management](https://www.credly.com/badges/906c5b04-f903-46cb-805c-9b3f0729718f/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [SSE Expert Certification](https://www.credly.com/badges/2d5a7b6b-db2d-4a99-814a-870cea7ec348/public_url) | Cato Networks | Credly Verified Badge |
