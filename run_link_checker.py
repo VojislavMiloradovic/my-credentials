@@ -1,7 +1,7 @@
 """
 Custom link checker wrapper for GitHub Actions.
 Runs lychee with JSON output and generates a detailed summary
-with status table and redirect chains for easy debugging.
+with status table, redirect chains, and error details.
 """
 
 import json
@@ -34,96 +34,209 @@ def run_lychee_json(args: list[str]) -> dict[str, Any]:
         return {"error": "JSON parse error"}
 
 
+def categorize_results(data: dict[str, Any]) -> dict[str, list]:
+    """Categorize lychee results into different categories."""
+    results = data.get("results", [])
+
+    categories = {
+        "successful": [],
+        "redirected": [],
+        "excluded": [],
+        "errors": [],
+        "timeouts": [],
+        "unknown": [],
+        "unsupported": [],
+    }
+
+    for item in results:
+        url = item.get("url", "")
+        status = item.get("status", 0)
+        status_text = item.get("status_text", "")
+        is_redirect = item.get("is_redirect", False)
+        redirect_url = item.get("redirect_url")
+        is_excluded = item.get("is_excluded", False)
+        exclude_pattern = item.get("exclude_pattern")
+        error = item.get("error")
+        file = item.get("file", "unknown")
+        line = item.get("line", 0)
+
+        entry = {
+            "url": url,
+            "status": status,
+            "status_text": status_text,
+            "redirect_url": redirect_url,
+            "error": error,
+            "file": file,
+            "line": line,
+            "exclude_pattern": exclude_pattern,
+        }
+
+        if is_excluded:
+            categories["excluded"].append(entry)
+        elif is_redirect:
+            categories["redirected"].append(entry)
+        elif error:
+            categories["errors"].append(entry)
+        elif status == 0 or status_text.lower() == "timeout":
+            categories["timeouts"].append(entry)
+        elif status >= 400:
+            categories["errors"].append(entry)
+        elif status >= 300:
+            categories["redirected"].append(entry)
+        elif status == 200 or status_text.lower() == "ok":
+            categories["successful"].append(entry)
+        else:
+            categories["unknown"].append(entry)
+
+    return categories
+
+
 def generate_summary(data: dict[str, Any]) -> str:
     """Generate a detailed markdown summary from lychee JSON output."""
     if "error" in data:
         return f"## ❌ Link Checker Error\n\n```\n{data['error']}\n```"
 
+    # Categorize all results
+    categories = categorize_results(data)
+
+    total = len(data.get("results", []))
+    unique = data.get("unique", total)
+
+    # Count categories
+    successful_count = len(categories["successful"])
+    redirected_count = len(categories["redirected"])
+    excluded_count = len(categories["excluded"])
+    errors_count = len(categories["errors"])
+    timeouts_count = len(categories["timeouts"])
+    unknown_count = len(categories["unknown"])
+    unsupported_count = len(categories["unsupported"])
+
     summary_parts = ["## Link Checker Summary\n"]
 
-    # Status table (matching the requested format)
-    total = data.get("total", 0)
-    ok = data.get("ok", 0)
-    errors = data.get("errors", 0)
-    excluded = data.get("excluded", 0)
-    timeouts = data.get("timeouts", 0)
-    redirected = data.get("redirected", 0)
-    unknown = data.get("unknown", 0)
-    unsupported = data.get("unsupported", 0)
-
+    # Status table
     summary_parts.append("| Status | Count |\n")
     summary_parts.append("| --- | --- |\n")
     summary_parts.append(f"| 🔍 Total | {total} |\n")
-    summary_parts.append(f"| 🔗 Unique | {data.get('unique', 0)} |\n")
-    summary_parts.append(f"| ✅ Successful | {ok} |\n")
-    summary_parts.append(f"| ⏳ Timeouts | {timeouts} |\n")
-    summary_parts.append(f"| 🔀 Redirected | {redirected} |\n")
-    summary_parts.append(f"| 👻 Excluded | {excluded} |\n")
-    summary_parts.append(f"| ❓ Unknown | {unknown} |\n")
-    summary_parts.append(f"| 🚫 Errors | {errors} |\n")
-    summary_parts.append(f"| ⛔ Unsupported | {unsupported} |\n")
+    summary_parts.append(f"| 🔗 Unique | {unique} |\n")
+    summary_parts.append(f"| ✅ Successful | {successful_count} |\n")
+    summary_parts.append(f"| ⏳ Timeouts | {timeouts_count} |\n")
+    summary_parts.append(f"| 🔀 Redirected | {redirected_count} |\n")
+    summary_parts.append(f"| 👻 Excluded | {excluded_count} |\n")
+    summary_parts.append(f"| ❓ Unknown | {unknown_count} |\n")
+    summary_parts.append(f"| 🚫 Errors | {errors_count} |\n")
+    summary_parts.append(f"| ⛔ Unsupported | {unsupported_count} |\n")
     summary_parts.append("\n")
 
-    # Redirects per input - detailed redirect chains
-    redirected_links = data.get("redirected_links", [])
-    if redirected_links:
-        summary_parts.append("## Redirects per input\n")
-        summary_parts.append("| Input URL | Redirect Chain |\n")
-        summary_parts.append("| --- | --- |\n")
+    # REDIRECTS - show full redirect chains with source files
+    if categories["redirected"]:
+        summary_parts.append(f"## 🔀 Redirected Links ({redirected_count})\n")
+        summary_parts.append(
+            "*These links returned 3xx redirects. Check if they redirect to auth pages or valid destinations.*\n\n"
+        )
+        summary_parts.append(
+            "| Source File | Line | Input URL | Redirect Target | Status |\n"
+        )
+        summary_parts.append("| --- | --- | --- | --- | --- |\n")
 
-        # Group by input URL to show full chain
-        redirect_chains = {}
-        for link in redirected_links:
-            url = link.get("url", "N/A")
-            redirect_url = link.get("redirect_url", "")
-            status = link.get("status", "")
-
-            if url not in redirect_chains:
-                redirect_chains[url] = []
-            if redirect_url:
-                redirect_chains[url].append(f"[{status}] {redirect_url}")
-
-        for input_url, chain in sorted(redirect_chains.items()):
-            # Escape pipes for markdown table
-            escaped_url = input_url.replace("|", "\\|")
-            chain_str = " → ".join(chain).replace("|", "\\|")
-            summary_parts.append(f"| {escaped_url} | {chain_str} |\n")
-        summary_parts.append("\n")
-
-    # Failed links details
-    failed_links = data.get("failed", [])
-    if failed_links:
-        summary_parts.append(f"## Failed Links ({len(failed_links)})\n")
-        summary_parts.append("| URL | Status | Error |\n")
-        summary_parts.append("| --- | --- | --- |\n")
-
-        # Limit to first 100 failed links to keep summary manageable
-        for link in failed_links[:100]:
-            url = link.get("url", "N/A")
-            status = str(link.get("status", "N/A"))
-            error = link.get("error", "Unknown error")[:300]
-            url = url.replace("|", "\\|")
-            error = error.replace("|", "\\|")
-            summary_parts.append(f"| {url} | {status} | {error} |\n")
-
-        if len(failed_links) > 100:
+        for item in categories["redirected"]:
+            file = item["file"].replace("|", "\\|")
+            line = str(item["line"])
+            url = item["url"].replace("|", "\\|")
+            redirect = (item["redirect_url"] or "N/A").replace("|", "\\|")
+            status = str(item["status"])
             summary_parts.append(
-                f"\n*... and {len(failed_links) - 100} more failed links*\n"
+                f"| {file} | {line} | {url} | {redirect} | {status} |\n"
             )
         summary_parts.append("\n")
 
-    # Excluded links summary
-    excluded_links = data.get("excluded", [])
-    if excluded_links:
-        patterns = {}
-        for link in excluded_links:
-            pattern = link.get("pattern", "unknown")
-            patterns[pattern] = patterns.get(pattern, 0) + 1
+    # ERRORS - show all errors with details and source files
+    if categories["errors"]:
+        summary_parts.append(f"## 🚫 Errors ({errors_count})\n")
+        summary_parts.append(
+            "*These links failed completely. Check if they are retired, broken, or need authentication.*\n\n"
+        )
+        summary_parts.append("| Source File | Line | URL | Status | Error |\n")
+        summary_parts.append("| --- | --- | --- | --- | --- |\n")
 
-        summary_parts.append(f"## Excluded Patterns ({len(excluded_links)} links)\n")
-        for pattern, count in sorted(patterns.items(), key=lambda x: -x[1]):
-            summary_parts.append(f"- `{pattern}`: {count} links\n")
+        for item in categories["errors"]:
+            file = item["file"].replace("|", "\\|")
+            line = str(item["line"])
+            url = item["url"].replace("|", "\\|")
+            status = str(item["status"])
+            error = (item["error"] or "Unknown error").replace("|", "\\|")[:300]
+            summary_parts.append(f"| {file} | {line} | {url} | {status} | {error} |\n")
         summary_parts.append("\n")
+
+    # TIMEOUTS
+    if categories["timeouts"]:
+        summary_parts.append(f"## ⏳ Timeouts ({timeouts_count})\n")
+        summary_parts.append("| Source File | Line | URL | Status |\n")
+        summary_parts.append("| --- | --- | --- | --- |\n")
+
+        for item in categories["timeouts"]:
+            file = item["file"].replace("|", "\\|")
+            line = str(item["line"])
+            url = item["url"].replace("|", "\\|")
+            status = str(item["status"])
+            summary_parts.append(f"| {file} | {line} | {url} | {status} |\n")
+        summary_parts.append("\n")
+
+    # EXCLUDED - show by pattern with source files
+    if categories["excluded"]:
+        summary_parts.append(f"## 👻 Excluded Links ({excluded_count})\n")
+        # Group by pattern
+        patterns = {}
+        for item in categories["excluded"]:
+            pattern = item["exclude_pattern"] or "unknown"
+            if pattern not in patterns:
+                patterns[pattern] = []
+            patterns[pattern].append(item)
+
+        for pattern, items in sorted(patterns.items(), key=lambda x: -len(x[1])):
+            summary_parts.append(f"### Pattern: `{pattern}` ({len(items)} links)\n")
+            summary_parts.append("| Source File | Line | URL |\n")
+            summary_parts.append("| --- | --- | --- |\n")
+            for item in items:
+                file = item["file"].replace("|", "\\|")
+                line = str(item["line"])
+                url = item["url"].replace("|", "\\|")
+                summary_parts.append(f"| {file} | {line} | {url} |\n")
+            summary_parts.append("\n")
+
+    # UNKNOWN
+    if categories["unknown"]:
+        summary_parts.append(f"## ❓ Unknown ({unknown_count})\n")
+        summary_parts.append("| Source File | Line | URL | Status | Status Text |\n")
+        summary_parts.append("| --- | --- | --- | --- | --- |\n")
+        for item in categories["unknown"]:
+            file = item["file"].replace("|", "\\|")
+            line = str(item["line"])
+            url = item["url"].replace("|", "\\|")
+            status = str(item["status"])
+            status_text = item["status_text"].replace("|", "\\|")
+            summary_parts.append(
+                f"| {file} | {line} | {url} | {status} | {status_text} |\n"
+            )
+        summary_parts.append("\n")
+
+    # UNSUPPORTED
+    if categories["unsupported"]:
+        summary_parts.append(f"## ⛔ Unsupported ({unsupported_count})\n")
+        summary_parts.append("| Source File | Line | URL |\n")
+        summary_parts.append("| --- | --- | --- |\n")
+        for item in categories["unsupported"]:
+            file = item["file"].replace("|", "\\|")
+            line = str(item["line"])
+            url = item["url"].replace("|", "\\|")
+            summary_parts.append(f"| {file} | {line} | {url} |\n")
+        summary_parts.append("\n")
+
+    # SUCCESSFUL - just count, don't list (too many)
+    if categories["successful"]:
+        summary_parts.append(f"## ✅ Successful ({successful_count})\n")
+        summary_parts.append(
+            f"*{successful_count} links passed successfully. Not listed for brevity.*\n\n"
+        )
 
     return "".join(summary_parts)
 
@@ -134,6 +247,7 @@ def truncate_summary(summary: str, max_bytes: int = 1000000) -> str:
     if len(summary_bytes) <= max_bytes:
         return summary
 
+    # Truncate and add notice
     truncated = summary_bytes[: max_bytes - 500].decode("utf-8", errors="ignore")
     return (
         truncated
@@ -196,8 +310,8 @@ def main():
         print(summary)
 
     # Exit with error code if there were failures (but not excluded)
-    failed = data.get("failed", [])
-    if failed and isinstance(data, dict) and "error" not in data:
+    categories = categorize_results(data)
+    if categories["errors"] or categories["timeouts"]:
         sys.exit(1)
 
 
