@@ -2,1039 +2,1039 @@
   "platform": "google-developer",
   "stream_id": "public_badges",
   "record_count": 172,
-  "created_at": "2026-08-29T21:46:40.419473+00:00",
+  "created_at": "2026-08-29T22:39:04.889944+00:00",
   "fingerprints": {
     "Android Basics Compose Unit 8 Pathway 2": {
       "record_id": "Android Basics Compose Unit 8 Pathway 2",
       "content_hash": "7a3ee4bb072431114c4fb889d73c7403",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Engage Users With Firebase": {
       "record_id": "Engage Users With Firebase",
       "content_hash": "b2de431c99711fa73f82765078cc5e16",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "GDG Belgrade": {
       "record_id": "GDG Belgrade",
       "content_hash": "f522b021ea4f21709431f9e6c1b35197",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 2 Pathway 1": {
       "record_id": "Android Basics Compose Unit 2 Pathway 1",
       "content_hash": "eafd01302889d0cd374d3ef61a880942",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin 8": {
       "record_id": "Android Development With Kotlin 8",
       "content_hash": "215408f4092589edc05a28c2bac115e6",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 4 Pathway 2": {
       "record_id": "Android Basics Compose Unit 4 Pathway 2",
       "content_hash": "851ac4810a63a6bf15b87fc0632eddc0",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Gear": {
       "record_id": "Gear",
       "content_hash": "e6d86c51444c746601cd4606375fb9c3",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Firebase Android Jetpack": {
       "record_id": "Firebase Android Jetpack",
       "content_hash": "89b1a9f8fc5052949d1d8dbec1107688",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Jetpack Compose For Android Developers 1": {
       "record_id": "Jetpack Compose For Android Developers 1",
       "content_hash": "68cdd801ce3806f0ac8f0ba41495e8d3",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 5 Pathway 1": {
       "record_id": "Android Basics Compose Unit 5 Pathway 1",
       "content_hash": "6fff1c6e049d937b000ec20233ca553d",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Accelerated Machine Learning With Google Cloud And Nvidia": {
       "record_id": "Accelerated Machine Learning With Google Cloud And Nvidia",
       "content_hash": "3531520d5056bb5c18c01c1ed6587f5d",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Learn Html": {
       "record_id": "Learn Html",
       "content_hash": "5b6f0747bc10988416a9314b1d05a120",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Get Started Object Detection": {
       "record_id": "Get Started Object Detection",
       "content_hash": "dd616a13990d6ee1763e4596f05def24",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Jetpack Compose For Android Developers 3": {
       "record_id": "Jetpack Compose For Android Developers 3",
       "content_hash": "76bca3ee0d7f1d008e7c75ec41ce0549",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Speed Up Data Analytics Gpus": {
       "record_id": "Speed Up Data Analytics Gpus",
       "content_hash": "fcd73e38472d2f5ca02abe5945698806",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Firebase Continuous Integration": {
       "record_id": "Firebase Continuous Integration",
       "content_hash": "7a98ce12feb2910cac90d657f337354e",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin 13": {
       "record_id": "Android Development With Kotlin 13",
       "content_hash": "db955085c9c1b7efa2a61d96f3784217",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Data Cards Playbook": {
       "record_id": "Data Cards Playbook",
       "content_hash": "d09b7aa8188e020ad192c834ed83b691",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin 10": {
       "record_id": "Android Development With Kotlin 10",
       "content_hash": "da5389a54a36b9c60b614060bdaba200",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "First Playlist": {
       "record_id": "First Playlist",
       "content_hash": "b67318e1f69424141b8ecec874adde28",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Buildings And Rooftops": {
       "record_id": "Buildings And Rooftops",
       "content_hash": "5e1076033ed9a16324dfcaa9ae24a496",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Implement Material Design With Material Components": {
       "record_id": "Implement Material Design With Material Components",
       "content_hash": "1ac186f0c2f27499bb04e5812fc6e83c",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Firebase Flutter Advanced": {
       "record_id": "Firebase Flutter Advanced",
       "content_hash": "ae000e4e6b7682d2ec870612e2bae199",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Tensorflow": {
       "record_id": "Tensorflow",
       "content_hash": "25ca56186c9f565051cab35984987710",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android 11 Week 8": {
       "record_id": "Android 11 Week 8",
       "content_hash": "6fa206ccf2e3ba6700c6dbe964b9d280",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android 11 Week 9 2": {
       "record_id": "Android 11 Week 9 2",
       "content_hash": "2f5c9c8a2e77c99ce65f26f88904fee9",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin 12": {
       "record_id": "Android Development With Kotlin 12",
       "content_hash": "f38dfcf72d85f9fa906530402aeabfe1",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Firebase Angular Realtime": {
       "record_id": "Firebase Angular Realtime",
       "content_hash": "1047a7458e9dcf2e8317e53348f0a66f",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Games Ai 101": {
       "record_id": "Games Ai 101",
       "content_hash": "b893fbf062334a4a1ef263b691253f37",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Learn Responsive Design": {
       "record_id": "Learn Responsive Design",
       "content_hash": "39ed5c91d0ce0097cec2238cdada7a10",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Learn Pwa": {
       "record_id": "Learn Pwa",
       "content_hash": "48e28b064ec280ccfce80f2b807b0772",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Getting Started With Gmp": {
       "record_id": "Getting Started With Gmp",
       "content_hash": "3b3bcea65d3fd41fa6a1f695c5b66eca",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Firebase Performance Monitoring": {
       "record_id": "Firebase Performance Monitoring",
       "content_hash": "314a21060b44a5d64e6d1fe5597221f1",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Image Classification Web": {
       "record_id": "Image Classification Web",
       "content_hash": "2c2fa88cab0e60450ac65d6368c39eb6",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Learn Accessibility": {
       "record_id": "Learn Accessibility",
       "content_hash": "f9e1153580936a9ff20ff063f9317058",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Web Vitals": {
       "record_id": "Web Vitals",
       "content_hash": "6c0e754ee2ce4274bf754c5bf818fd5b",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Going Further Image Product Search": {
       "record_id": "Going Further Image Product Search",
       "content_hash": "799932115b7a8eb45d0a096fcccd17d6",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Business Messages Location": {
       "record_id": "Business Messages Location",
       "content_hash": "81c945dff5ab133fc782cd5213146b91",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 6 Pathway 1": {
       "record_id": "Android Basics Compose Unit 6 Pathway 1",
       "content_hash": "604f2aef7892a3ededcbd852de16d5f6",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android 11 Week 4": {
       "record_id": "Android 11 Week 4",
       "content_hash": "c3e7ea3da3166d9acd8c6bf77cba4995",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Ecommerce Serverless Django": {
       "record_id": "Ecommerce Serverless Django",
       "content_hash": "c9d3b5af7560a0469dd47010cf7ec28f",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 1 Pathway 1": {
       "record_id": "Android Basics Compose Unit 1 Pathway 1",
       "content_hash": "e4004a6d7c835c0529f585e3cdc43af1",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Fast Stable Apps With Firebase": {
       "record_id": "Fast Stable Apps With Firebase",
       "content_hash": "e888de9ccc5742b815c246248c26225d",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Learn Forms": {
       "record_id": "Learn Forms",
       "content_hash": "2be534057ab0f1d03bd7d427a5730acd",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Passkeys": {
       "record_id": "Passkeys",
       "content_hash": "6899c03b298c5db0032d312206051691",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android 11 Week 9 1": {
       "record_id": "Android 11 Week 9 1",
       "content_hash": "73a25ec1d0082c8b9210647b8a2834f7",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "2021 Member": {
       "record_id": "2021 Member",
       "content_hash": "bc3fb8d0bebd1a7ac44682c9aae49dac",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 6 Pathway 3": {
       "record_id": "Android Basics Compose Unit 6 Pathway 3",
       "content_hash": "7e326ceba96c7f68f84e638bb8e5ea01",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin": {
       "record_id": "Android Development With Kotlin",
       "content_hash": "667ec125d313be6180160bff9b7e1b13",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Registered": {
       "record_id": "Registered",
       "content_hash": "a7fcb4ced1b470cd7322ce3df65f453a",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Firebase Flutter Realtime": {
       "record_id": "Firebase Flutter Realtime",
       "content_hash": "1c701f06d4fa953ad6a757d6da29d059",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin 9": {
       "record_id": "Android Development With Kotlin 9",
       "content_hash": "46d22f3985eaca24f81c220c51643c40",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Places Android": {
       "record_id": "Places Android",
       "content_hash": "f30720f67b75bc4fb96b463bb1c8c3db",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Object Detection Android": {
       "record_id": "Object Detection Android",
       "content_hash": "50638d2f090360bf5d86878eed220e80",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android 11 Week 10": {
       "record_id": "Android 11 Week 10",
       "content_hash": "8fb30fe7ae0ef2511d34e4e4d8af13e5",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Passkeys Web 2": {
       "record_id": "Passkeys Web 2",
       "content_hash": "0eaa66327a335c3c8114e501eb15a67c",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Learn Javascript": {
       "record_id": "Learn Javascript",
       "content_hash": "38fcedb1532752e4d18b9b78f908c91b",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android 11 Week 7": {
       "record_id": "Android 11 Week 7",
       "content_hash": "4722f18851ba15ee721cc5d6663383fb",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Milestone1": {
       "record_id": "Milestone1",
       "content_hash": "c7418350fa4a8ae81e2d6dbb90e0f00b",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 5 Pathway 2": {
       "record_id": "Android Basics Compose Unit 5 Pathway 2",
       "content_hash": "a15de952e4d232bbceb02a38c60a77d3",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Ai Gemini 101": {
       "record_id": "Ai Gemini 101",
       "content_hash": "1e9d0be810f62ba0529bb44dfa9cf580",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Learn Images": {
       "record_id": "Learn Images",
       "content_hash": "9a89838f638aadf7cd4e0fae17b6779e",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Jetpack Compose For Android Developers 2": {
       "record_id": "Jetpack Compose For Android Developers 2",
       "content_hash": "7ab7770dbe57fa8c19f2a75d81c56734",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin 11": {
       "record_id": "Android Development With Kotlin 11",
       "content_hash": "732b4ecf91d86bfcc7865946ab7ef328",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Earned Badge": {
       "record_id": "Earned Badge",
       "content_hash": "a131d27ff6068850349ce5f833537f43",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Location Awareness In Apps": {
       "record_id": "Location Awareness In Apps",
       "content_hash": "9877b7dad3b7ab32a644c34749aca55a",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Regression Ios": {
       "record_id": "Regression Ios",
       "content_hash": "d53f4ab6530d609f42381fcb3080fee1",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 4 Pathway 3": {
       "record_id": "Android Basics Compose Unit 4 Pathway 3",
       "content_hash": "b238400ec572a0c301fb33ed4f2a40a4",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 4 Pathway 1": {
       "record_id": "Android Basics Compose Unit 4 Pathway 1",
       "content_hash": "bfff35bcf90bb1c62ec59faf144aa13e",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Maps": {
       "record_id": "Maps",
       "content_hash": "9f5b68f87ebd8adc43c2761553081f05",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "App Actions": {
       "record_id": "App Actions",
       "content_hash": "180a86ce22a9c2ae39d4b56bb76b7519",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Cloud Containerize Deploy Spring Boot": {
       "record_id": "Cloud Containerize Deploy Spring Boot",
       "content_hash": "7812546a717f3f389be517fd84eda87b",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Going Further Audio Classification": {
       "record_id": "Going Further Audio Classification",
       "content_hash": "0c676e16dd89a6bdcf885e215fdd8e30",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin 1": {
       "record_id": "Android Development With Kotlin 1",
       "content_hash": "363b992f3cebf508c18ede0c1c7f9989",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 1 Pathway 3": {
       "record_id": "Android Basics Compose Unit 1 Pathway 3",
       "content_hash": "4202403d751a72ad38bcdeec4cfe4a89",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Firebase Studio": {
       "record_id": "Firebase Studio",
       "content_hash": "4c36c1c971b15fa2ce4df8c6cddb1007",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Learn Performance": {
       "record_id": "Learn Performance",
       "content_hash": "80b46812ac70193fb3e9e9a8313d2dec",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Learn Testing": {
       "record_id": "Learn Testing",
       "content_hash": "5b3f33532f14017ec9aad33f58d1ac51",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Improve User Experience": {
       "record_id": "Improve User Experience",
       "content_hash": "c96083708e590ea144537dfef9b2ac63",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Material Design Web": {
       "record_id": "Material Design Web",
       "content_hash": "c0c3623e67637b023e5fb6e6b5c050cc",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Get Started Text Classification Web": {
       "record_id": "Get Started Text Classification Web",
       "content_hash": "58df1e09b4e34b5876701221d5430019",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Add Firebase To Flutter": {
       "record_id": "Add Firebase To Flutter",
       "content_hash": "35c2d0b9d28bbdb99a212d05503276ac",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Llm On Android": {
       "record_id": "Llm On Android",
       "content_hash": "8cd6f34059e887f5d9db25bed90f73ee",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Fugu Apis": {
       "record_id": "Fugu Apis",
       "content_hash": "b44d574b2f5b3034b5a7629c7b923a4c",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Get Started Mobile Text Classification": {
       "record_id": "Get Started Mobile Text Classification",
       "content_hash": "08f21714e244e0181fc5f50ab1148225",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 6 Pathway 2": {
       "record_id": "Android Basics Compose Unit 6 Pathway 2",
       "content_hash": "57065b9af2e4357588eaf21f0e5a5df7",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Data Visualization On Maps": {
       "record_id": "Data Visualization On Maps",
       "content_hash": "475c535c5d0ece0fe04f676b6693bf36",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Jetpack Compose For Android Developers 4": {
       "record_id": "Jetpack Compose For Android Developers 4",
       "content_hash": "f0817d4cf730c8026d55dcc744934cfc",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Learn Ai": {
       "record_id": "Learn Ai",
       "content_hash": "7d77d727f6574a5eaecd86d644794d23",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 3 Pathway 3": {
       "record_id": "Android Basics Compose Unit 3 Pathway 3",
       "content_hash": "7acd1b732d85a6e613a20a58488fe3a3",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Ai Evals": {
       "record_id": "Ai Evals",
       "content_hash": "d7fc29cca7d5b9bc04ff0d862c8557ac",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Messaging With Firebase": {
       "record_id": "Messaging With Firebase",
       "content_hash": "4e9d5375fe269ce59a0611b2be38e69c",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android 11 Week 6": {
       "record_id": "Android 11 Week 6",
       "content_hash": "4c896fc4f9a293026a3c48703e151fcf",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Going Further Object Detection": {
       "record_id": "Going Further Object Detection",
       "content_hash": "891ebc1438900eabcce18b3519992cb7",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Enterprise Build Apps": {
       "record_id": "Android Enterprise Build Apps",
       "content_hash": "fbb81819338dd1cbedac8d49008b84f9",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Make Your Android App Accessible": {
       "record_id": "Make Your Android App Accessible",
       "content_hash": "882eff2d7bdf7527f18844c1fb98f901",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Nvidia Deploy With Gen Ai": {
       "record_id": "Nvidia Deploy With Gen Ai",
       "content_hash": "65e38a8222b8f564030bc3177f458bdf",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Build Apps": {
       "record_id": "Build Apps",
       "content_hash": "bbf7ca8797c9294f55c57643c89d7663",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android 11 Week 5": {
       "record_id": "Android 11 Week 5",
       "content_hash": "8438daf0c418c809306ae27af5c610ce",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Text Classification Flutter": {
       "record_id": "Text Classification Flutter",
       "content_hash": "30e5bb21d27efb448ce5579392398790",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin 2": {
       "record_id": "Android Development With Kotlin 2",
       "content_hash": "c5fcfdc5b68745414bcdc62a222c885f",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Firebase Mfa Security Rules": {
       "record_id": "Firebase Mfa Security Rules",
       "content_hash": "38de8b627fbaa8a6c9e7634a084e68bb",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Crossword": {
       "record_id": "Crossword",
       "content_hash": "1f028b688cb2f5c26588ad337d882a81",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Activity Embedding": {
       "record_id": "Activity Embedding",
       "content_hash": "eb9631f13c130cf7205640658e6f9cc9",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Firebase Crashlytics Analytics": {
       "record_id": "Firebase Crashlytics Analytics",
       "content_hash": "2d7ddaa6c7754464bf3387b990f2bdfd",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Firebase Remote Config": {
       "record_id": "Firebase Remote Config",
       "content_hash": "868294cef3fe7fe357b9bb5496bea960",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 3 Pathway 1": {
       "record_id": "Android Basics Compose Unit 3 Pathway 1",
       "content_hash": "e3c68e2b898863e93285ff8e89a0c1f8",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Firebase Security Layers": {
       "record_id": "Firebase Security Layers",
       "content_hash": "28422c20e539960a646f6d5620364640",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Going Further Image Classification": {
       "record_id": "Going Further Image Classification",
       "content_hash": "8e567441c1b787a638ce4cdc200d8fb5",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Going Further Text Classification Web": {
       "record_id": "Going Further Text Classification Web",
       "content_hash": "f5633da6c838e6b30dc99e4fa37f8b68",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Ai Models On Gpu Intro": {
       "record_id": "Ai Models On Gpu Intro",
       "content_hash": "837dec234228fc1df643d3eeb9c24e49",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android 11 Week 2": {
       "record_id": "Android 11 Week 2",
       "content_hash": "a156c8052a255c0fe09dd14fb614de02",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Pay": {
       "record_id": "Pay",
       "content_hash": "159aaf58b953c43238815df7c76ed8d2",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Ecommerce Microservices Kubernetes": {
       "record_id": "Ecommerce Microservices Kubernetes",
       "content_hash": "e4152d8ed827b0d9c818665c53044529",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Ai Powered Content Search": {
       "record_id": "Ai Powered Content Search",
       "content_hash": "d4160ab139ee7cb74d5cae8505a9b121",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin 6": {
       "record_id": "Android Development With Kotlin 6",
       "content_hash": "4ca04310b0d0b4d0b4c05d307d40caa9",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Kotlin Multiplatform": {
       "record_id": "Kotlin Multiplatform",
       "content_hash": "4a5fd8db36815e3bb1726be491422f34",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Three Tier Cloud Run": {
       "record_id": "Three Tier Cloud Run",
       "content_hash": "bc972fb42c75527c22c4e2d73b8c0d39",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android 11 Week 11 1": {
       "record_id": "Android 11 Week 11 1",
       "content_hash": "26f7dd87b1a9dec82778cd9a7830f0a5",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin 4": {
       "record_id": "Android Development With Kotlin 4",
       "content_hash": "0fe177ec65df77706b06c475df038773",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin 7": {
       "record_id": "Android Development With Kotlin 7",
       "content_hash": "b5d1d43cebfd40df043953c85563f400",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Gpay For Web": {
       "record_id": "Gpay For Web",
       "content_hash": "8a6608290b1bef7b67f0c4f774874ca8",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Get Started Image Classification": {
       "record_id": "Get Started Image Classification",
       "content_hash": "4a35ec9d29f8ca4d6b36e67617e7ec0f",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Identity": {
       "record_id": "Identity",
       "content_hash": "2310f1352429db7fc62f294648a55dc6",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Learn Css": {
       "record_id": "Learn Css",
       "content_hash": "195576fa7bbaeb49cea19372f15b34c1",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Firebase Firestore Leaderboards": {
       "record_id": "Firebase Firestore Leaderboards",
       "content_hash": "cd55ecbf202bf570936a1a4c733cf147",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Discovery": {
       "record_id": "Discovery",
       "content_hash": "09099019c0b53d7e8d233c61f59f1f0a",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Cross Platform Apps With Angular": {
       "record_id": "Cross Platform Apps With Angular",
       "content_hash": "c75e1df991cb3390d6f3e853eb515f2e",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Pwa Push Notifications": {
       "record_id": "Pwa Push Notifications",
       "content_hash": "4b3045b4aaa30b8d1e90dc108eb9689e",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Aog Smart Home": {
       "record_id": "Aog Smart Home",
       "content_hash": "a9a51c7b85c75502b9fa28db71a3be62",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Local Development With Emulator Suite": {
       "record_id": "Local Development With Emulator Suite",
       "content_hash": "4656d51ba5e3006d788be97870659709",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 3 Pathway 2": {
       "record_id": "Android Basics Compose Unit 3 Pathway 2",
       "content_hash": "3cff23adc3ed2d4a4b0574c3186a1fa4",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Get Started Audio Classification": {
       "record_id": "Get Started Audio Classification",
       "content_hash": "3f698215c2c786009e0bf442f0dde39a",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Learn Privacy": {
       "record_id": "Learn Privacy",
       "content_hash": "af6db8a4124619cb2a8b69d0ca4fecc6",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 8 Pathway 1": {
       "record_id": "Android Basics Compose Unit 8 Pathway 1",
       "content_hash": "489a04cb2eb1b6d4b0e0e2a6edacd98a",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "App Check": {
       "record_id": "App Check",
       "content_hash": "c492a073f21075b556aa87118a4ac863",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Learnings": {
       "record_id": "Learnings",
       "content_hash": "c198062fc0e623a0f9919488a3a67571",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Applied Ml With Keras": {
       "record_id": "Applied Ml With Keras",
       "content_hash": "5e62141e5b25c5eeaf96f204ce2796ad",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Apps Script": {
       "record_id": "Apps Script",
       "content_hash": "19d94e924a009474448884eb9f2dc3b2",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 2 Pathway 3": {
       "record_id": "Android Basics Compose Unit 2 Pathway 3",
       "content_hash": "267abae7de599b130351b98d98fa7fb5",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 7 Pathway 1": {
       "record_id": "Android Basics Compose Unit 7 Pathway 1",
       "content_hash": "5ebd5b41f9c6b61354763e1824347634",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Jetpack Compose For Android Developers 5": {
       "record_id": "Jetpack Compose For Android Developers 5",
       "content_hash": "fa5d4be664a0e7546b523b973553eed0",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Maintainable Scalable Web Apps": {
       "record_id": "Maintainable Scalable Web Apps",
       "content_hash": "607f30e1f060ebb915231fc08958a8d7",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Created Profile": {
       "record_id": "Created Profile",
       "content_hash": "5e103540cae0bb1620e3a50a44da306d",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Web Apps With Firebase": {
       "record_id": "Web Apps With Firebase",
       "content_hash": "2648fb266d50a86bb95035c20c836acd",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Get Started Image Product Search": {
       "record_id": "Get Started Image Product Search",
       "content_hash": "cb329c2050a2953f8079632cf10fec1b",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android 11 Week 1": {
       "record_id": "Android 11 Week 1",
       "content_hash": "502b15323a893a35d64c918cf9a56bca",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Ai Gemini Getting Started Web": {
       "record_id": "Ai Gemini Getting Started Web",
       "content_hash": "f5d233f478e10547456c26c6155eff29",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Ai Gemini Images": {
       "record_id": "Ai Gemini Images",
       "content_hash": "8023957e84b0e0de5a0d4f425fc3e4b3",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin 3": {
       "record_id": "Android Development With Kotlin 3",
       "content_hash": "482f83c4c96fa63df530e368fc69a50b",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android 11 Week 3": {
       "record_id": "Android 11 Week 3",
       "content_hash": "d6bee0d519d1ba32da29972cbf02494a",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 1 Pathway 2": {
       "record_id": "Android Basics Compose Unit 1 Pathway 2",
       "content_hash": "d92a7f788f7255c306e0d792f5f76794",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Get To Know Cloud Firestore": {
       "record_id": "Get To Know Cloud Firestore",
       "content_hash": "94c87c2db3e0e4f6f6e3a655e319793c",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Get Started Gmp Ios": {
       "record_id": "Get Started Gmp Ios",
       "content_hash": "2aa2e17167226ad380493a960ea369b6",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Agent Intro": {
       "record_id": "Agent Intro",
       "content_hash": "60355deceb70e99e8e021a830c7b0660",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Firebase Extensions Gemini": {
       "record_id": "Firebase Extensions Gemini",
       "content_hash": "93cf7980b2c8423597a9dbb7298c9901",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Womens Online Safety": {
       "record_id": "Womens Online Safety",
       "content_hash": "c2d2d727930838d098f7ec99df21312b",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Development With Kotlin 5": {
       "record_id": "Android Development With Kotlin 5",
       "content_hash": "3fb3364a76a3b86beef332a67608b2fd",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Get Started With Gmp Android": {
       "record_id": "Get Started With Gmp Android",
       "content_hash": "5d204e0104c0fd7e0421ca7c28ca9c52",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Gca Agents": {
       "record_id": "Gca Agents",
       "content_hash": "19013e3de50791f1c073ba96769016b3",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Semantics And Depth": {
       "record_id": "Semantics And Depth",
       "content_hash": "c8b52497d1bd9318b9443ddb90b43678",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Member": {
       "record_id": "Member",
       "content_hash": "06d2ecebfe4c64dd39e5edd4a2a506b7",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Nvidia Developer": {
       "record_id": "Nvidia Developer",
       "content_hash": "917df0505647c54fab5f8930f7080d36",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Webrtc Media Capture": {
       "record_id": "Webrtc Media Capture",
       "content_hash": "9a068b5be93e958fe3f72b0a1cc90e26",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Architecture": {
       "record_id": "Android Architecture",
       "content_hash": "a98dfeb21ff9de7b5a48979771d8adcb",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Actions On Google": {
       "record_id": "Actions On Google",
       "content_hash": "e802fe946ac24ef0715f928f4efa3003",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Passkeys Web": {
       "record_id": "Passkeys Web",
       "content_hash": "14eddabb9c08144979e3e61ed7a3eb8a",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Android Basics Compose Unit 2 Pathway 2": {
       "record_id": "Android Basics Compose Unit 2 Pathway 2",
       "content_hash": "6827db193de7b7331ac2172336747944",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Chatbots 201": {
       "record_id": "Chatbots 201",
       "content_hash": "da6836d102d7f339fcc9f863abbf193c",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Cloud Run Serverless Computing": {
       "record_id": "Cloud Run Serverless Computing",
       "content_hash": "f29c79484b1416359484d9b915d4c91c",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Springboot": {
       "record_id": "Springboot",
       "content_hash": "33362480c1b41784d14df004f7d810aa",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     },
     "Intro To Flutter": {
       "record_id": "Intro To Flutter",
       "content_hash": "66b793983875bae9be6482e9f6ba0400",
       "platform": "google-developer",
-      "timestamp": "2026-08-29T21:46:40.417409+00:00"
+      "timestamp": "2026-08-29T22:39:04.887765+00:00"
     }
   }
 }
