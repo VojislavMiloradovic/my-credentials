@@ -3,7 +3,7 @@
 
 verbose = "info"
 no_progress = true
-format = "detailed"
+format = "Detailed"
 mode = "color"
 max_concurrency = 10
 max_retries = 0
