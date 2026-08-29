@@ -2588,8 +2588,10 @@
     "date": "2026-06-22",
     "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-vm-deployment",
     "source": "local_mhtml",
-    "retired": false,
-    "url": "https://codelabs.developers.google.com/alloydb-omni-vm-deployment"
+    "retired": true,
+    "url": "https://codelabs.developers.google.com/alloydb-omni-vm-deployment",
+    "retirement_reason": "Codelab retired (404 Not Found)",
+    "retired_at": "2026-08-29"
   },
   {
     "title": "Web Capabilities codelab",
@@ -2796,8 +2798,10 @@
     "date": "2026-05-21",
     "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata",
     "source": "local_mhtml",
-    "retired": false,
-    "url": "https://codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata"
+    "retired": true,
+    "url": "https://codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata",
+    "retirement_reason": "Codelab retired (404 Not Found)",
+    "retired_at": "2026-08-29"
   },
   {
     "title": "Get started with regression in iOS apps",
@@ -11732,8 +11736,10 @@
     "date": "2026-06-22",
     "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-vm-ha-deployment",
     "source": "local_mhtml",
-    "retired": false,
-    "url": "https://codelabs.developers.google.com/alloydb-omni-vm-ha-deployment"
+    "retired": true,
+    "url": "https://codelabs.developers.google.com/alloydb-omni-vm-ha-deployment",
+    "retirement_reason": "Codelab retired (404 Not Found)",
+    "retired_at": "2026-08-29"
   },
   {
     "title": "How to configure a Cloud Run service to access an internal Cloud Run service using direct VPC egress",
