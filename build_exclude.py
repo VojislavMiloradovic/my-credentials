@@ -6,6 +6,32 @@ import sys
 
 RETIRED_URLS_FILE = "retired_urls.json"
 
+# -----------------------------------------------------------------------------
+# PROBLEMATIC REDIRECT URLS
+# -----------------------------------------------------------------------------
+# These are specific URLs that are known to redirect to Google OAuth2 auth pages
+# (accounts.google.com/o/oauth2/v2/auth...interaction_required) instead of
+# serving the actual codelab content. They are added to .lycheeignore to prevent
+# false positive link check failures.
+#
+# IMPORTANT: We do NOT exclude entire domains like codelabs.developers.google.com,
+# developer.android.com/codelabs/, or firebase.google.com/codelabs/ because
+# the vast majority of URLs on these platforms (1000+) work correctly and only
+# a small subset redirect to auth pages. We only exclude specific problematic URLs.
+#
+# Format: (url, reason_comment)
+PROBLEMATIC_REDIRECT_URLS: list[tuple[str, str]] = [
+    # codelabs.developers.google.com - Redirects to OAuth2 auth page
+    # These specific codelabs require authentication and redirect to accounts.google.com
+    # ("https://codelabs.developers.google.com/codelabs/specific-codelab-id", "Redirects to OAuth2 auth page (interaction_required)"),
+    
+    # developer.android.com/codelabs/ - Redirects to OAuth2 auth page
+    # ("https://developer.android.com/codelabs/specific-codelab-id", "Redirects to OAuth2 auth page (interaction_required)"),
+    
+    # firebase.google.com/codelabs/ - Redirects to OAuth2 auth page
+    # ("https://firebase.google.com/codelabs/specific-codelab-id", "Redirects to OAuth2 auth page (interaction_required)"),
+]
+
 
 def normalize_url(raw_url: str | None) -> str:
     """Normalize URL to match markdown format."""
@@ -58,6 +84,16 @@ def main():
                                 retired_urls.add(norm)
         except Exception as e:
             print(f"Warning: Could not parse {RETIRED_URLS_FILE}: {e}", file=sys.stderr)
+
+    # 1b. Add known problematic redirect URLs (Google OAuth2 auth pages)
+    # These are specific URLs identified as redirecting to accounts.google.com/o/oauth2/v2/auth
+    # instead of serving codelab content. We only exclude specific known-bad URLs,
+    # NOT entire codelabs domains (1000+ valid URLs would be lost).
+    for url, reason in PROBLEMATIC_REDIRECT_URLS:
+        norm = normalize_url(url)
+        if norm:
+            retired_urls.add(norm)
+            print(f"Added problematic redirect URL: {norm}  # {reason}", file=sys.stderr)
 
     # 2. Extract retired URLs from validated JSON exports
     for f in glob.glob("for_validation/*.json"):
