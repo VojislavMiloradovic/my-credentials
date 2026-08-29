@@ -1,7 +1,7 @@
 """
 Custom link checker wrapper for GitHub Actions.
-Runs lychee with JSON output and generates a concise summary
-to avoid the 1MB step summary limit.
+Runs lychee with JSON output and generates a detailed summary
+with status table and redirect chains for easy debugging.
 """
 
 import json
@@ -35,58 +35,95 @@ def run_lychee_json(args: list[str]) -> dict[str, Any]:
 
 
 def generate_summary(data: dict[str, Any]) -> str:
-    """Generate a concise markdown summary from lychee JSON output."""
+    """Generate a detailed markdown summary from lychee JSON output."""
     if "error" in data:
         return f"## ❌ Link Checker Error\n\n```\n{data['error']}\n```"
 
-    summary_parts = ["## 🔗 Link Check Results\n"]
+    summary_parts = ["## Link Checker Summary\n"]
 
-    # Overall stats
+    # Status table (matching the requested format)
     total = data.get("total", 0)
     ok = data.get("ok", 0)
     errors = data.get("errors", 0)
     excluded = data.get("excluded", 0)
+    timeouts = data.get("timeouts", 0)
+    redirected = data.get("redirected", 0)
+    unknown = data.get("unknown", 0)
+    unsupported = data.get("unsupported", 0)
 
-    summary_parts.append(
-        f"**Total:** {total} | **✅ OK:** {ok} | **❌ Errors:** {errors} | **⏭️ Excluded:** {excluded}\n"
-    )
+    summary_parts.append("| Status | Count |\n")
+    summary_parts.append("| --- | --- |\n")
+    summary_parts.append(f"| 🔍 Total | {total} |\n")
+    summary_parts.append(f"| 🔗 Unique | {data.get('unique', 0)} |\n")
+    summary_parts.append(f"| ✅ Successful | {ok} |\n")
+    summary_parts.append(f"| ⏳ Timeouts | {timeouts} |\n")
+    summary_parts.append(f"| 🔀 Redirected | {redirected} |\n")
+    summary_parts.append(f"| 👻 Excluded | {excluded} |\n")
+    summary_parts.append(f"| ❓ Unknown | {unknown} |\n")
+    summary_parts.append(f"| 🚫 Errors | {errors} |\n")
+    summary_parts.append(f"| ⛔ Unsupported | {unsupported} |\n")
+    summary_parts.append("\n")
+
+    # Redirects per input - detailed redirect chains
+    redirected_links = data.get("redirected_links", [])
+    if redirected_links:
+        summary_parts.append("## Redirects per input\n")
+        summary_parts.append("| Input URL | Redirect Chain |\n")
+        summary_parts.append("| --- | --- |\n")
+
+        # Group by input URL to show full chain
+        redirect_chains = {}
+        for link in redirected_links:
+            url = link.get("url", "N/A")
+            redirect_url = link.get("redirect_url", "")
+            status = link.get("status", "")
+
+            if url not in redirect_chains:
+                redirect_chains[url] = []
+            if redirect_url:
+                redirect_chains[url].append(f"[{status}] {redirect_url}")
+
+        for input_url, chain in sorted(redirect_chains.items()):
+            # Escape pipes for markdown table
+            escaped_url = input_url.replace("|", "\\|")
+            chain_str = " → ".join(chain).replace("|", "\\|")
+            summary_parts.append(f"| {escaped_url} | {chain_str} |\n")
+        summary_parts.append("\n")
 
     # Failed links details
     failed_links = data.get("failed", [])
     if failed_links:
-        summary_parts.append(f"### ❌ Failed Links ({len(failed_links)})\n")
+        summary_parts.append(f"## Failed Links ({len(failed_links)})\n")
         summary_parts.append("| URL | Status | Error |\n")
         summary_parts.append("| --- | --- | --- |\n")
 
-        # Limit to first 50 failed links to keep summary small
-        for link in failed_links[:50]:
+        # Limit to first 100 failed links to keep summary manageable
+        for link in failed_links[:100]:
             url = link.get("url", "N/A")
             status = str(link.get("status", "N/A"))
-            error = link.get("error", "Unknown error")[:200]  # Truncate long errors
-            # Escape pipes in URL for markdown table
+            error = link.get("error", "Unknown error")[:300]
             url = url.replace("|", "\\|")
             error = error.replace("|", "\\|")
             summary_parts.append(f"| {url} | {status} | {error} |\n")
 
-        if len(failed_links) > 50:
+        if len(failed_links) > 100:
             summary_parts.append(
-                f"\n*... and {len(failed_links) - 50} more failed links*\n"
+                f"\n*... and {len(failed_links) - 100} more failed links*\n"
             )
-    else:
-        summary_parts.append("### ✅ All links passed!\n")
+        summary_parts.append("\n")
 
     # Excluded links summary
     excluded_links = data.get("excluded", [])
     if excluded_links:
-        # Group by pattern
         patterns = {}
         for link in excluded_links:
             pattern = link.get("pattern", "unknown")
             patterns[pattern] = patterns.get(pattern, 0) + 1
 
-        summary_parts.append(f"### ⏭️ Excluded Patterns ({len(excluded_links)} links)\n")
+        summary_parts.append(f"## Excluded Patterns ({len(excluded_links)} links)\n")
         for pattern, count in sorted(patterns.items(), key=lambda x: -x[1]):
             summary_parts.append(f"- `{pattern}`: {count} links\n")
+        summary_parts.append("\n")
 
     return "".join(summary_parts)
 
@@ -97,7 +134,6 @@ def truncate_summary(summary: str, max_bytes: int = 1000000) -> str:
     if len(summary_bytes) <= max_bytes:
         return summary
 
-    # Truncate and add notice
     truncated = summary_bytes[: max_bytes - 500].decode("utf-8", errors="ignore")
     return (
         truncated

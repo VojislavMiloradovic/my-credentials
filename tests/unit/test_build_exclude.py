@@ -5,10 +5,19 @@ Unit tests for build_exclude.py
 import json
 import os
 import sys
+from unittest.mock import patch
 
 import pytest
 
 from build_exclude import main, normalize_url
+
+
+# Fixture to mock PROBLEMATIC_REDIRECT_URLS as empty for tests that expect no .lycheeignore
+@pytest.fixture(autouse=True)
+def mock_problematic_redirect_urls():
+    """Mock PROBLEMATIC_REDIRECT_URLS to be empty for most tests."""
+    with patch("build_exclude.PROBLEMATIC_REDIRECT_URLS", []):
+        yield
 
 
 class TestNormalizeUrl:
