@@ -24,10 +24,8 @@ PROBLEMATIC_REDIRECT_URLS: list[tuple[str, str]] = [
     # codelabs.developers.google.com - Redirects to OAuth2 auth page
     # These specific codelabs require authentication and redirect to accounts.google.com
     # ("https://codelabs.developers.google.com/codelabs/specific-codelab-id", "Redirects to OAuth2 auth page (interaction_required)"),
-    
     # developer.android.com/codelabs/ - Redirects to OAuth2 auth page
     # ("https://developer.android.com/codelabs/specific-codelab-id", "Redirects to OAuth2 auth page (interaction_required)"),
-    
     # firebase.google.com/codelabs/ - Redirects to OAuth2 auth page
     # ("https://firebase.google.com/codelabs/specific-codelab-id", "Redirects to OAuth2 auth page (interaction_required)"),
 ]
@@ -93,7 +91,9 @@ def main():
         norm = normalize_url(url)
         if norm:
             retired_urls.add(norm)
-            print(f"Added problematic redirect URL: {norm}  # {reason}", file=sys.stderr)
+            print(
+                f"Added problematic redirect URL: {norm}  # {reason}", file=sys.stderr
+            )
 
     # 2. Extract retired URLs from validated JSON exports
     for f in glob.glob("for_validation/*.json"):
