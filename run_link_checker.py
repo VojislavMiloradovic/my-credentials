@@ -6,11 +6,9 @@ with status table, redirect chains, and error details.
 
 import json
 import os
-import subprocess
 import sys
 from pathlib import Path
 from typing import Any
-
 
 RESULTS_FILE = "link_check_results/latest.json"
 
