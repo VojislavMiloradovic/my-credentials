@@ -276,7 +276,10 @@ def main():
     # Log if there were failures but don't exit with error - let workflow continue to commit results
     fail_map = data.get("fail_map", {})
     if fail_map and isinstance(data, dict) and "error" not in data:
-        print(f"Found {len(fail_map)} failed links - workflow will continue to commit results", file=sys.stderr)
+        print(
+            f"Found {len(fail_map)} failed links - workflow will continue to commit results",
+            file=sys.stderr,
+        )
 
 
 if __name__ == "__main__":
