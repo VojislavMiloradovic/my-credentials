@@ -1,6 +1,6 @@
 {
   "profile_user": "vojislavmiloradovic",
-  "total_count": 732,
+  "total_count": 741,
   "badges": [
     {
       "id": "4d3535a6971307d9",
@@ -3252,6 +3252,25 @@
       "retired": false
     },
     {
+      "id": "f4670ff0ede98cd6",
+      "title": "Amazon Redshift - Best Practices for Data Warehousing on AWS",
+      "name": "Amazon Redshift - Best Practices for Data Warehousing on AWS",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon Redshift - Best Practices for Data Warehousing on AWS"
+      ],
+      "retired": false
+    },
+    {
       "id": "2a9cb459b3985fc0",
       "title": "Amazon Redshift Getting Started",
       "name": "Amazon Redshift Getting Started",
@@ -3685,6 +3704,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Amazon WorkSpaces Migrations — Additional Partner Offerings on WorkSpaces Core"
+      ],
+      "retired": false
+    },
+    {
+      "id": "e13e6b649002a358",
+      "title": "Amazon WorkSpaces Migrations — Citrix on WorkSpaces Core",
+      "name": "Amazon WorkSpaces Migrations — Citrix on WorkSpaces Core",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon WorkSpaces Migrations — Citrix on WorkSpaces Core"
       ],
       "retired": false
     },
@@ -4426,6 +4464,44 @@
       "verification_type": "Digital course",
       "skills": [
         "AWS CloudFormation Stacks - Troubleshooting"
+      ],
+      "retired": false
+    },
+    {
+      "id": "0535ecccf51940a9",
+      "title": "AWS CloudOps Engineer - Introduction to Cloud Operations",
+      "name": "AWS CloudOps Engineer - Introduction to Cloud Operations",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS CloudOps Engineer - Introduction to Cloud Operations"
+      ],
+      "retired": false
+    },
+    {
+      "id": "49be3f105c643216",
+      "title": "AWS CloudOps Engineer Curriculum Overview",
+      "name": "AWS CloudOps Engineer Curriculum Overview",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS CloudOps Engineer Curriculum Overview"
       ],
       "retired": false
     },
@@ -5722,6 +5798,25 @@
       "retired": false
     },
     {
+      "id": "32364bd615946e6a",
+      "title": "AWS purpose-built database recovery: A guide to business continuity and disaster recovery strategies",
+      "name": "AWS purpose-built database recovery: A guide to business continuity and disaster recovery strategies",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS purpose-built database recovery: A guide to business continuity and disaster recovery strategies"
+      ],
+      "retired": false
+    },
+    {
       "id": "83b71ee65ad2e0f6",
       "title": "AWS Resources available to Design & Operate Advertising workflows",
       "name": "AWS Resources available to Design & Operate Advertising workflows",
@@ -6957,6 +7052,25 @@
       "retired": false
     },
     {
+      "id": "c2cf0053463b0a1a",
+      "title": "Blu Age L3 AS/400 Assessment",
+      "name": "Blu Age L3 AS/400 Assessment",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Blu Age L3 AS/400 Assessment"
+      ],
+      "retired": false
+    },
+    {
       "id": "ca0dee354cc80747",
       "title": "Build  an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore",
       "name": "Build  an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore",
@@ -7470,6 +7584,25 @@
       "retired": false
     },
     {
+      "id": "48e43b1be2316bf7",
+      "title": "Building a Secure Auth Code Flow Setup Using AgentCore Gateway with MCP Clients",
+      "name": "Building a Secure Auth Code Flow Setup Using AgentCore Gateway with MCP Clients",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Building a Secure Auth Code Flow Setup Using AgentCore Gateway with MCP Clients"
+      ],
+      "retired": false
+    },
+    {
       "id": "ec2f83b0f3bf7d73",
       "title": "Building AI Agent Harnesses with Strands Agents",
       "name": "Building AI Agent Harnesses with Strands Agents",
@@ -7561,6 +7694,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Building intelligent event agents using Amazon Bedrock AgentCore and Amazon Bedrock Knowledge Bases"
+      ],
+      "retired": false
+    },
+    {
+      "id": "c83863aafa446fdb",
+      "title": "Building Intelligent Search with Amazon Bedrock and Amazon OpenSearch for hybrid RAG solutions",
+      "name": "Building Intelligent Search with Amazon Bedrock and Amazon OpenSearch for hybrid RAG solutions",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Building Intelligent Search with Amazon Bedrock and Amazon OpenSearch for hybrid RAG solutions"
       ],
       "retired": false
     },
@@ -9214,6 +9366,25 @@
       "verification_type": "Digital course",
       "skills": [
         "Extended Thinking with Amazon Nova"
+      ],
+      "retired": false
+    },
+    {
+      "id": "3ab8df87827adfda",
+      "title": "Extending MCP support for Amazon Bedrock AgentCore Gateway",
+      "name": "Extending MCP support for Amazon Bedrock AgentCore Gateway",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-08-29",
+      "issued_at_date": "2026-08-29",
+      "date": "2026-08-29",
+      "image_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Extending MCP support for Amazon Bedrock AgentCore Gateway"
       ],
       "retired": false
     },
