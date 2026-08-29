@@ -135,15 +135,18 @@ Showing latest 10 of 711 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 581
-**Total Verified Skills Mapped:** 2012
+**Total Portfolio Credentials:** 584
+**Total Verified Skills Mapped:** 2020
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 581 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-11.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 584 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-28 | [SASE Advanced Security](https://www.credly.com/badges/3a796ab4-659a-4141-a249-b6f94611201f/public_url) | Cato Networks | Credly Verified Badge |
+| 2026-08-28 | [SASE Deployment and Management](https://www.credly.com/badges/906c5b04-f903-46cb-805c-9b3f0729718f/public_url) | Cato Networks | Credly Verified Badge |
+| 2026-08-28 | [SSE Expert Certification](https://www.credly.com/badges/2d5a7b6b-db2d-4a99-814a-870cea7ec348/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [Cilium SCTP](https://www.credly.com/badges/93beb0d4-956a-4579-b936-626a9fd880d8/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-28 | [Cloud Computing Fundamentals](https://www.credly.com/badges/3372ff55-1a0f-4fd1-b85e-4642dae974c0/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-08-28 | [Cloud Tech Professional Microsoft 365](https://www.credly.com/badges/da472709-da7d-4ddd-9611-e119004c08f3/public_url) | Acronis | Credly Verified Badge |
@@ -151,9 +154,6 @@ Showing latest 10 of 581 credentials. View full dataset via [Platform Archive In
 | 2026-08-28 | [Getting Started with Data](https://www.credly.com/badges/0fa215bc-cc0b-46a6-a2cd-2963394e085d/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-08-28 | [Isovalent Lab Champion (40 labs)](https://www.credly.com/badges/ca469b74-715c-4426-915e-a0b50da4cdd7/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-28 | [Kubernetes Packet Capture with Isopcap](https://www.credly.com/badges/9d1ee8e2-bc9c-491e-aea3-9b28c417ddff/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-28 | [Network Policy Governance](https://www.credly.com/badges/09b34caf-720a-4689-9559-a2fa0ff72b79/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-27 | [Analyze Sentiment with Natural Language API Skill Badge](https://www.credly.com/badges/4ad490cd-fa1d-4436-8895-6d233aa59d3f/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-08-27 | [Build LookML Objects in Looker Skill Badge](https://www.credly.com/badges/f1fe4c27-fc5b-4f16-857c-0a78b63662de/public_url) | Google Cloud | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
