@@ -1,6 +1,6 @@
 """
 Custom link checker wrapper for GitHub Actions.
-Runs lychee with JSON output and generates a detailed summary
+Reads lychee JSON output from file and generates a detailed summary
 with status table, redirect chains, and error details.
 """
 
@@ -12,26 +12,102 @@ from pathlib import Path
 from typing import Any
 
 
-def run_lychee_json(args: list[str]) -> dict[str, Any]:
-    """Run lychee with JSON output and parse results."""
-    cmd = ["lychee", "--format", "json", "--no-progress"] + args
-    print(f"Running: {' '.join(cmd)}", file=sys.stderr)
+RESULTS_FILE = "link_check_results/latest.json"
 
-    result = subprocess.run(
-        cmd, capture_output=True, text=True, timeout=300, check=False
-    )
 
-    if result.returncode not in (0, 1, 2):  # 0=ok, 1=errors, 2=failed
-        print(f"Lychee failed with exit code {result.returncode}", file=sys.stderr)
-        print(f"stderr: {result.stderr}", file=sys.stderr)
-        return {"error": result.stderr}
+def load_results() -> dict[str, Any]:
+    """Load lychee JSON results from file."""
+    path = Path(RESULTS_FILE)
+    if not path.exists():
+        print(f"Error: {RESULTS_FILE} not found", file=sys.stderr)
+        return {"error": f"{RESULTS_FILE} not found"}
 
     try:
-        return json.loads(result.stdout)
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
     except json.JSONDecodeError as e:
-        print(f"Failed to parse JSON output: {e}", file=sys.stderr)
-        print(f"stdout: {result.stdout[:500]}", file=sys.stderr)
+        print(f"Failed to parse JSON from {RESULTS_FILE}: {e}", file=sys.stderr)
         return {"error": "JSON parse error"}
+
+
+def extract_detailed_results(data: dict[str, Any]) -> dict[str, list]:
+    """
+    Extract detailed results from lychee's map structures.
+    Lychee 0.15.0+ uses maps keyed by URL instead of arrays.
+    """
+    results = {
+        "failed": [],
+        "redirected": [],
+        "excluded": [],
+        "timeouts": [],
+    }
+
+    # fail_map contains failed/errored URLs
+    fail_map = data.get("fail_map", {})
+    for url, info in fail_map.items():
+        if isinstance(info, dict):
+            results["failed"].append(
+                {
+                    "url": url,
+                    "status": info.get("status", 0),
+                    "status_text": info.get("status_text", ""),
+                    "error": info.get("error", "Unknown error"),
+                    "file": info.get("file", "unknown"),
+                    "line": info.get("line", 0),
+                }
+            )
+        else:
+            results["failed"].append(
+                {
+                    "url": url,
+                    "status": 0,
+                    "status_text": "",
+                    "error": str(info),
+                    "file": "unknown",
+                    "line": 0,
+                }
+            )
+
+    # redirects are in suggestion_map
+    suggestion_map = data.get("suggestion_map", {})
+    for url, info in suggestion_map.items():
+        if isinstance(info, dict):
+            redirect_url = info.get("suggestion") or info.get("redirect_url")
+            if redirect_url:
+                results["redirected"].append(
+                    {
+                        "url": url,
+                        "status": info.get("status", 302),
+                        "status_text": info.get("status_text", "Redirect"),
+                        "redirect_url": redirect_url,
+                        "file": info.get("file", "unknown"),
+                        "line": info.get("line", 0),
+                    }
+                )
+
+    # excluded_map contains excluded URLs
+    excluded_map = data.get("excluded_map", {})
+    for url, info in excluded_map.items():
+        if isinstance(info, dict):
+            results["excluded"].append(
+                {
+                    "url": url,
+                    "pattern": info.get("pattern", "unknown"),
+                    "file": info.get("file", "unknown"),
+                    "line": info.get("line", 0),
+                }
+            )
+        else:
+            results["excluded"].append(
+                {
+                    "url": url,
+                    "pattern": str(info),
+                    "file": "unknown",
+                    "line": 0,
+                }
+            )
+
+    return results
 
 
 def generate_summary(data: dict[str, Any]) -> str:
@@ -39,79 +115,23 @@ def generate_summary(data: dict[str, Any]) -> str:
     if "error" in data:
         return f"## ❌ Link Checker Error\n\n```\n{data['error']}\n```"
 
-    # Lychee JSON structure (from lychee 0.15.0):
-    # {
-    #   "total": 27724,
-    #   "ok": 23528,
-    #   "errors": 9,
-    #   "excluded": 1323,
-    #   "timeouts": 0,
-    #   "redirected": 139,
-    #   "unique": 7405,
-    #   "unknown": 0,
-    #   "unsupported": 0,
-    #   "results": [
-    #     {
-    #       "url": "https://example.com",
-    #       "status": 200,
-    #       "status_text": "OK",
-    #       "is_redirect": false,
-    #       "redirect_url": null,
-    #       "is_excluded": false,
-    #       "exclude_pattern": null,
-    #       "error": null,
-    #       "file": "README.md",
-    #       "line": 42
-    #     },
-    #     ...
-    #   ]
-    # }
-    # The failed/redirected/excluded arrays are NOT at root level -
-    # they must be derived from the "results" array
-
+    # Lychee 0.15.0+ JSON structure:
     total = data.get("total", 0)
-    unique = data.get("unique", 0)
-    ok = data.get("ok", 0)
-    errors_count = data.get("errors", 0)
-    excluded_count = data.get("excluded", 0)
-    timeouts = data.get("timeouts", 0)
-    redirected_count = data.get("redirected", 0)
+    successful = data.get("successful", 0)
     unknown = data.get("unknown", 0)
     unsupported = data.get("unsupported", 0)
+    timeouts = data.get("timeouts", 0)
+    redirects = data.get("redirects", 0)
+    excludes = data.get("excludes", 0)
+    errors = data.get("errors", 0)
+    unique = data.get("unique", total)
 
-    results = data.get("results", [])
-
-    # Categorize results from the results array
-    failed_links = []
-    redirected_links = []
-    excluded_links = []
-    timeout_links = []
-
-    for item in results:
-        is_excluded = item.get("is_excluded", False)
-        is_redirect = item.get("is_redirect", False)
-        error = item.get("error")
-        status = item.get("status", 0)
-
-        entry = {
-            "url": item.get("url", "N/A"),
-            "status": status,
-            "status_text": item.get("status_text", ""),
-            "redirect_url": item.get("redirect_url"),
-            "error": error,
-            "file": item.get("file", "unknown"),
-            "line": item.get("line", 0),
-            "exclude_pattern": item.get("exclude_pattern"),
-        }
-
-        if is_excluded:
-            excluded_links.append(entry)
-        elif is_redirect:
-            redirected_links.append(entry)
-        elif error or status == 0 or status >= 400:
-            failed_links.append(entry)
-        elif status == 0 or (item.get("status_text", "").lower() == "timeout"):
-            timeout_links.append(entry)
+    # Extract detailed results from maps
+    detailed = extract_detailed_results(data)
+    failed_links = detailed["failed"]
+    redirected_links = detailed["redirected"]
+    excluded_links = detailed["excluded"]
+    timeout_links = detailed["timeouts"]
 
     summary_parts = ["## Link Checker Summary\n"]
 
@@ -120,12 +140,12 @@ def generate_summary(data: dict[str, Any]) -> str:
     summary_parts.append("| --- | --- |\n")
     summary_parts.append(f"| 🔍 Total | {total} |\n")
     summary_parts.append(f"| 🔗 Unique | {unique} |\n")
-    summary_parts.append(f"| ✅ Successful | {ok} |\n")
+    summary_parts.append(f"| ✅ Successful | {successful} |\n")
     summary_parts.append(f"| ⏳ Timeouts | {timeouts} |\n")
-    summary_parts.append(f"| 🔀 Redirected | {redirected_count} |\n")
-    summary_parts.append(f"| 👻 Excluded | {excluded_count} |\n")
+    summary_parts.append(f"| 🔀 Redirected | {redirects} |\n")
+    summary_parts.append(f"| 👻 Excluded | {excludes} |\n")
     summary_parts.append(f"| ❓ Unknown | {unknown} |\n")
-    summary_parts.append(f"| 🚫 Errors | {errors_count} |\n")
+    summary_parts.append(f"| 🚫 Errors | {errors} |\n")
     summary_parts.append(f"| ⛔ Unsupported | {unsupported} |\n")
     summary_parts.append("\n")
 
@@ -189,7 +209,7 @@ def generate_summary(data: dict[str, Any]) -> str:
         # Group by pattern
         patterns = {}
         for item in excluded_links:
-            pattern = item["exclude_pattern"] or "unknown"
+            pattern = item["pattern"]
             if pattern not in patterns:
                 patterns[pattern] = []
             patterns[pattern].append(item)
@@ -206,10 +226,10 @@ def generate_summary(data: dict[str, Any]) -> str:
             summary_parts.append("\n")
 
     # SUCCESSFUL - just count, don't list (too many)
-    if ok > 0:
-        summary_parts.append(f"## ✅ Successful ({ok})\n")
+    if successful > 0:
+        summary_parts.append(f"## ✅ Successful ({successful})\n")
         summary_parts.append(
-            f"*{ok} links passed successfully. Not listed for brevity.*\n\n"
+            f"*{successful} links passed successfully. Not listed for brevity.*\n\n"
         )
 
     return "".join(summary_parts)
@@ -230,47 +250,11 @@ def truncate_summary(summary: str, max_bytes: int = 1000000) -> str:
 
 
 def main():
-    # Default files to check (same as workflow)
-    default_files = [
-        "README.md",
-        "llms.txt",
-        "llms-full.txt",
-    ]
-
-    # Add archive files
-    archive_dir = Path("archives")
-    if archive_dir.exists():
-        for pattern in ("*.md",):
-            default_files.extend(str(p) for p in archive_dir.glob(pattern))
-
-    # Also check old archive dir if exists
-    old_archive_dir = Path("archive")
-    if old_archive_dir.exists():
-        for pattern in ("*.md",):
-            default_files.extend(str(p) for p in old_archive_dir.glob(pattern))
-
-    # Build lychee arguments
-    args = [
-        "--config",
-        "lychee.toml",
-        "--exclude",
-        "(linkedin\\.com/in/|credly\\.com/users/)",
-    ] + default_files
-
-    print("Building .lycheeignore...", file=sys.stderr)
-    subprocess.run([sys.executable, "build_exclude.py"], check=False)
-
-    print("Running link checker...", file=sys.stderr)
-    data = run_lychee_json(args)
+    print("Loading lychee results...", file=sys.stderr)
+    data = load_results()
 
     # Debug: print raw data structure to stderr
     print(f"Lychee data keys: {list(data.keys())}", file=sys.stderr)
-    if "results" in data:
-        print(f"Results count: {len(data['results'])}", file=sys.stderr)
-        if data["results"]:
-            print(
-                f"First result keys: {list(data['results'][0].keys())}", file=sys.stderr
-            )
 
     print("Generating summary...", file=sys.stderr)
     summary = generate_summary(data)
@@ -292,14 +276,8 @@ def main():
         print(summary)
 
     # Exit with error code if there were failures (but not excluded)
-    # Re-categorize to check for errors/timeouts
-    results = data.get("results", [])
-    has_errors = any(
-        item.get("error") or item.get("status", 0) >= 400 or item.get("status", 0) == 0
-        for item in results
-        if not item.get("is_excluded", False) and not item.get("is_redirect", False)
-    )
-    if has_errors and isinstance(data, dict) and "error" not in data:
+    fail_map = data.get("fail_map", {})
+    if fail_map and isinstance(data, dict) and "error" not in data:
         sys.exit(1)
 
 

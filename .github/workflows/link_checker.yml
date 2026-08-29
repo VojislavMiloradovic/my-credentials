@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Enables manual triggers from the Actions tab
 
 permissions:
-  contents: read
+  contents: write # Needed to commit JSON results back to repo
   issues: write # Allows lychee to automatically open a GitHub Issue if dead links are found
 
 jobs:
@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Restore Lychee Cache
         uses: actions/cache@v4
@@ -45,7 +47,65 @@ jobs:
           sudo mv lychee /usr/local/bin/
           lychee --version
 
-      - name: Run Link Checker (with concise summary)
+      - name: Build .lycheeignore
+        run: uv run python build_exclude.py
+
+      - name: Run Link Checker (JSON output)
+        id: lychee
+        run: |
+          # Default files to check (same as workflow)
+          FILES=(
+            "README.md"
+            "llms.txt"
+            "llms-full.txt"
+          )
+
+          # Add archive files
+          for f in archives/*.md; do
+            [ -f "$f" ] && FILES+=("$f")
+          done
+
+          # Also check old archive dir if exists
+          if [ -d "archive" ]; then
+            for f in archive/*.md; do
+              [ -f "$f" ] && FILES+=("$f")
+            done
+          fi
+
+          # Build lychee arguments
+          ARGS=(
+            "--format" "json"
+            "--no-progress"
+            "--config" "lychee.toml"
+            "--exclude" "(linkedin\\.com/in/|credly\\.com/users/)"
+            "${FILES[@]}"
+          )
+
+          echo "Running lychee with ${#FILES[@]} files..."
+          lychee "${ARGS[@]}" > lychee_results.json
+          echo "lychee_results.json created ($(wc -c < lychee_results.json) bytes)"
+
+      - name: Save JSON results (latest + previous)
+        run: |
+          mkdir -p link_check_results
+          # Rotate: previous <- latest, latest <- current
+          if [ -f link_check_results/latest.json ]; then
+            mv link_check_results/latest.json link_check_results/previous.json
+          fi
+          mv lychee_results.json link_check_results/latest.json
+          echo "Saved to link_check_results/latest.json and previous.json"
+
+      - name: Generate Summary
         run: uv run python run_link_checker.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit JSON results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add link_check_results/
+          git diff --staged --quiet || git commit -m "chore: update link check results [skip ci]"
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
