@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 34 of 34
+chunk_part: 34 of 35
 date_range: 2026-08 to 2026-08
-total_entries: 20
+total_entries: 42
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-34.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,32 @@ artifacts: archive_complete, archive_index, jsonld
 
 # LinkedIn Certifications — Part 34
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-33.md](./linkedin-certifications-2026-08-part-33.md) | [Index](./linkedin-certifications-index.md) | Next: None | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-33.md](./linkedin-certifications-2026-08-part-33.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-35.md](./linkedin-certifications-2026-08-part-35.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-08 | **Build Collaborative Multi-Agent Systems with ADK & MCP** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286201?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Simplify Your Architecture with Network Connectivity Center** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286098?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Critical Thinking in AI-Driven Workflows** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285992?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Looker Core Administration** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285912?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: Build a Branded Knowledge Base** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285632?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: Master Your Meetings with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285586?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: Build a Campaign Project Tracker** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285507?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: Turn One Asset into a Campaign** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285469?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: Create Better Campaign Briefs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285427?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: Create Product Videos with Vids** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285384?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: Design Strategy Presentations** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285332?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: Automate Marketing Workflows** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285273?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: Master the ABCDQ of Prompting** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285234?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: Generate the Perfect Audio Track** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285191?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: Intro to Gemini Enterprise** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285137?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: Brand Enforcer** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285090?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: Win Pitches with Gemini Notebook** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285033?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: From Raw Data to Slides** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284973?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: The Expert Scaler** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284924?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **AI Boost Bites: The Seller's AI Data Analyst** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284867?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Gemini in Google Workspace Studio** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284806?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Google Cloud Agent Governance and Security** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284033?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **Nano Tips for Navigating Life After Layoff with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3c5d95836de6cf11d1192b2abf6dbd140def8e712004c2e78e662f25c435b7cc) |
 | 2026-08 | **Career Wellness Nano Tips with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e73dd34442fe2f554bb5855e1dfa98b968f4ffd4c8786ba3ec9d0d44c8643d16) |
 | 2026-08 | **Nano Tips for Empathetic Leadership with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fc9eaaff841ad500c00df042468d9ae8d400dfdf2d8cd7434823302912940466) |
@@ -37,5 +59,5 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08 | **Cilium AI/ML Security** | Isovalent | [Verify Record](https://www.credly.com/badges/0d6b393c-0f31-4c76-98ed-0adb380e23f0/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-33.md](./linkedin-certifications-2026-08-part-33.md) | [Index](./linkedin-certifications-index.md) | Next: None
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-33.md](./linkedin-certifications-2026-08-part-33.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-35.md](./linkedin-certifications-2026-08-part-35.md)
 

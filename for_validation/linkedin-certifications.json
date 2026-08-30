@@ -1,11 +1,11 @@
 {
   "platform": "linkedin-certifications",
-  "total_count": 1521,
+  "total_count": 1588,
   "certifications": [
     {
       "name": "Career Essentials in Generative AI by Microsoft and LinkedIn",
       "authority": "Microsoft",
-      "issued": "2026-02",
+      "issued": "2026-03",
       "url": "https://www.linkedin.com/learning/certificates/b07baba3e2d573dbb80201cb55d79a9776941fcd423f077457923e53bb47dcfb",
       "license": "",
       "original_order": 0,
@@ -14,7 +14,7 @@
     {
       "name": "Build Your Generative AI Productivity Skills with Microsoft and LinkedIn",
       "authority": "Microsoft",
-      "issued": "2026-02",
+      "issued": "2026-03",
       "url": "https://www.linkedin.com/learning/certificates/9c7e9c6c769dad8b4e03ccd16ef3cae209895323fbe8d9f7bac48767b309a81d",
       "license": "",
       "original_order": 1,
@@ -23,7 +23,7 @@
     {
       "name": "Preparing for the Future of Work with AI Agents",
       "authority": "LinkedIn",
-      "issued": "2026-02",
+      "issued": "2026-03",
       "url": "https://www.linkedin.com/learning/certificates/e539869c9437b99c694205b6bf274eef97f5d7ff64e5fbc0433b226d858a8315",
       "license": "",
       "original_order": 2,
@@ -32,7 +32,7 @@
     {
       "name": "Fundamentals of digital marketing",
       "authority": "Google Digital Academy (Skillshop)",
-      "issued": "2026-02",
+      "issued": "2026-03",
       "url": "https://skillshop.exceedlms.com/student/award/RuM7eufo8FGxiFKdoKune8HD",
       "license": "444354710",
       "original_order": 3,
@@ -207,7 +207,9 @@
       "url": "https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4",
       "license": "",
       "original_order": 22,
-      "retired": false
+      "retired": true,
+      "retirement_reason": "Course retired by LinkedIn Learning",
+      "retired_at": "2026-08-01"
     },
     {
       "name": "Conversion Optimization Certification Exam",
@@ -3866,7 +3868,7 @@
     {
       "name": "Ethics in the Age of Generative AI",
       "authority": "LinkedIn",
-      "issued": "2026-02",
+      "issued": "2026-03",
       "url": "https://www.linkedin.com/learning/certificates/81172a2f26ee5028965fae175cd98c07a750b0b0d5f6b30cd42abd8f9d950c5f",
       "license": "",
       "original_order": 429,
@@ -4253,7 +4255,7 @@
     {
       "name": "What Is Generative AI?",
       "authority": "LinkedIn",
-      "issued": "2026-02",
+      "issued": "2026-03",
       "url": "https://www.linkedin.com/learning/certificates/2004c711ab3acf5357eeb3306378f06aa8a591232f4984a4730d786670b381d7",
       "license": "",
       "original_order": 472,
@@ -6602,7 +6604,7 @@
     {
       "name": "Serverless Data Processing with Dataflow: Foundations",
       "authority": "Google",
-      "issued": "2026-02",
+      "issued": "2026-03",
       "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22543145?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
       "license": "22543145",
       "original_order": 733,
@@ -6611,7 +6613,7 @@
     {
       "name": "Serverless Data Processing with Dataflow: Develop Pipelines",
       "authority": "Google",
-      "issued": "2026-02",
+      "issued": "2026-03",
       "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22543230?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
       "license": "22543230",
       "original_order": 734,
@@ -6620,7 +6622,7 @@
     {
       "name": "Build a Certification Study Guide: PMLE",
       "authority": "Google",
-      "issued": "2026-02",
+      "issued": "2026-03",
       "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22568934?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
       "license": "22568934",
       "original_order": 735,
@@ -13689,6 +13691,609 @@
       "url": "https://www.linkedin.com/learning/certificates/3c5d95836de6cf11d1192b2abf6dbd140def8e712004c2e78e662f25c435b7cc",
       "license": "",
       "original_order": 1520,
+      "retired": false
+    },
+    {
+      "name": "Google Cloud Agent Governance and Security",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284033?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27284033",
+      "original_order": 1521,
+      "retired": false
+    },
+    {
+      "name": "Gemini in Google Workspace Studio",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284806?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27284806",
+      "original_order": 1522,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: The Seller's AI Data Analyst",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284867?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27284867",
+      "original_order": 1523,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: The Expert Scaler",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284924?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27284924",
+      "original_order": 1524,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: From Raw Data to Slides",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284973?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27284973",
+      "original_order": 1525,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: Win Pitches with Gemini Notebook",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285033?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285033",
+      "original_order": 1526,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: Brand Enforcer",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285090?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285090",
+      "original_order": 1527,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: Intro to Gemini Enterprise",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285137?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285137",
+      "original_order": 1528,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: Generate the Perfect Audio Track",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285191?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285191",
+      "original_order": 1529,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: Master the ABCDQ of Prompting",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285234?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285234",
+      "original_order": 1530,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: Automate Marketing Workflows",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285273?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285273",
+      "original_order": 1531,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: Design Strategy Presentations",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285332?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285332",
+      "original_order": 1532,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: Create Product Videos with Vids",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285384?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285384",
+      "original_order": 1533,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: Create Better Campaign Briefs",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285427?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285427",
+      "original_order": 1534,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: Turn One Asset into a Campaign",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285469?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285469",
+      "original_order": 1535,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: Build a Campaign Project Tracker",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285507?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285507",
+      "original_order": 1536,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: Master Your Meetings with Gemini",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285586?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285586",
+      "original_order": 1537,
+      "retired": false
+    },
+    {
+      "name": "AI Boost Bites: Build a Branded Knowledge Base",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285632?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285632",
+      "original_order": 1538,
+      "retired": false
+    },
+    {
+      "name": "Looker Core Administration",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285912?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285912",
+      "original_order": 1539,
+      "retired": false
+    },
+    {
+      "name": "Critical Thinking in AI-Driven Workflows",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285992?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27285992",
+      "original_order": 1540,
+      "retired": false
+    },
+    {
+      "name": "Simplify Your Architecture with Network Connectivity Center",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286098?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27286098",
+      "original_order": 1541,
+      "retired": false
+    },
+    {
+      "name": "Build Collaborative Multi-Agent Systems with ADK & MCP",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286201?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27286201",
+      "original_order": 1542,
+      "retired": false
+    },
+    {
+      "name": "Build Agent Skills with Google",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286234?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27286234",
+      "original_order": 1543,
+      "retired": false
+    },
+    {
+      "name": "Google DeepMind : 08 Capstone: Develop Your Model for Real-World Impact",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286333?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27286333",
+      "original_order": 1544,
+      "retired": false
+    },
+    {
+      "name": "Secure Enterprise AI Agents",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286386?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27286386",
+      "original_order": 1545,
+      "retired": false
+    },
+    {
+      "name": "Build a Certification Study Guide: ADP Exam Prep",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286575?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27286575",
+      "original_order": 1546,
+      "retired": false
+    },
+    {
+      "name": "Generative AI Explorer - Agent Platform",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27296691?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27296691",
+      "original_order": 1547,
+      "retired": false
+    },
+    {
+      "name": "Build LookML Objects in Looker Skill Badge",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/f1fe4c27-fc5b-4f16-857c-0a78b63662de/linked_in_profile",
+      "license": "f1fe4c27-fc5b-4f16-857c-0a78b63662de",
+      "original_order": 1548,
+      "retired": false
+    },
+    {
+      "name": "Implement Cloud Storage and Data Protection Solutions",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/d6b57587-ca0e-49ae-ac3f-c27583931211/linked_in_profile",
+      "license": "d6b57587-ca0e-49ae-ac3f-c27583931211",
+      "original_order": 1549,
+      "retired": false
+    },
+    {
+      "name": "Arcade Re-Trail: Vaults & Vectors",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27327295?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27327295",
+      "original_order": 1550,
+      "retired": false
+    },
+    {
+      "name": "Analyze Sentiment with Natural Language API Skill Badge",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/4ad490cd-fa1d-4436-8895-6d233aa59d3f/linked_in_profile",
+      "license": "4ad490cd-fa1d-4436-8895-6d233aa59d3f",
+      "original_order": 1551,
+      "retired": false
+    },
+    {
+      "name": "Monitoring in Google Cloud Skill Badge",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/7f426d35-6e3b-419e-8236-e382d94e9666/linked_in_profile",
+      "license": "7f426d35-6e3b-419e-8236-e382d94e9666",
+      "original_order": 1552,
+      "retired": false
+    },
+    {
+      "name": "Arcade Base Camp August 2026",
+      "authority": "Google",
+      "issued": "2026-08",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329116?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "license": "27329116",
+      "original_order": 1553,
+      "retired": false
+    },
+    {
+      "name": "Cloud Tech Professional Security Awareness Training",
+      "authority": "Acronis",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/a27ae8fb-f3f3-4cec-9c2c-b6ba415f4150/linked_in_profile",
+      "license": "a27ae8fb-f3f3-4cec-9c2c-b6ba415f4150",
+      "original_order": 1554,
+      "retired": false
+    },
+    {
+      "name": "Cloud Tech Professional Microsoft 365",
+      "authority": "Acronis",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/da472709-da7d-4ddd-9611-e119004c08f3/linked_in_profile",
+      "license": "da472709-da7d-4ddd-9611-e119004c08f3",
+      "original_order": 1555,
+      "retired": false
+    },
+    {
+      "name": "Cloud Computing Fundamentals",
+      "authority": "IBM",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/3372ff55-1a0f-4fd1-b85e-4642dae974c0/linked_in_profile",
+      "license": "3372ff55-1a0f-4fd1-b85e-4642dae974c0",
+      "original_order": 1556,
+      "retired": false
+    },
+    {
+      "name": "Getting Started with Data",
+      "authority": "IBM",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/0fa215bc-cc0b-46a6-a2cd-2963394e085d/linked_in_profile",
+      "license": "0fa215bc-cc0b-46a6-a2cd-2963394e085d",
+      "original_order": 1557,
+      "retired": false
+    },
+    {
+      "name": "Kubernetes Packet Capture with Isopcap",
+      "authority": "Isovalent",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/9d1ee8e2-bc9c-491e-aea3-9b28c417ddff/linked_in_profile",
+      "license": "9d1ee8e2-bc9c-491e-aea3-9b28c417ddff",
+      "original_order": 1558,
+      "retired": false
+    },
+    {
+      "name": "Cilium SCTP",
+      "authority": "Isovalent",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/93beb0d4-956a-4579-b936-626a9fd880d8/linked_in_profile",
+      "license": "93beb0d4-956a-4579-b936-626a9fd880d8",
+      "original_order": 1559,
+      "retired": false
+    },
+    {
+      "name": "Isovalent Lab Champion (40 labs)",
+      "authority": "Isovalent",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/ca469b74-715c-4426-915e-a0b50da4cdd7/linked_in_profile",
+      "license": "ca469b74-715c-4426-915e-a0b50da4cdd7",
+      "original_order": 1560,
+      "retired": false
+    },
+    {
+      "name": "Network Policy Governance",
+      "authority": "Isovalent",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/09b34caf-720a-4689-9559-a2fa0ff72b79/linked_in_profile",
+      "license": "09b34caf-720a-4689-9559-a2fa0ff72b79",
+      "original_order": 1561,
+      "retired": false
+    },
+    {
+      "name": "SSE Expert Certification",
+      "authority": "Cato Networks",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/2d5a7b6b-db2d-4a99-814a-870cea7ec348/linked_in_profile",
+      "license": "2d5a7b6b-db2d-4a99-814a-870cea7ec348",
+      "original_order": 1562,
+      "retired": false
+    },
+    {
+      "name": "SASE Advanced Security",
+      "authority": "Cato Networks",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/3a796ab4-659a-4141-a249-b6f94611201f/linked_in_profile",
+      "license": "3a796ab4-659a-4141-a249-b6f94611201f",
+      "original_order": 1563,
+      "retired": false
+    },
+    {
+      "name": "SASE Deployment and Management",
+      "authority": "Cato Networks",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/906c5b04-f903-46cb-805c-9b3f0729718f/linked_in_profile",
+      "license": "906c5b04-f903-46cb-805c-9b3f0729718f",
+      "original_order": 1564,
+      "retired": false
+    },
+    {
+      "name": "Upcoming Live Event, Aug 25: How to Turn AI Skeptics into Adoption Champions with Angie Jones",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/bffbb36184356e50236eca353705dc0972d4184ff216bddbc297f1c168f1875b",
+      "license": "",
+      "original_order": 1565,
+      "retired": false
+    },
+    {
+      "name": "Creative Inspirations: Margo Chase, Graphic Designer",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/53e018b054ef74b7a4b5d46acf8ef6da62cab9f6dee8381af2e7f2e21ea71b28",
+      "license": "",
+      "original_order": 1566,
+      "retired": false
+    },
+    {
+      "name": "Fred Kofman on Accountability",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/11b092f18f4ac45d778282531cda9b1aa14b3da70af5ebccbeb61a098452fc7a",
+      "license": "",
+      "original_order": 1567,
+      "retired": false
+    },
+    {
+      "name": "Recession-Proof Career Strategies",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/1a5c02c3d8061c6176e42c1996cd5b30928beb8c3fa21696694233d8436ca231",
+      "license": "",
+      "original_order": 1568,
+      "retired": false
+    },
+    {
+      "name": "Reopening: A Special Series from the Hello Monday Podcast",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/765c82be8fe509f0c5397928ce83b6ecd332fdb299f50ffbcff0f61016078451",
+      "license": "",
+      "original_order": 1569,
+      "retired": false
+    },
+    {
+      "name": "Career Advice from Some of the Biggest Names in Business",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/129dadb4af7918dbf354b048a3d5b39fc68f3be88ce3a044152d8b81058f491a",
+      "license": "",
+      "original_order": 1570,
+      "retired": false
+    },
+    {
+      "name": "SASE Business Impact and Strategy",
+      "authority": "Cato Networks",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/87458b9d-8699-412d-b198-10f5f7366da9/linked_in_profile",
+      "license": "87458b9d-8699-412d-b198-10f5f7366da9",
+      "original_order": 1571,
+      "retired": false
+    },
+    {
+      "name": "Zero Trust Security Essentials",
+      "authority": "Cato Networks",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/b666adab-35fe-4f0c-883d-9bb0939173a6/linked_in_profile",
+      "license": "b666adab-35fe-4f0c-883d-9bb0939173a6",
+      "original_order": 1572,
+      "retired": false
+    },
+    {
+      "name": "The Path: Advice from Business Leaders to Guide Your Career",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/726cf9935b225b0a33c25dcc202e1d04aff85d7c5041d55e474d601935d2d742",
+      "license": "",
+      "original_order": 1573,
+      "retired": false
+    },
+    {
+      "name": "Nano Tips to Fast-Track Your Career with Tiffany Uman",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/9537a492cc06e275d078308444bb17358508530eedae74ccb8051717c0588f9b",
+      "license": "",
+      "original_order": 1574,
+      "retired": false
+    },
+    {
+      "name": "A First Look at LinkedIn Learning Career Hub",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/3e9c8061971524f1458a483635b9a4c11731a90699a600e6a54bfa916bd7f249",
+      "license": "",
+      "original_order": 1575,
+      "retired": false
+    },
+    {
+      "name": "Nano Tips for Building Your Employee Brand with Allison Peck",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/4f485eba48bf50f119e60fdab0f56f6fed40e8dec01c3b3ff3cbe90a64509b04",
+      "license": "",
+      "original_order": 1576,
+      "retired": false
+    },
+    {
+      "name": "Nano Tips to Find the Right Executive Coach with Elayne Fluker",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/133567e5d48a6a941a4f725c65a62c26d5875cbb5f3c43a3b9080aa0a6a50b41",
+      "license": "",
+      "original_order": 1577,
+      "retired": false
+    },
+    {
+      "name": "Nano Tips for Simple Meetings with Lisa Bodell",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/b043154796a98c52859a09b6d544fa5b68b0700d561a2fbc8aa3aa7c17eb3465",
+      "license": "",
+      "original_order": 1578,
+      "retired": false
+    },
+    {
+      "name": "The Shift Toward a Skills-First Mindset: A Thought-Leader Roundtable",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/864297f620035731b2fa38706bb23908976925123b77b2fb449612d0cf2ca061",
+      "license": "",
+      "original_order": 1579,
+      "retired": false
+    },
+    {
+      "name": "Is College Still Worth It? Real Answers about Careers and the Future of Work",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/920e72a3d24a2594e1ed202b71389aefed90d1d631fb5aba1411c236b008bcf2",
+      "license": "",
+      "original_order": 1580,
+      "retired": false
+    },
+    {
+      "name": "Artificial Intelligence Fundamentals",
+      "authority": "IBM",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/aac932d8-d7d0-4966-a8a3-eca0e69f795e/linked_in_profile",
+      "license": "aac932d8-d7d0-4966-a8a3-eca0e69f795e",
+      "original_order": 1581,
+      "retired": false
+    },
+    {
+      "name": "LinkedIn Profiles for Technical Professionals",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/487c857032e423e902de860b7d1c70f5e52422eafbd8bf1a84ebaaa8bb3a357b",
+      "license": "",
+      "original_order": 1582,
+      "retired": false
+    },
+    {
+      "name": "Nano Tips for Managing Across Cultures with Tatiana Kolovou",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/424ef0834f5c2489df8da45d4f44bb3ce9d5c17d275d35035c039cdd234e601b",
+      "license": "",
+      "original_order": 1583,
+      "retired": false
+    },
+    {
+      "name": "Persuading Others (with Audio Descriptions)",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/c3b3e257b2ad43a77a84dded2d3a32e7d7cae76c21152330cce82e9c0f727b8c",
+      "license": "",
+      "original_order": 1584,
+      "retired": false
+    },
+    {
+      "name": "Nano Tips for Inclusive Leadership with India Martin",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/a09c174390f7ca190a0101ef0c87d575acdde92cfe2d58349c23233fd51a8a00",
+      "license": "",
+      "original_order": 1585,
+      "retired": false
+    },
+    {
+      "name": "Data Fundamentals",
+      "authority": "IBM",
+      "issued": "2026-08",
+      "url": "https://www.credly.com/badges/48961c89-7ace-474a-9a78-34e0b63722d5/linked_in_profile",
+      "license": "48961c89-7ace-474a-9a78-34e0b63722d5",
+      "original_order": 1586,
+      "retired": false
+    },
+    {
+      "name": "A Manager's Guide to Learning in the Flow of Work with LinkedIn Learning",
+      "authority": "LinkedIn",
+      "issued": "2026-08",
+      "url": "https://www.linkedin.com/learning/certificates/8108de1a5d8132d293ce4d8ff39b9d6a5d6df65f07107093bfcf10762bcc6845",
+      "license": "",
+      "original_order": 1587,
       "retired": false
     }
   ]

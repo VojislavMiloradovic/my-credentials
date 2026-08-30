@@ -168,24 +168,24 @@ Showing latest 10 of 586 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,521 |
+| **Total External Certifications Verified** | 1,588 |
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-08-part-34.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-34.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-08-part-35.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-35.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-08* | **Nano Tips for Navigating Life After Layoff with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3c5d95836de6cf11d1192b2abf6dbd140def8e712004c2e78e662f25c435b7cc) |
-| *2026-08* | **Career Wellness Nano Tips with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e73dd34442fe2f554bb5855e1dfa98b968f4ffd4c8786ba3ec9d0d44c8643d16) |
-| *2026-08* | **Nano Tips for Empathetic Leadership with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fc9eaaff841ad500c00df042468d9ae8d400dfdf2d8cd7434823302912940466) |
-| *2026-08* | **Personal Finance Nano Tips with Brittney Castro** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4ace4fdf7e59f338eab06b7f5ab10c4df6f92e8032d300292d7cfe39979f10ef) |
-| *2026-08* | **Nano Tips for Overcoming Imposter Syndrome at Work with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cae79de2ce1addf6ce36acb939781918c80e1c09803a44ddb9eed0e938d71b24) |
-| *2026-08* | **Nano Tips on How to Apologize Authentically with Arti Halai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b8516aa5d871050f4893098576f4c6d67194437a81425c03cecaeb7775fb8e23) |
-| *2026-08* | **Nano Tips to Foster a Growth Mindset and Mental Agility with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/67f9e8b0f8b19b75b96d43c647dc984993e7769a116b1fa0f8595422103d484b) |
-| *2026-08* | **Job Interview Nano Tips with Madeline Mann** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e7b22fafa49c9c13d5968e1e62fb7fb0971403a42e545b0881c59d7ff44aa848) |
-| *2026-08* | **Nano Tips for Cross-Cultural Communication for Leaders with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c0f9659727332a17d9ceb7d012168877898e6ec8af230bcb5adaf57061942651) |
-| *2026-08* | **Nano Tips to Stand Out as an Introvert with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cfff51780fa31c43f1c848c69e0ea5cc08ac3b475526905d08727cebeb231a86) |
+| *2026-08* | **A Manager's Guide to Learning in the Flow of Work with LinkedIn Learning** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8108de1a5d8132d293ce4d8ff39b9d6a5d6df65f07107093bfcf10762bcc6845) |
+| *2026-08* | **Data Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/48961c89-7ace-474a-9a78-34e0b63722d5/linked_in_profile) |
+| *2026-08* | **Nano Tips for Inclusive Leadership with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a09c174390f7ca190a0101ef0c87d575acdde92cfe2d58349c23233fd51a8a00) |
+| *2026-08* | **Persuading Others (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c3b3e257b2ad43a77a84dded2d3a32e7d7cae76c21152330cce82e9c0f727b8c) |
+| *2026-08* | **Nano Tips for Managing Across Cultures with Tatiana Kolovou** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/424ef0834f5c2489df8da45d4f44bb3ce9d5c17d275d35035c039cdd234e601b) |
+| *2026-08* | **LinkedIn Profiles for Technical Professionals** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/487c857032e423e902de860b7d1c70f5e52422eafbd8bf1a84ebaaa8bb3a357b) |
+| *2026-08* | **Artificial Intelligence Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/aac932d8-d7d0-4966-a8a3-eca0e69f795e/linked_in_profile) |
+| *2026-08* | **Is College Still Worth It? Real Answers about Careers and the Future of Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/920e72a3d24a2594e1ed202b71389aefed90d1d631fb5aba1411c236b008bcf2) |
+| *2026-08* | **The Shift Toward a Skills-First Mindset: A Thought-Leader Roundtable** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/864297f620035731b2fa38706bb23908976925123b77b2fb449612d0cf2ca061) |
+| *2026-08* | **Nano Tips for Simple Meetings with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b043154796a98c52859a09b6d544fa5b68b0700d561a2fbc8aa3aa7c17eb3465) |
 <!-- LINKEDIN_END -->
 
 
