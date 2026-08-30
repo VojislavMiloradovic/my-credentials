@@ -29,28 +29,15 @@ try:
         RAW_BASE_DEFAULT,
         generate_platform_archive,
         safe_write_file,
-        update_readme_stats,
     )
 except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
     generate_platform_archive = None
-
-    def safe_write_file(filepath: str, new_content: str) -> bool:
-        if os.path.exists(filepath):
-            try:
-                with open(filepath, "r", encoding="utf-8") as f:
-                    if f.read() == new_content:
-                        return False
-            except Exception:
-                pass
-        with open(filepath, "w", encoding="utf-8", newline="\n") as f:
-            f.write(new_content)
-        return True
+    safe_write_file = lambda filepath, new_content: False
 
     def update_readme_stats(*args, **kwargs):
         """Fallback no-op for update_readme_stats."""
         return
-
 
 # Content-Aware Loss Guard
 try:
