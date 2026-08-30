@@ -4,6 +4,9 @@ chunk_part: 11 of 34
 date_range: 2026-05-26 to 2026-05-27
 total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-11.md
+layer: L2_published
+transform: unknown
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # Google Developer Profile — Part 11

@@ -200,25 +200,20 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 
 | Metric | Count |
 | :--- | :--- |
-| **Total Milestones & Milestone Badges** | 171 |
-| **Total Codelabs & Learning Activities** | 1,586 |
+| **Total Milestones & Milestone Badges** | 4 |
+| **Total Codelabs & Learning Activities** | 1 |
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-08-part-34.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-34.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| *2026-08-22* | **Achieve instant navigations with the Speculation Rules API** | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/speculation-rules |
-| *2026-08-22* | **Wrangling unstructured data with LLM-driven vector embedding** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/smart-bookmark-agent-antigravity/instructions |
-| *2026-08-22* | **Getting started with vector embeddings in Cloud SQL for PostgreSQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/csql-pg-ai-embedding |
-| *2026-08-22* | **Semantic Analysis in BigQuery with managed AI functions and SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-managed-ai-operators |
-| *2026-08-22* | **(Deprecated) Login with Biometrics on Android** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/biometric-login |
-| *2026-08-22* | **Table for N: eval as the gate, evolution as the loop** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/loop-lab-table/instructions |
-| *2026-08-22* | **How to build long-term AI agent memory with AlloyDB AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-agentic-tiered-memory |
-| *2026-08-22* | **Serving AVIF Images** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/avif |
-| *2026-08-22* | **Analyze and enrich enterprise data with generative AI and SQL in BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-generative-ai-intro |
-| *2026-08-22* | **Fraud Detection Pipeline with Data Agent Kit & Antigravity IDE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dak-data-science-antigravity-ide |
+| *2024-08-17* | **Setup Basic OpenTelemetry Plugin in gRPC Python** | Verified Google Developer granular learning activity module milestone. |
+| *2024-01-17* | **Cloud Architect** | Official Google Developer platform achievement (Learning Pathway: cloud architect). |
+| *2024-01-17* | **Data Engineer** | Official Google Developer platform achievement (Learning Pathway: data engineer). |
+| *2024-01-15* | **Cloud Architecture** | Official Google Developer platform achievement (Learning Pathway: cloud architecture). |
+| *2024-01-15* | **Data Engineering** | Official Google Developer platform achievement (Learning Pathway: data engineering). |
 <!-- GOOGLE_DEVELOPER_END -->
 
 

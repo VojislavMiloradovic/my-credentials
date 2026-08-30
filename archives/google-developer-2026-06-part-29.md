@@ -2,8 +2,11 @@
 archive_platform: Google Developer Profile
 chunk_part: 29 of 34
 date_range: 2026-06-20 to 2026-06-22
-total_entries: 49
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-29.md
+layer: L2_published
+transform: unknown
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # Google Developer Profile — Part 29
@@ -12,8 +15,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-22 | **Add Firebase to your Flutter app** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-flutter |
-| 2026-06-22 | **Create a Generative Chat App with Vertex AI Conversation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vertex-ai-conversation |
 | 2026-06-22 | **Create an accessible and personalized theme and brand with Material Design 3** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/m3-design-theming |
 | 2026-06-22 | **Cloud Firestore iOS Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firestore-ios |
 | 2026-06-22 | **Building an Accessible Multimodal AI Agent: Voice, Vision, and Conversation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/natively-accessible-interface/instructions |
@@ -42,7 +43,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-22 | **Deploy ASP.NET app to Windows Server on Compute Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-compute-engine-aspnet |
 | 2026-06-22 | **Deploy Windows Server with ASP.NET Framework to Compute Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-create-vm-windows-dotnet |
 | 2026-06-22 | **Cloud Firestore Web Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firestore-web |
-| 2026-06-22 | **codelabs.developers.google.com/alloydb-omni-vm-ha-deployment** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-vm-ha-deployment |
+| 2026-06-22 | **codelabs.developers.google.com/alloydb-omni-vm-ha-deployment** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-vm-ha-deployment 🚫 *Content retired* |
 | 2026-06-22 | **Connect AlloyDB to Oracle through Google VPN** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/alloydb-oracle-fdw-vpn |
 | 2026-06-22 | **Control a PLAYBULB candle with Web Bluetooth** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/candle-bluetooth |
 | 2026-06-20 | **Build Event-Driven AI Agents with Eventarc, Cloud Run and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/eventarc-ai-agents |
@@ -61,6 +62,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-20 | **Building Persistent AI Agents with ADK and CloudSQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/persistent-adk-cloudsql |
 | 2026-06-20 | **Build QA Test Planner Agent using ADK, MCP, and Gemini 2.5 Flash with Thinking Mode** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/qa-test-planner-adk-mcp |
 | 2026-06-20 | **Build a handwritten digit classifier app with TensorFlow Lite** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/digit-classifier-tflite |
+| 2026-06-20 | **Build, train, and deploy an XGBoost model on Cloud AI Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/xgb-caip-e2e |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-28.md](./google-developer-2026-06-part-28.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-30.md](./google-developer-2026-06-part-30.md)

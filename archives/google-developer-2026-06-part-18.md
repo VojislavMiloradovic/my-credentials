@@ -1,9 +1,12 @@
 ---
 archive_platform: Google Developer Profile
 chunk_part: 18 of 34
-date_range: 2026-06-05 to 2026-06-06
+date_range: 2026-06-05 to 2026-06-05
 total_entries: 66
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-18.md
+layer: L2_published
+transform: unknown
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # Google Developer Profile — Part 18
@@ -12,7 +15,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-06 | **Practice: Compose Basics** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-composables-practice-problems |
 | 2026-06-05 | **Android Basics Compose Unit 8 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 2). |
 | 2026-06-05 | **Engage Users With Firebase** | Official Google Developer platform achievement (Learning Pathway: engage users with firebase). |
 | 2026-06-05 | **GDG Belgrade** | Official Google Developer platform achievement (Community: gdg belgrade). |
@@ -71,6 +73,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-05 | **Passkeys Web 2** | Official Google Developer platform achievement (Learning Pathway: passkeys web 2). |
 | 2026-06-05 | **Learn Javascript** | Official Google Developer platform achievement (Learning Pathway: learn javascript). |
 | 2026-06-05 | **Android 11 Week 7** | Official Google Developer platform achievement (Learning Pathway: android 11 week 7). |
+| 2026-06-05 | **Milestone1** | Official Google Developer platform achievement (Learning Pathway: milestone1). |
 | 2026-06-05 | **Android Basics Compose Unit 5 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 5 pathway 2). |
 | 2026-06-05 | **Ai Gemini 101** | Official Google Developer platform achievement (Learning Pathway: ai gemini 101). |
 | 2026-06-05 | **Learn Images** | Official Google Developer platform achievement (Learning Pathway: learn images). |

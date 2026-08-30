@@ -39,6 +39,7 @@ except ImportError:
         """Fallback no-op for update_readme_stats."""
         return
 
+
 # Content-Aware Loss Guard
 try:
     from loss_guard import PipelineDataLossAnomaly, execute_content_loss_guard
@@ -272,7 +273,7 @@ def fix_mojibake(text: str) -> str:
     """Fix common mojibake patterns from MHTML quoted-printable decoding.
 
     Common issues:
-    - Em dash (—) becomes ��� or â€" or â€"
+    - Em dash (—) becomes     or â€" or â€"
     - En dash (–) becomes â€" or â€"
     - Smart quotes become â€œ/â€"
     - Bullet points become â€¢
@@ -295,14 +296,14 @@ def fix_mojibake(text: str) -> str:
         "\u00e2\u20ac\u00a1": "\u2021",  # double dagger (â€¡)
         "\u00e2\u20ac\u0094": "\u2014",  # em dash variant (â€ )
         "\u00ef\u00bf\u00bd": "\u2014",  # replacement char variant (ï¿½)
-        "\u00ef\u00bf\u00bf": "",  # replacement char (￿)
+        "\u00ef\u00bf\u00bf": "",  # replacement char ( )
     }
 
     result = text
     for bad, good in replacements.items():
         result = result.replace(bad, good)
 
-    # Also handle the literal ��� sequence (3 replacement chars = 1 em dash)
+    # Also handle the literal     sequence (3 replacement chars = 1 em dash)
     result = re.sub(r"\uFFFD{3,}", "\u2014", result)
     result = re.sub(r"\uFFFD{2}", "\u2013", result)
     result = re.sub(r"\uFFFD", "", result)  # Remove any remaining replacement chars

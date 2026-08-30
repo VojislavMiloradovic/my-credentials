@@ -4,6 +4,9 @@ chunk_part: 6 of 34
 date_range: 2026-05-21 to 2026-05-23
 total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-06.md
+layer: L2_published
+transform: unknown
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # Google Developer Profile — Part 06
@@ -48,7 +51,7 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-05-21 | **Cloud Spanner: Graph Intelligence using Spanner Graph Algorithms** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spanner-graph-algorithms |
 | 2026-05-21 | **Deploy ADK agents to Google Kubernetes Engine (GKE)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/5-deploying-agents/deploy-adk-agents-to-gke |
 | 2026-05-21 | **Build a Location Intelligence ADK Agent with MCP servers for BigQuery and Google Maps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-mcp-bigquery-maps |
-| 2026-05-21 | **codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata |
+| 2026-05-21 | **codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata 🚫 *Content retired* |
 | 2026-05-21 | **Agent Engine PSC Explicit Proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-engine-psc-interface-private |
 | 2026-05-21 | **Live Streaming on Google Cloud with Media CDN and Live Streaming API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mediacdn-ls-codelab |
 | 2026-05-21 | **Next ‘26 Keynote: Fabric of Unified Intelligence** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/gen-keynote/unified-intelligence |

@@ -1,9 +1,12 @@
 ---
 archive_platform: Google Developer Profile
 chunk_part: 32 of 34
-date_range: 2026-06-29 to 2026-07-07
+date_range: 2026-06-29 to 2026-07-02
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-07-part-32.md
+layer: L2_published
+transform: unknown
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # Google Developer Profile — Part 32
@@ -12,9 +15,6 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-07-07 | **Test your app with Firebase and Continuous Integration** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-continuous-integration |
-| 2026-07-03 | **Google Cloud MCP for AlloyDB for AI Agents** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-mcp |
-| 2026-07-03 | **Vibe Coding with AlloyDB: From 0 to Prod with Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vibe-coding-postgres-mcp |
 | 2026-07-02 | **Get to know Cloud Firestore** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-firestore/cloud-firestore |
 | 2026-07-02 | **Build with Google Maps Platform and AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/build-with-google-maps-platform-and-ai |
 | 2026-07-02 | **Build web apps backed by Cloud Firestore** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-firestore |
@@ -62,6 +62,9 @@ raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/ma
 | 2026-06-29 | **Android Views and Compose in Views** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-8-pathway-1 |
 | 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #5: Chart and Present Data in Slides** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/apps-script-fundamentals-5 |
 | 2026-06-29 | **Implement Material Design in web apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/mdc-web |
+| 2026-06-29 | **Engage your web app's users with push notifications** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/pwa-push-notifications |
+| 2026-06-29 | **Wear OS** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/wear |
+| 2026-06-29 | **Boost your web apps with Fugu APIs** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/fugu-apis |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-31.md](./google-developer-2026-06-part-31.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-08-part-33.md](./google-developer-2026-08-part-33.md)

@@ -4,6 +4,9 @@ chunk_part: 15 of 34
 date_range: 2026-06-03 to 2026-06-05
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-15.md
+layer: L2_published
+transform: unknown
+artifacts: archive_complete, archive_index, jsonld
 ---
 
 # Google Developer Profile — Part 15

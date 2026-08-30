@@ -1,11 +1,25 @@
 # Complete Google Developer Profile Archive
 
-This document represents a unified, verifiable list of all 1642 records.
+This document represents a unified, verifiable list of all 1653 records.
+
+<!-- layer: L2_published -->
+<!-- transform: unknown -->
+<!-- artifacts: archive_complete, archive_index, jsonld -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-28 | **How to Deploy OpenClaw on Cloud Run Instances** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-openclaw-cloud-run-instances |
+| 2026-08-28 | **Way Back Home - Level 0: Identify Yourself** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-0/instructions |
+| 2026-08-28 | **Build Your First Database-Backed Web App with Google AI Studio and Cloud SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-ai-studio-csql |
+| 2026-08-28 | **Build a User-Authenticated AI Application with Custom Instructions on Google AI Studio & Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-ai-challenge |
+| 2026-08-28 | **QueryData for AlloyDB using Gemini Data Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/alloydb-querydata |
+| 2026-08-28 | **Google's Agent Stack in Action: ADK, A2A, MCP on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/instavibe-adk-multi-agents/instructions |
+| 2026-08-28 | **Find and fix application issues with Gemini Cloud Assist** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/gemini-cloud-assist-debug-database |
+| 2026-08-28 | **Google Workspace MCP servers with Antigravity in Gemini Enterprise** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-mcp-antigravity-ge |
+| 2026-08-28 | **Way Back Home - Live Bidirectional Multi-Agent system** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-4/instructions |
+| 2026-08-28 | **Getting started with Hybrid Search in AlloyDB and Apache Solr** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-solr-fdw |
 | 2026-08-22 | **Achieve instant navigations with the Speculation Rules API** | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/speculation-rules |
 | 2026-08-22 | **Wrangling unstructured data with LLM-driven vector embedding** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/smart-bookmark-agent-antigravity/instructions |
 | 2026-08-22 | **Getting started with vector embeddings in Cloud SQL for PostgreSQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/csql-pg-ai-embedding |
@@ -15,7 +29,7 @@ This document represents a unified, verifiable list of all 1642 records.
 | 2026-08-22 | **How to build long-term AI agent memory with AlloyDB AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-agentic-tiered-memory |
 | 2026-08-22 | **Serving AVIF Images** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/avif |
 | 2026-08-22 | **Analyze and enrich enterprise data with generative AI and SQL in BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-generative-ai-intro |
-| 2026-08-22 | **Fraud Detection Pipeline with Data Agent Kit & Antigravity IDE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dak-data-science-antigravity-ide |
+| 2026-08-22 | **Fraud Detection Pipeline with Data Agent Kit and Antigravity IDE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dak-data-science-antigravity-ide |
 | 2026-08-22 | **Progressive Web Apps: Going Offline** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training |
 | 2026-08-22 | **Control a PLAYBULB Candle with Web Bluetooth** | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/candle-bluetooth |
 | 2026-08-22 | **How to execute Python and Node.js in a Cloud Run Sandbox** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/execute-nodejs-python-in-cloud-run-sandbox |
@@ -226,7 +240,7 @@ This document represents a unified, verifiable list of all 1642 records.
 | 2026-06-22 | **Building a gRPC service with C#** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-grpc-csharp |
 | 2026-06-22 | **Create an online banking application with Spanner** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spanner-online-banking-app |
 | 2026-06-22 | **Calculate Revenue Buckets for SKAd Network Conversion Value Schema** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/ios_skancv |
-| 2026-06-22 | **codelabs.developers.google.com/alloydb-omni-vm-deployment** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-vm-deployment |
+| 2026-06-22 | **codelabs.developers.google.com/alloydb-omni-vm-deployment** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-vm-deployment 🚫 *Content retired* |
 | 2026-06-22 | **Data Science with Spark** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/spark-ds-agents |
 | 2026-06-22 | **Building a Serverless Data Pipeline: IoT to Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/iot-data-pipeline |
 | 2026-06-22 | **Add Firebase to your Flutter app** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-flutter |
@@ -259,7 +273,7 @@ This document represents a unified, verifiable list of all 1642 records.
 | 2026-06-22 | **Deploy ASP.NET app to Windows Server on Compute Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-compute-engine-aspnet |
 | 2026-06-22 | **Deploy Windows Server with ASP.NET Framework to Compute Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-create-vm-windows-dotnet |
 | 2026-06-22 | **Cloud Firestore Web Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firestore-web |
-| 2026-06-22 | **codelabs.developers.google.com/alloydb-omni-vm-ha-deployment** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-vm-ha-deployment |
+| 2026-06-22 | **codelabs.developers.google.com/alloydb-omni-vm-ha-deployment** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-vm-ha-deployment 🚫 *Content retired* |
 | 2026-06-22 | **Connect AlloyDB to Oracle through Google VPN** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/alloydb-oracle-fdw-vpn |
 | 2026-06-22 | **Control a PLAYBULB candle with Web Bluetooth** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/candle-bluetooth |
 | 2026-06-20 | **Build Event-Driven AI Agents with Eventarc, Cloud Run and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/eventarc-ai-agents |
@@ -807,6 +821,7 @@ This document represents a unified, verifiable list of all 1642 records.
 | 2026-06-05 | **Passkeys Web 2** | Official Google Developer platform achievement (Learning Pathway: passkeys web 2). |
 | 2026-06-05 | **Learn Javascript** | Official Google Developer platform achievement (Learning Pathway: learn javascript). |
 | 2026-06-05 | **Android 11 Week 7** | Official Google Developer platform achievement (Learning Pathway: android 11 week 7). |
+| 2026-06-05 | **Milestone1** | Official Google Developer platform achievement (Learning Pathway: milestone1). |
 | 2026-06-05 | **Android Basics Compose Unit 5 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 5 pathway 2). |
 | 2026-06-05 | **Ai Gemini 101** | Official Google Developer platform achievement (Learning Pathway: ai gemini 101). |
 | 2026-06-05 | **Learn Images** | Official Google Developer platform achievement (Learning Pathway: learn images). |
@@ -1401,7 +1416,7 @@ This document represents a unified, verifiable list of all 1642 records.
 | 2026-05-21 | **Cloud Spanner: Graph Intelligence using Spanner Graph Algorithms** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spanner-graph-algorithms |
 | 2026-05-21 | **Deploy ADK agents to Google Kubernetes Engine (GKE)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/5-deploying-agents/deploy-adk-agents-to-gke |
 | 2026-05-21 | **Build a Location Intelligence ADK Agent with MCP servers for BigQuery and Google Maps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-mcp-bigquery-maps |
-| 2026-05-21 | **codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata |
+| 2026-05-21 | **codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/th-ai-live-labs-26-alloydb-querydata 🚫 *Content retired* |
 | 2026-05-21 | **Agent Engine PSC Explicit Proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-engine-psc-interface-private |
 | 2026-05-21 | **Live Streaming on Google Cloud with Media CDN and Live Streaming API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mediacdn-ls-codelab |
 | 2026-05-21 | **Next ‘26 Keynote: Fabric of Unified Intelligence** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/gen-keynote/unified-intelligence |

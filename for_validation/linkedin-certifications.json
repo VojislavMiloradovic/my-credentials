@@ -207,9 +207,7 @@
       "url": "https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4",
       "license": "",
       "original_order": 22,
-      "retired": true,
-      "retirement_reason": "Course retired by LinkedIn Learning",
-      "retired_at": "2026-08-01"
+      "retired": false
     },
     {
       "name": "Conversion Optimization Certification Exam",
