@@ -200,20 +200,25 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 
 | Metric | Count |
 | :--- | :--- |
-| **Total Milestones & Milestone Badges** | 4 |
-| **Total Codelabs & Learning Activities** | 1 |
+| **Total Milestones & Milestone Badges** | 172 |
+| **Total Codelabs & Learning Activities** | 1,596 |
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-08-part-34.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-34.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| *2024-08-17* | **Setup Basic OpenTelemetry Plugin in gRPC Python** | Verified Google Developer granular learning activity module milestone. |
-| *2024-01-17* | **Cloud Architect** | Official Google Developer platform achievement (Learning Pathway: cloud architect). |
-| *2024-01-17* | **Data Engineer** | Official Google Developer platform achievement (Learning Pathway: data engineer). |
-| *2024-01-15* | **Cloud Architecture** | Official Google Developer platform achievement (Learning Pathway: cloud architecture). |
-| *2024-01-15* | **Data Engineering** | Official Google Developer platform achievement (Learning Pathway: data engineering). |
+| *2026-08-28* | **How to Deploy OpenClaw on Cloud Run Instances** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-openclaw-cloud-run-instances |
+| *2026-08-28* | **Way Back Home - Level 0: Identify Yourself** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-0/instructions |
+| *2026-08-28* | **Build Your First Database-Backed Web App with Google AI Studio and Cloud SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-ai-studio-csql |
+| *2026-08-28* | **Build a User-Authenticated AI Application with Custom Instructions on Google AI Studio & Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-ai-challenge |
+| *2026-08-28* | **QueryData for AlloyDB using Gemini Data Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/alloydb-querydata |
+| *2026-08-28* | **Google's Agent Stack in Action: ADK, A2A, MCP on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/instavibe-adk-multi-agents/instructions |
+| *2026-08-28* | **Find and fix application issues with Gemini Cloud Assist** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/gemini-cloud-assist-debug-database |
+| *2026-08-28* | **Google Workspace MCP servers with Antigravity in Gemini Enterprise** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-mcp-antigravity-ge |
+| *2026-08-28* | **Way Back Home - Live Bidirectional Multi-Agent system** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-4/instructions |
+| *2026-08-28* | **Getting started with Hybrid Search in AlloyDB and Apache Solr** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-solr-fdw |
 <!-- GOOGLE_DEVELOPER_END -->
 
 
