@@ -68,7 +68,7 @@ class ProvenanceBase(BaseModel):
         default=RetrievalMethod.UNKNOWN, description="How the record was retrieved"
     )
 
-    def model_post_init(self, __context: Any) -> None:
+    def model_post_init(self, __context: Any, /) -> None:
         """Ensure timestamps are timezone-aware."""
         if self.retrieved_at.tzinfo is None:
             self.retrieved_at = self.retrieved_at.replace(tzinfo=UTC)

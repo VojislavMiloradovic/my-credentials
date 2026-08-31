@@ -16,16 +16,15 @@ import re
 import sys
 from datetime import UTC, datetime
 from email import policy
-from typing import Any
+from typing import Any, ClassVar
 from urllib.parse import unquote
-
-# Provenance Integration
-from models.provenance import ProvenanceBase, VerificationStatus, RetrievalMethod
-
 
 import requests
 from bs4 import BeautifulSoup
-from pydantic import BaseModel, Field, ValidationError, field_validator
+from pydantic import Field, ValidationError, field_validator
+
+# Provenance Integration
+from models.provenance import ProvenanceBase, RetrievalMethod, VerificationStatus
 
 # Archive Integration Helper
 try:
@@ -357,7 +356,7 @@ class GoogleDeveloperBadgeModel(ProvenanceBase):
         default=RetrievalMethod.API, description="How retrieved"
     )
 
-    model_config = {
+    model_config: ClassVar[dict] = {
         "json_encoders": {
             datetime: lambda v: v.isoformat() if v else None,
         }
