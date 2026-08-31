@@ -19,6 +19,10 @@ from email import policy
 from typing import Any
 from urllib.parse import unquote
 
+# Provenance Integration
+from models.provenance import ProvenanceBase, VerificationStatus, RetrievalMethod
+
+
 import requests
 from bs4 import BeautifulSoup
 from pydantic import BaseModel, Field, ValidationError, field_validator
@@ -312,9 +316,10 @@ def fix_mojibake(text: str) -> str:
     return result
 
 
-class GoogleDeveloperBadgeModel(BaseModel):
+class GoogleDeveloperBadgeModel(ProvenanceBase):
     """Normalized schema for Google Developer badges and codelabs."""
 
+    # Platform-specific fields
     title: str = Field(..., min_length=1, description="Badge or Activity Title")
     date: str = Field("N/A", description="Earned date in YYYY-MM-DD format")
     description: str = Field(..., description="Achievement metadata or classification")
@@ -326,10 +331,56 @@ class GoogleDeveloperBadgeModel(BaseModel):
     )
     url: str | None = Field(None, description="URL to verify the badge/codelab")
 
+    # Provenance fields with platform-specific defaults
+    source_platform: str = Field(
+        default="google-developer", description="Platform identifier"
+    )
+    source_record_id: str | None = Field(
+        None, description="Stable ID from source platform"
+    )
+    source_url: str | None = Field(None, description="Canonical URL on source platform")
+    verify_url: str | None = Field(None, description="Independent verification URL")
+    retrieved_at: datetime = Field(
+        default_factory=lambda: datetime.now(UTC),
+        description="When this record was retrieved",
+    )
+    last_verified_at: datetime | None = Field(
+        None, description="When independently verified"
+    )
+    verification_status: VerificationStatus = Field(
+        default=VerificationStatus.UNKNOWN, description="Verification status"
+    )
+    source_hash: str | None = Field(
+        None, description="Content hash for deduplication/integrity"
+    )
+    retrieval_method: RetrievalMethod = Field(
+        default=RetrievalMethod.API, description="How retrieved"
+    )
+
+    model_config = {
+        "json_encoders": {
+            datetime: lambda v: v.isoformat() if v else None,
+        }
+    }
+
     @field_validator("date", mode="before")
     @classmethod
     def validate_date(cls, val: Any) -> str:
         return normalize_date_string(val)
+
+    @field_validator("verification_status", mode="before")
+    @classmethod
+    def compute_verification_status(cls, val: Any, info) -> VerificationStatus:
+        """Auto-compute verification status from record state."""
+        if isinstance(val, VerificationStatus):
+            return val
+        retired_val = info.data.get("retired", False)
+        url_val = info.data.get("url") or info.data.get("verify_url")
+        if retired_val:
+            return VerificationStatus.RETIRED
+        if url_val:
+            return VerificationStatus.VERIFIED
+        return VerificationStatus.UNKNOWN
 
 
 # ==============================================================================
@@ -429,7 +480,9 @@ def parse_local_learnings_txt() -> list[dict]:
                     "source": "local_txt",
                 }
                 try:
-                    learnings.append(GoogleDeveloperBadgeModel(**entry).model_dump())
+                    learnings.append(
+                        GoogleDeveloperBadgeModel(**entry).model_dump(mode="json")
+                    )
                 except ValidationError as ve:
                     logger.warning(
                         f"⚠️ Skipping invalid local activity entry '{title}': {ve}"
@@ -523,7 +576,7 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
 
                     try:
                         learnings.append(
-                            GoogleDeveloperBadgeModel(**entry).model_dump()
+                            GoogleDeveloperBadgeModel(**entry).model_dump(mode="json")
                         )
                     except ValidationError as ve:
                         logger.warning(
@@ -609,7 +662,7 @@ def analyze_badge_list(lst: Any, parsed_badges: list[dict]) -> bool:
                 }
                 try:
                     parsed_badges.append(
-                        GoogleDeveloperBadgeModel(**entry).model_dump()
+                        GoogleDeveloperBadgeModel(**entry).model_dump(mode="json")
                     )
                 except ValidationError:
                     pass
