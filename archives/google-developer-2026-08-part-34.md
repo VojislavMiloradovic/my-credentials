@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Developer Profile
 chunk_part: 34 of 34
-date_range: 2026-08-07 to 2026-08-28
-total_entries: 42
+date_range: 2026-08-07 to 2026-08-31
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-34.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,11 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-31 | **Looker PSC Southbound access to multiple Cloud SQL PSC instances through proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-looker-cloudsql-southbound-proxy |
+| 2026-08-31 | **Investigate a GKE outage with Antigravity CLI and SRE Extension and build a beautiful Post Mortem** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/investigate-gke-cluster-breakage-scenarios-with-postmortem |
+| 2026-08-31 | **Deploy an ADK agent to Agent Runtime using Agents CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/enterprise-cloud-scale-deploying-the-expense-agent-to-agent-runtime-on-google-cloud |
+| 2026-08-31 | **Firebase iOS codelab: FriendlyChat** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-ios-swift |
+| 2026-08-31 | **Agent Gateway ingress to Agent Runtime with Model Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-ingress-modar |
 | 2026-08-28 | **How to Deploy OpenClaw on Cloud Run Instances** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-openclaw-cloud-run-instances |
 | 2026-08-28 | **Way Back Home - Level 0: Identify Yourself** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-0/instructions |
 | 2026-08-28 | **Build Your First Database-Backed Web App with Google AI Studio and Cloud SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-ai-studio-csql |

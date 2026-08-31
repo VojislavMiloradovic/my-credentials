@@ -2408,6 +2408,14 @@
     "url": "https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-personal-agent-coffee-shop"
   },
   {
+    "title": "Looker PSC Southbound access to multiple Cloud SQL PSC instances through proxy",
+    "date": "2026-08-31",
+    "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-looker-cloudsql-southbound-proxy",
+    "source": "local_mhtml",
+    "retired": false,
+    "url": "https://codelabs.developers.google.com/cloudnet-psc-looker-cloudsql-southbound-proxy"
+  },
+  {
     "title": "API Key Management and Security",
     "date": "2026-06-24",
     "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/api-key-management",
@@ -4300,6 +4308,14 @@
     "url": "https://codelabs.developers.google.com/retail-price-optimization"
   },
   {
+    "title": "Investigate a GKE outage with Antigravity CLI and SRE Extension and build a beautiful Post Mortem",
+    "date": "2026-08-31",
+    "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/investigate-gke-cluster-breakage-scenarios-with-postmortem",
+    "source": "local_mhtml",
+    "retired": false,
+    "url": "https://codelabs.developers.google.com/codelabs/investigate-gke-cluster-breakage-scenarios-with-postmortem"
+  },
+  {
     "title": "Trace AI Agent Decisions with BigQuery Graph",
     "date": "2026-06-20",
     "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bqaa-context-graph",
@@ -4714,6 +4730,14 @@
     "source": "local_mhtml",
     "retired": false,
     "url": "https://developer.android.com/courses/pathways/android-week2-machine-learning"
+  },
+  {
+    "title": "Deploy an ADK agent to Agent Runtime using Agents CLI",
+    "date": "2026-08-31",
+    "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/enterprise-cloud-scale-deploying-the-expense-agent-to-agent-runtime-on-google-cloud",
+    "source": "local_mhtml",
+    "retired": false,
+    "url": "https://codelabs.developers.google.com/enterprise-cloud-scale-deploying-the-expense-agent-to-agent-runtime-on-google-cloud"
   },
   {
     "title": "GenAI Agent in Slack for Q&A over docs and actions with API calls",
@@ -5162,6 +5186,14 @@
     "source": "local_mhtml",
     "retired": false,
     "url": "https://codelabs.developers.google.com/next26/developer-connect"
+  },
+  {
+    "title": "Firebase iOS codelab: FriendlyChat",
+    "date": "2026-08-31",
+    "description": "Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-ios-swift",
+    "source": "local_mhtml",
+    "retired": false,
+    "url": "https://firebase.google.com/codelabs/firebase-ios-swift"
   },
   {
     "title": "Accelerated Machine Learning with Google Cloud and NVIDIA",
@@ -11658,6 +11690,14 @@
     "source": "local_mhtml",
     "retired": false,
     "url": "https://codelabs.developers.google.com/text-predict-cloud-function"
+  },
+  {
+    "title": "Agent Gateway ingress to Agent Runtime with Model Armor",
+    "date": "2026-08-31",
+    "description": "Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-ingress-modar",
+    "source": "local_mhtml",
+    "retired": false,
+    "url": "https://codelabs.developers.google.com/agw-cuj-arun-ingress-modar"
   },
   {
     "title": "Informed decision making using Dialogflow CX generators and data stores",

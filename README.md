@@ -201,7 +201,7 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 172 |
-| **Total Codelabs & Learning Activities** | 1,596 |
+| **Total Codelabs & Learning Activities** | 1,601 |
 
 #### Latest Achievements
 
@@ -209,16 +209,16 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| *2026-08-31* | **Looker PSC Southbound access to multiple Cloud SQL PSC instances through proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-looker-cloudsql-southbound-proxy |
+| *2026-08-31* | **Investigate a GKE outage with Antigravity CLI and SRE Extension and build a beautiful Post Mortem** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/investigate-gke-cluster-breakage-scenarios-with-postmortem |
+| *2026-08-31* | **Deploy an ADK agent to Agent Runtime using Agents CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/enterprise-cloud-scale-deploying-the-expense-agent-to-agent-runtime-on-google-cloud |
+| *2026-08-31* | **Firebase iOS codelab: FriendlyChat** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-ios-swift |
+| *2026-08-31* | **Agent Gateway ingress to Agent Runtime with Model Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-ingress-modar |
 | *2026-08-28* | **How to Deploy OpenClaw on Cloud Run Instances** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-openclaw-cloud-run-instances |
 | *2026-08-28* | **Way Back Home - Level 0: Identify Yourself** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-0/instructions |
 | *2026-08-28* | **Build Your First Database-Backed Web App with Google AI Studio and Cloud SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-ai-studio-csql |
 | *2026-08-28* | **Build a User-Authenticated AI Application with Custom Instructions on Google AI Studio & Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-ai-challenge |
 | *2026-08-28* | **QueryData for AlloyDB using Gemini Data Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/alloydb-querydata |
-| *2026-08-28* | **Google's Agent Stack in Action: ADK, A2A, MCP on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/instavibe-adk-multi-agents/instructions |
-| *2026-08-28* | **Find and fix application issues with Gemini Cloud Assist** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/gemini-cloud-assist-debug-database |
-| *2026-08-28* | **Google Workspace MCP servers with Antigravity in Gemini Enterprise** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-mcp-antigravity-ge |
-| *2026-08-28* | **Way Back Home - Live Bidirectional Multi-Agent system** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-4/instructions |
-| *2026-08-28* | **Getting started with Hybrid Search in AlloyDB and Apache Solr** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-solr-fdw |
 <!-- GOOGLE_DEVELOPER_END -->
 
 
