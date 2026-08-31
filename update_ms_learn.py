@@ -15,7 +15,10 @@ from collections.abc import Callable
 from datetime import UTC, datetime
 from typing import Any
 
-from pydantic import BaseModel, Field, ValidationError, field_validator
+from pydantic import ConfigDict, Field, ValidationError, field_validator
+
+# Provenance Integration
+from models.provenance import ProvenanceBase, RetrievalMethod, VerificationStatus
 
 # Archive Integration Helper
 try:
@@ -303,15 +306,42 @@ def resolve_level(xp_profile: dict, xp_data: dict, total_xp: Any) -> str:
 # ==============================================================================
 
 
-class MSAchievementModel(BaseModel):
+class MSAchievementModel(ProvenanceBase):
     """Schema validating individual Microsoft Learn badges/trophies."""
 
+    # Platform-specific fields
     id: str = Field(min_length=1)
     title: str = Field("Completed Module", min_length=1)
     category: str = Field("module")
     grantedOn: str = Field("N/A")
     url: str | None = Field(None)
     retired: bool = Field(False)
+
+    # Provenance fields with platform-specific defaults
+    source_platform: str = Field(
+        default="microsoft-learn", description="Platform identifier"
+    )
+    source_record_id: str | None = Field(
+        None, description="Stable ID from source platform"
+    )
+    source_url: str | None = Field(None, description="Canonical URL on source platform")
+    verify_url: str | None = Field(None, description="Independent verification URL")
+    retrieved_at: datetime = Field(
+        default_factory=lambda: datetime.now(UTC),
+        description="When this record was retrieved",
+    )
+    last_verified_at: datetime | None = Field(
+        None, description="When independently verified"
+    )
+    verification_status: VerificationStatus = Field(
+        default=VerificationStatus.UNKNOWN, description="Verification status"
+    )
+    source_hash: str | None = Field(
+        None, description="Content hash for deduplication/integrity"
+    )
+    retrieval_method: RetrievalMethod = Field(
+        default=RetrievalMethod.EXPORT, description="How retrieved"
+    )
 
     @field_validator("grantedOn", mode="before")
     @classmethod
@@ -325,20 +355,89 @@ class MSAchievementModel(BaseModel):
             return "module"
         return val.strip()
 
+    @field_validator("verification_status", mode="before")
+    @classmethod
+    def compute_verification_status(cls, val: Any, info) -> VerificationStatus:
+        """Auto-compute verification status from record state."""
+        if isinstance(val, VerificationStatus):
+            return val
+        retired_val = info.data.get("retired", False)
+        url_val = info.data.get("url") or info.data.get("verify_url")
+        if retired_val:
+            return VerificationStatus.RETIRED
+        if url_val:
+            return VerificationStatus.VERIFIED
+        return VerificationStatus.UNKNOWN
 
-class MSVerifiableCredentialModel(BaseModel):
+    model_config = ConfigDict(
+        json_encoders={
+            datetime: lambda v: v.isoformat() if v else None,
+        }
+    )
+
+
+class MSVerifiableCredentialModel(ProvenanceBase):
     """Schema validating Verifiable Applied Skills and Microsoft Credentials."""
 
+    # Platform-specific fields
     credentialId: str = Field("N/A")
     sourceUid: str = Field("")
     awardedOn: str = Field("N/A")
     credentialStatus: str = Field("Active")
     retired: bool = Field(False)
 
+    # Provenance fields with platform-specific defaults
+    source_platform: str = Field(
+        default="microsoft-learn", description="Platform identifier"
+    )
+    source_record_id: str | None = Field(
+        None, description="Stable ID from source platform"
+    )
+    source_url: str | None = Field(None, description="Canonical URL on source platform")
+    verify_url: str | None = Field(None, description="Independent verification URL")
+    retrieved_at: datetime = Field(
+        default_factory=lambda: datetime.now(UTC),
+        description="When this record was retrieved",
+    )
+    last_verified_at: datetime | None = Field(
+        None, description="When independently verified"
+    )
+    verification_status: VerificationStatus = Field(
+        default=VerificationStatus.UNKNOWN, description="Verification status"
+    )
+    source_hash: str | None = Field(
+        None, description="Content hash for deduplication/integrity"
+    )
+    retrieval_method: RetrievalMethod = Field(
+        default=RetrievalMethod.EXPORT, description="How retrieved"
+    )
+
     @field_validator("awardedOn", mode="before")
     @classmethod
     def validate_awarded_on(cls, val: Any) -> str:
         return clean_iso_date(val)
+
+    @field_validator("verification_status", mode="before")
+    @classmethod
+    def compute_verification_status(cls, val: Any, info) -> VerificationStatus:
+        """Auto-compute verification status from record state."""
+        if isinstance(val, VerificationStatus):
+            return val
+        retired_val = info.data.get("retired", False)
+        status_val = info.data.get("credentialStatus", "")
+        if retired_val:
+            return VerificationStatus.RETIRED
+        if status_val and status_val.lower() in ("active", "valid", "verified"):
+            return VerificationStatus.VERIFIED
+        if status_val and status_val.lower() in ("expired", "revoked"):
+            return VerificationStatus.EXPIRED
+        return VerificationStatus.UNKNOWN
+
+    model_config = ConfigDict(
+        json_encoders={
+            datetime: lambda v: v.isoformat() if v else None,
+        }
+    )
 
 
 # ==============================================================================
@@ -471,7 +570,7 @@ def main():
     for ach in raw_achievements:
         try:
             model = MSAchievementModel(**ach)
-            validated_achievements.append(model.model_dump())
+            validated_achievements.append(model.model_dump(mode="json"))
         except ValidationError as ve:
             logger.warning(f"⚠️ Skipping invalid achievement entry: {ve}")
 
