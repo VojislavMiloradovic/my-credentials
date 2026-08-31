@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-08-31 19:46 UTC
+> **Last Generated:** 2026-08-31 20:50 UTC
 
 --- BEGIN FILE: README.md ---
 
