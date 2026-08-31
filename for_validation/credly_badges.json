@@ -1,7 +1,51 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 588,
+  "total_count": 590,
   "credentials": [
+    {
+      "id": "a15b509b-48e1-47dc-96f7-6e36d36e0412",
+      "title": "Implement CI/CD Pipelines on Google Cloud Skill Badge",
+      "name": "Implement CI/CD Pipelines on Google Cloud Skill Badge",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-30",
+      "issued_at_date": "2026-08-30",
+      "date": "2026-08-30",
+      "image_url": "https://images.credly.com/images/0daf1b0e-28c3-4102-96cf-e9d5f9213cc3/image.png",
+      "verify_url": "https://www.credly.com/badges/a15b509b-48e1-47dc-96f7-6e36d36e0412/public_url",
+      "url": "https://www.credly.com/badges/a15b509b-48e1-47dc-96f7-6e36d36e0412/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Artifact Registry",
+        "CI/CD",
+        "Cloud Build",
+        "Cloud Deploy"
+      ],
+      "retired": false
+    },
+    {
+      "id": "28a8c491-f478-4684-96b4-9bac1b172a39",
+      "title": "Manage Kubernetes in Google Cloud Skill Badge",
+      "name": "Manage Kubernetes in Google Cloud Skill Badge",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-30",
+      "issued_at_date": "2026-08-30",
+      "date": "2026-08-30",
+      "image_url": "https://images.credly.com/images/20cd679d-43c3-460e-979a-8feba38eaba6/image.png",
+      "verify_url": "https://www.credly.com/badges/28a8c491-f478-4684-96b4-9bac1b172a39/public_url",
+      "url": "https://www.credly.com/badges/28a8c491-f478-4684-96b4-9bac1b172a39/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "Docker",
+        "GKE",
+        "Kubectl",
+        "Kubernetes"
+      ],
+      "retired": false
+    },
     {
       "id": "aac932d8-d7d0-4966-a8a3-eca0e69f795e",
       "title": "Artificial Intelligence Fundamentals",

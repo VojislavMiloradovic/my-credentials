@@ -135,15 +135,17 @@ Showing latest 10 of 741 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 588
-**Total Verified Skills Mapped:** 2045
+**Total Portfolio Credentials:** 590
+**Total Verified Skills Mapped:** 2048
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 588 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 590 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-30 | [Implement CI/CD Pipelines on Google Cloud Skill Badge](https://www.credly.com/badges/a15b509b-48e1-47dc-96f7-6e36d36e0412/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-30 | [Manage Kubernetes in Google Cloud Skill Badge](https://www.credly.com/badges/28a8c491-f478-4684-96b4-9bac1b172a39/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-30 | [Artificial Intelligence Fundamentals](https://www.credly.com/badges/aac932d8-d7d0-4966-a8a3-eca0e69f795e/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-08-30 | [Data Fundamentals](https://www.credly.com/badges/48961c89-7ace-474a-9a78-34e0b63722d5/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-08-29 | [SASE Business Impact and Strategy](https://www.credly.com/badges/87458b9d-8699-412d-b198-10f5f7366da9/public_url) | Cato Networks | Credly Verified Badge |
@@ -152,8 +154,6 @@ Showing latest 10 of 588 credentials. View full dataset via [Platform Archive In
 | 2026-08-28 | [SASE Deployment and Management](https://www.credly.com/badges/906c5b04-f903-46cb-805c-9b3f0729718f/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [SSE Expert Certification](https://www.credly.com/badges/2d5a7b6b-db2d-4a99-814a-870cea7ec348/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [Cilium SCTP](https://www.credly.com/badges/93beb0d4-956a-4579-b936-626a9fd880d8/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-28 | [Cloud Computing Fundamentals](https://www.credly.com/badges/3372ff55-1a0f-4fd1-b85e-4642dae974c0/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-08-28 | [Cloud Tech Professional Microsoft 365](https://www.credly.com/badges/da472709-da7d-4ddd-9611-e119004c08f3/public_url) | Acronis | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
