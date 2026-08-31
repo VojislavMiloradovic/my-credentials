@@ -1,6 +1,6 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 383 records.
+This document represents a unified, verifiable list of all 384 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
@@ -10,6 +10,7 @@ This document represents a unified, verifiable list of all 383 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-30 | [Implement CI/CD Pipelines on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27420685) | Google Cloud | Google Skill Badge |
 | 2026-08-27 | [Monitoring in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329132) | Google Cloud | Google Skill Badge |
 | 2026-08-27 | [Arcade Base Camp August 2026](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329116) | Google Cloud | Google Skill Badge |
 | 2026-08-27 | [Analyze Sentiment with Natural Language API](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27328238) | Google Cloud | Google Skill Badge |

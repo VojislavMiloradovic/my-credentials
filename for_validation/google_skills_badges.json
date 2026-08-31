@@ -1,7 +1,26 @@
 {
   "profile_id": "2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_count": 383,
+  "total_count": 384,
   "badges": [
+    {
+      "id": "google-skills-badge-27420685",
+      "title": "Implement CI/CD Pipelines on Google Cloud",
+      "name": "Implement CI/CD Pipelines on Google Cloud",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-30",
+      "issued_at_date": "2026-08-30",
+      "date": "2026-08-30",
+      "image_url": "https://cdn.qwiklabs.com/y0ljecuLROGjvQ8c%2FF44IcE6K3QztUCKZM3rbXHl9ew%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27420685",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27420685",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Implement CI/CD Pipelines on Google Cloud"
+      ],
+      "retired": false
+    },
     {
       "id": "google-skills-badge-27329132",
       "title": "Monitoring in Google Cloud",
