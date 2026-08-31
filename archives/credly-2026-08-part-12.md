@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 12 of 12
-date_range: 2026-08-28 to 2026-08-30
-total_entries: 8
+date_range: 2026-08-28 to 2026-08-31
+total_entries: 9
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-12.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-31 | [Share Data Using Google Data Cloud Skill Badge](https://www.credly.com/badges/35d9f8d7-dc3e-4f66-9ec8-d83eeb50882f/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-30 | [Implement CI/CD Pipelines on Google Cloud Skill Badge](https://www.credly.com/badges/a15b509b-48e1-47dc-96f7-6e36d36e0412/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-30 | [Manage Kubernetes in Google Cloud Skill Badge](https://www.credly.com/badges/28a8c491-f478-4684-96b4-9bac1b172a39/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-30 | [Artificial Intelligence Fundamentals](https://www.credly.com/badges/aac932d8-d7d0-4966-a8a3-eca0e69f795e/public_url) | IBM SkillsBuild | Credly Verified Badge |

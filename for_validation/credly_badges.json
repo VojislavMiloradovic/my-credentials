@@ -1,6 +1,6 @@
 {
   "credly_user": "vojislavmiloradovic",
-  "total_count": 590,
+  "total_count": 591,
   "credentials": [
     {
       "id": "a15b509b-48e1-47dc-96f7-6e36d36e0412",
@@ -43,6 +43,27 @@
         "GKE",
         "Kubectl",
         "Kubernetes"
+      ],
+      "retired": false
+    },
+    {
+      "id": "35d9f8d7-dc3e-4f66-9ec8-d83eeb50882f",
+      "title": "Share Data Using Google Data Cloud Skill Badge",
+      "name": "Share Data Using Google Data Cloud Skill Badge",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-31",
+      "issued_at_date": "2026-08-31",
+      "date": "2026-08-31",
+      "image_url": "https://images.credly.com/images/b0e1da4e-e1c9-4201-9803-cf3389e1d0f9/image.png",
+      "verify_url": "https://www.credly.com/badges/35d9f8d7-dc3e-4f66-9ec8-d83eeb50882f/public_url",
+      "url": "https://www.credly.com/badges/35d9f8d7-dc3e-4f66-9ec8-d83eeb50882f/public_url",
+      "type": "Credly Verified Badge",
+      "verification_type": "Credly Verified Badge",
+      "skills": [
+        "BigQuery",
+        "Data Analytics",
+        "Data Sharing"
       ],
       "retired": false
     },
