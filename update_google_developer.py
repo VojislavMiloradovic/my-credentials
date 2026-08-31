@@ -29,6 +29,7 @@ try:
         RAW_BASE_DEFAULT,
         generate_platform_archive,
         safe_write_file,
+        update_readme_stats,
     )
 except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
@@ -38,7 +39,6 @@ except ImportError:
     def update_readme_stats(*args, **kwargs):
         """Fallback no-op for update_readme_stats."""
         return
-
 
 # Content-Aware Loss Guard
 try:
