@@ -53,7 +53,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2025-11-06 | [AI Boost Bites: Gemini Gems – Your ultimate marketing sidekick](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19995323) | Google Cloud | Google Skill Badge |
 | 2025-11-05 | [Responsible AI: Applying AI Principles with Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19964396) | Google Cloud | Google Skill Badge |
 | 2025-11-04 | [Prompt Design in Agent Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19936299) | Google Cloud | Google Skill Badge |
-| 2025-10-31 | [Introduction to Responsible AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19833877) | Google Cloud | Google Skill Badge |
+| 2025-10-31 | [[DEPRECATED]Introduction to Responsible AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19833877) | Google Cloud | Google Skill Badge |
 | 2025-10-30 | [Introduction to Large Language Models](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19792962) | Google Cloud | Google Skill Badge |
 | 2025-10-30 | [Introduction to Generative AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19792558) | Google Cloud | Google Skill Badge |
 | 2025-09-17 | [Scaling with Google Cloud Operations](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/18399707) | Google Cloud | Google Skill Badge |

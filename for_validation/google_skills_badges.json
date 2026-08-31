@@ -1,7 +1,45 @@
 {
   "profile_id": "2011cb91-6066-4d7f-bbec-644b1530829b",
-  "total_count": 384,
+  "total_count": 386,
   "badges": [
+    {
+      "id": "google-skills-badge-27462274",
+      "title": "Share Data Using Google Data Cloud",
+      "name": "Share Data Using Google Data Cloud",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-31",
+      "issued_at_date": "2026-08-31",
+      "date": "2026-08-31",
+      "image_url": "https://cdn.qwiklabs.com/t8Eudux9kAj%2BngKmcxbc0QEX7UQ05HM9msixXv0vAi4%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27462274",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27462274",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Share Data Using Google Data Cloud"
+      ],
+      "retired": false
+    },
+    {
+      "id": "google-skills-badge-27422046",
+      "title": "Manage Kubernetes in Google Cloud",
+      "name": "Manage Kubernetes in Google Cloud",
+      "issuer": "Google Cloud",
+      "issuer_name": "Google Cloud",
+      "issued_at": "2026-08-30",
+      "issued_at_date": "2026-08-30",
+      "date": "2026-08-30",
+      "image_url": "https://cdn.qwiklabs.com/kv48x9UK42Fqn4QPSyXlXjHwTf75c9YtMBQb2kbVJgc%3D",
+      "verify_url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27422046",
+      "url": "https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27422046",
+      "type": "Google Skill Badge",
+      "verification_type": "Google Skill Badge",
+      "skills": [
+        "Manage Kubernetes in Google Cloud"
+      ],
+      "retired": false
+    },
     {
       "id": "google-skills-badge-27420685",
       "title": "Implement CI/CD Pipelines on Google Cloud",
@@ -7129,8 +7167,8 @@
     },
     {
       "id": "google-skills-badge-19833877",
-      "title": "Introduction to Responsible AI",
-      "name": "Introduction to Responsible AI",
+      "title": "[DEPRECATED]Introduction to Responsible AI",
+      "name": "[DEPRECATED]Introduction to Responsible AI",
       "issuer": "Google Cloud",
       "issuer_name": "Google Cloud",
       "issued_at": "2025-10-31",
@@ -7142,7 +7180,7 @@
       "type": "Google Skill Badge",
       "verification_type": "Google Skill Badge",
       "skills": [
-        "Introduction to Responsible AI"
+        "[DEPRECATED]Introduction to Responsible AI"
       ],
       "retired": false
     },

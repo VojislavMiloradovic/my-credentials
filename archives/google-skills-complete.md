@@ -1,6 +1,6 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 384 records.
+This document represents a unified, verifiable list of all 386 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
@@ -10,6 +10,8 @@ This document represents a unified, verifiable list of all 384 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-31 | [Share Data Using Google Data Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27462274) | Google Cloud | Google Skill Badge |
+| 2026-08-30 | [Manage Kubernetes in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27422046) | Google Cloud | Google Skill Badge |
 | 2026-08-30 | [Implement CI/CD Pipelines on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27420685) | Google Cloud | Google Skill Badge |
 | 2026-08-27 | [Monitoring in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329132) | Google Cloud | Google Skill Badge |
 | 2026-08-27 | [Arcade Base Camp August 2026](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329116) | Google Cloud | Google Skill Badge |
@@ -385,7 +387,7 @@ This document represents a unified, verifiable list of all 384 records.
 | 2025-11-06 | [AI Boost Bites: Gemini Gems – Your ultimate marketing sidekick](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19995323) | Google Cloud | Google Skill Badge |
 | 2025-11-05 | [Responsible AI: Applying AI Principles with Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19964396) | Google Cloud | Google Skill Badge |
 | 2025-11-04 | [Prompt Design in Agent Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19936299) | Google Cloud | Google Skill Badge |
-| 2025-10-31 | [Introduction to Responsible AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19833877) | Google Cloud | Google Skill Badge |
+| 2025-10-31 | [[DEPRECATED]Introduction to Responsible AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19833877) | Google Cloud | Google Skill Badge |
 | 2025-10-30 | [Introduction to Large Language Models](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19792962) | Google Cloud | Google Skill Badge |
 | 2025-10-30 | [Introduction to Generative AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/19792558) | Google Cloud | Google Skill Badge |
 | 2025-09-17 | [Scaling with Google Cloud Operations](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/18399707) | Google Cloud | Google Skill Badge |
