@@ -1,6 +1,6 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 591 records.
+This document represents a unified, verifiable list of all 597 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
@@ -10,6 +10,12 @@ This document represents a unified, verifiable list of all 591 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-31 | [Cloud Tech Professional XDR](https://www.credly.com/badges/7576a471-6531-4ba8-8133-a367cbbea9a0/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-31 | [EDR Basic Course](https://www.credly.com/badges/f47fe6a0-2dfc-4afb-8ca2-df6914a9dfca/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-31 | [MSP Academy: Corporate Social Responsibility (CSR) in a Box](https://www.credly.com/badges/3c66a5ea-7ceb-4706-a1ae-552dc9f55bdc/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-31 | [MSP Academy: Cyber Scripting](https://www.credly.com/badges/08f1b56f-b3eb-41af-9553-5cc25976d29e/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-31 | [MSP Academy: Disaster Recovery](https://www.credly.com/badges/4aae4192-7870-4fbc-8644-06db35ece843/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-31 | [MSP Academy: Maximizing Your Business Efficiency](https://www.credly.com/badges/8b9124df-62b5-4111-8029-b4fd9b558ea4/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-31 | [Share Data Using Google Data Cloud Skill Badge](https://www.credly.com/badges/35d9f8d7-dc3e-4f66-9ec8-d83eeb50882f/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-30 | [Implement CI/CD Pipelines on Google Cloud Skill Badge](https://www.credly.com/badges/a15b509b-48e1-47dc-96f7-6e36d36e0412/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-30 | [Manage Kubernetes in Google Cloud Skill Badge](https://www.credly.com/badges/28a8c491-f478-4684-96b4-9bac1b172a39/public_url) | Google Cloud | Credly Verified Badge |
