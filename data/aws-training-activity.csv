@@ -1,6 +1,6 @@
 ﻿Complete Training Activity List
-Generated on: 29. август 2026.
-Total rows: 741
+Generated on: 1. септембар 2026.
+Total rows: 745
 
 Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
 [RETIRED] Amazon EKS Pre-assessment,Digital course,Retired,93,-,"March 17, 2026","March 17, 2026","March 17, 2026",30 minutes,Fundamental,English
@@ -258,6 +258,7 @@ AWS Database Migration Service Best Practices - Practical,Digital course,Complet
 AWS Database Migration Service Best Practices - Troubleshooting,Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",1 hour,Advanced,English
 AWS Database Migration Service Overview,Digital course,Completed,0,-,"July 31, 2026","July 31, 2026","July 31, 2026",45 minutes,Intermediate,English
 AWS Database Offerings,Digital course,In progress,0,-,"March 19, 2026","March 19, 2026",-,4 hours,Fundamental,English
+AWS Design Architectures for Advertising workflows,Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",1 hour 40 minutes,Advanced,English
 AWS Directory Service Getting Started,Digital course,Completed,0,-,"March 7, 2026","March 7, 2026","March 7, 2026",1 hour,Fundamental,English
 "AWS Edge Storage, Data Transfer, and File Transfer Services Getting Started",Digital course,Completed,0,-,"April 28, 2026","April 28, 2026","April 28, 2026",1 hour 5 minutes,Fundamental,English
 AWS Elastic Disaster Recovery - A Technical Introduction,Digital course,Completed,120,-,"August 15, 2026","August 15, 2026","August 15, 2026",1 hour 30 minutes,Intermediate,English
@@ -644,6 +645,7 @@ Mainframe Modernization Patterns and Best Practices,Digital course,Completed,0,-
 Mainframe Workloads Fast Track to Agility,Digital course,Completed,0,-,"August 19, 2026","August 19, 2026","August 19, 2026",1 hour 15 minutes,Intermediate,English
 Making Better Decisions with Data for Small Business Owners,Digital course,Completed,0,-,"June 26, 2026","June 26, 2026","June 26, 2026",9 minutes,Fundamental,English
 Malware analysis on AWS: Setting up a secure environment,Digital course,Completed,0,-,"August 3, 2026","August 3, 2026","August 3, 2026",1 hour,Intermediate,English
+Managing Applications at Scale with Amazon ECS,Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",1 hour 30 minutes,Advanced,English
 Managing AWS IoT Devices at Scale,Digital course,Completed,0,-,"August 19, 2026","August 19, 2026","August 19, 2026",3 hours 30 minutes,Intermediate,English
 Managing Operations on AWS with Amazon Q Developer,Digital course,Completed,0,-,"April 25, 2026","April 25, 2026","April 25, 2026",30 minutes,Fundamental,English
 "Managing, Monitoring, and Optimizing your Amazon Elastic File System (Amazon EFS) Solution",Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",55 minutes,Advanced,English
@@ -700,10 +702,12 @@ Query Amazon Aurora PostgreSQL using Amazon Bedrock Knowledge Bases structured d
 Referencing Your Own Secrets in Amazon Bedrock AgentCore Identity,Digital course,Completed,0,-,"July 28, 2026","July 28, 2026","July 28, 2026",30 minutes,Fundamental,English
 Responsible Artificial Intelligence Practices,Digital course,Completed,0,-,"January 13, 2026","January 13, 2026","January 13, 2026",1 hour,Fundamental,English
 "Retrieval, Citations, and Why RAG Quietly Fails",Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",1 hour,Advanced,English
+S&P Global's innovative disaster recovery strategy using Amazon FSx for NetApp ONTAP snapshots,Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",45 minutes,Advanced,English
 SaaS Business Fundamentals,Digital course,Completed,0,-,"March 17, 2026","March 17, 2026","March 17, 2026",1 hour,Fundamental,English
 SaaS Technical Fundamentals,Digital course,Completed,0,-,"April 13, 2026","April 13, 2026","April 13, 2026",1 hour 30 minutes,Fundamental,English
 Safeguard generative AI applications with Amazon Bedrock Guardrails,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",45 minutes,Advanced,English
 Secure AI agents with Amazon Bedrock AgentCore Identity on Amazon ECS,Digital course,Completed,0,-,"May 27, 2026","May 27, 2026","May 27, 2026",45 minutes,Fundamental,English
+Securing and Protecting Your Data in Amazon Simple Storage Service (Amazon S3),Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",1 hour 40 minutes,Advanced,English
 Securing Data in Amazon Elastic File System (Amazon EFS),Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",55 minutes,Advanced,English
 Securing Your Cloud: Essential Controls to Protect Your Business,Digital course,Completed,0,-,"August 20, 2026","August 20, 2026","August 20, 2026",3 hours,Intermediate,English
 Security and Observability for Serverless Applications,Digital course,Completed,0,-,"August 19, 2026","August 19, 2026","August 19, 2026",1 hour 30 minutes,Intermediate,English
