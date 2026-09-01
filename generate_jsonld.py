@@ -3,6 +3,7 @@ import json
 import os
 import re
 import sys
+from datetime import UTC, datetime
 
 import jsonschema
 
@@ -198,6 +199,7 @@ def parse_archive_monoliths():
             cred_id = ""
             retired = False
 
+            verify_url = ""
             for idx, col in enumerate(cols):
                 col_header = header_cols[idx] if idx < len(header_cols) else ""
 
@@ -211,6 +213,9 @@ def parse_archive_monoliths():
                         url = link_match.group(2)
                     if not title and "Verify" not in link_match.group(1):
                         title = clean_str(link_match.group(1))
+                    # Extract verify_url from "Verify" links
+                    if "Verify" in link_match.group(1) and not verify_url:
+                        verify_url = link_match.group(2)
 
                 bold_match = re.search(r"\*\*([^*]+)\*\*", col)
                 if bold_match and not title and "title" in col_header:
@@ -292,6 +297,60 @@ def parse_archive_monoliths():
                     c_obj["url"] = url
                 if retired:
                     c_obj["credentialStatus"] = "Retired"
+
+                # Provenance fields - use platform-specific defaults
+                platform_provenance_defaults = {
+                    "google-developer": {
+                        "sourcePlatform": "google-developer",
+                        "retrievalMethod": "api",
+                    },
+                    "google-skills": {
+                        "sourcePlatform": "google-skills",
+                        "retrievalMethod": "api",
+                    },
+                    "microsoft-learn": {
+                        "sourcePlatform": "microsoft-learn",
+                        "retrievalMethod": "export",
+                    },
+                    "credly": {
+                        "sourcePlatform": "credly",
+                        "retrievalMethod": "api",
+                    },
+                    "linkedin-certifications": {
+                        "sourcePlatform": "linkedin-certifications",
+                        "retrievalMethod": "export",
+                    },
+                    "aws-skills": {
+                        "sourcePlatform": "aws-skills",
+                        "retrievalMethod": "export",
+                    },
+                }
+
+                defaults = platform_provenance_defaults.get(
+                    platform_key,
+                    {
+                        "sourcePlatform": platform_key,
+                        "retrievalMethod": "unknown",
+                    },
+                )
+
+                c_obj["sourcePlatform"] = defaults["sourcePlatform"]
+                c_obj["retrievalMethod"] = defaults["retrievalMethod"]
+                c_obj["retrievedAt"] = datetime.now(UTC).isoformat()
+                c_obj["verificationStatus"] = (
+                    "verified"
+                    if (url or verify_url)
+                    else ("retired" if retired else "unknown")
+                )
+
+                # These fields are not currently stored in archive, use defaults
+                c_obj["sourceRecordId"] = cred_id if cred_id else None
+                c_obj["sourceUrl"] = url if url else None
+                c_obj["verifyUrl"] = (
+                    verify_url if verify_url else (url if url else None)
+                )
+                c_obj["lastVerifiedAt"] = None
+                c_obj["sourceHash"] = None
 
                 credentials.append(c_obj)
                 count += 1
