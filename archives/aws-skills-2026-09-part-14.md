@@ -1,9 +1,9 @@
 ---
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 14 of 14
-date_range: 2026-08-29 to 2026-08-29
-total_entries: 24
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-14.md
+date_range: 2026-08-29 to 2026-09-01
+total_entries: 28
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-14.md
 layer: L2_published
 transform: 1:1_pass_through
 artifacts: archive_complete, archive_index, jsonld
@@ -15,6 +15,10 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-01 | [AWS Design Architectures for Advertising workflows](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Managing Applications at Scale with Amazon ECS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [S&P Global's innovative disaster recovery strategy using Amazon FSx for NetApp ONTAP snapshots](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Securing and Protecting Your Data in Amazon Simple Storage Service (Amazon S3)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [Accelerating AWS Network Firewall troubleshooting with AWS DevOps Agent](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [Advanced features of Amazon Aurora PostgreSQL (Part 1)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [Amazon Redshift - Best Practices for Data Warehousing on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

@@ -11,7 +11,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 # AWS Skill Builder Credentials — Part 13
 
-> **Navigation:** Prev: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-14.md](./aws-skills-2026-08-part-14.md) | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-14.md](./aws-skills-2026-09-part-14.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -68,5 +68,5 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08-24 | [Implementing SaaS Tenant Isolation with ABAC and AWS IAM](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-14.md](./aws-skills-2026-08-part-14.md)
+> **Navigation:** Prev: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-14.md](./aws-skills-2026-09-part-14.md)
 
