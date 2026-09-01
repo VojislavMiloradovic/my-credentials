@@ -15,7 +15,10 @@ from datetime import UTC, datetime
 from typing import Any
 
 import requests
-from pydantic import BaseModel, Field, ValidationError, field_validator
+from pydantic import BaseModel, ConfigDict, Field, ValidationError, field_validator
+
+# Provenance Integration
+from models.provenance import ProvenanceBase, RetrievalMethod, VerificationStatus
 
 # Layer Manifest Integration
 try:
@@ -279,9 +282,10 @@ def normalize_date_string(raw_date: Any) -> str | None:
     return None
 
 
-class CredlyBadgeItemModel(BaseModel):
+class CredlyBadgeItemModel(ProvenanceBase):
     """Normalized schema for Credly badge entities."""
 
+    # Platform-specific fields
     id: str = Field(..., min_length=1, description="Credly unique badge ID")
     title: str = Field(..., min_length=1, description="Badge title")
     name: str = Field(..., min_length=1, description="Title alias for compatibility")
@@ -302,6 +306,29 @@ class CredlyBadgeItemModel(BaseModel):
     skills: list[str] = Field(default_factory=list, description="Associated skills")
     retired: bool = Field(
         False, description="Whether the content has been retired by the platform"
+    )
+
+    # Provenance fields with platform-specific defaults
+    source_platform: str = Field(default="credly", description="Platform identifier")
+    source_record_id: str | None = Field(
+        None, description="Stable ID from source platform"
+    )
+    source_url: str | None = Field(None, description="Canonical URL on source platform")
+    retrieved_at: datetime = Field(
+        default_factory=lambda: datetime.now(UTC),
+        description="When this record was retrieved",
+    )
+    last_verified_at: datetime | None = Field(
+        None, description="When independently verified"
+    )
+    verification_status: VerificationStatus = Field(
+        default=VerificationStatus.UNKNOWN, description="Verification status"
+    )
+    source_hash: str | None = Field(
+        None, description="Content hash for deduplication/integrity"
+    )
+    retrieval_method: RetrievalMethod = Field(
+        default=RetrievalMethod.API, description="How retrieved"
     )
 
     @field_validator("issued_at", "issued_at_date", "date", mode="before")
@@ -325,6 +352,26 @@ class CredlyBadgeItemModel(BaseModel):
         elif isinstance(val, str) and val.strip():
             return [val.strip()]
         return []
+
+    @field_validator("verification_status", mode="before")
+    @classmethod
+    def compute_verification_status(cls, val: Any, info) -> VerificationStatus:
+        """Auto-compute verification status from record state."""
+        if isinstance(val, VerificationStatus):
+            return val
+        retired_val = info.data.get("retired", False)
+        url_val = info.data.get("verify_url") or info.data.get("url")
+        if retired_val:
+            return VerificationStatus.RETIRED
+        if url_val:
+            return VerificationStatus.VERIFIED
+        return VerificationStatus.UNKNOWN
+
+    model_config = ConfigDict(
+        json_encoders={
+            datetime: lambda v: v.isoformat() if v else None,
+        }
+    )
 
 
 class CredlyArchivePayloadModel(BaseModel):
@@ -437,7 +484,7 @@ def parse_credly_badges_from_json(json_path: str) -> list[dict]:
             if isinstance(item, dict):
                 try:
                     validated = CredlyBadgeItemModel(**item)
-                    badges.append(validated.model_dump())
+                    badges.append(validated.model_dump(mode="json"))
                 except ValidationError as ve:
                     logger.warning(f"⚠️ Skipping invalid JSON badge entry: {ve}")
 
@@ -539,7 +586,7 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
 
                 try:
                     validated = CredlyBadgeItemModel(**raw_entry)
-                    badges.append(validated.model_dump())
+                    badges.append(validated.model_dump(mode="json"))
                 except ValidationError as ve:
                     logger.warning(
                         f"⚠️ Skipping invalid Credly API entry '{title}': {ve}"
@@ -608,7 +655,7 @@ def fetch_credly_external_badges(user_id: str) -> list[dict] | None:
             "skills": external.get("skills", []),
         }
         try:
-            badges.append(CredlyBadgeItemModel(**raw_entry).model_dump())
+            badges.append(CredlyBadgeItemModel(**raw_entry).model_dump(mode="json"))
         except ValidationError as exc:
             logger.warning(f"⚠️ Skipping invalid external Credly entry '{title}': {exc}")
 
