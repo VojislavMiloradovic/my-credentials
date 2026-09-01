@@ -317,7 +317,15 @@ def save_baseline(
         with open(temp_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
-        os.replace(temp_path, baseline_path)
+        # Windows-safe atomic replace: remove destination first if it exists
+        try:
+            os.replace(temp_path, baseline_path)
+        except OSError:
+            # Windows: destination may be read-only or locked, try removing first
+            if os.path.exists(baseline_path):
+                os.remove(baseline_path)
+            os.replace(temp_path, baseline_path)
+
         stream_suffix = f" ({stream_id})" if stream_id else ""
         logger.info(
             f"💾 [{platform}{stream_suffix}] Baseline updated: {len(fingerprint_index)} records → {baseline_path}"
