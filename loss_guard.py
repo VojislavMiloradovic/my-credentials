@@ -126,6 +126,16 @@ def compute_content_hash(record: dict, id_field: str) -> str:
         "retired",
         "retirement_reason",
         "retired_at",  # schema addition fields, not content change
+        # Provenance fields (added for Phase 1-3) - not content changes
+        "source_platform",
+        "source_record_id",
+        "source_url",
+        "verify_url",
+        "retrieved_at",
+        "last_verified_at",
+        "verification_status",
+        "source_hash",
+        "retrieval_method",
     }
 
     # Create a normalized copy for hashing
