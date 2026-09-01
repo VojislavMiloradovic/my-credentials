@@ -16,7 +16,10 @@ import sys
 from datetime import UTC, datetime
 from typing import Any
 
-from pydantic import BaseModel, Field, ValidationError, field_validator
+from pydantic import ConfigDict, Field, ValidationError, field_validator
+
+# Provenance Integration
+from models.provenance import ProvenanceBase, RetrievalMethod, VerificationStatus
 
 # Archive Integration Helper
 try:
@@ -204,9 +207,10 @@ def parse_linkedin_date(date_str: Any) -> str:
     return "N/A"
 
 
-class LinkedInCertModel(BaseModel):
+class LinkedInCertModel(ProvenanceBase):
     """Normalized schema for LinkedIn / external certification entity."""
 
+    # Platform-specific fields
     name: str = Field(..., min_length=1, description="Certification or course title")
     authority: str = Field("Unknown Issuer", description="Issuing organization")
     issued: str = Field(
@@ -219,10 +223,56 @@ class LinkedInCertModel(BaseModel):
         False, description="Whether the content has been retired by the platform"
     )
 
+    # Provenance fields with platform-specific defaults
+    source_platform: str = Field(
+        default="linkedin-certifications", description="Platform identifier"
+    )
+    source_record_id: str | None = Field(
+        None, description="Stable ID from source platform"
+    )
+    source_url: str | None = Field(None, description="Canonical URL on source platform")
+    verify_url: str | None = Field(None, description="Independent verification link")
+    retrieved_at: datetime = Field(
+        default_factory=lambda: datetime.now(UTC),
+        description="When this record was retrieved",
+    )
+    last_verified_at: datetime | None = Field(
+        None, description="When independently verified"
+    )
+    verification_status: VerificationStatus = Field(
+        default=VerificationStatus.UNKNOWN, description="Verification status"
+    )
+    source_hash: str | None = Field(
+        None, description="Content hash for deduplication/integrity"
+    )
+    retrieval_method: RetrievalMethod = Field(
+        default=RetrievalMethod.EXPORT, description="How retrieved"
+    )
+
     @field_validator("issued", mode="before")
     @classmethod
     def validate_issued_date(cls, val: Any) -> str:
         return parse_linkedin_date(val)
+
+    @field_validator("verification_status", mode="before")
+    @classmethod
+    def compute_verification_status(cls, val: Any, info) -> VerificationStatus:
+        """Auto-compute verification status from record state."""
+        if isinstance(val, VerificationStatus):
+            return val
+        retired_val = info.data.get("retired", False)
+        url_val = info.data.get("url") or info.data.get("verify_url")
+        if retired_val:
+            return VerificationStatus.RETIRED
+        if url_val:
+            return VerificationStatus.VERIFIED
+        return VerificationStatus.UNKNOWN
+
+    model_config = ConfigDict(
+        json_encoders={
+            datetime: lambda v: v.isoformat() if v else None,
+        }
+    )
 
 
 # ==============================================================================
@@ -447,7 +497,7 @@ def parse_certifications_csv(csv_path: str) -> list[dict]:
 
         try:
             validated_model = LinkedInCertModel(**raw_entry)
-            certs.append(validated_model.model_dump())
+            certs.append(validated_model.model_dump(mode="json"))
         except ValidationError as ve:
             logger.warning(f"⚠️ Skipping malformed CSV row '{name}': {ve}")
 
