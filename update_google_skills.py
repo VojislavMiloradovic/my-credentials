@@ -17,7 +17,10 @@ from datetime import UTC, datetime
 from typing import Any
 
 import requests
-from pydantic import BaseModel, Field, ValidationError, field_validator
+from pydantic import BaseModel, ConfigDict, Field, ValidationError, field_validator
+
+# Provenance Integration
+from models.provenance import ProvenanceBase, RetrievalMethod, VerificationStatus
 
 # Layer Manifest Integration
 try:
@@ -305,9 +308,10 @@ def normalize_date_string(raw_date: Any) -> str | None:
     return None
 
 
-class GoogleBadgeItemModel(BaseModel):
+class GoogleBadgeItemModel(ProvenanceBase):
     """Normalized schema for Google Skills credential entities."""
 
+    # Platform-specific fields
     id: str = Field(..., min_length=1, description="Unique badge ID or hash")
     title: str = Field(
         ..., min_length=1, description="Google achievement or skill title"
@@ -336,6 +340,31 @@ class GoogleBadgeItemModel(BaseModel):
         False, description="Whether the content has been retired by the platform"
     )
 
+    # Provenance fields with platform-specific defaults
+    source_platform: str = Field(
+        default="google-skills", description="Platform identifier"
+    )
+    source_record_id: str | None = Field(
+        None, description="Stable ID from source platform"
+    )
+    source_url: str | None = Field(None, description="Canonical URL on source platform")
+    retrieved_at: datetime = Field(
+        default_factory=lambda: datetime.now(UTC),
+        description="When this record was retrieved",
+    )
+    last_verified_at: datetime | None = Field(
+        None, description="When independently verified"
+    )
+    verification_status: VerificationStatus = Field(
+        default=VerificationStatus.UNKNOWN, description="Verification status"
+    )
+    source_hash: str | None = Field(
+        None, description="Content hash for deduplication/integrity"
+    )
+    retrieval_method: RetrievalMethod = Field(
+        default=RetrievalMethod.API, description="How retrieved"
+    )
+
     @field_validator("issued_at", "issued_at_date", "date", mode="before")
     @classmethod
     def validate_and_coerce_dates(cls, val: Any) -> str | None:
@@ -354,6 +383,26 @@ class GoogleBadgeItemModel(BaseModel):
         elif isinstance(val, str) and val.strip():
             return [val.strip()]
         return []
+
+    @field_validator("verification_status", mode="before")
+    @classmethod
+    def compute_verification_status(cls, val: Any, info) -> VerificationStatus:
+        """Auto-compute verification status from record state."""
+        if isinstance(val, VerificationStatus):
+            return val
+        retired_val = info.data.get("retired", False)
+        url_val = info.data.get("verify_url") or info.data.get("url")
+        if retired_val:
+            return VerificationStatus.RETIRED
+        if url_val:
+            return VerificationStatus.VERIFIED
+        return VerificationStatus.UNKNOWN
+
+    model_config = ConfigDict(
+        json_encoders={
+            datetime: lambda v: v.isoformat() if v else None,
+        }
+    )
 
 
 class GoogleSkillsArchivePayloadModel(BaseModel):
@@ -472,7 +521,7 @@ def parse_google_badges_from_json(json_path: str) -> list[dict]:
             if isinstance(item, dict):
                 try:
                     validated = GoogleBadgeItemModel(**item)
-                    badges.append(validated.model_dump())
+                    badges.append(validated.model_dump(mode="json"))
                 except ValidationError as ve:
                     logger.warning(f"⚠️ Skipping invalid JSON badge entry: {ve}")
 
@@ -609,7 +658,7 @@ def fetch_google_skills_badges_playwright(
                 "skills": [title],
             }
             try:
-                parsed.append(GoogleBadgeItemModel(**raw_entry).model_dump())
+                parsed.append(GoogleBadgeItemModel(**raw_entry).model_dump(mode="json"))
             except ValidationError:
                 pass
 
@@ -701,7 +750,9 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                                 }
                                 try:
                                     parsed.append(
-                                        GoogleBadgeItemModel(**raw_entry).model_dump()
+                                        GoogleBadgeItemModel(**raw_entry).model_dump(
+                                            mode="json"
+                                        )
                                     )
                                 except ValidationError:
                                     pass
@@ -809,7 +860,9 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                                 }
                                 try:
                                     parsed.append(
-                                        GoogleBadgeItemModel(**raw_entry).model_dump()
+                                        GoogleBadgeItemModel(**raw_entry).model_dump(
+                                            mode="json"
+                                        )
                                     )
                                 except ValidationError:
                                     pass
