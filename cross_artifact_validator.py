@@ -193,6 +193,16 @@ class PlatformCounts:
     latest_record_date_source: str | None = None
     latest_record_date_archive: str | None = None
     latest_record_date_jsonld: str | None = None
+    # Provenance tracking
+    provenance_source_platform: str | None = None
+    provenance_retrieval_method: str | None = None
+    provenance_retrieved_at: str | None = None
+    provenance_verification_status: str | None = None
+    provenance_source_record_id: str | None = None
+    provenance_source_url: str | None = None
+    provenance_verify_url: str | None = None
+    provenance_last_verified_at: str | None = None
+    provenance_source_hash: str | None = None
 
 
 class CrossArtifactValidator:
@@ -656,6 +666,126 @@ class CrossArtifactValidator:
                     message="JSON-LD is not valid JSON",
                 )
             )
+
+    def _validate_jsonld_provenance(
+        self, platform_key: str, credentials: list[dict], counts: PlatformCounts
+    ) -> None:
+        """Validate provenance metadata in JSON-LD credentials."""
+        # Check that provenance fields are present
+        required_provenance_fields = [
+            "sourcePlatform",
+            "retrievalMethod",
+            "retrievedAt",
+            "verificationStatus",
+            "sourceRecordId",
+            "sourceUrl",
+            "verifyUrl",
+            "lastVerifiedAt",
+            "sourceHash",
+            "retrievalMethod",
+        ]
+
+        missing_fields = 0
+        for cred in credentials:
+            for field in required_provenance_fields:
+                if cred.get(field) is None:
+                    missing_fields += 1
+
+        if missing_fields > 0:
+            self.add_result(
+                ValidationResult(
+                    check_name="jsonld_provenance_completeness",
+                    platform=platform_key,
+                    passed=missing_fields == 0,
+                    expected="All provenance fields present",
+                    actual=f"{missing_fields} fields missing",
+                    message=f"JSON-LD credentials missing {missing_fields} provenance fields",
+                    severity="warning",
+                )
+            )
+
+        # Validate sourcePlatform matches platform
+        platform_mismatch = 0
+        for cred in credentials:
+            if cred.get("sourcePlatform") != platform_key:
+                platform_mismatch += 1
+
+        if platform_mismatch > 0:
+            self.add_result(
+                ValidationResult(
+                    check_name="jsonld_provenance_platform_match",
+                    platform=platform_key,
+                    passed=platform_mismatch == 0,
+                    expected=f"sourcePlatform == {platform_key}",
+                    actual=f"{platform_mismatch} mismatches",
+                    message=f"JSON-LD sourcePlatform mismatch: {platform_mismatch} credentials have wrong platform",
+                    severity="warning",
+                )
+            )
+
+        # Validate retrievalMethod is one of expected values
+        invalid_retrieval_method = 0
+        valid_methods = ["api", "scrape", "export", "manual", "unknown"]
+        for cred in credentials:
+            if cred.get("retrievalMethod") not in valid_methods:
+                invalid_retrieval_method += 1
+
+        if invalid_retrieval_method > 0:
+            self.add_result(
+                ValidationResult(
+                    check_name="jsonld_provenance_retrieval_method",
+                    platform=platform_key,
+                    passed=invalid_retrieval_method == 0,
+                    expected=f"retrievalMethod in {valid_methods}",
+                    actual=f"{invalid_retrieval_method} invalid",
+                    message=f"JSON-LD invalid retrievalMethod: {invalid_retrieval_method} credentials",
+                    severity="warning",
+                )
+            )
+
+        # Validate verificationStatus is one of expected values
+        invalid_verification_status = 0
+        valid_statuses = ["verified", "unverified", "retired", "expired", "unknown"]
+        for cred in credentials:
+            if cred.get("verificationStatus") not in valid_statuses:
+                invalid_verification_status += 1
+
+        if invalid_verification_status > 0:
+            self.add_result(
+                ValidationResult(
+                    check_name="jsonld_provenance_verification_status",
+                    platform=platform_key,
+                    passed=invalid_verification_status == 0,
+                    expected=f"verificationStatus in {valid_statuses}",
+                    actual=f"{invalid_verification_status} invalid",
+                    message=f"JSON-LD invalid verificationStatus: {invalid_verification_status} credentials",
+                    severity="warning",
+                )
+            )
+
+            # Store provenance metadata in counts for cross-artifact comparison
+        # Filter credentials for this platform
+        platform_credentials = [
+            c
+            for c in credentials
+            if (
+                c.get("platform")
+                or self._infer_platform(c.get("recognizedBy", {}).get("name", ""))
+            )
+            == platform_key
+        ]
+        if platform_credentials:
+            cred = platform_credentials[0]
+            cred = platform_credentials[0]
+            counts.provenance_source_platform = cred.get("sourcePlatform")
+            counts.provenance_retrieval_method = cred.get("retrievalMethod")
+            counts.provenance_retrieved_at = cred.get("retrievedAt")
+            counts.provenance_verification_status = cred.get("verificationStatus")
+            counts.provenance_source_record_id = cred.get("sourceRecordId")
+            counts.provenance_source_url = cred.get("sourceUrl")
+            counts.provenance_verify_url = cred.get("verifyUrl")
+            counts.provenance_last_verified_at = cred.get("lastVerifiedAt")
+            counts.provenance_source_hash = cred.get("sourceHash")
 
     def validate_llms_txt(self) -> None:
         """Validate llms.txt portfolio counts."""
