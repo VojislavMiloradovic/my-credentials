@@ -1416,7 +1416,7 @@ This document represents a unified, verifiable list of all 1588 records.
 | 2026-03 | **What Is Generative AI?** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2004c711ab3acf5357eeb3306378f06aa8a591232f4984a4730d786670b381d7) |
 | 2026-03 | **Ethics in the Age of Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/81172a2f26ee5028965fae175cd98c07a750b0b0d5f6b30cd42abd8f9d950c5f) |
 | 2026-03 | **Conversion Optimization Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/3c4afa84-5637-4c3b-b3fc-6e6c26e48d35) |
-| 2026-03 | **Human Skills in the Age of AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4) |
+| 2026-03 | **Human Skills in the Age of AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4) ⚠️ *Content retired* |
 | 2026-03 | **Grow Offline Sales Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/2d2774cb-bf2e-47c5-a286-86de5cc1bcd8) |
 | 2026-03 | **Microsoft Applied Skills: Generate reports with AI research agents** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/ABC20116B56C7F9F?sharingId) |
 | 2026-03 | **Search Ads 360 Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/5b477ad2-43c6-4789-af30-137f9f87f4c6) |
