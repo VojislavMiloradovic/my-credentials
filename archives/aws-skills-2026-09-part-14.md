@@ -2,7 +2,7 @@
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 14 of 14
 date_range: 2026-08-29 to 2026-09-01
-total_entries: 28
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-14.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,10 +15,32 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-01 | [Advanced Architecting on AWS - Online Course Supplement](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Advanced SQL and Database Design](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [AI Traffic Monetization - Implementing Pay-Per-Access For AI Agents](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [AI-Powered Video Advertising & Operations Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Amazon CloudWatch - Advanced Course](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [AWS Client VPN-Advanced Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [AWS Design Architectures for Advertising workflows](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [AWS Generative AI Developer - Analyze Requirements and Design Generative AI Solutions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [AWS Operational Best practices for Advertising workflows](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [AWS Security Agent - Get started with AI-powered proactive AppSec](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [AWS Snowball Edge Logistics and Planning](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Building and Deploying Agents on Amazon Bedrock AgentCore Runtime](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Building Enterprise Architectures in Amazon ECS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Deep Dive on AWS Organizations Policies](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Deepdive into AWS Advertising Services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Designing and Deploying an Amazon Elastic File System (Amazon EFS) Solution](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Dynamic Data Masking in Amazon Aurora PostgreSQL](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Implementing Standardized Agent Communication Protocols with Amazon Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [Managing Applications at Scale with Amazon ECS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Managing the Application Lifecycle in Amazon ECS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Multi-Account Resource Inventory and Visualization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Prompt Engineering Best Practices for Amazon Bedrock Models](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [S&P Global's innovative disaster recovery strategy using Amazon FSx for NetApp ONTAP snapshots](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [Securing and Protecting Your Data in Amazon Simple Storage Service (Amazon S3)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Setting up Delegated Administrator for AWS services integrated with AWS Organizations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Strands Shell: Sandboxed Agent Execution for Production Workloads](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [Accelerating AWS Network Firewall troubleshooting with AWS DevOps Agent](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [Advanced features of Amazon Aurora PostgreSQL (Part 1)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [Amazon Redshift - Best Practices for Data Warehousing on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

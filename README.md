@@ -95,8 +95,8 @@ Showing latest 10 of 386 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 745
-**Total Verified Skills Mapped:** 743
+**Total Portfolio Credentials:** 767
+**Total Verified Skills Mapped:** 765
 
 #### AWS Cloud Quest Summary
 
@@ -111,20 +111,20 @@ Showing latest 10 of 386 credentials. View full dataset via [Platform Archive In
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 745 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-09-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-14.md)), or [Monolithic File](./archives/aws-skills-complete.md).
+Showing latest 10 of 767 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-09-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-14.md)), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-01 | [Advanced Architecting on AWS - Online Course Supplement](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Advanced SQL and Database Design](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [AI Traffic Monetization - Implementing Pay-Per-Access For AI Agents](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [AI-Powered Video Advertising & Operations Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Amazon CloudWatch - Advanced Course](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [AWS Client VPN-Advanced Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [AWS Design Architectures for Advertising workflows](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-01 | [Managing Applications at Scale with Amazon ECS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-01 | [S&P Global's innovative disaster recovery strategy using Amazon FSx for NetApp ONTAP snapshots](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-01 | [Securing and Protecting Your Data in Amazon Simple Storage Service (Amazon S3)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-29 | [Accelerating AWS Network Firewall troubleshooting with AWS DevOps Agent](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-29 | [Advanced features of Amazon Aurora PostgreSQL (Part 1)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-29 | [Amazon Redshift - Best Practices for Data Warehousing on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-29 | [Amazon Relational Database Service (Amazon RDS) for PostgreSQL - Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-29 | [Amazon WorkSpaces Migrations — Citrix on WorkSpaces Core](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-29 | [Automate CI/CD troubleshooting with AWS DevOps Agent and GitHub](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [AWS Generative AI Developer - Analyze Requirements and Design Generative AI Solutions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [AWS Operational Best practices for Advertising workflows](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [AWS Security Agent - Get started with AI-powered proactive AppSec](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 <!-- AWS_SKILLS_END -->
 
 
