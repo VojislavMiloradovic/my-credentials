@@ -1,12 +1,10 @@
 """
 Additional tests for run_link_checker.py to improve coverage.
 """
-import json
-import os
+
 import sys
 import tempfile
 from pathlib import Path
-from unittest.mock import patch, MagicMock
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -68,7 +66,12 @@ def test_load_results_json_decode_error(monkeypatch):
         results_file.write_text("{ invalid json }")
 
         import run_link_checker as rlc
-        monkeypatch.setattr(rlc, "RESULTS_FILE", str(Path(tmpdir) / "link_check_results" / "latest.json"))
+
+        monkeypatch.setattr(
+            rlc,
+            "RESULTS_FILE",
+            str(Path(tmpdir) / "link_check_results" / "latest.json"),
+        )
         result = rlc.load_results()
         assert "error" in result
         assert "JSON parse error" in result["error"]
@@ -127,7 +130,7 @@ def test_generate_summary_with_all_fields():
                 "line": 10,
             }
         },
-        "timeouts": {
+        "timeout_map": {
             "https://example.com/slow": {
                 "status": "timeout",
                 "error": "Connection timeout",
@@ -151,4 +154,5 @@ def test_generate_summary_with_all_fields():
 
 if __name__ == "__main__":
     import pytest
+
     pytest.main([__file__, "-v"])
