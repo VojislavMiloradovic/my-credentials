@@ -135,15 +135,17 @@ Showing latest 10 of 767 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 599
-**Total Verified Skills Mapped:** 2066
+**Total Portfolio Credentials:** 601
+**Total Verified Skills Mapped:** 2068
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 599 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-08-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 601 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-01 | [AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-09-01 | [Certified Calico Operator - eBPF](https://www.credly.com/badges/ca8ed339-7ffe-46d4-a810-153f3f41f76a/public_url) | Tigera | Credly Verified Badge |
 | 2026-08-31 | [Retrieval-Augmented Generation for Enhanced AI Outputs](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-08-31 | [Cloud Tech Professional XDR](https://www.credly.com/badges/7576a471-6531-4ba8-8133-a367cbbea9a0/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-31 | [EDR Basic Course](https://www.credly.com/badges/f47fe6a0-2dfc-4afb-8ca2-df6914a9dfca/public_url) | Acronis | Credly Verified Badge |
@@ -152,8 +154,6 @@ Showing latest 10 of 599 credentials. View full dataset via [Platform Archive In
 | 2026-08-31 | [MSP Academy: Cyber Scripting](https://www.credly.com/badges/08f1b56f-b3eb-41af-9553-5cc25976d29e/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-31 | [MSP Academy: Disaster Recovery](https://www.credly.com/badges/4aae4192-7870-4fbc-8644-06db35ece843/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-31 | [MSP Academy: Maximizing Your Business Efficiency](https://www.credly.com/badges/8b9124df-62b5-4111-8029-b4fd9b558ea4/public_url) | Acronis | Credly Verified Badge |
-| 2026-08-31 | [Share Data Using Google Data Cloud Skill Badge](https://www.credly.com/badges/35d9f8d7-dc3e-4f66-9ec8-d83eeb50882f/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-08-30 | [Implement CI/CD Pipelines on Google Cloud Skill Badge](https://www.credly.com/badges/a15b509b-48e1-47dc-96f7-6e36d36e0412/public_url) | Google Cloud | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
