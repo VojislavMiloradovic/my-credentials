@@ -11,11 +11,12 @@ artifacts: archive_complete, archive_index, jsonld
 
 # Microsoft Learn — Part 94
 
-> **Navigation:** Prev: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-95.md](./microsoft-learn-2026-08-part-95.md) | [Complete Archive](./microsoft-learn-complete.md)
+> **Navigation:** Prev: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-95.md](./microsoft-learn-2026-09-part-95.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
 | **Fundamentals of Bicep** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/) |
+| **Build flexible Bicep files by using conditions and loops** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-files-conditions-loops/) |
 | **Build reusable Bicep files by using parameters** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reusable-bicep-files-parameters/) |
 | **Build your first Bicep file** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-bicep-file/) |
 | **Introduction to retrieval-augmented generation concepts** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/rag-fundamentals/) |
@@ -68,8 +69,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Prevent data loss and govern the data lifecycle with Microsoft Purview** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/prevent-data-loss-lifecycle-purview/) |
 | **Monitor and optimize Microsoft 365 AI services** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-optimize-m365-ai-services/) |
 | **License Microsoft 365 and AI services at scale** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/license-microsoft-365-ai-services/) |
-| **Keep a Microsoft 365 tenant resilient and healthy** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-microsoft-365-tenant-health/) |
 
 ---
-> **Navigation:** Prev: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-95.md](./microsoft-learn-2026-08-part-95.md)
+> **Navigation:** Prev: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-95.md](./microsoft-learn-2026-09-part-95.md)
 

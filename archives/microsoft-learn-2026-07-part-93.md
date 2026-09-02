@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Keep a Microsoft 365 tenant resilient and healthy** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-microsoft-365-tenant-health/) |
 | **Implement authentication and access in Microsoft Entra** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-authentication-access-entra/) |
 | **Establish agent identities and secure access with Microsoft Entra Agent ID** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/establish-agent-identities-entra-agent-id/) |
 | **Curate and control agents with the Agent Registry and Agent 365 tools** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/curate-control-agents-registry-tools/) |
@@ -66,7 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Architect AI solutions for business productivity** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-agentic-ai-business-solutions/) |
 | **Introduction to agentic AI business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-agentic-ai-business-solution-architecture/) |
 | **Manage testing AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-testing-ai-powered-business-solutions/) |
-| **Evaluate costs and benefits of AI solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-costs-benefits-ai-powered-business-solution/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md)
