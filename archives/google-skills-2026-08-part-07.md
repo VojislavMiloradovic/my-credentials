@@ -11,7 +11,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 # Google Skills Credentials — Part 07
 
-> **Navigation:** Prev: [google-skills-2026-05-part-06.md](./google-skills-2026-05-part-06.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-08-part-08.md](./google-skills-2026-08-part-08.md) | [Complete Archive](./google-skills-complete.md)
+> **Navigation:** Prev: [google-skills-2026-05-part-06.md](./google-skills-2026-05-part-06.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-09-part-08.md](./google-skills-2026-09-part-08.md) | [Complete Archive](./google-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -66,5 +66,5 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-05-23 | [Build Real World AI Applications with Gemini and Imagen](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24364563) | Google Cloud | Google Skill Badge |
 
 ---
-> **Navigation:** Prev: [google-skills-2026-05-part-06.md](./google-skills-2026-05-part-06.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-08-part-08.md](./google-skills-2026-08-part-08.md)
+> **Navigation:** Prev: [google-skills-2026-05-part-06.md](./google-skills-2026-05-part-06.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-09-part-08.md](./google-skills-2026-09-part-08.md)
 

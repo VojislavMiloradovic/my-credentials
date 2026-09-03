@@ -1,9 +1,9 @@
 ---
 archive_platform: Google Skills Credentials
 chunk_part: 8 of 8
-date_range: 2026-08-07 to 2026-08-31
-total_entries: 46
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-08.md
+date_range: 2026-08-07 to 2026-09-02
+total_entries: 47
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-09-part-08.md
 layer: L2_published
 transform: 1:1_pass_through
 artifacts: archive_complete, archive_index, jsonld
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-02 | [Derive Insights from BigQuery Data](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27548513) | Google Cloud | Google Skill Badge |
 | 2026-08-31 | [Share Data Using Google Data Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27462274) | Google Cloud | Google Skill Badge |
 | 2026-08-30 | [Manage Kubernetes in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27422046) | Google Cloud | Google Skill Badge |
 | 2026-08-30 | [Implement CI/CD Pipelines on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27420685) | Google Cloud | Google Skill Badge |
