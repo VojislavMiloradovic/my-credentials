@@ -1,6 +1,6 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 601 records.
+This document represents a unified, verifiable list of all 602 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
@@ -10,6 +10,7 @@ This document represents a unified, verifiable list of all 601 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-02 | [Derive Insights from BigQuery Data Skill Badge](https://www.credly.com/badges/01067a7c-6951-46f0-bac8-40238c8d8fd2/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-01 | [AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-09-01 | [Certified Calico Operator - eBPF](https://www.credly.com/badges/ca8ed339-7ffe-46d4-a810-153f3f41f76a/public_url) | Tigera | Credly Verified Badge |
 | 2026-08-31 | [Retrieval-Augmented Generation for Enhanced AI Outputs](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/public_url) | IBM SkillsBuild | Credly Verified Badge |
