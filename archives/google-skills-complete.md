@@ -52,7 +52,7 @@ This document represents a unified, verifiable list of all 387 records.
 | 2026-08-22 | [AI Boost Bites: The Project Coordinator's Command Center](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125162) | Google Cloud | Google Skill Badge |
 | 2026-08-22 | [AI Boost Bites: Master Internal Comms in Gmail](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125132) | Google Cloud | Google Skill Badge |
 | 2026-08-22 | [AI Boost Bites: Google Workspace Studio](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125099) | Google Cloud | Google Skill Badge |
-| 2026-08-17 | [Vibe Coding for Beginners: From Zero to App](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26909457) | Google Cloud | Google Skill Badge |
+| 2026-08-17 | [[DEPRECATED] Vibe Coding for Beginners: From Zero to App](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26909457) | Google Cloud | Google Skill Badge |
 | 2026-08-13 | [Google Cloud Computing Foundations: Networking & Security in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26758292) | Google Cloud | Google Skill Badge |
 | 2026-08-09 | [Create and Manage Cloud Spanner Instances](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26478834) | Google Cloud | Google Skill Badge |
 | 2026-08-07 | [Arcade Simulator: Network Security Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26380399) | Google Cloud | Google Skill Badge |
