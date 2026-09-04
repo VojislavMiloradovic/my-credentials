@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 12 of 12
-date_range: 2026-08-28 to 2026-09-02
-total_entries: 20
+date_range: 2026-08-28 to 2026-09-04
+total_entries: 24
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,10 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-04 | [Career Management Essentials](https://www.credly.com/badges/2a1cf5d5-5ba0-4d9a-86ad-a1c1b920f2e8/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-04 | [Essentials - Acronis Cyber Platform: Automate](https://www.credly.com/badges/47021d40-dba0-4fa9-8853-e28fe207dea1/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-04 | [Essentials - Acronis Cyber Platform: Manage](https://www.credly.com/badges/dc4210de-cbe7-47f4-97b8-ecbb7df7becd/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-04 | [Lifelong Professional Skills](https://www.credly.com/badges/e981ea1d-c27f-4baf-9811-f8eb8a44c7cd/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-02 | [Derive Insights from BigQuery Data Skill Badge](https://www.credly.com/badges/01067a7c-6951-46f0-bac8-40238c8d8fd2/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-01 | [AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-09-01 | [Certified Calico Operator - eBPF](https://www.credly.com/badges/ca8ed339-7ffe-46d4-a810-153f3f41f76a/public_url) | Tigera | Credly Verified Badge |
