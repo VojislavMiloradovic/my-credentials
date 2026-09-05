@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 20 of 35
+chunk_part: 20 of 36
 date_range: 2026-06 to 2026-06
 total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-20.md
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Data Impact with DJ Patil** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/89be6687009e2858241f7a5a20d46110a852fe7f450fa66f804df6fca85e618f) |
-| 2026-06 | **Building No-Code Apps with AppSheet: Automation** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25137908?utm_medium=social) |
 | 2026-06 | **Nano Tips to Use AI to Be a More Effective Manager with Ashley Herd** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/079ff2be33c670cf824d6bff1c6d60af67ad12f8f67ae70aff4f0d528b6c022a) |
 | 2026-06 | **Automating Your Work with Custom GPTs (No Code Required) (2025)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2cf33f14c1f4b0732358bbe8397a7d3dc153d9292be3d9c881db5f9bee8a1d35) |
 | 2026-06 | **Become a Generative AI Power Prompter and Content Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/71276e4169e0da01412f33a3990cc3eddb8da44346fda1213c625f56d2f21ef7) |
@@ -60,6 +58,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06 | **Nano Tips for Getting Unstuck as an Entrepreneur with Terry Rice** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c25e4d301eef6e8062e6756c7b041dca4f2bed2f949aaf1424b3f1e1762edfb8) |
 | 2026-06 | **2-Minute Tips for Senior Leaders** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f34c67236ed0b6b1483e5e8084aebfbac6aded149cfaf49fcc9e6e4f8f17e687) |
 | 2026-06 | **What You Need to Know About Crafting a Stand-out Resume** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f272a770a7294440f647201c83e67b987f3d74a40e3109e359097b70a882e074) |
+| 2026-06 | **Aaron Dignan on Transformational Change** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/74eba71f1c6ebb27cca43df22151488d3ce52f90408d4df82653cfde5bf663ee) |
+| 2026-06 | **AWS Knowledge: AI Driven Development Lifecycle Foundations – Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/f1880883-9103-4d1b-8857-012568263bb3/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-19.md](./linkedin-certifications-2026-06-part-19.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-21.md](./linkedin-certifications-2026-06-part-21.md)

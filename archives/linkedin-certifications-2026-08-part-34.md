@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 34 of 35
+chunk_part: 34 of 36
 date_range: 2026-08 to 2026-08
-total_entries: 42
+total_entries: 43
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-34.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Build Collaborative Multi-Agent Systems with ADK & MCP** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286201?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-08 | **Simplify Your Architecture with Network Connectivity Center** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286098?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-08 | **Critical Thinking in AI-Driven Workflows** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285992?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **Looker Core Administration** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285912?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **AI Boost Bites: Build a Branded Knowledge Base** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285632?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **AI Boost Bites: Master Your Meetings with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285586?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -57,6 +54,10 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08 | **Securing OpenClaw with Tetragon** | Isovalent | [Verify Record](https://www.credly.com/badges/20087ee1-5248-4fef-aa1e-97fb867406cd/linked_in_profile) |
 | 2026-08 | **Discovery: Cloud Architect on Azure** | Isovalent | [Verify Record](https://www.credly.com/badges/da069ba5-7566-4254-992f-5ffb42c42770/linked_in_profile) |
 | 2026-08 | **Cilium AI/ML Security** | Isovalent | [Verify Record](https://www.credly.com/badges/0d6b393c-0f31-4c76-98ed-0adb380e23f0/linked_in_profile) |
+| 2026-08 | **Cilium IPAM** | Isovalent | [Verify Record](https://www.credly.com/badges/781ae1d3-d016-448f-82e3-5b887b43886e/linked_in_profile) |
+| 2026-08 | **Web Development Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/720901ee-adda-4ca3-b428-06661f472f0c/linked_in_profile) |
+| 2026-08 | **Validating Security Controls with AttackIQ Enterprise** | AttackIQ | [Verify Record](https://www.credly.com/badges/c042b6a3-a7dd-4ba3-bbfd-9f03fbb8c267/linked_in_profile) |
+| 2026-08 | **Cloud Tech Pro - RMM** | Acronis | [Verify Record](https://www.credly.com/badges/67ba03f9-c9f9-410f-89d3-b360f84233a7/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-33.md](./linkedin-certifications-2026-08-part-33.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-35.md](./linkedin-certifications-2026-08-part-35.md)

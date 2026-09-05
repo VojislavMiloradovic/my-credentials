@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 6 of 35
+chunk_part: 6 of 36
 date_range: 2026-03 to 2026-04
-total_entries: 44
+total_entries: 43
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-04-part-06.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-04 | **Implementing SAP Self-Billing Cockpit - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xolag-katug-gehif-bisyh-kydaf) |
-| 2026-04 | **Introducing the Agribusiness Industry - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xutup-cafoc-delit-hosut-cepot) |
 | 2026-04 | **Digital Mindset** | IBM | [Verify Record](https://www.credly.com/badges/c195427e-a1f4-46f7-9695-5e86dd6acff9/linked_in_profile) |
 | 2026-04 | **Positioning SAP Business Data Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xysyd-cenam-bohyc-povid-fesiv) |
 | 2026-04 | **Introducing RISE with SAP Methodology for SAP Partners and Customers - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xynof-pypuc-fyfec-kavun-koraf) |
@@ -59,6 +57,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-03 | **Introduction to Google Security Operations (SIEM)** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23130986?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Google Cloud AI and ML Solutions for the Public Sector** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23053470?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Introduction to Looker** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22909077?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-03 | **Networking in Google Cloud: Load Balancing** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22878671?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-03-part-05.md](./linkedin-certifications-2026-03-part-05.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-04-part-07.md](./linkedin-certifications-2026-04-part-07.md)

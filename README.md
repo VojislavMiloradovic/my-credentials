@@ -168,24 +168,24 @@ Showing latest 10 of 606 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,588 |
+| **Total External Certifications Verified** | 1,611 |
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-08-part-35.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-35.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-09-part-36.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-36.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-08* | **A Manager's Guide to Learning in the Flow of Work with LinkedIn Learning** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8108de1a5d8132d293ce4d8ff39b9d6a5d6df65f07107093bfcf10762bcc6845) |
-| *2026-08* | **Data Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/48961c89-7ace-474a-9a78-34e0b63722d5/linked_in_profile) |
-| *2026-08* | **Nano Tips for Inclusive Leadership with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a09c174390f7ca190a0101ef0c87d575acdde92cfe2d58349c23233fd51a8a00) |
-| *2026-08* | **Persuading Others (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c3b3e257b2ad43a77a84dded2d3a32e7d7cae76c21152330cce82e9c0f727b8c) |
-| *2026-08* | **Nano Tips for Managing Across Cultures with Tatiana Kolovou** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/424ef0834f5c2489df8da45d4f44bb3ce9d5c17d275d35035c039cdd234e601b) |
-| *2026-08* | **LinkedIn Profiles for Technical Professionals** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/487c857032e423e902de860b7d1c70f5e52422eafbd8bf1a84ebaaa8bb3a357b) |
-| *2026-08* | **Artificial Intelligence Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/aac932d8-d7d0-4966-a8a3-eca0e69f795e/linked_in_profile) |
-| *2026-08* | **Is College Still Worth It? Real Answers about Careers and the Future of Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/920e72a3d24a2594e1ed202b71389aefed90d1d631fb5aba1411c236b008bcf2) |
-| *2026-08* | **The Shift Toward a Skills-First Mindset: A Thought-Leader Roundtable** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/864297f620035731b2fa38706bb23908976925123b77b2fb449612d0cf2ca061) |
-| *2026-08* | **Nano Tips for Simple Meetings with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b043154796a98c52859a09b6d544fa5b68b0700d561a2fbc8aa3aa7c17eb3465) |
+| *2026-09* | **SEO Copywriting: Crafting Content for Both Humans and Search Engines** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5a233ef9dda2bcf56f6ed7ac32c4f087cd6f5b74421681abf44bfd98a7314ba6) |
+| *2026-09* | **Nano Tips to Build Authority on LinkedIn with Shadé Zahrai & Jasmin Alić** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b36e8947f730009d5fc4fb6daa85358c35953451a997ccf08240970b86caeca1) |
+| *2026-09* | **Career Management Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2a1cf5d5-5ba0-4d9a-86ad-a1c1b920f2e8/linked_in_profile) |
+| *2026-09* | **Lifelong Professional Skills** | IBM | [Verify Record](https://www.credly.com/badges/e981ea1d-c27f-4baf-9811-f8eb8a44c7cd/linked_in_profile) |
+| *2026-09* | **Essentials - Acronis Cyber Platform: Manage** | Acronis | [Verify Record](https://www.credly.com/badges/dc4210de-cbe7-47f4-97b8-ecbb7df7becd/linked_in_profile) |
+| *2026-09* | **Essentials - Acronis Cyber Platform: Automate** | Acronis | [Verify Record](https://www.credly.com/badges/47021d40-dba0-4fa9-8853-e28fe207dea1/linked_in_profile) |
+| *2026-09* | **Derive Insights from BigQuery Data Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/01067a7c-6951-46f0-bac8-40238c8d8fd2/linked_in_profile) |
+| *2026-09* | **Getting Started as a LinkedIn Learning Admin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fe023a5e666217da82c02a4d2515e674acba39f2c4330cdd0281dc67328aebc8) |
+| *2026-09* | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
+| *2026-09* | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
 <!-- LINKEDIN_END -->
 
 

@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 25 of 35
+chunk_part: 25 of 36
 date_range: 2026-07 to 2026-07
-total_entries: 48
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-25.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-07 | **Well-Architected Proficient** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/5956f2ee-34a1-400c-8d10-a6a9d75a08a8/linked_in_profile) |
-| 2026-07 | **Cloud Tech Associate Advanced Data Loss Prevention** | Acronis | [Verify Record](https://www.credly.com/badges/1e7b88fd-f5b2-4563-9cb8-6815ee1dfedc/linked_in_profile) |
-| 2026-07 | **Nano Tips for Tactical Marketing with ChatGPT with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eabbd5263f954752afa2f2ed018c9b1773e426cc20619e7a05a56a3d607d06ce) |
 | 2026-07 | **AI Fluency: Generative AI for Career Coaches by Microsoft and NAWB** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e6a84b7a3453aa455ba3865e70f8930a8236e7e5fa98f762cf58827b99b0d139) |
 | 2026-07 | **Arcade Trail: Google Workspace Administration** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25402530?utm_medium=social) |
 | 2026-07 | **Nano Tips for Leading Change as a New Manager with Chris Williams** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6483c691bd4ffb80c482d6f72ec5e4e62b183b44c7d286fef14085894f40180a) |
@@ -63,6 +60,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-07 | **Mitigate Threats and Vulnerabilities with Security Command Center Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/0daa2483-3793-42a7-afb0-4d338d3725bc/linked_in_profile) |
 | 2026-07 | **B2B Marketing on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ecba3b836bb1a091206ea14147cadcc7c6c2caa3ccae1a7dd3bc840bcda35cb2) |
 | 2026-07 | **Nano Tips for Increasing Your Visibility at Work with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1ad78e9a94edeb61dc7bb1b175bd9f7668ecdf53bbd5894e8f0046c4fe7accf1) |
+| 2026-07 | **Nano Tips for Answering Common Interview Questions with Tiffany Uman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5a67740596020fd510c5e66681316c8da1f94f651f8a8b0002285327198d5f00) |
+| 2026-07 | **Nano Tips for Senior Leaders Navigating Corporate Politics with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cffaa286a2bd5561ab7bde22761eff820f36c049f9cde676cc6c89dbf4648a92) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-24.md](./linkedin-certifications-2026-07-part-24.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-26.md](./linkedin-certifications-2026-07-part-26.md)

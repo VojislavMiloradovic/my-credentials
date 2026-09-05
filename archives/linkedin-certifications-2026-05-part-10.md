@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 10 of 35
+chunk_part: 10 of 36
 date_range: 2026-05 to 2026-05
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-10.md
@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-05 | **GenAI - Client to Cloud Fundamentals** | Intel | [Verify Record](https://www.credly.com/badges/bbd4f4ac-6aba-480f-b77c-9b8f79b65bdd/linked_in_profile) |
-| 2026-05 | **Discovering the Basics of SAP S/4HANA Portfolio and Project Management - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/d3c10832-4cf4-4d04-939b-bbcc1dcc9f1e/linked_in_profile) |
-| 2026-05 | **Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity** | Okta | [Verify Record](https://www.credly.com/badges/2f421b3d-277a-4bc8-8120-3a07438a5962/linked_in_profile) |
 | 2026-05 | **Overview of the IFRS 17 Standard** | SAS | [Verify Record](https://www.credly.com/badges/85b05775-f078-4b2e-9a1c-8987a14c0162/linked_in_profile) |
 | 2026-05 | **Introduction to Statistical Concepts** | SAS | [Verify Record](https://www.credly.com/badges/c503a241-0ce2-4131-878d-d2695680bde2/linked_in_profile) |
 | 2026-05 | **Data Literacy Essentials** | SAS | [Verify Record](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31/linked_in_profile) |
@@ -68,6 +65,9 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-05 | **Log Management Fundamentals** | Datadog | [Verify Record](https://www.credly.com/badges/bb1f9ed7-1194-4b2f-98ec-3919dfccd7df/linked_in_profile) |
 | 2026-05 | **Log Configuration & Processing Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/e1e5c2fb-df56-4426-b482-94ee2d79e9e0/linked_in_profile) |
 | 2026-05 | **Log Querying & Analytics Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/a621b498-451c-4f52-ab24-2af344bc773d/linked_in_profile) |
+| 2026-05 | **Cloud Security Engineer - Cloud SIEM Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/577f478c-820f-4968-b0d8-4442919eb244/linked_in_profile) |
+| 2026-05 | **Cloud Security Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/85e91ec4-bba7-40fb-bc78-ab15fc5c4c1f/linked_in_profile) |
+| 2026-05 | **Managing Company Administration in Legacy Concur Travel - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/ec23d781-1dce-4c64-9a2c-1199a7650f19/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-05-part-09.md](./linkedin-certifications-2026-05-part-09.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-11.md](./linkedin-certifications-2026-05-part-11.md)

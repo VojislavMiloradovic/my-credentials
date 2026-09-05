@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 35 of 35
+chunk_part: 35 of 36
 date_range: 2026-08 to 2026-08
-total_entries: 45
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-35.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,12 +11,10 @@ artifacts: archive_complete, archive_index, jsonld
 
 # LinkedIn Certifications — Part 35
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md) | [Index](./linkedin-certifications-index.md) | Next: None | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-36.md](./linkedin-certifications-2026-09-part-36.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **A Manager's Guide to Learning in the Flow of Work with LinkedIn Learning** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8108de1a5d8132d293ce4d8ff39b9d6a5d6df65f07107093bfcf10762bcc6845) |
-| 2026-08 | **Data Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/48961c89-7ace-474a-9a78-34e0b63722d5/linked_in_profile) |
 | 2026-08 | **Nano Tips for Inclusive Leadership with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a09c174390f7ca190a0101ef0c87d575acdde92cfe2d58349c23233fd51a8a00) |
 | 2026-08 | **Persuading Others (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c3b3e257b2ad43a77a84dded2d3a32e7d7cae76c21152330cce82e9c0f727b8c) |
 | 2026-08 | **Nano Tips for Managing Across Cultures with Tatiana Kolovou** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/424ef0834f5c2489df8da45d4f44bb3ce9d5c17d275d35035c039cdd234e601b) |
@@ -60,7 +58,10 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08 | **Secure Enterprise AI Agents** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286386?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **Google DeepMind : 08 Capstone: Develop Your Model for Real-World Impact** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286333?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **Build Agent Skills with Google** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286234?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Build Collaborative Multi-Agent Systems with ADK & MCP** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286201?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Simplify Your Architecture with Network Connectivity Center** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286098?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Critical Thinking in AI-Driven Workflows** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285992?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md) | [Index](./linkedin-certifications-index.md) | Next: None
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-36.md](./linkedin-certifications-2026-09-part-36.md)
 

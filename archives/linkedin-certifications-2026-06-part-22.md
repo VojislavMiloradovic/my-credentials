@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 22 of 35
+chunk_part: 22 of 36
 date_range: 2026-06 to 2026-06
 total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-22.md
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Build AI Agents and Automate Workflows with n8n** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4714da52f0c25ac2d19a5abd19675e261787ed92109d326e1e4941833e3c39f0) |
-| 2026-06 | **Arcade Voyage: Identity Management and Pre-trained AI APIs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25200680?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-06 | **Cloud Speech API: 3 Ways Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/598b1a4c-4813-4fee-bfae-9dc95f669bf5/linked_in_profile) |
 | 2026-06 | **Nano Tips for Small Acts of Leadership with Shawn Hunter** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/63795dd9c9f193c7db80f51df86a3009a7992e54d8d12f96a5bc0d44b680e274) |
 | 2026-06 | **Nano Tips to Project Confidence and Executive Presence with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b01350b7c3539a0a759245fc4fe9eef684b18472a1d7de0e2e118a486d618283) |
@@ -59,6 +57,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06 | **Agentic Artificial Intelligence: Harnessing AI Agents to Reinvent Business, Work, and Life** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ef16d1a547f6e3dbc675749db607699961b1ac9cc6f3caa8d45d02d5379cd743) |
 | 2026-06 | **Agentic AI: Tools and Strategies for the Super Agent Future** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d7c01042b07c62842e2851737449a8384fc8243b5e24b2b77b8ece28b24dc987) |
 | 2026-06 | **Building AI Agents: From Zero to Production by Microsoft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3673fc1b227c9bce4657197fe26e881d62d28c1a82be1e9d92fd747b6f552e9a) |
+| 2026-06 | **Introduction to Agentic AI Governance** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ac8b2404a936a3ecad4a40bf104354785a4fc35090dd939e22487021757c0611) |
+| 2026-06 | **Creative Inspirations: Dale Herigstad & Schematic, Interactive Design Agency** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/05fea599c23965884afed901289c519f23b4a23bffe29d64521f867b12d26129) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-21.md](./linkedin-certifications-2026-06-part-21.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-23.md](./linkedin-certifications-2026-07-part-23.md)

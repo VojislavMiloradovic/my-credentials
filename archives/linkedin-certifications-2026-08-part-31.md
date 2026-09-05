@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 31 of 35
+chunk_part: 31 of 36
 date_range: 2026-08 to 2026-08
 total_entries: 43
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-31.md
@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Google Cloud Computing Foundations: Networking & Security in Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26758292?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-08 | **How to Grow your Creator Business with Experiments Nano Tips with Quentin Allums** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f4f62b2cd2460a70b328974890dd83b11dca5b2c78c75cd52306fcb9ede105eb) |
-| 2026-08 | **Nano Tips to Increase Productivity and Focus with Lillian Daniels** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e0bf0dfd0b7eb230887268e45e22433e82b37a9550f20c1efedfda77c259ebf7) |
 | 2026-08 | **Nano Tips to Lead with a Futurist Mindset with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4d2e695336f1ef289d17d4a2f772b913c46dfbbdc7f57ecbc41896931bec9055) |
 | 2026-08 | **Jeff Weiner on Managing Compassionately** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/96f7406f8624187fb6c56eaf71cf6039261fca4fb57906b165fba1aa7a15da52) |
 | 2026-08 | **Getting Started with Premium All-in-One: How to Grow Your Business on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cd8d6a4666bbd92f9c28de7a7f26324cc2b5e1a00dfcac54c9fd32f2bd2c581e) |
@@ -58,6 +55,9 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08 | **Nano Tips for Making Learning a Practice with Dr. Jazz** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/40a26fe95a44fd66497bafe32b26320f609efdfc2790f5e3dc3826be5f8f4c9b) |
 | 2026-08 | **Nano Tips for Managers to Become Coaches with Shawn Hunter** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/051f30b2084dc3647ce4519c2448bc67505232a6c81cc128b6c24e7ef29f89ab) |
 | 2026-08 | **Nano Tips for Business Etiquette to Accelerate Your Career with Ziying Zhou** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a2097a8192640bd74ee2092c8860712680684f5eca72c930a250d50faa60a2bf) |
+| 2026-08 | **Nano Tips for Effective Sponsorship as a Leader with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a58690e1c6cb2a78176de902f3dbe8f01a81c34e61d5c549d747f459e90557ee) |
+| 2026-08 | **Using Data Science to Hire Employees** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/84e29c3aa1cb4cfec900537f8eedb2709792e8ac493e0e98b2290029c163813a) |
+| 2026-08 | **Nano Tips for Leading Diverse Teams with Watchen Nyanue** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/13e473304257aad5a6d62dfe7467e61c5ff0aecb73db4dffcb5ae37d9096d333) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-30.md](./linkedin-certifications-2026-08-part-30.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-32.md](./linkedin-certifications-2026-08-part-32.md)

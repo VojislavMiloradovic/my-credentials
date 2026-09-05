@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 16 of 35
+chunk_part: 16 of 36
 date_range: 2026-06 to 2026-06
 total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-16.md
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Nano Tips for Communicating with Executives with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5b6ac9d9ce8e02452f08c1109e8162db75f0b5bf31220db47d1afbe75fbabd57) |
-| 2026-06 | **Why Mindful Leaders Are Better at Managing Change** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6c526b62da8e50425c928a449fdd827e553cac9a7f055efff2aaabc95f547be1) |
 | 2026-06 | **The Perils of Algorithmic Pricing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7b4c3bc6c95d21208b6213865dde59a6da87308426614b49e86bf959b048d27b) |
 | 2026-06 | **How to Supercharge Your Crisis Training** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/de4c65b76eb3bbc330fd6cc0656353f298467bc09631b77e613f379e7da72c51) |
 | 2026-06 | **How Site Visits Speed Innovative Changes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6a76a6e80bc074daf624323526c07b55d1f490f13ee3d603202c1b4783268e8c) |
@@ -60,6 +58,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06 | **Ethical AI for Hiring and Talent Acquisition: A Conversation with Don Phin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/587afcf949c8f73cd1be04f42bf827f57699daefa5cc8b9b58b06f9a8f6afe42) |
 | 2026-06 | **Learn to Vibe Code in 10 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/23a61933ec61cff9676a940e8f60c10282bbd8d724431f81b2a62b27d1677899) |
 | 2026-06 | **History of Responsible AI: From Principles to Professionalization by All Tech Is Human** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dd47db454c59f740f31a19e1dbfb0b9e72e5320ef511893de79bf6e0c5194ffa) |
+| 2026-06 | **How to Use Generative AI for Pricing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b0e83745394fdde6c73cc425a87c69a676b33b7355d4076740e9efdb9d09d39c) |
+| 2026-06 | **How Procter & Gamble Uses AI to Unlock New Insights From Data** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/74b08665ca4cccd52a12d778db0a146b09f55a0dcaa7f03ebba45591ec5cd384) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-15.md](./linkedin-certifications-2026-06-part-15.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-17.md](./linkedin-certifications-2026-06-part-17.md)

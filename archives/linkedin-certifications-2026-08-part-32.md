@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 32 of 35
+chunk_part: 32 of 36
 date_range: 2026-08 to 2026-08
 total_entries: 43
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-32.md
@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Alison Mann: Animation Talent Scout** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/205f0a1f6be8d34d0c8aa7cfd21dbc9b59559e89229e09e6aa889dc3c7356a35) |
-| 2026-08 | **How to Succeed as a Social Media Manager Nano Tips with Joanna Yung** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a6ca73865aebe306a823f39608a76e3443c94bc32fec3795655bd1f8af2ccca3) |
-| 2026-08 | **Nano Tips for Building Your Leadership Credibility on LinkedIn with Patrick Shea-Stamford and Mike Soutar** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f6df45e40102d31a2db44661a47326f35cf26151a5e466860c22f590fd6cb0f1) |
 | 2026-08 | **Nano Tips for Strategic Storytelling with Andy Eninger** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3334bb81ec51dc48b4c46ff067eff2b212026c255665eb0694fffc42bc6206a6) |
 | 2026-08 | **Nano Tips on How to Pivot Your Career with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c600acbe6c1edf05cb3ab70783ae7990c4f08bb6bbda5ec3ca7c7ad5eb9f6b3b) |
 | 2026-08 | **Nano Tips for Mindset Shifts to Overcome Challenges with Gemma Leigh Roberts** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2149f2c80d74aec6d8e57cc9246d1768494cbbd593e70f6fc0965c427dc89e72) |
@@ -58,6 +55,9 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08 | **Nano Tips for Creating a More Effective Relationship with Your Manager with Allison Peck** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f896336f30230ad0e561300fee1e551ace2fc0f0408f781d8cbe3df21dc7d5b2) |
 | 2026-08 | **Nano Tips for Delegating with Kim Kaupe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b7a127e3f84c91f8d2995f0a50ac8b5a0f38f734684deb4ea78850508bdf4998) |
 | 2026-08 | **Nano Tips to Collaborate Across Boundaries and Build Versatile Teams with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/aa7a1589a2a9d656fa023aa0b3d5e47c947daae605e48fa804f7dc4d6c536dbb) |
+| 2026-08 | **Google Cloud Computing Foundations: Networking & Security in Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26758292?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **How to Grow your Creator Business with Experiments Nano Tips with Quentin Allums** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f4f62b2cd2460a70b328974890dd83b11dca5b2c78c75cd52306fcb9ede105eb) |
+| 2026-08 | **Nano Tips to Increase Productivity and Focus with Lillian Daniels** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e0bf0dfd0b7eb230887268e45e22433e82b37a9550f20c1efedfda77c259ebf7) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-31.md](./linkedin-certifications-2026-08-part-31.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-33.md](./linkedin-certifications-2026-08-part-33.md)

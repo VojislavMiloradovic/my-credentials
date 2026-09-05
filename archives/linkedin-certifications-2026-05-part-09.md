@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 9 of 35
+chunk_part: 9 of 36
 date_range: 2026-04 to 2026-05
-total_entries: 44
+total_entries: 43
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-09.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-05 | **Cloud Security Engineer - Cloud SIEM Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/577f478c-820f-4968-b0d8-4442919eb244/linked_in_profile) |
-| 2026-05 | **Cloud Security Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/85e91ec4-bba7-40fb-bc78-ab15fc5c4c1f/linked_in_profile) |
-| 2026-05 | **Managing Company Administration in Legacy Concur Travel - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/ec23d781-1dce-4c64-9a2c-1199a7650f19/linked_in_profile) |
 | 2026-05 | **Explore Identity Foundations** | Okta | [Verify Record](https://www.credly.com/badges/bef6ae97-3d40-441b-a5fd-168016f17b32/linked_in_profile) |
 | 2026-05 | **Agents & Agentic AI Fundamentals** | Intel | [Verify Record](https://www.credly.com/badges/65342bd4-19df-45dc-9b32-f68a21c5be0d/linked_in_profile) |
 | 2026-05 | **LLM Observability Metrics & Traces Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/linked_in_profile) |
@@ -59,6 +56,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-04 | **Google Cloud Security for the Public Sector** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23723537?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-04 | **Accelerate Knowledge Exchange with Gemini Enterprise** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23702768?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-04 | **Build a Certification Study Guide: PSOE Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23677452?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Gemini for end-to-end SDLC** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23677349?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Implement Cloud Next Generation Firewall** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23670599?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-04-part-08.md](./linkedin-certifications-2026-04-part-08.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-10.md](./linkedin-certifications-2026-05-part-10.md)

@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 18 of 35
+chunk_part: 18 of 36
 date_range: 2026-06 to 2026-06
 total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-18.md
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Nano Tips for Data Storytelling and Visualization with Lachezar Arabadzhiev** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/50b04f67dd3f17918b1dbb9e4ef656a789edb3cb5596880652ef7736d99d9785) |
-| 2026-06 | **Graphic Design Careers: First Steps** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5690a3fc1efd2dabefbf9d70c115639232d0ac67cf132211ac437a92b1e30b3a) |
 | 2026-06 | **Nano Tips for Creating AI Powered Video Creation with Lachezar Arabadzhiev** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e3c6e4f67d2c17a0b1331dd340d618e4ee22090053b95e55b44747699ca7f2e6) |
 | 2026-06 | **Nano Tips for Creating an AI Prompt Library for Marketing Professionals with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b69dc49dba178961455d2918b1cc7f65766baedfc0865fcf80db7195978ccba8) |
 | 2026-06 | **Nano Tips for Using Digital Marketing to Grow with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b1b8a101331b8feb64ed7052cdec24648b0e817ee5ef79ab99e4ec7c30c9c7a1) |
@@ -59,6 +57,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06 | **How to Navigate Rapid Growth** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/94f1576ed27d7c77f64a725a2808cf1c3d9e03f05433daa5b30e61aa6ad4012c) |
 | 2026-06 | **Rock Your LinkedIn Profile** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a6ad6b4c77150728a98d05fda0697c6cd2f341a8ce11f02eaaa42e6775ebcc46) |
 | 2026-06 | **AI Essentials for Marketers: An Introduction by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1e1d0f1f68d8633517eee8aa4c47cdf971c58b0573ad3cedcf6c0697570ca9d8) |
+| 2026-06 | **Store, Process, and Manage Data on Google Cloud - Console Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/59bdf724-fa62-4fae-b148-cb57e28e3fb0/linked_in_profile) |
+| 2026-06 | **How to Be an Adaptable Employee during Change and Uncertainty** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c7ce06ba2dc4d6e834a06cd3121bb0f363905e40358a2a2c1993ac510e8b3394) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-17.md](./linkedin-certifications-2026-06-part-17.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-19.md](./linkedin-certifications-2026-06-part-19.md)

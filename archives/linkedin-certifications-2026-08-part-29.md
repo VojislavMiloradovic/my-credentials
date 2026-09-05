@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 29 of 35
+chunk_part: 29 of 36
 date_range: 2026-07 to 2026-08
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-29.md
@@ -15,10 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **AttackIQ Academy Threat Whisperer** | AttackIQ | [Verify Record](https://www.credly.com/badges/90f733cf-e8d8-4bbe-b560-5c66a35f9cc6/linked_in_profile) |
-| 2026-08 | **Advanced Cyber Threat Intelligence Writing: Crafting Actionable Reports** | AttackIQ | [Verify Record](https://www.credly.com/badges/8168b2f0-bad1-4fa8-bfb2-81ff1ca5ae03/linked_in_profile) |
-| 2026-08 | **AttackIQ Foundational Blueprints** | AttackIQ | [Verify Record](https://www.credly.com/badges/fb6207f0-02f5-4fe6-9a76-d46eb5624a48/linked_in_profile) |
-| 2026-08 | **Delivering Value with the ATT&CK Sightings Report** | AttackIQ | [Verify Record](https://www.credly.com/badges/6763d0db-b815-41d1-9dd9-f6f3064087ad/linked_in_profile) |
 | 2026-08 | **Cloud Sales Pro - Workflow Automation** | Acronis | [Verify Record](https://www.credly.com/badges/a63cce86-72f9-432c-96ca-2d9daed850d8/linked_in_profile) |
 | 2026-08 | **Cloud Sales Pro - Solution-Based Licensing** | Acronis | [Verify Record](https://www.credly.com/badges/a565f103-3cd8-4249-88c0-e31f897c8dc4/linked_in_profile) |
 | 2026-08 | **Privileged Access with IAM** | Google | [Verify Record](https://www.credly.com/badges/d2a16e78-200b-435f-84ec-708b5dfa835e/linked_in_profile) |
@@ -66,6 +62,10 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-07 | **Scaling Data Science with Agents** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25938520?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-07 | **Practical GitHub Project Management and Collaboration** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bce9d15b67d1eeda3832ddf53e1ab7ff710e25a6988f1e28bb7e871c3f9517f1) |
 | 2026-07 | **Memory for AI Applications with MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/17cc10c2-1879-4741-8660-896581fc660d/linked_in_profile) |
+| 2026-07 | **MongoDB Sharding Strategies** | MongoDB | [Verify Record](https://www.credly.com/badges/ec69041f-6f70-4cab-b52f-dc3b9a64132f/linked_in_profile) |
+| 2026-07 | **MongoDB Indexing Design Fundamentals** | MongoDB | [Verify Record](https://www.credly.com/badges/cd687719-8495-41e0-a74d-61cd2ab6f12e/linked_in_profile) |
+| 2026-07 | **Securing MongoDB Atlas: Authentication & Authorization** | MongoDB | [Verify Record](https://www.credly.com/badges/c92a6b9b-e628-42f2-b33c-d51f189a3f3c/linked_in_profile) |
+| 2026-07 | **MongoDB Overview: Core Concepts and Architecture** | MongoDB | [Verify Record](https://www.credly.com/badges/ec006874-acdf-4095-abab-5b6657054fc1/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-28.md](./linkedin-certifications-2026-07-part-28.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-30.md](./linkedin-certifications-2026-08-part-30.md)
