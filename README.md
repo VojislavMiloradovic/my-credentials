@@ -64,9 +64,9 @@ Showing latest 10 of 4,826 achievements. View full dataset via [Platform Archive
 | :--- | :---: |
 | **Check** | 1,976 |
 | **Classroom** | 0 |
-| **Course** | 389 |
+| **Course** | 393 |
 | **Game** | 9 |
-| **Lab** | 277 |
+| **Lab** | 298 |
 | **Lesson** | 4,985 |
 | **Path** | 20 |
 
