@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 90 of 95
 date_range: 2026-07-05 to 2026-07-09
-total_entries: 48
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-90.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,11 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Implement advanced multi-agent orchestration patterns in Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-multi-agent-orchestration-azure-ai-foundry/) |
+| **Build production-grade multi-agent capabilities with Microsoft Foundry** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-2-build-production-grade-multi-agent-capabilities-microsoft-foundry/) |
+| **Implement advanced RAG pipelines with Azure AI Search and Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-advanced-rag-azure-ai-search/) |
+| **Implement CI/CD pipelines for multi-agent systems with GitHub Actions** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-cicd-multi-agent-systems-github-actions/) |
+| **Govern the enterprise agent lifecycle in Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-govern-enterprise-agent-lifecycle-azure/) |
 | **Design stateful agentic loops with Microsoft Foundry Agent Service** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-agentic-loops-azure-ai-agent-service/) |
 | **Design multi-agent memory architectures with Azure Cosmos DB** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-multi-agent-memory-azure-cosmos-db/) |
 | **Design human-in-the-loop approval workflows with Power Automate and Microsoft Teams** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-human-in-loop-approval-workflows/) |
@@ -57,12 +62,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Explore the foundations of identity and governance for SAP on Azure** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-foundations-of-identity-governance/) |
 | **Design a health model for your mission-critical workload** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-health-model-mission-critical-workload/) |
 | **Build mission-critical workloads on Azure** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-mission-critical-workloads/) |
-| **Get started with Environmental, social, and governance reporting** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sustainability-esg-reporting/) |
-| **External ESG Reporting in Sustainability Manager** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-external-esg-reporting/) |
-| **Perform backups and restores for SAP workloads on Azure** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-backups-restores/) |
-| **Deploy single-instance implementations of SAP on Azure (2-tier and 3-tier)** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-single-instance-implementations-2-tier-3-tier/) |
-| **Explore integration and interoperability in Microsoft for Healthcare** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-integration-interoperability/) |
-| **Explore remote management for SAP on Azure** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-remote-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-89.md](./microsoft-learn-2026-07-part-89.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-91.md](./microsoft-learn-2026-07-part-91.md)

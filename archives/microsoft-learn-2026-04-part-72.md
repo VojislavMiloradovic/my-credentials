@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 72 of 95
-date_range: 2026-04-25 to 2026-04-27
-total_entries: 51
+date_range: 2026-04-25 to 2026-04-28
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-72.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,11 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Integrate Volunteer Management and Volunteer Engagement with Microsoft for Nonprofits** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-volunteer-management-engagement-cloud-nonprofit/) |
+| **Integrate and use Field Service with Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-field-service/) |
+| **Configure BOM costing and reporting in Dynamics 365 Supply Chain Management** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-bill-material-costing-reporting/) |
+| **Use Dynamics 365 Sales from Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-sales-business-central/) |
+| **Manage outbound serial and lot numbers in Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-outbound-serial-lot-numbers/) |
 | **Use serial and lot numbers in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-serial-lot-numbers/) |
 | **Use Service Management in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-service-management-business-central/) |
 | **Process service in Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-service/) |
@@ -60,12 +65,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Get started with Volunteer Management and Volunteer Engagement** | Modules | 2026-04-26 | N/A |
 | **Challenge Project - Dynamics 365 Field Service** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-d365-field-service/) |
 | **Building Open Source Software (OSS) Analytics Solutions with Azure HDInsight** | Learningpaths | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-oss-analytical-solutions-az-hdinsight/) |
-| **Manage enterprise security in HDInsight** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-enterprise-security-hdinsight/) |
-| **Optimize vacuum in Azure Database for PostgreSQL** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-vacuum-azure-database-for-postgresql/) |
-| **Advanced event management features in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-event-management-marketing/) |
-| **Manage warehouse processes in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-warehouse-processes/) |
-| **Move items in Dynamics 365 Business Central** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/move-items/) |
-| **Work with Dynamics 365 Sales insights** | Learningpaths | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-sales-insights/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-71.md](./microsoft-learn-2026-04-part-71.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-73.md](./microsoft-learn-2026-04-part-73.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 94 of 95
-date_range: 2026-07-24 to 2026-08-02
+date_range: 2026-07-24 to 2026-08-06
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-94.md
 layer: L2_published
@@ -15,6 +15,13 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Advanced Group Policy troubleshooting** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-group-policy-troubleshooting/) |
+| **Secure sensitive data with Microsoft Purview Ninja training scenarios** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-ninja-safeguard-data/) |
+| **Safeguard sensitive data in remote work with Endpoint DLP** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-safeguard-remote-work/) |
+| **Protect sensitive data with DLP in Exchange, SharePoint, OneDrive, and Teams** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-prevent-data-loss-share-transfer/) |
+| **Efficiently investigate data risks with Security Copilot in Microsoft Purview** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-security-copilot/) |
+| **Classify and protect sensitive data with sensitivity labels** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-label-sensitive-data/) |
+| **Discover and define sensitive information types** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-discover-define-sits/) |
 | **Fundamentals of Bicep** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/) |
 | **Build flexible Bicep files by using conditions and loops** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-files-conditions-loops/) |
 | **Build reusable Bicep files by using parameters** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reusable-bicep-files-parameters/) |
@@ -62,13 +69,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Ensure availability and resilience in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/ensure-availability-resilience/) |
 | **Deliver solutions with pipelines in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deliver-solutions-pipelines/) |
 | **Configure the Dataverse security model in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-dataverse-security-model/) |
-| **Audit and retain Dataverse data in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-retain-dataverse-data/) |
-| **Streamline development workflows with Windows 11** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-for-developers/) |
-| **Secure email and collaboration with Microsoft Defender for Office 365** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-email-collaboration-defender-office365/) |
-| **Provision and brand a Microsoft 365 tenant** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-brand-microsoft-365-tenant/) |
-| **Prevent data loss and govern the data lifecycle with Microsoft Purview** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/prevent-data-loss-lifecycle-purview/) |
-| **Monitor and optimize Microsoft 365 AI services** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-optimize-m365-ai-services/) |
-| **License Microsoft 365 and AI services at scale** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/license-microsoft-365-ai-services/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-95.md](./microsoft-learn-2026-09-part-95.md)

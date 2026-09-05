@@ -15,6 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Understand Microsoft 365 identity and access management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-identity-access-management/) |
+| **Understand Microsoft Online Services security incident management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-incident-management/) |
+| **Understand Microsoft 365 cloud architecture** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-architecture/) |
 | **Understand Microsoft 365 governance** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-governance/) |
 | **Understand Microsoft 365 risk management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-risk-management/) |
 | **Work with AL built-in functions in Dynamics 365 Business Central** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/al-built-in-functions/) |
@@ -67,9 +70,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Explore name resolution** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-name-resolution/) |
 | **Configure IP network connectivity** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ip-network-connectivity/) |
 | **Explore remote access** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-remote-access/) |
-| **Create serverless applications** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-serverless-applications/) |
-| **Build serverless apps with Go** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/serverless-go/) |
-| **Use Power Automate to increase productivity** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-power-automate-increase-productivity/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-25.md](./microsoft-learn-2025-12-part-25.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-27.md](./microsoft-learn-2026-01-part-27.md)

@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 12 of 95
 date_range: 2025-12-07 to 2025-12-10
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-12.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Prepare for a successful Viva Glint results rollout** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-prepare-successful-results-rollout/) |
 | **Introduction to Polyglot Notebooks** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/polyglot-notebooks/) |
 | **Learn how to set up Viva Glint** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-learn-how-setup-viva-glint/) |
 | **Introduction to Azure Incident Readiness** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-incident-readiness/) |
@@ -65,7 +66,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Prepare for Intune for Education (Partner Success Series)** | Modules | 2025-12-07 | N/A |
 | **Ingest ESG value chain data** | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-environmental-social-governance-value-solution/) |
 | **Apply Information Barriers in education** | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-information-barriers-education/) |
-| **Engage learners through games with MakeCode Arcade** | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/engage-learners-through-games-with-makecode-arcade/) |
+| **Engage learners through games with MakeCode Arcade** | Modules | 2025-12-07 | N/A |
 | **Build a 3D mobile app with Power Apps in mixed reality** | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-tutorial/) |
 
 ---
