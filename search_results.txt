@@ -1,0 +1,12 @@
+=== class GoogleDeveloperBadgeModel ===
+    return result
+
+
+class GoogleDeveloperBadgeModel(ProvenanceBase):
+    """Normalized schema for Google Developer badges and codelabs."""
+
+    # Platform-specific fields
+    title: str = Field(..., min_length=1, description="Badge or Activity Title")
+    date: str = Field("N/A", description="Earned date in YYYY-MM-DD format")
+    description: str =
+
