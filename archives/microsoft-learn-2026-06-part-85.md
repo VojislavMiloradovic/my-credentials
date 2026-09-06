@@ -15,6 +15,11 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **AZ-400: Implement a secure continuous deployment using Azure Pipelines** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-secure-continuous-deployment/) |
+| **Explore Infrastructure as Code and configuration management** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/) |
+| **Extending Power Platform Dataverse** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-power-platform-dataverse/) |
+| **Work with Dataverse Web API** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dataverse-web-api/) |
+| **Configure and deploy Teams Phone** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-teams-phone-system/) |
 | **Extend the user experience with client scripting and command bar customization** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-user-experience-client-scripting-command-bar-customization/) |
 | **Automate business process flows with client script** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-platform-automate-client-script/) |
 | **Extend Power Platform user experience with model-driven apps** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-power-platform-user-experience/) |
@@ -61,11 +66,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Design Dynamics 365 Solutions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-dynamics-365-solutions/) |
 | **Plan for Microsoft Teams Phone** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-teams-phone-system/) |
 | **Design security solutions that align with the Cloud Adoption Framework (CAF) and Well-Architected Framework (WAF)** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-align-cloud-adoption-framework-well-architected-framework/) |
-| **View, troubleshoot, and improve app performance for Power Apps canvas apps** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/improve-app-performance/) |
-| **Complete testing and performance checks in a Power Apps canvas app** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/testing-performance-checks-powerapps/) |
-| **Use advance techniques in canvas apps to perform custom updates and optimization** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-advance-techniques-canvas-apps-custom-updates-optimization/) |
-| **Security monitoring and governance** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/) |
-| **Perform fit gap analysis** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/fit-gap-analysis/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-86.md](./microsoft-learn-2026-06-part-86.md)

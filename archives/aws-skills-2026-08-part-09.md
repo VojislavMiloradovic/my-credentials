@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 9 of 14
-date_range: 2026-07-24 to 2026-08-06
-total_entries: 52
+chunk_part: 9 of 15
+date_range: 2026-07-20 to 2026-08-03
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-09.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,11 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-08-06 | [Speech-to-Speech Workflows with Nova Sonic](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-06 | [Unleashing Agentic AI Analytics on Amazon SageMaker with Amazon Athena and Amazon Quick](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-03 | [Amazon Quick: Accelerating the path from enterprise data to AI-powered decisions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-03 | [Amazon WorkSpaces Migrations - Migration Approaches & Strategy](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-03 | [Build an intelligent photo search using Amazon Rekognition, Amazon Neptune, and Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-03 | [Build with Amazon FSx for OpenZFS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-03 | [Configuring and Deploying VPCs with Multiple Subnets](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-03 | [Malware analysis on AWS: Setting up a secure environment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -67,6 +62,13 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-07-24 | [AWS Certification Subject Matter Expert Training](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-24 | [Cloud Audit Academy - Cloud Agnostic](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-24 | [Threat Modeling for Builders Workshop](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-07-22 | [AI Agents: Cognitive Upgrade and Business Efficiency](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-07-22 | [AWS Cloud for absolute beginners](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-07-22 | [AWS Cloud for Finance Professionals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-07-22 | [AWS Technical Essentials](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-07-22 | [Data Engineering on AWS - Foundations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-07-22 | [Introduction to Building with AWS Databases](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-07-20 | [AWS CodeArtifact Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-08.md](./aws-skills-2026-07-part-08.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-10.md](./aws-skills-2026-08-part-10.md)

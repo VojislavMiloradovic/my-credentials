@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 33 of 35
+chunk_part: 33 of 36
 date_range: 2026-08 to 2026-08
-total_entries: 49
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-33.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,10 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Cilium IPAM** | Isovalent | [Verify Record](https://www.credly.com/badges/781ae1d3-d016-448f-82e3-5b887b43886e/linked_in_profile) |
-| 2026-08 | **Web Development Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/720901ee-adda-4ca3-b428-06661f472f0c/linked_in_profile) |
-| 2026-08 | **Validating Security Controls with AttackIQ Enterprise** | AttackIQ | [Verify Record](https://www.credly.com/badges/c042b6a3-a7dd-4ba3-bbfd-9f03fbb8c267/linked_in_profile) |
-| 2026-08 | **Cloud Tech Pro - RMM** | Acronis | [Verify Record](https://www.credly.com/badges/67ba03f9-c9f9-410f-89d3-b360f84233a7/linked_in_profile) |
 | 2026-08 | **Cloud Tech Pro - PSA** | Acronis | [Verify Record](https://www.credly.com/badges/0d924c89-cf8d-4528-9e90-79bfe39aea8e/linked_in_profile) |
 | 2026-08 | **AI Boost Bites: AI for the Modern Recruiter** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125242?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **AI Boost Bites: Your AI-Powered Career Coach** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27125196?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -64,6 +60,9 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08 | **Nano Tips for Managers: Fostering Human Connection with Simone Heng** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1b3810ab7b82feafb94611985520cde2f1183b89653b3ecd7c1a99e9ed8763f5) |
 | 2026-08 | **Nano Tips for Navigating Office Politics with Ginny Clarke** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6a116d4e2ccf49cced6dd858b6223be5633902c71f785e65d46b98a9547d244b) |
 | 2026-08 | **Nano Tips for Closing the Soft Skills Gap with Gen Z with Watchen Nyanue** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5d061ab54d1589fd089d8133fe2f87cf212566c2897f2deccc59bde6d81fc11f) |
+| 2026-08 | **Alison Mann: Animation Talent Scout** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/205f0a1f6be8d34d0c8aa7cfd21dbc9b59559e89229e09e6aa889dc3c7356a35) |
+| 2026-08 | **How to Succeed as a Social Media Manager Nano Tips with Joanna Yung** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a6ca73865aebe306a823f39608a76e3443c94bc32fec3795655bd1f8af2ccca3) |
+| 2026-08 | **Nano Tips for Building Your Leadership Credibility on LinkedIn with Patrick Shea-Stamford and Mike Soutar** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f6df45e40102d31a2db44661a47326f35cf26151a5e466860c22f590fd6cb0f1) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-32.md](./linkedin-certifications-2026-08-part-32.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md)

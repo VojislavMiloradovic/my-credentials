@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 83 of 95
-date_range: 2026-06-06 to 2026-06-08
-total_entries: 51
+date_range: 2026-06-06 to 2026-06-09
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-83.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,12 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Manage and configure repositories** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/) |
+| **Design a solution to log and monitor Azure resources** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-to-log-monitor-azure-resources/) |
+| **Identify technical debt** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/) |
+| **Design and implement branch strategies and workflows** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/) |
+| **Create machine learning models** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-machine-learn-models/) |
+| **Train and evaluate deep learning models** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-evaluate-deep-learn-models/) |
 | **Plan Agile with GitHub Projects and Azure Boards** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/) |
 | **Collaborate with pull requests in Azure Repos** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/) |
 | **Deploy and manage identity infrastructure** | Learningpaths | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-identity-infrastructure/) |
@@ -61,11 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement event messaging with Azure Managed Redis** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-event-messaging-azure-managed-redis/) |
 | **Implement data operations in Azure Managed Redis** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-operations-azure-managed-redis/) |
 | **Implement vector storage in Azure Managed Redis** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-storage-azure-managed-redis/) |
-| **Deploy and monitor applications on Azure Kubernetes Service** | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-monitor-apps-azure-kubernetes-service/) |
-| **Configure applications on Azure Kubernetes Service** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-apps-azure-kubernetes-service/) |
-| **Enhance endpoint security with Microsoft Intune and Microsoft Security Copilot** | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-endpoint-security-microsoft-intune-copilot/) |
-| **Prepare Microsoft Entra ID and Intune for device management** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-microsoft-entra-id-intune-device-management/) |
-| **Harden endpoints and monitor security with Microsoft Intune and Defender for Endpoint** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-endpoints-monitor-security-intune-defender-endpoint/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md)

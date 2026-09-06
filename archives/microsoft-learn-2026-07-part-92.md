@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 92 of 95
-date_range: 2026-07-13 to 2026-07-14
-total_entries: 49
+date_range: 2026-07-13 to 2026-07-15
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-92.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,12 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Get started with 5G on Surface for Business devices** | Modules | 2026-07-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-5g/) |
+| **Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-identity-lifecycle-workflows/) |
+| **Architect AI solutions for business productivity** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-agentic-ai-business-solutions/) |
+| **Analyze requirements for AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-requirements-ai-powered-business-solutions/) |
+| **Introduction to agentic AI business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-agentic-ai-business-solution-architecture/) |
+| **Manage testing AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-testing-ai-powered-business-solutions/) |
 | **Evaluate costs and benefits of AI solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-costs-benefits-ai-powered-business-solution/) |
 | **Design extensibility of AI solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-extensibility-ai-solutions/) |
 | **Monitor, analyze, and tune AI agents** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-monitor-tune-ai-powered-business-solutions/) |
@@ -37,16 +43,16 @@ artifacts: archive_complete, archive_index, jsonld
 | **Edit and finalize dictated reports in PowerScribe One** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-editor-edit-finalize-dictated-reports/) |
 | **Build Study Guides in Copilot Notebooks** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-study-guides-copilot-notebooks/) |
 | **Manage SMB volumes in Azure NetApp Files** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-smb-volumes-azure-netapp-files/) |
-| **Advanced AutoText for providers** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-advanced-autotext-for-providers/) |
 | **Create and manage AutoText in PowerScribe One** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-create-manage-autotext/) |
+| **Advanced AutoText for providers** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/powerscribe-one-advanced-autotext-for-providers/) |
 | **AutoText efficiency tools in PowerScribe One** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-autotext-efficiency-tool/) |
 | **Introduction to navigating the modern Contact Center** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-navigating-modern-contact-center/) |
 | **Explore Dynamics 365 Contact Center** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-contact-center/) |
 | **Describe work allocation capabilities** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-work-allocation-capabilities/) |
 | **Describe Dynamics 365 Contact Center supervisor experience** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-contact-center-supervisor-experience/) |
 | **Describe Dynamics 365 Contact Center representative experience** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-contact-center-representative-experience/) |
-| **Introduction to supply chain management in Dynamics 365** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-supply-chain-management-dynamics-365/) |
 | **Describe warehouse management in Dynamics 365 Supply Chain Management** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-warehouse-management-dynamics-365/) |
+| **Introduction to supply chain management in Dynamics 365** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-supply-chain-management-dynamics-365/) |
 | **Describe sales processes in Dynamics 365 Supply Chain Management** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sales-processes-dynamics-365-supply-chain-management/) |
 | **Describe inventory management in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-management-supply-chain-management/) |
 | **Describe inventory costing and master planning in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-costing-master-planning-dynamics-365-supply-chain-management/) |
@@ -59,11 +65,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Enhance video and audio with Windows Studio Effects** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-studio-effects/) |
 | **Secure AI agents with Microsoft Purview data security controls** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-agent-data-security/) |
 | **Optimize your Windows gaming experience with the Xbox app** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-windows-gaming/) |
-| **Describe procurement processes in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-procurement-processes-dynamics-365/) |
-| **Active Directory sites, topology, and replication** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-site-replication/) |
-| **Describe manufacturing processes in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-manufacturing-processes-dynamics-365-supply-chain-management/) |
-| **Understand Active Directory Group Policy security settings** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-security-policies/) |
-| **Design security solutions for applications and data** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-security-solutions-applications-data/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-91.md](./microsoft-learn-2026-07-part-91.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md)

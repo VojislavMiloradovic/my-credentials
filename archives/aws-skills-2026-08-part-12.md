@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 12 of 14
+chunk_part: 12 of 15
 date_range: 2026-08-15 to 2026-08-24
-total_entries: 54
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-12.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,10 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-08-24 | [Leverage Claude's Extended Thinking Capabilities on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-24 | [Managing, Monitoring, and Optimizing your Amazon Elastic File System (Amazon EFS) Solution](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-24 | [Manufacturing intelligence with Amazon Nova Multimodal Embeddings](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-24 | [Monitoring and Troubleshooting Generative AI Applications on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-24 | [Multi-Agent Collaboration with Amazon Bedrock Agents](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-24 | [No-code Machine Learning and Generative AI on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-24 | [Online Course Supplement: Practical Data Science with Amazon SageMaker](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -69,6 +65,11 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08-15 | [Configure and Deploy AWS PrivateLink](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-15 | [Deepdive into Advertising Domain](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-15 | [Developing with Amazon Aurora DSQL](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Digital Sovereignty on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Implement Lexical Search Using Amazon OpenSearch Service](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Planning an AWS Outposts Implementation](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [PostgreSQL Architecture](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-15 | [Security Aspects of RDS and Aurora PostgreSQL](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-08-part-11.md](./aws-skills-2026-08-part-11.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-13.md](./aws-skills-2026-08-part-13.md)

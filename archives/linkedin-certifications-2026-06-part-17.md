@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 17 of 35
+chunk_part: 17 of 36
 date_range: 2026-06 to 2026-06
 total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-17.md
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Store, Process, and Manage Data on Google Cloud - Console Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/59bdf724-fa62-4fae-b148-cb57e28e3fb0/linked_in_profile) |
-| 2026-06 | **How to Be an Adaptable Employee during Change and Uncertainty** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c7ce06ba2dc4d6e834a06cd3121bb0f363905e40358a2a2c1993ac510e8b3394) |
 | 2026-06 | **How to Advocate for Yourself in Your Career Nano Tips with Tiffany Uman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c7088b96ed8d97134b2a9aa6340de4f485731c4b9bc0deef91fba59757103c67) |
 | 2026-06 | **Nano Tips for Quick Decision Making with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0b907908abd00584b436ddbb9ad61b6162d3c50cdb715805a1f2658f3e9562b6) |
 | 2026-06 | **Nano Tips for Charismatic Communication with Ravi Rajani** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d6009e59aa72edc5c93faf1486cef36a2cc2653df1f1d01dc0abdd57777933ba) |
@@ -59,6 +57,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06 | **Welcome to the "Building AI Products: Security Essentials" Professional Certificate** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f7613ea4eb64416416ba6985cdb8ac529aa0375e417ce068a781e29005c2a220) |
 | 2026-06 | **Make AI Your Career Advantage with Ryan Roslansky and Aneesh Raman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a85719d2e369eb8ea3fc0fa0bb0ad2dde736d8a90579d040b0a4b9a034cafad8) |
 | 2026-06 | **Copilot in PowerPoint: From Prompt to Presentation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eb2c061c079feb0360a027bac917622b2b9e2295246c060bd6a840f4baed8663) |
+| 2026-06 | **Nano Tips for Communicating with Executives with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5b6ac9d9ce8e02452f08c1109e8162db75f0b5bf31220db47d1afbe75fbabd57) |
+| 2026-06 | **Why Mindful Leaders Are Better at Managing Change** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6c526b62da8e50425c928a449fdd827e553cac9a7f055efff2aaabc95f547be1) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-16.md](./linkedin-certifications-2026-06-part-16.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-18.md](./linkedin-certifications-2026-06-part-18.md)

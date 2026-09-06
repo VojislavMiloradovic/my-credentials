@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 9 of 95
 date_range: 2025-11-28 to 2025-12-01
-total_entries: 52
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-09.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Deploy a simple Java web app to Azure App Service** | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-hello-world-app-service/) |
-| **Role of an OKR Champion** | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/role-of-champion/) |
 | **Overview of Microsoft for Retail** | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/retail-cloud-overview/) |
 | **Run Petabyte level OSS NoSQL databases with HDInsight HBase** | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-petabyte-level-oss-nosql-databases-hdinsight-hbase/) |
 | **Get started with enterprise scale data management and analytics scenario** | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-management-analytics/) |
@@ -45,12 +43,12 @@ artifacts: archive_complete, archive_index, jsonld
 | **Get started with AI-powered information extraction in Azure** | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/) |
 | **Describe Microsoft Security Copilot agents** | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-describe-agents/) |
 | **Enhance security operations by using Microsoft Security Copilot** | Learningpaths | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-copilot-and-ai/) |
-| **Add logic to C# console applications (Get started with C#, Part 3)** | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-3/) |
 | **Guided project - Develop conditional branching and looping structures in C#** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-develop-conditional-branching-looping/) |
+| **Add logic to C# console applications (Get started with C#, Part 3)** | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-3/) |
 | **Secure a Microsoft Fabric data warehouse** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-data-warehouse-in-microsoft-fabric/) |
 | **Introduction to Azure Application Gateway** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway/) |
-| **GitHub Foundations Part 1 of 2** | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-foundations/) |
 | **Communicate effectively on GitHub using Markdown** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/) |
+| **GitHub Foundations Part 1 of 2** | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-foundations/) |
 | **Implement Real-Time Intelligence with Microsoft Fabric** | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-real-time-analytics-microsoft-fabric/) |
 | **Create Real-Time Dashboards with Microsoft Fabric** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-real-time-dashboards-microsoft-fabric/) |
 | **Minecraft 101: Craft a game-based learning classroom** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/craft-game-based-learning-classroom/) |
@@ -67,6 +65,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Foundations of SaaS** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/saas/saas-foundations/) |
 | **Copilot Foundations** | Learningpaths | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-foundations/) |
 | **Get started with Microsoft Copilot Studio** | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-virtual-agents-bots/) |
+| **Build a digital learning hub with Class Teams** | Modules | 2025-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-digital-learning-hub-class-teams/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-11-part-08.md](./microsoft-learn-2025-11-part-08.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-10.md](./microsoft-learn-2025-12-part-10.md)

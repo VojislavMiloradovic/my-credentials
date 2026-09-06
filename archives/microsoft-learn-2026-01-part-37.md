@@ -15,6 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Learn how Microsoft supports secure software development as part of a cybersecurity solution** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-software-development-for-cybersecurity/) |
+| **Implement virtual machine host security in Azure** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-host-security/) |
+| **Microsoft Azure Well-Architected Framework - Security** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/) |
 | **Secure your cloud applications in Azure** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-your-cloud-apps/) |
 | **Best practices for error handling in Power Automate flows** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/error-handling/) |
 | **Work with Power Automate error handling and expressions** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/templates-error-handling-expressions-power-automate/) |
@@ -23,16 +26,16 @@ artifacts: archive_complete, archive_index, jsonld
 | **Develop solutions that use Azure Cosmos DB** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-develop-solutions-that-use-azure-cosmos-db/) |
 | **Explore Azure Cosmos DB** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/) |
 | **Guided project -  Create a DevOps Assistant with the Semantic Kernel SDK** | Modules | 2026-01-26 | N/A |
-| **Migrate ASP.NET Apps to Azure** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-dotnet-apps-azure/) |
 | **Migrate application workloads and data to Azure** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-application-workloads-data-azure/) |
+| **Migrate ASP.NET Apps to Azure** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-dotnet-apps-azure/) |
 | **Migrate SQL Server workloads to Azure SQL Database** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-sql-workloads-azure-sql-databases/) |
 | **Manage container images in Azure Container Registry** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/) |
 | **Implement containerized solutions** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-iaas-solutions/) |
 | **Create a model-driven application in Power Apps** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-app-models-business-processes/) |
 | **Configure forms, charts, and dashboards in model-driven apps** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-model-driven-apps-customer-engagement-apps/) |
 | **Automate the configuration of Windows Server IaaS Virtual Machines** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-configuration-of-windows-server-iaas-virtual-machines/) |
-| **Implement and manage Microsoft Purview Insider Risk Management** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-insider-risk-management/) |
 | **Investigate insider risk alerts and related activity** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-insider-risk-investigate-alerts/) |
+| **Implement and manage Microsoft Purview Insider Risk Management** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-insider-risk-management/) |
 | **Write data in a Power Apps canvas app** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-data/) |
 | **Audit the security of Windows Server IaaS Virtual Machines** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-security-of-windows-server-iaas-virtual-machines/) |
 | **Implement secure Azure solutions** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-secure-cloud-solutions/) |
@@ -56,8 +59,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement Azure Key Vault** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-key-vault/) |
 | **Enroll devices using Microsoft Intune** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-devices-use-intune/) |
 | **Apply filters on functions** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/combine-prompts-functions/) |
-| **Explore Azure Blob storage** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/) |
 | **Develop solutions that use Blob storage** | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-solutions-that-use-blob-storage/) |
+| **Explore Azure Blob storage** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/) |
 | **Manage identity for projects, pipelines, and agents** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-identity-projects-pipelines-agents/) |
 | **Manage resources in Azure** | Learningpaths | 2026-01-25 | N/A |
 | **Control and organize Azure resources with Azure Resource Manager** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-and-organize-with-azure-resource-manager/) |
@@ -66,9 +69,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Introduction to AD DS** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-ad-ds/) |
 | **Implement Azure App Configuration** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/) |
 | **Manage persistent connections to remote computers by using Windows PowerShell sessions** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-persistent-connections-to-remote-computers/) |
-| **Dyslexia Awareness: Part 2, in partnership with Made By Dyslexia** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-awareness-part-2/) |
-| **Work with Azure Cosmos DB** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-cosmos-db/) |
-| **Oversee device profiles** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/oversee-device-profiles/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-36.md](./microsoft-learn-2026-01-part-36.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-38.md](./microsoft-learn-2026-01-part-38.md)

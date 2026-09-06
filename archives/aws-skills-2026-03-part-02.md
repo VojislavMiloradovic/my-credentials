@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 2 of 14
-date_range: 2026-02-15 to 2026-03-06
+chunk_part: 2 of 15
+date_range: 2026-02-11 to 2026-03-04
 total_entries: 58
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-02.md
 layer: L2_published
@@ -15,12 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-03-06 | [Software Development with Amazon Q Developer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-03-05 | [Amazon ECR Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-03-05 | [Choosing Serverless Containers for .NET](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-03-05 | [Getting Started with AWS for Games – Part I](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-03-05 | [Getting Started with AWS Support](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-03-04 | [Cost Optimization Solutions for FinOps (Part 2)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-04 | [Deep Dive: Managing and Monitoring Amazon Elastic Block Store (Amazon EBS)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-02 | [AWS SimuLearn: Explore the Amazon Bedrock Playgrounds](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 | 2026-02-28 | [[RETIRED] Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -73,6 +67,12 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-02-18 | [Deep Dive: Amazon Elastic Block Store (Amazon EBS) Cost Optimization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-15 | [[RETIRED] Amazon Q Business Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-15 | [Security, Compliance, and Governance for AI Solutions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-02-14 | [AWS Foundations: Machine Learning Basics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-02-13 | [Developing Generative Artificial Intelligence Solutions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-02-13 | [Foundations of Prompt Engineering](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-02-12 | [Introduction to Amazon Quick Suite](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-02-11 | [Amazon Connect - Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-02-11 | [Data Modeling for Amazon ElastiCache for Redis](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-02-part-01.md](./aws-skills-2026-02-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-03-part-03.md](./aws-skills-2026-03-part-03.md)

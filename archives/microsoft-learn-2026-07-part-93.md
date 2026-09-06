@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 93 of 95
-date_range: 2026-07-14 to 2026-07-24
-total_entries: 52
+date_range: 2026-07-17 to 2026-07-24
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-93.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,13 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Audit and retain Dataverse data in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-retain-dataverse-data/) |
+| **Streamline development workflows with Windows 11** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-for-developers/) |
+| **Secure email and collaboration with Microsoft Defender for Office 365** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-email-collaboration-defender-office365/) |
+| **Provision and brand a Microsoft 365 tenant** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-brand-microsoft-365-tenant/) |
+| **Prevent data loss and govern the data lifecycle with Microsoft Purview** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/prevent-data-loss-lifecycle-purview/) |
+| **Monitor and optimize Microsoft 365 AI services** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-optimize-m365-ai-services/) |
+| **License Microsoft 365 and AI services at scale** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/license-microsoft-365-ai-services/) |
 | **Keep a Microsoft 365 tenant resilient and healthy** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-microsoft-365-tenant-health/) |
 | **Implement authentication and access in Microsoft Entra** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-authentication-access-entra/) |
 | **Establish agent identities and secure access with Microsoft Entra Agent ID** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/establish-agent-identities-entra-agent-id/) |
@@ -61,12 +68,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Define and create business rules in Dataverse** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-create-business-rules/) |
 | **Design a single-domain Active Directory forest** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-single-domain-active-directory-forest/) |
 | **Design a multi-domain Active Directory forest** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-domain-forest-trust/) |
-| **Get started with 5G on Surface for Business devices** | Modules | 2026-07-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-5g/) |
-| **Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-identity-lifecycle-workflows/) |
-| **Analyze requirements for AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-requirements-ai-powered-business-solutions/) |
-| **Architect AI solutions for business productivity** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-agentic-ai-business-solutions/) |
-| **Introduction to agentic AI business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-agentic-ai-business-solution-architecture/) |
-| **Manage testing AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-testing-ai-powered-business-solutions/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 12 of 35
+chunk_part: 12 of 36
 date_range: 2026-05 to 2026-05
-total_entries: 40
+total_entries: 41
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-12.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-05 | **Select a Google Cloud Database for Your Applications** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198703?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Build AI Agents with Enterprise Databases** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198352?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Looker Studio Essentials** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24173032?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **AI Boost Bites: Presentations in Seconds with Nano Banana Pro** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171873?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **AI Boost Bites: Become a Homework Hero for Your Kids** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171850?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -55,6 +53,9 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-05 | **Talk / voice** | Zendesk | [Verify Record](https://www.credly.com/badges/82c8ca9b-bbde-4b58-b8dc-57dc834fada4/linked_in_profile) |
 | 2026-05 | **Foundations of Insurance and the IFRS 17 Standard Knowledge Badge** | SAS | [Verify Record](https://www.credly.com/badges/0b8945bd-0f24-49bf-b36a-8b9c790b9002/linked_in_profile) |
 | 2026-05 | **Deploying SAS Grid Manager for Platform** | SAS | [Verify Record](https://www.credly.com/badges/b96c02e5-ee74-4756-a24d-5109b66c2d93/linked_in_profile) |
+| 2026-05 | **Deploying SAS Event Stream Processing on SAS Viya** | SAS | [Verify Record](https://www.credly.com/badges/23f9cee5-1e7b-4c04-9819-ca58eaa54c81/linked_in_profile) |
+| 2026-05 | **Architecture and Administration for SAS Workload Management on SAS Viya** | SAS | [Verify Record](https://www.credly.com/badges/8ab110d2-4f48-4270-a365-2d39a121015c/linked_in_profile) |
+| 2026-05 | **Manage Data Models in Looker Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/eb5fb255-8dfa-4798-9894-3d7342f2c28a/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-05-part-11.md](./linkedin-certifications-2026-05-part-11.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-13.md](./linkedin-certifications-2026-06-part-13.md)

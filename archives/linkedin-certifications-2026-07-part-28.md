@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 28 of 35
+chunk_part: 28 of 36
 date_range: 2026-07 to 2026-07
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-28.md
@@ -15,10 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-07 | **MongoDB Sharding Strategies** | MongoDB | [Verify Record](https://www.credly.com/badges/ec69041f-6f70-4cab-b52f-dc3b9a64132f/linked_in_profile) |
-| 2026-07 | **MongoDB Indexing Design Fundamentals** | MongoDB | [Verify Record](https://www.credly.com/badges/cd687719-8495-41e0-a74d-61cd2ab6f12e/linked_in_profile) |
-| 2026-07 | **Securing MongoDB Atlas: Authentication & Authorization** | MongoDB | [Verify Record](https://www.credly.com/badges/c92a6b9b-e628-42f2-b33c-d51f189a3f3c/linked_in_profile) |
-| 2026-07 | **MongoDB Overview: Core Concepts and Architecture** | MongoDB | [Verify Record](https://www.credly.com/badges/ec006874-acdf-4095-abab-5b6657054fc1/linked_in_profile) |
 | 2026-07 | **Securing MongoDB Self-Managed: Authentication & Authorization** | MongoDB | [Verify Record](https://www.credly.com/badges/ccb3958d-00b6-4cf5-abf2-9481f3f12197/linked_in_profile) |
 | 2026-07 | **Mapping MITRE ATT&CK to CVE for Impact** | AttackIQ | [Verify Record](https://www.credly.com/badges/8f620453-4525-4c45-9107-5a24f2bf89a5/linked_in_profile) |
 | 2026-07 | **menuPass Emulation Plan Execution** | AttackIQ | [Verify Record](https://www.credly.com/badges/6fd90ef1-aa26-4e52-bdd8-e499e96f3644/linked_in_profile) |
@@ -64,6 +60,10 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-07 | **Leading the Shift: Creating the new field of data for social impact \| data.org** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/19c7c31ad1b900e39f878eceff224ed84d4fe56be28f0a20b8ee1197b6562f61) |
 | 2026-07 | **LinkedIn Co-Founder Reid Hoffman on How to Supercharge Your Career with AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6a949e8cb54f38babdaede02aa9801769734839aa8e1997c73929f3b506a2a1b) |
 | 2026-07 | **Building AI-Powered Search with MongoDB Vector Search** | MongoDB | [Verify Record](https://www.credly.com/badges/106d3801-84c1-4057-8474-6450f2a84b33/linked_in_profile) |
+| 2026-07 | **AWS Educate Getting Started with Storage - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c0cd9a0e-d2c9-4c72-9e6f-87b5cedde8a7/linked_in_profile) |
+| 2026-07 | **Strategic Cybersecurity Management** | AttackIQ | [Verify Record](https://www.credly.com/badges/e0cfb483-3bab-4f21-b48e-896e6e02a2de/linked_in_profile) |
+| 2026-07 | **Cloud Tech Professional Disaster Recovery** | Acronis | [Verify Record](https://www.credly.com/badges/b1960c54-6ac1-4206-8631-f489b925b6eb/linked_in_profile) |
+| 2026-07 | **Harnessing AI for Effective Interviewing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7583a0e48821cc69e0e4f641da1fd165b188cfb1669d1cc5c9c73ec538a30764) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-27.md](./linkedin-certifications-2026-07-part-27.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-29.md](./linkedin-certifications-2026-08-part-29.md)

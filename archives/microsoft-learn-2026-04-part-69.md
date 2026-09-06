@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 69 of 95
-date_range: 2026-04-18 to 2026-04-20
-total_entries: 49
+date_range: 2026-04-18 to 2026-04-21
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-69.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,12 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Prepare to deploy updates for Windows client and Microsoft 365 apps** | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-windows/) |
+| **Revenue and expense deferrals in Dynamics 365 Finance** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-expense-deferrals/) |
+| **Explore Microsoft Purview Message Encryption** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-purview-message-encryption/) |
+| **Plan to deploy Microsoft Defender for IoT to monitor operational technology (OT) networks** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-iot-plan-deployment/) |
+| **Index fixed assets in Dynamics 365 Business Central** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/index-fixed-assets/) |
+| **Understand client-server communication in MySQL** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-client-server-communication-mysql/) |
 | **Work with MySQL Databases on Azure** | Learningpaths | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-mysql-databases-azure/) |
 | **Work with Warehouse management only mode in Dynamics 365 Supply Chain Management** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-warehouse-management-only-mode/) |
 | **Understand concurrency in MySQL** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-concurrency-mysql/) |
@@ -59,11 +65,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Get started with Service Management in Dynamics 365 Business Central** | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-service-management/) |
 | **Evaluate marketing initiatives with analytics in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-insights-marketing/) |
 | **Set up Warehouse management only mode in Dynamics 365 Supply Chain Management** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-warehouse-management-only-mode/) |
-| **Investigate threats using audit in Microsoft Defender XDR and Microsoft Purview (Premium)** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/investigate-threats-using-audit-in-microsoft-365-defender-microsoft-purview-premium/) |
-| **Work with Dynamics 365 Sales Insights** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/working-with-sales-insights/) |
-| **Working with Connected Field Service for Dynamics 365 and Azure IoT** | Learningpaths | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/working-with-connected-field-service-iot/) |
-| **Register and manage devices with Connected Field Service for Dynamics 365 and Azure IoT** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-and-manage-customer-devices-with-connected-field-service/) |
-| **Configure fixed assets setup pages in Dynamics 365 Business Central** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-fixed-asset-setup-pages/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-68.md](./microsoft-learn-2026-04-part-68.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-70.md](./microsoft-learn-2026-04-part-70.md)

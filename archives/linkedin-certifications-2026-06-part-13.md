@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 13 of 35
+chunk_part: 13 of 36
 date_range: 2026-05 to 2026-06
-total_entries: 51
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-13.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **LFD137: Open Source Contribution in Finance** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/07bb1039-dd83-4aab-a319-d18af966d01a/linked_in_profile) |
-| 2026-06 | **LFC108: Cybersecurity Essentials** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/c07d5735-c22b-40c9-bece-11d75cd3ab0d/linked_in_profile) |
-| 2026-06 | **LFS118: Ethical Principles for Conversational AI** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/c18e2ce0-83e2-4e77-ba8e-2daa7a2cddfa/linked_in_profile) |
 | 2026-06 | **LFD102: A Beginner's Guide to Open Source Software Development** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/2b1cbc35-8af4-467d-bb34-8f081afb8ef0/linked_in_profile) |
 | 2026-06 | **LFQ101: Fundamentals of Quantum Computing** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/dbaa0c7b-652d-4505-a80a-4d8dd2551426/linked_in_profile) |
 | 2026-06 | **LFC102: Inclusive Open Source Community Orientation** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/eb937342-cd3c-4993-8e44-91f0bf12f83c/linked_in_profile) |
@@ -66,6 +63,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-05 | **Boost Productivity with Gemini in BigQuery** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24253675?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Accelerate App Development with Gemini CLI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24251263?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Working with Notebooks in Vertex AI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198950?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Select a Google Cloud Database for Your Applications** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198703?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Build AI Agents with Enterprise Databases** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198352?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-05-part-12.md](./linkedin-certifications-2026-05-part-12.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-14.md](./linkedin-certifications-2026-06-part-14.md)

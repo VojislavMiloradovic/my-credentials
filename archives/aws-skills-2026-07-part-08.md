@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 8 of 14
-date_range: 2026-07-02 to 2026-07-22
-total_entries: 57
+chunk_part: 8 of 15
+date_range: 2026-06-29 to 2026-07-20
+total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-08.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,17 +11,10 @@ artifacts: archive_complete, archive_index, jsonld
 
 # AWS Skill Builder Credentials — Part 08
 
-> **Navigation:** Prev: [aws-skills-2026-07-part-07.md](./aws-skills-2026-07-part-07.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-09.md](./aws-skills-2026-08-part-09.md) | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-06-part-07.md](./aws-skills-2026-06-part-07.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-09.md](./aws-skills-2026-08-part-09.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-07-22 | [AI Agents: Cognitive Upgrade and Business Efficiency](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-07-22 | [AWS Cloud for absolute beginners](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-07-22 | [AWS Cloud for Finance Professionals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-07-22 | [AWS Technical Essentials](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-07-22 | [Data Engineering on AWS - Foundations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-07-22 | [Introduction to Building with AWS Databases](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-07-20 | [AWS CodeArtifact Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-20 | [AWS CodeDeploy Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-20 | [AWS for SAP - Generative AI Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-20 | [AWS Lake Formation Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -72,7 +65,13 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-07-08 | [AWS SimuLearn: Highly Available Web Applications](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 | 2026-07-05 | [AWS SimuLearn: Networking Concepts](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 | 2026-07-02 | [AWS SimuLearn: AI Practitioner](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Learning plan |
+| 2026-07-02 | [AWS SimuLearn: Create an AI Smart Assistant](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
+| 2026-07-02 | [AWS SimuLearn: Get Started with Generative AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
+| 2026-07-02 | [AWS SimuLearn: Use AI Services with Amazon SageMaker](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
+| 2026-06-30 | [Amazon QuickSight Advanced Business Intelligence Authoring (Part 1)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-06-30 | [Amazon QuickSight Advanced Business Intelligence Authoring (Part 2)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-06-29 | [[RETIRED] Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-07-part-07.md](./aws-skills-2026-07-part-07.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-09.md](./aws-skills-2026-08-part-09.md)
+> **Navigation:** Prev: [aws-skills-2026-06-part-07.md](./aws-skills-2026-06-part-07.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-09.md](./aws-skills-2026-08-part-09.md)
 

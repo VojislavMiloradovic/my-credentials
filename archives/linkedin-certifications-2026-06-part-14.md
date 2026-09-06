@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 14 of 35
+chunk_part: 14 of 36
 date_range: 2026-06 to 2026-06
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-14.md
@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **30 Practical AI Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/94ca15b57c3f704111463e750b3a955ba650f89afec1be4743935e2e020774cd) |
-| 2026-06 | **Building AI Literacy and Fluency with Microsoft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/12ab8be8582b8d57be3991161cca21eb49fd9fcfd5842a5ebcecf468fbe79655) |
-| 2026-06 | **Human-First AI: Building AI Products That People Actually Use** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c4582ac8a806aa366907d553ddb496d42ac675fdce69650d726194ed4e3f7265) |
 | 2026-06 | **AI Evaluations for Product Leaders and AI PMs** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6d5c485a7dc9d2885649692f53d819e83c93a40acf38f7cbe0bbe2a138cc0626) |
 | 2026-06 | **LFD110: Introduction to RISC-V** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/ca3fb10f-24a2-4c82-a275-82ca9f08193a/linked_in_profile) |
 | 2026-06 | **LFD133: Introduction to WebAssembly** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/8473781e-b134-4cb1-850b-c72985f5822d/linked_in_profile) |
@@ -64,6 +61,9 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06 | **LFS158: Introduction to Kubernetes** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/85746ca0-36fc-4ba0-b753-d0dce904b02d/linked_in_profile) |
 | 2026-06 | **Process Accelerator Badge** | Lucid Software | [Verify Record](https://www.credly.com/badges/66e95c6f-7100-4007-ae22-1fc36a1d638d/linked_in_profile) |
 | 2026-06 | **Creative Facilitation** | Lucid Software | [Verify Record](https://www.credly.com/badges/6df66de9-9678-4f5a-bc36-1c4d7b220100/linked_in_profile) |
+| 2026-06 | **LFD137: Open Source Contribution in Finance** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/07bb1039-dd83-4aab-a319-d18af966d01a/linked_in_profile) |
+| 2026-06 | **LFC108: Cybersecurity Essentials** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/c07d5735-c22b-40c9-bece-11d75cd3ab0d/linked_in_profile) |
+| 2026-06 | **LFS118: Ethical Principles for Conversational AI** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/c18e2ce0-83e2-4e77-ba8e-2daa7a2cddfa/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-13.md](./linkedin-certifications-2026-06-part-13.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-15.md](./linkedin-certifications-2026-06-part-15.md)

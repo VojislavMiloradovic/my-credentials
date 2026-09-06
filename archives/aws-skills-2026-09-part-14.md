@@ -1,6 +1,6 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 14 of 14
+chunk_part: 14 of 15
 date_range: 2026-08-29 to 2026-09-01
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-14.md
@@ -11,14 +11,10 @@ artifacts: archive_complete, archive_index, jsonld
 
 # AWS Skill Builder Credentials — Part 14
 
-> **Navigation:** Prev: [aws-skills-2026-08-part-13.md](./aws-skills-2026-08-part-13.md) | [Index](./aws-skills-index.md) | Next: None | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-08-part-13.md](./aws-skills-2026-08-part-13.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-15.md](./aws-skills-2026-09-part-15.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-09-01 | [Advanced Architecting on AWS - Online Course Supplement](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-01 | [Advanced SQL and Database Design](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-01 | [AI Traffic Monetization - Implementing Pay-Per-Access For AI Agents](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-01 | [AI-Powered Video Advertising & Operations Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [Amazon CloudWatch - Advanced Course](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [AWS Client VPN-Advanced Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [AWS Design Architectures for Advertising workflows](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -65,7 +61,11 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08-29 | [Extending MCP support for Amazon Bedrock AgentCore Gateway](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [From Fragile to Resilient: Hardening a Bedrock Client for Production](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [Human-in-the-loop constructs for agentic workflows in healthcare and life sciences](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-29 | [Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-29 | [Optimize blueprint extraction accuracy in Amazon Bedrock Data Automation](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-29 | [Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-29 | [Retrieval, Citations, and Why RAG Quietly Fails](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-08-part-13.md](./aws-skills-2026-08-part-13.md) | [Index](./aws-skills-index.md) | Next: None
+> **Navigation:** Prev: [aws-skills-2026-08-part-13.md](./aws-skills-2026-08-part-13.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-15.md](./aws-skills-2026-09-part-15.md)
 

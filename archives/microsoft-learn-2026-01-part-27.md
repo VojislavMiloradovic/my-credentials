@@ -15,6 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Petabyte-scale ingestion with Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/petabyte-scale-ingestion-azure-data-factory/) |
+| **Perform code-free transformation at scale with Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-free-transformation-scale/) |
+| **Get started with process mining in Power Automate** | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-process-advisor/) |
 | **Create Power BI reports with Power Automate Process Mining** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-reports-process-mining/) |
 | **Analyze processes with the Power Automate Process Mining desktop app** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-processes-process-mining/) |
 | **Get started with the Power Automate Process Mining desktop app** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-mining-desktop-app/) |
@@ -58,17 +61,14 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage Universal Windows Platform apps** | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-universal-windows-platform-apps/) |
 | **Provide apps to users** | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/provide-apps-users/) |
 | **Explore the Windows servicing model** | Modules | 2026-01-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-servicing-model/) |
-| **Learn how Microsoft safeguards customer data** | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/audit-safeguard-customer-data/) |
 | **Understand Microsoft datacenter security** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-physical-security/) |
+| **Learn how Microsoft safeguards customer data** | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/audit-safeguard-customer-data/) |
 | **Understand Microsoft Online Services subprocessor management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-subprocessor-management/) |
 | **Understand Microsoft 365 privacy** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-privacy/) |
 | **Understand Microsoft Online Services security development and operation** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-security-development-operation/) |
 | **Understand Microsoft Online Services resiliency and continuity** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-resiliency-continuity/) |
 | **Understand Microsoft 365 vulnerability management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-vulnerability-management/) |
 | **Understand Microsoft 365 audit logging and monitoring** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-logging-monitoring/) |
-| **Understand Microsoft 365 identity and access management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-identity-access-management/) |
-| **Understand Microsoft Online Services security incident management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-incident-management/) |
-| **Understand Microsoft 365 cloud architecture** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-architecture/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-26.md](./microsoft-learn-2025-12-part-26.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-28.md](./microsoft-learn-2026-01-part-28.md)

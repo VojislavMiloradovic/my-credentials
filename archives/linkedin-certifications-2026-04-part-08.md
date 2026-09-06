@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 8 of 35
+chunk_part: 8 of 36
 date_range: 2026-04 to 2026-04
 total_entries: 40
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-04-part-08.md
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-04 | **Gemini for end-to-end SDLC** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23677349?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-04 | **Implement Cloud Next Generation Firewall** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23670599?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-04 | **Quiz: GDC Air-Gapped Practitioner Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23659912?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-04 | **Machine Learning Operations (MLOps) with Vertex AI: Model Evaluation** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23640729?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-04 | **Introduction to Google Security Operations: Unified SecOps** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23616518?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -55,6 +53,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-04 | **Integrating SAP Sales Cloud and SAP Service Cloud Version 2 with SAP S/4HANA - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/bc3b65e3-dadf-41d4-93cf-0b4300a4a566/linked_in_profile) |
 | 2026-04 | **Operating Systems Basics** | Cisco | [Verify Record](https://www.credly.com/badges/fde02823-1e05-4382-a844-cdb966fb7c47/linked_in_profile) |
 | 2026-04 | **AI Fundamentals: Language and Vision in AI** | IBM | [Verify Record](https://www.credly.com/badges/df76354f-505a-4cbb-a33c-31dcac6a0e8e/linked_in_profile) |
+| 2026-04 | **Get Coding with Snap! - Building Up to AI - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/c3b1cde6-921c-45f5-8143-5465c7de9e6c/linked_in_profile) |
+| 2026-04 | **Orchestrate Multi-agent Workflows with Gemini Enterprise** | Google | [Verify Record](https://www.credly.com/badges/6f5efebc-5b23-41a0-a017-8ad2456b100a/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-04-part-07.md](./linkedin-certifications-2026-04-part-07.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-09.md](./linkedin-certifications-2026-05-part-09.md)

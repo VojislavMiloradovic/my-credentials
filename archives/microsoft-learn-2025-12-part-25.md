@@ -15,6 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Create serverless applications** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-serverless-applications/) |
+| **Build serverless apps with Go** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/serverless-go/) |
+| **Use Power Automate to increase productivity** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-power-automate-increase-productivity/) |
 | **MD-100 Configure authorization and authentication** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-authorization-authentication/) |
 | **Implement device registration** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-registration/) |
 | **Explore authentication** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-authentication/) |
@@ -27,8 +30,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Deploy a Java web app to a Tomcat server on Azure App Service** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-java-webapp-to-app-service-linux/) |
 | **Develop confident presenters with Speaker Progress** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-confident-presenters-speaker-progress/) |
 | **Get started with Asset Management for Dynamics 365 Supply Chain Management** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-asset-management/) |
-| **Create cloud native apps with Azure and open-source software** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-cloud-native-apps-with-azure-open-source/) |
 | **Orchestrate containers for cloud-native apps with AKS** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-native-apps-orchestrate-containers/) |
+| **Create cloud native apps with Azure and open-source software** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-cloud-native-apps-with-azure-open-source/) |
 | **Introduction to cloud-native apps on Azure** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-cloud-native-apps/) |
 | **Configure and manage file access** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-file-access/) |
 | **MD-100 Configure data access and usage** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-data-access-usage/) |
@@ -64,9 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Improve your reliability with modern operations practices: Monitoring** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-reliability-monitoring/) |
 | **Improve your reliability with modern operations practices: An introduction** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-reliability-introduction/) |
 | **Improve your reliability with modern operations practices: Incident response** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-reliability-incidents/) |
-| **Simulate mouse and keyboard actions by using Power Automate for desktop** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-mouse-keyboard/) |
-| **Use input and output variables - Online workshop** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-input-output-online-workshop/) |
-| **Introduction to Azure Virtual WAN** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-virtual-wan/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-24.md](./microsoft-learn-2025-12-part-24.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-26.md](./microsoft-learn-2025-12-part-26.md)

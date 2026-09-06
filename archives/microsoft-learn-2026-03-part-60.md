@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 60 of 95
-date_range: 2026-03-14 to 2026-03-17
+date_range: 2026-03-15 to 2026-03-17
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-03-part-60.md
 layer: L2_published
@@ -15,6 +15,11 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Get started with Connected Customer Service for Dynamics 365 and Azure IoT** | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-connected-customer-service/) |
+| **Set up and use features for resource/non-stocked based scenarios in Dynamics 365 Project Operations** | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-use-features-resource-non-stocked-project-operations/) |
+| **Revenue recognition in Dynamics 365 Project Operations** | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-recognition/) |
+| **Manage maintenance requests in Asset Management for Dynamics 365 Supply Chain Management** | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-maintenance-requests/) |
+| **Set up inventory replenishment in Dynamics 365 Business Central** | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-inventory-replenishment-dynamics-365-business-central/) |
 | **Replenish items in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/replenish-items-dynamics-365-business-central/) |
 | **Assemble to order in Dynamics 365 Business Central** | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/assemble-to-order-dynamics-365-business-central/) |
 | **Schedule crews, facilities, and resource pooling in Dynamics 365 Field Service** | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/schedule-resource-pools-crew-and-facilities-urs-dynamics-field-service/) |
@@ -57,11 +62,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Configure engineering change management for Dynamics 365 Supply Chain Management** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-engineering-change-management/) |
 | **Set up cost and sales prices for time, expense, and materials in Dynamics 365 Project Operations** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-cost-sales-price/) |
 | **Extend Dynamics 365 Customer Service** | Learningpaths | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-customer-service/) |
-| **Create custom apps for Dynamics 365 Customer Service** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-apps-customer-service/) |
-| **Create fixed asset classes, subclasses, and locations in Dynamics 365 Business Central** | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-classes-subclasses-locations/) |
-| **Ingest DICOM data into healthcare data solutions in Microsoft Fabric** | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-dicom-ingestion/) |
-| **Access REST services from within Dynamics 365 Business Central** | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/access-rest-services/) |
-| **Identify and configure batch attributes for process manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-configure-batch-attributes-process-manufacturing-dyn365-supply-chain-mgmt/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-59.md](./microsoft-learn-2026-03-part-59.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-61.md](./microsoft-learn-2026-03-part-61.md)

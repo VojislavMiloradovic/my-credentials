@@ -1,6 +1,6 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 13 of 14
+chunk_part: 13 of 15
 date_range: 2026-08-24 to 2026-08-29
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-13.md
@@ -15,10 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-08-29 | [Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-29 | [Optimize blueprint extraction accuracy in Amazon Bedrock Data Automation](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-29 | [Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-29 | [Retrieval, Citations, and Why RAG Quietly Fails](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [Shift-Left Tag Compliance using AWS Organizations and Terraform](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [Transform AWS Support Case Workflows with Kiro CLI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Advanced CloudFormation: Macros](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -66,6 +62,10 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08-24 | [E-commerce AI Agent: From Smart Customer Service to Production Deployment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-24 | [Generative AI Workloads on AWS AI Chips - Trainium and Inferentia](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-24 | [Implementing SaaS Tenant Isolation with ABAC and AWS IAM](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-24 | [Leverage Claude's Extended Thinking Capabilities on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-24 | [Managing, Monitoring, and Optimizing your Amazon Elastic File System (Amazon EFS) Solution](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-24 | [Manufacturing intelligence with Amazon Nova Multimodal Embeddings](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-24 | [Monitoring and Troubleshooting Generative AI Applications on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-14.md](./aws-skills-2026-09-part-14.md)

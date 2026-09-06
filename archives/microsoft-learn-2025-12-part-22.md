@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 22 of 95
 date_range: 2025-12-24 to 2025-12-26
-total_entries: 51
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-22.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Introduction to Dynamics 365 Commerce** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/dynamics-365-commerce-introduction/) |
+| **Plan and deploy Azure Arc-enabled servers at scale** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-deploy-azure-arc-enabled-servers/) |
+| **Manage Windows Server file servers** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-server-file-servers/) |
 | **Design a model deployment solution** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-model-deployment-solution/) |
 | **AI security controls** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-security-controls/) |
 | **Explore the ecosystem and main components of finance and operations apps** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-ecosystem-main-components-finance-operations/) |
@@ -43,8 +46,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Tailoring trainings with AI** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/tailoring-trainings-with-ai/) |
 | **Design a machine learning operations solution** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-machine-learning-operations-solution/) |
 | **Manage process mining projects** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-process-mining/) |
-| **Build .NET applications with C#** | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-dotnet-applications-csharp/) |
 | **Interactively debug .NET apps with the Visual Studio Code debugger** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-debug/) |
+| **Build .NET applications with C#** | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-dotnet-applications-csharp/) |
 | **From inbox to impact: Improve your email workflows with AI** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/from-inbox-impact-improve-your-email-workflows-ai/) |
 | **Microsoft Learn for Educators course planning** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-learn-educators-course-plan/) |
 | **Hyperautomation with insights from process mining** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/hyperautomation-process-mining/) |
@@ -64,8 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Create a Dataverse table for the machine ordering app  - Online workshop** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/dataverse-lab-manual-online-workshop/) |
 | **Create a model-driven Power Apps app for machine ordering - Online Workshop** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-model-driven-apps-online-workshop/) |
 | **Introduction to Azure Bot Service and Bot Framework Composer** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-bot-service-bot-framework-composer/) |
-| **Document and test your Power Apps application** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-test-powerapps-app/) |
-| **Deliver engaging and accessible virtual events with Microsoft Teams and Microsoft 365** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-virtual-events-fundamentals/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-21.md](./microsoft-learn-2025-12-part-21.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-23.md](./microsoft-learn-2025-12-part-23.md)

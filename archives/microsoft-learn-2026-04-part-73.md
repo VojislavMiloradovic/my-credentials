@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 73 of 95
-date_range: 2026-04-27 to 2026-04-29
+date_range: 2026-04-28 to 2026-04-30
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-73.md
 layer: L2_published
@@ -15,6 +15,11 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Introduction to Windows 365** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-windows-365/) |
+| **Optimize generative AI model performance with Microsoft Foundry** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-generative-ai-model-performance/) |
+| **Configure workload identities and permissions for AI environments** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-entra-ai-configure-workload-identities/) |
+| **Minecraft Connections: Integrate across the curriculum** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/minecraft-connections-integrate-across-curriculum/) |
+| **Guided project – Build a sample app to evaluate Microsoft Entra External ID for seamless and secure sign-up and sign-in for consumers and business customers** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/entra-external-identities/) |
 | **Guided project - Add sign-up in an Android mobile app and iOS/macOS app using native authentication** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-entra-external-native-authentication/) |
 | **Upgrade from AX 2012 to Dynamics 365 Finance** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/upgrade-ax-finance-operations/) |
 | **Set up metrics and alerts for Customer Voice surveys** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/metrics-alerts-voice-surveys/) |
@@ -32,8 +37,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage events in Fundraising and Engagement** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-events-fundraising-engagement/) |
 | **Moves management to raise major gifts with Fundraising and Engagement** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/moves-management/) |
 | **Set up insurances in Dynamics 365 Business Central** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-insurances/) |
-| **Extend Universal Resource Scheduling with Dynamics 365 Project Operations** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-universal-resource-scheduling/) |
 | **Extend Dynamics 365 Project Operations** | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-project-operations/) |
+| **Extend Universal Resource Scheduling with Dynamics 365 Project Operations** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-universal-resource-scheduling/) |
 | **Publish metrics data for audit disclosures using Compliance Manager** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-audit-disclosures/) |
 | **Manage healthcare data with Care Management in Microsoft for Healthcare** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-care-management/) |
 | **Convert prospects in Dynamics 365 Sales to customers in Dynamics 365 Supply Chain Management** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/convert-prospects-sales-customers/) |
@@ -60,11 +65,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Integrate procurement between Dynamics 365 Supply Chain Management and Dynamics 365 Field Service** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/procurement-field-service-supply-chain-management/) |
 | **Manage and engage with volunteers in Microsoft for Nonprofits** | Learningpaths | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/volunteer-management-nonprofit/) |
 | **Onboard and approve volunteers with Volunteer Management** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/onboard-approve-volunteer-management/) |
-| **Integrate Volunteer Management and Volunteer Engagement with Microsoft for Nonprofits** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-volunteer-management-engagement-cloud-nonprofit/) |
-| **Integrate and use Field Service with Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-field-service/) |
-| **Configure BOM costing and reporting in Dynamics 365 Supply Chain Management** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-bill-material-costing-reporting/) |
-| **Use Dynamics 365 Sales from Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-sales-business-central/) |
-| **Manage outbound serial and lot numbers in Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-outbound-serial-lot-numbers/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-72.md](./microsoft-learn-2026-04-part-72.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-74.md](./microsoft-learn-2026-05-part-74.md)

@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 19 of 35
+chunk_part: 19 of 36
 date_range: 2026-06 to 2026-06
 total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-19.md
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Aaron Dignan on Transformational Change** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/74eba71f1c6ebb27cca43df22151488d3ce52f90408d4df82653cfde5bf663ee) |
-| 2026-06 | **AWS Knowledge: AI Driven Development Lifecycle Foundations – Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/f1880883-9103-4d1b-8857-012568263bb3/linked_in_profile) |
 | 2026-06 | **Creative Inspirations: Doyald Young, Logotype Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eacfa3524f0540f0ea027d9ab5580c4995a5fccb733cd35e1c8728955dfb4afd) |
 | 2026-06 | **In The Studio with Shaky Feelin'** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1b7192dacd265f5f952570a75e7593f3f1ba51da5f11d930ca3947a9570694b7) |
 | 2026-06 | **The Creative Spark: Iyeoka, Recording Artist and Poet** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/63330d5e84a785b39e99650bb673c209e42548aba224909167b234866235dd2c) |
@@ -60,6 +58,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06 | **Nano Tips to Jump Start Your Coding in Python with Ronnie Sheer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/991739037d4884631b0c84dc174c31102abbf98254d8a5af4a6fc28c08597678) |
 | 2026-06 | **Built-in Machine Learning in the Wolfram Language** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6fe387546f75d53181ee8dd75001588897f071271d491264e645327c2dea64bc) |
 | 2026-06 | **Alex McDowell: World Building and Narrative** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/08c3fb5fa47a5d78475c9d1ddeecc471299b39acb0dfdcd769982caec6fcfa0a) |
+| 2026-06 | **Nano Tips for Data Storytelling and Visualization with Lachezar Arabadzhiev** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/50b04f67dd3f17918b1dbb9e4ef656a789edb3cb5596880652ef7736d99d9785) |
+| 2026-06 | **Graphic Design Careers: First Steps** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5690a3fc1efd2dabefbf9d70c115639232d0ac67cf132211ac437a92b1e30b3a) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-18.md](./linkedin-certifications-2026-06-part-18.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-20.md](./linkedin-certifications-2026-06-part-20.md)

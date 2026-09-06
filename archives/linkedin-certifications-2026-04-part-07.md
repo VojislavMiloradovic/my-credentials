@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 7 of 35
+chunk_part: 7 of 36
 date_range: 2026-04 to 2026-04
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-04-part-07.md
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-04 | **Get Coding with Snap! - Building Up to AI - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/c3b1cde6-921c-45f5-8143-5465c7de9e6c/linked_in_profile) |
-| 2026-04 | **Orchestrate Multi-agent Workflows with Gemini Enterprise** | Google | [Verify Record](https://www.credly.com/badges/6f5efebc-5b23-41a0-a017-8ad2456b100a/linked_in_profile) |
 | 2026-04 | **Introduction to Data Science** | Cisco | [Verify Record](https://www.credly.com/badges/5c007983-0d07-43d6-84ec-c7f15893e2e1/linked_in_profile) |
 | 2026-04 | **Configuring SAP SuccessFactors Employee Central Global Benefits - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/dcfae2db-fea4-4117-8b77-7eeef66e1996/linked_in_profile) |
 | 2026-04 | **Build an AI Agent** | IBM | [Verify Record](https://www.credly.com/badges/f1b0b57d-1711-4924-bac0-7a34769a0644/linked_in_profile) |
@@ -67,6 +65,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-04 | **Introducing SAP Business Data Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xefal-vybad-mypyf-movap-rovoh) |
 | 2026-04 | **AWS Knowledge: AWS Graviton - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/013b5a15-4ea6-47a4-9812-bcb52372bb1f/linked_in_profile) |
 | 2026-04 | **Make Agentic AI Work for You** | IBM | [Verify Record](https://www.credly.com/badges/0162b3cd-2bf0-4a6e-8335-3ece7487f265/linked_in_profile) |
+| 2026-04 | **Implementing SAP Self-Billing Cockpit - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xolag-katug-gehif-bisyh-kydaf) |
+| 2026-04 | **Introducing the Agribusiness Industry - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xutup-cafoc-delit-hosut-cepot) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-04-part-06.md](./linkedin-certifications-2026-04-part-06.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-04-part-08.md](./linkedin-certifications-2026-04-part-08.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 30 of 35
+chunk_part: 30 of 36
 date_range: 2026-08 to 2026-08
-total_entries: 50
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-30.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Nano Tips for Effective Sponsorship as a Leader with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a58690e1c6cb2a78176de902f3dbe8f01a81c34e61d5c549d747f459e90557ee) |
-| 2026-08 | **Using Data Science to Hire Employees** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/84e29c3aa1cb4cfec900537f8eedb2709792e8ac493e0e98b2290029c163813a) |
-| 2026-08 | **Nano Tips for Leading Diverse Teams with Watchen Nyanue** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/13e473304257aad5a6d62dfe7467e61c5ff0aecb73db4dffcb5ae37d9096d333) |
 | 2026-08 | **Nano Tips for Effective Listening for Leaders with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d57a2f9f18c799024bf8eb2d2aff8982720081cf5226694dc20b41799a5adb31) |
 | 2026-08 | **Nano Tips for Building Adaptability as a Leader with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/59520b356a67ee8bb1e21e070dadd4a1281703457d765501b395c5abb5f4050d) |
 | 2026-08 | **Nano Tips for Navigating Mentorship in the Workplace with Kristi Kennebrew** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1ff6d9702ade06c01b4d70d0a467aae01721f90f1049e27a0a0175d9dedf28d0) |
@@ -65,6 +62,10 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08 | **Discovery: Platform Engineer** | Isovalent | [Verify Record](https://www.credly.com/badges/d7da7369-d022-4776-a0eb-c8fc5a4d1524/linked_in_profile) |
 | 2026-08 | **Cilium Getting Started** | Isovalent | [Verify Record](https://www.credly.com/badges/7e1806fc-d8d8-4d2a-8599-217816425f34/linked_in_profile) |
 | 2026-08 | **Reliability and Availability: How MongoDB ensures Business Continuity** | MongoDB | [Verify Record](https://www.credly.com/badges/f7b720f4-a41d-40e1-825d-12396020c40c/linked_in_profile) |
+| 2026-08 | **AttackIQ Academy Threat Whisperer** | AttackIQ | [Verify Record](https://www.credly.com/badges/90f733cf-e8d8-4bbe-b560-5c66a35f9cc6/linked_in_profile) |
+| 2026-08 | **Advanced Cyber Threat Intelligence Writing: Crafting Actionable Reports** | AttackIQ | [Verify Record](https://www.credly.com/badges/8168b2f0-bad1-4fa8-bfb2-81ff1ca5ae03/linked_in_profile) |
+| 2026-08 | **AttackIQ Foundational Blueprints** | AttackIQ | [Verify Record](https://www.credly.com/badges/fb6207f0-02f5-4fe6-9a76-d46eb5624a48/linked_in_profile) |
+| 2026-08 | **Delivering Value with the ATT&CK Sightings Report** | AttackIQ | [Verify Record](https://www.credly.com/badges/6763d0db-b815-41d1-9dd9-f6f3064087ad/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-29.md](./linkedin-certifications-2026-08-part-29.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-31.md](./linkedin-certifications-2026-08-part-31.md)

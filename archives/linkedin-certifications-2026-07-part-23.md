@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 23 of 35
+chunk_part: 23 of 36
 date_range: 2026-06 to 2026-07
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-23.md
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-07 | **Nano Tips for Resolving Conflict with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c30d25c1ec70e5089898b74440ca15320fb0d88d6391a1f46fdb1dee3e08835a) |
-| 2026-07 | **Nano Tips for Using AI in the Job Search with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a3dd97158bcfeabee945ee220924414173fb1d5bbd2c694d375d58330f0ca0a8) |
 | 2026-07 | **Nano Tips for Understanding AI's Impact to Business with Marco Andre** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4e807863cbb82e544917219c9a4f9975a36ab1f78a1c379b708b1e90c990095f) |
 | 2026-07 | **Nano Tips for Career Success and Daily Wins with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d4751c8aa6f87f3960668aeac8e812f96c0a052e952297a1723e46355b5f4642) |
 | 2026-07 | **Nano Tips For Building a Career in Cybersecurity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/46787484b5a7def9b9500a7f73696124c0b7c3eca978747896c8e9c2eda551bf) |
@@ -62,6 +60,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06 | **Nano Tips to Succeed in Sales with Morgan Ingram** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d0567cbc13cc08e53cb87151bc2a23a099e74ba82cd1bb1e41202dd63248bdcc) |
 | 2026-06 | **Generative AI, Recruiting, and Talent Acquisition** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/266d8103821516065580e6a5a08b5a8f75233d26b22e1538e628d1fcb219069c) |
 | 2026-06 | **Nano Tips for Using AI to Streamline Project Management with Jean Kang** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/09fd72258721b32bff58314c22666abed04741a0a268bb5612a898e7780be80a) |
+| 2026-06 | **Build AI Agents and Automate Workflows with n8n** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4714da52f0c25ac2d19a5abd19675e261787ed92109d326e1e4941833e3c39f0) |
+| 2026-06 | **Arcade Voyage: Identity Management and Pre-trained AI APIs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25200680?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-22.md](./linkedin-certifications-2026-06-part-22.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-24.md](./linkedin-certifications-2026-07-part-24.md)

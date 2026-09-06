@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 11 of 35
+chunk_part: 11 of 36
 date_range: 2026-05 to 2026-05
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-11.md
@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-05 | **Deploying SAS Event Stream Processing on SAS Viya** | SAS | [Verify Record](https://www.credly.com/badges/23f9cee5-1e7b-4c04-9819-ca58eaa54c81/linked_in_profile) |
-| 2026-05 | **Architecture and Administration for SAS Workload Management on SAS Viya** | SAS | [Verify Record](https://www.credly.com/badges/8ab110d2-4f48-4270-a365-2d39a121015c/linked_in_profile) |
-| 2026-05 | **Manage Data Models in Looker Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/eb5fb255-8dfa-4798-9894-3d7342f2c28a/linked_in_profile) |
 | 2026-05 | **Product Management Basics Certification** | Pendo.io | [Verify Record](https://www.credly.com/badges/9ed3741c-eb44-4f66-854b-7808ab8091a9/linked_in_profile) |
 | 2026-05 | **Lucidchart Fundamentals** | Lucid Software | [Verify Record](https://www.credly.com/badges/964323c2-0693-4faf-a973-7324c4736657/linked_in_profile) |
 | 2026-05 | **Org charts in Lucidchart** | Lucid Software | [Verify Record](https://www.credly.com/badges/1884360b-cb1c-4b7a-a83f-e084d0994093/linked_in_profile) |
@@ -69,6 +66,9 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-05 | **Introduction to Web Design** | SAS | [Verify Record](https://www.credly.com/badges/3fc971ca-8531-4e28-b6f8-6eecdf8354b3/linked_in_profile) |
 | 2026-05 | **Getting Started with SAS and Kubernetes** | SAS | [Verify Record](https://www.credly.com/badges/1a509b1d-9a06-410c-8916-eac5b639fe28/linked_in_profile) |
 | 2026-05 | **SAS 9 Administration: Getting Started** | SAS | [Verify Record](https://www.credly.com/badges/db55699d-258e-4a61-870c-0d66d5f6166f/linked_in_profile) |
+| 2026-05 | **GenAI - Client to Cloud Fundamentals** | Intel | [Verify Record](https://www.credly.com/badges/bbd4f4ac-6aba-480f-b77c-9b8f79b65bdd/linked_in_profile) |
+| 2026-05 | **Discovering the Basics of SAP S/4HANA Portfolio and Project Management - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/d3c10832-4cf4-4d04-939b-bbcc1dcc9f1e/linked_in_profile) |
+| 2026-05 | **Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity** | Okta | [Verify Record](https://www.credly.com/badges/2f421b3d-277a-4bc8-8120-3a07438a5962/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-05-part-10.md](./linkedin-certifications-2026-05-part-10.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-12.md](./linkedin-certifications-2026-05-part-12.md)

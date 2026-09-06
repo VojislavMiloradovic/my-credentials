@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 11 of 95
 date_range: 2025-12-04 to 2025-12-07
-total_entries: 50
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-11.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -19,8 +19,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Introduction to Azure OpenAI Managed Identity Authentication with Java** | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-openai-managed-identity-auth-java/) |
 | **Choose the correct HDInsight Configuration to build open source analytics solutions.** | Modules | 2025-12-07 | N/A |
 | **Perform Zero ETL analytics with HDInsight Interactive Query** | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-zero-etl-analytics-hdinsight-interactive-query/) |
-| **Define a Microsoft AI strategy to create business value in sustainability** | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-sustainability/) |
 | **Discover AI for leaders in sustainability** | Learningpaths | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-sustainability/) |
+| **Define a Microsoft AI strategy to create business value in sustainability** | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-sustainability/) |
 | **Monitor your Azure virtual machines with Azure Monitor** | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-azure-vm-using-diagnostic-data/) |
 | **Review the principles of code debugging and exception handling** | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/review-principles-code-debugging-exception-handling-c-sharp/) |
 | **Guided project - Debug and handle exceptions in a C# console application using Visual Studio Code** | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/) |
@@ -30,7 +30,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage Windows updates for cloud-connected devices by using the Microsoft Graph PowerShell SDK** | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-updates-cloud-devices/) |
 | **Code Jumper: An inclusive physical coding language** | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-jumper-inclusive-physical-coding-language/) |
 | **Utilize MakeCode Arcade in your classroom** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/utilize-makecode-arcade-your-classroom/) |
-| **Support student learning with MakeCode Arcade** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-student-learning-with-makecode-arcade/) |
+| **Support student learning with MakeCode Arcade** | Modules | 2025-12-05 | N/A |
 | **Query relational data in Azure** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-relational-data/) |
 | **Improve your app's performance when using Microsoft Graph Toolkit** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-toolkit-improve-performance/) |
 | **Use Slurm for HPC on Azure CycleCloud** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-slurm-hpc-azure-cyclecloud/) |
@@ -65,6 +65,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Management, troubleshooting, and support for Intune for Education (Partner Success Series)  ** | Modules | 2025-12-04 | N/A |
 | **Explore Azure Database for MySQL - Flexible Server features that support mission-critical workloads** | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-database-for-mysql-features-that-support-mission-critical-workloads/) |
 | **Choose a deployment scenario for HoloLens device management** | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-deployment-strategy-hololens/) |
+| **Microsoft for Healthcare training environment preparation** | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/training-environment-preparation-healthcare/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-10.md](./microsoft-learn-2025-12-part-10.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-12.md](./microsoft-learn-2025-12-part-12.md)

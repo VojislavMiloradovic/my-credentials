@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Draft impactful documents using AI** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/draft-impactful-documents-using-ai/) |
+| **Introduction to Microsoft Learn for Educators program** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-learn-educators-program/) |
 | **Configure and manage shared folders** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-shared-folders/) |
 | **Microsoft Learn for Educators Course Preparation** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-learn-educators-course-preparation/) |
 | **Upgrade and migrate Windows clients** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/upgrade-migrate-windows-clients/) |
@@ -25,8 +27,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Customize ASP.NET Core behavior with middleware** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/aspnetcore-middleware/) |
 | **Understand data concepts** | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/understand-data-concepts/) |
 | **Understand data roles, services, and products** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-data-roles-services-products/) |
-| **DevOps foundations: The core principles and practices** | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/devops-foundations-core-principles-practices/) |
 | **Operate with DevOps** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/operate-with-devops/) |
+| **DevOps foundations: The core principles and practices** | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/devops-foundations-core-principles-practices/) |
 | **Manage and monitor data warehouse activities in Azure Synapse Analytics** | Modules | 2025-12-23 | N/A |
 | **Write your first PowerShell code** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/powershell-write-first/) |
 | **Automate administrative tasks by using PowerShell** | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/powershell/) |
@@ -65,8 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Describe the general ledger in Dynamics 365 Finance** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-general-ledger-dynamics-365/) |
 | **Support social and emotional learning with Microsoft tools** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-social-emotional-learning/) |
 | **Get started with AI Builder** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder/) |
-| **Get started with Dynamics 365 Customer Service** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-dynamics-365-for-customer-service/) |
-| **Navigate finance and operations apps** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigate-finance-operations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-19.md](./microsoft-learn-2025-12-part-19.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-21.md](./microsoft-learn-2025-12-part-21.md)

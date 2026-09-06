@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 21 of 35
+chunk_part: 21 of 36
 date_range: 2026-06 to 2026-06
 total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-21.md
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Introduction to Agentic AI Governance** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ac8b2404a936a3ecad4a40bf104354785a4fc35090dd939e22487021757c0611) |
-| 2026-06 | **Creative Inspirations: Dale Herigstad & Schematic, Interactive Design Agency** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/05fea599c23965884afed901289c519f23b4a23bffe29d64521f867b12d26129) |
 | 2026-06 | **Creative Inspirations: tokidoki, Character Illustrator** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8e4378e6a6c6e4a78f44a6a9bfc949e0df9c077f7f6354125665f68b75a2cce1) |
 | 2026-06 | **Adobe Firefly's AI-Driven Business Solutions: A Conversation with Bart Van de Wiele** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/aee391125c3b31f76c10001cc8b7a5a644d57eb56037bc9537734aa6c8797e11) |
 | 2026-06 | **Douglas Kirkland on Photography: A Conversation with Gerd Ludwig** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e9fb4813da2598e0cd1c84b5444a93d5fe3d62f9c8b5343ecec2280ea441fffd) |
@@ -59,6 +57,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06 | **What to Post on LinkedIn to Stand Out** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1d5ef438d0141d90b05a26d68abc6c00961c225fecc708e32836cfcdbb700faf) |
 | 2026-06 | **Leading the Shift: AI and analytics on and off the court \| NBA** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/785ef8b28a1c0d2ea8dede1ec18e62f5ceeaea375837160d55c470288be6dcc2) |
 | 2026-06 | **Leading the Shift: Data doesn't just fuel generative AI-it goes both ways \| dentsu** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4e99ac7f026e4e3236e05de6a7b4b22eba448675938455a0e14dedf677e6b93d) |
+| 2026-06 | **Data Impact with DJ Patil** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/89be6687009e2858241f7a5a20d46110a852fe7f450fa66f804df6fca85e618f) |
+| 2026-06 | **Building No-Code Apps with AppSheet: Automation** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25137908?utm_medium=social) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-20.md](./linkedin-certifications-2026-06-part-20.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-22.md](./linkedin-certifications-2026-06-part-22.md)

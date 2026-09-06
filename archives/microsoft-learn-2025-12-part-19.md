@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Get started with Dynamics 365 Customer Service** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-dynamics-365-for-customer-service/) |
+| **Navigate finance and operations apps** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigate-finance-operations/) |
 | **Web automation in Power Automate for desktop** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-web/) |
 | **Azure for Researchers part 2: Cloud Security and Cost Management** | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/researcher-cloud-security-cost-management/) |
 | **Introduction to analyzing costs and creating budgets with Microsoft Cost Management** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-costs-create-budgets-azure-cost-management/) |
@@ -47,8 +49,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Introduction to Azure Functions** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-functions/) |
 | **Start your free Dynamics 365 Business Central trial** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/trial-dynamics-365-business-central/) |
 | **Use Microsoft Word and Excel templates with Dataverse** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-word-excel-dataverse/) |
-| **Describe reporting and integration capabilities in finance and operations apps** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-report-integration-use-finance-operations-apps/) |
 | **Introduction to the core capabilities of Microsoft Dynamics 365 finance and operations apps** | Learningpaths | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-dynamics-365-finance-operations-apps/) |
+| **Describe reporting and integration capabilities in finance and operations apps** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-report-integration-use-finance-operations-apps/) |
 | **Describe Dynamics 365 Finance core capabilities** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-dynamics-365-finance-core-capabilities/) |
 | **Discover and use Web APIs with Power Apps** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-web-apis-power-apps/) |
 | **Introduction to Azure Kubernetes Service** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-kubernetes-service/) |
@@ -66,8 +68,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Integrate Azure Cloud Services to your Unity project on HoloLens 2** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-cloud-services-tutorials/) |
 | **Proforma invoicing and corrections in Dynamics 365 Project Operations** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/proforma-invoicing-corrections/) |
 | **Link your Dataverse environment to Microsoft Fabric** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/link-dataverse-fabric/) |
-| **Create a multimodal analysis solution with Azure Content Understanding** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/) |
-| **Get tips and tricks for teaching MB-910: Microsoft Dynamics 365 Fundamentals (CRM)** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-910-dynamics-365-fundamentals/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-18.md](./microsoft-learn-2025-12-part-18.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-20.md](./microsoft-learn-2025-12-part-20.md)

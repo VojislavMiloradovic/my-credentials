@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 26 of 35
+chunk_part: 26 of 36
 date_range: 2026-07 to 2026-07
 total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-26.md
@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-07 | **The Creative Spark: Krista Donaldson, Social Innovation Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/61a1dc4a9e7e1c1010f4a463d607cac7677e05aff0b8fcb831b6bd8bad8f1310) |
-| 2026-07 | **How to Land a Job and Grow Your Career with Carla Harris** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b0123ad9e3bd2230c5428d559bcd364ec73be3258601faa87cdf08815ce512a1) |
-| 2026-07 | **Developing Applications with Cloud Run Functions on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25465700?utm_medium=social) |
 | 2026-07 | **Leading the Shift: Innovating with Generative AI in Financial Services \| Moody's** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eb559f63b2161e62a7decfde3cf82e1a87a212935c586552fb5805fc92c1ee2c) |
 | 2026-07 | **Preparing for the EU AI Act: A Conversation with Jon Adams** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/778da9e67d6b79f82002ba0a5f3fc3f4445ccf073d8cac72e3dd9e802d09ae52) |
 | 2026-07 | **How AI in Hiring Can Expand Economic Opportunity with Aneesh Raman and Papia Debroy** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/16427763a6eb4972ac6d77a4f7f1ce2883ad334b62a8276e0fb6a161a5e47238) |
@@ -60,6 +57,9 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-07 | **Principles of AI Transformation** | Intel | [Verify Record](https://www.credly.com/badges/dea04841-c966-4353-9ede-2aa009ec2426/linked_in_profile) |
 | 2026-07 | **Intel® Xeon® 6 Processor Family Essentials** | Intel | [Verify Record](https://www.credly.com/badges/11bd816c-b1e7-4b97-8c4b-ca8c88793e1e/linked_in_profile) |
 | 2026-07 | **Foundations of Purple Teaming** | AttackIQ | [Verify Record](https://www.credly.com/badges/1ae8e7ed-2bc5-48c6-87e3-c8a427c96c86/linked_in_profile) |
+| 2026-07 | **Well-Architected Proficient** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/5956f2ee-34a1-400c-8d10-a6a9d75a08a8/linked_in_profile) |
+| 2026-07 | **Cloud Tech Associate Advanced Data Loss Prevention** | Acronis | [Verify Record](https://www.credly.com/badges/1e7b88fd-f5b2-4563-9cb8-6815ee1dfedc/linked_in_profile) |
+| 2026-07 | **Nano Tips for Tactical Marketing with ChatGPT with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eabbd5263f954752afa2f2ed018c9b1773e426cc20619e7a05a56a3d607d06ce) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-25.md](./linkedin-certifications-2026-07-part-25.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-27.md](./linkedin-certifications-2026-07-part-27.md)
