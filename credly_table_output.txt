@@ -1,0 +1,50 @@
+721:                 all_skills.add(skill.strip())
+722: 
+723:         title_clean = (
+724:             title.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
+725:         )
+726:         issuer_clean = (
+727:             issuer.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
+728:         )
+729:         v_type_clean = (
+730:             v_type.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
+731:         )
+732: 
+733:         name_cell = f"[{title_clean}]({verify_url})" if verify_url else title_clean
+734:         if retired:
+735:             name_cell += " ⚠️ *Content retired*"
+736:         row_text = f"| {date_str} | {name_cell} | {issuer_clean} | {v_type_clean} |"
+737:         formatted_rows.append((row_text, date_str))
+738: 
+739:     total_count = len(sorted_badges)
+740:     total_skills = len(all_skills)
+741: 
+742:     index_raw = f"{RAW_BASE_DEFAULT}/credly-index.md"
+743:     LATEST_SLICE_NORMAL = ""
+744:     LATEST_SLICE_RAW = ""
+745: 
+746:     marker_start = "<!-- CREDLY_BADGES_START -->"
+747:     marker_end = "<!-- CREDLY_BADGES_END -->"
+748: 
+749:     profile_url = f"https://www.credly.com/users/{CREDLY_USER}"
+750: 
+751:     readme_lines = [
+752:         "### Credly Verified Credentials",
+753:         "",
+754:         f"**Public Profile:** [Verify Credly Profile]({profile_url})",
+755:         "",
+756:         f"**Total Portfolio Credentials:** {total_count}",
+757:         f"**Total Verified Skills Mapped:** {total_skills}",
+758:         "",
+759:         "#### Latest Earned Credentials",
+760:         "",
+761:         f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic File](./archives/credly-complete.md).",
+762:         "",
+763:         "| Date Earned | Credential Name | Issuer | Verification Type |",
+764:         "| :---: | :--- | :--- | :---: |",
+765:     ]
+766: 
+767:     for row_text, _ in formatted_rows[:10]:
+768:         readme_lines.append(row_text)
+769: 
+770:     # Capture retrieval timestamp at fetch time

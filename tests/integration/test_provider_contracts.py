@@ -807,9 +807,11 @@ class TestCredlyContracts:
         cred = credly_creds[0]
         assert cred["sourcePlatform"] == "credly"
         assert cred["retrievalMethod"] == "api"
-        # Credly uses "Credly" as recognizedBy name, issuer in description
+        # Credly uses "Credly" as recognizedBy name, issuer as structured field
         assert cred["recognizedBy"]["name"] == "Credly"
-        assert "Issuer: Python Institute" in cred.get("description", "")
+        assert cred["issuer"] == "Python Institute"
+        # Issuer is now structured, not embedded in description
+        assert "Issuer: Python Institute" not in cred.get("description", "")
 
 
 # ==============================================================================

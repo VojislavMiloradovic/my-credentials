@@ -51,6 +51,7 @@ JSONLD_SCHEMA = {
                                 },
                                 "required": ["@type", "name"],
                             },
+                            "issuer": {"type": "string"},
                         },
                         "required": ["@type", "name", "recognizedBy"],
                     },
@@ -285,16 +286,16 @@ def parse_archive_monoliths():
                         break
 
             if title:
-                # For Credly, use "Credly" as the recognizedBy name and include actual issuer in description
+                # For Credly, use "Credly" as the recognizedBy name and include actual issuer as structured field
                 recognized_by_name = (
                     "Credly" if platform_key == "credly" else clean_str(issuer)
                 )
-                if platform_key == "credly" and actual_issuer:
-                    description = (
-                        f"{description} | Issuer: {actual_issuer}"
-                        if description
-                        else f"Issuer: {actual_issuer}"
-                    )
+                # Store actual issuer for Credly as structured field
+                issuer_field = (
+                    actual_issuer
+                    if platform_key == "credly" and actual_issuer
+                    else None
+                )
 
                 c_obj = {
                     "@type": "EducationalOccupationalCredential",
@@ -306,7 +307,16 @@ def parse_archive_monoliths():
                     },
                     "platform": platform_key,  # Add platform identifier for cross-artifact validation
                 }
-                if description:
+                # Add issuer as structured field for Credly (or any platform with actual_issuer)
+                if issuer_field:
+                    c_obj["issuer"] = issuer_field
+                # For Credly, we no longer embed issuer in description (it's now structured)
+                # But keep description if it has other content
+                if description and not (
+                    platform_key == "credly"
+                    and actual_issuer
+                    and description == f"Issuer: {actual_issuer}"
+                ):
                     c_obj["description"] = description
                 if image_url:
                     c_obj["image"] = image_url
