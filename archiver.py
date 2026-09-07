@@ -172,6 +172,7 @@ def generate_platform_archive(
     readme_path: str = "README.md",
     raw_base_url: str = RAW_BASE_DEFAULT,
     extra_monolith_header_md: str = "",
+    retrieved_at: str | None = None,
 ) -> str | None:
     """Generates monolithic archive, ~10KB slice archives, platform index,
     and updates README markers cleanly with tail-anchored stable chunking.
@@ -208,6 +209,8 @@ def generate_platform_archive(
         "<!-- layer: L2_published -->\n",
         f"<!-- transform: {layer_transform.get('type', 'unknown') if isinstance(layer_transform, dict) else layer_transform} -->\n",
         f"<!-- artifacts: {', '.join(layer_artifacts)} -->\n\n",
+        (f"<!-- retrieved_at: {retrieved_at} -->\n" if retrieved_at else ""),
+        "\n",
     ]
 
     if extra_monolith_header_md:
@@ -359,6 +362,8 @@ def generate_platform_archive(
         "<!-- layer: L2_published -->\n",
         f"<!-- transform: {layer_transform.get('type', 'unknown') if isinstance(layer_transform, dict) else layer_transform} -->\n",
         f"<!-- artifacts: {', '.join(layer_artifacts)} -->\n\n",
+        (f"<!-- retrieved_at: {retrieved_at} -->\n" if retrieved_at else ""),
+        "\n",
         f"This directory provides chunked, AI-readable historical records for {platform_name}.\n",
         "## Archive Overview\n",
         f"- **Total Records Archived:** {total_entries}",

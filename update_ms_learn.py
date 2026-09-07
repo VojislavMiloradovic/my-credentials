@@ -549,6 +549,9 @@ def main():
         logger.error(f"❌ Error: Export file '{JSON_PATH}' not found!")
         sys.exit(1)
 
+    # Capture retrieval timestamp at fetch time
+    retrieved_at = datetime.now(UTC)
+
     with open(JSON_PATH, "r", encoding="utf-8") as f:
         try:
             data = json.load(f)
@@ -569,7 +572,8 @@ def main():
     validated_achievements = []
     for ach in raw_achievements:
         try:
-            model = MSAchievementModel(**ach)
+            ach_with_provenance = {**ach, "retrieved_at": retrieved_at}
+            model = MSAchievementModel(**ach_with_provenance)
             validated_achievements.append(model.model_dump(mode="json"))
         except ValidationError as ve:
             logger.warning(f"⚠️ Skipping invalid achievement entry: {ve}")
@@ -631,7 +635,8 @@ def main():
     verifiable_list = []
     for cred in user_creds:
         try:
-            cred_model = MSVerifiableCredentialModel(**cred)
+            cred_with_provenance = {**cred, "retrieved_at": retrieved_at}
+            cred_model = MSVerifiableCredentialModel(**cred_with_provenance)
             name = clean_uid(cred_model.sourceUid)
             status = cred_model.credentialStatus
             if cred_model.retired:
@@ -719,6 +724,7 @@ def main():
         "completed_units": completed_units,
         "verifiable_credentials": user_creds,
         "_layer_metadata": layer_metadata,
+        "_retrieved_at": retrieved_at.isoformat(),
     }
     try:
         with open(validation_file, "w", encoding="utf-8") as f:
@@ -820,6 +826,7 @@ def main():
             marker_end=MARKER_END,
             archive_dir=ARCHIVE_DIR,
             readme_path=README_PATH,
+            retrieved_at=retrieved_at.isoformat(),
         )
 
         if latest_slice:

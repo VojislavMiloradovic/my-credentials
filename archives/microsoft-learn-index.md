@@ -7,19 +7,23 @@
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
 
+<!-- retrieved_at: 2026-09-07T15:27:58.421566+00:00 -->
+
+
+
 This directory provides chunked, AI-readable historical records for Microsoft Learn.
 
 ## Archive Overview
 
 - **Total Records Archived:** 4828
-- **Monolithic File Size:** ~876.2 KB (224,423 tokens)
+- **Monolithic File Size:** ~876.26 KB (224,448 tokens)
 - **Total Chunk Parts:** 95 chunk(s)
 
 ### Monolithic Archive (Complete)
 
 | File Name | Size (KB) | Tokens | Recommended For | Direct Raw URL |
 | :--- | :---: | :---: | :--- | :--- |
-| [`microsoft-learn-complete.md`](./microsoft-learn-complete.md) | 876.2 KB | 224,423 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md) |
+| [`microsoft-learn-complete.md`](./microsoft-learn-complete.md) | 876.26 KB | 224,448 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md) |
 
 ### Chunked Archive Parts (~10 KB Slices)
 

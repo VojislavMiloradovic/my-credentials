@@ -82,6 +82,18 @@ def validate_jsonld(payload):
         sys.exit(1)
 
 
+def extract_retrieved_at(lines: list[str]) -> str | None:
+    """Extracts retrieved_at timestamp from front-matter comments."""
+    for line in lines:
+        line = line.strip()
+        if line.startswith("<!-- retrieved_at:") and line.endswith("-->"):
+            # Extract timestamp: <!-- retrieved_at: 2024-01-15T10:30:00+00:00 -->
+            match = re.search(r"<!--\s*retrieved_at:\s*([^>]+)\s*-->", line)
+            if match:
+                return match.group(1).strip()
+    return None
+
+
 def extract_table_data_rows(lines: list[str]) -> list[tuple[list[str], list[str]]]:
     """Extracts header columns and cell contents from Markdown tables using separator-anchored parsing."""
     data_rows = []
@@ -184,6 +196,15 @@ def parse_archive_monoliths():
 
         with open(filepath, "r", encoding="utf-8") as f:
             lines = f.readlines()
+
+        # Extract retrieved_at from front-matter
+        platform_retrieved_at = extract_retrieved_at(lines)
+        if platform_retrieved_at:
+            print(
+                f"  {filename}: Using retrieved_at from archive: {platform_retrieved_at}"
+            )
+        else:
+            print(f"  {filename}: No retrieved_at in archive, using current time")
 
         table_rows = extract_table_data_rows(lines)
 
@@ -336,7 +357,11 @@ def parse_archive_monoliths():
 
                 c_obj["sourcePlatform"] = defaults["sourcePlatform"]
                 c_obj["retrievalMethod"] = defaults["retrievalMethod"]
-                c_obj["retrievedAt"] = datetime.now(UTC).isoformat()
+                # Use retrieved_at from archive front-matter if available
+                if platform_retrieved_at:
+                    c_obj["retrievedAt"] = platform_retrieved_at
+                else:
+                    c_obj["retrievedAt"] = datetime.now(UTC).isoformat()
                 c_obj["verificationStatus"] = (
                     "verified"
                     if (url or verify_url)

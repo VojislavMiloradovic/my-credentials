@@ -50,8 +50,8 @@ class ProvenanceBase(BaseModel):
     source_url: str | None = Field(None, description="Canonical URL on source platform")
     verify_url: str | None = Field(None, description="Independent verification URL")
     retrieved_at: datetime = Field(
-        default_factory=lambda: datetime.now(UTC),
-        description="When this record was retrieved from the source platform",
+        ...,
+        description="When this record was retrieved from the source platform (no default - must be set by pipeline at fetch time)",
     )
     last_verified_at: datetime | None = Field(
         None, description="When this record was last independently verified"

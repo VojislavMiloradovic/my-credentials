@@ -1017,6 +1017,9 @@ def main():
 
     # 7. Trigger Archiver
     if generate_platform_archive:
+        # Capture retrieval timestamp at fetch time
+        retrieved_at = datetime.now(UTC)
+
         latest_slice = generate_platform_archive(
             platform_prefix=PLATFORM_PREFIX,
             platform_name=PLATFORM_NAME,
@@ -1028,6 +1031,7 @@ def main():
             marker_end=MARKER_END,
             archive_dir=ARCHIVE_DIR,
             readme_path=README_PATH,
+            retrieved_at=retrieved_at.isoformat(),
         )
 
         if latest_slice:

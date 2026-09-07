@@ -6,6 +6,7 @@ This document represents a unified, verifiable list of all 798 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
+
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |

@@ -767,6 +767,9 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     for row_text, _ in formatted_rows[:10]:
         readme_lines.append(row_text)
 
+    # Capture retrieval timestamp at fetch time
+    retrieved_at = datetime.now(UTC)
+
     latest_slice = generate_platform_archive(
         platform_prefix="credly",
         platform_name="Credly Verified Credentials",
@@ -776,6 +779,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
         readme_lines=readme_lines,
         marker_start=marker_start,
         marker_end=marker_end,
+        retrieved_at=retrieved_at.isoformat(),
     )
 
     if latest_slice:
@@ -822,6 +826,7 @@ def main():
     local_badges = load_existing_local_badges()
 
     # 2. Fetch both live Credly datasets
+
     native_badges = fetch_credly_badges(CREDLY_USER)
     external_badges = fetch_credly_external_badges(CREDLY_USER_ID)
 

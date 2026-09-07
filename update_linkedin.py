@@ -525,6 +525,9 @@ def main():
         )
         sys.exit(1)
 
+    # Capture retrieval timestamp at fetch time
+    retrieved_at = datetime.now(UTC)
+
     certs = parse_certifications_csv(csv_path)
     if not certs:
         logger.error("❌ No certification records extracted. Aborting.")
@@ -680,6 +683,7 @@ def main():
             marker_end=MARKER_END,
             archive_dir=ARCHIVE_DIR,
             readme_path=README_PATH,
+            retrieved_at=retrieved_at.isoformat(),
         )
 
         if latest_slice:
