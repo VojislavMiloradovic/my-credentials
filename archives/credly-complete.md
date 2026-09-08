@@ -1,17 +1,19 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 609 records.
+This document represents a unified, verifiable list of all 611 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-08T02:32:56.801850+00:00 -->
+<!-- retrieved_at: 2026-09-08T20:24:46.809446+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-08 | [Create a Secure Data Lake on Cloud Storage Skill Badge](https://www.credly.com/badges/4ada156c-46b0-4169-98dc-dc5d4d8909f8/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-09-08 | [Create a Streaming Data Lake on Cloud Storage Skill Badge](https://www.credly.com/badges/29565065-0d38-4296-99fc-3ad644b89fc6/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-07 | [Certified Calico Operator - Level 1](https://www.credly.com/badges/eda6d74d-ee37-4a6b-ae13-4f7182457edd/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-07 | [Customer Engagement Fundamentals](https://www.credly.com/badges/e87068f9-d137-4458-b709-5a851c02003f/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-06 | [Fundamentals of Sustainability and Technology](https://www.credly.com/badges/a63511de-b258-41ad-8857-cf4d37931964/public_url) | IBM SkillsBuild | Credly Verified Badge |
