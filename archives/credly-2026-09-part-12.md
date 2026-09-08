@@ -2,7 +2,7 @@
 archive_platform: Credly Verified Credentials
 chunk_part: 12 of 12
 date_range: 2026-08-28 to 2026-09-07
-total_entries: 26
+total_entries: 27
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-07 | [Certified Calico Operator - Level 1](https://www.credly.com/badges/eda6d74d-ee37-4a6b-ae13-4f7182457edd/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-07 | [Customer Engagement Fundamentals](https://www.credly.com/badges/e87068f9-d137-4458-b709-5a851c02003f/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-06 | [Fundamentals of Sustainability and Technology](https://www.credly.com/badges/a63511de-b258-41ad-8857-cf4d37931964/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-04 | [Career Management Essentials](https://www.credly.com/badges/2a1cf5d5-5ba0-4d9a-86ad-a1c1b920f2e8/public_url) | IBM SkillsBuild | Credly Verified Badge |

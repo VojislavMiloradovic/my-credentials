@@ -135,15 +135,16 @@ Showing latest 10 of 798 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 608
-**Total Verified Skills Mapped:** 2109
+**Total Portfolio Credentials:** 609
+**Total Verified Skills Mapped:** 2114
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 608 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 609 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-07 | [Certified Calico Operator - Level 1](https://www.credly.com/badges/eda6d74d-ee37-4a6b-ae13-4f7182457edd/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-07 | [Customer Engagement Fundamentals](https://www.credly.com/badges/e87068f9-d137-4458-b709-5a851c02003f/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-06 | [Fundamentals of Sustainability and Technology](https://www.credly.com/badges/a63511de-b258-41ad-8857-cf4d37931964/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-04 | [Career Management Essentials](https://www.credly.com/badges/2a1cf5d5-5ba0-4d9a-86ad-a1c1b920f2e8/public_url) | IBM SkillsBuild | Credly Verified Badge |
@@ -153,7 +154,6 @@ Showing latest 10 of 608 credentials. View full dataset via [Platform Archive In
 | 2026-09-02 | [Derive Insights from BigQuery Data Skill Badge](https://www.credly.com/badges/01067a7c-6951-46f0-bac8-40238c8d8fd2/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-01 | [AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-09-01 | [Certified Calico Operator - eBPF](https://www.credly.com/badges/ca8ed339-7ffe-46d4-a810-153f3f41f76a/public_url) | Tigera | Credly Verified Badge |
-| 2026-08-31 | [Retrieval-Augmented Generation for Enhanced AI Outputs](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/public_url) | IBM SkillsBuild | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
