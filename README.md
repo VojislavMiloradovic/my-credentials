@@ -55,8 +55,8 @@ Showing latest 10 of 4,828 achievements. View full dataset via [Platform Archive
 
 **Public Profile:** [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Total Portfolio Credentials:** 387
-**Total Verified Skills Mapped:** 386
+**Total Portfolio Credentials:** 388
+**Total Verified Skills Mapped:** 387
 
 #### Google Skills Learning Statistics
 
@@ -72,10 +72,11 @@ Showing latest 10 of 4,828 achievements. View full dataset via [Platform Archive
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 387 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-09-part-08.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-09-part-08.md)), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 388 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-09-part-08.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-09-part-08.md)), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-08 | [Create a Streaming Data Lake on Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27731119) | Google Cloud | Google Skill Badge |
 | 2026-09-02 | [Derive Insights from BigQuery Data](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27548513) | Google Cloud | Google Skill Badge |
 | 2026-08-31 | [Share Data Using Google Data Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27462274) | Google Cloud | Google Skill Badge |
 | 2026-08-30 | [Manage Kubernetes in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27422046) | Google Cloud | Google Skill Badge |
@@ -85,7 +86,6 @@ Showing latest 10 of 387 credentials. View full dataset via [Platform Archive In
 | 2026-08-27 | [Analyze Sentiment with Natural Language API](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27328238) | Google Cloud | Google Skill Badge |
 | 2026-08-27 | [Arcade Re-Trail: Vaults & Vectors](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27327295) | Google Cloud | Google Skill Badge |
 | 2026-08-27 | [Implement Cloud Storage and Data Protection Solutions](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27325786) | Google Cloud | Google Skill Badge |
-| 2026-08-27 | [Build LookML Objects in Looker](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27324095) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials
