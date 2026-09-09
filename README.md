@@ -43,8 +43,8 @@ Showing latest 10 of 3 achievements. View full dataset via [Platform Archive Ind
 
 **Public Profile:** [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Total Portfolio Credentials:** 387
-**Total Verified Skills Mapped:** 386
+**Total Portfolio Credentials:** 390
+**Total Verified Skills Mapped:** 389
 
 #### Google Skills Learning Statistics
 
@@ -60,10 +60,13 @@ Showing latest 10 of 3 achievements. View full dataset via [Platform Archive Ind
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 387 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-09-part-08.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-09-part-08.md)), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 390 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-09-part-09.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-09-part-09.md)), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-08 | [Arcade Trail: Data Engineering and Security](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27755292) | Google Cloud | Google Skill Badge |
+| 2026-09-08 | [Create a Secure Data Lake on Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27753711) | Google Cloud | Google Skill Badge |
+| 2026-09-08 | [Create a Streaming Data Lake on Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27731119) | Google Cloud | Google Skill Badge |
 | 2026-09-02 | [Derive Insights from BigQuery Data](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27548513) | Google Cloud | Google Skill Badge |
 | 2026-08-31 | [Share Data Using Google Data Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27462274) | Google Cloud | Google Skill Badge |
 | 2026-08-30 | [Manage Kubernetes in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27422046) | Google Cloud | Google Skill Badge |
@@ -71,9 +74,6 @@ Showing latest 10 of 387 credentials. View full dataset via [Platform Archive In
 | 2026-08-27 | [Monitoring in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329132) | Google Cloud | Google Skill Badge |
 | 2026-08-27 | [Arcade Base Camp August 2026](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329116) | Google Cloud | Google Skill Badge |
 | 2026-08-27 | [Analyze Sentiment with Natural Language API](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27328238) | Google Cloud | Google Skill Badge |
-| 2026-08-27 | [Arcade Re-Trail: Vaults & Vectors](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27327295) | Google Cloud | Google Skill Badge |
-| 2026-08-27 | [Implement Cloud Storage and Data Protection Solutions](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27325786) | Google Cloud | Google Skill Badge |
-| 2026-08-27 | [Build LookML Objects in Looker](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27324095) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials
@@ -123,25 +123,25 @@ Showing latest 10 of 798 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 608
-**Total Verified Skills Mapped:** 2109
+**Total Portfolio Credentials:** 613
+**Total Verified Skills Mapped:** 2119
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 608 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 613 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-08 | [Essentials - Acronis Cyber Platform: Protect](https://www.credly.com/badges/ebf6e15e-64fa-4202-ab26-fd7cbea90484/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-08 | [Essentials - GenAI Protection](https://www.credly.com/badges/34cf63a3-9c10-4ce1-8855-67ec2b1eb97d/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-08 | [Create a Secure Data Lake on Cloud Storage Skill Badge](https://www.credly.com/badges/4ada156c-46b0-4169-98dc-dc5d4d8909f8/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-09-08 | [Create a Streaming Data Lake on Cloud Storage Skill Badge](https://www.credly.com/badges/29565065-0d38-4296-99fc-3ad644b89fc6/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-09-07 | [Certified Calico Operator - Level 1](https://www.credly.com/badges/eda6d74d-ee37-4a6b-ae13-4f7182457edd/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-07 | [Customer Engagement Fundamentals](https://www.credly.com/badges/e87068f9-d137-4458-b709-5a851c02003f/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-06 | [Fundamentals of Sustainability and Technology](https://www.credly.com/badges/a63511de-b258-41ad-8857-cf4d37931964/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-04 | [Career Management Essentials](https://www.credly.com/badges/2a1cf5d5-5ba0-4d9a-86ad-a1c1b920f2e8/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-04 | [Essentials - Acronis Cyber Platform: Automate](https://www.credly.com/badges/47021d40-dba0-4fa9-8853-e28fe207dea1/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-04 | [Essentials - Acronis Cyber Platform: Manage](https://www.credly.com/badges/dc4210de-cbe7-47f4-97b8-ecbb7df7becd/public_url) | Acronis | Credly Verified Badge |
-| 2026-09-04 | [Lifelong Professional Skills](https://www.credly.com/badges/e981ea1d-c27f-4baf-9811-f8eb8a44c7cd/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-09-02 | [Derive Insights from BigQuery Data Skill Badge](https://www.credly.com/badges/01067a7c-6951-46f0-bac8-40238c8d8fd2/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-09-01 | [AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-09-01 | [Certified Calico Operator - eBPF](https://www.credly.com/badges/ca8ed339-7ffe-46d4-a810-153f3f41f76a/public_url) | Tigera | Credly Verified Badge |
-| 2026-08-31 | [Retrieval-Augmented Generation for Enhanced AI Outputs](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/public_url) | IBM SkillsBuild | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
@@ -156,7 +156,7 @@ Showing latest 10 of 608 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,611 |
+| **Total External Certifications Verified** | 1,624 |
 
 #### Recent Certifications
 
@@ -164,16 +164,16 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-09* | **SEO Copywriting: Crafting Content for Both Humans and Search Engines** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5a233ef9dda2bcf56f6ed7ac32c4f087cd6f5b74421681abf44bfd98a7314ba6) |
-| *2026-09* | **Nano Tips to Build Authority on LinkedIn with Shadé Zahrai & Jasmin Alić** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b36e8947f730009d5fc4fb6daa85358c35953451a997ccf08240970b86caeca1) |
-| *2026-09* | **Career Management Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2a1cf5d5-5ba0-4d9a-86ad-a1c1b920f2e8/linked_in_profile) |
-| *2026-09* | **Lifelong Professional Skills** | IBM | [Verify Record](https://www.credly.com/badges/e981ea1d-c27f-4baf-9811-f8eb8a44c7cd/linked_in_profile) |
-| *2026-09* | **Essentials - Acronis Cyber Platform: Manage** | Acronis | [Verify Record](https://www.credly.com/badges/dc4210de-cbe7-47f4-97b8-ecbb7df7becd/linked_in_profile) |
-| *2026-09* | **Essentials - Acronis Cyber Platform: Automate** | Acronis | [Verify Record](https://www.credly.com/badges/47021d40-dba0-4fa9-8853-e28fe207dea1/linked_in_profile) |
-| *2026-09* | **Derive Insights from BigQuery Data Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/01067a7c-6951-46f0-bac8-40238c8d8fd2/linked_in_profile) |
-| *2026-09* | **Getting Started as a LinkedIn Learning Admin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fe023a5e666217da82c02a4d2515e674acba39f2c4330cdd0281dc67328aebc8) |
-| *2026-09* | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
-| *2026-09* | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
+| *2026-09* | **Customer Engagement Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/e87068f9-d137-4458-b709-5a851c02003f/linked_in_profile) |
+| *2026-09* | **Nano Tips to Future-Proof Your Organization and Stay Ahead of Disruption with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/59a7526686e2b88580f0a0da9efde591f6db920bdbb0cd4eb4c6980208b1d457) |
+| *2026-09* | **Nano Tips for Delegating to Peers with Melody Wilding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/29625279335d7fb8dd34e53051f9ef8047e60a433d0e690d788dcf5cce4e2498) |
+| *2026-09* | **Nano Tips for Setting Career Goals and Mastering Career Conversations with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/617c8d3cbb802b22e521a77325a65278f6018a22a3eaf289e5f55cbb3d05009b) |
+| *2026-09* | **Nano Tips to Ditch Self-Doubt with Shade Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ec216ee4208c75100496cd15e45ebcbbb8d98137e911344c32bafba932b02ee8) |
+| *2026-09* | **Learning to Be Promotable** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5bbf750a9c9f863910a73f06a2dea78ba1f74da8dd8a329bf655a698ef639cbc) |
+| *2026-09* | **Nano Tips for Unlocking Micro Moments with Gemma Leigh Roberts** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/902d435bce4862cd3f42c5013159fa34302aab0106a0ea793171446adc370bfc) |
+| *2026-09* | **Nano Tips for Pitching with a Former Dragons' Den Investor Piers Linney** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a65095e27cce15d3b30610e4fe5e2939d8c2554d8d88bd4cfd412871ac9a490b) |
+| *2026-09* | **Building a Portfolio Career: Diversify Your Income and Do More of What You Love** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1dbcfb45be8f92bdf2886a3346ff10e57d17b33cfe00136af52e89ec9673966e) |
+| *2026-09* | **Quick Marketing Wins for Entrepreneurs** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e6ce1f2713a6742a59ab47060b00a01d731613f4975abc64954502785b40fcfb) |
 <!-- LINKEDIN_END -->
 
 

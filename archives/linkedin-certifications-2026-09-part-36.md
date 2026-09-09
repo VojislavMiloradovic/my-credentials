@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 36 of 36
 date_range: 2026-08 to 2026-09
-total_entries: 24
+total_entries: 37
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-36.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,19 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-09 | **Customer Engagement Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/e87068f9-d137-4458-b709-5a851c02003f/linked_in_profile) |
+| 2026-09 | **Nano Tips to Future-Proof Your Organization and Stay Ahead of Disruption with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/59a7526686e2b88580f0a0da9efde591f6db920bdbb0cd4eb4c6980208b1d457) |
+| 2026-09 | **Nano Tips for Delegating to Peers with Melody Wilding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/29625279335d7fb8dd34e53051f9ef8047e60a433d0e690d788dcf5cce4e2498) |
+| 2026-09 | **Nano Tips for Setting Career Goals and Mastering Career Conversations with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/617c8d3cbb802b22e521a77325a65278f6018a22a3eaf289e5f55cbb3d05009b) |
+| 2026-09 | **Nano Tips to Ditch Self-Doubt with Shade Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ec216ee4208c75100496cd15e45ebcbbb8d98137e911344c32bafba932b02ee8) |
+| 2026-09 | **Learning to Be Promotable** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5bbf750a9c9f863910a73f06a2dea78ba1f74da8dd8a329bf655a698ef639cbc) |
+| 2026-09 | **Nano Tips for Unlocking Micro Moments with Gemma Leigh Roberts** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/902d435bce4862cd3f42c5013159fa34302aab0106a0ea793171446adc370bfc) |
+| 2026-09 | **Nano Tips for Pitching with a Former Dragons' Den Investor Piers Linney** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a65095e27cce15d3b30610e4fe5e2939d8c2554d8d88bd4cfd412871ac9a490b) |
+| 2026-09 | **Building a Portfolio Career: Diversify Your Income and Do More of What You Love** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1dbcfb45be8f92bdf2886a3346ff10e57d17b33cfe00136af52e89ec9673966e) |
+| 2026-09 | **Quick Marketing Wins for Entrepreneurs** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e6ce1f2713a6742a59ab47060b00a01d731613f4975abc64954502785b40fcfb) |
+| 2026-09 | **Sales Fundamentals for Entrepreneurs** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c76823d53a302ac4d2ea6bed771d035f5ec3a9ea51a200575b8739260591dcf3) |
+| 2026-09 | **Stress-Free Productivity for Entrepreneurs** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2c54a145e545ae53067798dda1e68aa4faa8d83bcfb9e748f430f7bd99b8cf8b) |
+| 2026-09 | **Fundamentals of Sustainability and Technology** | IBM | [Verify Record](https://www.credly.com/badges/a63511de-b258-41ad-8857-cf4d37931964/linked_in_profile) |
 | 2026-09 | **SEO Copywriting: Crafting Content for Both Humans and Search Engines** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5a233ef9dda2bcf56f6ed7ac32c4f087cd6f5b74421681abf44bfd98a7314ba6) |
 | 2026-09 | **Nano Tips to Build Authority on LinkedIn with Shadé Zahrai & Jasmin Alić** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b36e8947f730009d5fc4fb6daa85358c35953451a997ccf08240970b86caeca1) |
 | 2026-09 | **Career Management Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2a1cf5d5-5ba0-4d9a-86ad-a1c1b920f2e8/linked_in_profile) |
