@@ -11,7 +11,7 @@ import subprocess
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
-from typing import list, tuple
+from typing import List, Tuple
 
 # Platform fixture mapping
 PLATFORM_FIXTURES = {
