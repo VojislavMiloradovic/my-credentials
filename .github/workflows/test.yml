@@ -9,6 +9,12 @@ on:
   schedule:
     - cron: '0 6 1 * *'  # Monthly on the 1st at 06:00 UTC
 
+# Serialize with all write-capable workflows to prevent push/rebase races
+# (Currently read-only, but future-proofing for potential repo writes)
+concurrency:
+  group: git-push-main
+  cancel-in-progress: false
+
 jobs:
   fixture-freshness:
     runs-on: ubuntu-latest

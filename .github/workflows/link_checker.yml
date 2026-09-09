@@ -5,6 +5,11 @@ on:
     - cron: '0 0 * * 0' # Automatically runs every Sunday at 00:00 UTC
   workflow_dispatch: # Enables manual triggers from the Actions tab
 
+# Serialize with all write-capable workflows to prevent push/rebase races
+concurrency:
+  group: git-push-main
+  cancel-in-progress: false
+
 permissions:
   contents: write # Needed to commit JSON results back to repo
   issues: write # Allows lychee to automatically open a GitHub Issue if dead links are found
