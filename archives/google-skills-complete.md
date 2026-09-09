@@ -1,6 +1,6 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 388 records.
+This document represents a unified, verifiable list of all 390 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
@@ -11,6 +11,8 @@ This document represents a unified, verifiable list of all 388 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-08 | [Arcade Trail: Data Engineering and Security](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27755292) | Google Cloud | Google Skill Badge |
+| 2026-09-08 | [Create a Secure Data Lake on Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27753711) | Google Cloud | Google Skill Badge |
 | 2026-09-08 | [Create a Streaming Data Lake on Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27731119) | Google Cloud | Google Skill Badge |
 | 2026-09-02 | [Derive Insights from BigQuery Data](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27548513) | Google Cloud | Google Skill Badge |
 | 2026-08-31 | [Share Data Using Google Data Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27462274) | Google Cloud | Google Skill Badge |

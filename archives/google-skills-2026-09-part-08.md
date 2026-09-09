@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Skills Credentials
-chunk_part: 8 of 8
+chunk_part: 8 of 9
 date_range: 2026-08-07 to 2026-09-08
-total_entries: 48
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-09-part-08.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,11 @@ artifacts: archive_complete, archive_index, jsonld
 
 # Google Skills Credentials — Part 08
 
-> **Navigation:** Prev: [google-skills-2026-08-part-07.md](./google-skills-2026-08-part-07.md) | [Index](./google-skills-index.md) | Next: None | [Complete Archive](./google-skills-complete.md)
+> **Navigation:** Prev: [google-skills-2026-08-part-07.md](./google-skills-2026-08-part-07.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-09-part-09.md](./google-skills-2026-09-part-09.md) | [Complete Archive](./google-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-08 | [Create a Secure Data Lake on Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27753711) | Google Cloud | Google Skill Badge |
 | 2026-09-08 | [Create a Streaming Data Lake on Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27731119) | Google Cloud | Google Skill Badge |
 | 2026-09-02 | [Derive Insights from BigQuery Data](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27548513) | Google Cloud | Google Skill Badge |
 | 2026-08-31 | [Share Data Using Google Data Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27462274) | Google Cloud | Google Skill Badge |
@@ -65,5 +66,5 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08-07 | [Connecting Cloud Networks with NCC](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26378483) | Google Cloud | Google Skill Badge |
 
 ---
-> **Navigation:** Prev: [google-skills-2026-08-part-07.md](./google-skills-2026-08-part-07.md) | [Index](./google-skills-index.md) | Next: None
+> **Navigation:** Prev: [google-skills-2026-08-part-07.md](./google-skills-2026-08-part-07.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-09-part-09.md](./google-skills-2026-09-part-09.md)
 
