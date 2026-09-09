@@ -286,16 +286,35 @@ def parse_archive_monoliths():
                         break
 
             if title:
-                # For Credly, use "Credly" as the recognizedBy name and include actual issuer as structured field
-                recognized_by_name = (
-                    "Credly" if platform_key == "credly" else clean_str(issuer)
-                )
-                # Store actual issuer for Credly as structured field
-                issuer_field = (
-                    actual_issuer
-                    if platform_key == "credly" and actual_issuer
-                    else None
-                )
+                # Determine recognizedBy name and structured issuer field based on platform
+                if platform_key == "credly":
+                    recognized_by_name = "Credly"
+                    issuer_field = actual_issuer if actual_issuer else None
+                elif platform_key == "linkedin-certifications":
+                    # LinkedIn has "Issuing Authority" column with actual issuer
+                    recognized_by_name = "LinkedIn"
+                    issuer_field = actual_issuer if actual_issuer else None
+                elif platform_key == "google-skills":
+                    # Google Skills has "Issuer" column (e.g., "Google Cloud")
+                    recognized_by_name = "Google Skills"
+                    issuer_field = actual_issuer if actual_issuer else "Google Cloud"
+                elif platform_key == "aws-skills":
+                    # AWS Skills has "Issuer" column (e.g., "Amazon Web Services")
+                    recognized_by_name = "AWS Skills"
+                    issuer_field = (
+                        actual_issuer if actual_issuer else "Amazon Web Services"
+                    )
+                elif platform_key == "microsoft-learn":
+                    # Microsoft Learn has no explicit issuer column, implied as Microsoft Learn
+                    recognized_by_name = "Microsoft Learn"
+                    issuer_field = "Microsoft Learn"
+                elif platform_key == "google-developer":
+                    # Google Developer has no explicit issuer column, implied as Google Developer
+                    recognized_by_name = "Google Developer"
+                    issuer_field = "Google Developer"
+                else:
+                    recognized_by_name = clean_str(issuer) if issuer else platform_key
+                    issuer_field = actual_issuer if actual_issuer else None
 
                 c_obj = {
                     "@type": "EducationalOccupationalCredential",
@@ -307,15 +326,21 @@ def parse_archive_monoliths():
                     },
                     "platform": platform_key,  # Add platform identifier for cross-artifact validation
                 }
-                # Add issuer as structured field for Credly (or any platform with actual_issuer)
+                # Add issuer as structured field for all platforms that have it
                 if issuer_field:
                     c_obj["issuer"] = issuer_field
-                # For Credly, we no longer embed issuer in description (it's now structured)
-                # But keep description if it has other content
+                # For platforms with structured issuer, don't embed issuer in description
+                # Platforms with structured issuer: credly, linkedin-certifications, google-skills, aws-skills, microsoft-learn, google-developer
+                structured_issuer_platforms = {
+                    "credly",
+                    "linkedin-certifications",
+                    "google-skills",
+                    "aws-skills",
+                    "microsoft-learn",
+                    "google-developer",
+                }
                 if description and not (
-                    platform_key == "credly"
-                    and actual_issuer
-                    and description == f"Issuer: {actual_issuer}"
+                    platform_key in structured_issuer_platforms and actual_issuer
                 ):
                     c_obj["description"] = description
                 if image_url:
