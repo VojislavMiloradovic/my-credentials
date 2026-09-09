@@ -1,17 +1,19 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 611 records.
+This document represents a unified, verifiable list of all 613 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-08T20:24:46.809446+00:00 -->
+<!-- retrieved_at: 2026-09-09T02:34:12.501993+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-08 | [Essentials - Acronis Cyber Platform: Protect](https://www.credly.com/badges/ebf6e15e-64fa-4202-ab26-fd7cbea90484/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-08 | [Essentials - GenAI Protection](https://www.credly.com/badges/34cf63a3-9c10-4ce1-8855-67ec2b1eb97d/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-08 | [Create a Secure Data Lake on Cloud Storage Skill Badge](https://www.credly.com/badges/4ada156c-46b0-4169-98dc-dc5d4d8909f8/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-08 | [Create a Streaming Data Lake on Cloud Storage Skill Badge](https://www.credly.com/badges/29565065-0d38-4296-99fc-3ad644b89fc6/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-07 | [Certified Calico Operator - Level 1](https://www.credly.com/badges/eda6d74d-ee37-4a6b-ae13-4f7182457edd/public_url) | Tigera | Credly Verified Badge |
