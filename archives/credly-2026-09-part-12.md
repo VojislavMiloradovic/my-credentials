@@ -2,7 +2,7 @@
 archive_platform: Credly Verified Credentials
 chunk_part: 12 of 12
 date_range: 2026-08-28 to 2026-09-08
-total_entries: 31
+total_entries: 33
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,8 +15,10 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-08 | [AI Skills for Everyday Productivity Certificate](https://www.credly.com/badges/25478651-081d-4ce1-9ec8-9a16f4888064/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-08 | [Essentials - Acronis Cyber Platform: Protect](https://www.credly.com/badges/ebf6e15e-64fa-4202-ab26-fd7cbea90484/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-08 | [Essentials - GenAI Protection](https://www.credly.com/badges/34cf63a3-9c10-4ce1-8855-67ec2b1eb97d/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-08 | [Professional Growth and Future Readiness with AI](https://www.credly.com/badges/93d024cb-0d8e-40b6-b352-8071dbf9d6f1/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-08 | [Create a Secure Data Lake on Cloud Storage Skill Badge](https://www.credly.com/badges/4ada156c-46b0-4169-98dc-dc5d4d8909f8/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-08 | [Create a Streaming Data Lake on Cloud Storage Skill Badge](https://www.credly.com/badges/29565065-0d38-4296-99fc-3ad644b89fc6/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-07 | [Certified Calico Operator - Level 1](https://www.credly.com/badges/eda6d74d-ee37-4a6b-ae13-4f7182457edd/public_url) | Tigera | Credly Verified Badge |
