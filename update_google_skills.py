@@ -1182,3 +1182,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # Sync fixtures for test consistency
+    try:
+        from scripts.sync_fixtures import sync_fixtures
+
+        sync_fixtures("google-skills")
+    except Exception as e:
+        logger.warning(f"âš ď¸Ź Fixture sync failed (non-fatal): {e}")

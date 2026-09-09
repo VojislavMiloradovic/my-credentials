@@ -80,7 +80,7 @@ def load_retired_rules(platform: str) -> list[dict[str, Any]]:
         logger.info(f"Loaded {len(rules)} retired rule(s) for {platform}")
         return rules
     except Exception as e:
-        logger.warning(f"⚠️ Could not load retired rules for {platform}: {e}")
+        logger.warning(f"âš ď¸Ź Could not load retired rules for {platform}: {e}")
         return []
 
 
@@ -165,7 +165,7 @@ def mark_retired(
                     item["retired_at"] = matched_rule["retired_at"]
             marked += 1
             logger.info(
-                f"🏷️  Marked as retired: {item.get('title') or item.get('name') or item.get('id') or 'unknown'}"
+                f"đźŹ·ď¸Ź  Marked as retired: {item.get('title') or item.get('name') or item.get('id') or 'unknown'}"
             )
 
     logger.info(
@@ -471,7 +471,7 @@ def execute_data_loss_guard(new_achievements: list[dict]) -> None:
     new_count = len(new_achievements)
 
     logger.info(
-        f"���🛡��️ Loss Guard Check: Stored Archive Baseline = {old_count:,} items | Incoming Dataset = {new_count:,} items."
+        f"ďż˝ďż˝ďż˝đź›ˇďż˝ďż˝ď¸Ź Loss Guard Check: Stored Archive Baseline = {old_count:,} items | Incoming Dataset = {new_count:,} items."
     )
 
     if old_count > 0 and new_count == 0:
@@ -487,7 +487,7 @@ def execute_data_loss_guard(new_achievements: list[dict]) -> None:
                 f"from baseline ({old_count}). Threshold: {MAX_ALLOWED_DATA_LOSS_PCT:.0%}. Aborting."
             )
 
-    logger.info("��✅ Loss Guard Assertion Passed: Incoming dataset verified.")
+    logger.info("ďż˝ďż˝âś… Loss Guard Assertion Passed: Incoming dataset verified.")
 
 
 def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
@@ -538,7 +538,7 @@ def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
 
         return layer_metadata
     except Exception as e:
-        logger.warning(f"⚠️ Could not generate layer metadata: {e}")
+        logger.warning(f"âš ď¸Ź Could not generate layer metadata: {e}")
         return {}
 
 
@@ -546,7 +546,7 @@ def main():
     logger.info("Starting Microsoft Learn Profile Pipeline...")
 
     if not os.path.exists(JSON_PATH):
-        logger.error(f"❌ Error: Export file '{JSON_PATH}' not found!")
+        logger.error(f"âťŚ Error: Export file '{JSON_PATH}' not found!")
         sys.exit(1)
 
     # Capture retrieval timestamp at fetch time
@@ -556,7 +556,7 @@ def main():
         try:
             data = json.load(f)
         except json.JSONDecodeError as e:
-            logger.error(f"❌ Error parsing JSON file '{JSON_PATH}': {e}")
+            logger.error(f"âťŚ Error parsing JSON file '{JSON_PATH}': {e}")
             sys.exit(1)
 
     progress = data.get("Progress", {}) or {}
@@ -576,14 +576,14 @@ def main():
             model = MSAchievementModel(**ach_with_provenance)
             validated_achievements.append(model.model_dump(mode="json"))
         except ValidationError as ve:
-            logger.warning(f"⚠️ Skipping invalid achievement entry: {ve}")
+            logger.warning(f"âš ď¸Ź Skipping invalid achievement entry: {ve}")
 
     # 2. Retired URL / Identity detection (Microsoft Learn)
     retired_rules = load_retired_rules("microsoft-learn")
     if retired_rules:
         _, marked = mark_retired(validated_achievements, retired_rules, url_field="url")
         if marked > 0:
-            logger.info(f"📝 Updated {marked} achievement(s) with retired status")
+            logger.info(f"đź“ť Updated {marked} achievement(s) with retired status")
 
     # 3. Execute Content-Aware Loss Guard against stored baseline
     #    Uses stable record IDs (achievement 'id' field) and content hashes
@@ -597,17 +597,17 @@ def main():
                 fail_on_warn=True,  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
             )
         except PipelineDataLossAnomaly as anomaly_err:
-            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            logger.error(f"âťŚ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
             sys.exit(1)
     else:
         logger.warning(
-            "⚠️ Content-aware loss guard unavailable, falling back to count-only check"
+            "âš ď¸Ź Content-aware loss guard unavailable, falling back to count-only check"
         )
         # Fallback to original count-based loss guard
         try:
             execute_data_loss_guard(validated_achievements)
         except PipelineDataLossAnomaly as anomaly_err:
-            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            logger.error(f"âťŚ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
             sys.exit(1)
 
     xp_profile = xp_data.get("xp", {}) or {}
@@ -640,12 +640,12 @@ def main():
             name = clean_uid(cred_model.sourceUid)
             status = cred_model.credentialStatus
             if cred_model.retired:
-                status += " ⚠️ *Content retired*"
+                status += " âš ď¸Ź *Content retired*"
             verifiable_list.append(
                 f"- **{name}** (Credential ID: `{cred_model.credentialId}` | Earned: {cred_model.awardedOn} | Status: {status})"
             )
         except ValidationError as ve:
-            logger.warning(f"⚠️ Skipping invalid verifiable credential: {ve}")
+            logger.warning(f"âš ď¸Ź Skipping invalid verifiable credential: {ve}")
 
     # Also check verifiable credentials against retired rules
     if retired_rules:
@@ -659,7 +659,7 @@ def main():
         # Note: verifiable credentials use sourceUid, not url field
         if marked > 0:
             logger.info(
-                f"📝 Updated {marked} verifiable credential(s) with retired status"
+                f"đź“ť Updated {marked} verifiable credential(s) with retired status"
             )
 
     # Also check learning paths against retired rules
@@ -673,7 +673,7 @@ def main():
             normalize_url=format_verify_url,
         )
         if marked > 0:
-            logger.info(f"📝 Updated {marked} learning path(s) with retired status")
+            logger.info(f"đź“ť Updated {marked} learning path(s) with retired status")
 
     # Propagate retired status from learning paths to matching achievements
     # Build set of retired URLs from learning paths (normalized)
@@ -700,10 +700,12 @@ def main():
                 ach["retired"] = True
                 ach_marked += 1
                 logger.info(
-                    f"🏷️  Propagated retired to achievement: {ach.get('title') or ach.get('id')}"
+                    f"đźŹ·ď¸Ź  Propagated retired to achievement: {ach.get('title') or ach.get('id')}"
                 )
         if ach_marked > 0:
-            logger.info(f"📝 Propagated retired status to {ach_marked} achievement(s)")
+            logger.info(
+                f"đź“ť Propagated retired status to {ach_marked} achievement(s)"
+            )
 
     # Persist full data with retired flags to for_validation for link checker
     os.makedirs(VALIDATION_DIR, exist_ok=True)
@@ -729,9 +731,9 @@ def main():
     try:
         with open(validation_file, "w", encoding="utf-8") as f:
             json.dump(payload, f, indent=2, ensure_ascii=False)
-        logger.info(f"💾 Full data persisted: '{validation_file}'")
+        logger.info(f"đź’ľ Full data persisted: '{validation_file}'")
     except Exception as e:
-        logger.warning(f"⚠️ Could not persist full data: {e}")
+        logger.warning(f"âš ď¸Ź Could not persist full data: {e}")
 
     # Generate and save baseline fingerprints for L1_normalized (achievements)
     if execute_content_loss_guard:
@@ -742,9 +744,9 @@ def main():
                 id_field="id",
                 fail_on_warn=False,  # Don't fail pipeline on baseline updates
             )
-            logger.info("📋 Baseline fingerprints updated for microsoft-learn")
+            logger.info("đź“‹ Baseline fingerprints updated for microsoft-learn")
         except Exception as e:
-            logger.warning(f"⚠️ Could not update baseline: {e}")
+            logger.warning(f"âš ď¸Ź Could not update baseline: {e}")
 
     # Format table rows for archiver
     formatted_rows = []
@@ -756,7 +758,7 @@ def main():
         retired = item.get("retired", False)
         verify_cell = f"[Verify]({verify_url})" if verify_url else "N/A"
         if retired:
-            verify_cell += " ⚠️ *Content retired*"
+            verify_cell += " âš ď¸Ź *Content retired*"
         row_text = f"| **{title}** | {cat} | {date} | {verify_cell} |"
         formatted_rows.append((row_text, date))
 
@@ -802,7 +804,7 @@ def main():
         verify_url = format_verify_url(item.get("url"))
         verify_cell = f"[Verify]({verify_url})" if verify_url else "N/A"
         if item.get("retired", False):
-            verify_cell += " ⚠️ *Content retired*"
+            verify_cell += " âš ď¸Ź *Content retired*"
         md.append(f"| **{title}** | {cat} | {date} | {verify_cell} |")
 
     table_headers = [
@@ -849,13 +851,20 @@ def main():
                     )
                     safe_write_file("README.md", new_content)
         logger.info(
-            f"🎉 Microsoft Learn pipeline complete ({len(sorted_achievements)} items archived)."
+            f"đźŽ‰ Microsoft Learn pipeline complete ({len(sorted_achievements)} items archived)."
         )
     else:
         logger.error(
-            "❌ Archiver module helper not available. Skipping markdown generation."
+            "âťŚ Archiver module helper not available. Skipping markdown generation."
         )
 
 
 if __name__ == "__main__":
     main()
+    # Sync fixtures for test consistency
+    try:
+        from scripts.sync_fixtures import sync_fixtures
+
+        sync_fixtures("microsoft-learn")
+    except Exception as e:
+        logger.warning(f"⚠️ Fixture sync failed (non-fatal): {e}")

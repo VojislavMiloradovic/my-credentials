@@ -978,3 +978,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # Sync fixtures for test consistency
+    try:
+        from scripts.sync_fixtures import sync_fixtures
+
+        sync_fixtures("aws-skills")
+    except Exception as exc:
+        logger.warning(f"⚠️ Fixture sync failed (non-fatal): {exc}")
