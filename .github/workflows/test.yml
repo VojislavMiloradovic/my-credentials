@@ -6,8 +6,31 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '0 6 1 * *'  # Monthly on the 1st at 06:00 UTC
 
 jobs:
+  fixture-freshness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Required for git log age check
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.11"
+          cache-dependency-glob: "uv.lock"
+
+      - name: Install dependencies
+        run: uv sync --extra test
+
+      - name: Check Fixture Freshness
+        run: python scripts/check_fixture_freshness.py --fail-on-stale --threshold 90
+
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 15
