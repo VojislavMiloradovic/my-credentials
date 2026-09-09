@@ -5,6 +5,11 @@ on:
     paths:
       - 'data/microsoft-learn.json'
   workflow_dispatch:
+  schedule:
+    # Every 29 days to keep fixtures fresh (90-day threshold with margin)
+    # Runs even if no new source data - loss_guard updates baseline timestamp
+    # If pipeline is broken, fixtures go stale after 90 days → test suite fails
+    - cron: '0 6 */29 * *'
 
 # Enforce sequential workflow execution to prevent git push collisions
 concurrency:

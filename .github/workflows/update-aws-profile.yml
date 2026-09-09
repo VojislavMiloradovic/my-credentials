@@ -5,6 +5,12 @@ on:
     paths:
       - 'data/aws-training-activity.csv'
   workflow_dispatch:
+  schedule:
+    # Every 29 days to keep fixtures fresh (90-day threshold with margin)
+    # Runs even if no new source data - loss_guard updates baseline timestamp
+    # If pipeline is broken, fixtures go stale after 90 days → test suite fails
+    # Staggered by 5 min from MS Learn to avoid concurrent runs
+    - cron: '5 6 */29 * *'
 
 # Enforce sequential workflow execution to prevent git push collisions
 concurrency:

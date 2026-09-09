@@ -6,7 +6,8 @@ on:
       - 'data/google_learnings.txt'
       - 'data/*.mhtml'
   schedule:
-    # Runs at 00:00 UTC every 2 days (every 48 hours)
+    # Every 2 days (frequent due to codelab changes)
+    # Runs at 00:00 UTC - different time from 29-day jobs (06:00+) to avoid concurrency
     - cron: '0 0 */2 * *'
   workflow_dispatch:
 

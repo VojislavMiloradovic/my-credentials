@@ -5,6 +5,12 @@ on:
     paths:
       - 'data/Certifications.csv'
   workflow_dispatch:
+  schedule:
+    # Every 29 days to keep fixtures fresh (90-day threshold with margin)
+    # Runs even if no new source data - loss_guard updates baseline timestamp
+    # If pipeline is broken, fixtures go stale after 90 days → test suite fails
+    # Staggered by 10 min from MS Learn to avoid concurrent runs
+    - cron: '10 6 */29 * *'
 
 concurrency:
   group: git-push-main
