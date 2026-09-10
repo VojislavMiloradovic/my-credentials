@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-09-09 21:17 UTC
+> **Last Generated:** 2026-09-10 02:35 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -143,15 +143,16 @@ Showing latest 10 of 798 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 616
-**Total Verified Skills Mapped:** 2153
+**Total Portfolio Credentials:** 617
+**Total Verified Skills Mapped:** 2154
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 616 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 617 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-09 | [Certified Calico Operator - AWS Expert](https://www.credly.com/badges/c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-09 | [Python Essentials 1](https://www.credly.com/badges/0ce437b3-fc46-48da-a95a-44061cbfb588/public_url) | Cisco | Credly Verified Badge |
 | 2026-09-08 | [AI Skills for Everyday Productivity Certificate](https://www.credly.com/badges/25478651-081d-4ce1-9ec8-9a16f4888064/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-08 | [Essentials - Acronis Cyber Platform: Protect](https://www.credly.com/badges/ebf6e15e-64fa-4202-ab26-fd7cbea90484/public_url) | Acronis | Credly Verified Badge |
@@ -161,7 +162,6 @@ Showing latest 10 of 616 credentials. View full dataset via [Platform Archive In
 | 2026-09-08 | [Create a Streaming Data Lake on Cloud Storage Skill Badge](https://www.credly.com/badges/29565065-0d38-4296-99fc-3ad644b89fc6/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-07 | [Certified Calico Operator - Level 1](https://www.credly.com/badges/eda6d74d-ee37-4a6b-ae13-4f7182457edd/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-07 | [Customer Engagement Fundamentals](https://www.credly.com/badges/e87068f9-d137-4458-b709-5a851c02003f/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-09-06 | [Fundamentals of Sustainability and Technology](https://www.credly.com/badges/a63511de-b258-41ad-8857-cf4d37931964/public_url) | IBM SkillsBuild | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
@@ -4804,18 +4804,19 @@ This document represents a unified, verifiable list of all 1624 records.
 
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 616 records.
+This document represents a unified, verifiable list of all 617 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-09T21:17:54.046319+00:00 -->
+<!-- retrieved_at: 2026-09-10T02:35:02.192589+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-09 | [Certified Calico Operator - AWS Expert](https://www.credly.com/badges/c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-09 | [Python Essentials 1](https://www.credly.com/badges/0ce437b3-fc46-48da-a95a-44061cbfb588/public_url) | Cisco | Credly Verified Badge |
 | 2026-09-08 | [AI Skills for Everyday Productivity Certificate](https://www.credly.com/badges/25478651-081d-4ce1-9ec8-9a16f4888064/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-08 | [Essentials - Acronis Cyber Platform: Protect](https://www.credly.com/badges/ebf6e15e-64fa-4202-ab26-fd7cbea90484/public_url) | Acronis | Credly Verified Badge |
