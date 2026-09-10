@@ -37,6 +37,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08-12 | [Mastering Model Evaluation in Amazon Bedrock:  From Basics to Best Practices](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Observability for AWS Step Functions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-12 | [Sensitive Data Detection with Amazon Macie](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-11 | [[RETIRING - 2026-10-02] Migrating from Amazon CodeCatalyst](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [Agentic AI Framework Deep Dive - Overview](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [Amazon Braket Quantum Application Development](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [Amazon Connect Communications Specialist Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -62,7 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08-11 | [Kiro for GeoAI - Spec-Driven Geospatial Development](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [Landing Zone Accelerator on AWS (LZA)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [Machine Learning Exam Basics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-11 | [Migrating from Amazon CodeCatalyst](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [Unlocking Telecom Innovation with AWS: NFVI, CNFI, and Generative AI Use Cases](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-09 | [Accelerate foundation model development with one-click observability in Amazon SageMaker HyperPod](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-09 | [Adaptive sampling with AWS X-Ray to capture critical spans](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

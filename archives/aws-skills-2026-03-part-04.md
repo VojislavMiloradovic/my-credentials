@@ -24,11 +24,11 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-03-21 | [Machine Learning Essentials for Business and Technical Decision Makers](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-20 | [Amazon DynamoDB Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-20 | [Getting Started with AWS Storage](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-03-19 | [[RETIRING - 2026-09-28] Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
 | 2026-03-19 | [AWS Cloud Economics for Healthcare](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-19 | [AWS Cloud Essentials for Business Leaders](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-19 | [AWS Config Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-19 | [AWS Database Offerings](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-03-19 | [Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
 | 2026-03-18 | [AgentCore Browser: Secure and Scalable Web Automation with Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-18 | [Amazon Connect: Introduction to the Administrative Interface](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-18 | [Amazon SageMaker Unified Studio - Administrator Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

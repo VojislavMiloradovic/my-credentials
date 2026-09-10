@@ -95,8 +95,8 @@ Showing latest 10 of 390 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 798
-**Total Verified Skills Mapped:** 796
+**Total Portfolio Credentials:** 819
+**Total Verified Skills Mapped:** 817
 
 #### AWS Cloud Quest Summary
 
@@ -111,20 +111,20 @@ Showing latest 10 of 390 credentials. View full dataset via [Platform Archive In
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 798 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-09-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-15.md)), or [Monolithic File](./archives/aws-skills-complete.md).
+Showing latest 10 of 819 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-09-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-15.md)), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-09-06 | [Advanced fine-tuning methods on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [Amazon Aurora Serverless V2](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [Amazon Route 53 Global Resolver: Architecture, Security, and Operations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [Automate the creation of handout notes using Amazon Bedrock Data Automation](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [AWS Solutions Architect Advanced -  Designing Responsible AI Controls](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [AWS Solutions Architect Advanced - Designing a Multi-Account Architecture](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [AWS Storage Gateway Deep Dive: Amazon S3 File Gateway](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [AWS Storage Gateway Deep Dive: Tape Gateway](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [Blu Age Level 3 (L3) Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [Boost Amazon EKS Efficiency — EKS Auto Mode, AWS Graviton, and Amazon EC2 Spot](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Advanced Prompt Caching and Response Optimization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Advanced Testing Practices Using AWS DevOps Tools](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Amazon WorkSpaces Deep Dive](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [AWS Cloud Trail Deep Dive and Security Analysis with MCP Server Tools](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Build an Intelligent eDiscovery Solution Using Amazon Bedrock Agents](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Building Generative AI Applications Using Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Building Language Models on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Building Production-Ready AI Agents with Amazon Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Cloud Audit Academy for Federal and DoD Workloads in AWS – Interactive Walkthroughs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Customizing and Evaluating LLMs Using Amazon SageMaker JumpStart](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 <!-- AWS_SKILLS_END -->
 
 
