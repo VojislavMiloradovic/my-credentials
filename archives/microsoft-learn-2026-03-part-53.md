@@ -26,8 +26,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Challenge Project - Build a booking requests app with Power Apps and Power Automate** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-booking-requests-app-with-power-apps-power-automate/) |
 | **Deploy an Azure Kubernetes Service cluster** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-azure-kubernetes-service-cluster/) |
 | **Work with class extensions in finance and operations apps** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/class-extensions-finance-operations/) |
-| **MD-101 Deploy using cloud based tools** | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-use-cloud-based-tools/) |
 | **Implement dynamic deployment methods** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dynamic-deployment-methods/) |
+| **MD-101 Deploy using cloud based tools** | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-use-cloud-based-tools/) |
 | **Get started with project management in Dynamics 365 Project Operations** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-project-management/) |
 | **Implement change tracking and file integrity monitoring for Windows IaaS VMs** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-change-tracking-file-integrity-monitoring/) |
 | **Implement Windows Server IaaS VM Security** | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-iaas-virtual-machine-security/) |
@@ -47,8 +47,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Work with accounts payable invoice matching in Dynamics 365 Finance** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-invoice-matching-finance/) |
 | **Manage Exchange Online by using Windows PowerShell** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-exchange-online-use-windows-powershell/) |
 | **Work with queries in Dynamics 365 Business Central** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-queries/) |
-| **Windows Server high availability** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-high-availability/) |
 | **Windows Server Hyper-V and Virtualization** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-hyper-v-virtualization/) |
+| **Windows Server high availability** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-high-availability/) |
 | **Implement disaster recovery in Windows Server on-premises and hybrid environments** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-disaster-recovery-windows-server-premises/) |
 | **Implement Hyper-V Replica** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hyper-v-replica/) |
 | **Set up and use production control for discrete manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-production-control-discrete-manufacturing/) |

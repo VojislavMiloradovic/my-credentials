@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Architect production-grade multi-agent AI solutions in Azure** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-1-architect-production-grade-multi-agent-ai-solutions/) |
 | **Implement advanced multi-agent orchestration patterns in Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-multi-agent-orchestration-azure-ai-foundry/) |
 | **Build production-grade multi-agent capabilities with Microsoft Foundry** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-2-build-production-grade-multi-agent-capabilities-microsoft-foundry/) |
 | **Implement advanced RAG pipelines with Azure AI Search and Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-advanced-rag-azure-ai-search/) |
@@ -27,8 +28,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Design enterprise-scale agent communication with A2A in Azure** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-enterprise-agent-communication-a2a/) |
 | **Design advanced prompting strategies for production AI agents** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-advanced-prompt-production-agents/) |
 | **Debug and respond to production multi-agent incidents in Azure** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-debug-production-multi-agent-incidents-azure/) |
-| **Extend Microsoft for Sustainability** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-sustainability/) |
 | **Extend Sustainability Manager for building complex Scope 3 calculations** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-complex-calculations/) |
+| **Extend Microsoft for Sustainability** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-sustainability/) |
 | **Get started with Text Analytics for health** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-text-analytics/) |
 | **Work with Text Analytics for health API** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-health-text-analytics/) |
 | **Migrate voice services from Skype for Business Server to Teams** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-voice-services-from-skype-for-business-server-to-teams/) |
@@ -46,7 +47,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement business continuity, disaster recovery, and backup for SAP HANA on Azure (Large Instances)** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-business-continuity-disaster-recovery-backup/) |
 | **Plan SAP HANA on Azure (Large Instances) high availability and disaster recovery** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-sap-hana-azure-large-instances-high-availability-disaster-recovery-4/) |
 | **Migrate very large databases (VLDB) to Azure for SAP** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-very-large-databases-to-azure/) |
-| **Set up the Teams Assignments LTI® app in learning management systems** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-teams-assignments-lti-app-learning-management-systems/) |
+| **Set up the Teams Assignments LTI® app in learning management systems** | Modules | 2026-07-08 | N/A |
 | **Explore advanced integration and interoperability in Microsoft for Healthcare** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/healthcare-advanced-integration-interoperability/) |
 | **Integration and interoperability solution for healthcare and life sciences** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-interoperability/) |
 | **Build enterprise-grade tool ecosystems with MCP and Microsoft Foundry** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-build-enterprise-tool-ecosystems-mcp-azure/) |
@@ -61,7 +62,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Explore governance and manageability for SAP on Azure** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-governance-manageability/) |
 | **Explore the foundations of identity and governance for SAP on Azure** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-foundations-of-identity-governance/) |
 | **Design a health model for your mission-critical workload** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-health-model-mission-critical-workload/) |
-| **Build mission-critical workloads on Azure** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-mission-critical-workloads/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-89.md](./microsoft-learn-2026-07-part-89.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-91.md](./microsoft-learn-2026-07-part-91.md)

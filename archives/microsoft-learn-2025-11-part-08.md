@@ -60,8 +60,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Drive business value with Microsoft Copilot solutions** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-value-microsoft-copilot-solutions/) |
 | **Windows 11 and cloud-native concepts: myths, realities, and best practices** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-native-myths/) |
 | **Introduction to AI speech concepts** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/) |
-| **Transform business workflows with generative AI** | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-workflows-with-ai/) |
 | **Analyze and visualize data using Microsoft 365 Copilot** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-visualize-data-copilot/) |
+| **Transform business workflows with generative AI** | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-workflows-with-ai/) |
 | **Iterate through a code block using for statement in C#** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-for/) |
 | **Branch the flow of code using the switch-case construct in C#** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-switch-case/) |
 | **Introduction to Microsoft Azure Data non-relational data in Azure** | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-non-relational-data/) |

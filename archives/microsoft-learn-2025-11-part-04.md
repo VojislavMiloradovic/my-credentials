@@ -30,14 +30,14 @@ artifacts: archive_complete, archive_index, jsonld
 | **Introduction to Microsoft AI agent solutions** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-ai-agent-solutions/) |
 | **Choose the best Microsoft 365 Copilot extensibility path for your scenario** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-microsoft-365-copilot-extensibility-path/) |
 | **Introduction to developing AI agents** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-develop-ai-agents/) |
-| **Azure Database for PostgreSQL Tutorials** | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/playground-learning/) |
 | **Combining data from multiple tables: SQL Joins Explained** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-join-tables/) |
+| **Azure Database for PostgreSQL Tutorials** | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/playground-learning/) |
 | **Filtering data: The WHERE clause and subqueries** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-where-clause-subqueries/) |
 | **Getting started: An introduction to SQL and reading data** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-simple-select/) |
 | **Organizing data: Using LIMIT, OFFSET, and ORDER BY clauses** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-limit-offset-order-by/) |
 | **Summarizing data: Aggregate functions and grouping** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-aggregate-functions-grouping/) |
-| **Describe the data governance solutions of Microsoft Purview** | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-purview-data-governance/) |
 | **Introduction to Microsoft Priva and Microsoft Purview** | Learningpaths | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-capabilities-of-microsoft-compliance-solutions/) |
+| **Describe the data governance solutions of Microsoft Purview** | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-purview-data-governance/) |
 | **Describe the data security solutions of Microsoft Purview** | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-purview-data-solutions/) |
 | **Turn insight into action by combining SAP and other data** | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/turn-insight-into-action-combine-sap-other-data/) |
 | **SC-200: Mitigate threats using Microsoft Security Copilot** | Learningpaths | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-copilot-for-security/) |
@@ -62,8 +62,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Build your first app with Power Apps and Dataverse for Teams** | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-app-dataverse-teams/) |
 | **Create an agent with Microsoft Copilot Studio and Dataverse for Teams** | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-chatbot-power-virtual-agents-dataverse-teams/) |
 | **Introduction to Azure virtual machines** | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machines/) |
-| **Describe support offerings for Microsoft 365 services** | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-support-offerings-for-microsoft-365-services/) |
 | **MS-900 Introduction to Microsoft 365: Describe Microsoft 365 pricing, licensing, and support** | Learningpaths | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-licensing-service-support/) |
+| **Describe support offerings for Microsoft 365 services** | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-support-offerings-for-microsoft-365-services/) |
 | **Describe Microsoft 365 pricing, licensing, and billing options** | Modules | 2025-11-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-licensing-options-available-microsoft-365/) |
 
 ---

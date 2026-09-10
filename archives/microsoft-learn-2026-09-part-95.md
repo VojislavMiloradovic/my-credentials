@@ -1,8 +1,8 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 95 of 95
-date_range: 2026-08-06 to 2026-09-05
-total_entries: 40
+date_range: 2026-08-06 to 2026-09-10
+total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-95.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,10 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Understand Storage Spaces Direct** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-storage-spaces-direct/) |
+| **Integrate backend services for AI solutions** | Learningpaths | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-backend-services-ai-solutions/) |
+| **Orchestrate durable AI workflows with Azure Durable Functions** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-durable-functions/) |
+| **Automate agent tasks with workflows in Microsoft Copilot Studio** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-agent-tasks-workflows-copilot-studio/) |
 | **Get started using Foundry on Windows: AI Dev Gallery (Preview)** | Modules | 2026-09-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-dev-gallery/) |
 | **Dragon Copilot (nurses) verbalization guide** | Modules | 2026-09-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-nurses-verbalization-module/) |
 | **Ground and extend agents with knowledge, tools, and skills** | Modules | 2026-09-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-extend-agents-knowledge-tools-skills/) |

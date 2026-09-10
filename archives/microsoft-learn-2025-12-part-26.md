@@ -35,8 +35,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Customize layout in .NET MAUI XAML pages** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-xaml-pages-layout/) |
 | **Collaborate with others with Markdown and GitHub Pages** | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/collaborate-markdown-github-pages/) |
 | **Create and host web sites by using GitHub Pages** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-host-web-sites-github-pages/) |
-| **Implement Dynamics 365 Projects** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-dynamics-365-projects/) |
 | **Application lifecycle management for Dynamics 365** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-lifecycle-management-dynamics-365/) |
+| **Implement Dynamics 365 Projects** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-dynamics-365-projects/) |
 | **Test your Dynamics 365 implementation** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-dynamics-365-implementation/) |
 | **Document your Dynamics 365 solution for the customer** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-dynamics-365-solution-customer/) |
 | **Design the Dynamics 365 deployment** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dynamics-365-deployment/) |

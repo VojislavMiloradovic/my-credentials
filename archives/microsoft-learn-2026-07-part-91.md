@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Optimize your Windows gaming experience with the Xbox app** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-windows-gaming/) |
 | **Describe procurement processes in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-procurement-processes-dynamics-365/) |
 | **Active Directory sites, topology, and replication** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-site-replication/) |
 | **Describe manufacturing processes in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-manufacturing-processes-dynamics-365-supply-chain-management/) |
@@ -63,7 +64,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Monitor, evaluate, and operate multi-agent AI solutions in Azure** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-4-monitor-evaluate-operate-multi-agent-ai-solutions-azure/) |
 | **Optimize multi-agent performance and cost in Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-optimize-multi-agent-performance-cost-azure/) |
 | **Implement distributed observability for multi-agent solutions with OpenTelemetry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-distributed-observability-multi-agent-opentelemetry/) |
-| **Architect production-grade multi-agent AI solutions in Azure** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-1-architect-production-grade-multi-agent-ai-solutions/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-90.md](./microsoft-learn-2026-07-part-90.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md)

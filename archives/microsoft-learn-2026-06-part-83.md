@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Introduction to Microsoft Power Platform developer resources** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-developer-resources/) |
 | **Manage and configure repositories** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/) |
 | **Design a solution to log and monitor Azure resources** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-to-log-monitor-azure-resources/) |
 | **Identify technical debt** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/) |
@@ -66,7 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Enhance AI solutions with Azure Managed Redis** | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-ai-solutions-azure-managed-redis/) |
 | **Implement event messaging with Azure Managed Redis** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-event-messaging-azure-managed-redis/) |
 | **Implement data operations in Azure Managed Redis** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-operations-azure-managed-redis/) |
-| **Implement vector storage in Azure Managed Redis** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-storage-azure-managed-redis/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md)

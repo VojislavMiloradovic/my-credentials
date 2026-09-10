@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 86 of 95
 date_range: 2026-06-20 to 2026-06-22
-total_entries: 49
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-86.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,10 +15,11 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **AZ-400: Design and implement a dependency management strategy** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-dependency-management-strategy/) |
 | **Plan a testing strategy for your Dynamics 365 solution** | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-strategy/) |
-| **Prepare to teach SC-900 Microsoft Security, Compliance, and Identity Fundamentals in academic programs** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-sc-900-academic-programs/) |
-| **Prepare to teach MB-210 Microsoft Dynamics 365 Sales Functional Consultant** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/teach-mb-210-sales-functional-consultant/) |
 | **Prepare to teach PL-100 Microsoft Power Platform App Maker** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/teach-pl-100-microsoft-power-platform-app-maker/) |
+| **Prepare to teach MB-210 Microsoft Dynamics 365 Sales Functional Consultant** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/teach-mb-210-sales-functional-consultant/) |
+| **Prepare to teach SC-900 Microsoft Security, Compliance, and Identity Fundamentals in academic programs** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-sc-900-academic-programs/) |
 | **Prepare to teach MS-900 Microsoft 365 Fundamentals** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-ms-900-microsoft-365-fundamentals/) |
 | **Prepare to teach SC-300 Microsoft Identity and Access Administrator** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-sc-300-identity-access-administrator/) |
 | **Prepare to teach AI-900 Microsoft Azure AI fundamentals in academic programs** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-ai-900-fundamentals-academic-programs/) |
@@ -62,8 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Integrate with Dataverse and Azure** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dataverse-azure/) |
 | **Integrate Dataverse Azure solutions** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-dataverse-azure-solutions/) |
 | **Integrate with Power Platform and Dataverse** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-power-platform-dataverse/) |
-| **Migrate, consolidate, and secure artifacts** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/) |
-| **Introduction to deployment patterns** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-85.md](./microsoft-learn-2026-06-part-85.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-87.md](./microsoft-learn-2026-06-part-87.md)

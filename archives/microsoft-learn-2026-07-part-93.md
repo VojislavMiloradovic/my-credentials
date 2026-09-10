@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 93 of 95
 date_range: 2026-07-17 to 2026-07-24
-total_entries: 53
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-93.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -67,7 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Get started with Power Apps canvas apps** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps/) |
 | **Define and create business rules in Dataverse** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-create-business-rules/) |
 | **Design a single-domain Active Directory forest** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-single-domain-active-directory-forest/) |
-| **Design a multi-domain Active Directory forest** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-domain-forest-trust/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md)

@@ -15,7 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Explore the test framework and tools in finance and operations apps** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-test-framework-tools-finance-operations/) |
+| **Introduction to developing with finance and operations apps** | Learningpaths | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-develop-finance-operations/) |
 | **Explore reporting tools in finance and operations apps** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-reporting-tools-finance-operations/) |
 | **Configure electronic reporting in Dynamics 365 Finance** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-electronic-reporting-finance-operations/) |
 | **Configure and work with analytics and reporting in finance and operations apps** | Learningpaths | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-analytics-reporting-finance-operations/) |
@@ -29,8 +29,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Work order management in Dynamics 365 Field Service** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-work-order-management-agreements-inventory-and-purchasing/) |
 | **Manage Azure PaaS tasks using automation** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-paas-resources-using-automated-methods/) |
 | **Deploy and configure Windows Server IaaS Virtual Machine** | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-windows-server-iaas-virtual-machine/) |
-| **Manage virtualization and containers in a hybrid environment** | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-virtualization-containers-hybrid-environment/) |
 | **Plan and deploy Windows Server IaaS Virtual Machines** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-deploy-windows-server-iaas-virtual-machines/) |
+| **Manage virtualization and containers in a hybrid environment** | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-virtualization-containers-hybrid-environment/) |
 | **Guided Project - Azure Files and Azure Blobs** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-azure-files-azure-blobs/) |
 | **Secure storage for Azure Files and Azure Blob Storage** | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-storage-azure-files-azure-blob-storage/) |
 | **Examine the Microsoft 365 Copilot design** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-microsoft-365-copilot-design/) |
@@ -38,8 +38,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Configure SIEM security operations using Microsoft Sentinel** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-siem-security-operations-using-microsoft-sentinel/) |
 | **Manage Windows Server settings using PowerShell cmdlets** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-server-settings-use-powershell-cmdlets/) |
 | **Power Pages solution explorer - Online workshop** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-solution-explorer-online-workshop/) |
-| **Work with data in a Power Apps canvas app** | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-data-in-a-canvas-app/) |
 | **Shape data in a Power Apps canvas app** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/shape-data/) |
+| **Work with data in a Power Apps canvas app** | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-data-in-a-canvas-app/) |
 | **Configure storage and file services** | Learningpaths | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-storage-file-services/) |
 | **Implement a hybrid file server infrastructure** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hybrid-file-server-infrastructure/) |
 | **Examine the enterprise desktop** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-enterprise-desktop/) |

@@ -29,7 +29,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Connect data with School Data Sync** | Modules | 2025-12-06 | N/A |
 | **Manage Windows updates for cloud-connected devices by using the Microsoft Graph PowerShell SDK** | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-updates-cloud-devices/) |
 | **Code Jumper: An inclusive physical coding language** | Modules | 2025-12-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-jumper-inclusive-physical-coding-language/) |
-| **Utilize MakeCode Arcade in your classroom** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/utilize-makecode-arcade-your-classroom/) |
+| **Utilize MakeCode Arcade in your classroom** | Modules | 2025-12-05 | N/A |
 | **Support student learning with MakeCode Arcade** | Modules | 2025-12-05 | N/A |
 | **Query relational data in Azure** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-relational-data/) |
 | **Improve your app's performance when using Microsoft Graph Toolkit** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-toolkit-improve-performance/) |

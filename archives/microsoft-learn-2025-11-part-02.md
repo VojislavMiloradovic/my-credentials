@@ -22,8 +22,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Using GitHub Copilot with Python** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/) |
 | **Describe access management capabilities of Microsoft Entra** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-access-management-capabilities/) |
 | **Perform basic string formatting in C#** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-basic-formatting/) |
-| **Edit and transform content with Microsoft 365 Copilot** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/edit-transform-content-with-microsoft-copilot-microsoft-365/) |
 | **Craft effective prompts for Microsoft 365 Copilot** | Learningpaths | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/craft-effective-prompts-copilot-microsoft-365/) |
+| **Edit and transform content with Microsoft 365 Copilot** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/edit-transform-content-with-microsoft-copilot-microsoft-365/) |
 | **Summarize and simplify information with Microsoft 365 Copilot** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/summarize-simplify-information-with-microsoft-copilot-microsoft-365/) |
 | **Describe productivity solutions of Microsoft 365** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-productivity-solutions-microsoft-365/) |
 | **Describe the analytics and administrative capabilities available in Microsoft 365** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-analytics-capabilities-microsoft-365/) |
@@ -43,8 +43,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Introduction to Azure Bastion** | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-bastion/) |
 | **Secure Microsoft Entra users with multifactor authentication** | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-aad-users-with-mfa/) |
 | **Manage Microsoft Entra Identity Protection** | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-active-directory-identity-protection/) |
-| **Develop computer vision solutions in Azure** | Learningpaths | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/) |
 | **Generate images with AI** | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/) |
+| **Develop computer vision solutions in Azure** | Learningpaths | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/) |
 | **Develop a vision-enabled generative AI application** | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-vision-apps/) |
 | **Create vision models with Azure AI Custom Vision** | Learningpaths | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-models-custom-vision/) |
 | **Detect objects in images** | Modules | 2025-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/detect-objects-images/) |

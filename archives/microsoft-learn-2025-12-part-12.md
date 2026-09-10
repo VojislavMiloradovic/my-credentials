@@ -40,8 +40,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Challenge project - Build a speech translator app** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-speech-translator-app/) |
 | **Integrate external content with Microsoft 365 Copilot using Copilot connectors built with TypeScript** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-graph-connectors-typescript/) |
 | **Introduction to Azure API Center** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-api-center/) |
-| **School Data Sync advanced for education partners** | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/school-data-sync-advanced-education-partners/) |
 | **Academic session transition with School Data Sync** | Modules | 2025-12-08 | N/A |
+| **School Data Sync advanced for education partners** | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/school-data-sync-advanced-education-partners/) |
 | **Connect Microsoft 365 Copilot to your external data in real-time with message extension plugins built with TypeScript and Visual Studio Code** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-message-extension-plugins-typescript/) |
 | **HoloLens Fundamentals** | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/hololens-fundamentals/) |
 | **Introduction to HoloLens** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-hololens/) |

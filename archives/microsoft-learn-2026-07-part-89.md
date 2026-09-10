@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Build mission-critical workloads on Azure** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-mission-critical-workloads/) |
 | **Get started with Environmental, social, and governance reporting** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sustainability-esg-reporting/) |
 | **External ESG Reporting in Sustainability Manager** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-external-esg-reporting/) |
 | **Perform backups and restores for SAP workloads on Azure** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-backups-restores/) |
@@ -62,7 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Troubleshoot Microsoft Teams meetings live events and messaging** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-microsoft-teams-meetings-live-events-messaging/) |
 | **Deploy and manage resources in Azure by using JSON ARM templates** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-resource-manager-templates/) |
 | **Extend Bicep and ARM templates using deployment scripts** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-resource-manager-template-deployment-scripts/) |
-| **Explore healthcare data solutions in Microsoft Fabric** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-healthcare-data-solutions/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-88.md](./microsoft-learn-2026-07-part-88.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-90.md](./microsoft-learn-2026-07-part-90.md)
