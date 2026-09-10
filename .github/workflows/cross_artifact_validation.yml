@@ -10,11 +10,8 @@ on:
     - cron: '0 6 */3 * *'
   workflow_dispatch:
 
-# Serialize with all write-capable workflows to prevent push/rebase races
-# (Currently writes artifacts only, but future-proofing for potential repo writes)
-concurrency:
-  group: git-push-main
-  cancel-in-progress: false
+# No concurrency lock - read-only workflow (uploads artifacts only)
+# Add concurrency: git-push-main only if this workflow ever writes to main
 
 jobs:
   cross-artifact-validation:
