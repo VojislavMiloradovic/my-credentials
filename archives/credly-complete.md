@@ -1,17 +1,21 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 618 records.
+This document represents a unified, verifiable list of all 622 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-11T08:02:55.044285+00:00 -->
+<!-- retrieved_at: 2026-09-11T10:44:07.952128+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-11 | [Data](https://www.credly.com/badges/62777e7e-63b5-4734-b345-e09dc1c49076/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-11 | [Data Essentials](https://www.credly.com/badges/3edec3e1-d0d2-400b-82c1-7da1d34ec078/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-11 | [Digital Media Essentials](https://www.credly.com/badges/6349cc21-2ec7-414b-ad91-9a24a869e0a1/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-11 | [Programmatic Essentials](https://www.credly.com/badges/c13f56ad-cf6b-4e39-b941-53df80b3e391/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-10 | [Certified Calico Operator - Azure Expert](https://www.credly.com/badges/acb7859e-864b-4401-9c78-fbd6835a3454/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-09 | [Certified Calico Operator - AWS Expert](https://www.credly.com/badges/c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-09 | [Python Essentials 1](https://www.credly.com/badges/0ce437b3-fc46-48da-a95a-44061cbfb588/public_url) | Cisco | Credly Verified Badge |
