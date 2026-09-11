@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Build and query with Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-database-postgresql/) |
 | **Reduce data exposure risk with Data Security Posture Management in Microsoft Purview** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-data-security-posture-management/) |
 | **Understand data security posture management in Microsoft Purview** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-security-posture-management-understand/) |
 | **Implement application protection and security using Microsoft Intune** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-protection-intune/) |
@@ -35,7 +36,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Use agent flows in Copilot Studio** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-agent-flows/) |
 | **Implement security controls for Azure AI-ready infrastructure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-azure-ai-ready-infrastructure/) |
 | **Understand identity architecture for AI workloads** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/entra-ai-understand/) |
-| **Integrate backend services for AI solutions** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-backend-services-ai-solutions/) |
 | **Queue and process AI operations with Azure Service Bus** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/queue-process-operations-service-bus/) |
 | **Develop event-driven AI workflows with Azure Event Grid** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/event-driven-workflows-event-grid/) |
 | **Enforce compliance and remediate security issues by using Microsoft Intune** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-compliance-intune/) |
@@ -46,8 +46,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage application secrets with Azure Key Vault** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-app-secrets-key-vault/) |
 | **Protect Microsoft Foundry solutions by using Microsoft Defender for Cloud** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/defender-for-cloud-ai-foundry-protect/) |
 | **Understand how Microsoft Defender for Cloud supports AI security and governance in Azure** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-for-cloud-ai-understand-protections/) |
-| **Implement security for AI** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-security/) |
 | **Protect AI workloads with Microsoft Defender for Cloud** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-for-cloud-ai-protect-workloads/) |
+| **Implement security for AI** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-security/) |
 | **Configure and manage guardrails in Microsoft Foundry** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-ai-foundry-configure-manage-guardrails/) |
 | **GitHub Enterprise Server fundamentals for developers** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-enterprise-server-repository-workflows/) |
 | **GitHub Enterprise Server fundamentals for developers** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-enterprise-server-developer-fundamentals/) |

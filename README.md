@@ -15,25 +15,37 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 100,000
-- **Current Learning Level:** Level 5
-- **Badges Earned (Profile):** 1
-- **Trophies Earned (Profile):** 2
-- **Completed Learning Paths (Active Tracker):** 1
-- **Completed Modules (Active Tracker):** 1
-- **Completed Individual Units:** 2
+- **Total Experience Points (XP):** 6,029,450
+- **Current Learning Level:** Level 20
+- **Badges Earned (Profile):** 3,925
+- **Trophies Earned (Profile):** 906
+- **Completed Learning Paths (Active Tracker):** 515
+- **Completed Modules (Active Tracker):** 2,683
+- **Completed Individual Units:** 35,862
 
 ### Verifiable Applied Skills & Credentials
-- **Abc** (Credential ID: `CRED001` | Earned: 2024-02-01 | Status: Active)
+- **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25 | Status: Active)
+- **Get Started With Identities And Access Using Microsoft Entra** (Credential ID: `27BB90F5B956E0C8` | Earned: 2026-03-21 | Status: Active)
+- **Get Started With Azure Management Tasks** (Credential ID: `B7C5DF765FB52CEA` | Earned: 2026-03-18 | Status: Active)
+- **Get Started With Cloud Security And Monitoring Tasks** (Credential ID: `1EBB80C496C2DDF1` | Earned: 2026-03-16 | Status: Active)
+- **Streamline Business Workflows With Ai Chat** (Credential ID: `CE7FBB459ADAB331` | Earned: 2026-03-15 | Status: Active)
+- **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 3 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2024-01-part-01.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2024-01-part-01.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,831 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-09-part-95.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-95.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Trophy Unlocked** | Trophy | 2024-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/trophy-1) |
-| **Learning Path Complete** | Learningpath | 2024-01-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/path-1) |
-| **First Module** | Module | 2024-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/module-1) |
+| **Understand Storage Spaces Direct** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-storage-spaces-direct/) |
+| **Integrate backend services for AI solutions** | Learningpaths | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-backend-services-ai-solutions/) |
+| **Orchestrate durable AI workflows with Azure Durable Functions** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-durable-functions/) |
+| **Automate agent tasks with workflows in Microsoft Copilot Studio** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-agent-tasks-workflows-copilot-studio/) |
+| **Get started using Foundry on Windows: AI Dev Gallery (Preview)** | Modules | 2026-09-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-dev-gallery/) |
+| **Dragon Copilot (nurses) verbalization guide** | Modules | 2026-09-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-nurses-verbalization-module/) |
+| **Ground and extend agents with knowledge, tools, and skills** | Modules | 2026-09-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-extend-agents-knowledge-tools-skills/) |
+| **Configure Microsoft Adaptive Accessories for accessible productivity** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-adaptive-accessories/) |
+| **Get started with Microsoft AI models** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-ai-models/) |
+| **Configure Azure Databricks Genie for Microsoft Teams and Microsoft Copilot** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-databricks-genie-teams-microsoft-copilot/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials
@@ -83,8 +95,8 @@ Showing latest 10 of 390 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 798
-**Total Verified Skills Mapped:** 796
+**Total Portfolio Credentials:** 819
+**Total Verified Skills Mapped:** 817
 
 #### AWS Cloud Quest Summary
 
@@ -99,20 +111,20 @@ Showing latest 10 of 390 credentials. View full dataset via [Platform Archive In
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 798 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-09-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-15.md)), or [Monolithic File](./archives/aws-skills-complete.md).
+Showing latest 10 of 819 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-09-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-15.md)), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-09-06 | [Advanced fine-tuning methods on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [Amazon Aurora Serverless V2](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [Amazon Route 53 Global Resolver: Architecture, Security, and Operations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [Automate the creation of handout notes using Amazon Bedrock Data Automation](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [AWS Solutions Architect Advanced -  Designing Responsible AI Controls](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [AWS Solutions Architect Advanced - Designing a Multi-Account Architecture](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [AWS Storage Gateway Deep Dive: Amazon S3 File Gateway](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [AWS Storage Gateway Deep Dive: Tape Gateway](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [Blu Age Level 3 (L3) Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-06 | [Boost Amazon EKS Efficiency — EKS Auto Mode, AWS Graviton, and Amazon EC2 Spot](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Advanced Prompt Caching and Response Optimization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Advanced Testing Practices Using AWS DevOps Tools](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Amazon WorkSpaces Deep Dive](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [AWS Cloud Trail Deep Dive and Security Analysis with MCP Server Tools](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Build an Intelligent eDiscovery Solution Using Amazon Bedrock Agents](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Building Generative AI Applications Using Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Building Language Models on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Building Production-Ready AI Agents with Amazon Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Cloud Audit Academy for Federal and DoD Workloads in AWS – Interactive Walkthroughs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Customizing and Evaluating LLMs Using Amazon SageMaker JumpStart](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 <!-- AWS_SKILLS_END -->
 
 
@@ -123,15 +135,16 @@ Showing latest 10 of 798 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 617
+**Total Portfolio Credentials:** 618
 **Total Verified Skills Mapped:** 2154
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 617 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 618 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-10 | [Certified Calico Operator - Azure Expert](https://www.credly.com/badges/acb7859e-864b-4401-9c78-fbd6835a3454/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-09 | [Certified Calico Operator - AWS Expert](https://www.credly.com/badges/c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-09 | [Python Essentials 1](https://www.credly.com/badges/0ce437b3-fc46-48da-a95a-44061cbfb588/public_url) | Cisco | Credly Verified Badge |
 | 2026-09-08 | [AI Skills for Everyday Productivity Certificate](https://www.credly.com/badges/25478651-081d-4ce1-9ec8-9a16f4888064/public_url) | IBM SkillsBuild | Credly Verified Badge |
@@ -141,7 +154,6 @@ Showing latest 10 of 617 credentials. View full dataset via [Platform Archive In
 | 2026-09-08 | [Create a Secure Data Lake on Cloud Storage Skill Badge](https://www.credly.com/badges/4ada156c-46b0-4169-98dc-dc5d4d8909f8/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-08 | [Create a Streaming Data Lake on Cloud Storage Skill Badge](https://www.credly.com/badges/29565065-0d38-4296-99fc-3ad644b89fc6/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-07 | [Certified Calico Operator - Level 1](https://www.credly.com/badges/eda6d74d-ee37-4a6b-ae13-4f7182457edd/public_url) | Tigera | Credly Verified Badge |
-| 2026-09-07 | [Customer Engagement Fundamentals](https://www.credly.com/badges/e87068f9-d137-4458-b709-5a851c02003f/public_url) | IBM SkillsBuild | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
@@ -156,24 +168,24 @@ Showing latest 10 of 617 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,624 |
+| **Total External Certifications Verified** | 1,644 |
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-09-part-36.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-36.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-09-part-37.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-37.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-09* | **Customer Engagement Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/e87068f9-d137-4458-b709-5a851c02003f/linked_in_profile) |
-| *2026-09* | **Nano Tips to Future-Proof Your Organization and Stay Ahead of Disruption with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/59a7526686e2b88580f0a0da9efde591f6db920bdbb0cd4eb4c6980208b1d457) |
-| *2026-09* | **Nano Tips for Delegating to Peers with Melody Wilding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/29625279335d7fb8dd34e53051f9ef8047e60a433d0e690d788dcf5cce4e2498) |
-| *2026-09* | **Nano Tips for Setting Career Goals and Mastering Career Conversations with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/617c8d3cbb802b22e521a77325a65278f6018a22a3eaf289e5f55cbb3d05009b) |
-| *2026-09* | **Nano Tips to Ditch Self-Doubt with Shade Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ec216ee4208c75100496cd15e45ebcbbb8d98137e911344c32bafba932b02ee8) |
-| *2026-09* | **Learning to Be Promotable** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5bbf750a9c9f863910a73f06a2dea78ba1f74da8dd8a329bf655a698ef639cbc) |
-| *2026-09* | **Nano Tips for Unlocking Micro Moments with Gemma Leigh Roberts** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/902d435bce4862cd3f42c5013159fa34302aab0106a0ea793171446adc370bfc) |
-| *2026-09* | **Nano Tips for Pitching with a Former Dragons' Den Investor Piers Linney** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a65095e27cce15d3b30610e4fe5e2939d8c2554d8d88bd4cfd412871ac9a490b) |
-| *2026-09* | **Building a Portfolio Career: Diversify Your Income and Do More of What You Love** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1dbcfb45be8f92bdf2886a3346ff10e57d17b33cfe00136af52e89ec9673966e) |
-| *2026-09* | **Quick Marketing Wins for Entrepreneurs** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e6ce1f2713a6742a59ab47060b00a01d731613f4975abc64954502785b40fcfb) |
+| *2026-09* | **Effective Listening (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6839b2691d8f1e6b95b65809cf4f867020d178a63e8b364839b5d277cd25420e) |
+| *2026-09* | **Critical Thinking for Better Judgment and Decision-Making (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cb34ae75591b1b193de1416ae42190da12cb20eb0d05a3a24b819c1690634eef) |
+| *2026-09* | **Nano Tips to Build Visibility at Work with Melody Wilding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a5190a4fe030596811fca9b395c94a657ca6d371df3d85d0a5f10ffe7d2992a6) |
+| *2026-09* | **Moving from Government Work into Other Sectors: A Conversation with Nick Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a48e36ea1c50c5c5d97f2db66e7f6294cffd8eb01b93d12d6cc79172e62971bc) |
+| *2026-09* | **Developing Your Emotional Intelligence (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b808b80ba96d00a8989382bce9b54becb3967f0eb5c9e0ba7a885e430ed1a9a4) |
+| *2026-09* | **Certified Calico Operator - AWS Expert** | Tigera | [Verify Record](https://www.credly.com/badges/c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c/linked_in_profile) |
+| *2026-09* | **Python Essentials 1** | Cisco | [Verify Record](https://www.credly.com/badges/0ce437b3-fc46-48da-a95a-44061cbfb588/linked_in_profile) |
+| *2026-09* | **Nano Tips to Improve Workplace Communication with Elayne Fluker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/500695db665fd6ac11f974c0147f1e661d9285a5bf53ddde643888673fe22b93) |
+| *2026-09* | **Nano Tips for Becoming a Better Thought Leader with Peter Winick** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7cc6701b355798bf25e10681573bf32573f006c263e163a4ebac1ab02e649b80) |
+| *2026-09* | **LinkedIn Help Center: Premium Membership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ed19e1c9f1f8e920966673bb4f4f62a93e53126607d13706aaecccf42a502069) |
 <!-- LINKEDIN_END -->
 
 

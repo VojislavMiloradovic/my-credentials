@@ -1,17 +1,37 @@
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 1624 records.
+This document represents a unified, verifiable list of all 1644 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2024-06-15T12:00:00+00:00 -->
+<!-- retrieved_at: 2026-09-10T11:34:13.338105+00:00 -->
 
 ## Verified Records Archive
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-09 | **Effective Listening (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6839b2691d8f1e6b95b65809cf4f867020d178a63e8b364839b5d277cd25420e) |
+| 2026-09 | **Critical Thinking for Better Judgment and Decision-Making (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cb34ae75591b1b193de1416ae42190da12cb20eb0d05a3a24b819c1690634eef) |
+| 2026-09 | **Nano Tips to Build Visibility at Work with Melody Wilding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a5190a4fe030596811fca9b395c94a657ca6d371df3d85d0a5f10ffe7d2992a6) |
+| 2026-09 | **Moving from Government Work into Other Sectors: A Conversation with Nick Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a48e36ea1c50c5c5d97f2db66e7f6294cffd8eb01b93d12d6cc79172e62971bc) |
+| 2026-09 | **Developing Your Emotional Intelligence (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b808b80ba96d00a8989382bce9b54becb3967f0eb5c9e0ba7a885e430ed1a9a4) |
+| 2026-09 | **Certified Calico Operator - AWS Expert** | Tigera | [Verify Record](https://www.credly.com/badges/c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c/linked_in_profile) |
+| 2026-09 | **Python Essentials 1** | Cisco | [Verify Record](https://www.credly.com/badges/0ce437b3-fc46-48da-a95a-44061cbfb588/linked_in_profile) |
+| 2026-09 | **Nano Tips to Improve Workplace Communication with Elayne Fluker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/500695db665fd6ac11f974c0147f1e661d9285a5bf53ddde643888673fe22b93) |
+| 2026-09 | **Nano Tips for Becoming a Better Thought Leader with Peter Winick** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7cc6701b355798bf25e10681573bf32573f006c263e163a4ebac1ab02e649b80) |
+| 2026-09 | **LinkedIn Help Center: Premium Membership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ed19e1c9f1f8e920966673bb4f4f62a93e53126607d13706aaecccf42a502069) |
+| 2026-09 | **Professional Growth and Future Readiness with AI** | IBM | [Verify Record](https://www.credly.com/badges/93d024cb-0d8e-40b6-b352-8071dbf9d6f1/linked_in_profile) |
+| 2026-09 | **AI Skills for Everyday Productivity Certificate** | IBM | [Verify Record](https://www.credly.com/badges/25478651-081d-4ce1-9ec8-9a16f4888064/linked_in_profile) |
+| 2026-09 | **Essentials - GenAI Protection** | Acronis | [Verify Record](https://www.credly.com/badges/34cf63a3-9c10-4ce1-8855-67ec2b1eb97d/linked_in_profile) |
+| 2026-09 | **Essentials - GenAI Protection** | Acronis | [Verify Record](https://www.credly.com/badges/34cf63a3-9c10-4ce1-8855-67ec2b1eb97d/linked_in_profile) |
+| 2026-09 | **Arcade Trail: Data Engineering and Security** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27755292?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-09 | **Create a Secure Data Lake on Cloud Storage Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/4ada156c-46b0-4169-98dc-dc5d4d8909f8/linked_in_profile) |
+| 2026-09 | **How to Hire Great Salespeople** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/210fffc3a65584f19f8258959b880846476317fcb9b7adc0856dbf5b567bfe73) |
+| 2026-09 | **Business Etiquette: Meetings, Meals, and Networking Events** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0011e1d69549f0bde10a13eab51744d155dab00cc0d1c64d66f6e3051683cab2) |
+| 2026-09 | **Create a Streaming Data Lake on Cloud Storage Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/29565065-0d38-4296-99fc-3ad644b89fc6/linked_in_profile) |
+| 2026-09 | **Certified Calico Operator - Level 1** | Tigera | [Verify Record](https://www.credly.com/badges/eda6d74d-ee37-4a6b-ae13-4f7182457edd/linked_in_profile) |
 | 2026-09 | **Customer Engagement Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/e87068f9-d137-4458-b709-5a851c02003f/linked_in_profile) |
 | 2026-09 | **Nano Tips to Future-Proof Your Organization and Stay Ahead of Disruption with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/59a7526686e2b88580f0a0da9efde591f6db920bdbb0cd4eb4c6980208b1d457) |
 | 2026-09 | **Nano Tips for Delegating to Peers with Melody Wilding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/29625279335d7fb8dd34e53051f9ef8047e60a433d0e690d788dcf5cce4e2498) |
@@ -1448,7 +1468,7 @@ This document represents a unified, verifiable list of all 1624 records.
 | 2026-03 | **Plan Your Cloud Next Generation Firewall Needs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691283?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Introduction to Cloud Next Generation Firewall** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691267?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Conversion Optimization Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/3c4afa84-5637-4c3b-b3fc-6e6c26e48d35) |
-| 2026-03 | **Human Skills in the Age of AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4) |
+| 2026-03 | **Human Skills in the Age of AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4) ⚠️ *Content retired* |
 | 2026-03 | **Grow Offline Sales Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/2d2774cb-bf2e-47c5-a286-86de5cc1bcd8) |
 | 2026-03 | **Microsoft Applied Skills: Generate reports with AI research agents** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/ABC20116B56C7F9F?sharingId) |
 | 2026-03 | **Search Ads 360 Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/5b477ad2-43c6-4789-af30-137f9f87f4c6) |
