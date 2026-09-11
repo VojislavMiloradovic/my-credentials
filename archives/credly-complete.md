@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 617 records.
+This document represents a unified, verifiable list of all 618 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-10T02:35:02.192589+00:00 -->
+<!-- retrieved_at: 2026-09-11T02:29:04.329656+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-10 | [Certified Calico Operator - Azure Expert](https://www.credly.com/badges/acb7859e-864b-4401-9c78-fbd6835a3454/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-09 | [Certified Calico Operator - AWS Expert](https://www.credly.com/badges/c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-09 | [Python Essentials 1](https://www.credly.com/badges/0ce437b3-fc46-48da-a95a-44061cbfb588/public_url) | Cisco | Credly Verified Badge |
 | 2026-09-08 | [AI Skills for Everyday Productivity Certificate](https://www.credly.com/badges/25478651-081d-4ce1-9ec8-9a16f4888064/public_url) | IBM SkillsBuild | Credly Verified Badge |
