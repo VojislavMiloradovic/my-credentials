@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 12 of 12
-date_range: 2026-08-28 to 2026-09-11
-total_entries: 42
+date_range: 2026-08-28 to 2026-09-12
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-12 | [Essentials - How to Migrate to the Acronis Cyber Platform](https://www.credly.com/badges/fa585e84-9608-46de-ae63-6f6577f58ac8/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-12 | [Essentials - How to Sell the Acronis Cyber Platform](https://www.credly.com/badges/d7515459-db41-43fd-b6f8-5b5b1344362f/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-12 | [Marketing Funnel Essentials](https://www.credly.com/badges/3e508494-0af6-4ecd-8087-b67a5997489e/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-11 | [Develop Serverless Applications on Cloud Run Skill Badge](https://www.credly.com/badges/de882ce6-face-43c9-95b2-db616dd32f16/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-11 | [AWS Educate Getting Started with Compute - Training Badge](https://www.credly.com/badges/1be6c262-db05-4138-bbe6-62e93c73e5ac/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-09-11 | [Data](https://www.credly.com/badges/62777e7e-63b5-4734-b345-e09dc1c49076/public_url) | Basis Technologies | Credly Verified Badge |
