@@ -40,13 +40,37 @@ except ImportError:
         return True
 
 
-# Content-Aware Loss Guard
-try:
-    from loss_guard import PipelineDataLossAnomaly, execute_content_loss_guard
-except ImportError:
-    # Fallback if loss_guard not available
-    execute_content_loss_guard = None
-    PipelineDataLossAnomaly = Exception
+# Loss Guard (shared orchestration)
+from loss_guard import (
+    generate_provider_baseline,
+    run_provider_loss_guards,
+)
+
+# ==============================================================================
+# BACKWARD COMPATIBILITY WRAPPERS
+# ==============================================================================
+
+
+def get_stored_archive_baseline_count() -> int:
+    """Backward-compatible wrapper for count-based baseline retrieval (monolith only)."""
+    from loss_guard import get_stored_archive_baseline_count as _get_count
+
+    return _get_count("microsoft-learn", None, ARCHIVE_MONOLITH)
+
+
+def execute_data_loss_guard(new_achievements: list[dict]) -> None:
+    """Backward-compatible wrapper for count-based loss guard."""
+    from loss_guard import execute_data_loss_guard as _execute_guard
+
+    return _execute_guard(new_achievements, "microsoft-learn", None, ARCHIVE_MONOLITH)
+
+
+def execute_content_loss_guard(*args, **kwargs):
+    """Backward-compatible wrapper for content-aware loss guard."""
+    from loss_guard import execute_content_loss_guard as _execute
+
+    return _execute(*args, **kwargs)
+
 
 # Layer Manifest Integration
 try:
@@ -195,8 +219,6 @@ MS_LEARN_PROFILE_URL = f"https://learn.microsoft.com/en-us/users/{MS_LEARN_PROFI
 
 MARKER_START = "<!-- MS_LEARN_START -->"
 MARKER_END = "<!-- MS_LEARN_END -->"
-
-MAX_ALLOWED_DATA_LOSS_PCT = 0.15  # Guard threshold for dataset drop protection
 
 
 # ==============================================================================
@@ -445,51 +467,6 @@ class MSVerifiableCredentialModel(ProvenanceBase):
 # ==============================================================================
 
 
-def get_stored_archive_baseline_count() -> int:
-    """Evaluates baseline record count from existing monolith markdown archive."""
-    if os.path.exists(ARCHIVE_MONOLITH):
-        try:
-            with open(ARCHIVE_MONOLITH, "r", encoding="utf-8") as f:
-                lines = f.readlines()
-            rows = [
-                l
-                for l in lines
-                if l.strip().startswith("|")
-                and not l.strip().startswith("| Achievement Title")
-                and ":---" not in l
-            ]
-            if rows:
-                return len(rows)
-        except OSError:
-            pass
-    return 0
-
-
-def execute_data_loss_guard(new_achievements: list[dict]) -> None:
-    """Loss Guard comparison against stored baseline count."""
-    old_count = get_stored_archive_baseline_count()
-    new_count = len(new_achievements)
-
-    logger.info(
-        f"ďż˝ďż˝ďż˝đź›ˇďż˝ďż˝ď¸Ź Loss Guard Check: Stored Archive Baseline = {old_count:,} items | Incoming Dataset = {new_count:,} items."
-    )
-
-    if old_count > 0 and new_count == 0:
-        raise PipelineDataLossAnomaly(
-            f"CRITICAL ANOMALY: Incoming export returned 0 achievements, but baseline contains {old_count}. Aborting sync."
-        )
-
-    if old_count > 0:
-        drop_ratio = (old_count - new_count) / float(old_count)
-        if drop_ratio > MAX_ALLOWED_DATA_LOSS_PCT:
-            raise PipelineDataLossAnomaly(
-                f"CRITICAL ANOMALY: Incoming achievement count ({new_count}) dropped by {drop_ratio:.1%} "
-                f"from baseline ({old_count}). Threshold: {MAX_ALLOWED_DATA_LOSS_PCT:.0%}. Aborting."
-            )
-
-    logger.info("ďż˝ďż˝âś… Loss Guard Assertion Passed: Incoming dataset verified.")
-
-
 def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
     """Generate layer metadata from manifest for a platform."""
     if not load_manifest:
@@ -585,30 +562,17 @@ def main():
         if marked > 0:
             logger.info(f"đź“ť Updated {marked} achievement(s) with retired status")
 
-    # 3. Execute Content-Aware Loss Guard against stored baseline
-    #    Uses stable record IDs (achievement 'id' field) and content hashes
-    #    to detect replacement/modification even when total count is stable.
-    if execute_content_loss_guard:
-        try:
-            execute_content_loss_guard(
-                new_records=validated_achievements,
-                platform="microsoft-learn",
-                id_field="id",  # MS Learn achievements have stable 'id' (e.g., EG94SBRP)
-                fail_on_warn=True,  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
-            )
-        except PipelineDataLossAnomaly as anomaly_err:
-            logger.error(f"âťŚ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
-            sys.exit(1)
-    else:
-        logger.warning(
-            "âš ď¸Ź Content-aware loss guard unavailable, falling back to count-only check"
-        )
-        # Fallback to original count-based loss guard
-        try:
-            execute_data_loss_guard(validated_achievements)
-        except PipelineDataLossAnomaly as anomaly_err:
-            logger.error(f"âťŚ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
-            sys.exit(1)
+    # Run loss guards (count + content-aware) via shared orchestration
+    run_provider_loss_guards(
+        validated_achievements,
+        "microsoft-learn",
+        monolith_path=ARCHIVE_MONOLITH,
+    )
+
+    # Generate baseline fingerprints for cross-artifact validation
+    generate_provider_baseline(validated_achievements, "microsoft-learn")
+
+    xp_profile = xp_data.get("xp", {})
 
     xp_profile = xp_data.get("xp", {}) or {}
     total_xp = "0"

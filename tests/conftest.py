@@ -535,20 +535,14 @@ def mock_loss_guard(monkeypatch):
     monkeypatch.setattr("loss_guard.execute_content_loss_guard", mock_execute)
     monkeypatch.setattr("loss_guard.PipelineDataLossAnomaly", mock_anomaly)
     # Also patch in modules that import it directly
-    monkeypatch.setattr("update_ms_learn.execute_content_loss_guard", mock_execute)
-    monkeypatch.setattr("update_google_skills.execute_content_loss_guard", mock_execute)
-    monkeypatch.setattr("update_aws_skills.execute_content_loss_guard", mock_execute)
-    monkeypatch.setattr("update_credly_badges.execute_content_loss_guard", mock_execute)
     monkeypatch.setattr("update_linkedin.execute_content_loss_guard", mock_execute)
     monkeypatch.setattr(
         "update_google_developer.execute_content_loss_guard", mock_execute
     )
-    monkeypatch.setattr("update_ms_learn.PipelineDataLossAnomaly", mock_anomaly)
-    monkeypatch.setattr("update_google_skills.PipelineDataLossAnomaly", mock_anomaly)
-    monkeypatch.setattr("update_aws_skills.PipelineDataLossAnomaly", mock_anomaly)
-    monkeypatch.setattr("update_credly_badges.PipelineDataLossAnomaly", mock_anomaly)
+    # Only patch PipelineDataLossAnomaly in modules that still define it
     monkeypatch.setattr("update_linkedin.PipelineDataLossAnomaly", mock_anomaly)
     monkeypatch.setattr("update_google_developer.PipelineDataLossAnomaly", mock_anomaly)
+    # Note: update_credly_badges, update_ms_learn, update_aws_skills, update_google_skills no longer define PipelineDataLossAnomaly
     return mock_execute
 
 

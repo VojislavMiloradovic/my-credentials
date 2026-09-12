@@ -4,7 +4,7 @@ Provider Contract Tests
 
 Semantic field-level validation for all 6 credential pipelines.
 Tests that dates, titles, URLs, status, and provenance remain
-correct after transformations at each layer (L0→L1→L2→L3).
+correct after transformations at each layer (L0â†’L1â†’L2â†’L3).
 """
 
 import json
@@ -12,7 +12,7 @@ import sys
 import tempfile
 from datetime import UTC, datetime
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
 import pytest
 
@@ -102,8 +102,14 @@ def mock_archiver():
 @pytest.fixture
 def mock_loss_guard():
     """Mock loss guard to avoid baseline file checks."""
-    with patch("update_ms_learn.execute_content_loss_guard") as mock:
-        yield mock
+    mock_execute = MagicMock()
+    mock_anomaly = type("PipelineDataLossAnomaly", (Exception,), {})
+    with (
+        patch("update_ms_learn.execute_content_loss_guard", mock_execute),
+        patch("loss_guard.execute_content_loss_guard", mock_execute),
+        patch("loss_guard.PipelineDataLossAnomaly", mock_anomaly),
+    ):
+        yield mock_execute
 
 
 @pytest.fixture
@@ -121,7 +127,7 @@ def mock_retired_rules():
 class TestMicrosoftLearnContracts:
     """Provider contract tests for Microsoft Learn pipeline."""
 
-    # --- L0→L1: Raw JSON → Normalized Validation ---
+    # --- L0â†’L1: Raw JSON â†’ Normalized Validation ---
 
     def test_ms_learn_l0_to_l1_achievement_model_fields(self, sample_ms_learn_json):
         """Achievement model validates and coerces all required fields correctly."""
@@ -316,7 +322,7 @@ class TestMicrosoftLearnContracts:
         assert resolve_level({}, {"totalXp": 6000000}, 6000000) == "20"
         assert resolve_level({}, {}, 0) == "20"  # Default fallback
 
-    # --- L1→L2: Normalized → Archive Markdown ---
+    # --- L1â†’L2: Normalized â†’ Archive Markdown ---
 
     def test_ms_learn_l1_to_l2_archive_rows_correct(
         self,
@@ -434,7 +440,7 @@ class TestMicrosoftLearnContracts:
             "Verification status should reflect retired state"
         )
 
-    # --- L2→L3: Archive → README/llms ---
+    # --- L2â†’L3: Archive â†’ README/llms ---
 
     def test_ms_learn_l2_to_l3_readme_marker_content(
         self,

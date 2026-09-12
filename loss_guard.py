@@ -743,13 +743,25 @@ def get_stored_archive_baseline_count(
             # Find the separator row (contains :--- or ---)
             separator_idx = -1
             for i, row in enumerate(table_rows):
-                if ":---" in row or (row.count("---") >= 2 and not any(h in row.lower() for h in ["title", "achievement", "badge", "credential", "certification"])):
+                if ":---" in row or (
+                    row.count("---") >= 2
+                    and not any(
+                        h in row.lower()
+                        for h in [
+                            "title",
+                            "achievement",
+                            "badge",
+                            "credential",
+                            "certification",
+                        ]
+                    )
+                ):
                     separator_idx = i
                     break
 
             # Data rows are AFTER the separator
             if separator_idx >= 0 and separator_idx + 1 < len(table_rows):
-                data_rows = table_rows[separator_idx + 1:]
+                data_rows = table_rows[separator_idx + 1 :]
             elif separator_idx == -1:
                 # No separator found - assume first row is header, rest are data
                 data_rows = table_rows[1:] if len(table_rows) > 1 else []
@@ -914,7 +926,9 @@ def generate_provider_baseline(
         logger.info(f"💾 [{provider_name} ({stream_id})] Generating stream baseline...")
         return save_baseline(
             provider_name,
-            build_fingerprint_index(new_records, config.get("id_field", "id"), provider_name),
+            build_fingerprint_index(
+                new_records, config.get("id_field", "id"), provider_name
+            ),
             stream_id,
         )
     else:
@@ -922,7 +936,9 @@ def generate_provider_baseline(
         logger.info(f"💾 [{provider_name}] Generating baseline...")
         return save_baseline(
             provider_name,
-            build_fingerprint_index(new_records, config.get("id_field", "id"), provider_name),
+            build_fingerprint_index(
+                new_records, config.get("id_field", "id"), provider_name
+            ),
         )
 
 
@@ -953,7 +969,9 @@ def generate_all_provider_baselines(
     for stream in streams:
         # For now, all streams use the combined feed
         # In future, could filter records per stream
-        success = generate_provider_baseline(new_records, provider_name, stream_id=stream)
+        success = generate_provider_baseline(
+            new_records, provider_name, stream_id=stream
+        )
         results[stream] = success
 
     return results

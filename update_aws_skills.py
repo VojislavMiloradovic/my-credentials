@@ -50,13 +50,36 @@ except ImportError:
         return True
 
 
-# Content-Aware Loss Guard
-try:
-    from loss_guard import PipelineDataLossAnomaly, execute_content_loss_guard
-except ImportError:
-    # Fallback if loss_guard not available
-    execute_content_loss_guard = None
-    PipelineDataLossAnomaly = Exception
+# # Loss Guard (shared orchestration)
+from loss_guard import (
+    generate_provider_baseline,
+    run_provider_loss_guards,
+)
+
+# ==============================================================================
+# BACKWARD COMPATIBILITY WRAPPERS
+# ==============================================================================
+
+
+def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int:
+    """Backward-compatible wrapper for count-based baseline retrieval."""
+    from loss_guard import get_stored_archive_baseline_count as _get_count
+
+    return _get_count("aws-skills", json_path, monolith_path)
+
+
+def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
+    """Backward-compatible wrapper for count-based loss guard."""
+    from loss_guard import execute_data_loss_guard as _execute_guard
+
+    return _execute_guard(new_badges, "aws-skills", output_file, ARCHIVE_MONOLITH)
+
+
+def execute_content_loss_guard(*args, **kwargs):
+    """Backward-compatible wrapper for content-aware loss guard."""
+    from loss_guard import execute_content_loss_guard as _execute
+
+    return _execute(*args, **kwargs)
 
 
 def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
@@ -211,9 +234,7 @@ MARKER_START = "<!-- AWS_SKILLS_START -->"
 MARKER_END = "<!-- AWS_SKILLS_END -->"
 
 # Data Loss / Anomaly Guard Tolerances
-MAX_ALLOWED_DATA_LOSS_PCT = (
-    0.15  # Fail if new badge count drops >15% below stored baseline
-)
+
 
 HEADERS = {
     "User-Agent": (
@@ -389,87 +410,6 @@ class AwsSkillsArchivePayloadModel(BaseModel):
     profile_user: str
     total_count: int = Field(ge=0)
     badges: list[AwsBadgeItemModel]
-
-
-# ==============================================================================
-# ANOMALY & LOSS GUARD ASSERTIONS
-# ==============================================================================
-
-
-class PipelineDataLossAnomaly(Exception):
-    """Raised when incoming dataset drops drastically below previous archive baseline."""
-
-
-def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int:
-    """Evaluates baseline record count from existing JSON or monolith archive markdown."""
-    candidate_json_paths = [
-        json_path,
-        OUTPUT_FILENAME,
-        "aws_skills_badges.json",
-        os.path.join("data", OUTPUT_FILENAME),
-    ]
-    for path in candidate_json_paths:
-        if os.path.exists(path):
-            try:
-                with open(path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    count = (
-                        data.get("total_count", len(data.get("badges", [])))
-                        if isinstance(data, dict)
-                        else len(data)
-                    )
-                    if count > 0:
-                        return count
-            except (json.JSONDecodeError, OSError):
-                pass
-
-    if os.path.exists(monolith_path):
-        try:
-            with open(monolith_path, "r", encoding="utf-8") as f:
-                lines = f.readlines()
-            rows = [
-                l
-                for l in lines
-                if l.strip().startswith("|")
-                and not l.strip().startswith("| Date")
-                and ":---" not in l
-            ]
-            if len(rows) > 0:
-                return len(rows)
-        except OSError:
-            pass
-
-    return 0
-
-
-def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
-    """
-    Loss Guard: Compares incoming badge count against stored baseline (JSON or Markdown Monolith).
-    Prevents empty or broken fetches from wiping out stored credential records.
-    """
-    old_count = get_stored_archive_baseline_count(output_file, ARCHIVE_MONOLITH)
-    new_count = len(new_badges)
-
-    logger.info(
-        f"🛡️ Loss Guard Check: Stored Archive Baseline = {old_count} badges | Incoming Dataset = {new_count} badges."
-    )
-
-    if old_count > 0 and new_count == 0:
-        raise PipelineDataLossAnomaly(
-            f"CRITICAL ANOMALY: Incoming fetch returned 0 badges, but stored archive baseline contains {old_count}. Aborting sync."
-        )
-
-    if old_count > 0:
-        drop_ratio = (old_count - new_count) / float(old_count)
-        if drop_ratio > MAX_ALLOWED_DATA_LOSS_PCT:
-            raise PipelineDataLossAnomaly(
-                f"CRITICAL ANOMALY: Incoming badge count ({new_count}) dropped by {drop_ratio:.1%} "
-                f"from baseline ({old_count}). Maximum allowed drop threshold is {MAX_ALLOWED_DATA_LOSS_PCT:.0%}. Aborting write."
-            )
-
-    logger.info(
-        "✅ Loss Guard Assertion Passed: Incoming payload verified against archive baseline."
-    )
 
 
 # ==============================================================================
@@ -907,31 +847,15 @@ def main():
             seen.add(dedup_key)
             unique_badges.append(badge)
 
-    # 1. Execute Content-Aware Loss Guard check against previous baseline
-    #    Uses stable badge IDs and content hashes to detect replacement/modification
-    #    even when total badge count remains stable.
-    if execute_content_loss_guard:
-        try:
-            execute_content_loss_guard(
-                new_records=unique_badges,
-                platform="aws-skills",
-                id_field="id",  # AWS badges have stable 'id' field
-                fail_on_warn=True,  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
-            )
-        except PipelineDataLossAnomaly as anomaly_err:
-            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
-            sys.exit(1)
-    else:
-        logger.warning(
-            "⚠️ Content-aware loss guard unavailable, falling back to count-only check"
-        )
-        try:
-            execute_data_loss_guard(unique_badges, OUTPUT_FILE)
-        except PipelineDataLossAnomaly as anomaly_err:
-            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
-            sys.exit(1)
+    # Run loss guards (count + content-aware) via shared orchestration
+    run_provider_loss_guards(
+        unique_badges,
+        "aws-skills",
+        json_path=OUTPUT_FILE,
+        monolith_path=ARCHIVE_MONOLITH,
+    )
 
-    # 2. Retired URL / Identity detection
+    # 2. Retired URL / Identity detection    # 2. Retired URL / Identity detection
     retired_rules = load_retired_rules("aws-skills")
     if retired_rules:
         _, marked = mark_retired(unique_badges, retired_rules, url_field="verify_url")
@@ -958,20 +882,10 @@ def main():
         logger.error(f"❌ Root Payload Validation Error: {ve}")
         sys.exit(1)
 
-    # Generate and save baseline fingerprints for L1_normalized (badges)
-    if execute_content_loss_guard:
-        try:
-            execute_content_loss_guard(
-                unique_badges,
-                platform="aws-skills",
-                id_field="id",
-                fail_on_warn=False,
-            )
-            logger.info("📋 Baseline fingerprints updated for aws-skills")
-        except Exception as e:
-            logger.warning(f"⚠️ Could not update baseline: {e}")
+    # Generate baseline fingerprints for cross-artifact validation
+    generate_provider_baseline(unique_badges, "aws-skills")
 
-    # 4. Build markdown archives and update README
+    # 4. Build markdown archives and update README    # 4. Build markdown archives and update README
     build_archives_and_readme(unique_badges)
     logger.info("Pipeline execution completed successfully.")
 
