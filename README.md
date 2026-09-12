@@ -62,11 +62,11 @@ Showing latest 10 of 4,831 achievements. View full dataset via [Platform Archive
 
 | Metric | Count |
 | :--- | :---: |
-| **Check** | 1,976 |
+| **Check** | 1,986 |
 | **Classroom** | 0 |
-| **Course** | 393 |
-| **Game** | 9 |
-| **Lab** | 298 |
+| **Course** | 396 |
+| **Game** | 10 |
+| **Lab** | 311 |
 | **Lesson** | 4,985 |
 | **Path** | 20 |
 
