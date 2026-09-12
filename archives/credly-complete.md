@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 623 records.
+This document represents a unified, verifiable list of all 624 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-12T02:37:17.601653+00:00 -->
+<!-- retrieved_at: 2026-09-12T04:56:13.193070+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-11 | [Develop Serverless Applications on Cloud Run Skill Badge](https://www.credly.com/badges/de882ce6-face-43c9-95b2-db616dd32f16/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-11 | [AWS Educate Getting Started with Compute - Training Badge](https://www.credly.com/badges/1be6c262-db05-4138-bbe6-62e93c73e5ac/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-09-11 | [Data](https://www.credly.com/badges/62777e7e-63b5-4734-b345-e09dc1c49076/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-11 | [Data Essentials](https://www.credly.com/badges/3edec3e1-d0d2-400b-82c1-7da1d34ec078/public_url) | Basis Technologies | Credly Verified Badge |

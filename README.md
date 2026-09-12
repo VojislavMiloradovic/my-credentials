@@ -135,15 +135,16 @@ Showing latest 10 of 819 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 623
-**Total Verified Skills Mapped:** 2175
+**Total Portfolio Credentials:** 624
+**Total Verified Skills Mapped:** 2179
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 623 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 624 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-11 | [Develop Serverless Applications on Cloud Run Skill Badge](https://www.credly.com/badges/de882ce6-face-43c9-95b2-db616dd32f16/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-11 | [AWS Educate Getting Started with Compute - Training Badge](https://www.credly.com/badges/1be6c262-db05-4138-bbe6-62e93c73e5ac/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-09-11 | [Data](https://www.credly.com/badges/62777e7e-63b5-4734-b345-e09dc1c49076/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-11 | [Data Essentials](https://www.credly.com/badges/3edec3e1-d0d2-400b-82c1-7da1d34ec078/public_url) | Basis Technologies | Credly Verified Badge |
@@ -153,7 +154,6 @@ Showing latest 10 of 623 credentials. View full dataset via [Platform Archive In
 | 2026-09-09 | [Certified Calico Operator - AWS Expert](https://www.credly.com/badges/c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c/public_url) | Tigera | Credly Verified Badge |
 | 2026-09-09 | [Python Essentials 1](https://www.credly.com/badges/0ce437b3-fc46-48da-a95a-44061cbfb588/public_url) | Cisco | Credly Verified Badge |
 | 2026-09-08 | [AI Skills for Everyday Productivity Certificate](https://www.credly.com/badges/25478651-081d-4ce1-9ec8-9a16f4888064/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-09-08 | [Essentials - Acronis Cyber Platform: Protect](https://www.credly.com/badges/ebf6e15e-64fa-4202-ab26-fd7cbea90484/public_url) | Acronis | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
