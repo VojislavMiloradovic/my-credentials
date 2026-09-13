@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 2 of 34
+chunk_part: 2 of 35
 date_range: 2026-05-20 to 2026-05-20
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-02.md
@@ -30,7 +30,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-05-20 | **Add Gemini capabilities to your Android app** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/gemini-summarize |
 | 2026-05-20 | **AlloyDB AI Operators and Reranking** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-operators |
 | 2026-05-20 | **Bitbucket - Code Review Automation with GenAI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/genai-for-dev-bitbucket-code-review |
-| 2026-05-20 | **AlloyDB Omni and EmbeddingGemma on Kubernetes.** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-gke-embeddings |
+| 2026-05-20 | **AlloyDB Omni and EmbeddingGemma with Gemma 4 on Kubernetes** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-gke-embeddings |
 | 2026-05-20 | **Android App Resizing** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/android-resizing |
 | 2026-05-20 | **Access files in Cloud Storage with the Spring Resource abstraction** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/spring-cloud-gcp-gcs |
 | 2026-05-20 | **Advanced Android in Kotlin 03.2: Animation with MotionLayout** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/motion-layout |

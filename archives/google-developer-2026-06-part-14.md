@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 14 of 34
+chunk_part: 14 of 35
 date_range: 2026-06-02 to 2026-06-03
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-14.md
@@ -59,7 +59,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-02 | **Build gen AI features powered by your data with Genkit** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/ai-genkit-rag |
 | 2026-06-02 | **Building Beautiful Transitions with Material Motion for Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/material-motion-flutter |
 | 2026-06-02 | **Connect a Spring Boot app to Cloud SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-petclinic-cloudsql |
-| 2026-06-02 | **Quiz - Onboard and launch a location** | Verified Google Developer learning activity. URL: https://developers.google.com/business-communications/business-messages/quizzes/onboard-location |
+| 2026-06-02 | **developers.google.com/business-communications/business-messages/quizzes/onboard-location** | Verified Google Developer learning activity. URL: https://developers.google.com/business-communications/business-messages/quizzes/onboard-location |
 | 2026-06-02 | **Distributed tracing with Spring Cloud Sleuth and Cloud Trace** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-cloud-gcp-trace |
 | 2026-06-02 | **Build, containerize, and deploy Spring Boot apps on Google Cloud quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/java-cloud-fundamentals/build-containerize-deploy-spring-boot-apps-on-google-cloud |
 

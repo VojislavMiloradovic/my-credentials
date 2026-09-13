@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 34 of 34
+chunk_part: 34 of 35
 date_range: 2026-08-07 to 2026-08-31
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-34.md
@@ -11,7 +11,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 # Google Developer Profile — Part 34
 
-> **Navigation:** Prev: [google-developer-2026-08-part-33.md](./google-developer-2026-08-part-33.md) | [Index](./google-developer-index.md) | Next: None | [Complete Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-08-part-33.md](./google-developer-2026-08-part-33.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-35.md](./google-developer-2026-09-part-35.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
@@ -64,5 +64,5 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08-07 | **Build a Multi-Agent Organic Chemistry Safety & Research Assistant with Antigravity, agents-cli, ADK & MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-parallel-multi-agent-chemistry-assistant |
 
 ---
-> **Navigation:** Prev: [google-developer-2026-08-part-33.md](./google-developer-2026-08-part-33.md) | [Index](./google-developer-index.md) | Next: None
+> **Navigation:** Prev: [google-developer-2026-08-part-33.md](./google-developer-2026-08-part-33.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-35.md](./google-developer-2026-09-part-35.md)
 

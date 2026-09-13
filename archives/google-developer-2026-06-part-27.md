@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 27 of 34
+chunk_part: 27 of 35
 date_range: 2026-06-10 to 2026-06-13
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-27.md
@@ -38,7 +38,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-10 | **Module 11: Migrating from Google App Engine to Cloud Functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-11-functions |
 | 2026-06-10 | **Building Applications in the AI Era** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/building-applications-in-the-ai-era |
 | 2026-06-10 | **Cloud Armor for NLB/VM with User Defined Rules** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ca4nlb-phase2 |
-| 2026-06-10 | **Module 3: Migrate from Google Cloud NDB to Cloud Datastore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-3-datastore |
+| 2026-06-10 | **codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-3-datastore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-3-datastore |
 | 2026-06-10 | **Getting Started with gRPC-Python - Streaming** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/getting-started-grpc-python-streaming |
 | 2026-06-10 | **Migrate from App Engine Memcache to Cloud Memorystore (Module 13)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-13-memorystore |
 | 2026-06-10 | **Build an Interactive Canvas Action for Google Assistant with Actions Builder** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/builder-canvas |

@@ -200,20 +200,25 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 
 | Metric | Count |
 | :--- | :--- |
-| **Total Milestones & Milestone Badges** | 4 |
-| **Total Codelabs & Learning Activities** | 1 |
+| **Total Milestones & Milestone Badges** | 172 |
+| **Total Codelabs & Learning Activities** | 1,635 |
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-09-part-35.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| *2024-08-17* | **Setup Basic OpenTelemetry Plugin in gRPC Python** | Verified Google Developer granular learning activity module milestone. |
-| *2024-01-17* | **Cloud Architect** | Official Google Developer platform achievement (Learning Pathway: cloud architect). |
-| *2024-01-17* | **Data Engineer** | Official Google Developer platform achievement (Learning Pathway: data engineer). |
-| *2024-01-15* | **Cloud Architecture** | Official Google Developer platform achievement (Learning Pathway: cloud architecture). |
-| *2024-01-15* | **Data Engineering** | Official Google Developer platform achievement (Learning Pathway: data engineering). |
+| *2026-09-12* | **Add a user authentication flow to a Flutter app using FirebaseUI** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-auth-in-flutter-apps |
+| *2026-09-12* | **Introduction to Google's Antigravity – Build your own NUS shuttle bus timing web app and Telegram bot** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-nus-transit-hub-antigravity |
+| *2026-09-12* | **Install and use Google Cloud Developer plugin in Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-dev-plugin-agy |
+| *2026-09-08* | **Vibetube Ads: Agentic Data Engineering** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vibetube-ads-agentic-data-engineering/instructions |
+| *2026-09-08* | **Advanced ADK Evaluation with LLM-as-a-Judge Method** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/advanced-adk-evaluation-with-llm-as-a-judge |
+| *2026-09-08* | **Secure Your Application with CodeMender** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/secure-app-with-codemender |
+| *2026-09-08* | **MDC-111 Android: Incorporating Material Components into your codebase (Kotlin)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mdc-111-kotlin |
+| *2026-09-08* | **Jenkins Multi-branch Pipeline on GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/jenkins-pipeline-gke |
+| *2026-09-08* | **Platform engineering on Managed Service for Apache Spark using Gemini and MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/managed-spark-ai-toolkit |
+| *2026-09-08* | **Use Actions on Google to make your home smarter** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/aog-smart-home |
 <!-- GOOGLE_DEVELOPER_END -->
 
 

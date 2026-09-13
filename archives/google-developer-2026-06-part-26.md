@@ -1,6 +1,6 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 26 of 34
+chunk_part: 26 of 35
 date_range: 2026-06-09 to 2026-06-10
 total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-26.md
@@ -33,7 +33,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-10 | **Provisioning and Using a Managed Hadoop/Spark Cluster with Cloud Dataproc (Command Line)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-dataproc-gcloud |
 | 2026-06-10 | **Read BigQuery ML predictions in SAP using ABAP SDK for Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/abap-sdk/bigquery-ml |
 | 2026-06-10 | **Getting started with Standalone Components** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/angular-standalone-components |
-| 2026-06-10 | **Module 6: Migrate from Cloud Datastore to Cloud Firestore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-6-firestore |
+| 2026-06-10 | **codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-6-firestore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-6-firestore |
 | 2026-06-10 | **Using Private Service Connect for Google APIs to Access Gemini over a Hybrid Connection** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-hybridGemini |
 | 2026-06-10 | **Introduction to ARCore Recording and Playback API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/arcore-record-and-playback-intro |
 | 2026-06-10 | **Deploy ASP.NET Core app to Google Kubernetes Engine with Istio (Part 1)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-istio-aspnetcore-part1 |
