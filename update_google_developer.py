@@ -19,6 +19,9 @@ from email import policy
 from typing import Any, ClassVar
 from urllib.parse import unquote
 
+# Ensure the script's directory is in sys.path for local imports (e.g., archiver)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 import requests
 from bs4 import BeautifulSoup
 from pydantic import Field, ValidationError, field_validator
@@ -32,7 +35,6 @@ try:
         RAW_BASE_DEFAULT,
         generate_platform_archive,
         safe_write_file,
-        update_readme_stats,
     )
 except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
@@ -46,10 +48,19 @@ except ImportError:
 
 # Content-Aware Loss Guard
 try:
-    from loss_guard import PipelineDataLossAnomaly, execute_content_loss_guard
+    from loss_guard import (
+        PipelineDataLossAnomaly,
+        execute_content_loss_guard,
+        generate_all_provider_baselines,
+        generate_provider_baseline,
+        run_provider_loss_guards,
+    )
 except ImportError:
     # Fallback if loss_guard not available
     execute_content_loss_guard = None
+    run_provider_loss_guards = None
+    generate_provider_baseline = None
+    generate_all_provider_baselines = None
     PipelineDataLossAnomaly = Exception
 
 # Layer Manifest Integration
@@ -826,39 +837,15 @@ def main():
         )
         sys.exit(1)
 
-    # 1. Execute Content-Aware Loss Guard against stored baseline
-    #    Uses title + date hash as stable ID (no native ID in Google Developer data)
-    #    to detect replacement/modification even when total count remains stable.
-    # Note: Migration from google_learnings.txt to MHTML causes expected drop
-    # (txt had ~1471 entries, MHTML shows last 1000 codelabs). Treat as warning.
-    if execute_content_loss_guard:
-        try:
-            execute_content_loss_guard(
-                new_records=combined_feed,
-                platform="google-developer",
-                id_field="title",
-                fail_on_warn=False,  # Allow warnings (migration drop) without failing
-                stream_id="combined",
-            )
-            logger.info("✅ Content Loss Guard passed.")
-        except PipelineDataLossAnomaly as anomaly_err:
-            logger.warning(
-                f"⚠️ Content Loss Guard triggered (expected during MHTML migration): {anomaly_err}"
-            )
-            logger.warning("⚠️ Continuing pipeline with new MHTML data...")
-    else:
-        logger.warning(
-            "⚠️ Content-aware loss guard unavailable, falling back to count-only check"
-        )
-        try:
-            execute_data_loss_guard(combined_feed)
-        except PipelineDataLossAnomaly as anomaly_err:
-            logger.warning(
-                f"⚠️ Count Loss Guard triggered (expected during MHTML migration): {anomaly_err}"
-            )
-            logger.warning("⚠️ Continuing pipeline with new MHTML data...")
+    # Run loss guards (count + content-aware) via shared orchestration
+    # For google-developer, we use fail_on_warn=False (warn instead of fail)
+    run_provider_loss_guards(
+        combined_feed,
+        "google-developer",
+        fail_on_warn=False,
+    )
 
-    # 2. Retired URL / Identity detection
+    # 2. Retired URL / Identity detection    # 2. Retired URL / Identity detection
     retired_rules = load_retired_rules("google-developer")
     if retired_rules:
         _, marked = mark_retired(combined_feed, retired_rules, url_field="url")
@@ -890,37 +877,10 @@ def main():
     except Exception as e:
         logger.warning(f"⚠️ Could not persist full data: {e}")
 
-    # Generate and save baseline fingerprints for L1_normalized streams
-    if execute_content_loss_guard:
-        try:
-            # Google Developer has two L1 streams: public_badges and detailed_learnings
-            execute_content_loss_guard(
-                public_badges,
-                platform="google-developer",
-                id_field="title",  # Uses title+date for ID (see loss_guard extract_record_id)
-                fail_on_warn=False,
-                stream_id="public_badges",
-            )
-            execute_content_loss_guard(
-                detailed_learnings,
-                platform="google-developer",
-                id_field="title",
-                fail_on_warn=False,
-                stream_id="detailed_learnings",
-            )
-            # Also baseline the combined_feed for cross-check
-            execute_content_loss_guard(
-                combined_feed,
-                platform="google-developer",
-                id_field="title",
-                fail_on_warn=False,
-                stream_id="combined",
-            )
-            logger.info("✅ Baseline fingerprints saved for google-developer streams")
-        except Exception as e:
-            logger.warning(f"⚠️ Could not save baseline: {e}")
+    # Generate baseline fingerprints for cross-artifact validation
+    generate_all_provider_baselines(combined_feed, "google-developer")
 
-    # 3. Export L2 archive
+    # 3. Export L2 archive    # 3. Export L2 archive
     archive_dir = ARCHIVE_DIR
     os.makedirs(archive_dir, exist_ok=True)
     archive_file = os.path.join(archive_dir, "google-developer.json")
