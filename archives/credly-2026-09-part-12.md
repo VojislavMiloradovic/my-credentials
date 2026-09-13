@@ -1,0 +1,73 @@
+---
+archive_platform: Credly Verified Credentials
+chunk_part: 12 of 12
+date_range: 2026-08-28 to 2026-09-13
+total_entries: 52
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: archive_complete, archive_index, jsonld
+---
+
+# Credly Verified Credentials — Part 12
+
+> **Navigation:** Prev: [credly-2026-08-part-11.md](./credly-2026-08-part-11.md) | [Index](./credly-index.md) | Next: None | [Complete Archive](./credly-complete.md)
+
+| Date Earned | Credential Name | Issuer | Verification Type |
+| :---: | :--- | :--- | :---: |
+| 2026-09-13 | [Optimizing Generative AI](https://www.credly.com/badges/e84dce14-33be-4673-973b-498fd69a1516/public_url) | Cisco | Credly Verified Badge |
+| 2026-09-12 | [Basis Foundations](https://www.credly.com/badges/f1c081b3-4bd3-44dc-b4eb-4f90a306534c/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-12 | [Code Generation and Optimization Using IBM Granite](https://www.credly.com/badges/a5c6bf0b-8465-41f8-b777-2216d2d49c52/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-12 | [Contextual Targeting Essentials](https://www.credly.com/badges/ff453cbb-dd77-4fc6-b12f-7d63dcffbc30/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-12 | [Direct Buying Essentials](https://www.credly.com/badges/7d5eaa4b-76f9-41e9-ad7d-ab4c15b0378f/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-12 | [Essentials - How to Migrate to the Acronis Cyber Platform](https://www.credly.com/badges/fa585e84-9608-46de-ae63-6f6577f58ac8/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-12 | [Essentials - How to Sell the Acronis Cyber Platform](https://www.credly.com/badges/d7515459-db41-43fd-b6f8-5b5b1344362f/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-12 | [Information Technology Fundamentals](https://www.credly.com/badges/a189c2dc-a907-43b0-802e-9448393045c0/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-12 | [Marketing Funnel Essentials](https://www.credly.com/badges/3e508494-0af6-4ecd-8087-b67a5997489e/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-12 | [Search Essentials](https://www.credly.com/badges/6dcbc4f5-606f-40e0-9c59-6eab487481a3/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-11 | [Develop Serverless Applications on Cloud Run Skill Badge](https://www.credly.com/badges/de882ce6-face-43c9-95b2-db616dd32f16/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-09-11 | [AWS Educate Getting Started with Compute - Training Badge](https://www.credly.com/badges/1be6c262-db05-4138-bbe6-62e93c73e5ac/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-09-11 | [Data](https://www.credly.com/badges/62777e7e-63b5-4734-b345-e09dc1c49076/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-11 | [Data Essentials](https://www.credly.com/badges/3edec3e1-d0d2-400b-82c1-7da1d34ec078/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-11 | [Digital Media Essentials](https://www.credly.com/badges/6349cc21-2ec7-414b-ad91-9a24a869e0a1/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-11 | [Programmatic Essentials](https://www.credly.com/badges/c13f56ad-cf6b-4e39-b941-53df80b3e391/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-10 | [Certified Calico Operator - Azure Expert](https://www.credly.com/badges/acb7859e-864b-4401-9c78-fbd6835a3454/public_url) | Tigera | Credly Verified Badge |
+| 2026-09-09 | [Certified Calico Operator - AWS Expert](https://www.credly.com/badges/c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c/public_url) | Tigera | Credly Verified Badge |
+| 2026-09-09 | [Python Essentials 1](https://www.credly.com/badges/0ce437b3-fc46-48da-a95a-44061cbfb588/public_url) | Cisco | Credly Verified Badge |
+| 2026-09-08 | [AI Skills for Everyday Productivity Certificate](https://www.credly.com/badges/25478651-081d-4ce1-9ec8-9a16f4888064/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-08 | [Essentials - Acronis Cyber Platform: Protect](https://www.credly.com/badges/ebf6e15e-64fa-4202-ab26-fd7cbea90484/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-08 | [Essentials - GenAI Protection](https://www.credly.com/badges/34cf63a3-9c10-4ce1-8855-67ec2b1eb97d/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-08 | [Professional Growth and Future Readiness with AI](https://www.credly.com/badges/93d024cb-0d8e-40b6-b352-8071dbf9d6f1/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-08 | [Create a Secure Data Lake on Cloud Storage Skill Badge](https://www.credly.com/badges/4ada156c-46b0-4169-98dc-dc5d4d8909f8/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-09-08 | [Create a Streaming Data Lake on Cloud Storage Skill Badge](https://www.credly.com/badges/29565065-0d38-4296-99fc-3ad644b89fc6/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-09-07 | [Certified Calico Operator - Level 1](https://www.credly.com/badges/eda6d74d-ee37-4a6b-ae13-4f7182457edd/public_url) | Tigera | Credly Verified Badge |
+| 2026-09-07 | [Customer Engagement Fundamentals](https://www.credly.com/badges/e87068f9-d137-4458-b709-5a851c02003f/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-06 | [Fundamentals of Sustainability and Technology](https://www.credly.com/badges/a63511de-b258-41ad-8857-cf4d37931964/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-04 | [Career Management Essentials](https://www.credly.com/badges/2a1cf5d5-5ba0-4d9a-86ad-a1c1b920f2e8/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-04 | [Essentials - Acronis Cyber Platform: Automate](https://www.credly.com/badges/47021d40-dba0-4fa9-8853-e28fe207dea1/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-04 | [Essentials - Acronis Cyber Platform: Manage](https://www.credly.com/badges/dc4210de-cbe7-47f4-97b8-ecbb7df7becd/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-04 | [Lifelong Professional Skills](https://www.credly.com/badges/e981ea1d-c27f-4baf-9811-f8eb8a44c7cd/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-02 | [Derive Insights from BigQuery Data Skill Badge](https://www.credly.com/badges/01067a7c-6951-46f0-bac8-40238c8d8fd2/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-09-01 | [AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-09-01 | [Certified Calico Operator - eBPF](https://www.credly.com/badges/ca8ed339-7ffe-46d4-a810-153f3f41f76a/public_url) | Tigera | Credly Verified Badge |
+| 2026-08-31 | [Retrieval-Augmented Generation for Enhanced AI Outputs](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-08-31 | [Cloud Tech Professional XDR](https://www.credly.com/badges/7576a471-6531-4ba8-8133-a367cbbea9a0/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-31 | [EDR Basic Course](https://www.credly.com/badges/f47fe6a0-2dfc-4afb-8ca2-df6914a9dfca/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-31 | [Generative AI in Action](https://www.credly.com/badges/1c239877-da1b-4c2e-87d3-713550512b3c/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-08-31 | [MSP Academy: Corporate Social Responsibility (CSR) in a Box](https://www.credly.com/badges/3c66a5ea-7ceb-4706-a1ae-552dc9f55bdc/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-31 | [MSP Academy: Cyber Scripting](https://www.credly.com/badges/08f1b56f-b3eb-41af-9553-5cc25976d29e/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-31 | [MSP Academy: Disaster Recovery](https://www.credly.com/badges/4aae4192-7870-4fbc-8644-06db35ece843/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-31 | [MSP Academy: Maximizing Your Business Efficiency](https://www.credly.com/badges/8b9124df-62b5-4111-8029-b4fd9b558ea4/public_url) | Acronis | Credly Verified Badge |
+| 2026-08-31 | [Share Data Using Google Data Cloud Skill Badge](https://www.credly.com/badges/35d9f8d7-dc3e-4f66-9ec8-d83eeb50882f/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-30 | [Implement CI/CD Pipelines on Google Cloud Skill Badge](https://www.credly.com/badges/a15b509b-48e1-47dc-96f7-6e36d36e0412/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-30 | [Manage Kubernetes in Google Cloud Skill Badge](https://www.credly.com/badges/28a8c491-f478-4684-96b4-9bac1b172a39/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-30 | [Artificial Intelligence Fundamentals](https://www.credly.com/badges/aac932d8-d7d0-4966-a8a3-eca0e69f795e/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-08-30 | [Data Fundamentals](https://www.credly.com/badges/48961c89-7ace-474a-9a78-34e0b63722d5/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-08-29 | [SASE Business Impact and Strategy](https://www.credly.com/badges/87458b9d-8699-412d-b198-10f5f7366da9/public_url) | Cato Networks | Credly Verified Badge |
+| 2026-08-29 | [Zero Trust Security Essentials](https://www.credly.com/badges/b666adab-35fe-4f0c-883d-9bb0939173a6/public_url) | Cato Networks | Credly Verified Badge |
+| 2026-08-28 | [SASE Advanced Security](https://www.credly.com/badges/3a796ab4-659a-4141-a249-b6f94611201f/public_url) | Cato Networks | Credly Verified Badge |
+| 2026-08-28 | [SASE Deployment and Management](https://www.credly.com/badges/906c5b04-f903-46cb-805c-9b3f0729718f/public_url) | Cato Networks | Credly Verified Badge |
+
+---
+> **Navigation:** Prev: [credly-2026-08-part-11.md](./credly-2026-08-part-11.md) | [Index](./credly-index.md) | Next: None
+

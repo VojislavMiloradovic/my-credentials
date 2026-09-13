@@ -123,15 +123,16 @@ Showing latest 10 of 819 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 633
-**Total Verified Skills Mapped:** 2221
+**Total Portfolio Credentials:** 634
+**Total Verified Skills Mapped:** 2235
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 633 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 634 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-13 | [Optimizing Generative AI](https://www.credly.com/badges/e84dce14-33be-4673-973b-498fd69a1516/public_url) | Cisco | Credly Verified Badge |
 | 2026-09-12 | [Basis Foundations](https://www.credly.com/badges/f1c081b3-4bd3-44dc-b4eb-4f90a306534c/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-12 | [Code Generation and Optimization Using IBM Granite](https://www.credly.com/badges/a5c6bf0b-8465-41f8-b777-2216d2d49c52/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-12 | [Contextual Targeting Essentials](https://www.credly.com/badges/ff453cbb-dd77-4fc6-b12f-7d63dcffbc30/public_url) | Basis Technologies | Credly Verified Badge |
@@ -141,7 +142,6 @@ Showing latest 10 of 633 credentials. View full dataset via [Platform Archive In
 | 2026-09-12 | [Information Technology Fundamentals](https://www.credly.com/badges/a189c2dc-a907-43b0-802e-9448393045c0/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-12 | [Marketing Funnel Essentials](https://www.credly.com/badges/3e508494-0af6-4ecd-8087-b67a5997489e/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-12 | [Search Essentials](https://www.credly.com/badges/6dcbc4f5-606f-40e0-9c59-6eab487481a3/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-11 | [Develop Serverless Applications on Cloud Run Skill Badge](https://www.credly.com/badges/de882ce6-face-43c9-95b2-db616dd32f16/public_url) | Google Cloud | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
