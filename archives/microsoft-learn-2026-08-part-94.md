@@ -15,6 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Understand advanced Windows Firewall** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-advanced-windows-firewall/) |
+| **Convert Oracle schemas to Azure Database for PostgreSQL by using AI** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/convert-oracle-schema-azure-database-postgresql-ai/) |
+| **Understand how Active Directory Domain Services uses DNS** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-domain-name-system/) |
 | **Advanced Group Policy troubleshooting** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-group-policy-troubleshooting/) |
 | **Secure sensitive data with Microsoft Purview Ninja training scenarios** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-ninja-safeguard-data/) |
 | **Safeguard sensitive data in remote work with Endpoint DLP** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-safeguard-remote-work/) |
@@ -66,9 +69,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Work on repeat** | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-on-repeat/) |
 | **Provision and govern identities in Microsoft Entra** | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-govern-identities-entra/) |
 | **Manage application volume groups for Oracle in Azure NetApp Files** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-application-volume-groups-oracle-azure-netapp-files/) |
-| **Ensure availability and resilience in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/ensure-availability-resilience/) |
-| **Deliver solutions with pipelines in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deliver-solutions-pipelines/) |
-| **Configure the Dataverse security model in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-dataverse-security-model/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-95.md](./microsoft-learn-2026-09-part-95.md)

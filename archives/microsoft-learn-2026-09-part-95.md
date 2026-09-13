@@ -1,7 +1,7 @@
 ---
 archive_platform: Microsoft Learn
 chunk_part: 95 of 95
-date_range: 2026-08-06 to 2026-09-10
+date_range: 2026-08-08 to 2026-09-13
 total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-95.md
 layer: L2_published
@@ -15,6 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Dragon Copilot (physicians) practical application exercises** | Learningpaths | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-physicians-practical-application-exercises/) |
+| **Dragon Copilot AI Ambassador - Ambassador level** | Learningpaths | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-ambassador-level/) |
+| **Dragon Copilot (physicians) create templates** | Modules | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-create-templates/) |
 | **Understand Storage Spaces Direct** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-storage-spaces-direct/) |
 | **Integrate backend services for AI solutions** | Learningpaths | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-backend-services-ai-solutions/) |
 | **Orchestrate durable AI workflows with Azure Durable Functions** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-durable-functions/) |
@@ -56,9 +59,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **What is Project Perception?** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-introduction/) |
 | **Install and configure Visual Studio Code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/install-configure-visual-studio-code-python/) |
 | **Add decision-making to your code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-decision-making-python/) |
-| **Understand advanced Windows Firewall** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-advanced-windows-firewall/) |
-| **Convert Oracle schemas to Azure Database for PostgreSQL by using AI** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/convert-oracle-schema-azure-database-postgresql-ai/) |
-| **Understand how Active Directory Domain Services uses DNS** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-domain-name-system/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: None

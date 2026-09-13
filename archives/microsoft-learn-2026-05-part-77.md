@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Dragon Copilot 101 for nurse champions** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-for-nurse-champions/) |
+| **Understand the nurse champion role for Dragon Copilot** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-welcome-to-nurse-champion/) |
 | **Enforce security governance and regulatory compliance** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-governance-compliance/) |
 | **Enforce governance with Azure Policy and resource locks** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-governance-azure-policy-resource-locks/) |
 | **Eliminate public network exposure of Azure PaaS services** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/eliminate-public-exposure-paas-private-link/) |
@@ -63,8 +65,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement API backend security using Azure API Management** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-interface-security-management/) |
 | **Troubleshoot and support peers using Dragon Copilot (nurses)** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-troubleshoot-and-support-peers/) |
 | **When to evaluate Azure Local for private cloud scenarios** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-azure-local/) |
-| **Configure routing in Dynamics 365 Contact Center** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-routing-contact-center/) |
-| **Implement Microsoft Defender for Servers** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-microsoft-defender-servers/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-76.md](./microsoft-learn-2026-05-part-76.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-78.md](./microsoft-learn-2026-05-part-78.md)
