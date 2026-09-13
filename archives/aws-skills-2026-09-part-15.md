@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 15 of 15
-date_range: 2026-09-01 to 2026-09-10
-total_entries: 49
+chunk_part: 15 of 16
+date_range: 2026-09-01 to 2026-09-13
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-15.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,12 @@ artifacts: archive_complete, archive_index, jsonld
 
 # AWS Skill Builder Credentials — Part 15
 
-> **Navigation:** Prev: [aws-skills-2026-09-part-14.md](./aws-skills-2026-09-part-14.md) | [Index](./aws-skills-index.md) | Next: None | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-09-part-14.md](./aws-skills-2026-09-part-14.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-16.md](./aws-skills-2026-09-part-16.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-13 | [Safeguard your agentic AI applications with the Amazon Bedrock Guardrails InvokeGuardrailChecks API](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-13 | [Simplify model selection in Amazon Bedrock with the open source Model Profiler](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-10 | [Advanced Prompt Caching and Response Optimization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-10 | [Advanced Testing Practices Using AWS DevOps Tools](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-10 | [Amazon WorkSpaces Deep Dive](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -64,7 +66,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-09-01 | [Advanced SQL and Database Design](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [AI Traffic Monetization - Implementing Pay-Per-Access For AI Agents](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [AI-Powered Video Advertising & Operations Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-01 | [Amazon CloudWatch - Advanced Course](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-09-part-14.md](./aws-skills-2026-09-part-14.md) | [Index](./aws-skills-index.md) | Next: None
+> **Navigation:** Prev: [aws-skills-2026-09-part-14.md](./aws-skills-2026-09-part-14.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-16.md](./aws-skills-2026-09-part-16.md)
 
