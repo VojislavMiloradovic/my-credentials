@@ -168,7 +168,7 @@ Showing latest 10 of 634 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,644 |
+| **Total External Certifications Verified** | 1,669 |
 
 #### Recent Certifications
 
@@ -176,16 +176,16 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-09* | **Effective Listening (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6839b2691d8f1e6b95b65809cf4f867020d178a63e8b364839b5d277cd25420e) |
-| *2026-09* | **Critical Thinking for Better Judgment and Decision-Making (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cb34ae75591b1b193de1416ae42190da12cb20eb0d05a3a24b819c1690634eef) |
-| *2026-09* | **Nano Tips to Build Visibility at Work with Melody Wilding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a5190a4fe030596811fca9b395c94a657ca6d371df3d85d0a5f10ffe7d2992a6) |
-| *2026-09* | **Moving from Government Work into Other Sectors: A Conversation with Nick Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a48e36ea1c50c5c5d97f2db66e7f6294cffd8eb01b93d12d6cc79172e62971bc) |
-| *2026-09* | **Developing Your Emotional Intelligence (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b808b80ba96d00a8989382bce9b54becb3967f0eb5c9e0ba7a885e430ed1a9a4) |
-| *2026-09* | **Certified Calico Operator - AWS Expert** | Tigera | [Verify Record](https://www.credly.com/badges/c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c/linked_in_profile) |
-| *2026-09* | **Python Essentials 1** | Cisco | [Verify Record](https://www.credly.com/badges/0ce437b3-fc46-48da-a95a-44061cbfb588/linked_in_profile) |
-| *2026-09* | **Nano Tips to Improve Workplace Communication with Elayne Fluker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/500695db665fd6ac11f974c0147f1e661d9285a5bf53ddde643888673fe22b93) |
-| *2026-09* | **Nano Tips for Becoming a Better Thought Leader with Peter Winick** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7cc6701b355798bf25e10681573bf32573f006c263e163a4ebac1ab02e649b80) |
-| *2026-09* | **LinkedIn Help Center: Premium Membership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ed19e1c9f1f8e920966673bb4f4f62a93e53126607d13706aaecccf42a502069) |
+| *2026-09* | **Cybersecurity Awareness: Cybersecurity Terminology** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/215a5e870cfd572c70c736272aacd530c507b38c39a7a7dbb2c9308b6fc865f6) |
+| *2026-09* | **The Data Science Playbook for Private Equity and Venture Capital** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fe529fb1984715bc31ae3dd8c8611d3d64518712268f4c09bef382935f6d9349) |
+| *2026-09* | **Optimizing Generative AI** | Cisco | [Verify Record](https://www.credly.com/badges/e84dce14-33be-4673-973b-498fd69a1516/linked_in_profile) |
+| *2026-09* | **Nano Tips for Creating Equitable Workplaces for Working Mothers with Desiree Coleman-Fry** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e7f9b9e2e45f3ee2535ad053d6bdada3eecca70b514ff25bd3204238efb35a76) |
+| *2026-09* | **Nano Tips for Navigating Bias and Stereotypes as an Asian American Professional with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1cca93042638f4de87c8ed8290082069218a43e33bbce722f62cea32c4ee185b) |
+| *2026-09* | **Nano Tips for Working Inclusively with Neurodivergent Employees with Ellie Middleton** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a84e4998cf24d4325ce6b25930b68c461dc6ed7eb00ace826f1607975bb187ba) |
+| *2026-09* | **Nano Tips for Identifying and Overcoming Unconscious Bias in the Workplace with Desiree Coleman-Fry** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f3fdd03a689cbc76475b7bb5fe415250cacfce699099a6744ae770bcd02c5fee) |
+| *2026-09* | **Basis Foundations** | Basis | [Verify Record](https://www.credly.com/badges/f1c081b3-4bd3-44dc-b4eb-4f90a306534c/linked_in_profile) |
+| *2026-09* | **Contextual Targeting Essentials** | Basis | [Verify Record](https://www.credly.com/badges/ff453cbb-dd77-4fc6-b12f-7d63dcffbc30/linked_in_profile) |
+| *2026-09* | **Direct Buying Essentials** | Basis | [Verify Record](https://www.credly.com/badges/7d5eaa4b-76f9-41e9-ad7d-ab4c15b0378f/linked_in_profile) |
 <!-- LINKEDIN_END -->
 
 
