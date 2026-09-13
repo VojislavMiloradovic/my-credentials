@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 12 of 12
-date_range: 2026-08-28 to 2026-09-12
-total_entries: 51
+date_range: 2026-08-28 to 2026-09-13
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-13 | [Optimizing Generative AI](https://www.credly.com/badges/e84dce14-33be-4673-973b-498fd69a1516/public_url) | Cisco | Credly Verified Badge |
 | 2026-09-12 | [Basis Foundations](https://www.credly.com/badges/f1c081b3-4bd3-44dc-b4eb-4f90a306534c/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-12 | [Code Generation and Optimization Using IBM Granite](https://www.credly.com/badges/a5c6bf0b-8465-41f8-b777-2216d2d49c52/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-12 | [Contextual Targeting Essentials](https://www.credly.com/badges/ff453cbb-dd77-4fc6-b12f-7d63dcffbc30/public_url) | Basis Technologies | Credly Verified Badge |
