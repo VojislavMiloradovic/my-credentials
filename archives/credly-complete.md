@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 634 records.
+This document represents a unified, verifiable list of all 635 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-14T02:52:02.545719+00:00 -->
+<!-- retrieved_at: 2026-09-15T02:54:37.948366+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-14 | [Private Marketplace Essentials](https://www.credly.com/badges/700a8c47-865a-4445-9ccd-8bcee41c5520/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-13 | [Optimizing Generative AI](https://www.credly.com/badges/e84dce14-33be-4673-973b-498fd69a1516/public_url) | Cisco | Credly Verified Badge |
 | 2026-09-12 | [Basis Foundations](https://www.credly.com/badges/f1c081b3-4bd3-44dc-b4eb-4f90a306534c/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-12 | [Code Generation and Optimization Using IBM Granite](https://www.credly.com/badges/a5c6bf0b-8465-41f8-b777-2216d2d49c52/public_url) | IBM SkillsBuild | Credly Verified Badge |
