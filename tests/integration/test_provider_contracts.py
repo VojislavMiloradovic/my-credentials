@@ -525,6 +525,7 @@ class TestMicrosoftLearnContracts:
                 side_effect=mock_generate_archive,
             ),
             patch("update_ms_learn.execute_content_loss_guard"),
+            patch("loss_guard.run_provider_loss_guards"),
             patch("update_ms_learn.load_retired_rules", return_value=[]),
         ):
             ms_learn_main()
@@ -1082,7 +1083,7 @@ class TestFullPipelineContract:
     """End-to-end contract tests running full pipeline with mocked I/O."""
 
     def test_microsoft_learn_full_pipeline_contract(
-        self, sample_ms_learn_json, temp_dir
+        self, sample_ms_learn_json, temp_dir, mock_loss_guard
     ):
         """Full MS Learn pipeline produces semantically correct output at all layers."""
         json_file = temp_dir / "data" / "microsoft-learn.json"
@@ -1158,6 +1159,7 @@ class TestFullPipelineContract:
                 side_effect=mock_generate_archive,
             ),
             patch("update_ms_learn.execute_content_loss_guard"),
+            patch("loss_guard.run_provider_loss_guards"),
             patch("update_ms_learn.load_retired_rules", return_value=[]),
         ):
             ms_learn_main()
