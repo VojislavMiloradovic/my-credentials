@@ -135,25 +135,25 @@ Showing latest 10 of 847 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 635
-**Total Verified Skills Mapped:** 2240
+**Total Portfolio Credentials:** 657
+**Total Verified Skills Mapped:** 2265
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 635 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-12.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 657 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-13.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-13.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-09-14 | [Private Marketplace Essentials](https://www.credly.com/badges/700a8c47-865a-4445-9ccd-8bcee41c5520/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-13 | [Optimizing Generative AI](https://www.credly.com/badges/e84dce14-33be-4673-973b-498fd69a1516/public_url) | Cisco | Credly Verified Badge |
-| 2026-09-12 | [Basis Foundations](https://www.credly.com/badges/f1c081b3-4bd3-44dc-b4eb-4f90a306534c/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-12 | [Code Generation and Optimization Using IBM Granite](https://www.credly.com/badges/a5c6bf0b-8465-41f8-b777-2216d2d49c52/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-09-12 | [Contextual Targeting Essentials](https://www.credly.com/badges/ff453cbb-dd77-4fc6-b12f-7d63dcffbc30/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-12 | [Direct Buying Essentials](https://www.credly.com/badges/7d5eaa4b-76f9-41e9-ad7d-ab4c15b0378f/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-12 | [Essentials - How to Migrate to the Acronis Cyber Platform](https://www.credly.com/badges/fa585e84-9608-46de-ae63-6f6577f58ac8/public_url) | Acronis | Credly Verified Badge |
-| 2026-09-12 | [Essentials - How to Sell the Acronis Cyber Platform](https://www.credly.com/badges/d7515459-db41-43fd-b6f8-5b5b1344362f/public_url) | Acronis | Credly Verified Badge |
-| 2026-09-12 | [Information Technology Fundamentals](https://www.credly.com/badges/a189c2dc-a907-43b0-802e-9448393045c0/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-09-12 | [Marketing Funnel Essentials](https://www.credly.com/badges/3e508494-0af6-4ecd-8087-b67a5997489e/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-15 | [MSP Academy: Running an MSP Business](https://www.credly.com/badges/f529fa82-07ae-41d0-be80-89f81ed38ee1/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [MSP Academy: Starting an MSP - Breaking Free from the Break-Fix Model](https://www.credly.com/badges/7b194221-f15a-4fb8-adfb-2d0b3e080d18/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [RMM & PSA Basic Course](https://www.credly.com/badges/97f581e9-d2ab-4ad7-9dae-cc422eddeeda/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [Solution Basic Training – Cyber Resilience](https://www.credly.com/badges/aabfa633-82c5-44bb-ad30-dddd976ebe28/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [Essentials - Intro to Acronis Cyber Platform](https://www.credly.com/badges/962ecac0-449a-4003-a46e-ddd37a9dfbc4/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [MSP Academy: Active Listening](https://www.credly.com/badges/88097b65-bf45-4cf9-be9d-4e7a40cab53d/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [MSP Academy: Difficult Partners](https://www.credly.com/badges/4ef884e4-e2c3-4c33-a566-6b0284e6f284/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [MSP Academy: Event-in-a-Box for MSP](https://www.credly.com/badges/d79f6d1f-8b1d-4d2d-8a47-2768814da361/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [MSP Academy: File Sync and Share](https://www.credly.com/badges/0d93abff-f68b-4cdc-a464-ccd3e895b162/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [MSP Academy: How to Grow Your MSP faster with Louis Gudema](https://www.credly.com/badges/557ca514-6013-4f4a-a3e2-42f2e9c4fe26/public_url) | Acronis | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
