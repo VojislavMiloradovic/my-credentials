@@ -2,7 +2,7 @@
 archive_platform: Microsoft Learn
 chunk_part: 29 of 95
 date_range: 2026-01-04 to 2026-01-06
-total_entries: 53
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-29.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -68,6 +68,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Configure 3D assets for mixed reality in Unity** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-3d-assets-mixed-reality-unity/) |
 | **Minecraft Trainer Academy: Train educators to teach with Minecraft Education in the classroom** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/minecraft-trainer-academy-minecraft-education-classroom/) |
 | **Automate multi-container Kubernetes deployments with Azure Pipelines** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-kubernetes/) |
+| **Automate Docker container deployments with Azure Pipelines** | Modules | 2026-01-04 | N/A |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-28.md](./microsoft-learn-2026-01-part-28.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-30.md](./microsoft-learn-2026-01-part-30.md)
