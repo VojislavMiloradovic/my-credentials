@@ -848,7 +848,9 @@ def main():
     if retired_rules:
         _, marked = mark_retired(combined_feed, retired_rules, url_field="url")
         if marked > 0:
-            logger.info(f"[NOTE] Updated {marked} badge/activity(s) with retired status")
+            logger.info(
+                f"[NOTE] Updated {marked} badge/activity(s) with retired status"
+            )
 
     # Persist full data with retired flags to for_validation for link checker
     validation_dir = VALIDATION_DIR
@@ -1052,7 +1054,9 @@ def main():
                 f.write(index_content)
             logger.info(f"[OK] Updated category breakdown metrics in {index_file_path}")
         except Exception as e:
-            logger.warning(f"[WARN] Failed to update overview in {index_file_path}: {e}")
+            logger.warning(
+                f"[WARN] Failed to update overview in {index_file_path}: {e}"
+            )
 
     logger.info(
         f"[DONE] Google Developer pipeline complete ({total_combined} combined items)."

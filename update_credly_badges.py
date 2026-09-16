@@ -604,7 +604,9 @@ def fetch_credly_external_badges(user_id: str) -> list[dict] | None:
         try:
             badges.append(CredlyBadgeItemModel(**raw_entry).model_dump(mode="json"))
         except ValidationError as exc:
-            logger.warning(f"[WARN] Skipping invalid external Credly entry '{title}': {exc}")
+            logger.warning(
+                f"[WARN] Skipping invalid external Credly entry '{title}': {exc}"
+            )
 
     logger.info(
         f"[OK] Successfully fetched {len(badges)} external open badges from Credly API."

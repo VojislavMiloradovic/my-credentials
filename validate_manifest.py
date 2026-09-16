@@ -52,7 +52,9 @@ def validate_manifest() -> bool:
         # Check L1_normalized has output_records or output_streams
         l1 = platform_layers.L1_normalized
         if not l1.output_records and not l1.output_streams:
-            print("  [WARN]  L1_normalized should have output_records or output_streams")
+            print(
+                "  [WARN]  L1_normalized should have output_records or output_streams"
+            )
 
         # Check L2_published has artifacts
         l2 = platform_layers.L2_published

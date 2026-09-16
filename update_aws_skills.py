@@ -428,7 +428,9 @@ def parse_aws_badges_from_json(json_path: str) -> list[dict]:
     if not os.path.exists(json_path):
         return []
 
-    logger.info(f"[FILE] Reading existing AWS badges from local JSON file: '{json_path}'")
+    logger.info(
+        f"[FILE] Reading existing AWS badges from local JSON file: '{json_path}'"
+    )
     try:
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)

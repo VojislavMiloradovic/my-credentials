@@ -515,7 +515,9 @@ def auto_retire_removed_items(
 
     # Build lookup for existing retired IDs/URLs to avoid duplicates
     existing_ids = {str(rule.get("id", "")).strip() for rule in retired_rules}
-    existing_urls = {str(rule.get("url", "")).strip() for rule in retired_rules if rule.get("url")}
+    existing_urls = {
+        str(rule.get("url", "")).strip() for rule in retired_rules if rule.get("url")
+    }
 
     # Load full records from validation file to get URLs for removed items
     removed_records = {}
@@ -525,7 +527,14 @@ def auto_retire_removed_items(
                 val_data = json.load(f)
 
             # Search in combined_feed, public_badges, detailed_learnings, achievements, etc.
-            search_keys = ["combined_feed", "public_badges", "detailed_learnings", "achievements", "credentials", "badges"]
+            search_keys = [
+                "combined_feed",
+                "public_badges",
+                "detailed_learnings",
+                "achievements",
+                "credentials",
+                "badges",
+            ]
             all_records = []
             for key in search_keys:
                 if key in val_data and isinstance(val_data[key], list):
@@ -540,7 +549,9 @@ def auto_retire_removed_items(
                 if record_id in removed_ids:
                     removed_records[record_id] = record
         except (json.JSONDecodeError, OSError, TypeError) as e:
-            logger.warning(f"  [{platform}] Could not load validation file for auto-retire: {e}")
+            logger.warning(
+                f"  [{platform}] Could not load validation file for auto-retire: {e}"
+            )
 
     # Also check baseline index for any metadata (though it only has hashes)
     # For now, we rely on validation file
@@ -554,7 +565,11 @@ def auto_retire_removed_items(
 
         record = removed_records.get(removed_id)
         url = record.get("url") if record else None
-        title = record.get("title") or record.get("name") or removed_id if record else removed_id
+        title = (
+            record.get("title") or record.get("name") or removed_id
+            if record
+            else removed_id
+        )
 
         # Skip if URL already retired
         if url and url in existing_urls:
@@ -577,7 +592,9 @@ def auto_retire_removed_items(
         if url:
             existing_urls.add(url)
         added_count += 1
-        logger.info(f"  [AUTO-RETIRE] Added to retired registry: {title} (ID: {removed_id})")
+        logger.info(
+            f"  [AUTO-RETIRE] Added to retired registry: {title} (ID: {removed_id})"
+        )
 
     if added_count > 0:
         # Save updated retired rules
@@ -593,11 +610,14 @@ def auto_retire_removed_items(
             with open(RETIRED_URLS_FILE, "w", encoding="utf-8") as f:
                 json.dump(full_data, f, indent=2, ensure_ascii=False)
 
-            logger.info(f"  [AUTO-RETIRE] Updated {RETIRED_URLS_FILE} with {added_count} new retired item(s) for {platform}")
+            logger.info(
+                f"  [AUTO-RETIRE] Updated {RETIRED_URLS_FILE} with {added_count} new retired item(s) for {platform}"
+            )
         except OSError as e:
             logger.error(f"  [AUTO-RETIRE] Failed to save retired_urls.json: {e}")
 
     return added_count
+
 
 # ==============================================================================
 # GUARD THRESHOLDS & ENFORCEMENT
@@ -683,7 +703,9 @@ def execute_content_loss_guard(
         PipelineDataLossAnomaly: If thresholds exceeded and fail_on_warn=True
     """
     stream_suffix = f" ({stream_id})" if stream_id else ""
-    logger.info(f"[SHIELD] [{platform}{stream_suffix}] Starting content-aware loss guard...")
+    logger.info(
+        f"[SHIELD] [{platform}{stream_suffix}] Starting content-aware loss guard..."
+    )
 
     # Merge thresholds: defaults + platform-specific + explicit override
     effective_thresholds = {**DEFAULT_THRESHOLDS}
@@ -780,7 +802,9 @@ def execute_content_loss_guard(
                 f"[SAVE] [{platform}{stream_suffix}] Baseline persisted for next run."
             )
         else:
-            logger.error(f"[FAIL] [{platform}{stream_suffix}] Failed to persist baseline!")
+            logger.error(
+                f"[FAIL] [{platform}{stream_suffix}] Failed to persist baseline!"
+            )
 
     return report
 
@@ -862,7 +886,9 @@ def get_stored_archive_baseline_count(
                     else len(data)
                 )
                 if count > 0:
-                    logger.info(f"[STATS] [{platform}] Baseline count from JSON: {count:,}")
+                    logger.info(
+                        f"[STATS] [{platform}] Baseline count from JSON: {count:,}"
+                    )
                     return count
         except (json.JSONDecodeError, OSError, TypeError):
             pass
@@ -909,7 +935,9 @@ def get_stored_archive_baseline_count(
 
             if data_rows:
                 count = len(data_rows)
-                logger.info(f"[STATS] [{platform}] Baseline count from monolith: {count:,}")
+                logger.info(
+                    f"[STATS] [{platform}] Baseline count from monolith: {count:,}"
+                )
                 return count
         except OSError:
             pass
@@ -1000,7 +1028,9 @@ def run_provider_loss_guards(
     if fail_on_warn is None:
         fail_on_warn = config.get("fail_on_warn", True)
 
-    logger.info(f"[SHIELD] [{provider_name}] Starting provider loss guard orchestration...")
+    logger.info(
+        f"[SHIELD] [{provider_name}] Starting provider loss guard orchestration..."
+    )
 
     # 1. Count-based loss guard (fast, catches major drops)
     execute_data_loss_guard(new_records, provider_name, json_path, monolith_path)
@@ -1062,7 +1092,9 @@ def generate_provider_baseline(
 
     if stream_id:
         # Per-stream baseline (google-developer)
-        logger.info(f"[SAVE] [{provider_name} ({stream_id})] Generating stream baseline...")
+        logger.info(
+            f"[SAVE] [{provider_name} ({stream_id})] Generating stream baseline..."
+        )
         return save_baseline(
             provider_name,
             build_fingerprint_index(

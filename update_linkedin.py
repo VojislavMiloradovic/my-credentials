@@ -596,7 +596,9 @@ def main():
                 "[OK] L1 baseline fingerprints generated for cross-artifact validation"
             )
         except PipelineDataLossAnomaly as anomaly_err:
-            logger.warning(f"[WARN] Baseline generation anomaly (non-fatal): {anomaly_err}")
+            logger.warning(
+                f"[WARN] Baseline generation anomaly (non-fatal): {anomaly_err}"
+            )
         except Exception as e:
             logger.warning(f"[WARN] Baseline generation failed (non-fatal): {e}")
     else:

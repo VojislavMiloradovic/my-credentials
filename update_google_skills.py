@@ -563,7 +563,9 @@ def fetch_google_skills_badges_playwright(
 
             browser.close()
 
-        logger.info(f"[THEATER] Playwright extracted {len(badges_data)} badges from DOM")
+        logger.info(
+            f"[THEATER] Playwright extracted {len(badges_data)} badges from DOM"
+        )
 
         parsed = []
         for badge in badges_data:

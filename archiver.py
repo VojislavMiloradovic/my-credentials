@@ -424,39 +424,43 @@ def update_readme_stats(
     """
     if platform_key != "google-developer":
         return False
-        
+
     if not os.path.exists(readme_path):
         return False
-        
+
     try:
         with open(readme_path, "r", encoding="utf-8") as f:
             content = f.read()
-            
+
         marker_start = "<!-- GOOGLE_DEVELOPER_START -->"
         marker_end = "<!-- GOOGLE_DEVELOPER_END -->"
-        
+
         if marker_start not in content or marker_end not in content:
             return False
-            
+
         before = content.split(marker_start)[0]
         after = content.split(marker_end)[1]
         middle = content.split(marker_start)[1].split(marker_end)[0]
-        
+
         lines = middle.split("\n")
         updated = False
         for i, line in enumerate(lines):
-            if 'Total Milestones & Milestone Badges' in line and '|' in line:
-                lines[i] = f"| **Total Milestones & Milestone Badges** | {public_badges:,} |"
+            if "Total Milestones & Milestone Badges" in line and "|" in line:
+                lines[i] = (
+                    f"| **Total Milestones & Milestone Badges** | {public_badges:,} |"
+                )
                 updated = True
-            if 'Total Codelabs & Learning Activities' in line and '|' in line:
-                lines[i] = f"| **Total Codelabs & Learning Activities** | {detailed_learnings:,} |"
+            if "Total Codelabs & Learning Activities" in line and "|" in line:
+                lines[i] = (
+                    f"| **Total Codelabs & Learning Activities** | {detailed_learnings:,} |"
+                )
                 updated = True
-                
+
         if updated:
             new_middle = "\n".join(lines)
             new_content = f"{before}{marker_start}{new_middle}{marker_end}{after}"
             return safe_write_file(readme_path, new_content)
-            
+
         return False
     except Exception as e:
         print(f"[WARNING] update_readme_stats failed: {e}")
