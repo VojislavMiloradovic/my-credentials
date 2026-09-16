@@ -1,49 +1,20 @@
 ---
 archive_platform: Google Developer Profile
-chunk_part: 1 of 3
+chunk_part: 16 of 35
 date_range: 2026-06-05 to 2026-06-05
-total_entries: 68
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-01.md
+total_entries: 61
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-16.md
 layer: L2_published
 transform: unknown
 artifacts: archive_complete, archive_index, jsonld
 ---
 
-# Google Developer Profile — Part 01
+# Google Developer Profile — Part 16
 
-> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-02.md](./google-developer-2026-06-part-02.md) | [Complete Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-06-part-15.md](./google-developer-2026-06-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-05 | **Firebase Crashlytics Analytics** | Official Google Developer platform achievement (Learning Pathway: firebase crashlytics analytics). |
-| 2026-06-05 | **Firebase Remote Config** | Official Google Developer platform achievement (Learning Pathway: firebase remote config). |
-| 2026-06-05 | **Android Basics Compose Unit 3 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 3 pathway 1). |
-| 2026-06-05 | **Firebase Security Layers** | Official Google Developer platform achievement (Learning Pathway: firebase security layers). |
-| 2026-06-05 | **Going Further Image Classification** | Official Google Developer platform achievement (Learning Pathway: going further image classification). |
-| 2026-06-05 | **Going Further Text Classification Web** | Official Google Developer platform achievement (Learning Pathway: going further text classification web). |
-| 2026-06-05 | **Ai Models On Gpu Intro** | Official Google Developer platform achievement (Learning Pathway: ai models on gpu intro). |
-| 2026-06-05 | **Android 11 Week 2** | Official Google Developer platform achievement (Learning Pathway: android 11 week 2). |
-| 2026-06-05 | **Pay** | Official Google Developer platform achievement (Learning Pathway: pay). |
-| 2026-06-05 | **Ecommerce Microservices Kubernetes** | Official Google Developer platform achievement (Learning Pathway: ecommerce microservices kubernetes). |
-| 2026-06-05 | **Ai Powered Content Search** | Official Google Developer platform achievement (Learning Pathway: ai powered content search). |
-| 2026-06-05 | **Android Development With Kotlin 6** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 6). |
-| 2026-06-05 | **Kotlin Multiplatform** | Official Google Developer platform achievement (Learning Pathway: kotlin multiplatform). |
-| 2026-06-05 | **Three Tier Cloud Run** | Official Google Developer platform achievement (Learning Pathway: three tier cloud run). |
-| 2026-06-05 | **Android 11 Week 11 1** | Official Google Developer platform achievement (Learning Pathway: android 11 week 11 1). |
-| 2026-06-05 | **Android Development With Kotlin 4** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 4). |
-| 2026-06-05 | **Android Development With Kotlin 7** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 7). |
-| 2026-06-05 | **Gpay For Web** | Official Google Developer platform achievement (Learning Pathway: gpay for web). |
-| 2026-06-05 | **Get Started Image Classification** | Official Google Developer platform achievement (Learning Pathway: get started image classification). |
-| 2026-06-05 | **Identity** | Official Google Developer platform achievement (Learning Pathway: identity). |
-| 2026-06-05 | **Learn Css** | Official Google Developer platform achievement (Learning Pathway: learn css). |
-| 2026-06-05 | **Firebase Firestore Leaderboards** | Official Google Developer platform achievement (Learning Pathway: firebase firestore leaderboards). |
-| 2026-06-05 | **Discovery** | Official Google Developer platform achievement (Community: discovery). |
-| 2026-06-05 | **Cross Platform Apps With Angular** | Official Google Developer platform achievement (Learning Pathway: cross platform apps with angular). |
-| 2026-06-05 | **Pwa Push Notifications** | Official Google Developer platform achievement (Learning Pathway: pwa push notifications). |
-| 2026-06-05 | **Aog Smart Home** | Official Google Developer platform achievement (Learning Pathway: aog smart home). |
-| 2026-06-05 | **Local Development With Emulator Suite** | Official Google Developer platform achievement (Learning Pathway: local_development_with_emulator_suite). |
-| 2026-06-05 | **Android Basics Compose Unit 3 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 3 pathway 2). |
-| 2026-06-05 | **Get Started Audio Classification** | Official Google Developer platform achievement (Learning Pathway: get started audio classification). |
 | 2026-06-05 | **Learn Privacy** | Official Google Developer platform achievement (Learning Pathway: learn privacy). |
 | 2026-06-05 | **Android Basics Compose Unit 8 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 1). |
 | 2026-06-05 | **App Check** | Official Google Developer platform achievement (Learning Pathway: app_check). |
@@ -83,7 +54,29 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-05 | **Cloud Run Serverless Computing** | Official Google Developer platform achievement (Learning Pathway: cloud run serverless computing). |
 | 2026-06-05 | **Springboot** | Official Google Developer platform achievement (Learning Pathway: springboot). |
 | 2026-06-05 | **Intro To Flutter** | Official Google Developer platform achievement (Learning Pathway: intro to flutter). |
+| 2026-06-05 | **MDC-101 Android: Material Components (MDC) Basics (Java)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/mdc-101-java |
+| 2026-06-05 | **Protect yourself from online harassment** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/protect-yourself-from-online-harassment |
+| 2026-06-05 | **Call Vision API Product Search backend on Android** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/product-search-vision-api-android |
+| 2026-06-05 | **Build Actions for Google Assistant using Actions Builder (Level 1)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/actions-builder-1 |
+| 2026-06-05 | **Building watch faces for Wear OS** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/watch-face-format |
+| 2026-06-05 | **Activity embedding** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/activity-embedding/activity-embedding |
+| 2026-06-05 | **Implement passkeys with form autofill in a web app** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/passkey-form-autofill |
+| 2026-06-05 | **View Interoperability in Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-view-interop |
+| 2026-06-05 | **Build a product image search backend with Vision API Product Search** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/build-product-search-backend |
+| 2026-06-05 | **MDC-102 Web: Material Structure and Layout (Web)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/mdc-102-web |
+| 2026-06-05 | **Engage Wear OS users in new ways with the Ongoing Activity API** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/ongoing-activity |
+| 2026-06-05 | **Get started with regression in iOS apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/tensorflow-serving/regression-in-ios-apps |
+| 2026-06-05 | **Passkey integration on the server-side and user-experience upgrades** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/passkeys-web-2 |
+| 2026-06-05 | **Extend an Android app to Google Assistant with App Actions (Level 2)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/appactions-2 |
+| 2026-06-05 | **Quiz: Build maintainable and scalable web apps with Angular** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/maintainable-scalable-web-apps |
+| 2026-06-05 | **Build your first WebAuthn app** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/webauthn-reauth |
+| 2026-06-05 | **Add a map to your Android app (Kotlin)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/maps-platform-101-android |
+| 2026-06-05 | **MDC-102 Android: Material Structure and Layout (Java)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/mdc-102-java |
+| 2026-06-05 | **Build an Android App with Views** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-app-with-views |
+| 2026-06-05 | **Build your own Current Place picker for Android (Java)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/location-places-android |
+| 2026-06-05 | **Advanced Android in Kotlin 04.1: Android Google Maps** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/advanced-android-kotlin-training-maps |
+| 2026-06-05 | **Module 2: Inspect** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/data-cards-inspect |
 
 ---
-> **Navigation:** Prev: None | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-02.md](./google-developer-2026-06-part-02.md)
+> **Navigation:** Prev: [google-developer-2026-06-part-15.md](./google-developer-2026-06-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md)
 
