@@ -111,7 +111,7 @@ def extract_detailed_results(data: dict[str, Any]) -> dict[str, list]:
 def generate_summary(data: dict[str, Any]) -> str:
     """Generate a detailed markdown summary from lychee JSON output."""
     if "error" in data:
-        return f"## ❌ Link Checker Error\n\n```\n{data['error']}\n```"
+        return f"## [FAIL] Link Checker Error\n\n```\n{data['error']}\n```"
 
     # Lychee 0.15.0+ JSON structure:
     total = data.get("total", 0)
@@ -136,9 +136,9 @@ def generate_summary(data: dict[str, Any]) -> str:
     # Status table
     summary_parts.append("| Status | Count |\n")
     summary_parts.append("| --- | --- |\n")
-    summary_parts.append(f"| 🔍 Total | {total} |\n")
-    summary_parts.append(f"| 🔗 Unique | {unique} |\n")
-    summary_parts.append(f"| ✅ Successful | {successful} |\n")
+    summary_parts.append(f"| [SEARCH] Total | {total} |\n")
+    summary_parts.append(f"| [LINK] Unique | {unique} |\n")
+    summary_parts.append(f"| [OK] Successful | {successful} |\n")
     summary_parts.append(f"| ⏳ Timeouts | {timeouts} |\n")
     summary_parts.append(f"| 🔀 Redirected | {redirects} |\n")
     summary_parts.append(f"| 👻 Excluded | {excludes} |\n")
@@ -225,7 +225,7 @@ def generate_summary(data: dict[str, Any]) -> str:
 
     # SUCCESSFUL - just count, don't list (too many)
     if successful > 0:
-        summary_parts.append(f"## ✅ Successful ({successful})\n")
+        summary_parts.append(f"## [OK] Successful ({successful})\n")
         summary_parts.append(
             f"*{successful} links passed successfully. Not listed for brevity.*\n\n"
         )
@@ -243,7 +243,7 @@ def truncate_summary(summary: str, max_bytes: int = 1000000) -> str:
     return (
         truncated
         + "\n\n---\n"
-        + "*⚠️ Summary truncated to fit GitHub's 1MB step summary limit.*\n"
+        + "*[WARN] Summary truncated to fit GitHub's 1MB step summary limit.*\n"
     )
 
 

@@ -401,7 +401,7 @@ Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tes
 check_circle_outline You have this badge!
 13. август 2024.
 Учење
-Fraud Detection with BigQuery Graph 🔍
+Fraud Detection with BigQuery Graph [SEARCH]
 check_circle_outline You have this badge!
 13. август 2024.
 Учење

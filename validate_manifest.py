@@ -18,13 +18,13 @@ from models.layer_manifest import load_manifest
 
 def validate_manifest() -> bool:
     """Validate the dataset_layers.yaml manifest."""
-    print("🔍 Validating dataset_layers.yaml manifest...")
+    print("[SEARCH] Validating dataset_layers.yaml manifest...")
 
     try:
         manifest = load_manifest()
-        print(f"✅ Manifest loaded successfully (version {manifest.version})")
+        print(f"[OK] Manifest loaded successfully (version {manifest.version})")
     except Exception as e:
-        print(f"❌ Manifest validation failed: {e}")
+        print(f"[FAIL] Manifest validation failed: {e}")
         return False
 
     # Check all platforms have all 4 layers
@@ -32,50 +32,50 @@ def validate_manifest() -> bool:
     platforms = manifest.platforms
 
     for platform_key, platform_layers in platforms.items():
-        print(f"\n📋 Checking platform: {platform_key}")
+        print(f"\n[LIST] Checking platform: {platform_key}")
 
         for layer_name in required_layers:
             layer_def = getattr(platform_layers, layer_name, None)
             if not layer_def:
-                print(f"  ❌ Missing layer: {layer_name}")
+                print(f"  [FAIL] Missing layer: {layer_name}")
                 return False
-            print(f"  ✅ Layer {layer_name} present")
+            print(f"  [OK] Layer {layer_name} present")
 
             # Validate source/source_layer consistency
             if layer_name == "L0_raw":
                 if not layer_def.source and not layer_def.sources:
-                    print("  ⚠️  L0_raw should have source or sources")
+                    print("  [WARN]  L0_raw should have source or sources")
             else:
                 if not layer_def.source_layer:
-                    print(f"  ⚠️  {layer_name} should have source_layer")
+                    print(f"  [WARN]  {layer_name} should have source_layer")
 
         # Check L1_normalized has output_records or output_streams
         l1 = platform_layers.L1_normalized
         if not l1.output_records and not l1.output_streams:
-            print("  ⚠️  L1_normalized should have output_records or output_streams")
+            print("  [WARN]  L1_normalized should have output_records or output_streams")
 
         # Check L2_published has artifacts
         l2 = platform_layers.L2_published
         if not l2.artifacts:
-            print("  ⚠️  L2_published should have artifacts")
+            print("  [WARN]  L2_published should have artifacts")
 
         # Check L3_display has metrics
         l3 = platform_layers.L3_display
         if not l3.metrics:
-            print("  ⚠️  L3_display should have metrics")
+            print("  [WARN]  L3_display should have metrics")
 
-    print(f"\n✅ All {len(platforms)} platforms validated successfully")
+    print(f"\n[OK] All {len(platforms)} platforms validated successfully")
     return True
 
 
 def validate_artifact_consistency() -> bool:
     """Validate that manifest artifacts match generated files."""
-    print("\n🔍 Validating artifact consistency with repository...")
+    print("\n[SEARCH] Validating artifact consistency with repository...")
 
     try:
         manifest = load_manifest()
     except Exception as e:
-        print(f"❌ Could not load manifest: {e}")
+        print(f"[FAIL] Could not load manifest: {e}")
         return False
 
     archive_dir = Path("archives")
@@ -87,10 +87,10 @@ def validate_artifact_consistency() -> bool:
         for artifact in l2.artifacts:
             expected_file = archive_dir / f"{platform_key}-{artifact}.md"
             if not expected_file.exists():
-                print(f"  ⚠️  Missing artifact file: {expected_file}")
+                print(f"  [WARN]  Missing artifact file: {expected_file}")
                 all_ok = False
             else:
-                print(f"  ✅ Found: {expected_file}")
+                print(f"  [OK] Found: {expected_file}")
 
         # Check L3_display artifacts that are files
         l3 = platform_layers.L3_display
@@ -98,10 +98,10 @@ def validate_artifact_consistency() -> bool:
             if artifact == "archive_index":
                 expected_file = archive_dir / f"{platform_key}-index.md"
                 if not expected_file.exists():
-                    print(f"  ⚠️  Missing artifact file: {expected_file}")
+                    print(f"  [WARN]  Missing artifact file: {expected_file}")
                     all_ok = False
                 else:
-                    print(f"  ✅ Found: {expected_file}")
+                    print(f"  [OK] Found: {expected_file}")
 
     # Check cross-platform artifacts
     cross_artifacts = {
@@ -113,16 +113,16 @@ def validate_artifact_consistency() -> bool:
 
     for filepath in cross_artifacts.values():
         if filepath.exists():
-            print(f"  ✅ Found: {filepath}")
+            print(f"  [OK] Found: {filepath}")
         else:
-            print(f"  ⚠️  Missing cross-platform artifact: {filepath}")
+            print(f"  [WARN]  Missing cross-platform artifact: {filepath}")
             all_ok = False
 
     if all_ok:
-        print("\n✅ All artifact files present")
+        print("\n[OK] All artifact files present")
     else:
         print(
-            "\n⚠️  Some artifact files are missing (may be generated after pipeline runs)"
+            "\n[WARN]  Some artifact files are missing (may be generated after pipeline runs)"
         )
 
     return all_ok
@@ -130,7 +130,7 @@ def validate_artifact_consistency() -> bool:
 
 def validate_transform_types() -> bool:
     """Validate that transform types are recognized."""
-    print("\n🔍 Validating transform types...")
+    print("\n[SEARCH] Validating transform types...")
 
     valid_transforms = {
         "1:1_pass_through",
@@ -149,7 +149,7 @@ def validate_transform_types() -> bool:
     try:
         manifest = load_manifest()
     except Exception as e:
-        print(f"❌ Could not load manifest: {e}")
+        print(f"[FAIL] Could not load manifest: {e}")
         return False
 
     all_ok = True
@@ -163,12 +163,12 @@ def validate_transform_types() -> bool:
             if layer_def.transform:
                 if layer_def.transform.type not in valid_transforms:
                     print(
-                        f"  ❌ Unknown transform type: {layer_def.transform.type} (platform: {platform_key}, layer: {layer_name})"
+                        f"  [FAIL] Unknown transform type: {layer_def.transform.type} (platform: {platform_key}, layer: {layer_name})"
                     )
                     all_ok = False
                 else:
                     print(
-                        f"  ✅ {platform_key}.{layer_name}.transform: {layer_def.transform.type}"
+                        f"  [OK] {platform_key}.{layer_name}.transform: {layer_def.transform.type}"
                     )
 
             # Check multiple transforms
@@ -176,16 +176,16 @@ def validate_transform_types() -> bool:
                 for stream_name, transform in layer_def.transforms.items():
                     if transform.type not in valid_transforms:
                         print(
-                            f"  ❌ Unknown transform type: {transform.type} (platform: {platform_key}, layer: {layer_name}, stream: {stream_name})"
+                            f"  [FAIL] Unknown transform type: {transform.type} (platform: {platform_key}, layer: {layer_name}, stream: {stream_name})"
                         )
                         all_ok = False
                     else:
                         print(
-                            f"  ✅ {platform_key}.{layer_name}.transforms.{stream_name}: {transform.type}"
+                            f"  [OK] {platform_key}.{layer_name}.transforms.{stream_name}: {transform.type}"
                         )
 
     if all_ok:
-        print("\n✅ All transform types recognized")
+        print("\n[OK] All transform types recognized")
 
     return all_ok
 
@@ -193,7 +193,7 @@ def validate_transform_types() -> bool:
 def main():
     """Main validation entry point."""
     print("=" * 60)
-    print("📋 Dataset Layer Manifest Validation")
+    print("[LIST] Dataset Layer Manifest Validation")
     print("=" * 60)
 
     checks = [
@@ -209,21 +209,21 @@ def main():
         results.append((name, result))
 
     print("\n" + "=" * 60)
-    print("📊 Validation Summary")
+    print("[STATS] Validation Summary")
     print("=" * 60)
 
     all_passed = True
     for name, result in results:
-        status = "✅ PASS" if result else "❌ FAIL"
+        status = "[OK] PASS" if result else "[FAIL] FAIL"
         print(f"  {status} {name}")
         if not result:
             all_passed = False
 
     if all_passed:
-        print("\n🎉 All validations passed!")
+        print("\n[DONE] All validations passed!")
         sys.exit(0)
     else:
-        print("\n❌ Some validations failed!")
+        print("\n[FAIL] Some validations failed!")
         sys.exit(1)
 
 

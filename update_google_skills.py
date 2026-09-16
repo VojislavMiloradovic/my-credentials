@@ -169,7 +169,7 @@ def load_retired_rules(platform: str) -> list[dict[str, Any]]:
         logger.info(f"Loaded {len(rules)} retired rule(s) for {platform}")
         return rules
     except Exception as e:
-        logger.warning(f"⚠️ Could not load retired rules for {platform}: {e}")
+        logger.warning(f"[WARN] Could not load retired rules for {platform}: {e}")
         return []
 
 
@@ -214,7 +214,7 @@ def mark_retired(
                     item["retired_at"] = matched_rule["retired_at"]
             marked += 1
             logger.info(
-                f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
+                f"[LABEL]  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
             )
 
     logger.info(
@@ -452,7 +452,7 @@ def parse_google_badges_from_json(json_path: str) -> list[dict]:
     if not os.path.exists(json_path):
         return []
 
-    logger.info(f"📄 Reading existing Google badges from JSON: '{json_path}'")
+    logger.info(f"[FILE] Reading existing Google badges from JSON: '{json_path}'")
     try:
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -469,12 +469,12 @@ def parse_google_badges_from_json(json_path: str) -> list[dict]:
                     validated = GoogleBadgeItemModel(**item)
                     badges.append(validated.model_dump(mode="json"))
                 except ValidationError as ve:
-                    logger.warning(f"⚠️ Skipping invalid JSON badge entry: {ve}")
+                    logger.warning(f"[WARN] Skipping invalid JSON badge entry: {ve}")
 
-        logger.info(f"✅ Loaded {len(badges)} valid Google badges from JSON file.")
+        logger.info(f"[OK] Loaded {len(badges)} valid Google badges from JSON file.")
         return badges
     except (json.JSONDecodeError, OSError) as e:
-        logger.warning(f"⚠️ Error reading JSON file '{json_path}': {e}")
+        logger.warning(f"[WARN] Error reading JSON file '{json_path}': {e}")
         return []
 
 
@@ -486,7 +486,7 @@ def fetch_google_skills_badges_playwright(
         return []
 
     target_url = url or f"https://www.skills.google/public_profiles/{profile_id}"
-    logger.info(f"🎭 Launching Playwright to fetch: {target_url}")
+    logger.info(f"[THEATER] Launching Playwright to fetch: {target_url}")
 
     try:
         with sync_playwright() as p:
@@ -563,7 +563,7 @@ def fetch_google_skills_badges_playwright(
 
             browser.close()
 
-        logger.info(f"🎭 Playwright extracted {len(badges_data)} badges from DOM")
+        logger.info(f"[THEATER] Playwright extracted {len(badges_data)} badges from DOM")
 
         parsed = []
         for badge in badges_data:
@@ -611,12 +611,12 @@ def fetch_google_skills_badges_playwright(
         if parsed:
             with_dates = sum(1 for b in parsed if b.get("issued_at"))
             logger.info(
-                f"🎭 Playwright successfully retrieved {len(parsed)} badges ({with_dates} with dates)"
+                f"[THEATER] Playwright successfully retrieved {len(parsed)} badges ({with_dates} with dates)"
             )
             return parsed
         return []
     except Exception as e:
-        logger.warning(f"⚠️ Playwright scraping failed: {e}")
+        logger.warning(f"[WARN] Playwright scraping failed: {e}")
         return []
 
 
@@ -633,7 +633,7 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
     html_endpoint_accessible = False
 
     for url, is_json in endpoints:
-        logger.info(f"🔄 Attempting fetch from Google Skills endpoint: {url}")
+        logger.info(f"[SYNC] Attempting fetch from Google Skills endpoint: {url}")
         headers = dict(HEADERS)
         if not is_json:
             headers["Accept"] = (
@@ -704,7 +704,7 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                                     pass
                         if parsed:
                             logger.info(
-                                f"✅ Successfully retrieved {len(parsed)} badges via JSON endpoint."
+                                f"[OK] Successfully retrieved {len(parsed)} badges via JSON endpoint."
                             )
                             return parsed
                     except json.JSONDecodeError:
@@ -817,7 +817,7 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                             has_dates = any(b.get("issued_at") for b in parsed)
                             if not has_dates and PLAYWRIGHT_AVAILABLE:
                                 logger.info(
-                                    "🔄 No dates in static HTML; trying Playwright for JS-rendered dates..."
+                                    "[SYNC] No dates in static HTML; trying Playwright for JS-rendered dates..."
                                 )
                                 pw_parsed = fetch_google_skills_badges_playwright(
                                     profile_id, url
@@ -825,7 +825,7 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                                 if pw_parsed:
                                     return pw_parsed
                             logger.info(
-                                f"✅ Successfully retrieved {len(parsed)} badges via HTML profile page."
+                                f"[OK] Successfully retrieved {len(parsed)} badges via HTML profile page."
                             )
                             return parsed
                     except Exception as parse_err:
@@ -842,7 +842,7 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
     # Try Playwright as final attempt before local fallback
     # Only if at least one HTML endpoint was accessible (returned 200)
     if PLAYWRIGHT_AVAILABLE and html_endpoint_accessible:
-        logger.info("🔄 Trying Playwright for JS-rendered badges and dates...")
+        logger.info("[SYNC] Trying Playwright for JS-rendered badges and dates...")
         pw_parsed = fetch_google_skills_badges_playwright(profile_id)
         if pw_parsed:
             return pw_parsed
@@ -861,7 +861,7 @@ def fetch_google_skills_badges(profile_id: str) -> list[dict]:
                 return local_badges
 
     logger.error(
-        "❌ Failed to acquire Google Skills badges from network or local files."
+        "[FAIL] Failed to acquire Google Skills badges from network or local files."
     )
     return []
 
@@ -875,7 +875,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     """Invokes archiver helper to generate markdown files and update README."""
     if not generate_platform_archive:
         logger.error(
-            "❌ Archiver module helper unavailable. Skipping markdown generation."
+            "[FAIL] Archiver module helper unavailable. Skipping markdown generation."
         )
         return
 
@@ -912,7 +912,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
 
         name_cell = f"[{title_clean}]({verify_url})" if verify_url else title_clean
         if retired:
-            name_cell += " ⚠️ *Content retired*"
+            name_cell += " [WARN] *Content retired*"
         row_text = f"| {date_str} | {name_cell} | {issuer_clean} | {v_type_clean} |"
         formatted_rows.append((row_text, date_str))
 
@@ -1013,7 +1013,7 @@ def main():
 
     if os.path.exists(VALIDATION_DIR) and not os.path.isdir(VALIDATION_DIR):
         logger.warning(
-            f"⚠️ '{VALIDATION_DIR}' exists as a regular file. Removing it to convert into a directory."
+            f"[WARN] '{VALIDATION_DIR}' exists as a regular file. Removing it to convert into a directory."
         )
         os.remove(VALIDATION_DIR)
 
@@ -1038,7 +1038,7 @@ def main():
 
     if raw_badges is None or len(raw_badges) == 0:
         logger.warning(
-            f"⚠️ Google Skills API returned 0 badges or failed; "
+            f"[WARN] Google Skills API returned 0 badges or failed; "
             f"retaining the previous local dataset ({len(local_badges)} badges)."
         )
         unique_badges = local_badges
@@ -1067,7 +1067,7 @@ def main():
     if retired_rules:
         _, marked = mark_retired(unique_badges, retired_rules, url_field="verify_url")
         if marked > 0:
-            logger.info(f"📝 Updated {marked} badge(s) with retired status")
+            logger.info(f"[NOTE] Updated {marked} badge(s) with retired status")
 
     # 3. Pydantic Payload Validation & File Dump strictly inside for_validation/
     layer_metadata = generate_layer_metadata("google-skills")
@@ -1086,10 +1086,10 @@ def main():
             f.write(validated_payload.model_dump_json(indent=2))
 
         logger.info(
-            f"🎉 Persistence complete: '{OUTPUT_FILE}' updated ({len(unique_badges)} badges)."
+            f"[DONE] Persistence complete: '{OUTPUT_FILE}' updated ({len(unique_badges)} badges)."
         )
     except ValidationError as ve:
-        logger.error(f"❌ Root Payload Validation Error: {ve}")
+        logger.error(f"[FAIL] Root Payload Validation Error: {ve}")
         sys.exit(1)
 
     # Generate baseline fingerprints for cross-artifact validation

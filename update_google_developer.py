@@ -35,15 +35,13 @@ try:
         RAW_BASE_DEFAULT,
         generate_platform_archive,
         safe_write_file,
+        update_readme_stats,
     )
 except ImportError:
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
     generate_platform_archive = None
     safe_write_file = lambda filepath, new_content: False
-
-    def update_readme_stats(*args, **kwargs):
-        """Fallback no-op for update_readme_stats."""
-        return
+    update_readme_stats = lambda *args, **kwargs: None
 
 
 # Content-Aware Loss Guard
@@ -99,7 +97,7 @@ def load_retired_rules(platform: str) -> list[dict[str, Any]]:
         logger.info(f"Loaded {len(rules)} retired rule(s) for {platform}")
         return rules
     except Exception as e:
-        logger.warning(f"⚠️ Could not load retired rules for {platform}: {e}")
+        logger.warning(f"[WARN] Could not load retired rules for {platform}: {e}")
         return []
 
 
@@ -144,7 +142,7 @@ def mark_retired(
                     item["retired_at"] = matched_rule["retired_at"]
             marked += 1
             logger.info(
-                f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
+                f"[LABEL]  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
             )
 
     logger.info(
@@ -428,7 +426,7 @@ def execute_data_loss_guard(new_badges: list[dict]) -> None:
     new_count = len(new_badges)
 
     logger.info(
-        f"🛡️ Loss Guard Check: Stored Archive Baseline = {old_count} items | Incoming Dataset = {new_count} items."
+        f"[SHIELD] Loss Guard Check: Stored Archive Baseline = {old_count} items | Incoming Dataset = {new_count} items."
     )
 
     if old_count > 0 and new_count == 0:
@@ -444,7 +442,7 @@ def execute_data_loss_guard(new_badges: list[dict]) -> None:
                 f"from baseline ({old_count}). Threshold: {MAX_ALLOWED_DATA_LOSS_PCT:.0%}. Aborting."
             )
 
-    logger.info("✅ Loss Guard Assertion Passed: Incoming dataset verified.")
+    logger.info("[OK] Loss Guard Assertion Passed: Incoming dataset verified.")
 
 
 # ==============================================================================
@@ -460,7 +458,7 @@ def parse_local_learnings_txt() -> list[dict]:
         )
         return []
 
-    logger.info(f"📄 Parsing local Google learning log: '{LEARNINGS_TXT_PATH}'")
+    logger.info(f"[FILE] Parsing local Google learning log: '{LEARNINGS_TXT_PATH}'")
     with open(LEARNINGS_TXT_PATH, "r", encoding="utf-8") as f:
         lines = [line.strip() for line in f if line.strip()]
 
@@ -495,12 +493,12 @@ def parse_local_learnings_txt() -> list[dict]:
                     )
                 except ValidationError as ve:
                     logger.warning(
-                        f"⚠️ Skipping invalid local activity entry '{title}': {ve}"
+                        f"[WARN] Skipping invalid local activity entry '{title}': {ve}"
                     )
         i += 1
 
     logger.info(
-        f"✅ Extracted {len(learnings)} granular learning items from local log."
+        f"[OK] Extracted {len(learnings)} granular learning items from local log."
     )
     return learnings
 
@@ -516,11 +514,11 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
     """
     if not os.path.exists(mhtml_path):
         logger.warning(
-            f"⚠️ MHTML file '{mhtml_path}' not found. Skipping MHTML parsing."
+            f"[WARN] MHTML file '{mhtml_path}' not found. Skipping MHTML parsing."
         )
         return []
 
-    logger.info(f"📄 Parsing Google Developer learnings from MHTML: '{mhtml_path}'")
+    logger.info(f"[FILE] Parsing Google Developer learnings from MHTML: '{mhtml_path}'")
 
     # Try MHTML parsing first
     try:
@@ -590,18 +588,18 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
                         )
                     except ValidationError as ve:
                         logger.warning(
-                            f"⚠️ Skipping invalid MHTML activity entry '{title}': {ve}"
+                            f"[WARN] Skipping invalid MHTML activity entry '{title}': {ve}"
                         )
 
                 logger.info(
-                    f"✅ Extracted {len(learnings)} learning activities from MHTML ({retired_count} retired)."
+                    f"[OK] Extracted {len(learnings)} learning activities from MHTML ({retired_count} retired)."
                 )
                 return learnings
     except Exception as e:
-        logger.warning(f"⚠️ MHTML parsing failed, falling back to text parser: {e}")
+        logger.warning(f"[WARN] MHTML parsing failed, falling back to text parser: {e}")
 
     # Fallback to legacy text parser
-    logger.info(f"📄 Falling back to legacy text parser for: '{mhtml_path}'")
+    logger.info(f"[FILE] Falling back to legacy text parser for: '{mhtml_path}'")
     return parse_local_learnings_txt()
 
 
@@ -727,7 +725,7 @@ def fetch_gdev_badges_rpc() -> list[dict]:
         )
         if response.status_code != 200:
             logger.warning(
-                f"⚠️ RPC request failed with status HTTP {response.status_code}"
+                f"[WARN] RPC request failed with status HTTP {response.status_code}"
             )
             return []
 
@@ -755,10 +753,10 @@ def fetch_gdev_badges_rpc() -> list[dict]:
                 except Exception:
                     continue
 
-        logger.info(f"✅ Extracted {len(parsed_badges)} badges from RPC endpoint.")
+        logger.info(f"[OK] Extracted {len(parsed_badges)} badges from RPC endpoint.")
         return parsed_badges
     except Exception as e:
-        logger.warning(f"⚠️ Exception occurred during RPC fetch: {e}")
+        logger.warning(f"[WARN] Exception occurred during RPC fetch: {e}")
         return []
 
 
@@ -810,7 +808,7 @@ def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
 
         return layer_metadata
     except Exception as e:
-        logger.warning(f"⚠️ Could not generate layer metadata: {e}")
+        logger.warning(f"[WARN] Could not generate layer metadata: {e}")
         return {}
 
 
@@ -833,7 +831,7 @@ def main():
 
     if not combined_feed:
         logger.error(
-            "❌ No badge records extracted from RPC or local activity file. Aborting."
+            "[FAIL] No badge records extracted from RPC or local activity file. Aborting."
         )
         sys.exit(1)
 
@@ -850,7 +848,7 @@ def main():
     if retired_rules:
         _, marked = mark_retired(combined_feed, retired_rules, url_field="url")
         if marked > 0:
-            logger.info(f"📝 Updated {marked} badge/activity(s) with retired status")
+            logger.info(f"[NOTE] Updated {marked} badge/activity(s) with retired status")
 
     # Persist full data with retired flags to for_validation for link checker
     validation_dir = VALIDATION_DIR
@@ -873,9 +871,9 @@ def main():
     try:
         with open(validation_file, "w", encoding="utf-8") as f:
             json.dump(payload, f, indent=2, ensure_ascii=False)
-        logger.info(f"💾 Full data persisted: '{validation_file}'")
+        logger.info(f"[SAVE] Full data persisted: '{validation_file}'")
     except Exception as e:
-        logger.warning(f"⚠️ Could not persist full data: {e}")
+        logger.warning(f"[WARN] Could not persist full data: {e}")
 
     # Generate baseline fingerprints for cross-artifact validation
     generate_all_provider_baselines(combined_feed, "google-developer")
@@ -888,10 +886,10 @@ def main():
         with open(archive_file, "w", encoding="utf-8") as f:
             json.dump(combined_feed, f, indent=2, ensure_ascii=False)
         logger.info(
-            f"📦 Archive saved: '{archive_file}' ({len(combined_feed)} records)"
+            f"[PACKAGE] Archive saved: '{archive_file}' ({len(combined_feed)} records)"
         )
     except Exception as e:
-        logger.warning(f"⚠️ Could not save archive: {e}")
+        logger.warning(f"[WARN] Could not save archive: {e}")
 
     # 4. Update README with stats
     try:
@@ -901,9 +899,9 @@ def main():
             public_badges=len(public_badges),
             detailed_learnings=len(detailed_learnings),
         )
-        logger.info("📊 README updated with Google Developer stats")
+        logger.info("[STATS] README updated with Google Developer stats")
     except Exception as e:
-        logger.warning(f"⚠️ Could not update README: {e}")
+        logger.warning(f"[WARN] Could not update README: {e}")
 
     # 5. Sort combined entries reverse-chronologically
     combined_feed.sort(
@@ -1052,12 +1050,12 @@ def main():
 
             with open(index_file_path, "w", encoding="utf-8") as f:
                 f.write(index_content)
-            logger.info(f"✅ Updated category breakdown metrics in {index_file_path}")
+            logger.info(f"[OK] Updated category breakdown metrics in {index_file_path}")
         except Exception as e:
-            logger.warning(f"⚠️ Failed to update overview in {index_file_path}: {e}")
+            logger.warning(f"[WARN] Failed to update overview in {index_file_path}: {e}")
 
     logger.info(
-        f"🎉 Google Developer pipeline complete ({total_combined} combined items)."
+        f"[DONE] Google Developer pipeline complete ({total_combined} combined items)."
     )
 
 

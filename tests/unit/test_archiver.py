@@ -382,7 +382,7 @@ class TestGeneratePlatformArchive:
         """Should include retired marker in output."""
         rows_with_retired = [
             (
-                "| 2024-01-15 | [Badge 1](https://example.com/1) ⚠️ *Content retired* | AWS | Badge |",
+                "| 2024-01-15 | [Badge 1](https://example.com/1) [WARN] *Content retired* | AWS | Badge |",
                 "2024-01-15",
             ),
         ]
@@ -404,4 +404,4 @@ class TestGeneratePlatformArchive:
 
         monolith_path = Path(archive_dir) / "test-platform-complete.md"
         content = monolith_path.read_text(encoding="utf-8")
-        assert "⚠️ *Content retired*" in content
+        assert "[WARN] *Content retired*" in content

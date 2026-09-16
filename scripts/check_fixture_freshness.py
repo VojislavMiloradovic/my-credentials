@@ -211,7 +211,7 @@ def print_refresh_instructions(platform: str) -> None:
         ),
     }
 
-    print(f"\n📋 Refresh instructions for {platform}:")
+    print(f"\n[LIST] Refresh instructions for {platform}:")
     print(instructions.get(platform, "No specific instructions available."))
 
 

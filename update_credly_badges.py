@@ -102,7 +102,7 @@ def load_retired_rules(platform: str) -> list[dict[str, Any]]:
         logger.info(f"Loaded {len(rules)} retired rule(s) for {platform}")
         return rules
     except Exception as e:
-        logger.warning(f"⚠️ Could not load retired rules for {platform}: {e}")
+        logger.warning(f"[WARN] Could not load retired rules for {platform}: {e}")
         return []
 
 
@@ -147,7 +147,7 @@ def mark_retired(
                     item["retired_at"] = matched_rule["retired_at"]
             marked += 1
             logger.info(
-                f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
+                f"[LABEL]  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
             )
 
     logger.info(
@@ -416,7 +416,7 @@ def parse_credly_badges_from_json(json_path: str) -> list[dict]:
     if not os.path.exists(json_path):
         return []
 
-    logger.info(f"📄 Reading existing Credly badges from JSON: '{json_path}'")
+    logger.info(f"[FILE] Reading existing Credly badges from JSON: '{json_path}'")
     try:
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -433,12 +433,12 @@ def parse_credly_badges_from_json(json_path: str) -> list[dict]:
                     validated = CredlyBadgeItemModel(**item)
                     badges.append(validated.model_dump(mode="json"))
                 except ValidationError as ve:
-                    logger.warning(f"⚠️ Skipping invalid JSON badge entry: {ve}")
+                    logger.warning(f"[WARN] Skipping invalid JSON badge entry: {ve}")
 
-        logger.info(f"✅ Loaded {len(badges)} valid Credly badges from JSON file.")
+        logger.info(f"[OK] Loaded {len(badges)} valid Credly badges from JSON file.")
         return badges
     except (json.JSONDecodeError, OSError) as e:
-        logger.warning(f"⚠️ Error reading JSON file '{json_path}': {e}")
+        logger.warning(f"[WARN] Error reading JSON file '{json_path}': {e}")
         return []
 
 
@@ -460,7 +460,7 @@ def load_existing_local_badges() -> list[dict]:
 def fetch_credly_badges(username: str) -> list[dict] | None:
     """Fetches badges directly from Credly's public user API endpoint with pagination."""
     url = f"https://www.credly.com/users/{username}/badges.json"
-    logger.info(f"🔄 Fetching Credly badges from API endpoint: {url}")
+    logger.info(f"[SYNC] Fetching Credly badges from API endpoint: {url}")
 
     badges = []
     seen_badge_ids: set[str] = set()
@@ -471,7 +471,7 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
             response = requests.get(f"{url}?page={page}", headers=HEADERS, timeout=20)
             if response.status_code != 200:
                 logger.warning(
-                    f"⚠️ Credly API returned status code {response.status_code} on page {page}."
+                    f"[WARN] Credly API returned status code {response.status_code} on page {page}."
                 )
                 return None if not badges else badges
 
@@ -536,7 +536,7 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
                     badges.append(validated.model_dump(mode="json"))
                 except ValidationError as ve:
                     logger.warning(
-                        f"⚠️ Skipping invalid Credly API entry '{title}': {ve}"
+                        f"[WARN] Skipping invalid Credly API entry '{title}': {ve}"
                     )
 
             metadata = payload.get("metadata", {}) if isinstance(payload, dict) else {}
@@ -545,17 +545,17 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
                 break
             if len(seen_badge_ids) == ids_before_page and page > 1:
                 logger.warning(
-                    "⚠️ Credly API returned no new badge IDs; stopping pagination."
+                    "[WARN] Credly API returned no new badge IDs; stopping pagination."
                 )
                 break
             page += 1
 
         except requests.exceptions.RequestException as e:
-            logger.error(f"❌ Exception occurred while requesting Credly API: {e}")
+            logger.error(f"[FAIL] Exception occurred while requesting Credly API: {e}")
             return None if not badges else badges
 
     if badges:
-        logger.info(f"✅ Successfully fetched {len(badges)} badges from Credly API.")
+        logger.info(f"[OK] Successfully fetched {len(badges)} badges from Credly API.")
 
     return badges
 
@@ -563,7 +563,7 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
 def fetch_credly_external_badges(user_id: str) -> list[dict] | None:
     """Fetches Credly's public external/open-badge records."""
     url = f"https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public"
-    logger.info(f"🔄 Fetching External Open Badges API endpoint: {url}")
+    logger.info(f"[SYNC] Fetching External Open Badges API endpoint: {url}")
 
     try:
         response = requests.get(url, headers=HEADERS, timeout=30)
@@ -571,7 +571,7 @@ def fetch_credly_external_badges(user_id: str) -> list[dict] | None:
         payload = response.json()
     except (requests.exceptions.RequestException, ValueError) as exc:
         logger.error(
-            f"❌ Exception occurred while requesting external Credly badges: {exc}"
+            f"[FAIL] Exception occurred while requesting external Credly badges: {exc}"
         )
         return None
 
@@ -604,10 +604,10 @@ def fetch_credly_external_badges(user_id: str) -> list[dict] | None:
         try:
             badges.append(CredlyBadgeItemModel(**raw_entry).model_dump(mode="json"))
         except ValidationError as exc:
-            logger.warning(f"⚠️ Skipping invalid external Credly entry '{title}': {exc}")
+            logger.warning(f"[WARN] Skipping invalid external Credly entry '{title}': {exc}")
 
     logger.info(
-        f"✅ Successfully fetched {len(badges)} external open badges from Credly API."
+        f"[OK] Successfully fetched {len(badges)} external open badges from Credly API."
     )
     return badges
 
@@ -627,7 +627,7 @@ def merge_badge_datasets(
 
     merged = list(badge_map.values())
     logger.info(
-        f"🔗 Union Merge Complete: Total = {len(merged)} badges "
+        f"[LINK] Union Merge Complete: Total = {len(merged)} badges "
         f"(Native={len(api_badges)}, External={len(external_badges)})."
     )
     return merged
@@ -642,7 +642,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     """Invokes archiver helper to generate markdown files and update README."""
     if not generate_platform_archive:
         logger.error(
-            "❌ Archiver module helper unavailable. Skipping markdown generation."
+            "[FAIL] Archiver module helper unavailable. Skipping markdown generation."
         )
         return
 
@@ -679,7 +679,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
 
         name_cell = f"[{title_clean}]({verify_url})" if verify_url else title_clean
         if retired:
-            name_cell += " ⚠️ *Content retired*"
+            name_cell += " [WARN] *Content retired*"
         row_text = f"| {date_str} | {name_cell} | {issuer_clean} | {v_type_clean} |"
         formatted_rows.append((row_text, date_str))
 
@@ -763,7 +763,7 @@ def main():
     # Safe directory initialization
     if os.path.exists(VALIDATION_DIR) and not os.path.isdir(VALIDATION_DIR):
         logger.warning(
-            f"⚠️ '{VALIDATION_DIR}' exists as a file. Removing it to create a directory."
+            f"[WARN] '{VALIDATION_DIR}' exists as a file. Removing it to create a directory."
         )
         os.remove(VALIDATION_DIR)
 
@@ -784,7 +784,7 @@ def main():
 
     if not native_ok or not external_ok:
         logger.warning(
-            f"⚠️ One or more Credly sources failed or returned 0 badges "
+            f"[WARN] One or more Credly sources failed or returned 0 badges "
             f"(native_ok={native_ok}, external_ok={external_ok}); "
             f"retaining the previous local dataset ({len(local_badges)} badges)."
         )
@@ -805,7 +805,7 @@ def main():
     if retired_rules:
         _, marked = mark_retired(unique_badges, retired_rules, url_field="verify_url")
         if marked > 0:
-            logger.info(f"📝 Updated {marked} badge(s) with retired status")
+            logger.info(f"[NOTE] Updated {marked} badge(s) with retired status")
 
     # 5. Pydantic Payload Validation & File Dump strictly into for_validation/
     # Note: manifest expects "credentials" as L1_normalized output_records key
@@ -825,10 +825,10 @@ def main():
             f.write(validated_payload.model_dump_json(indent=2))
 
         logger.info(
-            f"🎉 Persistence complete: '{OUTPUT_FILE}' updated ({len(unique_badges)} credentials)."
+            f"[DONE] Persistence complete: '{OUTPUT_FILE}' updated ({len(unique_badges)} credentials)."
         )
     except ValidationError as ve:
-        logger.error(f"❌ Root Payload Validation Error: {ve}")
+        logger.error(f"[FAIL] Root Payload Validation Error: {ve}")
         sys.exit(1)
 
     # Generate baseline fingerprints for cross-artifact validation
@@ -847,4 +847,4 @@ if __name__ == "__main__":
 
         sync_fixtures("credly")
     except Exception as exc:
-        logger.warning(f"⚠️ Fixture sync failed (non-fatal): {exc}")
+        logger.warning(f"[WARN] Fixture sync failed (non-fatal): {exc}")

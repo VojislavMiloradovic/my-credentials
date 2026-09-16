@@ -226,9 +226,9 @@ class CrossArtifactValidator:
         """Add a validation result."""
         self.results.append(result)
         status = (
-            "✅ PASS"
+            "[OK] PASS"
             if result.passed
-            else ("⚠️ WARN" if result.severity == "warning" else "❌ FAIL")
+            else ("[WARN] WARN" if result.severity == "warning" else "[FAIL] FAIL")
         )
         platform_str = f"[{result.platform}] " if result.platform else ""
         logger.info(f"{status} {platform_str}{result.check_name}: {result.message}")
@@ -260,7 +260,7 @@ class CrossArtifactValidator:
 
     def validate_source_snapshots(self) -> None:
         """Validate source snapshot files in for_validation/."""
-        logger.info("🔍 Validating source snapshots...")
+        logger.info("[SEARCH] Validating source snapshots...")
 
         for platform_key in PLATFORMS:
             counts = self.platform_data.setdefault(
@@ -389,7 +389,7 @@ class CrossArtifactValidator:
 
     def validate_archive_complete(self) -> None:
         """Validate monolithic complete archive files."""
-        logger.info("🔍 Validating archive complete files...")
+        logger.info("[SEARCH] Validating archive complete files...")
 
         for platform_key, config in PLATFORMS.items():
             counts = self.platform_data.setdefault(
@@ -470,7 +470,7 @@ class CrossArtifactValidator:
 
     def validate_index_files(self) -> None:
         """Validate platform index files."""
-        logger.info("🔍 Validating platform index files...")
+        logger.info("[SEARCH] Validating platform index files...")
 
         for platform_key, config in PLATFORMS.items():
             counts = self.platform_data.setdefault(
@@ -515,7 +515,7 @@ class CrossArtifactValidator:
 
     def validate_readme(self) -> None:
         """Validate README.md marker sections for consistency."""
-        logger.info("🔍 Validating README.md...")
+        logger.info("[SEARCH] Validating README.md...")
 
         content = self._read_file_safe(README_PATH)
         if not content:
@@ -570,7 +570,7 @@ class CrossArtifactValidator:
 
     def validate_jsonld(self) -> None:
         """Validate JSON-LD credentials file."""
-        logger.info("🔍 Validating JSON-LD...")
+        logger.info("[SEARCH] Validating JSON-LD...")
 
         content = self._read_file_safe(JSONLD_PATH)
         if not content:
@@ -789,7 +789,7 @@ class CrossArtifactValidator:
 
     def validate_llms_txt(self) -> None:
         """Validate llms.txt portfolio counts."""
-        logger.info("🔍 Validating llms.txt...")
+        logger.info("[SEARCH] Validating llms.txt...")
 
         content = self._read_file_safe(LLMS_PATH)
         if not content:
@@ -846,7 +846,7 @@ class CrossArtifactValidator:
 
     def validate_llms_full(self) -> None:
         """Validate llms-full.txt contains all platforms."""
-        logger.info("🔍 Validating llms-full.txt...")
+        logger.info("[SEARCH] Validating llms-full.txt...")
 
         content = self._read_file_safe(LLMS_FULL_PATH)
         if not content:
@@ -1006,7 +1006,7 @@ class CrossArtifactValidator:
 
     def validate_cross_artifact_consistency(self) -> None:
         """Cross-compare counts across all artifacts using declared layer transforms."""
-        logger.info("🔍 Validating cross-artifact consistency...")
+        logger.info("[SEARCH] Validating cross-artifact consistency...")
 
         # Map comparison source names to actual PlatformCounts attributes
         attr_map = {
@@ -1491,7 +1491,7 @@ class CrossArtifactValidator:
 
     def validate_platform_coverage(self) -> None:
         """Ensure all platforms appear in all generated artifacts."""
-        logger.info("🔍 Validating platform coverage across artifacts...")
+        logger.info("[SEARCH] Validating platform coverage across artifacts...")
 
         # For file-based artifacts, check filenames
         file_artifacts = {
@@ -1634,7 +1634,7 @@ class CrossArtifactValidator:
 
     def validate_latest_record_ordering(self) -> None:
         """Validate latest record dates are consistent and reasonable."""
-        logger.info("🔍 Validating latest record ordering...")
+        logger.info("[SEARCH] Validating latest record ordering...")
 
         for platform_key in PLATFORMS:
             counts = self.platform_data.get(platform_key)
@@ -1684,7 +1684,7 @@ class CrossArtifactValidator:
     def run_all(self) -> bool:
         """Run all validation checks."""
         logger.info("=" * 60)
-        logger.info("🔬 Starting Cross-Artifact Semantic Validation")
+        logger.info("[ANALYZE] Starting Cross-Artifact Semantic Validation")
         logger.info("=" * 60)
 
         self.validate_source_snapshots()
@@ -1700,7 +1700,7 @@ class CrossArtifactValidator:
 
         # Summary
         logger.info("=" * 60)
-        logger.info("📊 Validation Summary")
+        logger.info("[STATS] Validation Summary")
         logger.info("=" * 60)
 
         passed = sum(1 for r in self.results if r.passed)
@@ -1717,14 +1717,14 @@ class CrossArtifactValidator:
 
         if failed > 0:
             logger.error(
-                "❌ VALIDATION FAILED - Cross-artifact inconsistencies detected"
+                "[FAIL] VALIDATION FAILED - Cross-artifact inconsistencies detected"
             )
             return False
         elif warnings > 0:
-            logger.warning("⚠️ VALIDATION PASSED WITH WARNINGS")
+            logger.warning("[WARN] VALIDATION PASSED WITH WARNINGS")
             return True
         else:
-            logger.info("✅ ALL VALIDATIONS PASSED")
+            logger.info("[OK] ALL VALIDATIONS PASSED")
             return True
 
     def generate_report(self, output_path: str = "cross_artifact_report.json") -> None:
@@ -1765,7 +1765,7 @@ class CrossArtifactValidator:
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(report, f, indent=2, ensure_ascii=False)
 
-        logger.info(f"📄 Report written to {output_path}")
+        logger.info(f"[FILE] Report written to {output_path}")
 
 
 def main():

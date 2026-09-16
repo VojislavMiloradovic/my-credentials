@@ -159,7 +159,7 @@ def load_retired_rules(platform: str) -> list[dict[str, Any]]:
         logger.info(f"Loaded {len(rules)} retired rule(s) for {platform}")
         return rules
     except Exception as e:
-        logger.warning(f"⚠️ Could not load retired rules for {platform}: {e}")
+        logger.warning(f"[WARN] Could not load retired rules for {platform}: {e}")
         return []
 
 
@@ -204,7 +204,7 @@ def mark_retired(
                     item["retired_at"] = matched_rule["retired_at"]
             marked += 1
             logger.info(
-                f"🏷️  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
+                f"[LABEL]  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
             )
 
     logger.info(
@@ -428,7 +428,7 @@ def parse_aws_badges_from_json(json_path: str) -> list[dict]:
     if not os.path.exists(json_path):
         return []
 
-    logger.info(f"📄 Reading existing AWS badges from local JSON file: '{json_path}'")
+    logger.info(f"[FILE] Reading existing AWS badges from local JSON file: '{json_path}'")
     try:
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -445,14 +445,14 @@ def parse_aws_badges_from_json(json_path: str) -> list[dict]:
                     validated = AwsBadgeItemModel(**item)
                     badges.append(validated.model_dump(mode="json"))
                 except ValidationError as ve:
-                    logger.warning(f"⚠️ Skipping invalid JSON badge entry: {ve}")
+                    logger.warning(f"[WARN] Skipping invalid JSON badge entry: {ve}")
 
         logger.info(
-            f"✅ Loaded {len(badges)} valid AWS badges from JSON file '{json_path}'."
+            f"[OK] Loaded {len(badges)} valid AWS badges from JSON file '{json_path}'."
         )
         return badges
     except (json.JSONDecodeError, OSError) as e:
-        logger.warning(f"⚠️ Error reading JSON file '{json_path}': {e}")
+        logger.warning(f"[WARN] Error reading JSON file '{json_path}': {e}")
         return []
 
 
@@ -486,7 +486,7 @@ def locate_aws_csv_file() -> str | None:
 
 def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
     """Parses AWS transcript / badge export CSV files into validated models."""
-    logger.info(f"📄 Parsing AWS credentials from CSV file: '{csv_path}'")
+    logger.info(f"[FILE] Parsing AWS credentials from CSV file: '{csv_path}'")
     badges = []
     profile_url = f"https://skillsprofile.skillbuilder.aws/user/{profile_user}"
 
@@ -501,7 +501,7 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
 
     if header_idx == -1:
         logger.error(
-            "❌ Could not locate CSV header row starting with 'Title,Type,...'"
+            "[FAIL] Could not locate CSV header row starting with 'Title,Type,...'"
         )
         return []
 
@@ -584,10 +584,10 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
             badges.append(validated_model.model_dump(mode="json"))
         except ValidationError as ve:
             logger.warning(
-                f"⚠️ Anomaly Guard: Skipping malformed CSV row entry '{title}': {ve}"
+                f"[WARN] Anomaly Guard: Skipping malformed CSV row entry '{title}': {ve}"
             )
 
-    logger.info(f"✅ Extracted {len(badges)} valid AWS badge records from CSV.")
+    logger.info(f"[OK] Extracted {len(badges)} valid AWS badge records from CSV.")
     return badges
 
 
@@ -621,7 +621,7 @@ def fetch_aws_skills_badges(profile_user: str) -> list[dict]:
     ]
 
     for url in urls:
-        logger.info(f"🔄 Attempting fetch from endpoint: {url}")
+        logger.info(f"[SYNC] Attempting fetch from endpoint: {url}")
         try:
             response = requests.get(url, headers=HEADERS, timeout=20)
             if response.status_code == 200:
@@ -666,14 +666,14 @@ def fetch_aws_skills_badges(profile_user: str) -> list[dict]:
                                 pass
                     if parsed:
                         logger.info(
-                            f"✅ Successfully fetched {len(parsed)} badges via JSON API endpoint."
+                            f"[OK] Successfully fetched {len(parsed)} badges via JSON API endpoint."
                         )
                         return parsed
         except requests.exceptions.RequestException as e:
-            logger.warning(f"⚠️ Request failed for {url}: {e}")
+            logger.warning(f"[WARN] Request failed for {url}: {e}")
 
     logger.error(
-        "❌ Failed to acquire AWS Skill Builder badges from CSV, local JSON, or network endpoints."
+        "[FAIL] Failed to acquire AWS Skill Builder badges from CSV, local JSON, or network endpoints."
     )
     return []
 
@@ -696,7 +696,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
     """Invokes archiver helper to generate markdown chunk files and update README.md."""
     if not generate_platform_archive:
         logger.error(
-            "❌ Archiver module helper not available. Skipping markdown generation."
+            "[FAIL] Archiver module helper not available. Skipping markdown generation."
         )
         return
 
@@ -733,7 +733,7 @@ def build_archives_and_readme(badges: list[dict]) -> None:
 
         name_cell = f"[{title_clean}]({verify_url})" if verify_url else title_clean
         if retired:
-            name_cell += " ⚠️ *Content retired*"
+            name_cell += " [WARN] *Content retired*"
         row_text = f"| {date_str} | {name_cell} | {issuer_clean} | {v_type_clean} |"
         formatted_rows.append((row_text, date_str))
 
@@ -830,7 +830,7 @@ def main():
     # Safe directory initialization
     if os.path.exists(VALIDATION_DIR) and not os.path.isdir(VALIDATION_DIR):
         logger.warning(
-            f"⚠️ '{VALIDATION_DIR}' exists as a file. Removing it to create a directory."
+            f"[WARN] '{VALIDATION_DIR}' exists as a file. Removing it to create a directory."
         )
         os.remove(VALIDATION_DIR)
 
@@ -860,7 +860,7 @@ def main():
     if retired_rules:
         _, marked = mark_retired(unique_badges, retired_rules, url_field="verify_url")
         if marked > 0:
-            logger.info(f"📝 Updated {marked} badge(s) with retired status")
+            logger.info(f"[NOTE] Updated {marked} badge(s) with retired status")
 
     # 3. Validate Root Payload with Pydantic Schema & Save strictly inside for_validation/
     layer_metadata = generate_layer_metadata("aws-skills")
@@ -876,10 +876,10 @@ def main():
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write(validated_payload.model_dump_json(indent=2))
         logger.info(
-            f"🎉 Persistence complete: '{OUTPUT_FILE}' updated safely ({len(unique_badges)} badges)."
+            f"[DONE] Persistence complete: '{OUTPUT_FILE}' updated safely ({len(unique_badges)} badges)."
         )
     except ValidationError as ve:
-        logger.error(f"❌ Root Payload Validation Error: {ve}")
+        logger.error(f"[FAIL] Root Payload Validation Error: {ve}")
         sys.exit(1)
 
     # Generate baseline fingerprints for cross-artifact validation
@@ -898,4 +898,4 @@ if __name__ == "__main__":
 
         sync_fixtures("aws-skills")
     except Exception as exc:
-        logger.warning(f"⚠️ Fixture sync failed (non-fatal): {exc}")
+        logger.warning(f"[WARN] Fixture sync failed (non-fatal): {exc}")

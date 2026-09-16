@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Teams for education partners (Partner Success Series)** | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/teams-education-partners/) |
 | **AI in Microsoft Teams for Education (Partner Success Series)** | Modules | 2025-12-16 | N/A |
 | **Introduction to Azure Site Recovery** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-site-recovery/) |
 | **Explore cybersecurity careers with Minecraft Education-Cyber Defender: Tower Defense** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/cybersecurity-careers-minecraft-education-cyber-defender/) |
@@ -69,7 +70,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Validate your startup idea with customers** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/validate-idea/) |
 | **Build your team** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-team/) |
 | **Create effective prompts for generative AI training tools** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-prompts-for-generative-ai-training-tools/) |
-| **Empower your workforce with Microsoft 365 Copilot: Marketing Use Case** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-marketing/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-14.md](./microsoft-learn-2025-12-part-14.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-16.md](./microsoft-learn-2025-12-part-16.md)

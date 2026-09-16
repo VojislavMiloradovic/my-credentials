@@ -831,4 +831,4 @@ if __name__ == "__main__":
 
         sync_fixtures("microsoft-learn")
     except Exception as e:
-        logger.warning(f"⚠️ Fixture sync failed (non-fatal): {e}")
+        logger.warning(f"[WARN] Fixture sync failed (non-fatal): {e}")

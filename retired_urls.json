@@ -41,6 +41,162 @@
       "url": "https://codelabs.developers.google.com/alloydb-omni-vm-ha-deployment",
       "reason": "Codelab retired (404 Not Found)",
       "retired_at": "2026-08-29"
+    },
+    {
+      "id": "Cloud Architect",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-09-15",
+      "retired_at": "2026-09-15",
+      "title": "Cloud Architect"
+    },
+    {
+      "id": "Cloud Architecture",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-09-15",
+      "retired_at": "2026-09-15",
+      "title": "Cloud Architecture"
+    },
+    {
+      "id": "Data Engineer",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-09-15",
+      "retired_at": "2026-09-15",
+      "title": "Data Engineer"
+    },
+    {
+      "id": "Data Engineering",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-09-15",
+      "retired_at": "2026-09-15",
+      "title": "Data Engineering"
+    }
+  ],
+  "test-platform": [
+    {
+      "id": "7",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "7"
+    },
+    {
+      "id": "8",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "8"
+    },
+    {
+      "id": "9",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "9"
+    },
+    {
+      "id": "85",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "85"
+    },
+    {
+      "id": "86",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "86"
+    },
+    {
+      "id": "87",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "87"
+    },
+    {
+      "id": "88",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "88"
+    },
+    {
+      "id": "89",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "89"
+    },
+    {
+      "id": "90",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "90"
+    },
+    {
+      "id": "91",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "91"
+    },
+    {
+      "id": "92",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "92"
+    },
+    {
+      "id": "93",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "93"
+    },
+    {
+      "id": "94",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "94"
+    },
+    {
+      "id": "95",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "95"
+    },
+    {
+      "id": "96",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "96"
+    },
+    {
+      "id": "97",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "97"
+    },
+    {
+      "id": "98",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "98"
+    },
+    {
+      "id": "99",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2024-06-15",
+      "retired_at": "2024-06-15",
+      "title": "99"
     }
   ]
 }

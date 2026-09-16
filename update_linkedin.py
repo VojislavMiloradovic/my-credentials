@@ -79,7 +79,7 @@ def load_retired_rules(platform: str) -> list[dict[str, Any]]:
         logger.info(f"Loaded {len(rules)} retired rule(s) for {platform}")
         return rules
     except Exception as e:
-        logger.warning(f"⚠️ Could not load retired rules for {platform}: {e}")
+        logger.warning(f"[WARN] Could not load retired rules for {platform}: {e}")
         return []
 
 
@@ -124,7 +124,7 @@ def mark_retired(
                     item["retired_at"] = matched_rule["retired_at"]
             marked += 1
             logger.info(
-                f"🏷️  Marked as retired: {item.get('name') or item.get('id') or 'unknown'}"
+                f"[LABEL]  Marked as retired: {item.get('name') or item.get('id') or 'unknown'}"
             )
 
     logger.info(
@@ -310,7 +310,7 @@ def execute_data_loss_guard(new_certs: list[dict]) -> None:
     new_count = len(new_certs)
 
     logger.info(
-        f"🛡️ Loss Guard Check: Stored Archive Baseline = {old_count} certs | Incoming Dataset = {new_count} certs."
+        f"[SHIELD] Loss Guard Check: Stored Archive Baseline = {old_count} certs | Incoming Dataset = {new_count} certs."
     )
 
     if old_count > 0 and new_count == 0:
@@ -327,7 +327,7 @@ def execute_data_loss_guard(new_certs: list[dict]) -> None:
             )
 
     logger.info(
-        "✅ Loss Guard Assertion Passed: Incoming payload verified against archive baseline."
+        "[OK] Loss Guard Assertion Passed: Incoming payload verified against archive baseline."
     )
 
 
@@ -384,7 +384,7 @@ def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
 
         return layer_metadata
     except Exception as e:
-        logger.warning(f"⚠️ Could not generate layer metadata: {e}")
+        logger.warning(f"[WARN] Could not generate layer metadata: {e}")
         return {}
 
 
@@ -412,14 +412,14 @@ def locate_certifications_csv() -> str | None:
 
 def parse_certifications_csv(csv_path: str) -> list[dict]:
     """Parses CSV transcript/certification file into validated models."""
-    logger.info(f"📄 Parsing LinkedIn certifications from CSV file: '{csv_path}'")
+    logger.info(f"[FILE] Parsing LinkedIn certifications from CSV file: '{csv_path}'")
     certs = []
     current_year_month = datetime.now(UTC).strftime("%Y-%m")
 
     with open(csv_path, mode="r", encoding="utf-8-sig") as f:
         content = f.read()
         if not content.strip():
-            logger.warning("⚠️ CSV file is empty.")
+            logger.warning("[WARN] CSV file is empty.")
             return []
 
         lines = content.splitlines()
@@ -499,14 +499,14 @@ def parse_certifications_csv(csv_path: str) -> list[dict]:
             validated_model = LinkedInCertModel(**raw_entry)
             certs.append(validated_model.model_dump(mode="json"))
         except ValidationError as ve:
-            logger.warning(f"⚠️ Skipping malformed CSV row '{name}': {ve}")
+            logger.warning(f"[WARN] Skipping malformed CSV row '{name}': {ve}")
 
         if skipped:
             logger.warning(
-                f"⚠️ Skipped {skipped} row(s) out of {total_raw} with missing name."
+                f"[WARN] Skipped {skipped} row(s) out of {total_raw} with missing name."
             )
 
-    logger.info(f"✅ Extracted {len(certs)} valid certification records from CSV.")
+    logger.info(f"[OK] Extracted {len(certs)} valid certification records from CSV.")
     return certs
 
 
@@ -521,7 +521,7 @@ def main():
     csv_path = locate_certifications_csv()
     if not csv_path:
         logger.error(
-            "❌ Could not locate CSV certifications file in data/ or root directory."
+            "[FAIL] Could not locate CSV certifications file in data/ or root directory."
         )
         sys.exit(1)
 
@@ -530,7 +530,7 @@ def main():
 
     certs = parse_certifications_csv(csv_path)
     if not certs:
-        logger.error("❌ No certification records extracted. Aborting.")
+        logger.error("[FAIL] No certification records extracted. Aborting.")
         sys.exit(1)
 
     # 1. Execute Content-Aware Loss Guard check against stored baseline
@@ -545,16 +545,16 @@ def main():
                 fail_on_warn=True,  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
             )
         except PipelineDataLossAnomaly as anomaly_err:
-            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            logger.error(f"[FAIL] Pipeline Terminated by Anomaly Guard: {anomaly_err}")
             sys.exit(1)
     else:
         logger.warning(
-            "⚠️ Content-aware loss guard unavailable, falling back to count-only check"
+            "[WARN] Content-aware loss guard unavailable, falling back to count-only check"
         )
         try:
             execute_data_loss_guard(certs)
         except PipelineDataLossAnomaly as anomaly_err:
-            logger.error(f"❌ Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            logger.error(f"[FAIL] Pipeline Terminated by Anomaly Guard: {anomaly_err}")
             sys.exit(1)
 
     # 2. Retired URL / Identity detection
@@ -564,7 +564,7 @@ def main():
             certs, retired_rules, url_field="url", id_fields=["license", "url"]
         )
         if marked > 0:
-            logger.info(f"📝 Updated {marked} certification(s) with retired status")
+            logger.info(f"[NOTE] Updated {marked} certification(s) with retired status")
 
     # 3. Persist full data with retired flags to for_validation for link checker
     os.makedirs(VALIDATION_DIR, exist_ok=True)
@@ -578,10 +578,10 @@ def main():
         with open(validation_file, "w", encoding="utf-8") as f:
             json.dump(payload, f, indent=2, ensure_ascii=False)
         logger.info(
-            f"💾 Full data persisted: '{validation_file}' ({len(certs)} certifications)"
+            f"[SAVE] Full data persisted: '{validation_file}' ({len(certs)} certifications)"
         )
     except Exception as e:
-        logger.warning(f"⚠️ Could not persist full data: {e}")
+        logger.warning(f"[WARN] Could not persist full data: {e}")
 
     # 4. Generate L1 baseline fingerprints for cross-artifact validation
     if execute_content_loss_guard:
@@ -593,15 +593,15 @@ def main():
                 fail_on_warn=False,  # Baseline generation should not fail the pipeline
             )
             logger.info(
-                "✅ L1 baseline fingerprints generated for cross-artifact validation"
+                "[OK] L1 baseline fingerprints generated for cross-artifact validation"
             )
         except PipelineDataLossAnomaly as anomaly_err:
-            logger.warning(f"⚠️ Baseline generation anomaly (non-fatal): {anomaly_err}")
+            logger.warning(f"[WARN] Baseline generation anomaly (non-fatal): {anomaly_err}")
         except Exception as e:
-            logger.warning(f"⚠️ Baseline generation failed (non-fatal): {e}")
+            logger.warning(f"[WARN] Baseline generation failed (non-fatal): {e}")
     else:
         logger.warning(
-            "⚠️ Content-aware loss guard unavailable, skipping baseline generation"
+            "[WARN] Content-aware loss guard unavailable, skipping baseline generation"
         )
 
     total_certs = len(certs)
@@ -631,7 +631,7 @@ def main():
             else (c["license"] if c["license"] else "Verified Account Entry")
         )
         if c.get("retired", False):
-            ref += " ⚠️ *Content retired*"
+            ref += " [WARN] *Content retired*"
         row_text = f"| {c['issued']} | **{clean_name}** | {clean_auth} | {ref} |"
         formatted_rows.append((row_text, c["issued"]))
 
@@ -710,11 +710,11 @@ def main():
                     )
                     safe_write_file("README.md", new_content)
         logger.info(
-            "🎉 LinkedIn Certifications pipeline execution completed successfully."
+            "[DONE] LinkedIn Certifications pipeline execution completed successfully."
         )
     else:
         logger.error(
-            "❌ Archiver module helper not available. Skipping markdown generation."
+            "[FAIL] Archiver module helper not available. Skipping markdown generation."
         )
 
 

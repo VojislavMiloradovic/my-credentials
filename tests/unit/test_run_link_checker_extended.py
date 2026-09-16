@@ -80,7 +80,7 @@ def test_load_results_json_decode_error(monkeypatch):
 def test_truncate_summary_unicode():
     """Test truncate_summary with unicode characters."""
     # Create a summary with unicode characters that might be cut in the middle
-    unicode_text = "🚀 " * 500000  # ~2MB of emoji
+    unicode_text = "[START] " * 500000  # ~2MB of emoji
     truncated = run_link_checker.truncate_summary(unicode_text, max_bytes=1000)
     assert len(truncated.encode("utf-8")) <= 1000
     assert "truncated" in truncated.lower()

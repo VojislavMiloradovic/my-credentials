@@ -139,7 +139,7 @@ This document represents a unified list of 2 records.
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2024-01-15 | Badge 1 ⚠️ *Content retired* | Test Issuer | Badge |
+| 2024-01-15 | Badge 1 [WARN] *Content retired* | Test Issuer | Badge |
 """,
             encoding="utf-8",
         )

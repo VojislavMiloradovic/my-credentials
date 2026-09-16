@@ -187,8 +187,8 @@ class TestLlmsTxtGeneration:
                 return_value=(
                     {
                         "🤖 AI, Machine Learning & Data": 100,
-                        "🛡️ DevOps, Security & Governance": 50,
-                        "☁️ Cloud & Infrastructure": 50,
+                        "[SHIELD] DevOps, Security & Governance": 50,
+                        "[CLOUD] Cloud & Infrastructure": 50,
                         "💻 App Engineering & Software Development": 50,
                         "👔 Enterprise & Professional Development": 50,
                     },
