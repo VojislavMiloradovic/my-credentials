@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 13 of 13
-date_range: 2026-09-15 to 2026-09-15
-total_entries: 21
+date_range: 2026-09-15 to 2026-09-16
+total_entries: 32
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-13.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,8 +15,19 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-16 | [MSP Academy: Starting an MSP - Breaking Free from the Break-Fix Model](https://www.credly.com/badges/0ef96bf2-8062-467e-a24a-d98254952a1d/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-16 | [MSP Academy: Troubleshooting](https://www.credly.com/badges/629f38e8-d8b3-480c-ab63-a263fa47de67/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-16 | [MSP Academy: Vulnerability Assessment and Patch Management](https://www.credly.com/badges/819b0b4a-5357-4d6a-a831-7eefabcc4f75/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-16 | [MSP Academy: What is Backup?](https://www.credly.com/badges/08670e42-d71c-4b03-820b-64b70e8c1715/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-16 | [MSP Academy: What is DLP?](https://www.credly.com/badges/fae0513e-c599-4ea9-83af-edbf66710f56/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-16 | [MSP Academy: What is EDR?](https://www.credly.com/badges/f447a55a-7699-4bae-8183-ada79bd7696e/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-16 | [MSP Academy: XDR Basics](https://www.credly.com/badges/d0666d2c-aeff-4066-954a-e20f18374074/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-16 | [Solution Basic Training – Operational Technologies (OT)](https://www.credly.com/badges/88d1c07e-371d-4bb2-ae8c-fad4f47485a8/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-16 | [Solution Basic Training – Protected Workspace](https://www.credly.com/badges/27286e3c-1dd9-49b0-b7b3-a239538cea57/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-16 | [Solution Basic Training – Ultimate 365](https://www.credly.com/badges/b7b8e6e8-ced7-41b3-aa80-85a4bc2827fa/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-16 | [Tech Pro - Operational Technology (OT) Environments](https://www.credly.com/badges/6c9fc184-af93-44e1-b187-9144fbd71c33/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-16 | [VAR to MSP: Business Transformation Fundamentals](https://www.credly.com/badges/7eeca65f-9170-4626-ad62-912c7abe978c/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: Running an MSP Business](https://www.credly.com/badges/f529fa82-07ae-41d0-be80-89f81ed38ee1/public_url) | Acronis | Credly Verified Badge |
-| 2026-09-15 | [MSP Academy: Starting an MSP - Breaking Free from the Break-Fix Model](https://www.credly.com/badges/7b194221-f15a-4fb8-adfb-2d0b3e080d18/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [RMM & PSA Basic Course](https://www.credly.com/badges/97f581e9-d2ab-4ad7-9dae-cc422eddeeda/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [Solution Basic Training – Cyber Resilience](https://www.credly.com/badges/aabfa633-82c5-44bb-ad30-dddd976ebe28/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [Essentials - Intro to Acronis Cyber Platform](https://www.credly.com/badges/962ecac0-449a-4003-a46e-ddd37a9dfbc4/public_url) | Acronis | Credly Verified Badge |
