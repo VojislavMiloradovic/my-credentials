@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Understand Microsoft 365 vulnerability management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-vulnerability-management/) |
-| **Understand Microsoft 365 audit logging and monitoring** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-logging-monitoring/) |
 | **Understand Microsoft 365 identity and access management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-identity-access-management/) |
 | **Understand Microsoft Online Services security incident management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-incident-management/) |
 | **Understand Microsoft 365 cloud architecture** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-architecture/) |
@@ -70,6 +68,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **MD-100 Configure networking on Windows clients** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-networking-windows-clients/) |
 | **Configure wireless network connectivity** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-wireless-network-connectivity/) |
 | **Explore name resolution** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-name-resolution/) |
+| **Configure IP network connectivity** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ip-network-connectivity/) |
+| **Explore remote access** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-remote-access/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-25.md](./microsoft-learn-2025-12-part-25.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-27.md](./microsoft-learn-2026-01-part-27.md)
