@@ -201,24 +201,23 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 172 |
-| **Total Codelabs & Learning Activities** | 1,635 |
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-09-part-35.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-06-part-03.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-03.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| *2026-09-12* | **Add a user authentication flow to a Flutter app using FirebaseUI** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-auth-in-flutter-apps |
-| *2026-09-12* | **Introduction to Google's Antigravity – Build your own NUS shuttle bus timing web app and Telegram bot** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-nus-transit-hub-antigravity |
-| *2026-09-12* | **Install and use Google Cloud Developer plugin in Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-dev-plugin-agy |
-| *2026-09-08* | **Vibetube Ads: Agentic Data Engineering** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vibetube-ads-agentic-data-engineering/instructions |
-| *2026-09-08* | **Advanced ADK Evaluation with LLM-as-a-Judge Method** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/advanced-adk-evaluation-with-llm-as-a-judge |
-| *2026-09-08* | **Secure Your Application with CodeMender** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/secure-app-with-codemender |
-| *2026-09-08* | **MDC-111 Android: Incorporating Material Components into your codebase (Kotlin)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mdc-111-kotlin |
-| *2026-09-08* | **Jenkins Multi-branch Pipeline on GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/jenkins-pipeline-gke |
-| *2026-09-08* | **Platform engineering on Managed Service for Apache Spark using Gemini and MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/managed-spark-ai-toolkit |
-| *2026-09-08* | **Use Actions on Google to make your home smarter** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/aog-smart-home |
+| *2026-06-05* | **Android Basics Compose Unit 8 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 2). |
+| *2026-06-05* | **Engage Users With Firebase** | Official Google Developer platform achievement (Learning Pathway: engage users with firebase). |
+| *2026-06-05* | **GDG Belgrade** | Official Google Developer platform achievement (Community: gdg belgrade). |
+| *2026-06-05* | **Android Basics Compose Unit 2 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 2 pathway 1). |
+| *2026-06-05* | **Android Development With Kotlin 8** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 8). |
+| *2026-06-05* | **Android Basics Compose Unit 4 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 4 pathway 2). |
+| *2026-06-05* | **Gear** | Official Google Developer platform achievement (Community: gear). |
+| *2026-06-05* | **Firebase Android Jetpack** | Official Google Developer platform achievement (Learning Pathway: firebase android jetpack). |
+| *2026-06-05* | **Jetpack Compose For Android Developers 1** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 1). |
+| *2026-06-05* | **Android Basics Compose Unit 5 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 5 pathway 1). |
 <!-- GOOGLE_DEVELOPER_END -->
 
 
