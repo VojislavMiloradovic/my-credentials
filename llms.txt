@@ -1,10 +1,10 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-09-17 19:05 UTC
+> **Last Generated:** 2026-09-17 19:12 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
-- **Microsoft Learn**: 2 completed units | 4,832 total achievements | 100,000 XP
+- **Microsoft Learn**: 35,869 completed units | 4,832 total achievements | 6,030,550 XP
 - **Google Cloud Skills**: 391 badges
 - **AWS Skill Builder**: 847 completed courses/activities
 - **Credly**: 668 credentials
@@ -38,7 +38,7 @@ Recommended for models with large context windows (>100k tokens).
 - [Google Developer Complete](./archives/google-developer-complete.md): Full dataset (~321.37 KB, ~81,923 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md
 - [Linkedin Certifications Complete](./archives/linkedin-certifications-complete.md): Full dataset (~338.71 KB, ~119,193 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md
 - [Credly Complete](./archives/credly-complete.md): Full dataset (~116.78 KB, ~44,029 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-complete.md
-- [Microsoft Learn Complete](./archives/microsoft-learn-complete.md): Full dataset (~876.72 KB, ~224,576 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
+- [Microsoft Learn Complete](./archives/microsoft-learn-complete.md): Full dataset (~876.76 KB, ~224,592 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
 
 ## Latest Chunked Slices (~10 KB per slice)
 Optimized for lower-capacity context tools or fast targeted queries.
