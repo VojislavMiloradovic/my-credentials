@@ -165,11 +165,43 @@ README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
 PLATFORM_PREFIX = "google-developer"
 PLATFORM_NAME = "Google Developer Profile"
+
+
 # MHTML file with Google Developer learnings badge page (replaces google_learnings.txt)
-LEARNINGS_MHTML_PATH = os.path.join(
-    "data",
-    "Learning \u00a0_\u00a0 Google Developer Program \u00a0_\u00a0 Google for Developers.mhtml",
-)
+# Use flexible discovery: match *Developer*.mhtml and pick most recent
+def find_latest_developer_mhtml(data_dir: str = "data") -> str:
+    """
+    Find the most recent MHTML file matching *Developer*.mhtml pattern.
+    Falls back to hardcoded filename if no matches found.
+    """
+    import glob
+
+    pattern = os.path.join(data_dir, "*Developer*.mhtml")
+    matches = glob.glob(pattern)
+    if not matches:
+        # Fallback to hardcoded filename
+        fallback = os.path.join(
+            data_dir,
+            "Learning \u00a0_\u00a0 Google Developer Program \u00a0_\u00a0 Google for Developers.mhtml",
+        )
+        logger.warning(
+            f"[WARN] No *Developer*.mhtml files found in {data_dir}, using fallback: {fallback}"
+        )
+        return fallback
+
+    # Pick most recent by modification time
+    latest = max(matches, key=os.path.getmtime)
+    if len(matches) > 1:
+        logger.info(
+            f"[FILE] Found {len(matches)} *Developer*.mhtml files, using most recent: {latest}"
+        )
+    else:
+        logger.info(f"[FILE] Found *Developer*.mhtml file: {latest}")
+    return latest
+
+
+# Dynamic path discovery
+LEARNINGS_MHTML_PATH = find_latest_developer_mhtml()
 # Backwards compat alias for tests
 LEARNINGS_TXT_PATH = LEARNINGS_MHTML_PATH
 ARCHIVE_MONOLITH = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-complete.md")
