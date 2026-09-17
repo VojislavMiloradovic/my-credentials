@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 13 of 13
-date_range: 2026-09-15 to 2026-09-16
-total_entries: 32
+date_range: 2026-09-15 to 2026-09-17
+total_entries: 35
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-13.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-17 | [Craft Precise Prompts for AI Models](https://www.credly.com/badges/25d554f0-f025-4d06-aa44-3cb6c43a60e6/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-17 | [IBM watsonx.data Technical Essentials](https://www.credly.com/badges/2cafe853-8fbf-4941-9b24-00483669d083/public_url) | IBM | Credly Verified Badge |
+| 2026-09-17 | [IBM watsonx.governance: Technical Essentials](https://www.credly.com/badges/e07c113b-ca43-4ec4-9f69-2659d207134a/public_url) | IBM | Credly Verified Badge |
 | 2026-09-16 | [MSP Academy: Starting an MSP - Breaking Free from the Break-Fix Model](https://www.credly.com/badges/0ef96bf2-8062-467e-a24a-d98254952a1d/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-16 | [MSP Academy: Troubleshooting](https://www.credly.com/badges/629f38e8-d8b3-480c-ab63-a263fa47de67/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-16 | [MSP Academy: Vulnerability Assessment and Patch Management](https://www.credly.com/badges/819b0b4a-5357-4d6a-a831-7eefabcc4f75/public_url) | Acronis | Credly Verified Badge |
