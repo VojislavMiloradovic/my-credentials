@@ -16,6 +16,7 @@ import logging
 import os
 from dataclasses import asdict, dataclass
 from datetime import UTC, datetime
+from typing import Any
 
 # Logging Setup
 logging.basicConfig(
@@ -617,6 +618,92 @@ def auto_retire_removed_items(
             logger.error(f"  [AUTO-RETIRE] Failed to save retired_urls.json: {e}")
 
     return added_count
+
+
+# ==============================================================================
+# RETIRED RULES UTILITIES (Shared across pipelines)
+# ==============================================================================
+
+
+def load_retired_rules(
+    platform: str, retired_urls_file: str | None = None
+) -> list[dict[str, Any]]:
+    """Load retired credential rules for a platform from the mapping file.
+
+    Args:
+        platform: Platform identifier (e.g., "aws-skills")
+        retired_urls_file: Optional path to retired URLs file. If not provided,
+                          uses the module-level RETIRED_URLS_FILE constant.
+    """
+    file_path = retired_urls_file or RETIRED_URLS_FILE
+    if not os.path.exists(file_path):
+        logger.debug(f"Retired URLs file not found: {file_path}")
+        return []
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        entries = data.get(platform, [])
+        rules = []
+        for entry in entries:
+            if isinstance(entry, str):
+                rules.append({"id": entry, "match_type": "url", "url": entry})
+            elif isinstance(entry, dict) and entry.get("id"):
+                rules.append(entry)
+        logger.info(f"Loaded {len(rules)} retired rule(s) for {platform}")
+        return rules
+    except Exception as e:
+        logger.warning(f"[WARN] Could not load retired rules for {platform}: {e}")
+        return []
+
+
+def mark_retired(
+    items: list[dict],
+    retired_rules: list[dict[str, Any]],
+    url_field: str = "verify_url",
+    id_fields: list[str] | None = None,
+    retired_field: str = "retired",
+) -> tuple[int, int]:
+    """Mark items as retired if their ID or URL matches known retired rules."""
+    if not retired_rules:
+        return len(items), 0
+    search_id_fields = id_fields or ["id", "title", "verify_url", "url"]
+    marked = 0
+    for item in items:
+        if item.get(retired_field, False):
+            continue
+
+        item_url = str(item.get(url_field, "")).strip() if item.get(url_field) else None
+        item_ids = {str(item.get(f)).strip() for f in search_id_fields if item.get(f)}
+
+        is_retired = False
+        matched_rule = None
+        for rule in retired_rules:
+            rule_id = str(rule.get("id", "")).strip()
+            rule_url = str(rule.get("url", "")).strip() if rule.get("url") else None
+
+            if rule_id in item_ids or (
+                item_url and (rule_id == item_url or rule_url == item_url)
+            ):
+                is_retired = True
+                matched_rule = rule
+                break
+
+        if is_retired:
+            item[retired_field] = True
+            if matched_rule:
+                if matched_rule.get("reason"):
+                    item["retirement_reason"] = matched_rule["reason"]
+                if matched_rule.get("retired_at"):
+                    item["retired_at"] = matched_rule["retired_at"]
+            marked += 1
+            logger.info(
+                f"[LABEL]  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
+            )
+
+    logger.info(
+        f"Retired check: {len(items)} items checked, {marked} marked as retired"
+    )
+    return len(items), marked
 
 
 # ==============================================================================

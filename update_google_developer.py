@@ -5,6 +5,8 @@ Pipeline for updating Google Developer Profile credentials & learning activities
 Fetches public profile badges via Google Developer RPC/batchexecute API,
 parses local Serbian-formatted learning activity text logs, applies Pydantic validation,
 enforces Data Loss Guards, and delegates markdown archiving to the archiver module.
+
+Refactored to use PipelineBase (Option 2 Migration).
 """
 
 import email
@@ -13,14 +15,10 @@ import logging
 import os
 import quopri
 import re
-import sys
 from datetime import UTC, datetime
 from email import policy
 from typing import Any, ClassVar
 from urllib.parse import unquote
-
-# Ensure the script's directory is in sys.path for local imports (e.g., archiver)
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import requests
 from bs4 import BeautifulSoup
@@ -28,38 +26,6 @@ from pydantic import Field, ValidationError, field_validator
 
 # Provenance Integration
 from models.provenance import ProvenanceBase, RetrievalMethod, VerificationStatus
-
-# Archive Integration Helper
-try:
-    from archiver import (
-        RAW_BASE_DEFAULT,
-        generate_platform_archive,
-        safe_write_file,
-        update_readme_stats,
-    )
-except ImportError:
-    RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
-    generate_platform_archive = None
-    safe_write_file = lambda filepath, new_content: False
-    update_readme_stats = lambda *args, **kwargs: None
-
-
-# Content-Aware Loss Guard
-try:
-    from loss_guard import (
-        PipelineDataLossAnomaly,
-        execute_content_loss_guard,
-        generate_all_provider_baselines,
-        generate_provider_baseline,
-        run_provider_loss_guards,
-    )
-except ImportError:
-    # Fallback if loss_guard not available
-    execute_content_loss_guard = None
-    run_provider_loss_guards = None
-    generate_provider_baseline = None
-    generate_all_provider_baselines = None
-    PipelineDataLossAnomaly = Exception
 
 # Layer Manifest Integration
 try:
@@ -69,147 +35,23 @@ except ImportError:
     get_layer_def = None
     load_manifest = None
 
-# Retired credentials registry mapping
-RETIRED_URLS_FILE = "retired_urls.json"
+# PipelineBase Integration
+from pipeline_base import PipelineBase
 
-# Fallback retired URLs loader for markdown generation
-try:
-    from retired_urls_loader import _GOOGLE_DEV_RETIRED_URLS
-except ImportError:
-    _GOOGLE_DEV_RETIRED_URLS = set()
+# ==============================================================================
+# MODULE-LEVEL CONSTANTS (for backward compatibility with tests)
+# ==============================================================================
 
-
-def load_retired_rules(platform: str) -> list[dict[str, Any]]:
-    """Load retired credential rules for a platform from the mapping file."""
-    if not os.path.exists(RETIRED_URLS_FILE):
-        logger.debug(f"Retired URLs file not found: {RETIRED_URLS_FILE}")
-        return []
-    try:
-        with open(RETIRED_URLS_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        entries = data.get(platform, [])
-        rules = []
-        for entry in entries:
-            if isinstance(entry, str):
-                rules.append({"id": entry, "match_type": "url", "url": entry})
-            elif isinstance(entry, dict) and entry.get("id"):
-                rules.append(entry)
-        logger.info(f"Loaded {len(rules)} retired rule(s) for {platform}")
-        return rules
-    except Exception as e:
-        logger.warning(f"[WARN] Could not load retired rules for {platform}: {e}")
-        return []
-
-
-def mark_retired(
-    items: list[dict],
-    retired_rules: list[dict[str, Any]],
-    url_field: str = "url",
-    id_fields: list[str] | None = None,
-    retired_field: str = "retired",
-) -> tuple[int, int]:
-    """Mark items as retired if their ID or URL matches known retired rules."""
-    if not retired_rules:
-        return len(items), 0
-    search_id_fields = id_fields or ["id", "title", "url"]
-    marked = 0
-    for item in items:
-        if item.get(retired_field, False):
-            continue
-
-        item_url = str(item.get(url_field, "")).strip() if item.get(url_field) else None
-        item_ids = {str(item.get(f)).strip() for f in search_id_fields if item.get(f)}
-
-        is_retired = False
-        matched_rule = None
-        for rule in retired_rules:
-            rule_id = str(rule.get("id", "")).strip()
-            rule_url = str(rule.get("url", "")).strip() if rule.get("url") else None
-
-            if rule_id in item_ids or (
-                item_url and (rule_id == item_url or rule_url == item_url)
-            ):
-                is_retired = True
-                matched_rule = rule
-                break
-
-        if is_retired:
-            item[retired_field] = True
-            if matched_rule:
-                if matched_rule.get("reason"):
-                    item["retirement_reason"] = matched_rule["reason"]
-                if matched_rule.get("retired_at"):
-                    item["retired_at"] = matched_rule["retired_at"]
-            marked += 1
-            logger.info(
-                f"[LABEL]  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
-            )
-
-    logger.info(
-        f"Retired check: {len(items)} items checked, {marked} marked as retired"
-    )
-    return len(items), marked
-
-
-# Logging Setup
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
-logger = logging.getLogger("gdev_updater")
-
-# Configuration Constants
 VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
 PLATFORM_PREFIX = "google-developer"
 PLATFORM_NAME = "Google Developer Profile"
 
-
-# MHTML file with Google Developer learnings badge page (replaces google_learnings.txt)
-# Use flexible discovery: match *Developer*.mhtml and pick most recent
-def find_latest_developer_mhtml(data_dir: str = "data") -> str:
-    """
-    Find the most recent MHTML file matching *Developer*.mhtml pattern.
-    Falls back to hardcoded filename if no matches found.
-    """
-    import glob
-
-    pattern = os.path.join(data_dir, "*Developer*.mhtml")
-    matches = glob.glob(pattern)
-    if not matches:
-        # Fallback to hardcoded filename
-        fallback = os.path.join(
-            data_dir,
-            "Learning \u00a0_\u00a0 Google Developer Program \u00a0_\u00a0 Google for Developers.mhtml",
-        )
-        logger.warning(
-            f"[WARN] No *Developer*.mhtml files found in {data_dir}, using fallback: {fallback}"
-        )
-        return fallback
-
-    # Pick most recent by modification time
-    latest = max(matches, key=os.path.getmtime)
-    if len(matches) > 1:
-        logger.info(
-            f"[FILE] Found {len(matches)} *Developer*.mhtml files, using most recent: {latest}"
-        )
-    else:
-        logger.info(f"[FILE] Found *Developer*.mhtml file: {latest}")
-    return latest
-
-
-# Dynamic path discovery
-LEARNINGS_MHTML_PATH = find_latest_developer_mhtml()
-# Backwards compat alias for tests
-LEARNINGS_TXT_PATH = LEARNINGS_MHTML_PATH
-ARCHIVE_MONOLITH = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-complete.md")
-
 MARKER_START = "<!-- GOOGLE_DEVELOPER_START -->"
 MARKER_END = "<!-- GOOGLE_DEVELOPER_END -->"
 
-MAX_ALLOWED_DATA_LOSS_PCT = 0.15  # Guard threshold for dataset drop protection
+MAX_ALLOWED_DATA_LOSS_PCT = 0.15
 
 SERBIAN_MONTHS = {
     "јан": "01",
@@ -244,7 +86,7 @@ SERBIAN_MONTHS = {
     "јуна": "06",
     "jun": "06",
     "juna": "06",
-    "јул": "07",
+    "јул": "007",
     "јула": "07",
     "jul": "07",
     "jula": "07",
@@ -280,10 +122,56 @@ SERBIAN_MONTHS = {
     "decembra": "12",
 }
 
+RETIRED_URLS_FILE = "retired_urls.json"
+
+# Fallback retired URLs loader for markdown generation
+try:
+    from retired_urls_loader import _GOOGLE_DEV_RETIRED_URLS
+except ImportError:
+    _GOOGLE_DEV_RETIRED_URLS = set()
+
 
 # ==============================================================================
-# PYDANTIC SCHEMAS & DATE COERCION
+# MODULE-LEVEL HELPER FUNCTIONS (for backward compat)
 # ==============================================================================
+
+
+def find_latest_developer_mhtml(data_dir: str = "data") -> str:
+    """
+    Find the most recent MHTML file matching *Developer*.mhtml pattern.
+    Falls back to hardcoded filename if no matches found.
+    """
+    import glob
+
+    pattern = os.path.join(data_dir, "*Developer*.mhtml")
+    matches = glob.glob(pattern)
+    if not matches:
+        # Fallback to hardcoded filename
+        fallback = os.path.join(
+            data_dir,
+            "Learning \u00a0_\u00a0 Google Developer Program \u00a0_\u00a0 Google for Developers.mhtml",
+        )
+        logging.getLogger("gdev_updater").warning(
+            f"[WARN] No *Developer*.mhtml files found in {data_dir}, using fallback: {fallback}"
+        )
+        return fallback
+
+    # Pick most recent by modification time
+    latest = max(matches, key=os.path.getmtime)
+    if len(matches) > 1:
+        logging.getLogger("gdev_updater").info(
+            f"[FILE] Found {len(matches)} *Developer*.mhtml files, using most recent: {latest}"
+        )
+    else:
+        logging.getLogger("gdev_updater").info(f"[FILE] Found *Developer*.mhtml file: {latest}")
+    return latest
+
+
+# Dynamic path discovery
+LEARNINGS_MHTML_PATH = find_latest_developer_mhtml()
+# Backwards compat alias for tests
+LEARNINGS_TXT_PATH = LEARNINGS_MHTML_PATH
+ARCHIVE_MONOLITH = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-complete.md")
 
 
 def normalize_date_string(raw_date: Any) -> str:
@@ -318,42 +206,47 @@ def fix_mojibake(text: str) -> str:
     """Fix common mojibake patterns from MHTML quoted-printable decoding.
 
     Common issues:
-    - Em dash (—) becomes     or â€" or â€"
-    - En dash (–) becomes â€" or â€"
-    - Smart quotes become â€œ/â€"
-    - Bullet points become â€¢
+    - Em dash (—) becomes     or \u00e2\u20ac\u201d or \u00e2\u20ac\u201c
+    - En dash (–) becomes \u00e2\u20ac\u201c or \u00e2\u20ac\u201d
+    - Smart quotes become \u00e2\u20ac\u0153/\u00e2\u20ac\u009d
+    - Bullet points become \u00e2\u20ac\u00a2
     """
     if not text:
         return text
 
     # Fix UTF-8 mojibake from quoted-printable double-decoding
-    # Em dash (—) = UTF-8 E2 80 93 -> when misdecoded as latin1: â€"
-    # En dash (–) = UTF-8 E2 80 92 -> when misdecoded as latin1: â€"
+    # Em dash (—) = UTF-8 E2 80 93 -> when misdecoded as latin1: \u00e2\u20ac\u201d
+    # En dash (–) = UTF-8 E2 80 92 -> when misdecoded as latin1: \u00e2\u20ac\u201c
     replacements = {
-        "\u00e2\u20ac\u201d": "\u2014",  # em dash (â€")
-        "\u00e2\u20ac\u201c": "\u2013",  # en dash (â€")
-        "\u00e2\u20ac\u0153": "\u201c",  # left double quote (â€œ)
-        "\u00e2\u20ac\u009d": "\u201d",  # right double quote (â€)
-        "\u00e2\u20ac\u0098": "\u2018",  # left single quote (â€˜)
-        "\u00e2\u20ac\u2122": "\u2019",  # right single quote (â€™)
-        "\u00e2\u20ac\u00a2": "\u2022",  # bullet (â€¢)
-        "\u00e2\u20ac\u00a6": "\u2026",  # ellipsis (â€¦)
-        "\u00e2\u20ac\u00a1": "\u2021",  # double dagger (â€¡)
-        "\u00e2\u20ac\u0094": "\u2014",  # em dash variant (â€ )
-        "\u00ef\u00bf\u00bd": "\u2014",  # replacement char variant (ï¿½)
-        "\u00ef\u00bf\u00bf": "",  # replacement char ( )
+        "\u00e2\u20ac\u201d": "\u2014",  # em dash (\u00e2\u20ac\u201d)
+        "\u00e2\u20ac\u201c": "\u2013",  # en dash (\u00e2\u20ac\u201c)
+        "\u00e2\u20ac\u0153": "\u201c",  # left double quote (\u00e2\u20ac\u0153)
+        "\u00e2\u20ac\u009d": "\u201d",  # right double quote (\u00e2\u20ac\u009d)
+        "\u00e2\u20ac\u0098": "\u2018",  # left single quote (\u00e2\u20ac\u0098)
+        "\u00e2\u20ac\u2122": "\u2019",  # right single quote (\u00e2\u20ac\u2122)
+        "\u00e2\u20ac\u00a2": "\u2022",  # bullet (\u00e2\u20ac\u00a2)
+        "\u00e2\u20ac\u00a6": "\u2026",  # ellipsis (\u00e2\u20ac\u00a6)
+        "\u00e2\u20ac\u00a1": "\u2021",  # double dagger (\u00e2\u20ac\u00a1)
+        "\u00e2\u20ac\u0094": "\u2014",  # em dash variant (\u00e2\u20ac\u0094)
+        "\u00ef\u00bf\u00bd": "\u2014",  # replacement char variant (\u00ef\u00bf\u00bd)
+        "\u00ef\u00bf\u00bf": "",  # replacement char (\u00ef\u00bf\u00bf)
     }
 
     result = text
     for bad, good in replacements.items():
         result = result.replace(bad, good)
 
-    # Also handle the literal     sequence (3 replacement chars = 1 em dash)
+    # Also handle the literal \uFFFD sequence (3 replacement chars = 1 em dash)
     result = re.sub(r"\uFFFD{3,}", "\u2014", result)
     result = re.sub(r"\uFFFD{2}", "\u2013", result)
     result = re.sub(r"\uFFFD", "", result)  # Remove any remaining replacement chars
 
     return result
+
+
+# ==============================================================================
+# PYDANTIC SCHEMAS (module-level for backward compat)
+# ==============================================================================
 
 
 class GoogleDeveloperBadgeModel(ProvenanceBase):
@@ -424,7 +317,7 @@ class GoogleDeveloperBadgeModel(ProvenanceBase):
 
 
 # ==============================================================================
-# LOSS GUARD & ANOMALY PROTECTIONS
+# LOSS GUARD & ANOMALY PROTECTIONS (module-level for backward compat)
 # ==============================================================================
 
 
@@ -457,7 +350,7 @@ def execute_data_loss_guard(new_badges: list[dict]) -> None:
     old_count = get_stored_archive_baseline_count()
     new_count = len(new_badges)
 
-    logger.info(
+    logging.getLogger("gdev_updater").info(
         f"[SHIELD] Loss Guard Check: Stored Archive Baseline = {old_count} items | Incoming Dataset = {new_count} items."
     )
 
@@ -474,23 +367,23 @@ def execute_data_loss_guard(new_badges: list[dict]) -> None:
                 f"from baseline ({old_count}). Threshold: {MAX_ALLOWED_DATA_LOSS_PCT:.0%}. Aborting."
             )
 
-    logger.info("[OK] Loss Guard Assertion Passed: Incoming dataset verified.")
+    logging.getLogger("gdev_updater").info("[OK] Loss Guard Assertion Passed: Incoming dataset verified.")
 
 
 # ==============================================================================
-# PARSERS & RPC FETCHERS
+# PARSERS & RPC FETCHERS (module-level for backward compat)
 # ==============================================================================
 
 
 def parse_local_learnings_txt() -> list[dict]:
     """Parses local Serbian text file of detailed learning activity codelabs."""
     if not os.path.exists(LEARNINGS_TXT_PATH):
-        logger.info(
-            f"ℹ️ Local activity file '{LEARNINGS_TXT_PATH}' not found. Skipping local parsing."
+        logging.getLogger("gdev_updater").info(
+            f"[FILE] Local activity file '{LEARNINGS_TXT_PATH}' not found. Skipping local parsing."
         )
         return []
 
-    logger.info(f"[FILE] Parsing local Google learning log: '{LEARNINGS_TXT_PATH}'")
+    logging.getLogger("gdev_updater").info(f"[FILE] Parsing local Google learning log: '{LEARNINGS_TXT_PATH}'")
     with open(LEARNINGS_TXT_PATH, "r", encoding="utf-8") as f:
         lines = [line.strip() for line in f if line.strip()]
 
@@ -524,12 +417,12 @@ def parse_local_learnings_txt() -> list[dict]:
                         GoogleDeveloperBadgeModel(**entry).model_dump(mode="json")
                     )
                 except ValidationError as ve:
-                    logger.warning(
+                    logging.getLogger("gdev_updater").warning(
                         f"[WARN] Skipping invalid local activity entry '{title}': {ve}"
                     )
         i += 1
 
-    logger.info(
+    logging.getLogger("gdev_updater").info(
         f"[OK] Extracted {len(learnings)} granular learning items from local log."
     )
     return learnings
@@ -545,12 +438,12 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
     Falls back to legacy text parser if file is not valid MHTML.
     """
     if not os.path.exists(mhtml_path):
-        logger.warning(
+        logging.getLogger("gdev_updater").warning(
             f"[WARN] MHTML file '{mhtml_path}' not found. Skipping MHTML parsing."
         )
         return []
 
-    logger.info(f"[FILE] Parsing Google Developer learnings from MHTML: '{mhtml_path}'")
+    logging.getLogger("gdev_updater").info(f"[FILE] Parsing Google Developer learnings from MHTML: '{mhtml_path}'")
 
     # Try MHTML parsing first
     try:
@@ -619,19 +512,19 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
                             GoogleDeveloperBadgeModel(**entry).model_dump(mode="json")
                         )
                     except ValidationError as ve:
-                        logger.warning(
+                        logging.getLogger("gdev_updater").warning(
                             f"[WARN] Skipping invalid MHTML activity entry '{title}': {ve}"
                         )
 
-                logger.info(
+                logging.getLogger("gdev_updater").info(
                     f"[OK] Extracted {len(learnings)} learning activities from MHTML ({retired_count} retired)."
                 )
                 return learnings
     except Exception as e:
-        logger.warning(f"[WARN] MHTML parsing failed, falling back to text parser: {e}")
+        logging.getLogger("gdev_updater").warning(f"[WARN] MHTML parsing failed, falling back to text parser: {e}")
 
     # Fallback to legacy text parser
-    logger.info(f"[FILE] Falling back to legacy text parser for: '{mhtml_path}'")
+    logging.getLogger("gdev_updater").info(f"[FILE] Falling back to legacy text parser for: '{mhtml_path}'")
     return parse_local_learnings_txt()
 
 
@@ -721,7 +614,7 @@ def find_badges_in_matrix(data: Any, parsed_badges: list[dict]) -> None:
 
 def fetch_gdev_badges_rpc() -> list[dict]:
     """Fetches public profile badges from Google Developer batchexecute RPC endpoint."""
-    logger.info("🌐 Fetching Google Developer public profile via RPC API...")
+    logging.getLogger("gdev_updater").info("[GLOBE] Fetching Google Developer public profile via RPC API...")
     url = "https://me.developers.google.com/_/GoogleDeveloperProfile/data/batchexecute"
     params = {
         "rpcids": "gQeJTc,RwSpuf",
@@ -756,7 +649,7 @@ def fetch_gdev_badges_rpc() -> list[dict]:
             url, params=params, data=payload, headers=headers, timeout=15
         )
         if response.status_code != 200:
-            logger.warning(
+            logging.getLogger("gdev_updater").warning(
                 f"[WARN] RPC request failed with status HTTP {response.status_code}"
             )
             return []
@@ -785,314 +678,340 @@ def fetch_gdev_badges_rpc() -> list[dict]:
                 except Exception:
                     continue
 
-        logger.info(f"[OK] Extracted {len(parsed_badges)} badges from RPC endpoint.")
+        logging.getLogger("gdev_updater").info(f"[OK] Extracted {len(parsed_badges)} badges from RPC endpoint.")
         return parsed_badges
     except Exception as e:
-        logger.warning(f"[WARN] Exception occurred during RPC fetch: {e}")
+        logging.getLogger("gdev_updater").warning(f"[WARN] Exception occurred during RPC fetch: {e}")
         return []
 
 
-def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
-    """Generate layer metadata from manifest for a platform."""
-    if not load_manifest:
-        return {}
-    try:
-        manifest = load_manifest()
-        if platform_key not in manifest.platforms:
-            return {}
+# ==============================================================================
+# MODULE-LEVEL UTILITIES (for backward compatibility with tests)
+# ==============================================================================
 
-        platform = manifest.platforms[platform_key]
+from loss_guard import (
+    load_retired_rules as _load_retired_rules,
+)
+from loss_guard import (
+    mark_retired as _mark_retired,
+)
 
-        # Build layer metadata
-        layer_metadata = {}
-        for layer_name in ("L0_raw", "L1_normalized", "L2_published", "L3_display"):
-            layer_def = getattr(platform, layer_name, None)
-            if not layer_def:
-                continue
 
-            layer_info = {
-                "source": layer_def.source,
-                "source_layer": layer_def.source_layer,
-                "description": layer_def.description,
-                "retired_handling": layer_def.retired_handling,
-            }
+def load_retired_rules(platform: str) -> list[dict[str, Any]]:
+    """Wrapper that uses module-level RETIRED_URLS_FILE for test compatibility."""
+    return _load_retired_rules(platform, retired_urls_file=RETIRED_URLS_FILE)
 
-            if layer_def.transform:
-                layer_info["transform"] = layer_def.transform.type
-                if layer_def.transform.params:
-                    layer_info["transform_params"] = layer_def.transform.params
 
-            if layer_def.transforms:
-                layer_info["transforms"] = {
-                    k: v.type for k, v in layer_def.transforms.items()
-                }
+def mark_retired(
+    items: list[dict],
+    retired_rules: list[dict[str, Any]],
+    url_field: str = "url",
+    id_fields: list[str] | None = None,
+    retired_field: str = "retired",
+) -> tuple[int, int]:
+    """Wrapper that uses module-level mark_retired."""
+    return _mark_retired(items, retired_rules, url_field=url_field, id_fields=id_fields, retired_field=retired_field)
 
-            if layer_def.output_records:
-                layer_info["output_records"] = layer_def.output_records
 
-            if layer_def.output_streams:
-                layer_info["output_streams"] = layer_def.output_streams
+# Backward-compatibility wrappers (for tests)
+from loss_guard import execute_content_loss_guard as _execute_content
+from loss_guard import generate_all_provider_baselines as _generate_all_baselines
+from loss_guard import run_provider_loss_guards as _run_provider_loss_guards
 
-            if layer_def.artifacts:
-                layer_info["artifacts"] = layer_def.artifacts
 
-            layer_metadata[layer_name] = layer_info
+def execute_content_loss_guard(*args, **kwargs):
+    """Backward-compatible wrapper for content-aware loss guard."""
+    return _execute_content(*args, **kwargs)
 
-        return layer_metadata
-    except Exception as e:
-        logger.warning(f"[WARN] Could not generate layer metadata: {e}")
-        return {}
+
+def generate_all_provider_baselines(new_records: list[dict], provider_name: str) -> dict[str, bool]:
+    """Backward-compatible wrapper for multi-stream baseline generation."""
+    return _generate_all_baselines(new_records, provider_name)
+
+
+def run_provider_loss_guards(new_records: list[dict], provider_name: str, **kwargs):
+    """Backward-compatible wrapper for provider loss guards."""
+    return _run_provider_loss_guards(new_records, provider_name, **kwargs)
 
 
 # ==============================================================================
-# MAIN PIPELINE EXECUTION
+# PIPELINE CLASS
 # ==============================================================================
 
 
-def main():
-    logger.info("Starting Google Developer Profile Pipeline...")
+class GoogleDeveloperPipeline(PipelineBase):
+    PLATFORM_NAME = "google-developer"
+    PLATFORM_PREFIX = PLATFORM_PREFIX
+    PLATFORM_DISPLAY_NAME = PLATFORM_NAME
+    ARCHIVE_DIR = ARCHIVE_DIR
+    README_PATH = README_PATH
+    ARCHIVE_MONOLITH = ARCHIVE_MONOLITH
+    MARKER_START = MARKER_START
+    MARKER_END = MARKER_END
 
-    public_badges = fetch_gdev_badges_rpc()
-    detailed_learnings = parse_google_learnings_mhtml(LEARNINGS_TXT_PATH)
+    TABLE_HEADERS: ClassVar[list[str]] = [
+        "Date Earned",
+        "Title",
+        "Description",
+    ]
+    TABLE_ALIGNMENTS: ClassVar[list[str]] = [":---:", ":---", ":---"]
 
-    # Combine feeds, deduplicating public badges against MHTML items
-    combined_feed = list(public_badges)
-    for dl in detailed_learnings:
-        if not any(b["title"] == dl["title"] for b in combined_feed):
-            combined_feed.append(dl)
+    @property
+    def VALIDATION_DIR(self):
+        return VALIDATION_DIR
 
-    if not combined_feed:
-        logger.error(
-            "[FAIL] No badge records extracted from RPC or local activity file. Aborting."
-        )
-        sys.exit(1)
+    def fetch_data(self) -> list[dict]:
+        """Fetch and parse Google Developer data from multiple sources."""
+        # Fetch from both sources
+        public_badges = fetch_gdev_badges_rpc()
+        detailed_learnings = parse_google_learnings_mhtml(LEARNINGS_TXT_PATH)
 
-    # Run loss guards (count + content-aware) via shared orchestration
-    # For google-developer, we use fail_on_warn=False (warn instead of fail)
-    run_provider_loss_guards(
-        combined_feed,
-        "google-developer",
-        fail_on_warn=False,
-    )
+        # Combine feeds, deduplicating public badges against MHTML items
+        combined_feed = list(public_badges)
+        for dl in detailed_learnings:
+            if not any(b["title"] == dl["title"] for b in combined_feed):
+                combined_feed.append(dl)
 
-    # 2. Retired URL / Identity detection    # 2. Retired URL / Identity detection
-    retired_rules = load_retired_rules("google-developer")
-    if retired_rules:
-        _, marked = mark_retired(combined_feed, retired_rules, url_field="url")
-        if marked > 0:
-            logger.info(
-                f"[NOTE] Updated {marked} badge/activity(s) with retired status"
+        if not combined_feed:
+            self.logger.error(
+                "[FAIL] No badge records extracted from RPC or local activity file. Aborting."
             )
+            return []
 
-    # Persist full data with retired flags to for_validation for link checker
-    validation_dir = VALIDATION_DIR
-    os.makedirs(validation_dir, exist_ok=True)
-    validation_file = os.path.join(validation_dir, "google-developer.json")
+        # Store individual feeds for README stats
+        self._public_badges = public_badges
+        self._detailed_learnings = detailed_learnings
 
-    # Generate layer metadata for cross-artifact validation
-    layer_metadata = generate_layer_metadata("google-developer")
+        return combined_feed
 
-    payload = {
-        "platform": "google-developer",
-        "total_public_badges": len(public_badges),
-        "total_detailed_learnings": len(detailed_learnings),
-        "total_combined": len(combined_feed),
-        "public_badges": public_badges,
-        "detailed_learnings": detailed_learnings,
-        "combined_feed": combined_feed,
-        "_layer_metadata": layer_metadata,
-    }
-    try:
-        with open(validation_file, "w", encoding="utf-8") as f:
-            json.dump(payload, f, indent=2, ensure_ascii=False)
-        logger.info(f"[SAVE] Full data persisted: '{validation_file}'")
-    except Exception as e:
-        logger.warning(f"[WARN] Could not persist full data: {e}")
+    def parse_data(self, raw_data) -> list[dict]:
+        """Parse/transform raw data - already validated via Pydantic in fetch_data."""
+        return raw_data
 
-    # Generate baseline fingerprints for cross-artifact validation
-    generate_all_provider_baselines(combined_feed, "google-developer")
+    def pre_loss_guard(self, records: list[dict]) -> list[dict]:
+        """No additional deduplication needed - done in fetch_data."""
+        return records
 
-    # 3. Export L2 archive    # 3. Export L2 archive
-    archive_dir = ARCHIVE_DIR
-    os.makedirs(archive_dir, exist_ok=True)
-    archive_file = os.path.join(archive_dir, "google-developer.json")
-    try:
-        with open(archive_file, "w", encoding="utf-8") as f:
-            json.dump(combined_feed, f, indent=2, ensure_ascii=False)
-        logger.info(
-            f"[PACKAGE] Archive saved: '{archive_file}' ({len(combined_feed)} records)"
-        )
-    except Exception as e:
-        logger.warning(f"[WARN] Could not save archive: {e}")
+    def post_loss_guard(self, records: list[dict]) -> list[dict]:
+        """Run loss guards, mark retired, generate baselines."""
+        # 1. Execute Content-Aware Loss Guard check against stored baseline
+        try:
+            from loss_guard import execute_content_loss_guard
+            execute_content_loss_guard(
+                new_records=records,
+                platform="google-developer",
+                id_field="title",  # Google Developer uses title as stable ID
+                fail_on_warn=True,
+            )
+        except Exception as anomaly_err:
+            self.logger.error(f"[FAIL] Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            raise
 
-    # 4. Update README with stats
-    try:
-        update_readme_stats(
-            platform_key="google-developer",
-            total_count=len(combined_feed),
-            public_badges=len(public_badges),
-            detailed_learnings=len(detailed_learnings),
-        )
-        logger.info("[STATS] README updated with Google Developer stats")
-    except Exception as e:
-        logger.warning(f"[WARN] Could not update README: {e}")
+        # 2. Retired URL / Identity detection
+        retired_rules = self.get_retired_rules()
+        if retired_rules:
+            _, marked = mark_retired(records, retired_rules, url_field="url")
+            if marked > 0:
+                self.logger.info(
+                    f"[NOTE] Updated {marked} badge/activity(s) with retired status"
+                )
 
-    # 5. Sort combined entries reverse-chronologically
-    combined_feed.sort(
-        key=lambda x: (
-            x.get("date", "0000-00-00") if x.get("date") != "N/A" else "0000-00-00"
-        ),
-        reverse=True,
-    )
+        # 3. Generate L1 baseline fingerprints for all 3 streams (cross-artifact validation)
+        try:
+            from loss_guard import generate_all_provider_baselines
+            results = generate_all_provider_baselines(records, "google-developer")
+            self.logger.info(f"[OK] L1 baselines generated: {results}")
+        except Exception as e:
+            self.logger.warning(f"[WARN] Baseline generation failed (non-fatal): {e}")
 
-    total_public = len(public_badges)
-    total_detailed = len(detailed_learnings)
-    total_combined = len(combined_feed)
+        return records
 
-    formatted_rows = []
-    for badge in combined_feed:
-        clean_desc = badge["description"].replace("|", r"\|").replace("\n", " ")
-        clean_title = badge["title"].replace("|", r"\|")
+    def format_for_archive(self, record: dict) -> tuple[str, str]:
+        """Format single record for markdown table: (row_text, date)."""
+        clean_desc = record["description"].replace("|", r"\|").replace("\n", " ")
+        clean_title = record["title"].replace("|", r"\|")
         # Primary check: retired flag from mark_retired
         # Fallback: check if URL is in retired_urls.json
         is_retired = (
-            badge.get("retired", False)
-            or badge.get("url", "") in _GOOGLE_DEV_RETIRED_URLS
+            record.get("retired", False)
+            or record.get("url", "") in _GOOGLE_DEV_RETIRED_URLS
         )
         if is_retired:
-            clean_desc += " \U0001f6ab *Content retired*"
-        row_text = f"| {badge['date']} | **{clean_title}** | {clean_desc} |"
-        formatted_rows.append((row_text, badge["date"]))
+            clean_desc += " [WARN] *Content retired*"
+        row_text = f"| {record['date']} | **{clean_title}** | {clean_desc} |"
+        return row_text, record["date"]
 
-    index_raw = f"{RAW_BASE_DEFAULT}/{PLATFORM_PREFIX}-index.md"
-    profile_url = "https://g.dev/vojislavmiloradovic"
-    LATEST_SLICE_NORMAL = ""
-    LATEST_SLICE_RAW = ""
+    def build_readme_lines(self, records: list[dict], latest_slice: str) -> list[str]:
+        """Build README section lines."""
+        total_public = len(self._public_badges)
+        total_detailed = len(self._detailed_learnings)
+        
+        index_raw = f"https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/{self.PLATFORM_PREFIX}-index.md"
+        profile_url = "https://g.dev/vojislavmiloradovic"
 
-    # 6. Assemble README sections
-    readme_lines = [
-        "### Google Developer Profile Summary",
-        "",
-        f"**Public Profile:** [Verify Developer Profile]({profile_url})",
-        "",
-        "#### Platform Progress",
-        "",
-        "| Metric | Count |",
-        "| :--- | :--- |",
-        f"| **Total Milestones & Milestone Badges** | {total_public:,} |",
-    ]
-
-    if total_detailed > 0:
-        readme_lines.append(
-            f"| **Total Codelabs & Learning Activities** | {total_detailed:,} |"
-        )
-
-    readme_lines.extend(
-        [
+        readme_lines = [
+            "### Google Developer Profile Summary",
             "",
-            "#### Latest Achievements",
+            f"**Public Profile:** [Verify Developer Profile]({profile_url})",
             "",
-            f"Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
+            "#### Platform Progress",
             "",
-            "| Date Earned | Title | Description |",
-            "| :---: | :--- | :--- |",
+            "| Metric | Count |",
+            "| :--- | :--- |",
+            f"| **Total Milestones & Milestone Badges** | {total_public:,} |",
         ]
-    )
 
-    for badge in combined_feed[:10]:
-        clean_desc = badge["description"].replace("|", "\\|").replace("\n", " ")
-        clean_title = badge["title"].replace("|", "\\|")
-        readme_lines.append(f"| *{badge['date']}* | **{clean_title}** | {clean_desc} |")
+        if total_detailed > 0:
+            readme_lines.append(
+                f"| **Total Codelabs & Learning Activities** | {total_detailed:,} |"
+            )
 
-    table_headers = ["Date Earned", "Title", "Description"]
-    table_alignments = [":---:", ":---", ":---"]
-
-    # 7. Trigger Archiver
-    if generate_platform_archive:
-        # Capture retrieval timestamp at fetch time
-        retrieved_at = datetime.now(UTC)
-
-        latest_slice = generate_platform_archive(
-            platform_prefix=PLATFORM_PREFIX,
-            platform_name=PLATFORM_NAME,
-            table_headers=table_headers,
-            table_alignments=table_alignments,
-            formatted_rows=formatted_rows,
-            readme_lines=readme_lines,
-            marker_start=MARKER_START,
-            marker_end=MARKER_END,
-            archive_dir=ARCHIVE_DIR,
-            readme_path=README_PATH,
-            retrieved_at=retrieved_at.isoformat(),
+        readme_lines.extend(
+            [
+                "",
+                "#### Latest Achievements",
+                "",
+                f"Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/{self.PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]{{LATEST_SLICE_NORMAL}} ([Raw]{{LATEST_SLICE_RAW}}), or [Monolithic Complete File](./archives/{self.PLATFORM_PREFIX}-complete.md).",
+                "",
+                "| Date Earned | Title | Description |",
+                "| :---: | :--- | :--- |",
+            ]
         )
 
-        if latest_slice:
-            LATEST_SLICE_NORMAL = "./archives/" + latest_slice
-            LATEST_SLICE_RAW = RAW_BASE_DEFAULT + "/" + latest_slice
-        for i, line in enumerate(readme_lines):
-            if "{LATEST_SLICE_NORMAL}" in line:
-                readme_lines[i] = line.replace(
-                    "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
-                )
-                readme_lines[i] = readme_lines[i].replace(
-                    "{LATEST_SLICE_RAW}", LATEST_SLICE_RAW
-                )
-                break
-        if os.path.exists("README.md"):
-            with open("README.md", "r", encoding="utf-8") as f:
-                readme_content = f.read()
-            if MARKER_START in readme_content and MARKER_END in readme_content:
-                before = readme_content.split(MARKER_START)[0]
-                after = readme_content.split(MARKER_END)[1]
-                new_block = "\n".join(readme_lines) + "\n"
-                new_content = (
-                    before + MARKER_START + "\n" + new_block + MARKER_END + after
-                )
-                safe_write_file("README.md", new_content)
+        for badge in records[:10]:
+            clean_desc = badge["description"].replace("|", "\\|").replace("\n", " ")
+            clean_title = badge["title"].replace("|", "\\|")
+            readme_lines.append(f"| *{badge['date']}* | **{clean_title}** | {clean_desc} |")
 
-    # Update index file with two-category breakdown required by generate_llms_txt.py
-    index_file_path = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-index.md")
-    if os.path.exists(index_file_path):
+        return readme_lines
+
+    def get_validation_payload(self, records: list[dict]) -> dict:
+        """Build validation payload with Google Developer-specific fields."""
+        layer_metadata = {}
         try:
-            with open(index_file_path, "r", encoding="utf-8") as f:
-                index_content = f.read()
+            from layer_manifest import load_manifest
 
-            breakdown_text = (
-                f"- **Total Public Badges:** {total_public:,}\n"
-                f"- **Total Detailed Activities:** {total_detailed:,}"
+            manifest = load_manifest()
+            if "google-developer" in manifest.platforms:
+                platform = manifest.platforms["google-developer"]
+                for layer_name in (
+                    "L0_raw",
+                    "L1_normalized",
+                    "L2_published",
+                    "L3_display",
+                ):
+                    layer_def = getattr(platform, layer_name, None)
+                    if not layer_def:
+                        continue
+                    layer_info = {
+                        "source": layer_def.source,
+                        "source_layer": layer_def.source_layer,
+                        "description": layer_def.description,
+                        "retired_handling": layer_def.retired_handling,
+                    }
+                    if layer_def.transform:
+                        layer_info["transform"] = layer_def.transform.type
+                        if layer_def.transform.params:
+                            layer_info["transform_params"] = layer_def.transform.params
+                    if layer_def.transforms:
+                        layer_info["transforms"] = {
+                            k: v.type for k, v in layer_def.transforms.items()
+                        }
+                    if layer_def.output_records:
+                        layer_info["output_records"] = layer_def.output_records
+                    if layer_def.output_streams:
+                        layer_info["output_streams"] = layer_def.output_streams
+                    if layer_def.artifacts:
+                        layer_info["artifacts"] = layer_def.artifacts
+                    layer_metadata[layer_name] = layer_info
+        except Exception:
+            pass
+
+        return {
+            "platform": self.PLATFORM_NAME,
+            "total_public_badges": len(self._public_badges),
+            "total_detailed_learnings": len(self._detailed_learnings),
+            "total_combined": len(records),
+            "public_badges": self._public_badges,
+            "detailed_learnings": self._detailed_learnings,
+            "combined_feed": records,
+            "_layer_metadata": layer_metadata,
+        }
+
+    def get_archive_payload(self, records: list[dict]) -> list[dict]:
+        """Get records for L2 archive JSON."""
+        return records
+
+    def update_readme(self, readme_lines: list[str], latest_slice: str) -> None:
+        """Override to also update the stats table in the index file."""
+        # Call parent update_readme
+        super().update_readme(readme_lines, latest_slice)
+
+        # Update README stats table (the Platform Progress section)
+        try:
+            from archiver import update_readme_stats
+            update_readme_stats(
+                platform_key="google-developer",
+                total_count=len(self._public_badges) + len(self._detailed_learnings),
+                public_badges=len(self._public_badges),
+                detailed_learnings=len(self._detailed_learnings),
             )
-
-            if "Total Public Badges" not in index_content:
-                old_overview_pattern = r"(- \*\*Total Records Archived:\*\* [\d,]+)"
-                index_content = re.sub(
-                    old_overview_pattern,
-                    rf"\1\n{breakdown_text}",
-                    index_content,
-                    count=1,
-                )
-            else:
-                index_content = re.sub(
-                    r"- \*\*Total Public Badges:\*\* [\d,]+",
-                    f"- **Total Public Badges:** {total_public:,}",
-                    index_content,
-                )
-                index_content = re.sub(
-                    r"- \*\*Total Detailed Activities:\*\* [\d,]+",
-                    f"- **Total Detailed Activities:** {total_detailed:,}",
-                    index_content,
-                )
-
-            with open(index_file_path, "w", encoding="utf-8") as f:
-                f.write(index_content)
-            logger.info(f"[OK] Updated category breakdown metrics in {index_file_path}")
+            self.logger.info("[STATS] README updated with Google Developer stats")
         except Exception as e:
-            logger.warning(
-                f"[WARN] Failed to update overview in {index_file_path}: {e}"
-            )
+            self.logger.warning(f"[WARN] Could not update README stats: {e}")
 
-    logger.info(
-        f"[DONE] Google Developer pipeline complete ({total_combined} combined items)."
+        # Update index file with two-category breakdown
+        index_file_path = os.path.join(self.ARCHIVE_DIR, f"{self.PLATFORM_PREFIX}-index.md")
+        if os.path.exists(index_file_path):
+            try:
+                with open(index_file_path, "r", encoding="utf-8") as f:
+                    index_content = f.read()
+
+                total_public = len(self._public_badges)
+                total_detailed = len(self._detailed_learnings)
+
+                breakdown_text = (
+                    f"- **Total Public Badges:** {total_public:,}\n"
+                    f"- **Total Detailed Activities:** {total_detailed:,}"
+                )
+
+                if "Total Public Badges" not in index_content:
+                    old_overview_pattern = r"(- \*\*Total Records Archived:\*\* [\d,]+)"
+                    index_content = re.sub(
+                        old_overview_pattern,
+                        rf"\1\n{breakdown_text}",
+                        index_content,
+                        count=1,
+                    )
+                else:
+                    index_content = re.sub(
+                        r"- \*\*Total Public Badges:\*\* [\d,]+",
+                        f"- **Total Public Badges:** {total_public:,}",
+                        index_content,
+                    )
+                    index_content = re.sub(
+                        r"- \*\*Total Detailed Activities:\*\* [\d,]+",
+                        f"- **Total Detailed Activities:** {total_detailed:,}",
+                        index_content,
+                    )
+
+                with open(index_file_path, "w", encoding="utf-8") as f:
+                    f.write(index_content)
+                self.logger.info(f"[OK] Updated category breakdown metrics in {index_file_path}")
+            except Exception as e:
+                self.logger.warning(
+                    f"[WARN] Failed to update overview in {index_file_path}: {e}"
+                )
+
+
+# Module-level main function for backward compat
+def main():
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
     )
+    GoogleDeveloperPipeline().run()
 
 
 if __name__ == "__main__":
@@ -1100,7 +1019,8 @@ if __name__ == "__main__":
     # Sync fixtures for test consistency
     try:
         from scripts.sync_fixtures import sync_fixtures
-
         sync_fixtures("google-developer")
     except Exception as e:
-        logger.warning(f"âš ď¸Ź Fixture sync failed (non-fatal): {e}")
+        logging.getLogger("gdev_updater").warning(
+            f"[WARN] Fixture sync failed (non-fatal): {e}"
+        )

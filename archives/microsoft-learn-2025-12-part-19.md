@@ -1,5 +1,5 @@
 ---
-archive_platform: Microsoft Learn
+archive_platform: microsoft-learn
 chunk_part: 19 of 95
 date_range: 2025-12-21 to 2025-12-22
 total_entries: 53
@@ -9,12 +9,13 @@ transform: 1:1_pass_through
 artifacts: archive_complete, archive_index, jsonld
 ---
 
-# Microsoft Learn — Part 19
+# microsoft-learn — Part 19
 
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-18.md](./microsoft-learn-2025-12-part-18.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-20.md](./microsoft-learn-2025-12-part-20.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Get started with AI Builder** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder/) |
 | **Get started with Dynamics 365 Customer Service** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-dynamics-365-for-customer-service/) |
 | **Navigate finance and operations apps** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigate-finance-operations/) |
 | **Web automation in Power Automate for desktop** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-web/) |
@@ -67,7 +68,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Get tips and tricks for teaching PL-900 Microsoft Power-platform Fundamentals** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-pl-900-microsoft-power-platform-fundamentals/) |
 | **Integrate Azure Cloud Services to your Unity project on HoloLens 2** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-cloud-services-tutorials/) |
 | **Proforma invoicing and corrections in Dynamics 365 Project Operations** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/proforma-invoicing-corrections/) |
-| **Link your Dataverse environment to Microsoft Fabric** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/link-dataverse-fabric/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-18.md](./microsoft-learn-2025-12-part-18.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-20.md](./microsoft-learn-2025-12-part-20.md)

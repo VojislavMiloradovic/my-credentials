@@ -1,20 +1,21 @@
 ---
-archive_platform: Microsoft Learn
+archive_platform: microsoft-learn
 chunk_part: 27 of 95
 date_range: 2025-12-31 to 2026-01-02
-total_entries: 54
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-27.md
 layer: L2_published
 transform: 1:1_pass_through
 artifacts: archive_complete, archive_index, jsonld
 ---
 
-# Microsoft Learn — Part 27
+# microsoft-learn — Part 27
 
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-26.md](./microsoft-learn-2025-12-part-26.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-28.md](./microsoft-learn-2026-01-part-28.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Populate slowly changing dimensions in Azure Synapse Analytics pipelines** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines/) |
 | **Petabyte-scale ingestion with Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/petabyte-scale-ingestion-azure-data-factory/) |
 | **Perform code-free transformation at scale with Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-free-transformation-scale/) |
 | **Get started with process mining in Power Automate** | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-process-advisor/) |
@@ -67,8 +68,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Understand Microsoft 365 privacy** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-privacy/) |
 | **Understand Microsoft Online Services security development and operation** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-security-development-operation/) |
 | **Understand Microsoft Online Services resiliency and continuity** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-resiliency-continuity/) |
-| **Understand Microsoft 365 vulnerability management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-vulnerability-management/) |
-| **Understand Microsoft 365 audit logging and monitoring** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-logging-monitoring/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-26.md](./microsoft-learn-2025-12-part-26.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-28.md](./microsoft-learn-2026-01-part-28.md)

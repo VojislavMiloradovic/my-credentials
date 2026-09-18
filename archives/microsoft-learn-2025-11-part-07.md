@@ -1,5 +1,5 @@
 ---
-archive_platform: Microsoft Learn
+archive_platform: microsoft-learn
 chunk_part: 7 of 95
 date_range: 2025-11-24 to 2025-11-26
 total_entries: 50
@@ -9,7 +9,7 @@ transform: 1:1_pass_through
 artifacts: archive_complete, archive_index, jsonld
 ---
 
-# Microsoft Learn — Part 07
+# microsoft-learn — Part 07
 
 > **Navigation:** Prev: [microsoft-learn-2025-11-part-06.md](./microsoft-learn-2025-11-part-06.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-11-part-08.md](./microsoft-learn-2025-11-part-08.md) | [Complete Archive](./microsoft-learn-complete.md)
 

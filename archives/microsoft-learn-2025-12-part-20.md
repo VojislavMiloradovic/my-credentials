@@ -1,5 +1,5 @@
 ---
-archive_platform: Microsoft Learn
+archive_platform: microsoft-learn
 chunk_part: 20 of 95
 date_range: 2025-12-22 to 2025-12-23
 total_entries: 52
@@ -9,12 +9,13 @@ transform: 1:1_pass_through
 artifacts: archive_complete, archive_index, jsonld
 ---
 
-# Microsoft Learn — Part 20
+# microsoft-learn — Part 20
 
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-19.md](./microsoft-learn-2025-12-part-19.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-21.md](./microsoft-learn-2025-12-part-21.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Understanding Low Code as a Traditional Developer** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/understanding-low-code-as-a-traditional-developer/) |
 | **Draft impactful documents using AI** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/draft-impactful-documents-using-ai/) |
 | **Introduction to Microsoft Learn for Educators program** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-learn-educators-program/) |
 | **Configure and manage shared folders** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-shared-folders/) |
@@ -66,7 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Create and Manage Automated Processes by using Power Automate** | Learningpaths | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-automated-processes-by-using-power-automate/) |
 | **Describe the general ledger in Dynamics 365 Finance** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-general-ledger-dynamics-365/) |
 | **Support social and emotional learning with Microsoft tools** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-social-emotional-learning/) |
-| **Get started with AI Builder** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-19.md](./microsoft-learn-2025-12-part-19.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-21.md](./microsoft-learn-2025-12-part-21.md)

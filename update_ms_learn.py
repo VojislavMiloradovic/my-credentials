@@ -4,6 +4,8 @@ update_ms_learn.py
 Pipeline for updating Microsoft Learn credentials, verifiable skills, and completed achievements.
 Reads manually exported JSON dumps from `data/microsoft-learn.json`, applies Pydantic models,
 enforces Data Loss Guards, and delegates markdown archiving to the archiver module.
+
+Refactored to use PipelineBase (Option 2 Migration).
 """
 
 import json
@@ -13,12 +15,23 @@ import re
 import sys
 from collections.abc import Callable
 from datetime import UTC, datetime
-from typing import Any
+from typing import Any, ClassVar
 
 from pydantic import ConfigDict, Field, ValidationError, field_validator
 
 # Provenance Integration
 from models.provenance import ProvenanceBase, RetrievalMethod, VerificationStatus
+
+# Layer Manifest Integration
+try:
+    from layer_manifest import get_layer_def, get_platform_layers, load_manifest
+except ImportError:
+    get_platform_layers = None
+    get_layer_def = None
+    load_manifest = None
+
+# PipelineBase Integration
+from pipeline_base import PipelineBase
 
 # Archive Integration Helper
 try:
@@ -39,175 +52,12 @@ except ImportError:
             f.write(new_content)
         return True
 
-
 # Loss Guard (shared orchestration)
-from loss_guard import (
-    generate_provider_baseline,
-    run_provider_loss_guards,
-)
 
 # ==============================================================================
-# BACKWARD COMPATIBILITY WRAPPERS
+# MODULE-LEVEL CONSTANTS (for backward compatibility with tests)
 # ==============================================================================
 
-
-def get_stored_archive_baseline_count() -> int:
-    """Backward-compatible wrapper for count-based baseline retrieval (monolith only)."""
-    from loss_guard import get_stored_archive_baseline_count as _get_count
-
-    return _get_count("microsoft-learn", None, ARCHIVE_MONOLITH)
-
-
-def execute_data_loss_guard(new_achievements: list[dict]) -> None:
-    """Backward-compatible wrapper for count-based loss guard."""
-    from loss_guard import execute_data_loss_guard as _execute_guard
-
-    return _execute_guard(new_achievements, "microsoft-learn", None, ARCHIVE_MONOLITH)
-
-
-def execute_content_loss_guard(*args, **kwargs):
-    """Backward-compatible wrapper for content-aware loss guard."""
-    from loss_guard import execute_content_loss_guard as _execute
-
-    return _execute(*args, **kwargs)
-
-
-# Layer Manifest Integration
-try:
-    from layer_manifest import get_layer_def, get_platform_layers, load_manifest
-except ImportError:
-    get_platform_layers = None
-    get_layer_def = None
-    load_manifest = None
-
-# Retired credentials registry mapping
-RETIRED_URLS_FILE = "retired_urls.json"
-
-
-def load_retired_rules(platform: str) -> list[dict[str, Any]]:
-    """Load retired credential rules for a platform from the mapping file.
-    Supports both legacy string list format and structured rule objects.
-    """
-    if not os.path.exists(RETIRED_URLS_FILE):
-        logger.debug(f"Retired URLs file not found: {RETIRED_URLS_FILE}")
-        return []
-    try:
-        with open(RETIRED_URLS_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        entries = data.get(platform, [])
-        rules = []
-        for entry in entries:
-            if isinstance(entry, str):
-                rules.append({"id": entry, "match_type": "url", "url": entry})
-            elif isinstance(entry, dict) and entry.get("id"):
-                rules.append(entry)
-        logger.info(f"Loaded {len(rules)} retired rule(s) for {platform}")
-        return rules
-    except Exception as e:
-        logger.warning(f"âš ď¸Ź Could not load retired rules for {platform}: {e}")
-        return []
-
-
-def mark_retired(
-    items: list[dict],
-    retired_rules: list[dict[str, Any]],
-    url_field: str | list[str] = "url",
-    id_fields: list[str] | None = None,
-    retired_field: str = "retired",
-    normalize_url: Callable[[str], str] | None = None,
-) -> tuple[int, int]:
-    """Mark items as retired if their ID, UID, or URL matches known retired rules.
-    Returns (total_checked, total_marked).
-    """
-    if not retired_rules:
-        return len(items), 0
-    url_fields = [url_field] if isinstance(url_field, str) else url_field
-    search_id_fields = id_fields or [
-        "id",
-        "uid",
-        "sourceUid",
-        "credentialId",
-        "learningPathUid",
-        "learning_path_uid",
-        "license",
-    ]
-    marked = 0
-
-    for item in items:
-        if item.get(retired_field, False):
-            continue
-
-        # Extract values for item
-        item_url = None
-        for field in url_fields:
-            raw_url = item.get(field)
-            if raw_url:
-                item_url = (
-                    normalize_url(raw_url) if normalize_url else str(raw_url).strip()
-                )
-                break
-
-        item_ids = set()
-        for field in search_id_fields:
-            val = item.get(field)
-            if val:
-                s_val = str(val).strip()
-                item_ids.add(s_val)
-                if normalize_url:
-                    item_ids.add(normalize_url(s_val))
-
-        # Check against rules
-        is_retired = False
-        matched_rule = None
-        for rule in retired_rules:
-            rule_id = str(rule.get("id", "")).strip()
-            rule_url = rule.get("url")
-            rule_norm_url = (
-                normalize_url(rule_url) if (rule_url and normalize_url) else rule_url
-            )
-
-            # 1. Match by ID / UID / License
-            if rule_id in item_ids:
-                is_retired = True
-                matched_rule = rule
-                break
-
-            # 2. Match by normalized URL
-            if item_url and (
-                rule_id == item_url or (rule_norm_url and item_url == rule_norm_url)
-            ):
-                is_retired = True
-                matched_rule = rule
-                break
-
-        if is_retired:
-            item[retired_field] = True
-            if matched_rule:
-                if matched_rule.get("reason"):
-                    item["retirement_reason"] = matched_rule["reason"]
-                if matched_rule.get("retired_at"):
-                    item["retired_at"] = matched_rule["retired_at"]
-            marked += 1
-            logger.info(
-                f"đźŹ·ď¸Ź  Marked as retired: {item.get('title') or item.get('name') or item.get('id') or 'unknown'}"
-            )
-
-    logger.info(
-        f"Retired check: {len(items)} items checked, {marked} marked as retired"
-    )
-    return len(items), marked
-
-
-# Logging Setup
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
-logger = logging.getLogger("ms_learn_updater")
-
-# Configuration Constants
-JSON_PATH = os.getenv("JSON_PATH", os.path.join("data", "microsoft-learn.json"))
 VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
@@ -220,9 +70,15 @@ MS_LEARN_PROFILE_URL = f"https://learn.microsoft.com/en-us/users/{MS_LEARN_PROFI
 MARKER_START = "<!-- MS_LEARN_START -->"
 MARKER_END = "<!-- MS_LEARN_END -->"
 
+MAX_ALLOWED_DATA_LOSS_PCT = 0.15
+
+RETIRED_URLS_FILE = "retired_urls.json"
+
+# Module-level constants for backward compatibility with tests
+JSON_PATH = os.getenv("JSON_PATH", os.path.join("data", "microsoft-learn.json"))
 
 # ==============================================================================
-# HELPER FUNCTIONS & FORMATTERS
+# HELPER FUNCTIONS & FORMATTERS (module-level for backward compat)
 # ==============================================================================
 
 
@@ -324,7 +180,7 @@ def resolve_level(xp_profile: dict, xp_data: dict, total_xp: Any) -> str:
 
 
 # ==============================================================================
-# PYDANTIC SCHEMAS
+# PYDANTIC SCHEMAS (module-level for backward compat)
 # ==============================================================================
 
 
@@ -463,364 +319,555 @@ class MSVerifiableCredentialModel(ProvenanceBase):
 
 
 # ==============================================================================
-# MAIN PIPELINE EXECUTION
+# MODULE-LEVEL UTILITIES (for backward compatibility with tests)
+# ==============================================================================
+
+from loss_guard import (
+    load_retired_rules as _load_retired_rules,
+)
+from loss_guard import (
+    mark_retired as _mark_retired,
+)
+
+
+def load_retired_rules(platform: str) -> list[dict[str, Any]]:
+    """Wrapper that uses module-level RETIRED_URLS_FILE for test compatibility."""
+    return _load_retired_rules(platform, retired_urls_file=RETIRED_URLS_FILE)
+
+
+def mark_retired(
+    items: list[dict],
+    retired_rules: list[dict[str, Any]],
+    url_field: str | list[str] = "url",
+    id_fields: list[str] | None = None,
+    retired_field: str = "retired",
+    normalize_url: Callable[[str], str] | None = None,
+) -> tuple[int, int]:
+    """Wrapper that uses module-level mark_retired with all original parameters.
+    Handles url_field as list by iterating over fields.
+    Handles normalize_url by applying it before matching.
+    """
+    # If normalize_url is provided, we need to handle matching manually
+    # since loss_guard doesn't support it
+    if normalize_url is not None:
+        marked = 0
+        for item in items:
+            if item.get(retired_field, False):
+                continue
+
+            # Get item URL and normalize
+            field = url_field if isinstance(url_field, str) else url_field[0]
+            item_url = item.get(field)
+            if item_url:
+                item_url = normalize_url(item_url)
+
+            # Get item IDs
+            search_id_fields = id_fields or ["id", "title", "verify_url", "url"]
+            item_ids = set()
+            for f in search_id_fields:
+                val = item.get(f)
+                if val:
+                    item_ids.add(str(val).strip())
+
+            # Check against rules
+            is_retired = False
+            matched_rule = None
+            for rule in retired_rules:
+                rule_id = str(rule.get("id", "")).strip()
+                rule_url = rule.get("url")
+
+                if rule_id in item_ids or (item_url and rule_id == item_url) or (rule_url and rule_url == item_url):
+                    is_retired = True
+                    matched_rule = rule
+                    break
+
+            if is_retired:
+                item[retired_field] = True
+                if matched_rule:
+                    if matched_rule.get("reason"):
+                        item["retirement_reason"] = matched_rule["reason"]
+                    if matched_rule.get("retired_at"):
+                        item["retired_at"] = matched_rule["retired_at"]
+                marked += 1
+                logging.getLogger("ms_learn_updater").info(
+                    f"[LABEL]  Marked as retired: {item.get('title') or item.get('id')}"
+                )
+
+        logging.getLogger("ms_learn_updater").info(
+            f"Retired check: {len(items)} items checked, {marked} marked as retired"
+        )
+        return len(items), marked
+
+    # Handle url_field as list (loss_guard doesn't support list)
+    if isinstance(url_field, list):
+        total_marked = 0
+        for field in url_field:
+            _, marked = _mark_retired(
+                items, retired_rules,
+                url_field=field,
+                id_fields=id_fields,
+                retired_field=retired_field,
+            )
+            total_marked += marked
+        return len(items), total_marked
+
+    return _mark_retired(
+        items, retired_rules,
+        url_field=url_field,
+        id_fields=id_fields,
+        retired_field=retired_field,
+    )
+
+
+# Backward-compatibility wrappers (for tests)
+from loss_guard import execute_content_loss_guard as _execute_content
+from loss_guard import execute_data_loss_guard as _execute_guard
+from loss_guard import get_stored_archive_baseline_count as _get_count
+
+
+def get_stored_archive_baseline_count() -> int:
+    """Backward-compatible wrapper for count-based baseline retrieval (monolith only)."""
+    return _get_count("microsoft-learn", None, ARCHIVE_MONOLITH)
+
+
+def execute_data_loss_guard(new_achievements: list[dict]) -> None:
+    """Backward-compatible wrapper for count-based loss guard."""
+    return _execute_guard(new_achievements, "microsoft-learn", None, ARCHIVE_MONOLITH)
+
+
+def execute_content_loss_guard(*args, **kwargs):
+    """Backward-compatible wrapper for content-aware loss guard."""
+    return _execute_content(*args, **kwargs)
+
+
+# ==============================================================================
+# PIPELINE CLASS
 # ==============================================================================
 
 
-def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
-    """Generate layer metadata from manifest for a platform."""
-    if not load_manifest:
-        return {}
-    try:
-        manifest = load_manifest()
-        if platform_key not in manifest.platforms:
-            return {}
+class MicrosoftLearnPipeline(PipelineBase):
+    PLATFORM_NAME = "microsoft-learn"
+    PLATFORM_PREFIX = PLATFORM_PREFIX
+    PLATFORM_DISPLAY_NAME = PLATFORM_NAME
+    ARCHIVE_DIR = ARCHIVE_DIR
+    README_PATH = README_PATH
+    ARCHIVE_MONOLITH = ARCHIVE_MONOLITH
+    MARKER_START = MARKER_START
+    MARKER_END = MARKER_END
 
-        platform = manifest.platforms[platform_key]
-
-        # Build layer metadata
-        layer_metadata = {}
-        for layer_name in ("L0_raw", "L1_normalized", "L2_published", "L3_display"):
-            layer_def = getattr(platform, layer_name, None)
-            if not layer_def:
-                continue
-
-            layer_info = {
-                "source": layer_def.source,
-                "source_layer": layer_def.source_layer,
-                "description": layer_def.description,
-                "retired_handling": layer_def.retired_handling,
-            }
-
-            if layer_def.transform:
-                layer_info["transform"] = layer_def.transform.type
-                if layer_def.transform.params:
-                    layer_info["transform_params"] = layer_def.transform.params
-
-            if layer_def.transforms:
-                layer_info["transforms"] = {
-                    k: v.type for k, v in layer_def.transforms.items()
-                }
-
-            if layer_def.output_records:
-                layer_info["output_records"] = layer_def.output_records
-
-            if layer_def.output_streams:
-                layer_info["output_streams"] = layer_def.output_streams
-
-            if layer_def.artifacts:
-                layer_info["artifacts"] = layer_def.artifacts
-
-            layer_metadata[layer_name] = layer_info
-
-        return layer_metadata
-    except Exception as e:
-        logger.warning(f"âš ď¸Ź Could not generate layer metadata: {e}")
-        return {}
-
-
-def main():
-    logger.info("Starting Microsoft Learn Profile Pipeline...")
-
-    if not os.path.exists(JSON_PATH):
-        logger.error(f"âťŚ Error: Export file '{JSON_PATH}' not found!")
-        sys.exit(1)
-
-    # Capture retrieval timestamp at fetch time
-    retrieved_at = datetime.now(UTC)
-
-    with open(JSON_PATH, "r", encoding="utf-8") as f:
-        try:
-            data = json.load(f)
-        except json.JSONDecodeError as e:
-            logger.error(f"âťŚ Error parsing JSON file '{JSON_PATH}': {e}")
-            sys.exit(1)
-
-    progress = data.get("Progress", {}) or {}
-    xp_data = data.get("XP", {}) or {}
-    creds = data.get("VerifiableCredentials", {}) or {}
-
-    completed_units = progress.get("completedLearningItems", [])
-    learning_paths = progress.get("learningPathPasses", [])
-    modules = progress.get("moduleAssessments", [])
-    raw_achievements = xp_data.get("achievements", []) or []
-
-    # 1. Validate Achievements with Pydantic
-    validated_achievements = []
-    for ach in raw_achievements:
-        try:
-            ach_with_provenance = {**ach, "retrieved_at": retrieved_at}
-            model = MSAchievementModel(**ach_with_provenance)
-            validated_achievements.append(model.model_dump(mode="json"))
-        except ValidationError as ve:
-            logger.warning(f"âš ď¸Ź Skipping invalid achievement entry: {ve}")
-
-    # 2. Retired URL / Identity detection (Microsoft Learn)
-    retired_rules = load_retired_rules("microsoft-learn")
-    if retired_rules:
-        _, marked = mark_retired(validated_achievements, retired_rules, url_field="url")
-        if marked > 0:
-            logger.info(f"đź“ť Updated {marked} achievement(s) with retired status")
-
-    # Run loss guards (count + content-aware) via shared orchestration
-    run_provider_loss_guards(
-        validated_achievements,
-        "microsoft-learn",
-        monolith_path=ARCHIVE_MONOLITH,
-    )
-
-    # Generate baseline fingerprints for cross-artifact validation
-    generate_provider_baseline(validated_achievements, "microsoft-learn")
-
-    xp_profile = xp_data.get("xp", {})
-
-    xp_profile = xp_data.get("xp", {}) or {}
-    total_xp = "0"
-    if isinstance(xp_profile, dict):
-        total_xp = xp_profile.get("totalXp", xp_profile.get("xp", "0"))
-
-    current_level = resolve_level(xp_profile, xp_data, total_xp)
-
-    # Count Badges vs Trophies
-    badges_count = 0
-    trophies_count = 0
-    for item in validated_achievements:
-        cat = str(item.get("category", "")).lower()
-        if "trophy" in cat or "learningpath" in cat:
-            trophies_count += 1
-        else:
-            badges_count += 1
-
-    # Sort reverse-chronologically
-    sorted_achievements = sorted(validated_achievements, key=parse_date, reverse=True)
-
-    # 3. Validate Verifiable Credentials
-    user_creds = creds.get("userCredentials", []) or []
-    verifiable_list = []
-    for cred in user_creds:
-        try:
-            cred_with_provenance = {**cred, "retrieved_at": retrieved_at}
-            cred_model = MSVerifiableCredentialModel(**cred_with_provenance)
-            name = clean_uid(cred_model.sourceUid)
-            status = cred_model.credentialStatus
-            if cred_model.retired:
-                status += " âš ď¸Ź *Content retired*"
-            verifiable_list.append(
-                f"- **{name}** (Credential ID: `{cred_model.credentialId}` | Earned: {cred_model.awardedOn} | Status: {status})"
-            )
-        except ValidationError as ve:
-            logger.warning(f"âš ď¸Ź Skipping invalid verifiable credential: {ve}")
-
-    # Also check verifiable credentials against retired rules
-    if retired_rules:
-        _, marked = mark_retired(
-            user_creds,
-            retired_rules,
-            url_field="sourceUid",
-            id_fields=["sourceUid", "credentialId"],
-            retired_field="retired",
-        )
-        # Note: verifiable credentials use sourceUid, not url field
-        if marked > 0:
-            logger.info(
-                f"đź“ť Updated {marked} verifiable credential(s) with retired status"
-            )
-
-    # Also check learning paths against retired rules
-    if retired_rules:
-        _, marked = mark_retired(
-            learning_paths,
-            retired_rules,
-            url_field=["url", "learningPathUid", "learning_path_uid", "learningPathId"],
-            id_fields=["learningPathUid", "learning_path_uid", "learningPathId"],
-            retired_field="retired",
-            normalize_url=format_verify_url,
-        )
-        if marked > 0:
-            logger.info(f"đź“ť Updated {marked} learning path(s) with retired status")
-
-    # Propagate retired status from learning paths to matching achievements
-    # Build set of retired URLs from learning paths (normalized)
-    retired_lp_urls = set()
-    for lp in learning_paths:
-        if lp.get("retired"):
-            for field in [
-                "url",
-                "learningPathUid",
-                "learning_path_uid",
-                "learningPathId",
-            ]:
-                raw = lp.get(field)
-                if raw:
-                    retired_lp_urls.add(format_verify_url(raw))
-                    break
-
-    # Mark matching achievements as retired
-    if retired_lp_urls:
-        ach_marked = 0
-        for ach in validated_achievements:
-            ach_url = format_verify_url(ach.get("url"))
-            if ach_url and ach_url in retired_lp_urls and not ach.get("retired", False):
-                ach["retired"] = True
-                ach_marked += 1
-                logger.info(
-                    f"đźŹ·ď¸Ź  Propagated retired to achievement: {ach.get('title') or ach.get('id')}"
-                )
-        if ach_marked > 0:
-            logger.info(
-                f"đź“ť Propagated retired status to {ach_marked} achievement(s)"
-            )
-
-    # Persist full data with retired flags to for_validation for link checker
-    os.makedirs(VALIDATION_DIR, exist_ok=True)
-    validation_file = os.path.join(VALIDATION_DIR, "microsoft-learn.json")
-
-    # Generate layer metadata for cross-artifact validation
-    layer_metadata = generate_layer_metadata("microsoft-learn")
-
-    payload = {
-        "platform": "microsoft-learn",
-        "total_achievements": len(validated_achievements),
-        "total_learning_paths": len(learning_paths),
-        "total_modules": len(modules),
-        "total_completed_units": len(completed_units),
-        "achievements": validated_achievements,
-        "learning_paths": learning_paths,
-        "modules": modules,
-        "completed_units": completed_units,
-        "verifiable_credentials": user_creds,
-        "_layer_metadata": layer_metadata,
-        "_retrieved_at": retrieved_at.isoformat(),
-    }
-    try:
-        with open(validation_file, "w", encoding="utf-8") as f:
-            json.dump(payload, f, indent=2, ensure_ascii=False)
-        logger.info(f"đź’ľ Full data persisted: '{validation_file}'")
-    except Exception as e:
-        logger.warning(f"âš ď¸Ź Could not persist full data: {e}")
-
-    # Generate and save baseline fingerprints for L1_normalized (achievements)
-    if execute_content_loss_guard:
-        try:
-            execute_content_loss_guard(
-                validated_achievements,
-                platform="microsoft-learn",
-                id_field="id",
-                fail_on_warn=False,  # Don't fail pipeline on baseline updates
-            )
-            logger.info("đź“‹ Baseline fingerprints updated for microsoft-learn")
-        except Exception as e:
-            logger.warning(f"âš ď¸Ź Could not update baseline: {e}")
-
-    # Format table rows for archiver
-    formatted_rows = []
-    for item in sorted_achievements:
-        title = item.get("title", "Completed Module").replace("|", "\\|")
-        cat = str(item.get("category", "module")).title()
-        date = item.get("grantedOn", "N/A")
-        verify_url = format_verify_url(item.get("url"))
-        retired = item.get("retired", False)
-        verify_cell = f"[Verify]({verify_url})" if verify_url else "N/A"
-        if retired:
-            verify_cell += " âš ď¸Ź *Content retired*"
-        row_text = f"| **{title}** | {cat} | {date} | {verify_cell} |"
-        formatted_rows.append((row_text, date))
-
-    # Construct README Summary Lines
-    md = [
-        "### Microsoft Learn Summary",
-        "",
-        f"**Public Profile:** [Verify Microsoft Learn Profile]({MS_LEARN_PROFILE_URL})",
-        "",
-        f"- **Total Experience Points (XP):** {format_num(total_xp)}",
-        f"- **Current Learning Level:** Level {current_level}",
-        f"- **Badges Earned (Profile):** {format_num(badges_count)}",
-        f"- **Trophies Earned (Profile):** {format_num(trophies_count)}",
-        f"- **Completed Learning Paths (Active Tracker):** {format_num(len(learning_paths))}",
-        f"- **Completed Modules (Active Tracker):** {format_num(len(modules))}",
-        f"- **Completed Individual Units:** {format_num(len(completed_units))}\n",
-    ]
-
-    if verifiable_list:
-        md.append("### Verifiable Applied Skills & Credentials")
-        md.extend(verifiable_list)
-        md.append("")
-
-    index_filename = f"{PLATFORM_PREFIX}-index.md"
-    monolith_filename = f"{PLATFORM_PREFIX}-complete.md"
-    index_raw = f"{RAW_BASE_DEFAULT}/{index_filename}"
-    LATEST_SLICE_NORMAL = ""
-    LATEST_SLICE_RAW = ""
-
-    md.append("### Recent Achievements & Completed Badges")
-    md.append(
-        f"Showing latest 10 of {format_num(len(sorted_achievements))} achievements. View full dataset via [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic Complete File](./archives/{monolith_filename}).\n"
-    )
-
-    # Table header for Recent Achievements in README
-    md.append("| Achievement Title | Category | Date Earned | Verification Link |")
-    md.append("| :--- | :--- | :--- | :--- |")
-
-    for item in sorted_achievements[:10]:
-        title = item.get("title", "Completed Module").replace("|", "\\|")
-        cat = str(item.get("category", "module")).title()
-        date = item.get("grantedOn", "N/A")
-        verify_url = format_verify_url(item.get("url"))
-        verify_cell = f"[Verify]({verify_url})" if verify_url else "N/A"
-        if item.get("retired", False):
-            verify_cell += " âš ď¸Ź *Content retired*"
-        md.append(f"| **{title}** | {cat} | {date} | {verify_cell} |")
-
-    table_headers = [
+    TABLE_HEADERS: ClassVar[list[str]] = [
         "Achievement Title",
         "Category",
         "Date Earned",
         "Verification Link",
     ]
-    table_alignments = [":---", ":---", ":---", ":---"]
+    TABLE_ALIGNMENTS: ClassVar[list[str]] = [":---", ":---", ":---", ":---"]
 
-    # 4. Trigger Archiver
-    if generate_platform_archive:
-        latest_slice = generate_platform_archive(
-            platform_prefix=PLATFORM_PREFIX,
-            platform_name=PLATFORM_NAME,
-            table_headers=table_headers,
-            table_alignments=table_alignments,
-            formatted_rows=formatted_rows,
-            readme_lines=md,
-            marker_start=MARKER_START,
-            marker_end=MARKER_END,
-            archive_dir=ARCHIVE_DIR,
-            readme_path=README_PATH,
-            retrieved_at=retrieved_at.isoformat(),
+    MS_LEARN_PROFILE_ID = MS_LEARN_PROFILE_ID
+    MS_LEARN_PROFILE_URL = MS_LEARN_PROFILE_URL
+
+    @property
+    def VALIDATION_DIR(self):
+        return VALIDATION_DIR
+
+    @property
+    def JSON_PATH(self):
+        return JSON_PATH
+
+    def get_retired_rules(self) -> list[dict]:
+        """Wrapper that uses module-level RETIRED_URLS_FILE for test compatibility."""
+        return _load_retired_rules("microsoft-learn", retired_urls_file=RETIRED_URLS_FILE)
+
+    def fetch_data(self) -> list[dict]:
+        """Load and validate Microsoft Learn JSON export."""
+        json_path = self.JSON_PATH
+        
+        if not os.path.exists(json_path):
+            self.logger.error(f"[FAIL] Error: Export file '{json_path}' not found!")
+            sys.exit(1)
+
+        with open(json_path, "r", encoding="utf-8") as f:
+            try:
+                data = json.load(f)
+            except json.JSONDecodeError as e:
+                self.logger.error(f"[FAIL] Error parsing JSON file '{json_path}': {e}")
+                sys.exit(1)
+
+        # Capture retrieval timestamp at fetch time
+        retrieved_at = datetime.now(UTC)
+
+        progress = data.get("Progress", {}) or {}
+        xp_data = data.get("XP", {}) or {}
+        creds = data.get("VerifiableCredentials", {}) or {}
+
+        completed_units = progress.get("completedLearningItems", [])
+        learning_paths = progress.get("learningPathPasses", [])
+        modules = progress.get("moduleAssessments", [])
+        raw_achievements = xp_data.get("achievements", []) or []
+
+        # 1. Validate Achievements with Pydantic
+        validated_achievements = []
+        for ach in raw_achievements:
+            try:
+                ach_with_provenance = {**ach, "retrieved_at": retrieved_at}
+                model = MSAchievementModel(**ach_with_provenance)
+                validated_achievements.append(model.model_dump(mode="json"))
+            except ValidationError as ve:
+                self.logger.warning(f"[WARN] Skipping invalid achievement entry: {ve}")
+
+        # 2. Retired URL / Identity detection (Microsoft Learn)
+        retired_rules = self.get_retired_rules()
+        if retired_rules:
+            _, marked = mark_retired(validated_achievements, retired_rules, url_field="url")
+            if marked > 0:
+                self.logger.info(f"[NOTE] Updated {marked} achievement(s) with retired status")
+
+        # Store for later use in post_loss_guard
+        self._learning_paths = learning_paths
+        self._modules = modules
+        self._completed_units = completed_units
+        self._user_creds = creds.get("userCredentials", []) or []
+        self._xp_data = xp_data
+        self._retrieved_at = retrieved_at
+
+        return validated_achievements
+
+    def parse_data(self, raw_data) -> list[dict]:
+        """Parse/transform raw data - already validated via Pydantic in fetch_data."""
+        return raw_data
+
+    def pre_loss_guard(self, records: list[dict]) -> list[dict]:
+        """No deduplication needed - Pydantic validation handles it."""
+        return records
+
+    def post_loss_guard(self, records: list[dict]) -> list[dict]:
+        """Run loss guards and mark retired items across all data types."""
+        # 1. Execute Content-Aware Loss Guard check against stored baseline
+        try:
+            from loss_guard import execute_content_loss_guard
+            execute_content_loss_guard(
+                new_records=records,
+                platform="microsoft-learn",
+                id_field="id",
+                fail_on_warn=True,
+            )
+        except Exception as anomaly_err:
+            self.logger.error(f"[FAIL] Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            raise
+
+        # 2. Retired detection for achievements
+        retired_rules = self.get_retired_rules()
+        if retired_rules:
+            _, marked = mark_retired(records, retired_rules, url_field="url")
+            if marked > 0:
+                self.logger.info(f"[NOTE] Updated {marked} achievement(s) with retired status")
+
+        # 3. Also check verifiable credentials against retired rules
+        if retired_rules and self._user_creds:
+            _, marked = mark_retired(
+                self._user_creds,
+                retired_rules,
+                url_field="sourceUid",
+                id_fields=["sourceUid", "credentialId"],
+                retired_field="retired",
+            )
+            if marked > 0:
+                self.logger.info(f"[NOTE] Updated {marked} verifiable credential(s) with retired status")
+
+        # 4. Also check learning paths against retired rules (with URL normalization)
+        if retired_rules and self._learning_paths:
+            # loss_guard.mark_retired doesn't support list for url_field or normalize_url
+            # So we manually normalize and check
+            for lp in self._learning_paths:
+                if lp.get("retired"):
+                    continue
+                is_retired = False
+                matched_rule = None
+                for field in ["url", "learningPathUid", "learning_path_uid", "learningPathId"]:
+                    raw = lp.get(field)
+                    if raw:
+                        normalized = format_verify_url(raw)
+                        for rule in retired_rules:
+                            rule_id = str(rule.get("id", "")).strip()
+                            rule_url = rule.get("url")
+                            if rule_id == normalized or (rule_url and rule_url == normalized):
+                                is_retired = True
+                                matched_rule = rule
+                                break
+                        if is_retired:
+                            break
+                if is_retired:
+                    lp["retired"] = True
+                    if matched_rule:
+                        if matched_rule.get("reason"):
+                            lp["retirement_reason"] = matched_rule["reason"]
+                        if matched_rule.get("retired_at"):
+                            lp["retired_at"] = matched_rule["retired_at"]
+                    self.logger.info(
+                        f"[LABEL]  Marked learning path as retired: {lp.get('title') or lp.get('name') or lp.get('id')}"
+                    )
+
+        # 5. Propagate retired status from learning paths to matching achievements
+        retired_lp_urls = set()
+        for lp in self._learning_paths:
+            if lp.get("retired"):
+                for field in [
+                    "url",
+                    "learningPathUid",
+                    "learning_path_uid",
+                    "learningPathId",
+                ]:
+                    raw = lp.get(field)
+                    if raw:
+                        retired_lp_urls.add(format_verify_url(raw))
+                        break
+
+        if retired_lp_urls:
+            ach_marked = 0
+            for ach in records:
+                ach_url = format_verify_url(ach.get("url"))
+                if ach_url and ach_url in retired_lp_urls and not ach.get("retired", False):
+                    ach["retired"] = True
+                    ach_marked += 1
+                    self.logger.info(
+                        f"[LABEL]  Propagated retired to achievement: {ach.get('title') or ach.get('id')}"
+                    )
+            if ach_marked > 0:
+                self.logger.info(
+                    f"[NOTE] Propagated retired status to {ach_marked} achievement(s)"
+                )
+
+        # 6. Generate L1 baseline fingerprints for cross-artifact validation
+        try:
+            from loss_guard import execute_content_loss_guard
+            execute_content_loss_guard(
+                new_records=records,
+                platform="microsoft-learn",
+                id_field="id",
+                fail_on_warn=False,  # Baseline generation should not fail the pipeline
+            )
+            self.logger.info("[OK] L1 baseline fingerprints generated for cross-artifact validation")
+        except Exception as e:
+            self.logger.warning(f"[WARN] Baseline generation failed (non-fatal): {e}")
+
+        return records
+
+    def format_for_archive(self, record: dict) -> tuple[str, str]:
+        """Format single record for markdown table: (row_text, date)."""
+        title = record.get("title", "Completed Module").replace("|", "\\|")
+        cat = str(record.get("category", "module")).title()
+        date = record.get("grantedOn", "N/A")
+        verify_url = format_verify_url(record.get("url"))
+        retired = record.get("retired", False)
+        verify_cell = f"[Verify]({verify_url})" if verify_url else "N/A"
+        if retired:
+            verify_cell += " [WARN] *Content retired*"
+        row_text = f"| **{title}** | {cat} | {date} | {verify_cell} |"
+        return row_text, date
+
+    def build_readme_lines(self, records: list[dict], latest_slice: str) -> list[str]:
+        """Build README section lines."""
+        # Get the xp profile data
+        xp_profile = self._xp_data.get("xp", {}) or {}
+        total_xp = "0"
+        if isinstance(xp_profile, dict):
+            total_xp = xp_profile.get("totalXp", xp_profile.get("xp", "0"))
+
+        current_level = resolve_level(xp_profile, self._xp_data, total_xp)
+
+        # Count Badges vs Trophies
+        badges_count = 0
+        trophies_count = 0
+        for item in records:
+            cat = str(item.get("category", "")).lower()
+            if "trophy" in cat or "learningpath" in cat:
+                trophies_count += 1
+            else:
+                badges_count += 1
+
+        index_filename = f"{self.PLATFORM_PREFIX}-index.md"
+        monolith_filename = f"{self.PLATFORM_PREFIX}-complete.md"
+        index_raw = f"https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/{index_filename}"
+
+        md = [
+            "### Microsoft Learn Summary",
+            "",
+            f"**Public Profile:** [Verify Microsoft Learn Profile]({self.MS_LEARN_PROFILE_URL})",
+            "",
+            f"- **Total Experience Points (XP):** {format_num(total_xp)}",
+            f"- **Current Learning Level:** Level {current_level}",
+            f"- **Badges Earned (Profile):** {format_num(badges_count)}",
+            f"- **Trophies Earned (Profile):** {format_num(trophies_count)}",
+            f"- **Completed Learning Paths (Active Tracker):** {format_num(len(self._learning_paths))}",
+            f"- **Completed Modules (Active Tracker):** {format_num(len(self._modules))}",
+            f"- **Completed Individual Units:** {format_num(len(self._completed_units))}\n",
+        ]
+
+        if self._user_creds:
+            md.append("### Verifiable Applied Skills & Credentials")
+            for cred in self._user_creds:
+                name = clean_uid(cred.get("sourceUid", ""))
+                status = cred.get("credentialStatus", "Active")
+                if cred.get("retired"):
+                    status += " [WARN] *Content retired*"
+                md.append(
+                    f"- **{name}** (Credential ID: `{cred.get('credentialId', 'N/A')}` | Earned: {cred.get('awardedOn', 'N/A')} | Status: {status})"
+                )
+            md.append("")
+
+        md.append("### Recent Achievements & Completed Badges")
+        md.append(
+            f"Showing latest 10 of {format_num(len(records))} achievements. View full dataset via [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Latest Slice]{{LATEST_SLICE_NORMAL}} ([Raw]{{LATEST_SLICE_RAW}}), or [Monolithic Complete File](./archives/{monolith_filename}).\n"
         )
 
+        # Table header for Recent Achievements in README
+        md.append("| Achievement Title | Category | Date Earned | Verification Link |")
+        md.append("| :--- | :--- | :--- | :--- |")
+
+        for item in records[:10]:
+            title = item.get("title", "Completed Module").replace("|", "\\|")
+            cat = str(item.get("category", "module")).title()
+            date = item.get("grantedOn", "N/A")
+            verify_url = format_verify_url(item.get("url"))
+            verify_cell = f"[Verify]({verify_url})" if verify_url else "N/A"
+            if item.get("retired", False):
+                verify_cell += " [WARN] *Content retired*"
+            md.append(f"| **{title}** | {cat} | {date} | {verify_cell} |")
+
+        return md
+
+    def get_validation_payload(self, records: list[dict]) -> dict:
+        """Build validation payload with Microsoft Learn-specific fields."""
+        layer_metadata = {}
+        try:
+            from layer_manifest import load_manifest
+
+            manifest = load_manifest()
+            if "microsoft-learn" in manifest.platforms:
+                platform = manifest.platforms["microsoft-learn"]
+                for layer_name in (
+                    "L0_raw",
+                    "L1_normalized",
+                    "L2_published",
+                    "L3_display",
+                ):
+                    layer_def = getattr(platform, layer_name, None)
+                    if not layer_def:
+                        continue
+                    layer_info = {
+                        "source": layer_def.source,
+                        "source_layer": layer_def.source_layer,
+                        "description": layer_def.description,
+                        "retired_handling": layer_def.retired_handling,
+                    }
+                    if layer_def.transform:
+                        layer_info["transform"] = layer_def.transform.type
+                        if layer_def.transform.params:
+                            layer_info["transform_params"] = layer_def.transform.params
+                    if layer_def.transforms:
+                        layer_info["transforms"] = {
+                            k: v.type for k, v in layer_def.transforms.items()
+                        }
+                    if layer_def.output_records:
+                        layer_info["output_records"] = layer_def.output_records
+                    if layer_def.output_streams:
+                        layer_info["output_streams"] = layer_def.output_streams
+                    if layer_def.artifacts:
+                        layer_info["artifacts"] = layer_def.artifacts
+                    layer_metadata[layer_name] = layer_info
+        except Exception:
+            pass
+
+        return {
+            "platform": self.PLATFORM_NAME,
+            "total_achievements": len(records),
+            "total_learning_paths": len(self._learning_paths),
+            "total_modules": len(self._modules),
+            "total_completed_units": len(self._completed_units),
+            "achievements": records,
+            "learning_paths": self._learning_paths,
+            "modules": self._modules,
+            "completed_units": self._completed_units,
+            "verifiable_credentials": self._user_creds,
+            "_layer_metadata": layer_metadata,
+            "_retrieved_at": self._retrieved_at.isoformat(),
+        }
+
+    def get_archive_payload(self, records: list[dict]) -> list[dict]:
+        """Get records for L2 archive JSON (achievements only)."""
+        return records
+
+    def run(self):
+        """Override run to match old flow: build readme_lines before archive generation."""
+        self.logger.info(f"Starting {self.PLATFORM_DISPLAY_NAME} Profile Pipeline...")
+
+        # Fetch and validate data
+        records = self.fetch_data()
+        if not records:
+            self.logger.error("[FAIL] No records extracted. Aborting.")
+            sys.exit(1)
+
+        records = self.parse_data(records)
+        records = self.pre_loss_guard(records)
+        records = self.post_loss_guard(records)
+
+        # Build formatted rows for archive
+        formatted_rows = [self.format_for_archive(r) for r in records]
+
+        # Build readme_lines BEFORE archive generation (old flow)
+        latest_slice = ""  # Will be updated by archiver
+        readme_lines = self.build_readme_lines(records, latest_slice)
+
+        # Persist validation data
+        self.persist_validation(records)
+
+        # Generate archive with readme_lines (archiver updates README internally)
+        latest_slice = self.generate_archive(formatted_rows, readme_lines)
+
+        # Update README with latest_slice links (archiver already did this, but do it again for slice links)
+        # Replace placeholder slice links in readme_lines
         if latest_slice:
             LATEST_SLICE_NORMAL = "./archives/" + latest_slice
-            LATEST_SLICE_RAW = RAW_BASE_DEFAULT + "/" + latest_slice
-            for i, line in enumerate(md):
+            LATEST_SLICE_RAW = f"https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/{latest_slice}"
+            for i, line in enumerate(readme_lines):
                 if "{LATEST_SLICE_NORMAL}" in line:
-                    md[i] = line.replace("{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL)
-                    md[i] = md[i].replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
+                    readme_lines[i] = line.replace("{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL)
+                    readme_lines[i] = readme_lines[i].replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
                     break
-            if os.path.exists("README.md"):
-                with open("README.md", "r", encoding="utf-8") as f:
-                    readme_content = f.read()
-                if MARKER_START in readme_content and MARKER_END in readme_content:
-                    before = readme_content.split(MARKER_START)[0]
-                    after = readme_content.split(MARKER_END)[1]
-                    new_block = "\n".join(md) + "\n"
-                    new_content = (
-                        before + MARKER_START + "\n" + new_block + MARKER_END + after
-                    )
-                    safe_write_file("README.md", new_content)
-        logger.info(
-            f"đźŽ‰ Microsoft Learn pipeline complete ({len(sorted_achievements)} items archived)."
+            self.update_readme(readme_lines, latest_slice)
+
+        # Sync fixtures for test consistency
+        self.sync_fixtures()
+
+        self.logger.info(
+            f"[DONE] {self.PLATFORM_DISPLAY_NAME} pipeline complete ({len(records)} items archived)."
         )
-    else:
-        logger.error(
-            "âťŚ Archiver module helper not available. Skipping markdown generation."
+
+    def generate_archive(self, formatted_rows, readme_lines):
+        """Override to use module-level generate_platform_archive for test compatibility."""
+        return generate_platform_archive(
+            platform_prefix=self.PLATFORM_PREFIX,
+            platform_name=self.PLATFORM_DISPLAY_NAME,
+            table_headers=self.TABLE_HEADERS,
+            table_alignments=self.TABLE_ALIGNMENTS,
+            formatted_rows=formatted_rows,
+            readme_lines=readme_lines,
+            marker_start=self.MARKER_START,
+            marker_end=self.MARKER_END,
+            archive_dir=self.ARCHIVE_DIR,
+            readme_path=self.README_PATH,
+            retrieved_at=datetime.now(UTC).isoformat(),
         )
+
+
+# Module-level main function for backward compat
+def main():
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+    )
+    MicrosoftLearnPipeline().run()
 
 
 if __name__ == "__main__":
@@ -828,7 +875,8 @@ if __name__ == "__main__":
     # Sync fixtures for test consistency
     try:
         from scripts.sync_fixtures import sync_fixtures
-
         sync_fixtures("microsoft-learn")
     except Exception as e:
-        logger.warning(f"[WARN] Fixture sync failed (non-fatal): {e}")
+        logging.getLogger("ms_learn_updater").warning(
+            f"[WARN] Fixture sync failed (non-fatal): {e}"
+        )

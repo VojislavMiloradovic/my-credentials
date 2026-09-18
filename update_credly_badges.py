@@ -2,17 +2,14 @@
 update_credly_badges.py
 -----------------------
 Pipeline for updating Credly profile badges and credentials via Credly public API.
-Includes Credly API pagination, JSON parsing, Pydantic schema validation,
-date coercion, data loss / anomaly guards, safe directory handling, archiver integration,
-and additive dataset merging to prevent API page truncation data loss.
+Refactored to use PipelineBase (Option 2 Migration).
 """
 
 import json
 import logging
 import os
-import sys
 from datetime import UTC, datetime
-from typing import Any
+from typing import Any, ClassVar
 
 import requests
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, field_validator
@@ -20,220 +17,23 @@ from pydantic import BaseModel, ConfigDict, Field, ValidationError, field_valida
 # Provenance Integration
 from models.provenance import ProvenanceBase, RetrievalMethod, VerificationStatus
 
-# Layer Manifest Integration
-try:
-    from layer_manifest import get_layer_def, get_platform_layers, load_manifest
-except ImportError:
-    get_platform_layers = None
-    get_layer_def = None
-    load_manifest = None
-
-# Archive Integration Helper
-try:
-    from archiver import RAW_BASE_DEFAULT, generate_platform_archive, safe_write_file
-except ImportError:
-    RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
-    generate_platform_archive = None
-
-    def safe_write_file(filepath: str, new_content: str) -> bool:
-        if os.path.exists(filepath):
-            try:
-                with open(filepath, "r", encoding="utf-8") as f:
-                    if f.read() == new_content:
-                        return False
-            except Exception:
-                pass
-        with open(filepath, "w", encoding="utf-8", newline="\n") as f:
-            f.write(new_content)
-        return True
-
-
-# Loss Guard (shared orchestration)
-from loss_guard import (
-    generate_provider_baseline,
-    run_provider_loss_guards,
-)
+# PipelineBase Integration
+from pipeline_base import PipelineBase
 
 # ==============================================================================
-# BACKWARD COMPATIBILITY WRAPPERS
+# MODULE-LEVEL CONSTANTS (for backward compatibility with tests)
 # ==============================================================================
 
-
-def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int:
-    """Backward-compatible wrapper for count-based baseline retrieval."""
-    from loss_guard import get_stored_archive_baseline_count as _get_count
-
-    return _get_count("credly", json_path, monolith_path)
-
-
-def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
-    """Backward-compatible wrapper for count-based loss guard."""
-    from loss_guard import execute_data_loss_guard as _execute_guard
-
-    return _execute_guard(new_badges, "credly", output_file, ARCHIVE_MONOLITH)
-
-
-def execute_content_loss_guard(*args, **kwargs):
-    """Backward-compatible wrapper for content-aware loss guard."""
-    from loss_guard import execute_content_loss_guard as _execute
-
-    return _execute(*args, **kwargs)
-
-
-# Retired credentials registry mapping
-RETIRED_URLS_FILE = "retired_urls.json"
-
-
-def load_retired_rules(platform: str) -> list[dict[str, Any]]:
-    """Load retired credential rules for a platform from the mapping file."""
-    if not os.path.exists(RETIRED_URLS_FILE):
-        logger.debug(f"Retired URLs file not found: {RETIRED_URLS_FILE}")
-        return []
-    try:
-        with open(RETIRED_URLS_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        entries = data.get(platform, [])
-        rules = []
-        for entry in entries:
-            if isinstance(entry, str):
-                rules.append({"id": entry, "match_type": "url", "url": entry})
-            elif isinstance(entry, dict) and entry.get("id"):
-                rules.append(entry)
-        logger.info(f"Loaded {len(rules)} retired rule(s) for {platform}")
-        return rules
-    except Exception as e:
-        logger.warning(f"[WARN] Could not load retired rules for {platform}: {e}")
-        return []
-
-
-def mark_retired(
-    items: list[dict],
-    retired_rules: list[dict[str, Any]],
-    url_field: str = "verify_url",
-    id_fields: list[str] | None = None,
-    retired_field: str = "retired",
-) -> tuple[int, int]:
-    """Mark items as retired if their ID or URL matches known retired rules."""
-    if not retired_rules:
-        return len(items), 0
-    search_id_fields = id_fields or ["id", "badge_id", "title", "verify_url", "url"]
-    marked = 0
-    for item in items:
-        if item.get(retired_field, False):
-            continue
-
-        item_url = str(item.get(url_field, "")).strip() if item.get(url_field) else None
-        item_ids = {str(item.get(f)).strip() for f in search_id_fields if item.get(f)}
-
-        is_retired = False
-        matched_rule = None
-        for rule in retired_rules:
-            rule_id = str(rule.get("id", "")).strip()
-            rule_url = str(rule.get("url", "")).strip() if rule.get("url") else None
-
-            if rule_id in item_ids or (
-                item_url and (rule_id == item_url or rule_url == item_url)
-            ):
-                is_retired = True
-                matched_rule = rule
-                break
-
-        if is_retired:
-            item[retired_field] = True
-            if matched_rule:
-                if matched_rule.get("reason"):
-                    item["retirement_reason"] = matched_rule["reason"]
-                if matched_rule.get("retired_at"):
-                    item["retired_at"] = matched_rule["retired_at"]
-            marked += 1
-            logger.info(
-                f"[LABEL]  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
-            )
-
-    logger.info(
-        f"Retired check: {len(items)} items checked, {marked} marked as retired"
-    )
-    return len(items), marked
-
-
-def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
-    """Generate layer metadata from manifest for a platform."""
-    if not load_manifest:
-        return {}
-    try:
-        manifest = load_manifest()
-        if platform_key not in manifest.platforms:
-            return {}
-
-        platform = manifest.platforms[platform_key]
-
-        # Build layer metadata
-        layer_metadata = {}
-        for layer_name in ("L0_raw", "L1_normalized", "L2_published", "L3_display"):
-            layer_def = getattr(platform, layer_name, None)
-            if not layer_def:
-                continue
-
-            layer_info = {
-                "source": layer_def.source,
-                "source_layer": layer_def.source_layer,
-                "description": layer_def.description,
-                "retired_handling": layer_def.retired_handling,
-            }
-
-            if layer_def.transform:
-                layer_info["transform"] = layer_def.transform.type
-                if layer_def.transform.params:
-                    layer_info["transform_params"] = layer_def.transform.params
-
-            if layer_def.transforms:
-                layer_info["transforms"] = {
-                    k: v.type for k, v in layer_def.transforms.items()
-                }
-
-            if layer_def.output_records:
-                layer_info["output_records"] = layer_def.output_records
-
-            if layer_def.output_streams:
-                layer_info["output_streams"] = layer_def.output_streams
-
-            if layer_def.artifacts:
-                layer_info["artifacts"] = layer_def.artifacts
-
-            if layer_def.metrics:
-                layer_info["metrics"] = layer_def.metrics
-
-            layer_metadata[layer_name] = layer_info
-
-        return layer_metadata
-    except Exception as e:
-        logger.warning(f"Could not generate layer metadata for {platform_key}: {e}")
-        return {}
-
-
-# Logging Setup
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
-logger = logging.getLogger("credly_updater")
-
-# Configuration Constants & Canonical Paths
 CREDLY_USER = os.getenv("CREDLY_USER", "vojislavmiloradovic")
 CREDLY_USER_ID = os.getenv("CREDLY_USER_ID", "752aee40-7358-4ade-9a49-81e8b6f49225")
 VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 OUTPUT_FILENAME = "credly_badges.json"
-OUTPUT_FILE = os.getenv("OUTPUT_FILE", os.path.join(VALIDATION_DIR, OUTPUT_FILENAME))
+OUTPUT_FILE = os.path.join(VALIDATION_DIR, OUTPUT_FILENAME)
 ARCHIVE_DIR = "archives"
 README_PATH = "README.md"
 ARCHIVE_MONOLITH = os.path.join(ARCHIVE_DIR, "credly-complete.md")
-
 MARKER_START = "<!-- CREDLY_BADGES_START -->"
 MARKER_END = "<!-- CREDLY_BADGES_END -->"
-
-# Anomaly Guard Tolerance
-
 
 HEADERS = {
     "User-Agent": (
@@ -245,6 +45,7 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
+RETIRED_URLS_FILE = "retired_urls.json"
 
 # ==============================================================================
 # PYDANTIC SCHEMAS & VALIDATION PIPELINE
@@ -407,7 +208,7 @@ class CredlyArchivePayloadModel(BaseModel):
 
 
 # ==============================================================================
-# CREDLY API FETCHING & MERGING
+# CREDLY API FETCHING & MERGING (module-level for backward compat)
 # ==============================================================================
 
 
@@ -416,7 +217,9 @@ def parse_credly_badges_from_json(json_path: str) -> list[dict]:
     if not os.path.exists(json_path):
         return []
 
-    logger.info(f"[FILE] Reading existing Credly badges from JSON: '{json_path}'")
+    logging.getLogger("credly").info(
+        f"[FILE] Reading existing Credly badges from JSON: '{json_path}'"
+    )
     try:
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -433,12 +236,18 @@ def parse_credly_badges_from_json(json_path: str) -> list[dict]:
                     validated = CredlyBadgeItemModel(**item)
                     badges.append(validated.model_dump(mode="json"))
                 except ValidationError as ve:
-                    logger.warning(f"[WARN] Skipping invalid JSON badge entry: {ve}")
+                    logging.getLogger("credly").warning(
+                        f"[WARN] Skipping invalid JSON badge entry: {ve}"
+                    )
 
-        logger.info(f"[OK] Loaded {len(badges)} valid Credly badges from JSON file.")
+        logging.getLogger("credly").info(
+            f"[OK] Loaded {len(badges)} valid Credly badges from JSON file."
+        )
         return badges
     except (json.JSONDecodeError, OSError) as e:
-        logger.warning(f"[WARN] Error reading JSON file '{json_path}': {e}")
+        logging.getLogger("credly").warning(
+            f"[WARN] Error reading JSON file '{json_path}': {e}"
+        )
         return []
 
 
@@ -460,7 +269,9 @@ def load_existing_local_badges() -> list[dict]:
 def fetch_credly_badges(username: str) -> list[dict] | None:
     """Fetches badges directly from Credly's public user API endpoint with pagination."""
     url = f"https://www.credly.com/users/{username}/badges.json"
-    logger.info(f"[SYNC] Fetching Credly badges from API endpoint: {url}")
+    logging.getLogger("credly").info(
+        f"[SYNC] Fetching Credly badges from API endpoint: {url}"
+    )
 
     badges = []
     seen_badge_ids: set[str] = set()
@@ -470,7 +281,7 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
         try:
             response = requests.get(f"{url}?page={page}", headers=HEADERS, timeout=20)
             if response.status_code != 200:
-                logger.warning(
+                logging.getLogger("credly").warning(
                     f"[WARN] Credly API returned status code {response.status_code} on page {page}."
                 )
                 return None if not badges else badges
@@ -535,7 +346,7 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
                     validated = CredlyBadgeItemModel(**raw_entry)
                     badges.append(validated.model_dump(mode="json"))
                 except ValidationError as ve:
-                    logger.warning(
+                    logging.getLogger("credly").warning(
                         f"[WARN] Skipping invalid Credly API entry '{title}': {ve}"
                     )
 
@@ -544,18 +355,22 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
             if next_page is None and len(data_list) < 48:
                 break
             if len(seen_badge_ids) == ids_before_page and page > 1:
-                logger.warning(
+                logging.getLogger("credly").warning(
                     "[WARN] Credly API returned no new badge IDs; stopping pagination."
                 )
                 break
             page += 1
 
         except requests.exceptions.RequestException as e:
-            logger.error(f"[FAIL] Exception occurred while requesting Credly API: {e}")
+            logging.getLogger("credly").error(
+                f"[FAIL] Exception occurred while requesting Credly API: {e}"
+            )
             return None if not badges else badges
 
     if badges:
-        logger.info(f"[OK] Successfully fetched {len(badges)} badges from Credly API.")
+        logging.getLogger("credly").info(
+            f"[OK] Successfully fetched {len(badges)} badges from Credly API."
+        )
 
     return badges
 
@@ -563,14 +378,16 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
 def fetch_credly_external_badges(user_id: str) -> list[dict] | None:
     """Fetches Credly's public external/open-badge records."""
     url = f"https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public"
-    logger.info(f"[SYNC] Fetching External Open Badges API endpoint: {url}")
+    logging.getLogger("credly").info(
+        f"[SYNC] Fetching External Open Badges API endpoint: {url}"
+    )
 
     try:
         response = requests.get(url, headers=HEADERS, timeout=30)
         response.raise_for_status()
         payload = response.json()
     except (requests.exceptions.RequestException, ValueError) as exc:
-        logger.error(
+        logging.getLogger("credly").error(
             f"[FAIL] Exception occurred while requesting external Credly badges: {exc}"
         )
         return None
@@ -604,11 +421,11 @@ def fetch_credly_external_badges(user_id: str) -> list[dict] | None:
         try:
             badges.append(CredlyBadgeItemModel(**raw_entry).model_dump(mode="json"))
         except ValidationError as exc:
-            logger.warning(
+            logging.getLogger("credly").warning(
                 f"[WARN] Skipping invalid external Credly entry '{title}': {exc}"
             )
 
-    logger.info(
+    logging.getLogger("credly").info(
         f"[OK] Successfully fetched {len(badges)} external open badges from Credly API."
     )
     return badges
@@ -617,9 +434,7 @@ def fetch_credly_external_badges(user_id: str) -> list[dict] | None:
 def merge_badge_datasets(
     api_badges: list[dict], external_badges: list[dict]
 ) -> list[dict]:
-    """
-    Unions the two live Credly datasets by stable record ID.
-    """
+    """Unions the two live Credly datasets by stable record ID."""
     badge_map = {}
 
     for b in api_badges + external_badges:
@@ -628,7 +443,7 @@ def merge_badge_datasets(
             badge_map[key] = b
 
     merged = list(badge_map.values())
-    logger.info(
+    logging.getLogger("credly").info(
         f"[LINK] Union Merge Complete: Total = {len(merged)} badges "
         f"(Native={len(api_badges)}, External={len(external_badges)})."
     )
@@ -636,38 +451,137 @@ def merge_badge_datasets(
 
 
 # ==============================================================================
-# ARCHIVE BUILDER
+# MODULE-LEVEL UTILITIES (for backward compatibility with tests)
+# ==============================================================================
+
+from loss_guard import (
+    load_retired_rules as _load_retired_rules,
+)
+from loss_guard import (
+    mark_retired as _mark_retired,
+)
+
+
+def load_retired_rules(platform: str) -> list[dict[str, Any]]:
+    """Wrapper that uses module-level RETIRED_URLS_FILE for test compatibility."""
+    return _load_retired_rules(platform, retired_urls_file=RETIRED_URLS_FILE)
+
+
+def mark_retired(
+    items: list[dict], retired_rules: list[dict[str, Any]], **kwargs
+) -> tuple[int, int]:
+    """Wrapper that uses module-level mark_retired."""
+    return _mark_retired(items, retired_rules, **kwargs)
+
+
+# Backward-compatibility wrappers (for tests)
+from loss_guard import execute_content_loss_guard as _execute_content
+from loss_guard import execute_data_loss_guard as _execute_guard
+from loss_guard import get_stored_archive_baseline_count as _get_count
+
+
+def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int:
+    return _get_count("credly", json_path, monolith_path)
+
+
+def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
+    return _execute_guard(new_badges, "credly", output_file, ARCHIVE_MONOLITH)
+
+
+def execute_content_loss_guard(*args, **kwargs):
+    return _execute_content(*args, **kwargs)
+
+
+# ==============================================================================
+# PIPELINE CLASS
 # ==============================================================================
 
 
-def build_archives_and_readme(badges: list[dict]) -> None:
-    """Invokes archiver helper to generate markdown files and update README."""
-    if not generate_platform_archive:
-        logger.error(
-            "[FAIL] Archiver module helper unavailable. Skipping markdown generation."
-        )
-        return
+class CredlyPipeline(PipelineBase):
+    PLATFORM_NAME = "credly"
+    PLATFORM_PREFIX = "credly"
+    PLATFORM_DISPLAY_NAME = "Credly Verified Credentials"
+    ARCHIVE_DIR = "archives"
+    README_PATH = "README.md"
+    ARCHIVE_MONOLITH = os.path.join("archives", "credly-complete.md")
+    MARKER_START = "<!-- CREDLY_BADGES_START -->"
+    MARKER_END = "<!-- CREDLY_BADGES_END -->"
 
-    sorted_badges = sorted(
-        badges,
-        key=lambda b: str(b.get("issued_at") or ""),
-        reverse=True,
-    )
+    TABLE_HEADERS: ClassVar[list[str]] = [
+        "Date Earned",
+        "Credential Name",
+        "Issuer",
+        "Verification Type",
+    ]
+    TABLE_ALIGNMENTS: ClassVar[list[str]] = [":---:", ":---", ":---", ":---:"]
 
-    all_skills: set[str] = set()
-    formatted_rows = []
+    CREDLY_USER = CREDLY_USER
+    CREDLY_USER_ID = CREDLY_USER_ID
+    HEADERS = HEADERS
 
-    for b in sorted_badges:
-        date_str = str(b.get("issued_at") or "2026-01-01").strip()
-        title = str(b.get("title") or "Unknown Credential").strip()
-        verify_url = b.get("verify_url")
-        issuer = str(b.get("issuer") or "Credly").strip()
-        v_type = str(b.get("type") or "Credly Verified Badge").strip()
-        retired = b.get("retired", False)
+    @property
+    def VALIDATION_DIR(self):
+        return VALIDATION_DIR
 
-        for skill in b.get("skills", []):
-            if isinstance(skill, str) and skill.strip():
-                all_skills.add(skill.strip())
+    @property
+    def OUTPUT_FILE(self):
+        return OUTPUT_FILE
+
+    @property
+    def OUTPUT_FILENAME(self):
+        return OUTPUT_FILENAME
+
+    def fetch_data(self) -> list[dict]:
+        """Fetch and merge both live Credly datasets."""
+        # Load existing local badges BEFORE calling API
+        local_badges = load_existing_local_badges()
+
+        # Fetch both live Credly datasets
+        native_badges = fetch_credly_badges(self.CREDLY_USER)
+        external_badges = fetch_credly_external_badges(self.CREDLY_USER_ID)
+
+        # Treat empty results (0 badges) as failure and fall back to local data.
+        # An API returning 0 badges when baseline has data indicates an issue, not success.
+        native_ok = native_badges is not None and len(native_badges) > 0
+        external_ok = external_badges is not None and len(external_badges) > 0
+
+        if not native_ok or not external_ok:
+            self.logger.warning(
+                f"[WARN] One or more Credly sources failed or returned 0 badges "
+                f"(native_ok={native_ok}, external_ok={external_ok}); "
+                f"retaining the previous local dataset ({len(local_badges)} badges)."
+            )
+            return local_badges
+        else:
+            return merge_badge_datasets(native_badges, external_badges)
+
+    def parse_data(self, raw_data) -> list[dict]:
+        """Parse/transform raw data - already validated via Pydantic in fetch_data."""
+        return raw_data
+
+    def pre_loss_guard(self, records: list[dict]) -> list[dict]:
+        """No deduplication needed - merge_badge_datasets already handles it."""
+        return records
+
+    def post_loss_guard(self, records: list[dict]) -> list[dict]:
+        """Mark retired items after loss guard."""
+        retired_rules = self.get_retired_rules()
+        if retired_rules:
+            _, marked = mark_retired(records, retired_rules, url_field="verify_url")
+            if marked > 0:
+                self.logger.info(
+                    f"[NOTE] Updated {marked} badge(s) with retired status"
+                )
+        return records
+
+    def format_for_archive(self, record: dict) -> tuple[str, str]:
+        """Format single record for markdown table: (row_text, date)."""
+        date_str = str(record.get("issued_at") or "2026-01-01").strip()
+        title = str(record.get("title") or "Unknown Credential").strip()
+        verify_url = record.get("verify_url")
+        issuer = str(record.get("issuer") or "Credly").strip()
+        v_type = str(record.get("type") or "Credly Verified Badge").strip()
+        retired = record.get("retired", False)
 
         title_clean = (
             title.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
@@ -683,162 +597,122 @@ def build_archives_and_readme(badges: list[dict]) -> None:
         if retired:
             name_cell += " [WARN] *Content retired*"
         row_text = f"| {date_str} | {name_cell} | {issuer_clean} | {v_type_clean} |"
-        formatted_rows.append((row_text, date_str))
+        return row_text, date_str
 
-    total_count = len(sorted_badges)
-    total_skills = len(all_skills)
+    def build_readme_lines(self, records: list[dict], latest_slice: str) -> list[str]:
+        """Build README section lines."""
+        total_count = len(records)
+        all_skills: set[str] = set()
 
-    index_raw = f"{RAW_BASE_DEFAULT}/credly-index.md"
-    LATEST_SLICE_NORMAL = ""
-    LATEST_SLICE_RAW = ""
+        for b in records:
+            for skill in b.get("skills", []):
+                if isinstance(skill, str) and skill.strip():
+                    all_skills.add(skill.strip())
+        total_skills = len(all_skills)
 
-    marker_start = "<!-- CREDLY_BADGES_START -->"
-    marker_end = "<!-- CREDLY_BADGES_END -->"
+        index_raw = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md"
+        profile_url = f"https://www.credly.com/users/{self.CREDLY_USER}"
 
-    profile_url = f"https://www.credly.com/users/{CREDLY_USER}"
+        readme_lines = [
+            "### Credly Verified Credentials",
+            "",
+            f"**Public Profile:** [Verify Credly Profile]({profile_url})",
+            "",
+            f"**Total Portfolio Credentials:** {total_count}",
+            f"**Total Verified Skills Mapped:** {total_skills}",
+            "",
+            "#### Latest Earned Credentials",
+            "",
+            f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]{{LATEST_SLICE_NORMAL}} ([Raw]{{LATEST_SLICE_RAW}}), or [Monolithic File](./archives/credly-complete.md).",
+            "",
+            "| Date Earned | Credential Name | Issuer | Verification Type |",
+            "| :---: | :--- | :--- | :---: |",
+        ]
 
-    readme_lines = [
-        "### Credly Verified Credentials",
-        "",
-        f"**Public Profile:** [Verify Credly Profile]({profile_url})",
-        "",
-        f"**Total Portfolio Credentials:** {total_count}",
-        f"**Total Verified Skills Mapped:** {total_skills}",
-        "",
-        "#### Latest Earned Credentials",
-        "",
-        f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic File](./archives/credly-complete.md).",
-        "",
-        "| Date Earned | Credential Name | Issuer | Verification Type |",
-        "| :---: | :--- | :--- | :---: |",
-    ]
+        for record in records[:10]:
+            row_text, _ = self.format_for_archive(record)
+            readme_lines.append(row_text)
 
-    for row_text, _ in formatted_rows[:10]:
-        readme_lines.append(row_text)
+        return readme_lines
 
-    # Capture retrieval timestamp at fetch time
-    retrieved_at = datetime.now(UTC)
+    def get_validation_payload(self, records: list[dict]) -> dict:
+        """Build validation payload with Credly-specific fields."""
+        layer_metadata = {}
+        try:
+            from layer_manifest import load_manifest
 
-    latest_slice = generate_platform_archive(
-        platform_prefix="credly",
-        platform_name="Credly Verified Credentials",
-        table_headers=["Date Earned", "Credential Name", "Issuer", "Verification Type"],
-        table_alignments=[":---:", ":---", ":---", ":---:"],
-        formatted_rows=formatted_rows,
-        readme_lines=readme_lines,
-        marker_start=marker_start,
-        marker_end=marker_end,
-        retrieved_at=retrieved_at.isoformat(),
-    )
+            manifest = load_manifest()
+            if "credly" in manifest.platforms:
+                platform = manifest.platforms["credly"]
+                for layer_name in (
+                    "L0_raw",
+                    "L1_normalized",
+                    "L2_published",
+                    "L3_display",
+                ):
+                    layer_def = getattr(platform, layer_name, None)
+                    if not layer_def:
+                        continue
+                    layer_info = {
+                        "source": layer_def.source,
+                        "source_layer": layer_def.source_layer,
+                        "description": layer_def.description,
+                        "retired_handling": layer_def.retired_handling,
+                    }
+                    if layer_def.transform:
+                        layer_info["transform"] = layer_def.transform.type
+                        if layer_def.transform.params:
+                            layer_info["transform_params"] = layer_def.transform.params
+                    if layer_def.transforms:
+                        layer_info["transforms"] = {
+                            k: v.type for k, v in layer_def.transforms.items()
+                        }
+                    if layer_def.output_records:
+                        layer_info["output_records"] = layer_def.output_records
+                    if layer_def.output_streams:
+                        layer_info["output_streams"] = layer_def.output_streams
+                    if layer_def.artifacts:
+                        layer_info["artifacts"] = layer_def.artifacts
+                    if layer_def.metrics:
+                        layer_info["metrics"] = layer_def.metrics
+                    layer_metadata[layer_name] = layer_info
+        except Exception:
+            pass
 
-    if latest_slice:
-        LATEST_SLICE_NORMAL = f"./archives/{latest_slice}"
-        LATEST_SLICE_RAW = f"{RAW_BASE_DEFAULT}/{latest_slice}"
-        for i, line in enumerate(readme_lines):
-            if "{LATEST_SLICE_NORMAL}" in line:
-                readme_lines[i] = line.replace(
-                    "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
-                )
-                readme_lines[i] = readme_lines[i].replace(
-                    "{LATEST_SLICE_RAW}", LATEST_SLICE_RAW
-                )
-                break
-        if os.path.exists("README.md"):
-            with open("README.md", "r", encoding="utf-8") as f:
-                content = f.read()
-            if marker_start in content and marker_end in content:
-                before = content.split(marker_start)[0]
-                after = content.split(marker_end)[1]
-                new_block = "\n".join(readme_lines) + "\n"
-                new_content = f"{before}{marker_start}\n{new_block}{marker_end}{after}"
-                safe_write_file("README.md", new_content)
+        return {
+            "platform": self.PLATFORM_NAME,
+            "credly_user": self.CREDLY_USER,
+            "total_count": len(records),
+            "credentials": records,  # Credly uses "credentials" per manifest
+            "_layer_metadata": layer_metadata,
+        }
+
+    def get_archive_payload(self, records: list[dict]) -> list[dict]:
+        """Get records for L2 archive JSON."""
+        return records
+
+    def persist_validation(self, records):
+        """Persist validated data with Credly-specific filename."""
+        os.makedirs(self.VALIDATION_DIR, exist_ok=True)
+        validation_file = self.OUTPUT_FILE
+
+        payload = self.get_validation_payload(records)
+        try:
+            with open(validation_file, "w", encoding="utf-8") as f:
+                json.dump(payload, f, indent=2, ensure_ascii=False)
+            self.logger.info(f"[SAVE] Full data persisted: '{validation_file}'")
+        except Exception as e:
+            self.logger.warning(f"[WARN] Could not persist validation data: {e}")
 
 
-# ==============================================================================
-# PIPELINE ORCHESTRATOR
-# ==============================================================================
-
-
+# Module-level main function for backward compat
 def main():
-    logger.info("Starting Credly API Pipeline with Pydantic & Loss Guards...")
-
-    # Safe directory initialization
-    if os.path.exists(VALIDATION_DIR) and not os.path.isdir(VALIDATION_DIR):
-        logger.warning(
-            f"[WARN] '{VALIDATION_DIR}' exists as a file. Removing it to create a directory."
-        )
-        os.remove(VALIDATION_DIR)
-
-    os.makedirs(VALIDATION_DIR, exist_ok=True)
-
-    # 1. Load existing local badges BEFORE calling API
-    local_badges = load_existing_local_badges()
-
-    # 2. Fetch both live Credly datasets
-
-    native_badges = fetch_credly_badges(CREDLY_USER)
-    external_badges = fetch_credly_external_badges(CREDLY_USER_ID)
-
-    # Treat empty results (0 badges) as failure and fall back to local data.
-    # An API returning 0 badges when baseline has data indicates an issue, not success.
-    native_ok = native_badges is not None and len(native_badges) > 0
-    external_ok = external_badges is not None and len(external_badges) > 0
-
-    if not native_ok or not external_ok:
-        logger.warning(
-            f"[WARN] One or more Credly sources failed or returned 0 badges "
-            f"(native_ok={native_ok}, external_ok={external_ok}); "
-            f"retaining the previous local dataset ({len(local_badges)} badges)."
-        )
-        unique_badges = local_badges
-    else:
-        unique_badges = merge_badge_datasets(native_badges, external_badges)
-
-        # Run loss guards (count + content-aware) via shared orchestration
-        run_provider_loss_guards(
-            unique_badges,
-            "credly",
-            json_path=OUTPUT_FILE,
-            monolith_path=ARCHIVE_MONOLITH,
-        )
-
-    # 4. Retired URL / Identity detection    # 4. Retired URL / Identity detection
-    retired_rules = load_retired_rules("credly")
-    if retired_rules:
-        _, marked = mark_retired(unique_badges, retired_rules, url_field="verify_url")
-        if marked > 0:
-            logger.info(f"[NOTE] Updated {marked} badge(s) with retired status")
-
-    # 5. Pydantic Payload Validation & File Dump strictly into for_validation/
-    # Note: manifest expects "credentials" as L1_normalized output_records key
-    layer_metadata = generate_layer_metadata("credly")
-    payload_dict = {
-        "credly_user": CREDLY_USER,
-        "total_count": len(unique_badges),
-        "credentials": unique_badges,  # Changed from "badges" to "credentials" per manifest
-        "_layer_metadata": layer_metadata,
-    }
-
-    try:
-        validated_payload = CredlyArchivePayloadModel(**payload_dict)
-
-        # Save output JSON file inside for_validation directory ONLY
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write(validated_payload.model_dump_json(indent=2))
-
-        logger.info(
-            f"[DONE] Persistence complete: '{OUTPUT_FILE}' updated ({len(unique_badges)} credentials)."
-        )
-    except ValidationError as ve:
-        logger.error(f"[FAIL] Root Payload Validation Error: {ve}")
-        sys.exit(1)
-
-    # Generate baseline fingerprints for cross-artifact validation
-    generate_provider_baseline(unique_badges, "credly")
-
-    # 5. Build Markdown Archives    # 5. Build Markdown Archives
-    build_archives_and_readme(unique_badges)
-    logger.info("Pipeline execution completed successfully.")
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+    )
+    CredlyPipeline().run()
 
 
 if __name__ == "__main__":
@@ -849,4 +723,6 @@ if __name__ == "__main__":
 
         sync_fixtures("credly")
     except Exception as exc:
-        logger.warning(f"[WARN] Fixture sync failed (non-fatal): {exc}")
+        logging.getLogger("credly").warning(
+            f"[WARN] Fixture sync failed (non-fatal): {exc}"
+        )

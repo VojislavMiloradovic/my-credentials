@@ -2,8 +2,7 @@
 update_aws_skills.py
 --------------------
 Pipeline for updating AWS Skill Builder credentials from CSV exports, local JSON data, or API/HTML responses.
-Includes CSV/JSON parsing, Pydantic schema validation, date coercion,
-data loss / anomaly guards, and integration with the repository archiver.
+Refactored to use PipelineBase (Option 2 Migration).
 """
 
 import csv
@@ -12,9 +11,8 @@ import hashlib
 import json
 import logging
 import os
-import sys
 from datetime import UTC, datetime
-from typing import Any
+from typing import Any, ClassVar
 
 import requests
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, field_validator
@@ -22,219 +20,33 @@ from pydantic import BaseModel, ConfigDict, Field, ValidationError, field_valida
 # Provenance Integration
 from models.provenance import ProvenanceBase, RetrievalMethod, VerificationStatus
 
-# Layer Manifest Integration
-try:
-    from layer_manifest import get_layer_def, get_platform_layers, load_manifest
-except ImportError:
-    get_platform_layers = None
-    get_layer_def = None
-    load_manifest = None
-
-# Archive Integration Helper
-try:
-    from archiver import RAW_BASE_DEFAULT, generate_platform_archive, safe_write_file
-except ImportError:
-    RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
-    generate_platform_archive = None
-
-    def safe_write_file(filepath: str, new_content: str) -> bool:
-        if os.path.exists(filepath):
-            try:
-                with open(filepath, "r", encoding="utf-8") as f:
-                    if f.read() == new_content:
-                        return False
-            except Exception:
-                pass
-        with open(filepath, "w", encoding="utf-8", newline="\n") as f:
-            f.write(new_content)
-        return True
-
-
-# # Loss Guard (shared orchestration)
-from loss_guard import (
-    generate_provider_baseline,
-    run_provider_loss_guards,
-)
+# PipelineBase Integration
+from pipeline_base import PipelineBase
 
 # ==============================================================================
-# BACKWARD COMPATIBILITY WRAPPERS
+# MODULE-LEVEL CONSTANTS (for backward compatibility with tests)
 # ==============================================================================
 
-
-def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int:
-    """Backward-compatible wrapper for count-based baseline retrieval."""
-    from loss_guard import get_stored_archive_baseline_count as _get_count
-
-    return _get_count("aws-skills", json_path, monolith_path)
-
-
-def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
-    """Backward-compatible wrapper for count-based loss guard."""
-    from loss_guard import execute_data_loss_guard as _execute_guard
-
-    return _execute_guard(new_badges, "aws-skills", output_file, ARCHIVE_MONOLITH)
-
-
-def execute_content_loss_guard(*args, **kwargs):
-    """Backward-compatible wrapper for content-aware loss guard."""
-    from loss_guard import execute_content_loss_guard as _execute
-
-    return _execute(*args, **kwargs)
-
-
-def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
-    """Generate layer metadata from manifest for a platform."""
-    if not load_manifest:
-        return {}
-    try:
-        manifest = load_manifest()
-        if platform_key not in manifest.platforms:
-            return {}
-
-        platform = manifest.platforms[platform_key]
-
-        # Build layer metadata
-        layer_metadata = {}
-        for layer_name in ("L0_raw", "L1_normalized", "L2_published", "L3_display"):
-            layer_def = getattr(platform, layer_name, None)
-            if not layer_def:
-                continue
-
-            layer_info = {
-                "source": layer_def.source,
-                "source_layer": layer_def.source_layer,
-                "description": layer_def.description,
-                "retired_handling": layer_def.retired_handling,
-            }
-
-            if layer_def.transform:
-                layer_info["transform"] = layer_def.transform.type
-                if layer_def.transform.params:
-                    layer_info["transform_params"] = layer_def.transform.params
-
-            if layer_def.transforms:
-                layer_info["transforms"] = {
-                    k: v.type for k, v in layer_def.transforms.items()
-                }
-
-            if layer_def.output_records:
-                layer_info["output_records"] = layer_def.output_records
-
-            if layer_def.output_streams:
-                layer_info["output_streams"] = layer_def.output_streams
-
-            if layer_def.artifacts:
-                layer_info["artifacts"] = layer_def.artifacts
-
-            if layer_def.metrics:
-                layer_info["metrics"] = layer_def.metrics
-
-            layer_metadata[layer_name] = layer_info
-
-        return layer_metadata
-    except Exception as e:
-        logger.warning(f"Could not generate layer metadata for {platform_key}: {e}")
-        return {}
-
-
-# Retired credentials registry mapping
-RETIRED_URLS_FILE = "retired_urls.json"
-
-
-def load_retired_rules(platform: str) -> list[dict[str, Any]]:
-    """Load retired credential rules for a platform from the mapping file."""
-    if not os.path.exists(RETIRED_URLS_FILE):
-        logger.debug(f"Retired URLs file not found: {RETIRED_URLS_FILE}")
-        return []
-    try:
-        with open(RETIRED_URLS_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        entries = data.get(platform, [])
-        rules = []
-        for entry in entries:
-            if isinstance(entry, str):
-                rules.append({"id": entry, "match_type": "url", "url": entry})
-            elif isinstance(entry, dict) and entry.get("id"):
-                rules.append(entry)
-        logger.info(f"Loaded {len(rules)} retired rule(s) for {platform}")
-        return rules
-    except Exception as e:
-        logger.warning(f"[WARN] Could not load retired rules for {platform}: {e}")
-        return []
-
-
-def mark_retired(
-    items: list[dict],
-    retired_rules: list[dict[str, Any]],
-    url_field: str = "verify_url",
-    id_fields: list[str] | None = None,
-    retired_field: str = "retired",
-) -> tuple[int, int]:
-    """Mark items as retired if their ID or URL matches known retired rules."""
-    if not retired_rules:
-        return len(items), 0
-    search_id_fields = id_fields or ["id", "title", "verify_url", "url"]
-    marked = 0
-    for item in items:
-        if item.get(retired_field, False):
-            continue
-
-        item_url = str(item.get(url_field, "")).strip() if item.get(url_field) else None
-        item_ids = {str(item.get(f)).strip() for f in search_id_fields if item.get(f)}
-
-        is_retired = False
-        matched_rule = None
-        for rule in retired_rules:
-            rule_id = str(rule.get("id", "")).strip()
-            rule_url = str(rule.get("url", "")).strip() if rule.get("url") else None
-
-            if rule_id in item_ids or (
-                item_url and (rule_id == item_url or rule_url == item_url)
-            ):
-                is_retired = True
-                matched_rule = rule
-                break
-
-        if is_retired:
-            item[retired_field] = True
-            if matched_rule:
-                if matched_rule.get("reason"):
-                    item["retirement_reason"] = matched_rule["reason"]
-                if matched_rule.get("retired_at"):
-                    item["retired_at"] = matched_rule["retired_at"]
-            marked += 1
-            logger.info(
-                f"[LABEL]  Marked as retired: {item.get('title') or item.get('id') or 'unknown'}"
-            )
-
-    logger.info(
-        f"Retired check: {len(items)} items checked, {marked} marked as retired"
-    )
-    return len(items), marked
-
-
-# Logging Setup
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
-logger = logging.getLogger("aws_skills_updater")
-
-# Configuration Constants & Canonical Paths
 AWS_PROFILE_USER = os.getenv("AWS_PROFILE_USER", "vojislavmiloradovic")
 VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 OUTPUT_FILENAME = "aws_skill_badges.json"
-OUTPUT_FILE = os.getenv("OUTPUT_FILE", os.path.join(VALIDATION_DIR, OUTPUT_FILENAME))
+OUTPUT_FILE = os.path.join(VALIDATION_DIR, OUTPUT_FILENAME)
 ARCHIVE_DIR = "archives"
 README_PATH = "README.md"
 ARCHIVE_MONOLITH = os.path.join(ARCHIVE_DIR, "aws-skills-complete.md")
-
 MARKER_START = "<!-- AWS_SKILLS_START -->"
 MARKER_END = "<!-- AWS_SKILLS_END -->"
 
-# Data Loss / Anomaly Guard Tolerances
+RETIRED_URLS_FILE = "retired_urls.json"
 
+CLOUD_QUEST_STATS = {
+    "Role": "Cloud Practitioner / Generative AI Practitioner",
+    "Builder Level": 12,
+    "Reputation Level": 95,
+    "Total Solutions Built": 20,
+    "Pets Unlocked": 17,
+    "Vehicles Unlocked": 2,
+}
 
 HEADERS = {
     "User-Agent": (
@@ -245,7 +57,6 @@ HEADERS = {
     "Accept": "text/html,application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
 }
-
 
 # ==============================================================================
 # PYDANTIC SCHEMAS & VALIDATION PIPELINE
@@ -305,6 +116,12 @@ def normalize_date_string(raw_date: Any) -> str | None:
         pass
 
     return None
+
+
+def generate_badge_id(title: str, date_str: str | None) -> str:
+    """Generates a stable identifier for badges lacking explicit IDs."""
+    raw = f"aws-skills-{title.strip().lower()}-{date_str or ''}"
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
 
 
 class AwsBadgeItemModel(ProvenanceBase):
@@ -413,14 +230,8 @@ class AwsSkillsArchivePayloadModel(BaseModel):
 
 
 # ==============================================================================
-# CSV & JSON PARSERS / FETCHERS
+# CSV & JSON PARSERS / FETCHERS (module-level for backward compat)
 # ==============================================================================
-
-
-def generate_badge_id(title: str, date_str: str | None) -> str:
-    """Generates a stable identifier for badges lacking explicit IDs."""
-    raw = f"aws-skills-{title.strip().lower()}-{date_str or ''}"
-    return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
 
 
 def parse_aws_badges_from_json(json_path: str) -> list[dict]:
@@ -428,7 +239,7 @@ def parse_aws_badges_from_json(json_path: str) -> list[dict]:
     if not os.path.exists(json_path):
         return []
 
-    logger.info(
+    logging.getLogger("aws_skills").info(
         f"[FILE] Reading existing AWS badges from local JSON file: '{json_path}'"
     )
     try:
@@ -447,14 +258,18 @@ def parse_aws_badges_from_json(json_path: str) -> list[dict]:
                     validated = AwsBadgeItemModel(**item)
                     badges.append(validated.model_dump(mode="json"))
                 except ValidationError as ve:
-                    logger.warning(f"[WARN] Skipping invalid JSON badge entry: {ve}")
+                    logging.getLogger("aws_skills").warning(
+                        f"[WARN] Skipping invalid JSON badge entry: {ve}"
+                    )
 
-        logger.info(
+        logging.getLogger("aws_skills").info(
             f"[OK] Loaded {len(badges)} valid AWS badges from JSON file '{json_path}'."
         )
         return badges
     except (json.JSONDecodeError, OSError) as e:
-        logger.warning(f"[WARN] Error reading JSON file '{json_path}': {e}")
+        logging.getLogger("aws_skills").warning(
+            f"[WARN] Error reading JSON file '{json_path}': {e}"
+        )
         return []
 
 
@@ -488,7 +303,9 @@ def locate_aws_csv_file() -> str | None:
 
 def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
     """Parses AWS transcript / badge export CSV files into validated models."""
-    logger.info(f"[FILE] Parsing AWS credentials from CSV file: '{csv_path}'")
+    logging.getLogger("aws_skills").info(
+        f"[FILE] Parsing AWS credentials from CSV file: '{csv_path}'"
+    )
     badges = []
     profile_url = f"https://skillsprofile.skillbuilder.aws/user/{profile_user}"
 
@@ -502,94 +319,58 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
             break
 
     if header_idx == -1:
-        logger.error(
+        logging.getLogger("aws_skills").error(
             "[FAIL] Could not locate CSV header row starting with 'Title,Type,...'"
         )
         return []
 
     reader = csv.DictReader(lines[header_idx:])
+    skipped = 0
+
     for row in reader:
-        row_lower = {
-            str(k).strip().lower(): str(v).strip() for k, v in row.items() if k
-        }
-
-        title = (
-            row_lower.get("title")
-            or row_lower.get("course title")
-            or row_lower.get("badge title")
-            or row_lower.get("name")
-            or row_lower.get("achievement")
-            or row_lower.get("learning object title")
-        )
-
-        if not title:
+        if not row.get("Title") or not row["Title"].strip():
+            skipped += 1
             continue
 
-        raw_date = (
-            row_lower.get("completed on")
-            or row_lower.get("date")
-            or row_lower.get("completed date")
-            or row_lower.get("completion date")
-            or row_lower.get("date earned")
-            or row_lower.get("earned date")
-            or row_lower.get("issued at")
-            or row_lower.get("date completed")
-        )
+        title = row["Title"].strip()
+        badge_type = row.get("Type", "").strip()
+        earned_date = row.get("Earned Date", "").strip()
+        credential_url = row.get("Credential URL", "").strip()
+        credential_id = row.get("Credential ID", "") or row.get("ID", "")
+        credential_id = credential_id.strip()
 
-        if not raw_date or raw_date == "-":
-            raw_date = row_lower.get("started on") or row_lower.get("enrolled on")
+        if not earned_date:
+            earned_date = "2026-01-01"
 
-        if raw_date == "-":
-            raw_date = None
+        b_id = credential_id or generate_badge_id(title, earned_date)
 
-        c_type = (
-            row_lower.get("type")
-            or row_lower.get("achievement type")
-            or row_lower.get("training type")
-            or "AWS Skill Builder Badge"
-        )
-
-        verify_url = (
-            row_lower.get("url")
-            or row_lower.get("badge url")
-            or row_lower.get("verification url")
-            or row_lower.get("link")
-            or profile_url
-        )
-
-        image_url = (
-            row_lower.get("image url")
-            or row_lower.get("image")
-            or row_lower.get("icon")
-        )
-        badge_id = row_lower.get("id") or generate_badge_id(title, raw_date)
-
-        raw_entry = {
-            "id": str(badge_id),
+        entry = {
+            "id": b_id,
             "title": title,
             "name": title,
             "issuer": "Amazon Web Services",
             "issuer_name": "Amazon Web Services",
-            "issued_at": raw_date,
-            "issued_at_date": raw_date,
-            "date": raw_date,
-            "image_url": image_url,
-            "verify_url": verify_url,
-            "url": verify_url,
-            "type": c_type,
-            "verification_type": c_type,
-            "skills": [title],
+            "issued_at": normalize_date_string(earned_date) or earned_date,
+            "issued_at_date": normalize_date_string(earned_date) or earned_date,
+            "date": normalize_date_string(earned_date) or earned_date,
+            "image_url": None,
+            "verify_url": credential_url or profile_url,
+            "url": credential_url,
+            "type": badge_type or "AWS Skill Builder Badge",
+            "verification_type": badge_type or "AWS Skill Builder Badge",
+            "skills": [title] if title else ["AWS"],
         }
-
         try:
-            validated_model = AwsBadgeItemModel(**raw_entry)
-            badges.append(validated_model.model_dump(mode="json"))
+            badges.append(AwsBadgeItemModel(**entry).model_dump(mode="json"))
         except ValidationError as ve:
-            logger.warning(
+            logging.getLogger("aws_skills").warning(
                 f"[WARN] Anomaly Guard: Skipping malformed CSV row entry '{title}': {ve}"
             )
+            skipped += 1
 
-    logger.info(f"[OK] Extracted {len(badges)} valid AWS badge records from CSV.")
+    logging.getLogger("aws_skills").info(
+        f"[OK] Extracted {len(badges)} valid AWS badge records from CSV."
+    )
     return badges
 
 
@@ -623,7 +404,9 @@ def fetch_aws_skills_badges(profile_user: str) -> list[dict]:
     ]
 
     for url in urls:
-        logger.info(f"[SYNC] Attempting fetch from endpoint: {url}")
+        logging.getLogger("aws_skills").info(
+            f"[SYNC] Attempting fetch from endpoint: {url}"
+        )
         try:
             response = requests.get(url, headers=HEADERS, timeout=20)
             if response.status_code == 200:
@@ -667,61 +450,143 @@ def fetch_aws_skills_badges(profile_user: str) -> list[dict]:
                             except ValidationError:
                                 pass
                     if parsed:
-                        logger.info(
+                        logging.getLogger("aws_skills").info(
                             f"[OK] Successfully fetched {len(parsed)} badges via JSON API endpoint."
                         )
                         return parsed
         except requests.exceptions.RequestException as e:
-            logger.warning(f"[WARN] Request failed for {url}: {e}")
+            logging.getLogger("aws_skills").warning(
+                f"[WARN] Request failed for {url}: {e}"
+            )
 
-    logger.error(
+    logging.getLogger("aws_skills").error(
         "[FAIL] Failed to acquire AWS Skill Builder badges from CSV, local JSON, or network endpoints."
     )
     return []
 
 
 # ==============================================================================
-# ARCHIVE BUILDER & README GENERATION
+# MODULE-LEVEL UTILITIES (for backward compatibility with tests)
 # ==============================================================================
 
-CLOUD_QUEST_STATS = {
-    "Role": "Cloud Practitioner / Generative AI Practitioner",
-    "Builder Level": 12,
-    "Reputation Level": 95,
-    "Total Solutions Built": 20,
-    "Pets Unlocked": 17,
-    "Vehicles Unlocked": 2,
-}
+from loss_guard import (
+    load_retired_rules as _load_retired_rules,
+)
+from loss_guard import (
+    mark_retired as _mark_retired,
+)
 
 
-def build_archives_and_readme(badges: list[dict]) -> None:
-    """Invokes archiver helper to generate markdown chunk files and update README.md."""
-    if not generate_platform_archive:
-        logger.error(
-            "[FAIL] Archiver module helper not available. Skipping markdown generation."
-        )
-        return
+def load_retired_rules(platform: str) -> list[dict[str, Any]]:
+    """Wrapper that uses module-level RETIRED_URLS_FILE for test compatibility."""
+    return _load_retired_rules(platform, retired_urls_file=RETIRED_URLS_FILE)
 
-    sorted_badges = sorted(
-        badges,
-        key=lambda b: str(b.get("issued_at") or ""),
-        reverse=True,
-    )
 
-    all_skills: set[str] = set()
-    formatted_rows = []
+def mark_retired(
+    items: list[dict], retired_rules: list[dict[str, Any]], **kwargs
+) -> tuple[int, int]:
+    """Wrapper that uses module-level mark_retired."""
+    return _mark_retired(items, retired_rules, **kwargs)
 
-    for b in sorted_badges:
-        date_str = str(b.get("issued_at") or "2026-01-01").strip()
-        title = str(b.get("title") or "Unknown Credential").strip()
-        verify_url = b.get("verify_url")
-        issuer = str(b.get("issuer") or "Amazon Web Services").strip()
-        v_type = str(b.get("type") or "AWS Skill Builder Badge").strip()
-        retired = b.get("retired", False)
 
-        for skill in b.get("skills", []):
-            if isinstance(skill, str) and skill.strip():
-                all_skills.add(skill.strip())
+# ==============================================================================
+# PIPELINE CLASS
+# ==============================================================================
+
+
+# Module-level constant for test compatibility (patched by tests)
+RETIRED_URLS_FILE = "retired_urls.json"
+
+
+class AWSSkillsPipeline(PipelineBase):
+    PLATFORM_NAME = "aws-skills"
+    PLATFORM_PREFIX = "aws-skills"
+    PLATFORM_DISPLAY_NAME = "AWS Skill Builder Credentials"
+    # Use module-level constants but read dynamically in methods
+    ARCHIVE_DIR = "archives"
+    README_PATH = "README.md"
+    ARCHIVE_MONOLITH = os.path.join("archives", "aws-skills-complete.md")
+    MARKER_START = "<!-- AWS_SKILLS_START -->"
+    MARKER_END = "<!-- AWS_SKILLS_END -->"
+
+    TABLE_HEADERS: ClassVar[list[str]] = [
+        "Date Earned",
+        "Credential Name",
+        "Issuer",
+        "Verification Type",
+    ]
+    TABLE_ALIGNMENTS: ClassVar[list[str]] = [":---:", ":---", ":---", ":---:"]
+
+    AWS_PROFILE_USER = AWS_PROFILE_USER
+    HEADERS = HEADERS
+
+    @property
+    def VALIDATION_DIR(self):
+        return VALIDATION_DIR
+
+    @property
+    def OUTPUT_FILE(self):
+        return OUTPUT_FILE
+
+    @property
+    def OUTPUT_FILENAME(self):
+        return OUTPUT_FILENAME
+
+    def fetch_data(self) -> list[dict]:
+        """Orchestrates ingestion prioritizing CSV exports, local JSON files, then API endpoints."""
+        return fetch_aws_skills_badges(self.AWS_PROFILE_USER)
+
+    def parse_data(self, raw_data) -> list[dict]:
+        """Parse/transform raw data - already validated via Pydantic in fetch_data."""
+        return raw_data
+
+    def pre_loss_guard(self, records: list[dict]) -> list[dict]:
+        """Deduplicate records before loss guard."""
+        unique_badges = []
+        seen = set()
+        for badge in records:
+            dedup_key = (
+                badge.get("id") or f"{badge.get('title')}-{badge.get('issued_at')}"
+            )
+            if dedup_key not in seen:
+                seen.add(dedup_key)
+                unique_badges.append(badge)
+        return unique_badges
+
+    def post_loss_guard(self, records: list[dict]) -> list[dict]:
+        """Mark retired items after loss guard."""
+        retired_rules = self.get_retired_rules()
+        if retired_rules:
+            _, marked = mark_retired(records, retired_rules, url_field="verify_url")
+            if marked > 0:
+                self.logger.info(
+                    f"[NOTE] Updated {marked} badge(s) with retired status"
+                )
+        return records
+
+    def persist_validation(self, records):
+        """Persist validated data with AWS-specific filename."""
+        os.makedirs(self.VALIDATION_DIR, exist_ok=True)
+        validation_file = (
+            self.OUTPUT_FILE
+        )  # Use module-level OUTPUT_FILE for test compatibility
+
+        payload = self.get_validation_payload(records)
+        try:
+            with open(validation_file, "w", encoding="utf-8") as f:
+                json.dump(payload, f, indent=2, ensure_ascii=False)
+            self.logger.info(f"[SAVE] Full data persisted: '{validation_file}'")
+        except Exception as e:
+            self.logger.warning(f"[WARN] Could not persist validation data: {e}")
+
+    def format_for_archive(self, record: dict) -> tuple[str, str]:
+        """Format single record for markdown table: (row_text, date)."""
+        date_str = str(record.get("issued_at") or "2026-01-01").strip()
+        title = str(record.get("title") or "Unknown Credential").strip()
+        verify_url = record.get("verify_url")
+        issuer = str(record.get("issuer") or "Amazon Web Services").strip()
+        v_type = str(record.get("type") or "AWS Skill Builder Badge").strip()
+        retired = record.get("retired", False)
 
         title_clean = (
             title.replace("\r", " ").replace("\n", " ").replace("|", "\\|").strip()
@@ -737,167 +602,153 @@ def build_archives_and_readme(badges: list[dict]) -> None:
         if retired:
             name_cell += " [WARN] *Content retired*"
         row_text = f"| {date_str} | {name_cell} | {issuer_clean} | {v_type_clean} |"
-        formatted_rows.append((row_text, date_str))
+        return row_text, date_str
 
-    total_count = len(sorted_badges)
-    total_skills = len(all_skills)
+    def build_readme_lines(self, records: list[dict], latest_slice: str) -> list[str]:
+        """Build README section lines."""
+        total_count = len(records)
+        all_skills: set[str] = set()
 
-    index_raw = f"{RAW_BASE_DEFAULT}/aws-skills-index.md"
-    LATEST_SLICE_NORMAL = ""
-    LATEST_SLICE_RAW = ""
+        for b in records:
+            for skill in b.get("skills", []):
+                if isinstance(skill, str) and skill.strip():
+                    all_skills.add(skill.strip())
+        total_skills = len(all_skills)
 
-    marker_start = "<!-- AWS_SKILLS_START -->"
-    marker_end = "<!-- AWS_SKILLS_END -->"
+        index_raw = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md"
+        profile_url = (
+            f"https://skillsprofile.skillbuilder.aws/user/{self.AWS_PROFILE_USER}"
+        )
 
-    profile_url = f"https://skillsprofile.skillbuilder.aws/user/{AWS_PROFILE_USER}"
-
-    cq_lines = [
-        "#### AWS Cloud Quest Summary",
-        "",
-        "| Metric | Value |",
-        "| :--- | :--- |",
-    ]
-    for key, value in CLOUD_QUEST_STATS.items():
-        cq_lines.append(f"| **{key}** | {value} |")
-    cq_lines.append("")
-
-    readme_lines = [
-        "### AWS Skill Builder Credentials",
-        "",
-        f"**Public Profile:** [Verify AWS Skill Builder Profile]({profile_url})",
-        "",
-        f"**Total Portfolio Credentials:** {total_count}",
-        f"**Total Verified Skills Mapped:** {total_skills}",
-        "",
-    ]
-
-    readme_lines.extend(cq_lines)
-
-    readme_lines.extend(
-        [
-            "#### Latest Earned Credentials",
+        cq_lines = [
+            "#### AWS Cloud Quest Summary",
             "",
-            f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic File](./archives/aws-skills-complete.md).",
-            "",
-            "| Date Earned | Credential Name | Issuer | Verification Type |",
-            "| :---: | :--- | :--- | :---: |",
+            "| Metric | Value |",
+            "| :--- | :--- |",
         ]
-    )
+        for key, value in CLOUD_QUEST_STATS.items():
+            cq_lines.append(f"| **{key}** | {value} |")
+        cq_lines.append("")
 
-    for row_text, _ in formatted_rows[:10]:
-        readme_lines.append(row_text)
+        readme_lines = [
+            "### AWS Skill Builder Credentials",
+            "",
+            f"**Public Profile:** [Verify AWS Skill Builder Profile]({profile_url})",
+            "",
+            f"**Total Portfolio Credentials:** {total_count}",
+            f"**Total Verified Skills Mapped:** {total_skills}",
+            "",
+        ]
+        readme_lines.extend(cq_lines)
+        readme_lines.extend(
+            [
+                "#### Latest Earned Credentials",
+                "",
+                f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]{{LATEST_SLICE_NORMAL}} ([Raw]{{LATEST_SLICE_RAW}}), or [Monolithic File](./archives/aws-skills-complete.md).",
+                "",
+                "| Date Earned | Credential Name | Issuer | Verification Type |",
+                "| :---: | :--- | :--- | :---: |",
+            ]
+        )
 
-    latest_slice = generate_platform_archive(
-        platform_prefix="aws-skills",
-        platform_name="AWS Skill Builder Credentials",
-        table_headers=["Date Earned", "Credential Name", "Issuer", "Verification Type"],
-        table_alignments=[":---:", ":---", ":---", ":---:"],
-        formatted_rows=formatted_rows,
-        readme_lines=readme_lines,
-        marker_start=marker_start,
-        marker_end=marker_end,
-    )
+        for record in records[:10]:
+            row_text, _ = self.format_for_archive(record)
+            readme_lines.append(row_text)
 
-    if latest_slice:
-        LATEST_SLICE_NORMAL = f"./archives/{latest_slice}"
-        LATEST_SLICE_RAW = f"{RAW_BASE_DEFAULT}/{latest_slice}"
-        for i, line in enumerate(readme_lines):
-            if "{LATEST_SLICE_NORMAL}" in line:
-                readme_lines[i] = line.replace(
-                    "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
-                )
-                readme_lines[i] = readme_lines[i].replace(
-                    "{LATEST_SLICE_RAW}", LATEST_SLICE_RAW
-                )
-                break
-        if os.path.exists("README.md"):
-            with open("README.md", "r", encoding="utf-8") as f:
-                content = f.read()
-            if marker_start in content and marker_end in content:
-                before = content.split(marker_start)[0]
-                after = content.split(marker_end)[1]
-                new_block = "\n".join(readme_lines) + "\n"
-                new_content = f"{before}{marker_start}\n{new_block}{marker_end}{after}"
-                safe_write_file("README.md", new_content)
+        return readme_lines
+
+    def get_validation_payload(self, records: list[dict]) -> dict:
+        """Build validation payload with AWS-specific fields."""
+        layer_metadata = {}
+        try:
+            from layer_manifest import load_manifest
+
+            manifest = load_manifest()
+            if "aws-skills" in manifest.platforms:
+                platform = manifest.platforms["aws-skills"]
+                for layer_name in (
+                    "L0_raw",
+                    "L1_normalized",
+                    "L2_published",
+                    "L3_display",
+                ):
+                    layer_def = getattr(platform, layer_name, None)
+                    if not layer_def:
+                        continue
+                    layer_info = {
+                        "source": layer_def.source,
+                        "source_layer": layer_def.source_layer,
+                        "description": layer_def.description,
+                        "retired_handling": layer_def.retired_handling,
+                    }
+                    if layer_def.transform:
+                        layer_info["transform"] = layer_def.transform.type
+                        if layer_def.transform.params:
+                            layer_info["transform_params"] = layer_def.transform.params
+                    if layer_def.transforms:
+                        layer_info["transforms"] = {
+                            k: v.type for k, v in layer_def.transforms.items()
+                        }
+                    if layer_def.output_records:
+                        layer_info["output_records"] = layer_def.output_records
+                    if layer_def.output_streams:
+                        layer_info["output_streams"] = layer_def.output_streams
+                    if layer_def.artifacts:
+                        layer_info["artifacts"] = layer_def.artifacts
+                    if layer_def.metrics:
+                        layer_info["metrics"] = layer_def.metrics
+                    layer_metadata[layer_name] = layer_info
+        except Exception:
+            pass
+
+        return {
+            "platform": self.PLATFORM_NAME,
+            "profile_user": self.AWS_PROFILE_USER,
+            "total_count": len(records),
+            "badges": records,
+            "_layer_metadata": layer_metadata,
+        }
+
+    def get_archive_payload(self, records: list[dict]) -> list[dict]:
+        """Get records for L2 archive JSON."""
+        return records
 
 
 # ==============================================================================
-# PIPELINE ORCHESTRATOR
+# BACKWARD COMPATIBILITY WRAPPERS (for tests)
 # ==============================================================================
 
+from loss_guard import execute_content_loss_guard as _execute_content
+from loss_guard import execute_data_loss_guard as _execute_guard
+from loss_guard import get_stored_archive_baseline_count as _get_count
 
+
+def get_stored_archive_baseline_count(json_path: str, monolith_path: str) -> int:
+    return _get_count("aws-skills", json_path, monolith_path)
+
+
+def execute_data_loss_guard(new_badges: list[dict], output_file: str) -> None:
+    return _execute_guard(new_badges, "aws-skills", output_file, ARCHIVE_MONOLITH)
+
+
+def execute_content_loss_guard(*args, **kwargs):
+    return _execute_content(*args, **kwargs)
+
+
+# Module-level main function for backward compat
 def main():
-    logger.info("Starting AWS Skill Builder Pipeline with Pydantic & Loss Guards...")
-
-    # Safe directory initialization
-    if os.path.exists(VALIDATION_DIR) and not os.path.isdir(VALIDATION_DIR):
-        logger.warning(
-            f"[WARN] '{VALIDATION_DIR}' exists as a file. Removing it to create a directory."
-        )
-        os.remove(VALIDATION_DIR)
-
-    os.makedirs(VALIDATION_DIR, exist_ok=True)
-
-    raw_badges = fetch_aws_skills_badges(AWS_PROFILE_USER)
-
-    unique_badges = []
-    seen = set()
-
-    for badge in raw_badges:
-        dedup_key = badge.get("id") or f"{badge.get('title')}-{badge.get('issued_at')}"
-        if dedup_key not in seen:
-            seen.add(dedup_key)
-            unique_badges.append(badge)
-
-    # Run loss guards (count + content-aware) via shared orchestration
-    run_provider_loss_guards(
-        unique_badges,
-        "aws-skills",
-        json_path=OUTPUT_FILE,
-        monolith_path=ARCHIVE_MONOLITH,
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
     )
-
-    # 2. Retired URL / Identity detection    # 2. Retired URL / Identity detection
-    retired_rules = load_retired_rules("aws-skills")
-    if retired_rules:
-        _, marked = mark_retired(unique_badges, retired_rules, url_field="verify_url")
-        if marked > 0:
-            logger.info(f"[NOTE] Updated {marked} badge(s) with retired status")
-
-    # 3. Validate Root Payload with Pydantic Schema & Save strictly inside for_validation/
-    layer_metadata = generate_layer_metadata("aws-skills")
-    payload_dict = {
-        "profile_user": AWS_PROFILE_USER,
-        "total_count": len(unique_badges),
-        "badges": unique_badges,
-        "_layer_metadata": layer_metadata,
-    }
-
-    try:
-        validated_payload = AwsSkillsArchivePayloadModel(**payload_dict)
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write(validated_payload.model_dump_json(indent=2))
-        logger.info(
-            f"[DONE] Persistence complete: '{OUTPUT_FILE}' updated safely ({len(unique_badges)} badges)."
-        )
-    except ValidationError as ve:
-        logger.error(f"[FAIL] Root Payload Validation Error: {ve}")
-        sys.exit(1)
-
-    # Generate baseline fingerprints for cross-artifact validation
-    generate_provider_baseline(unique_badges, "aws-skills")
-
-    # 4. Build markdown archives and update README    # 4. Build markdown archives and update README
-    build_archives_and_readme(unique_badges)
-    logger.info("Pipeline execution completed successfully.")
+    AWSSkillsPipeline().run()
 
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+    )
     main()
-    # Sync fixtures for test consistency
-    try:
-        from scripts.sync_fixtures import sync_fixtures
-
-        sync_fixtures("aws-skills")
-    except Exception as exc:
-        logger.warning(f"[WARN] Fixture sync failed (non-fatal): {exc}")

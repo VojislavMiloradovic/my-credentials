@@ -1,7 +1,7 @@
 {
   "platform": "linkedin-certifications",
   "stream_id": null,
-  "record_count": 1623,
+  "record_count": 1667,
   "created_at": "2024-06-15T12:00:00+00:00",
   "fingerprints": {
     "linkedin-6e2649a392005b74": {
@@ -9739,6 +9739,270 @@
     "e87068f9-d137-4458-b709-5a851c02003f": {
       "record_id": "e87068f9-d137-4458-b709-5a851c02003f",
       "content_hash": "fb1e0f6a45f69db67db504f188a93908",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "eda6d74d-ee37-4a6b-ae13-4f7182457edd": {
+      "record_id": "eda6d74d-ee37-4a6b-ae13-4f7182457edd",
+      "content_hash": "4782d2d9f6ecf232386bf6891a7f62ef",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "29565065-0d38-4296-99fc-3ad644b89fc6": {
+      "record_id": "29565065-0d38-4296-99fc-3ad644b89fc6",
+      "content_hash": "2c7caf94ca725890da99d92747809e0e",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-b22efd1177cc172c": {
+      "record_id": "linkedin-b22efd1177cc172c",
+      "content_hash": "812c2e82ef1a67f592d5fa2776b0cc8f",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-62c145a9bdb2daee": {
+      "record_id": "linkedin-62c145a9bdb2daee",
+      "content_hash": "46293fed8c0611c7d484821c335b9253",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "4ada156c-46b0-4169-98dc-dc5d4d8909f8": {
+      "record_id": "4ada156c-46b0-4169-98dc-dc5d4d8909f8",
+      "content_hash": "9c4c1c65a4205d67f2db72360f913f7f",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "27755292": {
+      "record_id": "27755292",
+      "content_hash": "5bf87297d4619f07f30dc20332e248b0",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "34cf63a3-9c10-4ce1-8855-67ec2b1eb97d": {
+      "record_id": "34cf63a3-9c10-4ce1-8855-67ec2b1eb97d",
+      "content_hash": "ea4b57d193eee7bf709a8e517c67e36f",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "25478651-081d-4ce1-9ec8-9a16f4888064": {
+      "record_id": "25478651-081d-4ce1-9ec8-9a16f4888064",
+      "content_hash": "30b5f57f2a87523c2bda93d21da9eee6",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "93d024cb-0d8e-40b6-b352-8071dbf9d6f1": {
+      "record_id": "93d024cb-0d8e-40b6-b352-8071dbf9d6f1",
+      "content_hash": "2f15a4642e69e6417cf2b95e70f5a9a1",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-d7f050c27f4334e7": {
+      "record_id": "linkedin-d7f050c27f4334e7",
+      "content_hash": "53e7da114b0021490bdfa23fa53f2c7a",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-4fc1e1d7c10f7a69": {
+      "record_id": "linkedin-4fc1e1d7c10f7a69",
+      "content_hash": "c9082f44b5231b47919db85fe57e20dc",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-757a6b3ab2feb3f0": {
+      "record_id": "linkedin-757a6b3ab2feb3f0",
+      "content_hash": "6b1aee02e1e203d21ab89bc2f1815cd6",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "0ce437b3-fc46-48da-a95a-44061cbfb588": {
+      "record_id": "0ce437b3-fc46-48da-a95a-44061cbfb588",
+      "content_hash": "3cf1a69828e553b5f92fc8db8209936e",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c": {
+      "record_id": "c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c",
+      "content_hash": "bf7d807a12f506bada86e7eeee53004e",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-b25e27140a4914ad": {
+      "record_id": "linkedin-b25e27140a4914ad",
+      "content_hash": "651dbe5e30ba810a66a1494bfc7a91de",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-53604b41d116d814": {
+      "record_id": "linkedin-53604b41d116d814",
+      "content_hash": "38971cd61e262e01b1de78f85a10e496",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-dd05b868c952e9b6": {
+      "record_id": "linkedin-dd05b868c952e9b6",
+      "content_hash": "169485003b8cb887b722a1810cdcf131",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-1efe903fe9294354": {
+      "record_id": "linkedin-1efe903fe9294354",
+      "content_hash": "7cd51ea0da1b70d46b08459ae629f8f5",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-2d7e3bab7f95ad6d": {
+      "record_id": "linkedin-2d7e3bab7f95ad6d",
+      "content_hash": "c78f11eee485197953cca365bb339030",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "acb7859e-864b-4401-9c78-fbd6835a3454": {
+      "record_id": "acb7859e-864b-4401-9c78-fbd6835a3454",
+      "content_hash": "8190c5a5dace776a8f2697a24a0cb273",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "62777e7e-63b5-4734-b345-e09dc1c49076": {
+      "record_id": "62777e7e-63b5-4734-b345-e09dc1c49076",
+      "content_hash": "83054c2606d25878bd45d5a9284d3447",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "6349cc21-2ec7-414b-ad91-9a24a869e0a1": {
+      "record_id": "6349cc21-2ec7-414b-ad91-9a24a869e0a1",
+      "content_hash": "4f74b47118fabaab745a3c8fd1ec8554",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "c13f56ad-cf6b-4e39-b941-53df80b3e391": {
+      "record_id": "c13f56ad-cf6b-4e39-b941-53df80b3e391",
+      "content_hash": "1de149adee7b0150644c967c1e27fdf7",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "3edec3e1-d0d2-400b-82c1-7da1d34ec078": {
+      "record_id": "3edec3e1-d0d2-400b-82c1-7da1d34ec078",
+      "content_hash": "a73703a0423899ff8ef8ded37739d244",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "1be6c262-db05-4138-bbe6-62e93c73e5ac": {
+      "record_id": "1be6c262-db05-4138-bbe6-62e93c73e5ac",
+      "content_hash": "709e70b801e6dd5ff3c1399c7bef73e6",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "de882ce6-face-43c9-95b2-db616dd32f16": {
+      "record_id": "de882ce6-face-43c9-95b2-db616dd32f16",
+      "content_hash": "f96344e177deec755bcd71470bc38f25",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-a9e38131378f5223": {
+      "record_id": "linkedin-a9e38131378f5223",
+      "content_hash": "a08d677c183d77c574df7902904962dc",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-9bb690f34213922a": {
+      "record_id": "linkedin-9bb690f34213922a",
+      "content_hash": "95b98ce8e16683fb868460ce4f636018",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "fa585e84-9608-46de-ae63-6f6577f58ac8": {
+      "record_id": "fa585e84-9608-46de-ae63-6f6577f58ac8",
+      "content_hash": "171497c6b615358a9d7abb95389f7d3f",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "d7515459-db41-43fd-b6f8-5b5b1344362f": {
+      "record_id": "d7515459-db41-43fd-b6f8-5b5b1344362f",
+      "content_hash": "caee9aa5b0e4d4f04b6389fe00f878af",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "3e508494-0af6-4ecd-8087-b67a5997489e": {
+      "record_id": "3e508494-0af6-4ecd-8087-b67a5997489e",
+      "content_hash": "a15af27c9be95d67876232b0bdfb26a0",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "a189c2dc-a907-43b0-802e-9448393045c0": {
+      "record_id": "a189c2dc-a907-43b0-802e-9448393045c0",
+      "content_hash": "713f896d25173d1a0830b8bdb0da228a",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "a5c6bf0b-8465-41f8-b777-2216d2d49c52": {
+      "record_id": "a5c6bf0b-8465-41f8-b777-2216d2d49c52",
+      "content_hash": "347278e3f2e4c033651542c221cd031b",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "6dcbc4f5-606f-40e0-9c59-6eab487481a3": {
+      "record_id": "6dcbc4f5-606f-40e0-9c59-6eab487481a3",
+      "content_hash": "b96d4104b2852fd23d51b87651b50663",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "7d5eaa4b-76f9-41e9-ad7d-ab4c15b0378f": {
+      "record_id": "7d5eaa4b-76f9-41e9-ad7d-ab4c15b0378f",
+      "content_hash": "92fa2ebd71ce9ac0c69b16655efa188b",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "ff453cbb-dd77-4fc6-b12f-7d63dcffbc30": {
+      "record_id": "ff453cbb-dd77-4fc6-b12f-7d63dcffbc30",
+      "content_hash": "46f95a58517de6da5baac576a0c15a3c",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "f1c081b3-4bd3-44dc-b4eb-4f90a306534c": {
+      "record_id": "f1c081b3-4bd3-44dc-b4eb-4f90a306534c",
+      "content_hash": "c65d877bf97b4141186cfc642d5fda88",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-26f1d302cbe18df6": {
+      "record_id": "linkedin-26f1d302cbe18df6",
+      "content_hash": "857a522edd6631a423b89af4bc0be33f",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-fa91d3a87551bf47": {
+      "record_id": "linkedin-fa91d3a87551bf47",
+      "content_hash": "a7836109c419b23b3a8fa9ad84b166cb",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-7e783b709b20dee7": {
+      "record_id": "linkedin-7e783b709b20dee7",
+      "content_hash": "860b4fcb536d0839618ff37ad23c1cf5",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-7330ac3ef0409293": {
+      "record_id": "linkedin-7330ac3ef0409293",
+      "content_hash": "cf5094c5035aba04ce7dbfcb0a36e253",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "e84dce14-33be-4673-973b-498fd69a1516": {
+      "record_id": "e84dce14-33be-4673-973b-498fd69a1516",
+      "content_hash": "09c040919bd89043925b139e7e84ae81",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-15f6114a14b66e64": {
+      "record_id": "linkedin-15f6114a14b66e64",
+      "content_hash": "ce4cbafdb557161cc6c8e4b69bb5a935",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "linkedin-b1dec7b9add1f9a6": {
+      "record_id": "linkedin-b1dec7b9add1f9a6",
+      "content_hash": "f4172437552c91adbc070cd8ceba2eb9",
       "platform": "linkedin-certifications",
       "timestamp": "2024-06-15T12:00:00+00:00"
     }

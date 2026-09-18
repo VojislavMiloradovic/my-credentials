@@ -1,0 +1,157 @@
+{
+  "platform": "aws-skills",
+  "profile_user": "vojislavmiloradovic",
+  "total_count": 4,
+  "badges": [
+    {
+      "source_platform": "aws-skills",
+      "source_record_id": null,
+      "source_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "retrieved_at": "2024-06-15T12:00:00+00:00",
+      "last_verified_at": null,
+      "verification_status": "unknown",
+      "source_hash": null,
+      "retrieval_method": "export",
+      "id": "aws-001",
+      "title": "AWS Cloud Practitioner Essentials",
+      "name": "AWS Cloud Practitioner Essentials",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-01-01",
+      "issued_at_date": "2026-01-01",
+      "date": "2026-01-01",
+      "image_url": null,
+      "url": "",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Cloud Practitioner Essentials"
+      ],
+      "retired": false
+    },
+    {
+      "source_platform": "aws-skills",
+      "source_record_id": null,
+      "source_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "retrieved_at": "2024-06-15T12:00:00+00:00",
+      "last_verified_at": null,
+      "verification_status": "unknown",
+      "source_hash": null,
+      "retrieval_method": "export",
+      "id": "aws-002",
+      "title": "Amazon S3 Primer",
+      "name": "Amazon S3 Primer",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-01-01",
+      "issued_at_date": "2026-01-01",
+      "date": "2026-01-01",
+      "image_url": null,
+      "url": "",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Amazon S3 Primer"
+      ],
+      "retired": false
+    },
+    {
+      "source_platform": "aws-skills",
+      "source_record_id": null,
+      "source_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "retrieved_at": "2024-06-15T12:00:00+00:00",
+      "last_verified_at": null,
+      "verification_status": "unknown",
+      "source_hash": null,
+      "retrieval_method": "export",
+      "id": "c753c288f5b4ea02",
+      "title": "AWS Lambda Foundations",
+      "name": "AWS Lambda Foundations",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-01-01",
+      "issued_at_date": "2026-01-01",
+      "date": "2026-01-01",
+      "image_url": null,
+      "url": "",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "AWS Lambda Foundations"
+      ],
+      "retired": false
+    },
+    {
+      "source_platform": "aws-skills",
+      "source_record_id": null,
+      "source_url": null,
+      "verify_url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic",
+      "retrieved_at": "2024-06-15T12:00:00+00:00",
+      "last_verified_at": null,
+      "verification_status": "unknown",
+      "source_hash": null,
+      "retrieval_method": "export",
+      "id": "aws-004",
+      "title": "Another Course",
+      "name": "Another Course",
+      "issuer": "Amazon Web Services",
+      "issuer_name": "Amazon Web Services",
+      "issued_at": "2026-01-01",
+      "issued_at_date": "2026-01-01",
+      "date": "2026-01-01",
+      "image_url": null,
+      "url": "",
+      "type": "Digital course",
+      "verification_type": "Digital course",
+      "skills": [
+        "Another Course"
+      ],
+      "retired": false
+    }
+  ],
+  "_layer_metadata": {
+    "L0_raw": {
+      "source": "data/aws-training-activity.csv",
+      "source_layer": null,
+      "description": "CSV export with explicit retired flags and retirement dates from AWS Skill Builder.",
+      "retired_handling": "none"
+    },
+    "L1_normalized": {
+      "source": null,
+      "source_layer": "L0_raw",
+      "description": "All trainings with unified retired status: source retired flag OR registry match. Both reason and date preserved.",
+      "retired_handling": "combine_source_and_registry",
+      "transform": "parse_csv_combine_retired_flags"
+    },
+    "L2_published": {
+      "source": null,
+      "source_layer": "L1_normalized",
+      "description": "All records (active + retired) passed to archives and JSON-LD with retired flags.",
+      "retired_handling": "none",
+      "transform": "1:1_pass_through",
+      "artifacts": [
+        "archive_complete",
+        "archive_index",
+        "jsonld"
+      ]
+    },
+    "L3_display": {
+      "source": null,
+      "source_layer": "L1_normalized",
+      "description": "Display total and retired counts.",
+      "retired_handling": "none",
+      "transform": "count_active_and_retired",
+      "artifacts": [
+        "readme",
+        "llms_txt"
+      ],
+      "metrics": [
+        "total_activities",
+        "retired_count"
+      ]
+    }
+  }
+}

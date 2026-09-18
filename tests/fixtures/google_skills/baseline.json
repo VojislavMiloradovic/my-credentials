@@ -1,7 +1,20 @@
 {
   "platform": "google-skills",
   "stream_id": null,
-  "record_count": 0,
+  "record_count": 2,
   "created_at": "2024-06-15T12:00:00+00:00",
-  "fingerprints": {}
+  "fingerprints": {
+    "123": {
+      "record_id": "123",
+      "content_hash": "c7aea1db6a91d485854373c70bac1bb4",
+      "platform": "google-skills",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "456": {
+      "record_id": "456",
+      "content_hash": "dc1083fc89e4281b1516464195e54e40",
+      "platform": "google-skills",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    }
+  }
 }
