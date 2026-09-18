@@ -1,17 +1,22 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 671 records.
+This document represents a unified, verifiable list of all 676 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-18T02:40:27.465345+00:00 -->
+<!-- retrieved_at: 2026-09-18T23:05:55.883909+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-18 | [Basis Foundations 2.0](https://www.credly.com/badges/01f3c51d-1d56-4883-9933-40f3c0bf43c9/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-18 | [Connected TV (CTV) Essentials: Basis User Edition](https://www.credly.com/badges/aa8ae1e7-90c8-4cb4-8cb3-7f052cdbe166/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-18 | [Digital Media Associate](https://www.credly.com/badges/8b57e007-073d-484e-8cdf-137cc4599dfb/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-18 | [Digital Media Strategist](https://www.credly.com/badges/6c52d323-dee1-4c81-8be4-9d3d1d516cd6/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-17 | [Data Classification and Summarization Using IBM Granite](https://www.credly.com/badges/fb4b0999-a53c-4a1e-bfb4-3fdf51326bdc/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-17 | [Craft Precise Prompts for AI Models](https://www.credly.com/badges/25d554f0-f025-4d06-aa44-3cb6c43a60e6/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-17 | [IBM watsonx.data Technical Essentials](https://www.credly.com/badges/2cafe853-8fbf-4941-9b24-00483669d083/public_url) | IBM | Credly Verified Badge |
 | 2026-09-17 | [IBM watsonx.governance: Technical Essentials](https://www.credly.com/badges/e07c113b-ca43-4ec4-9f69-2659d207134a/public_url) | IBM | Credly Verified Badge |
