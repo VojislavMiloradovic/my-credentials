@@ -163,7 +163,9 @@ def find_latest_developer_mhtml(data_dir: str = "data") -> str:
             f"[FILE] Found {len(matches)} *Developer*.mhtml files, using most recent: {latest}"
         )
     else:
-        logging.getLogger("gdev_updater").info(f"[FILE] Found *Developer*.mhtml file: {latest}")
+        logging.getLogger("gdev_updater").info(
+            f"[FILE] Found *Developer*.mhtml file: {latest}"
+        )
     return latest
 
 
@@ -367,7 +369,9 @@ def execute_data_loss_guard(new_badges: list[dict]) -> None:
                 f"from baseline ({old_count}). Threshold: {MAX_ALLOWED_DATA_LOSS_PCT:.0%}. Aborting."
             )
 
-    logging.getLogger("gdev_updater").info("[OK] Loss Guard Assertion Passed: Incoming dataset verified.")
+    logging.getLogger("gdev_updater").info(
+        "[OK] Loss Guard Assertion Passed: Incoming dataset verified."
+    )
 
 
 # ==============================================================================
@@ -383,7 +387,9 @@ def parse_local_learnings_txt() -> list[dict]:
         )
         return []
 
-    logging.getLogger("gdev_updater").info(f"[FILE] Parsing local Google learning log: '{LEARNINGS_TXT_PATH}'")
+    logging.getLogger("gdev_updater").info(
+        f"[FILE] Parsing local Google learning log: '{LEARNINGS_TXT_PATH}'"
+    )
     with open(LEARNINGS_TXT_PATH, "r", encoding="utf-8") as f:
         lines = [line.strip() for line in f if line.strip()]
 
@@ -443,7 +449,9 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
         )
         return []
 
-    logging.getLogger("gdev_updater").info(f"[FILE] Parsing Google Developer learnings from MHTML: '{mhtml_path}'")
+    logging.getLogger("gdev_updater").info(
+        f"[FILE] Parsing Google Developer learnings from MHTML: '{mhtml_path}'"
+    )
 
     # Try MHTML parsing first
     try:
@@ -521,10 +529,14 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
                 )
                 return learnings
     except Exception as e:
-        logging.getLogger("gdev_updater").warning(f"[WARN] MHTML parsing failed, falling back to text parser: {e}")
+        logging.getLogger("gdev_updater").warning(
+            f"[WARN] MHTML parsing failed, falling back to text parser: {e}"
+        )
 
     # Fallback to legacy text parser
-    logging.getLogger("gdev_updater").info(f"[FILE] Falling back to legacy text parser for: '{mhtml_path}'")
+    logging.getLogger("gdev_updater").info(
+        f"[FILE] Falling back to legacy text parser for: '{mhtml_path}'"
+    )
     return parse_local_learnings_txt()
 
 
@@ -614,7 +626,9 @@ def find_badges_in_matrix(data: Any, parsed_badges: list[dict]) -> None:
 
 def fetch_gdev_badges_rpc() -> list[dict]:
     """Fetches public profile badges from Google Developer batchexecute RPC endpoint."""
-    logging.getLogger("gdev_updater").info("[GLOBE] Fetching Google Developer public profile via RPC API...")
+    logging.getLogger("gdev_updater").info(
+        "[GLOBE] Fetching Google Developer public profile via RPC API..."
+    )
     url = "https://me.developers.google.com/_/GoogleDeveloperProfile/data/batchexecute"
     params = {
         "rpcids": "gQeJTc,RwSpuf",
@@ -678,10 +692,14 @@ def fetch_gdev_badges_rpc() -> list[dict]:
                 except Exception:
                     continue
 
-        logging.getLogger("gdev_updater").info(f"[OK] Extracted {len(parsed_badges)} badges from RPC endpoint.")
+        logging.getLogger("gdev_updater").info(
+            f"[OK] Extracted {len(parsed_badges)} badges from RPC endpoint."
+        )
         return parsed_badges
     except Exception as e:
-        logging.getLogger("gdev_updater").warning(f"[WARN] Exception occurred during RPC fetch: {e}")
+        logging.getLogger("gdev_updater").warning(
+            f"[WARN] Exception occurred during RPC fetch: {e}"
+        )
         return []
 
 
@@ -710,7 +728,13 @@ def mark_retired(
     retired_field: str = "retired",
 ) -> tuple[int, int]:
     """Wrapper that uses module-level mark_retired."""
-    return _mark_retired(items, retired_rules, url_field=url_field, id_fields=id_fields, retired_field=retired_field)
+    return _mark_retired(
+        items,
+        retired_rules,
+        url_field=url_field,
+        id_fields=id_fields,
+        retired_field=retired_field,
+    )
 
 
 # Backward-compatibility wrappers (for tests)
@@ -724,7 +748,9 @@ def execute_content_loss_guard(*args, **kwargs):
     return _execute_content(*args, **kwargs)
 
 
-def generate_all_provider_baselines(new_records: list[dict], provider_name: str) -> dict[str, bool]:
+def generate_all_provider_baselines(
+    new_records: list[dict], provider_name: str
+) -> dict[str, bool]:
     """Backward-compatible wrapper for multi-stream baseline generation."""
     return _generate_all_baselines(new_records, provider_name)
 
@@ -797,6 +823,7 @@ class GoogleDeveloperPipeline(PipelineBase):
         # 1. Execute Content-Aware Loss Guard check against stored baseline
         try:
             from loss_guard import execute_content_loss_guard
+
             execute_content_loss_guard(
                 new_records=records,
                 platform="google-developer",
@@ -804,7 +831,9 @@ class GoogleDeveloperPipeline(PipelineBase):
                 fail_on_warn=True,
             )
         except Exception as anomaly_err:
-            self.logger.error(f"[FAIL] Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            self.logger.error(
+                f"[FAIL] Pipeline Terminated by Anomaly Guard: {anomaly_err}"
+            )
             raise
 
         # 2. Retired URL / Identity detection
@@ -819,6 +848,7 @@ class GoogleDeveloperPipeline(PipelineBase):
         # 3. Generate L1 baseline fingerprints for all 3 streams (cross-artifact validation)
         try:
             from loss_guard import generate_all_provider_baselines
+
             results = generate_all_provider_baselines(records, "google-developer")
             self.logger.info(f"[OK] L1 baselines generated: {results}")
         except Exception as e:
@@ -845,7 +875,7 @@ class GoogleDeveloperPipeline(PipelineBase):
         """Build README section lines."""
         total_public = len(self._public_badges)
         total_detailed = len(self._detailed_learnings)
-        
+
         index_raw = f"https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/{self.PLATFORM_PREFIX}-index.md"
         profile_url = "https://g.dev/vojislavmiloradovic"
 
@@ -881,7 +911,9 @@ class GoogleDeveloperPipeline(PipelineBase):
         for badge in records[:10]:
             clean_desc = badge["description"].replace("|", "\\|").replace("\n", " ")
             clean_title = badge["title"].replace("|", "\\|")
-            readme_lines.append(f"| *{badge['date']}* | **{clean_title}** | {clean_desc} |")
+            readme_lines.append(
+                f"| *{badge['date']}* | **{clean_title}** | {clean_desc} |"
+            )
 
         return readme_lines
 
@@ -950,6 +982,7 @@ class GoogleDeveloperPipeline(PipelineBase):
         # Update README stats table (the Platform Progress section)
         try:
             from archiver import update_readme_stats
+
             update_readme_stats(
                 platform_key="google-developer",
                 total_count=len(self._public_badges) + len(self._detailed_learnings),
@@ -961,7 +994,9 @@ class GoogleDeveloperPipeline(PipelineBase):
             self.logger.warning(f"[WARN] Could not update README stats: {e}")
 
         # Update index file with two-category breakdown
-        index_file_path = os.path.join(self.ARCHIVE_DIR, f"{self.PLATFORM_PREFIX}-index.md")
+        index_file_path = os.path.join(
+            self.ARCHIVE_DIR, f"{self.PLATFORM_PREFIX}-index.md"
+        )
         if os.path.exists(index_file_path):
             try:
                 with open(index_file_path, "r", encoding="utf-8") as f:
@@ -997,7 +1032,9 @@ class GoogleDeveloperPipeline(PipelineBase):
 
                 with open(index_file_path, "w", encoding="utf-8") as f:
                     f.write(index_content)
-                self.logger.info(f"[OK] Updated category breakdown metrics in {index_file_path}")
+                self.logger.info(
+                    f"[OK] Updated category breakdown metrics in {index_file_path}"
+                )
             except Exception as e:
                 self.logger.warning(
                     f"[WARN] Failed to update overview in {index_file_path}: {e}"
@@ -1019,6 +1056,7 @@ if __name__ == "__main__":
     # Sync fixtures for test consistency
     try:
         from scripts.sync_fixtures import sync_fixtures
+
         sync_fixtures("google-developer")
     except Exception as e:
         logging.getLogger("gdev_updater").warning(

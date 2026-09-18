@@ -376,7 +376,11 @@ def mark_retired(
                 rule_id = str(rule.get("id", "")).strip()
                 rule_url = rule.get("url")
 
-                if rule_id in item_ids or (item_url and rule_id == item_url) or (rule_url and rule_url == item_url):
+                if (
+                    rule_id in item_ids
+                    or (item_url and rule_id == item_url)
+                    or (rule_url and rule_url == item_url)
+                ):
                     is_retired = True
                     matched_rule = rule
                     break
@@ -403,7 +407,8 @@ def mark_retired(
         total_marked = 0
         for field in url_field:
             _, marked = _mark_retired(
-                items, retired_rules,
+                items,
+                retired_rules,
                 url_field=field,
                 id_fields=id_fields,
                 retired_field=retired_field,
@@ -412,7 +417,8 @@ def mark_retired(
         return len(items), total_marked
 
     return _mark_retired(
-        items, retired_rules,
+        items,
+        retired_rules,
         url_field=url_field,
         id_fields=id_fields,
         retired_field=retired_field,
@@ -476,12 +482,14 @@ class MicrosoftLearnPipeline(PipelineBase):
 
     def get_retired_rules(self) -> list[dict]:
         """Wrapper that uses module-level RETIRED_URLS_FILE for test compatibility."""
-        return _load_retired_rules("microsoft-learn", retired_urls_file=RETIRED_URLS_FILE)
+        return _load_retired_rules(
+            "microsoft-learn", retired_urls_file=RETIRED_URLS_FILE
+        )
 
     def fetch_data(self) -> list[dict]:
         """Load and validate Microsoft Learn JSON export."""
         json_path = self.JSON_PATH
-        
+
         if not os.path.exists(json_path):
             self.logger.error(f"[FAIL] Error: Export file '{json_path}' not found!")
             sys.exit(1)
@@ -518,9 +526,13 @@ class MicrosoftLearnPipeline(PipelineBase):
         # 2. Retired URL / Identity detection (Microsoft Learn)
         retired_rules = self.get_retired_rules()
         if retired_rules:
-            _, marked = mark_retired(validated_achievements, retired_rules, url_field="url")
+            _, marked = mark_retired(
+                validated_achievements, retired_rules, url_field="url"
+            )
             if marked > 0:
-                self.logger.info(f"[NOTE] Updated {marked} achievement(s) with retired status")
+                self.logger.info(
+                    f"[NOTE] Updated {marked} achievement(s) with retired status"
+                )
 
         # Store for later use in post_loss_guard
         self._learning_paths = learning_paths
@@ -545,6 +557,7 @@ class MicrosoftLearnPipeline(PipelineBase):
         # 1. Execute Content-Aware Loss Guard check against stored baseline
         try:
             from loss_guard import execute_content_loss_guard
+
             execute_content_loss_guard(
                 new_records=records,
                 platform="microsoft-learn",
@@ -552,7 +565,9 @@ class MicrosoftLearnPipeline(PipelineBase):
                 fail_on_warn=True,
             )
         except Exception as anomaly_err:
-            self.logger.error(f"[FAIL] Pipeline Terminated by Anomaly Guard: {anomaly_err}")
+            self.logger.error(
+                f"[FAIL] Pipeline Terminated by Anomaly Guard: {anomaly_err}"
+            )
             raise
 
         # 2. Retired detection for achievements
@@ -560,7 +575,9 @@ class MicrosoftLearnPipeline(PipelineBase):
         if retired_rules:
             _, marked = mark_retired(records, retired_rules, url_field="url")
             if marked > 0:
-                self.logger.info(f"[NOTE] Updated {marked} achievement(s) with retired status")
+                self.logger.info(
+                    f"[NOTE] Updated {marked} achievement(s) with retired status"
+                )
 
         # 3. Also check verifiable credentials against retired rules
         if retired_rules and self._user_creds:
@@ -572,7 +589,9 @@ class MicrosoftLearnPipeline(PipelineBase):
                 retired_field="retired",
             )
             if marked > 0:
-                self.logger.info(f"[NOTE] Updated {marked} verifiable credential(s) with retired status")
+                self.logger.info(
+                    f"[NOTE] Updated {marked} verifiable credential(s) with retired status"
+                )
 
         # 4. Also check learning paths against retired rules (with URL normalization)
         if retired_rules and self._learning_paths:
@@ -583,14 +602,21 @@ class MicrosoftLearnPipeline(PipelineBase):
                     continue
                 is_retired = False
                 matched_rule = None
-                for field in ["url", "learningPathUid", "learning_path_uid", "learningPathId"]:
+                for field in [
+                    "url",
+                    "learningPathUid",
+                    "learning_path_uid",
+                    "learningPathId",
+                ]:
                     raw = lp.get(field)
                     if raw:
                         normalized = format_verify_url(raw)
                         for rule in retired_rules:
                             rule_id = str(rule.get("id", "")).strip()
                             rule_url = rule.get("url")
-                            if rule_id == normalized or (rule_url and rule_url == normalized):
+                            if rule_id == normalized or (
+                                rule_url and rule_url == normalized
+                            ):
                                 is_retired = True
                                 matched_rule = rule
                                 break
@@ -626,7 +652,11 @@ class MicrosoftLearnPipeline(PipelineBase):
             ach_marked = 0
             for ach in records:
                 ach_url = format_verify_url(ach.get("url"))
-                if ach_url and ach_url in retired_lp_urls and not ach.get("retired", False):
+                if (
+                    ach_url
+                    and ach_url in retired_lp_urls
+                    and not ach.get("retired", False)
+                ):
                     ach["retired"] = True
                     ach_marked += 1
                     self.logger.info(
@@ -640,13 +670,16 @@ class MicrosoftLearnPipeline(PipelineBase):
         # 6. Generate L1 baseline fingerprints for cross-artifact validation
         try:
             from loss_guard import execute_content_loss_guard
+
             execute_content_loss_guard(
                 new_records=records,
                 platform="microsoft-learn",
                 id_field="id",
                 fail_on_warn=False,  # Baseline generation should not fail the pipeline
             )
-            self.logger.info("[OK] L1 baseline fingerprints generated for cross-artifact validation")
+            self.logger.info(
+                "[OK] L1 baseline fingerprints generated for cross-artifact validation"
+            )
         except Exception as e:
             self.logger.warning(f"[WARN] Baseline generation failed (non-fatal): {e}")
 
@@ -831,8 +864,12 @@ class MicrosoftLearnPipeline(PipelineBase):
             LATEST_SLICE_RAW = f"https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/{latest_slice}"
             for i, line in enumerate(readme_lines):
                 if "{LATEST_SLICE_NORMAL}" in line:
-                    readme_lines[i] = line.replace("{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL)
-                    readme_lines[i] = readme_lines[i].replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
+                    readme_lines[i] = line.replace(
+                        "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
+                    )
+                    readme_lines[i] = readme_lines[i].replace(
+                        "{LATEST_SLICE_RAW}", LATEST_SLICE_RAW
+                    )
                     break
             self.update_readme(readme_lines, latest_slice)
 
@@ -875,6 +912,7 @@ if __name__ == "__main__":
     # Sync fixtures for test consistency
     try:
         from scripts.sync_fixtures import sync_fixtures
+
         sync_fixtures("microsoft-learn")
     except Exception as e:
         logging.getLogger("ms_learn_updater").warning(
