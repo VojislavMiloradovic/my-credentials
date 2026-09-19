@@ -15,25 +15,37 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 100,000
-- **Current Learning Level:** Level 5
-- **Badges Earned (Profile):** 1
-- **Trophies Earned (Profile):** 2
-- **Completed Learning Paths (Active Tracker):** 1
-- **Completed Modules (Active Tracker):** 1
-- **Completed Individual Units:** 2
+- **Total Experience Points (XP):** 6,030,550
+- **Current Learning Level:** Level 20
+- **Badges Earned (Profile):** 3,926
+- **Trophies Earned (Profile):** 906
+- **Completed Learning Paths (Active Tracker):** 515
+- **Completed Modules (Active Tracker):** 2,683
+- **Completed Individual Units:** 35,869
 
 ### Verifiable Applied Skills & Credentials
-- **Abc** (Credential ID: `CRED001` | Earned: 2024-02-01 | Status: Active)
+- **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25T16:21:33+00:00 | Status: Active)
+- **Get Started With Identities And Access Using Microsoft Entra** (Credential ID: `27BB90F5B956E0C8` | Earned: 2026-03-21T16:20:19+00:00 | Status: Active)
+- **Get Started With Azure Management Tasks** (Credential ID: `B7C5DF765FB52CEA` | Earned: 2026-03-18T14:17:11+00:00 | Status: Active)
+- **Get Started With Cloud Security And Monitoring Tasks** (Credential ID: `1EBB80C496C2DDF1` | Earned: 2026-03-16T15:39:06+00:00 | Status: Active)
+- **Streamline Business Workflows With Ai Chat** (Credential ID: `CE7FBB459ADAB331` | Earned: 2026-03-15T10:15:25+00:00 | Status: Active)
+- **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 3 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice]./archives/microsoft-learn-2024-01-part-01.md ([Raw]https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2024-01-part-01.md), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,832 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice]./archives/microsoft-learn-2026-09-part-95.md ([Raw]https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-95.md), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **First Module** | Module | 2024-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/module-1) |
-| **Learning Path Complete** | Learningpath | 2024-01-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/path-1) |
-| **Trophy Unlocked** | Trophy | 2024-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/trophy-1) |
+| **Dragon Copilot (physicians) practical application exercises** | Learningpaths | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-physicians-practical-application-exercises/) |
+| **Dragon Copilot AI Ambassador - Ambassador level** | Learningpaths | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-ambassador-level/) |
+| **Dragon Copilot (physicians) create templates** | Modules | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-create-templates/) |
+| **Understand Storage Spaces Direct** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-storage-spaces-direct/) |
+| **Integrate backend services for AI solutions** | Learningpaths | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-backend-services-ai-solutions/) |
+| **Orchestrate durable AI workflows with Azure Durable Functions** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-durable-functions/) |
+| **Automate agent tasks with workflows in Microsoft Copilot Studio** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-agent-tasks-workflows-copilot-studio/) |
+| **Get started using Foundry on Windows: AI Dev Gallery (Preview)** | Modules | 2026-09-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-dev-gallery/) |
+| **Dragon Copilot (nurses) verbalization guide** | Modules | 2026-09-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-nurses-verbalization-module/) |
+| **Ground and extend agents with knowledge, tools, and skills** | Modules | 2026-09-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-extend-agents-knowledge-tools-skills/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 25 of 95
 date_range: 2025-12-28 to 2025-12-29
-total_entries: 53
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-25.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Configure IP network connectivity** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ip-network-connectivity/) |
-| **Explore remote access** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-remote-access/) |
 | **Create serverless applications** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-serverless-applications/) |
 | **Build serverless apps with Go** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/serverless-go/) |
 | **Use Power Automate to increase productivity** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-power-automate-increase-productivity/) |
@@ -68,6 +66,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Improve your reliability with modern operations practices: Learning from failure** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-reliability-failure/) |
 | **Improve your reliability with modern operations practices: Monitoring** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-reliability-monitoring/) |
 | **Improve your reliability with modern operations practices: An introduction** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-reliability-introduction/) |
+| **Improve your reliability with modern operations practices: Incident response** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-reliability-incidents/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-24.md](./microsoft-learn-2025-12-part-24.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-26.md](./microsoft-learn-2025-12-part-26.md)
