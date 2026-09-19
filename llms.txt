@@ -1,6 +1,6 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-09-19 22:42 UTC
+> **Last Generated:** 2026-09-19 22:49 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
@@ -47,6 +47,7 @@ Optimized for lower-capacity context tools or fast targeted queries.
 - [Google Skills Latest Slice](./archives/google-skills-2026-09-part-09.md): Most recent achievements for Google Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-09-part-09.md
 - [Google Developer Latest Slice](./archives/google-developer-2026-09-part-35.md): Most recent achievements for Google Developer. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md
 - [Linkedin Certifications Latest Slice](./archives/linkedin-certifications-2026-09-part-37.md): Most recent achievements for Linkedin Certifications. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-37.md
+- [Credly Latest Slice](./archives/credly-2026-09-part-13.md): Most recent achievements for Credly. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-13.md
 - [Microsoft Learn Latest Slice](./archives/microsoft-learn-2026-09-part-95.md): Most recent achievements for Microsoft Learn. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-95.md
 
 ## Structured Machine-Readable Data
