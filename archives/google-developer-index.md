@@ -7,7 +7,7 @@
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
 
-<!-- retrieved_at: 2026-09-18T22:54:00.823322+00:00 -->
+<!-- retrieved_at: 2026-09-19T00:08:41.928850+00:00 -->
 
 
 
@@ -16,8 +16,8 @@ This directory provides chunked, AI-readable historical records for google-devel
 ## Archive Overview
 
 - **Total Records Archived:** 1695
-- **Total Public Badges:** 4
-- **Total Detailed Activities:** 1
+- **Total Public Badges:** 172
+- **Total Detailed Activities:** 1,639
 - **Monolithic File Size:** ~320.96 KB (81,628 tokens)
 - **Total Chunk Parts:** 35 chunk(s)
 
