@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 391 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-19T01:57:29.787861+00:00 -->
+<!-- retrieved_at: 2026-09-19T20:46:45.842481+00:00 -->
 
 ## Verified Records Archive
 
@@ -405,4 +405,4 @@ This document represents a unified, verifiable list of all 391 records.
 | 2025-09-06 | [Digital Transformation with Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/18108130) | Google Cloud | Google Skill Badge |
 
 
-[← Back to Index](./google-skills-index.md) | [← README](../README.md)
+[[UP] Back to Index](./google-skills-index.md) | [[UP] README](../README.md)
