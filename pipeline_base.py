@@ -286,7 +286,9 @@ class PipelineBase:
 
     def _sort_key(self, record):
         date = record.get("date", "0000-00-00")
-        return date if date != "N/A" else "0000-00-00"
+        if date is None or date == "N/A":
+            return "0000-00-00"
+        return date
 
     def persist_validation(self, records):
         """Persist validated data with layer metadata."""

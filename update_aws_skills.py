@@ -334,15 +334,28 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
 
         title = row["Title"].strip()
         badge_type = row.get("Type", "").strip()
-        earned_date = row.get("Earned Date", "").strip()
+        # Try multiple possible date column names from AWS CSV exports
+        # Actual column in aws-training-activity.csv is "Completed on"
+        earned_date = (
+            row.get("Completed on", "")
+            or row.get("Earned Date", "")
+            or row.get("Date Earned", "")
+            or row.get("Completion Date", "")
+            or row.get("Completed Date", "")
+            or row.get("Earned", "")
+            or ""
+        ).strip()
         credential_url = row.get("Credential URL", "").strip()
         credential_id = row.get("Credential ID", "") or row.get("ID", "")
         credential_id = credential_id.strip()
 
-        if not earned_date:
-            earned_date = "2026-01-01"
+        # Normalize the date, with fallback to "2026-01-01" for missing/unparseable dates
+        # This maintains backward compatibility and ensures proper sorting
+        normalized_date = normalize_date_string(earned_date)
+        if not normalized_date:
+            normalized_date = "2026-01-01"
 
-        b_id = credential_id or generate_badge_id(title, earned_date)
+        b_id = credential_id or generate_badge_id(title, normalized_date)
 
         entry = {
             "id": b_id,
@@ -350,9 +363,9 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
             "name": title,
             "issuer": "Amazon Web Services",
             "issuer_name": "Amazon Web Services",
-            "issued_at": normalize_date_string(earned_date) or earned_date,
-            "issued_at_date": normalize_date_string(earned_date) or earned_date,
-            "date": normalize_date_string(earned_date) or earned_date,
+            "issued_at": normalized_date,
+            "issued_at_date": normalized_date,
+            "date": normalized_date,
             "image_url": None,
             "verify_url": credential_url or profile_url,
             "url": credential_url,
@@ -581,6 +594,7 @@ class AWSSkillsPipeline(PipelineBase):
 
     def format_for_archive(self, record: dict) -> tuple[str, str]:
         """Format single record for markdown table: (row_text, date)."""
+        # Date is now guaranteed to be set (with fallback in parser)
         date_str = str(record.get("issued_at") or "2026-01-01").strip()
         title = str(record.get("title") or "Unknown Credential").strip()
         verify_url = record.get("verify_url")
