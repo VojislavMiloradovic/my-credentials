@@ -1,17 +1,19 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 677 records.
+This document represents a unified, verifiable list of all 679 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-19T02:39:28.213486+00:00 -->
+<!-- retrieved_at: 2026-09-19T20:50:14.584388+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-19 | [AI Foundations for Educators](https://www.credly.com/badges/a90de7d5-3c53-46c6-8b58-be924bf3b489/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-19 | [Applied AI in the Classroom](https://www.credly.com/badges/2fb201af-1733-4121-80df-fdaeab10d425/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-18 | [Basis Foundations 2.0](https://www.credly.com/badges/01f3c51d-1d56-4883-9933-40f3c0bf43c9/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-18 | [Connected TV (CTV) Essentials: Basis User Edition](https://www.credly.com/badges/aa8ae1e7-90c8-4cb4-8cb3-7f052cdbe166/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-18 | [Digital Media Associate](https://www.credly.com/badges/8b57e007-073d-484e-8cdf-137cc4599dfb/public_url) | Basis Technologies | Credly Verified Badge |
@@ -691,4 +693,4 @@ This document represents a unified, verifiable list of all 677 records.
 | 2025-11-04 | [Prompt Design in Vertex AI Skill Badge](https://www.credly.com/badges/cd1cec47-b40b-4395-bdb0-bc859fc3d4d7/public_url) | Google Cloud | Credly Verified Badge |
 
 
-[← Back to Index](./credly-index.md) | [← README](../README.md)
+[[UP] Back to Index](./credly-index.md) | [[UP] README](../README.md)
