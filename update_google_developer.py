@@ -915,7 +915,7 @@ class GoogleDeveloperPipeline(PipelineBase):
                 "",
                 "#### Latest Achievements",
                 "",
-                f"Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/{self.PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]{{LATEST_SLICE_NORMAL}} ([Raw]{{LATEST_SLICE_RAW}}), or [Monolithic Complete File](./archives/{self.PLATFORM_PREFIX}-complete.md).",
+                f"Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/{self.PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic Complete File](./archives/{self.PLATFORM_PREFIX}-complete.md).",
                 "",
                 "| Date Earned | Title | Description |",
                 "| :---: | :--- | :--- |",

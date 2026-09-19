@@ -658,7 +658,7 @@ class AWSSkillsPipeline(PipelineBase):
             [
                 "#### Latest Earned Credentials",
                 "",
-                f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]{{LATEST_SLICE_NORMAL}} ([Raw]{{LATEST_SLICE_RAW}}), or [Monolithic File](./archives/aws-skills-complete.md).",
+                f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic File](./archives/aws-skills-complete.md).",
                 "",
                 "| Date Earned | Credential Name | Issuer | Verification Type |",
                 "| :---: | :--- | :--- | :---: |",

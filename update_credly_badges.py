@@ -623,7 +623,7 @@ class CredlyPipeline(PipelineBase):
             "",
             "#### Latest Earned Credentials",
             "",
-            f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]{{LATEST_SLICE_NORMAL}} ([Raw]{{LATEST_SLICE_RAW}}), or [Monolithic File](./archives/credly-complete.md).",
+            f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic File](./archives/credly-complete.md).",
             "",
             "| Date Earned | Credential Name | Issuer | Verification Type |",
             "| :---: | :--- | :--- | :---: |",
