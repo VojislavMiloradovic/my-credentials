@@ -9,12 +9,13 @@ transform: 1:1_pass_through
 artifacts: archive_complete, archive_index, jsonld
 ---
 
-# microsoft-learn — Part 23
+# microsoft-learn -- Part 23
 
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-22.md](./microsoft-learn-2025-12-part-22.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-24.md](./microsoft-learn-2025-12-part-24.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Communicate using message boxes in Power Automate for desktop flows** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-message-boxes/) |
 | **Troubleshoot physical failures on Windows clients** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-physical-failures-windows-clients/) |
 | **MD-100 Troubleshoot hardware and drivers** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-hardware-drivers/) |
 | **Explore physical hardware troubleshooting** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-physical-hardware-troubleshooting/) |
@@ -66,7 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage software delivery by using a release based workflow on GitHub** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/release-based-workflow-github/) |
 | **Govern your hybrid and multicloud machines through Azure Arc-enabled servers** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-azure-arc-enabled-servers/) |
 | **Differentiation in the classroom using the built-in tools in Office 365 and Windows** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/differentiation-classroom-built-in-tools-office-365-windows/) |
-| **The inclusive classroom: Find the correct learning tools to help all students achieve more** | Learningpaths | 2025-12-26 | N/A |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-22.md](./microsoft-learn-2025-12-part-22.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-24.md](./microsoft-learn-2025-12-part-24.md)

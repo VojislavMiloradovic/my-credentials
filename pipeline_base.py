@@ -270,14 +270,27 @@ class PipelineBase:
         # 7. Format for archive
         formatted_rows = [self.format_for_archive(r) for r in records]
 
-        # 8. Generate archive & update README
-        latest_slice = self.generate_archive(formatted_rows)
+        # 8. Build README lines with placeholder slice (will be replaced after archive generation)
+        readme_lines = self.build_readme_lines(records, "")
 
-        # 9. Update README
-        readme_lines = self.build_readme_lines(records, latest_slice)
+        # 9. Generate archive with README lines (archiver writes README with placeholders)
+        latest_slice = self.generate_archive(formatted_rows, readme_lines)
+
+        # 10. Replace placeholder slice links in readme_lines with actual latest_slice
+        if latest_slice:
+            LATEST_SLICE_NORMAL = "./archives/" + latest_slice
+            LATEST_SLICE_RAW = RAW_BASE_DEFAULT + "/" + latest_slice
+            for i, line in enumerate(readme_lines):
+                if "{LATEST_SLICE_NORMAL}" in line:
+                    readme_lines[i] = line.replace(
+                        "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
+                    ).replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
+                    break
+
+        # 11. Update README with resolved slice links
         self.update_readme(readme_lines, latest_slice)
 
-        # 10. Sync fixtures
+        # 12. Sync fixtures
         self.sync_fixtures()
 
         self.logger.info(
@@ -305,7 +318,7 @@ class PipelineBase:
         except Exception as e:
             self.logger.warning(f"[WARN] Could not persist validation data: {e}")
 
-    def generate_archive(self, formatted_rows):
+    def generate_archive(self, formatted_rows, readme_lines):
         """Generate markdown archive via archiver module."""
         if not generate_platform_archive:
             self.logger.warning(
@@ -321,7 +334,7 @@ class PipelineBase:
                 table_headers=self.TABLE_HEADERS,
                 table_alignments=self.TABLE_ALIGNMENTS,
                 formatted_rows=formatted_rows,
-                readme_lines=[],  # We'll update README separately
+                readme_lines=readme_lines,
                 marker_start=self.MARKER_START,
                 marker_end=self.MARKER_END,
                 archive_dir=self.ARCHIVE_DIR,

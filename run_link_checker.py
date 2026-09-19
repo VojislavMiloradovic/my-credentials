@@ -139,17 +139,17 @@ def generate_summary(data: dict[str, Any]) -> str:
     summary_parts.append(f"| [SEARCH] Total | {total} |\n")
     summary_parts.append(f"| [LINK] Unique | {unique} |\n")
     summary_parts.append(f"| [OK] Successful | {successful} |\n")
-    summary_parts.append(f"| ⏳ Timeouts | {timeouts} |\n")
-    summary_parts.append(f"| 🔀 Redirected | {redirects} |\n")
-    summary_parts.append(f"| 👻 Excluded | {excludes} |\n")
-    summary_parts.append(f"| ❓ Unknown | {unknown} |\n")
-    summary_parts.append(f"| 🚫 Errors | {errors} |\n")
-    summary_parts.append(f"| ⛔ Unsupported | {unsupported} |\n")
+    summary_parts.append(f"| [TIMEOUT] Timeouts | {timeouts} |\n")
+    summary_parts.append(f"| [SYNC] Redirected | {redirects} |\n")
+    summary_parts.append(f"| [GHOST] Excluded | {excludes} |\n")
+    summary_parts.append(f"| [Q] Unknown | {unknown} |\n")
+    summary_parts.append(f"| [BLOCK] Errors | {errors} |\n")
+    summary_parts.append(f"| [BLOCK] Unsupported | {unsupported} |\n")
     summary_parts.append("\n")
 
     # REDIRECTS - show full redirect chains with source files
     if redirected_links:
-        summary_parts.append(f"## 🔀 Redirected Links ({len(redirected_links)})\n")
+        summary_parts.append(f"## [SYNC] Redirected Links ({len(redirected_links)})\n")
         summary_parts.append(
             "*These links returned 3xx redirects. Check if they redirect to auth pages or valid destinations.*\n\n"
         )
@@ -171,7 +171,7 @@ def generate_summary(data: dict[str, Any]) -> str:
 
     # ERRORS - show all errors with details and source files
     if failed_links:
-        summary_parts.append(f"## 🚫 Errors ({len(failed_links)})\n")
+        summary_parts.append(f"## [BLOCK] Errors ({len(failed_links)})\n")
         summary_parts.append(
             "*These links failed completely. Check if they are retired, broken, or need authentication.*\n\n"
         )
@@ -189,7 +189,7 @@ def generate_summary(data: dict[str, Any]) -> str:
 
     # TIMEOUTS
     if timeout_links:
-        summary_parts.append(f"## ⏳ Timeouts ({len(timeout_links)})\n")
+        summary_parts.append(f"## [TIMEOUT] Timeouts ({len(timeout_links)})\n")
         summary_parts.append("| Source File | Line | URL | Status | Error |\n")
         summary_parts.append("| --- | --- | --- | --- | --- |\n")
         for item in timeout_links:
@@ -203,7 +203,7 @@ def generate_summary(data: dict[str, Any]) -> str:
 
     # EXCLUDED - show by pattern with source files
     if excluded_links:
-        summary_parts.append(f"## 👻 Excluded Links ({len(excluded_links)})\n")
+        summary_parts.append(f"## [GHOST] Excluded Links ({len(excluded_links)})\n")
         # Group by pattern
         patterns = {}
         for item in excluded_links:

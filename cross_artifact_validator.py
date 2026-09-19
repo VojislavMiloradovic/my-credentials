@@ -1214,11 +1214,11 @@ class CrossArtifactValidator:
                         check_name=f"count_consistency_{source1}_vs_{source2}",
                         platform=platform_key,
                         passed=passed,
-                        expected=f"{val2} (±{tolerance_pct}%)"
+                        expected=f"{val2} (+/-{tolerance_pct}%)"
                         if tolerance_pct > 0
                         else val2,
                         actual=val1,
-                        message=f"{description}: {source1}={val1} vs {source2}={val2} {'✓' if passed else '✗ MISMATCH'}",
+                        message=f"{description}: {source1}={val1} vs {source2}={val2} {'[OK]' if passed else '[FAIL] MISMATCH'}",
                         severity=severity,
                     )
                 )
@@ -1248,7 +1248,7 @@ class CrossArtifactValidator:
                             passed=passed,
                             expected=f"{src_count} (transform: {transform_type})",
                             actual=tgt_count,
-                            message=f"Declared transform {src_layer} -> {tgt_layer} ({transform_type}): {src_count} -> {tgt_count} {'✓' if passed else '✗ MISMATCH'}",
+                            message=f"Declared transform {src_layer} -> {tgt_layer} ({transform_type}): {src_count} -> {tgt_count} {'[OK]' if passed else '[FAIL] MISMATCH'}",
                             severity="error"
                             if not passed and not self.warn_mode
                             else ("warning" if not passed else "error"),
@@ -1415,7 +1415,7 @@ class CrossArtifactValidator:
                         passed=passed,
                         expected=counts.retired_in_jsonld,
                         actual=counts.retired_in_archive,
-                        message=f"Retired count: archive={counts.retired_in_archive} vs jsonld={counts.retired_in_jsonld} {'✓' if passed else '✗ MISMATCH'}",
+                        message=f"Retired count: archive={counts.retired_in_archive} vs jsonld={counts.retired_in_jsonld} {'[OK]' if passed else '[FAIL] MISMATCH'}",
                         severity="warning",
                     )
                 )

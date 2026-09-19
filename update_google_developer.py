@@ -54,72 +54,86 @@ MARKER_END = "<!-- GOOGLE_DEVELOPER_END -->"
 MAX_ALLOWED_DATA_LOSS_PCT = 0.15
 
 SERBIAN_MONTHS = {
-    "јан": "01",
-    "јануар": "01",
-    "јануара": "01",
+    # Latin script (Serbian + English month names)
     "jan": "01",
     "januar": "01",
     "januara": "01",
-    "феб": "02",
-    "фебруар": "02",
-    "фебруара": "02",
+    "january": "01",
     "feb": "02",
     "februar": "02",
     "februara": "02",
-    "мар": "03",
-    "март": "03",
-    "марта": "03",
+    "february": "02",
     "mar": "03",
     "mart": "03",
     "marta": "03",
-    "апр": "04",
-    "април": "04",
-    "априла": "04",
+    "march": "03",
     "apr": "04",
     "april": "04",
     "aprila": "04",
-    "мај": "05",
-    "маја": "05",
+    "may": "05",
     "maj": "05",
     "maja": "05",
-    "јун": "06",
-    "јуна": "06",
     "jun": "06",
     "juna": "06",
-    "јул": "007",
-    "јула": "07",
+    "june": "06",
     "jul": "07",
     "jula": "07",
-    "авг": "08",
-    "август": "08",
-    "августа": "08",
+    "july": "07",
     "avg": "08",
+    "avgust": "08",
+    "avgusta": "08",
     "august": "08",
-    "augusta": "08",
-    "сеп": "09",
-    "септембар": "09",
-    "септембара": "09",
     "sep": "09",
     "septembar": "09",
     "septembra": "09",
-    "окт": "10",
-    "октобар": "10",
-    "октобара": "10",
+    "september": "09",
     "okt": "10",
     "oktobar": "10",
     "oktobra": "10",
-    "нов": "11",
-    "новембар": "11",
-    "новембара": "11",
+    "october": "10",
     "nov": "11",
     "novembar": "11",
     "novembra": "11",
-    "дец": "12",
-    "децембар": "12",
-    "децембара": "12",
+    "november": "11",
     "dec": "12",
     "decembar": "12",
     "decembra": "12",
+    "december": "12",
+    # Cyrillic script (for test data with actual Unicode)
+    "јан": "01",
+    "јануар": "01",
+    "јануара": "01",
+    "феб": "02",
+    "фебруар": "02",
+    "фебруара": "02",
+    "мар": "03",
+    "март": "03",
+    "марта": "03",
+    "апр": "04",
+    "април": "04",
+    "априла": "04",
+    "мај": "05",
+    "маја": "05",
+    "јун": "06",
+    "јуни": "06",
+    "јуна": "06",
+    "јул": "07",
+    "јула": "07",
+    "авг": "08",
+    "август": "08",
+    "августа": "08",
+    "сеп": "09",
+    "септембар": "09",
+    "септембра": "09",
+    "окт": "10",
+    "октобар": "10",
+    "октобра": "10",
+    "нов": "11",
+    "новембар": "11",
+    "новembra": "11",
+    "дек": "12",
+    "децембар": "12",
+    "децембра": "12",
 }
 
 RETIRED_URLS_FILE = "retired_urls.json"
@@ -208,8 +222,8 @@ def fix_mojibake(text: str) -> str:
     """Fix common mojibake patterns from MHTML quoted-printable decoding.
 
     Common issues:
-    - Em dash (—) becomes     or \u00e2\u20ac\u201d or \u00e2\u20ac\u201c
-    - En dash (–) becomes \u00e2\u20ac\u201c or \u00e2\u20ac\u201d
+    - Em dash (--) becomes     or \u00e2\u20ac\u201d or \u00e2\u20ac\u201c
+    - En dash (-) becomes \u00e2\u20ac\u201c or \u00e2\u20ac\u201d
     - Smart quotes become \u00e2\u20ac\u0153/\u00e2\u20ac\u009d
     - Bullet points become \u00e2\u20ac\u00a2
     """
@@ -217,8 +231,8 @@ def fix_mojibake(text: str) -> str:
         return text
 
     # Fix UTF-8 mojibake from quoted-printable double-decoding
-    # Em dash (—) = UTF-8 E2 80 93 -> when misdecoded as latin1: \u00e2\u20ac\u201d
-    # En dash (–) = UTF-8 E2 80 92 -> when misdecoded as latin1: \u00e2\u20ac\u201c
+    # Em dash (--) = UTF-8 E2 80 93 -> when misdecoded as latin1: \u00e2\u20ac\u201d
+    # En dash (-) = UTF-8 E2 80 92 -> when misdecoded as latin1: \u00e2\u20ac\u201c
     replacements = {
         "\u00e2\u20ac\u201d": "\u2014",  # em dash (\u00e2\u20ac\u201d)
         "\u00e2\u20ac\u201c": "\u2013",  # en dash (\u00e2\u20ac\u201c)
@@ -402,13 +416,13 @@ def parse_local_learnings_txt() -> list[dict]:
             iso_date = normalize_date_string(line)
             title = lines[i - 1]
             if (
-                title in ["Учење", "check_circle_outline You have this badge!"]
+                title in ["Ucheje", "check_circle_outline You have this badge!"]
                 and i > 1
             ):
                 title = lines[i - 2]
 
             if (
-                title not in ["Учење", "check_circle_outline You have this badge!"]
+                title not in ["Ucheje", "check_circle_outline You have this badge!"]
                 and not title.startswith("http")
                 and not any(item["title"] == title for item in learnings)
             ):

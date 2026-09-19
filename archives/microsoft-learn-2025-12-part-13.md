@@ -9,7 +9,7 @@ transform: 1:1_pass_through
 artifacts: archive_complete, archive_index, jsonld
 ---
 
-# microsoft-learn — Part 13
+# microsoft-learn -- Part 13
 
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-12.md](./microsoft-learn-2025-12-part-12.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-14.md](./microsoft-learn-2025-12-part-14.md) | [Complete Archive](./microsoft-learn-complete.md)
 

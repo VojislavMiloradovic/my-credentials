@@ -9,12 +9,13 @@ transform: 1:1_pass_through
 artifacts: archive_complete, archive_index, jsonld
 ---
 
-# microsoft-learn — Part 16
+# microsoft-learn -- Part 16
 
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-15.md](./microsoft-learn-2025-12-part-15.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-17.md](./microsoft-learn-2025-12-part-17.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Develop on a remote machine using SSH in Visual Studio Code** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-on-remote-machine/) |
 | **Get started with Dynamics 365 Intelligent Order Management** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-intelligent-order-management/) |
 | **Implement inheritance and polymorphism** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-inheritance-polymorphism/) |
 | **Implement class inheritance** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-class-inheritance/) |
@@ -67,7 +68,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Apply Viva Glint’s modern approach to engagement for better results** | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-engagement/) |
 | **Empower action for better results with Viva Glint** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-empower-action-better-results-viva-glint/) |
 | **Edit code using any device with Visual Studio Code for the Web** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/edit-code-using-any-device/) |
-| **Teams for education partners (Partner Success Series)** | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/teams-education-partners/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-15.md](./microsoft-learn-2025-12-part-15.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-17.md](./microsoft-learn-2025-12-part-17.md)

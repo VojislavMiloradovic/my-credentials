@@ -251,7 +251,7 @@ def load_baseline(
     if not os.path.exists(baseline_path):
         stream_suffix = f" ({stream_id})" if stream_id else ""
         logger.info(
-            f"[PACKAGE] [{platform}{stream_suffix}] No baseline found at {baseline_path} — first run."
+            f"[PACKAGE] [{platform}{stream_suffix}] No baseline found at {baseline_path} -- first run."
         )
         return None
 
@@ -273,7 +273,7 @@ def load_baseline(
 
         stream_suffix = f" ({stream_id})" if stream_id else ""
         logger.info(
-            f"📂 [{platform}{stream_suffix}] Loaded baseline: {len(index)} records from {baseline_path}"
+            f"[DIR] [{platform}{stream_suffix}] Loaded baseline: {len(index)} records from {baseline_path}"
         )
         return index
 
@@ -329,7 +329,7 @@ def save_baseline(
 
         stream_suffix = f" ({stream_id})" if stream_id else ""
         logger.info(
-            f"[SAVE] [{platform}{stream_suffix}] Baseline updated: {len(fingerprint_index)} records → {baseline_path}"
+            f"[SAVE] [{platform}{stream_suffix}] Baseline updated: {len(fingerprint_index)} records [FWD] {baseline_path}"
         )
         return True
 
@@ -455,13 +455,13 @@ def log_diff_report(report: DiffReport) -> None:
         added_preview = report.details["added_ids"][:10]
         suffix = "..." if len(report.details["added_ids"]) > 10 else ""
         logger.info(
-            f"   ➕ Added ({len(report.details['added_ids'])}): {added_preview}{suffix}"
+            f"   [ADD] Added ({len(report.details['added_ids'])}): {added_preview}{suffix}"
         )
     if report.details.get("removed_ids"):
         removed_preview = report.details["removed_ids"][:10]
         suffix = "..." if len(report.details["removed_ids"]) > 10 else ""
         logger.warning(
-            f"   ➖ Removed ({len(report.details['removed_ids'])}): {removed_preview}{suffix}"
+            f"   - Removed ({len(report.details['removed_ids'])}): {removed_preview}{suffix}"
         )
     if report.details.get("modified_ids"):
         modified_preview = report.details["modified_ids"][:10]
@@ -856,18 +856,20 @@ def execute_content_loss_guard(
     if has_violations:
         msg = f"[{platform}{stream_suffix}] Content integrity check FAILED: {'; '.join(violations)}"
         if fail_on_warn:
-            logger.error(f"🚫 {msg} — Pipeline terminated.")
+            logger.error(f"[BLOCK] {msg} -- Pipeline terminated.")
             raise PipelineDataLossAnomaly(msg)
         else:
-            logger.warning(f"[WARN] {msg} — Continuing (fail_on_warn=False).")
+            logger.warning(f"[WARN] {msg} -- Continuing (fail_on_warn=False).")
 
     if has_warnings and not has_violations:
         msg = f"[{platform}{stream_suffix}] Content integrity WARNINGS: {'; '.join(warnings)}"
         if fail_on_warn:
-            logger.error(f"🚫 {msg} — Pipeline terminated (warn treated as fail).")
+            logger.error(
+                f"[BLOCK] {msg} -- Pipeline terminated (warn treated as fail)."
+            )
             raise PipelineDataLossAnomaly(msg)
         else:
-            logger.warning(f"[WARN] {msg} — Continuing (fail_on_warn=False).")
+            logger.warning(f"[WARN] {msg} -- Continuing (fail_on_warn=False).")
 
     if not has_violations and not has_warnings:
         logger.info(f"[OK] [{platform}{stream_suffix}] Content integrity check PASSED.")

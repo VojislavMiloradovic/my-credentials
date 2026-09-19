@@ -9,12 +9,13 @@ transform: 1:1_pass_through
 artifacts: archive_complete, archive_index, jsonld
 ---
 
-# microsoft-learn — Part 17
+# microsoft-learn -- Part 17
 
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-16.md](./microsoft-learn-2025-12-part-16.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-18.md](./microsoft-learn-2025-12-part-18.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Upload your project by using GitHub best practices** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/upload-project-github/) |
 | **Adjust process behavior using conditional actions with Power Automate for desktop** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-conditionals/) |
 | **Migrate your repository by using GitHub best practices** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-repository-github/) |
 | **Discover DevOps** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-devops/) |
@@ -67,7 +68,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Intro to Azure DNS Private Resolver** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-dns-private-resolver/) |
 | **Introduction to Azure Database for MySQL** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-database-for-mysql/) |
 | **Azure Database for MySQL** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-azure-database-for-mysql/) |
-| **Develop on a remote machine using SSH in Visual Studio Code** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-on-remote-machine/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-16.md](./microsoft-learn-2025-12-part-16.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-18.md](./microsoft-learn-2025-12-part-18.md)

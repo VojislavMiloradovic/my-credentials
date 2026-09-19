@@ -9,12 +9,13 @@ transform: 1:1_pass_through
 artifacts: archive_complete, archive_index, jsonld
 ---
 
-# microsoft-learn — Part 24
+# microsoft-learn -- Part 24
 
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-23.md](./microsoft-learn-2025-12-part-23.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-25.md](./microsoft-learn-2025-12-part-25.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Improve your reliability with modern operations practices: Incident response** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-reliability-incidents/) |
 | **Simulate mouse and keyboard actions by using Power Automate for desktop** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-mouse-keyboard/) |
 | **Use input and output variables - Online workshop** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-input-output-online-workshop/) |
 | **Introduction to Azure Virtual WAN** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-virtual-wan/) |
@@ -64,7 +65,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage devices used for education** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/education-manage-devices/) |
 | **Manage scoped administration and delegation with Microsoft Intune and Intune for Education** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/education-manage-admin/) |
 | **Integrate data with Azure Data Factory or Azure Synapse Pipeline** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-integration-azure-data-factory/) |
-| **Communicate using message boxes in Power Automate for desktop flows** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-message-boxes/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-23.md](./microsoft-learn-2025-12-part-23.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-25.md](./microsoft-learn-2025-12-part-25.md)

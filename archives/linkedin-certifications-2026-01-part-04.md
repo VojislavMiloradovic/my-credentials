@@ -9,7 +9,7 @@ transform: 1:1_pass_through
 artifacts: archive_complete, archive_index, jsonld
 ---
 
-# LinkedIn Certifications — Part 04
+# LinkedIn Certifications -- Part 04
 
 > **Navigation:** Prev: [linkedin-certifications-2025-12-part-03.md](./linkedin-certifications-2025-12-part-03.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-03-part-05.md](./linkedin-certifications-2026-03-part-05.md) | [Complete Archive](./linkedin-certifications-complete.md)
 

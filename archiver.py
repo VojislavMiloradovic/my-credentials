@@ -223,7 +223,7 @@ def generate_platform_archive(
         archive_md.append(f"{row_text}\n")
 
     archive_md.append(
-        f"\n\n[← Back to Index](./{platform_prefix}-index.md) | [← README](../README.md)\n"
+        f"\n\n[[UP] Back to Index](./{platform_prefix}-index.md) | [[UP] README](../README.md)\n"
     )
 
     monolith_text = "".join(archive_md)
@@ -316,7 +316,7 @@ def generate_platform_archive(
             f"transform: {layer_transform.get('type', 'unknown') if isinstance(layer_transform, dict) else layer_transform}",
             f"artifacts: {', '.join(layer_artifacts)}",
             "---\n",
-            f"# {platform_name} — Part {i:02d}\n",
+            f"# {platform_name} -- Part {i:02d}\n",
             f"> **Navigation:** Prev: {prev_link} | [Index](./{platform_prefix}-index.md) | Next: {next_link} | [Complete Archive](./{monolith_filename})\n",
             header_line,
             align_line,
@@ -384,7 +384,7 @@ def generate_platform_archive(
             f"| Part {cm['part']:02d} | [`{cm['filename']}`](./{cm['filename']}) | `{cm['date_range']}` | {cm['entries']} | {cm['size_kb']} KB | {cm['tokens']:,} | [Raw URL]({cm['raw_url']}) |"
         )
 
-    idx_md.append("\n\n[← Back to Main README](../README.md)\n")
+    idx_md.append("\n\n[[UP] Back to Main README](../README.md)\n")
     idx_written = safe_write_file(index_path, "\n".join(idx_md) + "\n")
 
     idx_status = "Updated" if idx_written else "Unchanged"

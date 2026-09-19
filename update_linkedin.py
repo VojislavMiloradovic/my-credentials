@@ -728,4 +728,4 @@ if __name__ == "__main__":
 
         sync_fixtures("linkedin-certifications")
     except Exception as e:
-        logger.warning(f"âš ď¸Ź Fixture sync failed (non-fatal): {e}")
+        logger.warning(f"as d,z Fixture sync failed (non-fatal): {e}")

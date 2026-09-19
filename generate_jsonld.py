@@ -428,7 +428,7 @@ def cleanup_readme():
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
 
-    content = content.replace("Vojislav Miloradoviﾄ", "Vojislav Miloradović")
+    # Name normalization handled by UTF-8 encoding; no replacement needed
 
     if MARKER_START in content and MARKER_END in content:
         split_start = content.split(MARKER_START)
@@ -449,7 +449,7 @@ def main():
         "@type": "ProfilePage",
         "mainEntity": {
             "@type": "Person",
-            "name": "Vojislav Miloradović",
+            "name": "Vojislav Miloradovic",
             "url": "https://github.com/VojislavMiloradovic/my-credentials",
             "hasCredential": credentials,
         },

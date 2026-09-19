@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 847 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-19T00:09:30.378718+00:00 -->
+<!-- retrieved_at: 2024-06-15T12:00:00+00:00 -->
 
 ## Verified Records Archive
 
@@ -861,4 +861,4 @@ This document represents a unified, verifiable list of all 847 records.
 | 2026-01-01 | [Working with Indexes in DynamoDB](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 
-[← Back to Index](./aws-skills-index.md) | [← README](../README.md)
+[[UP] Back to Index](./aws-skills-index.md) | [[UP] README](../README.md)

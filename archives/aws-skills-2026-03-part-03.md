@@ -9,7 +9,7 @@ transform: 1:1_pass_through
 artifacts: archive_complete, archive_index, jsonld
 ---
 
-# AWS Skill Builder Credentials — Part 03
+# AWS Skill Builder Credentials -- Part 03
 
 > **Navigation:** Prev: [aws-skills-2026-02-part-02.md](./aws-skills-2026-02-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-03-part-04.md](./aws-skills-2026-03-part-04.md) | [Complete Archive](./aws-skills-complete.md)
 
