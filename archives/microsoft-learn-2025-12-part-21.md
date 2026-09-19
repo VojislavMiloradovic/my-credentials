@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Introduction to Azure Bot Service and Bot Framework Composer** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-bot-service-bot-framework-composer/) |
 | **Document and test your Power Apps application** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-test-powerapps-app/) |
 | **Bringing it all together for engaging virtual events in Microsoft 365** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-bring-all-together-engaging-virtual-events/) |
 | **Deliver engaging and accessible virtual events with Microsoft Teams and Microsoft 365** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-virtual-events-fundamentals/) |
@@ -69,6 +68,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Describe inventory and warehousing capabilities in Dynamics 365 Supply Chain Management** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-warehouse-inventory-management-capabilities/) |
 | **What is Microsoft Graph?** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-intro-overview/) |
 | **Fundamentals of computer networking** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/network-fundamentals/) |
+| **Understanding Low Code as a Traditional Developer** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/understanding-low-code-as-a-traditional-developer/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-20.md](./microsoft-learn-2025-12-part-20.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-22.md](./microsoft-learn-2025-12-part-22.md)
