@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Automate Docker container deployments with Azure Pipelines** | Modules | 2026-01-04 | N/A |
 | **Introduction to Graph connectors** | Modules | 2026-01-04 | N/A |
 | **Configure a JavaScript application to retrieve Microsoft 365 data by using Microsoft Graph** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-javascript-app/) |
 | **Microsoft Graph Fundamentals** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-fundamentals/) |
@@ -67,6 +66,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Data integration at scale with Azure Data Factory or Azure Synapse Pipeline** | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-integration-scale-azure-data-factory/) |
 | **Execute existing SSIS packages in Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/execute-existing-ssis-packages-azure-data-factory/) |
 | **Orchestrate data movement and transformation in Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-data-movement-transformation-azure-data-factory/) |
+| **Populate slowly changing dimensions in Azure Synapse Analytics pipelines** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-27.md](./microsoft-learn-2026-01-part-27.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-29.md](./microsoft-learn-2026-01-part-29.md)
