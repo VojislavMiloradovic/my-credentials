@@ -1,0 +1,32 @@
+{
+  "platform": "credly",
+  "stream_id": null,
+  "record_count": 4,
+  "created_at": "2024-06-15T12:00:00+00:00",
+  "fingerprints": {
+    "badge-001": {
+      "record_id": "badge-001",
+      "content_hash": "9a19d85f0ef2ca601c26bb87a1293d45",
+      "platform": "credly",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "badge-002": {
+      "record_id": "badge-002",
+      "content_hash": "aa145d2c6f29597c5efeba94c723ea6a",
+      "platform": "credly",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "badge-003": {
+      "record_id": "badge-003",
+      "content_hash": "c3375e65e5c286ac393c84d5a5483c5e",
+      "platform": "credly",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "ext-001": {
+      "record_id": "ext-001",
+      "content_hash": "bacc000f569ff65f3e85292ce9e6e43f",
+      "platform": "credly",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    }
+  }
+}

@@ -12,7 +12,8 @@ import shutil
 from pathlib import Path
 
 # Mapping: platform -> list of (source_file, destination_file)
-# ONLY syncs baseline files from for_validation/
+# SOURCE = for_validation/ (production baselines, full data)
+# DEST = tests/fixtures/ (test fixtures, small controlled data)
 FIXTURE_MAP = {
     "microsoft-learn": [
         (

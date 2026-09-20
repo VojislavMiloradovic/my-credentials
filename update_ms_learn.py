@@ -750,7 +750,7 @@ class MicrosoftLearnPipeline(PipelineBase):
 
         md.append("### Recent Achievements & Completed Badges")
         md.append(
-            f"Showing latest 10 of {format_num(len(records))} achievements. View full dataset via [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Latest Slice]{{LATEST_SLICE_NORMAL}} ([Raw]{{LATEST_SLICE_RAW}}), or [Monolithic Complete File](./archives/{monolith_filename}).\n"
+            f"Showing latest 10 of {format_num(len(records))} achievements. View full dataset via [Platform Archive Index](./archives/{index_filename}) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic Complete File](./archives/{monolith_filename}).\n"
         )
 
         # Table header for Recent Achievements in README
