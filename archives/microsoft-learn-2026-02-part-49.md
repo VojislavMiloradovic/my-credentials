@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 49 of 95
+chunk_part: 49 of 96
 date_range: 2026-02-14 to 2026-02-18
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-49.md
@@ -34,8 +34,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Explore data integration concepts in finance and operations apps** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/integration-patterns-finance-operations/) |
 | **Help service reps be more productive in Dynamics 365 Customer Service** | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/agents-help-customer-service/) |
 | **Create smart assist solutions in Contact Center for Dynamics 365 Customer Service** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-smart-assist-omnichannel/) |
-| **Implement and operate an on-premises and hybrid networking infrastructure** | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-operate-premises-hybrid/) |
 | **Implement IP Address Management** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ip-address-management/) |
+| **Implement and operate an on-premises and hybrid networking infrastructure** | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-operate-premises-hybrid/) |
 | **Protect, monitor, and tune a migrated database** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-monitor-tuning-migrated-database/) |
 | **Configure monitoring for virtual machines** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-monitoring-virtual-machines/) |
 | **Work with codeunits in Dynamics 365 Business Central** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-codeunits/) |

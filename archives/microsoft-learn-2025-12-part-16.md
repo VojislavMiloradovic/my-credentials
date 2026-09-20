@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 16 of 95
+chunk_part: 16 of 96
 date_range: 2025-12-16 to 2025-12-18
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-16.md

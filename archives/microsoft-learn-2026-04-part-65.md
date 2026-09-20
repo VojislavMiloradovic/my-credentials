@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 65 of 95
+chunk_part: 65 of 96
 date_range: 2026-04-04 to 2026-04-07
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-65.md
@@ -29,8 +29,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Troubleshoot platform-as-a-service issues in Microsoft Azure** | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-platform-service-issues/) |
 | **Measure performance in Azure Cosmos DB for NoSQL** | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/measure-performance-azure-cosmos-db-sql-api/) |
 | **Monitor and troubleshoot an Azure Cosmos DB for NoSQL solution** | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-troubleshoot-azure-cosmos-db-sql-api-solution/) |
-| **Continuous integration with Azure DevOps for Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/continuous-integration/) |
 | **Use Docker in your Business Central development process** | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-docker-business-central/) |
+| **Continuous integration with Azure DevOps for Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/continuous-integration/) |
 | **Work with Asset Management for Dynamics 365 Supply Chain Management** | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-asset-management-dyn365-supply-chain-mgmt/) |
 | **Work with warranties in Asset Management for Dynamics 365 Supply Chain Management** | Modules | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/warranties-asset-management/) |
 | **Configure Asset Management for Dynamics 365 Supply Chain Management** | Learningpaths | 2026-04-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-asset-management-dyn365-supply-chain-mgmt/) |

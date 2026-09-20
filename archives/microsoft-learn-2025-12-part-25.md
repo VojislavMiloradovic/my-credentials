@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 25 of 95
+chunk_part: 25 of 96
 date_range: 2025-12-28 to 2025-12-29
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-25.md
@@ -40,8 +40,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **MD-100 Troubleshoot the Windows client operating system and apps** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-windows-client-operating-system-apps/) |
 | **Troubleshoot operating system service issues** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-operating-system-service-issues/) |
 | **Use alternative interfaces for Dynamics 365 Business Central** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/alternative-interfaces-dynamics-365-business-central/) |
-| **Integrate OpenAPI-enabled Web APIs with Azure API Management through Visual Studio** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-openapi-enabled-web-api-with-apim-and-visual-studio/) |
 | **Transform your business applications with fusion development** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-applications-with-fusion-development/) |
+| **Integrate OpenAPI-enabled Web APIs with Azure API Management through Visual Studio** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-openapi-enabled-web-api-with-apim-and-visual-studio/) |
 | **Build a Power Apps component** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-apps-component/) |
 | **Transform business software authoring with fusion development teams** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-business-software-authoring-with-fusion-dev/) |
 | **MD-100 Configure threat protection** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-threat-protection/) |

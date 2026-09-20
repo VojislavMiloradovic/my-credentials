@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 83 of 95
+chunk_part: 83 of 96
 date_range: 2026-06-06 to 2026-06-09
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-83.md
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Explore Git hooks** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/) |
 | **Design a data storage solution for relational data** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/) |
 | **Power Platform Robotic Process Automation overview** | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-platform-robotic-process-automation-overview/) |
 | **Introduction to Microsoft Power Platform developer resources** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-developer-resources/) |
@@ -49,7 +50,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Understand How to Secure AI Data with Microsoft Purview** | Modules | 2026-06-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-understand-risks/) |
 | **Secure Microsoft 365 Copilot interactions with Microsoft Purview** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-secure-copilot/) |
 | **Secure enterprise and browser-based AI apps with Microsoft Purview** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-secure-enterprise-other/) |
-| **GitHub Copilot Fundamentals Part 2 of 2** | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
 | **Introduction to MCP Server** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/mcp-server/) |
 | **Understand how Microsoft Purview Unified Catalog unifies your data estate** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-unified-catalog-understand/) |
 | **Azure Local Accreditation 2025** | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-local-accreditation-2025/) |

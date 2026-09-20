@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 21 of 95
+chunk_part: 21 of 96
 date_range: 2025-12-23 to 2025-12-24
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-21.md
@@ -24,8 +24,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Define a Microsoft AI strategy to create business value in healthcare** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-healthcare/) |
 | **Foundations of user experience and design thinking** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/ux-design/) |
 | **Get started with Azure Stream Analytics** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-data-streaming/) |
-| **MD-100 Install the Windows client** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/install-windows-client/) |
 | **Evaluate deployment methods** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-deployment-methods/) |
+| **MD-100 Install the Windows client** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/install-windows-client/) |
 | **Align requirements with cloud types and service models in Azure** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/align-requirements-in-azure/) |
 | **Leverage data for action with Microsoft Education Insights** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/leverage-data-for-action-microsoft-insights/) |
 | **Think like a Maker series: Plan and deploy your Power App** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-deploy/) |

@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 95 of 95
-date_range: 2026-08-08 to 2026-09-13
-total_entries: 44
+chunk_part: 95 of 96
+date_range: 2026-08-08 to 2026-09-20
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-95.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,18 @@ artifacts: archive_complete, archive_index, jsonld
 
 # microsoft-learn -- Part 95
 
-> **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: None | [Complete Archive](./microsoft-learn-complete.md)
+> **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-96.md](./microsoft-learn-2026-09-part-96.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **What practice manager can expect** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-practice-manager-can-expect/) |
+| **Configure reliable email intake in Dynamics 365 Customer Service** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-email-channel-customer-service/) |
+| **Dragon Copilot for Practice Managers - 101** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-practice-managers-101/) |
+| **Where to find help** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/where-to-find-help/) |
+| **Change management in your Dragon Copilot implementation** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/change-management-dragon-copilot-implementation/) |
+| **Create agents with the GitHub Copilot harness in Microsoft Copilot Studio** | Learningpaths | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-agents-github-copilot-harness-copilot-studio/) |
+| **Evaluate, publish, and manage agents in Microsoft Copilot Studio** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-publish-manage-agents-copilot-studio/) |
+| **Support customers across engagement channels in Dynamics 365 Customer Service** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/customer-engagement-channels-overview/) |
 | **Dragon Copilot (physicians) practical application exercises** | Learningpaths | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-physicians-practical-application-exercises/) |
 | **Dragon Copilot AI Ambassador - Ambassador level** | Learningpaths | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-ambassador-level/) |
 | **Dragon Copilot (physicians) create templates** | Modules | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-create-templates/) |
@@ -61,5 +69,5 @@ artifacts: archive_complete, archive_index, jsonld
 | **Add decision-making to your code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-decision-making-python/) |
 
 ---
-> **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: None
+> **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-96.md](./microsoft-learn-2026-09-part-96.md)
 

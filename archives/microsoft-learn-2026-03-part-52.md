@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 52 of 95
+chunk_part: 52 of 96
 date_range: 2026-02-26 to 2026-03-01
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-03-part-52.md
@@ -55,8 +55,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage fixed assets in Dynamics 365 Finance** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-fixed-assets-finance/) |
 | **Automate workloads with Azure Databricks Jobs** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-jobs-azure-databricks/) |
 | **Implement multi-stage reasoning in Azure Databricks** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/multistage-reasoning-azure-databricks/) |
-| **Implement Windows Server high availability** | Learningpaths | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-high-availability/) |
 | **Implement high availability of Windows Server VMs** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-high-availability-of-windows-server-vms/) |
+| **Implement Windows Server high availability** | Learningpaths | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-high-availability/) |
 | **Build web apps with Blazor** | Learningpaths | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-web-apps-with-blazor/) |
 | **Improve how forms and validation work in Blazor web apps** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/blazor-improve-how-forms-work/) |
 | **Use service-level agreements and entitlements in Dynamics 365 Field Service** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-service-level-agreements-entitlements/) |

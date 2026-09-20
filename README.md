@@ -15,13 +15,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,030,550
+- **Total Experience Points (XP):** 6,043,525
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,926
-- **Trophies Earned (Profile):** 906
-- **Completed Learning Paths (Active Tracker):** 515
-- **Completed Modules (Active Tracker):** 2,683
-- **Completed Individual Units:** 35,869
+- **Badges Earned (Profile):** 3,935
+- **Trophies Earned (Profile):** 907
+- **Completed Learning Paths (Active Tracker):** 517
+- **Completed Modules (Active Tracker):** 2,688
+- **Completed Individual Units:** 35,951
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25T16:21:33+00:00 | Status: Active)
@@ -32,20 +32,20 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,832 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-09-part-95.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-95.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,842 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-09-part-96.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-96.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Dragon Copilot (physicians) practical application exercises** | Learningpaths | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-physicians-practical-application-exercises/) |
-| **Dragon Copilot AI Ambassador - Ambassador level** | Learningpaths | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-ambassador-level/) |
-| **Dragon Copilot (physicians) create templates** | Modules | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-create-templates/) |
-| **Understand Storage Spaces Direct** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-storage-spaces-direct/) |
-| **Integrate backend services for AI solutions** | Learningpaths | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-backend-services-ai-solutions/) |
-| **Orchestrate durable AI workflows with Azure Durable Functions** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-durable-functions/) |
-| **Automate agent tasks with workflows in Microsoft Copilot Studio** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-agent-tasks-workflows-copilot-studio/) |
-| **Get started using Foundry on Windows: AI Dev Gallery (Preview)** | Modules | 2026-09-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-dev-gallery/) |
-| **Dragon Copilot (nurses) verbalization guide** | Modules | 2026-09-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-nurses-verbalization-module/) |
-| **Ground and extend agents with knowledge, tools, and skills** | Modules | 2026-09-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-extend-agents-knowledge-tools-skills/) |
+| **Accelerate development with GitHub Copilot Cloud Agent** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/) |
+| **GitHub Copilot Fundamentals Part 2 of 2** | Learningpaths | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
+| **Harden a Microsoft 365 tenant with Microsoft Secure Score** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-microsoft-365-secure-score/) |
+| **How to support usage and adoption** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/how-to-support-usage-adoption/) |
+| **What practice manager can expect** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-practice-manager-can-expect/) |
+| **Configure reliable email intake in Dynamics 365 Customer Service** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-email-channel-customer-service/) |
+| **Dragon Copilot for Practice Managers - 101** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-practice-managers-101/) |
+| **Where to find help** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/where-to-find-help/) |
+| **Change management in your Dragon Copilot implementation** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/change-management-dragon-copilot-implementation/) |
+| **Create agents with the GitHub Copilot harness in Microsoft Copilot Studio** | Learningpaths | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-agents-github-copilot-harness-copilot-studio/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

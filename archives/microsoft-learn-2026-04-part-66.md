@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 66 of 95
+chunk_part: 66 of 96
 date_range: 2026-04-07 to 2026-04-11
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-66.md
@@ -15,8 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Set up pipeline environments in Microsoft Power Platform** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-pipeline-environments/) |
 | **Simplify Microsoft Power Platform deployments by using pipelines** | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/simplify-power-platform-deployments/) |
+| **Set up pipeline environments in Microsoft Power Platform** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-pipeline-environments/) |
 | **Create resources in Dynamics 365 Business Central** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-resources/) |
 | **Unlock customer intent with Dynamics 365 Customer Insights - Data** | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-customer-insights/) |
 | **Configure and administer Customer Insights - Data** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-customer-data-platform/) |
@@ -41,15 +41,15 @@ artifacts: archive_complete, archive_index, jsonld
 | **Download and upload files in a JavaScript app with Microsoft Graph** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-manage-files/) |
 | **Work with fixed assets master data in Dynamics 365 Business Central** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/fixed-assets-master-data/) |
 | **Sync items and inventory in Shopify and Dynamics 365 Business Central** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-items-shopify-dynamics-365-business-central/) |
-| **Create resource template for Azure Cosmos DB for NoSQL** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-resource-template-for-azure-cosmos-db-sql-api/) |
 | **Manage an Azure Cosmos DB for NoSQL solution using DevOps practices** | Learningpaths | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-cosmos-db-sql-api-solution-using-devops-practices/) |
+| **Create resource template for Azure Cosmos DB for NoSQL** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-resource-template-for-azure-cosmos-db-sql-api/) |
 | **Work with essential development standards for Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/essential-development-standards/) |
 | **Use document standards in Dynamics 365 Business Central** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-document-standards-business-central/) |
 | **Work with master data in Dynamics 365 Business Central** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-master-data-business-central/) |
 | **Create accessible web apps by using ASP.NET Core** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aspnet-core-accessibility/) |
 | **Process foreign currency payments in Dynamics 365 Business Central** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/foreign-currencies-dynamics-365-business-central/) |
-| **Manage Microsoft Priva Subject Rights Requests** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/priva-subject-rights-requests/) |
 | **Implement and manage data privacy with Microsoft Priva** | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/priva-data-privacy-solutions/) |
+| **Manage Microsoft Priva Subject Rights Requests** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/priva-subject-rights-requests/) |
 | **Boost K-12 school cybersecurity leadership with Microsoft tools** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/boost-school-cybersecurity-leadership-microsoft-tools/) |
 | **Troubleshoot connectivity issues with virtual machines in Microsoft Azure** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-connectivity-issues-virtual-machines-azure/) |
 | **Create and process fixed kanbans in Dynamics 365 Supply Chain Management** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-process-fixed-kanbans-dyn365-supply-chain-mgmt/) |

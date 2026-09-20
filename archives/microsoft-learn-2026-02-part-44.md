@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 44 of 95
+chunk_part: 44 of 96
 date_range: 2026-02-09 to 2026-02-10
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-44.md
@@ -15,8 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Manage Azure updates** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-updates/) |
 | **Implement Windows Server hybrid cloud management, monitoring, and security** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-hybrid-cloud-management-monitoring-security/) |
+| **Manage Azure updates** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-updates/) |
 | **Interact with an ASP.NET Core minimal API** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-api/) |
 | **Migrate to Azure Database for PostgreSQL flexible server** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-azure-database-postgresql-flexible-server/) |
 | **MS-102 Implement identity synchronization** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-identity-synchronization/) |
@@ -56,8 +56,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement Microsoft Purview Insider Risk Management** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-insider-risk-management/) |
 | **MS-102 Implement compliance in Microsoft 365** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-compliance-microsoft-365/) |
 | **Manage data compliance for Microsoft 365 Copilot** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-data-compliance-copilot-microsoft-365/) |
-| **Implement data classification of sensitive information** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-classification-sensitive-information/) |
 | **MS-102 Manage compliance in Microsoft 365** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/ms-102-manage-compliance-microsoft-365/) |
+| **Implement data classification of sensitive information** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-classification-sensitive-information/) |
 | **Managing cases with Dynamics 365 Customer Service Hub** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/managing-cases-with-dynamics-365/) |
 | **Migrate data to Business Central** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-data-dynamics-365-business-central/) |
 | **Migrate on-premises data to Dynamics 365 Business Central** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-intelligent-cloud-dynamics-365-business-central/) |

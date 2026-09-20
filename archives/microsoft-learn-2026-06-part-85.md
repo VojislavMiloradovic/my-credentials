@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 85 of 95
+chunk_part: 85 of 96
 date_range: 2026-06-13 to 2026-06-20
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-85.md
@@ -16,6 +16,7 @@ artifacts: archive_complete, archive_index, jsonld
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
 | **Integrate Dataverse Azure solutions** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-dataverse-azure-solutions/) |
+| **Integrate with Power Platform and Dataverse** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-power-platform-dataverse/) |
 | **Migrate, consolidate, and secure artifacts** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/) |
 | **Introduction to deployment patterns** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/) |
 | **AZ-400: Implement a secure continuous deployment using Azure Pipelines** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-secure-continuous-deployment/) |
@@ -24,8 +25,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Work with Dataverse Web API** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dataverse-web-api/) |
 | **Configure and deploy Teams Phone** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-teams-phone-system/) |
 | **Extend the user experience with client scripting and command bar customization** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-user-experience-client-scripting-command-bar-customization/) |
-| **Extend Power Platform user experience with model-driven apps** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-power-platform-user-experience/) |
 | **Automate business process flows with client script** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-platform-automate-client-script/) |
+| **Extend Power Platform user experience with model-driven apps** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-power-platform-user-experience/) |
 | **Plan and design the integration of enterprise apps for SSO** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-design-integration-of-enterprise-apps-for-sso/) |
 | **Configure and Provision Environments** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/) |
 | **Implement open-source software** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/) |
@@ -65,7 +66,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Introduction to Zero Trust and best practice frameworks** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-zero-trust-best-practice-frameworks/) |
 | **Introduction to GitHub Packages** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/) |
 | **Discover customer needs as a Solution Architect for Dynamics 365 and Microsoft Power Platform** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-customer-needs/) |
-| **Work with requirements for Microsoft Power Platform and Dynamics 365** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-requirements/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-86.md](./microsoft-learn-2026-06-part-86.md)

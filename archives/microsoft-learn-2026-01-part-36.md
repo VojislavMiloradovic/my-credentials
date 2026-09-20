@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 36 of 95
+chunk_part: 36 of 96
 date_range: 2026-01-24 to 2026-01-25
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-36.md
@@ -41,10 +41,10 @@ artifacts: archive_complete, archive_index, jsonld
 | **Work with Azure Blob storage** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-azure-blob-storage/) |
 | **Introduction to Microsoft Sentinel** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-sentinel/) |
 | **Enroll devices using Microsoft Configuration Manager** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-devices-use-endpoint-configuration-manager/) |
-| **Build social and emotional skills in your classroom community with Reflect** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-sel-skills-with-reflect/) |
 | **Learning Accelerators for educators** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/learning-accelerators-for-educators/) |
-| **Get started with data engineering on Azure** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-data-engineering/) |
+| **Build social and emotional skills in your classroom community with Reflect** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-sel-skills-with-reflect/) |
 | **Introduction to data engineering on Azure** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-data-engineering-azure/) |
+| **Get started with data engineering on Azure** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-data-engineering/) |
 | **Guided project - Administer Active Directory Domain Services** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-administer-active-directory-domain-services/) |
 | **Guided project - Accelerate app development using GitHub Copilot tools** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-accelerate-app-development-using-github-copilot-tools/) |
 | **Generate documentation using GitHub Copilot tools** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-documentation-using-github-copilot-tools/) |

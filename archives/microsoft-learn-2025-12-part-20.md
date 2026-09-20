@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 20 of 95
+chunk_part: 20 of 96
 date_range: 2025-12-22 to 2025-12-23
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-20.md
@@ -27,8 +27,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Customize ASP.NET Core behavior with middleware** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/aspnetcore-middleware/) |
 | **Understand data concepts** | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/understand-data-concepts/) |
 | **Understand data roles, services, and products** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-data-roles-services-products/) |
-| **DevOps foundations: The core principles and practices** | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/devops-foundations-core-principles-practices/) |
 | **Operate with DevOps** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/operate-with-devops/) |
+| **DevOps foundations: The core principles and practices** | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/devops-foundations-core-principles-practices/) |
 | **Manage and monitor data warehouse activities in Azure Synapse Analytics** | Modules | 2025-12-23 | N/A |
 | **Write your first PowerShell code** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/powershell-write-first/) |
 | **Automate administrative tasks by using PowerShell** | Learningpaths | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/powershell/) |

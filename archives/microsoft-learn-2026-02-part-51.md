@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 51 of 95
+chunk_part: 51 of 96
 date_range: 2026-02-25 to 2026-02-26
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-51.md
@@ -18,8 +18,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Train a machine learning model in Azure Databricks** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/machine-learning-azure-databricks/) |
 | **Evaluate language models with Azure Databricks** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-language-models-azure-databricks/) |
 | **Implement streaming architecture patterns with Delta Live Tables** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-streaming-architecture-patterns-with-delta-live-tables/) |
-| **Guided Project – Deploy and configure Azure Monitor** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-deploy-configure-azure-monitor/) |
 | **Deploy and configure Azure Monitor** | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-azure-monitor/) |
+| **Guided Project – Deploy and configure Azure Monitor** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-deploy-configure-azure-monitor/) |
 | **Monitor device profiles** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-device-profiles/) |
 | **Optimize performance with Spark and Delta Live Tables** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-performance-with-spark-and-delta-live-tables/) |
 | **Introduction to tools for declarative agents in Copilot Studio** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-studio-actions/) |
@@ -32,8 +32,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Enable organizational access** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-organizational-access/) |
 | **Protect identities in Microsoft Entra ID** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-identities-azure-active-directory/) |
 | **Plan and manage your Microsoft Power Platform environment** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-manage-environment/) |
-| **Introduction to open-source database migration on Azure** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-open-source-database-migration-azure/) |
 | **Common Linux server configurations** | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/common-linux-server-configurations/) |
+| **Introduction to open-source database migration on Azure** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-open-source-database-migration-azure/) |
 | **Process credit and collections in Dynamics 365 Finance** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-credit-collections-dyn365-finance/) |
 | **Work with accounting distributions, invoice validations, and settlements in Dynamics 365 Finance** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/accounting-distributions-invoice-validation-dyn365-finance/) |
 | **Introduction to integrating Dataverse with Dynamics 365 Business Central** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-dataverse-integrate/) |
@@ -58,8 +58,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Introduction and prerequisites for Power Pages - Online workshop** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-introduction-online-workshop/) |
 | **Manage settings for a local Windows machine using PowerShell cmdlets** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-settings-for-local-windows-machine-use-powershell-cmdlets/) |
 | **Consume an Azure Cosmos DB for NoSQL change feed using the SDK** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/consume-azure-cosmos-db-sql-api-change-feed-use-sdk/) |
-| **Automate database deployment** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-automatic-deployment-azure-sql-database/) |
 | **Automate database tasks for Azure SQL** | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-tasks-sql-server/) |
+| **Automate database deployment** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-automatic-deployment-azure-sql-database/) |
 | **Deploy new devices** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-new-devices/) |
 | **Process sales orders with Dynamics 365 Sales** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-sales-orders-dynamics-365-sales/) |
 | **Get started with language models in Azure Databricks** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-language-models-databricks/) |

@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 10 of 95
+chunk_part: 10 of 96
 date_range: 2025-12-01 to 2025-12-04
-total_entries: 53
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-10.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Microsoft for Healthcare training environment preparation** | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/training-environment-preparation-healthcare/) |
 | **Creating and configuring a HDInsight cluster.** | Modules | 2025-12-04 | N/A |
 | **Configure and style Microsoft Graph Toolkit components by using attributes and CSS** | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-toolkit-customize-part-one/) |
 | **Upload images to Azure Blob Storage from a static web app** | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/blob-storage-image-upload-static-web-apps/) |
@@ -27,8 +26,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Run a training script as a command job in Azure Machine Learning** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-training-script-command-job-azure-machine-learning/) |
 | **Choose the correct data type in your C# code** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-choose-data-type/) |
 | **Empower your workforce with Microsoft 365 Copilot: Challenge Use Case** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-challenge/) |
-| **Deepen educational experiences with the 21CLD ICT for learning dimension** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/deepen-educational-experiences/) |
 | **21st century learning design** | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/21st-century-learning-design/) |
+| **Deepen educational experiences with the 21CLD ICT for learning dimension** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/deepen-educational-experiences/) |
 | **Integrate your project with PWABuilder** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-with-pwabuilder/) |
 | **Implement Azure Database for MySQL Flexible Server features that support mission-critical workloads** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-database-for-mysql-features-that-support-mission-critical-workloads/) |
 | **Design a program launch strategy** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/academic-program-certifications-design-program-launch/) |
@@ -68,6 +67,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Develop accessible resize and reflow** | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-accessible-resize-reflow/) |
 | **Validate and monitor data health in School Data Sync** | Modules | 2025-12-01 | N/A |
 | **Beyond School Data Sync basics** | Modules | 2025-12-01 | N/A |
+| **Deploy a simple Java web app to Azure App Service** | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-hello-world-app-service/) |
+| **Role of an OKR Champion** | Modules | 2025-12-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/role-of-champion/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-09.md](./microsoft-learn-2025-12-part-09.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-11.md](./microsoft-learn-2025-12-part-11.md)

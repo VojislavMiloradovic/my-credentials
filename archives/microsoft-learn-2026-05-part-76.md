@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 76 of 95
+chunk_part: 76 of 96
 date_range: 2026-05-08 to 2026-05-13
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-76.md
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **When to evaluate Azure Local for private cloud scenarios** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-azure-local/) |
 | **Configure routing in Dynamics 365 Contact Center** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-routing-contact-center/) |
 | **Implement Microsoft Defender for Servers** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-microsoft-defender-servers/) |
 | **Develop secure IoT Solutions for Azure Sphere with IoT Hub** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-secure-iot-solutions-azure-sphere-iot-hub/) |
@@ -65,7 +66,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Develop computer vision solutions with Microsoft Foundry** | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-computer-vision-with-foundry/) |
 | **Generate videos with Microsoft Foundry** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-video-with-foundry/) |
 | **Evaluate and optimize AI agents through structured experiments** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-optimize-agents/) |
-| **Discover Azure AI Agents with A2A** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-75.md](./microsoft-learn-2026-05-part-75.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-77.md](./microsoft-learn-2026-05-part-77.md)

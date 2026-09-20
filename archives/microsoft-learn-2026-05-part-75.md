@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 75 of 95
+chunk_part: 75 of 96
 date_range: 2026-05-04 to 2026-05-08
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-75.md
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Discover Azure AI Agents with A2A** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/) |
 | **Develop AI agents with Microsoft Foundry and Visual Studio Code** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-azure-vs-code/) |
 | **Create an Azure Content Understanding client application** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-content-ai-api/) |
 | **Develop AI information extraction solutions in Azure** | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-extract-information/) |
@@ -33,7 +34,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Secure and harden Internet Information Services** | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-harden-internet-information-services/) |
 | **Orchestrate configuration of prebuilt agents and apps** | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-configuration-prebuilt-agents-apps/) |
 | **Design ALM process for AI-powered business solutions** | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-alm-process-ai-powered-business-solutions/) |
-| **Accelerate development with GitHub Copilot Cloud Agent** | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/) |
 | **Develop a text analysis agent with the Azure Language MCP server** | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-text-analysis-agent-language-mcp/) |
 | **Dragon Copilot (nurses) troubleshooting** | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-troubleshoot-issues/) |
 | **Connect IoT devices to Azure AI Speech using Azure Functions** | Modules | 2026-05-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/connecting-iot-devices-cognitive-services-azure-functions/) |

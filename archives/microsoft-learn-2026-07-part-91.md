@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 91 of 95
+chunk_part: 91 of 96
 date_range: 2026-07-09 to 2026-07-13
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-91.md
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Retrace your steps with Recall (preview)** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/recall-preview/) |
 | **Enhance video and audio with Windows Studio Effects** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-studio-effects/) |
 | **Secure AI agents with Microsoft Purview data security controls** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-agent-data-security/) |
 | **Optimize your Windows gaming experience with the Xbox app** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-windows-gaming/) |
@@ -22,8 +23,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Active Directory sites, topology, and replication** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-site-replication/) |
 | **Describe manufacturing processes in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-manufacturing-processes-dynamics-365-supply-chain-management/) |
 | **Understand Active Directory Group Policy security settings** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-security-policies/) |
-| **Design security solutions for applications and data** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-security-solutions-applications-data/) |
 | **Interactive case study: Securing apps and data** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-apps-data/) |
+| **Design security solutions for applications and data** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-security-solutions-applications-data/) |
 | **Design data models and optimize performance in Azure DocumentDB** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-data-models-optimize-performance-azure-documentdb/) |
 | **Recognize and avoid schema design anti-patterns in Azure DocumentDB** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/recognize-avoid-schema-design-anti-patterns-azure-documentdb/) |
 | **Query and manipulate data in Azure DocumentDB** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-manipulate-data-azure-documentdb/) |
@@ -38,8 +39,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Interactive case study: Modernizing identity and data security** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-identity-data-security/) |
 | **Accelerate Azure SQL tasks with Microsoft Copilot** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-copilot-administer-azure-sql/) |
 | **Improve meeting collaboration with Facilitator in Microsoft Teams** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/facilitator-in-microsoft-teams/) |
-| **Program with Transact-SQL** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/program-transact-sql/) |
 | **Get started with Transact-SQL programming** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-transact-sql-programming/) |
+| **Program with Transact-SQL** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/program-transact-sql/) |
 | **AZ-400: Design and implement a release strategy** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-release-strategy/) |
 | **Create a Release Pipeline** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/) |
 | **Manage volume access for Azure NetApp Files** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-volume-access-azure-netapp-files/) |
@@ -64,7 +65,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Deploy and govern enterprise agentic AI solutions on Azure** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-3-deploy-govern-agentic-ai-solutions-azure/) |
 | **Scale responsible AI governance with Azure AI Content Safety and Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-scale-responsible-ai-governance-multi-agent/) |
 | **Monitor, evaluate, and operate multi-agent AI solutions in Azure** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-4-monitor-evaluate-operate-multi-agent-ai-solutions-azure/) |
-| **Optimize multi-agent performance and cost in Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-optimize-multi-agent-performance-cost-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-90.md](./microsoft-learn-2026-07-part-90.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md)

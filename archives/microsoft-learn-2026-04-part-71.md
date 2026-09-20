@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 71 of 95
+chunk_part: 71 of 96
 date_range: 2026-04-23 to 2026-04-25
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-71.md
@@ -47,8 +47,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage resource lifecycles with deployment stacks** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-resource-lifecycles-deployment-stacks/) |
 | **Design emission calculations** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-emissions-calculation/) |
 | **Set up a sustainability solution using Microsoft Sustainability Manager** | Learningpaths | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-sustainability-solution/) |
-| **Set up Service management in Dynamics 365 Supply Chain Management** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-service-management/) |
 | **Set up and use service management in Dynamics 365 Supply Chain Management** | Learningpaths | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-use-service-management/) |
+| **Set up Service management in Dynamics 365 Supply Chain Management** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-service-management/) |
 | **Budget fixed assets in Dynamics 365 Business Central** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/budget-fixed-assets/) |
 | **Manage serial and lot numbers on inventory in Dynamics 365 Business Central** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-serial-lot-numbers-inventory/) |
 | **Create projects in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-jobs/) |
@@ -60,8 +60,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Guided lab for Dynamics 365 Intelligent Order Management** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-lab-intelligent-order-management/) |
 | **Build reports and review insights** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-insights-reporting/) |
 | **Set up Service Management in Dynamics 365 Business Central** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-service-management/) |
-| **Send finance charge memos to customers in Dynamics 365 Business Central** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-memos-dynamics-365-business-central/) |
 | **Process financial periodic activities in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) |
+| **Send finance charge memos to customers in Dynamics 365 Business Central** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-memos-dynamics-365-business-central/) |
 | **Process Intrastat in Dynamics 365 Business Central** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-intrastat-dynamics-365-business-central/) |
 | **Troubleshooting Windows Containers** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-windows-containers/) |
 

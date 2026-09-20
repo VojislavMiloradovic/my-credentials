@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 93 of 95
+chunk_part: 93 of 96
 date_range: 2026-07-17 to 2026-07-24
-total_entries: 53
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-93.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -67,7 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Choose tools and services for your agent on Microsoft's agent platform** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-solutions-microsoft-agent-platform/) |
 | **Customize a canvas app in Power Apps** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-apps-in-powerapps/) |
 | **Learn the basics of Power BI Desktop, Power Automate, and PowerApps** | Learningpaths | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-platform-introduction/) |
-| **Get started with Power Apps canvas apps** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md)

@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 77 of 95
+chunk_part: 77 of 96
 date_range: 2026-05-13 to 2026-05-17
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-77.md
@@ -15,10 +15,11 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Understand Azure Databricks architecture** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-databricks-architecture/) |
 | **Dragon Copilot 101 for nurse champions** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-for-nurse-champions/) |
 | **Understand the nurse champion role for Dragon Copilot** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-welcome-to-nurse-champion/) |
-| **Enforce security governance and regulatory compliance** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-governance-compliance/) |
 | **Enforce governance with Azure Policy and resource locks** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-governance-azure-policy-resource-locks/) |
+| **Enforce security governance and regulatory compliance** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-governance-compliance/) |
 | **Eliminate public network exposure of Azure PaaS services** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/eliminate-public-exposure-paas-private-link/) |
 | **Implement network security controls in Azure** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-network-security-controls-azure/) |
 | **Dragon Copilot - nurse leaders adoption and reinforcement** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/nurse-leaders-adoption/) |
@@ -64,7 +65,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Detect container risks using Microsoft Defender for Containers** | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/detect-container-risks-defender-containers/) |
 | **Implement API backend security using Azure API Management** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-interface-security-management/) |
 | **Troubleshoot and support peers using Dragon Copilot (nurses)** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-troubleshoot-and-support-peers/) |
-| **When to evaluate Azure Local for private cloud scenarios** | Modules | 2026-05-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-azure-local/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-76.md](./microsoft-learn-2026-05-part-76.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-78.md](./microsoft-learn-2026-05-part-78.md)

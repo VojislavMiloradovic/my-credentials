@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 17 of 95
+chunk_part: 17 of 96
 date_range: 2025-12-18 to 2025-12-19
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-17.md
@@ -37,8 +37,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Explore Dynamics 365 Customer Service** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-customer-service/) |
 | **Introduction to Microsoft Defender for Office 365** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-office-365-introduction/) |
 | **Introduction to Azure application delivery services** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-application-delivery-services/) |
-| **Introduction to Secure Application Delivery with Azure network security** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-application-delivery/) |
 | **Introduction to Azure Web Application Firewall** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-web-application-firewall/) |
+| **Introduction to Secure Application Delivery with Azure network security** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-application-delivery/) |
 | **Business process mapping for Dynamics 365** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-process-mapping-dynamics-365/) |
 | **Plan with DevOps** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-with-devops/) |
 | **Prepare your development environment for Azure development** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-your-dev-environment-for-azure-development/) |
@@ -65,8 +65,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **A guide to artificial intelligence** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/a-guide-to-artificial-intelligence/) |
 | **Create a SaaS offer for the commercial marketplace** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-saas-offer-commercial-marketplace/) |
 | **Intro to Azure DNS Private Resolver** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-dns-private-resolver/) |
-| **Introduction to Azure Database for MySQL** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-database-for-mysql/) |
 | **Azure Database for MySQL** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-azure-database-for-mysql/) |
+| **Introduction to Azure Database for MySQL** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-database-for-mysql/) |
 | **Develop on a remote machine using SSH in Visual Studio Code** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-on-remote-machine/) |
 
 ---

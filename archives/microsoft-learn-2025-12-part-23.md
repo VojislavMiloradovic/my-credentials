@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 23 of 95
+chunk_part: 23 of 96
 date_range: 2025-12-26 to 2025-12-27
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-23.md
@@ -51,8 +51,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Explore computers** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-computers/) |
 | **Discover the basics of computing** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-basics-computing/) |
 | **Explore security** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-security/) |
-| **Purchase Azure savings plan for compute ** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-savings-plan-for-compute/) |
 | **Control Azure spending and manage bills with Microsoft Cost Management + Billing** | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/control-spending-manage-bills/) |
+| **Purchase Azure savings plan for compute ** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-savings-plan-for-compute/) |
 | **Configure and manage costs as a Microsoft partner by using Microsoft Cost Management** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-costs-partner-cost-management/) |
 | **Optimize Azure costs with data analysis in Power BI** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-costs-data-analysis-powerbi/) |
 | **Microsoft Azure Well-Architected Framework - Cost Optimization** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/) |

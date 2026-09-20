@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 14 of 95
+chunk_part: 14 of 96
 date_range: 2025-12-11 to 2025-12-14
-total_entries: 51
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-14.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -19,10 +19,10 @@ artifacts: archive_complete, archive_index, jsonld
 | **Naming and branding** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/name-brand/) |
 | **Plan your first agent - Online workshop** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-first-chatbot-online-workshop/) |
 | **Empower your workforce with Microsoft 365 Copilot: HR Use Case** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-hr/) |
-| **Enhance agents with autonomous capabilities** | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-autonomous-agents/) |
 | **Build an initial agent with Microsoft Copilot Studio** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilots-copilot-studio/) |
-| **Microsoft Intune fundamentals** | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/endpoint-manager-fundamentals/) |
+| **Enhance agents with autonomous capabilities** | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-autonomous-agents/) |
 | **Understand Conditional Access policies using Microsoft Intune** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/policy-security-management-using-microsoft-endpoint-manager/) |
+| **Microsoft Intune fundamentals** | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/endpoint-manager-fundamentals/) |
 | **Build community with Teams and OneNote** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-community-teams-onenote/) |
 | **Use a framework to identify threats and find ways to reduce or eliminate risk** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-use-a-framework-to-identify-threats-and-find-ways-to-reduce-or-eliminate-risk/) |
 | **Describe shared activities and integration options in Dynamics 365 customer engagement apps** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-common-activities-integration-options/) |
@@ -66,6 +66,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Generate batch predictions using a deployed model in Microsoft Fabric** | Modules | 2025-12-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-batch-predictions-fabric/) |
 | **Add and size disks in Azure virtual machines** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-and-size-disks-in-azure-virtual-machines/) |
 | **Manage virtual machines with the Azure CLI** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-virtual-machines-with-azure-cli/) |
+| **Create tables in Dataverse** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps-common-data-service/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-13.md](./microsoft-learn-2025-12-part-13.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-15.md](./microsoft-learn-2025-12-part-15.md)

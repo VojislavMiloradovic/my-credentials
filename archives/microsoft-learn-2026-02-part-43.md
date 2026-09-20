@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 43 of 95
+chunk_part: 43 of 96
 date_range: 2026-02-08 to 2026-02-09
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-43.md
@@ -21,8 +21,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Ingest streaming data using Azure Stream Analytics and Azure Synapse Analytics** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-streaming-data-use-azure-stream-analytics-synapse/) |
 | **Extend plug-ins in Power Platform** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-plug-ins/) |
 | **Explore Microsoft Entra ID** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-active-directory/) |
-| **Manage chat, teams, channels, and apps in Microsoft Teams** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-chat-teams-channels-apps-microsoft-teams/) |
 | **Create and manage teams** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-teams/) |
+| **Manage chat, teams, channels, and apps in Microsoft Teams** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-chat-teams-channels-apps-microsoft-teams/) |
 | **Configure ledger allocations and accruals in Dynamics 365 Finance** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ledger-allocations-accruals-dyn365-finance/) |
 | **Introduction to Dataverse for developers** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-dataverse-developers/) |
 | **Automate your workflow with GitHub Actions Part 2 of 2** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-actions-2/) |
@@ -42,8 +42,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage collaboration experiences for chat and channels** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-collaboration-experiences-for-chat-channels/) |
 | **Respond to data loss prevention alerts using Microsoft 365** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/respond-to-data-loss-prevention-alerts-microsoft-365/) |
 | **Visualize real-time data with Azure Stream Analytics and Power BI** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/visualize-real-time-data-azure-stream-analytics-power-bi/) |
-| **Plan an Azure Virtual Desktop implementation** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-azure-virtual-desktop-implementation/) |
 | **Azure Virtual Desktop Architecture** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-desktop-architecture/) |
+| **Plan an Azure Virtual Desktop implementation** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-azure-virtual-desktop-implementation/) |
 | **Manage Windows Servers and workloads in a hybrid environment** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-windows-servers-workloads-hybrid-environment/) |
 | **Perform post-installation configuration of Windows Server** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-post-installation-configuration-of-windows-server/) |
 | **Implement a Data Analytics Solution with Azure Databricks** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-engineer-azure-databricks/) |

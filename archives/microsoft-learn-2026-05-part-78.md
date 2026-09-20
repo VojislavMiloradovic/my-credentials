@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 78 of 95
+chunk_part: 78 of 96
 date_range: 2026-05-17 to 2026-05-20
-total_entries: 51
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-78.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -65,7 +65,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **AutoText foundations** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-attendings-autotext-foundations/) |
 | **Identify customer needs and explore relationships** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-customer-needs-explore-relationships/) |
 | **Set up and configure an Azure Databricks environment** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-set-up-configure-environment/) |
-| **Understand Azure Databricks architecture** | Modules | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-azure-databricks-architecture/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-77.md](./microsoft-learn-2026-05-part-77.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-79.md](./microsoft-learn-2026-05-part-79.md)

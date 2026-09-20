@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 47 of 95
+chunk_part: 47 of 96
 date_range: 2026-02-12 to 2026-02-13
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-47.md
@@ -17,8 +17,8 @@ artifacts: archive_complete, archive_index, jsonld
 | :--- | :--- | :--- | :--- |
 | **Work with pages in Dynamics 365 Business Central** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-pages/) |
 | **Set up cash management in Dynamics 365 Business Central** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/cash-management-dynamics-365-business-central/) |
-| **Text manipulation in Power Automate for desktop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-text-manipulation/) |
 | **Implement advanced logic in Power Automate for desktop** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-implement-advanced-logic/) |
+| **Text manipulation in Power Automate for desktop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-text-manipulation/) |
 | **Challenge project - Build a declarative agent to chat with your external data ingested to Microsoft 365** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-challenge-chat-with-external-data/) |
 | **Database handling in Power Automate for desktop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-database-handling/) |
 | **Implement retention, eDiscovery, and Communication compliance in Microsoft Purview** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-exercise-implement-retention-ediscovery-communication-compliance/) |
@@ -28,8 +28,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Get started with accounts receivable daily procedures in Dynamics 365 Finance** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/accounts-receivable-daily-procedures-dyn365-finance/) |
 | **Challenge project - Architecting solutions for a new product line for customers** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-architecting-solutions-for-new-product-line-for-customers/) |
 | **Configure monitoring for applications** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-monitoring-applications/) |
-| **Protect your on-premises infrastructure from disasters with Azure Site Recovery** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-on-premises-infrastructure-with-azure-site-recovery/) |
 | **Architect migration, business continuity, and disaster recovery in Azure** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-migration-bcdr/) |
+| **Protect your on-premises infrastructure from disasters with Azure Site Recovery** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-on-premises-infrastructure-with-azure-site-recovery/) |
 | **MS-102 Implement threat protection by using Microsoft Defender XDR** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-threat-protection-use-microsoft-365-defender/) |
 | **Explore threat intelligence in Microsoft Defender XDR** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-threat-intelligence-microsoft-365-defender/) |
 | **Add a layout to a report in Dynamics 365 Business Central** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-layout-report/) |
@@ -54,14 +54,14 @@ artifacts: archive_complete, archive_index, jsonld
 | **Create custom experiences for service representatives with agent experience profiles in Customer Service** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/agents-app-profile-manager/) |
 | **Run Azure Databricks Notebooks with Azure Data Factory** | Modules | 2026-02-12 | N/A |
 | **Introduction to Azure Virtual Desktop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-wvd-intro/) |
-| **Get started with Azure Cosmos DB for NoSQL** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-azure-cosmos-db-sql-api/) |
 | **Try Azure Cosmos DB for NoSQL** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/try-azure-cosmos-db-sql-api/) |
+| **Get started with Azure Cosmos DB for NoSQL** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-azure-cosmos-db-sql-api/) |
 | **Orchestrate containers on Windows Server using Kubernetes** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-containers-windows-server-using-kubernetes/) |
 | **Manage leads with Dynamics 365 Sales** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-leads-dynamics-365-sales/) |
 | **Examine data security and compliance in Microsoft 365 Copilot** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-data-security-microsoft-365-copilot/) |
 | **Prepare your organization for Microsoft 365 Copilot** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-your-organization-microsoft-365-copilot/) |
-| **Implement compliance controls for sensitive data** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-compliance-controls-sensitive-data/) |
 | **Implement a secure environment for a database service** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-secure-environment-database-service/) |
+| **Implement compliance controls for sensitive data** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-compliance-controls-sensitive-data/) |
 | **Set up and work with inbound operations using inventory management in Dynamics 365 Supply Chain Management** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-work-inbound-inventory-management/) |
 | **Create and process journal entries in Dynamics 365 Business Central** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-process-journal-entries-dynamics-365-business-central/) |
 
