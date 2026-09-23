@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 15 of 35
 date_range: 2026-06-03 to 2026-06-05
-total_entries: 47
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-15.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Create a widget with Glance** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/glance |
+| 2026-06-05 | **Build a serverless Ecommerce web app with Python, Cloud Run, Cloud SQL, and Firebase** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/solution-ecommerce-serverless-django |
 | 2026-06-05 | **firebase.google.com/codelabs/gemini-api-extensions-web** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/gemini-api-extensions-web |
 | 2026-06-05 | **Visualize data with Google Maps Platform and deck.gl** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/maps-deck-gl |
 | 2026-06-05 | **Improve the user experience of your Android app** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/improve-user-experience/improve-user-experience |
@@ -61,7 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-03 | **Build an interactive poll app for Google Chat with Node.js** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/google-chat-poll-app |
 | 2026-06-03 | **Advanced Authentication features** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/auth-mfa-blocking-functions |
 | 2026-06-03 | **Firebase Cross Device Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/cross-device-controller |
-| 2026-06-03 | **Use Remote Config to update your Unity game without a release quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-remote-config/use-remote-config-to-update-game-without-a-release |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-14.md](./google-developer-2026-06-part-14.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-16.md](./google-developer-2026-06-part-16.md)

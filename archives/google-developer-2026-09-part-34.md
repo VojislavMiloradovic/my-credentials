@@ -1,9 +1,9 @@
 ---
 archive_platform: google-developer
 chunk_part: 34 of 35
-date_range: 2026-08-07 to 2026-08-31
-total_entries: 47
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-34.md
+date_range: 2026-08-07 to 2026-09-03
+total_entries: 48
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-34.md
 layer: L2_published
 transform: unknown
 artifacts: archive_complete, archive_index, jsonld
@@ -15,6 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-09-03 | **Run your first JAX program on NVIDIA GPUs with GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-01-getting-started |
+| 2026-09-03 | **Train a transformer end to end with Flax NNX and Orbax** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-07-transformer-end-to-end |
+| 2026-08-31 | **Looker PSC Southbound access to multiple Cloud SQL PSC instances through proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-looker-cloudsql-southbound-proxy |
 | 2026-08-31 | **Investigate a GKE outage with Antigravity CLI and SRE Extension and build a beautiful Post Mortem** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/investigate-gke-cluster-breakage-scenarios-with-postmortem |
 | 2026-08-31 | **Deploy an ADK agent to Agent Runtime using Agents CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/enterprise-cloud-scale-deploying-the-expense-agent-to-agent-runtime-on-google-cloud |
 | 2026-08-31 | **Firebase iOS codelab: FriendlyChat** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-ios-swift |
@@ -60,8 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08-07 | **Simulate Thread Networks using OTNS** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-network-simulator |
 | 2026-08-07 | **Build a Thread network with nRF52840 boards and OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-hardware |
 | 2026-08-07 | **Simulating a Thread network with OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-simulation-posix |
-| 2026-08-07 | **Build a Multi-Agent Organic Chemistry Safety & Research Assistant with Antigravity, agents-cli, ADK & MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-parallel-multi-agent-chemistry-assistant |
-| 2026-08-07 | **Build a Thread Network with the ESP32H2 and ESP Thread Border Router Board** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/esp-openthread-hardware |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-08-part-33.md](./google-developer-2026-08-part-33.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-35.md](./google-developer-2026-09-part-35.md)

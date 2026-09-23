@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-27 | **Understand your game's crashes using advanced Crashlytics features** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-advanced-crashlytics-unity-games |
+| 2026-06-27 | **Build apps with Flutter** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/intro-to-flutter |
 | 2026-06-27 | **Build apps for Google Chat** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/google-chat-build-apps |
 | 2026-06-27 | **Launch your to-do web app with AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/launch-your-to-do-web-app-with-ai |
 | 2026-06-27 | **Combine layers of Firebase Security to protect your app** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-security-layers |
@@ -62,8 +64,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-22 | **Data Science with Spark** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/spark-ds-agents |
 | 2026-06-22 | **Building a Serverless Data Pipeline: IoT to Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/iot-data-pipeline |
 | 2026-06-22 | **Add Firebase to your Flutter app** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-flutter |
-| 2026-06-22 | **Create a Generative Chat App with Vertex AI Conversation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vertex-ai-conversation |
-| 2026-06-22 | **Create an accessible and personalized theme and brand with Material Design 3** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/m3-design-theming |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-29.md](./google-developer-2026-06-part-29.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-31.md](./google-developer-2026-06-part-31.md)

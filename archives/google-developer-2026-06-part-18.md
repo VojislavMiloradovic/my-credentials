@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 18 of 35
 date_range: 2026-06-05 to 2026-06-05
-total_entries: 67
+total_entries: 66
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-18.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Android Basics Compose Unit 8 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 2). |
+| 2026-06-05 | **Engage Users With Firebase** | Official Google Developer platform achievement (Learning Pathway: engage users with firebase). |
 | 2026-06-05 | **GDG Belgrade** | Official Google Developer platform achievement (Community: gdg belgrade). |
 | 2026-06-05 | **Android Basics Compose Unit 2 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 2 pathway 1). |
 | 2026-06-05 | **Android Development With Kotlin 8** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 8). |
@@ -79,9 +81,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-05 | **Android Development With Kotlin 11** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 11). |
 | 2026-06-05 | **Earned Badge** | Official Google Developer platform achievement (Learning Pathway: earned badge). |
 | 2026-06-05 | **Location Awareness In Apps** | Official Google Developer platform achievement (Learning Pathway: location_awareness_in_apps). |
-| 2026-06-05 | **Regression Ios** | Official Google Developer platform achievement (Learning Pathway: regression iOS). |
-| 2026-06-05 | **Android Basics Compose Unit 4 Pathway 3** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 4 pathway 3). |
-| 2026-06-05 | **Android Basics Compose Unit 4 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 4 pathway 1). |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-19.md](./google-developer-2026-06-part-19.md)

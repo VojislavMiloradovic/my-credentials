@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-10 | **Deploy a Micronaut application containerized with Jib to Google Kubernetes Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-micronaut-kubernetes |
+| 2026-06-10 | **Extending support for App Engine bundled services: Part 1 (Module 17)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-17-bundled |
 | 2026-06-10 | **Build apps for Google Chat with Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/chat-apps-gemini |
 | 2026-06-10 | **Cloud DNS ResourceRecordSets API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-dns-rrsets-gcloud |
 | 2026-06-10 | **Google Pay API for React Native on Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/pay-react-native |
@@ -59,8 +61,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-09 | **Build Voice Bots for Android with Dialogflow Essentials & Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-flutter |
 | 2026-06-09 | **Wagtail on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-wagtail |
 | 2026-06-09 | **Connecting to CloudSQL via Private Service Connect (Terraform)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloudsql-psc-terraform |
-| 2026-06-09 | **Track Autofill Behavior with Google Analytics 4** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ga4-autofill-tracking |
-| 2026-06-09 | **Migration from Apache Kafka to Pubsub** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/kafka-to-pubsub |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-25.md](./google-developer-2026-06-part-25.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-27.md](./google-developer-2026-06-part-27.md)

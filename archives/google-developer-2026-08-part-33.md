@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
 chunk_part: 33 of 35
-date_range: 2026-07-02 to 2026-08-07
-total_entries: 46
+date_range: 2026-07-07 to 2026-08-07
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-33.md
 layer: L2_published
 transform: unknown
@@ -11,10 +11,12 @@ artifacts: archive_complete, archive_index, jsonld
 
 # google-developer -- Part 33
 
-> **Navigation:** Prev: [google-developer-2026-07-part-32.md](./google-developer-2026-07-part-32.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-08-part-34.md](./google-developer-2026-08-part-34.md) | [Complete Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-07-part-32.md](./google-developer-2026-07-part-32.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-07 | **Build a Multi-Agent Organic Chemistry Safety & Research Assistant with Antigravity, agents-cli, ADK & MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-parallel-multi-agent-chemistry-assistant |
+| 2026-08-07 | **Build a Thread Network with the ESP32H2 and ESP Thread Border Router Board** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/esp-openthread-hardware |
 | 2026-08-07 | **Build a Thread network with Silicon Labs EFR32 boards and OpenThread using Simplicity Studio v5** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/silabs-openthread-hardware |
 | 2026-08-01 | **Run a personal agent on a Cloud Run service (coffee shop manager assistant)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-personal-agent-coffee-shop |
 | 2026-08-01 | **Anti-Money Laundering & Fraud Prevention with BigQuery GraphRAG** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/graphrag-with-bigquery |
@@ -58,10 +60,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-07-07 | **Getting Started with Antigravity IDE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/getting-started-agy-ide |
 | 2026-07-07 | **Get started with Google Maps Platform for iOS** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps-ios |
 | 2026-07-07 | **Test your app with Firebase and Continuous Integration** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-continuous-integration |
-| 2026-07-03 | **Google Cloud MCP for AlloyDB for AI Agents** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-mcp |
-| 2026-07-03 | **Vibe Coding with AlloyDB: From 0 to Prod with Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vibe-coding-postgres-mcp |
-| 2026-07-02 | **Get to know Cloud Firestore** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-firestore/cloud-firestore |
 
 ---
-> **Navigation:** Prev: [google-developer-2026-07-part-32.md](./google-developer-2026-07-part-32.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-08-part-34.md](./google-developer-2026-08-part-34.md)
+> **Navigation:** Prev: [google-developer-2026-07-part-32.md](./google-developer-2026-07-part-32.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md)
 

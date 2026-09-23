@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-20 | **Build, train, and deploy an XGBoost model on Cloud AI Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/xgb-caip-e2e |
+| 2026-06-20 | **Build a handwritten digit classifier Android app with MediaPipe Tasks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mp-digit-classifier-android |
 | 2026-06-20 | **Build a Patent Search App with Spanner, Vector Search & Gemini 1.0 Pro!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/patent-search-spanner-gemini |
 | 2026-06-20 | **Buffer HTTP requests with Cloud Tasks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-easy-http-cloud-tasks |
 | 2026-06-20 | **🛡️ Build a Secure Agent with Model Armor and Identity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-customer-service-agent/instructions |
@@ -60,8 +62,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-17 | **Hands-on with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/antigravity-cli-hands-on |
 | 2026-06-17 | **Vibecode and Secure an AI Agent Lifecycle with Antigravity and TDD** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-agentic-coding |
 | 2026-06-13 | **Vibecode an ADK 2.0 Ambient Agent with Antigravity and Agents CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vibecode-ambient-expense-agent |
-| 2026-06-13 | **Lab 1: Ingest and Govern Logistics Data** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab1 |
-| 2026-06-13 | **Lab 3: Uncovering Lost Cargo with BigQuery Graph and Conversational Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab3 |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-27.md](./google-developer-2026-06-part-27.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-29.md](./google-developer-2026-06-part-29.md)

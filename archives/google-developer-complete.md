@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 1702 records.
 <!-- transform: unknown -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-23T01:20:21.528068+00:00 -->
+<!-- retrieved_at: 2026-09-23T03:24:41.917826+00:00 -->
 
 ## Verified Records Archive
 
@@ -716,7 +716,7 @@ This document represents a unified, verifiable list of all 1702 records.
 | 2026-06-07 | **(Deprecated) Converting to Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/java-to-kotlin |
 | 2026-06-07 | **Build an AI-powered outfit recommendation app with AlloyDB and serverless runtimes** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/smart-stylist-app |
 | 2026-06-07 | **Integrate the Vision API with Dialogflow** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/chatbots-dialogflow-visionAPI |
-| 2026-06-07 | **codelabs.developers.google.com/vertex-mlmd-pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-mlmd-pipelines [WARN] *Content retired* |
+| 2026-06-07 | **codelabs.developers.google.com/vertex-mlmd-pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-mlmd-pipelines |
 | 2026-06-07 | **TCP Proxy Codelab - Rate limiting and IP Deny list with TCP Proxy Load balancer** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tcp-proxylb-ssl-proxylb |
 | 2026-06-07 | **(Deprecated) Use Kotlin Coroutines in your Android App** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/kotlin-coroutines |
 | 2026-06-07 | **(Deprecated) Android Paging Advanced codelab** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-paging |
@@ -1091,7 +1091,7 @@ This document represents a unified, verifiable list of all 1702 records.
 | 2026-06-02 | **Cloud Run and serverless computing quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/cloud-run-serverless-computing |
 | 2026-06-02 | **Detect objects in images to build a visual product search with ML Kit: Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/product-search-odt-android |
 | 2026-06-02 | **Integrate a Custom Model into your App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-computer-vision-update-app |
-| 2026-06-02 | **codelabs.developers.google.com/codelabs/cloud-spring-datastore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-datastore [WARN] *Content retired* |
+| 2026-06-02 | **codelabs.developers.google.com/codelabs/cloud-spring-datastore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-datastore |
 | 2026-06-02 | **Get started with the Streetscape Geometry and Rooftop anchors APIs in ARCore** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/arcore-streetscape-geometry-rooftop-anchors |
 | 2026-06-02 | **Google Pay API for Web 201: Advanced** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gpay-web-201 |
 | 2026-06-02 | **Cloud Run jobs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/codelabs/cloud-run-jobs |

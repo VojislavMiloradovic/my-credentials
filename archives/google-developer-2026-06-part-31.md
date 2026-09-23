@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 31 of 35
 date_range: 2026-06-27 to 2026-06-29
-total_entries: 48
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-31.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-29 | **Wear OS** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/wear |
+| 2026-06-29 | **Boost your web apps with Fugu APIs** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/fugu-apis |
+| 2026-06-29 | **Go further with object detection** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/go-further-object-detection/go-further-object-detection |
 | 2026-06-29 | **Views in Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-8-pathway-2 |
 | 2026-06-29 | **Get started with image classification in web apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/tensorflow-serving/image-classification-in-web-apps |
 | 2026-06-29 | **Go further with product image search** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/going-further-image-product-search |
@@ -61,8 +64,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-27 | **Use Remote Config to update your Unity game without a release** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-remote-config-unity-games |
 | 2026-06-27 | **Add Firebase to your Flutter app: Advanced** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-flutter-advanced |
 | 2026-06-27 | **Get started with Google Maps Platform for Android** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps-android |
-| 2026-06-27 | **Understand your game's crashes using advanced Crashlytics features** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-advanced-crashlytics-unity-games |
-| 2026-06-27 | **Build apps with Flutter** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/intro-to-flutter |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-30.md](./google-developer-2026-06-part-30.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-07-part-32.md](./google-developer-2026-07-part-32.md)

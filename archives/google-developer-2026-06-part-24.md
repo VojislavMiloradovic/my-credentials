@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **How to deploy a FastAPI chatbot app to Cloud Run using Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-fastapi-chat-app-gemini |
+| 2026-06-09 | **Display the first 100 files & folders in your Google Drive** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gsuite-apis-intro |
 | 2026-06-09 | **Route Datadog monitoring alerts to Google Cloud with Eventarc (Part 2)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-route-datadog-eventarc-part-two |
 | 2026-06-09 | **Send Web events to GA4 using Measurement Protocol** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/GA4_MP |
 | 2026-06-09 | **clasp - The Apps Script CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/clasp |
@@ -59,8 +61,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-09 | **Pic-a-daily: Lab 6—Orchestration with Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab6 |
 | 2026-06-09 | **Cloud Spanner: Your First Database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-first-db |
 | 2026-06-09 | **Exploratory data analysis of Iowa liquor sales using the BigQuery DataFrames package** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-dataframes-iowa-liquor-sales |
-| 2026-06-09 | **How to connect a Node.js application on Cloud Run to a Cloud SQL for PostgreSQL database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-sql-nodejs-connector |
-| 2026-06-09 | **Launching Google Ads Campaigns with Google Analytics Custom Events and Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter_ads |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-23.md](./google-developer-2026-06-part-23.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-25.md](./google-developer-2026-06-part-25.md)

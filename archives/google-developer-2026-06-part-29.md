@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-22 | **Create a Generative Chat App with Vertex AI Conversation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vertex-ai-conversation |
+| 2026-06-22 | **Create an accessible and personalized theme and brand with Material Design 3** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/m3-design-theming |
 | 2026-06-22 | **Cloud Firestore iOS Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firestore-ios |
 | 2026-06-22 | **Building an Accessible Multimodal AI Agent: Voice, Vision, and Conversation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/natively-accessible-interface/instructions |
 | 2026-06-22 | **Way Back Home - Building an ADK Bi-Directional Streaming Agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-3/instructions |
@@ -61,8 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-20 | **Building Persistent AI Agents with ADK and CloudSQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/persistent-adk-cloudsql |
 | 2026-06-20 | **Build QA Test Planner Agent using ADK, MCP, and Gemini 2.5 Flash with Thinking Mode** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/qa-test-planner-adk-mcp |
 | 2026-06-20 | **Build a handwritten digit classifier app with TensorFlow Lite** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/digit-classifier-tflite |
-| 2026-06-20 | **Build, train, and deploy an XGBoost model on Cloud AI Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/xgb-caip-e2e |
-| 2026-06-20 | **Build a handwritten digit classifier Android app with MediaPipe Tasks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mp-digit-classifier-android |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-28.md](./google-developer-2026-06-part-28.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-30.md](./google-developer-2026-06-part-30.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
 chunk_part: 35 of 35
-date_range: 2026-08-31 to 2026-09-22
-total_entries: 46
+date_range: 2026-09-03 to 2026-09-22
+total_entries: 43
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md
 layer: L2_published
 transform: unknown
@@ -11,7 +11,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 # google-developer -- Part 35
 
-> **Navigation:** Prev: [google-developer-2026-08-part-34.md](./google-developer-2026-08-part-34.md) | [Index](./google-developer-index.md) | Next: None | [Complete Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Index](./google-developer-index.md) | Next: None | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
@@ -58,10 +58,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-09-03 | **Train a model on GPU with JAX, Optax, and Fashion-MNIST** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-04-training-loop |
 | 2026-09-03 | **How to Run TorchServe and Stable Diffusion on Cloud Run GPUs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/how-to-use-stable-diffusion-cloud-run-gpu |
 | 2026-09-03 | **TPU-speed data pipelines: tf.data.Dataset and TFRecords** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/keras-flowers-data |
-| 2026-09-03 | **Run your first JAX program on NVIDIA GPUs with GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-01-getting-started |
-| 2026-09-03 | **Train a transformer end to end with Flax NNX and Orbax** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-07-transformer-end-to-end |
-| 2026-08-31 | **Looker PSC Southbound access to multiple Cloud SQL PSC instances through proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-looker-cloudsql-southbound-proxy |
 
 ---
-> **Navigation:** Prev: [google-developer-2026-08-part-34.md](./google-developer-2026-08-part-34.md) | [Index](./google-developer-index.md) | Next: None
+> **Navigation:** Prev: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Index](./google-developer-index.md) | Next: None
 

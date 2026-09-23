@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **How to connect a Node.js application on Cloud Run to a Cloud SQL for PostgreSQL database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-sql-nodejs-connector |
+| 2026-06-09 | **Launching Google Ads Campaigns with Google Analytics Custom Events and Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter_ads |
 | 2026-06-09 | **Specialized Processors with Document AI (Python)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/docai-specialized-processors-python |
 | 2026-06-09 | **Events for Cloud Run for Anthos Codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-events-anthos |
 | 2026-06-09 | **Cloud Spanner Game Trading Post** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-game-tradepost |
@@ -60,8 +62,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-09 | **Using the Translation API with C#** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-translation-csharp |
 | 2026-06-09 | **Build and Deploy an AI-Powered Agent Diet Planner with Streamlit, Gemini Pro, Vertex AI and BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ai-diet-planner |
 | 2026-06-09 | **Generative AI text generation in Java with PaLM and LangChain4J** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/genai-text-gen-java-palm-langchain4j |
-| 2026-06-09 | **Using revisions in Cloud Run for Traffic Splitting, Gradual Rollouts, and Rollbacks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/revisions-cloud-run-traffic-splitting-gradual-rollout-rollbacks |
-| 2026-06-09 | **Code Customization with Gemini Code Assist Enterprise** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/code-assist-enterprise |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-22.md](./google-developer-2026-06-part-22.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-24.md](./google-developer-2026-06-part-24.md)

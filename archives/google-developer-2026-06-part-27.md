@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-13 | **Lab 1: Ingest and Govern Logistics Data** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab1 |
+| 2026-06-13 | **Lab 3: Uncovering Lost Cargo with BigQuery Graph and Conversational Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab3 |
 | 2026-06-13 | **Lab 2: Data Analysis & Multimodal Insights** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab2 |
 | 2026-06-10 | **Serverless AI: EmbeddingGemma with Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/embeddinggemma-cloud-run |
 | 2026-06-10 | **Build a no-code app using the native AppSheet database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/appsheet-asdb |
@@ -61,8 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-10 | **Integrate fundamental AI concepts in Google Chat apps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/chat-apps-ai-concepts |
 | 2026-06-10 | **Get Started with Unity and Google Play Games for PC** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/android-google-play-games-unity-quickstart |
 | 2026-06-10 | **Deploy an ASP.NET Core app to App Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-app-engine-aspnetcore |
-| 2026-06-10 | **Deploy a Micronaut application containerized with Jib to Google Kubernetes Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-micronaut-kubernetes |
-| 2026-06-10 | **Extending support for App Engine bundled services: Part 1 (Module 17)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-17-bundled |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-26.md](./google-developer-2026-06-part-26.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-28.md](./google-developer-2026-06-part-28.md)
