@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Use Success by Design for Dynamics 365 solutions** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-success-design/) |
+| **Prepare to teach AZ-500 Microsoft Azure Security Technologies** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-500-microsoft-azure-security-technologies/) |
 | **Get tips and tricks for teaching AZ-500 Microsoft Azure Security Technologies** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-az-500-microsoft-azure-security-technologies/) |
 | **Integration design for Dynamics 365 solutions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/integration/) |
 | **Get tips and tricks for teaching AZ-104 Microsoft Azure Administrator** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-az-104-microsoft-azure-administrator/) |
@@ -26,8 +28,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement finance and operations apps** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-finance-operations/) |
 | **Use Lifecycle Services to design and plan an implementation of finance and operations apps** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-lcs-design-plan-implementation-finance-operations/) |
 | **Design and plan an implementation of finance and operations apps** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-plan-implementation-finance-operations/) |
-| **Implement Developer Self-Service** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-developer-self-service/) |
 | **Design and Implement Platform Engineering** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/designing-implementing-platform-engineering/) |
+| **Implement Developer Self-Service** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-developer-self-service/) |
 | **Specify requirements for securing SaaS, PaaS, and IaaS services** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/specify-requirements-securing-saas-paas-iaas-services/) |
 | **Create stored procedures and user-defined functions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-stored-procedures-table-valued-functions/) |
 | **Implement a performance strategy for Dynamics 365 solutions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/solution-performance/) |
@@ -46,8 +48,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Build machine learning solutions using Azure Databricks** | Learningpaths | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-operate-machine-learning-solutions-azure-databricks/) |
 | **Design data models for Dynamics 365 solutions** | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-models/) |
 | **Prepare to go-live with finance and operations apps** | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-go-live-finance-operations/) |
-| **AZ-400: Implement continuous feedback** | Learningpaths | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-continuous-feedback/) |
 | **Implement Tools to Track Usage and Flow** | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/) |
+| **AZ-400: Implement continuous feedback** | Learningpaths | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-continuous-feedback/) |
 | **Build expertise with Power Automate desktop app** | Learningpaths | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-build-expertise/) |
 | **Active Directory handling in Power Automate for desktop** | Modules | 2026-06-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-active-directory/) |
 | **Design solutions for securing an organization's data** | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-organization-data/) |
@@ -64,8 +66,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Design solutions for regulatory compliance** | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-regulatory-compliance/) |
 | **Design solutions for network security** | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-network-security/) |
 | **Design solutions for security posture management in hybrid and multicloud environments** | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-security-posture-management-hybrid-multicloud-environments/) |
-| **Evaluate solutions for securing Microsoft 365** | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-microsoft-365/) |
-| **Solution architect series: Model security for Power Platform solutions** | Modules | 2026-06-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/model-security/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-86.md](./microsoft-learn-2026-06-part-86.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-88.md](./microsoft-learn-2026-07-part-88.md)

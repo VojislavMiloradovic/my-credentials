@@ -25,14 +25,14 @@ artifacts: archive_complete, archive_index, jsonld
 | **Introduction to Microsoft Defender for IoT** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-microsoft-defender-iot/) |
 | **Create compensation plans in Dynamics 365 Human Resources** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-compensation-plans/) |
 | **Manage leave and absence in Dynamics 365 Human Resources** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/hr-leave-absence/) |
-| **Configure your user interface in finance and operations apps** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-your-ui-dynamics-365-finance-operations-apps/) |
 | **Configure apps in finance and operations** | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/config-d365-finance-operations-apps/) |
+| **Configure your user interface in finance and operations apps** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-your-ui-dynamics-365-finance-operations-apps/) |
 | **Deploy Healthcare Data Solutions in Microsoft Fabric and ingest sample data** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-sample-data-ingestion/) |
 | **Introduction to Azure Virtual Machine Scale Sets** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machine-scale-sets/) |
 | **Get started with Finance insights in Dynamics 365 Finance** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-finance-insights/) |
 | **Secure your infrastructure with threat modeling** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/threat-modeling-enterprise-infrastructure/) |
-| **Transform and load event log data for process mining** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-load-event-log/) |
 | **Process mining for the data wrangler** | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-mining-data-wrangler/) |
+| **Transform and load event log data for process mining** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-load-event-log/) |
 | **Manage secrets in Java applications - Zero Trust and Zero Secrets** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-secrets-java-applications-zero-trust/) |
 | **Describe the purpose and use of source control** | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-purpose-use-source-control/) |
 | **Explain how a source control system helps manage files** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/explain-control-system-helps-manage-files/) |

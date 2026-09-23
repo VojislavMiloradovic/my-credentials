@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Harden a Microsoft 365 tenant with Microsoft Secure Score** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-microsoft-365-secure-score/) |
+| **How to support usage and adoption** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/how-to-support-usage-adoption/) |
 | **What practice manager can expect** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-practice-manager-can-expect/) |
 | **Configure reliable email intake in Dynamics 365 Customer Service** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-email-channel-customer-service/) |
 | **Dragon Copilot for Practice Managers - 101** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-practice-managers-101/) |
@@ -65,8 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Get Started with Python Programming: Part 1 - Fundamentals** | Learningpaths | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-python-fundamentals/) |
 | **Work with data in Python** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-data-python/) |
 | **What is Project Perception?** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-introduction/) |
-| **Install and configure Visual Studio Code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/install-configure-visual-studio-code-python/) |
-| **Add decision-making to your code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-decision-making-python/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-96.md](./microsoft-learn-2026-09-part-96.md)

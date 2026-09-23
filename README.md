@@ -36,8 +36,8 @@ Showing latest 10 of 4,842 achievements. View full dataset via [Platform Archive
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Accelerate development with GitHub Copilot Cloud Agent** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/) |
 | **GitHub Copilot Fundamentals Part 2 of 2** | Learningpaths | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
+| **Accelerate development with GitHub Copilot Cloud Agent** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/) |
 | **Harden a Microsoft 365 tenant with Microsoft Secure Score** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-microsoft-365-secure-score/) |
 | **How to support usage and adoption** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/how-to-support-usage-adoption/) |
 | **What practice manager can expect** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-practice-manager-can-expect/) |

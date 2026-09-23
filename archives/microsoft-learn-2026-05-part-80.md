@@ -15,8 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Secure, optimize, and deploy database solutions** | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-optimize-deploy-database-solutions/) |
+| **Transform development workflows with T-SQL in SQL Server 2025** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sql-server-t-sql-enhancements/) |
 | **Integrate SQL solutions with Azure services** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sql-solutions-azure-services/) |
+| **Secure, optimize, and deploy database solutions** | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-optimize-deploy-database-solutions/) |
 | **Implement SQL solutions by using AI-assisted tools** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/) |
 | **Design and implement database objects with SQL** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-database-objects/) |
 | **Optimize database performance** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-database-performance/) |
@@ -61,10 +62,9 @@ artifacts: archive_complete, archive_index, jsonld
 | **Configure financial management** | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-configure-financial-management-work-general-ledger/) |
 | **Manage Azure DevOps by using MCP Server** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-ado-mcp-server/) |
 | **Manage Azure Boards by using GitHub Copilot integration** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-boards-using-github-copilot/) |
-| **Extract data with Azure Document Intelligence** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-data-with-document-intelligence/) |
 | **Extract insights from visual data on Azure** | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/insight-visual-data/) |
+| **Extract data with Azure Document Intelligence** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-data-with-document-intelligence/) |
 | **Design dimensional models for analytics in Microsoft Fabric** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dimensional-models-fabric/) |
-| **Design and transform analytics data in Microsoft Fabric** | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-transform-analytics-data/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-79.md](./microsoft-learn-2026-05-part-79.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-81.md](./microsoft-learn-2026-06-part-81.md)

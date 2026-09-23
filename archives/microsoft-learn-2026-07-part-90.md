@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Scale responsible AI governance with Azure AI Content Safety and Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-scale-responsible-ai-governance-multi-agent/) |
+| **Monitor, evaluate, and operate multi-agent AI solutions in Azure** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-4-monitor-evaluate-operate-multi-agent-ai-solutions-azure/) |
 | **Optimize multi-agent performance and cost in Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-optimize-multi-agent-performance-cost-azure/) |
 | **Implement distributed observability for multi-agent solutions with OpenTelemetry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-distributed-observability-multi-agent-opentelemetry/) |
 | **Architect production-grade multi-agent AI solutions in Azure** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-1-architect-production-grade-multi-agent-ai-solutions/) |
@@ -60,8 +62,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement high availability in SAP NetWeaver with AnyDB on Azure virtual machines** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ha-sap-netweaver-anydb/) |
 | **Clinical document structuring to FHIR** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-text-analytics-fhir/) |
 | **Examine backup security licensing and support considerations for SAP HANA on Azure (Large Instances)** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/backup-security-licensing-support-considerations-sap-hana-azure/) |
-| **Plan SAP HANA on Azure (Large Instances) deployments** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-sap-hana-azure-large-instances-deployments/) |
-| **Explore governance and manageability for SAP on Azure** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-governance-manageability/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-89.md](./microsoft-learn-2026-07-part-89.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-91.md](./microsoft-learn-2026-07-part-91.md)

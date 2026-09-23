@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Enhance AI solutions with Azure Managed Redis** | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-ai-solutions-azure-managed-redis/) |
 | **Implement event messaging with Azure Managed Redis** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-event-messaging-azure-managed-redis/) |
 | **Implement data operations in Azure Managed Redis** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-operations-azure-managed-redis/) |
 | **Implement vector storage in Azure Managed Redis** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-storage-azure-managed-redis/) |
@@ -63,7 +64,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Protect information in a Microsoft 365 Copilot environment using Microsoft Purview** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-microsoft-365-copilot-environment/) |
 | **Develop agents and applications using agentic programming tools** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-embed-custom-code-agents/) |
 | **Implement spec-driven development using the GitHub Spec Kit** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/spec-driven-development-github-spec-kit-enterprise-developers/) |
-| **Optimize vector search in Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-vector-search-azure-database-postgresql/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-81.md](./microsoft-learn-2026-06-part-81.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-83.md](./microsoft-learn-2026-06-part-83.md)

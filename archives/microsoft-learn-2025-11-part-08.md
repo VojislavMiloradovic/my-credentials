@@ -50,8 +50,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Assemble learners and staff with Microsoft Teams meetings** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/assemble-learners-staff-microsoft-teams-meetings/) |
 | **Use tools in Copilot Studio - Online workshop** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-tools-online-workshop/) |
 | **Perform a Windows 11 device readiness assessment** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-readiness-assessment/) |
-| **Explore the business value of generative AI solutions** | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-business-value-generative-ai-solutions/) |
 | **Build effective generative AI solutions in your organization** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-effective-generative-ai-solutions-organization/) |
+| **Explore the business value of generative AI solutions** | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-business-value-generative-ai-solutions/) |
 | **Explore prebuilt Microsoft 365 Copilot agents** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-prebuilt-microsoft-365-copilot-agents/) |
 | **Enhance your productivity with prebuilt Microsoft 365 Copilot agents** | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-productivity-prebuilt-agents/) |
 | **Introduction to declarative agents for Microsoft 365 Copilot** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-intro/) |

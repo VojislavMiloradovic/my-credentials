@@ -19,8 +19,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Apply sensitivity labels for data protection** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-manage-sensitivity-labels/) |
 | **MD-102 Explore endpoint management** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-endpoint-management/) |
 | **Manage Microsoft Entra identities** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-active-directory-identities/) |
-| **Safeguard your environment with Microsoft Defender for Identity** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-threat-safeguard/) |
 | **Mitigate threats using Microsoft Defender XDR** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-365-defender/) |
+| **Safeguard your environment with Microsoft Defender for Identity** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-threat-safeguard/) |
 | **Guided project - Deploy and manage a container app using Azure Container Apps** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-container-app-using-azure-container-apps/) |
 | **Explore the Enterprise Desktop** | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-enterprise-desktop/) |
 | **Create and configure sensitivity labels with Microsoft Purview** | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-protect-information/) |
@@ -64,8 +64,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Explore Azure Synapse Studio** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-synapse-studio/) |
 | **Create vendor invoice for resource non-stocked deployment in Dynamics 365 Project Operations** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vendor-invoice-resource-non-stocked/) |
 | **Introduction to Viva Learning** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-learning-introduction/) |
-| **Extend Microsoft 365 Copilot in .NET** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility/) |
 | **Extend Microsoft 365 Copilot in TypeScript** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility-typescript/) |
+| **Extend Microsoft 365 Copilot in .NET** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility/) |
 | **Get started with Microsoft 365 Copilot extensibility** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-extensibility-intro/) |
 | **Get to know Microsoft Azure cloud platform: An overview for business professionals** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-know-microsoft-azure-cloud-platform-business-professionals/) |
 | **Describe the business benefits of Azure** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-benefits-azure/) |

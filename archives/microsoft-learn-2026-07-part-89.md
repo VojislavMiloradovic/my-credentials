@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 89 of 96
-date_range: 2026-07-01 to 2026-07-05
+date_range: 2026-07-02 to 2026-07-05
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-89.md
 layer: L2_published
@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Plan SAP HANA on Azure (Large Instances) deployments** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-sap-hana-azure-large-instances-deployments/) |
+| **Explore governance and manageability for SAP on Azure** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-governance-manageability/) |
 | **Explore the foundations of identity and governance for SAP on Azure** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-foundations-of-identity-governance/) |
 | **Design a health model for your mission-critical workload** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-health-model-mission-critical-workload/) |
 | **Build mission-critical workloads on Azure** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-mission-critical-workloads/) |
@@ -61,8 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Troubleshoot Federation Issues** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-federation-issues/) |
 | **Examine SAP NetWeaver with AnyDB on Azure virtual machines** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-sap-netweaver-anydb/) |
 | **Explore Azure for SAP workloads** | Learningpaths | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-azure-for-sap-workloads/) |
-| **Connect Power Platform to SAP on Azure** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-power-platform-to-sap-azure/) |
-| **Troubleshoot Microsoft Teams meetings live events and messaging** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-microsoft-teams-meetings-live-events-messaging/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-88.md](./microsoft-learn-2026-07-part-88.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-90.md](./microsoft-learn-2026-07-part-90.md)

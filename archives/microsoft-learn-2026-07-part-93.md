@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 93 of 96
-date_range: 2026-07-17 to 2026-07-24
+date_range: 2026-07-20 to 2026-07-25
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-93.md
 layer: L2_published
@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Provision and govern identities in Microsoft Entra** | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-govern-identities-entra/) |
+| **Manage application volume groups for Oracle in Azure NetApp Files** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-application-volume-groups-oracle-azure-netapp-files/) |
 | **Ensure availability and resilience in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/ensure-availability-resilience/) |
 | **Deliver solutions with pipelines in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deliver-solutions-pipelines/) |
 | **Configure the Dataverse security model in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-dataverse-security-model/) |
@@ -65,8 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Hardening Windows Server** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-windows-server/) |
 | **Plan an AI agent solution** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-design-ai-agent-solution/) |
 | **Choose tools and services for your agent on Microsoft's agent platform** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-solutions-microsoft-agent-platform/) |
-| **Customize a canvas app in Power Apps** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-apps-in-powerapps/) |
-| **Learn the basics of Power BI Desktop, Power Automate, and PowerApps** | Learningpaths | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-platform-introduction/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md)

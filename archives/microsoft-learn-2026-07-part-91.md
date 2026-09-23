@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 91 of 96
 date_range: 2026-07-09 to 2026-07-13
-total_entries: 50
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-91.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,9 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Manage dual volumes in Azure NetApp Files** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-netapp-files-dual-volumes/) |
+| **Use Live Captions in Windows to better understand audio** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/live-captions/) |
+| **Use the Copilot+ PC Hub to get started with Copilot+ PCs** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-pc-hub-adoption/) |
 | **Retrace your steps with Recall (preview)** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/recall-preview/) |
 | **Enhance video and audio with Windows Studio Effects** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-studio-effects/) |
 | **Secure AI agents with Microsoft Purview data security controls** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-agent-data-security/) |
@@ -39,8 +42,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Interactive case study: Modernizing identity and data security** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-identity-data-security/) |
 | **Accelerate Azure SQL tasks with Microsoft Copilot** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-copilot-administer-azure-sql/) |
 | **Improve meeting collaboration with Facilitator in Microsoft Teams** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/facilitator-in-microsoft-teams/) |
-| **Get started with Transact-SQL programming** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-transact-sql-programming/) |
 | **Program with Transact-SQL** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/program-transact-sql/) |
+| **Get started with Transact-SQL programming** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-transact-sql-programming/) |
 | **AZ-400: Design and implement a release strategy** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-release-strategy/) |
 | **Create a Release Pipeline** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/) |
 | **Manage volume access for Azure NetApp Files** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-volume-access-azure-netapp-files/) |
@@ -63,8 +66,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Introduction to small form factor deployments of Azure Local (preview)** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-small-form-factor/) |
 | **Secure multi-agent systems with Azure zero-trust architecture** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-secure-multi-agent-systems-azure-zero-trust/) |
 | **Deploy and govern enterprise agentic AI solutions on Azure** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-3-deploy-govern-agentic-ai-solutions-azure/) |
-| **Scale responsible AI governance with Azure AI Content Safety and Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-scale-responsible-ai-governance-multi-agent/) |
-| **Monitor, evaluate, and operate multi-agent AI solutions in Azure** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-4-monitor-evaluate-operate-multi-agent-ai-solutions-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-90.md](./microsoft-learn-2026-07-part-90.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md)

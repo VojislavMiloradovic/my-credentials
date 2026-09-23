@@ -54,8 +54,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Secure your cloud apps and services with Microsoft Defender for Cloud Apps** | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/) |
 | **Introduction to Microsoft Surface Laptop for Business** | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-surface-laptop-business/) |
 | **Prevent data exfiltration from Azure AI Workloads** | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/prevent-azure-machine-learning-data-exfiltration/) |
-| **Manage Network Access for AI workloads** | Learningpaths | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-network-access-ai-workloads/) |
 | **Restrict Azure Machine Learning workspace network traffic** | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/restrict-azure-machine-learning-workspace-network/) |
+| **Manage Network Access for AI workloads** | Learningpaths | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-network-access-ai-workloads/) |
 | **Introduction to vibe coding** | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-vibe-coding/) |
 | **Get started with Cosmos DB in Microsoft Fabric** | Modules | 2025-11-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-cosmos-db-nosql-fabric/) |
 | **Build your first Windows App by using WinUI & Windows App SDK** | Modules | 2025-11-20 | N/A |

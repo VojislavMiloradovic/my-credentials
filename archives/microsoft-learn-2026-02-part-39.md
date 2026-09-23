@@ -16,14 +16,14 @@ artifacts: archive_complete, archive_index, jsonld
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
 | **Manage GitHub Actions in the enterprise** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-github-actions-enterprise/) |
-| **Build great solutions with the Microsoft Azure Well-Architected Framework** | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/) |
 | **Microsoft Azure Well-Architected Framework - Reliability** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-reliability/) |
+| **Build great solutions with the Microsoft Azure Well-Architected Framework** | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/) |
 | **Search and investigate with Microsoft Purview Audit** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-audit-search-investigate/) |
 | **Mitigate threats using Microsoft Defender for Endpoint** | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-defender-for-endpoint/) |
 | **Perform evidence and entities investigations using Microsoft Defender for Endpoint** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-evidence-entities-investigations-microsoft-defender-for-endpoint/) |
 | **Plan a transition to modern endpoint management** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-transition-modern-endpoint-management/) |
-| **Configure a project and repository structure to support secure pipelines** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-project-repository-structure-support-secure-pipelines/) |
 | **Implement security through a pipeline using Azure DevOps** | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-security-through-pipeline-using-devops/) |
+| **Configure a project and repository structure to support secure pipelines** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-project-repository-structure-support-secure-pipelines/) |
 | **Manage Microsoft Defender for Cloud Apps** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-defender-cloud-apps/) |
 | **Get started with chart of accounts in Dynamics 365 Finance** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-chart-accounts-finance/) |
 | **Guided project - Create an AI travel agent** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-ai-travel-agent/) |

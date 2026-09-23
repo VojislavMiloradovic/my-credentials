@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 94 of 96
-date_range: 2026-07-24 to 2026-08-06
+date_range: 2026-07-25 to 2026-08-08
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-94.md
 layer: L2_published
@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Install and configure Visual Studio Code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/install-configure-visual-studio-code-python/) |
+| **Add decision-making to your code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-decision-making-python/) |
 | **Understand advanced Windows Firewall** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-advanced-windows-firewall/) |
 | **Convert Oracle schemas to Azure Database for PostgreSQL by using AI** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/convert-oracle-schema-azure-database-postgresql-ai/) |
 | **Understand how Active Directory Domain Services uses DNS** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-domain-name-system/) |
@@ -25,8 +27,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Efficiently investigate data risks with Security Copilot in Microsoft Purview** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-security-copilot/) |
 | **Classify and protect sensitive data with sensitivity labels** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-label-sensitive-data/) |
 | **Discover and define sensitive information types** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-discover-define-sits/) |
-| **Fundamentals of Bicep** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/) |
 | **Build flexible Bicep files by using conditions and loops** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-files-conditions-loops/) |
+| **Fundamentals of Bicep** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/) |
 | **Build reusable Bicep files by using parameters** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reusable-bicep-files-parameters/) |
 | **Build your first Bicep file** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-bicep-file/) |
 | **Introduction to retrieval-augmented generation concepts** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/rag-fundamentals/) |
@@ -67,8 +69,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Govern SharePoint and OneDrive for Microsoft 365 Copilot** | Modules | 2026-07-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-sharepoint-onedrive-copilot/) |
 | **Secure AI agents and workloads on Windows** | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-ai-agents-windows/) |
 | **Work on repeat** | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-on-repeat/) |
-| **Provision and govern identities in Microsoft Entra** | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-govern-identities-entra/) |
-| **Manage application volume groups for Oracle in Azure NetApp Files** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-application-volume-groups-oracle-azure-netapp-files/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-95.md](./microsoft-learn-2026-09-part-95.md)

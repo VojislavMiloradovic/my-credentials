@@ -31,8 +31,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Dyslexia Teaching: Part 3, In partnership with Made By Dyslexia** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-teaching-part-3/) |
 | **Implement Windows Server IaaS VM IP addressing and routing** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-iaas-virtual-machine-ip-addressing-routing/) |
 | **Deploy Devices using Windows Autopilot** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-devices-windows-autopilot/) |
-| **Create a canvas app in Power Apps** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-powerapps/) |
 | **Navigation in a canvas app in Power Apps** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigation-canvas-app/) |
+| **Create a canvas app in Power Apps** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-powerapps/) |
 | **Generate inventory and compliance reports** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/inventory-complinace-reports/) |
 | **Get started using Dataverse** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-cds/) |
 | **Connect to other data in a Power Apps canvas app** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-to-other-data-in-powerapps-canvas-app/) |
@@ -49,8 +49,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement device compliance** | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-compliance/) |
 | **Utilize Vulnerability Management in Microsoft Defender for Endpoint** | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-threat-vulnerability-management-microsoft-defender-for-endpoint/) |
 | **Manage Windows 365** | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-365/) |
-| **Create agents in Microsoft Copilot Studio** | Learningpaths | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/) |
 | **Manage topics in Microsoft Copilot Studio** | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-power-virtual-agents-topics/) |
+| **Create agents in Microsoft Copilot Studio** | Learningpaths | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/) |
 | **Implement Windows security enhancements with Microsoft Defender for Endpoint** | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-10-security-enhancements-with-microsoft-defender-for-endpoint/) |
 | **Implement scale and high availability with Windows Server VM** | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-scale-high-availability-windows-server-virtual-machine/) |
 | **Deploy and update applications** | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-applications/) |

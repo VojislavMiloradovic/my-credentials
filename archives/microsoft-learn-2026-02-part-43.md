@@ -28,8 +28,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Automate your workflow with GitHub Actions Part 2 of 2** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-actions-2/) |
 | **Create and publish custom GitHub actions** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-custom-github-actions/) |
 | **Examine Microsoft  Secure Score** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-microsoft-secure-score/) |
-| **Define a Microsoft AI strategy to create business value in finance** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-finance/) |
 | **Discover AI for leaders in finance** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-financial-industry/) |
+| **Define a Microsoft AI strategy to create business value in finance** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-finance/) |
 | **Use Power Apps Instrumentation with Application Insights** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/instrumentation-app-insights/) |
 | **Explore data management practices in Microsoft 365** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-data-management-practices/) |
 | **Optimize app load time** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-app-load-time/) |
@@ -42,8 +42,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Manage collaboration experiences for chat and channels** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-collaboration-experiences-for-chat-channels/) |
 | **Respond to data loss prevention alerts using Microsoft 365** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/respond-to-data-loss-prevention-alerts-microsoft-365/) |
 | **Visualize real-time data with Azure Stream Analytics and Power BI** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/visualize-real-time-data-azure-stream-analytics-power-bi/) |
-| **Azure Virtual Desktop Architecture** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-desktop-architecture/) |
 | **Plan an Azure Virtual Desktop implementation** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-azure-virtual-desktop-implementation/) |
+| **Azure Virtual Desktop Architecture** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-desktop-architecture/) |
 | **Manage Windows Servers and workloads in a hybrid environment** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-windows-servers-workloads-hybrid-environment/) |
 | **Perform post-installation configuration of Windows Server** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-post-installation-configuration-of-windows-server/) |
 | **Implement a Data Analytics Solution with Azure Databricks** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-engineer-azure-databricks/) |
