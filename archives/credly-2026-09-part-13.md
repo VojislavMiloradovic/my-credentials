@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 13 of 13
-date_range: 2026-09-15 to 2026-09-19
-total_entries: 44
+date_range: 2026-09-15 to 2026-09-22
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-13.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-22 | [Enterprise Design Thinking Co-Creator](https://www.credly.com/badges/83cd7944-3b95-4abd-8d5c-32bbaedbe5ce/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-19 | [AWS Knowledge: Amazon Connect AI Fundamentals - Training Badge](https://www.credly.com/badges/d8b397ab-6ec4-4ea5-9e27-f60ae342e92d/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-09-19 | [AI Foundations for Educators](https://www.credly.com/badges/a90de7d5-3c53-46c6-8b58-be924bf3b489/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-19 | [Applied AI in the Classroom](https://www.credly.com/badges/2fb201af-1733-4121-80df-fdaeab10d425/public_url) | IBM SkillsBuild | Credly Verified Badge |

@@ -135,15 +135,16 @@ Showing latest 10 of 899 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 680
-**Total Verified Skills Mapped:** 2353
+**Total Portfolio Credentials:** 681
+**Total Verified Skills Mapped:** 2359
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 680 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-13.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-13.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 681 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-13.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-13.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-22 | [Enterprise Design Thinking Co-Creator](https://www.credly.com/badges/83cd7944-3b95-4abd-8d5c-32bbaedbe5ce/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-19 | [AWS Knowledge: Amazon Connect AI Fundamentals - Training Badge](https://www.credly.com/badges/d8b397ab-6ec4-4ea5-9e27-f60ae342e92d/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-09-19 | [AI Foundations for Educators](https://www.credly.com/badges/a90de7d5-3c53-46c6-8b58-be924bf3b489/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-19 | [Applied AI in the Classroom](https://www.credly.com/badges/2fb201af-1733-4121-80df-fdaeab10d425/public_url) | IBM SkillsBuild | Credly Verified Badge |
@@ -153,7 +154,6 @@ Showing latest 10 of 680 credentials. View full dataset via [Platform Archive In
 | 2026-09-18 | [Digital Media Strategist](https://www.credly.com/badges/6c52d323-dee1-4c81-8be4-9d3d1d516cd6/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-18 | [DOOH Essentials](https://www.credly.com/badges/e26dbace-ac24-4ff4-ad3b-4251e79f5224/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-17 | [Data Classification and Summarization Using IBM Granite](https://www.credly.com/badges/fb4b0999-a53c-4a1e-bfb4-3fdf51326bdc/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-09-17 | [Craft Precise Prompts for AI Models](https://www.credly.com/badges/25d554f0-f025-4d06-aa44-3cb6c43a60e6/public_url) | IBM SkillsBuild | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
