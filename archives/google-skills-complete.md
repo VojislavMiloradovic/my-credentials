@@ -1,17 +1,21 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 391 records.
+This document represents a unified, verifiable list of all 395 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-20T02:00:25.074715+00:00 -->
+<!-- retrieved_at: 2026-09-23T01:23:38.822639+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-22 | [Security Best Practices in Google Cloud: Data](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28203673) | Google Cloud | Google Skill Badge |
+| 2026-09-22 | [Security Best Practices in Google Cloud: Models](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28201646) | Google Cloud | Google Skill Badge |
+| 2026-09-22 | [Security Best Practices in Google Cloud: Applications](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28199990) | Google Cloud | Google Skill Badge |
+| 2026-09-22 | [Security Best Practices in Google Cloud: Compute](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28198520) | Google Cloud | Google Skill Badge |
 | 2026-09-11 | [Develop Serverless Applications on Cloud Run](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27888161) | Google Cloud | Google Skill Badge |
 | 2026-09-08 | [Arcade Trail: Data Engineering and Security](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27755292) | Google Cloud | Google Skill Badge |
 | 2026-09-08 | [Create a Secure Data Lake on Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27753711) | Google Cloud | Google Skill Badge |
