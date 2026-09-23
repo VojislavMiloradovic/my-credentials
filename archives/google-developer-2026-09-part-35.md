@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
 chunk_part: 35 of 35
-date_range: 2026-09-03 to 2026-09-15
-total_entries: 37
+date_range: 2026-08-31 to 2026-09-22
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md
 layer: L2_published
 transform: unknown
@@ -15,7 +15,15 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-09-15 | **Agent Gateway centralized governance with cross-project Agent Registry for Agent Runtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-manual-multiproject |
+| 2026-09-22 | **How to Deploy Hermes Agent on Cloud Run instances** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-hermes-cloud-run-instances |
+| 2026-09-22 | **Agent Gateway centralized governance with cross-project Agent Registry for Agent Runtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-multiproject |
+| 2026-09-22 | **Build and Deploy an Autonomous Hyper-Personalized CX & Fulfillment Agent Using ADK 2.0 & MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/adk-mcp-fulfillment-agent |
+| 2026-09-22 | **Improve app performance with Baseline Profiles** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-baseline-profiles-improve |
+| 2026-09-22 | **Inspect app performance with Macrobenchmark** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-macrobenchmark-inspect |
+| 2026-09-22 | **Working with Preferences DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-preferences-datastore |
+| 2026-09-22 | **Sharing the Thread Network With Google Thread Credentials APIs** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/thread-sharing-apis |
+| 2026-09-22 | **Beyond vibe coding for the web** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/beyond-vibe-coding-for-the-web |
+| 2026-09-15 | **codelabs.developers.google.com/agw-cuj-arun-manual-multiproject** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-manual-multiproject |
 | 2026-09-15 | **Market Street — State and the Human in the Loop at Agent Valley** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-valley-market/instructions |
 | 2026-09-15 | **Rails 8 on Google Cloud: From Zero to AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/rails8-on-google-cloud |
 | 2026-09-15 | **Governing Autonomous AI Agents with Agent Gateway and Semantic Governance Policies** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/enterprise-agent-governance-sgp |
@@ -52,6 +60,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-09-03 | **TPU-speed data pipelines: tf.data.Dataset and TFRecords** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/keras-flowers-data |
 | 2026-09-03 | **Run your first JAX program on NVIDIA GPUs with GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-01-getting-started |
 | 2026-09-03 | **Train a transformer end to end with Flax NNX and Orbax** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-07-transformer-end-to-end |
+| 2026-08-31 | **Looker PSC Southbound access to multiple Cloud SQL PSC instances through proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-looker-cloudsql-southbound-proxy |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-08-part-34.md](./google-developer-2026-08-part-34.md) | [Index](./google-developer-index.md) | Next: None

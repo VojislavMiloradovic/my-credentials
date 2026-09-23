@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-05 | **Regression Ios** | Official Google Developer platform achievement (Learning Pathway: regression iOS). |
-| 2026-06-05 | **Android Basics Compose Unit 4 Pathway 3** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 4 pathway 3). |
-| 2026-06-05 | **Android Basics Compose Unit 4 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 4 pathway 1). |
 | 2026-06-05 | **Maps** | Official Google Developer platform achievement (Community: maps). |
 | 2026-06-05 | **App Actions** | Official Google Developer platform achievement (Learning Pathway: app actions). |
 | 2026-06-05 | **Cloud Containerize Deploy Spring Boot** | Official Google Developer platform achievement (Learning Pathway: cloud containerize deploy spring boot). |
@@ -82,6 +79,9 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-05 | **Local Development With Emulator Suite** | Official Google Developer platform achievement (Learning Pathway: local_development_with_emulator_suite). |
 | 2026-06-05 | **Android Basics Compose Unit 3 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 3 pathway 2). |
 | 2026-06-05 | **Get Started Audio Classification** | Official Google Developer platform achievement (Learning Pathway: get started audio classification). |
+| 2026-06-05 | **Learn Privacy** | Official Google Developer platform achievement (Learning Pathway: learn privacy). |
+| 2026-06-05 | **Android Basics Compose Unit 8 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 1). |
+| 2026-06-05 | **App Check** | Official Google Developer platform achievement (Learning Pathway: app_check). |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-16.md](./google-developer-2026-06-part-16.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-18.md](./google-developer-2026-06-part-18.md)

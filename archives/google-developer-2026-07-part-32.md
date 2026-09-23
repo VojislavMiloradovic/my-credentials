@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-07-02 | **Get to know Cloud Firestore** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-firestore/cloud-firestore |
 | 2026-07-02 | **Build with Google Maps Platform and AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/build-with-google-maps-platform-and-ai |
 | 2026-07-02 | **Build web apps backed by Cloud Firestore** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-firestore |
 | 2026-07-02 | **Misadventures in Kubernetes: The Kinda Hard Way** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/misadventures-in-kubernetes |
@@ -65,6 +64,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-29 | **Engage your web app's users with push notifications** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/pwa-push-notifications |
 | 2026-06-29 | **Wear OS** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/wear |
 | 2026-06-29 | **Boost your web apps with Fugu APIs** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/fugu-apis |
+| 2026-06-29 | **Go further with object detection** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/go-further-object-detection/go-further-object-detection |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-31.md](./google-developer-2026-06-part-31.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-08-part-33.md](./google-developer-2026-08-part-33.md)

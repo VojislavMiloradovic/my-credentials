@@ -1,18 +1,26 @@
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1695 records.
+This document represents a unified, verifiable list of all 1702 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-23T01:18:14.776738+00:00 -->
+<!-- retrieved_at: 2026-09-23T01:20:21.528068+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-09-15 | **Agent Gateway centralized governance with cross-project Agent Registry for Agent Runtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-manual-multiproject |
+| 2026-09-22 | **How to Deploy Hermes Agent on Cloud Run instances** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-hermes-cloud-run-instances |
+| 2026-09-22 | **Agent Gateway centralized governance with cross-project Agent Registry for Agent Runtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-multiproject |
+| 2026-09-22 | **Build and Deploy an Autonomous Hyper-Personalized CX & Fulfillment Agent Using ADK 2.0 & MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/adk-mcp-fulfillment-agent |
+| 2026-09-22 | **Improve app performance with Baseline Profiles** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-baseline-profiles-improve |
+| 2026-09-22 | **Inspect app performance with Macrobenchmark** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-macrobenchmark-inspect |
+| 2026-09-22 | **Working with Preferences DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-preferences-datastore |
+| 2026-09-22 | **Sharing the Thread Network With Google Thread Credentials APIs** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/thread-sharing-apis |
+| 2026-09-22 | **Beyond vibe coding for the web** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/beyond-vibe-coding-for-the-web |
+| 2026-09-15 | **codelabs.developers.google.com/agw-cuj-arun-manual-multiproject** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-manual-multiproject |
 | 2026-09-15 | **Market Street — State and the Human in the Loop at Agent Valley** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-valley-market/instructions |
 | 2026-09-15 | **Rails 8 on Google Cloud: From Zero to AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/rails8-on-google-cloud |
 | 2026-09-15 | **Governing Autonomous AI Agents with Agent Gateway and Semantic Governance Policies** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/enterprise-agent-governance-sgp |
@@ -441,7 +449,6 @@ This document represents a unified, verifiable list of all 1695 records.
 | 2026-06-10 | **Analyze and visualize credit card transaction data in Bigtable using BigQuery and Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigtable-cdc-looker-tutorial |
 | 2026-06-10 | **Query the Wikipedia dataset in BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-bigquery-wikipedia |
 | 2026-06-10 | **Ingest CSV data to BigQuery using Cloud Data Fusion - Batch ingestion** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/batch-csv-cdf-bq |
-| 2026-06-10 | **Improve app performance with Baseline Profiles** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/android-baseline-profiles-improve |
 | 2026-06-10 | **Getting started with App Engine (Python 3)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-app-engine-python3 |
 | 2026-06-10 | **Module 5: Migrate from Google App Engine to Cloud Run with Cloud Buildpacks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-5-runbldpks |
 | 2026-06-10 | **Automating legacy modernization at scale using agentic pipelines and Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/automating-modernization-with-antigravity |
@@ -709,7 +716,7 @@ This document represents a unified, verifiable list of all 1695 records.
 | 2026-06-07 | **(Deprecated) Converting to Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/java-to-kotlin |
 | 2026-06-07 | **Build an AI-powered outfit recommendation app with AlloyDB and serverless runtimes** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/smart-stylist-app |
 | 2026-06-07 | **Integrate the Vision API with Dialogflow** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/chatbots-dialogflow-visionAPI |
-| 2026-06-07 | **Using Vertex ML Metadata with Pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-mlmd-pipelines |
+| 2026-06-07 | **codelabs.developers.google.com/vertex-mlmd-pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-mlmd-pipelines [WARN] *Content retired* |
 | 2026-06-07 | **TCP Proxy Codelab - Rate limiting and IP Deny list with TCP Proxy Load balancer** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tcp-proxylb-ssl-proxylb |
 | 2026-06-07 | **(Deprecated) Use Kotlin Coroutines in your Android App** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/kotlin-coroutines |
 | 2026-06-07 | **(Deprecated) Android Paging Advanced codelab** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-paging |
@@ -1084,7 +1091,7 @@ This document represents a unified, verifiable list of all 1695 records.
 | 2026-06-02 | **Cloud Run and serverless computing quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/cloud-run-serverless-computing |
 | 2026-06-02 | **Detect objects in images to build a visual product search with ML Kit: Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/product-search-odt-android |
 | 2026-06-02 | **Integrate a Custom Model into your App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-computer-vision-update-app |
-| 2026-06-02 | **Spring Boot application with Cloud Datastore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-datastore |
+| 2026-06-02 | **codelabs.developers.google.com/codelabs/cloud-spring-datastore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-datastore [WARN] *Content retired* |
 | 2026-06-02 | **Get started with the Streetscape Geometry and Rooftop anchors APIs in ARCore** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/arcore-streetscape-geometry-rooftop-anchors |
 | 2026-06-02 | **Google Pay API for Web 201: Advanced** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gpay-web-201 |
 | 2026-06-02 | **Cloud Run jobs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/codelabs/cloud-run-jobs |

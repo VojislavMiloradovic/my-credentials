@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 20 of 35
 date_range: 2026-06-06 to 2026-06-07
-total_entries: 47
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-20.md
 layer: L2_published
 transform: unknown
@@ -15,9 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-07 | **(Deprecated) Android Paging Advanced codelab** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-paging |
-| 2026-06-07 | **Vertex AI: Co-host models on the same VM for predictions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-cohost-prediction |
-| 2026-06-07 | **Vertex AI Vision Traffic Monitoring App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-ai-vision-traffic-monitoring |
 | 2026-06-07 | **End-to-End Migration: CloudSQL Database to Cloud Spanner (GoogleSQL)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudsql-to-spanner-migration |
 | 2026-06-07 | **Get started with scroll-driven animations in CSS** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/scroll-driven-animations |
 | 2026-06-07 | **Deploy a full stack Angular application to Cloud Run with Firestore using the Node.js Admin SDK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/firestore-angular |
@@ -62,6 +59,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-06 | **Accessibility, testing, and performance** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/jetpack-compose-for-android-developers-4/jetpack-compose-for-android-developers-4 |
 | 2026-06-06 | **Lesson 8: App architecture (UI layer)** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-8/android-development-with-kotlin-8 |
 | 2026-06-06 | **Save preferences locally with DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-datastore |
+| 2026-06-06 | **Lesson 7: Activity and fragment lifecycles** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-7/android-development-with-kotlin-7 |
+| 2026-06-06 | **Functions** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-development-kotlin-2.1 |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-19.md](./google-developer-2026-06-part-19.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-21.md](./google-developer-2026-06-part-21.md)

@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-29 | **Go further with object detection** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/go-further-object-detection/go-further-object-detection |
 | 2026-06-29 | **Views in Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-8-pathway-2 |
 | 2026-06-29 | **Get started with image classification in web apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/tensorflow-serving/image-classification-in-web-apps |
 | 2026-06-29 | **Go further with product image search** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/going-further-image-product-search |
@@ -63,6 +62,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-27 | **Add Firebase to your Flutter app: Advanced** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-flutter-advanced |
 | 2026-06-27 | **Get started with Google Maps Platform for Android** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps-android |
 | 2026-06-27 | **Understand your game's crashes using advanced Crashlytics features** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-advanced-crashlytics-unity-games |
+| 2026-06-27 | **Build apps with Flutter** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/intro-to-flutter |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-30.md](./google-developer-2026-06-part-30.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-07-part-32.md](./google-developer-2026-07-part-32.md)

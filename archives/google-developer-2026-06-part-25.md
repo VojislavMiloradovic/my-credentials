@@ -15,8 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-09 | **Track Autofill Behavior with Google Analytics 4** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ga4-autofill-tracking |
-| 2026-06-09 | **Migration from Apache Kafka to Pubsub** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/kafka-to-pubsub |
 | 2026-06-09 | **Using the Vision API with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-vision-api-python |
 | 2026-06-09 | **Vibe-code a kids game with Gemini and publish with Firebase!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gemini-games-firebase |
 | 2026-06-09 | **Deploy a website with Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-deploy |
@@ -61,6 +59,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-09 | **Migrating from Google App Engine Java app to Cloud Run with Docker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-gae-java-migrate-docker |
 | 2026-06-09 | **Deploy a JavaScript application to Cloud Run with AlloyDB** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/alloydb-nodejs |
 | 2026-06-09 | **Spring Boot application with Cloud Spanner** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-spanner |
+| 2026-06-09 | **How to deploy a FastAPI chatbot app to Cloud Run using Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-fastapi-chat-app-gemini |
+| 2026-06-09 | **Display the first 100 files & folders in your Google Drive** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gsuite-apis-intro |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-24.md](./google-developer-2026-06-part-24.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-26.md](./google-developer-2026-06-part-26.md)

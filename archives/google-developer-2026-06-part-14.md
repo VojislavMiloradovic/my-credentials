@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 14 of 35
 date_range: 2026-06-02 to 2026-06-03
-total_entries: 47
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-14.md
 layer: L2_published
 transform: unknown
@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-03 | **Use Remote Config to update your Unity game without a release quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-remote-config/use-remote-config-to-update-game-without-a-release |
 | 2026-06-03 | **Integrate Test Lab into your CI/CD system** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/ci-with-testlab |
 | 2026-06-03 | **Creating a multiplayer crossword with Gemini, Flutter, and Firebase** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/solution-crossword |
 | 2026-06-03 | **Quiz: Use MFA, blocking functions, and cross-service Security Rules** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/firebase-mfa-security-rules |
@@ -50,7 +49,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-02 | **Cloud Run and serverless computing quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/cloud-run-serverless-computing |
 | 2026-06-02 | **Detect objects in images to build a visual product search with ML Kit: Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/product-search-odt-android |
 | 2026-06-02 | **Integrate a Custom Model into your App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-computer-vision-update-app |
-| 2026-06-02 | **Spring Boot application with Cloud Datastore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-datastore |
+| 2026-06-02 | **codelabs.developers.google.com/codelabs/cloud-spring-datastore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-datastore [WARN] *Content retired* |
 | 2026-06-02 | **Get started with the Streetscape Geometry and Rooftop anchors APIs in ARCore** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/arcore-streetscape-geometry-rooftop-anchors |
 | 2026-06-02 | **Google Pay API for Web 201: Advanced** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gpay-web-201 |
 | 2026-06-02 | **Cloud Run jobs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/codelabs/cloud-run-jobs |
