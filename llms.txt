@@ -1,24 +1,24 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-09-23 01:12 UTC
+> **Last Generated:** 2026-09-23 01:15 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
 - **Microsoft Learn**: 35,951 completed units | 4,842 total achievements | 6,043,525 XP
 - **Google Cloud Skills**: 391 badges
-- **AWS Skill Builder**: 859 completed courses/activities
+- **AWS Skill Builder**: 899 completed courses/activities
 - **Credly**: 680 credentials
 - **LinkedIn**: 1,669 verified external certifications
 - **Google Developer**: 172 milestone badges | 1,639 codelabs & activities
 
 ## Domain Focus & Skill Taxonomy
-Dynamic classification of ~10,136 parsed portfolio achievements across 5 primary tech domains:
+Dynamic classification of ~10,176 parsed portfolio achievements across 5 primary tech domains:
 
-- **[AI]  AI, Machine Learning & Data**: 3,254 achievements (32.1%)
-- ** DevOps, Security & Governance**: 1,137 achievements (11.2%)
-- ** Cloud & Infrastructure**: 1,571 achievements (15.5%)
-- **[Dev]  App Engineering & Software Development**: 1,296 achievements (12.8%)
-- **[Biz]  Enterprise & Professional Development**: 2,878 achievements (28.4%)
+- **[AI]  AI, Machine Learning & Data**: 3,265 achievements (32.1%)
+- ** DevOps, Security & Governance**: 1,142 achievements (11.2%)
+- ** Cloud & Infrastructure**: 1,595 achievements (15.7%)
+- **[Dev]  App Engineering & Software Development**: 1,296 achievements (12.7%)
+- **[Biz]  Enterprise & Professional Development**: 2,878 achievements (28.3%)
 
 ## Platform Master Indexes
 Use these index files to navigate chunked historical records without exceeding context limits.
@@ -33,7 +33,7 @@ Use these index files to navigate chunked historical records without exceeding c
 ## Complete Monolithic Datasets
 Recommended for models with large context windows (>100k tokens).
 
-- [AWS Skills Complete](./archives/aws-skills-complete.md): Full dataset (~145.79 KB, ~39,621 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
+- [AWS Skills Complete](./archives/aws-skills-complete.md): Full dataset (~152.22 KB, ~41,397 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
 - [Google Skills Complete](./archives/google-skills-complete.md): Full dataset (~74.84 KB, ~25,312 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-complete.md
 - [Google Developer Complete](./archives/google-developer-complete.md): Full dataset (~321.37 KB, ~81,925 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md
 - [Linkedin Certifications Complete](./archives/linkedin-certifications-complete.md): Full dataset (~338.75 KB, ~119,205 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md
@@ -43,7 +43,7 @@ Recommended for models with large context windows (>100k tokens).
 ## Latest Chunked Slices (~10 KB per slice)
 Optimized for lower-capacity context tools or fast targeted queries.
 
-- [AWS Skills Latest Slice](./archives/aws-skills-2026-09-part-16.md): Most recent achievements for AWS Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-16.md
+- [AWS Skills Latest Slice](./archives/aws-skills-2026-09-part-17.md): Most recent achievements for AWS Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-17.md
 - [Google Skills Latest Slice](./archives/google-skills-2026-09-part-09.md): Most recent achievements for Google Skills. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-09-part-09.md
 - [Google Developer Latest Slice](./archives/google-developer-2026-09-part-35.md): Most recent achievements for Google Developer. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md
 - [Linkedin Certifications Latest Slice](./archives/linkedin-certifications-2026-09-part-37.md): Most recent achievements for Linkedin Certifications. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-37.md
