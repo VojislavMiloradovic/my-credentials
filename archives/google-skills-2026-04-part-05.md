@@ -38,7 +38,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-04-13 | [Architecting and Installing the Apigee Hybrid API Platform](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23577414) | Google Cloud | Google Skill Badge |
 | 2026-04-12 | [GKE Routing and IP Address Management](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23561908) | Google Cloud | Google Skill Badge |
 | 2026-04-11 | [Deploy Your First Agent](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548435) | Google Cloud | Google Skill Badge |
-| 2026-04-11 | [Orchestrate Complex Multi-Agent Workflows](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548307) | Google Cloud | Google Skill Badge |
+| 2026-04-11 | [[DEPRECATED] Orchestrate Complex Multi-Agent Workflows](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548307) | Google Cloud | Google Skill Badge |
 | 2026-04-11 | [Coordinate Multiple Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548231) | Google Cloud | Google Skill Badge |
 | 2026-04-11 | [Introduction to GKE Networking](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548146) | Google Cloud | Google Skill Badge |
 | 2026-04-10 | [Network Observability on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23537866) | Google Cloud | Google Skill Badge |
