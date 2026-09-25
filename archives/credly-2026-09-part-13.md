@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 13 of 13
-date_range: 2026-09-15 to 2026-09-22
-total_entries: 45
+date_range: 2026-09-15 to 2026-09-25
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-13.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,11 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-25 | [Basis Bidding](https://www.credly.com/badges/984bb4b8-c27c-49b7-9c9d-47ccd9cca66b/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-25 | [Curated Marketplaces with Audigent](https://www.credly.com/badges/980b0fbc-452e-4c4d-8f5e-b82ae0ca2c7b/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-25 | [Generative AI Content Creation](https://www.credly.com/badges/b822f842-3203-4810-abfb-e4f33d0b66f9/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-25 | [Optimizations](https://www.credly.com/badges/51c90b78-65b5-4650-b019-434be614778e/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-25 | [Programmatic Guaranteed (PG) Essentials: Basis User Edition](https://www.credly.com/badges/c8ef4ec7-a9d9-4ec3-98b9-eaf70700bf5e/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-22 | [Enterprise Design Thinking Co-Creator](https://www.credly.com/badges/83cd7944-3b95-4abd-8d5c-32bbaedbe5ce/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-19 | [AWS Knowledge: Amazon Connect AI Fundamentals - Training Badge](https://www.credly.com/badges/d8b397ab-6ec4-4ea5-9e27-f60ae342e92d/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-09-19 | [AI Foundations for Educators](https://www.credly.com/badges/a90de7d5-3c53-46c6-8b58-be924bf3b489/public_url) | IBM SkillsBuild | Credly Verified Badge |
