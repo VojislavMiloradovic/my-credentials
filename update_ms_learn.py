@@ -480,6 +480,10 @@ class MicrosoftLearnPipeline(PipelineBase):
     def JSON_PATH(self):
         return JSON_PATH
 
+    @property
+    def MONOLITH_PATH(self):
+        return ARCHIVE_MONOLITH
+
     def get_retired_rules(self) -> list[dict]:
         """Wrapper that uses module-level RETIRED_URLS_FILE for test compatibility."""
         return _load_retired_rules(
@@ -553,24 +557,8 @@ class MicrosoftLearnPipeline(PipelineBase):
         return records
 
     def post_loss_guard(self, records: list[dict]) -> list[dict]:
-        """Run loss guards and mark retired items across all data types."""
-        # 1. Execute Content-Aware Loss Guard check against stored baseline
-        try:
-            from loss_guard import execute_content_loss_guard
-
-            execute_content_loss_guard(
-                new_records=records,
-                platform="microsoft-learn",
-                id_field="id",
-                fail_on_warn=True,
-            )
-        except Exception as anomaly_err:
-            self.logger.error(
-                f"[FAIL] Pipeline Terminated by Anomaly Guard: {anomaly_err}"
-            )
-            raise
-
-        # 2. Retired detection for achievements
+        """Mark retired items across all data types (loss guards run in base class)."""
+        # 1. Retired detection for achievements
         retired_rules = self.get_retired_rules()
         if retired_rules:
             _, marked = mark_retired(records, retired_rules, url_field="url")
@@ -579,7 +567,7 @@ class MicrosoftLearnPipeline(PipelineBase):
                     f"[NOTE] Updated {marked} achievement(s) with retired status"
                 )
 
-        # 3. Also check verifiable credentials against retired rules
+        # 2. Also check verifiable credentials against retired rules
         if retired_rules and self._user_creds:
             _, marked = mark_retired(
                 self._user_creds,
@@ -593,7 +581,7 @@ class MicrosoftLearnPipeline(PipelineBase):
                     f"[NOTE] Updated {marked} verifiable credential(s) with retired status"
                 )
 
-        # 4. Also check learning paths against retired rules (with URL normalization)
+        # 3. Also check learning paths against retired rules (with URL normalization)
         if retired_rules and self._learning_paths:
             # loss_guard.mark_retired doesn't support list for url_field or normalize_url
             # So we manually normalize and check
@@ -633,7 +621,7 @@ class MicrosoftLearnPipeline(PipelineBase):
                         f"[LABEL]  Marked learning path as retired: {lp.get('title') or lp.get('name') or lp.get('id')}"
                     )
 
-        # 5. Propagate retired status from learning paths to matching achievements
+        # 4. Propagate retired status from learning paths to matching achievements
         retired_lp_urls = set()
         for lp in self._learning_paths:
             if lp.get("retired"):
@@ -666,22 +654,6 @@ class MicrosoftLearnPipeline(PipelineBase):
                 self.logger.info(
                     f"[NOTE] Propagated retired status to {ach_marked} achievement(s)"
                 )
-
-        # 6. Generate L1 baseline fingerprints for cross-artifact validation
-        try:
-            from loss_guard import execute_content_loss_guard
-
-            execute_content_loss_guard(
-                new_records=records,
-                platform="microsoft-learn",
-                id_field="id",
-                fail_on_warn=False,  # Baseline generation should not fail the pipeline
-            )
-            self.logger.info(
-                "[OK] L1 baseline fingerprints generated for cross-artifact validation"
-            )
-        except Exception as e:
-            self.logger.warning(f"[WARN] Baseline generation failed (non-fatal): {e}")
 
         return records
 

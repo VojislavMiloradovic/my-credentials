@@ -522,6 +522,10 @@ class AWSSkillsPipeline(PipelineBase):
     MARKER_START = "<!-- AWS_SKILLS_START -->"
     MARKER_END = "<!-- AWS_SKILLS_END -->"
 
+    # Paths for count loss guard baseline lookup
+    JSON_PATH = os.path.join(VALIDATION_DIR, "aws_skill_badges.json")
+    MONOLITH_PATH = ARCHIVE_MONOLITH
+
     TABLE_HEADERS: ClassVar[list[str]] = [
         "Date Earned",
         "Credential Name",

@@ -724,6 +724,10 @@ class GoogleSkillsPipeline(PipelineBase):
     MARKER_START = "<!-- GOOGLE_SKILLS_START -->"
     MARKER_END = "<!-- GOOGLE_SKILLS_END -->"
 
+    # Paths for count loss guard baseline lookup
+    JSON_PATH = os.path.join(VALIDATION_DIR, "google_skills_badges.json")
+    MONOLITH_PATH = ARCHIVE_MONOLITH
+
     TABLE_HEADERS: ClassVar[list[str]] = [
         "Date Earned",
         "Credential Name",

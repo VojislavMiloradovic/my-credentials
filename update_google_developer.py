@@ -833,24 +833,8 @@ class GoogleDeveloperPipeline(PipelineBase):
         return records
 
     def post_loss_guard(self, records: list[dict]) -> list[dict]:
-        """Run loss guards, mark retired, generate baselines."""
-        # 1. Execute Content-Aware Loss Guard check against stored baseline
-        try:
-            from loss_guard import execute_content_loss_guard
-
-            execute_content_loss_guard(
-                new_records=records,
-                platform="google-developer",
-                id_field="title",  # Google Developer uses title as stable ID
-                fail_on_warn=True,
-            )
-        except Exception as anomaly_err:
-            self.logger.error(
-                f"[FAIL] Pipeline Terminated by Anomaly Guard: {anomaly_err}"
-            )
-            raise
-
-        # 2. Retired URL / Identity detection
+        """Mark retired items after loss guard (loss guards run in base class)."""
+        # Retired URL / Identity detection
         retired_rules = self.get_retired_rules()
         if retired_rules:
             _, marked = mark_retired(records, retired_rules, url_field="url")
@@ -858,15 +842,6 @@ class GoogleDeveloperPipeline(PipelineBase):
                 self.logger.info(
                     f"[NOTE] Updated {marked} badge/activity(s) with retired status"
                 )
-
-        # 3. Generate L1 baseline fingerprints for all 3 streams (cross-artifact validation)
-        try:
-            from loss_guard import generate_all_provider_baselines
-
-            results = generate_all_provider_baselines(records, "google-developer")
-            self.logger.info(f"[OK] L1 baselines generated: {results}")
-        except Exception as e:
-            self.logger.warning(f"[WARN] Baseline generation failed (non-fatal): {e}")
 
         return records
 

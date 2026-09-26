@@ -162,6 +162,10 @@ class PipelineBase:
     BASELINE_SOURCES: list = None  # If None, uses PROVIDER_CONFIG
     STREAMS: list = None  # For multi-stream (google-developer)
 
+    # Paths for count loss guard baseline lookup (override in subclass if needed)
+    JSON_PATH: str | None = None
+    MONOLITH_PATH: str | None = None
+
     # Archive table config
     TABLE_HEADERS: ClassVar[list[str]] = ["Date", "Title", "Description"]
     TABLE_ALIGNMENTS: ClassVar[list[str]] = [":---:", ":---", ":---"]
@@ -248,6 +252,8 @@ class PipelineBase:
                 records,
                 self.PLATFORM_NAME,
                 fail_on_warn=self.FAIL_ON_WARN,
+                json_path=self.JSON_PATH,
+                monolith_path=self.MONOLITH_PATH,
             )
             generate_all_provider_baselines(records, self.PLATFORM_NAME)
         else:
@@ -255,6 +261,8 @@ class PipelineBase:
                 records,
                 self.PLATFORM_NAME,
                 fail_on_warn=self.FAIL_ON_WARN,
+                json_path=self.JSON_PATH,
+                monolith_path=self.MONOLITH_PATH,
             )
             generate_provider_baseline(records, self.PLATFORM_NAME)
 
