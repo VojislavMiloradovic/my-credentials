@@ -59,7 +59,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-10 | [Google Cloud Essentials](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24830932) | Google Cloud | Google Skill Badge |
 | 2026-06-03 | [Analyzing and Visualizing Data in Looker](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24658131) | Google Cloud | Google Skill Badge |
 | 2026-05-30 | [Developing Data Models with LookML](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24560747) | Google Cloud | Google Skill Badge |
-| 2026-05-26 | [Introduction to Data Analytics on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24448908) | Google Cloud | Google Skill Badge |
+| 2026-05-26 | [Google Cloud Data Analytics Essentials](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24448908) | Google Cloud | Google Skill Badge |
 | 2026-05-25 | [Manage Data Models in Looker](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24423060) | Google Cloud | Google Skill Badge |
 | 2026-05-24 | [App Building with AppSheet](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24390898) | Google Cloud | Google Skill Badge |
 | 2026-05-24 | [Analyze BigQuery Data in Connected Sheets](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24389719) | Google Cloud | Google Skill Badge |
