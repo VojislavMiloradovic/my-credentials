@@ -1,6 +1,6 @@
 ﻿Complete Training Activity List
-Generated on: 23. септембар 2026.
-Total rows: 899
+Generated on: 26. септембар 2026.
+Total rows: 910
 
 Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
 [RETIRED] Amazon EKS Pre-assessment,Digital course,Retired,93,-,"March 17, 2026","March 17, 2026","March 17, 2026",30 minutes,Fundamental,English
@@ -42,8 +42,18 @@ Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,
 [RETIRING - 2026-10-16] Designing Secure Retrieval Augmented Generation (RAG) Applications with AWS,Digital course,Completed,0,-,"August 11, 2026","August 11, 2026","August 11, 2026",2 hours,Intermediate,English
 A Day in the Life of an Everyday User with Amazon Quick,Digital course,Completed,0,-,"July 14, 2026","July 14, 2026","July 14, 2026",20 minutes,Fundamental,English
 A day in the life of CxO with Amazon Quick,Digital course,Completed,0,-,"July 14, 2026","July 14, 2026","July 14, 2026",25 minutes,Fundamental,English
+A day in the life of Middle Manager with Amazon Quick,Digital course,Completed,0,-,"September 25, 2026","September 25, 2026","September 25, 2026",35 minutes,Fundamental,English
+A Foundational Guide to Amazon Bedrock: Foundation Models and AI Applications​,Digital course,Completed,0,-,"September 25, 2026","September 25, 2026","September 25, 2026",15 minutes,Fundamental,English
+A Hands-On Look at Amazon Q Business,Digital course,Completed,0,-,"September 25, 2026","September 25, 2026","September 25, 2026",1 hour,Intermediate,English
 A leader's guide to accelerating large-scale migration - AWS re:Invent 2025,Digital course,Completed,0,-,"July 27, 2026","July 27, 2026","July 27, 2026",1 hour,Fundamental,English
+A leader's guide to achieving compliance through software excellence - AWS re:Invent 2025,Digital course,Completed,0,-,"September 25, 2026","September 25, 2026","September 25, 2026",1 hour,Fundamental,English
+A leader's guide to advanced mental models and mechanisms - AWS re:Invent 2025,Digital course,Completed,0,-,"September 26, 2026","September 26, 2026","September 26, 2026",1 hour,Fundamental,English
 A leader's guide to advanced team structures in an agentic world - AWS re:Invent 2025,Digital course,Completed,0,-,"June 2, 2026","June 2, 2026","June 2, 2026",1 hour,Fundamental,English
+A leader's guide to agentic AI - AWS re:Invent 2025,Digital course,Completed,0,-,"September 26, 2026","September 26, 2026","September 26, 2026",1 hour,Fundamental,English
+A leader's guide to AI strategy and implementation - AWS re:Invent 2025,Digital course,Completed,0,-,"September 26, 2026","September 26, 2026","September 26, 2026",1 hour,Fundamental,English
+A leader's guide to AI-powered FinOps - AWS re:Invent 2025,Digital course,Completed,0,-,"September 26, 2026","September 26, 2026","September 26, 2026",1 hour,Fundamental,English
+A leader's guide to cloud-native application modernization - AWS re:Invent 2025,Digital course,Completed,0,-,"September 26, 2026","September 26, 2026","September 26, 2026",1 hour,Fundamental,English
+A leader's guide to data strategy in the era of agentic AI - AWS re:Invent 2025,Digital course,Completed,0,-,"September 25, 2026","September 25, 2026","September 25, 2026",1 hour,Fundamental,English
 Accelerate foundation model development with one-click observability in Amazon SageMaker HyperPod,Digital course,Completed,0,-,"August 9, 2026","August 9, 2026","August 9, 2026",1 hour 30 minutes,Intermediate,English
 Accelerate Generative AI Inference on Amazon SageMaker AI with G7e Instances,Digital course,Completed,0,-,"July 28, 2026","July 28, 2026","July 28, 2026",45 minutes,Intermediate,English
 Accelerating AWS Network Firewall troubleshooting with AWS DevOps Agent,Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",45 minutes,Advanced,English
@@ -861,6 +871,7 @@ Securing Your Cloud: Essential Controls to Protect Your Business,Digital course,
 Security and Observability for Serverless Applications,Digital course,Completed,0,-,"August 19, 2026","August 19, 2026","August 19, 2026",1 hour 30 minutes,Intermediate,English
 Security Aspects of RDS and Aurora PostgreSQL,Digital course,Completed,0,-,"August 15, 2026","August 15, 2026","August 15, 2026",1 hour 30 minutes,Intermediate,English
 Security Governance at Scale – Technical (Digital),Digital course,Completed,81,-,"August 24, 2026","August 24, 2026","August 24, 2026",4 hours,Intermediate,English
+Security Hub adds AI workload protection and multicloud support for Microsoft Azure,Digital course,Completed,0,-,"September 25, 2026","September 25, 2026","September 25, 2026",45 minutes,Fundamental,English
 Security Incident Response: The customer’s journey to accelerating the incident response lifecycle,Digital course,Completed,0,-,"August 8, 2026","August 8, 2026","August 8, 2026",1 hour,Intermediate,English
 "Security, Compliance, and Governance for AI Solutions",Digital course,Completed,0,-,"February 15, 2026","February 15, 2026","February 15, 2026",1 hour,Fundamental,English
 Selecting your Data Migration Strategy with AWS,Digital course,Completed,0,-,"April 22, 2026","April 22, 2026","April 22, 2026",30 minutes,Fundamental,English
