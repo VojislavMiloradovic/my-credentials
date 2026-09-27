@@ -531,13 +531,20 @@ def mock_archiver(monkeypatch):
 def mock_loss_guard(monkeypatch):
     """Mock loss_guard module to avoid baseline file I/O."""
     mock_execute = MagicMock()
+    mock_execute_data = MagicMock()
     mock_anomaly = type("PipelineDataLossAnomaly", (Exception,), {})
     monkeypatch.setattr("loss_guard.execute_content_loss_guard", mock_execute)
+    monkeypatch.setattr("loss_guard.execute_data_loss_guard", mock_execute_data)
+    monkeypatch.setattr("loss_guard.run_provider_loss_guards", MagicMock())
     monkeypatch.setattr("loss_guard.PipelineDataLossAnomaly", mock_anomaly)
     # Also patch in modules that import it directly
     monkeypatch.setattr("update_linkedin.execute_content_loss_guard", mock_execute)
+    monkeypatch.setattr("update_linkedin.execute_data_loss_guard", mock_execute_data)
     monkeypatch.setattr(
         "update_google_developer.execute_content_loss_guard", mock_execute
+    )
+    monkeypatch.setattr(
+        "update_google_developer.execute_data_loss_guard", mock_execute_data
     )
     # Only patch PipelineDataLossAnomaly in modules that still define it
     monkeypatch.setattr("update_linkedin.PipelineDataLossAnomaly", mock_anomaly)

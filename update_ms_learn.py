@@ -527,18 +527,7 @@ class MicrosoftLearnPipeline(PipelineBase):
             except ValidationError as ve:
                 self.logger.warning(f"[WARN] Skipping invalid achievement entry: {ve}")
 
-        # 2. Retired URL / Identity detection (Microsoft Learn)
-        retired_rules = self.get_retired_rules()
-        if retired_rules:
-            _, marked = mark_retired(
-                validated_achievements, retired_rules, url_field="url"
-            )
-            if marked > 0:
-                self.logger.info(
-                    f"[NOTE] Updated {marked} achievement(s) with retired status"
-                )
-
-        # Store for later use in post_loss_guard
+        # Store for later use in post_loss_guard (retired marking happens there)
         self._learning_paths = learning_paths
         self._modules = modules
         self._completed_units = completed_units
