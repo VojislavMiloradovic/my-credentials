@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 401 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-28T16:47:57.901742+00:00 -->
+<!-- retrieved_at: 2026-09-28T17:42:42.097209+00:00 -->
 
 ## Verified Records Archive
 
