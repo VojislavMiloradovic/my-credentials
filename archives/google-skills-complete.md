@@ -1,17 +1,19 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 399 records.
+This document represents a unified, verifiable list of all 401 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-28T16:15:07.012970+00:00 -->
+<!-- retrieved_at: 2026-09-28T16:47:57.901742+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-28 | [Build a Certification Study Guide: AGWA Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466921) | Google Cloud | Google Skill Badge |
+| 2026-09-28 | [AI Infrastructure: Orchestration and Automation](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466553) | Google Cloud | Google Skill Badge |
 | 2026-09-28 | [Introduction to the Gemini App](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466194) | Google Cloud | Google Skill Badge |
 | 2026-09-28 | [Architect Private Connection Options](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28463901) | Google Cloud | Google Skill Badge |
 | 2026-09-28 | [Hybrid Load Balancing and Traffic Management](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28463484) | Google Cloud | Google Skill Badge |

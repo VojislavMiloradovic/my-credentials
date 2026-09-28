@@ -25,6 +25,9 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S",
 )
 logger = logging.getLogger("loss_guard")
+logger.setLevel(
+    logging.INFO
+)  # Ensure INFO logs show even if root logger is configured elsewhere
 
 VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 
