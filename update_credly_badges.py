@@ -721,12 +721,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # Sync fixtures for test consistency
-    try:
-        from scripts.sync_fixtures import sync_fixtures
-
-        sync_fixtures("credly")
-    except Exception as exc:
-        logging.getLogger("credly").warning(
-            f"[WARN] Fixture sync failed (non-fatal): {exc}"
-        )

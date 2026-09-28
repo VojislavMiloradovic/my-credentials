@@ -484,12 +484,6 @@ class MicrosoftLearnPipeline(PipelineBase):
     def MONOLITH_PATH(self):
         return ARCHIVE_MONOLITH
 
-    def get_retired_rules(self) -> list[dict]:
-        """Wrapper that uses module-level RETIRED_URLS_FILE for test compatibility."""
-        return _load_retired_rules(
-            "microsoft-learn", retired_urls_file=RETIRED_URLS_FILE
-        )
-
     def fetch_data(self) -> list[dict]:
         """Load and validate Microsoft Learn JSON export."""
         json_path = self.JSON_PATH

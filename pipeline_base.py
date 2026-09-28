@@ -172,6 +172,7 @@ class PipelineBase:
 
     def __init__(self):
         self.logger = logging.getLogger(self.__class__.__name__)
+        self._retired_rules: list[dict] | None = None
         if not self.PLATFORM_NAME:
             raise ValueError("PLATFORM_NAME must be set in subclass")
         if not self.PLATFORM_PREFIX:
@@ -214,8 +215,10 @@ class PipelineBase:
         return records
 
     def get_retired_rules(self) -> list[dict]:
-        """Load retired rules for this platform."""
-        return load_retired_rules(self.PLATFORM_NAME)
+        """Load retired rules for this platform (cached after first call)."""
+        if not hasattr(self, "_retired_rules") or self._retired_rules is None:
+            self._retired_rules = load_retired_rules(self.PLATFORM_NAME)
+        return self._retired_rules
 
     def get_validation_payload(self, records: list[dict]) -> dict:
         """Build validation payload - override for custom payload structure."""

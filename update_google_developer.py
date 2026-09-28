@@ -1042,12 +1042,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # Sync fixtures for test consistency
-    try:
-        from scripts.sync_fixtures import sync_fixtures
-
-        sync_fixtures("google-developer")
-    except Exception as e:
-        logging.getLogger("gdev_updater").warning(
-            f"[WARN] Fixture sync failed (non-fatal): {e}"
-        )
