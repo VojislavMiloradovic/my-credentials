@@ -1,17 +1,18 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 401 records.
+This document represents a unified, verifiable list of all 402 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-28T17:42:42.097209+00:00 -->
+<!-- retrieved_at: 2026-09-28T18:58:25.794363+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-28 | [Migrate your VPC Firewall Policies to Cloud NGFW](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28470543) | Google Cloud | Google Skill Badge |
 | 2026-09-28 | [Build a Certification Study Guide: AGWA Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466921) | Google Cloud | Google Skill Badge |
 | 2026-09-28 | [AI Infrastructure: Orchestration and Automation](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466553) | Google Cloud | Google Skill Badge |
 | 2026-09-28 | [Introduction to the Gemini App](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466194) | Google Cloud | Google Skill Badge |
