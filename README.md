@@ -55,8 +55,8 @@ Showing latest 10 of 4,842 achievements. View full dataset via [Platform Archive
 
 **Public Profile:** [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Total Portfolio Credentials:** 2
-**Total Verified Skills Mapped:** 2
+**Total Portfolio Credentials:** 395
+**Total Verified Skills Mapped:** 394
 
 #### Google Skills Learning Statistics
 
@@ -72,12 +72,20 @@ Showing latest 10 of 4,842 achievements. View full dataset via [Platform Archive
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 2 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 395 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-09-part-09.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-09-part-09.md)), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2024-01-15 | [Google Cloud Fundamentals](https://skills.google/badges/123) | Google | Google Skill Badge |
-| 1705238400000 | [Kubernetes Engine Basics](https://skills.google/badges/456) | Google | Google Skill Badge |
+| 2026-09-22 | [Security Best Practices in Google Cloud: Data](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28203673) | Google Cloud | Google Skill Badge |
+| 2026-09-22 | [Security Best Practices in Google Cloud: Models](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28201646) | Google Cloud | Google Skill Badge |
+| 2026-09-22 | [Security Best Practices in Google Cloud: Applications](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28199990) | Google Cloud | Google Skill Badge |
+| 2026-09-22 | [Security Best Practices in Google Cloud: Compute](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28198520) | Google Cloud | Google Skill Badge |
+| 2026-09-11 | [Develop Serverless Applications on Cloud Run](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27888161) | Google Cloud | Google Skill Badge |
+| 2026-09-08 | [Arcade Trail: Data Engineering and Security](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27755292) | Google Cloud | Google Skill Badge |
+| 2026-09-08 | [Create a Secure Data Lake on Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27753711) | Google Cloud | Google Skill Badge |
+| 2026-09-08 | [Create a Streaming Data Lake on Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27731119) | Google Cloud | Google Skill Badge |
+| 2026-09-02 | [Derive Insights from BigQuery Data](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27548513) | Google Cloud | Google Skill Badge |
+| 2026-08-31 | [Share Data Using Google Data Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27462274) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials
