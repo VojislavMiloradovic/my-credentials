@@ -1,0 +1,31 @@
+---
+archive_platform: Google Skills Credentials
+chunk_part: 9 of 9
+date_range: 2026-09-08 to 2026-09-28
+total_entries: 10
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-09-part-09.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: archive_complete, archive_index, jsonld
+---
+
+# Google Skills Credentials -- Part 09
+
+> **Navigation:** Prev: [google-skills-2026-09-part-08.md](./google-skills-2026-09-part-08.md) | [Index](./google-skills-index.md) | Next: None | [Complete Archive](./google-skills-complete.md)
+
+| Date Earned | Credential Name | Issuer | Verification Type |
+| :---: | :--- | :--- | :---: |
+| 2026-09-28 | [Introduction to the Gemini App](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466194) | Google Cloud | Google Skill Badge |
+| 2026-09-28 | [Architect Private Connection Options](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28463901) | Google Cloud | Google Skill Badge |
+| 2026-09-28 | [Hybrid Load Balancing and Traffic Management](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28463484) | Google Cloud | Google Skill Badge |
+| 2026-09-28 | [Security Best Practices in Google Cloud: Containers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28463089) | Google Cloud | Google Skill Badge |
+| 2026-09-22 | [Security Best Practices in Google Cloud: Data](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28203673) | Google Cloud | Google Skill Badge |
+| 2026-09-22 | [Security Best Practices in Google Cloud: Models](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28201646) | Google Cloud | Google Skill Badge |
+| 2026-09-22 | [Security Best Practices in Google Cloud: Applications](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28199990) | Google Cloud | Google Skill Badge |
+| 2026-09-22 | [Security Best Practices in Google Cloud: Compute](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28198520) | Google Cloud | Google Skill Badge |
+| 2026-09-11 | [Develop Serverless Applications on Cloud Run](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27888161) | Google Cloud | Google Skill Badge |
+| 2026-09-08 | [Arcade Trail: Data Engineering and Security](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27755292) | Google Cloud | Google Skill Badge |
+
+---
+> **Navigation:** Prev: [google-skills-2026-09-part-08.md](./google-skills-2026-09-part-08.md) | [Index](./google-skills-index.md) | Next: None
+
