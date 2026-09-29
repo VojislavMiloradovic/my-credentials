@@ -50,13 +50,13 @@ Showing latest 10 of 3 achievements. View full dataset via [Platform Archive Ind
 
 | Metric | Count |
 | :--- | :---: |
-| **Check** | 1,986 |
+| **Check** | 2,031 |
 | **Classroom** | 0 |
-| **Course** | 396 |
+| **Course** | 412 |
 | **Game** | 10 |
-| **Lab** | 311 |
-| **Lesson** | 4,985 |
-| **Path** | 20 |
+| **Lab** | 320 |
+| **Lesson** | 5,019 |
+| **Path** | 19 |
 
 #### Latest Earned Credentials
 
