@@ -7,7 +7,7 @@
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
 
-<!-- retrieved_at: 2026-09-29T04:19:36.336930+00:00 -->
+<!-- retrieved_at: 2026-09-29T04:26:19.212992+00:00 -->
 
 
 
@@ -15,23 +15,24 @@ This directory provides chunked, AI-readable historical records for google-devel
 
 ## Archive Overview
 
-- **Total Records Archived:** 1702
+- **Total Records Archived:** 1717
 - **Total Public Badges:** 172
-- **Total Detailed Activities:** 1,647
-- **Monolithic File Size:** ~322.78 KB (82,296 tokens)
-- **Total Chunk Parts:** 35 chunk(s)
+- **Total Detailed Activities:** 1,662
+- **Monolithic File Size:** ~325.86 KB (83,096 tokens)
+- **Total Chunk Parts:** 36 chunk(s)
 
 ### Monolithic Archive (Complete)
 
 | File Name | Size (KB) | Tokens | Recommended For | Direct Raw URL |
 | :--- | :---: | :---: | :--- | :--- |
-| [`google-developer-complete.md`](./google-developer-complete.md) | 322.78 KB | 82,296 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md) |
+| [`google-developer-complete.md`](./google-developer-complete.md) | 325.86 KB | 83,096 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md) |
 
 ### Chunked Archive Parts (~10 KB Slices)
 
 | Part | File Name | Date Range | Entries | Size (KB) | Tokens | Direct Raw URL |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| Part 35 | [`google-developer-2026-09-part-35.md`](./google-developer-2026-09-part-35.md) | `2026-09-03 to 2026-09-22` | 43 | 9.18 KB | 2,440 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md) |
+| Part 36 | [`google-developer-2026-09-part-36.md`](./google-developer-2026-09-part-36.md) | `2026-09-29 to 2026-09-29` | 11 | 3.0 KB | 822 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-36.md) |
+| Part 35 | [`google-developer-2026-09-part-35.md`](./google-developer-2026-09-part-35.md) | `2026-09-03 to 2026-09-29` | 47 | 10.15 KB | 2,705 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md) |
 | Part 34 | [`google-developer-2026-09-part-34.md`](./google-developer-2026-09-part-34.md) | `2026-08-07 to 2026-09-03` | 48 | 10.21 KB | 2,740 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-34.md) |
 | Part 33 | [`google-developer-2026-08-part-33.md`](./google-developer-2026-08-part-33.md) | `2026-07-07 to 2026-08-07` | 45 | 10.11 KB | 2,653 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-33.md) |
 | Part 32 | [`google-developer-2026-07-part-32.md`](./google-developer-2026-07-part-32.md) | `2026-06-29 to 2026-07-03` | 50 | 10.23 KB | 2,611 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-07-part-32.md) |
@@ -62,7 +63,7 @@ This directory provides chunked, AI-readable historical records for google-devel
 | Part 07 | [`google-developer-2026-05-part-07.md`](./google-developer-2026-05-part-07.md) | `2026-05-23 to 2026-05-24` | 46 | 10.16 KB | 2,694 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-07.md) |
 | Part 06 | [`google-developer-2026-05-part-06.md`](./google-developer-2026-05-part-06.md) | `2026-05-21 to 2026-05-23` | 46 | 10.24 KB | 2,774 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-06.md) |
 | Part 05 | [`google-developer-2026-05-part-05.md`](./google-developer-2026-05-part-05.md) | `2026-05-21 to 2026-05-21` | 47 | 10.24 KB | 2,726 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-05.md) |
-| Part 04 | [`google-developer-2026-05-part-04.md`](./google-developer-2026-05-part-04.md) | `2026-05-20 to 2026-05-21` | 46 | 10.13 KB | 2,733 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-04.md) |
+| Part 04 | [`google-developer-2026-05-part-04.md`](./google-developer-2026-05-part-04.md) | `2026-05-20 to 2026-05-21` | 46 | 10.15 KB | 2,740 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-04.md) |
 | Part 03 | [`google-developer-2026-05-part-03.md`](./google-developer-2026-05-part-03.md) | `2026-05-20 to 2026-05-20` | 48 | 10.17 KB | 2,648 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-03.md) |
 | Part 02 | [`google-developer-2026-05-part-02.md`](./google-developer-2026-05-part-02.md) | `2026-05-20 to 2026-05-20` | 47 | 10.16 KB | 2,647 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-02.md) |
 | Part 01 | [`google-developer-2026-05-part-01.md`](./google-developer-2026-05-part-01.md) | `2026-05-16 to 2026-05-20` | 49 | 10.02 KB | 2,619 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-01.md) |

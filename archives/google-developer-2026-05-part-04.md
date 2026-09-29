@@ -1,6 +1,6 @@
 ---
 archive_platform: google-developer
-chunk_part: 4 of 35
+chunk_part: 4 of 36
 date_range: 2026-05-20 to 2026-05-21
 total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-04.md
@@ -58,7 +58,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-05-21 | **Multi-Agent Systems with Agent2Agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/adk-agent2agent |
 | 2026-05-21 | **👗 Build a Virtual Fitting Room & AI Stylist with Flutter, ADK Go & Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/fitting-room/instructions |
 | 2026-05-21 | **Connect Your Agentforce Sales Agent to Gemini Enterprise** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentforce-sales-setup |
-| 2026-05-21 | **Stateful Data Science Agent on Agent Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/adk-deploy-scale |
+| 2026-05-21 | **Stateful Data Science Agent on Agent Runtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/adk-deploy-scale [WARN] *Content retired* |
 | 2026-05-21 | **Platform Engineering AI with GKE and Gemini CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gke/platform-engineering-ai-tools |
 | 2026-05-20 | **Add Sign in with Google to an iOS app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/sign-in-with-google-ios |
 

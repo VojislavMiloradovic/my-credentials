@@ -201,24 +201,24 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 172 |
-| **Total Codelabs & Learning Activities** | 1,647 |
+| **Total Codelabs & Learning Activities** | 1,662 |
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-09-part-35.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-09-part-36.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-36.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| *2026-09-22* | **How to Deploy Hermes Agent on Cloud Run instances** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-hermes-cloud-run-instances |
-| *2026-09-22* | **Agent Gateway centralized governance with cross-project Agent Registry for Agent Runtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-multiproject |
-| *2026-09-22* | **Build and Deploy an Autonomous Hyper-Personalized CX & Fulfillment Agent Using ADK 2.0 & MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/adk-mcp-fulfillment-agent |
-| *2026-09-22* | **Improve app performance with Baseline Profiles** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-baseline-profiles-improve |
-| *2026-09-22* | **Inspect app performance with Macrobenchmark** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-macrobenchmark-inspect |
-| *2026-09-22* | **Working with Preferences DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-preferences-datastore |
-| *2026-09-22* | **Sharing the Thread Network With Google Thread Credentials APIs** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/thread-sharing-apis |
-| *2026-09-22* | **Beyond vibe coding for the web** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/beyond-vibe-coding-for-the-web |
-| *2026-09-15* | **codelabs.developers.google.com/agw-cuj-arun-manual-multiproject** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-manual-multiproject |
-| *2026-09-15* | **Market Street — State and the Human in the Loop at Agent Valley** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-valley-market/instructions |
+| *2026-09-29* | **The Archive — Memory at Agent Valley** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-valley-archive/instructions |
+| *2026-09-29* | **Secure an app using Google Cloud Developer plugin in Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-app-cloud-dev-plugin-agy |
+| *2026-09-29* | **Working with Proto DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-proto-datastore |
+| *2026-09-29* | **Gemini Enterprise with Agent Gateway egress to private custom MCP server using Agent Registry** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-ge-custom-mcp-egress-vpc-registry |
+| *2026-09-29* | **Using TypeSafe AI's Jev model with AlloyDB AI Functions for High-Speed AI Queries** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-jev |
+| *2026-09-29* | **Enhancing e-commerce checkout with browser AI capabilities** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/enhancing-ecommerce-web-ai |
+| *2026-09-29* | **Build a Formula E Logistics Agent using MCP Toolbox for Databases** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/en/fe-track-planner-mcp-toolbox-adk |
+| *2026-09-29* | **Your First Course on Google Cloud 2026** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-foundation-one |
+| *2026-09-29* | **Architecting Long-Term Agent Memory with BigQuery and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-agent-long-term-memory-bigquery |
+| *2026-09-29* | **Architecting an Autonomous Software Factory: End-to-End Agentic Delivery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/software-factory-end-to-end |
 <!-- GOOGLE_DEVELOPER_END -->
 
 

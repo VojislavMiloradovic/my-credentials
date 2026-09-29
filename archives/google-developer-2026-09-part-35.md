@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
-chunk_part: 35 of 35
-date_range: 2026-09-03 to 2026-09-22
-total_entries: 43
+chunk_part: 35 of 36
+date_range: 2026-09-03 to 2026-09-29
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md
 layer: L2_published
 transform: unknown
@@ -11,10 +11,14 @@ artifacts: archive_complete, archive_index, jsonld
 
 # google-developer -- Part 35
 
-> **Navigation:** Prev: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Index](./google-developer-index.md) | Next: None | [Complete Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-36.md](./google-developer-2026-09-part-36.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-09-29 | **Remote Attestation and Secure Key Release on Intel TDX Confidential VMs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/confidential-vm-tdx |
+| 2026-09-29 | **Real-time Accelerated Image Segmentation on Android with LiteRT** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/litert-image-segmentation-android |
+| 2026-09-29 | **Build an Agentic Pitch Generator: Orchestration, Evaluation, and Analytics with Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bwg-agentic-masterclass |
+| 2026-09-29 | **Build a Multi-Agent Formula E Track Planner with ADK & A2A** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/formula-e-build-multi-agent-track-planner |
 | 2026-09-22 | **How to Deploy Hermes Agent on Cloud Run instances** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-hermes-cloud-run-instances |
 | 2026-09-22 | **Agent Gateway centralized governance with cross-project Agent Registry for Agent Runtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-multiproject |
 | 2026-09-22 | **Build and Deploy an Autonomous Hyper-Personalized CX & Fulfillment Agent Using ADK 2.0 & MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/adk-mcp-fulfillment-agent |
@@ -60,5 +64,5 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-09-03 | **TPU-speed data pipelines: tf.data.Dataset and TFRecords** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/keras-flowers-data |
 
 ---
-> **Navigation:** Prev: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Index](./google-developer-index.md) | Next: None
+> **Navigation:** Prev: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-36.md](./google-developer-2026-09-part-36.md)
 
