@@ -60,13 +60,13 @@ HEADERS = {
 
 # Optional internal learning statistics manually editable by user
 INTERNAL_STATS = {
-    "Course": 396,
-    "Check": 1986,
+    "Course": 412,
+    "Check": 2031,
     "Classroom": 0,
     "Game": 10,
-    "Lab": 311,
-    "Lesson": 4985,
-    "Path": 20,
+    "Lab": 320,
+    "Lesson": 5019,
+    "Path": 19,
 }
 
 RETIRED_URLS_FILE = "retired_urls.json"
