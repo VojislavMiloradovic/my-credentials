@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 1717 records.
 <!-- transform: unknown -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-29T04:26:19.212992+00:00 -->
+<!-- retrieved_at: 2026-09-29T16:20:30.283257+00:00 -->
 
 ## Verified Records Archive
 
@@ -1582,7 +1582,7 @@ This document represents a unified, verifiable list of all 1717 records.
 | 2026-05-21 | **Multi-Agent Systems with Agent2Agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/adk-agent2agent |
 | 2026-05-21 | **👗 Build a Virtual Fitting Room & AI Stylist with Flutter, ADK Go & Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/fitting-room/instructions |
 | 2026-05-21 | **Connect Your Agentforce Sales Agent to Gemini Enterprise** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentforce-sales-setup |
-| 2026-05-21 | **Stateful Data Science Agent on Agent Runtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/adk-deploy-scale [WARN] *Content retired* |
+| 2026-05-21 | **Stateful Data Science Agent on Agent Runtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/adk-deploy-scale |
 | 2026-05-21 | **Platform Engineering AI with GKE and Gemini CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gke/platform-engineering-ai-tools |
 | 2026-05-20 | **Add Sign in with Google to an iOS app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/sign-in-with-google-ios |
 | 2026-05-20 | **Approximate location** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/approximate-location |

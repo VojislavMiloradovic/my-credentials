@@ -11,7 +11,6 @@ from typing import Any, ClassVar
 
 # Import shared orchestration functions from loss_guard
 from loss_guard import (
-    generate_all_provider_baselines,
     generate_provider_baseline,
     load_retired_rules,
     run_provider_loss_guards,
@@ -234,6 +233,20 @@ class PipelineBase:
         return records
 
     # === Core pipeline flow (final - don't override) ===
+    def generate_baselines(self, records: list[dict]) -> None:
+        """Generate baseline fingerprints for loss guard validation.
+
+        Override for multi-stream providers (e.g., google-developer).
+        """
+        if self.STREAMS:
+            from loss_guard import generate_all_provider_baselines
+
+            generate_all_provider_baselines(records, self.PLATFORM_NAME)
+        else:
+            from loss_guard import generate_provider_baseline
+
+            generate_provider_baseline(records, self.PLATFORM_NAME)
+
     def run(self):
         """Execute complete pipeline."""
         self.logger.info(f"[START] Starting {self.PLATFORM_DISPLAY_NAME} Pipeline...")
@@ -258,7 +271,9 @@ class PipelineBase:
                 json_path=self.JSON_PATH,
                 monolith_path=self.MONOLITH_PATH,
             )
-            generate_all_provider_baselines(records, self.PLATFORM_NAME)
+
+            # Generate baselines after loss guards pass
+            self.generate_baselines(records)
         else:
             run_provider_loss_guards(
                 records,
