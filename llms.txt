@@ -1,10 +1,10 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-09-29 03:43 UTC
+> **Last Generated:** 2026-09-29 03:46 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
-- **Microsoft Learn**: 2 completed units | 4,842 total achievements | 100,000 XP
+- **Microsoft Learn**: 35,951 completed units | 4,842 total achievements | 6,043,525 XP
 - **Google Cloud Skills**: 402 badges
 - **AWS Skill Builder**: 910 completed courses/activities
 - **Credly**: 686 credentials
@@ -38,7 +38,7 @@ Recommended for models with large context windows (>100k tokens).
 - [Google Developer Complete](./archives/google-developer-complete.md): Full dataset (~322.78 KB, ~82,296 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md
 - [Linkedin Certifications Complete](./archives/linkedin-certifications-complete.md): Full dataset (~338.72 KB, ~119,195 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md
 - [Credly Complete](./archives/credly-complete.md): Full dataset (~119.88 KB, ~45,201 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-complete.md
-- [Microsoft Learn Complete](./archives/microsoft-learn-complete.md): Full dataset (~878.54 KB, ~225,050 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
+- [Microsoft Learn Complete](./archives/microsoft-learn-complete.md): Full dataset (~878.57 KB, ~225,060 tokens). Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
 
 ## Latest Chunked Slices (~10 KB per slice)
 Optimized for lower-capacity context tools or fast targeted queries.
@@ -48,6 +48,7 @@ Optimized for lower-capacity context tools or fast targeted queries.
 - [Google Developer Latest Slice](./archives/google-developer-2026-09-part-35.md): Most recent achievements for Google Developer. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md
 - [Linkedin Certifications Latest Slice](./archives/linkedin-certifications-2026-09-part-37.md): Most recent achievements for Linkedin Certifications. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-37.md
 - [Credly Latest Slice](./archives/credly-2026-09-part-13.md): Most recent achievements for Credly. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-13.md
+- [Microsoft Learn Latest Slice](./archives/microsoft-learn-2026-09-part-96.md): Most recent achievements for Microsoft Learn. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-96.md
 
 ## Structured Machine-Readable Data
 - [Schema.org JSON-LD Credentials](./credentials.jsonld): Semantic linked data representation of all achievements. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.jsonld
