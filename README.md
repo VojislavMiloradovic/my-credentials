@@ -200,20 +200,25 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 
 | Metric | Count |
 | :--- | :--- |
-| **Total Milestones & Milestone Badges** | 4 |
-| **Total Codelabs & Learning Activities** | 1 |
+| **Total Milestones & Milestone Badges** | 172 |
+| **Total Codelabs & Learning Activities** | 1,662 |
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-09-part-36.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-36.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| *2024-08-17* | **Setup Basic OpenTelemetry Plugin in gRPC Python** | Verified Google Developer granular learning activity module milestone. |
-| *2024-01-17* | **Cloud Architect** | Official Google Developer platform achievement (Learning Pathway: cloud architect). |
-| *2024-01-17* | **Data Engineer** | Official Google Developer platform achievement (Learning Pathway: data engineer). |
-| *2024-01-15* | **Cloud Architecture** | Official Google Developer platform achievement (Learning Pathway: cloud architecture). |
-| *2024-01-15* | **Data Engineering** | Official Google Developer platform achievement (Learning Pathway: data engineering). |
+| *2026-09-29* | **The Archive — Memory at Agent Valley** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-valley-archive/instructions |
+| *2026-09-29* | **Secure an app using Google Cloud Developer plugin in Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-app-cloud-dev-plugin-agy |
+| *2026-09-29* | **Working with Proto DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-proto-datastore |
+| *2026-09-29* | **Gemini Enterprise with Agent Gateway egress to private custom MCP server using Agent Registry** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-ge-custom-mcp-egress-vpc-registry |
+| *2026-09-29* | **Using TypeSafe AI's Jev model with AlloyDB AI Functions for High-Speed AI Queries** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-jev |
+| *2026-09-29* | **Enhancing e-commerce checkout with browser AI capabilities** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/enhancing-ecommerce-web-ai |
+| *2026-09-29* | **Build a Formula E Logistics Agent using MCP Toolbox for Databases** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/en/fe-track-planner-mcp-toolbox-adk |
+| *2026-09-29* | **Your First Course on Google Cloud 2026** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-foundation-one |
+| *2026-09-29* | **Architecting Long-Term Agent Memory with BigQuery and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-agent-long-term-memory-bigquery |
+| *2026-09-29* | **Architecting an Autonomous Software Factory: End-to-End Agentic Delivery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/software-factory-end-to-end |
 <!-- GOOGLE_DEVELOPER_END -->
 
 
