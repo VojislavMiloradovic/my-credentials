@@ -1128,17 +1128,38 @@ def run_provider_loss_guards(
     execute_data_loss_guard(new_records, provider_name, json_path, monolith_path)
 
     # 2. Content-aware loss guard (comprehensive, catches silent modifications)
-    # For google-developer with streams, we run on combined feed first
     streams = config.get("streams")
-    if streams and "combined" in streams:
-        # Run on combined feed first
-        execute_content_loss_guard(
-            new_records,
-            platform=provider_name,
-            id_field=config.get("id_field", "id"),
-            fail_on_warn=fail_on_warn,
-            stream_id="combined",
-        )
+    if streams:
+        # Multi-stream provider (e.g., google-developer)
+        # Run content loss guard on each declared stream
+        for stream_id in streams:
+            if stream_id == "combined":
+                stream_records = new_records
+            elif stream_id == "public_badges":
+                stream_records = [
+                    r for r in new_records if r.get("source") == "public_rpc"
+                ]
+            elif stream_id == "detailed_learnings":
+                stream_records = [
+                    r for r in new_records if r.get("source") == "local_mhtml"
+                ]
+            else:
+                # Unknown stream - skip or use all records
+                logger.warning(
+                    f"[{provider_name}] Unknown stream '{stream_id}', skipping"
+                )
+                continue
+
+            logger.info(
+                f"[SHIELD] [{provider_name} ({stream_id})] Starting content-aware loss guard..."
+            )
+            execute_content_loss_guard(
+                stream_records,
+                platform=provider_name,
+                id_field=config.get("id_field", "id"),
+                fail_on_warn=fail_on_warn,
+                stream_id=stream_id,
+            )
     else:
         # Single stream (most providers)
         execute_content_loss_guard(
@@ -1230,10 +1251,22 @@ def generate_all_provider_baselines(
     # Multi-stream provider (google-developer)
     results = {}
     for stream in streams:
-        # For now, all streams use the combined feed
-        # In future, could filter records per stream
+        if stream == "combined":
+            stream_records = new_records
+        elif stream == "public_badges":
+            stream_records = [r for r in new_records if r.get("source") == "public_rpc"]
+        elif stream == "detailed_learnings":
+            stream_records = [
+                r for r in new_records if r.get("source") == "local_mhtml"
+            ]
+        else:
+            logger.warning(
+                f"[{provider_name}] Unknown stream '{stream}', using combined feed"
+            )
+            stream_records = new_records
+
         success = generate_provider_baseline(
-            new_records, provider_name, stream_id=stream
+            stream_records, provider_name, stream_id=stream
         )
         results[stream] = success
 
