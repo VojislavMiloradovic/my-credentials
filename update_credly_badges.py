@@ -371,8 +371,10 @@ def fetch_credly_badges(username: str) -> list[dict] | None:
         logging.getLogger("credly").info(
             f"[OK] Successfully fetched {len(badges)} badges from Credly API."
         )
-
-    return badges
+        # Add source field for stream filtering
+        for b in badges:
+            b["source"] = "native"
+        return badges
 
 
 def fetch_credly_external_badges(user_id: str) -> list[dict] | None:
@@ -428,6 +430,9 @@ def fetch_credly_external_badges(user_id: str) -> list[dict] | None:
     logging.getLogger("credly").info(
         f"[OK] Successfully fetched {len(badges)} external open badges from Credly API."
     )
+    # Add source field for stream filtering
+    for b in badges:
+        b["source"] = "external"
     return badges
 
 
@@ -518,6 +523,9 @@ class CredlyPipeline(PipelineBase):
         "Verification Type",
     ]
     TABLE_ALIGNMENTS: ClassVar[list[str]] = [":---:", ":---", ":---", ":---:"]
+
+    # Multi-stream support for native and external badges
+    STREAMS: ClassVar[list[str]] = ["native", "external", "combined"]
 
     CREDLY_USER = CREDLY_USER
     CREDLY_USER_ID = CREDLY_USER_ID

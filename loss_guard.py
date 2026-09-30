@@ -919,6 +919,7 @@ PROVIDER_CONFIG = {
         "baseline_sources": ["json", "monolith"],  # Checks JSON file then monolith
         "threshold": 0.15,
         "fail_on_warn": True,
+        "streams": ["native", "external", "combined"],
     },
     "aws-skills": {
         "id_field": "id",
@@ -1143,6 +1144,12 @@ def run_provider_loss_guards(
                 stream_records = [
                     r for r in new_records if r.get("source") == "local_mhtml"
                 ]
+            elif stream_id == "native":
+                stream_records = [r for r in new_records if r.get("source") == "native"]
+            elif stream_id == "external":
+                stream_records = [
+                    r for r in new_records if r.get("source") == "external"
+                ]
             else:
                 # Unknown stream - skip or use all records
                 logger.warning(
@@ -1259,6 +1266,10 @@ def generate_all_provider_baselines(
             stream_records = [
                 r for r in new_records if r.get("source") == "local_mhtml"
             ]
+        elif stream == "native":
+            stream_records = [r for r in new_records if r.get("source") == "native"]
+        elif stream == "external":
+            stream_records = [r for r in new_records if r.get("source") == "external"]
         else:
             logger.warning(
                 f"[{provider_name}] Unknown stream '{stream}', using combined feed"
