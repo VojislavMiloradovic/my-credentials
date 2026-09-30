@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 5 of 18
-date_range: 2026-03-18 to 2026-04-08
+date_range: 2026-03-18 to 2026-04-07
 total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-04-part-05.md
 layer: L2_published
@@ -11,11 +11,10 @@ artifacts: archive_complete, archive_index, jsonld
 
 # AWS Skill Builder Credentials -- Part 05
 
-> **Navigation:** Prev: [aws-skills-2026-03-part-04.md](./aws-skills-2026-03-part-04.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-05-part-06.md](./aws-skills-2026-05-part-06.md) | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-03-part-04.md](./aws-skills-2026-03-part-04.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-04-part-06.md](./aws-skills-2026-04-part-06.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-04-08 | [Introduction to Amazon VPC Lattice](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-07 | [Authentication and Authorization with AWS Identity and Access Management](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-07 | [AWS Elemental Link - Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-07 | [AWS Identity and Access Management - Architecture and Terminology](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -71,7 +70,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-03-19 | [AWS Config Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-18 | [AgentCore Browser: Secure and Scalable Web Automation with Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-18 | [Amazon Connect: Introduction to the Administrative Interface](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-03-18 | [Amazon SageMaker Unified Studio - Administrator Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-03-part-04.md](./aws-skills-2026-03-part-04.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-05-part-06.md](./aws-skills-2026-05-part-06.md)
+> **Navigation:** Prev: [aws-skills-2026-03-part-04.md](./aws-skills-2026-03-part-04.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-04-part-06.md](./aws-skills-2026-04-part-06.md)
 

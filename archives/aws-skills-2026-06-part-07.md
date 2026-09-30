@@ -11,11 +11,10 @@ artifacts: archive_complete, archive_index, jsonld
 
 # AWS Skill Builder Credentials -- Part 07
 
-> **Navigation:** Prev: [aws-skills-2026-05-part-06.md](./aws-skills-2026-05-part-06.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-08.md](./aws-skills-2026-07-part-08.md) | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-04-part-06.md](./aws-skills-2026-04-part-06.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-08.md](./aws-skills-2026-07-part-08.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-06-24 | [Amazon WorkSpaces Migrations — Additional Partner Offerings on WorkSpaces Core](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-06-24 | [Data Protection and Disaster Recovery Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-06-22 | [AI Driven Development Lifecycle Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Assessment |
 | 2026-06-22 | [Automating with AI/ML for Small Business Owners](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -70,7 +69,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-05-02 | [End User Computing on AWS - Introductory Course](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-05-02 | [End User Computing on AWS - Service Architecture](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-05-02 | [End User Computing on AWS Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Assessment |
+| 2026-05-02 | [End User Computing on AWS – Advanced Topics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-05-part-06.md](./aws-skills-2026-05-part-06.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-08.md](./aws-skills-2026-07-part-08.md)
+> **Navigation:** Prev: [aws-skills-2026-04-part-06.md](./aws-skills-2026-04-part-06.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-07-part-08.md](./aws-skills-2026-07-part-08.md)
 
