@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 689 records.
+This document represents a unified, verifiable list of all 690 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-29T18:35:19.883479+00:00 -->
+<!-- retrieved_at: 2026-09-30T04:52:15.972357+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-29 | [Political Advertising Essentials](https://www.credly.com/badges/f0e35276-14b5-4cbc-a8f9-b4748865f5de/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-29 | [AI-Enabled Applications for Customer Service](https://www.credly.com/badges/e707134d-f39f-48bf-b0df-11990f414bc3/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-29 | [Data Analytics for Sustainability](https://www.credly.com/badges/48193bbc-2b59-4beb-b811-669f8fd684aa/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-29 | [Data Visualization Using Python](https://www.credly.com/badges/16c8215d-9ca6-4579-a402-c1c69d189614/public_url) | IBM | Credly Verified Badge |
@@ -75,7 +76,7 @@ This document represents a unified, verifiable list of all 689 records.
 | 2026-09-12 | [Essentials - How to Migrate to the Acronis Cyber Platform](https://www.credly.com/badges/fa585e84-9608-46de-ae63-6f6577f58ac8/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-12 | [Essentials - How to Sell the Acronis Cyber Platform](https://www.credly.com/badges/d7515459-db41-43fd-b6f8-5b5b1344362f/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-12 | [Information Technology Fundamentals](https://www.credly.com/badges/a189c2dc-a907-43b0-802e-9448393045c0/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-09-12 | [Marketing Funnel Essentials](https://www.credly.com/badges/3e508494-0af6-4ecd-8087-b67a5997489e/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-12 | [Marketing Funnel Essentials](https://www.credly.com/badges/c1e74351-238b-4875-8d93-d2020069c906/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-12 | [Search Essentials](https://www.credly.com/badges/6dcbc4f5-606f-40e0-9c59-6eab487481a3/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-11 | [Develop Serverless Applications on Cloud Run Skill Badge](https://www.credly.com/badges/de882ce6-face-43c9-95b2-db616dd32f16/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-11 | [AWS Educate Getting Started with Compute - Training Badge](https://www.credly.com/badges/1be6c262-db05-4138-bbe6-62e93c73e5ac/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |

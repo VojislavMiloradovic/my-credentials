@@ -129,19 +129,25 @@ Showing latest 10 of 4 credentials. View full dataset via [Platform Archive Inde
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 4
-**Total Verified Skills Mapped:** 6
+**Total Portfolio Credentials:** 690
+**Total Verified Skills Mapped:** 2401
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 4 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 690 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-13.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-13.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2024-03-10 | [Docker Expert](https://www.credly.com/badges/badge-003/public_url) | Docker Inc | Credly Verified Badge |
-| 2024-02-20 | [AWS Certified](https://www.credly.com/badges/badge-002/public_url) | Amazon Web Services | Credly Verified Badge |
-| 2024-01-15 | [Python Developer](https://www.credly.com/badges/badge-001/public_url) | Python Institute | Credly Verified Badge |
-| 2024-01-01 | [External Cert](https://external.org/cert/001) | External Org | Credly External Badge |
+| 2026-09-29 | [Political Advertising Essentials](https://www.credly.com/badges/f0e35276-14b5-4cbc-a8f9-b4748865f5de/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-29 | [AI-Enabled Applications for Customer Service](https://www.credly.com/badges/e707134d-f39f-48bf-b0df-11990f414bc3/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-29 | [Data Analytics for Sustainability](https://www.credly.com/badges/48193bbc-2b59-4beb-b811-669f8fd684aa/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-29 | [Data Visualization Using Python](https://www.credly.com/badges/16c8215d-9ca6-4579-a402-c1c69d189614/public_url) | IBM | Credly Verified Badge |
+| 2026-09-25 | [Basis Bidding](https://www.credly.com/badges/984bb4b8-c27c-49b7-9c9d-47ccd9cca66b/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-25 | [Curated Marketplaces with Audigent](https://www.credly.com/badges/980b0fbc-452e-4c4d-8f5e-b82ae0ca2c7b/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-25 | [Generative AI Content Creation](https://www.credly.com/badges/b822f842-3203-4810-abfb-e4f33d0b66f9/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-09-25 | [Optimizations](https://www.credly.com/badges/51c90b78-65b5-4650-b019-434be614778e/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-25 | [Programmatic Guaranteed (PG) Essentials: Basis User Edition](https://www.credly.com/badges/c8ef4ec7-a9d9-4ec3-98b9-eaf70700bf5e/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-22 | [Enterprise Design Thinking Co-Creator](https://www.credly.com/badges/83cd7944-3b95-4abd-8d5c-32bbaedbe5ce/public_url) | IBM SkillsBuild | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
