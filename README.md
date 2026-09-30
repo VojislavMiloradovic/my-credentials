@@ -55,8 +55,8 @@ Showing latest 10 of 4,842 achievements. View full dataset via [Platform Archive
 
 **Public Profile:** [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Total Portfolio Credentials:** 402
-**Total Verified Skills Mapped:** 401
+**Total Portfolio Credentials:** 2
+**Total Verified Skills Mapped:** 2
 
 #### Google Skills Learning Statistics
 
@@ -72,20 +72,12 @@ Showing latest 10 of 4,842 achievements. View full dataset via [Platform Archive
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 402 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-09-part-09.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-09-part-09.md)), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 2 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-09-28 | [Migrate your VPC Firewall Policies to Cloud NGFW](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28470543) | Google Cloud | Google Skill Badge |
-| 2026-09-28 | [Build a Certification Study Guide: AGWA Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466921) | Google Cloud | Google Skill Badge |
-| 2026-09-28 | [AI Infrastructure: Orchestration and Automation](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466553) | Google Cloud | Google Skill Badge |
-| 2026-09-28 | [Introduction to the Gemini App](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466194) | Google Cloud | Google Skill Badge |
-| 2026-09-28 | [Architect Private Connection Options](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28463901) | Google Cloud | Google Skill Badge |
-| 2026-09-28 | [Hybrid Load Balancing and Traffic Management](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28463484) | Google Cloud | Google Skill Badge |
-| 2026-09-28 | [Security Best Practices in Google Cloud: Containers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28463089) | Google Cloud | Google Skill Badge |
-| 2026-09-22 | [Security Best Practices in Google Cloud: Data](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28203673) | Google Cloud | Google Skill Badge |
-| 2026-09-22 | [Security Best Practices in Google Cloud: Models](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28201646) | Google Cloud | Google Skill Badge |
-| 2026-09-22 | [Security Best Practices in Google Cloud: Applications](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28199990) | Google Cloud | Google Skill Badge |
+| 2024-01-15 | [Google Cloud Fundamentals](https://skills.google/badges/123) | Google | Google Skill Badge |
+| 1705238400000 | [Kubernetes Engine Basics](https://skills.google/badges/456) | Google | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials
@@ -95,8 +87,8 @@ Showing latest 10 of 402 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 910
-**Total Verified Skills Mapped:** 909
+**Total Portfolio Credentials:** 4
+**Total Verified Skills Mapped:** 4
 
 #### AWS Cloud Quest Summary
 
@@ -111,20 +103,14 @@ Showing latest 10 of 402 credentials. View full dataset via [Platform Archive In
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 910 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-09-part-17.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-17.md)), or [Monolithic File](./archives/aws-skills-complete.md).
+Showing latest 10 of 4 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-09-26 | [A leader's guide to advanced mental models and mechanisms - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-26 | [A leader's guide to agentic AI - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-26 | [A leader's guide to AI strategy and implementation - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-26 | [A leader's guide to AI-powered FinOps - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-26 | [A leader's guide to cloud-native application modernization - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-25 | [A day in the life of Middle Manager with Amazon Quick](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-25 | [A Foundational Guide to Amazon Bedrock: Foundation Models and AI Applications​](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-25 | [A Hands-On Look at Amazon Q Business](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-25 | [A leader's guide to achieving compliance through software excellence - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-25 | [A leader's guide to data strategy in the era of agentic AI - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-01-01 | [AWS Cloud Practitioner Essentials](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-01-01 | [Amazon S3 Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-01-01 | [AWS Lambda Foundations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-01-01 | [Another Course](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 <!-- AWS_SKILLS_END -->
 
 
@@ -135,25 +121,19 @@ Showing latest 10 of 910 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 694
-**Total Verified Skills Mapped:** 2411
+**Total Portfolio Credentials:** 4
+**Total Verified Skills Mapped:** 6
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 694 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 4 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-09-30 | [Basis Planner](https://www.credly.com/badges/b21ec6f2-c32f-4ef6-9536-19b8ba89a0b7/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-30 | [Collaboration & Communication](https://www.credly.com/badges/6016826a-ee02-4bd1-b2c6-ffcdb71616a8/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-30 | [Contextual Targeting: Strategies with Proximic by Comscore](https://www.credly.com/badges/678f7f02-73f8-4fb6-8c6e-ce8a77ebba5a/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-29 | [Basis Onboarding](https://www.credly.com/badges/4d87c182-6dbd-4c85-9563-ce1d26c2cdbe/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-29 | [Political Advertising Essentials](https://www.credly.com/badges/f0e35276-14b5-4cbc-a8f9-b4748865f5de/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-29 | [AI-Enabled Applications for Customer Service](https://www.credly.com/badges/e707134d-f39f-48bf-b0df-11990f414bc3/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-09-29 | [Data Analytics for Sustainability](https://www.credly.com/badges/48193bbc-2b59-4beb-b811-669f8fd684aa/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-09-29 | [Data Visualization Using Python](https://www.credly.com/badges/16c8215d-9ca6-4579-a402-c1c69d189614/public_url) | IBM | Credly Verified Badge |
-| 2026-09-25 | [Basis Bidding](https://www.credly.com/badges/984bb4b8-c27c-49b7-9c9d-47ccd9cca66b/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-25 | [Curated Marketplaces with Audigent](https://www.credly.com/badges/7021cdb5-40fe-4e44-9cf2-4934016e41ac/public_url) | Basis Technologies | Credly Verified Badge |
+| 2024-03-10 | [Docker Expert](https://www.credly.com/badges/badge-003/public_url) | Docker Inc | Credly Verified Badge |
+| 2024-02-20 | [AWS Certified](https://www.credly.com/badges/badge-002/public_url) | Amazon Web Services | Credly Verified Badge |
+| 2024-01-15 | [Python Developer](https://www.credly.com/badges/badge-001/public_url) | Python Institute | Credly Verified Badge |
+| 2024-01-01 | [External Cert](https://external.org/cert/001) | External Org | Credly External Badge |
 <!-- CREDLY_BADGES_END -->
 
 
@@ -168,24 +148,16 @@ Showing latest 10 of 694 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,669 |
+| **Total External Certifications Verified** | 2 |
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-09-part-37.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-37.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-09* | **Cybersecurity Awareness: Cybersecurity Terminology** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/215a5e870cfd572c70c736272aacd530c507b38c39a7a7dbb2c9308b6fc865f6) |
-| *2026-09* | **The Data Science Playbook for Private Equity and Venture Capital** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fe529fb1984715bc31ae3dd8c8611d3d64518712268f4c09bef382935f6d9349) |
-| *2026-09* | **Optimizing Generative AI** | Cisco | [Verify Record](https://www.credly.com/badges/e84dce14-33be-4673-973b-498fd69a1516/linked_in_profile) |
-| *2026-09* | **Nano Tips for Creating Equitable Workplaces for Working Mothers with Desiree Coleman-Fry** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e7f9b9e2e45f3ee2535ad053d6bdada3eecca70b514ff25bd3204238efb35a76) |
-| *2026-09* | **Nano Tips for Navigating Bias and Stereotypes as an Asian American Professional with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1cca93042638f4de87c8ed8290082069218a43e33bbce722f62cea32c4ee185b) |
-| *2026-09* | **Nano Tips for Working Inclusively with Neurodivergent Employees with Ellie Middleton** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a84e4998cf24d4325ce6b25930b68c461dc6ed7eb00ace826f1607975bb187ba) |
-| *2026-09* | **Nano Tips for Identifying and Overcoming Unconscious Bias in the Workplace with Desiree Coleman-Fry** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f3fdd03a689cbc76475b7bb5fe415250cacfce699099a6744ae770bcd02c5fee) |
-| *2026-09* | **Basis Foundations** | Basis | [Verify Record](https://www.credly.com/badges/f1c081b3-4bd3-44dc-b4eb-4f90a306534c/linked_in_profile) |
-| *2026-09* | **Contextual Targeting Essentials** | Basis | [Verify Record](https://www.credly.com/badges/ff453cbb-dd77-4fc6-b12f-7d63dcffbc30/linked_in_profile) |
-| *2026-09* | **Direct Buying Essentials** | Basis | [Verify Record](https://www.credly.com/badges/7d5eaa4b-76f9-41e9-ad7d-ab4c15b0378f/linked_in_profile) |
+| *2024-01* | **Python Certification** | Python Institute | [Verify Record](https://example.com/1) |
+| *2024-03* | **AWS Solutions Architect** | Amazon Web Services | [Verify Record](https://example.com/2) |
 <!-- LINKEDIN_END -->
 
 
@@ -200,25 +172,20 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 
 | Metric | Count |
 | :--- | :--- |
-| **Total Milestones & Milestone Badges** | 172 |
-| **Total Codelabs & Learning Activities** | 1,662 |
+| **Total Milestones & Milestone Badges** | 4 |
+| **Total Codelabs & Learning Activities** | 1 |
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-09-part-36.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-36.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| *2026-09-29* | **The Archive — Memory at Agent Valley** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-valley-archive/instructions |
-| *2026-09-29* | **Secure an app using Google Cloud Developer plugin in Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-app-cloud-dev-plugin-agy |
-| *2026-09-29* | **Working with Proto DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-proto-datastore |
-| *2026-09-29* | **Gemini Enterprise with Agent Gateway egress to private custom MCP server using Agent Registry** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-ge-custom-mcp-egress-vpc-registry |
-| *2026-09-29* | **Using TypeSafe AI's Jev model with AlloyDB AI Functions for High-Speed AI Queries** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-jev |
-| *2026-09-29* | **Enhancing e-commerce checkout with browser AI capabilities** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/enhancing-ecommerce-web-ai |
-| *2026-09-29* | **Build a Formula E Logistics Agent using MCP Toolbox for Databases** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/en/fe-track-planner-mcp-toolbox-adk |
-| *2026-09-29* | **Your First Course on Google Cloud 2026** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-foundation-one |
-| *2026-09-29* | **Architecting Long-Term Agent Memory with BigQuery and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-agent-long-term-memory-bigquery |
-| *2026-09-29* | **Architecting an Autonomous Software Factory: End-to-End Agentic Delivery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/software-factory-end-to-end |
+| *2024-08-17* | **Setup Basic OpenTelemetry Plugin in gRPC Python** | Verified Google Developer granular learning activity module milestone. |
+| *2024-01-17* | **Cloud Architect** | Official Google Developer platform achievement (Learning Pathway: cloud architect). |
+| *2024-01-17* | **Data Engineer** | Official Google Developer platform achievement (Learning Pathway: data engineer). |
+| *2024-01-15* | **Cloud Architecture** | Official Google Developer platform achievement (Learning Pathway: cloud architecture). |
+| *2024-01-15* | **Data Engineering** | Official Google Developer platform achievement (Learning Pathway: data engineering). |
 <!-- GOOGLE_DEVELOPER_END -->
 
 

@@ -1,9 +1,11 @@
 """
 update_linkedin.py
----------------------------------
+------------------
 Pipeline for updating LinkedIn / manual external certifications from CSV exports.
 Includes CSV parsing, Pydantic schema validation, date normalization,
 data loss / anomaly guards, and integration with the repository archiver.
+
+Refactored to inherit from PipelineBase for standardized orchestration.
 """
 
 import csv
@@ -14,12 +16,12 @@ import os
 import re
 import sys
 from datetime import UTC, datetime
-from typing import Any
+from typing import Any, ClassVar
 
 from pydantic import ConfigDict, Field, ValidationError, field_validator
 
-# Provenance Integration
 from models.provenance import ProvenanceBase, RetrievalMethod, VerificationStatus
+from pipeline_base import PipelineBase
 
 # Archive Integration Helper
 try:
@@ -45,7 +47,6 @@ except ImportError:
 try:
     from loss_guard import PipelineDataLossAnomaly, execute_content_loss_guard
 except ImportError:
-    # Fallback if loss_guard not available
     execute_content_loss_guard = None
     PipelineDataLossAnomaly = Exception
 
@@ -141,12 +142,14 @@ logging.basicConfig(
 )
 logger = logging.getLogger("linkedin_updater")
 
+
 # Configuration Constants
 VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
 PLATFORM_PREFIX = "linkedin-certifications"
-PLATFORM_NAME = "LinkedIn Certifications"
+PLATFORM_NAME = "linkedin-certifications"
+PLATFORM_DISPLAY_NAME = "LinkedIn Certifications"
 ARCHIVE_MONOLITH = os.path.join(ARCHIVE_DIR, f"{PLATFORM_PREFIX}-complete.md")
 LINKEDIN_PROFILE_ID = os.getenv("LINKEDIN_PROFILE_ID") or "vojislavmiloradovic"
 LINKEDIN_PROFILE_URL = f"https://www.linkedin.com/in/{LINKEDIN_PROFILE_ID}/"
@@ -177,34 +180,6 @@ MONTH_MAP = {
 # ==============================================================================
 # DATE NORMALIZATION & SCHEMAS
 # ==============================================================================
-
-
-def parse_linkedin_date(date_str: Any) -> str:
-    """Coerces timestamps, ISO strings, 'MMM YYYY', and text dates to YYYY-MM or YYYY-MM-DD."""
-    if not date_str or str(date_str).strip().lower() in ["null", "none", "", "n/a"]:
-        return "N/A"
-
-    clean_str = str(date_str).strip()
-
-    # Handle ISO YYYY-MM-DD
-    iso_match = re.search(r"(\d{4}-\d{2}-\d{2})", clean_str)
-    if iso_match:
-        return iso_match.group(1)
-
-    # Handle YYYY-MM
-    ym_match = re.search(r"(\d{4}-\d{2})", clean_str)
-    if ym_match:
-        return ym_match.group(1)
-
-    # Handle Month Year (e.g., "Mar 2026", "March 2026")
-    match = re.search(r"([a-zA-Z]{3,})\s+(\d{4})", clean_str)
-    if match:
-        month_part = match.group(1).lower()[:3]
-        year_part = match.group(2)
-        month_num = MONTH_MAP.get(month_part, "00")
-        return f"{year_part}-{month_num}"
-
-    return "N/A"
 
 
 class LinkedInCertModel(ProvenanceBase):
@@ -336,373 +311,386 @@ def execute_data_loss_guard(new_certs: list[dict]) -> None:
 # ==============================================================================
 
 
-def generate_layer_metadata(platform_key: str) -> dict[str, Any]:
-    """Generate layer metadata from manifest for a platform."""
-    if not load_manifest:
-        return {}
-    try:
-        manifest = load_manifest()
-        if platform_key not in manifest.platforms:
-            return {}
-
-        platform = manifest.platforms[platform_key]
-
-        # Build layer metadata
-        layer_metadata = {}
-        for layer_name in ("L0_raw", "L1_normalized", "L2_published", "L3_display"):
-            layer_def = getattr(platform, layer_name, None)
-            if not layer_def:
-                continue
-
-            layer_info = {
-                "source": layer_def.source,
-                "source_layer": layer_def.source_layer,
-                "description": layer_def.description,
-                "retired_handling": layer_def.retired_handling,
-            }
-
-            if layer_def.transform:
-                layer_info["transform"] = layer_def.transform.type
-                if layer_def.transform.params:
-                    layer_info["transform_params"] = layer_def.transform.params
-
-            if layer_def.transforms:
-                layer_info["transforms"] = {
-                    k: v.type for k, v in layer_def.transforms.items()
-                }
-
-            if layer_def.output_records:
-                layer_info["output_records"] = layer_def.output_records
-
-            if layer_def.output_streams:
-                layer_info["output_streams"] = layer_def.output_streams
-
-            if layer_def.artifacts:
-                layer_info["artifacts"] = layer_def.artifacts
-
-            layer_metadata[layer_name] = layer_info
-
-        return layer_metadata
-    except Exception as e:
-        logger.warning(f"[WARN] Could not generate layer metadata: {e}")
-        return {}
+MONTH_MAP = {
+    "jan": "01",
+    "feb": "02",
+    "mar": "03",
+    "apr": "04",
+    "may": "05",
+    "jun": "06",
+    "jul": "07",
+    "aug": "08",
+    "sep": "09",
+    "oct": "10",
+    "nov": "11",
+    "dec": "12",
+}
 
 
-def locate_certifications_csv() -> str | None:
-    """Locates candidate CSV certification export files in current directory or data subfolder."""
-    candidates = [
-        os.path.join("data", "Certifications.csv"),
-        os.path.join("data", "Credentials.csv"),
-        os.path.join("data", "linkedin_certifications.csv"),
-        "Certifications.csv",
-        "Credentials.csv",
-        "linkedin_certifications.csv",
-    ]
+def parse_linkedin_date(date_str: Any) -> str:
+    """Coerces timestamps, ISO strings, 'MMM YYYY', and text dates to YYYY-MM or YYYY-MM-DD."""
+    if not date_str or str(date_str).strip().lower() in ["null", "none", "", "n/a"]:
+        return "N/A"
 
-    for cand in candidates:
-        if os.path.exists(cand):
-            return cand
+    clean_str = str(date_str).strip()
 
-    glob_matches = glob.glob("data/*cert*.csv") + glob.glob("data/*cred*.csv")
-    if glob_matches:
-        return glob_matches[0]
+    # Handle ISO YYYY-MM-DD
+    iso_match = re.search(r"(\d{4}-\d{2}-\d{2})", clean_str)
+    if iso_match:
+        return iso_match.group(1)
 
-    return None
+    # Handle YYYY-MM
+    ym_match = re.search(r"(\d{4}-\d{2})", clean_str)
+    if ym_match:
+        return ym_match.group(1)
 
+    # Handle Month Year (e.g., "Mar 2026", "March 2026")
+    match = re.search(r"([a-zA-Z]{3,})\s+(\d{4})", clean_str)
+    if match:
+        month_part = match.group(1).lower()[:3]
+        year_part = match.group(2)
+        month_num = MONTH_MAP.get(month_part, "00")
+        return f"{year_part}-{month_num}"
 
-def parse_certifications_csv(csv_path: str) -> list[dict]:
-    """Parses CSV transcript/certification file into validated models."""
-    logger.info(f"[FILE] Parsing LinkedIn certifications from CSV file: '{csv_path}'")
-    certs = []
-    current_year_month = datetime.now(UTC).strftime("%Y-%m")
-
-    with open(csv_path, mode="r", encoding="utf-8-sig") as f:
-        content = f.read()
-        if not content.strip():
-            logger.warning("[WARN] CSV file is empty.")
-            return []
-
-        lines = content.splitlines()
-        delimiter = "\t" if "\t" in lines[0] else ","
-        f.seek(0)
-
-        reader = csv.DictReader(f, delimiter=delimiter)
-        raw_rows = list(reader)
-
-    total_raw = len(raw_rows)
-    skipped = 0
-
-    for idx, row in enumerate(raw_rows):
-        name = (
-            row.get("Name")
-            or row.get("name")
-            or row.get("Title")
-            or row.get("title")
-            or ""
-        ).strip()
-        if not name:
-            skipped += 1
-            continue
-
-        authority = (
-            row.get("Authority")
-            or row.get("authority")
-            or row.get("Issuer")
-            or row.get("issuer")
-            or "Unknown Issuer"
-        ).strip()
-
-        url = (row.get("Url") or row.get("url") or row.get("URL") or "").strip()
-        license_num = (
-            row.get("License Number")
-            or row.get("license number")
-            or row.get("License")
-            or row.get("license")
-            or ""
-        ).strip()
-
-        started = (
-            row.get("Started On")
-            or row.get("started on")
-            or row.get("Issued On")
-            or row.get("issued on")
-        )
-        finished = (
-            row.get("Finished On")
-            or row.get("finished on")
-            or row.get("Expires On")
-            or row.get("expires on")
-        )
-
-        issued_date = parse_linkedin_date(started)
-        expiry_date = parse_linkedin_date(finished)
-
-        # Heuristic swap if dates were inverted in CSV export
-        if (
-            issued_date != "N/A"
-            and issued_date > current_year_month
-            and expiry_date != "N/A"
-            and expiry_date <= current_year_month
-        ):
-            issued_date, expiry_date = expiry_date, issued_date
-
-        raw_entry = {
-            "name": name,
-            "authority": authority,
-            "issued": issued_date,
-            "url": url,
-            "license": license_num,
-            "original_order": idx,
-        }
-
-        try:
-            validated_model = LinkedInCertModel(**raw_entry)
-            certs.append(validated_model.model_dump(mode="json"))
-        except ValidationError as ve:
-            logger.warning(f"[WARN] Skipping malformed CSV row '{name}': {ve}")
-
-        if skipped:
-            logger.warning(
-                f"[WARN] Skipped {skipped} row(s) out of {total_raw} with missing name."
-            )
-
-    logger.info(f"[OK] Extracted {len(certs)} valid certification records from CSV.")
-    return certs
+    return "N/A"
 
 
 # ==============================================================================
-# MAIN EXECUTION
+# PIPELINE CLASS
 # ==============================================================================
 
 
-def main():
-    logger.info("Starting LinkedIn Certifications Pipeline...")
+class LinkedInCertPipeline(PipelineBase):
+    """LinkedIn Certifications Pipeline - inherits from PipelineBase."""
 
-    csv_path = locate_certifications_csv()
-    if not csv_path:
-        logger.error(
-            "[FAIL] Could not locate CSV certifications file in data/ or root directory."
+    # Use module-level constants for test patching compatibility
+    PLATFORM_NAME = PLATFORM_NAME
+    PLATFORM_PREFIX = PLATFORM_PREFIX
+    PLATFORM_DISPLAY_NAME = PLATFORM_DISPLAY_NAME
+    ARCHIVE_DIR = ARCHIVE_DIR
+    README_PATH = README_PATH
+
+    # Paths for count loss guard baseline lookup
+    # Properties to read patched module-level constants at runtime
+    @property
+    def VALIDATION_DIR(self) -> str:
+        import update_linkedin
+
+        return update_linkedin.VALIDATION_DIR
+
+    @property
+    def ARCHIVE_MONOLITH(self) -> str:
+        import update_linkedin
+
+        return update_linkedin.ARCHIVE_MONOLITH
+
+    @property
+    def JSON_PATH(self) -> str:
+        import update_linkedin
+
+        return os.path.join(
+            update_linkedin.VALIDATION_DIR, "linkedin-certifications.json"
         )
-        sys.exit(1)
 
-    # Capture retrieval timestamp at fetch time
-    retrieved_at = datetime.now(UTC)
+    @property
+    def MONOLITH_PATH(self) -> str:
+        import update_linkedin
 
-    certs = parse_certifications_csv(csv_path)
-    if not certs:
-        logger.error("[FAIL] No certification records extracted. Aborting.")
-        sys.exit(1)
+        return update_linkedin.ARCHIVE_MONOLITH
 
-    # 1. Execute Content-Aware Loss Guard check against stored baseline
-    #    Uses license number + name hash as stable ID for LinkedIn certs
-    #    to detect replacement/modification even when total count remains stable.
-    if execute_content_loss_guard:
-        try:
-            execute_content_loss_guard(
-                new_records=certs,
-                platform="linkedin-certifications",
-                id_field="license",  # LinkedIn uses license number as primary ID
-                fail_on_warn=True,  # SET TO False TO DISABLE FAILURES (comment out raise in loss_guard.py)
-            )
-        except PipelineDataLossAnomaly as anomaly_err:
-            logger.error(f"[FAIL] Pipeline Terminated by Anomaly Guard: {anomaly_err}")
-            sys.exit(1)
-    else:
-        logger.warning(
-            "[WARN] Content-aware loss guard unavailable, falling back to count-only check"
-        )
-        try:
-            execute_data_loss_guard(certs)
-        except PipelineDataLossAnomaly as anomaly_err:
-            logger.error(f"[FAIL] Pipeline Terminated by Anomaly Guard: {anomaly_err}")
-            sys.exit(1)
-
-    # 2. Retired URL / Identity detection
-    retired_rules = load_retired_rules("linkedin-certifications")
-    if retired_rules:
-        _, marked = mark_retired(
-            certs, retired_rules, url_field="url", id_fields=["license", "url"]
-        )
-        if marked > 0:
-            logger.info(f"[NOTE] Updated {marked} certification(s) with retired status")
-
-    # 3. Persist full data with retired flags to for_validation for link checker
-    os.makedirs(VALIDATION_DIR, exist_ok=True)
-    validation_file = os.path.join(VALIDATION_DIR, "linkedin-certifications.json")
-    payload = {
-        "platform": "linkedin-certifications",
-        "total_count": len(certs),
-        "certifications": certs,
-    }
-    try:
-        with open(validation_file, "w", encoding="utf-8") as f:
-            json.dump(payload, f, indent=2, ensure_ascii=False)
-        logger.info(
-            f"[SAVE] Full data persisted: '{validation_file}' ({len(certs)} certifications)"
-        )
-    except Exception as e:
-        logger.warning(f"[WARN] Could not persist full data: {e}")
-
-    total_certs = len(certs)
-
-    # 2. Sort: reverse original order first, then reverse issued date (ties broken by position in CSV)
-    certs.sort(key=lambda x: x["original_order"], reverse=True)
-    certs.sort(
-        key=lambda x: x.get("issued") if x.get("issued") != "N/A" else "0000-00",
-        reverse=True,
-    )
-
-    table_headers = [
+    TABLE_HEADERS: ClassVar[list[str]] = [
         "Date Completed",
         "Certification Title",
         "Issuing Authority",
         "Verification Reference",
     ]
-    table_alignments = [":---:", ":---", ":---", ":---"]
+    TABLE_ALIGNMENTS: ClassVar[list[str]] = [":---:", ":---", ":---", ":---"]
 
-    formatted_rows = []
-    for c in certs:
-        clean_name = c["name"].replace("|", "\\|")
-        clean_auth = c["authority"].replace("|", "\\|")
-        ref = (
-            f"[Verify Record]({c['url']})"
-            if c["url"]
-            else (c["license"] if c["license"] else "Verified Account Entry")
+    LINKEDIN_PROFILE_ID = LINKEDIN_PROFILE_ID
+    LINKEDIN_PROFILE_URL = LINKEDIN_PROFILE_URL
+
+    RAW_BASE_DEFAULT = RAW_BASE_DEFAULT
+    MARKER_START = MARKER_START
+    MARKER_END = MARKER_END
+
+    def fetch_data(self) -> list[dict]:
+        """Fetch and parse LinkedIn certifications from CSV."""
+        # Use module-level function so test patching works
+        csv_path = locate_certifications_csv()
+        if not csv_path:
+            self.logger.error(
+                "[FAIL] Could not locate CSV certifications file in data/ or root directory."
+            )
+            sys.exit(1)
+
+        retrieved_at = datetime.now(UTC)
+        certs = parse_certifications_csv(csv_path)
+        if not certs:
+            self.logger.error("[FAIL] No certification records extracted. Aborting.")
+            sys.exit(1)
+
+        # Store retrieved_at for provenance
+        for c in certs:
+            c["retrieved_at"] = retrieved_at.isoformat()
+
+        return certs
+
+    def _locate_certifications_csv(self) -> str | None:
+        """Locates candidate CSV certification export files in current directory or data subfolder."""
+        candidates = [
+            os.path.join("data", "Certifications.csv"),
+            os.path.join("data", "Credentials.csv"),
+            os.path.join("data", "linkedin_certifications.csv"),
+            "Certifications.csv",
+            "Credentials.csv",
+            "linkedin_certifications.csv",
+        ]
+
+        for cand in candidates:
+            if os.path.exists(cand):
+                return cand
+
+        glob_matches = glob.glob("data/*cert*.csv") + glob.glob("data/*cred*.csv")
+        if glob_matches:
+            return glob_matches[0]
+
+        return None
+
+    def _parse_certifications_csv(
+        self, csv_path: str, retrieved_at: datetime
+    ) -> list[dict]:
+        """Parses CSV transcript/certification file into validated models."""
+        self.logger.info(
+            f"[FILE] Parsing LinkedIn certifications from CSV file: '{csv_path}'"
         )
-        if c.get("retired", False):
+        certs = []
+
+        with open(csv_path, mode="r", encoding="utf-8-sig") as f:
+            content = f.read()
+            if not content.strip():
+                self.logger.warning("[WARN] CSV file is empty.")
+                return []
+
+            lines = content.splitlines()
+            delimiter = "\t" if "\t" in lines[0] else ","
+            f.seek(0)
+
+            reader = csv.DictReader(f, delimiter=delimiter)
+            raw_rows = list(reader)
+
+        total_raw = len(raw_rows)
+        skipped = 0
+
+        for idx, row in enumerate(raw_rows):
+            name = (
+                row.get("Name")
+                or row.get("name")
+                or row.get("Title")
+                or row.get("title")
+                or ""
+            ).strip()
+            if not name:
+                skipped += 1
+                continue
+
+            authority = (
+                row.get("Authority")
+                or row.get("authority")
+                or row.get("Issuer")
+                or row.get("issuer")
+                or "Unknown Issuer"
+            ).strip()
+
+            url = (row.get("Url") or row.get("url") or row.get("URL") or "").strip()
+            license_num = (
+                row.get("License Number")
+                or row.get("license number")
+                or row.get("License")
+                or row.get("license")
+                or ""
+            ).strip()
+
+            started = (
+                row.get("Started On")
+                or row.get("started on")
+                or row.get("Issued On")
+                or row.get("issued on")
+            )
+            finished = (
+                row.get("Finished On")
+                or row.get("finished on")
+                or row.get("Expires On")
+                or row.get("expires on")
+            )
+
+            issued_date = parse_linkedin_date(started)
+            expiry_date = parse_linkedin_date(finished)
+
+            # Heuristic swap if dates were inverted in CSV export
+            if (
+                issued_date != "N/A"
+                and issued_date > datetime.now(UTC).strftime("%Y-%m")
+                and expiry_date != "N/A"
+                and expiry_date <= datetime.now(UTC).strftime("%Y-%m")
+            ):
+                issued_date, expiry_date = expiry_date, issued_date
+
+            raw_entry = {
+                "name": name,
+                "authority": authority,
+                "issued": issued_date,
+                "url": url,
+                "license": license_num,
+                "original_order": idx,
+                "retrieved_at": retrieved_at.isoformat(),
+            }
+
+            try:
+                validated_model = LinkedInCertModel(**raw_entry)
+                certs.append(validated_model.model_dump(mode="json"))
+            except ValidationError as ve:
+                self.logger.warning(f"[WARN] Skipping malformed CSV row '{name}': {ve}")
+
+        if skipped:
+            self.logger.warning(
+                f"[WARN] Skipped {skipped} row(s) out of {total_raw} with missing name."
+            )
+
+        self.logger.info(
+            f"[OK] Extracted {len(certs)} valid certification records from CSV."
+        )
+        return certs
+
+    def parse_data(self, raw_data) -> list[dict]:
+        """Parse/transform raw data - already validated via Pydantic in fetch_data."""
+        return raw_data
+
+    def pre_loss_guard(self, records: list[dict]) -> list[dict]:
+        """No deduplication needed - original_order handles it."""
+        return records
+
+    def post_loss_guard(self, records: list[dict]) -> list[dict]:
+        """Mark retired items after loss guard."""
+        retired_rules = self.get_retired_rules()
+        if retired_rules:
+            _, marked = mark_retired(
+                records, retired_rules, url_field="url", id_fields=["license", "url"]
+            )
+            if marked > 0:
+                self.logger.info(
+                    f"[NOTE] Updated {marked} certification(s) with retired status"
+                )
+        return records
+
+    def format_for_archive(self, record: dict) -> tuple[str, str]:
+        """Format single record for markdown table: (row_text, date)."""
+        clean_name = record["name"].replace("|", "\\|")
+        clean_auth = record["authority"].replace("|", "\\|")
+        ref = (
+            f"[Verify Record]({record['url']})"
+            if record["url"]
+            else (record["license"] if record["license"] else "Verified Account Entry")
+        )
+        if record.get("retired", False):
             ref += " [WARN] *Content retired*"
-        row_text = f"| {c['issued']} | **{clean_name}** | {clean_auth} | {ref} |"
-        formatted_rows.append((row_text, c["issued"]))
+        row_text = f"| {record['issued']} | **{clean_name}** | {clean_auth} | {ref} |"
+        return row_text, record["issued"]
 
-    index_raw = f"{RAW_BASE_DEFAULT}/{PLATFORM_PREFIX}-index.md"
-    LATEST_SLICE_NORMAL = ""
-    LATEST_SLICE_RAW = ""
+    def build_readme_lines(self, records: list[dict], latest_slice: str) -> list[str]:
+        """Build README section lines."""
+        total_certs = len(records)
 
-    readme_lines = [
-        "### LinkedIn Professional Certifications Summary",
-        "",
-        f"**Public Profile:** [Verify LinkedIn Profile]({LINKEDIN_PROFILE_URL})",
-        "",
-        "#### Progress Metrics",
-        "",
-        "| Metric | Count |",
-        "| :--- | :--- |",
-        f"| **Total External Certifications Verified** | {total_certs:,} |",
-        "",
-        "#### Recent Certifications",
-        "",
-        f"Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/{PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic Complete File](./archives/{PLATFORM_PREFIX}-complete.md).",
-        "",
-        "| Date Completed | Certification Title | Issuing Authority | Verification Reference |",
-        "| :---: | :--- | :--- | :--- |",
-    ]
+        index_raw = f"{self.RAW_BASE_DEFAULT}/{self.PLATFORM_PREFIX}-index.md"
 
-    for c in certs[:10]:
-        clean_name = c["name"].replace("|", "\\|")
-        clean_auth = c["authority"].replace("|", "\\|")
-        ref = (
-            f"[Verify Record]({c['url']})"
-            if c["url"]
-            else (c["license"] if c["license"] else "N/A")
-        )
-        readme_lines.append(
-            f"| *{c['issued']}* | **{clean_name}** | {clean_auth} | {ref} |"
-        )
+        readme_lines = [
+            "### LinkedIn Professional Certifications Summary",
+            "",
+            f"**Public Profile:** [Verify LinkedIn Profile]({self.LINKEDIN_PROFILE_URL})",
+            "",
+            "#### Progress Metrics",
+            "",
+            "| Metric | Count |",
+            "| :--- | :--- |",
+            f"| **Total External Certifications Verified** | {total_certs:,} |",
+            "",
+            "#### Recent Certifications",
+            "",
+            f"Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/{self.PLATFORM_PREFIX}-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic Complete File](./archives/{self.PLATFORM_PREFIX}-complete.md).",
+            "",
+            "| Date Completed | Certification Title | Issuing Authority | Verification Reference |",
+            "| :---: | :--- | :--- | :--- |",
+        ]
 
-    # 3. Trigger Archiver
-    if generate_platform_archive:
-        latest_slice = generate_platform_archive(
-            platform_prefix=PLATFORM_PREFIX,
-            platform_name=PLATFORM_NAME,
-            table_headers=table_headers,
-            table_alignments=table_alignments,
-            formatted_rows=formatted_rows,
-            readme_lines=readme_lines,
-            marker_start=MARKER_START,
-            marker_end=MARKER_END,
-            archive_dir=ARCHIVE_DIR,
-            readme_path=README_PATH,
-            retrieved_at=retrieved_at.isoformat(),
-        )
+        for c in records[:10]:
+            clean_name = c["name"].replace("|", "\\|")
+            clean_auth = c["authority"].replace("|", "\\|")
+            ref = (
+                f"[Verify Record]({c['url']})"
+                if c["url"]
+                else (c["license"] if c["license"] else "N/A")
+            )
+            readme_lines.append(
+                f"| *{c['issued']}* | **{clean_name}** | {clean_auth} | {ref} |"
+            )
 
-        if latest_slice:
-            LATEST_SLICE_NORMAL = "./archives/" + latest_slice
-            LATEST_SLICE_RAW = RAW_BASE_DEFAULT + "/" + latest_slice
-            for i, line in enumerate(readme_lines):
-                if "{LATEST_SLICE_NORMAL}" in line:
-                    readme_lines[i] = line.replace(
-                        "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
-                    )
-                    readme_lines[i] = readme_lines[i].replace(
-                        "{LATEST_SLICE_RAW}", LATEST_SLICE_RAW
-                    )
-                    break
-            if os.path.exists("README.md"):
-                with open("README.md", "r", encoding="utf-8") as f:
-                    readme_content = f.read()
-                if MARKER_START in readme_content and MARKER_END in readme_content:
-                    before = readme_content.split(MARKER_START)[0]
-                    after = readme_content.split(MARKER_END)[1]
-                    new_block = "\n".join(readme_lines) + "\n"
-                    new_content = (
-                        before + MARKER_START + "\n" + new_block + MARKER_END + after
-                    )
-                    safe_write_file("README.md", new_content)
-        logger.info(
-            "[DONE] LinkedIn Certifications pipeline execution completed successfully."
+        return readme_lines
+
+    def get_validation_payload(self, records: list[dict]) -> dict:
+        """Build validation payload with LinkedIn-specific fields."""
+        payload = {
+            "platform": self.PLATFORM_NAME,
+            "total_count": len(records),
+            "certifications": records,
+        }
+        return payload
+
+    def get_archive_payload(self, records: list[dict]) -> list[dict]:
+        """Get records to write to L2 archive JSON."""
+        return records
+
+    def persist_validation(self, records: list[dict]) -> None:
+        """Persist validated data with LinkedIn-specific fields (ensure ASCII for test compatibility)."""
+        os.makedirs(self.VALIDATION_DIR, exist_ok=True)
+        validation_file = os.path.join(
+            self.VALIDATION_DIR, "linkedin-certifications.json"
         )
-    else:
-        logger.error(
-            "[FAIL] Archiver module helper not available. Skipping markdown generation."
-        )
+        payload = {
+            "platform": self.PLATFORM_NAME,
+            "total_count": len(records),
+            "certifications": records,
+        }
+        try:
+            with open(validation_file, "w", encoding="utf-8") as f:
+                json.dump(payload, f, indent=2, ensure_ascii=True)
+            self.logger.info(
+                f"[SAVE] Full data persisted: '{validation_file}' ({len(records)} certifications)"
+            )
+        except Exception as e:
+            self.logger.warning(f"[WARN] Could not persist full data: {e}")
+
+
+# Module-level main function for backward compat
+def main():
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+    )
+    LinkedInCertPipeline().run()
+
+
+# Module-level functions for backward compatibility with tests
+def locate_certifications_csv() -> str | None:
+    """Module-level wrapper for test compatibility."""
+    return LinkedInCertPipeline()._locate_certifications_csv()
+
+
+def parse_certifications_csv(csv_path: str) -> list[dict]:
+    """Module-level wrapper for test compatibility."""
+    pipeline = LinkedInCertPipeline()
+    retrieved_at = datetime.now(UTC)
+    return pipeline._parse_certifications_csv(csv_path, retrieved_at)
 
 
 if __name__ == "__main__":
     main()
-    # Sync fixtures for test consistency
-    try:
-        from scripts.sync_fixtures import sync_fixtures
-
-        sync_fixtures("linkedin-certifications")
-    except Exception as e:
-        logger.warning(f"as d,z Fixture sync failed (non-fatal): {e}")
