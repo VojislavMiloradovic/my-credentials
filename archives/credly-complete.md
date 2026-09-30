@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 694 records.
+This document represents a unified, verifiable list of all 695 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-30T05:31:07.831763+00:00 -->
+<!-- retrieved_at: 2026-09-30T05:49:27.859467+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-30 | [Basis DSP Tactics](https://www.credly.com/badges/84fdc926-20d9-477f-b88e-9f372681a6b2/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-30 | [Basis Planner](https://www.credly.com/badges/b21ec6f2-c32f-4ef6-9536-19b8ba89a0b7/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-30 | [Collaboration & Communication](https://www.credly.com/badges/6016826a-ee02-4bd1-b2c6-ffcdb71616a8/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-30 | [Contextual Targeting: Strategies with Proximic by Comscore](https://www.credly.com/badges/678f7f02-73f8-4fb6-8c6e-ce8a77ebba5a/public_url) | Basis Technologies | Credly Verified Badge |
