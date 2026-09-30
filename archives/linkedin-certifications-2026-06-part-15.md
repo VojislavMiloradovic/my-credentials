@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 15 of 37
+chunk_part: 15 of 39
 date_range: 2026-06 to 2026-06
 total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-15.md
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-06 | **How Procter & Gamble Uses AI to Unlock New Insights From Data** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/74b08665ca4cccd52a12d778db0a146b09f55a0dcaa7f03ebba45591ec5cd384) |
 | 2026-06 | **Break into AI: Data Annotation Essentials** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6917f8e656349015c56f897e4f4d0b0cda135e9438a31d260a5670af3a1ffb49) |
 | 2026-06 | **Nano Tips for Moving to the Cloud for Business Leaders with Rashim Mogha** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3bcf5a136f724b3cf7344f782a24c2b35ed0e7a933a7aea565cf082d72348eee) |
 | 2026-06 | **What AI Can Teach Us about Designing Better KPIs** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ee15ec8d728af987306713a2fd313defcdd40a0d95d4a95cac5c2f170c82f36c) |
@@ -60,7 +61,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06 | **Prompting with Agentic Techniques** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9acd412616cdbd1d8d965c8555ff2e12afeaab8488a52e22857b79c583308d3a) |
 | 2026-06 | **30 Practical AI Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/94ca15b57c3f704111463e750b3a955ba650f89afec1be4743935e2e020774cd) |
 | 2026-06 | **Building AI Literacy and Fluency with Microsoft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/12ab8be8582b8d57be3991161cca21eb49fd9fcfd5842a5ebcecf468fbe79655) |
-| 2026-06 | **Human-First AI: Building AI Products That People Actually Use** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c4582ac8a806aa366907d553ddb496d42ac675fdce69650d726194ed4e3f7265) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-14.md](./linkedin-certifications-2026-06-part-14.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-16.md](./linkedin-certifications-2026-06-part-16.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 19 of 37
+chunk_part: 19 of 39
 date_range: 2026-06 to 2026-06
-total_entries: 45
+total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-19.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -59,7 +59,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06 | **Built-in Machine Learning in the Wolfram Language** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6fe387546f75d53181ee8dd75001588897f071271d491264e645327c2dea64bc) |
 | 2026-06 | **Alex McDowell: World Building and Narrative** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/08c3fb5fa47a5d78475c9d1ddeecc471299b39acb0dfdcd769982caec6fcfa0a) |
 | 2026-06 | **Nano Tips for Data Storytelling and Visualization with Lachezar Arabadzhiev** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/50b04f67dd3f17918b1dbb9e4ef656a789edb3cb5596880652ef7736d99d9785) |
-| 2026-06 | **Graphic Design Careers: First Steps** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5690a3fc1efd2dabefbf9d70c115639232d0ac67cf132211ac437a92b1e30b3a) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-18.md](./linkedin-certifications-2026-06-part-18.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-20.md](./linkedin-certifications-2026-06-part-20.md)

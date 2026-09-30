@@ -168,24 +168,24 @@ Showing latest 10 of 695 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,669 |
+| **Total External Certifications Verified** | 1,766 |
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-09-part-37.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-37.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-09-part-39.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-39.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-09* | **Cybersecurity Awareness: Cybersecurity Terminology** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/215a5e870cfd572c70c736272aacd530c507b38c39a7a7dbb2c9308b6fc865f6) |
-| *2026-09* | **The Data Science Playbook for Private Equity and Venture Capital** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fe529fb1984715bc31ae3dd8c8611d3d64518712268f4c09bef382935f6d9349) |
-| *2026-09* | **Optimizing Generative AI** | Cisco | [Verify Record](https://www.credly.com/badges/e84dce14-33be-4673-973b-498fd69a1516/linked_in_profile) |
-| *2026-09* | **Nano Tips for Creating Equitable Workplaces for Working Mothers with Desiree Coleman-Fry** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e7f9b9e2e45f3ee2535ad053d6bdada3eecca70b514ff25bd3204238efb35a76) |
-| *2026-09* | **Nano Tips for Navigating Bias and Stereotypes as an Asian American Professional with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1cca93042638f4de87c8ed8290082069218a43e33bbce722f62cea32c4ee185b) |
-| *2026-09* | **Nano Tips for Working Inclusively with Neurodivergent Employees with Ellie Middleton** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a84e4998cf24d4325ce6b25930b68c461dc6ed7eb00ace826f1607975bb187ba) |
-| *2026-09* | **Nano Tips for Identifying and Overcoming Unconscious Bias in the Workplace with Desiree Coleman-Fry** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f3fdd03a689cbc76475b7bb5fe415250cacfce699099a6744ae770bcd02c5fee) |
-| *2026-09* | **Basis Foundations** | Basis | [Verify Record](https://www.credly.com/badges/f1c081b3-4bd3-44dc-b4eb-4f90a306534c/linked_in_profile) |
-| *2026-09* | **Contextual Targeting Essentials** | Basis | [Verify Record](https://www.credly.com/badges/ff453cbb-dd77-4fc6-b12f-7d63dcffbc30/linked_in_profile) |
-| *2026-09* | **Direct Buying Essentials** | Basis | [Verify Record](https://www.credly.com/badges/7d5eaa4b-76f9-41e9-ad7d-ab4c15b0378f/linked_in_profile) |
+| *2026-09* | **Making a Case for Accessibility in Your Organization** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ef182d577eb16f34700076afad2b8f88735696469c1d3f5ed16bde552657fa9c) |
+| *2026-09* | **Nano Tips for Talking about Race at Work with Benjy Kusi** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/623fe53394337ffdd99394630ef62600c027b1b3a2c5800453cd01f6afe6e464) |
+| *2026-09* | **Nano Tips for Checking Your Bias: Becoming a People Advocate with Madison Butler** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cedfe423d79eaa64e0da7aa52125e0797b816ca1071b9d0342fc8805cd437240) |
+| *2026-09* | **Nano Tips For Building Diverse and Inclusive Teams with Madison Butler** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5ac31a5a066ca7a54d3cf5e2b209c7bf7a33ff1cde0ceeeb572ef437cb3de83b) |
+| *2026-09* | **Navigating an Entry-Level Job Search** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4f1846c68bbb3ebcb2bf85bfbd2cbf631b6c1b4699350a05f8104aaafd59abab) |
+| *2026-09* | **15 Claude for Excel Productivity Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5fd54052f654b389b04765dc81176f93f63ea53220bf5b02fb5da23143e20ae1) |
+| *2026-09* | **15 ChatGPT for Excel Productivity Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d5eab1109d541bd89b0ea60864443c0f0a523dda9dee577a78e63fe466cc3a08) |
+| *2026-09* | **Choosing the Right Partner: Smarter Vendor Selection with AHP (PT TMI Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c5470fdc8c0a46ecc410e16d16c8b17e27adf8c081d6b32326eaa729bebb86e2) |
+| *2026-09* | **Resilience in Action: Managing Disruptions in Tech Supply Chains (Dell Technologies Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ca29ff9fb66c0b5fed769daa2959cdbb0b660e89c59baf9d728c8b8df5a60cd6) |
+| *2026-09* | **Closing the Loop: Reinventing Reusable Packaging at Scale (Roambee Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6d910f129cb6c8c96390f6d5a22ad7f85efcba082c8f0f760334af61feac5eb1) |
 <!-- LINKEDIN_END -->
 
 
