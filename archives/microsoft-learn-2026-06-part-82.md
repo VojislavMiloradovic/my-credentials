@@ -55,7 +55,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement generative AI agents with Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-generative-ai-agents-azure-postgresql/) |
 | **Build RAG applications with Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-rag-applications-azure-database-postgresql/) |
 | **Deploy containers to Azure App Service** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-containers-azure-app-service/) |
-| **Deploy and manage apps on Azure Container Apps** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-apps-azure-container-apps/) |
 | **Scale containers in Azure Container Apps** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-containers-azure-container-apps/) |
 | **Manage containers in Azure Container Apps** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-containers-azure-container-apps/) |
 | **Deploy containers to Azure Container Apps** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-containers-azure-container-apps/) |
@@ -64,6 +63,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Protect information in a Microsoft 365 Copilot environment using Microsoft Purview** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-microsoft-365-copilot-environment/) |
 | **Develop agents and applications using agentic programming tools** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-embed-custom-code-agents/) |
 | **Implement spec-driven development using the GitHub Spec Kit** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/spec-driven-development-github-spec-kit-enterprise-developers/) |
+| **Optimize vector search in Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-vector-search-azure-database-postgresql/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-81.md](./microsoft-learn-2026-06-part-81.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-83.md](./microsoft-learn-2026-06-part-83.md)

@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Optimize vector search in Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-vector-search-azure-database-postgresql/) |
 | **Develop AI solutions with Azure Database for PostgreSQL** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-database-postgresql/) |
 | **Implement vector search with Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-search-azure-database-postgresql/) |
 | **Build and query with Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-database-postgresql/) |
@@ -25,8 +24,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement Microsoft Defender for Endpoint using Microsoft Intune** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-endpoint-intune/) |
 | **Manage AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-ai-ready-infrastructure/) |
 | **Manage monitoring for AI-Ready Infrastructure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitoring-ai-ready-infrastructure/) |
-| **Apply governance controls to AI-ready workloads** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
 | **Govern AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/govern-ai-ready-infrastructure/) |
+| **Apply governance controls to AI-ready workloads** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
 | **Develop AI solutions with Azure Cosmos DB for NoSQL** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-cosmos-db/) |
 | **Build queries for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-cosmos-db/) |
 | **Optimize query performance for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-azure-cosmos-db/) |
@@ -65,6 +64,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Implement programmability objects with SQL** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-programmability-objects/) |
 | **Configure GitHub Copilot instructions and create custom agents** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-customize-github-copilot-visual-studio-code/) |
 | **Explore SQL Server 2025 capabilities** | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-sql-server-capabilities/) |
+| **Transform development workflows with T-SQL in SQL Server 2025** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sql-server-t-sql-enhancements/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-80.md](./microsoft-learn-2026-05-part-80.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md)
