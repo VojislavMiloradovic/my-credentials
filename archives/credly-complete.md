@@ -1,23 +1,27 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 690 records.
+This document represents a unified, verifiable list of all 694 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-09-30T04:52:15.972357+00:00 -->
+<!-- retrieved_at: 2026-09-30T05:31:07.831763+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-30 | [Basis Planner](https://www.credly.com/badges/b21ec6f2-c32f-4ef6-9536-19b8ba89a0b7/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-30 | [Collaboration & Communication](https://www.credly.com/badges/6016826a-ee02-4bd1-b2c6-ffcdb71616a8/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-30 | [Contextual Targeting: Strategies with Proximic by Comscore](https://www.credly.com/badges/678f7f02-73f8-4fb6-8c6e-ce8a77ebba5a/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-29 | [Basis Onboarding](https://www.credly.com/badges/4d87c182-6dbd-4c85-9563-ce1d26c2cdbe/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-29 | [Political Advertising Essentials](https://www.credly.com/badges/f0e35276-14b5-4cbc-a8f9-b4748865f5de/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-29 | [AI-Enabled Applications for Customer Service](https://www.credly.com/badges/e707134d-f39f-48bf-b0df-11990f414bc3/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-29 | [Data Analytics for Sustainability](https://www.credly.com/badges/48193bbc-2b59-4beb-b811-669f8fd684aa/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-29 | [Data Visualization Using Python](https://www.credly.com/badges/16c8215d-9ca6-4579-a402-c1c69d189614/public_url) | IBM | Credly Verified Badge |
 | 2026-09-25 | [Basis Bidding](https://www.credly.com/badges/984bb4b8-c27c-49b7-9c9d-47ccd9cca66b/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-25 | [Curated Marketplaces with Audigent](https://www.credly.com/badges/980b0fbc-452e-4c4d-8f5e-b82ae0ca2c7b/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-25 | [Curated Marketplaces with Audigent](https://www.credly.com/badges/7021cdb5-40fe-4e44-9cf2-4934016e41ac/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-25 | [Generative AI Content Creation](https://www.credly.com/badges/b822f842-3203-4810-abfb-e4f33d0b66f9/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-25 | [Optimizations](https://www.credly.com/badges/51c90b78-65b5-4650-b019-434be614778e/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-25 | [Programmatic Guaranteed (PG) Essentials: Basis User Edition](https://www.credly.com/badges/c8ef4ec7-a9d9-4ec3-98b9-eaf70700bf5e/public_url) | Basis Technologies | Credly Verified Badge |

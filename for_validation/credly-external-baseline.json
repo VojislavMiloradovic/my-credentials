@@ -2,145 +2,145 @@
   "platform": "credly",
   "stream_id": "external",
   "record_count": 23,
-  "created_at": "2026-09-30T04:52:15.878300+00:00",
+  "created_at": "2026-09-30T05:31:07.747992+00:00",
   "fingerprints": {
     "f25607a9-7c89-4d0b-b9a5-b82953885053": {
       "record_id": "f25607a9-7c89-4d0b-b9a5-b82953885053",
       "content_hash": "cbdb21cb7d57407162603264b9a05003",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "dc865649-88b4-41fe-bfd1-300a94547c2a": {
       "record_id": "dc865649-88b4-41fe-bfd1-300a94547c2a",
       "content_hash": "9f6eeba1f097d649dcdcd9f10fd7d253",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "4be898f4-3ff3-4463-a408-9fc502930d00": {
       "record_id": "4be898f4-3ff3-4463-a408-9fc502930d00",
       "content_hash": "d312df2a31aff51ca5301848ef98ec29",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "0cfb05df-7c70-45c8-b92d-ad2d00dd09f6": {
       "record_id": "0cfb05df-7c70-45c8-b92d-ad2d00dd09f6",
       "content_hash": "3d321d27112f5034489a7586ab8f7d3b",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "e1950bc8-936b-46da-b334-adad0802aa11": {
       "record_id": "e1950bc8-936b-46da-b334-adad0802aa11",
       "content_hash": "28ca59e5a1bc7ccf4dea991afa021cfa",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "c47cffbd-b734-4fb2-af2f-ba098430ab6c": {
       "record_id": "c47cffbd-b734-4fb2-af2f-ba098430ab6c",
       "content_hash": "f676346690b778455558b3215f3438e6",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "ba0c138d-b0e9-433c-8007-2f4f8b980c68": {
       "record_id": "ba0c138d-b0e9-433c-8007-2f4f8b980c68",
       "content_hash": "61ae6620452c34c2e06c4ed783ea2c76",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "421f017a-89cf-4028-a42c-6691ffcb691e": {
       "record_id": "421f017a-89cf-4028-a42c-6691ffcb691e",
       "content_hash": "a257e5e2692189b2acf02c5f469e2671",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "a743db39-9018-4998-9501-971101c04773": {
       "record_id": "a743db39-9018-4998-9501-971101c04773",
       "content_hash": "3bdbcb9f48bfdf633ea4e29ddb058431",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "02560a5b-0632-4af4-9e7f-af18c8af97c5": {
       "record_id": "02560a5b-0632-4af4-9e7f-af18c8af97c5",
       "content_hash": "1f3d4f7ac8b614c845be897b04b59d49",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "67de0992-c745-4374-94dc-9fef9db41b46": {
       "record_id": "67de0992-c745-4374-94dc-9fef9db41b46",
       "content_hash": "453e400195613b20db77cf4eaaa4ddc3",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "505fe7cb-514d-42ec-a4d4-12dd4fd077a3": {
       "record_id": "505fe7cb-514d-42ec-a4d4-12dd4fd077a3",
       "content_hash": "c38af8308e56c07c4334648476a32e3a",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "86f079db-8bc7-41b8-b882-bae4d1eef82e": {
       "record_id": "86f079db-8bc7-41b8-b882-bae4d1eef82e",
       "content_hash": "36dd1e9fd4e85bbd72c954252ca4e78c",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "d35ad67f-e7ab-43e6-9d0e-91474c7bb9c1": {
       "record_id": "d35ad67f-e7ab-43e6-9d0e-91474c7bb9c1",
       "content_hash": "e39d1379aab97f461ccec94459e3205e",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "b6bcfa90-7621-47d1-b062-12086ff61bd3": {
       "record_id": "b6bcfa90-7621-47d1-b062-12086ff61bd3",
       "content_hash": "c1130cd85a8c7e37dd7c74608cffec83",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "16a8e370-ea24-421f-9398-9598b2043487": {
       "record_id": "16a8e370-ea24-421f-9398-9598b2043487",
       "content_hash": "a0624934f0f1c3671119fef47321fa25",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "942d3c95-0f94-48c8-b50f-8933b8f42488": {
       "record_id": "942d3c95-0f94-48c8-b50f-8933b8f42488",
       "content_hash": "ff9eee5f660f6de2c54702de18fa290c",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "0798db5e-8759-4719-861b-65b9f5e26eda": {
       "record_id": "0798db5e-8759-4719-861b-65b9f5e26eda",
       "content_hash": "52e1a00019000bfb0801935844bc04ec",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "f8cba5d0-02d9-4dcc-b3d2-c7a2aa6ba989": {
       "record_id": "f8cba5d0-02d9-4dcc-b3d2-c7a2aa6ba989",
       "content_hash": "765ca1be7d29fe23fa5b4f90df0f51f7",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "f5b2a49a-c5f3-477c-9559-aae528f15eeb": {
       "record_id": "f5b2a49a-c5f3-477c-9559-aae528f15eeb",
       "content_hash": "09a20455d405e6fe5d3d0ffb64eff84f",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "196240f1-dcb7-4939-bbbb-0438d313b173": {
       "record_id": "196240f1-dcb7-4939-bbbb-0438d313b173",
       "content_hash": "ac244bf43ba75ab79b532eb9df021e0d",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "28825145-668c-4dfd-af0c-7723fb77576e": {
       "record_id": "28825145-668c-4dfd-af0c-7723fb77576e",
       "content_hash": "9e4fc3a6804a2f7758e151937f8fa643",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     },
     "934b4141-bcf6-4834-a982-327f1ea3e893": {
       "record_id": "934b4141-bcf6-4834-a982-327f1ea3e893",
       "content_hash": "6866de2706d162c5219e660cf956acfd",
       "platform": "credly",
-      "timestamp": "2026-09-30T04:52:15.878054+00:00"
+      "timestamp": "2026-09-30T05:31:07.747762+00:00"
     }
   }
 }
