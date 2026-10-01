@@ -1,0 +1,73 @@
+---
+archive_platform: microsoft-learn
+chunk_part: 95 of 96
+date_range: 2026-08-08 to 2026-09-20
+total_entries: 52
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-95.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: archive_complete, archive_index, jsonld
+---
+
+# microsoft-learn -- Part 95
+
+> **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-96.md](./microsoft-learn-2026-09-part-96.md) | [Complete Archive](./microsoft-learn-complete.md)
+
+| Achievement Title | Category | Date Earned | Verification Link |
+| :--- | :--- | :--- | :--- |
+| **Harden a Microsoft 365 tenant with Microsoft Secure Score** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-microsoft-365-secure-score/) |
+| **How to support usage and adoption** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/how-to-support-usage-adoption/) |
+| **What practice manager can expect** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-practice-manager-can-expect/) |
+| **Configure reliable email intake in Dynamics 365 Customer Service** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-email-channel-customer-service/) |
+| **Dragon Copilot for Practice Managers - 101** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-practice-managers-101/) |
+| **Where to find help** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/where-to-find-help/) |
+| **Change management in your Dragon Copilot implementation** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/change-management-dragon-copilot-implementation/) |
+| **Create agents with the GitHub Copilot harness in Microsoft Copilot Studio** | Learningpaths | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-agents-github-copilot-harness-copilot-studio/) |
+| **Evaluate, publish, and manage agents in Microsoft Copilot Studio** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-publish-manage-agents-copilot-studio/) |
+| **Support customers across engagement channels in Dynamics 365 Customer Service** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/customer-engagement-channels-overview/) |
+| **Dragon Copilot (physicians) practical application exercises** | Learningpaths | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-physicians-practical-application-exercises/) |
+| **Dragon Copilot AI Ambassador - Ambassador level** | Learningpaths | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/dragon-copilot-ai-ambassador-ambassador-level/) |
+| **Dragon Copilot (physicians) create templates** | Modules | 2026-09-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-create-templates/) |
+| **Understand Storage Spaces Direct** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-storage-spaces-direct/) |
+| **Integrate backend services for AI solutions** | Learningpaths | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-backend-services-ai-solutions/) |
+| **Orchestrate durable AI workflows with Azure Durable Functions** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-durable-functions/) |
+| **Automate agent tasks with workflows in Microsoft Copilot Studio** | Modules | 2026-09-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-agent-tasks-workflows-copilot-studio/) |
+| **Get started using Foundry on Windows: AI Dev Gallery (Preview)** | Modules | 2026-09-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-dev-gallery/) |
+| **Dragon Copilot (nurses) verbalization guide** | Modules | 2026-09-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-copilot-nurses-verbalization-module/) |
+| **Ground and extend agents with knowledge, tools, and skills** | Modules | 2026-09-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-extend-agents-knowledge-tools-skills/) |
+| **Configure Microsoft Adaptive Accessories for accessible productivity** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-adaptive-accessories/) |
+| **Get started with Microsoft AI models** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-ai-models/) |
+| **Configure Azure Databricks Genie for Microsoft Teams and Microsoft Copilot** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-databricks-genie-teams-microsoft-copilot/) |
+| **Use Azure Databricks Genie in Microsoft Teams and Microsoft 365 Copilot** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-databricks-genie-teams-m365-copilot/) |
+| **Run sidecar-enabled AI applications on Azure App Service** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-sidecar-azure-app-service/) |
+| **Implement container application hosting on Azure** | Learningpaths | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-container-app-hosting-azure/) |
+| **Support inclusive work with Windows accessibility features on Surface devices** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/inclusive-software-surface/) |
+| **Create instruction-driven agents in Microsoft Copilot Studio** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-instruction-driven-agents-copilot-studio/) |
+| **Reduce workplace barriers with inclusive Surface hardware** | Modules | 2026-08-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/inclusive-surface-hardware/) |
+| **Manage cases with Dynamics 365 Customer Service workspace** | Modules | 2026-08-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-cases-customer-service-workspace/) |
+| **Explore Microsoft Copilot Studio and agent harnesses** | Modules | 2026-08-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-copilot-studio-agent-harnesses/) |
+| **Route and distribute work with unified routing in Dynamics 365 Customer Service** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/route-distribute-work/) |
+| **Service representative collaboration in Dynamics 365 Customer Service** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-collaboration/) |
+| **Leveling up code reviews and pull requests with GitHub Copilot** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/) |
+| **Frontier Firms: Govern and manage AI experiences with Windows 11** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-ai/) |
+| **Frontier Firms: Bring AI into everyday work with Windows 11** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-workflows/) |
+| **Get started with Python programming: Part 2 - building programs** | Learningpaths | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-python-programs/) |
+| **Repeat actions with loops** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/repeat-actions-loops-python/) |
+| **Build and extend AI agents with Microsoft Foundry** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-extend-ai-agents/) |
+| **Read and write files** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/read-write-files-python/) |
+| **Write reusable code** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-reusable-code-python/) |
+| **Organize data with collections** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/organize-data-with-collections-python/) |
+| **Advanced Active Directory back up and recovery** | Modules | 2026-08-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-backup-recovery/) |
+| **Introduction to Azure SRE Agent** | Modules | 2026-08-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-sre-agent/) |
+| **Understand how Project Perception coordinates security operations** | Modules | 2026-08-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-orientation/) |
+| **Active Directory Domain Services authentication and Kerberos hardening** | Modules | 2026-08-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-authentication-kerberos/) |
+| **Ingest data into Customer Insights - Data** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-customer-insights/) |
+| **Get started with Dynamics 365 Customer Insights - Data** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-customer-data-platform/) |
+| **Write your first Python code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-first-python-code/) |
+| **Get Started with Python Programming: Part 1 - Fundamentals** | Learningpaths | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-python-fundamentals/) |
+| **Work with data in Python** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-data-python/) |
+| **What is Project Perception?** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-introduction/) |
+
+---
+> **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-96.md](./microsoft-learn-2026-09-part-96.md)
+
