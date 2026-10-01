@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 1724 records.
 <!-- transform: unknown -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-10-01T12:58:00.474313+00:00 -->
+<!-- retrieved_at: 2026-10-01T22:46:53.159403+00:00 -->
 
 ## Verified Records Archive
 
@@ -112,7 +112,7 @@ This document represents a unified, verifiable list of all 1724 records.
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC C++** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/basic-otel-plugin-grpc-cpp |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Go** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/basic-otel-plugin-grpc-go |
 | 2026-08-13 | **Everything You Need to Build Long-Running Agents on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/monstertix/instructions |
-| 2026-08-13 | **BYOC A2A Agents on Agent Runtime with Cross-Project Agent Gateway** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/byoc-a2a-codelab [WARN] *Content retired* |
+| 2026-08-13 | **BYOC A2A Agents on Agent Runtime with Cross-Project Agent Gateway** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/byoc-a2a-codelab |
 | 2026-08-13 | **Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tester** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/mastering-slash-commands-antigravity |
 | 2026-08-13 | **Fraud Detection with BigQuery Graph** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/fraud-bigquery-graph |
 | 2026-08-13 | **Understanding Interaction to Next Paint (INP)** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/understanding-inp |
@@ -534,7 +534,7 @@ This document represents a unified, verifiable list of all 1724 records.
 | 2026-06-09 | **Deploy a basic "Google Translate" app on Python 2 Cloud Run (Docker)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-nebulous-serverless-python-gcr2 |
 | 2026-06-09 | **How to Migrate from Firebase Studio to Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/antigravity/how-to-migrate-from-firebase-studio-to-antigravity |
 | 2026-06-09 | **Fine-tune Open Source LLMs on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/9-ai-finetuning/finetune-open-source-models-gke |
-| 2026-06-09 | **codelabs.developers.google.com/codelabs/currency-agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/currency-agent [WARN] *Content retired* |
+| 2026-06-09 | **codelabs.developers.google.com/codelabs/currency-agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/currency-agent |
 | 2026-06-09 | **Route Datadog monitoring alerts to Google Cloud with Eventarc (Part 1)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-route-datadog-eventarc-part-one |
 | 2026-06-09 | **Getting Started with Cloud Shell & gcloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-shell |
 | 2026-06-09 | **Connecting Cloud Spanner with GKE Autopilot** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-gke-autopilot |

@@ -49,7 +49,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC C++** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/basic-otel-plugin-grpc-cpp |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Go** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/basic-otel-plugin-grpc-go |
 | 2026-08-13 | **Everything You Need to Build Long-Running Agents on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/monstertix/instructions |
-| 2026-08-13 | **BYOC A2A Agents on Agent Runtime with Cross-Project Agent Gateway** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/byoc-a2a-codelab [WARN] *Content retired* |
+| 2026-08-13 | **BYOC A2A Agents on Agent Runtime with Cross-Project Agent Gateway** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/byoc-a2a-codelab |
 | 2026-08-13 | **Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tester** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/mastering-slash-commands-antigravity |
 | 2026-08-13 | **Fraud Detection with BigQuery Graph** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/fraud-bigquery-graph |
 | 2026-08-13 | **Understanding Interaction to Next Paint (INP)** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/understanding-inp |
