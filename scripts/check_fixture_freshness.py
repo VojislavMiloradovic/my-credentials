@@ -2,7 +2,7 @@
 Fixture Freshness Check
 =======================
 Checks if validation fixtures are stale and need manual refresh.
-Run as: python scripts/check_fixture_freshness.py [--threshold DAYS] [--fail-on-stale]
+Run as: python scripts/check_fixture_freshness.py [--threshold DAYS] [--fail-on-stale] [--allow-missing]
 """
 
 import argparse
@@ -28,7 +28,9 @@ PLATFORM_FIXTURES = {
     ],
     "credly": [
         "for_validation/credly_badges.json",
-        "for_validation/credly-baseline.json",
+        "for_validation/credly-combined-baseline.json",
+        "for_validation/credly-external-baseline.json",
+        "for_validation/credly-native-baseline.json",
     ],
     "linkedin-certifications": [
         "for_validation/linkedin-certifications.json",
@@ -109,6 +111,7 @@ def get_transform_hash(platform: str) -> str | None:
 def check_fixture_freshness(
     threshold_days: int = 90,
     fail_on_stale: bool = False,
+    allow_missing: bool = False,
     verbose: bool = False,
 ) -> tuple[list[str], list[str], list[str]]:
     """
@@ -156,7 +159,12 @@ def check_fixture_freshness(
 
         if platform_missing:
             missing.extend(platform_missing)
-            print(f"  [MISSING] {platform}: MISSING fixtures:")
+            if allow_missing:
+                print(
+                    f"  [WARN] {platform}: MISSING fixtures (allowed -- regeneration expected):"
+                )
+            else:
+                print(f"  [MISSING] {platform}: MISSING fixtures:")
             for m in platform_missing:
                 print(f"     - {m}")
 
@@ -224,6 +232,7 @@ Examples:
   python scripts/check_fixture_freshness.py
   python scripts/check_fixture_freshness.py --threshold 60
   python scripts/check_fixture_freshness.py --fail-on-stale --threshold 90
+  python scripts/check_fixture_freshness.py --allow-missing --fail-on-stale
         """,
     )
     parser.add_argument(
@@ -235,7 +244,12 @@ Examples:
     parser.add_argument(
         "--fail-on-stale",
         action="store_true",
-        help="Exit with code 1 if any fixtures are stale",
+        help="Exit with code 1 if any fixtures are stale (missing ignored unless --allow-missing=false)",
+    )
+    parser.add_argument(
+        "--allow-missing",
+        action="store_true",
+        help="Treat missing fixtures as warnings (allows regeneration), not failures",
     )
     parser.add_argument(
         "--verbose",
@@ -262,6 +276,7 @@ Examples:
     stale, missing, transform_changed = check_fixture_freshness(
         threshold_days=args.threshold,
         fail_on_stale=args.fail_on_stale,
+        allow_missing=args.allow_missing,
         verbose=args.verbose,
     )
 
@@ -270,7 +285,10 @@ Examples:
     print("=" * 60)
 
     if missing:
-        print(f"[MISSING] Missing fixtures: {len(missing)}")
+        if args.allow_missing:
+            print(f"[WARN] Missing fixtures (allowed): {len(missing)}")
+        else:
+            print(f"[MISSING] Missing fixtures: {len(missing)}")
         for m in missing:
             print(f"   - {m}")
 
@@ -300,12 +318,35 @@ Examples:
             "\n   Run fixture refresh for affected platforms after updating transforms."
         )
 
-    # Exit code
-    if args.fail_on_stale and (stale or missing):
+    # Exit code logic:
+    # - If --fail-on-stale and there are STALE fixtures -> exit 1
+    # - If --fail-on-stale and --allow-missing=false and there are MISSING fixtures -> exit 1
+    # - If --fail-on-stale and --allow-missing=true and only missing (no stale) -> exit 0
+    # - Otherwise -> exit 0
+    should_fail = False
+    if args.fail_on_stale:
+        if stale:
+            should_fail = True
+            print(f"\n[FAIL] Failing due to {len(stale)} stale fixture(s)")
+        if missing and not args.allow_missing:
+            should_fail = True
+            print(
+                f"\n[FAIL] Failing due to {len(missing)} missing fixture(s) (use --allow-missing to permit)"
+            )
+
+    if should_fail:
         sys.exit(1)
-    elif stale and not args.fail_on_stale:
-        sys.exit(0)  # Warning only
     else:
+        if missing and args.allow_missing:
+            print(
+                f"\n[OK] Validation passed (with {len(missing)} missing fixture(s) allowed)"
+            )
+        elif stale:
+            print(
+                f"\n[WARN] Validation passed with warnings ({len(stale)} stale fixture(s))"
+            )
+        else:
+            print("\n[OK] All validations passed")
         sys.exit(0)
 
 

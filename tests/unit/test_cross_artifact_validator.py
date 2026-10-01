@@ -201,8 +201,9 @@ class TestCrossArtifactValidatorValidateSourceSnapshots:
     def test_validate_source_snapshots_no_files(self, mock_join, mock_exists):
         mock_exists.return_value = False
         self.validator.validate_source_snapshots()
-        # Should add results for each platform
-        assert len(self.validator.results) > 0
+        # New behavior: skip check when no files exist (allows regeneration)
+        # Should NOT add results for any platform
+        assert len(self.validator.results) == 0
 
     def test_validate_source_snapshots_with_file(self):
         with tempfile.TemporaryDirectory() as tmpdir:
