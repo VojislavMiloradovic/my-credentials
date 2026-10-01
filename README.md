@@ -135,15 +135,16 @@ Showing latest 10 of 949 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 695
+**Total Portfolio Credentials:** 696
 **Total Verified Skills Mapped:** 2415
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 695 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 696 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-01 | [Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-30 | [Basis DSP Tactics](https://www.credly.com/badges/84fdc926-20d9-477f-b88e-9f372681a6b2/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-30 | [Basis Planner](https://www.credly.com/badges/b21ec6f2-c32f-4ef6-9536-19b8ba89a0b7/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-30 | [Collaboration & Communication](https://www.credly.com/badges/6016826a-ee02-4bd1-b2c6-ffcdb71616a8/public_url) | Basis Technologies | Credly Verified Badge |
@@ -153,7 +154,6 @@ Showing latest 10 of 695 credentials. View full dataset via [Platform Archive In
 | 2026-09-29 | [AI-Enabled Applications for Customer Service](https://www.credly.com/badges/e707134d-f39f-48bf-b0df-11990f414bc3/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-29 | [Data Analytics for Sustainability](https://www.credly.com/badges/48193bbc-2b59-4beb-b811-669f8fd684aa/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-29 | [Data Visualization Using Python](https://www.credly.com/badges/16c8215d-9ca6-4579-a402-c1c69d189614/public_url) | IBM | Credly Verified Badge |
-| 2026-09-25 | [Basis Bidding](https://www.credly.com/badges/984bb4b8-c27c-49b7-9c9d-47ccd9cca66b/public_url) | Basis Technologies | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
