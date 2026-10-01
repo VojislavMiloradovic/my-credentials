@@ -135,21 +135,6 @@ Showing latest 10 of 949 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-<<<<<<< HEAD
-**Total Portfolio Credentials:** 4
-**Total Verified Skills Mapped:** 6
-
-#### Latest Earned Credentials
-
-Showing latest 10 of 4 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic File](./archives/credly-complete.md).
-
-| Date Earned | Credential Name | Issuer | Verification Type |
-| :---: | :--- | :--- | :---: |
-| 2024-03-10 | [Docker Expert](https://www.credly.com/badges/badge-003/public_url) | Docker Inc | Credly Verified Badge |
-| 2024-02-20 | [AWS Certified](https://www.credly.com/badges/badge-002/public_url) | Amazon Web Services | Credly Verified Badge |
-| 2024-01-15 | [Python Developer](https://www.credly.com/badges/badge-001/public_url) | Python Institute | Credly Verified Badge |
-| 2024-01-01 | [External Cert](https://external.org/cert/001) | External Org | Credly External Badge |
-=======
 **Total Portfolio Credentials:** 695
 **Total Verified Skills Mapped:** 2415
 
@@ -169,7 +154,6 @@ Showing latest 10 of 695 credentials. View full dataset via [Platform Archive In
 | 2026-09-29 | [Data Analytics for Sustainability](https://www.credly.com/badges/48193bbc-2b59-4beb-b811-669f8fd684aa/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-29 | [Data Visualization Using Python](https://www.credly.com/badges/16c8215d-9ca6-4579-a402-c1c69d189614/public_url) | IBM | Credly Verified Badge |
 | 2026-09-25 | [Basis Bidding](https://www.credly.com/badges/984bb4b8-c27c-49b7-9c9d-47ccd9cca66b/public_url) | Basis Technologies | Credly Verified Badge |
->>>>>>> d9d47adca1b45d8e9bd5f21ff619c65e92533cb9
 <!-- CREDLY_BADGES_END -->
 
 
