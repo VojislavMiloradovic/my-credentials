@@ -413,6 +413,13 @@ class LinkedInCertPipeline(PipelineBase):
     MARKER_START = MARKER_START
     MARKER_END = MARKER_END
 
+    def _sort_key(self, record):
+        """Sort by 'issued' field (LinkedIn uses 'issued' not 'date')."""
+        date = record.get("issued", "0000-00")
+        if date is None or date == "N/A":
+            return "0000-00"
+        return date
+
     def fetch_data(self) -> list[dict]:
         """Fetch and parse LinkedIn certifications from CSV."""
         # Use module-level function so test patching works
