@@ -55,8 +55,8 @@ Showing latest 10 of 4,879 achievements. View full dataset via [Platform Archive
 
 **Public Profile:** [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Total Portfolio Credentials:** 402
-**Total Verified Skills Mapped:** 401
+**Total Portfolio Credentials:** 404
+**Total Verified Skills Mapped:** 403
 
 #### Google Skills Learning Statistics
 
@@ -72,10 +72,12 @@ Showing latest 10 of 4,879 achievements. View full dataset via [Platform Archive
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 402 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-09-part-09.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-09-part-09.md)), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 404 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-10-part-09.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-10-part-09.md)), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-01 | [Google Cloud VMware Engine Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789) | Google Cloud | Google Skill Badge |
+| 2026-10-01 | [Store, Process, and Manage Data on Google Cloud - Command Line](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28586313) | Google Cloud | Google Skill Badge |
 | 2026-09-28 | [Migrate your VPC Firewall Policies to Cloud NGFW](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28470543) | Google Cloud | Google Skill Badge |
 | 2026-09-28 | [Build a Certification Study Guide: AGWA Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466921) | Google Cloud | Google Skill Badge |
 | 2026-09-28 | [AI Infrastructure: Orchestration and Automation](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466553) | Google Cloud | Google Skill Badge |
@@ -84,8 +86,6 @@ Showing latest 10 of 402 credentials. View full dataset via [Platform Archive In
 | 2026-09-28 | [Hybrid Load Balancing and Traffic Management](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28463484) | Google Cloud | Google Skill Badge |
 | 2026-09-28 | [Security Best Practices in Google Cloud: Containers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28463089) | Google Cloud | Google Skill Badge |
 | 2026-09-22 | [Security Best Practices in Google Cloud: Data](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28203673) | Google Cloud | Google Skill Badge |
-| 2026-09-22 | [Security Best Practices in Google Cloud: Models](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28201646) | Google Cloud | Google Skill Badge |
-| 2026-09-22 | [Security Best Practices in Google Cloud: Applications](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28199990) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials
@@ -135,15 +135,16 @@ Showing latest 10 of 949 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 695
+**Total Portfolio Credentials:** 696
 **Total Verified Skills Mapped:** 2415
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 695 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-09-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 696 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-01 | [Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-09-30 | [Basis DSP Tactics](https://www.credly.com/badges/84fdc926-20d9-477f-b88e-9f372681a6b2/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-30 | [Basis Planner](https://www.credly.com/badges/b21ec6f2-c32f-4ef6-9536-19b8ba89a0b7/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-30 | [Collaboration & Communication](https://www.credly.com/badges/6016826a-ee02-4bd1-b2c6-ffcdb71616a8/public_url) | Basis Technologies | Credly Verified Badge |
@@ -153,7 +154,6 @@ Showing latest 10 of 695 credentials. View full dataset via [Platform Archive In
 | 2026-09-29 | [AI-Enabled Applications for Customer Service](https://www.credly.com/badges/e707134d-f39f-48bf-b0df-11990f414bc3/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-29 | [Data Analytics for Sustainability](https://www.credly.com/badges/48193bbc-2b59-4beb-b811-669f8fd684aa/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-09-29 | [Data Visualization Using Python](https://www.credly.com/badges/16c8215d-9ca6-4579-a402-c1c69d189614/public_url) | IBM | Credly Verified Badge |
-| 2026-09-25 | [Basis Bidding](https://www.credly.com/badges/984bb4b8-c27c-49b7-9c9d-47ccd9cca66b/public_url) | Basis Technologies | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
@@ -201,24 +201,24 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 172 |
-| **Total Codelabs & Learning Activities** | 1,662 |
+| **Total Codelabs & Learning Activities** | 1,669 |
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-09-part-36.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-36.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-10-part-36.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-10-part-36.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| *2026-10-01* | **Govern unstructured dark data with Gemini and Knowledge Catalog** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/metadata-as-code-dark-data |
+| *2026-10-01* | **Build Custom Workspace Studio Starter and Action Steps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/workspace-studio-custom-extensions |
+| *2026-10-01* | **Getting Started with MCP & A2A with ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/getting-started-mcp-a2a-adk |
+| *2026-10-01* | **Building Agents to Analyze Structured and Unstructured Data** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spanner-adk |
+| *2026-10-01* | **Build a Formula E Logistics Agent using MCP Toolbox for Databases** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/fe-logistics-mcp-toolbox |
+| *2026-10-01* | **CodeMender CLI Basics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/code-mender-cli |
+| *2026-10-01* | **The Night Market — Live Voice at Agent Valley** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-valley-nightmarket/instructions |
 | *2026-09-29* | **The Archive — Memory at Agent Valley** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-valley-archive/instructions |
 | *2026-09-29* | **Secure an app using Google Cloud Developer plugin in Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-app-cloud-dev-plugin-agy |
 | *2026-09-29* | **Working with Proto DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-proto-datastore |
-| *2026-09-29* | **Gemini Enterprise with Agent Gateway egress to private custom MCP server using Agent Registry** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-ge-custom-mcp-egress-vpc-registry |
-| *2026-09-29* | **Using TypeSafe AI's Jev model with AlloyDB AI Functions for High-Speed AI Queries** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-jev |
-| *2026-09-29* | **Enhancing e-commerce checkout with browser AI capabilities** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/enhancing-ecommerce-web-ai |
-| *2026-09-29* | **Build a Formula E Logistics Agent using MCP Toolbox for Databases** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/en/fe-track-planner-mcp-toolbox-adk |
-| *2026-09-29* | **Your First Course on Google Cloud 2026** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-foundation-one |
-| *2026-09-29* | **Architecting Long-Term Agent Memory with BigQuery and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-agent-long-term-memory-bigquery |
-| *2026-09-29* | **Architecting an Autonomous Software Factory: End-to-End Agentic Delivery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/software-factory-end-to-end |
 <!-- GOOGLE_DEVELOPER_END -->
 
 

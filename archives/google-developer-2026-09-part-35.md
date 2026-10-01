@@ -11,11 +11,10 @@ artifacts: archive_complete, archive_index, jsonld
 
 # google-developer -- Part 35
 
-> **Navigation:** Prev: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-36.md](./google-developer-2026-09-part-36.md) | [Complete Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-10-part-36.md](./google-developer-2026-10-part-36.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-09-29 | **Remote Attestation and Secure Key Release on Intel TDX Confidential VMs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/confidential-vm-tdx |
 | 2026-09-29 | **Real-time Accelerated Image Segmentation on Android with LiteRT** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/litert-image-segmentation-android |
 | 2026-09-29 | **Build an Agentic Pitch Generator: Orchestration, Evaluation, and Analytics with Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bwg-agentic-masterclass |
 | 2026-09-29 | **Build a Multi-Agent Formula E Track Planner with ADK & A2A** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/formula-e-build-multi-agent-track-planner |
@@ -62,7 +61,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-09-03 | **Train a model on GPU with JAX, Optax, and Fashion-MNIST** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-04-training-loop |
 | 2026-09-03 | **How to Run TorchServe and Stable Diffusion on Cloud Run GPUs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/how-to-use-stable-diffusion-cloud-run-gpu |
 | 2026-09-03 | **TPU-speed data pipelines: tf.data.Dataset and TFRecords** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/keras-flowers-data |
+| 2026-09-03 | **Run your first JAX program on NVIDIA GPUs with GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-01-getting-started |
 
 ---
-> **Navigation:** Prev: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-36.md](./google-developer-2026-09-part-36.md)
+> **Navigation:** Prev: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-10-part-36.md](./google-developer-2026-10-part-36.md)
 

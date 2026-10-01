@@ -11,7 +11,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 # Credly Verified Credentials -- Part 13
 
-> **Navigation:** Prev: [credly-2026-09-part-12.md](./credly-2026-09-part-12.md) | [Index](./credly-index.md) | Next: [credly-2026-09-part-14.md](./credly-2026-09-part-14.md) | [Complete Archive](./credly-complete.md)
+> **Navigation:** Prev: [credly-2026-09-part-12.md](./credly-2026-09-part-12.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md) | [Complete Archive](./credly-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -72,5 +72,5 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-09-15 | [MSP Academy: Safe Communication Environment](https://www.credly.com/badges/5fe58d60-50f4-4d63-a36c-b3949a00999a/public_url) | Acronis | Credly Verified Badge |
 
 ---
-> **Navigation:** Prev: [credly-2026-09-part-12.md](./credly-2026-09-part-12.md) | [Index](./credly-index.md) | Next: [credly-2026-09-part-14.md](./credly-2026-09-part-14.md)
+> **Navigation:** Prev: [credly-2026-09-part-12.md](./credly-2026-09-part-12.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md)
 

@@ -42,7 +42,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-09 | **Deploy a basic "Google Translate" app on Python 2 Cloud Run (Docker)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-nebulous-serverless-python-gcr2 |
 | 2026-06-09 | **How to Migrate from Firebase Studio to Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/antigravity/how-to-migrate-from-firebase-studio-to-antigravity |
 | 2026-06-09 | **Fine-tune Open Source LLMs on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/9-ai-finetuning/finetune-open-source-models-gke |
-| 2026-06-09 | **Getting Started with MCP, ADK and A2A** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/currency-agent |
+| 2026-06-09 | **codelabs.developers.google.com/codelabs/currency-agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/currency-agent [WARN] *Content retired* |
 | 2026-06-09 | **Route Datadog monitoring alerts to Google Cloud with Eventarc (Part 1)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-route-datadog-eventarc-part-one |
 | 2026-06-09 | **Getting Started with Cloud Shell & gcloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-shell |
 | 2026-06-09 | **Connecting Cloud Spanner with GKE Autopilot** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-gke-autopilot |
