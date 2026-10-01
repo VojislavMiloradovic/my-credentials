@@ -172,20 +172,20 @@ Showing latest 10 of 696 credentials. View full dataset via [Platform Archive In
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-03-part-39.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-03-part-39.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-09-part-39.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-39.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-03* | **Career Essentials in Generative AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/b07baba3e2d573dbb80201cb55d79a9776941fcd423f077457923e53bb47dcfb) |
-| *2026-03* | **Build Your Generative AI Productivity Skills with Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/9c7e9c6c769dad8b4e03ccd16ef3cae209895323fbe8d9f7bac48767b309a81d) |
-| *2026-03* | **Preparing for the Future of Work with AI Agents** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e539869c9437b99c694205b6bf274eef97f5d7ff64e5fbc0433b226d858a8315) |
-| *2026-03* | **Fundamentals of digital marketing** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.exceedlms.com/student/award/RuM7eufo8FGxiFKdoKune8HD) |
-| *2026-03* | **YouTube Music Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.exceedlms.com/profiles/c92f51aa68fc451f9ee992f9e813024b) |
-| *2026-03* | **Microsoft Copilot for Productivity by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ebee0f751b683082436e62c08e7461b97f7f11191f192f20010404efefcdd55a) |
-| *2026-03* | **Artificial Intelligence Foundations: Machine Learning** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/05658b20b59db9dbbd1b31ef562e84870bb01d03cec38a0621ae8f423103355a?trk=share_certificate) |
-| *2026-03* | **Google Analytics Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/c845a7b6-cef3-4e66-87e2-481771d889ed) |
-| *2026-03* | **Microsoft Applied Skills: Create an AI agent** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/DC86763A7069ABBF?sharingId) |
-| *2026-03* | **Google Ads Search Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/f0f3a46f-f6a1-4145-8fb5-2c2bb41a761f) |
+| *2026-09* | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
+| *2026-09* | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
+| *2026-09* | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
+| *2026-09* | **Getting Started as a LinkedIn Learning Admin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fe023a5e666217da82c02a4d2515e674acba39f2c4330cdd0281dc67328aebc8) |
+| *2026-09* | **Derive Insights from BigQuery Data Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/01067a7c-6951-46f0-bac8-40238c8d8fd2/linked_in_profile) |
+| *2026-09* | **Essentials - Acronis Cyber Platform: Automate** | Acronis | [Verify Record](https://www.credly.com/badges/47021d40-dba0-4fa9-8853-e28fe207dea1/linked_in_profile) |
+| *2026-09* | **Essentials - Acronis Cyber Platform: Manage** | Acronis | [Verify Record](https://www.credly.com/badges/dc4210de-cbe7-47f4-97b8-ecbb7df7becd/linked_in_profile) |
+| *2026-09* | **Lifelong Professional Skills** | IBM | [Verify Record](https://www.credly.com/badges/e981ea1d-c27f-4baf-9811-f8eb8a44c7cd/linked_in_profile) |
+| *2026-09* | **Career Management Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2a1cf5d5-5ba0-4d9a-86ad-a1c1b920f2e8/linked_in_profile) |
+| *2026-09* | **Nano Tips to Build Authority on LinkedIn with Shadé Zahrai & Jasmin Alić** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b36e8947f730009d5fc4fb6daa85358c35953451a997ccf08240970b86caeca1) |
 <!-- LINKEDIN_END -->
 
 
