@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 34 of 36
 date_range: 2026-08-07 to 2026-09-03
-total_entries: 48
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-34.md
 layer: L2_published
 transform: unknown
@@ -15,7 +15,6 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-09-03 | **Run your first JAX program on NVIDIA GPUs with GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-01-getting-started |
 | 2026-09-03 | **Train a transformer end to end with Flax NNX and Orbax** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-07-transformer-end-to-end |
 | 2026-08-31 | **Looker PSC Southbound access to multiple Cloud SQL PSC instances through proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-looker-cloudsql-southbound-proxy |
 | 2026-08-31 | **Investigate a GKE outage with Antigravity CLI and SRE Extension and build a beautiful Post Mortem** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/investigate-gke-cluster-breakage-scenarios-with-postmortem |
@@ -50,7 +49,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC C++** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/basic-otel-plugin-grpc-cpp |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Go** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/basic-otel-plugin-grpc-go |
 | 2026-08-13 | **Everything You Need to Build Long-Running Agents on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/monstertix/instructions |
-| 2026-08-13 | **BYOC A2A Codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/byoc-a2a-codelab |
+| 2026-08-13 | **BYOC A2A Agents on Agent Runtime with Cross-Project Agent Gateway** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/byoc-a2a-codelab [WARN] *Content retired* |
 | 2026-08-13 | **Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tester** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/mastering-slash-commands-antigravity |
 | 2026-08-13 | **Fraud Detection with BigQuery Graph** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/fraud-bigquery-graph |
 | 2026-08-13 | **Understanding Interaction to Next Paint (INP)** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/understanding-inp |

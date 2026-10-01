@@ -1,24 +1,31 @@
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1717 records.
+This document represents a unified, verifiable list of all 1724 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-10-01T04:15:32.634395+00:00 -->
+<!-- retrieved_at: 2026-10-01T12:58:00.474313+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-10-01 | **Govern unstructured dark data with Gemini and Knowledge Catalog** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/metadata-as-code-dark-data |
+| 2026-10-01 | **Build Custom Workspace Studio Starter and Action Steps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/workspace-studio-custom-extensions |
+| 2026-10-01 | **Getting Started with MCP & A2A with ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/getting-started-mcp-a2a-adk |
+| 2026-10-01 | **Building Agents to Analyze Structured and Unstructured Data** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spanner-adk |
+| 2026-10-01 | **Build a Formula E Logistics Agent using MCP Toolbox for Databases** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/fe-logistics-mcp-toolbox |
+| 2026-10-01 | **CodeMender CLI Basics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/code-mender-cli |
+| 2026-10-01 | **The Night Market — Live Voice at Agent Valley** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-valley-nightmarket/instructions |
 | 2026-09-29 | **The Archive — Memory at Agent Valley** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-valley-archive/instructions |
 | 2026-09-29 | **Secure an app using Google Cloud Developer plugin in Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-app-cloud-dev-plugin-agy |
 | 2026-09-29 | **Working with Proto DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-proto-datastore |
 | 2026-09-29 | **Gemini Enterprise with Agent Gateway egress to private custom MCP server using Agent Registry** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-ge-custom-mcp-egress-vpc-registry |
 | 2026-09-29 | **Using TypeSafe AI's Jev model with AlloyDB AI Functions for High-Speed AI Queries** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-jev |
 | 2026-09-29 | **Enhancing e-commerce checkout with browser AI capabilities** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/enhancing-ecommerce-web-ai |
-| 2026-09-29 | **Build a Formula E Logistics Agent using MCP Toolbox for Databases** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/en/fe-track-planner-mcp-toolbox-adk |
+| 2026-09-29 | **codelabs.developers.google.com/devsite/codelabs/en/fe-track-planner-mcp-toolbox-adk** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/en/fe-track-planner-mcp-toolbox-adk |
 | 2026-09-29 | **Your First Course on Google Cloud 2026** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-foundation-one |
 | 2026-09-29 | **Architecting Long-Term Agent Memory with BigQuery and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-agent-long-term-memory-bigquery |
 | 2026-09-29 | **Architecting an Autonomous Software Factory: End-to-End Agentic Delivery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/software-factory-end-to-end |
@@ -105,7 +112,7 @@ This document represents a unified, verifiable list of all 1717 records.
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC C++** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/basic-otel-plugin-grpc-cpp |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Go** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/basic-otel-plugin-grpc-go |
 | 2026-08-13 | **Everything You Need to Build Long-Running Agents on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/monstertix/instructions |
-| 2026-08-13 | **BYOC A2A Codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/byoc-a2a-codelab |
+| 2026-08-13 | **BYOC A2A Agents on Agent Runtime with Cross-Project Agent Gateway** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/byoc-a2a-codelab [WARN] *Content retired* |
 | 2026-08-13 | **Mastering Slash Commands of Antigravity 2.0: AI-Native Game Solver & Balance Tester** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/mastering-slash-commands-antigravity |
 | 2026-08-13 | **Fraud Detection with BigQuery Graph** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/fraud-bigquery-graph |
 | 2026-08-13 | **Understanding Interaction to Next Paint (INP)** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/understanding-inp |
@@ -527,7 +534,7 @@ This document represents a unified, verifiable list of all 1717 records.
 | 2026-06-09 | **Deploy a basic "Google Translate" app on Python 2 Cloud Run (Docker)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-nebulous-serverless-python-gcr2 |
 | 2026-06-09 | **How to Migrate from Firebase Studio to Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/antigravity/how-to-migrate-from-firebase-studio-to-antigravity |
 | 2026-06-09 | **Fine-tune Open Source LLMs on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/9-ai-finetuning/finetune-open-source-models-gke |
-| 2026-06-09 | **Getting Started with MCP, ADK and A2A** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/currency-agent |
+| 2026-06-09 | **codelabs.developers.google.com/codelabs/currency-agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/currency-agent [WARN] *Content retired* |
 | 2026-06-09 | **Route Datadog monitoring alerts to Google Cloud with Eventarc (Part 1)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-route-datadog-eventarc-part-one |
 | 2026-06-09 | **Getting Started with Cloud Shell & gcloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-shell |
 | 2026-06-09 | **Connecting Cloud Spanner with GKE Autopilot** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-gke-autopilot |
