@@ -184,37 +184,24 @@ Showing latest 10 of 695 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-<<<<<<< HEAD
-| **Total External Certifications Verified** | 2 |
-
-#### Recent Certifications
-
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
-
-| Date Completed | Certification Title | Issuing Authority | Verification Reference |
-| :---: | :--- | :--- | :--- |
-| *2024-01* | **Python Certification** | Python Institute | [Verify Record](https://example.com/1) |
-| *2024-03* | **AWS Solutions Architect** | Amazon Web Services | [Verify Record](https://example.com/2) |
-=======
 | **Total External Certifications Verified** | 1,766 |
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-09-part-39.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-39.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-03-part-39.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-03-part-39.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-09* | **Making a Case for Accessibility in Your Organization** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ef182d577eb16f34700076afad2b8f88735696469c1d3f5ed16bde552657fa9c) |
-| *2026-09* | **Nano Tips for Talking about Race at Work with Benjy Kusi** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/623fe53394337ffdd99394630ef62600c027b1b3a2c5800453cd01f6afe6e464) |
-| *2026-09* | **Nano Tips for Checking Your Bias: Becoming a People Advocate with Madison Butler** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cedfe423d79eaa64e0da7aa52125e0797b816ca1071b9d0342fc8805cd437240) |
-| *2026-09* | **Nano Tips For Building Diverse and Inclusive Teams with Madison Butler** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5ac31a5a066ca7a54d3cf5e2b209c7bf7a33ff1cde0ceeeb572ef437cb3de83b) |
-| *2026-09* | **Navigating an Entry-Level Job Search** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4f1846c68bbb3ebcb2bf85bfbd2cbf631b6c1b4699350a05f8104aaafd59abab) |
-| *2026-09* | **15 Claude for Excel Productivity Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5fd54052f654b389b04765dc81176f93f63ea53220bf5b02fb5da23143e20ae1) |
-| *2026-09* | **15 ChatGPT for Excel Productivity Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d5eab1109d541bd89b0ea60864443c0f0a523dda9dee577a78e63fe466cc3a08) |
-| *2026-09* | **Choosing the Right Partner: Smarter Vendor Selection with AHP (PT TMI Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c5470fdc8c0a46ecc410e16d16c8b17e27adf8c081d6b32326eaa729bebb86e2) |
-| *2026-09* | **Resilience in Action: Managing Disruptions in Tech Supply Chains (Dell Technologies Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ca29ff9fb66c0b5fed769daa2959cdbb0b660e89c59baf9d728c8b8df5a60cd6) |
-| *2026-09* | **Closing the Loop: Reinventing Reusable Packaging at Scale (Roambee Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6d910f129cb6c8c96390f6d5a22ad7f85efcba082c8f0f760334af61feac5eb1) |
->>>>>>> d9d47adca1b45d8e9bd5f21ff619c65e92533cb9
+| *2026-03* | **Career Essentials in Generative AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/b07baba3e2d573dbb80201cb55d79a9776941fcd423f077457923e53bb47dcfb) |
+| *2026-03* | **Build Your Generative AI Productivity Skills with Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/9c7e9c6c769dad8b4e03ccd16ef3cae209895323fbe8d9f7bac48767b309a81d) |
+| *2026-03* | **Preparing for the Future of Work with AI Agents** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e539869c9437b99c694205b6bf274eef97f5d7ff64e5fbc0433b226d858a8315) |
+| *2026-03* | **Fundamentals of digital marketing** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.exceedlms.com/student/award/RuM7eufo8FGxiFKdoKune8HD) |
+| *2026-03* | **YouTube Music Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.exceedlms.com/profiles/c92f51aa68fc451f9ee992f9e813024b) |
+| *2026-03* | **Microsoft Copilot for Productivity by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ebee0f751b683082436e62c08e7461b97f7f11191f192f20010404efefcdd55a) |
+| *2026-03* | **Artificial Intelligence Foundations: Machine Learning** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/05658b20b59db9dbbd1b31ef562e84870bb01d03cec38a0621ae8f423103355a?trk=share_certificate) |
+| *2026-03* | **Google Analytics Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/c845a7b6-cef3-4e66-87e2-481771d889ed) |
+| *2026-03* | **Microsoft Applied Skills: Create an AI agent** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/DC86763A7069ABBF?sharingId) |
+| *2026-03* | **Google Ads Search Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/f0f3a46f-f6a1-4145-8fb5-2c2bb41a761f) |
 <!-- LINKEDIN_END -->
 
 
