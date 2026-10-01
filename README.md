@@ -95,13 +95,8 @@ Showing latest 10 of 402 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
-<<<<<<< HEAD
-**Total Portfolio Credentials:** 4
-**Total Verified Skills Mapped:** 4
-=======
 **Total Portfolio Credentials:** 949
 **Total Verified Skills Mapped:** 947
->>>>>>> d9d47adca1b45d8e9bd5f21ff619c65e92533cb9
 
 #### AWS Cloud Quest Summary
 
@@ -116,16 +111,6 @@ Showing latest 10 of 402 credentials. View full dataset via [Platform Archive In
 
 #### Latest Earned Credentials
 
-<<<<<<< HEAD
-Showing latest 10 of 4 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic File](./archives/aws-skills-complete.md).
-
-| Date Earned | Credential Name | Issuer | Verification Type |
-| :---: | :--- | :--- | :---: |
-| 2026-01-01 | [AWS Cloud Practitioner Essentials](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-01-01 | [Amazon S3 Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-01-01 | [AWS Lambda Foundations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-01-01 | [Another Course](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-=======
 Showing latest 10 of 949 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-09-part-18.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-18.md)), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
@@ -140,7 +125,6 @@ Showing latest 10 of 949 credentials. View full dataset via [Platform Archive In
 | 2026-09-30 | [Amazon Connect Chat and Messaging Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-30 | [Amazon Connect Console Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-30 | [Securing DNS with Palo Alto Networks in AWS DNS Firewall](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
->>>>>>> d9d47adca1b45d8e9bd5f21ff619c65e92533cb9
 <!-- AWS_SKILLS_END -->
 
 
