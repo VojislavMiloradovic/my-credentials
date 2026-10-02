@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-10-02 18:00 UTC
+> **Last Generated:** 2026-10-02 18:54 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -176,24 +176,24 @@ Showing latest 10 of 705 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,766 |
+| **Total External Certifications Verified** | 1,787 |
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-09-part-39.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-39.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-10-part-40.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-40.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-09* | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
-| *2026-09* | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
-| *2026-09* | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
-| *2026-09* | **Getting Started as a LinkedIn Learning Admin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fe023a5e666217da82c02a4d2515e674acba39f2c4330cdd0281dc67328aebc8) |
-| *2026-09* | **Derive Insights from BigQuery Data Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/01067a7c-6951-46f0-bac8-40238c8d8fd2/linked_in_profile) |
-| *2026-09* | **Essentials - Acronis Cyber Platform: Automate** | Acronis | [Verify Record](https://www.credly.com/badges/47021d40-dba0-4fa9-8853-e28fe207dea1/linked_in_profile) |
-| *2026-09* | **Essentials - Acronis Cyber Platform: Manage** | Acronis | [Verify Record](https://www.credly.com/badges/dc4210de-cbe7-47f4-97b8-ecbb7df7becd/linked_in_profile) |
-| *2026-09* | **Lifelong Professional Skills** | IBM | [Verify Record](https://www.credly.com/badges/e981ea1d-c27f-4baf-9811-f8eb8a44c7cd/linked_in_profile) |
-| *2026-09* | **Career Management Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2a1cf5d5-5ba0-4d9a-86ad-a1c1b920f2e8/linked_in_profile) |
-| *2026-09* | **Nano Tips to Build Authority on LinkedIn with Shadé Zahrai & Jasmin Alić** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b36e8947f730009d5fc4fb6daa85358c35953451a997ccf08240970b86caeca1) |
+| *2026-10* | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
+| *2026-10* | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| *2026-10* | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |
+| *2026-10* | **Enterprise AI Business Solutions** | IBM | [Verify Record](https://www.credly.com/badges/8022d661-c083-40c9-9ab7-acd251698a1f/linked_in_profile) |
+| *2026-10* | **Basis Automate+** | Basis | [Verify Record](https://www.credly.com/badges/4cca84af-5946-435a-a853-e89ea3c9181b/linked_in_profile) |
+| *2026-10* | **Programmatic Sales Essentials** | Basis | [Verify Record](https://www.credly.com/badges/7895fbdf-6d83-4d71-95d3-6938d0ad96fb/linked_in_profile) |
+| *2026-10* | **Basis Reporting** | Basis | [Verify Record](https://www.credly.com/badges/eb14d86e-db4b-4a3f-bfd5-5b672f60e3bd/linked_in_profile) |
+| *2026-10* | **Basis Connect+** | Basis | [Verify Record](https://www.credly.com/badges/5d229e20-bae1-4dee-89b8-3c2b0afbbd7b/linked_in_profile) |
+| *2026-10* | **Unify by Basis** | Basis | [Verify Record](https://www.credly.com/badges/6a5a5d48-9544-4ed3-b3bd-69e76fa55459/linked_in_profile) |
+| *2026-10* | **Programmatic** | Basis | [Verify Record](https://www.credly.com/badges/a845f138-3606-4581-8020-b07a581eac19/linked_in_profile) |
 <!-- LINKEDIN_END -->
 
 
@@ -3417,18 +3417,39 @@ This document represents a unified, verifiable list of all 1724 records.
 
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 1766 records.
+This document represents a unified, verifiable list of all 1787 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-10-02T16:46:09.324077+00:00 -->
+<!-- retrieved_at: 2026-10-02T18:54:47.600778+00:00 -->
 
 ## Verified Records Archive
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
+| 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |
+| 2026-10 | **Enterprise AI Business Solutions** | IBM | [Verify Record](https://www.credly.com/badges/8022d661-c083-40c9-9ab7-acd251698a1f/linked_in_profile) |
+| 2026-10 | **Basis Automate+** | Basis | [Verify Record](https://www.credly.com/badges/4cca84af-5946-435a-a853-e89ea3c9181b/linked_in_profile) |
+| 2026-10 | **Programmatic Sales Essentials** | Basis | [Verify Record](https://www.credly.com/badges/7895fbdf-6d83-4d71-95d3-6938d0ad96fb/linked_in_profile) |
+| 2026-10 | **Basis Reporting** | Basis | [Verify Record](https://www.credly.com/badges/eb14d86e-db4b-4a3f-bfd5-5b672f60e3bd/linked_in_profile) |
+| 2026-10 | **Basis Connect+** | Basis | [Verify Record](https://www.credly.com/badges/5d229e20-bae1-4dee-89b8-3c2b0afbbd7b/linked_in_profile) |
+| 2026-10 | **Unify by Basis** | Basis | [Verify Record](https://www.credly.com/badges/6a5a5d48-9544-4ed3-b3bd-69e76fa55459/linked_in_profile) |
+| 2026-10 | **Programmatic** | Basis | [Verify Record](https://www.credly.com/badges/a845f138-3606-4581-8020-b07a581eac19/linked_in_profile) |
+| 2026-10 | **Digital Media Buyer** | Basis | [Verify Record](https://www.credly.com/badges/ed43b663-fc70-4494-8902-d27a8d94d7b8/linked_in_profile) |
+| 2026-10 | **Cracking the Supply Challenge: Sourcing Strategies for Alfredo Sauce (Egg Hunt Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7066fdf5693ccebe519f738225a0e24c49fb9bbe2e4a8430e796ee56e6b71b02) |
+| 2026-10 | **Smarter Ways to Use AI at Work: Cut Costs, Carbon, and Complexity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f736fa1c739619573f34c4b5db5d060e4404f254bca1d73949cd12e7b7099dca) |
+| 2026-10 | **Leadership Live with Dorie Clark: Why Content Creation Matters for Leaders** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/78cd6faa1b30dadd43fde32985c796efd9ca419aebf6a3d62ef6cbb0acdbeb9b) |
+| 2026-10 | **The AI Sparring Partner: Using AI Prompting to Think Critically** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/105d17a106a9b963d277094fe84cdf26471cce1be195ed13b1bda1bd53dac5c1) |
+| 2026-10 | **What Bad Bosses Teach Us about Great Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5efb870563e0416e492d7c81dfb7052209a5e93a2afa10956b743d2830a52f67) |
+| 2026-10 | **When to Use AI (and When Not To): Practical Judgment at Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/48e79de07e322f6d60fd05377611abf468c7735b7d76ed3837e8b854a2e9d05b) |
+| 2026-10 | **Storytelling through Short-Form Video with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4a9efbda82d68feb2c2acfeb6bc89273e9f455a3b799e851181003b6b203b212) |
+| 2026-10 | **Social Media Content Creation with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c05dd07b5f23c4f46c10981aaa9f61547be23c3fa9bc6a4e941a930462767edc) |
+| 2026-10 | **Presentation Design with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9b3dd28fffd0edddd6e1c4b72c66a1b97cc80ba81e3c00dd451f20c4d3a13305) |
+| 2026-10 | **Learn WebMCP in 10 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1fab7704a08cc9b4a2f82af9a52bdcacb298140cc97203c88b4ab0bf4322ec3c) |
 | 2026-09 | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
 | 2026-09 | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
 | 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
@@ -4975,10 +4996,6 @@ This document represents a unified, verifiable list of all 1766 records.
 | 2026-04 | **Build and Deploy Agents in Production** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23881535?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-04 | **Digital Sovereignty with Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23881667?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-04 | **Fundamentals of Google's Arm-based Axion Processors** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23881760?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Career Essentials in Generative AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/b07baba3e2d573dbb80201cb55d79a9776941fcd423f077457923e53bb47dcfb) |
-| 2026-03 | **Build Your Generative AI Productivity Skills with Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/9c7e9c6c769dad8b4e03ccd16ef3cae209895323fbe8d9f7bac48767b309a81d) |
-| 2026-03 | **Preparing for the Future of Work with AI Agents** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e539869c9437b99c694205b6bf274eef97f5d7ff64e5fbc0433b226d858a8315) |
-| 2026-03 | **Fundamentals of digital marketing** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.exceedlms.com/student/award/RuM7eufo8FGxiFKdoKune8HD) |
 | 2026-03 | **YouTube Music Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.exceedlms.com/profiles/c92f51aa68fc451f9ee992f9e813024b) |
 | 2026-03 | **Microsoft Copilot for Productivity by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ebee0f751b683082436e62c08e7461b97f7f11191f192f20010404efefcdd55a) |
 | 2026-03 | **Artificial Intelligence Foundations: Machine Learning** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/05658b20b59db9dbbd1b31ef562e84870bb01d03cec38a0621ae8f423103355a?trk=share_certificate) |
@@ -4999,11 +5016,6 @@ This document represents a unified, verifiable list of all 1766 records.
 | 2026-03 | **Grow Offline Sales Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/2d2774cb-bf2e-47c5-a286-86de5cc1bcd8) |
 | 2026-03 | **Human Skills in the Age of AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4) [WARN] *Content retired* |
 | 2026-03 | **Conversion Optimization Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/3c4afa84-5637-4c3b-b3fc-6e6c26e48d35) |
-| 2026-03 | **Ethics in the Age of Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/81172a2f26ee5028965fae175cd98c07a750b0b0d5f6b30cd42abd8f9d950c5f) |
-| 2026-03 | **What Is Generative AI?** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2004c711ab3acf5357eeb3306378f06aa8a591232f4984a4730d786670b381d7) |
-| 2026-03 | **Serverless Data Processing with Dataflow: Foundations** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22543145?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Serverless Data Processing with Dataflow: Develop Pipelines** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22543230?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Build a Certification Study Guide: PMLE** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22568934?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Introduction to Cloud Next Generation Firewall** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691267?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Plan Your Cloud Next Generation Firewall Needs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691283?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Gemini for Network Engineers** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22742333?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -5035,7 +5047,16 @@ This document represents a unified, verifiable list of all 1766 records.
 | 2026-03 | **Configure Gemini Code Assist for Organizations** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23345072?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Deploy and Scale AI Models with Cloud Run** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23345247?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Security Command Center: Identify and Prioritize Risks** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23345807?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Amplify Your Critical Thinking with Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f4f8232881f45da9115434b12c62cb7afd3188bcc38038c2287bc120ac5cc76a) |
+| 2026-02 | **Career Essentials in Generative AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/b07baba3e2d573dbb80201cb55d79a9776941fcd423f077457923e53bb47dcfb) |
+| 2026-02 | **Build Your Generative AI Productivity Skills with Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/9c7e9c6c769dad8b4e03ccd16ef3cae209895323fbe8d9f7bac48767b309a81d) |
+| 2026-02 | **Preparing for the Future of Work with AI Agents** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e539869c9437b99c694205b6bf274eef97f5d7ff64e5fbc0433b226d858a8315) |
+| 2026-02 | **Fundamentals of digital marketing** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.exceedlms.com/student/award/RuM7eufo8FGxiFKdoKune8HD) |
+| 2026-02 | **Ethics in the Age of Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/81172a2f26ee5028965fae175cd98c07a750b0b0d5f6b30cd42abd8f9d950c5f) |
+| 2026-02 | **What Is Generative AI?** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2004c711ab3acf5357eeb3306378f06aa8a591232f4984a4730d786670b381d7) |
+| 2026-02 | **Serverless Data Processing with Dataflow: Foundations** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22543145?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-02 | **Serverless Data Processing with Dataflow: Develop Pipelines** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22543230?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-02 | **Build a Certification Study Guide: PMLE** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22568934?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-02 | **Amplify Your Critical Thinking with Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f4f8232881f45da9115434b12c62cb7afd3188bcc38038c2287bc120ac5cc76a) |
 | 2026-01 | **Build a Certification Study Guide: PCA Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21296361?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-01 | **Manage Functions and Reporting with CCaaS** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21296923?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-01 | **Preparing for Your Professional Cloud Network Engineer Journey** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21312822?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
