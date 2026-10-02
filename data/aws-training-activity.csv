@@ -1,6 +1,6 @@
 ﻿Complete Training Activity List
-Generated on: 30. септембар 2026.
-Total rows: 949
+Generated on: 2. октобар 2026.
+Total rows: 962
 
 Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
 [RETIRED] Amazon EKS Pre-assessment,Digital course,Retired,93,-,"March 17, 2026","March 17, 2026","March 17, 2026",30 minutes,Fundamental,English
@@ -873,16 +873,29 @@ Production Framework - Operations,Digital course,Completed,0,-,"August 25, 2026"
 Prompt Engineering Best Practices for Amazon Bedrock Models,Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",2 hours,Advanced,English
 Prompt Engineering with Amazon Q Developer,Digital course,Completed,0,-,"April 25, 2026","April 25, 2026","April 25, 2026",30 minutes,Fundamental,English
 Prompting Amazon Nova 2 for content moderation,Digital course,Completed,0,-,"August 9, 2026","August 9, 2026","August 9, 2026",45 minutes,Intermediate,English
+Protect Your Web-facing Workloads with AWS Security Services,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",40 minutes,Intermediate,English
 Protecting Your Instance with Security Groups,Digital course,Completed,0,-,"April 22, 2026","April 22, 2026","April 22, 2026",10 minutes,Fundamental,English
 Query Amazon Aurora PostgreSQL using Amazon Bedrock Knowledge Bases structured data,Digital course,Completed,0,-,"July 25, 2026","July 25, 2026","July 25, 2026",1 hour,Intermediate,English
+Quiz - Agentic AI Fundamentals,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",10 minutes,Fundamental,English
+Quiz - Generative AI Fundamentals,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",10 minutes,Fundamental,English
+re:Invent 2025 Amazon Connect New Feature Releases,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",45 minutes,Intermediate,English
+Real-time voice agents with Stream Vision Agents and Amazon Nova 2 Sonic,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",45 minutes,Fundamental,English
 Referencing Your Own Secrets in Amazon Bedrock AgentCore Identity,Digital course,Completed,0,-,"July 28, 2026","July 28, 2026","July 28, 2026",30 minutes,Fundamental,English
 Responsible Artificial Intelligence Practices,Digital course,Completed,0,-,"January 13, 2026","January 13, 2026","January 13, 2026",1 hour,Fundamental,English
+Restrict access to sensitive documents in your Amazon Quick knowledge bases for Amazon S3,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",45 minutes,Intermediate,English
 "Retrieval, Citations, and Why RAG Quietly Fails",Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",1 hour,Advanced,English
+Right Size Your Amazon EC2 Workload,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",2 hours,Intermediate,English
+Running ComfyUI workflows on Amazon SageMaker AI processing jobs,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",45 minutes,Intermediate,English
+Running High Performance Applications with Amazon FSx,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",1 hour,Intermediate,English
 S&P Global's innovative disaster recovery strategy using Amazon FSx for NetApp ONTAP snapshots,Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",45 minutes,Advanced,English
 SaaS Business Fundamentals,Digital course,Completed,0,-,"March 17, 2026","March 17, 2026","March 17, 2026",1 hour,Fundamental,English
 SaaS Technical Fundamentals,Digital course,Completed,0,-,"April 13, 2026","April 13, 2026","April 13, 2026",1 hour 30 minutes,Fundamental,English
 Safeguard generative AI applications with Amazon Bedrock Guardrails,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",45 minutes,Advanced,English
 Safeguard your agentic AI applications with the Amazon Bedrock Guardrails InvokeGuardrailChecks API,Digital course,Completed,0,-,"September 13, 2026","September 13, 2026","September 13, 2026",45 minutes,Intermediate,English
+Salesforce on AWS - From Basics to Business Innovation,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",1 hour,Fundamental,English
+Scaled hiring with Amazon Connect Talent (Tech Preview),Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",1 hour,Fundamental,English
+Scaling content review operations with multi-agent workflow,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",45 minutes,Intermediate,English
+Scaling Serverless Architectures,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",1 hour 30 minutes,Intermediate,English
 Secure AI agents with Amazon Bedrock AgentCore Identity on Amazon ECS,Digital course,Completed,0,-,"May 27, 2026","May 27, 2026","May 27, 2026",45 minutes,Fundamental,English
 Securing Agentic Workflows: Identity Propagation with Amazon Bedrock AgentCore,Digital course,Completed,0,-,"September 21, 2026","September 21, 2026","September 21, 2026",45 minutes,Advanced,English
 Securing and Protecting Your Data in Amazon Simple Storage Service (Amazon S3),Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",1 hour 40 minutes,Advanced,English
