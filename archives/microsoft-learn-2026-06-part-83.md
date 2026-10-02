@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 83 of 96
-date_range: 2026-06-06 to 2026-06-09
-total_entries: 52
+chunk_part: 83 of 97
+date_range: 2026-06-07 to 2026-06-09
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-83.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Explore Azure Pipelines** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/) |
+| **Plan to foster inner source** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/) |
 | **AZ-400: Development for Enterprise DevOps** | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-work-git-for-enterprise-devops/) |
 | **Explore Git hooks** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/) |
 | **Design a data storage solution for relational data** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/) |
@@ -66,7 +68,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Improve code performance using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-code-performance-github-copilot-agent/) |
 | **Azure Devops to GitHub Enterprise Migrations Part III - Migration Testing and Production Migration** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-3/) |
 | **Azure Devops to GitHub Enterprise Migrations Part II - Source Environment Assessment and Target Environment Setup** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-2/) |
-| **Azure DevOps to GitHub Enterprise Migrations Part IV - Post-Migration Stabilization, Enablement, and Operations** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-four/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md)

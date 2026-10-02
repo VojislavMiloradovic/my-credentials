@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 31 of 96
+chunk_part: 31 of 97
 date_range: 2026-01-10 to 2026-01-12
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-31.md
@@ -19,8 +19,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Create Power Platform solutions with AI and Copilot** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-solutions/) |
 | **Build a Power Pages website for a real estate solution with Copilot in Power Pages** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-website-real-estate-power-pages-copilot/) |
 | **Create a copilot for a real estate solution using natural language in Copilot Studio** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilot-real-estate-natural-language/) |
-| **Minecraft Esports Teacher Academy** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-esports-teacher-academy/) |
 | **Host a head-to-head challenge in Minecraft Education** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/host-head-to-head-challenge-minecraft-esports/) |
+| **Minecraft Esports Teacher Academy** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-esports-teacher-academy/) |
 | **Build challenges in Minecraft esports** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-challenges-minecraft-esports/) |
 | **Minecraft in esports** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/minecraft-esports/) |
 | **Get started with development in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/development-get-started-business-central/) |

@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 84 of 96
+chunk_part: 84 of 97
 date_range: 2026-06-09 to 2026-06-13
-total_entries: 52
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-84.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Introduction to GitHub Packages** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/) |
 | **Discover customer needs as a Solution Architect for Dynamics 365 and Microsoft Power Platform** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-customer-needs/) |
 | **Work with requirements for Microsoft Power Platform and Dynamics 365** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-requirements/) |
 | **Design Dynamics 365 Solutions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-dynamics-365-solutions/) |
@@ -27,8 +28,8 @@ artifacts: archive_complete, archive_index, jsonld
 | **Perform fit gap analysis** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/fit-gap-analysis/) |
 | **Design a container build strategy** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/) |
 | **AZ-400: Implement CI with Azure Pipelines and GitHub Actions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-ci-azure-pipelines-github-actions/) |
-| **Desktop flows and Robotic Process Automation in Power Automate** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/desktop-flows-robotic-process-automation-power-automate/) |
 | **Scripting in Power Automate desktop app** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-scripting/) |
+| **Desktop flows and Robotic Process Automation in Power Automate** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/desktop-flows-robotic-process-automation-power-automate/) |
 | **Introduction to developing with Microsoft Power Platform** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-development-power-platform/) |
 | **Introduction to extending Power Platform** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-extend/) |
 | **AZ-305: Design infrastructure solutions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-infranstructure-solutions/) |
@@ -65,8 +66,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Design network solutions** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-network-solutions/) |
 | **Design an application architecture** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-application-architecture/) |
 | **Introduction to GitHub Actions** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/) |
-| **Explore Azure Pipelines** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/) |
-| **Plan to foster inner source** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-83.md](./microsoft-learn-2026-06-part-83.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-85.md](./microsoft-learn-2026-06-part-85.md)

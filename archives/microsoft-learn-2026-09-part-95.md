@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 95 of 96
+chunk_part: 95 of 97
 date_range: 2026-08-08 to 2026-09-20
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-95.md
@@ -11,7 +11,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 # microsoft-learn -- Part 95
 
-> **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-96.md](./microsoft-learn-2026-09-part-96.md) | [Complete Archive](./microsoft-learn-complete.md)
+> **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-10-part-96.md](./microsoft-learn-2026-10-part-96.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
@@ -69,5 +69,5 @@ artifacts: archive_complete, archive_index, jsonld
 | **What is Project Perception?** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-introduction/) |
 
 ---
-> **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-96.md](./microsoft-learn-2026-09-part-96.md)
+> **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-10-part-96.md](./microsoft-learn-2026-10-part-96.md)
 

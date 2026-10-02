@@ -7,7 +7,7 @@
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
 
-<!-- retrieved_at: 2026-10-02T16:42:47.389137+00:00 -->
+<!-- retrieved_at: 2026-10-02T19:20:36.469839+00:00 -->
 
 
 
@@ -15,21 +15,22 @@ This directory provides chunked, AI-readable historical records for microsoft-le
 
 ## Archive Overview
 
-- **Total Records Archived:** 4879
-- **Monolithic File Size:** ~885.22 KB (226,826 tokens)
-- **Total Chunk Parts:** 96 chunk(s)
+- **Total Records Archived:** 4905
+- **Monolithic File Size:** ~889.96 KB (228,073 tokens)
+- **Total Chunk Parts:** 97 chunk(s)
 
 ### Monolithic Archive (Complete)
 
 | File Name | Size (KB) | Tokens | Recommended For | Direct Raw URL |
 | :--- | :---: | :---: | :--- | :--- |
-| [`microsoft-learn-complete.md`](./microsoft-learn-complete.md) | 885.22 KB | 226,826 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md) |
+| [`microsoft-learn-complete.md`](./microsoft-learn-complete.md) | 889.96 KB | 228,073 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md) |
 
 ### Chunked Archive Parts (~10 KB Slices)
 
 | Part | File Name | Date Range | Entries | Size (KB) | Tokens | Direct Raw URL |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| Part 96 | [`microsoft-learn-2026-09-part-96.md`](./microsoft-learn-2026-09-part-96.md) | `2026-09-20 to 2026-09-30` | 40 | 7.96 KB | 2,169 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-96.md) |
+| Part 97 | [`microsoft-learn-2026-10-part-97.md`](./microsoft-learn-2026-10-part-97.md) | `2026-10-02 to 2026-10-02` | 15 | 3.42 KB | 958 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-97.md) |
+| Part 96 | [`microsoft-learn-2026-10-part-96.md`](./microsoft-learn-2026-10-part-96.md) | `2026-09-20 to 2026-10-02` | 51 | 10.23 KB | 2,775 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-96.md) |
 | Part 95 | [`microsoft-learn-2026-09-part-95.md`](./microsoft-learn-2026-09-part-95.md) | `2026-08-08 to 2026-09-20` | 52 | 10.21 KB | 2,724 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-95.md) |
 | Part 94 | [`microsoft-learn-2026-08-part-94.md`](./microsoft-learn-2026-08-part-94.md) | `2026-07-25 to 2026-08-08` | 54 | 10.19 KB | 2,733 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-94.md) |
 | Part 93 | [`microsoft-learn-2026-07-part-93.md`](./microsoft-learn-2026-07-part-93.md) | `2026-07-20 to 2026-07-25` | 52 | 10.16 KB | 2,702 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-93.md) |
@@ -37,17 +38,17 @@ This directory provides chunked, AI-readable historical records for microsoft-le
 | Part 91 | [`microsoft-learn-2026-07-part-91.md`](./microsoft-learn-2026-07-part-91.md) | `2026-07-09 to 2026-07-13` | 51 | 10.27 KB | 2,743 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-91.md) |
 | Part 90 | [`microsoft-learn-2026-07-part-90.md`](./microsoft-learn-2026-07-part-90.md) | `2026-07-05 to 2026-07-09` | 47 | 10.15 KB | 2,685 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-90.md) |
 | Part 89 | [`microsoft-learn-2026-07-part-89.md`](./microsoft-learn-2026-07-part-89.md) | `2026-07-02 to 2026-07-05` | 48 | 10.22 KB | 2,730 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-89.md) |
-| Part 88 | [`microsoft-learn-2026-07-part-88.md`](./microsoft-learn-2026-07-part-88.md) | `2026-06-27 to 2026-07-02` | 51 | 10.23 KB | 2,714 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-88.md) |
-| Part 87 | [`microsoft-learn-2026-06-part-87.md`](./microsoft-learn-2026-06-part-87.md) | `2026-06-24 to 2026-06-27` | 51 | 10.26 KB | 2,681 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-87.md) |
-| Part 86 | [`microsoft-learn-2026-06-part-86.md`](./microsoft-learn-2026-06-part-86.md) | `2026-06-20 to 2026-06-24` | 48 | 10.2 KB | 2,652 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-86.md) |
-| Part 85 | [`microsoft-learn-2026-06-part-85.md`](./microsoft-learn-2026-06-part-85.md) | `2026-06-13 to 2026-06-20` | 52 | 10.2 KB | 2,652 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-85.md) |
-| Part 84 | [`microsoft-learn-2026-06-part-84.md`](./microsoft-learn-2026-06-part-84.md) | `2026-06-09 to 2026-06-13` | 52 | 10.27 KB | 2,668 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-84.md) |
-| Part 83 | [`microsoft-learn-2026-06-part-83.md`](./microsoft-learn-2026-06-part-83.md) | `2026-06-06 to 2026-06-09` | 52 | 10.14 KB | 2,729 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-83.md) |
-| Part 82 | [`microsoft-learn-2026-06-part-82.md`](./microsoft-learn-2026-06-part-82.md) | `2026-06-02 to 2026-06-06` | 49 | 10.11 KB | 2,648 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-82.md) |
-| Part 81 | [`microsoft-learn-2026-06-part-81.md`](./microsoft-learn-2026-06-part-81.md) | `2026-05-30 to 2026-06-02` | 50 | 10.08 KB | 2,651 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-81.md) |
-| Part 80 | [`microsoft-learn-2026-05-part-80.md`](./microsoft-learn-2026-05-part-80.md) | `2026-05-25 to 2026-05-30` | 50 | 10.19 KB | 2,632 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-80.md) |
-| Part 79 | [`microsoft-learn-2026-05-part-79.md`](./microsoft-learn-2026-05-part-79.md) | `2026-05-20 to 2026-05-25` | 50 | 10.15 KB | 2,668 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-79.md) |
-| Part 78 | [`microsoft-learn-2026-05-part-78.md`](./microsoft-learn-2026-05-part-78.md) | `2026-05-17 to 2026-05-20` | 50 | 10.08 KB | 2,697 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-78.md) |
+| Part 88 | [`microsoft-learn-2026-07-part-88.md`](./microsoft-learn-2026-07-part-88.md) | `2026-06-27 to 2026-07-02` | 51 | 10.23 KB | 2,718 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-88.md) |
+| Part 87 | [`microsoft-learn-2026-06-part-87.md`](./microsoft-learn-2026-06-part-87.md) | `2026-06-24 to 2026-06-27` | 51 | 10.26 KB | 2,677 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-87.md) |
+| Part 86 | [`microsoft-learn-2026-06-part-86.md`](./microsoft-learn-2026-06-part-86.md) | `2026-06-20 to 2026-06-24` | 47 | 10.04 KB | 2,616 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-86.md) |
+| Part 85 | [`microsoft-learn-2026-06-part-85.md`](./microsoft-learn-2026-06-part-85.md) | `2026-06-13 to 2026-06-20` | 52 | 10.2 KB | 2,650 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-85.md) |
+| Part 84 | [`microsoft-learn-2026-06-part-84.md`](./microsoft-learn-2026-06-part-84.md) | `2026-06-09 to 2026-06-13` | 51 | 10.14 KB | 2,626 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-84.md) |
+| Part 83 | [`microsoft-learn-2026-06-part-83.md`](./microsoft-learn-2026-06-part-83.md) | `2026-06-07 to 2026-06-09` | 53 | 10.2 KB | 2,750 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-83.md) |
+| Part 82 | [`microsoft-learn-2026-06-part-82.md`](./microsoft-learn-2026-06-part-82.md) | `2026-06-02 to 2026-06-06` | 49 | 10.14 KB | 2,659 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-82.md) |
+| Part 81 | [`microsoft-learn-2026-06-part-81.md`](./microsoft-learn-2026-06-part-81.md) | `2026-05-30 to 2026-06-02` | 50 | 10.08 KB | 2,647 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-81.md) |
+| Part 80 | [`microsoft-learn-2026-05-part-80.md`](./microsoft-learn-2026-05-part-80.md) | `2026-05-25 to 2026-05-30` | 50 | 10.2 KB | 2,641 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-80.md) |
+| Part 79 | [`microsoft-learn-2026-05-part-79.md`](./microsoft-learn-2026-05-part-79.md) | `2026-05-20 to 2026-05-25` | 51 | 10.25 KB | 2,693 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-79.md) |
+| Part 78 | [`microsoft-learn-2026-05-part-78.md`](./microsoft-learn-2026-05-part-78.md) | `2026-05-17 to 2026-05-20` | 50 | 10.17 KB | 2,715 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-78.md) |
 | Part 77 | [`microsoft-learn-2026-05-part-77.md`](./microsoft-learn-2026-05-part-77.md) | `2026-05-13 to 2026-05-17` | 50 | 10.16 KB | 2,650 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-77.md) |
 | Part 76 | [`microsoft-learn-2026-05-part-76.md`](./microsoft-learn-2026-05-part-76.md) | `2026-05-08 to 2026-05-13` | 51 | 10.21 KB | 2,745 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-76.md) |
 | Part 75 | [`microsoft-learn-2026-05-part-75.md`](./microsoft-learn-2026-05-part-75.md) | `2026-05-04 to 2026-05-08` | 52 | 10.24 KB | 2,750 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-75.md) |
@@ -76,8 +77,8 @@ This directory provides chunked, AI-readable historical records for microsoft-le
 | Part 52 | [`microsoft-learn-2026-03-part-52.md`](./microsoft-learn-2026-03-part-52.md) | `2026-02-26 to 2026-03-01` | 52 | 10.12 KB | 2,689 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-03-part-52.md) |
 | Part 51 | [`microsoft-learn-2026-02-part-51.md`](./microsoft-learn-2026-02-part-51.md) | `2026-02-25 to 2026-02-26` | 50 | 10.22 KB | 2,666 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-51.md) |
 | Part 50 | [`microsoft-learn-2026-02-part-50.md`](./microsoft-learn-2026-02-part-50.md) | `2026-02-18 to 2026-02-25` | 50 | 10.11 KB | 2,649 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-50.md) |
-| Part 49 | [`microsoft-learn-2026-02-part-49.md`](./microsoft-learn-2026-02-part-49.md) | `2026-02-14 to 2026-02-18` | 48 | 10.22 KB | 2,632 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-49.md) |
-| Part 48 | [`microsoft-learn-2026-02-part-48.md`](./microsoft-learn-2026-02-part-48.md) | `2026-02-13 to 2026-02-14` | 50 | 10.22 KB | 2,637 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-48.md) |
+| Part 49 | [`microsoft-learn-2026-02-part-49.md`](./microsoft-learn-2026-02-part-49.md) | `2026-02-14 to 2026-02-18` | 48 | 10.23 KB | 2,635 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-49.md) |
+| Part 48 | [`microsoft-learn-2026-02-part-48.md`](./microsoft-learn-2026-02-part-48.md) | `2026-02-13 to 2026-02-14` | 50 | 10.21 KB | 2,634 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-48.md) |
 | Part 47 | [`microsoft-learn-2026-02-part-47.md`](./microsoft-learn-2026-02-part-47.md) | `2026-02-12 to 2026-02-13` | 49 | 10.24 KB | 2,657 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-47.md) |
 | Part 46 | [`microsoft-learn-2026-02-part-46.md`](./microsoft-learn-2026-02-part-46.md) | `2026-02-12 to 2026-02-12` | 49 | 10.17 KB | 2,629 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-46.md) |
 | Part 45 | [`microsoft-learn-2026-02-part-45.md`](./microsoft-learn-2026-02-part-45.md) | `2026-02-10 to 2026-02-12` | 51 | 10.26 KB | 2,676 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-45.md) |
@@ -111,14 +112,14 @@ This directory provides chunked, AI-readable historical records for microsoft-le
 | Part 17 | [`microsoft-learn-2025-12-part-17.md`](./microsoft-learn-2025-12-part-17.md) | `2025-12-18 to 2025-12-19` | 53 | 10.16 KB | 2,686 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-17.md) |
 | Part 16 | [`microsoft-learn-2025-12-part-16.md`](./microsoft-learn-2025-12-part-16.md) | `2025-12-16 to 2025-12-18` | 53 | 10.23 KB | 2,721 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-16.md) |
 | Part 15 | [`microsoft-learn-2025-12-part-15.md`](./microsoft-learn-2025-12-part-15.md) | `2025-12-14 to 2025-12-16` | 55 | 10.23 KB | 2,729 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-15.md) |
-| Part 14 | [`microsoft-learn-2025-12-part-14.md`](./microsoft-learn-2025-12-part-14.md) | `2025-12-11 to 2025-12-14` | 52 | 10.25 KB | 2,741 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-14.md) |
-| Part 13 | [`microsoft-learn-2025-12-part-13.md`](./microsoft-learn-2025-12-part-13.md) | `2025-12-10 to 2025-12-11` | 52 | 10.26 KB | 2,690 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-13.md) |
-| Part 12 | [`microsoft-learn-2025-12-part-12.md`](./microsoft-learn-2025-12-part-12.md) | `2025-12-07 to 2025-12-10` | 53 | 10.22 KB | 2,727 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-12.md) |
-| Part 11 | [`microsoft-learn-2025-12-part-11.md`](./microsoft-learn-2025-12-part-11.md) | `2025-12-04 to 2025-12-07` | 51 | 10.16 KB | 2,662 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-11.md) |
-| Part 10 | [`microsoft-learn-2025-12-part-10.md`](./microsoft-learn-2025-12-part-10.md) | `2025-12-01 to 2025-12-04` | 54 | 10.21 KB | 2,723 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-10.md) |
-| Part 09 | [`microsoft-learn-2025-12-part-09.md`](./microsoft-learn-2025-12-part-09.md) | `2025-11-28 to 2025-12-01` | 51 | 10.15 KB | 2,706 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-09.md) |
-| Part 08 | [`microsoft-learn-2025-11-part-08.md`](./microsoft-learn-2025-11-part-08.md) | `2025-11-26 to 2025-11-28` | 50 | 10.11 KB | 2,704 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-11-part-08.md) |
-| Part 07 | [`microsoft-learn-2025-11-part-07.md`](./microsoft-learn-2025-11-part-07.md) | `2025-11-24 to 2025-11-26` | 50 | 10.12 KB | 2,702 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-11-part-07.md) |
+| Part 14 | [`microsoft-learn-2025-12-part-14.md`](./microsoft-learn-2025-12-part-14.md) | `2025-12-11 to 2025-12-14` | 51 | 10.09 KB | 2,698 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-14.md) |
+| Part 13 | [`microsoft-learn-2025-12-part-13.md`](./microsoft-learn-2025-12-part-13.md) | `2025-12-10 to 2025-12-11` | 52 | 10.26 KB | 2,692 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-13.md) |
+| Part 12 | [`microsoft-learn-2025-12-part-12.md`](./microsoft-learn-2025-12-part-12.md) | `2025-12-07 to 2025-12-10` | 52 | 10.13 KB | 2,695 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-12.md) |
+| Part 11 | [`microsoft-learn-2025-12-part-11.md`](./microsoft-learn-2025-12-part-11.md) | `2025-12-04 to 2025-12-07` | 52 | 10.22 KB | 2,692 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-11.md) |
+| Part 10 | [`microsoft-learn-2025-12-part-10.md`](./microsoft-learn-2025-12-part-10.md) | `2025-12-01 to 2025-12-04` | 53 | 10.1 KB | 2,681 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-10.md) |
+| Part 09 | [`microsoft-learn-2025-12-part-09.md`](./microsoft-learn-2025-12-part-09.md) | `2025-11-28 to 2025-12-01` | 52 | 10.27 KB | 2,745 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-09.md) |
+| Part 08 | [`microsoft-learn-2025-11-part-08.md`](./microsoft-learn-2025-11-part-08.md) | `2025-11-26 to 2025-11-28` | 51 | 10.27 KB | 2,746 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-11-part-08.md) |
+| Part 07 | [`microsoft-learn-2025-11-part-07.md`](./microsoft-learn-2025-11-part-07.md) | `2025-11-24 to 2025-11-26` | 50 | 10.13 KB | 2,706 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-11-part-07.md) |
 | Part 06 | [`microsoft-learn-2025-11-part-06.md`](./microsoft-learn-2025-11-part-06.md) | `2025-11-21 to 2025-11-24` | 53 | 10.24 KB | 2,766 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-11-part-06.md) |
 | Part 05 | [`microsoft-learn-2025-11-part-05.md`](./microsoft-learn-2025-11-part-05.md) | `2025-11-19 to 2025-11-21` | 54 | 10.13 KB | 2,743 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-11-part-05.md) |
 | Part 04 | [`microsoft-learn-2025-11-part-04.md`](./microsoft-learn-2025-11-part-04.md) | `2025-11-16 to 2025-11-19` | 50 | 10.12 KB | 2,723 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-11-part-04.md) |

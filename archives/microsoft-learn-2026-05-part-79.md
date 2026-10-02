@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 79 of 96
+chunk_part: 79 of 97
 date_range: 2026-05-20 to 2026-05-25
-total_entries: 50
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-79.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Design and transform analytics data in Microsoft Fabric** | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-transform-analytics-data/) |
 | **Build secure agents for public sector services** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-secure-agents-public-sector-services/) |
 | **Optimize staffing with workforce management in Dynamics 365 Contact Center** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-staffing-workforce-management-contact-center/) |
 | **Troubleshoot device and policy issues using Microsoft Intune** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-intune-devices/) |
@@ -64,7 +65,7 @@ artifacts: archive_complete, archive_index, jsonld
 | **Configure AI-ready infrastructure with Microsoft Foundry** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ai-ready-infrastructure-microsoft-foundry/) |
 | **Leverage quality reporting tools in PowerScribe One** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-leverage-quality-reporting-tools/) |
 | **Configure chat and digital channels in Dynamics 365 Contact Center** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-chat-digital-channels-contact-center/) |
-| **Develop understanding with the Study and Learn Agent in the Microsoft 365 Copilot app** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-understanding-study-learn-agent-copilot-app/) |
+| **Manage and design with AI** | Learningpaths | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-design-ai/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-78.md](./microsoft-learn-2026-05-part-78.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-80.md](./microsoft-learn-2026-05-part-80.md)

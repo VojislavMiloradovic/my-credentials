@@ -15,13 +15,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,089,350
+- **Total Experience Points (XP):** 6,122,775
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,965
-- **Trophies Earned (Profile):** 914
-- **Completed Learning Paths (Active Tracker):** 523
-- **Completed Modules (Active Tracker):** 2,716
-- **Completed Individual Units:** 36,241
+- **Badges Earned (Profile):** 3,990
+- **Trophies Earned (Profile):** 915
+- **Completed Learning Paths (Active Tracker):** 524
+- **Completed Modules (Active Tracker):** 2,741
+- **Completed Individual Units:** 36,470
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25T16:21:33+00:00 | Status: Active)
@@ -32,20 +32,20 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,879 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-09-part-96.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-96.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,905 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-97.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-97.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Automate business processes with workflows and agents in Microsoft Copilot Studio (GitHub Copilot)** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-workflows-agents-github-copilot-copilot-studio/) |
-| **Integrate agents with enterprise systems in Microsoft Copilot Studio (GitHub Copilot)** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-agents-enterprise-systems-github-copilot-copilot-studio/) |
-| **Design integration strategies for agents in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-integration-strategies-agents-github-copilot/) |
-| **Repeat actions with loops in C#** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-repeat-actions-loops/) |
-| **Ground agents in enterprise knowledge in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-agents-enterprise-knowledge-github-copilot/) |
-| **Add human-in-the-loop steps to workflows for Copilot Studio agents** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-human-loop-workflows-copilot-studio/) |
-| **Using AI to develop coaching materials** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/using-ai-to-develop-coaching-materials/) |
-| **AI for Job Coaches in Supported Employment** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-job-coaches-supported-employment/) |
-| **Supported employment values as the foundation for AI use** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/supported-employment-values-foundation-ai-use/) |
-| **Privacy, security, and responsible AI practices** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/privacy-security-responsible-ai-practices/) |
+| **Read and write files in C#** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-read-write-files/) |
+| **Gain visibility into AI workloads with Windows Task Manager** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-workload-visibility/) |
+| **Frontier Firms learning path 2026** | Learningpaths | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/frontier-firms-learning-path-2026/) |
+| **Frontier Firms: Scale AI responsibly and build trust** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/frontier-firms-scale-ai-responsibly-build-trust/) |
+| **Design and manage Active Directory Certificate Services certificate templates** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-manage-certificate-templates/) |
+| **Build your first agent in Microsoft 365 Copilot Chat** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilot-agent/) |
+| **Perform advanced searches in mPower Clinical Analytics** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-perform-advanced-searches/) |
+| **Introduction to Microsoft AI models** | Learningpaths | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-ai/) |
+| **Use a Microsoft AI Code model for AI-assisted coding** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-ai-code/) |
+| **Prepare an enterprise governance strategy for AI agents** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/enterprise-ai-strategy/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

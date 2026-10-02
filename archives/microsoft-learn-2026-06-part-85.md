@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 85 of 96
+chunk_part: 85 of 97
 date_range: 2026-06-13 to 2026-06-20
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-85.md
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Software Composition Analysis** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/) |
 | **Implement Bicep** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-bicep/) |
 | **Integrate with Dataverse and Azure** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dataverse-azure/) |
 | **Integrate Dataverse Azure solutions** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-dataverse-azure-solutions/) |
@@ -66,7 +67,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Propose a solution as a Solution Architect for Microsoft Power Platform and Dynamics 365** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/propose-solution/) |
 | **Architect solutions for Dynamics 365 and Microsoft Power Platform** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/become-solution-architect/) |
 | **Introduction to Zero Trust and best practice frameworks** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-zero-trust-best-practice-frameworks/) |
-| **Introduction to GitHub Packages** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-86.md](./microsoft-learn-2026-06-part-86.md)

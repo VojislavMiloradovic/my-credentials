@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 80 of 96
+chunk_part: 80 of 97
 date_range: 2026-05-25 to 2026-05-30
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-80.md
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Transform development workflows with T-SQL in SQL Server 2025** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sql-server-t-sql-enhancements/) |
 | **Secure, optimize, and deploy database solutions** | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-optimize-deploy-database-solutions/) |
 | **Integrate SQL solutions with Azure services** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sql-solutions-azure-services/) |
 | **Implement SQL solutions by using AI-assisted tools** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/) |
@@ -64,7 +65,6 @@ artifacts: archive_complete, archive_index, jsonld
 | **Extract data with Azure Document Intelligence** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-data-with-document-intelligence/) |
 | **Extract insights from visual data on Azure** | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/insight-visual-data/) |
 | **Design dimensional models for analytics in Microsoft Fabric** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dimensional-models-fabric/) |
-| **Design and transform analytics data in Microsoft Fabric** | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-transform-analytics-data/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-79.md](./microsoft-learn-2026-05-part-79.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-81.md](./microsoft-learn-2026-06-part-81.md)
