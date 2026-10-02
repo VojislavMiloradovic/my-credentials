@@ -272,7 +272,10 @@ def load_existing_local_badges() -> list[dict]:
     For tests: if VALIDATION_DIR module variable is explicitly set to a test path, use it for fallback.
     """
     # In CI, disable fallback entirely to fail fast on API failure
-    if os.getenv("CI") == "true":
+    # BUT allow fallback in test environments (pytest) even in CI
+    in_ci = os.getenv("CI") == "true"
+    in_pytest = "pytest" in sys.modules or os.getenv("PYTEST_CURRENT_TEST") is not None
+    if in_ci and not in_pytest:
         return []
 
     # Only use data/ directory for local fallback (source data, not pipeline output)
@@ -284,11 +287,7 @@ def load_existing_local_badges() -> list[dict]:
     # This allows tests to patch update_credly_badges.VALIDATION_DIR and have fallback work
     import update_credly_badges as _mod
 
-    default_validation_dir = "for_validation"
-    if (
-        hasattr(_mod, "VALIDATION_DIR")
-        and _mod.VALIDATION_DIR != default_validation_dir
-    ):
+    if hasattr(_mod, "VALIDATION_DIR") and _mod.VALIDATION_DIR != "for_validation":
         candidates.insert(0, os.path.join(_mod.VALIDATION_DIR, OUTPUT_FILENAME))
 
     for path in candidates:
