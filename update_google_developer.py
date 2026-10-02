@@ -53,6 +53,16 @@ MARKER_END = "<!-- GOOGLE_DEVELOPER_END -->"
 
 MAX_ALLOWED_DATA_LOSS_PCT = 0.15
 
+# Minimum expected record counts for contamination detection (Fix 3)
+MIN_EXPECTED = {
+    "credly": 100,
+    "google-skills": 50,
+    "microsoft-learn": 1000,
+    "linkedin-certifications": 200,
+    "aws-skills": 100,
+    "google-developer": 200,
+}
+
 SERBIAN_MONTHS = {
     # Latin script (Serbian + English month names)
     "jan": "01",

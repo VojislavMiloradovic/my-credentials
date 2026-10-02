@@ -6,6 +6,7 @@ Encapsulates common pipeline orchestration logic to eliminate duplication across
 import json
 import logging
 import os
+import sys
 from datetime import UTC, datetime
 from typing import Any, ClassVar
 
@@ -331,6 +332,27 @@ class PipelineBase:
 
     def persist_validation(self, records):
         """Persist validated data with layer metadata."""
+        # Fix 3: Contamination detection - fail if record count is suspiciously low
+        # Only run in CI environment (not in local tests or pytest)
+        in_ci = os.getenv("CI") == "true"
+        in_pytest = (
+            "pytest" in sys.modules
+            or os.getenv("PYTEST_CURRENT_TEST") is not None
+            or "PYTEST_VERSION" in os.environ
+        )
+        if in_ci and not in_pytest:
+            # MIN_EXPECTED is defined in child pipeline modules
+            min_expected = getattr(self, "MIN_EXPECTED", {}).get(self.PLATFORM_NAME, 0)
+            if min_expected > 0 and len(records) < min_expected:
+                self.logger.error(
+                    f"[CONTAMINATION] Record count ({len(records)}) below minimum "
+                    f"expected ({min_expected}) for {self.PLATFORM_NAME}. "
+                    f"Possible test data contamination. Aborting persist."
+                )
+                raise RuntimeError(
+                    f"Contamination detected: {len(records)} records < {min_expected} minimum "
+                    f"for {self.PLATFORM_NAME}. Check for test data leakage."
+                )
         os.makedirs(self.VALIDATION_DIR, exist_ok=True)
         validation_file = os.path.join(
             self.VALIDATION_DIR, f"{self.PLATFORM_NAME}.json"

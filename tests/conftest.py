@@ -55,6 +55,17 @@ def freeze_time_now():
         yield frozen
 
 
+@pytest.fixture(autouse=True)
+def set_test_env():
+    """Set environment variable to indicate test mode for contamination detection."""
+    import os
+
+    os.environ["PYTEST_CURRENT_TEST"] = "1"
+    os.environ["PYTEST_VERSION"] = "1"
+    yield
+    # Cleanup not needed as each test runs in isolation
+
+
 @pytest.fixture
 def sample_aws_csv():
     """AWS CSV export fixture with various date formats and edge cases."""

@@ -161,6 +161,16 @@ MAX_ALLOWED_DATA_LOSS_PCT = (
     0.15  # Fail if incoming cert count drops >15% below stored baseline
 )
 
+# Minimum expected record counts for contamination detection (Fix 3)
+MIN_EXPECTED = {
+    "credly": 100,
+    "google-skills": 50,
+    "microsoft-learn": 1000,
+    "linkedin-certifications": 200,
+    "aws-skills": 100,
+    "google-developer": 200,
+}
+
 MONTH_MAP = {
     "jan": "01",
     "feb": "02",
@@ -657,6 +667,27 @@ class LinkedInCertPipeline(PipelineBase):
 
     def persist_validation(self, records: list[dict]) -> None:
         """Persist validated data with LinkedIn-specific fields (ensure ASCII for test compatibility)."""
+        # Fix 3: Contamination detection - fail if record count is suspiciously low
+        # Only run in CI environment (not in local tests or pytest)
+        in_ci = os.getenv("CI") == "true"
+        in_pytest = (
+            "pytest" in sys.modules
+            or os.getenv("PYTEST_CURRENT_TEST") is not None
+            or "PYTEST_VERSION" in os.environ
+        )
+        if in_ci and not in_pytest:
+            min_expected = MIN_EXPECTED.get(self.PLATFORM_NAME, 0)
+            if min_expected > 0 and len(records) < min_expected:
+                self.logger.error(
+                    f"[CONTAMINATION] Record count ({len(records)}) below minimum "
+                    f"expected ({min_expected}) for {self.PLATFORM_NAME}. "
+                    f"Possible test data contamination. Aborting persist."
+                )
+                raise RuntimeError(
+                    f"Contamination detected: {len(records)} records < {min_expected} minimum "
+                    f"for {self.PLATFORM_NAME}. Check for test data leakage."
+                )
+
         os.makedirs(self.VALIDATION_DIR, exist_ok=True)
         validation_file = os.path.join(
             self.VALIDATION_DIR, "linkedin-certifications.json"

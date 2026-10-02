@@ -8,6 +8,7 @@ Refactored to use PipelineBase (Option 2 Migration).
 import json
 import logging
 import os
+import sys
 from datetime import UTC, datetime
 from typing import Any, ClassVar
 
@@ -46,6 +47,16 @@ HEADERS = {
 }
 
 RETIRED_URLS_FILE = "retired_urls.json"
+
+# Minimum expected record counts for contamination detection (Fix 3)
+MIN_EXPECTED = {
+    "credly": 100,
+    "google-skills": 50,
+    "microsoft-learn": 1000,
+    "linkedin-certifications": 200,
+    "aws-skills": 100,
+    "google-developer": 200,
+}
 
 # ==============================================================================
 # PYDANTIC SCHEMAS & VALIDATION PIPELINE
@@ -252,12 +263,34 @@ def parse_credly_badges_from_json(json_path: str) -> list[dict]:
 
 
 def load_existing_local_badges() -> list[dict]:
-    """Loads existing local badges from for_validation directory prior to API fetch."""
+    """Loads existing local badges from data directory prior to API fetch.
+
+    NOTE: Does NOT fall back to for_validation/ directory to prevent CI contamination
+    where stale pipeline output perpetuates corrupted data. In CI (CI=true), fallback
+    is disabled entirely to fail fast on API failure.
+
+    For tests: if VALIDATION_DIR module variable is explicitly set to a test path, use it for fallback.
+    """
+    # In CI, disable fallback entirely to fail fast on API failure
+    if os.getenv("CI") == "true":
+        return []
+
+    # Only use data/ directory for local fallback (source data, not pipeline output)
     candidates = [
-        OUTPUT_FILE,
-        OUTPUT_FILENAME,
         os.path.join("data", OUTPUT_FILENAME),
     ]
+
+    # For tests: if VALIDATION_DIR module variable is explicitly set to a non-default path, use it
+    # This allows tests to patch update_credly_badges.VALIDATION_DIR and have fallback work
+    import update_credly_badges as _mod
+
+    default_validation_dir = "for_validation"
+    if (
+        hasattr(_mod, "VALIDATION_DIR")
+        and _mod.VALIDATION_DIR != default_validation_dir
+    ):
+        candidates.insert(0, os.path.join(_mod.VALIDATION_DIR, OUTPUT_FILENAME))
+
     for path in candidates:
         if os.path.exists(path):
             badges = parse_credly_badges_from_json(path)
@@ -705,6 +738,25 @@ class CredlyPipeline(PipelineBase):
 
     def persist_validation(self, records):
         """Persist validated data with Credly-specific filename."""
+        # Fix 3: Contamination detection - fail if record count is suspiciously low
+        # Only run in CI environment (not in local tests or pytest)
+        in_ci = os.getenv("CI") == "true"
+        in_pytest = (
+            "pytest" in sys.modules or os.getenv("PYTEST_CURRENT_TEST") is not None
+        )
+        if in_ci and not in_pytest:
+            min_expected = MIN_EXPECTED.get(self.PLATFORM_NAME, 0)
+            if min_expected > 0 and len(records) < min_expected:
+                self.logger.error(
+                    f"[CONTAMINATION] Record count ({len(records)}) below minimum "
+                    f"expected ({min_expected}) for {self.PLATFORM_NAME}. "
+                    f"Possible test data contamination. Aborting persist."
+                )
+                raise RuntimeError(
+                    f"Contamination detected: {len(records)} records < {min_expected} minimum "
+                    f"for {self.PLATFORM_NAME}. Check for test data leakage."
+                )
+
         os.makedirs(self.VALIDATION_DIR, exist_ok=True)
         validation_file = self.OUTPUT_FILE
 

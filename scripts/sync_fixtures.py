@@ -1,8 +1,13 @@
 """
 sync_fixtures.py
 ----------------
-Syncs baseline files from for_validation/ to tests/fixtures/ for loss_guard cross-artifact validation tests.
+Syncs BASELINE files from for_validation/ to tests/fixtures/ for loss_guard cross-artifact validation tests.
 Run automatically at the end of each update pipeline.
+
+IMPORTANT: This sync is ONE-WAY: for_validation/ (SOURCE) -> tests/fixtures/ (DEST)
+- SOURCE (for_validation/): Production baselines + full production data
+- DEST (tests/fixtures/): Small, controlled test fixtures for unit/integration tests
+- NEVER copy from tests/fixtures/ -> for_validation/ (would corrupt production data)
 
 NOTE: Does NOT sync main validation files (they contain production data).
 Test fixtures in tests/fixtures/ must remain small, controlled test data.
@@ -13,7 +18,9 @@ from pathlib import Path
 
 # Mapping: platform -> list of (source_file, destination_file)
 # SOURCE = for_validation/ (production baselines, full data)
-# DEST = tests/fixtures/ (test fixtures, small controlled data)
+# DEST = tests/fixtures/ (test fixtures, small controlled test data)
+# Direction: for_validation/ -> tests/fixtures/ (ONE WAY ONLY)
+
 FIXTURE_MAP = {
     "microsoft-learn": [
         (
