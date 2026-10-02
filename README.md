@@ -95,8 +95,8 @@ Showing latest 10 of 404 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 949
-**Total Verified Skills Mapped:** 947
+**Total Portfolio Credentials:** 962
+**Total Verified Skills Mapped:** 960
 
 #### AWS Cloud Quest Summary
 
@@ -111,20 +111,20 @@ Showing latest 10 of 404 credentials. View full dataset via [Platform Archive In
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 949 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-09-part-18.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-18.md)), or [Monolithic File](./archives/aws-skills-complete.md).
+Showing latest 10 of 962 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-10-part-18.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-18.md)), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-09-30 | [AI-DLC Foundations: Planning, Implementation and Measurement](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-30 | [AI-DLC Foundations: Principles](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-30 | [Alerting Best Practices with Amazon Managed Service for Prometheus](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-30 | [Amazon API Gateway - Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-30 | [Amazon Braket Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-30 | [Amazon Connect  Rules and Notification Management](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-30 | [Amazon Connect and Amazon EventBridge Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-30 | [Amazon Connect Chat and Messaging Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-30 | [Amazon Connect Console Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-30 | [Securing DNS with Palo Alto Networks in AWS DNS Firewall](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-02 | [Protect Your Web-facing Workloads with AWS Security Services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-02 | [Quiz - Agentic AI Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-02 | [Quiz - Generative AI Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-02 | [re:Invent 2025 Amazon Connect New Feature Releases](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-02 | [Real-time voice agents with Stream Vision Agents and Amazon Nova 2 Sonic](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-02 | [Restrict access to sensitive documents in your Amazon Quick knowledge bases for Amazon S3](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-02 | [Right Size Your Amazon EC2 Workload](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-02 | [Running ComfyUI workflows on Amazon SageMaker AI processing jobs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-02 | [Running High Performance Applications with Amazon FSx](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-02 | [Salesforce on AWS - From Basics to Business Innovation](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 <!-- AWS_SKILLS_END -->
 
 
