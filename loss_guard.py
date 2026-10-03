@@ -774,6 +774,8 @@ def execute_content_loss_guard(
     thresholds: dict | None = None,
     fail_on_warn: bool = True,  # SET TO False TO DISABLE FAILURES (comment out raise lines)
     stream_id: str | None = None,  # Optional stream identifier for per-stream baselines
+    validation_file: str
+    | None = None,  # Path to validation JSON for auto-retire lookup
 ) -> DiffReport:
     """
     Main entry point: validates incoming records against baseline.
@@ -1166,6 +1168,7 @@ def run_provider_loss_guards(
                 id_field=config.get("id_field", "id"),
                 fail_on_warn=fail_on_warn,
                 stream_id=stream_id,
+                validation_file=json_path,  # Pass the correct validation file path
             )
     else:
         # Single stream (most providers)
@@ -1174,6 +1177,7 @@ def run_provider_loss_guards(
             platform=provider_name,
             id_field=config.get("id_field", "id"),
             fail_on_warn=fail_on_warn,
+            validation_file=json_path,  # Pass the correct validation file path
         )
 
     logger.info(f"[OK] [{provider_name}] All loss guards passed.")
