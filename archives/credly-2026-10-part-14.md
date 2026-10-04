@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 14 of 14
-date_range: 2026-09-30 to 2026-10-03
-total_entries: 16
+date_range: 2026-09-30 to 2026-10-04
+total_entries: 18
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-04 | [Build Smarter AI with Embeddings](https://www.credly.com/badges/3d4cddad-a6f5-4ab6-991c-34d1f9d14b8b/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-10-04 | [Digital Marketing](https://www.credly.com/badges/e0f96371-5798-4e16-8417-405164dabf44/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-03 | [Create and Manage AlloyDB Instances Skill Badge](https://www.credly.com/badges/a205d55c-29a0-4c31-9427-1f7b2fd6aa30/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-03 | [Monitor Environments with Google Cloud Managed Service for Prometheus Skill Badge](https://www.credly.com/badges/0389e5f1-665e-4461-b914-d5a4ea6576b5/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-01 | [Digital Media Buyer](https://www.credly.com/badges/ed43b663-fc70-4494-8902-d27a8d94d7b8/public_url) | Basis Technologies | Credly Verified Badge |

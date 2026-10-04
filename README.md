@@ -135,15 +135,17 @@ Showing latest 10 of 974 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 707
-**Total Verified Skills Mapped:** 2440
+**Total Portfolio Credentials:** 709
+**Total Verified Skills Mapped:** 2453
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 707 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 709 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-04 | [Build Smarter AI with Embeddings](https://www.credly.com/badges/3d4cddad-a6f5-4ab6-991c-34d1f9d14b8b/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-10-04 | [Digital Marketing](https://www.credly.com/badges/e0f96371-5798-4e16-8417-405164dabf44/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-03 | [Create and Manage AlloyDB Instances Skill Badge](https://www.credly.com/badges/a205d55c-29a0-4c31-9427-1f7b2fd6aa30/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-03 | [Monitor Environments with Google Cloud Managed Service for Prometheus Skill Badge](https://www.credly.com/badges/0389e5f1-665e-4461-b914-d5a4ea6576b5/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-01 | [Digital Media Buyer](https://www.credly.com/badges/ed43b663-fc70-4494-8902-d27a8d94d7b8/public_url) | Basis Technologies | Credly Verified Badge |
@@ -152,8 +154,6 @@ Showing latest 10 of 707 credentials. View full dataset via [Platform Archive In
 | 2026-10-01 | [AI Efficiencies and Governance](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-01 | [Basis Automate+](https://www.credly.com/badges/4cca84af-5946-435a-a853-e89ea3c9181b/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-10-01 | [Basis Connect+](https://www.credly.com/badges/5d229e20-bae1-4dee-89b8-3c2b0afbbd7b/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-10-01 | [Basis Reporting](https://www.credly.com/badges/eb14d86e-db4b-4a3f-bfd5-5b672f60e3bd/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-10-01 | [Enterprise AI Business Solutions](https://www.credly.com/badges/8022d661-c083-40c9-9ab7-acd251698a1f/public_url) | IBM SkillsBuild | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
