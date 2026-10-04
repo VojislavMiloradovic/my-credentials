@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Wagtail on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-wagtail |
+| 2026-06-09 | **Connecting to CloudSQL via Private Service Connect (Terraform)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloudsql-psc-terraform |
 | 2026-06-09 | **Track Autofill Behavior with Google Analytics 4** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ga4-autofill-tracking |
 | 2026-06-09 | **Migration from Apache Kafka to Pubsub** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/kafka-to-pubsub |
 | 2026-06-09 | **Using the Vision API with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-vision-api-python |
@@ -42,7 +44,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-09 | **Deploy a basic "Google Translate" app on Python 2 Cloud Run (Docker)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-nebulous-serverless-python-gcr2 |
 | 2026-06-09 | **How to Migrate from Firebase Studio to Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/antigravity/how-to-migrate-from-firebase-studio-to-antigravity |
 | 2026-06-09 | **Fine-tune Open Source LLMs on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/9-ai-finetuning/finetune-open-source-models-gke |
-| 2026-06-09 | **codelabs.developers.google.com/codelabs/currency-agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/currency-agent |
+| 2026-06-09 | **Currency Agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/currency-agent [WARN] *Content retired* |
 | 2026-06-09 | **Route Datadog monitoring alerts to Google Cloud with Eventarc (Part 1)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-route-datadog-eventarc-part-one |
 | 2026-06-09 | **Getting Started with Cloud Shell & gcloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-shell |
 | 2026-06-09 | **Connecting Cloud Spanner with GKE Autopilot** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-gke-autopilot |
@@ -59,8 +61,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-09 | **Pic-a-daily: Lab 1—Store and analyse pictures** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab1 |
 | 2026-06-09 | **Deploy a full stack Angular application to Cloud Run with Cloud SQL for PostgreSQL using the Cloud SQL Node.js Connector** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/cloud-sql-nodejs-connector-angular |
 | 2026-06-09 | **Migrating from Google App Engine Java app to Cloud Run with Docker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-gae-java-migrate-docker |
-| 2026-06-09 | **Deploy a JavaScript application to Cloud Run with AlloyDB** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/alloydb-nodejs |
-| 2026-06-09 | **Spring Boot application with Cloud Spanner** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-spanner |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-24.md](./google-developer-2026-06-part-24.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-26.md](./google-developer-2026-06-part-26.md)

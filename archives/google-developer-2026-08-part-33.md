@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-07 | **Simulating a Thread network with OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-simulation-posix |
 | 2026-08-07 | **Build a Multi-Agent Organic Chemistry Safety & Research Assistant with Antigravity, agents-cli, ADK & MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-parallel-multi-agent-chemistry-assistant |
 | 2026-08-07 | **Build a Thread Network with the ESP32H2 and ESP Thread Border Router Board** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/esp-openthread-hardware |
 | 2026-08-07 | **Build a Thread network with Silicon Labs EFR32 boards and OpenThread using Simplicity Studio v5** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/silabs-openthread-hardware |
@@ -59,7 +60,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-07-07 | **Use MFA, blocking functions, and cross-service Security Rules** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-mfa-security-rules |
 | 2026-07-07 | **Getting Started with Antigravity IDE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/getting-started-agy-ide |
 | 2026-07-07 | **Get started with Google Maps Platform for iOS** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps-ios |
-| 2026-07-07 | **Test your app with Firebase and Continuous Integration** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-continuous-integration |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-07-part-32.md](./google-developer-2026-07-part-32.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md)

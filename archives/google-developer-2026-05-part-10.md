@@ -57,7 +57,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-05-26 | **Getting Started with DNS Armor's Advanced Threat Detection** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dns-armor-getting-started |
 | 2026-05-26 | **Getting started with Spanner Cassandra Adapter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/spanner-cassandra-adapter-getting-started |
 | 2026-05-26 | **MDC-101 Flutter: Material Components Basics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mdc-101-flutter |
-| 2026-05-26 | **codelabs.developers.google.com/codelabs/otel-cloudtrace** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/otel-cloudtrace |
+| 2026-05-26 | **Otel Cloudtrace** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/otel-cloudtrace [WARN] *Content retired* |
 | 2026-05-26 | **Chat App with PaLM API on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/llm-chat-app-flask |
 | 2026-05-26 | **Customizing Machine Learning Models: the easy way** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/customizing-machine-learning-models-the-easy-way |
 | 2026-05-26 | **Recognize text and facial features with ML Kit: Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mlkit-android |

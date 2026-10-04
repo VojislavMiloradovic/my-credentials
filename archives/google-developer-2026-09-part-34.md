@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-09-03 | **Run your first JAX program on NVIDIA GPUs with GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-01-getting-started |
 | 2026-09-03 | **Train a transformer end to end with Flax NNX and Orbax** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-07-transformer-end-to-end |
 | 2026-08-31 | **Looker PSC Southbound access to multiple Cloud SQL PSC instances through proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-looker-cloudsql-southbound-proxy |
 | 2026-08-31 | **Investigate a GKE outage with Antigravity CLI and SRE Extension and build a beautiful Post Mortem** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/investigate-gke-cluster-breakage-scenarios-with-postmortem |
@@ -61,7 +62,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-08-07 | **Six Recipes for Reaching Near-100% Accurate Text-to-SQL in AlloyDB - codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-nla |
 | 2026-08-07 | **Simulate Thread Networks using OTNS** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-network-simulator |
 | 2026-08-07 | **Build a Thread network with nRF52840 boards and OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-hardware |
-| 2026-08-07 | **Simulating a Thread network with OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-simulation-posix |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-08-part-33.md](./google-developer-2026-08-part-33.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-35.md](./google-developer-2026-09-part-35.md)

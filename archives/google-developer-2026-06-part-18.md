@@ -1,7 +1,7 @@
 ---
 archive_platform: google-developer
 chunk_part: 18 of 36
-date_range: 2026-06-05 to 2026-06-05
+date_range: 2026-06-05 to 2026-06-06
 total_entries: 66
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-18.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-06 | **Practice: Compose Basics** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-composables-practice-problems |
 | 2026-06-05 | **Android Basics Compose Unit 8 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 2). |
 | 2026-06-05 | **Engage Users With Firebase** | Official Google Developer platform achievement (Learning Pathway: engage users with firebase). |
 | 2026-06-05 | **GDG Belgrade** | Official Google Developer platform achievement (Community: gdg belgrade). |
@@ -80,7 +81,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-05 | **Jetpack Compose For Android Developers 2** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 2). |
 | 2026-06-05 | **Android Development With Kotlin 11** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 11). |
 | 2026-06-05 | **Earned Badge** | Official Google Developer platform achievement (Learning Pathway: earned badge). |
-| 2026-06-05 | **Location Awareness In Apps** | Official Google Developer platform achievement (Learning Pathway: location_awareness_in_apps). |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-19.md](./google-developer-2026-06-part-19.md)

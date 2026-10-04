@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Exploratory data analysis of Iowa liquor sales using the BigQuery DataFrames package** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-dataframes-iowa-liquor-sales |
 | 2026-06-09 | **How to connect a Node.js application on Cloud Run to a Cloud SQL for PostgreSQL database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-sql-nodejs-connector |
 | 2026-06-09 | **Launching Google Ads Campaigns with Google Analytics Custom Events and Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter_ads |
 | 2026-06-09 | **Specialized Processors with Document AI (Python)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/docai-specialized-processors-python |
@@ -45,7 +46,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-09 | **Informed decision making using Dialogflow CX generators and data stores** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-generator |
 | 2026-06-09 | **Connecting to Cloud SQL with Cloud Functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/connecting-to-cloud-sql-with-cloud-functions |
 | 2026-06-09 | **Deploy a basic "Google Translate" app on Python 2 App Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-nebulous-serverless-python-gae2 |
-| 2026-06-09 | **firebase.google.com/codelabs/firebase-mcp-in-studio** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-mcp-in-studio |
+| 2026-06-09 | **Firebase Mcp In Studio** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-mcp-in-studio [WARN] *Content retired* |
 | 2026-06-09 | **Gesture Navigation and the edge-to-edge experience** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gesture-navigation |
 | 2026-06-09 | **Adding WebView to your Flutter app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter-webview |
 | 2026-06-09 | **Receive an event from Cloud Pub/Sub in SAP using ABAP SDK for Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/abap-sdk/cps-pull-subscriptions |
@@ -61,7 +62,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-09 | **Build a Kotlin Spring Application with Google Cloud Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-cloud-gcp-kotlin |
 | 2026-06-09 | **Using the Translation API with C#** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-translation-csharp |
 | 2026-06-09 | **Build and Deploy an AI-Powered Agent Diet Planner with Streamlit, Gemini Pro, Vertex AI and BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ai-diet-planner |
-| 2026-06-09 | **Generative AI text generation in Java with PaLM and LangChain4J** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/genai-text-gen-java-palm-langchain4j |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-22.md](./google-developer-2026-06-part-22.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-24.md](./google-developer-2026-06-part-24.md)

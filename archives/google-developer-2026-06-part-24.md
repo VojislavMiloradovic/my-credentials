@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 24 of 36
 date_range: 2026-06-09 to 2026-06-09
-total_entries: 46
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-24.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Deploy a JavaScript application to Cloud Run with AlloyDB** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/alloydb-nodejs |
+| 2026-06-09 | **Spring Boot application with Cloud Spanner** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-spanner |
 | 2026-06-09 | **How to deploy a FastAPI chatbot app to Cloud Run using Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-fastapi-chat-app-gemini |
 | 2026-06-09 | **Display the first 100 files & folders in your Google Drive** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gsuite-apis-intro |
 | 2026-06-09 | **Route Datadog monitoring alerts to Google Cloud with Eventarc (Part 2)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-route-datadog-eventarc-part-two |
@@ -49,7 +51,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-09 | **Prepare to grow with tips using Google Analytics for Firebase integrations with Ads** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ga4f-adwords-conversions |
 | 2026-06-09 | **Pic-a-daily: Lab 1—Store and analyze pictures (Native Java)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab1-java-native |
 | 2026-06-09 | **Compute private statistics with PipelineDP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/compute-private-statistics-with-pipelinedp |
-| 2026-06-09 | **firebase.google.com/codelabs/firebase-studio-intro** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-studio-intro |
+| 2026-06-09 | **Firebase Studio Intro** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-studio-intro [WARN] *Content retired* |
 | 2026-06-09 | **Document AI Workbench - Uptraining** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/docai-uptraining |
 | 2026-06-09 | **Getting Started with gRPC-Rust - Streaming** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/getting-started-grpc-rust-streaming |
 | 2026-06-09 | **Connecting to Cloud SQL: Public IP and authorized networks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-sql-connectivity-ips-public |
@@ -60,7 +62,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-09 | **Turn your big data into insights using Google Sheets and Slides** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/bigquery-sheets-slides |
 | 2026-06-09 | **Pic-a-daily: Lab 6—Orchestration with Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab6 |
 | 2026-06-09 | **Cloud Spanner: Your First Database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-first-db |
-| 2026-06-09 | **Exploratory data analysis of Iowa liquor sales using the BigQuery DataFrames package** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-dataframes-iowa-liquor-sales |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-23.md](./google-developer-2026-06-part-23.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-25.md](./google-developer-2026-06-part-25.md)

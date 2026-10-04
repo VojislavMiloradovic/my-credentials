@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-13 | **Vibecode an ADK 2.0 Ambient Agent with Antigravity and Agents CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vibecode-ambient-expense-agent |
 | 2026-06-13 | **Lab 1: Ingest and Govern Logistics Data** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab1 |
 | 2026-06-13 | **Lab 3: Uncovering Lost Cargo with BigQuery Graph and Conversational Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab3 |
 | 2026-06-13 | **Lab 2: Data Analysis & Multimodal Insights** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab2 |
@@ -39,7 +40,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-10 | **Module 11: Migrating from Google App Engine to Cloud Functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-11-functions |
 | 2026-06-10 | **Building Applications in the AI Era** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/building-applications-in-the-ai-era |
 | 2026-06-10 | **Cloud Armor for NLB/VM with User Defined Rules** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ca4nlb-phase2 |
-| 2026-06-10 | **codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-3-datastore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-3-datastore |
+| 2026-06-10 | **Cloud Gae Python Migrate 3 Datastore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-3-datastore [WARN] *Content retired* |
 | 2026-06-10 | **Getting Started with gRPC-Python - Streaming** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/getting-started-grpc-python-streaming |
 | 2026-06-10 | **Migrate from App Engine Memcache to Cloud Memorystore (Module 13)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-13-memorystore |
 | 2026-06-10 | **Build an Interactive Canvas Action for Google Assistant with Actions Builder** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/builder-canvas |
@@ -62,7 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-10 | **Using BigQuery with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-bigquery-python |
 | 2026-06-10 | **Integrate fundamental AI concepts in Google Chat apps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/chat-apps-ai-concepts |
 | 2026-06-10 | **Get Started with Unity and Google Play Games for PC** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/android-google-play-games-unity-quickstart |
-| 2026-06-10 | **Deploy an ASP.NET Core app to App Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-app-engine-aspnetcore |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-26.md](./google-developer-2026-06-part-26.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-28.md](./google-developer-2026-06-part-28.md)

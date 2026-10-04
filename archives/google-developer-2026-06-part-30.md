@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-27 | **Add Firebase to your Flutter app: Advanced** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-flutter-advanced |
+| 2026-06-27 | **Get started with Google Maps Platform for Android** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps-android |
 | 2026-06-27 | **Understand your game's crashes using advanced Crashlytics features** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-advanced-crashlytics-unity-games |
 | 2026-06-27 | **Build apps with Flutter** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/intro-to-flutter |
 | 2026-06-27 | **Build apps for Google Chat** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/google-chat-build-apps |
@@ -25,7 +27,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-27 | **Agent Gateway egress from Agent Runtime to Google MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-egress-gmcp |
 | 2026-06-25 | **Create AI evaluations** | Verified Google Developer learning activity. URL: https://developer.chrome.com/docs/ai/evals |
 | 2026-06-25 | **Implement Material Design with Material Components for Flutter** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/mdc-flutter |
-| 2026-06-25 | **developers.google.com/business-communications/business-messages/trainings/learning-pathways/onboard-location** | Verified Google Developer learning activity. URL: https://developers.google.com/business-communications/business-messages/trainings/learning-pathways/onboard-location |
+| 2026-06-25 | **Onboard Location** | Verified Google Developer learning activity. URL: https://developers.google.com/business-communications/business-messages/trainings/learning-pathways/onboard-location [WARN] *Content retired* |
 | 2026-06-25 | **Streetscape Geometry and Rooftop anchors** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/arcore-buildings-and-rooftops |
 | 2026-06-25 | **Bring Google's Places data into your Android app** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/places-android |
 | 2026-06-25 | **Accelerated Machine Learning with Google Cloud and NVIDIA** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/accelerated-machine-learning-with-google-cloud-and-nvidia |
@@ -60,10 +62,8 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-22 | **Building a gRPC service with C#** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-grpc-csharp |
 | 2026-06-22 | **Create an online banking application with Spanner** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spanner-online-banking-app |
 | 2026-06-22 | **Calculate Revenue Buckets for SKAd Network Conversion Value Schema** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/ios_skancv |
-| 2026-06-22 | **codelabs.developers.google.com/alloydb-omni-vm-deployment** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-vm-deployment [WARN] *Content retired* |
+| 2026-06-22 | **Alloydb Omni Vm Deployment** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-vm-deployment [WARN] *Content retired* |
 | 2026-06-22 | **Data Science with Spark** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/spark-ds-agents |
-| 2026-06-22 | **Building a Serverless Data Pipeline: IoT to Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/iot-data-pipeline |
-| 2026-06-22 | **Add Firebase to your Flutter app** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-flutter |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-29.md](./google-developer-2026-06-part-29.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-31.md](./google-developer-2026-06-part-31.md)

@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-29 | **Implement Material Design in web apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/mdc-web |
+| 2026-06-29 | **Engage your web app's users with push notifications** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/pwa-push-notifications |
 | 2026-06-29 | **Wear OS** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/wear |
 | 2026-06-29 | **Boost your web apps with Fugu APIs** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/fugu-apis |
 | 2026-06-29 | **Go further with object detection** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/go-further-object-detection/go-further-object-detection |
@@ -62,8 +64,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-27 | **Get started with Google Maps Platform quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/get-started-maps/get-started-google-maps-platform |
 | 2026-06-27 | **Develop Java Apps on Google Cloud - Google for Developers** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/java-cloud-fundamentals |
 | 2026-06-27 | **Use Remote Config to update your Unity game without a release** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-remote-config-unity-games |
-| 2026-06-27 | **Add Firebase to your Flutter app: Advanced** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-flutter-advanced |
-| 2026-06-27 | **Get started with Google Maps Platform for Android** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps-android |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-30.md](./google-developer-2026-06-part-30.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-07-part-32.md](./google-developer-2026-07-part-32.md)

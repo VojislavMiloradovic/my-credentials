@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 26 of 36
 date_range: 2026-06-09 to 2026-06-10
-total_entries: 46
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-26.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-10 | **Deploy an ASP.NET Core app to App Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-app-engine-aspnetcore |
 | 2026-06-10 | **Deploy a Micronaut application containerized with Jib to Google Kubernetes Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-micronaut-kubernetes |
 | 2026-06-10 | **Extending support for App Engine bundled services: Part 1 (Module 17)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-17-bundled |
 | 2026-06-10 | **Build apps for Google Chat with Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/chat-apps-gemini |
@@ -33,7 +34,7 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-10 | **Provisioning and Using a Managed Hadoop/Spark Cluster with Cloud Dataproc (Command Line)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-dataproc-gcloud |
 | 2026-06-10 | **Read BigQuery ML predictions in SAP using ABAP SDK for Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/abap-sdk/bigquery-ml |
 | 2026-06-10 | **Getting started with Standalone Components** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/angular-standalone-components |
-| 2026-06-10 | **codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-6-firestore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-6-firestore |
+| 2026-06-10 | **Cloud Gae Python Migrate 6 Firestore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-6-firestore [WARN] *Content retired* |
 | 2026-06-10 | **Using Private Service Connect for Google APIs to Access Gemini over a Hybrid Connection** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-hybridGemini |
 | 2026-06-10 | **Introduction to ARCore Recording and Playback API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/arcore-record-and-playback-intro |
 | 2026-06-10 | **Deploy ASP.NET Core app to Google Kubernetes Engine with Istio (Part 1)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-istio-aspnetcore-part1 |
@@ -59,8 +60,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-09 | **Optical Character Recognition (OCR) with Document AI (Python)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/docai-ocr-python |
 | 2026-06-09 | **Getting Started with Event-driven Cloud Run functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/getting-started-cloud-run-functions-event-driven |
 | 2026-06-09 | **Build Voice Bots for Android with Dialogflow Essentials & Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-flutter |
-| 2026-06-09 | **Wagtail on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-wagtail |
-| 2026-06-09 | **Connecting to CloudSQL via Private Service Connect (Terraform)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloudsql-psc-terraform |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-25.md](./google-developer-2026-06-part-25.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-27.md](./google-developer-2026-06-part-27.md)

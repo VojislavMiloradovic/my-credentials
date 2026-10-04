@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-06 | **Save preferences locally with DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-datastore |
 | 2026-06-06 | **Lesson 7: Activity and fragment lifecycles** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-7/android-development-with-kotlin-7 |
 | 2026-06-06 | **Functions** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-development-kotlin-2.1 |
 | 2026-06-06 | **Build a simple app with text composables** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-text-composables |
@@ -62,7 +63,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-06 | **Build enterprise apps on Android quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-enterprise-build-apps/android-enterprise-build-apps |
 | 2026-06-06 | **Write conditionals in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-conditionals |
 | 2026-06-06 | **Build adaptive apps with Jetpack Compose** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jetpack-compose-adaptability |
-| 2026-06-06 | **Practice: Compose Basics** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-composables-practice-problems |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-18.md](./google-developer-2026-06-part-18.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-20.md](./google-developer-2026-06-part-20.md)

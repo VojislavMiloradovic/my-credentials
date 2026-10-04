@@ -15,6 +15,7 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Get Started Audio Classification** | Official Google Developer platform achievement (Learning Pathway: get started audio classification). |
 | 2026-06-05 | **Learn Privacy** | Official Google Developer platform achievement (Learning Pathway: learn privacy). |
 | 2026-06-05 | **Android Basics Compose Unit 8 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 1). |
 | 2026-06-05 | **App Check** | Official Google Developer platform achievement (Learning Pathway: app_check). |
@@ -75,7 +76,6 @@ artifacts: archive_complete, archive_index, jsonld
 | 2026-06-05 | **Build an Android App with Views** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-app-with-views |
 | 2026-06-05 | **Build your own Current Place picker for Android (Java)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/location-places-android |
 | 2026-06-05 | **Advanced Android in Kotlin 04.1: Android Google Maps** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/advanced-android-kotlin-training-maps |
-| 2026-06-05 | **Module 2: Inspect** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/data-cards-inspect |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-15.md](./google-developer-2026-06-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md)
