@@ -1,17 +1,21 @@
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1723 records.
+This document represents a unified, verifiable list of all 1727 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: archive_complete, archive_index, jsonld -->
 
-<!-- retrieved_at: 2026-10-04T10:35:32.023748+00:00 -->
+<!-- retrieved_at: 2026-10-04T12:04:35.579306+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-10-04 | **Build an IM8 Compliance & Remediation Agent with Antigravity 2.0, ADK, FastMCP, and Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-im8-compliance-agent-mcp |
+| 2026-10-04 | **Engage SDK Codelab** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/engage-sdk-codelab |
+| 2026-10-04 | **Scaling Private Service Connect to 100K+ Connections per Endpoint** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/private-service-connect-100k-connections |
+| 2026-10-04 | **Private Service Connect Interface with DNS** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/psc-interface-dns |
 | 2026-10-01 | **Govern unstructured dark data with Gemini and Knowledge Catalog** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/metadata-as-code-dark-data |
 | 2026-10-01 | **Build Custom Workspace Studio Starter and Action Steps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/workspace-studio-custom-extensions |
 | 2026-10-01 | **Getting Started with MCP & A2A with ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/getting-started-mcp-a2a-adk |
