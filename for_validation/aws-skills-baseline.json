@@ -1,0 +1,32 @@
+{
+  "platform": "aws-skills",
+  "stream_id": null,
+  "record_count": 4,
+  "created_at": "2024-06-15T12:00:00+00:00",
+  "fingerprints": {
+    "aws-001": {
+      "record_id": "aws-001",
+      "content_hash": "a6a02bc34eaa7824e761eeac9b03b60b",
+      "platform": "aws-skills",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "aws-002": {
+      "record_id": "aws-002",
+      "content_hash": "5781a382acf840d1fc8f30cac77d307f",
+      "platform": "aws-skills",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "c753c288f5b4ea02": {
+      "record_id": "c753c288f5b4ea02",
+      "content_hash": "ad6cea2a3276ace2f02c3a7a0d862788",
+      "platform": "aws-skills",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "aws-004": {
+      "record_id": "aws-004",
+      "content_hash": "45d55e978e3647160243a83d43c49fb0",
+      "platform": "aws-skills",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    }
+  }
+}
