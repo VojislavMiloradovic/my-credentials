@@ -27,7 +27,7 @@ on:
         required: false
         type: string
         description: 'JSON array of paths to stage (default: all standard artifacts)'
-        default: '["for_validation/", "archives/", "README.md", "credentials.jsonld", "llms.txt", "llms-full.txt"]'
+        default: '["for_validation/", "archives/", "README.md", "credentials.jsonld", "llms.txt", "llms-full.txt", "validation_reports/"]'
 
 jobs:
   update-credentials:
