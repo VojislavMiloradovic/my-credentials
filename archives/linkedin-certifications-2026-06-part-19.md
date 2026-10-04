@@ -6,7 +6,7 @@ total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-19.md
 layer: L2_published
 transform: 1:1_pass_through
-artifacts: archive_complete, archive_index, jsonld
+artifacts: complete, index
 ---
 
 # LinkedIn Certifications -- Part 19

@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-04T19:28:28.964133+00:00",
+  "timestamp": "2026-10-04T21:34:38.964046+00:00",
   "summary": {
-    "total": 104,
-    "passed": 104,
+    "total": 95,
+    "passed": 95,
     "failed": 0,
     "warnings": 0
   },
@@ -478,30 +478,12 @@
       "severity": "error"
     },
     {
-      "check": "count_consistency_archive_complete_vs_archive_index",
+      "check": "count_consistency_complete_vs_index",
       "platform": "microsoft-learn",
       "passed": true,
       "expected": 4905,
       "actual": 4905,
-      "message": "archive_complete vs archive_index (L2_published, 1:1_pass_through): archive_complete=4905 vs archive_index=4905 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "count_consistency_archive_complete_vs_jsonld",
-      "platform": "microsoft-learn",
-      "passed": true,
-      "expected": 4905,
-      "actual": 4905,
-      "message": "archive_complete vs jsonld (L2_published, 1:1_pass_through): archive_complete=4905 vs jsonld=4905 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "count_consistency_archive_index_vs_jsonld",
-      "platform": "microsoft-learn",
-      "passed": true,
-      "expected": 4905,
-      "actual": 4905,
-      "message": "archive_index vs jsonld (L2_published, 1:1_pass_through): archive_index=4905 vs jsonld=4905 [OK]",
+      "message": "complete vs index (L2_published, 1:1_pass_through): complete=4905 vs index=4905 [OK]",
       "severity": "error"
     },
     {
@@ -559,30 +541,12 @@
       "severity": "warning"
     },
     {
-      "check": "count_consistency_archive_complete_vs_archive_index",
+      "check": "count_consistency_complete_vs_index",
       "platform": "google-skills",
       "passed": true,
       "expected": 406,
       "actual": 406,
-      "message": "archive_complete vs archive_index (L2_published, 1:1_pass_through): archive_complete=406 vs archive_index=406 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "count_consistency_archive_complete_vs_jsonld",
-      "platform": "google-skills",
-      "passed": true,
-      "expected": 406,
-      "actual": 406,
-      "message": "archive_complete vs jsonld (L2_published, 1:1_pass_through): archive_complete=406 vs jsonld=406 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "count_consistency_archive_index_vs_jsonld",
-      "platform": "google-skills",
-      "passed": true,
-      "expected": 406,
-      "actual": 406,
-      "message": "archive_index vs jsonld (L2_published, 1:1_pass_through): archive_index=406 vs jsonld=406 [OK]",
+      "message": "complete vs index (L2_published, 1:1_pass_through): complete=406 vs index=406 [OK]",
       "severity": "error"
     },
     {
@@ -631,30 +595,12 @@
       "severity": "error"
     },
     {
-      "check": "count_consistency_archive_complete_vs_archive_index",
+      "check": "count_consistency_complete_vs_index",
       "platform": "aws-skills",
       "passed": true,
       "expected": 974,
       "actual": 974,
-      "message": "archive_complete vs archive_index (L2_published, 1:1_pass_through): archive_complete=974 vs archive_index=974 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "count_consistency_archive_complete_vs_jsonld",
-      "platform": "aws-skills",
-      "passed": true,
-      "expected": 974,
-      "actual": 974,
-      "message": "archive_complete vs jsonld (L2_published, 1:1_pass_through): archive_complete=974 vs jsonld=974 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "count_consistency_archive_index_vs_jsonld",
-      "platform": "aws-skills",
-      "passed": true,
-      "expected": 974,
-      "actual": 974,
-      "message": "archive_index vs jsonld (L2_published, 1:1_pass_through): archive_index=974 vs jsonld=974 [OK]",
+      "message": "complete vs index (L2_published, 1:1_pass_through): complete=974 vs index=974 [OK]",
       "severity": "error"
     },
     {
@@ -712,30 +658,12 @@
       "severity": "warning"
     },
     {
-      "check": "count_consistency_archive_complete_vs_archive_index",
+      "check": "count_consistency_complete_vs_index",
       "platform": "credly",
       "passed": true,
       "expected": 711,
       "actual": 711,
-      "message": "archive_complete vs archive_index (L2_published, 1:1_pass_through): archive_complete=711 vs archive_index=711 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "count_consistency_archive_complete_vs_jsonld",
-      "platform": "credly",
-      "passed": true,
-      "expected": 711,
-      "actual": 711,
-      "message": "archive_complete vs jsonld (L2_published, 1:1_pass_through): archive_complete=711 vs jsonld=711 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "count_consistency_archive_index_vs_jsonld",
-      "platform": "credly",
-      "passed": true,
-      "expected": 711,
-      "actual": 711,
-      "message": "archive_index vs jsonld (L2_published, 1:1_pass_through): archive_index=711 vs jsonld=711 [OK]",
+      "message": "complete vs index (L2_published, 1:1_pass_through): complete=711 vs index=711 [OK]",
       "severity": "error"
     },
     {
@@ -784,30 +712,12 @@
       "severity": "error"
     },
     {
-      "check": "count_consistency_archive_complete_vs_archive_index",
+      "check": "count_consistency_complete_vs_index",
       "platform": "linkedin-certifications",
       "passed": true,
       "expected": 1787,
       "actual": 1787,
-      "message": "archive_complete vs archive_index (L2_published, 1:1_pass_through): archive_complete=1787 vs archive_index=1787 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "count_consistency_archive_complete_vs_jsonld",
-      "platform": "linkedin-certifications",
-      "passed": true,
-      "expected": 1787,
-      "actual": 1787,
-      "message": "archive_complete vs jsonld (L2_published, 1:1_pass_through): archive_complete=1787 vs jsonld=1787 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "count_consistency_archive_index_vs_jsonld",
-      "platform": "linkedin-certifications",
-      "passed": true,
-      "expected": 1787,
-      "actual": 1787,
-      "message": "archive_index vs jsonld (L2_published, 1:1_pass_through): archive_index=1787 vs jsonld=1787 [OK]",
+      "message": "complete vs index (L2_published, 1:1_pass_through): complete=1787 vs index=1787 [OK]",
       "severity": "error"
     },
     {
@@ -865,12 +775,30 @@
       "severity": "warning"
     },
     {
-      "check": "count_consistency_archive_complete_vs_jsonld",
+      "check": "count_consistency_readme_vs_llms_txt",
       "platform": "google-developer",
       "passed": true,
-      "expected": 1727,
-      "actual": 1727,
-      "message": "archive_complete vs jsonld (L2_published, combine_streams): archive_complete=1727 vs jsonld=1727 [OK]",
+      "expected": 172,
+      "actual": 172,
+      "message": "readme vs llms_txt (L3_display, count_streams_separately): readme=172 vs llms_txt=172 [OK]",
+      "severity": "error"
+    },
+    {
+      "check": "count_consistency_readme_vs_index",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": 172,
+      "actual": 172,
+      "message": "readme vs index (L3_display, count_streams_separately): readme=172 vs index=172 [OK]",
+      "severity": "error"
+    },
+    {
+      "check": "count_consistency_llms_txt_vs_index",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": 172,
+      "actual": 172,
+      "message": "llms_txt vs index (L3_display, count_streams_separately): llms_txt=172 vs index=172 [OK]",
       "severity": "error"
     },
     {
@@ -892,30 +820,21 @@
       "severity": "error"
     },
     {
-      "check": "declared_transform_L1_normalized_to_L2_published:archive_complete",
+      "check": "declared_transform_L1_normalized_to_L2_published:complete",
       "platform": "google-developer",
       "passed": true,
       "expected": "1727 (transform: combine_streams)",
       "actual": 1727,
-      "message": "Declared transform L1_normalized -> L2_published:archive_complete (combine_streams): 1727 -> 1727 [OK]",
+      "message": "Declared transform L1_normalized -> L2_published:complete (combine_streams): 1727 -> 1727 [OK]",
       "severity": "error"
     },
     {
-      "check": "declared_transform_L1_normalized_to_L2_published:archive_index",
+      "check": "declared_transform_L1_normalized_to_L2_published:index",
       "platform": "google-developer",
       "passed": true,
       "expected": "1727 (transform: split_streams)",
       "actual": 1727,
-      "message": "Declared transform L1_normalized -> L2_published:archive_index (split_streams): 1727 -> 1727 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "declared_transform_L1_normalized_to_L2_published:jsonld",
-      "platform": "google-developer",
-      "passed": true,
-      "expected": "1727 (transform: combine_streams)",
-      "actual": 1727,
-      "message": "Declared transform L1_normalized -> L2_published:jsonld (combine_streams): 1727 -> 1727 [OK]",
+      "message": "Declared transform L1_normalized -> L2_published:index (split_streams): 1727 -> 1727 [OK]",
       "severity": "error"
     },
     {
