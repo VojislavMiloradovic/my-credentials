@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Skills Credentials
 chunk_part: 9 of 9
-date_range: 2026-09-08 to 2026-10-01
-total_entries: 15
+date_range: 2026-09-08 to 2026-10-03
+total_entries: 17
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-10-part-09.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,8 @@ artifacts: archive_complete, archive_index, jsonld
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-03 | [Create and Manage AlloyDB Instances](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28632451) | Google Cloud | Google Skill Badge |
+| 2026-10-03 | [Monitor Environments with Google Cloud Managed Service for Prometheus](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28632120) | Google Cloud | Google Skill Badge |
 | 2026-10-01 | [Google Cloud VMware Engine Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789) | Google Cloud | Google Skill Badge |
 | 2026-10-01 | [Store, Process, and Manage Data on Google Cloud - Command Line](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28586313) | Google Cloud | Google Skill Badge |
 | 2026-09-28 | [Migrate your VPC Firewall Policies to Cloud NGFW](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28470543) | Google Cloud | Google Skill Badge |
