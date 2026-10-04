@@ -403,8 +403,71 @@ def execute_data_loss_guard(new_badges: list[dict]) -> None:
 # ==============================================================================
 
 
+def is_url_like_title(title: str) -> bool:
+    """Check if a title looks like a raw URL/path instead of human-readable text."""
+    if not title or len(title) < 10:
+        return False
+    # Check for common URL patterns
+    url_indicators = [
+        "codelabs.developers.google.com/",
+        "firebase.google.com/codelabs/",
+        "developers.google.com/",
+        "firebase.google.com/",
+        "cloud.google.com/",
+        "developer.android.com/",
+        "codelabs.developers.google.com",
+        "firebase.google.com",
+        "developers.google.com",
+    ]
+    title_lower = title.lower()
+    return any(indicator in title_lower for indicator in url_indicators)
+
+
+def extract_title_from_url(url: str) -> str:
+    """Extract human-readable title from URL by using the slug/path component."""
+    try:
+        from urllib.parse import unquote, urlparse
+
+        parsed = urlparse(url)
+        # Get the path component, remove query/fragment
+        path = parsed.path
+        if not path:
+            return url
+        # Get the last path component (slug)
+        slug = path.strip("/").split("/")[-1]
+        if not slug:
+            # Try parent path
+            parts = [p for p in path.strip("/").split("/") if p]
+            slug = parts[-1] if parts else url
+        # Decode URL encoding
+        slug = unquote(slug)
+        # Convert slug to title case: replace hyphens/underscores with spaces, title case
+        title = slug.replace("-", " ").replace("_", " ").title()
+        # Fix common acronyms
+        title = title.replace("Gdg", "GDG").replace("Gcp", "GCP").replace("Aws", "AWS")
+        title = title.replace("Ai", "AI").replace("Ml", "ML").replace("Api", "API")
+        title = title.replace("Ui", "UI").replace("Cli", "CLI").replace("Sdk", "SDK")
+        title = title.replace("Http", "HTTP").replace("Https", "HTTPS")
+        title = (
+            title.replace("Sql", "SQL").replace("Rest", "REST").replace("Grpc", "gRPC")
+        )
+        title = title.replace("Tls", "TLS").replace("Ssl", "SSL").replace("Jwt", "JWT")
+        title = (
+            title.replace("Oauth", "OAuth")
+            .replace("Oidc", "OIDC")
+            .replace("Saml", "SAML")
+        )
+        title = title.replace("Gpu", "GPU").replace("Cpu", "CPU").replace("Ram", "RAM")
+        title = title.replace("Sso", "SSO").replace("Mfa", "MFA").replace("Tfa", "2FA")
+        title = (
+            title.replace("Crud", "CRUD").replace("OrM", "ORM").replace("E2e", "E2E")
+        )
+        return title
+    except Exception:
+        return url
+
+
 def parse_local_learnings_txt() -> list[dict]:
-    """Parses local Serbian text file of detailed learning activity codelabs."""
     if not os.path.exists(LEARNINGS_TXT_PATH):
         logging.getLogger("gdev_updater").info(
             f"[FILE] Local activity file '{LEARNINGS_TXT_PATH}' not found. Skipping local parsing."
@@ -516,6 +579,10 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
 
                     title = fix_mojibake(link.get_text(strip=True))
                     url = link["href"]
+
+                    # Fix: If title looks like a raw URL/path, extract human-readable title from URL
+                    if is_url_like_title(title):
+                        title = extract_title_from_url(url)
 
                     # Find the date in the <p> tag
                     date_p = event.find("p")
