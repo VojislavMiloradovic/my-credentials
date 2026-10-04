@@ -6,7 +6,7 @@ total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-04-part-01.md
 layer: L2_published
 transform: 1:1_pass_through
-artifacts: archive_complete, archive_index, jsonld
+artifacts: complete, index
 ---
 
 # Credly Verified Credentials -- Part 01

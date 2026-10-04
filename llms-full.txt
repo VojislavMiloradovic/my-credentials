@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-10-04 21:37 UTC
+> **Last Generated:** 2026-10-04 21:43 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -143,25 +143,25 @@ Showing latest 10 of 974 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 711
-**Total Verified Skills Mapped:** 2483
+**Total Portfolio Credentials:** 717
+**Total Verified Skills Mapped:** 2558
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 711 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 717 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-04 | [Account Executive](https://www.credly.com/badges/bf5a7533-622c-47c4-af61-137588647308/public_url) | Demandbase | Credly Verified Badge |
 | 2026-10-04 | [Build Smarter AI with Embeddings](https://www.credly.com/badges/3d4cddad-a6f5-4ab6-991c-34d1f9d14b8b/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-10-04 | [Demandbase AI Practitioner](https://www.credly.com/badges/85a7839b-2953-4354-b567-705f1ae27ff6/public_url) | Demandbase | Credly Verified Badge |
+| 2026-10-04 | [Demandbase Pipeline Influence Practitioner](https://www.credly.com/badges/b24ad3b4-ed91-4024-b658-89b5dcc0dfc6/public_url) | Demandbase | Credly Verified Badge |
 | 2026-10-04 | [Digital Advertising Manager](https://www.credly.com/badges/33f65638-e4d7-43d1-905c-13c9b7e60ae7/public_url) | Demandbase | Credly Verified Badge |
 | 2026-10-04 | [Digital Marketing](https://www.credly.com/badges/e0f96371-5798-4e16-8417-405164dabf44/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-04 | [Digital Marketing Manager](https://www.credly.com/badges/a1013828-b7d8-48ae-90b6-ac121fd5d6c7/public_url) | Demandbase | Credly Verified Badge |
-| 2026-10-03 | [Create and Manage AlloyDB Instances Skill Badge](https://www.credly.com/badges/a205d55c-29a0-4c31-9427-1f7b2fd6aa30/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-10-03 | [Monitor Environments with Google Cloud Managed Service for Prometheus Skill Badge](https://www.credly.com/badges/0389e5f1-665e-4461-b914-d5a4ea6576b5/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-10-01 | [Digital Media Buyer](https://www.credly.com/badges/ed43b663-fc70-4494-8902-d27a8d94d7b8/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-10-01 | [Programmatic](https://www.credly.com/badges/a845f138-3606-4581-8020-b07a581eac19/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-10-01 | [Unify by Basis](https://www.credly.com/badges/6a5a5d48-9544-4ed3-b3bd-69e76fa55459/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-10-01 | [AI Efficiencies and Governance](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-10-04 | [Marketing Operations / IT Administrator](https://www.credly.com/badges/1717299e-6bb7-461f-917f-76379e7b4810/public_url) | Demandbase | Credly Verified Badge |
+| 2026-10-04 | [Sales Development Representative](https://www.credly.com/badges/5792a4dd-2ad0-4ed7-9861-a4ccc6c679a9/public_url) | Demandbase | Credly Verified Badge |
+| 2026-10-04 | [Sales Manager](https://www.credly.com/badges/03038709-b6c2-440d-9334-0a13548b7fa1/public_url) | Demandbase | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
@@ -5232,22 +5232,28 @@ This document represents a unified, verifiable list of all 1787 records.
 
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 711 records.
+This document represents a unified, verifiable list of all 717 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
-<!-- artifacts: archive_complete, archive_index, jsonld -->
+<!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-04T19:28:25.197054+00:00 -->
+<!-- retrieved_at: 2026-10-04T21:43:42.474754+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-04 | [Account Executive](https://www.credly.com/badges/bf5a7533-622c-47c4-af61-137588647308/public_url) | Demandbase | Credly Verified Badge |
 | 2026-10-04 | [Build Smarter AI with Embeddings](https://www.credly.com/badges/3d4cddad-a6f5-4ab6-991c-34d1f9d14b8b/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-10-04 | [Demandbase AI Practitioner](https://www.credly.com/badges/85a7839b-2953-4354-b567-705f1ae27ff6/public_url) | Demandbase | Credly Verified Badge |
+| 2026-10-04 | [Demandbase Pipeline Influence Practitioner](https://www.credly.com/badges/b24ad3b4-ed91-4024-b658-89b5dcc0dfc6/public_url) | Demandbase | Credly Verified Badge |
 | 2026-10-04 | [Digital Advertising Manager](https://www.credly.com/badges/33f65638-e4d7-43d1-905c-13c9b7e60ae7/public_url) | Demandbase | Credly Verified Badge |
 | 2026-10-04 | [Digital Marketing](https://www.credly.com/badges/e0f96371-5798-4e16-8417-405164dabf44/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-04 | [Digital Marketing Manager](https://www.credly.com/badges/a1013828-b7d8-48ae-90b6-ac121fd5d6c7/public_url) | Demandbase | Credly Verified Badge |
+| 2026-10-04 | [Marketing Operations / IT Administrator](https://www.credly.com/badges/1717299e-6bb7-461f-917f-76379e7b4810/public_url) | Demandbase | Credly Verified Badge |
+| 2026-10-04 | [Sales Development Representative](https://www.credly.com/badges/5792a4dd-2ad0-4ed7-9861-a4ccc6c679a9/public_url) | Demandbase | Credly Verified Badge |
+| 2026-10-04 | [Sales Manager](https://www.credly.com/badges/03038709-b6c2-440d-9334-0a13548b7fa1/public_url) | Demandbase | Credly Verified Badge |
 | 2026-10-03 | [Create and Manage AlloyDB Instances Skill Badge](https://www.credly.com/badges/a205d55c-29a0-4c31-9427-1f7b2fd6aa30/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-03 | [Monitor Environments with Google Cloud Managed Service for Prometheus Skill Badge](https://www.credly.com/badges/0389e5f1-665e-4461-b914-d5a4ea6576b5/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-01 | [Digital Media Buyer](https://www.credly.com/badges/ed43b663-fc70-4494-8902-d27a8d94d7b8/public_url) | Basis Technologies | Credly Verified Badge |
