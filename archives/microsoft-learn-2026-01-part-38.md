@@ -6,7 +6,7 @@ total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-38.md
 layer: L2_published
 transform: 1:1_pass_through
-artifacts: archive_complete, archive_index, jsonld
+artifacts: complete, index
 ---
 
 # microsoft-learn -- Part 38

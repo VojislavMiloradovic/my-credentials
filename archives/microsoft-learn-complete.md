@@ -4,9 +4,9 @@ This document represents a unified, verifiable list of all 4905 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
-<!-- artifacts: archive_complete, archive_index, jsonld -->
+<!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-04T19:11:28.996170+00:00 -->
+<!-- retrieved_at: 2026-10-04T21:28:19.549471+00:00 -->
 
 ## Verified Records Archive
 
