@@ -544,14 +544,49 @@ def auto_retire_removed_items(
                 if key in val_data and isinstance(val_data[key], list):
                     all_records.extend(val_data[key])
 
-            # Build lookup by record ID (using same extraction logic as fingerprint)
+            # Build lookup by URL (stable identifier) instead of ID (which may change)
+            # Also build lookup by ID for backward compatibility
+            records_by_url = {}
+            records_by_id = {}
             config = PROVIDER_CONFIG.get(platform, {})
             id_field = config.get("id_field", "id")
 
             for record in all_records:
+                record_url = record.get("url")
+                if record_url:
+                    records_by_url[record_url] = record
                 record_id = extract_record_id(record, id_field, platform)
-                if record_id in removed_ids:
-                    removed_records[record_id] = record
+                if record_id:
+                    records_by_id[record_id] = record
+
+            # Match removed_ids by looking up their URL in baseline_index, then finding in validation
+            if baseline_index:
+                for removed_id in removed_ids:
+                    # Get URL from baseline fingerprint
+                    fp = baseline_index.get(removed_id)
+                    if fp and fp.url:
+                        if fp.url in records_by_url:
+                            removed_records[removed_id] = records_by_url[fp.url]
+                        elif removed_id in records_by_id:
+                            # Fallback: match by ID (for backward compatibility)
+                            removed_records[removed_id] = records_by_id[removed_id]
+                        else:
+                            logger.debug(
+                                f"  [{platform}] Could not find record for removed_id={removed_id} (URL: {fp.url}) in validation file"
+                            )
+                    else:
+                        # Fallback: try direct ID match
+                        if removed_id in records_by_id:
+                            removed_records[removed_id] = records_by_id[removed_id]
+                        else:
+                            logger.debug(
+                                f"  [{platform}] No baseline fingerprint for removed_id={removed_id}"
+                            )
+            else:
+                # Fallback: direct ID match if no baseline_index
+                for removed_id in removed_ids:
+                    if removed_id in records_by_id:
+                        removed_records[removed_id] = records_by_id[removed_id]
         except (json.JSONDecodeError, OSError, TypeError) as e:
             logger.warning(
                 f"  [{platform}] Could not load validation file for auto-retire: {e}"

@@ -69,6 +69,110 @@
       "reason": "Auto-retired: removed from source data on 2026-09-15",
       "retired_at": "2026-09-15",
       "title": "Data Engineering"
+    },
+    {
+      "id": "https://codelabs.developers.google.com/agw-cuj-arun-manual-multiproject",
+      "match_type": "url",
+      "url": "https://codelabs.developers.google.com/agw-cuj-arun-manual-multiproject",
+      "reason": "Auto-retired: removed from source data on 2026-10-04",
+      "retired_at": "2026-10-04",
+      "title": "Agw Cuj Arun Manual Multiproject"
+    },
+    {
+      "id": "https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-3-datastore",
+      "match_type": "url",
+      "url": "https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-3-datastore",
+      "reason": "Auto-retired: removed from source data on 2026-10-04",
+      "retired_at": "2026-10-04",
+      "title": "Cloud Gae Python Migrate 3 Datastore"
+    },
+    {
+      "id": "https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-6-firestore",
+      "match_type": "url",
+      "url": "https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-6-firestore",
+      "reason": "Auto-retired: removed from source data on 2026-10-04",
+      "retired_at": "2026-10-04",
+      "title": "Cloud Gae Python Migrate 6 Firestore"
+    },
+    {
+      "id": "https://codelabs.developers.google.com/codelabs/cloud-spring-datastore",
+      "match_type": "url",
+      "url": "https://codelabs.developers.google.com/codelabs/cloud-spring-datastore",
+      "reason": "Auto-retired: removed from source data on 2026-10-04",
+      "retired_at": "2026-10-04",
+      "title": "Cloud Spring Datastore"
+    },
+    {
+      "id": "https://codelabs.developers.google.com/codelabs/currency-agent",
+      "match_type": "url",
+      "url": "https://codelabs.developers.google.com/codelabs/currency-agent",
+      "reason": "Auto-retired: removed from source data on 2026-10-04",
+      "retired_at": "2026-10-04",
+      "title": "Currency Agent"
+    },
+    {
+      "id": "https://codelabs.developers.google.com/codelabs/otel-cloudtrace",
+      "match_type": "url",
+      "url": "https://codelabs.developers.google.com/codelabs/otel-cloudtrace",
+      "reason": "Auto-retired: removed from source data on 2026-10-04",
+      "retired_at": "2026-10-04",
+      "title": "Otel Cloudtrace"
+    },
+    {
+      "id": "https://codelabs.developers.google.com/devsite/codelabs/en/fe-track-planner-mcp-toolbox-adk",
+      "match_type": "url",
+      "url": "https://codelabs.developers.google.com/devsite/codelabs/en/fe-track-planner-mcp-toolbox-adk",
+      "reason": "Auto-retired: removed from source data on 2026-10-04",
+      "retired_at": "2026-10-04",
+      "title": "Fe Track Planner Mcp Toolbox Adk"
+    },
+    {
+      "id": "https://codelabs.developers.google.com/vertex-mlmd-pipelines",
+      "match_type": "url",
+      "url": "https://codelabs.developers.google.com/vertex-mlmd-pipelines",
+      "reason": "Auto-retired: removed from source data on 2026-10-04",
+      "retired_at": "2026-10-04",
+      "title": "Vertex Mlmd Pipelines"
+    },
+    {
+      "id": "https://developers.google.com/business-communications/business-messages/quizzes/onboard-location",
+      "match_type": "url",
+      "url": "https://developers.google.com/business-communications/business-messages/quizzes/onboard-location",
+      "reason": "Auto-retired: removed from source data on 2026-10-04",
+      "retired_at": "2026-10-04",
+      "title": "Onboard Location"
+    },
+    {
+      "id": "https://developers.google.com/business-communications/business-messages/trainings/learning-pathways/onboard-location",
+      "match_type": "url",
+      "url": "https://developers.google.com/business-communications/business-messages/trainings/learning-pathways/onboard-location",
+      "reason": "Auto-retired: removed from source data on 2026-10-04",
+      "retired_at": "2026-10-04",
+      "title": "Onboard Location"
+    },
+    {
+      "id": "https://firebase.google.com/codelabs/firebase-mcp-in-studio",
+      "match_type": "url",
+      "url": "https://firebase.google.com/codelabs/firebase-mcp-in-studio",
+      "reason": "Auto-retired: removed from source data on 2026-10-04",
+      "retired_at": "2026-10-04",
+      "title": "Firebase Mcp In Studio"
+    },
+    {
+      "id": "https://firebase.google.com/codelabs/firebase-studio-intro",
+      "match_type": "url",
+      "url": "https://firebase.google.com/codelabs/firebase-studio-intro",
+      "reason": "Auto-retired: removed from source data on 2026-10-04",
+      "retired_at": "2026-10-04",
+      "title": "Firebase Studio Intro"
+    },
+    {
+      "id": "https://firebase.google.com/codelabs/gemini-api-extensions-web",
+      "match_type": "url",
+      "url": "https://firebase.google.com/codelabs/gemini-api-extensions-web",
+      "reason": "Auto-retired: removed from source data on 2026-10-04",
+      "retired_at": "2026-10-04",
+      "title": "Gemini Api Extensions Web"
     }
   ],
   "test-platform": [
