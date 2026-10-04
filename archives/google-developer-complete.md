@@ -4,9 +4,9 @@ This document represents a unified, verifiable list of all 1727 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
-<!-- artifacts: archive_complete, archive_index, jsonld -->
+<!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-04T19:13:21.571997+00:00 -->
+<!-- retrieved_at: 2026-10-04T21:31:02.467338+00:00 -->
 
 ## Verified Records Archive
 

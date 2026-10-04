@@ -6,7 +6,7 @@ total_entries: 22
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-10-part-36.md
 layer: L2_published
 transform: unknown
-artifacts: archive_complete, archive_index, jsonld
+artifacts: complete, index
 ---
 
 # google-developer -- Part 36
