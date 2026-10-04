@@ -102,6 +102,11 @@ jobs:
           TIMESTAMP=$(date +%Y%m%d_%H%M%S)
           uv run python cross_artifact_validator.py --mode strict --report validation_reports/pre_commit_report_${TIMESTAMP}.json
 
+      # Strategy 2: Manifest Validation (Strict Mode) - Pre-commit validation
+      - name: Run Manifest Validation (Strict Mode)
+        run: |
+          uv run python validate_manifest.py
+
       # Validate artifact_paths input
       - name: Validate Artifact Paths
         run: |
