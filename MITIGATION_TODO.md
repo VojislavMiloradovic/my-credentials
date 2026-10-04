@@ -4,9 +4,9 @@
 - [x] **Strategy 6**: Fix Cross-Artifact Validator - Treat missing source snapshots as SKIP/WARN instead of ERROR
 - [x] **Strategy 7**: Fix Fixture Freshness Check - Allow missing files (warn only, don't fail with --fail-on-stale)
 
-## Phase 2: Pre-Commit Validation in Reusable Workflow (IN PROGRESS)
-- [ ] **Strategy 1**: Add Cross-Artifact Validation to reusable-update.yml (pre-commit)
-- [ ] **Strategy 2**: Add Manifest Validation to reusable-update.yml (pre-commit)
+## Phase 2: Pre-Commit Validation in Reusable Workflow ✅ COMPLETE
+- [x] **Strategy 1**: Add Cross-Artifact Validation to reusable-update.yml (pre-commit)
+- [x] **Strategy 2**: Add Manifest Validation to reusable-update.yml (pre-commit)
 - [ ] **Strategy 3**: Add Targeted Pipeline Tests to reusable-update.yml (pre-commit)
 
 ## Phase 3: Enforcement Layer
