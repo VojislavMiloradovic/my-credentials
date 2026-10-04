@@ -16,9 +16,8 @@ platforms:
       transform:
         type: "1:1_pass_through"
       artifacts:
-        - "archive_complete"
-        - "archive_index"
-        - "jsonld"
+        - "complete"
+        - "index"
       description: "Achievements passed through to archives and JSON-LD."
     L3_display:
       source_layer: "L0_raw"
@@ -58,16 +57,13 @@ platforms:
     L2_published:
       source_layer: "L1_normalized"
       transforms:
-        archive_complete:
+        complete:
           type: "combine_streams"
-        archive_index:
+        index:
           type: "split_streams"
-        jsonld:
-          type: "combine_streams"
       artifacts:
-        - "archive_complete"
-        - "archive_index"
-        - "jsonld"
+        - "complete"
+        - "index"
       description: "Archive complete combines both streams; index splits them; JSON-LD combines."
     L3_display:
       source_layer: "L1_normalized"
@@ -79,7 +75,7 @@ platforms:
       artifacts:
         - "readme"
         - "llms_txt"
-        - "archive_index"
+        - "index"
       description: "Display both counts separately in README/llms.txt and index header."
 
   aws-skills:
@@ -97,9 +93,8 @@ platforms:
       transform:
         type: "1:1_pass_through"
       artifacts:
-        - "archive_complete"
-        - "archive_index"
-        - "jsonld"
+        - "complete"
+        - "index"
       description: "All records (active + retired) passed to archives and JSON-LD with retired flags."
     L3_display:
       source_layer: "L1_normalized"
@@ -129,9 +124,8 @@ platforms:
       transform:
         type: "1:1_pass_through"
       artifacts:
-        - "archive_complete"
-        - "archive_index"
-        - "jsonld"
+        - "complete"
+        - "index"
       description: "Badges to archives and JSON-LD."
     L3_display:
       source_layer: "L1_normalized"
@@ -160,9 +154,8 @@ platforms:
       transform:
         type: "1:1_pass_through"
       artifacts:
-        - "archive_complete"
-        - "archive_index"
-        - "jsonld"
+        - "complete"
+        - "index"
       description: "Credentials to archives and JSON-LD."
     L3_display:
       source_layer: "L1_normalized"
@@ -191,9 +184,8 @@ platforms:
       transform:
         type: "1:1_pass_through"
       artifacts:
-        - "archive_complete"
-        - "archive_index"
-        - "jsonld"
+        - "complete"
+        - "index"
       description: "Certifications to archives and JSON-LD."
     L3_display:
       source_layer: "L1_normalized"
