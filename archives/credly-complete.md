@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 717 records.
+This document represents a unified, verifiable list of all 718 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-05T03:31:14.847943+00:00 -->
+<!-- retrieved_at: 2026-10-05T10:07:23.220150+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-05 | [Kong Gateway Foundations](https://www.credly.com/badges/0af05791-af55-4214-b9ee-f2ce15d2a35c/public_url) | Kong | Credly Verified Badge |
 | 2026-10-04 | [Account Executive](https://www.credly.com/badges/bf5a7533-622c-47c4-af61-137588647308/public_url) | Demandbase | Credly Verified Badge |
 | 2026-10-04 | [Build Smarter AI with Embeddings](https://www.credly.com/badges/3d4cddad-a6f5-4ab6-991c-34d1f9d14b8b/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-04 | [Demandbase AI Practitioner](https://www.credly.com/badges/85a7839b-2953-4354-b567-705f1ae27ff6/public_url) | Demandbase | Credly Verified Badge |
