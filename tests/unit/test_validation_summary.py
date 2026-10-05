@@ -16,7 +16,9 @@ def _create_timestamped_report(tmpdir, report_data):
     os.makedirs(reports_dir)
 
     # Use timestamped filename pattern that the new code expects
-    report_path = os.path.join(reports_dir, "cross_artifact_report_20240115_100000.json")
+    report_path = os.path.join(
+        reports_dir, "cross_artifact_report_20240115_100000.json"
+    )
     with open(report_path, "w") as f:
         json.dump(report_data, f)
     return report_path
@@ -106,7 +108,9 @@ class TestValidationSummary:
             os.makedirs(reports_dir)
 
             # Create timestamped filename
-            report_path = os.path.join(reports_dir, "cross_artifact_report_20240115_100000.json")
+            report_path = os.path.join(
+                reports_dir, "cross_artifact_report_20240115_100000.json"
+            )
             with open(report_path, "w") as f:
                 f.write("invalid json {")
 
