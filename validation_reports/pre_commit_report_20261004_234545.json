@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-04T22:26:33.289713+00:00",
+  "timestamp": "2026-10-04T23:45:45.639921+00:00",
   "summary": {
-    "total": 95,
-    "passed": 95,
+    "total": 91,
+    "passed": 91,
     "failed": 0,
     "warnings": 0
   },
@@ -68,14 +68,14 @@
       "latest_record_date_jsonld": "2026-10-04T00:00:00"
     },
     "linkedin-certifications": {
-      "source_records": 1787,
+      "source_records": 0,
       "archive_complete_records": 1787,
       "index_total": 1787,
       "readme_count": 1787,
       "jsonld_count": 1787,
       "llms_txt_count": 1787,
       "llms_full_count": 1,
-      "retired_in_source": 1,
+      "retired_in_source": 0,
       "retired_in_archive": 1,
       "retired_in_jsonld": 1,
       "latest_record_date_source": null,
@@ -133,15 +133,6 @@
       "expected": "> 0",
       "actual": 717,
       "message": "Source snapshot has 717 records (0 retired)",
-      "severity": "warning"
-    },
-    {
-      "check": "source_snapshot_exists",
-      "platform": "linkedin-certifications",
-      "passed": true,
-      "expected": "> 0",
-      "actual": 1787,
-      "message": "Source snapshot has 1787 records (1 retired)",
       "severity": "warning"
     },
     {
@@ -727,33 +718,6 @@
       "expected": 1787,
       "actual": 1787,
       "message": "readme vs llms_txt (L3_display, 1:1_pass_through): readme=1787 vs llms_txt=1787 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "declared_transform_L0_raw_to_L1_normalized",
-      "platform": "linkedin-certifications",
-      "passed": true,
-      "expected": "1787 (transform: 1:1_pass_through)",
-      "actual": 1787,
-      "message": "Declared transform L0_raw -> L1_normalized (1:1_pass_through): 1787 -> 1787 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "declared_transform_L1_normalized_to_L2_published",
-      "platform": "linkedin-certifications",
-      "passed": true,
-      "expected": "1787 (transform: 1:1_pass_through)",
-      "actual": 1787,
-      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 1787 -> 1787 [OK]",
-      "severity": "error"
-    },
-    {
-      "check": "declared_transform_L1_normalized_to_L3_display",
-      "platform": "linkedin-certifications",
-      "passed": true,
-      "expected": "1787 (transform: 1:1_pass_through)",
-      "actual": 1787,
-      "message": "Declared transform L1_normalized -> L3_display (1:1_pass_through): 1787 -> 1787 [OK]",
       "severity": "error"
     },
     {
