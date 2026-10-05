@@ -25,8 +25,8 @@ artifacts: complete, index
 | **Implement Microsoft Defender for Endpoint using Microsoft Intune** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-endpoint-intune/) |
 | **Manage AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-ai-ready-infrastructure/) |
 | **Manage monitoring for AI-Ready Infrastructure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitoring-ai-ready-infrastructure/) |
-| **Apply governance controls to AI-ready workloads** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
 | **Govern AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/govern-ai-ready-infrastructure/) |
+| **Apply governance controls to AI-ready workloads** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
 | **Develop AI solutions with Azure Cosmos DB for NoSQL** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-cosmos-db/) |
 | **Build queries for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-cosmos-db/) |
 | **Optimize query performance for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-azure-cosmos-db/) |
@@ -49,8 +49,8 @@ artifacts: complete, index
 | **Manage application secrets with Azure Key Vault** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-app-secrets-key-vault/) |
 | **Protect Microsoft Foundry solutions by using Microsoft Defender for Cloud** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/defender-for-cloud-ai-foundry-protect/) |
 | **Understand how Microsoft Defender for Cloud supports AI security and governance in Azure** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-for-cloud-ai-understand-protections/) |
-| **Implement security for AI** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-security/) |
 | **Protect AI workloads with Microsoft Defender for Cloud** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-for-cloud-ai-protect-workloads/) |
+| **Implement security for AI** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-security/) |
 | **Configure and manage guardrails in Microsoft Foundry** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-ai-foundry-configure-manage-guardrails/) |
 | **GitHub Enterprise Server fundamentals for developers** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-enterprise-server-repository-workflows/) |
 | **GitHub Enterprise Server fundamentals for developers** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-enterprise-server-developer-fundamentals/) |

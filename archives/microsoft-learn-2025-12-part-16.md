@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Get started with Dynamics 365 Intelligent Order Management** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-intelligent-order-management/) |
 | **Implement inheritance and polymorphism** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-inheritance-polymorphism/) |
 | **Implement class inheritance** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-class-inheritance/) |
 | **Combine external applications for more customized productions with Microsoft 365** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-combine-external-applications-customized-productions/) |
@@ -45,8 +44,8 @@ artifacts: complete, index
 | **Transition your business to Azure** | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-your-business-azure/) |
 | **Dynamics 365 Finance capabilities** | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-finance-core-capabilities/) |
 | **Describe expense tracking, asset control, and budgeting processes in Microsoft Dynamics 365 Finance** | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-expense-management-fixed-asset-management/) |
-| **Create an Azure Storage account** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-storage-account/) |
 | **Azure for Researchers part 1: Introduction to Cloud Computing** | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/researcher-introduction-to-cloud-computing/) |
+| **Create an Azure Storage account** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-storage-account/) |
 | **Load/export data and create data views in Dataverse** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/load-export-data-create-data-views/) |
 | **Describe Dynamics 365 Customer Insights - Data** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-marketing-capabilities-2/) |
 | **Combine multiple tables with JOINs in T-SQL** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-multiple-tables-with-joins/) |
@@ -67,6 +66,7 @@ artifacts: complete, index
 | **Apply Viva Glint’s modern approach to engagement for better results** | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-engagement/) |
 | **Empower action for better results with Viva Glint** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-empower-action-better-results-viva-glint/) |
 | **Edit code using any device with Visual Studio Code for the Web** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/edit-code-using-any-device/) |
+| **AI in Microsoft Teams for Education (Partner Success Series)** | Modules | 2025-12-16 | N/A |
 | **Teams for education partners (Partner Success Series)** | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/teams-education-partners/) |
 
 ---

@@ -15,12 +15,11 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Troubleshoot physical failures on Windows clients** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-physical-failures-windows-clients/) |
 | **MD-100 Troubleshoot hardware and drivers** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-hardware-drivers/) |
 | **Explore physical hardware troubleshooting** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-physical-hardware-troubleshooting/) |
 | **Troubleshoot Windows startup** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-windows-startup/) |
-| **Introduction to AI security testing** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-security-testing/) |
 | **AI security fundamentals** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-security-fundamentals/) |
+| **Introduction to AI security testing** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-security-testing/) |
 | **Fundamentals of AI security** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/fundamentals-ai-security/) |
 | **Define a Microsoft AI strategy to create business value in retail** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-retail/) |
 | **Discover AI for leaders in retail** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-retail/) |
@@ -28,8 +27,8 @@ artifacts: complete, index
 | **Design an IP addressing schema for your Azure deployment** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ip-addressing-for-azure/) |
 | **Uncover new data insights with AI** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/uncover-new-data-insights-ai/) |
 | **Introduction to Azure Machine Learning authentication and authorization** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-machine-learning-auth/) |
-| **Manage the lifecycle of your projects on GitHub** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-project-lifecycle-github/) |
 | **Automate DevOps processes by using GitHub Apps** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-devops-github-apps/) |
+| **Manage the lifecycle of your projects on GitHub** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-project-lifecycle-github/) |
 | **Build community-driven software projects on GitHub** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-community-driven-projects-github/) |
 | **Create an open-source program by using GitHub best practices** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-open-source-program-github/) |
 | **Get started with production control in Dynamics 365 Supply Chain Management** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-production-control-dyn365-supply-chain-mgmt/) |
@@ -44,15 +43,15 @@ artifacts: complete, index
 | **Define a Microsoft AI strategy to create business value in manufacturing** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-manufacturing/) |
 | **Discover AI for leaders in manufacturing** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-manufacturing/) |
 | **Developing in the Windows Subsystem for Linux with Visual Studio Code** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/developing-in-wsl/) |
-| **Work with different technologies in Power Automate for desktop** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-work-different-technologies/) |
 | **Control file and folder handling in Power Automate for desktop** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-files-folders-handling/) |
-| **Exploring basic computer concepts** | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-basic-computer-concepts/) |
+| **Work with different technologies in Power Automate for desktop** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-work-different-technologies/) |
 | **Investigate the history of app development** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/investigate-history-app-development/) |
+| **Exploring basic computer concepts** | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-basic-computer-concepts/) |
 | **Explore computers** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-computers/) |
 | **Discover the basics of computing** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-basics-computing/) |
 | **Explore security** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-security/) |
-| **Purchase Azure savings plan for compute ** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-savings-plan-for-compute/) |
 | **Control Azure spending and manage bills with Microsoft Cost Management + Billing** | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/control-spending-manage-bills/) |
+| **Purchase Azure savings plan for compute ** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-savings-plan-for-compute/) |
 | **Configure and manage costs as a Microsoft partner by using Microsoft Cost Management** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-costs-partner-cost-management/) |
 | **Optimize Azure costs with data analysis in Power BI** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-costs-data-analysis-powerbi/) |
 | **Microsoft Azure Well-Architected Framework - Cost Optimization** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/) |
@@ -65,8 +64,9 @@ artifacts: complete, index
 | **Challenge project - Add image analysis and generation capabilities to your application** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-add-image-analysis-generation-to-app/) |
 | **Manage software delivery by using a release based workflow on GitHub** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/release-based-workflow-github/) |
 | **Govern your hybrid and multicloud machines through Azure Arc-enabled servers** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-azure-arc-enabled-servers/) |
-| **Differentiation in the classroom using the built-in tools in Office 365 and Windows** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/differentiation-classroom-built-in-tools-office-365-windows/) |
 | **The inclusive classroom: Find the correct learning tools to help all students achieve more** | Learningpaths | 2025-12-26 | N/A |
+| **Differentiation in the classroom using the built-in tools in Office 365 and Windows** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/differentiation-classroom-built-in-tools-office-365-windows/) |
+| **Introduction to Dynamics 365 Commerce** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/dynamics-365-commerce-introduction/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-22.md](./microsoft-learn-2025-12-part-22.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-24.md](./microsoft-learn-2025-12-part-24.md)

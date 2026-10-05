@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Configure resources, throughput, and consistency** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-cosmos-db-resources-throughput-consistency/) |
 | **Use standard dashboards in mPower Clinical Analytics** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-use-standard-dashboards/) |
 | **Write reusable code in C#** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-reusable-code/) |
 | **Design a governance and security strategy for Copilot Studio agents** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-governance-security-strategy-copilot-studio/) |
@@ -28,7 +29,6 @@ artifacts: complete, index
 | **Extend agents with tools in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-agents-tools-github-copilot/) |
 | **Implement application lifecycle management for Copilot Studio agents using Power Platform** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-alm-agents-power-platform/) |
 | **Automate business processes with workflows and agents in Microsoft Copilot Studio (GitHub Copilot)** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-workflows-agents-github-copilot-copilot-studio/) |
-| **Integrate agents with enterprise systems in Microsoft Copilot Studio (GitHub Copilot)** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-agents-enterprise-systems-github-copilot-copilot-studio/) |
 | **Design integration strategies for agents in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-integration-strategies-agents-github-copilot/) |
 | **Repeat actions with loops in C#** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-repeat-actions-loops/) |
 | **Ground agents in enterprise knowledge in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-agents-enterprise-knowledge-github-copilot/) |

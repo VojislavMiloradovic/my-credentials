@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 15 of 97
 date_range: 2025-12-14 to 2025-12-16
-total_entries: 55
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-15.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **AI in Microsoft Teams for Education (Partner Success Series)** | Modules | 2025-12-16 | N/A |
 | **Introduction to Azure Site Recovery** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-site-recovery/) |
 | **Explore cybersecurity careers with Minecraft Education-Cyber Defender: Tower Defense** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/cybersecurity-careers-minecraft-education-cyber-defender/) |
 | **Introduction to integration with Dynamics 365 Customer Engagement apps** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-integration-customer-engagement-apps/) |
@@ -24,8 +23,8 @@ artifacts: complete, index
 | **Build your first web app with Blazor** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-blazor-web-app/) |
 | **Build accessible SharePoint sites** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-accessible-sharepoint-sites/) |
 | **Manage apps in Power Apps** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-apps-in-powerapps/) |
-| **Interact, share, and collaborate Power BI dashboards – Online workshop** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-share-power-bi/) |
 | **Dashboard in a Day - Online workshop** | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/dashboard-in-a-day/) |
+| **Interact, share, and collaborate Power BI dashboards – Online workshop** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-share-power-bi/) |
 | **Discover commands in PowerShell** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-commands/) |
 | **Introduction to accessibility** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-accessibility/) |
 | **Generate Power Automate for desktop flows by recording** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-power-automate-desktop-recording-features/) |

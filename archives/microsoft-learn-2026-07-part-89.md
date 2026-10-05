@@ -56,8 +56,8 @@ artifacts: complete, index
 | **Begin your Microsoft Learn for Educators Journey** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/begin-your-microsoft-learn-educators-journey/) |
 | **Troubleshoot Apps and Channels** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-apps-channels/) |
 | **Troubleshoot file sharing** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-file-sharing/) |
-| **Troubleshoot authentication and access control issues in Microsoft Azure** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-authentication-access-control/) |
 | **Azure Support Engineer for Connectivity Specialty** | Learningpaths | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-support-engineer-for-connectivity-specialty/) |
+| **Troubleshoot authentication and access control issues in Microsoft Azure** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-authentication-access-control/) |
 | **Close out a Microsoft Learn for Educators course** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-out-microsoft-learn-educators-course/) |
 | **Troubleshoot issues signing into Microsoft Teams** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-issues-signing-into-microsoft-teams/) |
 | **Troubleshoot Federation Issues** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-federation-issues/) |

@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Build Power Fx functions** | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-fx/) |
 | **Connect an Azure SQL server using an Azure Private Endpoint using the Azure portal** | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-azure-server-private-endpoint-using-azure-portal/) |
 | **MD-101 Manage updates and use analytics** | Learningpaths | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-updates-use-analytics/) |
 | **Explore Endpoint Analytics** | Modules | 2026-03-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-endpoint-analytics/) |
@@ -64,7 +65,6 @@ artifacts: complete, index
 | **Examine Defender for Cloud regulatory compliance standards** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-defender-cloud-regulatory-compliance-standards/) |
 | **Use AutoML in Azure Databricks** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/automl-azure-databricks/) |
 | **Challenge project - Build a declarative agent to chat with your data** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-challenge-chat-with-data/) |
-| **Extend Microsoft 365 Copilot with declarative agents using Visual Studio Code** | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-microsoft-365-declarative-agents-visual-studio-code/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-53.md](./microsoft-learn-2026-03-part-53.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-55.md](./microsoft-learn-2026-03-part-55.md)

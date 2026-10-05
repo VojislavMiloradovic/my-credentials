@@ -15,13 +15,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,122,775
+- **Total Experience Points (XP):** 6,151,975
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 3,990
+- **Badges Earned (Profile):** 4,012
 - **Trophies Earned (Profile):** 915
 - **Completed Learning Paths (Active Tracker):** 524
-- **Completed Modules (Active Tracker):** 2,741
-- **Completed Individual Units:** 36,470
+- **Completed Modules (Active Tracker):** 2,763
+- **Completed Individual Units:** 36,674
 
 ### Verifiable Applied Skills & Credentials
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25T16:21:33+00:00 | Status: Active)
@@ -32,20 +32,20 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,905 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-97.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-97.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,927 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-97.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-97.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Read and write files in C#** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-read-write-files/) |
-| **Gain visibility into AI workloads with Windows Task Manager** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-workload-visibility/) |
-| **Frontier Firms learning path 2026** | Learningpaths | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/frontier-firms-learning-path-2026/) |
-| **Frontier Firms: Scale AI responsibly and build trust** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/frontier-firms-scale-ai-responsibly-build-trust/) |
-| **Design and manage Active Directory Certificate Services certificate templates** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-manage-certificate-templates/) |
-| **Build your first agent in Microsoft 365 Copilot Chat** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilot-agent/) |
-| **Perform advanced searches in mPower Clinical Analytics** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-perform-advanced-searches/) |
-| **Introduction to Microsoft AI models** | Learningpaths | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-ai/) |
-| **Use a Microsoft AI Code model for AI-assisted coding** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-ai-code/) |
-| **Prepare an enterprise governance strategy for AI agents** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/enterprise-ai-strategy/) |
+| **Secure an Azure Cosmos DB solution** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-cosmos-db-nosql/) |
+| **Review quality and follow-up data in mPower Clinical Analytics** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-review-quality-follow-up-data/) |
+| **Monitor and improve agents in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-agents-github-copilot/) |
+| **Evaluate agents in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-agents-github-copilot/) |
+| **Design a responsible AI strategy for agents in Copilot Studio** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-responsible-ai-strategy-copilot-studio/) |
+| **Monitor and troubleshoot Azure Cosmos DB** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-azure-cosmos-db-nosql/) |
+| **Manage Azure Cosmos DB at scale with fleets** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-cosmos-db-fleets/) |
+| **Implement operational analytics with Microsoft Fabric** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-operational-analytics-fabric-azure-cosmos-db/) |
+| **Implement hybrid search and optimize AI retrieval in Azure Cosmos DB for NoSQL** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hybrid-search-optimize-retrieval-azure-cosmos-db-nosql/) |
+| **Implement full-text and vector search in Azure Cosmos DB for NoSQL** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-full-text-vector-search-azure-cosmos-db-nosql/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

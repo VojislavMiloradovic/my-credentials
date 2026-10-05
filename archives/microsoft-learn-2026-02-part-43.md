@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Integrate Power Pages with web-based technologies** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-integration/) |
 | **Migrate SQL Server workloads to Azure SQL** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-sql-workloads-azure/) |
 | **Perform post-migration tasks on Azure SQL** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-post-migration-tasks-azure-sql/) |
 | **Implement a Data Streaming Solution with Azure Stream Analytics** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-data-streaming-with-asa/) |
@@ -25,8 +26,8 @@ artifacts: complete, index
 | **Create and manage teams** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-teams/) |
 | **Configure ledger allocations and accruals in Dynamics 365 Finance** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ledger-allocations-accruals-dyn365-finance/) |
 | **Introduction to Dataverse for developers** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-dataverse-developers/) |
-| **Automate your workflow with GitHub Actions Part 2 of 2** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-actions-2/) |
 | **Create and publish custom GitHub actions** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-custom-github-actions/) |
+| **Automate your workflow with GitHub Actions Part 2 of 2** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-actions-2/) |
 | **Examine Microsoft  Secure Score** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-microsoft-secure-score/) |
 | **Define a Microsoft AI strategy to create business value in finance** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-finance/) |
 | **Discover AI for leaders in finance** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-financial-industry/) |
@@ -42,11 +43,11 @@ artifacts: complete, index
 | **Manage collaboration experiences for chat and channels** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-collaboration-experiences-for-chat-channels/) |
 | **Respond to data loss prevention alerts using Microsoft 365** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/respond-to-data-loss-prevention-alerts-microsoft-365/) |
 | **Visualize real-time data with Azure Stream Analytics and Power BI** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/visualize-real-time-data-azure-stream-analytics-power-bi/) |
-| **Plan an Azure Virtual Desktop implementation** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-azure-virtual-desktop-implementation/) |
 | **Azure Virtual Desktop Architecture** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-desktop-architecture/) |
+| **Plan an Azure Virtual Desktop implementation** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-azure-virtual-desktop-implementation/) |
 | **Manage Windows Servers and workloads in a hybrid environment** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-windows-servers-workloads-hybrid-environment/) |
 | **Perform post-installation configuration of Windows Server** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-post-installation-configuration-of-windows-server/) |
-| **Implement a Data Analytics Solution with Azure Databricks** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-engineer-azure-databricks/) |
+| **Implement a Data Analytics Solution with Azure Databricks** | Learningpaths | 2026-02-09 | N/A |
 | **Build Lakeflow Declarative Pipelines** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-data-pipeline-with-delta-live-tables/) |
 | **Create formulas to change behaviors in a Power Apps canvas app** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/author-basic-formula-change-behaviors-powerapps/) |
 | **Use Monitor to troubleshoot Power Apps** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-to-troubleshoot/) |
@@ -62,12 +63,11 @@ artifacts: complete, index
 | **Create and publish agents with Microsoft Copilot Studio** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-power-virtual-agents/) |
 | **Build effective agents with Microsoft Copilot Studio** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-effective-bots/) |
 | **Explore compliance in Microsoft 365** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-plan-compliance-microsoft-365/) |
-| **GitHub fundamentals - Administration basics and product features Part 2 of 2** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-admin-2/github-admin-2/) |
 | **GitHub administration for enterprise support and adoption** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-administration-for-enterprise-support-adoption/) |
+| **GitHub fundamentals - Administration basics and product features Part 2 of 2** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-admin-2/github-admin-2/) |
 | **Get started with Windows PowerShell** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-windows-powershell/) |
 | **Find commands and Get-Help in Windows PowerShell** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/find-commands-get-help-windows-powershell/) |
 | **MS-102 Manage your security services in Microsoft Defender XDR** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-security-services-microsoft-365-defender/) |
-| **Manage Safe Links** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-safe-links-microsoft-365/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-42.md](./microsoft-learn-2026-02-part-42.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-44.md](./microsoft-learn-2026-02-part-44.md)

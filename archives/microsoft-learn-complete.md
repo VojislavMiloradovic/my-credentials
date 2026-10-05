@@ -1,17 +1,40 @@
 # Complete microsoft-learn Archive
 
-This document represents a unified, verifiable list of all 4905 records.
+This document represents a unified, verifiable list of all 4927 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-05T11:57:32.606347+00:00 -->
+<!-- retrieved_at: 2026-10-05T23:02:42.195014+00:00 -->
 
 ## Verified Records Archive
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Secure an Azure Cosmos DB solution** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-cosmos-db-nosql/) |
+| **Review quality and follow-up data in mPower Clinical Analytics** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-review-quality-follow-up-data/) |
+| **Monitor and improve agents in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-agents-github-copilot/) |
+| **Evaluate agents in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-agents-github-copilot/) |
+| **Design a responsible AI strategy for agents in Copilot Studio** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-responsible-ai-strategy-copilot-studio/) |
+| **Monitor and troubleshoot Azure Cosmos DB** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-azure-cosmos-db-nosql/) |
+| **Manage Azure Cosmos DB at scale with fleets** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-cosmos-db-fleets/) |
+| **Implement operational analytics with Microsoft Fabric** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-operational-analytics-fabric-azure-cosmos-db/) |
+| **Implement hybrid search and optimize AI retrieval in Azure Cosmos DB for NoSQL** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hybrid-search-optimize-retrieval-azure-cosmos-db-nosql/) |
+| **Implement full-text and vector search in Azure Cosmos DB for NoSQL** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-full-text-vector-search-azure-cosmos-db-nosql/) |
+| **Implement AI-assisted development tools for Azure Cosmos DB** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ai-assisted-development-tools-azure-cosmos-db/) |
+| **Design multi-region availability and failover in Azure Cosmos DB** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-region-availability-failover-azure-cosmos-db-nosql/) |
+| **Design and optimize an indexing strategy in Azure Cosmos DB** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-optimize-indexing-strategy-azure-cosmos-db-nosql/) |
+| **Design and implement agent memory stores in Azure Cosmos DB** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-agent-memory-azure-cosmos-db/) |
+| **Configure backup and restore in Azure Cosmos DB** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-backup-restore-azure-cosmos-db-nosql/) |
+| **Build RAG applications with Azure Cosmos DB for NoSQL** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-retrieval-augmented-generation-applications-azure-cosmos-db-nosql/) |
+| **Analyze and tune query and operation performance in Azure Cosmos DB** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-tune-query-performance-azure-cosmos-db-nosql/) |
+| **Integrate agents with enterprise systems in Microsoft Copilot Studio (GitHub Copilot)** | Learningpaths | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-agents-enterprise-systems-github-copilot-copilot-studio/) |
+| **Connect agents to Microsoft IQ in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-agents-microsoft-iq-github-copilot/) |
+| **Design a data modeling and partitioning strategy** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-modeling-partitioning-azure-cosmos-db-nosql/) |
+| **Process the Azure Cosmos DB for NoSQL change feed** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-azure-cosmos-db-nosql-change-feed/) |
+| **Connect agents to MCP servers in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-agents-mcp-servers-github-copilot/) |
+| **Get started with Azure HorizonDB** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-azure-horizondb/) |
 | **Read and write files in C#** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-read-write-files/) |
 | **Gain visibility into AI workloads with Windows Task Manager** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-workload-visibility/) |
 | **Frontier Firms learning path 2026** | Learningpaths | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/frontier-firms-learning-path-2026/) |
@@ -40,7 +63,6 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Extend agents with tools in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-agents-tools-github-copilot/) |
 | **Implement application lifecycle management for Copilot Studio agents using Power Platform** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-alm-agents-power-platform/) |
 | **Automate business processes with workflows and agents in Microsoft Copilot Studio (GitHub Copilot)** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-workflows-agents-github-copilot-copilot-studio/) |
-| **Integrate agents with enterprise systems in Microsoft Copilot Studio (GitHub Copilot)** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-agents-enterprise-systems-github-copilot-copilot-studio/) |
 | **Design integration strategies for agents in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-integration-strategies-agents-github-copilot/) |
 | **Repeat actions with loops in C#** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-repeat-actions-loops/) |
 | **Ground agents in enterprise knowledge in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-agents-enterprise-knowledge-github-copilot/) |
@@ -142,8 +164,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Efficiently investigate data risks with Security Copilot in Microsoft Purview** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-security-copilot/) |
 | **Classify and protect sensitive data with sensitivity labels** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-label-sensitive-data/) |
 | **Discover and define sensitive information types** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ninja-discover-define-sits/) |
-| **Build flexible Bicep files by using conditions and loops** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-files-conditions-loops/) |
 | **Fundamentals of Bicep** | Learningpaths | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/) |
+| **Build flexible Bicep files by using conditions and loops** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-files-conditions-loops/) |
 | **Build reusable Bicep files by using parameters** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reusable-bicep-files-parameters/) |
 | **Build your first Bicep file** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-bicep-file/) |
 | **Introduction to retrieval-augmented generation concepts** | Modules | 2026-08-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/rag-fundamentals/) |
@@ -168,8 +190,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Extend Microsoft SharePoint – Associate** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-sharepoint-associate/) |
 | **Deploy SharePoint Framework Components to Production** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-deployment/) |
 | **Use Microsoft Graph and non-Microsoft APIs** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-graph-3rd-party-apis/) |
-| **Create Adaptive Card Extensions (ACE) for Microsoft Viva Connections** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-adaptive-card-extension-card-types/) |
 | **Extend Microsoft Viva Connections** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-extend-viva-connections/) |
+| **Create Adaptive Card Extensions (ACE) for Microsoft Viva Connections** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-adaptive-card-extension-card-types/) |
 | **Extend the SharePoint user interface with SharePoint Framework extensions** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-extensions/) |
 | **Work with SharePoint Content using the SharePoint Framework** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-spcontent/) |
 | **Enable SharePoint Framework web part configuration with property panes** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-web-part-property-pane/) |
@@ -278,8 +300,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Describe work allocation capabilities** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-work-allocation-capabilities/) |
 | **Describe Dynamics 365 Contact Center supervisor experience** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-contact-center-supervisor-experience/) |
 | **Describe Dynamics 365 Contact Center representative experience** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-contact-center-representative-experience/) |
-| **Describe warehouse management in Dynamics 365 Supply Chain Management** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-warehouse-management-dynamics-365/) |
 | **Introduction to supply chain management in Dynamics 365** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-supply-chain-management-dynamics-365/) |
+| **Describe warehouse management in Dynamics 365 Supply Chain Management** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-warehouse-management-dynamics-365/) |
 | **Describe sales processes in Dynamics 365 Supply Chain Management** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sales-processes-dynamics-365-supply-chain-management/) |
 | **Describe inventory management in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-management-supply-chain-management/) |
 | **Describe inventory costing and master planning in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-costing-master-planning-dynamics-365-supply-chain-management/) |
@@ -296,8 +318,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Active Directory sites, topology, and replication** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-site-replication/) |
 | **Describe manufacturing processes in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-manufacturing-processes-dynamics-365-supply-chain-management/) |
 | **Understand Active Directory Group Policy security settings** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-active-directory-security-policies/) |
-| **Design security solutions for applications and data** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-security-solutions-applications-data/) |
 | **Interactive case study: Securing apps and data** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/case-study-apps-data/) |
+| **Design security solutions for applications and data** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-100-design-security-solutions-applications-data/) |
 | **Design data models and optimize performance in Azure DocumentDB** | Learningpaths | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-data-models-optimize-performance-azure-documentdb/) |
 | **Recognize and avoid schema design anti-patterns in Azure DocumentDB** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/recognize-avoid-schema-design-anti-patterns-azure-documentdb/) |
 | **Query and manipulate data in Azure DocumentDB** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-manipulate-data-azure-documentdb/) |
@@ -318,8 +340,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Create a Release Pipeline** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/) |
 | **Manage volume access for Azure NetApp Files** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-volume-access-azure-netapp-files/) |
 | **Work smarter with Copilot prompts for IT professionals** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-it/) |
-| **Integrate agents with external systems via MCP in Microsoft Copilot Studio** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-agents-external-systems-mcp-copilot-studio/) |
 | **Integrate agents with enterprise systems in Microsoft Copilot Studio** | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-agents-enterprise-systems-copilot-studio/) |
+| **Integrate agents with external systems via MCP in Microsoft Copilot Studio** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-agents-external-systems-mcp-copilot-studio/) |
 | **Ground agents with enterprise knowledge using connectors and Azure AI Search in Microsoft Copilot Studio** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-agents-enterprise-knowledge-connectors-azure-ai-search-copilot-studio/) |
 | **Automate desktop and web tasks with computer use in Copilot Studio** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-desktop-web-tasks-computer-use-copilot-studio/) |
 | **Automate tasks and workflows in Microsoft Copilot Studio** | Learningpaths | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-tasks-workflows-copilot-studio/) |
@@ -353,8 +375,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Design enterprise-scale agent communication with A2A in Azure** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-enterprise-agent-communication-a2a/) |
 | **Design advanced prompting strategies for production AI agents** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-design-advanced-prompt-production-agents/) |
 | **Debug and respond to production multi-agent incidents in Azure** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-debug-production-multi-agent-incidents-azure/) |
-| **Extend Sustainability Manager for building complex Scope 3 calculations** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-complex-calculations/) |
 | **Extend Microsoft for Sustainability** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-sustainability/) |
+| **Extend Sustainability Manager for building complex Scope 3 calculations** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-complex-calculations/) |
 | **Get started with Text Analytics for health** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-text-analytics/) |
 | **Work with Text Analytics for health API** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-health-text-analytics/) |
 | **Migrate voice services from Skype for Business Server to Teams** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-voice-services-from-skype-for-business-server-to-teams/) |
@@ -424,8 +446,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Begin your Microsoft Learn for Educators Journey** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/begin-your-microsoft-learn-educators-journey/) |
 | **Troubleshoot Apps and Channels** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-apps-channels/) |
 | **Troubleshoot file sharing** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-file-sharing/) |
-| **Troubleshoot authentication and access control issues in Microsoft Azure** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-authentication-access-control/) |
 | **Azure Support Engineer for Connectivity Specialty** | Learningpaths | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-support-engineer-for-connectivity-specialty/) |
+| **Troubleshoot authentication and access control issues in Microsoft Azure** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-authentication-access-control/) |
 | **Close out a Microsoft Learn for Educators course** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/close-out-microsoft-learn-educators-course/) |
 | **Troubleshoot issues signing into Microsoft Teams** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-issues-signing-into-microsoft-teams/) |
 | **Troubleshoot Federation Issues** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-federation-issues/) |
@@ -439,10 +461,10 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Ingest clinical data in FHIR into healthcare data solutions in Microsoft Fabric** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-fhir-data-ingestion/) |
 | **Get tips and tricks for teaching PL-300: Microsoft Power BI Data Analyst in academic programs** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-pl-300-microsoft-power-bi-data-analyst/) |
 | **Prepare to teach PL-300: Microsoft Power BI Data Analyst** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-to-teach-pl-300-microsoft-power-bi-data-analyst/) |
-| **Configure and use cash and bank management, and sales tax in Dynamics 365 Finance** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-cash-bank-management-tax-dyn365-finance/) |
 | **Configure and process postdated checks in Dynamics 365 Finance** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-process-postdated-checks-dyn365-finance/) |
-| **Teleport entangled qubits with Q#** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-entanglement/) |
+| **Configure and use cash and bank management, and sales tax in Dynamics 365 Finance** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-cash-bank-management-tax-dyn365-finance/) |
 | **Get started with Azure Quantum** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/quantum-computing-fundamentals/) |
+| **Teleport entangled qubits with Q#** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-entanglement/) |
 | **Troubleshoot Microsoft Teams Voice Issues** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-microsoft-teams-voice-issues/) |
 | **Azure key and certificate management** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/sovereignty-key-management/) |
 | **Get started with Microsoft for Sovereignty** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sovereignty/) |
@@ -456,8 +478,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Examine SAP S/4HANA on Azure virtual machines** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-sap-s4hana-azure-virtual-machines/) |
 | **Implement transactions with Transact-SQL** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-transactions-transact-sql/) |
 | **Combine query results with set operators** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/combine-query-results-set-operators/) |
-| **Manage data sources with external data stores in finance and operations apps** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/external-data-sources-finance-operations/) |
 | **Connect to finance and operations apps** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/connect-finance-operations/) |
+| **Manage data sources with external data stores in finance and operations apps** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/external-data-sources-finance-operations/) |
 | **Integrate finance and operations apps with Microsoft Power Platform** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-finance-operations-apps-power-platform/) |
 | **Work with tools and best practices to integrate finance and operations apps with Microsoft Power Platform** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/tools-finance-operations-power-platform/) |
 | **Harmonize business concepts between finance and operations apps and Microsoft Power Platform** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/harmonize-business-concepts-finance-operations-power-platform/) |
@@ -481,8 +503,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Explore Azure for SAP networking** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-networking/) |
 | **Extend Power Pages websites** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-extend/) |
 | **Extend Power Pages** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-power-pages/) |
-| **Cutover strategy for Dynamics 365 solutions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/cutover-strategy-dynamics-365/) |
 | **Use Success by Design for Dynamics 365 solutions** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-success-design/) |
+| **Cutover strategy for Dynamics 365 solutions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/cutover-strategy-dynamics-365/) |
 | **Prepare to teach AZ-500 Microsoft Azure Security Technologies** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-500-microsoft-azure-security-technologies/) |
 | **Get tips and tricks for teaching AZ-500 Microsoft Azure Security Technologies** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-az-500-microsoft-azure-security-technologies/) |
 | **Integration design for Dynamics 365 solutions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/integration/) |
@@ -495,8 +517,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Implement finance and operations apps** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-finance-operations/) |
 | **Use Lifecycle Services to design and plan an implementation of finance and operations apps** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-lcs-design-plan-implementation-finance-operations/) |
 | **Design and plan an implementation of finance and operations apps** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-plan-implementation-finance-operations/) |
-| **Implement Developer Self-Service** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-developer-self-service/) |
 | **Design and Implement Platform Engineering** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/designing-implementing-platform-engineering/) |
+| **Implement Developer Self-Service** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-developer-self-service/) |
 | **Specify requirements for securing SaaS, PaaS, and IaaS services** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/specify-requirements-securing-saas-paas-iaas-services/) |
 | **Create stored procedures and user-defined functions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-stored-procedures-table-valued-functions/) |
 | **Implement a performance strategy for Dynamics 365 solutions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/solution-performance/) |
@@ -539,14 +561,14 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Explore package dependencies** | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/) |
 | **AZ-400: Design and implement a dependency management strategy** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-dependency-management-strategy/) |
 | **Plan a testing strategy for your Dynamics 365 solution** | Modules | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-strategy/) |
-| **Prepare to teach PL-100 Microsoft Power Platform App Maker** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/teach-pl-100-microsoft-power-platform-app-maker/) |
 | **Prepare to teach MB-210 Microsoft Dynamics 365 Sales Functional Consultant** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/teach-mb-210-sales-functional-consultant/) |
+| **Prepare to teach PL-100 Microsoft Power Platform App Maker** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/teach-pl-100-microsoft-power-platform-app-maker/) |
 | **Prepare to teach SC-900 Microsoft Security, Compliance, and Identity Fundamentals in academic programs** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-sc-900-academic-programs/) |
 | **Prepare to teach MS-900 Microsoft 365 Fundamentals** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-ms-900-microsoft-365-fundamentals/) |
 | **Prepare to teach SC-300 Microsoft Identity and Access Administrator** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-sc-300-identity-access-administrator/) |
 | **Prepare to teach AI-900 Microsoft Azure AI fundamentals in academic programs** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-ai-900-fundamentals-academic-programs/) |
-| **Prepare to teach SC-400 Microsoft Information Protection Administrator** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-sc-400-information-protection-administrator/) |
 | **Prepare to teach DP-900 Microsoft Azure Data fundamentals in academic programs** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-dp-900-fundamentals-academic-programs/) |
+| **Prepare to teach SC-400 Microsoft Information Protection Administrator** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-sc-400-information-protection-administrator/) |
 | **Prepare to teach PL-200 Microsoft Power Platform Functional Consultant** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-to-teach-pl-200-microsoft-power-platform-functional-consultant/) |
 | **Prepare to teach AZ-204 Developing Solution for Microsoft Azure** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-az-204-developing-solution-microsoft-azure/) |
 | **Prepare to teach PL-900 Microsoft Power Platform fundamentals in academic programs** | Learningpaths | 2026-06-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-teach-pl-900-fundamentals-academic-programs/) |
@@ -583,8 +605,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Software Composition Analysis** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/) |
 | **Implement Bicep** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-bicep/) |
 | **Integrate with Dataverse and Azure** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dataverse-azure/) |
-| **Integrate Dataverse Azure solutions** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-dataverse-azure-solutions/) |
 | **Integrate with Power Platform and Dataverse** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-power-platform-dataverse/) |
+| **Integrate Dataverse Azure solutions** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-dataverse-azure-solutions/) |
 | **Migrate, consolidate, and secure artifacts** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/) |
 | **Introduction to deployment patterns** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/) |
 | **AZ-400: Implement a secure continuous deployment using Azure Pipelines** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-secure-continuous-deployment/) |
@@ -645,8 +667,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Perform fit gap analysis** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/fit-gap-analysis/) |
 | **Design a container build strategy** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/) |
 | **AZ-400: Implement CI with Azure Pipelines and GitHub Actions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-ci-azure-pipelines-github-actions/) |
-| **Scripting in Power Automate desktop app** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-scripting/) |
 | **Desktop flows and Robotic Process Automation in Power Automate** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/desktop-flows-robotic-process-automation-power-automate/) |
+| **Scripting in Power Automate desktop app** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-scripting/) |
 | **Introduction to developing with Microsoft Power Platform** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-development-power-platform/) |
 | **Introduction to extending Power Platform** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform-extend/) |
 | **AZ-305: Design infrastructure solutions** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-infranstructure-solutions/) |
@@ -676,8 +698,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Design a data storage solution for non-relational data** | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/) |
 | **Implement initial configuration of Microsoft Entra ID** | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-initial-configuration-of-azure-active-directory/) |
 | **Design authentication and authorization solutions** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/) |
-| **Design a solution for backup and disaster recovery** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/) |
 | **AZ-305: Design business continuity solutions** | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/) |
+| **Design a solution for backup and disaster recovery** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/) |
 | **Use imperative development techniques for canvas apps in Power Apps** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-imperative-dev-techniques-powerapps-canvas-app/) |
 | **Design data integration** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-integration/) |
 | **Design network solutions** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-network-solutions/) |
@@ -795,8 +817,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Implement Microsoft Defender for Endpoint using Microsoft Intune** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-endpoint-intune/) |
 | **Manage AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-ai-ready-infrastructure/) |
 | **Manage monitoring for AI-Ready Infrastructure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitoring-ai-ready-infrastructure/) |
-| **Apply governance controls to AI-ready workloads** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
 | **Govern AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/govern-ai-ready-infrastructure/) |
+| **Apply governance controls to AI-ready workloads** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
 | **Develop AI solutions with Azure Cosmos DB for NoSQL** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-cosmos-db/) |
 | **Build queries for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-cosmos-db/) |
 | **Optimize query performance for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-azure-cosmos-db/) |
@@ -819,8 +841,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Manage application secrets with Azure Key Vault** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-app-secrets-key-vault/) |
 | **Protect Microsoft Foundry solutions by using Microsoft Defender for Cloud** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/defender-for-cloud-ai-foundry-protect/) |
 | **Understand how Microsoft Defender for Cloud supports AI security and governance in Azure** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-for-cloud-ai-understand-protections/) |
-| **Implement security for AI** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-security/) |
 | **Protect AI workloads with Microsoft Defender for Cloud** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-for-cloud-ai-protect-workloads/) |
+| **Implement security for AI** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-security/) |
 | **Configure and manage guardrails in Microsoft Foundry** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-ai-foundry-configure-manage-guardrails/) |
 | **GitHub Enterprise Server fundamentals for developers** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-enterprise-server-repository-workflows/) |
 | **GitHub Enterprise Server fundamentals for developers** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-enterprise-server-developer-fundamentals/) |
@@ -908,13 +930,13 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Understand endpoint management strategies and Microsoft Intune** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-intune-strategies/) |
 | **Choose data stores in Microsoft Fabric** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-data-store-fabric/) |
 | **Secure developer AI environments with Microsoft Purview** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-developer-apps/) |
-| **Secure access to resources by using Microsoft Entra** | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-access-resources-entra/) |
 | **Manage and implement authentication methods in Microsoft Entra ID** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/) |
+| **Secure access to resources by using Microsoft Entra** | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-access-resources-entra/) |
 | **Govern AI ready workloads with Microsoft Foundry** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-ai-ready-workloads-microsoft-foundry/) |
 | **Translate text and speech with Microsoft Foundry Tools** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/translate-text-speech/) |
 | **Develop natural language solutions in Azure** | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/) |
-| **Configure channels in Dynamics 365 Contact Center** | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-channels-dynamics-365-contact-center/) |
 | **Configure the voice channel in Dynamics 365 Contact Center** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-voice-channel-contact-center/) |
+| **Configure channels in Dynamics 365 Contact Center** | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-channels-dynamics-365-contact-center/) |
 | **Configure advanced settings for channels in Dynamics 365 Contact Center** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-advanced-channel-settings-contact-center/) |
 | **Multi-Agent Systems and Orchestration** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/) |
 | **Memory, State, and Evaluation** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/memory-state-evaluation/) |
@@ -1051,8 +1073,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Secure Unity Catalog objects** | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-unity-catalog-objects/) |
 | **Secure Azure OpenAI with content safety controls** | Modules | 2026-05-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-openai-content-safety-controls/) |
 | **Ingest data into Unity Catalog** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-into-unity-catalog/) |
-| **Implement development lifecycle processes in Azure Databricks** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-development-lifecycle-processes-in-azure-databricks/) |
 | **Deploy and maintain data pipelines and workloads with Azure Databricks** | Learningpaths | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-deploy-maintain-data-pipelines-workloads/) |
+| **Implement development lifecycle processes in Azure Databricks** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-development-lifecycle-processes-in-azure-databricks/) |
 | **Implement and manage data quality constraints with Azure Databricks** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-data-quality-constraints-unity-catalog/) |
 | **Implement Lakeflow Jobs with Azure Databricks** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-lakeflow-jobs/) |
 | **Design and implement data pipelines with Azure Databricks** | Modules | 2026-05-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-data-pipelines/) |
@@ -1130,8 +1152,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Dragon Copilot (nurses)- How to train and coach basic functionality** | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-nurses-coach-basic-skills/) |
 | **Enable Defender for AI Services workload protection in Microsoft Defender for Cloud** | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-cloud-ai-services/) |
 | **Get started with Microsoft Agent 365** | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-365-get-started/) |
-| **Introduction to AI literacy** | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-ai-literacy/) |
 | **Elevate Educator - Expert (AI)** | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/elevate-educator-expert-ai/) |
+| **Introduction to AI literacy** | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-ai-literacy/) |
 | **Elevate Educator - Explorer (AI)** | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/elevate-educator-explorer-ai/) |
 | **Build a reflective AI practice over time** | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reflective-ai-practice-over-time/) |
 | **Build with AI as a creative partner, developed in partnership with ISTE+ASCD** | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-with-ai-creative-partner/) |
@@ -1301,8 +1323,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Forecast by using demand planning in Dynamics 365 Supply Chain Management** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/forecast-using-demand-planning/) |
 | **Promote events, manage registration and check-ins, and review results in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/promote-events-dynamics-365-marketing/) |
 | **Work with revenue recognition in Dynamics 365 Finance** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-recognition-finance/) |
-| **Explore the Microsoft Search user experience and how to enable and configure it for your devices** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-search-user-experience/) |
 | **Deploy and configure Microsoft Edge and Microsoft Search for all your devices** | Learningpaths | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-microsoft-edge-search-for-devices/) |
+| **Explore the Microsoft Search user experience and how to enable and configure it for your devices** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-search-user-experience/) |
 | **Guided project - Create and manage segments with Dynamics 365 Customer Insights - Data** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-manage-segments-d365-customer-insights-data/) |
 | **Create and manage segments in Dynamics 365 Customer Insights - Data** | Learningpaths | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-segments-d365-customer-insights-data/) |
 | **Enable patients to access the Patient Access portal** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/patient-access-service-center/) |
@@ -1319,8 +1341,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Manage resource lifecycles with deployment stacks** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-resource-lifecycles-deployment-stacks/) |
 | **Design emission calculations** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-emissions-calculation/) |
 | **Set up a sustainability solution using Microsoft Sustainability Manager** | Learningpaths | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-sustainability-solution/) |
-| **Set up Service management in Dynamics 365 Supply Chain Management** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-service-management/) |
 | **Set up and use service management in Dynamics 365 Supply Chain Management** | Learningpaths | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-use-service-management/) |
+| **Set up Service management in Dynamics 365 Supply Chain Management** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-service-management/) |
 | **Budget fixed assets in Dynamics 365 Business Central** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/budget-fixed-assets/) |
 | **Manage serial and lot numbers on inventory in Dynamics 365 Business Central** | Modules | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-serial-lot-numbers-inventory/) |
 | **Create projects in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-jobs/) |
@@ -1332,8 +1354,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Guided lab for Dynamics 365 Intelligent Order Management** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-lab-intelligent-order-management/) |
 | **Build reports and review insights** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-insights-reporting/) |
 | **Set up Service Management in Dynamics 365 Business Central** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-service-management/) |
-| **Send finance charge memos to customers in Dynamics 365 Business Central** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-memos-dynamics-365-business-central/) |
 | **Process financial periodic activities in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) |
+| **Send finance charge memos to customers in Dynamics 365 Business Central** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-memos-dynamics-365-business-central/) |
 | **Process Intrastat in Dynamics 365 Business Central** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-intrastat-dynamics-365-business-central/) |
 | **Troubleshooting Windows Containers** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-windows-containers/) |
 | **Creating service orders and support requests in Surface portals** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-portal-service-support/) |
@@ -1468,8 +1490,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Troubleshoot business continuity with Microsoft Azure** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-continuity/) |
 | **Intelligent budget proposal in Dynamics 365 Finance** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-budget-proposal-finance/) |
 | **Ensure app and website compatibility with Microsoft Edge** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/ensure-app-website-compatibility-with-microsoft-edge/) |
-| **Create fixed asset and related records in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/fixed-asset-related-records/) |
 | **Create fixed assets in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-fixed-assets/) |
+| **Create fixed asset and related records in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/fixed-asset-related-records/) |
 | **Migrate to vCore-based Azure Cosmos DB for MongoDB** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-vcore-based-azure-cosmos-db-mongodb/) |
 | **Post sales and purchase invoices in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/post-sales-purchase-invoices-dynamics-365-business-central/) |
 | **Send and receive electronic documents in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/electronic-documents-dynamics-365-business-central/) |
@@ -1565,8 +1587,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Work with master data in Dynamics 365 Business Central** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-master-data-business-central/) |
 | **Create accessible web apps by using ASP.NET Core** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aspnet-core-accessibility/) |
 | **Process foreign currency payments in Dynamics 365 Business Central** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/foreign-currencies-dynamics-365-business-central/) |
-| **Implement and manage data privacy with Microsoft Priva** | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/priva-data-privacy-solutions/) |
 | **Manage Microsoft Priva Subject Rights Requests** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/priva-subject-rights-requests/) |
+| **Implement and manage data privacy with Microsoft Priva** | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/priva-data-privacy-solutions/) |
 | **Boost K-12 school cybersecurity leadership with Microsoft tools** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/boost-school-cybersecurity-leadership-microsoft-tools/) |
 | **Troubleshoot connectivity issues with virtual machines in Microsoft Azure** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-connectivity-issues-virtual-machines-azure/) |
 | **Create and process fixed kanbans in Dynamics 365 Supply Chain Management** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-process-fixed-kanbans-dyn365-supply-chain-mgmt/) |
@@ -1728,8 +1750,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Work with maintenance budgets in Asset Management for Dynamics 365 Supply Chain Management** | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintenance-budget-asset-management/) |
 | **Configure replication and manage failovers in Azure Cosmos DB** | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-replication-manage-failovers-azure-cosmos-db/) |
 | **Configure administrative roles in Microsoft 365** | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-administrative-microsoft-365/) |
-| **Manage variables in Windows PowerShell scripts** | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-variables-windows-powershell-scripts/) |
 | **Use variables, arrays, and hash tables in Windows PowerShell scripts** | Learningpaths | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-variables-arrays-hash-tables-windows-powershell/) |
+| **Manage variables in Windows PowerShell scripts** | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-variables-windows-powershell-scripts/) |
 | **Review Azure PowerShell module** | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/review-azure-powershell-module/) |
 | **Define indexes in Azure Cosmos DB for NoSQL** | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-indexes-azure-cosmos-db-sql-api/) |
 | **Create and manage background jobs and scheduled jobs in Windows PowerShell** | Learningpaths | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-background-jobs-scheduled-windows-powershell/) |
@@ -1942,8 +1964,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Get started with project sales management in Dynamics 365 Project Operations** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-project-sales-management/) |
 | **Manage Microsoft Purview Audit (Standard)** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-purview-audit-standard/) |
 | **Create text messages and push notifications in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-text-messages-push-notifications/) |
-| **Implement a non-relational data model** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-non-relational-data-model/) |
 | **Implement a data modeling and partitioning strategy for Azure Cosmos DB for NoSQL** | Learningpaths | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-modeling-partitioning-azure-cosmos-db-sql-api/) |
+| **Implement a non-relational data model** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-non-relational-data-model/) |
 | **Deploy a model with GitHub Actions** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-model-github-actions/) |
 | **Work with web services in Dynamics 365 Business Central** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-web-services/) |
 | **Create forms in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-03-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-forms-customer-insights-journeys/) |
@@ -1992,8 +2014,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Set up configurable products in Dynamics 365 Supply Chain Management** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-configurable-products/) |
 | **Work with configurable products in Dynamics 365 Supply Chain Management** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-configurable-products/) |
 | **Author complex queries with the Azure Cosmos DB for NoSQL** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/author-complex-queries-azure-cosmos-db-sql-api/) |
-| **Deploy and update applications** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-update-applications/) |
 | **MD-101 Explore application management** | Learningpaths | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-application-management/) |
+| **Deploy and update applications** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-update-applications/) |
 | **Configure and perform the procure-to-purchase process in Dynamics 365 Supply Chain Management** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-perform-procure-purchase-dyn365-supply-chain-mgmt/) |
 | **Execute across warehouse operations in Dynamics 365 Supply Chain Management** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/execute-across-warehouse-supply-chain-management/) |
 | **Build a real-time event-driven Java solution in Azure** | Modules | 2026-03-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-real-time-event-driven-app/) |
@@ -2029,8 +2051,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Import data in different formats for use in scripts by using Windows PowerShell cmdlets** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/import-data-different-formats-for-use-scripts/) |
 | **Use Azure Functions with Dynamics 365 Business Central** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-functions/) |
 | **Measure index performance in Azure Cosmos DB for NoSQL** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/measure-index-azure-cosmos-db-sql-api/) |
-| **Introduction to application types in Business Central** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-types/) |
 | **Use application development best practices in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-application-development-business-central/) |
+| **Introduction to application types in Business Central** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-types/) |
 | **Introduction to the Microsoft service adoption framework** | Modules | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-service-adoption-intro/) |
 | **Use the Microsoft service adoption framework to drive adoption in your enterprise** | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-service-adoption/) |
 | **Extend Microsoft 365 Copilot in Copilot Studio** | Learningpaths | 2026-03-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-microsoft-365-copilot-studio/) |
@@ -2054,16 +2076,16 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Configure forecasts in Dynamics 365 Sales** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/sales-forecasts/) |
 | **Work with service-level agreements in Dynamics 365 Customer Service** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/service-level-agreements/) |
 | **Production costing for discrete manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/production-costing-discrete-manufacturing/) |
-| **Deploy containers by using Azure Kubernetes Service (AKS)** | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-containers-azure-kubernetes-service/) |
 | **Configure an Azure Kubernetes Service cluster** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-kubernetes-service-cluster/) |
+| **Deploy containers by using Azure Kubernetes Service (AKS)** | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-containers-azure-kubernetes-service/) |
 | **Set up inventory planning in Dynamics 365 Business Central** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-inventory-planning-dynamics-365-business-central/) |
 | **Work with linting and unit testing in GitHub Actions** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-linting-unit-test-github-actions/) |
 | **Manage relationships with relationship selling in Dynamics 365 Sales** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-relationships-social-selling-dynamics-365-sales/) |
 | **Manage customer returns in Dynamics 365 Business Central** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-customer-returns-dynamics-365-business-central/) |
 | **Customize and configure the Dynamics 365 Field Service Mobile application** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-field-service-mobile/) |
 | **Set up products for production for discrete manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-products-production-discrete-manufacturing/) |
-| **Reconcile bank accounts in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/reconcile-bank-accounts-dynamics-365-business-central/) |
 | **Use the payment reconciliation journal in Dynamics 365 Business Central** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-journals-dynamics-365-business-central/) |
+| **Reconcile bank accounts in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/reconcile-bank-accounts-dynamics-365-business-central/) |
 | **Use functions and modules in Windows PowerShell scripts** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-functions-modules-windows-powershell-scripts/) |
 | **Select, sort, and measure objects using the pipeline** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/select-sort-measure-objects-use-pipeline/) |
 | **Process customer and vendor payments in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) |
@@ -2087,8 +2109,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Personalize finance and operations apps** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/personalize-finance-operations/) |
 | **Trigger GitHub Actions with feature-based development** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/trigger-github-actions-trunk-based-development/) |
 | **Send and pass data as output from the pipeline** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-pass-data-output-from-pipeline/) |
-| **Use Power Automate with Business Central** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-power-automate/) |
 | **Develop using Power Apps and Power Automate for Dynamics 365 Business Central** | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-apps-power-automate-business-central/) |
+| **Use Power Automate with Business Central** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-power-automate/) |
 | **Work with the API in Dynamics 365 Business Central** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-api/) |
 | **Deploy, manage, and monitor Windows containers on Azure Kubernetes Service** | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-monitor-wincontainers-aks/) |
 | **Apply Networking concepts to Windows containers running on Azure Kubernetes Service (AKS) and AKS Hybrid** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-networking-concepts-to-windows-containers/) |
@@ -2162,8 +2184,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Challenge project - Build a declarative agent to chat with your data** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-challenge-chat-with-data/) |
 | **Extend Microsoft 365 Copilot with declarative agents using Visual Studio Code** | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-microsoft-365-declarative-agents-visual-studio-code/) |
 | **Build reports for finance and operations apps** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reports-finance-operations/) |
-| **Use custom code in custom connectors for Microsoft Power Platform** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-code-connectors/) |
 | **Build custom connectors for Microsoft Power Platform** | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-custom-connectors/) |
+| **Use custom code in custom connectors for Microsoft Power Platform** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-code-connectors/) |
 | **Deploy and use Azure Container Registry** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-use-azure-container-registry/) |
 | **Create and run scripts by using Windows PowerShell** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-run-scripts-use-windows-powershell/) |
 | **Manage data privacy and governance with Azure Databricks** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-data-privacy-and-governance-with-azure-databricks/) |
@@ -2193,10 +2215,10 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Work with accounts payable invoice matching in Dynamics 365 Finance** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-invoice-matching-finance/) |
 | **Manage Exchange Online by using Windows PowerShell** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-exchange-online-use-windows-powershell/) |
 | **Work with queries in Dynamics 365 Business Central** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-queries/) |
-| **Windows Server Hyper-V and Virtualization** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-hyper-v-virtualization/) |
 | **Windows Server high availability** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-high-availability/) |
-| **Implement disaster recovery in Windows Server on-premises and hybrid environments** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-disaster-recovery-windows-server-premises/) |
+| **Windows Server Hyper-V and Virtualization** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-hyper-v-virtualization/) |
 | **Implement Hyper-V Replica** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hyper-v-replica/) |
+| **Implement disaster recovery in Windows Server on-premises and hybrid environments** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-disaster-recovery-windows-server-premises/) |
 | **Set up and use production control for discrete manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-use-production-control-discrete-manufacturing/) |
 | **Get started with the Dynamics 365 Field Service Mobile application** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-mobile-app/) |
 | **Define agreements in Dynamics 365 Field Service** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-agreements/) |
@@ -2229,8 +2251,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Manage Microsoft Defender for Endpoint** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-defender-endpoint/) |
 | **Fine-tune language models with Azure Databricks** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/fine-tune-azure-databricks/) |
 | **Configure Azure Cosmos DB for NoSQL** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-cosmos-db-sql-api/) |
-| **Get started with Omnichannel for Customer Service** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/getting-started-omnichannel/) |
 | **Connect and engage with customers with Omnichannel for Dynamics 365 Customer Service** | Learningpaths | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-customer-service-omnichannel/) |
+| **Get started with Omnichannel for Customer Service** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/getting-started-omnichannel/) |
 | **Create custom procedures in Dynamics 365 Business Central** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-custom-functions/) |
 | **Enter payments in the cash receipt journal and the payment journal in Dynamics 365 Business Central** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/enter-payments-dynamics-365-business-central/) |
 | **Build journeys with Dynamics 365 Customer Insights - Journeys** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-journeys-marketing/) |
@@ -2280,8 +2302,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Enable organizational access** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-organizational-access/) |
 | **Protect identities in Microsoft Entra ID** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-identities-azure-active-directory/) |
 | **Plan and manage your Microsoft Power Platform environment** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-manage-environment/) |
-| **Introduction to open-source database migration on Azure** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-open-source-database-migration-azure/) |
 | **Common Linux server configurations** | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/common-linux-server-configurations/) |
+| **Introduction to open-source database migration on Azure** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-open-source-database-migration-azure/) |
 | **Process credit and collections in Dynamics 365 Finance** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-credit-collections-dyn365-finance/) |
 | **Work with accounting distributions, invoice validations, and settlements in Dynamics 365 Finance** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/accounting-distributions-invoice-validation-dyn365-finance/) |
 | **Introduction to integrating Dataverse with Dynamics 365 Business Central** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-dataverse-integrate/) |
@@ -2306,16 +2328,16 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Introduction and prerequisites for Power Pages - Online workshop** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-introduction-online-workshop/) |
 | **Manage settings for a local Windows machine using PowerShell cmdlets** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-settings-for-local-windows-machine-use-powershell-cmdlets/) |
 | **Consume an Azure Cosmos DB for NoSQL change feed using the SDK** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/consume-azure-cosmos-db-sql-api-change-feed-use-sdk/) |
-| **Automate database deployment** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-automatic-deployment-azure-sql-database/) |
 | **Automate database tasks for Azure SQL** | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-tasks-sql-server/) |
+| **Automate database deployment** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-automatic-deployment-azure-sql-database/) |
 | **Deploy new devices** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-new-devices/) |
 | **Process sales orders with Dynamics 365 Sales** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-sales-orders-dynamics-365-sales/) |
 | **Get started with language models in Azure Databricks** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-language-models-databricks/) |
 | **Review responsible AI principles for language models in Azure Databricks** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-language-models-azure-databricks/) |
 | **Work with scripting constructs in Windows PowerShell** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-script-constructs-windows-powershell/) |
 | **Set up and use Intelligent OCR for vendor invoices in Dynamics 365 Finance** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/ocr-vendor-invoices-finance/) |
-| **Guided exercise - Manage on-premises Windows servers by using Azure Arc** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-exercise-manage-on-premises-azure-arc/) |
 | **Deploy and manage Azure Arc-enabled Servers** | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-azure-arc-enabled-servers/) |
+| **Guided exercise - Manage on-premises Windows servers by using Azure Arc** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-exercise-manage-on-premises-azure-arc/) |
 | **Perform a bank reconciliation in Dynamics 365 Business Central** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/bank-reconciliation-dynamics-365-business-central/) |
 | **Monitor and maintain an Azure Virtual Desktop infrastructure** | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-maintain-azure-virtual-desktop-infrastructure/) |
 | **Monitor and manage performance and health** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-manage-performance-health/) |
@@ -2326,8 +2348,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Implement security for Microsoft Teams** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-for-microsoft-teams/) |
 | **Manage and organize your product catalog with Dynamics 365 Sales** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-organize-product-catalog-dynamics-365-sales/) |
 | **Enable Defender for Cloud on your Azure subscription** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-defender-cloud-azure-subscription/) |
-| **Implement and manage Microsoft 365 retention and recovery** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-retention-recovery/) |
 | **Implement and manage Microsoft 365 retention and recovery** | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-retention/) |
+| **Implement and manage Microsoft 365 retention and recovery** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-retention-recovery/) |
 | **Configure Microsoft Defender for Cloud for Azure Arc-enabled servers** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-defender-cloud-azure-arc-enabled-servers/) |
 | **Use advanced Windows PowerShell remoting techniques** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-advanced-windows-powershell-remoting-techniques/) |
 | **Set up accounts receivable in Dynamics 365 Finance** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-accounts-receivable-dyn365-finance/) |
@@ -2335,8 +2357,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Implement a Windows Server hybrid cloud infrastructure** | Learningpaths | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-hybrid-cloud-infrastructure/) |
 | **Migrate on-premises Windows Server instances to Azure IaaS virtual machines** | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-premises-windows-server-instances-azure-iaas-virtual-machines/) |
 | **Build enterprise AI agents with Java and Spring** | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-enterprise-ai-agents-with-java-spring/) |
-| **Secure Windows Server DNS** | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-windows-server-domain-name-system/) |
 | **Windows Server Network Infrastructure** | Learningpaths | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-network-infrastructure/) |
+| **Secure Windows Server DNS** | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-windows-server-domain-name-system/) |
 | **Implement and manage FSLogix** | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-fslogix/) |
 | **Use journals in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-journals-dynamics-365-business-central/) |
 | **Post periodic journal entries in Dynamics 365 Business Central** | Modules | 2026-02-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/periodic-journal-entries-dynamics-365-business-central/) |
@@ -2376,12 +2398,12 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Implement multilingual reports in Dynamics 365 Business Central** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-multilanguage-reports/) |
 | **Manage Azure Arc-enabled servers by using scripting** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-arc-enabled-servers-scripting/) |
 | **Introduction to report components in Dynamics 365 Business Central** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-report-components/) |
-| **Manage access and security for Azure Virtual Desktop** | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-access-security/) |
 | **Manage access for Azure Virtual Desktop** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-access/) |
+| **Manage access and security for Azure Virtual Desktop** | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-access-security/) |
 | **Set up dual-write in finance and operations apps** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-dual-write-finance-operations/) |
 | **Explore data integration concepts in finance and operations apps** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/integration-patterns-finance-operations/) |
-| **Create smart assist solutions in Contact Center for Dynamics 365 Customer Service** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-smart-assist-omnichannel/) |
 | **Help service reps be more productive in Dynamics 365 Customer Service** | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/agents-help-customer-service/) |
+| **Create smart assist solutions in Contact Center for Dynamics 365 Customer Service** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-smart-assist-omnichannel/) |
 | **Implement and operate an on-premises and hybrid networking infrastructure** | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-operate-premises-hybrid/) |
 | **Implement IP Address Management** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ip-address-management/) |
 | **Protect, monitor, and tune a migrated database** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-monitor-tuning-migrated-database/) |
@@ -2463,8 +2485,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Implement privileged access management** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-insider-implement-privileged-access-management/) |
 | **Work with pages in Dynamics 365 Business Central** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-pages/) |
 | **Set up cash management in Dynamics 365 Business Central** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/cash-management-dynamics-365-business-central/) |
-| **Implement advanced logic in Power Automate for desktop** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-implement-advanced-logic/) |
 | **Text manipulation in Power Automate for desktop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-text-manipulation/) |
+| **Implement advanced logic in Power Automate for desktop** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-implement-advanced-logic/) |
 | **Challenge project - Build a declarative agent to chat with your external data ingested to Microsoft 365** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-challenge-chat-with-external-data/) |
 | **Database handling in Power Automate for desktop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-database-handling/) |
 | **Implement retention, eDiscovery, and Communication compliance in Microsoft Purview** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-exercise-implement-retention-ediscovery-communication-compliance/) |
@@ -2474,8 +2496,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Get started with accounts receivable daily procedures in Dynamics 365 Finance** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/accounts-receivable-daily-procedures-dyn365-finance/) |
 | **Challenge project - Architecting solutions for a new product line for customers** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-architecting-solutions-for-new-product-line-for-customers/) |
 | **Configure monitoring for applications** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-monitoring-applications/) |
-| **Architect migration, business continuity, and disaster recovery in Azure** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-migration-bcdr/) |
 | **Protect your on-premises infrastructure from disasters with Azure Site Recovery** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-on-premises-infrastructure-with-azure-site-recovery/) |
+| **Architect migration, business continuity, and disaster recovery in Azure** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-migration-bcdr/) |
 | **MS-102 Implement threat protection by using Microsoft Defender XDR** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-threat-protection-use-microsoft-365-defender/) |
 | **Explore threat intelligence in Microsoft Defender XDR** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-threat-intelligence-microsoft-365-defender/) |
 | **Add a layout to a report in Dynamics 365 Business Central** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-layout-report/) |
@@ -2510,15 +2532,15 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Implement a secure environment for a database service** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-secure-environment-database-service/) |
 | **Set up and work with inbound operations using inventory management in Dynamics 365 Supply Chain Management** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-work-inbound-inventory-management/) |
 | **Create and process journal entries in Dynamics 365 Business Central** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-process-journal-entries-dynamics-365-business-central/) |
-| **Configure Dependabot security updates on your GitHub repo** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-dependabot-security-updates-on-github-repo/) |
 | **GitHub Advanced Security Part 1 of 2** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-advanced-security/) |
+| **Configure Dependabot security updates on your GitHub repo** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-dependabot-security-updates-on-github-repo/) |
 | **Set up Power Pages security** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-configure-security/) |
 | **Power Pages data workspace - Online workshop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-data-workspace-online-workshop/) |
 | **Complete the report request page in Dynamics 365 Business Central** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/complete-report-request-page/) |
 | **Configure cash and bank management in Dynamics 365 Finance** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-cash-bank-management-dyn365-finance/) |
 | **Use Microsoft Dynamics 365 Customer Service queues to manage case workloads** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/using-dynamics-365-queues-to-manage-case-workloads/) |
-| **Set up financial management in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-financial-management-dynamics-365-business-central/) |
 | **Set up general ledger configuration options in Dynamics 365 Business Central** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-configure-general-ledger-setup/) |
+| **Set up financial management in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-financial-management-dynamics-365-business-central/) |
 | **Secure Windows Server user accounts** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-windows-server-user-accounts/) |
 | **Implement and manage networking for Azure Virtual Desktop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-networking-azure-virtual-desktop/) |
 | **Work with analytics and reporting in finance and operations apps** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-analytics-reporting-finance-operations/) |
@@ -2556,8 +2578,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Optimize query performance in Azure SQL** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/optimize-query-performance-sql-server/) |
 | **Explore query performance optimization** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-query-performance-optimization/) |
 | **Manage users and implement security in Dynamics 365 Business Central** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/users-security-dynamics-365-business-central/) |
-| **Create and configure a Log Analytics workspace** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-configure-log-analytics-workspace/) |
 | **Perform basic Azure Management Tasks (Security and Monitoring)** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/perform-basic-azure-management-tasks/) |
+| **Create and configure a Log Analytics workspace** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-configure-log-analytics-workspace/) |
 | **Solution architect series: Model data for Power Platform solutions** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-modeling/) |
 | **Get started with AI in Azure** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/) |
 | **Get started with inventory management in Dynamics 365 Supply Chain Management** | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-inventory-management-supply-chain/) |
@@ -2610,8 +2632,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Introduction to Azure Data Explorer** | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-data-explorer/) |
 | **Understand Microsoft Fabric IQ fundamentals** | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-fabric-iq-fundamentals/) |
 | **Evaluate performance improvements** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-performance-improvements/) |
-| **Manage Azure updates** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-updates/) |
 | **Implement Windows Server hybrid cloud management, monitoring, and security** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-hybrid-cloud-management-monitoring-security/) |
+| **Manage Azure updates** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-updates/) |
 | **Interact with an ASP.NET Core minimal API** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-api/) |
 | **Migrate to Azure Database for PostgreSQL flexible server** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-azure-database-postgresql-flexible-server/) |
 | **MS-102 Implement identity synchronization** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-identity-synchronization/) |
@@ -2625,8 +2647,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Configure database authentication and authorization** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-database-authentication-authorization/) |
 | **Implement HTTP operations in ASP.NET Core Blazor Web apps** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-http-operations-asp-razor/) |
 | **Examine data governance solutions in Microsoft Purview** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-data-governance-solutions-microsoft-purview/) |
-| **Configure and perform periodic processes in Dynamics 365 Finance** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-periodic-processes-dyn365-finance/) |
 | **Configure and use the general ledger in Dynamics 365 Finance** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-general-ledger-dyn365-finance/) |
+| **Configure and perform periodic processes in Dynamics 365 Finance** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-periodic-processes-dyn365-finance/) |
 | **Implement and manage storage for Azure Virtual Desktop** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-storage-azure-virtual-desktop/) |
 | **Integrate Dynamics 365 Business Central with Teams** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-central-teams-integration/) |
 | **Create and manage model-driven apps with Power Apps and Dataverse** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-model-driven-apps/) |
@@ -2648,8 +2670,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Examine Privileged Identity Management in Microsoft Entra ID** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-privileged-identity-management/) |
 | **Explore performance-based database design** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-performance-based-design/) |
 | **Create formulas to change properties in a Power Apps canvas app** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/author-basic-formula-change-properties-powerapps/) |
-| **MS-102 Implement compliance in Microsoft 365** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-compliance-microsoft-365/) |
 | **Implement Microsoft Purview Insider Risk Management** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-insider-risk-management/) |
+| **MS-102 Implement compliance in Microsoft 365** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-compliance-microsoft-365/) |
 | **Manage data compliance for Microsoft 365 Copilot** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-data-compliance-copilot-microsoft-365/) |
 | **MS-102 Manage compliance in Microsoft 365** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/ms-102-manage-compliance-microsoft-365/) |
 | **Implement data classification of sensitive information** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-classification-sensitive-information/) |
@@ -2670,8 +2692,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Create and manage teams** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-teams/) |
 | **Configure ledger allocations and accruals in Dynamics 365 Finance** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ledger-allocations-accruals-dyn365-finance/) |
 | **Introduction to Dataverse for developers** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-dataverse-developers/) |
-| **Automate your workflow with GitHub Actions Part 2 of 2** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-actions-2/) |
 | **Create and publish custom GitHub actions** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-custom-github-actions/) |
+| **Automate your workflow with GitHub Actions Part 2 of 2** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-actions-2/) |
 | **Examine Microsoft  Secure Score** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-microsoft-secure-score/) |
 | **Define a Microsoft AI strategy to create business value in finance** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-finance/) |
 | **Discover AI for leaders in finance** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-financial-industry/) |
@@ -2687,11 +2709,11 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Manage collaboration experiences for chat and channels** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-collaboration-experiences-for-chat-channels/) |
 | **Respond to data loss prevention alerts using Microsoft 365** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/respond-to-data-loss-prevention-alerts-microsoft-365/) |
 | **Visualize real-time data with Azure Stream Analytics and Power BI** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/visualize-real-time-data-azure-stream-analytics-power-bi/) |
-| **Plan an Azure Virtual Desktop implementation** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-azure-virtual-desktop-implementation/) |
 | **Azure Virtual Desktop Architecture** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-desktop-architecture/) |
+| **Plan an Azure Virtual Desktop implementation** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-azure-virtual-desktop-implementation/) |
 | **Manage Windows Servers and workloads in a hybrid environment** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-windows-servers-workloads-hybrid-environment/) |
 | **Perform post-installation configuration of Windows Server** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-post-installation-configuration-of-windows-server/) |
-| **Implement a Data Analytics Solution with Azure Databricks** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-engineer-azure-databricks/) |
+| **Implement a Data Analytics Solution with Azure Databricks** | Learningpaths | 2026-02-09 | N/A |
 | **Build Lakeflow Declarative Pipelines** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-data-pipeline-with-delta-live-tables/) |
 | **Create formulas to change behaviors in a Power Apps canvas app** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/author-basic-formula-change-behaviors-powerapps/) |
 | **Use Monitor to troubleshoot Power Apps** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-to-troubleshoot/) |
@@ -2707,8 +2729,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Create and publish agents with Microsoft Copilot Studio** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-power-virtual-agents/) |
 | **Build effective agents with Microsoft Copilot Studio** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-effective-bots/) |
 | **Explore compliance in Microsoft 365** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-plan-compliance-microsoft-365/) |
-| **GitHub fundamentals - Administration basics and product features Part 2 of 2** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-admin-2/github-admin-2/) |
 | **GitHub administration for enterprise support and adoption** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-administration-for-enterprise-support-adoption/) |
+| **GitHub fundamentals - Administration basics and product features Part 2 of 2** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-admin-2/github-admin-2/) |
 | **Get started with Windows PowerShell** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-windows-powershell/) |
 | **Find commands and Get-Help in Windows PowerShell** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/find-commands-get-help-windows-powershell/) |
 | **MS-102 Manage your security services in Microsoft Defender XDR** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-security-services-microsoft-365-defender/) |
@@ -2721,8 +2743,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Configure SQL Server resources for optimal performance** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-sql-server-resources-optimal-performance/) |
 | **MS-102 Manage your Microsoft 365 tenant** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-your-microsoft-365-tenant/) |
 | **Analyze your Microsoft 365 workplace data using Microsoft Viva Insights** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-microsoft-365-workplace-data-use-microsoft-viva-insights/) |
-| **Data normalization in Microsoft Sentinel** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-normalization-microsoft-sentinel/) |
 | **Create detections and perform investigations using Microsoft Sentinel** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-create-detections-perform-investigations-azure-sentinel/) |
+| **Data normalization in Microsoft Sentinel** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-normalization-microsoft-sentinel/) |
 | **Set up chart of accounts in Dynamics 365 Finance** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-chart-accounts-finance/) |
 | **Explore sensitivity labels** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-sensitivity-labels-microsoft-365/) |
 | **Create and define calculation or rollup columns in Dataverse** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-define-calculation-rollup-fields/) |
@@ -2759,7 +2781,7 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Implement directory synchronization tools** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-synchronization-tools/) |
 | **Enroll devices using Microsoft Endpoint Configuration Manager** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-devices-using-microsoft-endpoint-configuration-manager/) |
 | **Use Search jobs in Microsoft Sentinel** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-search-jobs-microsoft-sentinel/) |
-| **Manage data with Delta Lake** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-delta-lake-azure-databricks/) |
+| **Manage data with Delta Lake** | Modules | 2026-02-07 | N/A |
 | **Overview of HTTP connectors in Power Automate** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/http-connectors/) |
 | **Implement and manage Active Directory Certificate Services** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-active-directory-certificate-services/) |
 | **Investigate and respond to Microsoft Purview Data Loss Prevention alerts** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-alerts/) |
@@ -2783,8 +2805,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Examine email protection in Microsoft 365** | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-exchange-online-protection/) |
 | **Connect Common Event Format logs to Microsoft Sentinel** | Modules | 2026-02-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-common-event-format-logs-to-azure-sentinel/) |
 | **Manage sensitive data and security policies within GitHub** | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-sensitive-data-security-policies/) |
-| **Assess deployment readiness** | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/deployment-readiness/) |
 | **MD-102 Deploy using on-premises based tools** | Learningpaths | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-on-premise-based-tools/) |
+| **Assess deployment readiness** | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/deployment-readiness/) |
 | **Manage Safe Attachments** | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-safe-attachments-microsoft-365/) |
 | **Train and evaluate classification models** | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-evaluate-classification-models/) |
 | **Run a Power Automate for desktop flow in unattended mode** | Modules | 2026-02-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/flow-unattended-mode/) |
@@ -2799,15 +2821,15 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Use the Teams connector in Power Automate** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-teams-connector/) |
 | **Plan and implement data platform resources** | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-implement-data-platform-resources/) |
 | **Migrate SQL Server workloads to Azure SQL Managed Instance** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-sql-workloads-azure-managed-instances/) |
-| **Prepare security and compliance to support Microsoft 365 Copilot** | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-security-compliance-support-microsoft-365-copilot/) |
 | **Implement sensitivity labels** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-sensitivity-labels-microsoft-365/) |
+| **Prepare security and compliance to support Microsoft 365 Copilot** | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-security-compliance-support-microsoft-365-copilot/) |
 | **Review CIM and WMI** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/review-common-information-model-windows-management-instrumentation/) |
 | **Security incident management in Microsoft Sentinel** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/incident-management-sentinel/) |
 | **Implement Microsoft Purview Data Loss Prevention** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-loss-prevention-policies-microsoft-365/) |
 | **Guided Project: Deploy and administer Linux virtual machines on Azure** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-deploy-administer-linux-virtual-machines-azure/) |
 | **Reduce complexity in your data model with Dataverse table relationships** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/reduce-complexity-dataverse-table/) |
-| **Create queries for Microsoft Sentinel using Kusto Query Language (KQL)** | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-utilize-kql-for-azure-sentinel/) |
 | **Construct KQL statements for Microsoft Sentinel** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/construct-kusto-query-language-statements/) |
+| **Create queries for Microsoft Sentinel using Kusto Query Language (KQL)** | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-utilize-kql-for-azure-sentinel/) |
 | **Automation in Microsoft Sentinel** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/automation-microsoft-sentinel/) |
 | **Implement Windows Server IaaS VM networking** | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-iaas-virtual-machine-networking/) |
 | **Implement Windows Server IaaS VM network security** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-iaas-virtual-machine-network-security/) |
@@ -2826,8 +2848,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Monitor Windows Server IaaS Virtual Machines and hybrid instances** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-windows-server-iaas-virtual-machines-hybrid-instances/) |
 | **Plan and implement security for storage** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-storage/) |
 | **Plan and implement security for Azure SQL Database and Azure SQL Managed Instance** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-azure-sql-database-azure-sql-managed-instance/) |
-| **Design and implement network security** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-network-security-monitoring/) |
 | **AZ-700 Design and Implement Microsoft Azure Network Solutions** | Learningpaths | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-implement-microsoft-azure-networking-solutions-az-700/) |
+| **Design and implement network security** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-network-security-monitoring/) |
 | **Understand the command syntax in Windows PowerShell** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-command-syntax-windows-powershell/) |
 | **Design and implement private access to Azure Services** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-private-access-to-azure-services/) |
 | **Load balance non-HTTP(S) traffic in Azure** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/load-balancing-non-https-traffic-azure/) |
@@ -2847,8 +2869,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Work with data source limits (delegation limits) in a Power Apps canvas app** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-data-source-limits-powerapps-canvas-app/) |
 | **Connect Azure assets to Microsoft Defender for Cloud** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-azure-assets-to-azure-defender/) |
 | **Build multi-table statements using KQL** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-multi-table-statements-kusto-query-language/) |
-| **OneNote for educators** | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/onenote-teacher-academy/) |
 | **Independent learning with math tools in OneNote** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/independent-learning-math-tools-onenote/) |
+| **OneNote for educators** | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/onenote-teacher-academy/) |
 | **Understand Windows Server IaaS Virtual Machine cost management** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-windows-server-iaas-vm-cost-management/) |
 | **Introduction to Azure database administration** | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-azure-database-administration/) |
 | **Prepare to maintain SQL Server-based databases on Azure** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-to-maintain-sql-databases-azure/) |
@@ -2862,15 +2884,15 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Implement Windows Server File Server high availability** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-file-server-high-availability/) |
 | **Use Dataverse choice columns with formulas** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/choice-columns-formulas/) |
 | **Configure and manage Hyper-V** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-hyper-v/) |
-| **Explore Microsoft Intune Suite** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-intune-suite/) |
 | **MD-102 Deploy using cloud based tools** | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-cloud-based-tools/) |
+| **Explore Microsoft Intune Suite** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-intune-suite/) |
 | **Perform custom updates in a Power Apps canvas app** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-custom-updates-powerapps-canvas-app/) |
 | **Deploy IaaS solutions with Azure SQL** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-iaas-solutions-with-azure-sql/) |
 | **Deploy Microsoft 365 Apps for enterprise** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-365-apps-enterprise/) |
 | **Deploy using the Microsoft Deployment Toolkit** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-deployment-toolkit/) |
 | **Manage GitHub Actions in the enterprise** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-github-actions-enterprise/) |
-| **Microsoft Azure Well-Architected Framework - Reliability** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-reliability/) |
 | **Build great solutions with the Microsoft Azure Well-Architected Framework** | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/) |
+| **Microsoft Azure Well-Architected Framework - Reliability** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-reliability/) |
 | **Search and investigate with Microsoft Purview Audit** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-audit-search-investigate/) |
 | **Mitigate threats using Microsoft Defender for Endpoint** | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-defender-for-endpoint/) |
 | **Perform evidence and entities investigations using Microsoft Defender for Endpoint** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-evidence-entities-investigations-microsoft-defender-for-endpoint/) |
@@ -2881,8 +2903,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Get started with chart of accounts in Dynamics 365 Finance** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-chart-accounts-finance/) |
 | **Guided project - Create an AI travel agent** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-create-ai-travel-agent/) |
 | **Use watchlists in Microsoft Sentinel** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-watchlists-azure-sentinel/) |
-| **Implement Microsoft Purview Information Protection** | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-information-protection/) |
 | **Classify and protect on-premises data with Microsoft Purview** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-protect-on-premises-data/) |
+| **Implement Microsoft Purview Information Protection** | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-information-protection/) |
 | **Run containers on Windows Server** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-containers-windows-server/) |
 | **Perform actions on a device using Microsoft Defender for Endpoint** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-actions-device-microsoft-defender-for-endpoint/) |
 | **Manage Microsoft Entra application access** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-application-access-microsoft-entra-id/) |
@@ -2904,11 +2926,11 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Upgrade and migrate Windows Server IaaS virtual machines** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/upgrade-migrate-windows-server-iaas-virtual-machines/) |
 | **Dyslexia training, in partnership with Made By Dyslexia** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/dyslexia-training/) |
 | **Dyslexia Teaching: Part 1, In partnership with Made By Dyslexia** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-teaching-part-1/) |
-| **Windows Server file servers and storage management** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-file-servers-storage-management/) |
 | **Implement Storage Spaces and Storage Spaces Direct** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-storage-spaces-storage-spaces-direct/) |
+| **Windows Server file servers and storage management** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-file-servers-storage-management/) |
 | **Microsoft Azure Well-Architected Framework - Performance Efficiency** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-performance-efficiency/) |
-| **Implement user authentication and authorization** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-authentication-authorization/) |
 | **Explore the Microsoft identity platform** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-identity-platform/) |
+| **Implement user authentication and authorization** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-authentication-authorization/) |
 | **Implement endpoint data loss prevention (DLP) with Microsoft Purview** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-implement-endpoint-dlp/) |
 | **Deploy using Microsoft Configuration Manager** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-configuration-manager/) |
 | **Implement Windows Server iSCSI** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-iscsi/) |
@@ -2935,8 +2957,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Dyslexia Teaching: Part 3, In partnership with Made By Dyslexia** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/dyslexia-teaching-part-3/) |
 | **Implement Windows Server IaaS VM IP addressing and routing** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-iaas-virtual-machine-ip-addressing-routing/) |
 | **Deploy Devices using Windows Autopilot** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-devices-windows-autopilot/) |
-| **Navigation in a canvas app in Power Apps** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigation-canvas-app/) |
 | **Create a canvas app in Power Apps** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-powerapps/) |
+| **Navigation in a canvas app in Power Apps** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigation-canvas-app/) |
 | **Generate inventory and compliance reports** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/inventory-complinace-reports/) |
 | **Connect to other data in a Power Apps canvas app** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-to-other-data-in-powerapps-canvas-app/) |
 | **Get started using Dataverse** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-cds/) |
@@ -2953,8 +2975,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Implement device compliance** | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-compliance/) |
 | **Utilize Vulnerability Management in Microsoft Defender for Endpoint** | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-threat-vulnerability-management-microsoft-defender-for-endpoint/) |
 | **Manage Windows 365** | Modules | 2026-01-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-365/) |
-| **Create agents in Microsoft Copilot Studio** | Learningpaths | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/) |
 | **Manage topics in Microsoft Copilot Studio** | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-power-virtual-agents-topics/) |
+| **Create agents in Microsoft Copilot Studio** | Learningpaths | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/) |
 | **Implement Windows security enhancements with Microsoft Defender for Endpoint** | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-10-security-enhancements-with-microsoft-defender-for-endpoint/) |
 | **Implement scale and high availability with Windows Server VM** | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-scale-high-availability-windows-server-virtual-machine/) |
 | **Deploy and update applications** | Modules | 2026-01-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-applications/) |
@@ -2971,8 +2993,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Customize Windows Server IaaS Virtual Machine images** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-windows-server-iaas-virtual-machine-images/) |
 | **Just Enough Administration in Windows Server** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/just-enough-administration-windows-server/) |
 | **Improve business performance with AI Builder** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/improve-business-performance-ai-builder/) |
-| **Use AI Builder in Power Automate** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-power-automate/) |
 | **Automate a business process using Power Automate** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-process-power-automate/) |
+| **Use AI Builder in Power Automate** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-power-automate/) |
 | **Implement virtual machine host security in Azure** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-host-security/) |
 | **Learn how Microsoft supports secure software development as part of a cybersecurity solution** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-software-development-for-cybersecurity/) |
 | **Microsoft Azure Well-Architected Framework - Security** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/) |
@@ -2984,11 +3006,11 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Develop solutions that use Azure Cosmos DB** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-develop-solutions-that-use-azure-cosmos-db/) |
 | **Explore Azure Cosmos DB** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/) |
 | **Guided project -  Create a DevOps Assistant with the Semantic Kernel SDK** | Modules | 2026-01-26 | N/A |
-| **Migrate application workloads and data to Azure** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-application-workloads-data-azure/) |
 | **Migrate ASP.NET Apps to Azure** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-dotnet-apps-azure/) |
+| **Migrate application workloads and data to Azure** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-application-workloads-data-azure/) |
 | **Migrate SQL Server workloads to Azure SQL Database** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-sql-workloads-azure-sql-databases/) |
-| **Implement containerized solutions** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-iaas-solutions/) |
 | **Manage container images in Azure Container Registry** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/) |
+| **Implement containerized solutions** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-iaas-solutions/) |
 | **Create a model-driven application in Power Apps** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-app-models-business-processes/) |
 | **Configure forms, charts, and dashboards in model-driven apps** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-model-driven-apps-customer-engagement-apps/) |
 | **Automate the configuration of Windows Server IaaS Virtual Machines** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-configuration-of-windows-server-iaas-virtual-machines/) |
@@ -3021,8 +3043,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Explore Azure Blob storage** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/) |
 | **Manage identity for projects, pipelines, and agents** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-identity-projects-pipelines-agents/) |
 | **Manage resources in Azure** | Learningpaths | 2026-01-25 | N/A |
-| **Control and organize Azure resources with Azure Resource Manager** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-and-organize-with-azure-resource-manager/) |
 | **Implement resource management security in Azure** | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-resource-mgmt-security/) |
+| **Control and organize Azure resources with Azure Resource Manager** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-and-organize-with-azure-resource-manager/) |
 | **Work with entities and variables in Microsoft Copilot Studio** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-virtual-agents-entities/) |
 | **Introduction to AD DS** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-ad-ds/) |
 | **Implement Azure App Configuration** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/) |
@@ -3041,8 +3063,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Run prompts with Semantic Kernel** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-plugins-semantic-kernel/) |
 | **Create Semantic Kernel plugins** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/give-your-ai-agent-skills/) |
 | **Run container images in Azure Container Instances** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-run-container-images-azure-container-instances/) |
-| **Accelerate app development by using GitHub Copilot** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/accelerate-app-development-using-github-copilot/) |
 | **Develop code features using GitHub Copilot tools** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-code-features-using-github-copilot-tools/) |
+| **Accelerate app development by using GitHub Copilot** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/accelerate-app-development-using-github-copilot/) |
 | **Administer Active Directory Domain Services** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/administer-active-directory-domain-services/) |
 | **Deploy and manage Active Directory Domain Services domain controllers** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-active-directory-domain-services-domain-controllers/) |
 | **Implement Group Policy Objects** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-group-policy-objects/) |
@@ -3053,8 +3075,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Work with Azure Blob storage** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-azure-blob-storage/) |
 | **Introduction to Microsoft Sentinel** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-sentinel/) |
 | **Enroll devices using Microsoft Configuration Manager** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-devices-use-endpoint-configuration-manager/) |
-| **Learning Accelerators for educators** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/learning-accelerators-for-educators/) |
 | **Build social and emotional skills in your classroom community with Reflect** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-sel-skills-with-reflect/) |
+| **Learning Accelerators for educators** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/learning-accelerators-for-educators/) |
 | **Introduction to data engineering on Azure** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-data-engineering-azure/) |
 | **Get started with data engineering on Azure** | Learningpaths | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-data-engineering/) |
 | **Guided project - Administer Active Directory Domain Services** | Modules | 2026-01-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-administer-active-directory-domain-services/) |
@@ -3116,8 +3138,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Analyze text with Azure Language** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/) |
 | **Create question answering solutions with Azure Language** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/) |
 | **Develop an AI agent with Microsoft Agent Framework** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-with-semantic-kernel/) |
-| **Introduction to GitHub administration** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/) |
 | **GitHub fundamentals - Administration basics and product features Part 1 of 2** | Learningpaths | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-administration-products/) |
+| **Introduction to GitHub administration** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/) |
 | **Configure Azure Blob Storage** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/) |
 | **Custom named entity recognition** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-name-entity-recognition/) |
 | **Translate text with Azure Translator service** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/) |
@@ -3160,8 +3182,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Perform analytics in Power BI** | Modules | 2026-01-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/) |
 | **Understand the Transformer architecture and explore large language models in Azure Machine Learning** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-foundation-models-in-model-catalog/) |
 | **Work with generative artificial intelligence (AI) models in Azure Machine Learning** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-generative-models-azure-machine-learning/) |
-| **Manage compliance with Microsoft Purview for Microsoft 365 Copilot** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-data-compliance/) |
 | **Govern and protect sensitive information in the age of AI** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-govern-ai/) |
+| **Manage compliance with Microsoft Purview for Microsoft 365 Copilot** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-data-compliance/) |
 | **Explore PostgreSQL architecture** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-postgresql-architecture/) |
 | **Create and manage Insider Risk Management policies** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-create-manage-insider-risk-policy/) |
 | **Manage and secure Power BI** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-secure-power-bi/) |
@@ -3181,15 +3203,15 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Identify and mitigate AI data security risks** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-identify-mitigate-ai-risks/) |
 | **Scope report design requirements** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-requirements/) |
 | **Learn how Microsoft supports data discovery, classification, and protection as part of a cybersecurity solution** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-identification-cybersecurity/) |
-| **Prevent data loss with Microsoft Purview** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-prevent-data-loss/) |
 | **Implement information protection and data loss prevention by using Microsoft Purview** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-information-protection-data-loss-prevention/) |
+| **Prevent data loss with Microsoft Purview** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-prevent-data-loss/) |
 | **Implement information protection and data loss prevention with Microsoft Purview** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-exercise-information-protection-data-loss-prevention/) |
 | **Enhance Power BI report designs for the user experience** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/) |
 | **Apply sensitivity labels for data protection** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-manage-sensitivity-labels/) |
 | **MD-102 Explore endpoint management** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-endpoint-management/) |
 | **Manage Microsoft Entra identities** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-active-directory-identities/) |
-| **Mitigate threats using Microsoft Defender XDR** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-365-defender/) |
 | **Safeguard your environment with Microsoft Defender for Identity** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-threat-safeguard/) |
+| **Mitigate threats using Microsoft Defender XDR** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-365-defender/) |
 | **Guided project - Deploy and manage a container app using Azure Container Apps** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-container-app-using-azure-container-apps/) |
 | **Explore the Enterprise Desktop** | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-enterprise-desktop/) |
 | **Create and configure sensitivity labels with Microsoft Purview** | Modules | 2026-01-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-protect-information/) |
@@ -3233,8 +3255,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Explore Azure Synapse Studio** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-synapse-studio/) |
 | **Create vendor invoice for resource non-stocked deployment in Dynamics 365 Project Operations** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vendor-invoice-resource-non-stocked/) |
 | **Introduction to Viva Learning** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-learning-introduction/) |
-| **Extend Microsoft 365 Copilot in .NET** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility/) |
 | **Extend Microsoft 365 Copilot in TypeScript** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility-typescript/) |
+| **Extend Microsoft 365 Copilot in .NET** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility/) |
 | **Get started with Microsoft 365 Copilot extensibility** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-extensibility-intro/) |
 | **Get to know Microsoft Azure cloud platform: An overview for business professionals** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-know-microsoft-azure-cloud-platform-business-professionals/) |
 | **Describe the business benefits of Azure** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-benefits-azure/) |
@@ -3272,8 +3294,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Introduce AI and data science in STEM education with FarmBeats for Students** | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduce-ai-data-science-stem-farmbeats-students/) |
 | **Get tips and tricks for teaching DP-900 Microsoft Azure Data Fundamentals** | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-dp-900-microsoft-azure-data-fundamentals/) |
 | **Describe the concepts behind Microsoft Entra Verified ID** | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-verified-id-concepts/) |
-| **Get started with cost accounting in Dynamics 365 Finance** | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-cost-accounting-dyn365-finance/) |
 | **Get started with cost accounting for supply chains in Dynamics 365 Finance** | Learningpaths | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) |
+| **Get started with cost accounting in Dynamics 365 Finance** | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-cost-accounting-dyn365-finance/) |
 | **Get started with Microsoft 365 Copilot for Service** | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-copilot-for-service/) |
 | **HoloLens 2 fundamentals: develop mixed reality applications** | Learningpaths | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/beginner-hololens-2-tutorials/) |
 | **Add Azure AI services to your mixed reality project** | Modules | 2026-01-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-speech-services-tutorials-mrtk/) |
@@ -3293,8 +3315,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Create Power Platform solutions with AI and Copilot** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-solutions/) |
 | **Build a Power Pages website for a real estate solution with Copilot in Power Pages** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-website-real-estate-power-pages-copilot/) |
 | **Create a copilot for a real estate solution using natural language in Copilot Studio** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilot-real-estate-natural-language/) |
-| **Host a head-to-head challenge in Minecraft Education** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/host-head-to-head-challenge-minecraft-esports/) |
 | **Minecraft Esports Teacher Academy** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-esports-teacher-academy/) |
+| **Host a head-to-head challenge in Minecraft Education** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/host-head-to-head-challenge-minecraft-esports/) |
 | **Build challenges in Minecraft esports** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-challenges-minecraft-esports/) |
 | **Minecraft in esports** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/minecraft-esports/) |
 | **Get started with development in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/development-get-started-business-central/) |
@@ -3304,19 +3326,19 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Design a Modern Data Warehouse using Azure Synapse Analytics** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-modern-data-warehouse-using-azure-synapse-analytics/) |
 | **Get started with Dynamics 365 Commerce channels** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-commerce-channels/) |
 | **Get started with B2B e-commerce in Dynamics 365 Commerce** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-business-to-business-commerce/) |
-| **Get started with Delegates** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-delegates/) |
 | **Implement delegates and events** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/delegates-events-exceptions/) |
+| **Get started with Delegates** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-delegates/) |
 | **Introduction to Secure Network Infrastructure with Azure network security** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-networking-infrastructure/) |
 | **Introduction to Azure Firewall Manager** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-firewall-manager/) |
 | **Explore concepts of data analytics** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-concepts-of-data-analytics/) |
-| **Minecraft Student Ambassador program** | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-student-ambassador-program/) |
 | **Work remotely with the Minecraft Student Ambassador program** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-remotely-minecraft-student-ambassador-program/) |
+| **Minecraft Student Ambassador program** | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-student-ambassador-program/) |
 | **Keep students safe in the Minecraft Student Ambassador program** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/keep-students-safe-minecraft-student-ambassador-program/) |
 | **Plan your year in the Minecraft Student Ambassador program** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-your-year/) |
 | **Work with your IT team and the Minecraft Student Ambassador program** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-it-team-minecraft-student-ambassador-program/) |
 | **Become a Microsoft Learn contributor** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/become-learn-contributor/) |
-| **Microsoft for Sustainability overview** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-sustainability-overview/) |
 | **Get started with Microsoft for Sustainability** | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sustainability/) |
+| **Microsoft for Sustainability overview** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-sustainability-overview/) |
 | **Evaluating generative AI applications** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-generative-ai-apps/) |
 | **Evaluate generative AI applications** | Learningpaths | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/evaluate-generative-ai-apps/) |
 | **Implement class properties and methods** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-class-properties-methods/) |
@@ -3334,8 +3356,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Add new objects to Dynamics 365 Business Central** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-new-objects/) |
 | **Introduction to the development process in Dynamics 365 Business Central** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-development-process/) |
 | **Initialize data during extension installation in Dynamics 365 Business Central** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/initialize-data-extension-installation/) |
-| **Identify vulnerabilities that ransomware can exploit** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-identify-entry-points/) |
 | **Examine ransomware and extortion-based threats** | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/ransomware-basics/) |
+| **Identify vulnerabilities that ransomware can exploit** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-identify-entry-points/) |
 | **Define ransomware and extortion-based security threats** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-extortion-based-threats/) |
 | **Recover from ransomware attacks** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/ransomware-recover/) |
 | **Choose a budgeting tool that fits your preferences and financial goals** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-budgeting-tool/) |
@@ -3344,8 +3366,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Create a personalized savings plan to work toward a financial goal** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-personalized-savings-plan/) |
 | **Understand Azure NetApp Files essentials** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-essentials/) |
 | **Understand how Azure NetApp Files provides volumes as a service** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-volumes-service/) |
-| **Student and school success - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/student-school-success-education-transformation-framework/) |
 | **Education Transformation Framework** | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/education-transformation-framework/) |
+| **Student and school success - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/student-school-success-education-transformation-framework/) |
 | **Teaching and learning - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/teaching-learning-education-transformation-framework/) |
 | **Leadership and policy - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/leadership-policy-education-transformation-framework/) |
 | **Intelligent environments - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-environments-education-transformation-framework/) |
@@ -3360,8 +3382,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Challenge project - Building an Augmented Reality app for HoloLens 2** | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-building-augmented-reality-app-hololens-2/) |
 | **Develop search strategies with Search Coach and Search Progress** | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-search-strategies-search-coach-search-progress/) |
 | **Microsoft for Sovereignty overview** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sovereignty-overview/) |
-| **Microsoft Sustainability Manager concepts** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-cloud-sustainability/) |
 | **Get started with Microsoft Sustainability Manager** | Learningpaths | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sustainability-manager/) |
+| **Microsoft Sustainability Manager concepts** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-cloud-sustainability/) |
 | **Extend existing table and page objects in Dynamics 365 Business Central** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-tables-page-objects/) |
 | **Designing for mixed reality** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-mixed-reality-design/) |
 | **Build your first canvas app with Power Apps** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-canvas-app/) |
@@ -3369,16 +3391,16 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Manage your organization with Dynamics 365 Human Resources** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-organization/) |
 | **Manage personnel with Dynamics 365 Human Resources** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-personnel/) |
 | **Introduction to Azure hybrid cloud services** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-hybrid-services/) |
-| **Design an accident tracking app in Power Apps** | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-accident-tracking/) |
 | **Build the Dataverse table schema for the model-driven app** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-dataverse-table-structure/) |
+| **Design an accident tracking app in Power Apps** | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-accident-tracking/) |
 | **Transform a business process to a model-driven app** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/model-driven-app-solution/) |
 | **Customize views and forms for model-driven apps** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-view-forms/) |
 | **Deploy to multiple Azure environments by using JSON ARM template features** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/modify-azure-resource-manager-template-reuse/) |
 | **Create your first Q# program with the Quantum Development Kit** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/qsharp-create-first-quantum-development-kit/) |
 | **Connect to virtual machines through the Azure portal by using Azure Bastion** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-vm-with-azure-bastion/) |
 | **Introduction to building copilots for startups** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-copilots-for-startups/) |
-| **An AI toolbox for trainers** | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-toolbox-for-trainers/) |
 | **Training with AI tools** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/training-with-ai-tools/) |
+| **An AI toolbox for trainers** | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-toolbox-for-trainers/) |
 | **Use AI tools to create an inclusive learning environment** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-tools-to-create-inclusive-learning-environment/) |
 | **Implement AI tools into a training environment** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ai-tools-into-training-environment/) |
 | **Streamline training plans with AI tools** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/streamline-training-plans-with-ai-tools/) |
@@ -3405,8 +3427,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Architect API integration in Azure** | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-api-integration/) |
 | **Manage your generative AI APIs with Azure API Management** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/api-management/) |
 | **Implement generative AI guardrails with Azure AI Content Safety** | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/moderate-content-detect-harm-azure-ai-content-safety/) |
-| **Go to market through the commercial marketplace** | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/go-to-market-commercial-marketplace/) |
 | **Sell through the commercial marketplace** | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/sell-through-commercial-marketplace/) |
+| **Go to market through the commercial marketplace** | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/go-to-market-commercial-marketplace/) |
 | **Overview of Dynamics 365 Sales Professional** | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/overview-d365-sales-professional/) |
 | **Stay current with Windows devices and Microsoft 365 Apps** | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-stay-current/) |
 | **Plan to deploy updates for Windows clients and Microsoft 365 apps** | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-plan/) |
@@ -3432,8 +3454,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Introduction to Azure hybrid connectivity services** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-hybrid-connectivity-services/) |
 | **Introduction to Azure ExpressRoute** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-expressroute/) |
 | **Introduction to Azure Advisor** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-advisor/) |
-| **Power Automate: Automation - Online Workshop** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
 | **Create subflows and web automation with Power Automate for desktop - Online workshop** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-subflows-web-automation-online-workshop/) |
+| **Power Automate: Automation - Online Workshop** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
 | **Integrate with Microsoft Teams to get approvals - Online workshop** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-teams-approval-online-workshop/) |
 | **Add an AI model to process invoice forms - Online workshop** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-ai-model-process-invoice-online-workshop/) |
 | **Integrate with cloud flows - Online workshop** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-cloud-flows-online-workshop/) |
@@ -3490,8 +3512,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Enrich the learning experience in the Microsoft Edge browser** | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/enrich-learning-experience-microsoft-edge-browser/) |
 | **Stay organized and find resources with Microsoft Edge** | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/stay-organized-find-resources-classroom-microsoft-edge/) |
 | **Set up Microsoft Edge for learning and teaching** | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-microsoft-edge-learning-teaching/) |
-| **Monitor hybrid virtual machines, containers, and network resources** | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-hybrid-virtual-machines-containers-network/) |
 | **Design and implement network monitoring** | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-network-monitoring/) |
+| **Monitor hybrid virtual machines, containers, and network resources** | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-hybrid-virtual-machines-containers-network/) |
 | **Bring Azure innovation to your hybrid environments with Azure Arc** | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-hybrid-infrastructure-with-azure-arc/) |
 | **Monitor your hybrid and multicloud machines through Azure Arc-enabled servers** | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-azure-arc-enabled-servers/) |
 | **Operationalize your Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/operationalize-azure-data-factory-pipelines/) |
@@ -3573,8 +3595,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Customize layout in .NET MAUI XAML pages** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-xaml-pages-layout/) |
 | **Collaborate with others with Markdown and GitHub Pages** | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/collaborate-markdown-github-pages/) |
 | **Create and host web sites by using GitHub Pages** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-host-web-sites-github-pages/) |
-| **Implement Dynamics 365 Projects** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-dynamics-365-projects/) |
 | **Application lifecycle management for Dynamics 365** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-lifecycle-management-dynamics-365/) |
+| **Implement Dynamics 365 Projects** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-dynamics-365-projects/) |
 | **Test your Dynamics 365 implementation** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-dynamics-365-implementation/) |
 | **Document your Dynamics 365 solution for the customer** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-dynamics-365-solution-customer/) |
 | **Design the Dynamics 365 deployment** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dynamics-365-deployment/) |
@@ -3593,8 +3615,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Increase educator adoption of search tools** | Modules | 2025-12-30 | N/A |
 | **Challenge project - Build a minigame with GitHub Copilot and Python** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/) |
 | **Extract invoice data with AI Builder’s prebuilt model** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-invoice-processing/) |
-| **Work with the Microsoft Dynamics 365 Business Central user interface** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-user-interface-dynamics-365-business-central/) |
 | **User interface essentials in Dynamics 365 Business Central** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/user-interface-dynamics-365-business-central/) |
+| **Work with the Microsoft Dynamics 365 Business Central user interface** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-user-interface-dynamics-365-business-central/) |
 | **Teach cybersecurity concepts with Minecraft Education** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-cybersecurity-concepts-minecraft-education/) |
 | **Guide to Secure .NET Development with OWASP Top 10** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/owasp-top-10-for-dotnet-developers/) |
 | **Design a machine learning solution** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-machine-learning-solution/) |
@@ -3623,18 +3645,18 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Deploy a Java web app to a Tomcat server on Azure App Service** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-java-webapp-to-app-service-linux/) |
 | **Develop confident presenters with Speaker Progress** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-confident-presenters-speaker-progress/) |
 | **Get started with Asset Management for Dynamics 365 Supply Chain Management** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-asset-management/) |
-| **Orchestrate containers for cloud-native apps with AKS** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-native-apps-orchestrate-containers/) |
 | **Create cloud native apps with Azure and open-source software** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-cloud-native-apps-with-azure-open-source/) |
+| **Orchestrate containers for cloud-native apps with AKS** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/cloud-native-apps-orchestrate-containers/) |
 | **Introduction to cloud-native apps on Azure** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-cloud-native-apps/) |
-| **MD-100 Configure data access and usage** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-data-access-usage/) |
 | **Configure and manage file access** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-file-access/) |
+| **MD-100 Configure data access and usage** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-data-access-usage/) |
 | **Explore Windows client file systems** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-client-file-systems/) |
 | **Manage user files** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-user-files/) |
 | **MD-100 Troubleshoot the Windows client operating system and apps** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-windows-client-operating-system-apps/) |
 | **Troubleshoot operating system service issues** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-operating-system-service-issues/) |
 | **Use alternative interfaces for Dynamics 365 Business Central** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/alternative-interfaces-dynamics-365-business-central/) |
-| **Transform your business applications with fusion development** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-applications-with-fusion-development/) |
 | **Integrate OpenAPI-enabled Web APIs with Azure API Management through Visual Studio** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-openapi-enabled-web-api-with-apim-and-visual-studio/) |
+| **Transform your business applications with fusion development** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-applications-with-fusion-development/) |
 | **Build a Power Apps component** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-apps-component/) |
 | **Transform business software authoring with fusion development teams** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-business-software-authoring-with-fusion-dev/) |
 | **MD-100 Configure threat protection** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-threat-protection/) |
@@ -3662,8 +3684,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Improve your reliability with modern operations practices: Incident response** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-reliability-incidents/) |
 | **Simulate mouse and keyboard actions by using Power Automate for desktop** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-mouse-keyboard/) |
 | **Use input and output variables - Online workshop** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-input-output-online-workshop/) |
-| **Introduction to Azure Virtual WAN** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-virtual-wan/) |
 | **Introduction to key Azure network security services** | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-azure-networking-services/) |
+| **Introduction to Azure Virtual WAN** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-virtual-wan/) |
 | **Choose the best service level of Azure NetApp Files for your high-performance computing (HPC) applications** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-service-level-azure-netapp-files-hpc-applications/) |
 | **Create a UI in a .NET MAUI app by using XAML** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-user-interface-xaml/) |
 | **Challenge Project — Create a Business Model for your startup using Microsoft Copilot** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-use-generative-ai-to-create-business-model-startup/) |
@@ -3688,8 +3710,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Introduction to Azure DNS** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-dns/) |
 | **Introduction to Azure network foundation services** | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-network-foundation-services/) |
 | **Recognize text with AI Builder** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-text-recognition/) |
-| **Introduction to artificial intelligence for trainers** | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-artificial-intelligence-for-trainers/) |
 | **Use AI-powered tools for training** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-powered-tools-for-teaching/) |
+| **Introduction to artificial intelligence for trainers** | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-artificial-intelligence-for-trainers/) |
 | **Architect network infrastructure in Azure** | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-network-infrastructure/) |
 | **Distribute your services across Azure virtual networks and integrate them by using virtual network peering** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-vnets-with-vnet-peering/) |
 | **Manage users and groups** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-users-groups/) |
@@ -3714,8 +3736,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **MD-100 Troubleshoot hardware and drivers** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-hardware-drivers/) |
 | **Explore physical hardware troubleshooting** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-physical-hardware-troubleshooting/) |
 | **Troubleshoot Windows startup** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-windows-startup/) |
-| **Introduction to AI security testing** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-security-testing/) |
 | **AI security fundamentals** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-security-fundamentals/) |
+| **Introduction to AI security testing** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-security-testing/) |
 | **Fundamentals of AI security** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/fundamentals-ai-security/) |
 | **Define a Microsoft AI strategy to create business value in retail** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-retail/) |
 | **Discover AI for leaders in retail** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-retail/) |
@@ -3723,8 +3745,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Design an IP addressing schema for your Azure deployment** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ip-addressing-for-azure/) |
 | **Uncover new data insights with AI** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/uncover-new-data-insights-ai/) |
 | **Introduction to Azure Machine Learning authentication and authorization** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-machine-learning-auth/) |
-| **Manage the lifecycle of your projects on GitHub** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-project-lifecycle-github/) |
 | **Automate DevOps processes by using GitHub Apps** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-devops-github-apps/) |
+| **Manage the lifecycle of your projects on GitHub** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-project-lifecycle-github/) |
 | **Build community-driven software projects on GitHub** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-community-driven-projects-github/) |
 | **Create an open-source program by using GitHub best practices** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-open-source-program-github/) |
 | **Get started with production control in Dynamics 365 Supply Chain Management** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-production-control-dyn365-supply-chain-mgmt/) |
@@ -3739,15 +3761,15 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Define a Microsoft AI strategy to create business value in manufacturing** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-manufacturing/) |
 | **Discover AI for leaders in manufacturing** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-manufacturing/) |
 | **Developing in the Windows Subsystem for Linux with Visual Studio Code** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/developing-in-wsl/) |
-| **Work with different technologies in Power Automate for desktop** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-work-different-technologies/) |
 | **Control file and folder handling in Power Automate for desktop** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-files-folders-handling/) |
-| **Exploring basic computer concepts** | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-basic-computer-concepts/) |
+| **Work with different technologies in Power Automate for desktop** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-work-different-technologies/) |
 | **Investigate the history of app development** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/investigate-history-app-development/) |
+| **Exploring basic computer concepts** | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-basic-computer-concepts/) |
 | **Explore computers** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-computers/) |
 | **Discover the basics of computing** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-basics-computing/) |
 | **Explore security** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-security/) |
-| **Purchase Azure savings plan for compute ** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-savings-plan-for-compute/) |
 | **Control Azure spending and manage bills with Microsoft Cost Management + Billing** | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/control-spending-manage-bills/) |
+| **Purchase Azure savings plan for compute ** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-savings-plan-for-compute/) |
 | **Configure and manage costs as a Microsoft partner by using Microsoft Cost Management** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-costs-partner-cost-management/) |
 | **Optimize Azure costs with data analysis in Power BI** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-costs-data-analysis-powerbi/) |
 | **Microsoft Azure Well-Architected Framework - Cost Optimization** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/) |
@@ -3760,8 +3782,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Challenge project - Add image analysis and generation capabilities to your application** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-add-image-analysis-generation-to-app/) |
 | **Manage software delivery by using a release based workflow on GitHub** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/release-based-workflow-github/) |
 | **Govern your hybrid and multicloud machines through Azure Arc-enabled servers** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-azure-arc-enabled-servers/) |
-| **Differentiation in the classroom using the built-in tools in Office 365 and Windows** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/differentiation-classroom-built-in-tools-office-365-windows/) |
 | **The inclusive classroom: Find the correct learning tools to help all students achieve more** | Learningpaths | 2025-12-26 | N/A |
+| **Differentiation in the classroom using the built-in tools in Office 365 and Windows** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/differentiation-classroom-built-in-tools-office-365-windows/) |
 | **Introduction to Dynamics 365 Commerce** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/dynamics-365-commerce-introduction/) |
 | **Plan and deploy Azure Arc-enabled servers at scale** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-deploy-azure-arc-enabled-servers/) |
 | **Manage Windows Server file servers** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-windows-server-file-servers/) |
@@ -3781,20 +3803,20 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Get help and learn more about finance and operations apps** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-help-finance-operations/) |
 | **Control Azure services with the CLI** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-azure-services-with-cli/) |
 | **Visualize data with Dataverse views** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/visualize-data/) |
-| **Drive value and maximize the impact of Microsoft 365 Copilot within your organization** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/phase-three-drive-value/) |
 | **MS-4007: Discover how to drive enablement of Microsoft 365 Copilot in your organization** | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-how-drive-adoption-microsoft-copilot-m365/) |
+| **Drive value and maximize the impact of Microsoft 365 Copilot within your organization** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/phase-three-drive-value/) |
 | **Onboard and empower your employees to use Microsoft 365 Copilot efficiently** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/phase-two-onboard/) |
 | **Envision a successful adoption of Microsoft 365 Copilot** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/phase-one-envision/) |
 | **Explore user enablement strategies for adopting Microsoft 365 Copilot** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-adoption-framework/) |
 | **Extend and optimize Microsoft 365 Copilot in your organization** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-optimize-copilot-m365/) |
 | **Use Power Automate for desktop to interact with windows and applications** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-ui-automation/) |
-| **Deploy a containerized application on Azure Kubernetes Service** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/aks-deploy-container-app/) |
 | **Introduction to Kubernetes on Azure** | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-kubernetes-on-azure/) |
+| **Deploy a containerized application on Azure Kubernetes Service** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/aks-deploy-container-app/) |
 | **Tailoring trainings with AI** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/tailoring-trainings-with-ai/) |
 | **Design a machine learning operations solution** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-machine-learning-operations-solution/) |
 | **Manage process mining projects** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-process-mining/) |
-| **Interactively debug .NET apps with the Visual Studio Code debugger** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-debug/) |
 | **Build .NET applications with C#** | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-dotnet-applications-csharp/) |
+| **Interactively debug .NET apps with the Visual Studio Code debugger** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-debug/) |
 | **From inbox to impact: Improve your email workflows with AI** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/from-inbox-impact-improve-your-email-workflows-ai/) |
 | **Microsoft Learn for Educators course planning** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-learn-educators-course-plan/) |
 | **Hyperautomation with insights from process mining** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/hyperautomation-process-mining/) |
@@ -3802,29 +3824,29 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Troubleshoot device driver failures** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-device-driver-failures/) |
 | **Integrate a Power Apps app with Power Automate - Online Workshop** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-power-apps-online-workshop/) |
 | **Create a machine ordering app with Power Apps - Online Workshop** | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-apps-online-workshop/) |
-| **Build a scalable application with Virtual Machine Scale Sets** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-app-with-scale-sets/) |
 | **Architect compute infrastructure in Azure** | Learningpaths | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-compute-infrastructure/) |
+| **Build a scalable application with Virtual Machine Scale Sets** | Modules | 2025-12-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-app-with-scale-sets/) |
 | **Digitally transform with Dynamics 365** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/digitally-transform-with-dynamics-365/) |
 | **Onboard to Microsoft Learn for Educators program** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/onboard-microsoft-learn-educators-program/) |
 | **Automate GitHub by using GitHub Script** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-github-using-github-script/) |
 | **Automate an approval process in Power Automate** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/approvals-power-automate/) |
-| **Introduction to Microsoft Dynamics 365 Supply Chain Management** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-microsoft-dynamics-365-supply-chain-management/) |
 | **Describe Dynamics 365 Supply Chain Management core capabilities** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-general-capabilities-of-microsoft-dynamics/) |
+| **Introduction to Microsoft Dynamics 365 Supply Chain Management** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-microsoft-dynamics-365-supply-chain-management/) |
 | **Enhance nonprofit volunteer management with Microsoft Copilot** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-nonprofit-volunteer-management-microsoft-copilot/) |
 | **Create a Dataverse table for the machine ordering app  - Online workshop** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/dataverse-lab-manual-online-workshop/) |
 | **Create a model-driven Power Apps app for machine ordering - Online Workshop** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-apps-model-driven-apps-online-workshop/) |
 | **Introduction to Azure Bot Service and Bot Framework Composer** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-bot-service-bot-framework-composer/) |
 | **Document and test your Power Apps application** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-test-powerapps-app/) |
-| **Bringing it all together for engaging virtual events in Microsoft 365** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-bring-all-together-engaging-virtual-events/) |
 | **Deliver engaging and accessible virtual events with Microsoft Teams and Microsoft 365** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-virtual-events-fundamentals/) |
+| **Bringing it all together for engaging virtual events in Microsoft 365** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-bring-all-together-engaging-virtual-events/) |
 | **Design a successful virtual event using Microsoft 365** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-design-successful-virtual-events/) |
 | **Introduction to delivering virtual events using Microsoft Teams and Microsoft 365** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-introduction-deliver-virtual-events-using-microsoft-teams/) |
 | **Discover AI for leaders in healthcare** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-healthcare-industry/) |
 | **Define a Microsoft AI strategy to create business value in healthcare** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-healthcare/) |
 | **Foundations of user experience and design thinking** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/ux-design/) |
 | **Get started with Azure Stream Analytics** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-data-streaming/) |
-| **Evaluate deployment methods** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-deployment-methods/) |
 | **MD-100 Install the Windows client** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/install-windows-client/) |
+| **Evaluate deployment methods** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-deployment-methods/) |
 | **Align requirements with cloud types and service models in Azure** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/align-requirements-in-azure/) |
 | **Leverage data for action with Microsoft Education Insights** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/leverage-data-for-action-microsoft-insights/) |
 | **Think like a Maker series: Plan and deploy your Power App** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-deploy/) |
@@ -3860,8 +3882,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Make your meetings more productive with AI** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/make-your-meetings-more-productive-ai/) |
 | **Email with Power Automate** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/email-power-automate/) |
 | **Process custom documents with AI Builder** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-form-processing/) |
-| **Introduction to AI in Azure** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/) |
 | **Get started with machine learning in Azure** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/) |
+| **Introduction to AI in Azure** | Learningpaths | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/) |
 | **Introduction to large language models** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-large-language-models/) |
 | **Settle competing commits by using merge conflict resolution on GitHub** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/resolve-merge-conflicts-github/) |
 | **Describe inventory and warehousing capabilities in Dynamics 365 Supply Chain Management** | Modules | 2025-12-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-warehouse-inventory-management-capabilities/) |
@@ -3954,8 +3976,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Introduction to Azure Functions** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-functions/) |
 | **Start your free Dynamics 365 Business Central trial** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/trial-dynamics-365-business-central/) |
 | **Use Microsoft Word and Excel templates with Dataverse** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-word-excel-dataverse/) |
-| **Describe reporting and integration capabilities in finance and operations apps** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-report-integration-use-finance-operations-apps/) |
 | **Introduction to the core capabilities of Microsoft Dynamics 365 finance and operations apps** | Learningpaths | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-dynamics-365-finance-operations-apps/) |
+| **Describe reporting and integration capabilities in finance and operations apps** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-report-integration-use-finance-operations-apps/) |
 | **Describe Dynamics 365 Finance core capabilities** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-dynamics-365-finance-core-capabilities/) |
 | **Discover and use Web APIs with Power Apps** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-web-apis-power-apps/) |
 | **Introduction to Azure Kubernetes Service** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-kubernetes-service/) |
@@ -4016,8 +4038,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Manage general ledger and cash and bank management processes in Dynamics 365 Finance** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-general-ledger-cash-bank-management/) |
 | **Discover Microsoft Intune essentials** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-microsoft-intune-essentials/) |
 | **Create images with generative AI** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-images-with-generative-ai/) |
-| **Explore Dynamics 365 Customer Insights - Journeys** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-marketing/) |
 | **Explore the fundamentals of Microsoft Dynamics 365 Customer Insights** | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/learn-fundamentals-of-microsoft-dynamics-365-marketing/) |
+| **Explore Dynamics 365 Customer Insights - Journeys** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-marketing/) |
 | **Get started with Power Automate for desktop** | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-get-started/) |
 | **Power Automate for desktop development essentials** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-power-automate-desktop-development-essentials/) |
 | **Design a SQL Server migration strategy** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-data-platform-modernization/) |
@@ -4075,8 +4097,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **A guide to artificial intelligence** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/a-guide-to-artificial-intelligence/) |
 | **Create a SaaS offer for the commercial marketplace** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-saas-offer-commercial-marketplace/) |
 | **Intro to Azure DNS Private Resolver** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-dns-private-resolver/) |
-| **Azure Database for MySQL** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-azure-database-for-mysql/) |
 | **Introduction to Azure Database for MySQL** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-database-for-mysql/) |
+| **Azure Database for MySQL** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-azure-database-for-mysql/) |
 | **Develop on a remote machine using SSH in Visual Studio Code** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-on-remote-machine/) |
 | **Get started with Dynamics 365 Intelligent Order Management** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-intelligent-order-management/) |
 | **Implement inheritance and polymorphism** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-inheritance-polymorphism/) |
@@ -4108,8 +4130,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Transition your business to Azure** | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-your-business-azure/) |
 | **Dynamics 365 Finance capabilities** | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-finance-core-capabilities/) |
 | **Describe expense tracking, asset control, and budgeting processes in Microsoft Dynamics 365 Finance** | Modules | 2025-12-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-expense-management-fixed-asset-management/) |
-| **Create an Azure Storage account** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-storage-account/) |
 | **Azure for Researchers part 1: Introduction to Cloud Computing** | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/researcher-introduction-to-cloud-computing/) |
+| **Create an Azure Storage account** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-storage-account/) |
 | **Load/export data and create data views in Dataverse** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/load-export-data-create-data-views/) |
 | **Describe Dynamics 365 Customer Insights - Data** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-marketing-capabilities-2/) |
 | **Combine multiple tables with JOINs in T-SQL** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-multiple-tables-with-joins/) |
@@ -4130,8 +4152,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Apply Viva Glint’s modern approach to engagement for better results** | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-engagement/) |
 | **Empower action for better results with Viva Glint** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-empower-action-better-results-viva-glint/) |
 | **Edit code using any device with Visual Studio Code for the Web** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/edit-code-using-any-device/) |
-| **Teams for education partners (Partner Success Series)** | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/teams-education-partners/) |
 | **AI in Microsoft Teams for Education (Partner Success Series)** | Modules | 2025-12-16 | N/A |
+| **Teams for education partners (Partner Success Series)** | Learningpaths | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/teams-education-partners/) |
 | **Introduction to Azure Site Recovery** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-site-recovery/) |
 | **Explore cybersecurity careers with Minecraft Education-Cyber Defender: Tower Defense** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/cybersecurity-careers-minecraft-education-cyber-defender/) |
 | **Introduction to integration with Dynamics 365 Customer Engagement apps** | Modules | 2025-12-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-integration-customer-engagement-apps/) |
@@ -4140,8 +4162,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Build your first web app with Blazor** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-blazor-web-app/) |
 | **Build accessible SharePoint sites** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-accessible-sharepoint-sites/) |
 | **Manage apps in Power Apps** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-apps-in-powerapps/) |
-| **Interact, share, and collaborate Power BI dashboards – Online workshop** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-share-power-bi/) |
 | **Dashboard in a Day - Online workshop** | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/dashboard-in-a-day/) |
+| **Interact, share, and collaborate Power BI dashboards – Online workshop** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-share-power-bi/) |
 | **Discover commands in PowerShell** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-commands/) |
 | **Introduction to accessibility** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-accessibility/) |
 | **Generate Power Automate for desktop flows by recording** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-power-automate-desktop-recording-features/) |
@@ -4192,8 +4214,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Empower your workforce with Microsoft 365 Copilot: HR Use Case** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-hr/) |
 | **Enhance agents with autonomous capabilities** | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-autonomous-agents/) |
 | **Build an initial agent with Microsoft Copilot Studio** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilots-copilot-studio/) |
-| **Microsoft Intune fundamentals** | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/endpoint-manager-fundamentals/) |
 | **Understand Conditional Access policies using Microsoft Intune** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/policy-security-management-using-microsoft-endpoint-manager/) |
+| **Microsoft Intune fundamentals** | Learningpaths | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/endpoint-manager-fundamentals/) |
 | **Build community with Teams and OneNote** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-community-teams-onenote/) |
 | **Use a framework to identify threats and find ways to reduce or eliminate risk** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/tm-use-a-framework-to-identify-threats-and-find-ways-to-reduce-or-eliminate-risk/) |
 | **Describe shared activities and integration options in Dynamics 365 customer engagement apps** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-common-activities-integration-options/) |
@@ -4259,8 +4281,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Introduction to Microsoft's Responsible AI Approach** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-microsofts-responsible-ai-approach/) |
 | **Describe authentication and authorization in cybersecurity** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-authentication-authorization-cybersecurity/) |
 | **Manage an InnerSource program by using GitHub** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/) |
-| **Explore Azure Machine Learning workspace resources and assets** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-machine-learning-workspace-resources-assets/) |
 | **Explore and configure the Azure Machine Learning workspace** | Learningpaths | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-azure-machine-learning-workspace/) |
+| **Explore Azure Machine Learning workspace resources and assets** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-machine-learning-workspace-resources-assets/) |
 | **Train and track machine learning models with MLflow in Microsoft Fabric** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-track-model-fabric/) |
 | **Manage repository changes by using pull requests on GitHub** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/) |
 | **Apply AI Builder Text Recognition in the transportation industry** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-ai-builder-text-recognition-transportation-industry/) |
@@ -4274,8 +4296,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Learn about Viva Glint program design** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-learn-about-viva-glint-program-design/) |
 | **Prepare for a program approval event** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/academic-program-certifications-prepare-program-approval/) |
 | **Use Microsoft accessibility features in education** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-microsoft-accessibility-features-education/) |
-| **Perform hyperparameter tuning with Azure Machine Learning** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-hyperparameter-tuning-azure-machine-learning-pipelines/) |
 | **Optimize model training with Azure Machine Learning** | Learningpaths | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-azure-machine-learning-pipelines-for-automation/) |
+| **Perform hyperparameter tuning with Azure Machine Learning** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-hyperparameter-tuning-azure-machine-learning-pipelines/) |
 | **Analyze and resolve compliance issues using Microsoft Intune** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/compliance-endpoint-manager/) |
 | **Describe application-based threats and how to protect against them** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-application-based-threats-security-controls/) |
 | **Empower your workforce with Microsoft 365 Copilot: IT Use Case** | Modules | 2025-12-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-prompting-copilot-it/) |
@@ -4324,10 +4346,10 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Create C# methods that return values** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-c-sharp-methods-return-values/) |
 | **Get started with Microsoft 365 Copilot Chat** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-microsoft-365-copilot-business-chat/) |
 | **Deploy and consume models with Azure Machine Learning** | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-consume-models-azure-machine-learning/) |
-| **Deploy a model to a managed online endpoint** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-model-managed-online-endpoint/) |
 | **Train and manage a machine learning model with Azure Machine Learning** | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/train-deploy-machine-learning-model/) |
-| **Manage and review models in Azure Machine Learning** | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-review-models-azure-machine-learning/) |
+| **Deploy a model to a managed online endpoint** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-model-managed-online-endpoint/) |
 | **Create and explore the Responsible AI dashboard for a model in Azure Machine Learning** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-compare-models-azure-machine-learning/) |
+| **Manage and review models in Azure Machine Learning** | Learningpaths | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-review-models-azure-machine-learning/) |
 | **Implement exception handling in C# console applications** | Modules | 2025-12-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-exception-handling-c-sharp/) |
 | **Deploy a model to a batch endpoint** | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-model-batch-endpoint/) |
 | **Data visualization and reports in Power BI - Online workshop** | Modules | 2025-12-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-visualization-reports-power-bi/) |
@@ -4369,8 +4391,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Maintain a secure repository by using GitHub best practices** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/) |
 | **Challenge project - Debug a C# console application using Visual Studio Code** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-debug-c-sharp-console-application/) |
 | **Manage and control traffic flow in your Azure deployment with routes** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-network-traffic-flow-with-routes/) |
-| **Work with variable data in C# console applications (Get started with C#, Part 4)** | Learningpaths | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-4/) |
 | **Challenge project - Work with variable data in C#** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-work-variable-data-c-sharp/) |
+| **Work with variable data in C# console applications (Get started with C#, Part 4)** | Learningpaths | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-4/) |
 | **Deliver Results with your Viva Glint Executive Consultation (EC)** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-deliver-results-executive-consultation/) |
 | **Get tips and tricks for teaching MB-220: Microsoft Dynamics 365 Marketing Functional Consultant** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-220-marketing-functional-consultant/) |
 | **Understand Viva Glint’s approach to 360 feedback** | Modules | 2025-12-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-understand-viva-glint-approach-360-feedback/) |
@@ -4400,8 +4422,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Extend Microsoft Viva Connections with application customizers** | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-extend-with-app-customizers/) |
 | **Configure and manage a Microsoft Viva Glint 360 feedback program** | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-configure-manage-viva-glint-360-feedback-program/) |
 | **Customize the presentation of Microsoft Graph Toolkit components by using templates** | Modules | 2025-12-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-toolkit-customize-part-two/) |
-| **Manage identity and access in Microsoft Entra ID** | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-identity-and-access/) |
 | **Manage users and groups in Microsoft Entra ID** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-users-and-groups-in-aad/) |
+| **Manage identity and access in Microsoft Entra ID** | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-identity-and-access/) |
 | **Run a training script as a command job in Azure Machine Learning** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-training-script-command-job-azure-machine-learning/) |
 | **Choose the correct data type in your C# code** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-choose-data-type/) |
 | **Empower your workforce with Microsoft 365 Copilot: Challenge Use Case** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-challenge/) |
@@ -4420,8 +4442,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Extend Microsoft Viva Connections with web parts** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-connections-extend-with-web-parts/) |
 | **Overview of Retail data solutions in Microsoft Fabric** | Modules | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/retail-data-solutions-overview/) |
 | **Get started with Microsoft for Retail** | Learningpaths | 2025-12-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-retail/) |
-| **Experiment with Azure Machine Learning** | Learningpaths | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-machine-learning-model-selection-azure-machine-learning/) |
 | **Find the best classification model with Automated Machine Learning** | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/find-best-classification-model-automated-machine-learning/) |
+| **Experiment with Azure Machine Learning** | Learningpaths | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-machine-learning-model-selection-azure-machine-learning/) |
 | **Track model training in Jupyter notebooks with MLflow** | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/track-model-training-jupyter-notebooks-mlflow/) |
 | **Track model training with MLflow in jobs** | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/train-models-training-mlflow-jobs/) |
 | **Modify the content of strings using built-in string data type methods in C#** | Modules | 2025-12-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-modify-content/) |
@@ -4480,14 +4502,14 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Add logic to C# console applications (Get started with C#, Part 3)** | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-3/) |
 | **Secure a Microsoft Fabric data warehouse** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-data-warehouse-in-microsoft-fabric/) |
 | **Introduction to Azure Application Gateway** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway/) |
-| **Communicate effectively on GitHub using Markdown** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/) |
 | **GitHub Foundations Part 1 of 2** | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-foundations/) |
+| **Communicate effectively on GitHub using Markdown** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/) |
 | **Implement Real-Time Intelligence with Microsoft Fabric** | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-real-time-analytics-microsoft-fabric/) |
 | **Create Real-Time Dashboards with Microsoft Fabric** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-real-time-dashboards-microsoft-fabric/) |
 | **Minecraft 101: Craft a game-based learning classroom** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/craft-game-based-learning-classroom/) |
 | **Empower your workforce with Microsoft 365 Copilot: Legal Use Case** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/empower-workforce-microsoft-365-copilot-legal-use-case/) |
-| **Introduction to Datacenter** | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-datacenter/) |
 | **Describe the best practices for datacenter operations** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-best-practices-datacenter-operations/) |
+| **Introduction to Datacenter** | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-datacenter/) |
 | **Describe the sustainability practices in datacenters** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sustainability-practices-datacenters/) |
 | **Identify key hardware and IT infrastructure components of datacenters** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-key-hardware-it-infrastructure-components/) |
 | **Learn about datacenter design, architecture, and infrastructure management** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/learn-about-datacenter-design/) |
@@ -4536,8 +4558,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Perform a Windows 11 device readiness assessment** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-readiness-assessment/) |
 | **Explore the business value of generative AI solutions** | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-business-value-generative-ai-solutions/) |
 | **Build effective generative AI solutions in your organization** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-effective-generative-ai-solutions-organization/) |
-| **Enhance your productivity with prebuilt Microsoft 365 Copilot agents** | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-productivity-prebuilt-agents/) |
 | **Explore prebuilt Microsoft 365 Copilot agents** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-prebuilt-microsoft-365-copilot-agents/) |
+| **Enhance your productivity with prebuilt Microsoft 365 Copilot agents** | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-productivity-prebuilt-agents/) |
 | **Introduction to declarative agents for Microsoft 365 Copilot** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-intro/) |
 | **Monitor and maintain Microsoft 365 Copilot connectors** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-maintain-microsoft-365-copilot-connectors/) |
 | **Build your first Microsoft 365 Copilot connector using Visual Studio Code** | Modules | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-first-microsoft-365-copilot-connector/) |
@@ -4548,8 +4570,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Transform business workflows with generative AI** | Learningpaths | 2025-11-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-business-workflows-with-ai/) |
 | **Iterate through a code block using for statement in C#** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-for/) |
 | **Branch the flow of code using the switch-case construct in C#** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-switch-case/) |
-| **Explore Azure Storage for non-relational data** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/) |
 | **Introduction to Microsoft Azure Data non-relational data in Azure** | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-non-relational-data/) |
+| **Explore Azure Storage for non-relational data** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/) |
 | **Introduction to Azure Load Balancer** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-load-balancer/) |
 | **Guided project - Develop foreach and if-elseif-else structures to process array data in C#** | Modules | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-arrays-iteration-selection/) |
 | **Create and run simple C# console applications (Get started with C#, Part 2)** | Learningpaths | 2025-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-2/) |
@@ -4579,12 +4601,12 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Prepare for Windows 10 end of support** | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/understanding-windows-10-end-of-support/) |
 | **Windows at work: Elevate IT teams with Windows 11 Pro** | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/win-at-work-it/) |
 | **Understand the foundations of generative AI for business leaders** | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-foundations-generative-ai-business-leaders/) |
-| **Windows 11 Pro Accreditation 2025** | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-11-pro-accreditation-2025/) |
 | **Move forward with Windows 11 Pro post Windows 10 end of support** | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/move-forward-windows-11/) |
+| **Windows 11 Pro Accreditation 2025** | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-11-pro-accreditation-2025/) |
 | **Demonstrate the capabilities of Microsoft Power Automate** | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/demonstrate-capabilities-microsoft-power-automate/) |
 | **Build a Microsoft Power Automate flow** | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-microsoft-power-automate-flow/) |
-| **Create a Microsoft Power Pages site** | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-microsoft-power-pages-site/) |
 | **Demonstrate the capabilities of Microsoft Power Pages** | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/demonstrate-capabilities-microsoft-power-pages/) |
+| **Create a Microsoft Power Pages site** | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-microsoft-power-pages-site/) |
 | **Describe Microsoft Dataverse** | Modules | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-microsoft-dataverse/) |
 | **Manage the Microsoft Power Platform environment** | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-microsoft-power-platform-environment/) |
 | **Describe the business value of Microsoft Power Platform** | Learningpaths | 2025-11-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-business-value-microsoft-power-platform/) |
@@ -4629,8 +4651,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Use Activator in Microsoft Fabric** | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-fabric-activator/) |
 | **Collaborate on presentations using PowerPoint** | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/collaborate-presentations-using-powerpoint/) |
 | **Query a data warehouse in Microsoft Fabric** | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/) |
-| **Describe the identity protection and governance capabilities of Microsoft Entra** | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-identity-protection-governance-capabilities/) |
 | **Introduction to Microsoft Entra** | Learningpaths | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-capabilities-of-microsoft-identity-access/) |
+| **Describe the identity protection and governance capabilities of Microsoft Entra** | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-identity-protection-governance-capabilities/) |
 | **Introduction to generative AI - Exploring the basics** | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-generative-ai-explore-basics/) |
 | **Design a dream destination with AI** | Learningpaths | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-dream-destination-ai/) |
 | **Design a dream destination using Microsoft Copilot** | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dream-destination-ai-copilot/) |
@@ -4721,8 +4743,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Introduction to Microsoft AI agent solutions** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-ai-agent-solutions/) |
 | **Choose the best Microsoft 365 Copilot extensibility path for your scenario** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-microsoft-365-copilot-extensibility-path/) |
 | **Introduction to developing AI agents** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-develop-ai-agents/) |
-| **Combining data from multiple tables: SQL Joins Explained** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-join-tables/) |
 | **Azure Database for PostgreSQL Tutorials** | Learningpaths | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/playground-learning/) |
+| **Combining data from multiple tables: SQL Joins Explained** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-join-tables/) |
 | **Filtering data: The WHERE clause and subqueries** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-where-clause-subqueries/) |
 | **Getting started: An introduction to SQL and reading data** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-simple-select/) |
 | **Organizing data: Using LIMIT, OFFSET, and ORDER BY clauses** | Modules | 2025-11-19 | [Verify](https://learn.microsoft.com/en-us/training/azure-databases/postgresql/basic-sql-limit-offset-order-by/) |
@@ -4744,8 +4766,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Build cybersecurity resilience in K-12 classrooms with Microsoft tools** | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cybersecurity-resilience-k-12-classrooms-microsoft-tools/) |
 | **Best practices for Azure migration and modernization** | Learningpaths | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/best-practices-azure-migration/) |
 | **Accelerate your migration, modernization, and innovation journey to Azure** | Modules | 2025-11-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/accelerate-azure-migration-journey/) |
-| **AZ-104: Monitor and back up Azure resources** | Learningpaths | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-monitor-backup-resources/) |
 | **Protect your virtual machines by using Azure Backup** | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-virtual-machines-with-azure-backup/) |
+| **AZ-104: Monitor and back up Azure resources** | Learningpaths | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-monitor-backup-resources/) |
 | **Introduction to Azure Backup** | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-backup/) |
 | **Get started with Power Automate** | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-flows/) |
 | **Introduction to Microsoft Intune** | Modules | 2025-11-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-endpoint-manager/) |
@@ -4777,10 +4799,10 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Deploy Azure infrastructure by using JSON ARM templates** | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/) |
 | **AZ-104: Prerequisites for Azure administrators** | Learningpaths | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/) |
 | **Install and configure Visual Studio Code** | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/install-configure-visual-studio-code/) |
-| **Describe the function and identity types of Microsoft Entra ID** | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-basic-services-identity-types/) |
 | **MS-900 Introduction to Microsoft 365: Describe Microsoft 365 security and compliance capabilities** | Learningpaths | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-security-compliance-capabilities/) |
-| **Scale AI in your organization** | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-ai/) |
+| **Describe the function and identity types of Microsoft Entra ID** | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-basic-services-identity-types/) |
 | **Transform your business with AI** | Learningpaths | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/transform-your-business-with-microsoft-ai/) |
+| **Scale AI in your organization** | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-ai/) |
 | **Leverage AI tools and resources for your business** | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/leverage-ai-tools/) |
 | **Create business value with AI** | Modules | 2025-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-business-value/) |
 | **Collaborating with Microsoft Teams** | Learningpaths | 2025-11-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/teamwork-specialist/) |
@@ -4822,8 +4844,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Describe the analytics and administrative capabilities available in Microsoft 365** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-analytics-capabilities-microsoft-365/) |
 | **Ask questions and analyze content with Microsoft 365 Copilot** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/ask-analyze-content-with-microsoft-copilot-microsoft-365/) |
 | **Describe collaboration solutions of Microsoft 365** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-collaboration-solutions-microsoft-365/) |
-| **Optimize and extend Microsoft 365 Copilot** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-and-extend-microsoft-365-copilot/) |
 | **Get started with Microsoft 365 Copilot** | Learningpaths | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-microsoft-365-copilot/) |
+| **Optimize and extend Microsoft 365 Copilot** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-and-extend-microsoft-365-copilot/) |
 | **Store and retrieve data using literal and variable values in C#** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-literals-variables/) |
 | **Explore core data concepts** | Modules | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/) |
 | **Introduction to Microsoft Azure Data core data concepts** | Learningpaths | 2025-11-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-core-data-concepts/) |
@@ -4863,8 +4885,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Work with Delta Lake tables in Microsoft Fabric** | Modules | 2025-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-delta-lake-tables-fabric/) |
 | **Write your first C# code** | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-write-first/) |
 | **Use Eventstream in Microsoft Fabric** | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-event-streams-microsoft-fabric/) |
-| **Explore the possibilities with Microsoft 365 Copilot** | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-possibilities-microsoft-365-copilot/) |
 | **Introduction to AI Skills for nonprofits** | Learningpaths | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-skills-for-nonprofits/) |
+| **Explore the possibilities with Microsoft 365 Copilot** | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-possibilities-microsoft-365-copilot/) |
 | **Secure data access in Microsoft Fabric** | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-data-access-in-fabric/) |
 | **AI Fluency** | Learningpaths | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-fluency/) |
 | **Boost your productivity with Microsoft Copilot** | Modules | 2025-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/boost-productivity-with-copilot/) |
@@ -4910,8 +4932,8 @@ This document represents a unified, verifiable list of all 4905 records.
 | **Introduction to generative AI and agents** | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/) |
 | **Explore Generative AI** | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-generative-ai/) |
 | **Describe monitoring tools in Azure** | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/) |
-| **Describe cloud computing** | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/) |
 | **Introduction to Cloud Infrastructure: Describe cloud concepts** | Learningpaths | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/) |
+| **Describe cloud computing** | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/) |
 | **Describe the benefits of using cloud services** | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/) |
 | **Describe cloud service types** | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/) |
 | **Create and draft with Microsoft 365 Copilot** | Modules | 2025-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-draft-content-with-microsoft-copilot-microsoft-365/) |

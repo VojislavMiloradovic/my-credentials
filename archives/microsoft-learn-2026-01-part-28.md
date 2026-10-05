@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 28 of 97
 date_range: 2026-01-02 to 2026-01-04
-total_entries: 52
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-28.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,8 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Introduction to Graph connectors** | Modules | 2026-01-04 | N/A |
-| **Configure a JavaScript application to retrieve Microsoft 365 data by using Microsoft Graph** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-javascript-app/) |
 | **Microsoft Graph Fundamentals** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-fundamentals/) |
 | **Run nonfunctional tests in Azure Pipelines** | Modules | 2026-01-04 | N/A |
 | **Interact with data in Blazor web apps** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-with-data-blazor-web-apps/) |
@@ -58,8 +56,8 @@ artifacts: complete, index
 | **Enrich the learning experience in the Microsoft Edge browser** | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/enrich-learning-experience-microsoft-edge-browser/) |
 | **Stay organized and find resources with Microsoft Edge** | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/stay-organized-find-resources-classroom-microsoft-edge/) |
 | **Set up Microsoft Edge for learning and teaching** | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-microsoft-edge-learning-teaching/) |
-| **Monitor hybrid virtual machines, containers, and network resources** | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-hybrid-virtual-machines-containers-network/) |
 | **Design and implement network monitoring** | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-network-monitoring/) |
+| **Monitor hybrid virtual machines, containers, and network resources** | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-hybrid-virtual-machines-containers-network/) |
 | **Bring Azure innovation to your hybrid environments with Azure Arc** | Learningpaths | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-hybrid-infrastructure-with-azure-arc/) |
 | **Monitor your hybrid and multicloud machines through Azure Arc-enabled servers** | Modules | 2026-01-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-azure-arc-enabled-servers/) |
 | **Operationalize your Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/operationalize-azure-data-factory-pipelines/) |
@@ -67,6 +65,7 @@ artifacts: complete, index
 | **Execute existing SSIS packages in Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/execute-existing-ssis-packages-azure-data-factory/) |
 | **Orchestrate data movement and transformation in Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-data-movement-transformation-azure-data-factory/) |
 | **Populate slowly changing dimensions in Azure Synapse Analytics pipelines** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines/) |
+| **Petabyte-scale ingestion with Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/petabyte-scale-ingestion-azure-data-factory/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-27.md](./microsoft-learn-2026-01-part-27.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-29.md](./microsoft-learn-2026-01-part-29.md)
