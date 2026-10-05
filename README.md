@@ -135,15 +135,16 @@ Showing latest 10 of 1008 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 718
-**Total Verified Skills Mapped:** 2564
+**Total Portfolio Credentials:** 719
+**Total Verified Skills Mapped:** 2566
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 718 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 719 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-05 | [AWS Knowledge: AWS Communication Developer Services Fundamentals - Training Badge](https://www.credly.com/badges/b001a553-a34a-469c-b597-3b8f4428f95b/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-05 | [Kong Gateway Foundations](https://www.credly.com/badges/0af05791-af55-4214-b9ee-f2ce15d2a35c/public_url) | Kong | Credly Verified Badge |
 | 2026-10-04 | [Account Executive](https://www.credly.com/badges/bf5a7533-622c-47c4-af61-137588647308/public_url) | Demandbase | Credly Verified Badge |
 | 2026-10-04 | [Build Smarter AI with Embeddings](https://www.credly.com/badges/3d4cddad-a6f5-4ab6-991c-34d1f9d14b8b/public_url) | IBM SkillsBuild | Credly Verified Badge |
@@ -153,7 +154,6 @@ Showing latest 10 of 718 credentials. View full dataset via [Platform Archive In
 | 2026-10-04 | [Digital Marketing](https://www.credly.com/badges/e0f96371-5798-4e16-8417-405164dabf44/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-04 | [Digital Marketing Manager](https://www.credly.com/badges/a1013828-b7d8-48ae-90b6-ac121fd5d6c7/public_url) | Demandbase | Credly Verified Badge |
 | 2026-10-04 | [Marketing Operations / IT Administrator](https://www.credly.com/badges/1717299e-6bb7-461f-917f-76379e7b4810/public_url) | Demandbase | Credly Verified Badge |
-| 2026-10-04 | [Sales Development Representative](https://www.credly.com/badges/1ae7b88c-c243-4c74-94d9-f8238a11809e/public_url) | Demandbase | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 718 records.
+This document represents a unified, verifiable list of all 719 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-05T12:07:24.370538+00:00 -->
+<!-- retrieved_at: 2026-10-05T22:56:01.452959+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-05 | [AWS Knowledge: AWS Communication Developer Services Fundamentals - Training Badge](https://www.credly.com/badges/b001a553-a34a-469c-b597-3b8f4428f95b/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-05 | [Kong Gateway Foundations](https://www.credly.com/badges/0af05791-af55-4214-b9ee-f2ce15d2a35c/public_url) | Kong | Credly Verified Badge |
 | 2026-10-04 | [Account Executive](https://www.credly.com/badges/bf5a7533-622c-47c4-af61-137588647308/public_url) | Demandbase | Credly Verified Badge |
 | 2026-10-04 | [Build Smarter AI with Embeddings](https://www.credly.com/badges/3d4cddad-a6f5-4ab6-991c-34d1f9d14b8b/public_url) | IBM SkillsBuild | Credly Verified Badge |
