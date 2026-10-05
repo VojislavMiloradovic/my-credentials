@@ -77,8 +77,6 @@ class TestValidationSummary:
             try:
                 from validation_summary import main
 
-                # The main function just prints, doesn't return anything
-                # It should run without error
                 main()
             finally:
                 os.chdir(old_cwd)
@@ -93,7 +91,6 @@ class TestValidationSummary:
             try:
                 from validation_summary import main
 
-                # Should handle missing file gracefully with sys.exit(1)
                 with pytest.raises(SystemExit) as exc_info:
                     main()
                 assert exc_info.value.code == 1
@@ -107,7 +104,6 @@ class TestValidationSummary:
             reports_dir = os.path.join(tmpdir, "validation_reports")
             os.makedirs(reports_dir)
 
-            # Create timestamped filename
             report_path = os.path.join(
                 reports_dir, "cross_artifact_report_20240115_100000.json"
             )
@@ -164,7 +160,6 @@ class TestValidationSummaryOutput:
             os.chdir(tmpdir)
             sys.path.insert(0, tmpdir)
             try:
-                # Capture stdout
                 import io
                 from contextlib import redirect_stdout
 
