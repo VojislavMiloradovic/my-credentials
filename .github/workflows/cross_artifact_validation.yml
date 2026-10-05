@@ -17,9 +17,6 @@ jobs:
   cross-artifact-validation:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    # Don't fail the build on validation errors - just report them
-    # Critical checks are reported but workflow continues
-    continue-on-error: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -36,20 +33,25 @@ jobs:
       - name: Run cross-artifact validator
         run: |
           mkdir -p validation_reports
-          uv run python cross_artifact_validator.py --report validation_reports/cross_artifact_report.json
+          # Keep last 3 reports: rotate by removing oldest if 3+ exist
+          if [ -d validation_reports ]; then
+            ls -t validation_reports/cross_artifact_report_*.json 2>/dev/null | tail -n +4 | xargs -r rm -f
+          fi
+          TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+          uv run python cross_artifact_validator.py --mode strict --report validation_reports/cross_artifact_report_${TIMESTAMP}.json
 
       - name: Upload validation report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: cross-artifact-report
-          path: validation_reports/cross_artifact_report.json
+          path: validation_reports/cross_artifact_report_*.json
           retention-days: 30
 
       - name: Display validation summary
         if: always()
         run: |
-          if [ -f validation_reports/cross_artifact_report.json ]; then
+          if [ -f validation_reports/cross_artifact_report_*.json ]; then
             echo "=== Cross-Artifact Validation Summary ==="
             python validation_summary.py
           else
