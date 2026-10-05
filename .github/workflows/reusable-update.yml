@@ -107,6 +107,53 @@ jobs:
         run: |
           uv run python validate_manifest.py
 
+      # Strategy 3: Targeted Pipeline Tests (Pre-commit validation)
+      # Runs in isolated workspace to prevent test data contamination of production files
+      - name: Run Targeted Pipeline Tests
+        if: ${{ inputs.platform != '' }}
+        run: |
+          set -euo pipefail
+          PLATFORM="${{ inputs.platform }}"
+          TEST_FILE="tests/integration/test_${PLATFORM//-/_}_pipeline.py"
+          
+          if [ ! -f "$TEST_FILE" ]; then
+            echo "❌ No targeted test file found for platform: ${{ inputs.platform }} (expected: $TEST_FILE)"
+            exit 1
+          fi
+          
+          echo "Running targeted pipeline tests for ${{ inputs.platform }} in isolated workspace..."
+          
+          # Create isolated test workspace
+          TEST_WORKSPACE=$(mktemp -d -t test-workspace-XXXXXX)
+          echo "Test workspace: $TEST_WORKSPACE"
+          
+          # Copy only necessary files to test workspace
+          # We need: tests/, update_*.py, pipeline_base.py, loss_guard.py, archiver.py, 
+          # layer_manifest.py, models/, scripts/, dataset_layers.yaml, pyproject.toml, uv.lock
+          rsync -aq --exclude='.git' --exclude='__pycache__' --exclude='.pytest_cache' \
+            --exclude='for_validation' --exclude='archives' --exclude='validation_reports' \
+            --exclude='data/*.json' --exclude='*.md' --exclude='credentials.jsonld' \
+            --exclude='llms.txt' --exclude='llms-full.txt' \
+            . "$TEST_WORKSPACE/"
+          
+          # Also copy test fixtures
+          mkdir -p "$TEST_WORKSPACE/tests/fixtures"
+          rsync -aq tests/fixtures/ "$TEST_WORKSPACE/tests/fixtures/"
+          
+          cd "$TEST_WORKSPACE"
+          
+          # Install dependencies in test workspace
+          uv sync --frozen --all-extras
+          
+          # Run the targeted test
+          uv run pytest "$TEST_FILE" -v --tb=short
+          
+          # Cleanup
+          cd /
+          rm -rf "$TEST_WORKSPACE"
+          
+          echo "✅ Targeted pipeline tests passed for ${{ inputs.platform }}"
+
       # Validate artifact_paths input
       - name: Validate Artifact Paths
         run: |
