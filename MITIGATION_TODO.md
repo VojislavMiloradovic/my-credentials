@@ -10,7 +10,7 @@
 - [x] **Strategy 3**: Add Targeted Pipeline Tests to reusable-update.yml (pre-commit)
 
 ## Phase 3: Enforcement Layer
-- [ ] **Strategy 5**: Remove `continue-on-error: true` from cross_artifact_validation.yml
+- [x] **Strategy 5**: Remove `continue-on-error: true` from cross_artifact_validation.yml
 - [ ] **Strategy 4**: Configure branch protection required checks (GitHub UI - document only)
 
 ## Testing After Each Strategy
