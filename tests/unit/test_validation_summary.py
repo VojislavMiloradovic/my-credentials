@@ -10,6 +10,18 @@ import tempfile
 import pytest
 
 
+def _create_timestamped_report(tmpdir, report_data):
+    """Helper to create a timestamped validation report."""
+    reports_dir = os.path.join(tmpdir, "validation_reports")
+    os.makedirs(reports_dir)
+
+    # Use timestamped filename pattern that the new code expects
+    report_path = os.path.join(reports_dir, "cross_artifact_report_20240115_100000.json")
+    with open(report_path, "w") as f:
+        json.dump(report_data, f)
+    return report_path
+
+
 class TestValidationSummary:
     """Tests for validation_summary module."""
 
@@ -22,12 +34,6 @@ class TestValidationSummary:
     def test_main_with_valid_report(self):
         """Test main function with valid report file."""
         with tempfile.TemporaryDirectory() as tmpdir:
-            # Create validation_reports directory
-            reports_dir = os.path.join(tmpdir, "validation_reports")
-            os.makedirs(reports_dir)
-
-            # Create report file
-            report_path = os.path.join(reports_dir, "cross_artifact_report.json")
             report_data = {
                 "timestamp": "2024-01-15T10:00:00Z",
                 "summary": {"total": 10, "passed": 8, "failed": 1, "warnings": 1},
@@ -61,8 +67,7 @@ class TestValidationSummary:
                     },
                 ],
             }
-            with open(report_path, "w") as f:
-                json.dump(report_data, f)
+            _create_timestamped_report(tmpdir, report_data)
 
             old_cwd = os.getcwd()
             os.chdir(tmpdir)
@@ -100,7 +105,8 @@ class TestValidationSummary:
             reports_dir = os.path.join(tmpdir, "validation_reports")
             os.makedirs(reports_dir)
 
-            report_path = os.path.join(reports_dir, "cross_artifact_report.json")
+            # Create timestamped filename
+            report_path = os.path.join(reports_dir, "cross_artifact_report_20240115_100000.json")
             with open(report_path, "w") as f:
                 f.write("invalid json {")
 
@@ -124,10 +130,6 @@ class TestValidationSummaryOutput:
     def test_output_format(self):
         """Test that the output format matches expectations."""
         with tempfile.TemporaryDirectory() as tmpdir:
-            reports_dir = os.path.join(tmpdir, "validation_reports")
-            os.makedirs(reports_dir)
-
-            report_path = os.path.join(reports_dir, "cross_artifact_report.json")
             report_data = {
                 "timestamp": "2024-01-15T10:00:00Z",
                 "summary": {"total": 2, "passed": 1, "failed": 1, "warnings": 0},
@@ -152,8 +154,7 @@ class TestValidationSummaryOutput:
                     },
                 ],
             }
-            with open(report_path, "w") as f:
-                json.dump(report_data, f)
+            _create_timestamped_report(tmpdir, report_data)
 
             old_cwd = os.getcwd()
             os.chdir(tmpdir)
@@ -184,10 +185,6 @@ class TestValidationSummaryOutput:
     def test_output_with_warnings(self):
         """Test output format with warnings."""
         with tempfile.TemporaryDirectory() as tmpdir:
-            reports_dir = os.path.join(tmpdir, "validation_reports")
-            os.makedirs(reports_dir)
-
-            report_path = os.path.join(reports_dir, "cross_artifact_report.json")
             report_data = {
                 "timestamp": "2024-01-15T10:00:00Z",
                 "summary": {"total": 2, "passed": 1, "failed": 0, "warnings": 1},
@@ -212,8 +209,7 @@ class TestValidationSummaryOutput:
                     },
                 ],
             }
-            with open(report_path, "w") as f:
-                json.dump(report_data, f)
+            _create_timestamped_report(tmpdir, report_data)
 
             old_cwd = os.getcwd()
             os.chdir(tmpdir)
@@ -238,10 +234,6 @@ class TestValidationSummaryOutput:
     def test_output_with_no_platform(self):
         """Test output format with global checks (no platform)."""
         with tempfile.TemporaryDirectory() as tmpdir:
-            reports_dir = os.path.join(tmpdir, "validation_reports")
-            os.makedirs(reports_dir)
-
-            report_path = os.path.join(reports_dir, "cross_artifact_report.json")
             report_data = {
                 "timestamp": "2024-01-15T10:00:00Z",
                 "summary": {"total": 1, "passed": 0, "failed": 1, "warnings": 0},
@@ -257,8 +249,7 @@ class TestValidationSummaryOutput:
                     }
                 ],
             }
-            with open(report_path, "w") as f:
-                json.dump(report_data, f)
+            _create_timestamped_report(tmpdir, report_data)
 
             old_cwd = os.getcwd()
             os.chdir(tmpdir)
