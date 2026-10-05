@@ -1,6 +1,6 @@
 ﻿Complete Training Activity List
 Generated on: 5. октобар 2026.
-Total rows: 994
+Total rows: 1008
 
 Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
 [RETIRED] Advanced fine-tuning methods on Amazon SageMaker AI,Digital course,Retired,0,-,"September 6, 2026","September 6, 2026","September 6, 2026",1 hour 30 minutes,Advanced,English
@@ -259,6 +259,7 @@ Amazon S3 Getting Started,Digital course,Completed,0,-,"February 27, 2026","Febr
 Amazon S3 Glacier Getting Started,Digital course,Completed,0,-,"September 20, 2026","September 20, 2026","September 20, 2026",1 hour,Fundamental,English
 Amazon S3 Vectors Getting Started,Digital course,Completed,0,-,"September 13, 2026","September 13, 2026","September 13, 2026",1 hour,Fundamental,English
 Amazon SageMaker AI Getting Started,Digital course,Completed,0,-,"July 14, 2026","July 14, 2026","July 14, 2026",1 hour,Fundamental,English
+Amazon SageMaker AI now supports optimized generative AI inference recommendations,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",45 minutes,Fundamental,English
 Amazon SageMaker Unified Studio - Administrator Fundamentals,Digital course,Completed,0,-,"March 18, 2026","March 18, 2026","March 18, 2026",1 hour 30 minutes,Fundamental,English
 Amazon SageMaker Unified Studio Foundations,Digital course,Completed,0,-,"March 8, 2026","March 8, 2026","March 8, 2026",1 hour,Fundamental,English
 Amazon SageMaker Unified Studio Foundations for Data Analytics - Digital,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",1 hour,Fundamental,English
@@ -279,6 +280,7 @@ Amazon WorkSpaces Migrations - Horizon on WorkSpaces Core,Digital course,Complet
 Amazon WorkSpaces Migrations - Introducing Amazon WorkSpaces Core,Digital course,Completed,0,-,"August 2, 2026","August 2, 2026","August 2, 2026",1 hour,Intermediate,English
 Amazon WorkSpaces Migrations - Migration Approaches & Strategy,Digital course,Completed,0,-,"August 3, 2026","August 3, 2026","August 3, 2026",1 hour,Intermediate,English
 Amazon WorkSpaces Migrations Knowledge Badge Assessment,Digital course,Completed,98.33,-,"August 9, 2026","August 9, 2026","August 9, 2026",1 hour 30 minutes,Intermediate,English
+Amazon WorkSpaces Migrations Knowledge Badge Readiness Path,Learning plan,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",6 hours 30 minutes,Intermediate,English
 Amazon WorkSpaces Migrations — Additional Partner Offerings on WorkSpaces Core,Digital course,Completed,0,-,"June 24, 2026","June 24, 2026","June 24, 2026",1 hour,Intermediate,English
 Amazon WorkSpaces Migrations — Citrix on WorkSpaces Core,Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",1 hour,Advanced,English
 Amazon WorkSpaces Primer,Digital course,Completed,100,-,"August 12, 2026","August 12, 2026","August 12, 2026",1 hour 20 minutes,Intermediate,English
@@ -302,9 +304,12 @@ AWS Agentic AI Demonstrated,Microcredential,Enrolled,0,-,"September 5, 2026",-,-
 AWS AI Business Strategist - Assess Business AI Readiness and Maturity,Digital course,Completed,100,-,"October 5, 2026","October 5, 2026","October 5, 2026",1 hour,Fundamental,English
 AWS AI Business Strategist - Core AI Concepts and Terminology,Digital course,Completed,100,-,"October 5, 2026","October 5, 2026","October 5, 2026",1 hour,Fundamental,English
 AWS AI Business Strategist - Develop AI Strategies That Align with Business Objectives,Digital course,Completed,90,-,"October 5, 2026","October 5, 2026","October 5, 2026",1 hour,Fundamental,English
+AWS AI Business Strategist - Establish Data and Infrastructure Foundations for AI,Digital course,Completed,100,-,"October 5, 2026","October 5, 2026","October 5, 2026",1 hour,Fundamental,English
 AWS AI Business Strategist - Generative AI Concepts and Techniques,Digital course,Completed,100,-,"October 5, 2026","October 5, 2026","October 5, 2026",1 hour,Fundamental,English
 AWS AI Business Strategist - Measure and Demonstrate AI Business Value,Digital course,Completed,90,-,"September 20, 2026","September 20, 2026","September 21, 2026",1 hour,Fundamental,English
 AWS AI Business Strategist - Position AI for Competitive Advantage,Digital course,Completed,100,-,"October 5, 2026","October 5, 2026","October 5, 2026",1 hour,Fundamental,English
+AWS AI Business Strategist - Responsible AI Principles and Dimensions,Digital course,Completed,100,-,"October 5, 2026","October 5, 2026","October 5, 2026",1 hour,Fundamental,English
+AWS AI Business Strategist - Scale AI from Pilots to Enterprise-wide Deployments,Digital course,Completed,100,-,"October 5, 2026","October 5, 2026","October 5, 2026",1 hour,Fundamental,English
 AWS AI Chips - Trainium and Inferentia Fundamentals,Digital course,Completed,0,-,"March 25, 2026","March 25, 2026","March 25, 2026",30 minutes,Fundamental,English
 AWS AI/ML Essentials (Great China Region Only),Digital course,Completed,0,-,"August 21, 2026","August 21, 2026","August 21, 2026",4 hours 15 minutes,Intermediate,English
 AWS Application Networking Demonstrated,Microcredential,Enrolled,0,-,"September 5, 2026",-,-,1 hour 40 minutes,Intermediate,English
@@ -347,6 +352,7 @@ AWS CodeDeploy Getting Started,Digital course,Completed,0,-,"July 20, 2026","Jul
 AWS CodePipeline Getting Started,Digital course,Completed,0,-,"February 26, 2026","February 26, 2026","February 26, 2026",1 hour,Fundamental,English
 AWS Command Line Interface (AWS CLI) Getting Started,Digital course,Completed,0,-,"February 27, 2026","February 27, 2026","February 27, 2026",1 hour,Fundamental,English
 AWS Command Line Interface (CLI) Basics,Digital course,Completed,0,-,"January 11, 2026","January 11, 2026","January 11, 2026",7 minutes,Fundamental,English
+AWS Communication Developer Services Fundamentals Knowledge Badge Assessment,AWS Assessment,Completed,95.65,-,"October 5, 2026","October 5, 2026","October 5, 2026",0 minutes,Fundamental,English
 AWS Compute Services Overview,Digital course,Completed,0,-,"January 18, 2026","January 18, 2026","January 18, 2026",40 minutes,Fundamental,English
 AWS Config Getting Started,Digital course,Completed,0,-,"March 19, 2026","March 19, 2026","March 19, 2026",1 hour 30 minutes,Fundamental,English
 AWS Control Tower Getting Started,Digital course,Completed,0,-,"March 14, 2026","March 14, 2026","March 14, 2026",1 hour,Fundamental,English
@@ -386,6 +392,7 @@ AWS for RISE with SAP Introduction,Digital course,Completed,0,-,"January 31, 202
 AWS for SAP - Cost Optimization Strategies,Digital course,Completed,0,-,"August 8, 2026","August 8, 2026","August 8, 2026",1 hour,Intermediate,English
 AWS for SAP - Generative AI Fundamentals,Digital course,Completed,0,-,"July 20, 2026","July 20, 2026","July 20, 2026",1 hour 15 minutes,Fundamental,English
 AWS for SAP Cloud ERP Essentials,Digital course,Completed,0,-,"July 30, 2026","July 30, 2026","July 30, 2026",1 hour,Intermediate,English
+AWS for SAP Fundamentals,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",45 minutes,Fundamental,English
 AWS for VMware Administrators,Digital course,Completed,0,-,"August 9, 2026","August 9, 2026","August 9, 2026",1 hour,Intermediate,English
 AWS Foundations: Getting Started with the AWS Cloud Essentials,Digital course,Completed,0,-,"January 20, 2026","January 20, 2026","January 20, 2026",1 hour,Fundamental,English
 AWS Foundations: How Amazon SageMaker Can Help,Digital course,Completed,0,-,"April 3, 2026","April 3, 2026","April 3, 2026",30 minutes,Fundamental,English
@@ -586,6 +593,7 @@ Containers Learning Series for Amazon ECS Overview,Digital course,Completed,0,-,
 Context extraction from image files in Amazon Q Business using LLMs,Digital course,Completed,0,-,"August 9, 2026","August 9, 2026","August 9, 2026",1 hour 30 minutes,Intermediate,English
 Control where your AI agents can browse with Chrome enterprise policies on Amazon Bedrock AgentCore,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",45 minutes,Advanced,English
 Cost Optimization Solutions for FinOps (Part 2),Digital course,Completed,0,-,"March 4, 2026","March 4, 2026","March 4, 2026",1 hour,Intermediate,English
+Cost-effective multilingual audio transcription at scale with Parakeet-TDT and AWS Batch,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",45 minutes,Fundamental,English
 Customization in Amazon Q Developer,Digital course,Completed,0,-,"April 25, 2026","April 25, 2026","April 25, 2026",30 minutes,Fundamental,English
 Customizing and Evaluating LLMs Using Amazon SageMaker JumpStart,Digital course,Completed,0,-,"September 10, 2026","September 10, 2026","September 10, 2026",4 hours,Advanced,English
 Cybersecurity for Small Business Owners,Digital course,Completed,0,-,"June 22, 2026","June 22, 2026","June 22, 2026",8 minutes,Fundamental,English
@@ -635,6 +643,8 @@ Dive Deep into Amazon Connect Reporting and Metrics,Digital course,Completed,0,-
 Drive organizational growth with Amazon Lex multi-developer CI/CD pipeline,Digital course,Completed,0,-,"August 8, 2026","August 8, 2026","August 8, 2026",45 minutes,Intermediate,English
 Dynamic Data Masking in Amazon Aurora PostgreSQL,Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",1 hour 30 minutes,Advanced,English
 E-commerce AI Agent: From Smart Customer Service to Production Deployment,Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",3 hours,Intermediate,English
+Eclipse Dataspace Components on AWS: Cost optimization strategies,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",45 minutes,Fundamental,English
+Eclipse Dataspace Components on AWS: Data sharing fundamentals,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",45 minutes,Fundamental,English
 ECS Introduction to Containers,Digital course,Completed,0,-,"September 20, 2026","September 20, 2026","September 20, 2026",1 hour,Fundamental,English
 Elastic Load Balancing (ELB) - Troubleshooting,Digital course,Completed,0,-,"August 11, 2026","August 11, 2026","August 11, 2026",1 hour 30 minutes,Intermediate,English
 Elastic Load Balancing (ELB) Getting Started,Digital course,Completed,0,-,"March 24, 2026","March 24, 2026","March 24, 2026",1 hour,Fundamental,English
@@ -710,6 +720,7 @@ How Amazon Quick Works for Your Role,Digital course,Completed,0,-,"April 30, 202
 How AutoScout24 built a Bot Factory to standardize AI agent development with Amazon Bedrock,Digital course,Completed,0,-,"August 6, 2026","August 6, 2026","August 6, 2026",45 minutes,Intermediate,English
 How AWS Step Functions Work,Digital course,Completed,0,-,"August 2, 2026","August 2, 2026","August 2, 2026",55 minutes,Intermediate,English
 How bitdrift scaled to 121 million concurrent gRPC connections on Amazon CloudFront for live telemetry sporting events,Digital course,Completed,0,-,"September 19, 2026","September 19, 2026","September 19, 2026",45 minutes,Intermediate,English
+How Lore Rethinks Binary Asset Storage on AWS,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",45 minutes,Fundamental,English
 How the Amazon AMET Payments team accelerates test case generation with Strands Agents,Digital course,Completed,0,-,"June 29, 2026","June 29, 2026","June 29, 2026",45 minutes,Intermediate,English
 How to Find Hidden Data Relationships in Your S3 Data - with Amazon Neptune,Digital course,Completed,0,-,"March 16, 2026","March 16, 2026","March 16, 2026",1 hour,Intermediate,English
 How to understand and estimate combined AWS WAF and AWS Shield Advanced costs,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",45 minutes,Intermediate,English
@@ -720,6 +731,7 @@ Implement Lexical Search Using Amazon OpenSearch Service,Digital course,Complete
 Implement user-level access control for multi-tenant ML platforms on Amazon SageMaker AI,Digital course,Completed,0,-,"September 6, 2026","September 6, 2026","September 6, 2026",1 hour 30 minutes,Advanced,English
 Implementing SaaS Tenant Isolation with ABAC and AWS IAM,Digital course,Completed,80,-,"August 24, 2026","August 24, 2026","August 24, 2026",45 minutes,Advanced,English
 Implementing Standardized Agent Communication Protocols with Amazon Bedrock AgentCore,Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",2 hours,Advanced,English
+Improve bot accuracy with Amazon Lex Assisted NLU,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",45 minutes,Fundamental,English
 Increasing Application Security with Bedrock Guardrails and GenAI,Digital course,Completed,0,-,"September 10, 2026","September 10, 2026","September 10, 2026",2 hours 30 minutes,Advanced,English
 Independent Software Vendor Accelerate Program,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",20 minutes,Intermediate,English
 Innovation Sandbox on AWS,Digital course,Completed,0,-,"August 11, 2026","August 11, 2026","August 11, 2026",2 hours,Intermediate,English
@@ -799,6 +811,7 @@ Introduction to Capacity Manager for Amazon EC2,Digital course,Completed,0,-,"Se
 Introduction to Claude Platform on AWS,Digital course,Completed,0,-,"September 19, 2026","September 19, 2026","September 19, 2026",30 minutes,Fundamental,English
 Introduction to Container Basics,Digital course,Completed,0,-,"July 14, 2026","July 14, 2026","July 14, 2026",45 minutes,Fundamental,English
 Introduction to Containers,Digital course,Completed,0,-,"January 16, 2026","January 16, 2026","January 16, 2026",15 minutes,Intermediate,English
+Introduction to Cost Management for SaaS,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",45 minutes,Fundamental,English
 Introduction to Custom Agents in Amazon Quick,Digital course,Completed,0,-,"June 18, 2026","June 18, 2026","June 18, 2026",15 minutes,Fundamental,English
 Introduction to Database Migration,Digital course,Completed,0,-,"February 28, 2026","February 28, 2026","February 28, 2026",45 minutes,Fundamental,English
 Introduction to Decoupled Applications,Digital course,Completed,0,-,"February 5, 2026","February 5, 2026","February 5, 2026",20 minutes,Fundamental,English
@@ -813,6 +826,7 @@ Introduction to Model Customization in Amazon SageMaker AI,Digital course,Comple
 Introduction to next generation of Amazon OpenSearch Serverless,Digital course,Completed,0,-,"June 2, 2026","June 2, 2026","June 2, 2026",45 minutes,Fundamental,English
 Introduction to PartyRock,Digital course,Completed,0,-,"September 20, 2026","September 20, 2026","September 20, 2026",30 minutes,Fundamental,English
 Introduction to Publisher Domain,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",25 minutes,Intermediate,English
+Introduction to SaaS Pricing and Packaging,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",30 minutes,Fundamental,English
 Introduction to SageMaker Unified Studio - Local IDE VS Code and Kiro Integration,Digital course,Completed,0,-,"March 8, 2026","March 8, 2026","March 8, 2026",30 minutes,Fundamental,English
 Introduction to Serverless Development,Digital course,Completed,0,-,"February 27, 2026","February 27, 2026","February 27, 2026",25 minutes,Fundamental,English
 Introduction to the Amazon Quick on desktop,Digital course,Completed,0,-,"April 30, 2026","April 30, 2026","April 30, 2026",45 minutes,Fundamental,English
