@@ -139,6 +139,7 @@ class TestAwsSkillsFetch:
 
         with (
             patch("update_aws_skills.locate_aws_csv_file", return_value=None),
+            patch("update_aws_skills.os.path.exists", lambda p: True),
             patch(
                 "update_aws_skills.parse_aws_badges_from_json",
                 return_value=[
