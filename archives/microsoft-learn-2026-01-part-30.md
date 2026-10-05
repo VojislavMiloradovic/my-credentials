@@ -1,0 +1,73 @@
+---
+archive_platform: microsoft-learn
+chunk_part: 30 of 97
+date_range: 2026-01-06 to 2026-01-10
+total_entries: 52
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-30.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: complete, index
+---
+
+# microsoft-learn -- Part 30
+
+> **Navigation:** Prev: [microsoft-learn-2026-01-part-29.md](./microsoft-learn-2026-01-part-29.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-31.md](./microsoft-learn-2026-01-part-31.md) | [Complete Archive](./microsoft-learn-complete.md)
+
+| Achievement Title | Category | Date Earned | Verification Link |
+| :--- | :--- | :--- | :--- |
+| **Create a personalized savings plan to work toward a financial goal** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-personalized-savings-plan/) |
+| **Understand Azure NetApp Files essentials** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-essentials/) |
+| **Understand how Azure NetApp Files provides volumes as a service** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-volumes-service/) |
+| **Student and school success - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/student-school-success-education-transformation-framework/) |
+| **Education Transformation Framework** | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/education-transformation-framework/) |
+| **Teaching and learning - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/teaching-learning-education-transformation-framework/) |
+| **Leadership and policy - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/leadership-policy-education-transformation-framework/) |
+| **Intelligent environments - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-environments-education-transformation-framework/) |
+| **Get tips and tricks for teaching AZ-900 Microsoft Azure Fundamentals** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-az-900-microsoft-azure-ai-fundamentals/) |
+| **Store and retrieve JSON files** | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/store-retrieve-json-files/) |
+| **Access local files asynchronously** | Learningpaths | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/access-local-files-asynchronously/) |
+| **Implement asynchronous tasks** | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-asynchronous-tasks/) |
+| **Create and manage events** | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-events/) |
+| **Secure AI in schools with Microsoft Security** | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-ai-schools-microsoft-security/) |
+| **Create, customize, and manage an HPC cluster in Azure with Azure CycleCloud** | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-cyclecloud-high-performance-computing/) |
+| **Mixed Reality design** | Learningpaths | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/mixed-reality-design/) |
+| **Challenge project - Building an Augmented Reality app for HoloLens 2** | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-building-augmented-reality-app-hololens-2/) |
+| **Develop search strategies with Search Coach and Search Progress** | Modules | 2026-01-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-search-strategies-search-coach-search-progress/) |
+| **Microsoft for Sovereignty overview** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sovereignty-overview/) |
+| **Microsoft Sustainability Manager concepts** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-cloud-sustainability/) |
+| **Get started with Microsoft Sustainability Manager** | Learningpaths | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sustainability-manager/) |
+| **Extend existing table and page objects in Dynamics 365 Business Central** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-tables-page-objects/) |
+| **Designing for mixed reality** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-mixed-reality-design/) |
+| **Build your first canvas app with Power Apps** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-first-canvas-app/) |
+| **Create benefit plans in Dynamics 365 Human Resources** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/benefits-management/) |
+| **Manage your organization with Dynamics 365 Human Resources** | Modules | 2026-01-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-organization/) |
+| **Manage personnel with Dynamics 365 Human Resources** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-personnel/) |
+| **Introduction to Azure hybrid cloud services** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-hybrid-services/) |
+| **Design an accident tracking app in Power Apps** | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-accident-tracking/) |
+| **Build the Dataverse table schema for the model-driven app** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-dataverse-table-structure/) |
+| **Transform a business process to a model-driven app** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/model-driven-app-solution/) |
+| **Customize views and forms for model-driven apps** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-view-forms/) |
+| **Deploy to multiple Azure environments by using JSON ARM template features** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/modify-azure-resource-manager-template-reuse/) |
+| **Create your first Q# program with the Quantum Development Kit** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/qsharp-create-first-quantum-development-kit/) |
+| **Connect to virtual machines through the Azure portal by using Azure Bastion** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-vm-with-azure-bastion/) |
+| **Introduction to building copilots for startups** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-copilots-for-startups/) |
+| **An AI toolbox for trainers** | Learningpaths | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-toolbox-for-trainers/) |
+| **Training with AI tools** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/training-with-ai-tools/) |
+| **Use AI tools to create an inclusive learning environment** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-tools-to-create-inclusive-learning-environment/) |
+| **Implement AI tools into a training environment** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ai-tools-into-training-environment/) |
+| **Streamline training plans with AI tools** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/streamline-training-plans-with-ai-tools/) |
+| **Contribute to Microsoft Learn documentation in your browser** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/contribute-to-docs-browser/) |
+| **Introduction to Microsoft Viva Glint** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-introduction-viva-glint/) |
+| **Send Dynamics 365 Customer Voice surveys** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-customer-voice-surveys/) |
+| **Create a survey project with Dynamics 365 Customer Voice** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-customer-voice-projects/) |
+| **Create customer surveys with Dynamics 365 Customer Voice** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-customer-voice-surveys/) |
+| **Apply a budgeting method to manage money effectively** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-budgeting-method/) |
+| **Collaborate faster using Microsoft Teams for higher education staff** | Modules | 2026-01-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/collaborate-faster-microsoft-teams-higher-education-staff/) |
+| **Continuous deployment for machine learning** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/continuous-deployment-for-machine-learning/) |
+| **Introduction to machine learning operations (MLOps)** | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-machine-learn-operations/) |
+| **Automate machine learning workflows** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-machine-learning-workflows/) |
+| **Introduction to DevOps principles for machine learning** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-development-operations-principles-for-machine-learn/) |
+
+---
+> **Navigation:** Prev: [microsoft-learn-2026-01-part-29.md](./microsoft-learn-2026-01-part-29.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-31.md](./microsoft-learn-2026-01-part-31.md)
+

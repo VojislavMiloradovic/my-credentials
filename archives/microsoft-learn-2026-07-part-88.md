@@ -1,0 +1,72 @@
+---
+archive_platform: microsoft-learn
+chunk_part: 88 of 97
+date_range: 2026-06-27 to 2026-07-02
+total_entries: 51
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-88.md
+layer: L2_published
+transform: 1:1_pass_through
+artifacts: complete, index
+---
+
+# microsoft-learn -- Part 88
+
+> **Navigation:** Prev: [microsoft-learn-2026-06-part-87.md](./microsoft-learn-2026-06-part-87.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-89.md](./microsoft-learn-2026-07-part-89.md) | [Complete Archive](./microsoft-learn-complete.md)
+
+| Achievement Title | Category | Date Earned | Verification Link |
+| :--- | :--- | :--- | :--- |
+| **Connect Power Platform to SAP on Azure** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-power-platform-to-sap-azure/) |
+| **Troubleshoot Microsoft Teams meetings live events and messaging** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-microsoft-teams-meetings-live-events-messaging/) |
+| **Deploy and manage resources in Azure by using JSON ARM templates** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-resource-manager-templates/) |
+| **Extend Bicep and ARM templates using deployment scripts** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-resource-manager-template-deployment-scripts/) |
+| **Explore healthcare data solutions in Microsoft Fabric** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-healthcare-data-solutions/) |
+| **Ingest clinical data in FHIR into healthcare data solutions in Microsoft Fabric** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-fhir-data-ingestion/) |
+| **Get tips and tricks for teaching PL-300: Microsoft Power BI Data Analyst in academic programs** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teach-pl-300-microsoft-power-bi-data-analyst/) |
+| **Prepare to teach PL-300: Microsoft Power BI Data Analyst** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-to-teach-pl-300-microsoft-power-bi-data-analyst/) |
+| **Configure and use cash and bank management, and sales tax in Dynamics 365 Finance** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-use-cash-bank-management-tax-dyn365-finance/) |
+| **Configure and process postdated checks in Dynamics 365 Finance** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-process-postdated-checks-dyn365-finance/) |
+| **Teleport entangled qubits with Q#** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-entanglement/) |
+| **Get started with Azure Quantum** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/quantum-computing-fundamentals/) |
+| **Troubleshoot Microsoft Teams Voice Issues** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-microsoft-teams-voice-issues/) |
+| **Azure key and certificate management** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/sovereignty-key-management/) |
+| **Get started with Microsoft for Sovereignty** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sovereignty/) |
+| **Introduce troubleshooting Microsoft Teams** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduce-troubleshoot-microsoft-teams/) |
+| **Create tables, views, and temporary objects** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-tables-views-temporary-objects/) |
+| **Write advanced Transact-SQL queries** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/write-advanced-transact-sql-queries/) |
+| **Azure NetApp Files fundamentals** | Learningpaths | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-netapp-files/) |
+| **Understand and tune Azure NetApp Files performance** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-performance/) |
+| **Transform data by implementing pivot, unpivot, rollup, and cube** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/transform-data-by-implementing-pivot-unpivot-rollup-cube/) |
+| **Write queries that use window functions** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-queries-that-use-window-functions/) |
+| **Examine SAP S/4HANA on Azure virtual machines** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-sap-s4hana-azure-virtual-machines/) |
+| **Implement transactions with Transact-SQL** | Modules | 2026-07-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-transactions-transact-sql/) |
+| **Combine query results with set operators** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/combine-query-results-set-operators/) |
+| **Manage data sources with external data stores in finance and operations apps** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/external-data-sources-finance-operations/) |
+| **Connect to finance and operations apps** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/connect-finance-operations/) |
+| **Integrate finance and operations apps with Microsoft Power Platform** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-finance-operations-apps-power-platform/) |
+| **Work with tools and best practices to integrate finance and operations apps with Microsoft Power Platform** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/tools-finance-operations-power-platform/) |
+| **Harmonize business concepts between finance and operations apps and Microsoft Power Platform** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/harmonize-business-concepts-finance-operations-power-platform/) |
+| **Discover common terms and meanings for SAP on Azure** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-common-terms-meanings/) |
+| **MS-721 Manage Teams collaboration communications systems** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-teams-voice/) |
+| **Monitor and troubleshoot Teams collaboration communications systems** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-teams-phone-system/) |
+| **Work with integration tools in finance and operations apps** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-implementation-tools-finance-operations/) |
+| **Work with asynchronous integrations in finance and operations apps** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-integrations-finance-operations/) |
+| **Explore Azure for SAP workloads** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-sap-workloads/) |
+| **Code scanning with GitHub CodeQL** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-scanning-with-github-codeql/) |
+| **GitHub Advanced Security Part 2 of 2** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-advanced-security-2/) |
+| **Explore the foundations of IaaS for SAP on Azure** | Learningpaths | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-foundations-of-iaas/) |
+| **Explore Azure for SAP storage** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-storage/) |
+| **Work with extensions for finance and operations apps and Microsoft Power Platform** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/extensions-finance-operations-power-platform/) |
+| **Implement the Data management package API for finance and operations apps** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-package-api-finance-operations/) |
+| **Integrate finance and operations apps with Microsoft Azure** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-azure-finance-operations/) |
+| **Identify SAP-certified configurations** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-sap-certified-configurations/) |
+| **Implement error handling with Transact-SQL** | Modules | 2026-06-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-error-handling-transact-sql/) |
+| **Implement common integration features in finance and operations apps** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-common-integration-features-finance-ops/) |
+| **Configure your organization in finance and operations apps** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-your-organization-finance-ops/) |
+| **Explore Azure for SAP networking** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-networking/) |
+| **Extend Power Pages websites** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-extend/) |
+| **Extend Power Pages** | Learningpaths | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-power-pages/) |
+| **Cutover strategy for Dynamics 365 solutions** | Modules | 2026-06-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/cutover-strategy-dynamics-365/) |
+
+---
+> **Navigation:** Prev: [microsoft-learn-2026-06-part-87.md](./microsoft-learn-2026-06-part-87.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-89.md](./microsoft-learn-2026-07-part-89.md)
+
