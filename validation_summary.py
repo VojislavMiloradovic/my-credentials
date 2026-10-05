@@ -1,15 +1,18 @@
+import glob
 import json
 import os
 import sys
 
 
 def main():
-    """Print validation summary from cross_artifact_report.json."""
-    report_path = "validation_reports/cross_artifact_report.json"
-
-    if not os.path.exists(report_path):
-        print(f"Report not found: {report_path}", file=sys.stderr)
+    """Print validation summary from latest cross_artifact_report_*.json."""
+    # Find latest timestamped report
+    reports = glob.glob("validation_reports/cross_artifact_report_*.json")
+    if not reports:
+        print("No timestamped validation report found", file=sys.stderr)
         sys.exit(1)
+
+    report_path = max(reports, key=os.path.getmtime)
 
     try:
         with open(report_path, "r", encoding="utf-8") as f:
