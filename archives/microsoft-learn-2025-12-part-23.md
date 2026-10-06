@@ -18,8 +18,8 @@ artifacts: complete, index
 | **MD-100 Troubleshoot hardware and drivers** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-hardware-drivers/) |
 | **Explore physical hardware troubleshooting** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-physical-hardware-troubleshooting/) |
 | **Troubleshoot Windows startup** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-windows-startup/) |
-| **AI security fundamentals** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-security-fundamentals/) |
 | **Introduction to AI security testing** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-ai-security-testing/) |
+| **AI security fundamentals** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-security-fundamentals/) |
 | **Fundamentals of AI security** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/fundamentals-ai-security/) |
 | **Define a Microsoft AI strategy to create business value in retail** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-retail/) |
 | **Discover AI for leaders in retail** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-retail/) |
@@ -27,8 +27,8 @@ artifacts: complete, index
 | **Design an IP addressing schema for your Azure deployment** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-ip-addressing-for-azure/) |
 | **Uncover new data insights with AI** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/uncover-new-data-insights-ai/) |
 | **Introduction to Azure Machine Learning authentication and authorization** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-machine-learning-auth/) |
-| **Automate DevOps processes by using GitHub Apps** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-devops-github-apps/) |
 | **Manage the lifecycle of your projects on GitHub** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-project-lifecycle-github/) |
+| **Automate DevOps processes by using GitHub Apps** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-devops-github-apps/) |
 | **Build community-driven software projects on GitHub** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-community-driven-projects-github/) |
 | **Create an open-source program by using GitHub best practices** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-open-source-program-github/) |
 | **Get started with production control in Dynamics 365 Supply Chain Management** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-production-control-dyn365-supply-chain-mgmt/) |
@@ -64,8 +64,8 @@ artifacts: complete, index
 | **Challenge project - Add image analysis and generation capabilities to your application** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-add-image-analysis-generation-to-app/) |
 | **Manage software delivery by using a release based workflow on GitHub** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/release-based-workflow-github/) |
 | **Govern your hybrid and multicloud machines through Azure Arc-enabled servers** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-azure-arc-enabled-servers/) |
-| **The inclusive classroom: Find the correct learning tools to help all students achieve more** | Learningpaths | 2025-12-26 | N/A |
 | **Differentiation in the classroom using the built-in tools in Office 365 and Windows** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/differentiation-classroom-built-in-tools-office-365-windows/) |
+| **The inclusive classroom: Find the correct learning tools to help all students achieve more** | Learningpaths | 2025-12-26 | N/A |
 | **Introduction to Dynamics 365 Commerce** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/dynamics-365-commerce-introduction/) |
 
 ---

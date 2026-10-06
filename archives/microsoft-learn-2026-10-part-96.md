@@ -64,8 +64,8 @@ artifacts: complete, index
 | **Use Copilot wisely - balancing usage, cost, and value** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/balance-cost-usage-value-copilot/) |
 | **Active Directory Certificate Services roles and topology** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/certificate-services-roles-topology/) |
 | **Get started with Microsoft AI models in Foundry** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-ai-in-foundry/) |
-| **Accelerate development with GitHub Copilot Cloud Agent** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/) |
 | **GitHub Copilot Fundamentals Part 2 of 2** | Learningpaths | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
+| **Accelerate development with GitHub Copilot Cloud Agent** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-09-part-95.md](./microsoft-learn-2026-09-part-95.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-10-part-97.md](./microsoft-learn-2026-10-part-97.md)

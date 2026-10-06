@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 97 of 97
-date_range: 2026-10-02 to 2026-10-05
-total_entries: 37
+date_range: 2026-10-02 to 2026-10-06
+total_entries: 38
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-97.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Certificate enrollment and renewal** | Modules | 2026-10-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/certificate-autoenrollment/) |
 | **Secure an Azure Cosmos DB solution** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-cosmos-db-nosql/) |
 | **Review quality and follow-up data in mPower Clinical Analytics** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-review-quality-follow-up-data/) |
 | **Monitor and improve agents in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-agents-github-copilot/) |
