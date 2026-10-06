@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 39 of 40
 date_range: 2026-09 to 2026-10
-total_entries: 47
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-39.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,19 +15,20 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-10 | **Unify by Basis** | Basis | [Verify Record](https://www.credly.com/badges/6a5a5d48-9544-4ed3-b3bd-69e76fa55459/linked_in_profile) |
-| 2026-10 | **Programmatic** | Basis | [Verify Record](https://www.credly.com/badges/a845f138-3606-4581-8020-b07a581eac19/linked_in_profile) |
-| 2026-10 | **Digital Media Buyer** | Basis | [Verify Record](https://www.credly.com/badges/ed43b663-fc70-4494-8902-d27a8d94d7b8/linked_in_profile) |
-| 2026-10 | **Cracking the Supply Challenge: Sourcing Strategies for Alfredo Sauce (Egg Hunt Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7066fdf5693ccebe519f738225a0e24c49fb9bbe2e4a8430e796ee56e6b71b02) |
-| 2026-10 | **Smarter Ways to Use AI at Work: Cut Costs, Carbon, and Complexity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f736fa1c739619573f34c4b5db5d060e4404f254bca1d73949cd12e7b7099dca) |
-| 2026-10 | **Leadership Live with Dorie Clark: Why Content Creation Matters for Leaders** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/78cd6faa1b30dadd43fde32985c796efd9ca419aebf6a3d62ef6cbb0acdbeb9b) |
-| 2026-10 | **The AI Sparring Partner: Using AI Prompting to Think Critically** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/105d17a106a9b963d277094fe84cdf26471cce1be195ed13b1bda1bd53dac5c1) |
-| 2026-10 | **What Bad Bosses Teach Us about Great Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5efb870563e0416e492d7c81dfb7052209a5e93a2afa10956b743d2830a52f67) |
-| 2026-10 | **When to Use AI (and When Not To): Practical Judgment at Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/48e79de07e322f6d60fd05377611abf468c7735b7d76ed3837e8b854a2e9d05b) |
-| 2026-10 | **Storytelling through Short-Form Video with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4a9efbda82d68feb2c2acfeb6bc89273e9f455a3b799e851181003b6b203b212) |
-| 2026-10 | **Social Media Content Creation with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c05dd07b5f23c4f46c10981aaa9f61547be23c3fa9bc6a4e941a930462767edc) |
-| 2026-10 | **Presentation Design with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9b3dd28fffd0edddd6e1c4b72c66a1b97cc80ba81e3c00dd451f20c4d3a13305) |
-| 2026-10 | **Learn WebMCP in 10 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1fab7704a08cc9b4a2f82af9a52bdcacb298140cc97203c88b4ab0bf4322ec3c) |
+| 2026-10 | **Demandbase AI Practitioner** | Demandbase | [Verify Record](https://www.credly.com/badges/85a7839b-2953-4354-b567-705f1ae27ff6/linked_in_profile) |
+| 2026-10 | **Sales Manager** | Demandbase | [Verify Record](https://www.credly.com/badges/03038709-b6c2-440d-9334-0a13548b7fa1/linked_in_profile) |
+| 2026-10 | **Demandbase Pipeline Influence Practitioner** | Demandbase | [Verify Record](https://www.credly.com/badges/79f1bcbc-83c4-4836-bcbe-1cdb3bdf3db4/linked_in_profile) |
+| 2026-10 | **Sales Development Representative** | Demandbase | [Verify Record](https://www.credly.com/badges/1ae7b88c-c243-4c74-94d9-f8238a11809e/linked_in_profile) |
+| 2026-10 | **Kong Gateway Foundations** | Kong | [Verify Record](https://www.credly.com/badges/0af05791-af55-4214-b9ee-f2ce15d2a35c/linked_in_profile) |
+| 2026-10 | **AWS Knowledge: AWS Communication Developer Services Fundamentals - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b001a553-a34a-469c-b597-3b8f4428f95b/linked_in_profile) |
+| 2026-10 | **Generative AI: From Prompts to Partnership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/45f8ee921e8f88d3f1284eff9995980652f48512aca4ee79c2092e1dfc227766) |
+| 2026-10 | **Data Storytelling with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fd42599d03ff68dceb87bd570d33958be38be6840195dacd675f86c74af88165) |
+| 2026-10 | **Microsoft Applied Skills: Get started developing agents in Microsoft Foundry** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/9DB8E4A68E66793?sharingId) |
+| 2026-10 | **Microsoft Security Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/460368401799de36c8198d3090fe3a302d34abdfbe4db33e5ea44cc1c6d3dcbc) |
+| 2026-10 | **Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/15F428743381AFA9?sharingId) |
+| 2026-10 | **Creating Change: Diversity and Inclusion in the Tech Industry** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f839d9732ff242f4e0492f2024168ecc8b5673e6be2429052eab26eea8f04ec8) |
+| 2026-10 | **C#: Advanced Practices** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/830f21c9ea0d408593d735d98879366cc10f4b3442cff33ea92d182ef9a68eca) |
+| 2026-10 | **Creating a Culture of Privacy** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30b77d839563942d76a76ea000b3dea978e758dd011ab62e91496637cbe5d819) |
 | 2026-09 | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
 | 2026-09 | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
 | 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
