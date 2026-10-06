@@ -11,7 +11,7 @@
 
 ## Phase 3: Enforcement Layer
 - [x] **Strategy 5**: Remove `continue-on-error: true` from cross_artifact_validation.yml
-- [ ] **Strategy 4**: Configure branch protection required checks (GitHub UI - document only)
+- [x] **Strategy 4**: Configure branch protection required checks — **Skipped (unnecessary)** — Pre-commit validation in reusable workflow already enforces all checks before push
 
 ## Testing After Each Strategy
 - Run relevant component test
