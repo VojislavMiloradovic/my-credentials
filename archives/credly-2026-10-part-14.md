@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 14 of 14
-date_range: 2026-09-30 to 2026-10-05
-total_entries: 28
+date_range: 2026-09-30 to 2026-10-06
+total_entries: 30
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-06 | [Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/15F428743381AFA9?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
+| 2026-10-06 | [Microsoft Applied Skills: Get started developing agents in Microsoft Foundry](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/9DB8E4A68E66793?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-05 | [AWS Knowledge: AWS Communication Developer Services Fundamentals - Training Badge](https://www.credly.com/badges/b001a553-a34a-469c-b597-3b8f4428f95b/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-05 | [Kong Gateway Foundations](https://www.credly.com/badges/0af05791-af55-4214-b9ee-f2ce15d2a35c/public_url) | Kong | Credly Verified Badge |
 | 2026-10-04 | [Account Executive](https://www.credly.com/badges/bf5a7533-622c-47c4-af61-137588647308/public_url) | Demandbase | Credly Verified Badge |
