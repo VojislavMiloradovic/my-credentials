@@ -798,9 +798,8 @@ class MicrosoftLearnPipeline(PipelineBase):
         records = self.parse_data(records)
         records = self.pre_loss_guard(records)
 
-        # 3. Run loss guards (orchestrated) - base class logic
+        # 3. Run loss guards (orchestrated) - base class logic, READ ONLY
         from loss_guard import (
-            generate_provider_baseline,
             run_provider_loss_guards,
         )
 
@@ -810,8 +809,8 @@ class MicrosoftLearnPipeline(PipelineBase):
             fail_on_warn=self.FAIL_ON_WARN,
             json_path=self.JSON_PATH,
             monolith_path=self.MONOLITH_PATH,
+            persist_baseline=False,
         )
-        generate_provider_baseline(records, self.PLATFORM_NAME)
 
         records = self.post_loss_guard(records)
 
@@ -846,6 +845,11 @@ class MicrosoftLearnPipeline(PipelineBase):
 
         # Sync fixtures for test consistency
         self.sync_fixtures()
+
+        # Generate baseline (all local generation complete)
+        from loss_guard import generate_provider_baseline
+
+        generate_provider_baseline(records, self.PLATFORM_NAME)
 
         self.logger.info(
             f"[DONE] {self.PLATFORM_DISPLAY_NAME} pipeline complete ({len(records)} items archived)."

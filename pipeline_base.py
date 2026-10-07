@@ -263,7 +263,7 @@ class PipelineBase:
         # 2. Pre-guard hook (deduplication, etc.)
         records = self.pre_loss_guard(records)
 
-        # 3. Run loss guards (orchestrated)
+        # 3. Run loss guards (orchestrated) - READ ONLY, no baseline persistence
         if self.STREAMS:
             run_provider_loss_guards(
                 records,
@@ -271,10 +271,8 @@ class PipelineBase:
                 fail_on_warn=self.FAIL_ON_WARN,
                 json_path=self.JSON_PATH,
                 monolith_path=self.MONOLITH_PATH,
+                persist_baseline=False,
             )
-
-            # Generate baselines after loss guards pass
-            self.generate_baselines(records)
         else:
             run_provider_loss_guards(
                 records,
@@ -282,8 +280,8 @@ class PipelineBase:
                 fail_on_warn=self.FAIL_ON_WARN,
                 json_path=self.JSON_PATH,
                 monolith_path=self.MONOLITH_PATH,
+                persist_baseline=False,
             )
-            generate_provider_baseline(records, self.PLATFORM_NAME)
 
         # 4. Post-guard hook (retired marking)
         records = self.post_loss_guard(records)
@@ -319,6 +317,9 @@ class PipelineBase:
 
         # 12. Sync fixtures
         self.sync_fixtures()
+
+        # 13. Generate baseline (all local generation complete)
+        generate_provider_baseline(records, self.PLATFORM_NAME)
 
         self.logger.info(
             f"[DONE] {self.PLATFORM_DISPLAY_NAME} pipeline complete ({len(records)} combined items)."
