@@ -363,7 +363,7 @@ class TestExecuteContentLossGuard:
 
         with patch("loss_guard.VALIDATION_DIR", str(temp_dir)):
             report = execute_content_loss_guard(
-                records, "test-platform", "id", fail_on_warn=True
+                records, "test-platform", "id", fail_on_warn=True, persist_baseline=True
             )
 
             assert report.old_count == 0
@@ -438,7 +438,7 @@ class TestExecuteContentLossGuard:
 
         with patch("loss_guard.VALIDATION_DIR", str(temp_dir)):
             report = execute_content_loss_guard(
-                records, "test-platform", "id", fail_on_warn=True
+                records, "test-platform", "id", fail_on_warn=True, persist_baseline=True
             )
 
             assert report.retention_rate == 1.0

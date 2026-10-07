@@ -811,6 +811,7 @@ def execute_content_loss_guard(
     stream_id: str | None = None,  # Optional stream identifier for per-stream baselines
     validation_file: str
     | None = None,  # Path to validation JSON for auto-retire lookup
+    persist_baseline: bool = False,  # If True, save baseline after successful check
 ) -> DiffReport:
     """
     Main entry point: validates incoming records against baseline.
@@ -822,6 +823,7 @@ def execute_content_loss_guard(
         thresholds: Optional override for threshold dict
         fail_on_warn: If True, raise on threshold violations. SET False to log only.
         stream_id: Optional stream identifier for per-stream baselines (e.g., "public_badges", "detailed_learnings")
+        persist_baseline: If True, persist baseline after successful check (default False)
 
     Returns:
         DiffReport with detailed comparison results
@@ -926,13 +928,18 @@ def execute_content_loss_guard(
 
     # On success (or if not failing), update baseline
     if not has_violations or not fail_on_warn:
-        if save_baseline(platform, incoming_index, stream_id):
-            logger.info(
-                f"[SAVE] [{platform}{stream_suffix}] Baseline persisted for next run."
-            )
+        if persist_baseline:
+            if save_baseline(platform, incoming_index, stream_id):
+                logger.info(
+                    f"[SAVE] [{platform}{stream_suffix}] Baseline persisted for next run."
+                )
+            else:
+                logger.error(
+                    f"[FAIL] [{platform}{stream_suffix}] Failed to persist baseline!"
+                )
         else:
-            logger.error(
-                f"[FAIL] [{platform}{stream_suffix}] Failed to persist baseline!"
+            logger.info(
+                f"[SKIP] [{platform}{stream_suffix}] Baseline persistence skipped (persist_baseline=False)."
             )
 
     return report
@@ -1133,6 +1140,7 @@ def run_provider_loss_guards(
     fail_on_warn: bool | None = None,
     json_path: str | None = None,
     monolith_path: str | None = None,
+    persist_baseline: bool = False,
 ) -> "DiffReport":
     """
     Run both count-based and content-aware loss guards for a provider.
@@ -1145,6 +1153,7 @@ def run_provider_loss_guards(
         fail_on_warn: Override for fail_on_warn (None = use PROVIDER_CONFIG default)
         json_path: Path to L1_normalized JSON for count baseline
         monolith_path: Path to L2_published monolith for count baseline
+        persist_baseline: If True, persist baseline after successful check (default False)
 
     Returns:
         DiffReport from content-aware guard
@@ -1204,6 +1213,7 @@ def run_provider_loss_guards(
                 fail_on_warn=fail_on_warn,
                 stream_id=stream_id,
                 validation_file=json_path,  # Pass the correct validation file path
+                persist_baseline=persist_baseline,
             )
     else:
         # Single stream (most providers)
@@ -1213,6 +1223,7 @@ def run_provider_loss_guards(
             id_field=config.get("id_field", "id"),
             fail_on_warn=fail_on_warn,
             validation_file=json_path,  # Pass the correct validation file path
+            persist_baseline=persist_baseline,
         )
 
     logger.info(f"[OK] [{provider_name}] All loss guards passed.")
