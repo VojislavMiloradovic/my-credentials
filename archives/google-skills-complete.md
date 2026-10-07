@@ -1,17 +1,18 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 407 records.
+This document represents a unified, verifiable list of all 408 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-07T17:53:57.628403+00:00 -->
+<!-- retrieved_at: 2026-10-07T18:15:11.292291+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-07 | [Set Up a Google Cloud Network](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28711079) | Google Cloud | Google Skill Badge |
 | 2026-10-07 | [Implement DevOps Workflows in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28710739) | Google Cloud | Google Skill Badge |
 | 2026-10-03 | [Create and Manage AlloyDB Instances](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28632451) | Google Cloud | Google Skill Badge |
 | 2026-10-03 | [Monitor Environments with Google Cloud Managed Service for Prometheus](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28632120) | Google Cloud | Google Skill Badge |
