@@ -2,7 +2,7 @@
 archive_platform: Credly Verified Credentials
 chunk_part: 14 of 14
 date_range: 2026-09-30 to 2026-10-07
-total_entries: 31
+total_entries: 32
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -16,6 +16,7 @@ artifacts: complete, index
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-10-07 | [Implement DevOps Workflows in Google Cloud Skill Badge](https://www.credly.com/badges/6cd6bbb4-b1d6-4edf-8add-2523026f6915/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-10-07 | [Set Up a Google Cloud Network Skill Badge](https://www.credly.com/badges/981311c0-3ff9-4b0b-8491-79f928f8349f/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-06 | [Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/15F428743381AFA9?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-06 | [Microsoft Applied Skills: Get started developing agents in Microsoft Foundry](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/9DB8E4A68E66793?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-05 | [AWS Knowledge: AWS Communication Developer Services Fundamentals - Training Badge](https://www.credly.com/badges/b001a553-a34a-469c-b597-3b8f4428f95b/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
