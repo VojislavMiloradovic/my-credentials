@@ -80,6 +80,7 @@ Baselines are persisted inside `execute_content_loss_guard()` **before** archive
 ```python
 #!/usr/bin/env python
 """Verify baseline fingerprints match validation data records."""
+
 import json, os, sys
 from pathlib import Path
 
@@ -87,14 +88,21 @@ VALIDATION_DIR = "for_validation"
 THRESHOLD = 0.05
 
 PLATFORMS = [
-    "microsoft-learn", "google-skills", "aws-skills",
-    "credly", "linkedin-certifications", "google-developer"
+    "microsoft-learn",
+    "google-skills",
+    "aws-skills",
+    "credly",
+    "linkedin-certifications",
+    "google-developer",
 ]
+
 
 def count_baseline_fingerprints(platform):
     p = Path(VALIDATION_DIR) / f"{platform}-baseline.json"
-    if not p.exists(): return 0
+    if not p.exists():
+        return 0
     return len(json.load(open(p)).get("fingerprints", {}))
+
 
 def count_validation_records(platform):
     for fname in [f"{platform}.json", f"{platform}-baseline.json"]:
@@ -102,12 +110,20 @@ def count_validation_records(platform):
         if p.exists():
             data = json.load(open(p))
             total = 0
-            for k in ["combined_feed", "achievements", "badges", "credentials",
-                      "public_badges", "detailed_learnings", "verifiable_credentials"]:
+            for k in [
+                "combined_feed",
+                "achievements",
+                "badges",
+                "credentials",
+                "public_badges",
+                "detailed_learnings",
+                "verifiable_credentials",
+            ]:
                 if k in data and isinstance(data[k], list):
                     total += len([r for r in data[k] if isinstance(r, dict)])
             return total
     return 0
+
 
 def main():
     failed = False
@@ -123,9 +139,13 @@ def main():
             continue
         mismatch = abs(b - v) / max(b, v)
         status = "FAIL" if mismatch > THRESHOLD else "OK"
-        print(f"  {platform}: {status} - baseline={b}, validation={v}, mismatch={mismatch:.1%}")
-        if status == "FAIL": failed = True
+        print(
+            f"  {platform}: {status} - baseline={b}, validation={v}, mismatch={mismatch:.1%}"
+        )
+        if status == "FAIL":
+            failed = True
     sys.exit(1 if failed else 0)
+
 
 if __name__ == "__main__":
     main()
