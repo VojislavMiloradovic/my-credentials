@@ -1,4 +1,5 @@
 """Verify baseline fingerprints match validation data records."""
+
 import json
 import sys
 from pathlib import Path
@@ -65,7 +66,9 @@ def main() -> int:
             failed = True
             continue
         if v == 0:
-            print(f"  {platform}: WARN - baseline has {b} fingerprints but no validation data")
+            print(
+                f"  {platform}: WARN - baseline has {b} fingerprints but no validation data"
+            )
             continue
         mismatch = abs(b - v) / max(b, v)
         status = "FAIL" if mismatch > THRESHOLD else "OK"
