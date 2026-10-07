@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-10-07 19:57 UTC
+> **Last Generated:** 2026-10-07 20:47 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -74,10 +74,10 @@ Showing latest 10 of 4,928 achievements. View full dataset via [Platform Archive
 | :--- | :---: |
 | **Check** | 2,031 |
 | **Classroom** | 0 |
-| **Course** | 412 |
+| **Course** | 418 |
 | **Game** | 10 |
-| **Lab** | 320 |
-| **Lesson** | 5,019 |
+| **Lab** | 332 |
+| **Lesson** | 5,053 |
 | **Path** | 19 |
 
 #### Latest Earned Credentials
@@ -1285,7 +1285,7 @@ This document represents a unified, verifiable list of all 408 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-07T19:55:50.193222+00:00 -->
+<!-- retrieved_at: 2026-10-07T20:47:01.608011+00:00 -->
 
 ## Verified Records Archive
 
