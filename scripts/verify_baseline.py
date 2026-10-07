@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 """Verify baseline fingerprints match validation data records."""
 import json
 import sys
