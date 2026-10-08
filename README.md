@@ -137,15 +137,16 @@ Showing latest 10 of 1008 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 723
+**Total Portfolio Credentials:** 724
 **Total Verified Skills Mapped:** 2571
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 723 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 724 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-08 | [AI Foundations](https://api.accredible.com/v1/obi/badge_assertions/4ec9bf1c-4513-45e8-9158-af7b12572578) | OpenAI Academy | Credly External Badge |
 | 2026-10-07 | [Implement DevOps Workflows in Google Cloud Skill Badge](https://www.credly.com/badges/6cd6bbb4-b1d6-4edf-8add-2523026f6915/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-07 | [Set Up a Google Cloud Network Skill Badge](https://www.credly.com/badges/981311c0-3ff9-4b0b-8491-79f928f8349f/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-06 | [Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/15F428743381AFA9?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
@@ -155,7 +156,6 @@ Showing latest 10 of 723 credentials. View full dataset via [Platform Archive In
 | 2026-10-04 | [Account Executive](https://www.credly.com/badges/bf5a7533-622c-47c4-af61-137588647308/public_url) | Demandbase | Credly Verified Badge |
 | 2026-10-04 | [Build Smarter AI with Embeddings](https://www.credly.com/badges/3d4cddad-a6f5-4ab6-991c-34d1f9d14b8b/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-04 | [Demandbase AI Practitioner](https://www.credly.com/badges/85a7839b-2953-4354-b567-705f1ae27ff6/public_url) | Demandbase | Credly Verified Badge |
-| 2026-10-04 | [Demandbase Pipeline Influence Practitioner](https://www.credly.com/badges/79f1bcbc-83c4-4836-bcbe-1cdb3bdf3db4/public_url) | Demandbase | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
