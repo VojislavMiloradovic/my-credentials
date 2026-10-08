@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 39 of 40
 date_range: 2026-09 to 2026-10
-total_entries: 48
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-39.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,20 +15,21 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-10 | **Demandbase AI Practitioner** | Demandbase | [Verify Record](https://www.credly.com/badges/85a7839b-2953-4354-b567-705f1ae27ff6/linked_in_profile) |
-| 2026-10 | **Sales Manager** | Demandbase | [Verify Record](https://www.credly.com/badges/03038709-b6c2-440d-9334-0a13548b7fa1/linked_in_profile) |
-| 2026-10 | **Demandbase Pipeline Influence Practitioner** | Demandbase | [Verify Record](https://www.credly.com/badges/79f1bcbc-83c4-4836-bcbe-1cdb3bdf3db4/linked_in_profile) |
-| 2026-10 | **Sales Development Representative** | Demandbase | [Verify Record](https://www.credly.com/badges/1ae7b88c-c243-4c74-94d9-f8238a11809e/linked_in_profile) |
-| 2026-10 | **Kong Gateway Foundations** | Kong | [Verify Record](https://www.credly.com/badges/0af05791-af55-4214-b9ee-f2ce15d2a35c/linked_in_profile) |
-| 2026-10 | **AWS Knowledge: AWS Communication Developer Services Fundamentals - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b001a553-a34a-469c-b597-3b8f4428f95b/linked_in_profile) |
-| 2026-10 | **Generative AI: From Prompts to Partnership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/45f8ee921e8f88d3f1284eff9995980652f48512aca4ee79c2092e1dfc227766) |
-| 2026-10 | **Data Storytelling with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fd42599d03ff68dceb87bd570d33958be38be6840195dacd675f86c74af88165) |
 | 2026-10 | **Microsoft Applied Skills: Get started developing agents in Microsoft Foundry** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/9DB8E4A68E66793?sharingId) |
 | 2026-10 | **Microsoft Security Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/460368401799de36c8198d3090fe3a302d34abdfbe4db33e5ea44cc1c6d3dcbc) |
 | 2026-10 | **Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/15F428743381AFA9?sharingId) |
 | 2026-10 | **Creating Change: Diversity and Inclusion in the Tech Industry** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f839d9732ff242f4e0492f2024168ecc8b5673e6be2429052eab26eea8f04ec8) |
 | 2026-10 | **C#: Advanced Practices** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/830f21c9ea0d408593d735d98879366cc10f4b3442cff33ea92d182ef9a68eca) |
 | 2026-10 | **Creating a Culture of Privacy** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30b77d839563942d76a76ea000b3dea978e758dd011ab62e91496637cbe5d819) |
+| 2026-10 | **Learn AI Video Models in 10 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1fb0007e90fbb288b98036d1a39cb79532a0d755adaba3b8167c05d8c84ccdbc) |
+| 2026-10 | **Implement DevOps Workflows in Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/6cd6bbb4-b1d6-4edf-8add-2523026f6915/linked_in_profile) |
+| 2026-10 | **Set Up a Google Cloud Network Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/981311c0-3ff9-4b0b-8491-79f928f8349f/linked_in_profile) |
+| 2026-10 | **Arcade Simulator: Site Reliability Engineer** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28726632?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **AI Foundations** | OpenAI | [Verify Record](https://oaiacademy.credential.net/4ec9bf1c-4513-45e8-9158-af7b12572578) |
+| 2026-10 | **Applied AI Foundations** | OpenAI | [Verify Record](https://oaiacademy.credential.net/05420b94-f7b2-4a8f-94c0-1126a81c6ccf) |
+| 2026-10 | **Agents and Workflows** | OpenAI | [Verify Record](https://oaiacademy.credential.net/0fc22b15-4fdc-4a00-870b-17a377d31140) |
+| 2026-10 | **Apply AI at Work Pathway Completion** | OpenAI | [Verify Record](https://oaiacademy.credential.net/e106a393-57d6-4d31-87d0-a777c12095b0) |
+| 2026-10 | **AI Leadership** | OpenAI | [Verify Record](https://oaiacademy.credential.net/298344d0-7037-4e8f-aa91-9b73db962a4c) |
 | 2026-09 | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
 | 2026-09 | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
 | 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |

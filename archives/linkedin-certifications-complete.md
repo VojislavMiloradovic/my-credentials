@@ -1,12 +1,12 @@
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 1809 records.
+This document represents a unified, verifiable list of all 1818 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-08T16:12:33.338937+00:00 -->
+<!-- retrieved_at: 2026-10-08T19:28:39.007472+00:00 -->
 
 ## Verified Records Archive
 
@@ -55,6 +55,15 @@ This document represents a unified, verifiable list of all 1809 records.
 | 2026-10 | **Creating Change: Diversity and Inclusion in the Tech Industry** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f839d9732ff242f4e0492f2024168ecc8b5673e6be2429052eab26eea8f04ec8) |
 | 2026-10 | **C#: Advanced Practices** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/830f21c9ea0d408593d735d98879366cc10f4b3442cff33ea92d182ef9a68eca) |
 | 2026-10 | **Creating a Culture of Privacy** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30b77d839563942d76a76ea000b3dea978e758dd011ab62e91496637cbe5d819) |
+| 2026-10 | **Learn AI Video Models in 10 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1fb0007e90fbb288b98036d1a39cb79532a0d755adaba3b8167c05d8c84ccdbc) |
+| 2026-10 | **Implement DevOps Workflows in Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/6cd6bbb4-b1d6-4edf-8add-2523026f6915/linked_in_profile) |
+| 2026-10 | **Set Up a Google Cloud Network Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/981311c0-3ff9-4b0b-8491-79f928f8349f/linked_in_profile) |
+| 2026-10 | **Arcade Simulator: Site Reliability Engineer** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28726632?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **AI Foundations** | OpenAI | [Verify Record](https://oaiacademy.credential.net/4ec9bf1c-4513-45e8-9158-af7b12572578) |
+| 2026-10 | **Applied AI Foundations** | OpenAI | [Verify Record](https://oaiacademy.credential.net/05420b94-f7b2-4a8f-94c0-1126a81c6ccf) |
+| 2026-10 | **Agents and Workflows** | OpenAI | [Verify Record](https://oaiacademy.credential.net/0fc22b15-4fdc-4a00-870b-17a377d31140) |
+| 2026-10 | **Apply AI at Work Pathway Completion** | OpenAI | [Verify Record](https://oaiacademy.credential.net/e106a393-57d6-4d31-87d0-a777c12095b0) |
+| 2026-10 | **AI Leadership** | OpenAI | [Verify Record](https://oaiacademy.credential.net/298344d0-7037-4e8f-aa91-9b73db962a4c) |
 | 2026-09 | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
 | 2026-09 | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
 | 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |

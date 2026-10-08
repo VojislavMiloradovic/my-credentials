@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 40 of 40
 date_range: 2026-10 to 2026-10
-total_entries: 29
+total_entries: 37
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-40.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -44,6 +44,14 @@ artifacts: complete, index
 | 2026-10 | **Digital Marketing Manager** | Demandbase | [Verify Record](https://www.credly.com/badges/a1013828-b7d8-48ae-90b6-ac121fd5d6c7/linked_in_profile) |
 | 2026-10 | **Marketing Operations / IT Administrator** | Demandbase | [Verify Record](https://www.credly.com/badges/1717299e-6bb7-461f-917f-76379e7b4810/linked_in_profile) |
 | 2026-10 | **Account Executive** | Demandbase | [Verify Record](https://www.credly.com/badges/ba2e25ee-960d-4b21-b1e1-cd579f26aab6/linked_in_profile) |
+| 2026-10 | **Demandbase AI Practitioner** | Demandbase | [Verify Record](https://www.credly.com/badges/85a7839b-2953-4354-b567-705f1ae27ff6/linked_in_profile) |
+| 2026-10 | **Sales Manager** | Demandbase | [Verify Record](https://www.credly.com/badges/03038709-b6c2-440d-9334-0a13548b7fa1/linked_in_profile) |
+| 2026-10 | **Demandbase Pipeline Influence Practitioner** | Demandbase | [Verify Record](https://www.credly.com/badges/79f1bcbc-83c4-4836-bcbe-1cdb3bdf3db4/linked_in_profile) |
+| 2026-10 | **Sales Development Representative** | Demandbase | [Verify Record](https://www.credly.com/badges/1ae7b88c-c243-4c74-94d9-f8238a11809e/linked_in_profile) |
+| 2026-10 | **Kong Gateway Foundations** | Kong | [Verify Record](https://www.credly.com/badges/0af05791-af55-4214-b9ee-f2ce15d2a35c/linked_in_profile) |
+| 2026-10 | **AWS Knowledge: AWS Communication Developer Services Fundamentals - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b001a553-a34a-469c-b597-3b8f4428f95b/linked_in_profile) |
+| 2026-10 | **Generative AI: From Prompts to Partnership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/45f8ee921e8f88d3f1284eff9995980652f48512aca4ee79c2092e1dfc227766) |
+| 2026-10 | **Data Storytelling with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fd42599d03ff68dceb87bd570d33958be38be6840195dacd675f86c74af88165) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-10-part-39.md](./linkedin-certifications-2026-10-part-39.md) | [Index](./linkedin-certifications-index.md) | Next: None
