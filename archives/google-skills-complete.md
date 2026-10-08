@@ -1,17 +1,18 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 408 records.
+This document represents a unified, verifiable list of all 409 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-08T03:16:55.919064+00:00 -->
+<!-- retrieved_at: 2026-10-08T10:44:05.486145+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-08 | [Arcade Simulator: Site Reliability Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28726632) | Google Cloud | Google Skill Badge |
 | 2026-10-07 | [Set Up a Google Cloud Network](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28711079) | Google Cloud | Google Skill Badge |
 | 2026-10-07 | [Implement DevOps Workflows in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28710739) | Google Cloud | Google Skill Badge |
 | 2026-10-03 | [Create and Manage AlloyDB Instances](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28632451) | Google Cloud | Google Skill Badge |

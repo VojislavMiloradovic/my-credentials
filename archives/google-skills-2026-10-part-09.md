@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Skills Credentials
 chunk_part: 9 of 9
-date_range: 2026-09-08 to 2026-10-07
-total_entries: 19
+date_range: 2026-09-08 to 2026-10-08
+total_entries: 20
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-10-part-09.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-08 | [Arcade Simulator: Site Reliability Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28726632) | Google Cloud | Google Skill Badge |
 | 2026-10-07 | [Set Up a Google Cloud Network](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28711079) | Google Cloud | Google Skill Badge |
 | 2026-10-07 | [Implement DevOps Workflows in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28710739) | Google Cloud | Google Skill Badge |
 | 2026-10-03 | [Create and Manage AlloyDB Instances](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28632451) | Google Cloud | Google Skill Badge |
