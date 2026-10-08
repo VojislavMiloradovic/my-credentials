@@ -1,17 +1,26 @@
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1727 records.
+This document represents a unified, verifiable list of all 1736 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-08T16:13:58.349292+00:00 -->
+<!-- retrieved_at: 2026-10-08T17:05:41.282911+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-10-08 | **Build & Deploy a Formula E AI Kiosk with Gemini Omni & Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/formula-e-genmedia-lab-codelab |
+| 2026-10-08 | **Build an Agentic Data Cloud System of Action with Spanner Graph, Borderless Lakehouse, GEV AI, Gemini Enterprise & Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/beacon-disaster-readiness |
+| 2026-10-08 | **Build a Formula E Driver Performance Analyzer App with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/fe-antigravity-cli-cicd |
+| 2026-10-08 | **Advanced AI, Graph Analysis and Conversational Agents with BigQuery AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/advanced-bigquery-ai |
+| 2026-10-08 | **Deploy an agent and Agent Gateway with VPC Service Controls** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-vpcsc-codelab |
+| 2026-10-08 | **Gemini Enterprise with Agent Gateway all-traffic VPC egress and Cloud NAT static IP to external MCP server** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-ge-egress-vpc-all-traffic |
+| 2026-10-08 | **Progressive Web Apps: Working with Workers** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa06--working-with-workers |
+| 2026-10-08 | **Get started with BigQuery Graph Measures** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/bq-graph-measures/instructions |
+| 2026-10-08 | **Progressive Web Apps: Prompting & Measuring Install** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa5-prompting_measuring_install |
 | 2026-10-04 | **Build an IM8 Compliance & Remediation Agent with Antigravity 2.0, ADK, FastMCP, and Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-im8-compliance-agent-mcp |
 | 2026-10-04 | **Engage SDK Codelab** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/engage-sdk-codelab |
 | 2026-10-04 | **Scaling Private Service Connect to 100K+ Connections per Endpoint** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/private-service-connect-100k-connections |
