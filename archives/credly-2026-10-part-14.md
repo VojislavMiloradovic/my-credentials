@@ -2,7 +2,7 @@
 archive_platform: Credly Verified Credentials
 chunk_part: 14 of 14
 date_range: 2026-09-30 to 2026-10-08
-total_entries: 33
+total_entries: 37
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,7 +15,11 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-08 | [Agents and Workflows](https://api.accredible.com/v1/obi/badge_assertions/0fc22b15-4fdc-4a00-870b-17a377d31140) | OpenAI Academy | Credly External Badge |
 | 2026-10-08 | [AI Foundations](https://api.accredible.com/v1/obi/badge_assertions/4ec9bf1c-4513-45e8-9158-af7b12572578) | OpenAI Academy | Credly External Badge |
+| 2026-10-08 | [AI Leadership](https://www.credential.net/298344d0-7037-4e8f-aa91-9b73db962a4c) | OpenAI Academy | Credly External Badge |
+| 2026-10-08 | [Applied AI Foundations](https://api.accredible.com/v1/obi/badge_assertions/05420b94-f7b2-4a8f-94c0-1126a81c6ccf) | OpenAI Academy | Credly External Badge |
+| 2026-10-08 | [Apply AI at Work Pathway Completion](https://www.credential.net/e106a393-57d6-4d31-87d0-a777c12095b0) | OpenAI Academy | Credly External Badge |
 | 2026-10-07 | [Implement DevOps Workflows in Google Cloud Skill Badge](https://www.credly.com/badges/6cd6bbb4-b1d6-4edf-8add-2523026f6915/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-07 | [Set Up a Google Cloud Network Skill Badge](https://www.credly.com/badges/981311c0-3ff9-4b0b-8491-79f928f8349f/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-06 | [Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/15F428743381AFA9?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
