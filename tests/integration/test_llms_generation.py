@@ -205,8 +205,7 @@ class TestLlmsTxtGeneration:
             assert "Portfolio Overview" in content
             assert "Domain Focus" in content
             assert "Platform Master Indexes" in content
-            assert "Complete Monolithic Datasets" in content
-            assert "Latest Chunked Slices" in content
+            assert "Complete Platform Archives (Monolithic)" in content
 
 
 class TestLlmsFullGeneration:
