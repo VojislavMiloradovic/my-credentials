@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 740 records.
+This document represents a unified, verifiable list of all 741 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-09T17:25:41.826300+00:00 -->
+<!-- retrieved_at: 2026-10-09T18:56:17.484519+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-09 | [Responsible AI and Risk Management](https://www.credly.com/badges/0d35258c-e02f-4092-b067-17e3c928a306/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-09 | [Build with AI - Codex Pathway Completion](https://www.credential.net/e9700c3c-7805-41f9-8f0c-107855848428) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Build With AI - OpenAI API Pathway Completion](https://www.credential.net/a6153528-a0b7-43ff-838a-925dd5273de6) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Build with Retrieval-Augmented Generation](https://www.credential.net/badf24c7-2d8f-4f1e-9b41-24e1b5c11908) | OpenAI Academy | Credly External Badge |

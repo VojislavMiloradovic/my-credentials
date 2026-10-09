@@ -136,15 +136,16 @@ Showing latest 10 of 1008 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 740
-**Total Verified Skills Mapped:** 2597
+**Total Portfolio Credentials:** 741
+**Total Verified Skills Mapped:** 2599
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 740 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 741 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-09 | [Responsible AI and Risk Management](https://www.credly.com/badges/0d35258c-e02f-4092-b067-17e3c928a306/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-09 | [Build with AI - Codex Pathway Completion](https://www.credential.net/e9700c3c-7805-41f9-8f0c-107855848428) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Build With AI - OpenAI API Pathway Completion](https://www.credential.net/a6153528-a0b7-43ff-838a-925dd5273de6) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Build with Retrieval-Augmented Generation](https://www.credential.net/badf24c7-2d8f-4f1e-9b41-24e1b5c11908) | OpenAI Academy | Credly External Badge |
@@ -154,7 +155,6 @@ Showing latest 10 of 740 credentials. View full dataset via [Platform Archive In
 | 2026-10-09 | [Get Started with Codex](https://www.credential.net/c3b19d3e-e2dc-4c89-b89c-cfc1a49ebed6) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Optimize AI Application Performance](https://www.credential.net/36a6db1f-de51-4200-812c-e01de420a016) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Scale Codex Across Teams and Systems](https://www.credential.net/4337aae6-0da3-4369-8cb7-8f4122bd18c3) | OpenAI Academy | Credly External Badge |
-| 2026-10-09 | [Scope AI Solutions](https://www.credential.net/022f81a0-1eaf-4b48-a864-6e459662f0fd) | OpenAI Academy | Credly External Badge |
 <!-- CREDLY_BADGES_END -->
 
 
