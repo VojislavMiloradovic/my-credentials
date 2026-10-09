@@ -1,10 +1,18 @@
+"""generate_llms_txt.py
+-----------------------
+Generates a structured, token-optimized llms.txt index file from the credentials archive.
+
+Scrapes live counts from README.md and archive index files, categorizes achievements
+into tech domains, and produces a machine-readable index with platform master indexes.
+"""
+
 import glob
 import os
 import re
 from datetime import UTC, datetime
 
 from archiver import count_tokens
-from layer_manifest import get_platform_layers
+from layer_manifest import get_platforms_with_l2_artifact
 
 README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
@@ -48,85 +56,29 @@ FALLBACK_DOMAIN = "[Biz]  Enterprise & Professional Development"
 
 
 def _get_monolith_configs():
-    """Get monolith configs from layer manifest for L2_published artifacts."""
-    # Fallback hardcoded configs for test environments and when manifest is unavailable
-    _FALLBACK_MONOLITH_CONFIGS = [
-        ("AWS Skills Complete", "aws-skills-complete.md"),
-        ("Google Skills Complete", "google-skills-complete.md"),
-        ("Google Developer Complete", "google-developer-complete.md"),
-        ("Linkedin Certifications Complete", "linkedin-certifications-complete.md"),
-        ("Credly Complete", "credly-complete.md"),
-        ("Microsoft Learn Complete", "microsoft-learn-complete.md"),
-    ]
-
-    try:
-        platform_layers = get_platform_layers()
-    except Exception:
-        return _FALLBACK_MONOLITH_CONFIGS
-
+    """Get monolith configs from layer manifest for L2_published artifacts with archive_complete."""
+    platform_keys = get_platforms_with_l2_artifact("archive_complete")
     configs = []
-    for platform_key, layers in platform_layers.items():
-        if hasattr(layers, "L2_published"):
-            l2_artifacts = getattr(layers.L2_published, "artifacts", [])
-            if "archive_complete" in l2_artifacts:
-                platform_name = platform_key.replace("-", " ").title()
-                configs.append(
-                    (f"{platform_name} Complete", f"{platform_key}-complete.md")
-                )
-    return sorted(configs) if configs else _FALLBACK_MONOLITH_CONFIGS
+    for platform_key in platform_keys:
+        platform_name = platform_key.replace("-", " ").title()
+        configs.append((f"{platform_name} Complete", f"{platform_key}-complete.md"))
+    return sorted(configs)
 
 
 def _get_slice_configs():
-    """Get slice configs from layer manifest for L2_published artifacts."""
-    # Fallback hardcoded configs for test environments and when manifest is unavailable
-    _FALLBACK_SLICE_CONFIGS = [
-        (
-            "AWS Skills Latest Slice",
-            "aws-skills",
-            "Most recent achievements for AWS Skills.",
-        ),
-        (
-            "Google Skills Latest Slice",
-            "google-skills",
-            "Most recent achievements for Google Skills.",
-        ),
-        (
-            "Google Developer Latest Slice",
-            "google-developer",
-            "Most recent achievements for Google Developer.",
-        ),
-        (
-            "Linkedin Certifications Latest Slice",
-            "linkedin-certifications",
-            "Most recent achievements for Linkedin Certifications.",
-        ),
-        ("Credly Latest Slice", "credly", "Most recent achievements for Credly."),
-        (
-            "Microsoft Learn Latest Slice",
-            "microsoft-learn",
-            "Most recent achievements for Microsoft Learn.",
-        ),
-    ]
-
-    try:
-        platform_layers = get_platform_layers()
-    except Exception:
-        return _FALLBACK_SLICE_CONFIGS
-
+    """Get slice configs from layer manifest for L2_published artifacts with archive_index."""
+    platform_keys = get_platforms_with_l2_artifact("archive_index")
     configs = []
-    for platform_key, layers in platform_layers.items():
-        if hasattr(layers, "L2_published"):
-            l2_artifacts = getattr(layers.L2_published, "artifacts", [])
-            if "archive_index" in l2_artifacts:
-                platform_name = platform_key.replace("-", " ").title()
-                configs.append(
-                    (
-                        f"{platform_name} Latest Slice",
-                        platform_key,
-                        f"Most recent achievements for {platform_name}.",
-                    )
-                )
-    return sorted(configs) if configs else _FALLBACK_SLICE_CONFIGS
+    for platform_key in platform_keys:
+        platform_name = platform_key.replace("-", " ").title()
+        configs.append(
+            (
+                f"{platform_name} Latest Slice",
+                platform_key,
+                f"Most recent achievements for {platform_name}.",
+            )
+        )
+    return sorted(configs)
 
 
 MONOLITH_CONFIGS = _get_monolith_configs()
@@ -360,7 +312,7 @@ def generate_llms_txt():
 - **Google Cloud Skills**: {_fmt(pc["gcp_badges"])} badges
 - **AWS Skill Builder**: {_fmt(pc["aws_activities"])} completed courses/activities
 - **Credly**: {_fmt(pc["credly_credentials"])} credentials
-- **LinkedIn**: {_fmt(pc["linkedin_certs"])} verified external certifications
+- **LinkedIn**: {_fmt(pc["linkedin_certs"])} certifications & learning courses
 - **Google Developer**: {_fmt(pc["gdev_badges"])} milestone badges | {_fmt(pc["gdev_activities"])} codelabs & activities
 
 ## Domain Focus & Skill Taxonomy
@@ -375,57 +327,33 @@ Dynamic classification of ~{total_parsed:,} parsed portfolio achievements across
 ## Platform Master Indexes
 Use these index files to navigate chunked historical records without exceeding context limits.
 
-- [Aws Skills Index](./archives/aws-skills-index.md): Master navigation index for Aws Skills chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md
-- [Credly Verified Credentials Index](./archives/credly-index.md): Master navigation index for Credly Verified Credentials chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md
-- [Google Skills Index](./archives/google-skills-index.md): Master navigation index for Google Skills chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md
-- [Google Developer Index](./archives/google-developer-index.md): Master navigation index for Google Developer chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md
-- [Linkedin Certifications Index](./archives/linkedin-certifications-index.md): Master navigation index for Linkedin Certifications chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md
-- [Microsoft Learn Index](./archives/microsoft-learn-index.md): Master navigation index for Microsoft Learn chunked archives. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md
+"""
+    for title, filename, description in SLICE_CONFIGS:
+        raw_url = f"{RAW_BASE_URL}/{filename}-index.md"
+        content += f"- [{title}](./archives/{filename}-index.md): {description} Raw: {raw_url}\n"
 
-## Complete Monolithic Datasets
-Recommended for models with large context windows (>100k tokens).
+    content += """
+## Complete Platform Archives (Monolithic)
+For tools with large context windows, complete datasets are available:
 
 """
     for title, filename in MONOLITH_CONFIGS:
-        filepath = os.path.join(ARCHIVE_DIR, filename)
-        size_kb, tokens = _get_file_stats(filepath)
+        size_kb, tokens = _get_file_stats(os.path.join(ARCHIVE_DIR, filename))
         raw_url = f"{RAW_BASE_URL}/{filename}"
-        content += f"- [{title}](./archives/{filename}): Full dataset (~{size_kb} KB, ~{tokens:,} tokens). Raw: {raw_url}\n"
+        content += f"- [{title}](./archives/{filename}) ({size_kb:.2f} KB, {tokens:,} tokens) Raw: {raw_url}\n"
 
-    content += """
-## Latest Chunked Slices (~10 KB per slice)
-Optimized for lower-capacity context tools or fast targeted queries.
+    content += f"""
+## JSON-LD Structured Data
+Full Schema.org linked data available at [credentials.jsonld](../credentials.jsonld) (`{os.path.getsize("credentials.jsonld") / 1024:.2f} KB`)
 
+---
+*Generated automatically from live archive data. See [GitHub Actions](https://github.com/VojislavMiloradovic/my-credentials/actions) for build logs.*
 """
-    for title, prefix, description in SLICE_CONFIGS:
-        pattern = os.path.join(ARCHIVE_DIR, f"{prefix}-*-part-*.md")
-        matches = sorted(glob.glob(pattern))
-        if matches:
-            # Latest slice has highest part number (tail-anchored: part-01 = oldest)
-            def extract_part_num(f):
-                m = re.search(r"-part-(\d+)\.md$", f)
-                return int(m.group(1)) if m else 0
-
-            latest = max(matches, key=extract_part_num)
-            filename = os.path.basename(latest)
-            raw_url = f"{RAW_BASE_URL}/{filename}"
-            content += (
-                f"- [{title}](./archives/{filename}): {description} Raw: {raw_url}\n"
-            )
-
-    content += """
-## Structured Machine-Readable Data
-- [Schema.org JSON-LD Credentials](./credentials.jsonld): Semantic linked data representation of all achievements. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.jsonld
-
-## Full Consolidated Export
-- [llms-full.txt](./llms-full.txt): Single file combining the repository overview, all complete platform datasets, and linked data. Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/llms-full.txt
-"""
-
-    with open(LLMS_PATH, "w", encoding="utf-8") as f:
+    with open(LLMS_PATH, "w", encoding="utf-8", newline="\n") as f:
         f.write(content)
 
     file_size_kb = os.path.getsize(LLMS_PATH) / 1024
-    print(f" Successfully written {LLMS_PATH} ({file_size_kb:.2f} KB).")
+    print(f"Successfully written {LLMS_PATH} ({file_size_kb:.2f} KB).")
 
 
 if __name__ == "__main__":
