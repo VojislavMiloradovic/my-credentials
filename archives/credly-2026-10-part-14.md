@@ -15,16 +15,16 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-09 | [Build with AI - Codex Pathway Completion](https://www.credential.net/e9700c3c-7805-41f9-8f0c-107855848428) | OpenAI Academy | Credly External Badge |
+| 2026-10-09 | [Build With AI - OpenAI API Pathway Completion](https://www.credential.net/a6153528-a0b7-43ff-838a-925dd5273de6) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Build with Retrieval-Augmented Generation](https://www.credential.net/badf24c7-2d8f-4f1e-9b41-24e1b5c11908) | OpenAI Academy | Credly External Badge |
+| 2026-10-09 | [Design and Build Agentic Systems](https://www.credential.net/53ceab8d-072a-4629-96a1-7ac796be215f) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Evaluate AI Applications](https://www.credential.net/7bdef3bd-608a-407b-9aa8-5d3756791e1c) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Extend Codex Workflows](https://www.credential.net/a10d60f9-eb74-4456-8bbe-d81065270025) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Get Started with Codex](https://www.credential.net/c3b19d3e-e2dc-4c89-b89c-cfc1a49ebed6) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Optimize AI Application Performance](https://www.credential.net/36a6db1f-de51-4200-812c-e01de420a016) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Scale Codex Across Teams and Systems](https://www.credential.net/4337aae6-0da3-4369-8cb7-8f4122bd18c3) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Scope AI Solutions](https://www.credential.net/022f81a0-1eaf-4b48-a864-6e459662f0fd) | OpenAI Academy | Credly External Badge |
-| 2026-10-09 | [Build with AI - Codex Pathway Completion](https://www.credential.net/e9700c3c-7805-41f9-8f0c-107855848428) | OpenAI Academy | Credly External Badge |
-| 2026-10-09 | [Build With AI - OpenAI API Pathway Completion](https://www.credential.net/a6153528-a0b7-43ff-838a-925dd5273de6) | OpenAI Academy | Credly External Badge |
-| 2026-10-09 | [Design and Build Agentic Systems](https://www.credential.net/53ceab8d-072a-4629-96a1-7ac796be215f) | OpenAI Academy | Credly External Badge |
 | 2026-10-08 | [Agents and Workflows](https://api.accredible.com/v1/obi/badge_assertions/0fc22b15-4fdc-4a00-870b-17a377d31140) | OpenAI Academy | Credly External Badge |
 | 2026-10-08 | [AI for College Students](https://www.credential.net/1c7fcb2a-fd59-436f-a70d-2fff539820d8) | OpenAI Academy | Credly External Badge |
 | 2026-10-08 | [AI for Educators](https://www.credential.net/83b5de68-80e1-4cce-8eed-8f2aaac50b03) | OpenAI Academy | Credly External Badge |
