@@ -96,3 +96,46 @@ def get_artifact_layer_mapping() -> dict[str, str]:
             for artifact in layer_def.artifacts:
                 mapping[f"{platform}:{artifact}"] = layer_name
     return mapping
+
+
+def get_all_platform_layers() -> dict[str, PlatformLayers]:
+    """Get layer definitions for ALL platforms.
+
+    Returns:
+        Dictionary mapping platform key to its PlatformLayers object.
+        Use this when you need to iterate over all platforms.
+    """
+    return load_manifest().platforms
+
+
+def get_platforms_with_l2_artifact(artifact: str) -> list[str]:
+    """Return platform keys that have a specific artifact in L2_published.
+
+    Args:
+        artifact: The logical artifact name to search for. Supported aliases:
+            - "archive_complete" or "complete" (maps to manifest "complete")
+            - "archive_index" or "index" (maps to manifest "index")
+            - "jsonld" (maps to manifest "complete" since JSON-LD is generated from complete)
+
+    Returns:
+        List of platform keys that have this artifact in their L2_published layer.
+        Empty list if none found.
+    """
+    # Map logical artifact names to manifest artifact names
+    artifact_map = {
+        "archive_complete": "complete",
+        "complete": "complete",
+        "archive_index": "index",
+        "index": "index",
+        "jsonld": "complete",  # JSON-LD is generated from complete archive
+    }
+    manifest_artifact = artifact_map.get(artifact, artifact)
+
+    manifest = load_manifest()
+    result = []
+    for platform, layers in manifest.platforms.items():
+        if hasattr(layers, "L2_published"):
+            l2_artifacts = getattr(layers.L2_published, "artifacts", [])
+            if manifest_artifact in l2_artifacts:
+                result.append(platform)
+    return result
