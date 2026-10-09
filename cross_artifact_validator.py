@@ -824,7 +824,7 @@ class CrossArtifactValidator:
             "google-skills": [r"Google Cloud Skills.*?(\d[\d,]*)\s*badges"],
             "aws-skills": [r"AWS Skill Builder.*?(\d[\d,]*)\s*completed"],
             "credly": [r"Credly.*?(\d[\d,]*)\s*credentials"],
-            "linkedin-certifications": [r"LinkedIn.*?(\d[\d,]*)\s*verified"],
+            "linkedin-certifications": [r"LinkedIn.*?(\d[\d,]*)\s*certifications"],
             "google-developer": [r"Google Developer.*?(\d[\d,]*)\s*milestone badges"],
         }
 
