@@ -9,9 +9,11 @@ from models.layer_manifest import (
     LayerManifest,
     LayerTransform,
     PlatformLayers,
+    get_all_platform_layers,
     get_artifact_layer_mapping,
     get_layer_def,
     get_platform_layers,
+    get_platforms_with_l2_artifact,
     load_manifest,
 )
 
@@ -20,8 +22,10 @@ __all__ = [
     "LayerManifest",
     "LayerTransform",
     "PlatformLayers",
+    "get_all_platform_layers",
     "get_artifact_layer_mapping",
     "get_layer_def",
     "get_platform_layers",
+    "get_platforms_with_l2_artifact",
     "load_manifest",
 ]
