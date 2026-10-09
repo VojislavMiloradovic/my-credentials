@@ -1,5 +1,5 @@
 # Professional Credentials & Achievements
-
+-This is a trivial test change for testing push failure / rebase conflict
 > **For AI Agents / LLMs:** See [llms.txt](./llms.txt) for an AI-native directory index, [llms-full.txt](./llms-full.txt) for the complete consolidated context, or [credentials.jsonld](./credentials.jsonld) for Schema.org linked data.
 
 Hello, I'm Vojislav Miloradović
