@@ -34,8 +34,10 @@ def get_platforms_with_l2_artifact(artifact: str) -> list[str]:
     """Return platform keys with specific artifact in L2_published."""
     manifest = load_manifest()
     return [
-        p for p, layers in manifest.platforms.items()
-        if hasattr(layers, "L2_published") and artifact in getattr(layers.L2_published, "artifacts", [])
+        p
+        for p, layers in manifest.platforms.items()
+        if hasattr(layers, "L2_published")
+        and artifact in getattr(layers.L2_published, "artifacts", [])
     ]
 ```
 **Commit**: Single file, additive only
