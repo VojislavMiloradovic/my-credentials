@@ -258,7 +258,7 @@ class PipelineBase:
 
         if not records:
             self.logger.error("[FAIL] No records extracted. Aborting.")
-            return
+            sys.exit(1)
 
         # 2. Pre-guard hook (deduplication, etc.)
         records = self.pre_loss_guard(records)
