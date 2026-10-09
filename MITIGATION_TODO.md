@@ -43,6 +43,12 @@ Baselines are persisted inside `execute_content_loss_guard()` **before** archive
 ### Step 2.3: Fix ruff formatting on verify_baseline.py ✅ DONE
 **Commit**: `a25b4db2`
 
+### Step 2.4: Fix verification script to count unique IDs (matching baseline fingerprint index) ✅ DONE
+**File**: `scripts/verify_baseline.py`
+**Commit**: `f2703823`
+- **LinkedIn**: Count unique extracted IDs (handles duplicate certs in source CSV)
+- **Google Developer**: Use full title as ID (not truncated to 50 chars)
+
 ---
 
 ## Phase 3: Testing & Validation ✅ COMPLETE
@@ -50,7 +56,7 @@ Baselines are persisted inside `execute_content_loss_guard()` **before** archive
 ### Step 3.1: Simulated Full Pipeline Test ✅ DONE
 - All 6 platform pipelines run locally
 - Baselines generated at end (not after loss guards)
-- Verification passes (0.0%-0.1% mismatch)
+- Verification passes (0.0% mismatch for all platforms)
 
 ### Step 3.2: GitHub Actions Integration Test ✅ DONE
 - All 6 platform workflows manually dispatched
@@ -83,6 +89,28 @@ Baselines are persisted inside `execute_content_loss_guard()` **before** archive
 
 ---
 
+## Root Cause of LinkedIn 0.1% Mismatch (RESOLVED)
+
+**Two exact duplicate certifications in LinkedIn CSV export:**
+| Certification | License | Count |
+|---------------|---------|-------|
+| Certificate of completion: Introduction to Claude Cowork | `stgugigxajbf` | 2 |
+| Essentials - GenAI Protection | `34cf63a3-9c10-4ce1-8855-67ec2b1eb97d` | 2 |
+
+**Root cause**: Verification script counted **total certifications** (1818) but baseline is a **fingerprint index** (unique by ID = 1816).
+
+**Fix**: Updated `scripts/verify_baseline.py` to count **unique extracted IDs** matching baseline fingerprint index semantics.
+
+---
+
+## Root Cause of Google Developer 1.7% Mismatch (RESOLVED)
+
+**Root cause**: Verification script truncated Google Developer titles to 50 chars, causing false collisions (26 duplicates). Baseline uses **full titles** as keys (1736 unique).
+
+**Fix**: Updated `scripts/verify_baseline.py` to use **full title** as ID for Google Developer.
+
+---
+
 ## Rollback Plan (Per Step)
 
 | Step | Rollback Action |
@@ -109,6 +137,8 @@ All steps are independently revertible. No data migration required.
 | `a9cd3435` | fix: restore aws-skills baseline after test |
 | `cd486294` | chore(aws): auto-update AWS profile... |
 | `dc8a30ab` | fix: remove trivial test change from README |
+| `d4bd7c03` | docs: finalize MITIGATION_TODO.md with complete Phase 1-4 summary |
+| `f2703823` | fix(verify_baseline): count unique IDs matching baseline fingerprint index |
 
 ---
 
@@ -121,6 +151,8 @@ All steps are independently revertible. No data migration required.
 - [x] Cross-artifact validation, manifest validation, targeted tests still run
 - [x] No regression in loss guard detection capability
 - [x] Multiple defense layers active: pre-flight JSON check → verification step → cross-artifact validation
+- [x] **LinkedIn mismatch resolved (0.0%)**
+- [x] **Google Developer mismatch resolved (0.0%)**
 
 ---
 
@@ -132,7 +164,7 @@ All steps are independently revertible. No data migration required.
 | google-skills | 409 | 409 | 0.0% |
 | aws-skills | 1008 | 1008 | 0.0% |
 | credly | 728 | 728 | 0.0% |
-| linkedin-certifications | 1816 | 1818 | 0.1% |
+| linkedin-certifications | 1816 | 1816 | 0.0% |
 | google-developer | 1736 | 1736 | 0.0% |
 
 **Total**: 592 tests pass, all workflows green, all ruff checks pass.
