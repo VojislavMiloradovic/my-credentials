@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 409 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-09T10:04:26.629036+00:00 -->
+<!-- retrieved_at: 2026-10-09T17:23:27.784883+00:00 -->
 
 ## Verified Records Archive
 
