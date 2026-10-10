@@ -1,6 +1,6 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 17 of 19
+chunk_part: 17 of 20
 date_range: 2026-09-20 to 2026-09-30
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-17.md
@@ -44,6 +44,7 @@ artifacts: complete, index
 | 2026-09-25 | [A leader's guide to achieving compliance through software excellence - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-25 | [A leader's guide to data strategy in the era of agentic AI - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-25 | [Security Hub adds AI workload protection and multicloud support for Microsoft Azure](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-21 | [[RETIRING - 2026-11-07] Audio tokenization layer behind Speech AI: Deploy and compare neural codecs on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Builder Lab |
 | 2026-09-21 | [AgentCore Policy on Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-21 | [Amazon Aurora Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-21 | [Amazon Bedrock Business Value and ROI Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -51,7 +52,6 @@ artifacts: complete, index
 | 2026-09-21 | [Amazon Connect Contact Lens Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-21 | [Amazon Connect Flows Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-21 | [Amazon Virtual Private Cloud (Amazon VPC) - Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-21 | [Audio tokenization layer behind Speech AI: Deploy and compare neural codecs on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Builder Lab |
 | 2026-09-21 | [AWS AI Business Strategist - Measure and Demonstrate AI Business Value](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-21 | [AWS Identity Access Management - Foundations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-21 | [AWS Security Architecture: Defense-in-Depth for Production Workloads](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

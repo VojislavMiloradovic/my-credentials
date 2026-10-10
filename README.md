@@ -88,8 +88,8 @@ Showing latest 10 of 2 credentials. View full dataset via [Platform Archive Inde
 
 **Public Profile:** [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 4
-**Total Verified Skills Mapped:** 4
+**Total Portfolio Credentials:** 1036
+**Total Verified Skills Mapped:** 1033
 
 #### AWS Cloud Quest Summary
 
@@ -104,14 +104,20 @@ Showing latest 10 of 2 credentials. View full dataset via [Platform Archive Inde
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 4 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-01-part-01.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-01-part-01.md)), or [Monolithic File](./archives/aws-skills-complete.md).
+Showing latest 10 of 1036 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-10-part-20.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-20.md)), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-01-01 | [AWS Cloud Practitioner Essentials](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-01-01 | [Amazon S3 Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-01-01 | [AWS Lambda Foundations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-01-01 | [Another Course](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Amazon Quick integration with time-series databases for market intelligence using MCP](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Architecting offline-first generative AI applications for edge deployments using AWS services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Authenticate legitimate AI agent traffic with AWS WAF Bot Control](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Automate Model Quota Request and Operational Issue Triage on Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Automating Multi-Cloud Cost Management at Scale: A2A's FinOps Platform Powered by AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [AWS Security Agent: A multi-agent architecture for automated penetration testing](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [AWS Security Hub: Unify your security at scale](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Build AI-powered dashboard automation agents with NLP on Amazon Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Build bespoke operational workflows with AWS DevOps Agent custom SRE agents](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Building a serverless AI assistant at Pelago: concept to care in two weeks](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 <!-- AWS_SKILLS_END -->
 
 

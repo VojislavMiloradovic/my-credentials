@@ -7,7 +7,7 @@
 <!-- artifacts: complete, index -->
 
 
-<!-- retrieved_at: 2024-06-15T12:00:00+00:00 -->
+<!-- retrieved_at: 2026-10-10T21:53:05.115379+00:00 -->
 
 
 
@@ -15,23 +15,24 @@ This directory provides chunked, AI-readable historical records for AWS Skill Bu
 
 ## Archive Overview
 
-- **Total Records Archived:** 1008
-- **Monolithic File Size:** ~0.0 KB (46,543 tokens)
-- **Total Chunk Parts:** 19 chunk(s)
+- **Total Records Archived:** 1036
+- **Monolithic File Size:** ~176.62 KB (47,957 tokens)
+- **Total Chunk Parts:** 20 chunk(s)
 
 ### Monolithic Archive (Complete)
 
 | File Name | Size (KB) | Tokens | Recommended For | Direct Raw URL |
 | :--- | :---: | :---: | :--- | :--- |
-| [`aws-skills-complete.md`](./aws-skills-complete.md) | 0.0 KB | 46,543 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md) |
+| [`aws-skills-complete.md`](./aws-skills-complete.md) | 176.62 KB | 47,957 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md) |
 
 ### Chunked Archive Parts (~10 KB Slices)
 
 | Part | File Name | Date Range | Entries | Size (KB) | Tokens | Direct Raw URL |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| Part 19 | [`aws-skills-2026-10-part-19.md`](./aws-skills-2026-10-part-19.md) | `2026-10-05 to 2026-10-05` | 25 | 5.26 KB | 1,439 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-19.md) |
+| Part 20 | [`aws-skills-2026-10-part-20.md`](./aws-skills-2026-10-part-20.md) | `2026-10-10 to 2026-10-10` | 3 | 1.37 KB | 401 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-20.md) |
+| Part 19 | [`aws-skills-2026-10-part-19.md`](./aws-skills-2026-10-part-19.md) | `2026-10-05 to 2026-10-10` | 50 | 10.06 KB | 2,742 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-19.md) |
 | Part 18 | [`aws-skills-2026-10-part-18.md`](./aws-skills-2026-10-part-18.md) | `2026-09-30 to 2026-10-05` | 54 | 10.1 KB | 2,781 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-18.md) |
-| Part 17 | [`aws-skills-2026-09-part-17.md`](./aws-skills-2026-09-part-17.md) | `2026-09-20 to 2026-09-30` | 53 | 10.08 KB | 2,848 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-17.md) |
+| Part 17 | [`aws-skills-2026-09-part-17.md`](./aws-skills-2026-09-part-17.md) | `2026-09-20 to 2026-09-30` | 53 | 10.11 KB | 2,860 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-17.md) |
 | Part 16 | [`aws-skills-2026-09-part-16.md`](./aws-skills-2026-09-part-16.md) | `2026-09-10 to 2026-09-20` | 56 | 10.22 KB | 2,833 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-16.md) |
 | Part 15 | [`aws-skills-2026-09-part-15.md`](./aws-skills-2026-09-part-15.md) | `2026-09-01 to 2026-09-10` | 52 | 10.06 KB | 2,769 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-15.md) |
 | Part 14 | [`aws-skills-2026-09-part-14.md`](./aws-skills-2026-09-part-14.md) | `2026-08-25 to 2026-09-01` | 50 | 10.16 KB | 2,764 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-14.md) |

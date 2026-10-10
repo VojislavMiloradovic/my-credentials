@@ -1,6 +1,6 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 12 of 19
+chunk_part: 12 of 20
 date_range: 2026-08-12 to 2026-08-21
 total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-12.md
