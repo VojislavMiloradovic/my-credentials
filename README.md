@@ -14,15 +14,16 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,153,275
+- **Total Experience Points (XP):** 6,162,600
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 4,013
-- **Trophies Earned (Profile):** 915
-- **Completed Learning Paths (Active Tracker):** 524
-- **Completed Modules (Active Tracker):** 2,764
-- **Completed Individual Units:** 36,683
+- **Badges Earned (Profile):** 4,019
+- **Trophies Earned (Profile):** 917
+- **Completed Learning Paths (Active Tracker):** 526
+- **Completed Modules (Active Tracker):** 2,770
+- **Completed Individual Units:** 36,733
 
 ### Verifiable Applied Skills & Credentials
+- **Resolve Github Issues By Using Github Copilot** (Credential ID: `B3E75DBC35A98214` | Earned: 2026-10-10T23:14:43+00:00 | Status: Active)
 - **Accelerate App Development By Using Github Copilot** (Credential ID: `15F428743381AFA9` | Earned: 2026-10-06T17:23:19+00:00 | Status: Active)
 - **Get Started Developing Agents In Microsoft Foundry** (Credential ID: `9DB8E4A68E66793` | Earned: 2026-10-06T16:27:25+00:00 | Status: Active)
 - **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25T16:21:33+00:00 | Status: Active)
@@ -33,20 +34,20 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,928 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-97.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-97.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,936 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-97.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-97.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Explore NVIDIA RTX Spark for Windows PCs** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/nvidia-spark-rtx/) |
+| **AI Success: Build AI agents with Microsoft Copilot** | Learningpaths | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-success-build-ai-agents/) |
+| **Work smarter with an agent in Microsoft Copilot Studio** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilot-studio-agent/) |
+| **mPower Clinical Analytics administrator workflow foundations** | Learningpaths | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/mpower-clinical-analytics-administrator-workflow-foundations/) |
+| **Get started with mPower Clinical Analytics for Administrators** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-admin-get-started/) |
+| **Configure and manage users in mPower Clinical Analytics** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-admin-configure-manage-users/) |
+| **Publish and deploy agents to channels in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-deploy-agents-channels-copilot-studio/) |
+| **Manage mPower systems** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-administrator-manage-system/) |
 | **Certificate enrollment and renewal** | Modules | 2026-10-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/certificate-autoenrollment/) |
 | **Secure an Azure Cosmos DB solution** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-cosmos-db-nosql/) |
-| **Review quality and follow-up data in mPower Clinical Analytics** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-review-quality-follow-up-data/) |
-| **Monitor and improve agents in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-agents-github-copilot/) |
-| **Evaluate agents in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-agents-github-copilot/) |
-| **Design a responsible AI strategy for agents in Copilot Studio** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-responsible-ai-strategy-copilot-studio/) |
-| **Monitor and troubleshoot Azure Cosmos DB** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-azure-cosmos-db-nosql/) |
-| **Manage Azure Cosmos DB at scale with fleets** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-cosmos-db-fleets/) |
-| **Implement operational analytics with Microsoft Fabric** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-operational-analytics-fabric-azure-cosmos-db/) |
-| **Implement hybrid search and optimize AI retrieval in Azure Cosmos DB for NoSQL** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hybrid-search-optimize-retrieval-azure-cosmos-db-nosql/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

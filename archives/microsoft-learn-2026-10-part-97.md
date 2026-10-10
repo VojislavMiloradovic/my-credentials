@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 97 of 97
-date_range: 2026-10-02 to 2026-10-06
-total_entries: 38
+date_range: 2026-10-02 to 2026-10-10
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-97.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,14 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Explore NVIDIA RTX Spark for Windows PCs** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/nvidia-spark-rtx/) |
+| **AI Success: Build AI agents with Microsoft Copilot** | Learningpaths | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-success-build-ai-agents/) |
+| **Work smarter with an agent in Microsoft Copilot Studio** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilot-studio-agent/) |
+| **mPower Clinical Analytics administrator workflow foundations** | Learningpaths | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/mpower-clinical-analytics-administrator-workflow-foundations/) |
+| **Get started with mPower Clinical Analytics for Administrators** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-admin-get-started/) |
+| **Configure and manage users in mPower Clinical Analytics** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-admin-configure-manage-users/) |
+| **Publish and deploy agents to channels in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-deploy-agents-channels-copilot-studio/) |
+| **Manage mPower systems** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-administrator-manage-system/) |
 | **Certificate enrollment and renewal** | Modules | 2026-10-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/certificate-autoenrollment/) |
 | **Secure an Azure Cosmos DB solution** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-cosmos-db-nosql/) |
 | **Review quality and follow-up data in mPower Clinical Analytics** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-review-quality-follow-up-data/) |
