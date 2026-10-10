@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-10-10 21:53 UTC
+> **Last Generated:** 2026-10-10 21:54 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -163,16 +163,24 @@ Showing latest 10 of 4 credentials. View full dataset via [Platform Archive Inde
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 2 |
+| **Total External Certifications Verified** | 1,818 |
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice]() ([Raw]()), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-10-part-40.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-40.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2024-03* | **AWS Solutions Architect** | Amazon Web Services | [Verify Record](https://example.com/2) |
-| *2024-01* | **Python Certification** | Python Institute | [Verify Record](https://example.com/1) |
+| *2026-10* | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
+| *2026-10* | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| *2026-10* | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |
+| *2026-10* | **Enterprise AI Business Solutions** | IBM | [Verify Record](https://www.credly.com/badges/8022d661-c083-40c9-9ab7-acd251698a1f/linked_in_profile) |
+| *2026-10* | **Basis Automate+** | Basis | [Verify Record](https://www.credly.com/badges/4cca84af-5946-435a-a853-e89ea3c9181b/linked_in_profile) |
+| *2026-10* | **Programmatic Sales Essentials** | Basis | [Verify Record](https://www.credly.com/badges/7895fbdf-6d83-4d71-95d3-6938d0ad96fb/linked_in_profile) |
+| *2026-10* | **Basis Reporting** | Basis | [Verify Record](https://www.credly.com/badges/eb14d86e-db4b-4a3f-bfd5-5b672f60e3bd/linked_in_profile) |
+| *2026-10* | **Basis Connect+** | Basis | [Verify Record](https://www.credly.com/badges/5d229e20-bae1-4dee-89b8-3c2b0afbbd7b/linked_in_profile) |
+| *2026-10* | **Unify by Basis** | Basis | [Verify Record](https://www.credly.com/badges/6a5a5d48-9544-4ed3-b3bd-69e76fa55459/linked_in_profile) |
+| *2026-10* | **Programmatic** | Basis | [Verify Record](https://www.credly.com/badges/a845f138-3606-4581-8020-b07a581eac19/linked_in_profile) |
 <!-- LINKEDIN_END -->
 
 
@@ -4251,7 +4259,7 @@ This document represents a unified, verifiable list of all 1818 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2024-06-15T12:00:00+00:00 -->
+<!-- retrieved_at: 2026-10-10T21:54:28.401479+00:00 -->
 
 ## Verified Records Archive
 
@@ -5873,7 +5881,7 @@ This document represents a unified, verifiable list of all 1818 records.
 | 2026-03 | **Search Ads 360 Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/5b477ad2-43c6-4789-af30-137f9f87f4c6) |
 | 2026-03 | **Microsoft Applied Skills: Generate reports with AI research agents** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/ABC20116B56C7F9F?sharingId) |
 | 2026-03 | **Grow Offline Sales Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/2d2774cb-bf2e-47c5-a286-86de5cc1bcd8) |
-| 2026-03 | **Human Skills in the Age of AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4) |
+| 2026-03 | **Human Skills in the Age of AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4) [WARN] *Content retired* |
 | 2026-03 | **Conversion Optimization Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/3c4afa84-5637-4c3b-b3fc-6e6c26e48d35) |
 | 2026-03 | **Introduction to Cloud Next Generation Firewall** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691267?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Plan Your Cloud Next Generation Firewall Needs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691283?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
