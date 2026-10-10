@@ -163,6 +163,7 @@ class TestJsonLdValidation:
             "@context": "https://schema.org",
             "@type": "ProfilePage",
             "mainEntity": {
+                "@context": "https://schema.org",
                 "@type": "Person",
                 "name": "Test",
                 "url": "https://example.com",
