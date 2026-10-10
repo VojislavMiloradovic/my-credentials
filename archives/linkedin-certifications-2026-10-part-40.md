@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 40 of 40
+chunk_part: 40 of 41
 date_range: 2026-10 to 2026-10
-total_entries: 37
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-40.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,20 +11,10 @@ artifacts: complete, index
 
 # LinkedIn Certifications -- Part 40
 
-> **Navigation:** Prev: [linkedin-certifications-2026-10-part-39.md](./linkedin-certifications-2026-10-part-39.md) | [Index](./linkedin-certifications-index.md) | Next: None | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-10-part-39.md](./linkedin-certifications-2026-10-part-39.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-41.md](./linkedin-certifications-2026-10-part-41.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
-| 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |
-| 2026-10 | **Enterprise AI Business Solutions** | IBM | [Verify Record](https://www.credly.com/badges/8022d661-c083-40c9-9ab7-acd251698a1f/linked_in_profile) |
-| 2026-10 | **Basis Automate+** | Basis | [Verify Record](https://www.credly.com/badges/4cca84af-5946-435a-a853-e89ea3c9181b/linked_in_profile) |
-| 2026-10 | **Programmatic Sales Essentials** | Basis | [Verify Record](https://www.credly.com/badges/7895fbdf-6d83-4d71-95d3-6938d0ad96fb/linked_in_profile) |
-| 2026-10 | **Basis Reporting** | Basis | [Verify Record](https://www.credly.com/badges/eb14d86e-db4b-4a3f-bfd5-5b672f60e3bd/linked_in_profile) |
-| 2026-10 | **Basis Connect+** | Basis | [Verify Record](https://www.credly.com/badges/5d229e20-bae1-4dee-89b8-3c2b0afbbd7b/linked_in_profile) |
-| 2026-10 | **Unify by Basis** | Basis | [Verify Record](https://www.credly.com/badges/6a5a5d48-9544-4ed3-b3bd-69e76fa55459/linked_in_profile) |
-| 2026-10 | **Programmatic** | Basis | [Verify Record](https://www.credly.com/badges/a845f138-3606-4581-8020-b07a581eac19/linked_in_profile) |
 | 2026-10 | **Digital Media Buyer** | Basis | [Verify Record](https://www.credly.com/badges/ed43b663-fc70-4494-8902-d27a8d94d7b8/linked_in_profile) |
 | 2026-10 | **Cracking the Supply Challenge: Sourcing Strategies for Alfredo Sauce (Egg Hunt Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7066fdf5693ccebe519f738225a0e24c49fb9bbe2e4a8430e796ee56e6b71b02) |
 | 2026-10 | **Smarter Ways to Use AI at Work: Cut Costs, Carbon, and Complexity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f736fa1c739619573f34c4b5db5d060e4404f254bca1d73949cd12e7b7099dca) |
@@ -52,7 +42,32 @@ artifacts: complete, index
 | 2026-10 | **AWS Knowledge: AWS Communication Developer Services Fundamentals - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b001a553-a34a-469c-b597-3b8f4428f95b/linked_in_profile) |
 | 2026-10 | **Generative AI: From Prompts to Partnership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/45f8ee921e8f88d3f1284eff9995980652f48512aca4ee79c2092e1dfc227766) |
 | 2026-10 | **Data Storytelling with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fd42599d03ff68dceb87bd570d33958be38be6840195dacd675f86c74af88165) |
+| 2026-10 | **Microsoft Applied Skills: Get started developing agents in Microsoft Foundry** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/9DB8E4A68E66793?sharingId) |
+| 2026-10 | **Microsoft Security Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/460368401799de36c8198d3090fe3a302d34abdfbe4db33e5ea44cc1c6d3dcbc) |
+| 2026-10 | **Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/15F428743381AFA9?sharingId) |
+| 2026-10 | **Creating Change: Diversity and Inclusion in the Tech Industry** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f839d9732ff242f4e0492f2024168ecc8b5673e6be2429052eab26eea8f04ec8) |
+| 2026-10 | **C#: Advanced Practices** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/830f21c9ea0d408593d735d98879366cc10f4b3442cff33ea92d182ef9a68eca) |
+| 2026-10 | **Creating a Culture of Privacy** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30b77d839563942d76a76ea000b3dea978e758dd011ab62e91496637cbe5d819) |
+| 2026-10 | **Learn AI Video Models in 10 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1fb0007e90fbb288b98036d1a39cb79532a0d755adaba3b8167c05d8c84ccdbc) |
+| 2026-10 | **Implement DevOps Workflows in Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/6cd6bbb4-b1d6-4edf-8add-2523026f6915/linked_in_profile) |
+| 2026-10 | **Set Up a Google Cloud Network Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/981311c0-3ff9-4b0b-8491-79f928f8349f/linked_in_profile) |
+| 2026-10 | **Arcade Simulator: Site Reliability Engineer** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28726632?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **AI Foundations** | OpenAI | [Verify Record](https://oaiacademy.credential.net/4ec9bf1c-4513-45e8-9158-af7b12572578) |
+| 2026-10 | **Applied AI Foundations** | OpenAI | [Verify Record](https://oaiacademy.credential.net/05420b94-f7b2-4a8f-94c0-1126a81c6ccf) |
+| 2026-10 | **Agents and Workflows** | OpenAI | [Verify Record](https://oaiacademy.credential.net/0fc22b15-4fdc-4a00-870b-17a377d31140) |
+| 2026-10 | **Apply AI at Work Pathway Completion** | OpenAI | [Verify Record](https://oaiacademy.credential.net/e106a393-57d6-4d31-87d0-a777c12095b0) |
+| 2026-10 | **AI Leadership** | OpenAI | [Verify Record](https://oaiacademy.credential.net/298344d0-7037-4e8f-aa91-9b73db962a4c) |
+| 2026-10 | **AI for Educators** | OpenAI | [Verify Record](https://oaiacademy.credential.net/83b5de68-80e1-4cce-8eed-8f2aaac50b03) |
+| 2026-10 | **AI for College Students** | OpenAI | [Verify Record](https://oaiacademy.credential.net/1c7fcb2a-fd59-436f-a70d-2fff539820d8) |
+| 2026-10 | **Build with Retrieval-Augmented Generation** | OpenAI | [Verify Record](https://oaiacademy.credential.net/badf24c7-2d8f-4f1e-9b41-24e1b5c11908) |
+| 2026-10 | **Design and Build Agentic Systems** | OpenAI | [Verify Record](https://oaiacademy.credential.net/53ceab8d-072a-4629-96a1-7ac796be215f) |
+| 2026-10 | **Optimize AI Application Performance** | OpenAI | [Verify Record](https://oaiacademy.credential.net/36a6db1f-de51-4200-812c-e01de420a016) |
+| 2026-10 | **Evaluate AI Applications** | OpenAI | [Verify Record](https://oaiacademy.credential.net/7bdef3bd-608a-407b-9aa8-5d3756791e1c) |
+| 2026-10 | **Scope AI Solutions** | OpenAI | [Verify Record](https://oaiacademy.credential.net/022f81a0-1eaf-4b48-a864-6e459662f0fd) |
+| 2026-10 | **Build With AI - OpenAI API Pathway Completion** | OpenAI | [Verify Record](https://oaiacademy.credential.net/a6153528-a0b7-43ff-838a-925dd5273de6) |
+| 2026-10 | **Scale Codex Across Teams and Systems** | OpenAI | [Verify Record](https://oaiacademy.credential.net/4337aae6-0da3-4369-8cb7-8f4122bd18c3) |
+| 2026-10 | **Extend Codex Workflows** | OpenAI | [Verify Record](https://oaiacademy.credential.net/a10d60f9-eb74-4456-8bbe-d81065270025) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-10-part-39.md](./linkedin-certifications-2026-10-part-39.md) | [Index](./linkedin-certifications-index.md) | Next: None
+> **Navigation:** Prev: [linkedin-certifications-2026-10-part-39.md](./linkedin-certifications-2026-10-part-39.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-41.md](./linkedin-certifications-2026-10-part-41.md)
 

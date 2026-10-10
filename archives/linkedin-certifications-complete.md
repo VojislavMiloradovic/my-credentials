@@ -1,12 +1,12 @@
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 1818 records.
+This document represents a unified, verifiable list of all 1843 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-10T23:18:10.739291+00:00 -->
+<!-- retrieved_at: 2026-10-10T23:57:51.687905+00:00 -->
 
 ## Verified Records Archive
 
@@ -64,6 +64,31 @@ This document represents a unified, verifiable list of all 1818 records.
 | 2026-10 | **Agents and Workflows** | OpenAI | [Verify Record](https://oaiacademy.credential.net/0fc22b15-4fdc-4a00-870b-17a377d31140) |
 | 2026-10 | **Apply AI at Work Pathway Completion** | OpenAI | [Verify Record](https://oaiacademy.credential.net/e106a393-57d6-4d31-87d0-a777c12095b0) |
 | 2026-10 | **AI Leadership** | OpenAI | [Verify Record](https://oaiacademy.credential.net/298344d0-7037-4e8f-aa91-9b73db962a4c) |
+| 2026-10 | **AI for Educators** | OpenAI | [Verify Record](https://oaiacademy.credential.net/83b5de68-80e1-4cce-8eed-8f2aaac50b03) |
+| 2026-10 | **AI for College Students** | OpenAI | [Verify Record](https://oaiacademy.credential.net/1c7fcb2a-fd59-436f-a70d-2fff539820d8) |
+| 2026-10 | **Build with Retrieval-Augmented Generation** | OpenAI | [Verify Record](https://oaiacademy.credential.net/badf24c7-2d8f-4f1e-9b41-24e1b5c11908) |
+| 2026-10 | **Design and Build Agentic Systems** | OpenAI | [Verify Record](https://oaiacademy.credential.net/53ceab8d-072a-4629-96a1-7ac796be215f) |
+| 2026-10 | **Optimize AI Application Performance** | OpenAI | [Verify Record](https://oaiacademy.credential.net/36a6db1f-de51-4200-812c-e01de420a016) |
+| 2026-10 | **Evaluate AI Applications** | OpenAI | [Verify Record](https://oaiacademy.credential.net/7bdef3bd-608a-407b-9aa8-5d3756791e1c) |
+| 2026-10 | **Scope AI Solutions** | OpenAI | [Verify Record](https://oaiacademy.credential.net/022f81a0-1eaf-4b48-a864-6e459662f0fd) |
+| 2026-10 | **Build With AI - OpenAI API Pathway Completion** | OpenAI | [Verify Record](https://oaiacademy.credential.net/a6153528-a0b7-43ff-838a-925dd5273de6) |
+| 2026-10 | **Scale Codex Across Teams and Systems** | OpenAI | [Verify Record](https://oaiacademy.credential.net/4337aae6-0da3-4369-8cb7-8f4122bd18c3) |
+| 2026-10 | **Extend Codex Workflows** | OpenAI | [Verify Record](https://oaiacademy.credential.net/a10d60f9-eb74-4456-8bbe-d81065270025) |
+| 2026-10 | **Get Started with Codex** | OpenAI | [Verify Record](https://oaiacademy.credential.net/c3b19d3e-e2dc-4c89-b89c-cfc1a49ebed6) |
+| 2026-10 | **Build with AI - Codex Pathway Completion** | OpenAI | [Verify Record](https://oaiacademy.credential.net/e9700c3c-7805-41f9-8f0c-107855848428) |
+| 2026-10 | **Certificate of completion: AI Fluency for K-12 Educators** | Anthropic | [Verify Record](https://verify.skilljar.com/c/jtn598rzvw5v) |
+| 2026-10 | **Responsible AI and Risk Management** | IBM | [Verify Record](https://www.credly.com/badges/0d35258c-e02f-4092-b067-17e3c928a306/linked_in_profile) |
+| 2026-10 | **Human-AI Collaborative Planning** | IBM | [Verify Record](https://www.credly.com/badges/1d2d3eaf-ee7e-4db9-a876-114852bcf023/linked_in_profile) |
+| 2026-10 | **AI Gateway Operations** | Kong | [Verify Record](https://www.credly.com/badges/382c45a4-5932-4860-9b86-0a207e34d81e/linked_in_profile) |
+| 2026-10 | **Learn Agent Memory in 10 Minutes: Why AI Agents Need Memory** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1113898e84dbe5a461345957689bc2999baae6269ae25c90f0664ccf3abacbc0) |
+| 2026-10 | **Create a Team of Agents in 10 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1920cfa4d9e9d233d1ef1bb016f0b122c829a514eb0d1180b8a0bedff83effe9) |
+| 2026-10 | **Harness Certified Continuous Delivery & GitOps Developer** | Harness | [Verify Record](https://www.credly.com/badges/99b36a29-ec2a-4df6-bf2d-74fdad35e070/linked_in_profile) |
+| 2026-10 | **Harness Certified Continuous Integration Developer** | Harness | [Verify Record](https://www.credly.com/badges/614739fa-4c01-45e3-afaa-32d3ed5e80c5/linked_in_profile) |
+| 2026-10 | **Harness Certified Resilience Testing Formerly Chaos Engineering Developer** | Harness | [Verify Record](https://www.credly.com/badges/ed311c10-6a4b-4dea-a7e5-a24b1bdde162/linked_in_profile) |
+| 2026-10 | **Harness Certified Security Testing Orchestration Developer** | Harness | [Verify Record](https://www.credly.com/badges/455c75bc-68bd-455c-8162-9f22617ffed1/linked_in_profile) |
+| 2026-10 | **Harness Certified Infrastructure as Code Management Developer** | Harness | [Verify Record](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/linked_in_profile) |
+| 2026-10 | **Harness Certified Code Repository Developer** | Harness | [Verify Record](https://www.credly.com/badges/e7564671-e168-49e2-b28b-c2f2da887146/linked_in_profile) |
+| 2026-10 | **Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B3E75DBC35A98214?sharingId) |
 | 2026-09 | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
 | 2026-09 | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
 | 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
