@@ -1,6 +1,6 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 1 of 14
+chunk_part: 1 of 15
 date_range: 2025-11-04 to 2026-04-19
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-04-part-01.md

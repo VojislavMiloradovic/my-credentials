@@ -1,6 +1,6 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 14 of 14
+chunk_part: 14 of 15
 date_range: 2026-09-30 to 2026-10-10
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md
@@ -11,13 +11,13 @@ artifacts: complete, index
 
 # Credly Verified Credentials -- Part 14
 
-> **Navigation:** Prev: [credly-2026-09-part-13.md](./credly-2026-09-part-13.md) | [Index](./credly-index.md) | Next: None | [Complete Archive](./credly-complete.md)
+> **Navigation:** Prev: [credly-2026-09-part-13.md](./credly-2026-09-part-13.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md) | [Complete Archive](./credly-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-10-10 | [Harness Certified Continuous Delivery & GitOps Developer](https://www.credly.com/badges/99b36a29-ec2a-4df6-bf2d-74fdad35e070/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Continuous Integration Developer](https://www.credly.com/badges/614739fa-4c01-45e3-afaa-32d3ed5e80c5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Resilience Testing Formerly Chaos Engineering Developer](https://www.credly.com/badges/ed311c10-6a4b-4dea-a7e5-a24b1bdde162/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-10 | [Harness Certified Security Testing Orchestration Developer](https://www.credly.com/badges/455c75bc-68bd-455c-8162-9f22617ffed1/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-09 | [AI Gateway Operations](https://www.credly.com/badges/382c45a4-5932-4860-9b86-0a207e34d81e/public_url) | Kong | Credly Verified Badge |
 | 2026-10-09 | [Human-AI Collaborative Planning](https://www.credly.com/badges/1d2d3eaf-ee7e-4db9-a876-114852bcf023/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-09 | [Responsible AI and Risk Management](https://www.credly.com/badges/0d35258c-e02f-4092-b067-17e3c928a306/public_url) | IBM SkillsBuild | Credly Verified Badge |
@@ -72,5 +72,5 @@ artifacts: complete, index
 | 2026-09-30 | [Contextual Targeting: Strategies with Proximic by Comscore](https://www.credly.com/badges/678f7f02-73f8-4fb6-8c6e-ce8a77ebba5a/public_url) | Basis Technologies | Credly Verified Badge |
 
 ---
-> **Navigation:** Prev: [credly-2026-09-part-13.md](./credly-2026-09-part-13.md) | [Index](./credly-index.md) | Next: None
+> **Navigation:** Prev: [credly-2026-09-part-13.md](./credly-2026-09-part-13.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md)
 

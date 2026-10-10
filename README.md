@@ -136,25 +136,25 @@ Showing latest 10 of 1008 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 746
-**Total Verified Skills Mapped:** 2610
+**Total Portfolio Credentials:** 747
+**Total Verified Skills Mapped:** 2612
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 746 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 747 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-10-10 | [Harness Certified Continuous Delivery & GitOps Developer](https://www.credly.com/badges/99b36a29-ec2a-4df6-bf2d-74fdad35e070/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Continuous Integration Developer](https://www.credly.com/badges/614739fa-4c01-45e3-afaa-32d3ed5e80c5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Resilience Testing Formerly Chaos Engineering Developer](https://www.credly.com/badges/ed311c10-6a4b-4dea-a7e5-a24b1bdde162/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-10 | [Harness Certified Security Testing Orchestration Developer](https://www.credly.com/badges/455c75bc-68bd-455c-8162-9f22617ffed1/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-09 | [AI Gateway Operations](https://www.credly.com/badges/382c45a4-5932-4860-9b86-0a207e34d81e/public_url) | Kong | Credly Verified Badge |
 | 2026-10-09 | [Human-AI Collaborative Planning](https://www.credly.com/badges/1d2d3eaf-ee7e-4db9-a876-114852bcf023/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-09 | [Responsible AI and Risk Management](https://www.credly.com/badges/0d35258c-e02f-4092-b067-17e3c928a306/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-09 | [Build with AI - Codex Pathway Completion](https://www.credential.net/e9700c3c-7805-41f9-8f0c-107855848428) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Build With AI - OpenAI API Pathway Completion](https://www.credential.net/a6153528-a0b7-43ff-838a-925dd5273de6) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Build with Retrieval-Augmented Generation](https://www.credential.net/badf24c7-2d8f-4f1e-9b41-24e1b5c11908) | OpenAI Academy | Credly External Badge |
-| 2026-10-09 | [Design and Build Agentic Systems](https://www.credential.net/53ceab8d-072a-4629-96a1-7ac796be215f) | OpenAI Academy | Credly External Badge |
 <!-- CREDLY_BADGES_END -->
 
 
