@@ -4,15 +4,15 @@
   "record_count": 2,
   "created_at": "2024-06-15T12:00:00+00:00",
   "fingerprints": {
-    "LIC-001": {
-      "record_id": "LIC-001",
-      "content_hash": "e5f5b95a7d65d44bb1d3d7740f1f93f7",
-      "platform": "linkedin-certifications",
-      "timestamp": "2024-06-15T12:00:00+00:00"
-    },
     "LIC-002": {
       "record_id": "LIC-002",
       "content_hash": "5efac87365b1daba7450b87e1ca33cb6",
+      "platform": "linkedin-certifications",
+      "timestamp": "2024-06-15T12:00:00+00:00"
+    },
+    "LIC-001": {
+      "record_id": "LIC-001",
+      "content_hash": "e5f5b95a7d65d44bb1d3d7740f1f93f7",
       "platform": "linkedin-certifications",
       "timestamp": "2024-06-15T12:00:00+00:00"
     }
