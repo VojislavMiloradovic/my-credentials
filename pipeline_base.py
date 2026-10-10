@@ -315,11 +315,11 @@ class PipelineBase:
         # 11. Update README with resolved slice links
         self.update_readme(readme_lines, latest_slice)
 
-        # 12. Sync fixtures
-        self.sync_fixtures()
-
-        # 13. Generate baseline (all local generation complete)
+        # 12. Generate baseline (all local generation complete)
         generate_provider_baseline(records, self.PLATFORM_NAME)
+
+        # 13. Sync fixtures (now copies the NEW baseline files)
+        self.sync_fixtures()
 
         self.logger.info(
             f"[DONE] {self.PLATFORM_DISPLAY_NAME} pipeline complete ({len(records)} combined items)."
