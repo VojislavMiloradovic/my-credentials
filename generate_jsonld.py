@@ -1,4 +1,3 @@
-import glob  # noqa: F401 (used in tests via mocking)
 import json
 import os
 import re
@@ -8,7 +7,7 @@ from datetime import UTC, datetime
 import jsonschema
 
 # Layer manifest integration
-from layer_manifest import get_platform_layers
+from layer_manifest import get_platforms_with_l2_artifact
 
 ARCHIVE_DIR = "archives"
 README_PATH = "README.md"
@@ -57,7 +56,7 @@ JSONLD_SCHEMA = {
                     },
                 },
             },
-            "required": ["@type", "name", "hasCredential"],
+            "required": ["@context", "@type", "name", "url", "hasCredential"],
         },
     },
     "required": ["@context", "@type", "mainEntity"],
@@ -138,50 +137,23 @@ def parse_archive_monoliths():
         print(f"WARNING: Archive directory '{ARCHIVE_DIR}' not found.")
         return credentials
 
-    # Fallback platform mapping for test environments and when manifest is unavailable
-    _FALLBACK_PLATFORM_MAP = {
-        "aws-skills": "AWS Skills",
-        "google-skills": "Google Skills",
-        "google-developer": "Google Developer",
-        "linkedin-certifications": "LinkedIn Certifications",
-        "credly": "Credly",
-        "microsoft-learn": "Microsoft Learn",
-    }
+    # Get platforms that have L2_published with jsonld artifact (manifest-driven)
+    platform_keys = get_platforms_with_l2_artifact("jsonld")
 
-    # Load manifest to get platform prefixes and L2_published artifacts
-    try:
-        platform_layers = get_platform_layers()
-    except Exception:
-        platform_layers = {}
-
-    # Get platforms that have L2_published with jsonld artifact
-    platforms_with_jsonld = []
-    if platform_layers:
-        for platform_key, layers in platform_layers.items():
-            if hasattr(layers, "L2_published"):
-                l2_artifacts = getattr(layers.L2_published, "artifacts", [])
-                if "jsonld" in l2_artifacts:
-                    platforms_with_jsonld.append(platform_key)
-    else:
-        # Use fallback if manifest failed to load
-        platforms_with_jsonld = list(_FALLBACK_PLATFORM_MAP.keys())
-
-    # Also scan archives directory for any -complete.md files (for test environments)
-    # This ensures tests with custom platform names work
+    # Fallback: also scan archives directory for any -complete.md files
+    # This ensures test environments work without a manifest
     try:
         for f in os.listdir(ARCHIVE_DIR):
             if f.endswith("-complete.md"):
                 platform_key = f[:-12]  # Remove "-complete.md"
-                if platform_key not in platforms_with_jsonld:
-                    platforms_with_jsonld.append(platform_key)
+                if platform_key not in platform_keys:
+                    platform_keys.append(platform_key)
     except Exception:
         pass
 
-    print(
-        f"Found {len(platforms_with_jsonld)} platform(s) with L2_published jsonld artifact:"
-    )
+    print(f"Found {len(platform_keys)} platform(s) with L2_published jsonld artifact:")
 
-    for platform_key in platforms_with_jsonld:
+    for platform_key in platform_keys:
         # Construct the monolith filename from platform prefix
         filename = f"{platform_key}-complete.md"
         filepath = os.path.join(ARCHIVE_DIR, filename)
@@ -189,11 +161,6 @@ def parse_archive_monoliths():
         if not os.path.exists(filepath):
             print(f"  WARNING: {filename} not found, skipping")
             continue
-
-        platform_name = _FALLBACK_PLATFORM_MAP.get(
-            platform_key, platform_key.replace("-", " ").title()
-        )
-        count = 0
 
         with open(filepath, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -213,7 +180,6 @@ def parse_archive_monoliths():
             title = ""
             date_earned = ""
             url = ""
-            issuer = platform_name
             actual_issuer = ""  # Track actual issuer for Credly
             category = "Badge/Certification"
             description = ""
@@ -256,12 +222,10 @@ def parse_archive_monoliths():
                     cleaned_issuer = clean_str(col)
                     if cleaned_issuer:
                         actual_issuer = cleaned_issuer
-                        issuer = cleaned_issuer
                 elif "issued by" in col.lower():
                     actual_issuer = (
                         col.replace("issued by", "").replace("`", "").strip()
                     )
-                    issuer = actual_issuer
 
                 if "description" in col_header:
                     cleaned_desc = clean_str(col)
@@ -313,7 +277,7 @@ def parse_archive_monoliths():
                     recognized_by_name = "Google Developer"
                     issuer_field = "Google Developer"
                 else:
-                    recognized_by_name = clean_str(issuer) if issuer else platform_key
+                    recognized_by_name = platform_key.replace("-", " ").title()
                     issuer_field = actual_issuer if actual_issuer else None
 
                 c_obj = {
@@ -413,9 +377,6 @@ def parse_archive_monoliths():
                 c_obj["sourceHash"] = None
 
                 credentials.append(c_obj)
-                count += 1
-
-        print(f"  {filename}: Extracted {count} credential(s)")
 
     return credentials
 
@@ -448,6 +409,7 @@ def main():
         "@context": "https://schema.org",
         "@type": "ProfilePage",
         "mainEntity": {
+            "@context": "https://schema.org",
             "@type": "Person",
             "name": "Vojislav Miloradovic",
             "url": "https://github.com/VojislavMiloradovic/my-credentials",
