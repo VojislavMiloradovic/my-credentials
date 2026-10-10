@@ -136,15 +136,16 @@ Showing latest 10 of 1008 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 742
-**Total Verified Skills Mapped:** 2600
+**Total Portfolio Credentials:** 743
+**Total Verified Skills Mapped:** 2603
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 742 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 743 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-14.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-09 | [AI Gateway Operations](https://www.credly.com/badges/382c45a4-5932-4860-9b86-0a207e34d81e/public_url) | Kong | Credly Verified Badge |
 | 2026-10-09 | [Human-AI Collaborative Planning](https://www.credly.com/badges/1d2d3eaf-ee7e-4db9-a876-114852bcf023/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-09 | [Responsible AI and Risk Management](https://www.credly.com/badges/0d35258c-e02f-4092-b067-17e3c928a306/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-09 | [Build with AI - Codex Pathway Completion](https://www.credential.net/e9700c3c-7805-41f9-8f0c-107855848428) | OpenAI Academy | Credly External Badge |
@@ -154,7 +155,6 @@ Showing latest 10 of 742 credentials. View full dataset via [Platform Archive In
 | 2026-10-09 | [Evaluate AI Applications](https://www.credential.net/7bdef3bd-608a-407b-9aa8-5d3756791e1c) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Extend Codex Workflows](https://www.credential.net/a10d60f9-eb74-4456-8bbe-d81065270025) | OpenAI Academy | Credly External Badge |
 | 2026-10-09 | [Get Started with Codex](https://www.credential.net/c3b19d3e-e2dc-4c89-b89c-cfc1a49ebed6) | OpenAI Academy | Credly External Badge |
-| 2026-10-09 | [Optimize AI Application Performance](https://www.credential.net/36a6db1f-de51-4200-812c-e01de420a016) | OpenAI Academy | Credly External Badge |
 <!-- CREDLY_BADGES_END -->
 
 
