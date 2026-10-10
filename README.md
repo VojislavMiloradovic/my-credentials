@@ -136,12 +136,12 @@ Showing latest 10 of 1036 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 749
-**Total Verified Skills Mapped:** 2614
+**Total Portfolio Credentials:** 750
+**Total Verified Skills Mapped:** 2616
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 749 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 750 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -151,10 +151,10 @@ Showing latest 10 of 749 credentials. View full dataset via [Platform Archive In
 | 2026-10-10 | [Harness Certified Infrastructure as Code Management Developer](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Resilience Testing Formerly Chaos Engineering Developer](https://www.credly.com/badges/ed311c10-6a4b-4dea-a7e5-a24b1bdde162/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Security Testing Orchestration Developer](https://www.credly.com/badges/455c75bc-68bd-455c-8162-9f22617ffed1/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-10 | [Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B3E75DBC35A98214?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-09 | [AI Gateway Operations](https://www.credly.com/badges/382c45a4-5932-4860-9b86-0a207e34d81e/public_url) | Kong | Credly Verified Badge |
 | 2026-10-09 | [Human-AI Collaborative Planning](https://www.credly.com/badges/1d2d3eaf-ee7e-4db9-a876-114852bcf023/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-09 | [Responsible AI and Risk Management](https://www.credly.com/badges/0d35258c-e02f-4092-b067-17e3c928a306/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-10-09 | [Build with AI - Codex Pathway Completion](https://www.credential.net/e9700c3c-7805-41f9-8f0c-107855848428) | OpenAI Academy | Credly External Badge |
 <!-- CREDLY_BADGES_END -->
 
 

@@ -1,12 +1,12 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 749 records.
+This document represents a unified, verifiable list of all 750 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-10T21:59:36.076924+00:00 -->
+<!-- retrieved_at: 2026-10-10T23:23:38.211574+00:00 -->
 
 ## Verified Records Archive
 
@@ -18,6 +18,7 @@ This document represents a unified, verifiable list of all 749 records.
 | 2026-10-10 | [Harness Certified Infrastructure as Code Management Developer](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Resilience Testing Formerly Chaos Engineering Developer](https://www.credly.com/badges/ed311c10-6a4b-4dea-a7e5-a24b1bdde162/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Security Testing Orchestration Developer](https://www.credly.com/badges/455c75bc-68bd-455c-8162-9f22617ffed1/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-10 | [Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B3E75DBC35A98214?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-09 | [AI Gateway Operations](https://www.credly.com/badges/382c45a4-5932-4860-9b86-0a207e34d81e/public_url) | Kong | Credly Verified Badge |
 | 2026-10-09 | [Human-AI Collaborative Planning](https://www.credly.com/badges/1d2d3eaf-ee7e-4db9-a876-114852bcf023/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-09 | [Responsible AI and Risk Management](https://www.credly.com/badges/0d35258c-e02f-4092-b067-17e3c928a306/public_url) | IBM SkillsBuild | Credly Verified Badge |
