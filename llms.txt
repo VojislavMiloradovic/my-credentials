@@ -1,6 +1,6 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-10-10 03:49 UTC
+> **Last Generated:** 2026-10-10 10:55 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
@@ -41,7 +41,7 @@ For tools with large context windows, complete datasets are available:
 - [Microsoft Learn Complete](./archives/microsoft-learn-complete.md) (894.23 KB, 229,216 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
 
 ## JSON-LD Structured Data
-Full Schema.org linked data available at [credentials.jsonld](../credentials.jsonld) (`10287.53 KB`)
+Full Schema.org linked data available at [credentials.jsonld](../credentials.jsonld) (`10287.57 KB`)
 
 ---
 *Generated automatically from live archive data. See [GitHub Actions](https://github.com/VojislavMiloradovic/my-credentials/actions) for build logs.*
