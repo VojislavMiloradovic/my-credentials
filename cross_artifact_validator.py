@@ -294,29 +294,36 @@ class CrossArtifactValidator:
                         data = json.load(f)
 
                     # Extract all records for source_records (L0_raw)
+                    # Priority: combined_feed (deduplicated) > individual keys
                     all_records = []
                     if isinstance(data, dict):
-                        for key in (
-                            "badges",
-                            "achievements",
-                            "learning_paths",
-                            "certifications",
-                            "combined_feed",
-                            "public_badges",
-                            "detailed_learnings",
-                            "verifiable_credentials",
-                            "user_creds",
-                            "userCredentials",
-                            "credentials",
+                        # Priority 1: combined_feed (deduplicated union) - use ONLY this if present
+                        if "combined_feed" in data and isinstance(
+                            data["combined_feed"], list
                         ):
-                            if key in data and isinstance(data[key], list):
-                                all_records.extend(data[key])
-                        if (
-                            not all_records
-                            and "records" in data
-                            and isinstance(data["records"], list)
-                        ):
-                            all_records = data["records"]
+                            all_records = data["combined_feed"]
+                        else:
+                            # Fallback: sum individual keys (for platforms without combined_feed)
+                            for key in (
+                                "badges",
+                                "achievements",
+                                "learning_paths",
+                                "certifications",
+                                "public_badges",
+                                "detailed_learnings",
+                                "verifiable_credentials",
+                                "user_creds",
+                                "userCredentials",
+                                "credentials",
+                            ):
+                                if key in data and isinstance(data[key], list):
+                                    all_records.extend(data[key])
+                            if (
+                                not all_records
+                                and "records" in data
+                                and isinstance(data["records"], list)
+                            ):
+                                all_records = data["records"]
                     elif isinstance(data, list):
                         all_records = data
 
