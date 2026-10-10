@@ -1,6 +1,6 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-10-10 21:48 UTC
+> **Last Generated:** 2026-10-10 21:49 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
@@ -9,7 +9,7 @@
 - **AWS Skill Builder**: 1,008 completed courses/activities
 - **Credly**: 747 credentials
 - **LinkedIn**: 1,818 certifications & learning courses
-- **Google Developer**: 4 milestone badges | 1 codelabs & activities
+- **Google Developer**: 172 milestone badges | 1,683 codelabs & activities
 
 ## Domain Focus & Skill Taxonomy
 Dynamic classification of ~10,646 parsed portfolio achievements across 5 primary tech domains:
