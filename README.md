@@ -14,25 +14,39 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 100,000
-- **Current Learning Level:** Level 5
-- **Badges Earned (Profile):** 1
-- **Trophies Earned (Profile):** 2
-- **Completed Learning Paths (Active Tracker):** 1
-- **Completed Modules (Active Tracker):** 1
-- **Completed Individual Units:** 2
+- **Total Experience Points (XP):** 6,153,275
+- **Current Learning Level:** Level 20
+- **Badges Earned (Profile):** 4,013
+- **Trophies Earned (Profile):** 915
+- **Completed Learning Paths (Active Tracker):** 524
+- **Completed Modules (Active Tracker):** 2,764
+- **Completed Individual Units:** 36,683
 
 ### Verifiable Applied Skills & Credentials
-- **Abc** (Credential ID: `CRED001` | Earned: 2024-02-01 | Status: Active)
+- **Accelerate App Development By Using Github Copilot** (Credential ID: `15F428743381AFA9` | Earned: 2026-10-06T17:23:19+00:00 | Status: Active)
+- **Get Started Developing Agents In Microsoft Foundry** (Credential ID: `9DB8E4A68E66793` | Earned: 2026-10-06T16:27:25+00:00 | Status: Active)
+- **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25T16:21:33+00:00 | Status: Active)
+- **Get Started With Identities And Access Using Microsoft Entra** (Credential ID: `27BB90F5B956E0C8` | Earned: 2026-03-21T16:20:19+00:00 | Status: Active)
+- **Get Started With Azure Management Tasks** (Credential ID: `B7C5DF765FB52CEA` | Earned: 2026-03-18T14:17:11+00:00 | Status: Active)
+- **Get Started With Cloud Security And Monitoring Tasks** (Credential ID: `1EBB80C496C2DDF1` | Earned: 2026-03-16T15:39:06+00:00 | Status: Active)
+- **Streamline Business Workflows With Ai Chat** (Credential ID: `CE7FBB459ADAB331` | Earned: 2026-03-15T10:15:25+00:00 | Status: Active)
+- **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 3 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2024-01-part-01.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2024-01-part-01.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,928 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-97.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-97.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **First Module** | Module | 2024-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/module-1) |
-| **Learning Path Complete** | Learningpath | 2024-01-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/path-1) |
-| **Trophy Unlocked** | Trophy | 2024-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/trophy-1) |
+| **Certificate enrollment and renewal** | Modules | 2026-10-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/certificate-autoenrollment/) |
+| **Secure an Azure Cosmos DB solution** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-cosmos-db-nosql/) |
+| **Review quality and follow-up data in mPower Clinical Analytics** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-review-quality-follow-up-data/) |
+| **Monitor and improve agents in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-agents-github-copilot/) |
+| **Evaluate agents in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-agents-github-copilot/) |
+| **Design a responsible AI strategy for agents in Copilot Studio** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-responsible-ai-strategy-copilot-studio/) |
+| **Monitor and troubleshoot Azure Cosmos DB** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-troubleshoot-azure-cosmos-db-nosql/) |
+| **Manage Azure Cosmos DB at scale with fleets** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-cosmos-db-fleets/) |
+| **Implement operational analytics with Microsoft Fabric** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-operational-analytics-fabric-azure-cosmos-db/) |
+| **Implement hybrid search and optimize AI retrieval in Azure Cosmos DB for NoSQL** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hybrid-search-optimize-retrieval-azure-cosmos-db-nosql/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials
