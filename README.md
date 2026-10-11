@@ -14,15 +14,16 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,162,600
+- **Total Experience Points (XP):** 6,238,775
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 4,019
-- **Trophies Earned (Profile):** 917
+- **Badges Earned (Profile):** 4,050
+- **Trophies Earned (Profile):** 927
 - **Completed Learning Paths (Active Tracker):** 526
-- **Completed Modules (Active Tracker):** 2,770
-- **Completed Individual Units:** 36,733
+- **Completed Modules (Active Tracker):** 2,774
+- **Completed Individual Units:** 37,007
 
 ### Verifiable Applied Skills & Credentials
+- **Integrate Model Context Protocol Tools With Agents In Microsoft Foundry** (Credential ID: `D296FE0D58F3B6D0` | Earned: 2026-10-11T10:57:14+00:00 | Status: Active)
 - **Resolve Github Issues By Using Github Copilot** (Credential ID: `B3E75DBC35A98214` | Earned: 2026-10-10T23:14:43+00:00 | Status: Active)
 - **Accelerate App Development By Using Github Copilot** (Credential ID: `15F428743381AFA9` | Earned: 2026-10-06T17:23:19+00:00 | Status: Active)
 - **Get Started Developing Agents In Microsoft Foundry** (Credential ID: `9DB8E4A68E66793` | Earned: 2026-10-06T16:27:25+00:00 | Status: Active)
@@ -34,20 +35,20 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,936 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-97.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-97.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,977 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-98.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-98.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Explore NVIDIA RTX Spark for Windows PCs** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/nvidia-spark-rtx/) |
-| **AI Success: Build AI agents with Microsoft Copilot** | Learningpaths | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-success-build-ai-agents/) |
-| **Work smarter with an agent in Microsoft Copilot Studio** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilot-studio-agent/) |
-| **mPower Clinical Analytics administrator workflow foundations** | Learningpaths | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/mpower-clinical-analytics-administrator-workflow-foundations/) |
-| **Get started with mPower Clinical Analytics for Administrators** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-admin-get-started/) |
-| **Configure and manage users in mPower Clinical Analytics** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-admin-configure-manage-users/) |
-| **Publish and deploy agents to channels in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-deploy-agents-channels-copilot-studio/) |
-| **Manage mPower systems** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-administrator-manage-system/) |
-| **Certificate enrollment and renewal** | Modules | 2026-10-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/certificate-autoenrollment/) |
-| **Secure an Azure Cosmos DB solution** | Modules | 2026-10-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-azure-cosmos-db-nosql/) |
+| **Understand local AI and high-performance workflows with Microsoft Surface Laptop Ultra for Business** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-laptop-ultra-business/) |
+| **Safeguard cloud resources** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-admin-monitor-secure-recover/) |
+| **Disaster recovery and backup** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-disaster-recovery-backup/) |
+| **Cloud security** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-cloud-security/) |
+| **Automate cloud resource management** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-orchestration/) |
+| **Cloud administration basics** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-admin/) |
+| **Manage cloud resources** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-manage-cloud-resources/) |
+| **Virtualize resources in the cloud** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-virtualization/) |
+| **Cloud administration basics** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-cloud-admin-basics/) |
+| **Secure your cloud resources with access control** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-secure-cloud-resources/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

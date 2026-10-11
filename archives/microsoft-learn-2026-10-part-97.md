@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 97 of 97
-date_range: 2026-10-02 to 2026-10-10
-total_entries: 46
+chunk_part: 97 of 98
+date_range: 2026-10-02 to 2026-10-11
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-97.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,14 @@ artifacts: complete, index
 
 # microsoft-learn -- Part 97
 
-> **Navigation:** Prev: [microsoft-learn-2026-10-part-96.md](./microsoft-learn-2026-10-part-96.md) | [Index](./microsoft-learn-index.md) | Next: None | [Complete Archive](./microsoft-learn-complete.md)
+> **Navigation:** Prev: [microsoft-learn-2026-10-part-96.md](./microsoft-learn-2026-10-part-96.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-10-part-98.md](./microsoft-learn-2026-10-part-98.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Void detection on Edge devices with Live Video Analytics using own images and video** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/void-detection-edge-devices-live-video-analytics/) |
+| **Introduction to MLOps for IoT Edge** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-mlops-iot-edge/) |
+| **Run Azure AI services on IoT Edge** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-cognitive-services-iot-edge/) |
+| **Deploy a pre-built module to the Edge device** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-prebuilt-module-edge-device/) |
 | **Explore NVIDIA RTX Spark for Windows PCs** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/nvidia-spark-rtx/) |
 | **AI Success: Build AI agents with Microsoft Copilot** | Learningpaths | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-success-build-ai-agents/) |
 | **Work smarter with an agent in Microsoft Copilot Studio** | Modules | 2026-10-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilot-studio-agent/) |
@@ -63,5 +67,5 @@ artifacts: complete, index
 | **Connect to Azure Cosmos DB with the SDK** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-azure-cosmos-db-nosql-sdk/) |
 
 ---
-> **Navigation:** Prev: [microsoft-learn-2026-10-part-96.md](./microsoft-learn-2026-10-part-96.md) | [Index](./microsoft-learn-index.md) | Next: None
+> **Navigation:** Prev: [microsoft-learn-2026-10-part-96.md](./microsoft-learn-2026-10-part-96.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-10-part-98.md](./microsoft-learn-2026-10-part-98.md)
 
