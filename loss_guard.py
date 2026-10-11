@@ -1307,6 +1307,9 @@ def generate_all_provider_baselines(
 
     # Multi-stream provider (google-developer)
     results = {}
+    # Generate main combined baseline first (for fixture compatibility)
+    results["default"] = generate_provider_baseline(new_records, provider_name)
+
     for stream in streams:
         if stream == "combined":
             stream_records = new_records
