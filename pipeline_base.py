@@ -316,7 +316,12 @@ class PipelineBase:
         self.update_readme(readme_lines, latest_slice)
 
         # 12. Generate baseline (all local generation complete)
-        generate_provider_baseline(records, self.PLATFORM_NAME)
+        if self.STREAMS:
+            from loss_guard import generate_all_provider_baselines
+
+            generate_all_provider_baselines(records, self.PLATFORM_NAME)
+        else:
+            generate_provider_baseline(records, self.PLATFORM_NAME)
 
         # 13. Sync fixtures (now copies the NEW baseline files)
         self.sync_fixtures()
