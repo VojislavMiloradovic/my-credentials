@@ -873,6 +873,9 @@ class GoogleDeveloperPipeline(PipelineBase):
     ]
     TABLE_ALIGNMENTS: ClassVar[list[str]] = [":---:", ":---", ":---"]
 
+    # Multi-stream support for public badges and detailed learnings
+    STREAMS: ClassVar[list[str]] = ["public_badges", "detailed_learnings", "combined"]
+
     @property
     def VALIDATION_DIR(self):
         return VALIDATION_DIR
