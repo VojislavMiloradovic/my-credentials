@@ -3,28 +3,29 @@
   "stream_id": "public_badges",
   "record_count": 4,
   "created_at": "2024-06-15T12:00:00+00:00",
+  "fingerprint_schema_version": 2,
   "fingerprints": {
     "Cloud Architect": {
       "record_id": "Cloud Architect",
-      "content_hash": "b6988be09f2d6fcb47822dac9c88c170",
+      "content_hash": "716476fb8c337987494458b321d00bc1",
       "platform": "google-developer",
       "timestamp": "2024-06-15T12:00:00+00:00"
     },
     "Data Engineer": {
       "record_id": "Data Engineer",
-      "content_hash": "47452e9e01c8cdd6c9a93b2ed396626f",
+      "content_hash": "c0985fe81c47f230bb395bb9dd54fd53",
       "platform": "google-developer",
       "timestamp": "2024-06-15T12:00:00+00:00"
     },
     "Cloud Architecture": {
       "record_id": "Cloud Architecture",
-      "content_hash": "ab2c5bc1157f33af27d22ab6609bab9f",
+      "content_hash": "a5ecfe67e651305a6812204e66397eaf",
       "platform": "google-developer",
       "timestamp": "2024-06-15T12:00:00+00:00"
     },
     "Data Engineering": {
       "record_id": "Data Engineering",
-      "content_hash": "82f8d1c3c853ea6c7fc54f4412145b21",
+      "content_hash": "f91358ab444c0c64727fe82ee6737207",
       "platform": "google-developer",
       "timestamp": "2024-06-15T12:00:00+00:00"
     }
