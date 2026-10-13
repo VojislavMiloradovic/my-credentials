@@ -18,6 +18,26 @@ from dataclasses import asdict, dataclass
 from datetime import UTC, datetime
 from typing import Any
 
+# Fingerprint schema integration
+try:
+    from models.fingerprint_schemas import (
+        CURRENT_FINGERPRINT_SCHEMA_VERSION,
+        FINGERPRINT_SCHEMAS,
+        get_canonical_issuer,
+        get_schema,
+    )
+except ImportError:
+    # Fallback if module not available
+    FINGERPRINT_SCHEMAS = {}
+    CURRENT_FINGERPRINT_SCHEMA_VERSION = 1
+
+    def get_schema(platform: str):
+        return None
+
+    def get_canonical_issuer(platform: str):
+        return None
+
+
 # Logging Setup
 logging.basicConfig(
     level=logging.INFO,
@@ -90,12 +110,53 @@ class RecordFingerprint:
 # ==============================================================================
 
 
-def compute_content_hash(record: dict, id_field: str) -> str:
+def compute_content_hash(record: dict, id_field: str, platform: str = "") -> str:
     """
-    Compute stable content hash for a record, excluding the ID field itself
-    and any volatile fields that change on every export (e.g., version, _ts).
+    Compute stable content hash for a record.
+
+    Supports two modes:
+    1. Schema-driven (preferred): Uses FINGERPRINT_SCHEMAS[platform] to determine
+       which fields to hash. This allows provider-specific content definitions.
+    2. Fallback (legacy): Excludes VOLATILE_FIELDS globally.
+
+    Args:
+        record: Record dictionary
+        id_field: Primary ID field name (excluded from hash)
+        platform: Platform identifier for schema lookup
+
+    Returns:
+        SHA256 hash (32 hex chars)
     """
-    # Fields that should NOT contribute to content hash (volatile metadata)
+    # Try schema-driven mode first
+    schema = get_schema(platform) if platform else None
+    if schema:
+        # Schema mode: hash ONLY declared fields
+        fields_to_hash = schema.get("fields", [])
+        canonical_issuer = schema.get("canonical_issuer")
+
+        normalized = {}
+        for k in fields_to_hash:
+            v = record.get(k)
+            if v is None:
+                continue
+            # Normalize lists/dicts for stable hashing
+            if isinstance(v, list):
+                normalized[k] = sorted([str(item) for item in v])
+            elif isinstance(v, dict):
+                normalized[k] = {sk: sv for sk, sv in sorted(v.items())}
+            else:
+                normalized[k] = v
+
+        # Inject canonical issuer if defined (for platforms without issuer field)
+        if canonical_issuer:
+            normalized["canonical_issuer"] = canonical_issuer
+
+        content_str = json.dumps(
+            normalized, sort_keys=True, separators=(",", ":"), ensure_ascii=False
+        )
+        return hashlib.sha256(content_str.encode("utf-8")).hexdigest()[:32]
+
+    # Fallback: legacy global VOLATILE_FIELDS exclusion
     VOLATILE_FIELDS = {
         "version",
         "_ts",
@@ -227,7 +288,7 @@ def build_fingerprint_index(
             )
             continue
 
-        content_hash = compute_content_hash(record, id_field)
+        content_hash = compute_content_hash(record, id_field, platform)
         index[record_id] = RecordFingerprint(
             record_id=record_id,
             content_hash=content_hash,
@@ -243,7 +304,7 @@ def load_baseline(
 ) -> dict[str, RecordFingerprint] | None:
     """
     Load baseline fingerprint index from for_validation/{platform}-baseline.json.
-    Returns None if no baseline exists (first run).
+    Returns None if no baseline exists (first run) or schema version mismatch.
 
     Args:
         platform: Platform identifier (e.g., "google-developer")
@@ -269,6 +330,16 @@ def load_baseline(
             )
             return None
 
+        # Check schema version for migration safety
+        baseline_version = data.get("fingerprint_schema_version", 1)
+        if baseline_version != CURRENT_FINGERPRINT_SCHEMA_VERSION:
+            stream_suffix = f" ({stream_id})" if stream_id else ""
+            logger.warning(
+                f"[WARN] [{platform}{stream_suffix}] Baseline schema version {baseline_version} "
+                f"!= current {CURRENT_FINGERPRINT_SCHEMA_VERSION}, treating as first run (will regenerate)."
+            )
+            return None
+
         # Reconstruct RecordFingerprint objects
         index = {}
         for rid, fp_data in data["fingerprints"].items():
@@ -276,7 +347,7 @@ def load_baseline(
 
         stream_suffix = f" ({stream_id})" if stream_id else ""
         logger.info(
-            f"[DIR] [{platform}{stream_suffix}] Loaded baseline: {len(index)} records from {baseline_path}"
+            f"[DIR] [{platform}{stream_suffix}] Loaded baseline: {len(index)} records from {baseline_path} (schema v{baseline_version})"
         )
         return index
 
@@ -314,6 +385,7 @@ def save_baseline(
             "stream_id": stream_id,
             "record_count": len(fingerprint_index),
             "created_at": datetime.now(UTC).isoformat(),
+            "fingerprint_schema_version": CURRENT_FINGERPRINT_SCHEMA_VERSION,
             "fingerprints": {rid: asdict(fp) for rid, fp in fingerprint_index.items()},
         }
 
@@ -332,7 +404,7 @@ def save_baseline(
 
         stream_suffix = f" ({stream_id})" if stream_id else ""
         logger.info(
-            f"[SAVE] [{platform}{stream_suffix}] Baseline updated: {len(fingerprint_index)} records [FWD] {baseline_path}"
+            f"[SAVE] [{platform}{stream_suffix}] Baseline updated: {len(fingerprint_index)} records [FWD] {baseline_path} (schema v{CURRENT_FINGERPRINT_SCHEMA_VERSION})"
         )
         return True
 
