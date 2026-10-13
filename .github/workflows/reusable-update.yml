@@ -92,15 +92,15 @@ jobs:
         run: uv run python generate_llms_full.py
 
       # Strategy 1: Cross-Artifact Validation (Strict Mode) - Pre-commit validation
-      #- name: Run Cross-Artifact Validation (Strict Mode)
-      #  run: |
-      #    mkdir -p validation_reports
-      #    # Keep last 3 reports: rotate by removing oldest if 3+ exist
-      #    if [ -d validation_reports ]; then
-      #      ls -t validation_reports/pre_commit_report_*.json 2>/dev/null | tail -n +4 | xargs -r rm -f
-      #    fi
-      #    TIMESTAMP=$(date +%Y%m%d_%H%M%S)
-      #    uv run python cross_artifact_validator.py --mode strict --report validation_reports/pre_commit_report_${TIMESTAMP}.json
+      - name: Run Cross-Artifact Validation (Strict Mode)
+        run: |
+          mkdir -p validation_reports
+          # Keep last 3 reports: rotate by removing oldest if 3+ exist
+          if [ -d validation_reports ]; then
+            ls -t validation_reports/pre_commit_report_*.json 2>/dev/null | tail -n +4 | xargs -r rm -f
+          fi
+          TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+          uv run python cross_artifact_validator.py --mode strict --report validation_reports/pre_commit_report_${TIMESTAMP}.json
 
       # Strategy 2: Manifest Validation (Strict Mode) - Pre-commit validation
       - name: Run Manifest Validation (Strict Mode)
