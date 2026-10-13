@@ -2,7 +2,7 @@
 archive_platform: Credly Verified Credentials
 chunk_part: 15 of 15
 date_range: 2026-10-10 to 2026-10-13
-total_entries: 12
+total_entries: 13
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-13 | [Harness Certified AI DLC Insights Formerly SEI Developer](https://www.credly.com/badges/281d5b1c-95e0-497d-8784-bbbca82109a5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified Cloud & AI Cost Management Developer](https://www.credly.com/badges/150ce8a5-8669-42aa-a2df-2d0f61c1fbbc/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified Feature Flag Developer](https://www.credly.com/badges/65a03609-901a-4bc0-914d-cc65301a5484/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified Internal Developer Portal Developer](https://www.credly.com/badges/a9e63d43-0f30-4c99-a8e0-fb7db936a3b0/public_url) | Harness Inc | Credly Verified Badge |

@@ -138,15 +138,16 @@ Showing latest 10 of 1036 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 758
-**Total Verified Skills Mapped:** 2652
+**Total Portfolio Credentials:** 759
+**Total Verified Skills Mapped:** 2653
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 758 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 759 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-13 | [Harness Certified AI DLC Insights Formerly SEI Developer](https://www.credly.com/badges/281d5b1c-95e0-497d-8784-bbbca82109a5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified Cloud & AI Cost Management Developer](https://www.credly.com/badges/150ce8a5-8669-42aa-a2df-2d0f61c1fbbc/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified Feature Flag Developer](https://www.credly.com/badges/65a03609-901a-4bc0-914d-cc65301a5484/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified Internal Developer Portal Developer](https://www.credly.com/badges/a9e63d43-0f30-4c99-a8e0-fb7db936a3b0/public_url) | Harness Inc | Credly Verified Badge |
@@ -156,7 +157,6 @@ Showing latest 10 of 758 credentials. View full dataset via [Platform Archive In
 | 2026-10-11 | [AWS Knowledge: Amazon Connect Developer - Training Badge](https://www.credly.com/badges/b54fe6f0-0e84-46d6-8bf2-dfd997f49651/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-11 | [Microsoft Applied Skills: Integrate model context protocol tools with agents in Microsoft Foundry](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/D296FE0D58F3B6D0?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-10 | [Harness Certified Code Repository Developer](https://www.credly.com/badges/e7564671-e168-49e2-b28b-c2f2da887146/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-10 | [Harness Certified Continuous Delivery & GitOps Developer](https://www.credly.com/badges/99b36a29-ec2a-4df6-bf2d-74fdad35e070/public_url) | Harness Inc | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
