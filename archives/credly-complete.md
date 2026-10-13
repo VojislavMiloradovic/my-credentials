@@ -1,17 +1,21 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 754 records.
+This document represents a unified, verifiable list of all 758 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-13T12:18:40.627749+00:00 -->
+<!-- retrieved_at: 2026-10-13T22:58:12.794068+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-13 | [Harness Certified Cloud & AI Cost Management Developer](https://www.credly.com/badges/150ce8a5-8669-42aa-a2df-2d0f61c1fbbc/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-13 | [Harness Certified Feature Flag Developer](https://www.credly.com/badges/65a03609-901a-4bc0-914d-cc65301a5484/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-13 | [Harness Certified Internal Developer Portal Developer](https://www.credly.com/badges/a9e63d43-0f30-4c99-a8e0-fb7db936a3b0/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-13 | [Kong Gateway Operations](https://www.credly.com/badges/ec9b0dd2-a167-4d92-87af-2a5e6e2df6d6/public_url) | Kong | Credly Verified Badge |
 | 2026-10-13 | [Machine Learning for Data Science Projects](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-13 | [User Experience Design Fundamentals](https://www.credly.com/badges/d2179465-fd1c-4ed6-a032-850f5cc14ed9/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-11 | [AWS Knowledge: Amazon Connect Developer - Training Badge](https://www.credly.com/badges/b54fe6f0-0e84-46d6-8bf2-dfd997f49651/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
