@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 411 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-13T06:12:34.488065+00:00 -->
+<!-- retrieved_at: 2026-10-13T11:57:15.059570+00:00 -->
 
 ## Verified Records Archive
 
