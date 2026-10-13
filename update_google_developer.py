@@ -89,6 +89,7 @@ SERBIAN_MONTHS = {
     "jul": "07",
     "jula": "07",
     "july": "07",
+    "aug": "08",
     "avg": "08",
     "avgust": "08",
     "avgusta": "08",
@@ -97,6 +98,7 @@ SERBIAN_MONTHS = {
     "septembar": "09",
     "septembra": "09",
     "september": "09",
+    "oct": "10",
     "okt": "10",
     "oktobar": "10",
     "oktobra": "10",
@@ -217,6 +219,20 @@ def normalize_date_string(raw_date: Any) -> str:
         day = serbian_match.group(1).zfill(2)
         month_str = serbian_match.group(2).lower().replace(".", "")
         year = serbian_match.group(3)
+
+        month_num = "00"
+        for k, v in SERBIAN_MONTHS.items():
+            if month_str.startswith(k):
+                month_num = v
+                break
+        return f"{year}-{month_num}-{day}"
+
+    # Match English date format: MMMM DD, YYYY (e.g., "May 26, 2026")
+    english_match = re.match(r"^([A-Za-z]+)\s+(\d+),\s+(\d{4})$", s_date)
+    if english_match:
+        month_str = english_match.group(1).lower()
+        day = english_match.group(2).zfill(2)
+        year = english_match.group(3)
 
         month_num = "00"
         for k, v in SERBIAN_MONTHS.items():
@@ -550,8 +566,8 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
         for part in msg.walk():
             if (
                 part.get_content_type() == "text/html"
-                and "profile/badges/recognitions/learnings"
-                in part.get("Content-Location", "")
+                and ("profile/badges/recognitions/learnings" in part.get("Content-Location", "")
+                     or "me.developers.google.com/badges/recognitions/learnings" in part.get("Content-Location", ""))
             ):
                 # Manually decode quoted-printable payload as UTF-8
                 raw_payload = part.get_payload(decode=False)
@@ -564,16 +580,24 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
         if html_content:
             soup = BeautifulSoup(html_content, "html.parser")
 
-            # Find all badge-event containers
-            badge_events = soup.find_all(class_="badge-event")
+            # Try NEW format first (Angular/gdp-badge-view with li.badge-event-row)
+            badge_events = soup.select("li.badge-event-row")
+
+            # Fallback to OLD format (devsite-badge with div.badge-event)
+            if not badge_events:
+                badge_events = soup.find_all(class_="badge-event")
 
             if badge_events:
                 learnings = []
                 retired_count = 0
 
                 for event in badge_events:
-                    # Find the link inside
-                    link = event.find("a", href=True)
+                    # Try new format selectors first (Angular)
+                    link = event.find("a", class_="badge-event-title", href=True)
+                    if not link:
+                        # Fallback to old format
+                        link = event.find("a", href=True)
+
                     if not link:
                         continue
 
@@ -584,12 +608,16 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
                     if is_url_like_title(title):
                         title = extract_title_from_url(url)
 
-                    # Find the date in the <p> tag
-                    date_p = event.find("p")
-                    iso_date = "N/A"
-                    if date_p:
-                        date_text = date_p.get_text(strip=True)
-                        iso_date = normalize_date_string(date_text)
+                    # Try new format date selector (Angular span.badge-event-date)
+                    date_span = event.find("span", class_="badge-event-date")
+                    if date_span:
+                        date_text = date_span.get_text(strip=True)
+                    else:
+                        # Fallback to old format (p tag)
+                        date_p = event.find("p")
+                        date_text = date_p.get_text(strip=True) if date_p else ""
+
+                    iso_date = normalize_date_string(date_text)
 
                     # Check if URL is likely unavailable
                     is_retired = False
