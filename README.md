@@ -138,16 +138,17 @@ Showing latest 10 of 1036 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 753
-**Total Verified Skills Mapped:** 2627
+**Total Portfolio Credentials:** 754
+**Total Verified Skills Mapped:** 2640
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 753 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 754 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-10-13 | [Machine Learning for Data Science Projects](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-10-13 | [User Experience Design Fundamentals](https://www.credly.com/badges/d2179465-fd1c-4ed6-a032-850f5cc14ed9/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-11 | [AWS Knowledge: Amazon Connect Developer - Training Badge](https://www.credly.com/badges/b54fe6f0-0e84-46d6-8bf2-dfd997f49651/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-11 | [Microsoft Applied Skills: Integrate model context protocol tools with agents in Microsoft Foundry](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/D296FE0D58F3B6D0?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-10 | [Harness Certified Code Repository Developer](https://www.credly.com/badges/e7564671-e168-49e2-b28b-c2f2da887146/public_url) | Harness Inc | Credly Verified Badge |
@@ -156,7 +157,6 @@ Showing latest 10 of 753 credentials. View full dataset via [Platform Archive In
 | 2026-10-10 | [Harness Certified Infrastructure as Code Management Developer](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Resilience Testing Formerly Chaos Engineering Developer](https://www.credly.com/badges/ed311c10-6a4b-4dea-a7e5-a24b1bdde162/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Security Testing Orchestration Developer](https://www.credly.com/badges/455c75bc-68bd-455c-8162-9f22617ffed1/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-10 | [Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B3E75DBC35A98214?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 <!-- CREDLY_BADGES_END -->
 
 

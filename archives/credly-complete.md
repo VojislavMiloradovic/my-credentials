@@ -1,18 +1,19 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 753 records.
+This document represents a unified, verifiable list of all 754 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-13T11:50:37.307508+00:00 -->
+<!-- retrieved_at: 2026-10-13T12:18:40.627749+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
 | 2026-10-13 | [Machine Learning for Data Science Projects](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-10-13 | [User Experience Design Fundamentals](https://www.credly.com/badges/d2179465-fd1c-4ed6-a032-850f5cc14ed9/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-11 | [AWS Knowledge: Amazon Connect Developer - Training Badge](https://www.credly.com/badges/b54fe6f0-0e84-46d6-8bf2-dfd997f49651/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-11 | [Microsoft Applied Skills: Integrate model context protocol tools with agents in Microsoft Foundry](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/D296FE0D58F3B6D0?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-10 | [Harness Certified Code Repository Developer](https://www.credly.com/badges/e7564671-e168-49e2-b28b-c2f2da887146/public_url) | Harness Inc | Credly Verified Badge |
