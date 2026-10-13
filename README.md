@@ -14,25 +14,41 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 100,000
-- **Current Learning Level:** Level 5
-- **Badges Earned (Profile):** 1
-- **Trophies Earned (Profile):** 2
-- **Completed Learning Paths (Active Tracker):** 1
-- **Completed Modules (Active Tracker):** 1
-- **Completed Individual Units:** 2
+- **Total Experience Points (XP):** 6,238,775
+- **Current Learning Level:** Level 20
+- **Badges Earned (Profile):** 4,050
+- **Trophies Earned (Profile):** 927
+- **Completed Learning Paths (Active Tracker):** 526
+- **Completed Modules (Active Tracker):** 2,774
+- **Completed Individual Units:** 37,007
 
 ### Verifiable Applied Skills & Credentials
-- **Abc** (Credential ID: `CRED001` | Earned: 2024-02-01 | Status: Active)
+- **Integrate Model Context Protocol Tools With Agents In Microsoft Foundry** (Credential ID: `D296FE0D58F3B6D0` | Earned: 2026-10-11T10:57:14+00:00 | Status: Active)
+- **Resolve Github Issues By Using Github Copilot** (Credential ID: `B3E75DBC35A98214` | Earned: 2026-10-10T23:14:43+00:00 | Status: Active)
+- **Accelerate App Development By Using Github Copilot** (Credential ID: `15F428743381AFA9` | Earned: 2026-10-06T17:23:19+00:00 | Status: Active)
+- **Get Started Developing Agents In Microsoft Foundry** (Credential ID: `9DB8E4A68E66793` | Earned: 2026-10-06T16:27:25+00:00 | Status: Active)
+- **Generate Reports With Ai Research Agents** (Credential ID: `ABC20116B56C7F9F` | Earned: 2026-03-25T16:21:33+00:00 | Status: Active)
+- **Get Started With Identities And Access Using Microsoft Entra** (Credential ID: `27BB90F5B956E0C8` | Earned: 2026-03-21T16:20:19+00:00 | Status: Active)
+- **Get Started With Azure Management Tasks** (Credential ID: `B7C5DF765FB52CEA` | Earned: 2026-03-18T14:17:11+00:00 | Status: Active)
+- **Get Started With Cloud Security And Monitoring Tasks** (Credential ID: `1EBB80C496C2DDF1` | Earned: 2026-03-16T15:39:06+00:00 | Status: Active)
+- **Streamline Business Workflows With Ai Chat** (Credential ID: `CE7FBB459ADAB331` | Earned: 2026-03-15T10:15:25+00:00 | Status: Active)
+- **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 3 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2024-01-part-01.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2024-01-part-01.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 4,977 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-98.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-98.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **First Module** | Module | 2024-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/module-1) |
-| **Learning Path Complete** | Learningpath | 2024-01-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/path-1) |
-| **Trophy Unlocked** | Trophy | 2024-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/trophy-1) |
+| **Understand local AI and high-performance workflows with Microsoft Surface Laptop Ultra for Business** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-laptop-ultra-business/) |
+| **Safeguard cloud resources** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-admin-monitor-secure-recover/) |
+| **Disaster recovery and backup** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-disaster-recovery-backup/) |
+| **Cloud security** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-cloud-security/) |
+| **Automate cloud resource management** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-orchestration/) |
+| **Cloud administration basics** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-admin/) |
+| **Manage cloud resources** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-manage-cloud-resources/) |
+| **Virtualize resources in the cloud** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-virtualization/) |
+| **Cloud administration basics** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-cloud-admin-basics/) |
+| **Secure your cloud resources with access control** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-secure-cloud-resources/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials
