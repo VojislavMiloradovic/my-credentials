@@ -564,10 +564,11 @@ def parse_google_learnings_mhtml(mhtml_path: str) -> list[dict]:
         # Find the main HTML part (the badge page)
         html_content = None
         for part in msg.walk():
-            if (
-                part.get_content_type() == "text/html"
-                and ("profile/badges/recognitions/learnings" in part.get("Content-Location", "")
-                     or "me.developers.google.com/badges/recognitions/learnings" in part.get("Content-Location", ""))
+             if part.get_content_type() == "text/html" and (
+                 "profile/badges/recognitions/learnings"
+                 in part.get("Content-Location", "")
+                 or "me.developers.google.com/badges/recognitions/learnings"
+                 in part.get("Content-Location", "")
             ):
                 # Manually decode quoted-printable payload as UTF-8
                 raw_payload = part.get_payload(decode=False)
