@@ -22,6 +22,9 @@ from loss_guard import (
     save_baseline,
 )
 
+# Current fingerprint schema version - must match loss_guard.CURRENT_FINGERPRINT_SCHEMA_VERSION
+TEST_FINGERPRINT_SCHEMA_VERSION = 2
+
 
 class TestComputeContentHash:
     """Tests for compute_content_hash function."""
@@ -194,6 +197,7 @@ class TestLoadSaveBaseline:
             "platform": "test-platform",
             "record_count": 2,
             "created_at": "2024-01-15T10:00:00Z",
+            "fingerprint_schema_version": TEST_FINGERPRINT_SCHEMA_VERSION,
             "fingerprints": {
                 "1": {
                     "record_id": "1",
@@ -250,6 +254,7 @@ class TestLoadSaveBaseline:
             assert data["platform"] == "test-platform"
             assert data["record_count"] == 2
             assert "1" in data["fingerprints"]
+            assert data["fingerprint_schema_version"] == TEST_FINGERPRINT_SCHEMA_VERSION
 
 
 class TestCompareFingerprints:
@@ -401,6 +406,7 @@ class TestExecuteContentLossGuard:
             "platform": "test-platform",
             "record_count": 2,
             "created_at": "2024-01-15T10:00:00Z",
+            "fingerprint_schema_version": TEST_FINGERPRINT_SCHEMA_VERSION,
             "fingerprints": {
                 "1": {
                     "record_id": "1",
@@ -450,6 +456,7 @@ class TestExecuteContentLossGuard:
             "platform": "test-platform",
             "record_count": 10,
             "created_at": "2024-01-15T10:00:00Z",
+            "fingerprint_schema_version": TEST_FINGERPRINT_SCHEMA_VERSION,
             "fingerprints": {
                 str(i): {
                     "record_id": str(i),
@@ -485,6 +492,7 @@ class TestExecuteContentLossGuard:
             "platform": "test-platform",
             "record_count": 10,
             "created_at": "2024-01-15T10:00:00Z",
+            "fingerprint_schema_version": TEST_FINGERPRINT_SCHEMA_VERSION,
             "fingerprints": {
                 str(i): {
                     "record_id": str(i),
@@ -529,6 +537,7 @@ class TestExecuteContentLossGuard:
             "platform": "test-platform",
             "record_count": 10,
             "created_at": "2024-01-15T10:00:00Z",
+            "fingerprint_schema_version": TEST_FINGERPRINT_SCHEMA_VERSION,
             "fingerprints": {
                 str(i): {
                     "record_id": str(i),
@@ -582,6 +591,7 @@ class TestExecuteContentLossGuard:
             "platform": "microsoft-learn",
             "record_count": 100,
             "created_at": "2024-01-15T10:00:00Z",
+            "fingerprint_schema_version": TEST_FINGERPRINT_SCHEMA_VERSION,
             "fingerprints": {
                 str(i): {
                     "record_id": str(i),
@@ -625,6 +635,7 @@ class TestExecuteContentLossGuard:
             "platform": "test-platform",
             "record_count": 100,
             "created_at": "2024-01-15T10:00:00Z",
+            "fingerprint_schema_version": TEST_FINGERPRINT_SCHEMA_VERSION,
             "fingerprints": {
                 str(i): {
                     "record_id": str(i),
