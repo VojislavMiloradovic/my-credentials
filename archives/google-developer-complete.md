@@ -1,17 +1,23 @@
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1736 records.
+This document represents a unified, verifiable list of all 1742 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-13T05:46:28.441871+00:00 -->
+<!-- retrieved_at: 2026-10-13T11:42:53.710930+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-10-13 | **Deploy application with Compose Specification to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-run-compose-application |
+| 2026-10-13 | **Build custom Google Workspace Studio steps in Node.js on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/workspace-studio-custom-extensions-nodejs |
+| 2026-10-13 | **Multimodal analytics and zero-shot forecasting with Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/multimodal-analytics-zero-shot-forecasting |
+| 2026-10-13 | **Build a Gmail Add-on using Antigravity CLI and Apps Script** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agy-apps-script-gmail-addon |
+| 2026-10-13 | **Build a Task Management Add-on for Google Workspace Studio** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-studio-firestore-addon |
+| 2026-10-13 | **Build a Thread Network with Texas Instruments SimpleLink F3 and OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/ti-openthread-hardware |
 | 2026-10-08 | **Build & Deploy a Formula E AI Kiosk with Gemini Omni & Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/formula-e-genmedia-lab-codelab |
 | 2026-10-08 | **Build an Agentic Data Cloud System of Action with Spanner Graph, Borderless Lakehouse, GEV AI, Gemini Enterprise & Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/beacon-disaster-readiness |
 | 2026-10-08 | **Build a Formula E Driver Performance Analyzer App with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/fe-antigravity-cli-cicd |
@@ -751,7 +757,7 @@ This document represents a unified, verifiable list of all 1736 records.
 | 2026-06-07 | **(Deprecated) Converting to Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/java-to-kotlin |
 | 2026-06-07 | **Build an AI-powered outfit recommendation app with AlloyDB and serverless runtimes** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/smart-stylist-app |
 | 2026-06-07 | **Integrate the Vision API with Dialogflow** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/chatbots-dialogflow-visionAPI |
-| 2026-06-07 | **Vertex MLmd Pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-mlmd-pipelines [WARN] *Content retired* |
+| 2026-06-07 | **Vertex Mlmd Pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-mlmd-pipelines [WARN] *Content retired* |
 | 2026-06-07 | **TCP Proxy Codelab - Rate limiting and IP Deny list with TCP Proxy Load balancer** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tcp-proxylb-ssl-proxylb |
 | 2026-06-07 | **(Deprecated) Use Kotlin Coroutines in your Android App** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/kotlin-coroutines |
 | 2026-06-07 | **(Deprecated) Android Paging Advanced codelab** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-paging |

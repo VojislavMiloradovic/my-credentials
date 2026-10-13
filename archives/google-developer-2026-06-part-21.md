@@ -61,7 +61,7 @@ artifacts: complete, index
 | 2026-06-07 | **(Deprecated) Converting to Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/java-to-kotlin |
 | 2026-06-07 | **Build an AI-powered outfit recommendation app with AlloyDB and serverless runtimes** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/smart-stylist-app |
 | 2026-06-07 | **Integrate the Vision API with Dialogflow** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/chatbots-dialogflow-visionAPI |
-| 2026-06-07 | **Vertex MLmd Pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-mlmd-pipelines [WARN] *Content retired* |
+| 2026-06-07 | **Vertex Mlmd Pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-mlmd-pipelines [WARN] *Content retired* |
 | 2026-06-07 | **TCP Proxy Codelab - Rate limiting and IP Deny list with TCP Proxy Load balancer** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tcp-proxylb-ssl-proxylb |
 
 ---

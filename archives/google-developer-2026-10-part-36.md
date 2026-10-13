@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
 chunk_part: 36 of 36
-date_range: 2026-09-29 to 2026-10-08
-total_entries: 31
+date_range: 2026-09-29 to 2026-10-13
+total_entries: 37
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-10-part-36.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,12 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-10-13 | **Deploy application with Compose Specification to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-run-compose-application |
+| 2026-10-13 | **Build custom Google Workspace Studio steps in Node.js on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/workspace-studio-custom-extensions-nodejs |
+| 2026-10-13 | **Multimodal analytics and zero-shot forecasting with Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/multimodal-analytics-zero-shot-forecasting |
+| 2026-10-13 | **Build a Gmail Add-on using Antigravity CLI and Apps Script** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agy-apps-script-gmail-addon |
+| 2026-10-13 | **Build a Task Management Add-on for Google Workspace Studio** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-studio-firestore-addon |
+| 2026-10-13 | **Build a Thread Network with Texas Instruments SimpleLink F3 and OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/ti-openthread-hardware |
 | 2026-10-08 | **Build & Deploy a Formula E AI Kiosk with Gemini Omni & Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/formula-e-genmedia-lab-codelab |
 | 2026-10-08 | **Build an Agentic Data Cloud System of Action with Spanner Graph, Borderless Lakehouse, GEV AI, Gemini Enterprise & Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/beacon-disaster-readiness |
 | 2026-10-08 | **Build a Formula E Driver Performance Analyzer App with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/fe-antigravity-cli-cicd |
