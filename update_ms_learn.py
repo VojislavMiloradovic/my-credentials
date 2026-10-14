@@ -472,21 +472,29 @@ class MicrosoftLearnPipeline(PipelineBase):
     MS_LEARN_PROFILE_ID = MS_LEARN_PROFILE_ID
     MS_LEARN_PROFILE_URL = MS_LEARN_PROFILE_URL
 
+    # PipelineBase constants - override defaults
+    FAIL_ON_WARN: bool = True  # Match PROVIDER_CONFIG fail_on_warn: true
+    JSON_PATH: str = "for_validation/microsoft-learn.json"
+    MONOLITH_PATH: str = ARCHIVE_MONOLITH
+
     @property
     def VALIDATION_DIR(self):
         return VALIDATION_DIR
 
+    # JSON_PATH and MONOLITH_PATH are now class attributes above
+    # Kept for backward compatibility with fetch_data which needs the INPUT file path
     @property
-    def JSON_PATH(self):
-        return JSON_PATH
+    def INPUT_JSON_PATH(self):
+        return JSON_PATH  # module-level: data/microsoft-learn.json
 
+    # MONOLITH_PATH is now a class attribute above
     @property
-    def MONOLITH_PATH(self):
+    def MONOLITH_PATH_prop(self):
         return ARCHIVE_MONOLITH
 
     def fetch_data(self) -> list[dict]:
         """Load and validate Microsoft Learn JSON export."""
-        json_path = self.JSON_PATH
+        json_path = self.INPUT_JSON_PATH
 
         if not os.path.exists(json_path):
             self.logger.error(f"[FAIL] Error: Export file '{json_path}' not found!")
