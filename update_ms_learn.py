@@ -76,6 +76,7 @@ RETIRED_URLS_FILE = "retired_urls.json"
 
 # Module-level constants for backward compatibility with tests
 JSON_PATH = os.getenv("JSON_PATH", os.path.join("data", "microsoft-learn.json"))
+MONOLITH_PATH = os.getenv("MONOLITH_PATH", ARCHIVE_MONOLITH)
 
 # ==============================================================================
 # HELPER FUNCTIONS & FORMATTERS (module-level for backward compat)

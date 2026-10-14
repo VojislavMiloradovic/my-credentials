@@ -248,6 +248,36 @@ class PipelineBase:
 
             generate_provider_baseline(records, self.PLATFORM_NAME)
 
+    @property
+    def INPUT_JSON_PATH(self) -> str:
+        """Get the input JSON path from module-level JSON_PATH variable.
+
+        This property reads the module-level JSON_PATH variable which can be
+        patched by tests. Subclasses should override if they need different behavior.
+        """
+        # Import the module-level JSON_PATH from the subclass's module
+        import sys
+
+        module = sys.modules.get(self.__class__.__module__)
+        if module and hasattr(module, "JSON_PATH"):
+            return module.JSON_PATH
+        return self.JSON_PATH or ""
+
+    @property
+    def INPUT_MONOLITH_PATH(self) -> str:
+        """Get the input monolith path from module-level MONOLITH_PATH variable.
+
+        This property reads the module-level MONOLITH_PATH variable which can be
+        patched by tests via patch. Falls back to class attribute MONOLITH_PATH.
+        """
+        import sys
+
+        module = sys.modules.get(self.__class__.__module__)
+        if module and hasattr(module, "MONOLITH_PATH"):
+            return module.MONOLITH_PATH
+        # Fall back to class attribute (production default)
+        return getattr(self.__class__, "MONOLITH_PATH", "") or ""
+
     def run(self):
         """Execute complete pipeline."""
         self.logger.info(f"[START] Starting {self.PLATFORM_DISPLAY_NAME} Pipeline...")
@@ -269,8 +299,8 @@ class PipelineBase:
                 records,
                 self.PLATFORM_NAME,
                 fail_on_warn=self.FAIL_ON_WARN,
-                json_path=self.JSON_PATH,
-                monolith_path=self.MONOLITH_PATH,
+                json_path=self.INPUT_JSON_PATH,
+                monolith_path=self.INPUT_MONOLITH_PATH,
                 persist_baseline=False,
             )
         else:
@@ -278,8 +308,8 @@ class PipelineBase:
                 records,
                 self.PLATFORM_NAME,
                 fail_on_warn=self.FAIL_ON_WARN,
-                json_path=self.JSON_PATH,
-                monolith_path=self.MONOLITH_PATH,
+                json_path=self.INPUT_JSON_PATH,
+                monolith_path=self.INPUT_MONOLITH_PATH,
                 persist_baseline=False,
             )
 

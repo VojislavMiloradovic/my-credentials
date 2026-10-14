@@ -353,7 +353,11 @@ class TestMicrosoftLearnContracts:
             patch("update_ms_learn.README_PATH", str(readme)),
             patch("update_ms_learn.ARCHIVE_DIR", str(archives_dir)),
             patch(
-                "update_ms_learn.ARCHIVE_MONOLITH",
+                "update_ms_learn.MONOLITH_PATH",
+                str(archives_dir / "microsoft-learn-complete.md"),
+            ),
+            patch(
+                "update_ms_learn.MicrosoftLearnPipeline.MONOLITH_PATH",
                 str(archives_dir / "microsoft-learn-complete.md"),
             ),
             patch("update_ms_learn.VALIDATION_DIR", str(validation_dir)),
@@ -416,7 +420,11 @@ class TestMicrosoftLearnContracts:
             patch("update_ms_learn.README_PATH", str(readme)),
             patch("update_ms_learn.ARCHIVE_DIR", str(archives_dir)),
             patch(
-                "update_ms_learn.ARCHIVE_MONOLITH",
+                "update_ms_learn.MONOLITH_PATH",
+                str(archives_dir / "microsoft-learn-complete.md"),
+            ),
+            patch(
+                "update_ms_learn.MicrosoftLearnPipeline.MONOLITH_PATH",
                 str(archives_dir / "microsoft-learn-complete.md"),
             ),
             patch("update_ms_learn.VALIDATION_DIR", str(validation_dir)),
@@ -516,7 +524,7 @@ class TestMicrosoftLearnContracts:
             patch("update_ms_learn.README_PATH", str(readme)),
             patch("update_ms_learn.ARCHIVE_DIR", str(archives_dir)),
             patch(
-                "update_ms_learn.ARCHIVE_MONOLITH",
+                "update_ms_learn.MONOLITH_PATH",
                 str(archives_dir / "microsoft-learn-complete.md"),
             ),
             patch("update_ms_learn.VALIDATION_DIR", str(validation_dir)),
@@ -1150,7 +1158,7 @@ class TestFullPipelineContract:
             patch("update_ms_learn.README_PATH", str(readme)),
             patch("update_ms_learn.ARCHIVE_DIR", str(archives_dir)),
             patch(
-                "update_ms_learn.ARCHIVE_MONOLITH",
+                "update_ms_learn.MONOLITH_PATH",
                 str(archives_dir / "microsoft-learn-complete.md"),
             ),
             patch("update_ms_learn.VALIDATION_DIR", str(validation_dir)),
