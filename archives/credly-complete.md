@@ -1,17 +1,19 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 759 records.
+This document represents a unified, verifiable list of all 761 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-14T03:05:34.751891+00:00 -->
+<!-- retrieved_at: 2026-10-14T13:45:35.668009+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-14 | [Harness Certified Database DevOps Developer](https://www.credly.com/badges/ba7bac4e-647c-4521-aedf-23c0d4df34df/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-14 | [Traceable by Harness Developer Certification](https://www.credly.com/badges/81821f9e-ed55-49db-a20b-6c2afdd9cacb/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified AI DLC Insights Formerly SEI Developer](https://www.credly.com/badges/281d5b1c-95e0-497d-8784-bbbca82109a5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified Cloud & AI Cost Management Developer](https://www.credly.com/badges/150ce8a5-8669-42aa-a2df-2d0f61c1fbbc/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified Feature Flag Developer](https://www.credly.com/badges/65a03609-901a-4bc0-914d-cc65301a5484/public_url) | Harness Inc | Credly Verified Badge |

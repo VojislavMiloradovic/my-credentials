@@ -98,8 +98,8 @@ Showing latest 10 of 411 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 1046
-**Total Verified Skills Mapped:** 1043
+**Total Portfolio Credentials:** 1061
+**Total Verified Skills Mapped:** 1058
 
 #### AWS Cloud Quest Summary
 
@@ -114,20 +114,20 @@ Showing latest 10 of 411 credentials. View full dataset via [Platform Archive In
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 1046 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-10-part-20.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-20.md)), or [Monolithic File](./archives/aws-skills-complete.md).
+Showing latest 10 of 1061 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-10-part-20.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-20.md)), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-14 | [Amazon File Cache Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-14 | [Amazon Interactive Video Service (Amazon IVS) Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-14 | [Amazon Location Service Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-14 | [Amazon Quick Automate - Building Intelligent Workflows](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-14 | [Architecting on AWS - Online Course Supplement](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-14 | [AWS Backup Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-14 | [AWS Billing Conductor Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-14 | [AWS Cost Explorer Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-14 | [AWS Savings Plans Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-14 | [Cloud Financial Management: FinOps fundamentals & strategies (Part 1)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-14 | [Decarbonization with AWS Introduction](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-14 | [Deploy the AWS Marketplace SPG Dashboard for Unified Insights](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-14 | [Getting Started with AWS Cloud Essentials](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-14 | [Idea to Production with Kiro](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-14 | [Innovation and Transformation - Amazon’s Culture of Innovation Overview](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-14 | [Innovation and Transformation - Working Backwards](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-14 | [AWS DataSync Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-14 | [AWS Elemental MediaConvert Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 <!-- AWS_SKILLS_END -->
 
 
@@ -138,15 +138,17 @@ Showing latest 10 of 1046 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 759
-**Total Verified Skills Mapped:** 2653
+**Total Portfolio Credentials:** 761
+**Total Verified Skills Mapped:** 2660
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 759 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 761 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-14 | [Harness Certified Database DevOps Developer](https://www.credly.com/badges/ba7bac4e-647c-4521-aedf-23c0d4df34df/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-14 | [Traceable by Harness Developer Certification](https://www.credly.com/badges/81821f9e-ed55-49db-a20b-6c2afdd9cacb/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified AI DLC Insights Formerly SEI Developer](https://www.credly.com/badges/281d5b1c-95e0-497d-8784-bbbca82109a5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified Cloud & AI Cost Management Developer](https://www.credly.com/badges/150ce8a5-8669-42aa-a2df-2d0f61c1fbbc/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified Feature Flag Developer](https://www.credly.com/badges/65a03609-901a-4bc0-914d-cc65301a5484/public_url) | Harness Inc | Credly Verified Badge |
@@ -155,8 +157,6 @@ Showing latest 10 of 759 credentials. View full dataset via [Platform Archive In
 | 2026-10-13 | [Machine Learning for Data Science Projects](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-13 | [User Experience Design Fundamentals](https://www.credly.com/badges/d2179465-fd1c-4ed6-a032-850f5cc14ed9/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-11 | [AWS Knowledge: Amazon Connect Developer - Training Badge](https://www.credly.com/badges/b54fe6f0-0e84-46d6-8bf2-dfd997f49651/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-10-11 | [Microsoft Applied Skills: Integrate model context protocol tools with agents in Microsoft Foundry](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/D296FE0D58F3B6D0?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
-| 2026-10-10 | [Harness Certified Code Repository Developer](https://www.credly.com/badges/e7564671-e168-49e2-b28b-c2f2da887146/public_url) | Harness Inc | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
