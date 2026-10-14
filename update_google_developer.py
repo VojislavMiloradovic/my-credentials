@@ -905,6 +905,11 @@ class GoogleDeveloperPipeline(PipelineBase):
     # Multi-stream support for public badges and detailed learnings
     STREAMS: ClassVar[list[str]] = ["public_badges", "detailed_learnings", "combined"]
 
+    # PipelineBase constants - override defaults
+    FAIL_ON_WARN: bool = False  # Match PROVIDER_CONFIG fail_on_warn: false
+    JSON_PATH: str = "for_validation/google-developer.json"
+    MONOLITH_PATH: str = ARCHIVE_MONOLITH
+
     @property
     def VALIDATION_DIR(self):
         return VALIDATION_DIR
