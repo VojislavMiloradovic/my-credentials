@@ -170,6 +170,9 @@ MIN_EXPECTED = {
     "aws-skills": 100,
     "google-developer": 200,
 }
+# Module-level constants for backward compatibility with tests (patching)
+MONOLITH_PATH = os.getenv("MONOLITH_PATH", ARCHIVE_MONOLITH)
+
 
 MONTH_MAP = {
     "jan": "01",
@@ -407,6 +410,9 @@ class LinkedInCertPipeline(PipelineBase):
         import update_linkedin
 
         return update_linkedin.ARCHIVE_MONOLITH
+
+    # PipelineBase constants - override defaults
+    FAIL_ON_WARN: bool = True  # Match PROVIDER_CONFIG fail_on_warn: true
 
     TABLE_HEADERS: ClassVar[list[str]] = [
         "Date Completed",
