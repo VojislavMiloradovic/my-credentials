@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 52 of 98
+chunk_part: 52 of 99
 date_range: 2026-02-26 to 2026-03-01
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-03-part-52.md
@@ -15,7 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Plan and configure network settings for Microsoft Teams** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-configure-network-settings-for-microsoft-teams/) |
+| **Prepare the environment for a Microsoft Teams deployment** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-environment-for-microsoft-teams-deployment/) |
 | **Implement device profiles** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-profiles/) |
 | **MD-101 Configure user and device profiles** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-user-device-profiles/) |
 | **Work with tables in Dynamics 365 Business Central** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-tables/) |
@@ -56,8 +56,8 @@ artifacts: complete, index
 | **Manage fixed assets in Dynamics 365 Finance** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-fixed-assets-finance/) |
 | **Automate workloads with Azure Databricks Jobs** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-jobs-azure-databricks/) |
 | **Implement multi-stage reasoning in Azure Databricks** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/multistage-reasoning-azure-databricks/) |
-| **Implement high availability of Windows Server VMs** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-high-availability-of-windows-server-vms/) |
 | **Implement Windows Server high availability** | Learningpaths | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-high-availability/) |
+| **Implement high availability of Windows Server VMs** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-high-availability-of-windows-server-vms/) |
 | **Build web apps with Blazor** | Learningpaths | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-web-apps-with-blazor/) |
 | **Improve how forms and validation work in Blazor web apps** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/blazor-improve-how-forms-work/) |
 | **Use service-level agreements and entitlements in Dynamics 365 Field Service** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-service-level-agreements-entitlements/) |

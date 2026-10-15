@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 37 of 98
+chunk_part: 37 of 99
 date_range: 2026-01-25 to 2026-01-27
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-37.md
@@ -34,8 +34,8 @@ artifacts: complete, index
 | **Create a model-driven application in Power Apps** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-app-models-business-processes/) |
 | **Configure forms, charts, and dashboards in model-driven apps** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-model-driven-apps-customer-engagement-apps/) |
 | **Automate the configuration of Windows Server IaaS Virtual Machines** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-configuration-of-windows-server-iaas-virtual-machines/) |
-| **Investigate insider risk alerts and related activity** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-insider-risk-investigate-alerts/) |
 | **Implement and manage Microsoft Purview Insider Risk Management** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-insider-risk-management/) |
+| **Investigate insider risk alerts and related activity** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-insider-risk-investigate-alerts/) |
 | **Write data in a Power Apps canvas app** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-data/) |
 | **Audit the security of Windows Server IaaS Virtual Machines** | Modules | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-security-of-windows-server-iaas-virtual-machines/) |
 | **Implement secure Azure solutions** | Learningpaths | 2026-01-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-secure-cloud-solutions/) |
@@ -59,8 +59,8 @@ artifacts: complete, index
 | **Implement Azure Key Vault** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-key-vault/) |
 | **Enroll devices using Microsoft Intune** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/enroll-devices-use-intune/) |
 | **Apply filters on functions** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/combine-prompts-functions/) |
-| **Explore Azure Blob storage** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/) |
 | **Develop solutions that use Blob storage** | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-solutions-that-use-blob-storage/) |
+| **Explore Azure Blob storage** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/) |
 | **Manage identity for projects, pipelines, and agents** | Modules | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-identity-projects-pipelines-agents/) |
 | **Manage resources in Azure** | Learningpaths | 2026-01-25 | N/A |
 | **Implement resource management security in Azure** | Learningpaths | 2026-01-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-resource-mgmt-security/) |

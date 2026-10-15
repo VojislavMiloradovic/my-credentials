@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 44 of 98
+chunk_part: 44 of 99
 date_range: 2026-02-09 to 2026-02-10
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-44.md
@@ -16,8 +16,8 @@ artifacts: complete, index
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
 | **Evaluate performance improvements** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-performance-improvements/) |
-| **Implement Windows Server hybrid cloud management, monitoring, and security** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-hybrid-cloud-management-monitoring-security/) |
 | **Manage Azure updates** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-updates/) |
+| **Implement Windows Server hybrid cloud management, monitoring, and security** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-hybrid-cloud-management-monitoring-security/) |
 | **Interact with an ASP.NET Core minimal API** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-api/) |
 | **Migrate to Azure Database for PostgreSQL flexible server** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-azure-database-postgresql-flexible-server/) |
 | **MS-102 Implement identity synchronization** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-identity-synchronization/) |
@@ -54,8 +54,8 @@ artifacts: complete, index
 | **Examine Privileged Identity Management in Microsoft Entra ID** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-privileged-identity-management/) |
 | **Explore performance-based database design** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-performance-based-design/) |
 | **Create formulas to change properties in a Power Apps canvas app** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/author-basic-formula-change-properties-powerapps/) |
-| **MS-102 Implement compliance in Microsoft 365** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-compliance-microsoft-365/) |
 | **Implement Microsoft Purview Insider Risk Management** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-insider-risk-management/) |
+| **MS-102 Implement compliance in Microsoft 365** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-compliance-microsoft-365/) |
 | **Manage data compliance for Microsoft 365 Copilot** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-data-compliance-copilot-microsoft-365/) |
 | **MS-102 Manage compliance in Microsoft 365** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/ms-102-manage-compliance-microsoft-365/) |
 | **Implement data classification of sensitive information** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-classification-sensitive-information/) |

@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 85 of 98
+chunk_part: 85 of 99
 date_range: 2026-06-13 to 2026-06-20
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-85.md
@@ -15,7 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Software Composition Analysis** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/) |
+| **AZ-400: Implement security and validate code bases for compliance** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-security-validate-code-bases-compliance/) |
 | **Implement Bicep** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-bicep/) |
 | **Integrate with Dataverse and Azure** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dataverse-azure/) |
 | **Integrate with Power Platform and Dataverse** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-power-platform-dataverse/) |
@@ -28,8 +28,8 @@ artifacts: complete, index
 | **Work with Dataverse Web API** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dataverse-web-api/) |
 | **Configure and deploy Teams Phone** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-teams-phone-system/) |
 | **Extend the user experience with client scripting and command bar customization** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-user-experience-client-scripting-command-bar-customization/) |
-| **Extend Power Platform user experience with model-driven apps** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-power-platform-user-experience/) |
 | **Automate business process flows with client script** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-platform-automate-client-script/) |
+| **Extend Power Platform user experience with model-driven apps** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-power-platform-user-experience/) |
 | **Plan and design the integration of enterprise apps for SSO** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-design-integration-of-enterprise-apps-for-sso/) |
 | **Configure and Provision Environments** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/) |
 | **Implement open-source software** | Modules | 2026-06-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/) |

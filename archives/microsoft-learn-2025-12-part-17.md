@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 17 of 98
+chunk_part: 17 of 99
 date_range: 2025-12-18 to 2025-12-19
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-17.md
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Adjust process behavior using conditional actions with Power Automate for desktop** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-conditionals/) |
 | **Migrate your repository by using GitHub best practices** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-repository-github/) |
 | **Discover DevOps** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-devops/) |
 | **Support reading fluency practice with Reading Progress** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-reading-fluency-practice-with-reading-progress/) |
@@ -64,10 +65,9 @@ artifacts: complete, index
 | **A guide to artificial intelligence** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/a-guide-to-artificial-intelligence/) |
 | **Create a SaaS offer for the commercial marketplace** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-saas-offer-commercial-marketplace/) |
 | **Intro to Azure DNS Private Resolver** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-dns-private-resolver/) |
-| **Azure Database for MySQL** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-azure-database-for-mysql/) |
 | **Introduction to Azure Database for MySQL** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-database-for-mysql/) |
+| **Azure Database for MySQL** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-azure-database-for-mysql/) |
 | **Develop on a remote machine using SSH in Visual Studio Code** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-on-remote-machine/) |
-| **Get started with Dynamics 365 Intelligent Order Management** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-intelligent-order-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-16.md](./microsoft-learn-2025-12-part-16.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-18.md](./microsoft-learn-2025-12-part-18.md)

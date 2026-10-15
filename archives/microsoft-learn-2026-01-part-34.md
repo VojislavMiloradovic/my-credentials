@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 34 of 98
+chunk_part: 34 of 99
 date_range: 2026-01-18 to 2026-01-20
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-34.md
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Create DAX calculations in semantic models** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-create-calculations/) |
 | **Manage records and disposition with Microsoft Purview** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-manage-records/) |
 | **Orchestrate processes in Microsoft Fabric** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-processes-in-fabric/) |
 | **Create a knowledge mining solution with Azure AI Search** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/) |
@@ -64,10 +65,9 @@ artifacts: complete, index
 | **Identify and mitigate AI data security risks** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-identify-mitigate-ai-risks/) |
 | **Scope report design requirements** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-requirements/) |
 | **Learn how Microsoft supports data discovery, classification, and protection as part of a cybersecurity solution** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-identification-cybersecurity/) |
-| **Prevent data loss with Microsoft Purview** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-prevent-data-loss/) |
 | **Implement information protection and data loss prevention by using Microsoft Purview** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-information-protection-data-loss-prevention/) |
+| **Prevent data loss with Microsoft Purview** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-prevent-data-loss/) |
 | **Implement information protection and data loss prevention with Microsoft Purview** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-exercise-information-protection-data-loss-prevention/) |
-| **Enhance Power BI report designs for the user experience** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-33.md](./microsoft-learn-2026-01-part-33.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-35.md](./microsoft-learn-2026-01-part-35.md)

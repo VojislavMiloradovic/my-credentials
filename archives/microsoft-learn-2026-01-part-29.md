@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 29 of 98
+chunk_part: 29 of 99
 date_range: 2026-01-04 to 2026-01-06
-total_entries: 55
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-29.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Source control for machine learning projects** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/source-control-for-machine-learning-projects/) |
 | **Get started with Power Apps and SharePoint** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-power-apps-sharepoint/) |
 | **Build and deploy apps for Microsoft Teams using Teams Toolkit for Visual Studio Code** | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-teams-toolkit-vsc/) |
 | **Deploy a Microsoft Teams app to Azure by using Teams Toolkit for Visual Studio Code** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-deploy-apps/) |
@@ -50,11 +51,11 @@ artifacts: complete, index
 | **Explore API Management** | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-api-management/) |
 | **Secure outbound internet connectivity for Azure VMware Solution** | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-vmware-solution/) |
 | **Introduction to the Partner Success Series** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-partner-success-series/) |
-| **Introduction to Azure ExpressRoute** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-expressroute/) |
 | **Introduction to Azure hybrid connectivity services** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-hybrid-connectivity-services/) |
+| **Introduction to Azure ExpressRoute** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-expressroute/) |
 | **Introduction to Azure Advisor** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-advisor/) |
-| **Create subflows and web automation with Power Automate for desktop - Online workshop** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-subflows-web-automation-online-workshop/) |
 | **Power Automate: Automation - Online Workshop** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/robotic-process-automation-online-workshop/) |
+| **Create subflows and web automation with Power Automate for desktop - Online workshop** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-subflows-web-automation-online-workshop/) |
 | **Integrate with Microsoft Teams to get approvals - Online workshop** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-teams-approval-online-workshop/) |
 | **Add an AI model to process invoice forms - Online workshop** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-ai-model-process-invoice-online-workshop/) |
 | **Integrate with cloud flows - Online workshop** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-cloud-flows-online-workshop/) |
@@ -68,8 +69,6 @@ artifacts: complete, index
 | **Minecraft Trainer Academy: Train educators to teach with Minecraft Education in the classroom** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/minecraft-trainer-academy-minecraft-education-classroom/) |
 | **Automate multi-container Kubernetes deployments with Azure Pipelines** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-kubernetes/) |
 | **Automate Docker container deployments with Azure Pipelines** | Modules | 2026-01-04 | N/A |
-| **Introduction to Graph connectors** | Modules | 2026-01-04 | N/A |
-| **Configure a JavaScript application to retrieve Microsoft 365 data by using Microsoft Graph** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-javascript-app/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-28.md](./microsoft-learn-2026-01-part-28.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-30.md](./microsoft-learn-2026-01-part-30.md)
