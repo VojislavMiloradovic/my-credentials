@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 4 of 20
-date_range: 2026-03-11 to 2026-03-18
+date_range: 2026-03-12 to 2026-03-18
 total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-04.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-03-18 | [Amazon Connect: Introduction to the Administrative Interface](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-18 | [Amazon SageMaker Unified Studio - Administrator Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-18 | [AWS Security – Encryption Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-18 | [AWS SimuLearn: Generate Code for a Webpage](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
@@ -70,7 +71,6 @@ artifacts: complete, index
 | 2026-03-13 | [Performing a Basic Audit of your AWS Environment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Builder Lab |
 | 2026-03-12 | [AWS Cloud Development Kit (CDK) Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-12 | [AWS Lambda Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-03-11 | [[RETIRED] Introduction to AWS Mainframe Modernization Replatform with NTT Data UniKix](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-03-part-03.md](./aws-skills-2026-03-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-04-part-05.md](./aws-skills-2026-04-part-05.md)

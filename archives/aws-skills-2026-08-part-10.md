@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-08 | [Amazon Connect Analytics Reporting and Visualizations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-08 | [Amazon Connect Conversational Interfaces Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-08 | [Amazon Connect Outbound Communications Channel Configuration and Setup](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-08 | [Amazon Connect Outbound Communications Performance Optimization and Analytics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -66,7 +67,6 @@ artifacts: complete, index
 | 2026-08-02 | [Amazon Simple Storage Service (Amazon S3) - Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [Amazon WorkSpaces Migrations - Introducing Amazon WorkSpaces Core](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [Batch Processing at Scale With Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-02 | [Building hybrid multi-tenant architecture for stateful services on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-08-part-09.md](./aws-skills-2026-08-part-09.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-11.md](./aws-skills-2026-08-part-11.md)

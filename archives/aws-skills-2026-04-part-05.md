@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-04-08 | [AWS Trainium Development Environment Setup](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-08 | [Introduction to Amazon VPC Lattice](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-07 | [Authentication and Authorization with AWS Identity and Access Management](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-07 | [AWS Elemental Link - Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -70,7 +71,6 @@ artifacts: complete, index
 | 2026-03-19 | [AWS Cloud Essentials for Business Leaders](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-19 | [AWS Config Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-18 | [AgentCore Browser: Secure and Scalable Web Automation with Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-03-18 | [Amazon Connect: Introduction to the Administrative Interface](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-03-part-04.md](./aws-skills-2026-03-part-04.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-05-part-06.md](./aws-skills-2026-05-part-06.md)
