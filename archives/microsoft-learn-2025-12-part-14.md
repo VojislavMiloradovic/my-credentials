@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 14 of 99
 date_range: 2025-12-11 to 2025-12-14
-total_entries: 52
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-14.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -66,7 +66,6 @@ artifacts: complete, index
 | **Generate batch predictions using a deployed model in Microsoft Fabric** | Modules | 2025-12-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-batch-predictions-fabric/) |
 | **Add and size disks in Azure virtual machines** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-and-size-disks-in-azure-virtual-machines/) |
 | **Manage virtual machines with the Azure CLI** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-virtual-machines-with-azure-cli/) |
-| **Create tables in Dataverse** | Modules | 2025-12-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps-common-data-service/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-13.md](./microsoft-learn-2025-12-part-13.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-15.md](./microsoft-learn-2025-12-part-15.md)

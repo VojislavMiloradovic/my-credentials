@@ -23,6 +23,7 @@ Welcome to my portfolio! Here is my live learning history:
 - **Completed Individual Units:** 37,207
 
 ### Verifiable Applied Skills & Credentials
+- **Protect Information In Microsoft 365 Copilot By Using Microsoft Purview** (Credential ID: `F87E8DADFE9F36FD` | Earned: 2026-10-15T19:49:57+00:00 | Status: Active)
 - **Integrate Model Context Protocol Tools With Agents In Microsoft Foundry** (Credential ID: `D296FE0D58F3B6D0` | Earned: 2026-10-11T10:57:14+00:00 | Status: Active)
 - **Resolve Github Issues By Using Github Copilot** (Credential ID: `B3E75DBC35A98214` | Earned: 2026-10-10T23:14:43+00:00 | Status: Active)
 - **Accelerate App Development By Using Github Copilot** (Credential ID: `15F428743381AFA9` | Earned: 2026-10-06T17:23:19+00:00 | Status: Active)
