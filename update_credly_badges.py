@@ -58,6 +58,10 @@ MIN_EXPECTED = {
     "google-developer": 200,
 }
 
+
+# Module-level constants for backward compatibility with tests (patching)
+MONOLITH_PATH = os.getenv("MONOLITH_PATH", ARCHIVE_MONOLITH)
+
 # ==============================================================================
 # PYDANTIC SCHEMAS & VALIDATION PIPELINE
 # ==============================================================================
@@ -558,6 +562,9 @@ class CredlyPipeline(PipelineBase):
 
     # Multi-stream support for native and external badges
     STREAMS: ClassVar[list[str]] = ["native", "external", "combined"]
+
+    # PipelineBase constants - override defaults
+    FAIL_ON_WARN: bool = True  # Match PROVIDER_CONFIG fail_on_warn: true
 
     CREDLY_USER = CREDLY_USER
     CREDLY_USER_ID = CREDLY_USER_ID
