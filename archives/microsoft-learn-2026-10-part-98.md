@@ -54,8 +54,8 @@ artifacts: complete, index
 | **Distributed computing on the cloud: GraphLab** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-analytics-engines-graphlab/) |
 | **Distributed computing on the cloud: MapReduce** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-analytics-engines-mapreduce/) |
 | **What is distributed programming?** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-distributed-programming-introduction/) |
-| **Cloud storage** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-cloud-computing-cloud-storage/) |
 | **Case studies: NoSQL databases and cloud object storage** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-case-study-nosql-databases/) |
+| **Cloud storage** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-cloud-computing-cloud-storage/) |
 | **Case studies: Distributed file systems** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-case-study-distributed-file-systems/) |
 | **Cloud storage overview** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-cloud-storage/) |
 | **Cloud computing basics for developers** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-cloud-developer-basics/) |
