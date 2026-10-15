@@ -82,6 +82,9 @@ MIN_EXPECTED = {
     "google-developer": 200,
 }
 
+# Module-level constants for backward compatibility with tests (patching)
+MONOLITH_PATH = os.getenv("MONOLITH_PATH", ARCHIVE_MONOLITH)
+
 # ==============================================================================
 # PYDANTIC SCHEMAS & VALIDATION PIPELINE
 # ==============================================================================
@@ -738,6 +741,9 @@ class GoogleSkillsPipeline(PipelineBase):
     # Paths for count loss guard baseline lookup
     JSON_PATH = os.path.join(VALIDATION_DIR, "google_skills_badges.json")
     MONOLITH_PATH = ARCHIVE_MONOLITH
+
+    # PipelineBase constants - override defaults
+    FAIL_ON_WARN: bool = True  # Match PROVIDER_CONFIG fail_on_warn: true
 
     TABLE_HEADERS: ClassVar[list[str]] = [
         "Date Earned",
