@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 98 of 98
-date_range: 2026-10-11 to 2026-10-11
-total_entries: 37
+chunk_part: 98 of 99
+date_range: 2026-10-11 to 2026-10-15
+total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-98.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,30 @@ artifacts: complete, index
 
 # microsoft-learn -- Part 98
 
-> **Navigation:** Prev: [microsoft-learn-2026-10-part-97.md](./microsoft-learn-2026-10-part-97.md) | [Index](./microsoft-learn-index.md) | Next: None | [Complete Archive](./microsoft-learn-complete.md)
+> **Navigation:** Prev: [microsoft-learn-2026-10-part-97.md](./microsoft-learn-2026-10-part-97.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-10-part-99.md](./microsoft-learn-2026-10-part-99.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Process Power Platform workloads with Azure Functions** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-workloads-azure-functions/) |
+| **Perform reliable operations with Microsoft Dataverse APIs** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-dataverse-api-operations/) |
+| **Build automation and agent integrations** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-automation-agent-integrations/) |
+| **Implement resilient Power Automate cloud-flow logic** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-resilient-cloud-flows/) |
+| **Harden Dataverse extensions for production workloads** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-dataverse-extensions/) |
+| **Connect external APIs with Power Platform custom connectors** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-platform-custom-connectors/) |
+| **Connect Power Apps code apps to platform services** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-code-apps-platform-services/) |
+| **Publish Microsoft Dataverse events to external services** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/publish-dataverse-events/) |
+| **Deploy and operate secure Power Apps code apps** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-operate-code-apps/) |
+| **Consume Dataverse MCP servers from MCP clients** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/consume-dataverse-mcp-servers/) |
+| **Build Dataverse experiences with Power Apps code apps** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-dataverse-code-apps/) |
+| **Integrate custom agents with Microsoft Power Platform** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-custom-agents-power-platform/) |
+| **Apply client-side logic in model-driven Power Apps** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-client-logic-model-driven-apps/) |
+| **Security operations and remediation workflows with GitHub Advanced Security** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-remediation/) |
+| **Implement an agentic public sector security operations center** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-agentic-public-sector-security-operations-center/) |
+| **Design and deliver secure Power Platform solutions** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-deliver-power-platform-solutions/) |
+| **Design extensible Microsoft Power Platform solution components** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-power-platform-components/) |
+| **Deliver Power Platform solutions through governed ALM** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/deliver-solutions-governed-alm/) |
+| **Evaluate Microsoft Power Platform solution implementation options** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-power-platform-architectures/) |
+| **Design, operate, and recover Hyper-V guarded fabrics and shielded virtual machines** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/guarded-fabric-shielded-virtual-machines/) |
 | **Understand local AI and high-performance workflows with Microsoft Surface Laptop Ultra for Business** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-laptop-ultra-business/) |
 | **Safeguard cloud resources** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-admin-monitor-secure-recover/) |
 | **Disaster recovery and backup** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-disaster-recovery-backup/) |
@@ -54,5 +74,5 @@ artifacts: complete, index
 | **AI edge engineer** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-edge-engineer/) |
 
 ---
-> **Navigation:** Prev: [microsoft-learn-2026-10-part-97.md](./microsoft-learn-2026-10-part-97.md) | [Index](./microsoft-learn-index.md) | Next: None
+> **Navigation:** Prev: [microsoft-learn-2026-10-part-97.md](./microsoft-learn-2026-10-part-97.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-10-part-99.md](./microsoft-learn-2026-10-part-99.md)
 

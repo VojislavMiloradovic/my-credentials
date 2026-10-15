@@ -14,13 +14,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,238,775
+- **Total Experience Points (XP):** 6,271,575
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 4,050
-- **Trophies Earned (Profile):** 927
-- **Completed Learning Paths (Active Tracker):** 526
-- **Completed Modules (Active Tracker):** 2,774
-- **Completed Individual Units:** 37,007
+- **Badges Earned (Profile):** 4,074
+- **Trophies Earned (Profile):** 932
+- **Completed Learning Paths (Active Tracker):** 531
+- **Completed Modules (Active Tracker):** 2,797
+- **Completed Individual Units:** 37,207
 
 ### Verifiable Applied Skills & Credentials
 - **Integrate Model Context Protocol Tools With Agents In Microsoft Foundry** (Credential ID: `D296FE0D58F3B6D0` | Earned: 2026-10-11T10:57:14+00:00 | Status: Active)
@@ -35,20 +35,20 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 4,977 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-98.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-98.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 5,006 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-99.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-99.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Understand local AI and high-performance workflows with Microsoft Surface Laptop Ultra for Business** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-laptop-ultra-business/) |
-| **Safeguard cloud resources** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-admin-monitor-secure-recover/) |
-| **Disaster recovery and backup** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-disaster-recovery-backup/) |
-| **Cloud security** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-cloud-security/) |
-| **Automate cloud resource management** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-orchestration/) |
-| **Cloud administration basics** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-admin/) |
-| **Manage cloud resources** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-manage-cloud-resources/) |
-| **Virtualize resources in the cloud** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-virtualization/) |
-| **Cloud administration basics** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-cloud-admin-basics/) |
-| **Secure your cloud resources with access control** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-secure-cloud-resources/) |
+| **Extend Dataverse with code and Azure compute** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-dataverse-code-azure/) |
+| **Get started with Microsoft Power Platform development** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-power-platform-development/) |
+| **Build reusable controls with Power Apps component framework** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-apps-component-framework-code-components/) |
+| **Build professional Power Apps experiences** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-power-apps-experiences/) |
+| **Implement business logic with Microsoft Dataverse plug-ins** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dataverse-plug-ins/) |
+| **Diagnose advanced Microsoft Dataverse API failures** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/diagnose-dataverse-api-failures/) |
+| **Security campaigns and prevention-first strategy** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-campaign/) |
+| **Synchronize external data reliably with Microsoft Dataverse** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/synchronize-external-data-dataverse/) |
+| **Integrate Dataverse with services and external data** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dataverse-external-services/) |
+| **Process Power Platform workloads with Azure Functions** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-workloads-azure-functions/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

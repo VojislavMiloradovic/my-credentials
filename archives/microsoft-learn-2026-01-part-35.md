@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 35 of 98
+chunk_part: 35 of 99
 date_range: 2026-01-20 to 2026-01-23
-total_entries: 55
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-35.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -30,8 +30,8 @@ artifacts: complete, index
 | **Configure and manage automation using Microsoft Defender for Endpoint** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-automation-microsoft-defender-for-endpoint/) |
 | **Enforce Power BI model security** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/) |
 | **Enhance public sector services with generative AI** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-public-sector-services-generative-ai/) |
-| **AZ-104: Implement and manage storage in Azure** | Learningpaths | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-manage-storage/) |
 | **Configure storage accounts** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/) |
+| **AZ-104: Implement and manage storage in Azure** | Learningpaths | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-manage-storage/) |
 | **Explore Azure Functions** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/) |
 | **Configure Azure Container Instances** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-container-instances/) |
 | **Scale apps in Azure App Service** | Modules | 2026-01-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/) |
@@ -69,7 +69,6 @@ artifacts: complete, index
 | **Manage meetings and events experiences** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-meetings-virtual-events-experiences/) |
 | **Configure BYOD spaces and bookable desks** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-byod-spaces-bookable-desks/) |
 | **Use DAX in semantic models** | Learningpaths | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/dax-power-bi/) |
-| **Create DAX calculations in semantic models** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-create-calculations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-34.md](./microsoft-learn-2026-01-part-34.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-36.md](./microsoft-learn-2026-01-part-36.md)

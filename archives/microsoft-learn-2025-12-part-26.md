@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 26 of 98
+chunk_part: 26 of 99
 date_range: 2025-12-29 to 2025-12-31
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2025-12-part-26.md
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Understand Microsoft 365 identity and access management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-identity-access-management/) |
 | **Understand Microsoft Online Services security incident management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-incident-management/) |
 | **Understand Microsoft 365 cloud architecture** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-architecture/) |
 | **Understand Microsoft 365 governance** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-governance/) |
@@ -58,8 +59,8 @@ artifacts: complete, index
 | **Work with the Microsoft Dynamics 365 Business Central user interface** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-with-user-interface-dynamics-365-business-central/) |
 | **Teach cybersecurity concepts with Minecraft Education** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/teach-cybersecurity-concepts-minecraft-education/) |
 | **Guide to Secure .NET Development with OWASP Top 10** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/owasp-top-10-for-dotnet-developers/) |
-| **Design a data ingestion strategy for machine learning projects** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-ingestion-strategy-for-machine-learning-projects/) |
 | **Design a machine learning solution** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-machine-learning-solution/) |
+| **Design a data ingestion strategy for machine learning projects** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-ingestion-strategy-for-machine-learning-projects/) |
 | **Upload, download, and manage data with Azure Storage Explorer** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/upload-download-and-manage-data-with-azure-storage-explorer/) |
 | **Architect storage infrastructure in Azure** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-storage-infrastructure/) |
 | **Digital citizenship: Prepare today's learners for online success** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/digital-citizenship-prepare-todays-learners/) |
@@ -69,7 +70,6 @@ artifacts: complete, index
 | **Explore name resolution** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-name-resolution/) |
 | **Configure IP network connectivity** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ip-network-connectivity/) |
 | **Explore remote access** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-remote-access/) |
-| **Create serverless applications** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-serverless-applications/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-25.md](./microsoft-learn-2025-12-part-25.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-27.md](./microsoft-learn-2026-01-part-27.md)
