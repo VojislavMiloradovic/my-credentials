@@ -139,15 +139,16 @@ Showing latest 10 of 1068 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 763
-**Total Verified Skills Mapped:** 2665
+**Total Portfolio Credentials:** 764
+**Total Verified Skills Mapped:** 2669
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 763 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 764 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-16 | [Quantum-Safe Encryption Essentials](https://www.credly.com/badges/2a47f562-b192-4791-8fac-f4e981fe7726/public_url) | IBM | Credly Verified Badge |
 | 2026-10-15 | [AWS Knowledge: Security Champion - Training Badge](https://www.credly.com/badges/c59d7bc6-b7c4-496c-bdc5-841330331449/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-15 | [Microsoft Applied Skills: Protect information in Microsoft 365 Copilot by using Microsoft Purview](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/F87E8DADFE9F36FD?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-14 | [Harness Certified Database DevOps Developer](https://www.credly.com/badges/ba7bac4e-647c-4521-aedf-23c0d4df34df/public_url) | Harness Inc | Credly Verified Badge |
@@ -157,7 +158,6 @@ Showing latest 10 of 763 credentials. View full dataset via [Platform Archive In
 | 2026-10-13 | [Harness Certified Feature Flag Developer](https://www.credly.com/badges/65a03609-901a-4bc0-914d-cc65301a5484/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified Internal Developer Portal Developer](https://www.credly.com/badges/a9e63d43-0f30-4c99-a8e0-fb7db936a3b0/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Kong Gateway Operations](https://www.credly.com/badges/ec9b0dd2-a167-4d92-87af-2a5e6e2df6d6/public_url) | Kong | Credly Verified Badge |
-| 2026-10-13 | [Machine Learning for Data Science Projects](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/public_url) | IBM SkillsBuild | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

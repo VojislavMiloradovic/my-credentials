@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 15 of 15
-date_range: 2026-10-10 to 2026-10-15
-total_entries: 17
+date_range: 2026-10-10 to 2026-10-16
+total_entries: 18
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-16 | [Quantum-Safe Encryption Essentials](https://www.credly.com/badges/2a47f562-b192-4791-8fac-f4e981fe7726/public_url) | IBM | Credly Verified Badge |
 | 2026-10-15 | [AWS Knowledge: Security Champion - Training Badge](https://www.credly.com/badges/c59d7bc6-b7c4-496c-bdc5-841330331449/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-15 | [Microsoft Applied Skills: Protect information in Microsoft 365 Copilot by using Microsoft Purview](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/F87E8DADFE9F36FD?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-14 | [Harness Certified Database DevOps Developer](https://www.credly.com/badges/ba7bac4e-647c-4521-aedf-23c0d4df34df/public_url) | Harness Inc | Credly Verified Badge |

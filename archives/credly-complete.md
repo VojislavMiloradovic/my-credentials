@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 763 records.
+This document represents a unified, verifiable list of all 764 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-16T02:41:35.383922+00:00 -->
+<!-- retrieved_at: 2026-10-16T10:43:53.826243+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-16 | [Quantum-Safe Encryption Essentials](https://www.credly.com/badges/2a47f562-b192-4791-8fac-f4e981fe7726/public_url) | IBM | Credly Verified Badge |
 | 2026-10-15 | [AWS Knowledge: Security Champion - Training Badge](https://www.credly.com/badges/c59d7bc6-b7c4-496c-bdc5-841330331449/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-15 | [Microsoft Applied Skills: Protect information in Microsoft 365 Copilot by using Microsoft Purview](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/F87E8DADFE9F36FD?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-14 | [Harness Certified Database DevOps Developer](https://www.credly.com/badges/ba7bac4e-647c-4521-aedf-23c0d4df34df/public_url) | Harness Inc | Credly Verified Badge |
