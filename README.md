@@ -14,13 +14,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,271,575
+- **Total Experience Points (XP):** 6,271,675
 - **Current Learning Level:** Level 20
 - **Badges Earned (Profile):** 4,074
 - **Trophies Earned (Profile):** 932
 - **Completed Learning Paths (Active Tracker):** 531
 - **Completed Modules (Active Tracker):** 2,797
-- **Completed Individual Units:** 37,207
+- **Completed Individual Units:** 37,208
 
 ### Verifiable Applied Skills & Credentials
 - **Protect Information In Microsoft 365 Copilot By Using Microsoft Purview** (Credential ID: `F87E8DADFE9F36FD` | Earned: 2026-10-15T19:49:57+00:00 | Status: Active)

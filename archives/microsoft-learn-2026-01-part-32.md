@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Gaming accessibility fundamentals** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/gaming-accessibility-fundamentals/) |
 | **Gaming assistive technologies** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/gaming-assistive-technologies/) |
 | **Get tips and tricks for teaching SC-900: Microsoft Security, Compliance, and Identity Fundamentals** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-sc-900-security-compliance-identity-fundamentals/) |
 | **Implement classes, properties, and methods** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-classes-properties-and-methods/) |
@@ -25,8 +24,8 @@ artifacts: complete, index
 | **Introduction to Microsoft Defender for IoT** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-microsoft-defender-iot/) |
 | **Create compensation plans in Dynamics 365 Human Resources** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-compensation-plans/) |
 | **Manage leave and absence in Dynamics 365 Human Resources** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/hr-leave-absence/) |
-| **Configure your user interface in finance and operations apps** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-your-ui-dynamics-365-finance-operations-apps/) |
 | **Configure apps in finance and operations** | Learningpaths | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/config-d365-finance-operations-apps/) |
+| **Configure your user interface in finance and operations apps** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-your-ui-dynamics-365-finance-operations-apps/) |
 | **Deploy Healthcare Data Solutions in Microsoft Fabric and ingest sample data** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-sample-data-ingestion/) |
 | **Introduction to Azure Virtual Machine Scale Sets** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machine-scale-sets/) |
 | **Get started with Finance insights in Dynamics 365 Finance** | Modules | 2026-01-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-finance-insights/) |
@@ -66,6 +65,7 @@ artifacts: complete, index
 | **Detect objects with AI Builder** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-object-detection/) |
 | **Analyze the sentiment of text with AI Builder** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-sentiment-analysis/) |
 | **Identify the language of text with AI Builder** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-language-detection/) |
+| **Explore quantum superposition with Q#** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-superposition/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-31.md](./microsoft-learn-2026-01-part-31.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-33.md](./microsoft-learn-2026-01-part-33.md)

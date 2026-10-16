@@ -40,8 +40,8 @@ artifacts: complete, index
 | **Organize data with arrays and lists in C#** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-arrays-lists/) |
 | **Build an AI-supported coaching workflow** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/building-ai-supported-coaching-workflow/) |
 | **AI basics for job coaches** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-basics-for-job-coaches/) |
-| **AI for people with intellectual and developmental disabilities** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-people-intellectual-developmental-disabilities/) |
 | **Use AI to communicate** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-to-communicate/) |
+| **AI for people with intellectual and developmental disabilities** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-people-intellectual-developmental-disabilities/) |
 | **Use AI to plan your day** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-plan-your-day/) |
 | **How AI can help with work and school** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/how-ai-can-help-work-school/) |
 | **What is Artificial Intelligence (AI)?** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-is-artificial-intelligence/) |
@@ -64,8 +64,8 @@ artifacts: complete, index
 | **Use Copilot wisely - balancing usage, cost, and value** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/balance-cost-usage-value-copilot/) |
 | **Active Directory Certificate Services roles and topology** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/certificate-services-roles-topology/) |
 | **Get started with Microsoft AI models in Foundry** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-ai-in-foundry/) |
-| **GitHub Copilot Fundamentals Part 2 of 2** | Learningpaths | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
 | **Accelerate development with GitHub Copilot Cloud Agent** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/) |
+| **GitHub Copilot Fundamentals Part 2 of 2** | Learningpaths | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-09-part-95.md](./microsoft-learn-2026-09-part-95.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-10-part-97.md](./microsoft-learn-2026-10-part-97.md)

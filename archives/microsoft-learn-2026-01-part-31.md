@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Explore quantum superposition with Q#** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-superposition/) |
 | **Create Power Platform solutions with AI and Copilot** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-solutions/) |
 | **Build a Power Pages website for a real estate solution with Copilot in Power Pages** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-website-real-estate-power-pages-copilot/) |
 | **Create a copilot for a real estate solution using natural language in Copilot Studio** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilot-real-estate-natural-language/) |
@@ -67,6 +66,7 @@ artifacts: complete, index
 | **Choose a budgeting tool that fits your preferences and financial goals** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-budgeting-tool/) |
 | **Introduction to budgeting for students** | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-budgeting-for-students/) |
 | **Introduction to budgeting for students** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-budgeting-for-students/) |
+| **Create a personalized savings plan to work toward a financial goal** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-personalized-savings-plan/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-30.md](./microsoft-learn-2026-01-part-30.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-32.md](./microsoft-learn-2026-01-part-32.md)
