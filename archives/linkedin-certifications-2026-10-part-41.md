@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 41 of 41
 date_range: 2026-10 to 2026-10
-total_entries: 26
+total_entries: 33
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-41.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -41,6 +41,13 @@ artifacts: complete, index
 | 2026-10 | **Build Smarter AI with Embeddings** | IBM | [Verify Record](https://www.credly.com/badges/3d4cddad-a6f5-4ab6-991c-34d1f9d14b8b/linked_in_profile) |
 | 2026-10 | **Digital Marketing** | IBM | [Verify Record](https://www.credly.com/badges/e0f96371-5798-4e16-8417-405164dabf44/linked_in_profile) |
 | 2026-10 | **Digital Advertising Manager** | Demandbase | [Verify Record](https://www.credly.com/badges/33f65638-e4d7-43d1-905c-13c9b7e60ae7/linked_in_profile) |
+| 2026-10 | **Digital Marketing Manager** | Demandbase | [Verify Record](https://www.credly.com/badges/a1013828-b7d8-48ae-90b6-ac121fd5d6c7/linked_in_profile) |
+| 2026-10 | **Marketing Operations / IT Administrator** | Demandbase | [Verify Record](https://www.credly.com/badges/1717299e-6bb7-461f-917f-76379e7b4810/linked_in_profile) |
+| 2026-10 | **Account Executive** | Demandbase | [Verify Record](https://www.credly.com/badges/ba2e25ee-960d-4b21-b1e1-cd579f26aab6/linked_in_profile) |
+| 2026-10 | **Demandbase AI Practitioner** | Demandbase | [Verify Record](https://www.credly.com/badges/85a7839b-2953-4354-b567-705f1ae27ff6/linked_in_profile) |
+| 2026-10 | **Sales Manager** | Demandbase | [Verify Record](https://www.credly.com/badges/03038709-b6c2-440d-9334-0a13548b7fa1/linked_in_profile) |
+| 2026-10 | **Demandbase Pipeline Influence Practitioner** | Demandbase | [Verify Record](https://www.credly.com/badges/79f1bcbc-83c4-4836-bcbe-1cdb3bdf3db4/linked_in_profile) |
+| 2026-10 | **Sales Development Representative** | Demandbase | [Verify Record](https://www.credly.com/badges/1ae7b88c-c243-4c74-94d9-f8238a11809e/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-10-part-40.md](./linkedin-certifications-2026-10-part-40.md) | [Index](./linkedin-certifications-index.md) | Next: None

@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 40 of 41
 date_range: 2026-10 to 2026-10
-total_entries: 54
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-40.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,13 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-10 | **Digital Marketing Manager** | Demandbase | [Verify Record](https://www.credly.com/badges/a1013828-b7d8-48ae-90b6-ac121fd5d6c7/linked_in_profile) |
-| 2026-10 | **Marketing Operations / IT Administrator** | Demandbase | [Verify Record](https://www.credly.com/badges/1717299e-6bb7-461f-917f-76379e7b4810/linked_in_profile) |
-| 2026-10 | **Account Executive** | Demandbase | [Verify Record](https://www.credly.com/badges/ba2e25ee-960d-4b21-b1e1-cd579f26aab6/linked_in_profile) |
-| 2026-10 | **Demandbase AI Practitioner** | Demandbase | [Verify Record](https://www.credly.com/badges/85a7839b-2953-4354-b567-705f1ae27ff6/linked_in_profile) |
-| 2026-10 | **Sales Manager** | Demandbase | [Verify Record](https://www.credly.com/badges/03038709-b6c2-440d-9334-0a13548b7fa1/linked_in_profile) |
-| 2026-10 | **Demandbase Pipeline Influence Practitioner** | Demandbase | [Verify Record](https://www.credly.com/badges/79f1bcbc-83c4-4836-bcbe-1cdb3bdf3db4/linked_in_profile) |
-| 2026-10 | **Sales Development Representative** | Demandbase | [Verify Record](https://www.credly.com/badges/1ae7b88c-c243-4c74-94d9-f8238a11809e/linked_in_profile) |
 | 2026-10 | **Kong Gateway Foundations** | Kong | [Verify Record](https://www.credly.com/badges/0af05791-af55-4214-b9ee-f2ce15d2a35c/linked_in_profile) |
 | 2026-10 | **AWS Knowledge: AWS Communication Developer Services Fundamentals - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b001a553-a34a-469c-b597-3b8f4428f95b/linked_in_profile) |
 | 2026-10 | **Generative AI: From Prompts to Partnership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/45f8ee921e8f88d3f1284eff9995980652f48512aca4ee79c2092e1dfc227766) |
@@ -69,6 +62,11 @@ artifacts: complete, index
 | 2026-10 | **Microsoft 365 Copilot Chat (Basic) Quick Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8a27e62eb27018f352f3681242e59f62a9c6cd58ea07b08709959310160b551c) |
 | 2026-10 | **Copilot Cowork Quick Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5de60ba5942faf9be4932676d472af3082c19df3ea48b8cbcf1ab957f3c4177c) |
 | 2026-10 | **Microsoft Applied Skills: Integrate model context protocol tools with agents in Microsoft Foundry** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/D296FE0D58F3B6D0?sharingId) |
+| 2026-10 | **AWS Knowledge: Amazon Connect Developer - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b54fe6f0-0e84-46d6-8bf2-dfd997f49651/linked_in_profile) |
+| 2026-10 | **Teamwork Foundations (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a8f6f668b2cf734913bdc2899aa6b2b6a2d7c9a2d8ca82528bb5082f4eb34228) |
+| 2026-10 | **Learning Microsoft 365 Copilot for Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/339342b2a5fd135bb57b7230ce10fad15bb11c08376a50c57bfc1bf6018b8956) |
+| 2026-10 | **Microsoft Azure Essentials by Microsoft Press** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/69e688e0189684be87310ff1edd2cbaf0747931994311be90672c945afe18455) |
+| 2026-10 | **Serving Multimedia Content with Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28829629?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-10-part-39.md](./linkedin-certifications-2026-10-part-39.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-41.md](./linkedin-certifications-2026-10-part-41.md)
