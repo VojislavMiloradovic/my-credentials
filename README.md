@@ -59,8 +59,8 @@ Showing latest 10 of 5,006 achievements. View full dataset via [Platform Archive
 
 **Public Profile:** [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Total Portfolio Credentials:** 411
-**Total Verified Skills Mapped:** 410
+**Total Portfolio Credentials:** 413
+**Total Verified Skills Mapped:** 412
 
 #### Google Skills Learning Statistics
 
@@ -68,18 +68,20 @@ Showing latest 10 of 5,006 achievements. View full dataset via [Platform Archive
 | :--- | :---: |
 | **Check** | 2,031 |
 | **Classroom** | 0 |
-| **Course** | 420 |
+| **Course** | 422 |
 | **Game** | 11 |
-| **Lab** | 340 |
+| **Lab** | 342 |
 | **Lesson** | 5,053 |
 | **Path** | 19 |
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 411 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-10-part-09.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-10-part-09.md)), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 413 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-10-part-09.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-10-part-09.md)), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-17 | [MLOps with Agent Platform: Manage Features](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28927506) | Google Cloud | Google Skill Badge |
+| 2026-10-17 | [Introduction to AI and Machine Learning on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28926914) | Google Cloud | Google Skill Badge |
 | 2026-10-13 | [Developing Applications with Cloud Run on Google Cloud: Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28830363) | Google Cloud | Google Skill Badge |
 | 2026-10-13 | [Serving Multimedia Content with Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28829629) | Google Cloud | Google Skill Badge |
 | 2026-10-08 | [Arcade Simulator: Site Reliability Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28726632) | Google Cloud | Google Skill Badge |
@@ -88,8 +90,6 @@ Showing latest 10 of 411 credentials. View full dataset via [Platform Archive In
 | 2026-10-03 | [Create and Manage AlloyDB Instances](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28632451) | Google Cloud | Google Skill Badge |
 | 2026-10-03 | [Monitor Environments with Google Cloud Managed Service for Prometheus](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28632120) | Google Cloud | Google Skill Badge |
 | 2026-10-01 | [Google Cloud VMware Engine Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789) | Google Cloud | Google Skill Badge |
-| 2026-10-01 | [Store, Process, and Manage Data on Google Cloud - Command Line](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28586313) | Google Cloud | Google Skill Badge |
-| 2026-09-28 | [Migrate your VPC Firewall Policies to Cloud NGFW](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28470543) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials
