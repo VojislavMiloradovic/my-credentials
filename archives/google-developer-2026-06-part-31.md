@@ -1,7 +1,7 @@
 ---
 archive_platform: google-developer
 chunk_part: 31 of 36
-date_range: 2026-06-27 to 2026-06-29
+date_range: 2026-06-27 to 2026-06-30
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-31.md
 layer: L2_published
@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-30 | **Build a Daily Tech Digest Agent with Managed Agents on the Gemini API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tech-digest-managed-agent |
+| 2026-06-30 | **PSC-I RDMA VPC Multi-NIC Deployment Guide** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/psc-i-same-vpc-design |
+| 2026-06-29 | **Android Views and Compose in Views** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-8-pathway-1 |
+| 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #5: Chart and Present Data in Slides** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/apps-script-fundamentals-5 |
 | 2026-06-29 | **Implement Material Design in web apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/mdc-web |
 | 2026-06-29 | **Engage your web app's users with push notifications** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/pwa-push-notifications |
 | 2026-06-29 | **Wear OS** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/wear |
@@ -60,10 +64,6 @@ artifacts: complete, index
 | 2026-06-27 | **Get started with mobile text classification** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-mobile-text-classification |
 | 2026-06-27 | **Build a modern three-tier architecture web application with Cloud Run** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/solution-three-tier-cloud-run |
 | 2026-06-27 | **Get started with Google Maps Platform - web** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps |
-| 2026-06-27 | **Cloud Run and serverless computing** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/cloud-run-serverless-computing |
-| 2026-06-27 | **Get started with Google Maps Platform quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/get-started-maps/get-started-google-maps-platform |
-| 2026-06-27 | **Develop Java Apps on Google Cloud - Google for Developers** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/java-cloud-fundamentals |
-| 2026-06-27 | **Use Remote Config to update your Unity game without a release** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-remote-config-unity-games |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-30.md](./google-developer-2026-06-part-30.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-07-part-32.md](./google-developer-2026-07-part-32.md)

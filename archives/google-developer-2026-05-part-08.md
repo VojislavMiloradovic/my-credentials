@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-24 | **Explicit Chaining of GCP L7 Load Balancers with PSC** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/l7lb-chain-psc |
 | 2026-05-24 | **How to create a Private Services Connect for CloudSQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/psc-cloud-sql |
 | 2026-05-24 | **Private Service Connect Interface Managed Services** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/psc-interface-mgd-service |
 | 2026-05-24 | **Serverless MEAN Stack Application on MongoDB Atlas and Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mean-cloudrun-app |
@@ -61,7 +62,6 @@ artifacts: complete, index
 | 2026-05-24 | **Introduction to Compose for TV** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/compose-for-tv-introduction |
 | 2026-05-24 | **Secure shared data in use with Confidential Space** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/confidential-space |
 | 2026-05-24 | **Integrating Magento with Cloud Spanner** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/magento-cloud-spanner |
-| 2026-05-24 | **Jetpack Compose Navigation** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/jetpack-compose-navigation |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-07.md](./google-developer-2026-05-part-07.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-09.md](./google-developer-2026-05-part-09.md)

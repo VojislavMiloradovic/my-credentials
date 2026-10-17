@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 25 of 36
 date_range: 2026-06-09 to 2026-06-09
-total_entries: 46
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-25.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,9 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Optical Character Recognition (OCR) with Document AI (Python)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/docai-ocr-python |
+| 2026-06-09 | **Getting Started with Event-driven Cloud Run functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/getting-started-cloud-run-functions-event-driven |
+| 2026-06-09 | **Build Voice Bots for Android with Dialogflow Essentials & Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-flutter |
 | 2026-06-09 | **Wagtail on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-wagtail |
 | 2026-06-09 | **Connecting to CloudSQL via Private Service Connect (Terraform)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloudsql-psc-terraform |
 | 2026-06-09 | **Track Autofill Behavior with Google Analytics 4** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ga4-autofill-tracking |
@@ -59,8 +62,6 @@ artifacts: complete, index
 | 2026-06-09 | **Pic-a-daily: Lab 4—Create a web frontend** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab4 |
 | 2026-06-09 | **Using Gemini Code Assist to explore and enhance AI Summarization Jump Start Solution** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gemini-code-assist-developer-aisummarization-jss |
 | 2026-06-09 | **Pic-a-daily: Lab 1—Store and analyse pictures** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab1 |
-| 2026-06-09 | **Deploy a full stack Angular application to Cloud Run with Cloud SQL for PostgreSQL using the Cloud SQL Node.js Connector** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/cloud-sql-nodejs-connector-angular |
-| 2026-06-09 | **Migrating from Google App Engine Java app to Cloud Run with Docker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-gae-java-migrate-docker |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-24.md](./google-developer-2026-06-part-24.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-26.md](./google-developer-2026-06-part-26.md)

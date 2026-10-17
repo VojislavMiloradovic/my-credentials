@@ -15,6 +15,11 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-07 | **Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/sg-rush-hour-agent-platform-with-agy |
+| 2026-08-07 | **Build a Thread Network with the B91 Development Board and OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/telink-openthread-hardware |
+| 2026-08-07 | **Six Recipes for Reaching Near-100% Accurate Text-to-SQL in AlloyDB - codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-nla |
+| 2026-08-07 | **Simulate Thread Networks using OTNS** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-network-simulator |
+| 2026-08-07 | **Build a Thread network with nRF52840 boards and OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-hardware |
 | 2026-08-07 | **Simulating a Thread network with OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-simulation-posix |
 | 2026-08-07 | **Build a Multi-Agent Organic Chemistry Safety & Research Assistant with Antigravity, agents-cli, ADK & MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-parallel-multi-agent-chemistry-assistant |
 | 2026-08-07 | **Build a Thread Network with the ESP32H2 and ESP Thread Border Router Board** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/esp-openthread-hardware |
@@ -55,11 +60,6 @@ artifacts: complete, index
 | 2026-07-07 | **Build a microservice-based ecommerce web application with Kubernetes** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/solution-ecommerce-microservices-kubernetes |
 | 2026-07-07 | **Effectively engage users with Firebase** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-user-engagement |
 | 2026-07-07 | **Protect your app from abuse with App Check** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-app-check |
-| 2026-07-07 | **Basics of Kotlin Multiplatform** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/kotlin-multiplatform |
-| 2026-07-07 | **Agent Gateway egress from Agent Runtime to external MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-egress-emcp |
-| 2026-07-07 | **Use MFA, blocking functions, and cross-service Security Rules** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-mfa-security-rules |
-| 2026-07-07 | **Getting Started with Antigravity IDE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/getting-started-agy-ide |
-| 2026-07-07 | **Get started with Google Maps Platform for iOS** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps-ios |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-07-part-32.md](./google-developer-2026-07-part-32.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md)

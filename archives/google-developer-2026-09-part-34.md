@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 34 of 36
 date_range: 2026-08-07 to 2026-09-03
-total_entries: 47
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-34.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,12 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-09-03 | **Control JAX compilation with jax.jit** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-02-jit-compilation |
+| 2026-09-03 | **Export and serve a trained JAX model** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-08-serving-export |
+| 2026-09-03 | **Learn Car App Library fundamentals** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/car-app-library-fundamentals |
+| 2026-09-03 | **Train a model on GPU with JAX, Optax, and Fashion-MNIST** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-04-training-loop |
+| 2026-09-03 | **How to Run TorchServe and Stable Diffusion on Cloud Run GPUs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/how-to-use-stable-diffusion-cloud-run-gpu |
+| 2026-09-03 | **TPU-speed data pipelines: tf.data.Dataset and TFRecords** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/keras-flowers-data |
 | 2026-09-03 | **Run your first JAX program on NVIDIA GPUs with GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-01-getting-started |
 | 2026-09-03 | **Train a transformer end to end with Flax NNX and Orbax** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-07-transformer-end-to-end |
 | 2026-08-31 | **Looker PSC Southbound access to multiple Cloud SQL PSC instances through proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-looker-cloudsql-southbound-proxy |
@@ -57,11 +63,6 @@ artifacts: complete, index
 | 2026-08-13 | **Build, Secure, and Deploy an MCP Server on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-mcp-server-gcp |
 | 2026-08-10 | **Google Workspace MCP server connectors in Gemini Enterprise apps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-ge |
 | 2026-08-07 | **Developing with OpenThread APIs** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-apis |
-| 2026-08-07 | **Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/sg-rush-hour-agent-platform-with-agy |
-| 2026-08-07 | **Build a Thread Network with the B91 Development Board and OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/telink-openthread-hardware |
-| 2026-08-07 | **Six Recipes for Reaching Near-100% Accurate Text-to-SQL in AlloyDB - codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-nla |
-| 2026-08-07 | **Simulate Thread Networks using OTNS** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-network-simulator |
-| 2026-08-07 | **Build a Thread network with nRF52840 boards and OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-hardware |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-08-part-33.md](./google-developer-2026-08-part-33.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-35.md](./google-developer-2026-09-part-35.md)

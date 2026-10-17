@@ -15,6 +15,9 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Turn your big data into insights using Google Sheets and Slides** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/bigquery-sheets-slides |
+| 2026-06-09 | **Pic-a-daily: Lab 6—Orchestration with Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab6 |
+| 2026-06-09 | **Cloud Spanner: Your First Database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-first-db |
 | 2026-06-09 | **Exploratory data analysis of Iowa liquor sales using the BigQuery DataFrames package** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-dataframes-iowa-liquor-sales |
 | 2026-06-09 | **How to connect a Node.js application on Cloud Run to a Cloud SQL for PostgreSQL database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-sql-nodejs-connector |
 | 2026-06-09 | **Launching Google Ads Campaigns with Google Analytics Custom Events and Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter_ads |
@@ -59,9 +62,6 @@ artifacts: complete, index
 | 2026-06-09 | **Make email more actionable with Google Workspace Add-ons** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gmail-add-ons |
 | 2026-06-09 | **Using Document AI Warehouse to Ingest, Process, and Search Documents** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/docai-warehouse |
 | 2026-06-09 | **Cloud Spanner: Create a gaming leaderboard with Go** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-leaderboard-go |
-| 2026-06-09 | **Build a Kotlin Spring Application with Google Cloud Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-cloud-gcp-kotlin |
-| 2026-06-09 | **Using the Translation API with C#** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-translation-csharp |
-| 2026-06-09 | **Build and Deploy an AI-Powered Agent Diet Planner with Streamlit, Gemini Pro, Vertex AI and BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ai-diet-planner |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-22.md](./google-developer-2026-06-part-22.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-24.md](./google-developer-2026-06-part-24.md)

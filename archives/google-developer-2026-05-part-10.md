@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-26 | **Measure performance with web-vitals.js, Google Analytics and BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/web-vitals-google-analytics-bigquery |
 | 2026-05-26 | **How to Use Cloud Run with Gemini Function Calling** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/how-to-cloud-run-gemini-function-calling |
 | 2026-05-26 | **Reverse ETL from Databricks to Spanner using CSV** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/databricks-csv-spanner |
 | 2026-05-26 | **Dependency management with Artifact Registry** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dependency-management-artifact-registry |
@@ -61,7 +62,6 @@ artifacts: complete, index
 | 2026-05-26 | **Chat App with PaLM API on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/llm-chat-app-flask |
 | 2026-05-26 | **Customizing Machine Learning Models: the easy way** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/customizing-machine-learning-models-the-easy-way |
 | 2026-05-26 | **Recognize text and facial features with ML Kit: Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mlkit-android |
-| 2026-05-26 | **Learn to prototype Responsible AI with the PAIR Guidebook and MakerSuite** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/makersuite-responsible-ai |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-09.md](./google-developer-2026-05-part-09.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-11.md](./google-developer-2026-05-part-11.md)

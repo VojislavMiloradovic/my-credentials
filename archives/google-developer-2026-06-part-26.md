@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 26 of 36
 date_range: 2026-06-09 to 2026-06-10
-total_entries: 45
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-26.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-10 | **Getting Started with gRPC-Java - Streaming** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/getting-started-grpc-java-streaming |
+| 2026-06-10 | **Using BigQuery with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-bigquery-python |
+| 2026-06-10 | **Integrate fundamental AI concepts in Google Chat apps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/chat-apps-ai-concepts |
+| 2026-06-10 | **Get Started with Unity and Google Play Games for PC** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/android-google-play-games-unity-quickstart |
 | 2026-06-10 | **Deploy an ASP.NET Core app to App Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-app-engine-aspnetcore |
 | 2026-06-10 | **Deploy a Micronaut application containerized with Jib to Google Kubernetes Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-micronaut-kubernetes |
 | 2026-06-10 | **Extending support for App Engine bundled services: Part 1 (Module 17)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-17-bundled |
@@ -57,9 +61,6 @@ artifacts: complete, index
 | 2026-06-09 | **Getting Started with Cloud Run functions (HTTP)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/getting-started-with-cloud-run-functions-http |
 | 2026-06-09 | **Getting started with Cloud Functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-starting-cloudfunctions |
 | 2026-06-09 | **Deploy a basic "Google Translate" app on Python 3 Cloud Run (Docker)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-nebulous-serverless-python-gcr3 |
-| 2026-06-09 | **Optical Character Recognition (OCR) with Document AI (Python)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/docai-ocr-python |
-| 2026-06-09 | **Getting Started with Event-driven Cloud Run functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/getting-started-cloud-run-functions-event-driven |
-| 2026-06-09 | **Build Voice Bots for Android with Dialogflow Essentials & Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-flutter |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-25.md](./google-developer-2026-06-part-25.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-27.md](./google-developer-2026-06-part-27.md)

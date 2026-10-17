@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
 chunk_part: 32 of 36
-date_range: 2026-06-29 to 2026-07-07
-total_entries: 49
+date_range: 2026-06-30 to 2026-07-07
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-07-part-32.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,11 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-07-07 | **Basics of Kotlin Multiplatform** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/kotlin-multiplatform |
+| 2026-07-07 | **Agent Gateway egress from Agent Runtime to external MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-egress-emcp |
+| 2026-07-07 | **Use MFA, blocking functions, and cross-service Security Rules** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-mfa-security-rules |
+| 2026-07-07 | **Getting Started with Antigravity IDE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/getting-started-agy-ide |
+| 2026-07-07 | **Get started with Google Maps Platform for iOS** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps-ios |
 | 2026-07-07 | **Test your app with Firebase and Continuous Integration** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-continuous-integration |
 | 2026-07-03 | **Google Cloud MCP for AlloyDB for AI Agents** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-mcp |
 | 2026-07-03 | **Vibe Coding with AlloyDB: From 0 to Prod with Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vibe-coding-postgres-mcp |
@@ -60,10 +65,6 @@ artifacts: complete, index
 | 2026-06-30 | **Build apps with Android Enterprise** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-enterprise-build-apps |
 | 2026-06-30 | **Go further with comment spam detection** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/going-further-text-classification-web |
 | 2026-06-30 | **Setup Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-1-pathway-2 |
-| 2026-06-30 | **Build a Daily Tech Digest Agent with Managed Agents on the Gemini API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tech-digest-managed-agent |
-| 2026-06-30 | **PSC-I RDMA VPC Multi-NIC Deployment Guide** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/psc-i-same-vpc-design |
-| 2026-06-29 | **Android Views and Compose in Views** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-8-pathway-1 |
-| 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #5: Chart and Present Data in Slides** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/apps-script-fundamentals-5 |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-31.md](./google-developer-2026-06-part-31.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-08-part-33.md](./google-developer-2026-08-part-33.md)

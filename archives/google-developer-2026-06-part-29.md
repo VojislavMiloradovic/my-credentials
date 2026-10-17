@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-22 | **Create an online banking application with Spanner** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spanner-online-banking-app |
+| 2026-06-22 | **Calculate Revenue Buckets for SKAd Network Conversion Value Schema** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/ios_skancv |
+| 2026-06-22 | **Alloydb Omni Vm Deployment** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-vm-deployment [WARN] *Content retired* |
+| 2026-06-22 | **Data Science with Spark** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/spark-ds-agents |
 | 2026-06-22 | **Building a Serverless Data Pipeline: IoT to Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/iot-data-pipeline |
 | 2026-06-22 | **Add Firebase to your Flutter app** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-flutter |
 | 2026-06-22 | **Create a Generative Chat App with Vertex AI Conversation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vertex-ai-conversation |
@@ -60,10 +64,6 @@ artifacts: complete, index
 | 2026-06-20 | **Build with Firebase Data Connect (iOS / Swift)** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-dataconnect-ios |
 | 2026-06-20 | **Building Personalized Agents with ADK, MCP, and Memory Bank** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/christmas-card/instructions |
 | 2026-06-20 | **Build a chat app with the Conversational Analytics API for Looker and BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/looker-ca-api |
-| 2026-06-20 | **Build a Patent Search App with AlloyDB, Vector Search & Vertex AI!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/patent-search-alloydb-gemini |
-| 2026-06-20 | **Build a complete integration with Health Connect** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/health-connect |
-| 2026-06-20 | **Building Persistent AI Agents with ADK and CloudSQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/persistent-adk-cloudsql |
-| 2026-06-20 | **Build QA Test Planner Agent using ADK, MCP, and Gemini 2.5 Flash with Thinking Mode** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/qa-test-planner-adk-mcp |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-28.md](./google-developer-2026-06-part-28.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-30.md](./google-developer-2026-06-part-30.md)

@@ -15,6 +15,9 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-06 | **Build enterprise apps on Android quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-enterprise-build-apps/android-enterprise-build-apps |
+| 2026-06-06 | **Write conditionals in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-conditionals |
+| 2026-06-06 | **Build adaptive apps with Jetpack Compose** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jetpack-compose-adaptability |
 | 2026-06-06 | **Practice: Compose Basics** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-composables-practice-problems |
 | 2026-06-05 | **Android Basics Compose Unit 8 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 2). |
 | 2026-06-05 | **Engage Users With Firebase** | Official Google Developer platform achievement (Learning Pathway: engage users with firebase). |
@@ -78,9 +81,6 @@ artifacts: complete, index
 | 2026-06-05 | **Android Basics Compose Unit 5 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 5 pathway 2). |
 | 2026-06-05 | **Ai Gemini 101** | Official Google Developer platform achievement (Learning Pathway: ai gemini 101). |
 | 2026-06-05 | **Learn Images** | Official Google Developer platform achievement (Learning Pathway: learn images). |
-| 2026-06-05 | **Jetpack Compose For Android Developers 2** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 2). |
-| 2026-06-05 | **Android Development With Kotlin 11** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 11). |
-| 2026-06-05 | **Earned Badge** | Official Google Developer platform achievement (Learning Pathway: earned badge). |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-19.md](./google-developer-2026-06-part-19.md)

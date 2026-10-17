@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
 chunk_part: 36 of 36
-date_range: 2026-09-29 to 2026-10-13
-total_entries: 37
+date_range: 2026-09-29 to 2026-10-17
+total_entries: 40
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-10-part-36.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,14 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-10-17 | **Build an AI agent with Google ADK and MCP to interact with Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/looker-mcp-adk-codelab |
+| 2026-10-17 | **Progressive Web Apps: Working with Workbox** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa2-working_with_workbox |
+| 2026-10-17 | **How to Deploy Autonomous Agents with the Claude Agent SDK on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-claude-agents-cloud-run |
+| 2026-10-17 | **Progressive Web Apps: Service Worker Includes** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa7-service_worker_includes |
+| 2026-10-17 | **Dynamic MCP Server Discovery with Agent Registry and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-registry-dynamic-discovery-with-adk |
+| 2026-10-17 | **Table for N — Agent Eval and the Self-Evolving Loop with ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/table-for-n/instructions |
+| 2026-10-17 | **Progressive Web Apps: IndexedDB** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa3-indexeddb |
+| 2026-10-17 | **Real time communication with WebRTC** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/web-rtc |
 | 2026-10-13 | **Deploy application with Compose Specification to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-run-compose-application |
 | 2026-10-13 | **Build custom Google Workspace Studio steps in Node.js on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/workspace-studio-custom-extensions-nodejs |
 | 2026-10-13 | **Multimodal analytics and zero-shot forecasting with Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/multimodal-analytics-zero-shot-forecasting |
@@ -47,11 +55,6 @@ artifacts: complete, index
 | 2026-09-29 | **Gemini Enterprise with Agent Gateway egress to private custom MCP server using Agent Registry** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-ge-custom-mcp-egress-vpc-registry |
 | 2026-09-29 | **Using TypeSafe AI's Jev model with AlloyDB AI Functions for High-Speed AI Queries** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-jev |
 | 2026-09-29 | **Enhancing e-commerce checkout with browser AI capabilities** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/enhancing-ecommerce-web-ai |
-| 2026-09-29 | **Fe Track Planner Mcp Toolbox Adk** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/en/fe-track-planner-mcp-toolbox-adk [WARN] *Content retired* |
-| 2026-09-29 | **Your First Course on Google Cloud 2026** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-foundation-one |
-| 2026-09-29 | **Architecting Long-Term Agent Memory with BigQuery and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-agent-long-term-memory-bigquery |
-| 2026-09-29 | **Architecting an Autonomous Software Factory: End-to-End Agentic Delivery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/software-factory-end-to-end |
-| 2026-09-29 | **Build a Multimodal Durian Sommelier with ADK and Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/durian-sommelier-multi-agent-adk |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-09-part-35.md](./google-developer-2026-09-part-35.md) | [Index](./google-developer-index.md) | Next: None

@@ -1,7 +1,7 @@
 ---
 archive_platform: google-developer
 chunk_part: 28 of 36
-date_range: 2026-06-17 to 2026-06-20
+date_range: 2026-06-18 to 2026-06-20
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-28.md
 layer: L2_published
@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-20 | **Build a Patent Search App with AlloyDB, Vector Search & Vertex AI!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/patent-search-alloydb-gemini |
+| 2026-06-20 | **Build a complete integration with Health Connect** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/health-connect |
+| 2026-06-20 | **Building Persistent AI Agents with ADK and CloudSQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/persistent-adk-cloudsql |
+| 2026-06-20 | **Build QA Test Planner Agent using ADK, MCP, and Gemini 2.5 Flash with Thinking Mode** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/qa-test-planner-adk-mcp |
 | 2026-06-20 | **Build a handwritten digit classifier app with TensorFlow Lite** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/digit-classifier-tflite |
 | 2026-06-20 | **Build, train, and deploy an XGBoost model on Cloud AI Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/xgb-caip-e2e |
 | 2026-06-20 | **Build a handwritten digit classifier Android app with MediaPipe Tasks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mp-digit-classifier-android |
@@ -58,10 +62,6 @@ artifacts: complete, index
 | 2026-06-18 | **Build Rich Agentic Interfaces with ADK and A2UI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-gemini-a2ui |
 | 2026-06-18 | **Accelerating Development with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/genai-for-dev-antigravity-cli |
 | 2026-06-18 | **Google Developer Knowledge MCP server in Google Antigravity 2.0, IDE, and/or CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/developer-knowledge-mcp-antigravity |
-| 2026-06-18 | **Programmatic data quality with Knowledge Catalog and generative AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/programmatic-dq |
-| 2026-06-18 | **Connect and visualize all your data in Data Studio** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/community-connectors |
-| 2026-06-17 | **Hands-on with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/antigravity-cli-hands-on |
-| 2026-06-17 | **Vibecode and Secure an AI Agent Lifecycle with Antigravity and TDD** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-agentic-coding |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-27.md](./google-developer-2026-06-part-27.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-29.md](./google-developer-2026-06-part-29.md)

@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 14 of 36
 date_range: 2026-06-02 to 2026-06-03
-total_entries: 47
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-14.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-03 | **Build an interactive poll app for Google Chat with Node.js** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/google-chat-poll-app |
+| 2026-06-03 | **Advanced Authentication features** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/auth-mfa-blocking-functions |
 | 2026-06-03 | **Firebase Cross Device Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/cross-device-controller |
 | 2026-06-03 | **Use Remote Config to update your Unity game without a release quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-remote-config/use-remote-config-to-update-game-without-a-release |
 | 2026-06-03 | **Integrate Test Lab into your CI/CD system** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/ci-with-testlab |
@@ -61,7 +63,6 @@ artifacts: complete, index
 | 2026-06-02 | **Building Beautiful Transitions with Material Motion for Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/material-motion-flutter |
 | 2026-06-02 | **Connect a Spring Boot app to Cloud SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-petclinic-cloudsql |
 | 2026-06-02 | **Distributed tracing with Spring Cloud Sleuth and Cloud Trace** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-cloud-gcp-trace |
-| 2026-06-02 | **Build, containerize, and deploy Spring Boot apps on Google Cloud quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/java-cloud-fundamentals/build-containerize-deploy-spring-boot-apps-on-google-cloud |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-13.md](./google-developer-2026-06-part-13.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-15.md](./google-developer-2026-06-part-15.md)

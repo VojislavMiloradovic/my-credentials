@@ -205,7 +205,7 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 172 |
-| **Total Codelabs & Learning Activities** | 1,689 |
+| **Total Codelabs & Learning Activities** | 1,697 |
 
 #### Latest Achievements
 
@@ -213,16 +213,16 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| *2026-10-17* | **Build an AI agent with Google ADK and MCP to interact with Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/looker-mcp-adk-codelab |
+| *2026-10-17* | **Progressive Web Apps: Working with Workbox** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa2-working_with_workbox |
+| *2026-10-17* | **How to Deploy Autonomous Agents with the Claude Agent SDK on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-claude-agents-cloud-run |
+| *2026-10-17* | **Progressive Web Apps: Service Worker Includes** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa7-service_worker_includes |
+| *2026-10-17* | **Dynamic MCP Server Discovery with Agent Registry and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-registry-dynamic-discovery-with-adk |
+| *2026-10-17* | **Table for N — Agent Eval and the Self-Evolving Loop with ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/table-for-n/instructions |
+| *2026-10-17* | **Progressive Web Apps: IndexedDB** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa3-indexeddb |
+| *2026-10-17* | **Real time communication with WebRTC** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/web-rtc |
 | *2026-10-13* | **Deploy application with Compose Specification to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-run-compose-application |
 | *2026-10-13* | **Build custom Google Workspace Studio steps in Node.js on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/workspace-studio-custom-extensions-nodejs |
-| *2026-10-13* | **Multimodal analytics and zero-shot forecasting with Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/multimodal-analytics-zero-shot-forecasting |
-| *2026-10-13* | **Build a Gmail Add-on using Antigravity CLI and Apps Script** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agy-apps-script-gmail-addon |
-| *2026-10-13* | **Build a Task Management Add-on for Google Workspace Studio** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-studio-firestore-addon |
-| *2026-10-13* | **Build a Thread Network with Texas Instruments SimpleLink F3 and OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/ti-openthread-hardware |
-| *2026-10-08* | **Build & Deploy a Formula E AI Kiosk with Gemini Omni & Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/formula-e-genmedia-lab-codelab |
-| *2026-10-08* | **Build an Agentic Data Cloud System of Action with Spanner Graph, Borderless Lakehouse, GEV AI, Gemini Enterprise & Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/beacon-disaster-readiness |
-| *2026-10-08* | **Build a Formula E Driver Performance Analyzer App with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/fe-antigravity-cli-cicd |
-| *2026-10-08* | **Advanced AI, Graph Analysis and Conversational Agents with BigQuery AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/advanced-bigquery-ai |
 <!-- GOOGLE_DEVELOPER_END -->
 
 

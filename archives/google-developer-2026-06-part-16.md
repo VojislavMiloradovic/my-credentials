@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 16 of 36
 date_range: 2026-06-05 to 2026-06-05
-total_entries: 61
+total_entries: 62
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-16.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,9 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Aog Smart Home** | Official Google Developer platform achievement (Learning Pathway: aog smart home). |
+| 2026-06-05 | **Local Development With Emulator Suite** | Official Google Developer platform achievement (Learning Pathway: local_development_with_emulator_suite). |
+| 2026-06-05 | **Android Basics Compose Unit 3 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 3 pathway 2). |
 | 2026-06-05 | **Get Started Audio Classification** | Official Google Developer platform achievement (Learning Pathway: get started audio classification). |
 | 2026-06-05 | **Learn Privacy** | Official Google Developer platform achievement (Learning Pathway: learn privacy). |
 | 2026-06-05 | **Android Basics Compose Unit 8 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 1). |
@@ -74,8 +77,6 @@ artifacts: complete, index
 | 2026-06-05 | **Add a map to your Android app (Kotlin)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/maps-platform-101-android |
 | 2026-06-05 | **MDC-102 Android: Material Structure and Layout (Java)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/mdc-102-java |
 | 2026-06-05 | **Build an Android App with Views** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-app-with-views |
-| 2026-06-05 | **Build your own Current Place picker for Android (Java)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/location-places-android |
-| 2026-06-05 | **Advanced Android in Kotlin 04.1: Android Google Maps** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/advanced-android-kotlin-training-maps |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-15.md](./google-developer-2026-06-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md)

@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-02 | **Build, containerize, and deploy Spring Boot apps on Google Cloud quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/java-cloud-fundamentals/build-containerize-deploy-spring-boot-apps-on-google-cloud |
 | 2026-06-02 | **Your first Flutter app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter-codelab-first |
 | 2026-06-02 | **Update your app to use a spam filtering Machine Learning model** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-nlp-update-app |
 | 2026-06-02 | **Get started with the Scene Semantics and Geospatial Depth APIs in ARCore** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/arcore-scene-semantics-geospatial-depth |
@@ -63,7 +64,6 @@ artifacts: complete, index
 | 2026-05-30 | **Create a custom object detection web app with MediaPipe** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mp-object-detection-web |
 | 2026-05-30 | **Understanding Skaffold** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/understanding-skaffold |
 | 2026-05-30 | **Vertex AI Pipelines PSC Interface Explicit Proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/pipelines-psc-interface-proxy |
-| 2026-05-30 | **Vertex AI: Training and serving a custom model** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex_custom_training_prediction |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-12.md](./google-developer-2026-05-part-12.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-14.md](./google-developer-2026-06-part-14.md)

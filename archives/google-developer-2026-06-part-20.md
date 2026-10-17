@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-07 | **Vertex Mlmd Pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-mlmd-pipelines [WARN] *Content retired* |
+| 2026-06-07 | **TCP Proxy Codelab - Rate limiting and IP Deny list with TCP Proxy Load balancer** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tcp-proxylb-ssl-proxylb |
 | 2026-06-07 | **(Deprecated) Use Kotlin Coroutines in your Android App** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/kotlin-coroutines |
 | 2026-06-07 | **(Deprecated) Android Paging Advanced codelab** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-paging |
 | 2026-06-07 | **Vertex AI: Co-host models on the same VM for predictions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-cohost-prediction |
@@ -60,8 +62,6 @@ artifacts: complete, index
 | 2026-06-06 | **Introduction to Coroutines in Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-coroutines-android-studio |
 | 2026-06-06 | **Run your first app on the Android Emulator** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-emulator |
 | 2026-06-06 | **Lesson 6: App navigation** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-6/android-development-with-kotlin-6 |
-| 2026-06-06 | **Accessibility, testing, and performance** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/jetpack-compose-for-android-developers-4/jetpack-compose-for-android-developers-4 |
-| 2026-06-06 | **Lesson 8: App architecture (UI layer)** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-8/android-development-with-kotlin-8 |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-19.md](./google-developer-2026-06-part-19.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-21.md](./google-developer-2026-06-part-21.md)

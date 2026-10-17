@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 35 of 36
 date_range: 2026-09-03 to 2026-09-29
-total_entries: 47
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,11 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-09-29 | **Fe Track Planner Mcp Toolbox Adk** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/en/fe-track-planner-mcp-toolbox-adk [WARN] *Content retired* |
+| 2026-09-29 | **Your First Course on Google Cloud 2026** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-foundation-one |
+| 2026-09-29 | **Architecting Long-Term Agent Memory with BigQuery and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-agent-long-term-memory-bigquery |
+| 2026-09-29 | **Architecting an Autonomous Software Factory: End-to-End Agentic Delivery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/software-factory-end-to-end |
+| 2026-09-29 | **Build a Multimodal Durian Sommelier with ADK and Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/durian-sommelier-multi-agent-adk |
 | 2026-09-29 | **Remote Attestation and Secure Key Release on Intel TDX Confidential VMs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/confidential-vm-tdx |
 | 2026-09-29 | **Real-time Accelerated Image Segmentation on Android with LiteRT** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/litert-image-segmentation-android |
 | 2026-09-29 | **Build an Agentic Pitch Generator: Orchestration, Evaluation, and Analytics with Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bwg-agentic-masterclass |
@@ -56,12 +61,6 @@ artifacts: complete, index
 | 2026-09-03 | **Speed up attention on GPU with cuDNN and TransformerEngine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-05-attention-gpu |
 | 2026-09-03 | **FraudFinder: From raw data to AI with Vertex AI and BigQuery.** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/fraudfinder-bqml |
 | 2026-09-03 | **Your First Agent — Summoning at Agent Valley** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-valley/instructions |
-| 2026-09-03 | **Control JAX compilation with jax.jit** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-02-jit-compilation |
-| 2026-09-03 | **Export and serve a trained JAX model** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-08-serving-export |
-| 2026-09-03 | **Learn Car App Library fundamentals** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/car-app-library-fundamentals |
-| 2026-09-03 | **Train a model on GPU with JAX, Optax, and Fashion-MNIST** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-04-training-loop |
-| 2026-09-03 | **How to Run TorchServe and Stable Diffusion on Cloud Run GPUs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/how-to-use-stable-diffusion-cloud-run-gpu |
-| 2026-09-03 | **TPU-speed data pipelines: tf.data.Dataset and TFRecords** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/keras-flowers-data |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-10-part-36.md](./google-developer-2026-10-part-36.md)

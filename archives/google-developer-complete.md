@@ -1,17 +1,25 @@
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1742 records.
+This document represents a unified, verifiable list of all 1749 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-17T03:03:50.789149+00:00 -->
+<!-- retrieved_at: 2026-10-17T12:45:55.289867+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-10-17 | **Build an AI agent with Google ADK and MCP to interact with Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/looker-mcp-adk-codelab |
+| 2026-10-17 | **Progressive Web Apps: Working with Workbox** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa2-working_with_workbox |
+| 2026-10-17 | **How to Deploy Autonomous Agents with the Claude Agent SDK on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-claude-agents-cloud-run |
+| 2026-10-17 | **Progressive Web Apps: Service Worker Includes** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa7-service_worker_includes |
+| 2026-10-17 | **Dynamic MCP Server Discovery with Agent Registry and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-registry-dynamic-discovery-with-adk |
+| 2026-10-17 | **Table for N — Agent Eval and the Self-Evolving Loop with ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/table-for-n/instructions |
+| 2026-10-17 | **Progressive Web Apps: IndexedDB** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa3-indexeddb |
+| 2026-10-17 | **Real time communication with WebRTC** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/web-rtc |
 | 2026-10-13 | **Deploy application with Compose Specification to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-run-compose-application |
 | 2026-10-13 | **Build custom Google Workspace Studio steps in Node.js on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/workspace-studio-custom-extensions-nodejs |
 | 2026-10-13 | **Multimodal analytics and zero-shot forecasting with Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/multimodal-analytics-zero-shot-forecasting |
@@ -1436,7 +1444,6 @@ This document represents a unified, verifiable list of all 1742 records.
 | 2026-05-24 | **Autoscale Cloud Run worker pools based on the Pub/Sub queue volume using CREMA** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/crema-autoscaler-pubsub-workerpool |
 | 2026-05-24 | **Build a simple iOS navigation app in Swift with Google Maps Platform Navigation SDK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/maps-platform/navigation-sdk-101-ios |
 | 2026-05-24 | **A Beginner's Workshop for Antigravity CLI & ADK (Build Your First AI Companion)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/companion-adk-beginner/instructions |
-| 2026-05-24 | **Real time communication with WebRTC** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/webrtc-web |
 | 2026-05-24 | **Lab 3: Prototype to Production - Deploy Your ADK Agent to Cloud Run with GPU** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-connect-adk-to-deployed-cloud-run-llm |
 | 2026-05-24 | **Build AI Agents with the Agent Development Kit (ADK) for Java** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-java-getting-started |
 | 2026-05-24 | **VPC Service Controls Basic Tutorial I** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vpc-sc-beginnerlab-1 |

@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 24 of 36
 date_range: 2026-06-09 to 2026-06-09
-total_entries: 47
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-24.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Deploy a full stack Angular application to Cloud Run with Cloud SQL for PostgreSQL using the Cloud SQL Node.js Connector** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/cloud-sql-nodejs-connector-angular |
+| 2026-06-09 | **Migrating from Google App Engine Java app to Cloud Run with Docker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-gae-java-migrate-docker |
 | 2026-06-09 | **Deploy a JavaScript application to Cloud Run with AlloyDB** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/alloydb-nodejs |
 | 2026-06-09 | **Spring Boot application with Cloud Spanner** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-spanner |
 | 2026-06-09 | **How to deploy a FastAPI chatbot app to Cloud Run using Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-fastapi-chat-app-gemini |
@@ -59,9 +61,6 @@ artifacts: complete, index
 | 2026-06-09 | **Run inference using a Gemma model on Cloud Run with RTX 6000 Pro GPU** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-gpu-rtx-pro-6000 |
 | 2026-06-09 | **Deploy and run a container with Cloud Run on Node.js** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-hello |
 | 2026-06-09 | **Using the Video Intelligence API with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-video-intelligence-python3 |
-| 2026-06-09 | **Turn your big data into insights using Google Sheets and Slides** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/bigquery-sheets-slides |
-| 2026-06-09 | **Pic-a-daily: Lab 6—Orchestration with Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab6 |
-| 2026-06-09 | **Cloud Spanner: Your First Database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-first-db |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-23.md](./google-developer-2026-06-part-23.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-25.md](./google-developer-2026-06-part-25.md)

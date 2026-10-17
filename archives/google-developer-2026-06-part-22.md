@@ -15,6 +15,9 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-09 | **Build a Kotlin Spring Application with Google Cloud Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-cloud-gcp-kotlin |
+| 2026-06-09 | **Using the Translation API with C#** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-translation-csharp |
+| 2026-06-09 | **Build and Deploy an AI-Powered Agent Diet Planner with Streamlit, Gemini Pro, Vertex AI and BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ai-diet-planner |
 | 2026-06-09 | **Generative AI text generation in Java with PaLM and LangChain4J** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/genai-text-gen-java-palm-langchain4j |
 | 2026-06-09 | **Using revisions in Cloud Run for Traffic Splitting, Gradual Rollouts, and Rollbacks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/revisions-cloud-run-traffic-splitting-gradual-rollout-rollbacks |
 | 2026-06-09 | **Code Customization with Gemini Code Assist Enterprise** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/code-assist-enterprise |
@@ -59,9 +62,6 @@ artifacts: complete, index
 | 2026-06-07 | **(Deprecated) People: Conversations and Bubbles** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-people |
 | 2026-06-07 | **Android 11—Week 9—Large screens quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week9-large-screens/android-11-week-9-2 |
 | 2026-06-07 | **Quality Controlled RAG with AlloyDB's latest Vector Search Features!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/patent-search-rag-recall |
-| 2026-06-07 | **Code Lab: NCC VPC as a Spoke** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ncc-vpc-as-spoke |
-| 2026-06-07 | **Vertex AI Vision Motion Filter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-ai-vision-motion-filter |
-| 2026-06-07 | **Codelab: Spanner MCP Server** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spanner-mcp-server |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-21.md](./google-developer-2026-06-part-21.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-23.md](./google-developer-2026-06-part-23.md)

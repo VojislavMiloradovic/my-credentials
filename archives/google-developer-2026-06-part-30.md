@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-27 | **Cloud Run and serverless computing** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/cloud-run-serverless-computing |
+| 2026-06-27 | **Get started with Google Maps Platform quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/get-started-maps/get-started-google-maps-platform |
+| 2026-06-27 | **Develop Java Apps on Google Cloud - Google for Developers** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/java-cloud-fundamentals |
+| 2026-06-27 | **Use Remote Config to update your Unity game without a release** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-remote-config-unity-games |
 | 2026-06-27 | **Add Firebase to your Flutter app: Advanced** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-flutter-advanced |
 | 2026-06-27 | **Get started with Google Maps Platform for Android** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps-android |
 | 2026-06-27 | **Understand your game's crashes using advanced Crashlytics features** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-advanced-crashlytics-unity-games |
@@ -60,10 +64,6 @@ artifacts: complete, index
 | 2026-06-22 | **Data to Generative AI with Spanner and Vertex AI Imagen API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/springboot-posegenerator-imagen |
 | 2026-06-22 | **Building Change Data Capture using Dataproc and Cloud Pub/Sub** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cdc-using-dataproc-cloud-pubsub |
 | 2026-06-22 | **Building a gRPC service with C#** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-grpc-csharp |
-| 2026-06-22 | **Create an online banking application with Spanner** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spanner-online-banking-app |
-| 2026-06-22 | **Calculate Revenue Buckets for SKAd Network Conversion Value Schema** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/ios_skancv |
-| 2026-06-22 | **Alloydb Omni Vm Deployment** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-vm-deployment [WARN] *Content retired* |
-| 2026-06-22 | **Data Science with Spark** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/spark-ds-agents |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-29.md](./google-developer-2026-06-part-29.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-31.md](./google-developer-2026-06-part-31.md)

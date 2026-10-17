@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-05 | **Build your own Current Place picker for Android (Java)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/location-places-android |
+| 2026-06-05 | **Advanced Android in Kotlin 04.1: Android Google Maps** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/advanced-android-kotlin-training-maps |
 | 2026-06-05 | **Module 2: Inspect** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/data-cards-inspect |
 | 2026-06-05 | **Create a widget with Glance** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/glance |
 | 2026-06-05 | **Build a serverless Ecommerce web app with Python, Cloud Run, Cloud SQL, and Firebase** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/solution-ecommerce-serverless-django |
@@ -61,8 +63,6 @@ artifacts: complete, index
 | 2026-06-03 | **Build an Android app with Jetpack Compose and Firebase** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/firebase-android-jetpack |
 | 2026-06-03 | **Monitor new features with Firebase Performance Monitoring** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/monitor-new-features-firebase-performance-monitoring/monitor-new-features-firebase-performance-monitoring |
 | 2026-06-03 | **Measure load time and screen rendering with Firebase Performance Monitoring** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/measure-android-view-performance |
-| 2026-06-03 | **Build an interactive poll app for Google Chat with Node.js** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/google-chat-poll-app |
-| 2026-06-03 | **Advanced Authentication features** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/auth-mfa-blocking-functions |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-14.md](./google-developer-2026-06-part-14.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-16.md](./google-developer-2026-06-part-16.md)

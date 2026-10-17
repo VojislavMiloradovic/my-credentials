@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 21 of 36
 date_range: 2026-06-07 to 2026-06-07
-total_entries: 48
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-21.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,9 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-07 | **Code Lab: NCC VPC as a Spoke** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ncc-vpc-as-spoke |
+| 2026-06-07 | **Vertex AI Vision Motion Filter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-ai-vision-motion-filter |
+| 2026-06-07 | **Codelab: Spanner MCP Server** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spanner-mcp-server |
 | 2026-06-07 | **Install Android 11 GSI for App Testing** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/using-android-q-gsi |
 | 2026-06-07 | **Composite Health for Private Service Connect** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/psc-health-ga |
 | 2026-06-07 | **Pic-a-daily: Lab 5—Cleanup after image deletion** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab5 |
@@ -61,8 +64,6 @@ artifacts: complete, index
 | 2026-06-07 | **(Deprecated) Converting to Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/java-to-kotlin |
 | 2026-06-07 | **Build an AI-powered outfit recommendation app with AlloyDB and serverless runtimes** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/smart-stylist-app |
 | 2026-06-07 | **Integrate the Vision API with Dialogflow** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/chatbots-dialogflow-visionAPI |
-| 2026-06-07 | **Vertex Mlmd Pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-mlmd-pipelines [WARN] *Content retired* |
-| 2026-06-07 | **TCP Proxy Codelab - Rate limiting and IP Deny list with TCP Proxy Load balancer** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tcp-proxylb-ssl-proxylb |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-20.md](./google-developer-2026-06-part-20.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-22.md](./google-developer-2026-06-part-22.md)

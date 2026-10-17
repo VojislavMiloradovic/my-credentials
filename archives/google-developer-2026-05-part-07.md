@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-05-24 | **Jetpack Compose Navigation** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/jetpack-compose-navigation |
 | 2026-05-24 | **Simple Animation with Jetpack Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-woof-animation |
 | 2026-05-24 | **Microservice Rainbow Rumpus** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/rainbowrumpus |
 | 2026-05-24 | **Build and test a parked app for Android Automotive OS** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/build-a-parked-app |
@@ -26,7 +27,6 @@ artifacts: complete, index
 | 2026-05-24 | **Autoscale Cloud Run worker pools based on the Pub/Sub queue volume using CREMA** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/crema-autoscaler-pubsub-workerpool |
 | 2026-05-24 | **Build a simple iOS navigation app in Swift with Google Maps Platform Navigation SDK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/maps-platform/navigation-sdk-101-ios |
 | 2026-05-24 | **A Beginner's Workshop for Antigravity CLI & ADK (Build Your First AI Companion)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/companion-adk-beginner/instructions |
-| 2026-05-24 | **Real time communication with WebRTC** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/webrtc-web |
 | 2026-05-24 | **Lab 3: Prototype to Production - Deploy Your ADK Agent to Cloud Run with GPU** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-connect-adk-to-deployed-cloud-run-llm |
 | 2026-05-24 | **Build AI Agents with the Agent Development Kit (ADK) for Java** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-java-getting-started |
 | 2026-05-24 | **VPC Service Controls Basic Tutorial I** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vpc-sc-beginnerlab-1 |
